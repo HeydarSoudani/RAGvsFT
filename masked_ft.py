@@ -16,18 +16,6 @@ import math
 from tqdm.auto import tqdm
 
 
-model_checkpoint = "distilbert-base-uncased"
-model = AutoModelForMaskedLM.from_pretrained(model_checkpoint)
-tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
-data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm_probability=0.15)
-
-chunk_size = 128
-batch_size = 64
-wwm_probability = 0.2
-train_size = 10_000
-test_size = int(0.1 * train_size)
-num_train_epochs = 2
-
 def tokenize_function(examples):
     result = tokenizer(examples["text"])
     if tokenizer.is_fast:
@@ -216,4 +204,15 @@ def main():
 
 
 if __name__ == "__main__":    
+    model_checkpoint = "distilbert-base-uncased"
+    model = AutoModelForMaskedLM.from_pretrained(model_checkpoint)
+    tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
+    data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm_probability=0.15)
+
+    chunk_size = 128
+    batch_size = 64
+    wwm_probability = 0.2
+    train_size = 10_000
+    test_size = int(0.1 * train_size)
+    num_train_epochs = 2
     main()
