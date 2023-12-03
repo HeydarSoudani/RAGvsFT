@@ -87,65 +87,65 @@ def main():
     num_train_epochs = 2
     
     ### === Load dataset ==============
-    # imdb_dataset = load_dataset("imdb")
-    # tokenized_datasets = imdb_dataset.map(
-    #     tokenize_function, batched=True, remove_columns=["text", "label"]
-    # )
-    # lm_datasets = tokenized_datasets.map(group_texts, batched=True)
-    # downsampled_dataset = lm_datasets["train"].train_test_split(
-    #     train_size=train_size, test_size=test_size, seed=42
-    # )
+    imdb_dataset = load_dataset("imdb")
+    tokenized_datasets = imdb_dataset.map(
+        tokenize_function, batched=True, remove_columns=["text", "label"]
+    )
+    lm_datasets = tokenized_datasets.map(group_texts, batched=True)
+    downsampled_dataset = lm_datasets["train"].train_test_split(
+        train_size=train_size, test_size=test_size, seed=42
+    )
 
-    # downsampled_dataset = downsampled_dataset.remove_columns(["word_ids"])
-    # eval_dataset = downsampled_dataset["test"].map(
-    #     insert_random_mask,
-    #     batched=True,
-    #     remove_columns=downsampled_dataset["test"].column_names,
-    # )
-    # eval_dataset = eval_dataset.rename_columns(
-    #     {
-    #         "masked_input_ids": "input_ids",
-    #         "masked_attention_mask": "attention_mask",
-    #         "masked_labels": "labels",
-    #     }
-    # )
-    # train_dataloader = DataLoader(
-    #     downsampled_dataset["train"],
-    #     shuffle=True,
-    #     batch_size=batch_size,
-    #     collate_fn=data_collator,
-    # )
-    # eval_dataloader = DataLoader(
-    #     eval_dataset, batch_size=batch_size, collate_fn=default_data_collator
-    # )
+    downsampled_dataset = downsampled_dataset.remove_columns(["word_ids"])
+    eval_dataset = downsampled_dataset["test"].map(
+        insert_random_mask,
+        batched=True,
+        remove_columns=downsampled_dataset["test"].column_names,
+    )
+    eval_dataset = eval_dataset.rename_columns(
+        {
+            "masked_input_ids": "input_ids",
+            "masked_attention_mask": "attention_mask",
+            "masked_labels": "labels",
+        }
+    )
+    train_dataloader = DataLoader(
+        downsampled_dataset["train"],
+        shuffle=True,
+        batch_size=batch_size,
+        collate_fn=data_collator,
+    )
+    eval_dataloader = DataLoader(
+        eval_dataset, batch_size=batch_size, collate_fn=default_data_collator
+    )
 
     ### === Convert to masked text ====
 
 
     ### === Training ==================
-    # logging_steps = len(downsampled_dataset["train"]) // batch_size
-    # model_name = model_checkpoint.split("/")[-1]
+    logging_steps = len(downsampled_dataset["train"]) // batch_size
+    model_name = model_checkpoint.split("/")[-1]
     
-    # training_args = TrainingArguments(
-    #     output_dir=f"{model_name}-finetuned-imdb",
-    #     overwrite_output_dir=True,
-    #     evaluation_strategy="epoch",
-    #     learning_rate=2e-5,
-    #     weight_decay=0.01,
-    #     per_device_train_batch_size=batch_size,
-    #     per_device_eval_batch_size=batch_size,
-    #     push_to_hub=True,
-    #     fp16=True,
-    #     logging_steps=logging_steps,
-    # )
-    # trainer = Trainer(
-    #     model=model,
-    #     args=training_args,
-    #     train_dataset=downsampled_dataset["train"],
-    #     eval_dataset=downsampled_dataset["test"],
-    #     data_collator=data_collator,
-    #     tokenizer=tokenizer,
-    # )
+    training_args = TrainingArguments(
+        output_dir=f"{model_name}-finetuned-imdb",
+        overwrite_output_dir=True,
+        evaluation_strategy="epoch",
+        learning_rate=2e-5,
+        weight_decay=0.01,
+        per_device_train_batch_size=batch_size,
+        per_device_eval_batch_size=batch_size,
+        push_to_hub=True,
+        fp16=True,
+        logging_steps=logging_steps,
+    )
+    trainer = Trainer(
+        model=model,
+        args=training_args,
+        train_dataset=downsampled_dataset["train"],
+        eval_dataset=downsampled_dataset["test"],
+        data_collator=data_collator,
+        tokenizer=tokenizer,
+    )
 
     # trainer.train()
 
