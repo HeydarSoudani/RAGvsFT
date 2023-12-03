@@ -126,28 +126,29 @@ def main():
     logging_steps = len(downsampled_dataset["train"]) // batch_size
     model_name = model_checkpoint.split("/")[-1]
     
-    training_args = TrainingArguments(
-        output_dir=f"{model_name}-finetuned-imdb",
-        overwrite_output_dir=True,
-        evaluation_strategy="epoch",
-        learning_rate=2e-5,
-        weight_decay=0.01,
-        per_device_train_batch_size=batch_size,
-        per_device_eval_batch_size=batch_size,
-        push_to_hub=True,
-        fp16=True,
-        logging_steps=logging_steps,
-    )
-    trainer = Trainer(
-        model=model,
-        args=training_args,
-        train_dataset=downsampled_dataset["train"],
-        eval_dataset=downsampled_dataset["test"],
-        data_collator=data_collator,
-        tokenizer=tokenizer,
-    )
+    # training_args = TrainingArguments(
+    #     output_dir=f"{model_name}-finetuned-imdb",
+    #     overwrite_output_dir=True,
+    #     evaluation_strategy="epoch",
+    #     learning_rate=2e-5,
+    #     weight_decay=0.01,
+    #     per_device_train_batch_size=batch_size,
+    #     per_device_eval_batch_size=batch_size,
+    #     push_to_hub=True,
+    #     fp16=True,
+    #     logging_steps=logging_steps,
+    # )
+    # trainer = Trainer(
+    #     model=model,
+    #     args=training_args,
+    #     train_dataset=downsampled_dataset["train"],
+    #     eval_dataset=downsampled_dataset["test"],
+    #     data_collator=data_collator,
+    #     tokenizer=tokenizer,
+    # )
 
-    trainer.train()
+    # trainer.train()
+
     optimizer = AdamW(model.parameters(), lr=5e-5)
     accelerator = Accelerator()
     model, optimizer, train_dataloader, eval_dataloader = accelerator.prepare(
@@ -214,10 +215,5 @@ def main():
             )
 
 
-
-
-
-
-if __name__ == "__main__":
-    
+if __name__ == "__main__":    
     main()
