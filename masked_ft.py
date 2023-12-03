@@ -16,27 +16,6 @@ import math
 from tqdm.auto import tqdm
 
 
-def tokenize_function(examples):
-    result = tokenizer(examples["text"])
-    if tokenizer.is_fast:
-        result["word_ids"] = [result.word_ids(i) for i in range(len(result["input_ids"]))]
-    return result
-
-def group_texts(examples):
-    # Concatenate all texts
-    concatenated_examples = {k: sum(examples[k], []) for k in examples.keys()}
-    # Compute length of concatenated texts
-    total_length = len(concatenated_examples[list(examples.keys())[0]])
-    # We drop the last chunk if it's smaller than chunk_size
-    total_length = (total_length // chunk_size) * chunk_size
-    # Split by chunks of max_len
-    result = {
-        k: [t[i : i + chunk_size] for i in range(0, total_length, chunk_size)]
-        for k, t in concatenated_examples.items()
-    }
-    # Create a new labels column
-    result["labels"] = result["input_ids"].copy()
-    return result
 
 def whole_word_masking_data_collator(features):
     for feature in features:
@@ -67,11 +46,6 @@ def whole_word_masking_data_collator(features):
 
     return default_data_collator(features)
 
-def insert_random_mask(batch):
-    features = [dict(zip(batch, t)) for t in zip(*batch.values())]
-    masked_inputs = data_collator(features)
-    # Create a new "masked" column for each column in the dataset
-    return {"masked_" + k: v.numpy() for k, v in masked_inputs.items()}
 
 def main():
     model_checkpoint = "distilbert-base-uncased"
@@ -85,7 +59,35 @@ def main():
     train_size = 10_000
     test_size = int(0.1 * train_size)
     num_train_epochs = 2
-    
+
+    def tokenize_function(examples):
+        result = tokenizer(examples["text"])
+        if tokenizer.is_fast:
+            result["word_ids"] = [result.word_ids(i) for i in range(len(result["input_ids"]))]
+        return result
+
+    def group_texts(examples):
+        # Concatenate all texts
+        concatenated_examples = {k: sum(examples[k], []) for k in examples.keys()}
+        # Compute length of concatenated texts
+        total_length = len(concatenated_examples[list(examples.keys())[0]])
+        # We drop the last chunk if it's smaller than chunk_size
+        total_length = (total_length // chunk_size) * chunk_size
+        # Split by chunks of max_len
+        result = {
+            k: [t[i : i + chunk_size] for i in range(0, total_length, chunk_size)]
+            for k, t in concatenated_examples.items()
+        }
+        # Create a new labels column
+        result["labels"] = result["input_ids"].copy()
+        return result
+
+    def insert_random_mask(batch):
+        features = [dict(zip(batch, t)) for t in zip(*batch.values())]
+        masked_inputs = data_collator(features)
+        # Create a new "masked" column for each column in the dataset
+        return {"masked_" + k: v.numpy() for k, v in masked_inputs.items()}
+
     ### === Load dataset ==============
     imdb_dataset = load_dataset("imdb")
     tokenized_datasets = imdb_dataset.map(
@@ -119,6 +121,13 @@ def main():
         eval_dataset, batch_size=batch_size, collate_fn=default_data_collator
     )
 
+    # Print one sample of dataset =====
+    samples = [lm_datasets["train"][i] for i in range(2)]
+    for sample in samples:
+        _ = sample.pop("word_ids")
+
+    for chunk in data_collator(samples)["input_ids"]:
+        print(f"\n'>>> {tokenizer.decode(chunk)}'")
     ### === Convert to masked text ====
 
 
@@ -126,27 +135,26 @@ def main():
     logging_steps = len(downsampled_dataset["train"]) // batch_size
     model_name = model_checkpoint.split("/")[-1]
     
-    training_args = TrainingArguments(
-        output_dir=f"{model_name}-finetuned-imdb",
-        overwrite_output_dir=True,
-        evaluation_strategy="epoch",
-        learning_rate=2e-5,
-        weight_decay=0.01,
-        per_device_train_batch_size=batch_size,
-        per_device_eval_batch_size=batch_size,
-        push_to_hub=True,
-        fp16=True,
-        logging_steps=logging_steps,
-    )
-    trainer = Trainer(
-        model=model,
-        args=training_args,
-        train_dataset=downsampled_dataset["train"],
-        eval_dataset=downsampled_dataset["test"],
-        data_collator=data_collator,
-        tokenizer=tokenizer,
-    )
-
+    # training_args = TrainingArguments(
+    #     output_dir=f"{model_name}-finetuned-imdb",
+    #     overwrite_output_dir=True,
+    #     evaluation_strategy="epoch",
+    #     learning_rate=2e-5,
+    #     weight_decay=0.01,
+    #     per_device_train_batch_size=batch_size,
+    #     per_device_eval_batch_size=batch_size,
+    #     push_to_hub=True,
+    #     fp16=True,
+    #     logging_steps=logging_steps,
+    # )
+    # trainer = Trainer(
+    #     model=model,
+    #     args=training_args,
+    #     train_dataset=downsampled_dataset["train"],
+    #     eval_dataset=downsampled_dataset["test"],
+    #     data_collator=data_collator,
+    #     tokenizer=tokenizer,
+    # )
     # trainer.train()
 
     optimizer = AdamW(model.parameters(), lr=5e-5)
