@@ -51,9 +51,10 @@ def get_wiki_context_by_api(title_list, context_type="summary"):
         if idx % 100 == 0:
             try:
                 write_to_json_file(context_path, res)
-                print(f"Data saved to {context_path} after iteration {idx}.")
+                # print(f"Data saved to {context_path} after iteration {idx}.")
             except Exception as e:
-                print(f"Error saving data to JSON file: {e}")
+                pass
+                # print(f"Error saving data to JSON file: {e}")
         progress_bar.update(1)
                 
     return res
