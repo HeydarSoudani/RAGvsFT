@@ -3,7 +3,7 @@ import random
 from nltk.tokenize import word_tokenize
 from tqdm.auto import tqdm
 
-from utils import read_tsv_column, write_to_json_file
+from utils import read_tsv_column, write_to_json_file, load_json_file
 
 random.seed(10)
 
@@ -36,8 +36,8 @@ def get_wikipedia_page_paragraphs(page_title, context_type="summary", language='
         return paragraphs
 
 
-def get_wiki_context_by_api(title_list, context_type="summary"):
-    res = {}
+def get_wiki_context_by_api(title_list, initial_json={}, context_type="summary"):
+    res = initial_json
     context_path = "data/generated/wikiapi_results.json"
 
     progress_bar = tqdm(range(len(title_list)))
@@ -71,10 +71,14 @@ def get_wiki_context_from_dump():
 
 if __name__ == "__main__":
     dataset_path = "data/dataset/popQA.tsv"
-    idx = 0
+    context_path = "data/generated/wikiapi_results.json"
+    idx = 4900
     # entity_list = read_tsv_column(dataset_path, "subj")
     wiki_title_list = read_tsv_column(dataset_path, "s_wiki_title")
-    context_sum = get_wiki_context_by_api(wiki_title_list[idx:], context_type="summary")
+    context_sum = get_wiki_context_by_api(
+        wiki_title_list[idx:],
+        initial_json = load_json_file(context_path),
+        context_type="summary")
 
     # wiki_title_list_rnd = random.sample(wiki_title_list, 200)
     # context_sum = get_wiki_context_by_api(wiki_title_list_rnd, context_type="summary")
@@ -91,5 +95,5 @@ if __name__ == "__main__":
     #             context[title] += context_pra[0]      
     #     print(len(word_tokenize(context[title])))    
 
-    context_path = "data/generated/wikiapi_results.json"
+    
     write_to_json_file(context_path, context_sum)

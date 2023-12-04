@@ -32,7 +32,7 @@ def main():
     chunk_size = 128
     batch_size = 64
     wwm_probability = 0.2
-    train_size = 200
+    train_size = 1000
     test_size = int(0.1 * train_size)
     num_train_epochs = 5
     
@@ -74,6 +74,7 @@ def main():
             "text": [context[0] for entity, context in wiki_context.items()]
         })
     })
+    print(context_dataset)
     tokenized_datasets = context_dataset.map(
         tokenize_function, batched=True, remove_columns=["text", "entity"]
     )
@@ -168,6 +169,7 @@ def main():
         # Training
         model.train()
         for batch in train_dataloader:
+
             outputs = model(**batch)
             loss = outputs.loss
             accelerator.backward(loss)
