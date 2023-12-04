@@ -97,116 +97,116 @@ def main():
         }
     )
 
-    # =========
-    logging_steps = len(downsampled_dataset["train"]) // batch_size
-    model_name = model_checkpoint.split("/")[-1]
+    # # ========= other version of training ========
+    # logging_steps = len(downsampled_dataset["train"]) // batch_size
+    # model_name = model_checkpoint.split("/")[-1]
 
-    training_args = TrainingArguments(
-        output_dir=f"{model_name}-finetuned-imdb",
-        overwrite_output_dir=True,
-        evaluation_strategy="epoch",
-        learning_rate=2e-5,
-        weight_decay=0.01,
-        per_device_train_batch_size=batch_size,
-        per_device_eval_batch_size=batch_size,
-        push_to_hub=True,
-        fp16=True,
-        logging_steps=logging_steps,
+    # training_args = TrainingArguments(
+    #     output_dir="./data/{}-finetuned-wiki".format(model_name),
+    #     overwrite_output_dir=True,
+    #     evaluation_strategy="epoch",
+    #     learning_rate=2e-5,
+    #     weight_decay=0.01,
+    #     per_device_train_batch_size=batch_size,
+    #     per_device_eval_batch_size=batch_size,
+    #     push_to_hub=True,
+    #     fp16=True,
+    #     logging_steps=logging_steps,
+    # )
+    # trainer = Trainer(
+    #     model=model,
+    #     args=training_args,
+    #     train_dataset=downsampled_dataset["train"],
+    #     eval_dataset=downsampled_dataset["test"],
+    #     data_collator=data_collator,
+    #     tokenizer=tokenizer,
+    # )
+
+    # eval_results = trainer.evaluate()
+    # print(f">>> Perplexity: {math.exp(eval_results['eval_loss']):.2f}")
+    # trainer.train()
+
+    # eval_results = trainer.evaluate()
+    # print(f">>> Perplexity: {math.exp(eval_results['eval_loss']):.2f}")    
+    # trainer.push_to_hub()
+
+
+
+    train_dataloader = DataLoader(
+        downsampled_dataset["train"],
+        shuffle=True,
+        batch_size=batch_size,
+        collate_fn=data_collator,
     )
-    trainer = Trainer(
-        model=model,
-        args=training_args,
-        train_dataset=downsampled_dataset["train"],
-        eval_dataset=downsampled_dataset["test"],
-        data_collator=data_collator,
-        tokenizer=tokenizer,
+    eval_dataloader = DataLoader(
+        eval_dataset, batch_size=batch_size, collate_fn=default_data_collator
     )
 
-    eval_results = trainer.evaluate()
-    print(f">>> Perplexity: {math.exp(eval_results['eval_loss']):.2f}")
-    trainer.train()
+    optimizer = AdamW(model.parameters(), lr=5e-5)
+    accelerator = Accelerator()
+    model, optimizer, train_dataloader, eval_dataloader = accelerator.prepare(
+        model, optimizer, train_dataloader, eval_dataloader
+    )
+    num_update_steps_per_epoch = len(train_dataloader)
+    num_training_steps = num_train_epochs * num_update_steps_per_epoch
+    lr_scheduler = get_scheduler(
+        "linear",
+        optimizer=optimizer,
+        num_warmup_steps=0,
+        num_training_steps=num_training_steps,
+    )
+    progress_bar = tqdm(range(num_training_steps))
 
-    eval_results = trainer.evaluate()
-    print(f">>> Perplexity: {math.exp(eval_results['eval_loss']):.2f}")    
-    trainer.push_to_hub()
+    model_name = "distilbert-base-uncased-finetuned-wiki-accelerate"
+    repo_name = get_full_repo_name(model_name)
+    output_dir = model_name
+    repo = Repository(output_dir, clone_from=repo_name)
 
+    ### === Train loop ========== 
+    for epoch in range(num_train_epochs):
+        # Training
+        model.train()
+        for batch in train_dataloader:
+            outputs = model(**batch)
+            loss = outputs.loss
+            accelerator.backward(loss)
 
+            optimizer.step()
+            lr_scheduler.step()
+            optimizer.zero_grad()
+            progress_bar.update(1)
 
-    # train_dataloader = DataLoader(
-    #     downsampled_dataset["train"],
-    #     shuffle=True,
-    #     batch_size=batch_size,
-    #     collate_fn=data_collator,
-    # )
-    # eval_dataloader = DataLoader(
-    #     eval_dataset, batch_size=batch_size, collate_fn=default_data_collator
-    # )
+        # Evaluation
+        model.eval()
+        losses = []
+        for step, batch in enumerate(eval_dataloader):
+            with torch.no_grad():
+                outputs = model(**batch)
 
-    # optimizer = AdamW(model.parameters(), lr=5e-5)
-    # accelerator = Accelerator()
-    # model, optimizer, train_dataloader, eval_dataloader = accelerator.prepare(
-    #     model, optimizer, train_dataloader, eval_dataloader
-    # )
-    # num_update_steps_per_epoch = len(train_dataloader)
-    # num_training_steps = num_train_epochs * num_update_steps_per_epoch
-    # lr_scheduler = get_scheduler(
-    #     "linear",
-    #     optimizer=optimizer,
-    #     num_warmup_steps=0,
-    #     num_training_steps=num_training_steps,
-    # )
-    # progress_bar = tqdm(range(num_training_steps))
+            loss = outputs.loss
+            losses.append(accelerator.gather(loss.repeat(batch_size)))
 
-    # # model_name = "distilbert-base-uncased-finetuned-wiki-accelerate"
-    # # repo_name = get_full_repo_name(model_name)
-    # # output_dir = model_name
-    # # repo = Repository(output_dir, clone_from=repo_name)
+        losses = torch.cat(losses)
+        losses = losses[: len(eval_dataset)]
+        try:
+            perplexity = math.exp(torch.mean(losses))
+        except OverflowError:
+            perplexity = float("inf")
 
-    # ### === Train loop ========== 
-    # for epoch in range(num_train_epochs):
-    #     # Training
-    #     model.train()
-    #     for batch in train_dataloader:
-    #         outputs = model(**batch)
-    #         loss = outputs.loss
-    #         accelerator.backward(loss)
+        print(f">>> Epoch {epoch}: Perplexity: {perplexity}")
 
-    #         optimizer.step()
-    #         lr_scheduler.step()
-    #         optimizer.zero_grad()
-    #         progress_bar.update(1)
-
-    #     # Evaluation
-    #     model.eval()
-    #     losses = []
-    #     for step, batch in enumerate(eval_dataloader):
-    #         with torch.no_grad():
-    #             outputs = model(**batch)
-
-    #         loss = outputs.loss
-    #         losses.append(accelerator.gather(loss.repeat(batch_size)))
-
-    #     losses = torch.cat(losses)
-    #     losses = losses[: len(eval_dataset)]
-    #     try:
-    #         perplexity = math.exp(torch.mean(losses))
-    #     except OverflowError:
-    #         perplexity = float("inf")
-
-    #     print(f">>> Epoch {epoch}: Perplexity: {perplexity}")
-
-        # Save and upload
-        # accelerator.wait_for_everyone()
-        # unwrapped_model = accelerator.unwrap_model(model)
-        # unwrapped_model.save_pretrained(output_dir, save_function=accelerator.save)
-        # if accelerator.is_main_process:
-        #     tokenizer.save_pretrained(output_dir)
-        #     repo.push_to_hub(
-        #         commit_message=f"Training in progress epoch {epoch}", blocking=False
-        #     )
+        Save and upload
+        accelerator.wait_for_everyone()
+        unwrapped_model = accelerator.unwrap_model(model)
+        unwrapped_model.save_pretrained(output_dir, save_function=accelerator.save)
+        if accelerator.is_main_process:
+            tokenizer.save_pretrained(output_dir)
+            repo.push_to_hub(
+                commit_message=f"Training in progress epoch {epoch}", blocking=False
+            )
     
 
-    ### === Test on PopQA ========== 
+    ## === Test on PopQA ========== 
     # print("test on PopQA ....")
     # dataset_test_path = "./data/dataset/popQA.tsv"
     # questions = read_tsv_column(dataset_test_path, 'question')
