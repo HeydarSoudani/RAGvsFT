@@ -5,6 +5,8 @@ from torch.utils.data import DataLoader
 from torch.optim import AdamW
 from accelerate import Accelerator
 from datasets import Dataset, DatasetDict
+from huggingface_hub import get_full_repo_name
+from huggingface_hub import Repository
 
 from utils import load_json_file, write_to_json_file
 import json
@@ -21,6 +23,7 @@ import math
 def main():
     
     model_checkpoint = "distilbert-base-uncased"
+    # model_checkpoint = "google/t5-v1_1-base"
     model = AutoModelForMaskedLM.from_pretrained(model_checkpoint)
     tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
     data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm_probability=0.15)
@@ -73,7 +76,6 @@ def main():
     tokenized_datasets = context_dataset.map(
         tokenize_function, batched=True, remove_columns=["text", "entity"]
     )
-    print(tokenized_datasets)
 
     lm_datasets = tokenized_datasets.map(group_texts, batched=True)
     downsampled_dataset = lm_datasets["train"].train_test_split(
@@ -116,8 +118,12 @@ def main():
         num_warmup_steps=0,
         num_training_steps=num_training_steps,
     )
-    model_name = "distilbert-base-uncased-finetuned-imdb-accelerate"
     progress_bar = tqdm(range(num_training_steps))
+
+    model_name = "distilbert-base-uncased-finetuned-wiki-accelerate"
+    repo_name = get_full_repo_name(model_name)
+    output_dir = model_name
+    repo = Repository(output_dir, clone_from=repo_name)
 
     ### === Train loop ========== 
     for epoch in range(num_train_epochs):
@@ -151,6 +157,22 @@ def main():
             perplexity = float("inf")
 
         print(f">>> Epoch {epoch}: Perplexity: {perplexity}")
+
+        # Save and upload
+        accelerator.wait_for_everyone()
+        unwrapped_model = accelerator.unwrap_model(model)
+        unwrapped_model.save_pretrained(output_dir, save_function=accelerator.save)
+        if accelerator.is_main_process:
+            tokenizer.save_pretrained(output_dir)
+            repo.push_to_hub(
+                commit_message=f"Training in progress epoch {epoch}", blocking=False
+            )
+    
+
+    ### === Test on PopQA ========== 
+    print("test on PopQA ....")
+
+
 
 
 
