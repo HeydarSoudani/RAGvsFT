@@ -121,10 +121,10 @@ def main():
     )
     progress_bar = tqdm(range(num_training_steps))
 
-    model_name = "distilbert-base-uncased-finetuned-wiki-accelerate"
-    repo_name = get_full_repo_name(model_name)
-    output_dir = model_name
-    repo = Repository(output_dir, clone_from=repo_name)
+    # model_name = "distilbert-base-uncased-finetuned-wiki-accelerate"
+    # repo_name = get_full_repo_name(model_name)
+    # output_dir = model_name
+    # repo = Repository(output_dir, clone_from=repo_name)
 
     ### === Train loop ========== 
     for epoch in range(num_train_epochs):
