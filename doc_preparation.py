@@ -39,7 +39,7 @@ def get_wiki_context_by_api(title_list, context_type="summary"):
     res = {}
     progress_bar = tqdm(range(len(title_list)))
     for title in title_list:
-        print('{} ...'.format(title))
+        # print('{} ...'.format(title))
         out = get_wikipedia_page_paragraphs(title, context_type)
         if type(out) == list:
             res[title] = out
