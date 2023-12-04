@@ -32,7 +32,7 @@ def main():
     chunk_size = 128
     batch_size = 64
     wwm_probability = 0.2
-    train_size = 20
+    train_size = 200
     test_size = int(0.1 * train_size)
     num_train_epochs = 2
     
@@ -158,9 +158,10 @@ def main():
     progress_bar = tqdm(range(num_training_steps))
 
     model_name = "distilbert-base-uncased-finetuned-wiki-accelerate"
-    repo_name = get_full_repo_name(model_name)
-    output_dir = model_name
-    repo = Repository(output_dir, clone_from=repo_name)
+    output_dir = "./data/saved-model"
+    # repo_name = get_full_repo_name(model_name)
+    # output_dir = model_name
+    # repo = Repository(output_dir, clone_from=repo_name)
 
     ### === Train loop ========== 
     for epoch in range(num_train_epochs):
@@ -195,43 +196,38 @@ def main():
 
         print(f">>> Epoch {epoch}: Perplexity: {perplexity}")
 
-        Save and upload
+        # Save and upload
         accelerator.wait_for_everyone()
         unwrapped_model = accelerator.unwrap_model(model)
         unwrapped_model.save_pretrained(output_dir, save_function=accelerator.save)
         if accelerator.is_main_process:
             tokenizer.save_pretrained(output_dir)
-            repo.push_to_hub(
-                commit_message=f"Training in progress epoch {epoch}", blocking=False
-            )
-    
+            # repo.push_to_hub(
+            #     commit_message=f"Training in progress epoch {epoch}", blocking=False
+            # )
 
+
+def popqa_inference():
     ## === Test on PopQA ========== 
-    # print("test on PopQA ....")
-    # dataset_test_path = "./data/dataset/popQA.tsv"
-    # questions = read_tsv_column(dataset_test_path, 'question')
-    # answers = read_tsv_column(dataset_test_path, 'possible_answers')
-    # completion_template = "Q: {} A: [MASK]"
+    print("test on PopQA ....")
+    dataset_test_path = "./data/dataset/popQA.tsv"
+    questions = read_tsv_column(dataset_test_path, 'question')
+    answers = read_tsv_column(dataset_test_path, 'possible_answers')
+    completion_template = "Q: {} A: [MASK]"
     
-    
-    # preds = model(completion_template.format(questions[0]))
-    # print(preds)
-    # # mask_filler = pipeline(
-    # #     "fill-mask", model=model
-    # # )
+    mask_filler = pipeline(
+        "fill-mask", model='./data/saved-model', tokenizer="./data/saved-model"
+    )
 
-    # # preds = mask_filler(completion_template.format(questions[0]))
-    # print('Ground truth answer: {}'.format(answers[0]))
-    # # for pred in preds:
-    # #     print(f">>> {pred['sequence']}")
-
-
-
-
+    preds = mask_filler(completion_template.format(questions[0]))
+    print('Ground truth answer: {}'.format(answers[0]))
+    for pred in preds:
+        print(f">>> {pred['sequence']}")
 
 
 
 
 
 if __name__ == "__main__":
-    main()
+    # main()
+    popqa_inference()

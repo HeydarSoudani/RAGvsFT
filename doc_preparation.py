@@ -1,6 +1,7 @@
 import wikipediaapi
 import random
 from nltk.tokenize import word_tokenize
+from tqdm.auto import tqdm
 
 from utils import read_tsv_column, write_to_json_file
 
@@ -13,7 +14,6 @@ def check_token_length(text, limitation=300):
     limited_text = []
     for item in text:
         tokens_ctx = word_tokenize(item)
-        print(len(tokens_ctx))
         if len(tokens_ctx) < limitation:
             limited_text.append(item)
         else:
@@ -37,11 +37,14 @@ def get_wikipedia_page_paragraphs(page_title, context_type="summary", language='
 
 def get_wiki_context_by_api(title_list, context_type="summary"):
     res = {}
+    progress_bar = tqdm(range(len(title_list)))
     for title in title_list:
         print('{} ...'.format(title))
         out = get_wikipedia_page_paragraphs(title, context_type)
         if type(out) == list:
-            res[title] = check_token_length(out)
+            res[title] = out
+            # res[title] = check_token_length(out)
+        progress_bar.update(1)
                 
     return res
 
@@ -59,9 +62,10 @@ if __name__ == "__main__":
     dataset_path = "data/dataset/popQA.tsv"
     # entity_list = read_tsv_column(dataset_path, "subj")
     wiki_title_list = read_tsv_column(dataset_path, "s_wiki_title")
-    wiki_title_list_rnd = random.sample(wiki_title_list, 20)
-    
-    context_sum = get_wiki_context_by_api(wiki_title_list_rnd, context_type="summary")
+    context_sum = get_wiki_context_by_api(wiki_title_list, context_type="summary")
+
+    # wiki_title_list_rnd = random.sample(wiki_title_list, 200)
+    # context_sum = get_wiki_context_by_api(wiki_title_list_rnd, context_type="summary")
     
     ### if you want to add more context
     # for title, value in context_sum.items():
