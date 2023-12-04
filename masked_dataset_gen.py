@@ -176,14 +176,16 @@ def main():
     questions = read_tsv_column(dataset_test_path, 'question')
     answers = read_tsv_column(dataset_test_path, 'possible_answers')
     completion_template = "Q: {} A: [MASK]"
-    mask_filler = pipeline(
-        "fill-mask", model=model
-    )
+    preds = model(completion_template.format(questions[0]))
+    print(preds)
+    # mask_filler = pipeline(
+    #     "fill-mask", model=model
+    # )
 
-    preds = mask_filler(completion_template.format(questions[0]))
+    # preds = mask_filler(completion_template.format(questions[0]))
     print('Ground truth answer: {}'.format(answers[0]))
-    for pred in preds:
-        print(f">>> {pred['sequence']}")
+    # for pred in preds:
+    #     print(f">>> {pred['sequence']}")
 
 
 
