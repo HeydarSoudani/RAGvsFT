@@ -70,9 +70,10 @@ def get_wiki_context_from_dump():
 
 if __name__ == "__main__":
     dataset_path = "data/dataset/popQA.tsv"
+    idx = 0
     # entity_list = read_tsv_column(dataset_path, "subj")
     wiki_title_list = read_tsv_column(dataset_path, "s_wiki_title")
-    context_sum = get_wiki_context_by_api(wiki_title_list, context_type="summary")
+    context_sum = get_wiki_context_by_api(wiki_title_list[idx:], context_type="summary")
 
     # wiki_title_list_rnd = random.sample(wiki_title_list, 200)
     # context_sum = get_wiki_context_by_api(wiki_title_list_rnd, context_type="summary")
