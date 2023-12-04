@@ -34,7 +34,7 @@ def main():
     wwm_probability = 0.2
     train_size = 200
     test_size = int(0.1 * train_size)
-    num_train_epochs = 2
+    num_train_epochs = 5
     
     # === Defining functions =============
     def tokenize_function(examples):
@@ -209,25 +209,87 @@ def main():
 
 def popqa_inference():
     ## === Test on PopQA ========== 
+    # compute accuracy: from popQA paper
+    preds = []
+    prompts =[]
+    accuracy = []
+    responses = []
+
     print("test on PopQA ....")
     dataset_test_path = "./data/dataset/popQA.tsv"
     questions = read_tsv_column(dataset_test_path, 'question')
-    answers = read_tsv_column(dataset_test_path, 'possible_answers')
+    possible_answers = read_tsv_column(dataset_test_path, 'possible_answers')
     completion_template = "Q: {} A: [MASK]"
     
-    mask_filler = pipeline(
-        "fill-mask", model='./data/saved-model', tokenizer="./data/saved-model"
-    )
 
-    preds = mask_filler(completion_template.format(questions[0]))
-    print('Ground truth answer: {}'.format(answers[0]))
-    for pred in preds:
-        print(f">>> {pred['sequence']}")
+    # ===== (1)
+    # inputs = tokenizer(text, return_tensors="pt")
+    # token_logits = model(**inputs).logits
+    # # Find the location of [MASK] and extract its logits
+    # mask_token_index = torch.where(inputs["input_ids"] == tokenizer.mask_token_id)[1]
+    # mask_token_logits = token_logits[0, mask_token_index, :]
+    # # Pick the [MASK] candidates with the highest logits
+    # top_5_tokens = torch.topk(mask_token_logits, 5, dim=1).indices[0].tolist()
+
+
+    # ===== (2)
+    tokenizer = AutoTokenizer.from_pretrained("./data/saved-model")
+    model = AutoModelForMaskedLM.from_pretrained("./data/saved-model") 
+    
+    progress_bar = tqdm(range(len(questions[:200])))
+    for idx, items in enumerate(possible_answers[:200]):
+        is_correct = False
+        inputs = tokenizer(completion_template.format(questions[idx]), return_tensors="pt")
+        with torch.no_grad():
+            logits = model(**inputs).logits
+        mask_token_index = (inputs.input_ids == tokenizer.mask_token_id)[0].nonzero(as_tuple=True)[0]
+        predicted_token_id = logits[0, mask_token_index].argmax(axis=-1)
+        output = tokenizer.decode(predicted_token_id)
+        # print(output)
+
+        for pa in items:
+            if pa in output or pa.lower() in output or pa.capitalize() in output:
+                is_correct = True
+        accuracy.append(is_correct)
+        progress_bar.update(1)
+    
+    correct_predictions = sum(pred_val for pred_val in accuracy)
+    acc = correct_predictions / len(accuracy)
+    print("acc: {}".format(acc))
+
+
+
+    # inputs = tokenizer("The internet [MASK] amazing.", return_tensors="pt")
+    # with torch.no_grad():
+    #     logits = model(**inputs).logits
+    # # retrieve index of [MASK]
+    # mask_token_index = (inputs.input_ids == tokenizer.mask_token_id)[0].nonzero(as_tuple=True)[0]
+    # predicted_token_id = logits[0, mask_token_index].argmax(axis=-1)
+    # output = tokenizer.decode(predicted_token_id)
+    # print(output) 
+
+
+    # mask_filler = pipeline(
+    #     "fill-mask", model='./data/saved-model', tokenizer="./data/saved-model"
+    # )
+
+    # for idx, items in enumerate(possible_answers):
+    #     is_correct = False
+    #     pred = mask_filler(completion_template.format(questions[idx]))
+
+    #     for pa in items:
+    #         if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
+    #             is_correct = True
+    #     accuracy.append(is_correct)
+    
+    # correct_predictions = sum(pred_val for pred_val in accuracy)
+    # acc = correct_predictions / len(accuracy)
+    # print("acc: {}".format(acc))
 
 
 
 
 
 if __name__ == "__main__":
-    # main()
+    main()
     popqa_inference()

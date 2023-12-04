@@ -8,6 +8,7 @@ from utils import read_tsv_column, write_to_json_file
 random.seed(10)
 
 #TODO: Add Wikiextractor
+#TODO: Add checkpoint and save after catching some data
 
 
 def check_token_length(text, limitation=300):
@@ -37,13 +38,22 @@ def get_wikipedia_page_paragraphs(page_title, context_type="summary", language='
 
 def get_wiki_context_by_api(title_list, context_type="summary"):
     res = {}
+    context_path = "data/generated/wikiapi_results.json"
+
     progress_bar = tqdm(range(len(title_list)))
-    for title in title_list:
+    for idx, title in enumerate(title_list):
         # print('{} ...'.format(title))
         out = get_wikipedia_page_paragraphs(title, context_type)
         if type(out) == list:
             res[title] = out
             # res[title] = check_token_length(out)
+        
+        if idx % 100 == 0:
+            try:
+                write_to_json_file(context_path, res)
+                print(f"Data saved to {context_path} after iteration {idx}.")
+            except Exception as e:
+                print(f"Error saving data to JSON file: {e}")
         progress_bar.update(1)
                 
     return res
