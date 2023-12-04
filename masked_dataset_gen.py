@@ -28,7 +28,7 @@ def main():
     chunk_size = 128
     batch_size = 64
     wwm_probability = 0.2
-    train_size = 10_000
+    train_size = 20
     test_size = int(0.1 * train_size)
     num_train_epochs = 2
     
