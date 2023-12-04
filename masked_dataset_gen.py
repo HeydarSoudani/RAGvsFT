@@ -1,5 +1,5 @@
 from transformers import AutoModelForMaskedLM, AutoTokenizer, DataCollatorForLanguageModeling
-from transformers import default_data_collator, get_scheduler
+from transformers import default_data_collator, get_scheduler, TrainingArguments, Trainer
 import torch
 from torch.utils.data import DataLoader
 from torch.optim import AdamW
@@ -96,68 +96,104 @@ def main():
             "masked_labels": "labels",
         }
     )
-    train_dataloader = DataLoader(
-        downsampled_dataset["train"],
-        shuffle=True,
-        batch_size=batch_size,
-        collate_fn=data_collator,
+
+    # =========
+    logging_steps = len(downsampled_dataset["train"]) // batch_size
+    model_name = model_checkpoint.split("/")[-1]
+
+    training_args = TrainingArguments(
+        output_dir=f"{model_name}-finetuned-imdb",
+        overwrite_output_dir=True,
+        evaluation_strategy="epoch",
+        learning_rate=2e-5,
+        weight_decay=0.01,
+        per_device_train_batch_size=batch_size,
+        per_device_eval_batch_size=batch_size,
+        push_to_hub=True,
+        fp16=True,
+        logging_steps=logging_steps,
     )
-    eval_dataloader = DataLoader(
-        eval_dataset, batch_size=batch_size, collate_fn=default_data_collator
+    trainer = Trainer(
+        model=model,
+        args=training_args,
+        train_dataset=downsampled_dataset["train"],
+        eval_dataset=downsampled_dataset["test"],
+        data_collator=data_collator,
+        tokenizer=tokenizer,
     )
 
-    optimizer = AdamW(model.parameters(), lr=5e-5)
-    accelerator = Accelerator()
-    model, optimizer, train_dataloader, eval_dataloader = accelerator.prepare(
-        model, optimizer, train_dataloader, eval_dataloader
-    )
-    num_update_steps_per_epoch = len(train_dataloader)
-    num_training_steps = num_train_epochs * num_update_steps_per_epoch
-    lr_scheduler = get_scheduler(
-        "linear",
-        optimizer=optimizer,
-        num_warmup_steps=0,
-        num_training_steps=num_training_steps,
-    )
-    progress_bar = tqdm(range(num_training_steps))
+    eval_results = trainer.evaluate()
+    print(f">>> Perplexity: {math.exp(eval_results['eval_loss']):.2f}")
+    trainer.train()
 
-    # model_name = "distilbert-base-uncased-finetuned-wiki-accelerate"
-    # repo_name = get_full_repo_name(model_name)
-    # output_dir = model_name
-    # repo = Repository(output_dir, clone_from=repo_name)
+    eval_results = trainer.evaluate()
+    print(f">>> Perplexity: {math.exp(eval_results['eval_loss']):.2f}")    
+    trainer.push_to_hub()
 
-    ### === Train loop ========== 
-    for epoch in range(num_train_epochs):
-        # Training
-        model.train()
-        for batch in train_dataloader:
-            outputs = model(**batch)
-            loss = outputs.loss
-            accelerator.backward(loss)
 
-            optimizer.step()
-            lr_scheduler.step()
-            optimizer.zero_grad()
-            progress_bar.update(1)
 
-        # Evaluation
-        model.eval()
-        losses = []
-        for step, batch in enumerate(eval_dataloader):
-            with torch.no_grad():
-                outputs = model(**batch)
+    # train_dataloader = DataLoader(
+    #     downsampled_dataset["train"],
+    #     shuffle=True,
+    #     batch_size=batch_size,
+    #     collate_fn=data_collator,
+    # )
+    # eval_dataloader = DataLoader(
+    #     eval_dataset, batch_size=batch_size, collate_fn=default_data_collator
+    # )
 
-            loss = outputs.loss
-            losses.append(accelerator.gather(loss.repeat(batch_size)))
+    # optimizer = AdamW(model.parameters(), lr=5e-5)
+    # accelerator = Accelerator()
+    # model, optimizer, train_dataloader, eval_dataloader = accelerator.prepare(
+    #     model, optimizer, train_dataloader, eval_dataloader
+    # )
+    # num_update_steps_per_epoch = len(train_dataloader)
+    # num_training_steps = num_train_epochs * num_update_steps_per_epoch
+    # lr_scheduler = get_scheduler(
+    #     "linear",
+    #     optimizer=optimizer,
+    #     num_warmup_steps=0,
+    #     num_training_steps=num_training_steps,
+    # )
+    # progress_bar = tqdm(range(num_training_steps))
 
-        losses = torch.cat(losses)
-        losses = losses[: len(eval_dataset)]
-        try:
-            perplexity = math.exp(torch.mean(losses))
-        except OverflowError:
-            perplexity = float("inf")
+    # # model_name = "distilbert-base-uncased-finetuned-wiki-accelerate"
+    # # repo_name = get_full_repo_name(model_name)
+    # # output_dir = model_name
+    # # repo = Repository(output_dir, clone_from=repo_name)
 
-        print(f">>> Epoch {epoch}: Perplexity: {perplexity}")
+    # ### === Train loop ========== 
+    # for epoch in range(num_train_epochs):
+    #     # Training
+    #     model.train()
+    #     for batch in train_dataloader:
+    #         outputs = model(**batch)
+    #         loss = outputs.loss
+    #         accelerator.backward(loss)
+
+    #         optimizer.step()
+    #         lr_scheduler.step()
+    #         optimizer.zero_grad()
+    #         progress_bar.update(1)
+
+    #     # Evaluation
+    #     model.eval()
+    #     losses = []
+    #     for step, batch in enumerate(eval_dataloader):
+    #         with torch.no_grad():
+    #             outputs = model(**batch)
+
+    #         loss = outputs.loss
+    #         losses.append(accelerator.gather(loss.repeat(batch_size)))
+
+    #     losses = torch.cat(losses)
+    #     losses = losses[: len(eval_dataset)]
+    #     try:
+    #         perplexity = math.exp(torch.mean(losses))
+    #     except OverflowError:
+    #         perplexity = float("inf")
+
+    #     print(f">>> Epoch {epoch}: Perplexity: {perplexity}")
 
         # Save and upload
         # accelerator.wait_for_everyone()
@@ -171,21 +207,23 @@ def main():
     
 
     ### === Test on PopQA ========== 
-    print("test on PopQA ....")
-    dataset_test_path = "./data/dataset/popQA.tsv"
-    questions = read_tsv_column(dataset_test_path, 'question')
-    answers = read_tsv_column(dataset_test_path, 'possible_answers')
-    completion_template = "Q: {} A: [MASK]"
-    preds = model(completion_template.format(questions[0]))
-    print(preds)
-    # mask_filler = pipeline(
-    #     "fill-mask", model=model
-    # )
+    # print("test on PopQA ....")
+    # dataset_test_path = "./data/dataset/popQA.tsv"
+    # questions = read_tsv_column(dataset_test_path, 'question')
+    # answers = read_tsv_column(dataset_test_path, 'possible_answers')
+    # completion_template = "Q: {} A: [MASK]"
+    
+    
+    # preds = model(completion_template.format(questions[0]))
+    # print(preds)
+    # # mask_filler = pipeline(
+    # #     "fill-mask", model=model
+    # # )
 
-    # preds = mask_filler(completion_template.format(questions[0]))
-    print('Ground truth answer: {}'.format(answers[0]))
-    # for pred in preds:
-    #     print(f">>> {pred['sequence']}")
+    # # preds = mask_filler(completion_template.format(questions[0]))
+    # print('Ground truth answer: {}'.format(answers[0]))
+    # # for pred in preds:
+    # #     print(f">>> {pred['sequence']}")
 
 
 
