@@ -61,6 +61,7 @@ def main():
     num_train_epochs = 2
 
     def tokenize_function(examples):
+        print(type(examples["text"]))
         result = tokenizer(examples["text"])
         if tokenizer.is_fast:
             result["word_ids"] = [result.word_ids(i) for i in range(len(result["input_ids"]))]
@@ -90,14 +91,25 @@ def main():
 
     ### === Load dataset ==============
     imdb_dataset = load_dataset("imdb")
+    print(type(imdb_dataset))
+    print(imdb_dataset['train'][0])
+
+    # print(tokenize_function(imdb_dataset['train'][0]))
+    # tokenized_datasets = imdb_dataset['train'][0].map(
+    #     tokenize_function, batched=True, remove_columns=["text", "label"]
+    # )
+
+    
     tokenized_datasets = imdb_dataset.map(
         tokenize_function, batched=True, remove_columns=["text", "label"]
     )
+    print(tokenized_datasets['train'][0])
+
     lm_datasets = tokenized_datasets.map(group_texts, batched=True)
     downsampled_dataset = lm_datasets["train"].train_test_split(
         train_size=train_size, test_size=test_size, seed=42
     )
-
+    
     downsampled_dataset = downsampled_dataset.remove_columns(["word_ids"])
     eval_dataset = downsampled_dataset["test"].map(
         insert_random_mask,
@@ -122,18 +134,18 @@ def main():
     )
 
     # Print one sample of dataset =====
-    samples = [lm_datasets["train"][i] for i in range(2)]
-    for sample in samples:
-        _ = sample.pop("word_ids")
+    # samples = [lm_datasets["train"][i] for i in range(2)]
+    # for sample in samples:
+    #     _ = sample.pop("word_ids")
 
-    for chunk in data_collator(samples)["input_ids"]:
-        print(f"\n'>>> {tokenizer.decode(chunk)}'")
-    ### === Convert to masked text ====
+    # for chunk in data_collator(samples)["input_ids"]:
+    #     print(f"\n'>>> {tokenizer.decode(chunk)}'")
+    # ### === Convert to masked text ====
 
 
     ### === Training ==================
-    logging_steps = len(downsampled_dataset["train"]) // batch_size
-    model_name = model_checkpoint.split("/")[-1]
+    # logging_steps = len(downsampled_dataset["train"]) // batch_size
+    # model_name = model_checkpoint.split("/")[-1]
     
     # training_args = TrainingArguments(
     #     output_dir=f"{model_name}-finetuned-imdb",
@@ -173,9 +185,9 @@ def main():
     )
 
     model_name = "distilbert-base-uncased-finetuned-imdb-accelerate"
-    repo_name = get_full_repo_name(model_name)
-    output_dir = model_name
-    repo = Repository(output_dir, clone_from=repo_name)
+    # repo_name = get_full_repo_name(model_name)
+    # output_dir = model_name
+    # repo = Repository(output_dir, clone_from=repo_name)
     
     progress_bar = tqdm(range(num_training_steps))
 
