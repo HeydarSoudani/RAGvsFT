@@ -32,9 +32,9 @@ def main():
     chunk_size = 128
     batch_size = 64
     wwm_probability = 0.2
-    train_size = 1000
+    train_size = 12222
     test_size = int(0.1 * train_size)
-    num_train_epochs = 5
+    num_train_epochs = 10
     
     # === Defining functions =============
     def tokenize_function(examples):
@@ -238,8 +238,8 @@ def popqa_inference():
     tokenizer = AutoTokenizer.from_pretrained("./data/saved-model")
     model = AutoModelForMaskedLM.from_pretrained("./data/saved-model") 
     
-    progress_bar = tqdm(range(len(questions[:200])))
-    for idx, items in enumerate(possible_answers[:200]):
+    progress_bar = tqdm(range(len(questions)))
+    for idx, items in enumerate(possible_answers):
         is_correct = False
         inputs = tokenizer(completion_template.format(questions[idx]), return_tensors="pt")
         with torch.no_grad():
@@ -257,7 +257,7 @@ def popqa_inference():
     
     correct_predictions = sum(pred_val for pred_val in accuracy)
     acc = correct_predictions / len(accuracy)
-    print("acc: {}".format(acc))
+    print("acc: {}".format(acc*100))
 
 
 
