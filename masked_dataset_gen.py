@@ -7,8 +7,9 @@ from accelerate import Accelerator
 from datasets import Dataset, DatasetDict
 from huggingface_hub import get_full_repo_name
 from huggingface_hub import Repository
+from transformers import pipeline
 
-from utils import load_json_file, write_to_json_file
+from utils import load_json_file, read_tsv_column
 import json
 from tqdm.auto import tqdm
 import math
@@ -159,18 +160,33 @@ def main():
         print(f">>> Epoch {epoch}: Perplexity: {perplexity}")
 
         # Save and upload
-        accelerator.wait_for_everyone()
-        unwrapped_model = accelerator.unwrap_model(model)
-        unwrapped_model.save_pretrained(output_dir, save_function=accelerator.save)
-        if accelerator.is_main_process:
-            tokenizer.save_pretrained(output_dir)
-            repo.push_to_hub(
-                commit_message=f"Training in progress epoch {epoch}", blocking=False
-            )
+        # accelerator.wait_for_everyone()
+        # unwrapped_model = accelerator.unwrap_model(model)
+        # unwrapped_model.save_pretrained(output_dir, save_function=accelerator.save)
+        # if accelerator.is_main_process:
+        #     tokenizer.save_pretrained(output_dir)
+        #     repo.push_to_hub(
+        #         commit_message=f"Training in progress epoch {epoch}", blocking=False
+        #     )
     
 
     ### === Test on PopQA ========== 
     print("test on PopQA ....")
+    dataset_test_path = "./data/dataset/popQA.tsv"
+    questions = read_tsv_column(dataset_test_path, 'question')
+    answers = read_tsv_column(dataset_test_path, 'possible_answers')
+    completion_template = "Q: {} A: [MASK]"
+    mask_filler = pipeline(
+        "fill-mask", model=model
+    )
+
+    preds = mask_filler(completion_template.format(questions[0]))
+    print('Ground truth answer: {}'.format(answers[0]))
+    for pred in preds:
+        print(f">>> {pred['sequence']}")
+
+
+
 
 
 
