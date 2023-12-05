@@ -172,6 +172,7 @@ def main():
 
     # generate text for each batch
     all_predictions = []
+    print(dataloader)
     for i,batch in enumerate(dataloader):
         print(batch)
         predictions = model.generate(**batch)
