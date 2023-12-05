@@ -150,8 +150,8 @@ def main():
 
 def test():
     path = "my_fine_tuned_t5_small_model"
-    tokenizer = AutoTokenizer.from_pretrained(model_dir)
-    model = AutoModelForSeq2SeqLM.from_pretrained(model_dir)
+    tokenizer = AutoTokenizer.from_pretrained(path)
+    model = AutoModelForSeq2SeqLM.from_pretrained(path)
     
     # get test split
     test_tokenized_dataset = tokenized_datasets["test"]
