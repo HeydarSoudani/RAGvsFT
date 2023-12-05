@@ -149,7 +149,7 @@ def main():
     trainer.train()
     trainer.save_model()
     
-    # === Test 
+    # === Test =========================
     path = "my_fine_tuned_t5_small_model"
     tokenizer = AutoTokenizer.from_pretrained(path)
     model = AutoModelForSeq2SeqLM.from_pretrained(path)
@@ -173,6 +173,7 @@ def main():
     # generate text for each batch
     all_predictions = []
     for i,batch in enumerate(dataloader):
+        print(batch)
         predictions = model.generate(**batch)
         all_predictions.append(predictions)
 
