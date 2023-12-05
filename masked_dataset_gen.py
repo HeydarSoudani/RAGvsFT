@@ -8,6 +8,7 @@ from datasets import Dataset, DatasetDict
 from huggingface_hub import get_full_repo_name
 from huggingface_hub import Repository
 from transformers import pipeline
+import time
 
 from utils import load_json_file, read_tsv_column
 import json
@@ -29,12 +30,12 @@ def main():
     tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
     data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm_probability=0.15)
 
-    chunk_size = 128
-    batch_size = 64
+    chunk_size = 8 # 128
+    batch_size = 4  # 64
     wwm_probability = 0.2
     train_size = 12222
     test_size = int(0.1 * train_size)
-    num_train_epochs = 10
+    num_train_epochs = 1
     
     # === Defining functions =============
     def tokenize_function(examples):
@@ -169,8 +170,12 @@ def main():
         # Training
         model.train()
         for batch in train_dataloader:
-
+            print(batch['input_ids'].shape)
+            print(batch['labels'])
+            # time.sleep(10)
             outputs = model(**batch)
+            print(outputs.logits)
+            time.sleep(10)
             loss = outputs.loss
             accelerator.backward(loss)
 
