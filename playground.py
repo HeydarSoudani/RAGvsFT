@@ -147,8 +147,8 @@ def main():
     
     trainer.train()
     trainer.save_model()
-
-def test():
+    
+    # === Test 
     path = "my_fine_tuned_t5_small_model"
     tokenizer = AutoTokenizer.from_pretrained(path)
     model = AutoModelForSeq2SeqLM.from_pretrained(path)
@@ -186,9 +186,6 @@ def test():
     predictions_labels = [all_predictions_flattened, all_titles]
     compute_metrics(predictions_labels)
 
-
-
 if __name__ == "__main__":
-    # main()
-    test()
+    main()
     
