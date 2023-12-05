@@ -148,6 +148,47 @@ def main():
     trainer.train()
     trainer.save_model()
 
+def test():
+    path = "my_fine_tuned_t5_small_model"
+    tokenizer = AutoTokenizer.from_pretrained(model_dir)
+    model = AutoModelForSeq2SeqLM.from_pretrained(model_dir)
+    
+    # get test split
+    test_tokenized_dataset = tokenized_datasets["test"]
+
+    # pad texts to the same length
+    def preprocess_test(examples):
+        inputs = [prefix + text for text in examples["question"]]
+        model_inputs = tokenizer(inputs, max_length=max_input_length, truncation=True,
+                                padding="max_length")
+        return model_inputs
+
+    test_tokenized_dataset = test_tokenized_dataset.map(preprocess_test, batched=True)
+
+    # prepare dataloader
+    test_tokenized_dataset.set_format(type='torch', columns=['input_ids', 'attention_mask'])
+    dataloader = torch.utils.data.DataLoader(test_tokenized_dataset, batch_size=32)
+
+    # generate text for each batch
+    all_predictions = []
+    for i,batch in enumerate(dataloader):
+        predictions = model.generate(**batch)
+        all_predictions.append(predictions)
+
+    # flatten predictions
+    all_predictions_flattened = [pred for preds in all_predictions for pred in preds]
+
+    # tokenize and pad titles
+    all_titles = tokenizer(test_tokenized_dataset["answer"], max_length=max_target_length,
+                        truncation=True, padding="max_length")["input_ids"]
+
+    # compute metrics
+    predictions_labels = [all_predictions_flattened, all_titles]
+    compute_metrics(predictions_labels)
+
+
+
 if __name__ == "__main__":
-    main()
+    # main()
+    test()
     
