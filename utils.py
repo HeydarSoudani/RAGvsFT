@@ -1,8 +1,9 @@
 import json 
 import pandas as pd
+import ast
 
 
-def read_tsv_column(file_path, column_name):
+def read_tsv_column(file_path, column_name, dtype='text'):
     try:
         # Read the TSV file into a pandas DataFrame
         df = pd.read_csv(file_path, sep='\t')
@@ -11,6 +12,8 @@ def read_tsv_column(file_path, column_name):
         if column_name in df.columns:
             # Extract the specified column
             column_data = list(df[column_name])
+            if dtype == "list":
+                column_data = [ast.literal_eval(item) for item in column_data]
             return column_data
         else:
             return f"Column '{column_name}' not found in the TSV file."

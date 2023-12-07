@@ -170,6 +170,7 @@ def main():
         # Training
         model.train()
         for batch in train_dataloader:
+            print(batch)
             print(batch['input_ids'].shape)
             print(batch['labels'])
             # time.sleep(10)

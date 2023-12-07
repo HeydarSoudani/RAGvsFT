@@ -89,6 +89,10 @@ def main():
     
     def compute_metrics(eval_pred):
         predictions, labels = eval_pred
+        print(len(predictions))
+        print(predictions[0])
+        print(len(labels))
+        print(labels[0])
         decoded_preds = tokenizer.batch_decode(predictions, skip_special_tokens=True)
         
         # Replace -100 in the labels as we can't decode them.
