@@ -47,9 +47,6 @@ def overlap_words(list1, list2):
 
     return overlap
 
-
-
-
 if __name__ == "__main__":
     entities_lists = {}
 

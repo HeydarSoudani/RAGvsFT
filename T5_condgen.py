@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import json
 import os
 import torch
 from torch.utils.data import DataLoader
@@ -35,6 +36,43 @@ elif torch.backends.mps.is_available():
 else:
     device = torch.device("cpu")
     print("Running on the CPU")
+
+
+def EQ_dataset_preprocess(path):
+    
+    data = {}
+    for item in ["train", "dev", "test"]:
+        concatenated_data = []
+        data[item] = {}
+        try:
+            folder_path = os.path.join(path, item)
+            for filename in os.listdir(folder_path):
+                if filename.endswith(".json"):
+                    file_path = os.path.join(folder_path, filename)
+                    with open(file_path, 'r', encoding='utf-8') as file:
+                        json_data = json.load(file)
+                    concatenated_data.extend(json_data)
+        except Exception as e:
+            print(f"Error concatenating JSON files: {e}")
+        
+        data[item]['question'] = [j['question'] for j in concatenated_data]
+        data[item]['answers'] = [j['answers'][0] for j in concatenated_data]
+    
+    eq_dataset = DatasetDict({
+        'train': Dataset.from_dict({
+            "question": data['train']['question'], 
+            "answers": data['train']['answers']
+        }),
+        'validation': Dataset.from_dict({
+            "question": data['dev']['question'], 
+            "answers": data['dev']['answers']
+        }),
+        'test': Dataset.from_dict({
+            "question": data['test']['question'], 
+            "answers": data['test']['answers']
+        })
+    })
+    return eq_dataset
 
 def clean_text(text):
     sentences = nltk.sent_tokenize(text.strip())
@@ -78,6 +116,21 @@ def compute_metrics(tokenizer, eval_pred):
     # return {k: round(v, 4) for k, v in result.items()}
     return result
 
+def compute_accuracy(possible_answers, preds):
+    accuracy = []
+    # print(possible_answers)
+    print(preds)
+    
+    for i in range (len(preds)):
+        is_correct = False
+        for pa in possible_answers[i]:
+            if pa in preds[i] or pa.lower() in preds[i] or pa.capitalize() in preds[i]:
+                is_correct = True
+        
+        accuracy.append(is_correct)
+    
+    return (sum(accuracy) / len(accuracy))*100
+
 def dataset_preparation(tokenizer, batch_size):
     # Define variables
     prefix = "qa: "
@@ -98,9 +151,11 @@ def dataset_preparation(tokenizer, batch_size):
         )
 
         # with tokenizer.as_target_tokenizer():
-        first_answers = [obj['text'][0] for obj in examples["answers"]]
+        # If the dataset is SQUAD
+        # first_answers = [obj['text'][0] for obj in examples["answers"]]
+        
         labels = tokenizer(
-            first_answers,
+            examples["answers"],
             padding="max_length",
             max_length=max_target_length, 
             truncation=True
@@ -114,10 +169,16 @@ def dataset_preparation(tokenizer, batch_size):
 
         return model_inputs
     
-    train_dataset = load_dataset('squad')
+    # Load squad dataset
+    # train_dataset = load_dataset('squad')
+    # train_dataset = train_dataset.remove_columns(["id", "title", "context"])
+    
+    # Load EntityQuestion dataset
+    train_dataset = EQ_dataset_preprocess('./data/dataset/EntityQuestions')
+    print(train_dataset)
+    
     train_dataset["train"] = train_dataset["train"].shuffle().select(range(subsample_train))
     train_dataset["validation"] = train_dataset["validation"].shuffle().select(range(subsample_val))
-    train_dataset = train_dataset.remove_columns(["id", "title", "context"])
     
     tokenized_datasets = train_dataset.map(
         preprocess_data, batched=True, remove_columns=["question", "answers"]
@@ -135,7 +196,7 @@ def test_dataset_preparation(tokenizer, batch_size):
     max_input_length = 64
     max_target_length = 8
     data_collator = DataCollator(tokenizer)
-    subsample_test = 4000
+    subsample_test = 40
     
     # Define functions
     def preprocess_data(examples):
@@ -181,7 +242,7 @@ def test_dataset_preparation(tokenizer, batch_size):
     tokenized_datasets.set_format(type="torch", columns=['input_ids', 'attention_mask', 'labels'])
     
     test_dataloader = DataLoader(tokenized_datasets, shuffle=True, batch_size=batch_size)
-    return test_dataloader
+    return test_dataloader, possible_answers
 
 def training_arguments(model, train_dataloader, eval_dataloader, num_train_epochs):
     num_update_steps_per_epoch = len(train_dataloader)
@@ -274,7 +335,7 @@ def inference():
     tokenizer = T5Tokenizer.from_pretrained(model_path)
     model = T5ForConditionalGeneration.from_pretrained(model_path)
     
-    test_dataloader = test_dataset_preparation(tokenizer, batch_size)
+    test_dataloader, possible_answers = test_dataset_preparation(tokenizer, batch_size)
     
     # Evaluation
     model.eval()
@@ -288,10 +349,11 @@ def inference():
             preds.extend(generated_ids)
             targets.extend(batch['labels'])
         progress_bar.update(1)
-            
-    print("ROUGE: {}".format(compute_metrics(tokenizer, (preds, targets))))
-    
-    
+
+    decoded_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
+    print("Acc: {}".format(compute_accuracy(possible_answers, decoded_preds)))
+    # print("ROUGE: {}".format(compute_metrics(tokenizer, (preds, targets))))
+      
 def main():
     # === Define variables ===========
     model_checkpoint = "t5-small"
@@ -303,38 +365,39 @@ def main():
     batch_size = 16
     
     # === Prepare dataset ============
-    train_dataloader, eval_dataloader = dataset_preparation(tokenizer, batch_size)
-    # = test dataset
+    # dataset_preparation(tokenizer, batch_size)
+    # train_dataloader, eval_dataloader = dataset_preparation(tokenizer, batch_size)
+    # # = test dataset
     # batch = next(iter(train_dataloader))
     # print(batch.keys())
     # print(tokenizer.decode(batch['input_ids'][0]))
     # labels = batch['labels'][0]
     # print(tokenizer.decode([label for label in labels if label != -100]))
 
-    # === Training arguments =========    
-    model, \
-    optimizer, \
-    train_dataloader, \
-    eval_dataloader, \
-    accelerator, \
-    lr_scheduler, \
-    num_training_steps = training_arguments(
-        model, train_dataloader, eval_dataloader, num_train_epochs
-    )
+    # # === Training arguments =========    
+    # model, \
+    # optimizer, \
+    # train_dataloader, \
+    # eval_dataloader, \
+    # accelerator, \
+    # lr_scheduler, \
+    # num_training_steps = training_arguments(
+    #     model, train_dataloader, eval_dataloader, num_train_epochs
+    # )
     
-    # === Training loop ==============
-    training_loop(
-        model,
-        tokenizer,
-        optimizer,
-        train_dataloader,
-        eval_dataloader,
-        accelerator,
-        lr_scheduler,
-        num_train_epochs,
-        num_training_steps,
-        batch_size
-    )
+    # # === Training loop ==============
+    # training_loop(
+    #     model,
+    #     tokenizer,
+    #     optimizer,
+    #     train_dataloader,
+    #     eval_dataloader,
+    #     accelerator,
+    #     lr_scheduler,
+    #     num_train_epochs,
+    #     num_training_steps,
+    #     batch_size
+    # )
     
     # === Inference ==================
     inference()
