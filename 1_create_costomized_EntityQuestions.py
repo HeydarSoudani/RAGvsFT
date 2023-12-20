@@ -62,7 +62,8 @@ relation_types = {
     "P413": "position",
     "P495": "origin",
     "P740": "formation",
-    "P800": "notable work"
+    "P800": "notable work",
+    "a":"b"
 }
 
 def convert_to_url_format(text):
