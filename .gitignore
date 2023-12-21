@@ -114,5 +114,10 @@ venv.bak/
 .idea
 
 # mine
-data/
+data/dataset/
+data/generated/EntityQuestions_costomized/
+data/generated/popQA_costomized/corpus.jsonl
+data/generated/popQA_costomized/qrels.jsonl
+data/generated/popQA_costomized/el_popularity.json
 saved/
+some_data/pretraining_entities/
