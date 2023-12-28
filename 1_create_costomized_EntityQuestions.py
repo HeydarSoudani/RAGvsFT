@@ -6,6 +6,7 @@ import re
 import wikipediaapi
 import pandas as pd
 
+
 reg_templates = {
     "P17": 'Which\\ country\\ is\\ (.*) located\\ in\\?',
     "P19": "Where\\ was\\ (.*) born\\?",
@@ -154,101 +155,12 @@ def get_wikipedia_summary_and_paragraphs(title):
 
     return summary, paragraphs
 
-
-if __name__ == "__main__":
-    
-    ### === Input files & directories
-    entity_freq_file = "data/dataset/EntityQuestions/entity_frequency.json"
-    data_evidence_path = "data/dataset/EntityQuestions/data_evidence_costomized" 
+def create_queries_file(data_evidence_path, queries_file):
     relation_temp_file = "data/dataset/EntityQuestions/relation_query_templates.json"
-    data_path = 'data/dataset/EntityQuestions'
-    
-    ### === output files
-    queries_file = "data/generated/EntityQuestions_costomized/{}/queries.jsonl"
-    corpus_file = "data/generated/EntityQuestions_costomized/{}/corpus.jsonl"
-    qrels_file = "data/generated/EntityQuestions_costomized/{}/qrels.jsonl"
-    
-    
-    ### === Read freq file  
-    # with open(entity_freq_path, 'r', encoding='utf-8') as file:
-    #     data = json.load(file)
-    # print(len(data.keys()))
-    # for idx, (entity, freq) in enumerate(data.items()):
-    #     if idx == 10:
-    #         break
-    #     print("{}: {}".format(urllib.parse.unquote(entity), freq))
-    # wikipedia_title = "Free association (communism and anarchism)"
-    # wikidata_id = get_wikidata_id(wikipedia_title)
-    # print(wikidata_id)
-    # wiki_context = get_wikipedia_summary_and_paragraphs(wikipedia_title)
-    # print(wiki_context)
-    
-    # wikipedia_title = get_wikipedia_title_from_wikidata(wikidata_id)
-    # no_wikipedia_page = []
-    # # it usually means that there is no direct Wikidata item linked to that specific Wikipedia page
-    # if wikipedia_title == None:
-    #     no_wikipedia_page.append({title: wikidata_id})
-    # print(wikipedia_title)
-    
-    
-    ### === Create Query file by API ===========
-    ### === First try and wrong ================
-    # with open(relation_temp_file, 'r', encoding='utf-8') as file:
-    #     relation_template = json.load(file)
-     
-    # deleted_entities = {}
-    # for split in (['test', 'dev', 'train',]):
-    #     deleted_entities[split] = []
-    #     split_path = os.path.join(data_path, split)
-        
-    #     with open(queries_file.format(split), 'w') as jsonl:
-        
-    #         for filename in os.listdir(split_path):
-    #             relation_code = filename.split('.')[0]
-                
-    #             file_path = os.path.join(split_path, filename)
-    #             if os.path.isfile(file_path):
-    #                 print(f"Found file: {file_path}")
-    #                 with open(file_path, 'r', encoding='utf-8') as file:
-                        
-    #                     reg_template = reg_templates[relation_code]
-    #                     data = json.load(file)
-    #                     for idx, query_obj in enumerate(data):
-                            
-    #                         if (idx != 0) and (idx % 200 == 0):
-    #                             print('{} processed'.format(idx))
-                            
-    #                         question = query_obj['question']
-    #                         possible_answers = query_obj['answers']
-    #                         wikidata_label = re.findall(reg_template, query_obj['question'])[0]
-    #                         entity_id = get_wikidata_id(wikidata_label)
-    #                         relation_type = relation_types[relation_code]
-                            
-    #                         wiki_title = get_wikipedia_title_from_wikidata(entity_id)
-    #                         if wiki_title != None:
-    #                             # print('wikiID: {}, title: {}'.format(entity_id, wiki_title))
-    #                             pageviews = get_pageviews(wiki_title)
-    #                             temp = {
-    #                                 "entity_id": entity_id,
-    #                                 'relation_type': relation_type,
-    #                                 "pageviews": pageviews,
-    #                                 "question": question,
-    #                                 "possible_answers": possible_answers
-    #                             }
-    #                             jsonl.write(json.dumps(temp) + '\n')
-                            
-    #                         else:
-    #                             deleted_entities[split].append(entity_id)
-    
-    
-    ### === Create Query file by API ===========
-    ### === Second try =========================
     with open(relation_temp_file, 'r', encoding='utf-8') as file:
         relation_template = json.load(file)
     
-    
     for split in (['train', 'test', 'dev']): 
-        data_evidence_path = "data/dataset/EntityQuestions/data_evidence_costomized"
         split_path = os.path.join(data_evidence_path, split)
         
         with open(queries_file.format(split), 'w') as jsonl:
@@ -292,4 +204,79 @@ if __name__ == "__main__":
                                     "possible_answers": possible_answers
                                 }
                                 jsonl.write(json.dumps(temp) + '\n')
+
+def create_corpus_qrels_files(queries_file, corpus_file, qrels_file):
+   
+   corpus_id_counter = 1
+   for split in (['test']):  # 'train', 'dev'
+        
+        split_queries_path = queries_file.format(split)
+        split_corpus_path = corpus_file.format(split)
+        split_qrels_path = qrels_file.format(split)
+        
+        with open(split_queries_path, 'r') as queries, open(split_corpus_path, 'w') as corpus, open(split_qrels_path, 'w') as qrels:
+            for idx, line in enumerate(queries):
+                if (idx+1)%300 == 0:
+                    print("# processed queries:", idx+1)
+                
+                # if idx == 40:
+                #     break
+                
+                data = json.loads(line.strip())
+                wikidata_id = data['entity_id']
+                wikipedia_title = get_wikipedia_title_from_wikidata(wikidata_id)
+                
+                if wikipedia_title:
+                    summary, paragraphs = get_wikipedia_summary_and_paragraphs(wikipedia_title)
+                    
+                    corpus_data1 = {
+                        'id': str(corpus_id_counter),
+                        'contents': summary
+                    }
+                    qrels_data1 = {
+                        'query_id': wikidata_id,
+                        'doc_id': str(corpus_id_counter),
+                        'score': 1
+                    }
+                    corpus_id_counter += 1
+                    
+                    corpus_jsonl_line = json.dumps(corpus_data1)
+                    corpus.write(corpus_jsonl_line + '\n')
+                    qrels_jsonl_line = json.dumps(qrels_data1)
+                    qrels.write(qrels_jsonl_line + '\n')
+                    
+                    for paragraph in paragraphs:
+                        corpus_data2 = {
+                            'id': str(corpus_id_counter),
+                            'contents': paragraph
+                        }
+                        qrels_data2 = {
+                            'query_id': wikidata_id,
+                            'doc_id': str(corpus_id_counter),
+                            'score': 0
+                        }
+                        corpus_id_counter += 1
+                        
+                        corpus_jsonl_line = json.dumps(corpus_data2)
+                        corpus.write(corpus_jsonl_line + '\n')
+                        qrels_jsonl_line = json.dumps(qrels_data2)
+                        qrels.write(qrels_jsonl_line + '\n')
+            
+
+if __name__ == "__main__":
+    
+    ### === Input files & directories
+    entity_freq_file = "data/dataset/EntityQuestions/entity_frequency.json"
+    data_evidence_path = "data/dataset/EntityQuestions/data_evidence_costomized" 
+    
+    ### === output files
+    queries_file = "data/generated/EntityQuestions_costomized/{}/queries.jsonl"
+    corpus_file = "data/generated/EntityQuestions_costomized/{}/corpus.jsonl"
+    qrels_file = "data/generated/EntityQuestions_costomized/{}/qrels.jsonl"
+    
+    ### === Create Query file by API ===========
+    # create_queries_file(data_evidence_path, queries_file)
+    
+    ### === Create Corpus file by API ===========
+    create_corpus_qrels_files(queries_file, corpus_file, qrels_file)
     
