@@ -127,5 +127,6 @@ analysis/
 
 component1_retrieval/results
 component1_retrieval/popqa_data
+component1_retrieval/dpr/models
 
 
