@@ -206,7 +206,7 @@ def create_queries_file(data_evidence_path, queries_file):
 
 def create_corpus_qrels_files(queries_file, corpus_file, qrels_file):
    
-   corpus_id_counter = 2708
+   corpus_id_counter = 514191
    for split in (['train']):  # 'test', 'dev'
         
         split_queries_path = queries_file.format(split)

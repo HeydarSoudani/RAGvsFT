@@ -120,4 +120,4 @@ data/generated/EntityQuestions_costomized/
 # data/generated/popQA_costomized/qrels.jsonl
 data/generated/popQA_costomized/el_popularity.json
 saved/
-some_data/pretraining_entities/
+analysis/
