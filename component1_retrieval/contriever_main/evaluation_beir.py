@@ -1,12 +1,21 @@
-from contriever.src.contriever import Contriever
+from src.contriever import Contriever
 from transformers import AutoTokenizer
+import torch
 
-import contriever.src.slurm
-import contriever.src.contriever
-from contriever.src.beir_utils import evaluate_model
-import contriever.src.utils
-import contriever.src.dist_utils
-import contriever.src.contriever
+import src.slurm
+from src.beir_utils import evaluate_model
+import src.utils
+import src.dist_utils
+
+if torch.cuda.is_available():
+    device = torch.device("cuda:0") 
+    print("Running on the GPU")
+elif torch.backends.mps.is_available():
+    device = torch.device("mps:0")
+    print("Running on the mps")
+else:
+    device = torch.device("cpu")
+    print("Running on the CPU")
 
 # Parameters
 dataset = 'popqa'
@@ -14,7 +23,7 @@ per_gpu_batch_size = 128
 norm_query = True
 norm_doc = True
 score_function = 'dot'
-dataset_dir = "popqa_data"
+dataset_dir = "component1_retrieval/popqa_data"
 save_results_path = "results"
 lower_case = True
 normalize_text = True
@@ -23,7 +32,7 @@ if __name__ == "__main__":
     model = Contriever.from_pretrained("facebook/contriever") 
     tokenizer = AutoTokenizer.from_pretrained("facebook/contriever")
     
-    # model.cuda()
+    model.to(device)
     model.eval()
     query_encoder = model
     doc_encoder = model
@@ -36,15 +45,16 @@ if __name__ == "__main__":
         batch_size=per_gpu_batch_size,
         norm_query=norm_query,
         norm_doc=norm_doc,
-        is_main=contriever.src.dist_utils.is_main(),
+        is_main=src.dist_utils.is_main(),
         split="dev" if dataset == "msmarco" else "test",
         score_function=score_function,
         data_path=dataset_dir,
         save_results_path=save_results_path,
         lower_case=lower_case,
         normalize_text=normalize_text,
+        device=device
     )
     
-    if contriever.src.dist_utils.is_main():
+    if src.dist_utils.is_main():
         for key, value in metrics.items():
             print(f"{dataset} : {key}: {value:.1f}")
