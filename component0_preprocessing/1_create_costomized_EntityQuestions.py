@@ -66,6 +66,8 @@ relation_types = {
     "a":"b"
 }
 
+print('a')
+
 def convert_to_url_format(text):
     text = text.replace(" ", "_")
     text = quote(text)
