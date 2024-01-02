@@ -116,6 +116,7 @@ venv.bak/
 # mine
 saved/
 analysis/
+script_logging/
 data/dataset/
 data/generated/EntityQuestions_costomized/
 data/generated/popQA_costomized/el_popularity.json

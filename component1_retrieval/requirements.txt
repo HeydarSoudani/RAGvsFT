@@ -1,0 +1,3 @@
+torch
+beir
+protobuf==3.20
