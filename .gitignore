@@ -114,10 +114,20 @@ venv.bak/
 .idea
 
 # mine
-data/dataset/
-data/generated/EntityQuestions_costomized/
-# data/generated/popQA_costomized/corpus.jsonl
-# data/generated/popQA_costomized/qrels.jsonl
-data/generated/popQA_costomized/el_popularity.json
 saved/
 analysis/
+data/dataset/
+data/generated/EntityQuestions_costomized/
+data/generated/popQA_costomized/el_popularity.json
+data/generated/popQA_costomized/queries_bucketing.json
+data/generated/popQA_costomized/queries_by_relation.json
+data/generated/popQA_costomized/queries_relative_pop.json
+# data/generated/popQA_costomized/corpus.jsonl
+# data/generated/popQA_costomized/qrels.jsonl
+
+component0_preprocessing/wiki_info
+component1_retrieval/results
+component1_retrieval/popqa_data
+component1_retrieval/dpr/models
+
+

@@ -16,7 +16,10 @@ if __name__ == "__main__":
     fig.delaxes(axes[0,2])  # Remove the third subplot (top-right)
     fig.delaxes(axes[0,3])  # Remove the third subplot (top-right)
     
-    file_path = 'results/final_results.tsv'
+    # file_path = 'results/final_results.tsv'
+    # file_path =  'component1_retrieval/results/dpr_beir.tsv'
+    # file_path = 'component1_retrieval/results/msmarco-distilbert-base-v3_dpr_beir.tsv'
+    file_path = 'component1_retrieval/results/ft_msmarco-distilbert-base-v3_dpr_beir.tsv'
         
     for idx, relation in enumerate(relations):
             
@@ -33,22 +36,29 @@ if __name__ == "__main__":
         
             selected_rows = []
             for row in tsv_reader:
-                if row['Title'].split('_')[1].lower() == relation:
+                if row['Title'].split('_')[0].lower() == relation:
                     selected_rows.append(row)
             
             # data = {obj['Title'].split('_')[-1]: obj['NDCG@10'] for obj in selected_rows}
             for i in [1, 5, 10, 100]:
-                data = {obj['Title'].split('_')[-1]: obj[f'P@{i}'] for obj in selected_rows}
+                data = {obj['Title'].split('_')[-1]: obj[f'Recall@{i}'] for obj in selected_rows}
                 sorted_keys = sorted(data.keys(), key=lambda x: int(x[6:]))  # Sort by the number part of the key
                 sorted_data = {k: data[k] for k in sorted_keys}
                 
                 if idx ==0:                
-                    ax.plot(['b2', 'b3', 'b4'], [float(item) for item in sorted_data.values()][1:], label=f'P@{i}')
+                    ax.plot(
+                        ['b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7'],
+                        [float(item) for item in sorted_data.values()],
+                        label=f'Recall@{i}'
+                    )
                 else:
-                    ax.plot(['b2', 'b3', 'b4'], [float(item) for item in sorted_data.values()][1:])
+                    ax.plot(
+                        ['b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7'],
+                        [float(item) for item in sorted_data.values()]
+                    )
             
             ax.set_title(relation)
-            ax.set_ylim(0, 0.75)
+            ax.set_ylim(0, 1.05)
     
     # axes[0,2].legend(loc="upper right")
     fig.legend(loc='upper right')

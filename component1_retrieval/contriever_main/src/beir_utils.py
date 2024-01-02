@@ -15,8 +15,8 @@ from beir.retrieval.search.dense import DenseRetrievalExactSearch
 from beir.reranking.models import CrossEncoder
 from beir.reranking import Rerank
 
-import contriever.src.dist_utils as dist_utils
-from contriever.src import normalize_text
+import src.dist_utils as dist_utils
+from src import normalize_text
 
 
 class DenseEncoderModel:
@@ -31,6 +31,7 @@ class DenseEncoderModel:
         norm_doc=False,
         lower_case=False,
         normalize_text=False,
+        device="cuda:0",
         **kwargs,
     ):
         self.query_encoder = query_encoder
@@ -42,6 +43,7 @@ class DenseEncoderModel:
         self.norm_doc = norm_doc
         self.lower_case = lower_case
         self.normalize_text = normalize_text
+        self.device = device
 
     def encode_queries(self, queries: List[str], batch_size: int, **kwargs) -> np.ndarray:
 
@@ -72,12 +74,13 @@ class DenseEncoderModel:
                     return_tensors="pt",
                 )
                 # qencode = {key: value.cuda() for key, value in qencode.items()}
-                qencode = {key: value for key, value in qencode.items()}
+                qencode = {key: value.to(self.device) for key, value in qencode.items()}
                 emb = self.query_encoder(**qencode, normalize=self.norm_query)
                 allemb.append(emb.cpu())
 
         allemb = torch.cat(allemb, dim=0)
         # allemb = allemb.cuda()
+        allemb = allemb.to(self.device)
         if dist.is_initialized():
             allemb = dist_utils.varsize_gather_nograd(allemb)
         allemb = allemb.cpu().numpy()
@@ -112,11 +115,12 @@ class DenseEncoderModel:
                     return_tensors="pt",
                 )
                 # cencode = {key: value.cuda() for key, value in cencode.items()}
-                cencode = {key: value for key, value in cencode.items()}
+                cencode = {key: value.to(self.device) for key, value in cencode.items()}
                 emb = self.doc_encoder(**cencode, normalize=self.norm_doc)
                 allemb.append(emb.cpu())
 
         allemb = torch.cat(allemb, dim=0)
+        allemb = allemb.to(self.device)
         # allemb = allemb.cuda()
         if dist.is_initialized():
             allemb = dist_utils.varsize_gather_nograd(allemb)
@@ -141,6 +145,7 @@ def evaluate_model(
     save_results_path=None,
     lower_case=False,
     normalize_text=False,
+    device="cuda:0"
 ):
 
     metrics = defaultdict(list)  # store final results
@@ -166,6 +171,7 @@ def evaluate_model(
             norm_doc=norm_doc,
             lower_case=lower_case,
             normalize_text=normalize_text,
+            device=device
         ),
         batch_size=batch_size,
     )
