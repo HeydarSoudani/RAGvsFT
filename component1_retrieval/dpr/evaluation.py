@@ -93,7 +93,7 @@ if __name__ == "__main__":
     # model_path = "msmarco-distilbert-base-v3"
     # results_filename = '{}_dpr_beir.tsv'.format(model_path)
     # After 1 epoach fine-tuning
-    model_path = "component1_retrieval/dpr/models/msmarco-distilbert-base-v3-GenQ-popqa"
+    model_path = "component1_retrieval/dpr/models/msmarco-distilbert-base-v3-GenQ-popqa-e3"
     results_filename = 'ft_{}_dpr_beir.tsv'.format('msmarco-distilbert-base-v3')
     
     model = DRES(models.SentenceBERT(model_path, batch_size=128), device=device)
