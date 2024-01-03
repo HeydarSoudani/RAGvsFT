@@ -1,22 +1,20 @@
+import torch
+import argparse
+import csv, os, json
+import logging
+
 from beir import util, LoggingHandler
 from beir.retrieval import models
 from beir.datasets.data_loader import GenericDataLoader
 from beir.retrieval.evaluation import EvaluateRetrieval
 from beir.retrieval.search.dense import DenseRetrievalExactSearch as DRES
-import torch
-import csv, os, json
 
 from customized_datasets.data_loader import CostomizedGenericDataLoader
 
-if torch.cuda.is_available():
-    device = torch.device("cuda:0") 
-    print("Running on the GPU")
-elif torch.backends.mps.is_available():
-    device = torch.device("mps:0")
-    print("Running on the mps")
-else:
-    device = torch.device("cpu")
-    print("Running on the CPU")
+logging.basicConfig(format='%(asctime)s - %(message)s',
+                    datefmt='%Y-%m-%d %H:%M:%S',
+                    level=logging.INFO,
+                    handlers=[LoggingHandler()])
 
 def preprocessing_corpus_queries():
     
@@ -31,7 +29,6 @@ def preprocessing_corpus_queries():
     
     # input_qrels = "data/generated/popQA_costomized/qrels.jsonl"
     # output_qrels = "component1_retrieval/popqa_data/qrels/test.tsv"
-    
     
     with open(input_corpus, 'r') as in_corpus, open(output_corpus, 'w') as out_corpus:
         for idx, line in enumerate(in_corpus):
@@ -83,41 +80,45 @@ def preprocessing_qrels(qid_list):
                 else:
                     qrels[query_id][corpus_id] = score
         return qrels
-                    
-                # tsv_line = '{}\t{}\t{}\n'.format(data.get("query_id", ""), data.get("doc_id", ""), data.get("score", 0))
-                # out_qrels.write(tsv_line)
+        # tsv_line = '{}\t{}\t{}\n'.format(data.get("query_id", ""), data.get("doc_id", ""), data.get("score", 0))
+        # out_qrels.write(tsv_line)
 
-if __name__ == "__main__":
+
+def main(args):
     
-    # Zero-shot evaluation
-    # model_path = "msmarco-distilbert-base-v3"
-    # results_filename = '{}_dpr_beir.tsv'.format(model_path)
-    # After 1 epoach fine-tuning
-    model_path = "component1_retrieval/dpr/models/msmarco-distilbert-base-v3-GenQ-popqa-e3"
-    results_filename = 'ft_{}_dpr_beir.tsv'.format('msmarco-distilbert-base-v3')
+    if torch.cuda.is_available():
+        device = torch.device("cuda:0") 
+        print("Running on the GPU")
+    elif torch.backends.mps.is_available():
+        device = torch.device("mps:0")
+        print("Running on the mps")
+    else:
+        device = torch.device("cpu")
+        print("Running on the CPU")
     
-    model = DRES(models.SentenceBERT(model_path, batch_size=128), device=device)
+    if not os.path.exists(args.output_results_dir):
+        os.makedirs(args.output_results_dir)
+    resutls_path = os.path.join(args.output_results_dir, args.output_results_filename)
+    
+    model = DRES(models.SentenceBERT(args.model, batch_size=128), device=device)
     # model = DRES(models.SentenceBERT((
     #     "facebook-dpr-question_encoder-multiset-base",
     #     "facebook-dpr-ctx_encoder-multiset-base",
     #     " [SEP] "), batch_size=128), device=device)
-    
     retriever = EvaluateRetrieval(model, score_function="dot")
     
-    results_dir = 'component1_retrieval/results'
-    if not os.path.exists(results_dir):
-        os.makedirs(results_dir)
-    resutls_path = os.path.join(results_dir, results_filename)
-    
+
     # corpus -> jsonl {"_id", "title", "text"}
     # queries -> jsonl {"_id", "text"}
     # qrels -> tsv {"quesry_id", "corpus_id", "score"}
-    preprocessing_corpus_queries()
+    if not args.data_ready:
+        preprocessing_corpus_queries()
     
     data_path = "component1_retrieval/popqa_data"
     dataloader = CostomizedGenericDataLoader(data_folder=data_path)
     corpus, queries = dataloader.load_corpus_queries()
     
+    # 
     with open(resutls_path, 'w', newline='') as file:
         tsv_writer = csv.writer(file, delimiter='\t')
         tsv_writer.writerow([
@@ -136,21 +137,26 @@ if __name__ == "__main__":
         
         for relation_name, relation_data in query_data.items():
             for bk_name, bk_data in relation_data.items():
-                print('{}, {}'.format(relation_name, bk_name))
+                # print('{}, {}'.format(relation_name, bk_name))
+                logging.info('{}, {}'.format(relation_name, bk_name))
+                
                 if len(bk_data) == 0:
                     eval_res = [relation_name+'_'+bk_name] + [0]*16
 
                 else:
                     qid_list = [q_sample["entity_id"] for q_sample in bk_data]
                     qrels = preprocessing_qrels(qid_list)
-                    # qrels = dataloader.load_qrels(split="test")
                     
                     ndcg, _map, recall, precision = retriever.evaluate(qrels, results, [1, 5, 10, 100]) #retriever.k_values
 
-                    print(ndcg)
-                    print(_map)
-                    print(recall)
-                    print(precision)
+                    logging.info(ndcg)
+                    logging.info(_map)
+                    logging.info(recall)
+                    logging.info(precision)
+                    # print(ndcg)
+                    # print(_map)
+                    # print(recall)
+                    # print(precision)
                     print("\n")
         
                     eval_res = [relation_name+'_'+bk_name]\
@@ -159,4 +165,15 @@ if __name__ == "__main__":
                         +list(recall.values())\
                         +list(precision.values())
                 tsv_writer.writerow(eval_res)
+    
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-m", "--model", required=True)
+    parser.add_argument("--output_results_dir", type=str)
+    parser.add_argument("--output_results_filename", type=str)
+    parser.add_argument("--data_ready", action="store_true")
+    args = parser.parse_args()
+    main(args)
+    
     
