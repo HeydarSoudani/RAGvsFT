@@ -1,8 +1,8 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 # -*- coding: UTF-8 -*-
 
-# This file  is copied from: 
+# This file is copied from: 
 # https://github.com/AlexTMallen/adaptive-retrieval/blob/main/run_model.py
 
 import random

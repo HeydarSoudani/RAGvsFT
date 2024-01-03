@@ -1,3 +1,6 @@
 openai
 torch
 transformers
+matplotlib
+seaborn
+jsonlines
