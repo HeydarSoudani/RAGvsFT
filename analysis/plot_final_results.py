@@ -19,7 +19,7 @@ if __name__ == "__main__":
     # file_path = 'results/final_results.tsv'
     # file_path =  'component1_retrieval/results/dpr_beir.tsv'
     # file_path = 'component1_retrieval/results/msmarco-distilbert-base-v3_dpr_beir.tsv'
-    file_path = 'component1_retrieval/results/ft_msmarco-distilbert-base-v3_dpr_beir.tsv'
+    file_path = 'component1_retrieval/results/no_ft_dpr_beir.tsv'
         
     for idx, relation in enumerate(relations):
             
@@ -47,13 +47,13 @@ if __name__ == "__main__":
                 
                 if idx ==0:                
                     ax.plot(
-                        ['b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7'],
+                        ['b1', 'b2', 'b3', 'b4', 'b5'],
                         [float(item) for item in sorted_data.values()],
                         label=f'Recall@{i}'
                     )
                 else:
                     ax.plot(
-                        ['b1', 'b2', 'b3', 'b4', 'b5', 'b6', 'b7'],
+                        ['b1', 'b2', 'b3', 'b4', 'b5'],
                         [float(item) for item in sorted_data.values()]
                     )
             
