@@ -19,8 +19,9 @@ if __name__ == "__main__":
     # file_path = 'results/final_results.tsv'
     # file_path =  'component1_retrieval/results/dpr_beir.tsv'
     # file_path = 'component1_retrieval/results/msmarco-distilbert-base-v3_dpr_beir.tsv'
-    file_path = 'component1_retrieval/results/no_ft_dpr_beir.tsv'
-        
+    file_path = 'component1_retrieval/results/bm25_eval.tsv'
+       
+     
     for idx, relation in enumerate(relations):
             
         with open(file_path, 'r', newline='', encoding='utf-8') as file:

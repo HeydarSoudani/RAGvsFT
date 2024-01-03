@@ -85,7 +85,6 @@ def preprocessing_qrels(qid_list):
         # tsv_line = '{}\t{}\t{}\n'.format(data.get("query_id", ""), data.get("doc_id", ""), data.get("score", 0))
         # out_qrels.write(tsv_line)
 
-
 def main(args):
     
     if torch.cuda.is_available():
