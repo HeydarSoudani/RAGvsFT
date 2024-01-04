@@ -117,20 +117,15 @@ venv.bak/
 saved/
 analysis/
 script_logging/
+
 data/dataset/EntityQuestions
 data/dataset/popQA/bm25_results.jsonl
 data/dataset/popQA/contriever_results.jsonl
-data/generated/EntityQuestions_costomized/
-data/generated/popQA_costomized/el_popularity.json
-data/generated/popQA_costomized/queries_bucketing.json
-data/generated/popQA_costomized/queries_by_relation.json
-data/generated/popQA_costomized/queries_relative_pop.json
-# data/generated/popQA_costomized/corpus.jsonl
-# data/generated/popQA_costomized/qrels.jsonl
 
-component0_preprocessing/wiki_info
+component0_preprocessing/generated_data/EntityQuestions_costomized
+component0_preprocessing/generated_data/popQA_costomized/el_popularity.json
 component1_retrieval/results
-component1_retrieval/popqa_data
 component1_retrieval/dpr/models
+
 
 

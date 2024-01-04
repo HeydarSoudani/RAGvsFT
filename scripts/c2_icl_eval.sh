@@ -19,4 +19,4 @@ srun $HOME/RAGvsFT/component2_ICL_OBQA/in_context_learning.py \
     --model_name "facebook/opt-1.3b" \
     --input_file $HOME/RAGvsFT/data/dataset/popQA/popQA.tsv \
     --eval_method BM25 \
-    --ret_path $HOME/RAGvsFT/data/generated/popQA_costomized/ret_result.jsonl
+    --ret_path $HOME/RAGvsFT/component2_ICL_OBQA/data/popqa/bm25_result.jsonl
