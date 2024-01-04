@@ -55,14 +55,14 @@ def retrieval_resutls_no_ideal():
     qr_file = 'component0_preprocessing/generated_data/popQA_costomized/qrels.jsonl'
     
     # For bm25
-    retrieved_qr_file = 'component1_retrieval/results/bm25-qrels.tsv'
-    out_file = 'component2_ICL_OBQA/data/popqa/bm25_results.jsonl'
+    # retrieved_qr_file = 'component1_retrieval/results/bm25-qrels.tsv'
+    # out_file = 'component2_ICL_OBQA/data/popqa/bm25_results.jsonl'
     # For DPR, no FT
     # retrieved_qr_file = 'component1_retrieval/results/dpr_noft-qrels.tsv'
     # out_file = 'component2_ICL_OBQA/data/popqa/dpr_noft_results.jsonl'
     # For DPR, FT
-    # retrieved_qr_file = 'component1_retrieval/results/dpr-ft-qrels.tsv'
-    # out_file = 'component2_ICL_OBQA/data/popqa/dpr_ft_results.jsonl'
+    retrieved_qr_file = 'component1_retrieval/results/dpr-ft-qrels.tsv'
+    out_file = 'component2_ICL_OBQA/data/popqa/dpr_ft_results.jsonl'
     
     with open(retrieved_qr_file, 'r') as ret_qrels_file, open(qr_file, 'r') as gt_qrels_file, open(out_file, 'w') as output_file:
         
