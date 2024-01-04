@@ -18,9 +18,10 @@ pip install -r $HOME/RAGvsFT/component1_retrieval/requirements.txt
 
 srun $HOME/RAGvsFT/component1_retrieval/dpr/evaluation.py \
     --model "msmarco-distilbert-base-v3" \
+    --data_path "$HOME/RAGvsFT/component1_retrieval/data/popqa" \
     --output_results_dir "$HOME/RAGvsFT/component1_retrieval/results" \
-    --output_results_filename "ft_dpr_beir.tsv" \
-    --data_ready
+    --output_results_filename "noft_dpr_beir.tsv" \
+    --results_save_file "dpr_noft-qrels.tsv"
 
 # Zero-shot: msmarco-distilbert-base-v3
 # After FT: component1_retrieval/dpr/models/msmarco-distilbert-base-v3-GenQ-popqa-e3

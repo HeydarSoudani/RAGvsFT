@@ -18,57 +18,11 @@ logging.basicConfig(format='%(asctime)s - %(message)s',
                     level=logging.INFO,
                     handlers=[LoggingHandler()])
 
-def preprocessing_corpus_queries():
+def preprocessing_qrels(qid_list, relation_name, bucket_name):
+    input_qrels = "component0_preprocessing/generated_data/popQA_costomized/qrels.jsonl"
+    output_bk_qrels = os.path.join(args.data_path, "qrels/test_{}_{}.tsv".format(relation_name, bucket_name))
     
-    if not os.path.exists("component1_retrieval/popqa_data"):
-        os.makedirs("component1_retrieval/popqa_data")
-
-    input_corpus = "data/generated/popQA_costomized/corpus.jsonl"
-    output_corpus = "component1_retrieval/popqa_data/corpus.jsonl"
-        
-    input_queries = "data/generated/popQA_costomized/queries.jsonl"
-    output_queries = "component1_retrieval/popqa_data/queries.jsonl"
-    
-    # input_qrels = "data/generated/popQA_costomized/qrels.jsonl"
-    # output_qrels = "component1_retrieval/popqa_data/qrels/test.tsv"
-    
-    with open(input_corpus, 'r') as in_corpus, open(output_corpus, 'w') as out_corpus:
-        for idx, line in enumerate(in_corpus):
-            data = json.loads(line.strip()) 
-
-            new_json = {
-                "_id": data["id"],
-                "title": "",
-                "text": data["contents"]
-            }
-       
-            corpus_jsonl_line = json.dumps(new_json)
-            out_corpus.write(corpus_jsonl_line + '\n')
-    
-    with open(input_queries, 'r') as in_queries, open(output_queries, 'w') as out_queries:
-        for idx, line in enumerate(in_queries):
-            data = json.loads(line.strip()) 
-
-            new_json = {
-                "_id": data["entity_id"],
-                "text": data["question"]
-            }
-       
-            query_jsonl_line = json.dumps(new_json)
-            out_queries.write(query_jsonl_line + '\n')
-
-    # with open(input_qrels, 'r') as in_qrels, open(output_qrels, 'w') as out_qrels:
-    #     out_qrels.write("query_id\tcorpus_id\tscore\n")   
-    #     for line in in_qrels:
-    #         data = json.loads(line)
-    #         tsv_line = '{}\t{}\t{}\n'.format(data.get("query_id", ""), data.get("doc_id", ""), data.get("score", 0))
-    #         out_qrels.write(tsv_line)
-
-def preprocessing_qrels(qid_list):
-    input_qrels = "data/generated/popQA_costomized/qrels.jsonl"
-    output_qrels = "component1_retrieval/popqa_data/qrels/test.tsv"
-    
-    with open(input_qrels, 'r') as in_qrels, open(output_qrels, 'w') as out_qrels:
+    with open(input_qrels, 'r') as in_qrels, open(output_bk_qrels, 'w') as out_qrels:
         out_qrels.write("query_id\tcorpus_id\tscore\n")   
         qrels = {}
         for line in in_qrels:
@@ -82,8 +36,6 @@ def preprocessing_qrels(qid_list):
                 else:
                     qrels[query_id][corpus_id] = score
         return qrels
-        # tsv_line = '{}\t{}\t{}\n'.format(data.get("query_id", ""), data.get("doc_id", ""), data.get("score", 0))
-        # out_qrels.write(tsv_line)
 
 def main(args):
     
@@ -108,16 +60,25 @@ def main(args):
     #     " [SEP] "), batch_size=128), device=device)
     retriever = EvaluateRetrieval(model, score_function="dot")
     
-
-    # corpus -> jsonl {"_id", "title", "text"}
-    # queries -> jsonl {"_id", "text"}
-    # qrels -> tsv {"quesry_id", "corpus_id", "score"}
-    if not args.data_ready:
-        preprocessing_corpus_queries()
-    
-    data_path = "component1_retrieval/popqa_data"
-    dataloader = CostomizedGenericDataLoader(data_folder=data_path)
+    dataloader = CostomizedGenericDataLoader(data_folder=args.data_path)
     corpus, queries = dataloader.load_corpus_queries()
+    
+    results = retriever.retrieve(corpus, queries)
+    
+    # save qrels file
+    if args.results_save_file:
+        qrels_resutls_path = os.path.join(args.output_results_dir, args.results_save_file)
+        k = 1
+        with open(qrels_resutls_path, 'w', newline='') as file:
+            writer = csv.DictWriter(file, fieldnames=['query_id', 'corpus_id', 'score'], delimiter='\t')
+            writer.writeheader()
+            for query_id, value in results.items():
+                sorted_doc_scores = dict(sorted(value.items(), key=lambda item: item[1], reverse=True))
+                writer.writerow({
+                    'query_id': query_id,
+                    'corpus_id': list(sorted_doc_scores.keys())[0],
+                    'score': list(sorted_doc_scores.values())[0]
+                })
     
     # 
     with open(resutls_path, 'w', newline='') as file:
@@ -130,9 +91,8 @@ def main(args):
             "P@1", "P@5", "P@10", "P@100",
         ])
         
-        results = retriever.retrieve(corpus, queries)
         
-        queries_bk_path = "data/generated/popQA_costomized/queries_bucketing.json"
+        queries_bk_path = "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
         with open(queries_bk_path, 'r') as in_queries:
             query_data = json.load(in_queries)
         
@@ -146,7 +106,7 @@ def main(args):
 
                 else:
                     qid_list = [q_sample["entity_id"] for q_sample in bk_data]
-                    qrels = preprocessing_qrels(qid_list)
+                    qrels = preprocessing_qrels(qid_list, relation_name, bk_name)
                     
                     ndcg, _map, recall, precision = retriever.evaluate(qrels, results, [1, 5, 10, 100]) #retriever.k_values
 
@@ -171,9 +131,10 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-m", "--model", required=True)
+    parser.add_argument("--data_path", type=str)
     parser.add_argument("--output_results_dir", type=str)
     parser.add_argument("--output_results_filename", type=str)
-    parser.add_argument("--data_ready", action="store_true")
+    parser.add_argument("--results_save_file", default=None, type=str)
     args = parser.parse_args()
     main(args)
     
