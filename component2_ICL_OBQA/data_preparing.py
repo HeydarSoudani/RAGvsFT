@@ -61,7 +61,7 @@ def retrieval_resutls_no_ideal():
     # retrieved_qr_file = 'component1_retrieval/results/dpr_noft-qrels.tsv'
     # out_file = 'component2_ICL_OBQA/data/popqa/dpr_noft_results.jsonl'
     # For DPR, FT
-    retrieved_qr_file = 'component1_retrieval/results/dpr-ft-qrels.tsv'
+    retrieved_qr_file = 'component1_retrieval/results/dpr_ft-qrels.tsv'
     out_file = 'component2_ICL_OBQA/data/popqa/dpr_ft_results.jsonl'
     
     with open(retrieved_qr_file, 'r') as ret_qrels_file, open(qr_file, 'r') as gt_qrels_file, open(out_file, 'w') as output_file:
