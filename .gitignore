@@ -126,6 +126,7 @@ component0_preprocessing/generated_data/EntityQuestions_costomized
 component0_preprocessing/generated_data/popQA_costomized/el_popularity.json
 component1_retrieval/results
 component1_retrieval/dpr/models
+component1_retrieval/data/popqa/qrels/test_*
 
 
 

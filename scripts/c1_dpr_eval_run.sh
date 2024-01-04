@@ -17,11 +17,11 @@ module load Python/3.10.4-GCCcore-11.3.0
 pip install -r $HOME/RAGvsFT/component1_retrieval/requirements.txt
 
 srun $HOME/RAGvsFT/component1_retrieval/dpr/evaluation.py \
-    --model "msmarco-distilbert-base-v3" \
+    --model "$HOME/RAGvsFT/component1_retrieval/dpr/models/ft_dpr_5e" \
     --data_path "$HOME/RAGvsFT/component1_retrieval/data/popqa" \
     --output_results_dir "$HOME/RAGvsFT/component1_retrieval/results" \
-    --output_results_filename "noft_dpr_beir.tsv" \
-    --results_save_file "dpr_noft-qrels.tsv"
+    --output_results_filename "ft_dpr_beir.tsv" \
+    --results_save_file "dpr_ft-qrels.tsv"
 
 # Zero-shot: msmarco-distilbert-base-v3
-# After FT: component1_retrieval/dpr/models/msmarco-distilbert-base-v3-GenQ-popqa-e3
+# After FT: component1_retrieval/dpr/models/ft_dpr_5e
