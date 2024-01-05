@@ -185,7 +185,6 @@ def main():
         knowledge = knowledge[~knowledge.id.isin(results.id)]
     n = len(knowledge) if args.sample == 0 else args.sample
     sample = knowledge.sample(n=n, replace=False)
-    print(type(sample))
     
     # input_path = args.input_file # json format
     # "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
@@ -255,6 +254,7 @@ def main():
                             if is_templatedQA:
                                 other_pids = list(q_templates.keys())
                                 print(row)
+                                print(row.prop_id)
                                 other_pids.remove(row.prop_id)
                                 for pid in other_pids:
                                     for row2 in knowledge[knowledge.prop_id == pid].sample(n=examples_per_template).iloc:
