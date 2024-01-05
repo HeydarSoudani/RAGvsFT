@@ -103,7 +103,7 @@ def get_few_shot_text_with_retrieval(row, retrieval_dict, eval_method):
         return completion_template.format(row.question) + " " + row.obj
       # retrieval_dict[row.id]["ctxs"][0]
     if row.question.replace("?", "").lower() not in retrieval_dict:
-        print("missing retrieval")
+        # print("missing retrieval")
         return completion_template.format(row.question) + " " + row.obj
     else:
         retrieval = retrieval_dict[row.question.replace("?", "").lower()]["ctxs"][0]
