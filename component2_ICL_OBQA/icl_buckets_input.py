@@ -254,6 +254,7 @@ def main():
                         else:
                             if is_templatedQA:
                                 other_pids = list(q_templates.keys())
+                                print(row)
                                 other_pids.remove(row.prop_id)
                                 for pid in other_pids:
                                     for row2 in knowledge[knowledge.prop_id == pid].sample(n=examples_per_template).iloc:
