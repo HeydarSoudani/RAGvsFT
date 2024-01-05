@@ -12,7 +12,7 @@ def read_tsv_to_dict(tsv_file, keyword):
             # relation_type = row['prop']
             # popqa_pop = row['s_pop']
             selected_kw = row[keyword]
-            entity_relation_dict[entity_id] = selected_kw
+            entity_relation_dict[entity_id] = int(selected_kw)
     return entity_relation_dict
 
 # Step 2: Read the JSONL file, update each JSON object, and store them
