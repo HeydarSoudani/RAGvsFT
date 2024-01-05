@@ -119,8 +119,8 @@ def main(args):
     
     args = TrainingArguments(
         output_dir=model_save_path,
-        per_device_train_batch_size=32,
-        per_device_eval_batch_size=32,
+        per_device_train_batch_size=16,
+        per_device_eval_batch_size=16,
         evaluation_strategy="steps",
         eval_steps=5_000,
         logging_steps=5_000,
