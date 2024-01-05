@@ -6,7 +6,7 @@ from datasets import Dataset, DatasetDict
 from sklearn.model_selection import train_test_split
 from accelerate import Accelerator
 
-from transformers import DataCollatorForLanguageModeling
+from transformers import DataCollatorForLanguageModeling, OPTForCausalLM
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import default_data_collator
 from transformers import TrainingArguments, Trainer, get_scheduler
@@ -63,6 +63,9 @@ def main(args):
         # device_map='auto',
     )
     tokenizer = AutoTokenizer.from_pretrained(args.model)
+    
+    # model = OPTForCausalLM.from_pretrained("facebook/opt-350m")
+    # tokenizer = AutoTokenizer.from_pretrained("facebook/opt-350m")
 
     ### === Load dataset =====================
     with open(args.corpus_path, 'r') as input_file:
@@ -110,27 +113,26 @@ def main(args):
     
     # model = GPT2LMHeadModel(config)
     model_size = sum(t.numel() for t in model.parameters())
-    print(f"GPT-2 size: {model_size/1000**2:.1f}M parameters")
+    print(f"OPT size: {model_size/1000**2:.1f}M parameters")
     
     
-
     tokenizer.pad_token = tokenizer.eos_token
     data_collator = DataCollatorForLanguageModeling(tokenizer, mlm=False)
     
     args = TrainingArguments(
         output_dir=model_save_path,
-        per_device_train_batch_size=16,
-        per_device_eval_batch_size=16,
+        per_device_train_batch_size=32,
+        per_device_eval_batch_size=32,
         evaluation_strategy="steps",
-        eval_steps=5_000,
-        logging_steps=5_000,
+        eval_steps=100,
+        logging_steps=100,
         gradient_accumulation_steps=8,
-        num_train_epochs=1,
+        num_train_epochs=args.epochs,
         weight_decay=0.1,
         warmup_steps=1_000,
         lr_scheduler_type="cosine",
         learning_rate=5e-4,
-        save_steps=5_000,
+        save_steps=100,
         # fp16=True,
         # push_to_hub=True,
     )
@@ -145,14 +147,6 @@ def main(args):
     )
     
     trainer.train()
-
-    
-    # lm_datasets = tokenized_datasets.map(
-    #     group_texts,
-    #     batched=True,
-    #     batch_size=1000,
-    #     num_proc=4,
-    # )
     
     ### ========================================
     ### === Training (v1) ======================

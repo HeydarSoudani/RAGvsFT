@@ -17,7 +17,7 @@ module load Python/3.10.4-GCCcore-11.3.0
 pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 
 srun $HOME/RAGvsFT/component4_CBQA/causalLM_ft.py \
-    --model "facebook/opt-1.3b" \
+    --model ""facebook/opt-350m"" \
     --corpus_path "$HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_costomized/corpus.jsonl" \
     --model_output_dir "$HOME/RAGvsFT/component4_CBQA/models" \
     --model_output_filename "clm_opt1-3_2e" \
