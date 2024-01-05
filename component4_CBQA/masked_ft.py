@@ -186,7 +186,7 @@ def main():
 
     model_name = "distilbert-base-uncased-finetuned-imdb-accelerate"
     # repo_name = get_full_repo_name(model_name)
-    # output_dir = model_name
+    output_dir = model_name
     # repo = Repository(output_dir, clone_from=repo_name)
     
     progress_bar = tqdm(range(num_training_steps))
