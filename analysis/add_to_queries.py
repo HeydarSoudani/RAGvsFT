@@ -12,7 +12,7 @@ def read_tsv_to_dict(tsv_file, keyword):
             # relation_type = row['prop']
             # popqa_pop = row['s_pop']
             selected_kw = row[keyword]
-            entity_relation_dict[entity_id] = int(selected_kw)
+            entity_relation_dict[entity_id] = selected_kw
     return entity_relation_dict
 
 # Step 2: Read the JSONL file, update each JSON object, and store them
@@ -30,7 +30,7 @@ def update_jsonl_with_relations(jsonl_file, entity_relation_dict, output_file, k
 tsv_file = 'data/dataset/popQA/popQA.tsv'
 jsonl_file = 'component0_preprocessing/generated_data/popQA_costomized/queries.jsonl'
 output_file = 'component0_preprocessing/generated_data/popQA_costomized/queries_new.jsonl'
-keyword = "prop_id"
+keyword = "obj"
 
 # Execute the functions
 entity_relation_dict = read_tsv_to_dict(tsv_file, keyword)
