@@ -237,10 +237,10 @@ def create_corpus_qrels_files_bucket(q_buckets_path, corpus_path, qrels_path):
 
 if __name__ == "__main__":
     # For popQA
-    queries_file = "data/generated/popQA_costomized/queries.jsonl"
-    q_relation_file_path = "data/generated/popQA_costomized/queries_by_relation.json"
-    q_relative_pop_file_path = "data/generated/popQA_costomized/queries_relative_pop.json"
-    q_buckets_path = "data/generated/popQA_costomized/queries_bucketing.json"
+    queries_file = "component0_preprocessing/generated_data/popQA_costomized/queries_new.jsonl"
+    q_relation_file_path = "component0_preprocessing/generated_data/popQA_costomized/queries_by_relation.json"
+    q_relative_pop_file_path = "component0_preprocessing/generated_data/popQA_costomized/queries_relative_pop.json"
+    q_buckets_path = "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
     
     # if not os.path.exists("data/generated/popQA_costomized/query_bucketing"):
     #     os.makedirs("data/generated/popQA_costomized/query_bucketing")
@@ -260,20 +260,20 @@ if __name__ == "__main__":
     # q_buckets_path = "data/generated/EntityQuestions_costomized/dev/queries_buckets.json"
     
     # Convert all queries to list of objs
-    # with open(queries_file, 'r') as file:
-    #     q_all = [json.loads(line) for line in file]
-    # q_by_relation = split_by_relation(queries_file, q_relation_file_path)
+    with open(queries_file, 'r') as file:
+        q_all = [json.loads(line) for line in file]
+    q_by_relation = split_by_relation(queries_file, q_relation_file_path)
     
-    # # # Add relative popularity to objs
-    # q_relative = {}
-    # all_new_objs = calculate_relative_popularity(q_all)
-    # q_relative['all'] = all_new_objs
-    # for relation, objects in q_by_relation.items():
-    #     new_objs = calculate_relative_popularity(objects)
-    #     q_relative[relation] = new_objs
+    # # Add relative popularity to objs
+    q_relative = {}
+    all_new_objs = calculate_relative_popularity(q_all)
+    q_relative['all'] = all_new_objs
+    for relation, objects in q_by_relation.items():
+        new_objs = calculate_relative_popularity(objects)
+        q_relative[relation] = new_objs
     
-    # with open(q_relative_pop_file_path, 'w') as relative_output_file:   
-    #     json.dump(q_relative, relative_output_file, indent=4)
+    with open(q_relative_pop_file_path, 'w') as relative_output_file:   
+        json.dump(q_relative, relative_output_file, indent=4)
     
     # with open(q_relative_pop_file_path, 'r') as file:
     #     q_relatives = json.load(file)
