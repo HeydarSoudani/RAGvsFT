@@ -47,8 +47,8 @@ def main(args):
     
     model = AutoModelForCausalLM.from_pretrained(
         args.model,
-        # load_in_8bit=True,
-        # device_map='auto',
+        load_in_8bit=True,
+        device_map='auto',
     )
     tokenizer = AutoTokenizer.from_pretrained(args.model, use_fast=True)
 
@@ -111,6 +111,8 @@ def main(args):
     
     eval_results = trainer.evaluate()
     print(f"Perplexity: {math.exp(eval_results['eval_loss']):.2f}")
+    
+    ### === Training (v2) ======================
 
 
 if __name__ == "__main__":
