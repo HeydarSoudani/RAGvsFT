@@ -134,7 +134,7 @@ def main(args):
     
     # === training parameters
     optimizer = AdamW(model.parameters(), lr=2e-5)
-    accelerator = Accelerator(fp16=True)
+    accelerator = Accelerator()
     model, optimizer, train_dataloader, eval_dataloader = accelerator.prepare(
         model, optimizer, train_dataloader, eval_dataloader
     )
