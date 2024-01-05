@@ -114,6 +114,7 @@ venv.bak/
 .idea
 
 # mine
+wandb/
 saved/
 analysis/
 script_logging/
@@ -127,6 +128,6 @@ component0_preprocessing/generated_data/popQA_costomized/el_popularity.json
 component1_retrieval/results
 component1_retrieval/dpr/models
 component1_retrieval/data/popqa/qrels/test_*
-
+component4_CBQA/models
 
 

@@ -21,11 +21,7 @@ srun $HOME/RAGvsFT/component4_CBQA/causalLM_ft.py \
     --corpus_path "$HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_costomized/corpus.jsonl" \
     --model_output_dir "$HOME/RAGvsFT/component4_CBQA/models" \
     --model_output_filename "clm_opt1-3_1e" \
-    --epochs 1 \
-    # --data_path "$HOME/RAGvsFT/component1_retrieval/data/popqa" \
-    # --output_results_dir "$HOME/RAGvsFT/component1_retrieval/results" \
-    # --output_results_filename "ft_dpr_beir.tsv" \
-    # --results_save_file "dpr_ft-qrels.tsv"
+    --epochs 1
 
 # Zero-shot: msmarco-distilbert-base-v3
 # After FT: component1_retrieval/dpr/models/ft_dpr_5e
