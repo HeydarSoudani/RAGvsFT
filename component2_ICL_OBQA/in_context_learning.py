@@ -32,8 +32,6 @@ print('pwd', os.getcwd())
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from util_clm import convert_model_to_int8_on_gpu
 
-
-
 import jsonlines
 
 def load_jsonlines(file):
