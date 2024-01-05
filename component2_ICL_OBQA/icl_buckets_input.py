@@ -180,11 +180,11 @@ def main():
     input_path = args.input_file
     knowledge = pd.read_csv(input_path, sep="\t")
 
-    if args.continue_from is not None:
-        results = pd.read_csv(args.continue_from, sep="\t")
-        knowledge = knowledge[~knowledge.id.isin(results.id)]
-    n = len(knowledge) if args.sample == 0 else args.sample
-    sample = knowledge.sample(n=n, replace=False)
+    # if args.continue_from is not None:
+    #     results = pd.read_csv(args.continue_from, sep="\t")
+    #     knowledge = knowledge[~knowledge.id.isin(results.id)]
+    # n = len(knowledge) if args.sample == 0 else args.sample
+    # sample = knowledge.sample(n=n, replace=False)
     
     # input_path = args.input_file # json format
     # "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
@@ -206,9 +206,9 @@ def main():
                 print('{}, {}'.format(relation_name, bk_name))
                 logging.info('{}, {}'.format(relation_name, bk_name))
                 
-                knowledge = pd.DataFrame(bk_data)
-                n = len(knowledge) if args.sample == 0 else args.sample
-                sample = knowledge.sample(n=n, replace=False)
+                sample = pd.DataFrame(bk_data)
+                # n = len(knowledge) if args.sample == 0 else args.sample
+                # sample = knowledge.sample(n=n, replace=False)
                 
                 if args.parallel is not None:
                     worker_num, n_workers = map(int, args.parallel.split("."))
