@@ -126,17 +126,15 @@ def main(args):
         lm_datasets["train"],
         shuffle=True,
         batch_size=batch_size,
-        collate_fn=default_data_collator,
     )
     eval_dataloader = DataLoader(
         lm_datasets["validation"],
-        batch_size=batch_size,
-        collate_fn=default_data_collator
+        batch_size=batch_size
     )
     
     # === training parameters
     optimizer = AdamW(model.parameters(), lr=2e-5)
-    accelerator = Accelerator()
+    accelerator = Accelerator(fp16=True)
     model, optimizer, train_dataloader, eval_dataloader = accelerator.prepare(
         model, optimizer, train_dataloader, eval_dataloader
     )
@@ -145,7 +143,7 @@ def main(args):
     lr_scheduler = get_scheduler(
         "linear",
         optimizer=optimizer,
-        num_warmup_steps=0,
+        num_warmup_steps=1000,
         num_training_steps=num_training_steps,
     )
     
