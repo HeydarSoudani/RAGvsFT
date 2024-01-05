@@ -257,6 +257,7 @@ def main():
                                 # print(row.prop_id)
                                 other_pids.remove(row.prop_id)
                                 for pid in other_pids:
+                                    print(knowledge[knowledge.prop_id == pid])
                                     for row2 in knowledge[knowledge.prop_id == pid].sample(n=examples_per_template).iloc:
                                         few_shot_examples.append(get_few_shot_text_with_retrieval(row2, retrieval_dict, args.eval_method) if args.eval_method in ["BM25", "contriever"] else get_few_shot_text(row2, args.eval_method))
                             else:
