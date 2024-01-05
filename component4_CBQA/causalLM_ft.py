@@ -1,6 +1,9 @@
-import argparse, json, os
+#!/usr/bin/env python3
+
+import argparse, json, os, math
 import torch
 from datasets import Dataset, DatasetDict
+from sklearn.model_selection import train_test_split
 
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import TrainingArguments, Trainer, get_scheduler
@@ -10,8 +13,9 @@ from torch.utils.data import DataLoader
 from torch.optim import AdamW
 import collections
 import numpy as np
-import math
 from tqdm.auto import tqdm
+
+os.environ["WANDB_MODE"] = "offline"
 
 def group_texts(examples):
     block_size = 128
@@ -51,12 +55,13 @@ def main(args):
     ### === Load dataset =====================
     with open(args.corpus_path, 'r') as input_file:
         corpus_data = [json.loads(line)['contents'] for line in input_file]
+    train_texts, val_texts = train_test_split(corpus_data, test_size=0.1)
     dataset = DatasetDict({
         'train': Dataset.from_dict({
-            "text": corpus_data,
+            "text": train_texts,
         }),
         'validation': Dataset.from_dict({
-            "text": corpus_data,
+            "text": val_texts,
         })
     })
     print(dataset)
@@ -84,7 +89,7 @@ def main(args):
     ### === Training (v1) ======================
     if not os.path.exists(args.model_output_dir):
         os.makedirs(args.model_output_dir)
-    model_save_path = os.path.join(args.model_output_dir, args.output_filename)
+    model_save_path = os.path.join(args.model_output_dir, args.model_output_filename)
     os.makedirs(model_save_path, exist_ok=True)
     
     training_args = TrainingArguments(
@@ -103,6 +108,9 @@ def main(args):
         eval_dataset=lm_datasets["validation"],
     )
     trainer.train()
+    
+    eval_results = trainer.evaluate()
+    print(f"Perplexity: {math.exp(eval_results['eval_loss']):.2f}")
 
 
 if __name__ == "__main__":
