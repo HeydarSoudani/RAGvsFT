@@ -207,7 +207,7 @@ def main():
                 logging.info('{}, {}'.format(relation_name, bk_name))
                 
                 sample = pd.DataFrame(bk_data)
-                # n = len(knowledge) if args.sample == 0 else args.sample
+                n = len(knowledge) if args.sample == 0 else args.sample
                 # sample = knowledge.sample(n=n, replace=False)
                 
                 if args.parallel is not None:
