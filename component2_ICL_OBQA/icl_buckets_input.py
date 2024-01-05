@@ -207,7 +207,7 @@ def main():
                 logging.info('{}, {}'.format(relation_name, bk_name))
                 
                 sample = pd.DataFrame(bk_data)
-                n = len(knowledge) if args.sample == 0 else args.sample
+                n = len(sample) if args.sample == 0 else args.sample
                 # sample = knowledge.sample(n=n, replace=False)
                 
                 if args.parallel is not None:
@@ -257,7 +257,7 @@ def main():
                                 # print(row.prop_id)
                                 other_pids.remove(row.prop_id)
                                 for pid in other_pids:
-                                    print(pid)
+                                    # print(pid)
                                     # print(knowledge[knowledge.prop_id == pid])
                                     for row2 in knowledge[knowledge.prop_id == pid].sample(n=examples_per_template).iloc:
                                         few_shot_examples.append(get_few_shot_text_with_retrieval(row2, retrieval_dict, args.eval_method) if args.eval_method in ["BM25", "contriever"] else get_few_shot_text(row2, args.eval_method))
@@ -297,7 +297,7 @@ def main():
                     responses.append(response)
 
                     # compute accuracy
-                    possible_answers = json.loads(row.possible_answers)        
+                    possible_answers = json.loads(json.dumps(row.possible_answers))        
                     is_correct = False
                     genread_has_answer = False
                     for pa in possible_answers:
