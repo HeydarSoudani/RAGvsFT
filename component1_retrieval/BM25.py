@@ -90,6 +90,10 @@ def main():
     top_k = 100
     queries = load_queries(queries_file)
     
+    # Without bucketting
+    
+    
+    # With bucketting
     if not os.path.exists(output_results_dir):
         os.makedirs(output_results_dir)
     resutls_path = os.path.join(output_results_dir, output_results_filename)
