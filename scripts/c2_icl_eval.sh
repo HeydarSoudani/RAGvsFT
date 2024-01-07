@@ -18,5 +18,5 @@ pip install -r $HOME/RAGvsFT/component2_ICL_OBQA/requirements.txt
 srun $HOME/RAGvsFT/component2_ICL_OBQA/in_context_learning.py \
     --model_name "facebook/opt-1.3b" \
     --input_file $HOME/RAGvsFT/data/dataset/popQA/popQA.tsv \
-    --eval_method BM25 \
-    --ret_path $HOME/RAGvsFT/component2_ICL_OBQA/data/popqa/dpr_ft_results.jsonl
+    --eval_method genread \
+    --ret_path $HOME/RAGvsFT/component2_ICL_OBQA/data/popqa/genread_results.jsonl
