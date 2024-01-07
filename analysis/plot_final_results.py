@@ -89,7 +89,7 @@ def icl_obqa_results_bk():
             col = (idx+3) % 4
         ax = axes[row, col]
         
-        for ret_model in ['bm25', 'dpr_noft', 'dpr_ft', 'gt']:
+        for ret_model in ['vanilla', 'bm25', 'dpr_noft', 'dpr_ft', 'gt']:
         
             filename = 'opt1-3_{}_bk.tsv'.format(ret_model)
             file_path = os.path.join(file_dir, filename)
