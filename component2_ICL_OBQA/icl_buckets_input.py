@@ -227,7 +227,7 @@ def main():
                     retrieval_ids = []
                     with open(args.ret_path) as f:
                         retrieval_dict = {json.loads(s)["question"]: json.loads(s) for s in f.readlines()}
-                    # print(retrieval_dict)
+            
                 if args.eval_method == "genread":
                     genread_few_shot_examples = get_few_shot_examples_genread(knowledge, generate, n_examples, genread_template, is_templatedQA, max_new_tokens=150)
                     has_answer = []
@@ -344,8 +344,7 @@ def main():
                 print("{}_{}: {}".format(relation_name, bk_name, sample.is_correct.mean()))
                 logging.info("{}_{}: {}".format(relation_name, bk_name, sample.is_correct.mean()))
                 tsv_writer.writerow(eval_res) 
-            
-            
+    
 
 if __name__ == "__main__":
     main()
