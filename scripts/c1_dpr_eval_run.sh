@@ -17,7 +17,7 @@ module load Python/3.10.4-GCCcore-11.3.0
 pip install -r $HOME/RAGvsFT/component1_retrieval/requirements.txt
 
 srun $HOME/RAGvsFT/component1_retrieval/dpr/evaluation.py \
-    --model "$HOME/RAGvsFT/component1_retrieval/dpr/models/ft_dpr_5e" \
+    --model "msmarco-distilbert-base-v3" \
     --data_path "$HOME/RAGvsFT/component1_retrieval/data/popqa" \
     --output_results_dir "$HOME/RAGvsFT/component1_retrieval/results" \
     --output_results_filename "ft_dpr_beir.tsv" \
