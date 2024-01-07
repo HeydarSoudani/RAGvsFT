@@ -57,20 +57,20 @@ def main(args):
     model_save_path = os.path.join(args.model_output_dir, args.model_output_filename)
     os.makedirs(model_save_path, exist_ok=True)
     
-    model = AutoModelForCausalLM.from_pretrained(
-        args.model,
-        # load_in_8bit=True,
-        # device_map='auto',
-    )
+    # model = AutoModelForCausalLM.from_pretrained(
+    #     args.model,
+    #     # load_in_8bit=True,
+    #     # device_map='auto',
+    # )
     tokenizer = AutoTokenizer.from_pretrained(args.model)
     
-    # model = OPTForCausalLM.from_pretrained("facebook/opt-350m")
+    model = OPTForCausalLM.from_pretrained("facebook/opt-350m")
     # tokenizer = AutoTokenizer.from_pretrained("facebook/opt-350m")
 
     ### === Load dataset =====================
     with open(args.corpus_path, 'r') as input_file:
         corpus_data = [json.loads(line)['contents'] for line in input_file]
-    train_texts, val_texts = train_test_split(corpus_data[:100], test_size=0.1)
+    train_texts, val_texts = train_test_split(corpus_data[:50], test_size=0.1)
     dataset = DatasetDict({
         'train': Dataset.from_dict({
             "text": train_texts,
