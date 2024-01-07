@@ -20,9 +20,10 @@ def retrieval_results_bk():
     fig.delaxes(axes[0,3])  # Remove the third subplot (top-right)
     
     # file_path = 'results/final_results.tsv'
-    # file_path =  'component1_retrieval/results/dpr_beir.tsv'
+    
     # file_path = 'component1_retrieval/results/msmarco-distilbert-base-v3_dpr_beir.tsv'
-    file_path = 'component1_retrieval/results/bm25_eval.tsv'
+    # file_path = 'component1_retrieval/results/wbk_bm25_eval.tsv'
+    file_path =  'component1_retrieval/results/wbk_noft_dpr_eval.tsv'
     
     for idx, relation in enumerate(relations):
             
@@ -124,7 +125,7 @@ def icl_obqa_results_bk():
     plt.show()
 
 if __name__ == "__main__":
-    retrieval_results_nobk()
+    # retrieval_results_nobk()
     # retrieval_results_bk()
     
     icl_obqa_results_bk()

@@ -55,8 +55,8 @@ def split_to_buckets(objects, split_points):
     bucket_data = {'bucket{}'.format(idx+1): list() for idx in range(sp_len+1)}
     
     for obj in objects:
-        # rp = obj['relative_popularity']
-        rp = math.log(obj['popqa_pageviews'], 10)
+        rp = obj['relative_popularity']
+        # rp = math.log(obj['popqa_pageviews'], 10)
         
         if rp < split_points[0]:
             if 'bucket1' in bucket_data.keys():
@@ -140,8 +140,10 @@ def plot_bucket_num(json_data):
         counts = [len(json_data[key][bucket]) for bucket in json_data['all'].keys()]
 
         ax.bar([i+1 for i in range(len(json_data['all'].keys()))], counts)
+        # ax.set_xlabel('log pop')
         ax.set_title(key)
 
+    plt.title("Distribution of buckets")
     plt.tight_layout()
     plt.show()
 
@@ -237,7 +239,7 @@ def create_corpus_qrels_files_bucket(q_buckets_path, corpus_path, qrels_path):
 
 if __name__ == "__main__":
     # For popQA
-    queries_file = "component0_preprocessing/generated_data/popQA_costomized/queries_new.jsonl"
+    queries_file = "component0_preprocessing/generated_data/popQA_costomized/queries.jsonl"
     q_relation_file_path = "component0_preprocessing/generated_data/popQA_costomized/queries_by_relation.json"
     q_relative_pop_file_path = "component0_preprocessing/generated_data/popQA_costomized/queries_relative_pop.json"
     q_buckets_path = "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
@@ -282,9 +284,9 @@ if __name__ == "__main__":
     
     
     ## Split each list to three buckets
-    # split_points = [-0.5, -0.3, -0.15, -0.05, 0, 0.75]
+    split_points = [-0.5, -0.3, -0.15, -0.05, 0, 0.75]
     # split_points = [-0.30, -0.15, -0.05, 0.05]
-    split_points = [2, 3, 4, 5]
+    # split_points = [2, 3, 4, 5]
     
     
     with open(q_relative_pop_file_path, 'r') as file:
