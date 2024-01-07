@@ -20,7 +20,7 @@ srun $HOME/RAGvsFT/component1_retrieval/dpr/evaluation.py \
     --model "msmarco-distilbert-base-v3" \
     --data_path "$HOME/RAGvsFT/component1_retrieval/data/popqa" \
     --output_results_dir "$HOME/RAGvsFT/component1_retrieval/results" \
-    --output_results_filename "ft_dpr_beir.tsv" \
+    --output_results_filename "ft_dpr_eval.tsv" \
     --results_save_file "dpr_ft-qrels.tsv"
 
 # Zero-shot: msmarco-distilbert-base-v3
