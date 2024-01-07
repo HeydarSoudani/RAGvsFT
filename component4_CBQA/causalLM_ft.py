@@ -70,7 +70,7 @@ def main(args):
     ### === Load dataset =====================
     with open(args.corpus_path, 'r') as input_file:
         corpus_data = [json.loads(line)['contents'] for line in input_file]
-    train_texts, val_texts = train_test_split(corpus_data[:1000], test_size=0.1)
+    train_texts, val_texts = train_test_split(corpus_data[:100], test_size=0.1)
     dataset = DatasetDict({
         'train': Dataset.from_dict({
             "text": train_texts,
@@ -100,22 +100,14 @@ def main(args):
         batched=True,
         remove_columns=dataset["train"].column_names
     )
-    
     print(tokenized_dataset)
-    
-    config = AutoConfig.from_pretrained(
-        "gpt2",
-        vocab_size=len(tokenizer),
-        n_ctx=context_length,
-        bos_token_id=tokenizer.bos_token_id,
-        eos_token_id=tokenizer.eos_token_id,
-    )
-    
-    # model = GPT2LMHeadModel(config)
+
     model_size = sum(t.numel() for t in model.parameters())
     print(f"OPT size: {model_size/1000**2:.1f}M parameters")
     
     
+    ### ========================================
+    ### === Training (v1) ======================
     tokenizer.pad_token = tokenizer.eos_token
     data_collator = DataCollatorForLanguageModeling(tokenizer, mlm=False)
     
@@ -124,7 +116,7 @@ def main(args):
         per_device_train_batch_size=32,
         per_device_eval_batch_size=32,
         evaluation_strategy="steps",
-        eval_steps=100,
+        eval_steps=500,
         logging_steps=100,
         gradient_accumulation_steps=8,
         num_train_epochs=args.epochs,
@@ -132,11 +124,10 @@ def main(args):
         warmup_steps=1_000,
         lr_scheduler_type="cosine",
         learning_rate=5e-4,
-        save_steps=100,
+        save_steps=1000,
         # fp16=True,
         # push_to_hub=True,
     )
-
     trainer = Trainer(
         model=model,
         tokenizer=tokenizer,
@@ -145,44 +136,27 @@ def main(args):
         train_dataset=tokenized_dataset["train"],
         eval_dataset=tokenized_dataset["validation"],
     )
-    
+
+    eval_results = trainer.evaluate()
+    print(f"Perplexity (Before FT): {math.exp(eval_results['eval_loss']):.2f}")
+
     trainer.train()
     
-    ### ========================================
-    ### === Training (v1) ======================
-    
-    # training_args = TrainingArguments(
-    #     output_dir=model_save_path,
-    #     evaluation_strategy = "epoch",
-    #     num_train_epochs=args.epochs,
-    #     learning_rate=2e-5,
-    #     weight_decay=0.01,
-    #     # logging_dir='/content/drive/MyDrive/RAGvsFT/CLM_ft/logs',
-    #     # push_to_hub=True,
-    # )
-    # trainer = Trainer(
-    #     model=model,
-    #     args=training_args,
-    #     train_dataset=lm_datasets["train"],
-    #     eval_dataset=lm_datasets["validation"],
-    # )
-    # trainer.train()
-    
-    # eval_results = trainer.evaluate()
-    # print(f"Perplexity: {math.exp(eval_results['eval_loss']):.2f}")
+    eval_results = trainer.evaluate()
+    print(f"Perplexity (After FT): {math.exp(eval_results['eval_loss']):.2f}")
     
     ### ========================================
     ### === Training (v2) ======================
     
-    # === Dataset
+    # # === Dataset
     # batch_size = 64
     # train_dataloader = DataLoader(
-    #     lm_datasets["train"],
+    #     tokenized_dataset["train"],
     #     shuffle=True,
     #     batch_size=batch_size,
     # )
     # eval_dataloader = DataLoader(
-    #     lm_datasets["validation"],
+    #     tokenized_dataset["validation"],
     #     batch_size=batch_size
     # )
     
@@ -201,8 +175,69 @@ def main(args):
     #     num_training_steps=num_training_steps,
     # )
     
+    # def evaluate():
+    #     model.eval()
+    #     losses = []
+    #     for step, batch in enumerate(eval_dataloader):
+    #         # batch = torch.tensor(batch)
+    #         batch = {k:torch.tensor(v) for k,v in batch.items()}
+    #         with torch.no_grad():
+    #             outputs = model(batch["input_ids"], labels=batch["input_ids"])
+
+    #         losses.append(accelerator.gather(outputs.loss))
+    #     loss = torch.mean(torch.cat(losses))
+    #     try:
+    #         perplexity = torch.exp(loss)
+    #     except OverflowError:
+    #         perplexity = float("inf")
+    #     return loss.item(), perplexity.item()
+    
     # # === training loop
     # progress_bar = tqdm(range(num_training_steps))
+    
+    # gradient_accumulation_steps = 8
+    # eval_steps = 5_000
+    
+    # print('Before fine-tuning')
+    # eval_loss, perplexity = evaluate()
+    # accelerator.print({"loss/eval": eval_loss, "perplexity": perplexity})
+
+    # model.train()
+    # completed_steps = 0
+    # for epoch in range(args.epochs):
+    #     for step, batch in tqdm(
+    #         enumerate(train_dataloader, start=1), total=num_training_steps
+    #     ):
+    #         logits, loss = model(batch["input_ids"])
+    #         # loss = keytoken_weighted_loss(batch["input_ids"], logits, keytoken_ids)
+    #         if step % 25 == 0:
+    #             accelerator.print(
+    #                 {
+    #                     "lr": get_lr(),
+    #                     "samples": step * samples_per_step,
+    #                     "steps": completed_steps,
+    #                     "loss/train": loss.item() * gradient_accumulation_steps,
+    #                 }
+    #             )
+    #         loss = loss / gradient_accumulation_steps
+    #         accelerator.backward(loss)
+    #         if step % gradient_accumulation_steps == 0:
+    #             accelerator.clip_grad_norm_(model.parameters(), 1.0)
+    #             optimizer.step()
+    #             lr_scheduler.step()
+    #             optimizer.zero_grad()
+    #             completed_steps += 1
+    #         if (step % (eval_steps * gradient_accumulation_steps)) == 0:
+    #             eval_loss, perplexity = evaluate()
+    #             accelerator.print({"loss/eval": eval_loss, "perplexity": perplexity})
+    #             model.train()
+    #             accelerator.wait_for_everyone()
+    #             unwrapped_model = accelerator.unwrap_model(model)
+    #             unwrapped_model.save_pretrained(model_save_path, save_function=accelerator.save)
+    #             if accelerator.is_main_process:
+    #                 tokenizer.save_pretrained(model_save_path)
+    
+    
     # for epoch in range(args.epochs):
     #     # Training
     #     model.train()
@@ -227,7 +262,7 @@ def main(args):
     #         losses.append(accelerator.gather(loss.repeat(batch_size)))
 
     #     losses = torch.cat(losses)
-    #     losses = losses[: len(lm_datasets["validation"])]
+    #     losses = losses[: len(tokenized_dataset["validation"])]
     #     try:
     #         perplexity = math.exp(torch.mean(losses))
     #     except OverflowError:

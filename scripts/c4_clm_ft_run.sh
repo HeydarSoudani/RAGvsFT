@@ -20,8 +20,5 @@ srun $HOME/RAGvsFT/component4_CBQA/causalLM_ft.py \
     --model "facebook/opt-350m" \
     --corpus_path "$HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_costomized/corpus.jsonl" \
     --model_output_dir "$HOME/RAGvsFT/component4_CBQA/models" \
-    --model_output_filename "clm_opt1-3_1e" \
+    --model_output_filename "clm_opt350_1e" \
     --epochs 1
-
-# Zero-shot: msmarco-distilbert-base-v3
-# After FT: component1_retrieval/dpr/models/ft_dpr_5e
