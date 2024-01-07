@@ -24,17 +24,23 @@ def load_queries(file_path):
     return queries
 
 def preprocessing_qrels(qrels_file, qid_list):
-    with open(qrels_file, 'r') as in_qrels:
+    with open(qrels_file, 'r') as in_qrels: 
         qrels = {}
         for line in in_qrels:
             data = json.loads(line)
+            query_id, corpus_id, score = data["query_id"], data["doc_id"], int(data["score"])
             
-            if data["query_id"] in qid_list:
-                query_id, corpus_id, score = data["query_id"], data["doc_id"], int(data["score"])
+            if len(qid_list) == 0:
                 if query_id not in qrels:
                     qrels[query_id] = {corpus_id: score}
                 else:
                     qrels[query_id][corpus_id] = score
+            else:
+                if data["query_id"] in qid_list:
+                    if query_id not in qrels:
+                        qrels[query_id] = {corpus_id: score}
+                    else:
+                        qrels[query_id][corpus_id] = score
         return qrels
 
 def retrieve(corpus_pyserini_index_path, queries, k, results_save_file=None):
@@ -60,7 +66,6 @@ def retrieve(corpus_pyserini_index_path, queries, k, results_save_file=None):
                     'corpus_id': list(value.keys())[0],
                     'score': list(value.values())[0]
                 })
-    
     return results
 
 def main():
@@ -78,34 +83,30 @@ def main():
     qrels_file = '/content/drive/MyDrive/RAGvsFT/data_bm25/qrels.jsonl'
     queries_bk_path = "/content/drive/MyDrive/RAGvsFT/data_bm25/queries_bucketing.json"
     corpus_pyserini_index_path = '/content/drive/MyDrive/RAGvsFT/data_bm25/index'
-    
+
     output_results_dir = "/content/drive/MyDrive/RAGvsFT/data_bm25"
     output_results_filename = "bm25_eval.tsv"
     results_save_file = 'bm25-qrels.tsv'
-    
-    ### Indexing
-    # python -m pyserini.index.lucene -collection JsonCollection -generator DefaultLuceneDocumentGenerator -threads 9 \
-    # -input /content/drive/MyDrive/RAGvsFT/data_bm25/corpus -index /content/drive/MyDrive/RAGvsFT/data_bm25/index -storePositions -storeDocvectors -storeRaw
 
     top_k = 100
     queries = load_queries(queries_file)
-    
-    # Without bucketting
-    
-    
-    # With bucketting
+
     if not os.path.exists(output_results_dir):
         os.makedirs(output_results_dir)
-    resutls_path = os.path.join(output_results_dir, output_results_filename)
-    qrels_resutls_path = os.path.join(output_results_dir, results_save_file)
+    resutls_wbk_path = os.path.join(output_results_dir, 'wbk_'+output_results_filename)
+    resutls_wobk_path = os.path.join(output_results_dir, 'wobk_'+output_results_filename)
     
+    # retrieve and save in qrels file
+    qrels_resutls_path = os.path.join(output_results_dir, results_save_file)
     ret_results = retrieve(corpus_pyserini_index_path, queries, top_k, qrels_resutls_path)
+    
     ret_evaluator = EvaluateRetrieval()
-        
+
     with open(queries_bk_path, 'r') as in_queries:
         query_data = json.load(in_queries)
-    
-    with open(resutls_path, 'w', newline='') as file:
+
+    # Without bucketting
+    with open(resutls_wobk_path, 'w', newline='') as file:
         tsv_writer = csv.writer(file, delimiter='\t')
         tsv_writer.writerow([
             "Title",
@@ -114,31 +115,67 @@ def main():
             "Recall@1", "Recall@5", "Recall@10", "Recall@100",
             "P@1", "P@5", "P@10", "P@100",
         ])
+
+        for relation_name, relation_data in query_data.items():
+            
+            rel_data = []
+            for bk_name, bk_data in relation_data.items():
+                rel_data.extend(bk_data)
+            
+            qid_list = [q_sample["entity_id"] for q_sample in rel_data]
+            qrels = preprocessing_qrels(qrels_file, qid_list)
+            ndcg, _map, recall, precision = ret_evaluator.evaluate(qrels, ret_results, [1, 5, 10, 100]) #retriever.k_values
+            logging.info(ndcg)
+            logging.info(_map)
+            logging.info(recall)
+            logging.info(precision)
+            print(ndcg)
+            print(_map)
+            print(recall)
+            print(precision)
+            print("\n")
         
+            eval_res = [relation_name]\
+                +list(ndcg.values())\
+                +list(_map.values())\
+                +list(recall.values())\
+                +list(precision.values())
+            tsv_writer.writerow(eval_res)
+
+    # With bucketting
+    with open(resutls_wbk_path, 'w', newline='') as file:
+        tsv_writer = csv.writer(file, delimiter='\t')
+        tsv_writer.writerow([
+            "Title",
+            "NDCG@1", "NDCG@5", "NDCG@10", "NDCG@100",
+            "MAP@1", "MAP@5", "MAP@10", "MAP@100",
+            "Recall@1", "Recall@5", "Recall@10", "Recall@100",
+            "P@1", "P@5", "P@10", "P@100",
+        ])
         for relation_name, relation_data in query_data.items():
             for bk_name, bk_data in relation_data.items():
                 print('{}, {}'.format(relation_name, bk_name))
                 logging.info('{}, {}'.format(relation_name, bk_name))
-                
+
                 if len(bk_data) == 0:
                     eval_res = [relation_name+'_'+bk_name] + [0]*16
 
                 else:
                     qid_list = [q_sample["entity_id"] for q_sample in bk_data]
                     qrels = preprocessing_qrels(qrels_file, qid_list)
-                    
+
                     ndcg, _map, recall, precision = ret_evaluator.evaluate(qrels, ret_results, [1, 5, 10, 100]) #retriever.k_values
 
-                    # logging.info(ndcg)
-                    # logging.info(_map)
-                    # logging.info(recall)
-                    # logging.info(precision)
+                    logging.info(ndcg)
+                    logging.info(_map)
+                    logging.info(recall)
+                    logging.info(precision)
                     print(ndcg)
                     print(_map)
                     print(recall)
                     print(precision)
                     print("\n")
-        
+
                     eval_res = [relation_name+'_'+bk_name]\
                         +list(ndcg.values())\
                         +list(_map.values())\
