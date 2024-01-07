@@ -62,15 +62,13 @@ def main(args):
     #     # load_in_8bit=True,
     #     # device_map='auto',
     # )
+    model = OPTForCausalLM.from_pretrained(args.model)
     tokenizer = AutoTokenizer.from_pretrained(args.model)
-    
-    model = OPTForCausalLM.from_pretrained("facebook/opt-350m")
-    # tokenizer = AutoTokenizer.from_pretrained("facebook/opt-350m")
 
     ### === Load dataset =====================
     with open(args.corpus_path, 'r') as input_file:
         corpus_data = [json.loads(line)['contents'] for line in input_file]
-    train_texts, val_texts = train_test_split(corpus_data[:50], test_size=0.1)
+    train_texts, val_texts = train_test_split(corpus_data, test_size=0.1)
     dataset = DatasetDict({
         'train': Dataset.from_dict({
             "text": train_texts,
@@ -141,6 +139,8 @@ def main(args):
     print(f"Perplexity (Before FT): {math.exp(eval_results['eval_loss']):.2f}")
 
     trainer.train()
+    model.save_pretrained(model_save_path)
+    tokenizer.save_pretrained(model_save_path)
     
     eval_results = trainer.evaluate()
     print(f"Perplexity (After FT): {math.exp(eval_results['eval_loss']):.2f}")
