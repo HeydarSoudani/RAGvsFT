@@ -118,28 +118,28 @@ def main(args):
         bias="none",
         task_type="CAUSAL_LM"
     )
-    model = get_peft_model(model, config)
-    model.print_trainable_parameters()
+    peft_model = get_peft_model(model, config)
+    peft_model.print_trainable_parameters()
 
     args = TrainingArguments(
         output_dir=model_save_path,
         per_device_train_batch_size=32,
         per_device_eval_batch_size=32,
         evaluation_strategy="steps",
-        eval_steps=500,
-        logging_steps=100,
+        eval_steps=200,
+        logging_steps=200,
         gradient_accumulation_steps=8,
         num_train_epochs=args.epochs,
         weight_decay=0.1,
-        warmup_steps=1_000,
+        warmup_steps=100,
         lr_scheduler_type="cosine",
         learning_rate=5e-4,
-        save_steps=1000,
+        save_steps=500,
         # fp16=True,
         # push_to_hub=True,
     )
     trainer = Trainer(
-        model=model,
+        model=peft_model,
         tokenizer=tokenizer,
         args=args,
         data_collator=data_collator,
