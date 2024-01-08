@@ -56,7 +56,7 @@ def split_to_buckets(objects, split_points):
     
     for obj in objects:
         # rp = obj['relative_popularity']
-        rp = math.log(obj['popqa_pageviews'], 10)
+        rp = math.log(obj['pageviews'], 10)
         
         if rp < split_points[0]:
             if 'bucket1' in bucket_data.keys():
@@ -143,7 +143,7 @@ def plot_bucket_num(json_data):
         # ax.set_xlabel('log pop')
         ax.set_title(key)
 
-    plt.title("Distribution of buckets")
+    # plt.title("Distribution of buckets")
     plt.tight_layout()
     plt.show()
 
@@ -286,7 +286,8 @@ if __name__ == "__main__":
     ## Split each list to three buckets
     # split_points = [-0.5, -0.3, -0.15, -0.05, 0, 0.75]
     # split_points = [-0.30, -0.15, -0.05, 0.05]
-    split_points = [2, 3, 4, 5]
+    # split_points = [2, 3, 4, 5] # Good for popqa_pageviews
+    split_points = [3, 4, 5, 6] # Good for my pageviews
     
     
     with open(q_relative_pop_file_path, 'r') as file:
@@ -304,8 +305,6 @@ if __name__ == "__main__":
         q_buckets = json.load(file)
         plot_bucket_num(q_buckets)
 
-
-    
     ### get corpus for unpopular ones     
     # corpus_path = "data/generated/popQA_costomized/corpus_unpop"
     # qrels_path = "data/generated/popQA_costomized/qrels_unpop"

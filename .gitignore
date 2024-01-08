@@ -130,5 +130,6 @@ component1_retrieval/dpr/models
 component1_retrieval/data/popqa/qrels/test_*
 component2_ICL_OBQA/results
 component4_CBQA/models
+component4_CBQA/generated_data
 
 
