@@ -6,6 +6,7 @@ from datasets import Dataset, DatasetDict
 from sklearn.model_selection import train_test_split
 from accelerate import Accelerator
 
+from peft import LoraConfig, TaskType, get_peft_model
 from transformers import DataCollatorForLanguageModeling, OPTForCausalLM
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from transformers import default_data_collator
@@ -57,12 +58,12 @@ def main(args):
     model_save_path = os.path.join(args.model_output_dir, args.model_output_filename)
     os.makedirs(model_save_path, exist_ok=True)
     
-    # model = AutoModelForCausalLM.from_pretrained(
-    #     args.model,
-    #     # load_in_8bit=True,
-    #     # device_map='auto',
-    # )
-    model = OPTForCausalLM.from_pretrained(args.model)
+    model = AutoModelForCausalLM.from_pretrained(
+        args.model,
+        # load_in_8bit=True,
+        # device_map='auto',
+    )
+    # model = OPTForCausalLM.from_pretrained(args.model)
     tokenizer = AutoTokenizer.from_pretrained(args.model)
 
     ### === Load dataset =====================
@@ -109,6 +110,17 @@ def main(args):
     tokenizer.pad_token = tokenizer.eos_token
     data_collator = DataCollatorForLanguageModeling(tokenizer, mlm=False)
     
+    config = LoraConfig(
+        r=16,
+        lora_alpha=32,
+        target_modules=["q_proj", "v_proj"],
+        lora_dropout=0.05,
+        bias="none",
+        task_type="CAUSAL_LM"
+    )
+    model = get_peft_model(model, config)
+    model.print_trainable_parameters()
+
     args = TrainingArguments(
         output_dir=model_save_path,
         per_device_train_batch_size=32,
