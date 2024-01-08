@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import torch
 import argparse
 import os, json, csv
@@ -37,7 +39,6 @@ def preprocessing_qrels(qid_list):
     
     return qrels
 
-
 def main(args):
 
     if torch.cuda.is_available():
@@ -49,7 +50,6 @@ def main(args):
     else:
         device = torch.device("cpu")
         print("Running on the CPU")
-    
     
     # === Output directory ==========
     if not os.path.exists(args.output_results_dir):
@@ -158,46 +158,46 @@ def main(args):
     
     
     # With bucketing
-    # with open(resutls_wbk_path, 'w', newline='') as file:
-    #     tsv_writer = csv.writer(file, delimiter='\t')
-    #     tsv_writer.writerow([
-    #         "Title",
-    #         "NDCG@1", "NDCG@5", "NDCG@10", "NDCG@100",
-    #         "MAP@1", "MAP@5", "MAP@10", "MAP@100",
-    #         "Recall@1", "Recall@5", "Recall@10", "Recall@100",
-    #         "P@1", "P@5", "P@10", "P@100",
-    #     ])
+    with open(resutls_wbk_path, 'w', newline='') as file:
+        tsv_writer = csv.writer(file, delimiter='\t')
+        tsv_writer.writerow([
+            "Title",
+            "NDCG@1", "NDCG@5", "NDCG@10", "NDCG@100",
+            "MAP@1", "MAP@5", "MAP@10", "MAP@100",
+            "Recall@1", "Recall@5", "Recall@10", "Recall@100",
+            "P@1", "P@5", "P@10", "P@100",
+        ])
         
-    #     for relation_name, relation_data in query_data.items():
-    #         for bk_name, bk_data in relation_data.items():
-    #             # print('{}, {}'.format(relation_name, bk_name))
-    #             logging.info('{}, {}'.format(relation_name, bk_name))
+        for relation_name, relation_data in query_data.items():
+            for bk_name, bk_data in relation_data.items():
+                # print('{}, {}'.format(relation_name, bk_name))
+                logging.info('{}, {}'.format(relation_name, bk_name))
                 
-    #             if len(bk_data) == 0:
-    #                 eval_res = [relation_name+'_'+bk_name] + [0]*16
+                if len(bk_data) == 0:
+                    eval_res = [relation_name+'_'+bk_name] + [0]*16
 
-    #             else:
-    #                 qid_list = [q_sample["entity_id"] for q_sample in bk_data]
-    #                 qrels = preprocessing_qrels(qid_list)
+                else:
+                    qid_list = [q_sample["entity_id"] for q_sample in bk_data]
+                    qrels = preprocessing_qrels(qid_list)
                     
-    #                 ndcg, _map, recall, precision = retriever.evaluate(qrels, results, [1, 5, 10, 100]) #retriever.k_values
+                    ndcg, _map, recall, precision = retriever.evaluate(qrels, results, [1, 5, 10, 100]) #retriever.k_values
 
-    #                 logging.info(ndcg)
-    #                 logging.info(_map)
-    #                 logging.info(recall)
-    #                 logging.info(precision)
-    #                 # print(ndcg)
-    #                 # print(_map)
-    #                 # print(recall)
-    #                 # print(precision)
-    #                 print("\n")
+                    logging.info(ndcg)
+                    logging.info(_map)
+                    logging.info(recall)
+                    logging.info(precision)
+                    # print(ndcg)
+                    # print(_map)
+                    # print(recall)
+                    # print(precision)
+                    print("\n")
         
-    #                 eval_res = [relation_name+'_'+bk_name]\
-    #                     +list(ndcg.values())\
-    #                     +list(_map.values())\
-    #                     +list(recall.values())\
-    #                     +list(precision.values())
-    #             tsv_writer.writerow(eval_res)
+                    eval_res = [relation_name+'_'+bk_name]\
+                        +list(ndcg.values())\
+                        +list(_map.values())\
+                        +list(recall.values())\
+                        +list(precision.values())
+                tsv_writer.writerow(eval_res)
     
     
     
