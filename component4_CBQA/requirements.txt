@@ -2,3 +2,5 @@ datasets
 accelerate
 bitsandbytes
 scikit-learn
+loralib
+peft

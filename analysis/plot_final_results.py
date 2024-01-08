@@ -89,7 +89,8 @@ def icl_obqa_results_bk():
             col = (idx+3) % 4
         ax = axes[row, col]
         
-        for ret_model in ['vanilla', 'bm25', 'dpr_noft', 'dpr_ft', 'gt']:
+        # for ret_model in ['vanilla', 'bm25', 'dpr_noft', 'dpr_ft', 'gt']:
+        for ret_model in ['vanilla', 'clm_vanilla', 'clm_3e_vanilla']:
         
             filename = 'opt1-3_{}_bk.tsv'.format(ret_model)
             file_path = os.path.join(file_dir, filename)
@@ -118,7 +119,7 @@ def icl_obqa_results_bk():
                     )
                 
                 ax.set_title(relation)
-                ax.set_ylim(0, 1.05)
+                ax.set_ylim(0, 0.85)
     
     fig.legend(loc='upper right')
     plt.tight_layout()
