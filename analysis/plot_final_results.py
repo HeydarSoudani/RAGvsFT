@@ -23,7 +23,8 @@ def retrieval_results_bk():
     
     # file_path = 'component1_retrieval/results/msmarco-distilbert-base-v3_dpr_beir.tsv'
     # file_path = 'component1_retrieval/results/wbk_bm25_eval.tsv'
-    file_path =  'component1_retrieval/results/wbk_noft_dpr_eval.tsv'
+    # file_path =  'component1_retrieval/results/wbk_noft_dpr_eval.tsv'
+    file_path =  'component1_retrieval/results/wbk_contriever_eval.tsv'
     
     for idx, relation in enumerate(relations):
             
@@ -119,7 +120,7 @@ def icl_obqa_results_bk():
                     )
                 
                 ax.set_title(relation)
-                ax.set_ylim(0, 0.85)
+                ax.set_ylim(0, 1.1)
     
     fig.legend(loc='upper right')
     plt.tight_layout()
@@ -127,9 +128,9 @@ def icl_obqa_results_bk():
 
 if __name__ == "__main__":
     # retrieval_results_nobk()
-    # retrieval_results_bk()
+    retrieval_results_bk()
     
-    icl_obqa_results_bk()
+    # icl_obqa_results_bk()
     
     
     
