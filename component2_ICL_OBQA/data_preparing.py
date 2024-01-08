@@ -1,4 +1,5 @@
 import os, json, csv
+import argparse
 
 def get_corpus():
     corpus = {}
@@ -48,21 +49,13 @@ def retrieval_resutls_ideal():
             
             output_file.write(json.dumps(combined_obj) + "\n")
 
-def retrieval_resutls_no_ideal():
+def retrieval_resutls_no_ideal(args):
     corpus = get_corpus()
     queries = get_queries()
     
     qr_file = 'component0_preprocessing/generated_data/popQA_costomized/qrels.jsonl'
-    
-    # For bm25
-    # retrieved_qr_file = 'component1_retrieval/results/bm25-qrels.tsv'
-    # out_file = 'component2_ICL_OBQA/data/popqa/bm25_results.jsonl'
-    # For DPR, no FT
-    # retrieved_qr_file = 'component1_retrieval/results/dpr_noft-qrels.tsv'
-    # out_file = 'component2_ICL_OBQA/data/popqa/dpr_noft_results.jsonl'
-    # For DPR, FT
-    retrieved_qr_file = 'component1_retrieval/results/dpr_ft-qrels.tsv'
-    out_file = 'component2_ICL_OBQA/data/popqa/dpr_ft_results.jsonl'
+    retrieved_qr_file = 'component1_retrieval/results/{}-qrels.tsv'.format(args.model)
+    out_file = 'component2_ICL_OBQA/data/popqa/{}_results.jsonl'.format(args.model)
     
     with open(retrieved_qr_file, 'r') as ret_qrels_file, open(qr_file, 'r') as gt_qrels_file, open(out_file, 'w') as output_file:
         
@@ -96,15 +89,19 @@ def retrieval_resutls_no_ideal():
             }
             output_file.write(json.dumps(combined_obj) + "\n")
 
-def main():
+
+def main(args):
     os.makedirs("component2_ICL_OBQA/data", exist_ok=True)
     os.makedirs("component2_ICL_OBQA/data/popqa", exist_ok=True)
     
     # retrieval_resutls_ideal()
-    retrieval_resutls_no_ideal()
+    retrieval_resutls_no_ideal(args)
     
 
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-m', '--model', type=str, default="vanilla", choices=["vanilla", "BM25", "dpr_noft", "dpr_noft", "contriever", "genread"])
+    args = parser.parse_args()
+    main(args)
