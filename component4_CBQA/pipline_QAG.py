@@ -27,11 +27,6 @@ def main(args):
                 })
                 out_file.write(obj + '\n')
             
-            
-
-    
-    
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
