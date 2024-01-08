@@ -17,13 +17,11 @@ module load Python/3.10.4-GCCcore-11.3.0
 pip install -r $HOME/RAGvsFT/component1_retrieval/requirements.txt
 
 srun $HOME/RAGvsFT/component1_retrieval/contriever/evaluation.py \
-
-    
-    --model "msmarco-distilbert-base-v3" \
+    --model "facebook/contriever-msmarco" \
     --data_path "$HOME/RAGvsFT/component1_retrieval/data/popqa" \
     --output_results_dir "$HOME/RAGvsFT/component1_retrieval/results" \
-    --output_results_filename "ft_dpr_eval.tsv" \
-    --results_save_file "dpr_ft-qrels.tsv"
+    --output_results_filename "contriever_eval.tsv" \
+    --results_save_file "contriever-qrels.tsv"
 
 # Zero-shot: msmarco-distilbert-base-v3
 # After FT: component1_retrieval/dpr/models/ft_dpr_5e
