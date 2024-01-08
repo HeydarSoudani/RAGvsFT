@@ -15,7 +15,7 @@ def main(args):
     
     with open(args.corpus_path, 'r') as in_file, open(results_save_path, 'w') as out_file:
         for idx, line in enumerate(in_file):
-            if idx == 5:
+            if idx == 100:
                 break
             passage = json.loads(line.strip())['contents']
             qas = model.generate_qa(passage)
@@ -26,7 +26,6 @@ def main(args):
                     "possible_answers": [answer] 
                 })
                 out_file.write(obj + '\n')
-            
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
