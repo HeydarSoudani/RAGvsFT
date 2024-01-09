@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
 
+import os, sys
 import torch
 import argparse
 import logging
 from beir import LoggingHandler
+
+# print(os.getcwd())
+# import sys
+# sys.path.append(os.getcwd())
 
 from src.contriever_m import load_retriever
 from src.utils_eval import evaluate_model
