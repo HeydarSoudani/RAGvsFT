@@ -90,8 +90,8 @@ def icl_obqa_results_bk():
             col = (idx+3) % 4
         ax = axes[row, col]
         
-        # for ret_model in ['vanilla', 'bm25', 'dpr_noft', 'dpr_ft', 'gt']:
-        for ret_model in ['vanilla', 'clm_vanilla', 'clm_3e_vanilla']:
+        for ret_model in ['vanilla', 'bm25', 'contriever', 'dpr_noft', 'dpr_ft', 'gt']:
+        # for ret_model in ['vanilla', 'clm_vanilla', 'clm_3e_vanilla']:
         
             filename = 'opt1-3_{}_bk.tsv'.format(ret_model)
             file_path = os.path.join(file_dir, filename)
@@ -128,9 +128,9 @@ def icl_obqa_results_bk():
 
 if __name__ == "__main__":
     # retrieval_results_nobk()
-    retrieval_results_bk()
+    # retrieval_results_bk()
     
-    # icl_obqa_results_bk()
+    icl_obqa_results_bk()
     
     
     
