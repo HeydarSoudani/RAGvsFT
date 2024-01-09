@@ -89,19 +89,15 @@ def retrieval_resutls_no_ideal(args):
             }
             output_file.write(json.dumps(combined_obj) + "\n")
 
-
 def main(args):
     os.makedirs("component2_ICL_OBQA/data", exist_ok=True)
     os.makedirs("component2_ICL_OBQA/data/popqa", exist_ok=True)
     
     # retrieval_resutls_ideal()
     retrieval_resutls_no_ideal(args)
-    
-
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-m', '--model', type=str, default="vanilla", choices=["vanilla", "BM25", "dpr_noft", "dpr_noft", "contriever", "genread"])
+    parser.add_argument('-m', '--model', type=str, default="vanilla", choices=["vanilla", "BM25", "dpr_noft", "dpr_noft", "contriever", "rerank"])
     args = parser.parse_args()
     main(args)
