@@ -18,8 +18,8 @@ pip install -r $HOME/RAGvsFT/component2_ICL_OBQA/requirements.txt
 srun $HOME/RAGvsFT/component2_ICL_OBQA/in_context_learning.py \
     --model_name "facebook/opt-1.3b" \
     --input_file $HOME/RAGvsFT/data/dataset/popQA/popQA.tsv \
-    --eval_method "contriever" \
-    --ret_path $HOME/RAGvsFT/component2_ICL_OBQA/data/popqa/contriever_results.jsonl
+    --eval_method "BM25" \
+    --ret_path $HOME/RAGvsFT/component2_ICL_OBQA/data/popqa/rerank_results.jsonl
 
 # facebook/opt-1.3b
 # $HOME/RAGvsFT/component4_CBQA/models/clm_opt350_1e

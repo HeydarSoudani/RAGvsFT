@@ -18,10 +18,10 @@ pip install -r $HOME/RAGvsFT/component2_ICL_OBQA/requirements.txt
 srun $HOME/RAGvsFT/component2_ICL_OBQA/icl_buckets_input.py \
     --model_name "facebook/opt-1.3b" \
     --input_file $HOME/RAGvsFT/data/dataset/popQA/popQA.tsv \
-    --eval_method contriever \
-    --ret_path $HOME/RAGvsFT/component2_ICL_OBQA/data/popqa/contriever_results.jsonl \
+    --eval_method "BM25" \
+    --ret_path $HOME/RAGvsFT/component2_ICL_OBQA/data/popqa/rerank_results.jsonl \
     --output_resutls_dir $HOME/RAGvsFT/component2_ICL_OBQA/results \
-    --output_resutls_filename 'opt1-3_contriever_bk.tsv'
+    --output_resutls_filename 'opt1-3_rerank_bk.tsv'
 
 # "facebook/opt-1.3b"
 # "$HOME/RAGvsFT/component4_CBQA/models/clm_opt1-3b_1e"
