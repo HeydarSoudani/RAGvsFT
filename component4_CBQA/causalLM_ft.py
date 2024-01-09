@@ -118,8 +118,8 @@ def main(args):
         bias="none",
         task_type="CAUSAL_LM"
     )
-    peft_model = get_peft_model(model, config)
-    peft_model.print_trainable_parameters()
+    model = get_peft_model(model, config)
+    model.print_trainable_parameters()
 
     args = TrainingArguments(
         output_dir=model_save_path,
@@ -139,7 +139,7 @@ def main(args):
         # push_to_hub=True,
     )
     trainer = Trainer(
-        model=peft_model,
+        model=model,
         tokenizer=tokenizer,
         args=args,
         data_collator=data_collator,

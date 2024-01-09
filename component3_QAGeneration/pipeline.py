@@ -1,59 +1,41 @@
+
+import argparse, json, os
 from lmqg import TransformersQG
-import spacy, json
-import nltk
-from nltk.tokenize import sent_tokenize
-
-spacy.load('en_core_web_sm')
-nltk.download('punkt')
-
-from utils import load_json_file, write_to_json_file
 
 
-#TODO: Comstomize QA generation process
-
-# def generate_qa_by_lmqg(context):
-#     res = {}
-#     # model = TransformersQG(language="en")
-#     model = TransformersQG(model='lmqg/t5-base-squad-qg', model_ae='lmqg/t5-base-squad-ae')
-#     for title, value in context.items():
-#         qa_list = model.generate_qa(value[0])
-#         res[title] = qa_list
-#     return res
+def main(args):
     
-
+    if not os.path.exists(args.results_output_dir):
+        os.makedirs(args.results_output_dir)
+    results_save_path = os.path.join(args.results_output_dir, args.results_output_filename)
+    
+    model = TransformersQG(
+        model=args.qg_model,
+        model_ae=args.ae_model
+    )
+    
+    with open(args.corpus_path, 'r') as in_file, open(results_save_path, 'w') as out_file:
+        for idx, line in enumerate(in_file):
+            if idx == 100:
+                break
+            passage = json.loads(line.strip())['contents']
+            qas = model.generate_qa(passage)
+            print(qas)
+            for (question, answer) in qas:
+                obj = json.dumps({
+                    "question": question,
+                    "possible_answers": [answer] 
+                })
+                out_file.write(obj + '\n')
 
 if __name__ == "__main__":
-    wiki_corpus_path = "data/generated/popQA_costomized/corpus.jsonl"
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--qg_model", type=str, required=True)
+    parser.add_argument("--ae_model", type=str, required=True)
+    parser.add_argument("--corpus_path", type=str)
+    parser.add_argument("--results_output_dir", type=str)
+    parser.add_argument("--results_output_filename", type=str)
     
-    # read model
-    # model = TransformersQG(
-    #     model='lmqg/t5-base-squad-qg',
-    #     model_ae='lmqg/t5-base-squad-ae'
-    # )
-    
-    # Read corpus and split per sentences
-    with open(wiki_corpus_path, 'r') as file:
-        for idx, line in enumerate(file):
-            if idx == 2:
-                break
-            
-            # Convert each line from JSON string to Python dictionary
-            passage = json.loads(line.strip())['text']
-            sentences = sent_tokenize(passage)
-            
-            for sentence in sentences:
-                print(sentence)        
-    
-    
-    # wiki_context = load_json_file("data/generated/wikiapi_results.json")
-    # # print(wiki_context)
+    args = parser.parse_args()
+    main(args)
 
-    # ### 1) generate QA pairs    
-    # qa = generate_qa_by_lmqg(wiki_context)
-
-    # qa_path = "data/generated/qag_results.json"
-    # write_to_json_file(qa_path, qa)
-    ### 2) Filter
-
-    ### 3) Change dataset format
-    # {}
