@@ -16,12 +16,13 @@ module load Python/3.10.4-GCCcore-11.3.0
 pip install -r $HOME/RAGvsFT/component2_ICL_OBQA/requirements.txt
 
 srun $HOME/RAGvsFT/component2_ICL_OBQA/icl_buckets_input.py \
-    --model_name "$HOME/RAGvsFT/component4_CBQA/models/clm_opt1-3b_3e" \
+    --model_name "facebook/opt-1.3b" \
     --input_file $HOME/RAGvsFT/data/dataset/popQA/popQA.tsv \
-    --eval_method vanilla \
+    --eval_method contriever \
+    --ret_path $HOME/RAGvsFT/component2_ICL_OBQA/data/popqa/contriever_results.jsonl \
     --output_resutls_dir $HOME/RAGvsFT/component2_ICL_OBQA/results \
-    --output_resutls_filename 'opt1-3_clm_3e_vanilla_bk.tsv'
+    --output_resutls_filename 'opt1-3_contriever_bk.tsv'
 
 # "facebook/opt-1.3b"
 # "$HOME/RAGvsFT/component4_CBQA/models/clm_opt1-3b_1e"
-# --ret_path $HOME/RAGvsFT/component2_ICL_OBQA/data/popqa/bm25_results.jsonl \
+
