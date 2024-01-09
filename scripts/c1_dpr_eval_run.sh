@@ -17,8 +17,6 @@ module load Python/3.10.4-GCCcore-11.3.0
 pip install -r $HOME/RAGvsFT/component1_retrieval/requirements.txt
 
 srun $HOME/RAGvsFT/component1_retrieval/contriever/evaluation.py \
-
-    
     --model "msmarco-distilbert-base-v3" \
     --data_path "$HOME/RAGvsFT/component1_retrieval/data/popqa" \
     --output_results_dir "$HOME/RAGvsFT/component1_retrieval/results" \
