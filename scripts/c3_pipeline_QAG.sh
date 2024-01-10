@@ -18,9 +18,9 @@ module load Python/3.11.3-GCCcore-12.3.0
 #Execute a Python program located in $HOME, that takes an input file and output directory as arguments.
 pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 
-srun $HOME/RAGvsFT/component4_CBQA/pipline_QAG.py \
-    --qg_model 'lmqg/t5-large-squad-qg' \
-    --ae_model 'lmqg/t5-large-squad-ae' \
+srun $HOME/RAGvsFT/component3_QAGeneration/pipeline.py \
+    --qg_model 'lmqg/t5-small-squad-qg' \
+    --ae_model 'lmqg/t5-small-squad-ae' \
     --corpus_path "$HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_costomized/corpus.jsonl" \
-    --results_output_dir "$HOME/RAGvsFT/component4_CBQA/generated_data" \
+    --results_output_dir "$HOME/RAGvsFT/component3_QAGeneration/generated_data" \
     --results_output_filename "qag_results.jsonl"

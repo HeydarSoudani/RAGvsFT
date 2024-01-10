@@ -42,8 +42,8 @@ logger = logging.getLogger(__name__)
 def main(args):
     # === Parameters
     seed = 0
-    max_train_samples = 1000
-    max_eval_samples = 100
+    max_train_samples = None
+    max_eval_samples = None
     max_pos_embeddings = 128
     
     # === 
@@ -159,9 +159,9 @@ def main(args):
     
     training_args = TrainingArguments(
         output_dir=model_save_path,
+        num_train_epochs=args.epochs,
         per_device_train_batch_size=32,
         per_device_eval_batch_size=32,
-        num_train_epochs=args.epochs,
         evaluation_strategy="epoch",
         # eval_steps=200,
         # logging_steps=200,
