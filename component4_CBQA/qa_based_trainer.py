@@ -5,6 +5,7 @@ import torch
 import evaluate
 from datasets import Dataset
 from transformers import OPTForCausalLM, AutoTokenizer, TextDataset, DataCollatorForLanguageModeling, Trainer, TrainingArguments
+from peft import LoraConfig, TaskType, get_peft_model
 
 os.environ["WANDB_MODE"] = "offline"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -45,6 +46,27 @@ def main(args):
     model_save_path = os.path.join(args.model_output_dir, args.model_output_filename)
     os.makedirs(model_save_path, exist_ok=True)
     
+    # === with PEFT ==================
+    if args.with_peft:
+        print('Model is running with PEFT ...')
+    
+        config = LoraConfig(
+            r=16,
+            lora_alpha=32,
+            target_modules=["q_proj", "v_proj"],
+            lora_dropout=0.05,
+            bias="none",
+            task_type="CAUSAL_LM"
+        )
+        model = get_peft_model(model, config)
+        model.print_trainable_parameters()
+    
+
+    def preprocess_logits_for_metrics(logits, labels):
+        if isinstance(logits, tuple):
+            logits = logits[0]
+        return logits.argmax(dim=-1)
+    
     metric = evaluate.load("accuracy")
     def compute_metrics(eval_preds):
         preds, labels = eval_preds
@@ -52,8 +74,8 @@ def main(args):
         # output_ids = [token_id for token_id in labels[0, :] if token_id != -100]
         
         labels = labels[:, 1:].reshape(-1)
-        preds = preds[:, :-1].reshape(-1, preds.shape[-1])
-        # preds = preds[:, :-1].reshape(-1)
+        # preds = preds[:, :-1].reshape(-1, preds.shape[-1])
+        preds = preds[:, :-1].reshape(-1)
         
         # print(labels.shape)
         # print(preds.shape)
@@ -75,7 +97,8 @@ def main(args):
         train_dataset=train_dataset,
         eval_dataset=val_dataset,
         data_collator=data_collator,
-        # compute_metrics=compute_metrics
+        compute_metrics=compute_metrics,
+        preprocess_logits_for_metrics=preprocess_logits_for_metrics
     )
     
     trainer.train()
@@ -91,6 +114,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_output_filename", type=str)
     parser.add_argument("--epochs", default=1, type=int)
     parser.add_argument("--batch_size", default=4, type=int)
+    parser.add_argument("--with_peft", action='store_true')
     
     
     args = parser.parse_args()

@@ -22,7 +22,8 @@ srun $HOME/RAGvsFT/component4_CBQA/qa_based_trainer.py \
     --model_output_dir "$HOME/RAGvsFT/component4_CBQA/models" \
     --model_output_filename "qa_opt350m_2e" \
     --epochs 2 \
-    --batch_size 2
+    --batch_size 2 \
+    --with_peft
 
 # "facebook/opt-1.3b"
 # "$HOME/RAGvsFT/component4_CBQA/models/clm_opt1-3b_1e"

@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 
+
+import torch
+import random
 import argparse, json, os
 from lmqg import TransformersQG
+
+random.seed(0)
+torch.manual_seed(0)
 
 
 def main(args):
@@ -11,6 +17,7 @@ def main(args):
     results_save_path = os.path.join(args.results_output_dir, args.results_output_filename)
     
     model = TransformersQG(
+        language='en',
         model=args.qg_model,
         model_ae=args.ae_model
     )
