@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=2:00:00
+#SBATCH --time=3:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -21,8 +21,8 @@ srun $HOME/RAGvsFT/component4_CBQA/clm_trainer.py \
     --dataset_name "popqa" \
     --corpus_path "$HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_costomized/corpus.jsonl" \
     --model_output_dir "$HOME/RAGvsFT/component4_CBQA/models" \
-    --model_output_filename "clm_opt350m_1e" \
-    --epochs 2
+    --model_output_filename "clm_trainer_opt350m_5e" \
+    --epochs 5
 
 # "facebook/opt-1.3b"
 # "$HOME/RAGvsFT/component4_CBQA/models/clm_opt1-3b_1e"

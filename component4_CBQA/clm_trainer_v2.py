@@ -1,38 +1,24 @@
-import argparse, json, logging
+#!/usr/bin/env python3
+
+import argparse, json, os, logging
 import math
 import os
-import sys
-import warnings
-from dataclasses import dataclass, field
 from itertools import chain
-from typing import Optional
-
-import datasets
 import evaluate
-import torch
-from datasets import load_dataset
 from datasets import Dataset, DatasetDict
 from sklearn.model_selection import train_test_split
 
-import transformers
 from transformers import (
-    CONFIG_MAPPING,
-    MODEL_FOR_CAUSAL_LM_MAPPING,
-    AutoConfig,
     AutoModelForCausalLM,
     AutoTokenizer,
-    HfArgumentParser,
     Trainer,
     TrainingArguments,
     default_data_collator,
     is_torch_tpu_available,
     set_seed,
 )
-from transformers.testing_utils import CaptureLogger
-from transformers.trainer_utils import get_last_checkpoint
-from transformers.utils import check_min_version, send_example_telemetry
-from transformers.utils.versions import require_version
 
+os.environ["WANDB_MODE"] = "offline"
 # check_min_version("4.37.0.dev0")
 # require_version("datasets>=1.8.0", "To fix: pip install -r examples/pytorch/language-modeling/requirements.txt")
 
@@ -73,17 +59,8 @@ def main(args):
     column_names = list(raw_datasets["train"].features)
     text_column_name = "text" if "text" in column_names else column_names[0]
     
-    tok_logger = transformers.utils.logging.get_logger("transformers.tokenization_utils_base")
-    
     def tokenize_function(examples):
-        with CaptureLogger(tok_logger) as cl:
-            output = tokenizer(examples[text_column_name])
-        # clm input could be much much longer than block_size
-        if "Token indices sequence length is longer than the" in cl.out:
-            tok_logger.warning(
-                "^^^^^^^^^^^^^^^^ Please ignore the warning above - this long input will be chunked into smaller bits"
-                " before being passed to the model."
-            )
+        output = tokenizer(examples[text_column_name])
         return output
 
     tokenized_datasets = raw_datasets.map(
@@ -163,6 +140,7 @@ def main(args):
         per_device_train_batch_size=32,
         per_device_eval_batch_size=32,
         evaluation_strategy="epoch",
+        save_steps=2000,
         # eval_steps=200,
         # logging_steps=200,
         # gradient_accumulation_steps=8,
@@ -170,7 +148,6 @@ def main(args):
         # # warmup_steps=100,
         # lr_scheduler_type="cosine",
         # learning_rate=5e-4,
-        # save_steps=500,
         # fp16=True,
         # push_to_hub=True,
     )
@@ -187,7 +164,7 @@ def main(args):
     )
     
     # Training
-    train_result = trainer.train()
+    train_result = trainer.train(resume_from_checkpoint = True)
     trainer.save_model()
     metrics = train_result.metrics
     max_train_samples = (
@@ -218,7 +195,6 @@ def main(args):
         kwargs["dataset_tags"] = args.dataset_name
     trainer.create_model_card(**kwargs)
     
-
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

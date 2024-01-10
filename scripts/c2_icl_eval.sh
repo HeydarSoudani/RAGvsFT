@@ -16,10 +16,11 @@ module load Python/3.10.4-GCCcore-11.3.0
 pip install -r $HOME/RAGvsFT/component2_ICL_OBQA/requirements.txt
 
 srun $HOME/RAGvsFT/component2_ICL_OBQA/in_context_learning.py \
-    --model_name "facebook/opt-1.3b" \
+    --model_name facebook/opt-350m \
     --input_file $HOME/RAGvsFT/data/dataset/popQA/popQA.tsv \
-    --eval_method "BM25" \
-    --ret_path $HOME/RAGvsFT/component2_ICL_OBQA/data/popqa/rerank_results.jsonl
-
-# facebook/opt-1.3b
-# $HOME/RAGvsFT/component4_CBQA/models/clm_opt350_1e
+    --eval_method "vanilla" 
+    
+    # \
+    # --ret_path $HOME/RAGvsFT/component2_ICL_OBQA/data/popqa/rerank_results.jsonl
+# facebook/opt-350m
+# $HOME/RAGvsFT/component4_CBQA/models/clm_trainer_opt350m_5e
