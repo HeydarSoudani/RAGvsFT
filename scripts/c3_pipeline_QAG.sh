@@ -20,7 +20,7 @@ pip install -r $HOME/RAGvsFT/component3_QAGeneration/requirements.txt
 pip install --upgrade pip
 python -m spacy download en_core_web_sm
 
-srun $HOME/RAGvsFT/component3_QAGeneration/pipeline.py \
+srun $HOME/RAGvsFT/component3_QAGeneration/pipeline_QAG.py \
     --qg_model 'lmqg/t5-large-squad-qg' \
     --ae_model 'lmqg/t5-large-squad-ae' \
     --corpus_path "$HOME/RAGvsFT/component3_QAGeneration/generated_data/corpus_splitted.jsonl" \
