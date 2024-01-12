@@ -1,15 +1,16 @@
-from transformers import AutoTokenizer
-from transformers import AutoModelForSeq2SeqLM, DataCollatorForSeq2Seq, Seq2SeqTrainingArguments, Seq2SeqTrainer
-from datasets import Dataset, DatasetDict
-from utils import load_json_file, read_tsv_column
-import nltk
-import string
-import numpy as np
-# from rouge_score import rouge_scorer, scoring
-import evaluate
-import torch
+# from transformers import AutoTokenizer
+# from transformers import AutoModelForSeq2SeqLM, DataCollatorForSeq2Seq, Seq2SeqTrainingArguments, Seq2SeqTrainer
+# from datasets import Dataset, DatasetDict
+# from utils import load_json_file, read_tsv_column
+# import nltk
+# import string
+# import numpy as np
+# # from rouge_score import rouge_scorer, scoring
+# import evaluate
+# import torch
+import re
 
-nltk.download('punkt')
+# nltk.download('punkt')
 
 def main():
     model_checkpoint = "t5-small"
@@ -193,6 +194,17 @@ def main():
     predictions_labels = [all_predictions_flattened, all_titles]
     compute_metrics(predictions_labels)
 
+def remove_parentheses(text):
+    # This regular expression finds any text within parentheses, including the parentheses
+    return re.sub(r'\([^)]*\)', '', text)
+
 if __name__ == "__main__":
-    main()
+    # main()
+    
+    text = 'George James Rankin, (1 May 1887 \u2013 28 December 1957) was an Australian soldier and politician. He served in both the House of Representatives and the Senate, representing the Country Party of Australia.'
+    res = remove_parentheses(text)
+    print(res)
+    
+    
+    
     

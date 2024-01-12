@@ -18,7 +18,6 @@ import json
 import argparse
 sns.set_theme()
 
-
 seed = 633
 
 torch.backends.cudnn.deterministic = True
@@ -31,7 +30,6 @@ print('pwd', os.getcwd())
 
 from transformers import AutoTokenizer, AutoModelForCausalLM
 from util_clm import convert_model_to_int8_on_gpu
-
 import jsonlines
 
 def load_jsonlines(file):
@@ -205,6 +203,7 @@ def main():
         with open(args.ret_path) as f:
             retrieval_dict = {json.loads(s)["question"]: json.loads(s) for s in f.readlines()}
         # print(retrieval_dict)
+        
     if args.eval_method == "genread":
         genread_few_shot_examples = get_few_shot_examples_genread(knowledge, generate, n_examples, genread_template, is_templatedQA, max_new_tokens=150)
         has_answer = []
