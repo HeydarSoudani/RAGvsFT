@@ -23,6 +23,9 @@ python -m spacy download en_core_web_sm
 srun $HOME/RAGvsFT/component3_QAGeneration/pipeline.py \
     --qg_model 'lmqg/t5-large-squad-qg' \
     --ae_model 'lmqg/t5-large-squad-ae' \
-    --corpus_path "$HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_costomized/corpus.jsonl" \
+    --corpus_path "$HOME/RAGvsFT/component3_QAGeneration/generated_data/corpus_splitted.jsonl" \
     --results_output_dir "$HOME/RAGvsFT/component3_QAGeneration/generated_data" \
     --results_output_filename "qag_results.jsonl"
+
+
+# --corpus_path "$HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_costomized/corpus.jsonl" \

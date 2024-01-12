@@ -53,10 +53,11 @@ def get_wikipedia_summary_and_paragraphs(title):
         'References', 'Resources', 'Sources', 'Notes', 'External links', 'See also', 'Further reading',
         'Gallery', 'Ranks', 'Awards', 'Awards and nominations', 'Television', 'Covers and tributes',
         'Filmography', 'Discography', 'Selected discography', 'Bibliography', 'Songs', 'cast', 'Accolades',
-        'Selected compositions', 'Select bibliography',
-        'Historic population', 'Family tree', 'Table',
+        'Selected compositions', 'Select bibliography', 'Historic population', 'Family tree', 'Table',
         'Selected works', 'Quotes', 'Literary awards', 'Select critical works',
-        'Interview'
+        'Interview', 'Publications', 'Works', 'Books', 'Films', 'Broadway', 'Off-Broadway and Regional',
+        'Family', 'Tours', 'Videography', 'Authored books', 'Awards and recognitions', 'Published works',
+        'Collaborations and guest appearances', 'Sources and external links', 'List of works'
     ]
     wiki_wiki = wikipediaapi.Wikipedia('my_project', 'en')
     page = wiki_wiki.page(title)

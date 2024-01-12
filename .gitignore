@@ -129,6 +129,7 @@ component1_retrieval/results
 component1_retrieval/dpr/models
 component1_retrieval/data/popqa_sm
 component2_ICL_OBQA/results
+component3_QAGeneration/generated_data
 component4_CBQA/models
 component4_CBQA/generated_data
 
