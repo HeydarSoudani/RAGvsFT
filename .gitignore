@@ -131,6 +131,7 @@ component1_retrieval/data/popqa_sm
 component2_ICL_OBQA/results
 component3_QAGeneration/generated_data/corpus_wo_parentheses.jsonl
 component3_QAGeneration/generated_data/deleted_lines.jsonl
+component3_QAGeneration/generated_data/qag_results.jsonl
 component4_CBQA/models
 component4_CBQA/generated_data
 
