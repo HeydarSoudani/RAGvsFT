@@ -66,7 +66,7 @@ def main(args):
     input_file = "component0_preprocessing/generated_data/popQA_costomized/corpus.jsonl"
     wo_parentheses_file = "component3_QAGeneration/generated_data/corpus_wo_parentheses.jsonl"
     splitted_file = "component3_QAGeneration/generated_data/corpus_splitted.jsonl"
-    token_num = 128
+    token_num = 180
     
     # Step 1: remove parentheses
     # remove_parentheses(input_file, wo_parentheses_file)
