@@ -27,25 +27,30 @@ def main(args):
     with open(args.corpus_path, 'r') as in_file, open(results_save_path, 'w') as out_file:
         for idx, line in enumerate(in_file):
             
-            passage = json.loads(line.strip())['contents']
-            try:
-                with torch.no_grad():
-                    qas = model.generate_qa(passage)
-                torch.cuda.empty_cache()
-                
-                print(qas)
-                for (question, answer) in qas:
-                    obj = json.dumps({
-                        "question": question,
-                        "possible_answers": [answer]
-                    })
-                    out_file.write(obj + '\n')
-            except AnswerNotFoundError:
-                print(f"Answer not found for passage: {passage}")
-                continue
-            except ExceedMaxLengthError:
-                print(f"Input exceeded max length for passage: {passage}")
-                continue
+            if idx >= 220:
+                passage = json.loads(line.strip())['contents']
+                try:
+                    with torch.no_grad():
+                        qas = model.generate_qa(passage)
+                    torch.cuda.empty_cache()
+                    
+                    print(qas)
+                    for (question, answer) in qas:
+                        obj = json.dumps({
+                            "question": question,
+                            "possible_answers": [answer]
+                        })
+                        out_file.write(obj + '\n')
+                except AnswerNotFoundError:
+                    print(f"Answer not found for passage: {passage}")
+                    continue
+                except ExceedMaxLengthError:
+                    print(f"Input exceeded max length for passage: {passage}")
+                    continue
+                except ValueError as e:
+                    print(f"For: {passage}")
+                    print(str(e))
+                    continue
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
