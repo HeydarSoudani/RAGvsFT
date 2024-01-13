@@ -6,9 +6,14 @@ import torch
 import torch.nn as nn
 import bitsandbytes as bnb
 from datasets import Dataset, DatasetDict
+from huggingface_hub import HfFolder, HfApi
 import transformers
 from transformers import AutoTokenizer, AutoConfig, AutoModelForCausalLM
 from peft import prepare_model_for_int8_training, LoraConfig, get_peft_model
+
+
+token = "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"
+HfFolder.save_token(token)
 
 def print_trainable_parameters(model):
     """
@@ -25,11 +30,20 @@ def print_trainable_parameters(model):
     )
 
 def main(args):
-    model_name = "facebook/opt-1.3b"
+    # model_name = "facebook/opt-125m"
+    # repo_name = "HeydarS/opt-125m-lora-v2"
+    api = HfApi()
+    
+    if not os.path.exists(args.model_output_dir):
+        os.makedirs(args.model_output_dir)
+    model_save_path = os.path.join(args.model_output_dir, args.model_output_filename)
+    os.makedirs(model_save_path, exist_ok=True)
+    
 
-    model = AutoModelForCausalLM.from_pretrained(model_name, load_in_8bit=True)
+    # === Model loading ==========
+    model = AutoModelForCausalLM.from_pretrained(args.model_name, load_in_8bit=True)
     model = prepare_model_for_int8_training(model)
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(args.model_name)
     
     config = LoraConfig(
         r=16,
@@ -42,7 +56,7 @@ def main(args):
     model = get_peft_model(model, config)
     print_trainable_parameters(model)
     
-    # 
+    # === Dataset ==============
     corpus_path = "/content/drive/MyDrive/RAGvsFT/data_bm25/corpus/corpus_splitted.jsonl"
     with open(corpus_path, 'r') as input_file:
         corpus_data = [json.loads(line)['contents'] for line in input_file]
@@ -55,13 +69,14 @@ def main(args):
     data = raw_dataset.map(lambda samples: tokenizer(samples["text"]), batched=True)
     print(data)
     
+    # === Start trining =============
     trainer = transformers.Trainer(
         model=model,
         train_dataset=data["train"],
         args=transformers.TrainingArguments(
             per_device_train_batch_size=16,
             gradient_accumulation_steps=4,
-            num_train_epochs=5,
+            num_train_epochs=args.epochs,
             warmup_steps=100,
             max_steps=200,
             learning_rate=1e-5,
@@ -69,18 +84,21 @@ def main(args):
             logging_steps=50,
             output_dir="outputs",
         ),
-            data_collator=transformers.DataCollatorForLanguageModeling(tokenizer, mlm=False),
+        data_collator=transformers.DataCollatorForLanguageModeling(tokenizer, mlm=False),
     )
     model.config.use_cache = False  # silence the warnings. Please re-enable for inference!
     trainer.train()
-
-
-
-
+    
+    # api.upload_model(repo_id=args.repo_name, token=token, model=model)
+    model.save_pretrained(model_save_path)
+    tokenizer.save_pretrained(model_save_path)
+    model.push_to_hub("HeydarS/opt-125m-lora", use_auth_token=True)
+    
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-m", "--model", required=True)
+    parser.add_argument("-m", "--model_name", required=True)
+    parser.add_argument("--repo_name", type=str)
     parser.add_argument("--corpus_path", type=str)
     parser.add_argument("--model_output_dir", type=str)
     parser.add_argument("--model_output_filename", type=str)

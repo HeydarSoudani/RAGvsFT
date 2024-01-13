@@ -15,13 +15,15 @@ module load Python/3.10.4-GCCcore-11.3.0
 
 #Execute a Python program located in $HOME, that takes an input file and output directory as arguments.
 pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
+pip install -q git+https://github.com/huggingface/transformers.git@main git+https://github.com/huggingface/peft.git
 
-srun $HOME/RAGvsFT/component4_CBQA/causalLM_ft.py \
-    --model "facebook/opt-350m" \
-    --corpus_path "$HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_costomized/corpus.jsonl" \
+srun $HOME/RAGvsFT/component4_CBQA/clm_peft_v3.py \
+    --model_name "facebook/opt-125m" \
+    --repo_name "HeydarS/opt-125m-lora-v2" \
+    --corpus_path "$HOME/RAGvsFT/component3_preprocessing/generated_data/corpus_splitted.jsonl" \
     --model_output_dir "$HOME/RAGvsFT/component4_CBQA/models" \
-    --model_output_filename "clm_opt350m_1e" \
-    --epochs 1
+    --model_output_filename "opt-125m-lora-v2" \
+    --epochs 0.2
 
 # "facebook/opt-1.3b"
 # "$HOME/RAGvsFT/component4_CBQA/models/clm_opt1-3b_1e"
