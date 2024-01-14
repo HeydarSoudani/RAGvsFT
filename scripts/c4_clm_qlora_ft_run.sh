@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=6:10:00
+#SBATCH --time=2:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -17,10 +17,11 @@ module load Python/3.10.4-GCCcore-11.3.0
 pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 pip install -q git+https://github.com/huggingface/transformers.git@main git+https://github.com/huggingface/peft.git
 
-srun $HOME/RAGvsFT/component4_CBQA/clm_qlora_ft.py \
+# srun $HOME/RAGvsFT/component4_CBQA/clm_qlora_ft.py \
+srun $HOME/RAGvsFT/component4_CBQA/clm_qlora_ft_v2.py \
     --model_name "facebook/opt-350m" \
     --repo_name "HeydarS/opt-350m-qlora" \
-    --corpus_path "$HOME/RAGvsFT/component3_preprocessing/generated_data/corpus_splitted.jsonl" \
+    --corpus_path "$HOME/RAGvsFT/component3_QAGeneration/generated_data/corpus_splitted.jsonl" \
     --model_output_dir "$HOME/RAGvsFT/component4_CBQA/models" \
     --model_output_filename "opt-350m-qlora" \
     --epochs 5
