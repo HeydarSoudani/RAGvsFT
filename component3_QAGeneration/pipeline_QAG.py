@@ -26,7 +26,7 @@ def main(args):
     
     with open(args.corpus_path, 'r') as in_file, open(results_save_path, 'w') as out_file:
         for idx, line in enumerate(in_file):
-            if idx > 11561:
+            if idx > 18031:
                 passage = json.loads(line.strip())['contents']
                 try:
                     with torch.no_grad():

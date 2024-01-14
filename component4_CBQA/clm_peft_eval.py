@@ -1,7 +1,10 @@
+#!/usr/bin/env python3
+
 import argparse, json
 import torch
 from peft import PeftModel, PeftConfig
 from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import BitsAndBytesConfig
 import pandas as pd
 import numpy as np
 from tqdm import tqdm
@@ -61,17 +64,54 @@ def get_few_shot_text(row, eval_method):
 
 
 def main(args):
+    # === Set device ======
+    if torch.cuda.is_available():
+        device = torch.device("cuda:0") 
+        print("Running on the GPU")
+    elif torch.backends.mps.is_available():
+        device = torch.device("mps:0")
+        print("Running on the mps")
+    else:
+        device = torch.device("cpu")
+        print("Running on the CPU")
+    
+    
+    # === For QLoRA ==========
+    nf4_config = BitsAndBytesConfig(
+        load_in_4bit=True,
+        bnb_4bit_quant_type="nf4",
+        bnb_4bit_use_double_quant=True,
+        bnb_4bit_compute_dtype=torch.bfloat16
+        #FP16 for faster tuning. You can also choose FP32 for higher precision
+    )
+    
+    
     # === model intro ====
     repo_name = "HeydarS/opt-350m-lora"
-    device = args.device
-    
+    # device = args.device
     config = PeftConfig.from_pretrained(repo_name)
+    
+    # model = AutoModelForCausalLM.from_pretrained(
+    #     config.base_model_name_or_path,
+    #     return_dict=True,
+    #     load_in_8bit=True,
+    #     device_map="auto"
+    # )
+    
     model = AutoModelForCausalLM.from_pretrained(
-        config.base_model_name_or_path, return_dict=True, load_in_8bit=True, device_map="auto"
+        config.base_model_name_or_path,
+        quantization_config=nf4_config,
+        device_map="auto"
     )
+    
+    
+    
+    
     tokenizer = AutoTokenizer.from_pretrained(config.base_model_name_or_path)
     # = Add peft model ===
     model = PeftModel.from_pretrained(model, repo_name)
+    model.eval()
+    model.to(device)
     
     tokenizer.pad_token = tokenizer.eos_token
     tokenizer.pad_token_id = tokenizer.eos_token_id

@@ -22,7 +22,7 @@ srun $HOME/RAGvsFT/component4_CBQA/clm_lora_ft.py \
     --repo_name "HeydarS/opt-125m-lora-v2" \
     --corpus_path "$HOME/RAGvsFT/component3_preprocessing/generated_data/corpus_splitted.jsonl" \
     --model_output_dir "$HOME/RAGvsFT/component4_CBQA/models" \
-    --model_output_filename "opt-350m-lora" \
+    --model_output_filename "opt-125m-lora" \
     --epochs 0.1
 
 # "facebook/opt-1.3b"
