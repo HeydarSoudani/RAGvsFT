@@ -17,7 +17,7 @@ module load Python/3.10.4-GCCcore-11.3.0
 pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 pip install -q git+https://github.com/huggingface/transformers.git@main git+https://github.com/huggingface/peft.git
 
-srun $HOME/RAGvsFT/component4_CBQA/clm_peft_ft.py \
+srun $HOME/RAGvsFT/component4_CBQA/clm_lora_ft.py \
     --model_name "facebook/opt-125m" \
     --repo_name "HeydarS/opt-125m-lora-v2" \
     --corpus_path "$HOME/RAGvsFT/component3_preprocessing/generated_data/corpus_splitted.jsonl" \

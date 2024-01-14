@@ -32,8 +32,9 @@ def print_trainable_parameters(model):
 def main(args):
     # model_name = "facebook/opt-125m"
     # repo_name = "HeydarS/opt-125m-lora-v2"
-    api = HfApi()
+    # api = HfApi()
     
+    # === Define output folder ===
     if not os.path.exists(args.model_output_dir):
         os.makedirs(args.model_output_dir)
     model_save_path = os.path.join(args.model_output_dir, args.model_output_filename)
