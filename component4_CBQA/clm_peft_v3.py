@@ -11,7 +11,7 @@ import transformers
 from transformers import AutoTokenizer, AutoConfig, AutoModelForCausalLM
 from peft import prepare_model_for_int8_training, LoraConfig, get_peft_model
 
-
+os.environ["WANDB_MODE"] = "offline"
 token = "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"
 HfFolder.save_token(token)
 
@@ -58,7 +58,7 @@ def main(args):
     
     # === Dataset ==============
     corpus_path = "/content/drive/MyDrive/RAGvsFT/data_bm25/corpus/corpus_splitted.jsonl"
-    with open(corpus_path, 'r') as input_file:
+    with open(args.corpus_path, 'r') as input_file:
         corpus_data = [json.loads(line)['contents'] for line in input_file]
 
     raw_dataset = DatasetDict({
@@ -77,12 +77,13 @@ def main(args):
             per_device_train_batch_size=16,
             gradient_accumulation_steps=4,
             num_train_epochs=args.epochs,
-            warmup_steps=100,
-            max_steps=200,
+            warmup_steps=500,
+            max_steps=8000,
             learning_rate=1e-5,
             fp16=True,
-            logging_steps=50,
-            output_dir="outputs",
+            logging_steps=400,
+            output_dir=args.repo_name,
+            report_to="none"
         ),
         data_collator=transformers.DataCollatorForLanguageModeling(tokenizer, mlm=False),
     )
@@ -92,7 +93,7 @@ def main(args):
     # api.upload_model(repo_id=args.repo_name, token=token, model=model)
     model.save_pretrained(model_save_path)
     tokenizer.save_pretrained(model_save_path)
-    model.push_to_hub("HeydarS/opt-125m-lora", use_auth_token=True)
+    model.push_to_hub(args.repo_name, token=True)
     
 
 if __name__ == "__main__":
@@ -102,7 +103,7 @@ if __name__ == "__main__":
     parser.add_argument("--corpus_path", type=str)
     parser.add_argument("--model_output_dir", type=str)
     parser.add_argument("--model_output_filename", type=str)
-    parser.add_argument("--epochs", default=1, type=int)
+    parser.add_argument("--epochs", default=1.0, type=float)
     
     args = parser.parse_args()
     main(args)

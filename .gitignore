@@ -118,6 +118,7 @@ wandb/
 saved/
 analysis/
 script_logging/
+HeydarS
 
 data/dataset/EntityQuestions
 data/dataset/popQA/bm25_results.jsonl
