@@ -96,7 +96,7 @@ def main(args):
     
     
     # === model intro ====
-    repo_name = "HeydarS/opt-350m-lora"
+    repo_name = "HeydarS/opt-350m-qlora"
     # device = args.device
     config = PeftConfig.from_pretrained(repo_name)
     
@@ -113,9 +113,7 @@ def main(args):
         device_map="auto"
     )
     
-    
-    
-    
+
     tokenizer = AutoTokenizer.from_pretrained(config.base_model_name_or_path)
     # = Add peft model ===
     model = PeftModel.from_pretrained(model, repo_name)
