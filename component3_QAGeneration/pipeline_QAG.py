@@ -32,9 +32,6 @@ def main(args):
         for idx, line in enumerate(in_file):
             corpus_data = json.loads(line.strip())
             
-            if idx == 2:
-                break
-            
             try:
                 with torch.no_grad():
                     qas = model.generate_qa(corpus_data['contents'])
