@@ -56,7 +56,10 @@ def split_to_buckets(objects, split_points):
     
     for obj in objects:
         # rp = obj['relative_popularity']
-        rp = math.log(obj['pageviews'], 10)
+        if obj['pageviews'] != 0:
+            rp = math.log(obj['pageviews'], 10)
+        else:
+            rp = 0
         
         if rp < split_points[0]:
             if 'bucket1' in bucket_data.keys():
@@ -117,14 +120,22 @@ def plot_density_rel(json_data):
     plt.tight_layout()
     plt.show()
 
-def plot_bucket_num(json_data):
+def plot_bucket_num(json_data, dataset_name):
 
-    fig, axes = plt.subplots(nrows=4, ncols=5, figsize=(12, 8))
-    fig.delaxes(axes[0,1])  # Remove the first subplot (top-left)
-    fig.delaxes(axes[0,2])  # Remove the third subplot (top-right)
-    fig.delaxes(axes[0,3])  # Remove the third subplot (top-right)
-    fig.delaxes(axes[0,4])  # Remove the third subplot (top-right)
-    # fig.delaxes(axes[5,4])  # Remove the third subplot (top-right)
+    if dataset_name == 'popqa':
+        fig, axes = plt.subplots(nrows=5, ncols=4, figsize=(12, 8))
+        fig.delaxes(axes[0,1])  # Remove the first subplot (top-left)
+        fig.delaxes(axes[0,2])  # Remove the third subplot (top-right)
+        fig.delaxes(axes[0,3])  # Remove the third subplot (top-right)
+        # fig.delaxes(axes[0,4])  # Remove the third subplot (top-right)
+    
+    if dataset_name == 'eq':
+        fig, axes = plt.subplots(nrows=6, ncols=5, figsize=(12, 8))
+        fig.delaxes(axes[0,1])  # Remove the first subplot (top-left)
+        fig.delaxes(axes[0,2])  # Remove the third subplot (top-right)
+        fig.delaxes(axes[0,3])  # Remove the third subplot (top-right)
+        fig.delaxes(axes[0,4])  # Remove the third subplot (top-right)
+        # fig.delaxes(axes[0,5])  # Remove the third subplot (top-right)
 
     # Plot data for each key
     for idx, key in enumerate(json_data.keys()):
@@ -132,8 +143,12 @@ def plot_bucket_num(json_data):
             row = 0
             col = 0
         else:
-            row = (idx+3) // 5
-            col = (idx+3) % 5
+            if dataset_name == 'popqa':
+                row = (idx+3) // 4
+                col = (idx+3) % 4
+            if dataset_name == 'eq':
+                row = (idx+4) // 5
+                col = (idx+4) % 5
         ax = axes[row, col]
 
         # Count the number of elements in each bucket
@@ -143,7 +158,7 @@ def plot_bucket_num(json_data):
         # ax.set_xlabel('log pop')
         ax.set_title(key)
 
-    # plt.title("Distribution of buckets")
+    # plt.title("EQ test-set")
     plt.tight_layout()
     plt.show()
 
@@ -239,7 +254,8 @@ def create_corpus_qrels_files_bucket(q_buckets_path, corpus_path, qrels_path):
 
 if __name__ == "__main__":
     # For popQA
-    queries_file = "component0_preprocessing/generated_data/popQA_costomized/queries.jsonl"
+    dataset_name = 'popqa'
+    queries_file = "component0_preprocessing/generated_data/popQA_costomized/test/queries.jsonl"
     q_relation_file_path = "component0_preprocessing/generated_data/popQA_costomized/queries_by_relation.json"
     q_relative_pop_file_path = "component0_preprocessing/generated_data/popQA_costomized/queries_relative_pop.json"
     q_buckets_path = "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
@@ -250,43 +266,43 @@ if __name__ == "__main__":
     # q_buckets_path = "data/generated/popQA_costomized/query_bucketing"
     
     # For EQ testset
-    # queries_file = "data/generated/EntityQuestions_costomized/test/queries.jsonl"
-    # q_relation_file_path = "data/generated/EntityQuestions_costomized/test/queries_by_relation.json"
-    # q_relative_pop_file_path = "data/generated/EntityQuestions_costomized/test/queries_relative_pop.json"
-    # q_buckets_path = "data/generated/EntityQuestions_costomized/test/queries_buckets.json"
+    # dataset_name = 'eq'
+    # # queries_file = "component0_preprocessing/generated_data/EntityQuestions_costomized/test/queries.jsonl"
+    # # q_relation_file_path = "component0_preprocessing/generated_data/EntityQuestions_costomized/test/queries_by_relation.json"
+    # # q_relative_pop_file_path = "component0_preprocessing/generated_data/EntityQuestions_costomized/test/queries_relative_pop.json"
+    # # q_buckets_path = "component0_preprocessing/generated_data/EntityQuestions_costomized/test/queries_buckets.json"
     
     # For EQ devset
-    # queries_file = "data/generated/EntityQuestions_costomized/dev/queries.jsonl"
-    # q_relation_file_path = "data/generated/EntityQuestions_costomized/dev/queries_by_relation.json"
-    # q_relative_pop_file_path = "data/generated/EntityQuestions_costomized/dev/queries_relative_pop.json"
-    # q_buckets_path = "data/generated/EntityQuestions_costomized/dev/queries_buckets.json"
+    # queries_file = "component0_preprocessing/generated_data/EntityQuestions_costomized/dev/queries.jsonl"
+    # q_relation_file_path = "component0_preprocessing/generated_data/EntityQuestions_costomized/dev/queries_by_relation.json"
+    # q_relative_pop_file_path = "component0_preprocessing/generated_data/EntityQuestions_costomized/dev/queries_relative_pop.json"
+    # q_buckets_path = "component0_preprocessing/generated_data/EntityQuestions_costomized/dev/queries_buckets.json"
     
     # Convert all queries to list of objs
-    # with open(queries_file, 'r') as file:
-    #     q_all = [json.loads(line) for line in file]
-    # q_by_relation = split_by_relation(queries_file, q_relation_file_path)
+    with open(queries_file, 'r') as file:
+        q_all = [json.loads(line) for line in file]
+    q_by_relation = split_by_relation(queries_file, q_relation_file_path)
     
-    # # # Add relative popularity to objs
-    # q_relative = {}
-    # all_new_objs = calculate_relative_popularity(q_all)
-    # q_relative['all'] = all_new_objs
-    # for relation, objects in q_by_relation.items():
-    #     new_objs = calculate_relative_popularity(objects)
-    #     q_relative[relation] = new_objs
+    # Add relative popularity to objs
+    q_relative = {}
+    all_new_objs = calculate_relative_popularity(q_all)
+    q_relative['all'] = all_new_objs
+    for relation, objects in q_by_relation.items():
+        new_objs = calculate_relative_popularity(objects)
+        q_relative[relation] = new_objs
     
-    # with open(q_relative_pop_file_path, 'w') as relative_output_file:   
-    #     json.dump(q_relative, relative_output_file, indent=4)
+    with open(q_relative_pop_file_path, 'w') as relative_output_file:   
+        json.dump(q_relative, relative_output_file, indent=4)
     
     # with open(q_relative_pop_file_path, 'r') as file:
     #     q_relatives = json.load(file)
     #     plot_density_rel(q_relatives)
     
     
-    
     ## Split each list to three buckets
-    # split_points = [-0.5, -0.3, -0.15, -0.05, 0, 0.75]
-    # split_points = [-0.30, -0.15, -0.05, 0.05]
-    # split_points = [2, 3, 4, 5] # Good for popqa_pageviews
+    split_points = [-0.5, -0.3, -0.15, -0.05, 0, 0.75]
+    split_points = [-0.30, -0.15, -0.05, 0.05]
+    split_points = [2, 3, 4, 5] # Good for popqa_pageviews
     split_points = [3, 4, 5, 6] # Good for my pageviews
     
     
@@ -303,7 +319,7 @@ if __name__ == "__main__":
 
     with open(q_buckets_path, 'r') as file:
         q_buckets = json.load(file)
-        plot_bucket_num(q_buckets)
+        plot_bucket_num(q_buckets, dataset_name)
 
     ### get corpus for unpopular ones     
     # corpus_path = "data/generated/popQA_costomized/corpus_unpop"

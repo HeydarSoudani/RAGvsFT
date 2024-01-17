@@ -2,7 +2,7 @@ import argparse, json
 
 def should_remove_entry(question, answers):
 
-    if question.lower().startswith(("when", "how much", "how many", "in what year")):
+    if question.lower().startswith(("how old", "when", "how much", "how many", "in what year")):
         return True
 
     for answer in answers:
@@ -26,8 +26,8 @@ def filter_jsonl(input_file_path, output_file_path):
                 out_file.write('\n')
 
 def main(args):
-    input_file_path = 'component3_QAGeneration/generated_data/qag_results.jsonl'
-    output_file_path = 'component3_QAGeneration/generated_data/qag_results_filtered.jsonl'
+    input_file_path = 'component0_preprocessing/generated_data/popQA_sm/filtered_qag_synthetic.jsonl'
+    output_file_path = 'component0_preprocessing/generated_data/popQA_sm/typed_filtered_qag_synthetic.jsonl'
 
     filter_jsonl(input_file_path, output_file_path) 
 

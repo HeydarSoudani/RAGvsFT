@@ -1,3 +1,4 @@
+import os
 import requests, uuid, json, ast
 import urllib.request as urllib2
 from urllib.parse import quote
@@ -71,15 +72,24 @@ def get_wikipedia_summary_and_paragraphs(title):
 
     return summary, paragraphs
 
-def create_queries_file(tsv_file, jsonl_file):
+def create_queries_file(tsv_file, jsonl_file, relation="all"):
     
     df = pd.read_csv(tsv_file, sep='\t')
+    if relation != "all":
+        filtered_df = df[df['prop'] == relation]
+    df = filtered_df
+    
     possible_answers = [ast.literal_eval(item) for item in df['possible_answers']]
     question = list(df['question'])
     relation_type = list(df['prop'])
     entity_id = [item.split('/')[-1] for item in df['s_uri']]
     
+    directory = os.path.dirname(jsonl_file)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    
     with open(jsonl_file, 'w') as jsonl:
+        query_id_counter = 1
         for idx, item in enumerate(entity_id):
             wiki_title = get_wikipedia_title_from_wikidata(item)
             
@@ -87,24 +97,36 @@ def create_queries_file(tsv_file, jsonl_file):
                 print('Id: {}, wikiID: {}, title: {}'.format(idx, item, wiki_title))
                 pageviews = get_pageviews(wiki_title)
                 temp = {
-                    "entity_id": item,
-                    'relation_type': relation_type[idx],
-                    "pageviews": pageviews,
+                    "query_id": "Q_"+str(query_id_counter),
                     "question": question[idx],
-                    "possible_answers": possible_answers[idx]
+                    "possible_answers": possible_answers[idx],
+                    "pageviews": pageviews,
+                    "entity_id": item,
+                    'relation_type': relation_type[idx], 
                 }
+                query_id_counter += 1
                 jsonl.write(json.dumps(temp) + '\n')
+    
+    print("All queries are processed ...")
+
 
 def create_corpus_qrels_files(queries_file, corpus_file, qrels_file):
+    print("Start processing corpus ...")
+    
+    directory = os.path.dirname(corpus_file)
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    
     with open(queries_file, 'r') as queries, open(corpus_file, 'w') as corpus, open(qrels_file, 'w') as qrels:
         corpus_id_counter = 1
         for idx, line in enumerate(queries):
-            if (idx+1)%300 == 0:
+            if (idx+1)%100 == 0:
                 print("# processed queries:", idx+1)
             # if idx == 400:
             #     break
             
             data = json.loads(line.strip())
+            query_id = data['query_id']
             wikidata_id = data['entity_id']
             wikipedia_title = get_wikipedia_title_from_wikidata(wikidata_id)
             
@@ -123,7 +145,7 @@ def create_corpus_qrels_files(queries_file, corpus_file, qrels_file):
                     # 'has_answer': True
                 }
                 qrels_data1 = {
-                    'query_id': wikidata_id,
+                    'query_id': query_id,
                     'doc_id': str(corpus_id_counter),
                     'score': 1
                 }
@@ -148,7 +170,7 @@ def create_corpus_qrels_files(queries_file, corpus_file, qrels_file):
                         # 'has_answer': False
                     }
                     qrels_data2 = {
-                        'query_id': wikidata_id,
+                        'query_id': query_id,
                         'doc_id': str(corpus_id_counter),
                         'score': 0
                     }
@@ -158,15 +180,30 @@ def create_corpus_qrels_files(queries_file, corpus_file, qrels_file):
                     corpus.write(corpus_jsonl_line + '\n')
                     qrels_jsonl_line = json.dumps(qrels_data2)
                     qrels.write(qrels_jsonl_line + '\n')
+    
+    print("All corpuses are processed!!!")
+
 
 if __name__ == "__main__":
     
-    popQA_input_file = "data/dataset/popQA.tsv"
-    queries_file = "data/generated/popQA_costomized/queries.jsonl"
-    # create_queries_file(popQA_input_file, queries_file)
+    popQA_input_file = "data/dataset/popQA/popQA.tsv"
     
-    corpus_file = "data/generated/popQA_costomized/corpus.jsonl"
-    qrels_file = "data/generated/popQA_costomized/qrels.jsonl"
+    # For whole popQA dataset
+    # queries_file = "data/generated/popQA_costomized/queries.jsonl"
+    # corpus_file = "data/generated/popQA_costomized/corpus.jsonl"
+    # qrels_file = "data/generated/popQA_costomized/qrels.jsonl"
+    
+    # Only for occupation relation
+    # queries_file = 'component0_preprocessing/generated_data/popQA_occupation/queries.jsonl'
+    # corpus_file = 'component0_preprocessing/generated_data/popQA_occupation/corpus.jsonl'
+    # qrels_file = 'component0_preprocessing/generated_data/popQA_occupation/qrels.jsonl'
+    
+    # Only for religion relation
+    queries_file = 'component0_preprocessing/generated_data/popQA_religion/queries.jsonl'
+    corpus_file = 'component0_preprocessing/generated_data/popQA_religion/corpus.jsonl'
+    qrels_file = 'component0_preprocessing/generated_data/popQA_religion/qrels.jsonl'
+    
+    # create_queries_file(popQA_input_file, queries_file, relation="religion")
     create_corpus_qrels_files(queries_file, corpus_file, qrels_file)
 
 

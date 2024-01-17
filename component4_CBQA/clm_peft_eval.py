@@ -32,7 +32,16 @@ completion_template = "Q: {} A:"  # "{}" # "Query: {}\nResult:" # "Q: {} A:" # "
 def call_model(prompt, model, tokenizer, device, max_new_tokens=15, model_max_length=None):
     max_inpt_tokens = tokenizer.model_max_length if model_max_length is None else model_max_length
     inpts = tokenizer(prompt, return_tensors="pt").to(device)
-    gen = model.generate(input_ids=inpts.input_ids[:, -(max_inpt_tokens - max_new_tokens):], attention_mask=inpts.attention_mask[:, -(max_inpt_tokens - max_new_tokens):], pad_token_id=tokenizer.eos_token_id, max_new_tokens=max_new_tokens, num_beams=1, do_sample=False)
+    gen = model.generate(
+        input_ids=inpts.input_ids[:, -(max_inpt_tokens - max_new_tokens):],
+        attention_mask=inpts.attention_mask[:, -(max_inpt_tokens - max_new_tokens):],
+        pad_token_id=tokenizer.eos_token_id,
+        max_new_tokens=max_new_tokens,
+        num_beams=1,
+        do_sample=False,
+        # do_sample=True, # more creative, use very low frequent vocab
+        # top_p=0.8, # High value makes model more creative, less makes it more safe
+    )
     text = tokenizer.decode(gen[0])
     actual_prompt = tokenizer.decode(inpts.input_ids[0, -(max_inpt_tokens - max_new_tokens):])
     pred = text[len(actual_prompt):]

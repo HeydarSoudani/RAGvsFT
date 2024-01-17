@@ -21,10 +21,11 @@ pip install -q git+https://github.com/huggingface/transformers.git@main git+http
 srun $HOME/RAGvsFT/component4_CBQA/clm_qlora_ft_v2.py \
     --model_name "facebook/opt-350m" \
     --repo_name "HeydarS/opt-350m-qlora" \
-    --corpus_path "$HOME/RAGvsFT/component3_QAGeneration/generated_data/corpus_splitted.jsonl" \
+    --corpus_path "$HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_sm/corpus.jsonl" \
     --model_output_dir "$HOME/RAGvsFT/component4_CBQA/models" \
     --model_output_filename "opt-350m-qlora" \
-    --epochs 5
+    --epochs 100
 
 # "facebook/opt-1.3b"
 # "$HOME/RAGvsFT/component4_CBQA/models/clm_opt1-3b_1e"
+# --corpus_path "$HOME/RAGvsFT/component3_QAGeneration/generated_data/corpus_splitted.jsonl" \

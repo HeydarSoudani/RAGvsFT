@@ -30,7 +30,6 @@ def main(args):
     if not os.path.exists(args.output_dir):
         os.makedirs(args.output_dir)
     
-    
     data_path = "component1_retrieval/popqa_data"
     corpus = GenericDataLoader(data_path).load_corpus()
     
