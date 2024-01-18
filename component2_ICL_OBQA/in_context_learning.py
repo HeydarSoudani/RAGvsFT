@@ -166,8 +166,8 @@ def main():
     else:
         gpt = args.model_name
         device = args.device
-        tokenizer = AutoTokenizer.from_pretrained("facebook/opt-350m")
-        # tokenizer = AutoTokenizer.from_pretrained(gpt)
+        # tokenizer = AutoTokenizer.from_pretrained("facebook/opt-350m")
+        tokenizer = AutoTokenizer.from_pretrained(gpt)
         tokenizer.pad_token = tokenizer.eos_token
         tokenizer.pad_token_id = tokenizer.eos_token_id
         if args.int8bit:

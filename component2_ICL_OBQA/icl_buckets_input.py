@@ -188,10 +188,13 @@ def main():
     
     # input_path = args.input_file # json format
     # "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
-    queries_bk_path = "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
-    with open(queries_bk_path, 'r') as in_queries:
-        query_data = json.load(in_queries)
+    # queries_bk_path = "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
+    # with open(queries_bk_path, 'r') as in_queries:
+    #     query_data = json.load(in_queries)
     
+    queries_bk_path = "component0_preprocessing/generated_data/popQA_religion/queries_30ds_bk.json"
+    with open(queries_bk_path, 'r') as in_queries:
+        query_data = {"religion": json.load(in_queries)}
     
     if not os.path.exists(args.output_resutls_dir):
         os.makedirs(args.output_resutls_dir)

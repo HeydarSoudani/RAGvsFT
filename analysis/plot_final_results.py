@@ -1,3 +1,4 @@
+import pandas as pd
 import matplotlib.pyplot as plt
 import csv, os
 
@@ -71,6 +72,26 @@ def retrieval_results_bk():
     plt.tight_layout()
     plt.show()
 
+def retrieval_results_bk_all_models():
+    relation = 'religion'
+    models = ["bm25", "contriever", "rerank", "dpr_zs",]
+    
+    plt.figure(figsize=(10, 6))
+    for idx, model in enumerate(models):
+        
+        file_path = 'component1_retrieval/results/religion/wbk_{}_eval.tsv'.format(model)
+        df = pd.read_csv(file_path, sep='\t')
+        recall_data = df['Recall@1']
+        plt.plot(
+            ['b1', 'b2', 'b3', 'b4', 'b5'],
+            recall_data,
+            label=model
+        )
+    
+    plt.legend(loc='upper right')
+    plt.tight_layout()
+    plt.show()
+
 def icl_obqa_results_bk():
     ret_model = 'bm25' # bm25, dpr_ft, dpr_noft, gt
     file_dir = 'component2_ICL_OBQA/results'
@@ -127,9 +148,11 @@ def icl_obqa_results_bk():
     plt.tight_layout()
     plt.show()
 
+
 if __name__ == "__main__":
     # retrieval_results_nobk()
     # retrieval_results_bk()
+    # retrieval_results_bk_all_models()
     
     icl_obqa_results_bk()
     

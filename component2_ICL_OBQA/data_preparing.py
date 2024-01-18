@@ -3,7 +3,8 @@ import argparse
 
 def get_corpus():
     corpus = {}
-    cor_file = 'component0_preprocessing/generated_data/popQA_costomized/corpus.jsonl'
+    # cor_file = 'component0_preprocessing/generated_data/popQA_costomized/corpus.jsonl'
+    cor_file = 'component0_preprocessing/generated_data/popQA_religion/corpus_30ds_512tk.jsonl'
     with open(cor_file, 'r') as corpus_file:
         for line in corpus_file:
             obj = json.loads(line)
@@ -12,19 +13,23 @@ def get_corpus():
 
 def get_queries():
     queries = {}
-    qur_file = 'component0_preprocessing/generated_data/popQA_costomized/queries.jsonl'
+    # qur_file = 'component0_preprocessing/generated_data/popQA_costomized/queries.jsonl'
+    qur_file = 'component0_preprocessing/generated_data/popQA_religion/queries_30ds.jsonl'
     with open(qur_file, 'r') as queries_file:
         for line in queries_file:
             obj = json.loads(line)
-            queries[obj['entity_id']] = obj['question']
+            queries[obj['query_id']] = obj['question']
     return queries
 
 def retrieval_resutls_ideal():
     corpus = get_corpus()
     queries = get_queries()
 
-    qr_file = 'component0_preprocessing/generated_data/popQA_costomized/qrels.jsonl'
-    out_file = 'component2_ICL_OBQA/data/popqa/gt_result.jsonl'
+    qr_file = "component0_preprocessing/generated_data/popQA_religion/qrels_30ds_512tk.jsonl"
+    out_file = "component2_ICL_OBQA/data/popQA_religion/gt_result.jsonl"
+    # qr_file = 'component0_preprocessing/generated_data/popQA_costomized/qrels.jsonl'
+    # out_file = 'component2_ICL_OBQA/data/popqa/gt_result.jsonl'
+    
     with open(qr_file, 'r') as qrels_file, open(out_file, 'w') as output_file:
         for idx, line in enumerate(qrels_file):
             # if idx == 10:
@@ -93,11 +98,11 @@ def main(args):
     os.makedirs("component2_ICL_OBQA/data", exist_ok=True)
     os.makedirs("component2_ICL_OBQA/data/popqa", exist_ok=True)
     
-    # retrieval_resutls_ideal()
-    retrieval_resutls_no_ideal(args)
+    retrieval_resutls_ideal()
+    # retrieval_resutls_no_ideal(args)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('-m', '--model', type=str, default="vanilla", choices=["vanilla", "BM25", "dpr_noft", "dpr_noft", "contriever", "rerank"])
+    parser.add_argument('-m', '--model', type=str, default="vanilla", choices=["vanilla", "BM25", "dpr_noft", "dpr_ft", "contriever", "rerank"])
     args = parser.parse_args()
     main(args)

@@ -16,7 +16,7 @@ module load Python/3.10.4-GCCcore-11.3.0
 pip install -r $HOME/RAGvsFT/component2_ICL_OBQA/requirements.txt
 
 srun $HOME/RAGvsFT/component2_ICL_OBQA/in_context_learning.py \
-    --model_name $HOME/RAGvsFT/component4_CBQA/models/opt-350m-lora \
+    --model_name facebook/opt-1.3b \
     --input_file $HOME/RAGvsFT/data/dataset/popQA/popQA.tsv \
     --eval_method "vanilla" 
     
