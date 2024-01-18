@@ -9,7 +9,6 @@ from lmqg.exceptions import AnswerNotFoundError, ExceedMaxLengthError
 random.seed(0)
 torch.manual_seed(0)
 
-
 def main(args):
     
     if not os.path.exists(args.results_output_dir):

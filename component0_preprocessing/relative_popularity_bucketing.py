@@ -5,15 +5,6 @@ import seaborn as sns
 import wikipediaapi
 import math
 
-# Function to categorize an object into a bucket based on relative popularity
-def categorize_by_popularity(obj):
-    rp = obj['relative_popularity']
-    if rp < -1:
-        return 1  # Bucket 1
-    elif -1 <= rp <= 1:
-        return 2  # Bucket 2
-    else:
-        return 3  # Bucket 3
 
 def split_by_relation(input_file_path, output_file_path):
     # Initialize a dictionary to hold the grouped data
@@ -161,95 +152,6 @@ def plot_bucket_num(json_data, dataset_name):
     # plt.title("EQ test-set")
     plt.tight_layout()
     plt.show()
-
-def get_wikipedia_title_from_wikidata(wikidata_id):
-    wikidata_url = f"https://www.wikidata.org/w/api.php?action=wbgetentities&ids={wikidata_id}&format=json&props=sitelinks"
-    response = requests.get(wikidata_url)
-    data = response.json()
-
-    entities = data.get('entities', {})
-    if wikidata_id in entities:
-        wikipedia_title = entities[wikidata_id].get('sitelinks', {}).get('enwiki', {}).get('title')
-        return wikipedia_title
-    return None
-
-def get_wikipedia_summary_and_paragraphs(title):
-    inappropriate_sections = [
-        'References', 'Resources', 'Sources', 'Notes', 'External links', 'See also', 'Further reading',
-        'Gallery', 'Ranks', 'Awards', 'Awards and nominations', 'Television', 'Covers and tributes',
-        'Filmography', 'Discography', 'Selected discography', 'Bibliography', 'Songs', 'cast', 'Accolades',
-        'Selected compositions',
-        'Historic population', 'Family tree', 'Table'
-    ]
-    wiki_wiki = wikipediaapi.Wikipedia('my_project', 'en')
-    page = wiki_wiki.page(title)
-
-    if not page.exists():
-        return "Page does not exist", []
-
-    summary = page.summary
-    paragraphs = [section.text for section in page.sections if section.title not in inappropriate_sections]
-    paragraphs = [item for item in paragraphs if item != ""]
-
-    return summary, paragraphs
-
-def create_corpus_qrels_files_bucket(q_buckets_path, corpus_path, qrels_path):
-    with open(q_buckets_path, 'r') as file:
-        q_buckets = json.load(file)
-        
-    corpus_id_counter = 1
-    add = 0
-    for key, value in q_buckets.items():
-        selected_queries = value['bucket2']
-        
-        print(len(selected_queries))
-        add += len(selected_queries)
-    print(add)
-        # corpus_file = os.path.join(corpus_path, f"{key}.jsonl")
-        # qrels_file = os.path.join(qrels_path, f"{key}.jsonl")
-        # with open(corpus_file, 'w') as corpus, open(qrels_file, 'w') as qrels:
-        #     for idx, data in enumerate(selected_queries):
-        #         pass
-                # if idx == 10:
-                #     break
-                
-                # # data = json.loads(line.strip())
-                # wikidata_id = data['entity_id']
-                # wikipedia_title = data['wiki_title']
-                # summary, paragraphs = get_wikipedia_summary_and_paragraphs(wikipedia_title)
-                # corpus_data1 = {
-                #     'id': str(corpus_id_counter),
-                #     'contents': summary
-                # }
-                # qrels_data1 = {
-                #     'query_id': wikidata_id,
-                #     'doc_id': str(corpus_id_counter),
-                #     'score': 1
-                # }
-                # corpus_id_counter += 1
-                
-                # corpus_jsonl_line = json.dumps(corpus_data1)
-                # corpus.write(corpus_jsonl_line + '\n')
-                # qrels_jsonl_line = json.dumps(qrels_data1)
-                # qrels.write(qrels_jsonl_line + '\n')
-                
-                # # Write paragraphs in files
-                # for paragraph in paragraphs:
-                #     corpus_data2 = {
-                #         'id': str(corpus_id_counter),
-                #         'contents': paragraph
-                #     }
-                #     qrels_data2 = {
-                #         'query_id': wikidata_id,
-                #         'doc_id': str(corpus_id_counter),
-                #         'score': 0
-                #     }
-                #     corpus_id_counter += 1
-                    
-                #     corpus_jsonl_line = json.dumps(corpus_data2)
-                #     corpus.write(corpus_jsonl_line + '\n')
-                #     qrels_jsonl_line = json.dumps(qrels_data2)
-                #     qrels.write(qrels_jsonl_line + '\n')
 
 
 if __name__ == "__main__":

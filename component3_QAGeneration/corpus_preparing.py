@@ -61,7 +61,6 @@ def splitting_corpus(input_file, output_file, token_num):
         for line in file:
             original_qrels.append(json.loads(line))
     
-    
     with open(input_file, 'r') as wop_file, open(output_file, 'w') as sp_file, open(new_qrels_file_path, 'w') as new_qrel_file:
         for idx, line in enumerate(wop_file):
             
@@ -83,11 +82,7 @@ def splitting_corpus(input_file, output_file, token_num):
                 sp_file.write(json.dumps(sp_obj) + "\n")
                 
                 qsp_obj = {"query_id": query_id, "doc_id": new_doc_id, "score": score}
-                new_qrel_file.write(json.dumps(qsp_obj) + "\n")
-                
-                
-                
-                
+                new_qrel_file.write(json.dumps(qsp_obj) + "\n")               
 
 def remove_according_to_types(input_file, output_file):
 

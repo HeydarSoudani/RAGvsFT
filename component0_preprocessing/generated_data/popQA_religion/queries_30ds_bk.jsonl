@@ -1,0 +1,1348 @@
+{
+    "bucket1": [
+        {
+            "query_id": "Q_51",
+            "question": "What is the religion of state?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 770,
+            "entity_id": "Q18204606",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_243",
+            "question": "What is the religion of James MacManaway?",
+            "possible_answers": [
+                "Anglicanism",
+                "Anglicanism, Anglican Church"
+            ],
+            "pageviews": 563,
+            "entity_id": "Q6138654",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_231",
+            "question": "What is the religion of Cosmo Francesco Ruppi?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 741,
+            "entity_id": "Q1136150",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_337",
+            "question": "What is the religion of Benedito Domingos Vito Coscia?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 527,
+            "entity_id": "Q817074",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_66",
+            "question": "What is the religion of Simon Ntamwana?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 988,
+            "entity_id": "Q556345",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_69",
+            "question": "What is the religion of Kenneth Kennedy?",
+            "possible_answers": [
+                "Anglicanism",
+                "Anglicanism, Anglican Church"
+            ],
+            "pageviews": 356,
+            "entity_id": "Q6390314",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_38",
+            "question": "What is the religion of Joseph-M\u00e9dard \u00c9mard?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 757,
+            "entity_id": "Q3184377",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_164",
+            "question": "What is the religion of Walter James Fitzgerald?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 724,
+            "entity_id": "Q7965257",
+            "relation_type": "religion"
+        }
+    ],
+    "bucket2": [
+        {
+            "query_id": "Q_235",
+            "question": "What is the religion of St. Albert's Church, Riga?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 1149,
+            "entity_id": "Q7586756",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_60",
+            "question": "What is the religion of Maximilian Kaller?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 1956,
+            "entity_id": "Q1914001",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_145",
+            "question": "What is the religion of Faithful?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 1166,
+            "entity_id": "Q5431283",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_110",
+            "question": "What is the religion of Neville Figgis?",
+            "possible_answers": [
+                "Anglicanism",
+                "Anglicanism, Anglican Church"
+            ],
+            "pageviews": 3039,
+            "entity_id": "Q7004688",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_318",
+            "question": "What is the religion of John J. Myers?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 5830,
+            "entity_id": "Q1638264",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_52",
+            "question": "What is the religion of Arturo Tabera Araoz?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 1101,
+            "entity_id": "Q715554",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_246",
+            "question": "What is the religion of Lutheran Theological Seminary at Philadelphia?",
+            "possible_answers": [
+                "Evangelical Lutheran Church in America",
+                "ELCA"
+            ],
+            "pageviews": 3705,
+            "entity_id": "Q6705747",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_289",
+            "question": "What is the religion of Vitellozzo Vitelli?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 5416,
+            "entity_id": "Q2714004",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_288",
+            "question": "What is the religion of Robert Milman?",
+            "possible_answers": [
+                "Anglicanism",
+                "Anglicanism, Anglican Church"
+            ],
+            "pageviews": 1247,
+            "entity_id": "Q7347696",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_129",
+            "question": "What is the religion of Felix Gm\u00fcr?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 2574,
+            "entity_id": "Q115977",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_56",
+            "question": "What is the religion of Paul Shan Kuo-hsi?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 2684,
+            "entity_id": "Q367219",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_30",
+            "question": "What is the religion of Walter Carey?",
+            "possible_answers": [
+                "Anglicanism",
+                "Anglicanism, Anglican Church"
+            ],
+            "pageviews": 1069,
+            "entity_id": "Q7964508",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_153",
+            "question": "What is the religion of Sisters of the Cross and Passion?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 4677,
+            "entity_id": "Q7531388",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_90",
+            "question": "What is the religion of St. John's Church?",
+            "possible_answers": [
+                "Lutheranism",
+                "Lutheran Church",
+                "Lutherans"
+            ],
+            "pageviews": 3600,
+            "entity_id": "Q2568547",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_176",
+            "question": "What is the religion of Frank Joseph Dewane?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 4175,
+            "entity_id": "Q1443512",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_253",
+            "question": "What is the religion of Patrick Sheridan?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 1820,
+            "entity_id": "Q1406867",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_214",
+            "question": "What is the religion of Giacomo Biffi?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 5690,
+            "entity_id": "Q81156",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_159",
+            "question": "What is the religion of Ruth Hurmence Green?",
+            "possible_answers": [
+                "atheism",
+                "unbelief"
+            ],
+            "pageviews": 2411,
+            "entity_id": "Q7383047",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_113",
+            "question": "What is the religion of Rino Fisichella?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 7999,
+            "entity_id": "Q552237",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_306",
+            "question": "What is the religion of Nikola Eterovi\u0107?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 3514,
+            "entity_id": "Q1990608",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_118",
+            "question": "What is the religion of Juan Soldevilla y Romero?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 1941,
+            "entity_id": "Q717800",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_199",
+            "question": "What is the religion of Ali Ibn Ibrahim Qomi?",
+            "possible_answers": [
+                "Shia Islam",
+                "Sh\u012ba Islam",
+                "Shiism",
+                "Shiah Islam",
+                "Shi\u02bfa Islam",
+                "Shi'a Islam"
+            ],
+            "pageviews": 3378,
+            "entity_id": "Q5217718",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_205",
+            "question": "What is the religion of Ricardo Watty Urquidi?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 1181,
+            "entity_id": "Q1347358",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_322",
+            "question": "What is the religion of Appalachian Bible College?",
+            "possible_answers": [
+                "Baptists",
+                "Baptist church",
+                "Baptist"
+            ],
+            "pageviews": 7058,
+            "entity_id": "Q4780834",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_270",
+            "question": "What is the religion of Leonard R. Brand?",
+            "possible_answers": [
+                "Seventh-day Adventist Church",
+                "Seventh-day Adventism",
+                "SDA"
+            ],
+            "pageviews": 2900,
+            "entity_id": "Q6525648",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_316",
+            "question": "What is the religion of Northland International University?",
+            "possible_answers": [
+                "Baptists",
+                "Baptist church",
+                "Baptist"
+            ],
+            "pageviews": 4499,
+            "entity_id": "Q15402042",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_31",
+            "question": "What is the religion of Alexander?",
+            "possible_answers": [
+                "Islam",
+                "Islamic religion",
+                "Mohammedanism",
+                "Muslim religion",
+                "al-\u2019isl\u0101m",
+                "religion of the Muslims"
+            ],
+            "pageviews": 2713,
+            "entity_id": "Q4718156",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_134",
+            "question": "What is the religion of Joseph MacRory?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 3681,
+            "entity_id": "Q1707550",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_171",
+            "question": "What is the religion of Shah Jamal?",
+            "possible_answers": [
+                "Islam",
+                "Islamic religion",
+                "Mohammedanism",
+                "Muslim religion",
+                "al-\u2019isl\u0101m",
+                "religion of the Muslims"
+            ],
+            "pageviews": 8687,
+            "entity_id": "Q7461286",
+            "relation_type": "religion"
+        }
+    ],
+    "bucket3": [
+        {
+            "query_id": "Q_182",
+            "question": "What is the religion of Spring Arbor University?",
+            "possible_answers": [
+                "Free Methodist Church"
+            ],
+            "pageviews": 22215,
+            "entity_id": "Q7580375",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_13",
+            "question": "What is the religion of Qutaylah bint Abd-al-Uzza?",
+            "possible_answers": [
+                "Islam",
+                "Islamic religion",
+                "Mohammedanism",
+                "Muslim religion",
+                "al-\u2019isl\u0101m",
+                "religion of the Muslims"
+            ],
+            "pageviews": 12610,
+            "entity_id": "Q7273004",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_27",
+            "question": "What is the religion of Abdur Rahman bin Awf?",
+            "possible_answers": [
+                "Islam",
+                "Islamic religion",
+                "Mohammedanism",
+                "Muslim religion",
+                "al-\u2019isl\u0101m",
+                "religion of the Muslims"
+            ],
+            "pageviews": 88409,
+            "entity_id": "Q1647771",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_102",
+            "question": "What is the religion of Shenandoah University?",
+            "possible_answers": [
+                "United Methodist Church",
+                "UMC"
+            ],
+            "pageviews": 54266,
+            "entity_id": "Q1799245",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_197",
+            "question": "What is the religion of Wahshi ibn Harb?",
+            "possible_answers": [
+                "Islam",
+                "Islamic religion",
+                "Mohammedanism",
+                "Muslim religion",
+                "al-\u2019isl\u0101m",
+                "religion of the Muslims"
+            ],
+            "pageviews": 56245,
+            "entity_id": "Q2738852",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_155",
+            "question": "What is the religion of Homoousion?",
+            "possible_answers": [
+                "Christianity",
+                "Christian faith"
+            ],
+            "pageviews": 72716,
+            "entity_id": "Q988243",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_57",
+            "question": "What is the religion of Cornell College?",
+            "possible_answers": [
+                "United Methodist Church",
+                "UMC"
+            ],
+            "pageviews": 45236,
+            "entity_id": "Q5171517",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_332",
+            "question": "What is the religion of Diarmuid Martin?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 12758,
+            "entity_id": "Q370544",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_255",
+            "question": "What is the religion of Kingdom of Kent?",
+            "possible_answers": [
+                "Anglo-Saxon paganism",
+                "Anglo-Saxon religion"
+            ],
+            "pageviews": 79485,
+            "entity_id": "Q328818",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_239",
+            "question": "What is the religion of California Lutheran University?",
+            "possible_answers": [
+                "Evangelical Lutheran Church in America",
+                "ELCA"
+            ],
+            "pageviews": 53073,
+            "entity_id": "Q1026831",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_89",
+            "question": "What is the religion of G\u00fcshi Khan?",
+            "possible_answers": [
+                "Tibetan Buddhism",
+                "Vajrayana",
+                "Sutrayana",
+                "Grand Lamaism",
+                "Lamaism"
+            ],
+            "pageviews": 11104,
+            "entity_id": "Q1333775",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_29",
+            "question": "What is the religion of Jewish cemetery?",
+            "possible_answers": [
+                "Judaism",
+                "Jewish",
+                "Jewish religion"
+            ],
+            "pageviews": 28334,
+            "entity_id": "Q846659",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_107",
+            "question": "What is the religion of Andrew Dung-Lac?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 15374,
+            "entity_id": "Q496924",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_188",
+            "question": "What is the religion of Muhammad Qasim Nanautawi?",
+            "possible_answers": [
+                "Islam",
+                "Islamic religion",
+                "Mohammedanism",
+                "Muslim religion",
+                "al-\u2019isl\u0101m",
+                "religion of the Muslims"
+            ],
+            "pageviews": 16137,
+            "entity_id": "Q3696225",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_37",
+            "question": "What is the religion of Sabine Baring-Gould?",
+            "possible_answers": [
+                "Anglicanism",
+                "Anglicanism, Anglican Church"
+            ],
+            "pageviews": 57269,
+            "entity_id": "Q1242472",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_338",
+            "question": "What is the religion of Muqatil ibn Sulayman?",
+            "possible_answers": [
+                "Sunni Islam",
+                "Sunni",
+                "Sunnite Muslims",
+                "Sunnite Muslim"
+            ],
+            "pageviews": 14806,
+            "entity_id": "Q14095767",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_186",
+            "question": "What is the religion of Eastern Mennonite University?",
+            "possible_answers": [
+                "Mennonite Church USA",
+                "MCUSA"
+            ],
+            "pageviews": 28674,
+            "entity_id": "Q1278210",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_4",
+            "question": "What is the religion of Petwo?",
+            "possible_answers": [
+                "Haitian Vodou",
+                "Vaudou",
+                "Vodun",
+                "Vodoun",
+                "Voodoo"
+            ],
+            "pageviews": 12645,
+            "entity_id": "Q7179433",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_70",
+            "question": "What is the religion of Ajitanatha?",
+            "possible_answers": [
+                "Jainism",
+                "nirgrantha",
+                "Jain dharma",
+                "Jainatva",
+                "Jaina",
+                "Jain mata",
+                "Jaini",
+                "Jainy",
+                "jainas"
+            ],
+            "pageviews": 18104,
+            "entity_id": "Q3351786",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_122",
+            "question": "What is the religion of Thomas Aquinas College?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 27827,
+            "entity_id": "Q7787106",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_331",
+            "question": "What is the religion of Marjorie Cameron?",
+            "possible_answers": [
+                "Thelema"
+            ],
+            "pageviews": 88719,
+            "entity_id": "Q6766231",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_19",
+            "question": "What is the religion of George Carey?",
+            "possible_answers": [
+                "Anglicanism",
+                "Anglicanism, Anglican Church"
+            ],
+            "pageviews": 78558,
+            "entity_id": "Q335458",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_74",
+            "question": "What is the religion of Philip Neri?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 91539,
+            "entity_id": "Q217791",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_126",
+            "question": "What is the religion of refuge?",
+            "possible_answers": [
+                "Buddhism",
+                "Buddha Dharma"
+            ],
+            "pageviews": 56181,
+            "entity_id": "Q228220",
+            "relation_type": "religion"
+        }
+    ],
+    "bucket4": [
+        {
+            "query_id": "Q_210",
+            "question": "What is the religion of Tokugawa Shogunate?",
+            "possible_answers": [
+                "Buddhism",
+                "Buddha Dharma"
+            ],
+            "pageviews": 727444,
+            "entity_id": "Q205662",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_333",
+            "question": "What is the religion of John Calvin?",
+            "possible_answers": [
+                "Protestantism",
+                "Protestant religion",
+                "Protestant Church",
+                "Christian Protestantism",
+                "Protestant churches",
+                "Protestant Christianity",
+                "Protestant",
+                "Protestants"
+            ],
+            "pageviews": 603458,
+            "entity_id": "Q37577",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_24",
+            "question": "What is the religion of Assumption of Mary?",
+            "possible_answers": [
+                "Anglican Communion",
+                "Eastern Orthodox Church",
+                "Eastern Church",
+                "Orthodox Church",
+                "Orthodox Catholic Church",
+                "Greek Church",
+                "Eastern Orthodox communion",
+                "Church of the Seven Councils",
+                "Oriental Orthodox Churches",
+                "oriental orthodox churches",
+                "Oriental Orthodoxy",
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 589127,
+            "entity_id": "Q162691",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_137",
+            "question": "What is the religion of Loyalist?",
+            "possible_answers": [
+                "Anglicanism",
+                "Anglicanism, Anglican Church"
+            ],
+            "pageviews": 219797,
+            "entity_id": "Q935481",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_299",
+            "question": "What is the religion of Assumption of Mary?",
+            "possible_answers": [
+                "Anglican Communion",
+                "Eastern Orthodox Church",
+                "Eastern Church",
+                "Orthodox Church",
+                "Orthodox Catholic Church",
+                "Greek Church",
+                "Eastern Orthodox communion",
+                "Church of the Seven Councils",
+                "Oriental Orthodox Churches",
+                "oriental orthodox churches",
+                "Oriental Orthodoxy",
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 589127,
+            "entity_id": "Q162691",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_227",
+            "question": "What is the religion of Evo Morales?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 276613,
+            "entity_id": "Q42410",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_91",
+            "question": "What is the religion of Kingdom of Hanover?",
+            "possible_answers": [
+                "Lutheranism",
+                "Lutheran Church",
+                "Lutherans"
+            ],
+            "pageviews": 249513,
+            "entity_id": "Q164079",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_201",
+            "question": "What is the religion of Father Damien?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 210407,
+            "entity_id": "Q232785",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_68",
+            "question": "What is the religion of Sukarno?",
+            "possible_answers": [
+                "Islam",
+                "Islamic religion",
+                "Mohammedanism",
+                "Muslim religion",
+                "al-\u2019isl\u0101m",
+                "religion of the Muslims"
+            ],
+            "pageviews": 600949,
+            "entity_id": "Q76127",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_151",
+            "question": "What is the religion of Mahavira?",
+            "possible_answers": [
+                "Jainism",
+                "nirgrantha",
+                "Jain dharma",
+                "Jainatva",
+                "Jaina",
+                "Jain mata",
+                "Jaini",
+                "Jainy",
+                "jainas"
+            ],
+            "pageviews": 665045,
+            "entity_id": "Q9422",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_250",
+            "question": "What is the religion of Santa Clara University?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 182158,
+            "entity_id": "Q992830",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_334",
+            "question": "What is the religion of Kingdom of Jerusalem?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 669175,
+            "entity_id": "Q55502",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_120",
+            "question": "What is the religion of saint?",
+            "possible_answers": [
+                "Christianity",
+                "Christian faith"
+            ],
+            "pageviews": 515652,
+            "entity_id": "Q43115",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_54",
+            "question": "What is the religion of Matthias?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 126504,
+            "entity_id": "Q44020",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_268",
+            "question": "What is the religion of University of San Diego?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 144452,
+            "entity_id": "Q262663",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_104",
+            "question": "What is the religion of Frederick William IV of Prussia?",
+            "possible_answers": [
+                "Prussian Union of churches"
+            ],
+            "pageviews": 192511,
+            "entity_id": "Q57180",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_95",
+            "question": "What is the religion of Bede?",
+            "possible_answers": [
+                "Christianity",
+                "Christian faith"
+            ],
+            "pageviews": 337684,
+            "entity_id": "Q154938",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_136",
+            "question": "What is the religion of Bilal ibn Ribah?",
+            "possible_answers": [
+                "Islam",
+                "Islamic religion",
+                "Mohammedanism",
+                "Muslim religion",
+                "al-\u2019isl\u0101m",
+                "religion of the Muslims"
+            ],
+            "pageviews": 253031,
+            "entity_id": "Q493136",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_55",
+            "question": "What is the religion of Claus Schenk Graf von Stauffenberg?",
+            "possible_answers": [
+                "Catholic Church",
+                "Roman Catholic Church",
+                "Church",
+                "Roman Apostolic Catholic Church"
+            ],
+            "pageviews": 579595,
+            "entity_id": "Q21209",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_308",
+            "question": "What is the religion of Blaise Pascal?",
+            "possible_answers": [
+                "jansenism",
+                "jansenisme",
+                "jansenists"
+            ],
+            "pageviews": 631809,
+            "entity_id": "Q1290",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_157",
+            "question": "What is the religion of Kumail Nanjiani?",
+            "possible_answers": [
+                "atheism",
+                "unbelief"
+            ],
+            "pageviews": 923406,
+            "entity_id": "Q6443390",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_46",
+            "question": "What is the religion of Church of Norway?",
+            "possible_answers": [
+                "Lutheranism",
+                "Lutheran Church",
+                "Lutherans"
+            ],
+            "pageviews": 105223,
+            "entity_id": "Q666860",
+            "relation_type": "religion"
+        }
+    ],
+    "bucket5": [
+        {
+            "query_id": "Q_207",
+            "question": "What is the religion of Vladimir Putin?",
+            "possible_answers": [
+                "Russian Orthodox Church"
+            ],
+            "pageviews": 7801524,
+            "entity_id": "Q7747",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_12",
+            "question": "What is the religion of Bill Clinton?",
+            "possible_answers": [
+                "Baptists",
+                "Baptist church",
+                "Baptist"
+            ],
+            "pageviews": 5742946,
+            "entity_id": "Q1124",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_71",
+            "question": "What is the religion of Muhammad Ali?",
+            "possible_answers": [
+                "Nation of Islam",
+                "NOI",
+                "Sunni Islam",
+                "Sunni",
+                "Sunnite Muslims",
+                "Sunnite Muslim",
+                "Sufism",
+                "Sufi",
+                "Sufi (person)"
+            ],
+            "pageviews": 6349695,
+            "entity_id": "Q36107",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_18",
+            "question": "What is the religion of Rumi?",
+            "possible_answers": [
+                "Islam",
+                "Islamic religion",
+                "Mohammedanism",
+                "Muslim religion",
+                "al-\u2019isl\u0101m",
+                "religion of the Muslims"
+            ],
+            "pageviews": 1297538,
+            "entity_id": "Q43347",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_269",
+            "question": "What is the religion of Al\u012b ibn Ab\u012b \u1e6c\u0101lib?",
+            "possible_answers": [
+                "Islam",
+                "Islamic religion",
+                "Mohammedanism",
+                "Muslim religion",
+                "al-\u2019isl\u0101m",
+                "religion of the Muslims"
+            ],
+            "pageviews": 1816928,
+            "entity_id": "Q39619",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_278",
+            "question": "What is the religion of Rama?",
+            "possible_answers": [
+                "Hinduism",
+                "Hindu Dharma",
+                "Sanatan Dharma",
+                "Hindu religion",
+                "Hindoo dharam",
+                "\ud83d\uded5",
+                "\u0950",
+                "Jainism",
+                "nirgrantha",
+                "Jain dharma",
+                "Jainatva",
+                "Jaina",
+                "Jain mata",
+                "Jaini",
+                "Jainy",
+                "jainas"
+            ],
+            "pageviews": 2190385,
+            "entity_id": "Q160213",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_314",
+            "question": "What is the religion of Byzantine Empire?",
+            "possible_answers": [
+                "Eastern Orthodox Church",
+                "Eastern Church",
+                "Orthodox Church",
+                "Orthodox Catholic Church",
+                "Greek Church",
+                "Eastern Orthodox communion",
+                "Church of the Seven Councils"
+            ],
+            "pageviews": 2960345,
+            "entity_id": "Q12544",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_240",
+            "question": "What is the religion of Muhammad Ali?",
+            "possible_answers": [
+                "Nation of Islam",
+                "NOI",
+                "Sunni Islam",
+                "Sunni",
+                "Sunnite Muslims",
+                "Sunnite Muslim",
+                "Sufism",
+                "Sufi",
+                "Sufi (person)"
+            ],
+            "pageviews": 6349695,
+            "entity_id": "Q36107",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_301",
+            "question": "What is the religion of Aung San Suu Kyi?",
+            "possible_answers": [
+                "Buddhism",
+                "Buddha Dharma"
+            ],
+            "pageviews": 1549641,
+            "entity_id": "Q36740",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_97",
+            "question": "What is the religion of Bhimrao Ramji Ambedkar?",
+            "possible_answers": [
+                "Buddhism",
+                "Buddha Dharma"
+            ],
+            "pageviews": 4314360,
+            "entity_id": "Q231690",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_219",
+            "question": "What is the religion of James VI and I?",
+            "possible_answers": [
+                "Anglicanism",
+                "Anglicanism, Anglican Church",
+                "Church of Scotland",
+                "CoS",
+                "the Kirk"
+            ],
+            "pageviews": 2778732,
+            "entity_id": "Q79972",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_315",
+            "question": "What is the religion of Muhammad?",
+            "possible_answers": [
+                "Hanif",
+                "Islam",
+                "Islamic religion",
+                "Mohammedanism",
+                "Muslim religion",
+                "al-\u2019isl\u0101m",
+                "religion of the Muslims"
+            ],
+            "pageviews": 5526049,
+            "entity_id": "Q9458",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_93",
+            "question": "What is the religion of Paul?",
+            "possible_answers": [
+                "Christianity",
+                "Christian faith",
+                "Judaism",
+                "Jewish",
+                "Jewish religion"
+            ],
+            "pageviews": 1739304,
+            "entity_id": "Q9200",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_143",
+            "question": "What is the religion of Arabs?",
+            "possible_answers": [
+                "Islam",
+                "Islamic religion",
+                "Mohammedanism",
+                "Muslim religion",
+                "al-\u2019isl\u0101m",
+                "religion of the Muslims",
+                "Christianity",
+                "Christian faith"
+            ],
+            "pageviews": 1331738,
+            "entity_id": "Q35323",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_191",
+            "question": "What is the religion of Marilyn Monroe?",
+            "possible_answers": [
+                "Judaism",
+                "Jewish",
+                "Jewish religion"
+            ],
+            "pageviews": 6494194,
+            "entity_id": "Q4616",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_20",
+            "question": "What is the religion of Saint Patrick?",
+            "possible_answers": [
+                "Celtic Christianity",
+                "Celtic Church",
+                "Insular Christianity",
+                "Christianity",
+                "Christian faith"
+            ],
+            "pageviews": 1424494,
+            "entity_id": "Q165479",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_165",
+            "question": "What is the religion of Anne of Great Britain?",
+            "possible_answers": [
+                "Anglicanism",
+                "Anglicanism, Anglican Church"
+            ],
+            "pageviews": 2363174,
+            "entity_id": "Q119702",
+            "relation_type": "religion"
+        },
+        {
+            "query_id": "Q_203",
+            "question": "What is the religion of George VI?",
+            "possible_answers": [
+                "Anglicanism",
+                "Anglicanism, Anglican Church"
+            ],
+            "pageviews": 5477987,
+            "entity_id": "Q280856",
+            "relation_type": "religion"
+        }
+    ]
+}
