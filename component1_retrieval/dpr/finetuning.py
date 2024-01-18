@@ -42,7 +42,9 @@ def main(args):
         epochs=args.epochs,
         output_path=model_save_path,
         warmup_steps=0,
-        use_amp=True
+        optimizer_params={'lr': 2e-4, 'eps': 1e-6, 'correct_bias': False},
+        evaluation_steps=50,
+        # use_amp=True
     )
 
 if __name__ == "__main__":

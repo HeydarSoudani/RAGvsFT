@@ -4,8 +4,8 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=1:10:00
-#SBATCH --output=script_logging/slurm_output_%A.out
+#SBATCH --time=0:30:00
+#SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
 module load 2022
@@ -19,8 +19,8 @@ pip install -r $HOME/RAGvsFT/component1_retrieval/requirements.txt
 srun $HOME/RAGvsFT/component1_retrieval/dpr/finetuning.py \
     --model "msmarco-distilbert-base-v3" \
     --output_dir "$HOME/RAGvsFT/component1_retrieval/dpr/models" \
-    --output_filename "ft_dpr_5e_v2" \
-    --epochs 5 
+    --output_filename "ft_dpr_10e_v2" \
+    --epochs 10
 
 # Zero-shot: msmarco-distilbert-base-v3
 # After FT: component1_retrieval/dpr/models/msmarco-distilbert-base-v3-GenQ-popqa-e3
