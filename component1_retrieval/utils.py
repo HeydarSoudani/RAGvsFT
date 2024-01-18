@@ -2,7 +2,8 @@ import os, csv, json
 import logging
 
 def preprocessing_qrels(qid_list):
-    input_qrels = "component0_preprocessing/generated_data/popQA_costomized/qrels.jsonl"
+    # input_qrels = "component0_preprocessing/generated_data/popQA_costomized/qrels.jsonl"
+    input_qrels = "component0_preprocessing/generated_data/popQA_religion/qrels_30ds_512tk.jsonl"
     
     with open(input_qrels, 'r') as in_qrels: 
         qrels = {}
@@ -39,25 +40,30 @@ def save_qrels_file(results, args):
                 })
 
 def save_evaluation_files(retriever, results, args):
-    queries_bk_path = "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
+    # queries_bk_path = "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
+    # with open(queries_bk_path, 'r') as in_queries:
+    #     query_data = json.load(in_queries)
+    
+    queries_bk_path = "component0_preprocessing/generated_data/popQA_religion/queries_30ds_bk.json"
+    with open(queries_bk_path, 'r') as in_queries:
+        query_data = {"religion": json.load(in_queries)}
+    
     if not os.path.exists(args.output_results_dir):
         os.makedirs(args.output_results_dir)
     resutls_wbk_path = os.path.join(args.output_results_dir, 'wbk_'+args.output_results_filename)
     resutls_wobk_path = os.path.join(args.output_results_dir, 'wobk_'+args.output_results_filename)
     
-    with open(queries_bk_path, 'r') as in_queries:
-        query_data = json.load(in_queries)
     
-    
+     
     # Without bucketting
     with open(resutls_wobk_path, 'w', newline='') as file:
         tsv_writer = csv.writer(file, delimiter='\t')
         tsv_writer.writerow([
             "Title",
-            "NDCG@1", "NDCG@5", "NDCG@10", "NDCG@100",
-            "MAP@1", "MAP@5", "MAP@10", "MAP@100",
-            "Recall@1", "Recall@5", "Recall@10", "Recall@100",
-            "P@1", "P@5", "P@10", "P@100",
+            "NDCG@1", "NDCG@3", "NDCG@5",
+            "MAP@1", "MAP@3", "MAP@5",
+            "Recall@1", "Recall@3", "Recall@5",
+            "P@1", "P@3", "P@5",
         ])
         
         for relation_name, relation_data in query_data.items():    
@@ -65,9 +71,9 @@ def save_evaluation_files(retriever, results, args):
             for bk_name, bk_data in relation_data.items():
                 rel_data.extend(bk_data)
             
-            qid_list = [q_sample["entity_id"] for q_sample in rel_data]
+            qid_list = [q_sample["query_id"] for q_sample in rel_data]
             qrels = preprocessing_qrels(qid_list)
-            ndcg, _map, recall, precision = retriever.evaluate(qrels, results, [1, 5, 10, 100]) #retriever.k_values
+            ndcg, _map, recall, precision = retriever.evaluate(qrels, results, [1, 3, 5]) #retriever.k_values
             logging.info(ndcg)
             logging.info(_map)
             logging.info(recall)
@@ -85,16 +91,15 @@ def save_evaluation_files(retriever, results, args):
                 +list(precision.values())
             tsv_writer.writerow(eval_res)
         
-    
     # With bucketing
     with open(resutls_wbk_path, 'w', newline='') as file:
         tsv_writer = csv.writer(file, delimiter='\t')
         tsv_writer.writerow([
             "Title",
-            "NDCG@1", "NDCG@5", "NDCG@10", "NDCG@100",
-            "MAP@1", "MAP@5", "MAP@10", "MAP@100",
-            "Recall@1", "Recall@5", "Recall@10", "Recall@100",
-            "P@1", "P@5", "P@10", "P@100",
+            "NDCG@1", "NDCG@3", "NDCG@5",
+            "MAP@1", "MAP@3", "MAP@5",
+            "Recall@1", "Recall@3", "Recall@5",
+            "P@1", "P@3", "P@5",
         ])
         
         for relation_name, relation_data in query_data.items():
@@ -106,10 +111,10 @@ def save_evaluation_files(retriever, results, args):
                     eval_res = [relation_name+'_'+bk_name] + [0]*16
 
                 else:
-                    qid_list = [q_sample["entity_id"] for q_sample in bk_data]
+                    qid_list = [q_sample["query_id"] for q_sample in bk_data]
                     qrels = preprocessing_qrels(qid_list)
                     
-                    ndcg, _map, recall, precision = retriever.evaluate(qrels, results, [1, 5, 10, 100]) #retriever.k_values
+                    ndcg, _map, recall, precision = retriever.evaluate(qrels, results, [1, 3, 5]) #retriever.k_values
 
                     logging.info(ndcg)
                     logging.info(_map)
@@ -127,5 +132,3 @@ def save_evaluation_files(retriever, results, args):
                         +list(recall.values())\
                         +list(precision.values())
                 tsv_writer.writerow(eval_res)
-    
-    pass

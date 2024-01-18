@@ -49,7 +49,8 @@ def main(args):
     # results = retriever.retrieve(corpus, queries)
     
     # === First stage from Google Colab =============
-    bm25_results_path = 'component1_retrieval/rerank/data/bm25_results_rerank.json'
+    # bm25_results_path = 'component1_retrieval/rerank/data/bm25_results_rerank.json'
+    bm25_results_path = 'component1_retrieval/results/religion/bm25_results_rerank.json'
     with open(bm25_results_path, 'r') as f:
         results = json.load(f)
     

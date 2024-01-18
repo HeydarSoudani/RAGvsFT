@@ -17,7 +17,7 @@ logging.basicConfig(format='%(asctime)s - %(message)s',
 def main(args):
     prefix = "gen"
     
-    data_path = "component1_retrieval/popqa_data"
+    data_path = "component1_retrieval/data/popqa_religion"
     corpus, gen_queries, gen_qrels = GenericDataLoader(data_path, prefix=prefix).load(split="train")
 
     model = SentenceTransformer(args.model)
@@ -34,22 +34,24 @@ def main(args):
     model_save_path = os.path.join(args.output_dir, args.output_filename)
     os.makedirs(model_save_path, exist_ok=True)
     
-    warmup_steps = int(len(train_samples) * args.epochs / retriever.batch_size * 0.1)
+    # warmup_steps = int(len(train_samples) * args.epochs / retriever.batch_size * 0.1)
 
-    retriever.fit(train_objectives=[(train_dataloader, train_loss)], 
-                    evaluator=ir_evaluator, 
-                    epochs=args.epochs,
-                    output_path=model_save_path,
-                    warmup_steps=warmup_steps,
-                    evaluation_steps=args.evaluation_steps,
-                    use_amp=True)
+    retriever.fit(
+        train_objectives=[(train_dataloader, train_loss)], 
+        evaluator=ir_evaluator, 
+        epochs=args.epochs,
+        output_path=model_save_path,
+        warmup_steps=0,
+        use_amp=True
+    )
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-m", "--model", required=True)
-    parser.add_argument("--output_path", type=str)
+    parser.add_argument("--output_dir", type=str)
+    parser.add_argument("--output_filename", type=str)
     parser.add_argument("--epochs", default=1, type=int)
-    parser.add_argument("--evaluation_steps", default=5000, type=int)
+    # parser.add_argument("--evaluation_steps", default=5000, type=int)
     args = parser.parse_args()
     
     main(args)

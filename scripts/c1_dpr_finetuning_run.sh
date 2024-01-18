@@ -19,9 +19,8 @@ pip install -r $HOME/RAGvsFT/component1_retrieval/requirements.txt
 srun $HOME/RAGvsFT/component1_retrieval/dpr/finetuning.py \
     --model "msmarco-distilbert-base-v3" \
     --output_dir "$HOME/RAGvsFT/component1_retrieval/dpr/models" \
-    --output_filename "ft_dpr_5e" \
-    --epochs 1 \
-    --evaluation_steps 5000 \
+    --output_filename "ft_dpr_5e_v2" \
+    --epochs 5 
 
 # Zero-shot: msmarco-distilbert-base-v3
 # After FT: component1_retrieval/dpr/models/msmarco-distilbert-base-v3-GenQ-popqa-e3

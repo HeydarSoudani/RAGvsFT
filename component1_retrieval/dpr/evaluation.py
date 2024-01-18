@@ -40,12 +40,16 @@ def main(args):
     #     " [SEP] "), batch_size=128), device=device)
     retriever = EvaluateRetrieval(model, score_function="dot")
     
-    dataloader = CostomizedGenericDataLoader(data_folder=args.data_path)
+    dataloader = CostomizedGenericDataLoader(data_folder = args.data_path)
     corpus, queries = dataloader.load_corpus_queries()
     results = retriever.retrieve(corpus, queries)
     
+    if not os.path.exists(args.output_results_dir):
+        os.makedirs(args.output_results_dir)
+    
     save_qrels_file(results, args)
     save_evaluation_files(retriever, results, args)
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

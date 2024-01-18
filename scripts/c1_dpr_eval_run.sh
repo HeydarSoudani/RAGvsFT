@@ -16,12 +16,12 @@ module load Python/3.10.4-GCCcore-11.3.0
 #Execute a Python program located in $HOME, that takes an input file and output directory as arguments.
 pip install -r $HOME/RAGvsFT/component1_retrieval/requirements.txt
 
-srun $HOME/RAGvsFT/component1_retrieval/contriever/evaluation.py \
+srun $HOME/RAGvsFT/component1_retrieval/dpr/evaluation.py \
     --model "msmarco-distilbert-base-v3" \
-    --data_path "$HOME/RAGvsFT/component1_retrieval/data/popqa" \
-    --output_results_dir "$HOME/RAGvsFT/component1_retrieval/results" \
-    --output_results_filename "ft_dpr_eval.tsv" \
-    --results_save_file "dpr_ft-qrels.tsv"
+    --data_path "$HOME/RAGvsFT/component1_retrieval/data/popqa_religion" \
+    --output_results_dir "$HOME/RAGvsFT/component1_retrieval/results/religion" \
+    --output_results_filename "dpr_zs_eval.tsv" \
+    --results_save_file "dpr_zs-qrels.tsv"
 
 # Zero-shot: msmarco-distilbert-base-v3
 # After FT: component1_retrieval/dpr/models/ft_dpr_5e

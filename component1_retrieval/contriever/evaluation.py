@@ -6,9 +6,9 @@ import argparse
 import logging
 from beir import LoggingHandler
 
-# print(os.getcwd())
-# import sys
-# sys.path.append(os.getcwd())
+print(os.getcwd())
+import sys
+sys.path.append(os.getcwd())
 
 from src.contriever_m import load_retriever
 from src.utils_eval import evaluate_model
