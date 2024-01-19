@@ -16,14 +16,15 @@ module load Python/3.10.4-GCCcore-11.3.0
 #Execute a Python program located in $HOME, that takes an input file and output directory as arguments.
 pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 
-srun $HOME/RAGvsFT/component4_CBQA/qa_based_trainer.py \
-    --model_name_or_path "facebook/opt-125m" \
-    --data_path "$HOME/RAGvsFT/component3_QAGeneration/generated_data/qag_results.jsonl" \
-    --model_output_dir "$HOME/RAGvsFT/component4_CBQA/models" \
-    --model_output_filename "qa_opt350m_2e" \
-    --epochs 2 \
-    --batch_size 2 \
-    --with_peft
+srun $HOME/RAGvsFT/component4_CBQA/qa_qlora_finetuning.py \
+    --model_name_or_path "facebook/opt-1.3b" \
+    --train_data_path "$HOME/RAGvsFT/component3_QAGeneration/generated_data/qag_results.jsonl" \
+    --test_data_path "" \
+    --output_dir "" \
+    --epochs 30 \
+    --lr 2e-4 \
+    --version 1
+
 
 # "facebook/opt-125m"
 # "facebook/opt-350m"

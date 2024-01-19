@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=03:00:00
+#SBATCH --time=01:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -20,7 +20,7 @@ srun $HOME/RAGvsFT/component2_ICL_OBQA/icl_buckets_input.py \
     --input_file $HOME/RAGvsFT/data/dataset/popQA/popQA.tsv \
     --output_resutls_dir $HOME/RAGvsFT/component2_ICL_OBQA/results/religion \
     --eval_method "vanilla" \
-    --output_resutls_filename 'opt1-3_vanilla_bk.tsv'
+    --output_resutls_filename 'opt1-3b_vanilla_bk.tsv'
 
 # --ret_path $HOME/RAGvsFT/component2_ICL_OBQA/data/popqa/rerank_results.jsonl \
 # "facebook/opt-1.3b"
