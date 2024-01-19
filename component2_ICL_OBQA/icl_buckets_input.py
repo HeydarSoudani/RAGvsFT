@@ -179,7 +179,7 @@ def main():
     ## === original method
     input_path = args.input_file
     knowledge = pd.read_csv(input_path, sep="\t")
-
+    
     # if args.continue_from is not None:
     #     results = pd.read_csv(args.continue_from, sep="\t")
     #     knowledge = knowledge[~knowledge.id.isin(results.id)]
@@ -188,13 +188,13 @@ def main():
     
     # input_path = args.input_file # json format
     # "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
-    # queries_bk_path = "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
-    # with open(queries_bk_path, 'r') as in_queries:
-    #     query_data = json.load(in_queries)
-    
-    queries_bk_path = "component0_preprocessing/generated_data/popQA_religion/queries_30ds_bk.json"
+    queries_bk_path = "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
     with open(queries_bk_path, 'r') as in_queries:
-        query_data = {"religion": json.load(in_queries)}
+        query_data = json.load(in_queries)
+    
+    # queries_bk_path = "component0_preprocessing/generated_data/popQA_religion/queries_30ds_bk.json"
+    # with open(queries_bk_path, 'r') as in_queries:
+    #     query_data = {"religion": json.load(in_queries)}
     
     if not os.path.exists(args.output_resutls_dir):
         os.makedirs(args.output_resutls_dir)
@@ -238,7 +238,7 @@ def main():
 
                 # main loop
                 for row in tqdm(sample.iloc, total=n):
-
+                    
                     # get few shot examples text
                     if n_examples == 0:
                         few_shot_examples_text = ""
@@ -256,12 +256,8 @@ def main():
                         else:
                             if is_templatedQA:
                                 other_pids = list(q_templates.keys())
-                                # print(row)
-                                # print(row.prop_id)
                                 other_pids.remove(row.prop_id)
                                 for pid in other_pids:
-                                    # print(pid)
-                                    # print(knowledge[knowledge.prop_id == pid])
                                     for row2 in knowledge[knowledge.prop_id == pid].sample(n=examples_per_template).iloc:
                                         few_shot_examples.append(get_few_shot_text_with_retrieval(row2, retrieval_dict, args.eval_method) if args.eval_method in ["BM25", "contriever"] else get_few_shot_text(row2, args.eval_method))
                             else:
