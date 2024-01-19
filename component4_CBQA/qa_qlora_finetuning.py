@@ -93,7 +93,6 @@ def train(args):
     max_train_samples = None
     max_eval_samples = None
     max_test_samples = None
-    block_size = tokenizer.model_max_length
     
     with open(args.train_data_path, 'r') as input_file:
         corpus_data = [
@@ -123,7 +122,7 @@ def train(args):
     text_column_name = "qa" if "qa" in column_names else column_names[0]
     
     def qa_tokenize_function(examples):
-        num_shots = 2
+        num_shots = 1
         input_max_length = 128
         output_max_length = 4
 
@@ -272,7 +271,7 @@ def test(args):
     # tokenizer.pad_token_id = tokenizer.eos_token_id
     
     ### === Loading data and Defining params ===
-    num_shots = 15
+    num_shots = 2
     model_max_length=2048
     max_new_tokens = 15
     max_inpt_tokens = tokenizer.model_max_length if model_max_length is None else model_max_length
@@ -331,8 +330,8 @@ def main(args):
     args.repo_name = "HeydarS/{}_qlora_v{}".format(args.model_name_or_path.split('/')[-1], args.version)
     print(args.repo_name)
     
-    # train(args)
-    test(args)
+    train(args)
+    # test(args)
 
 
 if __name__ == "__main__":
