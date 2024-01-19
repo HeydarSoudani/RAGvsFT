@@ -12,6 +12,8 @@ from tqdm import tqdm
 import json, csv
 import argparse
 import logging
+from peft import PeftModel, LoraConfig, get_peft_model
+
 sns.set_theme()
 
 seed = 633
@@ -152,6 +154,9 @@ def main():
     parser.add_argument('--continue_from', type=str, help="path to previous results file")
     parser.add_argument('--int8bit', action="store_true")
     parser.add_argument('--parallel', type=str, help="string of format 'i.n_workers' where i is the index of the worker")
+    parser.add_argument('--test_queries_file', type=str)
+    parser.add_argument('--loading_peft', action="store_true")
+    
     args = parser.parse_args()
         
     use_gpt3 = args.model_name in {"text-davinci-003", "text-davinci-002", "text-curie-001", "text-babbage-001", "text-ada-001"}
@@ -161,19 +166,40 @@ def main():
         tokenizer = AutoTokenizer.from_pretrained("gpt2")
         generate = lambda prompt, max_new_tokens: call_request(prompt, args.model_name, tokenizer, max_new_tokens=max_new_tokens)
     else:
-        gpt = args.model_name
-        device = args.device
-        tokenizer = AutoTokenizer.from_pretrained(gpt)
-        tokenizer.pad_token = tokenizer.eos_token
-        tokenizer.pad_token_id = tokenizer.eos_token_id
-        if args.int8bit:
-            model =  convert_model_to_int8_on_gpu(AutoModelForCausalLM.from_pretrained(gpt), device)
-        else:
-            model = AutoModelForCausalLM.from_pretrained(gpt).eval().to(device)
+        device = args.device    
+        
+        # Loading model with peft
+        if args.loading_peft:
+            lora_config = LoraConfig.from_pretrained(args.model_name)
+            model = AutoModelForCausalLM.from_pretrained(
+                lora_config.base_model_name_or_path,
+                device_map={"": 0},
+            )
+            model = get_peft_model(model, lora_config)
+            model = PeftModel.from_pretrained(model, args.model_name)
+            model.eval()
+            model.to(device)
+            
+            tokenizer = AutoTokenizer.from_pretrained(lora_config.base_model_name_or_path)
+            tokenizer.pad_token = tokenizer.eos_token
+            tokenizer.pad_token_id = tokenizer.eos_token_id
+        
+        # Original setting
+        else:        
+            gpt = args.model_name
+            tokenizer = AutoTokenizer.from_pretrained(gpt)
+            tokenizer.pad_token = tokenizer.eos_token
+            tokenizer.pad_token_id = tokenizer.eos_token_id
+            if args.int8bit:
+                model =  convert_model_to_int8_on_gpu(AutoModelForCausalLM.from_pretrained(gpt), device)
+            else:
+                model = AutoModelForCausalLM.from_pretrained(gpt).eval().to(device)
+            
         if "opt" in args.model_name or args.model_name == "EleutherAI/gpt-neox-20b":
             generate = lambda prompt, max_new_tokens: call_model(prompt, model=model, tokenizer=tokenizer, device=device, max_new_tokens=max_new_tokens, model_max_length=2048)
         else:
             generate = lambda prompt, max_new_tokens: call_model(prompt, model=model, tokenizer=tokenizer, device=device, max_new_tokens=max_new_tokens)
+    
     
     ## === original method
     knowledge = pd.read_csv(args.knowledge_input_file, sep="\t")
@@ -293,3 +319,6 @@ def main():
         sample["gen_passage"] = gen_passages
 
     print("Acc.: {}".format(sample.is_correct.mean()))
+
+if __name__ == "__main__":
+    main()

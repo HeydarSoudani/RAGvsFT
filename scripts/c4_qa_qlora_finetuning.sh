@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=2:00:00
+#SBATCH --time=1:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -18,11 +18,10 @@ pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 
 srun $HOME/RAGvsFT/component4_CBQA/qa_qlora_finetuning.py \
     --model_name_or_path "facebook/opt-1.3b" \
-    --train_data_path "$HOME/RAGvsFT/component3_QAGeneration/generated_data/qag_results.jsonl" \
-    --test_data_path "" \
-    --output_dir "" \
-    --epochs 30 \
-    --lr 2e-4 \
+    --train_data_path $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_sm/filtered_qag_synthetic.jsonl \
+    --test_data_path $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_sm/queries.jsonl \
+    --output_dir "$HOME/RAGvsFT/component4_CBQA/models" \
+    --epochs 50 \
     --version 1
 
 
