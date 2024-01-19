@@ -94,6 +94,7 @@ def call_model(prompt, model, tokenizer, device, max_new_tokens=15, model_max_le
     if pred.startswith("\n\n"):
         pred = pred[2:]
     pred = pred.split("\n")[0]
+    print("Pred:{}".format(pred))
     return pred, text
 
 def clip_paragraph(text, eval_method):
@@ -170,6 +171,7 @@ def main():
         
         # Loading model with peft
         if args.loading_peft:
+            print('aa')
             lora_config = LoraConfig.from_pretrained(args.model_name)
             model = AutoModelForCausalLM.from_pretrained(
                 lora_config.base_model_name_or_path,
