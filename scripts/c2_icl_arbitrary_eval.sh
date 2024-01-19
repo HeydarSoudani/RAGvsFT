@@ -14,9 +14,10 @@ module load Python/3.10.4-GCCcore-11.3.0
 # srun python -uc "import torch; print('GPU available?', torch.cuda.is_available())"
 # Execute a Python program located in $HOME, that takes an input file and output directory as arguments.
 pip install -r $HOME/RAGvsFT/component2_ICL_OBQA/requirements.txt
+pip install -q git+https://github.com/huggingface/peft.git
 
 srun $HOME/RAGvsFT/component2_ICL_OBQA/icl_arbitrary_input.py \
-    --model_name "HeydarS/opt-1.3b_qlora_v1" \
+    --model_name "HeydarS/opt-1.3b_qlora_v2" \
     --knowledge_input_file $HOME/RAGvsFT/data/dataset/popQA/popQA.tsv \
     --test_queries_file $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_sm/queries.jsonl \
     --eval_method "vanilla"\

@@ -309,6 +309,9 @@ def main():
         if args.eval_method == "genread":
             has_answer.append(genread_has_answer)
 
+        print("Pred:{}, Labels: {}".format(pred, possible_answers))
+        
+        
     sample["is_correct"] = accuracy
     sample["prompt"] = prompts
     sample["pred"] = preds

@@ -13,6 +13,7 @@ from datasets import Dataset, DatasetDict
 import evaluate
 from sklearn.model_selection import train_test_split
 from huggingface_hub import HfFolder, HfApi
+import pandas as pd
 
 
 os.environ["WANDB_MODE"] = "offline"
@@ -67,7 +68,7 @@ def train(args):
     
     ### === Introducing PEFT to the model ==== 
     peft_config = LoraConfig(
-        r=4,
+        r=8,
         lora_alpha=32,
         lora_dropout=0.05,
         bias="none",
@@ -200,16 +201,19 @@ def train(args):
         num_train_epochs=args.epochs,
         evaluation_strategy="epoch",
         logging_strategy="epoch",
-        learning_rate=2e-4,
+        learning_rate=2e-3,
         max_grad_norm=0.3,
         warmup_ratio=0,
         lr_scheduler_type="linear",
         report_to=[],
-        # save_total_limit=4,
+        
+        save_strategy="epoch",
+        save_total_limit=2,
         # save_steps=1,
         # logging_steps=1,
         # fp16=True,
         # max_steps=200,
+        # load_best_model_at_end=False,
     )
     data_collator = transformers.DataCollatorForLanguageModeling(tokenizer, mlm=False)
     trainer = Trainer(
@@ -233,6 +237,9 @@ def test(args):
     device = 'cuda:0'
     
     ### === Loading model & tokenizer (After FT) =====
+    args.repo_name = "component4_CBQA/models/opt-1.3b_qlora_v2/checkpoint-500"
+    # args.repo_name = "component4_CBQA/models/opt-1.3b_qlora_v2/checkpoint-1500"
+    
     lora_config = LoraConfig.from_pretrained(args.repo_name)
     model = AutoModelForCausalLM.from_pretrained(
         lora_config.base_model_name_or_path,
@@ -274,11 +281,16 @@ def test(args):
         data = [json.loads(line) for line in file]
     
     ### === Test loop ==========================
+    knowledge = pd.read_csv(args.knowledge_input_file, sep="\t")
+    
+    
     accuracy = []
     for i, current_query in enumerate(data):
-    #     if i == 1:
-    #         break
-        selection_pool = [q for j, q in enumerate(data) if j != i]
+
+        selection_pool = [row for j, row in enumerate(knowledge) if row["prop_id"] != 106]
+        
+        
+        # selection_pool = [q for j, q in enumerate(data) if j != i]
         selected_pairs = random.sample(selection_pool, num_shots)
 
         prompt = "\n".join([f"Q: {pair['question']} A: {pair['possible_answers'][0]}" for pair in selected_pairs])
@@ -301,9 +313,12 @@ def test(args):
         actual_prompt = tokenizer.decode(inpts.input_ids[0, -(max_inpt_tokens - max_new_tokens):])
 
         pred = text[len(actual_prompt):]
-        pred = pred[1:]
+        # pred = pred[1:]
+        # pred = pred.split("\n")[0]
+        # pred = pred.split(",")[0]
+        if pred.startswith("\n\n"):
+            pred = pred[2:]
         pred = pred.split("\n")[0]
-        pred = pred.split(",")[0]
 
         print("Pred:{}, Labels: {}".format(pred, current_query['possible_answers']))
         is_correct = accuracy_by_exact_match(pred, current_query['possible_answers'])

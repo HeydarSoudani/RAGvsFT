@@ -18,11 +18,11 @@ pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 
 srun $HOME/RAGvsFT/component4_CBQA/qa_qlora_finetuning.py \
     --model_name_or_path "facebook/opt-1.3b" \
-    --train_data_path $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_sm/filtered_qag_synthetic.jsonl \
+    --train_data_path $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_sm/qag_synthetic.jsonl \
     --test_data_path $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_sm/queries.jsonl \
     --output_dir "$HOME/RAGvsFT/component4_CBQA/models" \
-    --epochs 50 \
-    --version 1
+    --epochs 30 \
+    --version 3
 
 
 # "facebook/opt-125m"
