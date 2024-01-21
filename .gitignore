@@ -125,6 +125,7 @@ data/dataset/popQA/bm25_results.jsonl
 data/dataset/popQA/contriever_results.jsonl
 
 component0_preprocessing/generated_data/EntityQuestions_costomized
+component0_preprocessing/generated_data/popQA_EQformat
 component0_preprocessing/generated_data/popQA_costomized/el_popularity.json
 component1_retrieval/results
 component1_retrieval/dpr/models
