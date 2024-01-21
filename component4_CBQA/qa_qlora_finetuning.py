@@ -46,8 +46,6 @@ def accuracy_by_exact_match(pred, possible_answers):
 
 
 def train(args):
-    device = 'cuda:0'
-    repo_name = "HeydarS/{}-qlora".format(args.model_name_or_path.split('/')[-1])
 
     ### === Defining model ====================
     bnb_config = BitsAndBytesConfig(
@@ -64,7 +62,6 @@ def train(args):
     )
     model.gradient_checkpointing_enable()
     model = prepare_model_for_kbit_training(model)
-    
     
     ### === Introducing PEFT to the model ==== 
     peft_config = LoraConfig(
@@ -194,7 +191,7 @@ def train(args):
     
     training_arguments = TrainingArguments(
         output_dir=output_dir,
-        per_device_train_batch_size=16,
+        per_device_train_batch_size=1,
         gradient_accumulation_steps=1,
         optim="paged_adamw_8bit",
         num_train_epochs=args.epochs,
@@ -206,7 +203,7 @@ def train(args):
         lr_scheduler_type="linear",
         report_to=[],
         
-        save_strategy="epoch",
+        # save_strategy="epoch",
         save_total_limit=2,
         # save_steps=1,
         # logging_steps=1,
@@ -228,7 +225,7 @@ def train(args):
     )
     
     trainer.train()
-    # model.save_pretrained(model_save_path)
+    model.save_pretrained(output_dir)
     model.push_to_hub(args.repo_name, token=True)
     
 
@@ -280,8 +277,8 @@ def test(args):
         data = [json.loads(line) for line in file]
     
     ### === Test loop ==========================
-    knowledge = pd.read_csv(args.knowledge_input_file, sep="\t")
-    
+    knowledge_input_file = "data/dataset/popQA/popQA.tsv"
+    knowledge = pd.read_csv(knowledge_input_file, sep="\t")
     
     accuracy = []
     for i, current_query in enumerate(data):

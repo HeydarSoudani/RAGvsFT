@@ -17,7 +17,7 @@ pip install -r $HOME/RAGvsFT/component2_ICL_OBQA/requirements.txt
 pip install -q git+https://github.com/huggingface/peft.git
 
 srun $HOME/RAGvsFT/component2_ICL_OBQA/icl_arbitrary_input.py \
-    --model_name "HeydarS/opt-1.3b_qlora_v2" \
+    --model_name $HOME/RAGvsFT/component4_CBQA/models/opt-1.3b_qlora_v1/checkpoint-19500 \
     --knowledge_input_file $HOME/RAGvsFT/data/dataset/popQA/popQA.tsv \
     --test_queries_file $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_sm/queries.jsonl \
     --eval_method "vanilla"\
