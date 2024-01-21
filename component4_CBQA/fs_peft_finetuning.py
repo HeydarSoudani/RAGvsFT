@@ -23,10 +23,25 @@ import torch
 os.environ["WANDB_MODE"] = "offline"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
+def set_seed(seed):
+    """Set the seed for reproducibility in PyTorch, NumPy, and Python."""
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)  # For multi-GPU.
+    np.random.seed(seed)
+    random.seed(seed)
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
+
+# Set a specific seed for reproducibility
+# set_seed(42)
+
+
 def main(args):
     device = 'cuda:0'
     completion_template = "Q: {} A:"
-    model_name_or_path = "facebook/opt-125m"
+    # model_name_or_path = "facebook/opt-350m"
     
     ### === Defining model ====================
     bnb_config = BitsAndBytesConfig(
@@ -36,7 +51,7 @@ def main(args):
         bnb_4bit_use_double_quant=True
     )
     model = AutoModelForCausalLM.from_pretrained(
-        model_name_or_path,
+        args.model_name_or_path,
         device_map={"": 0},
         quantization_config=bnb_config,
         # trust_remote_code=True
@@ -77,7 +92,7 @@ def main(args):
 
     ### === Defining tokenizer ===============
     tokenizer = AutoTokenizer.from_pretrained(
-        model_name_or_path,
+        args.model_name_or_path,
         trust_remote_code=True
     )
     tokenizer.pad_token = tokenizer.eos_token
@@ -88,17 +103,15 @@ def main(args):
         with open(file_path, 'r', encoding='utf-8') as file:
             return json.load(file)
 
-    # Download and unzip the dataset
-    url = "https://nlp.cs.princeton.edu/projects/entity-questions/dataset.zip"
-    response = requests.get(url)
-    zip_file = ZipFile(BytesIO(response.content))
-    zip_file.extractall("entity_questions_dataset")
-    zip_file.close()
-
-    # List available relation IDs in each subfolder
-    data_dir = "entity_questions_dataset/dataset"
+    data_dir = "./entity_questions_dataset/dataset"
+    if os.path.isdir(data_dir):    
+        url = "https://nlp.cs.princeton.edu/projects/entity-questions/dataset.zip"
+        response = requests.get(url)
+        zip_file = ZipFile(BytesIO(response.content))
+        zip_file.extractall("entity_questions_dataset")
+        zip_file.close()
+    
     subfolders = ['train', 'dev', 'test']
-        
     relation_files = {}
     for subfolder in subfolders:
         subfolder_path = os.path.join(data_dir, subfolder)
@@ -154,7 +167,7 @@ def main(args):
     test_data = load_data(selected_files['test'])
 
     # Select a subset of the training data randomly (e.g., 10%)
-    subset_percentage = 0.05
+    subset_percentage = 0.3
 
     train_subset_size = int(subset_percentage * len(train_data))
     subset_train_data = random.sample(train_data, train_subset_size)
@@ -277,10 +290,8 @@ def main(args):
         return metric.compute(predictions=preds, references=labels)
     
     # === Training process ==============
-    epochs = 5
-    version = 1
     model_dir = "./models"
-    repo_name = "HeydarS/{}_eq_qlora_v{}".format(model_name_or_path.split('/')[-1], version)
+    repo_name = "HeydarS/{}_eq_qlora_v{}".format(args.model_name_or_path.split('/')[-1], args.version)
     output_dir = os.path.join(model_dir, repo_name.split('/')[-1])
 
     training_arguments = TrainingArguments(
@@ -288,7 +299,7 @@ def main(args):
         per_device_train_batch_size=1,
         gradient_accumulation_steps=1,
         optim="paged_adamw_8bit",
-        num_train_epochs=epochs,
+        num_train_epochs=args.epochs,
         evaluation_strategy="epoch",
         logging_strategy="epoch",
         learning_rate=2e-3,
@@ -319,7 +330,7 @@ def main(args):
         preprocess_logits_for_metrics=preprocess_logits_for_metrics
     )
     
-    trainer.train()
+    # trainer.train()
     # model.save_pretrained(model_save_path)
     # model.push_to_hub(repo_name, token=True)
     
@@ -362,12 +373,11 @@ def main(args):
             if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
                 is_correct = True
         accuracy.append(is_correct)
-        print('\n\n')
 
     acc = sum(accuracy) / len(accuracy)
     print(f"Accuracy: {acc * 100:.2f}%")
     
-    
+    print('\n\n')
     print("Fine-tuning ....")
     trainer.train()
     

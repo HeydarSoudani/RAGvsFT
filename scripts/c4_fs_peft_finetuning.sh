@@ -17,9 +17,9 @@ module load Python/3.10.4-GCCcore-11.3.0
 pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 
 srun $HOME/RAGvsFT/component4_CBQA/fs_peft_finetuning.py \
-    --model_name_or_path "facebook/opt-1.3b" \
+    --model_name_or_path "facebook/opt-350m" \
     --epochs 5 \
-    --version 3
+    --version 2
 
 
 # "facebook/opt-125m"
