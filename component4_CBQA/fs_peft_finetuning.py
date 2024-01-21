@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import random
 import requests
 from io import BytesIO
@@ -15,7 +17,6 @@ from huggingface_hub import HfFolder, HfApi
 
 import numpy as np
 import torch
-from torch.utils.data import Dataset, DataLoader
 
 
 
@@ -375,7 +376,7 @@ def main(args):
     # def inference(model, tokenizer):
     print("Inference after fine-tuning ....")
     model.eval()
-    max_new_tokens=15
+    max_new_tokens=8
     accuracy = []
     for idx, query in enumerate(test_questions):
         
