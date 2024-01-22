@@ -44,50 +44,50 @@ def main(args):
     # model_name_or_path = "facebook/opt-350m"
     
     ### === Defining model ====================
-    bnb_config = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_compute_dtype=torch.bfloat16,
-        bnb_4bit_use_double_quant=True
-    )
+    # bnb_config = BitsAndBytesConfig(
+    #     load_in_4bit=True,
+    #     bnb_4bit_quant_type="nf4",
+    #     bnb_4bit_compute_dtype=torch.bfloat16,
+    #     bnb_4bit_use_double_quant=True
+    # )
     model = AutoModelForCausalLM.from_pretrained(
         args.model_name_or_path,
         device_map={"": 0},
-        quantization_config=bnb_config,
+        # quantization_config=bnb_config,
         # trust_remote_code=True
     )
-    model.gradient_checkpointing_enable()
-    model = prepare_model_for_kbit_training(model)
+    # model.gradient_checkpointing_enable()
+    # model = prepare_model_for_kbit_training(model)
     
     
     ### === Introducing PEFT to the model ====
-    def print_trainable_parameters(model):
-        """
-        Prints the number of trainable parameters in the model.
-        """
-        trainable_params = 0
-        all_param = 0
-        for _, param in model.named_parameters():
-            all_param += param.numel()
-            if param.requires_grad:
-                trainable_params += param.numel()
-        print(
-            f"trainable params: {trainable_params} || all params: {all_param} || trainable%: {100 * trainable_params / all_param}"
-        )
+    # def print_trainable_parameters(model):
+    #     """
+    #     Prints the number of trainable parameters in the model.
+    #     """
+    #     trainable_params = 0
+    #     all_param = 0
+    #     for _, param in model.named_parameters():
+    #         all_param += param.numel()
+    #         if param.requires_grad:
+    #             trainable_params += param.numel()
+    #     print(
+    #         f"trainable params: {trainable_params} || all params: {all_param} || trainable%: {100 * trainable_params / all_param}"
+    #     )
 
-    peft_config = LoraConfig(
-        r=8,
-        lora_alpha=32,
-        lora_dropout=0.05,
-        bias="none",
-        task_type="CAUSAL_LM",
-        target_modules=["q_proj", "v_proj"],
-        inference_mode=False
-    )
-    model = get_peft_model(model, peft_config)
+    # peft_config = LoraConfig(
+    #     r=8,
+    #     lora_alpha=32,
+    #     lora_dropout=0.05,
+    #     bias="none",
+    #     task_type="CAUSAL_LM",
+    #     target_modules=["q_proj", "v_proj"],
+    #     inference_mode=False
+    # )
+    # model = get_peft_model(model, peft_config)
 
-    print_trainable_parameters(model)
-    model.print_trainable_parameters()
+    # print_trainable_parameters(model)
+    # model.print_trainable_parameters()
 
 
     ### === Defining tokenizer ===============
@@ -103,8 +103,8 @@ def main(args):
         with open(file_path, 'r', encoding='utf-8') as file:
             return json.load(file)
 
-    data_dir = "./entity_questions_dataset/dataset"
-    if os.path.isdir(data_dir):    
+    # data_dir = "./entity_questions_dataset/dataset"
+    if os.path.isdir(args.data_dir):    
         url = "https://nlp.cs.princeton.edu/projects/entity-questions/dataset.zip"
         response = requests.get(url)
         zip_file = ZipFile(BytesIO(response.content))
@@ -114,7 +114,7 @@ def main(args):
     subfolders = ['train', 'dev', 'test']
     relation_files = {}
     for subfolder in subfolders:
-        subfolder_path = os.path.join(data_dir, subfolder)
+        subfolder_path = os.path.join(args.data_dir, subfolder)
         for file in os.listdir(subfolder_path):
             relation_id = file.split('.')[0]
             if relation_id not in relation_files:
@@ -126,7 +126,7 @@ def main(args):
 
     selected_files = {}
     for subfolder in subfolders:
-        subfolder_path = os.path.join(data_dir, subfolder)
+        subfolder_path = os.path.join(args.data_dir, subfolder)
         for file in os.listdir(subfolder_path):
             if file.startswith(selected_relation_id):
                 selected_files[subfolder] = os.path.join(subfolder_path, file)
@@ -137,7 +137,7 @@ def main(args):
     # Other relations ===============
     relation_files.pop(selected_relation_id)
 
-    num_relations = 4
+    num_relations = 8
     num_samples_per_relation = 1
 
     selected_relations = random.sample(relation_files.keys(), num_relations)
@@ -167,7 +167,7 @@ def main(args):
     test_data = load_data(selected_files['test'])
 
     # Select a subset of the training data randomly (e.g., 10%)
-    subset_percentage = 0.3
+    subset_percentage = 0.2
 
     train_subset_size = int(subset_percentage * len(train_data))
     subset_train_data = random.sample(train_data, train_subset_size)
@@ -177,7 +177,6 @@ def main(args):
 
     test_subset_size = int(subset_percentage * len(test_data))
     subset_test_data = random.sample(test_data, test_subset_size)
-
 
     # Extract questions and answers
     train_questions = [item['question'] for item in subset_train_data]
@@ -431,7 +430,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, required=True)
-    parser.add_argument("--output_dir", type=str)
+    parser.add_argument("--data_dir", type=str)
     parser.add_argument("--epochs", default=1, type=int)
     parser.add_argument("--version", default=1, type=int)
     

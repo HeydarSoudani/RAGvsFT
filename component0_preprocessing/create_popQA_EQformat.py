@@ -1,14 +1,20 @@
+#!/usr/bin/env python3
+
 import csv
 import json
 import os
 import ast
 import re
 import torch
+import argparse
 import random
 import wikipediaapi
 from lmqg import TransformersQG
 from lmqg.exceptions import AnswerNotFoundError, ExceedMaxLengthError
 from nltk.tokenize import sent_tokenize
+
+import nltk
+nltk.download('punkt')
 
 
 def get_wikipedia_summary_and_paragraphs(title):
@@ -69,8 +75,23 @@ def split_text_to_sentences(text, max_tokens):
 
     return chunks
 
+def generate_qa_with_memory_handling(model, chunk, max_tokens):
+    try:
+        with torch.no_grad():
+            return model.generate_qa(chunk), None
+    except torch.cuda.OutOfMemoryError:
+        print("Cuda error")
+        torch.cuda.empty_cache()
+        if max_tokens <= 1:  
+            return [], "Text too small to split further"
+        
+        # Halve the token limit and split the chunk
+        new_max_tokens = max_tokens // 2
+        return None, split_text_to_sentences(chunk, new_max_tokens)
 
-if __name__ == "__main__":
+
+
+def main(args):
     dataset_name = 'popqa'
     tsv_file_path = "data/dataset/popQA/popQA.tsv"
     output_dir = 'component0_preprocessing/generated_data/popQA_EQformat'
@@ -121,10 +142,10 @@ if __name__ == "__main__":
 
     # for prop_id, content in data_by_prop_id.items():
     #     with open(f'{test_dir}/{prop_id}.test.json', 'w', encoding='utf-8') as test_file:
-    #         json.dump(content['test'], test_file, indent=4)
+    #         json.dump(content['test'], test_file)
 
     #     with open(f'{entity_dir}/{prop_id}.entity.json', 'w', encoding='utf-8') as entity_file:
-    #         json.dump(content['entity'], entity_file, indent=4)
+    #         json.dump(content['entity'], entity_file)
     
     # print("Test and Entity creation complete.")
 
@@ -162,22 +183,20 @@ if __name__ == "__main__":
     #                     qrels_content.append({'query_id': entity['query_id'], 'doc_id': paragraph_doc_id, 'score': 0})
 
     #             with open(f'{corpus_dir}/{prop_id}.corpus.json', 'w', encoding='utf-8') as cf:
-    #                 json.dump(corpus_content, cf, indent=4)
+    #                 json.dump(corpus_content, cf)
     #             print(f"Corpus file created: {prop_id}.corpus.json")
 
     #             with open(f'{qrels_dir}/{prop_id}.qrels.json', 'w', encoding='utf-8') as qf:
-    #                 json.dump(qrels_content, qf, indent=4)
+    #                 json.dump(qrels_content, qf)
     #             print(f"Qrels file created: {prop_id}.qrels.json")
     
     # print("Corpus and Qrels creation complete.")
-    
+  
     ### ==== Creating train & dev & qrels-train files =====================
-    qg_model = 'lmqg/t5-small-squad-qg'
-    ae_model = 'lmqg/t5-small-squad-ae'
     model = TransformersQG(
         language='en',
-        model=qg_model,
-        model_ae=ae_model,
+        model=args.qg_model,
+        model_ae=args.ae_model,
         skip_overflow_error=True,
         drop_answer_error_text=True,
     )
@@ -197,41 +216,88 @@ if __name__ == "__main__":
                     content = remove_parentheses(item['content'])
                     doc_id = item['doc_id']
                     
-                    if count_tokens(content) > max_tokens:
-                        content_chunks = split_text_to_sentences(content, max_tokens)
-                    else:
-                        content_chunks = [content]
-                    
-                    for chunk in content_chunks:
-                        try:
-                            with torch.no_grad():
-                                qas = model.generate_qa(content)
-                            
-                            for question, answer in qas:
-                                qa_dict = {
-                                    'query_id': f"qa_{query_id_counter}",
-                                    'question': question,
-                                    'answers': [answer]
-                                }
-                                all_qas.append(qa_dict)
-                                qrels_train.append({
-                                    'query_id': qa_dict['query_id'],
-                                    'doc_id': doc_id,
-                                    'score': 1
-                                })
-                                query_id_counter += 1
+                    chunks_to_process = [(content, max_tokens)]
+                    while chunks_to_process:
                         
-                            torch.cuda.empty_cache()                            
+                        try: 
+                            current_chunk, current_max_tokens = chunks_to_process.pop(0)
+                            qas, split_chunks = generate_qa_with_memory_handling(model, current_chunk, current_max_tokens)
+                            
+                            if qas is not None:
+                                print(qas)
+                                for question, answer in qas:                                
+                                    
+                                    for question, answer in qas:
+                                        qa_dict = {
+                                            'query_id': f"qa_{query_id_counter}",
+                                            'question': question,
+                                            'answers': [answer]
+                                        }
+                                        all_qas.append(qa_dict)
+                                        qrels_train.append({
+                                            'query_id': qa_dict['query_id'],
+                                            'doc_id': doc_id,
+                                            'score': 1
+                                        })
+                                        query_id_counter += 1
+                                    torch.cuda.empty_cache()
+                                    
+                            elif split_chunks:
+                                chunks_to_process.extend([(chunk, current_max_tokens) for chunk in split_chunks])
+                            else:
+                                print(f"Unable to process chunk due to memory constraints: {current_chunk}")
+
                         except AnswerNotFoundError:
-                            print(f"Answer not found for passage: {chunk}")
+                            print(f"Answer not found for passage: {content}")
                             continue
                         except ExceedMaxLengthError:
-                            print(f"Input exceeded max length for passage: {chunk}")
+                            print(f"Input exceeded max length for passage: {content}")
                             continue
                         except ValueError as e:
-                            print(f"For: {chunk}")
+                            print(f"For: {content}")
                             print(str(e))
                             continue
+                    
+                    # if count_tokens(content) > max_tokens:
+                    #     content_chunks = split_text_to_sentences(content, max_tokens)
+                    # else:
+                    #     content_chunks = [content]
+                    
+                    # for chunk in content_chunks:
+                    #     try:
+                    #         with torch.no_grad():
+                    #             qas = model.generate_qa(content)
+                                
+                    #         print(qas)    
+                    #         for question, answer in qas:
+                    #             qa_dict = {
+                    #                 'query_id': f"qa_{query_id_counter}",
+                    #                 'question': question,
+                    #                 'answers': [answer]
+                    #             }
+                    #             all_qas.append(qa_dict)
+                    #             qrels_train.append({
+                    #                 'query_id': qa_dict['query_id'],
+                    #                 'doc_id': doc_id,
+                    #                 'score': 1
+                    #             })
+                    #             query_id_counter += 1
+                        
+                    #         torch.cuda.empty_cache()                            
+                        # except AnswerNotFoundError:
+                        #     print(f"Answer not found for passage: {chunk}")
+                        #     continue
+                        # except ExceedMaxLengthError:
+                        #     print(f"Input exceeded max length for passage: {chunk}")
+                        #     continue
+                        # except torch.cuda.OutOfMemoryError:
+                        #     print("CUDA out of memory. Trying to free up memory.")
+                        #     torch.cuda.empty_cache()  # Attempt to clear cache and continue
+                        #     continue
+                        # except ValueError as e:
+                        #     print(f"For: {chunk}")
+                        #     print(str(e))
+                        #     continue
                     
                 random.shuffle(all_qas)
                 split_index = int(len(all_qas) * dev_split)
@@ -247,5 +313,13 @@ if __name__ == "__main__":
                 with open(f'{qrels_train_dir}/{prop_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
                     json.dump(qrels_train, qf, indent=4)
 
-
     print("Train, Dev, and Qrels-Train creation complete.")
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--qg_model", type=str, required=True)
+    parser.add_argument("--ae_model", type=str, required=True)
+    
+    args = parser.parse_args()
+    main(args)
