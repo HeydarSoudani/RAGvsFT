@@ -19,11 +19,11 @@ pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 srun $HOME/RAGvsFT/component4_CBQA/fs_peft_finetuning.py \
     --model_name_or_path "facebook/opt-350m" \
     --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
+    --output_dir $HOME/RAGvsFT/component4_CBQA/models \
     --epochs 5 \
     --version 3
 
-
-# For EQ: $HOME/RAGvsFT/entity_questions_dataset/dataset
+# For EQ: $HOME/RAGvsFT/entity_questions_dataset/dataset/Entity
 # For popQA: $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat
 
 # "facebook/opt-125m"

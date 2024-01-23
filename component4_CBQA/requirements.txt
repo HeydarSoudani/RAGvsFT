@@ -2,8 +2,6 @@ datasets
 evaluate
 accelerate
 bitsandbytes
-scikit-learn
 loralib
 peft
 huggingface_hub
-trl
