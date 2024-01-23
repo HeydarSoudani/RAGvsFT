@@ -23,7 +23,8 @@ srun $HOME/RAGvsFT/component4_CBQA/fs_peft_finetuning.py \
     --epochs 5 \
     --version 3
 
-# For EQ: $HOME/RAGvsFT/entity_questions_dataset/dataset/Entity
+
+# For EQ: $HOME/RAGvsFT/data/dataset/entity_questions_dataset/dataset
 # For popQA: $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat
 
 # "facebook/opt-125m"
