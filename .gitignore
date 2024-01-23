@@ -121,6 +121,7 @@ script_logging/
 HeydarS
 
 data/dataset/EntityQuestions
+data/dataset/TQA
 data/dataset/popQA/bm25_results.jsonl
 data/dataset/popQA/contriever_results.jsonl
 
