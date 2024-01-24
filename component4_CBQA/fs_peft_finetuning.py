@@ -24,8 +24,8 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 device = 'cuda:0'
 dataset_name = 'TQA' # [TQA, popQA, EQ]
-completion_template_wo_ans = "{}~>"
-completion_template_with_ans = "{}~>{}"
+completion_template_wo_ans = "Q:{} A:"
+completion_template_with_ans = "Q:{} A:{}"
 
 
 def set_seed(seed):
