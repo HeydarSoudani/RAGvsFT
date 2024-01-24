@@ -246,7 +246,7 @@ def load_dataset(tokenizer, relation_files, selected_relations, selected_files, 
                 np.random.shuffle(few_shot_examples)
                 few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
             else:
-                few_shot_examples_text = " "
+                few_shot_examples_text = "\n\n"
             prompt = few_shot_examples_text + completion_template_wo_ans.format(examples['question'][idx])
                 
             input_prompts.append(prompt)
