@@ -24,8 +24,8 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 device = 'cuda:0'
 dataset_name = 'TQA' # [TQA, popQA, EQ]
-completion_template_wo_ans = "Q:{} A:"
-completion_template_with_ans = "Q:{} A:{}"
+completion_template_wo_ans = "Q: {} A:"
+completion_template_with_ans = "Q: {} A: {}"
 
 
 def set_seed(seed):
@@ -237,40 +237,40 @@ def load_dataset(tokenizer, relation_files, selected_relations, selected_files, 
         len_dataset = len(examples['question'])
         
         ### === version 1 
-        for idx in range(len_dataset):
-            if with_fs:
-                few_shot_examples = create_few_shot_examples(
-                    relation_files,
-                    selected_relations,
-                    num_samples_per_relation,
-                    split_name
-                )
-                np.random.shuffle(few_shot_examples)
-                few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
-            else:
-                few_shot_examples_text = "\n\n"
-            prompt = few_shot_examples_text + completion_template_wo_ans.format(examples['question'][idx])
+        # for idx in range(len_dataset):
+        #     if with_fs:
+        #         few_shot_examples = create_few_shot_examples(
+        #             relation_files,
+        #             selected_relations,
+        #             num_samples_per_relation,
+        #             split_name
+        #         )
+        #         np.random.shuffle(few_shot_examples)
+        #         few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
+        #     else:
+        #         few_shot_examples_text = "\n\n"
+        #     prompt = few_shot_examples_text + completion_template_wo_ans.format(examples['question'][idx])
                 
-            input_prompts.append(prompt)
+        #     input_prompts.append(prompt)
 
-        model_inputs = tokenizer(
-            input_prompts,
-            max_length=input_max_length,
-            truncation=True,
-            # padding="max_length",
-            padding=True,
-        )
+        # model_inputs = tokenizer(
+        #     input_prompts,
+        #     max_length=input_max_length,
+        #     truncation=True,
+        #     # padding="max_length",
+        #     padding=True,
+        # )
 
-        # with tokenizer.as_target_tokenizer():
-        labels = tokenizer(
-            [random.choice(pa) for pa in examples['possible_answers']],
-            max_length=output_max_length,
-            truncation=True,
-            # padding="max_length",
-            padding=True,
-        )
+        # # with tokenizer.as_target_tokenizer():
+        # labels = tokenizer(
+        #     [random.choice(pa) for pa in examples['possible_answers']],
+        #     max_length=output_max_length,
+        #     truncation=True,
+        #     # padding="max_length",
+        #     padding=True,
+        # )
 
-        model_inputs["labels"] = labels["input_ids"]
+        # model_inputs["labels"] = labels["input_ids"]
         
         ### === version 2 
         for idx in range(len_dataset):
