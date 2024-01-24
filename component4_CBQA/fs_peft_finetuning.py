@@ -189,7 +189,7 @@ def load_relations_data(args):
     
 def load_dataset(tokenizer, relation_files, selected_relations, selected_files, with_fs=True):
     num_samples_per_relation = 1
-    subset_percentage = 0.4
+    subset_percentage = 0.004
     input_max_length = 64
     output_max_length = 4
     
@@ -297,7 +297,6 @@ def load_dataset(tokenizer, relation_files, selected_relations, selected_files, 
     label_text = tokenizer.decode(tokenized_train_datasets['train'][0]["labels"], skip_special_tokens=True)
 
     print(input_text)
-    print('\n')
     print(label_text)
     
     # Load test_set
@@ -389,13 +388,16 @@ def inference_on_testset(
                 do_sample=False
             )
         text = tokenizer.decode(gen[0])
+        
+        print(text)
+        
         pred = text[len(prompt):]
-        pred = pred[5:]
-        pred = pred.split("\n")[0]
+        # pred = pred[5:]
+        # pred = pred.split("\n")[0]
 
-        if idx % 15 == 0:
-            print('Pred: {}'.format(pred))
-            print('Labels: {}'.format(test_answers[idx]))
+        # if idx % 15 == 0:
+        print('Pred: {}'.format(pred))
+        print('Labels: {}'.format(test_answers[idx]))
             # print('\n\n')
         
         is_correct = False
