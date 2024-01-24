@@ -23,10 +23,9 @@ os.environ["WANDB_MODE"] = "offline"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 device = 'cuda:0'
-dataset_name = 'TQA' # [TQA, popQA, EQ]
+dataset_name = 'popQA' # [TQA, popQA, EQ]
 completion_template_wo_ans = "Q: {} A:"
 completion_template_with_ans = "Q: {} A: {}"
-
 
 def set_seed(seed):
     """Set the seed for reproducibility in PyTorch, NumPy, and Python."""
@@ -189,7 +188,7 @@ def load_relations_data(args):
     
 def load_dataset(tokenizer, relation_files, selected_relations, selected_files, with_fs=True):
     num_samples_per_relation = 1
-    subset_percentage = 0.004
+    subset_percentage = 0.8
     input_max_length = 64
     output_max_length = 4
     
