@@ -391,9 +391,9 @@ def inference_on_testset(
         
         print(text)
         
-        pred = text[len(prompt):]
+        pred = text[2+len(prompt):]
         # pred = pred[5:]
-        # pred = pred.split("\n")[0]
+        pred = pred.split("\n")[0]
 
         # if idx % 15 == 0:
         print('Pred: {}'.format(pred))
