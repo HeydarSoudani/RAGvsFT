@@ -235,6 +235,8 @@ def load_dataset(tokenizer, relation_files, selected_relations, selected_files, 
     def qa_tokenize_function(examples, split_name):
         input_prompts = []
         len_dataset = len(examples['question'])
+        
+        ### === version 1 
         for idx in range(len_dataset):
             if with_fs:
                 few_shot_examples = create_few_shot_examples(
@@ -269,6 +271,19 @@ def load_dataset(tokenizer, relation_files, selected_relations, selected_files, 
         )
 
         model_inputs["labels"] = labels["input_ids"]
+        
+        ### === version 2 
+        for idx in range(len_dataset):
+            input_prompts.extend(
+                [completion_template_with_ans.format(examples['question'][idx], pa) for pa in examples['possible_answers'][idx]]
+            )
+        model_inputs = tokenizer(
+            input_prompts,
+            # max_length=input_max_length,
+            # truncation=True,
+            # # padding="max_length",
+            # padding=True,
+        )
         return model_inputs
 
     def tokenize_wrapper(split_name):
