@@ -427,7 +427,7 @@ def inference_on_testset(
     print(f"Accuracy: {acc * 100:.2f}%")
     
 def main(args):
-    with_peft = True
+    with_peft = False
     with_fs = False
     args.repo_name = "HeydarS/{}_{}_v{}".format(
         args.model_name_or_path.split('/')[-1],
