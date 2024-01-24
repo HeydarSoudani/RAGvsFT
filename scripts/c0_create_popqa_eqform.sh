@@ -20,8 +20,3 @@ srun $HOME/RAGvsFT/component0_preprocessing/create_popQA_EQformat.py \
     --qg_model 'lmqg/t5-large-squad-qg' \
     --ae_model 'lmqg/t5-large-squad-ae'
 
-
-# "facebook/opt-125m"
-# "facebook/opt-350m"
-# "facebook/opt-1.3b"
-# "$HOME/RAGvsFT/component4_CBQA/models/clm_opt1-3b_1e"

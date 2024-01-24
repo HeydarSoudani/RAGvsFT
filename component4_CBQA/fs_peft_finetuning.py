@@ -19,12 +19,14 @@ import numpy as np
 import torch
 
 
-
 os.environ["WANDB_MODE"] = "offline"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 device = 'cuda:0'
 dataset_name = 'TQA' # [TQA, popQA, EQ]
+completion_template_wo_ans = "{}~>"
+completion_template_with_ans = "{}~> {}"
+
 
 def set_seed(seed):
     """Set the seed for reproducibility in PyTorch, NumPy, and Python."""
@@ -41,10 +43,6 @@ def load_json_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
-def load_data(file_path):
-        with open(file_path, 'r', encoding='utf-8') as file:
-            return json.load(file)
-
 def load_model(args, with_peft=False):
     
     if not with_peft:
@@ -60,13 +58,14 @@ def load_model(args, with_peft=False):
             load_in_4bit=True,
             bnb_4bit_quant_type="nf4",
             bnb_4bit_compute_dtype=torch.bfloat16,
-            bnb_4bit_use_double_quant=True
+            # bnb_4bit_use_double_quant=True
         )
         model = AutoModelForCausalLM.from_pretrained(
             args.model_name_or_path,
             device_map={"": 0},
             quantization_config=bnb_config
         )
+        model.config.use_cache = False # From ft llama with qlora ...
         model.gradient_checkpointing_enable()
         model = prepare_model_for_kbit_training(model)
         
@@ -81,10 +80,20 @@ def load_model(args, with_peft=False):
                 f"trainable params: {trainable_params} || all params: {all_param} || trainable%: {100 * trainable_params / all_param}"
             )
 
+        # v1: From ft llama with qlora ...
+        # alpha = 16
+        # dropout = 0.1
+        # r = 64
+        
+        # v2
+        # lora_alpha = 32
+        # lora_dropout = 0.05
+        # r = 8 
+
         peft_config = LoraConfig(
-            r=8,
-            lora_alpha=32,
-            lora_dropout=0.05,
+            lora_alpha=16,
+            lora_dropout=0.1,
+            r=64,
             bias="none",
             task_type="CAUSAL_LM",
             target_modules=["q_proj", "v_proj"],
@@ -123,26 +132,28 @@ def create_few_shot_examples(relation_files, selected_relations, num_samples, sp
                 question = example['Question']
                 answers = example['Answer']['NormalizedAliases']
             
-            completion = "Q: {} A: {}".format(question, random.choice(answers))
+            completion = completion_template_with_ans.format(question, random.choice(answers))
             few_shot_examples.append(completion)
     return few_shot_examples
 
-def load_relations_data(args, dataset_name):
+def load_relations_data(args):
     
     # If you need to download EQ or TQA dataset
-    # if not os.path.isdir(args.data_dir):
-    #     url = "https://nlp.cs.washington.edu/triviaqa/data/triviaqa-rc.tar.gz"     # For TQA dataset
-    #     url = "https://nlp.cs.princeton.edu/projects/entity-questions/dataset.zip" # For EQ dataset
-    #     response = requests.get(url)
-    #     zip_file = ZipFile(BytesIO(response.content))
-    #     zip_file.extractall("entity_questions_dataset")
-    #     zip_file.close()
+    if not os.path.isdir(args.data_dir):
+        if dataset_name == "TQA":
+            url = "https://nlp.cs.washington.edu/triviaqa/data/triviaqa-rc.tar.gz"     # For TQA dataset
+        
+        url = "https://nlp.cs.princeton.edu/projects/entity-questions/dataset.zip" # For EQ dataset
+        response = requests.get(url)
+        zip_file = ZipFile(BytesIO(response.content))
+        zip_file.extractall("entity_questions_dataset")
+        zip_file.close()
     
     if dataset_name == "TQA":
         num_relations = 1
         subfolders = ['train', 'dev']
     else:
-        num_relations = 8
+        num_relations = 15
         subfolders = ['train', 'dev', 'test']
     
     relation_files = {}
@@ -156,6 +167,7 @@ def load_relations_data(args, dataset_name):
 
     # Select one relation =================
     selected_relation_id = random.choice(list(relation_files.keys()))
+    # selected_relation_id = "106"
     selected_files = {}
     
     for subfolder in subfolders:
@@ -175,11 +187,10 @@ def load_relations_data(args, dataset_name):
 
     return relation_files, selected_relations, selected_files
     
-def load_dataset(tokenizer, relation_files, selected_relations, selected_files, dataset_name):
-    completion_template = "Q: {} A:"
-    num_samples_per_relation = 8
-    subset_percentage = 0.0005
-    input_max_length = 1024
+def load_dataset(tokenizer, relation_files, selected_relations, selected_files, with_fs=True):
+    num_samples_per_relation = 1
+    subset_percentage = 0.4
+    input_max_length = 64
     output_max_length = 4
     
     # Load data from selected files
@@ -225,15 +236,18 @@ def load_dataset(tokenizer, relation_files, selected_relations, selected_files, 
         input_prompts = []
         len_dataset = len(examples['question'])
         for idx in range(len_dataset):
-            few_shot_examples = create_few_shot_examples(
-                relation_files,
-                selected_relations,
-                num_samples_per_relation,
-                split_name
-            )
-            np.random.shuffle(few_shot_examples)
-            few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
-            prompt = few_shot_examples_text + completion_template.format(examples['question'][idx])
+            if with_fs:
+                few_shot_examples = create_few_shot_examples(
+                    relation_files,
+                    selected_relations,
+                    num_samples_per_relation,
+                    split_name
+                )
+                np.random.shuffle(few_shot_examples)
+                few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
+            else:
+                few_shot_examples_text = "\n\n"
+            prompt = few_shot_examples_text + completion_template_wo_ans.format(examples['question'][idx])
                 
             input_prompts.append(prompt)
 
@@ -289,7 +303,7 @@ def load_dataset(tokenizer, relation_files, selected_relations, selected_files, 
     # Load test_set
     if dataset_name in ['popQA', 'EQ']:
             
-        test_data = load_data(selected_files['test'])
+        test_data = load_json_file(selected_files['test'])
         test_subset_size = int(subset_percentage * len(test_data))
         subset_test_data = random.sample(test_data, test_subset_size)    
         test_questions = [item['question'] for item in subset_test_data]
@@ -306,17 +320,19 @@ def load_training_args(args):
         
     training_arguments = TrainingArguments(
         output_dir=output_dir,
-        per_device_train_batch_size=1,
-        gradient_accumulation_steps=1,
-        optim="paged_adamw_8bit",
+        per_device_train_batch_size=16,
+        gradient_accumulation_steps=4,
+        optim="paged_adamw_32bit", # "paged_adamw_8bit"
         num_train_epochs=args.epochs,
         evaluation_strategy="epoch",
         logging_strategy="epoch",
-        learning_rate=2e-3,
+        learning_rate=2e-4,
         max_grad_norm=0.3,
         warmup_ratio=0,
         lr_scheduler_type="linear",
         report_to=[],
+        
+        fp16=True,
 
         save_strategy="epoch",
         save_total_limit=2,
@@ -336,28 +352,29 @@ def inference_on_testset(
     test_answers,
     relation_files,
     selected_relations,
-    device
+    device,
+    with_fs=True
 ): 
     num_samples_per_relation = 1
-    completion_template = "Q: {} A:"
     
     model.eval()
     max_new_tokens=8
     accuracy = []
     for idx, query in enumerate(test_questions):
+                
+        if with_fs:
+            few_shot_examples = create_few_shot_examples(
+                relation_files,
+                selected_relations,
+                num_samples_per_relation,
+                'test' if dataset_name in ['EQ', 'popQA'] else 'dev'
+            )
+            np.random.shuffle(few_shot_examples)
+            few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
+        else:
+            few_shot_examples_text = "\n\n"
         
-        # if idx == 2:
-        #   break
-
-        few_shot_examples = create_few_shot_examples(
-            relation_files,
-            selected_relations,
-            num_samples_per_relation,
-            'test' if dataset_name in ['EQ', 'popQA'] else 'dev'
-        )
-        np.random.shuffle(few_shot_examples)
-        few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
-        prompt = few_shot_examples_text + completion_template.format(query)
+        prompt = few_shot_examples_text + completion_template_wo_ans.format(query)
         
         inpts = tokenizer(prompt, return_tensors="pt").to(device)
         inpt_decoded = tokenizer.decode(inpts["input_ids"][0, :])
@@ -376,9 +393,10 @@ def inference_on_testset(
         pred = pred[5:]
         pred = pred.split("\n")[0]
 
-        print('Pred: {}'.format(pred))
-        print('Labels: {}'.format(test_answers[idx]))
-        # print('\n\n')
+        if idx % 15 == 0:
+            print('Pred: {}'.format(pred))
+            print('Labels: {}'.format(test_answers[idx]))
+            # print('\n\n')
         
         is_correct = False
         for pa in test_answers[idx]:
@@ -389,9 +407,9 @@ def inference_on_testset(
     acc = sum(accuracy) / len(accuracy)
     print(f"Accuracy: {acc * 100:.2f}%")
     
-
 def main(args):
-    with_peft = False
+    with_peft = True
+    with_fs = False
     args.repo_name = "HeydarS/{}_{}_v{}".format(
         args.model_name_or_path.split('/')[-1],
         'peft' if with_peft else 'no_peft',
@@ -403,38 +421,38 @@ def main(args):
     # set_seed(42)
     model, tokenizer = load_model(args, with_peft=with_peft)
     
-    relation_files, selected_relations, selected_files = load_relations_data(args, dataset_name)
+    relation_files, selected_relations, selected_files = load_relations_data(args)
     
     tokenized_train_datasets, (test_questions, test_answers) = load_dataset(
         tokenizer,
         relation_files,
         selected_relations,
         selected_files,
-        dataset_name
+        with_fs
     )
     
     training_arguments = load_training_args(args)
     
     # === Training process ==============
-    def preprocess_logits_for_metrics(logits, labels):
-        if isinstance(logits, tuple):
-            logits = logits[0]
-        return logits.argmax(dim=-1)
+    # def preprocess_logits_for_metrics(logits, labels):
+    #     if isinstance(logits, tuple):
+    #         logits = logits[0]
+    #     return logits.argmax(dim=-1)
     
-    metric = evaluate.load("accuracy")
-    def compute_metrics(eval_preds):
-        preds, labels = eval_preds
+    # metric = evaluate.load("accuracy")
+    # def compute_metrics(eval_preds):
+    #     preds, labels = eval_preds
 
-        print(labels)
-        print(preds)
+    #     print(labels)
+    #     print(preds)
 
-        labels = labels[:, 1:].reshape(-1)
-        preds = preds[:, :-1].reshape(-1)
+    #     labels = labels[:, 1:].reshape(-1)
+    #     preds = preds[:, :-1].reshape(-1)
 
-        print(labels)
-        print(preds)
-        print('\n')
-        return metric.compute(predictions=preds, references=labels)
+    #     print(labels)
+    #     print(preds)
+    #     print('\n')
+    #     return metric.compute(predictions=preds, references=labels)
 
     data_collator = transformers.DataCollatorForLanguageModeling(tokenizer, mlm=False)
 
@@ -457,7 +475,8 @@ def main(args):
         test_answers,
         relation_files,
         selected_relations,
-        device
+        device,
+        with_fs
     )
     
     print('\n\n')
@@ -474,7 +493,8 @@ def main(args):
         test_answers,
         relation_files,
         selected_relations,
-        device
+        device,
+        with_fs
     )
 
 if __name__ == "__main__":
