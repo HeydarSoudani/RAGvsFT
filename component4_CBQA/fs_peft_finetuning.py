@@ -246,7 +246,7 @@ def load_dataset(tokenizer, relation_files, selected_relations, selected_files, 
                 np.random.shuffle(few_shot_examples)
                 few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
             else:
-                few_shot_examples_text = "\n\n"
+                few_shot_examples_text = " "
             prompt = few_shot_examples_text + completion_template_wo_ans.format(examples['question'][idx])
                 
             input_prompts.append(prompt)
@@ -411,7 +411,7 @@ def inference_on_testset(
     
 def main(args):
     with_peft = True
-    with_fs = True
+    with_fs = False
     args.repo_name = "HeydarS/{}_{}_v{}".format(
         args.model_name_or_path.split('/')[-1],
         'peft' if with_peft else 'no_peft',
