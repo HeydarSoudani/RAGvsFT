@@ -309,10 +309,10 @@ def load_dataset(tokenizer, relation_files, selected_relations, selected_files, 
     
     # = Print a sample of dataset
     input_text = tokenizer.decode(tokenized_train_datasets['train'][0]["input_ids"], skip_special_tokens=True)
-    label_text = tokenizer.decode(tokenized_train_datasets['train'][0]["labels"], skip_special_tokens=True)
+    # label_text = tokenizer.decode(tokenized_train_datasets['train'][0]["labels"], skip_special_tokens=True)
 
     print(input_text)
-    print(label_text)
+    # print(label_text)
     
     # Load test_set
     if dataset_name in ['popQA', 'EQ']:
