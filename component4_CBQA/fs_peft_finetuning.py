@@ -484,8 +484,8 @@ def main(args):
     print('\n\n')
     print("Fine-tuning ....")
     trainer.train()
-    model.save_pretrained(output_dir)
-    model.push_to_hub(args.repo_name, token=True)
+    # model.save_pretrained(output_dir)
+    # model.push_to_hub(args.repo_name, token=True)
     
     print("Inference after fine-tuning ....")
     inference_on_testset(
