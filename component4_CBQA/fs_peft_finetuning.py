@@ -25,7 +25,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 device = 'cuda:0'
 dataset_name = 'TQA' # [TQA, popQA, EQ]
 completion_template_wo_ans = "{}~>"
-completion_template_with_ans = "{}~> {}"
+completion_template_with_ans = "{}~>{}"
 
 
 def set_seed(seed):
@@ -411,7 +411,7 @@ def inference_on_testset(
     
 def main(args):
     with_peft = True
-    with_fs = False
+    with_fs = True
     args.repo_name = "HeydarS/{}_{}_v{}".format(
         args.model_name_or_path.split('/')[-1],
         'peft' if with_peft else 'no_peft',
