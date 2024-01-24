@@ -274,9 +274,11 @@ def load_dataset(tokenizer, relation_files, selected_relations, selected_files, 
         
         ### === version 2 
         for idx in range(len_dataset):
+            print([completion_template_with_ans.format(examples['question'][idx], pa) for pa in examples['possible_answers'][idx]])
             input_prompts.extend(
                 [completion_template_with_ans.format(examples['question'][idx], pa) for pa in examples['possible_answers'][idx]]
             )
+            
         model_inputs = tokenizer(
             input_prompts,
             # max_length=input_max_length,
