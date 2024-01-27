@@ -487,13 +487,13 @@ def main(args):
 
     ### ==== Creating corpus & qrels files ================
     # create_corpus_and_qrels_files_via_api()
-    # create_corpus_and_qrels_files_via_hf_datasets()
+    create_corpus_and_qrels_files_via_hf_datasets()
     # check_entities()
     # add_empty_entities()
     
     ### ==== Creating train & dev & qrels-train files =====
-    relation_id = "106"
-    create_train_and_dev_files(args, relation_id=relation_id)
+    # relation_id = "106"
+    # create_train_and_dev_files(args, relation_id=relation_id)
     
     
 
