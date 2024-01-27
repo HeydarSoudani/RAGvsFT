@@ -499,8 +499,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--qg_model", type=str, required=True)
-    parser.add_argument("--ae_model", type=str, required=True)
+    # parser.add_argument("--qg_model", type=str, required=True)
+    # parser.add_argument("--ae_model", type=str, required=True)
     
     args = parser.parse_args()
     main(args)
