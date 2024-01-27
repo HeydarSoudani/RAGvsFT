@@ -166,8 +166,8 @@ def load_relations_data(args):
             relation_files[relation_id].append(os.path.join(subfolder_path, file))    
 
     # Select one relation =================
-    selected_relation_id = random.choice(list(relation_files.keys()))
-    # selected_relation_id = "106"
+    # selected_relation_id = random.choice(list(relation_files.keys()))
+    selected_relation_id = "106"
     selected_files = {}
     
     for subfolder in subfolders:
@@ -189,7 +189,7 @@ def load_relations_data(args):
     
 def load_dataset(tokenizer, relation_files, selected_relations, selected_files, with_fs=True):
     num_samples_per_relation = 1
-    subset_percentage = 0.8
+    subset_percentage = 1.0
     input_max_length = 64
     output_max_length = 4
     
@@ -374,7 +374,7 @@ def inference_on_testset(
     num_samples_per_relation = 1
     
     model.eval()
-    max_new_tokens=8
+    max_new_tokens=32
     accuracy = []
     for idx, query in enumerate(test_questions):
                 
@@ -427,7 +427,7 @@ def inference_on_testset(
     print(f"Accuracy: {acc * 100:.2f}%")
     
 def main(args):
-    with_peft = False
+    with_peft = True
     with_fs = False
     args.repo_name = "HeydarS/{}_{}_v{}".format(
         args.model_name_or_path.split('/')[-1],
