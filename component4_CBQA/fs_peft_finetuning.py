@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 import random
 import requests
 from io import BytesIO
@@ -27,6 +26,8 @@ device = 'cuda:0'
 dataset_name = 'popQA' # [TQA, popQA, EQ]
 completion_template_wo_ans = "Q: {} A:"
 completion_template_with_ans = "Q: {} A: {}"
+with_peft = True
+with_fs = True
 
 def set_seed(seed):
     """Set the seed for reproducibility in PyTorch, NumPy, and Python."""
@@ -114,7 +115,12 @@ def load_model(args, with_peft=False):
     
     return model, tokenizer
 
-def create_few_shot_examples(relation_files, selected_relations, num_samples, split_name):
+def create_few_shot_examples(
+    relation_files,
+    selected_relations,
+    num_samples,
+    split_name
+):
     few_shot_examples = []
     
     for relation_id in selected_relations:
@@ -187,13 +193,10 @@ def load_relations_data(args):
 
     return relation_files, selected_relations, selected_files
     
-def load_dataset(tokenizer, relation_files, selected_relations, selected_files, with_fs=True):
-    num_samples_per_relation = 1
-    subset_percentage = 1.0
-    input_max_length = 64
-    output_max_length = 4
-    
-    # Load data from selected files
+def load_dataset(tokenizer, selected_files):
+
+    subset_percentage = 1.0    
+    ### === Train part ================================ 
     train_data = load_json_file(selected_files['train'])
     dev_data = load_json_file(selected_files['dev'])
 
@@ -202,7 +205,6 @@ def load_dataset(tokenizer, relation_files, selected_relations, selected_files, 
     dev_subset_size = int(subset_percentage * len(dev_data))
     subset_dev_data = random.sample(dev_data, dev_subset_size)
 
-    # Extract questions and answers
     if dataset_name in ['EQ', 'popQA']:
       train_questions = [item['question'] for item in subset_train_data]
       train_answers = [item['answers'] for item in subset_train_data]
@@ -214,7 +216,6 @@ def load_dataset(tokenizer, relation_files, selected_relations, selected_files, 
       val_questions = [item['Question'] for item in subset_dev_data]
       val_answers = [item['Answer']['NormalizedAliases'] for item in subset_dev_data]
     
-    # Create the dataset in the desired format
     raw_dataset = DatasetDict({
         'train': Dataset.from_dict({
             "question": train_questions,
@@ -223,106 +224,44 @@ def load_dataset(tokenizer, relation_files, selected_relations, selected_files, 
         'dev': Dataset.from_dict({
             "question": val_questions,
             "possible_answers": val_answers
-        }),
-    #     'test': Dataset.from_dict({
-    #         "question": test_questions,
-    #         "possible_answers": test_answers
-    #     })
+        })
     })
     print(raw_dataset)
     
-    # tokenize train & dev datasets ===================
-    def qa_tokenize_function(examples, split_name):
+    def qa_tokenize_function(examples):
         input_prompts = []
         len_dataset = len(examples['question'])
-        
-        ### === version 1 
-        # for idx in range(len_dataset):
-        #     if with_fs:
-        #         few_shot_examples = create_few_shot_examples(
-        #             relation_files,
-        #             selected_relations,
-        #             num_samples_per_relation,
-        #             split_name
-        #         )
-        #         np.random.shuffle(few_shot_examples)
-        #         few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
-        #     else:
-        #         few_shot_examples_text = "\n\n"
-        #     prompt = few_shot_examples_text + completion_template_wo_ans.format(examples['question'][idx])
-                
-        #     input_prompts.append(prompt)
-
-        # model_inputs = tokenizer(
-        #     input_prompts,
-        #     max_length=input_max_length,
-        #     truncation=True,
-        #     # padding="max_length",
-        #     padding=True,
-        # )
-
-        # # with tokenizer.as_target_tokenizer():
-        # labels = tokenizer(
-        #     [random.choice(pa) for pa in examples['possible_answers']],
-        #     max_length=output_max_length,
-        #     truncation=True,
-        #     # padding="max_length",
-        #     padding=True,
-        # )
-
-        # model_inputs["labels"] = labels["input_ids"]
-        
-        ### === version 2 
+    
         for idx in range(len_dataset):
-            # print([completion_template_with_ans.format(examples['question'][idx], pa) for pa in examples['possible_answers'][idx]])
             input_prompts.extend(
                 [completion_template_with_ans.format(examples['question'][idx], pa) for pa in examples['possible_answers'][idx]]
-            )
-            
-        model_inputs = tokenizer(
-            input_prompts,
-            # max_length=input_max_length,
-            # truncation=True,
-            # # padding="max_length",
-            # padding=True,
-        )
+            )    
+        model_inputs = tokenizer(input_prompts)
         return model_inputs
-
-    def tokenize_wrapper(split_name):
-        def wrapper(examples):
-            return qa_tokenize_function(examples, split_name)
-        return wrapper
-
-    tokenized_train_datasets = {}
-    for split in raw_dataset.keys():
-        tokenized_train_datasets[split] = raw_dataset[split].map(
-            tokenize_wrapper(split),
-            batched=True,
-            remove_columns=raw_dataset[split].column_names,
-            desc=f"Running tokenizer on {split} dataset"
-        )
-    # tokenized_datasets = raw_dataset.map(
-    #     qa_tokenize_function,
-    #     batched=True,
-    #     remove_columns=["question", "possible_answers"],
-    #     desc="Running tokenizer on dataset",
-    # )
+    
+    tokenized_train_datasets = raw_dataset.map(
+        qa_tokenize_function,
+        batched=True,
+        remove_columns=["question", "possible_answers"],
+        desc="Running tokenizer on dataset",
+    )
     print(tokenized_train_datasets)
     
     # = Print a sample of dataset
-    input_text = tokenizer.decode(tokenized_train_datasets['train'][0]["input_ids"], skip_special_tokens=True)
-    # label_text = tokenizer.decode(tokenized_train_datasets['train'][0]["labels"], skip_special_tokens=True)
-
+    input_text = tokenizer.decode(
+        tokenized_train_datasets['train'][0]["input_ids"],
+        skip_special_tokens=True
+    )
     print(input_text)
+    # label_text = tokenizer.decode(tokenized_train_datasets['train'][0]["labels"], skip_special_tokens=True)
     # print(label_text)
     
-    # Load test_set
-    if dataset_name in ['popQA', 'EQ']:
-            
+    ### === Test part ================================= 
+    if dataset_name in ['popQA', 'EQ']:        
         test_data = load_json_file(selected_files['test'])
         test_subset_size = int(subset_percentage * len(test_data))
         subset_test_data = random.sample(test_data, test_subset_size)    
-        test_questions = [item['question'] for item in subset_test_data]
+        test_questions = [(item['query_id'], item['question'], item['pageviews']) for item in subset_test_data]
         test_answers = [item['answers'] for item in subset_test_data]
     
         return tokenized_train_datasets, (test_questions, test_answers)
@@ -330,9 +269,8 @@ def load_dataset(tokenizer, relation_files, selected_relations, selected_files, 
     return tokenized_train_datasets, (val_questions, val_answers)
     
 def load_training_args(args):
-    model_dir = "./models"
-    repo_name = "HeydarS/{}_eq_qlora_v{}".format(args.model_name_or_path.split('/')[-1], args.version)
-    output_dir = os.path.join(model_dir, repo_name.split('/')[-1])
+    repo_name = "HeydarS/{}_ft_v{}".format(args.model_name_or_path.split('/')[-1], args.version)
+    output_dir = os.path.join(args.output_dir, repo_name.split('/')[-1])
         
     training_arguments = TrainingArguments(
         output_dir=output_dir,
@@ -369,110 +307,102 @@ def inference_on_testset(
     relation_files,
     selected_relations,
     device,
-    with_fs=True
-): 
+    args,
+    with_fs=True,
+    prefix="af",
+):
+    results_dir = f"{args.data_dir}/results"
+    os.makedirs(results_dir, exist_ok=True)
+    result_file_path = f"{results_dir}/106.{args.model_name_or_path.split('/')[-1]}.{prefix}_results.jsonl"
+    
     num_samples_per_relation = 1
-    
     model.eval()
-    max_new_tokens=32
+    max_new_tokens=15
     accuracy = []
-    for idx, query in enumerate(test_questions):
-                
-        if with_fs:
-            few_shot_examples = create_few_shot_examples(
-                relation_files,
-                selected_relations,
-                num_samples_per_relation,
-                'test' if dataset_name in ['EQ', 'popQA'] else 'dev'
-            )
-            np.random.shuffle(few_shot_examples)
-            few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
-        else:
-            few_shot_examples_text = "\n\n"
-        
-        prompt = few_shot_examples_text + completion_template_wo_ans.format(query)
-        
-        inpts = tokenizer(prompt, return_tensors="pt").to(device)
-        inpt_decoded = tokenizer.decode(inpts["input_ids"][0, :])
-        
-        with torch.no_grad():
-            gen = model.generate(
-                input_ids=inpts["input_ids"],
-                attention_mask=inpts["attention_mask"],
-                pad_token_id=tokenizer.eos_token_id,
-                max_new_tokens=max_new_tokens,
-                num_beams=1,
-                do_sample=False
-            )
-        text = tokenizer.decode(gen[0])
-        
-        print(text)
-        
-        pred = text[2+len(prompt):]
-        # pred = pred[5:]
-        pred = pred.split("\n")[0]
-
-        # if idx % 15 == 0:
-        print('Pred: {}'.format(pred))
-        print('Labels: {}'.format(test_answers[idx]))
-            # print('\n\n')
-        
-        is_correct = False
-        for pa in test_answers[idx]:
-            if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
-                is_correct = True
-        accuracy.append(is_correct)
-
-    acc = sum(accuracy) / len(accuracy)
-    print(f"Accuracy: {acc * 100:.2f}%")
     
+    with open(result_file_path, 'w') as file:
+    
+        for idx, (query_id, query, query_pv) in enumerate(test_questions):
+                    
+            if with_fs:
+                few_shot_examples = create_few_shot_examples(
+                    relation_files,
+                    selected_relations,
+                    num_samples_per_relation,
+                    'test' if dataset_name in ['EQ', 'popQA'] else 'dev'
+                )
+                np.random.shuffle(few_shot_examples)
+                few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
+            else:
+                few_shot_examples_text = "\n\n"
+            
+            prompt = few_shot_examples_text + completion_template_wo_ans.format(query)
+            
+            inpts = tokenizer(prompt, return_tensors="pt").to(device)
+            inpt_decoded = tokenizer.decode(inpts["input_ids"][0, :])
+            
+            with torch.no_grad():
+                gen = model.generate(
+                    input_ids=inpts["input_ids"],
+                    attention_mask=inpts["attention_mask"],
+                    pad_token_id=tokenizer.eos_token_id,
+                    max_new_tokens=max_new_tokens,
+                    num_beams=1,
+                    do_sample=False
+                )
+            text = tokenizer.decode(gen[0])
+            
+            # print(text)
+            
+            pred = text[2+len(prompt):]
+            # pred = pred[5:]
+            pred = pred.split("\n")[0]
+
+            # if idx % 15 == 0:
+            print('Query: {}'.format(query))
+            print('Pred: {}'.format(pred))
+            print('Labels: {}'.format(test_answers[idx]))
+                # print('\n\n')
+            
+            is_correct = False
+            for pa in test_answers[idx]:
+                if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
+                    is_correct = True
+            accuracy.append(is_correct)
+            print('Final decision: {}'.format(is_correct))
+            print('====')
+            
+            # Write to file
+            item = {
+                "query_id": query_id,
+                "question": query,
+                "possible_answers": test_answers[idx],
+                "pred": pred,
+                "is_correct": is_correct,
+                "pageviews": query_pv
+            }
+            file.write(json.dumps(item) + '\n')
+
+        acc = sum(accuracy) / len(accuracy)
+        print(f"Accuracy: {acc * 100:.2f}%")
+
 def main(args):
-    with_peft = True
-    with_fs = False
     args.repo_name = "HeydarS/{}_{}_v{}".format(
         args.model_name_or_path.split('/')[-1],
         'peft' if with_peft else 'no_peft',
         args.version
     )
-    output_dir = os.path.join(args.output_dir, args.repo_name.split('/')[-1])
-    # model_name_or_path = "facebook/opt-350m"
+    repo_name = "HeydarS/{}_ft_v{}".format(args.model_name_or_path.split('/')[-1], args.version)
+    output_dir = os.path.join(args.output_dir, repo_name.split('/')[-1])
     
-    # set_seed(42)
+    set_seed(42)
     model, tokenizer = load_model(args, with_peft=with_peft)
-    
     relation_files, selected_relations, selected_files = load_relations_data(args)
-    
     tokenized_train_datasets, (test_questions, test_answers) = load_dataset(
         tokenizer,
-        relation_files,
-        selected_relations,
-        selected_files,
-        with_fs
+        selected_files
     )
-    
     training_arguments = load_training_args(args)
-    
-    # === Training process ==============
-    # def preprocess_logits_for_metrics(logits, labels):
-    #     if isinstance(logits, tuple):
-    #         logits = logits[0]
-    #     return logits.argmax(dim=-1)
-    
-    # metric = evaluate.load("accuracy")
-    # def compute_metrics(eval_preds):
-    #     preds, labels = eval_preds
-
-    #     print(labels)
-    #     print(preds)
-
-    #     labels = labels[:, 1:].reshape(-1)
-    #     preds = preds[:, :-1].reshape(-1)
-
-    #     print(labels)
-    #     print(preds)
-    #     print('\n')
-    #     return metric.compute(predictions=preds, references=labels)
-
     data_collator = transformers.DataCollatorForLanguageModeling(tokenizer, mlm=False)
 
     trainer = Trainer(
@@ -486,22 +416,24 @@ def main(args):
         # preprocess_logits_for_metrics=preprocess_logits_for_metrics
     )
     
-    print("Inference before fine-tuning ....")
-    inference_on_testset(
-        model,
-        tokenizer,
-        test_questions,
-        test_answers,
-        relation_files,
-        selected_relations,
-        device,
-        with_fs
-    )
+    # print("Inference before fine-tuning ....")
+    # inference_on_testset(
+    #     model,
+    #     tokenizer,
+    #     test_questions,
+    #     test_answers,
+    #     relation_files,
+    #     selected_relations,
+    #     device,
+    #     args,
+    #     with_fs,
+    #     prefix="bf"
+    # )
     
     print('\n\n')
     print("Fine-tuning ....")
     trainer.train()
-    # model.save_pretrained(output_dir)
+    model.save_pretrained(output_dir)
     # model.push_to_hub(args.repo_name, token=True)
     
     print("Inference after fine-tuning ....")
@@ -513,7 +445,9 @@ def main(args):
         relation_files,
         selected_relations,
         device,
-        with_fs
+        args,
+        with_fs,
+        prefix="af"
     )
 
 if __name__ == "__main__":

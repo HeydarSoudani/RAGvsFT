@@ -26,7 +26,7 @@ output_dir = 'component0_preprocessing/generated_data/popQA_EQformat'
 entities_analysis_file = f"{output_dir}/entities_analysis.json"
 test_dir = f"{output_dir}/test" 
 entity_dir = f"{output_dir}/entity" 
-corpus_dir = f"{output_dir}/corpus_new" 
+corpus_dir = f"{output_dir}/corpus" 
 qrels_dir = f"{output_dir}/qrels" 
 train_dir = f"{output_dir}/train" 
 dev_dir = f"{output_dir}/dev" 
@@ -243,13 +243,14 @@ def create_corpus_and_qrels_files_via_hf_datasets():
         
         for idx, (relation_id, entity_list) in enumerate(entities.items()):
             if title in entity_list:
+                index = entity_list.index(title)
                 corpus[relation_id].append({
                     'doc_id': f"{relation_id}_{doc_counter}",
                     'title': title,
                     'content': text
                 })
                 qrels[relation_id].append({
-                    'query_id': queries_id[relation_id][idx],
+                    'query_id': queries_id[relation_id][index],
                     'doc_id': f"{relation_id}_{doc_counter}",
                     'score': 1
                 })
@@ -387,9 +388,8 @@ def add_empty_entities():
                     break 
         
         with open(f"{corpus_dir}/{relation_id}.new_corpus.json", 'w', encoding='utf-8') as json_file:
-            json.dump(data, json_file, indent=4)
-            
-    
+            json.dump(data, json_file, indent=4)   
+
 def create_train_and_dev_files(args, relation_id=None):
     model = TransformersQG(
         language='en',
@@ -469,9 +469,7 @@ def create_train_and_dev_files(args, relation_id=None):
             with open(f'{qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
                 json.dump(qrels_train, qf, indent=4)
 
-
     if relation_id == None:
-        
         for corpus_file in os.listdir(corpus_dir):
             if corpus_file.endswith('.corpus.json'):
                 
@@ -479,8 +477,7 @@ def create_train_and_dev_files(args, relation_id=None):
                 create_train_and_dev_files_for_relation(prop_id)
     else: 
         create_train_and_dev_files_for_relation(relation_id)     
-           
-                
+             
     print("Train, Dev, and Qrels-Train creation complete.")
 
 
