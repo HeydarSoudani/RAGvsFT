@@ -70,14 +70,21 @@ def remove_parentheses(input_text):
     cleaned_text = re.sub(r'\([^)]*\)\s*', '', input_text)
     return cleaned_text
 
+def remove_infobox(input_text):
+    infobox_pattern = re.compile(r'\{\{Infobox.*?\}\}', re.DOTALL)
+    cleaned_text = re.sub(infobox_pattern, '', input_text)
+    return cleaned_text
+
 def extract_summary(text):
-    lines = remove_parentheses(text).split('\n')
+    text = remove_infobox(text)
+    text = remove_parentheses(text)
+    lines = text.split('\n')
     lines = [line.rstrip() for line in lines if line != '']
     summary_lines = []
     
     for line in lines:
-        # if not line or not line.endswith('.'):
-        if not line or not line[-1].isalpha():
+#         if not line or not line.endswith('.'):
+        if len(line)>0 and line[-1].isalpha():
             break 
         else:
             summary_lines.append(line)

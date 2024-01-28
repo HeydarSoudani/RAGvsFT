@@ -6,7 +6,6 @@ import torch
 import random
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
-
 os.environ["WANDB_MODE"] = "offline"
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
@@ -67,25 +66,25 @@ def load_relations_data(args):
 
     # Select one relation =================
     # selected_relation_id = random.choice(list(relation_files.keys()))
-    selected_relation_id = "106"
-    selected_files = {}
+    test_relation_id = "106"
+    test_files = {}
     
     for subfolder in subfolders:
         subfolder_path = os.path.join(args.data_dir, subfolder)
         for file in os.listdir(subfolder_path):
-            if file.startswith(selected_relation_id):
-                selected_files[subfolder] = os.path.join(subfolder_path, file)
+            if file.startswith(test_relation_id):
+                test_files[subfolder] = os.path.join(subfolder_path, file)
 
-    print("Selected Relation ID:", selected_relation_id)
-    print("Selected Files:", selected_files)
+    print("Selected Relation ID:", test_relation_id)
+    print("Selected Files:", test_files)
     
     # Other relations ===============
     if dataset_name in ['EQ', 'popQA']:
-        relation_files.pop(selected_relation_id)
+        relation_files.pop(test_relation_id)
     
-    selected_relations = random.sample(relation_files.keys(), num_relations)
+    fewshot_relations = random.sample(relation_files.keys(), num_relations)
 
-    return relation_files, selected_relations, selected_files
+    return test_relation_id, test_files, fewshot_relations, relation_files
 
 def load_dataset(selected_files):
     subset_percentage = 1.0
@@ -126,35 +125,80 @@ def create_few_shot_examples(
             few_shot_examples.append(completion)
     return few_shot_examples
 
+def retrieved_file_preparing(
+    corpus_file, # json file
+    queries_file,# json file
+    qrels_file,  # json file
+    out_file     # jsonl file
+):
+    queries = {}
+    with open(queries_file, 'r') as qfile:
+        data = json.load(qfile)
+        for item in data:
+            queries[item['query_id']] = item['question']
+    
+    corpus = {}
+    with open(corpus_file, 'r') as cfile:
+        data = json.load(cfile)
+        for item in data:
+            corpus[item['doc_id']] = item['content']
+    
+    
+    with open(qrels_file, 'r') as qr_file, open(out_file, 'w') as ofile:
+        data = json.load(qr_file)
+        for idx, item in enumerate(data):
+            doc_id = item['doc_id']
+            query_id = item['query_id']
+            context = corpus.get(doc_id, "No context found")
+            question = queries.get(query_id, "No question found")
+            
+            combined_obj = {
+                "id": query_id,
+                "question": question,
+                "ctxs": [{
+                    "id": doc_id,
+                    "text": context,
+                    "hasanswer": True if item['score'] == 1 else False
+                }],
+            }
+            ofile.write(json.dumps(combined_obj) + "\n")
+
 def inference_on_testset(
     model,
     tokenizer,
     test_questions,
     test_answers,
+    test_relation_id,
+    fewshot_relations,
     relation_files,
-    selected_relations,
     device,
     args,
     with_fs,
     prefix="bf"
 ):
-    results_dir = f"{args.data_dir}/results"
-    os.makedirs(results_dir, exist_ok=True)
-    result_file_path = f"{results_dir}/106.{args.model_name_or_path.split('/')[-1]}.{prefix}_results.jsonl"
+    # Create results dir
+    out_results_dir = f"{args.data_dir}/results"
+    os.makedirs(out_results_dir, exist_ok=True)
+    model_name = args.model_name_or_path.split('/')[-1]
+    out_results_path = f"{out_results_dir}/{test_relation_id}.{model_name}.{prefix}_results.jsonl"
     
+    # Get retrieval results
+    ret_results_dir = f"{args.data_dir}/retrieved"
+    ret_results_path = f"{ret_results_dir}/{test_relation_id}.ret_results.jsonl"
+    with open (ret_results_path, 'r') as file:
+        ret_results = [json.loads(line) for line in file]
+
     num_samples_per_relation = 1
     model.eval()
     max_new_tokens=15
     accuracy = []
     
-    with open(result_file_path, 'w') as file:
-    
-        for idx, (query_id, query, query_pv) in enumerate(test_questions):
-                    
+    with open(out_results_path, 'w') as file:
+        for idx, (query_id, query, query_pv) in enumerate(test_questions):          
             if with_fs:
                 few_shot_examples = create_few_shot_examples(
                     relation_files,
-                    selected_relations,
+                    fewshot_relations,
                     num_samples_per_relation,
                     'test' if dataset_name in ['EQ', 'popQA'] else 'dev'
                 )
@@ -163,7 +207,14 @@ def inference_on_testset(
             else:
                 few_shot_examples_text = "\n\n"
             
+            
             retrieved_text = ""
+            for ret_result in ret_results:
+                if ret_result['id'] == query_id:
+                    retrieved_text = ret_result['ctxs'][0]['text']
+                    break
+            if retrieved_text == "":
+                print("No retrieved text found for query: {}".format(query))
             
             prompt = few_shot_examples_text + retrieved_text + "\n\n" + completion_template_wo_ans.format(query)
             
@@ -215,25 +266,42 @@ def inference_on_testset(
         acc = sum(accuracy) / len(accuracy)
         print(f"Accuracy: {acc * 100:.2f}%")
 
-
-def data_preparing():
-    pass
-
 def main(args):
     
     set_seed(42)
-    model, tokenizer = load_model(args)
+
+    corpus_dir = f"{args.data_dir}/corpus"
+    queries_dir = f"{args.data_dir}/test"
+    qrels_dir = f"{args.data_dir}/qrels"
+    output_dir = f"{args.data_dir}/retrieved"
+    os.makedirs(output_dir, exist_ok=True)
+        
+    # for qrels_file_name in os.listdir(qrels_dir):
+    #     relation_id = qrels_file_name.split('.')[0]
+    #     qrels_file = f"{qrels_dir}/{qrels_file_name}"
+    #     corpus_file = f"{corpus_dir}/{relation_id}.corpus.json"
+    #     queries_file = f"{queries_dir}/{relation_id}.test.json"
+    #     out_file = f"{output_dir}/{relation_id}.ret_results.jsonl"
     
-    relation_files, selected_relations, selected_files = load_relations_data(args)
-    test_questions, test_answers = load_dataset(selected_files)
+    #     retrieved_file_preparing(
+    #         corpus_file,
+    #         queries_file,
+    #         qrels_file,
+    #         out_file
+    #     )
+    
+    model, tokenizer = load_model(args)
+    test_relation_id, test_files, fewshot_relations, relation_files = load_relations_data(args)
+    test_questions, test_answers = load_dataset(test_files)
     
     inference_on_testset(
         model,
         tokenizer,
         test_questions,
         test_answers,
+        test_relation_id,
+        fewshot_relations,
         relation_files,
-        selected_relations,
         device,
         args,
         with_fs,
@@ -245,7 +313,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, required=True)
     parser.add_argument("--data_dir", type=str)
-    parser.add_argument("--output_dir", type=str)
     
     args = parser.parse_args()
     main(args)
