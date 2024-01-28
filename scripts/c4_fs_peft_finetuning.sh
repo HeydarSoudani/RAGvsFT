@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=1:00:00
+#SBATCH --time=2:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -20,7 +20,7 @@ srun $HOME/RAGvsFT/component4_CBQA/fs_peft_finetuning.py \
     --model_name_or_path "facebook/opt-350m" \
     --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
     --output_dir $HOME/RAGvsFT/component4_CBQA/models \
-    --epochs 5 \
+    --epochs 10 \
     --version 20
 
 

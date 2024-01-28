@@ -32,7 +32,7 @@ with_peft = True
 with_fs = True
 # with_rag = False
 training_style = 'qa' # ['clm', 'qa']
-target_relation_id = "22"
+target_relation_id = "106"
 
 
 def set_seed(seed):
@@ -368,7 +368,7 @@ def load_training_args(args):
         num_train_epochs=args.epochs,
         evaluation_strategy="epoch",
         logging_strategy="epoch",
-        learning_rate=2e-3,
+        learning_rate=2e-4,
         max_grad_norm=0.3,
         warmup_ratio=0,
         lr_scheduler_type="linear",
