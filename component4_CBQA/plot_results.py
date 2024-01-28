@@ -1,5 +1,6 @@
 import os, json
 import math
+import matplotlib.pyplot as plt
 
 def split_to_buckets(objects, split_points):
     
@@ -10,7 +11,7 @@ def split_to_buckets(objects, split_points):
     for obj in objects:
         # rp = obj['relative_popularity']
         if obj['pageviews'] != 0:
-            rp = math.log(obj['pageviews'], 10)
+            rp = math.log(int(obj['pageviews']), 10)
         else:
             rp = 0
         
@@ -34,6 +35,16 @@ def split_to_buckets(objects, split_points):
                     bucket_data['bucket{}'.format(i+2)] = [obj]
     return bucket_data
 
+def plot_bucket_num(results_per_bk):
+    bucket_num = []
+    for bk_name, objs in results_per_bk.items():
+        bucket_num.append(len(objs))
+    
+    plt.bar(range(len(bucket_num)), bucket_num)
+    # plt.title("EQ test-set")
+    plt.tight_layout()
+    plt.show()
+
 def calculate_accuracy(results_per_bk):
     acc_per_bk = {}
     for bk_name, calculate_accuracy in results_per_bk.items():
@@ -44,14 +55,19 @@ def calculate_accuracy(results_per_bk):
 
 def main():
     result_dir = "component0_preprocessing/generated_data/popQA_EQformat/results"
-    result_filename = "106.opt-350m.icl_gt_results.jsonl"
+    # result_filename = "106.opt-350m.icl_gt_results.jsonl"
+    result_filename = "106.opt-350m.icl_vanilla_results.jsonl"
+    
     result_file = os.path.join(result_dir, result_filename)
-    split_points = [3, 4, 5, 6] # Good for my pageviews
+    split_points = [2, 3, 4, 5] # Good for my pageviews
+    # split_points = [2, 3, 4, 5]
     
     with open(result_file, 'r') as file:
         results = [json.loads(line) for line in file]
     
     results_per_bk = split_to_buckets(results, split_points)
+    plot_bucket_num(results_per_bk)
+    
     acc_per_bk = calculate_accuracy(results_per_bk)
     print(acc_per_bk)
 
