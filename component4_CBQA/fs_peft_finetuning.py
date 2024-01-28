@@ -32,7 +32,7 @@ with_peft = True
 with_fs = True
 # with_rag = False
 training_style = 'qa' # ['clm', 'qa']
-test_relation_id = "182"
+target_relation_id = "22"
 
 
 def set_seed(seed):
@@ -179,7 +179,7 @@ def load_relations_data(args):
 
     # Select one relation =================
     # test_relation_id = random.choice(list(relation_files.keys()))
-    test_relation_id = test_relation_id
+    test_relation_id = target_relation_id
     test_files = {}
     
     for subfolder in subfolders:
@@ -534,7 +534,7 @@ def main(args):
         # preprocess_logits_for_metrics=preprocess_logits_for_metrics
     )
     
-    print("Inference before fine-tuning ....")
+    print("Inference before fine-tuning & without RAG ....")
     inference_on_testset(
         model,
         tokenizer,
@@ -546,8 +546,24 @@ def main(args):
         device,
         args,
         with_fs,
-        prefix="bf",
+        prefix="bf_norag",
         with_rag=False
+    )
+    
+    print("Inference before fine-tuning & with RAG ....")
+    inference_on_testset(
+        model,
+        tokenizer,
+        test_questions,
+        test_answers,
+        test_relation_id,
+        fewshot_relations,
+        relation_files,
+        device,
+        args,
+        with_fs,
+        prefix="bf_rag",
+        with_rag=True
     )
     
     print('\n\n')
@@ -556,7 +572,7 @@ def main(args):
     model.save_pretrained(output_dir)
     # model.push_to_hub(args.repo_name, token=True)
     
-    print("Inference after fine-tuning ....")
+    print("Inference after fine-tuning & without RAG ....")
     inference_on_testset(
         model,
         tokenizer,
@@ -568,10 +584,11 @@ def main(args):
         device,
         args,
         with_fs,
-        prefix="af",
+        prefix="af_norag",
         with_rag=False
     )
     
+    print("Inference after fine-tuning & with RAG ....")
     inference_on_testset(
         model,
         tokenizer,
