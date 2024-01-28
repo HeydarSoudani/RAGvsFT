@@ -209,12 +209,12 @@ def inference_on_testset(
             
             
             retrieved_text = ""
-            for ret_result in ret_results:
-                if ret_result['id'] == query_id:
-                    retrieved_text = ret_result['ctxs'][0]['text']
-                    break
-            if retrieved_text == "":
-                print("No retrieved text found for query: {}".format(query))
+            # for ret_result in ret_results:
+            #     if ret_result['id'] == query_id:
+            #         retrieved_text = ret_result['ctxs'][0]['text']
+            #         break
+            # if retrieved_text == "":
+            #     print("No retrieved text found for query: {}".format(query))
             
             prompt = few_shot_examples_text + retrieved_text + "\n\n" + completion_template_wo_ans.format(query)
             

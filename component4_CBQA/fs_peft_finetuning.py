@@ -6,6 +6,7 @@ from io import BytesIO
 from zipfile import ZipFile
 from datasets import Dataset, DatasetDict
 import argparse, os, json
+from itertools import chain
 import torch
 import transformers
 from transformers import AutoTokenizer, AutoConfig, AutoModelForCausalLM, TrainingArguments, Trainer, BitsAndBytesConfig
@@ -26,8 +27,11 @@ device = 'cuda:0'
 dataset_name = 'popQA' # [TQA, popQA, EQ]
 completion_template_wo_ans = "Q: {} A:"
 completion_template_with_ans = "Q: {} A: {}"
+dev_split = 0.1
 with_peft = True
 with_fs = True
+# with_rag = False
+training_style = 'clm' # ['clm', 'qa']
 
 def set_seed(seed):
     """Set the seed for reproducibility in PyTorch, NumPy, and Python."""
@@ -173,32 +177,32 @@ def load_relations_data(args):
 
     # Select one relation =================
     # selected_relation_id = random.choice(list(relation_files.keys()))
-    selected_relation_id = "106"
-    selected_files = {}
+    test_relation_id = "106"
+    test_files = {}
     
     for subfolder in subfolders:
         subfolder_path = os.path.join(args.data_dir, subfolder)
         for file in os.listdir(subfolder_path):
-            if file.startswith(selected_relation_id):
-                selected_files[subfolder] = os.path.join(subfolder_path, file)
+            if file.startswith(test_relation_id):
+                test_files[subfolder] = os.path.join(subfolder_path, file)
 
-    print("Selected Relation ID:", selected_relation_id)
-    print("Selected Files:", selected_files)
+    print("Selected Relation ID:", test_relation_id)
+    print("Selected Files:", test_files)
     
     # Other relations ===============
     if dataset_name in ['EQ', 'popQA']:
-        relation_files.pop(selected_relation_id)
+        relation_files.pop(test_relation_id)
     
-    selected_relations = random.sample(relation_files.keys(), num_relations)
+    fewshot_relations = random.sample(relation_files.keys(), num_relations)
 
-    return relation_files, selected_relations, selected_files
+    return test_relation_id, test_files, fewshot_relations, relation_files
     
-def load_dataset(tokenizer, selected_files):
+def load_dataset_qa(tokenizer, test_files):
 
     subset_percentage = 1.0    
     ### === Train part ================================ 
-    train_data = load_json_file(selected_files['train'])
-    dev_data = load_json_file(selected_files['dev'])
+    train_data = load_json_file(test_files['train'])
+    dev_data = load_json_file(test_files['dev'])
 
     train_subset_size = int(subset_percentage * len(train_data))
     subset_train_data = random.sample(train_data, train_subset_size)
@@ -247,7 +251,8 @@ def load_dataset(tokenizer, selected_files):
     )
     print(tokenized_train_datasets)
     
-    # = Print a sample of dataset
+    
+    # === Print a sample of dataset
     input_text = tokenizer.decode(
         tokenized_train_datasets['train'][0]["input_ids"],
         skip_special_tokens=True
@@ -258,7 +263,7 @@ def load_dataset(tokenizer, selected_files):
     
     ### === Test part ================================= 
     if dataset_name in ['popQA', 'EQ']:        
-        test_data = load_json_file(selected_files['test'])
+        test_data = load_json_file(test_files['test'])
         test_subset_size = int(subset_percentage * len(test_data))
         subset_test_data = random.sample(test_data, test_subset_size)    
         test_questions = [(item['query_id'], item['question'], item['pageviews']) for item in subset_test_data]
@@ -267,7 +272,88 @@ def load_dataset(tokenizer, selected_files):
         return tokenized_train_datasets, (test_questions, test_answers)
     
     return tokenized_train_datasets, (val_questions, val_answers)
+
+def load_dataset_corpus(tokenizer, test_relation_id, test_files):
+    subset_percentage = 1.0
+    max_pos_embeddings = 1024
     
+    corpus_path = f"{args.data_dir}/corpus/{test_relation_id}.corpus.json"
+    with open(corpus_path, 'r') as in_file:
+        corpus_data = json.load(in_file)
+    corpus_content_data = [item["content"] for item in corpus_data]
+    
+    random.shuffle(corpus_content_data)
+    split_index = int(len(corpus_content_data) * dev_split)
+    dev_content = corpus_content_data[:split_index]
+    train_content = corpus_content_data[split_index:]
+    
+    train_subset_size = int(subset_percentage * len(train_content))
+    subset_train_data = random.sample(train_content, train_subset_size)
+    dev_subset_size = int(subset_percentage * len(dev_content))
+    subset_dev_data = random.sample(dev_content, dev_subset_size)
+    
+    raw_dataset = DatasetDict({
+        'train': Dataset.from_dict({
+            "text": subset_train_data,
+        }),
+        'dev': Dataset.from_dict({
+            "text": subset_dev_data,
+        })
+    })
+    print(raw_dataset)
+    
+    column_names = list(raw_dataset["train"].features)
+    text_column_name = "text" if "text" in column_names else column_names[0]
+    def tokenize_function(examples):
+        output = tokenizer(examples[text_column_name])
+        return output
+
+    tokenized_datasets = raw_dataset.map(
+        tokenize_function,
+        batched=True,
+        remove_columns=column_names,
+        desc="Running tokenizer on dataset",
+    )
+    
+    block_size = tokenizer.model_max_length
+    if block_size > max_pos_embeddings:
+        print(
+            f"The tokenizer picked seems to have a very large `model_max_length` ({tokenizer.model_max_length}). "
+            f"Using block_size={min(1024, max_pos_embeddings)} instead. You can change that default value by passing --block_size xxx."
+        )
+        if max_pos_embeddings > 0:
+            block_size = min(1024, max_pos_embeddings)
+        else:
+            block_size = 1024
+    
+    def group_texts(examples):
+        concatenated_examples = {k: list(chain(*examples[k])) for k in examples.keys()}
+        total_length = len(concatenated_examples[list(examples.keys())[0]])
+        total_length = (total_length // block_size) * block_size
+    
+        result = {
+            k: [t[i : i + block_size] for i in range(0, total_length, block_size)]
+            for k, t in concatenated_examples.items()
+        }
+        result["labels"] = result["input_ids"].copy()
+        return result
+    
+    tokenized_train_datasets = tokenized_datasets.map(
+        group_texts,
+        batched=True,
+        desc=f"Grouping texts in chunks of {block_size}",
+    )
+    
+    ### === Test part =================================         
+    if dataset_name in ['popQA', 'EQ']:  
+        test_data = load_json_file(test_files['test'])
+        test_subset_size = int(subset_percentage * len(test_data))
+        subset_test_data = random.sample(test_data, test_subset_size)    
+        test_questions = [(item['query_id'], item['question'], item['pageviews']) for item in subset_test_data]
+        test_answers = [item['answers'] for item in subset_test_data]
+    
+    return tokenized_train_datasets, (test_questions, test_answers)
+
 def load_training_args(args):
     repo_name = "HeydarS/{}_ft_v{}".format(args.model_name_or_path.split('/')[-1], args.version)
     output_dir = os.path.join(args.output_dir, repo_name.split('/')[-1])
@@ -304,30 +390,40 @@ def inference_on_testset(
     tokenizer,
     test_questions,
     test_answers,
+    test_relation_id,
+    fewshot_relations,
     relation_files,
-    selected_relations,
     device,
     args,
-    with_fs=True,
-    prefix="af",
+    with_fs,
+    prefix="bf",
+    with_rag=False
 ):
-    results_dir = f"{args.data_dir}/results"
-    os.makedirs(results_dir, exist_ok=True)
-    result_file_path = f"{results_dir}/106.{args.model_name_or_path.split('/')[-1]}.{prefix}_results.jsonl"
+    # Create results dir
+    out_results_dir = f"{args.data_dir}/results"
+    os.makedirs(out_results_dir, exist_ok=True)
+    model_name = args.model_name_or_path.split('/')[-1]
+    out_results_path = f"{out_results_dir}/{test_relation_id}.{model_name}.{prefix}_results.jsonl"
+    
+    if with_rag:
+        # Get retrieval results
+        ret_results_dir = f"{args.data_dir}/retrieved"
+        ret_results_path = f"{ret_results_dir}/{test_relation_id}.ret_results.jsonl"
+        with open (ret_results_path, 'r') as file:
+            ret_results = [json.loads(line) for line in file]
     
     num_samples_per_relation = 1
     model.eval()
     max_new_tokens=15
     accuracy = []
     
-    with open(result_file_path, 'w') as file:
-    
+    with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv) in enumerate(test_questions):
                     
             if with_fs:
                 few_shot_examples = create_few_shot_examples(
                     relation_files,
-                    selected_relations,
+                    fewshot_relations,
                     num_samples_per_relation,
                     'test' if dataset_name in ['EQ', 'popQA'] else 'dev'
                 )
@@ -336,7 +432,16 @@ def inference_on_testset(
             else:
                 few_shot_examples_text = "\n\n"
             
-            prompt = few_shot_examples_text + completion_template_wo_ans.format(query)
+            retrieved_text = ""
+            if with_rag:
+                for ret_result in ret_results:
+                    if ret_result['id'] == query_id:
+                        retrieved_text = ret_result['ctxs'][0]['text']
+                        break
+                if retrieved_text == "":
+                    print("No retrieved text found for query: {}".format(query))
+            
+            prompt = few_shot_examples_text + retrieved_text + "\n\n" + completion_template_wo_ans.format(query)
             
             inpts = tokenizer(prompt, return_tensors="pt").to(device)
             inpt_decoded = tokenizer.decode(inpts["input_ids"][0, :])
@@ -397,11 +502,22 @@ def main(args):
     
     set_seed(42)
     model, tokenizer = load_model(args, with_peft=with_peft)
-    relation_files, selected_relations, selected_files = load_relations_data(args)
-    tokenized_train_datasets, (test_questions, test_answers) = load_dataset(
-        tokenizer,
-        selected_files
-    )
+    
+    test_relation_id, test_files, fewshot_relations, relation_files = load_relations_data(args)
+    
+    
+    if training_style == 'qa':
+        tokenized_train_datasets, (test_questions, test_answers) = load_dataset_qa(
+            tokenizer,
+            test_files
+        )
+    elif training_style == 'clm':
+        tokenized_train_datasets, (test_questions, test_answers) = load_dataset_corpus(
+            tokenizer,
+            test_relation_id,
+            test_files
+        )
+    
     training_arguments = load_training_args(args)
     data_collator = transformers.DataCollatorForLanguageModeling(tokenizer, mlm=False)
 
@@ -416,19 +532,21 @@ def main(args):
         # preprocess_logits_for_metrics=preprocess_logits_for_metrics
     )
     
-    # print("Inference before fine-tuning ....")
-    # inference_on_testset(
-    #     model,
-    #     tokenizer,
-    #     test_questions,
-    #     test_answers,
-    #     relation_files,
-    #     selected_relations,
-    #     device,
-    #     args,
-    #     with_fs,
-    #     prefix="bf"
-    # )
+    print("Inference before fine-tuning ....")
+    inference_on_testset(
+        model,
+        tokenizer,
+        test_questions,
+        test_answers,
+        test_relation_id,
+        fewshot_relations,
+        relation_files,
+        device,
+        args,
+        with_fs,
+        prefix="bf",
+        with_rag=False
+    )
     
     print('\n\n')
     print("Fine-tuning ....")
@@ -442,12 +560,29 @@ def main(args):
         tokenizer,
         test_questions,
         test_answers,
+        test_relation_id,
+        fewshot_relations,
         relation_files,
-        selected_relations,
         device,
         args,
         with_fs,
-        prefix="af"
+        prefix="af",
+        with_rag=False
+    )
+    
+    inference_on_testset(
+        model,
+        tokenizer,
+        test_questions,
+        test_answers,
+        test_relation_id,
+        fewshot_relations,
+        relation_files,
+        device,
+        args,
+        with_fs,
+        prefix="af_rag",
+        with_rag=True
     )
 
 if __name__ == "__main__":
