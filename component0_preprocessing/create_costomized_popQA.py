@@ -253,8 +253,7 @@ def plot_bucket_num(input_file, relation_name):
     plt.title(relation_name)
     plt.tight_layout()
     plt.show()
-
-    
+  
 def count_tokens(sentence: str) -> int:
     return len(sentence.split())
 
@@ -322,8 +321,6 @@ def corpus_cleaning(corpus_in_file, corpus_out_file, qrels_in_file, qrels_out_fi
                 qsp_obj = {"query_id": query_id, "doc_id": new_doc_id, "score": score}
                 new_qrel_file.write(json.dumps(qsp_obj) + "\n") 
             
-    
-    
 
 if __name__ == "__main__":
     
