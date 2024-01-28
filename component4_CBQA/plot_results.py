@@ -47,16 +47,20 @@ def plot_bucket_num(results_per_bk):
 
 def calculate_accuracy(results_per_bk):
     acc_per_bk = {}
-    for bk_name, calculate_accuracy in results_per_bk.items():
-        acc = sum([1 if obj['is_correct'] else 0 for obj in calculate_accuracy]) / len(calculate_accuracy)
+    for bk_name, bk_data in results_per_bk.items():
+        acc = sum([1 if obj['is_correct'] else 0 for obj in bk_data]) / len(bk_data)
         acc_per_bk[bk_name] = acc
     return acc_per_bk
 
 
 def main():
     result_dir = "component0_preprocessing/generated_data/popQA_EQformat/results"
-    # result_filename = "106.opt-350m.icl_gt_results.jsonl"
+    
     result_filename = "106.opt-350m.icl_vanilla_results.jsonl"
+    result_filename = "106.opt-350m.icl_gt_results.jsonl"
+    result_filename = "106.opt-350m.bf_results.jsonl"
+    result_filename = "106.opt-350m.ft_results.jsonl"
+    result_filename = "106.opt-350m.af_rag_results.jsonl"
     
     result_file = os.path.join(result_dir, result_filename)
     split_points = [2, 3, 4, 5] # Good for my pageviews
@@ -66,8 +70,10 @@ def main():
         results = [json.loads(line) for line in file]
     
     results_per_bk = split_to_buckets(results, split_points)
-    plot_bucket_num(results_per_bk)
+    # plot_bucket_num(results_per_bk)
     
+    acc = calculate_accuracy({"all": results})
+    print(acc)
     acc_per_bk = calculate_accuracy(results_per_bk)
     print(acc_per_bk)
 
