@@ -31,7 +31,9 @@ dev_split = 0.1
 with_peft = True
 with_fs = True
 # with_rag = False
-training_style = 'clm' # ['clm', 'qa']
+training_style = 'qa' # ['clm', 'qa']
+test_relation_id = "182"
+
 
 def set_seed(seed):
     """Set the seed for reproducibility in PyTorch, NumPy, and Python."""
@@ -176,8 +178,8 @@ def load_relations_data(args):
             relation_files[relation_id].append(os.path.join(subfolder_path, file))    
 
     # Select one relation =================
-    # selected_relation_id = random.choice(list(relation_files.keys()))
-    test_relation_id = "106"
+    # test_relation_id = random.choice(list(relation_files.keys()))
+    test_relation_id = test_relation_id
     test_files = {}
     
     for subfolder in subfolders:
@@ -366,7 +368,7 @@ def load_training_args(args):
         num_train_epochs=args.epochs,
         evaluation_strategy="epoch",
         logging_strategy="epoch",
-        learning_rate=2e-4,
+        learning_rate=2e-3,
         max_grad_norm=0.3,
         warmup_ratio=0,
         lr_scheduler_type="linear",
@@ -463,19 +465,18 @@ def inference_on_testset(
             # pred = pred[5:]
             pred = pred.split("\n")[0]
 
-            # if idx % 15 == 0:
-            print('Query: {}'.format(query))
-            print('Pred: {}'.format(pred))
-            print('Labels: {}'.format(test_answers[idx]))
-                # print('\n\n')
-            
             is_correct = False
             for pa in test_answers[idx]:
                 if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
                     is_correct = True
             accuracy.append(is_correct)
-            print('Final decision: {}'.format(is_correct))
-            print('====')
+            
+            if idx % 100 == 0:
+                print('Query: {}'.format(query))
+                print('Pred: {}'.format(pred))
+                print('Labels: {}'.format(test_answers[idx]))
+                print('Final decision: {}'.format(is_correct))
+                # print('====')
             
             # Write to file
             item = {
@@ -490,6 +491,8 @@ def inference_on_testset(
 
         acc = sum(accuracy) / len(accuracy)
         print(f"Accuracy: {acc * 100:.2f}%")
+        print("===========================")
+        print('\n')
 
 def main(args):
     args.repo_name = "HeydarS/{}_{}_v{}".format(
@@ -504,7 +507,6 @@ def main(args):
     model, tokenizer = load_model(args, with_peft=with_peft)
     
     test_relation_id, test_files, fewshot_relations, relation_files = load_relations_data(args)
-    
     
     if training_style == 'qa':
         tokenized_train_datasets, (test_questions, test_answers) = load_dataset_qa(

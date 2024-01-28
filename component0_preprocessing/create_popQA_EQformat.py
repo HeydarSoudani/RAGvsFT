@@ -494,20 +494,20 @@ def main(args):
 
     ### ==== Creating corpus & qrels files ================
     # create_corpus_and_qrels_files_via_api()
-    create_corpus_and_qrels_files_via_hf_datasets()
+    # create_corpus_and_qrels_files_via_hf_datasets()
     # check_entities()
     # add_empty_entities()
     
     ### ==== Creating train & dev & qrels-train files =====
-    # relation_id = "106"
-    # create_train_and_dev_files(args, relation_id=relation_id)
+    relation_id = "182" # 106, 22, 182
+    create_train_and_dev_files(args, relation_id=relation_id)
     
     
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    # parser.add_argument("--qg_model", type=str, required=True)
-    # parser.add_argument("--ae_model", type=str, required=True)
+    parser.add_argument("--qg_model", type=str, required=True)
+    parser.add_argument("--ae_model", type=str, required=True)
     
     args = parser.parse_args()
     main(args)
