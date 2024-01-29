@@ -450,6 +450,7 @@ def inference_on_testset(
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(test_questions):
                     
+            few_shot_examples_text = ""
             if with_fs:
                 few_shot_examples = create_few_shot_examples(
                     relation_files,
@@ -458,9 +459,7 @@ def inference_on_testset(
                     'test' if dataset_name in ['EQ', 'popQA'] else 'dev'
                 )
                 np.random.shuffle(few_shot_examples)
-                few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
-            else:
-                few_shot_examples_text = "\n\n"
+                few_shot_examples_text = "\n\n".join(few_shot_examples)
             
             retrieved_text = ""
             if with_rag:
@@ -471,7 +470,7 @@ def inference_on_testset(
                 if retrieved_text == "":
                     print("No retrieved text found for query: {}".format(query))
             
-            prompt = few_shot_examples_text + retrieved_text + "\n\n" + completion_template_wo_ans.format(query)
+            prompt = few_shot_examples_text + "\n\n" + retrieved_text + "\n\n" + completion_template_wo_ans.format(query)
             
             inpts = tokenizer(prompt, return_tensors="pt").to(device)
             inpt_decoded = tokenizer.decode(inpts["input_ids"][0, :])
