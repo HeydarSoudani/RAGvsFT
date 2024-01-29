@@ -133,8 +133,10 @@ def create_few_shot_examples(
     split_name
 ):
     
-    relation_files.pop(query_relation)
-    fewshot_relations = random.sample(relation_files.keys(), num_relations)
+    # relation_files.pop(query_relation)
+    # fewshot_relations = random.sample(relation_files.keys(), num_relations)
+    keys_to_sample = [key for key in relation_files.keys() if key != query_relation]
+    fewshot_relations = random.sample(keys_to_sample, num_relations)
     
     few_shot_examples = []
     
