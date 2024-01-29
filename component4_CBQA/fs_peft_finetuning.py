@@ -32,7 +32,12 @@ with_peft = True
 with_fs = True
 # with_rag = False
 training_style = 'qa' # ['clm', 'qa']
-target_relation_id = "106"
+target_relation_ids = ["106", "22", "182"]
+
+if dataset_name == "TQA":
+    num_relations = 1
+else:
+    num_relations = 15
 
 
 def set_seed(seed):
@@ -123,13 +128,17 @@ def load_model(args, with_peft=False):
 
 def create_few_shot_examples(
     relation_files,
-    selected_relations,
+    query_relation,
     num_samples,
     split_name
 ):
+    
+    relation_files.pop(query_relation)
+    fewshot_relations = random.sample(relation_files.keys(), num_relations)
+    
     few_shot_examples = []
     
-    for relation_id in selected_relations:
+    for relation_id in fewshot_relations:
         files = relation_files[relation_id]
         split_file = next((file for file in files if split_name in file), None)
         data = load_json_file(split_file)
@@ -162,10 +171,8 @@ def load_relations_data(args):
         zip_file.close()
     
     if dataset_name == "TQA":
-        num_relations = 1
         subfolders = ['train', 'dev']
     else:
-        num_relations = 15
         subfolders = ['train', 'dev', 'test']
     
     relation_files = {}
@@ -179,32 +186,41 @@ def load_relations_data(args):
 
     # Select one relation =================
     # test_relation_id = random.choice(list(relation_files.keys()))
-    test_relation_id = target_relation_id
-    test_files = {}
+    test_relation_ids = target_relation_ids
+    
+    test_files = {subfolder: [] for subfolder in subfolders}
     
     for subfolder in subfolders:
         subfolder_path = os.path.join(args.data_dir, subfolder)
         for file in os.listdir(subfolder_path):
-            if file.startswith(test_relation_id):
-                test_files[subfolder] = os.path.join(subfolder_path, file)
+            file_id = file.split('.')[0]
+            if file_id in test_relation_ids:
+                test_files[subfolder].append(os.path.join(subfolder_path, file))
 
-    print("Selected Relation ID:", test_relation_id)
+    print("Selected Relation ID:", test_relation_ids)
     print("Selected Files:", test_files)
     
     # Other relations ===============
-    if dataset_name in ['EQ', 'popQA']:
-        relation_files.pop(test_relation_id)
-    
-    fewshot_relations = random.sample(relation_files.keys(), num_relations)
+    # if dataset_name in ['EQ', 'popQA']:
+    #     relation_files.pop(test_relation_id)
+    # fewshot_relations = random.sample(relation_files.keys(), num_relations)
 
-    return test_relation_id, test_files, fewshot_relations, relation_files
+    return test_relation_ids, test_files, relation_files
+    # return test_relation_ids, test_files, fewshot_relations, relation_files
     
 def load_dataset_qa(tokenizer, test_files):
 
     subset_percentage = 1.0    
     ### === Train part ================================ 
-    train_data = load_json_file(test_files['train'])
-    dev_data = load_json_file(test_files['dev'])
+    train_data = []
+    for file in test_files['train']:
+        train_data.extend(load_json_file(file))    
+    dev_data = []
+    for file in test_files['dev']:
+        dev_data.extend(load_json_file(file))    
+    
+    # train_data = load_json_file(test_files['train'])
+    # dev_data = load_json_file(test_files['dev'])
 
     train_subset_size = int(subset_percentage * len(train_data))
     subset_train_data = random.sample(train_data, train_subset_size)
@@ -265,10 +281,19 @@ def load_dataset_qa(tokenizer, test_files):
     
     ### === Test part ================================= 
     if dataset_name in ['popQA', 'EQ']:        
-        test_data = load_json_file(test_files['test'])
+        
+        test_data = []
+        # test_data = load_json_file(test_files['test'])
+        for file in test_files['test']:
+            relation_id = file.split('/')[-1].split('.')[0]
+            data = load_json_file(file)
+            for item in data:
+                item['relation_id'] = relation_id
+            test_data.extend(data) 
+        
         test_subset_size = int(subset_percentage * len(test_data))
         subset_test_data = random.sample(test_data, test_subset_size)    
-        test_questions = [(item['query_id'], item['question'], item['pageviews']) for item in subset_test_data]
+        test_questions = [(item['query_id'], item['question'], item['pageviews'], item['relation_id']) for item in subset_test_data]
         test_answers = [item['answers'] for item in subset_test_data]
     
         return tokenized_train_datasets, (test_questions, test_answers)
@@ -392,8 +417,7 @@ def inference_on_testset(
     tokenizer,
     test_questions,
     test_answers,
-    test_relation_id,
-    fewshot_relations,
+    test_relation_ids,
     relation_files,
     device,
     args,
@@ -405,14 +429,18 @@ def inference_on_testset(
     out_results_dir = f"{args.data_dir}/results"
     os.makedirs(out_results_dir, exist_ok=True)
     model_name = args.model_name_or_path.split('/')[-1]
-    out_results_path = f"{out_results_dir}/{test_relation_id}.{model_name}.{prefix}_results.jsonl"
+    str_rels = '_'.join(test_relation_ids)
+    out_results_path = f"{out_results_dir}/{str_rels}.{model_name}.{prefix}_results.jsonl"
     
     if with_rag:
         # Get retrieval results
+        ret_results = []
         ret_results_dir = f"{args.data_dir}/retrieved"
-        ret_results_path = f"{ret_results_dir}/{test_relation_id}.ret_results.jsonl"
-        with open (ret_results_path, 'r') as file:
-            ret_results = [json.loads(line) for line in file]
+        
+        for test_relation_id in test_relation_ids:
+            ret_results_path = f"{ret_results_dir}/{test_relation_id}.ret_results.jsonl"
+            with open (ret_results_path, 'r') as file:
+                ret_results.extend([json.loads(line) for line in file])
     
     num_samples_per_relation = 1
     model.eval()
@@ -420,12 +448,12 @@ def inference_on_testset(
     accuracy = []
     
     with open(out_results_path, 'w') as file:
-        for idx, (query_id, query, query_pv) in enumerate(test_questions):
+        for idx, (query_id, query, query_pv, query_relation) in enumerate(test_questions):
                     
             if with_fs:
                 few_shot_examples = create_few_shot_examples(
                     relation_files,
-                    fewshot_relations,
+                    query_relation,
                     num_samples_per_relation,
                     'test' if dataset_name in ['EQ', 'popQA'] else 'dev'
                 )
@@ -506,7 +534,7 @@ def main(args):
     set_seed(42)
     model, tokenizer = load_model(args, with_peft=with_peft)
     
-    test_relation_id, test_files, fewshot_relations, relation_files = load_relations_data(args)
+    test_relation_ids, test_files, relation_files = load_relations_data(args)
     
     if training_style == 'qa':
         tokenized_train_datasets, (test_questions, test_answers) = load_dataset_qa(
@@ -516,7 +544,7 @@ def main(args):
     elif training_style == 'clm':
         tokenized_train_datasets, (test_questions, test_answers) = load_dataset_corpus(
             tokenizer,
-            test_relation_id,
+            test_relation_ids,
             test_files
         )
     
@@ -540,8 +568,7 @@ def main(args):
         tokenizer,
         test_questions,
         test_answers,
-        test_relation_id,
-        fewshot_relations,
+        test_relation_ids,
         relation_files,
         device,
         args,
@@ -556,8 +583,7 @@ def main(args):
         tokenizer,
         test_questions,
         test_answers,
-        test_relation_id,
-        fewshot_relations,
+        test_relation_ids,
         relation_files,
         device,
         args,
@@ -578,8 +604,7 @@ def main(args):
         tokenizer,
         test_questions,
         test_answers,
-        test_relation_id,
-        fewshot_relations,
+        test_relation_ids,
         relation_files,
         device,
         args,
@@ -594,8 +619,7 @@ def main(args):
         tokenizer,
         test_questions,
         test_answers,
-        test_relation_id,
-        fewshot_relations,
+        test_relation_ids,
         relation_files,
         device,
         args,

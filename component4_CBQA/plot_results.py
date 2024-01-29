@@ -66,6 +66,11 @@ def main():
     # result_filename = "182.opt-350m.af_norag_results.jsonl"
     # result_filename = "182.opt-350m.af_rag_results.jsonl"
     
+    # result_filename = "106.opt-350m.bf_norag_results.jsonl"
+    # result_filename = "106.opt-350m.bf_rag_results.jsonl"
+    # result_filename = "106.opt-350m.af_norag_results.jsonl"
+    # result_filename = "106.opt-350m.af_rag_results.jsonl"
+    
     result_file = os.path.join(result_dir, result_filename)
     split_points = [2, 3, 4, 5] # Good for my pageviews
     # split_points = [2, 3, 4, 5]
