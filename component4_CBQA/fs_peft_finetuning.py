@@ -388,7 +388,7 @@ def load_dataset_corpus(tokenizer, test_relation_id, test_files):
 
 def load_training_args(args):
     repo_name = "HeydarS/{}_ft_v{}".format(args.model_name_or_path.split('/')[-1], args.version)
-    output_dir = os.path.join(args.output_dir, repo_name.split('/')[-1])
+    output_dir = os.path.join(args.output_model_dir, repo_name.split('/')[-1])
         
     training_arguments = TrainingArguments(
         output_dir=output_dir,
@@ -431,7 +431,7 @@ def inference_on_testset(
     with_rag=False
 ):
     # Create results dir
-    out_results_dir = f"{args.data_dir}/results"
+    out_results_dir = f"{args.output_result_dir}/results"
     os.makedirs(out_results_dir, exist_ok=True)
     model_name = args.model_name_or_path.split('/')[-1]
     str_rels = '_'.join(test_relation_ids)
@@ -533,7 +533,7 @@ def main(args):
         args.version
     )
     repo_name = "HeydarS/{}_ft_v{}".format(args.model_name_or_path.split('/')[-1], args.version)
-    output_dir = os.path.join(args.output_dir, repo_name.split('/')[-1])
+    output_dir = os.path.join(args.output_model_dir, repo_name.split('/')[-1])
     
     set_seed(42)
     model, tokenizer = load_model(args, with_peft=with_peft)
@@ -636,7 +636,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, required=True)
     parser.add_argument("--data_dir", type=str)
-    parser.add_argument("--output_dir", type=str)
+    parser.add_argument("--output_model_dir", type=str)
+    parser.add_argument("--output_result_dir", type=str)
     parser.add_argument("--epochs", default=1, type=int)
     parser.add_argument("--version", default=1, type=int)
     

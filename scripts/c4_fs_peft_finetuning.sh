@@ -19,7 +19,8 @@ pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 srun $HOME/RAGvsFT/component4_CBQA/fs_peft_finetuning.py \
     --model_name_or_path "facebook/opt-350m" \
     --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
-    --output_dir $HOME/RAGvsFT/component4_CBQA/models \
+    --output_model_dir $HOME/RAGvsFT/component4_CBQA/models \
+    --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
     --epochs 10 \
     --version 20
 
