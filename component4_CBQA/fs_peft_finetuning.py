@@ -35,6 +35,7 @@ training_style = 'qa' # ['clm', 'qa']
 # target_relation_ids = ["106", "22", "182"]
 target_relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
 # target_relation_ids = ["91"]
+subset_percentage = 1.0
 
 if dataset_name == "TQA":
     num_relations = 1
@@ -124,7 +125,7 @@ def load_model(args, with_peft=False):
         trust_remote_code=True
     )
     tokenizer.pad_token = tokenizer.eos_token
-    tokenizer.padding_side = 'left'
+    # tokenizer.padding_side = 'left'
     
     return model, tokenizer
 
@@ -213,8 +214,7 @@ def load_relations_data(args):
     # return test_relation_ids, test_files, fewshot_relations, relation_files
     
 def load_dataset_qa(tokenizer, test_files):
-
-    subset_percentage = 1.0    
+    
     ### === Train part ================================ 
     train_data = []
     # for file in test_files['train']:
