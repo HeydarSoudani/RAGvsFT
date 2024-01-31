@@ -36,7 +36,7 @@ training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
 # target_relation_ids = ["91"]
 
-subset_percentage = 1.0
+subset_percentage = 0.1
 if dataset_name == "TQA":
     num_relations = 1
 else:
@@ -57,6 +57,14 @@ def set_seed(seed):
 def load_json_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
+
+def load_json_files(relation_files, split_name):
+    json_data = {}
+    for relation_id, files in relation_files.items():
+        split_file = next((file for file in files if split_name in file), None)
+        with open(split_file, 'r') as file:
+            json_data[relation_id] = json.load(file)
+    return json_data
 
 def load_model(args, with_peft=False):
     
@@ -129,37 +137,54 @@ def load_model(args, with_peft=False):
     
     return model, tokenizer
 
-def create_few_shot_examples(
-    relation_files,
-    query_relation,
-    num_samples,
-    split_name
-):
+# def create_few_shot_examples(
+#     relation_files,
+#     query_relation,
+#     num_samples,
+#     split_name
+# ):
     
-    # relation_files.pop(query_relation)
-    # fewshot_relations = random.sample(relation_files.keys(), num_relations)
-    keys_to_sample = [key for key in relation_files.keys() if key != query_relation]
-    fewshot_relations = random.sample(keys_to_sample, num_relations)
+#     # relation_files.pop(query_relation)
+#     # fewshot_relations = random.sample(relation_files.keys(), num_relations)
+#     keys_to_sample = [key for key in relation_files.keys() if key != query_relation]
+#     fewshot_relations = random.sample(keys_to_sample, num_relations)
     
-    few_shot_examples = []
+#     few_shot_examples = []
     
-    for relation_id in fewshot_relations:
-        files = relation_files[relation_id]
-        split_file = next((file for file in files if split_name in file), None)
-        data = load_json_file(split_file)
+#     for relation_id in fewshot_relations:
+#         files = relation_files[relation_id]
+#         split_file = next((file for file in files if split_name in file), None)
+#         data = load_json_file(split_file)
         
-        sampled_examples = random.sample(data, min(num_samples, len(data)))
-        for example in sampled_examples:
+#         sampled_examples = random.sample(data, min(num_samples, len(data)))
+#         for example in sampled_examples:
             
-            if dataset_name in ['EQ', 'popQA']:
-                question = example['question']
-                answers = example['answers']
-            elif dataset_name == 'TQA':
-                question = example['Question']
-                answers = example['Answer']['NormalizedAliases']
+#             if dataset_name in ['EQ', 'popQA']:
+#                 question = example['question']
+#                 answers = example['answers']
+#             elif dataset_name == 'TQA':
+#                 question = example['Question']
+#                 answers = example['Answer']['NormalizedAliases']
             
-            completion = completion_template_with_ans.format(question, random.choice(answers))
-            few_shot_examples.append(completion)
+#             completion = completion_template_with_ans.format(question, random.choice(answers))
+#             few_shot_examples.append(completion)
+#     return few_shot_examples
+
+def format_example(example, dataset_name):
+    if dataset_name in ['EQ', 'popQA']:
+        return example['question'], example['answers']
+    elif dataset_name == 'TQA':
+        return example['Question'], example['Answer']['NormalizedAliases']
+
+
+def create_few_shot_examples(relation_id, data, num_samples):
+    few_shot_examples = []
+    sampled_examples = random.sample(data[relation_id], min(num_samples, len(data[relation_id])))
+    for example in sampled_examples:
+        # Format the example based on the dataset
+        question, answers = format_example(example, dataset_name)
+        completion = completion_template_with_ans.format(question, random.choice(answers))
+        few_shot_examples.append(completion)
     return few_shot_examples
 
 def load_relations_data(args):
@@ -429,6 +454,8 @@ def inference_on_testset(
     prefix="bf",
     with_rag=False
 ):
+    model.eval()
+    
     # Create results dir
     out_results_dir = f"{args.output_result_dir}/results"
     os.makedirs(out_results_dir, exist_ok=True)
@@ -445,25 +472,43 @@ def inference_on_testset(
             ret_results_path = f"{ret_results_dir}/{test_relation_id}.ret_results.jsonl"
             with open (ret_results_path, 'r') as file:
                 ret_results.extend([json.loads(line) for line in file])
+   
+   
+    # Load JSON files once
+    loaded_json_data = load_json_files(relation_files, 'test' if dataset_name in ['EQ', 'popQA'] else 'dev')
     
     num_samples_per_relation = 1
-    model.eval()
     max_new_tokens=15
     accuracy = []
     
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(test_questions):
                     
-            few_shot_examples_text = ""
+            # few_shot_examples_text = ""
+            # if with_fs:
+            #     few_shot_examples = create_few_shot_examples(
+            #         relation_files,
+            #         query_relation,
+            #         num_samples_per_relation,
+            #         'test' if dataset_name in ['EQ', 'popQA'] else 'dev'
+            #     )
+            #     np.random.shuffle(few_shot_examples)
+            #     few_shot_examples_text = "\n\n".join(few_shot_examples)
+            few_shot_examples = []
             if with_fs:
-                few_shot_examples = create_few_shot_examples(
-                    relation_files,
-                    query_relation,
-                    num_samples_per_relation,
-                    'test' if dataset_name in ['EQ', 'popQA'] else 'dev'
-                )
-                np.random.shuffle(few_shot_examples)
+                keys_to_sample = [key for key in relation_files.keys() if key != query_relation]
+                fewshot_relations = random.sample(keys_to_sample, num_relations)
+                for relation_id in fewshot_relations:
+                    sampled_examples = random.sample(loaded_json_data[relation_id], min(num_samples_per_relation, len(loaded_json_data[relation_id])))
+                    for example in sampled_examples:
+                        question, answers = format_example(example, dataset_name)
+                        completion = completion_template_with_ans.format(question, random.choice(answers))
+                        few_shot_examples.append(completion)
+                random.shuffle(few_shot_examples)
                 few_shot_examples_text = "\n\n".join(few_shot_examples)
+            else:
+                few_shot_examples_text = ""
+            
             
             retrieved_text = ""
             if with_rag:
