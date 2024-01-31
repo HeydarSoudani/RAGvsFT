@@ -32,7 +32,7 @@ with_peft = True
 with_fs = True
 # with_rag = False
 training_style = 'qa' # ['clm', 'qa']
-# target_relation_ids = ["106", "22", "182"]
+target_relation_ids = ["106", "22", "182"]
 # target_relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
 target_relation_ids = ["91"]
 
