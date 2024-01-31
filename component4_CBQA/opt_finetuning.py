@@ -33,10 +33,10 @@ with_fs = True
 # with_rag = False
 training_style = 'qa' # ['clm', 'qa']
 # target_relation_ids = ["106", "22", "182"]
-target_relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
-# target_relation_ids = ["91"]
-subset_percentage = 1.0
+# target_relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
+target_relation_ids = ["91"]
 
+subset_percentage = 0.01
 if dataset_name == "TQA":
     num_relations = 1
 else:
@@ -211,7 +211,6 @@ def load_relations_data(args):
     # fewshot_relations = random.sample(relation_files.keys(), num_relations)
 
     return test_relation_ids, test_files, relation_files
-    # return test_relation_ids, test_files, fewshot_relations, relation_files
     
 def load_dataset_qa(tokenizer, test_files):
     
