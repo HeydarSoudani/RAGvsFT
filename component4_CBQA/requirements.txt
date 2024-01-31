@@ -1,6 +1,6 @@
-datasets
+datasets==2.15.0
 evaluate
-accelerate
+accelerate==0.24.0
 bitsandbytes
 loralib
 peft

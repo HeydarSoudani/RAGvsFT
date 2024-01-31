@@ -9,7 +9,7 @@ import argparse, os, json
 from itertools import chain
 import torch
 import transformers
-from transformers import AutoTokenizer, AutoConfig, AutoModelForCausalLM, TrainingArguments, Trainer, BitsAndBytesConfig
+from transformers import AutoTokenizer, AutoConfig, AutoModelForCausalLM, TrainingArguments, Trainer, BitsAndBytesConfig, GenerationConfig
 from peft import PeftModel, LoraConfig, prepare_model_for_kbit_training, get_peft_model
 from datasets import Dataset, DatasetDict
 import evaluate
@@ -19,9 +19,10 @@ from huggingface_hub import HfFolder, HfApi
 import numpy as np
 import torch
 
+print("Available GPUs:", torch.cuda.device_count())
 
 os.environ["WANDB_MODE"] = "offline"
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
+# os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 device = 'cuda:0'
 dataset_name = 'popQA' # [TQA, popQA, EQ]
@@ -29,7 +30,7 @@ completion_template_wo_ans = "Q: {} A:"
 completion_template_with_ans = "Q: {} A: {}"
 dev_split = 0.1
 with_peft = True
-with_fs = True
+with_fs = False
 # with_rag = False
 training_style = 'qa' # ['clm', 'qa']
 # target_relation_ids = ["91", "106", "22", "182"]
@@ -71,7 +72,7 @@ def load_model(args, with_peft=False):
     if not with_peft:
         model = AutoModelForCausalLM.from_pretrained(
             args.model_name_or_path,
-            device_map={"": 0},
+            # device_map={"": 0},
         )
         n_params = sum({p.data_ptr(): p.numel() for p in model.parameters()}.values())
         print(f"Training new model from scratch - Total size={n_params/2**20:.2f}M params")
@@ -85,7 +86,7 @@ def load_model(args, with_peft=False):
         )
         model = AutoModelForCausalLM.from_pretrained(
             args.model_name_or_path,
-            device_map={"": 0},
+            # device_map={"": 0},
             quantization_config=bnb_config
         )
         model.config.use_cache = False # From ft llama with qlora ...
@@ -175,7 +176,6 @@ def format_example(example, dataset_name):
         return example['question'], example['answers']
     elif dataset_name == 'TQA':
         return example['Question'], example['Answer']['NormalizedAliases']
-
 
 def create_few_shot_examples(relation_id, data, num_samples):
     few_shot_examples = []
@@ -481,94 +481,113 @@ def inference_on_testset(
     max_new_tokens=15
     accuracy = []
     
-    with open(out_results_path, 'w') as file:
-        for idx, (query_id, query, query_pv, query_relation) in enumerate(test_questions):
-                    
-            # few_shot_examples_text = ""
-            # if with_fs:
-            #     few_shot_examples = create_few_shot_examples(
-            #         relation_files,
-            #         query_relation,
-            #         num_samples_per_relation,
-            #         'test' if dataset_name in ['EQ', 'popQA'] else 'dev'
-            #     )
-            #     np.random.shuffle(few_shot_examples)
-            #     few_shot_examples_text = "\n\n".join(few_shot_examples)
+    all_results = []
+    for idx, (query_id, query, query_pv, query_relation) in enumerate(test_questions):
+                
+        # few_shot_examples_text = ""
+        # if with_fs:
+        #     few_shot_examples = create_few_shot_examples(
+        #         relation_files,
+        #         query_relation,
+        #         num_samples_per_relation,
+        #         'test' if dataset_name in ['EQ', 'popQA'] else 'dev'
+        #     )
+        #     np.random.shuffle(few_shot_examples)
+        #     few_shot_examples_text = "\n\n".join(few_shot_examples)
+        
+        few_shot_examples_text = ""
+        if with_fs:
             few_shot_examples = []
-            if with_fs:
-                keys_to_sample = [key for key in relation_files.keys() if key != query_relation]
-                fewshot_relations = random.sample(keys_to_sample, num_relations)
-                for relation_id in fewshot_relations:
-                    sampled_examples = random.sample(loaded_json_data[relation_id], min(num_samples_per_relation, len(loaded_json_data[relation_id])))
-                    for example in sampled_examples:
-                        question, answers = format_example(example, dataset_name)
-                        completion = completion_template_with_ans.format(question, random.choice(answers))
-                        few_shot_examples.append(completion)
-                random.shuffle(few_shot_examples)
-                few_shot_examples_text = "\n\n".join(few_shot_examples)
-            else:
-                few_shot_examples_text = ""
+            keys_to_sample = [key for key in relation_files.keys() if key != query_relation]
+            fewshot_relations = random.sample(keys_to_sample, num_relations)
+            for relation_id in fewshot_relations:
+                sampled_examples = random.sample(loaded_json_data[relation_id], min(num_samples_per_relation, len(loaded_json_data[relation_id])))
+                for example in sampled_examples:
+                    question, answers = format_example(example, dataset_name)
+                    completion = completion_template_with_ans.format(question, random.choice(answers))
+                    few_shot_examples.append(completion)
+            random.shuffle(few_shot_examples)
+            few_shot_examples_text = "\n\n".join(few_shot_examples)
+        
+        
+        retrieved_text = ""
+        if with_rag:
+            for ret_result in ret_results:
+                if ret_result['id'] == query_id:
+                    retrieved_text = ret_result['ctxs'][0]['text']
+                    break
+            if retrieved_text == "":
+                print("No retrieved text found for query: {}".format(query))
+        
+        prompt = few_shot_examples_text + "\n\n" + retrieved_text + "\n\n" + completion_template_wo_ans.format(query)
+        
+        inpts = tokenizer(prompt, return_tensors="pt").to(device)
+        inpt_decoded = tokenizer.decode(inpts["input_ids"][0, :])
+        
+        generation_config = GenerationConfig(
+            num_beams=4,
+            pad_token_id=tokenizer.eos_token_id,
+            max_new_tokens=max_new_tokens,
             
-            
-            retrieved_text = ""
-            if with_rag:
-                for ret_result in ret_results:
-                    if ret_result['id'] == query_id:
-                        retrieved_text = ret_result['ctxs'][0]['text']
-                        break
-                if retrieved_text == "":
-                    print("No retrieved text found for query: {}".format(query))
-            
-            prompt = few_shot_examples_text + "\n\n" + retrieved_text + "\n\n" + completion_template_wo_ans.format(query)
-            
-            inpts = tokenizer(prompt, return_tensors="pt").to(device)
-            inpt_decoded = tokenizer.decode(inpts["input_ids"][0, :])
-            
-            with torch.no_grad():
-                gen = model.generate(
-                    input_ids=inpts["input_ids"],
-                    attention_mask=inpts["attention_mask"],
-                    pad_token_id=tokenizer.eos_token_id,
-                    max_new_tokens=max_new_tokens,
-                    num_beams=1,
-                    do_sample=False
-                )
-            text = tokenizer.decode(gen[0])
-            
-            # print(text)
-            
-            pred = text[2+len(prompt):]
-            # pred = pred[5:]
-            pred = pred.split("\n")[0]
+            do_sample=False,
+            early_stopping=True,
+            decoder_start_token_id=0,
+            # eos_token_id=tokenizer.eos_token_id,
+            # pad_token=model.config.pad_token_id,
+            # num_beams=4,
+        )
+        
+        
+        with torch.no_grad():
+            gen = model.generate(
+                **inpts,
+                generation_config=generation_config,
+                # input_ids=inpts["input_ids"],
+                # attention_mask=inpts["attention_mask"],
+                # pad_token_id=tokenizer.eos_token_id,
+                # max_new_tokens=max_new_tokens,
+                # num_beams=1,
+                # do_sample=False
+            )
+        text = tokenizer.decode(gen[0])
+        
+        # print(text)
+        
+        pred = text[2+len(prompt):]
+        # pred = pred[5:]
+        pred = pred.split("\n")[0]
 
-            is_correct = False
-            for pa in test_answers[idx]:
-                if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
-                    is_correct = True
-            accuracy.append(is_correct)
-            
-            if idx % 100 == 0:
-                print('Query: {}'.format(query))
-                print('Pred: {}'.format(pred))
-                print('Labels: {}'.format(test_answers[idx]))
-                print('Final decision: {}'.format(is_correct))
-                # print('====')
-            
-            # Write to file
-            item = {
-                "query_id": query_id,
-                "question": query,
-                "possible_answers": test_answers[idx],
-                "pred": pred,
-                "is_correct": is_correct,
-                "pageviews": query_pv
-            }
+        is_correct = False
+        for pa in test_answers[idx]:
+            if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
+                is_correct = True
+        accuracy.append(is_correct)
+        
+        if idx % 100 == 0:
+            print('Query: {}'.format(query))
+            print('Pred: {}'.format(pred))
+            print('Labels: {}'.format(test_answers[idx]))
+            print('Final decision: {}'.format(is_correct))
+            # print('====')
+        
+        # Write to file
+        all_results.append({
+            "query_id": query_id,
+            "question": query,
+            "possible_answers": test_answers[idx],
+            "pred": pred,
+            "is_correct": is_correct,
+            "pageviews": query_pv
+        })
+        
+    with open(out_results_path, 'w') as file:
+        for item in all_results:
             file.write(json.dumps(item) + '\n')
 
-        acc = sum(accuracy) / len(accuracy)
-        print(f"Accuracy: {acc * 100:.2f}%")
-        print("===========================")
-        print('\n')
+    acc = sum(accuracy) / len(accuracy)
+    print(f"Accuracy: {acc * 100:.2f}%")
+    print("===========================")
+    print('\n')
 
 def main(args):
     args.repo_name = "HeydarS/{}_{}_v{}".format(
@@ -610,71 +629,71 @@ def main(args):
         # preprocess_logits_for_metrics=preprocess_logits_for_metrics
     )
     
-    print("Inference before fine-tuning & without RAG ....")
-    inference_on_testset(
-        model,
-        tokenizer,
-        test_questions,
-        test_answers,
-        test_relation_ids,
-        relation_files,
-        device,
-        args,
-        with_fs,
-        prefix="bf_norag",
-        with_rag=False
-    )
+    # print("Inference before fine-tuning & without RAG ....")
+    # inference_on_testset(
+    #     model,
+    #     tokenizer,
+    #     test_questions,
+    #     test_answers,
+    #     test_relation_ids,
+    #     relation_files,
+    #     device,
+    #     args,
+    #     with_fs,
+    #     prefix="bf_norag",
+    #     with_rag=False
+    # )
     
-    print("Inference before fine-tuning & with RAG ....")
-    inference_on_testset(
-        model,
-        tokenizer,
-        test_questions,
-        test_answers,
-        test_relation_ids,
-        relation_files,
-        device,
-        args,
-        with_fs,
-        prefix="bf_rag",
-        with_rag=True
-    )
+    # print("Inference before fine-tuning & with RAG ....")
+    # inference_on_testset(
+    #     model,
+    #     tokenizer,
+    #     test_questions,
+    #     test_answers,
+    #     test_relation_ids,
+    #     relation_files,
+    #     device,
+    #     args,
+    #     with_fs,
+    #     prefix="bf_rag",
+    #     with_rag=True
+    # )
     
     print('\n\n')
     print("Fine-tuning ....")
     trainer.train()
     model.save_pretrained(output_dir)
-    # model.push_to_hub(args.repo_name, token=True)
+    model.push_to_hub(args.repo_name, token=True)
     
-    print("Inference after fine-tuning & without RAG ....")
-    inference_on_testset(
-        model,
-        tokenizer,
-        test_questions,
-        test_answers,
-        test_relation_ids,
-        relation_files,
-        device,
-        args,
-        with_fs,
-        prefix="af_norag",
-        with_rag=False
-    )
+    # print("Inference after fine-tuning & without RAG ....")
+    # inference_on_testset(
+    #     model,
+    #     tokenizer,
+    #     test_questions,
+    #     test_answers,
+    #     test_relation_ids,
+    #     relation_files,
+    #     device,
+    #     args,
+    #     with_fs,
+    #     prefix="af_norag",
+    #     with_rag=False
+    # )
     
-    print("Inference after fine-tuning & with RAG ....")
-    inference_on_testset(
-        model,
-        tokenizer,
-        test_questions,
-        test_answers,
-        test_relation_ids,
-        relation_files,
-        device,
-        args,
-        with_fs,
-        prefix="af_rag",
-        with_rag=True
-    )
+    # print("Inference after fine-tuning & with RAG ....")
+    # inference_on_testset(
+    #     model,
+    #     tokenizer,
+    #     test_questions,
+    #     test_answers,
+    #     test_relation_ids,
+    #     relation_files,
+    #     device,
+    #     args,
+    #     with_fs,
+    #     prefix="af_rag",
+    #     with_rag=True
+    # )
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
