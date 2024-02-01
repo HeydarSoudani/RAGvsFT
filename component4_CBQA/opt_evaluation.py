@@ -19,7 +19,7 @@ completion_template_with_ans = "Q: {} A: {}"
 dev_split = 0.1
 with_peft = True
 with_fs = True
-# with_rag = False
+with_rag = False
 training_style = 'qa' # ['clm', 'qa']
 # target_relation_ids = ["91", "106", "22", "182"]
 target_relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
@@ -250,14 +250,14 @@ def inference_on_testset(
     str_rels = '_'.join(test_relation_ids)
     out_results_path = f"{out_results_dir}/{str_rels}.{model_name}.{prefix}_results.jsonl"
     
-    if with_rag:
-        ret_results = []
-        ret_results_dir = f"{args.data_dir}/retrieved"
+    # if with_rag:
+    #     ret_results = []
+    #     ret_results_dir = f"{args.data_dir}/retrieved"
         
-        for test_relation_id in test_relation_ids:
-            ret_results_path = f"{ret_results_dir}/{test_relation_id}.ret_results.jsonl"
-            with open (ret_results_path, 'r') as file:
-                ret_results.extend([json.loads(line) for line in file])
+    #     for test_relation_id in test_relation_ids:
+    #         ret_results_path = f"{ret_results_dir}/{test_relation_id}.ret_results.jsonl"
+    #         with open (ret_results_path, 'r') as file:
+    #             ret_results.extend([json.loads(line) for line in file])
     
     # Load JSON files once
     loaded_json_data = load_json_files(relation_files, 'test' if dataset_name in ['EQ', 'popQA'] else 'dev')
@@ -284,8 +284,7 @@ def inference_on_testset(
             
             # if idx == 10:
             #     break
-            
-            print(f"Q: {query} is processing ...")
+            # print(f"Q: {query} is processing ...")
             
             few_shot_examples_text = ""
             if with_fs:
@@ -301,16 +300,17 @@ def inference_on_testset(
                 random.shuffle(few_shot_examples)
                 few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
                 
-            retrieved_text = ""
-            if with_rag:
-                for ret_result in ret_results:
-                    if ret_result['id'] == query_id:
-                        retrieved_text = ret_result['ctxs'][0]['text'] + "\n\n"
-                        break
-                if retrieved_text == "":
-                    print("No retrieved text found for query: {}".format(query))
+            # retrieved_text = ""
+            # if with_rag:
+            #     for ret_result in ret_results:
+            #         if ret_result['id'] == query_id:
+            #             retrieved_text = ret_result['ctxs'][0]['text'] + "\n\n"
+            #             break
+            #     if retrieved_text == "":
+            #         print("No retrieved text found for query: {}".format(query))
             
-            prompt = few_shot_examples_text + retrieved_text + completion_template_wo_ans.format(query)    
+            # prompt = few_shot_examples_text + retrieved_text + completion_template_wo_ans.format(query)
+            prompt = few_shot_examples_text + completion_template_wo_ans.format(query)    
             inpts = tokenizer(prompt, return_tensors="pt").to(device)
             # inpt_decoded = tokenizer.decode(inpts["input_ids"][0, :])
             # print(f"Prompt: {prompt}")
@@ -336,7 +336,7 @@ def inference_on_testset(
                     is_correct = True
             accuracy.append(is_correct)
             
-            if idx % 100 == 0:
+            if idx % 400 == 0:
                 print('Query: {}'.format(query))
                 print('Pred: {}'.format(pred))
                 print('Labels: {}'.format(test_answers[idx]))
@@ -395,8 +395,8 @@ def main(args):
         device,
         args,
         with_fs,
-        prefix="bf_norag",
-        with_rag=True
+        prefix="testset",
+        with_rag=with_rag
     )
 
 
