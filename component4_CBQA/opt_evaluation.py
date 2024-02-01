@@ -77,7 +77,7 @@ def load_model(args):
     else:
         model = AutoModelForCausalLM.from_pretrained(
             args.model_name_or_path,
-            # device_map={"": 0},
+            device_map={"": 0},
         )
         tokenizer = AutoTokenizer.from_pretrained(
            args.model_name_or_path,
