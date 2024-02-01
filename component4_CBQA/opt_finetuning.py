@@ -189,7 +189,8 @@ def load_dataset_qa(tokenizer, test_files):
     for file in test_files['test']:
         train_data.extend(load_json_file(file))    
     dev_data = []
-    for file in test_files['dev']:
+    # for file in test_files['dev']:
+    for file in test_files['test']:
         dev_data.extend(load_json_file(file))    
     
     # train_data = load_json_file(test_files['train'])
@@ -197,7 +198,8 @@ def load_dataset_qa(tokenizer, test_files):
 
     train_subset_size = int(subset_percentage * len(train_data))
     subset_train_data = random.sample(train_data, train_subset_size)
-    dev_subset_size = int(subset_percentage * len(dev_data))
+    # dev_subset_size = int(subset_percentage * len(dev_data))
+    dev_subset_size = int(0.1 * len(dev_data))
     subset_dev_data = random.sample(dev_data, dev_subset_size)
 
     if dataset_name in ['EQ', 'popQA']:
@@ -363,6 +365,7 @@ def load_training_args(args):
         # max_steps=200,
         # load_best_model_at_end=False,
     )
+    
     
     return training_arguments
 
