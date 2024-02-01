@@ -30,7 +30,6 @@ if dataset_name == "TQA":
 else:
     num_relations = 15
 
-
 def set_seed(seed):
     """Set the seed for reproducibility in PyTorch, NumPy, and Python."""
     torch.manual_seed(seed)
@@ -46,9 +45,29 @@ def load_json_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
+def load_json_files(relation_files, split_name):
+    json_data = {}
+    for relation_id, files in relation_files.items():
+        split_file = next((file for file in files if split_name in file), None)
+        with open(split_file, 'r') as file:
+            json_data[relation_id] = json.load(file)
+    return json_data
+
 def load_model(args):
-    tokenizer = T5Tokenizer.from_pretrained(args.model_name_or_path)
-    model = T5ForConditionalGeneration.from_pretrained(args.model_name_or_path)
+    if not with_peft:
+        tokenizer = T5Tokenizer.from_pretrained(args.model_name_or_path)
+        model = T5ForConditionalGeneration.from_pretrained(args.model_name_or_path)
+    else:
+        lora_config = LoraConfig(
+            r=16, 
+            lora_alpha=32,
+            target_modules=["q", "v"],
+            lora_dropout=0.05,
+            bias="none",
+            task_type=TaskType.SEQ_2_SEQ_LM
+        )
+        
+    
     return model, tokenizer
 
 def load_training_args(args):
@@ -74,7 +93,6 @@ def load_training_args(args):
     
     return training_arguments
     
-
 
 
 def main(args):

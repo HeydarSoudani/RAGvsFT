@@ -11,7 +11,6 @@ import torch
 import transformers
 from transformers import AutoTokenizer, AutoConfig, AutoModelForCausalLM, TrainingArguments, Trainer, BitsAndBytesConfig, GenerationConfig
 from peft import PeftModel, LoraConfig, prepare_model_for_kbit_training, get_peft_model
-from datasets import Dataset, DatasetDict
 import evaluate
 
 from huggingface_hub import HfFolder, HfApi
@@ -138,55 +137,6 @@ def load_model(args, with_peft=False):
     
     return model, tokenizer
 
-# def create_few_shot_examples(
-#     relation_files,
-#     query_relation,
-#     num_samples,
-#     split_name
-# ):
-    
-#     # relation_files.pop(query_relation)
-#     # fewshot_relations = random.sample(relation_files.keys(), num_relations)
-#     keys_to_sample = [key for key in relation_files.keys() if key != query_relation]
-#     fewshot_relations = random.sample(keys_to_sample, num_relations)
-    
-#     few_shot_examples = []
-    
-#     for relation_id in fewshot_relations:
-#         files = relation_files[relation_id]
-#         split_file = next((file for file in files if split_name in file), None)
-#         data = load_json_file(split_file)
-        
-#         sampled_examples = random.sample(data, min(num_samples, len(data)))
-#         for example in sampled_examples:
-            
-#             if dataset_name in ['EQ', 'popQA']:
-#                 question = example['question']
-#                 answers = example['answers']
-#             elif dataset_name == 'TQA':
-#                 question = example['Question']
-#                 answers = example['Answer']['NormalizedAliases']
-            
-#             completion = completion_template_with_ans.format(question, random.choice(answers))
-#             few_shot_examples.append(completion)
-#     return few_shot_examples
-
-def format_example(example, dataset_name):
-    if dataset_name in ['EQ', 'popQA']:
-        return example['question'], example['answers']
-    elif dataset_name == 'TQA':
-        return example['Question'], example['Answer']['NormalizedAliases']
-
-def create_few_shot_examples(relation_id, data, num_samples):
-    few_shot_examples = []
-    sampled_examples = random.sample(data[relation_id], min(num_samples, len(data[relation_id])))
-    for example in sampled_examples:
-        # Format the example based on the dataset
-        question, answers = format_example(example, dataset_name)
-        completion = completion_template_with_ans.format(question, random.choice(answers))
-        few_shot_examples.append(completion)
-    return few_shot_examples
-
 def load_relations_data(args):
     
     # If you need to download EQ or TQA dataset
@@ -229,11 +179,6 @@ def load_relations_data(args):
 
     print("Selected Relation ID:", test_relation_ids)
     print("Selected Files:", test_files)
-    
-    # Other relations ===============
-    # if dataset_name in ['EQ', 'popQA']:
-    #     relation_files.pop(test_relation_id)
-    # fewshot_relations = random.sample(relation_files.keys(), num_relations)
 
     return test_relation_ids, test_files, relation_files
     
@@ -298,7 +243,6 @@ def load_dataset_qa(tokenizer, test_files):
     )
     print(tokenized_train_datasets)
     
-    
     # === Print a sample of dataset
     input_text = tokenizer.decode(
         tokenized_train_datasets['train'][0]["input_ids"],
@@ -308,26 +252,7 @@ def load_dataset_qa(tokenizer, test_files):
     # label_text = tokenizer.decode(tokenized_train_datasets['train'][0]["labels"], skip_special_tokens=True)
     # print(label_text)
     
-    ### === Test part ================================= 
-    if dataset_name in ['popQA', 'EQ']:        
-        
-        test_data = []
-        # test_data = load_json_file(test_files['test'])
-        for file in test_files['test']:
-            relation_id = file.split('/')[-1].split('.')[0]
-            data = load_json_file(file)
-            for item in data:
-                item['relation_id'] = relation_id
-            test_data.extend(data) 
-        
-        test_subset_size = int(subset_percentage * len(test_data))
-        subset_test_data = random.sample(test_data, test_subset_size)    
-        test_questions = [(item['query_id'], item['question'], item['pageviews'], item['relation_id']) for item in subset_test_data]
-        test_answers = [item['answers'] for item in subset_test_data]
-    
-        return tokenized_train_datasets, (test_questions, test_answers)
-    
-    return tokenized_train_datasets, (val_questions, val_answers)
+    return tokenized_train_datasets
 
 def load_dataset_corpus(tokenizer, test_relation_id, test_files):
     subset_percentage = 1.0
@@ -441,154 +366,6 @@ def load_training_args(args):
     
     return training_arguments
 
-def inference_on_testset(
-    model,
-    tokenizer,
-    test_questions,
-    test_answers,
-    test_relation_ids,
-    relation_files,
-    device,
-    args,
-    with_fs,
-    prefix="bf",
-    with_rag=False
-):
-    model.eval()
-    
-    # Create results dir
-    out_results_dir = f"{args.output_result_dir}/results"
-    os.makedirs(out_results_dir, exist_ok=True)
-    model_name = args.model_name_or_path.split('/')[-1]
-    str_rels = '_'.join(test_relation_ids)
-    out_results_path = f"{out_results_dir}/{str_rels}.{model_name}.{prefix}_results.jsonl"
-    
-    if with_rag:
-        # Get retrieval results
-        ret_results = []
-        ret_results_dir = f"{args.data_dir}/retrieved"
-        
-        for test_relation_id in test_relation_ids:
-            ret_results_path = f"{ret_results_dir}/{test_relation_id}.ret_results.jsonl"
-            with open (ret_results_path, 'r') as file:
-                ret_results.extend([json.loads(line) for line in file])
-   
-   
-    # Load JSON files once
-    loaded_json_data = load_json_files(relation_files, 'test' if dataset_name in ['EQ', 'popQA'] else 'dev')
-    
-    num_samples_per_relation = 1
-    max_new_tokens=15
-    accuracy = []
-    
-    all_results = []
-    for idx, (query_id, query, query_pv, query_relation) in enumerate(test_questions):
-                
-        # few_shot_examples_text = ""
-        # if with_fs:
-        #     few_shot_examples = create_few_shot_examples(
-        #         relation_files,
-        #         query_relation,
-        #         num_samples_per_relation,
-        #         'test' if dataset_name in ['EQ', 'popQA'] else 'dev'
-        #     )
-        #     np.random.shuffle(few_shot_examples)
-        #     few_shot_examples_text = "\n\n".join(few_shot_examples)
-        
-        few_shot_examples_text = ""
-        if with_fs:
-            few_shot_examples = []
-            keys_to_sample = [key for key in relation_files.keys() if key != query_relation]
-            fewshot_relations = random.sample(keys_to_sample, num_relations)
-            for relation_id in fewshot_relations:
-                sampled_examples = random.sample(loaded_json_data[relation_id], min(num_samples_per_relation, len(loaded_json_data[relation_id])))
-                for example in sampled_examples:
-                    question, answers = format_example(example, dataset_name)
-                    completion = completion_template_with_ans.format(question, random.choice(answers))
-                    few_shot_examples.append(completion)
-            random.shuffle(few_shot_examples)
-            few_shot_examples_text = "\n\n".join(few_shot_examples)
-        
-        
-        retrieved_text = ""
-        if with_rag:
-            for ret_result in ret_results:
-                if ret_result['id'] == query_id:
-                    retrieved_text = ret_result['ctxs'][0]['text']
-                    break
-            if retrieved_text == "":
-                print("No retrieved text found for query: {}".format(query))
-        
-        prompt = few_shot_examples_text + "\n\n" + retrieved_text + "\n\n" + completion_template_wo_ans.format(query)
-        
-        inpts = tokenizer(prompt, return_tensors="pt").to(device)
-        inpt_decoded = tokenizer.decode(inpts["input_ids"][0, :])
-        
-        generation_config = GenerationConfig(
-            num_beams=4,
-            pad_token_id=tokenizer.eos_token_id,
-            max_new_tokens=max_new_tokens,
-            
-            do_sample=False,
-            early_stopping=True,
-            decoder_start_token_id=0,
-            # eos_token_id=tokenizer.eos_token_id,
-            # pad_token=model.config.pad_token_id,
-            # num_beams=4,
-        )
-        
-        
-        with torch.no_grad():
-            gen = model.generate(
-                **inpts,
-                generation_config=generation_config,
-                # input_ids=inpts["input_ids"],
-                # attention_mask=inpts["attention_mask"],
-                # pad_token_id=tokenizer.eos_token_id,
-                # max_new_tokens=max_new_tokens,
-                # num_beams=1,
-                # do_sample=False
-            )
-        text = tokenizer.decode(gen[0])
-        
-        # print(text)
-        
-        pred = text[2+len(prompt):]
-        # pred = pred[5:]
-        pred = pred.split("\n")[0]
-
-        is_correct = False
-        for pa in test_answers[idx]:
-            if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
-                is_correct = True
-        accuracy.append(is_correct)
-        
-        if idx % 100 == 0:
-            print('Query: {}'.format(query))
-            print('Pred: {}'.format(pred))
-            print('Labels: {}'.format(test_answers[idx]))
-            print('Final decision: {}'.format(is_correct))
-            # print('====')
-        
-        # Write to file
-        all_results.append({
-            "query_id": query_id,
-            "question": query,
-            "possible_answers": test_answers[idx],
-            "pred": pred,
-            "is_correct": is_correct,
-            "pageviews": query_pv
-        })
-        
-    with open(out_results_path, 'w') as file:
-        for item in all_results:
-            file.write(json.dumps(item) + '\n')
-
-    acc = sum(accuracy) / len(accuracy)
-    print(f"Accuracy: {acc * 100:.2f}%")
-    print("===========================")
-    print('\n')
-
 def main(args):
     args.repo_name = "HeydarS/{}_{}_v{}".format(
         args.model_name_or_path.split('/')[-1],
@@ -602,14 +379,10 @@ def main(args):
     model, tokenizer = load_model(args, with_peft=with_peft)
     
     test_relation_ids, test_files, relation_files = load_relations_data(args)
-    
     if training_style == 'qa':
-        tokenized_train_datasets, (test_questions, test_answers) = load_dataset_qa(
-            tokenizer,
-            test_files
-        )
+        tokenized_train_datasets = load_dataset_qa(tokenizer, test_files)
     elif training_style == 'clm':
-        tokenized_train_datasets, (test_questions, test_answers) = load_dataset_corpus(
+        tokenized_train_datasets = load_dataset_corpus(
             tokenizer,
             test_relation_ids,
             test_files
@@ -628,72 +401,11 @@ def main(args):
         # compute_metrics=compute_metrics,
         # preprocess_logits_for_metrics=preprocess_logits_for_metrics
     )
-    
-    # print("Inference before fine-tuning & without RAG ....")
-    # inference_on_testset(
-    #     model,
-    #     tokenizer,
-    #     test_questions,
-    #     test_answers,
-    #     test_relation_ids,
-    #     relation_files,
-    #     device,
-    #     args,
-    #     with_fs,
-    #     prefix="bf_norag",
-    #     with_rag=False
-    # )
-    
-    # print("Inference before fine-tuning & with RAG ....")
-    # inference_on_testset(
-    #     model,
-    #     tokenizer,
-    #     test_questions,
-    #     test_answers,
-    #     test_relation_ids,
-    #     relation_files,
-    #     device,
-    #     args,
-    #     with_fs,
-    #     prefix="bf_rag",
-    #     with_rag=True
-    # )
-    
-    print('\n\n')
     print("Fine-tuning ....")
     trainer.train()
     model.save_pretrained(output_dir)
     model.push_to_hub(args.repo_name, token=True)
-    
-    # print("Inference after fine-tuning & without RAG ....")
-    # inference_on_testset(
-    #     model,
-    #     tokenizer,
-    #     test_questions,
-    #     test_answers,
-    #     test_relation_ids,
-    #     relation_files,
-    #     device,
-    #     args,
-    #     with_fs,
-    #     prefix="af_norag",
-    #     with_rag=False
-    # )
-    
-    # print("Inference after fine-tuning & with RAG ....")
-    # inference_on_testset(
-    #     model,
-    #     tokenizer,
-    #     test_questions,
-    #     test_answers,
-    #     test_relation_ids,
-    #     relation_files,
-    #     device,
-    #     args,
-    #     with_fs,
-    #     prefix="af_rag",
-    #     with_rag=True
-    # )
+    print("Fine-tuning is done.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
