@@ -29,7 +29,7 @@ completion_template_wo_ans = "Q: {} A:"
 completion_template_with_ans = "Q: {} A: {}"
 dev_split = 0.1
 with_peft = True
-with_fs = False
+with_fs = True
 # with_rag = False
 training_style = 'qa' # ['clm', 'qa']
 # target_relation_ids = ["91", "106", "22", "182"]
@@ -85,8 +85,8 @@ def load_model(args, with_peft=False):
         )
         model = AutoModelForCausalLM.from_pretrained(
             args.model_name_or_path,
+            quantization_config=bnb_config,
             # device_map={"": 0},
-            quantization_config=bnb_config
         )
         model.config.use_cache = False # From ft llama with qlora ...
         model.gradient_checkpointing_enable()
@@ -184,7 +184,6 @@ def load_relations_data(args):
     
 def load_dataset_qa(tokenizer, test_files):
     
-    ### === Train part ================================ 
     train_data = []
     # for file in test_files['train']:
     for file in test_files['test']:
@@ -342,6 +341,7 @@ def load_training_args(args):
     training_arguments = TrainingArguments(
         output_dir=output_dir,
         per_device_train_batch_size=16,
+        per_device_eval_batch_size=16,
         gradient_accumulation_steps=4,
         optim="paged_adamw_32bit", # "paged_adamw_8bit"
         num_train_epochs=args.epochs,
