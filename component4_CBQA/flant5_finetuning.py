@@ -12,13 +12,12 @@ from huggingface_hub import HfFolder
 import evaluate
 import torch
 
-from nltk.tokenize import sent_tokenize
-from random import randrange
+import os, json, argparse
 import numpy as np
 import random
 import nltk
-import os, json, argparse
 
+nltk.download("punkt", quiet=True)
 device = 'cuda:0'
 dataset_name = 'popQA' # [TQA, popQA, EQ]
 completion_template_wo_ans = "Q: {} A:"
@@ -265,10 +264,11 @@ def load_training_args(args):
         hub_model_id=repo_name,
         hub_token=HfFolder.get_token(),
     )
+    
     return training_arguments
     
 
-def main():
+def main(args):
     
     args.repo_name = "HeydarS/{}_{}_v{}".format(
         args.model_name_or_path.split('/')[-1],
@@ -282,13 +282,30 @@ def main():
     tokenized_train_datasets = load_dataset_qa(tokenizer, test_files)
     training_arguments = load_training_args(args)
     
+    metric = evaluate.load("rouge")
+    def compute_metrics(eval_preds):
+        preds, labels = eval_preds
+
+        # decode preds and labels
+        labels = np.where(labels != -100, labels, tokenizer.pad_token_id)
+        decoded_preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
+        decoded_labels = tokenizer.batch_decode(labels, skip_special_tokens=True)
+
+        # rougeLSum expects newline after each sentence
+        decoded_preds = ["\n".join(nltk.sent_tokenize(pred.strip())) for pred in decoded_preds]
+        decoded_labels = ["\n".join(nltk.sent_tokenize(label.strip())) for label in decoded_labels]
+
+        result = metric.compute(predictions=decoded_preds, references=decoded_labels, use_stemmer=True)
+        return result
+    
+    
     trainer = Seq2SeqTrainer(
         model=model,
         args=training_arguments,
         data_collator=data_collator,
         train_dataset=tokenized_train_datasets["train"],
         eval_dataset=tokenized_train_datasets["dev"],
-        # compute_metrics=compute_metrics,
+        compute_metrics=compute_metrics
     )
     
     print("Fine-tuning ....")
