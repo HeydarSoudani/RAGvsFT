@@ -195,25 +195,18 @@ def load_dataset_qa(tokenizer, test_files):
 
     prefix = "Answer the question : "
     
-    def tokenize_function(examples, padding="max_length"):        
+    def tokenize_function(examples):        
         inputs = [ prefix + item for item in examples['question']]
         model_inputs = tokenizer(
             inputs,
             max_length=max_source_length,
-            padding=padding,
             truncation=True
         )
         labels = tokenizer(
             text_target=[pa[0] for pa in examples["possible_answers"]],
             max_length=max_target_length,
-            padding=padding,
             truncation=True
         )
-        
-        if padding == "max_length":
-            labels["input_ids"] = [
-                [(l if l != tokenizer.pad_token_id else -100) for l in label] for label in labels["input_ids"]
-            ]
         model_inputs["labels"] = labels["input_ids"]
         
         return model_inputs
@@ -231,8 +224,11 @@ def load_dataset_qa(tokenizer, test_files):
         tokenized_train_datasets['train'][0]["input_ids"],
         skip_special_tokens=True
     )
+    label_text = tokenizer.decode(
+        tokenized_train_datasets['train'][0]["labels"],
+        skip_special_tokens=True
+    )
     print(input_text)
-    label_text = tokenizer.decode(tokenized_train_datasets['train'][0]["labels"], skip_special_tokens=True)
     print(label_text)
     
     return tokenized_train_datasets
@@ -266,7 +262,6 @@ def load_training_args(args):
     )
     
     return training_arguments
-    
 
 def main(args):
     
