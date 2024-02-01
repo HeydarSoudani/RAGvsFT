@@ -16,7 +16,7 @@ dataset_name = 'popQA' # [TQA, popQA, EQ]
 completion_template_wo_ans = "Q: {} A:"
 completion_template_with_ans = "Q: {} A: {}"
 dev_split = 0.1
-with_peft = False
+with_peft = True
 with_fs = False
 # with_rag = False
 training_style = 'qa' # ['clm', 'qa']
@@ -66,23 +66,24 @@ def load_model(args):
         config = PeftConfig.from_pretrained(args.model_name_or_path)
         model = AutoModelForCausalLM.from_pretrained(
             config.base_model_name_or_path,
-            device_map={"": 0},
+            # device_map={"": 0},
             load_in_8bit=True
         )
         model = PeftModel.from_pretrained(model, args.model_name_or_path, device_map={"":0})
         tokenizer = AutoTokenizer.from_pretrained(
             config.base_model_name_or_path,
-            trust_remote_code=True
+            # trust_remote_code=True
         )
     else:
         model = AutoModelForCausalLM.from_pretrained(
             args.model_name_or_path,
-            device_map={"": 0},
+            # device_map={"": 0},
         )
         tokenizer = AutoTokenizer.from_pretrained(
            args.model_name_or_path,
            trust_remote_code=True
         )
+    model.to(device)
     model.eval()
     
     
@@ -240,7 +241,6 @@ def inference_on_testset(
     out_results_path = f"{out_results_dir}/{str_rels}.{model_name}.{prefix}_results.jsonl"
     
     if with_rag:
-        # Get retrieval results
         ret_results = []
         ret_results_dir = f"{args.data_dir}/retrieved"
         
@@ -315,20 +315,19 @@ def inference_on_testset(
             text = tokenizer.decode(gen[0])
             pred = text[2+len(prompt):]
             pred = pred.split("\n")[0]
-
-            # if idx % 15 == 0:
-            print('Query: {}'.format(query))
-            print('Pred: {}'.format(pred))
-            print('Labels: {}'.format(test_answers[idx]))
-                # print('\n\n')
             
             is_correct = False
             for pa in test_answers[idx]:
                 if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
                     is_correct = True
             accuracy.append(is_correct)
-            print('Final decision: {}'.format(is_correct))
-            print('====')
+            
+            if idx % 500 == 0:
+                print('Query: {}'.format(query))
+                print('Pred: {}'.format(pred))
+                print('Labels: {}'.format(test_answers[idx]))
+                print('Final decision: {}'.format(is_correct))
+                print('====')
             
             # Write to file
             item = {

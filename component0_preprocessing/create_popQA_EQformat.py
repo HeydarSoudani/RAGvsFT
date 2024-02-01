@@ -500,8 +500,9 @@ def main(args):
     
     ### ==== Creating train & dev & qrels-train files =====
     # Done: 106, 22, 182, 218, 91, 257, 164, 526
+    # Doing: 
     # To Do: 97, 533, 639, 472, 560, 484, 292, 422
-    relation_id = "526"
+    relation_id = "97"
     create_train_and_dev_files(args, relation_id=relation_id)
     
     
