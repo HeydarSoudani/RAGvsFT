@@ -17,7 +17,10 @@ import numpy as np
 import random
 import nltk
 
+os.environ["WANDB_MODE"] = "offline"
 nltk.download("punkt", quiet=True)
+
+print("Available GPUs:", torch.cuda.device_count())
 device = 'cuda:0'
 dataset_name = 'popQA' # [TQA, popQA, EQ]
 completion_template_wo_ans = "Q: {} A:"
