@@ -282,6 +282,11 @@ def inference_on_testset(
     
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(test_questions):
+            
+            if idx == 3:
+                break
+            
+            
             print(f"Q: {query} is processing ...")
             
             few_shot_examples_text = ""
@@ -310,7 +315,7 @@ def inference_on_testset(
             prompt = few_shot_examples_text + "\n\n" + retrieved_text + "\n\n" + completion_template_wo_ans.format(query)    
             inpts = tokenizer(prompt, return_tensors="pt").to(device)
             # inpt_decoded = tokenizer.decode(inpts["input_ids"][0, :])
-            print(prompt)
+            print(f"Prompt: {prompt}")
             
             with torch.no_grad():
                 gen = model.generate(
