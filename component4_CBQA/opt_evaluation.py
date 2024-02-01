@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 from transformers import AutoTokenizer, AutoModelForCausalLM, GenerationConfig
+from transformers import BitsAndBytesConfig
 from peft import PeftConfig, PeftModel
 import torch
 import argparse, os, json
@@ -63,12 +64,20 @@ def format_example(example, dataset_name):
 def load_model(args):
     
     if with_peft:
+        
         config = PeftConfig.from_pretrained(args.model_name_or_path)
+        bnb_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype=torch.bfloat16,
+            # bnb_4bit_use_double_quant=True
+        )
         model = AutoModelForCausalLM.from_pretrained(
             config.base_model_name_or_path,
             # device_map={"": 0},
-            load_in_8bit=True
+            quantization_config=bnb_config
         )
+        
         model = PeftModel.from_pretrained(model, args.model_name_or_path, device_map={"":0})
         tokenizer = AutoTokenizer.from_pretrained(
             config.base_model_name_or_path,
@@ -89,6 +98,7 @@ def load_model(args):
     
     tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = 'left'
+    print("Model and tokenizer are loaded")
     
     return model, tokenizer
 
@@ -151,7 +161,8 @@ def load_dataset(test_files):
         test_questions = [(item['query_id'], item['question'], item['pageviews'], item['relation_id']) for item in subset_test_data]
         test_answers = [item['answers'] for item in subset_test_data]
     
-        return test_questions, test_answers
+    print("Test dataset is loaded.")
+    return test_questions, test_answers
 
 # def create_few_shot_examples(
 #     relation_files,
@@ -231,7 +242,7 @@ def inference_on_testset(
     prefix="bf",
     with_rag=False
 ):
-    model.eval()
+    print("Inferencing ...")
     
     # Create results dir
     out_results_dir = f"{args.output_result_dir}/results"
@@ -271,7 +282,9 @@ def inference_on_testset(
     
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(test_questions):
+            print(f"Q: {query} is processing ...")
             
+            few_shot_examples_text = ""
             if with_fs:
                 few_shot_examples = []
                 keys_to_sample = [key for key in relation_files.keys() if key != query_relation]
@@ -284,10 +297,7 @@ def inference_on_testset(
                         few_shot_examples.append(completion)
                 random.shuffle(few_shot_examples)
                 few_shot_examples_text = "\n\n".join(few_shot_examples)
-            else:
-                few_shot_examples_text = ""
-            
-            
+                
             retrieved_text = ""
             if with_rag:
                 for ret_result in ret_results:
@@ -300,6 +310,7 @@ def inference_on_testset(
             prompt = few_shot_examples_text + "\n\n" + retrieved_text + "\n\n" + completion_template_wo_ans.format(query)    
             inpts = tokenizer(prompt, return_tensors="pt").to(device)
             # inpt_decoded = tokenizer.decode(inpts["input_ids"][0, :])
+            print(prompt)
             
             with torch.no_grad():
                 gen = model.generate(
@@ -322,7 +333,7 @@ def inference_on_testset(
                     is_correct = True
             accuracy.append(is_correct)
             
-            if idx % 500 == 0:
+            if idx % 100 == 0:
                 print('Query: {}'.format(query))
                 print('Pred: {}'.format(pred))
                 print('Labels: {}'.format(test_answers[idx]))
