@@ -28,7 +28,7 @@ completion_template_with_ans = "Q: {} A: {}"
 dev_split = 0.1
 with_peft = True
 with_fs = True
-subset_percentage = 0.01
+subset_percentage = 0.1
 
 # target_relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
 # target_relation_ids = ["91", "106", "22", "182"]
