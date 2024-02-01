@@ -396,7 +396,7 @@ def main(args):
         args,
         with_fs,
         prefix="bf_norag",
-        with_rag=False
+        with_rag=True
     )
 
 
