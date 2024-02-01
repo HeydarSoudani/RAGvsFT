@@ -18,7 +18,7 @@ completion_template_wo_ans = "Q: {} A:"
 completion_template_with_ans = "Q: {} A: {}"
 dev_split = 0.1
 with_peft = True
-with_fs = False
+with_fs = True
 # with_rag = False
 training_style = 'qa' # ['clm', 'qa']
 # target_relation_ids = ["91", "106", "22", "182"]
@@ -94,7 +94,6 @@ def load_model(args):
         )
     model.to(device)
     model.eval()
-    
     
     tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = 'left'
@@ -286,7 +285,6 @@ def inference_on_testset(
             if idx == 3:
                 break
             
-            
             print(f"Q: {query} is processing ...")
             
             few_shot_examples_text = ""
@@ -301,18 +299,18 @@ def inference_on_testset(
                         completion = completion_template_with_ans.format(question, random.choice(answers))
                         few_shot_examples.append(completion)
                 random.shuffle(few_shot_examples)
-                few_shot_examples_text = "\n\n".join(few_shot_examples)
+                few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
                 
             retrieved_text = ""
             if with_rag:
                 for ret_result in ret_results:
                     if ret_result['id'] == query_id:
-                        retrieved_text = ret_result['ctxs'][0]['text']
+                        retrieved_text = ret_result['ctxs'][0]['text'] + "\n\n"
                         break
                 if retrieved_text == "":
                     print("No retrieved text found for query: {}".format(query))
             
-            prompt = few_shot_examples_text + "\n\n" + retrieved_text + "\n\n" + completion_template_wo_ans.format(query)    
+            prompt = few_shot_examples_text + retrieved_text + completion_template_wo_ans.format(query)    
             inpts = tokenizer(prompt, return_tensors="pt").to(device)
             # inpt_decoded = tokenizer.decode(inpts["input_ids"][0, :])
             print(f"Prompt: {prompt}")
