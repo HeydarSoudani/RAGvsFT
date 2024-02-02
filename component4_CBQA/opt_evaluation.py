@@ -71,6 +71,16 @@ def format_example(example, dataset_name):
     elif dataset_name == 'TQA':
         return example['Question'], example['Answer']['NormalizedAliases']
 
+truncate_text_tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
+def truncate_text(text, max_tokens):
+    
+    tokens = truncate_text_tokenizer.tokenize(text)
+    if len(tokens) > max_tokens:
+        tokens = tokens[:max_tokens]
+    
+    truncated_text = truncate_text_tokenizer.convert_tokens_to_string(tokens)
+    return truncated_text
+    
 def load_model(args):
     
     if with_peft:
@@ -235,13 +245,7 @@ def retrieved_file_preparing(
 
 def main(args):
     
-    logging.info(f"\\
-                Model: {args.model_name_or_path} \n \\
-                PEFT: {with_peft} \n \\
-                RAG: {with_rag} \n \\
-                Few-shot input: {with_fs} \n \\
-                output file's prefix: {file_prefix}"
-    )
+    logging.info(f"Model: {args.model_name_or_path} \n PEFT: {with_peft} \n RAG: {with_rag} \n Few-shot input: {with_fs} \n output file's prefix: {file_prefix}")
     set_seed(42)
 
     # == Creating retrieval files -> Only for the first time
@@ -331,7 +335,7 @@ def main(args):
             if with_rag:
                 for ret_result in ret_results:
                     if ret_result['id'] == query_id:
-                        retrieved_text = ret_result['ctxs'][0]['text'] + "\n\n"
+                        retrieved_text = truncate_text(ret_result['ctxs'][0]['text'], 512) + "\n\n"
                         break
                 if retrieved_text == "":
                     logging.info(f"No retrieved text found for query: {query}")
