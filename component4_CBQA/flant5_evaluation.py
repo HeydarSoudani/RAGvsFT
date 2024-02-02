@@ -200,6 +200,20 @@ def main(args):
             # if idx == 10:
             #     break
             
+            few_shot_examples_text = ""
+            if with_fs:
+                few_shot_examples = []
+                keys_to_sample = [key for key in relation_files.keys() if key != query_relation]
+                fewshot_relations = random.sample(keys_to_sample, num_relations)
+                for relation_id in fewshot_relations:
+                    sampled_examples = random.sample(loaded_json_data[relation_id], min(num_samples_per_relation, len(loaded_json_data[relation_id])))
+                    for example in sampled_examples:
+                        question, answers = format_example(example, dataset_name)
+                        completion = completion_template_with_ans.format(question, random.choice(answers))
+                        few_shot_examples.append(completion)
+                random.shuffle(few_shot_examples)
+                few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
+            
             retrieved_text = ""
             if with_rag:
                 for ret_result in ret_results:
@@ -207,10 +221,13 @@ def main(args):
                         retrieved_text = truncate_text(ret_result['ctxs'][0]['text'], 512) + "\n\n"
                         break
                 if retrieved_text == "":
+                    logging.info('\n')
                     logging.info(f"No retrieved text found for query: {query}")
+                    
+                    print('\n')
                     print("No retrieved text found for query: {}".format(query))
             
-            prompt = retrieved_text + prompt_prefix + query     
+            prompt = few_shot_examples_text + retrieved_text + prompt_prefix + query     
             
             # prompt = prompt_prefix + query
             # print(f"Query: {prompt}")
