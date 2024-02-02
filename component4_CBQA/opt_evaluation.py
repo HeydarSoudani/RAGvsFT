@@ -10,6 +10,13 @@ import random
 import logging
 from tqdm import tqdm
 
+logging.basicConfig(level=logging.DEBUG,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    datefmt='%m/%d/%Y %I:%M:%S %p',
+    handlers=[
+        # logging.FileHandler("app.log"),
+        logging.StreamHandler()
+    ])
 
 os.environ["WANDB_MODE"] = "offline"
 # os.environ["TOKENIZERS_PARALLELISM"] = "false"
@@ -21,26 +28,18 @@ completion_template_with_ans = "Q: {} A: {}"
 dev_split = 0.1
 with_peft = False
 with_fs = True
-with_rag = False
+with_rag = True
 training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = 'all'
 # target_relation_ids = ["91"]
 # target_relation_ids = ["91", "106", "22", "182"]
-file_prefix="bf"
+file_prefix="bf_rag"
 
 subset_percentage = 1.0
 if dataset_name == "TQA":
     num_relations = 1
 else:
     num_relations = 15
-
-logging.basicConfig(level=logging.DEBUG,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    datefmt='%m/%d/%Y %I:%M:%S %p',
-    handlers=[
-        # logging.FileHandler("app.log"),
-        logging.StreamHandler()
-    ])
 
 
 def set_seed(seed):
@@ -236,6 +235,13 @@ def retrieved_file_preparing(
 
 def main(args):
     
+    logging.info(f"\\
+                Model: {args.model_name_or_path} \n \\
+                PEFT: {with_peft} \n \\
+                RAG: {with_rag} \n \\
+                Few-shot input: {with_fs} \n \\
+                output file's prefix: {file_prefix}"
+    )
     set_seed(42)
 
     # == Creating retrieval files -> Only for the first time
@@ -328,7 +334,8 @@ def main(args):
                         retrieved_text = ret_result['ctxs'][0]['text'] + "\n\n"
                         break
                 if retrieved_text == "":
-                    print("No retrieved text found for query: {}".format(query))
+                    logging.info(f"No retrieved text found for query: {query}")
+                    # print("No retrieved text found for query: {}".format(query))
             
             prompt = few_shot_examples_text + retrieved_text + completion_template_wo_ans.format(query)
             inpts = tokenizer(prompt, return_tensors="pt").to(device)
