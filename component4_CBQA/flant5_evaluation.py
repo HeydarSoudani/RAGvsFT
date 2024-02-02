@@ -56,7 +56,6 @@ def truncate_text(text, max_tokens):
     truncated_text = truncate_text_tokenizer.convert_tokens_to_string(tokens)
     return truncated_text
 
-
 def load_json_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
@@ -213,7 +212,7 @@ def main(args):
             if with_rag:
                 for ret_result in ret_results:
                     if ret_result['id'] == query_id:
-                        retrieved_text = truncate_text(ret_result['ctxs'][0]['text'], 512) + "\n\n"
+                        retrieved_text = truncate_text(ret_result['ctxs'][0]['text'], 495) + "\n\n"
                         break
                 if retrieved_text == "":
                     logging.info('\n')
@@ -251,13 +250,13 @@ def main(args):
                         is_correct = True
                 accuracy.append(is_correct)
                 
-                # if idx % 500 == 0:
-                logging.info('\n')
-                logging.info(f"Query: {query}")
-                logging.info(f"Pred: {pred}")
-                logging.info(f"Labels: {test_answers[idx]}")
-                logging.info(f"Final decision: {is_correct}")
-                logging.info('====')
+                if idx % 500 == 0:
+                    logging.info('\n')
+                    logging.info(f"Query: {query}")
+                    logging.info(f"Pred: {pred}")
+                    logging.info(f"Labels: {test_answers[idx]}")
+                    logging.info(f"Final decision: {is_correct}")
+                    logging.info('====')
                 # print('\n')
                 # print(f"Query: {query}")
                 # print(f"Pred: {pred}")
