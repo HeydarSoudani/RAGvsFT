@@ -7,6 +7,7 @@ import torch
 import argparse, os, json
 import numpy as np
 import random
+import logging
 
 
 os.environ["WANDB_MODE"] = "offline"
@@ -24,12 +25,22 @@ training_style = 'qa' # ['clm', 'qa']
 # target_relation_ids = ["91", "106", "22", "182"]
 target_relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
 # target_relation_ids = ["91"]
+file_prefix="bf"
 
 subset_percentage = 1.0
 if dataset_name == "TQA":
     num_relations = 1
 else:
     num_relations = 15
+
+logging.basicConfig(level=logging.DEBUG,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    datefmt='%m/%d/%Y %I:%M:%S %p',
+    handlers=[
+        # logging.FileHandler("app.log"),
+        logging.StreamHandler()
+    ])
+
 
 
 def set_seed(seed):
@@ -160,7 +171,8 @@ def load_dataset(test_files):
         test_questions = [(item['query_id'], item['question'], item['pageviews'], item['relation_id']) for item in subset_test_data]
         test_answers = [item['answers'] for item in subset_test_data]
     
-    print("Test dataset is loaded.")
+    logging.info("Test dataset is loaded.")
+    # print("Test dataset is loaded.")
     return test_questions, test_answers
 
 # def create_few_shot_examples(
@@ -228,27 +240,59 @@ def retrieved_file_preparing(
             }
             ofile.write(json.dumps(combined_obj) + "\n")
 
-def inference_on_testset(
-    model,
-    tokenizer,
-    test_questions,
-    test_answers,
-    test_relation_ids,
-    relation_files,
-    device,
-    args,
-    with_fs,
-    prefix="bf",
-    with_rag=False
-):
+# def inference_on_testset(
+#     model,
+#     tokenizer,
+#     test_questions,
+#     test_answers,
+#     test_relation_ids,
+#     relation_files,
+#     device,
+#     args,
+#     with_fs,
+#     prefix="bf",
+#     with_rag=False
+# ):
+
+
+def main(args):
+    
+    set_seed(42)
+
+    corpus_dir = f"{args.data_dir}/corpus"
+    queries_dir = f"{args.data_dir}/test"
+    qrels_dir = f"{args.data_dir}/qrels"
+    output_dir = f"{args.data_dir}/retrieved"
+    os.makedirs(output_dir, exist_ok=True)
+        
+    # for qrels_file_name in os.listdir(qrels_dir):
+    #     relation_id = qrels_file_name.split('.')[0]
+    #     qrels_file = f"{qrels_dir}/{qrels_file_name}"
+    #     corpus_file = f"{corpus_dir}/{relation_id}.corpus.json"
+    #     queries_file = f"{queries_dir}/{relation_id}.test.json"
+    #     out_file = f"{output_dir}/{relation_id}.ret_results.jsonl"
+    
+    #     retrieved_file_preparing(
+    #         corpus_file,
+    #         queries_file,
+    #         qrels_file,
+    #         out_file
+    #     )
+    
+    model, tokenizer = load_model(args)
+    test_relation_ids, test_files, relation_files = load_relations_data(args)
+    test_questions, test_answers = load_dataset(test_files)
+    
+    
     print("Inferencing ...")
+    logging.info("Inferencing ...")
     
     # Create results dir
     out_results_dir = f"{args.output_result_dir}/results"
     os.makedirs(out_results_dir, exist_ok=True)
     model_name = args.model_name_or_path.split('/')[-1]
     str_rels = '_'.join(test_relation_ids)
-    out_results_path = f"{out_results_dir}/{str_rels}.{model_name}.{prefix}_results.jsonl"
+    out_results_path = f"{out_results_dir}/{str_rels}.{model_name}.{file_prefix}_results.jsonl"
     
     # if with_rag:
     #     ret_results = []
@@ -282,9 +326,11 @@ def inference_on_testset(
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(test_questions):
             
-            # if idx == 10:
-            #     break
+            if idx == 3:
+                break
+            
             # print(f"Q: {query} is processing ...")
+            logging.info(f"Q: {query} is processing ...")
             
             few_shot_examples_text = ""
             if with_fs:
@@ -356,34 +402,8 @@ def inference_on_testset(
 
         acc = sum(accuracy) / len(accuracy)
         print(f"Accuracy: {acc * 100:.2f}%")
-
-def main(args):
     
-    set_seed(42)
-
-    corpus_dir = f"{args.data_dir}/corpus"
-    queries_dir = f"{args.data_dir}/test"
-    qrels_dir = f"{args.data_dir}/qrels"
-    output_dir = f"{args.data_dir}/retrieved"
-    os.makedirs(output_dir, exist_ok=True)
-        
-    # for qrels_file_name in os.listdir(qrels_dir):
-    #     relation_id = qrels_file_name.split('.')[0]
-    #     qrels_file = f"{qrels_dir}/{qrels_file_name}"
-    #     corpus_file = f"{corpus_dir}/{relation_id}.corpus.json"
-    #     queries_file = f"{queries_dir}/{relation_id}.test.json"
-    #     out_file = f"{output_dir}/{relation_id}.ret_results.jsonl"
     
-    #     retrieved_file_preparing(
-    #         corpus_file,
-    #         queries_file,
-    #         qrels_file,
-    #         out_file
-    #     )
-    
-    model, tokenizer = load_model(args)
-    test_relation_ids, test_files, relation_files = load_relations_data(args)
-    test_questions, test_answers = load_dataset(test_files)
     
     inference_on_testset(
         model,
@@ -399,13 +419,11 @@ def main(args):
         with_rag=with_rag
     )
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, required=True)
     parser.add_argument("--data_dir", type=str)
     parser.add_argument("--output_result_dir", type=str)
-    
     
     args = parser.parse_args()
     main(args)
