@@ -26,11 +26,9 @@ prompt_prefix = "Answer the question : "
 dataset_name = 'popQA' # [TQA, popQA, EQ]
 dev_split = 0.1
 with_peft = False
-with_fs = False
-with_rag = True
 training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = 'all'
-# target_relation_ids = ["91"]
+target_relation_ids = ["91"]
 # target_relation_ids = ["91", "106", "22", "182"]
 
 subset_percentage = 1.0
@@ -154,17 +152,17 @@ def load_relations_data(args):
 def load_dataset_qa(tokenizer, test_files):
     
     train_data = []
-    # for file in test_files['train']:
-    for file in test_files['test']:
+    for file in test_files['train']:
+    # for file in test_files['test']:
         train_data.extend(load_json_file(file))    
     dev_data = []
-    for file in test_files['test']:
-    # for file in test_files['dev']:
+    # for file in test_files['test']:
+    for file in test_files['dev']:
         dev_data.extend(load_json_file(file)) 
     
     train_subset_size = int(subset_percentage * len(train_data))
     subset_train_data = random.sample(train_data, train_subset_size)
-    dev_subset_size = int(0.1 * len(dev_data))
+    dev_subset_size = int(subset_percentage * len(dev_data))
     subset_dev_data = random.sample(dev_data, dev_subset_size)
 
     if dataset_name in ['EQ', 'popQA']:
@@ -251,7 +249,7 @@ def load_training_args(args):
         per_device_eval_batch_size=16,
         predict_with_generate=True,
         num_train_epochs=args.epochs,
-        learning_rate=2e-4, # 5e-5
+        learning_rate=2e-3, # 5e-5
         fp16=False, # Overflows with fp16
         # logging & evaluation strategies
         evaluation_strategy="epoch",
@@ -300,7 +298,6 @@ def main(args):
         result = metric.compute(predictions=decoded_preds, references=decoded_labels, use_stemmer=True)
         return result
     
-    
     trainer = Seq2SeqTrainer(
         model=model,
         args=training_arguments,
@@ -316,7 +313,6 @@ def main(args):
     model.save_pretrained(save_model_dir)
     model.push_to_hub(args.repo_name, token=True)
     print("Fine-tuning is done.")
-    
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

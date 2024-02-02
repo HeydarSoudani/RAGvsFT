@@ -26,12 +26,12 @@ dataset_name = 'popQA' # [TQA, popQA, EQ]
 dev_split = 0.1
 with_peft = False
 with_fs = False
-with_rag = False
+with_rag = True
 training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = 'all'
 # target_relation_ids = ["91"]
 # target_relation_ids = ["91", "106", "22", "182"]
-file_prefix="bf_norag"
+file_prefix="af_rag_v2"
 
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
@@ -150,7 +150,8 @@ def load_model(args, with_peft=False):
             # device_map={"": 0}
         )
     
-    tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
+    # tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
+    tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
     
     model.to(device)
     model.eval()

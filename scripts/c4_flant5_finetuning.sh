@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --gpus=1
+#SBATCH --gpus=4
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
 #SBATCH --time=2:30:00
@@ -16,15 +16,15 @@ module load Python/3.10.4-GCCcore-11.3.0
 #Execute a Python program located in $HOME, that takes an input file and output directory as arguments.
 # pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 # pip install -q -U git+https://github.com/huggingface/accelerate.git
-pip install rouge_score
+# pip install rouge_score
 
 srun $HOME/RAGvsFT/component4_CBQA/flant5_finetuning.py \
     --model_name_or_path "google/flan-t5-base" \
     --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
     --output_model_dir $HOME/RAGvsFT/component4_CBQA/models \
     --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
-    --epochs 5 \
-    --version 1
+    --epochs 20 \
+    --version 3
 
 
 # For TQA: $HOME/RAGvsFT/data/dataset/TQA

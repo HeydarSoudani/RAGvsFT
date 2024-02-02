@@ -499,10 +499,10 @@ def main(args):
     # add_empty_entities()
     
     ### ==== Creating train & dev & qrels-train files =====
-    # Done: 106, 22, 182, 218, 91, 257, 164, 526
+    # Done:  106, 22, 182, 218, 91, 257, 164, 526, 97, 533, 639, 472, 560, 484, 292, 422
     # Doing: 
-    # To Do: 97, 533, 639, 472, 560, 484, 292, 422
-    relation_id = "97"
+    # To Do:
+    relation_id = "422"
     create_train_and_dev_files(args, relation_id=relation_id)
     
     
