@@ -51,6 +51,17 @@ def set_seed(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
+truncate_text_tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
+def truncate_text(text, max_tokens):
+    
+    tokens = truncate_text_tokenizer.tokenize(text)
+    if len(tokens) > max_tokens:
+        tokens = tokens[:max_tokens]
+    
+    truncated_text = truncate_text_tokenizer.convert_tokens_to_string(tokens)
+    return truncated_text
+
+
 def load_json_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
@@ -189,7 +200,19 @@ def main(args):
             # if idx == 10:
             #     break
             
-            prompt = prompt_prefix + query
+            retrieved_text = ""
+            if with_rag:
+                for ret_result in ret_results:
+                    if ret_result['id'] == query_id:
+                        retrieved_text = truncate_text(ret_result['ctxs'][0]['text'], 512) + "\n\n"
+                        break
+                if retrieved_text == "":
+                    logging.info(f"No retrieved text found for query: {query}")
+                    print("No retrieved text found for query: {}".format(query))
+            
+            prompt = retrieved_text + prompt_prefix + query     
+            
+            # prompt = prompt_prefix + query
             # print(f"Query: {prompt}")
             inpts = tokenizer(prompt, return_tensors="pt").to(device)
             with torch.no_grad():
