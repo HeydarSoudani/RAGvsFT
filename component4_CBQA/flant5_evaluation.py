@@ -27,15 +27,15 @@ completion_template_wo_ans = "Q: {} A:"
 completion_template_with_ans = "Q: {} A: {}"
 dev_split = 0.1
 with_peft = False
-with_fs = True
+with_fs = False
 with_rag = True
 training_style = 'qa' # ['clm', 'qa']
-# target_relation_ids = 'all'
-target_relation_ids = ["91"]
+target_relation_ids = 'all'
+# target_relation_ids = ["91"]
 # target_relation_ids = ["91", "106", "22", "182"]
 file_prefix="bf_rag"
 
-subset_percentage = 0.01
+subset_percentage = 1.0
 if dataset_name == "TQA":
     num_relations = 1
 else:
@@ -227,11 +227,9 @@ def main(args):
                     print('\n')
                     print("No retrieved text found for query: {}".format(query))
             
-            prompt = few_shot_examples_text + retrieved_text + prompt_prefix + query     
-            
-            # prompt = prompt_prefix + query
-            # print(f"Query: {prompt}")
+            prompt = few_shot_examples_text + retrieved_text + prompt_prefix + query
             inpts = tokenizer(prompt, return_tensors="pt").to(device)
+            
             with torch.no_grad():
                 gen = model.generate(
                     **inpts,
@@ -265,12 +263,12 @@ def main(args):
                 logging.info(f"Labels: {test_answers[idx]}")
                 logging.info(f"Final decision: {is_correct}")
                 logging.info('====')
-                print('\n')
-                print(f"Query: {query}")
-                print(f"Pred: {pred}")
-                print(f"Labels: {test_answers[idx]}")
-                print(f"Final decision: {is_correct}")
-                print('====')
+                # print('\n')
+                # print(f"Query: {query}")
+                # print(f"Pred: {pred}")
+                # print(f"Labels: {test_answers[idx]}")
+                # print(f"Final decision: {is_correct}")
+                # print('====')
                 
                 item = {
                     "query_id": query_id,
@@ -284,7 +282,7 @@ def main(args):
             
         acc = sum(accuracy) / len(accuracy)
         logging.info(f"Accuracy: {acc * 100:.2f}%")
-        print(f"Accuracy: {acc * 100:.2f}%")
+        # print(f"Accuracy: {acc * 100:.2f}%")
             
 
 if __name__ == "__main__":
