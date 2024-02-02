@@ -26,12 +26,12 @@ dataset_name = 'popQA' # [TQA, popQA, EQ]
 dev_split = 0.1
 with_peft = False
 with_fs = False
-with_rag = True
+with_rag = False
 training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = 'all'
 # target_relation_ids = ["91"]
 # target_relation_ids = ["91", "106", "22", "182"]
-file_prefix="bf_rag"
+file_prefix="bf_norag"
 
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
