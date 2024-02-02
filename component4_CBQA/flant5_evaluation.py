@@ -202,6 +202,7 @@ def main(args):
                 # num_beams=1,
                 # do_sample=False
             )
+            print(gen)
             text = tokenizer.decode(gen[0])
             print(text)
             
