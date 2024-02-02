@@ -8,6 +8,7 @@ import argparse, os, json
 import numpy as np
 import random
 import logging
+from tqdm import tqdm
 
 
 os.environ["WANDB_MODE"] = "offline"
@@ -22,9 +23,9 @@ with_peft = False
 with_fs = True
 with_rag = False
 training_style = 'qa' # ['clm', 'qa']
-# target_relation_ids = ["91", "106", "22", "182"]
-target_relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
+target_relation_ids = 'all'
 # target_relation_ids = ["91"]
+# target_relation_ids = ["91", "106", "22", "182"]
 file_prefix="bf"
 
 subset_percentage = 1.0
@@ -40,7 +41,6 @@ logging.basicConfig(level=logging.DEBUG,
         # logging.FileHandler("app.log"),
         logging.StreamHandler()
     ])
-
 
 
 def set_seed(seed):
@@ -108,7 +108,9 @@ def load_model(args):
     
     tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = 'left'
-    print("Model and tokenizer are loaded")
+    
+    # print("Model and tokenizer are loaded")
+    logging.info("Model and tokenizer are loaded")
     
     return model, tokenizer
 
@@ -139,7 +141,10 @@ def load_relations_data(args):
 
     # Select one relation =================
     # test_relation_id = random.choice(list(relation_files.keys()))
-    test_relation_ids = target_relation_ids
+    if target_relation_ids == "all":
+        test_relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
+    else:
+        test_relation_ids = target_relation_ids
     
     test_files = {subfolder: [] for subfolder in subfolders}
     
@@ -151,7 +156,8 @@ def load_relations_data(args):
                 test_files[subfolder].append(os.path.join(subfolder_path, file))
 
     print("Selected Relation ID:", test_relation_ids)
-    print("Selected Files:", test_files)
+    logging.info(f"Selected Relation ID: {test_relation_ids}")
+    # print("Selected Files:", test_files)
 
     return test_relation_ids, test_files, relation_files
 
@@ -174,33 +180,6 @@ def load_dataset(test_files):
     logging.info("Test dataset is loaded.")
     # print("Test dataset is loaded.")
     return test_questions, test_answers
-
-# def create_few_shot_examples(
-#     relation_files,
-#     selected_relations,
-#     num_samples,
-#     split_name
-# ):
-#     few_shot_examples = []
-    
-#     for relation_id in selected_relations:
-#         files = relation_files[relation_id]
-#         split_file = next((file for file in files if split_name in file), None)
-#         data = load_json_file(split_file)
-        
-#         sampled_examples = random.sample(data, min(num_samples, len(data)))
-#         for example in sampled_examples:
-            
-#             if dataset_name in ['EQ', 'popQA']:
-#                 question = example['question']
-#                 answers = example['answers']
-#             elif dataset_name == 'TQA':
-#                 question = example['Question']
-#                 answers = example['Answer']['NormalizedAliases']
-            
-#             completion = completion_template_with_ans.format(question, random.choice(answers))
-#             few_shot_examples.append(completion)
-#     return few_shot_examples
 
 def retrieved_file_preparing(
     corpus_file, # json file
@@ -259,6 +238,7 @@ def main(args):
     
     set_seed(42)
 
+    # == Creating retrieval files -> Only for the first time
     corpus_dir = f"{args.data_dir}/corpus"
     queries_dir = f"{args.data_dir}/test"
     qrels_dir = f"{args.data_dir}/qrels"
@@ -278,34 +258,31 @@ def main(args):
     #         qrels_file,
     #         out_file
     #     )
+    ### ====================================================== 
     
     model, tokenizer = load_model(args)
     test_relation_ids, test_files, relation_files = load_relations_data(args)
     test_questions, test_answers = load_dataset(test_files)
     
-    
-    print("Inferencing ...")
     logging.info("Inferencing ...")
     
-    # Create results dir
+    # == Create results dir ==================================
     out_results_dir = f"{args.output_result_dir}/results"
     os.makedirs(out_results_dir, exist_ok=True)
     model_name = args.model_name_or_path.split('/')[-1]
-    str_rels = '_'.join(test_relation_ids)
+    str_rels = "all" if target_relation_ids == "all" else '_'.join(test_relation_ids)
     out_results_path = f"{out_results_dir}/{str_rels}.{model_name}.{file_prefix}_results.jsonl"
     
-    # if with_rag:
-    #     ret_results = []
-    #     ret_results_dir = f"{args.data_dir}/retrieved"
+    if with_rag:
+        ret_results = []
+        ret_results_dir = f"{args.data_dir}/retrieved"
         
-    #     for test_relation_id in test_relation_ids:
-    #         ret_results_path = f"{ret_results_dir}/{test_relation_id}.ret_results.jsonl"
-    #         with open (ret_results_path, 'r') as file:
-    #             ret_results.extend([json.loads(line) for line in file])
-    
-    # Load JSON files once
-    loaded_json_data = load_json_files(relation_files, 'test' if dataset_name in ['EQ', 'popQA'] else 'dev')
+        for test_relation_id in test_relation_ids:
+            ret_results_path = f"{ret_results_dir}/{test_relation_id}.ret_results.jsonl"
+            with open (ret_results_path, 'r') as file:
+                ret_results.extend([json.loads(line) for line in file])
 
+    loaded_json_data = load_json_files(relation_files, 'test' if dataset_name in ['EQ', 'popQA'] else 'dev')
     num_samples_per_relation = 1
     max_new_tokens=15
     accuracy = []
@@ -314,7 +291,6 @@ def main(args):
         num_beams=4,
         pad_token_id=tokenizer.eos_token_id,
         max_new_tokens=max_new_tokens,
-        
         do_sample=False,
         early_stopping=True,
         decoder_start_token_id=0,
@@ -324,13 +300,12 @@ def main(args):
     )
     
     with open(out_results_path, 'w') as file:
-        for idx, (query_id, query, query_pv, query_relation) in enumerate(test_questions):
+        for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 3:
-                break
-            
+            # if idx == 3:
+            #     break
             # print(f"Q: {query} is processing ...")
-            logging.info(f"Q: {query} is processing ...")
+            # logging.info(f"Q: {query} is processing ...")
             
             few_shot_examples_text = ""
             if with_fs:
@@ -346,17 +321,16 @@ def main(args):
                 random.shuffle(few_shot_examples)
                 few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
                 
-            # retrieved_text = ""
-            # if with_rag:
-            #     for ret_result in ret_results:
-            #         if ret_result['id'] == query_id:
-            #             retrieved_text = ret_result['ctxs'][0]['text'] + "\n\n"
-            #             break
-            #     if retrieved_text == "":
-            #         print("No retrieved text found for query: {}".format(query))
+            retrieved_text = ""
+            if with_rag:
+                for ret_result in ret_results:
+                    if ret_result['id'] == query_id:
+                        retrieved_text = ret_result['ctxs'][0]['text'] + "\n\n"
+                        break
+                if retrieved_text == "":
+                    print("No retrieved text found for query: {}".format(query))
             
-            # prompt = few_shot_examples_text + retrieved_text + completion_template_wo_ans.format(query)
-            prompt = few_shot_examples_text + completion_template_wo_ans.format(query)    
+            prompt = few_shot_examples_text + retrieved_text + completion_template_wo_ans.format(query)
             inpts = tokenizer(prompt, return_tensors="pt").to(device)
             # inpt_decoded = tokenizer.decode(inpts["input_ids"][0, :])
             # print(f"Prompt: {prompt}")
@@ -382,14 +356,14 @@ def main(args):
                     is_correct = True
             accuracy.append(is_correct)
             
-            if idx % 400 == 0:
-                print('Query: {}'.format(query))
-                print('Pred: {}'.format(pred))
-                print('Labels: {}'.format(test_answers[idx]))
-                print('Final decision: {}'.format(is_correct))
-                print('====')
+            if idx % 500 == 0:
+                logging.info('\n')
+                logging.info(f"Query: {query}")
+                logging.info(f"Pred: {pred}")
+                logging.info(f"Labels: {test_answers[idx]}")
+                logging.info(f"Final decision: {is_correct}")
+                logging.info('====')
             
-            # Write to file
             item = {
                 "query_id": query_id,
                 "question": query,
@@ -402,22 +376,6 @@ def main(args):
 
         acc = sum(accuracy) / len(accuracy)
         print(f"Accuracy: {acc * 100:.2f}%")
-    
-    
-    
-    inference_on_testset(
-        model,
-        tokenizer,
-        test_questions,
-        test_answers,
-        test_relation_ids,
-        relation_files,
-        device,
-        args,
-        with_fs,
-        prefix="testset",
-        with_rag=with_rag
-    )
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
