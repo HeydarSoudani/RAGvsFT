@@ -23,8 +23,6 @@ os.environ["WANDB_MODE"] = "offline"
 device = 'cuda:0'
 prompt_prefix = "Answer the question : "
 dataset_name = 'popQA' # [TQA, popQA, EQ]
-completion_template_wo_ans = "Q: {} A:"
-completion_template_with_ans = "Q: {} A: {}"
 dev_split = 0.1
 with_peft = False
 with_fs = False
@@ -36,10 +34,7 @@ target_relation_ids = 'all'
 file_prefix="bf_rag"
 
 subset_percentage = 1.0
-if dataset_name == "TQA":
-    num_relations = 1
-else:
-    num_relations = 15
+num_relations = 1 if dataset_name == "TQA" else 15
 
 def set_seed(seed):
     torch.manual_seed(seed)

@@ -21,19 +21,20 @@ os.environ["WANDB_MODE"] = "offline"
 nltk.download("punkt", quiet=True)
 
 print("Available GPUs:", torch.cuda.device_count())
-prompt_prefix = "Answer the question : "
 device = 'cuda:0'
+prompt_prefix = "Answer the question : "
 dataset_name = 'popQA' # [TQA, popQA, EQ]
-completion_template_wo_ans = "Q: {} A:"
-completion_template_with_ans = "Q: {} A: {}"
 dev_split = 0.1
-with_peft = True
-with_fs = True
-subset_percentage = 0.1
-
-# target_relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
+with_peft = False
+with_fs = False
+with_rag = True
+training_style = 'qa' # ['clm', 'qa']
+target_relation_ids = 'all'
+# target_relation_ids = ["91"]
 # target_relation_ids = ["91", "106", "22", "182"]
-target_relation_ids = ["91"]
+
+subset_percentage = 1.0
+num_relations = 1 if dataset_name == "TQA" else 15
 
 def load_json_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -154,12 +155,13 @@ def load_dataset_qa(tokenizer, test_files):
     for file in test_files['test']:
         train_data.extend(load_json_file(file))    
     dev_data = []
-    for file in test_files['dev']:
+    for file in test_files['test']:
+    # for file in test_files['dev']:
         dev_data.extend(load_json_file(file)) 
     
     train_subset_size = int(subset_percentage * len(train_data))
     subset_train_data = random.sample(train_data, train_subset_size)
-    dev_subset_size = int(subset_percentage * len(dev_data))
+    dev_subset_size = int(0.1 * len(dev_data))
     subset_dev_data = random.sample(dev_data, dev_subset_size)
 
     if dataset_name in ['EQ', 'popQA']:
