@@ -195,8 +195,6 @@ def main(args):
         with torch.no_grad():
             gen = model.generate(
                 **inpts,
-                skip_special_tokens=True,
-                clean_up_tokenization_spaces=True,
                 # do_sample=True,
                 # top_p=0.9,
                 # max_new_tokens=max_target_length,
@@ -209,7 +207,11 @@ def main(args):
                 # do_sample=False
             )
             print(gen[0])
-            text = tokenizer.decode(gen[0])
+            text = tokenizer.decode(
+                gen[0],
+                skip_special_tokens=True,
+                clean_up_tokenization_spaces=True,
+            )
             print(text)
         print('\n')
             
