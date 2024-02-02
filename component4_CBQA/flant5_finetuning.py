@@ -21,6 +21,7 @@ os.environ["WANDB_MODE"] = "offline"
 nltk.download("punkt", quiet=True)
 
 print("Available GPUs:", torch.cuda.device_count())
+prompt_prefix = "Answer the question : "
 device = 'cuda:0'
 dataset_name = 'popQA' # [TQA, popQA, EQ]
 completion_template_wo_ans = "Q: {} A:"
@@ -101,17 +102,17 @@ def load_model(args, with_peft=False):
         print_trainable_parameters(model)
         model.print_trainable_parameters()
         
-        tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
-        
-        label_pad_token_id = -100
-        data_collator = DataCollatorForSeq2Seq(
-            tokenizer,
-            model=model,
-            label_pad_token_id=label_pad_token_id,
-            pad_to_multiple_of=8
-        )
-        
-        return model, tokenizer, data_collator
+    tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
+    
+    label_pad_token_id = -100
+    data_collator = DataCollatorForSeq2Seq(
+        tokenizer,
+        model=model,
+        label_pad_token_id=label_pad_token_id,
+        pad_to_multiple_of=8
+    )
+    
+    return model, tokenizer, data_collator
          
 def load_relations_data(args):
     
@@ -195,11 +196,9 @@ def load_dataset_qa(tokenizer, test_files):
         lambda x: tokenizer(x["possible_answers"][0], truncation=True), batched=True, remove_columns=["question", "possible_answers"])
     max_target_length = max([len(x) for x in tokenized_targets["input_ids"]])
     print(f"Max target length: {max_target_length}")
-
-    prefix = "Answer the question : "
     
     def tokenize_function(examples):        
-        inputs = [ prefix + item for item in examples['question']]
+        inputs = [prompt_prefix + item for item in examples['question']]
         model_inputs = tokenizer(
             inputs,
             max_length=max_source_length,
