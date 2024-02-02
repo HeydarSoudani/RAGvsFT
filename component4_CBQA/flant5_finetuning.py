@@ -24,7 +24,6 @@ print("Available GPUs:", torch.cuda.device_count())
 device = 'cuda:0'
 prompt_prefix = "Answer the question : "
 dataset_name = 'popQA' # [TQA, popQA, EQ]
-dev_split = 0.1
 with_peft = True
 training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = 'all'
