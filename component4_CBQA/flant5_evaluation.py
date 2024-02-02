@@ -195,6 +195,11 @@ def main(args):
         with torch.no_grad():
             gen = model.generate(
                 **inpts,
+                skip_special_tokens=True,
+                clean_up_tokenization_spaces=True,
+                # do_sample=True,
+                # top_p=0.9,
+                # max_new_tokens=max_target_length,
                 # generation_config=generation_config,
                 # input_ids=inpts["input_ids"],
                 # attention_mask=inpts["attention_mask"],
