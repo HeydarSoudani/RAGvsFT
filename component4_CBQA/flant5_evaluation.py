@@ -208,7 +208,7 @@ def main(args):
             )
             print(gen[0])
             text = tokenizer.decode(
-                gen[0],
+                gen,
                 skip_special_tokens=True,
                 clean_up_tokenization_spaces=True,
             )
