@@ -132,7 +132,10 @@ def load_relations_data(args):
             relation_files[relation_id].append(os.path.join(subfolder_path, file))    
 
     # Select one relation =================
-    test_relation_ids = target_relation_ids
+    if target_relation_ids == "all":
+        test_relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
+    else:
+        test_relation_ids = target_relation_ids
     
     test_files = {subfolder: [] for subfolder in subfolders}
     
