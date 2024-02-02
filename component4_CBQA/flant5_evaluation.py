@@ -190,6 +190,7 @@ def main(args):
             break
         
         prompt = prompt_prefix + query
+        print(f"Query: {prompt}")
         inpts = tokenizer(prompt, return_tensors="pt").to(device)
         with torch.no_grad():
             gen = model.generate(
@@ -202,9 +203,10 @@ def main(args):
                 # num_beams=1,
                 # do_sample=False
             )
-            print(gen)
+            print(gen[0])
             text = tokenizer.decode(gen[0])
             print(text)
+        print('\n')
             
 
 if __name__ == "__main__":
