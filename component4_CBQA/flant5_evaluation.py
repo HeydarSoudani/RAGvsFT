@@ -184,36 +184,61 @@ def main(args):
     max_new_tokens=15
     accuracy = []
     
-    # with open(out_results_path, 'w') as file:
-    for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
-        if idx == 3:
-            break
-        
-        prompt = prompt_prefix + query
-        print(f"Query: {prompt}")
-        inpts = tokenizer(prompt, return_tensors="pt").to(device)
-        with torch.no_grad():
-            gen = model.generate(
-                **inpts,
-                # do_sample=True,
-                # top_p=0.9,
-                # max_new_tokens=max_target_length,
-                # generation_config=generation_config,
-                # input_ids=inpts["input_ids"],
-                # attention_mask=inpts["attention_mask"],
-                # pad_token_id=tokenizer.eos_token_id,
-                # max_new_tokens=max_new_tokens,
-                # num_beams=1,
-                # do_sample=False
-            )
-            print(gen[0])
-            text = tokenizer.decode(
-                gen,
-                skip_special_tokens=True,
-                clean_up_tokenization_spaces=True,
-            )
-            print(text)
-        print('\n')
+    with open(out_results_path, 'w') as file:
+        for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
+            if idx == 10:
+                break
+            
+            prompt = prompt_prefix + query
+            # print(f"Query: {prompt}")
+            inpts = tokenizer(prompt, return_tensors="pt").to(device)
+            with torch.no_grad():
+                gen = model.generate(
+                    **inpts,
+                    # do_sample=True,
+                    # top_p=0.9,
+                    # max_new_tokens=max_target_length,
+                    # generation_config=generation_config,
+                    # input_ids=inpts["input_ids"],
+                    # attention_mask=inpts["attention_mask"],
+                    # pad_token_id=tokenizer.eos_token_id,
+                    # max_new_tokens=max_new_tokens,
+                    # num_beams=1,
+                    # do_sample=False
+                )
+                pred = tokenizer.decode(
+                    gen[0],
+                    skip_special_tokens=True,
+                    clean_up_tokenization_spaces=True,
+                )
+                
+                is_correct = False
+                for pa in test_answers[idx]:
+                    if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
+                        is_correct = True
+                accuracy.append(is_correct)
+                
+                # if idx % 500 == 0:
+                logging.info('\n')
+                logging.info(f"Query: {query}")
+                logging.info(f"Pred: {pred}")
+                logging.info(f"Labels: {test_answers[idx]}")
+                logging.info(f"Final decision: {is_correct}")
+                logging.info('====')
+                
+                item = {
+                    "query_id": query_id,
+                    "question": query,
+                    "possible_answers": test_answers[idx],
+                    "pred": pred,
+                    "is_correct": is_correct,
+                    "pageviews": query_pv
+                }
+                file.write(json.dumps(item) + '\n')
+            
+        acc = sum(accuracy) / len(accuracy)
+        logging.info(f"Accuracy: {acc * 100:.2f}%")
+        print(f"Accuracy: {acc * 100:.2f}%")
             
 
 if __name__ == "__main__":
