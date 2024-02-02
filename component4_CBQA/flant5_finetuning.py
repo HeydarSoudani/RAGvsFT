@@ -27,11 +27,11 @@ dataset_name = 'popQA' # [TQA, popQA, EQ]
 dev_split = 0.1
 with_peft = True
 training_style = 'qa' # ['clm', 'qa']
-# target_relation_ids = 'all'
-target_relation_ids = ["91"]
+target_relation_ids = 'all'
+# target_relation_ids = ["91"]
 # target_relation_ids = ["91", "106", "22", "182"]
 
-subset_percentage = 0.1
+subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
 
 def load_json_file(file_path):
@@ -162,7 +162,7 @@ def load_dataset_qa(tokenizer, test_files):
     
     train_subset_size = int(subset_percentage * len(train_data))
     subset_train_data = random.sample(train_data, train_subset_size)
-    dev_subset_size = int(0.1 * len(dev_data))
+    dev_subset_size = int(subset_percentage * 0.1 * len(dev_data))
     subset_dev_data = random.sample(dev_data, dev_subset_size)
 
     if dataset_name in ['EQ', 'popQA']:
