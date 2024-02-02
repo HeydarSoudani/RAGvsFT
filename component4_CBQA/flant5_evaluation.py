@@ -155,13 +155,7 @@ def load_model(args, with_peft=False):
 
 
 def main(args):
-    logging.info(f"\\
-                Model: {args.model_name_or_path} \n \\
-                PEFT: {with_peft} \n \\
-                RAG: {with_rag} \n \\
-                Few-shot input: {with_fs} \n \\
-                output file's prefix: {file_prefix}"
-    )
+    logging.info(f"Model: {args.model_name_or_path} \n PEFT: {with_peft} \n RAG: {with_rag} \n Few-shot input: {with_fs} \n output file's prefix: {file_prefix}")
     set_seed(42)
     
     logging.info("Inferencing ...")
