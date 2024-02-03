@@ -12,10 +12,19 @@ from huggingface_hub import HfFolder
 import evaluate
 import torch
 
+import logging
 import os, json, argparse
 import numpy as np
 import random
 import nltk
+
+logging.basicConfig(level=logging.DEBUG,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    datefmt='%m/%d/%Y %I:%M:%S %p',
+    handlers=[
+        # logging.FileHandler("app.log"),
+        logging.StreamHandler()
+    ])
 
 os.environ["WANDB_MODE"] = "offline"
 nltk.download("punkt", quiet=True)
@@ -55,23 +64,23 @@ def load_model(args, with_peft=False):
             # device_map={"": 0}
         )
         # model = T5ForConditionalGeneration.from_pretrained("google/flan-t5-base")
-        
         n_params = sum({p.data_ptr(): p.numel() for p in model.parameters()}.values())
         print(f"Training new model from scratch - Total size={n_params/2**20:.2f}M params")
     
     else:
         bnb_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_quant_type="nf4",
-            bnb_4bit_compute_dtype=torch.bfloat16,
-            bnb_4bit_use_double_quant=True
+            load_in_8bit=True,
+            # load_in_4bit=True,
+            # bnb_4bit_quant_type="nf4",
+            # bnb_4bit_compute_dtype=torch.bfloat16,
+            # bnb_4bit_use_double_quant=True
         )
         model = AutoModelForSeq2SeqLM.from_pretrained(
             args.model_name_or_path,
             quantization_config=bnb_config,
             return_dict=True,
-            trust_remote_code=True
-            # device_map={"":0},
+            trust_remote_code=True,
+            device_map={"":0},
         )
         model = prepare_model_for_kbit_training(model)
         
@@ -151,17 +160,17 @@ def load_relations_data(args):
 def load_dataset_qa(tokenizer, test_files):
     
     train_data = []
-    # for file in test_files['train']:
-    for file in test_files['test']:
+    for file in test_files['train']:
+    # for file in test_files['test']:
         train_data.extend(load_json_file(file))    
     dev_data = []
-    for file in test_files['test']:
-    # for file in test_files['dev']:
+    for file in test_files['dev']:
+    # for file in test_files['test']:
         dev_data.extend(load_json_file(file)) 
     
     train_subset_size = int(subset_percentage * len(train_data))
     subset_train_data = random.sample(train_data, train_subset_size)
-    dev_subset_size = int(subset_percentage * 0.1 * len(dev_data))
+    dev_subset_size = int(subset_percentage * len(dev_data))
     subset_dev_data = random.sample(dev_data, dev_subset_size)
 
     if dataset_name in ['EQ', 'popQA']:
@@ -238,18 +247,16 @@ def load_dataset_qa(tokenizer, test_files):
     return tokenized_train_datasets
 
 def load_training_args(args):
-    version = 1
-    repo_name = f"{args.model_name_or_path.split('/')[1]}-peft-{version}"
-    output_dir = os.path.join(args.output_model_dir, repo_name.split('/')[-1])
+    save_model_dir = os.path.join(args.output_model_dir, args.repo_name.split('/')[-1])
     
     training_arguments = Seq2SeqTrainingArguments(
-        output_dir=output_dir,
-        per_device_train_batch_size=16,
-        per_device_eval_batch_size=16,
+        output_dir=save_model_dir,
+        per_device_train_batch_size=128,
+        per_device_eval_batch_size=128,
         predict_with_generate=True,
         num_train_epochs=args.epochs,
-        learning_rate=2e-3, # 5e-5
-        fp16=False, # Overflows with fp16
+        learning_rate=args.lr, # 5e-5
+        # fp16=False, # Overflows with fp16
         # logging & evaluation strategies
         evaluation_strategy="epoch",
         logging_strategy="epoch",
@@ -261,14 +268,13 @@ def load_training_args(args):
         report_to="wandb",
         push_to_hub=False,
         hub_strategy="every_save",
-        hub_model_id=repo_name,
+        hub_model_id=args.repo_name.split('/')[-1],
         hub_token=HfFolder.get_token(),
     )
-    
     return training_arguments
 
 def main(args):
-    
+    logging.info(f"Model: {args.model_name_or_path} \n PEFT: {with_peft} \n version: {args.version}")
     args.repo_name = "HeydarS/{}_{}_v{}".format(
         args.model_name_or_path.split('/')[-1],
         'peft' if with_peft else 'no_peft',
@@ -300,9 +306,9 @@ def main(args):
     trainer = Seq2SeqTrainer(
         model=model,
         args=training_arguments,
-        data_collator=data_collator,
         train_dataset=tokenized_train_datasets["train"],
         eval_dataset=tokenized_train_datasets["dev"],
+        data_collator=data_collator,
         compute_metrics=compute_metrics
     )
     
@@ -320,6 +326,7 @@ if __name__ == "__main__":
     parser.add_argument("--output_model_dir", type=str)
     parser.add_argument("--output_result_dir", type=str)
     parser.add_argument("--epochs", default=1, type=int)
+    parser.add_argument("--lr", default=2e-4, type=float)
     parser.add_argument("--version", default=1, type=int)
     
     args = parser.parse_args()

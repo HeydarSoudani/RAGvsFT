@@ -23,15 +23,14 @@ os.environ["WANDB_MODE"] = "offline"
 device = 'cuda:0'
 prompt_prefix = "Answer the question : "
 dataset_name = 'popQA' # [TQA, popQA, EQ]
-dev_split = 0.1
-with_peft = False
+with_peft = True
 with_fs = False
-with_rag = True
+with_rag = False
 training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = 'all'
 # target_relation_ids = ["91"]
 # target_relation_ids = ["91", "106", "22", "182"]
-file_prefix="af_rag_v2"
+file_prefix="af_rag_nopeft_v5"
 
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
@@ -143,15 +142,21 @@ def load_dataset(test_files):
 
 def load_model(args, with_peft=False):
     if with_peft:
-        pass
+        config = PeftConfig.from_pretrained(args.model_name_or_path)
+        model = AutoModelForSeq2SeqLM.from_pretrained(
+            config.base_model_name_or_path,
+            load_in_8bit=True,
+            # device_map={"":0}
+        )
+        model = PeftModel.from_pretrained(model, args.model_name_or_path) #, device_map={"":0}
+        
+        tokenizer = AutoTokenizer.from_pretrained(config.base_model_name_or_path)
     else:
         model = AutoModelForSeq2SeqLM.from_pretrained(
             args.model_name_or_path,
             # device_map={"": 0}
         )
-    
-    # tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
-    tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
+        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
     
     model.to(device)
     model.eval()
