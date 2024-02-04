@@ -128,6 +128,7 @@ data/dataset/popQA/contriever_results.jsonl
 component0_preprocessing/generated_data/EntityQuestions_costomized
 component0_preprocessing/generated_data/popQA_costomized
 # component0_preprocessing/generated_data/popQA_EQformat
+component1_retrieval/data/popqa
 component1_retrieval/results
 component1_retrieval/dpr/models
 component1_retrieval/data/popqa_sm
