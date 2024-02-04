@@ -26,18 +26,24 @@ output_dir = 'component0_preprocessing/generated_data/popQA_EQformat'
 entities_analysis_file = f"{output_dir}/entities_analysis.json"
 test_dir = f"{output_dir}/test" 
 entity_dir = f"{output_dir}/entity" 
-corpus_dir = f"{output_dir}/corpus" 
-qrels_dir = f"{output_dir}/qrels" 
+corpus_sum_dir = f"{output_dir}/corpus_summary" 
+qrels_sum_dir = f"{output_dir}/qrels_summary" 
+corpus_all_dir = f"{output_dir}/corpus_all" 
+qrels_all_dir = f"{output_dir}/qrels_all"
 train_dir = f"{output_dir}/train" 
 dev_dir = f"{output_dir}/dev" 
 qrels_train_dir = f"{output_dir}/qrels-train" 
 os.makedirs(test_dir, exist_ok=True)
 os.makedirs(entity_dir, exist_ok=True)
-os.makedirs(corpus_dir, exist_ok=True)
-os.makedirs(qrels_dir, exist_ok=True)
+os.makedirs(corpus_sum_dir, exist_ok=True)
+os.makedirs(qrels_sum_dir, exist_ok=True)
+os.makedirs(corpus_all_dir, exist_ok=True)
+os.makedirs(qrels_all_dir, exist_ok=True)
+
 os.makedirs(train_dir, exist_ok=True)
 os.makedirs(dev_dir, exist_ok=True)
 os.makedirs(qrels_train_dir, exist_ok=True)
+
 num_entities_per_relation = 20
 dev_split = 0.1
 max_tokens = 512
@@ -225,6 +231,9 @@ def create_corpus_and_qrels_files_via_hf_datasets():
     queries_id = {}
     corpus = {}
     qrels = {}
+    
+    row_dataset = load_dataset("wikipedia", "20220301.en", beam_runner='DirectRunner')
+    
     for entity_file in os.listdir(entity_dir):
         if entity_file.endswith('.entity.json'):
             
@@ -237,13 +246,16 @@ def create_corpus_and_qrels_files_via_hf_datasets():
                 queries_id[prop_id] = [obj['query_id'] for obj in data]
                 corpus[prop_id] = []
                 qrels[prop_id] = []
+        
             
     doc_counter = 0
-    row_dataset = load_dataset("wikipedia", "20220301.en", beam_runner='DirectRunner')
     for i, item in enumerate(row_dataset['train']):
         
         if i % 100 == 0:
             break
+        
+        if i != 0 and i % 500000 == 0:
+            print(f"{i} data are processed...")
         
         title = item['title']
         text = item['text']
@@ -251,10 +263,15 @@ def create_corpus_and_qrels_files_via_hf_datasets():
         for idx, (relation_id, entity_list) in enumerate(entities.items()):
             if title in entity_list:
                 index = entity_list.index(title)
+                
+                summary, paragraphs = extract_summary_paragraphs(text)
+                
+                
                 corpus[relation_id].append({
                     'doc_id': f"{relation_id}_{doc_counter}",
                     'title': title,
-                    'content': text
+                    # 'content': text
+                    'content': extract_summary(text)
                 })
                 qrels[relation_id].append({
                     'query_id': queries_id[relation_id][index],
@@ -411,7 +428,7 @@ def create_train_and_dev_files(args, relation_id=None):
         print(f"Processing corpus file: {corpus_file}")
         query_id_counter = 0
         
-        with open(f'{corpus_dir}/{corpus_file}', 'r', encoding='utf-8') as cf:
+        with open(f'{corpus_sum_dir}/{corpus_file}', 'r', encoding='utf-8') as cf:
             corpus_data = json.load(cf)
                 
             all_qas = []
@@ -477,7 +494,7 @@ def create_train_and_dev_files(args, relation_id=None):
                 json.dump(qrels_train, qf, indent=4)
 
     if relation_id == None:
-        for corpus_file in os.listdir(corpus_dir):
+        for corpus_file in os.listdir(corpus_sum_dir):
             if corpus_file.endswith('.corpus.json'):
                 
                 prop_id = corpus_file.split('.')[0]
@@ -487,14 +504,13 @@ def create_train_and_dev_files(args, relation_id=None):
              
     print("Train, Dev, and Qrels-Train creation complete.")
 
-
 def main(args):
     ### ==== Creating test & entity files =================
-    # create_test_and_entity_files()
+    create_test_and_entity_files()
 
     ### ==== Creating corpus & qrels files ================
     # create_corpus_and_qrels_files_via_api()
-    # create_corpus_and_qrels_files_via_hf_datasets()
+    create_corpus_and_qrels_files_via_hf_datasets()
     # check_entities()
     # add_empty_entities()
     
@@ -502,9 +518,8 @@ def main(args):
     # Done:  106, 22, 182, 218, 91, 257, 164, 526, 97, 533, 639, 472, 560, 484, 292, 422
     # Doing: 
     # To Do:
-    relation_id = "422"
-    create_train_and_dev_files(args, relation_id=relation_id)
-    
+    # relation_id = "422"
+    # create_train_and_dev_files(args, relation_id=relation_id)
     
 
 if __name__ == "__main__":
