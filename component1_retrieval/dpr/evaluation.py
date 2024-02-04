@@ -42,8 +42,8 @@ def main(args):
     
     dataloader = CostomizedGenericDataLoader(data_folder = args.data_path)
     corpus, queries = dataloader.load_corpus_queries()
-    print(corpus[0])
-    print(queries[0])
+    print(corpus)
+    print(queries)
     results = retriever.retrieve(corpus, queries)
     
     if not os.path.exists(args.output_results_dir):
