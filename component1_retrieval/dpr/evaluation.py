@@ -15,7 +15,7 @@ import sys
 sys.path.append(os.getcwd())
 
 from component1_retrieval.customized_datasets.data_loader import CostomizedGenericDataLoader
-from component1_retrieval.utils import save_qrels_file, save_evaluation_files
+from component1_retrieval.utils import save_qrels_file, save_evaluation_files, save_evaluation_files_v2
 
 logging.basicConfig(format='%(asctime)s - %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
@@ -42,15 +42,16 @@ def main(args):
     
     dataloader = CostomizedGenericDataLoader(data_folder = args.data_path)
     corpus, queries = dataloader.load_corpus_queries()
-    print(corpus)
-    print(queries)
+    # print(corpus)
+    # print(queries)
     results = retriever.retrieve(corpus, queries)
     
     if not os.path.exists(args.output_results_dir):
         os.makedirs(args.output_results_dir)
     
     save_qrels_file(results, args)
-    save_evaluation_files(retriever, results, args)
+    # save_evaluation_files(retriever, results, args)
+    save_evaluation_files_v2(retriever, results, args)
 
 
 if __name__ == "__main__":

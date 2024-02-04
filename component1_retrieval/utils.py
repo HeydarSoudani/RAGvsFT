@@ -1,5 +1,42 @@
 import os, csv, json
 import logging
+import math
+
+
+def split_to_buckets(objects, split_points):
+    
+    split_points = sorted(split_points)
+    sp_len = len(split_points)
+    bucket_data = {'bucket{}'.format(idx+1): list() for idx in range(sp_len+1)}
+    
+    for obj in objects:
+        # rp = obj['relative_popularity']
+        if obj['pageviews'] != 0:
+            rp = math.log(obj['pageviews'], 10)
+        else:
+            rp = 0
+        
+        if rp < split_points[0]:
+            if 'bucket1' in bucket_data.keys():
+                bucket_data['bucket1'].append(obj)
+            else:
+                bucket_data['bucket1'] = [obj]
+        
+        if rp >= split_points[-1]:
+            if 'bucket{}'.format(sp_len+1) in bucket_data.keys():
+                bucket_data['bucket{}'.format(sp_len+1)].append(obj)
+            else:
+                bucket_data['bucket{}'.format(sp_len+1)] = [obj]
+
+        for i in range(sp_len-1):
+            if split_points[i] <= rp < split_points[i + 1]:
+                if 'bucket{}'.format(i+2) in bucket_data.keys():
+                    bucket_data['bucket{}'.format(i+2)].append(obj)
+                else:
+                    bucket_data['bucket{}'.format(i+2)] = [obj]
+    
+    return bucket_data
+
 
 def preprocessing_qrels(qid_list):
     # input_qrels = "component0_preprocessing/generated_data/popQA_costomized/qrels.jsonl"
@@ -39,10 +76,10 @@ def save_qrels_file(results, args):
                     'score': list(sorted_doc_scores.values())[0]
                 })
 
-def save_evaluation_files(retriever, results, args):
-    # queries_bk_path = "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
-    # with open(queries_bk_path, 'r') as in_queries:
-    #     query_data = json.load(in_queries)
+def save_evaluation_files_v1(retriever, results, args):
+    queries_bk_path = "component0_preprocessing/generated_data/popQA_costomized/queries_bucketing.json"
+    with open(queries_bk_path, 'r') as in_queries:
+        query_data = json.load(in_queries)
     
     queries_bk_path = "component0_preprocessing/generated_data/popQA_religion/queries_30ds_bk.json"
     with open(queries_bk_path, 'r') as in_queries:
@@ -52,8 +89,6 @@ def save_evaluation_files(retriever, results, args):
         os.makedirs(args.output_results_dir)
     resutls_wbk_path = os.path.join(args.output_results_dir, 'wbk_'+args.output_results_filename)
     resutls_wobk_path = os.path.join(args.output_results_dir, 'wobk_'+args.output_results_filename)
-    
-    
      
     # Without bucketting
     with open(resutls_wobk_path, 'w', newline='') as file:
@@ -132,3 +167,131 @@ def save_evaluation_files(retriever, results, args):
                         +list(recall.values())\
                         +list(precision.values())
                 tsv_writer.writerow(eval_res)
+            
+
+def save_evaluation_files_v2(retriever, results, args):
+    
+    split_points = [3, 4, 5, 6] # Good for my pageviews
+    k_values = [1, 3, 5]
+    qrels_filename_dir = f"{args.data_path}/qrels"
+    
+    args.output_results_dir
+    args.output_results_filename
+    
+    resutls_per_rel_path = f"{args.output_results_dir}/per_bk_{args.output_results_filename}"
+    resutls_per_bk_path = f"{args.output_results_dir}/per_rel_{args.output_results_filename}"
+    
+    with open(resutls_per_rel_path, 'w', newline='') as rel_res_file, open(resutls_per_bk_path, 'w', newline='') as bk_res_file:
+        rel_tsv_writer = csv.writer(rel_res_file, delimiter='\t')
+        rel_tsv_writer.writerow([
+            "Title",
+            "NDCG@1", "NDCG@3", "NDCG@5",
+            "MAP@1", "MAP@3", "MAP@5",
+            "MRR@1", "MRR@3", "MRR@5",
+            "Recall@1", "Recall@3", "Recall@5",
+            "P@1", "P@3", "P@5",
+        ])
+        
+        bk_tsv_writer = csv.writer(bk_res_file, delimiter='\t')
+        bk_tsv_writer.writerow([
+            "Title",
+            "NDCG@1", "NDCG@3", "NDCG@5",
+            "MAP@1", "MAP@3", "MAP@5",
+            "MRR@1", "MRR@3", "MRR@5",
+            "Recall@1", "Recall@3", "Recall@5",
+            "P@1", "P@3", "P@5",
+        ])
+        all_qrels = {}
+    
+        for filename in os.listdir(qrels_filename_dir):
+            if filename.endswith('.json'):
+                relation_id = filename.split('.')[0]
+                file_path = os.path.join(qrels_filename_dir, filename)
+                
+                with open(file_path, 'r') as infile:
+                    rel_data = json.load(infile)
+                
+                # Get the evaluation results for each relation
+                qrels = {}
+                for item in rel_data:
+                    query_id, corpus_id, score = item["query_id"], item["doc_id"], int(item["score"])
+                    qrels[query_id][corpus_id] = score
+                all_qrels = all_qrels.update(qrels)
+                
+                ndcg, _map, recall, precision = retriever.evaluate(qrels, results, k_values) #retriever.k_values
+                mrr = retriever.evaluate_custom(qrels, results, k_values, metric="mrr")
+                # recall_cap = retriever.evaluate_custom(qrels, results, k_values, metric="recall_cap")
+                # hole = retriever.evaluate_custom(qrels, results, k_values, metric="hole")
+                # top_k_accuracy = retriever.evaluate_custom(qrels, results, k_values, metric="top_k_accuracy")
+                
+                eval_res = [f"{relation_id}"]\
+                        +list(ndcg.values())\
+                        +list(_map.values())\
+                        +list(recall.values())\
+                        +list(precision.values())\
+                        +list(mrr.values())\
+                        +list(recall_cap.values())\
+                        +list(hole.values())\
+                        +list(top_k_accuracy.values())
+                rel_tsv_writer.writerow(eval_res)
+                
+                
+                # bucketing
+                bk_data = split_to_buckets(rel_data, split_points)
+                
+                for bk_name, bk_value in bk_data.items():
+                    logging.info(f"Processing {bk_name} ...")
+                    
+                    # Create qrels for each bucket
+                    qrels = {}
+                    for item in bk_value:
+                        query_id, corpus_id, score = item["query_id"], item["doc_id"], int(item["score"])
+                        qrels[query_id][corpus_id] = score
+                
+                    # Get the evaluation results for each bucket
+                    ndcg, _map, recall, precision = retriever.evaluate(qrels, results, k_values) #retriever.k_values
+                    mrr = retriever.evaluate_custom(qrels, results, k_values, metric="mrr")
+                    recall_cap = retriever.evaluate_custom(qrels, results, k_values, metric="recall_cap")
+                    hole = retriever.evaluate_custom(qrels, results, k_values, metric="hole")
+                    top_k_accuracy = retriever.evaluate_custom(qrels, results, k_values, metric="top_k_accuracy")
+
+                    # logging.info(ndcg)
+                    # logging.info(_map)
+                    # logging.info(recall)
+                    # logging.info(precision)
+                    # print(ndcg)
+                    # print(_map)
+                    # print(recall)
+                    # print(precision)
+                    # print("\n")
+
+                    eval_res = [f"{relation_id}_{bk_name}"]\
+                        +list(ndcg.values())\
+                        +list(_map.values())\
+                        +list(recall.values())\
+                        +list(precision.values())\
+                        +list(mrr.values())\
+                        +list(recall_cap.values())\
+                        +list(hole.values())\
+                        +list(top_k_accuracy.values())
+                    bk_tsv_writer.writerow(eval_res)
+                    
+            
+        # Get the evaluation results for all data
+        ndcg, _map, recall, precision = retriever.evaluate(all_qrels, results, k_values) #retriever.k_values
+        mrr = retriever.evaluate_custom(all_qrels, results, k_values, metric="mrr")
+        # recall_cap = retriever.evaluate_custom(qrels, results, k_values, metric="recall_cap")
+        # hole = retriever.evaluate_custom(qrels, results, k_values, metric="hole")
+        # top_k_accuracy = retriever.evaluate_custom(qrels, results, k_values, metric="top_k_accuracy")
+        
+        eval_res = ["all"]\
+                +list(ndcg.values())\
+                +list(_map.values())\
+                +list(recall.values())\
+                +list(precision.values())\
+                +list(mrr.values())\
+                +list(recall_cap.values())\
+                +list(hole.values())\
+                +list(top_k_accuracy.values())
+        rel_tsv_writer.writerow(eval_res)   
+    

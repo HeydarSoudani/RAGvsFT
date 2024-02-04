@@ -207,7 +207,6 @@ if __name__ == "__main__":
     split_points = [2, 3, 4, 5] # Good for popqa_pageviews
     split_points = [3, 4, 5, 6] # Good for my pageviews
     
-    
     with open(q_relative_pop_file_path, 'r') as file:
         q_by_relative = json.load(file)
     
