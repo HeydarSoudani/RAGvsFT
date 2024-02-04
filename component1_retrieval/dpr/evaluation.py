@@ -10,9 +10,9 @@ from beir.retrieval import models
 from beir.retrieval.evaluation import EvaluateRetrieval
 from beir.retrieval.search.dense import DenseRetrievalExactSearch as DRES
 
-# print(os.getcwd())
-# import sys
-# sys.path.append(os.getcwd())
+print(os.getcwd())
+import sys
+sys.path.append(os.getcwd())
 
 from component1_retrieval.customized_datasets.data_loader import CostomizedGenericDataLoader
 from component1_retrieval.utils import save_qrels_file, save_evaluation_files, save_evaluation_files_v2
