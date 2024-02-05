@@ -206,6 +206,9 @@ def save_evaluation_files_v2(retriever, results, args):
                 relation_id = filename.split('.')[0]
                 file_path = os.path.join(qrels_filename_dir, filename)
                 
+                logging.info(f"Processing relation {relation_id} ...")
+                print(f"Processing relation {relation_id} ...")
+                
                 with open(file_path, 'r') as infile:
                     rel_data = json.load(infile)
                 
@@ -237,6 +240,7 @@ def save_evaluation_files_v2(retriever, results, args):
                 
                 for bk_name, bk_value in bk_data.items():
                     logging.info(f"Processing {bk_name} ...")
+                    print(f"Processing {bk_name} ...")
                     
                     # Create qrels for each bucket
                     qrels = {}
