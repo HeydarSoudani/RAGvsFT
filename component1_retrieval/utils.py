@@ -187,7 +187,6 @@ def save_evaluation_files_v2(retriever, results, args):
             "Title",
             "NDCG@1", "NDCG@3", "NDCG@5",
             "MAP@1", "MAP@3", "MAP@5",
-            "MRR@1", "MRR@3", "MRR@5",
             "Recall@1", "Recall@3", "Recall@5",
             "P@1", "P@3", "P@5",
         ])
@@ -197,7 +196,6 @@ def save_evaluation_files_v2(retriever, results, args):
             "Title",
             "NDCG@1", "NDCG@3", "NDCG@5",
             "MAP@1", "MAP@3", "MAP@5",
-            "MRR@1", "MRR@3", "MRR@5",
             "Recall@1", "Recall@3", "Recall@5",
             "P@1", "P@3", "P@5",
         ])
@@ -222,7 +220,7 @@ def save_evaluation_files_v2(retriever, results, args):
                 all_qrels = all_qrels.update(qrels)
                 
                 ndcg, _map, recall, precision = retriever.evaluate(qrels, results, k_values) #retriever.k_values
-                mrr = retriever.evaluate_custom(qrels, results, k_values, metric="mrr")
+                # mrr = retriever.evaluate_custom(qrels, results, k_values, metric="mrr")
                 # recall_cap = retriever.evaluate_custom(qrels, results, k_values, metric="recall_cap")
                 # hole = retriever.evaluate_custom(qrels, results, k_values, metric="hole")
                 # top_k_accuracy = retriever.evaluate_custom(qrels, results, k_values, metric="top_k_accuracy")
@@ -231,13 +229,8 @@ def save_evaluation_files_v2(retriever, results, args):
                         +list(ndcg.values())\
                         +list(_map.values())\
                         +list(recall.values())\
-                        +list(precision.values())\
-                        +list(mrr.values())\
-                        +list(recall_cap.values())\
-                        +list(hole.values())\
-                        +list(top_k_accuracy.values())
+                        +list(precision.values())
                 rel_tsv_writer.writerow(eval_res)
-                
                 
                 # bucketing
                 bk_data = split_to_buckets(rel_data, split_points)
@@ -256,10 +249,10 @@ def save_evaluation_files_v2(retriever, results, args):
                 
                     # Get the evaluation results for each bucket
                     ndcg, _map, recall, precision = retriever.evaluate(qrels, results, k_values) #retriever.k_values
-                    mrr = retriever.evaluate_custom(qrels, results, k_values, metric="mrr")
-                    recall_cap = retriever.evaluate_custom(qrels, results, k_values, metric="recall_cap")
-                    hole = retriever.evaluate_custom(qrels, results, k_values, metric="hole")
-                    top_k_accuracy = retriever.evaluate_custom(qrels, results, k_values, metric="top_k_accuracy")
+                    # mrr = retriever.evaluate_custom(qrels, results, k_values, metric="mrr")
+                    # recall_cap = retriever.evaluate_custom(qrels, results, k_values, metric="recall_cap")
+                    # hole = retriever.evaluate_custom(qrels, results, k_values, metric="hole")
+                    # top_k_accuracy = retriever.evaluate_custom(qrels, results, k_values, metric="top_k_accuracy")
 
                     # logging.info(ndcg)
                     # logging.info(_map)
@@ -275,17 +268,13 @@ def save_evaluation_files_v2(retriever, results, args):
                         +list(ndcg.values())\
                         +list(_map.values())\
                         +list(recall.values())\
-                        +list(precision.values())\
-                        +list(mrr.values())\
-                        +list(recall_cap.values())\
-                        +list(hole.values())\
-                        +list(top_k_accuracy.values())
+                        +list(precision.values())
                     bk_tsv_writer.writerow(eval_res)
                     
             
         # Get the evaluation results for all data
         ndcg, _map, recall, precision = retriever.evaluate(all_qrels, results, k_values) #retriever.k_values
-        mrr = retriever.evaluate_custom(all_qrels, results, k_values, metric="mrr")
+        # mrr = retriever.evaluate_custom(all_qrels, results, k_values, metric="mrr")
         # recall_cap = retriever.evaluate_custom(qrels, results, k_values, metric="recall_cap")
         # hole = retriever.evaluate_custom(qrels, results, k_values, metric="hole")
         # top_k_accuracy = retriever.evaluate_custom(qrels, results, k_values, metric="top_k_accuracy")
@@ -294,10 +283,6 @@ def save_evaluation_files_v2(retriever, results, args):
                 +list(ndcg.values())\
                 +list(_map.values())\
                 +list(recall.values())\
-                +list(precision.values())\
-                +list(mrr.values())\
-                +list(recall_cap.values())\
-                +list(hole.values())\
-                +list(top_k_accuracy.values())
+                +list(precision.values())
         rel_tsv_writer.writerow(eval_res)   
     
