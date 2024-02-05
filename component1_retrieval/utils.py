@@ -215,7 +215,10 @@ def save_evaluation_files_v2(retriever, results, args):
                 qrels = {}
                 for item in rel_data:
                     query_id, corpus_id, score = item["query_id"], item["doc_id"], int(item["score"])
-                    qrels[query_id][corpus_id] = score
+                    if query_id not in qrels:
+                        qrels[query_id] = {corpus_id: score}
+                    else:
+                        qrels[query_id][corpus_id] = score
                 all_qrels = all_qrels.update(qrels)
                 
                 ndcg, _map, recall, precision = retriever.evaluate(qrels, results, k_values) #retriever.k_values
@@ -246,7 +249,10 @@ def save_evaluation_files_v2(retriever, results, args):
                     qrels = {}
                     for item in bk_value:
                         query_id, corpus_id, score = item["query_id"], item["doc_id"], int(item["score"])
-                        qrels[query_id][corpus_id] = score
+                        if query_id not in qrels:
+                            qrels[query_id] = {corpus_id: score}
+                        else:
+                            qrels[query_id][corpus_id] = score
                 
                     # Get the evaluation results for each bucket
                     ndcg, _map, recall, precision = retriever.evaluate(qrels, results, k_values) #retriever.k_values
