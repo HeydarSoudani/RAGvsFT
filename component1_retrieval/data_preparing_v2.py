@@ -22,23 +22,23 @@ def main():
     os.makedirs(output_qrels_dir, exist_ok=True)
     
     # Combine all corpus files into one
-    if not corpus_dir.endswith('/'):
-        corpus_dir += '/'
-    with open(output_corpus_file, 'w') as outfile:
-        for filename in os.listdir(corpus_dir):
-            if filename.endswith('.json'):
-                file_path = os.path.join(corpus_dir, filename)
-                with open(file_path, 'r') as infile:
-                    data = json.load(infile)
+    # if not corpus_dir.endswith('/'):
+    #     corpus_dir += '/'
+    # with open(output_corpus_file, 'w') as outfile:
+    #     for filename in os.listdir(corpus_dir):
+    #         if filename.endswith('.json'):
+    #             file_path = os.path.join(corpus_dir, filename)
+    #             with open(file_path, 'r') as infile:
+    #                 data = json.load(infile)
                     
-                    for item in data:
-                        new_json = {
-                            "_id": item["doc_id"],
-                            "title": item["title"],
-                            "text": item["content"]
-                        }
-                        json.dump(new_json, outfile)
-                        outfile.write('\n')
+    #                 for item in data:
+    #                     new_json = {
+    #                         "_id": item["doc_id"],
+    #                         "title": item["title"],
+    #                         "text": item["content"]
+    #                     }
+    #                     json.dump(new_json, outfile)
+    #                     outfile.write('\n')
     
     # Combine all quesries files into one
     if not queries_dir.endswith('/'):
@@ -53,7 +53,8 @@ def main():
                     for item in data:
                         new_json = {
                             "_id": item["query_id"],
-                            "text": item["question"]
+                            "text": item["question"],
+                            "pageviews": item["pageviews"]
                         }
                         json.dump(new_json, outfile)
                         outfile.write('\n')

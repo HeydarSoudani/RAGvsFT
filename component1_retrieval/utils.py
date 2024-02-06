@@ -2,7 +2,6 @@ import os, csv, json
 import logging
 import math
 
-
 def split_to_buckets(objects, split_points):
     
     split_points = sorted(split_points)
