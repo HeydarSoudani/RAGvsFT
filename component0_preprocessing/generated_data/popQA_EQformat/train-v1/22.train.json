@@ -1,0 +1,51 @@
+[
+    {
+        "query_id": "qa_22_0",
+        "question": "What profession is associated with the entity mentioned in the context?",
+        "answers": [
+            "politician"
+        ]
+    },
+    {
+        "query_id": "qa_22_1",
+        "question": "What is George Rankin's occupation?",
+        "answers": [
+            "politician"
+        ]
+    },
+    {
+        "query_id": "qa_22_2",
+        "question": "What is Brigitte Bardot's occupation?",
+        "answers": [
+            "actress, model, and singer"
+        ]
+    },
+    {
+        "query_id": "qa_22_3",
+        "question": "What is the occupation of an animal rights activist?",
+        "answers": [
+            "animal rights activist"
+        ]
+    },
+    {
+        "query_id": "qa_22_4",
+        "question": "What is the occupation of someone referred to as a 'locomotive of women's history'?",
+        "answers": [
+            "unknown"
+        ]
+    },
+    {
+        "query_id": "qa_22_5",
+        "question": "In what location is Brigitte Bardot associated with, such as post-war France?",
+        "answers": [
+            "post-war France"
+        ]
+    },
+    {
+        "query_id": "qa_22_6",
+        "question": "In what time periods is Brigitte Bardot particularly well-known, such as the 1950s and 1960s?",
+        "answers": [
+            "the 1950s and 1960s"
+        ]
+    }
+]

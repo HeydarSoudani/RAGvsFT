@@ -1,0 +1,100 @@
+[
+    {
+        "query_id": "qa_484_0",
+        "question": "Who is William Blake?",
+        "answers": [
+            "William Blake was a poet and artist who wrote the preface to his epic Milton : a poem in two books, which includes the poem 'Jerusalem'."
+        ]
+    },
+    {
+        "query_id": "qa_484_1",
+        "question": "What is Milton?",
+        "answers": [
+            "Milton is the name of a poet, specifically John Milton, who wrote the epic poem Paradise Lost."
+        ]
+    },
+    {
+        "query_id": "qa_484_2",
+        "question": "What is 'Jerusalem'?",
+        "answers": [
+            "'Jerusalem' is a poem by William Blake, which is also known as the hymn 'Jerusalem' with music by Sir Hubert Parry."
+        ]
+    },
+    {
+        "query_id": "qa_484_3",
+        "question": "Who is Sir Hubert Parry?",
+        "answers": [
+            "Sir Hubert Parry was a composer who wrote the music for the hymn 'Jerusalem'."
+        ]
+    },
+    {
+        "query_id": "qa_484_4",
+        "question": "Who is Sir Edward Elgar?",
+        "answers": [
+            "Sir Edward Elgar was a composer who created a famous orchestration for the poem 'Jerusalem'."
+        ]
+    },
+    {
+        "query_id": "qa_484_5",
+        "question": "Who is Jesus?",
+        "answers": [
+            "Jesus is a religious figure who, according to an apocryphal story, is said to have traveled to what is now England and visited Glastonbury during his unknown years."
+        ]
+    },
+    {
+        "query_id": "qa_484_6",
+        "question": "Who is Joseph of Arimathea?",
+        "answers": [
+            "Joseph of Arimathea was a tin merchant who, according to an apocryphal story, accompanied a young Jesus to what is now England and visited Glastonbury during his unknown years."
+        ]
+    },
+    {
+        "query_id": "qa_484_7",
+        "question": "Where is Glastonbury?",
+        "answers": [
+            "Glastonbury is a location that is believed to have been visited by Jesus, according to an apocryphal story."
+        ]
+    },
+    {
+        "query_id": "qa_484_8",
+        "question": "What is the second coming?",
+        "answers": [
+            "The second coming is a religious concept that refers to the expected return of Jesus, as described in the Book of Revelation."
+        ]
+    },
+    {
+        "query_id": "qa_484_9",
+        "question": "What is J.G. Ballard's occupation?",
+        "answers": [
+            "author"
+        ]
+    },
+    {
+        "query_id": "qa_484_10",
+        "question": "What is the title of the novel by J.G. Ballard that is about car crashes and sexual fetishism?",
+        "answers": [
+            "Crash"
+        ]
+    },
+    {
+        "query_id": "qa_484_11",
+        "question": "Who directed the film adaptation of Ballard's novel Crash?",
+        "answers": [
+            "David Cronenberg"
+        ]
+    },
+    {
+        "query_id": "qa_484_12",
+        "question": "What is the topic of the novel Crash by J.G. Ballard?",
+        "answers": [
+            "car crashes and sexual fetishism"
+        ]
+    },
+    {
+        "query_id": "qa_484_13",
+        "question": "What is the topic of the sexual behavior portrayed in the novel Crash by J.G. Ballard?",
+        "answers": [
+            "car - crash sexual fetishism"
+        ]
+    }
+]

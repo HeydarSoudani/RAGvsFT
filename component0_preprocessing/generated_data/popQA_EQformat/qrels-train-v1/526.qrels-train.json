@@ -51,12 +51,12 @@
     },
     {
         "query_id": "qa_526_10",
-        "doc_id": "526_392",
+        "doc_id": "526_65",
         "score": 1
     },
     {
         "query_id": "qa_526_11",
-        "doc_id": "526_392",
+        "doc_id": "526_65",
         "score": 1
     },
     {
@@ -81,6 +81,26 @@
     },
     {
         "query_id": "qa_526_16",
+        "doc_id": "526_392",
+        "score": 1
+    },
+    {
+        "query_id": "qa_526_17",
+        "doc_id": "526_392",
+        "score": 1
+    },
+    {
+        "query_id": "qa_526_18",
+        "doc_id": "526_392",
+        "score": 1
+    },
+    {
+        "query_id": "qa_526_19",
+        "doc_id": "526_392",
+        "score": 1
+    },
+    {
+        "query_id": "qa_526_20",
         "doc_id": "526_392",
         "score": 1
     }

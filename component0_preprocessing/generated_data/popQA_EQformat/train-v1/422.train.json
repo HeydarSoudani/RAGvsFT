@@ -1,0 +1,72 @@
+[
+    {
+        "query_id": "qa_422_0",
+        "question": "What is George Rankin?",
+        "answers": [
+            "Unspecified"
+        ]
+    },
+    {
+        "query_id": "qa_422_1",
+        "question": "What is Alabama?",
+        "answers": [
+            "Alabama is a state in the southeastern region of the United States, bordered by Tennessee to the north; Georgia to the east; Florida and the Gulf of Mexico to the south; and Mississippi to the west. Alabama is the 30th largest by area and the 24th - most populous of the U.S. States. With a total of 135,800 miles of inland waterways, Alabama has among the most of any state."
+        ]
+    },
+    {
+        "query_id": "qa_422_2",
+        "question": "What is the capital city of Alabama?",
+        "answers": [
+            "Montgomery"
+        ]
+    },
+    {
+        "query_id": "qa_422_3",
+        "question": "What is the largest city by population and area in Alabama?",
+        "answers": [
+            "Huntsville"
+        ]
+    },
+    {
+        "query_id": "qa_422_4",
+        "question": "What is the oldest city in Alabama?",
+        "answers": [
+            "Mobile"
+        ]
+    },
+    {
+        "query_id": "qa_422_5",
+        "question": "Who were the former territory holders of Alabama?",
+        "answers": [
+            "Alabama was a Spanish territory beginning in the sixteenth century until the French acquired it in the early eighteenth century. The British won the territory in 1763 until losing it in the American Revolutionary War. Spain held Mobile as part of Spanish West Florida until 1813."
+        ]
+    },
+    {
+        "query_id": "qa_422_6",
+        "question": "What is the state tree of Alabama?",
+        "answers": [
+            "The state tree of Alabama is the longleaf pine."
+        ]
+    },
+    {
+        "query_id": "qa_422_7",
+        "question": "What is the state flower of Alabama?",
+        "answers": [
+            "The state flower of Alabama is the camellia."
+        ]
+    },
+    {
+        "query_id": "qa_422_8",
+        "question": "What are the state nicknames of Alabama?",
+        "answers": [
+            "Alabama is nicknamed the Yellowhammer State, after the state bird. Alabama is also known as the 'Heart of Dixie' and the 'Cotton State'."
+        ]
+    },
+    {
+        "query_id": "qa_422_9",
+        "question": "What is George Rankin's occupation?",
+        "answers": [
+            "politician"
+        ]
+    }
+]

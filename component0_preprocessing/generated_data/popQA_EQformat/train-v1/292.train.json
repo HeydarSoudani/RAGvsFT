@@ -1,0 +1,30 @@
+[
+    {
+        "query_id": "qa_292_0",
+        "question": "Who was Alexander II?",
+        "answers": [
+            "Alexander II was a king of Epirus and the son of Pyrrhus and Lanassa, the daughter of the Sicilian tyrant Agathocles."
+        ]
+    },
+    {
+        "query_id": "qa_292_1",
+        "question": "Who was Pyrrhus?",
+        "answers": [
+            "Pyrrhus was the father of Alexander II."
+        ]
+    },
+    {
+        "query_id": "qa_292_2",
+        "question": "Who was Lanassa?",
+        "answers": [
+            "Lanassa was the mother of Alexander II and the daughter of the Sicilian tyrant Agathocles."
+        ]
+    },
+    {
+        "query_id": "qa_292_3",
+        "question": "Who was Agathocles?",
+        "answers": [
+            "Agathocles was the father-in-law of Pyrrhus and the grandfather of Alexander II."
+        ]
+    }
+]

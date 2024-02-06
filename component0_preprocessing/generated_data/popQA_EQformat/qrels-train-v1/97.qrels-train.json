@@ -31,12 +31,12 @@
     },
     {
         "query_id": "qa_97_6",
-        "doc_id": "97_15",
+        "doc_id": "97_14",
         "score": 1
     },
     {
         "query_id": "qa_97_7",
-        "doc_id": "97_15",
+        "doc_id": "97_14",
         "score": 1
     },
     {
@@ -61,11 +61,6 @@
     },
     {
         "query_id": "qa_97_12",
-        "doc_id": "97_15",
-        "score": 1
-    },
-    {
-        "query_id": "qa_97_13",
         "doc_id": "97_15",
         "score": 1
     }

@@ -1,0 +1,72 @@
+[
+    {
+        "query_id": "qa_639_0",
+        "question": "Who directed the movie 'Chariots of Fire'?",
+        "answers": [
+            "Hugh Hudson"
+        ]
+    },
+    {
+        "query_id": "qa_639_1",
+        "question": "Who wrote the screenplay for 'Chariots of Fire'?",
+        "answers": [
+            "Colin Welland"
+        ]
+    },
+    {
+        "query_id": "qa_639_2",
+        "question": "Who produced 'Chariots of Fire'?",
+        "answers": [
+            "David Puttnam"
+        ]
+    },
+    {
+        "query_id": "qa_639_3",
+        "question": "Who played Harold Abrahams in 'Chariots of Fire'?",
+        "answers": [
+            "Ben Cross"
+        ]
+    },
+    {
+        "query_id": "qa_639_4",
+        "question": "Who played Eric Liddell in 'Chariots of Fire'?",
+        "answers": [
+            "Ian Charleson"
+        ]
+    },
+    {
+        "query_id": "qa_639_5",
+        "question": "Who had a minor role in 'Chariots of Fire'?",
+        "answers": [
+            "Kenneth Branagh"
+        ]
+    },
+    {
+        "query_id": "qa_639_6",
+        "question": "Who had a supporting role in 'Chariots of Fire'?",
+        "answers": [
+            "Dennis Christopher"
+        ]
+    },
+    {
+        "query_id": "qa_639_7",
+        "question": "What is the title of the movie 'Chariots of Fire'?",
+        "answers": [
+            "Chariots of Fire"
+        ]
+    },
+    {
+        "query_id": "qa_639_8",
+        "question": "What is the name of the line from William Blake's poem that inspired the title of the movie 'Chariots of Fire'?",
+        "answers": [
+            "Bring me my chariot of fire!"
+        ]
+    },
+    {
+        "query_id": "qa_639_9",
+        "question": "What is the name of the British hymn adapted from William Blake's poem that is played at the end of 'Chariots of Fire'?",
+        "answers": [
+            "Jerusalem"
+        ]
+    }
+]

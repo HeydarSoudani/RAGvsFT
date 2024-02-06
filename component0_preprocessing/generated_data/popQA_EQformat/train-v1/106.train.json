@@ -1,0 +1,65 @@
+[
+    {
+        "query_id": "qa_106_0",
+        "question": "Who served as the 16th President of the United States from 1861 until his assassination in 1865?",
+        "answers": [
+            "Abraham Lincoln"
+        ]
+    },
+    {
+        "query_id": "qa_106_1",
+        "question": "Who was Abraham Lincoln?",
+        "answers": [
+            "Abraham Lincoln was an American lawyer and statesman who served as the 16th President of the United States from 1861 until his assassination in 1865. Lincoln led the nation through the American Civil War and succeeded in preserving the Union, abolishing slavery, bolstering the federal government, and modernizing the U.S. Economy. Lincoln was born into poverty in a log cabin in Kentucky and was raised on the frontier primarily in Indiana. He was self-educated and became a lawyer, Whig Party Leader, Illinois State Legislator, and U.S. Congressman from Illinois. In 1849, he returned to his law practice but became vexed by the opening of additional lands to slavery as a result of the Kansas-Nebraska Act. He reentered politics in 1854, becoming a leader in the new Republican Party, and he reached a national audience in the 1858 debates against Stephen Douglas. Lincoln ran for president in 1860, sweeping the north in victory."
+        ]
+    },
+    {
+        "query_id": "qa_106_2",
+        "question": "What historical event involved Fort Sumter being fired upon?",
+        "answers": [
+            "The opening of the American Civil War"
+        ]
+    },
+    {
+        "query_id": "qa_106_3",
+        "question": "Which states seceded from the Union?",
+        "answers": [
+            "Southern states began seceding from the Union"
+        ]
+    },
+    {
+        "query_id": "qa_106_4",
+        "question": "What action did Abraham Lincoln take in response to the Confederate States' actions?",
+        "answers": [
+            "Lincoln called up forces to suppress the rebellion"
+        ]
+    },
+    {
+        "query_id": "qa_106_5",
+        "question": "How did Abraham Lincoln contribute to the abolition of slavery?",
+        "answers": [
+            "Abraham Lincoln succeeded in abolishing slavery"
+        ]
+    },
+    {
+        "query_id": "qa_106_6",
+        "question": "How did Abraham Lincoln impact the U.S. Economy?",
+        "answers": [
+            "Abraham Lincoln modernized the U.S. Economy"
+        ]
+    },
+    {
+        "query_id": "qa_106_7",
+        "question": "What political position did Abraham Lincoln hold in Illinois?",
+        "answers": [
+            "Abraham Lincoln held the political position of Illinois State Legislator"
+        ]
+    },
+    {
+        "query_id": "qa_106_8",
+        "question": "What political position did Abraham Lincoln hold in the U.S. Congress?",
+        "answers": [
+            "Abraham Lincoln held the political position of U.S. Congressman from Illinois"
+        ]
+    }
+]

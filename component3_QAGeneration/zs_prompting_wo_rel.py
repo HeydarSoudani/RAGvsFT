@@ -5,7 +5,11 @@ from transformers import pipeline
 import re
 import torch
 import argparse, json, os
+from tqdm import tqdm
+from nltk.tokenize import sent_tokenize
 
+import nltk
+nltk.download('punkt')
 
 output_dir = "component0_preprocessing/generated_data/popQA_EQformat"
 # corpus_dir = f"{output_dir}/corpus_all"
@@ -43,7 +47,35 @@ def truncate_text(text, max_tokens):
     truncated_text = truncate_text_tokenizer.convert_tokens_to_string(tokens)
     return truncated_text
 
-def main():
+def split_text_to_sentences(text, max_tokens):
+    sentences = sent_tokenize(text)
+    
+    chunks = []
+    current_chunk = []
+    current_length = 0
+
+    for sentence in sentences:
+        # Adding a period back to each sentence except the last one
+        sentence = sentence.strip() if sentence != sentences[-1] else sentence.strip()
+        sentence_length = len(sentence.split())
+
+        # Check if adding the current sentence would exceed the maximum token count
+        if current_length + sentence_length <= max_tokens:
+            current_chunk.append(sentence)
+            current_length += sentence_length
+        else:
+            # Add the current chunk to the chunks list and start a new chunk
+            chunks.append(' '.join(current_chunk))
+            current_chunk = [sentence]
+            current_length = sentence_length
+
+    # Add the last chunk if it's not empty
+    if current_chunk:
+        chunks.append(' '.join(current_chunk))
+
+    return chunks
+
+def prompting_qa_generation(relation_id):
     
     # Load model
     pipe = pipeline(
@@ -52,63 +84,65 @@ def main():
         torch_dtype=torch.bfloat16,
         device_map="auto"
     )
-
+    
     prompt_qa_generation = lambda context: f"""
     You are a question-answer generator. Your goal is to generate question-answer pairs given the Context.
 
-    Example output:
-    {{“question”: “What is George Rankin's occupation?”, “answer”: “politician”}}
+    Example output: {{“question”: “”, “answer”: ""}}
 
-    ===
+    Context: {context}
 
-    Context:
-    {context}
-
-    ===
-
-    Step 1: Extract all entities that have potential for being an answer, identify as many as possible.
-    Step 2: For each identified entity, generate a question.
-    Step 3: Output in JSON format following the example above (i.e., `{{...}}`).
-    Ensure that you distinctly label and delineate Steps 1, 2, and 3. Let's think step by step: 
+    Step 1: Identifies spans that are likely to be answers to questions, identify as many as possible.
+    Step 2: For each identified span, generate a question.
+    Step 3: Respond to the question in only a few tokens concisely.
+    Step 4: Output in JSON format following the example above (i.e., `{{...}}`).
+    Ensure that you distinctly label and delineate Steps 1, 2, 3, and 4. Let's think step by step:
     """.replace('    ', '')
     
 
-    for corpus_file in os.listdir(corpus_dir):
-        if corpus_file.endswith('.corpus.json'):
+    # for corpus_file in os.listdir(corpus_dir):
+    #     if corpus_file.endswith('.corpus.json'):
+    #         relation_id = corpus_file.split('.')[0]
+    # print(f"Processing corpus file: {corpus_file}")
+    
+    # print(f"Processing relation file: {relation_id}")
+    query_id_counter = 0
+    
+    with open(f'{corpus_dir}/{relation_id}.corpus.json', 'r', encoding='utf-8') as cf:
+        data = json.load(cf)
+        
+        all_qas = []
+        qrels_train = []
+        for item in tqdm(data, desc=f"Processing {relation_id} ..."):
+        
+        # for idx, item in enumerate(data):
+            # if idx == 5:
+            #     break
             
-            relation_id = corpus_file.split('.')[0]
-            print(f"Processing corpus file: {corpus_file}")
-            print(f"Processing relation file: {relation_id}")
-            query_id_counter = 0
+            context = item['content']
+            doc_id = item['doc_id']
             
-            with open(f'{corpus_dir}/{corpus_file}', 'r', encoding='utf-8') as cf:
-                data = json.load(cf)
-                
-                all_qas = []
-                qrels_train = []
-                for idx, item in enumerate(data):
-                    
-                    if idx == 2:
-                        break
-                    
-                    context = item['content']
-                    doc_id = item['doc_id']
-                    _prompt = [
-                        { "role": "system", "content": "\n"},
-                        { "role": "user", "content": prompt_qa_generation(truncate_text(context, 256))}
-                    ]
-                    
-                    prompt = pipe.tokenizer.apply_chat_template(_prompt, tokenize=False, add_generation_prompt=True)
-                    outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
-                    new_pt = outputs[0]["generated_text"]
-                    qas = extract_json_objects(new_pt)
-                    
-                    if qas is not None:
-                        print(qas)
-                        for qa in qas:
-                            print("The question is: {}".format(qa["question"]))
-                            print("The answer is: {}".format(qa["answer"]))                     
-                            
+            max_tokens = 256
+            chunks = split_text_to_sentences(context, max_tokens)
+            for chunk in chunks:
+            
+                _prompt = [
+                    { "role": "system", "content": "\n"},
+                    { "role": "user", "content": prompt_qa_generation(chunk)}
+                ]
+            
+                prompt = pipe.tokenizer.apply_chat_template(_prompt, tokenize=False, add_generation_prompt=True)
+                outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
+                new_pt = outputs[0]["generated_text"]
+                qas = extract_json_objects(new_pt)
+            
+                if qas is not None:
+                    # print(qas)
+                    for qa in qas:
+                        if "question" in qa.keys() and "answer" in qa.keys():
+                            # print("The question is: {}".format(qa["question"]))
+                            # print("The answer is: {}".format(qa["answer"]))                     
+                        
                             all_qas.append({
                                 'query_id': f"qa_{relation_id}_{query_id_counter}",
                                 'question': qa["question"],
@@ -120,13 +154,15 @@ def main():
                                 'score': 1
                             })
                             query_id_counter += 1
-                                        
+                        else:
+                            print("This QA object is missing either 'question' or 'answer' keys:", qa.keys())
+                                
 
-            with open(f'{train_dir}/{relation_id}.train.json', 'w', encoding='utf-8') as tf:
-                json.dump(all_qas, tf, indent=4)
-            
-            with open(f'{qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
-                json.dump(qrels_train, qf, indent=4)
+    with open(f'{train_dir}/{relation_id}.train.json', 'w', encoding='utf-8') as tf:
+        json.dump(all_qas, tf, indent=4)
+    
+    with open(f'{qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
+        json.dump(qrels_train, qf, indent=4)
 
 
 def post_filtering():
@@ -136,6 +172,11 @@ def post_filtering():
 if __name__ == "__main__":
     # parser = argparse.ArgumentParser()
     # args = parser.parse_args()
-    main()
+    
+    # Done:  
+    # Doing: 106, 22, 560
+    # To Do: 182, 218, 91, 257, 164, 526, 97, 533, 639, 472, 560, 484, 292, 422
+    relation_id = "560"
+    prompting_qa_generation(relation_id=relation_id)
     
     post_filtering()
