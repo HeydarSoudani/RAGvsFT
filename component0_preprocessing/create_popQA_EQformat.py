@@ -423,6 +423,78 @@ def create_train_and_dev_files(args, relation_id=None):
         drop_answer_error_text=True,
     )
     
+    # V1
+    # def create_train_and_dev_files_for_relation(relation_id):
+    #     corpus_file = f"{relation_id}.corpus.json"
+    #     print(f"Processing corpus file: {corpus_file}")
+    #     query_id_counter = 0
+        
+    #     with open(f'{corpus_sum_dir}/{corpus_file}', 'r', encoding='utf-8') as cf:
+    #         corpus_data = json.load(cf)
+                
+    #         all_qas = []
+    #         qrels_train = []
+    #         for item in corpus_data:
+    #             content = remove_parentheses(item['content'])
+    #             doc_id = item['doc_id']
+                
+    #             chunks_to_process = [(content, max_tokens)]
+    #             while chunks_to_process:
+                    
+    #                 try: 
+    #                     current_chunk, current_max_tokens = chunks_to_process.pop(0)
+    #                     qas, split_chunks = generate_qa_with_memory_handling(model, current_chunk, current_max_tokens)
+                        
+    #                     if qas is not None:
+    #                         print(qas)
+    #                         for question, answer in qas:                                
+                                
+    #                             for question, answer in qas:
+    #                                 qa_dict = {
+    #                                     'query_id': f"qa_{relation_id}_{query_id_counter}",
+    #                                     'question': question,
+    #                                     'answers': [answer]
+    #                                 }
+    #                                 all_qas.append(qa_dict)
+    #                                 qrels_train.append({
+    #                                     'query_id': qa_dict['query_id'],
+    #                                     'doc_id': doc_id,
+    #                                     'score': 1
+    #                                 })
+    #                                 query_id_counter += 1
+    #                             torch.cuda.empty_cache()
+                                
+    #                     elif split_chunks:
+    #                         chunks_to_process.extend([(chunk, current_max_tokens) for chunk in split_chunks])
+    #                     else:
+    #                         print(f"Unable to process chunk due to memory constraints: {current_chunk}")
+
+    #                 except AnswerNotFoundError:
+    #                     print(f"Answer not found for passage: {content}")
+    #                     continue
+    #                 except ExceedMaxLengthError:
+    #                     print(f"Input exceeded max length for passage: {content}")
+    #                     continue
+    #                 except ValueError as e:
+    #                     print(f"For: {content}")
+    #                     print(str(e))
+    #                     continue
+                
+    #         random.shuffle(all_qas)
+    #         split_index = int(len(all_qas) * dev_split)
+    #         dev_qas = all_qas[:split_index]
+    #         train_qas = all_qas[split_index:]
+
+    #         with open(f'{train_dir}/{relation_id}.train.json', 'w', encoding='utf-8') as tf:
+    #             json.dump(train_qas, tf, indent=4)
+
+    #         with open(f'{dev_dir}/{relation_id}.dev.json', 'w', encoding='utf-8') as df:
+    #             json.dump(dev_qas, df, indent=4)
+            
+    #         with open(f'{qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
+    #             json.dump(qrels_train, qf, indent=4)
+
+    # V2
     def create_train_and_dev_files_for_relation(relation_id):
         corpus_file = f"{relation_id}.corpus.json"
         print(f"Processing corpus file: {corpus_file}")
@@ -434,16 +506,17 @@ def create_train_and_dev_files(args, relation_id=None):
             all_qas = []
             qrels_train = []
             for item in corpus_data:
-                content = remove_parentheses(item['content'])
+                context = remove_parentheses(item['content'])
                 doc_id = item['doc_id']
                 
-                chunks_to_process = [(content, max_tokens)]
-                while chunks_to_process:
+                max_tokens = 256
+                chunks = split_text_to_sentences(context, max_tokens)
+                for chunk in chunks:
                     
-                    try: 
-                        current_chunk, current_max_tokens = chunks_to_process.pop(0)
-                        qas, split_chunks = generate_qa_with_memory_handling(model, current_chunk, current_max_tokens)
-                        
+                    try:
+                        with torch.no_grad():
+                            qas = model.generate_qa(chunk)
+                    
                         if qas is not None:
                             print(qas)
                             for question, answer in qas:                                
@@ -461,37 +534,25 @@ def create_train_and_dev_files(args, relation_id=None):
                                         'score': 1
                                     })
                                     query_id_counter += 1
-                                torch.cuda.empty_cache()
-                                
-                        elif split_chunks:
-                            chunks_to_process.extend([(chunk, current_max_tokens) for chunk in split_chunks])
-                        else:
-                            print(f"Unable to process chunk due to memory constraints: {current_chunk}")
-
-                    except AnswerNotFoundError:
-                        print(f"Answer not found for passage: {content}")
+                    
+                    except torch.cuda.OutOfMemoryError:
+                        print("CUDA out of memory.")
                         continue
-                    except ExceedMaxLengthError:
-                        print(f"Input exceeded max length for passage: {content}")
-                        continue
-                    except ValueError as e:
-                        print(f"For: {content}")
-                        print(str(e))
-                        continue
-                
-            random.shuffle(all_qas)
-            split_index = int(len(all_qas) * dev_split)
-            dev_qas = all_qas[:split_index]
-            train_qas = all_qas[split_index:]
+        
+        random.shuffle(all_qas)
+        split_index = int(len(all_qas) * dev_split)
+        dev_qas = all_qas[:split_index]
+        train_qas = all_qas[split_index:]
 
-            with open(f'{train_dir}/{relation_id}.train.json', 'w', encoding='utf-8') as tf:
-                json.dump(train_qas, tf, indent=4)
+        with open(f'{train_dir}/{relation_id}.train.json', 'w', encoding='utf-8') as tf:
+            json.dump(train_qas, tf, indent=4)
 
-            with open(f'{dev_dir}/{relation_id}.dev.json', 'w', encoding='utf-8') as df:
-                json.dump(dev_qas, df, indent=4)
-            
-            with open(f'{qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
-                json.dump(qrels_train, qf, indent=4)
+        with open(f'{dev_dir}/{relation_id}.dev.json', 'w', encoding='utf-8') as df:
+            json.dump(dev_qas, df, indent=4)
+        
+        with open(f'{qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
+            json.dump(qrels_train, qf, indent=4)
+        
 
     if relation_id == None:
         for corpus_file in os.listdir(corpus_sum_dir):
