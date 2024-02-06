@@ -30,9 +30,6 @@ corpus_sum_dir = f"{output_dir}/corpus_summary"
 qrels_sum_dir = f"{output_dir}/qrels_summary" 
 corpus_all_dir = f"{output_dir}/corpus_all" 
 qrels_all_dir = f"{output_dir}/qrels_all"
-train_dir = f"{output_dir}/train" 
-dev_dir = f"{output_dir}/dev" 
-qrels_train_dir = f"{output_dir}/qrels-train" 
 os.makedirs(test_dir, exist_ok=True)
 os.makedirs(entity_dir, exist_ok=True)
 os.makedirs(corpus_sum_dir, exist_ok=True)
@@ -40,6 +37,10 @@ os.makedirs(qrels_sum_dir, exist_ok=True)
 os.makedirs(corpus_all_dir, exist_ok=True)
 os.makedirs(qrels_all_dir, exist_ok=True)
 
+train_dir = f"{output_dir}/pipeline/train" 
+dev_dir = f"{output_dir}/pipeline/dev" 
+qrels_train_dir = f"{output_dir}/pipeline/qrels-train" 
+os.makedirs(f"{output_dir}/pipeline", exist_ok=True)
 os.makedirs(train_dir, exist_ok=True)
 os.makedirs(dev_dir, exist_ok=True)
 os.makedirs(qrels_train_dir, exist_ok=True)
@@ -571,7 +572,7 @@ def main(args):
 
     ### ==== Creating corpus & qrels files ================
     # create_corpus_and_qrels_files_via_api()
-    create_corpus_and_qrels_files_via_hf_datasets()
+    # create_corpus_and_qrels_files_via_hf_datasets()
     # check_entities()
     # add_empty_entities()
     
@@ -579,8 +580,8 @@ def main(args):
     # Done:  106, 22, 182, 218, 91, 257, 164, 526, 97, 533, 639, 472, 560, 484, 292, 422
     # Doing: 
     # To Do:
-    # relation_id = "422"
-    # create_train_and_dev_files(args, relation_id=relation_id)
+    relation_id = "106"
+    create_train_and_dev_files(args, relation_id=relation_id)
     
 
 if __name__ == "__main__":

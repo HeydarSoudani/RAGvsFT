@@ -14,9 +14,11 @@ nltk.download('punkt')
 output_dir = "component0_preprocessing/generated_data/popQA_EQformat"
 # corpus_dir = f"{output_dir}/corpus_all"
 corpus_dir = f"{output_dir}/corpus_summary"
-train_dir = f"{output_dir}/train" 
-qrels_train_dir = f"{output_dir}/qrels-train" 
 
+train_dir = f"{output_dir}/prompting/train" 
+qrels_train_dir = f"{output_dir}/prompting/qrels-train" 
+
+os.makedirs(f"{output_dir}/prompting", exist_ok=True)
 os.makedirs(train_dir, exist_ok=True)
 os.makedirs(qrels_train_dir, exist_ok=True)
 
@@ -164,19 +166,21 @@ def prompting_qa_generation(relation_id):
     with open(f'{qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
         json.dump(qrels_train, qf, indent=4)
 
-
-def post_filtering():
-    pass
+def post_filtering(relation_id):
+    
+    with open(f'{train_dir}/{relation_id}.train.json', 'r', encoding='utf-8') as cf:
+        
+        data = json.load(cf)
 
 
 if __name__ == "__main__":
     # parser = argparse.ArgumentParser()
     # args = parser.parse_args()
     
-    # Done:  
-    # Doing: 106, 22, 560
-    # To Do: 182, 218, 91, 257, 164, 526, 97, 533, 639, 472, 560, 484, 292, 422
-    relation_id = "560"
+    # Done: 106, 22, 560 
+    # Doing: 
+    # To Do: 182, 218, 91, 257, 164, 526, 97, 533, 639, 472, 484, 292, 422
+    relation_id = "182"
     prompting_qa_generation(relation_id=relation_id)
     
-    post_filtering()
+    post_filtering(relation_id=relation_id)
