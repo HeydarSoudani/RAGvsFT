@@ -8,23 +8,21 @@ import argparse, json, os
 
 
 output_dir = "component0_preprocessing/generated_data/popQA_EQformat"
-corpus_dir = f"{output_dir}/corpus_all"
+# corpus_dir = f"{output_dir}/corpus_all"
 corpus_dir = f"{output_dir}/corpus_summary"
 train_dir = f"{output_dir}/train" 
-dev_dir = f"{output_dir}/dev" 
 qrels_train_dir = f"{output_dir}/qrels-train" 
+
+os.makedirs(train_dir, exist_ok=True)
+os.makedirs(qrels_train_dir, exist_ok=True)
+
 max_tokens = 512
 dev_split = 0.1
 
 def extract_json_objects(text):
-    # Define a regular expression pattern for JSON objects
-    # This is a simplistic pattern and might need adjustments for complex cases
-    pattern = r'\{(?:[^{}]|(?R))*\}'
-    
-    # Find all substrings that match the JSON pattern
+    pattern = r'\{[^{}]*\}'
     json_strings = re.findall(pattern, text)
     
-    # Parse the JSON strings into Python dictionaries
     json_objects = []
     for json_str in json_strings:
         try:
@@ -90,7 +88,7 @@ def main():
                 qrels_train = []
                 for idx, item in enumerate(data):
                     
-                    if idx == 5:
+                    if idx == 2:
                         break
                     
                     context = item['content']
@@ -107,12 +105,14 @@ def main():
                     
                     if qas is not None:
                         print(qas)
-                        for question, answer in qas:                                
+                        for qa in qas:
+                            print("The question is: {}".format(qa["question"]))
+                            print("The answer is: {}".format(qa["answer"]))                     
                             
                             all_qas.append({
                                 'query_id': f"qa_{relation_id}_{query_id_counter}",
-                                'question': question,
-                                'answers': [answer]
+                                'question': qa["question"],
+                                'answers': [qa["answer"]]
                             })
                             qrels_train.append({
                                 'query_id': f"qa_{relation_id}_{query_id_counter}",
@@ -129,7 +129,13 @@ def main():
                 json.dump(qrels_train, qf, indent=4)
 
 
+def post_filtering():
+    pass
+
+
 if __name__ == "__main__":
     # parser = argparse.ArgumentParser()
     # args = parser.parse_args()
     main()
+    
+    post_filtering()
