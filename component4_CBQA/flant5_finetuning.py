@@ -261,7 +261,7 @@ def load_training_args(args):
         evaluation_strategy="epoch",
         logging_strategy="epoch",
         save_strategy="epoch",
-        save_total_limit=2,
+        save_total_limit=4,
         # load_best_model_at_end=True,
         # metric_for_best_model="overall_f1",
         # push to hub parameters

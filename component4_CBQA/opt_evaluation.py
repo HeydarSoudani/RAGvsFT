@@ -33,14 +33,11 @@ training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = 'all'
 # target_relation_ids = ["91"]
 # target_relation_ids = ["91", "106", "22", "182"]
-file_prefix="bf_rag"
+# file_prefix="bf_rag"
+file_prefix="bf_rag_nopeft"
 
 subset_percentage = 1.0
-if dataset_name == "TQA":
-    num_relations = 1
-else:
-    num_relations = 15
-
+num_relations = 1 if dataset_name == "TQA" else 15
 
 def set_seed(seed):
     """Set the seed for reproducibility in PyTorch, NumPy, and Python."""
@@ -109,6 +106,7 @@ def load_model(args):
             # device_map={"": 0},
         )
         tokenizer = AutoTokenizer.from_pretrained(
+        #    "facebook/opt-350m",
            args.model_name_or_path,
            trust_remote_code=True
         )
@@ -282,7 +280,7 @@ def main(args):
     model_name = args.model_name_or_path.split('/')[-1]
     str_rels = "all" if target_relation_ids == "all" else '_'.join(test_relation_ids)
     out_results_path = f"{out_results_dir}/{str_rels}.{model_name}.{file_prefix}_results.jsonl"
-    
+
     if with_rag:
         ret_results = []
         ret_results_dir = f"{args.data_dir}/retrieved"

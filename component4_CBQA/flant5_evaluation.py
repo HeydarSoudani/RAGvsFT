@@ -22,6 +22,7 @@ os.environ["WANDB_MODE"] = "offline"
 
 device = 'cuda:0'
 prompt_prefix = "Answer the question : "
+
 dataset_name = 'popQA' # [TQA, popQA, EQ]
 with_peft = True
 with_fs = False
@@ -30,7 +31,7 @@ training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = 'all'
 # target_relation_ids = ["91"]
 # target_relation_ids = ["91", "106", "22", "182"]
-file_prefix="af_rag_nopeft_v5"
+file_prefix="af_norag_peft_v13"
 
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
@@ -155,10 +156,11 @@ def load_model(args, with_peft=False):
         model = AutoModelForSeq2SeqLM.from_pretrained(
             args.model_name_or_path,
             # device_map={"": 0}
+            device_map="auto"
         )
-        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
+        tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
     
-    model.to(device)
+    # model.to(device)
     model.eval()
     logging.info("Model and tokenizer are loaded")
     
@@ -218,7 +220,7 @@ def main(args):
             if with_rag:
                 for ret_result in ret_results:
                     if ret_result['id'] == query_id:
-                        retrieved_text = truncate_text(ret_result['ctxs'][0]['text'], 495) + "\n\n"
+                        retrieved_text = truncate_text(ret_result['ctxs'][0]['text'], 490) + "\n\n"
                         break
                 if retrieved_text == "":
                     logging.info('\n')
@@ -227,7 +229,15 @@ def main(args):
                     print('\n')
                     print("No retrieved text found for query: {}".format(query))
             
-            prompt = few_shot_examples_text + retrieved_text + prompt_prefix + query
+                prompt = f"""
+                context: {retrieved_text}
+                Based on the provided context, answer the question: {query}
+                """
+            else:
+                prompt = few_shot_examples_text + retrieved_text + prompt_prefix + query
+                
+            # print(prompt)
+            # prompt = few_shot_examples_text + retrieved_text + prompt_prefix + query
             inpts = tokenizer(prompt, return_tensors="pt").to(device)
             
             with torch.no_grad():
@@ -258,6 +268,7 @@ def main(args):
                 
                 if idx % 500 == 0:
                     logging.info('\n')
+                    logging.info(f"Prompt: {prompt}")
                     logging.info(f"Query: {query}")
                     logging.info(f"Pred: {pred}")
                     logging.info(f"Labels: {test_answers[idx]}")
