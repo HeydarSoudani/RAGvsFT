@@ -562,7 +562,7 @@ def create_train_and_dev_files(args, relation_id=None):
                 prop_id = corpus_file.split('.')[0]
                 create_train_and_dev_files_for_relation(prop_id)
     else: 
-        create_train_and_dev_files_for_relation(relation_id)     
+        create_train_and_dev_files_for_relation(relation_id)
              
     print("Train, Dev, and Qrels-Train creation complete.")
 
