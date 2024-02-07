@@ -25,6 +25,24 @@ dataset_name = 'popqa'
 tsv_file_path = "data/dataset/popQA/popQA.tsv"
 output_dir = 'component0_preprocessing/generated_data/popQA_EQformat'
 
+RELATIONS = {
+    "22": "Occupation",
+    "218": "Place of birth",
+    "91": "Genre",
+    "257": "Father",
+    "182": "Country",
+    "164": "Producer",
+    "526": "Director",
+    "97": "Capital of",
+    "533": "Screenwriter",
+    "639": "Composer",
+    "472": "Color",
+    "106": "Religion",
+    "560": "Sport",
+    "484": "Author",
+    "292": "Mother",
+    "422": "Capital"
+}
 
 entities_analysis_file = f"{output_dir}/entities_analysis.json"
 test_dir = f"{output_dir}/test" 
@@ -638,8 +656,8 @@ def plot_bucket_num():
     for idx, filename in enumerate(os.listdir(test_dir)):
         if filename.endswith('.json'):
             relation_id = filename.split('.')[0]
-            logging.info(f"Processing relation {relation_id} ...")
-            print(f"Processing relation {relation_id} ...")
+            logging.info(f"Processing relation {relation_id}, {RELATIONS[relation_id]} ...")
+            print(f"Processing relation {relation_id}, {RELATIONS[relation_id]} ...")
             
             if dataset_name == 'popqa':
                 row = (idx // 4) + 1
@@ -657,7 +675,7 @@ def plot_bucket_num():
             bk_data = split_to_buckets(q_rel_data, split_points)
             counts = [len(bk) for bk in bk_data.values()]
             ax.bar(["b1", "b2", "b3", "b4", "b5"], counts)
-            ax.set_title(relation_id)
+            ax.set_title(RELATIONS[relation_id])
     
     row = 0
     col = 0
@@ -669,7 +687,6 @@ def plot_bucket_num():
     
     plt.tight_layout()
     plt.show()
-            
             
 
 def main(args):

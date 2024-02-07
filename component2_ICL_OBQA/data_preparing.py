@@ -106,3 +106,4 @@ if __name__ == "__main__":
     parser.add_argument('-m', '--model', type=str, default="vanilla", choices=["vanilla", "BM25", "dpr_noft", "dpr_ft", "contriever", "rerank"])
     args = parser.parse_args()
     main(args)
+
