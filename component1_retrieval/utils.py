@@ -199,6 +199,7 @@ def save_evaluation_files_v2(retriever, results, args):
             "P@1", "P@3", "P@5",
         ])
         all_qrels = {}
+        all_queries = []
     
         for filename in os.listdir(qrels_filename_dir):
             if filename.endswith('.json'):
@@ -240,6 +241,7 @@ def save_evaluation_files_v2(retriever, results, args):
                 query_file = f"{queries_filename_path}/{relation_id}.test.json"
                 with open(query_file, 'r') as in_queries:
                     query_rel_data = json.load(in_queries)
+                all_queries = all_queries.extend(query_rel_data)
                 
                 bk_data = split_to_buckets(query_rel_data, split_points)
                 
@@ -279,11 +281,9 @@ def save_evaluation_files_v2(retriever, results, args):
                     
             
         # Get the evaluation results for all data
+        logging.info(f"Processing all data ...")
+        print(f"Processing all data ...")
         ndcg, _map, recall, precision = retriever.evaluate(all_qrels, results, k_values) #retriever.k_values
-        # mrr = retriever.evaluate_custom(all_qrels, results, k_values, metric="mrr")
-        # recall_cap = retriever.evaluate_custom(qrels, results, k_values, metric="recall_cap")
-        # hole = retriever.evaluate_custom(qrels, results, k_values, metric="hole")
-        # top_k_accuracy = retriever.evaluate_custom(qrels, results, k_values, metric="top_k_accuracy")
         
         eval_res = ["all"]\
                 +list(ndcg.values())\
@@ -291,4 +291,42 @@ def save_evaluation_files_v2(retriever, results, args):
                 +list(recall.values())\
                 +list(precision.values())
         rel_tsv_writer.writerow(eval_res)   
+        
+        
+        bk_data = split_to_buckets(all_queries, split_points)
+                
+        for bk_name, bk_value in bk_data.items():
+            logging.info(f"Processing {bk_name} ...")
+            print(f"Processing {bk_name} ...")
+            
+            if len(bk_value) == 0:
+                eval_res = [f"{relation_id}_{bk_name}"] + [0]*12
+            
+            else:
+                qid_list = [q_sample["query_id"] for q_sample in bk_value]
+                
+                # Create qrels for each bucket
+                qrels = {}
+                for item in qrels_rel_data:
+                    query_id, corpus_id, score = item["query_id"], item["doc_id"], int(item["score"])
+                    if item["query_id"] in qid_list:
+                        if query_id not in qrels:
+                            qrels[query_id] = {corpus_id: score}
+                        else:
+                            qrels[query_id][corpus_id] = score
+            
+                            
+                if len(qrels) > 0:
+                    ndcg, _map, recall, precision = retriever.evaluate(qrels, results, k_values) #retriever.k_values
+
+                    eval_res = [f"{relation_id}_{bk_name}"]\
+                        +list(ndcg.values())\
+                        +list(_map.values())\
+                        +list(recall.values())\
+                        +list(precision.values())
+                else:
+                    eval_res = [f"{relation_id}_{bk_name}"] + [0]*12
+
+            bk_tsv_writer.writerow(eval_res)
+        
     
