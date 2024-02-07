@@ -247,7 +247,7 @@ def save_evaluation_files_v2(retriever, results, args):
                     logging.info(f"Processing {bk_name} ...")
                     print(f"Processing {bk_name} ...")
                     
-                    if len(bk_data) == 0:
+                    if len(bk_value) == 0:
                         eval_res = [f"{relation_id}_{bk_name}"] + [0]*12
                     
                     else:
