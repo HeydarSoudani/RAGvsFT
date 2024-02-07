@@ -168,7 +168,7 @@ def save_evaluation_files_v1(retriever, results, args):
 
 def save_evaluation_files_v2(retriever, results, args):
     
-    split_points = [3, 4, 5, 6] # Good for my pageviews
+    split_points = [2, 3, 4, 5] # Good for my pageviews
     k_values = [1, 3, 5]
     queries_filename_path = f"{args.data_path}/test"
     qrels_filename_dir = f"{args.data_path}/qrels"
@@ -319,7 +319,7 @@ def save_evaluation_files_v2(retriever, results, args):
                 if len(qrels) > 0:
                     ndcg, _map, recall, precision = retriever.evaluate(qrels, results, k_values) #retriever.k_values
 
-                    eval_res = [f"{relation_id}_{bk_name}"]\
+                    eval_res = [f"all_{bk_name}"]\
                         +list(ndcg.values())\
                         +list(_map.values())\
                         +list(recall.values())\

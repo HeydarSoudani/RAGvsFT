@@ -6,8 +6,11 @@ import os
 import ast
 import re
 import torch
+import math
+import logging
 import argparse
 import random
+import matplotlib.pyplot as plt
 import wikipediaapi
 from lmqg import TransformersQG
 from lmqg.exceptions import AnswerNotFoundError, ExceedMaxLengthError
@@ -577,6 +580,98 @@ def create_train_and_dev_files(args, relation_id=None):
              
     print("Train, Dev, and Qrels-Train creation complete.")
 
+def split_to_buckets(objects, split_points):
+    
+    split_points = sorted(split_points)
+    sp_len = len(split_points)
+    bucket_data = {'bucket{}'.format(idx+1): list() for idx in range(sp_len+1)}
+    
+    for obj in objects:
+        # rp = obj['relative_popularity']
+        if obj['pageviews'] != 0:
+            rp = math.log(int(obj['pageviews']), 10)
+        else:
+            rp = 0
+        
+        if rp < split_points[0]:
+            if 'bucket1' in bucket_data.keys():
+                bucket_data['bucket1'].append(obj)
+            else:
+                bucket_data['bucket1'] = [obj]
+        
+        if rp >= split_points[-1]:
+            if 'bucket{}'.format(sp_len+1) in bucket_data.keys():
+                bucket_data['bucket{}'.format(sp_len+1)].append(obj)
+            else:
+                bucket_data['bucket{}'.format(sp_len+1)] = [obj]
+
+        for i in range(sp_len-1):
+            if split_points[i] <= rp < split_points[i + 1]:
+                if 'bucket{}'.format(i+2) in bucket_data.keys():
+                    bucket_data['bucket{}'.format(i+2)].append(obj)
+                else:
+                    bucket_data['bucket{}'.format(i+2)] = [obj]
+    
+    return bucket_data
+
+def plot_bucket_num():
+    split_points = [2, 3, 4, 5] # Good for popqa_pageviews
+    # split_points = [3, 4, 5, 6] # Good for my pageviews
+    
+    if dataset_name == 'popqa':
+        fig, axes = plt.subplots(nrows=5, ncols=4, figsize=(12, 8))
+        fig.delaxes(axes[0,1])  # Remove the first subplot (top-left)
+        fig.delaxes(axes[0,2])  # Remove the third subplot (top-right)
+        fig.delaxes(axes[0,3])  # Remove the third subplot (top-right)
+        # fig.delaxes(axes[0,4])  # Remove the third subplot (top-right)
+    
+    if dataset_name == 'eq':
+        fig, axes = plt.subplots(nrows=6, ncols=5, figsize=(12, 8))
+        fig.delaxes(axes[0,1])  # Remove the first subplot (top-left)
+        fig.delaxes(axes[0,2])  # Remove the third subplot (top-right)
+        fig.delaxes(axes[0,3])  # Remove the third subplot (top-right)
+        fig.delaxes(axes[0,4])  # Remove the third subplot (top-right)
+        # fig.delaxes(axes[0,5])  # Remove the third subplot (top-right)
+    
+    
+    all_queries = []
+    for idx, filename in enumerate(os.listdir(test_dir)):
+        if filename.endswith('.json'):
+            relation_id = filename.split('.')[0]
+            logging.info(f"Processing relation {relation_id} ...")
+            print(f"Processing relation {relation_id} ...")
+            
+            if dataset_name == 'popqa':
+                row = (idx // 4) + 1
+                col = idx % 4
+            if dataset_name == 'eq':
+                row = (idx // 5) + 1
+                col = idx % 5
+            ax = axes[row, col]
+                        
+            query_file_path = os.path.join(test_dir, filename)
+            with open(query_file_path, 'r') as qf:
+                q_rel_data = json.load(qf) 
+            all_queries.extend(q_rel_data)
+            
+            bk_data = split_to_buckets(q_rel_data, split_points)
+            counts = [len(bk) for bk in bk_data.values()]
+            ax.bar(["b1", "b2", "b3", "b4", "b5"], counts)
+            ax.set_title(relation_id)
+    
+    row = 0
+    col = 0
+    ax = axes[row, col]
+    bk_data = split_to_buckets(all_queries, split_points)
+    counts = [len(bk) for bk in bk_data.values()]
+    ax.bar(["b1", "b2", "b3", "b4", "b5"], counts)
+    ax.set_title('all')   
+    
+    plt.tight_layout()
+    plt.show()
+            
+            
+
 def main(args):
     ### ==== Creating test & entity files =================
     create_test_and_entity_files()
@@ -591,14 +686,17 @@ def main(args):
     # Done: 106, 
     # Doing: 22, 182
     # To Do: 182, 218, 91, 257, 164, 526, 97, 533, 639, 472, 560, 484, 292, 422
-    relation_id = "182"
-    create_train_and_dev_files(args, relation_id=relation_id)
+    # relation_id = "182"
+    # create_train_and_dev_files(args, relation_id=relation_id)
+    
+    ### ==== Plotting the distribution of the number of queries in each bucket
+    plot_bucket_num()
     
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--qg_model", type=str, required=True)
-    parser.add_argument("--ae_model", type=str, required=True)
+    # parser.add_argument("--qg_model", type=str, required=True)
+    # parser.add_argument("--ae_model", type=str, required=True)
     
     args = parser.parse_args()
     main(args)
