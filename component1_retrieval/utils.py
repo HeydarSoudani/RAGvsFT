@@ -36,7 +36,6 @@ def split_to_buckets(objects, split_points):
     
     return bucket_data
 
-
 def preprocessing_qrels(qid_list):
     # input_qrels = "component0_preprocessing/generated_data/popQA_costomized/qrels.jsonl"
     input_qrels = "component0_preprocessing/generated_data/popQA_religion/qrels_30ds_512tk.jsonl"
@@ -166,12 +165,12 @@ def save_evaluation_files_v1(retriever, results, args):
                         +list(recall.values())\
                         +list(precision.values())
                 tsv_writer.writerow(eval_res)
-            
 
 def save_evaluation_files_v2(retriever, results, args):
     
     split_points = [3, 4, 5, 6] # Good for my pageviews
     k_values = [1, 3, 5]
+    queries_filename_path = f"{args.data_path}/test"
     qrels_filename_dir = f"{args.data_path}/qrels"
     
     args.output_results_dir
@@ -179,7 +178,8 @@ def save_evaluation_files_v2(retriever, results, args):
     
     resutls_per_rel_path = f"{args.output_results_dir}/per_bk_{args.output_results_filename}"
     resutls_per_bk_path = f"{args.output_results_dir}/per_rel_{args.output_results_filename}"
-    
+        
+    # Initiaite writing in files 
     with open(resutls_per_rel_path, 'w', newline='') as rel_res_file, open(resutls_per_bk_path, 'w', newline='') as bk_res_file:
         rel_tsv_writer = csv.writer(rel_res_file, delimiter='\t')
         rel_tsv_writer.writerow([
@@ -203,17 +203,17 @@ def save_evaluation_files_v2(retriever, results, args):
         for filename in os.listdir(qrels_filename_dir):
             if filename.endswith('.json'):
                 relation_id = filename.split('.')[0]
-                file_path = os.path.join(qrels_filename_dir, filename)
+                qrels_file_path = os.path.join(qrels_filename_dir, filename)
                 
                 logging.info(f"Processing relation {relation_id} ...")
                 print(f"Processing relation {relation_id} ...")
                 
-                with open(file_path, 'r') as infile:
-                    rel_data = json.load(infile)
+                with open(qrels_file_path, 'r') as qrels_infile:
+                    qrels_rel_data = json.load(qrels_infile)
                 
                 # Get the evaluation results for each relation
                 qrels = {}
-                for item in rel_data:
+                for item in qrels_rel_data:
                     query_id, corpus_id, score = item["query_id"], item["doc_id"], int(item["score"])
                     if query_id not in qrels:
                         qrels[query_id] = {corpus_id: score}
@@ -235,7 +235,11 @@ def save_evaluation_files_v2(retriever, results, args):
                 rel_tsv_writer.writerow(eval_res)
                 
                 # bucketing
-                bk_data = split_to_buckets(rel_data, split_points)
+                query_file = f"{queries_filename_path}/{relation_id}.test.json"
+                with open(query_file, 'r') as in_queries:
+                    query_rel_data = json.load(in_queries)
+                
+                bk_data = split_to_buckets(query_rel_data, split_points)
                 
                 for bk_name, bk_value in bk_data.items():
                     logging.info(f"Processing {bk_name} ...")
