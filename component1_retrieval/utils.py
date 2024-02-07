@@ -254,38 +254,42 @@ def save_evaluation_files_v2(retriever, results, args):
                         qid_list = [q_sample["query_id"] for q_sample in bk_value]
                         
                         # Create qrels for each bucket
-                        qrels = {}
-                        for item in qrels_rel_data:
-                            query_id, corpus_id, score = item["query_id"], item["doc_id"], int(item["score"])
-                            if item["query_id"] in qid_list:
-                                if query_id not in qrels:
-                                    qrels[query_id] = {corpus_id: score}
-                                else:
-                                    qrels[query_id][corpus_id] = score
-                    
-                        # Get the evaluation results for each bucket
-                        ndcg, _map, recall, precision = retriever.evaluate(qrels, results, k_values) #retriever.k_values
-                        # mrr = retriever.evaluate_custom(qrels, results, k_values, metric="mrr")
-                        # recall_cap = retriever.evaluate_custom(qrels, results, k_values, metric="recall_cap")
-                        # hole = retriever.evaluate_custom(qrels, results, k_values, metric="hole")
-                        # top_k_accuracy = retriever.evaluate_custom(qrels, results, k_values, metric="top_k_accuracy")
+                        if len(qid_list) != 0:
+                            qrels = {}
+                            for item in qrels_rel_data:
+                                query_id, corpus_id, score = item["query_id"], item["doc_id"], int(item["score"])
+                                if item["query_id"] in qid_list:
+                                    if query_id not in qrels:
+                                        qrels[query_id] = {corpus_id: score}
+                                    else:
+                                        qrels[query_id][corpus_id] = score
+                        
+                            # Get the evaluation results for each bucket
+                            ndcg, _map, recall, precision = retriever.evaluate(qrels, results, k_values) #retriever.k_values
+                            # mrr = retriever.evaluate_custom(qrels, results, k_values, metric="mrr")
+                            # recall_cap = retriever.evaluate_custom(qrels, results, k_values, metric="recall_cap")
+                            # hole = retriever.evaluate_custom(qrels, results, k_values, metric="hole")
+                            # top_k_accuracy = retriever.evaluate_custom(qrels, results, k_values, metric="top_k_accuracy")
 
-                        # logging.info(ndcg)
-                        # logging.info(_map)
-                        # logging.info(recall)
-                        # logging.info(precision)
-                        # print(ndcg)
-                        # print(_map)
-                        # print(recall)
-                        # print(precision)
-                        # print("\n")
+                            # logging.info(ndcg)
+                            # logging.info(_map)
+                            # logging.info(recall)
+                            # logging.info(precision)
+                            # print(ndcg)
+                            # print(_map)
+                            # print(recall)
+                            # print(precision)
+                            # print("\n")
+                            eval_res = [f"{relation_id}_{bk_name}"]\
+                                +list(ndcg.values())\
+                                +list(_map.values())\
+                                +list(recall.values())\
+                                +list(precision.values())
+                        
+                        else:
+                            eval_res = [f"{relation_id}_{bk_name}"] + [0]*12
 
-                        eval_res = [f"{relation_id}_{bk_name}"]\
-                            +list(ndcg.values())\
-                            +list(_map.values())\
-                            +list(recall.values())\
-                            +list(precision.values())
-                        bk_tsv_writer.writerow(eval_res)
+                    bk_tsv_writer.writerow(eval_res)
                     
             
         # Get the evaluation results for all data
