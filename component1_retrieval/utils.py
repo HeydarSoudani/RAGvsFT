@@ -176,8 +176,8 @@ def save_evaluation_files_v2(retriever, results, args):
     args.output_results_dir
     args.output_results_filename
     
-    resutls_per_rel_path = f"{args.output_results_dir}/per_bk_{args.output_results_filename}"
-    resutls_per_bk_path = f"{args.output_results_dir}/per_rel_{args.output_results_filename}"
+    resutls_per_rel_path = f"{args.output_results_dir}/per_rel_{args.output_results_filename}"
+    resutls_per_bk_path = f"{args.output_results_dir}/per_bk_{args.output_results_filename}"
         
     # Initiaite writing in files 
     with open(resutls_per_rel_path, 'w', newline='') as rel_res_file, open(resutls_per_bk_path, 'w', newline='') as bk_res_file:
@@ -219,7 +219,7 @@ def save_evaluation_files_v2(retriever, results, args):
                         qrels[query_id] = {corpus_id: score}
                     else:
                         qrels[query_id][corpus_id] = score
-                all_qrels = all_qrels.update(qrels)
+                all_qrels.update(qrels)
                 
                 ndcg, _map, recall, precision = retriever.evaluate(qrels, results, k_values) #retriever.k_values
                 # mrr = retriever.evaluate_custom(qrels, results, k_values, metric="mrr")
@@ -234,7 +234,9 @@ def save_evaluation_files_v2(retriever, results, args):
                         +list(precision.values())
                 rel_tsv_writer.writerow(eval_res)
                 
-                # bucketing
+                
+                # =============================
+                # === bucketing ===============
                 query_file = f"{queries_filename_path}/{relation_id}.test.json"
                 with open(query_file, 'r') as in_queries:
                     query_rel_data = json.load(in_queries)
