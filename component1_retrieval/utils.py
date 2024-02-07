@@ -241,7 +241,7 @@ def save_evaluation_files_v2(retriever, results, args):
                 query_file = f"{queries_filename_path}/{relation_id}.test.json"
                 with open(query_file, 'r') as in_queries:
                     query_rel_data = json.load(in_queries)
-                all_queries = all_queries.extend(query_rel_data)
+                all_queries.extend(query_rel_data)
                 
                 bk_data = split_to_buckets(query_rel_data, split_points)
                 
