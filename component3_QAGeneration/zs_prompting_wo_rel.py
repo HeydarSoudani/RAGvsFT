@@ -7,6 +7,7 @@ import torch
 import argparse, json, os
 from tqdm import tqdm
 from nltk.tokenize import sent_tokenize
+import random
 
 import nltk
 nltk.download('punkt')
@@ -16,10 +17,12 @@ output_dir = "component0_preprocessing/generated_data/popQA_EQformat"
 corpus_dir = f"{output_dir}/corpus_summary"
 
 train_dir = f"{output_dir}/prompting/train" 
+dev_dir = f"{output_dir}/prompting/dev" 
 qrels_train_dir = f"{output_dir}/prompting/qrels-train" 
 
 os.makedirs(f"{output_dir}/prompting", exist_ok=True)
 os.makedirs(train_dir, exist_ok=True)
+os.makedirs(dev_dir, exist_ok=True)
 os.makedirs(qrels_train_dir, exist_ok=True)
 
 max_tokens = 512
@@ -158,19 +161,61 @@ def prompting_qa_generation(relation_id):
                             query_id_counter += 1
                         else:
                             print("This QA object is missing either 'question' or 'answer' keys:", qa.keys())
-                                
+    
+    # Filtering step
+    pattern = r'context\W'
+    
+    filtered_qas = [qa for qa in all_qas if len(qa["question"].split()) >= 4]    
+    filtered_qas = [
+        qa for qa in filtered_qas 
+        if isinstance(qa["question"], str) and isinstance(qa["answers"], list) and
+            all(isinstance(answer, str) for answer in qa["answers"]) and
+            not re.search(pattern, qa["question"], re.IGNORECASE) and
+            not any(re.search(pattern, answer, re.IGNORECASE) for answer in qa["answers"])
+    ]
+    
+    random.shuffle(filtered_qas)
+    split_index = int(len(filtered_qas) * dev_split)
+    train_qas = filtered_qas[split_index:]
+    dev_qas = filtered_qas[:split_index]
 
     with open(f'{train_dir}/{relation_id}.train.json', 'w', encoding='utf-8') as tf:
-        json.dump(all_qas, tf, indent=4)
+        json.dump(train_qas, tf, indent=4)
+    
+    with open(f'{dev_dir}/{relation_id}.dev.json', 'w', encoding='utf-8') as df:
+        json.dump(dev_qas, df, indent=4)
     
     with open(f'{qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
         json.dump(qrels_train, qf, indent=4)
 
 def post_filtering(relation_id):
+    pattern = r'context\W'
     
     with open(f'{train_dir}/{relation_id}.train.json', 'r', encoding='utf-8') as cf:
+        all_qas = json.load(cf)
         
-        data = json.load(cf)
+    filtered_qas = [qa for qa in all_qas if len(qa["question"].split()) >= 4]
+    filtered_qas = [
+        qa for qa in filtered_qas 
+        if isinstance(qa["question"], str) and isinstance(qa["answers"], list) and
+            all(isinstance(answer, str) for answer in qa["answers"]) and
+            not re.search(pattern, qa["question"], re.IGNORECASE) and
+            not any(re.search(pattern, answer, re.IGNORECASE) for answer in qa["answers"])
+    ]
+    # if not re.search(pattern, qa["question"], re.IGNORECASE) and not re.search(pattern, qa["answers"][0], re.IGNORECASE)
+    
+    random.shuffle(filtered_qas)
+    split_index = int(len(filtered_qas) * dev_split)
+    train_qas = filtered_qas[split_index:]
+    dev_qas = filtered_qas[:split_index]
+    
+    with open(f'{train_dir}/{relation_id}.filter.train.json', 'w', encoding='utf-8') as tf:
+        json.dump(train_qas, tf, indent=4)
+    
+    with open(f'{dev_dir}/{relation_id}.filter.dev.json', 'w', encoding='utf-8') as df:
+        json.dump(dev_qas, df, indent=4)
+    
+        
 
 
 if __name__ == "__main__":
@@ -178,9 +223,9 @@ if __name__ == "__main__":
     # args = parser.parse_args()
     
     # Done: 106, 22, 560 
-    # Doing: 
-    # To Do: 182, 218, 91, 257, 164, 526, 97, 533, 639, 472, 484, 292, 422
+    # Doing: 182 
+    # To Do: 218, 91, 257, 164, 526, 97, 533, 639, 472, 484, 292, 422
     relation_id = "182"
     prompting_qa_generation(relation_id=relation_id)
     
-    post_filtering(relation_id=relation_id)
+    # post_filtering(relation_id=relation_id)
