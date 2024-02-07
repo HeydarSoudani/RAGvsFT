@@ -24,15 +24,14 @@ device = 'cuda:0'
 prompt_prefix = "Answer the question : "
 
 dataset_name = 'popQA' # [TQA, popQA, EQ]
-with_peft = False
+with_peft = True
 with_fs = False
-with_rag = False
+with_rag = True
 training_style = 'qa' # ['clm', 'qa']
 # target_relation_ids = 'all'
-target_relation_ids = ["106"]
+target_relation_ids = ["106", "22", "560"]
 # target_relation_ids = ["91", "106", "22", "182"]
-file_prefix="bf_norag_peft_v20"
-generation_method = "pipeline" # ["pipeline", "prompting"]
+file_prefix="af_rag_peft_v24"
 
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
@@ -157,7 +156,8 @@ def load_model(args):
             # device_map={"": 0}
             device_map="auto"
         )
-        tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
+        # tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
+        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
     
     # model.to(device)
     model.eval()
@@ -265,7 +265,7 @@ def main(args):
                         is_correct = True
                 accuracy.append(is_correct)
                 
-                if idx % 500 == 0:
+                if idx % 300 == 0:
                     logging.info('\n')
                     logging.info(f"Prompt: {prompt}")
                     logging.info(f"Query: {query}")

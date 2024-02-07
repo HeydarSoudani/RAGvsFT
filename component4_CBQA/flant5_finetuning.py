@@ -33,10 +33,10 @@ print("Available GPUs:", torch.cuda.device_count())
 device = 'cuda:0'
 prompt_prefix = "Answer the question : "
 dataset_name = 'popQA' # [TQA, popQA, EQ]
-with_peft = True
+with_peft = False
 training_style = 'qa' # ['clm', 'qa']
 # target_relation_ids = 'all'
-target_relation_ids = ["106"]
+target_relation_ids = ["106", "22", "560"]
 # target_relation_ids = ["91", "106", "22", "182"]
 generation_method = "prompting" # ["pipeline", "prompting"]
 
@@ -81,7 +81,7 @@ def load_model(args, with_peft=False):
             quantization_config=bnb_config,
             return_dict=True,
             trust_remote_code=True,
-            device_map={"":0},
+            # device_map={"":0},
         )
         model = prepare_model_for_kbit_training(model)
         

@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=5:10:00
+#SBATCH --time=2:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -25,7 +25,7 @@ srun $HOME/RAGvsFT/component4_CBQA/flant5_finetuning.py \
     --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
     --epochs 5 \
     --lr 0.0002 \
-    --version 21
+    --version 25
 
 
 # For TQA: $HOME/RAGvsFT/data/dataset/TQA

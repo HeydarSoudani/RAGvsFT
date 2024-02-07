@@ -214,18 +214,15 @@ def post_filtering(relation_id):
     
     with open(f'{dev_dir}/{relation_id}.filter.dev.json', 'w', encoding='utf-8') as df:
         json.dump(dev_qas, df, indent=4)
-    
-        
-
 
 if __name__ == "__main__":
     # parser = argparse.ArgumentParser()
     # args = parser.parse_args()
     
-    # Done: 106, 22, 560 
-    # Doing: 182 
-    # To Do: 218, 91, 257, 164, 526, 97, 533, 639, 472, 484, 292, 422
-    relation_id = "182"
+    # Done: 106, 22, 560, 218, 182, 97, 257, 164, 526
+    # Doing: 91, 533, 639, 484
+    # To Do: 472, 292, 422
+    relation_id = "484"
     prompting_qa_generation(relation_id=relation_id)
     
     # post_filtering(relation_id=relation_id)
