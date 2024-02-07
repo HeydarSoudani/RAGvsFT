@@ -35,9 +35,10 @@ prompt_prefix = "Answer the question : "
 dataset_name = 'popQA' # [TQA, popQA, EQ]
 with_peft = True
 training_style = 'qa' # ['clm', 'qa']
-target_relation_ids = 'all'
-# target_relation_ids = ["91"]
+# target_relation_ids = 'all'
+target_relation_ids = ["106"]
 # target_relation_ids = ["91", "106", "22", "182"]
+generation_method = "prompting" # ["pipeline", "prompting"]
 
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
@@ -120,22 +121,23 @@ def load_model(args, with_peft=False):
     )
     
     return model, tokenizer, data_collator
-         
+
+
 def load_relations_data(args):
     
-    if dataset_name == "TQA":
-        subfolders = ['train', 'dev']
-    else:
-        subfolders = ['train', 'dev', 'test']
-    
+    subfolders = ['train', 'dev', 'test']    
     relation_files = {}
+    
     for subfolder in subfolders:
-        subfolder_path = os.path.join(args.data_dir, subfolder)
-        for file in os.listdir(subfolder_path):
-            relation_id = file.split('.')[0]
-            if relation_id not in relation_files:
-                relation_files[relation_id] = []
-            relation_files[relation_id].append(os.path.join(subfolder_path, file))    
+        # subfolder_path = os.path.join(args.data_dir, subfolder)
+        subfolder_path = f"{args.data_dir}/{generation_method}/{subfolder}"
+        if os.path.exists(subfolder_path):
+            
+            for file in os.listdir(subfolder_path):
+                relation_id = file.split('.')[0]
+                if relation_id not in relation_files:
+                    relation_files[relation_id] = []
+                relation_files[relation_id].append(os.path.join(subfolder_path, file))    
 
     # Select one relation =================
     if target_relation_ids == "all":
@@ -146,17 +148,21 @@ def load_relations_data(args):
     test_files = {subfolder: [] for subfolder in subfolders}
     
     for subfolder in subfolders:
-        subfolder_path = os.path.join(args.data_dir, subfolder)
-        for file in os.listdir(subfolder_path):
-            file_id = file.split('.')[0]
-            if file_id in test_relation_ids:
-                test_files[subfolder].append(os.path.join(subfolder_path, file))
+        # subfolder_path = os.path.join(args.data_dir, subfolder)
+        subfolder_path = f"{args.data_dir}/{generation_method}/{subfolder}"
+        if os.path.exists(subfolder_path):
+        
+            for file in os.listdir(subfolder_path):
+                file_id = file.split('.')[0]
+                if file_id in test_relation_ids:
+                    test_files[subfolder].append(os.path.join(subfolder_path, file))
 
     print("Selected Relation ID:", test_relation_ids)
     print("Selected Files:", test_files)
 
     return test_relation_ids, test_files, relation_files     
-        
+
+
 def load_dataset_qa(tokenizer, test_files):
     
     train_data = []

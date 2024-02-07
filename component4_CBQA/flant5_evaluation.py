@@ -24,14 +24,15 @@ device = 'cuda:0'
 prompt_prefix = "Answer the question : "
 
 dataset_name = 'popQA' # [TQA, popQA, EQ]
-with_peft = True
+with_peft = False
 with_fs = False
 with_rag = False
 training_style = 'qa' # ['clm', 'qa']
-target_relation_ids = 'all'
-# target_relation_ids = ["91"]
+# target_relation_ids = 'all'
+target_relation_ids = ["106"]
 # target_relation_ids = ["91", "106", "22", "182"]
-file_prefix="af_norag_peft_v13"
+file_prefix="bf_norag_peft_v20"
+generation_method = "pipeline" # ["pipeline", "prompting"]
 
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
@@ -84,20 +85,17 @@ def create_few_shot_examples(relation_id, data, num_samples):
     return few_shot_examples
 
 def load_relations_data(args):
-    
-    if dataset_name == "TQA":
-        subfolders = ['dev']
-    else:
-        subfolders = ['test']
+    subfolders = ['test']
         
     relation_files = {}
     for subfolder in subfolders:
         subfolder_path = os.path.join(args.data_dir, subfolder)
-        for file in os.listdir(subfolder_path):
-            relation_id = file.split('.')[0]
-            if relation_id not in relation_files:
-                relation_files[relation_id] = []
-            relation_files[relation_id].append(os.path.join(subfolder_path, file))    
+        if os.path.exists(subfolder_path):
+            for file in os.listdir(subfolder_path):
+                relation_id = file.split('.')[0]
+                if relation_id not in relation_files:
+                    relation_files[relation_id] = []
+                relation_files[relation_id].append(os.path.join(subfolder_path, file))    
 
     # Select one relation =================
     # test_relation_id = random.choice(list(relation_files.keys()))
@@ -110,10 +108,11 @@ def load_relations_data(args):
     
     for subfolder in subfolders:
         subfolder_path = os.path.join(args.data_dir, subfolder)
-        for file in os.listdir(subfolder_path):
-            file_id = file.split('.')[0]
-            if file_id in test_relation_ids:
-                test_files[subfolder].append(os.path.join(subfolder_path, file))
+        if os.path.exists(subfolder_path):
+            for file in os.listdir(subfolder_path):
+                file_id = file.split('.')[0]
+                if file_id in test_relation_ids:
+                    test_files[subfolder].append(os.path.join(subfolder_path, file))
 
     print("Selected Relation ID:", test_relation_ids)
     logging.info(f"Selected Relation ID: {test_relation_ids}")
@@ -141,7 +140,7 @@ def load_dataset(test_files):
     # print("Test dataset is loaded.")
     return test_questions, test_answers
 
-def load_model(args, with_peft=False):
+def load_model(args):
     if with_peft:
         config = PeftConfig.from_pretrained(args.model_name_or_path)
         model = AutoModelForSeq2SeqLM.from_pretrained(

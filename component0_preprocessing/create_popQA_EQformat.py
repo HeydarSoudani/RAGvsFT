@@ -37,6 +37,7 @@ os.makedirs(qrels_sum_dir, exist_ok=True)
 os.makedirs(corpus_all_dir, exist_ok=True)
 os.makedirs(qrels_all_dir, exist_ok=True)
 
+
 train_dir = f"{output_dir}/pipeline/train" 
 dev_dir = f"{output_dir}/pipeline/dev" 
 qrels_train_dir = f"{output_dir}/pipeline/qrels-train" 
@@ -48,7 +49,6 @@ os.makedirs(qrels_train_dir, exist_ok=True)
 num_entities_per_relation = 20
 dev_split = 0.1
 max_tokens = 512
-
 
 def get_wikipedia_summary_and_paragraphs(title):
     inappropriate_sections = [
@@ -539,6 +539,17 @@ def create_train_and_dev_files(args, relation_id=None):
                     except torch.cuda.OutOfMemoryError:
                         print("CUDA out of memory.")
                         continue
+                    
+                    except AnswerNotFoundError:
+                        print(f"Answer not found for passage: {chunk}")
+                        continue
+                    except ExceedMaxLengthError:
+                        print(f"Input exceeded max length for passage: {chunk}")
+                        continue
+                    except ValueError as e:
+                        print(f"For: {chunk}")
+                        print(str(e))
+                        continue
         
         random.shuffle(all_qas)
         split_index = int(len(all_qas) * dev_split)
@@ -577,10 +588,10 @@ def main(args):
     # add_empty_entities()
     
     ### ==== Creating train & dev & qrels-train files =====
-    # Done:  106, 22, 182, 218, 91, 257, 164, 526, 97, 533, 639, 472, 560, 484, 292, 422
-    # Doing: 
-    # To Do:
-    relation_id = "106"
+    # Done: 106, 
+    # Doing: 22, 182
+    # To Do: 182, 218, 91, 257, 164, 526, 97, 533, 639, 472, 560, 484, 292, 422
+    relation_id = "182"
     create_train_and_dev_files(args, relation_id=relation_id)
     
 
