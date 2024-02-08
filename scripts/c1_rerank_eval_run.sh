@@ -19,6 +19,7 @@ pip install -r $HOME/RAGvsFT/component1_retrieval/requirements.txt
 srun $HOME/RAGvsFT/component1_retrieval/rerank/evaluation.py \
     --dense_model "msmarco-distilbert-base-v3" \
     --data_path "$HOME/RAGvsFT/component1_retrieval/data/popqa_religion" \
+    --bm25_results_path "$HOME/RAGvsFT/component1_retrieval/results/bm25_results_rerank.json" \
     --output_results_dir "$HOME/RAGvsFT/component1_retrieval/results/religion" \
     --output_results_filename "rerank_eval.tsv" \
     --results_save_file "rerank-qrels.tsv"

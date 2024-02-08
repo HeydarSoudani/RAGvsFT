@@ -50,8 +50,8 @@ def main(args):
     
     # === First stage from Google Colab =============
     # bm25_results_path = 'component1_retrieval/rerank/data/bm25_results_rerank.json'
-    bm25_results_path = 'component1_retrieval/results/religion/bm25_results_rerank.json'
-    with open(bm25_results_path, 'r') as f:
+    # bm25_results_path = 'component1_retrieval/results/religion/bm25_results_rerank.json'
+    with open(args.bm25_results_path, 'r') as f:
         bm25_results = json.load(f)
     
     #### Reranking top-100 docs using Dense Retriever model 
@@ -73,6 +73,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--dense_model", required=True)
     parser.add_argument("--data_path", type=str)
+    parser.add_argument("--bm25_results_path", type=str)
     parser.add_argument("--output_results_dir", type=str)
     parser.add_argument("--output_results_filename", type=str)
     parser.add_argument("--results_save_file", default=None, type=str)
