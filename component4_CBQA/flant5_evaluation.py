@@ -167,7 +167,9 @@ def load_model(args):
 
 
 def main(args):
-    file_prefix="bf_{}_{}_{}".replace("rag" if args.with_rag else "norag", args.retrieval_method, "peft" if args.with_peft else "nopeft")
+    print(args.with_rag)
+    print(type(args.with_rag))
+    file_prefix="bf_{}_{}_{}".replace("rag" if args.with_rag == "True" else "norag", args.retrieval_method, "peft" if args.with_peft == "True" else "nopeft")
     logging.info(f"Model: {args.model_name_or_path} \n PEFT: {args.with_peft} \n RAG: {args.with_rag} \n Few-shot input: {args.with_fs} \n output file's prefix: {file_prefix}")
     set_seed(42)
     
@@ -298,13 +300,24 @@ def main(args):
             
 
 if __name__ == "__main__":
+    
+    def str2bool(v):
+        if isinstance(v, bool):
+            return v
+        if v.lower() in ('yes', 'true', 't', 'y', '1'):
+            return True
+        elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+            return False
+        else:
+            raise argparse.ArgumentTypeError('Boolean value expected.')
+    
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, required=True)
     parser.add_argument("--data_dir", type=str)
     parser.add_argument("--output_result_dir", type=str)
-    parser.add_argument('--with_peft', default=False, action=argparse.BooleanOptionalAction)
-    parser.add_argument('--with_fs', default=False, action=argparse.BooleanOptionalAction)
-    parser.add_argument('--with_rag', default=False, action=argparse.BooleanOptionalAction)
+    parser.add_argument("--with_peft", type=str2bool, default=False)
+    parser.add_argument("--with_fs", type=str2bool, default=False)
+    parser.add_argument("--with_rag", type=str2bool, default=False)
     parser.add_argument("--retrieval_method", type=str)
     
     args = parser.parse_args()
