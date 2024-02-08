@@ -61,6 +61,9 @@ def main(args):
     rerank_results = dense_retriever.rerank(corpus, queries, bm25_results, top_k=100)
     print('b')
     
+    if not os.path.exists(args.output_results_dir):
+        os.makedirs(args.output_results_dir)
+    
     save_qrels_file(rerank_results, args)
     # save_evaluation_files(dense_retriever, rerank_results, args)
     save_evaluation_files_v2(dense_retriever, rerank_results, args)
