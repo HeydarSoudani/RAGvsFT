@@ -165,11 +165,12 @@ def prompting_qa_generation(relation_id):
     # Filtering step
     pattern = r'context\W'
     
-    filtered_qas = [qa for qa in all_qas if len(qa["question"].split()) >= 4]    
+    # filtered_qas = [qa for qa in all_qas if len(qa["question"].split()) >= 4]    
     filtered_qas = [
-        qa for qa in filtered_qas 
+        qa for qa in all_qas 
         if isinstance(qa["question"], str) and isinstance(qa["answers"], list) and
             all(isinstance(answer, str) for answer in qa["answers"]) and
+            len(qa["question"].split()) >= 4 and
             not re.search(pattern, qa["question"], re.IGNORECASE) and
             not any(re.search(pattern, answer, re.IGNORECASE) for answer in qa["answers"])
     ]
@@ -219,10 +220,10 @@ if __name__ == "__main__":
     # parser = argparse.ArgumentParser()
     # args = parser.parse_args()
     
-    # Done: 106, 22, 560, 218, 182, 97, 257, 164, 526
-    # Doing: 91, 533, 639, 484
-    # To Do: 472, 292, 422
-    relation_id = "484"
+    # Done: 106, 22, 560, 218, 182, 97, 257, 164, 526, 639, 91, 533, 472, 292
+    # Doing: 484, 422
+    # To Do: 
+    relation_id = "422"
     prompting_qa_generation(relation_id=relation_id)
     
     # post_filtering(relation_id=relation_id)
