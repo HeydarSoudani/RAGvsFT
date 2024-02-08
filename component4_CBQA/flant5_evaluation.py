@@ -24,15 +24,14 @@ device = 'cuda:0'
 prompt_prefix = "Answer the question : "
 
 dataset_name = 'popQA' # [TQA, popQA, EQ]
-with_peft = False
-with_fs = False
-with_rag = True
-retrieval_method = 'dpr' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
+# with_peft = False
+# with_fs = False
+# with_rag = True
 training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = 'all'
 # target_relation_ids = ["106", "22", "560"]
 # target_relation_ids = ["91", "106", "22", "182"]
-file_prefix="bf_rag_dpr_nopeft"
+# file_prefix=f"bf_{"rag" if with_rag else "norag"}_{retrieval_method}_nopeft"
 
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
@@ -141,7 +140,7 @@ def load_dataset(test_files):
     return test_questions, test_answers
 
 def load_model(args):
-    if with_peft:
+    if args.with_peft:
         config = PeftConfig.from_pretrained(args.model_name_or_path)
         model = AutoModelForSeq2SeqLM.from_pretrained(
             config.base_model_name_or_path,
@@ -168,7 +167,8 @@ def load_model(args):
 
 
 def main(args):
-    logging.info(f"Model: {args.model_name_or_path} \n PEFT: {with_peft} \n RAG: {with_rag} \n Few-shot input: {with_fs} \n output file's prefix: {file_prefix}")
+    file_prefix="bf_{}_{}_{}".replace("rag" if args.with_rag else "norag", args.retrieval_method, "peft" if args.with_peft else "nopeft")
+    logging.info(f"Model: {args.model_name_or_path} \n PEFT: {args.with_peft} \n RAG: {args.with_rag} \n Few-shot input: {args.with_fs} \n output file's prefix: {file_prefix}")
     set_seed(42)
     
     logging.info("Inferencing ...")
@@ -183,13 +183,13 @@ def main(args):
     str_rels = "all" if target_relation_ids == "all" else '_'.join(test_relation_ids)
     out_results_path = f"{out_results_dir}/{str_rels}.{model_name}.{file_prefix}_results.jsonl"
     
-    if with_rag:
+    if args.with_rag:
         ret_results = []
         # ret_results_dir = f"{args.data_dir}/retrieved"
-        ret_results_dir = f"{args.data_dir}/retrieved/{retrieval_method}"
+        ret_results_dir = f"{args.data_dir}/retrieved/{args.retrieval_method}"
         
         for test_relation_id in test_relation_ids:
-            ret_results_path = f"{ret_results_dir}/{test_relation_id}.{retrieval_method}.ret_results.jsonl"
+            ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.ret_results.jsonl"
             with open (ret_results_path, 'r') as file:
                 ret_results.extend([json.loads(line) for line in file])
 
@@ -204,7 +204,7 @@ def main(args):
             #     break
             
             few_shot_examples_text = ""
-            if with_fs:
+            if args.with_fs:
                 few_shot_examples = []
                 keys_to_sample = [key for key in relation_files.keys() if key != query_relation]
                 fewshot_relations = random.sample(keys_to_sample, num_relations)
@@ -218,7 +218,7 @@ def main(args):
                 few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
             
             retrieved_text = ""
-            if with_rag:
+            if args.with_rag:
                 for ret_result in ret_results:
                     if ret_result['id'] == query_id:
                         retrieved_text = truncate_text(ret_result['ctxs'][0]['text'], 490) + "\n\n"
@@ -302,6 +302,10 @@ if __name__ == "__main__":
     parser.add_argument("--model_name_or_path", type=str, required=True)
     parser.add_argument("--data_dir", type=str)
     parser.add_argument("--output_result_dir", type=str)
+    parser.add_argument('--with_peft', default=False, action=argparse.BooleanOptionalAction)
+    parser.add_argument('--with_fs', default=False, action=argparse.BooleanOptionalAction)
+    parser.add_argument('--with_rag', default=False, action=argparse.BooleanOptionalAction)
+    parser.add_argument("--retrieval_method", type=str)
     
     args = parser.parse_args()
     main(args)

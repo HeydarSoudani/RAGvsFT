@@ -19,9 +19,13 @@ module load Python/3.10.4-GCCcore-11.3.0
 srun $HOME/RAGvsFT/component4_CBQA/flant5_evaluation.py \
     --model_name_or_path google/flan-t5-base \
     --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat\
-    --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat
+    --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat\
+    --with_peft False \
+    --with_fs False \
+    --with_rag True \
+    --retrieval_method "rerank"
 
-
+# ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
 # "google/flan-t5-xxl"
 # $HOME/RAGvsFT/component4_CBQA/models/opt-350m_ft_v1/checkpoint-3408
 # --model_name_or_path $HOME/RAGvsFT/component4_CBQA/models/opt-350m_ft_v1/checkpoint-3408 \
