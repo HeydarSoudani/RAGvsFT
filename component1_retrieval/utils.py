@@ -173,9 +173,6 @@ def save_evaluation_files_v2(retriever, results, args):
     queries_filename_path = f"{args.data_path}/test"
     qrels_filename_dir = f"{args.data_path}/qrels"
     
-    args.output_results_dir
-    args.output_results_filename
-    
     resutls_per_rel_path = f"{args.output_results_dir}/per_rel_{args.output_results_filename}"
     resutls_per_bk_path = f"{args.output_results_dir}/per_bk_{args.output_results_filename}"
         

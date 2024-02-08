@@ -3,7 +3,7 @@ import argparse
 
 
 def main(args):
-    retrieval_method = 'dpr'
+    retrieval_method = 'contriever' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
     dataset_dir = "component1_retrieval/data/popqa"
     output_dir = f"component0_preprocessing/generated_data/popQA_EQformat/retrieved/{retrieval_method}"
     os.makedirs(output_dir, exist_ok=True)
@@ -23,13 +23,9 @@ def main(args):
         return corpus
     
     def get_queries(relation_id):
-        queries = {}
         with open(f"{query_dir}/{relation_id}.test.json", 'r') as qf:
             q_data = json.load(qf)
         return q_data
-        for obj in q_data:
-            queries[obj['query_id']] = obj['question']
-        return queries
     
     def get_gt_qrels(relation_id):
         qrels = {}
