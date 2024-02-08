@@ -3,7 +3,7 @@ import argparse
 
 
 def main(args):
-    retrieval_method = 'bm25' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
+    retrieval_method = 'rerank' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
     dataset_dir = "component1_retrieval/data/popqa"
     output_dir = f"component0_preprocessing/generated_data/popQA_EQformat/retrieved/{retrieval_method}"
     os.makedirs(output_dir, exist_ok=True)
