@@ -17,7 +17,7 @@ import sys
 sys.path.append(os.getcwd())
 
 from component1_retrieval.customized_datasets.data_loader import CostomizedGenericDataLoader
-from component1_retrieval.utils import save_qrels_file, save_evaluation_files
+from component1_retrieval.utils import save_qrels_file, save_evaluation_files_v2
 
 
 logging.basicConfig(format='%(asctime)s - %(message)s',
@@ -52,18 +52,19 @@ def main(args):
     # bm25_results_path = 'component1_retrieval/rerank/data/bm25_results_rerank.json'
     bm25_results_path = 'component1_retrieval/results/religion/bm25_results_rerank.json'
     with open(bm25_results_path, 'r') as f:
-        results = json.load(f)
+        bm25_results = json.load(f)
     
     #### Reranking top-100 docs using Dense Retriever model 
     model = DRES(models.SentenceBERT(args.dense_model), batch_size=128, device=device)
     dense_retriever = EvaluateRetrieval(model, score_function="dot", k_values=[1,5,10,100])
     print('a')
-    rerank_results = dense_retriever.rerank(corpus, queries, results, top_k=100)
+    rerank_results = dense_retriever.rerank(corpus, queries, bm25_results, top_k=100)
     print('b')
     
     save_qrels_file(rerank_results, args)
-    save_evaluation_files(dense_retriever, rerank_results, args)
-    # ndcg, _map, recall, precision, hole = dense_retriever.evaluate(qrels, rerank_results, retriever.k_values)
+    # save_evaluation_files(dense_retriever, rerank_results, args)
+    save_evaluation_files_v2(dense_retriever, rerank_results, args)
+    
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
