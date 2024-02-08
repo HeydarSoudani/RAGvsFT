@@ -33,10 +33,9 @@ print("Available GPUs:", torch.cuda.device_count())
 device = 'cuda:0'
 prompt_prefix = "Answer the question : "
 dataset_name = 'popQA' # [TQA, popQA, EQ]
-with_peft = False
 training_style = 'qa' # ['clm', 'qa']
-# target_relation_ids = 'all'
-target_relation_ids = ["106", "22", "560"]
+target_relation_ids = 'all'
+# target_relation_ids = ["106", "22", "560"]
 # target_relation_ids = ["91", "106", "22", "182"]
 generation_method = "prompting" # ["pipeline", "prompting"]
 
@@ -58,8 +57,8 @@ def set_seed(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
-def load_model(args, with_peft=False):
-    if not with_peft:
+def load_model(args):
+    if not args.with_peft:
         model = AutoModelForSeq2SeqLM.from_pretrained(
             args.model_name_or_path,
             # device_map={"": 0}
@@ -280,15 +279,20 @@ def load_training_args(args):
     return training_arguments
 
 def main(args):
-    logging.info(f"Model: {args.model_name_or_path} \n PEFT: {with_peft} \n version: {args.version}")
+    logging.info(f"""
+        Model: {args.model_name_or_path} \n
+        PEFT: {args.with_peft} \n
+        Version: {args.version}
+    """)
+    
     args.repo_name = "HeydarS/{}_{}_v{}".format(
         args.model_name_or_path.split('/')[-1],
-        'peft' if with_peft else 'no_peft',
+        'peft' if args.with_peft else 'no_peft',
         args.version
     )
     
     set_seed(42)
-    model, tokenizer, data_collator = load_model(args, with_peft=with_peft)
+    model, tokenizer, data_collator = load_model(args)
     test_relation_ids, test_files, relation_files = load_relations_data(args)
     tokenized_train_datasets = load_dataset_qa(tokenizer, test_files)
     training_arguments = load_training_args(args)
@@ -326,6 +330,17 @@ def main(args):
     print("Fine-tuning is done.")
 
 if __name__ == "__main__":
+    
+    def str2bool(v):
+        if isinstance(v, bool):
+            return v
+        if v.lower() in ('yes', 'true', 't', 'y', '1'):
+            return True
+        elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+            return False
+        else:
+            raise argparse.ArgumentTypeError('Boolean value expected.')
+    
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, required=True)
     parser.add_argument("--data_dir", type=str)
@@ -333,6 +348,7 @@ if __name__ == "__main__":
     parser.add_argument("--output_result_dir", type=str)
     parser.add_argument("--epochs", default=1, type=int)
     parser.add_argument("--lr", default=2e-4, type=float)
+    parser.add_argument("--with_peft", type=str2bool, default=False)
     parser.add_argument("--version", default=1, type=int)
     
     args = parser.parse_args()

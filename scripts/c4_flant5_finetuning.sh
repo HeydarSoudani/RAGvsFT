@@ -23,9 +23,10 @@ srun $HOME/RAGvsFT/component4_CBQA/flant5_finetuning.py \
     --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
     --output_model_dir $HOME/RAGvsFT/component4_CBQA/models \
     --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
-    --epochs 5 \
+    --epochs 10 \
     --lr 0.0002 \
-    --version 25
+    --with_peft False \
+    --version 1
 
 
 # For TQA: $HOME/RAGvsFT/data/dataset/TQA

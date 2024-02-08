@@ -18,8 +18,8 @@ module load Python/3.10.4-GCCcore-11.3.0
 
 srun $HOME/RAGvsFT/component4_CBQA/flant5_evaluation.py \
     --model_name_or_path google/flan-t5-large \
-    --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat\
-    --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat\
+    --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
+    --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
     --with_peft False \
     --with_fs False \
     --with_rag True \
