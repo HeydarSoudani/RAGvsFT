@@ -189,7 +189,7 @@ def main(args):
         ret_results_dir = f"{args.data_dir}/retrieved/{retrieval_method}"
         
         for test_relation_id in test_relation_ids:
-            ret_results_path = f"{ret_results_dir}/{test_relation_id}.ret_results.jsonl"
+            ret_results_path = f"{ret_results_dir}/{test_relation_id}.{retrieval_method}.ret_results.jsonl"
             with open (ret_results_path, 'r') as file:
                 ret_results.extend([json.loads(line) for line in file])
 
