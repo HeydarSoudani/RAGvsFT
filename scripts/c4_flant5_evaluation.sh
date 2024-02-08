@@ -23,7 +23,7 @@ srun $HOME/RAGvsFT/component4_CBQA/flant5_evaluation.py \
     --with_peft False \
     --with_fs False \
     --with_rag True \
-    --retrieval_method "bm25"
+    --retrieval_method "contriever"
 
 # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
 # "google/flan-t5-xxl"

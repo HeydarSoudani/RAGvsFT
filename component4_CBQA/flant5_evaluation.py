@@ -174,8 +174,15 @@ def main(args):
     else:
         file_prefix = f"bf_{rag_part}_{peft_part}"
     
-    # file_prefix="bf_{}_{}_{}".replace("rag" if args.with_rag else "norag", args.retrieval_method, "peft" if args.with_peft else "nopeft")
-    logging.info(f"Model: {args.model_name_or_path} \n PEFT: {args.with_peft} \n RAG: {args.with_rag} \n Few-shot input: {args.with_fs} \n output file's prefix: {file_prefix}")
+    logging.info(f"""
+        Model: {args.model_name_or_path} \n
+        PEFT: {args.with_peft} \n
+        RAG: {args.with_rag} \n
+        Few-shot input: {args.with_fs} \n
+        Retrieval method {args.retrieval_method} \n
+        Output file's prefix: {file_prefix}
+        """
+    )
     set_seed(42)
     
     logging.info("Inferencing ...")
