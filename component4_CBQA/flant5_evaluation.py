@@ -167,8 +167,6 @@ def load_model(args):
 
 
 def main(args):
-    print(args.with_rag)
-    print(type(args.with_rag))
     rag_part = "rag" if args.with_rag else "norag"
     peft_part = "peft" if args.with_peft else "nopeft"
     if args.with_rag:
@@ -303,7 +301,7 @@ def main(args):
             
         acc = sum(accuracy) / len(accuracy)
         logging.info(f"Accuracy: {acc * 100:.2f}%")
-        # print(f"Accuracy: {acc * 100:.2f}%")
+        print(f"Accuracy: {acc * 100:.2f}%")
             
 
 if __name__ == "__main__":
