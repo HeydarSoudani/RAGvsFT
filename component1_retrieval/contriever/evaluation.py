@@ -66,6 +66,9 @@ def main(args):
         device=device
     )
     
+    if not os.path.exists(args.output_results_dir):
+        os.makedirs(args.output_results_dir)
+    
     save_qrels_file(results, args)
     # save_evaluation_files(retriever, results, args)
     save_evaluation_files_v2(retriever, results, args)
