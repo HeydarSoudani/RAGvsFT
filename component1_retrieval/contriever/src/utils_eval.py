@@ -12,6 +12,7 @@ from beir.retrieval.evaluation import EvaluateRetrieval
 from beir.retrieval.search.dense import DenseRetrievalExactSearch
 
 from src.utils_dist import varsize_gather_nograd
+from component1_retrieval.customized_datasets.data_loader import CostomizedGenericDataLoader
 
 from src import normalize_text
 
@@ -181,7 +182,12 @@ def evaluate_model(
     # dist_utils.barrier()
 
     if not dataset == "cqadupstack":
-        corpus, queries, qrels = GenericDataLoader(data_folder=data_path).load(split=split)
+        # corpus, queries, qrels = GenericDataLoader(data_folder=data_path).load(split=split)
+        
+        
+        dataloader = CostomizedGenericDataLoader(data_folder=data_path)
+        corpus, queries = dataloader.load_corpus_queries()
+        
         results = retriever.retrieve(corpus, queries)
         # if is_main:
         #     ndcg, _map, recall, precision = retriever.evaluate(qrels, results, retriever.k_values)
