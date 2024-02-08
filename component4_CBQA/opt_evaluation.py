@@ -26,9 +26,6 @@ dataset_name = 'popQA' # [TQA, popQA, EQ]
 completion_template_wo_ans = "Q: {} A:"
 completion_template_with_ans = "Q: {} A: {}"
 dev_split = 0.1
-with_peft = False
-with_fs = True
-with_rag = True
 training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = 'all'
 # target_relation_ids = ["91"]
@@ -80,7 +77,7 @@ def truncate_text(text, max_tokens):
     
 def load_model(args):
     
-    if with_peft:
+    if args.with_peft:
         
         config = PeftConfig.from_pretrained(args.model_name_or_path)
         bnb_config = BitsAndBytesConfig(
@@ -206,7 +203,6 @@ def retrieved_file_preparing(
         for item in data:
             corpus[item['doc_id']] = item['content']
     
-    
     with open(qrels_file, 'r') as qr_file, open(out_file, 'w') as ofile:
         data = json.load(qr_file)
         for idx, item in enumerate(data):
@@ -226,24 +222,26 @@ def retrieved_file_preparing(
             }
             ofile.write(json.dumps(combined_obj) + "\n")
 
-# def inference_on_testset(
-#     model,
-#     tokenizer,
-#     test_questions,
-#     test_answers,
-#     test_relation_ids,
-#     relation_files,
-#     device,
-#     args,
-#     with_fs,
-#     prefix="bf",
-#     with_rag=False
-# ):
-
 
 def main(args):
     
-    logging.info(f"Model: {args.model_name_or_path} \n PEFT: {with_peft} \n RAG: {with_rag} \n Few-shot input: {with_fs} \n output file's prefix: {file_prefix}")
+    rag_part = "rag" if args.with_rag else "norag"
+    peft_part = "peft" if args.with_peft else "nopeft"
+    if args.with_rag:
+        file_prefix = f"bf_{rag_part}_{args.retrieval_method}_{peft_part}"
+    else:
+        file_prefix = f"bf_{rag_part}_{peft_part}"
+    
+    logging.info(f"""
+        Model: {args.model_name_or_path} \n
+        PEFT: {args.with_peft} \n
+        RAG: {args.with_rag} \n
+        Few-shot input: {args.with_fs} \n
+        Retrieval method {args.retrieval_method} \n
+        Output file's prefix: {file_prefix}
+        """
+    )
+    
     set_seed(42)
 
     # == Creating retrieval files -> Only for the first time
@@ -281,12 +279,12 @@ def main(args):
     str_rels = "all" if target_relation_ids == "all" else '_'.join(test_relation_ids)
     out_results_path = f"{out_results_dir}/{str_rels}.{model_name}.{file_prefix}_results.jsonl"
 
-    if with_rag:
+    if args.with_rag:
         ret_results = []
-        ret_results_dir = f"{args.data_dir}/retrieved"
+        ret_results_dir = f"{args.data_dir}/retrieved/{args.retrieval_method}"
         
         for test_relation_id in test_relation_ids:
-            ret_results_path = f"{ret_results_dir}/{test_relation_id}.ret_results.jsonl"
+            ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.ret_results.jsonl"
             with open (ret_results_path, 'r') as file:
                 ret_results.extend([json.loads(line) for line in file])
 
@@ -316,7 +314,7 @@ def main(args):
             # logging.info(f"Q: {query} is processing ...")
             
             few_shot_examples_text = ""
-            if with_fs:
+            if args.with_fs:
                 few_shot_examples = []
                 keys_to_sample = [key for key in relation_files.keys() if key != query_relation]
                 fewshot_relations = random.sample(keys_to_sample, num_relations)
@@ -330,7 +328,7 @@ def main(args):
                 few_shot_examples_text = "\n\n".join(few_shot_examples) + "\n\n"
                 
             retrieved_text = ""
-            if with_rag:
+            if args.with_rag:
                 for ret_result in ret_results:
                     if ret_result['id'] == query_id:
                         retrieved_text = truncate_text(ret_result['ctxs'][0]['text'], 512) + "\n\n"
@@ -384,13 +382,30 @@ def main(args):
             file.write(json.dumps(item) + '\n')
 
         acc = sum(accuracy) / len(accuracy)
+        logging.info(f"Accuracy: {acc * 100:.2f}%")
         print(f"Accuracy: {acc * 100:.2f}%")
 
+
 if __name__ == "__main__":
+    
+    def str2bool(v):
+        if isinstance(v, bool):
+            return v
+        if v.lower() in ('yes', 'true', 't', 'y', '1'):
+            return True
+        elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+            return False
+        else:
+            raise argparse.ArgumentTypeError('Boolean value expected.')
+    
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, required=True)
     parser.add_argument("--data_dir", type=str)
     parser.add_argument("--output_result_dir", type=str)
+    parser.add_argument("--with_peft", type=str2bool, default=False)
+    parser.add_argument("--with_fs", type=str2bool, default=False)
+    parser.add_argument("--with_rag", type=str2bool, default=False)
+    parser.add_argument("--retrieval_method", type=str)
     
     args = parser.parse_args()
     main(args)
