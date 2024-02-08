@@ -13,7 +13,7 @@ sys.path.append(os.getcwd())
 from src.contriever_m import load_retriever
 from src.utils_eval import evaluate_model
 from src.utils_dist import is_main
-from component1_retrieval.utils import save_qrels_file, save_evaluation_files
+from component1_retrieval.utils import save_qrels_file, save_evaluation_files_v2
 
 logging.basicConfig(format='%(asctime)s - %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
@@ -67,7 +67,8 @@ def main(args):
     )
     
     save_qrels_file(results, args)
-    save_evaluation_files(retriever, results, args)
+    # save_evaluation_files(retriever, results, args)
+    save_evaluation_files_v2(retriever, results, args)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
