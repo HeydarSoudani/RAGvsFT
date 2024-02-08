@@ -24,14 +24,15 @@ device = 'cuda:0'
 prompt_prefix = "Answer the question : "
 
 dataset_name = 'popQA' # [TQA, popQA, EQ]
-with_peft = True
+with_peft = False
 with_fs = False
 with_rag = True
+retrieval_method = 'dpr' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
 training_style = 'qa' # ['clm', 'qa']
-# target_relation_ids = 'all'
-target_relation_ids = ["106", "22", "560"]
+target_relation_ids = 'all'
+# target_relation_ids = ["106", "22", "560"]
 # target_relation_ids = ["91", "106", "22", "182"]
-file_prefix="af_rag_peft_v24"
+file_prefix="bf_rag_dpr_nopeft"
 
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
@@ -184,7 +185,8 @@ def main(args):
     
     if with_rag:
         ret_results = []
-        ret_results_dir = f"{args.data_dir}/retrieved"
+        # ret_results_dir = f"{args.data_dir}/retrieved"
+        ret_results_dir = f"{args.data_dir}/retrieved/{retrieval_method}"
         
         for test_relation_id in test_relation_ids:
             ret_results_path = f"{ret_results_dir}/{test_relation_id}.ret_results.jsonl"
