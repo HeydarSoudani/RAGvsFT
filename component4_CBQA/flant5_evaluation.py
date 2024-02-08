@@ -169,7 +169,14 @@ def load_model(args):
 def main(args):
     print(args.with_rag)
     print(type(args.with_rag))
-    file_prefix="bf_{}_{}_{}".replace("rag" if args.with_rag else "norag", args.retrieval_method, "peft" if args.with_peft else "nopeft")
+    rag_part = "rag" if args.with_rag else "norag"
+    peft_part = "peft" if args.with_peft else "nopeft"
+    if args.with_rag:
+        file_prefix = f"bf_{rag_part}_{args.retrieval_method}_{peft_part}"
+    else:
+        file_prefix = f"bf_{rag_part}_{peft_part}"
+    
+    # file_prefix="bf_{}_{}_{}".replace("rag" if args.with_rag else "norag", args.retrieval_method, "peft" if args.with_peft else "nopeft")
     logging.info(f"Model: {args.model_name_or_path} \n PEFT: {args.with_peft} \n RAG: {args.with_rag} \n Few-shot input: {args.with_fs} \n output file's prefix: {file_prefix}")
     set_seed(42)
     
