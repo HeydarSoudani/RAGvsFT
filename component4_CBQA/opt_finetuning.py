@@ -35,13 +35,13 @@ device = 'cuda:0'
 completion_template_wo_ans = "Q: {} A:"
 completion_template_with_ans = "Q: {} A: {}"
 dataset_name = 'popQA' # [TQA, popQA, EQ]
-with_peft = True
 training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = 'all'
 # target_relation_ids = ["91"]
 # target_relation_ids = ["91", "106", "22", "182"]
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
+generation_method = "prompting" # ["pipeline", "prompting"]
 
 def load_json_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -66,9 +66,9 @@ def set_seed(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
-def load_model(args, with_peft=False):
+def load_model(args):
     
-    if not with_peft:
+    if not args.with_peft:
         model = AutoModelForCausalLM.from_pretrained(
             args.model_name_or_path,
             # device_map={"": 0},
@@ -155,19 +155,17 @@ def load_relations_data(args):
         zip_file.extractall("entity_questions_dataset")
         zip_file.close()
     
-    if dataset_name == "TQA":
-        subfolders = ['train', 'dev']
-    else:
-        subfolders = ['train', 'dev', 'test']
-    
+    subfolders = ['train', 'dev', 'test'] 
     relation_files = {}
     for subfolder in subfolders:
-        subfolder_path = os.path.join(args.data_dir, subfolder)
-        for file in os.listdir(subfolder_path):
-            relation_id = file.split('.')[0]
-            if relation_id not in relation_files:
-                relation_files[relation_id] = []
-            relation_files[relation_id].append(os.path.join(subfolder_path, file))    
+        # subfolder_path = os.path.join(args.data_dir, subfolder)
+        subfolder_path = f"{args.data_dir}/{generation_method}/{subfolder}"
+        if os.path.exists(subfolder_path):
+            for file in os.listdir(subfolder_path):
+                relation_id = file.split('.')[0]
+                if relation_id not in relation_files:
+                    relation_files[relation_id] = []
+                relation_files[relation_id].append(os.path.join(subfolder_path, file))    
 
     # Select one relation =================
     if target_relation_ids == "all":
@@ -178,11 +176,13 @@ def load_relations_data(args):
     test_files = {subfolder: [] for subfolder in subfolders}
     
     for subfolder in subfolders:
-        subfolder_path = os.path.join(args.data_dir, subfolder)
-        for file in os.listdir(subfolder_path):
-            file_id = file.split('.')[0]
-            if file_id in test_relation_ids:
-                test_files[subfolder].append(os.path.join(subfolder_path, file))
+        # subfolder_path = os.path.join(args.data_dir, subfolder)
+        subfolder_path = f"{args.data_dir}/{generation_method}/{subfolder}"
+        if os.path.exists(subfolder_path):
+            for file in os.listdir(subfolder_path):
+                file_id = file.split('.')[0]
+                if file_id in test_relation_ids:
+                    test_files[subfolder].append(os.path.join(subfolder_path, file))
 
     print("Selected Relation ID:", test_relation_ids)
     print("Selected Files:", test_files)
@@ -347,8 +347,8 @@ def load_training_args(args):
     output_dir = os.path.join(args.output_model_dir, args.repo_name.split('/')[-1])
     training_arguments = TrainingArguments(
         output_dir=output_dir,
-        per_device_train_batch_size=128,
-        per_device_eval_batch_size=128,
+        per_device_train_batch_size=64,
+        per_device_eval_batch_size=64,
         gradient_accumulation_steps=4,
         optim="paged_adamw_32bit", # "paged_adamw_8bit"
         num_train_epochs=args.epochs,
@@ -373,15 +373,19 @@ def load_training_args(args):
     return training_arguments
 
 def main(args):
-    logging.info(f"Model: {args.model_name_or_path} \n PEFT: {with_peft} \n version: {args.version}")
+    logging.info(f"""
+        Model: {args.model_name_or_path}
+        PEFT: {args.with_peft}
+        version: {args.version}
+    """)
     args.repo_name = "HeydarS/{}_{}_v{}".format(
         args.model_name_or_path.split('/')[-1],
-        'peft' if with_peft else 'no_peft',
+        'peft' if args.with_peft else 'full',
         args.version
     )
     
     set_seed(42)
-    model, tokenizer, data_collator = load_model(args, with_peft=with_peft)
+    model, tokenizer, data_collator = load_model(args)
     test_relation_ids, test_files, relation_files = load_relations_data(args)
     if training_style == 'qa':
         tokenized_train_datasets = load_dataset_qa(tokenizer, test_files)
@@ -412,6 +416,17 @@ def main(args):
     print("Fine-tuning is done.")
 
 if __name__ == "__main__":
+    
+    def str2bool(v):
+        if isinstance(v, bool):
+            return v
+        if v.lower() in ('yes', 'true', 't', 'y', '1'):
+            return True
+        elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+            return False
+        else:
+            raise argparse.ArgumentTypeError('Boolean value expected.')
+    
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, required=True)
     parser.add_argument("--data_dir", type=str)
@@ -419,6 +434,7 @@ if __name__ == "__main__":
     parser.add_argument("--output_result_dir", type=str)
     parser.add_argument("--epochs", default=1, type=int)
     parser.add_argument("--lr", default=2e-4, type=float)
+    parser.add_argument("--with_peft", type=str2bool, default=False)
     parser.add_argument("--version", default=1, type=int)
     
     args = parser.parse_args()

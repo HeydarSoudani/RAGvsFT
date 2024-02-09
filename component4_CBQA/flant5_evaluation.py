@@ -21,7 +21,7 @@ os.environ["WANDB_MODE"] = "offline"
 # os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 device = 'cuda:0'
-prompt_prefix = "Answer the question : "
+prompt_prefix = "Answer the question: "
 
 dataset_name = 'popQA' # [TQA, popQA, EQ]
 # with_peft = False
@@ -156,7 +156,9 @@ def load_model(args):
             # device_map={"": 0}
             device_map="auto"
         )
-        tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
+        # tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
+        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
+        
     
     # model.to(device)
     model.eval()
@@ -164,21 +166,21 @@ def load_model(args):
     
     return model, tokenizer
 
-
 def main(args):
+    pre_prefix = "af"
     rag_part = "rag" if args.with_rag else "norag"
-    peft_part = "peft" if args.with_peft else "nopeft"
+    peft_part = "peft" if args.with_peft else "full"
     if args.with_rag:
-        file_prefix = f"bf_{rag_part}_{args.retrieval_method}_{peft_part}"
+        file_prefix = f"{pre_prefix}_{rag_part}_{args.retrieval_method}_{peft_part}"
     else:
-        file_prefix = f"bf_{rag_part}_{peft_part}"
+        file_prefix = f"{pre_prefix}_{rag_part}_{peft_part}"
     
     logging.info(f"""
-        Model: {args.model_name_or_path} \n
-        PEFT: {args.with_peft} \n
-        RAG: {args.with_rag} \n
-        Few-shot input: {args.with_fs} \n
-        Retrieval method {args.retrieval_method} \n
+        Model: {args.model_name_or_path}
+        PEFT: {args.with_peft}
+        RAG: {args.with_rag}
+        Few-shot input: {args.with_fs}
+        Retrieval method {args.retrieval_method}
         Output file's prefix: {file_prefix}
         """
     )

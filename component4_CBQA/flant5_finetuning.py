@@ -121,7 +121,6 @@ def load_model(args):
     
     return model, tokenizer, data_collator
 
-
 def load_relations_data(args):
     
     subfolders = ['train', 'dev', 'test']    
@@ -150,7 +149,6 @@ def load_relations_data(args):
         # subfolder_path = os.path.join(args.data_dir, subfolder)
         subfolder_path = f"{args.data_dir}/{generation_method}/{subfolder}"
         if os.path.exists(subfolder_path):
-        
             for file in os.listdir(subfolder_path):
                 file_id = file.split('.')[0]
                 if file_id in test_relation_ids:
@@ -160,7 +158,6 @@ def load_relations_data(args):
     print("Selected Files:", test_files)
 
     return test_relation_ids, test_files, relation_files     
-
 
 def load_dataset_qa(tokenizer, test_files):
     
@@ -280,14 +277,14 @@ def load_training_args(args):
 
 def main(args):
     logging.info(f"""
-        Model: {args.model_name_or_path} \n
-        PEFT: {args.with_peft} \n
+        Model: {args.model_name_or_path}
+        PEFT: {args.with_peft}
         Version: {args.version}
     """)
     
     args.repo_name = "HeydarS/{}_{}_v{}".format(
         args.model_name_or_path.split('/')[-1],
-        'peft' if args.with_peft else 'no_peft',
+        'peft' if args.with_peft else 'full',
         args.version
     )
     

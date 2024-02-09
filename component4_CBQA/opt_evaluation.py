@@ -30,8 +30,7 @@ training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = 'all'
 # target_relation_ids = ["91"]
 # target_relation_ids = ["91", "106", "22", "182"]
-# file_prefix="bf_rag"
-file_prefix="bf_rag_nopeft"
+
 
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
@@ -103,8 +102,8 @@ def load_model(args):
             # device_map={"": 0},
         )
         tokenizer = AutoTokenizer.from_pretrained(
-        #    "facebook/opt-350m",
-           args.model_name_or_path,
+           "facebook/opt-350m",
+        #    args.model_name_or_path,
            trust_remote_code=True
         )
     model.to(device)
@@ -222,26 +221,25 @@ def retrieved_file_preparing(
             }
             ofile.write(json.dumps(combined_obj) + "\n")
 
-
 def main(args):
     
+    pre_prefix = "af"
     rag_part = "rag" if args.with_rag else "norag"
-    peft_part = "peft" if args.with_peft else "nopeft"
+    peft_part = "peft" if args.with_peft else "full"
     if args.with_rag:
-        file_prefix = f"bf_{rag_part}_{args.retrieval_method}_{peft_part}"
+        file_prefix = f"{pre_prefix}_{rag_part}_{args.retrieval_method}_{peft_part}"
     else:
-        file_prefix = f"bf_{rag_part}_{peft_part}"
+        file_prefix = f"{pre_prefix}_{rag_part}_{peft_part}"
     
     logging.info(f"""
-        Model: {args.model_name_or_path} \n
-        PEFT: {args.with_peft} \n
-        RAG: {args.with_rag} \n
-        Few-shot input: {args.with_fs} \n
-        Retrieval method {args.retrieval_method} \n
+        Model: {args.model_name_or_path}
+        PEFT: {args.with_peft}
+        RAG: {args.with_rag}
+        Few-shot input: {args.with_fs}
+        Retrieval method: {args.retrieval_method}
         Output file's prefix: {file_prefix}
         """
-    )
-    
+    )    
     set_seed(42)
 
     # == Creating retrieval files -> Only for the first time
