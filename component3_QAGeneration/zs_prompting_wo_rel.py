@@ -226,9 +226,9 @@ if __name__ == "__main__":
     
     ### === Second round
     # Done: 
-    # Doing: 
-    # To Do: 182, 106, 22, 560, 218, 97, 257, 164, 526, 639, 91, 533, 472, 292, 422, 484
-    relation_id = "472"
+    # Doing: 472
+    # To Do: 182, 106, 22, 560, 218, 97, 257, 164, 526, 639, 91, 533, 292, 422, 484
+    relation_id = "106"
     prompting_qa_generation(relation_id=relation_id)
     
     # post_filtering(relation_id=relation_id)
