@@ -1,6 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import csv, os
+import json
+import math
 
 relations = [
     'all',
@@ -9,6 +11,59 @@ relations = [
     'producer', 'author', 'composer', 'country',
     'capital', 'capital of', 'color', 'sport'
 ]
+
+RELATIONS = {
+    "22": "Occupation",
+    "218": "Place of birth",
+    "91": "Genre",
+    "257": "Father",
+    "182": "Country",
+    "164": "Producer",
+    "526": "Director",
+    "97": "Capital of",
+    "533": "Screenwriter",
+    "639": "Composer",
+    "472": "Color",
+    "106": "Religion",
+    "560": "Sport",
+    "484": "Author",
+    "292": "Mother",
+    "422": "Capital"
+}
+
+def split_to_buckets(objects, split_points):
+    
+    split_points = sorted(split_points)
+    sp_len = len(split_points)
+    bucket_data = {'bucket{}'.format(idx+1): list() for idx in range(sp_len+1)}
+    
+    for obj in objects:
+        # rp = obj['relative_popularity']
+        if obj['pageviews'] != 0:
+            rp = math.log(int(obj['pageviews']), 10)
+        else:
+            rp = 0
+        
+        if rp < split_points[0]:
+            if 'bucket1' in bucket_data.keys():
+                bucket_data['bucket1'].append(obj)
+            else:
+                bucket_data['bucket1'] = [obj]
+        
+        if rp >= split_points[-1]:
+            if 'bucket{}'.format(sp_len+1) in bucket_data.keys():
+                bucket_data['bucket{}'.format(sp_len+1)].append(obj)
+            else:
+                bucket_data['bucket{}'.format(sp_len+1)] = [obj]
+
+        for i in range(sp_len-1):
+            if split_points[i] <= rp < split_points[i + 1]:
+                if 'bucket{}'.format(i+2) in bucket_data.keys():
+                    bucket_data['bucket{}'.format(i+2)].append(obj)
+                else:
+                    bucket_data['bucket{}'.format(i+2)] = [obj]
+    
+    return bucket_data
 
 def retrieval_results_nobk():
     pass
@@ -74,7 +129,7 @@ def retrieval_results_bk():
 
 def retrieval_results_bk_all_models():
     relation = 'religion'
-    models = ["bm25", "contriever", "rerank", "dpr_zs",]
+    models = ["bm25", "contriever", "rerank", "dpr",]
     
     plt.figure(figsize=(10, 6))
     for idx, model in enumerate(models):
@@ -149,12 +204,88 @@ def icl_obqa_results_bk():
     plt.show()
 
 
+def retrieval_results_per_relation():
+    retrieval_methods = ['bm25', 'contriever', 'rerank', 'dpr']
+    results_dir = "component1_retrieval/results"
+    # filename = f"per_rel_{ret_method}_eval.tsv"
+
+def calculated_accuracy(objects):
+    correct_count = sum(obj['is_correct'] for obj in objects)
+    total_count = len(objects)
+    if total_count == 0:
+        return 0
+    accuracy = correct_count / total_count
+    return accuracy
+    
+
+def icl_results():
+    split_points = [2, 3, 4, 5]
+    data_per_relation = {}
+    data_per_bucket = {}
+    accuracies = {}
+    
+    data_dir = "component0_preprocessing/generated_data/popQA_EQformat/results"
+    filename = "all.flan-t5-base.bf_rag_contriever_nopeft_results.jsonl"
+    file_path = os.path.join(data_dir, filename)
+    
+    data_per_relation['all'] = []
+    
+    with open(file_path, 'r', newline='', encoding='utf-8') as file:
+        for line in file:
+            item = json.loads(line)
+            
+            # Divide data per relation
+            relation_id = item['query_id'].split('_')[0]
+            if relation_id not in data_per_relation:
+                data_per_relation[relation_id] = []
+            
+            data_per_relation['all'].append(item)
+            data_per_relation[relation_id].append(item)
+            
+            # Accuracy per relation
+            for relation_id, objects in data_per_relation.items():
+                accuracy = calculated_accuracy(objects)
+                accuracies[relation_id] = {"overall": accuracy}
+    
+        # Divide data per bucket
+        for relation_id, objects in data_per_relation.items():
+            bucket_data = split_to_buckets(objects, split_points)
+            accuracies[relation_id]['per_bucket'] = {}
+            for bucket_id, bucket_objects in bucket_data.items():
+                accuracy = calculated_accuracy(bucket_objects)
+                accuracies[relation_id]['per_bucket'][bucket_id] = accuracy
+            
+    print(accuracies)
+    
+    # Preparing data for plotting
+    relation_name = [RELATIONS[item] if item != 'all' else 'all' for item in list(accuracies.keys())]
+    # relation_name = [RELATIONS[item] if item in RELATIONS and item != 'all' else item for item in list(accuracies.keys())]
+    overall_scores = [value['overall'] for value in accuracies.values()]
+    plt.figure(figsize=(10, 6))
+    plt.bar(relation_name, overall_scores, color='skyblue')
+    plt.xticks(rotation=90)
+    plt.xlabel('Relation ID')
+    plt.ylabel('Overall Score')
+    plt.title('Overall Scores by Relation ID')
+    plt.ylim(0, 1)  # Set y-axis limit to show scores from 0 to 1
+    plt.show()
+    
+    
+    
+    
+    
+    
+
+
 if __name__ == "__main__":
     # retrieval_results_nobk()
     # retrieval_results_bk()
     # retrieval_results_bk_all_models()
+    # icl_obqa_results_bk()
     
-    icl_obqa_results_bk()
+    
+    # retrieval_results_per_relation()
+    icl_results()
     
     
     

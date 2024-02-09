@@ -97,7 +97,7 @@ def prompting_qa_generation(relation_id):
 
     Context: {context}
 
-    Step 1: Identifies spans that are likely to be answers to questions, identify as many as possible.
+    Step 1: Identify spans that are likely to be answers to questions, identify as many as possible.
     Step 2: For each identified span, generate a question.
     Step 3: Respond to the question in only a few tokens concisely.
     Step 4: Output in JSON format following the example above (i.e., `{{...}}`).
