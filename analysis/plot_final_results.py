@@ -1,4 +1,5 @@
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
 import csv, os
 import json
@@ -35,7 +36,7 @@ def split_to_buckets(objects, split_points):
     
     split_points = sorted(split_points)
     sp_len = len(split_points)
-    bucket_data = {'bucket{}'.format(idx+1): list() for idx in range(sp_len+1)}
+    bucket_data = {'b{}'.format(idx+1): list() for idx in range(sp_len+1)}
     
     for obj in objects:
         # rp = obj['relative_popularity']
@@ -45,23 +46,23 @@ def split_to_buckets(objects, split_points):
             rp = 0
         
         if rp < split_points[0]:
-            if 'bucket1' in bucket_data.keys():
-                bucket_data['bucket1'].append(obj)
+            if 'b1' in bucket_data.keys():
+                bucket_data['b1'].append(obj)
             else:
-                bucket_data['bucket1'] = [obj]
+                bucket_data['b1'] = [obj]
         
         if rp >= split_points[-1]:
-            if 'bucket{}'.format(sp_len+1) in bucket_data.keys():
-                bucket_data['bucket{}'.format(sp_len+1)].append(obj)
+            if 'b{}'.format(sp_len+1) in bucket_data.keys():
+                bucket_data['b{}'.format(sp_len+1)].append(obj)
             else:
-                bucket_data['bucket{}'.format(sp_len+1)] = [obj]
+                bucket_data['b{}'.format(sp_len+1)] = [obj]
 
         for i in range(sp_len-1):
             if split_points[i] <= rp < split_points[i + 1]:
-                if 'bucket{}'.format(i+2) in bucket_data.keys():
-                    bucket_data['bucket{}'.format(i+2)].append(obj)
+                if 'b{}'.format(i+2) in bucket_data.keys():
+                    bucket_data['b{}'.format(i+2)].append(obj)
                 else:
-                    bucket_data['bucket{}'.format(i+2)] = [obj]
+                    bucket_data['b{}'.format(i+2)] = [obj]
     
     return bucket_data
 
@@ -221,56 +222,117 @@ def calculated_accuracy(objects):
 def icl_results():
     split_points = [2, 3, 4, 5]
     data_per_relation = {}
-    data_per_bucket = {}
     accuracies = {}
     
     data_dir = "component0_preprocessing/generated_data/popQA_EQformat/results"
-    filename = "all.flan-t5-base.bf_rag_contriever_nopeft_results.jsonl"
-    file_path = os.path.join(data_dir, filename)
     
-    data_per_relation['all'] = []
+    # _filenames = ["norag", "rag_bm25"]
+    # titles = ["vanilla", "bm25"]
+    _filenames = ["norag", "rag_bm25", "rag_contriever", "rag_rerank", "rag_dpr", "rag_ideal"]
+    titles = ["vanilla", "bm25", "contriever", "rerank", "dpr", 'ideal']
     
-    with open(file_path, 'r', newline='', encoding='utf-8') as file:
-        for line in file:
-            item = json.loads(line)
-            
-            # Divide data per relation
-            relation_id = item['query_id'].split('_')[0]
-            if relation_id not in data_per_relation:
-                data_per_relation[relation_id] = []
-            
-            data_per_relation['all'].append(item)
-            data_per_relation[relation_id].append(item)
-            
-            # Accuracy per relation
-            for relation_id, objects in data_per_relation.items():
-                accuracy = calculated_accuracy(objects)
-                accuracies[relation_id] = {"overall": accuracy}
+    
+    for idx, _filename in enumerate(_filenames):
+        print(f'Processing {titles[idx]}...')
+        filename = f"all.flan-t5-base.bf_{_filename}_full_results.jsonl"
+        file_path = os.path.join(data_dir, filename)
+        data_per_relation[titles[idx]] = {}
+        data_per_relation[titles[idx]]['all'] = []
+        accuracies[titles[idx]] = {}
+    
+        with open(file_path, 'r', newline='', encoding='utf-8') as file:
+            for line in file:
+                item = json.loads(line)
+                
+                # Divide data per relation
+                relation_id = item['query_id'].split('_')[0]
+                if relation_id not in data_per_relation[titles[idx]]:
+                    data_per_relation[titles[idx]][relation_id] = []
+                
+                data_per_relation[titles[idx]]['all'].append(item)
+                data_per_relation[titles[idx]][relation_id].append(item)
+                
+                # Accuracy per relation
+                for relation_id, objects in data_per_relation[titles[idx]].items():
+                    accuracy = calculated_accuracy(objects)
+                    accuracies[titles[idx]][relation_id] = {"overall": accuracy}
     
         # Divide data per bucket
-        for relation_id, objects in data_per_relation.items():
+        for relation_id, objects in data_per_relation[titles[idx]].items():
             bucket_data = split_to_buckets(objects, split_points)
-            accuracies[relation_id]['per_bucket'] = {}
+            accuracies[titles[idx]][relation_id]['per_bucket'] = {}
             for bucket_id, bucket_objects in bucket_data.items():
                 accuracy = calculated_accuracy(bucket_objects)
-                accuracies[relation_id]['per_bucket'][bucket_id] = accuracy
+                accuracies[titles[idx]][relation_id]['per_bucket'][bucket_id] = accuracy
             
     print(accuracies)
     
+    
     # Preparing data for plotting
-    relation_name = [RELATIONS[item] if item != 'all' else 'all' for item in list(accuracies.keys())]
-    # relation_name = [RELATIONS[item] if item in RELATIONS and item != 'all' else item for item in list(accuracies.keys())]
-    overall_scores = [value['overall'] for value in accuracies.values()]
-    plt.figure(figsize=(10, 6))
-    plt.bar(relation_name, overall_scores, color='skyblue')
+    num_bars = len(titles) # Number of bars per group
+    ind = np.arange(len(accuracies[titles[0]])) # Position of bars on x-axis
+    width = 0.2 # Width of a bar
+    fig, ax = plt.subplots() # Plotting the bars
+    
+    for i in range(num_bars):
+        overall_scores = [value['overall'] for value in accuracies[titles[i]].values()]
+        ax.bar(ind + i * width, overall_scores, width, label=titles[i])
+    
+    ax.set_xlabel('Relation ID')
+    ax.set_ylabel('Accuracy')
+    ax.set_title('Accuracy by Relation ID')
+
+    relation_names = [RELATIONS[item] if item != 'all' else 'all' for item in list(accuracies[titles[0]].keys())]
+    ax.set_xticks(ind + width * (num_bars - 1) / 2)
+    ax.set_xticklabels(relation_names)
+
+    ax.legend()
     plt.xticks(rotation=90)
-    plt.xlabel('Relation ID')
-    plt.ylabel('Overall Score')
-    plt.title('Overall Scores by Relation ID')
-    plt.ylim(0, 1)  # Set y-axis limit to show scores from 0 to 1
     plt.show()
     
+    # for title in titles:
+    #     accuracy = accuracies[title]
+    #     relation_name = [RELATIONS[item] if item != 'all' else 'all' for item in list(accuracy.keys())]
+    #     # relation_name = [RELATIONS[item] if item in RELATIONS and item != 'all' else item for item in list(accuracies.keys())]
+    #     overall_scores = [value['overall'] for value in accuracy.values()]
+    #     plt.figure(figsize=(10, 6))
+    #     plt.bar(relation_name, overall_scores, color='skyblue')
+    #     plt.xticks(rotation=90)
+    #     plt.xlabel('Relation ID')
+    #     plt.ylabel('Overall Score')
+    #     plt.title('Overall Scores by Relation ID')
+    #     plt.ylim(0, 1)  # Set y-axis limit to show scores from 0 to 1
+    #     plt.show()
     
+    # # Set up the subplot figure
+    # num_plots = len(accuracies)
+    # cols = 4
+    # rows = (num_plots + cols - 1) // cols
+
+    # fig, axes = plt.subplots(rows, cols, figsize=(15, rows * 2))
+    # fig.tight_layout(pad=1.0)
+
+    # # Flatten axes array for easy access
+    # axes = axes.flatten()
+
+    # # Iterate over data to create a line plot for each key
+    # for i, (key, value) in enumerate(accuracies.items()):
+    #     if 'per_bucket' in value:  # Check if 'per_bucket' exists to avoid errors
+    #         buckets = list(value['per_bucket'].keys())
+    #         scores = list(value['per_bucket'].values())
+    #         axes[i].plot(buckets, scores, marker='o')
+    #         title = RELATIONS[key] if key != 'all' else 'all'
+    #         axes[i].set_title(f"{title}")
+    #         axes[i].set_xlabel("")
+    #         axes[i].set_ylabel("Accuracy")
+    #         axes[i].set_ylim(0, 1)  # Ensure y-axis is the same for all plots
+
+    # # Hide unused subplots if any
+    # for j in range(i + 1, len(axes)):
+    #     axes[j].axis('off')
+
+    # plt.show()
+
     
     
     
