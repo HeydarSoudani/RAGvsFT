@@ -267,29 +267,32 @@ def icl_results():
             
     print(accuracies)
     
+    # =============================
+    # === Plotting per relation ===
+    # num_bars = len(titles) # Number of bars per group
+    # ind = np.arange(len(accuracies[titles[0]])) # Position of bars on x-axis
+    # width = 0.11 # Width of a bar
+    # fig, ax = plt.subplots() # Plotting the bars
     
-    # Preparing data for plotting
-    num_bars = len(titles) # Number of bars per group
-    ind = np.arange(len(accuracies[titles[0]])) # Position of bars on x-axis
-    width = 0.2 # Width of a bar
-    fig, ax = plt.subplots() # Plotting the bars
+    # for i in range(num_bars):
+    #     overall_scores = [value['overall'] for value in accuracies[titles[i]].values()]
+    #     ax.bar(ind + i * width, overall_scores, width, label=titles[i])
     
-    for i in range(num_bars):
-        overall_scores = [value['overall'] for value in accuracies[titles[i]].values()]
-        ax.bar(ind + i * width, overall_scores, width, label=titles[i])
-    
-    ax.set_xlabel('Relation ID')
-    ax.set_ylabel('Accuracy')
-    ax.set_title('Accuracy by Relation ID')
+    # ax.set_xlabel('Relation ID')
+    # ax.set_ylabel('Accuracy')
+    # ax.set_title('Accuracy by Relation ID: FlanT5-base, -FT')
 
-    relation_names = [RELATIONS[item] if item != 'all' else 'all' for item in list(accuracies[titles[0]].keys())]
-    ax.set_xticks(ind + width * (num_bars - 1) / 2)
-    ax.set_xticklabels(relation_names)
+    # relation_names = [RELATIONS[item] if item != 'all' else 'all' for item in list(accuracies[titles[0]].keys())]
+    # ax.set_xticks(ind + width * (num_bars - 1) / 2)
+    # ax.set_xticklabels(relation_names)
 
-    ax.legend()
-    plt.xticks(rotation=90)
-    plt.show()
+    # ax.legend()
+    # plt.xticks(rotation=45)
+    # plt.show()
     
+    
+    # =============================
+    # === Plotting per bucket =====
     # for title in titles:
     #     accuracy = accuracies[title]
     #     relation_name = [RELATIONS[item] if item != 'all' else 'all' for item in list(accuracy.keys())]
@@ -304,34 +307,57 @@ def icl_results():
     #     plt.ylim(0, 1)  # Set y-axis limit to show scores from 0 to 1
     #     plt.show()
     
-    # # Set up the subplot figure
-    # num_plots = len(accuracies)
-    # cols = 4
-    # rows = (num_plots + cols - 1) // cols
+    
+    # Set up the subplot figure
+    num_plots = len(accuracies[titles[0]])
+    cols = 4
+    rows = (num_plots + cols - 1) // cols
 
-    # fig, axes = plt.subplots(rows, cols, figsize=(15, rows * 2))
+    fig, axes = plt.subplots(rows, cols, figsize=(15, rows * 2))
+    fig.delaxes(axes[0,1])  
+    fig.delaxes(axes[0,2])  
+    fig.delaxes(axes[0,3]) 
+    
     # fig.tight_layout(pad=1.0)
 
-    # # Flatten axes array for easy access
+    # Flatten axes array for easy access
     # axes = axes.flatten()
 
-    # # Iterate over data to create a line plot for each key
-    # for i, (key, value) in enumerate(accuracies.items()):
-    #     if 'per_bucket' in value:  # Check if 'per_bucket' exists to avoid errors
-    #         buckets = list(value['per_bucket'].keys())
-    #         scores = list(value['per_bucket'].values())
-    #         axes[i].plot(buckets, scores, marker='o')
-    #         title = RELATIONS[key] if key != 'all' else 'all'
-    #         axes[i].set_title(f"{title}")
-    #         axes[i].set_xlabel("")
-    #         axes[i].set_ylabel("Accuracy")
-    #         axes[i].set_ylim(0, 1)  # Ensure y-axis is the same for all plots
+    # Iterate over data to create a line plot for each key
+    for _title, _accuracies in accuracies.items():
+    
+        for idx, (key, value) in enumerate(_accuracies.items()):
+            
+            if idx == 0:
+                row = 0
+                col = 0
+            else:
+                row = (idx+3) // 4
+                col = (idx+3) % 4
+            ax = axes[row, col]
+            
+            
+            if 'per_bucket' in value:  # Check if 'per_bucket' exists to avoid errors
+                buckets = list(value['per_bucket'].keys())
+                scores = list(value['per_bucket'].values())
+                if idx == 0:
+                    ax.plot(buckets, scores,  label=_title)
+                else:
+                    ax.plot(buckets, scores, )
+                title = RELATIONS[key] if key != 'all' else 'all'
+                ax.set_title(f"{title}")
+                ax.set_xlabel("")
+                ax.set_ylabel("Accuracy")
+                ax.set_ylim(0, 1)  # Ensure y-axis is the same for all plots
 
-    # # Hide unused subplots if any
-    # for j in range(i + 1, len(axes)):
+    # Hide unused subplots if any
+    # for j in range(idx + 1, len(axes)):
     #     axes[j].axis('off')
 
-    # plt.show()
+    # axes[0].legend()
+    fig.legend(loc='upper right')
+    plt.tight_layout()
+    plt.show()
 
     
     
