@@ -226,19 +226,39 @@ def icl_results():
     
     _filenames = ["norag", "rag_bm25", "rag_contriever", "rag_rerank", "rag_dpr", "rag_ideal"]
     titles = ["vanilla", "bm25", "contriever", "rerank", "dpr", 'ideal']
-    base_filename = "all.flan-t5-base.bf_{}_full_results.jsonl"
+    
+    
+    # =======================
+    # === For FlanT5-small ==
+    bf_base_filename = "all.flan-t5-small.bf_{}_full_results.jsonl"
     filenames = [
-        {"title": "NoFT_NoRAG", "filename": base_filename.format("norag")},
+        {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
         
-        # {"title": "NoFT_bm25RAG", "filename": base_filename.format("rag_bm25")},
-        # {"title": "NoFT_ContrieverRAG", "filename": base_filename.format("rag_contriever")},
-        # {"title": "NoFT_RerankRAG", "filename": base_filename.format("rag_rerank")},
-        {"title": "NoFT_DprRAG", "filename": base_filename.format("rag_dpr")},
-        {"title": "NoFT_IdealRAG", "filename": base_filename.format("rag_ideal")},
-
-        {"title": "FT_NoRAG", "filename": "all.flan-t5-base_peft_v1.af_norag_peft_results.jsonl"},
-        {"title": "FT_IdealRAG", "filename": "all.flan-t5-base_peft_v1.af_rag_ideal_peft_results.jsonl"},    
+        # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
+        # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
+        # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
+        {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
+        {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
+        
+        {"title": "FT_NoRAG", "filename": "all.flan-t5-small_peft_v15.af_norag_peft_results.jsonl"},
+        {"title": "FT_IdealRAG", "filename": "all.flan-t5-small_peft_v15.af_rag_ideal_peft_results.jsonl"}
     ]
+    
+    # =======================
+    # === For FlanT5-base ===
+    # bf_base_filename = "all.flan-t5-base.bf_{}_full_results.jsonl"
+    # filenames = [
+    #     {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
+        
+    #     {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
+    #     {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
+    #     {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
+    #     {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
+    #     {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
+
+    #     {"title": "FT_NoRAG", "filename": "all.flan-t5-base_peft_v1.af_norag_peft_results.jsonl"},
+    #     {"title": "FT_IdealRAG", "filename": "all.flan-t5-base_peft_v1.af_rag_ideal_peft_results.jsonl"},    
+    # ]    
     
     for idx, _filename in enumerate(filenames):
         title = _filename['title']
@@ -305,7 +325,7 @@ def icl_results():
     
     ax.set_xlabel('Relation ID')
     ax.set_ylabel('Accuracy')
-    ax.set_title('Accuracy by Relation ID: FlanT5-base, +FT')
+    ax.set_title('Accuracy per Relation: FlanT5-small, +FT')
 
     relation_names = [RELATIONS[item] if item != 'all' else 'all' for item in list(ordered_accuracies[filenames[0]["title"]].keys())]
     ax.set_xticks(ind + width * (num_bars - 1) / 2)
