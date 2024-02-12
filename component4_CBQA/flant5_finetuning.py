@@ -316,12 +316,13 @@ def main(args):
         train_dataset=tokenized_train_datasets["train"],
         eval_dataset=tokenized_train_datasets["dev"],
         data_collator=data_collator,
-        compute_metrics=compute_metrics
+        # compute_metrics=compute_metrics
     )
     
     print("Fine-tuning ....")
     save_model_dir = os.path.join(args.output_model_dir, args.repo_name.split('/')[-1])
-    trainer.train(resume_from_checkpoint=True)
+    # trainer.train(resume_from_checkpoint=True)
+    trainer.train()
     model.save_pretrained(save_model_dir)
     model.push_to_hub(args.repo_name, token=True)
     print("Fine-tuning is done.")
