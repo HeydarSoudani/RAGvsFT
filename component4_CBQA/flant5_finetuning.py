@@ -37,7 +37,7 @@ training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = 'all'
 # target_relation_ids = ["106", "22", "560"]
 # target_relation_ids = ["91", "106", "22", "182"]
-generation_method = "prompting" # ["pipeline", "prompting"]
+# generation_method = "prompting" # ["pipeline", "prompting"]
 
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
@@ -128,7 +128,7 @@ def load_relations_data(args):
     
     for subfolder in subfolders:
         # subfolder_path = os.path.join(args.data_dir, subfolder)
-        subfolder_path = f"{args.data_dir}/{generation_method}/{subfolder}"
+        subfolder_path = f"{args.data_dir}/{args.generation_method}/{subfolder}"
         if os.path.exists(subfolder_path):
             
             for file in os.listdir(subfolder_path):
@@ -147,7 +147,7 @@ def load_relations_data(args):
     
     for subfolder in subfolders:
         # subfolder_path = os.path.join(args.data_dir, subfolder)
-        subfolder_path = f"{args.data_dir}/{generation_method}/{subfolder}"
+        subfolder_path = f"{args.data_dir}/{args.generation_method}/{subfolder}"
         if os.path.exists(subfolder_path):
             for file in os.listdir(subfolder_path):
                 file_id = file.split('.')[0]
@@ -263,7 +263,7 @@ def load_training_args(args):
         evaluation_strategy="epoch",
         logging_strategy="epoch",
         save_strategy="epoch",
-        save_total_limit=4,
+        save_total_limit=1,
         # load_best_model_at_end=True,
         # metric_for_best_model="overall_f1",
         # push to hub parameters
@@ -321,7 +321,7 @@ def main(args):
     
     print("Fine-tuning ....")
     save_model_dir = os.path.join(args.output_model_dir, args.repo_name.split('/')[-1])
-    trainer.train()
+    trainer.train(resume_from_checkpoint=True)
     model.save_pretrained(save_model_dir)
     model.push_to_hub(args.repo_name, token=True)
     print("Fine-tuning is done.")
@@ -341,6 +341,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, required=True)
     parser.add_argument("--data_dir", type=str)
+    parser.add_argument("--generation_method", type=str)
     parser.add_argument("--output_model_dir", type=str)
     parser.add_argument("--output_result_dir", type=str)
     parser.add_argument("--epochs", default=1, type=int)

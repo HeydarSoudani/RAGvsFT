@@ -51,6 +51,9 @@ corpus_sum_dir = f"{output_dir}/corpus_summary"
 qrels_sum_dir = f"{output_dir}/qrels_summary" 
 corpus_all_dir = f"{output_dir}/corpus_all" 
 qrels_all_dir = f"{output_dir}/qrels_all"
+corpus_all_dir = f"{output_dir}/corpus_first2" 
+qrels_all_dir = f"{output_dir}/qrels_first2"
+
 os.makedirs(test_dir, exist_ok=True)
 os.makedirs(entity_dir, exist_ok=True)
 os.makedirs(corpus_sum_dir, exist_ok=True)
@@ -531,7 +534,7 @@ def create_train_and_dev_files(args, relation_id=None):
                 context = remove_parentheses(item['content'])
                 doc_id = item['doc_id']
                 
-                max_tokens = 256
+                max_tokens = 512
                 chunks = split_text_to_sentences(context, max_tokens)
                 for chunk in chunks:
                     
@@ -560,7 +563,6 @@ def create_train_and_dev_files(args, relation_id=None):
                     except torch.cuda.OutOfMemoryError:
                         print("CUDA out of memory.")
                         continue
-                    
                     except AnswerNotFoundError:
                         print(f"Answer not found for passage: {chunk}")
                         continue
@@ -700,11 +702,11 @@ def main(args):
     # add_empty_entities()
     
     ### ==== Creating train & dev & qrels-train files =====
-    # Done: 106, 22, 182 
-    # Doing: 218
-    # To Do: 218, 91, 257, 164, 526, 97, 533, 639, 472, 560, 484, 292, 422
-    # relation_id = "182"
-    # create_train_and_dev_files(args, relation_id=relation_id)
+    # Done: 106, 22, 182, 292, 472, 218, 257, 560, 164, 639, 91, 97, 526
+    # Doing: 533, 484, 422
+    # To Do: 
+    relation_id = "422"
+    create_train_and_dev_files(args, relation_id=relation_id)
     
     ### ==== Plotting the distribution of the number of queries in each bucket
     plot_bucket_num()
@@ -712,8 +714,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    # parser.add_argument("--qg_model", type=str, required=True)
-    # parser.add_argument("--ae_model", type=str, required=True)
+    parser.add_argument("--qg_model", type=str, required=True)
+    parser.add_argument("--ae_model", type=str, required=True)
     
     args = parser.parse_args()
     main(args)

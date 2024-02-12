@@ -16,9 +16,9 @@ module load Python/3.10.4-GCCcore-11.3.0
 # srun python -uc "import torch; print('GPU available?', torch.cuda.is_available())"
 
 #Execute a Python program located in $HOME, that takes an input file and output directory as arguments.
-pip install -r $HOME/RAGvsFT/component3_QAGeneration/requirements.txt
-pip install --upgrade pip
-python -m spacy download en_core_web_sm
+# pip install -r $HOME/RAGvsFT/component3_QAGeneration/requirements.txt
+# pip install --upgrade pip
+# python -m spacy download en_core_web_sm
 
 srun $HOME/RAGvsFT/component3_QAGeneration/pipeline_QAG.py \
     --qg_model 'lmqg/t5-large-squad-qg' \

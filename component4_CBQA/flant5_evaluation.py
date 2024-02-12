@@ -158,6 +158,7 @@ def load_model(args):
         )
         # tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
         tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
+        # tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
         
     
     # model.to(device)

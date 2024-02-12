@@ -204,7 +204,6 @@ def icl_obqa_results_bk():
     plt.tight_layout()
     plt.show()
 
-
 def retrieval_results_per_relation():
     retrieval_methods = ['bm25', 'contriever', 'rerank', 'dpr']
     results_dir = "component1_retrieval/results"
@@ -218,7 +217,6 @@ def calculated_accuracy(objects):
     accuracy = correct_count / total_count
     return accuracy
     
-
 def icl_results():
     split_points = [2, 3, 4, 5]
     data_per_relation = {}

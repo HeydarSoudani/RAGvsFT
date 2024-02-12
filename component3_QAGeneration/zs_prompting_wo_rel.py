@@ -13,7 +13,8 @@ import nltk
 nltk.download('punkt')
 
 output_dir = "component0_preprocessing/generated_data/popQA_EQformat"
-corpus_dir = f"{output_dir}/corpus_all"
+# corpus_dir = f"{output_dir}/corpus_all"
+corpus_dir = f"{output_dir}/corpus_first2"
 # corpus_dir = f"{output_dir}/corpus_summary"
 
 train_dir = f"{output_dir}/prompting/train2" 
@@ -224,11 +225,12 @@ if __name__ == "__main__":
     # Doing: 484, 
     # To Do: 
     
-    ### === Second round
-    # Done: 
-    # Doing: 472
-    # To Do: 182, 106, 22, 560, 218, 97, 257, 164, 526, 639, 91, 533, 292, 422, 484
-    relation_id = "106"
+    ### === Second round 
+    # For 472 -> all paragraphs, other relations -> first 2 paragraphs
+    # Done: 472, 218, 292
+    # Doing: 106, 164   
+    # To Do: 182, 22, 560, 97, 257, , 526, 639, 91, 533, 484
+    relation_id = "164"
     prompting_qa_generation(relation_id=relation_id)
     
     # post_filtering(relation_id=relation_id)
