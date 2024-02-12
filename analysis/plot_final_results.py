@@ -224,19 +224,31 @@ def icl_results():
     
     data_dir = "component0_preprocessing/generated_data/popQA_EQformat/results"
     
-    # _filenames = ["norag", "rag_bm25"]
-    # titles = ["vanilla", "bm25"]
     _filenames = ["norag", "rag_bm25", "rag_contriever", "rag_rerank", "rag_dpr", "rag_ideal"]
     titles = ["vanilla", "bm25", "contriever", "rerank", "dpr", 'ideal']
+    base_filename = "all.flan-t5-base.bf_{}_full_results.jsonl"
+    filenames = [
+        {"title": "NoFT_NoRAG", "filename": base_filename.format("norag")},
+        
+        # {"title": "NoFT_bm25RAG", "filename": base_filename.format("rag_bm25")},
+        # {"title": "NoFT_ContrieverRAG", "filename": base_filename.format("rag_contriever")},
+        # {"title": "NoFT_RerankRAG", "filename": base_filename.format("rag_rerank")},
+        {"title": "NoFT_DprRAG", "filename": base_filename.format("rag_dpr")},
+        {"title": "NoFT_IdealRAG", "filename": base_filename.format("rag_ideal")},
+
+        {"title": "FT_NoRAG", "filename": "all.flan-t5-base_peft_v1.af_norag_peft_results.jsonl"},
+        {"title": "FT_IdealRAG", "filename": "all.flan-t5-base_peft_v1.af_rag_ideal_peft_results.jsonl"},    
+    ]
     
-    
-    for idx, _filename in enumerate(_filenames):
-        print(f'Processing {titles[idx]}...')
-        filename = f"all.flan-t5-base.bf_{_filename}_full_results.jsonl"
+    for idx, _filename in enumerate(filenames):
+        title = _filename['title']
+        filename = _filename['filename']
+        print(f'Processing {title}...')
+        
         file_path = os.path.join(data_dir, filename)
-        data_per_relation[titles[idx]] = {}
-        data_per_relation[titles[idx]]['all'] = []
-        accuracies[titles[idx]] = {}
+        data_per_relation[title] = {}
+        data_per_relation[title]['all'] = []
+        accuracies[title] = {}
     
         with open(file_path, 'r', newline='', encoding='utf-8') as file:
             for line in file:
@@ -244,70 +256,69 @@ def icl_results():
                 
                 # Divide data per relation
                 relation_id = item['query_id'].split('_')[0]
-                if relation_id not in data_per_relation[titles[idx]]:
-                    data_per_relation[titles[idx]][relation_id] = []
+                if relation_id not in data_per_relation[title]:
+                    data_per_relation[title][relation_id] = []
                 
-                data_per_relation[titles[idx]]['all'].append(item)
-                data_per_relation[titles[idx]][relation_id].append(item)
+                data_per_relation[title]['all'].append(item)
+                data_per_relation[title][relation_id].append(item)
                 
                 # Accuracy per relation
-                for relation_id, objects in data_per_relation[titles[idx]].items():
-                    accuracy = calculated_accuracy(objects)
-                    accuracies[titles[idx]][relation_id] = {"overall": accuracy}
+                for relation_id, obj in data_per_relation[title].items():
+                    rel_accuracy = calculated_accuracy(obj)
+                    accuracies[title][relation_id] = {"overall": rel_accuracy}
     
         # Divide data per bucket
-        for relation_id, objects in data_per_relation[titles[idx]].items():
+        for relation_id, objects in data_per_relation[title].items():
             bucket_data = split_to_buckets(objects, split_points)
-            accuracies[titles[idx]][relation_id]['per_bucket'] = {}
+            accuracies[title][relation_id]['per_bucket'] = {}
             for bucket_id, bucket_objects in bucket_data.items():
                 accuracy = calculated_accuracy(bucket_objects)
-                accuracies[titles[idx]][relation_id]['per_bucket'][bucket_id] = accuracy
-            
-    print(accuracies)
+                accuracies[title][relation_id]['per_bucket'][bucket_id] = accuracy
+    
+        
+    sorted_keys = sorted(accuracies[filenames[0]['title']].keys(), reverse=True)
+    ordered_accuracies = {}
+    for filename, accuracy in accuracies.items():
+        ordered_dict = {k: accuracy[k] for k in sorted_keys}
+        ordered_accuracies[filename] = ordered_dict
+    
+    for title, accuracy in ordered_accuracies.items():
+        print(f"Title: {title}")
+        # print(accuracy)
+        for relation_id, value in accuracy.items():
+            rel_name = RELATIONS[relation_id] if relation_id != 'all' else 'all'
+            print(f"Relation ID: {relation_id}, {rel_name} -> {value}")
+            # print(value)
+        print('\n')
+    
     
     # =============================
     # === Plotting per relation ===
-    # num_bars = len(titles) # Number of bars per group
-    # ind = np.arange(len(accuracies[titles[0]])) # Position of bars on x-axis
-    # width = 0.11 # Width of a bar
-    # fig, ax = plt.subplots() # Plotting the bars
+    num_bars = len(filenames) # Number of bars per group
+    ind = np.arange(len(ordered_accuracies[filenames[0]["title"]])) # Position of bars on x-axis
+    width = 0.11 # Width of a bar
+    fig, ax = plt.subplots() # Plotting the bars
     
-    # for i in range(num_bars):
-    #     overall_scores = [value['overall'] for value in accuracies[titles[i]].values()]
-    #     ax.bar(ind + i * width, overall_scores, width, label=titles[i])
+    for i in range(num_bars):
+        overall_scores = [value['overall'] for value in ordered_accuracies[filenames[i]["title"]].values()]
+        ax.bar(ind + i * width, overall_scores, width, label=filenames[i]["title"])
     
-    # ax.set_xlabel('Relation ID')
-    # ax.set_ylabel('Accuracy')
-    # ax.set_title('Accuracy by Relation ID: FlanT5-base, -FT')
+    ax.set_xlabel('Relation ID')
+    ax.set_ylabel('Accuracy')
+    ax.set_title('Accuracy by Relation ID: FlanT5-base, +FT')
 
-    # relation_names = [RELATIONS[item] if item != 'all' else 'all' for item in list(accuracies[titles[0]].keys())]
-    # ax.set_xticks(ind + width * (num_bars - 1) / 2)
-    # ax.set_xticklabels(relation_names)
+    relation_names = [RELATIONS[item] if item != 'all' else 'all' for item in list(ordered_accuracies[filenames[0]["title"]].keys())]
+    ax.set_xticks(ind + width * (num_bars - 1) / 2)
+    ax.set_xticklabels(relation_names)
 
-    # ax.legend()
-    # plt.xticks(rotation=45)
-    # plt.show()
+    ax.legend()
+    plt.xticks(rotation=30)
+    plt.show()
     
     
     # =============================
     # === Plotting per bucket =====
-    # for title in titles:
-    #     accuracy = accuracies[title]
-    #     relation_name = [RELATIONS[item] if item != 'all' else 'all' for item in list(accuracy.keys())]
-    #     # relation_name = [RELATIONS[item] if item in RELATIONS and item != 'all' else item for item in list(accuracies.keys())]
-    #     overall_scores = [value['overall'] for value in accuracy.values()]
-    #     plt.figure(figsize=(10, 6))
-    #     plt.bar(relation_name, overall_scores, color='skyblue')
-    #     plt.xticks(rotation=90)
-    #     plt.xlabel('Relation ID')
-    #     plt.ylabel('Overall Score')
-    #     plt.title('Overall Scores by Relation ID')
-    #     plt.ylim(0, 1)  # Set y-axis limit to show scores from 0 to 1
-    #     plt.show()
-    
-    
-    # Set up the subplot figure
-    num_plots = len(accuracies[titles[0]])
+    num_plots = len(ordered_accuracies[title])
     cols = 4
     rows = (num_plots + cols - 1) // cols
 
@@ -316,14 +327,7 @@ def icl_results():
     fig.delaxes(axes[0,2])  
     fig.delaxes(axes[0,3]) 
     
-    # fig.tight_layout(pad=1.0)
-
-    # Flatten axes array for easy access
-    # axes = axes.flatten()
-
-    # Iterate over data to create a line plot for each key
-    for _title, _accuracies in accuracies.items():
-    
+    for _title, _accuracies in ordered_accuracies.items():
         for idx, (key, value) in enumerate(_accuracies.items()):
             
             if idx == 0:
@@ -334,7 +338,6 @@ def icl_results():
                 col = (idx+3) % 4
             ax = axes[row, col]
             
-            
             if 'per_bucket' in value:  # Check if 'per_bucket' exists to avoid errors
                 buckets = list(value['per_bucket'].keys())
                 scores = list(value['per_bucket'].values())
@@ -342,25 +345,15 @@ def icl_results():
                     ax.plot(buckets, scores,  label=_title)
                 else:
                     ax.plot(buckets, scores, )
-                title = RELATIONS[key] if key != 'all' else 'all'
-                ax.set_title(f"{title}")
+                rel_name = RELATIONS[key] if key != 'all' else 'all'
+                ax.set_title(f"{rel_name}")
                 ax.set_xlabel("")
                 ax.set_ylabel("Accuracy")
-                ax.set_ylim(0, 1)  # Ensure y-axis is the same for all plots
+                ax.set_ylim(0, 1)
 
-    # Hide unused subplots if any
-    # for j in range(idx + 1, len(axes)):
-    #     axes[j].axis('off')
-
-    # axes[0].legend()
     fig.legend(loc='upper right')
     plt.tight_layout()
     plt.show()
-
-    
-    
-    
-    
 
 
 if __name__ == "__main__":
