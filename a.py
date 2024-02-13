@@ -3,10 +3,10 @@ import json
 import os
 
 # Directory containing your JSON files
-directory_path = 'component0_preprocessing/generated_data/popQA_EQformat/entity'
+directory_path = 'component0_preprocessing/generated_data/popQA_EQformat/test'
 
 # Directory where you want to save the organized JSON files
-output_directory = 'component0_preprocessing/generated_data/popQA_EQformat/entity2'
+output_directory = 'component0_preprocessing/generated_data/popQA_EQformat/test2'
 
 # Ensure the output directory exists
 os.makedirs(output_directory, exist_ok=True)
