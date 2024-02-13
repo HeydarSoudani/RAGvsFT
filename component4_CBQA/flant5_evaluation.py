@@ -157,8 +157,8 @@ def load_model(args):
             device_map="auto"
         )
         # tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
-        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-large")
-        # tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
+        # tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-large")
+        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
         # tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
         
     
@@ -169,7 +169,7 @@ def load_model(args):
     return model, tokenizer
 
 def main(args):
-    pre_prefix = "af_extra"
+    pre_prefix = "bf"
     rag_part = "rag" if args.with_rag else "norag"
     peft_part = "peft" if args.with_peft else "full"
     if args.with_rag:
