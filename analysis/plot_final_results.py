@@ -237,11 +237,15 @@ def icl_results():
         # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
         # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
         # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
-        {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
+        # {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
         {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
         
-        {"title": "FT_NoRAG", "filename": "all.flan-t5-small_peft_v15.af_norag_peft_results.jsonl"},
-        {"title": "FT_IdealRAG", "filename": "all.flan-t5-small_peft_v15.af_rag_ideal_peft_results.jsonl"}
+        # {"title": "FT_NoRAG", "filename": "all.flan-t5-small_peft_v15.af_norag_peft_results.jsonl"},
+        # {"title": "FT_IdealRAG", "filename": "all.flan-t5-small_peft_v15.af_rag_ideal_peft_results.jsonl"},
+        
+        {"title": "FT_NoRAG", "filename": "all.flan-t5-small_full_v16.af_norag_full_results.jsonl"},
+        {"title": "FT_IdealRAG", "filename": "all.flan-t5-small_full_v16.af_rag_ideal_full_results.jsonl"}
+        
     ]
     
     # =======================
