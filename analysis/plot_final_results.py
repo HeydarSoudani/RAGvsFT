@@ -254,7 +254,7 @@ def icl_results():
     
     # =======================
     # === For FlanT5-base ===
-    model_name = "FlanT5-base"
+    # model_name = "FlanT5-base"
     # bf_base_filename = "all.flan-t5-base.bf_{}_full_results.jsonl"
     # filenames = [
     #     {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
@@ -271,8 +271,22 @@ def icl_results():
     
     # =======================
     # === For FlanT5-large ==
-    model_name = "FlanT5-large"
-    bf_base_filename = "all.flan-t5-base.bf_{}_full_results.jsonl"
+    # model_name = "FlanT5-large"
+    # bf_base_filename = "all.flan-t5-large.bf_{}_full_results.jsonl"
+    # filenames = [
+    #     {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
+        
+    #     # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
+    #     # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
+    #     # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
+    #     # {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
+    #     {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
+
+    #     {"title": "FT_NoRAG", "filename": "all.flan-t5-large_peft_v12.af_norag_peft_results.jsonl"},
+    #     {"title": "FT_IdealRAG", "filename": "all.flan-t5-large_peft_v12.af_rag_ideal_peft_results.jsonl"}, 
+    # ] 
+    
+    
     
     
     
@@ -393,20 +407,29 @@ def icl_results():
     
     # =====================================
     # === Only plot "all", per bucket =====
-    for method, _accuracies in ordered_accuracies.items():
+    plt.style.use('seaborn-darkgrid')
+    font = {'family': 'serif',
+        'color':  'black',
+        'weight': 'normal',
+        'size': 13,
+    }
+    palette = plt.get_cmap('Set1')
+    
+    for i, (method, _accuracies) in enumerate(ordered_accuracies.items()):
         key = 'all'
         value = _accuracies[key]
         
         if 'per_bucket' in value:  # Check if 'per_bucket' exists to avoid errors
             buckets = list(value['per_bucket'].keys())
             scores = list(value['per_bucket'].values())
-            plt.plot(buckets, scores,  label=method)
+            plt.plot(buckets, scores, label=method, marker='', color=palette(i), linewidth=2.5)
     
-    plt.title(f"Accuracy per bucket, {model_name}")
-    plt.xlabel("Popularity Buckets")
-    plt.ylabel("Accuracy")
+    plt.title(f"Accuracy per bucket, {model_name}", fontdict=font)
+    plt.xlabel("Popularity Buckets", fontdict=font)
+    plt.ylabel("Accuracy", fontdict=font)
     plt.ylim(0, 1)
-    plt.legend()
+    # plt.legend()
+    plt.legend(loc=2, ncol=2)
     plt.show()
     
     
