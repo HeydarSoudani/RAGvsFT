@@ -169,7 +169,7 @@ def load_model(args):
     return model, tokenizer
 
 def main(args):
-    pre_prefix = "af"
+    pre_prefix = "af_extra"
     rag_part = "rag" if args.with_rag else "norag"
     peft_part = "peft" if args.with_peft else "full"
     if args.with_rag:
