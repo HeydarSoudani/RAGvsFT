@@ -230,6 +230,7 @@ def icl_results():
     
     # =======================
     # === For FlanT5-small ==
+    model_name = "FlanT5-small"
     bf_base_filename = "all.flan-t5-small.bf_{}_full_results.jsonl"
     filenames = [
         {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
@@ -237,19 +238,23 @@ def icl_results():
         # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
         # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
         # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
-        # {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
+        {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
         {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
         
         # {"title": "FT_NoRAG", "filename": "all.flan-t5-small_peft_v15.af_norag_peft_results.jsonl"},
         # {"title": "FT_IdealRAG", "filename": "all.flan-t5-small_peft_v15.af_rag_ideal_peft_results.jsonl"},
         
         {"title": "FT_NoRAG", "filename": "all.flan-t5-small_full_v16.af_norag_full_results.jsonl"},
-        {"title": "FT_IdealRAG", "filename": "all.flan-t5-small_full_v16.af_rag_ideal_full_results.jsonl"}
+        {"title": "FT_DprRAG", "filename": "all.flan-t5-small_full_v16.af_rag_dpr_full_results.jsonl"},
+        {"title": "FT_IdealRAG", "filename": "all.flan-t5-small_full_v16.af_rag_ideal_full_results.jsonl"},
         
+        # {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_norag_full_results.jsonl"},
+        # {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_rag_ideal_full_results.jsonl"}
     ]
     
     # =======================
     # === For FlanT5-base ===
+    model_name = "FlanT5-base"
     # bf_base_filename = "all.flan-t5-base.bf_{}_full_results.jsonl"
     # filenames = [
     #     {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
@@ -261,8 +266,16 @@ def icl_results():
     #     {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
 
     #     {"title": "FT_NoRAG", "filename": "all.flan-t5-base_peft_v1.af_norag_peft_results.jsonl"},
-    #     {"title": "FT_IdealRAG", "filename": "all.flan-t5-base_peft_v1.af_rag_ideal_peft_results.jsonl"},    
+    #     {"title": "FT_IdealRAG", "filename": "all.flan-t5-base_peft_v1.af_rag_ideal_peft_results.jsonl"}, 
     # ]    
+    
+    # =======================
+    # === For FlanT5-large ==
+    model_name = "FlanT5-large"
+    bf_base_filename = "all.flan-t5-base.bf_{}_full_results.jsonl"
+    
+    
+    
     
     for idx, _filename in enumerate(filenames):
         title = _filename['title']
@@ -299,7 +312,6 @@ def icl_results():
                 accuracy = calculated_accuracy(bucket_objects)
                 accuracies[title][relation_id]['per_bucket'][bucket_id] = accuracy
     
-        
     sorted_keys = sorted(accuracies[filenames[0]['title']].keys(), reverse=True)
     ordered_accuracies = {}
     for filename, accuracy in accuracies.items():
@@ -318,66 +330,88 @@ def icl_results():
     
     # =============================
     # === Plotting per relation ===
-    num_bars = len(filenames) # Number of bars per group
-    ind = np.arange(len(ordered_accuracies[filenames[0]["title"]])) # Position of bars on x-axis
-    width = 0.11 # Width of a bar
-    fig, ax = plt.subplots() # Plotting the bars
+    # num_bars = len(filenames) # Number of bars per group
+    # ind = np.arange(len(ordered_accuracies[filenames[0]["title"]])) # Position of bars on x-axis
+    # width = 0.11 # Width of a bar
+    # fig, ax = plt.subplots() # Plotting the bars
     
-    for i in range(num_bars):
-        overall_scores = [value['overall'] for value in ordered_accuracies[filenames[i]["title"]].values()]
-        ax.bar(ind + i * width, overall_scores, width, label=filenames[i]["title"])
+    # for i in range(num_bars):
+    #     overall_scores = [value['overall'] for value in ordered_accuracies[filenames[i]["title"]].values()]
+    #     ax.bar(ind + i * width, overall_scores, width, label=filenames[i]["title"])
     
-    ax.set_xlabel('Relation ID')
-    ax.set_ylabel('Accuracy')
-    ax.set_title('Accuracy per Relation: FlanT5-small, +FT')
+    # ax.set_xlabel('Relation ID')
+    # ax.set_ylabel('Accuracy')
+    # ax.set_title('Accuracy per Relation: FlanT5-small, +FT')
 
-    relation_names = [RELATIONS[item] if item != 'all' else 'all' for item in list(ordered_accuracies[filenames[0]["title"]].keys())]
-    ax.set_xticks(ind + width * (num_bars - 1) / 2)
-    ax.set_xticklabels(relation_names)
+    # relation_names = [RELATIONS[item] if item != 'all' else 'all' for item in list(ordered_accuracies[filenames[0]["title"]].keys())]
+    # ax.set_xticks(ind + width * (num_bars - 1) / 2)
+    # ax.set_xticklabels(relation_names)
 
-    ax.legend()
-    plt.xticks(rotation=30)
-    plt.show()
+    # ax.legend()
+    # plt.xticks(rotation=25)
+    # plt.show()
     
     
     # =============================
     # === Plotting per bucket =====
-    num_plots = len(ordered_accuracies[title])
-    cols = 4
-    rows = (num_plots + cols - 1) // cols
+    # num_plots = len(ordered_accuracies[title])
+    # cols = 4
+    # rows = (num_plots + cols - 1) // cols
 
-    fig, axes = plt.subplots(rows, cols, figsize=(15, rows * 2))
-    fig.delaxes(axes[0,1])  
-    fig.delaxes(axes[0,2])  
-    fig.delaxes(axes[0,3]) 
+    # fig, axes = plt.subplots(rows, cols, figsize=(15, rows * 2))
+    # fig.delaxes(axes[0,1])  
+    # fig.delaxes(axes[0,2])  
+    # fig.delaxes(axes[0,3]) 
     
-    for _title, _accuracies in ordered_accuracies.items():
-        for idx, (key, value) in enumerate(_accuracies.items()):
+    # for _title, _accuracies in ordered_accuracies.items():
+    #     for idx, (key, value) in enumerate(_accuracies.items()):
             
-            if idx == 0:
-                row = 0
-                col = 0
-            else:
-                row = (idx+3) // 4
-                col = (idx+3) % 4
-            ax = axes[row, col]
+    #         if idx == 0:
+    #             row = 0
+    #             col = 0
+    #         else:
+    #             row = (idx+3) // 4
+    #             col = (idx+3) % 4
+    #         ax = axes[row, col]
             
-            if 'per_bucket' in value:  # Check if 'per_bucket' exists to avoid errors
-                buckets = list(value['per_bucket'].keys())
-                scores = list(value['per_bucket'].values())
-                if idx == 0:
-                    ax.plot(buckets, scores,  label=_title)
-                else:
-                    ax.plot(buckets, scores, )
-                rel_name = RELATIONS[key] if key != 'all' else 'all'
-                ax.set_title(f"{rel_name}")
-                ax.set_xlabel("")
-                ax.set_ylabel("Accuracy")
-                ax.set_ylim(0, 1)
+    #         if 'per_bucket' in value:  # Check if 'per_bucket' exists to avoid errors
+    #             buckets = list(value['per_bucket'].keys())
+    #             scores = list(value['per_bucket'].values())
+    #             if idx == 0:
+    #                 ax.plot(buckets, scores,  label=_title)
+    #             else:
+    #                 ax.plot(buckets, scores, )
+    #             rel_name = RELATIONS[key] if key != 'all' else 'all'
+    #             ax.set_title(f"{rel_name}")
+    #             ax.set_xlabel("")
+    #             ax.set_ylabel("Accuracy")
+    #             ax.set_ylim(0, 1)
 
-    fig.legend(loc='upper right')
-    plt.tight_layout()
+    # fig.legend(loc='upper right')
+    # plt.tight_layout()
+    # plt.show()
+    
+    # =====================================
+    # === Only plot "all", per bucket =====
+    for method, _accuracies in ordered_accuracies.items():
+        key = 'all'
+        value = _accuracies[key]
+        
+        if 'per_bucket' in value:  # Check if 'per_bucket' exists to avoid errors
+            buckets = list(value['per_bucket'].keys())
+            scores = list(value['per_bucket'].values())
+            plt.plot(buckets, scores,  label=method)
+    
+    plt.title(f"Accuracy per bucket, {model_name}")
+    plt.xlabel("Popularity Buckets")
+    plt.ylabel("Accuracy")
+    plt.ylim(0, 1)
+    plt.legend()
     plt.show()
+    
+    
+    
+    
 
 
 if __name__ == "__main__":
