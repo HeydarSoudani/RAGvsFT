@@ -220,73 +220,70 @@ def calculated_accuracy(objects):
 def icl_results():
     split_points = [2, 3, 4, 5]
     data_per_relation = {}
-    accuracies = {}
-    
+    accuracies = {}    
     data_dir = "component0_preprocessing/generated_data/popQA_EQformat/results"
     
-    _filenames = ["norag", "rag_bm25", "rag_contriever", "rag_rerank", "rag_dpr", "rag_ideal"]
-    titles = ["vanilla", "bm25", "contriever", "rerank", "dpr", 'ideal']
-    
-    
+
     # =======================
     # === For FlanT5-small ==
-    model_name = "FlanT5-small"
-    bf_base_filename = "all.flan-t5-small.bf_{}_full_results.jsonl"
-    filenames = [
-        {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
-        # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
-        # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
-        # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
-        {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
-        {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
-        
-        # {"title": "FT_NoRAG", "filename": "all.flan-t5-small_peft_v15.af_norag_peft_results.jsonl"},
-        # {"title": "FT_IdealRAG", "filename": "all.flan-t5-small_peft_v15.af_rag_ideal_peft_results.jsonl"},
-        
-        {"title": "FT_NoRAG", "filename": "all.flan-t5-small_full_v16.af_norag_full_results.jsonl"},
-        {"title": "FT_DprRAG", "filename": "all.flan-t5-small_full_v16.af_rag_dpr_full_results.jsonl"},
-        {"title": "FT_IdealRAG", "filename": "all.flan-t5-small_full_v16.af_rag_ideal_full_results.jsonl"},
-        
-        # {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_norag_full_results.jsonl"},
-        # {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_rag_ideal_full_results.jsonl"}
-    ]
-    
-    # =======================
-    # === For FlanT5-base ===
-    # model_name = "FlanT5-base"
-    # bf_base_filename = "all.flan-t5-base.bf_{}_full_results.jsonl"
+    # model_name = "FlanT5-small"
+    # bf_base_filename = "all.flan-t5-small.bf_{}_full_results.jsonl"
     # filenames = [
-    #     {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")}, 
+    #     {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
     #     # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
     #     # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
     #     # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
     #     # {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
     #     {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
-
-    #     {"title": "FT_NoRAG", "filename": "all.flan-t5-base_peft_v1.af_norag_peft_results.jsonl"},
-    #     {"title": "FT_IdealRAG", "filename": "all.flan-t5-base_peft_v1.af_rag_ideal_peft_results.jsonl"}, 
         
-    #     {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-base_peft_v20.af_extra_norag_peft_results.jsonl"},
-    #     {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-base_peft_v20.af_extra_rag_ideal_peft_results.jsonl"}
-    # ]    
+    #     # {"title": "FT_NoRAG", "filename": "all.flan-t5-small_peft_v15.af_norag_peft_results.jsonl"},
+    #     # {"title": "FT_IdealRAG", "filename": "all.flan-t5-small_peft_v15.af_rag_ideal_peft_results.jsonl"},
+        
+    #     {"title": "FT_NoRAG", "filename": "all.flan-t5-small_full_v16.af_norag_full_results.jsonl"},
+    #     # {"title": "FT_DprRAG", "filename": "all.flan-t5-small_full_v16.af_rag_dpr_full_results.jsonl"},
+    #     {"title": "FT_IdealRAG", "filename": "all.flan-t5-small_full_v16.af_rag_ideal_full_results.jsonl"},
+        
+    #     {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_norag_full_results.jsonl"},
+    #     {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_rag_ideal_full_results.jsonl"}
+    # ]
+    
+    # =======================
+    # === For FlanT5-base ===
+    model_name = "FlanT5-base"
+    bf_base_filename = "all.flan-t5-base.bf_{}_full_results.jsonl"
+    filenames = [
+        {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")}, 
+    #     # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
+    #     # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
+    #     # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
+    #     {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
+        {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
+
+        {"title": "FT_NoRAG", "filename": "all.flan-t5-base_peft_v1.af_norag_peft_results.jsonl"},
+    #     {"title": "FT_DprRAG", "filename": "all.flan-t5-base_peft_v1.af_rag_dpr_peft_results.jsonl"},
+        {"title": "FT_IdealRAG", "filename": "all.flan-t5-base_peft_v1.af_rag_ideal_peft_results.jsonl"}, 
+        
+        {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-base_peft_v20.af_extra_norag_peft_results.jsonl"},
+        {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-base_peft_v20.af_extra_rag_ideal_peft_results.jsonl"}
+    ]    
     
     # =======================
     # === For FlanT5-large ==
-    model_name = "FlanT5-large"
-    bf_base_filename = "all.flan-t5-large.bf_{}_full_results.jsonl"
-    filenames = [
-        {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
+    # model_name = "FlanT5-large"
+    # bf_base_filename = "all.flan-t5-large.bf_{}_full_results.jsonl"
+    # filenames = [
+    #     {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
         
-        # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
-        # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
-        # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
-        # {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
-        {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
+    #     # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
+    #     # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
+    #     # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
+    #     {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
+    #     {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
 
-        {"title": "FT_NoRAG", "filename": "all.flan-t5-large_peft_v12.af_norag_peft_results.jsonl"},
-        {"title": "FT_DprRAG", "filename": "all.flan-t5-large_peft_v12.af_rag_dpr_peft_results.jsonl"},
-        # {"title": "FT_IdealRAG", "filename": "all.flan-t5-large_peft_v12.af_rag_ideal_peft_results.jsonl"}, 
-    ] 
+    #     {"title": "FT_NoRAG", "filename": "all.flan-t5-large_peft_v12.af_norag_peft_results.jsonl"},
+    #     {"title": "FT_DprRAG", "filename": "all.flan-t5-large_peft_v12.af_rag_dpr_peft_results.jsonl"},
+    #     {"title": "FT_IdealRAG", "filename": "all.flan-t5-large_peft_v12.af_rag_ideal_peft_results.jsonl"}, 
+    # ] 
     
     
     for idx, _filename in enumerate(filenames):
@@ -405,7 +402,7 @@ def icl_results():
     
     # =====================================
     # === Only plot "all", per bucket =====
-    plt.style.use('seaborn-darkgrid')
+    # plt.style.use('seaborn-darkgrid')
     font = {
         'family': 'serif',
         'color':  'black',
@@ -420,17 +417,18 @@ def icl_results():
         
         if 'per_bucket' in value:  # Check if 'per_bucket' exists to avoid errors
             buckets = list(value['per_bucket'].keys())
+            buckets = [f'$10^{i}$' for i in range(2, 7)]
             scores = list(value['per_bucket'].values())
             plt.plot(buckets, scores, label=method, marker='', color=palette(i), linewidth=2.5)
     
     # plt.title(f"Accuracy per bucket, {model_name}", fontdict=font)
-    plt.xlabel("Popularity Buckets", fontdict=font)
+    plt.xlabel("Popularity (pageviews)", fontdict=font)
     plt.ylabel("Accuracy", fontdict=font)
-    plt.ylim(0, 0.8)
+    plt.ylim(0, 1.0)
     # plt.legend()
-    plt.legend(loc=2, ncol=2)
+    plt.legend(loc=2, ncol=3)
     plt.tight_layout()
-    plt.savefig(f"main_{model_name}.png", dpi=900)
+    plt.savefig(f"main_{model_name}_extra.png", dpi=1000)
     plt.show()
     
     
