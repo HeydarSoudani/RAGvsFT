@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=5:00:00
+#SBATCH --time=4:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -17,13 +17,14 @@ module load Python/3.10.4-GCCcore-11.3.0
 # pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 
 srun $HOME/RAGvsFT/component4_CBQA/flant5_evaluation.py \
-    --model_name_or_path $HOME/RAGvsFT/component4_CBQA/models/flan-t5-large_peft_v21 \
+    --model_name_or_path $HOME/RAGvsFT/component4_CBQA/models/flan-t5-base_peft_v24/checkpoint-2485 \
     --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
     --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
+    --output_file_pre_prefix "af_e5" \
     --with_peft True \
     --with_fs False \
-    --with_rag False \
-    --retrieval_method ""
+    --with_rag True \
+    --retrieval_method "ideal"
 
 # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
 # "google/flan-t5-xxl"

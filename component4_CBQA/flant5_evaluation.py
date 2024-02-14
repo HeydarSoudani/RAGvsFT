@@ -157,9 +157,9 @@ def load_model(args):
             device_map="auto"
         )
         # tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
-        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-large")
+        # tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-large")
         # tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
-        # tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
+        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
         
     
     # model.to(device)
@@ -169,13 +169,12 @@ def load_model(args):
     return model, tokenizer
 
 def main(args):
-    pre_prefix = "af_extra"
     rag_part = "rag" if args.with_rag else "norag"
     peft_part = "peft" if args.with_peft else "full"
     if args.with_rag:
-        file_prefix = f"{pre_prefix}_{rag_part}_{args.retrieval_method}_{peft_part}"
+        file_prefix = f"{args.output_file_pre_prefix}_{rag_part}_{args.retrieval_method}_{peft_part}"
     else:
-        file_prefix = f"{pre_prefix}_{rag_part}_{peft_part}"
+        file_prefix = f"{args.output_file_pre_prefix}_{rag_part}_{peft_part}"
     
     logging.info(f"""
         Model: {args.model_name_or_path}
@@ -196,7 +195,7 @@ def main(args):
     # == Create results dir ==================================
     out_results_dir = f"{args.output_result_dir}/results"
     os.makedirs(out_results_dir, exist_ok=True)
-    model_name = args.model_name_or_path.split('/')[-1]
+    model_name = args.model_name_or_path.split('/')[-2]
     str_rels = "all" if target_relation_ids == "all" else '_'.join(test_relation_ids)
     out_results_path = f"{out_results_dir}/{str_rels}.{model_name}.{file_prefix}_results.jsonl"
     
@@ -217,8 +216,8 @@ def main(args):
     
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
-            if idx == 100:
-                break
+            # if idx == 100:
+            #     break
             
             few_shot_examples_text = ""
             if args.with_fs:
@@ -312,8 +311,7 @@ def main(args):
         acc = sum(accuracy) / len(accuracy)
         logging.info(f"Accuracy: {acc * 100:.2f}%")
         print(f"Accuracy: {acc * 100:.2f}%")
-            
-
+    
 if __name__ == "__main__":
     
     def str2bool(v):
@@ -330,6 +328,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_name_or_path", type=str, required=True)
     parser.add_argument("--data_dir", type=str)
     parser.add_argument("--output_result_dir", type=str)
+    parser.add_argument("--output_file_pre_prefix", type=str)
     parser.add_argument("--with_peft", type=str2bool, default=False)
     parser.add_argument("--with_fs", type=str2bool, default=False)
     parser.add_argument("--with_rag", type=str2bool, default=False)

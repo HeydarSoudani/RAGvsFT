@@ -253,8 +253,8 @@ def load_training_args(args):
     
     training_arguments = Seq2SeqTrainingArguments(
         output_dir=save_model_dir,
-        per_device_train_batch_size=128,
-        per_device_eval_batch_size=128,
+        per_device_train_batch_size=32,
+        per_device_eval_batch_size=32,
         predict_with_generate=True,
         num_train_epochs=args.epochs,
         learning_rate=args.lr, # 5e-5
@@ -263,7 +263,7 @@ def load_training_args(args):
         evaluation_strategy="epoch",
         logging_strategy="epoch",
         save_strategy="epoch",
-        save_total_limit=1,
+        save_total_limit=5,
         # load_best_model_at_end=True,
         # metric_for_best_model="overall_f1",
         # push to hub parameters
