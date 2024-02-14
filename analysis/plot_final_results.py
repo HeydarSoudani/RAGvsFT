@@ -226,26 +226,26 @@ def icl_results():
 
     # =======================
     # === For FlanT5-small ==
-    model_name = "FlanT5-small"
-    bf_base_filename = "all.flan-t5-small.bf_{}_full_results.jsonl"
-    filenames = [
-        {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
-        # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
-        # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
-        # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
-        # {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
-        {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
+    # model_name = "FlanT5-small"
+    # bf_base_filename = "all.flan-t5-small.bf_{}_full_results.jsonl"
+    # filenames = [
+    #     {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
+    #     # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
+    #     # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
+    #     # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
+    #     # {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
+    #     {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
         
-        # {"title": "FT_NoRAG", "filename": "all.flan-t5-small_peft_v15.af_norag_peft_results.jsonl"},
-        # {"title": "FT_IdealRAG", "filename": "all.flan-t5-small_peft_v15.af_rag_ideal_peft_results.jsonl"},
+    #     # {"title": "FT_NoRAG", "filename": "all.flan-t5-small_peft_v15.af_norag_peft_results.jsonl"},
+    #     # {"title": "FT_IdealRAG", "filename": "all.flan-t5-small_peft_v15.af_rag_ideal_peft_results.jsonl"},
         
-        {"title": "FT_NoRAG", "filename": "all.flan-t5-small_full_v16.af_norag_full_results.jsonl"},
-        # {"title": "FT_DprRAG", "filename": "all.flan-t5-small_full_v16.af_rag_dpr_full_results.jsonl"},
-        {"title": "FT_IdealRAG", "filename": "all.flan-t5-small_full_v16.af_rag_ideal_full_results.jsonl"},
+    #     {"title": "FT_NoRAG", "filename": "all.flan-t5-small_full_v16.af_norag_full_results.jsonl"},
+    #     # {"title": "FT_DprRAG", "filename": "all.flan-t5-small_full_v16.af_rag_dpr_full_results.jsonl"},
+    #     {"title": "FT_IdealRAG", "filename": "all.flan-t5-small_full_v16.af_rag_ideal_full_results.jsonl"},
         
-        {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_norag_full_results.jsonl"},
-        {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_rag_ideal_full_results.jsonl"}
-    ]
+    #     {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_norag_full_results.jsonl"},
+    #     {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_rag_ideal_full_results.jsonl"}
+    # ]
     
     # =======================
     # === For FlanT5-base ===
@@ -270,22 +270,22 @@ def icl_results():
     # =======================
     # === For FlanT5-large ==
     model_name = "FlanT5-large"
-    bf_base_filename = "all.flan-t5-large.bf_{}_full_results.jsonl"
+    bf_base_filename = "archive/all.flan-t5-large.bf_{}_full_results.jsonl"
     filenames = [
         {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
         
         # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
         # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
         # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
-        {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
+        # {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
         {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
 
-        {"title": "FT_NoRAG", "filename": "all.flan-t5-large_peft_v12.af_norag_peft_results.jsonl"},
-        {"title": "FT_DprRAG", "filename": "all.flan-t5-large_peft_v12.af_rag_dpr_peft_results.jsonl"},
-        {"title": "FT_IdealRAG", "filename": "all.flan-t5-large_peft_v12.af_rag_ideal_peft_results.jsonl"}, 
+        {"title": "FT_NoRAG", "filename": "archive/all.flan-t5-large_peft_v12.af_norag_peft_results.jsonl"},
+        # {"title": "FT_DprRAG", "filename": "archive/all.flan-t5-large_peft_v12.af_rag_dpr_peft_results.jsonl"},
+        {"title": "FT_IdealRAG", "filename": "archive/all.flan-t5-large_peft_v12.af_rag_ideal_peft_results.jsonl"}, 
         
-        {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_norag_full_results.jsonl"},
-        {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_rag_ideal_full_results.jsonl"}
+        {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_norag_peft_results.jsonl"},
+        {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_rag_ideal_peft_results.jsonl"}
     ] 
     
     print(f"Model: {model_name}")
@@ -294,7 +294,7 @@ def icl_results():
         filename = _filename['filename']
         print(f'Processing {title}...')
         
-        file_path = os.path.join(data_dir, filename)
+        file_path = f"{data_dir}/{filename}"
         data_per_relation[title] = {}
         data_per_relation[title]['all'] = []
         accuracies[title] = {}
