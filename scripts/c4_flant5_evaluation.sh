@@ -17,14 +17,14 @@ module load Python/3.10.4-GCCcore-11.3.0
 # pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 
 srun $HOME/RAGvsFT/component4_CBQA/flant5_evaluation.py \
-    --model_name_or_path $HOME/RAGvsFT/component4_CBQA/models/flan-t5-small_peft_v22/checkpoint-2485 \
+    --model_name_or_path $HOME/RAGvsFT/component4_CBQA/models/flan-t5-large_peft_v26/checkpoint-1491 \
     --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
     --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
-    --output_file_pre_prefix "af_e5" \
+    --output_file_pre_prefix "af_e3" \
     --with_peft True \
     --with_fs False \
-    --with_rag True \
-    --retrieval_method "ideal"
+    --with_rag False \
+    --retrieval_method ""
 
 # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
 # "google/flan-t5-xxl"
