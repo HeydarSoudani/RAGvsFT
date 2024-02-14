@@ -17,7 +17,7 @@ module load Python/3.10.4-GCCcore-11.3.0
 # pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 
 srun $HOME/RAGvsFT/component4_CBQA/flant5_evaluation.py \
-    --model_name_or_path $HOME/RAGvsFT/component4_CBQA/models/flan-t5-base_peft_v24/checkpoint-2485 \
+    --model_name_or_path $HOME/RAGvsFT/component4_CBQA/models/flan-t5-small_peft_v22/checkpoint-2485 \
     --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
     --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
     --output_file_pre_prefix "af_e5" \
