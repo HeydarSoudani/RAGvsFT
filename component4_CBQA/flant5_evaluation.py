@@ -169,7 +169,7 @@ def load_model(args):
     return model, tokenizer
 
 def main(args):
-    pre_prefix = "af"
+    pre_prefix = "af_extra"
     rag_part = "rag" if args.with_rag else "norag"
     peft_part = "peft" if args.with_peft else "full"
     if args.with_rag:
@@ -217,8 +217,8 @@ def main(args):
     
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
-            # if idx == 10:
-            #     break
+            if idx == 100:
+                break
             
             few_shot_examples_text = ""
             if args.with_fs:

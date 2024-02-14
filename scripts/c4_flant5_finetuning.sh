@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=10:00:00
+#SBATCH --time=12:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -19,7 +19,7 @@ module load Python/3.10.4-GCCcore-11.3.0
 # pip install rouge_score
 
 srun $HOME/RAGvsFT/component4_CBQA/flant5_finetuning.py \
-    --model_name_or_path "google/flan-t5-base" \
+    --model_name_or_path "google/flan-t5-large" \
     --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
     --generation_method "prompting" \
     --output_model_dir $HOME/RAGvsFT/component4_CBQA/models \
@@ -27,7 +27,7 @@ srun $HOME/RAGvsFT/component4_CBQA/flant5_finetuning.py \
     --epochs 10 \
     --lr 0.0002 \
     --with_peft True \
-    --version 20
+    --version 21
 
 
 # For TQA: $HOME/RAGvsFT/data/dataset/TQA
