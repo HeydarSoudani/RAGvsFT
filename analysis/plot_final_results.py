@@ -261,14 +261,14 @@ def icl_results():
         # {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
         # {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
 
-        {"title": "FT_NoRAG_3e", "filename": "all.flan-t5-small_peft_v22.af_e3_norag_peft_results.jsonl"},    
+        {"title": "FT_NoRAG_3e", "filename": "all.flan-t5-base_full_v25.af_e3_norag_full_results.jsonl"},    
         # {"title": "FT_IdealRAG_3e", "filename": "all.checkpoint-1491.af_e3_rag_ideal_peft_results.jsonl"},
         
-        {"title": "FT_NoRAG_5e", "filename": "all.flan-t5-small_peft_v22.af_e5_norag_peft_results.jsonl"},    
+        {"title": "FT_NoRAG_5e", "filename": "all.flan-t5-base_full_v25.af_e5_norag_full_results.jsonl"},    
         # {"title": "FT_IdealRAG_5e", "filename": "all.checkpoint-2485.af_e5_rag_ideal_peft_results.jsonl"},  
         
         
-        {"title": "FT_NoRAG_10e", "filename": "archive/all.flan-t5-base_peft_v1.af_norag_peft_results.jsonl"},
+        {"title": "FT_NoRAG_10e", "filename": "archive/all.flan-t5-base_full_v2.af_norag_full_results.jsonl"},
         # {"title": "FT_DprRAG", "filename": "archive/all.flan-t5-base_peft_v1.af_rag_dpr_peft_results.jsonl"},
         # {"title": "FT_IdealRAG_10e", "filename": "archive/all.flan-t5-base_peft_v1.af_rag_ideal_peft_results.jsonl"}, 
         
@@ -429,24 +429,22 @@ def icl_results():
     }
     palette = plt.get_cmap('Set2')
     
-    data = [
-        {'b1': 0.18513223731236597, 'b2': 0.06127027959958578, 'b3': 0.03477443609022556, 'b4': 0.052348993288590606, 'b5': 0.137221269296741},
-        {'b1': 0.19513223731236597, 'b2': 0.07127027959958578, 'b3': 0.04477443609022556, 'b4': 0.062348993288590606, 'b5': 0.187221269296741},
-        {'b1': 0.20513223731236597, 'b2': 0.07827027959958578, 'b3': 0.05077443609022556, 'b4': 0.072348993288590606, 'b5': 0.237221269296741},
-        {'b1': 0.22301644031451037, 'b2': 0.08629616845012081, 'b3': 0.05474624060150376, 'b4': 0.08411633109619687, 'b5': 0.31217838765008576}
-    ]
+    # data = [
+    #     {'b1': 0.18513223731236597, 'b2': 0.06127027959958578, 'b3': 0.03477443609022556, 'b4': 0.052348993288590606, 'b5': 0.137221269296741},
+    #     {'b1': 0.19513223731236597, 'b2': 0.07127027959958578, 'b3': 0.04477443609022556, 'b4': 0.062348993288590606, 'b5': 0.187221269296741},
+    #     {'b1': 0.20513223731236597, 'b2': 0.07827027959958578, 'b3': 0.05077443609022556, 'b4': 0.072348993288590606, 'b5': 0.237221269296741},
+    #     {'b1': 0.22301644031451037, 'b2': 0.08629616845012081, 'b3': 0.05474624060150376, 'b4': 0.08411633109619687, 'b5': 0.31217838765008576}
+    # ]
     for i, (method, _accuracies) in enumerate(ordered_accuracies.items()):
         key = 'all'
-        # value = _accuracies[key]
+        value = _accuracies[key]
         
-        # if 'per_bucket' in value:  # Check if 'per_bucket' exists to avoid errors
+        if 'per_bucket' in value:
             # buckets = list(value['per_bucket'].keys())
-        buckets = [f'$10^{i}$' for i in range(2, 7)]
-        # scores = list(value['per_bucket'].values())
-        scores = data[i].values()
+            buckets = [f'$10^{i}$' for i in range(2, 7)]
+            scores = list(value['per_bucket'].values())
             
-            
-        plt.plot(buckets, scores, label=method, marker='', color=palette(i), linewidth=2.5)
+            plt.plot(buckets, scores, label=method, marker='', color=palette(i), linewidth=2.5)
     
     plt.title(f"{model_name}", fontdict=title_font)
     plt.xlabel("Popularity (pageviews)", fontdict=font)

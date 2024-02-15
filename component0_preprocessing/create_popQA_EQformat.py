@@ -16,6 +16,7 @@ from lmqg import TransformersQG
 from lmqg.exceptions import AnswerNotFoundError, ExceedMaxLengthError
 from nltk.tokenize import sent_tokenize
 from datasets import load_dataset
+import numpy as np
 
 import nltk
 nltk.download('punkt')
@@ -638,20 +639,20 @@ def plot_bucket_num():
     split_points = [2, 3, 4, 5] # Good for popqa_pageviews
     # split_points = [3, 4, 5, 6] # Good for my pageviews
     
-    if dataset_name == 'popqa':
-        fig, axes = plt.subplots(nrows=5, ncols=4, figsize=(12, 8))
-        fig.delaxes(axes[0,1])  # Remove the first subplot (top-left)
-        fig.delaxes(axes[0,2])  # Remove the third subplot (top-right)
-        fig.delaxes(axes[0,3])  # Remove the third subplot (top-right)
-        # fig.delaxes(axes[0,4])  # Remove the third subplot (top-right)
+    # if dataset_name == 'popqa':
+    #     fig, axes = plt.subplots(nrows=5, ncols=4, figsize=(12, 8))
+    #     fig.delaxes(axes[0,1])  # Remove the first subplot (top-left)
+    #     fig.delaxes(axes[0,2])  # Remove the third subplot (top-right)
+    #     fig.delaxes(axes[0,3])  # Remove the third subplot (top-right)
+    #     # fig.delaxes(axes[0,4])  # Remove the third subplot (top-right)
     
-    if dataset_name == 'eq':
-        fig, axes = plt.subplots(nrows=6, ncols=5, figsize=(12, 8))
-        fig.delaxes(axes[0,1])  # Remove the first subplot (top-left)
-        fig.delaxes(axes[0,2])  # Remove the third subplot (top-right)
-        fig.delaxes(axes[0,3])  # Remove the third subplot (top-right)
-        fig.delaxes(axes[0,4])  # Remove the third subplot (top-right)
-        # fig.delaxes(axes[0,5])  # Remove the third subplot (top-right)
+    # if dataset_name == 'eq':
+    #     fig, axes = plt.subplots(nrows=6, ncols=5, figsize=(12, 8))
+    #     fig.delaxes(axes[0,1])  # Remove the first subplot (top-left)
+    #     fig.delaxes(axes[0,2])  # Remove the third subplot (top-right)
+    #     fig.delaxes(axes[0,3])  # Remove the third subplot (top-right)
+    #     fig.delaxes(axes[0,4])  # Remove the third subplot (top-right)
+    #     # fig.delaxes(axes[0,5])  # Remove the third subplot (top-right)
     
     
     all_queries = []
@@ -661,13 +662,13 @@ def plot_bucket_num():
             logging.info(f"Processing relation {relation_id}, {RELATIONS[relation_id]} ...")
             print(f"Processing relation {relation_id}, {RELATIONS[relation_id]} ...")
             
-            if dataset_name == 'popqa':
-                row = (idx // 4) + 1
-                col = idx % 4
-            if dataset_name == 'eq':
-                row = (idx // 5) + 1
-                col = idx % 5
-            ax = axes[row, col]
+            # if dataset_name == 'popqa':
+            #     row = (idx // 4) + 1
+            #     col = idx % 4
+            # if dataset_name == 'eq':
+            #     row = (idx // 5) + 1
+            #     col = idx % 5
+            # ax = axes[row, col]
                         
             query_file_path = os.path.join(test_dir, filename)
             with open(query_file_path, 'r') as qf:
@@ -676,24 +677,60 @@ def plot_bucket_num():
             
             bk_data = split_to_buckets(q_rel_data, split_points)
             counts = [len(bk) for bk in bk_data.values()]
-            ax.bar(["b1", "b2", "b3", "b4", "b5"], counts)
-            ax.set_title(RELATIONS[relation_id])
+            # ax.bar(["b1", "b2", "b3", "b4", "b5"], counts)
+            # ax.set_title(RELATIONS[relation_id])
     
-    row = 0
-    col = 0
-    ax = axes[row, col]
+    # row = 0
+    # col = 0
+    # ax = axes[row, col]
+    # bk_data = split_to_buckets(all_queries, split_points)
+    # counts = [len(bk) for bk in bk_data.values()]
+    # ax.bar(["b1", "b2", "b3", "b4", "b5"], counts)
+    # ax.set_title('all')   
+    
+    # plt.tight_layout()
+    # plt.show()
+    
+    
+    # For only plotting the all queries
+    font = {
+        # 'family': 'serif',
+        'color':  'black',
+        'weight': 'normal',
+        'size': 13,
+    }
+    
     bk_data = split_to_buckets(all_queries, split_points)
     counts = [len(bk) for bk in bk_data.values()]
-    ax.bar(["b1", "b2", "b3", "b4", "b5"], counts)
-    ax.set_title('all')   
+    buckets = ["b1", "b2", "b3", "b4", "b5"]
+    buckets = [f'$10^{i}$' for i in range(2, 7)]
     
+    color_left = [0.69, 0.769, 0.871]  # lightsteelblue in RGB
+    color_right = [0.255, 0.412, 0.882]  # royalblue in RGB
+    interpolation_values = np.linspace(0, 1, len(buckets))
+    # colors = [(color_left, color_right, value) for value in interpolation_values]
+    
+    for i, (bucket, value) in enumerate(zip(buckets, counts)):
+        
+        color = (1 - interpolation_values[i]) * np.array(color_left) + \
+            interpolation_values[i] * np.array(color_right)
+        
+        plt.bar(bucket, value, color=color)
+    # plt.bar(buckets, counts, color=colors)
+    plt.xlabel("Popularity (pageviews)", fontdict=font)
+    plt.ylabel("# Samples", fontdict=font)
+    
+    plt.yticks(rotation=45)
     plt.tight_layout()
+    plt.savefig(f"pop_bk", dpi=1000)
+    
     plt.show()
+    
             
 
 def main(args):
     ### ==== Creating test & entity files =================
-    create_test_and_entity_files()
+    # create_test_and_entity_files()
 
     ### ==== Creating corpus & qrels files ================
     # create_corpus_and_qrels_files_via_api()
@@ -705,8 +742,8 @@ def main(args):
     # Done: 106, 22, 182, 292, 472, 218, 257, 560, 164, 639, 91, 97, 526
     # Doing: 533, 484, 422
     # To Do: 
-    relation_id = "422"
-    create_train_and_dev_files(args, relation_id=relation_id)
+    # relation_id = "422"
+    # create_train_and_dev_files(args, relation_id=relation_id)
     
     ### ==== Plotting the distribution of the number of queries in each bucket
     plot_bucket_num()
@@ -714,8 +751,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--qg_model", type=str, required=True)
-    parser.add_argument("--ae_model", type=str, required=True)
+    # parser.add_argument("--qg_model", type=str, required=True)
+    # parser.add_argument("--ae_model", type=str, required=True)
     
     args = parser.parse_args()
     main(args)
