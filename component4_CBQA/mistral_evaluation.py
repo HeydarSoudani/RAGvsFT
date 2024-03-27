@@ -142,7 +142,9 @@ def load_model(args):
             torch_dtype=torch.float16,
             device_map={"":0} # Load the entire model on the GPU 0
         )
-        tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
+        tokenizer = AutoTokenizer.from_pretrained(
+            "mistralai/Mistral-7B-Instruct-v0.1"
+        )
         
     model.eval()
     logging.info("Model and tokenizer are loaded")
