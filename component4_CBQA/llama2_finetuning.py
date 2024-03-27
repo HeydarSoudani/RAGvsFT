@@ -175,67 +175,92 @@ def load_dataset_qa(tokenizer, test_files):
         val_questions = [item['Question'] for item in subset_dev_data]
         val_answers = [item['Answer']['NormalizedAliases'] for item in subset_dev_data]
 
+
+    train_data = [
+        """
+        <s>[INST] <<SYS>>
+        Answer the question: 
+        <</SYS>>
+
+        {} [/INST] {} </s>          
+        """.format(question, train_answers[i])
+        for i, question in enumerate(train_questions) if len(question) == 0
+    ]
+    
+    val_data = [
+        """
+        <s>[INST] <<SYS>>
+        Answer the question: 
+        <</SYS>>
+
+        {} [/INST] {} </s>          
+        """.format(question, val_answers[i])
+        for i, question in enumerate(val_questions) if len(question) == 0
+    ]
+
     raw_dataset = DatasetDict({
         'train': Dataset.from_dict({
-            "question": train_questions,
-            "possible_answers": train_answers
+            "text": train_data
         }),
         'dev': Dataset.from_dict({
-            "question": val_questions,
-            "possible_answers": val_answers
+            "text": val_data
         })
     })
     print(raw_dataset)
-    
-    # === Get max length =====
-    tokenized_inputs = concatenate_datasets([raw_dataset['train'], raw_dataset['dev']]).map(
-    lambda x: tokenizer(x["question"], truncation=True), batched=True, remove_columns=["question", "possible_answers"]
-    )
-    max_source_length = max([len(x) for x in tokenized_inputs["input_ids"]])
-    print(f"Max source length: {max_source_length}")
+    return raw_dataset
 
-    tokenized_targets = concatenate_datasets([raw_dataset["train"], raw_dataset["dev"]]).map(
-        lambda x: tokenizer(x["possible_answers"][0], truncation=True), batched=True, remove_columns=["question", "possible_answers"])
-    max_target_length = max([len(x) for x in tokenized_targets["input_ids"]])
-    print(f"Max target length: {max_target_length}")
     
-    def tokenize_function(examples):        
-        inputs = [prompt_prefix + item for item in examples['question']]
-        model_inputs = tokenizer(
-            inputs,
-            max_length=max_source_length,
-            truncation=True
-        )
-        labels = tokenizer(
-            text_target=[pa[0] for pa in examples["possible_answers"]],
-            max_length=max_target_length,
-            truncation=True
-        )
-        model_inputs["labels"] = labels["input_ids"]
+    
+    
+    
+    # # === Get max length =====
+    # tokenized_inputs = concatenate_datasets([raw_dataset['train'], raw_dataset['dev']]).map(
+    # lambda x: tokenizer(x["question"], truncation=True), batched=True, remove_columns=["question", "possible_answers"]
+    # )
+    # max_source_length = max([len(x) for x in tokenized_inputs["input_ids"]])
+    # print(f"Max source length: {max_source_length}")
+
+    # tokenized_targets = concatenate_datasets([raw_dataset["train"], raw_dataset["dev"]]).map(
+    #     lambda x: tokenizer(x["possible_answers"][0], truncation=True), batched=True, remove_columns=["question", "possible_answers"])
+    # max_target_length = max([len(x) for x in tokenized_targets["input_ids"]])
+    # print(f"Max target length: {max_target_length}")
+    
+    # def tokenize_function(examples):        
+    #     inputs = [prompt_prefix + item for item in examples['question']]
+    #     model_inputs = tokenizer(
+    #         inputs,
+    #         max_length=max_source_length,
+    #         truncation=True
+    #     )
+    #     labels = tokenizer(
+    #         text_target=[pa[0] for pa in examples["possible_answers"]],
+    #         max_length=max_target_length,
+    #         truncation=True
+    #     )
+    #     model_inputs["labels"] = labels["input_ids"]
         
-        return model_inputs
+    #     return model_inputs
     
-    tokenized_train_datasets = raw_dataset.map(
-        tokenize_function,
-        batched=True,
-        remove_columns=["question", "possible_answers"],
-        desc="Running tokenizer on dataset",
-    )
-    print(tokenized_train_datasets)
+    # tokenized_train_datasets = raw_dataset.map(
+    #     tokenize_function,
+    #     batched=True,
+    #     remove_columns=["question", "possible_answers"],
+    #     desc="Running tokenizer on dataset",
+    # )
+    # print(tokenized_train_datasets)
     
-    # === Print a sample of dataset
-    input_text = tokenizer.decode(
-        tokenized_train_datasets['train'][0]["input_ids"],
-        skip_special_tokens=True
-    )
-    label_text = tokenizer.decode(
-        tokenized_train_datasets['train'][0]["labels"],
-        skip_special_tokens=True
-    )
-    print(input_text)
-    print(label_text)
-    
-    return tokenized_train_datasets
+    # # === Print a sample of dataset
+    # input_text = tokenizer.decode(
+    #     tokenized_train_datasets['train'][0]["input_ids"],
+    #     skip_special_tokens=True
+    # )
+    # label_text = tokenizer.decode(
+    #     tokenized_train_datasets['train'][0]["labels"],
+    #     skip_special_tokens=True
+    # )
+    # print(input_text)
+    # print(label_text)
+    # return tokenized_train_datasets
 
 def load_training_args(args):
     save_model_dir = os.path.join(args.output_model_dir, args.repo_name.split('/')[-1])

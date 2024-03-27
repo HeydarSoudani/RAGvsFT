@@ -26,7 +26,7 @@ srun $HOME/RAGvsFT/component4_CBQA/llama2_finetuning.py \
     --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
     --epochs 5 \
     --lr 0.0002 \
-    --with_peft False \
+    --with_peft True \
     --version 27
 
 
