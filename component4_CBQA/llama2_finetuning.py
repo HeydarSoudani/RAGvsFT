@@ -295,7 +295,6 @@ def load_training_args(args):
     return training_arguments
 
 
-
 def main(args):
     logging.info(f"""
         Model: {args.model_name_or_path}

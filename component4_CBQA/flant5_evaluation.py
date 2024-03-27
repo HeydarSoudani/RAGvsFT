@@ -48,7 +48,6 @@ def set_seed(seed):
 
 truncate_text_tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
 def truncate_text(text, max_tokens):
-    
     tokens = truncate_text_tokenizer.tokenize(text)
     if len(tokens) > max_tokens:
         tokens = tokens[:max_tokens]
