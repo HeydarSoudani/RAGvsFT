@@ -230,8 +230,23 @@ def main(args):
                 [/INST]
                 """
 
+
             result = pipe(prompt)
-            print(result[0]['generated_text'])
+            pred = result[0]['generated_text']
+            
+            is_correct = False
+            for pa in test_answers[idx]:
+                    if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
+                        is_correct = True
+            accuracy.append(is_correct)
+            
+                
+            print('\n')
+            print(f"Query: {query}")
+            print(f"Pred: {pred}")
+            print(f"Labels: {test_answers[idx]}")
+            print(f"Final decision: {is_correct}")
+            print('====')
 
 
 if __name__ == "__main__":
