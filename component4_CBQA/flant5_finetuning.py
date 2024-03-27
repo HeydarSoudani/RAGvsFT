@@ -253,8 +253,8 @@ def load_training_args(args):
     
     training_arguments = Seq2SeqTrainingArguments(
         output_dir=save_model_dir,
-        per_device_train_batch_size=32,
-        per_device_eval_batch_size=32,
+        per_device_train_batch_size=16,
+        per_device_eval_batch_size=16,
         predict_with_generate=True,
         num_train_epochs=args.epochs,
         learning_rate=args.lr, # 5e-5

@@ -211,8 +211,6 @@ def load_dataset_qa(tokenizer, test_files):
 
     
     
-    
-    
     # # === Get max length =====
     # tokenized_inputs = concatenate_datasets([raw_dataset['train'], raw_dataset['dev']]).map(
     # lambda x: tokenizer(x["question"], truncation=True), batched=True, remove_columns=["question", "possible_answers"]
