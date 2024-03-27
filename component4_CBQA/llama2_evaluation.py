@@ -232,7 +232,7 @@ def main(args):
 
 
             result = pipe(prompt)
-            pred = result[0]['generated_text']
+            pred = result[0]['generated_text'].split("[/INST]")[1].strip()
             
             is_correct = False
             for pa in test_answers[idx]:
