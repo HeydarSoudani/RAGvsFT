@@ -121,34 +121,34 @@ def load_model(args):
             low_cpu_mem_usage=True,
             return_dict=True,
             torch_dtype=torch.float16,
-            device_map={"":0} # Load the entire model on the GPU 0
+            device_map={"": 0},
         )
-        model = PeftModel.from_pretrained(base_model, args.model_name_or_path)
-        model = model.merge_and_unload()
-        
+        model= PeftModel.from_pretrained(base_model, args.model_name_or_path)
+        model= model.merge_and_unload()
         
         tokenizer = AutoTokenizer.from_pretrained(
             config.base_model_name_or_path,
             trust_remote_code=True
         )
-        tokenizer.add_special_tokens({'pad_token': '[PAD]'})
-        tokenizer.pad_token = tokenizer.eos_token
-        tokenizer.padding_side = "right"
+        # tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+        # tokenizer.pad_token = tokenizer.eos_token
+        # tokenizer.padding_side = "right"
         
     else:
         model = AutoModelForCausalLM.from_pretrained(
-            "meta-llama/Llama-2-7b-chat-hf",
+            "mistralai/Mistral-7B-Instruct-v0.1",
             low_cpu_mem_usage=True,
             return_dict=True,
             torch_dtype=torch.float16,
             device_map={"":0} # Load the entire model on the GPU 0
         )
-        tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-2-7b-chat-hf")
+        tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.1")
         
     model.eval()
     logging.info("Model and tokenizer are loaded")
     
     return model, tokenizer
+
 
 
 def main(args):
@@ -169,7 +169,8 @@ def main(args):
         """
     )
     set_seed(42)
-    
+
+
     logging.info("Inferencing ...")
     model, tokenizer = load_model(args)
     test_relation_ids, test_files, relation_files = load_relations_data(args)
@@ -196,13 +197,12 @@ def main(args):
     num_samples_per_relation = 1
     
     accuracy = []
-    max_new_tokens = 570 if args.with_rag else 80
-    pipe = pipeline(task="text-generation", model=model, tokenizer=tokenizer, max_length=max_new_tokens)
+    max_new_tokens = 15
     
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
-            # if idx == 10:
-            #     break
+            if idx == 10:
+                break
             
             retrieved_text = ""
             if args.with_rag:
@@ -217,55 +217,47 @@ def main(args):
                     print('\n')
                     print("No retrieved text found for query: {}".format(query))
             
-                prompt = f""" <s>[INST] 
+                prompt = f"""<s> 
                 context: {retrieved_text}
                 Based on the provided context, answer the question: {query}
-                [/INST]
+                [INST]
                 """
             else:
-                prompt = f""" <s>[INST] 
-                Answer the question: {query}
-                [/INST]
+                prompt = f"""<s> 
+                answer the question: {query}
+                [INST]
                 """
 
-            result = pipe(prompt)
-            pred = result[0]['generated_text'].split("[/INST]")[1].strip()
-            
-            is_correct = False
-            for pa in test_answers[idx]:
+            inpts = tokenizer(prompt, return_tensors="pt").to(device)
+            with torch.no_grad():
+                gen = model.generate(
+                    **inpts,
+                    max_new_tokens=max_new_tokens,
+                    do_sample=True,
+                    top_p=0.9,
+                    temperature=0.5
+                )
+                pred = tokenizer.decode(
+                    gen[0],
+                    skip_special_tokens=True,
+                    clean_up_tokenization_spaces=True,
+                )
+                
+                is_correct = False
+                for pa in test_answers[idx]:
                     if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
                         is_correct = True
-            accuracy.append(is_correct)
-            
-            if idx % 300 == 0:
-                logging.info('\n')
-                logging.info(f"Prompt: {prompt}")
-                logging.info(f"Query: {query}")
-                logging.info(f"Pred: {pred}")
-                logging.info(f"Labels: {test_answers[idx]}")
-                logging.info(f"Final decision: {is_correct}")
-                logging.info('====')
-                # print('\n')
-                # print(f"Query: {query}")
-                # print(f"Pred: {pred}")
-                # print(f"Labels: {test_answers[idx]}")
-                # print(f"Final decision: {is_correct}")
-                # print('====')
-            
-            item = {
-                "query_id": query_id,
-                "question": query,
-                "possible_answers": test_answers[idx],
-                "pred": pred,
-                "is_correct": is_correct,
-                "pageviews": query_pv
-            }
-            file.write(json.dumps(item) + '\n')
-    acc = sum(accuracy) / len(accuracy)
-    logging.info(f"Accuracy: {acc * 100:.2f}%")
-    print(f"Accuracy: {acc * 100:.2f}%")
-
-
+                accuracy.append(is_correct)
+                
+                # if idx % 300 == 0:
+                print('\n')
+                print(f"Query: {query}")
+                print(f"Pred: {pred}")
+                print(f"Labels: {test_answers[idx]}")
+                print(f"Final decision: {is_correct}")
+                print('====')
+     
+                
 if __name__ == "__main__":
     
     def str2bool(v):
