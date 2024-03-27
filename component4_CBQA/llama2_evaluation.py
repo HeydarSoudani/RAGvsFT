@@ -200,7 +200,9 @@ def main(args):
     max_new_tokens=15
     accuracy = []
     
-    pipe = pipeline(task="text-generation", model=model, tokenizer=tokenizer, max_length=80)
+    max_new_tokens = 570 if args.with_rag else 80
+    pipe = pipeline(task="text-generation", model=model, tokenizer=tokenizer, max_length=max_new_tokens)
+    
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             if idx == 10:
