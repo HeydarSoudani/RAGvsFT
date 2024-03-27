@@ -28,7 +28,6 @@ target_relation_ids = 'all'
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
 
-
 def set_seed(seed):
     torch.manual_seed(seed)
     if torch.cuda.is_available():
@@ -231,7 +230,6 @@ def main(args):
                 Answer the question: {query}
                 [/INST]
                 """
-
 
             result = pipe(prompt)
             pred = result[0]['generated_text'].split("[/INST]")[1].strip()

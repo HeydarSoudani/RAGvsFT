@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=1:00:00
+#SBATCH --time=4:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -24,10 +24,10 @@ srun $HOME/RAGvsFT/component4_CBQA/llama2_finetuning.py \
     --generation_method "prompting" \
     --output_model_dir $HOME/RAGvsFT/component4_CBQA/models \
     --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
-    --epochs 5 \
+    --epochs 3 \
     --lr 0.0002 \
     --with_peft True \
-    --version 27
+    --version 2
 
 
 # For TQA: $HOME/RAGvsFT/data/dataset/TQA

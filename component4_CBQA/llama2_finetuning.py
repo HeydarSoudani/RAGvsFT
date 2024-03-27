@@ -273,7 +273,7 @@ def load_training_args(args):
         evaluation_strategy="epoch",
         logging_strategy="epoch",
         save_strategy="epoch",
-        save_total_limit=5,
+        save_total_limit=2,
         
         report_to="wandb",
         push_to_hub=False,
@@ -318,6 +318,7 @@ def main(args):
     trainer = SFTTrainer(
         model=model,
         train_dataset=tokenized_train_datasets['train'],
+        eval_dataset=tokenized_train_datasets['dev'],
         peft_config=peft_config,
         dataset_text_field="text",
         max_seq_length=max_seq_length,
