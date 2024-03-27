@@ -199,11 +199,12 @@ def main(args):
     num_samples_per_relation = 1
     
     accuracy = []
-    max_new_tokens = 80
+    # max_new_tokens = 80
+    max_new_tokens = 570 if args.with_rag else 80
     
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
-            if idx == 10:
+            if idx == 5:
                 break
             
             retrieved_text = ""
@@ -244,6 +245,7 @@ def main(args):
                     skip_special_tokens=True,
                     clean_up_tokenization_spaces=True,
                 )
+                print(result)
                 pred = result.split("[INST]")[1].strip()
                 
                 is_correct = False
