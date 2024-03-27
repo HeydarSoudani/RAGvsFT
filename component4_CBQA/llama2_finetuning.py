@@ -310,3 +310,29 @@ def main(args):
     model.push_to_hub(args.repo_name, token=True)
     print("Fine-tuning is done.")
     
+
+if __name__ == "__main__":
+    
+    def str2bool(v):
+        if isinstance(v, bool):
+            return v
+        if v.lower() in ('yes', 'true', 't', 'y', '1'):
+            return True
+        elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+            return False
+        else:
+            raise argparse.ArgumentTypeError('Boolean value expected.')
+    
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model_name_or_path", type=str, required=True)
+    parser.add_argument("--data_dir", type=str)
+    parser.add_argument("--generation_method", type=str)
+    parser.add_argument("--output_model_dir", type=str)
+    parser.add_argument("--output_result_dir", type=str)
+    parser.add_argument("--epochs", default=1, type=int)
+    parser.add_argument("--lr", default=2e-4, type=float)
+    parser.add_argument("--with_peft", type=str2bool, default=False)
+    parser.add_argument("--version", default=1, type=int)
+    
+    args = parser.parse_args()
+    main(args)
