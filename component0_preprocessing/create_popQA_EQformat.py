@@ -693,11 +693,12 @@ def plot_bucket_num():
     
     
     # For only plotting the all queries
+    plt.figure(figsize=(8, 5)) 
     font = {
         # 'family': 'serif',
         'color':  'black',
-        'weight': 'normal',
-        'size': 13,
+        'weight': 'bold',
+        'size': 16,
     }
     
     bk_data = split_to_buckets(all_queries, split_points)
@@ -718,11 +719,14 @@ def plot_bucket_num():
         plt.bar(bucket, value, color=color)
     # plt.bar(buckets, counts, color=colors)
     plt.xlabel("Popularity (pageviews)", fontdict=font)
+    plt.xticks(fontsize=14)
     plt.ylabel("# Samples", fontdict=font)
+    plt.yticks(fontsize=14)
     
     plt.yticks(rotation=45)
     plt.tight_layout()
-    plt.savefig(f"pop_bk", dpi=1000)
+    # plt.savefig(f"pop_bk", dpi=1000)
+    plt.savefig('pop_bk.pdf', format='pdf', dpi=1000)
     
     plt.show()
     
