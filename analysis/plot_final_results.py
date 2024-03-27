@@ -308,53 +308,52 @@ def icl_results():
 
     # =======================
     # === For FlanT5-small ==
-    model_name = "FlanT5-small"
-    bf_base_filename = "archive/all.flan-t5-small.bf_{}_full_results.jsonl"
-    filenames = [
-        {"title": "NoFT/NoRAG", "filename": bf_base_filename.format("norag")},
-        # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
-        # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
-        # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
-        # {"title": "NoFT/DprRAG", "filename": bf_base_filename.format("rag_dpr")},
-        {"title": "NoFT/IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
+    # model_name = "FlanT5-small"
+    # bf_base_filename = "archive/all.flan-t5-small.bf_{}_full_results.jsonl"
+    # filenames = [
+    #     # {"title": "NoFT/NoRAG", "filename": bf_base_filename.format("norag")},
+    #     # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
+    #     # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
+    #     # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
+    #     # {"title": "NoFT/DprRAG", "filename": bf_base_filename.format("rag_dpr")},
+    #     # {"title": "NoFT/IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
         
-        # {"title": "FT_NoRAG_3e", "filename": "all.checkpoint-1491.af_e3_norag_peft_results.jsonl"},    
-        # # {"title": "FT_IdealRAG_3e", "filename": "all.checkpoint-1491.af_e3_rag_ideal_peft_results.jsonl"},
-        
-        # # {"title": "FT_NoRAG_5e", "filename": "all.checkpoint-2485.af_e5_norag_peft_results.jsonl"},    
-        # # {"title": "FT_IdealRAG_5e", "filename": "all.checkpoint-2485.af_e5_rag_ideal_peft_results.jsonl"},  
+    #     {"title": "FT_NoRAG_3e", "filename": "archive/all.flan-t5-small_peft_v22.af_e3_norag_peft_results.jsonl"},    
+    #     {"title": "FT_IdealRAG_3e", "filename": "archive/all.flan-t5-small_peft_v22.af_e3_rag_ideal_peft_results.jsonl"},
+    #     {"title": "FT_NoRAG_5e", "filename": "archive/all.flan-t5-small_peft_v22.af_e5_norag_peft_results.jsonl"},    
+    #     {"title": "FT_IdealRAG_5e", "filename": "archive/all.flan-t5-small_peft_v22.af_e5_rag_ideal_peft_results.jsonl"},  
          
         
-        {"title": "FT/NoRAG", "filename": "archive/all.flan-t5-small_full_v16.af_norag_full_results.jsonl"},
-        # {"title": "FT/DprRAG", "filename": "archive/all.flan-t5-small_full_v16.af_rag_dpr_full_results.jsonl"},
-        {"title": "FT/IdealRAG", "filename": "archive/all.flan-t5-small_full_v16.af_rag_ideal_full_results.jsonl"},
+    #     {"title": "FT/NoRAG_10e", "filename": "archive/all.flan-t5-small_full_v16.af_norag_full_results.jsonl"},
+    #     # {"title": "FT/DprRAG", "filename": "archive/all.flan-t5-small_full_v16.af_rag_dpr_full_results.jsonl"},
+    #     {"title": "FT/IdealRAG_10e", "filename": "archive/all.flan-t5-small_full_v16.af_rag_ideal_full_results.jsonl"},
         
-        # # {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_norag_full_results.jsonl"},
-        # # {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_rag_ideal_full_results.jsonl"}
-    ]
+    #     # # {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_norag_full_results.jsonl"},
+    #     # # {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-small_full_v19.af_extra_rag_ideal_full_results.jsonl"}
+    # ]
     
     # =======================
     # === For FlanT5-base ===
     # model_name = "FlanT5-base"
     # bf_base_filename = "archive/all.flan-t5-base.bf_{}_full_results.jsonl"
     # filenames = [
-    #     {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")}, 
-    #     {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
-    #     {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
-    #     {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
-    #     {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
-    #     {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
+        
+    #     {"title": "FT_NoRAG_3e", "filename": "archive/all.flan-t5-base_full_v25.af_e3_norag_full_results.jsonl"},    
+    #     {"title": "FT_IdealRAG_3e", "filename": "archive/all.flan-t5-base_full_v25.af_e3_rag_ideal_full_results.jsonl"},
+    #     {"title": "FT_NoRAG_5e", "filename": "archive/all.flan-t5-base_full_v25.af_e5_norag_full_results.jsonl"},    
+    #     {"title": "FT_IdealRAG_5e", "filename": "archive/all.flan-t5-base_full_v25.af_e5_rag_ideal_full_results.jsonl"},  
+        
+        
+    #     # {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")}, 
+    #     # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
+    #     # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
+    #     # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
+    #     # {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
+    #     # {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
 
-    #     # {"title": "FT_NoRAG_3e", "filename": "all.flan-t5-base_full_v25.af_e3_norag_full_results.jsonl"},    
-    #     # {"title": "FT_IdealRAG_3e", "filename": "all.checkpoint-1491.af_e3_rag_ideal_peft_results.jsonl"},
-        
-    #     # {"title": "FT_NoRAG_5e", "filename": "all.flan-t5-base_full_v25.af_e5_norag_full_results.jsonl"},    
-    #     # {"title": "FT_IdealRAG_5e", "filename": "all.checkpoint-2485.af_e5_rag_ideal_peft_results.jsonl"},  
-        
-        
-    #     # {"title": "FT_NoRAG", "filename": "archive/all.flan-t5-base_peft_v1.af_norag_peft_results.jsonl"},
+    #     {"title": "FT_NoRAG_10e", "filename": "archive/all.flan-t5-base_peft_v1.af_norag_peft_results.jsonl"},
     #     # {"title": "FT_DprRAG", "filename": "archive/all.flan-t5-base_peft_v1.af_rag_dpr_peft_results.jsonl"},
-    #     # {"title": "FT_IdealRAG", "filename": "archive/all.flan-t5-base_peft_v1.af_rag_ideal_peft_results.jsonl"}, 
+    #     {"title": "FT_IdealRAG_10e", "filename": "archive/all.flan-t5-base_peft_v1.af_rag_ideal_peft_results.jsonl"}, 
         
     #     # {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-base_peft_v20.af_extra_norag_peft_results.jsonl"},
     #     # {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-base_peft_v20.af_extra_rag_ideal_peft_results.jsonl"}
@@ -362,23 +361,32 @@ def icl_results():
     
     # =======================
     # === For FlanT5-large ==
-    # model_name = "FlanT5-large"
-    # bf_base_filename = "archive/all.flan-t5-large.bf_{}_full_results.jsonl"
-    # filenames = [
-    #     {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
-    #     # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
-    #     # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
-    #     # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
-    #     {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
-    #     {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
-
-    #     {"title": "FT_NoRAG", "filename": "archive/all.flan-t5-large_peft_v12.af_norag_peft_results.jsonl"},
-    #     {"title": "FT_DprRAG", "filename": "archive/all.flan-t5-large_peft_v12.af_rag_dpr_peft_results.jsonl"},
-    #     {"title": "FT_IdealRAG", "filename": "archive/all.flan-t5-large_peft_v12.af_rag_ideal_peft_results.jsonl"}, 
+    model_name = "FlanT5-large"
+    bf_base_filename = "archive/all.flan-t5-large.bf_{}_full_results.jsonl"
+    filenames = [
         
-    #     # {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_norag_peft_results.jsonl"},
-    #     # {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_rag_ideal_peft_results.jsonl"}
-    # ] 
+        {"title": "FT_NoRAG_3e", "filename": "archive/all.flan-t5-large_peft_v26.af_e3_norag_peft_results.jsonl"},    
+        {"title": "FT_IdealRAG_3e", "filename": "archive/all.flan-t5-large_peft_v26.af_e3_rag_ideal_peft_results.jsonl"},
+        {"title": "FT_NoRAG_5e", "filename": "archive/all.flan-t5-large_peft_v26.af_e5_norag_peft_results.jsonl"},    
+        {"title": "FT_IdealRAG_5e", "filename": "archive/all.flan-t5-large_peft_v26.af_e5_rag_ideal_peft_results.jsonl"},  
+        
+        # {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
+        # # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
+        # # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
+        # # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
+        # {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
+        # {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
+
+        {"title": "FT_NoRAG_10e", "filename": "archive/all.flan-t5-large_peft_v12.af_norag_peft_results.jsonl"},
+        # {"title": "FT_DprRAG", "filename": "archive/all.flan-t5-large_peft_v12.af_rag_dpr_peft_results.jsonl"},
+        {"title": "FT_IdealRAG_10e", "filename": "archive/all.flan-t5-large_peft_v12.af_rag_ideal_peft_results.jsonl"}, 
+        
+        # {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_norag_peft_results.jsonl"},
+        # {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_rag_ideal_peft_results.jsonl"}
+        
+        
+        
+    ] 
     
     print(f"Model: {model_name}")
     for idx, _filename in enumerate(filenames):
@@ -434,122 +442,122 @@ def icl_results():
     
     # =============================
     # === Plotting per relation ===
-    title_font = {
-        # 'family': 'serif',
-        'color':  'black',
-        'weight': 'bold',
-        'size': 13,
-    }
-    
-    num_bars = len(filenames) # Number of bars per group
-    ind = np.arange(len(ordered_accuracies[filenames[0]["title"]])) # Position of bars on x-axis
-    width = 0.11 # Width of a bar
-    fig, ax = plt.subplots(figsize=(19, 5))
-    # plt.figure(figsize=(18, 5)) 
-    
-    for i in range(num_bars):
-        overall_scores = [value['overall'] for value in ordered_accuracies[filenames[i]["title"]].values()]
-        ax.bar(ind + i * width, overall_scores, width, label=filenames[i]["title"])
-    
-    ax.set_xlabel('Relation ID')
-    ax.set_ylabel('Accuracy')
-    ax.set_title(f"C) {model_name}", fontdict=title_font)
-
-    relation_names = [RELATIONS[item] if item != 'all' else 'all' for item in list(ordered_accuracies[filenames[0]["title"]].keys())]
-    ax.set_xticks(ind + width * (num_bars - 1) / 2)
-    ax.set_xticklabels(relation_names)
-
-    ax.legend(ncol=2)
-    plt.ylim(0, 1.0)
-    plt.xticks(rotation=25)
-    plt.savefig(f"per_rel_{model_name}.pdf", format='pdf', dpi=1000)
-    plt.show()
-    
-    
-    # =============================
-    # === Plotting per bucket =====
-    num_plots = len(ordered_accuracies[title])
-    cols = 4
-    rows = (num_plots + cols - 1) // cols
-
-    fig, axes = plt.subplots(rows, cols, figsize=(15, rows * 2))
-    fig.delaxes(axes[0,1])  
-    fig.delaxes(axes[0,2])  
-    fig.delaxes(axes[0,3]) 
-    
-    for _title, _accuracies in ordered_accuracies.items():
-        for idx, (key, value) in enumerate(_accuracies.items()):
-            
-            if idx == 0:
-                row = 0
-                col = 0
-            else:
-                row = (idx+3) // 4
-                col = (idx+3) % 4
-            ax = axes[row, col]
-            
-            if 'per_bucket' in value:  # Check if 'per_bucket' exists to avoid errors
-                buckets = list(value['per_bucket'].keys())
-                scores = list(value['per_bucket'].values())
-                if idx == 0:
-                    ax.plot(buckets, scores,  label=_title)
-                else:
-                    ax.plot(buckets, scores, )
-                rel_name = RELATIONS[key] if key != 'all' else 'all'
-                ax.set_title(f"{rel_name}")
-                ax.set_xlabel("")
-                ax.set_ylabel("Accuracy")
-                ax.set_ylim(0, 1)
-
-    fig.legend(loc='upper right')
-    plt.tight_layout()
-    plt.show()
-    
-    # =====================================
-    # === Only plot "all", per bucket =====
-    # # plt.style.use('seaborn-darkgrid')
-    # font = {
-    #     # 'family': 'serif',
-    #     'color':  'black',
-    #     'weight': 'normal',
-    #     'size': 14,
-    # }
     # title_font = {
     #     # 'family': 'serif',
     #     'color':  'black',
     #     'weight': 'bold',
     #     'size': 13,
     # }
-    # palette = plt.get_cmap('Set2')
-    # plt.figure(figsize=(8, 5)) 
     
-    # # data = [
-    # #     {'b1': 0.18513223731236597, 'b2': 0.06127027959958578, 'b3': 0.03477443609022556, 'b4': 0.052348993288590606, 'b5': 0.137221269296741},
-    # #     {'b1': 0.19513223731236597, 'b2': 0.07127027959958578, 'b3': 0.04477443609022556, 'b4': 0.062348993288590606, 'b5': 0.187221269296741},
-    # #     {'b1': 0.20513223731236597, 'b2': 0.07827027959958578, 'b3': 0.05077443609022556, 'b4': 0.072348993288590606, 'b5': 0.237221269296741},
-    # #     {'b1': 0.22301644031451037, 'b2': 0.08629616845012081, 'b3': 0.05474624060150376, 'b4': 0.08411633109619687, 'b5': 0.31217838765008576}
-    # # ]
-    # for i, (method, _accuracies) in enumerate(ordered_accuracies.items()):
-    #     key = 'all'
-    #     value = _accuracies[key]
-        
-    #     if 'per_bucket' in value:
-    #         # buckets = list(value['per_bucket'].keys())
-    #         buckets = [f'$10^{i}$' for i in range(2, 7)]
-    #         scores = list(value['per_bucket'].values())
-            
-    #         plt.plot(buckets, scores, label=method, marker='', color=palette(i), linewidth=2.5)
+    # num_bars = len(filenames) # Number of bars per group
+    # ind = np.arange(len(ordered_accuracies[filenames[0]["title"]])) # Position of bars on x-axis
+    # width = 0.11 # Width of a bar
+    # fig, ax = plt.subplots(figsize=(19, 5))
+    # # plt.figure(figsize=(18, 5)) 
     
-    # # plt.title(f"A) {model_name}", fontdict=title_font)
-    # plt.xlabel("Popularity (pageviews)", fontdict=font)
-    # plt.ylabel("Accuracy", fontdict=font)
+    # for i in range(num_bars):
+    #     overall_scores = [value['overall'] for value in ordered_accuracies[filenames[i]["title"]].values()]
+    #     ax.bar(ind + i * width, overall_scores, width, label=filenames[i]["title"])
+    
+    # ax.set_xlabel('Relation ID')
+    # ax.set_ylabel('Accuracy')
+    # ax.set_title(f"C) {model_name}", fontdict=title_font)
+
+    # relation_names = [RELATIONS[item] if item != 'all' else 'all' for item in list(ordered_accuracies[filenames[0]["title"]].keys())]
+    # ax.set_xticks(ind + width * (num_bars - 1) / 2)
+    # ax.set_xticklabels(relation_names)
+
+    # ax.legend(ncol=2)
     # plt.ylim(0, 1.0)
-    # # plt.legend()
-    # plt.legend(loc=2, ncol=2, fontsize=14)
-    # plt.tight_layout()
-    # plt.savefig(f"main_{model_name}.pdf", format='pdf', dpi=1600)
-    # plt.savefig(f"main_{model_name}.png", dpi=1600)
+    # plt.xticks(rotation=25)
+    # plt.savefig(f"per_rel_{model_name}.pdf", format='pdf', dpi=1000)
     # plt.show()
+    
+    
+    # =============================
+    # === Plotting per bucket =====
+    # num_plots = len(ordered_accuracies[title])
+    # cols = 4
+    # rows = (num_plots + cols - 1) // cols
+
+    # fig, axes = plt.subplots(rows, cols, figsize=(15, rows * 2))
+    # fig.delaxes(axes[0,1])  
+    # fig.delaxes(axes[0,2])  
+    # fig.delaxes(axes[0,3]) 
+    
+    # for _title, _accuracies in ordered_accuracies.items():
+    #     for idx, (key, value) in enumerate(_accuracies.items()):
+            
+    #         if idx == 0:
+    #             row = 0
+    #             col = 0
+    #         else:
+    #             row = (idx+3) // 4
+    #             col = (idx+3) % 4
+    #         ax = axes[row, col]
+            
+    #         if 'per_bucket' in value:  # Check if 'per_bucket' exists to avoid errors
+    #             buckets = list(value['per_bucket'].keys())
+    #             scores = list(value['per_bucket'].values())
+    #             if idx == 0:
+    #                 ax.plot(buckets, scores,  label=_title)
+    #             else:
+    #                 ax.plot(buckets, scores, )
+    #             rel_name = RELATIONS[key] if key != 'all' else 'all'
+    #             ax.set_title(f"{rel_name}")
+    #             ax.set_xlabel("")
+    #             ax.set_ylabel("Accuracy")
+    #             ax.set_ylim(0, 1)
+
+    # fig.legend(loc='upper right')
+    # plt.tight_layout()
+    # plt.show()
+    
+    # =====================================
+    # === Only plot "all", per bucket =====
+    # plt.style.use('seaborn-darkgrid')
+    font = {
+        # 'family': 'serif',
+        'color':  'black',
+        'weight': 'normal',
+        'size': 14,
+    }
+    title_font = {
+        # 'family': 'serif',
+        'color':  'black',
+        'weight': 'bold',
+        'size': 13,
+    }
+    palette = plt.get_cmap('Set2')
+    plt.figure(figsize=(8, 5)) 
+    
+    # data = [
+    #     {'b1': 0.18513223731236597, 'b2': 0.06127027959958578, 'b3': 0.03477443609022556, 'b4': 0.052348993288590606, 'b5': 0.137221269296741},
+    #     {'b1': 0.19513223731236597, 'b2': 0.07127027959958578, 'b3': 0.04477443609022556, 'b4': 0.062348993288590606, 'b5': 0.187221269296741},
+    #     {'b1': 0.20513223731236597, 'b2': 0.07827027959958578, 'b3': 0.05077443609022556, 'b4': 0.072348993288590606, 'b5': 0.237221269296741},
+    #     {'b1': 0.22301644031451037, 'b2': 0.08629616845012081, 'b3': 0.05474624060150376, 'b4': 0.08411633109619687, 'b5': 0.31217838765008576}
+    # ]
+    for i, (method, _accuracies) in enumerate(ordered_accuracies.items()):
+        key = 'all'
+        value = _accuracies[key]
+        
+        if 'per_bucket' in value:
+            # buckets = list(value['per_bucket'].keys())
+            buckets = [f'$10^{i}$' for i in range(2, 7)]
+            scores = list(value['per_bucket'].values())
+            
+            plt.plot(buckets, scores, label=method, marker='', color=palette(i), linewidth=2.5)
+    
+    # plt.title(f"A) {model_name}", fontdict=title_font)
+    plt.xlabel("Popularity (pageviews)", fontdict=font)
+    plt.ylabel("Accuracy", fontdict=font)
+    plt.ylim(0, 1.0)
+    # plt.legend()
+    plt.legend(loc=2, ncol=3, fontsize=12)
+    plt.tight_layout()
+    plt.savefig(f"main_{model_name}.pdf", format='pdf', dpi=1600)
+    plt.savefig(f"main_{model_name}.png", dpi=1600)
+    plt.show()
     
 
 if __name__ == "__main__":
