@@ -199,7 +199,7 @@ def main(args):
     num_samples_per_relation = 1
     
     accuracy = []
-    max_new_tokens = 15
+    max_new_tokens = 80
     
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
@@ -239,11 +239,12 @@ def main(args):
                     top_p=0.9,
                     temperature=0.5
                 )
-                pred = tokenizer.decode(
+                result = tokenizer.decode(
                     gen[0],
                     skip_special_tokens=True,
                     clean_up_tokenization_spaces=True,
                 )
+                pred = result.split("[INST]")[1].strip()
                 
                 is_correct = False
                 for pa in test_answers[idx]:
