@@ -27,7 +27,7 @@ srun $HOME/RAGvsFT/component4_CBQA/llama2_finetuning.py \
     --epochs 3 \
     --lr 0.0002 \
     --with_peft True \
-    --version 2
+    --version 3
 
 
 # For TQA: $HOME/RAGvsFT/data/dataset/TQA

@@ -78,17 +78,6 @@ def load_model(args):
         model.config.use_cache = False
         model = prepare_model_for_kbit_training(model)
         
-        def print_trainable_parameters(model):
-            trainable_params = 0
-            all_param = 0
-            for _, param in model.named_parameters():
-                all_param += param.numel()
-                if param.requires_grad:
-                    trainable_params += param.numel()
-            print(
-                f"trainable params: {trainable_params} || all params: {all_param} || trainable%: {100 * trainable_params / all_param}"
-            )
-        
         lora_alpha = 16
         lora_dropout = 0.1
         lora_r = 64
@@ -99,18 +88,13 @@ def load_model(args):
             bias="none",
             task_type="CAUSAL_LM"
         )
-        # model = get_peft_model(model, peft_config)
-        # print_trainable_parameters(model)
-        # model.print_trainable_parameters()
     
     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, trust_remote_code=True)
     tokenizer.pad_token = tokenizer.eos_token
     
-    
     return model, tokenizer, peft_config
 
-def load_relations_data(args):
-    
+def load_relations_data(args): 
     subfolders = ['train', 'dev', 'test']    
     relation_files = {}
     
@@ -148,7 +132,6 @@ def load_relations_data(args):
     return test_relation_ids, test_files, relation_files     
 
 def load_dataset_qa(tokenizer, test_files):
-    
     train_data = []
     for file in test_files['train']:
     # for file in test_files['test']:

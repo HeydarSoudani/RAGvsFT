@@ -18,7 +18,6 @@ import numpy as np
 import random
 import nltk
 
-
 logging.basicConfig(level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     datefmt='%m/%d/%Y %I:%M:%S %p',
@@ -68,9 +67,12 @@ def load_model(args):
         compute_dtype = getattr(torch, "float16")
         bnb_config = BitsAndBytesConfig(
             load_in_4bit=True,
-            bnb_4bit_quant_type="float16",
-            bnb_4bit_compute_dtype=compute_dtype,
-            bnb_4bit_use_double_quant=False,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype=torch.float16,
+            # load_in_4bit=True,
+            # bnb_4bit_quant_type="float16",
+            # bnb_4bit_compute_dtype=compute_dtype,
+            # bnb_4bit_use_double_quant=False,
         )
         model = AutoModelForCausalLM.from_pretrained(
             args.model_name_or_path,
@@ -108,8 +110,8 @@ def load_model(args):
     tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = "right"
     
-    
     return model, tokenizer, peft_config
+
 
 def load_relations_data(args):
     
