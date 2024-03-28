@@ -140,6 +140,7 @@ def load_model(args):
         tokenizer = AutoTokenizer.from_pretrained("HuggingFaceH4/zephyr-7b-beta")
     
     tokenizer.pad_token = tokenizer.eos_token
+    model.config.pad_token_id = tokenizer.pad_token_id
     
     model.eval()
     logging.info("Model and tokenizer are loaded")
