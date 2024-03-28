@@ -214,7 +214,7 @@ def main(args):
                     print("No retrieved text found for query: {}".format(query))
             
                 prompt =f"""
-                <|system|>\n
+                <|system|>
                 \n<|user|>\n 
                 Context: {retrieved_text}
                 Based on the provided context, answer the question: {query}
@@ -222,7 +222,7 @@ def main(args):
                 
             else:        
                 prompt =f"""
-                <|system|>\n
+                <|system|>
                 \n<|user|>\n {query}
                 \n<|assistant|>\n""" 
                 # + example[TARGET_FIELD]
@@ -242,6 +242,42 @@ def main(args):
                     clean_up_tokenization_spaces=True,
                 )
             print(result)
+            pred = result.split("<|assistant|>")[1].strip()
+            
+            is_correct = False
+            for pa in test_answers[idx]:
+                if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
+                    is_correct = True
+            accuracy.append(is_correct)
+            
+            # if idx % 300 == 0:
+                # logging.info('\n')
+                # logging.info(f"Prompt: {prompt}")
+                # logging.info(f"Query: {query}")
+                # logging.info(f"Pred: {pred}")
+                # logging.info(f"Labels: {test_answers[idx]}")
+                # logging.info(f"Final decision: {is_correct}")
+                # logging.info('====')
+            print('\n')
+            print(f"Query: {query}")
+            print(f"Pred: {pred}")
+            print(f"Labels: {test_answers[idx]}")
+            print(f"Final decision: {is_correct}")
+            print('====')
+                
+            item = {
+                "query_id": query_id,
+                "question": query,
+                "possible_answers": test_answers[idx],
+                "pred": pred,
+                "is_correct": is_correct,
+                "pageviews": query_pv
+            }
+            file.write(json.dumps(item) + '\n')
+    
+    acc = sum(accuracy) / len(accuracy)
+    logging.info(f"Accuracy: {acc * 100:.2f}%")
+    print(f"Accuracy: {acc * 100:.2f}%")
                 
 
 if __name__ == "__main__":
