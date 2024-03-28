@@ -241,7 +241,7 @@ def main(args):
                     skip_special_tokens=True,
                     clean_up_tokenization_spaces=True,
                 )
-            print(result)
+            # print(result)
             pred = result.split("<|assistant|>")[1].strip()
             
             is_correct = False
