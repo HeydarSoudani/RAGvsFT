@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=1:00:00
+#SBATCH --time=6:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules

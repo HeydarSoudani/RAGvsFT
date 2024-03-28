@@ -204,8 +204,8 @@ def main(args):
     
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
-            if idx == 5:
-                break
+            # if idx == 5:
+            #     break
             
             retrieved_text = ""
             if args.with_rag:
@@ -241,22 +241,44 @@ def main(args):
                     skip_special_tokens=True,
                     clean_up_tokenization_spaces=True,
                 )
-                print(result)
-                pred = result.split("[/INST]")[1].strip()
+            print(result)
+            pred = result.split("[/INST]")[1].strip()
+            
+            is_correct = False
+            for pa in test_answers[idx]:
+                if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
+                    is_correct = True
+            accuracy.append(is_correct)
+            
+            if idx % 300 == 0:
+                logging.info('\n')
+                logging.info(f"Prompt: {prompt}")
+                logging.info(f"Query: {query}")
+                logging.info(f"Pred: {pred}")
+                logging.info(f"Labels: {test_answers[idx]}")
+                logging.info(f"Final decision: {is_correct}")
+                logging.info('====')
+                # print('\n')
+                # print(f"Query: {query}")
+                # print(f"Pred: {pred}")
+                # print(f"Labels: {test_answers[idx]}")
+                # print(f"Final decision: {is_correct}")
+                # print('====')
                 
-                is_correct = False
-                for pa in test_answers[idx]:
-                    if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
-                        is_correct = True
-                accuracy.append(is_correct)
-                
-                # if idx % 300 == 0:
-                print('\n')
-                print(f"Query: {query}")
-                print(f"Pred: {pred}")
-                print(f"Labels: {test_answers[idx]}")
-                print(f"Final decision: {is_correct}")
-                print('====')
+            item = {
+                "query_id": query_id,
+                "question": query,
+                "possible_answers": test_answers[idx],
+                "pred": pred,
+                "is_correct": is_correct,
+                "pageviews": query_pv
+            }
+            file.write(json.dumps(item) + '\n')
+    
+    acc = sum(accuracy) / len(accuracy)
+    logging.info(f"Accuracy: {acc * 100:.2f}%")
+    print(f"Accuracy: {acc * 100:.2f}%")
+               
      
                 
 if __name__ == "__main__":
