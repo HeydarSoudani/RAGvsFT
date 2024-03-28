@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=6:00:00
+#SBATCH --time=5:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -23,7 +23,7 @@ srun $HOME/RAGvsFT/component4_CBQA/mistral_evaluation.py \
     --output_file_pre_prefix "bf" \
     --with_peft False \
     --with_fs False \
-    --with_rag True \
-    --retrieval_method "ideal"
+    --with_rag False \
+    --retrieval_method ""
 
 # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
