@@ -143,8 +143,12 @@ def load_model(args):
             device_map={"":0} # Load the entire model on the GPU 0
         )
         tokenizer = AutoTokenizer.from_pretrained(
-            "mistralai/Mistral-7B-Instruct-v0.1"
+            "mistralai/Mistral-7B-Instruct-v0.1",
+            trust_remote_code=True
         )
+    
+    tokenizer.pad_token = tokenizer.eos_token
+    tokenizer.padding_side = "right"
         
     model.eval()
     logging.info("Model and tokenizer are loaded")

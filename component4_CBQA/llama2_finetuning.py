@@ -12,7 +12,6 @@ from huggingface_hub import notebook_login
 from huggingface_hub import HfFolder
 # import evaluate
 
-
 import logging
 import os, json, argparse
 import numpy as np
@@ -266,7 +265,8 @@ def load_training_args(args):
     training_arguments = TrainingArguments(
         output_dir=save_model_dir,
         per_device_train_batch_size=32,
-        gradient_accumulation_steps=32,
+        per_device_eval_batch_size=32,
+        gradient_accumulation_steps=1,
         optim="paged_adamw_32bit",
         num_train_epochs=args.epochs,
         learning_rate=args.lr,
@@ -310,15 +310,15 @@ def main(args):
     
     model, tokenizer, peft_config = load_model(args)
     test_relation_ids, test_files, relation_files = load_relations_data(args)
-    tokenized_train_datasets = load_dataset_qa(tokenizer, test_files)
+    raw_dataset = load_dataset_qa(tokenizer, test_files)
     
     training_arguments = load_training_args(args)
     
     max_seq_length = 512 # 2048
     trainer = SFTTrainer(
         model=model,
-        train_dataset=tokenized_train_datasets['train'],
-        eval_dataset=tokenized_train_datasets['dev'],
+        train_dataset=raw_dataset['train'],
+        eval_dataset=raw_dataset['dev'],
         peft_config=peft_config,
         dataset_text_field="text",
         max_seq_length=max_seq_length,
