@@ -385,15 +385,26 @@ def icl_results():
     #     # {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_rag_ideal_peft_results.jsonl"}
     # ] 
     
+    # # =======================
+    # # === For Llama2 ========
+    # model_name = "Llama2"
+    # filenames = [
+        
+    #     {"title": "NoFT_NoRAG", "filename": "all.meta-llama.bf_norag_full_results.jsonl"},    
+    #     {"title": "NoFT_IdealRAG", "filename": "all.meta-llama.bf_rag_ideal_full_results.jsonl"},
+    #     {"title": "FT_NoRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_norag_peft_results.jsonl"},    
+    #     {"title": "FT_IdealRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_rag_ideal_peft_results.jsonl"},  
+    # ] 
+    
     # =======================
-    # === For Llama2 ========
-    model_name = "Llama2"
+    # === For Mistral =======
+    model_name = "Mistral"
     filenames = [
         
-        {"title": "NoFT_NoRAG", "filename": "all.meta-llama.bf_norag_full_results.jsonl"},    
-        {"title": "NoFT_IdealRAG", "filename": "all.meta-llama.bf_rag_ideal_full_results.jsonl"},
-        {"title": "FT_NoRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_norag_peft_results.jsonl"},    
-        {"title": "FT_IdealRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_rag_ideal_peft_results.jsonl"},  
+        {"title": "NoFT_NoRAG", "filename": "all.mistralai.bf_norag_full_results.jsonl"},    
+        {"title": "NoFT_IdealRAG", "filename": "all.mistralai.bf_rag_ideal_full_results.jsonl"},
+        # {"title": "FT_NoRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_norag_peft_results.jsonl"},    
+        # {"title": "FT_IdealRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_rag_ideal_peft_results.jsonl"},  
     ] 
     
     
