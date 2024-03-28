@@ -244,5 +244,28 @@ def main(args):
             print(result)
                 
 
+if __name__ == "__main__":
     
+    def str2bool(v):
+        if isinstance(v, bool):
+            return v
+        if v.lower() in ('yes', 'true', 't', 'y', '1'):
+            return True
+        elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+            return False
+        else:
+            raise argparse.ArgumentTypeError('Boolean value expected.')
+    
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model_name_or_path", type=str, required=True)
+    parser.add_argument("--data_dir", type=str)
+    parser.add_argument("--output_result_dir", type=str)
+    parser.add_argument("--output_file_pre_prefix", type=str)
+    parser.add_argument("--with_peft", type=str2bool, default=False)
+    parser.add_argument("--with_fs", type=str2bool, default=False)
+    parser.add_argument("--with_rag", type=str2bool, default=False)
+    parser.add_argument("--retrieval_method", type=str)
+    
+    args = parser.parse_args()
+    main(args)    
 
