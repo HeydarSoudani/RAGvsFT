@@ -220,16 +220,12 @@ def main(args):
                     print('\n')
                     print("No retrieved text found for query: {}".format(query))
             
-                prompt = f"""<s> 
+                prompt = f"""<s>[INST] 
                 context: {retrieved_text}
                 Based on the provided context, answer the question: {query}
-                [INST]
-                """
+                [/INST]"""
             else:
-                prompt = f"""<s> 
-                answer the question: {query}
-                [INST]
-                """
+                prompt = f"""<s>[INST] Answer the question: {query} [/INST]"""
 
             inpts = tokenizer(prompt, return_tensors="pt").to(device)
             with torch.no_grad():

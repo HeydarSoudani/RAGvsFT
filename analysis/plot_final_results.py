@@ -361,32 +361,41 @@ def icl_results():
     
     # =======================
     # === For FlanT5-large ==
-    model_name = "FlanT5-large"
-    bf_base_filename = "archive/all.flan-t5-large.bf_{}_full_results.jsonl"
+    # model_name = "FlanT5-large"
+    # bf_base_filename = "archive/all.flan-t5-large.bf_{}_full_results.jsonl"
+    # filenames = [
+        
+    #     {"title": "FT_NoRAG_3e", "filename": "archive/all.flan-t5-large_peft_v26.af_e3_norag_peft_results.jsonl"},    
+    #     {"title": "FT_IdealRAG_3e", "filename": "archive/all.flan-t5-large_peft_v26.af_e3_rag_ideal_peft_results.jsonl"},
+    #     {"title": "FT_NoRAG_5e", "filename": "archive/all.flan-t5-large_peft_v26.af_e5_norag_peft_results.jsonl"},    
+    #     {"title": "FT_IdealRAG_5e", "filename": "archive/all.flan-t5-large_peft_v26.af_e5_rag_ideal_peft_results.jsonl"},  
+        
+    #     # {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
+    #     # # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
+    #     # # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
+    #     # # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
+    #     # {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
+    #     # {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
+
+    #     {"title": "FT_NoRAG_10e", "filename": "archive/all.flan-t5-large_peft_v12.af_norag_peft_results.jsonl"},
+    #     # {"title": "FT_DprRAG", "filename": "archive/all.flan-t5-large_peft_v12.af_rag_dpr_peft_results.jsonl"},
+    #     {"title": "FT_IdealRAG_10e", "filename": "archive/all.flan-t5-large_peft_v12.af_rag_ideal_peft_results.jsonl"}, 
+        
+    #     # {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_norag_peft_results.jsonl"},
+    #     # {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_rag_ideal_peft_results.jsonl"}
+    # ] 
+    
+    # =======================
+    # === For Llama2 ========
+    model_name = "Llama2"
     filenames = [
         
-        {"title": "FT_NoRAG_3e", "filename": "archive/all.flan-t5-large_peft_v26.af_e3_norag_peft_results.jsonl"},    
-        {"title": "FT_IdealRAG_3e", "filename": "archive/all.flan-t5-large_peft_v26.af_e3_rag_ideal_peft_results.jsonl"},
-        {"title": "FT_NoRAG_5e", "filename": "archive/all.flan-t5-large_peft_v26.af_e5_norag_peft_results.jsonl"},    
-        {"title": "FT_IdealRAG_5e", "filename": "archive/all.flan-t5-large_peft_v26.af_e5_rag_ideal_peft_results.jsonl"},  
-        
-        # {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
-        # # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
-        # # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
-        # # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
-        # {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
-        # {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
-
-        {"title": "FT_NoRAG_10e", "filename": "archive/all.flan-t5-large_peft_v12.af_norag_peft_results.jsonl"},
-        # {"title": "FT_DprRAG", "filename": "archive/all.flan-t5-large_peft_v12.af_rag_dpr_peft_results.jsonl"},
-        {"title": "FT_IdealRAG_10e", "filename": "archive/all.flan-t5-large_peft_v12.af_rag_ideal_peft_results.jsonl"}, 
-        
-        # {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_norag_peft_results.jsonl"},
-        # {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_rag_ideal_peft_results.jsonl"}
-        
-        
-        
+        {"title": "NoFT_NoRAG", "filename": "all.meta-llama.bf_norag_full_results.jsonl"},    
+        {"title": "NoFT_IdealRAG", "filename": "all.meta-llama.bf_rag_ideal_full_results.jsonl"},
+        {"title": "FT_NoRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_norag_peft_results.jsonl"},    
+        {"title": "FT_IdealRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_rag_ideal_peft_results.jsonl"},  
     ] 
+    
     
     print(f"Model: {model_name}")
     for idx, _filename in enumerate(filenames):
@@ -553,7 +562,7 @@ def icl_results():
     plt.ylabel("Accuracy", fontdict=font)
     plt.ylim(0, 1.0)
     # plt.legend()
-    plt.legend(loc=2, ncol=3, fontsize=12)
+    plt.legend(loc=2, ncol=2, fontsize=12)
     plt.tight_layout()
     plt.savefig(f"main_{model_name}.pdf", format='pdf', dpi=1600)
     plt.savefig(f"main_{model_name}.png", dpi=1600)
