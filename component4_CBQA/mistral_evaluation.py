@@ -242,7 +242,7 @@ def main(args):
                     clean_up_tokenization_spaces=True,
                 )
                 print(result)
-                pred = result.split("[INST]")[1].strip()
+                pred = result.split("[/INST]")[1].strip()
                 
                 is_correct = False
                 for pa in test_answers[idx]:
