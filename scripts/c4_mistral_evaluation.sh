@@ -23,7 +23,7 @@ srun $HOME/RAGvsFT/component4_CBQA/mistral_evaluation.py \
     --output_file_pre_prefix "bf" \
     --with_peft False \
     --with_fs False \
-    --with_rag False \
-    --retrieval_method ""
+    --with_rag True \
+    --retrieval_method "ideal"
 
 # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
