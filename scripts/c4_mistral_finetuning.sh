@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=4:00:00
+#SBATCH --time=12:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -13,17 +13,18 @@ module load Python/3.10.4-GCCcore-11.3.0
 
 
 srun $HOME/RAGvsFT/component4_CBQA/mistral_finetuning.py \
-    --model_name_or_path "mistralai/Mistral-7B-Instruct-v0.1" \
+    --model_name_or_path "HuggingFaceH4/zephyr-7b-beta" \
     --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
     --generation_method "prompting" \
     --output_model_dir $HOME/RAGvsFT/component4_CBQA/models \
     --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
-    --epochs 3 \
+    --epochs 2 \
     --lr 0.0002 \
     --with_peft True \
-    --version 4
+    --version 5
 
 
+# mistralai/Mistral-7B-Instruct-v0.1
 # For TQA: $HOME/RAGvsFT/data/dataset/TQA
 # For EQ: $HOME/RAGvsFT/data/dataset/entity_questions_dataset/dataset
 # For popQA: $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat

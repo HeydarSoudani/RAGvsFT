@@ -260,8 +260,8 @@ def load_training_args(args):
         
     training_arguments = TrainingArguments(
         output_dir=save_model_dir,
-        per_device_train_batch_size=32,
-        per_device_eval_batch_size=32,
+        per_device_train_batch_size=4,
+        per_device_eval_batch_size=4,
         gradient_accumulation_steps=1,
         optim="paged_adamw_32bit",
         num_train_epochs=args.epochs,
@@ -332,8 +332,6 @@ def main(args):
     model.push_to_hub(args.repo_name, token=True)
     print("Fine-tuning is done.")
     
-
-
 
 if __name__ == "__main__":
     
