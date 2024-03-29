@@ -158,25 +158,20 @@ def load_dataset_qa(tokenizer, test_files):
         val_answers = [item['Answer']['NormalizedAliases'] for item in subset_dev_data]
 
 
-    train_data = [
-        """
-        <s>[INST] <<SYS>>
-        Answer the question: 
-        <</SYS>>
+    # <s>[INST] <<SYS>>
+    # Answer the question: 
+    # <</SYS>>
+    # {} [/INST] {} </s> 
 
-        {} [/INST] {} </s>          
-        """.format(question, train_answers[i])
+    train_data = [
+        """ <s>[INST] Answer the question: {} [/INST] {} </s>"""
+        .format(question, train_answers[i])
         for i, question in enumerate(train_questions)
     ]
     
     val_data = [
-        """
-        <s>[INST] <<SYS>>
-        Answer the question: 
-        <</SYS>>
-
-        {} [/INST] {} </s>          
-        """.format(question, val_answers[i])
+        """ <s>[INST] Answer the question: {} [/INST] {} </s>"""
+        .format(question, val_answers[i])
         for i, question in enumerate(val_questions)
     ]
 

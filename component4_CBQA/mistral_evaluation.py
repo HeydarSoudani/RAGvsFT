@@ -156,7 +156,6 @@ def load_model(args):
     return model, tokenizer
 
 
-
 def main(args):
     rag_part = "rag" if args.with_rag else "norag"
     peft_part = "peft" if args.with_peft else "full"
@@ -175,7 +174,6 @@ def main(args):
         """
     )
     set_seed(42)
-
 
     logging.info("Inferencing ...")
     model, tokenizer = load_model(args)

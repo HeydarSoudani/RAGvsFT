@@ -361,29 +361,29 @@ def icl_results():
     
     # =======================
     # === For FlanT5-large ==
-    # model_name = "FlanT5-large"
-    # bf_base_filename = "archive/all.flan-t5-large.bf_{}_full_results.jsonl"
-    # filenames = [
+    model_name = "FlanT5-large"
+    bf_base_filename = "archive/all.flan-t5-large.bf_{}_full_results.jsonl"
+    filenames = [
         
-    #     {"title": "FT_NoRAG_3e", "filename": "archive/all.flan-t5-large_peft_v26.af_e3_norag_peft_results.jsonl"},    
-    #     {"title": "FT_IdealRAG_3e", "filename": "archive/all.flan-t5-large_peft_v26.af_e3_rag_ideal_peft_results.jsonl"},
-    #     {"title": "FT_NoRAG_5e", "filename": "archive/all.flan-t5-large_peft_v26.af_e5_norag_peft_results.jsonl"},    
-    #     {"title": "FT_IdealRAG_5e", "filename": "archive/all.flan-t5-large_peft_v26.af_e5_rag_ideal_peft_results.jsonl"},  
+        {"title": "FT_NoRAG_3e", "filename": "archive/all.flan-t5-large_peft_v26.af_e3_norag_peft_results.jsonl"},    
+        {"title": "FT_IdealRAG_3e", "filename": "archive/all.flan-t5-large_peft_v26.af_e3_rag_ideal_peft_results.jsonl"},
+        {"title": "FT_NoRAG_5e", "filename": "archive/all.flan-t5-large_peft_v26.af_e5_norag_peft_results.jsonl"},    
+        {"title": "FT_IdealRAG_5e", "filename": "archive/all.flan-t5-large_peft_v26.af_e5_rag_ideal_peft_results.jsonl"},  
         
-    #     # {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
-    #     # # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
-    #     # # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
-    #     # # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
-    #     # {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
-    #     # {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
+        # {"title": "NoFT_NoRAG", "filename": bf_base_filename.format("norag")},
+        # # {"title": "NoFT_bm25RAG", "filename": bf_base_filename.format("rag_bm25")},
+        # # {"title": "NoFT_ContrieverRAG", "filename": bf_base_filename.format("rag_contriever")},
+        # # {"title": "NoFT_RerankRAG", "filename": bf_base_filename.format("rag_rerank")},
+        # {"title": "NoFT_DprRAG", "filename": bf_base_filename.format("rag_dpr")},
+        # {"title": "NoFT_IdealRAG", "filename": bf_base_filename.format("rag_ideal")},
 
-    #     {"title": "FT_NoRAG_10e", "filename": "archive/all.flan-t5-large_peft_v12.af_norag_peft_results.jsonl"},
-    #     # {"title": "FT_DprRAG", "filename": "archive/all.flan-t5-large_peft_v12.af_rag_dpr_peft_results.jsonl"},
-    #     {"title": "FT_IdealRAG_10e", "filename": "archive/all.flan-t5-large_peft_v12.af_rag_ideal_peft_results.jsonl"}, 
+        {"title": "FT_NoRAG_10e", "filename": "archive/all.flan-t5-large_peft_v12.af_norag_peft_results.jsonl"},
+        # {"title": "FT_DprRAG", "filename": "archive/all.flan-t5-large_peft_v12.af_rag_dpr_peft_results.jsonl"},
+        {"title": "FT_IdealRAG_10e", "filename": "archive/all.flan-t5-large_peft_v12.af_rag_ideal_peft_results.jsonl"}, 
         
-    #     # {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_norag_peft_results.jsonl"},
-    #     # {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_rag_ideal_peft_results.jsonl"}
-    # ] 
+        # {"title": "FT_NoRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_norag_peft_results.jsonl"},
+        # {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_rag_ideal_peft_results.jsonl"}
+    ] 
     
     # # =======================
     # # === For Llama2 ========
@@ -398,14 +398,14 @@ def icl_results():
     
     # =======================
     # === For Mistral =======
-    model_name = "Mistral"
-    filenames = [
+    # model_name = "Mistral"
+    # filenames = [
         
-        {"title": "NoFT_NoRAG", "filename": "all.mistralai.bf_norag_full_results.jsonl"},    
-        {"title": "NoFT_IdealRAG", "filename": "all.mistralai.bf_rag_ideal_full_results.jsonl"},
-        # {"title": "FT_NoRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_norag_peft_results.jsonl"},    
-        # {"title": "FT_IdealRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_rag_ideal_peft_results.jsonl"},  
-    ] 
+    #     {"title": "NoFT_NoRAG", "filename": "all.mistralai.bf_norag_full_results.jsonl"},    
+    #     {"title": "NoFT_IdealRAG", "filename": "all.mistralai.bf_rag_ideal_full_results.jsonl"},
+    #     # {"title": "FT_NoRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_norag_peft_results.jsonl"},    
+    #     # {"title": "FT_IdealRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_rag_ideal_peft_results.jsonl"},  
+    # ] 
     
     
     print(f"Model: {model_name}")
@@ -560,6 +560,8 @@ def icl_results():
     for i, (method, _accuracies) in enumerate(ordered_accuracies.items()):
         key = 'all'
         value = _accuracies[key]
+        print(method)
+        print(value)
         
         if 'per_bucket' in value:
             # buckets = list(value['per_bucket'].keys())
