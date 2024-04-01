@@ -1,0 +1,4281 @@
+[
+    {
+        "query_id": "452_0",
+        "question": "What industry is the big-box store in?",
+        "answers": [
+            "retail",
+            "retail industry",
+            "retailer",
+            "retail sales",
+            "retailing",
+            "retail trade"
+        ],
+        "pageviews": "3"
+    },
+    {
+        "query_id": "452_1",
+        "question": "What specific industry is the National Defence Radio Establishment involved in?",
+        "answers": [
+            "SIGINT",
+            "signals intelligence"
+        ],
+        "pageviews": "918"
+    },
+    {
+        "query_id": "452_2",
+        "question": "What industry is Sanofi in?",
+        "answers": [
+            "pharma industry",
+            "pharmaceutical wholesaler",
+            "pharma",
+            "pharmaceutical corporation",
+            "drug industry",
+            "pharmaceutical industry"
+        ],
+        "pageviews": "25339"
+    },
+    {
+        "query_id": "452_3",
+        "question": "What industry is Stratasys in?",
+        "answers": [
+            "rapid prototyping",
+            "3D printer",
+            "Printing, Three-Dimensional",
+            "Rapid prototyping\uff0cRP",
+            "3-D printing",
+            "3D printing",
+            "RP",
+            "additive manufacturing"
+        ],
+        "pageviews": "3515"
+    },
+    {
+        "query_id": "452_4",
+        "question": "What form of adult entertainment does a strip club provide?",
+        "answers": [
+            "erotic dancing",
+            "striptease"
+        ],
+        "pageviews": "2"
+    },
+    {
+        "query_id": "452_5",
+        "question": "What industry is Gr\u00fcnenthal GmbH in?",
+        "answers": [
+            "pharma industry",
+            "pharmaceutical wholesaler",
+            "pharmaceutical company",
+            "pharma",
+            "drug industry",
+            "pharmaceutical industry"
+        ],
+        "pageviews": "723"
+    },
+    {
+        "query_id": "452_6",
+        "question": "What specific industry is WizKids known for?",
+        "answers": [
+            "collectible miniatures game",
+            "Collectible miniatures game"
+        ],
+        "pageviews": "1568"
+    },
+    {
+        "query_id": "452_7",
+        "question": "What specific industry is Doubleday involved in?",
+        "answers": [
+            "publisher",
+            "58  Publishing activities",
+            "publishing",
+            "publishing company",
+            "publishing house"
+        ],
+        "pageviews": "524"
+    },
+    {
+        "query_id": "452_8",
+        "question": "What industry is AllSaints in?",
+        "answers": [
+            "fashion"
+        ],
+        "pageviews": "7754"
+    },
+    {
+        "query_id": "452_9",
+        "question": "What specific industry is Lincoln National Corporation in?",
+        "answers": [
+            "insurance",
+            "insurance companies"
+        ],
+        "pageviews": "5268"
+    },
+    {
+        "query_id": "452_10",
+        "question": "What specific industry is the Dangote Group in?",
+        "answers": [
+            "conglomeration",
+            "conglomerate",
+            "cement industry",
+            "multi-industry company",
+            "business conglomerate"
+        ],
+        "pageviews": "9188"
+    },
+    {
+        "query_id": "452_11",
+        "question": "What industry is UKCloud in?",
+        "answers": [
+            "cloud",
+            "cloud provider",
+            "cloud platform",
+            "cloud computing"
+        ],
+        "pageviews": "669"
+    },
+    {
+        "query_id": "452_12",
+        "question": "What specific industry does Canada Trust operate in?",
+        "answers": [
+            "financial services",
+            "finance industry",
+            "FS industry",
+            "Financial activities"
+        ],
+        "pageviews": "901"
+    },
+    {
+        "query_id": "452_13",
+        "question": "In which industry did Marriott Corporation operate?",
+        "answers": [
+            "Hospitality industry. Hotels, clubs, restaurants, etc. Food service",
+            "Hospitality Industry",
+            "hospitality industry",
+            "Hotel and catering industry",
+            "hospitality company"
+        ],
+        "pageviews": "3315"
+    },
+    {
+        "query_id": "452_14",
+        "question": "What specific industry is Jirama in?",
+        "answers": [
+            "electricity supplier",
+            "water industry",
+            "electric utility",
+            "electricity supply utility",
+            "Water collection, treatment and supply",
+            "NACE 36",
+            "NACE 36.00",
+            "electric power supplier",
+            "electricity utility"
+        ],
+        "pageviews": "380"
+    },
+    {
+        "query_id": "452_15",
+        "question": "What specific industry was Foundation Imaging involved in?",
+        "answers": [
+            "CGI",
+            "computer-generated imagery"
+        ],
+        "pageviews": "442"
+    },
+    {
+        "query_id": "452_16",
+        "question": "What specific industry was CBS Corporation primarily involved in?",
+        "answers": [
+            "TV",
+            "58  Publishing activities",
+            "media industry",
+            "media industries",
+            "publishing",
+            "radio broadcasting",
+            "television",
+            "mass media industry"
+        ],
+        "pageviews": "9599"
+    },
+    {
+        "query_id": "452_17",
+        "question": "What industry is Airliner World dedicated to?",
+        "answers": [
+            "aviation",
+            "flying"
+        ],
+        "pageviews": "363"
+    },
+    {
+        "query_id": "452_18",
+        "question": "What industry is Softlogic Holdings engaged in?",
+        "answers": [
+            "information and communications technology",
+            "retail",
+            "ICT",
+            "retail industry",
+            "retail sales",
+            "retailing",
+            "retail trade"
+        ],
+        "pageviews": "2476"
+    },
+    {
+        "query_id": "452_19",
+        "question": "In which industry does GM Korea operate?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automobile manufacturer"
+        ],
+        "pageviews": "7024"
+    },
+    {
+        "query_id": "452_20",
+        "question": "What specific industry is Ruter in?",
+        "answers": [
+            "transit district",
+            "public transit agency",
+            "public transportation",
+            "mass transit",
+            "Nahverkehrsverbund",
+            "transport authority",
+            "public transit",
+            "intermodal transport authority",
+            "transit authority",
+            "public transport agency",
+            "public transport authority",
+            "transportation authority",
+            "public transport"
+        ],
+        "pageviews": "945"
+    },
+    {
+        "query_id": "452_21",
+        "question": "What industry is the REWE Group in?",
+        "answers": [
+            "tourism",
+            "electronic commerce",
+            "eCommerce",
+            "retail",
+            "retail sales",
+            "retail industry",
+            "Food retail sector",
+            "e-business",
+            "e-commerce",
+            "E-Commerce",
+            "Internet commerce",
+            "online commerce",
+            "co-operative movement",
+            "cooperative movement",
+            "retailing",
+            "retail trade"
+        ],
+        "pageviews": "6220"
+    },
+    {
+        "query_id": "452_22",
+        "question": "What industry is The McClatchy Company in?",
+        "answers": [
+            "publishing",
+            "58  Publishing activities"
+        ],
+        "pageviews": "2806"
+    },
+    {
+        "query_id": "452_23",
+        "question": "In which industry does BC Rail operate?",
+        "answers": [
+            "rail transport",
+            "railroading",
+            "railroad transport",
+            "railway",
+            "transport by rail",
+            "railway transport",
+            "train transport",
+            "train transportation"
+        ],
+        "pageviews": "2459"
+    },
+    {
+        "query_id": "452_24",
+        "question": "What is the specific industry of Flipkart?",
+        "answers": [
+            "electronic commerce",
+            "eCommerce",
+            "e-business",
+            "E-Commerce",
+            "e-commerce",
+            "Internet commerce",
+            "online commerce"
+        ],
+        "pageviews": "306722"
+    },
+    {
+        "query_id": "452_25",
+        "question": "What specific industry is Roady's Truck Stops in?",
+        "answers": [
+            "travel center",
+            "truck stop",
+            "transport cafe",
+            "service station"
+        ],
+        "pageviews": "384"
+    },
+    {
+        "query_id": "452_26",
+        "question": "What specific industry is Fujifilm known for?",
+        "answers": [
+            "photography"
+        ],
+        "pageviews": "15473"
+    },
+    {
+        "query_id": "452_27",
+        "question": "What industry was re-nationalized when the Federal Space Agency (Roscosmos) merged with the United Rocket and Space Corporation to form Roscosmos State Corporation?",
+        "answers": [
+            "Russian space industry",
+            "space industry of Russia"
+        ],
+        "pageviews": "989"
+    },
+    {
+        "query_id": "452_28",
+        "question": "What industry is CILAS specialized in?",
+        "answers": [
+            "laser",
+            "light amplification by stimulated emission of radiation"
+        ],
+        "pageviews": "357"
+    },
+    {
+        "query_id": "452_29",
+        "question": "What industry is Claas in?",
+        "answers": [
+            "agricultural machine",
+            "agricultural machinery",
+            "farm machinery",
+            "machinery industry and plant construction",
+            "agriculture"
+        ],
+        "pageviews": "6031"
+    },
+    {
+        "query_id": "452_30",
+        "question": "What specific industry was Sports Authority in?",
+        "answers": [
+            "retail",
+            "retail industry",
+            "retailer",
+            "retail sales",
+            "retailing",
+            "retail trade"
+        ],
+        "pageviews": "7379"
+    },
+    {
+        "query_id": "452_31",
+        "question": "What specific industry is Fruition in?",
+        "answers": [
+            "online marketing",
+            "digital marketing",
+            "internet marketing"
+        ],
+        "pageviews": "466"
+    },
+    {
+        "query_id": "452_32",
+        "question": "What specific industry is Tanishq known for?",
+        "answers": [
+            "jewelry art",
+            "jewelry making",
+            "jewellery making",
+            "jewellery",
+            "jewelry"
+        ],
+        "pageviews": "15538"
+    },
+    {
+        "query_id": "452_33",
+        "question": "What industry is Unisys in?",
+        "answers": [
+            "IT",
+            "consulting",
+            "information technology",
+            "IT service support management",
+            "ITSM",
+            "data analytics indstury",
+            "IT service management",
+            "I.T.",
+            "info tech",
+            "data analytics software industry"
+        ],
+        "pageviews": "9369"
+    },
+    {
+        "query_id": "452_34",
+        "question": "What industry is BYD Auto in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "automotive",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers"
+        ],
+        "pageviews": "21289"
+    },
+    {
+        "query_id": "452_35",
+        "question": "What specific industry is Specsavers in?",
+        "answers": [
+            "optician",
+            "retail",
+            "retail industry",
+            "retail sales",
+            "retailing",
+            "retail trade"
+        ],
+        "pageviews": "8399"
+    },
+    {
+        "query_id": "452_36",
+        "question": "What industry is Westpac in?",
+        "answers": [
+            "Finance",
+            "economics of banking",
+            "banking industry",
+            "banking sector",
+            "FS industry",
+            "bank industry",
+            "Financial activities",
+            "financial services",
+            "banking",
+            "finance industry"
+        ],
+        "pageviews": "16910"
+    },
+    {
+        "query_id": "452_37",
+        "question": "What specific industry is Housing Development Finance Corporation in?",
+        "answers": [
+            "financial services",
+            "finance industry",
+            "FS industry",
+            "Financial activities"
+        ],
+        "pageviews": "20377"
+    },
+    {
+        "query_id": "452_38",
+        "question": "What is the specific industry of Regency Centers?",
+        "answers": [
+            "real estate investment trust",
+            "REIT"
+        ],
+        "pageviews": "1688"
+    },
+    {
+        "query_id": "452_39",
+        "question": "What specific industry does Polymateria, a British technology company, develop biodegradable products for?",
+        "answers": [
+            "Masterbatch",
+            "biodegradable products",
+            "biodegradable plastic"
+        ],
+        "pageviews": "451"
+    },
+    {
+        "query_id": "452_40",
+        "question": "What specific industry is Spur Steak Ranches in?",
+        "answers": [
+            "restaurants",
+            "eating house",
+            "restaurant",
+            "eateries",
+            "eatery",
+            "eating houses"
+        ],
+        "pageviews": "3777"
+    },
+    {
+        "query_id": "452_41",
+        "question": "What industry is Fedrigoni in?",
+        "answers": [
+            "manufacturing",
+            "manufacturing industry",
+            "manufacture",
+            "paper",
+            "Manufacturing"
+        ],
+        "pageviews": "368"
+    },
+    {
+        "query_id": "452_42",
+        "question": "What industry is CSL Limited in?",
+        "answers": [
+            "biotech",
+            "biotechnology",
+            "BT"
+        ],
+        "pageviews": "6782"
+    },
+    {
+        "query_id": "452_43",
+        "question": "What industry is Interpolis in?",
+        "answers": [
+            "insurance",
+            "insurance companies"
+        ],
+        "pageviews": "358"
+    },
+    {
+        "query_id": "452_44",
+        "question": "What industry is Hovnanian Enterprises in?",
+        "answers": [
+            "building",
+            "construction",
+            "construction work",
+            "homebuilding",
+            "building construction"
+        ],
+        "pageviews": "1703"
+    },
+    {
+        "query_id": "452_45",
+        "question": "What specific industry is TriStar Television in?",
+        "answers": [
+            "television",
+            "TV"
+        ],
+        "pageviews": "1600"
+    },
+    {
+        "query_id": "452_46",
+        "question": "What specific industry is Budapesti K\u00f6zleked\u00e9si Zrt. in?",
+        "answers": [
+            "public transportation",
+            "mass transit",
+            "public transit",
+            "public transport"
+        ],
+        "pageviews": "556"
+    },
+    {
+        "query_id": "452_47",
+        "question": "What specific industry is Arista Networks in?",
+        "answers": [
+            "computer network",
+            "computer network technologies and services",
+            "network"
+        ],
+        "pageviews": "6747"
+    },
+    {
+        "query_id": "452_48",
+        "question": "What specific industry is Nobleworks in?",
+        "answers": [
+            "greeting card",
+            "greetings card",
+            "greeting cards",
+            "card"
+        ],
+        "pageviews": "37"
+    },
+    {
+        "query_id": "452_49",
+        "question": "In which industry does Global Relay provide software-as-a-service electronic message archiving?",
+        "answers": [
+            "Service as a Software Substitute",
+            "enterprise software",
+            "SaaS",
+            "software-as-a-service",
+            "SaaSS",
+            "on-demand software",
+            "Enterprise Application Software",
+            "EAS",
+            "software as a service"
+        ],
+        "pageviews": "1096"
+    },
+    {
+        "query_id": "452_50",
+        "question": "What industry does Canadian Tire operate in?",
+        "answers": [
+            "Finance",
+            "retail",
+            "finance",
+            "retail industry",
+            "retail sales",
+            "retailing",
+            "retail trade"
+        ],
+        "pageviews": "27785"
+    },
+    {
+        "query_id": "452_51",
+        "question": "What specific industry was Lexent Metro Connect in?",
+        "answers": [
+            "telecommunication",
+            "electric communication",
+            "telecommunications",
+            "telecom"
+        ],
+        "pageviews": "161"
+    },
+    {
+        "query_id": "452_52",
+        "question": "What specific industry is Holcim Group in?",
+        "answers": [
+            "building material",
+            "construction material",
+            "construction materials"
+        ],
+        "pageviews": "8082"
+    },
+    {
+        "query_id": "452_53",
+        "question": "What industry was John Payne Ltd involved in?",
+        "answers": [
+            "shipbuilder",
+            "shipbuilding industry",
+            "ship building",
+            "shipbuilding",
+            "ship-building"
+        ],
+        "pageviews": "120"
+    },
+    {
+        "query_id": "452_54",
+        "question": "What industry is Altria in?",
+        "answers": [
+            "food & beverages",
+            "tobacco companies",
+            "tobacco industry",
+            "food & drink",
+            "food and drink",
+            "food industry",
+            "food and beverages"
+        ],
+        "pageviews": "39679"
+    },
+    {
+        "query_id": "452_55",
+        "question": "What industry is Qarbon in?",
+        "answers": [
+            "software company",
+            "software",
+            "computer software",
+            "computational tool"
+        ],
+        "pageviews": "126"
+    },
+    {
+        "query_id": "452_56",
+        "question": "What specific industry is O'Tacos in?",
+        "answers": [
+            "fast food"
+        ],
+        "pageviews": "1624"
+    },
+    {
+        "query_id": "452_57",
+        "question": "What industry was William Beardmore and Company involved in?",
+        "answers": [
+            "locomotive works",
+            "automobile industry",
+            "automotive industry",
+            "shipbuilding industry",
+            "ship building",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "locomotive manufacturing",
+            "shipbuilding",
+            "machinery industry and plant construction",
+            "metal industry",
+            "ship-building"
+        ],
+        "pageviews": "1549"
+    },
+    {
+        "query_id": "452_58",
+        "question": "What specific industry was the Michigan-Peninsular Car Company involved in?",
+        "answers": [
+            "rail transport",
+            "railroading",
+            "railroad transport",
+            "transport by rail",
+            "railway transport",
+            "railroad",
+            "train transport",
+            "train transportation"
+        ],
+        "pageviews": "99"
+    },
+    {
+        "query_id": "452_59",
+        "question": "What industry is Clubfinance in?",
+        "answers": [
+            "financial services",
+            "finance industry",
+            "FS industry",
+            "Financial activities"
+        ],
+        "pageviews": "297"
+    },
+    {
+        "query_id": "452_60",
+        "question": "What industry is Benefit Cosmetics in?",
+        "answers": [
+            "makeup",
+            "make up",
+            "perfume industry",
+            "make-up",
+            "cosmetics",
+            "cosmetics industry",
+            "beauty industry",
+            "Beauty Culture"
+        ],
+        "pageviews": "3791"
+    },
+    {
+        "query_id": "452_61",
+        "question": "What industry is Supermicro in?",
+        "answers": [
+            "IT",
+            "information technology",
+            "I.T.",
+            "info tech"
+        ],
+        "pageviews": "3399"
+    },
+    {
+        "query_id": "452_62",
+        "question": "What industry is Technofarm International involved in?",
+        "answers": [
+            "agriculture",
+            "agricultural"
+        ],
+        "pageviews": "110"
+    },
+    {
+        "query_id": "452_63",
+        "question": "What is the specific industry of Digikala?",
+        "answers": [
+            "electronic commerce",
+            "eCommerce",
+            "retail",
+            "retail industry",
+            "e-business",
+            "E-Commerce",
+            "e-commerce",
+            "Internet commerce",
+            "online commerce",
+            "retail sales",
+            "retailing",
+            "retail trade"
+        ],
+        "pageviews": "8322"
+    },
+    {
+        "query_id": "452_64",
+        "question": "What is the specific industry of Rockbridge Associates?",
+        "answers": [
+            "marketing research",
+            "market research"
+        ],
+        "pageviews": "111"
+    },
+    {
+        "query_id": "452_65",
+        "question": "What industry is Ingenic Semiconductor in?",
+        "answers": [
+            "semiconductor",
+            "semiconductor industry"
+        ],
+        "pageviews": "1066"
+    },
+    {
+        "query_id": "452_66",
+        "question": "What industry is Nyherji in?",
+        "answers": [
+            "IT",
+            "information technology",
+            "I.T.",
+            "info tech"
+        ],
+        "pageviews": "120"
+    },
+    {
+        "query_id": "452_67",
+        "question": "What specific industry is Johann Maria Farina gegen\u00fcber dem J\u00fclichs-Platz GmbH known for?",
+        "answers": [
+            "perfume",
+            "parfum",
+            "Perfume"
+        ],
+        "pageviews": "728"
+    },
+    {
+        "query_id": "452_68",
+        "question": "What type of financial institution is Appaloosa Management?",
+        "answers": [
+            "managed fund",
+            "hedge fund"
+        ],
+        "pageviews": "5205"
+    },
+    {
+        "query_id": "452_69",
+        "question": "What industry is Hoffmann-La Roche a part of?",
+        "answers": [
+            "pharma industry",
+            "pharmaceutical companies",
+            "pharmaceutical wholesaler",
+            "pharma",
+            "chemical industry",
+            "drug industry",
+            "pharmaceutical industry"
+        ],
+        "pageviews": "7212"
+    },
+    {
+        "query_id": "452_70",
+        "question": "What industry is Dealz in?",
+        "answers": [
+            "retail",
+            "retail industry",
+            "retailer",
+            "retail sales",
+            "retailing",
+            "retail trade"
+        ],
+        "pageviews": "1369"
+    },
+    {
+        "query_id": "452_71",
+        "question": "What specific industry was June Pictures in?",
+        "answers": [
+            "entertainment",
+            "Entertainment Film Distributors"
+        ],
+        "pageviews": "592"
+    },
+    {
+        "query_id": "452_72",
+        "question": "What specific industry is Hengan International in?",
+        "answers": [
+            "hygiene"
+        ],
+        "pageviews": "616"
+    },
+    {
+        "query_id": "452_73",
+        "question": "What specific industry is The Ghost Club involved in?",
+        "answers": [
+            "ghost hunting",
+            "paranormal investigation"
+        ],
+        "pageviews": "2865"
+    },
+    {
+        "query_id": "452_74",
+        "question": "What specific industry is The Rank Group in?",
+        "answers": [
+            "wagering",
+            "luck-based game",
+            "gambling",
+            "gaming",
+            "luck-based games"
+        ],
+        "pageviews": "3089"
+    },
+    {
+        "query_id": "452_75",
+        "question": "What industry does Gassled belong to?",
+        "answers": [
+            "oil industry",
+            "crude petroleum and natural gas production",
+            "oil and gas industry",
+            "petroleum industry",
+            "petroleum companies"
+        ],
+        "pageviews": "357"
+    },
+    {
+        "query_id": "452_76",
+        "question": "What industry is The Coca-Cola Company in?",
+        "answers": [
+            "consumer packaged goods",
+            "food & beverages",
+            "food & drink",
+            "FMCG",
+            "food and drink",
+            "drink industry",
+            "beverage industry",
+            "CPG",
+            "food industry",
+            "food and beverages",
+            "beverage corporation",
+            "fast-moving consumer goods"
+        ],
+        "pageviews": "100666"
+    },
+    {
+        "query_id": "452_77",
+        "question": "What specific industry is Firehouse Subs in?",
+        "answers": [
+            "restaurants",
+            "eating house",
+            "restaurant",
+            "eateries",
+            "eatery",
+            "eating houses"
+        ],
+        "pageviews": "5678"
+    },
+    {
+        "query_id": "452_78",
+        "question": "What is the industry of Viru Keemia Grupp?",
+        "answers": [
+            "oil shale industry",
+            "Oil shale industry"
+        ],
+        "pageviews": "373"
+    },
+    {
+        "query_id": "452_79",
+        "question": "What is Cbonds?",
+        "answers": [
+            "newswire",
+            "news agency",
+            "press agency",
+            "news service",
+            "news wire",
+            "wire service"
+        ],
+        "pageviews": "493"
+    },
+    {
+        "query_id": "452_80",
+        "question": "What specific industry is Wanimagazine known for?",
+        "answers": [
+            "hentai manga",
+            "hentai"
+        ],
+        "pageviews": "1344"
+    },
+    {
+        "query_id": "452_81",
+        "question": "What is Ukrinform?",
+        "answers": [
+            "newswire",
+            "news agency",
+            "mass media",
+            "the media",
+            "mass medium",
+            "international broadcasting",
+            "press agency",
+            "news service",
+            "news wire",
+            "wire service"
+        ],
+        "pageviews": "1312"
+    },
+    {
+        "query_id": "452_82",
+        "question": "What specific industry is 2015, Inc. in?",
+        "answers": [
+            "game",
+            "vg",
+            "vidya",
+            "videogames",
+            "videogame",
+            "video games",
+            "video game"
+        ],
+        "pageviews": "692"
+    },
+    {
+        "query_id": "452_83",
+        "question": "What industry is the Fordham Company in?",
+        "answers": [
+            "real estate development",
+            "property development",
+            "Real estate development"
+        ],
+        "pageviews": "158"
+    },
+    {
+        "query_id": "452_84",
+        "question": "What industry is Craft Brew Alliance in?",
+        "answers": [
+            "brewing"
+        ],
+        "pageviews": "1728"
+    },
+    {
+        "query_id": "452_85",
+        "question": "What is Maple Landmark Woodcraft's specific industry?",
+        "answers": [
+            "manufacturing",
+            "manufacturing industry",
+            "manufacture",
+            "Manufacturing",
+            "manufacturer"
+        ],
+        "pageviews": "154"
+    },
+    {
+        "query_id": "452_86",
+        "question": "What industry is Aral AG in?",
+        "answers": [
+            "coke works",
+            "industrial mining",
+            "mineral industry",
+            "oil industry",
+            "mining industry",
+            "coke plant",
+            "crude petroleum and natural gas production",
+            "oil and gas industry",
+            "petroleum industry",
+            "Extraction and Processing Industry",
+            "coking facility",
+            "coking plant",
+            "coking works",
+            "oil company"
+        ],
+        "pageviews": "2472"
+    },
+    {
+        "query_id": "452_87",
+        "question": "What is Abt Electronics?",
+        "answers": [
+            "retail",
+            "retail industry",
+            "retailer",
+            "retail sales",
+            "retailing",
+            "retail trade"
+        ],
+        "pageviews": "1285"
+    },
+    {
+        "query_id": "452_88",
+        "question": "What industry is AMAG Pharmaceuticals in?",
+        "answers": [
+            "pharma industry",
+            "pharmaceutical wholesaler",
+            "pharmaceutical company",
+            "pharma",
+            "drug industry",
+            "pharmaceutical industry"
+        ],
+        "pageviews": "462"
+    },
+    {
+        "query_id": "452_89",
+        "question": "What industry is Santam in?",
+        "answers": [
+            "financial services",
+            "finance industry",
+            "FS industry",
+            "Financial activities"
+        ],
+        "pageviews": "840"
+    },
+    {
+        "query_id": "452_90",
+        "question": "What specific industry does Nampak specialize in?",
+        "answers": [
+            "packaging and labeling",
+            "packaging"
+        ],
+        "pageviews": "803"
+    },
+    {
+        "query_id": "452_91",
+        "question": "What industry is MG Rover Group in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "automotive",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers"
+        ],
+        "pageviews": "7327"
+    },
+    {
+        "query_id": "452_92",
+        "question": "What specific industry is BMV Group in?",
+        "answers": [
+            "financial services",
+            "finance industry",
+            "FS industry",
+            "Financial activities"
+        ],
+        "pageviews": "635"
+    },
+    {
+        "query_id": "452_93",
+        "question": "What specific industry is Tuscan Dairy Farms in?",
+        "answers": [
+            "dairy"
+        ],
+        "pageviews": "446"
+    },
+    {
+        "query_id": "452_94",
+        "question": "What specific industry is McKinnon Broadcasting in?",
+        "answers": [
+            "broadcasting"
+        ],
+        "pageviews": "669"
+    },
+    {
+        "query_id": "452_95",
+        "question": "What industry is El-Mokawloon El-Arab in?",
+        "answers": [
+            "construction",
+            "building",
+            "building construction",
+            "construction work"
+        ],
+        "pageviews": "20"
+    },
+    {
+        "query_id": "452_96",
+        "question": "What specific industry was My Local in?",
+        "answers": [
+            "Food Mart",
+            "Food Marts",
+            "corner store",
+            "convenience shop",
+            "C-store",
+            "convenience store",
+            "convenience shops",
+            "daily consumer goods store",
+            "CVS",
+            "grocery store"
+        ],
+        "pageviews": "550"
+    },
+    {
+        "query_id": "452_97",
+        "question": "What specific industry does Carl K\u00fchne KG belong to?",
+        "answers": [
+            "food & beverages",
+            "food & drink",
+            "food and drink",
+            "food industry",
+            "food and beverages",
+            "food industries"
+        ],
+        "pageviews": "446"
+    },
+    {
+        "query_id": "452_98",
+        "question": "What industry is Summit Nutritionals International in?",
+        "answers": [
+            "pharma industry",
+            "pharmaceutical",
+            "pharmaceutical wholesaler",
+            "pharma",
+            "drug industry",
+            "pharmaceutical industry"
+        ],
+        "pageviews": "208"
+    },
+    {
+        "query_id": "452_99",
+        "question": "What industry was Carson's in?",
+        "answers": [
+            "retail",
+            "retail industry",
+            "retail sales",
+            "retailing",
+            "retail trade"
+        ],
+        "pageviews": "2297"
+    },
+    {
+        "query_id": "452_100",
+        "question": "What industry does Thinking Pictures specialize in?",
+        "answers": [
+            "software",
+            "software industry",
+            "computer software industry"
+        ],
+        "pageviews": "88"
+    },
+    {
+        "query_id": "452_101",
+        "question": "What specific industry is Alte Taverne in?",
+        "answers": [
+            "restaurants",
+            "eating house",
+            "restaurant",
+            "eateries",
+            "eatery",
+            "eating houses"
+        ],
+        "pageviews": "60"
+    },
+    {
+        "query_id": "452_102",
+        "question": "What specific industry does the Redpath Museum belong to?",
+        "answers": [
+            "natural history"
+        ],
+        "pageviews": "544"
+    },
+    {
+        "query_id": "452_103",
+        "question": "What specific industry is DX Group involved in?",
+        "answers": [
+            "logistics industry",
+            "logistics"
+        ],
+        "pageviews": "1875"
+    },
+    {
+        "query_id": "452_104",
+        "question": "What specific industry is Metals and Engineering Corporation involved in?",
+        "answers": [
+            "arms industry",
+            "arms",
+            "arms trade",
+            "weapons industry"
+        ],
+        "pageviews": "440"
+    },
+    {
+        "query_id": "452_105",
+        "question": "What specific industry is Tanzania Posts Corporation responsible for?",
+        "answers": [
+            "postal service",
+            "post",
+            "mail system",
+            "mail",
+            "parcel system",
+            "postal system"
+        ],
+        "pageviews": "1517"
+    },
+    {
+        "query_id": "452_106",
+        "question": "What is Manufacturers Hanover Corporation?",
+        "answers": [
+            "bank holding company"
+        ],
+        "pageviews": "1979"
+    },
+    {
+        "query_id": "452_107",
+        "question": "What industry is LabCentral in?",
+        "answers": [
+            "biotech",
+            "biotechnology",
+            "BT"
+        ],
+        "pageviews": "373"
+    },
+    {
+        "query_id": "452_108",
+        "question": "What specific industry is Paradigm Concepts known for in relation to their successful performance at the Origins Game Fair?",
+        "answers": [
+            "RPG",
+            "role playing game",
+            "role-playing game",
+            "roleplaying game"
+        ],
+        "pageviews": "90"
+    },
+    {
+        "query_id": "452_109",
+        "question": "What industry does KKE Architects serve in?",
+        "answers": [
+            "architecture"
+        ],
+        "pageviews": "134"
+    },
+    {
+        "query_id": "452_110",
+        "question": "What is the industry of Chandigarh Transport Undertaking?",
+        "answers": [
+            "public transportation",
+            "mass transit",
+            "public transit",
+            "public transport"
+        ],
+        "pageviews": "532"
+    },
+    {
+        "query_id": "452_111",
+        "question": "What industry does Sarcos specialize in?",
+        "answers": [
+            "robotics",
+            "robotic"
+        ],
+        "pageviews": "1408"
+    },
+    {
+        "query_id": "452_112",
+        "question": "What industry is Integrated Telecom Company in?",
+        "answers": [
+            "telecommunication",
+            "telecommunications",
+            "telecom",
+            "electric communication"
+        ],
+        "pageviews": "1560"
+    },
+    {
+        "query_id": "452_113",
+        "question": "What is the specific industry that Nexenta Systems, Inc. focuses on, in terms of computer software?",
+        "answers": [
+            "memory",
+            "storage",
+            "computer data storage",
+            "computer storage",
+            "data storage"
+        ],
+        "pageviews": "392"
+    },
+    {
+        "query_id": "452_114",
+        "question": "What industry is IHH Healthcare in?",
+        "answers": [
+            "healthcare",
+            "medical care",
+            "health profession",
+            "health-care",
+            "health care",
+            "delivery of health care"
+        ],
+        "pageviews": "4529"
+    },
+    {
+        "query_id": "452_115",
+        "question": "What industry is SORAS Group Limited in?",
+        "answers": [
+            "FS industry",
+            "Financial activities",
+            "insurance",
+            "financial services",
+            "finance industry"
+        ],
+        "pageviews": "173"
+    },
+    {
+        "query_id": "452_116",
+        "question": "What specific industry of company or organization is related to passengers per hour per direction?",
+        "answers": [
+            "public transportation",
+            "mass transit",
+            "public transit",
+            "public transport"
+        ],
+        "pageviews": "4"
+    },
+    {
+        "query_id": "452_117",
+        "question": "What industry is BP a major company in?",
+        "answers": [
+            "crude petroleum and natural gas production",
+            "oil and gas industry",
+            "petroleum industry",
+            "oil industry"
+        ],
+        "pageviews": "91586"
+    },
+    {
+        "query_id": "452_118",
+        "question": "What industry does the Automotive Dealership Institute specialize in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "auto industry"
+        ],
+        "pageviews": "101"
+    },
+    {
+        "query_id": "452_119",
+        "question": "What specific industry was the Magic Circle of the German Democratic Republic involved in?",
+        "answers": [
+            "close up magic",
+            "illusion",
+            "magic",
+            "magicians'",
+            "stage magic"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "452_120",
+        "question": "What specific industry was the Royal Navy Dockyard involved in?",
+        "answers": [
+            "ship building",
+            "shipbuilding industry",
+            "shipbuilding",
+            "ship-building"
+        ],
+        "pageviews": "1890"
+    },
+    {
+        "query_id": "452_121",
+        "question": "What specific industry is Tuonela Productions Ltd in?",
+        "answers": [
+            "game",
+            "vg",
+            "vidya",
+            "videogames",
+            "digital games",
+            "videogame",
+            "video games",
+            "video game"
+        ],
+        "pageviews": "23"
+    },
+    {
+        "query_id": "452_122",
+        "question": "What industry was the UK Contractors Group involved in?",
+        "answers": [
+            "construction",
+            "building",
+            "building construction",
+            "construction work"
+        ],
+        "pageviews": "225"
+    },
+    {
+        "query_id": "452_123",
+        "question": "What specific services does Certisign provide in the field of security and consulting?",
+        "answers": [
+            "identity certificate",
+            "public key certificate",
+            "certificate",
+            "digital certificate"
+        ],
+        "pageviews": "288"
+    },
+    {
+        "query_id": "452_124",
+        "question": "What industry was Degr\u00e9mont involved in?",
+        "answers": [
+            "water treatment"
+        ],
+        "pageviews": "426"
+    },
+    {
+        "query_id": "452_125",
+        "question": "What specific industry was Virsa Systems in?",
+        "answers": [
+            "compliance",
+            "Regulatory compliance"
+        ],
+        "pageviews": "163"
+    },
+    {
+        "query_id": "452_126",
+        "question": "What specific industry is Kenya Reinsurance Corporation in?",
+        "answers": [
+            "reinsurance"
+        ],
+        "pageviews": "524"
+    },
+    {
+        "query_id": "452_127",
+        "question": "What industry is Central Color in?",
+        "answers": [
+            "photography"
+        ],
+        "pageviews": "19"
+    },
+    {
+        "query_id": "452_128",
+        "question": "What industry is Hollister Co. in?",
+        "answers": [
+            "retail",
+            "apparel industry",
+            "clothing industry",
+            "retail industry",
+            "fashion industry",
+            "garment industry",
+            "retail sales",
+            "retailing",
+            "retail trade"
+        ],
+        "pageviews": "13905"
+    },
+    {
+        "query_id": "452_129",
+        "question": "What specific industry is DHL in?",
+        "answers": [
+            "transport of cargo",
+            "goods transport",
+            "freight transport",
+            "logistics industry",
+            "freight",
+            "logistics",
+            "transport of freight",
+            "shipping",
+            "cargo transport"
+        ],
+        "pageviews": "61721"
+    },
+    {
+        "query_id": "452_130",
+        "question": "What industry was CGU plc in?",
+        "answers": [
+            "insurance"
+        ],
+        "pageviews": "943"
+    },
+    {
+        "query_id": "452_131",
+        "question": "What specific industry was Gidani involved in?",
+        "answers": [
+            "wagering",
+            "luck-based game",
+            "gambling",
+            "gaming",
+            "luck-based games"
+        ],
+        "pageviews": "96"
+    },
+    {
+        "query_id": "452_132",
+        "question": "What specific industry is Gladstone Publishing in?",
+        "answers": [
+            "comics work",
+            "comics",
+            "sequential art",
+            "comix",
+            "ninth art"
+        ],
+        "pageviews": "395"
+    },
+    {
+        "query_id": "452_133",
+        "question": "What industry is Yandex in?",
+        "answers": [
+            "the Internet",
+            "computer software industry",
+            "the Net",
+            "software industry",
+            "global Internet",
+            "internet industry",
+            "internet",
+            "Internet",
+            "Net"
+        ],
+        "pageviews": "116172"
+    },
+    {
+        "query_id": "452_134",
+        "question": "What specific industry is the performing arts presenting organization involved in?",
+        "answers": [
+            "performing art",
+            "performing arts",
+            "Performing arts"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "452_135",
+        "question": "What is the specific industry of Packages Limited?",
+        "answers": [
+            "packaging and labeling",
+            "packaging"
+        ],
+        "pageviews": "1692"
+    },
+    {
+        "query_id": "452_136",
+        "question": "What does Ittefaq Iron Industries manufacture?",
+        "answers": [
+            "steel"
+        ],
+        "pageviews": "320"
+    },
+    {
+        "query_id": "452_137",
+        "question": "What specific industry was Paramount Television in?",
+        "answers": [
+            "television production",
+            "television",
+            "TV production",
+            "TV"
+        ],
+        "pageviews": "4438"
+    },
+    {
+        "query_id": "452_138",
+        "question": "What specific industry is CEVA Logistics in?",
+        "answers": [
+            "logistics industry",
+            "logistics"
+        ],
+        "pageviews": "4226"
+    },
+    {
+        "query_id": "452_139",
+        "question": "What specific industry is Geothermal Engineering Ltd. involved in?",
+        "answers": [
+            "geothermal energy",
+            "Geothermal energy"
+        ],
+        "pageviews": "274"
+    },
+    {
+        "query_id": "452_140",
+        "question": "In which two main areas is Midwest Radio Network's global media business concentrated?",
+        "answers": [
+            "press",
+            "machine-readable data",
+            "digital media",
+            "news industry",
+            "broadcasting",
+            "news media",
+            "news business"
+        ],
+        "pageviews": "147"
+    },
+    {
+        "query_id": "452_141",
+        "question": "What specific industry was the Wynental and Suhrental Railway involved in?",
+        "answers": [
+            "rail transport",
+            "railroading",
+            "railroad transport",
+            "railway",
+            "transport by rail",
+            "railway transport",
+            "train transport",
+            "train transportation"
+        ],
+        "pageviews": "96"
+    },
+    {
+        "query_id": "452_142",
+        "question": "In which specific industry does Pan Am Railways operate, specifically in the field of what type of transportation?",
+        "answers": [
+            "rail transport",
+            "railroading",
+            "railroad transport",
+            "transport by rail",
+            "railway transport",
+            "passenger rail service",
+            "train transport",
+            "train transportation"
+        ],
+        "pageviews": "4127"
+    },
+    {
+        "query_id": "452_143",
+        "question": "What industry was the American Motor Car Company in?",
+        "answers": [
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automobile industry",
+            "automotive industry"
+        ],
+        "pageviews": "319"
+    },
+    {
+        "query_id": "452_144",
+        "question": "What industry is State Bank of India in?",
+        "answers": [
+            "Finance",
+            "economics of banking",
+            "banking industry",
+            "banking sector",
+            "FS industry",
+            "bank industry",
+            "Financial activities",
+            "financial service",
+            "financial services",
+            "banking",
+            "finance industry"
+        ],
+        "pageviews": "139290"
+    },
+    {
+        "query_id": "452_145",
+        "question": "What specific industry is Tapal Tea based in?",
+        "answers": [
+            "tea"
+        ],
+        "pageviews": "1631"
+    },
+    {
+        "query_id": "452_146",
+        "question": "In which industry is Te Aponga Uira involved in as a Cook Islands electricity generator, distributor, and retailer?",
+        "answers": [
+            "method of generation of electricity",
+            "electricity generation",
+            "method of electricity generation",
+            "generator",
+            "generation of electricity"
+        ],
+        "pageviews": "66"
+    },
+    {
+        "query_id": "452_147",
+        "question": "What industry is Tandanor involved in?",
+        "answers": [
+            "ship building",
+            "shipbuilding industry",
+            "shipbuilding",
+            "ship-building"
+        ],
+        "pageviews": "348"
+    },
+    {
+        "query_id": "452_148",
+        "question": "What industry is EmazingLights in?",
+        "answers": [
+            "retail",
+            "retail industry",
+            "retail sales",
+            "retailing",
+            "retail trade"
+        ],
+        "pageviews": "378"
+    },
+    {
+        "query_id": "452_149",
+        "question": "What is Act3animation's industry?",
+        "answers": [
+            "CGI",
+            "computer-generated imagery"
+        ],
+        "pageviews": "255"
+    },
+    {
+        "query_id": "452_150",
+        "question": "What specific industry was Jacksons Stores in?",
+        "answers": [
+            "Food Marts",
+            "corner store",
+            "convenience shop",
+            "C-store",
+            "convenience store",
+            "Food Mart",
+            "daily consumer goods store",
+            "CVS",
+            "grocery store"
+        ],
+        "pageviews": "432"
+    },
+    {
+        "query_id": "452_151",
+        "question": "What industry is Jeffree Star Cosmetics in?",
+        "answers": [
+            "makeup",
+            "make up",
+            "perfume industry",
+            "make-up",
+            "cosmetics",
+            "cosmetics industry",
+            "beauty industry",
+            "Beauty Culture"
+        ],
+        "pageviews": "3222"
+    },
+    {
+        "query_id": "452_152",
+        "question": "What industry is R.J. Corman Railroad Group involved in?",
+        "answers": [
+            "rail transport",
+            "railroading",
+            "railroad transport",
+            "transport by rail",
+            "railway transport",
+            "railroad",
+            "train transport",
+            "train transportation"
+        ],
+        "pageviews": "1183"
+    },
+    {
+        "query_id": "452_153",
+        "question": "What industry is Luxgen in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "automotive",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers"
+        ],
+        "pageviews": "2726"
+    },
+    {
+        "query_id": "452_154",
+        "question": "What specific industry is Magnetar Capital in?",
+        "answers": [
+            "managed fund",
+            "hedge fund"
+        ],
+        "pageviews": "6009"
+    },
+    {
+        "query_id": "452_155",
+        "question": "What industry is Telephone and Data Systems in?",
+        "answers": [
+            "telecommunication",
+            "electric communication",
+            "telecommunications",
+            "telecom"
+        ],
+        "pageviews": "1871"
+    },
+    {
+        "query_id": "452_156",
+        "question": "What industry is Braeburn Capital in?",
+        "answers": [
+            "asset management"
+        ],
+        "pageviews": "4588"
+    },
+    {
+        "query_id": "452_157",
+        "question": "What industry is The Leavitt Group in?",
+        "answers": [
+            "insurance",
+            "insurance agencies"
+        ],
+        "pageviews": "216"
+    },
+    {
+        "query_id": "452_158",
+        "question": "What industry is Gen Re in?",
+        "answers": [
+            "insurance",
+            "reinsurance"
+        ],
+        "pageviews": "1991"
+    },
+    {
+        "query_id": "452_159",
+        "question": "What specific industry is the Soci\u00e9t\u00e9 entomologique de France devoted to?",
+        "answers": [
+            "Entomology",
+            "study of insects",
+            "entomology"
+        ],
+        "pageviews": "134"
+    },
+    {
+        "query_id": "452_160",
+        "question": "What specific industry is Apax Partners in?",
+        "answers": [
+            "seed capital",
+            "venture capital",
+            "private equity",
+            "VC",
+            "risk capital"
+        ],
+        "pageviews": "8863"
+    },
+    {
+        "query_id": "452_161",
+        "question": "What specific industry was Immunomedics (United States) focused on?",
+        "answers": [
+            "biotech",
+            "biotechnology",
+            "BT"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "452_162",
+        "question": "What specific industry is Avalon Waterways in?",
+        "answers": [
+            "tourism",
+            "river cruise"
+        ],
+        "pageviews": "529"
+    },
+    {
+        "query_id": "452_163",
+        "question": "What specific industry is Synaffix in?",
+        "answers": [
+            "biotech",
+            "biotechnology",
+            "BT"
+        ],
+        "pageviews": "96"
+    },
+    {
+        "query_id": "452_164",
+        "question": "What is the specific industry of United Rentals?",
+        "answers": [
+            "equipment rental",
+            "Equipment rental"
+        ],
+        "pageviews": "4217"
+    },
+    {
+        "query_id": "452_165",
+        "question": "What industry is Hsin Tung Yang in?",
+        "answers": [
+            "food service",
+            "catering industry",
+            "foodservice",
+            "meals on wheels"
+        ],
+        "pageviews": "199"
+    },
+    {
+        "query_id": "452_166",
+        "question": "What industry was Mahindra Satyam in?",
+        "answers": [
+            "IT",
+            "information technology",
+            "I.T.",
+            "info tech"
+        ],
+        "pageviews": "7321"
+    },
+    {
+        "query_id": "452_167",
+        "question": "What industry is American Spirit Media, LLC in?",
+        "answers": [
+            "broadcasting"
+        ],
+        "pageviews": "551"
+    },
+    {
+        "query_id": "452_168",
+        "question": "What specific industry is the Compagnie des chemins de fer de Paris \u00e0 Lyon et \u00e0 la M\u00e9diterran\u00e9e involved in?",
+        "answers": [
+            "rail transport",
+            "railroading",
+            "railroad transport",
+            "railway",
+            "transport by rail",
+            "railway transport",
+            "train transport",
+            "train transportation"
+        ],
+        "pageviews": "83"
+    },
+    {
+        "query_id": "452_169",
+        "question": "What kind of company was Cullinet?",
+        "answers": [
+            "software company",
+            "software development company",
+            "software house"
+        ],
+        "pageviews": "696"
+    },
+    {
+        "query_id": "452_170",
+        "question": "What specific industry is Cherokee Nation Businesses in?",
+        "answers": [
+            "conglomerate",
+            "multi-industry company",
+            "business conglomerate",
+            "conglomeration"
+        ],
+        "pageviews": "821"
+    },
+    {
+        "query_id": "452_171",
+        "question": "What industry is Etox dedicated to building sports cars in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automobile manufacturer"
+        ],
+        "pageviews": "558"
+    },
+    {
+        "query_id": "452_172",
+        "question": "What industry is Emnico Technologies in?",
+        "answers": [
+            "IT",
+            "information technology",
+            "Information technology",
+            "I.T.",
+            "info tech"
+        ],
+        "pageviews": "59"
+    },
+    {
+        "query_id": "452_173",
+        "question": "What industry is Naari in?",
+        "answers": [
+            "pharma industry",
+            "pharmaceutical wholesaler",
+            "pharmaceutical company",
+            "pharma",
+            "drug industry",
+            "pharmaceutical industry"
+        ],
+        "pageviews": "298"
+    },
+    {
+        "query_id": "452_174",
+        "question": "What industry does Stallergenes Greer specialize in?",
+        "answers": [
+            "pharma industry",
+            "pharmaceutical wholesaler",
+            "pharmaceutical company",
+            "pharma",
+            "drug industry",
+            "pharmaceutical industry"
+        ],
+        "pageviews": "384"
+    },
+    {
+        "query_id": "452_175",
+        "question": "What industry is Ulstein Group mainly known for?",
+        "answers": [
+            "ship building",
+            "shipbuilding industry",
+            "shipbuilding",
+            "ship-building"
+        ],
+        "pageviews": "620"
+    },
+    {
+        "query_id": "452_176",
+        "question": "What specific industry is Azuro, Inc. in?",
+        "answers": [
+            "ECAD",
+            "EDA",
+            "electronic computer-aided design",
+            "electronic design automation"
+        ],
+        "pageviews": "142"
+    },
+    {
+        "query_id": "452_177",
+        "question": "What industry is Beef Products in?",
+        "answers": [
+            "meat processing",
+            "meat packing industry"
+        ],
+        "pageviews": "538"
+    },
+    {
+        "query_id": "452_178",
+        "question": "What industry is Dah Chong Hong in?",
+        "answers": [
+            "conglomerate",
+            "multi-industry company",
+            "business conglomerate",
+            "conglomeration"
+        ],
+        "pageviews": "689"
+    },
+    {
+        "query_id": "452_179",
+        "question": "What industry is Exclusive Books in?",
+        "answers": [
+            "book-trade",
+            "bookselling",
+            "book trade"
+        ],
+        "pageviews": "739"
+    },
+    {
+        "query_id": "452_180",
+        "question": "What specific industry is MapD in?",
+        "answers": [
+            "software",
+            "computer software",
+            "computational tool"
+        ],
+        "pageviews": "48"
+    },
+    {
+        "query_id": "452_181",
+        "question": "What industry is Bavarian Nordic in?",
+        "answers": [
+            "biotech",
+            "biotechnology",
+            "BT"
+        ],
+        "pageviews": "830"
+    },
+    {
+        "query_id": "452_182",
+        "question": "What specific industry was the American Line involved in?",
+        "answers": [
+            "transport of cargo",
+            "goods transport",
+            "freight transport",
+            "freight",
+            "transport of freight",
+            "shipping",
+            "cargo transport"
+        ],
+        "pageviews": "873"
+    },
+    {
+        "query_id": "452_183",
+        "question": "What specific industry was Hemne Orkladal Billag involved in?",
+        "answers": [
+            "transport",
+            "transit",
+            "delivery",
+            "transportation"
+        ],
+        "pageviews": "35"
+    },
+    {
+        "query_id": "452_184",
+        "question": "What specific industry was the Great Lakes Engineering Works involved in?",
+        "answers": [
+            "ship building",
+            "shipbuilding industry",
+            "shipbuilding",
+            "ship-building"
+        ],
+        "pageviews": "678"
+    },
+    {
+        "query_id": "452_185",
+        "question": "What industry is Clearwater Paper in?",
+        "answers": [
+            "pulp and paper industry",
+            "paper making",
+            "pulp and paper",
+            "pulp industry",
+            "paper mill"
+        ],
+        "pageviews": "1098"
+    },
+    {
+        "query_id": "452_186",
+        "question": "What industry is Agnico-Eagle Mines involved in?",
+        "answers": [
+            "mine",
+            "mining",
+            "minerals extraction"
+        ],
+        "pageviews": "164"
+    },
+    {
+        "query_id": "452_187",
+        "question": "In which specific industry does Nexperia, a global semiconductor manufacturer headquartered in Nijmegen, the Netherlands, operate?",
+        "answers": [
+            "semiconductor manufacturer",
+            "semiconductor industry"
+        ],
+        "pageviews": "3208"
+    },
+    {
+        "query_id": "452_188",
+        "question": "What industry is COSMED in?",
+        "answers": [
+            "medical technology",
+            "health technology",
+            "MedTech",
+            "medtech"
+        ],
+        "pageviews": "266"
+    },
+    {
+        "query_id": "452_189",
+        "question": "What specific industry was Steel City Wrestling involved in?",
+        "answers": [
+            "professional wrestling",
+            "pro wrestling",
+            "wrestling"
+        ],
+        "pageviews": "343"
+    },
+    {
+        "query_id": "452_190",
+        "question": "What industry is Hewlett-Packard in?",
+        "answers": [
+            "computer component",
+            "computer hardware",
+            "hardware",
+            "International Standard Industrial Classification",
+            "PC hardware",
+            "hw",
+            "ISIC",
+            "IT",
+            "PC accessory",
+            "information technology",
+            "computer part",
+            "device",
+            "I.T.",
+            "info tech",
+            "PC part",
+            "PC component",
+            "computer accessory",
+            "International Standard Industrial Classification of All Economic Activities"
+        ],
+        "pageviews": "81290"
+    },
+    {
+        "query_id": "452_191",
+        "question": "What industry is Peugeot in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "automotive",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers"
+        ],
+        "pageviews": "47079"
+    },
+    {
+        "query_id": "452_192",
+        "question": "What specific industry was Ford Motor Company in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automaker"
+        ],
+        "pageviews": "159467"
+    },
+    {
+        "query_id": "452_193",
+        "question": "What specific industry is BNSF Railway involved in?",
+        "answers": [
+            "rail transport",
+            "railroading",
+            "railroad transport",
+            "railway",
+            "transport by rail",
+            "railway transport",
+            "train transport",
+            "train transportation"
+        ],
+        "pageviews": "23206"
+    },
+    {
+        "query_id": "452_194",
+        "question": "What specific industry is the Metro-Goldwyn-Mayer cartoon studio known for?",
+        "answers": [
+            "film industry",
+            "animated cartoon",
+            "cartoon",
+            "motion picture industry",
+            "animated feature",
+            "movie industry",
+            "animation"
+        ],
+        "pageviews": "6652"
+    },
+    {
+        "query_id": "452_195",
+        "question": "What industry is Volvo in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automaker"
+        ],
+        "pageviews": "46521"
+    },
+    {
+        "query_id": "452_196",
+        "question": "In which industry is Renault a multinational automobile manufacturer?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automobile manufacturer"
+        ],
+        "pageviews": "61436"
+    },
+    {
+        "query_id": "452_197",
+        "question": "What specific industry is OpenAI involved in?",
+        "answers": [
+            "A.I.",
+            "MI",
+            "A. I.",
+            "AI",
+            "artificial intelligence",
+            "cognitive computing"
+        ],
+        "pageviews": "42424"
+    },
+    {
+        "query_id": "452_198",
+        "question": "What specific industry is the freight forwarder in?",
+        "answers": [
+            "transborder transport",
+            "transportation international",
+            "border crossings",
+            "foreign transportation",
+            "logistics industry",
+            "transport international",
+            "logistics",
+            "interborder transport",
+            "international transport"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "452_199",
+        "question": "What specific industry is Fiat known for?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "automotive",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers"
+        ],
+        "pageviews": "42521"
+    },
+    {
+        "query_id": "452_200",
+        "question": "What specific industry is Walmart in?",
+        "answers": [
+            "retail store chain",
+            "chain of retail stores",
+            "chainstore",
+            "superstore",
+            "retail",
+            "discount store",
+            "big-box store",
+            "retail sales",
+            "retail industry",
+            "megastore",
+            "retail trade",
+            "supercenter",
+            "big-box stores",
+            "chain store",
+            "store chain",
+            "retail chain",
+            "retailing",
+            "chain"
+        ],
+        "pageviews": "231857"
+    },
+    {
+        "query_id": "452_201",
+        "question": "What is the specific industry that Royal Caribbean Group operates in as a company or organization?",
+        "answers": [
+            "cruise ship company",
+            "cruise line"
+        ],
+        "pageviews": "14768"
+    },
+    {
+        "query_id": "452_202",
+        "question": "What specific industry is DIC Entertainment in?",
+        "answers": [
+            "animated feature",
+            "animated",
+            "cartoon",
+            "animation"
+        ],
+        "pageviews": "14978"
+    },
+    {
+        "query_id": "452_203",
+        "question": "What industry was Simca in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automaker"
+        ],
+        "pageviews": "9382"
+    },
+    {
+        "query_id": "452_204",
+        "question": "In which industry does Deutsche Bahn generate about half of its total revenue?",
+        "answers": [
+            "rail transport",
+            "railroading",
+            "railroad transport",
+            "logistics industry",
+            "logistics",
+            "transport by rail",
+            "railway transport",
+            "train transport",
+            "train transportation"
+        ],
+        "pageviews": "21214"
+    },
+    {
+        "query_id": "452_205",
+        "question": "What specific industry is GOG.com in?",
+        "answers": [
+            "content delivery",
+            "gaming industry",
+            "electronic software distribution",
+            "ESD",
+            "video gaming industry",
+            "digital delivery",
+            "interactive entertainment industry",
+            "online distribution",
+            "game industry",
+            "video game industry",
+            "digital distribution"
+        ],
+        "pageviews": "33584"
+    },
+    {
+        "query_id": "452_206",
+        "question": "What industry is General Motors in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automobile manufacturer"
+        ],
+        "pageviews": "158278"
+    },
+    {
+        "query_id": "452_207",
+        "question": "What specific industry is IBM involved in?",
+        "answers": [
+            "computer component",
+            "computer hardware",
+            "IT consulting",
+            "IT service support management",
+            "IT service management",
+            "PC component",
+            "PC accessory",
+            "IT",
+            "information technology",
+            "ITSM",
+            "computing consultancy",
+            "PC part",
+            "PC hardware",
+            "computer consultancy",
+            "info tech",
+            "information technology consulting",
+            "hardware",
+            "hw",
+            "computer software industry",
+            "software industry",
+            "computer part",
+            "device",
+            "I.T.",
+            "IT advisory",
+            "computer accessory"
+        ],
+        "pageviews": "150160"
+    },
+    {
+        "query_id": "452_208",
+        "question": "What industry is Daimler AG in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "NACE 29.1",
+            "Manufacture of motor vehicles",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "car manufacturer"
+        ],
+        "pageviews": "72564"
+    },
+    {
+        "query_id": "452_209",
+        "question": "What industry is Scania in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automaker"
+        ],
+        "pageviews": "18073"
+    },
+    {
+        "query_id": "452_210",
+        "question": "What industry is Televisa in?",
+        "answers": [
+            "film industry",
+            "TV",
+            "mass media",
+            "the media",
+            "motion picture industry",
+            "mass medium",
+            "television",
+            "movie industry"
+        ],
+        "pageviews": "14083"
+    },
+    {
+        "query_id": "452_211",
+        "question": "What specific industry is the United States Postal Service involved in?",
+        "answers": [
+            "mail system",
+            "post",
+            "mail",
+            "parcel system",
+            "postal system"
+        ],
+        "pageviews": "58393"
+    },
+    {
+        "query_id": "452_212",
+        "question": "What industry is E3 associated with?",
+        "answers": [
+            "gaming industry",
+            "video gaming industry",
+            "interactive entertainment industry",
+            "game industry",
+            "video game industry"
+        ],
+        "pageviews": "12886"
+    },
+    {
+        "query_id": "452_213",
+        "question": "What specific industry is Royal Mail in?",
+        "answers": [
+            "postal service",
+            "post",
+            "mail system",
+            "mail",
+            "parcel system",
+            "postal system"
+        ],
+        "pageviews": "26313"
+    },
+    {
+        "query_id": "452_214",
+        "question": "What industry is Opel in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "mechanical engineering",
+            "automobile manufacturer"
+        ],
+        "pageviews": "46607"
+    },
+    {
+        "query_id": "452_215",
+        "question": "What specific industry does Hulu belong to?",
+        "answers": [
+            "VOD",
+            "AVOD",
+            "PVOD",
+            "audio and video on demand",
+            "Video on demand",
+            "premium video-on-demand",
+            "video on demand"
+        ],
+        "pageviews": "114872"
+    },
+    {
+        "query_id": "452_216",
+        "question": "What specific industry does the transit district in the Zweckverband Verkehrsverbund Oberlausitz-Niederschlesien belong to?",
+        "answers": [
+            "public transportation",
+            "mass transit",
+            "public transit",
+            "public transport"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "452_217",
+        "question": "What industry is Bayer in?",
+        "answers": [
+            "pharma industry",
+            "plastics",
+            "pharmaceutical wholesaler",
+            "pharmaceutical company",
+            "pharma",
+            "chemical industry",
+            "plastic",
+            "phytopharmaceuticals",
+            "drug industry",
+            "pharmaceutical industry"
+        ],
+        "pageviews": "48682"
+    },
+    {
+        "query_id": "452_218",
+        "question": "What specific industry is Craigslist in?",
+        "answers": [
+            "ad",
+            "classified advertising",
+            "want ad",
+            "wanted ad",
+            "advertising",
+            "want ads",
+            "wanted ads"
+        ],
+        "pageviews": "85951"
+    },
+    {
+        "query_id": "452_219",
+        "question": "What industry is Jaguar Land Rover in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "car manufacturer"
+        ],
+        "pageviews": "73117"
+    },
+    {
+        "query_id": "452_220",
+        "question": "What specific industry is the Atchison, Topeka and Santa Fe Railway involved in?",
+        "answers": [
+            "rail transport",
+            "railroading",
+            "railroad transport",
+            "transport by rail",
+            "railway transport",
+            "railroad",
+            "train transport",
+            "train transportation"
+        ],
+        "pageviews": "11588"
+    },
+    {
+        "query_id": "452_221",
+        "question": "What specific industry is Amtrak involved in?",
+        "answers": [
+            "rail transport",
+            "railroading",
+            "railroad transport",
+            "transport by rail",
+            "railway transport",
+            "passenger rail service",
+            "train transport",
+            "train transportation"
+        ],
+        "pageviews": "45155"
+    },
+    {
+        "query_id": "452_222",
+        "question": "What industry is Citigroup in?",
+        "answers": [
+            "International Standard Industrial Classification",
+            "ISIC",
+            "Financial service activities, except insurance and pension funding",
+            "FS industry",
+            "Financial activities",
+            "financial instituiton",
+            "financial services",
+            "finance industry",
+            "International Standard Industrial Classification of All Economic Activities",
+            "bank"
+        ],
+        "pageviews": "49471"
+    },
+    {
+        "query_id": "452_223",
+        "question": "What specific industry is the general manager for Studentski centar in?",
+        "answers": [
+            "basket ball",
+            "b-ball",
+            "basketball",
+            "Basketball",
+            "hoops",
+            "BB"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "452_224",
+        "question": "What specific industry is Nelvana known for?",
+        "answers": [
+            "animated feature",
+            "animated",
+            "cartoon",
+            "animation"
+        ],
+        "pageviews": "13426"
+    },
+    {
+        "query_id": "452_225",
+        "question": "What specific industry is Full Tilt Poker in?",
+        "answers": [
+            "internet poker",
+            "online poker"
+        ],
+        "pageviews": "3480"
+    },
+    {
+        "query_id": "452_226",
+        "question": "What specific industry is Flying Buffalo known for?",
+        "answers": [
+            "TTRPG",
+            "role playing game",
+            "tabletop role-playing game",
+            "role-playing game",
+            "TRPG",
+            "pen-and-paper role-playing game",
+            "roleplaying game",
+            "RPG"
+        ],
+        "pageviews": "916"
+    },
+    {
+        "query_id": "452_227",
+        "question": "What specific industry is 3D Systems involved in after acquiring Freedom of Creation in 2011?",
+        "answers": [
+            "computer-aided design",
+            "Printing, Three-Dimensional",
+            "3-D printing",
+            "3D printing",
+            "computer aided design",
+            "additive manufacturing",
+            "3D printers",
+            "CAD"
+        ],
+        "pageviews": "5064"
+    },
+    {
+        "query_id": "452_228",
+        "question": "What specific industry is Shutterstock in?",
+        "answers": [
+            "production music library",
+            "cue music",
+            "stock footage",
+            "source music",
+            "music library",
+            "production music",
+            "library music",
+            "stock photography",
+            "canned music",
+            "stock photo",
+            "stock music"
+        ],
+        "pageviews": "40963"
+    },
+    {
+        "query_id": "452_229",
+        "question": "What industry is Bethesda Softworks known for?",
+        "answers": [
+            "game",
+            "gaming industry",
+            "vg",
+            "video gaming industry",
+            "vidya",
+            "videogames",
+            "interactive entertainment industry",
+            "video games",
+            "videogame",
+            "video game",
+            "game industry",
+            "video game industry"
+        ],
+        "pageviews": "50130"
+    },
+    {
+        "query_id": "452_230",
+        "question": "What specific industry is Screen Gems known for?",
+        "answers": [
+            "motion picture",
+            "TV",
+            "cinematic work",
+            "film",
+            "moving picture",
+            "animated",
+            "flick",
+            "animated feature",
+            "films",
+            "television",
+            "movie",
+            "cartoon",
+            "animation"
+        ],
+        "pageviews": "25292"
+    },
+    {
+        "query_id": "452_231",
+        "question": "What specific industry does Disney\u2013ABC Domestic Television operate in for its content distribution responsibilities, including domestic television syndication?",
+        "answers": [
+            "syndication",
+            "broadcast syndication",
+            "TV syndication",
+            "radio syndication"
+        ],
+        "pageviews": "7333"
+    },
+    {
+        "query_id": "452_232",
+        "question": "What specific industry is Jun\u00e1k involved in?",
+        "answers": [
+            "scouting movement",
+            "scouting and guiding",
+            "guiding",
+            "scouting",
+            "scout movement",
+            "Scouting"
+        ],
+        "pageviews": "373"
+    },
+    {
+        "query_id": "452_233",
+        "question": "In which industry does Volkswagen operate?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "motor vehicle manufacturer",
+            "manufacture of motor vehicles, trailers and semi-trailers"
+        ],
+        "pageviews": "116454"
+    },
+    {
+        "query_id": "452_234",
+        "question": "What specific industry is Sony Pictures Television in?",
+        "answers": [
+            "syndication",
+            "TV syndication",
+            "TV",
+            "radio syndication",
+            "broadcast syndication",
+            "television",
+            "distribution studio"
+        ],
+        "pageviews": "26130"
+    },
+    {
+        "query_id": "452_235",
+        "question": "What is the industry of the shipyard located in Port Glasgow on the Firth of Clyde in Scotland?",
+        "answers": [
+            "ship building",
+            "shipbuilding industry",
+            "shipbuilding",
+            "ship-building"
+        ],
+        "pageviews": "1"
+    },
+    {
+        "query_id": "452_236",
+        "question": "What industry was Filmation involved in?",
+        "answers": [
+            "animated feature",
+            "cartoon",
+            "animation"
+        ],
+        "pageviews": "7472"
+    },
+    {
+        "query_id": "452_237",
+        "question": "What specific industry is FASA known for?",
+        "answers": [
+            "boardgames",
+            "wargaming",
+            "conflict simulation",
+            "boardgame",
+            "TTRPG",
+            "board games",
+            "consim",
+            "tabletop role-playing game",
+            "board game",
+            "wargame",
+            "TRPG",
+            "war games",
+            "pen-and-paper role-playing game",
+            "wargames",
+            "war game"
+        ],
+        "pageviews": "1888"
+    },
+    {
+        "query_id": "452_238",
+        "question": "What industry is the World Wrestling League in?",
+        "answers": [
+            "professional wrestling",
+            "pro wrestling",
+            "wrestling"
+        ],
+        "pageviews": "383"
+    },
+    {
+        "query_id": "452_239",
+        "question": "In the context of Cloudy with a Chance of Meatballs 2, what specific industry is Sony Pictures Animation known for in terms of their involvement in the film's production?",
+        "answers": [
+            "computer-animated",
+            "computer animation"
+        ],
+        "pageviews": "35017"
+    },
+    {
+        "query_id": "452_240",
+        "question": "What specific industry is the United Nations Human Rights Council associated with?",
+        "answers": [
+            "human right",
+            "human rights"
+        ],
+        "pageviews": "27455"
+    },
+    {
+        "query_id": "452_241",
+        "question": "What specific industry is Hero Games involved in?",
+        "answers": [
+            "RPG",
+            "role playing game",
+            "roleplaying game",
+            "role-playing game"
+        ],
+        "pageviews": "455"
+    },
+    {
+        "query_id": "452_242",
+        "question": "What industry does Royal Dutch Shell operate in?",
+        "answers": [
+            "Extraction of crude petroleum and natural gas",
+            "oil industry",
+            "crude petroleum and natural gas production",
+            "oil and gas industry",
+            "petroleum industry"
+        ],
+        "pageviews": "75491"
+    },
+    {
+        "query_id": "452_243",
+        "question": "What specific industry is UPA known for?",
+        "answers": [
+            "animated feature",
+            "animated",
+            "cartoon",
+            "animation"
+        ],
+        "pageviews": "202"
+    },
+    {
+        "query_id": "452_244",
+        "question": "What industry is Walt Disney Studios Home Entertainment in?",
+        "answers": [
+            "home entertainment",
+            "home video"
+        ],
+        "pageviews": "7761"
+    },
+    {
+        "query_id": "452_245",
+        "question": "In which industry does JetBrains specialize in building a proprietary, cross-platform IDE for PHP?",
+        "answers": [
+            "IDE",
+            "computer software industry",
+            "software industry",
+            "integrated development environment"
+        ],
+        "pageviews": "20858"
+    },
+    {
+        "query_id": "452_246",
+        "question": "In terms of their syndicated daytime talk show \"The Jeff Probst Show\", what specific industry does CBS Media Ventures operate in?",
+        "answers": [
+            "syndication",
+            "TV syndication",
+            "syndicated",
+            "radio syndication",
+            "broadcast syndication"
+        ],
+        "pageviews": "5336"
+    },
+    {
+        "query_id": "452_247",
+        "question": "What specific industry is 7-Eleven in?",
+        "answers": [
+            "Food Marts",
+            "corner store",
+            "convenience shop",
+            "retail",
+            "C-store",
+            "retail industry",
+            "retail sales",
+            "retailing",
+            "convenience store",
+            "Food Mart",
+            "daily consumer goods store",
+            "CVS",
+            "grocery store",
+            "retail trade"
+        ],
+        "pageviews": "136485"
+    },
+    {
+        "query_id": "452_248",
+        "question": "What specific industry is Blue Sky Studios known for in the context of the film \"Gone Nutty\"?",
+        "answers": [
+            "film industry",
+            "motion picture industry",
+            "computer-animated",
+            "movie industry",
+            "computer animation"
+        ],
+        "pageviews": "45924"
+    },
+    {
+        "query_id": "452_249",
+        "question": "What industry is the South West News Service in?",
+        "answers": [
+            "newswire",
+            "news agency",
+            "press agency",
+            "news service",
+            "news wire",
+            "wire service"
+        ],
+        "pageviews": "312"
+    },
+    {
+        "query_id": "452_250",
+        "question": "What industry is Facebook, Inc. a part of?",
+        "answers": [
+            "IT",
+            "information technology",
+            "I.T.",
+            "info tech"
+        ],
+        "pageviews": "833600"
+    },
+    {
+        "query_id": "452_251",
+        "question": "What industry is Groupe PSA in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automaker"
+        ],
+        "pageviews": "4361"
+    },
+    {
+        "query_id": "452_252",
+        "question": "What specific industry does Evolve belong to?",
+        "answers": [
+            "professional wrestling",
+            "pro wrestling",
+            "wrestling"
+        ],
+        "pageviews": "837"
+    },
+    {
+        "query_id": "452_253",
+        "question": "What specific industry is Rainmaker Entertainment in?",
+        "answers": [
+            "computer animated",
+            "computer animation"
+        ],
+        "pageviews": "1074"
+    },
+    {
+        "query_id": "452_254",
+        "question": "What specific industry does Exo operate in?",
+        "answers": [
+            "public transportation",
+            "mass transit",
+            "public transit",
+            "public transport"
+        ],
+        "pageviews": "15567"
+    },
+    {
+        "query_id": "452_255",
+        "question": "What specific industry is Public Broadcasting Services involved in?",
+        "answers": [
+            "public broadcasting",
+            "national broadcaster",
+            "public service broadcasting"
+        ],
+        "pageviews": "1563"
+    },
+    {
+        "query_id": "452_256",
+        "question": "What specific industry is All American Television associated with?",
+        "answers": [
+            "syndication",
+            "TV syndication",
+            "TV",
+            "radio syndication",
+            "broadcast syndication",
+            "television",
+            "television syndication"
+        ],
+        "pageviews": "740"
+    },
+    {
+        "query_id": "452_257",
+        "question": "What industry is Stellantis in?",
+        "answers": [
+            "",
+            "automobile industry",
+            "automotive industry",
+            "automotive",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers"
+        ],
+        "pageviews": "160638"
+    },
+    {
+        "query_id": "452_258",
+        "question": "What industry does the contract research organization supply biomedical products and outsourcing services for?",
+        "answers": [
+            "biotech industry",
+            "pharma industry",
+            "biotechnology industry",
+            "pharmaceutical wholesaler",
+            "medical device industry",
+            "pharma",
+            "drug industry",
+            "pharmaceutical industry"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "452_259",
+        "question": "What specific industry is Penguin Random House in?",
+        "answers": [
+            "publisher",
+            "publishing",
+            "58  Publishing activities"
+        ],
+        "pageviews": "17034"
+    },
+    {
+        "query_id": "452_260",
+        "question": "What is the specific industry of King Features Syndicate?",
+        "answers": [
+            "press syndication",
+            "print syndication"
+        ],
+        "pageviews": "6215"
+    },
+    {
+        "query_id": "452_261",
+        "question": "What specific industry is DePatie\u2013Freleng Enterprises involved in?",
+        "answers": [
+            "animated feature",
+            "animated",
+            "cartoon",
+            "animation"
+        ],
+        "pageviews": "5565"
+    },
+    {
+        "query_id": "452_262",
+        "question": "What industry is AstraZeneca in?",
+        "answers": [
+            "pharma industry",
+            "pharmaceutical companies",
+            "biotechnology",
+            "pharmaceutical wholesaler",
+            "pharma",
+            "BT",
+            "biotech",
+            "drug industry",
+            "pharmaceutical industry"
+        ],
+        "pageviews": "78230"
+    },
+    {
+        "query_id": "452_263",
+        "question": "What industry is the Official Charts Company compiled for?",
+        "answers": [
+            "music business",
+            "music industry"
+        ],
+        "pageviews": "13032"
+    },
+    {
+        "query_id": "452_264",
+        "question": "What is the specific industry of Munich Re?",
+        "answers": [
+            "primary insurance",
+            "FS industry",
+            "Financial activities",
+            "insurance",
+            "insurance industry",
+            "financial services",
+            "finance industry",
+            "reinsurance"
+        ],
+        "pageviews": "6698"
+    },
+    {
+        "query_id": "452_265",
+        "question": "What specific industry is NBCUniversal Syndication Studios in?",
+        "answers": [
+            "syndication",
+            "syndicated programming",
+            "TV syndication",
+            "radio syndication",
+            "broadcast syndication"
+        ],
+        "pageviews": "2494"
+    },
+    {
+        "query_id": "452_266",
+        "question": "What specific industry does Nissan operate in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automobile manufacturer"
+        ],
+        "pageviews": "72000"
+    },
+    {
+        "query_id": "452_267",
+        "question": "What industry is Sodexo in?",
+        "answers": [
+            "food service",
+            "food services",
+            "catering industry",
+            "foodservice",
+            "meals on wheels"
+        ],
+        "pageviews": "14031"
+    },
+    {
+        "query_id": "452_268",
+        "question": "What industry is Holden in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automobile manufacturer"
+        ],
+        "pageviews": "30128"
+    },
+    {
+        "query_id": "452_269",
+        "question": "In which industry does Digitally Imported operate as an Internet radio broadcaster?",
+        "answers": [
+            "web radio",
+            "internet radio",
+            "Internet radio",
+            "online radio"
+        ],
+        "pageviews": "164"
+    },
+    {
+        "query_id": "452_270",
+        "question": "What specific industry is the stage used for?",
+        "answers": [
+            "live theatre",
+            "live theater",
+            "theatre",
+            "theater"
+        ],
+        "pageviews": "5"
+    },
+    {
+        "query_id": "452_271",
+        "question": "What specific industry is Motortrade engaged in?",
+        "answers": [
+            "motorcycle",
+            "bike",
+            "motor-cycle",
+            "motor-bike",
+            "motorbike",
+            "motor bike",
+            "motor cycle"
+        ],
+        "pageviews": "1892"
+    },
+    {
+        "query_id": "452_272",
+        "question": "What specific industry is D3 Publisher in?",
+        "answers": [
+            "game",
+            "gaming industry",
+            "vg",
+            "video gaming industry",
+            "vidya",
+            "videogames",
+            "58  Publishing activities",
+            "interactive entertainment industry",
+            "video games",
+            "videogame",
+            "publishing",
+            "video game",
+            "game industry",
+            "video game industry"
+        ],
+        "pageviews": "3907"
+    },
+    {
+        "query_id": "452_273",
+        "question": "What specific industry was Guardians of Order in?",
+        "answers": [
+            "role-playing games",
+            "TTRPG",
+            "role playing game",
+            "tabletop role-playing game",
+            "role-playing game",
+            "TRPG",
+            "pen-and-paper role-playing game",
+            "roleplaying game",
+            "RPG"
+        ],
+        "pageviews": "413"
+    },
+    {
+        "query_id": "452_274",
+        "question": "What specific industry is DeepMind in?",
+        "answers": [
+            "A.I.",
+            "MI",
+            "A. I.",
+            "AI",
+            "artificial intelligence",
+            "cognitive computing"
+        ],
+        "pageviews": "32502"
+    },
+    {
+        "query_id": "452_275",
+        "question": "What specific industry is WWE NXT in?",
+        "answers": [
+            "professional wrestling",
+            "pro wrestling",
+            "wrestling"
+        ],
+        "pageviews": "25214"
+    },
+    {
+        "query_id": "452_276",
+        "question": "What specific industry is the International Federation of BodyBuilding & Fitness involved in?",
+        "answers": [
+            "physical fitness",
+            "body building",
+            "bodybuilder",
+            "fitness",
+            "body-building",
+            "bodybuilding"
+        ],
+        "pageviews": "4102"
+    },
+    {
+        "query_id": "452_277",
+        "question": "What specific industry is James DuBose a television producer in?",
+        "answers": [
+            "TV",
+            "The performing arts. Show business",
+            "entertainment industry",
+            "show biz",
+            "showbusiness",
+            "show business",
+            "television",
+            "showbiz"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "452_278",
+        "question": "What specific industry is Wizards of the Coast known for?",
+        "answers": [
+            "Toy industry",
+            "The performing arts. Show business",
+            "roleplaying game",
+            "role playing game",
+            "entertainment industry",
+            "show biz",
+            "role-playing game",
+            "showbusiness",
+            "show business",
+            "game industry",
+            "showbiz",
+            "RPG"
+        ],
+        "pageviews": "22775"
+    },
+    {
+        "query_id": "452_279",
+        "question": "What specific industry is the Royal Entomological Society involved in?",
+        "answers": [
+            "Entomology",
+            "study of insects",
+            "entomology",
+            "entomologist"
+        ],
+        "pageviews": "612"
+    },
+    {
+        "query_id": "452_280",
+        "question": "What specific industry is Kari Sylwan known for in the field of dance choreography?",
+        "answers": [
+            "dance",
+            "dancer",
+            "dancing"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "452_281",
+        "question": "What specific industry is SNK known for?",
+        "answers": [
+            "game",
+            "vg",
+            "vidya",
+            "videogames",
+            "videogame",
+            "video games",
+            "video game"
+        ],
+        "pageviews": "14024"
+    },
+    {
+        "query_id": "452_282",
+        "question": "What specific industry is the Wikimedia Foundation known for?",
+        "answers": [
+            "free access",
+            "wiki",
+            "free information",
+            "free use",
+            "free licensing",
+            "Free content",
+            "free",
+            "free info",
+            "free content",
+            "Wiki",
+            "wikis"
+        ],
+        "pageviews": "337047"
+    },
+    {
+        "query_id": "452_283",
+        "question": "What specific industry is KTM in?",
+        "answers": [
+            "motorcycle",
+            "automobile industry",
+            "automotive industry",
+            "motor-cycle",
+            "motor-bike",
+            "bike",
+            "motorbike",
+            "motor bike",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "motor cycle"
+        ],
+        "pageviews": "36335"
+    },
+    {
+        "query_id": "452_284",
+        "question": "What industry is Google in?",
+        "answers": [
+            "web search engine",
+            "Internet",
+            "Net",
+            "IT",
+            "information technology",
+            "On-line Marketing",
+            "web marketing",
+            "the Net",
+            "global Internet",
+            "internet",
+            "info tech",
+            "Internet marketing",
+            "the Internet",
+            "computer software industry",
+            "search engine",
+            "software industry",
+            "internet industry",
+            "I.T.",
+            "E-Marketing"
+        ],
+        "pageviews": "1638354"
+    },
+    {
+        "query_id": "452_285",
+        "question": "What is PokerStars?",
+        "answers": [
+            "online poker"
+        ],
+        "pageviews": "11956"
+    },
+    {
+        "query_id": "452_286",
+        "question": "What specific industry is Channel 4 in?",
+        "answers": [
+            "television",
+            "TV"
+        ],
+        "pageviews": "110900"
+    },
+    {
+        "query_id": "452_287",
+        "question": "What specific industry is Amazon Web Services in?",
+        "answers": [
+            "cloud",
+            "cloud platforms",
+            "cloud platform",
+            "cloud computing"
+        ],
+        "pageviews": "89451"
+    },
+    {
+        "query_id": "452_288",
+        "question": "What specific industry is Chittaranjan Locomotive Works in?",
+        "answers": [
+            "Electric locomotive",
+            "electrically-powered locomotive",
+            "electric locomotive"
+        ],
+        "pageviews": "4297"
+    },
+    {
+        "query_id": "452_289",
+        "question": "What industry is Mitsubishi Motors in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automaker"
+        ],
+        "pageviews": "40428"
+    },
+    {
+        "query_id": "452_290",
+        "question": "What specific industry is Apple Inc. in?",
+        "answers": [
+            "content delivery",
+            "mobile phone industry",
+            "Electronic devices",
+            "online distribution",
+            "software development",
+            "electronic software distribution",
+            "IT",
+            "ESD",
+            "information technology",
+            "digital distribution",
+            "electronics",
+            "consumer electronics",
+            "household electronics",
+            "info tech",
+            "computer software industry",
+            "home electronics",
+            "software industry",
+            "I.T.",
+            "Electronics",
+            "digital delivery"
+        ],
+        "pageviews": "523393"
+    },
+    {
+        "query_id": "452_291",
+        "question": "What specific industry is Disney Television Animation involved in?",
+        "answers": [
+            "TV production",
+            "television production",
+            "animated feature",
+            "cartoon",
+            "animation"
+        ],
+        "pageviews": "30850"
+    },
+    {
+        "query_id": "452_292",
+        "question": "What specific industry was Control Data Corporation in?",
+        "answers": [
+            "supercomputer",
+            "High-Performance-Computing",
+            "Numbercrunching",
+            "High performance computing",
+            "high-performance computing",
+            "High-performance computing",
+            "HPC"
+        ],
+        "pageviews": "4666"
+    },
+    {
+        "query_id": "452_293",
+        "question": "What specific industry is Brookstone, a retail chain, in?",
+        "answers": [
+            "retail",
+            "retail industry",
+            "retail store",
+            "retail sales",
+            "retailing",
+            "retail trade"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "452_294",
+        "question": "What specific industry is the BBC involved in?",
+        "answers": [
+            "reporting",
+            "media industry",
+            "media industries",
+            "broadcasting",
+            "journalism",
+            "mass media industry"
+        ],
+        "pageviews": "246420"
+    },
+    {
+        "query_id": "452_295",
+        "question": "What specific industry is Soyuzmultfilm known for?",
+        "answers": [
+            "animated feature",
+            "cartoon",
+            "animated film",
+            "animation"
+        ],
+        "pageviews": "5739"
+    },
+    {
+        "query_id": "452_296",
+        "question": "What specific industry was Texas Instruments involved in?",
+        "answers": [
+            "electronic calculator",
+            "semiconductor industry",
+            "Electronic devices",
+            "electronics",
+            "calculator",
+            "Electronics",
+            "pocket calculator"
+        ],
+        "pageviews": "36352"
+    },
+    {
+        "query_id": "452_297",
+        "question": "What industry is Audi in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "car manufacturer",
+            "vehicle construction"
+        ],
+        "pageviews": "81047"
+    },
+    {
+        "query_id": "452_298",
+        "question": "What specific industry is Bally Manufacturing known for?",
+        "answers": [
+            "pinball machine",
+            "pinball"
+        ],
+        "pageviews": "4945"
+    },
+    {
+        "query_id": "452_299",
+        "question": "What specific industry does the Union Pacific Railroad operate in?",
+        "answers": [
+            "rail transport",
+            "railroading",
+            "railroad transport",
+            "railway",
+            "transport by rail",
+            "railway transport",
+            "train transport",
+            "train transportation"
+        ],
+        "pageviews": "27469"
+    },
+    {
+        "query_id": "452_300",
+        "question": "What did White Wolf Publishing create?",
+        "answers": [
+            "RPG",
+            "role playing game",
+            "roleplaying game",
+            "role-playing game"
+        ],
+        "pageviews": "5128"
+    },
+    {
+        "query_id": "452_301",
+        "question": "What industry is Nikon known for?",
+        "answers": [
+            "camera",
+            "photographic camera"
+        ],
+        "pageviews": "23619"
+    },
+    {
+        "query_id": "452_302",
+        "question": "What industry is the Volkswagen Group a part of?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automobile manufacturer"
+        ],
+        "pageviews": "142879"
+    },
+    {
+        "query_id": "452_303",
+        "question": "What specific industry is Amazon involved in?",
+        "answers": [
+            "web services",
+            "web host service",
+            "retail",
+            "Web Services",
+            "Web Service",
+            "e-commerce",
+            "XML Web Services",
+            "retail sales",
+            "webhosting",
+            "electronic commerce",
+            "eCommerce",
+            "web service",
+            "e-business",
+            "E-Commerce",
+            "web hosting service",
+            "online commerce",
+            "retailing",
+            "retail trade",
+            "website hosting",
+            "retail industry",
+            "Internet commerce"
+        ],
+        "pageviews": "19577"
+    },
+    {
+        "query_id": "452_304",
+        "question": "What industry is All Elite Wrestling in?",
+        "answers": [
+            "professional wrestling",
+            "professional wrestler",
+            "pro wrestling",
+            "wrestling",
+            "streaming media"
+        ],
+        "pageviews": "205321"
+    },
+    {
+        "query_id": "452_305",
+        "question": "What specific industry was TSR involved in?",
+        "answers": [
+            "TTRPG",
+            "role playing game",
+            "tabletop role-playing game",
+            "role-playing game",
+            "TRPG",
+            "pen-and-paper role-playing game",
+            "roleplaying game",
+            "RPG"
+        ],
+        "pageviews": "773"
+    },
+    {
+        "query_id": "452_306",
+        "question": "What is the specific industry of Kickstarter?",
+        "answers": [
+            "the Internet",
+            "the Net",
+            "crowd fund",
+            "crowd funding",
+            "internet",
+            "global Internet",
+            "crowdfunding",
+            "crowd-funding",
+            "Internet",
+            "Net"
+        ],
+        "pageviews": "22323"
+    },
+    {
+        "query_id": "452_307",
+        "question": "What specific industry is Bell TV in?",
+        "answers": [
+            "satellite television",
+            "direct-broadcast satellite television"
+        ],
+        "pageviews": "243"
+    },
+    {
+        "query_id": "452_308",
+        "question": "What specific industry is The Walt Disney Company in?",
+        "answers": [
+            "cinematography",
+            "film industry",
+            "TV",
+            "roller coaster",
+            "media industry",
+            "animated feature",
+            "theme park",
+            "television",
+            "funfair",
+            "roller coaster park",
+            "entertainment industry",
+            "ferris wheel",
+            "film making",
+            "media industries",
+            "circus",
+            "mass media industry",
+            "cartoon",
+            "animation",
+            "theme parks",
+            "leisure industry",
+            "amusement park",
+            "tourism",
+            "leisure industries",
+            "motion picture industry",
+            "show biz",
+            "show business",
+            "movie industry"
+        ],
+        "pageviews": "219490"
+    },
+    {
+        "query_id": "452_309",
+        "question": "What specific industry is Shaw Direct in?",
+        "answers": [
+            "satellite",
+            "satellite television"
+        ],
+        "pageviews": "1993"
+    },
+    {
+        "query_id": "452_310",
+        "question": "What is the specific industry that iHeartMedia, Inc operates in as a radio station located in WSNX-FM (\"104-5 SNX\")?",
+        "answers": [
+            "radio station",
+            "mass media industry",
+            "music industry",
+            "media industry",
+            "media industries",
+            "radio broadcasting",
+            "music business"
+        ],
+        "pageviews": "3"
+    },
+    {
+        "query_id": "452_311",
+        "question": "What industry is WWE in?",
+        "answers": [
+            "professional wrestling",
+            "pro wrestling",
+            "wrestling"
+        ],
+        "pageviews": "200258"
+    },
+    {
+        "query_id": "452_312",
+        "question": "What specific industry is DC Comics known for?",
+        "answers": [
+            "Comics",
+            "58  Publishing activities",
+            "publishing",
+            "comicbook",
+            "funny book",
+            "comic book"
+        ],
+        "pageviews": "137350"
+    },
+    {
+        "query_id": "452_313",
+        "question": "What industry is Consejo Mundial de Lucha Libre in?",
+        "answers": [
+            "professional wrestling",
+            "pro wrestling",
+            "wrestling"
+        ],
+        "pageviews": "8481"
+    },
+    {
+        "query_id": "452_314",
+        "question": "What industry is Impact Wrestling in?",
+        "answers": [
+            "professional wrestling",
+            "pro wrestling",
+            "wrestling",
+            "streaming media"
+        ],
+        "pageviews": "86839"
+    },
+    {
+        "query_id": "452_315",
+        "question": "What specific industry is World Championship Wrestling involved in?",
+        "answers": [
+            "professional wrestling",
+            "sports entertainment",
+            "pro wrestling",
+            "wrestling"
+        ],
+        "pageviews": "34654"
+    },
+    {
+        "query_id": "452_316",
+        "question": "What industry is Ring of Honor in?",
+        "answers": [
+            "professional wrestling",
+            "pro wrestling",
+            "wrestling"
+        ],
+        "pageviews": "65471"
+    },
+    {
+        "query_id": "452_317",
+        "question": "What specific industry does the Ultimate Fighting Championship belong to?",
+        "answers": [
+            "MMA",
+            "mixed martial arts",
+            "mixed martial artist",
+            "Mixed Martial Arts"
+        ],
+        "pageviews": "124241"
+    },
+    {
+        "query_id": "452_318",
+        "question": "What specific industry is Bitmain involved in?",
+        "answers": [
+            "crypto",
+            "computer software industry",
+            "software industry",
+            "cryptocurrency",
+            "crypto currency"
+        ],
+        "pageviews": "8277"
+    },
+    {
+        "query_id": "452_319",
+        "question": "What specific industry is automobile safety involved in?",
+        "answers": [
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automobile industry",
+            "automotive industry"
+        ],
+        "pageviews": "1"
+    },
+    {
+        "query_id": "452_320",
+        "question": "What is the specific industry of Tech Mahindra India?",
+        "answers": [
+            "computer consultancy",
+            "IT consulting",
+            "IT service support management",
+            "ITSM",
+            "IT executive",
+            "IT service management",
+            "computing consultancy",
+            "information technology consulting",
+            "IT advisory"
+        ],
+        "pageviews": "-1"
+    },
+    {
+        "query_id": "452_321",
+        "question": "What specific industry is L3Harris Technologies in?",
+        "answers": [
+            "arms trade",
+            "weapons industry",
+            "arms industry",
+            "defence industry",
+            "defense industry",
+            "military industry",
+            "defense contractor"
+        ],
+        "pageviews": "17098"
+    },
+    {
+        "query_id": "452_322",
+        "question": "What specific industry is Sveriges Radio involved in?",
+        "answers": [
+            "broadcaster",
+            "radio broadcasting"
+        ],
+        "pageviews": "1868"
+    },
+    {
+        "query_id": "452_323",
+        "question": "What specific industry is the Office Ch\u00e9rifien des Phosphates involved in?",
+        "answers": [
+            "mining",
+            "minerals extraction"
+        ],
+        "pageviews": "141"
+    },
+    {
+        "query_id": "452_324",
+        "question": "What industry is Kohler Co. in?",
+        "answers": [
+            "manufacturing",
+            "Manufacturing",
+            "manufacturing industry",
+            "manufacture"
+        ],
+        "pageviews": "1601"
+    },
+    {
+        "query_id": "452_325",
+        "question": "What industry is TK Telekom in?",
+        "answers": [
+            "railways",
+            "rail transport",
+            "railroading",
+            "railroad transport",
+            "transport by rail",
+            "railway transport",
+            "train transport",
+            "train transportation"
+        ],
+        "pageviews": "76"
+    },
+    {
+        "query_id": "452_326",
+        "question": "What industry is Bank Pocztowy in?",
+        "answers": [
+            "FS industry",
+            "Financial activities",
+            "financial service",
+            "financial services",
+            "finance industry"
+        ],
+        "pageviews": "199"
+    },
+    {
+        "query_id": "452_327",
+        "question": "What specific industry is Korian specialized in?",
+        "answers": [
+            "EHPAD",
+            "accommodation facility for dependent elderly people"
+        ],
+        "pageviews": "738"
+    },
+    {
+        "query_id": "452_328",
+        "question": "What specific industry is MIPS Technologies involved in?",
+        "answers": [
+            "reduced instruction set computing",
+            "RISC",
+            "Reduced Instruction Set Computer"
+        ],
+        "pageviews": "4177"
+    },
+    {
+        "query_id": "452_329",
+        "question": "What industry is Chrysler in?",
+        "answers": [
+            "automobile industry",
+            "automotive industry",
+            "car industry",
+            "manufacture of motor vehicles, trailers and semi-trailers",
+            "automobile manufacturer"
+        ],
+        "pageviews": "55586"
+    },
+    {
+        "query_id": "452_330",
+        "question": "What specific industry was Popular Publications involved in?",
+        "answers": [
+            "pulp",
+            "rough paper magazine",
+            "Pulp magazine, the pulps",
+            "pulps",
+            "pulp magazine"
+        ],
+        "pageviews": "372"
+    },
+    {
+        "query_id": "452_331",
+        "question": "What specific industry of company or organization is the digital subscriber line in?",
+        "answers": [
+            "ISP",
+            "Remote data transmission",
+            "Internet service providers",
+            "internet service provider",
+            "Internet service provider"
+        ],
+        "pageviews": "-1"
+    },
+    {
+        "query_id": "452_332",
+        "question": "What industry is the mafia involved in?",
+        "answers": [
+            "organized crime",
+            "criminal organization",
+            "crime syndicate",
+            "organised crime",
+            "the underworld"
+        ],
+        "pageviews": "-1"
+    },
+    {
+        "query_id": "452_333",
+        "question": "What specific industry is Salem Media Group involved in?",
+        "answers": [
+            "radio station",
+            "mass media",
+            "the media",
+            "mass medium",
+            "radio broadcasting"
+        ],
+        "pageviews": "3231"
+    },
+    {
+        "query_id": "452_334",
+        "question": "What is the industry of the Academy of Canadian Cinema and Television?",
+        "answers": [
+            "Canadian cinema",
+            "TV in Canada",
+            "Canadian film industry",
+            "Canadian television",
+            "television in Canada",
+            "Canadian TV",
+            "cinema of Canada"
+        ],
+        "pageviews": "434"
+    },
+    {
+        "query_id": "452_335",
+        "question": "What specific industry is Ashley Madison in?",
+        "answers": [
+            "social media",
+            "social networking service",
+            "SNS",
+            "social network service",
+            "dating site",
+            "online dating service",
+            "dating website"
+        ],
+        "pageviews": "26447"
+    },
+    {
+        "query_id": "452_336",
+        "question": "What specific industry is BAE Systems a part of?",
+        "answers": [
+            "arms trade",
+            "aerospace engineering",
+            "weapons industry",
+            "arms industry",
+            "information security",
+            "aerospace manufacturer",
+            "Aerospace engineering",
+            "aircraft manufacturer",
+            "InfoSec",
+            "defense contractor"
+        ],
+        "pageviews": "42999"
+    },
+    {
+        "query_id": "452_337",
+        "question": "What industry is Home Box Office, Inc. in?",
+        "answers": [
+            "pay television",
+            "premium television",
+            "television production company",
+            "film industry",
+            "subscription television",
+            "TV production company",
+            "production company",
+            "TV produceur",
+            "motion picture industry",
+            "television producer company",
+            "TV show producing company",
+            "premium TV",
+            "TV producer company",
+            "pay TV",
+            "subscription TV",
+            "movie industry"
+        ],
+        "pageviews": "5487"
+    },
+    {
+        "query_id": "452_338",
+        "question": "What specific industry is Omnicom Group in?",
+        "answers": [
+            "advert agency",
+            "advertising agency",
+            "mass media",
+            "the media",
+            "mass medium",
+            "communication agency",
+            "ad agency",
+            "public relations",
+            "PR",
+            "Public Relations; PR",
+            "creative agency"
+        ],
+        "pageviews": "12685"
+    },
+    {
+        "query_id": "452_339",
+        "question": "What specific industry is Game Designers' Workshop known for?",
+        "answers": [
+            "board wargames",
+            "board wargame"
+        ],
+        "pageviews": "1137"
+    },
+    {
+        "query_id": "452_340",
+        "question": "What specific industry is Apple TV+ in?",
+        "answers": [
+            "VOD",
+            "AVOD",
+            "PVOD",
+            "audio and video on demand",
+            "Video on demand",
+            "premium video-on-demand",
+            "video on demand"
+        ],
+        "pageviews": "-1"
+    },
+    {
+        "query_id": "452_341",
+        "question": "What is the specific industry of Apollo Computer?",
+        "answers": [
+            "Apollo/Domain"
+        ],
+        "pageviews": "2566"
+    },
+    {
+        "query_id": "452_342",
+        "question": "What is YouTube's industry?",
+        "answers": [
+            "video streaming host",
+            "video hosting site",
+            "formation video sharing",
+            "internet industry",
+            "video streaming site",
+            "video hosting website",
+            "online video platform",
+            "video site",
+            "video hosting service"
+        ],
+        "pageviews": "2431385"
+    },
+    {
+        "query_id": "452_343",
+        "question": "What specific industry is Mozilla known for?",
+        "answers": [
+            "open-source software",
+            "open source",
+            "OSS",
+            "opensource",
+            "open-source",
+            "open source software"
+        ],
+        "pageviews": "14451"
+    },
+    {
+        "query_id": "452_344",
+        "question": "What specific industry is HBO in?",
+        "answers": [
+            "pay television",
+            "premium television",
+            "subscription television",
+            "premium TV",
+            "pay TV",
+            "subscription TV"
+        ],
+        "pageviews": "126337"
+    }
+]

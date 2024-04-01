@@ -1,0 +1,2961 @@
+[
+    {
+        "query_id": "462_0",
+        "question": "What is the color of the Pan-Slavic colors?",
+        "answers": [
+            "color blue",
+            "color white",
+            "#FFFFFF",
+            "blue color",
+            "Blue (RGB)",
+            "red color",
+            "X11 blue",
+            "red",
+            "white",
+            "blue",
+            "Blue X11 blue",
+            "W",
+            "Blue (RGB) (X11 blue)"
+        ],
+        "pageviews": "3405"
+    },
+    {
+        "query_id": "462_1",
+        "question": "What is the color of the flag of Armenia?",
+        "answers": [
+            "color blue",
+            "orange color",
+            "blue color",
+            "Blue (RGB)",
+            "red color",
+            "X11 blue",
+            "Blue (RGB) (X11 blue)",
+            "red",
+            "blue",
+            "Blue X11 blue",
+            "orange",
+            "color orange"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "462_2",
+        "question": "What is the color of the American Paint Horse?",
+        "answers": [
+            "Overo",
+            "overo",
+            "Tobiano"
+        ],
+        "pageviews": "5777"
+    },
+    {
+        "query_id": "462_3",
+        "question": "What color can Lusitanos be?",
+        "answers": [
+            "grey",
+            "bay",
+            "gray",
+            "bay horse",
+            "black horse",
+            "black",
+            "white horse"
+        ],
+        "pageviews": "3820"
+    },
+    {
+        "query_id": "462_4",
+        "question": "What is the color of Fox Movietone Follies of 1929?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "399"
+    },
+    {
+        "query_id": "462_5",
+        "question": "What is the color of the Finnhorse?",
+        "answers": [
+            "chesnut",
+            "bay",
+            "bay horse",
+            "roan",
+            "liver chestnut",
+            "chestnut",
+            "Chestnut/sorrel",
+            "black horse",
+            "black",
+            "chestnut with flaxen"
+        ],
+        "pageviews": "1843"
+    },
+    {
+        "query_id": "462_6",
+        "question": "What is the color of the Akhal-Teke?",
+        "answers": [
+            "chesnut",
+            "grey",
+            "bay",
+            "gray",
+            "cremello",
+            "bay horse",
+            "palomino",
+            "buckskin",
+            "perlino",
+            "chestnut",
+            "Chestnut/sorrel",
+            "black horse",
+            "black",
+            "white horse"
+        ],
+        "pageviews": "13627"
+    },
+    {
+        "query_id": "462_7",
+        "question": "What color was the Austrian People's Party?",
+        "answers": [
+            "#000000",
+            "blackness",
+            "key",
+            "turquoise",
+            "turquoise colour",
+            "color turquoise",
+            "colour turquoise",
+            "turquoise color",
+            "black"
+        ],
+        "pageviews": "54242"
+    },
+    {
+        "query_id": "462_8",
+        "question": "What is the color of Hungama Bombay Ishtyle?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "246"
+    },
+    {
+        "query_id": "462_9",
+        "question": "What color is Figment?",
+        "answers": [
+            "color purple",
+            "purple",
+            "purple colour",
+            "purple color",
+            "colour purple"
+        ],
+        "pageviews": "163"
+    },
+    {
+        "query_id": "462_10",
+        "question": "What is the color of Aero NT-54?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "122"
+    },
+    {
+        "query_id": "462_11",
+        "question": "What is the color of The Reenactment?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "410"
+    },
+    {
+        "query_id": "462_12",
+        "question": "What is the color of The Seventh Companion?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "253"
+    },
+    {
+        "query_id": "462_13",
+        "question": "What is the color of Three Bad Men and a Girl?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "114"
+    },
+    {
+        "query_id": "462_14",
+        "question": "What is the color of An Old Love?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white film",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "71"
+    },
+    {
+        "query_id": "462_15",
+        "question": "What is the color of The Boxing Kangaroo?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "201"
+    },
+    {
+        "query_id": "462_16",
+        "question": "What is the color of My Best Friend's Birthday?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "2572"
+    },
+    {
+        "query_id": "462_17",
+        "question": "What is the color of El Asalto?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white film",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "77"
+    },
+    {
+        "query_id": "462_18",
+        "question": "What is the color of the Comic Costume Race?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "88"
+    },
+    {
+        "query_id": "462_19",
+        "question": "What color was F Troop originally broadcast in?",
+        "answers": [
+            "colour film",
+            "colour",
+            "black-and-white cinema",
+            "color film",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film",
+            "color"
+        ],
+        "pageviews": "13105"
+    },
+    {
+        "query_id": "462_20",
+        "question": "What is the color of Space Master X-7?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "511"
+    },
+    {
+        "query_id": "462_21",
+        "question": "What is the color of the Invisible Pink Unicorn?",
+        "answers": [
+            "pink color",
+            "pink",
+            "color pink"
+        ],
+        "pageviews": "3934"
+    },
+    {
+        "query_id": "462_22",
+        "question": "What is the color of Sindoor?",
+        "answers": [
+            "orange-red",
+            "vermilion"
+        ],
+        "pageviews": "9020"
+    },
+    {
+        "query_id": "462_23",
+        "question": "What is the color of The Old Nest?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "145"
+    },
+    {
+        "query_id": "462_24",
+        "question": "What was the color of Brooklyn Supreme?",
+        "answers": [
+            "roan",
+            "red roan"
+        ],
+        "pageviews": "3614"
+    },
+    {
+        "query_id": "462_25",
+        "question": "What is the color of Hemlock Hoax, the Detective?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "97"
+    },
+    {
+        "query_id": "462_26",
+        "question": "What color is the Heck horse?",
+        "answers": [
+            "blue dun",
+            "black dun",
+            "grullo",
+            "mouse dun"
+        ],
+        "pageviews": "2213"
+    },
+    {
+        "query_id": "462_27",
+        "question": "What is the color of Zaga Pyaw Thaw Athe-Hnalon?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "15"
+    },
+    {
+        "query_id": "462_28",
+        "question": "What is the color of It Can't Last Forever?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "176"
+    },
+    {
+        "query_id": "462_29",
+        "question": "What is the color of Descente du Mont Serrat?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "79"
+    },
+    {
+        "query_id": "462_30",
+        "question": "What is the color of Barcelone, Parc au cr\u00e9puscule?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "76"
+    },
+    {
+        "query_id": "462_31",
+        "question": "What was the color of Pianissima?",
+        "answers": [
+            "bay horse",
+            "bay"
+        ],
+        "pageviews": "92"
+    },
+    {
+        "query_id": "462_32",
+        "question": "What is the color of Blood on the Sun?",
+        "answers": [
+            "black-and-white",
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black and white film",
+            "black and white",
+            "B&W",
+            "Black & White"
+        ],
+        "pageviews": "1487"
+    },
+    {
+        "query_id": "462_33",
+        "question": "What is the color of the photograph \"Ivy wearing a fall, Boston\" by Nan Goldin?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "199"
+    },
+    {
+        "query_id": "462_34",
+        "question": "What is the color of Siren of Atlantis?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "366"
+    },
+    {
+        "query_id": "462_35",
+        "question": "What is the color of Children of the Damned?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "5197"
+    },
+    {
+        "query_id": "462_36",
+        "question": "What is the color of dried apricots?",
+        "answers": [
+            "orange",
+            "color orange",
+            "orange color"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "462_37",
+        "question": "What is the color of Vivacious Lady?",
+        "answers": [
+            "colour film",
+            "colour",
+            "black-and-white cinema",
+            "color film",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film",
+            "color"
+        ],
+        "pageviews": "1576"
+    },
+    {
+        "query_id": "462_38",
+        "question": "What is the color of Suddenly?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1345"
+    },
+    {
+        "query_id": "462_39",
+        "question": "What is the color of Francis in the Navy?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1332"
+    },
+    {
+        "query_id": "462_40",
+        "question": "What color was The Twilight Zone (franchise)?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "113"
+    },
+    {
+        "query_id": "462_41",
+        "question": "What is the color of Klondike Annie?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "647"
+    },
+    {
+        "query_id": "462_42",
+        "question": "What is the color of The Bartered Crown?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "226"
+    },
+    {
+        "query_id": "462_43",
+        "question": "What is the color of The Arrest of a Pickpocket?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "111"
+    },
+    {
+        "query_id": "462_44",
+        "question": "What is the color of A Yoke of Gold?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "103"
+    },
+    {
+        "query_id": "462_45",
+        "question": "What is the color of King Arthur Was a Gentleman?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "208"
+    },
+    {
+        "query_id": "462_46",
+        "question": "What is the color of the Giant from the Unknown?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "597"
+    },
+    {
+        "query_id": "462_47",
+        "question": "What is the color of The Mysterious Rose?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "110"
+    },
+    {
+        "query_id": "462_48",
+        "question": "What is the color of The Widow Casey's Return?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "106"
+    },
+    {
+        "query_id": "462_49",
+        "question": "What is the color of The Clown Barber?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "158"
+    },
+    {
+        "query_id": "462_50",
+        "question": "What is the color of Three Ages?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "726"
+    },
+    {
+        "query_id": "462_51",
+        "question": "What was the color of Butternut Square?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "296"
+    },
+    {
+        "query_id": "462_52",
+        "question": "What is the color of Station West?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1056"
+    },
+    {
+        "query_id": "462_53",
+        "question": "What is the color of Jiseul?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "581"
+    },
+    {
+        "query_id": "462_54",
+        "question": "What is the color of Almost a Wild Man?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "85"
+    },
+    {
+        "query_id": "462_55",
+        "question": "What is the color of red hair?",
+        "answers": [
+            "red color",
+            "red"
+        ],
+        "pageviews": "1"
+    },
+    {
+        "query_id": "462_56",
+        "question": "What is the color of Mavrud?",
+        "answers": [
+            "#000000",
+            "key",
+            "blackness",
+            "black"
+        ],
+        "pageviews": "925"
+    },
+    {
+        "query_id": "462_57",
+        "question": "What is the color of Some Good in All?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "73"
+    },
+    {
+        "query_id": "462_58",
+        "question": "What was the color of Bald Galloway?",
+        "answers": [
+            "chesnut",
+            "chestnut",
+            "Chestnut/sorrel"
+        ],
+        "pageviews": "117"
+    },
+    {
+        "query_id": "462_59",
+        "question": "What is the specific hue that represents the color of Zhuque?",
+        "answers": [
+            "Vermilion",
+            "orange-red",
+            "vermilion"
+        ],
+        "pageviews": "62"
+    },
+    {
+        "query_id": "462_60",
+        "question": "What is the color of Spare a Copper?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "190"
+    },
+    {
+        "query_id": "462_61",
+        "question": "What is the color of The Mystery of Yellow Aster Mine?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "125"
+    },
+    {
+        "query_id": "462_62",
+        "question": "What is the color of turquoise?",
+        "answers": [
+            "turquoise",
+            "turquoise colour",
+            "color turquoise",
+            "colour turquoise",
+            "turquoise color"
+        ],
+        "pageviews": "13"
+    },
+    {
+        "query_id": "462_63",
+        "question": "What is the color of Joe McDoakes?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "914"
+    },
+    {
+        "query_id": "462_64",
+        "question": "What is the color of Ten Canoes?",
+        "answers": [
+            "colour film",
+            "colour",
+            "black-and-white cinema",
+            "color film",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film",
+            "color"
+        ],
+        "pageviews": "1628"
+    },
+    {
+        "query_id": "462_65",
+        "question": "What color was Winners of the Wilderness?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "208"
+    },
+    {
+        "query_id": "462_66",
+        "question": "What color is Australia?",
+        "answers": [
+            "chesnut",
+            "chestnut",
+            "Chestnut/sorrel"
+        ],
+        "pageviews": "713574"
+    },
+    {
+        "query_id": "462_67",
+        "question": "What color was Darby's Rangers shot in?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1101"
+    },
+    {
+        "query_id": "462_68",
+        "question": "What is the color of Yarmouth Fishing Boats Leaving Harbour?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "128"
+    },
+    {
+        "query_id": "462_69",
+        "question": "What is the color of the film \"He Married His Wife\"?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "315"
+    },
+    {
+        "query_id": "462_70",
+        "question": "What was the color of The Gale Storm Show?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1396"
+    },
+    {
+        "query_id": "462_71",
+        "question": "What is the color of copper?",
+        "answers": [
+            "copper",
+            "copper-coloured",
+            "copper colour",
+            "copper color",
+            "copper-colored",
+            "pinkish-orange color"
+        ],
+        "pageviews": "6"
+    },
+    {
+        "query_id": "462_72",
+        "question": "What is the color of the flag of India?",
+        "answers": [
+            "color blue",
+            "G",
+            "Blue X11 blue",
+            "color orange",
+            "Green",
+            "orange color",
+            "Electric green",
+            "X11 blue",
+            "Blue (RGB) (X11 blue)",
+            "color green",
+            "#FFFFFF",
+            "blue color",
+            "Blue (RGB)",
+            "white",
+            "W",
+            "orange",
+            "green",
+            "green colour",
+            "color white",
+            "blue",
+            "colour green",
+            "green color"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "462_73",
+        "question": "What is the color of Searching for Monica?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white film",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "114"
+    },
+    {
+        "query_id": "462_74",
+        "question": "What was the color of Saraswatichandra?",
+        "answers": [
+            "black-and-white cinema",
+            "B & W",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "77"
+    },
+    {
+        "query_id": "462_75",
+        "question": "What is the color of Maung Mu Paing Shin in the remake of the 1964 black-and-white film of the same name?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "68"
+    },
+    {
+        "query_id": "462_76",
+        "question": "What is the color of Out 1?",
+        "answers": [
+            "colour film",
+            "colour",
+            "black-and-white cinema",
+            "color film",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film",
+            "color"
+        ],
+        "pageviews": "2700"
+    },
+    {
+        "query_id": "462_77",
+        "question": "What is the color of Village of the Damned?",
+        "answers": [
+            "colour film",
+            "colour",
+            "black-and-white cinema",
+            "color film",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film",
+            "color"
+        ],
+        "pageviews": "338"
+    },
+    {
+        "query_id": "462_78",
+        "question": "What is the color of The Lone Wolf in Mexico?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "149"
+    },
+    {
+        "query_id": "462_79",
+        "question": "What is the color of Jungle Drums of Africa?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "199"
+    },
+    {
+        "query_id": "462_80",
+        "question": "What is the color of Blood on the Moon?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "2001"
+    },
+    {
+        "query_id": "462_81",
+        "question": "What is the color of Invasion of the Star Creatures?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "720"
+    },
+    {
+        "query_id": "462_82",
+        "question": "What is the color of \"Mis\u00e8re au Borinage\"?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "215"
+    },
+    {
+        "query_id": "462_83",
+        "question": "What is the color of La Cabalgata del Circo?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "54"
+    },
+    {
+        "query_id": "462_84",
+        "question": "What is the color of How to Cheat in the Leaving Certificate?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "209"
+    },
+    {
+        "query_id": "462_85",
+        "question": "What is the color of Frances Ha?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "14659"
+    },
+    {
+        "query_id": "462_86",
+        "question": "What is the color of Panic in Year Zero!?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "2480"
+    },
+    {
+        "query_id": "462_87",
+        "question": "What is the color of The Way to the Stars?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "6561"
+    },
+    {
+        "query_id": "462_88",
+        "question": "What is the color of The Amazing Colossal Man?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "3220"
+    },
+    {
+        "query_id": "462_89",
+        "question": "What is the color of The Night of Nights?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "199"
+    },
+    {
+        "query_id": "462_90",
+        "question": "What is the color of It Came from Outer Space?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "6119"
+    },
+    {
+        "query_id": "462_91",
+        "question": "What is the color of The Thousand Eyes of Dr. Mabuse?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "2231"
+    },
+    {
+        "query_id": "462_92",
+        "question": "What is the color of The Phantom from 10,000 Leagues?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "810"
+    },
+    {
+        "query_id": "462_93",
+        "question": "What is the color of the Auvergne horse?",
+        "answers": [
+            "bay horse",
+            "bay"
+        ],
+        "pageviews": "356"
+    },
+    {
+        "query_id": "462_94",
+        "question": "What is the color of The Color Wheel?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "810"
+    },
+    {
+        "query_id": "462_95",
+        "question": "What is the color of Earth vs. the Spider?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "4968"
+    },
+    {
+        "query_id": "462_96",
+        "question": "What is the color of The Man from Planet X?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1433"
+    },
+    {
+        "query_id": "462_97",
+        "question": "What is the color of The Ghost Ship?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "7046"
+    },
+    {
+        "query_id": "462_98",
+        "question": "What is the color of Devil Girl from Mars?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "3197"
+    },
+    {
+        "query_id": "462_99",
+        "question": "What is the color of They Died with Their Boots On?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "2625"
+    },
+    {
+        "query_id": "462_100",
+        "question": "What is the color of Father of a Soldier?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "407"
+    },
+    {
+        "query_id": "462_101",
+        "question": "What is the color of Prison Without Bars?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "262"
+    },
+    {
+        "query_id": "462_102",
+        "question": "What is the color of The Night Invader?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "158"
+    },
+    {
+        "query_id": "462_103",
+        "question": "What color is anti-flash white?",
+        "answers": [
+            "white",
+            "color white",
+            "W",
+            "#FFFFFF"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "462_104",
+        "question": "What is the color of The Mad Monster?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1089"
+    },
+    {
+        "query_id": "462_105",
+        "question": "What is the color of The Beast with a Million Eyes?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1085"
+    },
+    {
+        "query_id": "462_106",
+        "question": "What is the color of El Misterio de Hurac\u00e1n Ram\u00edrez?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "13"
+    },
+    {
+        "query_id": "462_107",
+        "question": "What was the color of CBS Television Quiz?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "472"
+    },
+    {
+        "query_id": "462_108",
+        "question": "What is the color of the Post Office Investigator?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "94"
+    },
+    {
+        "query_id": "462_109",
+        "question": "What is the color of War of the Colossal Beast?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "2667"
+    },
+    {
+        "query_id": "462_110",
+        "question": "What is the color of Phantom from Space?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "834"
+    },
+    {
+        "query_id": "462_111",
+        "question": "What is the color of Loving Memory?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "310"
+    },
+    {
+        "query_id": "462_112",
+        "question": "What is the color of Plan 9 from Outer Space?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "30160"
+    },
+    {
+        "query_id": "462_113",
+        "question": "What is the color of Visit to a Small Planet?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1174"
+    },
+    {
+        "query_id": "462_114",
+        "question": "What is the color of Serpentinen Tanz?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "62"
+    },
+    {
+        "query_id": "462_115",
+        "question": "What is the color of Ungek\u00fcsst soll man nicht schlafen gehn?",
+        "answers": [
+            "colour film",
+            "colour",
+            "black-and-white cinema",
+            "color film",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film",
+            "color"
+        ],
+        "pageviews": "113"
+    },
+    {
+        "query_id": "462_116",
+        "question": "What is the color of I, Grandmother, Iliko and Illarion?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "462_117",
+        "question": "What is the color of The Mad Whirl?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "117"
+    },
+    {
+        "query_id": "462_118",
+        "question": "What is the color of The Frogmen?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "2099"
+    },
+    {
+        "query_id": "462_119",
+        "question": "What is the color of El mejor tesoro?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "38"
+    },
+    {
+        "query_id": "462_120",
+        "question": "What color was Kuroneko shot in?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "6413"
+    },
+    {
+        "query_id": "462_121",
+        "question": "What is the color of Them!?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "24568"
+    },
+    {
+        "query_id": "462_122",
+        "question": "What is the color of More Than Life at Stake?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "3"
+    },
+    {
+        "query_id": "462_123",
+        "question": "What is the color of Radar Patrol vs. Spy King?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "188"
+    },
+    {
+        "query_id": "462_124",
+        "question": "What is the color of The Shadow Strikes?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "431"
+    },
+    {
+        "query_id": "462_125",
+        "question": "What is the color of The Missing People?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "126"
+    },
+    {
+        "query_id": "462_126",
+        "question": "What color was Roekihati?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "58"
+    },
+    {
+        "query_id": "462_127",
+        "question": "What is the color of Evrydiki BA 2O37?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "131"
+    },
+    {
+        "query_id": "462_128",
+        "question": "What is the color of Robot Monster?",
+        "answers": [
+            "colour film",
+            "colour",
+            "black-and-white cinema",
+            "color film",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film",
+            "color"
+        ],
+        "pageviews": "4130"
+    },
+    {
+        "query_id": "462_129",
+        "question": "What is the color of Port Sinister?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "255"
+    },
+    {
+        "query_id": "462_130",
+        "question": "What is the color of El r\u00e1pido de las 9.15?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "52"
+    },
+    {
+        "query_id": "462_131",
+        "question": "What is the color of The Man to Beat Jack Johnson?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "68"
+    },
+    {
+        "query_id": "462_132",
+        "question": "What is the color of Peter Ibbetson?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "748"
+    },
+    {
+        "query_id": "462_133",
+        "question": "What is the color of Dry Summer?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "568"
+    },
+    {
+        "query_id": "462_134",
+        "question": "What is the color of Batman Dracula?",
+        "answers": [
+            "colour film",
+            "colour",
+            "black-and-white cinema",
+            "color film",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film",
+            "color"
+        ],
+        "pageviews": "2639"
+    },
+    {
+        "query_id": "462_135",
+        "question": "What is the color of The Unearthly?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "814"
+    },
+    {
+        "query_id": "462_136",
+        "question": "What is the color of Crude Set Drama?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "65"
+    },
+    {
+        "query_id": "462_137",
+        "question": "What is the color of Dancing Darkies?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "138"
+    },
+    {
+        "query_id": "462_138",
+        "question": "What is the color of Cast a Dark Shadow?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "4157"
+    },
+    {
+        "query_id": "462_139",
+        "question": "What is the color of The Child Crusoes?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "83"
+    },
+    {
+        "query_id": "462_140",
+        "question": "What is the color of Sykes and A...?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "63"
+    },
+    {
+        "query_id": "462_141",
+        "question": "What is the color of Explosion of a Motor Car?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "224"
+    },
+    {
+        "query_id": "462_142",
+        "question": "What is the color of Zombies of Mora Tau?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "662"
+    },
+    {
+        "query_id": "462_143",
+        "question": "What is the color of Die Schneider Krankheit?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "189"
+    },
+    {
+        "query_id": "462_144",
+        "question": "What is the color of The Gentle Sex?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "794"
+    },
+    {
+        "query_id": "462_145",
+        "question": "What is the color of Sathyathinte Nizhalil?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "162"
+    },
+    {
+        "query_id": "462_146",
+        "question": "What is the color of Magdana's Donkey in the 1956 Georgian black-and-white social-themed drama film?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "148"
+    },
+    {
+        "query_id": "462_147",
+        "question": "What is the color of Hellcats of the Navy?",
+        "answers": [
+            "colour film",
+            "colour",
+            "black-and-white cinema",
+            "color film",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film",
+            "color"
+        ],
+        "pageviews": "1074"
+    },
+    {
+        "query_id": "462_148",
+        "question": "What is the color of The Monster and the Girl?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1586"
+    },
+    {
+        "query_id": "462_149",
+        "question": "What is the color of Francis Joins the WACS?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "448"
+    },
+    {
+        "query_id": "462_150",
+        "question": "What is the color of Boys of the City?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "282"
+    },
+    {
+        "query_id": "462_151",
+        "question": "What is the color of The Book of Fish?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "4957"
+    },
+    {
+        "query_id": "462_152",
+        "question": "What is the color of L'Ange et la Femme?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "20"
+    },
+    {
+        "query_id": "462_153",
+        "question": "What is the color of Louisiana Story?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "868"
+    },
+    {
+        "query_id": "462_154",
+        "question": "What is the color of Thu Zar?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "27"
+    },
+    {
+        "query_id": "462_155",
+        "question": "What is the color of The Butler's Dilemma?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "123"
+    },
+    {
+        "query_id": "462_156",
+        "question": "What is the color of Dr. Aung Kyaw Oo?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "61"
+    },
+    {
+        "query_id": "462_157",
+        "question": "What is the color of Kawleikgyin?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "46"
+    },
+    {
+        "query_id": "462_158",
+        "question": "What is the color of The Mummy's Hand?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "8143"
+    },
+    {
+        "query_id": "462_159",
+        "question": "What is the color of Love and Liquor?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film",
+            "black & white"
+        ],
+        "pageviews": "191"
+    },
+    {
+        "query_id": "462_160",
+        "question": "What is the color of Fiend Without a Face?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "3923"
+    },
+    {
+        "query_id": "462_161",
+        "question": "What is the color of Manila Calling?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "261"
+    },
+    {
+        "query_id": "462_162",
+        "question": "What is the color of Man\u00e8ges?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "134"
+    },
+    {
+        "query_id": "462_163",
+        "question": "What is the color of Project Moonbase?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "822"
+    },
+    {
+        "query_id": "462_164",
+        "question": "What is the color of Zombies of the Stratosphere?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1231"
+    },
+    {
+        "query_id": "462_165",
+        "question": "What color were the broadcasts of The Danny Kaye Show when it premiered?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1377"
+    },
+    {
+        "query_id": "462_166",
+        "question": "What is the color of Season of Strangers?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "117"
+    },
+    {
+        "query_id": "462_167",
+        "question": "What is the color of Superman and the Mole Men?",
+        "answers": [
+            "colour film",
+            "colour",
+            "black-and-white cinema",
+            "color film",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film",
+            "color"
+        ],
+        "pageviews": "3540"
+    },
+    {
+        "query_id": "462_168",
+        "question": "What is the color of Rocky Jones, Space Ranger?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1656"
+    },
+    {
+        "query_id": "462_169",
+        "question": "What was the color of the Tony Hancock Show, specifically the series \"Hancock's Half Hour\"?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "4124"
+    },
+    {
+        "query_id": "462_170",
+        "question": "What is the color of Srigala Item?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "81"
+    },
+    {
+        "query_id": "462_171",
+        "question": "What is the color of His Sister's Children?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "88"
+    },
+    {
+        "query_id": "462_172",
+        "question": "What is the color of Raiders of Old California?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "278"
+    },
+    {
+        "query_id": "462_173",
+        "question": "What is the color of Phoe Pyonn Cho?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "76"
+    },
+    {
+        "query_id": "462_174",
+        "question": "What is the color of The Monster That Challenged the World?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1305"
+    },
+    {
+        "query_id": "462_175",
+        "question": "What is the color of Shadows and Fog?",
+        "answers": [
+            "colour film",
+            "colour",
+            "black-and-white cinema",
+            "color film",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film",
+            "color"
+        ],
+        "pageviews": "2949"
+    },
+    {
+        "query_id": "462_176",
+        "question": "What is the color of The Leech Woman?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1272"
+    },
+    {
+        "query_id": "462_177",
+        "question": "What is the color of Thampu?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "4695"
+    },
+    {
+        "query_id": "462_178",
+        "question": "What is the color of Powdersmoke Range?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "116"
+    },
+    {
+        "query_id": "462_179",
+        "question": "What is the color of The Bread and Alley?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "270"
+    },
+    {
+        "query_id": "462_180",
+        "question": "What is the color of Dementia 13?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "10443"
+    },
+    {
+        "query_id": "462_181",
+        "question": "What is the color of Aurora de esperanza?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "94"
+    },
+    {
+        "query_id": "462_182",
+        "question": "What is the color of The Tarnished Angels?",
+        "answers": [
+            "colour film",
+            "colour",
+            "black-and-white cinema",
+            "color film",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film",
+            "color"
+        ],
+        "pageviews": "963"
+    },
+    {
+        "query_id": "462_183",
+        "question": "What is the color of The Lion Has Wings?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "734"
+    },
+    {
+        "query_id": "462_184",
+        "question": "What is the color of Francis Goes to the Races?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "414"
+    },
+    {
+        "query_id": "462_185",
+        "question": "What is the color of The Americanization of Emily?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "3539"
+    },
+    {
+        "query_id": "462_186",
+        "question": "What is the color of Nine Days in One Year?",
+        "answers": [
+            "colour film",
+            "colour",
+            "black-and-white cinema",
+            "color film",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film",
+            "color"
+        ],
+        "pageviews": "421"
+    },
+    {
+        "query_id": "462_187",
+        "question": "What is the color of The She-Creature?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "2123"
+    },
+    {
+        "query_id": "462_188",
+        "question": "What is the color of Partie de cartes?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "193"
+    },
+    {
+        "query_id": "462_189",
+        "question": "What is the color of Hemp for Victory?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1505"
+    },
+    {
+        "query_id": "462_190",
+        "question": "What is the color of The Curse of the Living Corpse?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1411"
+    },
+    {
+        "query_id": "462_191",
+        "question": "What is the color of the rainbow?",
+        "answers": [
+            "color blue",
+            "G",
+            "color yellow",
+            "red color",
+            "sky blue",
+            "color violet",
+            "colour indigo",
+            "Blue X11 blue",
+            "color orange",
+            "colour yellow",
+            "Green",
+            "violet color",
+            "violet",
+            "orange color",
+            "Electric green",
+            "ffff00",
+            "X11 blue",
+            "color indigo",
+            "Blue (RGB) (X11 blue)",
+            "color green",
+            "indigo color",
+            "blue purple",
+            "blue color",
+            "Blue (RGB)",
+            "red",
+            "yellow colour",
+            "FFFF00",
+            "yellow",
+            "orange",
+            "green",
+            "blue-purple",
+            "green colour",
+            "indigo",
+            "Y",
+            "indigo colour",
+            "yellow color",
+            "blue",
+            "colour green",
+            "green color"
+        ],
+        "pageviews": "7"
+    },
+    {
+        "query_id": "462_192",
+        "question": "What was the color of 1895 in film?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1010"
+    },
+    {
+        "query_id": "462_193",
+        "question": "What was the color of the film released in 1898 in film?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "591"
+    },
+    {
+        "query_id": "462_194",
+        "question": "What is the color of Mank?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "60315"
+    },
+    {
+        "query_id": "462_195",
+        "question": "What was the color of 1896 in film?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "930"
+    },
+    {
+        "query_id": "462_196",
+        "question": "What is the color of the film noir?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "4"
+    },
+    {
+        "query_id": "462_197",
+        "question": "What is the color of the Arabian horse?",
+        "answers": [
+            "chesnut",
+            "grey",
+            "bay",
+            "Rabicano",
+            "gray",
+            "bay horse",
+            "chestnut",
+            "Chestnut/sorrel",
+            "black horse",
+            "black",
+            "white horse"
+        ],
+        "pageviews": "23528"
+    },
+    {
+        "query_id": "462_198",
+        "question": "What is the color of daylight?",
+        "answers": [
+            "sunlight"
+        ],
+        "pageviews": "2"
+    },
+    {
+        "query_id": "462_199",
+        "question": "What was the color of the film released in 1901?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "908"
+    },
+    {
+        "query_id": "462_200",
+        "question": "What is the color of Maung Doh Cherry Myay in the film?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "37"
+    },
+    {
+        "query_id": "462_201",
+        "question": "What is the color of Pepsi?",
+        "answers": [
+            "caramel coloring",
+            "caramel colouring",
+            "caramel color",
+            "caramel colour"
+        ],
+        "pageviews": "77717"
+    },
+    {
+        "query_id": "462_202",
+        "question": "What is the color of Morus?",
+        "answers": [
+            "color purple",
+            "purple",
+            "red color",
+            "purple colour",
+            "purple color",
+            "red",
+            "colour purple"
+        ],
+        "pageviews": "817"
+    },
+    {
+        "query_id": "462_203",
+        "question": "What is the color of The Escape in the Silent film?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white film",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "-1"
+    },
+    {
+        "query_id": "462_204",
+        "question": "What was the color of The Ford Show?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1003"
+    },
+    {
+        "query_id": "462_205",
+        "question": "What is the color of Mr. No Problem?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1"
+    },
+    {
+        "query_id": "462_206",
+        "question": "What is the color of the Man with the Gun in the 1955 American Western film starring Robert Mitchum?",
+        "answers": [
+            "black-and-white cinema",
+            "B/W",
+            "colorless cinema",
+            "black-and-white",
+            "black and white",
+            "B&W",
+            "black and white film"
+        ],
+        "pageviews": "1224"
+    }
+]

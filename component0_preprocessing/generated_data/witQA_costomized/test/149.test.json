@@ -1,0 +1,2332 @@
+[
+    {
+        "query_id": "149_0",
+        "question": "What is the architectural style of Hellens Manor?",
+        "answers": [
+            "Tudor",
+            "Tudor architecture"
+        ],
+        "pageviews": "22"
+    },
+    {
+        "query_id": "149_1",
+        "question": "What is the architectural style of the joined-log structure?",
+        "answers": [
+            "rustic architecture",
+            "Rustic style",
+            "vernacular architecture"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "149_2",
+        "question": "What is the architectural style of the Ch\u00e2teau Frontenac?",
+        "answers": [
+            "chateau style",
+            "ch\u00e2teau style",
+            "chateauesque",
+            "ch\u00e2teauesque"
+        ],
+        "pageviews": "16391"
+    },
+    {
+        "query_id": "149_3",
+        "question": "What is the architectural style of Sanssouci?",
+        "answers": [
+            "Frederician Rococo"
+        ],
+        "pageviews": "13017"
+    },
+    {
+        "query_id": "149_4",
+        "question": "What is the architectural style of St. Luke's Episcopal Church, Chapel, Guildhall, and Rectory?",
+        "answers": [
+            "Gothic Revival",
+            "Neogothic architecture",
+            "Gothic Revival style",
+            "Jigsaw Gothic",
+            "Victorian Gothic architecture",
+            "Neo-Gothic architecture",
+            "Gothic Revival architecture"
+        ],
+        "pageviews": "142"
+    },
+    {
+        "query_id": "149_5",
+        "question": "What is the architectural style of the J. Mora Moss House?",
+        "answers": [
+            "Carpenter Gothic"
+        ],
+        "pageviews": "256"
+    },
+    {
+        "query_id": "149_6",
+        "question": "What is the architectural style of Rosenborg Castle?",
+        "answers": [
+            "renaissance",
+            "Renaissance architecture"
+        ],
+        "pageviews": "3268"
+    },
+    {
+        "query_id": "149_7",
+        "question": "What is the architectural style of the Palace of Fine Arts?",
+        "answers": [
+            "Art Nouveau",
+            "Art-deco",
+            "Jugendstil",
+            "Art Deco",
+            "Beaux Arts architecture",
+            "Neostyle - Beaux-Arts",
+            "Art Nouveaustijl",
+            "Art decostijl",
+            "Beaux-Arts",
+            "Art-Nouveau",
+            "Art-d\u00e9co",
+            "jugend",
+            "Beaux-Arts art style",
+            "Art d\u00e9co"
+        ],
+        "pageviews": "10347"
+    },
+    {
+        "query_id": "149_8",
+        "question": "What is the architectural style of 275 Madison Avenue?",
+        "answers": [
+            "Art-deco",
+            "Art Deco",
+            "International Style",
+            "Art decostijl",
+            "Art-d\u00e9co",
+            "Art d\u00e9co"
+        ],
+        "pageviews": "588"
+    },
+    {
+        "query_id": "149_9",
+        "question": "What is the architectural style of the John M. and Elizabeth Bates House No. 4?",
+        "answers": [
+            "Northwest Modern",
+            "Arts and Crafts movement",
+            "Arts & Crafts",
+            "Arts & Crafts Movement",
+            "Northwest Regional style"
+        ],
+        "pageviews": "38"
+    },
+    {
+        "query_id": "149_10",
+        "question": "What is the architectural style of the South Broad-East Fifth Streets Historic District?",
+        "answers": [
+            "Neo-Georgian",
+            "Queen Anne architectural style",
+            "Queen Anne style",
+            "Queen Anne style architecture",
+            "Colonial Revival",
+            "Colonial Revival architecture",
+            "Colonial",
+            "Colonial Revival style",
+            "Neocolonial",
+            "Queen Anne architecture",
+            "Georgian Revival"
+        ],
+        "pageviews": "8"
+    },
+    {
+        "query_id": "149_11",
+        "question": "What is the architectural style of Ara\u010da?",
+        "answers": [
+            "Romanesque architecture",
+            "Romanesque"
+        ],
+        "pageviews": "380"
+    },
+    {
+        "query_id": "149_12",
+        "question": "What is the architectural style of an ancient Greek temple, such as the Parthenon?",
+        "answers": [
+            "Ancient Greek architecture",
+            "ancient Greek architecture",
+            "Greek architecture"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "149_13",
+        "question": "What is the architectural style of the Massandra Palace?",
+        "answers": [
+            "Louis Treize",
+            "chateauesque",
+            "Louis XIII style",
+            "Ch\u00e2teauesque",
+            "chateau style",
+            "ch\u00e2teau style",
+            "ch\u00e2teauesque"
+        ],
+        "pageviews": "543"
+    },
+    {
+        "query_id": "149_14",
+        "question": "What is the architectural style of Schloss Kartlow?",
+        "answers": [
+            "Gothic Revival",
+            "Neogothic architecture",
+            "Gothic Revival style",
+            "Jigsaw Gothic",
+            "Victorian Gothic architecture",
+            "Neo-Gothic architecture",
+            "Gothic Revival architecture"
+        ],
+        "pageviews": "52"
+    },
+    {
+        "query_id": "149_15",
+        "question": "What is the architectural style of the Marine Building?",
+        "answers": [
+            "Art-deco",
+            "Art Deco",
+            "Art decostijl",
+            "Art-d\u00e9co",
+            "Art d\u00e9co"
+        ],
+        "pageviews": "1266"
+    },
+    {
+        "query_id": "149_16",
+        "question": "What is the architectural style of Manchester Town Hall?",
+        "answers": [
+            "Gothic Revival",
+            "Neogothic architecture",
+            "Gothic Revival style",
+            "Jigsaw Gothic",
+            "Neo-gothic",
+            "High Victorian Gothic",
+            "Victorian Gothic architecture",
+            "Neo-Gothic architecture",
+            "Gothic Revival architecture"
+        ],
+        "pageviews": "2838"
+    },
+    {
+        "query_id": "149_17",
+        "question": "What is the architectural style of the Jesmond Synagogue?",
+        "answers": [
+            "Byzantine Revival",
+            "Neo-Byzantine architecture",
+            "Byzantine Revival architecture"
+        ],
+        "pageviews": "157"
+    },
+    {
+        "query_id": "149_18",
+        "question": "What is the architectural style of the Guy and Margaret Fleming House?",
+        "answers": [
+            "Pueblo Revival",
+            "Pueblo Revival Style architecture",
+            "Santa Fe style"
+        ],
+        "pageviews": "73"
+    },
+    {
+        "query_id": "149_19",
+        "question": "What is the architectural style of Belton House?",
+        "answers": [
+            "English restoration style",
+            "Carolean style",
+            "Carolean",
+            "restoration style"
+        ],
+        "pageviews": "3800"
+    },
+    {
+        "query_id": "149_20",
+        "question": "What is the architectural style of Magnolia Grange?",
+        "answers": [
+            "Federal-style architecture",
+            "Federal style",
+            "Federal architecture"
+        ],
+        "pageviews": "102"
+    },
+    {
+        "query_id": "149_21",
+        "question": "What is the architectural style of the Joseph F. Glidden House?",
+        "answers": [
+            "French Colonial Architecture",
+            "French Colonial"
+        ],
+        "pageviews": "231"
+    },
+    {
+        "query_id": "149_22",
+        "question": "What is the architectural style of the First Congregational Church of Clearwater?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "51"
+    },
+    {
+        "query_id": "149_23",
+        "question": "What is the architectural style of the Camino del Monte Sol Historic District?",
+        "answers": [
+            "Pueblo Revival",
+            "Pueblo Revival Style architecture",
+            "Santa Fe style"
+        ],
+        "pageviews": "159"
+    },
+    {
+        "query_id": "149_24",
+        "question": "What is the architectural style of Acireale Cathedral?",
+        "answers": [
+            "baroque architecture",
+            "Baroque"
+        ],
+        "pageviews": "194"
+    },
+    {
+        "query_id": "149_25",
+        "question": "What is the architectural style of the Sam and Ruth VanSickle Ford House?",
+        "answers": [
+            "organic",
+            "organic architecture"
+        ],
+        "pageviews": "103"
+    },
+    {
+        "query_id": "149_26",
+        "question": "What is the architectural style of the Hotel Nacional de Cuba?",
+        "answers": [
+            "Art-deco",
+            "eclectic architecture",
+            "Art Deco",
+            "Eclectic",
+            "Spanish eclectic",
+            "Eclecticism in architecture",
+            "Art decostijl",
+            "Art-d\u00e9co",
+            "eclecticism",
+            "Art d\u00e9co"
+        ],
+        "pageviews": "4159"
+    },
+    {
+        "query_id": "149_27",
+        "question": "What is the architectural style of the Lovell House?",
+        "answers": [
+            "International style",
+            "International Style"
+        ],
+        "pageviews": "2295"
+    },
+    {
+        "query_id": "149_28",
+        "question": "What is the architectural style of the Jefferson Memorial?",
+        "answers": [
+            "neoclassical style",
+            "neo-classical architecture",
+            "neo-classical",
+            "Neoclassical architecture",
+            "Neoclassicism",
+            "Classical Revival architecture",
+            "neoclassical"
+        ],
+        "pageviews": "8015"
+    },
+    {
+        "query_id": "149_29",
+        "question": "What is the architectural style of the Towanda Historic District?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "49"
+    },
+    {
+        "query_id": "149_30",
+        "question": "What architectural style is associated with Lombard bands?",
+        "answers": [
+            "Romanesque architecture",
+            "Romanesque"
+        ],
+        "pageviews": "303"
+    },
+    {
+        "query_id": "149_31",
+        "question": "What is the architectural style of the Abel E. Eaton House?",
+        "answers": [
+            "Second Empire architecture",
+            "Napoleon III architecture",
+            "French Second Empire",
+            "Napoleon III style",
+            "Second Empire style"
+        ],
+        "pageviews": "82"
+    },
+    {
+        "query_id": "149_32",
+        "question": "What is the architectural style of Oak Ridge Apartments?",
+        "answers": [
+            "Tudor Revival style",
+            "neo-Tudor style",
+            "mock Tudor",
+            "Tudor Revival architecture",
+            "Tudor Revival"
+        ],
+        "pageviews": "55"
+    },
+    {
+        "query_id": "149_33",
+        "question": "What is the architectural style of the Bridge of Arta?",
+        "answers": [
+            "Turkish architecture",
+            "Ottoman",
+            "Ottoman architecture"
+        ],
+        "pageviews": "920"
+    },
+    {
+        "query_id": "149_34",
+        "question": "What is the architectural style of the Gibson Mansion?",
+        "answers": [
+            "Georgian architecture",
+            "Georgian Revival"
+        ],
+        "pageviews": "263"
+    },
+    {
+        "query_id": "149_35",
+        "question": "What type of architecture was commonly used in the design of land management administrative buildings within the time period of the Isabella Ranger Station?",
+        "answers": [
+            "rustic architecture"
+        ],
+        "pageviews": "49"
+    },
+    {
+        "query_id": "149_36",
+        "question": "What is the architectural style of the Bauhaus Archive?",
+        "answers": [
+            "Staatliches Bauhaus",
+            "Bauhaus"
+        ],
+        "pageviews": "1648"
+    },
+    {
+        "query_id": "149_37",
+        "question": "What is the architectural style of the Locke Block?",
+        "answers": [
+            "Chicago School",
+            "Chicago style",
+            "Commercial style"
+        ],
+        "pageviews": "60"
+    },
+    {
+        "query_id": "149_38",
+        "question": "What is the architectural style of the Neely-Sieber House?",
+        "answers": [
+            "Neo-Georgian",
+            "Colonial Revival",
+            "Colonial Revival architecture",
+            "Colonial",
+            "Colonial Revival style",
+            "Neocolonial",
+            "Georgian Revival"
+        ],
+        "pageviews": "21"
+    },
+    {
+        "query_id": "149_39",
+        "question": "What is the architectural style of the Edmund and Mary Ann Walworth Booth House?",
+        "answers": [
+            "Italianate architecture",
+            "Italianate"
+        ],
+        "pageviews": "47"
+    },
+    {
+        "query_id": "149_40",
+        "question": "What is the architectural style of the Coventry Glass Factory Historic District?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "57"
+    },
+    {
+        "query_id": "149_41",
+        "question": "What is the architectural style of Liverpool Town Hall?",
+        "answers": [
+            "Georgian architecture",
+            "Georgian"
+        ],
+        "pageviews": "1172"
+    },
+    {
+        "query_id": "149_42",
+        "question": "What is the architectural style of the Castello Scammacca?",
+        "answers": [
+            "Gothic Revival",
+            "Gothic",
+            "Neogothic architecture",
+            "Gothic Revival style",
+            "Jigsaw Gothic",
+            "Victorian Gothic architecture",
+            "Neo-Gothic architecture",
+            "Gothic Revival architecture"
+        ],
+        "pageviews": "183"
+    },
+    {
+        "query_id": "149_43",
+        "question": "What is the architectural style of A. Newton Farm?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "52"
+    },
+    {
+        "query_id": "149_44",
+        "question": "What is the architectural style of the Zs\u00e1mb\u00e9k Premontre monastery church?",
+        "answers": [
+            "Romanesque architecture",
+            "Romanesque"
+        ],
+        "pageviews": "50"
+    },
+    {
+        "query_id": "149_45",
+        "question": "What was the architectural style of the Severn Street Synagogue?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "137"
+    },
+    {
+        "query_id": "149_46",
+        "question": "What is the architectural style of Abel Colley Tavern?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "62"
+    },
+    {
+        "query_id": "149_47",
+        "question": "What is the architectural style of Milimar?",
+        "answers": [
+            "Georgian architecture",
+            "Georgian"
+        ],
+        "pageviews": "65"
+    },
+    {
+        "query_id": "149_48",
+        "question": "What is the architectural style of the Sedalia Public Library?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "92"
+    },
+    {
+        "query_id": "149_49",
+        "question": "What is the architectural style of the Robert P. Carr House?",
+        "answers": [
+            "Italianate architecture"
+        ],
+        "pageviews": "59"
+    },
+    {
+        "query_id": "149_50",
+        "question": "What is the architectural style of the College Grove Methodist Church?",
+        "answers": [
+            "Stick/Eastlake",
+            "Stick style"
+        ],
+        "pageviews": "65"
+    },
+    {
+        "query_id": "149_51",
+        "question": "What architectural style did architect Cecil Bryan use when designing the Beecher Mausoleum?",
+        "answers": [
+            "neoclassical style",
+            "neo-classical architecture",
+            "neo-classical",
+            "Neoclassicism",
+            "Classical Revival architecture",
+            "Neoclassical style",
+            "Neoclassical architecture"
+        ],
+        "pageviews": "63"
+    },
+    {
+        "query_id": "149_52",
+        "question": "What is the architectural style of Villa Roseville?",
+        "answers": [
+            "Art Nouveau",
+            "Jugendstil",
+            "Art Nouveaustijl",
+            "Art-Nouveau",
+            "jugend"
+        ],
+        "pageviews": "13"
+    },
+    {
+        "query_id": "149_53",
+        "question": "What is the architectural style of Oakcliff?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "87"
+    },
+    {
+        "query_id": "149_54",
+        "question": "What is the architectural style of the William B. Wills House?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "40"
+    },
+    {
+        "query_id": "149_55",
+        "question": "What is the architectural style of the Glen and Addie Crabtree Cabin?",
+        "answers": [
+            "rustic architecture",
+            "rustic"
+        ],
+        "pageviews": "33"
+    },
+    {
+        "query_id": "149_56",
+        "question": "What is the architectural style of the Mansion of Yegor Krasilnikov?",
+        "answers": [
+            "eclectic architecture",
+            "eclectic style",
+            "Eclectic",
+            "Eclecticism in architecture",
+            "Eclectic architecture in Russia",
+            "eclecticism"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "149_57",
+        "question": "What is the architectural style of the A. T. Averill House?",
+        "answers": [
+            "Victorian architecture",
+            "Late Victorian"
+        ],
+        "pageviews": "73"
+    },
+    {
+        "query_id": "149_58",
+        "question": "What is the architectural style of Buffalo City Hall?",
+        "answers": [
+            "Art-deco",
+            "Art Deco",
+            "Art decostijl",
+            "Art-d\u00e9co",
+            "Art d\u00e9co"
+        ],
+        "pageviews": "1964"
+    },
+    {
+        "query_id": "149_59",
+        "question": "What is the architectural style of the Dubois-Phelps House?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "36"
+    },
+    {
+        "query_id": "149_60",
+        "question": "What is the architectural style of the Clarence Keating House?",
+        "answers": [
+            "Neo-Georgian",
+            "Colonial Revival architecture",
+            "Colonial",
+            "Colonial Revival style",
+            "Neocolonial",
+            "Georgian Revival"
+        ],
+        "pageviews": "49"
+    },
+    {
+        "query_id": "149_61",
+        "question": "What architectural style was Buckland Station built with?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "112"
+    },
+    {
+        "query_id": "149_62",
+        "question": "What is the architectural style of Fonti Flora Plantation?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "159"
+    },
+    {
+        "query_id": "149_63",
+        "question": "What is the architectural style of Clifton Hill House?",
+        "answers": [
+            "Palladian architecture",
+            "Palladian"
+        ],
+        "pageviews": "363"
+    },
+    {
+        "query_id": "149_64",
+        "question": "What is the architectural style of the House at 7066 Lobdell Road?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "26"
+    },
+    {
+        "query_id": "149_65",
+        "question": "What is the architectural style of the Charles Granke House?",
+        "answers": [
+            "Neo-Georgian",
+            "Colonial Revival",
+            "Colonial Revival architecture",
+            "Colonial",
+            "Colonial Revival style",
+            "Neocolonial",
+            "Georgian Revival"
+        ],
+        "pageviews": "76"
+    },
+    {
+        "query_id": "149_66",
+        "question": "What is the architectural style of the Arco Baptist Community Church?",
+        "answers": [
+            "Romanesque Revival",
+            "Neo-Romanesque",
+            "Romanesque Revival architecture"
+        ],
+        "pageviews": "92"
+    },
+    {
+        "query_id": "149_67",
+        "question": "What is the architectural style of the Williamsport Armory?",
+        "answers": [
+            "Art-deco",
+            "Art Deco",
+            "Art decostijl",
+            "Art-d\u00e9co",
+            "Art d\u00e9co"
+        ],
+        "pageviews": "69"
+    },
+    {
+        "query_id": "149_68",
+        "question": "What is the architectural style of Kaunas Synagogue?",
+        "answers": [
+            "Baroque Revival architecture",
+            "neo-baroque architecture",
+            "Second Empire architecture in France",
+            "Neo-Baroque",
+            "neo-Baroque architecture",
+            "Baroque Revival Architecture"
+        ],
+        "pageviews": "299"
+    },
+    {
+        "query_id": "149_69",
+        "question": "What is the architectural style of Greer House?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "66"
+    },
+    {
+        "query_id": "149_70",
+        "question": "What is the architectural style of the H. C. Watson House?",
+        "answers": [
+            "neoclassical style",
+            "neo-classical architecture",
+            "neo-classical",
+            "Classical Revival",
+            "Neoclassicism",
+            "Classical Revival architecture",
+            "Neoclassical architecture"
+        ],
+        "pageviews": "90"
+    },
+    {
+        "query_id": "149_71",
+        "question": "What is the architectural style of Cox Farmhouse?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "60"
+    },
+    {
+        "query_id": "149_72",
+        "question": "What is the architectural style of the John F. and Lillia Dumke House?",
+        "answers": [
+            "Arts and crafts movement",
+            "Craftsman",
+            "American Craftsman"
+        ],
+        "pageviews": "37"
+    },
+    {
+        "query_id": "149_73",
+        "question": "What is the architectural style of Kamieniec Castle?",
+        "answers": [
+            "Gothic",
+            "Gothic style",
+            "Gothic architecture"
+        ],
+        "pageviews": "82"
+    },
+    {
+        "query_id": "149_74",
+        "question": "What is the architectural style of the Old Bennington High School?",
+        "answers": [
+            "Beaux-Arts architecture",
+            "Beaux Arts architecture",
+            "Neostyle - Beaux-Arts",
+            "Beaux-Arts",
+            "Beaux-Arts art style"
+        ],
+        "pageviews": "105"
+    },
+    {
+        "query_id": "149_75",
+        "question": "What is the architectural style of the Allan Miller House?",
+        "answers": [
+            "Prairie School architecture",
+            "prairie style"
+        ],
+        "pageviews": "136"
+    },
+    {
+        "query_id": "149_76",
+        "question": "What is the architectural style of Polling Abbey?",
+        "answers": [
+            "Gothic",
+            "Gothic style",
+            "Gothic architecture"
+        ],
+        "pageviews": "138"
+    },
+    {
+        "query_id": "149_77",
+        "question": "What is the architectural style of the Schroeder Bros. Meat Market?",
+        "answers": [
+            "Commercial Vernacular",
+            "vernacular architecture"
+        ],
+        "pageviews": "66"
+    },
+    {
+        "query_id": "149_78",
+        "question": "What is the architectural style of the Fortunato Anselmo House?",
+        "answers": [
+            "Victorian architecture",
+            "Late Victorian"
+        ],
+        "pageviews": "87"
+    },
+    {
+        "query_id": "149_79",
+        "question": "What is the architectural style of School 518?",
+        "answers": [
+            "postconstructivist",
+            "Postconstructivism"
+        ],
+        "pageviews": "110"
+    },
+    {
+        "query_id": "149_80",
+        "question": "What is the architectural style of Edward Harrison House?",
+        "answers": [
+            "Second Empire architecture",
+            "Napoleon III architecture",
+            "Second Empire",
+            "Napoleon III style",
+            "Second Empire style"
+        ],
+        "pageviews": "55"
+    },
+    {
+        "query_id": "149_81",
+        "question": "What is the architectural style of Trent-Beaver House?",
+        "answers": [
+            "Arts and crafts movement",
+            "American Craftsman",
+            "Craftsman"
+        ],
+        "pageviews": "48"
+    },
+    {
+        "query_id": "149_82",
+        "question": "What is the architectural style of the Fontenelle Apartment House?",
+        "answers": [
+            "Arts and crafts movement",
+            "American Craftsman",
+            "Craftsman"
+        ],
+        "pageviews": "48"
+    },
+    {
+        "query_id": "149_83",
+        "question": "What is the architectural style of The Mansion at Fort Chiswell?",
+        "answers": [
+            "Greek Revival architecture",
+            "Renaissance Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Renaissance",
+            "Neo-Greek"
+        ],
+        "pageviews": "277"
+    },
+    {
+        "query_id": "149_84",
+        "question": "What is the architectural style of the Frederick County Courthouse?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "133"
+    },
+    {
+        "query_id": "149_85",
+        "question": "What is the architectural style of Newport Masonic Hall?",
+        "answers": [
+            "Neo-Georgian",
+            "Colonial Revival",
+            "Colonial Revival architecture",
+            "Colonial",
+            "Colonial Revival style",
+            "Neocolonial",
+            "Georgian Revival"
+        ],
+        "pageviews": "74"
+    },
+    {
+        "query_id": "149_86",
+        "question": "What is the architectural style of the Col. C. F. Drake House?",
+        "answers": [
+            "Shingle style architecture",
+            "Shingle Style"
+        ],
+        "pageviews": "37"
+    },
+    {
+        "query_id": "149_87",
+        "question": "What is the architectural style of Trinity Evangelical Lutheran Church?",
+        "answers": [
+            "Gothic Revival",
+            "Neogothic architecture",
+            "Gothic Revival style",
+            "Jigsaw Gothic",
+            "Victorian Gothic-style",
+            "Victorian Gothic architecture",
+            "Neo-Gothic architecture",
+            "Gothic Revival architecture"
+        ],
+        "pageviews": "254"
+    },
+    {
+        "query_id": "149_88",
+        "question": "What is the architectural style of the J. Thomas Newsome House?",
+        "answers": [
+            "Queen Anne architectural style",
+            "Queen Anne style",
+            "Queen Anne style architecture",
+            "Queen Anne",
+            "Queen Anne architecture"
+        ],
+        "pageviews": "122"
+    },
+    {
+        "query_id": "149_89",
+        "question": "What is the architectural style of the June Tolliver House?",
+        "answers": [
+            "Queen Anne architectural style",
+            "Queen Anne style",
+            "Queen Anne style architecture",
+            "Queen Anne",
+            "Queen Anne architecture"
+        ],
+        "pageviews": "84"
+    },
+    {
+        "query_id": "149_90",
+        "question": "What is the architectural style of Greipstad Church?",
+        "answers": [
+            "empire style",
+            "Empire style",
+            "Empire"
+        ],
+        "pageviews": "73"
+    },
+    {
+        "query_id": "149_91",
+        "question": "What is the architectural style of the Second Reformed Dutch Church of Kingston?",
+        "answers": [
+            "Gothic Revival",
+            "Neogothic architecture",
+            "Gothic Revival style",
+            "Jigsaw Gothic",
+            "Victorian Gothic architecture",
+            "Neo-Gothic architecture",
+            "Gothic Revival architecture"
+        ],
+        "pageviews": "57"
+    },
+    {
+        "query_id": "149_92",
+        "question": "What is the architectural style of the First Methodist Episcopal Church of Glendale?",
+        "answers": [
+            "Gothic Revival",
+            "Neogothic architecture",
+            "Gothic Revival style",
+            "Jigsaw Gothic",
+            "Victorian Gothic architecture",
+            "Neo-Gothic architecture",
+            "Gothic Revival architecture"
+        ],
+        "pageviews": "4"
+    },
+    {
+        "query_id": "149_93",
+        "question": "What is the architectural style of the Romanesque House in Wroc\u0142aw?",
+        "answers": [
+            "Romanesque architecture",
+            "Romanesque"
+        ],
+        "pageviews": "81"
+    },
+    {
+        "query_id": "149_94",
+        "question": "What is the architectural style of the First Baptist Church of Mumford?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "60"
+    },
+    {
+        "query_id": "149_95",
+        "question": "What is the architectural style of Marion Veterans Affairs Medical Center?",
+        "answers": [
+            "Neostyle - Egyptian",
+            "Egyptian Revival",
+            "Egyptian Revival (architecture)",
+            "Neo-Egyptian"
+        ],
+        "pageviews": "119"
+    },
+    {
+        "query_id": "149_96",
+        "question": "What is the architectural style of the George W. Hallock House?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "49"
+    },
+    {
+        "query_id": "149_97",
+        "question": "What is the architectural style of the Auberge d'Aragon?",
+        "answers": [
+            "Late Renaissance",
+            "Mannerism",
+            "Mannerist"
+        ],
+        "pageviews": "349"
+    },
+    {
+        "query_id": "149_98",
+        "question": "What is the architectural style of Windsor Ruins?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "2301"
+    },
+    {
+        "query_id": "149_99",
+        "question": "What is the architectural style of Belen City Hall?",
+        "answers": [
+            "Pueblo Revival",
+            "Pueblo Revival Style architecture",
+            "Santa Fe style"
+        ],
+        "pageviews": "48"
+    },
+    {
+        "query_id": "149_100",
+        "question": "What is the architectural style of Generation Park?",
+        "answers": [
+            "Neomodernism",
+            "neomodern",
+            "Neomodern architecture",
+            "Neomodern"
+        ],
+        "pageviews": "121"
+    },
+    {
+        "query_id": "149_101",
+        "question": "What is the architectural style of Zoar Strict Baptist Chapel?",
+        "answers": [
+            "classical architecture",
+            "Classical"
+        ],
+        "pageviews": "182"
+    },
+    {
+        "query_id": "149_102",
+        "question": "What is the architectural style of The Neuville?",
+        "answers": [
+            "Renaissance Revival",
+            "Neo-Renaissance",
+            "Renaissance Revival architecture"
+        ],
+        "pageviews": "77"
+    },
+    {
+        "query_id": "149_103",
+        "question": "What is the architectural style of Felbrigg Hall?",
+        "answers": [
+            "Jacobean architecture"
+        ],
+        "pageviews": "2002"
+    },
+    {
+        "query_id": "149_104",
+        "question": "What is the architectural style of the Alpine LDS Church Meetinghouse?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "62"
+    },
+    {
+        "query_id": "149_105",
+        "question": "What is the architectural style of the 48th Police Precinct Station?",
+        "answers": [
+            "Mediterranean Revival architecture",
+            "Italian Renaissance Revival",
+            "Neo-Renaissance",
+            "Renaissance Revival architecture"
+        ],
+        "pageviews": "136"
+    },
+    {
+        "query_id": "149_106",
+        "question": "What is the architectural style of the Universalist Society Meetinghouse?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "74"
+    },
+    {
+        "query_id": "149_107",
+        "question": "What is the architectural style of the Leipzig synagogue?",
+        "answers": [
+            "Orientalist architecture",
+            "Moorish Revival architecture",
+            "Moorish Revival"
+        ],
+        "pageviews": "118"
+    },
+    {
+        "query_id": "149_108",
+        "question": "What is the architectural style of the Ashbel Smith Building?",
+        "answers": [
+            "Romanesque Revival",
+            "Neo-Romanesque",
+            "Romanesque Revival architecture"
+        ],
+        "pageviews": "491"
+    },
+    {
+        "query_id": "149_109",
+        "question": "What is the architectural style of the Chapel of St. Mary the Virgin?",
+        "answers": [
+            "Gothic Revival",
+            "Neogothic architecture",
+            "Gothic Revival style",
+            "Jigsaw Gothic",
+            "Victorian Gothic architecture",
+            "Neo-Gothic architecture",
+            "Gothic Revival architecture"
+        ],
+        "pageviews": "148"
+    },
+    {
+        "query_id": "149_110",
+        "question": "What is the architectural style of Bad Doberan Minster?",
+        "answers": [
+            "Brick Gothic",
+            "Backstein Gothic",
+            "Backsteingotik"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "149_111",
+        "question": "What is the architectural style of the Barnstable County Courthouse?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "155"
+    },
+    {
+        "query_id": "149_112",
+        "question": "What is the architectural style of the San Luis Gonzaga Parish Church?",
+        "answers": [
+            "baroque architecture",
+            "Baroque"
+        ],
+        "pageviews": "239"
+    },
+    {
+        "query_id": "149_113",
+        "question": "What is the architectural style of Palazzo Braschi?",
+        "answers": [
+            "neoclassical style",
+            "neo-classical architecture",
+            "neo-classical",
+            "Neoclassical",
+            "Neoclassicism",
+            "Classical Revival architecture",
+            "Neoclassical architecture"
+        ],
+        "pageviews": "3886"
+    },
+    {
+        "query_id": "149_114",
+        "question": "What is the architectural style of Wade Memorial Chapel?",
+        "answers": [
+            "neoclassical style",
+            "neo-classical architecture",
+            "neo-classical",
+            "Neoclassical",
+            "Neoclassicism",
+            "Classical Revival architecture",
+            "Neoclassical architecture"
+        ],
+        "pageviews": "365"
+    },
+    {
+        "query_id": "149_115",
+        "question": "What is the architectural style of the Oliver H. Hovda House?",
+        "answers": [
+            "neoclassical style",
+            "neo-classical architecture",
+            "neo-classical",
+            "Classical Revival",
+            "Neoclassicism",
+            "Classical Revival architecture",
+            "Neoclassical architecture"
+        ],
+        "pageviews": "49"
+    },
+    {
+        "query_id": "149_116",
+        "question": "What is the architectural style of Mount Lebanon Baptist Church?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "90"
+    },
+    {
+        "query_id": "149_117",
+        "question": "What is the architectural style of the House at 18 Walnut Street?",
+        "answers": [
+            "Shingle style architecture",
+            "Shingle Style"
+        ],
+        "pageviews": "55"
+    },
+    {
+        "query_id": "149_118",
+        "question": "What was the architectural style of the Wirgman Building?",
+        "answers": [
+            "Federal-style architecture",
+            "Federal style",
+            "Federal-style",
+            "Federal architecture"
+        ],
+        "pageviews": "76"
+    },
+    {
+        "query_id": "149_119",
+        "question": "What is the architectural style of the Monument to Sir Alexander Ball?",
+        "answers": [
+            "neoclassical style",
+            "neo-classical architecture",
+            "neo-classical",
+            "Neoclassical architecture",
+            "Neoclassicism",
+            "Classical Revival architecture",
+            "neoclassical"
+        ],
+        "pageviews": "480"
+    },
+    {
+        "query_id": "149_120",
+        "question": "What is the architectural style of the Noble Judah Estate?",
+        "answers": [
+            "French Renaissance Revival",
+            "Neo-Renaissance",
+            "Renaissance Revival architecture"
+        ],
+        "pageviews": "119"
+    },
+    {
+        "query_id": "149_121",
+        "question": "What is the architectural style of the Los Altos Apartments?",
+        "answers": [
+            "Mission Revival Style",
+            "Mission style",
+            "Mission Revival",
+            "Mission Revival architecture",
+            "Spanish mission architecture"
+        ],
+        "pageviews": "660"
+    },
+    {
+        "query_id": "149_122",
+        "question": "What is the architectural style of the Marion Courthouse Square Historic District?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "64"
+    },
+    {
+        "query_id": "149_123",
+        "question": "What is the architectural style of the Murry Guggenheim House?",
+        "answers": [
+            "Beaux Arts architecture",
+            "Neostyle - Beaux-Arts",
+            "Beaux-Arts",
+            "Beaux-Arts art style"
+        ],
+        "pageviews": "170"
+    },
+    {
+        "query_id": "149_124",
+        "question": "What is the architectural style of the Lynchburg Courthouse?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "86"
+    },
+    {
+        "query_id": "149_125",
+        "question": "What is the architectural style of the Pear Lake Ski Hut?",
+        "answers": [
+            "NPS rustic",
+            "National Park Service Rustic",
+            "National Park Service rustic",
+            "Parkitecture"
+        ],
+        "pageviews": "181"
+    },
+    {
+        "query_id": "149_126",
+        "question": "What is the architectural style of the Basilica of Our Lady of Solitude?",
+        "answers": [
+            "Baroque"
+        ],
+        "pageviews": "161"
+    },
+    {
+        "query_id": "149_127",
+        "question": "What is the architectural style of the Alexander Faribault House?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "108"
+    },
+    {
+        "query_id": "149_128",
+        "question": "What is the architectural style of the Mount Pleasant Carnegie Library?",
+        "answers": [
+            "Prairie School architecture",
+            "Prairie School"
+        ],
+        "pageviews": "53"
+    },
+    {
+        "query_id": "149_129",
+        "question": "What is the architectural style of the E. Clem Wilson Building?",
+        "answers": [
+            "Art-deco",
+            "Art Deco / Art Moderne",
+            "Art Deco",
+            "Art decostijl",
+            "Art-d\u00e9co",
+            "Art d\u00e9co"
+        ],
+        "pageviews": "155"
+    },
+    {
+        "query_id": "149_130",
+        "question": "What is the architectural style of the Cannady-Brogden Farm?",
+        "answers": [
+            "Queen Anne architectural style",
+            "Queen Anne style",
+            "Queen Anne style architecture",
+            "Queen Anne",
+            "Queen Anne architecture"
+        ],
+        "pageviews": "18"
+    },
+    {
+        "query_id": "149_131",
+        "question": "What is the architectural style of Our Lady of Mount Carmel?",
+        "answers": [
+            "Gothic Revival",
+            "Neogothic architecture",
+            "neo-gothic",
+            "Gothic Revival style",
+            "Jigsaw Gothic",
+            "Victorian Gothic architecture",
+            "Neo-Gothic architecture",
+            "Gothic Revival architecture"
+        ],
+        "pageviews": "9663"
+    },
+    {
+        "query_id": "149_132",
+        "question": "What is the architectural style of the Basilica Palladiana?",
+        "answers": [
+            "Renaissance",
+            "Renaissance architecture"
+        ],
+        "pageviews": "1913"
+    },
+    {
+        "query_id": "149_133",
+        "question": "What is the architectural style of the Logia Mas\u00f3nica Hijos de la Luz?",
+        "answers": [
+            "neoclassical style",
+            "neo-classical architecture",
+            "neo-classical",
+            "Classical Revival",
+            "Neoclassicism",
+            "Classical Revival architecture",
+            "Neoclassical architecture"
+        ],
+        "pageviews": "70"
+    },
+    {
+        "query_id": "149_134",
+        "question": "What is the architectural style of Calvary Episcopal Church?",
+        "answers": [
+            "Gothic Revival",
+            "Neogothic architecture",
+            "Gothic Revival style",
+            "Jigsaw Gothic",
+            "Victorian Gothic architecture",
+            "Neo-Gothic architecture",
+            "Gothic Revival architecture"
+        ],
+        "pageviews": "28"
+    },
+    {
+        "query_id": "149_135",
+        "question": "What is the architectural style of the Larnerd Case House?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "109"
+    },
+    {
+        "query_id": "149_136",
+        "question": "What is the architectural style of the William Jacob Heller House?",
+        "answers": [
+            "Spanish Colonial Revival architecture",
+            "Art Nouveau",
+            "Jugendstil",
+            "Spanish Revival architecture",
+            "Spanish Revival",
+            "Art Nouveaustijl",
+            "Art-Nouveau",
+            "jugend",
+            "Spanish Colonial Revival"
+        ],
+        "pageviews": "51"
+    },
+    {
+        "query_id": "149_137",
+        "question": "What is the architectural style of the Accomac Historic District?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "64"
+    },
+    {
+        "query_id": "149_138",
+        "question": "What is the architectural style of Teatro Arriaga?",
+        "answers": [
+            "eclectic architecture",
+            "Baroque Revival architecture",
+            "Eclectic",
+            "neo-baroque architecture",
+            "Second Empire architecture in France",
+            "Neo-baroque",
+            "Eclecticism in architecture",
+            "neo-Baroque architecture",
+            "eclecticism",
+            "Baroque Revival Architecture"
+        ],
+        "pageviews": "388"
+    },
+    {
+        "query_id": "149_139",
+        "question": "What is the architectural style of the Sanford F. Conley House?",
+        "answers": [
+            "Italianate architecture",
+            "Italianate"
+        ],
+        "pageviews": "132"
+    },
+    {
+        "query_id": "149_140",
+        "question": "What is the architectural style of John T. Hash House?",
+        "answers": [
+            "Arts and crafts movement",
+            "Craftsman",
+            "American Craftsman"
+        ],
+        "pageviews": "53"
+    },
+    {
+        "query_id": "149_141",
+        "question": "What is the architectural style of Fairbanks City Hall?",
+        "answers": [
+            "Art-deco",
+            "Art Deco",
+            "Art decostijl",
+            "Art-d\u00e9co",
+            "Art d\u00e9co"
+        ],
+        "pageviews": "85"
+    },
+    {
+        "query_id": "149_142",
+        "question": "What is the architectural style of the Fuller Building?",
+        "answers": [
+            "Art-deco",
+            "Art Deco",
+            "Art decostijl",
+            "Art-d\u00e9co",
+            "Art d\u00e9co"
+        ],
+        "pageviews": "1416"
+    },
+    {
+        "query_id": "149_143",
+        "question": "What is the architectural style of Selma Terrace?",
+        "answers": [
+            "Prairie School architecture",
+            "Prairie School"
+        ],
+        "pageviews": "49"
+    },
+    {
+        "query_id": "149_144",
+        "question": "What is the architectural style of the Edwards-Fowler House?",
+        "answers": [
+            "Federal-style architecture",
+            "Federal style",
+            "Federal-style",
+            "Federal architecture"
+        ],
+        "pageviews": "30"
+    },
+    {
+        "query_id": "149_145",
+        "question": "What is the architectural style of the Kapu\u0101iwa Building?",
+        "answers": [
+            "Italianate architecture",
+            "Italianate"
+        ],
+        "pageviews": "58"
+    },
+    {
+        "query_id": "149_146",
+        "question": "What is the architectural style of the Emlenton Historic District?",
+        "answers": [
+            "Greek Revival architecture",
+            "Renaissance Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Renaissance",
+            "Neo-Greek"
+        ],
+        "pageviews": "87"
+    },
+    {
+        "query_id": "149_147",
+        "question": "What is the architectural style of the Phyllis Wheatley YWCA?",
+        "answers": [
+            "Neo-Georgian",
+            "Colonial Revival",
+            "Colonial Revival architecture",
+            "Colonial",
+            "Colonial Revival style",
+            "Neocolonial",
+            "Georgian Revival"
+        ],
+        "pageviews": "178"
+    },
+    {
+        "query_id": "149_148",
+        "question": "What architectural style did Bontadini introduce in Malta with the design of the Wignacourt Arch?",
+        "answers": [
+            "Baroque style",
+            "baroque architecture"
+        ],
+        "pageviews": "174"
+    },
+    {
+        "query_id": "149_149",
+        "question": "What is the architectural style of the Hunt Downing House?",
+        "answers": [
+            "Federal-style architecture",
+            "Federal style",
+            "Federal",
+            "Federal architecture"
+        ],
+        "pageviews": "38"
+    },
+    {
+        "query_id": "149_150",
+        "question": "What is the architectural style of Eastham House?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "70"
+    },
+    {
+        "query_id": "149_151",
+        "question": "What style of architecture was Hildesheim Cathedral built in?",
+        "answers": [
+            "Romanesque architecture",
+            "Romanesque style"
+        ],
+        "pageviews": "1286"
+    },
+    {
+        "query_id": "149_152",
+        "question": "What is the architectural style of Castle Horneck?",
+        "answers": [
+            "Georgian architecture",
+            "Georgian"
+        ],
+        "pageviews": "197"
+    },
+    {
+        "query_id": "149_153",
+        "question": "What is the architectural style of the Rudolph Latto House?",
+        "answers": [
+            "Italianate architecture",
+            "Italianate"
+        ],
+        "pageviews": "96"
+    },
+    {
+        "query_id": "149_154",
+        "question": "What is the architectural style of the How Houses?",
+        "answers": [
+            "Federal-style architecture",
+            "Federal style",
+            "Federal",
+            "Federal architecture"
+        ],
+        "pageviews": "53"
+    },
+    {
+        "query_id": "149_155",
+        "question": "What is the architectural style of the Filardi House?",
+        "answers": [
+            "Beaux Arts architecture",
+            "Neostyle - Beaux-Arts",
+            "Beaux-Arts",
+            "Beaux-Arts art style"
+        ],
+        "pageviews": "91"
+    },
+    {
+        "query_id": "149_156",
+        "question": "What is the architectural style of Madrasa Al-Ashrafiyya?",
+        "answers": [
+            "Mamluk architecture"
+        ],
+        "pageviews": "247"
+    },
+    {
+        "query_id": "149_157",
+        "question": "What is the architectural style of the Ruben M. Benjamin House?",
+        "answers": [
+            "neoclassicism",
+            "Classical Revival"
+        ],
+        "pageviews": "110"
+    },
+    {
+        "query_id": "149_158",
+        "question": "What is the architectural style of the William Henry and Lilla Luce Harrison House?",
+        "answers": [
+            "Queen Anne architectural style",
+            "Queen Anne style",
+            "Queen Anne style architecture",
+            "Queen Anne",
+            "Queen Anne architecture"
+        ],
+        "pageviews": "44"
+    },
+    {
+        "query_id": "149_159",
+        "question": "What is the architectural style of the Samuel S. Jones Cobblestone House?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "52"
+    },
+    {
+        "query_id": "149_160",
+        "question": "What is the architectural style of the Zuhn Building?",
+        "answers": [
+            "Italianate architecture",
+            "Italianate"
+        ],
+        "pageviews": "57"
+    },
+    {
+        "query_id": "149_161",
+        "question": "What is the architectural style of Benjamin Rush House?",
+        "answers": [
+            "Georgian architecture",
+            "Georgian Revival"
+        ],
+        "pageviews": "74"
+    },
+    {
+        "query_id": "149_162",
+        "question": "What was the architectural style of the Long and Third Commercial Building?",
+        "answers": [
+            "Second Renaissance Revival",
+            "Neo-Renaissance",
+            "Renaissance Revival architecture"
+        ],
+        "pageviews": "53"
+    },
+    {
+        "query_id": "149_163",
+        "question": "What is the architectural style of the Luma Tower?",
+        "answers": [
+            "Art-deco",
+            "Art Deco",
+            "Art decostijl",
+            "Art-d\u00e9co",
+            "Art d\u00e9co"
+        ],
+        "pageviews": "336"
+    },
+    {
+        "query_id": "149_164",
+        "question": "What is the architectural style of Ladywood Estates?",
+        "answers": [
+            "mid-century modern",
+            "midcentury modern",
+            "Mid-Century Modernism",
+            "Mid-Century Modernist"
+        ],
+        "pageviews": "74"
+    },
+    {
+        "query_id": "149_165",
+        "question": "What is the architectural style of the Wright Morris Boyhood House?",
+        "answers": [
+            "vernacular",
+            "vernacular architecture"
+        ],
+        "pageviews": "68"
+    },
+    {
+        "query_id": "149_166",
+        "question": "What is the architectural style of the Terminal Sales Building?",
+        "answers": [
+            "Art-deco",
+            "Art Deco",
+            "Art decostijl",
+            "Art-d\u00e9co",
+            "Art d\u00e9co"
+        ],
+        "pageviews": "142"
+    },
+    {
+        "query_id": "149_167",
+        "question": "What is the architectural style of Elmbrook Farm?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "57"
+    },
+    {
+        "query_id": "149_168",
+        "question": "What is the architectural style of The Dalles Carnegie Library?",
+        "answers": [
+            "Beaux Arts architecture",
+            "Neostyle - Beaux-Arts",
+            "Beaux-Arts",
+            "Beaux-Arts art style"
+        ],
+        "pageviews": "77"
+    },
+    {
+        "query_id": "149_169",
+        "question": "What is the architectural style of Maple Hall?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "59"
+    },
+    {
+        "query_id": "149_170",
+        "question": "What is the architectural style of the West Marion Historic District?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "42"
+    },
+    {
+        "query_id": "149_171",
+        "question": "What is the architectural style of the John Marshall House?",
+        "answers": [
+            "Federal-style architecture",
+            "Federal style",
+            "Federal-style",
+            "Federal architecture"
+        ],
+        "pageviews": "233"
+    },
+    {
+        "query_id": "149_172",
+        "question": "What is the architectural style of the Robert Lee Hardy House?",
+        "answers": [
+            "Neo-Georgian",
+            "Colonial Revival",
+            "Colonial Revival architecture",
+            "Colonial",
+            "Colonial Revival style",
+            "Neocolonial",
+            "Georgian Revival"
+        ],
+        "pageviews": "46"
+    },
+    {
+        "query_id": "149_173",
+        "question": "What is the architectural style of the Presbyterian Orphanage of Missouri?",
+        "answers": [
+            "Georgian architecture",
+            "Georgian Revival"
+        ],
+        "pageviews": "97"
+    },
+    {
+        "query_id": "149_174",
+        "question": "What is the architectural style of the Svetitskhoveli Cathedral?",
+        "answers": [
+            "cross dome church",
+            "cross-in-square"
+        ],
+        "pageviews": "3579"
+    },
+    {
+        "query_id": "149_175",
+        "question": "What is the architectural style of Old St. Paul's Methodist Episcopal Church?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "75"
+    },
+    {
+        "query_id": "149_176",
+        "question": "What is the architectural style of Kallio Church?",
+        "answers": [
+            "National Romanticism",
+            "National Romantic style"
+        ],
+        "pageviews": "424"
+    },
+    {
+        "query_id": "149_177",
+        "question": "What is the architectural style of the Van Horne House?",
+        "answers": [
+            "Neo-Georgian",
+            "Colonial Revival architecture",
+            "Colonial",
+            "Colonial Revival style",
+            "Neocolonial",
+            "Georgian Revival"
+        ],
+        "pageviews": "171"
+    },
+    {
+        "query_id": "149_178",
+        "question": "What is the architectural style of Timberhouse?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "80"
+    },
+    {
+        "query_id": "149_179",
+        "question": "What is the architectural style of Sun Terrace?",
+        "answers": [
+            "International Style"
+        ],
+        "pageviews": "70"
+    },
+    {
+        "query_id": "149_180",
+        "question": "What is the architectural style of the Brooks Building in Chicago's commercial core, the Loop?",
+        "answers": [
+            "Chicago School",
+            "Chicago style",
+            "Commercial style"
+        ],
+        "pageviews": "355"
+    },
+    {
+        "query_id": "149_181",
+        "question": "What is the architectural style of Mahonia Hall?",
+        "answers": [
+            "Tudor Revival style",
+            "Tudor-style",
+            "neo-Tudor style",
+            "mock Tudor",
+            "Tudor Revival architecture"
+        ],
+        "pageviews": "1349"
+    },
+    {
+        "query_id": "149_182",
+        "question": "What is the architectural style of Cambridge Tower?",
+        "answers": [
+            "New Formalism"
+        ],
+        "pageviews": "170"
+    },
+    {
+        "query_id": "149_183",
+        "question": "What is the architectural style of Mosvik Church?",
+        "answers": [
+            "Gothic",
+            "Gothic style",
+            "Gothic architecture"
+        ],
+        "pageviews": "62"
+    },
+    {
+        "query_id": "149_184",
+        "question": "What is the architectural style of the Ottumwa Young Women's Christian Association?",
+        "answers": [
+            "Renaissance Revival",
+            "Neo-Renaissance",
+            "Renaissance Revival architecture"
+        ],
+        "pageviews": "52"
+    },
+    {
+        "query_id": "149_185",
+        "question": "What is the architectural style of Locri Cathedral?",
+        "answers": [
+            "Lombard Romanesque",
+            "First Romanesque",
+            "premier art roman",
+            "Lombard-Catalan"
+        ],
+        "pageviews": "37"
+    },
+    {
+        "query_id": "149_186",
+        "question": "What is the architectural style of the Maysville Schoolhouse?",
+        "answers": [
+            "vernacular",
+            "vernacular architecture"
+        ],
+        "pageviews": "74"
+    },
+    {
+        "query_id": "149_187",
+        "question": "What is the architectural style of the Castle Club?",
+        "answers": [
+            "Gothic Revival",
+            "Neogothic architecture",
+            "Gothic Revival style",
+            "Jigsaw Gothic",
+            "Victorian Gothic architecture",
+            "Neo-Gothic architecture",
+            "Gothic Revival architecture"
+        ],
+        "pageviews": "247"
+    },
+    {
+        "query_id": "149_188",
+        "question": "What is the architectural style of the Raemelton Farm Historic District?",
+        "answers": [
+            "Greek Revival architecture",
+            "Greek Revival (architecture)",
+            "Greek Revival",
+            "Neostyle - neo-Greek",
+            "Neo-Greek architecture",
+            "Neo-Greek"
+        ],
+        "pageviews": "113"
+    },
+    {
+        "query_id": "149_189",
+        "question": "What is the architectural style of the Christian and Sarah Knudsen House?",
+        "answers": [
+            "Victorian architecture",
+            "Late Victorian"
+        ],
+        "pageviews": "45"
+    },
+    {
+        "query_id": "149_190",
+        "question": "What is the architectural style of the Peterborough Unitarian Church?",
+        "answers": [
+            "Federal-style architecture",
+            "Federal period",
+            "Federal style",
+            "Federal architecture"
+        ],
+        "pageviews": "77"
+    },
+    {
+        "query_id": "149_191",
+        "question": "What is the architectural style of Abydos?",
+        "answers": [
+            "Ta-Kemet",
+            "ancient Egypt",
+            "Ta-Ui",
+            "Ta-Meri",
+            "Ancient Egypt"
+        ],
+        "pageviews": "472"
+    },
+    {
+        "query_id": "149_192",
+        "question": "What is the architectural style of the Chrysler Building?",
+        "answers": [
+            "Art-deco",
+            "Art Deco",
+            "Art decostijl",
+            "Art-d\u00e9co",
+            "Art d\u00e9co"
+        ],
+        "pageviews": "50634"
+    },
+    {
+        "query_id": "149_193",
+        "question": "What is the architectural style of Strawberry Hill House?",
+        "answers": [
+            "Gothic Revival",
+            "Neogothic architecture",
+            "Gothic Revival style",
+            "Jigsaw Gothic",
+            "Victorian Gothic architecture",
+            "Neo-Gothic architecture",
+            "Gothic Revival architecture"
+        ],
+        "pageviews": "5183"
+    },
+    {
+        "query_id": "149_194",
+        "question": "What is the architectural style of the Basilica di San Vincenzo?",
+        "answers": [
+            "Romanesque architecture"
+        ],
+        "pageviews": "185"
+    },
+    {
+        "query_id": "149_195",
+        "question": "What is the architectural style of the Clara and Julius Schmidt House?",
+        "answers": [
+            "Italianate style",
+            "Italianate architecture"
+        ],
+        "pageviews": "51"
+    },
+    {
+        "query_id": "149_196",
+        "question": "What is the architectural style of the structures in the Prospect Avenue Historic District?",
+        "answers": [
+            "Georgian Revival architecture",
+            "Georgian architecture"
+        ],
+        "pageviews": "181"
+    },
+    {
+        "query_id": "149_197",
+        "question": "What is the architectural style of Bowden Hall?",
+        "answers": [
+            "Mission Revival architectural style",
+            "Mission Revival Style",
+            "Mission style",
+            "Mission Revival architecture",
+            "Spanish mission architecture"
+        ],
+        "pageviews": "68"
+    },
+    {
+        "query_id": "149_198",
+        "question": "What is the architectural style of the Molson Bank Building in Montreal?",
+        "answers": [
+            "Second Empire architecture",
+            "Napoleon III architecture",
+            "Second Empire",
+            "Napoleon III style",
+            "Second Empire style"
+        ],
+        "pageviews": "107"
+    },
+    {
+        "query_id": "149_199",
+        "question": "What is the architectural style of the Hotel Norfolk in Norfolk, Nebraska?",
+        "answers": [
+            "Georgian architecture",
+            "Georgian Revival"
+        ],
+        "pageviews": "21"
+    },
+    {
+        "query_id": "149_200",
+        "question": "What is the architectural style of the Cathedral Basilica of the Holy Family in Cz\u0119stochowa?",
+        "answers": [
+            "Gothic Revival",
+            "Neogothic architecture",
+            "Gothic Revival style",
+            "neo-Gothic style",
+            "Jigsaw Gothic",
+            "Victorian Gothic architecture",
+            "Neo-Gothic architecture",
+            "Gothic Revival architecture"
+        ],
+        "pageviews": "81"
+    },
+    {
+        "query_id": "149_201",
+        "question": "What is the architectural style of the Benjamin Cornelius Jr. House?",
+        "answers": [
+            "Neo-Georgian",
+            "Gothic Revival",
+            "Neogothic architecture",
+            "Italianate form",
+            "Gothic Revival style",
+            "Jigsaw Gothic",
+            "Colonial Revival architecture",
+            "Colonial",
+            "Colonial Revival style",
+            "Italianate architecture",
+            "Neocolonial",
+            "Victorian Gothic architecture",
+            "Georgian Revival",
+            "Neo-Gothic architecture",
+            "Gothic Revival architecture"
+        ],
+        "pageviews": "58"
+    },
+    {
+        "query_id": "149_202",
+        "question": "What is the architectural style of Jenisch House?",
+        "answers": [
+            "neoclassical style",
+            "neo-classical architecture",
+            "neo-classical",
+            "Neoclassicism",
+            "Classical Revival architecture",
+            "Neoclassical architecture",
+            "neoclassical architecture"
+        ],
+        "pageviews": "267"
+    }
+]

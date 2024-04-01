@@ -1,0 +1,2772 @@
+[
+    {
+        "query_id": "674_0",
+        "wiki_title": "Doctor Who",
+        "entity_id": "Q336240"
+    },
+    {
+        "query_id": "674_1",
+        "wiki_title": "Duffless",
+        "entity_id": "Q2747983"
+    },
+    {
+        "query_id": "674_2",
+        "wiki_title": "Tristan and Iseult",
+        "entity_id": "Q335367"
+    },
+    {
+        "query_id": "674_3",
+        "wiki_title": "Ascension of the Cybermen",
+        "entity_id": "Q84468746"
+    },
+    {
+        "query_id": "674_4",
+        "wiki_title": "The Master and Margarita",
+        "entity_id": "Q188538"
+    },
+    {
+        "query_id": "674_5",
+        "wiki_title": "The Maltese Falcon",
+        "entity_id": "Q870551"
+    },
+    {
+        "query_id": "674_6",
+        "wiki_title": "Braveheart",
+        "entity_id": "Q162729"
+    },
+    {
+        "query_id": "674_7",
+        "wiki_title": "Where No Man Has Gone Before",
+        "entity_id": "Q25366"
+    },
+    {
+        "query_id": "674_8",
+        "wiki_title": "The Idiot",
+        "entity_id": "Q210784"
+    },
+    {
+        "query_id": "674_9",
+        "wiki_title": "Chief of Hearts",
+        "entity_id": "Q2083507"
+    },
+    {
+        "query_id": "674_10",
+        "wiki_title": "Web of Spider-Man",
+        "entity_id": "Q1915633"
+    },
+    {
+        "query_id": "674_11",
+        "wiki_title": "Time and the Rani",
+        "entity_id": "Q3470556"
+    },
+    {
+        "query_id": "674_12",
+        "wiki_title": "Gena the Crocodile",
+        "entity_id": "Q1965370"
+    },
+    {
+        "query_id": "674_13",
+        "wiki_title": "Midsomer Murders",
+        "entity_id": "Q751917"
+    },
+    {
+        "query_id": "674_14",
+        "wiki_title": "Boy Meets Curl",
+        "entity_id": "Q2560645"
+    },
+    {
+        "query_id": "674_15",
+        "wiki_title": "The Lie of the Land",
+        "entity_id": "Q29972511"
+    },
+    {
+        "query_id": "674_16",
+        "wiki_title": "The Black Island",
+        "entity_id": "Q912873"
+    },
+    {
+        "query_id": "674_17",
+        "wiki_title": "Planet of Fire",
+        "entity_id": "Q6303868"
+    },
+    {
+        "query_id": "674_18",
+        "wiki_title": "The Regatta Mystery",
+        "entity_id": "Q2575387"
+    },
+    {
+        "query_id": "674_19",
+        "wiki_title": "The Girl Who Died",
+        "entity_id": "Q20982237"
+    },
+    {
+        "query_id": "674_20",
+        "wiki_title": "Dirk Gently's Holistic Detective Agency",
+        "entity_id": "Q902712"
+    },
+    {
+        "query_id": "674_21",
+        "wiki_title": "The Smugglers",
+        "entity_id": "Q3086367"
+    },
+    {
+        "query_id": "674_22",
+        "wiki_title": "The Adventure of the Red-Headed League",
+        "entity_id": "Q461026"
+    },
+    {
+        "query_id": "674_23",
+        "wiki_title": "The Curse of the Black Spot",
+        "entity_id": "Q2980673"
+    },
+    {
+        "query_id": "674_24",
+        "wiki_title": "The Mirror Crack'd from Side to Side",
+        "entity_id": "Q588531"
+    },
+    {
+        "query_id": "674_25",
+        "wiki_title": "The Wise Little Hen",
+        "entity_id": "Q1218820"
+    },
+    {
+        "query_id": "674_26",
+        "wiki_title": "Logopolis",
+        "entity_id": "Q5561477"
+    },
+    {
+        "query_id": "674_27",
+        "wiki_title": "Dracula Untold",
+        "entity_id": "Q14512114"
+    },
+    {
+        "query_id": "674_28",
+        "wiki_title": "Skin of Evil",
+        "entity_id": "Q1392472"
+    },
+    {
+        "query_id": "674_29",
+        "wiki_title": "X-Men",
+        "entity_id": "Q106182"
+    },
+    {
+        "query_id": "674_30",
+        "wiki_title": "Invasion of the Bunny Snatchers",
+        "entity_id": "Q6059715"
+    },
+    {
+        "query_id": "674_31",
+        "wiki_title": "The Diverting History of John Gilpin",
+        "entity_id": "Q7730402"
+    },
+    {
+        "query_id": "674_32",
+        "wiki_title": "Super Mario Run",
+        "entity_id": "Q26831232"
+    },
+    {
+        "query_id": "674_33",
+        "wiki_title": "Rape of Persephone",
+        "entity_id": "Q2132999"
+    },
+    {
+        "query_id": "674_34",
+        "wiki_title": "The Lego Batman Movie",
+        "entity_id": "Q23013169"
+    },
+    {
+        "query_id": "674_35",
+        "wiki_title": "Brokeback Mountain",
+        "entity_id": "Q160618"
+    },
+    {
+        "query_id": "674_36",
+        "wiki_title": "The Pee-wee Herman Show",
+        "entity_id": "Q7756461"
+    },
+    {
+        "query_id": "674_37",
+        "wiki_title": "Memorabilia",
+        "entity_id": "Q1373343"
+    },
+    {
+        "query_id": "674_38",
+        "wiki_title": "Steal This Episode",
+        "entity_id": "Q15579861"
+    },
+    {
+        "query_id": "674_39",
+        "wiki_title": "Terror of the Vervoids",
+        "entity_id": "Q6313196"
+    },
+    {
+        "query_id": "674_40",
+        "wiki_title": "Spearhead from Space",
+        "entity_id": "Q1778697"
+    },
+    {
+        "query_id": "674_41",
+        "wiki_title": "The Castafiore Emerald",
+        "entity_id": "Q1213734"
+    },
+    {
+        "query_id": "674_42",
+        "wiki_title": "Origin",
+        "entity_id": "Q30610044"
+    },
+    {
+        "query_id": "674_43",
+        "wiki_title": "The Master Mind of Mars",
+        "entity_id": "Q372746"
+    },
+    {
+        "query_id": "674_44",
+        "wiki_title": "Twain and Shaw Do Lunch",
+        "entity_id": "Q7857406"
+    },
+    {
+        "query_id": "674_45",
+        "wiki_title": "In Theory",
+        "entity_id": "Q6010920"
+    },
+    {
+        "query_id": "674_46",
+        "wiki_title": "Spock's Brain",
+        "entity_id": "Q3488820"
+    },
+    {
+        "query_id": "674_47",
+        "wiki_title": "Wild and Woolfy",
+        "entity_id": "Q4053144"
+    },
+    {
+        "query_id": "674_48",
+        "wiki_title": "The Nifty Nineties",
+        "entity_id": "Q599812"
+    },
+    {
+        "query_id": "674_49",
+        "wiki_title": "The Devil's Hands Are Idle Playthings",
+        "entity_id": "Q1994064"
+    },
+    {
+        "query_id": "674_50",
+        "wiki_title": "Bosko in Person",
+        "entity_id": "Q21999948"
+    },
+    {
+        "query_id": "674_51",
+        "wiki_title": "How to Play Baseball",
+        "entity_id": "Q3028342"
+    },
+    {
+        "query_id": "674_52",
+        "wiki_title": "The Pandora Principle",
+        "entity_id": "Q7755986"
+    },
+    {
+        "query_id": "674_53",
+        "wiki_title": "Memoirs of Hadrian",
+        "entity_id": "Q1233795"
+    },
+    {
+        "query_id": "674_54",
+        "wiki_title": "All-Star Superman",
+        "entity_id": "Q282494"
+    },
+    {
+        "query_id": "674_55",
+        "wiki_title": "Waterloo Road",
+        "entity_id": "Q3499780"
+    },
+    {
+        "query_id": "674_56",
+        "wiki_title": "The Corbomite Maneuver",
+        "entity_id": "Q1187077"
+    },
+    {
+        "query_id": "674_57",
+        "wiki_title": "The Happy Highwayman",
+        "entity_id": "Q7738813"
+    },
+    {
+        "query_id": "674_58",
+        "wiki_title": "Karan Ghelo",
+        "entity_id": "Q23301559"
+    },
+    {
+        "query_id": "674_59",
+        "wiki_title": "The Cartridge Family",
+        "entity_id": "Q2983914"
+    },
+    {
+        "query_id": "674_60",
+        "wiki_title": "Mickey's Nightmare",
+        "entity_id": "Q3220887"
+    },
+    {
+        "query_id": "674_61",
+        "wiki_title": "The Beagle Boys vs. the Money Bin",
+        "entity_id": "Q3235078"
+    },
+    {
+        "query_id": "674_62",
+        "wiki_title": "The Adventure of the Norwood Builder",
+        "entity_id": "Q2089920"
+    },
+    {
+        "query_id": "674_63",
+        "wiki_title": "Fear Her",
+        "entity_id": "Q3258990"
+    },
+    {
+        "query_id": "674_64",
+        "wiki_title": "Sleepy Time Donald",
+        "entity_id": "Q3033664"
+    },
+    {
+        "query_id": "674_65",
+        "wiki_title": "Acts of Thaddeus",
+        "entity_id": "Q3629169"
+    },
+    {
+        "query_id": "674_66",
+        "wiki_title": "Less Than Hero",
+        "entity_id": "Q1993979"
+    },
+    {
+        "query_id": "674_67",
+        "wiki_title": "War and Peace",
+        "entity_id": "Q161531"
+    },
+    {
+        "query_id": "674_68",
+        "wiki_title": "Maigret, Lognon and the Gangsters",
+        "entity_id": "Q739269"
+    },
+    {
+        "query_id": "674_69",
+        "wiki_title": "Roswell High",
+        "entity_id": "Q6517561"
+    },
+    {
+        "query_id": "674_70",
+        "wiki_title": "Canamar",
+        "entity_id": "Q2406528"
+    },
+    {
+        "query_id": "674_71",
+        "wiki_title": "A Certain Magical Index",
+        "entity_id": "Q277021"
+    },
+    {
+        "query_id": "674_72",
+        "wiki_title": "The Devil Wears Prada",
+        "entity_id": "Q2037865"
+    },
+    {
+        "query_id": "674_73",
+        "wiki_title": "Methuselah's Children",
+        "entity_id": "Q2666627"
+    },
+    {
+        "query_id": "674_74",
+        "wiki_title": "Forest of the Dead",
+        "entity_id": "Q2901406"
+    },
+    {
+        "query_id": "674_75",
+        "wiki_title": "Remember the Titans",
+        "entity_id": "Q117696"
+    },
+    {
+        "query_id": "674_76",
+        "wiki_title": "Without a Trace",
+        "entity_id": "Q826477"
+    },
+    {
+        "query_id": "674_77",
+        "wiki_title": "Lisa the Greek",
+        "entity_id": "Q1198048"
+    },
+    {
+        "query_id": "674_78",
+        "wiki_title": "The Great Money Caper",
+        "entity_id": "Q3019180"
+    },
+    {
+        "query_id": "674_79",
+        "wiki_title": "Journey's End",
+        "entity_id": "Q3208970"
+    },
+    {
+        "query_id": "674_80",
+        "wiki_title": "The Toy Shoppe",
+        "entity_id": "Q18155305"
+    },
+    {
+        "query_id": "674_81",
+        "wiki_title": "Bugs Bunny's Christmas Carol",
+        "entity_id": "Q4986242"
+    },
+    {
+        "query_id": "674_82",
+        "wiki_title": "Horatius Cocl\u00e8s",
+        "entity_id": "Q269455"
+    },
+    {
+        "query_id": "674_83",
+        "wiki_title": "Vox Sola",
+        "entity_id": "Q2360335"
+    },
+    {
+        "query_id": "674_84",
+        "wiki_title": "The Fields of Death",
+        "entity_id": "Q7733734"
+    },
+    {
+        "query_id": "674_85",
+        "wiki_title": "The Adventure of the Second Stain",
+        "entity_id": "Q1199885"
+    },
+    {
+        "query_id": "674_86",
+        "wiki_title": "Planet of the Dead",
+        "entity_id": "Q3024843"
+    },
+    {
+        "query_id": "674_87",
+        "wiki_title": "Oh Brother, Where Art Thou?",
+        "entity_id": "Q2635318"
+    },
+    {
+        "query_id": "674_88",
+        "wiki_title": "The Adventure of the Golden Pince-Nez",
+        "entity_id": "Q2728818"
+    },
+    {
+        "query_id": "674_89",
+        "wiki_title": "Hooked Bear",
+        "entity_id": "Q3143272"
+    },
+    {
+        "query_id": "674_90",
+        "wiki_title": "Kill the Alligator and Run",
+        "entity_id": "Q866279"
+    },
+    {
+        "query_id": "674_91",
+        "wiki_title": "Homer Goes to College",
+        "entity_id": "Q94318"
+    },
+    {
+        "query_id": "674_92",
+        "wiki_title": "The Hand of Fear",
+        "entity_id": "Q5490803"
+    },
+    {
+        "query_id": "674_93",
+        "wiki_title": "Maigret's Dead Man",
+        "entity_id": "Q3278124"
+    },
+    {
+        "query_id": "674_94",
+        "wiki_title": "Mickey's Birthday Party",
+        "entity_id": "Q716868"
+    },
+    {
+        "query_id": "674_95",
+        "wiki_title": "Hare Ribbin'",
+        "entity_id": "Q3127409"
+    },
+    {
+        "query_id": "674_96",
+        "wiki_title": "No Hunting",
+        "entity_id": "Q1240518"
+    },
+    {
+        "query_id": "674_97",
+        "wiki_title": "Hitman Go",
+        "entity_id": "Q20712110"
+    },
+    {
+        "query_id": "674_98",
+        "wiki_title": "Taste the Blood of Dracula",
+        "entity_id": "Q1415950"
+    },
+    {
+        "query_id": "674_99",
+        "wiki_title": "Sonic Heroes",
+        "entity_id": "Q1068962"
+    },
+    {
+        "query_id": "674_100",
+        "wiki_title": "Blazed and Confused",
+        "entity_id": "Q18417288"
+    },
+    {
+        "query_id": "674_101",
+        "wiki_title": "Land of Black Gold",
+        "entity_id": "Q240406"
+    },
+    {
+        "query_id": "674_102",
+        "wiki_title": "Murder Is No Joke",
+        "entity_id": "Q15091325"
+    },
+    {
+        "query_id": "674_103",
+        "wiki_title": "Cardcaptor Sakura",
+        "entity_id": "Q49182"
+    },
+    {
+        "query_id": "674_104",
+        "wiki_title": "The Little Children",
+        "entity_id": "Q1269132"
+    },
+    {
+        "query_id": "674_105",
+        "wiki_title": "Tarzan and the Madman",
+        "entity_id": "Q3981229"
+    },
+    {
+        "query_id": "674_106",
+        "wiki_title": "The Massacre of St Bartholomew's Eve",
+        "entity_id": "Q5238816"
+    },
+    {
+        "query_id": "674_107",
+        "wiki_title": "Ham and Eggs",
+        "entity_id": "Q18325698"
+    },
+    {
+        "query_id": "674_108",
+        "wiki_title": "Eternal Moonshine of the Simpson Mind",
+        "entity_id": "Q1235319"
+    },
+    {
+        "query_id": "674_109",
+        "wiki_title": "The Immortal Bard",
+        "entity_id": "Q6486201"
+    },
+    {
+        "query_id": "674_110",
+        "wiki_title": "Riding the Rap",
+        "entity_id": "Q7332983"
+    },
+    {
+        "query_id": "674_111",
+        "wiki_title": "Trust but Clarify",
+        "entity_id": "Q27510881"
+    },
+    {
+        "query_id": "674_112",
+        "wiki_title": "Inferior Decorator",
+        "entity_id": "Q3036130"
+    },
+    {
+        "query_id": "674_113",
+        "wiki_title": "A Very English Scandal",
+        "entity_id": "Q41663653"
+    },
+    {
+        "query_id": "674_114",
+        "wiki_title": "World War Three",
+        "entity_id": "Q2604186"
+    },
+    {
+        "query_id": "674_115",
+        "wiki_title": "The Boy Sherlock Holmes",
+        "entity_id": "Q3209867"
+    },
+    {
+        "query_id": "674_116",
+        "wiki_title": "The Not-Too-Late Show with Elmo",
+        "entity_id": "Q96419264"
+    },
+    {
+        "query_id": "674_117",
+        "wiki_title": "Batman Black and White",
+        "entity_id": "Q2891511"
+    },
+    {
+        "query_id": "674_118",
+        "wiki_title": "The Blue Cross",
+        "entity_id": "Q6367266"
+    },
+    {
+        "query_id": "674_119",
+        "wiki_title": "Wild Waves",
+        "entity_id": "Q3236001"
+    },
+    {
+        "query_id": "674_120",
+        "wiki_title": "The Rodeo Murder",
+        "entity_id": "Q5984401"
+    },
+    {
+        "query_id": "674_121",
+        "wiki_title": "The Cat and the Claw: Part 1",
+        "entity_id": "Q17183729"
+    },
+    {
+        "query_id": "674_122",
+        "wiki_title": "Thru the Mirror",
+        "entity_id": "Q1161479"
+    },
+    {
+        "query_id": "674_123",
+        "wiki_title": "Count Belisarius",
+        "entity_id": "Q1137044"
+    },
+    {
+        "query_id": "674_124",
+        "wiki_title": "Playful Pluto",
+        "entity_id": "Q3392773"
+    },
+    {
+        "query_id": "674_125",
+        "wiki_title": "The Adventure of the Beryl Coronet",
+        "entity_id": "Q1201796"
+    },
+    {
+        "query_id": "674_126",
+        "wiki_title": "The State Counsellor",
+        "entity_id": "Q1966939"
+    },
+    {
+        "query_id": "674_127",
+        "wiki_title": "Great Guns!",
+        "entity_id": "Q3115957"
+    },
+    {
+        "query_id": "674_128",
+        "wiki_title": "The Buckaroo of the Badlands",
+        "entity_id": "Q651424"
+    },
+    {
+        "query_id": "674_129",
+        "wiki_title": "Banco \u00e0 Bangkok pour OSS 117",
+        "entity_id": "Q2882090"
+    },
+    {
+        "query_id": "674_130",
+        "wiki_title": "Life Begins for Andy Panda",
+        "entity_id": "Q12125710"
+    },
+    {
+        "query_id": "674_131",
+        "wiki_title": "The Old Man and the Lisa",
+        "entity_id": "Q2627902"
+    },
+    {
+        "query_id": "674_132",
+        "wiki_title": "Bee at the Beach",
+        "entity_id": "Q2893613"
+    },
+    {
+        "query_id": "674_133",
+        "wiki_title": "Fray",
+        "entity_id": "Q2334647"
+    },
+    {
+        "query_id": "674_134",
+        "wiki_title": "Rhesus",
+        "entity_id": "Q667750"
+    },
+    {
+        "query_id": "674_135",
+        "wiki_title": "The Hollow Needle",
+        "entity_id": "Q3082586"
+    },
+    {
+        "query_id": "674_136",
+        "wiki_title": "The Saint Goes On",
+        "entity_id": "Q7762063"
+    },
+    {
+        "query_id": "674_137",
+        "wiki_title": "Horsing Around with History",
+        "entity_id": "Q4024510"
+    },
+    {
+        "query_id": "674_138",
+        "wiki_title": "Maigret at the Gai-Moulin",
+        "entity_id": "Q972066"
+    },
+    {
+        "query_id": "674_139",
+        "wiki_title": "Maigret Sees Red",
+        "entity_id": "Q3278137"
+    },
+    {
+        "query_id": "674_140",
+        "wiki_title": "The Lego Movie",
+        "entity_id": "Q2608065"
+    },
+    {
+        "query_id": "674_141",
+        "wiki_title": "Doctor Who, season 23",
+        "entity_id": "Q1611541"
+    },
+    {
+        "query_id": "674_142",
+        "wiki_title": "Panic on the Streets of Springfield",
+        "entity_id": "Q105549241"
+    },
+    {
+        "query_id": "674_143",
+        "wiki_title": "Going! Going! Gosh!",
+        "entity_id": "Q16201590"
+    },
+    {
+        "query_id": "674_144",
+        "wiki_title": "Where No One Has Gone Before",
+        "entity_id": "Q3435698"
+    },
+    {
+        "query_id": "674_145",
+        "wiki_title": "The Kill Artist",
+        "entity_id": "Q81007"
+    },
+    {
+        "query_id": "674_146",
+        "wiki_title": "Ajax",
+        "entity_id": "Q412341"
+    },
+    {
+        "query_id": "674_147",
+        "wiki_title": "The Haunted Monastery",
+        "entity_id": "Q2369484"
+    },
+    {
+        "query_id": "674_148",
+        "wiki_title": "The Mysterious Planet",
+        "entity_id": "Q6312825"
+    },
+    {
+        "query_id": "674_149",
+        "wiki_title": "Cuphead",
+        "entity_id": "Q18149495"
+    },
+    {
+        "query_id": "674_150",
+        "wiki_title": "Mega Man X2",
+        "entity_id": "Q100096"
+    },
+    {
+        "query_id": "674_151",
+        "wiki_title": "The King of the Sea",
+        "entity_id": "Q3792900"
+    },
+    {
+        "query_id": "674_152",
+        "wiki_title": "Old Sequoia",
+        "entity_id": "Q3228117"
+    },
+    {
+        "query_id": "674_153",
+        "wiki_title": "Grin and Bear It",
+        "entity_id": "Q3036174"
+    },
+    {
+        "query_id": "674_154",
+        "wiki_title": "Porno",
+        "entity_id": "Q123322"
+    },
+    {
+        "query_id": "674_155",
+        "wiki_title": "Shadows in Bronze",
+        "entity_id": "Q3859342"
+    },
+    {
+        "query_id": "674_156",
+        "wiki_title": "The Magnificent Ferengi",
+        "entity_id": "Q7749576"
+    },
+    {
+        "query_id": "674_157",
+        "wiki_title": "The Saint and the Templar Treasure",
+        "entity_id": "Q7762082"
+    },
+    {
+        "query_id": "674_158",
+        "wiki_title": "Ye Happy Pilgrims",
+        "entity_id": "Q18636671"
+    },
+    {
+        "query_id": "674_159",
+        "wiki_title": "Maigret and the Dosser",
+        "entity_id": "Q1341476"
+    },
+    {
+        "query_id": "674_160",
+        "wiki_title": "Murder in the Mews",
+        "entity_id": "Q650508"
+    },
+    {
+        "query_id": "674_161",
+        "wiki_title": "Felix the Cat Trifles with Time",
+        "entity_id": "Q5442386"
+    },
+    {
+        "query_id": "674_162",
+        "wiki_title": "Jurassic Bark",
+        "entity_id": "Q1994573"
+    },
+    {
+        "query_id": "674_163",
+        "wiki_title": "Donald's Better Self",
+        "entity_id": "Q3202005"
+    },
+    {
+        "query_id": "674_164",
+        "wiki_title": "A Wet Knight",
+        "entity_id": "Q4660617"
+    },
+    {
+        "query_id": "674_165",
+        "wiki_title": "World of Illusion Starring Mickey Mouse and Donald Duck",
+        "entity_id": "Q2740256"
+    },
+    {
+        "query_id": "674_166",
+        "wiki_title": "The Amazing Mary Jane",
+        "entity_id": "Q85847661"
+    },
+    {
+        "query_id": "674_167",
+        "wiki_title": "Honey Harvester",
+        "entity_id": "Q3224545"
+    },
+    {
+        "query_id": "674_168",
+        "wiki_title": "Illusions perdues",
+        "entity_id": "Q2092894"
+    },
+    {
+        "query_id": "674_169",
+        "wiki_title": "Rise of the Tomb Raider",
+        "entity_id": "Q17154489"
+    },
+    {
+        "query_id": "674_170",
+        "wiki_title": "JAG",
+        "entity_id": "Q754197"
+    },
+    {
+        "query_id": "674_171",
+        "wiki_title": "Half-Life",
+        "entity_id": "Q279744"
+    },
+    {
+        "query_id": "674_172",
+        "wiki_title": "An Officer and a Spy",
+        "entity_id": "Q60833546"
+    },
+    {
+        "query_id": "674_173",
+        "wiki_title": "Hook, Lion & Sinker",
+        "entity_id": "Q3036167"
+    },
+    {
+        "query_id": "674_174",
+        "wiki_title": "Barge of the Dead",
+        "entity_id": "Q4860559"
+    },
+    {
+        "query_id": "674_175",
+        "wiki_title": "The Three Musketeers",
+        "entity_id": "Q1218097"
+    },
+    {
+        "query_id": "674_176",
+        "wiki_title": "Helter Skelter",
+        "entity_id": "Q1604598"
+    },
+    {
+        "query_id": "674_177",
+        "wiki_title": "Pranksta Rap",
+        "entity_id": "Q3098598"
+    },
+    {
+        "query_id": "674_178",
+        "wiki_title": "Witchblade",
+        "entity_id": "Q848381"
+    },
+    {
+        "query_id": "674_179",
+        "wiki_title": "Conan the Warrior",
+        "entity_id": "Q2180182"
+    },
+    {
+        "query_id": "674_180",
+        "wiki_title": "The Mutants Are Revolting",
+        "entity_id": "Q4051204"
+    },
+    {
+        "query_id": "674_181",
+        "wiki_title": "Person of Interest",
+        "entity_id": "Q564345"
+    },
+    {
+        "query_id": "674_182",
+        "wiki_title": "Corn Chips",
+        "entity_id": "Q3549684"
+    },
+    {
+        "query_id": "674_183",
+        "wiki_title": "Maigret on the Defensive",
+        "entity_id": "Q3278129"
+    },
+    {
+        "query_id": "674_184",
+        "wiki_title": "A Tale of Two Springfields",
+        "entity_id": "Q2752970"
+    },
+    {
+        "query_id": "674_185",
+        "wiki_title": "The Starless World",
+        "entity_id": "Q7766313"
+    },
+    {
+        "query_id": "674_186",
+        "wiki_title": "Conan the Usurper",
+        "entity_id": "Q2166554"
+    },
+    {
+        "query_id": "674_187",
+        "wiki_title": "The Loss",
+        "entity_id": "Q7748511"
+    },
+    {
+        "query_id": "674_188",
+        "wiki_title": "Destined for Blues",
+        "entity_id": "Q5265206"
+    },
+    {
+        "query_id": "674_189",
+        "wiki_title": "The Autograph Hound",
+        "entity_id": "Q2961414"
+    },
+    {
+        "query_id": "674_190",
+        "wiki_title": "Test Pilot Donald",
+        "entity_id": "Q3036165"
+    },
+    {
+        "query_id": "674_191",
+        "wiki_title": "The Hound of the Baskervilles",
+        "entity_id": "Q45192"
+    },
+    {
+        "query_id": "674_192",
+        "wiki_title": "The Day of the Doctor",
+        "entity_id": "Q5840086"
+    },
+    {
+        "query_id": "674_193",
+        "wiki_title": "Fled Bricrenn",
+        "entity_id": "Q1427673"
+    },
+    {
+        "query_id": "674_194",
+        "wiki_title": "Super Mario World",
+        "entity_id": "Q853143"
+    },
+    {
+        "query_id": "674_195",
+        "wiki_title": "The Taming of the Shrew",
+        "entity_id": "Q332387"
+    },
+    {
+        "query_id": "674_196",
+        "wiki_title": "The Seven Crystal Balls",
+        "entity_id": "Q934536"
+    },
+    {
+        "query_id": "674_197",
+        "wiki_title": "The Godfather",
+        "entity_id": "Q243556"
+    },
+    {
+        "query_id": "674_198",
+        "wiki_title": "Snow White",
+        "entity_id": "Q11831"
+    },
+    {
+        "query_id": "674_199",
+        "wiki_title": "Judgement of Paris",
+        "entity_id": "Q1784308"
+    },
+    {
+        "query_id": "674_200",
+        "wiki_title": "Bones",
+        "entity_id": "Q207803"
+    },
+    {
+        "query_id": "674_201",
+        "wiki_title": "The Final Problem",
+        "entity_id": "Q228119"
+    },
+    {
+        "query_id": "674_202",
+        "wiki_title": "NYPD Blue",
+        "entity_id": "Q609274"
+    },
+    {
+        "query_id": "674_203",
+        "wiki_title": "My Fair Lady",
+        "entity_id": "Q591943"
+    },
+    {
+        "query_id": "674_204",
+        "wiki_title": "NCIS",
+        "entity_id": "Q4525"
+    },
+    {
+        "query_id": "674_205",
+        "wiki_title": "South Park",
+        "entity_id": "Q16538"
+    },
+    {
+        "query_id": "674_206",
+        "wiki_title": "Frankenstein; or, The Modern Prometheus",
+        "entity_id": "Q150827"
+    },
+    {
+        "query_id": "674_207",
+        "wiki_title": "The Adventures of Nero",
+        "entity_id": "Q576968"
+    },
+    {
+        "query_id": "674_208",
+        "wiki_title": "Kalevala",
+        "entity_id": "Q130924"
+    },
+    {
+        "query_id": "674_209",
+        "wiki_title": "Journey to the West",
+        "entity_id": "Q2353327"
+    },
+    {
+        "query_id": "674_210",
+        "wiki_title": "Oedipus Rex",
+        "entity_id": "Q148643"
+    },
+    {
+        "query_id": "674_211",
+        "wiki_title": "Aubrey-Maturin series",
+        "entity_id": "Q10376289"
+    },
+    {
+        "query_id": "674_212",
+        "wiki_title": "Much Ado About Nothing",
+        "entity_id": "Q130851"
+    },
+    {
+        "query_id": "674_213",
+        "wiki_title": "Harry Potter film series",
+        "entity_id": "Q216930"
+    },
+    {
+        "query_id": "674_214",
+        "wiki_title": "Fringe",
+        "entity_id": "Q3815"
+    },
+    {
+        "query_id": "674_215",
+        "wiki_title": "Kirby",
+        "entity_id": "Q2569953"
+    },
+    {
+        "query_id": "674_216",
+        "wiki_title": "Ace Attorney",
+        "entity_id": "Q339944"
+    },
+    {
+        "query_id": "674_217",
+        "wiki_title": "Mickey's Twice Upon a Christmas",
+        "entity_id": "Q1203831"
+    },
+    {
+        "query_id": "674_218",
+        "wiki_title": "Phaedo",
+        "entity_id": "Q244161"
+    },
+    {
+        "query_id": "674_219",
+        "wiki_title": "Smallville",
+        "entity_id": "Q180228"
+    },
+    {
+        "query_id": "674_220",
+        "wiki_title": "ScoobyNatural",
+        "entity_id": "Q51257047"
+    },
+    {
+        "query_id": "674_221",
+        "wiki_title": "Scoob!",
+        "entity_id": "Q23999279"
+    },
+    {
+        "query_id": "674_222",
+        "wiki_title": "Lokasenna",
+        "entity_id": "Q1536612"
+    },
+    {
+        "query_id": "674_223",
+        "wiki_title": "The Andy Griffith Show",
+        "entity_id": "Q526035"
+    },
+    {
+        "query_id": "674_224",
+        "wiki_title": "Brothers & Sisters",
+        "entity_id": "Q390076"
+    },
+    {
+        "query_id": "674_225",
+        "wiki_title": "The Office",
+        "entity_id": "Q23831"
+    },
+    {
+        "query_id": "674_226",
+        "wiki_title": "Batman",
+        "entity_id": "Q1247201"
+    },
+    {
+        "query_id": "674_227",
+        "wiki_title": "Posthomerica",
+        "entity_id": "Q1998710"
+    },
+    {
+        "query_id": "674_228",
+        "wiki_title": "The Pickwick Papers",
+        "entity_id": "Q460583"
+    },
+    {
+        "query_id": "674_229",
+        "wiki_title": "Deadpool 2",
+        "entity_id": "Q25431158"
+    },
+    {
+        "query_id": "674_230",
+        "wiki_title": "Agents of S.H.I.E.L.D.",
+        "entity_id": "Q537911"
+    },
+    {
+        "query_id": "674_231",
+        "wiki_title": "The Phantom of the Opera",
+        "entity_id": "Q272506"
+    },
+    {
+        "query_id": "674_232",
+        "wiki_title": "Yes Minister",
+        "entity_id": "Q732383"
+    },
+    {
+        "query_id": "674_233",
+        "wiki_title": "Steamboat Willie",
+        "entity_id": "Q816038"
+    },
+    {
+        "query_id": "674_234",
+        "wiki_title": "The Great Gatsby",
+        "entity_id": "Q214371"
+    },
+    {
+        "query_id": "674_235",
+        "wiki_title": "Cigars of the Pharaoh",
+        "entity_id": "Q837304"
+    },
+    {
+        "query_id": "674_236",
+        "wiki_title": "Asterix",
+        "entity_id": "Q42490"
+    },
+    {
+        "query_id": "674_237",
+        "wiki_title": "Action Comics",
+        "entity_id": "Q343615"
+    },
+    {
+        "query_id": "674_238",
+        "wiki_title": "Waiting for Godot",
+        "entity_id": "Q19871"
+    },
+    {
+        "query_id": "674_239",
+        "wiki_title": "The Greene Knight",
+        "entity_id": "Q3521158"
+    },
+    {
+        "query_id": "674_240",
+        "wiki_title": "The Lion, the Witch, and the Wardrobe",
+        "entity_id": "Q485093"
+    },
+    {
+        "query_id": "674_241",
+        "wiki_title": "Treasure Island",
+        "entity_id": "Q185118"
+    },
+    {
+        "query_id": "674_242",
+        "wiki_title": "From Russia with Love",
+        "entity_id": "Q106571"
+    },
+    {
+        "query_id": "674_243",
+        "wiki_title": "Jane Eyre",
+        "entity_id": "Q182961"
+    },
+    {
+        "query_id": "674_244",
+        "wiki_title": "Tennis the Menace",
+        "entity_id": "Q3106161"
+    },
+    {
+        "query_id": "674_245",
+        "wiki_title": "The Calculus Affair",
+        "entity_id": "Q935984"
+    },
+    {
+        "query_id": "674_246",
+        "wiki_title": "Once Upon a Time in Hollywood",
+        "entity_id": "Q47300912"
+    },
+    {
+        "query_id": "674_247",
+        "wiki_title": "His Dark Materials trilogy",
+        "entity_id": "Q129240"
+    },
+    {
+        "query_id": "674_248",
+        "wiki_title": "Super Mario Bros.",
+        "entity_id": "Q11168"
+    },
+    {
+        "query_id": "674_249",
+        "wiki_title": "How I Met Your Mother",
+        "entity_id": "Q147235"
+    },
+    {
+        "query_id": "674_250",
+        "wiki_title": "Day of the Moon",
+        "entity_id": "Q2587136"
+    },
+    {
+        "query_id": "674_251",
+        "wiki_title": "The Chronicles of Prydain",
+        "entity_id": "Q1211900"
+    },
+    {
+        "query_id": "674_252",
+        "wiki_title": "Nosferatu",
+        "entity_id": "Q151895"
+    },
+    {
+        "query_id": "674_253",
+        "wiki_title": "Psych",
+        "entity_id": "Q48758"
+    },
+    {
+        "query_id": "674_254",
+        "wiki_title": "Garfield",
+        "entity_id": "Q72533"
+    },
+    {
+        "query_id": "674_255",
+        "wiki_title": "Gone with the Wind",
+        "entity_id": "Q2870"
+    },
+    {
+        "query_id": "674_256",
+        "wiki_title": "Harry Potter and the Cursed Child",
+        "entity_id": "Q20711488"
+    },
+    {
+        "query_id": "674_257",
+        "wiki_title": "K-9 and Company",
+        "entity_id": "Q2604192"
+    },
+    {
+        "query_id": "674_258",
+        "wiki_title": "Barsoom",
+        "entity_id": "Q1501254"
+    },
+    {
+        "query_id": "674_259",
+        "wiki_title": "Gulliver's Travels",
+        "entity_id": "Q181488"
+    },
+    {
+        "query_id": "674_260",
+        "wiki_title": "Cars",
+        "entity_id": "Q182153"
+    },
+    {
+        "query_id": "674_261",
+        "wiki_title": "Orange Is the New Black",
+        "entity_id": "Q7099650"
+    },
+    {
+        "query_id": "674_262",
+        "wiki_title": "Fiddler on the Roof",
+        "entity_id": "Q487330"
+    },
+    {
+        "query_id": "674_263",
+        "wiki_title": "Criminal Minds",
+        "entity_id": "Q202141"
+    },
+    {
+        "query_id": "674_264",
+        "wiki_title": "The Wizard of Oz",
+        "entity_id": "Q193695"
+    },
+    {
+        "query_id": "674_265",
+        "wiki_title": "Disney's House of Mouse",
+        "entity_id": "Q693268"
+    },
+    {
+        "query_id": "674_266",
+        "wiki_title": "Book of Tobit",
+        "entity_id": "Q131737"
+    },
+    {
+        "query_id": "674_267",
+        "wiki_title": "Sleeping Beauty",
+        "entity_id": "Q215617"
+    },
+    {
+        "query_id": "674_268",
+        "wiki_title": "A Good Man Goes to War",
+        "entity_id": "Q2604135"
+    },
+    {
+        "query_id": "674_269",
+        "wiki_title": "Donkey Kong",
+        "entity_id": "Q662004"
+    },
+    {
+        "query_id": "674_270",
+        "wiki_title": "King Lear",
+        "entity_id": "Q181598"
+    },
+    {
+        "query_id": "674_271",
+        "wiki_title": "The Faceless Ones",
+        "entity_id": "Q2892900"
+    },
+    {
+        "query_id": "674_272",
+        "wiki_title": "Sherlock",
+        "entity_id": "Q192837"
+    },
+    {
+        "query_id": "674_273",
+        "wiki_title": "Image in the Sand",
+        "entity_id": "Q16744156"
+    },
+    {
+        "query_id": "674_274",
+        "wiki_title": "Narnia universe",
+        "entity_id": "Q501121"
+    },
+    {
+        "query_id": "674_275",
+        "wiki_title": "An Unearthly Child",
+        "entity_id": "Q1768718"
+    },
+    {
+        "query_id": "674_276",
+        "wiki_title": "Resident Evil 5",
+        "entity_id": "Q601050"
+    },
+    {
+        "query_id": "674_277",
+        "wiki_title": "The Terminator",
+        "entity_id": "Q162255"
+    },
+    {
+        "query_id": "674_278",
+        "wiki_title": "Book of Job",
+        "entity_id": "Q4577"
+    },
+    {
+        "query_id": "674_279",
+        "wiki_title": "Mario Party",
+        "entity_id": "Q6507722"
+    },
+    {
+        "query_id": "674_280",
+        "wiki_title": "The Voyage of the Dawn Treader",
+        "entity_id": "Q331656"
+    },
+    {
+        "query_id": "674_281",
+        "wiki_title": "The Ice Warriors",
+        "entity_id": "Q3469021"
+    },
+    {
+        "query_id": "674_282",
+        "wiki_title": "Tekken 3",
+        "entity_id": "Q1062106"
+    },
+    {
+        "query_id": "674_283",
+        "wiki_title": "canon of Sherlock Holmes",
+        "entity_id": "Q2316684"
+    },
+    {
+        "query_id": "674_284",
+        "wiki_title": "Captain Scarlet and the Mysterons",
+        "entity_id": "Q1035150"
+    },
+    {
+        "query_id": "674_285",
+        "wiki_title": "Paradise Lost",
+        "entity_id": "Q28754"
+    },
+    {
+        "query_id": "674_286",
+        "wiki_title": "Terminator Genisys",
+        "entity_id": "Q15140437"
+    },
+    {
+        "query_id": "674_287",
+        "wiki_title": "Ultimate Spider-Man",
+        "entity_id": "Q1199721"
+    },
+    {
+        "query_id": "674_288",
+        "wiki_title": "The Hunchback of Notre Dame",
+        "entity_id": "Q191380"
+    },
+    {
+        "query_id": "674_289",
+        "wiki_title": "Mario Party 4",
+        "entity_id": "Q1205293"
+    },
+    {
+        "query_id": "674_290",
+        "wiki_title": "The House at Pooh Corner",
+        "entity_id": "Q1633087"
+    },
+    {
+        "query_id": "674_291",
+        "wiki_title": "The Simpsons shorts",
+        "entity_id": "Q605111"
+    },
+    {
+        "query_id": "674_292",
+        "wiki_title": "Belshazzar's Feast",
+        "entity_id": "Q4884683"
+    },
+    {
+        "query_id": "674_293",
+        "wiki_title": "The Colbert Report",
+        "entity_id": "Q1130799"
+    },
+    {
+        "query_id": "674_294",
+        "wiki_title": "Sonic Adventure 2",
+        "entity_id": "Q1070984"
+    },
+    {
+        "query_id": "674_295",
+        "wiki_title": "Doraemon",
+        "entity_id": "Q235311"
+    },
+    {
+        "query_id": "674_296",
+        "wiki_title": "Harry Potter and the Philosopher's Stone",
+        "entity_id": "Q43361"
+    },
+    {
+        "query_id": "674_297",
+        "wiki_title": "Cabaret",
+        "entity_id": "Q1024739"
+    },
+    {
+        "query_id": "674_298",
+        "wiki_title": "Plagues of Egypt",
+        "entity_id": "Q184569"
+    },
+    {
+        "query_id": "674_299",
+        "wiki_title": "The Amazing Spider-Man 2",
+        "entity_id": "Q4254026"
+    },
+    {
+        "query_id": "674_300",
+        "wiki_title": "The Woman Who Fell To Earth",
+        "entity_id": "Q56628759"
+    },
+    {
+        "query_id": "674_301",
+        "wiki_title": "The Peanuts Movie",
+        "entity_id": "Q15982441"
+    },
+    {
+        "query_id": "674_302",
+        "wiki_title": "1 Maccabees",
+        "entity_id": "Q161985"
+    },
+    {
+        "query_id": "674_303",
+        "wiki_title": "The Adventures of Tom Sawyer",
+        "entity_id": "Q326914"
+    },
+    {
+        "query_id": "674_304",
+        "wiki_title": "Dr. No",
+        "entity_id": "Q102754"
+    },
+    {
+        "query_id": "674_305",
+        "wiki_title": "Puella Magi Madoka\u2606Magica",
+        "entity_id": "Q53353"
+    },
+    {
+        "query_id": "674_306",
+        "wiki_title": "The Horse and His Boy",
+        "entity_id": "Q157360"
+    },
+    {
+        "query_id": "674_307",
+        "wiki_title": "Shrek 2",
+        "entity_id": "Q485983"
+    },
+    {
+        "query_id": "674_308",
+        "wiki_title": "Adventures of Huckleberry Finn",
+        "entity_id": "Q215410"
+    },
+    {
+        "query_id": "674_309",
+        "wiki_title": "Death of a Salesman",
+        "entity_id": "Q820862"
+    },
+    {
+        "query_id": "674_310",
+        "wiki_title": "Data's Day",
+        "entity_id": "Q5227090"
+    },
+    {
+        "query_id": "674_311",
+        "wiki_title": "The Scarlet Letter",
+        "entity_id": "Q907568"
+    },
+    {
+        "query_id": "674_312",
+        "wiki_title": "Mario Party 2",
+        "entity_id": "Q1205676"
+    },
+    {
+        "query_id": "674_313",
+        "wiki_title": "Tochmarc Emire",
+        "entity_id": "Q256989"
+    },
+    {
+        "query_id": "674_314",
+        "wiki_title": "The Keys of Marinus",
+        "entity_id": "Q2989851"
+    },
+    {
+        "query_id": "674_315",
+        "wiki_title": "The Da Vinci Code",
+        "entity_id": "Q81689"
+    },
+    {
+        "query_id": "674_316",
+        "wiki_title": "Tarzan of the Apes",
+        "entity_id": "Q655296"
+    },
+    {
+        "query_id": "674_317",
+        "wiki_title": "The Old Curiosity Shop",
+        "entity_id": "Q2700616"
+    },
+    {
+        "query_id": "674_318",
+        "wiki_title": "Prisoners of the Sun",
+        "entity_id": "Q1138084"
+    },
+    {
+        "query_id": "674_319",
+        "wiki_title": "The Dalek Invasion of Earth",
+        "entity_id": "Q922832"
+    },
+    {
+        "query_id": "674_320",
+        "wiki_title": "The Witchfinders",
+        "entity_id": "Q59246989"
+    },
+    {
+        "query_id": "674_321",
+        "wiki_title": "Robin of Sherwood",
+        "entity_id": "Q1547664"
+    },
+    {
+        "query_id": "674_322",
+        "wiki_title": "Frozen II",
+        "entity_id": "Q24733929"
+    },
+    {
+        "query_id": "674_323",
+        "wiki_title": "Oedipus at Colonus",
+        "entity_id": "Q294001"
+    },
+    {
+        "query_id": "674_324",
+        "wiki_title": "The Vicomte of Bragelonne: Ten Years Later",
+        "entity_id": "Q769001"
+    },
+    {
+        "query_id": "674_325",
+        "wiki_title": "Memoirs of Eminent Monks",
+        "entity_id": "Q971942"
+    },
+    {
+        "query_id": "674_326",
+        "wiki_title": "I Married Marge",
+        "entity_id": "Q111808"
+    },
+    {
+        "query_id": "674_327",
+        "wiki_title": "The Crucible",
+        "entity_id": "Q1183443"
+    },
+    {
+        "query_id": "674_328",
+        "wiki_title": "Super Mario 64 DS",
+        "entity_id": "Q1142888"
+    },
+    {
+        "query_id": "674_329",
+        "wiki_title": "New Super Mario Bros. Wii",
+        "entity_id": "Q170410"
+    },
+    {
+        "query_id": "674_330",
+        "wiki_title": "The Americans",
+        "entity_id": "Q498438"
+    },
+    {
+        "query_id": "674_331",
+        "wiki_title": "The Haunting of Villa Diodati",
+        "entity_id": "Q84358761"
+    },
+    {
+        "query_id": "674_332",
+        "wiki_title": "Ruth",
+        "entity_id": "Q80038"
+    },
+    {
+        "query_id": "674_333",
+        "wiki_title": "The Hacker Crackdown",
+        "entity_id": "Q7738613"
+    },
+    {
+        "query_id": "674_334",
+        "wiki_title": "Death Note",
+        "entity_id": "Q1834"
+    },
+    {
+        "query_id": "674_335",
+        "wiki_title": "Holidays of Future Passed",
+        "entity_id": "Q267556"
+    },
+    {
+        "query_id": "674_336",
+        "wiki_title": "Better Call Saul",
+        "entity_id": "Q14925221"
+    },
+    {
+        "query_id": "674_337",
+        "wiki_title": "Flesh and Stone",
+        "entity_id": "Q2604151"
+    },
+    {
+        "query_id": "674_338",
+        "wiki_title": "Twenty Years After",
+        "entity_id": "Q1639633"
+    },
+    {
+        "query_id": "674_339",
+        "wiki_title": "The Five Doctors",
+        "entity_id": "Q1768713"
+    },
+    {
+        "query_id": "674_340",
+        "wiki_title": "Any Given Sundance",
+        "entity_id": "Q2984857"
+    },
+    {
+        "query_id": "674_341",
+        "wiki_title": "The Secret of the Unicorn",
+        "entity_id": "Q921522"
+    },
+    {
+        "query_id": "674_342",
+        "wiki_title": "Christmas on Bear Mountain",
+        "entity_id": "Q782733"
+    },
+    {
+        "query_id": "674_343",
+        "wiki_title": "Treehouse of Horror II",
+        "entity_id": "Q2376730"
+    },
+    {
+        "query_id": "674_344",
+        "wiki_title": "David Prowse",
+        "entity_id": "Q128379"
+    },
+    {
+        "query_id": "674_345",
+        "wiki_title": "Scrubs",
+        "entity_id": "Q485668"
+    },
+    {
+        "query_id": "674_346",
+        "wiki_title": "Sword Art Online",
+        "entity_id": "Q27863"
+    },
+    {
+        "query_id": "674_347",
+        "wiki_title": "Os Lus\u00edadas",
+        "entity_id": "Q781898"
+    },
+    {
+        "query_id": "674_348",
+        "wiki_title": "Snow White and the Seven Dwarfs",
+        "entity_id": "Q134430"
+    },
+    {
+        "query_id": "674_349",
+        "wiki_title": "Monica's Gang",
+        "entity_id": "Q938975"
+    },
+    {
+        "query_id": "674_350",
+        "wiki_title": "Tintin and the Picaros",
+        "entity_id": "Q612595"
+    },
+    {
+        "query_id": "674_351",
+        "wiki_title": "The Long Game",
+        "entity_id": "Q958270"
+    },
+    {
+        "query_id": "674_352",
+        "wiki_title": "The Catcher in the Rye",
+        "entity_id": "Q183883"
+    },
+    {
+        "query_id": "674_353",
+        "wiki_title": "Crito",
+        "entity_id": "Q267634"
+    },
+    {
+        "query_id": "674_354",
+        "wiki_title": "The Silence of the Lambs",
+        "entity_id": "Q133654"
+    },
+    {
+        "query_id": "674_355",
+        "wiki_title": "Agent Carter",
+        "entity_id": "Q16860023"
+    },
+    {
+        "query_id": "674_356",
+        "wiki_title": "Luigi's Mansion",
+        "entity_id": "Q984029"
+    },
+    {
+        "query_id": "674_357",
+        "wiki_title": "Serglige Con Culainn",
+        "entity_id": "Q2273285"
+    },
+    {
+        "query_id": "674_358",
+        "wiki_title": "Sense and Sensibility",
+        "entity_id": "Q274744"
+    },
+    {
+        "query_id": "674_359",
+        "wiki_title": "Plane Crazy",
+        "entity_id": "Q1753096"
+    },
+    {
+        "query_id": "674_360",
+        "wiki_title": "Torchwood",
+        "entity_id": "Q390120"
+    },
+    {
+        "query_id": "674_361",
+        "wiki_title": "Homer Alone",
+        "entity_id": "Q2499681"
+    },
+    {
+        "query_id": "674_362",
+        "wiki_title": "The Stolen Earth",
+        "entity_id": "Q2089442"
+    },
+    {
+        "query_id": "674_363",
+        "wiki_title": "Mega Man X",
+        "entity_id": "Q2747942"
+    },
+    {
+        "query_id": "674_364",
+        "wiki_title": "Batman Returns",
+        "entity_id": "Q189054"
+    },
+    {
+        "query_id": "674_365",
+        "wiki_title": "Mon Oncle",
+        "entity_id": "Q1346590"
+    },
+    {
+        "query_id": "674_366",
+        "wiki_title": "Leave It to Psmith",
+        "entity_id": "Q6510574"
+    },
+    {
+        "query_id": "674_367",
+        "wiki_title": "Twenty Thousand Leagues Under the Sea",
+        "entity_id": "Q183565"
+    },
+    {
+        "query_id": "674_368",
+        "wiki_title": "Fun and Fancy Free",
+        "entity_id": "Q853718"
+    },
+    {
+        "query_id": "674_369",
+        "wiki_title": "The Merry Wives of Windsor",
+        "entity_id": "Q844836"
+    },
+    {
+        "query_id": "674_370",
+        "wiki_title": "Destination Moon",
+        "entity_id": "Q1320289"
+    },
+    {
+        "query_id": "674_371",
+        "wiki_title": "Aided \u00d3enfhir A\u00edfe",
+        "entity_id": "Q403966"
+    },
+    {
+        "query_id": "674_372",
+        "wiki_title": "Fugitive of the Judoon",
+        "entity_id": "Q81898489"
+    },
+    {
+        "query_id": "674_373",
+        "wiki_title": "The Suite Life on Deck",
+        "entity_id": "Q139849"
+    },
+    {
+        "query_id": "674_374",
+        "wiki_title": "Euthyphro",
+        "entity_id": "Q648889"
+    },
+    {
+        "query_id": "674_375",
+        "wiki_title": "Batman Begins",
+        "entity_id": "Q166262"
+    },
+    {
+        "query_id": "674_376",
+        "wiki_title": "Treehouse of Horror IX",
+        "entity_id": "Q2567367"
+    },
+    {
+        "query_id": "674_377",
+        "wiki_title": "Father Ted",
+        "entity_id": "Q1366945"
+    },
+    {
+        "query_id": "674_378",
+        "wiki_title": "Super Mario 64",
+        "entity_id": "Q216995"
+    },
+    {
+        "query_id": "674_379",
+        "wiki_title": "Lucky Luke",
+        "entity_id": "Q137475"
+    },
+    {
+        "query_id": "674_380",
+        "wiki_title": "Tintin in the Land of the Soviets",
+        "entity_id": "Q648304"
+    },
+    {
+        "query_id": "674_381",
+        "wiki_title": "Books of Samuel",
+        "entity_id": "Q181620"
+    },
+    {
+        "query_id": "674_382",
+        "wiki_title": "Exodus",
+        "entity_id": "Q9190"
+    },
+    {
+        "query_id": "674_383",
+        "wiki_title": "Mahabharata",
+        "entity_id": "Q8276"
+    },
+    {
+        "query_id": "674_384",
+        "wiki_title": "Peanuts",
+        "entity_id": "Q7115636"
+    },
+    {
+        "query_id": "674_385",
+        "wiki_title": "Bhagavad Gita",
+        "entity_id": "Q46802"
+    },
+    {
+        "query_id": "674_386",
+        "wiki_title": "Buffy the Vampire Slayer",
+        "entity_id": "Q183513"
+    },
+    {
+        "query_id": "674_387",
+        "wiki_title": "Mario franchise",
+        "entity_id": "Q4803535"
+    },
+    {
+        "query_id": "674_388",
+        "wiki_title": "Macbeth",
+        "entity_id": "Q130283"
+    },
+    {
+        "query_id": "674_389",
+        "wiki_title": "Journey to the West",
+        "entity_id": "Q70784"
+    },
+    {
+        "query_id": "674_390",
+        "wiki_title": "The Sopranos",
+        "entity_id": "Q23628"
+    },
+    {
+        "query_id": "674_391",
+        "wiki_title": "Ulster Cycle",
+        "entity_id": "Q1134199"
+    },
+    {
+        "query_id": "674_392",
+        "wiki_title": "A Christmas Carol",
+        "entity_id": "Q62879"
+    },
+    {
+        "query_id": "674_393",
+        "wiki_title": "Book of Esther",
+        "entity_id": "Q131068"
+    },
+    {
+        "query_id": "674_394",
+        "wiki_title": "Desperate Housewives",
+        "entity_id": "Q131758"
+    },
+    {
+        "query_id": "674_395",
+        "wiki_title": "A Midsummer Night's Dream",
+        "entity_id": "Q104871"
+    },
+    {
+        "query_id": "674_396",
+        "wiki_title": "The Tempest",
+        "entity_id": "Q86440"
+    },
+    {
+        "query_id": "674_397",
+        "wiki_title": "T\u00e1in B\u00f3 C\u00faailnge",
+        "entity_id": "Q399113"
+    },
+    {
+        "query_id": "674_398",
+        "wiki_title": "Heroes",
+        "entity_id": "Q83401"
+    },
+    {
+        "query_id": "674_399",
+        "wiki_title": "Sumerian King List",
+        "entity_id": "Q270860"
+    },
+    {
+        "query_id": "674_400",
+        "wiki_title": "The Divine Comedy",
+        "entity_id": "Q40185"
+    },
+    {
+        "query_id": "674_401",
+        "wiki_title": "Don Quixote",
+        "entity_id": "Q480"
+    },
+    {
+        "query_id": "674_402",
+        "wiki_title": "The X-Files",
+        "entity_id": "Q2744"
+    },
+    {
+        "query_id": "674_403",
+        "wiki_title": "Twelfth Night",
+        "entity_id": "Q221211"
+    },
+    {
+        "query_id": "674_404",
+        "wiki_title": "Othello",
+        "entity_id": "Q26833"
+    },
+    {
+        "query_id": "674_405",
+        "wiki_title": "Glee",
+        "entity_id": "Q152178"
+    },
+    {
+        "query_id": "674_406",
+        "wiki_title": "Romeo and Juliet",
+        "entity_id": "Q83186"
+    },
+    {
+        "query_id": "674_407",
+        "wiki_title": "Alice's Adventures in Wonderland",
+        "entity_id": "Q92640"
+    },
+    {
+        "query_id": "674_408",
+        "wiki_title": "Dallas",
+        "entity_id": "Q168708"
+    },
+    {
+        "query_id": "674_409",
+        "wiki_title": "ER",
+        "entity_id": "Q207375"
+    },
+    {
+        "query_id": "674_410",
+        "wiki_title": "Seinfeld",
+        "entity_id": "Q23733"
+    },
+    {
+        "query_id": "674_411",
+        "wiki_title": "Tarzan",
+        "entity_id": "Q5965446"
+    },
+    {
+        "query_id": "674_412",
+        "wiki_title": "The Merchant of Venice",
+        "entity_id": "Q206400"
+    },
+    {
+        "query_id": "674_413",
+        "wiki_title": "Law & Order",
+        "entity_id": "Q321423"
+    },
+    {
+        "query_id": "674_414",
+        "wiki_title": "Twin Peaks",
+        "entity_id": "Q2085"
+    },
+    {
+        "query_id": "674_415",
+        "wiki_title": "The Jungle Book",
+        "entity_id": "Q189509"
+    },
+    {
+        "query_id": "674_416",
+        "wiki_title": "Les Mis\u00e9rables",
+        "entity_id": "Q180736"
+    },
+    {
+        "query_id": "674_417",
+        "wiki_title": "Super Mario",
+        "entity_id": "Q4802838"
+    },
+    {
+        "query_id": "674_418",
+        "wiki_title": "SpongeBob SquarePants",
+        "entity_id": "Q83279"
+    },
+    {
+        "query_id": "674_419",
+        "wiki_title": "Dracula",
+        "entity_id": "Q41542"
+    },
+    {
+        "query_id": "674_420",
+        "wiki_title": "Orlando Furioso",
+        "entity_id": "Q48922"
+    },
+    {
+        "query_id": "674_421",
+        "wiki_title": "Angel",
+        "entity_id": "Q212156"
+    },
+    {
+        "query_id": "674_422",
+        "wiki_title": "24",
+        "entity_id": "Q56194"
+    },
+    {
+        "query_id": "674_423",
+        "wiki_title": "Family Guy",
+        "entity_id": "Q5930"
+    },
+    {
+        "query_id": "674_424",
+        "wiki_title": "The Flintstones",
+        "entity_id": "Q201358"
+    },
+    {
+        "query_id": "674_425",
+        "wiki_title": "Frasier",
+        "entity_id": "Q209282"
+    },
+    {
+        "query_id": "674_426",
+        "wiki_title": "Happy Days",
+        "entity_id": "Q518589"
+    },
+    {
+        "query_id": "674_427",
+        "wiki_title": "Breaking Bad",
+        "entity_id": "Q1079"
+    },
+    {
+        "query_id": "674_428",
+        "wiki_title": "Mortal Kombat",
+        "entity_id": "Q241163"
+    },
+    {
+        "query_id": "674_429",
+        "wiki_title": "Cats",
+        "entity_id": "Q337097"
+    },
+    {
+        "query_id": "674_430",
+        "wiki_title": "The Dukes of Hazzard",
+        "entity_id": "Q1304408"
+    },
+    {
+        "query_id": "674_431",
+        "wiki_title": "The Big Bang Theory",
+        "entity_id": "Q8539"
+    },
+    {
+        "query_id": "674_432",
+        "wiki_title": "Mickey's Once Upon a Christmas",
+        "entity_id": "Q1655222"
+    },
+    {
+        "query_id": "674_433",
+        "wiki_title": "The Three Musketeers",
+        "entity_id": "Q140527"
+    },
+    {
+        "query_id": "674_434",
+        "wiki_title": "Only Fools and Horses",
+        "entity_id": "Q1247858"
+    },
+    {
+        "query_id": "674_435",
+        "wiki_title": "Sonic the Hedgehog",
+        "entity_id": "Q1046812"
+    },
+    {
+        "query_id": "674_436",
+        "wiki_title": "Charmed",
+        "entity_id": "Q162371"
+    },
+    {
+        "query_id": "674_437",
+        "wiki_title": "Hannah Montana",
+        "entity_id": "Q126631"
+    },
+    {
+        "query_id": "674_438",
+        "wiki_title": "The West Wing",
+        "entity_id": "Q3577037"
+    },
+    {
+        "query_id": "674_439",
+        "wiki_title": "Dragonlance",
+        "entity_id": "Q746244"
+    },
+    {
+        "query_id": "674_440",
+        "wiki_title": "Wuthering Heights",
+        "entity_id": "Q202975"
+    },
+    {
+        "query_id": "674_441",
+        "wiki_title": "Pride and Prejudice",
+        "entity_id": "Q170583"
+    },
+    {
+        "query_id": "674_442",
+        "wiki_title": "Ugly Betty",
+        "entity_id": "Q276528"
+    },
+    {
+        "query_id": "674_443",
+        "wiki_title": "Gylfaginning",
+        "entity_id": "Q1134288"
+    },
+    {
+        "query_id": "674_444",
+        "wiki_title": "Dragon Ball Z",
+        "entity_id": "Q477916"
+    },
+    {
+        "query_id": "674_445",
+        "wiki_title": "A Streetcar Named Desire",
+        "entity_id": "Q842106"
+    },
+    {
+        "query_id": "674_446",
+        "wiki_title": "Harry Potter",
+        "entity_id": "Q8337"
+    },
+    {
+        "query_id": "674_447",
+        "wiki_title": "Gotham",
+        "entity_id": "Q15726959"
+    },
+    {
+        "query_id": "674_448",
+        "wiki_title": "Dragon Ball",
+        "entity_id": "Q2020"
+    },
+    {
+        "query_id": "674_449",
+        "wiki_title": "Parks and Recreation",
+        "entity_id": "Q218035"
+    },
+    {
+        "query_id": "674_450",
+        "wiki_title": "The Rocky and Bullwinkle Show",
+        "entity_id": "Q2318552"
+    },
+    {
+        "query_id": "674_451",
+        "wiki_title": "The Three Caballeros",
+        "entity_id": "Q736731"
+    },
+    {
+        "query_id": "674_452",
+        "wiki_title": "Gossip Girl",
+        "entity_id": "Q199853"
+    },
+    {
+        "query_id": "674_453",
+        "wiki_title": "Oliver Twist",
+        "entity_id": "Q164974"
+    },
+    {
+        "query_id": "674_454",
+        "wiki_title": "Great Expectations",
+        "entity_id": "Q219552"
+    },
+    {
+        "query_id": "674_455",
+        "wiki_title": "The Adventures of Pinocchio",
+        "entity_id": "Q8065468"
+    },
+    {
+        "query_id": "674_456",
+        "wiki_title": "Book of Enoch",
+        "entity_id": "Q220890"
+    },
+    {
+        "query_id": "674_457",
+        "wiki_title": "Scooby-Doo",
+        "entity_id": "Q205683"
+    },
+    {
+        "query_id": "674_458",
+        "wiki_title": "Through the Looking-Glass",
+        "entity_id": "Q220331"
+    },
+    {
+        "query_id": "674_459",
+        "wiki_title": "Grey's Anatomy",
+        "entity_id": "Q438406"
+    },
+    {
+        "query_id": "674_460",
+        "wiki_title": "The Wonderful Wizard of Oz",
+        "entity_id": "Q130295"
+    },
+    {
+        "query_id": "674_461",
+        "wiki_title": "Nibelungenlied",
+        "entity_id": "Q131554"
+    },
+    {
+        "query_id": "674_462",
+        "wiki_title": "Around the World in Eighty Days",
+        "entity_id": "Q1219561"
+    },
+    {
+        "query_id": "674_463",
+        "wiki_title": "Theogony",
+        "entity_id": "Q156498"
+    },
+    {
+        "query_id": "674_464",
+        "wiki_title": "Babylon 5",
+        "entity_id": "Q210146"
+    },
+    {
+        "query_id": "674_465",
+        "wiki_title": "The Hobbit",
+        "entity_id": "Q74287"
+    },
+    {
+        "query_id": "674_466",
+        "wiki_title": "Adventure Time",
+        "entity_id": "Q53093"
+    },
+    {
+        "query_id": "674_467",
+        "wiki_title": "Fargo",
+        "entity_id": "Q15931555"
+    },
+    {
+        "query_id": "674_468",
+        "wiki_title": "Skins",
+        "entity_id": "Q326180"
+    },
+    {
+        "query_id": "674_469",
+        "wiki_title": "A Study in Scarlet",
+        "entity_id": "Q223131"
+    },
+    {
+        "query_id": "674_470",
+        "wiki_title": "Supernatural",
+        "entity_id": "Q130585"
+    },
+    {
+        "query_id": "674_471",
+        "wiki_title": "Ulysses",
+        "entity_id": "Q6511"
+    },
+    {
+        "query_id": "674_472",
+        "wiki_title": "Downfall",
+        "entity_id": "Q152857"
+    },
+    {
+        "query_id": "674_473",
+        "wiki_title": "The Adventures of Tintin",
+        "entity_id": "Q744536"
+    },
+    {
+        "query_id": "674_474",
+        "wiki_title": "Stargate Atlantis",
+        "entity_id": "Q215287"
+    },
+    {
+        "query_id": "674_475",
+        "wiki_title": "The O.C.",
+        "entity_id": "Q194427"
+    },
+    {
+        "query_id": "674_476",
+        "wiki_title": "Neon Genesis Evangelion",
+        "entity_id": "Q662"
+    },
+    {
+        "query_id": "674_477",
+        "wiki_title": "Thunderbirds",
+        "entity_id": "Q288085"
+    },
+    {
+        "query_id": "674_478",
+        "wiki_title": "One Thousand and One Nights",
+        "entity_id": "Q8258"
+    },
+    {
+        "query_id": "674_479",
+        "wiki_title": "Binding of Isaac",
+        "entity_id": "Q5007906"
+    },
+    {
+        "query_id": "674_480",
+        "wiki_title": "Prince Caspian",
+        "entity_id": "Q218950"
+    },
+    {
+        "query_id": "674_481",
+        "wiki_title": "Nineteen Eighty-Four",
+        "entity_id": "Q208460"
+    },
+    {
+        "query_id": "674_482",
+        "wiki_title": "The Hitchhiker's Guide to the Galaxy pentalogy",
+        "entity_id": "Q25169"
+    },
+    {
+        "query_id": "674_483",
+        "wiki_title": "Frozen",
+        "entity_id": "Q246283"
+    },
+    {
+        "query_id": "674_484",
+        "wiki_title": "Dune",
+        "entity_id": "Q190192"
+    },
+    {
+        "query_id": "674_485",
+        "wiki_title": "Spike and Suzy",
+        "entity_id": "Q1240821"
+    },
+    {
+        "query_id": "674_486",
+        "wiki_title": "Sir Gawain and the Green Knight",
+        "entity_id": "Q756715"
+    },
+    {
+        "query_id": "674_487",
+        "wiki_title": "Friends",
+        "entity_id": "Q79784"
+    },
+    {
+        "query_id": "674_488",
+        "wiki_title": "Chuck",
+        "entity_id": "Q2293"
+    },
+    {
+        "query_id": "674_489",
+        "wiki_title": "The Silver Chair",
+        "entity_id": "Q331669"
+    },
+    {
+        "query_id": "674_490",
+        "wiki_title": "The Adventures of Sherlock Holmes",
+        "entity_id": "Q392147"
+    },
+    {
+        "query_id": "674_491",
+        "wiki_title": "Numbers",
+        "entity_id": "Q5935"
+    },
+    {
+        "query_id": "674_492",
+        "wiki_title": "Peter Pan",
+        "entity_id": "Q3435337"
+    },
+    {
+        "query_id": "674_493",
+        "wiki_title": "Book of Judith",
+        "entity_id": "Q202129"
+    },
+    {
+        "query_id": "674_494",
+        "wiki_title": "House",
+        "entity_id": "Q23558"
+    },
+    {
+        "query_id": "674_495",
+        "wiki_title": "Stargate SG-1",
+        "entity_id": "Q187462"
+    },
+    {
+        "query_id": "674_496",
+        "wiki_title": "Naruto",
+        "entity_id": "Q642"
+    },
+    {
+        "query_id": "674_497",
+        "wiki_title": "The Lion King",
+        "entity_id": "Q36479"
+    },
+    {
+        "query_id": "674_498",
+        "wiki_title": "The Amazing Spider-Man",
+        "entity_id": "Q944598"
+    },
+    {
+        "query_id": "674_499",
+        "wiki_title": "Le Morte d'Arthur",
+        "entity_id": "Q1136104"
+    },
+    {
+        "query_id": "674_500",
+        "wiki_title": "Dexter",
+        "entity_id": "Q23577"
+    },
+    {
+        "query_id": "674_501",
+        "wiki_title": "Teenage Mutant Ninja Turtles Adventures",
+        "entity_id": "Q2342463"
+    },
+    {
+        "query_id": "674_502",
+        "wiki_title": "Private Practice",
+        "entity_id": "Q283393"
+    },
+    {
+        "query_id": "674_503",
+        "wiki_title": "Moby-Dick",
+        "entity_id": "Q174596"
+    },
+    {
+        "query_id": "674_504",
+        "wiki_title": "The Sarah Jane Adventures",
+        "entity_id": "Q32816"
+    },
+    {
+        "query_id": "674_505",
+        "wiki_title": "Stranger Things",
+        "entity_id": "Q19798734"
+    },
+    {
+        "query_id": "674_506",
+        "wiki_title": "Satyricon",
+        "entity_id": "Q246732"
+    },
+    {
+        "query_id": "674_507",
+        "wiki_title": "Aladdin",
+        "entity_id": "Q215518"
+    },
+    {
+        "query_id": "674_508",
+        "wiki_title": "Anne of Green Gables",
+        "entity_id": "Q565911"
+    },
+    {
+        "query_id": "674_509",
+        "wiki_title": "Walk the Line",
+        "entity_id": "Q154077"
+    },
+    {
+        "query_id": "674_510",
+        "wiki_title": "Beauty and the Beast",
+        "entity_id": "Q179673"
+    },
+    {
+        "query_id": "674_511",
+        "wiki_title": "Fawlty Towers",
+        "entity_id": "Q212731"
+    },
+    {
+        "query_id": "674_512",
+        "wiki_title": "The Musketeers",
+        "entity_id": "Q15632463"
+    },
+    {
+        "query_id": "674_513",
+        "wiki_title": "Artemis Fowl",
+        "entity_id": "Q325283"
+    },
+    {
+        "query_id": "674_514",
+        "wiki_title": "Holby City",
+        "entity_id": "Q2610941"
+    },
+    {
+        "query_id": "674_515",
+        "wiki_title": "Doctor Who",
+        "entity_id": "Q34316"
+    },
+    {
+        "query_id": "674_516",
+        "wiki_title": "Odyssey",
+        "entity_id": "Q35160"
+    },
+    {
+        "query_id": "674_517",
+        "wiki_title": "Shahnameh",
+        "entity_id": "Q8279"
+    },
+    {
+        "query_id": "674_518",
+        "wiki_title": "The Simpsons",
+        "entity_id": "Q886"
+    },
+    {
+        "query_id": "674_519",
+        "wiki_title": "Game of Thrones",
+        "entity_id": "Q23572"
+    },
+    {
+        "query_id": "674_520",
+        "wiki_title": "The Lord of the Rings",
+        "entity_id": "Q15228"
+    },
+    {
+        "query_id": "674_521",
+        "wiki_title": "Sesame Street",
+        "entity_id": "Q155629"
+    },
+    {
+        "query_id": "674_522",
+        "wiki_title": "Coronation Street",
+        "entity_id": "Q945030"
+    },
+    {
+        "query_id": "674_523",
+        "wiki_title": "Hamlet",
+        "entity_id": "Q41567"
+    },
+    {
+        "query_id": "674_524",
+        "wiki_title": "Dream of the Red Chamber",
+        "entity_id": "Q8265"
+    },
+    {
+        "query_id": "674_525",
+        "wiki_title": "Looney Tunes",
+        "entity_id": "Q622435"
+    },
+    {
+        "query_id": "674_526",
+        "wiki_title": "The Wire",
+        "entity_id": "Q478360"
+    },
+    {
+        "query_id": "674_527",
+        "wiki_title": "Beowulf",
+        "entity_id": "Q48328"
+    },
+    {
+        "query_id": "674_528",
+        "wiki_title": "Book of Genesis",
+        "entity_id": "Q9184"
+    },
+    {
+        "query_id": "674_529",
+        "wiki_title": "Iliad",
+        "entity_id": "Q8275"
+    },
+    {
+        "query_id": "674_530",
+        "wiki_title": "Ramayana",
+        "entity_id": "Q37293"
+    },
+    {
+        "query_id": "674_531",
+        "wiki_title": "Quran",
+        "entity_id": "Q428"
+    },
+    {
+        "query_id": "674_532",
+        "wiki_title": "Burning bush",
+        "entity_id": "Q909215"
+    },
+    {
+        "query_id": "674_533",
+        "wiki_title": "Pete and Runt",
+        "entity_id": "Q7161109"
+    },
+    {
+        "query_id": "674_534",
+        "wiki_title": "Friday the 13th Part III",
+        "entity_id": "Q1243013"
+    },
+    {
+        "query_id": "674_535",
+        "wiki_title": "De Bello Africo",
+        "entity_id": "Q387259"
+    },
+    {
+        "query_id": "674_536",
+        "wiki_title": "H\u00e9sione",
+        "entity_id": "Q3145091"
+    },
+    {
+        "query_id": "674_537",
+        "wiki_title": "Concerned",
+        "entity_id": "Q1324697"
+    },
+    {
+        "query_id": "674_538",
+        "wiki_title": "The Hitchhiker's Guide to the Galaxy",
+        "entity_id": "Q3107329"
+    },
+    {
+        "query_id": "674_539",
+        "wiki_title": "Donald's Golf Game",
+        "entity_id": "Q3036169"
+    },
+    {
+        "query_id": "674_540",
+        "wiki_title": "Till the Clouds Roll By",
+        "entity_id": "Q430852"
+    },
+    {
+        "query_id": "674_541",
+        "wiki_title": "Spirou et Fantasio in \u00ab\u00a0Le Journal de Spirou\u00a0\u00bb",
+        "entity_id": "Q1130014"
+    },
+    {
+        "query_id": "674_542",
+        "wiki_title": "Mad Men",
+        "entity_id": "Q223977"
+    },
+    {
+        "query_id": "674_543",
+        "wiki_title": "Revolution of the Daleks",
+        "entity_id": "Q86965526"
+    },
+    {
+        "query_id": "674_544",
+        "wiki_title": "Legends about Theodoric the Great",
+        "entity_id": "Q195789"
+    },
+    {
+        "query_id": "674_545",
+        "wiki_title": "These Are the Voyages\u2026",
+        "entity_id": "Q2469115"
+    },
+    {
+        "query_id": "674_546",
+        "wiki_title": "Eagle",
+        "entity_id": "Q3046338"
+    },
+    {
+        "query_id": "674_547",
+        "wiki_title": "Once Upon a Time",
+        "entity_id": "Q23673"
+    },
+    {
+        "query_id": "674_548",
+        "wiki_title": "Le Pere Goriot",
+        "entity_id": "Q240617"
+    },
+    {
+        "query_id": "674_549",
+        "wiki_title": "The King's Speech",
+        "entity_id": "Q160060"
+    },
+    {
+        "query_id": "674_550",
+        "wiki_title": "Burn Notice",
+        "entity_id": "Q682825"
+    },
+    {
+        "query_id": "674_551",
+        "wiki_title": "Aeneid",
+        "entity_id": "Q60220"
+    },
+    {
+        "query_id": "674_552",
+        "wiki_title": "suitors of Penelope (event)",
+        "entity_id": "Q1058631"
+    },
+    {
+        "query_id": "674_553",
+        "wiki_title": "The Fellowship of the Ring",
+        "entity_id": "Q208002"
+    }
+]

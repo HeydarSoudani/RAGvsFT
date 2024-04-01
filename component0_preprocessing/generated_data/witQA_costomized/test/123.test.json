@@ -1,0 +1,5868 @@
+[
+    {
+        "query_id": "123_0",
+        "question": "What was the publisher of the book \"Homicide Trinity\"?",
+        "answers": [
+            "Viking Penguin",
+            "Viking Press"
+        ],
+        "pageviews": "122"
+    },
+    {
+        "query_id": "123_1",
+        "question": "What was the publisher of the Billboard Year-End Hot 100 singles of 1972?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "13280"
+    },
+    {
+        "query_id": "123_2",
+        "question": "What organization is responsible for publishing The Numismatist?",
+        "answers": [
+            "American Numismatic Association"
+        ],
+        "pageviews": "231"
+    },
+    {
+        "query_id": "123_3",
+        "question": "What organization or person was responsible for publishing \"The Incomplete Enchanter\"?",
+        "answers": [
+            "Henry Holt & Company",
+            "Henry Holt & Co.",
+            "Henry Holt and Company"
+        ],
+        "pageviews": "274"
+    },
+    {
+        "query_id": "123_4",
+        "question": "What organization was responsible for publishing the Journal of the Chemical Society?",
+        "answers": [
+            "Chemical Society"
+        ],
+        "pageviews": "443"
+    },
+    {
+        "query_id": "123_5",
+        "question": "What organization or person is responsible for publishing Econometrica?",
+        "answers": [
+            "Econometric Society",
+            "Wiley-Blackwell"
+        ],
+        "pageviews": "2168"
+    },
+    {
+        "query_id": "123_6",
+        "question": "What organization or person is responsible for publishing the Journal of the Malaysian Branch of the Royal Asiatic Society?",
+        "answers": [
+            "Malayan Branch of the Royal Asiatic Society",
+            "Malaysian Branch of the Royal Asiatic Society"
+        ],
+        "pageviews": "137"
+    },
+    {
+        "query_id": "123_7",
+        "question": "What is the publisher of Neuron?",
+        "answers": [
+            "Elsevier BV",
+            "elsevier.com",
+            "Cell Press"
+        ],
+        "pageviews": "56935"
+    },
+    {
+        "query_id": "123_8",
+        "question": "What was the organization responsible for publishing Inferno!?",
+        "answers": [
+            "Black Library"
+        ],
+        "pageviews": "261"
+    },
+    {
+        "query_id": "123_9",
+        "question": "What organization or person was responsible for publishing Banquets of the Black Widowers?",
+        "answers": [
+            "Doubleday & McClure",
+            "Doubleday",
+            "Doubleday, Page & Company",
+            "The Doubleday Publishing Group",
+            "Ballantine Books"
+        ],
+        "pageviews": "160"
+    },
+    {
+        "query_id": "123_10",
+        "question": "What is the publisher of Check vs. Mate?",
+        "answers": [
+            "TopWare Interactive"
+        ],
+        "pageviews": "14"
+    },
+    {
+        "query_id": "123_11",
+        "question": "What is the publisher of The Linguistic Review?",
+        "answers": [
+            "Verlag Walter de Gruyter",
+            "Walter de Gruyter & Co.",
+            "De Gruyter",
+            "Walter de Gruyter (Germany)",
+            "Walter de Gruyter",
+            "Walter de Gruyter Verlag",
+            "degruyter.com"
+        ],
+        "pageviews": "100"
+    },
+    {
+        "query_id": "123_12",
+        "question": "What organization or person was responsible for publishing the Chibi Vampire series?",
+        "answers": [
+            "Kadokawa Shoten",
+            "Tokyopop",
+            "Mixx"
+        ],
+        "pageviews": "2359"
+    },
+    {
+        "query_id": "123_13",
+        "question": "What organization is responsible for publishing Reshaping Cultural Policies?",
+        "answers": [
+            "Unesco",
+            "United Nations Educational, Scientific and Cultural Organization",
+            "UNESCO"
+        ],
+        "pageviews": "119"
+    },
+    {
+        "query_id": "123_14",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software on the Irish Albums Chart?",
+        "answers": [
+            "Irish Recorded Music Association",
+            "IRMA"
+        ],
+        "pageviews": "893"
+    },
+    {
+        "query_id": "123_15",
+        "question": "What organization or person was responsible for publishing Fairy Tail?",
+        "answers": [
+            "Haksan Culture Company",
+            "Panini Comics",
+            "Kodansha Ltd.",
+            "Kodansha",
+            "Carlsen Verlag",
+            "Studio JG",
+            "Carlsen Verlag GmBH",
+            "Pika Edition",
+            "Carlsen Comics",
+            "Editorial Ivrea",
+            "Del Rey",
+            "Tong Li Publishing",
+            "Elexmedia Komputindo",
+            "K\u014ddansha",
+            "Star Comics",
+            "Del Rey Manga",
+            "Elex Media Komputindo",
+            "Elex Media",
+            "Pika \u00c9dition",
+            "Tong Li",
+            "Norma Editorial",
+            "Haksan Publishing"
+        ],
+        "pageviews": "60089"
+    },
+    {
+        "query_id": "123_16",
+        "question": "What organization is responsible for publishing Jet Propulsion Laboratory Development Ephemeris?",
+        "answers": [
+            "Jet Propulsion Laboratory",
+            "NASA JPL",
+            "NASA Jet Propulsion Laboratory",
+            "JPL"
+        ],
+        "pageviews": "1279"
+    },
+    {
+        "query_id": "123_17",
+        "question": "Who was the publisher of Backyard Sports?",
+        "answers": [
+            "Humongous Entertainment, Inc.",
+            "Humongous Entertainment"
+        ],
+        "pageviews": "1902"
+    },
+    {
+        "query_id": "123_18",
+        "question": "What organization is responsible for publishing Imaging in Medicine?",
+        "answers": [
+            "Pulsus Group"
+        ],
+        "pageviews": "306"
+    },
+    {
+        "query_id": "123_19",
+        "question": "What organization or person is responsible for publishing Food Force?",
+        "answers": [
+            "WFP",
+            "United Nations World Food Programme",
+            "United Nations World Food Program",
+            "World Food Program",
+            "World Food Programme"
+        ],
+        "pageviews": "414"
+    },
+    {
+        "query_id": "123_20",
+        "question": "What organization was responsible for publishing \"The Road to Serfdom\"?",
+        "answers": [
+            "George Routledge & Co.",
+            "University of Chicago Press",
+            "Routledge",
+            "The University of Chicago Press",
+            "Routledge & Kegan Paul"
+        ],
+        "pageviews": "15309"
+    },
+    {
+        "query_id": "123_21",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software for Doctor Octopus?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "43277"
+    },
+    {
+        "query_id": "123_22",
+        "question": "What organization is responsible for publishing the European Biophysics Journal?",
+        "answers": [
+            "Springer SBM",
+            "Kluwer Academic Publishers",
+            "Verlag von Julius Springer",
+            "Springer Science+Business Media",
+            "Springer-Verlag Berlin Heidelberg",
+            "Springer"
+        ],
+        "pageviews": "112"
+    },
+    {
+        "query_id": "123_23",
+        "question": "What organization is responsible for publishing the Journal of Medical Entomology?",
+        "answers": [
+            "Oxford UP",
+            "OUP",
+            "Oxford University Press",
+            "Entomological Society of America",
+            "Clarendon Press",
+            "Oxford University Press -- Correspondence",
+            "ESA",
+            "Annals of the Entomological Society of America"
+        ],
+        "pageviews": "119"
+    },
+    {
+        "query_id": "123_24",
+        "question": "What organization is responsible for publishing books about the Justice League Dark?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "14901"
+    },
+    {
+        "query_id": "123_25",
+        "question": "Who is the publisher of CJ Carella's WitchCraft?",
+        "answers": [
+            "Eden Studios, Inc."
+        ],
+        "pageviews": "357"
+    },
+    {
+        "query_id": "123_26",
+        "question": "What organization acquired the Parents Network division in 2018?",
+        "answers": [
+            "Meredith Corporation"
+        ],
+        "pageviews": "1761"
+    },
+    {
+        "query_id": "123_27",
+        "question": "What organization is responsible for publishing Virtua Cop?",
+        "answers": [
+            "SEGA",
+            "Sega's",
+            "Service Games",
+            "Sega Corporation",
+            "Sega Games Co., Ltd",
+            "Sega Games",
+            "Sega Enterprises Ltd.",
+            "SEGA Games Co., Ltd.",
+            "SEGA Enterprises Ltd.",
+            "SEGA Games",
+            "Sega"
+        ],
+        "pageviews": "4397"
+    },
+    {
+        "query_id": "123_28",
+        "question": "What organization is responsible for publishing Kuroko's Basketball?",
+        "answers": [
+            "Jump Comics",
+            "VIZ Communications",
+            "Viz Media LLC",
+            "VIZ Media",
+            "Viz Media",
+            "m&c Comics",
+            "JUMP COMICS",
+            "M&C!"
+        ],
+        "pageviews": "34894"
+    },
+    {
+        "query_id": "123_29",
+        "question": "What organization is responsible for publishing Scandinavian Unexceptionalism?",
+        "answers": [
+            "Institute of Economic Affairs"
+        ],
+        "pageviews": "96"
+    },
+    {
+        "query_id": "123_30",
+        "question": "Who was the publisher of New Ghostbusters II?",
+        "answers": [
+            "HAL Laboratory, Inc.",
+            "HAL Laboratory"
+        ],
+        "pageviews": "1146"
+    },
+    {
+        "query_id": "123_31",
+        "question": "Who was the publisher of the Manual of the Planes for use with \"Advanced Dungeons & Dragons\" 1st Edition?",
+        "answers": [
+            "TSR Hobbies",
+            "TSR Inc",
+            "TSR Inc.",
+            "Tactical Studies Rules",
+            "TSR",
+            "TSR, Inc"
+        ],
+        "pageviews": "1132"
+    },
+    {
+        "query_id": "123_32",
+        "question": "Who was the publisher of Tarzan the Terrible?",
+        "answers": [
+            "A. C. McClurg and company",
+            "A. C. McClurg",
+            "A. C. McClurg and Co."
+        ],
+        "pageviews": "622"
+    },
+    {
+        "query_id": "123_33",
+        "question": "What organization or person was responsible for publishing Alpha Waves?",
+        "answers": [
+            "D ata E ast Co rporation",
+            "Data East Corporation",
+            "Data East"
+        ],
+        "pageviews": "713"
+    },
+    {
+        "query_id": "123_34",
+        "question": "What is the organization responsible for publishing Journal of Physics D?",
+        "answers": [
+            "IOP",
+            "Institute of Physics"
+        ],
+        "pageviews": "513"
+    },
+    {
+        "query_id": "123_35",
+        "question": "Who was the publisher of the Holy Cross Sermons?",
+        "answers": [
+            "Polish Academy of Learning",
+            "Polish Academy of Arts and Sciences"
+        ],
+        "pageviews": "267"
+    },
+    {
+        "query_id": "123_36",
+        "question": "What organization or person is responsible for publishing Mystery in Space?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "600"
+    },
+    {
+        "query_id": "123_37",
+        "question": "Which organization or person published the novel \"Dorsai!\" in 1960 under the title The Genetic General?",
+        "answers": [
+            "Ace",
+            "Ace Books"
+        ],
+        "pageviews": "874"
+    },
+    {
+        "query_id": "123_38",
+        "question": "What organization is responsible for publishing SOCOM 3 U.S. Navy SEALs?",
+        "answers": [
+            "SCE",
+            "SIE",
+            "Sony Computer Entertainment",
+            "Sony Interactive Entertainment",
+            "Sony Interactive",
+            "Sony Computer Entertainment, Inc.",
+            "SCEI",
+            "Sony Interactive Entertainment LLC",
+            "Sony Interactive Entertainment Inc.",
+            "PlayStation C.A.M.P."
+        ],
+        "pageviews": "1511"
+    },
+    {
+        "query_id": "123_39",
+        "question": "Who was the publisher of Tetris DS?",
+        "answers": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Playing Card Co.",
+            "Nintend\u014d Kabushiki gaisha",
+            "Nintendo Co.",
+            "Nintendo",
+            "Big N",
+            "Nintendo Koppai"
+        ],
+        "pageviews": "1123"
+    },
+    {
+        "query_id": "123_40",
+        "question": "What organization is responsible for publishing Tom Clancy's EndWar?",
+        "answers": [
+            "Ubisoft Entertainment S.A",
+            "Ubisoft Shanghai",
+            "Ubisoft Entertainment SA",
+            "Ubisoft",
+            "UBI Soft"
+        ],
+        "pageviews": "4770"
+    },
+    {
+        "query_id": "123_41",
+        "question": "What organization published Blinking with Fists?",
+        "answers": [
+            "Faber & Faber, Ltd.",
+            "Faber & Faber",
+            "Faber and Faber",
+            "Faber and Faber Limited  Russell Square London",
+            "Faber and Faber Limited, London"
+        ],
+        "pageviews": "265"
+    },
+    {
+        "query_id": "123_42",
+        "question": "Who was the publisher of Mrs McGinty's Dead?",
+        "answers": [
+            "Dodd, Mead and Company",
+            "DODD, MEAD AND COMPANY, lnc.",
+            "Dodd, Mead & Co."
+        ],
+        "pageviews": "3018"
+    },
+    {
+        "query_id": "123_43",
+        "question": "Who is the publisher of LittleBigPlanet 2?",
+        "answers": [
+            "SCE",
+            "SIE",
+            "Sony Computer Entertainment",
+            "Sony Interactive Entertainment",
+            "Sony Interactive",
+            "Sony Computer Entertainment, Inc.",
+            "SCEI",
+            "Sony Interactive Entertainment LLC",
+            "Sony Interactive Entertainment Inc.",
+            "PlayStation C.A.M.P."
+        ],
+        "pageviews": "4177"
+    },
+    {
+        "query_id": "123_44",
+        "question": "What organization or person is responsible for publishing O Street?",
+        "answers": [
+            "OV Books",
+            "Other Voices, Inc."
+        ],
+        "pageviews": "85"
+    },
+    {
+        "query_id": "123_45",
+        "question": "What organization or person was responsible for publishing Death's Domain?",
+        "answers": [
+            "Corgi",
+            "Transworld Publishers"
+        ],
+        "pageviews": "314"
+    },
+    {
+        "query_id": "123_46",
+        "question": "Who initially owned The Australian Financial Review before it was sold to Nine Entertainment?",
+        "answers": [
+            "Fairfax Media",
+            "Fairfax",
+            "Fairfax Media Limited"
+        ],
+        "pageviews": "1621"
+    },
+    {
+        "query_id": "123_47",
+        "question": "What is the publisher of A for Anything?",
+        "answers": [
+            "Berkley Books",
+            "Berkley"
+        ],
+        "pageviews": "167"
+    },
+    {
+        "query_id": "123_48",
+        "question": "Who was the publisher of Prison Architect?",
+        "answers": [
+            "Introversion Software",
+            "Paradox Interactive Inc.",
+            "Introversion Software (United Kingdom)",
+            "Double Eleven",
+            "Paradox Interactive"
+        ],
+        "pageviews": "5145"
+    },
+    {
+        "query_id": "123_49",
+        "question": "What is the name of the publisher of the book \"Wolf in the Shadows\"?",
+        "answers": [
+            "Mysterious Press",
+            "The Mysterious Press"
+        ],
+        "pageviews": "117"
+    },
+    {
+        "query_id": "123_50",
+        "question": "What organization or person was responsible for publishing Bases Loaded?",
+        "answers": [
+            "Jaleco",
+            "Japan Leisure Corporation"
+        ],
+        "pageviews": "265"
+    },
+    {
+        "query_id": "123_51",
+        "question": "What organization is responsible for publishing Materials Evaluation?",
+        "answers": [
+            "American Society for Nondestructive Testing"
+        ],
+        "pageviews": "38"
+    },
+    {
+        "query_id": "123_52",
+        "question": "What organization or person was responsible for publishing The Law and the McLaughlins?",
+        "answers": [
+            "Doubleday, Doran & Company, Inc.",
+            "Doubleday & McClure",
+            "Doubleday",
+            "Doubleday, Page & Company",
+            "The Doubleday Publishing Group"
+        ],
+        "pageviews": "68"
+    },
+    {
+        "query_id": "123_53",
+        "question": "What organization published Journey to Jupiter?",
+        "answers": [
+            "Faber & Faber, Ltd.",
+            "Faber",
+            "Faber & Faber",
+            "Faber and Faber Limited  Russell Square London",
+            "Faber and Faber Limited, London"
+        ],
+        "pageviews": "104"
+    },
+    {
+        "query_id": "123_54",
+        "question": "What organization is responsible for publishing the Journal of Cryptology?",
+        "answers": [
+            "Springer SBM",
+            "Kluwer Academic Publishers",
+            "Verlag von Julius Springer",
+            "Springer Science+Business Media",
+            "Springer-Verlag Berlin Heidelberg",
+            "IACR",
+            "Springer",
+            "International Association for Cryptologic Research"
+        ],
+        "pageviews": "304"
+    },
+    {
+        "query_id": "123_55",
+        "question": "What organization or person is responsible for publishing the Dalhousie Journal of Legal Studies?",
+        "answers": [
+            "Dalhousie Law School",
+            "Schulich School of Law"
+        ],
+        "pageviews": "80"
+    },
+    {
+        "query_id": "123_56",
+        "question": "What organization published High Time to Kill?",
+        "answers": [
+            "Hodder & Stoughton",
+            "Hodder and Stoughton"
+        ],
+        "pageviews": "1043"
+    },
+    {
+        "query_id": "123_57",
+        "question": "What organization was responsible for publishing The Dark Spire?",
+        "answers": [
+            "Atlus Co., Ltd.",
+            "Atlus",
+            "ATLUS. CO., LTD."
+        ],
+        "pageviews": "633"
+    },
+    {
+        "query_id": "123_58",
+        "question": "What organization is responsible for publishing Jolly Jam?",
+        "answers": [
+            "Rovio Stars",
+            "Rovio Entertainment Ltd.",
+            "Rovio Entertainment Limited",
+            "Rovio Mobile",
+            "Rovio",
+            "Rovio Entertainment Oyj",
+            "Rovio Entertainment"
+        ],
+        "pageviews": "91"
+    },
+    {
+        "query_id": "123_59",
+        "question": "What organization was responsible for publishing MLB World Series 2009?",
+        "answers": [
+            "MLB Advanced Media",
+            "MLBAM",
+            "Major League Baseball Advanced Media"
+        ],
+        "pageviews": "66"
+    },
+    {
+        "query_id": "123_60",
+        "question": "What organization is responsible for publishing Insanely Twisted Shadow Planet?",
+        "answers": [
+            "Xbox Game Studios",
+            "Microsoft Game Studios",
+            "Microsoft Studios"
+        ],
+        "pageviews": "540"
+    },
+    {
+        "query_id": "123_61",
+        "question": "What organization or person was responsible for publishing The Second Trip?",
+        "answers": [
+            "The Doubleday Publishing Group",
+            "Doubleday & McClure",
+            "Doubleday",
+            "Doubleday, Page & Company"
+        ],
+        "pageviews": "111"
+    },
+    {
+        "query_id": "123_62",
+        "question": "What organization or person was responsible for publishing Kirby Air Ride?",
+        "answers": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Playing Card Co.",
+            "Nintend\u014d Kabushiki gaisha",
+            "Nintendo Co.",
+            "Nintendo",
+            "Big N",
+            "Nintendo Koppai"
+        ],
+        "pageviews": "4334"
+    },
+    {
+        "query_id": "123_63",
+        "question": "What is the publisher of Sting of the Zygons?",
+        "answers": [
+            "BBC Books",
+            "BBC Publishing"
+        ],
+        "pageviews": "124"
+    },
+    {
+        "query_id": "123_64",
+        "question": "What organization is responsible for publishing Planet Puzzle League?",
+        "answers": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Playing Card Co.",
+            "Nintend\u014d Kabushiki gaisha",
+            "Nintendo Co.",
+            "Nintendo",
+            "Big N",
+            "Nintendo Koppai"
+        ],
+        "pageviews": "714"
+    },
+    {
+        "query_id": "123_65",
+        "question": "What organization is responsible for publishing Mega Dead Pixel?",
+        "answers": [
+            "Electronic Arts",
+            "Electronic Arts Inc.",
+            "Electronic Arts, Inc.",
+            "Chillingo",
+            "EA",
+            "EA Games"
+        ],
+        "pageviews": "156"
+    },
+    {
+        "query_id": "123_66",
+        "question": "What organization is responsible for publishing AIDS and Behavior?",
+        "answers": [
+            "Springer SBM",
+            "Kluwer Academic Publishers",
+            "Verlag von Julius Springer",
+            "Springer Science+Business Media",
+            "Springer-Verlag Berlin Heidelberg",
+            "Springer"
+        ],
+        "pageviews": "129"
+    },
+    {
+        "query_id": "123_67",
+        "question": "Who is the publisher of Levinas Studies?",
+        "answers": [
+            "Philosophy Documentation Center"
+        ],
+        "pageviews": "45"
+    },
+    {
+        "query_id": "123_68",
+        "question": "What organization or person was responsible for publishing One Winter in Eden?",
+        "answers": [
+            "Arkham House"
+        ],
+        "pageviews": "68"
+    },
+    {
+        "query_id": "123_69",
+        "question": "What organization was responsible for publishing Raid on Bungeling Bay?",
+        "answers": [
+            "Br\u00f8derbund",
+            "Broderbund Software",
+            "Broderbund"
+        ],
+        "pageviews": "1438"
+    },
+    {
+        "query_id": "123_70",
+        "question": "What organization is responsible for publishing Studies in Mycology?",
+        "answers": [
+            "Elsevier BV",
+            "elsevier.com",
+            "Elsevier"
+        ],
+        "pageviews": "140"
+    },
+    {
+        "query_id": "123_71",
+        "question": "Who is the publisher of Gorkamorka?",
+        "answers": [
+            "Games Workshop Group plc",
+            "Games Workshop"
+        ],
+        "pageviews": "1558"
+    },
+    {
+        "query_id": "123_72",
+        "question": "What is the publisher of The Algebra of Ice?",
+        "answers": [
+            "BBC Books",
+            "BBC Publishing"
+        ],
+        "pageviews": "76"
+    },
+    {
+        "query_id": "123_73",
+        "question": "What is the publisher of Economics of Transition?",
+        "answers": [
+            "Wiley-Blackwell"
+        ],
+        "pageviews": "97"
+    },
+    {
+        "query_id": "123_74",
+        "question": "What organization is responsible for publishing the Asian American Journal of Psychology?",
+        "answers": [
+            "APA",
+            "American Psychological Association",
+            "apa.org"
+        ],
+        "pageviews": "140"
+    },
+    {
+        "query_id": "123_75",
+        "question": "What organization is responsible for publishing the Journal of Trace Elements in Medicine and Biology?",
+        "answers": [
+            "Elsevier BV",
+            "elsevier.com",
+            "Elsevier"
+        ],
+        "pageviews": "145"
+    },
+    {
+        "query_id": "123_76",
+        "question": "What organization is responsible for publishing GEO?",
+        "answers": [
+            "Gruner + Jahr"
+        ],
+        "pageviews": "188"
+    },
+    {
+        "query_id": "123_77",
+        "question": "What organization is responsible for publishing NCAA Football 12?",
+        "answers": [
+            "EASN",
+            "EA Sports Network",
+            "EA Sports"
+        ],
+        "pageviews": "1268"
+    },
+    {
+        "query_id": "123_78",
+        "question": "What organization or person published An Atlas of Fantasy?",
+        "answers": [
+            "Ballantine Books"
+        ],
+        "pageviews": "322"
+    },
+    {
+        "query_id": "123_79",
+        "question": "What organization or person was responsible for publishing Swords in the Mist?",
+        "answers": [
+            "Ace Books"
+        ],
+        "pageviews": "435"
+    },
+    {
+        "query_id": "123_80",
+        "question": "What organization published the novel \"A Masculine Ending\"?",
+        "answers": [
+            "Faber & Faber, Ltd.",
+            "Faber & Faber",
+            "Faber and Faber",
+            "Faber and Faber Limited  Russell Square London",
+            "Faber and Faber Limited, London"
+        ],
+        "pageviews": "231"
+    },
+    {
+        "query_id": "123_81",
+        "question": "Who is the publisher of Sociological Research Online?",
+        "answers": [
+            "SAGE",
+            "sagepub.com",
+            "SAGE Publications, Inc.",
+            "SAGE Publications"
+        ],
+        "pageviews": "132"
+    },
+    {
+        "query_id": "123_82",
+        "question": "What is the publisher of Histochemistry and Cell Biology?",
+        "answers": [
+            "Springer SBM",
+            "Kluwer Academic Publishers",
+            "Verlag von Julius Springer",
+            "Springer Science+Business Media",
+            "Springer-Verlag Berlin Heidelberg",
+            "Springer"
+        ],
+        "pageviews": "159"
+    },
+    {
+        "query_id": "123_83",
+        "question": "What organization is responsible for publishing Sleep Medicine Reviews?",
+        "answers": [
+            "Elsevier BV",
+            "elsevier.com",
+            "Elsevier"
+        ],
+        "pageviews": "177"
+    },
+    {
+        "query_id": "123_84",
+        "question": "What organization is responsible for publishing Deathloop?",
+        "answers": [
+            "Bethesda Video Games",
+            "Bethesda Softworks",
+            "Bethesda Softworks, LLC",
+            "Bethesda"
+        ],
+        "pageviews": "88818"
+    },
+    {
+        "query_id": "123_85",
+        "question": "What was the name of the publisher of \"Naked Lunch\"?",
+        "answers": [
+            "Grove Press",
+            "Olympia Press"
+        ],
+        "pageviews": "22848"
+    },
+    {
+        "query_id": "123_86",
+        "question": "What organization is responsible for publishing The Judge Dredd Roleplaying Game?",
+        "answers": [
+            "Mongoose Publishing",
+            "MGP"
+        ],
+        "pageviews": "221"
+    },
+    {
+        "query_id": "123_87",
+        "question": "What is the publisher of Letters in Mathematical Physics?",
+        "answers": [
+            "Springer SBM",
+            "Kluwer Academic Publishers",
+            "Verlag von Julius Springer",
+            "Springer Science+Business Media",
+            "Springer-Verlag Berlin Heidelberg",
+            "Springer"
+        ],
+        "pageviews": "174"
+    },
+    {
+        "query_id": "123_88",
+        "question": "Who was the publisher of Ulysses?",
+        "answers": [
+            "Sylvia Beach",
+            "Sylvia Nancy Woodbridge Beach",
+            "Shakespeare and Company"
+        ],
+        "pageviews": "6879"
+    },
+    {
+        "query_id": "123_89",
+        "question": "What organization or person is responsible for publishing Mario Super Sluggers?",
+        "answers": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Playing Card Co.",
+            "Nintend\u014d Kabushiki gaisha",
+            "Nintendo Co.",
+            "Nintendo",
+            "Big N",
+            "Nintendo Koppai"
+        ],
+        "pageviews": "2814"
+    },
+    {
+        "query_id": "123_90",
+        "question": "What organization is responsible for publishing the American Journal of Reproductive Immunology?",
+        "answers": [
+            "Wiley-Blackwell"
+        ],
+        "pageviews": "75"
+    },
+    {
+        "query_id": "123_91",
+        "question": "What is the publisher of German Politics and Society?",
+        "answers": [
+            "Berghahn Books",
+            "Berghahn"
+        ],
+        "pageviews": "118"
+    },
+    {
+        "query_id": "123_92",
+        "question": "What organization published Far Cry Instincts?",
+        "answers": [
+            "Ubisoft",
+            "Ubisoft Entertainment SA",
+            "UBI Soft",
+            "Ubisoft Entertainment S.A"
+        ],
+        "pageviews": "14531"
+    },
+    {
+        "query_id": "123_93",
+        "question": "What organization or person was responsible for publishing Imperial Earth?",
+        "answers": [
+            "Gollancz",
+            "Victor Gollancz",
+            "Gollancz Books",
+            "Victor Gollancz Ltd"
+        ],
+        "pageviews": "1301"
+    },
+    {
+        "query_id": "123_94",
+        "question": "What organization published \"The Hidden Valley of Oz\"?",
+        "answers": [
+            "Reilly & Lee",
+            "Reilly & Britton"
+        ],
+        "pageviews": "192"
+    },
+    {
+        "query_id": "123_95",
+        "question": "What organization is responsible for publishing Xenoblade Chronicles X?",
+        "answers": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Playing Card Co.",
+            "Nintend\u014d Kabushiki gaisha",
+            "Nintendo Co.",
+            "Nintendo",
+            "Big N",
+            "Nintendo Koppai"
+        ],
+        "pageviews": "9706"
+    },
+    {
+        "query_id": "123_96",
+        "question": "What organization is responsible for publishing Tom Clancy's Ghost Recon Breakpoint?",
+        "answers": [
+            "Ubisoft",
+            "Ubisoft Entertainment SA",
+            "UBI Soft",
+            "Ubisoft Entertainment S.A"
+        ],
+        "pageviews": "35492"
+    },
+    {
+        "query_id": "123_97",
+        "question": "What organization or person is responsible for publishing Vampire Science?",
+        "answers": [
+            "BBC Books",
+            "BBC Publishing"
+        ],
+        "pageviews": "175"
+    },
+    {
+        "query_id": "123_98",
+        "question": "What organization or person was responsible for publishing Master and God?",
+        "answers": [
+            "Hodder & Stoughton",
+            "Hodder and Stoughton"
+        ],
+        "pageviews": "183"
+    },
+    {
+        "query_id": "123_99",
+        "question": "What organization or person was responsible for publishing Hunches in Bunches?",
+        "answers": [
+            "Random House"
+        ],
+        "pageviews": "301"
+    },
+    {
+        "query_id": "123_100",
+        "question": "What organization or person is responsible for publishing the Annual Review of Ecology, Evolution, and Systematics?",
+        "answers": [
+            "Annual Reviews, Inc.",
+            "Annual Reviews",
+            "Annual Review of Biochemistry, Ltd."
+        ],
+        "pageviews": "381"
+    },
+    {
+        "query_id": "123_101",
+        "question": "What organization or person was responsible for publishing \"A Fine Balance\"?",
+        "answers": [
+            "McClelland & Stewart",
+            "McClelland and Stewart"
+        ],
+        "pageviews": "6837"
+    },
+    {
+        "query_id": "123_102",
+        "question": "What is the publisher of Frontier Worlds?",
+        "answers": [
+            "BBC Books",
+            "BBC Publishing"
+        ],
+        "pageviews": "222"
+    },
+    {
+        "query_id": "123_103",
+        "question": "What organization or person was responsible for publishing Twin Kingdom Valley?",
+        "answers": [
+            "Bug-Byte Software Ltd.",
+            "Bug-Byte"
+        ],
+        "pageviews": "250"
+    },
+    {
+        "query_id": "123_104",
+        "question": "What organization or person was responsible for publishing Dark Dominion?",
+        "answers": [
+            "Defiant Comics"
+        ],
+        "pageviews": "233"
+    },
+    {
+        "query_id": "123_105",
+        "question": "What organization or person was responsible for publishing Robin of the Wood?",
+        "answers": [
+            "Odin Computer Graphics"
+        ],
+        "pageviews": "248"
+    },
+    {
+        "query_id": "123_106",
+        "question": "What organization is responsible for publishing the Journal of Personality and Social Psychology?",
+        "answers": [
+            "APA",
+            "American Psychological Association",
+            "apa.org"
+        ],
+        "pageviews": "1808"
+    },
+    {
+        "query_id": "123_107",
+        "question": "What is the publisher of \"You Know You Want This\"?",
+        "answers": [
+            "Scout Press",
+            "Gallery Publishing Group"
+        ],
+        "pageviews": "894"
+    },
+    {
+        "query_id": "123_108",
+        "question": "What organization or person was responsible for publishing Tom Swift and His Great Searchlight?",
+        "answers": [
+            "Grosset & Dunlap",
+            "Grosset and Dunlap"
+        ],
+        "pageviews": "96"
+    },
+    {
+        "query_id": "123_109",
+        "question": "What is the publisher of Princess Academy?",
+        "answers": [
+            "Bloomsbury",
+            "Bloomsbury Press",
+            "Bloomsbury Publishing"
+        ],
+        "pageviews": "1545"
+    },
+    {
+        "query_id": "123_110",
+        "question": "What organization is responsible for publishing the Berkeley Journal of International Law?",
+        "answers": [
+            "UC Berkeley School of Law",
+            "Berkeley Law",
+            "Boalt School of Law",
+            "Boalt Hall",
+            "Boalt Law School",
+            "University of California, Berkeley, School of Law",
+            "Berkeley Law School"
+        ],
+        "pageviews": "116"
+    },
+    {
+        "query_id": "123_111",
+        "question": "What organization is responsible for publishing the Journal of International Management?",
+        "answers": [
+            "Elsevier BV",
+            "elsevier.com",
+            "Elsevier"
+        ],
+        "pageviews": "118"
+    },
+    {
+        "query_id": "123_112",
+        "question": "What organization is responsible for publishing Theme Park World?",
+        "answers": [
+            "Electronic Arts",
+            "Electronic Arts Inc.",
+            "Electronic Arts, Inc.",
+            "EA",
+            "EA Games"
+        ],
+        "pageviews": "2906"
+    },
+    {
+        "query_id": "123_113",
+        "question": "What organization or person was responsible for publishing Tony Hawk's Project 8?",
+        "answers": [
+            "Activision Publishing",
+            "Activision",
+            "Activision Publishing, Inc.",
+            "Activision Inc."
+        ],
+        "pageviews": "3102"
+    },
+    {
+        "query_id": "123_114",
+        "question": "What organization is responsible for publishing Vita e pensiero?",
+        "answers": [
+            "UCSC",
+            "UNICATT",
+            "Cattolica di Milano",
+            "Universit\u00e0 Cattolica del Sacro Cuore",
+            "Cattolica",
+            "Universit\u00e0 Cattolica di Milano",
+            "Universita Cattolica del Sacro Cuore",
+            "Universit\u00e0 del Sacro Cuore",
+            "Universit\u00e0 Cattolica del S. Cuore",
+            "Universit\u00e0 Cattolica del Sacro Cuore di Milano",
+            "Catholic University of Milan"
+        ],
+        "pageviews": "77"
+    },
+    {
+        "query_id": "123_115",
+        "question": "What organization was responsible for publishing Test Drive 4?",
+        "answers": [
+            "Accolade, Inc.",
+            "Accolade"
+        ],
+        "pageviews": "1862"
+    },
+    {
+        "query_id": "123_116",
+        "question": "What organization is responsible for publishing the International Journal of Qualitative Methods?",
+        "answers": [
+            "SAGE",
+            "sagepub.com",
+            "SAGE Publications, Inc.",
+            "SAGE Publications"
+        ],
+        "pageviews": "145"
+    },
+    {
+        "query_id": "123_117",
+        "question": "What organization was responsible for publishing Zub?",
+        "answers": [
+            "Mastertronic",
+            "Mastertronic Ltd."
+        ],
+        "pageviews": "261"
+    },
+    {
+        "query_id": "123_118",
+        "question": "What organization is responsible for publishing the Journal of Librarianship and Information Science?",
+        "answers": [
+            "SAGE",
+            "sagepub.com",
+            "SAGE Publications, Inc.",
+            "SAGE Publications"
+        ],
+        "pageviews": "196"
+    },
+    {
+        "query_id": "123_119",
+        "question": "What organization published \"The Simpsons Uncensored Family Album\"?",
+        "answers": [
+            "Harper & Bros",
+            "Harper",
+            "Harper & Row",
+            "Harper Paperbacks",
+            "Harper & Brothers",
+            "HarperCollins",
+            "J. & J. Harper",
+            "Harper and Row",
+            "HarperBusiness",
+            "Harper and Brothers"
+        ],
+        "pageviews": "327"
+    },
+    {
+        "query_id": "123_120",
+        "question": "What organization is responsible for publishing Expert Opinion on Pharmacotherapy?",
+        "answers": [
+            "Informa",
+            "Informa plc",
+            "Informa Healthcare"
+        ],
+        "pageviews": "120"
+    },
+    {
+        "query_id": "123_121",
+        "question": "What organization is responsible for publishing the Journal of Addiction Medicine?",
+        "answers": [
+            "LWW",
+            "Lippincott Williams & Wilkins"
+        ],
+        "pageviews": "78"
+    },
+    {
+        "query_id": "123_122",
+        "question": "What organization was responsible for publishing \"de Blob 2\"?",
+        "answers": [
+            "TAC",
+            "Toy HQ",
+            "Trinity Acquisition Corporation",
+            "THQ",
+            "THQ Inc.",
+            "Toy Head Quarters",
+            "T.HQ"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "123_123",
+        "question": "What organization is responsible for publishing Molecular Biotechnology?",
+        "answers": [
+            "Springer SBM",
+            "Kluwer Academic Publishers",
+            "Verlag von Julius Springer",
+            "Springer Science+Business Media",
+            "Springer-Verlag Berlin Heidelberg",
+            "Springer"
+        ],
+        "pageviews": "178"
+    },
+    {
+        "query_id": "123_124",
+        "question": "What organization is responsible for publishing The Journal of Comparative Neurology?",
+        "answers": [
+            "Wiley",
+            "John Wiley and Sons",
+            "wiley.com",
+            "Wiley-Liss",
+            "John Wiley & Sons",
+            "John Wiley & Sons, Inc."
+        ],
+        "pageviews": "175"
+    },
+    {
+        "query_id": "123_125",
+        "question": "Who is the publisher of European Urban and Regional Studies?",
+        "answers": [
+            "SAGE",
+            "sagepub.com",
+            "SAGE Publications, Inc.",
+            "SAGE Publications"
+        ],
+        "pageviews": "73"
+    },
+    {
+        "query_id": "123_126",
+        "question": "What organization is responsible for publishing the Journal of Clinical Pathology?",
+        "answers": [
+            "BMJ Group",
+            "BMJ",
+            "BMJ Publishing Group"
+        ],
+        "pageviews": "161"
+    },
+    {
+        "query_id": "123_127",
+        "question": "What organization published the Handbook of Porphyrin Science?",
+        "answers": [
+            "World Scientific",
+            "World Scientific Publishing"
+        ],
+        "pageviews": "56"
+    },
+    {
+        "query_id": "123_128",
+        "question": "What organization or person is responsible for publishing \"What's on TV\"?",
+        "answers": [
+            "Time Inc. UK",
+            "International Publishing Corporation",
+            "TI Media",
+            "IPC Media"
+        ],
+        "pageviews": "849"
+    },
+    {
+        "query_id": "123_129",
+        "question": "What organization or person was responsible for publishing the Oxford Encyclopedia of Maritime History?",
+        "answers": [
+            "Oxford UP",
+            "OUP",
+            "Oxford University Press",
+            "Clarendon Press",
+            "Oxford University Press -- Correspondence"
+        ],
+        "pageviews": "206"
+    },
+    {
+        "query_id": "123_130",
+        "question": "What organization published Dave Mirra Freestyle BMX 2?",
+        "answers": [
+            "Acclaim Entertainment"
+        ],
+        "pageviews": "1490"
+    },
+    {
+        "query_id": "123_131",
+        "question": "What organization is responsible for publishing BioMedical Engineering OnLine?",
+        "answers": [
+            "BioMed Central Ltd",
+            "Springer SBM",
+            "Kluwer Academic Publishers",
+            "Verlag von Julius Springer",
+            "Springer Science+Business Media",
+            "BM Central",
+            "Springer-Verlag Berlin Heidelberg",
+            "BioMed Central",
+            "Springer",
+            "biomedcentral.com",
+            "BMC"
+        ],
+        "pageviews": "125"
+    },
+    {
+        "query_id": "123_132",
+        "question": "What is the organization responsible for publishing Social Text?",
+        "answers": [
+            "Duke University Press"
+        ],
+        "pageviews": "1265"
+    },
+    {
+        "query_id": "123_133",
+        "question": "What organization is responsible for publishing NBA Live 16?",
+        "answers": [
+            "EASN",
+            "EA Sports Network",
+            "EA Sports"
+        ],
+        "pageviews": "605"
+    },
+    {
+        "query_id": "123_134",
+        "question": "What organization is responsible for publishing the Journal of Human Resources?",
+        "answers": [
+            "UW Press",
+            "The University of Wisconsin Press",
+            "University of Wisconsin Press"
+        ],
+        "pageviews": "68"
+    },
+    {
+        "query_id": "123_135",
+        "question": "What organization is responsible for publishing Social Studies of Science?",
+        "answers": [
+            "SAGE",
+            "sagepub.com",
+            "SAGE Publications, Inc.",
+            "SAGE Publications"
+        ],
+        "pageviews": "844"
+    },
+    {
+        "query_id": "123_136",
+        "question": "What organization or person was responsible for publishing Interstellar Pig?",
+        "answers": [
+            "Bantam Books"
+        ],
+        "pageviews": "985"
+    },
+    {
+        "query_id": "123_137",
+        "question": "What organization is responsible for publishing the Journal of Health Care for the Poor and Underserved?",
+        "answers": [
+            "The Johns Hopkins University Press",
+            "JHU Press",
+            "Johns Hopkins University Press",
+            "Publication Agency of the Johns Hopkins University"
+        ],
+        "pageviews": "190"
+    },
+    {
+        "query_id": "123_138",
+        "question": "What organization is responsible for publishing the Journal of International Political Theory?",
+        "answers": [
+            "SAGE",
+            "sagepub.com",
+            "SAGE Publications, Inc.",
+            "SAGE Publications"
+        ],
+        "pageviews": "63"
+    },
+    {
+        "query_id": "123_139",
+        "question": "What organization is responsible for publishing the Journal of Pediatric Health Care?",
+        "answers": [
+            "Elsevier BV",
+            "elsevier.com",
+            "Elsevier"
+        ],
+        "pageviews": "81"
+    },
+    {
+        "query_id": "123_140",
+        "question": "What organization is responsible for publishing Protein Science?",
+        "answers": [
+            "Wiley-Blackwell"
+        ],
+        "pageviews": "279"
+    },
+    {
+        "query_id": "123_141",
+        "question": "What organization published Hovertank 3D?",
+        "answers": [
+            "Softdisk"
+        ],
+        "pageviews": "1483"
+    },
+    {
+        "query_id": "123_142",
+        "question": "What organization is responsible for publishing Secret Agent Clank?",
+        "answers": [
+            "SCE",
+            "SIE",
+            "Sony Computer Entertainment",
+            "Sony Interactive Entertainment",
+            "Sony Interactive",
+            "Sony Computer Entertainment, Inc.",
+            "SCEI",
+            "Sony Interactive Entertainment LLC",
+            "Sony Interactive Entertainment Inc.",
+            "PlayStation C.A.M.P."
+        ],
+        "pageviews": "2618"
+    },
+    {
+        "query_id": "123_143",
+        "question": "What organization is responsible for publishing the South Asia Economic Journal?",
+        "answers": [
+            "SAGE",
+            "sagepub.com",
+            "SAGE Publications, Inc.",
+            "SAGE Publications"
+        ],
+        "pageviews": "93"
+    },
+    {
+        "query_id": "123_144",
+        "question": "What organization or person was responsible for publishing Star Fox Adventures?",
+        "answers": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Playing Card Co.",
+            "Nintend\u014d Kabushiki gaisha",
+            "Nintendo Co.",
+            "Nintendo",
+            "Big N",
+            "Nintendo Koppai"
+        ],
+        "pageviews": "6501"
+    },
+    {
+        "query_id": "123_145",
+        "question": "What organization or person was responsible for publishing Premier Manager 3?",
+        "answers": [
+            "Gremlin Graphics",
+            "Gremlin Interactive Limited",
+            "Infogrames Studios Limited",
+            "Gremlin Graphics Softwear Limited",
+            "Gremlin Graphics Software Limited",
+            "Gremlin Interactive",
+            "Finchpost Limited"
+        ],
+        "pageviews": "235"
+    },
+    {
+        "query_id": "123_146",
+        "question": "What organization is responsible for publishing Evolutionary Behavioral Sciences?",
+        "answers": [
+            "APA",
+            "American Psychological Association",
+            "apa.org"
+        ],
+        "pageviews": "166"
+    },
+    {
+        "query_id": "123_147",
+        "question": "What organization or person is responsible for publishing Mario Kart DS?",
+        "answers": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Playing Card Co.",
+            "Nintend\u014d Kabushiki gaisha",
+            "Nintendo Co.",
+            "Nintendo",
+            "Big N",
+            "Nintendo Koppai"
+        ],
+        "pageviews": "3977"
+    },
+    {
+        "query_id": "123_148",
+        "question": "What organization is responsible for publishing the Journal of Developmental Entrepreneurship?",
+        "answers": [
+            "World Scientific",
+            "World Scientific Publishing"
+        ],
+        "pageviews": "59"
+    },
+    {
+        "query_id": "123_149",
+        "question": "What is the publisher of Kybernetes?",
+        "answers": [
+            "Emerald Group Publishing Limited",
+            "Emerald Group Pub",
+            "Emerald Group Publishing",
+            "MCB University Press",
+            "Emerald Publishing",
+            "Emerald Group Publishing (United Kingdom)",
+            "Emerald Publishing Limited"
+        ],
+        "pageviews": "386"
+    },
+    {
+        "query_id": "123_150",
+        "question": "What organization is responsible for publishing The Independent Review?",
+        "answers": [
+            "The Independent Institute",
+            "The Independent"
+        ],
+        "pageviews": "716"
+    },
+    {
+        "query_id": "123_151",
+        "question": "What organization or person is responsible for publishing Crossy Road?",
+        "answers": [
+            "Hipster Whale",
+            "Hipster Whale Pty Ltd"
+        ],
+        "pageviews": "6028"
+    },
+    {
+        "query_id": "123_152",
+        "question": "What organization is responsible for publishing the Food and Nutrition Bulletin?",
+        "answers": [
+            "Sage Publications",
+            "SAGE",
+            "SAGE Publications, Inc.",
+            "sagepub.com",
+            "SAGE Publications"
+        ],
+        "pageviews": "100"
+    },
+    {
+        "query_id": "123_153",
+        "question": "What organization or person was responsible for publishing Skate or Die!?",
+        "answers": [
+            "Electronic Arts",
+            "Electronic Arts Inc.",
+            "Electronic Arts, Inc.",
+            "EA",
+            "EA Games"
+        ],
+        "pageviews": "1974"
+    },
+    {
+        "query_id": "123_154",
+        "question": "Who is responsible for publishing the Maine Law Review?",
+        "answers": [
+            "University of Maine School of Law",
+            "Maine Law"
+        ],
+        "pageviews": "62"
+    },
+    {
+        "query_id": "123_155",
+        "question": "What is the publisher of Fields of Science and Technology?",
+        "answers": [
+            "OEEC",
+            "Organisation for Economic Cooperation and Development",
+            "OECD",
+            "Organisation for Economic Co-operation and Development",
+            "Organisation de coop\u00e9ration et de d\u00e9veloppement \u00e9conomiques",
+            "OCDE"
+        ],
+        "pageviews": "2873"
+    },
+    {
+        "query_id": "123_156",
+        "question": "What organization is responsible for publishing the Encyclop\u00e9die de la Pl\u00e9iade?",
+        "answers": [
+            "\u00c9ditions Gallimard",
+            "Groupe Gallimard",
+            "Editions Gallimard",
+            "Gallimard Publishers",
+            "Gallimard"
+        ],
+        "pageviews": "81"
+    },
+    {
+        "query_id": "123_157",
+        "question": "What organization is responsible for publishing Applied and Environmental Microbiology?",
+        "answers": [
+            "Society of American Bacteriologists",
+            "American Society for Microbiology"
+        ],
+        "pageviews": "572"
+    },
+    {
+        "query_id": "123_158",
+        "question": "What organization or person is responsible for publishing NBA 2K2?",
+        "answers": [
+            "SEGA",
+            "Service Games",
+            "Sega Corporation",
+            "Sega Games Co., Ltd",
+            "Sega Games",
+            "Sega Enterprises Ltd.",
+            "SEGA Games Co., Ltd.",
+            "SEGA Enterprises Ltd.",
+            "SEGA Games",
+            "Sega"
+        ],
+        "pageviews": "1327"
+    },
+    {
+        "query_id": "123_159",
+        "question": "What organization or person was responsible for publishing A Secret Atlas?",
+        "answers": [
+            "Bantam Books"
+        ],
+        "pageviews": "113"
+    },
+    {
+        "query_id": "123_160",
+        "question": "What is the publisher of Mirror Dance?",
+        "answers": [
+            "Baen Books"
+        ],
+        "pageviews": "770"
+    },
+    {
+        "query_id": "123_161",
+        "question": "What organization or person was responsible for publishing the Star Trek: The Original Series Role-playing Game?",
+        "answers": [
+            "LUG",
+            "Last Unicorn Games"
+        ],
+        "pageviews": "4"
+    },
+    {
+        "query_id": "123_162",
+        "question": "What organization is responsible for publishing the Journal of Hydrometeorology?",
+        "answers": [
+            "American Meteorological Society"
+        ],
+        "pageviews": "144"
+    },
+    {
+        "query_id": "123_163",
+        "question": "What organization or person was responsible for publishing My Many Colored Days?",
+        "answers": [
+            "Alfred A. Knopf, Inc.",
+            "Alfred A. Knopf",
+            "Knopf"
+        ],
+        "pageviews": "538"
+    },
+    {
+        "query_id": "123_164",
+        "question": "Who was the publisher of Consider the Consequences!?",
+        "answers": [
+            "The Century Company",
+            "Century Co.",
+            "The Century Co.",
+            "Century Company"
+        ],
+        "pageviews": "184"
+    },
+    {
+        "query_id": "123_165",
+        "question": "What organization or person is responsible for publishing the International Journal of Software and Informatics?",
+        "answers": [
+            "CAS",
+            "Chinese Academy of Sciences"
+        ],
+        "pageviews": "64"
+    },
+    {
+        "query_id": "123_166",
+        "question": "What organization acquired PC Zone?",
+        "answers": [
+            "Future plc",
+            "Future Publishing"
+        ],
+        "pageviews": "798"
+    },
+    {
+        "query_id": "123_167",
+        "question": "Who is the publisher of Co-op News?",
+        "answers": [
+            "Co-operative Press",
+            "Co-operative Press Limited",
+            "Co-operative Newspaper Society",
+            "Co-op Press",
+            "The Co-operative Press",
+            "National Co-operative Publishing Society"
+        ],
+        "pageviews": "134"
+    },
+    {
+        "query_id": "123_168",
+        "question": "What organization was responsible for publishing the game \"Cold War\"?",
+        "answers": [
+            "DreamCatcher Interactive, Inc.",
+            "DreamCatcher Games",
+            "DreamCatcher Interactive"
+        ],
+        "pageviews": "231134"
+    },
+    {
+        "query_id": "123_169",
+        "question": "What organization is responsible for publishing The Wallace Stevens Journal?",
+        "answers": [
+            "The Johns Hopkins University Press",
+            "JHU Press",
+            "Johns Hopkins University Press",
+            "Publication Agency of the Johns Hopkins University"
+        ],
+        "pageviews": "70"
+    },
+    {
+        "query_id": "123_170",
+        "question": "What organization or person was responsible for publishing The Death and Return of Superman?",
+        "answers": [
+            "Sun Corporation",
+            "SUNCORPORATION",
+            "Sunsoft"
+        ],
+        "pageviews": "1861"
+    },
+    {
+        "query_id": "123_171",
+        "question": "What organization or person published The Pothunters?",
+        "answers": [
+            "A & C Black",
+            "Adam and Charles Black",
+            "Adam & Charles Black"
+        ],
+        "pageviews": "384"
+    },
+    {
+        "query_id": "123_172",
+        "question": "What organization published The New Annotated Sherlock Holmes?",
+        "answers": [
+            "W. W. Norton",
+            "W. W. Norton and Company",
+            "WW Norton & Company",
+            "W. W. Norton & Company",
+            "Norton",
+            "W.W. Norton & Company",
+            "W. W. Norton & Co."
+        ],
+        "pageviews": "288"
+    },
+    {
+        "query_id": "123_173",
+        "question": "What organization or person was responsible for publishing The Riverbones?",
+        "answers": [
+            "McClelland & Stewart"
+        ],
+        "pageviews": "29"
+    },
+    {
+        "query_id": "123_174",
+        "question": "What organization or person was responsible for publishing Troy Aikman NFL Football?",
+        "answers": [
+            "Tradewest, Inc.",
+            "Midway Home Entertainment, Inc.",
+            "Tradewest"
+        ],
+        "pageviews": "359"
+    },
+    {
+        "query_id": "123_175",
+        "question": "What organization or person was responsible for publishing Dreams and Fancies?",
+        "answers": [
+            "Arkham House"
+        ],
+        "pageviews": "59"
+    },
+    {
+        "query_id": "123_176",
+        "question": "What organization or person was responsible for publishing The People of the Mist?",
+        "answers": [
+            "Longman, Hurst, Rees, Orme, Brown, and Green",
+            "Messrs. Longmans, Green & Co.",
+            "Longmans, Green & Co.",
+            "Longman, Hurst, Rees, Orme, Brown & Green",
+            "Longmans, Green, Reader, and Dyer",
+            "Longmans",
+            "Longman",
+            "Longman, Hurst & Co., Paternoster Row, London",
+            "Longman, Hurst, Rees, & Orme",
+            "Longman & Co.",
+            "Longman, Hurst, Rees and Orme"
+        ],
+        "pageviews": "464"
+    },
+    {
+        "query_id": "123_177",
+        "question": "What organization or person was responsible for publishing Women, Fire, and Dangerous Things?",
+        "answers": [
+            "The University of Chicago Press",
+            "University of Chicago Press"
+        ],
+        "pageviews": "1221"
+    },
+    {
+        "query_id": "123_178",
+        "question": "What organization or person was responsible for publishing The Adventure Girls series?",
+        "answers": [
+            "A. L. Burt Company",
+            "A. L. Burt"
+        ],
+        "pageviews": "210"
+    },
+    {
+        "query_id": "123_179",
+        "question": "What is the publisher of the book \"Shouldn't You Be in School?\"",
+        "answers": [
+            "Little, Brown, and Company",
+            "Egmont",
+            "Egmont International Holding",
+            "Little Brown & Co.",
+            "Little, Brown & Co.",
+            "Little, Brown",
+            "Egmont Publishing",
+            "Egmont Group",
+            "Little, Brown and Company",
+            "Little, Brown and Co."
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "123_180",
+        "question": "What organization or person was responsible for publishing A Philip Roth Reader?",
+        "answers": [
+            "Farrar, Straus and Giroux",
+            "FSG"
+        ],
+        "pageviews": "142"
+    },
+    {
+        "query_id": "123_181",
+        "question": "What is the publisher of ACS Catalysis?",
+        "answers": [
+            "American Chemical Society",
+            "ACS",
+            "Soci\u00e9t\u00e9 am\u00e9ricaine de chimie"
+        ],
+        "pageviews": "495"
+    },
+    {
+        "query_id": "123_182",
+        "question": "What organization published Rising Up and Rising Down?",
+        "answers": [
+            "Ecco Press"
+        ],
+        "pageviews": "634"
+    },
+    {
+        "query_id": "123_183",
+        "question": "What organization or person is responsible for publishing Gregor and the Curse of the Warmbloods?",
+        "answers": [
+            "Scholastic Entertainment",
+            "Scholastic",
+            "Scholastic Corporation",
+            "Scholastic Corporation (United States)"
+        ],
+        "pageviews": "711"
+    },
+    {
+        "query_id": "123_184",
+        "question": "Which organization, in collaboration with the British Sociological Association (BSA), is responsible for publishing the academic journal \"Sociology\"?",
+        "answers": [
+            "SAGE",
+            "sagepub.com",
+            "SAGE Publications, Inc.",
+            "SAGE Publications"
+        ],
+        "pageviews": "93433"
+    },
+    {
+        "query_id": "123_185",
+        "question": "What organization or person was responsible for publishing Black Is the Fashion for Dying?",
+        "answers": [
+            "Random House"
+        ],
+        "pageviews": "41"
+    },
+    {
+        "query_id": "123_186",
+        "question": "What organization is responsible for publishing Australian Critical Care?",
+        "answers": [
+            "Elsevier BV",
+            "elsevier.com",
+            "Elsevier"
+        ],
+        "pageviews": "50"
+    },
+    {
+        "query_id": "123_187",
+        "question": "What organization or person was responsible for publishing Service with a Smile?",
+        "answers": [
+            "Simon and Schuster",
+            "S&S",
+            "Simon & Schuster",
+            "Simon & Schuster, Inc."
+        ],
+        "pageviews": "370"
+    },
+    {
+        "query_id": "123_188",
+        "question": "What organization or person is responsible for publishing Boktai?",
+        "answers": [
+            "Konami Holdings Corporation",
+            "Konica Enix",
+            "Konami"
+        ],
+        "pageviews": "1504"
+    },
+    {
+        "query_id": "123_189",
+        "question": "What organization is responsible for publishing Chinese Annals of Mathematics, Series B?",
+        "answers": [
+            "Springer SBM",
+            "Kluwer Academic Publishers",
+            "Verlag von Julius Springer",
+            "Springer Science+Business Media",
+            "Springer-Verlag Berlin Heidelberg",
+            "Springer"
+        ],
+        "pageviews": "73"
+    },
+    {
+        "query_id": "123_190",
+        "question": "What organization was responsible for publishing Gemstone Warrior?",
+        "answers": [
+            "Strategic Simulations, Inc.",
+            "Strategic Simulations",
+            "SSI"
+        ],
+        "pageviews": "160"
+    },
+    {
+        "query_id": "123_191",
+        "question": "What organization or person was responsible for publishing The Man in the Brown Suit?",
+        "answers": [
+            "Elkin Mathews and John Lane",
+            "The Bodley Head",
+            "John Lane, The Bodley Head"
+        ],
+        "pageviews": "3490"
+    },
+    {
+        "query_id": "123_192",
+        "question": "Why Didn't They Ask Evans? was published by which organization?",
+        "answers": [
+            "Collins Crime Club"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "123_193",
+        "question": "What organization or person was responsible for publishing A Sense of Life?",
+        "answers": [
+            "\u00c9ditions Gallimard",
+            "Groupe Gallimard",
+            "Editions Gallimard",
+            "Gallimard Publishers",
+            "Gallimard"
+        ],
+        "pageviews": "195"
+    },
+    {
+        "query_id": "123_194",
+        "question": "What organization or person was responsible for publishing \"The Man with the Red Tattoo\"?",
+        "answers": [
+            "Hodder & Stoughton",
+            "Hodder and Stoughton"
+        ],
+        "pageviews": "1683"
+    },
+    {
+        "query_id": "123_195",
+        "question": "What organization published The Poe Shadow?",
+        "answers": [
+            "Random House"
+        ],
+        "pageviews": "385"
+    },
+    {
+        "query_id": "123_196",
+        "question": "What organization or person was responsible for publishing The Many Worlds of Poul Anderson?",
+        "answers": [
+            "Chilton",
+            "Chilton Research Services",
+            "Chilton Publishing Co.",
+            "Chilton Company",
+            "Chilton Book Co.",
+            "Chilton Printing Co."
+        ],
+        "pageviews": "75"
+    },
+    {
+        "query_id": "123_197",
+        "question": "What organization or person was responsible for publishing Evil Always Ends?",
+        "answers": [
+            "Donald M. Grant, Publisher, Inc.",
+            "Donald M. Grant, Publisher"
+        ],
+        "pageviews": "51"
+    },
+    {
+        "query_id": "123_198",
+        "question": "What organization or person was responsible for publishing \"CoroCoro Comic\"?",
+        "answers": [
+            "Sh\u014dgakukan",
+            "Shogakukan"
+        ],
+        "pageviews": "3839"
+    },
+    {
+        "query_id": "123_199",
+        "question": "What organization or person was responsible for publishing \"Star Frontiers\"?",
+        "answers": [
+            "TSR Hobbies",
+            "TSR Inc",
+            "TSR Inc.",
+            "Tactical Studies Rules",
+            "TSR"
+        ],
+        "pageviews": "2222"
+    },
+    {
+        "query_id": "123_200",
+        "question": "What organization is responsible for publishing the Pok\u00e9mon core series?",
+        "answers": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Playing Card Co.",
+            "Pocket Monster Center Co., Ltd.",
+            "Nintend\u014d Kabushiki gaisha",
+            "Nintendo Co.",
+            "The Pok\u00e9mon Company",
+            "Nintendo",
+            "Big N",
+            "Pok\u00e9mon Company",
+            "Pokemon Company",
+            "The Pokemon Company",
+            "Nintendo Koppai"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "123_201",
+        "question": "Who was the publisher of The Liberator?",
+        "answers": [
+            "William L. Garrison",
+            "Isaac Knapp",
+            "William Lloyd Garrison"
+        ],
+        "pageviews": "167"
+    },
+    {
+        "query_id": "123_202",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software in Ultra Jump?",
+        "answers": [
+            "Shueisha",
+            "Sh\u016beisha"
+        ],
+        "pageviews": "3970"
+    },
+    {
+        "query_id": "123_203",
+        "question": "What organization was responsible for publishing \"The Crisis\"?",
+        "answers": [
+            "NAACP",
+            "National Association for the Advancement of Colored People"
+        ],
+        "pageviews": "3110"
+    },
+    {
+        "query_id": "123_204",
+        "question": "What organization or person is responsible for publishing Grand Theft Auto V?",
+        "answers": [
+            "Rockstar NYC",
+            "Rockstar Games",
+            "Take2",
+            "Soft Club",
+            "T2",
+            "Softclub",
+            "Soft-Club",
+            "Take-Two Interactive",
+            "1C-SoftClub",
+            "Take-Two",
+            "Rockstar"
+        ],
+        "pageviews": "249853"
+    },
+    {
+        "query_id": "123_205",
+        "question": "What is the publisher of Weekly Sh\u014dnen Champion?",
+        "answers": [
+            "Akita Shoten",
+            "Akita Publishing Co., Ltd.",
+            "AKITA SHOTEN"
+        ],
+        "pageviews": "3901"
+    },
+    {
+        "query_id": "123_206",
+        "question": "What is the publisher of Weekly Young Magazine?",
+        "answers": [
+            "K\u014ddansha",
+            "Kodansha",
+            "Kodansha Ltd."
+        ],
+        "pageviews": "5017"
+    },
+    {
+        "query_id": "123_207",
+        "question": "What organization or person is responsible for publishing \"The Morrow Project\"?",
+        "answers": [
+            "Timeline",
+            "Timeline Ltd."
+        ],
+        "pageviews": "546"
+    },
+    {
+        "query_id": "123_208",
+        "question": "What organization published the 1986 role-playing game adventure for \"Paranoia\"?",
+        "answers": [
+            "West End Games"
+        ],
+        "pageviews": "24317"
+    },
+    {
+        "query_id": "123_209",
+        "question": "What is the publisher of Monthly Sh\u014dnen Ace?",
+        "answers": [
+            "Kadokawa Shoten"
+        ],
+        "pageviews": "1684"
+    },
+    {
+        "query_id": "123_210",
+        "question": "What organization or person is responsible for publishing the Oricon Albums Chart?",
+        "answers": [
+            "Oricon Inc.",
+            "Oricon"
+        ],
+        "pageviews": "2126"
+    },
+    {
+        "query_id": "123_211",
+        "question": "What organization is the publisher of Dengeki Daioh?",
+        "answers": [
+            "Dengeki Game Bunko",
+            "Sylph Comics",
+            "ASCII MediaWorks",
+            "ASCII MEDIA WORKS",
+            "Dengeki",
+            "ASCII Media Works"
+        ],
+        "pageviews": "1945"
+    },
+    {
+        "query_id": "123_212",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software in the Megaversal system?",
+        "answers": [
+            "Palladium Books"
+        ],
+        "pageviews": "589"
+    },
+    {
+        "query_id": "123_213",
+        "question": "What organization is responsible for publishing the game featuring Kirby characters and assets?",
+        "answers": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Playing Card Co.",
+            "Nintend\u014d Kabushiki gaisha",
+            "Nintendo Co.",
+            "Nintendo",
+            "Big N",
+            "Nintendo Koppai"
+        ],
+        "pageviews": "2439"
+    },
+    {
+        "query_id": "123_214",
+        "question": "Who was the publisher of Praxis Pietatis Melica?",
+        "answers": [
+            "Johann Cr\u00fcger"
+        ],
+        "pageviews": "38"
+    },
+    {
+        "query_id": "123_215",
+        "question": "What organization is responsible for publishing Madden NFL?",
+        "answers": [
+            "EASN",
+            "EA Sports Network",
+            "EA Sports"
+        ],
+        "pageviews": "29601"
+    },
+    {
+        "query_id": "123_216",
+        "question": "What is the publisher of Rhythmic Airplay?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "28"
+    },
+    {
+        "query_id": "123_217",
+        "question": "What organization is responsible for publishing Tekken?",
+        "answers": [
+            "Namco Limited",
+            "Namco",
+            "Namcot"
+        ],
+        "pageviews": "35520"
+    },
+    {
+        "query_id": "123_218",
+        "question": "What organization is responsible for publishing International Superstar Soccer?",
+        "answers": [
+            "Konami Holdings Corporation",
+            "Konica Enix",
+            "Konami"
+        ],
+        "pageviews": "3247"
+    },
+    {
+        "query_id": "123_219",
+        "question": "What is the organization responsible for publishing Apache License?",
+        "answers": [
+            "ASF",
+            "Apache Software Foundation"
+        ],
+        "pageviews": "19912"
+    },
+    {
+        "query_id": "123_220",
+        "question": "What organization was responsible for publishing books in \"Monthly Dragon Age\"?",
+        "answers": [
+            "Fujimi Shobo"
+        ],
+        "pageviews": "1442"
+    },
+    {
+        "query_id": "123_221",
+        "question": "What organization or person is responsible for publishing the Sports Illustrated Swimsuit Issue?",
+        "answers": [
+            "Sports Illustrated",
+            "SI"
+        ],
+        "pageviews": "17743"
+    },
+    {
+        "query_id": "123_222",
+        "question": "What organization is responsible for publishing Booklist?",
+        "answers": [
+            "ALA",
+            "American Library Association"
+        ],
+        "pageviews": "1386"
+    },
+    {
+        "query_id": "123_223",
+        "question": "What organization is responsible for publishing the FIFA series?",
+        "answers": [
+            "Electronic Arts",
+            "Electronic Arts Inc.",
+            "Electronic Arts, Inc.",
+            "EA",
+            "EA Games"
+        ],
+        "pageviews": "105181"
+    },
+    {
+        "query_id": "123_224",
+        "question": "What organization or person was responsible for publishing the teen mutant book \"New Mutants\"?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "13903"
+    },
+    {
+        "query_id": "123_225",
+        "question": "What organization or person is responsible for publishing Cyberpunk 2020?",
+        "answers": [
+            "R. Talsorian Games"
+        ],
+        "pageviews": "2310"
+    },
+    {
+        "query_id": "123_226",
+        "question": "What organization published Torg?",
+        "answers": [
+            "West End Games"
+        ],
+        "pageviews": "2242"
+    },
+    {
+        "query_id": "123_227",
+        "question": "What organization or person is responsible for publishing ESPN The Magazine?",
+        "answers": [
+            "ESPN",
+            "Entertainment and Sports Programming Network"
+        ],
+        "pageviews": "4393"
+    },
+    {
+        "query_id": "123_228",
+        "question": "What is the publisher of Sh\u014dnen Sunday Super?",
+        "answers": [
+            "Sh\u014dgakukan",
+            "Shogakukan"
+        ],
+        "pageviews": "258"
+    },
+    {
+        "query_id": "123_229",
+        "question": "What organization is responsible for publishing Foreign Affairs?",
+        "answers": [
+            "CFR",
+            "Council on Foreign Relations, CFR",
+            "Council on Foreign Relations"
+        ],
+        "pageviews": "7326"
+    },
+    {
+        "query_id": "123_230",
+        "question": "What organization or person was responsible for publishing Zork?",
+        "answers": [
+            "VisiCorp",
+            "Activision Inc.",
+            "Activision",
+            "Activision Publishing",
+            "Activision Publishing, Inc.",
+            "Infocom",
+            "Infocom, Inc."
+        ],
+        "pageviews": "13867"
+    },
+    {
+        "query_id": "123_231",
+        "question": "What organization was Vogue published by?",
+        "answers": [
+            "Cond\u00e9 Nast Publications Inc",
+            "Conde Nast Publications",
+            "Cond\u00e9 Nast",
+            "Cond\u00e9 Nast Publications",
+            "Cond\u00e8 Nast",
+            "Cond\u00e9 Nast Inc.",
+            "Conde Nast Publications Inc"
+        ],
+        "pageviews": "1467"
+    },
+    {
+        "query_id": "123_232",
+        "question": "What is the publisher of Green Lantern Corps?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "12042"
+    },
+    {
+        "query_id": "123_233",
+        "question": "What organization is responsible for publishing Science?",
+        "answers": [
+            "AAAS",
+            "American Association for the Advancement of Science"
+        ],
+        "pageviews": "178685"
+    },
+    {
+        "query_id": "123_234",
+        "question": "Which organization, based in Japan, manufactured and sold Space Invaders?",
+        "answers": [
+            "Taito",
+            "Midway Games",
+            "Taito Corporation"
+        ],
+        "pageviews": "26922"
+    },
+    {
+        "query_id": "123_235",
+        "question": "What organization or person is responsible for publishing the Ultimates?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "5484"
+    },
+    {
+        "query_id": "123_236",
+        "question": "What organization or person is responsible for publishing Detective Comics?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "14026"
+    },
+    {
+        "query_id": "123_237",
+        "question": "What organization or person was responsible for publishing FIFA 10?",
+        "answers": [
+            "EASN",
+            "EA Sports Network",
+            "EA Sports"
+        ],
+        "pageviews": "4065"
+    },
+    {
+        "query_id": "123_238",
+        "question": "What organization or person was responsible for publishing the book series \"Fighting Fantasy\"?",
+        "answers": [
+            "Puffin Books",
+            "Puffin",
+            "Gallimard Jeunesse",
+            "Penguin"
+        ],
+        "pageviews": "7607"
+    },
+    {
+        "query_id": "123_239",
+        "question": "Who is the publisher of L'Osservatore Romano?",
+        "answers": [
+            "Dicastery for Communication",
+            "Sancta Sedes",
+            "Holy See of Rome",
+            "Vatican",
+            "See of Rome",
+            "See of Peter",
+            "Santa Sede",
+            "Chair of Peter",
+            "The Holy See",
+            "Holy See"
+        ],
+        "pageviews": "1608"
+    },
+    {
+        "query_id": "123_240",
+        "question": "What organization or person is responsible for publishing X-Force?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "17380"
+    },
+    {
+        "query_id": "123_241",
+        "question": "What organization or person is responsible for publishing the Book of Mormon?",
+        "answers": [
+            "LDS Church",
+            "Latter-day Saints Church",
+            "The Church of Jesus Christ of Latter-day Saints",
+            "Church of Jesus Christ",
+            "Mormon Church",
+            "Church of Jesus Christ of Latter-day Saints"
+        ],
+        "pageviews": "43079"
+    },
+    {
+        "query_id": "123_242",
+        "question": "What organization was responsible for publishing The Adventures of Indiana Jones Role-Playing Game?",
+        "answers": [
+            "TSR Hobbies",
+            "TSR Inc",
+            "TSR Inc.",
+            "Tactical Studies Rules",
+            "TSR"
+        ],
+        "pageviews": "501"
+    },
+    {
+        "query_id": "123_243",
+        "question": "What organization or person published the 1984 role-playing game adventure for \"Villains and Vigilantes\" called \"From the Deeps of Space\"?",
+        "answers": [
+            "Fantasy Games Unlimited",
+            "FGU"
+        ],
+        "pageviews": "500"
+    },
+    {
+        "query_id": "123_244",
+        "question": "What is the publisher of The Conan Chronicles, 1?",
+        "answers": [
+            "Victor Gollancz",
+            "Gollancz",
+            "Victor Gollancz Ltd"
+        ],
+        "pageviews": "243"
+    },
+    {
+        "query_id": "123_245",
+        "question": "What is the publisher of Hana to Yume?",
+        "answers": [
+            "Hakusensha"
+        ],
+        "pageviews": "2614"
+    },
+    {
+        "query_id": "123_246",
+        "question": "What organization is responsible for publishing \"Thunderbolts\"?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "224"
+    },
+    {
+        "query_id": "123_247",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software in the field of planetary nomenclature?",
+        "answers": [
+            "International Astronomical Union",
+            "IAU",
+            "Working Group on Star Names"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "123_248",
+        "question": "What organization is responsible for publishing \"Ciao\"?",
+        "answers": [
+            "Sh\u014dgakukan",
+            "Shogakukan"
+        ],
+        "pageviews": "15942"
+    },
+    {
+        "query_id": "123_249",
+        "question": "What is the publisher of the Scottish Archaeological Journal?",
+        "answers": [
+            "Glasgow Archaeological Society",
+            "Edinburgh University Press"
+        ],
+        "pageviews": "42"
+    },
+    {
+        "query_id": "123_250",
+        "question": "What is the organization responsible for publishing Science News?",
+        "answers": [
+            "Society for Science & the Public",
+            "Society for Science & the Publice",
+            "Society for Science and the Public",
+            "Science Service"
+        ],
+        "pageviews": "2351"
+    },
+    {
+        "query_id": "123_251",
+        "question": "What organization or person is responsible for publishing Warhammer Fantasy Roleplay?",
+        "answers": [
+            "Games Workshop Group plc",
+            "Games Workshop"
+        ],
+        "pageviews": "5036"
+    },
+    {
+        "query_id": "123_252",
+        "question": "Who is the publisher of Ethnologue according to the given context?",
+        "answers": [
+            "SIL International",
+            "Summer Institute of Linguistics",
+            "SIL",
+            "sil.org"
+        ],
+        "pageviews": "7866"
+    },
+    {
+        "query_id": "123_253",
+        "question": "What organization or person is responsible for publishing Regional Mexican Airplay?",
+        "answers": [
+            "\"Billboard\" magazine",
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "350"
+    },
+    {
+        "query_id": "123_254",
+        "question": "What organization or person is responsible for publishing the IPCC Fifth Assessment Report?",
+        "answers": [
+            "IPCC",
+            "Intergovernmental Panel on Climate Change"
+        ],
+        "pageviews": "3891"
+    },
+    {
+        "query_id": "123_255",
+        "question": "What organization was responsible for publishing The Astronomical Journal?",
+        "answers": [
+            "IOP Publishing",
+            "American Astronomical Society",
+            "University of Chicago Press",
+            "AIP",
+            "AAS",
+            "American Institute of Physics",
+            "The University of Chicago Press"
+        ],
+        "pageviews": "782"
+    },
+    {
+        "query_id": "123_256",
+        "question": "What organization or person was responsible for publishing the Billboard Year-End Hot 100 singles of 1962?",
+        "answers": [
+            "Billboard",
+            "The Billboard",
+            "\"Billboard\""
+        ],
+        "pageviews": "5945"
+    },
+    {
+        "query_id": "123_257",
+        "question": "What organization or person was responsible for publishing The Continent Makers and Other Tales of the Viagens?",
+        "answers": [
+            "Gale Research",
+            "Twayne Publishers",
+            "Gale",
+            "Gale Research Company",
+            "Gale Group",
+            "St. James Press",
+            "Thomson Gale"
+        ],
+        "pageviews": "95"
+    },
+    {
+        "query_id": "123_258",
+        "question": "What organization was responsible for publishing \"Conan the Swordsman\"?",
+        "answers": [
+            "Bantam Books"
+        ],
+        "pageviews": "319"
+    },
+    {
+        "query_id": "123_259",
+        "question": "Who is the publisher of Who's Who in American Art?",
+        "answers": [
+            "Marquis Who's Who, Inc.",
+            "Marquis Who's Who"
+        ],
+        "pageviews": "198"
+    },
+    {
+        "query_id": "123_260",
+        "question": "What organization is responsible for publishing Starcraft II?",
+        "answers": [
+            "Silicon & Synapse",
+            "Blizzard",
+            "Blizzard Entertainment",
+            "Blizzard Entertainment, Inc."
+        ],
+        "pageviews": "655"
+    },
+    {
+        "query_id": "123_261",
+        "question": "What organization or person published the 1988 role-playing game adventure \"100 Bushels of Rye\" for H\u00e2rnMaster?",
+        "answers": [
+            "Kel\u00e9stia Productions",
+            "Columbia Games"
+        ],
+        "pageviews": "763"
+    },
+    {
+        "query_id": "123_262",
+        "question": "What organization or person was responsible for publishing \"The Fantasy Trip\"?",
+        "answers": [
+            "Metagaming",
+            "Metagaming Concepts"
+        ],
+        "pageviews": "626"
+    },
+    {
+        "query_id": "123_263",
+        "question": "What organization was responsible for publishing Super Mario Bros.?",
+        "answers": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Playing Card Co.",
+            "Nintend\u014d Kabushiki gaisha",
+            "Nintendo Co.",
+            "Nintendo",
+            "Big N",
+            "Nintendo Koppai"
+        ],
+        "pageviews": "57493"
+    },
+    {
+        "query_id": "123_264",
+        "question": "What organization is responsible for publishing The Sims?",
+        "answers": [
+            "Electronic Arts",
+            "Electronic Arts Inc.",
+            "Electronic Arts, Inc.",
+            "EA",
+            "EA Games"
+        ],
+        "pageviews": "33808"
+    },
+    {
+        "query_id": "123_265",
+        "question": "What organization or person was responsible for publishing Space Opera?",
+        "answers": [
+            "Fantasy Games Unlimited",
+            "FGU"
+        ],
+        "pageviews": "222"
+    },
+    {
+        "query_id": "123_266",
+        "question": "What organization is responsible for publishing books featuring Batman?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "193508"
+    },
+    {
+        "query_id": "123_267",
+        "question": "What organization or person is responsible for publishing Silent Hill?",
+        "answers": [
+            "Konami Holdings Corporation",
+            "Konica Enix",
+            "Konami",
+            "KDE",
+            "Konami Digital Entertainment Co., Ltd.",
+            "Konami Digital Entertainment"
+        ],
+        "pageviews": "69037"
+    },
+    {
+        "query_id": "123_268",
+        "question": "What organization or person is responsible for publishing Witchblade?",
+        "answers": [
+            "Top Cow Productions",
+            "Top Cow Productions, Inc.",
+            "Top Cow"
+        ],
+        "pageviews": "8816"
+    },
+    {
+        "query_id": "123_269",
+        "question": "What organization or person was responsible for publishing Dylan Dog?",
+        "answers": [
+            "Sergio Bonelli Editore"
+        ],
+        "pageviews": "4069"
+    },
+    {
+        "query_id": "123_270",
+        "question": "What organization or person was responsible for publishing the book in the Franco-Belgian comics magazine \"\u00c0 Suivre\"?",
+        "answers": [
+            "Casterman"
+        ],
+        "pageviews": "264"
+    },
+    {
+        "query_id": "123_271",
+        "question": "What organization or person was responsible for publishing \"The Black Mask\"?",
+        "answers": [
+            "Charles Scribner\u2019s Sons",
+            "Charles Scribner's Sons",
+            "Scribner's",
+            "Charles Scribner and Sons",
+            "Scribner",
+            "Baker & Scribner",
+            "C. Scribner's Sons"
+        ],
+        "pageviews": "260"
+    },
+    {
+        "query_id": "123_272",
+        "question": "What organization or person was responsible for publishing in \"Bessatsu Margaret\" from 2005 to 2017?",
+        "answers": [
+            "Shueisha",
+            "Sh\u016beisha"
+        ],
+        "pageviews": "1539"
+    },
+    {
+        "query_id": "123_273",
+        "question": "What organization or person was responsible for publishing Plastic Man?",
+        "answers": [
+            "Comic Magazines",
+            "Quality Comics",
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "29361"
+    },
+    {
+        "query_id": "123_274",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software in \"Bessatsu Friend\" magazine?",
+        "answers": [
+            "K\u014ddansha",
+            "Kodansha",
+            "Kodansha Ltd."
+        ],
+        "pageviews": "587"
+    },
+    {
+        "query_id": "123_275",
+        "question": "Who was the publisher of Sovremennik?",
+        "answers": [
+            "Pushkin",
+            "Alexander Sergeyevich Pushkin",
+            "Nikolay Alexeyevich Nekrasov",
+            "Pyotr Pletnyov",
+            "Nikolay A. Nekrasov",
+            "Nikolay Nekrasov",
+            "Nikolai Alekseyevich Nekrasov",
+            "Aleksandr Sergeyevich Pushkin",
+            "Ivan Panaev",
+            "Aleksandr Pushkin",
+            "Aleksandr Serge'evich Pushkin",
+            "Ivan Ivanovich Panaev",
+            "Alexander Pushkin",
+            "Pyotr Alexandrovich Pletnyov"
+        ],
+        "pageviews": "464"
+    },
+    {
+        "query_id": "123_276",
+        "question": "Under which label was FIFA 12 published?",
+        "answers": [
+            "EASN",
+            "EA Sports Network",
+            "EA Sports"
+        ],
+        "pageviews": "4593"
+    },
+    {
+        "query_id": "123_277",
+        "question": "What is the publisher of Top Pop Catalog Albums?",
+        "answers": [
+            "Billboard",
+            "\"Billboard\" Magazine",
+            "The Billboard"
+        ],
+        "pageviews": "700"
+    },
+    {
+        "query_id": "123_278",
+        "question": "What organization is responsible for publishing books featuring Robin?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "4682"
+    },
+    {
+        "query_id": "123_279",
+        "question": "Who publishes the Sunday Times Rich List?",
+        "answers": [
+            "The Sunday Times",
+            "Sunday Times"
+        ],
+        "pageviews": "13209"
+    },
+    {
+        "query_id": "123_280",
+        "question": "What organization or person is responsible for publishing Scrabble?",
+        "answers": [
+            "Hassenfeld Brothers",
+            "Hassenfeld Brothers and Hasbro Bradley",
+            "Mattel",
+            "Hasbro",
+            "Hasbro Bradley",
+            "Hasbro Inc.",
+            "Mattel, Inc.",
+            "Hasbro, Inc."
+        ],
+        "pageviews": "22328"
+    },
+    {
+        "query_id": "123_281",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software for Ghost Rider?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "45778"
+    },
+    {
+        "query_id": "123_282",
+        "question": "What is the publisher of Soulcalibur?",
+        "answers": [
+            "Namco Limited",
+            "Namco",
+            "Namcot"
+        ],
+        "pageviews": "13634"
+    },
+    {
+        "query_id": "123_283",
+        "question": "What organization is responsible for publishing the \"Call of Duty\" series?",
+        "answers": [
+            "Activision Publishing",
+            "Activision",
+            "Activision Publishing, Inc.",
+            "Activision Inc."
+        ],
+        "pageviews": "232194"
+    },
+    {
+        "query_id": "123_284",
+        "question": "What is the publisher of Tinkle?",
+        "answers": [
+            "Amar Chitra Katha Private Limited",
+            "Amar Chitra Katha Pvt. Ltd.",
+            "ACK Media",
+            "Amar Chitra Katha Pvt Ltd",
+            "Amar Chitra Katha Pvt Ltd.",
+            "Amar Chitra Katha"
+        ],
+        "pageviews": "5365"
+    },
+    {
+        "query_id": "123_285",
+        "question": "What organization was responsible for publishing \"Monthly Sh\u014dnen Jump\"?",
+        "answers": [
+            "Shueisha",
+            "Sh\u016beisha"
+        ],
+        "pageviews": "1657"
+    },
+    {
+        "query_id": "123_286",
+        "question": "What organization or person was responsible for publishing Wolfenstein 3D?",
+        "answers": [
+            "Interplay Entertainment Corporation",
+            "Id Software Inc.",
+            "Apogee Software",
+            "id",
+            "Bethesda Softworks",
+            "Atari",
+            "Valve Corp.",
+            "Interplay",
+            "MacPlay",
+            "3D Realms Entertainment",
+            "Bay Area Multimedia",
+            "Interplay Productions",
+            "MP Digital, LLC",
+            "Valve",
+            "Bethesda Video Games",
+            "3D Realms",
+            "Bethesda",
+            "Interplay Entertainment",
+            "Activision",
+            "Activision Publishing, Inc.",
+            "Valve, L.L.C.",
+            "id Software",
+            "Manaccom",
+            "BAM! Entertainment",
+            "Activision Inc.",
+            "Activision Publishing",
+            "Bethesda Softworks, LLC",
+            "VALVe",
+            "Imagineer",
+            "Valve Software",
+            "Valve Corporation",
+            "Interplay Entertainment Corp."
+        ],
+        "pageviews": "19744"
+    },
+    {
+        "query_id": "123_287",
+        "question": "What organization or person is responsible for publishing the Roman Missal?",
+        "answers": [
+            "Roman Apostolic Catholic Church",
+            "Catholic Church",
+            "Roman Catholic Church",
+            "Church"
+        ],
+        "pageviews": "4317"
+    },
+    {
+        "query_id": "123_288",
+        "question": "What organization is responsible for publishing the American Mathematical Monthly?",
+        "answers": [
+            "Taylor & Francis, Ltd",
+            "Taylor & Francis",
+            "Mathematical Association of America",
+            "Taylor & Francis Group",
+            "MAA"
+        ],
+        "pageviews": "1108"
+    },
+    {
+        "query_id": "123_289",
+        "question": "What organization or person was responsible for publishing the Dungeons & Dragons Basic Set?",
+        "answers": [
+            "TSR Hobbies",
+            "TSR Inc",
+            "TSR Inc.",
+            "Tactical Studies Rules",
+            "TSR"
+        ],
+        "pageviews": "5988"
+    },
+    {
+        "query_id": "123_290",
+        "question": "What publisher is associated with the manga adaptations serialized in Young Animal?",
+        "answers": [
+            "Hakusensha"
+        ],
+        "pageviews": "160"
+    },
+    {
+        "query_id": "123_291",
+        "question": "What organization or person is responsible for publishing the New Warriors?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "11235"
+    },
+    {
+        "query_id": "123_292",
+        "question": "What is the publisher of Cross-linguistic Linked Data?",
+        "answers": [
+            "Max Planck Institute for the Science of Human History",
+            "Max Planck Institute of Economics"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "123_293",
+        "question": "Who is the publisher of the fantasy role-playing game \"Ars Magica\" released under license by Atlas Games in 1987?",
+        "answers": [
+            "Lion Rampant"
+        ],
+        "pageviews": "2965"
+    },
+    {
+        "query_id": "123_294",
+        "question": "What is the publisher of Warhammer?",
+        "answers": [
+            "Games Workshop Group plc",
+            "Games Workshop"
+        ],
+        "pageviews": "2859"
+    },
+    {
+        "query_id": "123_295",
+        "question": "What publisher is responsible for publishing books, periodicals, printed music, podcasts, games or software for Superman?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "146738"
+    },
+    {
+        "query_id": "123_296",
+        "question": "What organization is responsible for publishing LaLa?",
+        "answers": [
+            "Hakusensha"
+        ],
+        "pageviews": "1297"
+    },
+    {
+        "query_id": "123_297",
+        "question": "What organization or person was responsible for publishing Puyo Puyo?",
+        "answers": [
+            "Compile"
+        ],
+        "pageviews": "6666"
+    },
+    {
+        "query_id": "123_298",
+        "question": "What organization is responsible for publishing Max Payne 3?",
+        "answers": [
+            "Rockstar NYC",
+            "Rockstar Games",
+            "Rockstar"
+        ],
+        "pageviews": "24994"
+    },
+    {
+        "query_id": "123_299",
+        "question": "What is the publisher of Seal Online?",
+        "answers": [
+            "YNK Interactive"
+        ],
+        "pageviews": "724"
+    },
+    {
+        "query_id": "123_300",
+        "question": "What organization or person is responsible for publishing \"Birds of Prey\"?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "189"
+    },
+    {
+        "query_id": "123_301",
+        "question": "What organization or person was responsible for publishing the Billboard Year-End Hot 100 singles of 1961?",
+        "answers": [
+            "Billboard",
+            "The Billboard",
+            "\"Billboard\""
+        ],
+        "pageviews": "6709"
+    },
+    {
+        "query_id": "123_302",
+        "question": "What is the publisher of \"The Best of L. Sprague de Camp\"?",
+        "answers": [
+            "The Doubleday Publishing Group",
+            "Doubleday & McClure",
+            "Doubleday",
+            "Doubleday, Page & Company"
+        ],
+        "pageviews": "155"
+    },
+    {
+        "query_id": "123_303",
+        "question": "What organization or person was responsible for publishing the \"Big Comic Original\" series?",
+        "answers": [
+            "Sh\u014dgakukan",
+            "Shogakukan"
+        ],
+        "pageviews": "983"
+    },
+    {
+        "query_id": "123_304",
+        "question": "What organization or person is responsible for publishing Mario Kart?",
+        "answers": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Playing Card Co.",
+            "Nintend\u014d Kabushiki gaisha",
+            "Nintendo Co.",
+            "Nintendo",
+            "Big N",
+            "Nintendo Koppai"
+        ],
+        "pageviews": "25533"
+    },
+    {
+        "query_id": "123_305",
+        "question": "What organization or person was responsible for publishing the 1981 role-playing game adventure \"Legion of Gold\" for Gamma World?",
+        "answers": [
+            "TSR Hobbies",
+            "TSR Inc",
+            "TSR Inc.",
+            "Tactical Studies Rules",
+            "TSR"
+        ],
+        "pageviews": "2854"
+    },
+    {
+        "query_id": "123_306",
+        "question": "What organization or person is responsible for publishing Yakuza?",
+        "answers": [
+            "SEGA",
+            "Service Games",
+            "Sega Corporation",
+            "Sega Games Co., Ltd",
+            "Sega Games",
+            "Sega Enterprises Ltd.",
+            "SEGA Games Co., Ltd.",
+            "SEGA Enterprises Ltd.",
+            "SEGA Games",
+            "Sega"
+        ],
+        "pageviews": "115458"
+    },
+    {
+        "query_id": "123_307",
+        "question": "What organization or person is responsible for publishing Talislanta?",
+        "answers": [
+            "Bard Games"
+        ],
+        "pageviews": "619"
+    },
+    {
+        "query_id": "123_308",
+        "question": "Who is the publisher of Vorw\u00e4rts?",
+        "answers": [
+            "Social Democratic Party of Germany",
+            "Sozialdemokratische Partei Deutschlands",
+            "SPD"
+        ],
+        "pageviews": "1236"
+    },
+    {
+        "query_id": "123_309",
+        "question": "What organization is responsible for publishing Grand Theft Auto?",
+        "answers": [
+            "Rockstar NYC",
+            "Rockstar Games",
+            "Capcom Co., Ltd.",
+            "CAPCOM",
+            "Capcom",
+            "Capcom Entertainment Inc",
+            "Rockstar"
+        ],
+        "pageviews": "225587"
+    },
+    {
+        "query_id": "123_310",
+        "question": "What organization or person is responsible for publishing the \"Guardians of the Galaxy\" comic book series?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "14790"
+    },
+    {
+        "query_id": "123_311",
+        "question": "What organization published The Conan Chronicles, 2?",
+        "answers": [
+            "Victor Gollancz",
+            "Gollancz",
+            "Victor Gollancz Ltd"
+        ],
+        "pageviews": "203"
+    },
+    {
+        "query_id": "123_312",
+        "question": "What organization or person was responsible for publishing the Billboard Year-End Hot 100 singles of 1963?",
+        "answers": [
+            "Billboard",
+            "The Billboard",
+            "\"Billboard\""
+        ],
+        "pageviews": "6547"
+    },
+    {
+        "query_id": "123_313",
+        "question": "What organization or person was responsible for publishing \"Alpha Flight\"?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "9102"
+    },
+    {
+        "query_id": "123_314",
+        "question": "What organization was responsible for publishing Grand Jump?",
+        "answers": [
+            "Shueisha",
+            "Sh\u016beisha"
+        ],
+        "pageviews": "838"
+    },
+    {
+        "query_id": "123_315",
+        "question": "What organization or person was responsible for publishing Crisis on Infinite Earths?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "16925"
+    },
+    {
+        "query_id": "123_316",
+        "question": "What is the organization or person responsible for publishing books, periodicals, printed music, podcasts, games or software on the Japan Hot 100?",
+        "answers": [
+            "Billboard Japan",
+            "Billboard JAPAN"
+        ],
+        "pageviews": "1502"
+    },
+    {
+        "query_id": "123_317",
+        "question": "What organization is responsible for publishing the Pirates Constructible Strategy Game?",
+        "answers": [
+            "WizKids"
+        ],
+        "pageviews": "1346"
+    },
+    {
+        "query_id": "123_318",
+        "question": "What organization or person was responsible for publishing \"Adventure Comics\"?",
+        "answers": [
+            "National Periodical Publications, Inc.",
+            "National Allied Newspaper Syndicate, Inc.",
+            "National Publications",
+            "DC Comics",
+            "Detective Comics, Inc.",
+            "National Allied Publications, Inc.",
+            "National Comics Publications, Inc.",
+            "DC",
+            "DC Comics, Inc."
+        ],
+        "pageviews": "2113"
+    },
+    {
+        "query_id": "123_319",
+        "question": "What organization or person is responsible for publishing the IPCC Third Assessment Report?",
+        "answers": [
+            "IPCC",
+            "Intergovernmental Panel on Climate Change"
+        ],
+        "pageviews": "2017"
+    },
+    {
+        "query_id": "123_320",
+        "question": "What organization or person was responsible for publishing The Doctor Who Role Playing Game?",
+        "answers": [
+            "FASA",
+            "FASA Corporation"
+        ],
+        "pageviews": "290"
+    },
+    {
+        "query_id": "123_321",
+        "question": "What is the publisher of MusicBrainz?",
+        "answers": [
+            "MetaBrainz",
+            "MetaBrainz Foundation Inc.",
+            "MetaBrainz Foundation"
+        ],
+        "pageviews": "4424"
+    },
+    {
+        "query_id": "123_322",
+        "question": "Who is the founder of ArtScroll and responsible for publishing books, periodicals, printed music, podcasts, games or software?",
+        "answers": [
+            "Meir Zlotowitz",
+            "Nosson Scherman"
+        ],
+        "pageviews": "1095"
+    },
+    {
+        "query_id": "123_323",
+        "question": "What organization or person is responsible for publishing Dark Horse Presents?",
+        "answers": [
+            "Dark Horse Comics"
+        ],
+        "pageviews": "1076"
+    },
+    {
+        "query_id": "123_324",
+        "question": "What organization is responsible for publishing EverQuest?",
+        "answers": [
+            "Sony Online Entertainment",
+            "Verant Interactive",
+            "Daybreak",
+            "SOE",
+            "Daybreak Game Company",
+            "Daybreak Games",
+            "Daybreak Game Company LLC"
+        ],
+        "pageviews": "13629"
+    },
+    {
+        "query_id": "123_325",
+        "question": "What organization or person was responsible for publishing \"Conan of Aquilonia\"?",
+        "answers": [
+            "Ace Books"
+        ],
+        "pageviews": "297"
+    },
+    {
+        "query_id": "123_326",
+        "question": "Which organization or person is responsible for publishing Fables?",
+        "answers": [
+            "DC Vertigo",
+            "Vertigo Comics",
+            "Vertigo"
+        ],
+        "pageviews": "656"
+    },
+    {
+        "query_id": "123_327",
+        "question": "What is the publisher of Monthly Comic Blade?",
+        "answers": [
+            "MAG Garden Corporation",
+            "Mag Garden",
+            "MAG Garden"
+        ],
+        "pageviews": "386"
+    },
+    {
+        "query_id": "123_328",
+        "question": "What organization or person was responsible for publishing \"The Conan Chronicles\"?",
+        "answers": [
+            "Sphere Books"
+        ],
+        "pageviews": "280"
+    },
+    {
+        "query_id": "123_329",
+        "question": "What organization is responsible for publishing Bloomberg Businessweek?",
+        "answers": [
+            "Bloomberg L.P.",
+            "Bloomberg"
+        ],
+        "pageviews": "6479"
+    },
+    {
+        "query_id": "123_330",
+        "question": "What is the publisher of \"A Gun for Dinosaur and Other Imaginative Tales\"?",
+        "answers": [
+            "The Doubleday Publishing Group",
+            "Doubleday & McClure",
+            "Doubleday",
+            "Doubleday, Page & Company"
+        ],
+        "pageviews": "84"
+    },
+    {
+        "query_id": "123_331",
+        "question": "What organization published Time Commando?",
+        "answers": [
+            "Acclaim Entertainment",
+            "Activision Inc.",
+            "Electronic Arts",
+            "Activision Publishing",
+            "Electronic Arts Inc.",
+            "Electronic Arts, Inc.",
+            "Activision",
+            "Virgin Interactive Entertainment",
+            "Activision Publishing, Inc.",
+            "Virgin Mastertronic International",
+            "EA",
+            "Virgin Games",
+            "Virgin Interactive",
+            "EA Games"
+        ],
+        "pageviews": "1241"
+    },
+    {
+        "query_id": "123_332",
+        "question": "What organization or person is responsible for publishing Guitar Praise?",
+        "answers": [
+            "Digital Praise"
+        ],
+        "pageviews": "330"
+    },
+    {
+        "query_id": "123_333",
+        "question": "What organization published Groo the Wanderer?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "Dark Horse Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Eclipse Comics",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Image Comics",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Pacific Comics",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "3498"
+    },
+    {
+        "query_id": "123_334",
+        "question": "What organization is responsible for publishing The Wolf Among Us?",
+        "answers": [
+            "Telltale",
+            "Telltale Games",
+            "Telltale Incorporated"
+        ],
+        "pageviews": "15787"
+    },
+    {
+        "query_id": "123_335",
+        "question": "What is the publisher of the Runaways?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "302"
+    },
+    {
+        "query_id": "123_336",
+        "question": "Who is responsible for publishing Mad magazine?",
+        "answers": [
+            "Entertaining Comics",
+            "DC Comics",
+            "Educational Comics",
+            "EC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "2537"
+    },
+    {
+        "query_id": "123_337",
+        "question": "What organization is responsible for publishing the Faculty Dental Journal?",
+        "answers": [
+            "The Royal College of Surgeons",
+            "Royal College of Surgeons of England",
+            "RCS",
+            "Royal College of Surgeons",
+            "The Royal College of Surgeons of England"
+        ],
+        "pageviews": "36"
+    },
+    {
+        "query_id": "123_338",
+        "question": "What organization or person is responsible for publishing Final Crisis?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "7120"
+    },
+    {
+        "query_id": "123_339",
+        "question": "What organization or person is responsible for publishing the \"Virtua Fighter\" series of arcade fighting games?",
+        "answers": [
+            "SEGA",
+            "Service Games",
+            "Sega Corporation",
+            "Sega Games Co., Ltd",
+            "Sega Games",
+            "Sega Enterprises Ltd.",
+            "SEGA Games Co., Ltd.",
+            "SEGA Enterprises Ltd.",
+            "SEGA Games",
+            "Sega"
+        ],
+        "pageviews": "7030"
+    },
+    {
+        "query_id": "123_340",
+        "question": "What organization is responsible for publishing the American Journal of Medical Genetics?",
+        "answers": [
+            "Wiley",
+            "John Wiley and Sons",
+            "wiley.com",
+            "Wiley-Liss",
+            "John Wiley & Sons",
+            "John Wiley & Sons, Inc."
+        ],
+        "pageviews": "243"
+    },
+    {
+        "query_id": "123_341",
+        "question": "What organization or person published The Tritonian Ring and Other Pusadian Tales?",
+        "answers": [
+            "Gale Research",
+            "Twayne Publishers",
+            "Gale",
+            "Gale Research Company",
+            "Gale Group",
+            "St. James Press",
+            "Thomson Gale"
+        ],
+        "pageviews": "87"
+    },
+    {
+        "query_id": "123_342",
+        "question": "What organization is responsible for publishing \"Boys' Life\"?",
+        "answers": [
+            "BSA",
+            "Boy Scouts of America"
+        ],
+        "pageviews": "1096"
+    },
+    {
+        "query_id": "123_343",
+        "question": "What organization or person is responsible for publishing Grand Theft Auto IV?",
+        "answers": [
+            "Rockstar NYC",
+            "Rockstar Games",
+            "Rockstar"
+        ],
+        "pageviews": "84501"
+    },
+    {
+        "query_id": "123_344",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software related to Language?",
+        "answers": [
+            "Linguistic Society of America",
+            "linguisticsociety.org",
+            "LSA"
+        ],
+        "pageviews": "198402"
+    },
+    {
+        "query_id": "123_345",
+        "question": "Who was responsible for publishing the Chalcedonian Definition?",
+        "answers": [
+            "Council of Chalcedon"
+        ],
+        "pageviews": "4423"
+    },
+    {
+        "query_id": "123_346",
+        "question": "What organization or person was responsible for publishing FIFA 07?",
+        "answers": [
+            "EASN",
+            "EA Sports Network",
+            "EA Sports"
+        ],
+        "pageviews": "2962"
+    },
+    {
+        "query_id": "123_347",
+        "question": "What organization or person was responsible for publishing \"King Conan\"?",
+        "answers": [
+            "Gnome Press"
+        ],
+        "pageviews": "629"
+    },
+    {
+        "query_id": "123_348",
+        "question": "What organization or person was responsible for publishing FIFA 08?",
+        "answers": [
+            "EASN",
+            "EA Sports Network",
+            "EA Sports"
+        ],
+        "pageviews": "2775"
+    },
+    {
+        "query_id": "123_349",
+        "question": "What organization is responsible for publishing The Spectacular Spider-Man?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "4654"
+    },
+    {
+        "query_id": "123_350",
+        "question": "What organization or person is responsible for publishing GURPS Space?",
+        "answers": [
+            "Steve Jackson Games"
+        ],
+        "pageviews": "288"
+    },
+    {
+        "query_id": "123_351",
+        "question": "Who was the publisher of Hot Slots?",
+        "answers": [
+            "Hacker International"
+        ],
+        "pageviews": "618"
+    },
+    {
+        "query_id": "123_352",
+        "question": "What organization or person published the 1985 fantasy tabletop role-playing game supplement for \"Pendragon\" called Noble's Book?",
+        "answers": [
+            "Chaosium",
+            "Chaosium Inc.",
+            "The Chaosium"
+        ],
+        "pageviews": "5585"
+    },
+    {
+        "query_id": "123_353",
+        "question": "What organization or person is responsible for publishing The Elder Scrolls?",
+        "answers": [
+            "Bethesda Video Games",
+            "Bethesda Softworks, LLC",
+            "Bethesda",
+            "Bethesda Softworks",
+            "2K Games",
+            "2K"
+        ],
+        "pageviews": "47259"
+    },
+    {
+        "query_id": "123_354",
+        "question": "What publisher is responsible for publishing Sho-Comi?",
+        "answers": [
+            "Sh\u014dgakukan",
+            "Shogakukan"
+        ],
+        "pageviews": "403"
+    },
+    {
+        "query_id": "123_355",
+        "question": "What organization or person was responsible for publishing \"Conan of Cimmeria\"?",
+        "answers": [
+            "Lancer Books"
+        ],
+        "pageviews": "439"
+    },
+    {
+        "query_id": "123_356",
+        "question": "Which organization, responsible for publishing books, periodicals, printed music, podcasts, games or software, was responsible for publishing Bubble Bath Babes?",
+        "answers": [
+            "Hacker International",
+            "Panesian"
+        ],
+        "pageviews": "948"
+    },
+    {
+        "query_id": "123_357",
+        "question": "What organization or person was responsible for publishing Xenogears?",
+        "answers": [
+            "Square Co., Ltd.",
+            "Squaresoft",
+            "Square Company, Limited",
+            "Square"
+        ],
+        "pageviews": "15203"
+    },
+    {
+        "query_id": "123_358",
+        "question": "What organization or person was responsible for publishing the Billboard Year-End Hot 100 singles of 1960?",
+        "answers": [
+            "Billboard",
+            "The Billboard",
+            "\"Billboard\""
+        ],
+        "pageviews": "8473"
+    },
+    {
+        "query_id": "123_359",
+        "question": "What organization or person is responsible for publishing NBA Live?",
+        "answers": [
+            "Electronic Arts",
+            "Electronic Arts Inc.",
+            "Electronic Arts, Inc.",
+            "EA",
+            "EA Games"
+        ],
+        "pageviews": "9521"
+    },
+    {
+        "query_id": "123_360",
+        "question": "What organization was responsible for publishing books in Ribon magazine?",
+        "answers": [
+            "Shueisha",
+            "Sh\u016beisha"
+        ],
+        "pageviews": "2101"
+    },
+    {
+        "query_id": "123_361",
+        "question": "What is the organization responsible for publishing \"The New York Times\" newspaper?",
+        "answers": [
+            "A. G. Sulzberger",
+            "The New York Times Company",
+            "New York Times Company",
+            "Arthur Gregg Sulzberger"
+        ],
+        "pageviews": "575026"
+    },
+    {
+        "query_id": "123_362",
+        "question": "Who is the publisher of the role-playing game adventure \"Village of Twilight\" for Chill?",
+        "answers": [
+            "Pacesetter Ltd",
+            "Pacesetter"
+        ],
+        "pageviews": "928"
+    },
+    {
+        "query_id": "123_363",
+        "question": "What is the name of the parent company responsible for publishing \"Spirou\" magazine?",
+        "answers": [
+            "Dupuis editions",
+            "Dupuis",
+            "Dupuis Publishing S.A."
+        ],
+        "pageviews": "154"
+    },
+    {
+        "query_id": "123_364",
+        "question": "What organization was responsible for publishing \"The Dandy\"?",
+        "answers": [
+            "D. C. Thomson & Co.",
+            "DC Thomson"
+        ],
+        "pageviews": "4257"
+    },
+    {
+        "query_id": "123_365",
+        "question": "Who is the publisher of the Forgotten Realms?",
+        "answers": [
+            "TSR Hobbies",
+            "TSR Inc",
+            "TSR Inc.",
+            "Wizards of the Coast, Inc.",
+            "Wizards of the Coast",
+            "Tactical Studies Rules",
+            "Wizards of the Coast LLC",
+            "TSR",
+            "WotC"
+        ],
+        "pageviews": "19046"
+    },
+    {
+        "query_id": "123_366",
+        "question": "What organization or person was responsible for publishing \"Gen\u00b9\u00b3\"?",
+        "answers": [
+            "WildStorm",
+            "WildStorm Productions"
+        ],
+        "pageviews": "3776"
+    },
+    {
+        "query_id": "123_367",
+        "question": "What is the publisher of Guild Wars?",
+        "answers": [
+            "NCSoft",
+            "NCsoft"
+        ],
+        "pageviews": "9546"
+    },
+    {
+        "query_id": "123_368",
+        "question": "What organization or person is responsible for publishing Metal Gear?",
+        "answers": [
+            "Konami Holdings Corporation",
+            "Konica Enix",
+            "Konami"
+        ],
+        "pageviews": "61112"
+    },
+    {
+        "query_id": "123_369",
+        "question": "What organization or person is responsible for publishing the FIFA International Referees List?",
+        "answers": [
+            "Federaci\u00f3n Internacional de F\u00fatbol Asociado",
+            "Federacion Internacional de Futbol Asociados",
+            "Federaci\u00f3n Internacional de F\u00fatbol Asociaci\u00f3n",
+            "International Federation of Association Football",
+            "FIFA"
+        ],
+        "pageviews": "3403"
+    },
+    {
+        "query_id": "123_370",
+        "question": "What is the publisher of Code Switch?",
+        "answers": [
+            "National Public Radio",
+            "NPR"
+        ],
+        "pageviews": "1151"
+    },
+    {
+        "query_id": "123_371",
+        "question": "What organization was responsible for publishing Zzap!64?",
+        "answers": [
+            "Newsfield Publications Ltd",
+            "Newsfield Publications",
+            "Database Publications",
+            "Europress"
+        ],
+        "pageviews": "1230"
+    },
+    {
+        "query_id": "123_372",
+        "question": "What organization or person was responsible for publishing First Voyages?",
+        "answers": [
+            "Avon Publications",
+            "Avon Books",
+            "Avon",
+            "Avon Book Co."
+        ],
+        "pageviews": "50"
+    },
+    {
+        "query_id": "123_373",
+        "question": "What organization was responsible for publishing the game franchise \"Tales\"?",
+        "answers": [
+            "Namco Limited",
+            "Namco",
+            "Namcot"
+        ],
+        "pageviews": "554"
+    },
+    {
+        "query_id": "123_374",
+        "question": "What organization or person was responsible for publishing the Journal of Food Science?",
+        "answers": [
+            "IFT",
+            "Institute of Food Technologists"
+        ],
+        "pageviews": "363"
+    },
+    {
+        "query_id": "123_375",
+        "question": "What organization or person is responsible for publishing Lode Runner?",
+        "answers": [
+            "Br\u00f8derbund",
+            "Broderbund Software",
+            "Broderbund"
+        ],
+        "pageviews": "6091"
+    },
+    {
+        "query_id": "123_376",
+        "question": "What is the publisher of H\u00e2rn?",
+        "answers": [
+            "Columbia Games"
+        ],
+        "pageviews": "780"
+    },
+    {
+        "query_id": "123_377",
+        "question": "What is the publisher of Weekly Sh\u014dnen Sunday?",
+        "answers": [
+            "Sh\u014dgakukan",
+            "Shogakukan"
+        ],
+        "pageviews": "8121"
+    },
+    {
+        "query_id": "123_378",
+        "question": "What is the publisher of the Generic Universal Role Playing System?",
+        "answers": [
+            "Steve Jackson Games"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "123_379",
+        "question": "What organization or person is responsible for publishing Hot Rap Songs?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "4127"
+    },
+    {
+        "query_id": "123_380",
+        "question": "What is the publisher of S.H.I.E.L.D.?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "24409"
+    },
+    {
+        "query_id": "123_381",
+        "question": "What organization is responsible for publishing books like \"Justice League of America\", \"Batman\", and \"Trinity\"?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "52086"
+    },
+    {
+        "query_id": "123_382",
+        "question": "What organization is responsible for publishing Pok\u00e9mon?",
+        "answers": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Playing Card Co.",
+            "Nintend\u014d Kabushiki gaisha",
+            "Nintendo Co.",
+            "Nintendo",
+            "Big N",
+            "Nintendo Koppai"
+        ],
+        "pageviews": "121623"
+    },
+    {
+        "query_id": "123_383",
+        "question": "What is the publisher of Call of Cthulhu?",
+        "answers": [
+            "Chaosium",
+            "Chaosium Inc.",
+            "The Chaosium"
+        ],
+        "pageviews": "1905"
+    },
+    {
+        "query_id": "123_384",
+        "question": "What organization was responsible for publishing in Weekly Sh\u014dnen Magazine?",
+        "answers": [
+            "K\u014ddansha",
+            "Kodansha",
+            "Kodansha Ltd."
+        ],
+        "pageviews": "15045"
+    },
+    {
+        "query_id": "123_385",
+        "question": "What organization or person is responsible for publishing Dungeons & Dragons?",
+        "answers": [
+            "TSR Hobbies",
+            "TSR Inc",
+            "TSR Inc.",
+            "Wizards of the Coast, Inc.",
+            "Wizards of the Coast",
+            "Tactical Studies Rules",
+            "Wizards of the Coast LLC",
+            "TSR",
+            "WotC"
+        ],
+        "pageviews": "91744"
+    },
+    {
+        "query_id": "123_386",
+        "question": "What organization or person is responsible for publishing Latin Pop Airplay?",
+        "answers": [
+            "\"Billboard\" magazine",
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "1029"
+    },
+    {
+        "query_id": "123_387",
+        "question": "What organization is responsible for publishing the Adult Top 40 chart?",
+        "answers": [
+            "\"Billboard\" magazine",
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "3307"
+    },
+    {
+        "query_id": "123_388",
+        "question": "What organization or person is responsible for publishing the Mainstream Top 40 chart?",
+        "answers": [
+            "Billboard",
+            "\"Billboard\" Magazine",
+            "The Billboard"
+        ],
+        "pageviews": "7848"
+    },
+    {
+        "query_id": "123_389",
+        "question": "What is the publisher of the Billboard Top Latin Albums?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "1258"
+    },
+    {
+        "query_id": "123_390",
+        "question": "What organization sponsored Sonic the Hedgehog?",
+        "answers": [
+            "SEGA",
+            "Service Games",
+            "Sega Corporation",
+            "Sega Games Co., Ltd",
+            "Sega Games",
+            "Sega Enterprises Ltd.",
+            "SEGA Games Co., Ltd.",
+            "SEGA Enterprises Ltd.",
+            "SEGA Games",
+            "Sega"
+        ],
+        "pageviews": "63962"
+    },
+    {
+        "query_id": "123_391",
+        "question": "What organization is responsible for publishing The Fantastic Four?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "831"
+    },
+    {
+        "query_id": "123_392",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software on Dance/Mix Show Airplay?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "123_393",
+        "question": "What organization or person was responsible for publishing the Marvel Super Heroes Advanced Set role-playing game supplement in 1986?",
+        "answers": [
+            "TSR Hobbies",
+            "TSR Inc",
+            "TSR Inc.",
+            "Tactical Studies Rules",
+            "TSR"
+        ],
+        "pageviews": "233"
+    },
+    {
+        "query_id": "123_394",
+        "question": "What organization or person is responsible for publishing the Corruption Perceptions Index?",
+        "answers": [
+            "TI",
+            "Transparency International"
+        ],
+        "pageviews": "121863"
+    },
+    {
+        "query_id": "123_395",
+        "question": "What organization or person was responsible for publishing Captain Marvel?",
+        "answers": [
+            "Fawcett Comics"
+        ],
+        "pageviews": "2205"
+    },
+    {
+        "query_id": "123_396",
+        "question": "What organization or person is responsible for publishing the Teen Titans?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "46813"
+    },
+    {
+        "query_id": "123_397",
+        "question": "Who is the publisher of the list of the richest people in the world, according to The World's Billionaires?",
+        "answers": [
+            "Forbes magazine",
+            "forbes.com",
+            "Forbes"
+        ],
+        "pageviews": "250148"
+    },
+    {
+        "query_id": "123_398",
+        "question": "What organization is the publisher of Shadowrun?",
+        "answers": [
+            "FASA",
+            "Catalyst Game Labs",
+            "FASA Corporation",
+            "FanPro LLC"
+        ],
+        "pageviews": "15938"
+    },
+    {
+        "query_id": "123_399",
+        "question": "What organization is responsible for publishing Mass Effect?",
+        "answers": [
+            "BioWare Edmonton",
+            "Microsoft Studios",
+            "Microsoft Game Studios",
+            "Electronic Arts",
+            "Bio Ware",
+            "Electronic Arts Inc.",
+            "Electronic Arts, Inc.",
+            "BioWare",
+            "BioWare Corp",
+            "EA",
+            "BioWare Austin",
+            "Xbox Game Studios",
+            "EA Games"
+        ],
+        "pageviews": "39862"
+    },
+    {
+        "query_id": "123_400",
+        "question": "What organization or person responsible for publishing books, periodicals, printed music, podcasts, games or software is the FBI Ten Most Wanted Fugitives associated with?",
+        "answers": [
+            "FBI",
+            "F.B.I.",
+            "Federal Bureau of Investigation"
+        ],
+        "pageviews": "69484"
+    },
+    {
+        "query_id": "123_401",
+        "question": "What organization is the publisher of Weekly Young Jump?",
+        "answers": [
+            "Shueisha",
+            "Sh\u016beisha"
+        ],
+        "pageviews": "9056"
+    },
+    {
+        "query_id": "123_402",
+        "question": "What organization or person is responsible for publishing the APRA Top 30 Australian songs?",
+        "answers": [
+            "APRA",
+            "Australasian Performing Right Association"
+        ],
+        "pageviews": "3757"
+    },
+    {
+        "query_id": "123_403",
+        "question": "What organization or person is responsible for publishing Latin Pop Albums?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "548"
+    },
+    {
+        "query_id": "123_404",
+        "question": "What organization or person was responsible for publishing Middle-Earth Role Playing?",
+        "answers": [
+            "Iron Crown Enterprises"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "123_405",
+        "question": "What is the publisher of the World of Darkness?",
+        "answers": [
+            "White Wolf Game Studio",
+            "White Wolf Publishing"
+        ],
+        "pageviews": "15178"
+    },
+    {
+        "query_id": "123_406",
+        "question": "What organization or person is responsible for publishing \"The Amazing Spider-Man\"?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "30920"
+    },
+    {
+        "query_id": "123_407",
+        "question": "Who was the publisher of Tunnels & Trolls?",
+        "answers": [
+            "Flying Buffalo",
+            "Flying Buffalo Incorporated"
+        ],
+        "pageviews": "1678"
+    },
+    {
+        "query_id": "123_408",
+        "question": "Who was the publisher of Watchmen?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "56091"
+    },
+    {
+        "query_id": "123_409",
+        "question": "What organization or person is responsible for publishing Big Comic Spirits?",
+        "answers": [
+            "Sh\u014dgakukan",
+            "Shogakukan"
+        ],
+        "pageviews": "2162"
+    },
+    {
+        "query_id": "123_410",
+        "question": "What organization is responsible for publishing Sight & Sound?",
+        "answers": [
+            "British Film Institute",
+            "BFI"
+        ],
+        "pageviews": "11687"
+    },
+    {
+        "query_id": "123_411",
+        "question": "What organization or person was responsible for publishing \"A Thief in the Night\"?",
+        "answers": [
+            "Charles Scribner\u2019s Sons",
+            "Charles Scribner's Sons",
+            "Chatto and Windus",
+            "C. Scribner's Sons",
+            "Scribner's",
+            "Charles Scribner and Sons",
+            "Scribner",
+            "Baker & Scribner",
+            "Chatto & Windus"
+        ],
+        "pageviews": "192"
+    },
+    {
+        "query_id": "123_412",
+        "question": "What organization or person is responsible for publishing the Mario franchise?",
+        "answers": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Playing Card Co.",
+            "Nintend\u014d Kabushiki gaisha",
+            "Nintendo Co.",
+            "Nintendo",
+            "Big N",
+            "Nintendo Koppai"
+        ],
+        "pageviews": "185"
+    },
+    {
+        "query_id": "123_413",
+        "question": "What publisher is responsible for publishing books featuring Wolverine and Deadpool?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "84490"
+    },
+    {
+        "query_id": "123_414",
+        "question": "What is the publisher of \"Comp Ace\"?",
+        "answers": [
+            "Kadokawa Shoten"
+        ],
+        "pageviews": "1029"
+    },
+    {
+        "query_id": "123_415",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software related to the Hulk?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "75498"
+    },
+    {
+        "query_id": "123_416",
+        "question": "What is the publisher of the Uncanny X-Men?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "12537"
+    },
+    {
+        "query_id": "123_417",
+        "question": "What organization or person is responsible for publishing Warhammer 40,000?",
+        "answers": [
+            "Games Workshop Group plc",
+            "Games Workshop"
+        ],
+        "pageviews": "58747"
+    },
+    {
+        "query_id": "123_418",
+        "question": "What organization or person was responsible for publishing Deadpool?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "Earth-616",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "82118"
+    },
+    {
+        "query_id": "123_419",
+        "question": "What organization republished the African Writers Series?",
+        "answers": [
+            "Heinemann"
+        ],
+        "pageviews": "576"
+    },
+    {
+        "query_id": "123_420",
+        "question": "What is the publisher of the Oricon Singles Chart?",
+        "answers": [
+            "Oricon Inc.",
+            "Oricon"
+        ],
+        "pageviews": "2869"
+    },
+    {
+        "query_id": "123_421",
+        "question": "What organization or person is responsible for publishing the Top Rap Albums?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "476"
+    },
+    {
+        "query_id": "123_422",
+        "question": "What organization or person is responsible for publishing Lecture Notes in Computer Science?",
+        "answers": [
+            "Springer SBM",
+            "Kluwer Academic Publishers",
+            "Verlag von Julius Springer",
+            "Springer Science+Business Media",
+            "Springer-Verlag Berlin Heidelberg",
+            "Springer"
+        ],
+        "pageviews": "1070"
+    },
+    {
+        "query_id": "123_423",
+        "question": "What organization or person was responsible for publishing the IPCC Fourth Assessment Report?",
+        "answers": [
+            "IPCC",
+            "Intergovernmental Panel on Climate Change"
+        ],
+        "pageviews": "1847"
+    },
+    {
+        "query_id": "123_424",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software on the World Digital Song Sales chart?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "3583"
+    },
+    {
+        "query_id": "123_425",
+        "question": "What organization or person is responsible for publishing the Avengers comic book series?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "3567"
+    },
+    {
+        "query_id": "123_426",
+        "question": "What organization or person is responsible for publishing \"The Legend of Zelda\" series of video games?",
+        "answers": [
+            "Nintendo Co., Ltd.",
+            "Nintendo Playing Card Co.",
+            "Nintend\u014d Kabushiki gaisha",
+            "Nintendo Co.",
+            "Nintendo",
+            "Big N",
+            "Nintendo Koppai"
+        ],
+        "pageviews": "127275"
+    },
+    {
+        "query_id": "123_427",
+        "question": "What organization or person is responsible for publishing \"Champions\"?",
+        "answers": [
+            "Hero Games"
+        ],
+        "pageviews": "560"
+    },
+    {
+        "query_id": "123_428",
+        "question": "What organization was responsible for publishing RuneQuest?",
+        "answers": [
+            "Chaosium",
+            "The Avalon Game Company",
+            "Avalon Game Company",
+            "Chaosium Inc.",
+            "The Chaosium",
+            "Avalon Hill"
+        ],
+        "pageviews": "3414"
+    },
+    {
+        "query_id": "123_429",
+        "question": "What organization is responsible for publishing Pac-Man Museum?",
+        "answers": [
+            "Namco Limited",
+            "Midway Games",
+            "Namco",
+            "Namcot"
+        ],
+        "pageviews": "53039"
+    },
+    {
+        "query_id": "123_430",
+        "question": "What organization or person is responsible for publishing the Canadian Hot 100?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "5322"
+    },
+    {
+        "query_id": "123_431",
+        "question": "What organization or person is responsible for publishing Marvel NOW!?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "3749"
+    },
+    {
+        "query_id": "123_432",
+        "question": "What is the publisher of Daredevil (Marvel Comics series)?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "5432"
+    },
+    {
+        "query_id": "123_433",
+        "question": "What organization or person is responsible for publishing the list of Most Wanted Nazi War Criminals according to the Simon Wiesenthal Center?",
+        "answers": [
+            "Simon Wiesenthal Center"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "123_434",
+        "question": "What organization was responsible for publishing Earthdawn?",
+        "answers": [
+            "FASA",
+            "FASA Corporation"
+        ],
+        "pageviews": "1703"
+    },
+    {
+        "query_id": "123_435",
+        "question": "What organization or person was responsible for publishing DC Heroes?",
+        "answers": [
+            "Mayfair Games"
+        ],
+        "pageviews": "862"
+    },
+    {
+        "query_id": "123_436",
+        "question": "What is the publisher of Action Comics?",
+        "answers": [
+            "DC Comics",
+            "Detective Comics, Inc.",
+            "DC",
+            "DC Comics, Inc."
+        ],
+        "pageviews": "7046"
+    },
+    {
+        "query_id": "123_437",
+        "question": "What organization or person published Traveller?",
+        "answers": [
+            "GDW",
+            "Game Designers' Workshop"
+        ],
+        "pageviews": "408"
+    },
+    {
+        "query_id": "123_438",
+        "question": "What organization is responsible for publishing Street Fighter?",
+        "answers": [
+            "Capcom",
+            "CAPCOM",
+            "Capcom Co., Ltd.",
+            "Capcom Entertainment Inc"
+        ],
+        "pageviews": "33209"
+    },
+    {
+        "query_id": "123_439",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software in Korea K-Pop Hot 100?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "527"
+    },
+    {
+        "query_id": "123_440",
+        "question": "What organization or person is responsible for publishing the Romance of the Three Kingdoms series?",
+        "answers": [
+            "Koei Co.",
+            "Koei",
+            "Koei Co., Ltd."
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "123_441",
+        "question": "What organization is responsible for publishing Dance Dance Revolution?",
+        "answers": [
+            "Konami Holdings Corporation",
+            "Konica Enix",
+            "Konami"
+        ],
+        "pageviews": "15886"
+    },
+    {
+        "query_id": "123_442",
+        "question": "What organization or person was responsible for publishing the Human Development Report?",
+        "answers": [
+            "PNUD",
+            "United Nations Development Programme",
+            "United Nations Development Program",
+            "U.N.D.P.",
+            "UNDP"
+        ],
+        "pageviews": "8146"
+    },
+    {
+        "query_id": "123_443",
+        "question": "What organization was responsible for publishing in the \"seinen\" manga magazine \"Monthly Afternoon\" from 1997 to 2003?",
+        "answers": [
+            "K\u014ddansha",
+            "Kodansha",
+            "Kodansha Ltd."
+        ],
+        "pageviews": "12883"
+    },
+    {
+        "query_id": "123_444",
+        "question": "Who was responsible for publishing books that were placed on the list of forbidden books, Index Librorum Prohibitorum, including \"Die vollkommene Ehe\"?",
+        "answers": [
+            "",
+            "Roman Apostolic Catholic Church",
+            "Catholic Church",
+            "Roman Catholic Church",
+            "Church"
+        ],
+        "pageviews": "21924"
+    },
+    {
+        "query_id": "123_445",
+        "question": "What publisher collected Betsucomi into nineteen volumes?",
+        "answers": [
+            "Sh\u014dgakukan",
+            "Shogakukan"
+        ],
+        "pageviews": "646"
+    },
+    {
+        "query_id": "123_446",
+        "question": "What organization was responsible for publishing the \"Emu\"?",
+        "answers": [
+            "Taylor & Francis, Ltd",
+            "Taylor & Francis",
+            "Birds Australia",
+            "Royal Australasian Ornithologists Union",
+            "Taylor & Francis Group",
+            "CSIRO Publishing",
+            "RAOU"
+        ],
+        "pageviews": "56572"
+    },
+    {
+        "query_id": "123_447",
+        "question": "What organization or person responsible for publishing books, periodicals, printed music, podcasts, games or software is the Internet Standard?",
+        "answers": [
+            "Internet Engineering Task Force",
+            "IETF"
+        ],
+        "pageviews": "4199"
+    },
+    {
+        "query_id": "123_448",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software for the Justice Society of America?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "39617"
+    },
+    {
+        "query_id": "123_449",
+        "question": "What organization published Jump Square?",
+        "answers": [
+            "Shueisha",
+            "Sh\u016beisha"
+        ],
+        "pageviews": "4686"
+    },
+    {
+        "query_id": "123_450",
+        "question": "What organization or person is responsible for publishing Hellblazer?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "14452"
+    },
+    {
+        "query_id": "123_451",
+        "question": "Who is the publisher of the Top Comedy Albums?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "349"
+    },
+    {
+        "query_id": "123_452",
+        "question": "What is the publisher of Morning?",
+        "answers": [
+            "K\u014ddansha",
+            "Kodansha",
+            "Kodansha Ltd."
+        ],
+        "pageviews": "11368"
+    },
+    {
+        "query_id": "123_453",
+        "question": "What organization published the manga series Kamichama Karin in the Japanese sh\u014djo manga magazine \"Nakayoshi\"?",
+        "answers": [
+            "Elexmedia Komputindo",
+            "Kodansha Ltd.",
+            "K\u014ddansha",
+            "Kodansha",
+            "Elex Media Komputindo",
+            "Elex Media"
+        ],
+        "pageviews": "2611"
+    },
+    {
+        "query_id": "123_454",
+        "question": "What organization is responsible for publishing the UK Singles Chart?",
+        "answers": [
+            "CIN",
+            "OOC",
+            "The Official UK Charts Company",
+            "OCC",
+            "Chart Information Network",
+            "Official Charts Company"
+        ],
+        "pageviews": "41319"
+    },
+    {
+        "query_id": "123_455",
+        "question": "What organization is the publisher of eFootball?",
+        "answers": [
+            "Konami Holdings Corporation",
+            "Konica Enix",
+            "Konami"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "123_456",
+        "question": "Who was the publisher of the New York World?",
+        "answers": [
+            "j. pulitzer",
+            "Pulitzer J\u00f3zsef",
+            "Joseph \"Joe\" Pulitzer",
+            "Joseph Pulitzer",
+            "Pulitzer Jozsef",
+            "Josef Pollitzer"
+        ],
+        "pageviews": "5809"
+    },
+    {
+        "query_id": "123_457",
+        "question": "What organization is responsible for publishing Diablo?",
+        "answers": [
+            "Silicon & Synapse",
+            "Blizzard",
+            "Blizzard Entertainment",
+            "Blizzard Entertainment, Inc."
+        ],
+        "pageviews": "2797"
+    },
+    {
+        "query_id": "123_458",
+        "question": "What organization or person was responsible for publishing the European Hot 100 Singles?",
+        "answers": [
+            "Music and Media",
+            "Music & Media",
+            "Eurotipsheet",
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "2589"
+    },
+    {
+        "query_id": "123_459",
+        "question": "What organization or person is responsible for publishing the Freedom in the World report?",
+        "answers": [
+            "Freedom House"
+        ],
+        "pageviews": "19380"
+    },
+    {
+        "query_id": "123_460",
+        "question": "What organization or person is responsible for publishing Rolemaster?",
+        "answers": [
+            "Iron Crown Enterprises"
+        ],
+        "pageviews": "1821"
+    },
+    {
+        "query_id": "123_461",
+        "question": "What is the publisher of the HERO System?",
+        "answers": [
+            "Hero Games"
+        ],
+        "pageviews": "10"
+    },
+    {
+        "query_id": "123_462",
+        "question": "What organization is known for publishing the \"Dragon Quest\" series of role-playing video games?",
+        "answers": [
+            "Square Enix Holdings",
+            "SE",
+            "Enix",
+            "Square-Enix",
+            "Square Enix Holdings Co., Ltd.",
+            "SQUARE ENIX CO., LTD.",
+            "Square Enix"
+        ],
+        "pageviews": "47439"
+    },
+    {
+        "query_id": "123_463",
+        "question": "What organization is responsible for publishing The Beano?",
+        "answers": [
+            "D. C. Thomson & Co.",
+            "DC Thomson"
+        ],
+        "pageviews": "10665"
+    },
+    {
+        "query_id": "123_464",
+        "question": "What organization or person is responsible for publishing the Country Airplay chart?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "2636"
+    },
+    {
+        "query_id": "123_465",
+        "question": "What organization or person responsible for publishing books, periodicals, printed music, podcasts, games or software is Superman associated with?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "146738"
+    },
+    {
+        "query_id": "123_466",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software in Weekly Sh\u014dnen Jump?",
+        "answers": [
+            "Shueisha",
+            "Sh\u016beisha"
+        ],
+        "pageviews": "49279"
+    },
+    {
+        "query_id": "123_467",
+        "question": "Which organization has worked with \"The Observer\" and is responsible for publishing books, periodicals, printed music, podcasts, games or software?",
+        "answers": [
+            "Guardian newspaper",
+            "The Manchester Guardian",
+            "The Guardian",
+            "Manchester Guardian"
+        ],
+        "pageviews": "14480"
+    },
+    {
+        "query_id": "123_468",
+        "question": "What organization or person is responsible for publishing the Bubbling Under Hot 100 Singles?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "3312"
+    },
+    {
+        "query_id": "123_469",
+        "question": "What organization or person is responsible for publishing the ongoing series \"Death Sentence\" with the artist Mike Dowling and writing The X-Men and Hulk?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "58190"
+    },
+    {
+        "query_id": "123_470",
+        "question": "What is the publisher of the ARIA Charts?",
+        "answers": [
+            "ARIA",
+            "Australian Recording Industry Association"
+        ],
+        "pageviews": "12246"
+    },
+    {
+        "query_id": "123_471",
+        "question": "What organization or person responsible for publishing books, periodicals, printed music, podcasts, games or software is Hot Rock & Alternative Songs associated with according to the context?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "3604"
+    },
+    {
+        "query_id": "123_472",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software on the Hot R&B/Hip-Hop Songs chart?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "123_473",
+        "question": "What organization or person is responsible for publishing Billboard 200?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "69642"
+    },
+    {
+        "query_id": "123_474",
+        "question": "What organization or person responsible for publishing books, periodicals, printed music, podcasts, games or software is Mainstream Rock associated with according to the context?",
+        "answers": [
+            "Billboard",
+            "The Billboard",
+            "\"Billboard\""
+        ],
+        "pageviews": "236"
+    },
+    {
+        "query_id": "123_475",
+        "question": "What is the publisher of the Top R&B/Hip-Hop Albums?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "123_476",
+        "question": "What organization is responsible for publishing books for Batman?",
+        "answers": [
+            "DC Comics",
+            "DC Comics, Inc.",
+            "DC"
+        ],
+        "pageviews": "193508"
+    },
+    {
+        "query_id": "123_477",
+        "question": "What organization or person is responsible for publishing the Top Country Albums?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "2265"
+    },
+    {
+        "query_id": "123_478",
+        "question": "What organization is the publisher of the Hot Latin Songs?",
+        "answers": [
+            "\"Billboard\" magazine",
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "3152"
+    },
+    {
+        "query_id": "123_479",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software for the Billboard Hot 100?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "136207"
+    },
+    {
+        "query_id": "123_480",
+        "question": "What is the publisher of the RIAA certification?",
+        "answers": [
+            "RIAA",
+            "Recording Industry Association of America"
+        ],
+        "pageviews": "46119"
+    },
+    {
+        "query_id": "123_481",
+        "question": "What publisher is responsible for Hot Country Songs?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "10743"
+    },
+    {
+        "query_id": "123_482",
+        "question": "What organization is responsible for publishing TV Choice?",
+        "answers": [
+            "Bauer Media",
+            "Heinrich Bauer Verlag KG",
+            "Bauer Media Group",
+            "Bauer Media AB"
+        ],
+        "pageviews": "700"
+    },
+    {
+        "query_id": "123_483",
+        "question": "What organization is responsible for publishing the Journal of Mountain Science?",
+        "answers": [
+            "China Science and Technology Publishing & Media",
+            "Science Press, PR China",
+            "Springer SBM",
+            "Kluwer Academic Publishers",
+            "Verlag von Julius Springer",
+            "Springer Science+Business Media",
+            "Springer-Verlag Berlin Heidelberg",
+            "China Science Publishing & Media",
+            "Science Press",
+            "Springer",
+            "CSPM"
+        ],
+        "pageviews": "-1"
+    },
+    {
+        "query_id": "123_484",
+        "question": "What organization is responsible for publishing Vibe?",
+        "answers": [
+            "Spin",
+            "SPIN"
+        ],
+        "pageviews": "2984"
+    },
+    {
+        "query_id": "123_485",
+        "question": "Who is the publisher of \"Germany and the Second World War\" from the Military History Research Office (MGFA) by the German Reich and the Second World War?",
+        "answers": [
+            "German Armed Forces Military History Research Office",
+            "Military History Research Office (MGFA)"
+        ],
+        "pageviews": "13"
+    },
+    {
+        "query_id": "123_486",
+        "question": "What publisher is responsible for publishing books from the \"Wings\" anthology?",
+        "answers": [
+            "Shinshokan"
+        ],
+        "pageviews": "2300"
+    },
+    {
+        "query_id": "123_487",
+        "question": "What organization is responsible for publishing FIFA 14?",
+        "answers": [
+            "EASN",
+            "EA Sports Network",
+            "EA Sports"
+        ],
+        "pageviews": "9166"
+    },
+    {
+        "query_id": "123_488",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software in Mercenaries, Spies and Private Eyes?",
+        "answers": [
+            "Flying Buffalo",
+            "Flying Buffalo Incorporated"
+        ],
+        "pageviews": "326"
+    },
+    {
+        "query_id": "123_489",
+        "question": "What organization or person is responsible for publishing Venom?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "26015"
+    },
+    {
+        "query_id": "123_490",
+        "question": "What organization is responsible for publishing Dance/Electronic Albums?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "-1"
+    },
+    {
+        "query_id": "123_491",
+        "question": "What organization is responsible for publishing Iron Man?",
+        "answers": [
+            "Non-Pareil Publishing Corp.",
+            "Classic Syndicate, Inc.",
+            "Canam Publishers Sales Corp.",
+            "Interstate Publishing Corp.",
+            "Magazine Management Co., Inc.",
+            "Olympia Publications, Inc.",
+            "Atlas Comics",
+            "Current Detective Stories, Inc.",
+            "Atlas Magazines, Inc.",
+            "U.S.A. Comic Magazine Corp.",
+            "Marvel Comics",
+            "Timely Comics",
+            "20th Century Comic Corporation",
+            "Western Fiction Publishing Co., Inc.",
+            "Sphere Publications, Inc.",
+            "Prime Publications, Inc.",
+            "Zenith Publishing Corporation",
+            "Leading Magazine Corporation",
+            "Animirth Comics, Inc.",
+            "Newsstand Publications, Inc.",
+            "Mutual Magazine Corporation",
+            "Marvel Comics Group",
+            "Chipiden Publishing Corp.",
+            "Vista Publications, Inc.",
+            "Marvel Publishing, Inc.",
+            "Bard Publishing Corp.",
+            "Male Publishing Corp.",
+            "Manvis Publications, Inc.",
+            "Marvel"
+        ],
+        "pageviews": "105800"
+    },
+    {
+        "query_id": "123_492",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software for Radio Songs?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "47"
+    },
+    {
+        "query_id": "123_493",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software in the Tropical Airplay?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "440"
+    },
+    {
+        "query_id": "123_494",
+        "question": "What organization or person is responsible for publishing books, periodicals, printed music, podcasts, games or software on Alternative Airplay?",
+        "answers": [
+            "Billboard",
+            "The Billboard"
+        ],
+        "pageviews": "3891"
+    }
+]

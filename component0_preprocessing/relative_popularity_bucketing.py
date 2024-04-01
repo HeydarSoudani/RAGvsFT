@@ -5,6 +5,25 @@ import seaborn as sns
 import wikipediaapi
 import math
 
+rel_pop_score = {
+    '257': 0.6138864810588756,
+    '22': 0.4410058888134515,
+    '91': 0.16768592403443858,
+    '218': 0.1,
+    '106': 0.5067754880971169,
+    '97': 0.6671048731510615,
+    '292': 0.6299331415869965,
+    '164': 0.21263254664084807,
+    '560': 0.11166066064556371,
+    '484': 0.12386409344801165,
+    '533': 0.1784324413416965,
+    '639': 0.17103813440718924,
+    '182': 0.11236930748067743,
+    '422': 1.0,
+    '526': 0.1453979686228685,
+    '472': 0.8016766267589054
+}
+
 
 def split_by_relation(input_file_path, output_file_path):
     # Initialize a dictionary to hold the grouped data
@@ -47,6 +66,7 @@ def split_to_buckets(objects, split_points):
     
     for obj in objects:
         # rp = obj['relative_popularity']
+        rel_key = filename.split('.')[0]
         if obj['pageviews'] != 0:
             rp = math.log(obj['pageviews'], 10)
         else:

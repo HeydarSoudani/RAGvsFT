@@ -120,31 +120,33 @@ analysis/
 script_logging/
 HeydarS
 
-data/dataset/EntityQuestions
-data/dataset/TQA
-data/dataset/popQA/bm25_results.jsonl
-data/dataset/popQA/contriever_results.jsonl
+data/dataset
 
-component0_preprocessing/generated_data/EntityQuestions_costomized
-component0_preprocessing/generated_data/popQA_costomized
+component0_preprocessing/archive
+component0_preprocessing/generated_data/popQA_costomized/entities_analysis.json
+component0_preprocessing/generated_data/EQ_costomized/entities_analysis.json
+component0_preprocessing/generated_data/popQA_EQformat/results
+component0_preprocessing/generated_data/popQA_EQformat/results/archive
+
 # component0_preprocessing/generated_data/popQA_EQformat
+
 component1_retrieval/data/popqa
 component1_retrieval/results
 component1_retrieval/dpr/models
 component1_retrieval/data/popqa_sm
+
 component2_ICL_OBQA/results
+
 # component3_QAGeneration/generated_data
 component3_QAGeneration/generated_data/corpus_wo_parentheses.jsonl
 component3_QAGeneration/generated_data/deleted_lines.jsonl
 component3_QAGeneration/generated_data/qag_results.jsonl
 component3_QAGeneration/generated_data/qag_results_*.jsonl
+
 # component4_CBQA/models
 component4_CBQA/generated_data
 models
 entity_questions_dataset
-
-component0_preprocessing/generated_data/popQA_EQformat/results
-component0_preprocessing/generated_data/popQA_EQformat/results/archive
 
 
 

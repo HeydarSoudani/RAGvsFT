@@ -1,0 +1,3804 @@
+[
+    {
+        "query_id": "25_0",
+        "question": "What is the name of the mother of Nicholas II of Russia?",
+        "answers": [
+            "Marie Feodorovna",
+            "Princess Dagmar of Denmark",
+            "Maria Fedrovna",
+            "Maria Feodorovna (Dagmar of Denmark)",
+            "Maria Feodorovna",
+            "Dagmar of Denmark",
+            "Mary Federovna",
+            "Minnie",
+            "Princess Dagmar of Schleswig-Holstein-Sonderburg-Gl\u00fccksburg",
+            "Marie Sophie Frederikke Dagmar"
+        ],
+        "pageviews": "197925"
+    },
+    {
+        "query_id": "25_1",
+        "question": "Who is the mother of Alejandra Guzm\u00e1n?",
+        "answers": [
+            "Silvia Pinal Hidalgo",
+            "Silvia Pinal"
+        ],
+        "pageviews": "6933"
+    },
+    {
+        "query_id": "25_2",
+        "question": "Who was the mother of Charles Wesley?",
+        "answers": [
+            "Susanna Annesley",
+            "Susanna Annesley Wesley",
+            "Susanna Wesley"
+        ],
+        "pageviews": "7926"
+    },
+    {
+        "query_id": "25_3",
+        "question": "What is the name of the mother of Antigone?",
+        "answers": [
+            "Iokaste",
+            "Jocaste",
+            "Jocasta",
+            "Epicaste",
+            "Iokasta"
+        ],
+        "pageviews": "24381"
+    },
+    {
+        "query_id": "25_4",
+        "question": "What is the name of the mother of Hermaphroditus?",
+        "answers": [
+            "Erycina",
+            "Cytherea",
+            "Aphrodite"
+        ],
+        "pageviews": "20478"
+    },
+    {
+        "query_id": "25_5",
+        "question": "What is the name of Nausicaa's mother?",
+        "answers": [
+            "Arete"
+        ],
+        "pageviews": "7672"
+    },
+    {
+        "query_id": "25_6",
+        "question": "Who was the mother of Carmen Morla Lynch?",
+        "answers": [
+            "Luisa Lynch del Solar",
+            "Luisa Lynch"
+        ],
+        "pageviews": "55"
+    },
+    {
+        "query_id": "25_7",
+        "question": "Who was Anita Carter's mother?",
+        "answers": [
+            "Maybelle Addington",
+            "Maybelle Carter",
+            "\"Mother\" Maybelle Carter"
+        ],
+        "pageviews": "4669"
+    },
+    {
+        "query_id": "25_8",
+        "question": "Who was the mother of Murad IV?",
+        "answers": [
+            "K\u00f6sem Sultan",
+            "Mahpeyker Sultan",
+            "K\u00f6sem Valide Sultan"
+        ],
+        "pageviews": "34560"
+    },
+    {
+        "query_id": "25_9",
+        "question": "Who is Beto Lee's mother?",
+        "answers": [
+            "Rita Lee Jones",
+            "Rita Lee"
+        ],
+        "pageviews": "268"
+    },
+    {
+        "query_id": "25_10",
+        "question": "What is the name of Michael Jackson's mother?",
+        "answers": [
+            "Katherine Jackson",
+            "Katherine Scruse",
+            "Katherine Esther Scruse",
+            "Katherine",
+            "Kattie B. Screws",
+            "Katherine Esther Jackson"
+        ],
+        "pageviews": "753723"
+    },
+    {
+        "query_id": "25_11",
+        "question": "What is the name of Toshio Saeki's mother?",
+        "answers": [
+            "Kayako Saeki",
+            "Kayako",
+            "Kayako Kawamata"
+        ],
+        "pageviews": "6835"
+    },
+    {
+        "query_id": "25_12",
+        "question": "What is the name of Olaf the Peacock's mother?",
+        "answers": [
+            "Melkorka"
+        ],
+        "pageviews": "630"
+    },
+    {
+        "query_id": "25_13",
+        "question": "What was the name of the mother of Jos\u00e9 of Braganza, High Inquisitor of Portugal?",
+        "answers": [
+            "Mother Paula of Odivelas",
+            "Mother Paula",
+            "Paula de Odivelas"
+        ],
+        "pageviews": "285"
+    },
+    {
+        "query_id": "25_14",
+        "question": "What is the name of Sayri T\u00fapac's mother?",
+        "answers": [
+            "Cura Ocllo"
+        ],
+        "pageviews": "504"
+    },
+    {
+        "query_id": "25_15",
+        "question": "Who is the mother of Vichitravirya?",
+        "answers": [
+            "Satyavati"
+        ],
+        "pageviews": "10867"
+    },
+    {
+        "query_id": "25_16",
+        "question": "What was the name of Pythodoris II's mother?",
+        "answers": [
+            "Antonia Tryphaena"
+        ],
+        "pageviews": "122"
+    },
+    {
+        "query_id": "25_17",
+        "question": "Who was the mother of Emperor Hui of Han?",
+        "answers": [
+            "L\u00fc Zhi",
+            "Empress L\u00fc Zhi",
+            "Empress Dowager L\u00fc",
+            "lv Zhi",
+            "Lu Zhi"
+        ],
+        "pageviews": "4137"
+    },
+    {
+        "query_id": "25_18",
+        "question": "Who is the mother of Nicolae II Patrascu?",
+        "answers": [
+            "Doamna Stanca"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "25_19",
+        "question": "Who is the mother of Dorothy Sidney, Countess of Leicester?",
+        "answers": [
+            "Dorothy Percy, Countess of Northumberland"
+        ],
+        "pageviews": "673"
+    },
+    {
+        "query_id": "25_20",
+        "question": "Who was the mother of Anne Vaughan, Duchess of Bolton?",
+        "answers": [
+            "Anne",
+            "Lady Anne Saville",
+            "Anne Vaughan, Countess of Carbery"
+        ],
+        "pageviews": "215"
+    },
+    {
+        "query_id": "25_21",
+        "question": "What was the name of the mother of Heliodorus of Alexandria?",
+        "answers": [
+            "Aedesia"
+        ],
+        "pageviews": "133"
+    },
+    {
+        "query_id": "25_22",
+        "question": "Who was the mother of George FitzRoy, 1st Duke of Northumberland?",
+        "answers": [
+            "Barbara Palmer, 1st Duchess of Cleveland",
+            "Barbara Villiers",
+            "Lady Castlemaine"
+        ],
+        "pageviews": "1469"
+    },
+    {
+        "query_id": "25_23",
+        "question": "What is the name of Thomas Robsahm's mother?",
+        "answers": [
+            "Margarete Robsahm"
+        ],
+        "pageviews": "885"
+    },
+    {
+        "query_id": "25_24",
+        "question": "Who is Tiffany Pollard's mother?",
+        "answers": [
+            "Michelle Rothschild-Patterson"
+        ],
+        "pageviews": "18722"
+    },
+    {
+        "query_id": "25_25",
+        "question": "Who was the mother of Valerian II?",
+        "answers": [
+            "Cornelia Salonina",
+            "Publia Licinia Cornelia Salonina",
+            "Julia Cornelia Salonina",
+            "Julia Publia Licinia Cornelia Salonina"
+        ],
+        "pageviews": "657"
+    },
+    {
+        "query_id": "25_26",
+        "question": "What is the name of Nausinous' mother?",
+        "answers": [
+            "Calypso"
+        ],
+        "pageviews": "367"
+    },
+    {
+        "query_id": "25_27",
+        "question": "What was the name of Kumaragupta I's mother?",
+        "answers": [
+            "Dhruvadevi"
+        ],
+        "pageviews": "4585"
+    },
+    {
+        "query_id": "25_28",
+        "question": "What is the name of Ivar Ragnarsson's mother?",
+        "answers": [
+            "Kraka",
+            "Aslaug",
+            "Randalin",
+            "Ladgerda",
+            "Kr\u00e1ka",
+            "Kraba",
+            "Crow",
+            "Asl\u00f6g"
+        ],
+        "pageviews": "348"
+    },
+    {
+        "query_id": "25_29",
+        "question": "What goddess can Bastet be equated with?",
+        "answers": [
+            "Lady of Mefkat",
+            "Lady of Amethyst",
+            "Lady of Faience",
+            "goddess of turquoise",
+            "Hathor"
+        ],
+        "pageviews": "42599"
+    },
+    {
+        "query_id": "25_30",
+        "question": "Who was the mother of Elizabeth Hay, Countess of Erroll?",
+        "answers": [
+            "Dorothea Jordan",
+            "Dorothea Bland",
+            "Dorothy Jordan",
+            "Mrs. Dorothea Jordan"
+        ],
+        "pageviews": "1819"
+    },
+    {
+        "query_id": "25_31",
+        "question": "What was the name of Philip Wharton, 4th Baron Wharton's mother?",
+        "answers": [
+            "Lady Philadelphia Carey",
+            "Philadelphia Carey"
+        ],
+        "pageviews": "453"
+    },
+    {
+        "query_id": "25_32",
+        "question": "What is the name of the mother of Princess T\u014dchi?",
+        "answers": [
+            "Nukata",
+            "Princess Nukata"
+        ],
+        "pageviews": "330"
+    },
+    {
+        "query_id": "25_33",
+        "question": "Who was the mother of Faustus Cornelius Sulla Felix?",
+        "answers": [
+            "Domitia Lepida",
+            "Domitia Lepida the Younger",
+            "Domitia Lepida Minor"
+        ],
+        "pageviews": "619"
+    },
+    {
+        "query_id": "25_34",
+        "question": "Who was the mother of Mary Somerset, Duchess of Beaufort?",
+        "answers": [
+            "Lady Margaret Evelyn Cambridge",
+            "The Duchess of Teck",
+            "Margaret Evelyn Cambridge, Marchioness of Cambridge",
+            "Lady Margaret Evelyn Grosvenor",
+            "Princess Adolphus of Teck",
+            "Lady Margaret Grosvenor",
+            "Lady Margaret Cambridge",
+            "Margaret Cambridge, Duchess of Teck",
+            "Margaret Cambridge, Marchioness of Cambridge"
+        ],
+        "pageviews": "2452"
+    },
+    {
+        "query_id": "25_35",
+        "question": "Who is the mother of Lorna Luft?",
+        "answers": [
+            "Frances Gumm",
+            "Judy Garland",
+            "Frances Ethel Gumm"
+        ],
+        "pageviews": "66342"
+    },
+    {
+        "query_id": "25_36",
+        "question": "What was the name of Konrad III Rudy's mother?",
+        "answers": [
+            "Barbara Olelkowna",
+            "Barbara Olelk\u00f3wna",
+            "Barbara Olelkovna of Slutsk-Kapy"
+        ],
+        "pageviews": "787"
+    },
+    {
+        "query_id": "25_37",
+        "question": "Who is Kirstin Holum's mother?",
+        "answers": [
+            "Dianne Mary Holum",
+            "Dianne Holum"
+        ],
+        "pageviews": "233"
+    },
+    {
+        "query_id": "25_38",
+        "question": "Who was the mother of Epirus?",
+        "answers": [
+            "Agaue",
+            "Agave"
+        ],
+        "pageviews": "9543"
+    },
+    {
+        "query_id": "25_39",
+        "question": "What is the name of Sabine Herbst's mother?",
+        "answers": [
+            "Eva Wittke"
+        ],
+        "pageviews": "98"
+    },
+    {
+        "query_id": "25_40",
+        "question": "Who was the mother of Elizabeth Harrison Walker?",
+        "answers": [
+            "Mary Dimmick Harrison",
+            "Mary Scott Lord Dimmick",
+            "Mary Scott Lord"
+        ],
+        "pageviews": "1200"
+    },
+    {
+        "query_id": "25_41",
+        "question": "Who is the mother of Benjamin Richard Parker?",
+        "answers": [
+            "Mary Jane Watson",
+            "Mary Jane Parker",
+            "MJ",
+            "Mary Jane Watson-Parker",
+            "Mary Jane"
+        ],
+        "pageviews": "1491"
+    },
+    {
+        "query_id": "25_42",
+        "question": "Who was Ceionia Plautia's mother?",
+        "answers": [
+            "Avidia",
+            "Avidia Plautia Nigrina",
+            "Avidia Nigrina"
+        ],
+        "pageviews": "207"
+    },
+    {
+        "query_id": "25_43",
+        "question": "Who was the mother of Princess Anna Sophie of Schwarzburg-Rudolstadt?",
+        "answers": [
+            "Duchess Anna Sophie of Saxe-Gotha-Altenburg",
+            "Anna Sophie of Saxe-Gotha-Altenburg",
+            "Carlos Augusto de Eutin",
+            "Ana Sof\u00eda de Sajonia-Gotha-Altenburgo"
+        ],
+        "pageviews": "865"
+    },
+    {
+        "query_id": "25_44",
+        "question": "What is the name of Anthony Soprano Jr.'s mother?",
+        "answers": [
+            "Carmela",
+            "Carmela Soprano"
+        ],
+        "pageviews": "5395"
+    },
+    {
+        "query_id": "25_45",
+        "question": "What was the name of Mehmet Selim Efendi's mother?",
+        "answers": [
+            "Bedrifelek Kad\u0131n",
+            "Bedrifelek Kad\u0131nefendi"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "25_46",
+        "question": "What was the name of Ada, Countess of Atholl's mother?",
+        "answers": [
+            "Forbhlaith, Countess of Atholl",
+            "Countess of Atholl Forbhlaith",
+            "Forbhlaith",
+            "Fernelith, Countess of Atholl"
+        ],
+        "pageviews": "83"
+    },
+    {
+        "query_id": "25_47",
+        "question": "What is the name of Chaz Bono's mother?",
+        "answers": [
+            "Cherilyn Sarkisian",
+            "Cleo",
+            "Ch\u00e9r",
+            "Cher",
+            "Bonnie Jo Mason",
+            "Cher Bono",
+            "Cherilyn Sarkisian LaPiere",
+            "Cheryl LaPiere"
+        ],
+        "pageviews": "117235"
+    },
+    {
+        "query_id": "25_48",
+        "question": "What was the name of the mother of Henri Charles de La Tr\u00e9moille?",
+        "answers": [
+            "Marie de La Tour d'Auvergne"
+        ],
+        "pageviews": "290"
+    },
+    {
+        "query_id": "25_49",
+        "question": "What is the name of Eliza Edwards' mother?",
+        "answers": [
+            "Mary Edwards"
+        ],
+        "pageviews": "47"
+    },
+    {
+        "query_id": "25_50",
+        "question": "Who was the mother of Anna Maria of Ostfriesland?",
+        "answers": [
+            "Anna of Holstein-Gottorp",
+            "Anna von Schleswig-Holstein-Gottorf"
+        ],
+        "pageviews": "559"
+    },
+    {
+        "query_id": "25_51",
+        "question": "Who was the mother of Lady Katherine Percy?",
+        "answers": [
+            "Eleanor Percy, Countess of Northumberland",
+            "Lady Eleanor Neville"
+        ],
+        "pageviews": "406"
+    },
+    {
+        "query_id": "25_52",
+        "question": "What is the name of the mother of the Korybantes?",
+        "answers": [
+            "Combe",
+            "Thalia",
+            "Rhytia",
+            "Calliope",
+            "Thaleia"
+        ],
+        "pageviews": "3164"
+    },
+    {
+        "query_id": "25_53",
+        "question": "Who was the mother of Gerald David Lascelles?",
+        "answers": [
+            "Princess Mary of York",
+            "Mary",
+            "Mary, Princess Royal",
+            "Victoria Alexandra Alice Mary",
+            "Mary, Princess Royal and Countess of Harewood",
+            "Princess Royal and Countess of Harewood Mary",
+            "Princess Mary"
+        ],
+        "pageviews": "8614"
+    },
+    {
+        "query_id": "25_54",
+        "question": "What was the name of Prince Karl Alfred of Liechtenstein's mother?",
+        "answers": [
+            "Archduchess Elisabeth Amalie of Austria"
+        ],
+        "pageviews": "853"
+    },
+    {
+        "query_id": "25_55",
+        "question": "Who was the mother of Eadwig \u00c6theling?",
+        "answers": [
+            "Aelfgifu",
+            "AElfgifu",
+            "Elgifu",
+            "\u00c6lfgifu",
+            "Elfled",
+            "\u00c6lfgifu of York",
+            "Elfreda",
+            "Elfgifu"
+        ],
+        "pageviews": "505"
+    },
+    {
+        "query_id": "25_56",
+        "question": "Who was the mother of Halsten Stenkilsson, also known as Alstan?",
+        "answers": [
+            "a Swedish princess",
+            "Ingamoder"
+        ],
+        "pageviews": "600"
+    },
+    {
+        "query_id": "25_57",
+        "question": "Who is the mother of Terence Jay?",
+        "answers": [
+            "Deborah Del Prete"
+        ],
+        "pageviews": "871"
+    },
+    {
+        "query_id": "25_58",
+        "question": "What is the name of the mother of Vaivasvata Manu?",
+        "answers": [
+            "Samjna",
+            "Saranyu",
+            "Ravi Randal",
+            "Sangna",
+            "Sauri",
+            "Randal",
+            "Rannade",
+            "Sanjana",
+            "Saranya"
+        ],
+        "pageviews": "6878"
+    },
+    {
+        "query_id": "25_59",
+        "question": "What was the name of Katherine Mortimer, Countess of Warwick's mother?",
+        "answers": [
+            "Joan de Geneville, Baroness Geneville",
+            "Jeanne de Joinville",
+            "Joan de Geneville, 2nd Baroness Geneville"
+        ],
+        "pageviews": "644"
+    },
+    {
+        "query_id": "25_60",
+        "question": "Who is the mother of Alcinous according to some accounts?",
+        "answers": [
+            "Corcyra",
+            "Korkyra"
+        ],
+        "pageviews": "2010"
+    },
+    {
+        "query_id": "25_61",
+        "question": "Who was the mother of Sibylle Elisabeth of W\u00fcrttemberg?",
+        "answers": [
+            "Sibylla of Anhalt",
+            "Sibylla"
+        ],
+        "pageviews": "202"
+    },
+    {
+        "query_id": "25_62",
+        "question": "What is the name of Alexander Aris's mother?",
+        "answers": [
+            "Miss Suu Kyi",
+            "Ms. Suu Kyi",
+            "Amay Suu",
+            "The lady",
+            "Daw Aung San Suu Kyi",
+            "Aung San Suu Kyi",
+            "Daw Suu",
+            "aung hcan: cu. krany",
+            "Dr. Suu Kyi"
+        ],
+        "pageviews": "4788"
+    },
+    {
+        "query_id": "25_63",
+        "question": "Who is S\u00f6nke Rothenberger's mother?",
+        "answers": [
+            "Gonnelien Rothenberger"
+        ],
+        "pageviews": "145"
+    },
+    {
+        "query_id": "25_64",
+        "question": "What was Philippa of Champagne's mother's name?",
+        "answers": [
+            "Isabella I of Jerusalem",
+            "Isabella I"
+        ],
+        "pageviews": "451"
+    },
+    {
+        "query_id": "25_65",
+        "question": "What was the name of Midian's mother?",
+        "answers": [
+            "Keturah"
+        ],
+        "pageviews": "16978"
+    },
+    {
+        "query_id": "25_66",
+        "question": "What is the name of Tuheitia Paki's mother?",
+        "answers": [
+            "Te Ata",
+            "Te Atairangikaahu Korok\u012b Te Rata Mahuta T\u0101whiao P\u014dtatau Te Wherowhero",
+            "Te Atairangikaahu",
+            "Dame Te Atairangikaahu",
+            "Pikimene Korok\u012b Mahuta",
+            "Te Arikinui Te Atairangikaahu",
+            "Piki",
+            "Te Arikinui, Dame Te Atairangikaahu"
+        ],
+        "pageviews": "990"
+    },
+    {
+        "query_id": "25_67",
+        "question": "What was Jin Su's mother's name?",
+        "answers": [
+            "Empress Wang Zhi"
+        ],
+        "pageviews": "65"
+    },
+    {
+        "query_id": "25_68",
+        "question": "What is the name of \u00c1i V\u00e2n's mother?",
+        "answers": [
+            "Ai Lien",
+            "H\u00e9l\u00e8ne L\u00ea Th\u1ecb Li\u00ean",
+            "\u00c1i Li\u00ean"
+        ],
+        "pageviews": "302"
+    },
+    {
+        "query_id": "25_69",
+        "question": "Who is Tessa Dahl's mother?",
+        "answers": [
+            "Patricia Neal",
+            "Patsy Louise Neal"
+        ],
+        "pageviews": "11852"
+    },
+    {
+        "query_id": "25_70",
+        "question": "What was the name of the mother of Louis, Count of Vermandois?",
+        "answers": [
+            "La Duchesse de la Valli\u00e8re",
+            "Duchesse de la Valli\u00e8re",
+            "Duchesse de La Valli\u00e8re",
+            "Louise de La Valliere",
+            "Louise de La Valli\u00e8re"
+        ],
+        "pageviews": "2618"
+    },
+    {
+        "query_id": "25_71",
+        "question": "What is the name of P\u00e4rt Uusberg's mother?",
+        "answers": [
+            "Urve Uusberg"
+        ],
+        "pageviews": "539"
+    },
+    {
+        "query_id": "25_72",
+        "question": "Who was the mother of Agnes of Meissen?",
+        "answers": [
+            "Margaret of Sicily",
+            "Margaret of Germany"
+        ],
+        "pageviews": "308"
+    },
+    {
+        "query_id": "25_73",
+        "question": "What is the name of Peter Kaeo's mother?",
+        "answers": [
+            "Jane Lahilahi",
+            "Jane Lahilahi Young"
+        ],
+        "pageviews": "226"
+    },
+    {
+        "query_id": "25_74",
+        "question": "Who is Martha Gehman's mother?",
+        "answers": [
+            "Estelle Parsons",
+            "Estelle Margaret Parsons"
+        ],
+        "pageviews": "1975"
+    },
+    {
+        "query_id": "25_75",
+        "question": "Who is Kristin Kaspersen's mother?",
+        "answers": [
+            "Lill-Babs",
+            "Barbro Margareta Svensson"
+        ],
+        "pageviews": "384"
+    },
+    {
+        "query_id": "25_76",
+        "question": "Who was the mother of Bonifacio Fadrique d'Aragona?",
+        "answers": [
+            "Maria of Verona",
+            "Marulla da Verona",
+            "Marulla of Verona"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "25_77",
+        "question": "Who was the mother of Anteros?",
+        "answers": [
+            "Erycina",
+            "Cytherea",
+            "Aphrodite"
+        ],
+        "pageviews": "8800"
+    },
+    {
+        "query_id": "25_78",
+        "question": "Who was the mother of Fadrique Alfonso, Lord of Haro?",
+        "answers": [
+            "Eleanor de Guzm\u00e1n",
+            "Eleanor de Guzman",
+            "Eleanor of Guzman"
+        ],
+        "pageviews": "253"
+    },
+    {
+        "query_id": "25_79",
+        "question": "Who is the mother of Attallah Shabazz?",
+        "answers": [
+            "Betty Shabazz",
+            "Betty X",
+            "Betty Dean Sanders",
+            "Betty Sanders"
+        ],
+        "pageviews": "13303"
+    },
+    {
+        "query_id": "25_80",
+        "question": "Who was the mother of Sarah Fell?",
+        "answers": [
+            "Margaret Fell"
+        ],
+        "pageviews": "204"
+    },
+    {
+        "query_id": "25_81",
+        "question": "Who was Fabian Reinhold von Fersen's mother?",
+        "answers": [
+            "Hedvig Catharina von Fersen",
+            "Hedvig Catharina De la Gardie"
+        ],
+        "pageviews": "199"
+    },
+    {
+        "query_id": "25_82",
+        "question": "Who was the mother of William II, Margrave of Meissen?",
+        "answers": [
+            "Catherine of Henneberg"
+        ],
+        "pageviews": "202"
+    },
+    {
+        "query_id": "25_83",
+        "question": "Who is the mother of Aliona Bolsova Zadoinov?",
+        "answers": [
+            "Olga Bol\u0219ova",
+            "Olga Bolshova"
+        ],
+        "pageviews": "94"
+    },
+    {
+        "query_id": "25_84",
+        "question": "What was the name of the mother of Knud, Hereditary Prince of Denmark?",
+        "answers": [
+            "Queen Alexandrine",
+            "Alexandrine of Mecklenburg-Schwerin"
+        ],
+        "pageviews": "3993"
+    },
+    {
+        "query_id": "25_85",
+        "question": "What was the name of Isabella of France's mother?",
+        "answers": [
+            "Joan I of Navarre"
+        ],
+        "pageviews": "31259"
+    },
+    {
+        "query_id": "25_86",
+        "question": "Who is the mother of Princess Marie Alexandra of Baden?",
+        "answers": [
+            "Princess Marie Louise of Hanover and Cumberland",
+            "Princess Marie Louise of Hanover"
+        ],
+        "pageviews": "1707"
+    },
+    {
+        "query_id": "25_87",
+        "question": "Who is the mother of Caroline Dhavernas?",
+        "answers": [
+            "Michele Deslauriers",
+            "Mich\u00e8le Deslauriers"
+        ],
+        "pageviews": "9776"
+    },
+    {
+        "query_id": "25_88",
+        "question": "What is the name of Stanley Marcus's mother?",
+        "answers": [
+            "Minnie Lichtenstein",
+            "Minnie Lichtenstein Marcus"
+        ],
+        "pageviews": "1090"
+    },
+    {
+        "query_id": "25_89",
+        "question": "Who was the mother of Radu Cantacuzino?",
+        "answers": [
+            "P\u0103una",
+            "P\u0103una Greceanu-Cantacuzino"
+        ],
+        "pageviews": "183"
+    },
+    {
+        "query_id": "25_90",
+        "question": "What was the name of Angelica Hamilton's mother?",
+        "answers": [
+            "Elizabeth Hamilton",
+            "Eliza H. Hamilton",
+            "Eliza Hamilton",
+            "Eliza Schuyler",
+            "Betsey Hamilton",
+            "Betsey Schuyler",
+            "Elizabeth Schuyler Hamilton",
+            "Elizabeth Schuyler"
+        ],
+        "pageviews": "13963"
+    },
+    {
+        "query_id": "25_91",
+        "question": "What was the name of the mother of Princess Elizabeth of Greece and Denmark?",
+        "answers": [
+            "Grand Duchess Elena Vladimirovna of Russia"
+        ],
+        "pageviews": "4052"
+    },
+    {
+        "query_id": "25_92",
+        "question": "Who is the mother of Julla Antonia?",
+        "answers": [
+            "Marcella Major",
+            "Claudia Marcella Maior",
+            "Claudia Marcella Major",
+            "Marcella the Elder",
+            "Claudia Marcella the Elder"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "25_93",
+        "question": "Who was Lulach's mother?",
+        "answers": [
+            "Gruoch mi Boedhe",
+            "Gruoch of Scotland"
+        ],
+        "pageviews": "3358"
+    },
+    {
+        "query_id": "25_94",
+        "question": "What was the name of Iuhetibu Fendy's mother?",
+        "answers": [
+            "Neni"
+        ],
+        "pageviews": "108"
+    },
+    {
+        "query_id": "25_95",
+        "question": "Who was the mother of Elisabeth Henriette of Hesse-Kassel?",
+        "answers": [
+            "Hedwig Sophie of Brandenburg",
+            "Hedwig Sophie von Brandenburg",
+            "Hedwig Sophia of Brandenburg"
+        ],
+        "pageviews": "282"
+    },
+    {
+        "query_id": "25_96",
+        "question": "What is the name of Elynor B\u00e4ckstedt's mother?",
+        "answers": [
+            "Megan B\u00e4ckstedt",
+            "Megan Backstedt",
+            "Megan Hughes"
+        ],
+        "pageviews": "1344"
+    },
+    {
+        "query_id": "25_97",
+        "question": "What is the name of Basma bint Talal's mother?",
+        "answers": [
+            "Zein al-Sharaf bint Jamil",
+            "Zein al-Sharaf Talal",
+            "Queen Zein"
+        ],
+        "pageviews": "54"
+    },
+    {
+        "query_id": "25_98",
+        "question": "Who was the mother of Li Xin?",
+        "answers": [
+            "Princess Dowager Yin",
+            "Lady Yin",
+            "Yin Shi(Wife of Li Gao)"
+        ],
+        "pageviews": "498"
+    },
+    {
+        "query_id": "25_99",
+        "question": "What was the name of Countess Louise von Bose's mother?",
+        "answers": [
+            "Emilie Ortl\u00f6pp",
+            "Emilie von Reichenbach-Lessonitz",
+            "Countess Emilie of Reichenbach-Lessonitz"
+        ],
+        "pageviews": "136"
+    },
+    {
+        "query_id": "25_100",
+        "question": "Who was the mother of Badr-un-Nissa Begum?",
+        "answers": [
+            "Nawab Bai"
+        ],
+        "pageviews": "248"
+    },
+    {
+        "query_id": "25_101",
+        "question": "Who was the mother of Catherine Opali\u0144ska's grandmother?",
+        "answers": [
+            "Sofia Anna Czarnkowska",
+            "Zofia Anna Czarnkowska",
+            "Zofia Czarnkowska Opali\u0144ska"
+        ],
+        "pageviews": "1359"
+    },
+    {
+        "query_id": "25_102",
+        "question": "Who is the mother of Bettina Heltberg?",
+        "answers": [
+            "Astrid Grethe Grouleff Heltberg",
+            "Grethe Heltberg"
+        ],
+        "pageviews": "89"
+    },
+    {
+        "query_id": "25_103",
+        "question": "Who was the mother of Princess Louise of Denmark and wife of Frederick VIII of Denmark?",
+        "answers": [
+            "Louise of Sweden"
+        ],
+        "pageviews": "15"
+    },
+    {
+        "query_id": "25_104",
+        "question": "Who was the mother of Lyubov Dostoevskaya?",
+        "answers": [
+            "Anna Grigoryevna Dostoevskaya",
+            "Anna Dostoyevskaya",
+            "Anna",
+            "Anna Dostoevsky"
+        ],
+        "pageviews": "2712"
+    },
+    {
+        "query_id": "25_105",
+        "question": "Who was the mother of Alix of Brittany?",
+        "answers": [
+            "Blanche of Navarre"
+        ],
+        "pageviews": "24"
+    },
+    {
+        "query_id": "25_106",
+        "question": "What is the name of Jean Fran\u00e7ois Gail's mother?",
+        "answers": [
+            "Edmee Sophie Gail",
+            "Sophie Gail"
+        ],
+        "pageviews": "75"
+    },
+    {
+        "query_id": "25_107",
+        "question": "Who is the mother of Hayley Mills?",
+        "answers": [
+            "Mary Hayley Bell"
+        ],
+        "pageviews": "136061"
+    },
+    {
+        "query_id": "25_108",
+        "question": "Who is the mother of Hasna of Morocco?",
+        "answers": [
+            "Lalla Latifa Hammou",
+            "Lalla Latifa"
+        ],
+        "pageviews": "10"
+    },
+    {
+        "query_id": "25_109",
+        "question": "Who was the mother of Dorothea Marie of Saxe-Gotha-Altenburg?",
+        "answers": [
+            "Magdalena Sybila de Sajonia-Weissenfels",
+            "Magdalena Sybille of Saxe-Weissenfels",
+            "Magdalena Sibylle of Saxe-Weissenfels",
+            "Magdalena Sibila de Sajonia-Weissenfels"
+        ],
+        "pageviews": "302"
+    },
+    {
+        "query_id": "25_110",
+        "question": "Who was the mother of Leopold II of Belgium?",
+        "answers": [
+            "drottning av Belgien Lovisa av Orl\u00e9ans",
+            "of Orl\u00e9ans, Queen, consort of L\u00e9opold I, King of the Belgians Louise",
+            "Louise of Orl\u00e9ans",
+            "koningin van Belgi\u00eb Louise-Marie",
+            "Princess of Orl\u00e9ans Louise Marie Th\u00e9r\u00e8se Charlotte Isabelle",
+            "Louise van Orl\u00e9ans",
+            "Louise of Orleans",
+            "Queen consort of L\u00e9opold I Louise-Marie of Orl\u00e9ans",
+            "of Orl\u00e9ans, Queen, consort of L\u00e9opold I, King of the Belgians Marie-Louise",
+            "of Orl\u00e9ans, Queen consort of L\u00e9opold I, King of the Belgians Louise-Marie",
+            "reine des Belges Louise-Marie",
+            "van Orl\u00e9ans, Princess Louise-Marie"
+        ],
+        "pageviews": "98503"
+    },
+    {
+        "query_id": "25_111",
+        "question": "Who is the mother of Mar\u00eda Esteve?",
+        "answers": [
+            "Pepa Flores",
+            "Josefa Flores Gonz\u00e1lez",
+            "Marisol",
+            "Josefa Flores Gonzalez"
+        ],
+        "pageviews": "573"
+    },
+    {
+        "query_id": "25_112",
+        "question": "Who was the mother of Muneko-naishinn\u014d?",
+        "answers": [
+            "Fujiwara no Tamako",
+            "Akiko Fujiwara"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "25_113",
+        "question": "What was the name of Prince Gustav of Denmark's mother?",
+        "answers": [
+            "Queen Louise",
+            "Louise of Sweden"
+        ],
+        "pageviews": "1154"
+    },
+    {
+        "query_id": "25_114",
+        "question": "What was the name of Heraklonas' mother?",
+        "answers": [
+            "Martina"
+        ],
+        "pageviews": "4114"
+    },
+    {
+        "query_id": "25_115",
+        "question": "Who was the mother of Ernst II, Duke of Saxe-Altenburg?",
+        "answers": [
+            "Augusta de Saxonia-Meiningen",
+            "Augusta de Sax\u00f2nia-Meiningen",
+            "Princess Augusta of Saxe-Meiningen"
+        ],
+        "pageviews": "1812"
+    },
+    {
+        "query_id": "25_116",
+        "question": "Who was the mother of Charles Wesley junior?",
+        "answers": [
+            "Sarah Gwynne",
+            "Sally Wesley",
+            "Sarah",
+            "Sarah Wesley"
+        ],
+        "pageviews": "217"
+    },
+    {
+        "query_id": "25_117",
+        "question": "Who was the mother of Princess Elisabeth of Denmark?",
+        "answers": [
+            "Princess Caroline-Mathilde of Denmark",
+            "Hereditary Princess Caroline-Mathilde of Denmark"
+        ],
+        "pageviews": "1680"
+    },
+    {
+        "query_id": "25_118",
+        "question": "What was the name of Henry Fielding Dickens' mother?",
+        "answers": [
+            "Catherine",
+            "Catherine Hogarth",
+            "Lady Maria Clutterbuck",
+            "Maria Clutterbuck",
+            "Catherine Dickens",
+            "Catherine Thomson Hogarth",
+            "Catherine Thomson Dickens"
+        ],
+        "pageviews": "2864"
+    },
+    {
+        "query_id": "25_119",
+        "question": "What is the name of Geli Raubal's mother?",
+        "answers": [
+            "Angela Franziska Johanna Raubal",
+            "Angela Hammitzsch",
+            "Angela Franziska Johanna Hammitzsch",
+            "Angela Franziska Johanna Hitler",
+            "Angela Hitler"
+        ],
+        "pageviews": "23889"
+    },
+    {
+        "query_id": "25_120",
+        "question": "Who was the mother of Charles Edward Stuart, Count Roehenstart?",
+        "answers": [
+            "Charlotte Stuart",
+            "Charlotte Stuart, Duchess of Albany"
+        ],
+        "pageviews": "2621"
+    },
+    {
+        "query_id": "25_121",
+        "question": "What is the name of the mother of Gnaeus Cornelius Cinna Magnus?",
+        "answers": [
+            "Pompeia C. f. C. n.",
+            "Pompeia Magna"
+        ],
+        "pageviews": "331"
+    },
+    {
+        "query_id": "25_122",
+        "question": "Who was the mother of Robert Devereux, 3rd Earl of Essex?",
+        "answers": [
+            "Frances Walsingham"
+        ],
+        "pageviews": "6037"
+    },
+    {
+        "query_id": "25_123",
+        "question": "What was the name of John III of Rietberg's mother?",
+        "answers": [
+            "Katarina, Countess of East Frisia",
+            "Princess Catherine of Sweden",
+            "Catherine, Countess of East Frisia",
+            "Princess Katarina of Sweden",
+            "Katarina",
+            "Katarina Gustavsdotter Vasa",
+            "Catherine Vasa of Sweden",
+            "Katarina Vasa"
+        ],
+        "pageviews": "115"
+    },
+    {
+        "query_id": "25_124",
+        "question": "Who was the mother of Maria Anna Katharina Rutowska?",
+        "answers": [
+            "Fatima (?)",
+            "Maria Aurora of Spiegel",
+            "Maria Aurora von Spiegel",
+            "Maria Anna von Spiegel"
+        ],
+        "pageviews": "399"
+    },
+    {
+        "query_id": "25_125",
+        "question": "What is the name of Paul Marie Bonaparte's mother?",
+        "answers": [
+            "Alexandrine Jacob de Bleschamp",
+            "Alexandrine de Bleschamp",
+            "Alexandrine, princesse de Canino Lucien-Bonaparte",
+            "Alexandrine, princesse de Canino Bonaparte",
+            "princesse de Canino Marie Alexandrine Charlotte Louise Laurence de Bleschamp Bonaparte",
+            "Marie Laurence Charlotte Louise Alexandrine de Bleschamp Bonaparte",
+            "Marie Alexandrine Charlotte Louise Laurence de Bleschamp, princesse de Canino Bonaparte"
+        ],
+        "pageviews": "388"
+    },
+    {
+        "query_id": "25_126",
+        "question": "Who was the mother of John of Foix, Viscount of Narbonne?",
+        "answers": [
+            "Eleanor of Navarre",
+            "Eleanor of Aragon",
+            "Eleanor I"
+        ],
+        "pageviews": "652"
+    },
+    {
+        "query_id": "25_127",
+        "question": "What is the name of Semele's mother?",
+        "answers": [
+            "Harmony",
+            "Harmonia"
+        ],
+        "pageviews": "10109"
+    },
+    {
+        "query_id": "25_128",
+        "question": "Who was the mother of K'inich Janaab' Pakal?",
+        "answers": [
+            "Sak K'uk'",
+            "Sak K\u02bcuk\u02bc"
+        ],
+        "pageviews": "1785"
+    },
+    {
+        "query_id": "25_129",
+        "question": "What was Anne of Burgundy's mother's name?",
+        "answers": [
+            "Margaret of Bavaria"
+        ],
+        "pageviews": "1139"
+    },
+    {
+        "query_id": "25_130",
+        "question": "Who is the mother of Gilgamesh?",
+        "answers": [
+            "Ninisi",
+            "Ninsun",
+            "Nininsina",
+            "Gula"
+        ],
+        "pageviews": "92716"
+    },
+    {
+        "query_id": "25_131",
+        "question": "Who was the mother of Gregory of Nazianzus?",
+        "answers": [
+            "Nonna of Nazianzus"
+        ],
+        "pageviews": "6403"
+    },
+    {
+        "query_id": "25_132",
+        "question": "Who was the mother of Philip, Duke of Schleswig-Holstein-Gottorp?",
+        "answers": [
+            "Christine of Hesse"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "25_133",
+        "question": "Who is the mother of Nick Cassavetes?",
+        "answers": [
+            "Gena Rowlands",
+            "Virginia Cathryn \"Gena\" Rowlands",
+            "Virginia Cathryn Rowlands"
+        ],
+        "pageviews": "26798"
+    },
+    {
+        "query_id": "25_134",
+        "question": "Who was the mother of James Butler, 1st Duke of Ormonde?",
+        "answers": [
+            "Elizabeth, Lady Thurles",
+            "Elizabeth Poyntz"
+        ],
+        "pageviews": "1478"
+    },
+    {
+        "query_id": "25_135",
+        "question": "Who was the mother of Gilbert Marshal, 4th Earl of Pembroke?",
+        "answers": [
+            "Isabel de Clare, 4th Countess of Pembroke",
+            "Isabella di Clare, IV contessa di Pembroke",
+            "Isabel de Clare",
+            "Countess Isabel"
+        ],
+        "pageviews": "562"
+    },
+    {
+        "query_id": "25_136",
+        "question": "Who was the mother of Francis Scott?",
+        "answers": [
+            "Jane Scott, Countess of Dalkeith",
+            "Lady Jane Douglas",
+            "Jane"
+        ],
+        "pageviews": "28"
+    },
+    {
+        "query_id": "25_137",
+        "question": "What is the name of Nico Parker's mother?",
+        "answers": [
+            "Melanie Thandiwe Newton",
+            "Melanie Thandiwe \"Thandie\" Newton",
+            "Thandie Newton",
+            "Thandiwe Newton",
+            "Melanie Thandiwe Newton Parker"
+        ],
+        "pageviews": "16497"
+    },
+    {
+        "query_id": "25_138",
+        "question": "What is the name of the mother of Makybe Diva?",
+        "answers": [
+            "Tugela",
+            "Tugera"
+        ],
+        "pageviews": "7808"
+    },
+    {
+        "query_id": "25_139",
+        "question": "What was the name of Caleb Stark's mother?",
+        "answers": [
+            "Molly Stark"
+        ],
+        "pageviews": "251"
+    },
+    {
+        "query_id": "25_140",
+        "question": "Who was the mother of \u00c9lisabeth Alexandrine de Bourbon?",
+        "answers": [
+            "Madame la Duchesse",
+            "Louise Fran\u00e7oise de Bourbon"
+        ],
+        "pageviews": "556"
+    },
+    {
+        "query_id": "25_141",
+        "question": "Who was Checheyikhen's mother?",
+        "answers": [
+            "B\u00f6rte"
+        ],
+        "pageviews": "26"
+    },
+    {
+        "query_id": "25_142",
+        "question": "What was the name of Duke Franz Joseph in Bavaria's mother?",
+        "answers": [
+            "Infanta Maria Josepha of Portugal"
+        ],
+        "pageviews": "517"
+    },
+    {
+        "query_id": "25_143",
+        "question": "What is the name of Eric Da Re's mother?",
+        "answers": [
+            "Johanna Ray"
+        ],
+        "pageviews": "4505"
+    },
+    {
+        "query_id": "25_144",
+        "question": "Who was the mother of Frederick Casimir Kettler?",
+        "answers": [
+            "Luise Charlotte von Brandenburg",
+            "Louise Charlotte of Brandenburg",
+            "Margravine Louise Charlotte of Brandenburg"
+        ],
+        "pageviews": "579"
+    },
+    {
+        "query_id": "25_145",
+        "question": "What was the name of Paolo II Vitelli's mother?",
+        "answers": [
+            "Angela de' Rossi"
+        ],
+        "pageviews": "34"
+    },
+    {
+        "query_id": "25_146",
+        "question": "Who was Selim II's mother?",
+        "answers": [
+            "Alexandra Anastasia Lisowska",
+            "H\u00fcrrem Haseki Sultan",
+            "Roxelana",
+            "H\u00fcrrem Sultan",
+            "Hurrem Sultan"
+        ],
+        "pageviews": "45872"
+    },
+    {
+        "query_id": "25_147",
+        "question": "Who is the mother of Maria Aitken?",
+        "answers": [
+            "Penelope Loader, Lady Aitken",
+            "The Honorable Lady Aitken",
+            "Lady Aitken",
+            "Penelope, Lady Aitken",
+            "Penelope Aitken",
+            "Penelope Loader Maffey"
+        ],
+        "pageviews": "5617"
+    },
+    {
+        "query_id": "25_148",
+        "question": "Who was Wilhelmina FitzClarence's mother?",
+        "answers": [
+            "Lady Augusta Gordon",
+            "Lady Augusta FitzClarence",
+            "Augusta FitzClarence Kennedy-Erskine"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "25_149",
+        "question": "What was the name of Abdullah ibn Abdul-Muttalib's mother?",
+        "answers": [
+            "smraa bint jundb",
+            "Fatimah bint Amr",
+            "Fatima bent \u2019Amr"
+        ],
+        "pageviews": "862"
+    },
+    {
+        "query_id": "25_150",
+        "question": "What was the name of Harriet Campbell's mother?",
+        "answers": [
+            "Charlotte Susan Maria Campbell",
+            "Lady Charlotte Susan Maria Bury",
+            "the former Lady Charlotte Susan Maria Campbell",
+            "Charlotte Campbell Bury",
+            "Lady Charlotte Bury"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "25_151",
+        "question": "What is the name of P\u00e1draig Cusack's mother?",
+        "answers": [
+            "Maureen Cusack"
+        ],
+        "pageviews": "3054"
+    },
+    {
+        "query_id": "25_152",
+        "question": "Who was the mother of Jon Garth Murray?",
+        "answers": [
+            "Madalyn Murray O'Hair"
+        ],
+        "pageviews": "3037"
+    },
+    {
+        "query_id": "25_153",
+        "question": "What is the name of Helge Hagerup's mother?",
+        "answers": [
+            "Inger Johanne Hals\u00f8r",
+            "Inger Hagerup",
+            "Inger Johanne Hals\u00f8r Hagerup",
+            "Inger Hals\u00f8r",
+            "Inger Johanne Hagerup"
+        ],
+        "pageviews": "82"
+    },
+    {
+        "query_id": "25_154",
+        "question": "What is the name of Martha Johnson Patterson's mother?",
+        "answers": [
+            "Eliza Johnson",
+            "Eliza McCardle Johnson",
+            "Eliza McCardle"
+        ],
+        "pageviews": "443"
+    },
+    {
+        "query_id": "25_155",
+        "question": "Who was the mother of Robert II of Scotland?",
+        "answers": [
+            "Marjorie Bruce"
+        ],
+        "pageviews": "20635"
+    },
+    {
+        "query_id": "25_156",
+        "question": "What is the name of the mother of Michael II Asen?",
+        "answers": [
+            "Irene Komnene Doukaina"
+        ],
+        "pageviews": "371"
+    },
+    {
+        "query_id": "25_157",
+        "question": "What is the name of Jacqueline Boyer's mother?",
+        "answers": [
+            "Emilienne-Henriette Boyer",
+            "Lucienne Boyer",
+            "\u00c9milienne-Henriette Boyer"
+        ],
+        "pageviews": "1110"
+    },
+    {
+        "query_id": "25_158",
+        "question": "Who is the mother of Adityadhornkitikhun?",
+        "answers": [
+            "Princess Chulabhorn Walailak",
+            "Chulabhorn"
+        ],
+        "pageviews": "317"
+    },
+    {
+        "query_id": "25_159",
+        "question": "What was the name of the mother of Otto of Bavaria?",
+        "answers": [
+            "Marie Friederike Franziska Hedwig of Prussia",
+            "Marie of Prussia, Queen of Bavaria",
+            "Marie of Prussia",
+            "Marie Friederike Franziska Hedwig",
+            "Marie, Queen of Bavaria",
+            "Princess Marie Friederike Franziska Hedwig of Prussia"
+        ],
+        "pageviews": "9963"
+    },
+    {
+        "query_id": "25_160",
+        "question": "Who is the mother of Lezley Saar?",
+        "answers": [
+            "Betye Irene Saar",
+            "Betye Saar",
+            "Bettye Saar"
+        ],
+        "pageviews": "247"
+    },
+    {
+        "query_id": "25_161",
+        "question": "What is the name of the mother of Mary Stewart, Countess of Buchan?",
+        "answers": [
+            "Lady Joan Beaufort",
+            "Jean Beaufort",
+            "Joan Beaufort"
+        ],
+        "pageviews": "510"
+    },
+    {
+        "query_id": "25_162",
+        "question": "Who is the mother of Deepa Kaul?",
+        "answers": [
+            "Sheila Kaul"
+        ],
+        "pageviews": "514"
+    },
+    {
+        "query_id": "25_163",
+        "question": "What is the name of the mother of Jeanne Herry?",
+        "answers": [
+            "Miou-Miou"
+        ],
+        "pageviews": "507"
+    },
+    {
+        "query_id": "25_164",
+        "question": "What was the name of Thankmar's mother?",
+        "answers": [
+            "Hatheburg of Merseburg",
+            "Hatheburg von Merseburg",
+            "Hatheburg"
+        ],
+        "pageviews": "528"
+    },
+    {
+        "query_id": "25_165",
+        "question": "Who was the mother of Louise of Great Britain?",
+        "answers": [
+            "Caroline of Ansbach",
+            "Queen, consort of George II, King of Great Britain Caroline",
+            "Wilhelmina Charlotte Caroline of Brandenburg-Ansbach",
+            "Caroline of Brandenburg-Ansbach",
+            "consort of George II, King of Great Britain Wilhelmina Charlotte Caroline",
+            "regina consorte di George II, re d'Inghilterra Caroline Wilhelmina",
+            "consort of George II, King of Great Britain Caroline",
+            "Karoline von Brandenburg-Ansbach",
+            "K\u00f6nigin Karoline Gro\u00dfbritannien",
+            "Queen consort of George II Caroline"
+        ],
+        "pageviews": "4286"
+    },
+    {
+        "query_id": "25_166",
+        "question": "What was the name of Erasmus Darwin Barlow's mother?",
+        "answers": [
+            "Emma Nora Darwin Barlow",
+            "Nora Barlow"
+        ],
+        "pageviews": "248"
+    },
+    {
+        "query_id": "25_167",
+        "question": "Who was the mother of Harald III of Norway?",
+        "answers": [
+            "\u00c5sta Gudbrandsdatter"
+        ],
+        "pageviews": "1709"
+    },
+    {
+        "query_id": "25_168",
+        "question": "What is the name of Suchindra Bali's mother?",
+        "answers": [
+            "Vyjayanthimala",
+            "Vyjayanthimala Bali"
+        ],
+        "pageviews": "5495"
+    },
+    {
+        "query_id": "25_169",
+        "question": "Who was the mother of Prince Frederick of Hesse-Kassel?",
+        "answers": [
+            "Princess Mary of Great Britain"
+        ],
+        "pageviews": "1861"
+    },
+    {
+        "query_id": "25_170",
+        "question": "Who is the mother of Gaj Singh?",
+        "answers": [
+            "Krishna Kumari"
+        ],
+        "pageviews": "9126"
+    },
+    {
+        "query_id": "25_171",
+        "question": "Who was the mother of Alfonso de la Cerda?",
+        "answers": [
+            "Blanche of France",
+            "Blanche of France, Infanta of Castile"
+        ],
+        "pageviews": "644"
+    },
+    {
+        "query_id": "25_172",
+        "question": "Who was the mother of James Grenville?",
+        "answers": [
+            "Hester Grenville, 1st Countess Temple"
+        ],
+        "pageviews": "130"
+    },
+    {
+        "query_id": "25_173",
+        "question": "What is the name of Sun Luban's mother?",
+        "answers": [
+            "Bu Lianshi",
+            "Lady Bu"
+        ],
+        "pageviews": "533"
+    },
+    {
+        "query_id": "25_174",
+        "question": "Who was the mother of Hans Eysenck?",
+        "answers": [
+            "Helga Molander"
+        ],
+        "pageviews": "8248"
+    },
+    {
+        "query_id": "25_175",
+        "question": "Who is the mother of Princess Fawzia-Latifa of Egypt?",
+        "answers": [
+            "Dominique-France Loeb-Picard",
+            "Dominique Picard"
+        ],
+        "pageviews": "2527"
+    },
+    {
+        "query_id": "25_176",
+        "question": "Who was the mother of Jahandar Shah?",
+        "answers": [
+            "Nizam Bai"
+        ],
+        "pageviews": "15982"
+    },
+    {
+        "query_id": "25_177",
+        "question": "Who was the mother of Lelia Smith Cocke?",
+        "answers": [
+            "Mary Stuart Harrison Smith",
+            "Mary Stuart Smith",
+            "Mary Stewart Smith"
+        ],
+        "pageviews": "5"
+    },
+    {
+        "query_id": "25_178",
+        "question": "Who was the mother of Fran\u00e7oise de Mailly?",
+        "answers": [
+            "Anne-Marie-Francoise de Sainte-Hermine"
+        ],
+        "pageviews": "17"
+    },
+    {
+        "query_id": "25_179",
+        "question": "Who was the mother of Margaret of the Palatinate?",
+        "answers": [
+            "Elizabeth of N\u00fcrnberg",
+            "Elisabeth of Nuremberg",
+            "Elizabeth of Nuremberg"
+        ],
+        "pageviews": "557"
+    },
+    {
+        "query_id": "25_180",
+        "question": "Who was the mother of Maria Mstislavna of Kiev?",
+        "answers": [
+            "Princess Kristina of Sweden",
+            "Christina Ingesdotter of Sweden"
+        ],
+        "pageviews": "189"
+    },
+    {
+        "query_id": "25_181",
+        "question": "Who is the mother of Harold de Soysa?",
+        "answers": [
+            "Evelyn Yohana",
+            "Evelyn de Soysa"
+        ],
+        "pageviews": "93"
+    },
+    {
+        "query_id": "25_182",
+        "question": "Who was the regent of Friesland, Groningen, and Drenthe during the minority of Henry Casimir II, Prince of Nassau-Dietz?",
+        "answers": [
+            "Emilie Albertine Agnes van Oranje-Nassau",
+            "Countess Albertine Agnes of Nassau",
+            "Albertine Agnes of Nassau"
+        ],
+        "pageviews": "1189"
+    },
+    {
+        "query_id": "25_183",
+        "question": "Who was the mother of Maredudd ap Gruffydd?",
+        "answers": [
+            "Gwenllian ferch Gruffydd",
+            "Gwenllian ferch Gruffudd ap Cynan"
+        ],
+        "pageviews": "329"
+    },
+    {
+        "query_id": "25_184",
+        "question": "What is the name of Canyon Barry's mother?",
+        "answers": [
+            "Lynn A. Norenberg",
+            "Lynn Norenberg Barry"
+        ],
+        "pageviews": "4551"
+    },
+    {
+        "query_id": "25_185",
+        "question": "Who was the mother of Marija Lucija Stupica?",
+        "answers": [
+            "Marlenka Stupica"
+        ],
+        "pageviews": "278"
+    },
+    {
+        "query_id": "25_186",
+        "question": "Who was the mother of Ernest Frederick, Margrave of Baden-Durlach?",
+        "answers": [
+            "Countess Palatine Anna of Veldenz",
+            "Anna of Veldenz"
+        ],
+        "pageviews": "239"
+    },
+    {
+        "query_id": "25_187",
+        "question": "Who is the mother of Mohammed bin Hamad bin Khalifa Al Thani?",
+        "answers": [
+            "Moza bint Nasser Al Missned",
+            "Moza bint Nasser"
+        ],
+        "pageviews": "4546"
+    },
+    {
+        "query_id": "25_188",
+        "question": "Who is the mother of Stephen Uro\u0161 IV Du\u0161an of Serbia?",
+        "answers": [
+            "Theodora Smilets of Bulgaria",
+            "Teodora",
+            "Theodora of Bulgaria"
+        ],
+        "pageviews": "343"
+    },
+    {
+        "query_id": "25_189",
+        "question": "What was the name of Edward Francis Fitzwilliam's mother?",
+        "answers": [
+            "Fanny Elizabeth Fitzwilliam",
+            "Fanny Fitzwilliam"
+        ],
+        "pageviews": "125"
+    },
+    {
+        "query_id": "25_190",
+        "question": "What is the name of Shaikh Uvais' mother?",
+        "answers": [
+            "Dilshad Khatun"
+        ],
+        "pageviews": "96"
+    },
+    {
+        "query_id": "25_191",
+        "question": "What is the name of Jean-B\u00e9del Bokassa Jr.'s mother?",
+        "answers": [
+            "Catherine Denguiad\u00e9",
+            "Catherine Martine Denguiade",
+            "Catherine Martine Denguiad\u00e9",
+            "Catherine Bokassa"
+        ],
+        "pageviews": "2060"
+    },
+    {
+        "query_id": "25_192",
+        "question": "Who was the mother of William Douglas, 6th Earl of Morton?",
+        "answers": [
+            "Margaret Erskine"
+        ],
+        "pageviews": "805"
+    },
+    {
+        "query_id": "25_193",
+        "question": "Who is the mother of Anna Cramling Bell\u00f3n?",
+        "answers": [
+            "Pia Ann Rosa-Della Cramling",
+            "Pia Cramling"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "25_194",
+        "question": "Who is the mother of Hope Rockefeller Aldrich?",
+        "answers": [
+            "Blanchette Ferry Rockefeller",
+            "Blanchette Hooker",
+            "Blanchette Ferry Hooker"
+        ],
+        "pageviews": "19"
+    },
+    {
+        "query_id": "25_195",
+        "question": "What was the name of Zilpha Drew Smith's mother?",
+        "answers": [
+            "Judith Winsor Smith"
+        ],
+        "pageviews": "50"
+    },
+    {
+        "query_id": "25_196",
+        "question": "Who was the mother of Philippe, Duke of Orl\u00e9ans, Regent of France?",
+        "answers": [
+            "duchesse d'Orl\u00e9ans Charlotte-Elisabeth",
+            "duchesse d'Orl\u00e9ans Elisabeth-Charlotte",
+            "Elisabeth Charlotte, duchesse d' Orl\u00e9ans",
+            "Madame Palatine",
+            "Duchesse d'Orl\u00e9ans Elisabeth-Charlotte",
+            "Liselotte la Palatine",
+            "Lieselotte von der Pfalz",
+            "Charlotte-Elisabeth, duchesse d' Orl\u00e9ans",
+            "Liselotte von der Pfalz",
+            "Elisabeth Charlotte of the Palatinate",
+            "Elizabeth Charlotte, Princess Palatine",
+            "Elisabeth Charlotte"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "25_197",
+        "question": "Who was the mother of Mary, Queen of Scots?",
+        "answers": [
+            "Mary of Guise",
+            "Mary of Lorraine"
+        ],
+        "pageviews": "304392"
+    },
+    {
+        "query_id": "25_198",
+        "question": "Who was the mother of Menelik I?",
+        "answers": [
+            "Nicaula",
+            "Queen of Sheba",
+            "Makedda",
+            "Makeda",
+            "Balkis"
+        ],
+        "pageviews": "11718"
+    },
+    {
+        "query_id": "25_199",
+        "question": "What is the name of the mother of Rahul Gandhi?",
+        "answers": [
+            "Antonio Maino",
+            "Sonia Gandhi",
+            "Antonia Edvige Albina Maino",
+            "Soniya Gandhi"
+        ],
+        "pageviews": "92341"
+    },
+    {
+        "query_id": "25_200",
+        "question": "What was the name of Joseph II, Holy Roman Emperor's mother?",
+        "answers": [
+            "Maria Theresa, Empress of Germany",
+            "Maria Theresa I",
+            "Maria Theresa of Austria",
+            "Maria-Theresa Holy Roman Empress",
+            "Maria Theresa",
+            "Empress Maria-Theresa",
+            "Empress of Austria Maria Therese",
+            "Empress of Austria Maria Theresa",
+            "Empress of Austria Maria Theresia",
+            "Maria Theresia",
+            "Maria Theresa Walburga Amalia Christina",
+            "Holy Roman Empress consort and Queen consort of Germany Maria Theresa"
+        ],
+        "pageviews": "32293"
+    },
+    {
+        "query_id": "25_201",
+        "question": "What is the name of John Quincy Adams' mother?",
+        "answers": [
+            "Abigail Smith",
+            "Abigail Adams",
+            "Abigail Smith Adams"
+        ],
+        "pageviews": "83758"
+    },
+    {
+        "query_id": "25_202",
+        "question": "What is the name of John Carter Cash's mother?",
+        "answers": [
+            "June Carter",
+            "Valerie June Carter",
+            "June Carter Cash"
+        ],
+        "pageviews": "25263"
+    },
+    {
+        "query_id": "25_203",
+        "question": "Who is the mother of Prince Andrew, Duke of York?",
+        "answers": [
+            "Queen of Great Britain Elizabeth",
+            "ERII",
+            "Elizabeth Alexandra Mary Windsor",
+            "Lilibet",
+            "Queen Elizabeth",
+            "Elizabeth Alexandra Mary",
+            "Queen of Great Britain Elisabetta",
+            "Elizabeth Windsor-Mountbatten",
+            "Elizabeth II",
+            "Elizabeth the second",
+            "Elizabeth of Saxe-Coburgh and Gotha",
+            "Princess Elizabeth, Duchess of Edinburgh",
+            "Her Royal Highness The Princess Elizabeth of the United Kingdom",
+            "Queen of United Kingdom Elizabeth II",
+            "The Queen",
+            "HM Queen Elizabeth II",
+            "Queen of Great Britain Elizabeth II",
+            "Elizabeth Windsor",
+            "Her Royal Highness Princess Elizabeth of York",
+            "ER II",
+            "QE2",
+            "Queen Elizabeth II of the United Kingdom",
+            "Queen",
+            "Queen Elizabeth II",
+            "Her Royal Highness The Princess Elizabeth, Duchess of Edinburgh",
+            "Queen of England",
+            "E.R. II"
+        ],
+        "pageviews": "215015"
+    },
+    {
+        "query_id": "25_204",
+        "question": "What is the name of Kusha's mother?",
+        "answers": [
+            "Janaki",
+            "Sitaji",
+            "Sita"
+        ],
+        "pageviews": "505"
+    },
+    {
+        "query_id": "25_205",
+        "question": "What was the name of Jean Baptiste Charbonneau's mother?",
+        "answers": [
+            "Sacagawea",
+            "Sacajawea",
+            "Sakakawea"
+        ],
+        "pageviews": "7891"
+    },
+    {
+        "query_id": "25_206",
+        "question": "Who is Ishmael's mother?",
+        "answers": [
+            "Hagar"
+        ],
+        "pageviews": "46069"
+    },
+    {
+        "query_id": "25_207",
+        "question": "Who was the mother of the Palici?",
+        "answers": [
+            "Thalia",
+            "Aetna",
+            "Aitne"
+        ],
+        "pageviews": "745"
+    },
+    {
+        "query_id": "25_208",
+        "question": "What is the name of Lava's mother?",
+        "answers": [
+            "Janaki",
+            "Sitaji",
+            "Sita"
+        ],
+        "pageviews": "39740"
+    },
+    {
+        "query_id": "25_209",
+        "question": "What is the name of the mother of Hasan ibn Ali?",
+        "answers": [
+            "Fatimah",
+            "Fatimah bint Muhammad",
+            "Fatima"
+        ],
+        "pageviews": "43137"
+    },
+    {
+        "query_id": "25_210",
+        "question": "Who is the mother of Zeus?",
+        "answers": [
+            "Rhea"
+        ],
+        "pageviews": "162820"
+    },
+    {
+        "query_id": "25_211",
+        "question": "What is the name of Vajiralongkorn's mother?",
+        "answers": [
+            "Sirikit Kitiyakara",
+            "Sirikit"
+        ],
+        "pageviews": "74973"
+    },
+    {
+        "query_id": "25_212",
+        "question": "What is the name of Chris Griffin's mother?",
+        "answers": [
+            "Lois",
+            "Lois Griffin",
+            "Lois Patrice Pewterschmidt"
+        ],
+        "pageviews": "6451"
+    },
+    {
+        "query_id": "25_213",
+        "question": "What was the name of the mother of Louis XIV of France?",
+        "answers": [
+            "Anne of Austria",
+            "Ana Mar\u00eda Mauricia",
+            "Anne d'Autriche",
+            "Anne d\u2019Autriche",
+            "Queen, consort of Louis XIII, King of France Anne",
+            "Queen Anne",
+            "Ana de Austria",
+            "Ana Maria Mauricia",
+            "Anne",
+            "Queen consort of Louis XIII Anne"
+        ],
+        "pageviews": "37457"
+    },
+    {
+        "query_id": "25_214",
+        "question": "What is the name of the mother of Shivaji Bhonsle I?",
+        "answers": [
+            "Jijabai"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "25_215",
+        "question": "Who is Todd McCaffrey's mother?",
+        "answers": [
+            "Anne McCaffrey",
+            "Anne Inez McCaffrey"
+        ],
+        "pageviews": "918"
+    },
+    {
+        "query_id": "25_216",
+        "question": "What was Elizabeth Stuart, Queen of Bohemia's mother's name?",
+        "answers": [
+            "Anne of Denmark",
+            "Queen Anne"
+        ],
+        "pageviews": "21577"
+    },
+    {
+        "query_id": "25_217",
+        "question": "What is the name of Salome's mother?",
+        "answers": [
+            "Herodias"
+        ],
+        "pageviews": "24321"
+    },
+    {
+        "query_id": "25_218",
+        "question": "Who is Leia Organa's mother?",
+        "answers": [
+            "Senator Amidala",
+            "Padme Naberrie",
+            "Padm\u00e9 Naberrie",
+            "Padm\u00e9 Amidala",
+            "Padme Amidala",
+            "Queen Amidala"
+        ],
+        "pageviews": "4112"
+    },
+    {
+        "query_id": "25_219",
+        "question": "What is the name of Konstantinos VI's mother?",
+        "answers": [
+            "Irene of Athens",
+            "Eirene",
+            "Irene",
+            "Empress Irene"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "25_220",
+        "question": "What is the name of Potamon's mother?",
+        "answers": [
+            "Caliadne"
+        ],
+        "pageviews": "305"
+    },
+    {
+        "query_id": "25_221",
+        "question": "Who was the mother of Henry VIII of England?",
+        "answers": [
+            "Elizabeth of York"
+        ],
+        "pageviews": "49867"
+    },
+    {
+        "query_id": "25_222",
+        "question": "Who is the mother of Willem-Alexander of the Netherlands?",
+        "answers": [
+            "Beatrix der Nederlanden",
+            "Beatrix van Oranje",
+            "Beatrix Wilhelmina Armgard",
+            "Queen Beatrix",
+            "Beatrix of Orange",
+            "Beatrix Koningin der Nederlanden, Prinses van Oranje-Nassau",
+            "Beatrix of the Netherlands",
+            "Princess Beatrix of Orange-Nassau",
+            "Princess Beatrix of the Netherlands"
+        ],
+        "pageviews": "66185"
+    },
+    {
+        "query_id": "25_223",
+        "question": "What is the name of Pegasus' mother?",
+        "answers": [
+            "Medusa"
+        ],
+        "pageviews": "49196"
+    },
+    {
+        "query_id": "25_224",
+        "question": "Who was the mother of Alfonso XII of Spain?",
+        "answers": [
+            "Isabel de Borbon",
+            "S. M. Isabel de Borb\u00f3n Reina de Espa\u00f1a",
+            "Isabel II de Espa\u00f1a",
+            "S. M. Do\u00f1a Isabel de Borb\u00f3n Reina de Espa\u00f1a",
+            "Isabel II of Spain",
+            "Isabel II, Queen of Spain and the Indiess",
+            "Do\u00f1a Isabel, II Borb\u00f3n",
+            "Isabel II",
+            "Isabel de Borb\u00f3n",
+            "Isabel, II Borb\u00f3n",
+            "Do\u00f1a Isabel de Borb\u00f3n",
+            "Marie Isabelle II Louise",
+            "Isabella II",
+            "S. M. Do\u00f1a Isabel de Borb\u00f3n",
+            "S. M. Isabel de Borb\u00f3n",
+            "Elisabeth II of Spain",
+            "Do\u00f1a Isabel de Borb\u00f3n Reina de Espa\u00f1a",
+            "Marie Isabel II Louise",
+            "S. M. Isabel de Borbon"
+        ],
+        "pageviews": "10643"
+    },
+    {
+        "query_id": "25_225",
+        "question": "What is the name of Bhumibol Adulyadej's mother?",
+        "answers": [
+            "Mae Fah Luang",
+            "Mae Fa Luang",
+            "Princess Srinagarindra",
+            "Srinagarindra"
+        ],
+        "pageviews": "47766"
+    },
+    {
+        "query_id": "25_226",
+        "question": "What is the name of the mother of Helen of Troy?",
+        "answers": [
+            "Leda"
+        ],
+        "pageviews": "86909"
+    },
+    {
+        "query_id": "25_227",
+        "question": "What is the name of the mother of Hephaestus?",
+        "answers": [
+            "Hera"
+        ],
+        "pageviews": "62215"
+    },
+    {
+        "query_id": "25_228",
+        "question": "What was the name of George III of Great Britain's mother?",
+        "answers": [
+            "Princess Augusta of Saxe-Gotha",
+            "Augusta of Saxe-Gotha",
+            "Princess Augusta of Saxe-Gotha-Altenburg"
+        ],
+        "pageviews": "1293"
+    },
+    {
+        "query_id": "25_229",
+        "question": "According to the biblical episodes in the Gospel of Luke, who is the mother of John the Baptist, the female parent of John the Baptist?",
+        "answers": [
+            "St. Elisabeth",
+            "Elizabeth",
+            "St. Elizabeth",
+            "Saint Elisabeth",
+            "Saint Elizabeth"
+        ],
+        "pageviews": "79536"
+    },
+    {
+        "query_id": "25_230",
+        "question": "What is the name of Phantes' mother?",
+        "answers": [
+            "Caliadne"
+        ],
+        "pageviews": "75"
+    },
+    {
+        "query_id": "25_231",
+        "question": "Who was Canute Lavard's mother?",
+        "answers": [
+            "Bodil of Norway",
+            "Boedil",
+            "Boedil Thurgotsdatter"
+        ],
+        "pageviews": "1257"
+    },
+    {
+        "query_id": "25_232",
+        "question": "What is the name of Vaballathus' mother?",
+        "answers": [
+            "Zenobia",
+            "Septimia Zenobia"
+        ],
+        "pageviews": "1903"
+    },
+    {
+        "query_id": "25_233",
+        "question": "What is the name of the mother of Polyctor?",
+        "answers": [
+            "Caliadne"
+        ],
+        "pageviews": "105"
+    },
+    {
+        "query_id": "25_234",
+        "question": "What is the name of Princess Margaret, Countess of Snowdon's mother?",
+        "answers": [
+            "Queen Elizabeth The Queen Mother",
+            "Elizabeth Bowes-Lyon",
+            "Queen Consort Elizabeth",
+            "The Queen Mother",
+            "Elizabeth Angela Marguerite Bowes-Lyon",
+            "Lady Elizabeth Bowes-Lyon",
+            "The Queen Mum"
+        ],
+        "pageviews": "322864"
+    },
+    {
+        "query_id": "25_235",
+        "question": "What is the name of the mother of Augustine of Hippo?",
+        "answers": [
+            "Monica of Hippo",
+            "Saint Monica",
+            "Saint Monica of Hippo",
+            "St. Monica"
+        ],
+        "pageviews": "107969"
+    },
+    {
+        "query_id": "25_236",
+        "question": "Who was the mother of Charles V, Holy Roman Emperor?",
+        "answers": [
+            "Juana la Loca",
+            "Juana I of Aragon",
+            "Joanna the Mad",
+            "Joanna of Castile",
+            "Joanna I of Aragon",
+            "Juana of Castile",
+            "Juana I of Castile and Aragon",
+            "Joanna",
+            "Joanna I of Castile and Aragon",
+            "Joan, \"the Mad\""
+        ],
+        "pageviews": "96101"
+    },
+    {
+        "query_id": "25_237",
+        "question": "Who was the mother of the Heliadae in Greek mythology?",
+        "answers": [
+            "Rhodos",
+            "Rhode"
+        ],
+        "pageviews": "507"
+    },
+    {
+        "query_id": "25_238",
+        "question": "Who was the mother of Alfonso XIII of Spain?",
+        "answers": [
+            "Maria Christina of Austria",
+            "Archduchess Maria Christina Henriette Desideria Felicitas Raineria of Austria",
+            "Maria Cristina de Habsburgo",
+            "Mar\u00eda Cristina de Borb\u00f3n"
+        ],
+        "pageviews": "10606"
+    },
+    {
+        "query_id": "25_239",
+        "question": "What is the name of the mother of Neferefre?",
+        "answers": [
+            "Khentkaus II"
+        ],
+        "pageviews": "1837"
+    },
+    {
+        "query_id": "25_240",
+        "question": "Who is the mother of Baldur?",
+        "answers": [
+            "Frigga",
+            "Frigg"
+        ],
+        "pageviews": "3413"
+    },
+    {
+        "query_id": "25_241",
+        "question": "What is the name of Raghavendra Rajkumar's mother?",
+        "answers": [
+            "Parvathamma Rajkumar"
+        ],
+        "pageviews": "353264"
+    },
+    {
+        "query_id": "25_242",
+        "question": "Who is the mother of Christabel Pankhurst?",
+        "answers": [
+            "Emmeline Pankhurst",
+            "Emmeline Goulden"
+        ],
+        "pageviews": "4655"
+    },
+    {
+        "query_id": "25_243",
+        "question": "Who was the mother of Injong?",
+        "answers": [
+            "Queen Sundeok",
+            "Sundeok-wanghu"
+        ],
+        "pageviews": "25"
+    },
+    {
+        "query_id": "25_244",
+        "question": "Who is the mother of Frederik, Crown Prince of Denmark?",
+        "answers": [
+            "Margrethe R",
+            "Margrethe II dronning af Danmark",
+            "drottning av Danmark Margrethe II",
+            "reine de Danemark Margrethe II",
+            "Queen of Denmark Margrethe II",
+            "K\u00f6nigin Margarete II. D\u00e4nemark",
+            "Margrethe II",
+            "Margrethe II of Denmark",
+            "Margrethe II zu Schleswig-Holstein-Sonderburg-Gl\u00fccksburg, Queen of Denmark",
+            "Princess of Denmark Margrethe",
+            "Ingahild Grathmer",
+            "Queen Margrethe II"
+        ],
+        "pageviews": "41215"
+    },
+    {
+        "query_id": "25_245",
+        "question": "What is the name of Whitney Houston's mother?",
+        "answers": [
+            "Cissy Houston"
+        ],
+        "pageviews": "261892"
+    },
+    {
+        "query_id": "25_246",
+        "question": "Who was the mother of Mary II of England?",
+        "answers": [
+            "Anne Hyde",
+            "Anne Hyde Duchess of York"
+        ],
+        "pageviews": "25823"
+    },
+    {
+        "query_id": "25_247",
+        "question": "Who is the mother of Merc\u00e9desz Henger?",
+        "answers": [
+            "\u00c9va Henger",
+            "Eva Henger"
+        ],
+        "pageviews": "3843"
+    },
+    {
+        "query_id": "25_248",
+        "question": "What is the name of the female parent of Victoria, Princess Royal?",
+        "answers": [
+            "Victoria Hanover",
+            "Queen Victoria",
+            "regina di Gran Bretagna e Irlanda Victoria",
+            "Alexandrina Victoria",
+            "Victoria, Queen of Great Britain",
+            "Queen of Great Britain and Empress of India Victoria",
+            "koningin van Groot-Brittannie\u034f\u0308 en Ierland Victoria",
+            "Victoria",
+            "Victoria of the United Kingdom",
+            "Victoria Alexandrina",
+            "Alexandrina Hanover",
+            "Queen Victoria, Queen of the United Kingdom",
+            "Reina de Gran Breta\u00f1a Victoria I",
+            "Alexandrina Victoria von Hannover",
+            "Queen of Great Britain Victoria",
+            "Princess Victoria",
+            "reine de Grande-Bretagne Victoria"
+        ],
+        "pageviews": "41930"
+    },
+    {
+        "query_id": "25_249",
+        "question": "What is the name of Imbrus' mother?",
+        "answers": [
+            "Caliadne"
+        ],
+        "pageviews": "82"
+    },
+    {
+        "query_id": "25_250",
+        "question": "Who was the mother of Isabel II of Spain?",
+        "answers": [
+            "Reina de Espa\u00f1a Mar\u00eda Cristina de Borb\u00f3n",
+            "princesa de las Dos Sicilias Mar\u00eda Cristina de Borb\u00f3n",
+            "Queen of Spain Maria Cristina de Bourbon",
+            "Queen of Spain Mar\u00eda Cristina de Bourbon",
+            "Mar\u00eda Cristina de, Reina de Espa\u00f1a Borb\u00f3n",
+            "Mar\u00eda Cristina de Borb\u00f3n I",
+            "Marie Christine Ferdinande",
+            "Maria Cristina de Borbon",
+            "Reina de Espa\u00f1a, S. M., Do\u00f1a Mar\u00eda Cristina de Borb\u00f3n",
+            "Reine d'Espagne Marie Christine Ferdinande",
+            "Maria Cristina de Borbon I",
+            "Maria Cristina de Bourbon",
+            "Maria Christina of the Two Sicilies",
+            "principessa delle Due Sicilie Maria Cristina Ferdinanda di Borbone",
+            "Mar\u00eda Cristina de Bourbon",
+            "Queen consort of Ferdinand VII Mar\u00eda Cristina",
+            "Reina de Espa\u00f1a, S. M. Mar\u00eda Cristina de Borb\u00f3n",
+            "Maria Cristina",
+            "Mar\u00eda Cristina Ferdinanda de Borb\u00f3n",
+            "Maria Cristina Ferdinanda de Bourbon",
+            "Do\u00f1a Mar\u00eda Cristina de Borb\u00f3n",
+            "Queen consort of Ferdinand VII Maria Cristina",
+            "Queen of Spain Marie Christine de Bourbon",
+            "Queen, consort of Ferdinand VII, King of Spain Mar\u00eda Cristina",
+            "Mar\u00eda Cristina de Borb\u00f3n",
+            "Mar\u00eda Cristina Ferdinanda de Bourbon",
+            "Cristina Mar\u00eda",
+            "Maria Cristina Ferdinanda de Borbon",
+            "princesa de las Dos Sicilias Maria Cristina de Borbon",
+            "Consort of Ferdinand VII, King of Spain Queen Mar\u00eda Cristina",
+            "Marie Christine de Bourbon"
+        ],
+        "pageviews": "627"
+    },
+    {
+        "query_id": "25_251",
+        "question": "What is the name of Telegonus' mother?",
+        "answers": [
+            "Circe"
+        ],
+        "pageviews": "1287"
+    },
+    {
+        "query_id": "25_252",
+        "question": "Who was the mother of Perseus?",
+        "answers": [
+            "Dana\u00eb"
+        ],
+        "pageviews": "58496"
+    },
+    {
+        "query_id": "25_253",
+        "question": "Who was the mother of Naser al-Din Shah Qajar?",
+        "answers": [
+            "Malek Jahan Khanom",
+            "Malek Jahan Khanom, Mahd-e Olia"
+        ],
+        "pageviews": "9171"
+    },
+    {
+        "query_id": "25_254",
+        "question": "Who was the mother of Ahmose I?",
+        "answers": [
+            "Ahhotep I",
+            "Ahhotep"
+        ],
+        "pageviews": "13842"
+    },
+    {
+        "query_id": "25_255",
+        "question": "What was the name of Kim Jong-il's mother?",
+        "answers": [
+            "Kim Jong Suk",
+            "Kim Ch\u014fng-suk",
+            "Kim Jong-suk",
+            "Gim Jeong-suk",
+            "Kim Jong-sook"
+        ],
+        "pageviews": "122171"
+    },
+    {
+        "query_id": "25_256",
+        "question": "Who is the mother of Prince Edward, Earl of Wessex?",
+        "answers": [
+            "Queen of Great Britain Elizabeth",
+            "ERII",
+            "Elizabeth Alexandra Mary Windsor",
+            "Lilibet",
+            "Queen Elizabeth",
+            "Elizabeth Alexandra Mary",
+            "Queen of Great Britain Elisabetta",
+            "Elizabeth Windsor-Mountbatten",
+            "Elizabeth II",
+            "Elizabeth the second",
+            "Elizabeth of Saxe-Coburgh and Gotha",
+            "Princess Elizabeth, Duchess of Edinburgh",
+            "Her Royal Highness The Princess Elizabeth of the United Kingdom",
+            "Queen of United Kingdom Elizabeth II",
+            "The Queen",
+            "HM Queen Elizabeth II",
+            "Queen of Great Britain Elizabeth II",
+            "Elizabeth Windsor",
+            "Her Royal Highness Princess Elizabeth of York",
+            "ER II",
+            "QE2",
+            "Queen Elizabeth II of the United Kingdom",
+            "Queen",
+            "Queen Elizabeth II",
+            "Her Royal Highness The Princess Elizabeth, Duchess of Edinburgh",
+            "Queen of England",
+            "E.R. II"
+        ],
+        "pageviews": "133080"
+    },
+    {
+        "query_id": "25_257",
+        "question": "What was the name of Sigismund II Augustus's mother?",
+        "answers": [
+            "Bona Sforza"
+        ],
+        "pageviews": "7210"
+    },
+    {
+        "query_id": "25_258",
+        "question": "What is the name of Eurylochus' mother?",
+        "answers": [
+            "Caliadne"
+        ],
+        "pageviews": "77"
+    },
+    {
+        "query_id": "25_259",
+        "question": "Who is the mother of Conchobar mac Nessa?",
+        "answers": [
+            "Ness"
+        ],
+        "pageviews": "3038"
+    },
+    {
+        "query_id": "25_260",
+        "question": "What is the name of Khonsu's mother?",
+        "answers": [
+            "Mut",
+            "Maut",
+            "Mout"
+        ],
+        "pageviews": "11150"
+    },
+    {
+        "query_id": "25_261",
+        "question": "Who was the mother of Charles I of England?",
+        "answers": [
+            "Anne of Denmark",
+            "Queen Anne"
+        ],
+        "pageviews": "186173"
+    },
+    {
+        "query_id": "25_262",
+        "question": "Who is the mother of Miriam Marealik Qiyuk?",
+        "answers": [
+            "Oonark",
+            "Una",
+            "Jessie Unaaq",
+            "Jessie Oonark",
+            "S. Toolooklook",
+            "Una Oonark",
+            "Taviniq"
+        ],
+        "pageviews": "59"
+    },
+    {
+        "query_id": "25_263",
+        "question": "Who is the mother of Prince William, Duke of Cambridge?",
+        "answers": [
+            "The Princess of Wales",
+            "Lady Diana Spencer",
+            "Diana, Princess of Wales",
+            "Diana Frances Spencer",
+            "Lady Diana Frances Spencer",
+            "Diana",
+            "Lady Di",
+            "Princess Diana",
+            "Diana Spencer",
+            "Princess of Wales Day\u0101n\u0101",
+            "The People's Princess",
+            "Princess of Wales Diana"
+        ],
+        "pageviews": "220327"
+    },
+    {
+        "query_id": "25_264",
+        "question": "Who was Sylvia Pankhurst's mother?",
+        "answers": [
+            "Emmeline Pankhurst",
+            "Emmeline Goulden"
+        ],
+        "pageviews": "8567"
+    },
+    {
+        "query_id": "25_265",
+        "question": "Who is the mother of Osiris?",
+        "answers": [
+            "Nut",
+            "nuith"
+        ],
+        "pageviews": "64558"
+    },
+    {
+        "query_id": "25_266",
+        "question": "Who was the mother of Mary I of England?",
+        "answers": [
+            "Katherine of Aragon",
+            "Catharine of Aragon",
+            "Catherine of Aragon"
+        ],
+        "pageviews": "133328"
+    },
+    {
+        "query_id": "25_267",
+        "question": "Who was the mother of Richard III of England?",
+        "answers": [
+            "Cecily Neville, Duchess of York",
+            "Cecily Neville"
+        ],
+        "pageviews": "110097"
+    },
+    {
+        "query_id": "25_268",
+        "question": "Who was the mother of Duleep Singh?",
+        "answers": [
+            "Maharani Jind Kaur",
+            "Jind Kaur"
+        ],
+        "pageviews": "19089"
+    },
+    {
+        "query_id": "25_269",
+        "question": "Who was Charles Mawer's mother?",
+        "answers": [
+            "Catherine Mawer"
+        ],
+        "pageviews": "85"
+    },
+    {
+        "query_id": "25_270",
+        "question": "What was Anne of Great Britain's mother's name?",
+        "answers": [
+            "Anne Hyde"
+        ],
+        "pageviews": "124"
+    },
+    {
+        "query_id": "25_271",
+        "question": "What is the name of Sanjay Gandhi's mother?",
+        "answers": [
+            "Indira Priyadarshini Gandhi",
+            "Indira Nehru",
+            "Indira Gandhi",
+            "Indira Priyadarshini Nehru",
+            "Indira Ghandi"
+        ],
+        "pageviews": "79446"
+    },
+    {
+        "query_id": "25_272",
+        "question": "Who was the mother of Caligula?",
+        "answers": [
+            "Agrippina Major",
+            "Vipsania Agrippina",
+            "Agrippina Maior",
+            "Vipsania Julia Agrippina",
+            "Agrippina the Elder"
+        ],
+        "pageviews": "139413"
+    },
+    {
+        "query_id": "25_273",
+        "question": "What is the name of the mother of Potamoi?",
+        "answers": [
+            "Tethys"
+        ],
+        "pageviews": "3127"
+    },
+    {
+        "query_id": "25_274",
+        "question": "Who was the mother of Telephus?",
+        "answers": [
+            "Auge"
+        ],
+        "pageviews": "3997"
+    },
+    {
+        "query_id": "25_275",
+        "question": "Who is the mother of Moses?",
+        "answers": [
+            "Jochebed",
+            "Yocheved"
+        ],
+        "pageviews": "131794"
+    },
+    {
+        "query_id": "25_276",
+        "question": "Who was the mother of Julia Soaemias?",
+        "answers": [
+            "Julia Maesa"
+        ],
+        "pageviews": "1207"
+    },
+    {
+        "query_id": "25_277",
+        "question": "Who is the mother of the Charites?",
+        "answers": [
+            "Cytherea",
+            "Aphrodite",
+            "Eurynome",
+            "Erycina",
+            "Aegle"
+        ],
+        "pageviews": "10804"
+    },
+    {
+        "query_id": "25_278",
+        "question": "Who was the mother of the Tongzhi Emperor?",
+        "answers": [
+            "Empress Dowager Cixi",
+            "Cixi"
+        ],
+        "pageviews": "13414"
+    },
+    {
+        "query_id": "25_279",
+        "question": "What was the name of Prince William, Duke of Gloucester's mother?",
+        "answers": [
+            "Anne, Queen of Great Britain",
+            "Anne of Great Britain",
+            "Queen of England Anne",
+            "Queen of Scotland Anne",
+            "Anne, Queen of Ireland",
+            "reine de Grande-Bretagne Anne",
+            "Queen of Great Britain Anne Stuart",
+            "Anne, Queen of England",
+            "Queen Anne",
+            "regina d'Inghilterra Anna I",
+            "Anne, Lord of Ireland",
+            "Anne, Queen of Scotland",
+            "Anne",
+            "Queen of Great Britain Anne",
+            "koningin van Groot-Brittanni\u00eb en Ierland Anne",
+            "Anne Stuart",
+            "Queen Anne of Great Britain"
+        ],
+        "pageviews": "9489"
+    },
+    {
+        "query_id": "25_280",
+        "question": "What is the name of the mother of Amenhotep I?",
+        "answers": [
+            "Ahmose-Nefertari",
+            "Ahmose Nefertari"
+        ],
+        "pageviews": "7225"
+    },
+    {
+        "query_id": "25_281",
+        "question": "What is the name of Meg Griffin's mother?",
+        "answers": [
+            "Lois",
+            "Lois Griffin",
+            "Lois Patrice Pewterschmidt"
+        ],
+        "pageviews": "22076"
+    },
+    {
+        "query_id": "25_282",
+        "question": "Who was the mother of Mahavira?",
+        "answers": [
+            "Trishala"
+        ],
+        "pageviews": "50616"
+    },
+    {
+        "query_id": "25_283",
+        "question": "What was Margaret Tudor's mother's name?",
+        "answers": [
+            "Elizabeth of York"
+        ],
+        "pageviews": "52826"
+    },
+    {
+        "query_id": "25_284",
+        "question": "What was the name of Edith Bouvier Beale's mother?",
+        "answers": [
+            "Edith Ewing Bouvier Beale",
+            "Edith Ewing Bouvier"
+        ],
+        "pageviews": "21549"
+    },
+    {
+        "query_id": "25_285",
+        "question": "Who is Isaac's mother?",
+        "answers": [
+            "Sara",
+            "Sarai",
+            "Sarah"
+        ],
+        "pageviews": "43190"
+    },
+    {
+        "query_id": "25_286",
+        "question": "What is Proserpina's mother's name?",
+        "answers": [
+            "Ceres"
+        ],
+        "pageviews": "15124"
+    },
+    {
+        "query_id": "25_287",
+        "question": "Who is the mother of Prince Joachim of Denmark?",
+        "answers": [
+            "Margrethe R",
+            "Margrethe II dronning af Danmark",
+            "drottning av Danmark Margrethe II",
+            "reine de Danemark Margrethe II",
+            "Queen of Denmark Margrethe II",
+            "K\u00f6nigin Margarete II. D\u00e4nemark",
+            "Margrethe II",
+            "Margrethe II of Denmark",
+            "Margrethe II zu Schleswig-Holstein-Sonderburg-Gl\u00fccksburg, Queen of Denmark",
+            "Princess of Denmark Margrethe",
+            "Ingahild Grathmer",
+            "Queen Margrethe II of Denmark"
+        ],
+        "pageviews": "23036"
+    },
+    {
+        "query_id": "25_288",
+        "question": "Who was the mother of Emperor Xiaoming of Northern Wei?",
+        "answers": [
+            "Hu Chenghua",
+            "Empress Dowager Hu"
+        ],
+        "pageviews": "453"
+    },
+    {
+        "query_id": "25_289",
+        "question": "What is the name of Benjamin's mother?",
+        "answers": [
+            "Rachel",
+            "Rahel",
+            "Rochel",
+            "Rachel Imenu",
+            "Rochel Imeinu",
+            "Rakel",
+            "Rachel Imeinu"
+        ],
+        "pageviews": "14955"
+    },
+    {
+        "query_id": "25_290",
+        "question": "Who is the mother of Karna?",
+        "answers": [
+            "Kunti",
+            "Pritha",
+            "Radha"
+        ],
+        "pageviews": "45308"
+    },
+    {
+        "query_id": "25_291",
+        "question": "Who was the mother of Ramiro III of Le\u00f3n?",
+        "answers": [
+            "Teresa Ans\u00farez",
+            "Teresa",
+            "Teresa Ansurez"
+        ],
+        "pageviews": "1051"
+    },
+    {
+        "query_id": "25_292",
+        "question": "What was the name of Muhammad's mother?",
+        "answers": [
+            "\u0100minah  bint  wahab Aljohomi Alyamani",
+            "Aminah bint Wahb",
+            "Aminah",
+            "Aminah bint Wahab"
+        ],
+        "pageviews": "415010"
+    },
+    {
+        "query_id": "25_293",
+        "question": "What is the name of the mother of Elizabeth of York?",
+        "answers": [
+            "Queen Elizabeth",
+            "Elizabeth Wydville",
+            "Elizabeth, Queen of England",
+            "Elizabeth Woodville",
+            "Elizabeth Wydeville",
+            "Lady Grey",
+            "Elizabeth Widvile",
+            "Elizabeth, Queen Dowager of England",
+            "Elizabeth, Lady Grey"
+        ],
+        "pageviews": "65844"
+    },
+    {
+        "query_id": "25_294",
+        "question": "Who was the mother of Ascanius?",
+        "answers": [
+            "Lavinia",
+            "Creusa"
+        ],
+        "pageviews": "3671"
+    },
+    {
+        "query_id": "25_295",
+        "question": "Who was the mother of Prince Arthur, Duke of Connaught and Strathearn?",
+        "answers": [
+            "Victoria Hanover",
+            "Queen Victoria",
+            "regina di Gran Bretagna e Irlanda Victoria",
+            "Alexandrina Victoria",
+            "Victoria, Queen of Great Britain",
+            "Queen of Great Britain and Empress of India Victoria",
+            "koningin van Groot-Brittannie\u034f\u0308 en Ierland Victoria",
+            "Victoria",
+            "Victoria of the United Kingdom",
+            "Victoria Alexandrina",
+            "Alexandrina Hanover",
+            "Queen Victoria, Queen of the United Kingdom",
+            "Reina de Gran Breta\u00f1a Victoria I",
+            "Alexandrina Victoria von Hannover",
+            "Queen of Great Britain Victoria",
+            "Princess Victoria",
+            "reine de Grande-Bretagne Victoria"
+        ],
+        "pageviews": "25385"
+    },
+    {
+        "query_id": "25_296",
+        "question": "Who was Nangklao's mother?",
+        "answers": [
+            "Princess Sri Sulalai",
+            "Sri Sulalai"
+        ],
+        "pageviews": "1376"
+    },
+    {
+        "query_id": "25_297",
+        "question": "Who was the mother of Princess Beatrice of the United Kingdom, who was the eldest son of Princess Beatrice of the United Kingdom and Prince Henry of Battenberg?",
+        "answers": [
+            "Victoria Hanover",
+            "Queen Victoria",
+            "regina di Gran Bretagna e Irlanda Victoria",
+            "Alexandrina Victoria",
+            "Victoria, Queen of Great Britain",
+            "Queen of Great Britain and Empress of India Victoria",
+            "koningin van Groot-Brittannie\u034f\u0308 en Ierland Victoria",
+            "Victoria",
+            "Victoria of the United Kingdom",
+            "Victoria Alexandrina",
+            "Alexandrina Hanover",
+            "Queen Victoria, Queen of the United Kingdom",
+            "Reina de Gran Breta\u00f1a Victoria I",
+            "Alexandrina Victoria von Hannover",
+            "Queen of Great Britain Victoria",
+            "Princess Victoria",
+            "reine de Grande-Bretagne Victoria"
+        ],
+        "pageviews": "31946"
+    },
+    {
+        "query_id": "25_298",
+        "question": "What is the name of Jacob's mother?",
+        "answers": [
+            "Rebeccah",
+            "Rivkah",
+            "Rebesfvn",
+            "Rebecca",
+            "Rebecka",
+            "Rivka"
+        ],
+        "pageviews": "76739"
+    },
+    {
+        "query_id": "25_299",
+        "question": "Who is the mother of Meritaten?",
+        "answers": [
+            "Nefertiti"
+        ],
+        "pageviews": "4104"
+    },
+    {
+        "query_id": "25_300",
+        "question": "What is the name of the mother of Astyanax?",
+        "answers": [
+            "Andromache"
+        ],
+        "pageviews": "5593"
+    },
+    {
+        "query_id": "25_301",
+        "question": "Who is the mother of Arcas?",
+        "answers": [
+            "Callisto",
+            "Kallisto"
+        ],
+        "pageviews": "3301"
+    },
+    {
+        "query_id": "25_302",
+        "question": "What is the name of the mother of Caesarion?",
+        "answers": [
+            "Cleopatra VII Philopator",
+            "Cleopatra VII",
+            "Cleopatra"
+        ],
+        "pageviews": "43231"
+    },
+    {
+        "query_id": "25_303",
+        "question": "Who was the mother of Edward VII?",
+        "answers": [
+            "Victoria Hanover",
+            "Queen Victoria",
+            "regina di Gran Bretagna e Irlanda Victoria",
+            "Alexandrina Victoria",
+            "Victoria, Queen of Great Britain",
+            "Queen of Great Britain and Empress of India Victoria",
+            "koningin van Groot-Brittannie\u034f\u0308 en Ierland Victoria",
+            "Victoria",
+            "Victoria of the United Kingdom",
+            "Victoria Alexandrina",
+            "Alexandrina Hanover",
+            "Queen Victoria, Queen of the United Kingdom",
+            "Reina de Gran Breta\u00f1a Victoria I",
+            "Alexandrina Victoria von Hannover",
+            "Queen of Great Britain Victoria",
+            "Princess Victoria",
+            "reine de Grande-Bretagne Victoria"
+        ],
+        "pageviews": "270205"
+    },
+    {
+        "query_id": "25_304",
+        "question": "What is the name of Ekta Kapoor's mother?",
+        "answers": [
+            "Shobha Kapoor"
+        ],
+        "pageviews": "53585"
+    },
+    {
+        "query_id": "25_305",
+        "question": "Who is the mother of Emperor Ruizong of Tang?",
+        "answers": [
+            "Wu mei",
+            "shunsheng huanghou",
+            "Wuzetian",
+            "Wu Zhao",
+            "Wu Zetian",
+            "Zetian dasheng huanghou",
+            "Empress Wu",
+            "Empress Consort Wu"
+        ],
+        "pageviews": "3157"
+    },
+    {
+        "query_id": "25_306",
+        "question": "Who was the mother of Charles, Prince of Wales?",
+        "answers": [
+            "Queen of Great Britain Elizabeth",
+            "ERII",
+            "Elizabeth Alexandra Mary Windsor",
+            "Lilibet",
+            "Queen Elizabeth",
+            "Elizabeth Alexandra Mary",
+            "Queen of Great Britain Elisabetta",
+            "Elizabeth Windsor-Mountbatten",
+            "Elizabeth II",
+            "Elizabeth the second",
+            "Elizabeth of Saxe-Coburgh and Gotha",
+            "Princess Elizabeth, Duchess of Edinburgh",
+            "Her Royal Highness The Princess Elizabeth of the United Kingdom",
+            "Queen of United Kingdom Elizabeth II",
+            "The Queen",
+            "HM Queen Elizabeth II",
+            "Queen of Great Britain Elizabeth II",
+            "Elizabeth Windsor",
+            "Her Royal Highness Princess Elizabeth of York",
+            "ER II",
+            "QE2",
+            "Queen Elizabeth II of the United Kingdom",
+            "Queen",
+            "Queen Elizabeth II",
+            "Her Royal Highness The Princess Elizabeth, Duchess of Edinburgh",
+            "Queen of England",
+            "E.R. II"
+        ],
+        "pageviews": "496362"
+    },
+    {
+        "query_id": "25_307",
+        "question": "Who was the mother of Emperor Zhongzong of Tang?",
+        "answers": [
+            "Wu mei",
+            "shunsheng huanghou",
+            "Wuzetian",
+            "Wu Zhao",
+            "Wu Zetian",
+            "Zetian dasheng huanghou",
+            "Empress Wu",
+            "Empress Consort Wu"
+        ],
+        "pageviews": "3825"
+    },
+    {
+        "query_id": "25_308",
+        "question": "What is the name of Persephone's mother?",
+        "answers": [
+            "D\u00eam\u00eat\u00ear",
+            "Deo",
+            "Demeter",
+            "Styx"
+        ],
+        "pageviews": "109540"
+    },
+    {
+        "query_id": "25_309",
+        "question": "Who is the mother of Elizabeth II?",
+        "answers": [
+            "Queen Elizabeth The Queen Mother",
+            "Elizabeth Bowes-Lyon",
+            "Queen Consort Elizabeth",
+            "The Queen Mother",
+            "Elizabeth Angela Marguerite Bowes-Lyon",
+            "Lady Elizabeth Bowes-Lyon",
+            "The Queen Mum"
+        ],
+        "pageviews": "1291432"
+    },
+    {
+        "query_id": "25_310",
+        "question": "What is the name of Bart Simpson's mother?",
+        "answers": [
+            "Marjorie Jacqueline Bouvier",
+            "Marjorie Jacqueline Simpson",
+            "Marge Simpson",
+            "Marge"
+        ],
+        "pageviews": "43088"
+    },
+    {
+        "query_id": "25_311",
+        "question": "Who is the mother of Ganesha?",
+        "answers": [
+            "Parvati",
+            "Parbati",
+            "Uma",
+            "Gauri"
+        ],
+        "pageviews": "85302"
+    },
+    {
+        "query_id": "25_312",
+        "question": "Who was the mother of Constantine the Great?",
+        "answers": [
+            "St. Helen",
+            "Santa Helena",
+            "Helena of Constantinople",
+            "Helena",
+            "Flavia Julia Helena Augusta",
+            "St. Helena",
+            "Saint Helena",
+            "Helena Augusta",
+            "Empress Helena"
+        ],
+        "pageviews": "111589"
+    },
+    {
+        "query_id": "25_313",
+        "question": "What is the name of Lisa Simpson's mother?",
+        "answers": [
+            "Marjorie Jacqueline Bouvier",
+            "Marjorie Jacqueline Simpson",
+            "Marge Simpson",
+            "Marge"
+        ],
+        "pageviews": "18001"
+    },
+    {
+        "query_id": "25_314",
+        "question": "Who was the mother of James VI and I?",
+        "answers": [
+            "Mary I of Scotland",
+            "Queen Mary",
+            "Mary, Queen of Scots",
+            "Mary, Queen of Scotland",
+            "Mary Stuart",
+            "Mary",
+            "Mary Queen of Scots"
+        ],
+        "pageviews": "151391"
+    },
+    {
+        "query_id": "25_315",
+        "question": "What is the name of Kartikeya's mother?",
+        "answers": [
+            "Parvati",
+            "Parbati",
+            "Uma",
+            "Gauri"
+        ],
+        "pageviews": "48668"
+    },
+    {
+        "query_id": "25_316",
+        "question": "Who was the mother of Rajiv Gandhi?",
+        "answers": [
+            "Indira Priyadarshini Gandhi",
+            "Indira Nehru",
+            "Indira Gandhi",
+            "Indira Priyadarshini Nehru",
+            "Indira Ghandi"
+        ],
+        "pageviews": "143211"
+    },
+    {
+        "query_id": "25_317",
+        "question": "What saint is the mother of the Virgin Mary?",
+        "answers": [
+            "Saint Anne",
+            "St. Anna",
+            "St Anna",
+            "St. Anne",
+            "Anna",
+            "St Anne",
+            "Anne",
+            "Saint Anna"
+        ],
+        "pageviews": "9147"
+    },
+    {
+        "query_id": "25_318",
+        "question": "What is the name of the female parent of the Okeanid?",
+        "answers": [
+            "Tethys"
+        ],
+        "pageviews": "0"
+    },
+    {
+        "query_id": "25_319",
+        "question": "What was the name of Nero's mother?",
+        "answers": [
+            "Julia Agrippina",
+            "Agrippina the Younger",
+            "Julia Augusta Agrippina",
+            "Agrippina Minor",
+            "Iulia Agrippina"
+        ],
+        "pageviews": "147784"
+    },
+    {
+        "query_id": "25_320",
+        "question": "Who was the mother of Elizabeth I of England?",
+        "answers": [
+            "Anne Boleyn",
+            "Anne Boleyn, Marquess of Pembroke"
+        ],
+        "pageviews": "48175"
+    },
+    {
+        "query_id": "25_321",
+        "question": "What is the name of the mother of Dionysus?",
+        "answers": [
+            "Semele",
+            "D\u00eam\u00eat\u00ear",
+            "Demeter",
+            "Deo"
+        ],
+        "pageviews": "108327"
+    },
+    {
+        "query_id": "25_322",
+        "question": "Who was the mother of Louis XIII of France?",
+        "answers": [
+            "consort of Henry IV, King of France Marie de M\u00e9dicis",
+            "Maria de', Queen, consort of Henry IV, King of France Medici",
+            "Queen consort of Henry IV Marie de Medicis",
+            "Maria, Queen, consort of Henry IV, King of France De' Medici",
+            "reine de France Marie de M\u00e9dicis",
+            "Marie de, Queen, consort of Henry IV, King of France M\u00e9dicis",
+            "Queen, consort of Henry IV, King of France Marie de M\u00e9dicis",
+            "Maria de' Medici",
+            "Marie, Queen, consort of Henry IV, King of France De M\u00e9dicis",
+            "de M\u00e9dicis, koningin van Frankrijk Maria",
+            "K\u00f6nigin Maria Frankreich",
+            "reine de France Marie de Medicis",
+            "Marie de M\u00e9dicis",
+            "Maria de'Medici",
+            "Marie de Medicis",
+            "Marie de'Medici",
+            "Queen of France Maria de'Medici",
+            "Queen consort of Henry IV Marie de M\u00e9dicis",
+            "Mar\u00eda de M\u00e9dici",
+            "Marie de' Medici",
+            "regina consorte di Henri IV, re di Francia Maria de' Medici",
+            "Queen, consort of Henry IV, King of France Maria de' Medici",
+            "Maria de Medici"
+        ],
+        "pageviews": "14727"
+    },
+    {
+        "query_id": "25_323",
+        "question": "Who is the mother of Achilles?",
+        "answers": [
+            "Thetis"
+        ],
+        "pageviews": "160492"
+    },
+    {
+        "query_id": "25_324",
+        "question": "Who is Horus's mother?",
+        "answers": [
+            "Isis",
+            "nuith",
+            "Nut"
+        ],
+        "pageviews": "71001"
+    },
+    {
+        "query_id": "25_325",
+        "question": "What is the name of the mother of Anne, Princess Royal?",
+        "answers": [
+            "Queen of Great Britain Elizabeth",
+            "ERII",
+            "Elizabeth Alexandra Mary Windsor",
+            "Lilibet",
+            "Queen Elizabeth",
+            "Elizabeth Alexandra Mary",
+            "Queen of Great Britain Elisabetta",
+            "Elizabeth Windsor-Mountbatten",
+            "Elizabeth II",
+            "Elizabeth the second",
+            "Elizabeth of Saxe-Coburgh and Gotha",
+            "Princess Elizabeth, Duchess of Edinburgh",
+            "Her Royal Highness The Princess Elizabeth of the United Kingdom",
+            "Queen of United Kingdom Elizabeth II",
+            "The Queen",
+            "HM Queen Elizabeth II",
+            "Queen of Great Britain Elizabeth II",
+            "Elizabeth Windsor",
+            "Her Royal Highness Princess Elizabeth of York",
+            "ER II",
+            "QE2",
+            "Queen Elizabeth II of the United Kingdom",
+            "Queen",
+            "Queen Elizabeth II",
+            "Her Royal Highness The Princess Elizabeth, Duchess of Edinburgh",
+            "Queen of England",
+            "E.R. II"
+        ],
+        "pageviews": "189111"
+    },
+    {
+        "query_id": "25_326",
+        "question": "Who was the mother of Heracles?",
+        "answers": [
+            "Alkmene",
+            "Alcmena",
+            "Alcmene"
+        ],
+        "pageviews": "111313"
+    },
+    {
+        "query_id": "25_327",
+        "question": "What is the name of the mother of Henry Frederick, Prince of Wales?",
+        "answers": [
+            "Anne of Denmark",
+            "Queen Anne"
+        ],
+        "pageviews": "12171"
+    },
+    {
+        "query_id": "25_328",
+        "question": "Who was the mother of the Nereids?",
+        "answers": [
+            "Doris"
+        ],
+        "pageviews": "27161"
+    },
+    {
+        "query_id": "25_329",
+        "question": "Who was the mother of Alexander the Great?",
+        "answers": [
+            "Olympiada Anayka",
+            "Olympias"
+        ],
+        "pageviews": "394950"
+    },
+    {
+        "query_id": "25_330",
+        "question": "Who was the mother of Henry VII?",
+        "answers": [
+            "Lady Margaret Beaufort",
+            "Lady Stafford",
+            "Margaret Beaufort, Countess of Richmond",
+            "Margaret Beaufort, Countess of Derby",
+            "Margaret, Countess of Richmond"
+        ],
+        "pageviews": "1109"
+    },
+    {
+        "query_id": "25_331",
+        "question": "What is the name of Oedipus's mother?",
+        "answers": [
+            "Iokaste",
+            "Jocaste",
+            "Jocasta",
+            "Epicaste",
+            "Iokasta"
+        ],
+        "pageviews": "49183"
+    },
+    {
+        "query_id": "25_332",
+        "question": "What is the name of Cupid's mother?",
+        "answers": [
+            "Diana",
+            "Venus"
+        ],
+        "pageviews": "29220"
+    },
+    {
+        "query_id": "25_333",
+        "question": "What is the name of Orestes' mother?",
+        "answers": [
+            "Clytemnestra",
+            "Klytemnaestra"
+        ],
+        "pageviews": "15827"
+    },
+    {
+        "query_id": "25_334",
+        "question": "What is the name of the mother of Artemis?",
+        "answers": [
+            "Leto"
+        ],
+        "pageviews": "89677"
+    },
+    {
+        "query_id": "25_335",
+        "question": "What was the name of Alfonso VII's mother?",
+        "answers": [
+            "Urraca of Le\u00f3n",
+            "Queen Urraca",
+            "Urraca of Leon"
+        ],
+        "pageviews": "701"
+    },
+    {
+        "query_id": "25_336",
+        "question": "Who is the mother of Queen Victoria?",
+        "answers": [
+            "Victoria of Saxe-Coburg-Saalfeld, Duchess of Kent",
+            "Victoria, Duchess of Kent",
+            "Victoria of Saxe-Coburg-Saalfeld",
+            "Marie Louise Victoire",
+            "Victoria, Princess of Leinengen",
+            "Princess Marie Luise Viktoria of Saxe-Coburg-Saalfeld",
+            "Marie Luise Viktoria",
+            "Princess Victoria of Saxe-Coburg-Saalfeld",
+            "Princess Victoria, Duchess of Kent and Strathearn",
+            "Marie Luise Viktoria of Saxe-Coburg-Saalfeld"
+        ],
+        "pageviews": "554097"
+    },
+    {
+        "query_id": "25_337",
+        "question": "What is the name of the mother of Paul I of Russia?",
+        "answers": [
+            "Catherine the Great",
+            "Empress Catherine II",
+            "Catherine II of Russia",
+            "Ekaterina Alexeyevna",
+            "Czarina of Russia Catherine II",
+            "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0430 II \u0412\u0435\u043b\u0438\u043a\u0430\u044f",
+            "Empress of Russia Catherine II",
+            "Catherine II",
+            "Ekaterina II of Russia",
+            "Sophie Friederike Auguste von Anhalt-Zerbst"
+        ],
+        "pageviews": "57543"
+    },
+    {
+        "query_id": "25_338",
+        "question": "Who is the mother of Husayn ibn Ali?",
+        "answers": [
+            "Fatimah",
+            "Fatimah bint Muhammad",
+            "Fatima"
+        ],
+        "pageviews": "44815"
+    },
+    {
+        "query_id": "25_339",
+        "question": "What is the name of Maggie Simpson's mother?",
+        "answers": [
+            "Marjorie Jacqueline Bouvier",
+            "Marjorie Jacqueline Simpson",
+            "Marge Simpson",
+            "Marge"
+        ],
+        "pageviews": "11070"
+    },
+    {
+        "query_id": "25_340",
+        "question": "What is the name of Stewie Griffin's mother?",
+        "answers": [
+            "Lois",
+            "Lois Griffin",
+            "Lois Patrice Pewterschmidt"
+        ],
+        "pageviews": "17735"
+    },
+    {
+        "query_id": "25_341",
+        "question": "Who is the mother of Apollo?",
+        "answers": [
+            "Leto"
+        ],
+        "pageviews": "130900"
+    },
+    {
+        "query_id": "25_342",
+        "question": "Who was the mother of Charles IX of France?",
+        "answers": [
+            "Catherine de, Queen, consort of Henry II, King of France Medici",
+            "Catherine de, Queen, consort of Henry II, King of France M\u00e9dicis",
+            "Queen consort of Henry II Catherine de M\u00e9dicis",
+            "Queen Catherine de M\u00e9dicis consort of Henry II King of France",
+            "Catherine, Queen, consort of Henry II, King of France De M\u00e9dicis",
+            "Catherine de' Medici",
+            "Catherine, Queen, consort of Henry II, King of France De Medici",
+            "Catherine of Medici",
+            "Catherine de M\u00e9dicis",
+            "Queen, consort of Henry II Ekaterina Medichi",
+            "Queen, consort of Henry II, King of France Catherine de M\u00e9dicis",
+            "Queen, consort of Henry II, King of France Catharine de' Medici"
+        ],
+        "pageviews": "41823"
+    },
+    {
+        "query_id": "25_343",
+        "question": "Who is the mother of Russell Gleason?",
+        "answers": [
+            "Lucile Gleason",
+            "Lucile Webster Gleason",
+            "Lucile"
+        ],
+        "pageviews": "1454"
+    },
+    {
+        "query_id": "25_344",
+        "question": "Who is the mother of Jesus?",
+        "answers": [
+            "St Mary the Virgin",
+            "Mary",
+            "Blessed Mother",
+            "Madonna",
+            "Holy Virgin",
+            "Notre Dame",
+            "The Blessed Virgin Mary",
+            "Mary, Mother of our Lord",
+            "The Blessed Virgin",
+            "Maryam",
+            "God-Bearer",
+            "Queen of the Universe",
+            "Most Blessed",
+            "Blessed Virgin",
+            "Saint Mary",
+            "Immaculate Mary",
+            "the Virgin Mary",
+            "Theotokos",
+            "Mother of Jesus",
+            "Holy Mary",
+            "Mother of God",
+            "The Blessed Mother",
+            "Mary, mother of Jesus",
+            "Maria",
+            "Blessed Virgin Mary",
+            "Virgin Mary",
+            "Our Lady",
+            "Virgin God-Bearer"
+        ],
+        "pageviews": "353596"
+    },
+    {
+        "query_id": "25_345",
+        "question": "Who was the mother of Magnus III of Sweden?",
+        "answers": [
+            "Ingeborg",
+            "Ingeborg Eriksdotter of Sweden"
+        ],
+        "pageviews": "1706"
+    },
+    {
+        "query_id": "25_346",
+        "question": "Who was the mother of William Cavendish, 3rd Earl of Devonshire?",
+        "answers": [
+            "Christian Bruce",
+            "Christiana Bruce, Countess of Devonshire",
+            "Christian Cavendish, Countess of Devonshire",
+            "Christina Bruce, Countess of Devonshire"
+        ],
+        "pageviews": "1169"
+    },
+    {
+        "query_id": "25_347",
+        "question": "Who was the mother of Princess Augusta of Bavaria?",
+        "answers": [
+            "Princess Augusta Wilhelmine of Hesse-Darmstadt",
+            "Landgravine Augusta Wilhelmine of Hesse-Darmstadt"
+        ],
+        "pageviews": "2863"
+    },
+    {
+        "query_id": "25_348",
+        "question": "What is the relationship between Liza Minnelli and Judy Garland in the context of Wainwright's song?",
+        "answers": [
+            "Frances Gumm",
+            "Judy Garland",
+            "Frances Ethel Gumm"
+        ],
+        "pageviews": "186580"
+    },
+    {
+        "query_id": "25_349",
+        "question": "Who was sometimes considered the mother of Eros?",
+        "answers": [
+            "Nyx",
+            "Iris",
+            "Eris",
+            "Penia",
+            "Strife",
+            "Cytherea",
+            "Goddess of Discord",
+            "Aphrodite",
+            "Erycina"
+        ],
+        "pageviews": "53616"
+    },
+    {
+        "query_id": "25_350",
+        "question": "Who was the mother of Nereus?",
+        "answers": [
+            "Gaia",
+            "Tethys",
+            "Gaea",
+            "Ge"
+        ],
+        "pageviews": "7126"
+    }
+]
