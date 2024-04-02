@@ -168,7 +168,6 @@ num_entities_per_relation = 20
 dev_split = 0.1
 max_tokens = 512
 
-
 def extract_json_objects(text):
     pattern = r'\{[^{}]*\}'
     json_strings = re.findall(pattern, text)
@@ -326,20 +325,22 @@ def create_test_and_entity_files():
     data_by_prop_id = {}
     with open(tsv_file_path, 'r', encoding='utf-8') as file:
         reader = csv.DictReader(file, delimiter='\t')
-        for row in reader:
+        for idx, row in enumerate(reader):
+            
+            if idx != 0 and idx % 500 == 0:
+                print(f"{idx} data are processed...")
             
             if dataset_name == 'popqa':
                 prop_id = row['prop_id']
             elif dataset_name == 'witqa':
                 prop_id = re.findall(r'\d+', row['predicate'])[0]
-             
-            # print(prop_id)   
+
             if prop_id not in data_by_prop_id:
                 data_by_prop_id[prop_id] = {'test': [], 'entity': [], 'counter': 0}
 
             query_id = f"{prop_id}_{data_by_prop_id[prop_id]['counter']}"
             data_by_prop_id[prop_id]['counter'] += 1
-            
+
             # Append data to test and entity lists
             if dataset_name == 'popqa':
                 data_by_prop_id[prop_id]['test'].append({
@@ -354,50 +355,59 @@ def create_test_and_entity_files():
                     'wiki_title': row['s_wiki_title'],
                     'entity_id': row['s_uri'].split('/')[-1]
                 })
-            
+
             elif dataset_name == 'witqa':
-                data_by_prop_id[prop_id]['test'].append({
-                    'query_id': query_id,
-                    'question': row['output_question'],
-                    'answers': ast.literal_eval(row['expanded_object_label']),
-                    'pageviews': row['s_pop']
-                })
-                data_by_prop_id[prop_id]['entity'].append({
-                    'query_id': query_id,
-                    'wiki_title': row['subject_label'],
-                    'entity_id': row['subject']
-                })
-                
+                wikidata_id = row["subject"]
+                try: 
+                    wikipedia_title = get_wikipedia_title_from_wikidata(wikidata_id)
+                    if wikipedia_title == None:
+                        print(f"Return None for: {wikidata_id}")  
+                except:
+                    print(f"Error for: {wikidata_id}") 
+
+                if wikipedia_title != None:
+                    data_by_prop_id[prop_id]['test'].append({
+                        'query_id': query_id,
+                        'question': row['output_question'],
+                        'answers': ast.literal_eval(row['expanded_object_label']),
+                        'pageviews': row['s_pop']
+                    })
+                    data_by_prop_id[prop_id]['entity'].append({
+                        'query_id': query_id,
+                        'wiki_title': wikipedia_title,
+                        'entity_id': wikidata_id
+                    })
+
     for prop_id, content in data_by_prop_id.items():
         with open(f'{test_dir}/{prop_id}.test.json', 'w') as test_file:
             json.dump(content['test'], test_file, indent=4)
 
         with open(f'{entity_dir}/{prop_id}.entity.json', 'w') as entity_file:
             json.dump(content['entity'], entity_file, indent=4)
-    
+
     print("Test and Entity creation complete.")
 
 def create_test_and_entity_files_EQ():
     data_by_prop_id = {}
-    
     for relation_dir in os.listdir(data_evidence_dir):
         prop_id = re.findall(r'\d+', relation_dir)[0]
         if prop_id not in data_by_prop_id:
             data_by_prop_id[prop_id] = {'test': [], 'entity': [], 'counter': 0}
-        
+
         print("Processing relation: ", prop_id)
         file_path = f"{data_evidence_dir}/{relation_dir}/{relation_dir}.{sub_type}.json"
         with open(file_path, 'r', encoding='utf-8') as file:
             data = json.load(file)
-        
-            for item in data:
-                
+
+            for idx, item in enumerate(data):
+    #             if idx == 10:
+    #                 break
                 # Get wikipedia title from wikidata
                 query_id = f"{prop_id}_{data_by_prop_id[prop_id]['counter']}"
                 data_by_prop_id[prop_id]['counter'] += 1
-                
+
                 wikidata_id = item["evidence"][0]["subject"]["uri"]
-                try: 
+                try:             
                     wikipedia_title = get_wikipedia_title_from_wikidata(wikidata_id)
                     if wikipedia_title == None:
                         print(f"Return None for: {wikidata_id}")   
@@ -405,11 +415,9 @@ def create_test_and_entity_files_EQ():
                         pageviews = get_pageviews(wikipedia_title)
                         if pageviews == None:
                             print(f"Return pageviews None for: {wikidata_id}")   
-                        
                 except:
                     print(f"Error for: {wikidata_id}")
-                
-                
+
                 if wikipedia_title != None and pageviews != None:
                     data_by_prop_id[prop_id]['test'].append({
                         'query_id': query_id,
@@ -422,14 +430,14 @@ def create_test_and_entity_files_EQ():
                         'wiki_title': wikipedia_title,
                         'entity_id': wikidata_id
                     })
-    
+        
     for prop_id, content in data_by_prop_id.items():
         with open(f'{test_dir}/{prop_id}.test.json', 'w') as test_file:
             json.dump(content['test'], test_file, indent=4)
 
         with open(f'{entity_dir}/{prop_id}.entity.json', 'w') as entity_file:
             json.dump(content['entity'], entity_file, indent=4)
-    
+
     print("Test and Entity creation complete.")
 
 # Get wikipedia context via API
