@@ -27,8 +27,6 @@ import nltk
 nltk.download('punkt')
 
 ### === Constants =====================  
-print('a')
-
 # PopQA
 dataset_name = 'popqa'
 tsv_file_path = "data/dataset/popQA/popQA.tsv"
