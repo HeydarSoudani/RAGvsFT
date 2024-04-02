@@ -243,7 +243,7 @@ def main(args):
     accuracy = []
     
     if args.llm_model_name == 'llama2':
-        max_new_tokens = 590 if args.with_rag else 100
+        max_new_tokens = 610 if args.with_rag else 120
         pipe = pipeline(
             task="text-generation",
             model=model,
