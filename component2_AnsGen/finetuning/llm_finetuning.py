@@ -32,7 +32,6 @@ nltk.download("punkt", quiet=True)
 print("Available GPUs:", torch.cuda.device_count())
 device = 'cuda:0'
 dataset_name = 'popQA' # [TQA, popQA, EQ]
-training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = 'all'
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
@@ -73,8 +72,6 @@ prompt_template = """<|system|>\n
         <|assistant|>\n
         Answer: {}
         """
-
-
 
 
 def load_json_file(file_path):

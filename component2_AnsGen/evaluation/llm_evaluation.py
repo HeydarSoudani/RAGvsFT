@@ -19,11 +19,55 @@ logging.basicConfig(level=logging.DEBUG,
     ])
 os.environ["WANDB_MODE"] = "offline"
 
+print("Available GPUs:", torch.cuda.device_count())
 device = 'cuda:0'
 dataset_name = 'popQA' # [TQA, popQA, EQ]
 target_relation_ids = 'all'
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
+
+### === Parameters per model
+# 1) Llama
+prompt_template_w_context = """<s>
+    You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+    [INST]\n
+    Context: {}\n
+    Question: {}\n
+    [/INST]"""
+prompt_template_wo_context = """<s>\n
+    You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+    [INST]\n
+    Question: {}\n
+    [/INST]"""
+
+# 2) Mistral
+prompt_template_w_context = """<s>\n
+    You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+    [INST]\n 
+    Context: {}\n
+    Question: {}\n
+    [/INST]"""
+prompt_template_wo_context = """<s>\n
+    You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+    [INST]\n
+    Question: {}\n
+    [/INST]"""
+
+
+# 3) Zephyr
+prompt_template_w_context = """<|system|>\n
+    You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+    <|user|>\n 
+    Context: {}\n
+    Question: {}\n
+    <|assistant|>\n""" 
+
+prompt_template_wo_context = """<|system|>\n
+    You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+    <|user|>\n 
+    Question: {}\n
+    <|assistant|>\n""" 
+
 
 def set_seed(seed):
     torch.manual_seed(seed)
@@ -219,56 +263,14 @@ def main(args):
                         break
                 if retrieved_text == "":
                     logging.info('\n')
-                    logging.info(f"No retrieved text found for query: {query}")
-                    
+                    logging.info(f"No retrieved text found for query: {query}") 
                     print('\n')
                     print("No retrieved text found for query: {}".format(query))
-            
-                if args.llm_model_name == 'llama2':
-                    prompt = f"""<s>
-                    You are an Answer Generator system that generates responses based on the context.\n
-                    [INST]\n
-                    Context: {retrieved_text}\n
-                    Question: {query}\n
-                    [/INST]
-                    """
-                elif args.llm_model_name == 'mistral':
-                    prompt = f"""<s>
-                    You are an Answer Generator system that generates responses based on the context.\n
-                    [INST]\n 
-                    Context: {retrieved_text}\n
-                    Question: {query}\n
-                    [/INST]"""
-                elif args.llm_model_name == 'zephyr':
-                    prompt =f"""
-                    <|system|>\n
-                    You are an Answer Generator system that generates responses based on the context.\n
-                    <|user|>\n 
-                    Context: {retrieved_text}\n
-                    Question: {query}\n
-                    <|assistant|>\n""" 
-                    
+                    prompt = prompt_template_wo_context.format(retrieved_text, query)                
+                else:
+                    prompt = prompt_template_w_context.format(retrieved_text, query)                    
             else:
-                if args.llm_model_name == 'llama2':
-                    prompt = f"""<s>\n
-                    You are an Answer Generator system that generates responses based on your memorized knowledge.\n
-                    [INST]\n
-                    Question: {query}\n
-                    [/INST]"""
-                elif args.llm_model_name == 'mistral':
-                    prompt = f"""<s>\n
-                    You are an Answer Generator system that generates responses based on your memorized knowledge.\n
-                    [INST]\n
-                    Question: {query}\n
-                    [/INST]"""
-                elif args.llm_model_name == 'zephyr':
-                    prompt =f"""
-                    <|system|>\n
-                    You are an Answer Generator system that generates responses based on your memorized knowledge.\n
-                    <|user|>\n 
-                    Question: {query}\n
-                    <|assistant|>\n""" 
-                    
+                prompt = prompt_template_wo_context.format(retrieved_text, query)                
                     
             if args.llm_model_name == 'llama2':
                 result = pipe(prompt)[0]['generated_text']
