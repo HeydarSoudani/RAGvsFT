@@ -26,48 +26,6 @@ target_relation_ids = 'all'
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
 
-### === Parameters per model
-# 1) Llama
-prompt_template_w_context = """<s>
-    You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-    [INST]\n
-    Context: {}\n
-    Question: {}\n
-    [/INST]"""
-prompt_template_wo_context = """<s>\n
-    You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-    [INST]\n
-    Question: {}\n
-    [/INST]"""
-
-# 2) Mistral
-prompt_template_w_context = """<s>\n
-    You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-    [INST]\n 
-    Context: {}\n
-    Question: {}\n
-    [/INST]"""
-prompt_template_wo_context = """<s>\n
-    You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-    [INST]\n
-    Question: {}\n
-    [/INST]"""
-
-
-# 3) Zephyr
-prompt_template_w_context = """<|system|>\n
-    You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-    <|user|>\n 
-    Context: {}\n
-    Question: {}\n
-    <|assistant|>\n""" 
-
-prompt_template_wo_context = """<|system|>\n
-    You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-    <|user|>\n 
-    Question: {}\n
-    <|assistant|>\n""" 
-
 
 def set_seed(seed):
     torch.manual_seed(seed)
@@ -197,12 +155,19 @@ def load_model(args):
     return model, tokenizer
 
 def main(args):
+    
+    # == Create results dir and file ========================
+    out_results_dir = f"{args.output_result_dir}/results"
+    os.makedirs(out_results_dir, exist_ok=True)
+    
     rag_part = "rag" if args.with_rag else "norag"
     peft_part = "peft" if args.with_peft else "full"
     if args.with_rag:
-        file_prefix = f"{args.output_file_pre_prefix}_{rag_part}_{args.retrieval_method}_{peft_part}"
+        file_prefix = f"{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{args.retrieval_method}_{peft_part}"
     else:
-        file_prefix = f"{args.output_file_pre_prefix}_{rag_part}_{peft_part}"
+        file_prefix = f"{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{peft_part}"
+    
+    out_results_path = f"{out_results_dir}/{file_prefix}_results.jsonl"
     
     logging.info(f"""
         Model: {args.model_name_or_path}
@@ -215,17 +180,54 @@ def main(args):
     )
     set_seed(42)
     
+    ### === Parameters per model
+    # 1) Llama2
+    if args.llm_model_name == "llama2":
+        prompt_template_w_context = """<s>
+            You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+            [INST]\n
+            Context: {}\n
+            Question: {}\n
+            [/INST]"""
+        prompt_template_wo_context = """<s>\n
+            You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+            [INST]\n
+            Question: {}\n
+            [/INST]"""
+
+    # 2) Mistral
+    elif args.llm_model_name == "mistral":
+        prompt_template_w_context = """<s>\n
+            You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+            [INST]\n 
+            Context: {}\n
+            Question: {}\n
+            [/INST]"""
+        prompt_template_wo_context = """<s>\n
+            You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+            [INST]\n
+            Question: {}\n
+            [/INST]"""
+
+    # 3) Zephyr
+    elif args.llm_model_name == "zephyr":
+        prompt_template_w_context = """<|system|>\n
+            You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+            <|user|>\n 
+            Context: {}\n
+            Question: {}\n
+            <|assistant|>\n""" 
+
+        prompt_template_wo_context = """<|system|>\n
+            You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+            <|user|>\n 
+            Question: {}\n
+            <|assistant|>\n""" 
+    
     logging.info("Inferencing ...")
     model, tokenizer = load_model(args)
     test_relation_ids, test_files, relation_files = load_relations_data(args)
     test_questions, test_answers = load_dataset(test_files)
-    
-    # == Create results dir ==================================
-    out_results_dir = f"{args.output_result_dir}/results"
-    os.makedirs(out_results_dir, exist_ok=True)
-    model_name = args.model_name_or_path.split('/')[-2]
-    str_rels = "all" if target_relation_ids == "all" else '_'.join(test_relation_ids)
-    out_results_path = f"{out_results_dir}/{str_rels}.{model_name}.{file_prefix}_results.jsonl"
     
     # == Loading the retrieval results =======================
     if args.with_rag:
@@ -316,20 +318,20 @@ def main(args):
                         is_correct = True
             accuracy.append(is_correct)
             
-            if idx % 300 == 0:
-                logging.info('\n')
-                logging.info(f"Prompt: {prompt}")
-                logging.info(f"Query: {query}")
-                logging.info(f"Pred: {pred}")
-                logging.info(f"Labels: {test_answers[idx]}")
-                logging.info(f"Final decision: {is_correct}")
-                logging.info('====')
-            # print('\n')
-            # print(f"Query: {query}")
-            # print(f"Pred: {pred}")
-            # print(f"Labels: {test_answers[idx]}")
-            # print(f"Final decision: {is_correct}")
-            # print('====')
+            # if idx % 300 == 0:
+            #     logging.info('\n')
+            #     logging.info(f"Prompt: {prompt}")
+            #     logging.info(f"Query: {query}")
+            #     logging.info(f"Pred: {pred}")
+            #     logging.info(f"Labels: {test_answers[idx]}")
+            #     logging.info(f"Final decision: {is_correct}")
+            #     logging.info('====')
+            print('\n')
+            print(f"Query: {query}")
+            print(f"Pred: {pred}")
+            print(f"Labels: {test_answers[idx]}")
+            print(f"Final decision: {is_correct}")
+            print('====')
             
             item = {
                 "query_id": query_id,

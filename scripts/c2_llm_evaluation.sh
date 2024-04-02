@@ -16,16 +16,16 @@ module load Python/3.10.4-GCCcore-11.3.0
 #Execute a Python program located in $HOME, that takes an input file and output directory as arguments.
 # pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 
-srun $HOME/RAGvsFT/component4_CBQA/llm_evaluation.py \
-    --model_name_or_path "TinyLlama/TinyLlama-1.1B-Chat-v1.0" \
-    --llm_model_name "tiny_llama" \
-    --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
-    --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
-    --output_file_pre_prefix "af" \
-    --with_peft True \
+srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
+    --model_name_or_path "meta-llama/Llama-2-7b-chat-hf" \
+    --llm_model_name "llama2" \
+    --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_costomized \
+    --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_costomized \
+    --output_file_pre_prefix "bf" \
+    --with_peft False \
     --with_fs False \
-    --with_rag True \
-    --retrieval_method "ideal"
+    --with_rag False \
+    --retrieval_method ""
 
 
 # Model name: [
