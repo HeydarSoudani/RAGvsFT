@@ -186,13 +186,13 @@ def main(args):
         prompt_template_w_context = """<s>
             You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             [INST]\n
-            Context: {}\n
-            Question: {}\n
+            Context: {context}\n
+            Question: {question}\n
             [/INST]"""
         prompt_template_wo_context = """<s>\n
             You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             [INST]\n
-            Question: {}\n
+            Question: {question}\n
             [/INST]"""
 
     # 2) Mistral
@@ -200,13 +200,13 @@ def main(args):
         prompt_template_w_context = """<s>\n
             You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             [INST]\n 
-            Context: {}\n
-            Question: {}\n
+            Context: {context}\n
+            Question: {question}\n
             [/INST]"""
         prompt_template_wo_context = """<s>\n
             You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             [INST]\n
-            Question: {}\n
+            Question: {question}\n
             [/INST]"""
 
     # 3) Zephyr
@@ -214,14 +214,14 @@ def main(args):
         prompt_template_w_context = """<|system|>\n
             You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             <|user|>\n 
-            Context: {}\n
-            Question: {}\n
+            Context: {context}\n
+            Question: {question}\n
             <|assistant|>\n""" 
 
         prompt_template_wo_context = """<|system|>\n
             You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             <|user|>\n 
-            Question: {}\n
+            Question: {question}\n
             <|assistant|>\n""" 
     
     logging.info("Inferencing ...")
@@ -254,7 +254,7 @@ def main(args):
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 10:
+            if idx == 5:
                 break
             
             retrieved_text = ""
@@ -268,11 +268,11 @@ def main(args):
                     logging.info(f"No retrieved text found for query: {query}") 
                     print('\n')
                     print("No retrieved text found for query: {}".format(query))
-                    prompt = prompt_template_wo_context.format(retrieved_text, query)                
+                    prompt = prompt_template_wo_context.format(question=query)                
                 else:
-                    prompt = prompt_template_w_context.format(retrieved_text, query)                    
+                    prompt = prompt_template_w_context.format(context=retrieved_text, question=query)                    
             else:
-                prompt = prompt_template_wo_context.format(retrieved_text, query)                
+                prompt = prompt_template_wo_context.format(question=query)                
                     
             print(prompt)
             if args.llm_model_name == 'llama2':
