@@ -10,6 +10,7 @@ import math
 import logging
 import argparse
 import random
+from tqdm import tqdm
 import matplotlib.pyplot as plt
 import urllib.request as urllib2
 from urllib.parse import quote
@@ -20,6 +21,7 @@ from nltk.tokenize import sent_tokenize
 import numpy as np
 import requests
 import wikipediaapi
+from transformers import pipeline
 
 import nltk
 nltk.download('punkt')
@@ -168,6 +170,20 @@ num_entities_per_relation = 20
 dev_split = 0.1
 max_tokens = 512
 
+
+def extract_json_objects(text):
+    pattern = r'\{[^{}]*\}'
+    json_strings = re.findall(pattern, text)
+    
+    json_objects = []
+    for json_str in json_strings:
+        try:
+            json_obj = json.loads(json_str)
+            json_objects.append(json_obj)
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON: {e}")
+    
+    return json_objects
 
 def get_wikipedia_title_from_wikidata(wikidata_id):
     wikidata_url = f"https://www.wikidata.org/w/api.php?action=wbgetentities&ids={wikidata_id}&format=json&props=sitelinks"
@@ -654,7 +670,7 @@ def add_empty_entities():
         with open(f"{corpus_dir}/{relation_id}.new_corpus.json", 'w', encoding='utf-8') as json_file:
             json.dump(data, json_file, indent=4)   
 
-def create_train_and_dev_files(args, relation_id=None):
+def create_train_and_dev_files_pipeline(args, relation_id=None):
     model = TransformersQG(
         language='en',
         model=args.qg_model,
@@ -815,6 +831,105 @@ def create_train_and_dev_files(args, relation_id=None):
              
     print("Train, Dev, and Qrels-Train creation complete.")
 
+def create_train_and_dev_files_prompting(args, relation_id=None):
+    pipe = pipeline(
+        "text-generation",
+        model="HuggingFaceH4/zephyr-7b-beta",
+        torch_dtype=torch.bfloat16,
+        device_map="auto"
+    )
+    
+    prompt_qa_generation = lambda context: f"""
+    Example output: {{“question”: “”, “answer”: ""}}
+
+    Context: {context}
+
+    Step 1: Identify spans that are likely to be answers to questions, identify as many as possible.
+    Step 2: For each identified span, generate a question.
+    Step 3: Respond to the question in only a few tokens concisely.
+    Step 4: Output in JSON format following the example above (i.e., `{{...}}`).
+    Ensure that you distinctly label and delineate Steps 1, 2, 3, and 4. Let's think step by step:
+    """.replace('    ', '')
+    
+    query_id_counter = 0
+    
+    with open(f'{corpus_sum_dir}/{relation_id}.corpus.json', 'r', encoding='utf-8') as cf:
+        data = json.load(cf)
+        
+        all_qas = []
+        qrels_train = []
+        for item in tqdm(data, desc=f"Processing {relation_id} ..."):
+        
+        # for idx, item in enumerate(data):
+            # if idx == 5:
+            #     break
+            
+            context = item['content']
+            doc_id = item['doc_id']
+            
+            max_tokens = 256
+            chunks = split_text_to_sentences(context, max_tokens)
+            for chunk in chunks:
+            
+                _prompt = [
+                    { "role": "system", "content": "You are a question-answer generator. Your goal is to generate question-answer pairs given the Context.\n"},
+                    { "role": "user", "content": prompt_qa_generation(chunk)}
+                ]
+            
+                prompt = pipe.tokenizer.apply_chat_template(_prompt, tokenize=False, add_generation_prompt=True)
+                outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
+                new_pt = outputs[0]["generated_text"]
+                qas = extract_json_objects(new_pt)
+            
+                if qas is not None:
+                    # print(qas)
+                    for qa in qas:
+                        if "question" in qa.keys() and "answer" in qa.keys():
+                            # print("The question is: {}".format(qa["question"]))
+                            # print("The answer is: {}".format(qa["answer"]))                     
+                        
+                            all_qas.append({
+                                'query_id': f"qa_{relation_id}_{query_id_counter}",
+                                'question': qa["question"],
+                                'answers': [qa["answer"]]
+                            })
+                            qrels_train.append({
+                                'query_id': f"qa_{relation_id}_{query_id_counter}",
+                                'doc_id': doc_id,
+                                'score': 1
+                            })
+                            query_id_counter += 1
+                        else:
+                            print("This QA object is missing either 'question' or 'answer' keys:", qa.keys())
+    
+    # Filtering step
+    pattern = r'context\W'
+    
+    # filtered_qas = [qa for qa in all_qas if len(qa["question"].split()) >= 4]    
+    filtered_qas = [
+        qa for qa in all_qas 
+        if isinstance(qa["question"], str) and isinstance(qa["answers"], list) and
+            all(isinstance(answer, str) for answer in qa["answers"]) and
+            len(qa["question"].split()) >= 4 and
+            not re.search(pattern, qa["question"], re.IGNORECASE) and
+            not any(re.search(pattern, answer, re.IGNORECASE) for answer in qa["answers"])
+    ]
+    
+    random.shuffle(filtered_qas)
+    split_index = int(len(filtered_qas) * dev_split)
+    train_qas = filtered_qas[split_index:]
+    dev_qas = filtered_qas[:split_index]
+
+    with open(f'{pr_train_dir}/{relation_id}.train.json', 'w', encoding='utf-8') as tf:
+        json.dump(train_qas, tf, indent=4)
+    
+    with open(f'{pr_dev_dir}/{relation_id}.dev.json', 'w', encoding='utf-8') as df:
+        json.dump(dev_qas, df, indent=4)
+    
+    with open(f'{pr_qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
+        json.dump(qrels_train, qf, indent=4)
+    
+
 def split_to_buckets(objects, split_points):
     
     split_points = sorted(split_points)
@@ -963,7 +1078,8 @@ def main(args):
     # To Do:
     relation_id = relation_ids[0]
     print(relation_id)
-    create_train_and_dev_files(args, relation_id=relation_id)
+    # create_train_and_dev_files_pipeline(args, relation_id=relation_id) # T5-based model
+    create_train_and_dev_files_prompting(args, relation_id=relation_id)# Zephyr-based model
     
     ### ==== Plotting the distribution of the number of queries in each bucket
     # plot_bucket_num()
