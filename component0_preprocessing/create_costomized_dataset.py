@@ -27,6 +27,7 @@ import nltk
 nltk.download('punkt')
 
 ### === Constants =====================  
+print('a')
 
 # PopQA
 dataset_name = 'popqa'
