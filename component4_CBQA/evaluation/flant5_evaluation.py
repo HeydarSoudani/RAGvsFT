@@ -155,10 +155,11 @@ def load_model(args):
             # device_map={"": 0}
             device_map="auto"
         )
-        # tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
+        tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
+        # tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
         # tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-large")
         # tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
-        tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
+        # tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-small")
         
     
     # model.to(device)
@@ -194,7 +195,7 @@ def main(args):
     # == Create results dir ==================================
     out_results_dir = f"{args.output_result_dir}/results"
     os.makedirs(out_results_dir, exist_ok=True)
-    model_name = args.model_name_or_path.split('/')[-2]
+    model_name = args.model_name_or_path.split('/')[-1]
     str_rels = "all" if target_relation_ids == "all" else '_'.join(test_relation_ids)
     out_results_path = f"{out_results_dir}/{str_rels}.{model_name}.{file_prefix}_results.jsonl"
     
@@ -215,7 +216,7 @@ def main(args):
     
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
-            # if idx == 100:
+            # if idx == 50:
             #     break
             
             few_shot_examples_text = ""

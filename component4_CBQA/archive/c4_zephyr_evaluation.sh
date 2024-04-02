@@ -17,13 +17,13 @@ module load Python/3.10.4-GCCcore-11.3.0
 # pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 
 srun $HOME/RAGvsFT/component4_CBQA/zephyr_evaluation.py \
-    --model_name_or_path "HuggingFaceH4/zephyr-7b-beta" \
+    --model_name_or_path $HOME/RAGvsFT/component4_CBQA/models/zephyr-7b-beta_peft_v5/checkpoint-31780 \
     --data_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
     --output_result_dir $HOME/RAGvsFT/component0_preprocessing/generated_data/popQA_EQformat \
-    --output_file_pre_prefix "bf" \
-    --with_peft False \
+    --output_file_pre_prefix "af" \
+    --with_peft True \
     --with_fs False \
-    --with_rag True \
-    --retrieval_method "ideal"
+    --with_rag False \
+    --retrieval_method ""
 
 # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']

@@ -321,8 +321,8 @@ def main(args):
     
     print("Fine-tuning ....")
     save_model_dir = os.path.join(args.output_model_dir, args.repo_name.split('/')[-1])
-    trainer.train(resume_from_checkpoint=True)
-    # trainer.train()
+    # trainer.train(resume_from_checkpoint=True)
+    trainer.train()
     model.save_pretrained(save_model_dir)
     model.push_to_hub(args.repo_name, token=True)
     print("Fine-tuning is done.")
