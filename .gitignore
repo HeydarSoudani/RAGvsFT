@@ -124,6 +124,7 @@ data/dataset
 
 component0_preprocessing/archive
 component0_preprocessing/generated_data/popQA_costomized/archive
+component0_preprocessing/generated_data/popQA_costomized/results/archive
 component0_preprocessing/generated_data/popQA_costomized/entities_analysis.json
 component0_preprocessing/generated_data/EQ_costomized/entities_analysis.json
 
