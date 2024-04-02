@@ -184,13 +184,13 @@ def main(args):
     # 1) Llama2
     if args.llm_model_name == "llama2":
         prompt_template_w_context = """<s>
-            You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             [INST]\n
             Context: {context}\n
             Question: {question}\n
             [/INST]"""
         prompt_template_wo_context = """<s>\n
-            You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             [INST]\n
             Question: {question}\n
             [/INST]"""
