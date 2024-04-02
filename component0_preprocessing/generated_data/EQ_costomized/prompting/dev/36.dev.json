@@ -1,0 +1,30 @@
+[
+    {
+        "query_id": "qa_36_0",
+        "question": "Where is Azerbaijan located?",
+        "answers": [
+            "At the boundary of Eastern Europe and Western Asia, bounded by the Caspian Sea, Russia, Georgia, Armenia, Turkey, and Iran."
+        ]
+    },
+    {
+        "query_id": "qa_36_28",
+        "question": "What are the main economic activities in Bolivia?",
+        "answers": [
+            "Bolivia's main economic activities include agriculture, forestry, fishing, mining, and manufacturing goods such as textiles, clothing, refined metals, and refined petroleum."
+        ]
+    },
+    {
+        "query_id": "qa_36_14",
+        "question": "How many people live in Aalborg Municipality?",
+        "answers": [
+            "197,426"
+        ]
+    },
+    {
+        "query_id": "qa_36_33",
+        "question": "What was the relationship between the Kingdom of Dahomey and the Oyo Empire in the 18th and 19th centuries?",
+        "answers": [
+            "Ended tributary status"
+        ]
+    }
+]

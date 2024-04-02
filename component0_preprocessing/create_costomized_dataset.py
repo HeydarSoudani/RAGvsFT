@@ -97,7 +97,7 @@ dataset_name = 'eq'
 sub_type = 'test'
 data_evidence_dir = "data/dataset/entity_questions_dataset/data_evidence"
 output_dir = 'component0_preprocessing/generated_data/EQ_costomized'
-relation_ids = ['36', '407', '26', '159', '276', '40', '176', '20', '112', '127', '19', '740', '413', '800', '69', '50', '170', '106', '131', '17', '175', '136', '264', '495']
+relation_ids = ['17', '19', '20', '26', '36', '40', '50', '69', '106', '112', '127', '131', '136', '159', '170', '175', '176', '264', '276', '407', '413', '495', '740', '800']
 RELATIONS = {
   "36": "capital",
   "407": "language written in",
@@ -124,7 +124,6 @@ RELATIONS = {
   "264": "music label",
   "495": "creation country"
 }
-
 
 # === Output Directories =====================
 entities_analysis_file = f"{output_dir}/entities_analysis.json"
@@ -831,7 +830,7 @@ def create_train_and_dev_files_pipeline(args, relation_id=None):
              
     print("Train, Dev, and Qrels-Train creation complete.")
 
-def create_train_and_dev_files_prompting(args, relation_id=None):
+def create_train_and_dev_files_prompting(relation_id):
     pipe = pipeline(
         "text-generation",
         model="HuggingFaceH4/zephyr-7b-beta",
@@ -858,11 +857,11 @@ def create_train_and_dev_files_prompting(args, relation_id=None):
         
         all_qas = []
         qrels_train = []
-        for item in tqdm(data, desc=f"Processing {relation_id} ..."):
-        
-        # for idx, item in enumerate(data):
-            # if idx == 5:
-            #     break
+        # for item in tqdm(data, desc=f"Processing {relation_id} ..."):
+        for idx, item in enumerate(data):
+            
+            if idx == 5:
+                break
             
             context = item['content']
             doc_id = item['doc_id']
@@ -928,7 +927,6 @@ def create_train_and_dev_files_prompting(args, relation_id=None):
     
     with open(f'{pr_qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
         json.dump(qrels_train, qf, indent=4)
-    
 
 def split_to_buckets(objects, split_points):
     
@@ -1079,7 +1077,7 @@ def main(args):
     relation_id = relation_ids[0]
     print(relation_id)
     # create_train_and_dev_files_pipeline(args, relation_id=relation_id) # T5-based model
-    create_train_and_dev_files_prompting(args, relation_id=relation_id)# Zephyr-based model
+    create_train_and_dev_files_prompting(relation_id=relation_id)# Zephyr-based model
     
     ### ==== Plotting the distribution of the number of queries in each bucket
     # plot_bucket_num()
@@ -1087,8 +1085,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    # parser.add_argument("--qg_model", type=str, required=True)
-    # parser.add_argument("--ae_model", type=str, required=True)
+    parser.add_argument("--qg_model", type=str, required=True)
+    parser.add_argument("--ae_model", type=str, required=True)
     
     args = parser.parse_args()
     main(args)

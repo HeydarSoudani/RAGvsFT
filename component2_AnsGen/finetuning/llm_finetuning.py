@@ -31,17 +31,56 @@ nltk.download("punkt", quiet=True)
 
 print("Available GPUs:", torch.cuda.device_count())
 device = 'cuda:0'
-prompt_prefix = "Answer the question : "
 dataset_name = 'popQA' # [TQA, popQA, EQ]
 training_style = 'qa' # ['clm', 'qa']
 target_relation_ids = 'all'
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
 
+### === Parameters per model
+# 1) Llama
+batch_size = 32
+fp16 = True
+bf16 = False
+prompt_template = """<s>
+        You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+        [INST]\n
+        Question: {}\n
+        [/INST]\n
+        Answer: {}
+        </s>"""
+
+# 2) Mistral
+batch_size = 4
+fp16=False
+bf16=False
+prompt_template = """<s>
+        You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+        [INST]\n
+        Question: {}\n
+        [/INST]\n
+        Answer: {}
+        </s>"""
+
+# 3) Zephyr
+batch_size = 4
+fp16=False
+bf16=False
+prompt_template = """<|system|>\n
+        You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+        <|user|>\n 
+        Question: {}\n
+        <|assistant|>\n
+        Answer: {}
+        """
+
+
+
+
 def load_json_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
-
+    
 def set_seed(seed):
     """Set the seed for reproducibility in PyTorch, NumPy, and Python."""
     torch.manual_seed(seed)
@@ -57,7 +96,7 @@ def load_model(args):
     if not args.with_peft:
         model = AutoModelForCausalLM.from_pretrained(
             args.model_name_or_path,
-            # device_map={"": 0}
+            device_map={"": 0}
         )
         model.config.use_cache = False
         n_params = sum({p.data_ptr(): p.numel() for p in model.parameters()}.values())
@@ -73,7 +112,7 @@ def load_model(args):
         model = AutoModelForCausalLM.from_pretrained(
             args.model_name_or_path,
             quantization_config=bnb_config,
-            trust_remote_code=True
+            device_map={"": 0}
         )
         model.config.use_cache = False
         model = prepare_model_for_kbit_training(model)
@@ -81,16 +120,41 @@ def load_model(args):
         lora_alpha = 16
         lora_dropout = 0.1
         lora_r = 64
-        peft_config = LoraConfig(
-            lora_alpha=lora_alpha,
-            lora_dropout=lora_dropout,
-            r=lora_r,
-            bias="none",
-            task_type="CAUSAL_LM"
-        )
+        if args.llm_model_name == 'llama':
+            peft_config = LoraConfig(
+                lora_alpha=lora_alpha,
+                lora_dropout=lora_dropout,
+                r=lora_r,
+                bias="none",
+                task_type="CAUSAL_LM"
+            )
+        elif args.llm_model_name == 'mistral':
+            peft_config = LoraConfig(
+                lora_alpha=lora_alpha,
+                lora_dropout=lora_dropout,
+                r=lora_r,
+                target_modules=[
+                    "q_proj",
+                    "k_proj",
+                    "v_proj",
+                    "o_proj",
+                    "gate_proj",
+                    "up_proj",
+                    "down_proj",
+                    "lm_head",
+                ],
+                bias="none",
+                task_type="CAUSAL_LM",
+            )
     
-    tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path, trust_remote_code=True)
+    tokenizer = AutoTokenizer.from_pretrained(
+        args.model_name_or_path,
+        trust_remote_code=True
+    )
     tokenizer.pad_token = tokenizer.eos_token
+    
+    if args.llm_model_name == 'mistral':
+        tokenizer.padding_side = "right"
     
     return model, tokenizer, peft_config
 
@@ -131,7 +195,7 @@ def load_relations_data(args):
 
     return test_relation_ids, test_files, relation_files     
 
-def load_dataset_qa(tokenizer, test_files):
+def load_dataset_qa(test_files):
     train_data = []
     for file in test_files['train']:
     # for file in test_files['test']:
@@ -157,21 +221,13 @@ def load_dataset_qa(tokenizer, test_files):
         val_questions = [item['Question'] for item in subset_dev_data]
         val_answers = [item['Answer']['NormalizedAliases'] for item in subset_dev_data]
 
-
-    # <s>[INST] <<SYS>>
-    # Answer the question: 
-    # <</SYS>>
-    # {} [/INST] {} </s> 
-
     train_data = [
-        """ <s>[INST] Answer the question: {} [/INST] {} </s>"""
-        .format(question, train_answers[i])
+        prompt_template.format(question, train_answers[i])
         for i, question in enumerate(train_questions)
     ]
     
     val_data = [
-        """ <s>[INST] Answer the question: {} [/INST] {} </s>"""
-        .format(question, val_answers[i])
+        prompt_template.format(question, val_answers[i])
         for i, question in enumerate(val_questions)
     ]
 
@@ -186,64 +242,13 @@ def load_dataset_qa(tokenizer, test_files):
     print(raw_dataset)
     return raw_dataset
 
-    
-    
-    # # === Get max length =====
-    # tokenized_inputs = concatenate_datasets([raw_dataset['train'], raw_dataset['dev']]).map(
-    # lambda x: tokenizer(x["question"], truncation=True), batched=True, remove_columns=["question", "possible_answers"]
-    # )
-    # max_source_length = max([len(x) for x in tokenized_inputs["input_ids"]])
-    # print(f"Max source length: {max_source_length}")
-
-    # tokenized_targets = concatenate_datasets([raw_dataset["train"], raw_dataset["dev"]]).map(
-    #     lambda x: tokenizer(x["possible_answers"][0], truncation=True), batched=True, remove_columns=["question", "possible_answers"])
-    # max_target_length = max([len(x) for x in tokenized_targets["input_ids"]])
-    # print(f"Max target length: {max_target_length}")
-    
-    # def tokenize_function(examples):        
-    #     inputs = [prompt_prefix + item for item in examples['question']]
-    #     model_inputs = tokenizer(
-    #         inputs,
-    #         max_length=max_source_length,
-    #         truncation=True
-    #     )
-    #     labels = tokenizer(
-    #         text_target=[pa[0] for pa in examples["possible_answers"]],
-    #         max_length=max_target_length,
-    #         truncation=True
-    #     )
-    #     model_inputs["labels"] = labels["input_ids"]
-        
-    #     return model_inputs
-    
-    # tokenized_train_datasets = raw_dataset.map(
-    #     tokenize_function,
-    #     batched=True,
-    #     remove_columns=["question", "possible_answers"],
-    #     desc="Running tokenizer on dataset",
-    # )
-    # print(tokenized_train_datasets)
-    
-    # # === Print a sample of dataset
-    # input_text = tokenizer.decode(
-    #     tokenized_train_datasets['train'][0]["input_ids"],
-    #     skip_special_tokens=True
-    # )
-    # label_text = tokenizer.decode(
-    #     tokenized_train_datasets['train'][0]["labels"],
-    #     skip_special_tokens=True
-    # )
-    # print(input_text)
-    # print(label_text)
-    # return tokenized_train_datasets
-
 def load_training_args(args):
     save_model_dir = os.path.join(args.output_model_dir, args.repo_name.split('/')[-1])
         
     training_arguments = TrainingArguments(
         output_dir=save_model_dir,
-        per_device_train_batch_size=32,
-        per_device_eval_batch_size=32,
+        per_device_train_batch_size=batch_size,
+        per_device_eval_batch_size=batch_size,
         gradient_accumulation_steps=1,
         optim="paged_adamw_32bit",
         num_train_epochs=args.epochs,
@@ -252,24 +257,17 @@ def load_training_args(args):
         logging_strategy="epoch",
         save_strategy="epoch",
         save_total_limit=2,
+        fp16=fp16,
+        bf16=fp16,
         
         report_to="wandb",
         push_to_hub=False,
         hub_strategy="every_save",
         hub_model_id=args.repo_name.split('/')[-1],
-        hub_token=HfFolder.get_token(),
-        
-        fp16=True,
-        # max_grad_norm=max_grad_norm,
-        # max_steps=max_steps,
-        # warmup_ratio=warmup_ratio,
-        # group_by_length=True,
-        # lr_scheduler_type=lr_scheduler_type,
-        # report_to=[],  # Add this line to disable wandb logging
+        hub_token=HfFolder.get_token()
     )
     
     return training_arguments
-
 
 def main(args):
     logging.info(f"""
@@ -277,18 +275,16 @@ def main(args):
         PEFT: {args.with_peft}
         Version: {args.version}
     """)
-    
     args.repo_name = "HeydarS/{}_{}_v{}".format(
         args.model_name_or_path.split('/')[-1],
         'peft' if args.with_peft else 'full',
         args.version
     )
-    
     set_seed(42)
     
     model, tokenizer, peft_config = load_model(args)
     test_relation_ids, test_files, relation_files = load_relations_data(args)
-    raw_dataset = load_dataset_qa(tokenizer, test_files)
+    raw_dataset = load_dataset_qa(test_files)
     
     training_arguments = load_training_args(args)
     
@@ -327,6 +323,7 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, required=True)
+    parser.add_argument("--llm_model_name", type=str, required=True)
     parser.add_argument("--data_dir", type=str)
     parser.add_argument("--generation_method", type=str)
     parser.add_argument("--output_model_dir", type=str)
@@ -338,3 +335,5 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
     main(args)
+
+
