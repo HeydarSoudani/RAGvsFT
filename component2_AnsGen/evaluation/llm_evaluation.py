@@ -243,7 +243,7 @@ def main(args):
     accuracy = []
     # if args.llm_model_name in ["llama2", "tiny_llama"]:
         # max_new_tokens = 100
-    max_new_tokens = 790 if args.rag else 300
+    max_new_tokens = 790 if args.with_rag else 300
     pipe = pipeline(
         task="text-generation",
         model=model,
@@ -282,41 +282,9 @@ def main(args):
             result = pipe(prompt)[0]['generated_text']
             print("\n")
             print(result)
-            if args.llm_model_name in ["llama2", "tiny_llama"]:
+            if args.llm_model_name in ["llama2", "tiny_llama", "mistral"]:
                 pred = result.split("[/INST]")[1].strip()
-                
-            elif args.llm_model_name == 'mistral':
-                # inpts = tokenizer(prompt, return_tensors="pt").to(device)
-                # with torch.no_grad():
-                #     gen = model.generate(
-                        # inpts,
-                #         max_new_tokens=max_new_tokens,
-                #         do_sample=True,
-                #         top_p=0.9,
-                #         temperature=0.5
-                #     )
-                #     result = tokenizer.decode(
-                #         gen[0],
-                #         skip_special_tokens=True,
-                #         clean_up_tokenization_spaces=True,
-                #     )
-                pred = result.split("[/INST]")[1].strip()
-            
             elif args.llm_model_name == 'zephyr':
-                # inpts = tokenizer(prompt, return_tensors="pt").to(device)
-                # with torch.no_grad():
-                #     gen = model.generate(
-                #         inpts,
-                #         max_new_tokens=max_new_tokens,
-                #         do_sample=True,
-                #         top_p=0.9,
-                #         temperature=0.5
-                #     )
-                #     result = tokenizer.decode(
-                #         gen[0],
-                #         skip_special_tokens=True,
-                #         clean_up_tokenization_spaces=True,
-                #     )
                 pred = result.split("<|assistant|>")[1].strip()
             
             is_correct = False
