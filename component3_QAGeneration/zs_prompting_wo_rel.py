@@ -12,14 +12,33 @@ import random
 import nltk
 nltk.download('punkt')
 
-output_dir = "component0_preprocessing/generated_data/popQA_EQformat"
-# corpus_dir = f"{output_dir}/corpus_all"
-corpus_dir = f"{output_dir}/corpus_first2"
-# corpus_dir = f"{output_dir}/corpus_summary"
 
-train_dir = f"{output_dir}/prompting/train2" 
-dev_dir = f"{output_dir}/prompting/dev2" 
-qrels_train_dir = f"{output_dir}/prompting/qrels-train2" 
+# PopQA
+dataset_name = 'popqa'
+output_dir = 'component0_preprocessing/generated_data/popQA_costomized'
+relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
+
+# WitQA
+dataset_name = 'witqa'
+output_dir = 'component0_preprocessing/generated_data/witQA_costomized'
+relation_ids = ['17', '19', '22', '25', '27', '36', '50', '57', '58', '69', '86', '106', '123', '136', '140', '149', '162', '184', '344', '452', '462', '641', '674', '1038', '1050', '1376', '1431', '1433', '2012', '2936', '3301', '4647']
+
+
+# EQ
+# dataset_name = 'eq'
+# output_dir = 'component0_preprocessing/generated_data/EQ_costomized'
+# relation_ids = ['36', '407', '26', '159', '276', '40', '176', '20', '112', '127', '19', '740', '413', '800', '69', '50', '170', '106', '131', '17', '175', '136', '264', '495']
+
+
+# Created from step 2
+corpus_sum_dir = f"{output_dir}/corpus_summary" 
+corpus_all_dir = f"{output_dir}/corpus_all"
+
+
+# Output of step 3
+train_dir = f"{output_dir}/prompting/train" 
+dev_dir = f"{output_dir}/prompting/dev" 
+qrels_train_dir = f"{output_dir}/prompting/qrels-train" 
 
 os.makedirs(f"{output_dir}/prompting", exist_ok=True)
 os.makedirs(train_dir, exist_ok=True)
@@ -92,8 +111,6 @@ def prompting_qa_generation(relation_id):
     )
     
     prompt_qa_generation = lambda context: f"""
-    You are a question-answer generator. Your goal is to generate question-answer pairs given the Context.
-
     Example output: {{“question”: “”, “answer”: ""}}
 
     Context: {context}
@@ -114,7 +131,7 @@ def prompting_qa_generation(relation_id):
     # print(f"Processing relation file: {relation_id}")
     query_id_counter = 0
     
-    with open(f'{corpus_dir}/{relation_id}.corpus.json', 'r', encoding='utf-8') as cf:
+    with open(f'{corpus_sum_dir}/{relation_id}.corpus.json', 'r', encoding='utf-8') as cf:
         data = json.load(cf)
         
         all_qas = []
@@ -133,7 +150,7 @@ def prompting_qa_generation(relation_id):
             for chunk in chunks:
             
                 _prompt = [
-                    { "role": "system", "content": "\n"},
+                    { "role": "system", "content": "You are a question-answer generator. Your goal is to generate question-answer pairs given the Context.\n"},
                     { "role": "user", "content": prompt_qa_generation(chunk)}
                 ]
             
@@ -220,17 +237,13 @@ def post_filtering(relation_id):
 if __name__ == "__main__":
     # parser = argparse.ArgumentParser()
     # args = parser.parse_args()
-    
-    # Done: 106, 22, 560, 218, 182, 97, 257, 164, 526, 639, 91, 533, 472, 292, 422
-    # Doing: 484, 
-    # To Do: 
-    
+        
     ### === Second round 
-    # For 472 -> all paragraphs, other relations -> first 2 paragraphs
-    # Done: 472, 218, 292
-    # Doing: 106, 164   
-    # To Do: 182, 22, 560, 97, 257, , 526, 639, 91, 533, 484
-    relation_id = "164"
+    # Done:
+    # Doing:
+    # To Do:
+    relation_id = relation_ids[0]
+    print(relation_id)
     prompting_qa_generation(relation_id=relation_id)
     
     # post_filtering(relation_id=relation_id)

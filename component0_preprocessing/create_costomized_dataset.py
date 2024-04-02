@@ -13,8 +13,8 @@ import random
 import matplotlib.pyplot as plt
 import urllib.request as urllib2
 from urllib.parse import quote
-# from lmqg import TransformersQG
-# from lmqg.exceptions import AnswerNotFoundError, ExceedMaxLengthError
+from lmqg import TransformersQG
+from lmqg.exceptions import AnswerNotFoundError, ExceedMaxLengthError
 from nltk.tokenize import sent_tokenize
 # from datasets import load_dataset
 import numpy as np
@@ -949,7 +949,7 @@ def main(args):
     # create_test_and_entity_files()
     
     ### ==== Step 1 (for EQ dataset): Creating test & entity files ====
-    create_test_and_entity_files_EQ() # run in Kaggle
+    # create_test_and_entity_files_EQ() # run in Kaggle
 
     ### ==== Step 2: Creating corpus & qrels files ====================
     # create_corpus_and_qrels_files_via_api()
@@ -961,9 +961,9 @@ def main(args):
     # Done: 
     # Doing: 
     # To Do:
-    # relation_id = relation_ids[0]
-    # print(relation_id)
-    # create_train_and_dev_files(args, relation_id=relation_id)
+    relation_id = relation_ids[0]
+    print(relation_id)
+    create_train_and_dev_files(args, relation_id=relation_id)
     
     ### ==== Plotting the distribution of the number of queries in each bucket
     # plot_bucket_num()
