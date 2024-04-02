@@ -281,10 +281,12 @@ def main(args):
             result = pipe(prompt)[0]['generated_text']
             print("\n")
             print(result)
-            if args.llm_model_name in ["llama2", "tiny_llama", "MiniCPM", "mistral"]:
+            if args.llm_model_name in ["llama2", "tiny_llama", "mistral"]:
                 pred = result.split("[/INST]")[1].strip()
             elif args.llm_model_name == 'zephyr':
                 pred = result.split("<|assistant|>")[1].strip()
+            elif args.llm_model_name == 'MiniCPM':
+                pred = result.split("<AI>")[1].strip()
             
             is_correct = False
             for pa in test_answers[idx]:
