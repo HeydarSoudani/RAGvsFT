@@ -33,6 +33,7 @@ srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
     # mistral: "mistralai/Mistral-7B-Instruct-v0.1"
     # zephyr: "HuggingFaceH4/zephyr-7b-beta"
     # tiny_llama: "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+    # MiniCPM: "openbmb/MiniCPM-2B-sft-fp32"
 # ]
 # retrieval method: ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
 

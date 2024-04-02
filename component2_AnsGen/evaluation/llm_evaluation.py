@@ -181,8 +181,8 @@ def main(args):
     set_seed(42)
     
     ### === Parameters per model
-    # 1) Llama2 & tiny_llama
-    if args.llm_model_name in ["llama2", "tiny_llama"]:
+    # 1) Llama2 & tiny_llama & Mistral
+    if args.llm_model_name in ["llama2", "tiny_llama", "mistral", "MiniCPM"]:
         prompt_template_w_context = """<s>
             You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             [INST]\n
@@ -195,21 +195,7 @@ def main(args):
             Question: {question}\n
             [/INST]"""
 
-    # 2) Mistral
-    elif args.llm_model_name == "mistral":
-        prompt_template_w_context = """<s>\n
-            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-            [INST]\n 
-            Context: {context}\n
-            Question: {question}\n
-            [/INST]"""
-        prompt_template_wo_context = """<s>\n
-            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-            [INST]\n
-            Question: {question}\n
-            [/INST]"""
-
-    # 3) Zephyr
+    # 2) Zephyr
     elif args.llm_model_name == "zephyr":
         prompt_template_w_context = """<|system|>\n
             You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
@@ -241,15 +227,12 @@ def main(args):
     
     # == Loop over the test questions ========================
     accuracy = []
-    # if args.llm_model_name in ["llama2", "tiny_llama"]:
-        # max_new_tokens = 100
     max_new_tokens = 790 if args.with_rag else 300
     pipe = pipeline(
         task="text-generation",
         model=model,
         tokenizer=tokenizer,
         max_new_tokens = max_new_tokens
-        # max_length=max_new_tokens
     )
     
     with open(out_results_path, 'w') as file:
@@ -282,7 +265,7 @@ def main(args):
             result = pipe(prompt)[0]['generated_text']
             print("\n")
             print(result)
-            if args.llm_model_name in ["llama2", "tiny_llama", "mistral"]:
+            if args.llm_model_name in ["llama2", "tiny_llama", "MiniCPM", "mistral"]:
                 pred = result.split("[/INST]")[1].strip()
             elif args.llm_model_name == 'zephyr':
                 pred = result.split("<|assistant|>")[1].strip()
