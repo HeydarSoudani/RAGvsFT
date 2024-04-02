@@ -241,20 +241,20 @@ def main(args):
     
     # == Loop over the test questions ========================
     accuracy = []
-    if args.llm_model_name in ["llama2", "tiny_llama"]:
+    # if args.llm_model_name in ["llama2", "tiny_llama"]:
         # max_new_tokens = 100
-        pipe = pipeline(
-            task="text-generation",
-            model=model,
-            tokenizer=tokenizer,
-            # max_length=max_new_tokens
-        )
+    pipe = pipeline(
+        task="text-generation",
+        model=model,
+        tokenizer=tokenizer,
+        # max_length=max_new_tokens
+    )
     
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            # if idx == 10:
-            #     break
+            if idx == 10:
+                break
             
             retrieved_text = ""
             has_context = False
@@ -276,43 +276,45 @@ def main(args):
             else:
                 prompt = prompt_template_wo_context.format(question=query)                
                     
-            # print(prompt)
+            print(prompt)
+            result = pipe(prompt)[0]['generated_text']
+            print("\n")
+            print(result)
             if args.llm_model_name in ["llama2", "tiny_llama"]:
-                result = pipe(prompt)[0]['generated_text']
                 pred = result.split("[/INST]")[1].strip()
                 
             elif args.llm_model_name == 'mistral':
-                inpts = tokenizer(prompt, return_tensors="pt").to(device)
-                with torch.no_grad():
-                    gen = model.generate(
-                        **inpts,
-                        max_new_tokens=max_new_tokens,
-                        do_sample=True,
-                        top_p=0.9,
-                        temperature=0.5
-                    )
-                    result = tokenizer.decode(
-                        gen[0],
-                        skip_special_tokens=True,
-                        clean_up_tokenization_spaces=True,
-                    )
+                # inpts = tokenizer(prompt, return_tensors="pt").to(device)
+                # with torch.no_grad():
+                #     gen = model.generate(
+                        # inpts,
+                #         max_new_tokens=max_new_tokens,
+                #         do_sample=True,
+                #         top_p=0.9,
+                #         temperature=0.5
+                #     )
+                #     result = tokenizer.decode(
+                #         gen[0],
+                #         skip_special_tokens=True,
+                #         clean_up_tokenization_spaces=True,
+                #     )
                 pred = result.split("[/INST]")[1].strip()
             
             elif args.llm_model_name == 'zephyr':
-                inpts = tokenizer(prompt, return_tensors="pt").to(device)
-                with torch.no_grad():
-                    gen = model.generate(
-                        **inpts,
-                        max_new_tokens=max_new_tokens,
-                        do_sample=True,
-                        top_p=0.9,
-                        temperature=0.5
-                    )
-                    result = tokenizer.decode(
-                        gen[0],
-                        skip_special_tokens=True,
-                        clean_up_tokenization_spaces=True,
-                    )
+                # inpts = tokenizer(prompt, return_tensors="pt").to(device)
+                # with torch.no_grad():
+                #     gen = model.generate(
+                #         inpts,
+                #         max_new_tokens=max_new_tokens,
+                #         do_sample=True,
+                #         top_p=0.9,
+                #         temperature=0.5
+                #     )
+                #     result = tokenizer.decode(
+                #         gen[0],
+                #         skip_special_tokens=True,
+                #         clean_up_tokenization_spaces=True,
+                #     )
                 pred = result.split("<|assistant|>")[1].strip()
             
             is_correct = False
