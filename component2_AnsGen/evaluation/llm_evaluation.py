@@ -181,8 +181,8 @@ def main(args):
     set_seed(42)
     
     ### === Parameters per model
-    # 1) Llama2
-    if args.llm_model_name == "llama2":
+    # 1) Llama2 & tiny_llama
+    if args.llm_model_name in ["llama2", "tiny_llama"]:
         prompt_template_w_context = """<s>
             You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             [INST]\n
@@ -242,7 +242,7 @@ def main(args):
     # == Loop over the test questions ========================
     accuracy = []
     
-    if args.llm_model_name == 'llama2':
+    if args.llm_model_name in ["llama2", "tiny_llama"]:
         max_new_tokens = 610 if args.with_rag else 120
         pipe = pipeline(
             task="text-generation",
@@ -254,10 +254,11 @@ def main(args):
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 10:
-                break
+            # if idx == 10:
+            #     break
             
             retrieved_text = ""
+            has_context = False
             if args.with_rag:
                 for ret_result in ret_results:
                     if ret_result['id'] == query_id:
@@ -271,12 +272,13 @@ def main(args):
                     print("No retrieved text found for query: {}, {}".format(query_id, query))
                     prompt = prompt_template_wo_context.format(question=query)                
                 else:
-                    prompt = prompt_template_w_context.format(context=retrieved_text, question=query)                    
+                    prompt = prompt_template_w_context.format(context=retrieved_text, question=query)
+                    has_context = True                  
             else:
                 prompt = prompt_template_wo_context.format(question=query)                
                     
             print(prompt)
-            if args.llm_model_name == 'llama2':
+            if args.llm_model_name in ["llama2", "tiny_llama"]:
                 result = pipe(prompt)[0]['generated_text']
                 pred = result.split("[/INST]")[1].strip()
                 
@@ -320,20 +322,22 @@ def main(args):
                         is_correct = True
             accuracy.append(is_correct)
             
-            # if idx % 300 == 0:
-            #     logging.info('\n')
-            #     logging.info(f"Prompt: {prompt}")
-            #     logging.info(f"Query: {query}")
-            #     logging.info(f"Pred: {pred}")
-            #     logging.info(f"Labels: {test_answers[idx]}")
-            #     logging.info(f"Final decision: {is_correct}")
-            #     logging.info('====')
-            print('\n')
-            print(f"Query: {query}")
-            print(f"Pred: {pred}")
-            print(f"Labels: {test_answers[idx]}")
-            print(f"Final decision: {is_correct}")
-            print('====')
+            if idx % 300 == 0:
+                logging.info('\n')
+                logging.info(f"Prompt: {prompt}")
+                logging.info(f"Query: {query}")
+                logging.info(f"Has context: {has_context}"),
+                logging.info(f"Pred: {pred}")
+                logging.info(f"Labels: {test_answers[idx]}")
+                logging.info(f"Final decision: {is_correct}")
+                logging.info('====')
+            # print('\n')
+            # print(f"Query: {query}")
+            # print(f"Has context: {has_context}"),
+            # print(f"Pred: {pred}")
+            # print(f"Labels: {test_answers[idx]}")
+            # print(f"Final decision: {is_correct}")
+            # print('====')
             
             item = {
                 "query_id": query_id,
@@ -341,6 +345,7 @@ def main(args):
                 "possible_answers": test_answers[idx],
                 "pred": pred,
                 "is_correct": is_correct,
+                "has_context": has_context,
                 "pageviews": query_pv
             }
             file.write(json.dumps(item) + '\n')
