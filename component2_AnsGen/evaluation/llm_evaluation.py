@@ -247,6 +247,7 @@ def main(args):
         task="text-generation",
         model=model,
         tokenizer=tokenizer,
+        max_new_tokens = 300
         # max_length=max_new_tokens
     )
     
