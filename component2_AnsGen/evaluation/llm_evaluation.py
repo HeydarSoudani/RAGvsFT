@@ -254,7 +254,7 @@ def main(args):
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 5:
+            if idx == 10:
                 break
             
             retrieved_text = ""
@@ -267,7 +267,8 @@ def main(args):
                     logging.info('\n')
                     logging.info(f"No retrieved text found for query: {query}") 
                     print('\n')
-                    print("No retrieved text found for query: {}".format(query))
+                    
+                    print("No retrieved text found for query: {}, {}".format(query_id, query))
                     prompt = prompt_template_wo_context.format(question=query)                
                 else:
                     prompt = prompt_template_w_context.format(context=retrieved_text, question=query)                    
