@@ -185,7 +185,7 @@ def main(args):
     
     ### === Parameters per model
     # 1) Llama2 & tiny_llama & Mistral
-    if args.llm_model_name in ["llama2", "tiny_llama", "mistral", "MiniCPM"]:
+    if args.llm_model_name in ["llama2", "tiny_llama", "mistral"]:
         prompt_template_w_context = """<s>
             You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             [INST]\n
@@ -212,6 +212,19 @@ def main(args):
             <|user|>\n 
             Question: {question}\n
             <|assistant|>\n""" 
+    
+    # 3) MiniCPM
+    elif args.llm_model_name == "MiniCPM":
+        prompt_template_w_context = """<User>
+            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+            \n
+            Context: {context}\n
+            Question: {question}\n
+            <AI>"""
+        prompt_template_wo_context = """<User>
+            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+            Question: {question}\n
+            <AI>"""
     
     logging.info("Inferencing ...")
     model, tokenizer = load_model(args)
