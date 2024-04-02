@@ -139,9 +139,12 @@ def load_model(args):
             low_cpu_mem_usage=True,
             return_dict=True,
             torch_dtype=torch.float16,
-            device_map={"":0} # Load the entire model on the GPU 0
+            device_map={"":0}, # Load the entire model on the GPU 0
+            trust_remote_code=True
         )
-        tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
+        tokenizer = AutoTokenizer.from_pretrained(
+            args.model_name_or_path,
+            trust_remote_code=True)
         
     tokenizer.pad_token = tokenizer.eos_token
     tokenizer.padding_side = "right"
