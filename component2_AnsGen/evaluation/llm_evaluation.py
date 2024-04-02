@@ -198,13 +198,13 @@ def main(args):
     # 2) Mistral
     elif args.llm_model_name == "mistral":
         prompt_template_w_context = """<s>\n
-            You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             [INST]\n 
             Context: {context}\n
             Question: {question}\n
             [/INST]"""
         prompt_template_wo_context = """<s>\n
-            You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             [INST]\n
             Question: {question}\n
             [/INST]"""
@@ -212,14 +212,14 @@ def main(args):
     # 3) Zephyr
     elif args.llm_model_name == "zephyr":
         prompt_template_w_context = """<|system|>\n
-            You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             <|user|>\n 
             Context: {context}\n
             Question: {question}\n
             <|assistant|>\n""" 
 
         prompt_template_wo_context = """<|system|>\n
-            You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             <|user|>\n 
             Question: {question}\n
             <|assistant|>\n""" 
@@ -241,14 +241,13 @@ def main(args):
     
     # == Loop over the test questions ========================
     accuracy = []
-    
     if args.llm_model_name in ["llama2", "tiny_llama"]:
-        max_new_tokens = 610 if args.with_rag else 120
+        # max_new_tokens = 100
         pipe = pipeline(
             task="text-generation",
             model=model,
             tokenizer=tokenizer,
-            max_length=max_new_tokens
+            # max_length=max_new_tokens
         )
     
     with open(out_results_path, 'w') as file:
@@ -277,7 +276,7 @@ def main(args):
             else:
                 prompt = prompt_template_wo_context.format(question=query)                
                     
-            print(prompt)
+            # print(prompt)
             if args.llm_model_name in ["llama2", "tiny_llama"]:
                 result = pipe(prompt)[0]['generated_text']
                 pred = result.split("[/INST]")[1].strip()
