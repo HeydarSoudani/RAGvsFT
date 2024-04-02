@@ -274,6 +274,7 @@ def main(args):
             else:
                 prompt = prompt_template_wo_context.format(retrieved_text, query)                
                     
+            print(prompt)
             if args.llm_model_name == 'llama2':
                 result = pipe(prompt)[0]['generated_text']
                 pred = result.split("[/INST]")[1].strip()
