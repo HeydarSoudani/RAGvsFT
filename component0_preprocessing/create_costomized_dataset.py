@@ -242,7 +242,7 @@ def get_wikipedia_summary_and_paragraphs(title):
     page = wiki_wiki.page(title)
 
     if not page.exists():
-        return "Page does not exist", []
+        return None, None
 
     summary = page.summary
     paragraphs = [section.text for section in page.sections if section.title not in inappropriate_sections]
@@ -442,28 +442,92 @@ def create_test_and_entity_files_EQ():
 
 # Get wikipedia context via API
 def create_corpus_and_qrels_files_via_api():
+    
+    entities = {}
+    queries_id = {}
+
+    corpus_sum = {}
+    qrels_sum = {}
+    corpus_all = {}
+    qrels_all = {}
+    
+    for entity_file in os.listdir(entity_dir):
+        if entity_file.endswith('.entity.json'):
+
+            prop_id = entity_file.split('.')[0]
+            print(f"Processing relation file: {prop_id}")
+
+            with open(f'{entity_dir}/{entity_file}', 'r', encoding='utf-8') as ef:
+                data = json.load(ef)
+                entities[prop_id] = [obj['wiki_title'] for obj in data]
+                queries_id[prop_id] = [obj['query_id'] for obj in data]
+                corpus_sum[prop_id] = []
+                qrels_sum[prop_id] = []
+                corpus_all[prop_id] = []
+                qrels_all[prop_id] = []
+                
+    doc_counter = 0
     for entity_file in os.listdir(entity_dir):
         if entity_file.endswith('.entity.json'):
             prop_id = entity_file.split('.')[0]
             print(f"Processing relation file: {prop_id}")
-            
+    
             with open(f'{entity_dir}/{entity_file}', 'r', encoding='utf-8') as ef:
                 entities = json.load(ef)
-                
-                # Select a random subset of entities if applicable
-                if len(entities) > num_entities_per_relation:
-                    entities = random.sample(entities, num_entities_per_relation)
-                
-                print(f"Processing selected entities: {entities}")
-                
-                corpus_content = []
-                qrels_content = []
-                doc_counter = 0
-
                 for entity in entities:
-                    title = entity['wiki_title']
-                    print(f"Fetching content for: {title}")
-                    summary, paragraphs = get_wikipedia_summary_and_paragraphs(title)
+                    
+                    wiki_title = entity['wiki_title']
+                    wikidata_id = entity['entity_id']
+                    print(f"Fetching content for '{wiki_title}' ...")
+                    try: 
+                        summary, paragraphs = get_wikipedia_summary_and_paragraphs(wiki_title)
+                        if summary == None:
+                            print(f"Return None for: {wikidata_id}")  
+                    except:
+                        print(f"Error for: {wikidata_id}") 
+
+
+                    corpus_sum[relation_id].append({
+                        'doc_id': f"{relation_id}_{doc_counter}",
+                        'title': summary["title"],
+                        'content': summary["text"]
+                    })
+                    qrels_sum[relation_id].append({
+                        'query_id': queries_id[relation_id][index],
+                        'doc_id': f"{relation_id}_{doc_counter}",
+                        'score': 1
+                    })
+                    
+                    corpus_all[relation_id].append({
+                        'doc_id': f"{relation_id}_{doc_counter}",
+                        'title': summary["title"],
+                        'content': summary["text"]
+                    })
+                    qrels_all[relation_id].append({
+                        'query_id': queries_id[relation_id][index],
+                        'doc_id': f"{relation_id}_{doc_counter}",
+                        'score': 1
+                    })
+                    doc_counter += 1
+                    
+                    # === For paragraphs
+                    for idx, paragraph in enumerate(paragraphs):
+                        corpus_all[relation_id].append({
+                            'doc_id': f"{relation_id}_{doc_counter}",
+                            'title': paragraph["title"],
+                            'content': paragraph["text"]
+                        })
+                        qrels_all[relation_id].append({
+                            'query_id': queries_id[relation_id][index],
+                            'doc_id': f"{relation_id}_{doc_counter}",
+                            'score': 0
+                        })
+                        doc_counter += 1
+                    break
+
+
+
+
 
                     summary_doc_id = f"{prop_id}_{doc_counter}"
                     doc_counter += 1
@@ -484,6 +548,37 @@ def create_corpus_and_qrels_files_via_api():
                     json.dump(qrels_content, qf)
                 print(f"Qrels file created: {prop_id}.qrels.json")
     
+    
+    # Write for all version
+    for relation_id, value in corpus_all.items():
+        filename = f"{relation_id}.corpus.json"
+        filepath = f"{corpus_all_dir}/{filename}"
+
+        with open(filepath, 'w', encoding='utf-8') as json_file:
+            json.dump(value, json_file, indent=4) # ensure_ascii=False
+
+    for relation_id, value in qrels_all.items():
+        filename = f"{relation_id}.qrels.json"
+        filepath = f"{qrels_all_dir}/{filename}"
+
+        with open(filepath, 'w', encoding='utf-8') as json_file:
+            json.dump(value, json_file, indent=4)
+
+    # Write for Summary version
+    for relation_id, value in corpus_sum.items():
+        filename = f"{relation_id}.corpus.json"
+        filepath = f"{corpus_sum_dir}/{filename}"
+
+        with open(filepath, 'w', encoding='utf-8') as json_file:
+            json.dump(value, json_file, indent=4) # ensure_ascii=False
+
+    for relation_id, value in qrels_sum.items():
+        filename = f"{relation_id}.qrels.json"
+        filepath = f"{qrels_sum_dir}/{filename}"
+
+        with open(filepath, 'w', encoding='utf-8') as json_file:
+            json.dump(value, json_file, indent=4)
+    
     print("Corpus and Qrels creation complete.")
 
 # Get wikipedia context via HF datasets
@@ -498,9 +593,8 @@ def create_corpus_and_qrels_files_via_hf_datasets():
     
     for entity_file in os.listdir(entity_dir):
         if entity_file.endswith('.entity.json'):
-            
             prop_id = entity_file.split('.')[0]
-            # print(f"Processing relation file: {prop_id}")
+            print(f"Processing relation file: {prop_id}")
             
             with open(f'{entity_dir}/{entity_file}', 'r', encoding='utf-8') as ef:
                 data = json.load(ef)
