@@ -1,0 +1,7931 @@
+[
+    {
+        "query_id": "106_0",
+        "question": "What kind of work does Joe Bianchi do?",
+        "answers": [
+            "blacksmith"
+        ],
+        "pageviews": 1082
+    },
+    {
+        "query_id": "106_1",
+        "question": "What kind of work does Epicurus do?",
+        "answers": [
+            "philosopher"
+        ],
+        "pageviews": 396821
+    },
+    {
+        "query_id": "106_2",
+        "question": "What kind of work does Sarzameen Khan do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 730
+    },
+    {
+        "query_id": "106_3",
+        "question": "What kind of work does Alexandru Mo\u0219anu do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2222
+    },
+    {
+        "query_id": "106_4",
+        "question": "What kind of work does Haim Reitan do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 818
+    },
+    {
+        "query_id": "106_5",
+        "question": "What kind of work does Ingemar Liljefors do?",
+        "answers": [
+            "composer",
+            "pianist"
+        ],
+        "pageviews": 696
+    },
+    {
+        "query_id": "106_7",
+        "question": "What kind of work does Ludwig Huber do?",
+        "answers": [
+            "biologist"
+        ],
+        "pageviews": 1073
+    },
+    {
+        "query_id": "106_8",
+        "question": "What kind of work does Tom Marshall do?",
+        "answers": [
+            "songwriter"
+        ],
+        "pageviews": 14024
+    },
+    {
+        "query_id": "106_9",
+        "question": "What kind of work does Rodney Clawson do?",
+        "answers": [
+            "songwriter"
+        ],
+        "pageviews": 17031
+    },
+    {
+        "query_id": "106_10",
+        "question": "What kind of work does Francisco Dornelles do?",
+        "answers": [
+            "economist",
+            "politician"
+        ],
+        "pageviews": 3966
+    },
+    {
+        "query_id": "106_11",
+        "question": "What kind of work does Gerry McHugh do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1772
+    },
+    {
+        "query_id": "106_12",
+        "question": "What kind of work does Ben Hur Lampman do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 1811
+    },
+    {
+        "query_id": "106_13",
+        "question": "What kind of work does Lilian Uchtenhagen do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1871
+    },
+    {
+        "query_id": "106_14",
+        "question": "What kind of work does Abhishek Rawat do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 54017
+    },
+    {
+        "query_id": "106_15",
+        "question": "What kind of work does Torsten Stein do?",
+        "answers": [
+            "jurist"
+        ],
+        "pageviews": 864
+    },
+    {
+        "query_id": "106_16",
+        "question": "What kind of work does George Martin do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 42054
+    },
+    {
+        "query_id": "106_17",
+        "question": "What kind of work does Batilda Salha Burian do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1375
+    },
+    {
+        "query_id": "106_18",
+        "question": "What kind of work does Mirshahin Agayev do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 2346
+    },
+    {
+        "query_id": "106_19",
+        "question": "What kind of work does Plamen Panayotov do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1411
+    },
+    {
+        "query_id": "106_20",
+        "question": "What kind of work does Ishmael Noko do?",
+        "answers": [
+            "priest"
+        ],
+        "pageviews": 1020
+    },
+    {
+        "query_id": "106_21",
+        "question": "What kind of work does Jon Laurimore do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 3860
+    },
+    {
+        "query_id": "106_22",
+        "question": "What kind of work does Ad\u00e9lard Bellemare do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 471
+    },
+    {
+        "query_id": "106_23",
+        "question": "What kind of work does Sergio Ortega do?",
+        "answers": [
+            "composer",
+            "pianist"
+        ],
+        "pageviews": 5458
+    },
+    {
+        "query_id": "106_24",
+        "question": "What kind of work does Knowles Shaw do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 3988
+    },
+    {
+        "query_id": "106_25",
+        "question": "What kind of work does Preben Philipsen do?",
+        "answers": [
+            "film producer"
+        ],
+        "pageviews": 1721
+    },
+    {
+        "query_id": "106_27",
+        "question": "What kind of work does Joaqu\u00edn Eufrasio Guzm\u00e1n do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 4063
+    },
+    {
+        "query_id": "106_28",
+        "question": "What kind of work does Giovanni Maria Bononcini do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 2314
+    },
+    {
+        "query_id": "106_29",
+        "question": "What kind of work does Arthur Rackham do?",
+        "answers": [
+            "illustrator"
+        ],
+        "pageviews": 94795
+    },
+    {
+        "query_id": "106_30",
+        "question": "What kind of work does Robert Tasker do?",
+        "answers": [
+            "justice of the peace"
+        ],
+        "pageviews": 1166
+    },
+    {
+        "query_id": "106_31",
+        "question": "What kind of work does Mark C. Lee do?",
+        "answers": [
+            "astronaut"
+        ],
+        "pageviews": 24729
+    },
+    {
+        "query_id": "106_32",
+        "question": "What kind of work does Koloman Moser do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 25623
+    },
+    {
+        "query_id": "106_33",
+        "question": "What kind of work does Fear Flatha \u00d3 Gn\u00edmh do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 830
+    },
+    {
+        "query_id": "106_34",
+        "question": "What kind of work does Ulrich von Hassell do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 21950
+    },
+    {
+        "query_id": "106_35",
+        "question": "What kind of work does Yolanda Casaus Rodr\u00edguez do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 545
+    },
+    {
+        "query_id": "106_36",
+        "question": "What kind of work does John O'Reily do?",
+        "answers": [
+            "priest"
+        ],
+        "pageviews": 1316
+    },
+    {
+        "query_id": "106_37",
+        "question": "What kind of work does Guillermo M\u00e1rquez Lizalde do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 586
+    },
+    {
+        "query_id": "106_38",
+        "question": "What kind of work does Albert Edward Smith do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1556
+    },
+    {
+        "query_id": "106_39",
+        "question": "What kind of work does William James Bryan do?",
+        "answers": [
+            "politician",
+            "lawyer"
+        ],
+        "pageviews": 5084
+    },
+    {
+        "query_id": "106_40",
+        "question": "What kind of work does Lauri Linna do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 525
+    },
+    {
+        "query_id": "106_41",
+        "question": "What kind of work does Bruce Foxton do?",
+        "answers": [
+            "songwriter"
+        ],
+        "pageviews": 69343
+    },
+    {
+        "query_id": "106_42",
+        "question": "What kind of work does Joe Comartin do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 4313
+    },
+    {
+        "query_id": "106_43",
+        "question": "What kind of work does Viengsay Vald\u00e9s do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 3546
+    },
+    {
+        "query_id": "106_44",
+        "question": "What kind of work does Arran Fernandez do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 18626
+    },
+    {
+        "query_id": "106_45",
+        "question": "What kind of work does Robert Alcock do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 627
+    },
+    {
+        "query_id": "106_46",
+        "question": "What kind of work does David Hinton do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 5993
+    },
+    {
+        "query_id": "106_47",
+        "question": "What kind of work does Khrystyne Haje do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 55722
+    },
+    {
+        "query_id": "106_48",
+        "question": "What kind of work does Francis J. McCaffrey do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1164
+    },
+    {
+        "query_id": "106_49",
+        "question": "What kind of work does Sugiura Asami do?",
+        "answers": [
+            "AV Idol",
+            "actor"
+        ],
+        "pageviews": 22959
+    },
+    {
+        "query_id": "106_50",
+        "question": "What kind of work does Alexander Harper do?",
+        "answers": [
+            "curate"
+        ],
+        "pageviews": 471
+    },
+    {
+        "query_id": "106_51",
+        "question": "What kind of work does Howard Adelman do?",
+        "answers": [
+            "philosopher"
+        ],
+        "pageviews": 2685
+    },
+    {
+        "query_id": "106_52",
+        "question": "What kind of work does Richard Trunk do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 990
+    },
+    {
+        "query_id": "106_53",
+        "question": "What kind of work does Erik Charell do?",
+        "answers": [
+            "actor",
+            "film director"
+        ],
+        "pageviews": 3917
+    },
+    {
+        "query_id": "106_54",
+        "question": "What kind of work does James Patrick Sutton do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1774
+    },
+    {
+        "query_id": "106_55",
+        "question": "What kind of work does Jack Acland do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1813
+    },
+    {
+        "query_id": "106_56",
+        "question": "What kind of work does Carrie Lee Sze Kei do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 10777
+    },
+    {
+        "query_id": "106_57",
+        "question": "What kind of work does Ismael Merlo do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1856
+    },
+    {
+        "query_id": "106_58",
+        "question": "What kind of work does Bertel Lauring do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 770
+    },
+    {
+        "query_id": "106_59",
+        "question": "What kind of work does Keith Winstein do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 3761
+    },
+    {
+        "query_id": "106_60",
+        "question": "What kind of work does Giles Andreae do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 14109
+    },
+    {
+        "query_id": "106_61",
+        "question": "What kind of work does Rustam Minnikhanov do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 47040
+    },
+    {
+        "query_id": "106_62",
+        "question": "What kind of work does Leela Mishra do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 64140
+    },
+    {
+        "query_id": "106_63",
+        "question": "What kind of work does William de Malveisin do?",
+        "answers": [
+            "priest"
+        ],
+        "pageviews": 1676
+    },
+    {
+        "query_id": "106_64",
+        "question": "What kind of work does William Webb do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 836
+    },
+    {
+        "query_id": "106_65",
+        "question": "What kind of work does Sharif Hassan Sheikh Aden do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 8078
+    },
+    {
+        "query_id": "106_66",
+        "question": "What kind of work does Signe Lund do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 2117
+    },
+    {
+        "query_id": "106_67",
+        "question": "What kind of work does Charles Watson-Wentworth, 2nd Marquess of Rockingham do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 86702
+    },
+    {
+        "query_id": "106_68",
+        "question": "What kind of work does David Xiao do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1716
+    },
+    {
+        "query_id": "106_69",
+        "question": "What kind of work does Sorcha N\u00ed Ch\u00e9ide do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1026
+    },
+    {
+        "query_id": "106_70",
+        "question": "What kind of work does Lisa Hartman do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 279796
+    },
+    {
+        "query_id": "106_71",
+        "question": "What kind of work does Kim Friedman do?",
+        "answers": [
+            "television director"
+        ],
+        "pageviews": 3429
+    },
+    {
+        "query_id": "106_72",
+        "question": "What kind of work does Warren A. Taylor do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1115
+    },
+    {
+        "query_id": "106_73",
+        "question": "What kind of work does Evaristo Fern\u00e1ndez Blanco do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 528
+    },
+    {
+        "query_id": "106_74",
+        "question": "What kind of work does Anthony Lambert do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 1462
+    },
+    {
+        "query_id": "106_75",
+        "question": "What kind of work does Iwan Simatupang do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 1473
+    },
+    {
+        "query_id": "106_76",
+        "question": "What kind of work does Terry Jones do?",
+        "answers": [
+            "actor",
+            "film director",
+            "comedian",
+            "composer",
+            "screenwriter"
+        ],
+        "pageviews": 508033
+    },
+    {
+        "query_id": "106_77",
+        "question": "What kind of work does Chaudhry Muhammad Hamid Hameed do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2887
+    },
+    {
+        "query_id": "106_78",
+        "question": "What kind of work does Jean-Blaise Kololo do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 756
+    },
+    {
+        "query_id": "106_79",
+        "question": "What kind of work does Carlos Monge Medrano do?",
+        "answers": [
+            "physician"
+        ],
+        "pageviews": 1391
+    },
+    {
+        "query_id": "106_80",
+        "question": "What kind of work does Mabel Howard do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3278
+    },
+    {
+        "query_id": "106_81",
+        "question": "What kind of work does Romulus Linney do?",
+        "answers": [
+            "playwright"
+        ],
+        "pageviews": 163076
+    },
+    {
+        "query_id": "106_82",
+        "question": "What kind of work does Gustav Cohn do?",
+        "answers": [
+            "economist"
+        ],
+        "pageviews": 877
+    },
+    {
+        "query_id": "106_83",
+        "question": "What kind of work does Herbert V. G\u00fcnther do?",
+        "answers": [
+            "philosopher"
+        ],
+        "pageviews": 4791
+    },
+    {
+        "query_id": "106_84",
+        "question": "What kind of work does Henri, prince de La Tour d'Auvergne do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2083
+    },
+    {
+        "query_id": "106_85",
+        "question": "What kind of work does Irlo Bronson, Jr. do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3197
+    },
+    {
+        "query_id": "106_86",
+        "question": "What kind of work does Signy Fardal do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 788
+    },
+    {
+        "query_id": "106_87",
+        "question": "What kind of work does Leo Wardrup do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 890
+    },
+    {
+        "query_id": "106_88",
+        "question": "What kind of work does Thomas A. Matthews do?",
+        "answers": [
+            "astronomer"
+        ],
+        "pageviews": 1088
+    },
+    {
+        "query_id": "106_89",
+        "question": "What kind of work does Marsha Blackburn do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 531373
+    },
+    {
+        "query_id": "106_90",
+        "question": "What kind of work does Richard Dean do?",
+        "answers": [
+            "photographer"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "106_91",
+        "question": "What kind of work does Olafr Havrevold do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 903
+    },
+    {
+        "query_id": "106_92",
+        "question": "What kind of work does John Bull do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 610
+    },
+    {
+        "query_id": "106_93",
+        "question": "What kind of work does Arne Bergsv\u00e5g do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 349
+    },
+    {
+        "query_id": "106_94",
+        "question": "What kind of work does Paul de Groot do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 5274
+    },
+    {
+        "query_id": "106_95",
+        "question": "What kind of work does Gerald Horsley do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 1044
+    },
+    {
+        "query_id": "106_96",
+        "question": "What kind of work does Ernie Shepherd do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1319
+    },
+    {
+        "query_id": "106_97",
+        "question": "What kind of work does Joan McVittie do?",
+        "answers": [
+            "head teacher"
+        ],
+        "pageviews": 1352
+    },
+    {
+        "query_id": "106_98",
+        "question": "What kind of work does Edith Anne Robertson do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 1313
+    },
+    {
+        "query_id": "106_99",
+        "question": "What kind of work does Konkona Sen Sharma do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 306557
+    },
+    {
+        "query_id": "106_100",
+        "question": "What kind of work does Navin Prabhakar do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 29715
+    },
+    {
+        "query_id": "106_101",
+        "question": "What kind of work does Olive Higgins Prouty do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 22424
+    },
+    {
+        "query_id": "106_102",
+        "question": "What kind of work does Fran\u00e7ois Spoerry do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 3791
+    },
+    {
+        "query_id": "106_103",
+        "question": "What kind of work does Thomas Jefferson Rusk do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 18175
+    },
+    {
+        "query_id": "106_104",
+        "question": "What kind of work does John Michael Macdonald do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1280
+    },
+    {
+        "query_id": "106_105",
+        "question": "What kind of work does Rob Cohen do?",
+        "answers": [
+            "film director",
+            "screenwriter"
+        ],
+        "pageviews": 431072
+    },
+    {
+        "query_id": "106_106",
+        "question": "What kind of work does Alfred John Tattersall do?",
+        "answers": [
+            "photographer"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "106_107",
+        "question": "What kind of work does Peter Magnusson do?",
+        "answers": [
+            "comedian",
+            "television presenter",
+            "actor"
+        ],
+        "pageviews": 5981
+    },
+    {
+        "query_id": "106_108",
+        "question": "What kind of work does Rose Standish Nichols do?",
+        "answers": [
+            "landscape architect"
+        ],
+        "pageviews": 2085
+    },
+    {
+        "query_id": "106_109",
+        "question": "What kind of work does William Ord do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2005
+    },
+    {
+        "query_id": "106_110",
+        "question": "What kind of work does Maya Jribi do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2852
+    },
+    {
+        "query_id": "106_111",
+        "question": "What kind of work does Aoi Nakamura do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 12449
+    },
+    {
+        "query_id": "106_112",
+        "question": "What kind of work does Basil Moore do?",
+        "answers": [
+            "economist"
+        ],
+        "pageviews": 3225
+    },
+    {
+        "query_id": "106_113",
+        "question": "What kind of work does Andrew McNamara do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2012
+    },
+    {
+        "query_id": "106_114",
+        "question": "What kind of work does Phil Jones do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 9319
+    },
+    {
+        "query_id": "106_115",
+        "question": "What kind of work does Bruce Purchase do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 5978
+    },
+    {
+        "query_id": "106_116",
+        "question": "What kind of work does Hilde Crevits do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 4360
+    },
+    {
+        "query_id": "106_117",
+        "question": "What kind of work does J\u00fcrgen Klute do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1664
+    },
+    {
+        "query_id": "106_118",
+        "question": "What kind of work does Judith Dvorkin do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 838
+    },
+    {
+        "query_id": "106_119",
+        "question": "What kind of work does George Steuart Hume do?",
+        "answers": [
+            "physician"
+        ],
+        "pageviews": 812
+    },
+    {
+        "query_id": "106_120",
+        "question": "What kind of work does Jeff Lehman do?",
+        "answers": [
+            "economist"
+        ],
+        "pageviews": 17108
+    },
+    {
+        "query_id": "106_121",
+        "question": "What kind of work does Lola Forsberg do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 3309
+    },
+    {
+        "query_id": "106_122",
+        "question": "What kind of work does Mirko Lang do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 2335
+    },
+    {
+        "query_id": "106_123",
+        "question": "What kind of work does Pierre Daix do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 2874
+    },
+    {
+        "query_id": "106_124",
+        "question": "What kind of work does Svein Harald \u00d8ygard do?",
+        "answers": [
+            "economist"
+        ],
+        "pageviews": 1795
+    },
+    {
+        "query_id": "106_125",
+        "question": "What kind of work does Douglas A. Hartwick do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 1500
+    },
+    {
+        "query_id": "106_126",
+        "question": "What kind of work does Guidobaldo del Monte do?",
+        "answers": [
+            "philosopher",
+            "astronomer",
+            "mathematician"
+        ],
+        "pageviews": 4349
+    },
+    {
+        "query_id": "106_127",
+        "question": "What kind of work does Joan Tetzel do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 27946
+    },
+    {
+        "query_id": "106_128",
+        "question": "What kind of work does Pat Woods do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1609
+    },
+    {
+        "query_id": "106_129",
+        "question": "What kind of work does Mike Ellis do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1045
+    },
+    {
+        "query_id": "106_130",
+        "question": "What kind of work does Takeshi Kusaka do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1918
+    },
+    {
+        "query_id": "106_131",
+        "question": "What kind of work does Mark Roth do?",
+        "answers": [
+            "biochemist"
+        ],
+        "pageviews": 2335
+    },
+    {
+        "query_id": "106_132",
+        "question": "What kind of work does Abdirahman Ali Hassan do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1812
+    },
+    {
+        "query_id": "106_133",
+        "question": "What kind of work does Robert Ayton do?",
+        "answers": [
+            "illustrator"
+        ],
+        "pageviews": 780
+    },
+    {
+        "query_id": "106_134",
+        "question": "What kind of work does Rosanna DeSoto do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 66085
+    },
+    {
+        "query_id": "106_135",
+        "question": "What kind of work does Audrey Wasilewski do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 68261
+    },
+    {
+        "query_id": "106_136",
+        "question": "What kind of work does Otto W\u00e4chter do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 41318
+    },
+    {
+        "query_id": "106_137",
+        "question": "What kind of work does Hans J\u00f8rgensen Aarstad do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 611
+    },
+    {
+        "query_id": "106_138",
+        "question": "What kind of work does Franti\u0161ek Kupka do?",
+        "answers": [
+            "graphic designer"
+        ],
+        "pageviews": 30989
+    },
+    {
+        "query_id": "106_139",
+        "question": "What kind of work does Maria Zankovetska do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 3584
+    },
+    {
+        "query_id": "106_140",
+        "question": "What kind of work does Brian Balmages do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 10015
+    },
+    {
+        "query_id": "106_141",
+        "question": "What kind of work does Bartholomew Mastrius do?",
+        "answers": [
+            "philosopher"
+        ],
+        "pageviews": 1344
+    },
+    {
+        "query_id": "106_142",
+        "question": "What kind of work does Ivar Lykke do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3383
+    },
+    {
+        "query_id": "106_143",
+        "question": "What kind of work does Steven Roman do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 3168
+    },
+    {
+        "query_id": "106_144",
+        "question": "What kind of work does Bo\u017eidar Puri\u0107 do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 4530
+    },
+    {
+        "query_id": "106_145",
+        "question": "What kind of work does Elliott Hardey do?",
+        "answers": [
+            "farmer"
+        ],
+        "pageviews": 650
+    },
+    {
+        "query_id": "106_146",
+        "question": "What kind of work does Marion Molteno do?",
+        "answers": [
+            "novelist"
+        ],
+        "pageviews": 1213
+    },
+    {
+        "query_id": "106_147",
+        "question": "What kind of work does Rehman do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 83961
+    },
+    {
+        "query_id": "106_148",
+        "question": "What kind of work does Hiroko Takemasa do?",
+        "answers": [
+            "seiy\u016b"
+        ],
+        "pageviews": 531
+    },
+    {
+        "query_id": "106_149",
+        "question": "What kind of work does Jenn McAllister do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 31660
+    },
+    {
+        "query_id": "106_150",
+        "question": "What kind of work does Samuel Pallache do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 13455
+    },
+    {
+        "query_id": "106_151",
+        "question": "What kind of work does William Horwood do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 515
+    },
+    {
+        "query_id": "106_152",
+        "question": "What kind of work does Tom Ammiano do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 12125
+    },
+    {
+        "query_id": "106_153",
+        "question": "What kind of work does Henry Dobson do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2438
+    },
+    {
+        "query_id": "106_154",
+        "question": "What kind of work does Eva Czemerys do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 3092
+    },
+    {
+        "query_id": "106_155",
+        "question": "What kind of work does John S. Case do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 487
+    },
+    {
+        "query_id": "106_156",
+        "question": "What kind of work does Flori\u00e1n Rey do?",
+        "answers": [
+            "actor",
+            "screenwriter"
+        ],
+        "pageviews": 2796
+    },
+    {
+        "query_id": "106_157",
+        "question": "What kind of work does Nils Strindberg do?",
+        "answers": [
+            "photographer"
+        ],
+        "pageviews": 6832
+    },
+    {
+        "query_id": "106_158",
+        "question": "What kind of work does Anastasios Metaxas do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 6452
+    },
+    {
+        "query_id": "106_159",
+        "question": "What kind of work does Shepard P. Bowen do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 743
+    },
+    {
+        "query_id": "106_160",
+        "question": "What kind of work does Joseph Daussoigne-M\u00e9hul do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1523
+    },
+    {
+        "query_id": "106_161",
+        "question": "What kind of work does Thomas Scott do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 478
+    },
+    {
+        "query_id": "106_162",
+        "question": "What kind of work does Ugo Mulas do?",
+        "answers": [
+            "photographer"
+        ],
+        "pageviews": 3675
+    },
+    {
+        "query_id": "106_163",
+        "question": "What kind of work does Ben Chiu do?",
+        "answers": [
+            "programmer"
+        ],
+        "pageviews": 2230
+    },
+    {
+        "query_id": "106_164",
+        "question": "What kind of work does William Heberden do?",
+        "answers": [
+            "physician"
+        ],
+        "pageviews": 6094
+    },
+    {
+        "query_id": "106_165",
+        "question": "What kind of work does Claire Nielson do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 14352
+    },
+    {
+        "query_id": "106_166",
+        "question": "What kind of work does Thomas Pope do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 417
+    },
+    {
+        "query_id": "106_167",
+        "question": "What kind of work does Lee Hwa-si do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1548
+    },
+    {
+        "query_id": "106_168",
+        "question": "What kind of work does Jos\u00e9 Eduardo Gonz\u00e1lez Navas do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 663
+    },
+    {
+        "query_id": "106_169",
+        "question": "What kind of work does Jean-Luc Mongrain do?",
+        "answers": [
+            "television presenter",
+            "news presenter",
+            "journalist"
+        ],
+        "pageviews": 3335
+    },
+    {
+        "query_id": "106_170",
+        "question": "What kind of work does James Wills do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 986
+    },
+    {
+        "query_id": "106_171",
+        "question": "What kind of work does Melonie Haller do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 41368
+    },
+    {
+        "query_id": "106_172",
+        "question": "What kind of work does Joe Scalzi do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1430
+    },
+    {
+        "query_id": "106_173",
+        "question": "What kind of work does Leonora Baroni do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 5980
+    },
+    {
+        "query_id": "106_174",
+        "question": "What kind of work does Scott McGrew do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 1985
+    },
+    {
+        "query_id": "106_175",
+        "question": "What kind of work does Leonard Andrzejewski do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 958
+    },
+    {
+        "query_id": "106_176",
+        "question": "What kind of work does Alyson do?",
+        "answers": [
+            "singer-songwriter"
+        ],
+        "pageviews": 1893
+    },
+    {
+        "query_id": "106_177",
+        "question": "What kind of work does John Baker do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 575
+    },
+    {
+        "query_id": "106_178",
+        "question": "What kind of work does Dom Moraes do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 24037
+    },
+    {
+        "query_id": "106_179",
+        "question": "What kind of work does Sir Peter Knight do?",
+        "answers": [
+            "physicist"
+        ],
+        "pageviews": 5261
+    },
+    {
+        "query_id": "106_180",
+        "question": "What kind of work does Frank Morley do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 5454
+    },
+    {
+        "query_id": "106_181",
+        "question": "What kind of work does Ninos Khoshaba do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1747
+    },
+    {
+        "query_id": "106_182",
+        "question": "What kind of work does Miyuu Sawai do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 11051
+    },
+    {
+        "query_id": "106_183",
+        "question": "What kind of work does Roy M. Page do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 684
+    },
+    {
+        "query_id": "106_184",
+        "question": "What kind of work does Loretta Ort\u00edz Ahlf do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2161
+    },
+    {
+        "query_id": "106_185",
+        "question": "What kind of work does Augustin Duncan do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 3046
+    },
+    {
+        "query_id": "106_186",
+        "question": "What kind of work does John LaZar do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 11598
+    },
+    {
+        "query_id": "106_187",
+        "question": "What kind of work does Vasco Rossi do?",
+        "answers": [
+            "singer-songwriter"
+        ],
+        "pageviews": 83561
+    },
+    {
+        "query_id": "106_188",
+        "question": "What kind of work does Zbigniew Herbert do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 22476
+    },
+    {
+        "query_id": "106_189",
+        "question": "What kind of work does John Francis Daley do?",
+        "answers": [
+            "actor",
+            "film director",
+            "screenwriter"
+        ],
+        "pageviews": 500815
+    },
+    {
+        "query_id": "106_191",
+        "question": "What kind of work does John James Oddy do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 645
+    },
+    {
+        "query_id": "106_192",
+        "question": "What kind of work does C. Sue Carter do?",
+        "answers": [
+            "biologist"
+        ],
+        "pageviews": 3869
+    },
+    {
+        "query_id": "106_193",
+        "question": "What kind of work does Liz McInnes do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 6398
+    },
+    {
+        "query_id": "106_194",
+        "question": "What kind of work does Bernhard Thalheim do?",
+        "answers": [
+            "computer scientist"
+        ],
+        "pageviews": 1634
+    },
+    {
+        "query_id": "106_195",
+        "question": "What kind of work does China Kong do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 6481
+    },
+    {
+        "query_id": "106_196",
+        "question": "What kind of work does Leander Hau\u00dfmann do?",
+        "answers": [
+            "film director"
+        ],
+        "pageviews": 4852
+    },
+    {
+        "query_id": "106_197",
+        "question": "What kind of work does Alexander Posey do?",
+        "answers": [
+            "journalist",
+            "politician"
+        ],
+        "pageviews": 5277
+    },
+    {
+        "query_id": "106_198",
+        "question": "What kind of work does Pieter Bourke do?",
+        "answers": [
+            "audio engineer",
+            "composer"
+        ],
+        "pageviews": 6475
+    },
+    {
+        "query_id": "106_199",
+        "question": "What kind of work does Tony Lourey do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1552
+    },
+    {
+        "query_id": "106_200",
+        "question": "What kind of work does John Schaeffer do?",
+        "answers": [
+            "personal trainer"
+        ],
+        "pageviews": 900
+    },
+    {
+        "query_id": "106_202",
+        "question": "What kind of work does Afrasiyab Badalbeyli do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 2572
+    },
+    {
+        "query_id": "106_203",
+        "question": "What kind of work does Ign\u00e1c Dar\u00e1nyi do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 4797
+    },
+    {
+        "query_id": "106_204",
+        "question": "What kind of work does Betty Compton do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 9000
+    },
+    {
+        "query_id": "106_205",
+        "question": "What kind of work does Justin Rowlatt do?",
+        "answers": [
+            "television presenter"
+        ],
+        "pageviews": 22096
+    },
+    {
+        "query_id": "106_206",
+        "question": "What kind of work does Jo\u00e3o Carlos Martins do?",
+        "answers": [
+            "pianist"
+        ],
+        "pageviews": 16496
+    },
+    {
+        "query_id": "106_207",
+        "question": "What kind of work does Leslie Grantham do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 246088
+    },
+    {
+        "query_id": "106_208",
+        "question": "What kind of work does Samuel Linde do?",
+        "answers": [
+            "librarian"
+        ],
+        "pageviews": 2833
+    },
+    {
+        "query_id": "106_209",
+        "question": "What kind of work does Danny Joe do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 866
+    },
+    {
+        "query_id": "106_210",
+        "question": "What kind of work does Guan Hu do?",
+        "answers": [
+            "film director"
+        ],
+        "pageviews": 9745
+    },
+    {
+        "query_id": "106_211",
+        "question": "What kind of work does Jan Metzler do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2173
+    },
+    {
+        "query_id": "106_212",
+        "question": "What kind of work does Mboya Nicholson do?",
+        "answers": [
+            "pianist"
+        ],
+        "pageviews": 509
+    },
+    {
+        "query_id": "106_213",
+        "question": "What kind of work does Maxwell Ayrton do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 3754
+    },
+    {
+        "query_id": "106_214",
+        "question": "What kind of work does Ralph H. Doxey do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 703
+    },
+    {
+        "query_id": "106_215",
+        "question": "What kind of work does Andy Schor do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 9538
+    },
+    {
+        "query_id": "106_216",
+        "question": "What kind of work does Ruth Tabrah do?",
+        "answers": [
+            "novelist"
+        ],
+        "pageviews": 1064
+    },
+    {
+        "query_id": "106_217",
+        "question": "What kind of work does Eric van Tijn do?",
+        "answers": [
+            "record producer"
+        ],
+        "pageviews": 2909
+    },
+    {
+        "query_id": "106_218",
+        "question": "What kind of work does Alan Garton do?",
+        "answers": [
+            "biochemist"
+        ],
+        "pageviews": 608
+    },
+    {
+        "query_id": "106_219",
+        "question": "What kind of work does Erin Moriarty do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1778841
+    },
+    {
+        "query_id": "106_220",
+        "question": "What kind of work does Sarah Habel do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 38502
+    },
+    {
+        "query_id": "106_221",
+        "question": "What kind of work does Joan Elies Adell i Pitarch do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 720
+    },
+    {
+        "query_id": "106_222",
+        "question": "What kind of work does John W. Sexton do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 1738
+    },
+    {
+        "query_id": "106_223",
+        "question": "What kind of work does William Brickly Stokes do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 325
+    },
+    {
+        "query_id": "106_224",
+        "question": "What kind of work does Wayne Cohen do?",
+        "answers": [
+            "songwriter"
+        ],
+        "pageviews": 2311
+    },
+    {
+        "query_id": "106_225",
+        "question": "What kind of work does Reggie Thomas do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2860
+    },
+    {
+        "query_id": "106_226",
+        "question": "What kind of work does Karl August Devrient do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1105
+    },
+    {
+        "query_id": "106_227",
+        "question": "What kind of work does Rob Margolies do?",
+        "answers": [
+            "screenwriter",
+            "film director"
+        ],
+        "pageviews": 3463
+    },
+    {
+        "query_id": "106_228",
+        "question": "What kind of work does Harry Lewis do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 11266
+    },
+    {
+        "query_id": "106_229",
+        "question": "What kind of work does Jason Ganzel do?",
+        "answers": [
+            "screenwriter"
+        ],
+        "pageviews": 1393
+    },
+    {
+        "query_id": "106_230",
+        "question": "What kind of work does Patrick Parisot do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 651
+    },
+    {
+        "query_id": "106_231",
+        "question": "What kind of work does Teuvo Puro do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1193
+    },
+    {
+        "query_id": "106_232",
+        "question": "What kind of work does Juan Bxtch Lozano Ram\u00edrez do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 2301
+    },
+    {
+        "query_id": "106_233",
+        "question": "What kind of work does John Forsyth do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 16234
+    },
+    {
+        "query_id": "106_234",
+        "question": "What kind of work does Masumi Miyazaki do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 3668
+    },
+    {
+        "query_id": "106_235",
+        "question": "What kind of work does Phyllis Schlafly do?",
+        "answers": [
+            "lawyer"
+        ],
+        "pageviews": 336372
+    },
+    {
+        "query_id": "106_236",
+        "question": "What kind of work does Teresa Quesada do?",
+        "answers": [
+            "pianist"
+        ],
+        "pageviews": 500
+    },
+    {
+        "query_id": "106_237",
+        "question": "What kind of work does Roy Neighbors do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 887
+    },
+    {
+        "query_id": "106_238",
+        "question": "What kind of work does Augustin Friedrich Walther do?",
+        "answers": [
+            "physician"
+        ],
+        "pageviews": 1551
+    },
+    {
+        "query_id": "106_239",
+        "question": "What kind of work does Thomas Mainwaring do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1091
+    },
+    {
+        "query_id": "106_240",
+        "question": "What kind of work does Friedrich Uebelhoer do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3008
+    },
+    {
+        "query_id": "106_241",
+        "question": "What kind of work does Jim Ed Norman do?",
+        "answers": [
+            "record producer"
+        ],
+        "pageviews": 10685
+    },
+    {
+        "query_id": "106_242",
+        "question": "What kind of work does William Winram do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1234
+    },
+    {
+        "query_id": "106_243",
+        "question": "What kind of work does Marianne Gary-Schaffhauser do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 601
+    },
+    {
+        "query_id": "106_244",
+        "question": "What kind of work does Thomas Wynne do?",
+        "answers": [
+            "physician"
+        ],
+        "pageviews": 5137
+    },
+    {
+        "query_id": "106_245",
+        "question": "What kind of work does Donald L. Howard do?",
+        "answers": [
+            "jockey"
+        ],
+        "pageviews": 1113
+    },
+    {
+        "query_id": "106_246",
+        "question": "What kind of work does Katherine Perry do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 7935
+    },
+    {
+        "query_id": "106_247",
+        "question": "What kind of work does Joe Anderson do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 147538
+    },
+    {
+        "query_id": "106_248",
+        "question": "What kind of work does Deirdre Quinn do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 23591
+    },
+    {
+        "query_id": "106_249",
+        "question": "What kind of work does Hadi Taqta\u015f do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 1017
+    },
+    {
+        "query_id": "106_250",
+        "question": "What kind of work does Kim Jong-pil do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 22647
+    },
+    {
+        "query_id": "106_251",
+        "question": "What kind of work does George Lee Andrews do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 2653
+    },
+    {
+        "query_id": "106_252",
+        "question": "What kind of work does Harvey Schmidt do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 12272
+    },
+    {
+        "query_id": "106_253",
+        "question": "What kind of work does Samson Kisekka do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 11468
+    },
+    {
+        "query_id": "106_254",
+        "question": "What kind of work does Eric Bailey do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 834
+    },
+    {
+        "query_id": "106_255",
+        "question": "What kind of work does Rajyavardhan Singh Rathore do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 112284
+    },
+    {
+        "query_id": "106_256",
+        "question": "What kind of work does Hazari Lal Chauhan do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1385
+    },
+    {
+        "query_id": "106_257",
+        "question": "What kind of work does Silsby Spalding do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1424
+    },
+    {
+        "query_id": "106_258",
+        "question": "What kind of work does John Bradshaw do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 837
+    },
+    {
+        "query_id": "106_259",
+        "question": "What kind of work does Joseph Reid do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 977
+    },
+    {
+        "query_id": "106_260",
+        "question": "What kind of work does Jeremy Herrin do?",
+        "answers": [
+            "theater director"
+        ],
+        "pageviews": 6430
+    },
+    {
+        "query_id": "106_261",
+        "question": "What kind of work does James Mooney do?",
+        "answers": [
+            "anthropologist"
+        ],
+        "pageviews": 13705
+    },
+    {
+        "query_id": "106_262",
+        "question": "What kind of work does Otto Boeddicker do?",
+        "answers": [
+            "astronomer"
+        ],
+        "pageviews": 1495
+    },
+    {
+        "query_id": "106_263",
+        "question": "What kind of work does Jack Scanlon do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 132190
+    },
+    {
+        "query_id": "106_264",
+        "question": "What kind of work does John Thornton do?",
+        "answers": [
+            "glazier"
+        ],
+        "pageviews": 3281
+    },
+    {
+        "query_id": "106_265",
+        "question": "What kind of work does Edward Niesen do?",
+        "answers": [
+            "missionary"
+        ],
+        "pageviews": 694
+    },
+    {
+        "query_id": "106_266",
+        "question": "What kind of work does Angelika Kallwass do?",
+        "answers": [
+            "television presenter",
+            "psychologist"
+        ],
+        "pageviews": 1457
+    },
+    {
+        "query_id": "106_267",
+        "question": "What kind of work does Lucy Baxley do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 12925
+    },
+    {
+        "query_id": "106_268",
+        "question": "What kind of work does Frank H. Netter do?",
+        "answers": [
+            "illustrator"
+        ],
+        "pageviews": 32212
+    },
+    {
+        "query_id": "106_269",
+        "question": "What kind of work does J. Warren Cassidy do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1880
+    },
+    {
+        "query_id": "106_270",
+        "question": "What kind of work does Theo van Gogh do?",
+        "answers": [
+            "actor",
+            "film director",
+            "film producer",
+            "journalist",
+            "television presenter",
+            "screenwriter"
+        ],
+        "pageviews": 171837
+    },
+    {
+        "query_id": "106_271",
+        "question": "What kind of work does Dorothy Reynolds do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 2644
+    },
+    {
+        "query_id": "106_272",
+        "question": "What kind of work does Pierre Broussel do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2228
+    },
+    {
+        "query_id": "106_274",
+        "question": "What kind of work does Torstein Tvedt Solberg do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1372
+    },
+    {
+        "query_id": "106_275",
+        "question": "What kind of work does Vanessa Grazziotin do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2586
+    },
+    {
+        "query_id": "106_276",
+        "question": "What kind of work does Henry Arana do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1330
+    },
+    {
+        "query_id": "106_277",
+        "question": "What kind of work does V\u00e1clav J. Havel do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 1302
+    },
+    {
+        "query_id": "106_278",
+        "question": "What kind of work does Theodore Goodridge Roberts do?",
+        "answers": [
+            "novelist"
+        ],
+        "pageviews": 2211
+    },
+    {
+        "query_id": "106_279",
+        "question": "What kind of work does Michel Carlini do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1134
+    },
+    {
+        "query_id": "106_280",
+        "question": "What kind of work does Jessica Cauffiel do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 127755
+    },
+    {
+        "query_id": "106_281",
+        "question": "What kind of work does Henry Bromley, 1st Baron Montfort do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1421
+    },
+    {
+        "query_id": "106_282",
+        "question": "What kind of work does Gabrielle LeDoux do?",
+        "answers": [
+            "lawyer",
+            "politician"
+        ],
+        "pageviews": 2141
+    },
+    {
+        "query_id": "106_283",
+        "question": "What kind of work does Monica Nordquist do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 2568
+    },
+    {
+        "query_id": "106_284",
+        "question": "What kind of work does Reenu Mathews do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 30574
+    },
+    {
+        "query_id": "106_285",
+        "question": "What kind of work does Khan Habibullah Khan do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2755
+    },
+    {
+        "query_id": "106_286",
+        "question": "What kind of work does George Hobart-Hampden, 5th Earl of Buckinghamshire do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1696
+    },
+    {
+        "query_id": "106_287",
+        "question": "What kind of work does James Grant do?",
+        "answers": [
+            "songwriter"
+        ],
+        "pageviews": 17193
+    },
+    {
+        "query_id": "106_288",
+        "question": "What kind of work does Gintaras Janu\u0161evi\u010dius do?",
+        "answers": [
+            "pianist"
+        ],
+        "pageviews": 3350
+    },
+    {
+        "query_id": "106_289",
+        "question": "What kind of work does Lila Finn do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 3332
+    },
+    {
+        "query_id": "106_290",
+        "question": "What kind of work does Jason Dawe do?",
+        "answers": [
+            "television presenter",
+            "journalist"
+        ],
+        "pageviews": 96012
+    },
+    {
+        "query_id": "106_291",
+        "question": "What kind of work does Saint Derfel do?",
+        "answers": [
+            "monk"
+        ],
+        "pageviews": 12557
+    },
+    {
+        "query_id": "106_292",
+        "question": "What kind of work does Richard L. Wilson do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 4362
+    },
+    {
+        "query_id": "106_293",
+        "question": "What kind of work does Zoran Thaler do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2096
+    },
+    {
+        "query_id": "106_294",
+        "question": "What kind of work does Douglas Copland do?",
+        "answers": [
+            "economist"
+        ],
+        "pageviews": 2096
+    },
+    {
+        "query_id": "106_295",
+        "question": "What kind of work does Karl B\u00fccher do?",
+        "answers": [
+            "economist"
+        ],
+        "pageviews": 5107
+    },
+    {
+        "query_id": "106_296",
+        "question": "What kind of work does Francisco Silvela do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 4401
+    },
+    {
+        "query_id": "106_297",
+        "question": "What kind of work does Michael Shrieve do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 101807
+    },
+    {
+        "query_id": "106_298",
+        "question": "What kind of work does Yun Chi-oh do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 686
+    },
+    {
+        "query_id": "106_299",
+        "question": "What kind of work does Mark Blaug do?",
+        "answers": [
+            "economist"
+        ],
+        "pageviews": 7450
+    },
+    {
+        "query_id": "106_300",
+        "question": "What kind of work does Tom Vaughan do?",
+        "answers": [
+            "film director"
+        ],
+        "pageviews": 12442
+    },
+    {
+        "query_id": "106_301",
+        "question": "What kind of work does Aamir Hayat Khan Rokhri do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1765
+    },
+    {
+        "query_id": "106_302",
+        "question": "What kind of work does Liesl Tesch do?",
+        "answers": [
+            "sailor"
+        ],
+        "pageviews": 7709
+    },
+    {
+        "query_id": "106_303",
+        "question": "What kind of work does Joseph Lepaute Dagelet do?",
+        "answers": [
+            "astronomer",
+            "mathematician"
+        ],
+        "pageviews": 934
+    },
+    {
+        "query_id": "106_304",
+        "question": "What kind of work does John McCallum do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1088
+    },
+    {
+        "query_id": "106_305",
+        "question": "What kind of work does Th\u00e9r\u00e8se Meyer do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 915
+    },
+    {
+        "query_id": "106_306",
+        "question": "What kind of work does Amir Darvish do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 2162
+    },
+    {
+        "query_id": "106_307",
+        "question": "What kind of work does Philipp Apian do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 2612
+    },
+    {
+        "query_id": "106_308",
+        "question": "What kind of work does Mikey McCleary do?",
+        "answers": [
+            "songwriter",
+            "composer"
+        ],
+        "pageviews": 30495
+    },
+    {
+        "query_id": "106_309",
+        "question": "What kind of work does Anna Ella Carroll do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 6058
+    },
+    {
+        "query_id": "106_310",
+        "question": "What kind of work does Juan de Villafranca do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 584
+    },
+    {
+        "query_id": "106_311",
+        "question": "What kind of work does Benny Yau do?",
+        "answers": [
+            "television presenter"
+        ],
+        "pageviews": 1664
+    },
+    {
+        "query_id": "106_312",
+        "question": "What kind of work does Adam Butcher do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 30144
+    },
+    {
+        "query_id": "106_313",
+        "question": "What kind of work does Fran Wilde do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 6361
+    },
+    {
+        "query_id": "106_314",
+        "question": "What kind of work does Zach Nelson do?",
+        "answers": [
+            "screenwriter"
+        ],
+        "pageviews": 655
+    },
+    {
+        "query_id": "106_315",
+        "question": "What kind of work does Joseph Nordgren do?",
+        "answers": [
+            "physicist"
+        ],
+        "pageviews": 551
+    },
+    {
+        "query_id": "106_316",
+        "question": "What kind of work does Yuri Bradac do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 4073
+    },
+    {
+        "query_id": "106_317",
+        "question": "What kind of work does Jacopo Caldora do?",
+        "answers": [
+            "condottiero"
+        ],
+        "pageviews": 1983
+    },
+    {
+        "query_id": "106_318",
+        "question": "What kind of work does Positive K do?",
+        "answers": [
+            "songwriter"
+        ],
+        "pageviews": 24241
+    },
+    {
+        "query_id": "106_319",
+        "question": "What kind of work does Pierre Mari\u00e9tan do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1258
+    },
+    {
+        "query_id": "106_320",
+        "question": "What kind of work does Ferdinand Sarrien do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 4422
+    },
+    {
+        "query_id": "106_322",
+        "question": "What kind of work does Yom Tov of Joigny do?",
+        "answers": [
+            "rabbi"
+        ],
+        "pageviews": 4238
+    },
+    {
+        "query_id": "106_323",
+        "question": "What kind of work does Jamin Winans do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 5795
+    },
+    {
+        "query_id": "106_324",
+        "question": "What kind of work does Osamu Ishiwata do?",
+        "answers": [
+            "mangaka"
+        ],
+        "pageviews": 5394
+    },
+    {
+        "query_id": "106_325",
+        "question": "What kind of work does Larry Clinton do?",
+        "answers": [
+            "bandleader"
+        ],
+        "pageviews": 10202
+    },
+    {
+        "query_id": "106_326",
+        "question": "What kind of work does Michel Despr\u00e9s do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 946
+    },
+    {
+        "query_id": "106_327",
+        "question": "What kind of work does Tom Eyen do?",
+        "answers": [
+            "playwright",
+            "lyricist",
+            "theater director"
+        ],
+        "pageviews": 16033
+    },
+    {
+        "query_id": "106_328",
+        "question": "What kind of work does Huang Ta-chou do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2274
+    },
+    {
+        "query_id": "106_329",
+        "question": "What kind of work does Joan Henry do?",
+        "answers": [
+            "screenwriter"
+        ],
+        "pageviews": 3480
+    },
+    {
+        "query_id": "106_330",
+        "question": "What kind of work does Milo Cawthorne do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 24156
+    },
+    {
+        "query_id": "106_331",
+        "question": "What kind of work does Andr\u00e9s Bello do?",
+        "answers": [
+            "diplomat",
+            "philosopher",
+            "poet"
+        ],
+        "pageviews": 25673
+    },
+    {
+        "query_id": "106_332",
+        "question": "What kind of work does Nathaniel A. Owings do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 9201
+    },
+    {
+        "query_id": "106_333",
+        "question": "What kind of work does Kasra Naji do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 2998
+    },
+    {
+        "query_id": "106_334",
+        "question": "What kind of work does Erik Paulsen do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 20105
+    },
+    {
+        "query_id": "106_335",
+        "question": "What kind of work does Javier Valle Riestra do?",
+        "answers": [
+            "politician",
+            "jurist"
+        ],
+        "pageviews": 4161
+    },
+    {
+        "query_id": "106_336",
+        "question": "What kind of work does Gheorghe Pogea do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1072
+    },
+    {
+        "query_id": "106_337",
+        "question": "What kind of work does Elizabeth Nickson do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 1467
+    },
+    {
+        "query_id": "106_338",
+        "question": "What kind of work does Gary P. Nunn do?",
+        "answers": [
+            "songwriter"
+        ],
+        "pageviews": 24924
+    },
+    {
+        "query_id": "106_339",
+        "question": "What kind of work does Jen\u0151 \u00c1d\u00e1m do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1690
+    },
+    {
+        "query_id": "106_340",
+        "question": "What kind of work does James Ricalton do?",
+        "answers": [
+            "photographer"
+        ],
+        "pageviews": 16881
+    },
+    {
+        "query_id": "106_341",
+        "question": "What kind of work does Peter Crisp do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2039
+    },
+    {
+        "query_id": "106_342",
+        "question": "What kind of work does Li Qiang do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 774
+    },
+    {
+        "query_id": "106_343",
+        "question": "What kind of work does John Whitesell do?",
+        "answers": [
+            "film director"
+        ],
+        "pageviews": 28813
+    },
+    {
+        "query_id": "106_344",
+        "question": "What kind of work does Christian Gottlieb Cantian do?",
+        "answers": [
+            "stonemason"
+        ],
+        "pageviews": 782
+    },
+    {
+        "query_id": "106_345",
+        "question": "What kind of work does Franz Antoine do?",
+        "answers": [
+            "photographer"
+        ],
+        "pageviews": 736
+    },
+    {
+        "query_id": "106_346",
+        "question": "What kind of work does Mithu Chakrabarty do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 25114
+    },
+    {
+        "query_id": "106_347",
+        "question": "What kind of work does Antonio Spadavecchia do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1090
+    },
+    {
+        "query_id": "106_348",
+        "question": "What kind of work does Eduardo Hontiveros do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 3577
+    },
+    {
+        "query_id": "106_349",
+        "question": "What kind of work does Roberto Ruscitti do?",
+        "answers": [
+            "composer",
+            "pianist"
+        ],
+        "pageviews": 832
+    },
+    {
+        "query_id": "106_350",
+        "question": "What kind of work does Mick Pearce do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 5902
+    },
+    {
+        "query_id": "106_351",
+        "question": "What kind of work does Ben Bradshaw do?",
+        "answers": [
+            "politician",
+            "journalist"
+        ],
+        "pageviews": 49478
+    },
+    {
+        "query_id": "106_352",
+        "question": "What kind of work does Cormac ua Cairbre Crom do?",
+        "answers": [
+            "abbot"
+        ],
+        "pageviews": 302
+    },
+    {
+        "query_id": "106_353",
+        "question": "What kind of work does Alberto Hauss do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1478
+    },
+    {
+        "query_id": "106_354",
+        "question": "What kind of work does Lee Aronsohn do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 22487
+    },
+    {
+        "query_id": "106_355",
+        "question": "What kind of work does August Lambert do?",
+        "answers": [
+            "flying ace"
+        ],
+        "pageviews": 6176
+    },
+    {
+        "query_id": "106_356",
+        "question": "What kind of work does Gregory Bateson do?",
+        "answers": [
+            "anthropologist"
+        ],
+        "pageviews": 104716
+    },
+    {
+        "query_id": "106_357",
+        "question": "What kind of work does John Vallier do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1211
+    },
+    {
+        "query_id": "106_358",
+        "question": "What kind of work does John Isaac do?",
+        "answers": [
+            "photographer"
+        ],
+        "pageviews": 2380
+    },
+    {
+        "query_id": "106_359",
+        "question": "What kind of work does Veljo Tormis do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 9459
+    },
+    {
+        "query_id": "106_360",
+        "question": "What kind of work does Joaqu\u00edn L\u00f3pez-D\u00f3riga do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 8138
+    },
+    {
+        "query_id": "106_361",
+        "question": "What kind of work does Madhu Rye do?",
+        "answers": [
+            "playwright",
+            "novelist"
+        ],
+        "pageviews": 7490
+    },
+    {
+        "query_id": "106_362",
+        "question": "What kind of work does Harold Glanville do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 890
+    },
+    {
+        "query_id": "106_363",
+        "question": "What kind of work does William Hoyle do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 703
+    },
+    {
+        "query_id": "106_364",
+        "question": "What kind of work does John Cass do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 13700
+    },
+    {
+        "query_id": "106_365",
+        "question": "What kind of work does Sherif Lengu do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 877
+    },
+    {
+        "query_id": "106_366",
+        "question": "What kind of work does Beto Benites do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 7759
+    },
+    {
+        "query_id": "106_367",
+        "question": "What kind of work does Shigeru Sugiura do?",
+        "answers": [
+            "mangaka"
+        ],
+        "pageviews": 2915
+    },
+    {
+        "query_id": "106_368",
+        "question": "What kind of work does Dmitry Gerasimov do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 2290
+    },
+    {
+        "query_id": "106_369",
+        "question": "What kind of work does Arne Johansen Juland do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 754
+    },
+    {
+        "query_id": "106_370",
+        "question": "What kind of work does Karl-Ludvig Bugge do?",
+        "answers": [
+            "actor",
+            "journalist",
+            "screenwriter"
+        ],
+        "pageviews": 565
+    },
+    {
+        "query_id": "106_371",
+        "question": "What kind of work does John S. Lesmeister do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 988
+    },
+    {
+        "query_id": "106_372",
+        "question": "What kind of work does Douglas Ross do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 651
+    },
+    {
+        "query_id": "106_373",
+        "question": "What kind of work does Mohamed Nazri Abdul Aziz do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 40544
+    },
+    {
+        "query_id": "106_374",
+        "question": "What kind of work does Tatyana Shaposhnikova do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 1586
+    },
+    {
+        "query_id": "106_375",
+        "question": "What kind of work does Oscar Levy do?",
+        "answers": [
+            "physician"
+        ],
+        "pageviews": 27028
+    },
+    {
+        "query_id": "106_376",
+        "question": "What kind of work does Bernard Ryosuke Inagaki do?",
+        "answers": [
+            "philosopher"
+        ],
+        "pageviews": 2776
+    },
+    {
+        "query_id": "106_377",
+        "question": "What kind of work does Wolfe Morris do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 13161
+    },
+    {
+        "query_id": "106_378",
+        "question": "What kind of work does C. J. Allen do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 3334
+    },
+    {
+        "query_id": "106_379",
+        "question": "What kind of work does La Grande Sophie do?",
+        "answers": [
+            "singer-songwriter"
+        ],
+        "pageviews": 5868
+    },
+    {
+        "query_id": "106_380",
+        "question": "What kind of work does Kate Warne do?",
+        "answers": [
+            "detective"
+        ],
+        "pageviews": 67613
+    },
+    {
+        "query_id": "106_381",
+        "question": "What kind of work does Knut Haus do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 500
+    },
+    {
+        "query_id": "106_382",
+        "question": "What kind of work does John Alford do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 730
+    },
+    {
+        "query_id": "106_383",
+        "question": "What kind of work does Elizabeth Alexander do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 17151
+    },
+    {
+        "query_id": "106_384",
+        "question": "What kind of work does Erik Richter do?",
+        "answers": [
+            "screenwriter"
+        ],
+        "pageviews": 6155
+    },
+    {
+        "query_id": "106_385",
+        "question": "What kind of work does Ali Naci Karacan do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 1756
+    },
+    {
+        "query_id": "106_386",
+        "question": "What kind of work does Ophir Pines-Paz do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3868
+    },
+    {
+        "query_id": "106_387",
+        "question": "What kind of work does Thomas Lee Judge do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 5110
+    },
+    {
+        "query_id": "106_388",
+        "question": "What kind of work does Henry Pomeroy Miller do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2927
+    },
+    {
+        "query_id": "106_389",
+        "question": "What kind of work does Abbie Gerrish-Jones do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 732
+    },
+    {
+        "query_id": "106_390",
+        "question": "What kind of work does Charlotte Milchard do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 28526
+    },
+    {
+        "query_id": "106_391",
+        "question": "What kind of work does Randa Kassis do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 5164
+    },
+    {
+        "query_id": "106_392",
+        "question": "What kind of work does Luigi Barzini, Jr. do?",
+        "answers": [
+            "politician",
+            "journalist"
+        ],
+        "pageviews": 6616
+    },
+    {
+        "query_id": "106_393",
+        "question": "What kind of work does Sonia Melchett do?",
+        "answers": [
+            "socialite"
+        ],
+        "pageviews": 1818
+    },
+    {
+        "query_id": "106_394",
+        "question": "What kind of work does Sajida Begum do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1564
+    },
+    {
+        "query_id": "106_395",
+        "question": "What kind of work does Anthony Haden-Guest do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 43163
+    },
+    {
+        "query_id": "106_396",
+        "question": "What kind of work does Eduardo Cuervo do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1105
+    },
+    {
+        "query_id": "106_397",
+        "question": "What kind of work does Y\u014dko S\u014dmi do?",
+        "answers": [
+            "seiy\u016b"
+        ],
+        "pageviews": 8490
+    },
+    {
+        "query_id": "106_398",
+        "question": "What kind of work does William Hayward Jr. do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 863
+    },
+    {
+        "query_id": "106_399",
+        "question": "What kind of work does Ulf Berg do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1230
+    },
+    {
+        "query_id": "106_400",
+        "question": "What kind of work does Kabir Khan do?",
+        "answers": [
+            "film director",
+            "screenwriter"
+        ],
+        "pageviews": 368818
+    },
+    {
+        "query_id": "106_401",
+        "question": "What kind of work does John Methuen do?",
+        "answers": [
+            "priest"
+        ],
+        "pageviews": 721
+    },
+    {
+        "query_id": "106_402",
+        "question": "What kind of work does Aleksander Zederbaum do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 1984
+    },
+    {
+        "query_id": "106_403",
+        "question": "What kind of work does Paul Goddard do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 36119
+    },
+    {
+        "query_id": "106_404",
+        "question": "What kind of work does Nathan Murphy do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 747
+    },
+    {
+        "query_id": "106_405",
+        "question": "What kind of work does Balakrishna do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 29069
+    },
+    {
+        "query_id": "106_406",
+        "question": "What kind of work does William Major do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 570
+    },
+    {
+        "query_id": "106_407",
+        "question": "What kind of work does Joseph Ceravolo do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 1539
+    },
+    {
+        "query_id": "106_408",
+        "question": "What kind of work does Roland Boyes do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2185
+    },
+    {
+        "query_id": "106_409",
+        "question": "What kind of work does Michael Heath do?",
+        "answers": [
+            "illustrator"
+        ],
+        "pageviews": 3525
+    },
+    {
+        "query_id": "106_410",
+        "question": "What kind of work does George Thomas Smart do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 4945
+    },
+    {
+        "query_id": "106_411",
+        "question": "What kind of work does Peter Stephen Du Ponceau do?",
+        "answers": [
+            "philosopher"
+        ],
+        "pageviews": 10106
+    },
+    {
+        "query_id": "106_412",
+        "question": "What kind of work does Sergey Durov do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 1201
+    },
+    {
+        "query_id": "106_413",
+        "question": "What kind of work does Aleksey Belyakov do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 892
+    },
+    {
+        "query_id": "106_414",
+        "question": "What kind of work does Eduard Linnemann do?",
+        "answers": [
+            "chemist"
+        ],
+        "pageviews": 650
+    },
+    {
+        "query_id": "106_415",
+        "question": "What kind of work does John W. Daniel do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 6537
+    },
+    {
+        "query_id": "106_416",
+        "question": "What kind of work does Carl Legien do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3311
+    },
+    {
+        "query_id": "106_417",
+        "question": "What kind of work does Jim O'Keeffe do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1958
+    },
+    {
+        "query_id": "106_418",
+        "question": "What kind of work does Piotr Pr\u0119gowski do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1392
+    },
+    {
+        "query_id": "106_419",
+        "question": "What kind of work does Edward V. Cupero do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 445
+    },
+    {
+        "query_id": "106_420",
+        "question": "What kind of work does Don Johnston do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 18244
+    },
+    {
+        "query_id": "106_421",
+        "question": "What kind of work does Robert Worley do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 1918
+    },
+    {
+        "query_id": "106_422",
+        "question": "What kind of work does David Jayne Hill do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 3905
+    },
+    {
+        "query_id": "106_423",
+        "question": "What kind of work does Marianne Greenwood do?",
+        "answers": [
+            "photographer"
+        ],
+        "pageviews": 1114
+    },
+    {
+        "query_id": "106_424",
+        "question": "What kind of work does Fran\u00e7ois Colin de Blamont do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1968
+    },
+    {
+        "query_id": "106_425",
+        "question": "What kind of work does John G. Watkins do?",
+        "answers": [
+            "psychologist"
+        ],
+        "pageviews": 2925
+    },
+    {
+        "query_id": "106_426",
+        "question": "What kind of work does Hamilton Dyce do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 4065
+    },
+    {
+        "query_id": "106_427",
+        "question": "What kind of work does George Colligan do?",
+        "answers": [
+            "pianist"
+        ],
+        "pageviews": 4073
+    },
+    {
+        "query_id": "106_428",
+        "question": "What kind of work does Francis E. McGovern do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 4681
+    },
+    {
+        "query_id": "106_429",
+        "question": "What kind of work does Horia Creang\u0103 do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 3364
+    },
+    {
+        "query_id": "106_430",
+        "question": "What kind of work does Johann Schneider-Ammann do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 11797
+    },
+    {
+        "query_id": "106_431",
+        "question": "What kind of work does Julia Perez do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 36561
+    },
+    {
+        "query_id": "106_432",
+        "question": "What kind of work does John Reppy do?",
+        "answers": [
+            "physicist"
+        ],
+        "pageviews": 1448
+    },
+    {
+        "query_id": "106_433",
+        "question": "What kind of work does Robert List do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 7797
+    },
+    {
+        "query_id": "106_434",
+        "question": "What kind of work does William Donne do?",
+        "answers": [
+            "curate"
+        ],
+        "pageviews": 375
+    },
+    {
+        "query_id": "106_435",
+        "question": "What kind of work does Joan O'Brien do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 96079
+    },
+    {
+        "query_id": "106_436",
+        "question": "What kind of work does Wilhelm Engel Bredal do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1255
+    },
+    {
+        "query_id": "106_437",
+        "question": "What kind of work does Allan Schwartzberg do?",
+        "answers": [
+            "record producer"
+        ],
+        "pageviews": 17152
+    },
+    {
+        "query_id": "106_438",
+        "question": "What kind of work does Jacqueline Sassard do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 11423
+    },
+    {
+        "query_id": "106_439",
+        "question": "What kind of work does Komarraju Atchamamba do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1428
+    },
+    {
+        "query_id": "106_440",
+        "question": "What kind of work does Bruno Bjelinski do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 2355
+    },
+    {
+        "query_id": "106_441",
+        "question": "What kind of work does Tina Parekh do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 25561
+    },
+    {
+        "query_id": "106_442",
+        "question": "What kind of work does Harry K. Daghlian, Jr. do?",
+        "answers": [
+            "physicist"
+        ],
+        "pageviews": 210402
+    },
+    {
+        "query_id": "106_443",
+        "question": "What kind of work does Anatoly Lebedko do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2842
+    },
+    {
+        "query_id": "106_444",
+        "question": "What kind of work does Mich\u00e8le Ohayon do?",
+        "answers": [
+            "film director"
+        ],
+        "pageviews": 2364
+    },
+    {
+        "query_id": "106_445",
+        "question": "What kind of work does Merve Sevi do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 3225
+    },
+    {
+        "query_id": "106_446",
+        "question": "What kind of work does Shawn Okpebholo do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1971
+    },
+    {
+        "query_id": "106_447",
+        "question": "What kind of work does Henry Knollys do?",
+        "answers": [
+            "diplomat",
+            "politician"
+        ],
+        "pageviews": 524
+    },
+    {
+        "query_id": "106_448",
+        "question": "What kind of work does Thomas Raeburn White do?",
+        "answers": [
+            "lawyer"
+        ],
+        "pageviews": 812
+    },
+    {
+        "query_id": "106_449",
+        "question": "What kind of work does Dianne Hull do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 15827
+    },
+    {
+        "query_id": "106_450",
+        "question": "What kind of work does Martin Ittner do?",
+        "answers": [
+            "chemist"
+        ],
+        "pageviews": 1593
+    },
+    {
+        "query_id": "106_451",
+        "question": "What kind of work does Gao Zhihang do?",
+        "answers": [
+            "flying ace"
+        ],
+        "pageviews": 5126
+    },
+    {
+        "query_id": "106_452",
+        "question": "What kind of work does Erick El\u00edas do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 48580
+    },
+    {
+        "query_id": "106_453",
+        "question": "What kind of work does John Hannam do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 426
+    },
+    {
+        "query_id": "106_454",
+        "question": "What kind of work does Carl Wilhelm Heine do?",
+        "answers": [
+            "physician"
+        ],
+        "pageviews": 861
+    },
+    {
+        "query_id": "106_455",
+        "question": "What kind of work does Matthew Luo Duxi do?",
+        "answers": [
+            "priest"
+        ],
+        "pageviews": 704
+    },
+    {
+        "query_id": "106_456",
+        "question": "What kind of work does Vikram do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 2503290
+    },
+    {
+        "query_id": "106_457",
+        "question": "What kind of work does F. C. D. Wyneken do?",
+        "answers": [
+            "missionary"
+        ],
+        "pageviews": 6351
+    },
+    {
+        "query_id": "106_458",
+        "question": "What kind of work does Jake Ootes do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 877
+    },
+    {
+        "query_id": "106_459",
+        "question": "What kind of work does Jos\u00e9 Guadalupe Esparza do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 28234
+    },
+    {
+        "query_id": "106_460",
+        "question": "What kind of work does Ben Bagert do?",
+        "answers": [
+            "politician",
+            "lawyer"
+        ],
+        "pageviews": 1752
+    },
+    {
+        "query_id": "106_461",
+        "question": "What kind of work does Simon Woods do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 239719
+    },
+    {
+        "query_id": "106_462",
+        "question": "What kind of work does Madeleine Smithberg do?",
+        "answers": [
+            "executive producer"
+        ],
+        "pageviews": 7092
+    },
+    {
+        "query_id": "106_463",
+        "question": "What kind of work does Rhea Perlman do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1631025
+    },
+    {
+        "query_id": "106_464",
+        "question": "What kind of work does Omar Hilale do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 4766
+    },
+    {
+        "query_id": "106_465",
+        "question": "What kind of work does Gloria Macarenko do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 8977
+    },
+    {
+        "query_id": "106_466",
+        "question": "What kind of work does Arion do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 46951
+    },
+    {
+        "query_id": "106_467",
+        "question": "What kind of work does Greg\u00f3rio Duvivier do?",
+        "answers": [
+            "actor",
+            "poet"
+        ],
+        "pageviews": 8545
+    },
+    {
+        "query_id": "106_468",
+        "question": "What kind of work does Pierre L\u00e9vy do?",
+        "answers": [
+            "philosopher"
+        ],
+        "pageviews": 7509
+    },
+    {
+        "query_id": "106_469",
+        "question": "What kind of work does Mina Fujii do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 21811
+    },
+    {
+        "query_id": "106_471",
+        "question": "What kind of work does J\u00f3zsef Somkuthy do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1046
+    },
+    {
+        "query_id": "106_472",
+        "question": "What kind of work does Stephanie Cooke do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 2672
+    },
+    {
+        "query_id": "106_473",
+        "question": "What kind of work does Edward F. Harris do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 772
+    },
+    {
+        "query_id": "106_474",
+        "question": "What kind of work does Danny Breaks do?",
+        "answers": [
+            "record producer",
+            "disc jockey"
+        ],
+        "pageviews": 4086
+    },
+    {
+        "query_id": "106_475",
+        "question": "What kind of work does Mikheil Kurdiani do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 829
+    },
+    {
+        "query_id": "106_476",
+        "question": "What kind of work does Wang Hui-ling do?",
+        "answers": [
+            "screenwriter"
+        ],
+        "pageviews": 5581
+    },
+    {
+        "query_id": "106_477",
+        "question": "What kind of work does Buyelwa Sonjica do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2547
+    },
+    {
+        "query_id": "106_478",
+        "question": "What kind of work does Marky Cielo do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 52023
+    },
+    {
+        "query_id": "106_479",
+        "question": "What kind of work does Spyros Taliadouros do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 626
+    },
+    {
+        "query_id": "106_480",
+        "question": "What kind of work does Spanky Manikan do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 14739
+    },
+    {
+        "query_id": "106_481",
+        "question": "What kind of work does Marcel Sisniega Campbell do?",
+        "answers": [
+            "film director"
+        ],
+        "pageviews": 2521
+    },
+    {
+        "query_id": "106_482",
+        "question": "What kind of work does Nicol\u00e1s Vigneaux do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 792
+    },
+    {
+        "query_id": "106_483",
+        "question": "What kind of work does Adrian FitzGerald do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 9188
+    },
+    {
+        "query_id": "106_484",
+        "question": "What kind of work does Tony Kgoroge do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 26940
+    },
+    {
+        "query_id": "106_485",
+        "question": "What kind of work does Debbie McDonald do?",
+        "answers": [
+            "horse trainer"
+        ],
+        "pageviews": 2628
+    },
+    {
+        "query_id": "106_486",
+        "question": "What kind of work does Maricarmen Valls do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 362
+    },
+    {
+        "query_id": "106_487",
+        "question": "What kind of work does Arthur W. Nienhuis do?",
+        "answers": [
+            "physician"
+        ],
+        "pageviews": 1289
+    },
+    {
+        "query_id": "106_488",
+        "question": "What kind of work does Ron Lollar do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1037
+    },
+    {
+        "query_id": "106_489",
+        "question": "What kind of work does Robert Ghiz do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 6039
+    },
+    {
+        "query_id": "106_491",
+        "question": "What kind of work does Henry Evans do?",
+        "answers": [
+            "scrivener"
+        ],
+        "pageviews": 2633
+    },
+    {
+        "query_id": "106_492",
+        "question": "What kind of work does Julio Vallejo Ruiloba do?",
+        "answers": [
+            "psychiatrist"
+        ],
+        "pageviews": 888
+    },
+    {
+        "query_id": "106_493",
+        "question": "What kind of work does Reiner Bredemeyer do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1590
+    },
+    {
+        "query_id": "106_494",
+        "question": "What kind of work does R\u00f3za Laborfalvi do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 2167
+    },
+    {
+        "query_id": "106_495",
+        "question": "What kind of work does Leslye Headland do?",
+        "answers": [
+            "screenwriter",
+            "playwright"
+        ],
+        "pageviews": 104397
+    },
+    {
+        "query_id": "106_496",
+        "question": "What kind of work does Gerry Phillips do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3654
+    },
+    {
+        "query_id": "106_497",
+        "question": "What kind of work does Paavo Susitaival do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3511
+    },
+    {
+        "query_id": "106_498",
+        "question": "What kind of work does Ike Lozada do?",
+        "answers": [
+            "comedian",
+            "actor"
+        ],
+        "pageviews": 9892
+    },
+    {
+        "query_id": "106_499",
+        "question": "What kind of work does Jon Appleton do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 15381
+    },
+    {
+        "query_id": "106_500",
+        "question": "What kind of work does Parsaram Meghwal do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1005
+    },
+    {
+        "query_id": "106_501",
+        "question": "What kind of work does Robert D. Kohn do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 2256
+    },
+    {
+        "query_id": "106_502",
+        "question": "What kind of work does Bill Raymond do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 32486
+    },
+    {
+        "query_id": "106_503",
+        "question": "What kind of work does David Coon do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 4613
+    },
+    {
+        "query_id": "106_504",
+        "question": "What kind of work does Giulio Cesare Cortese do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 1153
+    },
+    {
+        "query_id": "106_505",
+        "question": "What kind of work does Vilnis Edv\u012bns Bresis do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1734
+    },
+    {
+        "query_id": "106_506",
+        "question": "What kind of work does Vladimir Meshchersky do?",
+        "answers": [
+            "journalist",
+            "novelist"
+        ],
+        "pageviews": 3369
+    },
+    {
+        "query_id": "106_507",
+        "question": "What kind of work does Mildred Schwab do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1481
+    },
+    {
+        "query_id": "106_508",
+        "question": "What kind of work does Ben Patrick Johnson do?",
+        "answers": [
+            "voice actor",
+            "actor"
+        ],
+        "pageviews": 10243
+    },
+    {
+        "query_id": "106_509",
+        "question": "What kind of work does Ronald S\u00f8rensen do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3010
+    },
+    {
+        "query_id": "106_510",
+        "question": "What kind of work does Sophie Bryant do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 4181
+    },
+    {
+        "query_id": "106_511",
+        "question": "What kind of work does Sussie Eriksson do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 5842
+    },
+    {
+        "query_id": "106_512",
+        "question": "What kind of work does Gabriel Cousens do?",
+        "answers": [
+            "physician"
+        ],
+        "pageviews": 12298
+    },
+    {
+        "query_id": "106_513",
+        "question": "What kind of work does Angela Tong do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 19979
+    },
+    {
+        "query_id": "106_514",
+        "question": "What kind of work does Curt Richter do?",
+        "answers": [
+            "biologist",
+            "geneticist"
+        ],
+        "pageviews": 26175
+    },
+    {
+        "query_id": "106_515",
+        "question": "What kind of work does Thomas Tyra do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1867
+    },
+    {
+        "query_id": "106_516",
+        "question": "What kind of work does Jos Van Immerseel do?",
+        "answers": [
+            "pianist"
+        ],
+        "pageviews": 3198
+    },
+    {
+        "query_id": "106_517",
+        "question": "What kind of work does Paul Fr\u00e8re do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 9703
+    },
+    {
+        "query_id": "106_518",
+        "question": "What kind of work does Gary Fong do?",
+        "answers": [
+            "photographer"
+        ],
+        "pageviews": 4432
+    },
+    {
+        "query_id": "106_519",
+        "question": "What kind of work does Sascha Gorodnitzki do?",
+        "answers": [
+            "pianist"
+        ],
+        "pageviews": 2899
+    },
+    {
+        "query_id": "106_520",
+        "question": "What kind of work does Rajni Ranjan Sahu do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1234
+    },
+    {
+        "query_id": "106_521",
+        "question": "What kind of work does Marie Key do?",
+        "answers": [
+            "songwriter"
+        ],
+        "pageviews": 3858
+    },
+    {
+        "query_id": "106_522",
+        "question": "What kind of work does Eleazar Huerta Valc\u00e1rcel do?",
+        "answers": [
+            "poet",
+            "politician"
+        ],
+        "pageviews": 527
+    },
+    {
+        "query_id": "106_523",
+        "question": "What kind of work does Richard Pitman do?",
+        "answers": [
+            "jockey"
+        ],
+        "pageviews": 7075
+    },
+    {
+        "query_id": "106_524",
+        "question": "What kind of work does Hedwig Pringsheim do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 6048
+    },
+    {
+        "query_id": "106_525",
+        "question": "What kind of work does Clifford Glossop do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 771
+    },
+    {
+        "query_id": "106_526",
+        "question": "What kind of work does Ar\u00edstides Villanueva do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1455
+    },
+    {
+        "query_id": "106_527",
+        "question": "What kind of work does Utu Abe Malae do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1952
+    },
+    {
+        "query_id": "106_528",
+        "question": "What kind of work does Michael Rophino Lacy do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 712
+    },
+    {
+        "query_id": "106_529",
+        "question": "What kind of work does Richard T. Gill do?",
+        "answers": [
+            "economist"
+        ],
+        "pageviews": 1920
+    },
+    {
+        "query_id": "106_530",
+        "question": "What kind of work does Richard Stuart do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3393
+    },
+    {
+        "query_id": "106_531",
+        "question": "What kind of work does John Cann do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 733
+    },
+    {
+        "query_id": "106_532",
+        "question": "What kind of work does Cl\u00e9mentine Autain do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 14978
+    },
+    {
+        "query_id": "106_533",
+        "question": "What kind of work does Eduard Kaufmann do?",
+        "answers": [
+            "physician"
+        ],
+        "pageviews": 1030
+    },
+    {
+        "query_id": "106_534",
+        "question": "What kind of work does Henry Kissinger do?",
+        "answers": [
+            "diplomat",
+            "politician"
+        ],
+        "pageviews": 3220846
+    },
+    {
+        "query_id": "106_535",
+        "question": "What kind of work does Rolla Wells do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1768
+    },
+    {
+        "query_id": "106_536",
+        "question": "What kind of work does Adalbert of Pomerania do?",
+        "answers": [
+            "priest"
+        ],
+        "pageviews": 1030
+    },
+    {
+        "query_id": "106_537",
+        "question": "What kind of work does Marcos \u00c1lvarez P\u00e9rez do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 575
+    },
+    {
+        "query_id": "106_538",
+        "question": "What kind of work does Robert Darcy, 4th Earl of Holderness do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 7209
+    },
+    {
+        "query_id": "106_539",
+        "question": "What kind of work does Mikola Abramchyk do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 3497
+    },
+    {
+        "query_id": "106_540",
+        "question": "What kind of work does Diego Abad de Santill\u00e1n do?",
+        "answers": [
+            "economist"
+        ],
+        "pageviews": 14085
+    },
+    {
+        "query_id": "106_541",
+        "question": "What kind of work does U Myint do?",
+        "answers": [
+            "economist"
+        ],
+        "pageviews": 1940
+    },
+    {
+        "query_id": "106_542",
+        "question": "What kind of work does Andr\u00e9 Rousseau do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1062
+    },
+    {
+        "query_id": "106_543",
+        "question": "What kind of work does Madhab Chandra Dash do?",
+        "answers": [
+            "biologist"
+        ],
+        "pageviews": 1704
+    },
+    {
+        "query_id": "106_544",
+        "question": "What kind of work does M\u00e1ria F\u00f6ldes do?",
+        "answers": [
+            "playwright"
+        ],
+        "pageviews": 941
+    },
+    {
+        "query_id": "106_545",
+        "question": "What kind of work does Khayyam Mirzazade do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1420
+    },
+    {
+        "query_id": "106_546",
+        "question": "What kind of work does Rosamund Stanhope do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 962
+    },
+    {
+        "query_id": "106_547",
+        "question": "What kind of work does Carolyn Brandt do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 6442
+    },
+    {
+        "query_id": "106_548",
+        "question": "What kind of work does Chanchal Chowdhury do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 130360
+    },
+    {
+        "query_id": "106_549",
+        "question": "What kind of work does Luc B\u00fcrgin do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 2513
+    },
+    {
+        "query_id": "106_550",
+        "question": "What kind of work does Lala Mnatsakanyan do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1182
+    },
+    {
+        "query_id": "106_551",
+        "question": "What kind of work does Let\u00edcia Birkheuer do?",
+        "answers": [
+            "model",
+            "actor"
+        ],
+        "pageviews": 5598
+    },
+    {
+        "query_id": "106_552",
+        "question": "What kind of work does Osman Faruk Lo\u011fo\u011flu do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 595
+    },
+    {
+        "query_id": "106_553",
+        "question": "What kind of work does Maurice Tourneur do?",
+        "answers": [
+            "screenwriter",
+            "film director"
+        ],
+        "pageviews": 11421
+    },
+    {
+        "query_id": "106_554",
+        "question": "What kind of work does Andreas Libavius do?",
+        "answers": [
+            "chemist"
+        ],
+        "pageviews": 11046
+    },
+    {
+        "query_id": "106_555",
+        "question": "What kind of work does Charles Sabine do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 4249
+    },
+    {
+        "query_id": "106_556",
+        "question": "What kind of work does Daniel Schneidermann do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 2622
+    },
+    {
+        "query_id": "106_557",
+        "question": "What kind of work does Fanny Damian Cano do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 14752
+    },
+    {
+        "query_id": "106_558",
+        "question": "What kind of work does Zuleikha Chaudhuri do?",
+        "answers": [
+            "theater director"
+        ],
+        "pageviews": 6038
+    },
+    {
+        "query_id": "106_559",
+        "question": "What kind of work does Shin'ichi Hisamatsu do?",
+        "answers": [
+            "philosopher"
+        ],
+        "pageviews": 4829
+    },
+    {
+        "query_id": "106_560",
+        "question": "What kind of work does John Catucci do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 25438
+    },
+    {
+        "query_id": "106_561",
+        "question": "What kind of work does Ralph W. Ellis do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 669
+    },
+    {
+        "query_id": "106_562",
+        "question": "What kind of work does Michele Morrow do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 9994
+    },
+    {
+        "query_id": "106_563",
+        "question": "What kind of work does Monte Moir do?",
+        "answers": [
+            "songwriter"
+        ],
+        "pageviews": 16205
+    },
+    {
+        "query_id": "106_564",
+        "question": "What kind of work does Nicole Bourke do?",
+        "answers": [
+            "novelist"
+        ],
+        "pageviews": 1271
+    },
+    {
+        "query_id": "106_565",
+        "question": "What kind of work does Thomas Shaw Brandreth do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 1483
+    },
+    {
+        "query_id": "106_566",
+        "question": "What kind of work does Martha Larsen Jahn do?",
+        "answers": [
+            "librarian"
+        ],
+        "pageviews": 899
+    },
+    {
+        "query_id": "106_567",
+        "question": "What kind of work does Dean Brooks do?",
+        "answers": [
+            "actor",
+            "physician"
+        ],
+        "pageviews": 18185
+    },
+    {
+        "query_id": "106_568",
+        "question": "What kind of work does Ludovic Routhier do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 335
+    },
+    {
+        "query_id": "106_569",
+        "question": "What kind of work does Robert Stone do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1403
+    },
+    {
+        "query_id": "106_570",
+        "question": "What kind of work does Harald Lie do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 671
+    },
+    {
+        "query_id": "106_571",
+        "question": "What kind of work does John Williams Walker do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 4319
+    },
+    {
+        "query_id": "106_572",
+        "question": "What kind of work does \u00d8ystein Ingar Larsen do?",
+        "answers": [
+            "priest"
+        ],
+        "pageviews": 626
+    },
+    {
+        "query_id": "106_573",
+        "question": "What kind of work does Xiong Yan do?",
+        "answers": [
+            "chaplain"
+        ],
+        "pageviews": 38039
+    },
+    {
+        "query_id": "106_574",
+        "question": "What kind of work does Carl Peter Parelius Essendrop do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 925
+    },
+    {
+        "query_id": "106_575",
+        "question": "What kind of work does Philippe Peythieu do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 2440
+    },
+    {
+        "query_id": "106_576",
+        "question": "What kind of work does Adam Melonas do?",
+        "answers": [
+            "chef"
+        ],
+        "pageviews": 2193
+    },
+    {
+        "query_id": "106_577",
+        "question": "What kind of work does Theodor Kery do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 734
+    },
+    {
+        "query_id": "106_578",
+        "question": "What kind of work does Samuel F. Tappan do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 3104
+    },
+    {
+        "query_id": "106_579",
+        "question": "What kind of work does Jessica Horn do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 2440
+    },
+    {
+        "query_id": "106_580",
+        "question": "What kind of work does Nat Taylor do?",
+        "answers": [
+            "film producer"
+        ],
+        "pageviews": 3417
+    },
+    {
+        "query_id": "106_581",
+        "question": "What kind of work does David-Augustin de Brueys do?",
+        "answers": [
+            "playwright"
+        ],
+        "pageviews": 1355
+    },
+    {
+        "query_id": "106_582",
+        "question": "What kind of work does Thomas Donovan do?",
+        "answers": [
+            "singer-songwriter"
+        ],
+        "pageviews": 1731
+    },
+    {
+        "query_id": "106_583",
+        "question": "What kind of work does Mikel Japp do?",
+        "answers": [
+            "songwriter"
+        ],
+        "pageviews": 5977
+    },
+    {
+        "query_id": "106_584",
+        "question": "What kind of work does Phataphat Jayalaxmi do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 48286
+    },
+    {
+        "query_id": "106_585",
+        "question": "What kind of work does Ron Konopka do?",
+        "answers": [
+            "geneticist"
+        ],
+        "pageviews": 1919
+    },
+    {
+        "query_id": "106_586",
+        "question": "What kind of work does Ossip Gabrilowitsch do?",
+        "answers": [
+            "pianist",
+            "composer"
+        ],
+        "pageviews": 14297
+    },
+    {
+        "query_id": "106_587",
+        "question": "What kind of work does James Hartley do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 980
+    },
+    {
+        "query_id": "106_588",
+        "question": "What kind of work does Jorge de Montemor do?",
+        "answers": [
+            "novelist",
+            "poet"
+        ],
+        "pageviews": 3600
+    },
+    {
+        "query_id": "106_589",
+        "question": "What kind of work does A. K. Sajan do?",
+        "answers": [
+            "film director",
+            "screenwriter"
+        ],
+        "pageviews": 23265
+    },
+    {
+        "query_id": "106_591",
+        "question": "What kind of work does Matthew S. Collier do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2996
+    },
+    {
+        "query_id": "106_592",
+        "question": "What kind of work does Vance Faber do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 1120
+    },
+    {
+        "query_id": "106_593",
+        "question": "What kind of work does Giorgi Maisashvili do?",
+        "answers": [
+            "economist"
+        ],
+        "pageviews": 1209
+    },
+    {
+        "query_id": "106_594",
+        "question": "What kind of work does Alberto Terrile do?",
+        "answers": [
+            "photographer"
+        ],
+        "pageviews": 1862
+    },
+    {
+        "query_id": "106_595",
+        "question": "What kind of work does Toshio Nobe do?",
+        "answers": [
+            "mangaka"
+        ],
+        "pageviews": 1389
+    },
+    {
+        "query_id": "106_596",
+        "question": "What kind of work does Freddie Perren do?",
+        "answers": [
+            "record producer"
+        ],
+        "pageviews": 30125
+    },
+    {
+        "query_id": "106_597",
+        "question": "What kind of work does Joseph O'Connor do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 40573
+    },
+    {
+        "query_id": "106_598",
+        "question": "What kind of work does Charles Bourgeois do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 721
+    },
+    {
+        "query_id": "106_599",
+        "question": "What kind of work does Jovdat Hajiyev do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1880
+    },
+    {
+        "query_id": "106_600",
+        "question": "What kind of work does Aqua Bassino do?",
+        "answers": [
+            "disc jockey"
+        ],
+        "pageviews": 2241
+    },
+    {
+        "query_id": "106_601",
+        "question": "What kind of work does J. Hyam Rubinstein do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 2107
+    },
+    {
+        "query_id": "106_602",
+        "question": "What kind of work does Thomas Gaspey do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 2605
+    },
+    {
+        "query_id": "106_603",
+        "question": "What kind of work does Joe Absolom do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 181471
+    },
+    {
+        "query_id": "106_604",
+        "question": "What kind of work does Doug Sheehan do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 25642
+    },
+    {
+        "query_id": "106_605",
+        "question": "What kind of work does Sophie Raworth do?",
+        "answers": [
+            "news presenter",
+            "journalist"
+        ],
+        "pageviews": 229514
+    },
+    {
+        "query_id": "106_606",
+        "question": "What kind of work does Fran\u00e7ois Roelants du Vivier do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1030
+    },
+    {
+        "query_id": "106_607",
+        "question": "What kind of work does Kurt Malangr\u00e9 do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2043
+    },
+    {
+        "query_id": "106_608",
+        "question": "What kind of work does Debbie McCune Davis do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1066
+    },
+    {
+        "query_id": "106_609",
+        "question": "What kind of work does T. Zachary Cotler do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 1584
+    },
+    {
+        "query_id": "106_610",
+        "question": "What kind of work does Frederik Philip Carl August Barth do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 588
+    },
+    {
+        "query_id": "106_611",
+        "question": "What kind of work does Gary Clark, Jr. do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 244353
+    },
+    {
+        "query_id": "106_612",
+        "question": "What kind of work does Alfred B. Mullett do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 7344
+    },
+    {
+        "query_id": "106_613",
+        "question": "What kind of work does Jos\u00e9 Mar\u00eda Velasco Maidana do?",
+        "answers": [
+            "composer",
+            "film director"
+        ],
+        "pageviews": 1098
+    },
+    {
+        "query_id": "106_614",
+        "question": "What kind of work does J\u00e1nos Bud do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 932
+    },
+    {
+        "query_id": "106_615",
+        "question": "What kind of work does Margot Ruddock do?",
+        "answers": [
+            "actor",
+            "poet"
+        ],
+        "pageviews": 4585
+    },
+    {
+        "query_id": "106_616",
+        "question": "What kind of work does Stephen Cohn do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 2024
+    },
+    {
+        "query_id": "106_617",
+        "question": "What kind of work does K. Shivanagouda Naik do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 6065
+    },
+    {
+        "query_id": "106_618",
+        "question": "What kind of work does Saul Singer do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 4206
+    },
+    {
+        "query_id": "106_619",
+        "question": "What kind of work does Demetrio Aguilera Malta do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 2117
+    },
+    {
+        "query_id": "106_620",
+        "question": "What kind of work does Karl Puth do?",
+        "answers": [
+            "cinematographer"
+        ],
+        "pageviews": 825
+    },
+    {
+        "query_id": "106_621",
+        "question": "What kind of work does David Wyatt do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1840
+    },
+    {
+        "query_id": "106_622",
+        "question": "What kind of work does John Thomas Sproule do?",
+        "answers": [
+            "farmer"
+        ],
+        "pageviews": 526
+    },
+    {
+        "query_id": "106_623",
+        "question": "What kind of work does Onchanh Thammavong do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1030
+    },
+    {
+        "query_id": "106_624",
+        "question": "What kind of work does Fanny Mikey do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 2670
+    },
+    {
+        "query_id": "106_625",
+        "question": "What kind of work does Edward Roberts do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 18526
+    },
+    {
+        "query_id": "106_626",
+        "question": "What kind of work does Anita Orlund do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 493
+    },
+    {
+        "query_id": "106_627",
+        "question": "What kind of work does \u00d6d\u00f6n Beniczky do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1174
+    },
+    {
+        "query_id": "106_628",
+        "question": "What kind of work does Homero D\u00edaz Rodr\u00edguez do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 560
+    },
+    {
+        "query_id": "106_629",
+        "question": "What kind of work does Micaiah John Muller Hill do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 3286
+    },
+    {
+        "query_id": "106_630",
+        "question": "What kind of work does Tom Ford do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 12950
+    },
+    {
+        "query_id": "106_631",
+        "question": "What kind of work does Yu Yagami do?",
+        "answers": [
+            "mangaka"
+        ],
+        "pageviews": 2946
+    },
+    {
+        "query_id": "106_632",
+        "question": "What kind of work does Terri Crawford Hansen do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 1619
+    },
+    {
+        "query_id": "106_633",
+        "question": "What kind of work does Philipp Agricola do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 910
+    },
+    {
+        "query_id": "106_634",
+        "question": "What kind of work does Katarina Sandstr\u00f6m do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 7118
+    },
+    {
+        "query_id": "106_635",
+        "question": "What kind of work does Patrick du Val do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 2194
+    },
+    {
+        "query_id": "106_637",
+        "question": "What kind of work does Daniel Ceccaldi do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 4682
+    },
+    {
+        "query_id": "106_638",
+        "question": "What kind of work does Nils Ros\u00e9n von Rosenstein do?",
+        "answers": [
+            "physician"
+        ],
+        "pageviews": 2946
+    },
+    {
+        "query_id": "106_639",
+        "question": "What kind of work does Se\u00e1n \u00d3 Riada do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 23398
+    },
+    {
+        "query_id": "106_640",
+        "question": "What kind of work does Kim Ji-min do?",
+        "answers": [
+            "comedian"
+        ],
+        "pageviews": 78242
+    },
+    {
+        "query_id": "106_641",
+        "question": "What kind of work does Austin H. Patterson do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1081
+    },
+    {
+        "query_id": "106_642",
+        "question": "What kind of work does Lois Walden do?",
+        "answers": [
+            "record producer",
+            "songwriter"
+        ],
+        "pageviews": 1879
+    },
+    {
+        "query_id": "106_643",
+        "question": "What kind of work does Georges Pianta do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 578
+    },
+    {
+        "query_id": "106_644",
+        "question": "What kind of work does Roddy Woomble do?",
+        "answers": [
+            "songwriter"
+        ],
+        "pageviews": 15278
+    },
+    {
+        "query_id": "106_645",
+        "question": "What kind of work does Duane Thompson do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 2343
+    },
+    {
+        "query_id": "106_646",
+        "question": "What kind of work does John Aeron Thomas do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 808
+    },
+    {
+        "query_id": "106_647",
+        "question": "What kind of work does Bernie Weintraub do?",
+        "answers": [
+            "talent agent",
+            "literary agent"
+        ],
+        "pageviews": 1049
+    },
+    {
+        "query_id": "106_648",
+        "question": "What kind of work does Ralf Wadephul do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 2384
+    },
+    {
+        "query_id": "106_649",
+        "question": "What kind of work does Ema Kogure do?",
+        "answers": [
+            "seiy\u016b"
+        ],
+        "pageviews": 7808
+    },
+    {
+        "query_id": "106_650",
+        "question": "What kind of work does Ferdinand B\u00fcchner do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1210
+    },
+    {
+        "query_id": "106_651",
+        "question": "What kind of work does Robert Cosgrove do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3997
+    },
+    {
+        "query_id": "106_652",
+        "question": "What kind of work does Benigno Quezada Naranjo do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 375
+    },
+    {
+        "query_id": "106_653",
+        "question": "What kind of work does Rita Haugerud do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 419
+    },
+    {
+        "query_id": "106_655",
+        "question": "What kind of work does Ian Watkins do?",
+        "answers": [
+            "lyricist"
+        ],
+        "pageviews": 1188340
+    },
+    {
+        "query_id": "106_656",
+        "question": "What kind of work does Boris Lisanevich do?",
+        "answers": [
+            "restaurateur"
+        ],
+        "pageviews": 3564
+    },
+    {
+        "query_id": "106_657",
+        "question": "What kind of work does Wasantha Senanayake do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2978
+    },
+    {
+        "query_id": "106_658",
+        "question": "What kind of work does Charles Grenfell do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 928
+    },
+    {
+        "query_id": "106_659",
+        "question": "What kind of work does Hashim Sarkis do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 5604
+    },
+    {
+        "query_id": "106_660",
+        "question": "What kind of work does Irnerius do?",
+        "answers": [
+            "jurist"
+        ],
+        "pageviews": 10140
+    },
+    {
+        "query_id": "106_661",
+        "question": "What kind of work does Allan Ryan do?",
+        "answers": [
+            "lawyer"
+        ],
+        "pageviews": 4702
+    },
+    {
+        "query_id": "106_662",
+        "question": "What kind of work does Lima Duarte do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 15596
+    },
+    {
+        "query_id": "106_664",
+        "question": "What kind of work does Lee Friedlander do?",
+        "answers": [
+            "film director",
+            "screenwriter"
+        ],
+        "pageviews": 2252
+    },
+    {
+        "query_id": "106_665",
+        "question": "What kind of work does Gustav Nossal do?",
+        "answers": [
+            "biologist"
+        ],
+        "pageviews": 12475
+    },
+    {
+        "query_id": "106_666",
+        "question": "What kind of work does John A. Gambling do?",
+        "answers": [
+            "radio personality"
+        ],
+        "pageviews": 4378
+    },
+    {
+        "query_id": "106_667",
+        "question": "What kind of work does Barbara Zbro\u017cyna do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 812
+    },
+    {
+        "query_id": "106_668",
+        "question": "What kind of work does Eilmer of Malmesbury do?",
+        "answers": [
+            "monk"
+        ],
+        "pageviews": 19567
+    },
+    {
+        "query_id": "106_669",
+        "question": "What kind of work does Zekai \u00d6zger do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 1928
+    },
+    {
+        "query_id": "106_671",
+        "question": "What kind of work does Agneta Ringman do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 580
+    },
+    {
+        "query_id": "106_672",
+        "question": "What kind of work does Tikoy Aguiluz do?",
+        "answers": [
+            "film director",
+            "screenwriter"
+        ],
+        "pageviews": 3906
+    },
+    {
+        "query_id": "106_673",
+        "question": "What kind of work does K. Woods do?",
+        "answers": [
+            "cricket umpire"
+        ],
+        "pageviews": 549
+    },
+    {
+        "query_id": "106_674",
+        "question": "What kind of work does Rihaan Patel do?",
+        "answers": [
+            "film director"
+        ],
+        "pageviews": 1306
+    },
+    {
+        "query_id": "106_676",
+        "question": "What kind of work does Natasha Sinayobye do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 3719
+    },
+    {
+        "query_id": "106_677",
+        "question": "What kind of work does Carole Cole do?",
+        "answers": [
+            "actor",
+            "record producer"
+        ],
+        "pageviews": 60516
+    },
+    {
+        "query_id": "106_678",
+        "question": "What kind of work does Dio Chrysostom do?",
+        "answers": [
+            "philosopher",
+            "orator"
+        ],
+        "pageviews": 24574
+    },
+    {
+        "query_id": "106_679",
+        "question": "What kind of work does Sir Robert Burdett, 4th Baronet do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1899
+    },
+    {
+        "query_id": "106_680",
+        "question": "What kind of work does Rodolphe Forget do?",
+        "answers": [
+            "stockbroker"
+        ],
+        "pageviews": 2378
+    },
+    {
+        "query_id": "106_681",
+        "question": "What kind of work does Sylvester Barrett do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2061
+    },
+    {
+        "query_id": "106_682",
+        "question": "What kind of work does Antonio Landi do?",
+        "answers": [
+            "poet",
+            "playwright"
+        ],
+        "pageviews": 596
+    },
+    {
+        "query_id": "106_683",
+        "question": "What kind of work does Leonard Nolens do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 1230
+    },
+    {
+        "query_id": "106_684",
+        "question": "What kind of work does Denis-Benjamin Papineau do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1280
+    },
+    {
+        "query_id": "106_685",
+        "question": "What kind of work does Hannah Storm do?",
+        "answers": [
+            "disc jockey"
+        ],
+        "pageviews": 175567
+    },
+    {
+        "query_id": "106_686",
+        "question": "What kind of work does Aonghas MacNeacail do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 7703
+    },
+    {
+        "query_id": "106_687",
+        "question": "What kind of work does William Gardiner do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 368
+    },
+    {
+        "query_id": "106_688",
+        "question": "What kind of work does Maria Antoniou do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 598
+    },
+    {
+        "query_id": "106_689",
+        "question": "What kind of work does David Haley do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3475
+    },
+    {
+        "query_id": "106_690",
+        "question": "What kind of work does Ignacio Astarloa do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 873
+    },
+    {
+        "query_id": "106_691",
+        "question": "What kind of work does Victor Wong do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 134048
+    },
+    {
+        "query_id": "106_692",
+        "question": "What kind of work does William Stewart Agras do?",
+        "answers": [
+            "psychiatrist"
+        ],
+        "pageviews": 1758
+    },
+    {
+        "query_id": "106_693",
+        "question": "What kind of work does Marcela Valladolid do?",
+        "answers": [
+            "chef"
+        ],
+        "pageviews": 315759
+    },
+    {
+        "query_id": "106_694",
+        "question": "What kind of work does Andy Berke do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 10334
+    },
+    {
+        "query_id": "106_695",
+        "question": "What kind of work does Scott L. Fitzgerald do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "106_696",
+        "question": "What kind of work does Gene Evans do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 86673
+    },
+    {
+        "query_id": "106_697",
+        "question": "What kind of work does Natalya Komarova do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 7960
+    },
+    {
+        "query_id": "106_698",
+        "question": "What kind of work does Se\u00e1n Fleming do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 8459
+    },
+    {
+        "query_id": "106_699",
+        "question": "What kind of work does Hisako Matsubara do?",
+        "answers": [
+            "novelist"
+        ],
+        "pageviews": 1334
+    },
+    {
+        "query_id": "106_700",
+        "question": "What kind of work does Torsten de Winkel do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 3589
+    },
+    {
+        "query_id": "106_701",
+        "question": "What kind of work does Takehito Koyasu do?",
+        "answers": [
+            "seiy\u016b"
+        ],
+        "pageviews": 339593
+    },
+    {
+        "query_id": "106_702",
+        "question": "What kind of work does Pere Salvatge do?",
+        "answers": [
+            "troubadour"
+        ],
+        "pageviews": 762
+    },
+    {
+        "query_id": "106_703",
+        "question": "What kind of work does Ingrid Hafner do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 9671
+    },
+    {
+        "query_id": "106_704",
+        "question": "What kind of work does Konstantin Lavronenko do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 16095
+    },
+    {
+        "query_id": "106_705",
+        "question": "What kind of work does Barry Williams do?",
+        "answers": [
+            "spree killer"
+        ],
+        "pageviews": 23117
+    },
+    {
+        "query_id": "106_706",
+        "question": "What kind of work does Tom Ridge do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 94907
+    },
+    {
+        "query_id": "106_707",
+        "question": "What kind of work does Mikel Dufrenne do?",
+        "answers": [
+            "philosopher"
+        ],
+        "pageviews": 3637
+    },
+    {
+        "query_id": "106_708",
+        "question": "What kind of work does Per Ditlev-Simonsen do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1520
+    },
+    {
+        "query_id": "106_709",
+        "question": "What kind of work does Sabrina Jalees do?",
+        "answers": [
+            "comedian",
+            "actor"
+        ],
+        "pageviews": 51116
+    },
+    {
+        "query_id": "106_710",
+        "question": "What kind of work does Philibert Nang do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 1488
+    },
+    {
+        "query_id": "106_711",
+        "question": "What kind of work does Chie Tanabe do?",
+        "answers": [
+            "stunt performer",
+            "actor"
+        ],
+        "pageviews": 2619
+    },
+    {
+        "query_id": "106_712",
+        "question": "What kind of work does Vladimir Krainev do?",
+        "answers": [
+            "pianist"
+        ],
+        "pageviews": 7824
+    },
+    {
+        "query_id": "106_713",
+        "question": "What kind of work does Milarepa do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 108047
+    },
+    {
+        "query_id": "106_714",
+        "question": "What kind of work does John George do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 661
+    },
+    {
+        "query_id": "106_715",
+        "question": "What kind of work does Clara Khoury do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 9580
+    },
+    {
+        "query_id": "106_716",
+        "question": "What kind of work does Aurelio Juri do?",
+        "answers": [
+            "politician",
+            "journalist"
+        ],
+        "pageviews": 1078
+    },
+    {
+        "query_id": "106_717",
+        "question": "What kind of work does Anton Ingoli\u010d do?",
+        "answers": [
+            "playwright"
+        ],
+        "pageviews": 1622
+    },
+    {
+        "query_id": "106_718",
+        "question": "What kind of work does Ketki Dave do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 141624
+    },
+    {
+        "query_id": "106_719",
+        "question": "What kind of work does Jerry Williams do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 14340
+    },
+    {
+        "query_id": "106_720",
+        "question": "What kind of work does Frederick Hobson Leslie do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1802
+    },
+    {
+        "query_id": "106_721",
+        "question": "What kind of work does Paul Hammerich do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 993
+    },
+    {
+        "query_id": "106_722",
+        "question": "What kind of work does Breno Coelho do?",
+        "answers": [
+            "photographer"
+        ],
+        "pageviews": 904
+    },
+    {
+        "query_id": "106_723",
+        "question": "What kind of work does Tony Penikett do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 7952
+    },
+    {
+        "query_id": "106_724",
+        "question": "What kind of work does Margaret M. Murnane do?",
+        "answers": [
+            "physicist"
+        ],
+        "pageviews": 3392
+    },
+    {
+        "query_id": "106_725",
+        "question": "What kind of work does Ani Phyo do?",
+        "answers": [
+            "chef"
+        ],
+        "pageviews": 1782
+    },
+    {
+        "query_id": "106_726",
+        "question": "What kind of work does John Thynne, 4th Marquess of Bath do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 5976
+    },
+    {
+        "query_id": "106_727",
+        "question": "What kind of work does Lavelle Ensor do?",
+        "answers": [
+            "jockey"
+        ],
+        "pageviews": 941
+    },
+    {
+        "query_id": "106_728",
+        "question": "What kind of work does G\u00e9rard Gasiorowski do?",
+        "answers": [
+            "photographer"
+        ],
+        "pageviews": 1440
+    },
+    {
+        "query_id": "106_729",
+        "question": "What kind of work does Basil de S\u00e9lincourt do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 2370
+    },
+    {
+        "query_id": "106_730",
+        "question": "What kind of work does David Angell do?",
+        "answers": [
+            "television producer"
+        ],
+        "pageviews": 152960
+    },
+    {
+        "query_id": "106_731",
+        "question": "What kind of work does Shinichiro Sawai do?",
+        "answers": [
+            "screenwriter"
+        ],
+        "pageviews": 1948
+    },
+    {
+        "query_id": "106_732",
+        "question": "What kind of work does John Taylor do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 6984
+    },
+    {
+        "query_id": "106_733",
+        "question": "What kind of work does Matt Pizzolo do?",
+        "answers": [
+            "film director"
+        ],
+        "pageviews": 4120
+    },
+    {
+        "query_id": "106_734",
+        "question": "What kind of work does Robert A. Hurley do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2737
+    },
+    {
+        "query_id": "106_735",
+        "question": "What kind of work does Isaac Cruikshank do?",
+        "answers": [
+            "illustrator"
+        ],
+        "pageviews": 28886
+    },
+    {
+        "query_id": "106_736",
+        "question": "What kind of work does Mimmi Sand\u00e9n do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 6266
+    },
+    {
+        "query_id": "106_737",
+        "question": "What kind of work does Bill Dix do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2029
+    },
+    {
+        "query_id": "106_738",
+        "question": "What kind of work does Kalevi Aho do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 10050
+    },
+    {
+        "query_id": "106_739",
+        "question": "What kind of work does Elvira Quintill\u00e1 do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1238
+    },
+    {
+        "query_id": "106_740",
+        "question": "What kind of work does Gialdino Gialdini do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 825
+    },
+    {
+        "query_id": "106_741",
+        "question": "What kind of work does Henryk Grynberg do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 2380
+    },
+    {
+        "query_id": "106_742",
+        "question": "What kind of work does Raymond Abbott do?",
+        "answers": [
+            "novelist"
+        ],
+        "pageviews": 1449
+    },
+    {
+        "query_id": "106_743",
+        "question": "What kind of work does John Sparrow do?",
+        "answers": [
+            "barrister"
+        ],
+        "pageviews": 3921
+    },
+    {
+        "query_id": "106_744",
+        "question": "What kind of work does Steve Crisafulli do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2975
+    },
+    {
+        "query_id": "106_745",
+        "question": "What kind of work does Abdelilah Benkirane do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 16505
+    },
+    {
+        "query_id": "106_746",
+        "question": "What kind of work does Mikako Tabe do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 26121
+    },
+    {
+        "query_id": "106_747",
+        "question": "What kind of work does Hank Lazer do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 925
+    },
+    {
+        "query_id": "106_748",
+        "question": "What kind of work does Yasunosuke Futa do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 1406
+    },
+    {
+        "query_id": "106_749",
+        "question": "What kind of work does John Muirhead do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 689
+    },
+    {
+        "query_id": "106_750",
+        "question": "What kind of work does Jack Broughton do?",
+        "answers": [
+            "navigator"
+        ],
+        "pageviews": 628
+    },
+    {
+        "query_id": "106_751",
+        "question": "What kind of work does Erwin Saxl do?",
+        "answers": [
+            "physicist"
+        ],
+        "pageviews": 904
+    },
+    {
+        "query_id": "106_752",
+        "question": "What kind of work does Stephan Lewandowsky do?",
+        "answers": [
+            "psychologist"
+        ],
+        "pageviews": 10218
+    },
+    {
+        "query_id": "106_753",
+        "question": "What kind of work does Quentin Dean do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 71885
+    },
+    {
+        "query_id": "106_754",
+        "question": "What kind of work does Jaclyn Stapp do?",
+        "answers": [
+            "model"
+        ],
+        "pageviews": 65717
+    },
+    {
+        "query_id": "106_755",
+        "question": "What kind of work does Jozef Dunajovec do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 557
+    },
+    {
+        "query_id": "106_756",
+        "question": "What kind of work does Francis Reusser do?",
+        "answers": [
+            "film director"
+        ],
+        "pageviews": 1372
+    },
+    {
+        "query_id": "106_757",
+        "question": "What kind of work does Steve Davies do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1021
+    },
+    {
+        "query_id": "106_758",
+        "question": "What kind of work does Sophie von K\u00fchn do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 6482
+    },
+    {
+        "query_id": "106_759",
+        "question": "What kind of work does Ephraim Padwa do?",
+        "answers": [
+            "rabbi"
+        ],
+        "pageviews": 2133
+    },
+    {
+        "query_id": "106_760",
+        "question": "What kind of work does John Cayo Evans do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 912
+    },
+    {
+        "query_id": "106_761",
+        "question": "What kind of work does Shannon Ogden do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 2356
+    },
+    {
+        "query_id": "106_762",
+        "question": "What kind of work does M. H. Benders do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 956
+    },
+    {
+        "query_id": "106_763",
+        "question": "What kind of work does Pierre-Marie Taillepied, Comte de Bondy do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 796
+    },
+    {
+        "query_id": "106_764",
+        "question": "What kind of work does Charles Abbott, 3rd Baron Tenterden do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 1098
+    },
+    {
+        "query_id": "106_765",
+        "question": "What kind of work does P. Sathiyalingam do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1061
+    },
+    {
+        "query_id": "106_766",
+        "question": "What kind of work does Cherami Leigh do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 333333
+    },
+    {
+        "query_id": "106_767",
+        "question": "What kind of work does Zachary Bennett do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 38248
+    },
+    {
+        "query_id": "106_768",
+        "question": "What kind of work does Aaron Jeffery do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 138422
+    },
+    {
+        "query_id": "106_769",
+        "question": "What kind of work does Peter von Cornelius do?",
+        "answers": [
+            "illustrator"
+        ],
+        "pageviews": 7376
+    },
+    {
+        "query_id": "106_770",
+        "question": "What kind of work does Poppy Harlow do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 162710
+    },
+    {
+        "query_id": "106_771",
+        "question": "What kind of work does Pascual Cervera y Topete do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 9793
+    },
+    {
+        "query_id": "106_772",
+        "question": "What kind of work does Fusanosuke Kuhara do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 5713
+    },
+    {
+        "query_id": "106_773",
+        "question": "What kind of work does Bartholom\u00e4us Scultetus do?",
+        "answers": [
+            "astronomer"
+        ],
+        "pageviews": 787
+    },
+    {
+        "query_id": "106_774",
+        "question": "What kind of work does Constance Isabel Smith do?",
+        "answers": [
+            "novelist"
+        ],
+        "pageviews": 508
+    },
+    {
+        "query_id": "106_777",
+        "question": "What kind of work does Jean Guitton do?",
+        "answers": [
+            "philosopher"
+        ],
+        "pageviews": 10410
+    },
+    {
+        "query_id": "106_778",
+        "question": "What kind of work does David Treasure do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 844
+    },
+    {
+        "query_id": "106_779",
+        "question": "What kind of work does Tom Throop do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 758
+    },
+    {
+        "query_id": "106_780",
+        "question": "What kind of work does Rhea Durham do?",
+        "answers": [
+            "model"
+        ],
+        "pageviews": 735397
+    },
+    {
+        "query_id": "106_781",
+        "question": "What kind of work does Lise Payette do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 8999
+    },
+    {
+        "query_id": "106_782",
+        "question": "What kind of work does Andrzej Szlachta do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 738
+    },
+    {
+        "query_id": "106_783",
+        "question": "What kind of work does Gian Paolo Rosmino do?",
+        "answers": [
+            "film director"
+        ],
+        "pageviews": 943
+    },
+    {
+        "query_id": "106_784",
+        "question": "What kind of work does Doudou N'Diaye Rose do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 5079
+    },
+    {
+        "query_id": "106_785",
+        "question": "What kind of work does Claudio F\u00e4h do?",
+        "answers": [
+            "screenwriter",
+            "film director"
+        ],
+        "pageviews": 4234
+    },
+    {
+        "query_id": "106_786",
+        "question": "What kind of work does Jean-Marc Fournier do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3354
+    },
+    {
+        "query_id": "106_787",
+        "question": "What kind of work does Britt McHenry do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 154687
+    },
+    {
+        "query_id": "106_788",
+        "question": "What kind of work does Tsering Wangmo Dhompa do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 2658
+    },
+    {
+        "query_id": "106_789",
+        "question": "What kind of work does Victor Hern\u00e1ndez Cruz do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 2657
+    },
+    {
+        "query_id": "106_790",
+        "question": "What kind of work does Dele Giwa do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 34672
+    },
+    {
+        "query_id": "106_791",
+        "question": "What kind of work does Dwight Butler do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 841
+    },
+    {
+        "query_id": "106_792",
+        "question": "What kind of work does Yash Gera do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 6407
+    },
+    {
+        "query_id": "106_793",
+        "question": "What kind of work does James Franklin do?",
+        "answers": [
+            "mathematician",
+            "philosopher"
+        ],
+        "pageviews": 7280
+    },
+    {
+        "query_id": "106_794",
+        "question": "What kind of work does Ferdinand Duviard do?",
+        "answers": [
+            "Esperantist"
+        ],
+        "pageviews": 562
+    },
+    {
+        "query_id": "106_795",
+        "question": "What kind of work does Andrzej Aumiller do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 797
+    },
+    {
+        "query_id": "106_796",
+        "question": "What kind of work does Masayuki Yanai do?",
+        "answers": [
+            "astronomer"
+        ],
+        "pageviews": 1879
+    },
+    {
+        "query_id": "106_797",
+        "question": "What kind of work does Patrick Breen do?",
+        "answers": [
+            "screenwriter",
+            "playwright"
+        ],
+        "pageviews": 55606
+    },
+    {
+        "query_id": "106_798",
+        "question": "What kind of work does Sefer Halilovi\u0107 do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 22012
+    },
+    {
+        "query_id": "106_799",
+        "question": "What kind of work does Ant\u00f3nio Gede\u00e3o do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 2184
+    },
+    {
+        "query_id": "106_800",
+        "question": "What kind of work does Shabbir Banoobhai do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 2860
+    },
+    {
+        "query_id": "106_801",
+        "question": "What kind of work does George Pataki do?",
+        "answers": [
+            "politician",
+            "lawyer"
+        ],
+        "pageviews": 260559
+    },
+    {
+        "query_id": "106_802",
+        "question": "What kind of work does Paul Ariste do?",
+        "answers": [
+            "Esperantist"
+        ],
+        "pageviews": 2876
+    },
+    {
+        "query_id": "106_803",
+        "question": "What kind of work does Andrew Lofthouse do?",
+        "answers": [
+            "news presenter"
+        ],
+        "pageviews": 7058
+    },
+    {
+        "query_id": "106_805",
+        "question": "What kind of work does Charles Pressley Smith do?",
+        "answers": [
+            "curate"
+        ],
+        "pageviews": 723
+    },
+    {
+        "query_id": "106_806",
+        "question": "What kind of work does Jack Lenz do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 9359
+    },
+    {
+        "query_id": "106_807",
+        "question": "What kind of work does Oh Yeon-soo do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 55170
+    },
+    {
+        "query_id": "106_808",
+        "question": "What kind of work does Richard Deming do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 1799
+    },
+    {
+        "query_id": "106_809",
+        "question": "What kind of work does Fred Teeven do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 5506
+    },
+    {
+        "query_id": "106_810",
+        "question": "What kind of work does Maurizio Rattini do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1029
+    },
+    {
+        "query_id": "106_811",
+        "question": "What kind of work does John Q. Tilson do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3923
+    },
+    {
+        "query_id": "106_812",
+        "question": "What kind of work does N. V. Venugopalakrishnasami do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 342
+    },
+    {
+        "query_id": "106_813",
+        "question": "What kind of work does Thomas J. C. Martyn do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 2219
+    },
+    {
+        "query_id": "106_814",
+        "question": "What kind of work does Victor Wainwright do?",
+        "answers": [
+            "songwriter",
+            "pianist"
+        ],
+        "pageviews": 7674
+    },
+    {
+        "query_id": "106_815",
+        "question": "What kind of work does L\u00e9on Robin do?",
+        "answers": [
+            "philosopher"
+        ],
+        "pageviews": 3062
+    },
+    {
+        "query_id": "106_816",
+        "question": "What kind of work does Hermann Knoblauch do?",
+        "answers": [
+            "physicist"
+        ],
+        "pageviews": 1671
+    },
+    {
+        "query_id": "106_817",
+        "question": "What kind of work does Jim White do?",
+        "answers": [
+            "singer-songwriter"
+        ],
+        "pageviews": 14408
+    },
+    {
+        "query_id": "106_818",
+        "question": "What kind of work does Albany Fonblanque do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 1426
+    },
+    {
+        "query_id": "106_819",
+        "question": "What kind of work does Peleg Sprague do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 885
+    },
+    {
+        "query_id": "106_820",
+        "question": "What kind of work does Jos\u00e9 Antonio Mazzotti do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 1691
+    },
+    {
+        "query_id": "106_821",
+        "question": "What kind of work does Aleksander Szeligowski do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 686
+    },
+    {
+        "query_id": "106_822",
+        "question": "What kind of work does Hans Nicolajsen do?",
+        "answers": [
+            "missionary"
+        ],
+        "pageviews": 1026
+    },
+    {
+        "query_id": "106_823",
+        "question": "What kind of work does Ashwani Kumar Sharma do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 38366
+    },
+    {
+        "query_id": "106_824",
+        "question": "What kind of work does Justin Keating do?",
+        "answers": [
+            "journalist",
+            "politician"
+        ],
+        "pageviews": 3165
+    },
+    {
+        "query_id": "106_825",
+        "question": "What kind of work does Jack Lowden do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 759953
+    },
+    {
+        "query_id": "106_826",
+        "question": "What kind of work does J. C. D. Prabhakar do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 10513
+    },
+    {
+        "query_id": "106_827",
+        "question": "What kind of work does Wallie Amos Criswell do?",
+        "answers": [
+            "pastor"
+        ],
+        "pageviews": 21950
+    },
+    {
+        "query_id": "106_828",
+        "question": "What kind of work does Rutherford Alcock do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 7008
+    },
+    {
+        "query_id": "106_829",
+        "question": "What kind of work does Davie Fulton do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3579
+    },
+    {
+        "query_id": "106_830",
+        "question": "What kind of work does Frank Pembleton do?",
+        "answers": [
+            "detective"
+        ],
+        "pageviews": 24833
+    },
+    {
+        "query_id": "106_831",
+        "question": "What kind of work does Ernst Strasser do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 3330
+    },
+    {
+        "query_id": "106_832",
+        "question": "What kind of work does Joseph Chappell Hutcheson do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 333
+    },
+    {
+        "query_id": "106_833",
+        "question": "What kind of work does George Becker do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 672
+    },
+    {
+        "query_id": "106_834",
+        "question": "What kind of work does Robert Earl Sawyer do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1085
+    },
+    {
+        "query_id": "106_835",
+        "question": "What kind of work does Yonnie Starr do?",
+        "answers": [
+            "horse trainer"
+        ],
+        "pageviews": 1128
+    },
+    {
+        "query_id": "106_836",
+        "question": "What kind of work does Sally Knyvette do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 38910
+    },
+    {
+        "query_id": "106_837",
+        "question": "What kind of work does Bill Avery do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1710
+    },
+    {
+        "query_id": "106_838",
+        "question": "What kind of work does Thomas Coventry, 1st Baron Coventry do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 5519
+    },
+    {
+        "query_id": "106_839",
+        "question": "What kind of work does Gino Levi-Montalcini do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 4770
+    },
+    {
+        "query_id": "106_840",
+        "question": "What kind of work does Patr\u00edcia Fran\u00e7a do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 5229
+    },
+    {
+        "query_id": "106_841",
+        "question": "What kind of work does Jerry Hayes do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 17371
+    },
+    {
+        "query_id": "106_842",
+        "question": "What kind of work does Auspicius of Toul do?",
+        "answers": [
+            "bishop"
+        ],
+        "pageviews": 1112
+    },
+    {
+        "query_id": "106_843",
+        "question": "What kind of work does Doug Mowat do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1066
+    },
+    {
+        "query_id": "106_844",
+        "question": "What kind of work does Jeffry Wickham do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 7893
+    },
+    {
+        "query_id": "106_845",
+        "question": "What kind of work does Diego Dubcovsky do?",
+        "answers": [
+            "film producer"
+        ],
+        "pageviews": 1452
+    },
+    {
+        "query_id": "106_847",
+        "question": "What kind of work does Jan Raa do?",
+        "answers": [
+            "biologist"
+        ],
+        "pageviews": 1033
+    },
+    {
+        "query_id": "106_848",
+        "question": "What kind of work does Makase Nyaphisi do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 517
+    },
+    {
+        "query_id": "106_849",
+        "question": "What kind of work does Colin Morgan do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 655286
+    },
+    {
+        "query_id": "106_850",
+        "question": "What kind of work does Jim Bright do?",
+        "answers": [
+            "psychologist"
+        ],
+        "pageviews": 166
+    },
+    {
+        "query_id": "106_851",
+        "question": "What kind of work does Kofi Esaw do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 792
+    },
+    {
+        "query_id": "106_852",
+        "question": "What kind of work does Negin Farsad do?",
+        "answers": [
+            "comedian"
+        ],
+        "pageviews": 42485
+    },
+    {
+        "query_id": "106_853",
+        "question": "What kind of work does Karl August G\u00f6rner do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 638
+    },
+    {
+        "query_id": "106_854",
+        "question": "What kind of work does Y\u016b Aku do?",
+        "answers": [
+            "poet",
+            "lyricist",
+            "novelist"
+        ],
+        "pageviews": 4877
+    },
+    {
+        "query_id": "106_855",
+        "question": "What kind of work does David Kirkpatrick do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 9672
+    },
+    {
+        "query_id": "106_856",
+        "question": "What kind of work does Isabella of France do?",
+        "answers": [
+            "queen consort"
+        ],
+        "pageviews": 438058
+    },
+    {
+        "query_id": "106_857",
+        "question": "What kind of work does Leopold Wenzel do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1031
+    },
+    {
+        "query_id": "106_858",
+        "question": "What kind of work does James Tyler do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 4438
+    },
+    {
+        "query_id": "106_859",
+        "question": "What kind of work does Terri Tatchell do?",
+        "answers": [
+            "screenwriter"
+        ],
+        "pageviews": 37633
+    },
+    {
+        "query_id": "106_860",
+        "question": "What kind of work does Alexis Conran do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 59351
+    },
+    {
+        "query_id": "106_861",
+        "question": "What kind of work does Donald Dunbar do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 1028
+    },
+    {
+        "query_id": "106_862",
+        "question": "What kind of work does Mac Beathaidh mac Ainmire do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 623
+    },
+    {
+        "query_id": "106_863",
+        "question": "What kind of work does Hugo Johnstone-Burt do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 73023
+    },
+    {
+        "query_id": "106_864",
+        "question": "What kind of work does Debabrata Basu do?",
+        "answers": [
+            "statistician"
+        ],
+        "pageviews": 7914
+    },
+    {
+        "query_id": "106_865",
+        "question": "What kind of work does Marcel Griaule do?",
+        "answers": [
+            "anthropologist"
+        ],
+        "pageviews": 10959
+    },
+    {
+        "query_id": "106_866",
+        "question": "What kind of work does V. Navaratnam do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1650
+    },
+    {
+        "query_id": "106_867",
+        "question": "What kind of work does George Messo do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 803
+    },
+    {
+        "query_id": "106_868",
+        "question": "What kind of work does Carl-Erik Sk\u00e5rman do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 726
+    },
+    {
+        "query_id": "106_869",
+        "question": "What kind of work does Pierre Lardinois do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1970
+    },
+    {
+        "query_id": "106_870",
+        "question": "What kind of work does June Elvidge do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 3173
+    },
+    {
+        "query_id": "106_871",
+        "question": "What kind of work does Sathaar do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 29394
+    },
+    {
+        "query_id": "106_872",
+        "question": "What kind of work does Scott Silver do?",
+        "answers": [
+            "film director",
+            "screenwriter"
+        ],
+        "pageviews": 55068
+    },
+    {
+        "query_id": "106_873",
+        "question": "What kind of work does Jul Hagan\u00e6s do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 435
+    },
+    {
+        "query_id": "106_874",
+        "question": "What kind of work does Laurie Elliott do?",
+        "answers": [
+            "actor",
+            "voice actor"
+        ],
+        "pageviews": 9827
+    },
+    {
+        "query_id": "106_875",
+        "question": "What kind of work does Michihiko Kano do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1716
+    },
+    {
+        "query_id": "106_876",
+        "question": "What kind of work does James Adams do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 919
+    },
+    {
+        "query_id": "106_877",
+        "question": "What kind of work does Rosario Di Bella do?",
+        "answers": [
+            "singer-songwriter",
+            "composer"
+        ],
+        "pageviews": 1240
+    },
+    {
+        "query_id": "106_878",
+        "question": "What kind of work does Forrest Hood James, Jr. do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 56843
+    },
+    {
+        "query_id": "106_879",
+        "question": "What kind of work does Karuho Shiina do?",
+        "answers": [
+            "mangaka"
+        ],
+        "pageviews": 15358
+    },
+    {
+        "query_id": "106_880",
+        "question": "What kind of work does David Gom\u00e9r do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 414
+    },
+    {
+        "query_id": "106_881",
+        "question": "What kind of work does Antoine Derizet do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 1129
+    },
+    {
+        "query_id": "106_882",
+        "question": "What kind of work does Harmen Bussemaker do?",
+        "answers": [
+            "physicist"
+        ],
+        "pageviews": 1285
+    },
+    {
+        "query_id": "106_883",
+        "question": "What kind of work does Lewis Baltz do?",
+        "answers": [
+            "photographer"
+        ],
+        "pageviews": 8390
+    },
+    {
+        "query_id": "106_884",
+        "question": "What kind of work does Katarzyna Pakosi\u0144ska do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 2566
+    },
+    {
+        "query_id": "106_885",
+        "question": "What kind of work does Pierre F. Brault do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1427
+    },
+    {
+        "query_id": "106_886",
+        "question": "What kind of work does Jos\u00e9 del Campillo do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1235
+    },
+    {
+        "query_id": "106_887",
+        "question": "What kind of work does Leland Cunningham do?",
+        "answers": [
+            "astronomer"
+        ],
+        "pageviews": 825
+    },
+    {
+        "query_id": "106_888",
+        "question": "What kind of work does Peter Beyer do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 5034
+    },
+    {
+        "query_id": "106_889",
+        "question": "What kind of work does George E. Allen, Jr. do?",
+        "answers": [
+            "lawyer"
+        ],
+        "pageviews": 1484
+    },
+    {
+        "query_id": "106_890",
+        "question": "What kind of work does Myron M. Cowen do?",
+        "answers": [
+            "diplomat"
+        ],
+        "pageviews": 1745
+    },
+    {
+        "query_id": "106_891",
+        "question": "What kind of work does Kathleen Brennan do?",
+        "answers": [
+            "songwriter",
+            "record producer"
+        ],
+        "pageviews": 103838
+    },
+    {
+        "query_id": "106_892",
+        "question": "What kind of work does Jean F\u00e9lix Demba Telo do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 463
+    },
+    {
+        "query_id": "106_893",
+        "question": "What kind of work does John William North do?",
+        "answers": [
+            "illustrator"
+        ],
+        "pageviews": 1409
+    },
+    {
+        "query_id": "106_894",
+        "question": "What kind of work does C. J. Cutcliffe Hyne do?",
+        "answers": [
+            "novelist"
+        ],
+        "pageviews": 3940
+    },
+    {
+        "query_id": "106_895",
+        "question": "What kind of work does George Tzavellas do?",
+        "answers": [
+            "playwright",
+            "screenwriter",
+            "film director"
+        ],
+        "pageviews": 3889
+    },
+    {
+        "query_id": "106_896",
+        "question": "What kind of work does Martin Willoughby Parr do?",
+        "answers": [
+            "alderman"
+        ],
+        "pageviews": 796
+    },
+    {
+        "query_id": "106_897",
+        "question": "What kind of work does Mehmed Rushdi Pasha do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 12989
+    },
+    {
+        "query_id": "106_898",
+        "question": "What kind of work does Menotti Aristone do?",
+        "answers": [
+            "jockey"
+        ],
+        "pageviews": 1170
+    },
+    {
+        "query_id": "106_899",
+        "question": "What kind of work does Frank Vincent do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 458766
+    },
+    {
+        "query_id": "106_900",
+        "question": "What kind of work does James White do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1453
+    },
+    {
+        "query_id": "106_901",
+        "question": "What kind of work does Robert Light do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1188
+    },
+    {
+        "query_id": "106_902",
+        "question": "What kind of work does John Yang do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 12414
+    },
+    {
+        "query_id": "106_903",
+        "question": "What kind of work does William Barksted do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1069
+    },
+    {
+        "query_id": "106_905",
+        "question": "What kind of work does Nicole Ari Parker do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 644525
+    },
+    {
+        "query_id": "106_906",
+        "question": "What kind of work does William Kinsey Hutchinson do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 2389
+    },
+    {
+        "query_id": "106_907",
+        "question": "What kind of work does Ma\u0142gorzata Szumowska do?",
+        "answers": [
+            "screenwriter"
+        ],
+        "pageviews": 24111
+    },
+    {
+        "query_id": "106_908",
+        "question": "What kind of work does Georg Leber do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 5859
+    },
+    {
+        "query_id": "106_909",
+        "question": "What kind of work does Steven Greenberg do?",
+        "answers": [
+            "record producer"
+        ],
+        "pageviews": 29757
+    },
+    {
+        "query_id": "106_910",
+        "question": "What kind of work does Karthik Kumar do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 172582
+    },
+    {
+        "query_id": "106_911",
+        "question": "What kind of work does Henri Jacques Guillaume Clarke do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 7093
+    },
+    {
+        "query_id": "106_912",
+        "question": "What kind of work does Tadeusz Wita do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 533
+    },
+    {
+        "query_id": "106_913",
+        "question": "What kind of work does Michele Rosewoman do?",
+        "answers": [
+            "pianist"
+        ],
+        "pageviews": 1886
+    },
+    {
+        "query_id": "106_914",
+        "question": "What kind of work does Adolph Gottfried Kinau do?",
+        "answers": [
+            "astronomer"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "106_915",
+        "question": "What kind of work does Kenichi Muraeda do?",
+        "answers": [
+            "mangaka"
+        ],
+        "pageviews": 2361
+    },
+    {
+        "query_id": "106_916",
+        "question": "What kind of work does Nestor Hammarlund do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 425
+    },
+    {
+        "query_id": "106_917",
+        "question": "What kind of work does Chhim Siek Leng do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1069
+    },
+    {
+        "query_id": "106_918",
+        "question": "What kind of work does Hayes MacArthur do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 184449
+    },
+    {
+        "query_id": "106_919",
+        "question": "What kind of work does Henry B. Pierce do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 805
+    },
+    {
+        "query_id": "106_920",
+        "question": "What kind of work does Giovannino Guareschi do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 14127
+    },
+    {
+        "query_id": "106_921",
+        "question": "What kind of work does Meaghan Waller do?",
+        "answers": [
+            "model"
+        ],
+        "pageviews": 4630
+    },
+    {
+        "query_id": "106_922",
+        "question": "What kind of work does Herb Sargent do?",
+        "answers": [
+            "screenwriter"
+        ],
+        "pageviews": 20058
+    },
+    {
+        "query_id": "106_923",
+        "question": "What kind of work does Juan Carlos Cobi\u00e1n do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 1800
+    },
+    {
+        "query_id": "106_924",
+        "question": "What kind of work does Jean Gr\u00e9millon do?",
+        "answers": [
+            "film director"
+        ],
+        "pageviews": 7092
+    },
+    {
+        "query_id": "106_925",
+        "question": "What kind of work does Rustum Kozain do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 981
+    },
+    {
+        "query_id": "106_926",
+        "question": "What kind of work does Louis Hobson do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 3663
+    },
+    {
+        "query_id": "106_927",
+        "question": "What kind of work does Walter Charles Robinson do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1819
+    },
+    {
+        "query_id": "106_928",
+        "question": "What kind of work does Pietro Rizzuto do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2433
+    },
+    {
+        "query_id": "106_929",
+        "question": "What kind of work does Donald R. Mello do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 632
+    },
+    {
+        "query_id": "106_930",
+        "question": "What kind of work does Ivor Francis do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 26287
+    },
+    {
+        "query_id": "106_931",
+        "question": "What kind of work does Ted Malone do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 978
+    },
+    {
+        "query_id": "106_932",
+        "question": "What kind of work does Kutty Padmini do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 53533
+    },
+    {
+        "query_id": "106_933",
+        "question": "What kind of work does Sir Wyndham Knatchbull-Wyndham, 6th Baronet do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1016
+    },
+    {
+        "query_id": "106_934",
+        "question": "What kind of work does Yu Chenghui do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 8705
+    },
+    {
+        "query_id": "106_935",
+        "question": "What kind of work does Henry Grube do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 470
+    },
+    {
+        "query_id": "106_936",
+        "question": "What kind of work does Albert Von Tilzer do?",
+        "answers": [
+            "songwriter"
+        ],
+        "pageviews": 15634
+    },
+    {
+        "query_id": "106_937",
+        "question": "What kind of work does Richard J. Phelps do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1146
+    },
+    {
+        "query_id": "106_938",
+        "question": "What kind of work does Fran Albreht do?",
+        "answers": [
+            "politician",
+            "poet"
+        ],
+        "pageviews": 1991
+    },
+    {
+        "query_id": "106_939",
+        "question": "What kind of work does Nelson Gaichuhie do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 967
+    },
+    {
+        "query_id": "106_940",
+        "question": "What kind of work does Gough Whitlam do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 304201
+    },
+    {
+        "query_id": "106_941",
+        "question": "What kind of work does Angel Porrino do?",
+        "answers": [
+            "showgirl"
+        ],
+        "pageviews": 12925
+    },
+    {
+        "query_id": "106_942",
+        "question": "What kind of work does Albino N\u00fa\u00f1ez Dom\u00ednguez do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 486
+    },
+    {
+        "query_id": "106_943",
+        "question": "What kind of work does Richard Brauer do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 10438
+    },
+    {
+        "query_id": "106_944",
+        "question": "What kind of work does Robert H. Justman do?",
+        "answers": [
+            "television producer"
+        ],
+        "pageviews": 7440
+    },
+    {
+        "query_id": "106_945",
+        "question": "What kind of work does Lucy Boryer do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 11101
+    },
+    {
+        "query_id": "106_946",
+        "question": "What kind of work does Clifford Percy Evans do?",
+        "answers": [
+            "architect"
+        ],
+        "pageviews": 587
+    },
+    {
+        "query_id": "106_947",
+        "question": "What kind of work does Takako Tokiwa do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 13494
+    },
+    {
+        "query_id": "106_948",
+        "question": "What kind of work does Daniel Cameron do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 490
+    },
+    {
+        "query_id": "106_949",
+        "question": "What kind of work does Paul McGann do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 494426
+    },
+    {
+        "query_id": "106_950",
+        "question": "What kind of work does Tommy Habeeb do?",
+        "answers": [
+            "television presenter"
+        ],
+        "pageviews": 38922
+    },
+    {
+        "query_id": "106_951",
+        "question": "What kind of work does William Canniff do?",
+        "answers": [
+            "surgeon"
+        ],
+        "pageviews": 828
+    },
+    {
+        "query_id": "106_952",
+        "question": "What kind of work does Chandra Sekhar Yeleti do?",
+        "answers": [
+            "film director"
+        ],
+        "pageviews": 84292
+    },
+    {
+        "query_id": "106_953",
+        "question": "What kind of work does Onni Hiltunen do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1098
+    },
+    {
+        "query_id": "106_954",
+        "question": "What kind of work does Demore Barnes do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 106981
+    },
+    {
+        "query_id": "106_955",
+        "question": "What kind of work does Stefano Madia do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 3734
+    },
+    {
+        "query_id": "106_956",
+        "question": "What kind of work does Reecha Sharma do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 9085
+    },
+    {
+        "query_id": "106_957",
+        "question": "What kind of work does Jacques Lafleur do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2186
+    },
+    {
+        "query_id": "106_958",
+        "question": "What kind of work does Antonio Camacho Vizca\u00edno do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1107
+    },
+    {
+        "query_id": "106_959",
+        "question": "What kind of work does Alfred Speakman do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 960
+    },
+    {
+        "query_id": "106_960",
+        "question": "What kind of work does Andrzej Diakonow do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 678
+    },
+    {
+        "query_id": "106_961",
+        "question": "What kind of work does Ambrosius Beber do?",
+        "answers": [
+            "composer"
+        ],
+        "pageviews": 666
+    },
+    {
+        "query_id": "106_962",
+        "question": "What kind of work does Chaleun Yapaoheu do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 577
+    },
+    {
+        "query_id": "106_963",
+        "question": "What kind of work does Bruce Smith do?",
+        "answers": [
+            "poet"
+        ],
+        "pageviews": 1737
+    },
+    {
+        "query_id": "106_964",
+        "question": "What kind of work does Florence Hartmann do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 3537
+    },
+    {
+        "query_id": "106_965",
+        "question": "What kind of work does Adrian Parr do?",
+        "answers": [
+            "philosopher"
+        ],
+        "pageviews": 2567
+    },
+    {
+        "query_id": "106_966",
+        "question": "What kind of work does Louis Jacques Th\u00e9nard do?",
+        "answers": [
+            "chemist"
+        ],
+        "pageviews": 9100
+    },
+    {
+        "query_id": "106_967",
+        "question": "What kind of work does Stephanie Fearon do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 12240
+    },
+    {
+        "query_id": "106_968",
+        "question": "What kind of work does Jane Slaughter do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 2344
+    },
+    {
+        "query_id": "106_969",
+        "question": "What kind of work does Andrieus A. Jones do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 4375
+    },
+    {
+        "query_id": "106_970",
+        "question": "What kind of work does Ludwig von Bertalanffy do?",
+        "answers": [
+            "biologist"
+        ],
+        "pageviews": 48522
+    },
+    {
+        "query_id": "106_971",
+        "question": "What kind of work does Cerrone do?",
+        "answers": [
+            "composer",
+            "record producer"
+        ],
+        "pageviews": 60930
+    },
+    {
+        "query_id": "106_972",
+        "question": "What kind of work does Sasha Saidin do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 7045
+    },
+    {
+        "query_id": "106_973",
+        "question": "What kind of work does Rose Greely do?",
+        "answers": [
+            "landscape architect",
+            "architect"
+        ],
+        "pageviews": 2833
+    },
+    {
+        "query_id": "106_974",
+        "question": "What kind of work does Oza T\u00e9trault do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 573
+    },
+    {
+        "query_id": "106_975",
+        "question": "What kind of work does Henryk Baranowski do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 2944
+    },
+    {
+        "query_id": "106_976",
+        "question": "What kind of work does Jim Klobuchar do?",
+        "answers": [
+            "journalist"
+        ],
+        "pageviews": 23950
+    },
+    {
+        "query_id": "106_977",
+        "question": "What kind of work does Severo Colberg Ram\u00edrez do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 2069
+    },
+    {
+        "query_id": "106_978",
+        "question": "What kind of work does William Cooper do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 9202
+    },
+    {
+        "query_id": "106_979",
+        "question": "What kind of work does Anne-Louise Lambert do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 32705
+    },
+    {
+        "query_id": "106_980",
+        "question": "What kind of work does Robert E. Kent do?",
+        "answers": [
+            "screenwriter",
+            "film producer"
+        ],
+        "pageviews": 4422
+    },
+    {
+        "query_id": "106_981",
+        "question": "What kind of work does Eleanor Leacock do?",
+        "answers": [
+            "anthropologist"
+        ],
+        "pageviews": 7788
+    },
+    {
+        "query_id": "106_982",
+        "question": "What kind of work does William Gordon do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 408
+    },
+    {
+        "query_id": "106_984",
+        "question": "What kind of work does Chandrashekhar Vijay do?",
+        "answers": [
+            "monk"
+        ],
+        "pageviews": 5808
+    },
+    {
+        "query_id": "106_985",
+        "question": "What kind of work does Alfons Pawelczyk do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1695
+    },
+    {
+        "query_id": "106_986",
+        "question": "What kind of work does Daniel Woodriff do?",
+        "answers": [
+            "navigator"
+        ],
+        "pageviews": 1729
+    },
+    {
+        "query_id": "106_988",
+        "question": "What kind of work does Peter Jeffrey do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 46591
+    },
+    {
+        "query_id": "106_989",
+        "question": "What kind of work does Ian McColl, Baron McColl of Dulwich do?",
+        "answers": [
+            "politician",
+            "surgeon"
+        ],
+        "pageviews": 4078
+    },
+    {
+        "query_id": "106_990",
+        "question": "What kind of work does Wilfried Schmickler do?",
+        "answers": [
+            "comedian"
+        ],
+        "pageviews": 1161
+    },
+    {
+        "query_id": "106_991",
+        "question": "What kind of work does Pierre Fatou do?",
+        "answers": [
+            "astronomer",
+            "mathematician"
+        ],
+        "pageviews": 11392
+    },
+    {
+        "query_id": "106_992",
+        "question": "What kind of work does Alicia P. Magos do?",
+        "answers": [
+            "anthropologist"
+        ],
+        "pageviews": 3232
+    },
+    {
+        "query_id": "106_993",
+        "question": "What kind of work does Doris Lussier do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 1738
+    },
+    {
+        "query_id": "106_994",
+        "question": "What kind of work does Toshio Furukawa do?",
+        "answers": [
+            "seiy\u016b"
+        ],
+        "pageviews": 46680
+    },
+    {
+        "query_id": "106_995",
+        "question": "What kind of work does Y\u014dji Matsuda do?",
+        "answers": [
+            "actor",
+            "seiy\u016b"
+        ],
+        "pageviews": 11558
+    },
+    {
+        "query_id": "106_996",
+        "question": "What kind of work does Eli Dayan do?",
+        "answers": [
+            "politician"
+        ],
+        "pageviews": 1800
+    },
+    {
+        "query_id": "106_997",
+        "question": "What kind of work does Jacques Gamblin do?",
+        "answers": [
+            "actor"
+        ],
+        "pageviews": 9223
+    },
+    {
+        "query_id": "106_998",
+        "question": "What kind of work does Oleksandr Mykolaiovych Sharkovsky do?",
+        "answers": [
+            "mathematician"
+        ],
+        "pageviews": 59
+    },
+    {
+        "query_id": "106_999",
+        "question": "What kind of work does Kumar G. Venkatesh do?",
+        "answers": [
+            "screenwriter",
+            "film director"
+        ],
+        "pageviews": 2833
+    }
+]

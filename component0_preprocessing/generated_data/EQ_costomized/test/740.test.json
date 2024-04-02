@@ -1,0 +1,7194 @@
+[
+    {
+        "query_id": "740_1",
+        "question": "Where was The Jackson 5 founded?",
+        "answers": [
+            "Gary"
+        ],
+        "pageviews": 1014806
+    },
+    {
+        "query_id": "740_2",
+        "question": "Where was Young and Restless founded?",
+        "answers": [
+            "Canberra"
+        ],
+        "pageviews": 3455
+    },
+    {
+        "query_id": "740_3",
+        "question": "Where was The Cleopatra Complex founded?",
+        "answers": [
+            "Miami"
+        ],
+        "pageviews": 833
+    },
+    {
+        "query_id": "740_4",
+        "question": "Where was Mansory founded?",
+        "answers": [
+            "Munich"
+        ],
+        "pageviews": 74449
+    },
+    {
+        "query_id": "740_5",
+        "question": "Where was Love Fungus founded?",
+        "answers": [
+            "Birmingham"
+        ],
+        "pageviews": 1112
+    },
+    {
+        "query_id": "740_6",
+        "question": "Where was Toploader founded?",
+        "answers": [
+            "Eastbourne"
+        ],
+        "pageviews": 102957
+    },
+    {
+        "query_id": "740_8",
+        "question": "Where was Angel Witch founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 45220
+    },
+    {
+        "query_id": "740_9",
+        "question": "Where was Burkina Electric founded?",
+        "answers": [
+            "Ouagadougou"
+        ],
+        "pageviews": 956
+    },
+    {
+        "query_id": "740_10",
+        "question": "Where was Black Diamond Bay founded?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 3728
+    },
+    {
+        "query_id": "740_11",
+        "question": "Where was Chris McKay & the Critical Darlings founded?",
+        "answers": [
+            "Athens"
+        ],
+        "pageviews": 655
+    },
+    {
+        "query_id": "740_12",
+        "question": "Where was All the Young founded?",
+        "answers": [
+            "Stoke-on-Trent"
+        ],
+        "pageviews": 5053
+    },
+    {
+        "query_id": "740_13",
+        "question": "Where was Campbell Soup Company founded?",
+        "answers": [
+            "Camden"
+        ],
+        "pageviews": 241277
+    },
+    {
+        "query_id": "740_14",
+        "question": "Where was Goodie Mob founded?",
+        "answers": [
+            "Atlanta"
+        ],
+        "pageviews": 126175
+    },
+    {
+        "query_id": "740_15",
+        "question": "Where was The Wombats founded?",
+        "answers": [
+            "Liverpool"
+        ],
+        "pageviews": 166285
+    },
+    {
+        "query_id": "740_16",
+        "question": "Where was Miccoli founded?",
+        "answers": [
+            "Birmingham"
+        ],
+        "pageviews": 728
+    },
+    {
+        "query_id": "740_17",
+        "question": "Where was Nite City founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 9980
+    },
+    {
+        "query_id": "740_18",
+        "question": "Where was SEALNet founded?",
+        "answers": [
+            "Stanford University"
+        ],
+        "pageviews": 1217
+    },
+    {
+        "query_id": "740_19",
+        "question": "Where was Decadence founded?",
+        "answers": [
+            "Stockholm"
+        ],
+        "pageviews": 3327
+    },
+    {
+        "query_id": "740_20",
+        "question": "Where was Union Rhythm Kings founded?",
+        "answers": [
+            "Stockholm"
+        ],
+        "pageviews": 999
+    },
+    {
+        "query_id": "740_21",
+        "question": "Where was Thornley founded?",
+        "answers": [
+            "Toronto"
+        ],
+        "pageviews": 13772
+    },
+    {
+        "query_id": "740_22",
+        "question": "Where was Band AKA founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 2486
+    },
+    {
+        "query_id": "740_23",
+        "question": "Where was Sea Wolf founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 12297
+    },
+    {
+        "query_id": "740_24",
+        "question": "Where was The Black Dahlia Murder founded?",
+        "answers": [
+            "Waterford Township"
+        ],
+        "pageviews": 374744
+    },
+    {
+        "query_id": "740_25",
+        "question": "Where was The Quireboys founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 96487
+    },
+    {
+        "query_id": "740_26",
+        "question": "Where was Infa-Riot founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 4700
+    },
+    {
+        "query_id": "740_27",
+        "question": "Where was Attaloss founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 783
+    },
+    {
+        "query_id": "740_28",
+        "question": "Where was I Divide founded?",
+        "answers": [
+            "Exeter"
+        ],
+        "pageviews": 1420
+    },
+    {
+        "query_id": "740_29",
+        "question": "Where was Steiner Studios founded?",
+        "answers": [
+            "Brooklyn"
+        ],
+        "pageviews": 15975
+    },
+    {
+        "query_id": "740_30",
+        "question": "Where was Backstabbers Incorporated founded?",
+        "answers": [
+            "Portsmouth"
+        ],
+        "pageviews": 3191
+    },
+    {
+        "query_id": "740_31",
+        "question": "Where was Catoan founded?",
+        "answers": [
+            "Belfast"
+        ],
+        "pageviews": 853
+    },
+    {
+        "query_id": "740_32",
+        "question": "Where was Kodaline founded?",
+        "answers": [
+            "Swords"
+        ],
+        "pageviews": 92658
+    },
+    {
+        "query_id": "740_33",
+        "question": "Where was Inditex founded?",
+        "answers": [
+            "Arteixo"
+        ],
+        "pageviews": 332908
+    },
+    {
+        "query_id": "740_34",
+        "question": "Where was Raven-Symon\u00e9 founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 962376
+    },
+    {
+        "query_id": "740_35",
+        "question": "Where was Chaingang founded?",
+        "answers": [
+            "Sydney"
+        ],
+        "pageviews": 1014
+    },
+    {
+        "query_id": "740_36",
+        "question": "Where was Skeletal Family founded?",
+        "answers": [
+            "Keighley"
+        ],
+        "pageviews": 16925
+    },
+    {
+        "query_id": "740_37",
+        "question": "Where was Versive founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 2153
+    },
+    {
+        "query_id": "740_38",
+        "question": "Where was Martha founded?",
+        "answers": [
+            "County Durham"
+        ],
+        "pageviews": 16139
+    },
+    {
+        "query_id": "740_39",
+        "question": "Where was The Jam founded?",
+        "answers": [
+            "Woking"
+        ],
+        "pageviews": 394537
+    },
+    {
+        "query_id": "740_40",
+        "question": "Where was Bristol Commercial Vehicles founded?",
+        "answers": [
+            "Bristol"
+        ],
+        "pageviews": 12909
+    },
+    {
+        "query_id": "740_41",
+        "question": "Where was Fedrigoni founded?",
+        "answers": [
+            "Verona"
+        ],
+        "pageviews": 5949
+    },
+    {
+        "query_id": "740_42",
+        "question": "Where was Kainos founded?",
+        "answers": [
+            "Belfast"
+        ],
+        "pageviews": 25087
+    },
+    {
+        "query_id": "740_43",
+        "question": "Where was 1300 Oslo founded?",
+        "answers": [
+            "Oslo"
+        ],
+        "pageviews": 1570
+    },
+    {
+        "query_id": "740_45",
+        "question": "Where was Fosters Freeze founded?",
+        "answers": [
+            "Inglewood"
+        ],
+        "pageviews": 25175
+    },
+    {
+        "query_id": "740_46",
+        "question": "Where was Locomotive founded?",
+        "answers": [
+            "Birmingham"
+        ],
+        "pageviews": 8508
+    },
+    {
+        "query_id": "740_47",
+        "question": "Where was Dunkin' founded?",
+        "answers": [
+            "Quincy"
+        ],
+        "pageviews": 538353
+    },
+    {
+        "query_id": "740_48",
+        "question": "Where was Wing Yip founded?",
+        "answers": [
+            "Birmingham"
+        ],
+        "pageviews": 17612
+    },
+    {
+        "query_id": "740_49",
+        "question": "Where was The Zombies founded?",
+        "answers": [
+            "St Albans"
+        ],
+        "pageviews": 347325
+    },
+    {
+        "query_id": "740_51",
+        "question": "Where was Cathedral founded?",
+        "answers": [
+            "Coventry"
+        ],
+        "pageviews": 50590
+    },
+    {
+        "query_id": "740_52",
+        "question": "Where was Cock Sparrer founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 52531
+    },
+    {
+        "query_id": "740_53",
+        "question": "Where was British Sea Power founded?",
+        "answers": [
+            "Brighton"
+        ],
+        "pageviews": 28520
+    },
+    {
+        "query_id": "740_54",
+        "question": "Where was Hot Toys founded?",
+        "answers": [
+            "Hong Kong"
+        ],
+        "pageviews": 28933
+    },
+    {
+        "query_id": "740_55",
+        "question": "Where was Information Society founded?",
+        "answers": [
+            "Minneapolis"
+        ],
+        "pageviews": 80082
+    },
+    {
+        "query_id": "740_56",
+        "question": "Where was Groupon founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 295976
+    },
+    {
+        "query_id": "740_57",
+        "question": "Where was Takasa founded?",
+        "answers": [
+            "Switzerland"
+        ],
+        "pageviews": 5792
+    },
+    {
+        "query_id": "740_58",
+        "question": "Where was Bogshed founded?",
+        "answers": [
+            "Hebden Bridge"
+        ],
+        "pageviews": 7914
+    },
+    {
+        "query_id": "740_59",
+        "question": "Where was Neon Indian founded?",
+        "answers": [
+            "Denton"
+        ],
+        "pageviews": 48892
+    },
+    {
+        "query_id": "740_60",
+        "question": "Where was Bellylove founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 2660
+    },
+    {
+        "query_id": "740_61",
+        "question": "Where was Chokebore founded?",
+        "answers": [
+            "Honolulu"
+        ],
+        "pageviews": 4929
+    },
+    {
+        "query_id": "740_62",
+        "question": "Where was Obscura founded?",
+        "answers": [
+            "Landshut"
+        ],
+        "pageviews": 56905
+    },
+    {
+        "query_id": "740_63",
+        "question": "Where was Planeta DeAgostini founded?",
+        "answers": [
+            "Barcelona"
+        ],
+        "pageviews": 6033
+    },
+    {
+        "query_id": "740_64",
+        "question": "Where was Zuffa LLC founded?",
+        "answers": [
+            "Las Vegas"
+        ],
+        "pageviews": 90851
+    },
+    {
+        "query_id": "740_65",
+        "question": "Where was Mesa Boogie founded?",
+        "answers": [
+            "Petaluma"
+        ],
+        "pageviews": 2706
+    },
+    {
+        "query_id": "740_66",
+        "question": "Where was Madison Park founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 2211
+    },
+    {
+        "query_id": "740_67",
+        "question": "Where was Connie Price and the Keystones founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 1830
+    },
+    {
+        "query_id": "740_68",
+        "question": "Where was Macdonald Realty founded?",
+        "answers": [
+            "Vancouver"
+        ],
+        "pageviews": 7533
+    },
+    {
+        "query_id": "740_69",
+        "question": "Where was Julius Meinl founded?",
+        "answers": [
+            "Vienna"
+        ],
+        "pageviews": 40656
+    },
+    {
+        "query_id": "740_70",
+        "question": "Where was Circulus founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 4001
+    },
+    {
+        "query_id": "740_71",
+        "question": "Where was Kuehne + Nagel founded?",
+        "answers": [
+            "Bremen"
+        ],
+        "pageviews": 125236
+    },
+    {
+        "query_id": "740_72",
+        "question": "Where was Deacon Blue founded?",
+        "answers": [
+            "Glasgow"
+        ],
+        "pageviews": 132826
+    },
+    {
+        "query_id": "740_73",
+        "question": "Where was High Highs founded?",
+        "answers": [
+            "Sydney"
+        ],
+        "pageviews": 4613
+    },
+    {
+        "query_id": "740_74",
+        "question": "Where was Panzerpappa founded?",
+        "answers": [
+            "Oslo"
+        ],
+        "pageviews": 1580
+    },
+    {
+        "query_id": "740_75",
+        "question": "Where was Shaa'ir and Func founded?",
+        "answers": [
+            "Mumbai"
+        ],
+        "pageviews": 1391
+    },
+    {
+        "query_id": "740_76",
+        "question": "Where was Les Hay Babies founded?",
+        "answers": [
+            "New Brunswick"
+        ],
+        "pageviews": 4463
+    },
+    {
+        "query_id": "740_77",
+        "question": "Where was Sharp HealthCare founded?",
+        "answers": [
+            "San Diego"
+        ],
+        "pageviews": 12898
+    },
+    {
+        "query_id": "740_78",
+        "question": "Where was Dio \u2013 Distraught Overlord founded?",
+        "answers": [
+            "Tokyo"
+        ],
+        "pageviews": 3155
+    },
+    {
+        "query_id": "740_79",
+        "question": "Where was Bal-Sagoth founded?",
+        "answers": [
+            "Sheffield"
+        ],
+        "pageviews": 17197
+    },
+    {
+        "query_id": "740_80",
+        "question": "Where was Fastbacks founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 15471
+    },
+    {
+        "query_id": "740_81",
+        "question": "Where was The Squirrels founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 5615
+    },
+    {
+        "query_id": "740_82",
+        "question": "Where was One Hundred Dollars founded?",
+        "answers": [
+            "Toronto"
+        ],
+        "pageviews": 3684
+    },
+    {
+        "query_id": "740_83",
+        "question": "Where was Relegence founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 968
+    },
+    {
+        "query_id": "740_84",
+        "question": "Where was The Rumour Said Fire founded?",
+        "answers": [
+            "Copenhagen"
+        ],
+        "pageviews": 16789
+    },
+    {
+        "query_id": "740_85",
+        "question": "Where was Daimler Company founded?",
+        "answers": [
+            "Coventry"
+        ],
+        "pageviews": 211276
+    },
+    {
+        "query_id": "740_86",
+        "question": "Where was Dritte Wahl founded?",
+        "answers": [
+            "Rostock"
+        ],
+        "pageviews": 3577
+    },
+    {
+        "query_id": "740_87",
+        "question": "Where was Thunderstone founded?",
+        "answers": [
+            "Helsinki"
+        ],
+        "pageviews": 6965
+    },
+    {
+        "query_id": "740_88",
+        "question": "Where was Parabelle founded?",
+        "answers": [
+            "Toronto"
+        ],
+        "pageviews": 9376
+    },
+    {
+        "query_id": "740_89",
+        "question": "Where was MxPx founded?",
+        "answers": [
+            "Bremerton"
+        ],
+        "pageviews": 112667
+    },
+    {
+        "query_id": "740_90",
+        "question": "Where was The Boat People founded?",
+        "answers": [
+            "Brisbane"
+        ],
+        "pageviews": 1606
+    },
+    {
+        "query_id": "740_91",
+        "question": "Where was Ruhrpott AG founded?",
+        "answers": [
+            "Bochum"
+        ],
+        "pageviews": 2163
+    },
+    {
+        "query_id": "740_92",
+        "question": "Where was Cornish fairing founded?",
+        "answers": [
+            "Cornwall"
+        ],
+        "pageviews": 6952
+    },
+    {
+        "query_id": "740_93",
+        "question": "Where was Apple Inc. founded?",
+        "answers": [
+            "Cupertino"
+        ],
+        "pageviews": 6245451
+    },
+    {
+        "query_id": "740_94",
+        "question": "Where was Zion & Lennox founded?",
+        "answers": [
+            "Carolina"
+        ],
+        "pageviews": 56120
+    },
+    {
+        "query_id": "740_95",
+        "question": "Where was Nightbox founded?",
+        "answers": [
+            "Wicklow"
+        ],
+        "pageviews": 2157
+    },
+    {
+        "query_id": "740_96",
+        "question": "Where was Driveblind founded?",
+        "answers": [
+            "Aberdeen"
+        ],
+        "pageviews": 1418
+    },
+    {
+        "query_id": "740_97",
+        "question": "Where was Wild Beasts founded?",
+        "answers": [
+            "Kendal"
+        ],
+        "pageviews": 25736
+    },
+    {
+        "query_id": "740_98",
+        "question": "Where was True Value founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 84784
+    },
+    {
+        "query_id": "740_99",
+        "question": "Where was Anamanaguchi founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 54057
+    },
+    {
+        "query_id": "740_100",
+        "question": "Where was Paizo Publishing founded?",
+        "answers": [
+            "Redmond"
+        ],
+        "pageviews": 20589
+    },
+    {
+        "query_id": "740_101",
+        "question": "Where was Kreator founded?",
+        "answers": [
+            "Essen"
+        ],
+        "pageviews": 221758
+    },
+    {
+        "query_id": "740_102",
+        "question": "Where was Pedro the Lion founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 43035
+    },
+    {
+        "query_id": "740_103",
+        "question": "Where was Xylina Spathia founded?",
+        "answers": [
+            "Thessaloniki"
+        ],
+        "pageviews": 5422
+    },
+    {
+        "query_id": "740_104",
+        "question": "Where was Photon Band founded?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 1307
+    },
+    {
+        "query_id": "740_105",
+        "question": "Where was Houndmouth founded?",
+        "answers": [
+            "New Albany"
+        ],
+        "pageviews": 64437
+    },
+    {
+        "query_id": "740_106",
+        "question": "Where was Triple-S Management Corporation founded?",
+        "answers": [
+            "San Juan"
+        ],
+        "pageviews": 11340
+    },
+    {
+        "query_id": "740_107",
+        "question": "Where was Ludus founded?",
+        "answers": [
+            "Manchester"
+        ],
+        "pageviews": 6809
+    },
+    {
+        "query_id": "740_108",
+        "question": "Where was YMCA founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 810996
+    },
+    {
+        "query_id": "740_109",
+        "question": "Where was Moon Taxi founded?",
+        "answers": [
+            "Nashville"
+        ],
+        "pageviews": 20992
+    },
+    {
+        "query_id": "740_110",
+        "question": "Where was Longing for Dawn founded?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 1566
+    },
+    {
+        "query_id": "740_111",
+        "question": "Where was N.E.O. founded?",
+        "answers": [
+            "Kaunas"
+        ],
+        "pageviews": 1458
+    },
+    {
+        "query_id": "740_112",
+        "question": "Where was Sixx:A.M. founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 120630
+    },
+    {
+        "query_id": "740_113",
+        "question": "Where was Harry's Bar founded?",
+        "answers": [
+            "Venice"
+        ],
+        "pageviews": 56686
+    },
+    {
+        "query_id": "740_114",
+        "question": "Where was Fnac founded?",
+        "answers": [
+            "Paris"
+        ],
+        "pageviews": 94248
+    },
+    {
+        "query_id": "740_115",
+        "question": "Where was Make Them Suffer founded?",
+        "answers": [
+            "Perth"
+        ],
+        "pageviews": 108816
+    },
+    {
+        "query_id": "740_116",
+        "question": "Where was Locnville founded?",
+        "answers": [
+            "Cape Town"
+        ],
+        "pageviews": 13301
+    },
+    {
+        "query_id": "740_117",
+        "question": "Where was Beck's founded?",
+        "answers": [
+            "Bremen"
+        ],
+        "pageviews": 61698
+    },
+    {
+        "query_id": "740_119",
+        "question": "Where was Arthur & Yu founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 1088
+    },
+    {
+        "query_id": "740_120",
+        "question": "Where was Leeway founded?",
+        "answers": [
+            "Astoria"
+        ],
+        "pageviews": 13830
+    },
+    {
+        "query_id": "740_121",
+        "question": "Where was The Fifth Estate founded?",
+        "answers": [
+            "Stamford"
+        ],
+        "pageviews": 7832
+    },
+    {
+        "query_id": "740_122",
+        "question": "Where was Kanjani Eight founded?",
+        "answers": [
+            "\u014csaka"
+        ],
+        "pageviews": 21489
+    },
+    {
+        "query_id": "740_123",
+        "question": "Where was Crown Coach Corporation founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 11752
+    },
+    {
+        "query_id": "740_124",
+        "question": "Where was Kappa founded?",
+        "answers": [
+            "Turin"
+        ],
+        "pageviews": 202178
+    },
+    {
+        "query_id": "740_125",
+        "question": "Where was General Electric Company plc founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 98573
+    },
+    {
+        "query_id": "740_126",
+        "question": "Where was Sons of Anarchy Motorcycle Club founded?",
+        "answers": [
+            "Charming"
+        ],
+        "pageviews": 7001
+    },
+    {
+        "query_id": "740_127",
+        "question": "Where was Brother & Co. founded?",
+        "answers": [
+            "Somerville"
+        ],
+        "pageviews": 768
+    },
+    {
+        "query_id": "740_128",
+        "question": "Where was Les Hurlements d'L\u00e9o founded?",
+        "answers": [
+            "France"
+        ],
+        "pageviews": 1976
+    },
+    {
+        "query_id": "740_129",
+        "question": "Where was Queenadreena founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 15383
+    },
+    {
+        "query_id": "740_130",
+        "question": "Where was Simon Hackett founded?",
+        "answers": [
+            "Adelaide"
+        ],
+        "pageviews": 5054
+    },
+    {
+        "query_id": "740_131",
+        "question": "Where was Warning founded?",
+        "answers": [
+            "Harlow"
+        ],
+        "pageviews": 5309
+    },
+    {
+        "query_id": "740_132",
+        "question": "Where was Westinghouse Electric Company founded?",
+        "answers": [
+            "Monroeville"
+        ],
+        "pageviews": 245615
+    },
+    {
+        "query_id": "740_133",
+        "question": "Where was ICOM Simulations founded?",
+        "answers": [
+            "Wheeling"
+        ],
+        "pageviews": 8561
+    },
+    {
+        "query_id": "740_134",
+        "question": "Where was Not Too Sharp founded?",
+        "answers": [
+            "Durham"
+        ],
+        "pageviews": 1179
+    },
+    {
+        "query_id": "740_135",
+        "question": "Where was Creature founded?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 2581
+    },
+    {
+        "query_id": "740_136",
+        "question": "Where was Princeton founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 2029
+    },
+    {
+        "query_id": "740_137",
+        "question": "Where was Crowns founded?",
+        "answers": [
+            "Launceston"
+        ],
+        "pageviews": 3673
+    },
+    {
+        "query_id": "740_138",
+        "question": "Where was Digital Research founded?",
+        "answers": [
+            "Pacific Grove"
+        ],
+        "pageviews": 47731
+    },
+    {
+        "query_id": "740_139",
+        "question": "Where was Parques Reunidos founded?",
+        "answers": [
+            "Madrid"
+        ],
+        "pageviews": 36998
+    },
+    {
+        "query_id": "740_141",
+        "question": "Where was Crash Parallel founded?",
+        "answers": [
+            "Mississauga"
+        ],
+        "pageviews": 1886
+    },
+    {
+        "query_id": "740_142",
+        "question": "Where was Matia Bazar founded?",
+        "answers": [
+            "Genoa"
+        ],
+        "pageviews": 30327
+    },
+    {
+        "query_id": "740_143",
+        "question": "Where was Andr\u00e9e & Rosenqvist founded?",
+        "answers": [
+            "Turku"
+        ],
+        "pageviews": 1292
+    },
+    {
+        "query_id": "740_144",
+        "question": "Where was W\u00f6yh! founded?",
+        "answers": [
+            "Finland"
+        ],
+        "pageviews": 1559
+    },
+    {
+        "query_id": "740_145",
+        "question": "Where was Gaye Bykers on Acid founded?",
+        "answers": [
+            "Leicester"
+        ],
+        "pageviews": 13249
+    },
+    {
+        "query_id": "740_147",
+        "question": "Where was Bungie founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 805255
+    },
+    {
+        "query_id": "740_149",
+        "question": "Where was McIntosh Laboratory founded?",
+        "answers": [
+            "Binghamton"
+        ],
+        "pageviews": 44284
+    },
+    {
+        "query_id": "740_150",
+        "question": "Where was Edward Sharpe and the Magnetic Zeros founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 183055
+    },
+    {
+        "query_id": "740_151",
+        "question": "Where was Anyday founded?",
+        "answers": [
+            "Springdale"
+        ],
+        "pageviews": 1254
+    },
+    {
+        "query_id": "740_152",
+        "question": "Where was Fleet Foxes founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 612479
+    },
+    {
+        "query_id": "740_153",
+        "question": "Where was Chobani founded?",
+        "answers": [
+            "New Berlin"
+        ],
+        "pageviews": 98575
+    },
+    {
+        "query_id": "740_154",
+        "question": "Where was The Society Management founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 76879
+    },
+    {
+        "query_id": "740_155",
+        "question": "Where was Withings founded?",
+        "answers": [
+            "Issy-les-Moulineaux"
+        ],
+        "pageviews": 46446
+    },
+    {
+        "query_id": "740_156",
+        "question": "Where was Bomb the Music Industry! founded?",
+        "answers": [
+            "Baldwin"
+        ],
+        "pageviews": 29155
+    },
+    {
+        "query_id": "740_157",
+        "question": "Where was Jenny & Tyler founded?",
+        "answers": [
+            "Newark"
+        ],
+        "pageviews": 2215
+    },
+    {
+        "query_id": "740_158",
+        "question": "Where was On the Last Day founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 2550
+    },
+    {
+        "query_id": "740_159",
+        "question": "Where was Destiny's Child founded?",
+        "answers": [
+            "Houston"
+        ],
+        "pageviews": 1065240
+    },
+    {
+        "query_id": "740_160",
+        "question": "Where was Sum 41 founded?",
+        "answers": [
+            "Ajax"
+        ],
+        "pageviews": 634627
+    },
+    {
+        "query_id": "740_161",
+        "question": "Where was InMe founded?",
+        "answers": [
+            "Brentwood"
+        ],
+        "pageviews": 17990
+    },
+    {
+        "query_id": "740_162",
+        "question": "Where was Mighty Mighty founded?",
+        "answers": [
+            "Birmingham"
+        ],
+        "pageviews": 5183
+    },
+    {
+        "query_id": "740_163",
+        "question": "Where was Silvercup Studios founded?",
+        "answers": [
+            "Queens"
+        ],
+        "pageviews": 57859
+    },
+    {
+        "query_id": "740_164",
+        "question": "Where was Class Editori founded?",
+        "answers": [
+            "Milan"
+        ],
+        "pageviews": 2572
+    },
+    {
+        "query_id": "740_165",
+        "question": "Where was Swashbuckle founded?",
+        "answers": [
+            "Mercer County"
+        ],
+        "pageviews": 7942
+    },
+    {
+        "query_id": "740_166",
+        "question": "Where was Rusty Moe founded?",
+        "answers": [
+            "Chennai"
+        ],
+        "pageviews": 827
+    },
+    {
+        "query_id": "740_167",
+        "question": "Where was Harland and Wolff founded?",
+        "answers": [
+            "Belfast"
+        ],
+        "pageviews": 102517
+    },
+    {
+        "query_id": "740_168",
+        "question": "Where was Letraset founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 47108
+    },
+    {
+        "query_id": "740_170",
+        "question": "Where was Wax founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 17599
+    },
+    {
+        "query_id": "740_172",
+        "question": "Where was Leoni AG founded?",
+        "answers": [
+            "Nuremberg"
+        ],
+        "pageviews": 17019
+    },
+    {
+        "query_id": "740_173",
+        "question": "Where was Ziynet Sali founded?",
+        "answers": [
+            "Turkish Republic of Northern Cyprus"
+        ],
+        "pageviews": 20259
+    },
+    {
+        "query_id": "740_174",
+        "question": "Where was Colonial Colleges founded?",
+        "answers": [
+            "Thirteen Colonies"
+        ],
+        "pageviews": 194643
+    },
+    {
+        "query_id": "740_175",
+        "question": "Where was Vocal Limited founded?",
+        "answers": [
+            "Colchester"
+        ],
+        "pageviews": 239
+    },
+    {
+        "query_id": "740_176",
+        "question": "Where was Bear's Den founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 63157
+    },
+    {
+        "query_id": "740_177",
+        "question": "Where was One Way founded?",
+        "answers": [
+            "Detroit"
+        ],
+        "pageviews": 27973
+    },
+    {
+        "query_id": "740_178",
+        "question": "Where was Vedanta Resources founded?",
+        "answers": [
+            "Mumbai"
+        ],
+        "pageviews": 142087
+    },
+    {
+        "query_id": "740_179",
+        "question": "Where was Crazyhead founded?",
+        "answers": [
+            "Leicester"
+        ],
+        "pageviews": 6055
+    },
+    {
+        "query_id": "740_180",
+        "question": "Where was Hot (vocal group) founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 7162
+    },
+    {
+        "query_id": "740_181",
+        "question": "Where was Wells Fargo founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 1010454
+    },
+    {
+        "query_id": "740_182",
+        "question": "Where was Highland Superstores founded?",
+        "answers": [
+            "Highland Park"
+        ],
+        "pageviews": 5446
+    },
+    {
+        "query_id": "740_183",
+        "question": "Where was Daisy Systems founded?",
+        "answers": [
+            "Mountain View"
+        ],
+        "pageviews": 5076
+    },
+    {
+        "query_id": "740_184",
+        "question": "Where was Dark Time Sunshine founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 4005
+    },
+    {
+        "query_id": "740_185",
+        "question": "Where was Westminster Cracker Company founded?",
+        "answers": [
+            "Westminster"
+        ],
+        "pageviews": 5721
+    },
+    {
+        "query_id": "740_186",
+        "question": "Where was Meitetsu founded?",
+        "answers": [
+            "Nagoya"
+        ],
+        "pageviews": 15586
+    },
+    {
+        "query_id": "740_187",
+        "question": "Where was Earth founded?",
+        "answers": [
+            "Olympia"
+        ],
+        "pageviews": 74622
+    },
+    {
+        "query_id": "740_188",
+        "question": "Where was Botellita de Jerez founded?",
+        "answers": [
+            "Mexico City"
+        ],
+        "pageviews": 5190
+    },
+    {
+        "query_id": "740_189",
+        "question": "Where was Neuros Technology founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 5879
+    },
+    {
+        "query_id": "740_190",
+        "question": "Where was Plastic Little founded?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 3648
+    },
+    {
+        "query_id": "740_191",
+        "question": "Where was Ports 1961 founded?",
+        "answers": [
+            "Toronto"
+        ],
+        "pageviews": 8775
+    },
+    {
+        "query_id": "740_192",
+        "question": "Where was Fabbrica Aeroplani Ing. O. Pomilio founded?",
+        "answers": [
+            "Turin"
+        ],
+        "pageviews": 1850
+    },
+    {
+        "query_id": "740_193",
+        "question": "Where was Kids Near Water founded?",
+        "answers": [
+            "Exeter"
+        ],
+        "pageviews": 1769
+    },
+    {
+        "query_id": "740_194",
+        "question": "Where was UB40 founded?",
+        "answers": [
+            "Birmingham"
+        ],
+        "pageviews": 614807
+    },
+    {
+        "query_id": "740_195",
+        "question": "Where was Iron Monkey founded?",
+        "answers": [
+            "Nottingham"
+        ],
+        "pageviews": 13130
+    },
+    {
+        "query_id": "740_196",
+        "question": "Where was Dirge Within founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 3398
+    },
+    {
+        "query_id": "740_197",
+        "question": "Where was Antica Pizzeria Port'Alba founded?",
+        "answers": [
+            "Naples"
+        ],
+        "pageviews": 31162
+    },
+    {
+        "query_id": "740_198",
+        "question": "Where was Legion of the Damned founded?",
+        "answers": [
+            "Netherlands"
+        ],
+        "pageviews": 10749
+    },
+    {
+        "query_id": "740_199",
+        "question": "Where was The Blackout Pact founded?",
+        "answers": [
+            "Denver"
+        ],
+        "pageviews": 2071
+    },
+    {
+        "query_id": "740_200",
+        "question": "Where was Dakrya founded?",
+        "answers": [
+            "Athens"
+        ],
+        "pageviews": 1038
+    },
+    {
+        "query_id": "740_201",
+        "question": "Where was Crosses founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 106673
+    },
+    {
+        "query_id": "740_202",
+        "question": "Where was Seattle Pro Musica founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 2521
+    },
+    {
+        "query_id": "740_203",
+        "question": "Where was City Supermarket, Inc. founded?",
+        "answers": [
+            "Dagupan"
+        ],
+        "pageviews": 6106
+    },
+    {
+        "query_id": "740_204",
+        "question": "Where was Winterfylleth founded?",
+        "answers": [
+            "Manchester"
+        ],
+        "pageviews": 12998
+    },
+    {
+        "query_id": "740_205",
+        "question": "Where was Hurray for the Riff Raff founded?",
+        "answers": [
+            "New Orleans"
+        ],
+        "pageviews": 126561
+    },
+    {
+        "query_id": "740_206",
+        "question": "Where was Brammo founded?",
+        "answers": [
+            "Ashland"
+        ],
+        "pageviews": 18232
+    },
+    {
+        "query_id": "740_207",
+        "question": "Where was Delta Chi founded?",
+        "answers": [
+            "Cornell University"
+        ],
+        "pageviews": 36370
+    },
+    {
+        "query_id": "740_208",
+        "question": "Where was The Birthday Suit founded?",
+        "answers": [
+            "Edinburgh"
+        ],
+        "pageviews": 1650
+    },
+    {
+        "query_id": "740_209",
+        "question": "Where was Roomrunner founded?",
+        "answers": [
+            "Baltimore"
+        ],
+        "pageviews": 2213
+    },
+    {
+        "query_id": "740_210",
+        "question": "Where was Glitterhouse Records founded?",
+        "answers": [
+            "Beverungen"
+        ],
+        "pageviews": 4107
+    },
+    {
+        "query_id": "740_211",
+        "question": "Where was Kim Junsu founded?",
+        "answers": [
+            "South Korea"
+        ],
+        "pageviews": 80201
+    },
+    {
+        "query_id": "740_212",
+        "question": "Where was Sacred Mother Tongue founded?",
+        "answers": [
+            "Northampton"
+        ],
+        "pageviews": 10583
+    },
+    {
+        "query_id": "740_213",
+        "question": "Where was Discordance Axis founded?",
+        "answers": [
+            "East Brunswick"
+        ],
+        "pageviews": 15033
+    },
+    {
+        "query_id": "740_214",
+        "question": "Where was Bilbao Vizcaya Argentaria Bank founded?",
+        "answers": [
+            "Bilbao"
+        ],
+        "pageviews": 118964
+    },
+    {
+        "query_id": "740_215",
+        "question": "Where was Prexeca Bangers founded?",
+        "answers": [
+            "Rio de Janeiro"
+        ],
+        "pageviews": 632
+    },
+    {
+        "query_id": "740_216",
+        "question": "Where was Bethlehem Steel founded?",
+        "answers": [
+            "Bethlehem"
+        ],
+        "pageviews": 202056
+    },
+    {
+        "query_id": "740_217",
+        "question": "Where was Wings founded?",
+        "answers": [
+            "South Korea"
+        ],
+        "pageviews": 3292
+    },
+    {
+        "query_id": "740_218",
+        "question": "Where was 98 Degrees founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 301772
+    },
+    {
+        "query_id": "740_219",
+        "question": "Where was Rave Cinemas founded?",
+        "answers": [
+            "Dallas"
+        ],
+        "pageviews": 12436
+    },
+    {
+        "query_id": "740_220",
+        "question": "Where was The Lawsuits founded?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 847
+    },
+    {
+        "query_id": "740_221",
+        "question": "Where was Mankind Is Obsolete founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 2338
+    },
+    {
+        "query_id": "740_222",
+        "question": "Where was The Obvious founded?",
+        "answers": [
+            "Asbury Park"
+        ],
+        "pageviews": 1149
+    },
+    {
+        "query_id": "740_223",
+        "question": "Where was At the Throne of Judgment founded?",
+        "answers": [
+            "Lebanon"
+        ],
+        "pageviews": 4639
+    },
+    {
+        "query_id": "740_224",
+        "question": "Where was TELUS founded?",
+        "answers": [
+            "Edmonton"
+        ],
+        "pageviews": 199458
+    },
+    {
+        "query_id": "740_225",
+        "question": "Where was Champion founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 9216
+    },
+    {
+        "query_id": "740_227",
+        "question": "Where was Tenaris founded?",
+        "answers": [
+            "Luxembourg"
+        ],
+        "pageviews": 32849
+    },
+    {
+        "query_id": "740_228",
+        "question": "Where was Tantrum founded?",
+        "answers": [
+            "Sri Lanka"
+        ],
+        "pageviews": 820
+    },
+    {
+        "query_id": "740_229",
+        "question": "Where was Neve founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 4828
+    },
+    {
+        "query_id": "740_230",
+        "question": "Where was FTANNG! founded?",
+        "answers": [
+            "Germany"
+        ],
+        "pageviews": 853
+    },
+    {
+        "query_id": "740_231",
+        "question": "Where was TNK founded?",
+        "answers": [
+            "Ankara"
+        ],
+        "pageviews": 1528
+    },
+    {
+        "query_id": "740_232",
+        "question": "Where was Tuff Crew founded?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 8839
+    },
+    {
+        "query_id": "740_234",
+        "question": "Where was Kate and Corey founded?",
+        "answers": [
+            "Atlanta"
+        ],
+        "pageviews": 756
+    },
+    {
+        "query_id": "740_235",
+        "question": "Where was Loggins and Messina founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 288601
+    },
+    {
+        "query_id": "740_236",
+        "question": "Where was The Yardbirds founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 728947
+    },
+    {
+        "query_id": "740_237",
+        "question": "Where was Onkyo founded?",
+        "answers": [
+            "\u014csaka"
+        ],
+        "pageviews": 78415
+    },
+    {
+        "query_id": "740_238",
+        "question": "Where was Institute for Works of Religion founded?",
+        "answers": [
+            "Vatican City"
+        ],
+        "pageviews": 66061
+    },
+    {
+        "query_id": "740_239",
+        "question": "Where was The United States of America founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 30511
+    },
+    {
+        "query_id": "740_240",
+        "question": "Where was Kinski founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 4835
+    },
+    {
+        "query_id": "740_241",
+        "question": "Where was Chateaux founded?",
+        "answers": [
+            "Cheltenham"
+        ],
+        "pageviews": 4610
+    },
+    {
+        "query_id": "740_242",
+        "question": "Where was Demiricous founded?",
+        "answers": [
+            "Indianapolis"
+        ],
+        "pageviews": 4480
+    },
+    {
+        "query_id": "740_243",
+        "question": "Where was Tindersticks founded?",
+        "answers": [
+            "Nottingham"
+        ],
+        "pageviews": 173917
+    },
+    {
+        "query_id": "740_244",
+        "question": "Where was Van Hool founded?",
+        "answers": [
+            "Lier"
+        ],
+        "pageviews": 50101
+    },
+    {
+        "query_id": "740_245",
+        "question": "Where was Dominion founded?",
+        "answers": [
+            "Toronto"
+        ],
+        "pageviews": 21868
+    },
+    {
+        "query_id": "740_246",
+        "question": "Where was Kraftklub founded?",
+        "answers": [
+            "Chemnitz"
+        ],
+        "pageviews": 24353
+    },
+    {
+        "query_id": "740_247",
+        "question": "Where was Players Association founded?",
+        "answers": [
+            "New York"
+        ],
+        "pageviews": 2444
+    },
+    {
+        "query_id": "740_248",
+        "question": "Where was Sri Venkateswara Creations founded?",
+        "answers": [
+            "Hyderabad"
+        ],
+        "pageviews": 252709
+    },
+    {
+        "query_id": "740_249",
+        "question": "Where was Boi-1da founded?",
+        "answers": [
+            "Toronto"
+        ],
+        "pageviews": 165125
+    },
+    {
+        "query_id": "740_250",
+        "question": "Where was Q-York founded?",
+        "answers": [
+            "Queens"
+        ],
+        "pageviews": 2412
+    },
+    {
+        "query_id": "740_251",
+        "question": "Where was Embrace founded?",
+        "answers": [
+            "Bailiff Bridge"
+        ],
+        "pageviews": 63310
+    },
+    {
+        "query_id": "740_252",
+        "question": "Where was Servite Order founded?",
+        "answers": [
+            "Florence"
+        ],
+        "pageviews": 40655
+    },
+    {
+        "query_id": "740_253",
+        "question": "Where was Magic Bullets founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 2073
+    },
+    {
+        "query_id": "740_254",
+        "question": "Where was The Escorts founded?",
+        "answers": [
+            "Liverpool"
+        ],
+        "pageviews": 5911
+    },
+    {
+        "query_id": "740_255",
+        "question": "Where was Dandi Wind founded?",
+        "answers": [
+            "Vancouver"
+        ],
+        "pageviews": 3933
+    },
+    {
+        "query_id": "740_256",
+        "question": "Where was De Dijk founded?",
+        "answers": [
+            "Amsterdam"
+        ],
+        "pageviews": 10882
+    },
+    {
+        "query_id": "740_257",
+        "question": "Where was Air France founded?",
+        "answers": [
+            "Gothenburg"
+        ],
+        "pageviews": 5647
+    },
+    {
+        "query_id": "740_258",
+        "question": "Where was House Baenre founded?",
+        "answers": [
+            "Menzoberranzan"
+        ],
+        "pageviews": 1156
+    },
+    {
+        "query_id": "740_259",
+        "question": "Where was RUST founded?",
+        "answers": [
+            "Helsinki"
+        ],
+        "pageviews": 3729
+    },
+    {
+        "query_id": "740_260",
+        "question": "Where was Incorporated Council of Law Reporting founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 3365
+    },
+    {
+        "query_id": "740_261",
+        "question": "Where was Young Aviators founded?",
+        "answers": [
+            "Glasgow"
+        ],
+        "pageviews": 1240
+    },
+    {
+        "query_id": "740_262",
+        "question": "Where was Blind Melon founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 371448
+    },
+    {
+        "query_id": "740_263",
+        "question": "Where was MTU Friedrichshafen founded?",
+        "answers": [
+            "Friedrichshafen"
+        ],
+        "pageviews": 102427
+    },
+    {
+        "query_id": "740_264",
+        "question": "Where was Fury of Five founded?",
+        "answers": [
+            "Asbury Park"
+        ],
+        "pageviews": 6997
+    },
+    {
+        "query_id": "740_265",
+        "question": "Where was Jack Beats founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 4142
+    },
+    {
+        "query_id": "740_267",
+        "question": "Where was IM Global founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 47164
+    },
+    {
+        "query_id": "740_268",
+        "question": "Where was The Skitzos founded?",
+        "answers": [
+            "Calgary"
+        ],
+        "pageviews": 677
+    },
+    {
+        "query_id": "740_269",
+        "question": "Where was Manhattan Skyline founded?",
+        "answers": [
+            "Oslo"
+        ],
+        "pageviews": 1011
+    },
+    {
+        "query_id": "740_270",
+        "question": "Where was 5uu's founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 7923
+    },
+    {
+        "query_id": "740_271",
+        "question": "Where was Train founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 497556
+    },
+    {
+        "query_id": "740_272",
+        "question": "Where was Imiskoumbria founded?",
+        "answers": [
+            "Athens"
+        ],
+        "pageviews": 5639
+    },
+    {
+        "query_id": "740_273",
+        "question": "Where was Panic Years founded?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 768
+    },
+    {
+        "query_id": "740_274",
+        "question": "Where was ReadSoft founded?",
+        "answers": [
+            "Helsingborg"
+        ],
+        "pageviews": 8001
+    },
+    {
+        "query_id": "740_276",
+        "question": "Where was Leader Cheetah founded?",
+        "answers": [
+            "Adelaide"
+        ],
+        "pageviews": 1238
+    },
+    {
+        "query_id": "740_277",
+        "question": "Where was Molly Half Head founded?",
+        "answers": [
+            "Manchester"
+        ],
+        "pageviews": 1503
+    },
+    {
+        "query_id": "740_278",
+        "question": "Where was Dirt Bike Annie founded?",
+        "answers": [
+            "Jersey City"
+        ],
+        "pageviews": 4472
+    },
+    {
+        "query_id": "740_279",
+        "question": "Where was Hewlett-Packard founded?",
+        "answers": [
+            "Palo Alto"
+        ],
+        "pageviews": 899368
+    },
+    {
+        "query_id": "740_280",
+        "question": "Where was Clutch founded?",
+        "answers": [
+            "Germantown"
+        ],
+        "pageviews": 247081
+    },
+    {
+        "query_id": "740_281",
+        "question": "Where was SAIC-GM-Wuling Automobile founded?",
+        "answers": [
+            "Liuzhou"
+        ],
+        "pageviews": 81961
+    },
+    {
+        "query_id": "740_282",
+        "question": "Where was Caravan founded?",
+        "answers": [
+            "Canterbury"
+        ],
+        "pageviews": 99543
+    },
+    {
+        "query_id": "740_283",
+        "question": "Where was Carnival Art founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 2436
+    },
+    {
+        "query_id": "740_284",
+        "question": "Where was Strife founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 15750
+    },
+    {
+        "query_id": "740_285",
+        "question": "Where was M-Systems founded?",
+        "answers": [
+            "Kfar Saba"
+        ],
+        "pageviews": 11584
+    },
+    {
+        "query_id": "740_287",
+        "question": "Where was Dominion Energy founded?",
+        "answers": [
+            "Virginia"
+        ],
+        "pageviews": 102122
+    },
+    {
+        "query_id": "740_288",
+        "question": "Where was Bayford & Co founded?",
+        "answers": [
+            "Leeds"
+        ],
+        "pageviews": 4459
+    },
+    {
+        "query_id": "740_289",
+        "question": "Where was Hammerbox founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 10121
+    },
+    {
+        "query_id": "740_290",
+        "question": "Where was Insomnium founded?",
+        "answers": [
+            "Joensuu"
+        ],
+        "pageviews": 58920
+    },
+    {
+        "query_id": "740_291",
+        "question": "Where was Unlocking the Truth founded?",
+        "answers": [
+            "Brooklyn"
+        ],
+        "pageviews": 9155
+    },
+    {
+        "query_id": "740_292",
+        "question": "Where was Eskimo Callboy founded?",
+        "answers": [
+            "Castrop-Rauxel"
+        ],
+        "pageviews": 293829
+    },
+    {
+        "query_id": "740_293",
+        "question": "Where was The Bolts founded?",
+        "answers": [
+            "Irvine"
+        ],
+        "pageviews": 1660
+    },
+    {
+        "query_id": "740_294",
+        "question": "Where was Magic Man founded?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 9853
+    },
+    {
+        "query_id": "740_295",
+        "question": "Where was Rapture Ruckus founded?",
+        "answers": [
+            "Wellington"
+        ],
+        "pageviews": 3405
+    },
+    {
+        "query_id": "740_296",
+        "question": "Where was The Electric Revelators founded?",
+        "answers": [
+            "Swansea"
+        ],
+        "pageviews": 858
+    },
+    {
+        "query_id": "740_297",
+        "question": "Where was The Screamers founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 24306
+    },
+    {
+        "query_id": "740_298",
+        "question": "Where was Beatenberg founded?",
+        "answers": [
+            "Cape Town"
+        ],
+        "pageviews": 17532
+    },
+    {
+        "query_id": "740_299",
+        "question": "Where was Pizza Schmizza founded?",
+        "answers": [
+            "Oregon"
+        ],
+        "pageviews": 4220
+    },
+    {
+        "query_id": "740_300",
+        "question": "Where was Alfie founded?",
+        "answers": [
+            "Manchester"
+        ],
+        "pageviews": 5128
+    },
+    {
+        "query_id": "740_301",
+        "question": "Where was Raging Stallion Studios founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 16333
+    },
+    {
+        "query_id": "740_302",
+        "question": "Where was Investec founded?",
+        "answers": [
+            "Johannesburg"
+        ],
+        "pageviews": 68392
+    },
+    {
+        "query_id": "740_303",
+        "question": "Where was Milo Greene founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 200115
+    },
+    {
+        "query_id": "740_304",
+        "question": "Where was United Aircraft Corporation founded?",
+        "answers": [
+            "Moscow"
+        ],
+        "pageviews": 295399
+    },
+    {
+        "query_id": "740_305",
+        "question": "Where was River City Extension founded?",
+        "answers": [
+            "Toms River"
+        ],
+        "pageviews": 2202
+    },
+    {
+        "query_id": "740_306",
+        "question": "Where was Pizza 73 founded?",
+        "answers": [
+            "Edmonton"
+        ],
+        "pageviews": 24883
+    },
+    {
+        "query_id": "740_307",
+        "question": "Where was Edoardo Raffinerie Garrone founded?",
+        "answers": [
+            "Genoa"
+        ],
+        "pageviews": 9934
+    },
+    {
+        "query_id": "740_308",
+        "question": "Where was Temple of the Dog founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 404591
+    },
+    {
+        "query_id": "740_309",
+        "question": "Where was Melisses founded?",
+        "answers": [
+            "Greece"
+        ],
+        "pageviews": 7453
+    },
+    {
+        "query_id": "740_310",
+        "question": "Where was Zatarain's founded?",
+        "answers": [
+            "New Orleans"
+        ],
+        "pageviews": 22564
+    },
+    {
+        "query_id": "740_312",
+        "question": "Where was Sidley Austin founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 115965
+    },
+    {
+        "query_id": "740_313",
+        "question": "Where was Absurd founded?",
+        "answers": [
+            "Sondershausen"
+        ],
+        "pageviews": 59851
+    },
+    {
+        "query_id": "740_315",
+        "question": "Where was Marionette founded?",
+        "answers": [
+            "Gothenburg"
+        ],
+        "pageviews": 1845
+    },
+    {
+        "query_id": "740_316",
+        "question": "Where was Commonwealth Bank founded?",
+        "answers": [
+            "Melbourne"
+        ],
+        "pageviews": 279566
+    },
+    {
+        "query_id": "740_317",
+        "question": "Where was Winton Motor Carriage Company founded?",
+        "answers": [
+            "Cleveland"
+        ],
+        "pageviews": 38486
+    },
+    {
+        "query_id": "740_318",
+        "question": "Where was Adami founded?",
+        "answers": [
+            "Florence"
+        ],
+        "pageviews": 1693
+    },
+    {
+        "query_id": "740_319",
+        "question": "Where was Moufette founded?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 1494
+    },
+    {
+        "query_id": "740_320",
+        "question": "Where was Dead Sara founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 54253
+    },
+    {
+        "query_id": "740_321",
+        "question": "Where was A Pale Horse Named Death founded?",
+        "answers": [
+            "Brooklyn"
+        ],
+        "pageviews": 24357
+    },
+    {
+        "query_id": "740_322",
+        "question": "Where was Cardiacs founded?",
+        "answers": [
+            "Kingston upon Thames"
+        ],
+        "pageviews": 66971
+    },
+    {
+        "query_id": "740_323",
+        "question": "Where was The Pretty Things founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 91545
+    },
+    {
+        "query_id": "740_324",
+        "question": "Where was Black Jesus Experience founded?",
+        "answers": [
+            "Melbourne"
+        ],
+        "pageviews": 4901
+    },
+    {
+        "query_id": "740_325",
+        "question": "Where was ATRAN founded?",
+        "answers": [
+            "Moscow"
+        ],
+        "pageviews": 9711
+    },
+    {
+        "query_id": "740_326",
+        "question": "Where was Shimadzu Corp. founded?",
+        "answers": [
+            "Kyoto"
+        ],
+        "pageviews": 19577
+    },
+    {
+        "query_id": "740_327",
+        "question": "Where was ...And the Native Hipsters founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 3454
+    },
+    {
+        "query_id": "740_328",
+        "question": "Where was Stooshe founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 25520
+    },
+    {
+        "query_id": "740_329",
+        "question": "Where was Mayhem founded?",
+        "answers": [
+            "Oslo"
+        ],
+        "pageviews": 752763
+    },
+    {
+        "query_id": "740_330",
+        "question": "Where was R. Crumb & His Cheap Suit Serenaders founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 9447
+    },
+    {
+        "query_id": "740_331",
+        "question": "Where was Frankfurt School founded?",
+        "answers": [
+            "Frankfurt"
+        ],
+        "pageviews": 397091
+    },
+    {
+        "query_id": "740_332",
+        "question": "Where was Tapes 'n Tapes founded?",
+        "answers": [
+            "Minneapolis"
+        ],
+        "pageviews": 9666
+    },
+    {
+        "query_id": "740_333",
+        "question": "Where was The Open Mind founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 6564
+    },
+    {
+        "query_id": "740_334",
+        "question": "Where was Edison Lighthouse founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 154402
+    },
+    {
+        "query_id": "740_335",
+        "question": "Where was First Consolidated Bank founded?",
+        "answers": [
+            "Tagbilaran"
+        ],
+        "pageviews": 4623
+    },
+    {
+        "query_id": "740_336",
+        "question": "Where was The Bravery founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 60761
+    },
+    {
+        "query_id": "740_337",
+        "question": "Where was Times of Grace founded?",
+        "answers": [
+            "Southampton"
+        ],
+        "pageviews": 21214
+    },
+    {
+        "query_id": "740_338",
+        "question": "Where was Marzotto founded?",
+        "answers": [
+            "Valdagno"
+        ],
+        "pageviews": 30365
+    },
+    {
+        "query_id": "740_339",
+        "question": "Where was The Crane Wives founded?",
+        "answers": [
+            "Grand Rapids"
+        ],
+        "pageviews": 31479
+    },
+    {
+        "query_id": "740_340",
+        "question": "Where was Royal Southern Brotherhood founded?",
+        "answers": [
+            "New Orleans"
+        ],
+        "pageviews": 9486
+    },
+    {
+        "query_id": "740_342",
+        "question": "Where was Sears founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 655735
+    },
+    {
+        "query_id": "740_343",
+        "question": "Where was The Invisible Girls founded?",
+        "answers": [
+            "Salford"
+        ],
+        "pageviews": 12469
+    },
+    {
+        "query_id": "740_344",
+        "question": "Where was Converse founded?",
+        "answers": [
+            "Malden"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "740_345",
+        "question": "Where was Vincent Motorcycles founded?",
+        "answers": [
+            "Stevenage"
+        ],
+        "pageviews": 64662
+    },
+    {
+        "query_id": "740_346",
+        "question": "Where was Bespoke Collection founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 5464
+    },
+    {
+        "query_id": "740_347",
+        "question": "Where was Moltopera founded?",
+        "answers": [
+            "Hungary"
+        ],
+        "pageviews": 915
+    },
+    {
+        "query_id": "740_348",
+        "question": "Where was 1990s founded?",
+        "answers": [
+            "Glasgow"
+        ],
+        "pageviews": 9363
+    },
+    {
+        "query_id": "740_349",
+        "question": "Where was The JCQ founded?",
+        "answers": [
+            "Eastbourne"
+        ],
+        "pageviews": 1238
+    },
+    {
+        "query_id": "740_350",
+        "question": "Where was The Rifles founded?",
+        "answers": [
+            "Chingford"
+        ],
+        "pageviews": 14897
+    },
+    {
+        "query_id": "740_351",
+        "question": "Where was R\u00f6delheim Hartreim Projekt founded?",
+        "answers": [
+            "Frankfurt"
+        ],
+        "pageviews": 3372
+    },
+    {
+        "query_id": "740_352",
+        "question": "Where was Setting Sun founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 709
+    },
+    {
+        "query_id": "740_353",
+        "question": "Where was The Big Dish founded?",
+        "answers": [
+            "Airdrie"
+        ],
+        "pageviews": 8689
+    },
+    {
+        "query_id": "740_354",
+        "question": "Where was Edinburgh Bicycle Co-operative founded?",
+        "answers": [
+            "Edinburgh"
+        ],
+        "pageviews": 3246
+    },
+    {
+        "query_id": "740_355",
+        "question": "Where was As One founded?",
+        "answers": [
+            "Hong Kong"
+        ],
+        "pageviews": 16887
+    },
+    {
+        "query_id": "740_357",
+        "question": "Where was Camber Corporation founded?",
+        "answers": [
+            "Huntsville"
+        ],
+        "pageviews": 6512
+    },
+    {
+        "query_id": "740_358",
+        "question": "Where was NTL Ireland founded?",
+        "answers": [
+            "Dublin"
+        ],
+        "pageviews": 6104
+    },
+    {
+        "query_id": "740_359",
+        "question": "Where was Cantiere Navale Visentini founded?",
+        "answers": [
+            "Porto Viro"
+        ],
+        "pageviews": 5887
+    },
+    {
+        "query_id": "740_361",
+        "question": "Where was Hundred Waters founded?",
+        "answers": [
+            "Gainesville"
+        ],
+        "pageviews": 12872
+    },
+    {
+        "query_id": "740_362",
+        "question": "Where was The Crookes founded?",
+        "answers": [
+            "Sheffield"
+        ],
+        "pageviews": 5802
+    },
+    {
+        "query_id": "740_363",
+        "question": "Where was Ocean Colour Scene founded?",
+        "answers": [
+            "Birmingham"
+        ],
+        "pageviews": 121641
+    },
+    {
+        "query_id": "740_364",
+        "question": "Where was Lost in Los Angeles founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 858
+    },
+    {
+        "query_id": "740_365",
+        "question": "Where was Alex Kapranos founded?",
+        "answers": [
+            "Glasgow"
+        ],
+        "pageviews": 187502
+    },
+    {
+        "query_id": "740_366",
+        "question": "Where was Intronaut founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 20795
+    },
+    {
+        "query_id": "740_367",
+        "question": "Where was KrasAir founded?",
+        "answers": [
+            "Krasnoyarsk"
+        ],
+        "pageviews": 5888
+    },
+    {
+        "query_id": "740_368",
+        "question": "Where was Nick Danger and the Danger City Rebels founded?",
+        "answers": [
+            "Ottawa"
+        ],
+        "pageviews": 776
+    },
+    {
+        "query_id": "740_369",
+        "question": "Where was Krewella founded?",
+        "answers": [
+            "Northbrook"
+        ],
+        "pageviews": 113844
+    },
+    {
+        "query_id": "740_370",
+        "question": "Where was Lover.ly founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 1260
+    },
+    {
+        "query_id": "740_371",
+        "question": "Where was Doctor and the Medics founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 48499
+    },
+    {
+        "query_id": "740_372",
+        "question": "Where was Helmond Sport founded?",
+        "answers": [
+            "Helmond"
+        ],
+        "pageviews": 25627
+    },
+    {
+        "query_id": "740_373",
+        "question": "Where was Routledge founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 181086
+    },
+    {
+        "query_id": "740_374",
+        "question": "Where was Moke founded?",
+        "answers": [
+            "Amsterdam"
+        ],
+        "pageviews": 2564
+    },
+    {
+        "query_id": "740_375",
+        "question": "Where was Up4Sale founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 1405
+    },
+    {
+        "query_id": "740_376",
+        "question": "Where was Death Before Dishonor founded?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 16088
+    },
+    {
+        "query_id": "740_377",
+        "question": "Where was Bell and James founded?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 7145
+    },
+    {
+        "query_id": "740_378",
+        "question": "Where was Sevi (band) founded?",
+        "answers": [
+            "Sofia"
+        ],
+        "pageviews": 4291
+    },
+    {
+        "query_id": "740_379",
+        "question": "Where was Armchair Cynics founded?",
+        "answers": [
+            "Victoria"
+        ],
+        "pageviews": 1245
+    },
+    {
+        "query_id": "740_380",
+        "question": "Where was Zulu Winter founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 3043
+    },
+    {
+        "query_id": "740_381",
+        "question": "Where was The Cars founded?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 809589
+    },
+    {
+        "query_id": "740_382",
+        "question": "Where was Mo-Ho-Bish-O-Pi founded?",
+        "answers": [
+            "Cardiff"
+        ],
+        "pageviews": 2726
+    },
+    {
+        "query_id": "740_383",
+        "question": "Where was Wrigley Company founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 237362
+    },
+    {
+        "query_id": "740_384",
+        "question": "Where was The Voom Blooms founded?",
+        "answers": [
+            "Loughborough"
+        ],
+        "pageviews": 1279
+    },
+    {
+        "query_id": "740_385",
+        "question": "Where was Publicis founded?",
+        "answers": [
+            "Paris"
+        ],
+        "pageviews": 174803
+    },
+    {
+        "query_id": "740_386",
+        "question": "Where was Al B. Rich founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 943
+    },
+    {
+        "query_id": "740_387",
+        "question": "Where was Positronic founded?",
+        "answers": [
+            "Springfield"
+        ],
+        "pageviews": 4849
+    },
+    {
+        "query_id": "740_388",
+        "question": "Where was Drei Flaschen founded?",
+        "answers": [
+            "Berlin"
+        ],
+        "pageviews": 819
+    },
+    {
+        "query_id": "740_389",
+        "question": "Where was Heritage Auctions founded?",
+        "answers": [
+            "Dallas"
+        ],
+        "pageviews": 29288
+    },
+    {
+        "query_id": "740_390",
+        "question": "Where was Matchless founded?",
+        "answers": [
+            "Plumstead"
+        ],
+        "pageviews": 35450
+    },
+    {
+        "query_id": "740_391",
+        "question": "Where was Blueboy founded?",
+        "answers": [
+            "Reading"
+        ],
+        "pageviews": 7761
+    },
+    {
+        "query_id": "740_392",
+        "question": "Where was Balance and Composure founded?",
+        "answers": [
+            "Doylestown"
+        ],
+        "pageviews": 23733
+    },
+    {
+        "query_id": "740_393",
+        "question": "Where was Tragic Black founded?",
+        "answers": [
+            "Salt Lake City"
+        ],
+        "pageviews": 4853
+    },
+    {
+        "query_id": "740_394",
+        "question": "Where was Friends of the Stars founded?",
+        "answers": [
+            "Birmingham"
+        ],
+        "pageviews": 838
+    },
+    {
+        "query_id": "740_395",
+        "question": "Where was Tredegar founded?",
+        "answers": [
+            "Wales"
+        ],
+        "pageviews": 6662
+    },
+    {
+        "query_id": "740_396",
+        "question": "Where was A Day to Remember founded?",
+        "answers": [
+            "Ocala"
+        ],
+        "pageviews": 330914
+    },
+    {
+        "query_id": "740_397",
+        "question": "Where was The Slip founded?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 14908
+    },
+    {
+        "query_id": "740_398",
+        "question": "Where was Paper Lions founded?",
+        "answers": [
+            "Belfast"
+        ],
+        "pageviews": 3865
+    },
+    {
+        "query_id": "740_399",
+        "question": "Where was Spiderweb Software founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 17142
+    },
+    {
+        "query_id": "740_400",
+        "question": "Where was Elonzo founded?",
+        "answers": [
+            "Rock Hill"
+        ],
+        "pageviews": 678
+    },
+    {
+        "query_id": "740_401",
+        "question": "Where was The Epochs founded?",
+        "answers": [
+            "Brooklyn"
+        ],
+        "pageviews": 900
+    },
+    {
+        "query_id": "740_402",
+        "question": "Where was Slash's Blues Ball founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 6682
+    },
+    {
+        "query_id": "740_403",
+        "question": "Where was The Amplifetes founded?",
+        "answers": [
+            "Sweden"
+        ],
+        "pageviews": 2341
+    },
+    {
+        "query_id": "740_404",
+        "question": "Where was Machas With Attitude founded?",
+        "answers": [
+            "Bengaluru"
+        ],
+        "pageviews": 1860
+    },
+    {
+        "query_id": "740_405",
+        "question": "Where was Karde\u015f T\u00fcrk\u00fcler founded?",
+        "answers": [
+            "Istanbul"
+        ],
+        "pageviews": 4998
+    },
+    {
+        "query_id": "740_406",
+        "question": "Where was Fear, and Loathing in Las Vegas founded?",
+        "answers": [
+            "K\u014dbe"
+        ],
+        "pageviews": 53656
+    },
+    {
+        "query_id": "740_407",
+        "question": "Where was Wirepony founded?",
+        "answers": [
+            "San Diego"
+        ],
+        "pageviews": 680
+    },
+    {
+        "query_id": "740_408",
+        "question": "Where was Cazzo Film founded?",
+        "answers": [
+            "Berlin"
+        ],
+        "pageviews": 7660
+    },
+    {
+        "query_id": "740_409",
+        "question": "Where was The Membranes founded?",
+        "answers": [
+            "Blackpool"
+        ],
+        "pageviews": 19411
+    },
+    {
+        "query_id": "740_410",
+        "question": "Where was Silverline founded?",
+        "answers": [
+            "Brainerd"
+        ],
+        "pageviews": 3827
+    },
+    {
+        "query_id": "740_411",
+        "question": "Where was Flop founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 5006
+    },
+    {
+        "query_id": "740_412",
+        "question": "Where was Ayat founded?",
+        "answers": [
+            "Lebanon"
+        ],
+        "pageviews": 2166
+    },
+    {
+        "query_id": "740_413",
+        "question": "Where was Vitol founded?",
+        "answers": [
+            "Rotterdam"
+        ],
+        "pageviews": 149499
+    },
+    {
+        "query_id": "740_414",
+        "question": "Where was Kim Hyo-yeon founded?",
+        "answers": [
+            "South Korea"
+        ],
+        "pageviews": 224986
+    },
+    {
+        "query_id": "740_415",
+        "question": "Where was Livingston founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 2544
+    },
+    {
+        "query_id": "740_416",
+        "question": "Where was The Woodentops founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 17736
+    },
+    {
+        "query_id": "740_417",
+        "question": "Where was The High Court founded?",
+        "answers": [
+            "Mount Holly Township"
+        ],
+        "pageviews": 1647
+    },
+    {
+        "query_id": "740_418",
+        "question": "Where was Opal Butterfly founded?",
+        "answers": [
+            "Oxfordshire"
+        ],
+        "pageviews": 4957
+    },
+    {
+        "query_id": "740_419",
+        "question": "Where was Hacktivist founded?",
+        "answers": [
+            "Milton Keynes"
+        ],
+        "pageviews": 18563
+    },
+    {
+        "query_id": "740_420",
+        "question": "Where was The Raconteurs founded?",
+        "answers": [
+            "Detroit"
+        ],
+        "pageviews": 289056
+    },
+    {
+        "query_id": "740_421",
+        "question": "Where was Colour Coding founded?",
+        "answers": [
+            "Sydney"
+        ],
+        "pageviews": 1072
+    },
+    {
+        "query_id": "740_422",
+        "question": "Where was Papa vs Pretty founded?",
+        "answers": [
+            "Sydney"
+        ],
+        "pageviews": 2539
+    },
+    {
+        "query_id": "740_423",
+        "question": "Where was Oh Laura founded?",
+        "answers": [
+            "Stockholm"
+        ],
+        "pageviews": 3197
+    },
+    {
+        "query_id": "740_424",
+        "question": "Where was Torngat founded?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 1204
+    },
+    {
+        "query_id": "740_425",
+        "question": "Where was Heaven's Edge founded?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 10665
+    },
+    {
+        "query_id": "740_426",
+        "question": "Where was A Thorn for Every Heart founded?",
+        "answers": [
+            "Chino Hills"
+        ],
+        "pageviews": 4961
+    },
+    {
+        "query_id": "740_427",
+        "question": "Where was Agence France-Presse founded?",
+        "answers": [
+            "Paris"
+        ],
+        "pageviews": 176068
+    },
+    {
+        "query_id": "740_428",
+        "question": "Where was Vains of Jenna founded?",
+        "answers": [
+            "Falkenberg"
+        ],
+        "pageviews": 14226
+    },
+    {
+        "query_id": "740_429",
+        "question": "Where was Maruha Nichiro founded?",
+        "answers": [
+            "\u014csaka"
+        ],
+        "pageviews": 13441
+    },
+    {
+        "query_id": "740_430",
+        "question": "Where was Chalk FarM founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 6603
+    },
+    {
+        "query_id": "740_431",
+        "question": "Where was WinterKids founded?",
+        "answers": [
+            "Surrey"
+        ],
+        "pageviews": 1546
+    },
+    {
+        "query_id": "740_432",
+        "question": "Where was Buell Motorcycle Company founded?",
+        "answers": [
+            "East Troy"
+        ],
+        "pageviews": 68664
+    },
+    {
+        "query_id": "740_433",
+        "question": "Where was The Lancastrians founded?",
+        "answers": [
+            "Altrincham"
+        ],
+        "pageviews": 1275
+    },
+    {
+        "query_id": "740_434",
+        "question": "Where was D\u00e5\u00e5th founded?",
+        "answers": [
+            "Atlanta"
+        ],
+        "pageviews": 21496
+    },
+    {
+        "query_id": "740_435",
+        "question": "Where was The Blind Boys of Alabama founded?",
+        "answers": [
+            "Alabama"
+        ],
+        "pageviews": 145936
+    },
+    {
+        "query_id": "740_436",
+        "question": "Where was Gaza founded?",
+        "answers": [
+            "Salt Lake City"
+        ],
+        "pageviews": 12045
+    },
+    {
+        "query_id": "740_437",
+        "question": "Where was Kadavar founded?",
+        "answers": [
+            "Berlin"
+        ],
+        "pageviews": 34294
+    },
+    {
+        "query_id": "740_438",
+        "question": "Where was Leslie Hindman Auctioneers founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 3526
+    },
+    {
+        "query_id": "740_439",
+        "question": "Where was Hanwei Group founded?",
+        "answers": [
+            "Dalian"
+        ],
+        "pageviews": 1414
+    },
+    {
+        "query_id": "740_440",
+        "question": "Where was Abstinence founded?",
+        "answers": [
+            "Belmar"
+        ],
+        "pageviews": 1751
+    },
+    {
+        "query_id": "740_441",
+        "question": "Where was Combat 84 founded?",
+        "answers": [
+            "Chelsea"
+        ],
+        "pageviews": 25700
+    },
+    {
+        "query_id": "740_442",
+        "question": "Where was Anberlin founded?",
+        "answers": [
+            "Winter Haven"
+        ],
+        "pageviews": 103048
+    },
+    {
+        "query_id": "740_443",
+        "question": "Where was The Jammers founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 2333
+    },
+    {
+        "query_id": "740_445",
+        "question": "Where was Amylin Pharmaceuticals founded?",
+        "answers": [
+            "San Diego"
+        ],
+        "pageviews": 14849
+    },
+    {
+        "query_id": "740_446",
+        "question": "Where was Straylight Run founded?",
+        "answers": [
+            "Baldwin"
+        ],
+        "pageviews": 27739
+    },
+    {
+        "query_id": "740_447",
+        "question": "Where was MSC Industrial Direct founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 30666
+    },
+    {
+        "query_id": "740_448",
+        "question": "Where was Graphis Inc. founded?",
+        "answers": [
+            "Switzerland"
+        ],
+        "pageviews": 6140
+    },
+    {
+        "query_id": "740_449",
+        "question": "Where was Bleeding Oath founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 1263
+    },
+    {
+        "query_id": "740_450",
+        "question": "Where was Air Traffic founded?",
+        "answers": [
+            "Bournemouth"
+        ],
+        "pageviews": 7158
+    },
+    {
+        "query_id": "740_451",
+        "question": "Where was ARM Holdings founded?",
+        "answers": [
+            "Cambridge"
+        ],
+        "pageviews": 26602
+    },
+    {
+        "query_id": "740_453",
+        "question": "Where was Harvey Nichols founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 70318
+    },
+    {
+        "query_id": "740_454",
+        "question": "Where was Patrick founded?",
+        "answers": [
+            "Oudenaarde"
+        ],
+        "pageviews": 22082
+    },
+    {
+        "query_id": "740_455",
+        "question": "Where was Triosphere founded?",
+        "answers": [
+            "Norway"
+        ],
+        "pageviews": 5238
+    },
+    {
+        "query_id": "740_456",
+        "question": "Where was Reclam founded?",
+        "answers": [
+            "Leipzig"
+        ],
+        "pageviews": 8935
+    },
+    {
+        "query_id": "740_457",
+        "question": "Where was River City Brass Band founded?",
+        "answers": [
+            "Pittsburgh"
+        ],
+        "pageviews": 2706
+    },
+    {
+        "query_id": "740_458",
+        "question": "Where was Yuck founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 18585
+    },
+    {
+        "query_id": "740_459",
+        "question": "Where was Milano Assicurazioni founded?",
+        "answers": [
+            "Milan"
+        ],
+        "pageviews": 1135
+    },
+    {
+        "query_id": "740_460",
+        "question": "Where was RAI founded?",
+        "answers": [
+            "Rome"
+        ],
+        "pageviews": 231682
+    },
+    {
+        "query_id": "740_461",
+        "question": "Where was Kero Kero Bonito founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 134658
+    },
+    {
+        "query_id": "740_462",
+        "question": "Where was The Trolleyvox founded?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 1477
+    },
+    {
+        "query_id": "740_463",
+        "question": "Where was Institut de Droit International founded?",
+        "answers": [
+            "Ghent"
+        ],
+        "pageviews": 11480
+    },
+    {
+        "query_id": "740_464",
+        "question": "Where was The Dumplings founded?",
+        "answers": [
+            "Zabrze"
+        ],
+        "pageviews": 5856
+    },
+    {
+        "query_id": "740_465",
+        "question": "Where was IBP, Inc. founded?",
+        "answers": [
+            "Denison"
+        ],
+        "pageviews": 17499
+    },
+    {
+        "query_id": "740_466",
+        "question": "Where was Tunisian Railways founded?",
+        "answers": [
+            "Tunis"
+        ],
+        "pageviews": 5513
+    },
+    {
+        "query_id": "740_467",
+        "question": "Where was Kate Schellenbach founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 206583
+    },
+    {
+        "query_id": "740_468",
+        "question": "Where was Screaming Trees founded?",
+        "answers": [
+            "Ellensburg"
+        ],
+        "pageviews": 431934
+    },
+    {
+        "query_id": "740_469",
+        "question": "Where was Citigroup founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 606619
+    },
+    {
+        "query_id": "740_470",
+        "question": "Where was Skid Row founded?",
+        "answers": [
+            "Toms River"
+        ],
+        "pageviews": 739452
+    },
+    {
+        "query_id": "740_471",
+        "question": "Where was The Sheila Divine founded?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 7066
+    },
+    {
+        "query_id": "740_472",
+        "question": "Where was Roco founded?",
+        "answers": [
+            "Salzburg"
+        ],
+        "pageviews": 10415
+    },
+    {
+        "query_id": "740_473",
+        "question": "Where was National Geographic Image Collection founded?",
+        "answers": [
+            "Washington, D.C."
+        ],
+        "pageviews": 4901
+    },
+    {
+        "query_id": "740_474",
+        "question": "Where was Kells founded?",
+        "answers": [
+            "Lyon"
+        ],
+        "pageviews": 2797
+    },
+    {
+        "query_id": "740_475",
+        "question": "Where was The Dickies founded?",
+        "answers": [
+            "San Fernando Valley"
+        ],
+        "pageviews": 57996
+    },
+    {
+        "query_id": "740_476",
+        "question": "Where was Buen Chico founded?",
+        "answers": [
+            "West Yorkshire"
+        ],
+        "pageviews": 1161
+    },
+    {
+        "query_id": "740_477",
+        "question": "Where was La Dispute founded?",
+        "answers": [
+            "Grand Rapids"
+        ],
+        "pageviews": 82663
+    },
+    {
+        "query_id": "740_478",
+        "question": "Where was Random Hand founded?",
+        "answers": [
+            "Keighley"
+        ],
+        "pageviews": 6140
+    },
+    {
+        "query_id": "740_479",
+        "question": "Where was Laki Mera founded?",
+        "answers": [
+            "Glasgow"
+        ],
+        "pageviews": 1719
+    },
+    {
+        "query_id": "740_480",
+        "question": "Where was The Last Bison founded?",
+        "answers": [
+            "Chesapeake"
+        ],
+        "pageviews": 3277
+    },
+    {
+        "query_id": "740_481",
+        "question": "Where was Cook da Books founded?",
+        "answers": [
+            "Liverpool"
+        ],
+        "pageviews": 14844
+    },
+    {
+        "query_id": "740_482",
+        "question": "Where was News Corp founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 402105
+    },
+    {
+        "query_id": "740_483",
+        "question": "Where was Panic! at the Disco founded?",
+        "answers": [
+            "Las Vegas"
+        ],
+        "pageviews": 1050436
+    },
+    {
+        "query_id": "740_484",
+        "question": "Where was Hasselblad founded?",
+        "answers": [
+            "Gothenburg"
+        ],
+        "pageviews": 159620
+    },
+    {
+        "query_id": "740_485",
+        "question": "Where was Royal Mint founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 151869
+    },
+    {
+        "query_id": "740_486",
+        "question": "Where was The Jesus and Mary Chain founded?",
+        "answers": [
+            "East Kilbride"
+        ],
+        "pageviews": 309710
+    },
+    {
+        "query_id": "740_487",
+        "question": "Where was EZ3kiel founded?",
+        "answers": [
+            "Tours"
+        ],
+        "pageviews": 5326
+    },
+    {
+        "query_id": "740_488",
+        "question": "Where was Rizzani de Eccher founded?",
+        "answers": [
+            "Udine"
+        ],
+        "pageviews": 10769
+    },
+    {
+        "query_id": "740_489",
+        "question": "Where was Upon a Burning Body founded?",
+        "answers": [
+            "San Antonio"
+        ],
+        "pageviews": 48558
+    },
+    {
+        "query_id": "740_490",
+        "question": "Where was Simmons & Simmons founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 17429
+    },
+    {
+        "query_id": "740_491",
+        "question": "Where was In Fear and Faith founded?",
+        "answers": [
+            "San Diego"
+        ],
+        "pageviews": 16788
+    },
+    {
+        "query_id": "740_492",
+        "question": "Where was Swan Hunter founded?",
+        "answers": [
+            "Wallsend"
+        ],
+        "pageviews": 45694
+    },
+    {
+        "query_id": "740_493",
+        "question": "Where was MJJ Music founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 3916
+    },
+    {
+        "query_id": "740_494",
+        "question": "Where was Feiyue founded?",
+        "answers": [
+            "Shanghai"
+        ],
+        "pageviews": 36332
+    },
+    {
+        "query_id": "740_495",
+        "question": "Where was Humanifesto founded?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 881
+    },
+    {
+        "query_id": "740_496",
+        "question": "Where was Isadora Records founded?",
+        "answers": [
+            "Toronto"
+        ],
+        "pageviews": 1131
+    },
+    {
+        "query_id": "740_497",
+        "question": "Where was Battles founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 75383
+    },
+    {
+        "query_id": "740_499",
+        "question": "Where was Tears of Mankind founded?",
+        "answers": [
+            "Surgut"
+        ],
+        "pageviews": 1000
+    },
+    {
+        "query_id": "740_500",
+        "question": "Where was Terra Celta founded?",
+        "answers": [
+            "Londrina"
+        ],
+        "pageviews": 1551
+    },
+    {
+        "query_id": "740_501",
+        "question": "Where was Blind Witness founded?",
+        "answers": [
+            "Granby"
+        ],
+        "pageviews": 9180
+    },
+    {
+        "query_id": "740_502",
+        "question": "Where was Nankai Electric Railway founded?",
+        "answers": [
+            "Kudoyama"
+        ],
+        "pageviews": 14446
+    },
+    {
+        "query_id": "740_503",
+        "question": "Where was The Proletariat founded?",
+        "answers": [
+            "Fall River"
+        ],
+        "pageviews": 5577
+    },
+    {
+        "query_id": "740_504",
+        "question": "Where was Neu Electrikk founded?",
+        "answers": [
+            "United Kingdom"
+        ],
+        "pageviews": 1446
+    },
+    {
+        "query_id": "740_505",
+        "question": "Where was Nintendo Network Service Development founded?",
+        "answers": [
+            "Japan"
+        ],
+        "pageviews": 6423
+    },
+    {
+        "query_id": "740_506",
+        "question": "Where was Golden Youth founded?",
+        "answers": [
+            "Sacramento"
+        ],
+        "pageviews": 1252
+    },
+    {
+        "query_id": "740_507",
+        "question": "Where was Volcani Institute of Agricultural Research founded?",
+        "answers": [
+            "Ben Shemen"
+        ],
+        "pageviews": 79
+    },
+    {
+        "query_id": "740_508",
+        "question": "Where was Secret Chiefs 3 founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 29309
+    },
+    {
+        "query_id": "740_510",
+        "question": "Where was Honeybus founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 13981
+    },
+    {
+        "query_id": "740_511",
+        "question": "Where was Star Film Company founded?",
+        "answers": [
+            "Montreuil"
+        ],
+        "pageviews": 27933
+    },
+    {
+        "query_id": "740_512",
+        "question": "Where was Medici Bank founded?",
+        "answers": [
+            "Florence"
+        ],
+        "pageviews": 118414
+    },
+    {
+        "query_id": "740_513",
+        "question": "Where was Sambassadeur founded?",
+        "answers": [
+            "Gothenburg"
+        ],
+        "pageviews": 2471
+    },
+    {
+        "query_id": "740_514",
+        "question": "Where was Beast founded?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 5604
+    },
+    {
+        "query_id": "740_515",
+        "question": "Where was Change founded?",
+        "answers": [
+            "Bologna"
+        ],
+        "pageviews": 59470
+    },
+    {
+        "query_id": "740_516",
+        "question": "Where was Bengal Chemicals and Pharmaceuticals founded?",
+        "answers": [
+            "Kolkata"
+        ],
+        "pageviews": 26945
+    },
+    {
+        "query_id": "740_517",
+        "question": "Where was Spitfire founded?",
+        "answers": [
+            "Crawley"
+        ],
+        "pageviews": 3643
+    },
+    {
+        "query_id": "740_518",
+        "question": "Where was Nakamichi founded?",
+        "answers": [
+            "Tokyo"
+        ],
+        "pageviews": 60708
+    },
+    {
+        "query_id": "740_519",
+        "question": "Where was La Raza Nation founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 34173
+    },
+    {
+        "query_id": "740_520",
+        "question": "Where was Cocteau Twins founded?",
+        "answers": [
+            "Scotland"
+        ],
+        "pageviews": 477606
+    },
+    {
+        "query_id": "740_521",
+        "question": "Where was Moshe Hecht Band founded?",
+        "answers": [
+            "Brooklyn"
+        ],
+        "pageviews": 1354
+    },
+    {
+        "query_id": "740_522",
+        "question": "Where was The Inciders founded?",
+        "answers": [
+            "Bournemouth"
+        ],
+        "pageviews": 982
+    },
+    {
+        "query_id": "740_523",
+        "question": "Where was The Carpettes founded?",
+        "answers": [
+            "Houghton-le-Spring"
+        ],
+        "pageviews": 2814
+    },
+    {
+        "query_id": "740_524",
+        "question": "Where was Banca di Sassari founded?",
+        "answers": [
+            "Sassari"
+        ],
+        "pageviews": 2424
+    },
+    {
+        "query_id": "740_525",
+        "question": "Where was Torch founded?",
+        "answers": [
+            "Trondheim"
+        ],
+        "pageviews": 3261
+    },
+    {
+        "query_id": "740_526",
+        "question": "Where was Bellevue Investments founded?",
+        "answers": [
+            "Munich"
+        ],
+        "pageviews": 5201
+    },
+    {
+        "query_id": "740_527",
+        "question": "Where was Partibrejkers founded?",
+        "answers": [
+            "Belgrade"
+        ],
+        "pageviews": 15211
+    },
+    {
+        "query_id": "740_528",
+        "question": "Where was China National Nuclear Corporation founded?",
+        "answers": [
+            "Beijing"
+        ],
+        "pageviews": 30887
+    },
+    {
+        "query_id": "740_529",
+        "question": "Where was Retribution Gospel Choir founded?",
+        "answers": [
+            "Duluth"
+        ],
+        "pageviews": 5068
+    },
+    {
+        "query_id": "740_530",
+        "question": "Where was Time in Malta founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 1853
+    },
+    {
+        "query_id": "740_531",
+        "question": "Where was Otis Williams founded?",
+        "answers": [
+            "Detroit"
+        ],
+        "pageviews": 449622
+    },
+    {
+        "query_id": "740_532",
+        "question": "Where was Trash Talk founded?",
+        "answers": [
+            "Sacramento"
+        ],
+        "pageviews": 34191
+    },
+    {
+        "query_id": "740_533",
+        "question": "Where was Dun & Bradstreet Credibility Corp founded?",
+        "answers": [
+            "Malibu"
+        ],
+        "pageviews": 3825
+    },
+    {
+        "query_id": "740_534",
+        "question": "Where was The Magnetic Fields founded?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 130012
+    },
+    {
+        "query_id": "740_535",
+        "question": "Where was The Cats founded?",
+        "answers": [
+            "Volendam"
+        ],
+        "pageviews": 26978
+    },
+    {
+        "query_id": "740_536",
+        "question": "Where was Pearson Yachts founded?",
+        "answers": [
+            "Bristol"
+        ],
+        "pageviews": 7127
+    },
+    {
+        "query_id": "740_537",
+        "question": "Where was The Swimmers founded?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 3815
+    },
+    {
+        "query_id": "740_538",
+        "question": "Where was Eve 6 founded?",
+        "answers": [
+            "La Crescenta-Montrose"
+        ],
+        "pageviews": 162273
+    },
+    {
+        "query_id": "740_539",
+        "question": "Where was The Revolution Smile founded?",
+        "answers": [
+            "Sacramento"
+        ],
+        "pageviews": 3865
+    },
+    {
+        "query_id": "740_540",
+        "question": "Where was Switchblade founded?",
+        "answers": [
+            "Sydney"
+        ],
+        "pageviews": 2579
+    },
+    {
+        "query_id": "740_541",
+        "question": "Where was Blind Pig Records founded?",
+        "answers": [
+            "Ann Arbor"
+        ],
+        "pageviews": 6187
+    },
+    {
+        "query_id": "740_542",
+        "question": "Where was Sparrow Quartet founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 2777
+    },
+    {
+        "query_id": "740_543",
+        "question": "Where was Bobby Creekwater founded?",
+        "answers": [
+            "Atlanta"
+        ],
+        "pageviews": 13929
+    },
+    {
+        "query_id": "740_544",
+        "question": "Where was The Multi-Purpose Solution founded?",
+        "answers": [
+            "Jersey City"
+        ],
+        "pageviews": 840
+    },
+    {
+        "query_id": "740_545",
+        "question": "Where was The Manhattan Love Suicides founded?",
+        "answers": [
+            "Leeds"
+        ],
+        "pageviews": 2077
+    },
+    {
+        "query_id": "740_546",
+        "question": "Where was Soci\u00e9t\u00e9 Alsacienne de Constructions M\u00e9caniques founded?",
+        "answers": [
+            "Mulhouse"
+        ],
+        "pageviews": 6789
+    },
+    {
+        "query_id": "740_547",
+        "question": "Where was White Sewing Machine Company founded?",
+        "answers": [
+            "Templeton"
+        ],
+        "pageviews": 24862
+    },
+    {
+        "query_id": "740_548",
+        "question": "Where was Deadly Apples founded?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 7297
+    },
+    {
+        "query_id": "740_549",
+        "question": "Where was Mantic Ritual founded?",
+        "answers": [
+            "Pittsburgh"
+        ],
+        "pageviews": 3610
+    },
+    {
+        "query_id": "740_550",
+        "question": "Where was Ensemble Santenay founded?",
+        "answers": [
+            "Trossingen"
+        ],
+        "pageviews": 606
+    },
+    {
+        "query_id": "740_551",
+        "question": "Where was Channel Awesome founded?",
+        "answers": [
+            "Lombard"
+        ],
+        "pageviews": 86410
+    },
+    {
+        "query_id": "740_552",
+        "question": "Where was Mastodon founded?",
+        "answers": [
+            "Atlanta"
+        ],
+        "pageviews": 409642
+    },
+    {
+        "query_id": "740_554",
+        "question": "Where was Sasha, Benny y Erik founded?",
+        "answers": [
+            "Mexico City"
+        ],
+        "pageviews": 3062
+    },
+    {
+        "query_id": "740_555",
+        "question": "Where was Pink Fairies founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 47472
+    },
+    {
+        "query_id": "740_556",
+        "question": "Where was Havnatt founded?",
+        "answers": [
+            "Oslo"
+        ],
+        "pageviews": 1241
+    },
+    {
+        "query_id": "740_557",
+        "question": "Where was Oh No Not Stereo founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 1231
+    },
+    {
+        "query_id": "740_558",
+        "question": "Where was Expatriate founded?",
+        "answers": [
+            "Sydney"
+        ],
+        "pageviews": 2665
+    },
+    {
+        "query_id": "740_559",
+        "question": "Where was The Rakes founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 14014
+    },
+    {
+        "query_id": "740_561",
+        "question": "Where was RPG Group founded?",
+        "answers": [
+            "Mumbai"
+        ],
+        "pageviews": 127023
+    },
+    {
+        "query_id": "740_562",
+        "question": "Where was Marathon Oil founded?",
+        "answers": [
+            "Houston"
+        ],
+        "pageviews": 80698
+    },
+    {
+        "query_id": "740_563",
+        "question": "Where was Roman Brewery founded?",
+        "answers": [
+            "Oudenaarde"
+        ],
+        "pageviews": 1330
+    },
+    {
+        "query_id": "740_564",
+        "question": "Where was Minneapolis Jewish Federation founded?",
+        "answers": [
+            "Minneapolis"
+        ],
+        "pageviews": 894
+    },
+    {
+        "query_id": "740_565",
+        "question": "Where was Fanucci Editore founded?",
+        "answers": [
+            "Rome"
+        ],
+        "pageviews": 761
+    },
+    {
+        "query_id": "740_566",
+        "question": "Where was Harvey Danger founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 104359
+    },
+    {
+        "query_id": "740_567",
+        "question": "Where was Big Japan founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 4513
+    },
+    {
+        "query_id": "740_568",
+        "question": "Where was Gugun Blues Shelter founded?",
+        "answers": [
+            "Jakarta"
+        ],
+        "pageviews": 6030
+    },
+    {
+        "query_id": "740_569",
+        "question": "Where was We Start Fires founded?",
+        "answers": [
+            "Darlington"
+        ],
+        "pageviews": 1672
+    },
+    {
+        "query_id": "740_570",
+        "question": "Where was Vatican Publishing House founded?",
+        "answers": [
+            "Rome"
+        ],
+        "pageviews": 10569
+    },
+    {
+        "query_id": "740_571",
+        "question": "Where was 8mm founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 4938
+    },
+    {
+        "query_id": "740_572",
+        "question": "Where was Stooges Brass Band founded?",
+        "answers": [
+            "New Orleans"
+        ],
+        "pageviews": 3282
+    },
+    {
+        "query_id": "740_573",
+        "question": "Where was Savatage founded?",
+        "answers": [
+            "Florida"
+        ],
+        "pageviews": 156247
+    },
+    {
+        "query_id": "740_574",
+        "question": "Where was Massachusetts Mutual Life Insurance Company founded?",
+        "answers": [
+            "Springfield"
+        ],
+        "pageviews": 62807
+    },
+    {
+        "query_id": "740_575",
+        "question": "Where was Society 1 founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 7147
+    },
+    {
+        "query_id": "740_576",
+        "question": "Where was Olenka and the Autumn Lovers founded?",
+        "answers": [
+            "Vancouver"
+        ],
+        "pageviews": 1737
+    },
+    {
+        "query_id": "740_577",
+        "question": "Where was Biff Bang Pow! founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 8613
+    },
+    {
+        "query_id": "740_578",
+        "question": "Where was The Parlotones founded?",
+        "answers": [
+            "Johannesburg"
+        ],
+        "pageviews": 18461
+    },
+    {
+        "query_id": "740_579",
+        "question": "Where was The Cancer Conspiracy founded?",
+        "answers": [
+            "Burlington"
+        ],
+        "pageviews": 2845
+    },
+    {
+        "query_id": "740_580",
+        "question": "Where was Lyrical Assault founded?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 851
+    },
+    {
+        "query_id": "740_581",
+        "question": "Where was Dub Narcotic Sound System founded?",
+        "answers": [
+            "Olympia"
+        ],
+        "pageviews": 6191
+    },
+    {
+        "query_id": "740_582",
+        "question": "Where was Shouting at Planes founded?",
+        "answers": [
+            "Cavan"
+        ],
+        "pageviews": 656
+    },
+    {
+        "query_id": "740_583",
+        "question": "Where was Gap, Inc. founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 756526
+    },
+    {
+        "query_id": "740_584",
+        "question": "Where was Heir Apparent founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 8396
+    },
+    {
+        "query_id": "740_585",
+        "question": "Where was Alpine founded?",
+        "answers": [
+            "Melbourne"
+        ],
+        "pageviews": 7893
+    },
+    {
+        "query_id": "740_586",
+        "question": "Where was Red Thread Games founded?",
+        "answers": [
+            "Oslo"
+        ],
+        "pageviews": 9338
+    },
+    {
+        "query_id": "740_587",
+        "question": "Where was The Four Aces founded?",
+        "answers": [
+            "Chester"
+        ],
+        "pageviews": 38162
+    },
+    {
+        "query_id": "740_588",
+        "question": "Where was Sister Sin founded?",
+        "answers": [
+            "Gothenburg"
+        ],
+        "pageviews": 21222
+    },
+    {
+        "query_id": "740_589",
+        "question": "Where was Verona founded?",
+        "answers": [
+            "Punto Fijo"
+        ],
+        "pageviews": 1695
+    },
+    {
+        "query_id": "740_590",
+        "question": "Where was Zervas and Pepper founded?",
+        "answers": [
+            "Cardiff"
+        ],
+        "pageviews": 3444
+    },
+    {
+        "query_id": "740_591",
+        "question": "Where was The Drums founded?",
+        "answers": [
+            "Brooklyn"
+        ],
+        "pageviews": 69115
+    },
+    {
+        "query_id": "740_592",
+        "question": "Where was Fishbone founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 145858
+    },
+    {
+        "query_id": "740_593",
+        "question": "Where was Dromedary founded?",
+        "answers": [
+            "Athens"
+        ],
+        "pageviews": 974
+    },
+    {
+        "query_id": "740_594",
+        "question": "Where was Augie March founded?",
+        "answers": [
+            "Melbourne"
+        ],
+        "pageviews": 17580
+    },
+    {
+        "query_id": "740_595",
+        "question": "Where was The Sunshine Company founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 7415
+    },
+    {
+        "query_id": "740_596",
+        "question": "Where was Angus & Robertson founded?",
+        "answers": [
+            "Sydney"
+        ],
+        "pageviews": 18828
+    },
+    {
+        "query_id": "740_597",
+        "question": "Where was Jet founded?",
+        "answers": [
+            "Melbourne"
+        ],
+        "pageviews": 18195
+    },
+    {
+        "query_id": "740_598",
+        "question": "Where was Little Girls founded?",
+        "answers": [
+            "Toronto"
+        ],
+        "pageviews": 2041
+    },
+    {
+        "query_id": "740_599",
+        "question": "Where was Investors Bank & Trust founded?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 3551
+    },
+    {
+        "query_id": "740_600",
+        "question": "Where was The Kwartet founded?",
+        "answers": [
+            "Tabernacle Township"
+        ],
+        "pageviews": 867
+    },
+    {
+        "query_id": "740_601",
+        "question": "Where was Killing Moon (band) founded?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 1301
+    },
+    {
+        "query_id": "740_602",
+        "question": "Where was National Iranian Oil Company founded?",
+        "answers": [
+            "Tehran"
+        ],
+        "pageviews": 59890
+    },
+    {
+        "query_id": "740_603",
+        "question": "Where was The Borderline Saints founded?",
+        "answers": [
+            "Scania"
+        ],
+        "pageviews": 1063
+    },
+    {
+        "query_id": "740_604",
+        "question": "Where was Temples founded?",
+        "answers": [
+            "Kettering"
+        ],
+        "pageviews": 34028
+    },
+    {
+        "query_id": "740_606",
+        "question": "Where was Zwilling J. A. Henckels founded?",
+        "answers": [
+            "Solingen"
+        ],
+        "pageviews": 72718
+    },
+    {
+        "query_id": "740_607",
+        "question": "Where was The Afghan Whigs founded?",
+        "answers": [
+            "Cincinnati"
+        ],
+        "pageviews": 207653
+    },
+    {
+        "query_id": "740_608",
+        "question": "Where was Skycycle founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 10847
+    },
+    {
+        "query_id": "740_609",
+        "question": "Where was Whores founded?",
+        "answers": [
+            "Atlanta"
+        ],
+        "pageviews": 14951
+    },
+    {
+        "query_id": "740_610",
+        "question": "Where was Thirty Seconds to Mars founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 795862
+    },
+    {
+        "query_id": "740_612",
+        "question": "Where was \u00c9lectricit\u00e9 de France founded?",
+        "answers": [
+            "Paris"
+        ],
+        "pageviews": 169833
+    },
+    {
+        "query_id": "740_613",
+        "question": "Where was Whitestarr founded?",
+        "answers": [
+            "Malibu"
+        ],
+        "pageviews": 9419
+    },
+    {
+        "query_id": "740_614",
+        "question": "Where was Press Play founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 3169
+    },
+    {
+        "query_id": "740_615",
+        "question": "Where was Oh No Forest Fires founded?",
+        "answers": [
+            "Brampton"
+        ],
+        "pageviews": 638
+    },
+    {
+        "query_id": "740_616",
+        "question": "Where was Mongols Motorcycle Club founded?",
+        "answers": [
+            "Montebello"
+        ],
+        "pageviews": 245965
+    },
+    {
+        "query_id": "740_617",
+        "question": "Where was Lez Zeppelin founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 40359
+    },
+    {
+        "query_id": "740_618",
+        "question": "Where was Mocedades founded?",
+        "answers": [
+            "Bilbao"
+        ],
+        "pageviews": 48657
+    },
+    {
+        "query_id": "740_619",
+        "question": "Where was Band of Horses founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 229449
+    },
+    {
+        "query_id": "740_620",
+        "question": "Where was Carpigiani founded?",
+        "answers": [
+            "Bologna"
+        ],
+        "pageviews": 10030
+    },
+    {
+        "query_id": "740_621",
+        "question": "Where was Blackblack founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 4814
+    },
+    {
+        "query_id": "740_622",
+        "question": "Where was Intamin founded?",
+        "answers": [
+            "Wollerau"
+        ],
+        "pageviews": 121976
+    },
+    {
+        "query_id": "740_624",
+        "question": "Where was The Static Age founded?",
+        "answers": [
+            "Burlington"
+        ],
+        "pageviews": 2804
+    },
+    {
+        "query_id": "740_625",
+        "question": "Where was Los Angeles Electric 8 founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 695
+    },
+    {
+        "query_id": "740_626",
+        "question": "Where was Ill Ni\u00f1o founded?",
+        "answers": [
+            "New Jersey"
+        ],
+        "pageviews": 93131
+    },
+    {
+        "query_id": "740_627",
+        "question": "Where was San Francisco Lesbian/Gay Freedom Band founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 2060
+    },
+    {
+        "query_id": "740_628",
+        "question": "Where was Haunted Garage founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 4903
+    },
+    {
+        "query_id": "740_629",
+        "question": "Where was Creeper Lagoon founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 5353
+    },
+    {
+        "query_id": "740_630",
+        "question": "Where was Jacob's Mouse founded?",
+        "answers": [
+            "Bury St Edmunds"
+        ],
+        "pageviews": 2629
+    },
+    {
+        "query_id": "740_631",
+        "question": "Where was Hinterland founded?",
+        "answers": [
+            "Vancouver"
+        ],
+        "pageviews": 1965
+    },
+    {
+        "query_id": "740_632",
+        "question": "Where was Topper's Pizza founded?",
+        "answers": [
+            "Greater Sudbury"
+        ],
+        "pageviews": 7806
+    },
+    {
+        "query_id": "740_633",
+        "question": "Where was Veil of Maya founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 68887
+    },
+    {
+        "query_id": "740_634",
+        "question": "Where was Marco Valerio Editore founded?",
+        "answers": [
+            "Turin"
+        ],
+        "pageviews": 799
+    },
+    {
+        "query_id": "740_635",
+        "question": "Where was Youth Gone Mad founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 3543
+    },
+    {
+        "query_id": "740_636",
+        "question": "Where was Oh Honey founded?",
+        "answers": [
+            "Brooklyn"
+        ],
+        "pageviews": 10084
+    },
+    {
+        "query_id": "740_637",
+        "question": "Where was Kings of Rhythm founded?",
+        "answers": [
+            "Clarksdale"
+        ],
+        "pageviews": 24005
+    },
+    {
+        "query_id": "740_638",
+        "question": "Where was The Bergevin Brothers founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 779
+    },
+    {
+        "query_id": "740_639",
+        "question": "Where was Spinner founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 10182
+    },
+    {
+        "query_id": "740_640",
+        "question": "Where was Staedtler founded?",
+        "answers": [
+            "Nuremberg"
+        ],
+        "pageviews": 58423
+    },
+    {
+        "query_id": "740_641",
+        "question": "Where was Ass Ponys founded?",
+        "answers": [
+            "Cincinnati"
+        ],
+        "pageviews": 7759
+    },
+    {
+        "query_id": "740_643",
+        "question": "Where was Girl Trouble founded?",
+        "answers": [
+            "Tacoma"
+        ],
+        "pageviews": 4598
+    },
+    {
+        "query_id": "740_644",
+        "question": "Where was Kalinov Most founded?",
+        "answers": [
+            "Novosibirsk"
+        ],
+        "pageviews": 3191
+    },
+    {
+        "query_id": "740_645",
+        "question": "Where was New American Shame founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 2002
+    },
+    {
+        "query_id": "740_646",
+        "question": "Where was HarperCollins founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 297707
+    },
+    {
+        "query_id": "740_647",
+        "question": "Where was METZ founded?",
+        "answers": [
+            "Ottawa"
+        ],
+        "pageviews": 22926
+    },
+    {
+        "query_id": "740_648",
+        "question": "Where was The Exies founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 15574
+    },
+    {
+        "query_id": "740_649",
+        "question": "Where was Forever More founded?",
+        "answers": [
+            "Scotland"
+        ],
+        "pageviews": 3007
+    },
+    {
+        "query_id": "740_650",
+        "question": "Where was Sons of Champlin founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 18599
+    },
+    {
+        "query_id": "740_651",
+        "question": "Where was Black Flag founded?",
+        "answers": [
+            "Hermosa Beach"
+        ],
+        "pageviews": 590069
+    },
+    {
+        "query_id": "740_652",
+        "question": "Where was Gandalf's Fist founded?",
+        "answers": [
+            "Maryport"
+        ],
+        "pageviews": 5725
+    },
+    {
+        "query_id": "740_653",
+        "question": "Where was The Original Rudeboys founded?",
+        "answers": [
+            "Dublin"
+        ],
+        "pageviews": 3880
+    },
+    {
+        "query_id": "740_654",
+        "question": "Where was The Dirty Youth founded?",
+        "answers": [
+            "South Wales"
+        ],
+        "pageviews": 4974
+    },
+    {
+        "query_id": "740_655",
+        "question": "Where was The Ritchie Family founded?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 23926
+    },
+    {
+        "query_id": "740_656",
+        "question": "Where was A Poetic Yesterday founded?",
+        "answers": [
+            "Redditch"
+        ],
+        "pageviews": 1065
+    },
+    {
+        "query_id": "740_657",
+        "question": "Where was Mooyah founded?",
+        "answers": [
+            "Plano"
+        ],
+        "pageviews": 13768
+    },
+    {
+        "query_id": "740_658",
+        "question": "Where was Knoll founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 8204
+    },
+    {
+        "query_id": "740_659",
+        "question": "Where was Overkill L.A. founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 4125
+    },
+    {
+        "query_id": "740_660",
+        "question": "Where was Stagnant Pools founded?",
+        "answers": [
+            "Bloomington"
+        ],
+        "pageviews": 952
+    },
+    {
+        "query_id": "740_661",
+        "question": "Where was Bitter Ruin founded?",
+        "answers": [
+            "Brighton"
+        ],
+        "pageviews": 3661
+    },
+    {
+        "query_id": "740_662",
+        "question": "Where was I Hate Sally founded?",
+        "answers": [
+            "Kingston"
+        ],
+        "pageviews": 1994
+    },
+    {
+        "query_id": "740_663",
+        "question": "Where was Fabrika founded?",
+        "answers": [
+            "Moscow"
+        ],
+        "pageviews": 14831
+    },
+    {
+        "query_id": "740_664",
+        "question": "Where was Emanuel and the Fear founded?",
+        "answers": [
+            "Brooklyn"
+        ],
+        "pageviews": 2104
+    },
+    {
+        "query_id": "740_665",
+        "question": "Where was Brookshire Brothers founded?",
+        "answers": [
+            "Lufkin"
+        ],
+        "pageviews": 18844
+    },
+    {
+        "query_id": "740_666",
+        "question": "Where was Tesla founded?",
+        "answers": [
+            "Palo Alto"
+        ],
+        "pageviews": 4186224
+    },
+    {
+        "query_id": "740_668",
+        "question": "Where was Hello, Blue Roses founded?",
+        "answers": [
+            "Vancouver"
+        ],
+        "pageviews": 3158
+    },
+    {
+        "query_id": "740_669",
+        "question": "Where was Fear founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 118278
+    },
+    {
+        "query_id": "740_670",
+        "question": "Where was Kakao M founded?",
+        "answers": [
+            "Seoul"
+        ],
+        "pageviews": 76075
+    },
+    {
+        "query_id": "740_671",
+        "question": "Where was Root! founded?",
+        "answers": [
+            "Melbourne"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "740_672",
+        "question": "Where was The Peth founded?",
+        "answers": [
+            "Cardiff"
+        ],
+        "pageviews": 11124
+    },
+    {
+        "query_id": "740_674",
+        "question": "Where was Asesino founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 17544
+    },
+    {
+        "query_id": "740_675",
+        "question": "Where was Partridge Jewellers founded?",
+        "answers": [
+            "Wellington"
+        ],
+        "pageviews": 2061
+    },
+    {
+        "query_id": "740_676",
+        "question": "Where was The Rockin' Vickers founded?",
+        "answers": [
+            "Blackpool"
+        ],
+        "pageviews": 16188
+    },
+    {
+        "query_id": "740_677",
+        "question": "Where was PMtoday founded?",
+        "answers": [
+            "Jacksonville"
+        ],
+        "pageviews": 2682
+    },
+    {
+        "query_id": "740_678",
+        "question": "Where was Chromeo founded?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 93482
+    },
+    {
+        "query_id": "740_679",
+        "question": "Where was A Spectre Is Haunting Europe founded?",
+        "answers": [
+            "Vancouver"
+        ],
+        "pageviews": 4108
+    },
+    {
+        "query_id": "740_680",
+        "question": "Where was Mentors founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 39739
+    },
+    {
+        "query_id": "740_681",
+        "question": "Where was Isglem founded?",
+        "answers": [
+            "Bergen"
+        ],
+        "pageviews": 544
+    },
+    {
+        "query_id": "740_682",
+        "question": "Where was Grand Union founded?",
+        "answers": [
+            "Scranton"
+        ],
+        "pageviews": 32406
+    },
+    {
+        "query_id": "740_683",
+        "question": "Where was The Boyfriends founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 954
+    },
+    {
+        "query_id": "740_684",
+        "question": "Where was Palisades founded?",
+        "answers": [
+            "Iselin"
+        ],
+        "pageviews": 48137
+    },
+    {
+        "query_id": "740_685",
+        "question": "Where was Hot Tamale Brass Band founded?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 1276
+    },
+    {
+        "query_id": "740_686",
+        "question": "Where was Eldorado Resorts founded?",
+        "answers": [
+            "Reno"
+        ],
+        "pageviews": 76666
+    },
+    {
+        "query_id": "740_687",
+        "question": "Where was Kontor Records founded?",
+        "answers": [
+            "Hamburg"
+        ],
+        "pageviews": 17585
+    },
+    {
+        "query_id": "740_688",
+        "question": "Where was Sobeys founded?",
+        "answers": [
+            "Stellarton"
+        ],
+        "pageviews": 121406
+    },
+    {
+        "query_id": "740_689",
+        "question": "Where was Little Birdy founded?",
+        "answers": [
+            "Perth"
+        ],
+        "pageviews": 12662
+    },
+    {
+        "query_id": "740_690",
+        "question": "Where was University of Macau founded?",
+        "answers": [
+            "Macau"
+        ],
+        "pageviews": 31931
+    },
+    {
+        "query_id": "740_691",
+        "question": "Where was Tiger founded?",
+        "answers": [
+            "Princes Risborough"
+        ],
+        "pageviews": 5669
+    },
+    {
+        "query_id": "740_692",
+        "question": "Where was Marillion founded?",
+        "answers": [
+            "Aylesbury"
+        ],
+        "pageviews": 316872
+    },
+    {
+        "query_id": "740_693",
+        "question": "Where was Gravenhurst founded?",
+        "answers": [
+            "Bristol"
+        ],
+        "pageviews": 11279
+    },
+    {
+        "query_id": "740_695",
+        "question": "Where was Ten Second Epic founded?",
+        "answers": [
+            "Edmonton"
+        ],
+        "pageviews": 7403
+    },
+    {
+        "query_id": "740_697",
+        "question": "Where was Letlive founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 33677
+    },
+    {
+        "query_id": "740_698",
+        "question": "Where was Strawbs founded?",
+        "answers": [
+            "England"
+        ],
+        "pageviews": 103651
+    },
+    {
+        "query_id": "740_699",
+        "question": "Where was The Orion Experience founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 73224
+    },
+    {
+        "query_id": "740_700",
+        "question": "Where was Keystone Camera Company founded?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 5261
+    },
+    {
+        "query_id": "740_701",
+        "question": "Where was Guster founded?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 200257
+    },
+    {
+        "query_id": "740_702",
+        "question": "Where was Spermbirds founded?",
+        "answers": [
+            "Kaiserslautern"
+        ],
+        "pageviews": 5858
+    },
+    {
+        "query_id": "740_703",
+        "question": "Where was Dunelm Group founded?",
+        "answers": [
+            "Leicester"
+        ],
+        "pageviews": 56417
+    },
+    {
+        "query_id": "740_704",
+        "question": "Where was Dominant Legs founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 2250
+    },
+    {
+        "query_id": "740_705",
+        "question": "Where was Hangry & Angry founded?",
+        "answers": [
+            "Japan"
+        ],
+        "pageviews": 3655
+    },
+    {
+        "query_id": "740_706",
+        "question": "Where was Rescue founded?",
+        "answers": [
+            "St Albans"
+        ],
+        "pageviews": 1066
+    },
+    {
+        "query_id": "740_707",
+        "question": "Where was Nevermore founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 89193
+    },
+    {
+        "query_id": "740_708",
+        "question": "Where was TBWA Worldwide founded?",
+        "answers": [
+            "Paris"
+        ],
+        "pageviews": 40139
+    },
+    {
+        "query_id": "740_709",
+        "question": "Where was Big Business founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 19120
+    },
+    {
+        "query_id": "740_710",
+        "question": "Where was Destroy the Runner founded?",
+        "answers": [
+            "San Diego"
+        ],
+        "pageviews": 7104
+    },
+    {
+        "query_id": "740_711",
+        "question": "Where was LZ7 founded?",
+        "answers": [
+            "Manchester"
+        ],
+        "pageviews": 9248
+    },
+    {
+        "query_id": "740_712",
+        "question": "Where was Hyundai founded?",
+        "answers": [
+            "Ulsan"
+        ],
+        "pageviews": 86415
+    },
+    {
+        "query_id": "740_713",
+        "question": "Where was Coldrain founded?",
+        "answers": [
+            "Nagoya"
+        ],
+        "pageviews": 72072
+    },
+    {
+        "query_id": "740_714",
+        "question": "Where was Pars Online founded?",
+        "answers": [
+            "Tehran"
+        ],
+        "pageviews": 5137
+    },
+    {
+        "query_id": "740_715",
+        "question": "Where was The Starlings founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 4209
+    },
+    {
+        "query_id": "740_716",
+        "question": "Where was Revlon founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 182034
+    },
+    {
+        "query_id": "740_717",
+        "question": "Where was Witness founded?",
+        "answers": [
+            "Wigan"
+        ],
+        "pageviews": 3792
+    },
+    {
+        "query_id": "740_718",
+        "question": "Where was Ligurian Independence Movement founded?",
+        "answers": [
+            "Genoa"
+        ],
+        "pageviews": 1013
+    },
+    {
+        "query_id": "740_719",
+        "question": "Where was Cantieri Riuniti dell'Adriatico founded?",
+        "answers": [
+            "Trieste"
+        ],
+        "pageviews": 6633
+    },
+    {
+        "query_id": "740_720",
+        "question": "Where was Paris Angels founded?",
+        "answers": [
+            "Ashton-under-Lyne"
+        ],
+        "pageviews": 7129
+    },
+    {
+        "query_id": "740_721",
+        "question": "Where was Charles Tyrwhitt founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 78564
+    },
+    {
+        "query_id": "740_722",
+        "question": "Where was Ozomatli founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 50697
+    },
+    {
+        "query_id": "740_723",
+        "question": "Where was Faith Hope and Charity founded?",
+        "answers": [
+            "Tampa"
+        ],
+        "pageviews": 7419
+    },
+    {
+        "query_id": "740_724",
+        "question": "Where was Modiano founded?",
+        "answers": [
+            "Trieste"
+        ],
+        "pageviews": 4361
+    },
+    {
+        "query_id": "740_725",
+        "question": "Where was Morozoff Ltd. founded?",
+        "answers": [
+            "K\u014dbe"
+        ],
+        "pageviews": 6020
+    },
+    {
+        "query_id": "740_726",
+        "question": "Where was Blue Bell Creameries founded?",
+        "answers": [
+            "Brenham"
+        ],
+        "pageviews": 73224
+    },
+    {
+        "query_id": "740_727",
+        "question": "Where was C. & J. Clark International Ltd founded?",
+        "answers": [
+            "Street"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "740_728",
+        "question": "Where was Apache Stone founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 3548
+    },
+    {
+        "query_id": "740_729",
+        "question": "Where was Whitemare founded?",
+        "answers": [
+            "Brighton"
+        ],
+        "pageviews": 2575
+    },
+    {
+        "query_id": "740_730",
+        "question": "Where was Every Avenue founded?",
+        "answers": [
+            "Marysville, Michigan"
+        ],
+        "pageviews": 18026
+    },
+    {
+        "query_id": "740_731",
+        "question": "Where was KR Motors founded?",
+        "answers": [
+            "South Korea"
+        ],
+        "pageviews": 20056
+    },
+    {
+        "query_id": "740_732",
+        "question": "Where was Ell & Nikki founded?",
+        "answers": [
+            "Baku"
+        ],
+        "pageviews": 17023
+    },
+    {
+        "query_id": "740_733",
+        "question": "Where was Menarini founded?",
+        "answers": [
+            "Naples"
+        ],
+        "pageviews": 34420
+    },
+    {
+        "query_id": "740_734",
+        "question": "Where was Bitterside founded?",
+        "answers": [
+            "Malta"
+        ],
+        "pageviews": 852
+    },
+    {
+        "query_id": "740_735",
+        "question": "Where was Veritas founded?",
+        "answers": [
+            "Sigmaringen"
+        ],
+        "pageviews": 12569
+    },
+    {
+        "query_id": "740_736",
+        "question": "Where was ZF Sachs founded?",
+        "answers": [
+            "Schweinfurt"
+        ],
+        "pageviews": 36383
+    },
+    {
+        "query_id": "740_737",
+        "question": "Where was Young Marble Giants founded?",
+        "answers": [
+            "Cardiff"
+        ],
+        "pageviews": 32872
+    },
+    {
+        "query_id": "740_738",
+        "question": "Where was The Fleetwoods founded?",
+        "answers": [
+            "Olympia"
+        ],
+        "pageviews": 53399
+    },
+    {
+        "query_id": "740_739",
+        "question": "Where was Lusaka Accord founded?",
+        "answers": [
+            "Lusaka"
+        ],
+        "pageviews": 5199
+    },
+    {
+        "query_id": "740_740",
+        "question": "Where was Karmin founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 144157
+    },
+    {
+        "query_id": "740_741",
+        "question": "Where was Faze FM founded?",
+        "answers": [
+            "Manchester"
+        ],
+        "pageviews": 1256
+    },
+    {
+        "query_id": "740_742",
+        "question": "Where was Treat Her Right founded?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 11802
+    },
+    {
+        "query_id": "740_743",
+        "question": "Where was Marine Girls founded?",
+        "answers": [
+            "Hatfield"
+        ],
+        "pageviews": 16851
+    },
+    {
+        "query_id": "740_744",
+        "question": "Where was SuperMap founded?",
+        "answers": [
+            "Beijing"
+        ],
+        "pageviews": 3370
+    },
+    {
+        "query_id": "740_745",
+        "question": "Where was Palladium Books founded?",
+        "answers": [
+            "Detroit"
+        ],
+        "pageviews": 15520
+    },
+    {
+        "query_id": "740_746",
+        "question": "Where was Poco founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 2977
+    },
+    {
+        "query_id": "740_747",
+        "question": "Where was Anywhere founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 4214
+    },
+    {
+        "query_id": "740_748",
+        "question": "Where was Southwork founded?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 1189
+    },
+    {
+        "query_id": "740_749",
+        "question": "Where was City Reign founded?",
+        "answers": [
+            "Manchester"
+        ],
+        "pageviews": 623
+    },
+    {
+        "query_id": "740_750",
+        "question": "Where was Bleed From Within founded?",
+        "answers": [
+            "Glasgow"
+        ],
+        "pageviews": 75170
+    },
+    {
+        "query_id": "740_751",
+        "question": "Where was Red Stars Theory founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 3161
+    },
+    {
+        "query_id": "740_752",
+        "question": "Where was Calm Down Juanita founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 914
+    },
+    {
+        "query_id": "740_753",
+        "question": "Where was Arenaways founded?",
+        "answers": [
+            "Turin"
+        ],
+        "pageviews": 1517
+    },
+    {
+        "query_id": "740_754",
+        "question": "Where was Wounded Bird Records founded?",
+        "answers": [
+            "Guilderland"
+        ],
+        "pageviews": 6028
+    },
+    {
+        "query_id": "740_755",
+        "question": "Where was Institut Polaire founded?",
+        "answers": [
+            "Perth"
+        ],
+        "pageviews": 1398
+    },
+    {
+        "query_id": "740_756",
+        "question": "Where was Pray for the Soul of Betty founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 1845
+    },
+    {
+        "query_id": "740_757",
+        "question": "Where was Project Rocket founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 3875
+    },
+    {
+        "query_id": "740_758",
+        "question": "Where was DMZ founded?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 7983
+    },
+    {
+        "query_id": "740_759",
+        "question": "Where was Ounce of Self founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 985
+    },
+    {
+        "query_id": "740_760",
+        "question": "Where was Admiral founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 27435
+    },
+    {
+        "query_id": "740_761",
+        "question": "Where was Eden's Crush founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 47363
+    },
+    {
+        "query_id": "740_762",
+        "question": "Where was The Railway Children founded?",
+        "answers": [
+            "Wigan"
+        ],
+        "pageviews": 12943
+    },
+    {
+        "query_id": "740_764",
+        "question": "Where was Astellas Pharma founded?",
+        "answers": [
+            "Tokyo"
+        ],
+        "pageviews": 59201
+    },
+    {
+        "query_id": "740_765",
+        "question": "Where was Wild Orchid founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 36512
+    },
+    {
+        "query_id": "740_766",
+        "question": "Where was MAN Diesel & Turbo SE founded?",
+        "answers": [
+            "Augsburg"
+        ],
+        "pageviews": 47302
+    },
+    {
+        "query_id": "740_767",
+        "question": "Where was The Candles founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 2131
+    },
+    {
+        "query_id": "740_768",
+        "question": "Where was Urburschenschaft founded?",
+        "answers": [
+            "Jena"
+        ],
+        "pageviews": 6374
+    },
+    {
+        "query_id": "740_769",
+        "question": "Where was Ikegami Tsushinki founded?",
+        "answers": [
+            "Tokyo"
+        ],
+        "pageviews": 23351
+    },
+    {
+        "query_id": "740_770",
+        "question": "Where was Dell Publishing founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 36349
+    },
+    {
+        "query_id": "740_771",
+        "question": "Where was Beneath the Massacre founded?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 11769
+    },
+    {
+        "query_id": "740_772",
+        "question": "Where was Child Bite founded?",
+        "answers": [
+            "Detroit"
+        ],
+        "pageviews": 4188
+    },
+    {
+        "query_id": "740_773",
+        "question": "Where was Daphne Loves Derby founded?",
+        "answers": [
+            "Kent"
+        ],
+        "pageviews": 9629
+    },
+    {
+        "query_id": "740_774",
+        "question": "Where was Research and Development Institute of Ecology and the Sustainable Use of Natural Resources founded?",
+        "answers": [
+            "Tyumen"
+        ],
+        "pageviews": 3524
+    },
+    {
+        "query_id": "740_775",
+        "question": "Where was Big Scary founded?",
+        "answers": [
+            "Melbourne"
+        ],
+        "pageviews": 8094
+    },
+    {
+        "query_id": "740_776",
+        "question": "Where was LUSFiber founded?",
+        "answers": [
+            "Lafayette"
+        ],
+        "pageviews": 2726
+    },
+    {
+        "query_id": "740_777",
+        "question": "Where was Vaadat Charigim founded?",
+        "answers": [
+            "Tel Aviv"
+        ],
+        "pageviews": 2097
+    },
+    {
+        "query_id": "740_778",
+        "question": "Where was The Ace of Cups founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 19775
+    },
+    {
+        "query_id": "740_779",
+        "question": "Where was Maktub founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "740_780",
+        "question": "Where was Mark Ronson founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 1115623
+    },
+    {
+        "query_id": "740_781",
+        "question": "Where was Ticketek founded?",
+        "answers": [
+            "Australia"
+        ],
+        "pageviews": 39769
+    },
+    {
+        "query_id": "740_782",
+        "question": "Where was Artery founded?",
+        "answers": [
+            "Sheffield"
+        ],
+        "pageviews": 4523
+    },
+    {
+        "query_id": "740_783",
+        "question": "Where was The Hertz Corporation founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 314
+    },
+    {
+        "query_id": "740_784",
+        "question": "Where was The Horrors founded?",
+        "answers": [
+            "Southend-on-Sea"
+        ],
+        "pageviews": 57297
+    },
+    {
+        "query_id": "740_785",
+        "question": "Where was The Alleycats founded?",
+        "answers": [
+            "St Andrews"
+        ],
+        "pageviews": 1785
+    },
+    {
+        "query_id": "740_786",
+        "question": "Where was Wooden Shjips founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 30427
+    },
+    {
+        "query_id": "740_787",
+        "question": "Where was Borland founded?",
+        "answers": [
+            "Cupertino"
+        ],
+        "pageviews": 82477
+    },
+    {
+        "query_id": "740_788",
+        "question": "Where was Electric Wizard founded?",
+        "answers": [
+            "Dorset"
+        ],
+        "pageviews": 120701
+    },
+    {
+        "query_id": "740_789",
+        "question": "Where was Hidden Path Entertainment founded?",
+        "answers": [
+            "Bellevue"
+        ],
+        "pageviews": 46689
+    },
+    {
+        "query_id": "740_790",
+        "question": "Where was Traffic Group founded?",
+        "answers": [
+            "Brazil"
+        ],
+        "pageviews": 3668
+    },
+    {
+        "query_id": "740_791",
+        "question": "Where was Vanparys founded?",
+        "answers": [
+            "Brussels-Capital Region"
+        ],
+        "pageviews": 1966
+    },
+    {
+        "query_id": "740_792",
+        "question": "Where was The Rockerz founded?",
+        "answers": [
+            "Atlanta"
+        ],
+        "pageviews": 1034
+    },
+    {
+        "query_id": "740_793",
+        "question": "Where was Blessed by a Broken Heart founded?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 25691
+    },
+    {
+        "query_id": "740_794",
+        "question": "Where was Mosaic founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 4504
+    },
+    {
+        "query_id": "740_795",
+        "question": "Where was Malibu Locals Only founded?",
+        "answers": [
+            "Malibu"
+        ],
+        "pageviews": 3846
+    },
+    {
+        "query_id": "740_796",
+        "question": "Where was No Kids founded?",
+        "answers": [
+            "Vancouver"
+        ],
+        "pageviews": 1047
+    },
+    {
+        "query_id": "740_797",
+        "question": "Where was Daysend founded?",
+        "answers": [
+            "Sydney"
+        ],
+        "pageviews": 2848
+    },
+    {
+        "query_id": "740_798",
+        "question": "Where was Blue Monday founded?",
+        "answers": [
+            "Vancouver"
+        ],
+        "pageviews": 4507
+    },
+    {
+        "query_id": "740_799",
+        "question": "Where was Mokoma founded?",
+        "answers": [
+            "Lappeenranta"
+        ],
+        "pageviews": 6622
+    },
+    {
+        "query_id": "740_800",
+        "question": "Where was Sweetbox founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 21094
+    },
+    {
+        "query_id": "740_801",
+        "question": "Where was Beow\u00fclf founded?",
+        "answers": [
+            "Venice"
+        ],
+        "pageviews": 11147
+    },
+    {
+        "query_id": "740_802",
+        "question": "Where was Goatsnake founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 17392
+    },
+    {
+        "query_id": "740_803",
+        "question": "Where was Twinspirits founded?",
+        "answers": [
+            "Padua"
+        ],
+        "pageviews": 1223
+    },
+    {
+        "query_id": "740_804",
+        "question": "Where was The Jets founded?",
+        "answers": [
+            "Minneapolis"
+        ],
+        "pageviews": 152585
+    },
+    {
+        "query_id": "740_805",
+        "question": "Where was The Burns Unit founded?",
+        "answers": [
+            "Scotland"
+        ],
+        "pageviews": 3900
+    },
+    {
+        "query_id": "740_806",
+        "question": "Where was Kaputt founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 1763
+    },
+    {
+        "query_id": "740_807",
+        "question": "Where was Young Rival founded?",
+        "answers": [
+            "Hamilton"
+        ],
+        "pageviews": 2255
+    },
+    {
+        "query_id": "740_808",
+        "question": "Where was Tip the Van founded?",
+        "answers": [
+            "Marlborough"
+        ],
+        "pageviews": 1701
+    },
+    {
+        "query_id": "740_809",
+        "question": "Where was Unformal founded?",
+        "answers": [
+            "Baku"
+        ],
+        "pageviews": 2034
+    },
+    {
+        "query_id": "740_810",
+        "question": "Where was Donavia founded?",
+        "answers": [
+            "Rostov-on-Don"
+        ],
+        "pageviews": 7051
+    },
+    {
+        "query_id": "740_811",
+        "question": "Where was The Embassy founded?",
+        "answers": [
+            "Sweden"
+        ],
+        "pageviews": 3052
+    },
+    {
+        "query_id": "740_812",
+        "question": "Where was Angelic Upstarts founded?",
+        "answers": [
+            "South Shields"
+        ],
+        "pageviews": 42785
+    },
+    {
+        "query_id": "740_813",
+        "question": "Where was Burden of a Day founded?",
+        "answers": [
+            "Sarasota"
+        ],
+        "pageviews": 5698
+    },
+    {
+        "query_id": "740_814",
+        "question": "Where was Love Crushed Velvet founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 1124
+    },
+    {
+        "query_id": "740_815",
+        "question": "Where was Helms Alee founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 18368
+    },
+    {
+        "query_id": "740_816",
+        "question": "Where was Esben and the Witch founded?",
+        "answers": [
+            "Brighton"
+        ],
+        "pageviews": 8561
+    },
+    {
+        "query_id": "740_817",
+        "question": "Where was Novos Baianos founded?",
+        "answers": [
+            "Salvador"
+        ],
+        "pageviews": 22525
+    },
+    {
+        "query_id": "740_818",
+        "question": "Where was The Frequency founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 1782
+    },
+    {
+        "query_id": "740_819",
+        "question": "Where was Girish and The Chronicles founded?",
+        "answers": [
+            "Gangtok"
+        ],
+        "pageviews": 9021
+    },
+    {
+        "query_id": "740_820",
+        "question": "Where was Banca Commerciale Italiana founded?",
+        "answers": [
+            "Milan"
+        ],
+        "pageviews": 6063
+    },
+    {
+        "query_id": "740_821",
+        "question": "Where was Tulym founded?",
+        "answers": [
+            "Kyiv"
+        ],
+        "pageviews": 1041
+    },
+    {
+        "query_id": "740_822",
+        "question": "Where was Beulah founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 13313
+    },
+    {
+        "query_id": "740_824",
+        "question": "Where was The Ducky Boys founded?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 8910
+    },
+    {
+        "query_id": "740_825",
+        "question": "Where was The Kominas founded?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 9057
+    },
+    {
+        "query_id": "740_826",
+        "question": "Where was Sunn O))) founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 165617
+    },
+    {
+        "query_id": "740_827",
+        "question": "Where was Arise and Ruin founded?",
+        "answers": [
+            "Guelph"
+        ],
+        "pageviews": 1937
+    },
+    {
+        "query_id": "740_829",
+        "question": "Where was California X founded?",
+        "answers": [
+            "Amherst"
+        ],
+        "pageviews": 1734
+    },
+    {
+        "query_id": "740_830",
+        "question": "Where was Warner Music Group founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 537520
+    },
+    {
+        "query_id": "740_831",
+        "question": "Where was Leeland founded?",
+        "answers": [
+            "Baytown"
+        ],
+        "pageviews": 28377
+    },
+    {
+        "query_id": "740_832",
+        "question": "Where was Random Recipe founded?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 2677
+    },
+    {
+        "query_id": "740_833",
+        "question": "Where was 4 Non Blondes founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 636553
+    },
+    {
+        "query_id": "740_834",
+        "question": "Where was M\u00e5rran founded?",
+        "answers": [
+            "Stockholm"
+        ],
+        "pageviews": 1217
+    },
+    {
+        "query_id": "740_835",
+        "question": "Where was Verisign founded?",
+        "answers": [
+            "United States of America"
+        ],
+        "pageviews": 145450
+    },
+    {
+        "query_id": "740_836",
+        "question": "Where was Acclarent, Inc. founded?",
+        "answers": [
+            "Menlo Park"
+        ],
+        "pageviews": 11493
+    },
+    {
+        "query_id": "740_837",
+        "question": "Where was B. Bumble and the Stingers founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 13777
+    },
+    {
+        "query_id": "740_838",
+        "question": "Where was Aspera founded?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 2544
+    },
+    {
+        "query_id": "740_839",
+        "question": "Where was Archon Information Systems founded?",
+        "answers": [
+            "New Orleans"
+        ],
+        "pageviews": 2182
+    },
+    {
+        "query_id": "740_840",
+        "question": "Where was Iron Steel founded?",
+        "answers": [
+            "Atlanta"
+        ],
+        "pageviews": 1475
+    },
+    {
+        "query_id": "740_841",
+        "question": "Where was The Comsat Angels founded?",
+        "answers": [
+            "Sheffield"
+        ],
+        "pageviews": 25783
+    },
+    {
+        "query_id": "740_842",
+        "question": "Where was ADK founded?",
+        "answers": [
+            "Japan"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "740_843",
+        "question": "Where was The Luyas founded?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 8158
+    },
+    {
+        "query_id": "740_844",
+        "question": "Where was Perkins Coie Band founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 568
+    },
+    {
+        "query_id": "740_845",
+        "question": "Where was The Academy Is... founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 72255
+    },
+    {
+        "query_id": "740_846",
+        "question": "Where was Innocenti founded?",
+        "answers": [
+            "Milan"
+        ],
+        "pageviews": 50151
+    },
+    {
+        "query_id": "740_847",
+        "question": "Where was Suntory founded?",
+        "answers": [
+            "\u014csaka"
+        ],
+        "pageviews": 185123
+    },
+    {
+        "query_id": "740_848",
+        "question": "Where was Sainsbury's founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 317293
+    },
+    {
+        "query_id": "740_849",
+        "question": "Where was Ateliers et Chantiers de la Loire founded?",
+        "answers": [
+            "Nantes"
+        ],
+        "pageviews": 4186
+    },
+    {
+        "query_id": "740_850",
+        "question": "Where was Blood Red Throne founded?",
+        "answers": [
+            "Kristiansand"
+        ],
+        "pageviews": 8849
+    },
+    {
+        "query_id": "740_851",
+        "question": "Where was Venus Flytrap (group) founded?",
+        "answers": [
+            "Thailand"
+        ],
+        "pageviews": 6347
+    },
+    {
+        "query_id": "740_852",
+        "question": "Where was Blood of the Martyrs founded?",
+        "answers": [
+            "Farmville"
+        ],
+        "pageviews": 2989
+    },
+    {
+        "query_id": "740_853",
+        "question": "Where was Army Navy founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 3293
+    },
+    {
+        "query_id": "740_854",
+        "question": "Where was Garden City Movement founded?",
+        "answers": [
+            "Tel Aviv"
+        ],
+        "pageviews": 5884
+    },
+    {
+        "query_id": "740_855",
+        "question": "Where was Necromantia founded?",
+        "answers": [
+            "Athens"
+        ],
+        "pageviews": 10311
+    },
+    {
+        "query_id": "740_856",
+        "question": "Where was Perini Navi founded?",
+        "answers": [
+            "Viareggio"
+        ],
+        "pageviews": 9868
+    },
+    {
+        "query_id": "740_857",
+        "question": "Where was TR/ST founded?",
+        "answers": [
+            "Toronto"
+        ],
+        "pageviews": 44838
+    },
+    {
+        "query_id": "740_858",
+        "question": "Where was Cheers Elephant founded?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 1549
+    },
+    {
+        "query_id": "740_859",
+        "question": "Where was Vildhjarta founded?",
+        "answers": [
+            "Hudiksvall"
+        ],
+        "pageviews": 56019
+    },
+    {
+        "query_id": "740_860",
+        "question": "Where was Sirens founded?",
+        "answers": [
+            "Newcastle upon Tyne"
+        ],
+        "pageviews": 75
+    },
+    {
+        "query_id": "740_861",
+        "question": "Where was R. & W. Hawthorn founded?",
+        "answers": [
+            "Newcastle upon Tyne"
+        ],
+        "pageviews": 2602
+    },
+    {
+        "query_id": "740_862",
+        "question": "Where was Louisiana Voodoo founded?",
+        "answers": [
+            "Louisiana"
+        ],
+        "pageviews": 240463
+    },
+    {
+        "query_id": "740_863",
+        "question": "Where was Murder by Death founded?",
+        "answers": [
+            "Bloomington"
+        ],
+        "pageviews": 39970
+    },
+    {
+        "query_id": "740_864",
+        "question": "Where was Kinoklub founded?",
+        "answers": [
+            "Zagreb"
+        ],
+        "pageviews": 1186
+    },
+    {
+        "query_id": "740_865",
+        "question": "Where was Candlebox founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 175886
+    },
+    {
+        "query_id": "740_866",
+        "question": "Where was Massimo Zanetti Beverage Group founded?",
+        "answers": [
+            "Bologna"
+        ],
+        "pageviews": 18945
+    },
+    {
+        "query_id": "740_867",
+        "question": "Where was Flash Bang Grenada founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 2070
+    },
+    {
+        "query_id": "740_868",
+        "question": "Where was Warner Bros. Games Montr\u00e9al founded?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 124543
+    },
+    {
+        "query_id": "740_869",
+        "question": "Where was Shy and the Fight founded?",
+        "answers": [
+            "Llangollen"
+        ],
+        "pageviews": 804
+    },
+    {
+        "query_id": "740_870",
+        "question": "Where was And So I Watch You From Afar founded?",
+        "answers": [
+            "Belfast"
+        ],
+        "pageviews": 17541
+    },
+    {
+        "query_id": "740_871",
+        "question": "Where was Waterman founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 25418
+    },
+    {
+        "query_id": "740_872",
+        "question": "Where was The Crinn founded?",
+        "answers": [
+            "Saint Paul"
+        ],
+        "pageviews": 1013
+    },
+    {
+        "query_id": "740_873",
+        "question": "Where was RVIVR founded?",
+        "answers": [
+            "Olympia"
+        ],
+        "pageviews": 10860
+    },
+    {
+        "query_id": "740_874",
+        "question": "Where was Narrows founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 6488
+    },
+    {
+        "query_id": "740_875",
+        "question": "Where was Deep Purple founded?",
+        "answers": [
+            "Hertford"
+        ],
+        "pageviews": 1605010
+    },
+    {
+        "query_id": "740_876",
+        "question": "Where was The Yummy Fur founded?",
+        "answers": [
+            "Glasgow"
+        ],
+        "pageviews": 9267
+    },
+    {
+        "query_id": "740_877",
+        "question": "Where was Thulcandra founded?",
+        "answers": [
+            "Munich"
+        ],
+        "pageviews": 7354
+    },
+    {
+        "query_id": "740_878",
+        "question": "Where was The Racoons founded?",
+        "answers": [
+            "Victoria"
+        ],
+        "pageviews": 4565
+    },
+    {
+        "query_id": "740_880",
+        "question": "Where was Kubota founded?",
+        "answers": [
+            "\u014csaka"
+        ],
+        "pageviews": 96570
+    },
+    {
+        "query_id": "740_881",
+        "question": "Where was Fieseler founded?",
+        "answers": [
+            "Kassel"
+        ],
+        "pageviews": 12891
+    },
+    {
+        "query_id": "740_882",
+        "question": "Where was Was (Not Was) founded?",
+        "answers": [
+            "Detroit"
+        ],
+        "pageviews": 89758
+    },
+    {
+        "query_id": "740_883",
+        "question": "Where was Hecate Enthroned founded?",
+        "answers": [
+            "Wrexham"
+        ],
+        "pageviews": 11479
+    },
+    {
+        "query_id": "740_884",
+        "question": "Where was Bradesco Bank founded?",
+        "answers": [
+            "Osasco"
+        ],
+        "pageviews": 63488
+    },
+    {
+        "query_id": "740_885",
+        "question": "Where was WebJet Linhas A\u00e9reas founded?",
+        "answers": [
+            "Rio de Janeiro"
+        ],
+        "pageviews": 3364
+    },
+    {
+        "query_id": "740_886",
+        "question": "Where was Google founded?",
+        "answers": [
+            "Menlo Park"
+        ],
+        "pageviews": 21613968
+    },
+    {
+        "query_id": "740_887",
+        "question": "Where was Unified Theory founded?",
+        "answers": [
+            "Seattle"
+        ],
+        "pageviews": 40175
+    },
+    {
+        "query_id": "740_888",
+        "question": "Where was The Pinker Tones founded?",
+        "answers": [
+            "Barcelona"
+        ],
+        "pageviews": 4907
+    },
+    {
+        "query_id": "740_889",
+        "question": "Where was Sunshine Suites founded?",
+        "answers": [
+            "New York City"
+        ],
+        "pageviews": 1515
+    },
+    {
+        "query_id": "740_890",
+        "question": "Where was Mudcrutch founded?",
+        "answers": [
+            "Gainesville"
+        ],
+        "pageviews": 72969
+    },
+    {
+        "query_id": "740_891",
+        "question": "Where was Murderdolls founded?",
+        "answers": [
+            "Hollywood"
+        ],
+        "pageviews": 100857
+    },
+    {
+        "query_id": "740_892",
+        "question": "Where was Sooyoung founded?",
+        "answers": [
+            "South Korea"
+        ],
+        "pageviews": 595874
+    },
+    {
+        "query_id": "740_893",
+        "question": "Where was Tiger Tunes founded?",
+        "answers": [
+            "Denmark"
+        ],
+        "pageviews": 1703
+    },
+    {
+        "query_id": "740_894",
+        "question": "Where was This Day Forward founded?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 6742
+    },
+    {
+        "query_id": "740_895",
+        "question": "Where was Crate Entertainment founded?",
+        "answers": [
+            "Massachusetts"
+        ],
+        "pageviews": 24195
+    },
+    {
+        "query_id": "740_896",
+        "question": "Where was Kev Gray & The Gravy Train founded?",
+        "answers": [
+            "Japan"
+        ],
+        "pageviews": 2317
+    },
+    {
+        "query_id": "740_897",
+        "question": "Where was Esperanto founded?",
+        "answers": [
+            "Warsaw"
+        ],
+        "pageviews": 1288881
+    },
+    {
+        "query_id": "740_898",
+        "question": "Where was Amiata Records founded?",
+        "answers": [
+            "Florence"
+        ],
+        "pageviews": 1357
+    },
+    {
+        "query_id": "740_899",
+        "question": "Where was Silente founded?",
+        "answers": [
+            "Dubrovnik"
+        ],
+        "pageviews": 7270
+    },
+    {
+        "query_id": "740_900",
+        "question": "Where was The Music Machine founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 28184
+    },
+    {
+        "query_id": "740_901",
+        "question": "Where was The Habit Burger Grill founded?",
+        "answers": [
+            "Santa Barbara"
+        ],
+        "pageviews": 94470
+    },
+    {
+        "query_id": "740_902",
+        "question": "Where was Adelphi Edizioni founded?",
+        "answers": [
+            "Milan"
+        ],
+        "pageviews": 4179
+    },
+    {
+        "query_id": "740_903",
+        "question": "Where was Signal Hill Transmission founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 774
+    },
+    {
+        "query_id": "740_904",
+        "question": "Where was Echo & the Bunnymen founded?",
+        "answers": [
+            "Liverpool"
+        ],
+        "pageviews": 551264
+    },
+    {
+        "query_id": "740_905",
+        "question": "Where was Le Butcherettes founded?",
+        "answers": [
+            "Guadalajara"
+        ],
+        "pageviews": 21924
+    },
+    {
+        "query_id": "740_906",
+        "question": "Where was The Pleasure Fair founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 2172
+    },
+    {
+        "query_id": "740_907",
+        "question": "Where was Simon-Kucher & Partners founded?",
+        "answers": [
+            "Bonn"
+        ],
+        "pageviews": 23176
+    },
+    {
+        "query_id": "740_908",
+        "question": "Where was Plone founded?",
+        "answers": [
+            "Birmingham"
+        ],
+        "pageviews": 5069
+    },
+    {
+        "query_id": "740_909",
+        "question": "Where was Kula Shaker founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 218129
+    },
+    {
+        "query_id": "740_910",
+        "question": "Where was The Replacements founded?",
+        "answers": [
+            "Minneapolis"
+        ],
+        "pageviews": 373538
+    },
+    {
+        "query_id": "740_911",
+        "question": "Where was Ader founded?",
+        "answers": [
+            "Levallois-Perret"
+        ],
+        "pageviews": 2574
+    },
+    {
+        "query_id": "740_912",
+        "question": "Where was Deadly circus fire founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 2496
+    },
+    {
+        "query_id": "740_913",
+        "question": "Where was Wright Aeronautical founded?",
+        "answers": [
+            "New Jersey"
+        ],
+        "pageviews": 35441
+    },
+    {
+        "query_id": "740_914",
+        "question": "Where was Sweet Jesus founded?",
+        "answers": [
+            "Birmingham"
+        ],
+        "pageviews": 3881
+    },
+    {
+        "query_id": "740_916",
+        "question": "Where was Braccialini founded?",
+        "answers": [
+            "Florence"
+        ],
+        "pageviews": 5294
+    },
+    {
+        "query_id": "740_917",
+        "question": "Where was Bobot Adrenaline founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 1394
+    },
+    {
+        "query_id": "740_918",
+        "question": "Where was Theory of a Deadman founded?",
+        "answers": [
+            "Delta"
+        ],
+        "pageviews": 148201
+    },
+    {
+        "query_id": "740_919",
+        "question": "Where was Everybody Else founded?",
+        "answers": [
+            "Silver Lake"
+        ],
+        "pageviews": 2415
+    },
+    {
+        "query_id": "740_921",
+        "question": "Where was TCF Bank founded?",
+        "answers": [
+            "Minneapolis"
+        ],
+        "pageviews": 28124
+    },
+    {
+        "query_id": "740_922",
+        "question": "Where was Brothers Past founded?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 3758
+    },
+    {
+        "query_id": "740_923",
+        "question": "Where was The Easybeats founded?",
+        "answers": [
+            "Sydney"
+        ],
+        "pageviews": 104450
+    },
+    {
+        "query_id": "740_924",
+        "question": "Where was Costume National founded?",
+        "answers": [
+            "Milan"
+        ],
+        "pageviews": 12043
+    },
+    {
+        "query_id": "740_925",
+        "question": "Where was Tages founded?",
+        "answers": [
+            "Gothenburg"
+        ],
+        "pageviews": 8372
+    },
+    {
+        "query_id": "740_927",
+        "question": "Where was Tanghetto founded?",
+        "answers": [
+            "Buenos Aires"
+        ],
+        "pageviews": 5664
+    },
+    {
+        "query_id": "740_928",
+        "question": "Where was Bodega Band founded?",
+        "answers": [
+            "Trondheim"
+        ],
+        "pageviews": 1422
+    },
+    {
+        "query_id": "740_929",
+        "question": "Where was OceanLab founded?",
+        "answers": [
+            "London"
+        ],
+        "pageviews": 19493
+    },
+    {
+        "query_id": "740_930",
+        "question": "Where was Chemical Automatics Design Bureau founded?",
+        "answers": [
+            "Voronezh"
+        ],
+        "pageviews": 7680
+    },
+    {
+        "query_id": "740_931",
+        "question": "Where was Rain Parade founded?",
+        "answers": [
+            "Los Angeles"
+        ],
+        "pageviews": 19800
+    },
+    {
+        "query_id": "740_933",
+        "question": "Where was Alaska! founded?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 4002
+    },
+    {
+        "query_id": "740_934",
+        "question": "Where was Thao & The Get Down Stay Down founded?",
+        "answers": [
+            "Falls Church"
+        ],
+        "pageviews": 16046
+    },
+    {
+        "query_id": "740_935",
+        "question": "Where was Carrozzeria Ghia founded?",
+        "answers": [
+            "Turin"
+        ],
+        "pageviews": 39046
+    },
+    {
+        "query_id": "740_936",
+        "question": "Where was BarlowGirl founded?",
+        "answers": [
+            "Chicago"
+        ],
+        "pageviews": 38488
+    },
+    {
+        "query_id": "740_938",
+        "question": "Where was Arsonists Get All the Girls founded?",
+        "answers": [
+            "Santa Cruz"
+        ],
+        "pageviews": 12322
+    },
+    {
+        "query_id": "740_939",
+        "question": "Where was Feminnem founded?",
+        "answers": [
+            "Bosnia and Herzegovina"
+        ],
+        "pageviews": 9358
+    },
+    {
+        "query_id": "740_940",
+        "question": "Where was Elegant Angel founded?",
+        "answers": [
+            "Canoga Park"
+        ],
+        "pageviews": 41538
+    },
+    {
+        "query_id": "740_941",
+        "question": "Where was Dead Boots founded?",
+        "answers": [
+            "Duxbury"
+        ],
+        "pageviews": 4384
+    }
+]

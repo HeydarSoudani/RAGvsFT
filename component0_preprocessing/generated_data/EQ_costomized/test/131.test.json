@@ -1,0 +1,7916 @@
+[
+    {
+        "query_id": "131_0",
+        "question": "Where is West Central El Paso located?",
+        "answers": [
+            "Texas"
+        ],
+        "pageviews": 1644
+    },
+    {
+        "query_id": "131_1",
+        "question": "Where is Toccoa located?",
+        "answers": [
+            "Stephens County"
+        ],
+        "pageviews": 52932
+    },
+    {
+        "query_id": "131_2",
+        "question": "Where is Nalbandyan located?",
+        "answers": [
+            "Armavir Region"
+        ],
+        "pageviews": 1672
+    },
+    {
+        "query_id": "131_3",
+        "question": "Where is Albert Memorial Clock, Belfast located?",
+        "answers": [
+            "Belfast"
+        ],
+        "pageviews": 12493
+    },
+    {
+        "query_id": "131_4",
+        "question": "Where is Kolonia Siedliszczki located?",
+        "answers": [
+            "Gmina Piaski, Lublin Voivodeship"
+        ],
+        "pageviews": 326
+    },
+    {
+        "query_id": "131_5",
+        "question": "Where is Hpala, Hsawlaw located?",
+        "answers": [
+            "Myitkyina District"
+        ],
+        "pageviews": 418
+    },
+    {
+        "query_id": "131_6",
+        "question": "Where is South Congress located?",
+        "answers": [
+            "Texas"
+        ],
+        "pageviews": 9241
+    },
+    {
+        "query_id": "131_7",
+        "question": "Where is Andover Regional School District located?",
+        "answers": [
+            "New Jersey"
+        ],
+        "pageviews": 1457
+    },
+    {
+        "query_id": "131_8",
+        "question": "Where is Yishan located?",
+        "answers": [
+            "Zoucheng"
+        ],
+        "pageviews": 620
+    },
+    {
+        "query_id": "131_9",
+        "question": "Where is Haxtun located?",
+        "answers": [
+            "Phillips County"
+        ],
+        "pageviews": 5144
+    },
+    {
+        "query_id": "131_10",
+        "question": "Where is Mohon located?",
+        "answers": [
+            "Morbihan"
+        ],
+        "pageviews": 2812
+    },
+    {
+        "query_id": "131_11",
+        "question": "Where is Prosser located?",
+        "answers": [
+            "Benton County"
+        ],
+        "pageviews": 23565
+    },
+    {
+        "query_id": "131_12",
+        "question": "Where is Lavon located?",
+        "answers": [
+            "Collin County"
+        ],
+        "pageviews": 8046
+    },
+    {
+        "query_id": "131_13",
+        "question": "Where is Hoseynabad-e Mish Mast located?",
+        "answers": [
+            "Qom Province"
+        ],
+        "pageviews": 542
+    },
+    {
+        "query_id": "131_14",
+        "question": "Where is Orienta located?",
+        "answers": [
+            "Major County"
+        ],
+        "pageviews": 1522
+    },
+    {
+        "query_id": "131_15",
+        "question": "Where is tomb of Hafez located?",
+        "answers": [
+            "Shiraz"
+        ],
+        "pageviews": 19449
+    },
+    {
+        "query_id": "131_16",
+        "question": "Where is Arcadia located?",
+        "answers": [
+            "New South Wales"
+        ],
+        "pageviews": 6442
+    },
+    {
+        "query_id": "131_17",
+        "question": "Where is Roseburg located?",
+        "answers": [
+            "Douglas County"
+        ],
+        "pageviews": 65628
+    },
+    {
+        "query_id": "131_18",
+        "question": "Where is Niederstetten Air Base located?",
+        "answers": [
+            "Niederstetten"
+        ],
+        "pageviews": 2102
+    },
+    {
+        "query_id": "131_19",
+        "question": "Where is Een-West located?",
+        "answers": [
+            "Noordenveld"
+        ],
+        "pageviews": 830
+    },
+    {
+        "query_id": "131_20",
+        "question": "Where is Bhuttewadi located?",
+        "answers": [
+            "Belgaum district",
+            "Karnataka"
+        ],
+        "pageviews": 723
+    },
+    {
+        "query_id": "131_21",
+        "question": "Where is General Paz Partido located?",
+        "answers": [
+            "Province of Buenos Aires"
+        ],
+        "pageviews": 1150
+    },
+    {
+        "query_id": "131_22",
+        "question": "Where is Rose Township located?",
+        "answers": [
+            "Jefferson County"
+        ],
+        "pageviews": 1275
+    },
+    {
+        "query_id": "131_23",
+        "question": "Where is McNair located?",
+        "answers": [
+            "Washington County"
+        ],
+        "pageviews": 689
+    },
+    {
+        "query_id": "131_24",
+        "question": "Where is Beaconside located?",
+        "answers": [
+            "Staffordshire"
+        ],
+        "pageviews": 954
+    },
+    {
+        "query_id": "131_25",
+        "question": "Where is Wormsley Park located?",
+        "answers": [
+            "Stokenchurch"
+        ],
+        "pageviews": 36052
+    },
+    {
+        "query_id": "131_26",
+        "question": "Where is Amazonas located?",
+        "answers": [
+            "Brazil"
+        ],
+        "pageviews": 132693
+    },
+    {
+        "query_id": "131_27",
+        "question": "Where is Whitton located?",
+        "answers": [
+            "North Lincolnshire"
+        ],
+        "pageviews": 1928
+    },
+    {
+        "query_id": "131_28",
+        "question": "Where is Gori\u010dica pod Krimom located?",
+        "answers": [
+            "Brezovica Municipality"
+        ],
+        "pageviews": 529
+    },
+    {
+        "query_id": "131_29",
+        "question": "Where is Paget, Ontario located?",
+        "answers": [
+            "Ontario"
+        ],
+        "pageviews": 1198
+    },
+    {
+        "query_id": "131_30",
+        "question": "Where is La Rochette located?",
+        "answers": [
+            "Seine-et-Marne"
+        ],
+        "pageviews": 1953
+    },
+    {
+        "query_id": "131_31",
+        "question": "Where is Edinburg located?",
+        "answers": [
+            "West Windsor Township"
+        ],
+        "pageviews": 1483
+    },
+    {
+        "query_id": "131_32",
+        "question": "Where is Kamnje, Bohinj located?",
+        "answers": [
+            "Bohinj Municipality"
+        ],
+        "pageviews": 598
+    },
+    {
+        "query_id": "131_33",
+        "question": "Where is Tayemeh located?",
+        "answers": [
+            "Tariq ol Eslam Rural District"
+        ],
+        "pageviews": 419
+    },
+    {
+        "query_id": "131_34",
+        "question": "Where is Valley County located?",
+        "answers": [
+            "Idaho"
+        ],
+        "pageviews": 14466
+    },
+    {
+        "query_id": "131_35",
+        "question": "Where is Susquehannock State Park located?",
+        "answers": [
+            "Pennsylvania"
+        ],
+        "pageviews": 2604
+    },
+    {
+        "query_id": "131_36",
+        "question": "Where is district of Espoo located?",
+        "answers": [
+            "Espoo"
+        ],
+        "pageviews": 3454
+    },
+    {
+        "query_id": "131_37",
+        "question": "Where is Nadiolo located?",
+        "answers": [
+            "Sabou Department"
+        ],
+        "pageviews": 477
+    },
+    {
+        "query_id": "131_38",
+        "question": "Where is McClure located?",
+        "answers": [
+            "Dickenson County"
+        ],
+        "pageviews": 5375
+    },
+    {
+        "query_id": "131_39",
+        "question": "Where is Banty located?",
+        "answers": [
+            "Bryan County"
+        ],
+        "pageviews": 761
+    },
+    {
+        "query_id": "131_40",
+        "question": "Where is Knieja located?",
+        "answers": [
+            "Gmina Cekcyn"
+        ],
+        "pageviews": 488
+    },
+    {
+        "query_id": "131_41",
+        "question": "Where is Brownsville Township located?",
+        "answers": [
+            "Fayette County"
+        ],
+        "pageviews": 228
+    },
+    {
+        "query_id": "131_42",
+        "question": "Where is Hubenov located?",
+        "answers": [
+            "Jihlava District"
+        ],
+        "pageviews": 76
+    },
+    {
+        "query_id": "131_43",
+        "question": "Where is Pickerel, Virginia located?",
+        "answers": [
+            "Virginia"
+        ],
+        "pageviews": 449
+    },
+    {
+        "query_id": "131_44",
+        "question": "Where is Kewaunee Post Office located?",
+        "answers": [
+            "Kewaunee"
+        ],
+        "pageviews": 419
+    },
+    {
+        "query_id": "131_45",
+        "question": "Where is Leknes, Tr\u00f8ndelag located?",
+        "answers": [
+            "Leka"
+        ],
+        "pageviews": 653
+    },
+    {
+        "query_id": "131_46",
+        "question": "Where is Orwell Bridge located?",
+        "answers": [
+            "Ipswich"
+        ],
+        "pageviews": 17199
+    },
+    {
+        "query_id": "131_47",
+        "question": "Where is County Cork located?",
+        "answers": [
+            "Munster"
+        ],
+        "pageviews": 217617
+    },
+    {
+        "query_id": "131_48",
+        "question": "Where is Stillwater Dam located?",
+        "answers": [
+            "Susquehanna County"
+        ],
+        "pageviews": 1026
+    },
+    {
+        "query_id": "131_49",
+        "question": "Where is Altena Castle located?",
+        "answers": [
+            "Altena"
+        ],
+        "pageviews": 6790
+    },
+    {
+        "query_id": "131_51",
+        "question": "Where is Rawtenstall located?",
+        "answers": [
+            "England"
+        ],
+        "pageviews": 29034
+    },
+    {
+        "query_id": "131_52",
+        "question": "Where is Kjerulf\u00f8ya located?",
+        "answers": [
+            "Svalbard"
+        ],
+        "pageviews": 460
+    },
+    {
+        "query_id": "131_53",
+        "question": "Where is Caldecote located?",
+        "answers": [
+            "South Cambridgeshire"
+        ],
+        "pageviews": 4673
+    },
+    {
+        "query_id": "131_54",
+        "question": "Where is Cooklaw located?",
+        "answers": [
+            "Northumberland"
+        ],
+        "pageviews": 432
+    },
+    {
+        "query_id": "131_55",
+        "question": "Where is Peoples Township located?",
+        "answers": [
+            "Boone County"
+        ],
+        "pageviews": 518
+    },
+    {
+        "query_id": "131_56",
+        "question": "Where is Mullsj\u00f6 Municipality located?",
+        "answers": [
+            "Skaraborg County"
+        ],
+        "pageviews": 2192
+    },
+    {
+        "query_id": "131_57",
+        "question": "Where is Edge\u00f8ya located?",
+        "answers": [
+            "Svalbard"
+        ],
+        "pageviews": 9750
+    },
+    {
+        "query_id": "131_58",
+        "question": "Where is Gashtiari located?",
+        "answers": [
+            "Tayebi-ye Sarhadi-ye Sharqi Rural District"
+        ],
+        "pageviews": 423
+    },
+    {
+        "query_id": "131_59",
+        "question": "Where is Varkurak located?",
+        "answers": [
+            "Kermanshah Province"
+        ],
+        "pageviews": 355
+    },
+    {
+        "query_id": "131_60",
+        "question": "Where is Brunthwaite located?",
+        "answers": [
+            "Cumbria"
+        ],
+        "pageviews": 619
+    },
+    {
+        "query_id": "131_61",
+        "question": "Where is Chynowa located?",
+        "answers": [
+            "Gmina Przygodzice"
+        ],
+        "pageviews": 669
+    },
+    {
+        "query_id": "131_62",
+        "question": "Where is Bucks County Playhouse located?",
+        "answers": [
+            "Pennsylvania"
+        ],
+        "pageviews": 7347
+    },
+    {
+        "query_id": "131_63",
+        "question": "Where is San Miguel located?",
+        "answers": [
+            "San Luis Obispo County"
+        ],
+        "pageviews": 10031
+    },
+    {
+        "query_id": "131_64",
+        "question": "Where is Todey located?",
+        "answers": [
+            "West Bengal"
+        ],
+        "pageviews": 2802
+    },
+    {
+        "query_id": "131_65",
+        "question": "Where is Bosanski Petrovac located?",
+        "answers": [
+            "Una-Sana Canton"
+        ],
+        "pageviews": 13569
+    },
+    {
+        "query_id": "131_66",
+        "question": "Where is Wilford Hall Medical Center located?",
+        "answers": [
+            "Texas"
+        ],
+        "pageviews": 4372
+    },
+    {
+        "query_id": "131_67",
+        "question": "Where is Bala Shekar Kesh located?",
+        "answers": [
+            "Gilan Province"
+        ],
+        "pageviews": 424
+    },
+    {
+        "query_id": "131_68",
+        "question": "Where is Collingtree located?",
+        "answers": [
+            "England"
+        ],
+        "pageviews": 3016
+    },
+    {
+        "query_id": "131_69",
+        "question": "Where is Lalbag subdivision located?",
+        "answers": [
+            "Murshidabad district"
+        ],
+        "pageviews": 7441
+    },
+    {
+        "query_id": "131_70",
+        "question": "Where is MacCumhail Park located?",
+        "answers": [
+            "Ballybofey"
+        ],
+        "pageviews": 5742
+    },
+    {
+        "query_id": "131_71",
+        "question": "Where is Les Pins located?",
+        "answers": [
+            "Charente"
+        ],
+        "pageviews": 1410
+    },
+    {
+        "query_id": "131_72",
+        "question": "Where is Siah Cheshmeh located?",
+        "answers": [
+            "Chaldoran County"
+        ],
+        "pageviews": 2319
+    },
+    {
+        "query_id": "131_73",
+        "question": "Where is Prairie Chapel Ranch located?",
+        "answers": [
+            "Texas"
+        ],
+        "pageviews": 79524
+    },
+    {
+        "query_id": "131_74",
+        "question": "Where is Fortuna Bay located?",
+        "answers": [
+            "South Georgia and the South Sandwich Islands"
+        ],
+        "pageviews": 1920
+    },
+    {
+        "query_id": "131_75",
+        "question": "Where is Khunan located?",
+        "answers": [
+            "Zahray-ye Bala Rural District"
+        ],
+        "pageviews": 657
+    },
+    {
+        "query_id": "131_76",
+        "question": "Where is Posht Ab District located?",
+        "answers": [
+            "Zabol County"
+        ],
+        "pageviews": 594
+    },
+    {
+        "query_id": "131_77",
+        "question": "Where is Lucknam Park located?",
+        "answers": [
+            "Colerne"
+        ],
+        "pageviews": 4465
+    },
+    {
+        "query_id": "131_78",
+        "question": "Where is Mueang Lampang located?",
+        "answers": [
+            "Lampang"
+        ],
+        "pageviews": 1676
+    },
+    {
+        "query_id": "131_79",
+        "question": "Where is Warenka located?",
+        "answers": [
+            "Gmina Turek"
+        ],
+        "pageviews": 568
+    },
+    {
+        "query_id": "131_80",
+        "question": "Where is Humberside Airport located?",
+        "answers": [
+            "North Lincolnshire"
+        ],
+        "pageviews": 48396
+    },
+    {
+        "query_id": "131_81",
+        "question": "Where is Kovur, Kanchipuram located?",
+        "answers": [
+            "Tamil Nadu"
+        ],
+        "pageviews": 7605
+    },
+    {
+        "query_id": "131_82",
+        "question": "Where is Namazpur located?",
+        "answers": [
+            "Pirojpur District"
+        ],
+        "pageviews": 415
+    },
+    {
+        "query_id": "131_83",
+        "question": "Where is Yakamuru located?",
+        "answers": [
+            "Andhra Pradesh"
+        ],
+        "pageviews": 748
+    },
+    {
+        "query_id": "131_84",
+        "question": "Where is Avur located?",
+        "answers": [
+            "Tamil Nadu"
+        ],
+        "pageviews": 963
+    },
+    {
+        "query_id": "131_85",
+        "question": "Where is Campo Real located?",
+        "answers": [
+            "Community of Madrid"
+        ],
+        "pageviews": 2224
+    },
+    {
+        "query_id": "131_86",
+        "question": "Where is Cerro Cabrillo located?",
+        "answers": [
+            "California"
+        ],
+        "pageviews": 2033
+    },
+    {
+        "query_id": "131_87",
+        "question": "Where is Gaoming District located?",
+        "answers": [
+            "Foshan"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "131_88",
+        "question": "Where is W\u00f3jtostwo, Kozienice County located?",
+        "answers": [
+            "Gmina Kozienice"
+        ],
+        "pageviews": 419
+    },
+    {
+        "query_id": "131_89",
+        "question": "Where is Dul Abza located?",
+        "answers": [
+            "Olya Tayeb Rural District"
+        ],
+        "pageviews": 367
+    },
+    {
+        "query_id": "131_90",
+        "question": "Where is Washington Park located?",
+        "answers": [
+            "Colorado",
+            "Denver"
+        ],
+        "pageviews": 11305
+    },
+    {
+        "query_id": "131_91",
+        "question": "Where is Lok Wah Estate located?",
+        "answers": [
+            "Kwun Tong District"
+        ],
+        "pageviews": 3671
+    },
+    {
+        "query_id": "131_92",
+        "question": "Where is Kariapatti taluk located?",
+        "answers": [
+            "Tamil Nadu"
+        ],
+        "pageviews": 936
+    },
+    {
+        "query_id": "131_93",
+        "question": "Where is Eastpointe High School located?",
+        "answers": [
+            "Eastpointe"
+        ],
+        "pageviews": 2814
+    },
+    {
+        "query_id": "131_94",
+        "question": "Where is River Bluff located?",
+        "answers": [
+            "Oldham County"
+        ],
+        "pageviews": 1304
+    },
+    {
+        "query_id": "131_95",
+        "question": "Where is Plosco\u0219 located?",
+        "answers": [
+            "Cluj County"
+        ],
+        "pageviews": 838
+    },
+    {
+        "query_id": "131_96",
+        "question": "Where is Urad located?",
+        "answers": [
+            "Gmina Cybinka"
+        ],
+        "pageviews": 999
+    },
+    {
+        "query_id": "131_97",
+        "question": "Where is Leiden University Library located?",
+        "answers": [
+            "Leiden"
+        ],
+        "pageviews": 11931
+    },
+    {
+        "query_id": "131_98",
+        "question": "Where is Delton located?",
+        "answers": [
+            "Edmonton"
+        ],
+        "pageviews": 1649
+    },
+    {
+        "query_id": "131_99",
+        "question": "Where is Fairview, Page County, Virginia located?",
+        "answers": [
+            "Virginia"
+        ],
+        "pageviews": 675
+    },
+    {
+        "query_id": "131_100",
+        "question": "Where is Plassac located?",
+        "answers": [
+            "Charente-Maritime"
+        ],
+        "pageviews": 1111
+    },
+    {
+        "query_id": "131_101",
+        "question": "Where is Bammel, Texas located?",
+        "answers": [
+            "Texas"
+        ],
+        "pageviews": 3454
+    },
+    {
+        "query_id": "131_102",
+        "question": "Where is Reu\u00dfenk\u00f6ge located?",
+        "answers": [
+            "Nordfriesland district"
+        ],
+        "pageviews": 1377
+    },
+    {
+        "query_id": "131_103",
+        "question": "Where is Stillwater Area High School located?",
+        "answers": [
+            "Oak Park Heights"
+        ],
+        "pageviews": 9526
+    },
+    {
+        "query_id": "131_104",
+        "question": "Where is Hanover Park located?",
+        "answers": [
+            "Illinois"
+        ],
+        "pageviews": 18803
+    },
+    {
+        "query_id": "131_105",
+        "question": "Where is Jahanabad-e Maleki located?",
+        "answers": [
+            "Razavi Khorasan Province"
+        ],
+        "pageviews": 236
+    },
+    {
+        "query_id": "131_106",
+        "question": "Where is Mayflower located?",
+        "answers": [
+            "Lee County"
+        ],
+        "pageviews": 643
+    },
+    {
+        "query_id": "131_107",
+        "question": "Where is Elvebakken located?",
+        "answers": [
+            "Alta"
+        ],
+        "pageviews": 1603
+    },
+    {
+        "query_id": "131_108",
+        "question": "Where is Akiaki located?",
+        "answers": [
+            "French Polynesia"
+        ],
+        "pageviews": 2509
+    },
+    {
+        "query_id": "131_109",
+        "question": "Where is Mokronos, \u0141obez County located?",
+        "answers": [
+            "Gmina Resko"
+        ],
+        "pageviews": 370
+    },
+    {
+        "query_id": "131_110",
+        "question": "Where is Dash Arasi located?",
+        "answers": [
+            "Minjavan-e Sharqi Rural District"
+        ],
+        "pageviews": 633
+    },
+    {
+        "query_id": "131_111",
+        "question": "Where is Jardins du Ch\u00e2teau Val Joanis located?",
+        "answers": [
+            "Pertuis"
+        ],
+        "pageviews": 1028
+    },
+    {
+        "query_id": "131_112",
+        "question": "Where is Athletics at the 1900 Summer Olympics located?",
+        "answers": [
+            "Paris"
+        ],
+        "pageviews": 11855
+    },
+    {
+        "query_id": "131_113",
+        "question": "Where is Hemet Maze Stone located?",
+        "answers": [
+            "California"
+        ],
+        "pageviews": 10656
+    },
+    {
+        "query_id": "131_114",
+        "question": "Where is Wei\u00dfig (Freital) located?",
+        "answers": [
+            "Freital"
+        ],
+        "pageviews": 558
+    },
+    {
+        "query_id": "131_115",
+        "question": "Where is Ford Strike of 1945 located?",
+        "answers": [
+            "Windsor"
+        ],
+        "pageviews": 3270
+    },
+    {
+        "query_id": "131_116",
+        "question": "Where is Centerville located?",
+        "answers": [
+            "Anderson County"
+        ],
+        "pageviews": 2256
+    },
+    {
+        "query_id": "131_117",
+        "question": "Where is Awan Sharif located?",
+        "answers": [
+            "Gujrat District"
+        ],
+        "pageviews": 1747
+    },
+    {
+        "query_id": "131_118",
+        "question": "Where is Walkersville located?",
+        "answers": [
+            "Frederick County"
+        ],
+        "pageviews": 9296
+    },
+    {
+        "query_id": "131_119",
+        "question": "Where is St Mary's Roman Catholic Church located?",
+        "answers": [
+            "Monmouth"
+        ],
+        "pageviews": 1630
+    },
+    {
+        "query_id": "131_120",
+        "question": "Where is Wijdenes located?",
+        "answers": [
+            "Drechterland"
+        ],
+        "pageviews": 3028
+    },
+    {
+        "query_id": "131_121",
+        "question": "Where is Missouri Route 179 located?",
+        "answers": [
+            "Missouri"
+        ],
+        "pageviews": 1214
+    },
+    {
+        "query_id": "131_122",
+        "question": "Where is Saint-Philippe-du-Seignal located?",
+        "answers": [
+            "Gironde"
+        ],
+        "pageviews": 1028
+    },
+    {
+        "query_id": "131_123",
+        "question": "Where is Cleveland Street located?",
+        "answers": [
+            "City of Westminster",
+            "London Borough of Camden"
+        ],
+        "pageviews": 7621
+    },
+    {
+        "query_id": "131_124",
+        "question": "Where is Adraskan District located?",
+        "answers": [
+            "Herat"
+        ],
+        "pageviews": 2116
+    },
+    {
+        "query_id": "131_125",
+        "question": "Where is Kounari located?",
+        "answers": [
+            "Mopti Region"
+        ],
+        "pageviews": 838
+    },
+    {
+        "query_id": "131_126",
+        "question": "Where is Gare de Toulouse-Matabiau located?",
+        "answers": [
+            "Toulouse"
+        ],
+        "pageviews": 7429
+    },
+    {
+        "query_id": "131_127",
+        "question": "Where is Bard Kolang-e Olya Chahar Tall located?",
+        "answers": [
+            "Zilayi Rural District"
+        ],
+        "pageviews": 507
+    },
+    {
+        "query_id": "131_128",
+        "question": "Where is PNC Plaza located?",
+        "answers": [
+            "Kentucky"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "131_129",
+        "question": "Where is Velika Greda located?",
+        "answers": [
+            "South Banat District"
+        ],
+        "pageviews": 1432
+    },
+    {
+        "query_id": "131_130",
+        "question": "Where is Gitega Province located?",
+        "answers": [
+            "Burundi"
+        ],
+        "pageviews": 7169
+    },
+    {
+        "query_id": "131_131",
+        "question": "Where is United Nations International School located?",
+        "answers": [
+            "Manhattan"
+        ],
+        "pageviews": 37525
+    },
+    {
+        "query_id": "131_132",
+        "question": "Where is Betts-Longworth Historic District located?",
+        "answers": [
+            "Ohio"
+        ],
+        "pageviews": 1015
+    },
+    {
+        "query_id": "131_133",
+        "question": "Where is Podlesie, Gmina Pilzno located?",
+        "answers": [
+            "Gmina Pilzno"
+        ],
+        "pageviews": 486
+    },
+    {
+        "query_id": "131_134",
+        "question": "Where is Knox Township located?",
+        "answers": [
+            "Vinton County"
+        ],
+        "pageviews": 848
+    },
+    {
+        "query_id": "131_135",
+        "question": "Where is Manipal Institute of Technology located?",
+        "answers": [
+            "Manipal"
+        ],
+        "pageviews": 124325
+    },
+    {
+        "query_id": "131_136",
+        "question": "Where is Sarnamak-e Darkul located?",
+        "answers": [
+            "Mazu Rural District"
+        ],
+        "pageviews": 377
+    },
+    {
+        "query_id": "131_137",
+        "question": "Where is Berthold located?",
+        "answers": [
+            "Ward County"
+        ],
+        "pageviews": 3314
+    },
+    {
+        "query_id": "131_138",
+        "question": "Where is Kissousa located?",
+        "answers": [
+            "Limassol District"
+        ],
+        "pageviews": 1024
+    },
+    {
+        "query_id": "131_139",
+        "question": "Where is Coal Creek Township located?",
+        "answers": [
+            "Montgomery County"
+        ],
+        "pageviews": 958
+    },
+    {
+        "query_id": "131_140",
+        "question": "Where is Forks of Cacapon located?",
+        "answers": [
+            "Hampshire County"
+        ],
+        "pageviews": 1287
+    },
+    {
+        "query_id": "131_141",
+        "question": "Where is Puerto Rico Highway 65 located?",
+        "answers": [
+            "Puerto Rico"
+        ],
+        "pageviews": 1180
+    },
+    {
+        "query_id": "131_142",
+        "question": "Where is Mitchell River located?",
+        "answers": [
+            "Western Australia"
+        ],
+        "pageviews": 1130
+    },
+    {
+        "query_id": "131_143",
+        "question": "Where is Yerres railway station located?",
+        "answers": [
+            "Yerres"
+        ],
+        "pageviews": 670
+    },
+    {
+        "query_id": "131_144",
+        "question": "Where is Bakhsh Zirdu located?",
+        "answers": [
+            "Rostam-e Yek Rural District"
+        ],
+        "pageviews": 425
+    },
+    {
+        "query_id": "131_145",
+        "question": "Where is New Glasgow located?",
+        "answers": [
+            "Pictou County"
+        ],
+        "pageviews": 40931
+    },
+    {
+        "query_id": "131_146",
+        "question": "Where is economy of Swansea located?",
+        "answers": [
+            "Swansea"
+        ],
+        "pageviews": 5178
+    },
+    {
+        "query_id": "131_147",
+        "question": "Where is Kloka located?",
+        "answers": [
+            "Topola"
+        ],
+        "pageviews": 1334
+    },
+    {
+        "query_id": "131_148",
+        "question": "Where is Goat Mountain located?",
+        "answers": [
+            "Montana"
+        ],
+        "pageviews": 870
+    },
+    {
+        "query_id": "131_149",
+        "question": "Where is Oud-Vossemeer located?",
+        "answers": [
+            "Tholen"
+        ],
+        "pageviews": 2919
+    },
+    {
+        "query_id": "131_150",
+        "question": "Where is Janakpatti located?",
+        "answers": [
+            "Uttar Pradesh"
+        ],
+        "pageviews": 1485
+    },
+    {
+        "query_id": "131_151",
+        "question": "Where is M\u00e9lida located?",
+        "answers": [
+            "Navarre"
+        ],
+        "pageviews": 1413
+    },
+    {
+        "query_id": "131_152",
+        "question": "Where is Qezel Dalq located?",
+        "answers": [
+            "Maraveh Tappeh Rural District"
+        ],
+        "pageviews": 440
+    },
+    {
+        "query_id": "131_153",
+        "question": "Where is Illinois Route 105 located?",
+        "answers": [
+            "Illinois"
+        ],
+        "pageviews": 1089
+    },
+    {
+        "query_id": "131_154",
+        "question": "Where is Du'an Yao Autonomous County located?",
+        "answers": [
+            "Hechi"
+        ],
+        "pageviews": 2292
+    },
+    {
+        "query_id": "131_155",
+        "question": "Where is Serval located?",
+        "answers": [
+            "Aisne"
+        ],
+        "pageviews": 1096
+    },
+    {
+        "query_id": "131_156",
+        "question": "Where is Huta, Z\u0142ot\u00f3w County located?",
+        "answers": [
+            "Gmina Lipka"
+        ],
+        "pageviews": 931
+    },
+    {
+        "query_id": "131_157",
+        "question": "Where is Mahyalar located?",
+        "answers": [
+            "Kozan"
+        ],
+        "pageviews": 379
+    },
+    {
+        "query_id": "131_158",
+        "question": "Where is Acropolis Museum located?",
+        "answers": [
+            "Athens"
+        ],
+        "pageviews": 64142
+    },
+    {
+        "query_id": "131_159",
+        "question": "Where is Prata Sannita located?",
+        "answers": [
+            "Province of Caserta"
+        ],
+        "pageviews": 1712
+    },
+    {
+        "query_id": "131_160",
+        "question": "Where is River Stour located?",
+        "answers": [
+            "Cambridgeshire",
+            "Suffolk"
+        ],
+        "pageviews": 22429
+    },
+    {
+        "query_id": "131_161",
+        "question": "Where is Jurbijarkol located?",
+        "answers": [
+            "Kenar Sar Rural District"
+        ],
+        "pageviews": 436
+    },
+    {
+        "query_id": "131_162",
+        "question": "Where is Jacob located?",
+        "answers": [
+            "Jackson County"
+        ],
+        "pageviews": 1812
+    },
+    {
+        "query_id": "131_163",
+        "question": "Where is Leuk Daek District located?",
+        "answers": [
+            "Kandal Province"
+        ],
+        "pageviews": 1657
+    },
+    {
+        "query_id": "131_164",
+        "question": "Where is Lembevere located?",
+        "answers": [
+            "Konguta Rural Municipality"
+        ],
+        "pageviews": 486
+    },
+    {
+        "query_id": "131_165",
+        "question": "Where is Hidden Bay Airport located?",
+        "answers": [
+            "Saskatchewan"
+        ],
+        "pageviews": 1138
+    },
+    {
+        "query_id": "131_166",
+        "question": "Where is Barbodhan located?",
+        "answers": [
+            "Surat district"
+        ],
+        "pageviews": 2384
+    },
+    {
+        "query_id": "131_167",
+        "question": "Where is Pirabad located?",
+        "answers": [
+            "Zhan Rural District"
+        ],
+        "pageviews": 531
+    },
+    {
+        "query_id": "131_168",
+        "question": "Where is Bishop Forest High School located?",
+        "answers": [
+            "Schulenburg"
+        ],
+        "pageviews": 522
+    },
+    {
+        "query_id": "131_170",
+        "question": "Where is 14th Regiment Armory located?",
+        "answers": [
+            "Brooklyn"
+        ],
+        "pageviews": 4520
+    },
+    {
+        "query_id": "131_171",
+        "question": "Where is Hajipur located?",
+        "answers": [
+            "Vaishali district"
+        ],
+        "pageviews": 137210
+    },
+    {
+        "query_id": "131_172",
+        "question": "Where is Gateway College, Sri Lanka located?",
+        "answers": [
+            "Colombo"
+        ],
+        "pageviews": 925
+    },
+    {
+        "query_id": "131_173",
+        "question": "Where is Gmina Garwolin located?",
+        "answers": [
+            "Garwolin County"
+        ],
+        "pageviews": 835
+    },
+    {
+        "query_id": "131_174",
+        "question": "Where is Flourens located?",
+        "answers": [
+            "Haute-Garonne"
+        ],
+        "pageviews": 1759
+    },
+    {
+        "query_id": "131_175",
+        "question": "Where is Birkebeineren Ski Stadium located?",
+        "answers": [
+            "Lillehammer"
+        ],
+        "pageviews": 3260
+    },
+    {
+        "query_id": "131_176",
+        "question": "Where is Serishabad located?",
+        "answers": [
+            "Kurdistan Province"
+        ],
+        "pageviews": 1682
+    },
+    {
+        "query_id": "131_177",
+        "question": "Where is Inuvik Region, Northwest Territories located?",
+        "answers": [
+            "Northwest Territories"
+        ],
+        "pageviews": 1501
+    },
+    {
+        "query_id": "131_178",
+        "question": "Where is Asad Khani located?",
+        "answers": [
+            "Shirvan Rural District"
+        ],
+        "pageviews": 460
+    },
+    {
+        "query_id": "131_179",
+        "question": "Where is Osor located?",
+        "answers": [
+            "Selva"
+        ],
+        "pageviews": 1501
+    },
+    {
+        "query_id": "131_180",
+        "question": "Where is Barua Sagar located?",
+        "answers": [
+            "Jhansi district"
+        ],
+        "pageviews": 3715
+    },
+    {
+        "query_id": "131_181",
+        "question": "Where is Babaganjeh located?",
+        "answers": [
+            "Nazlu-e Shomali Rural District"
+        ],
+        "pageviews": 512
+    },
+    {
+        "query_id": "131_182",
+        "question": "Where is Przeradz Wielki located?",
+        "answers": [
+            "Gmina Lutocin"
+        ],
+        "pageviews": 451
+    },
+    {
+        "query_id": "131_183",
+        "question": "Where is Charbrowski B\u00f3r located?",
+        "answers": [
+            "Gmina Wicko"
+        ],
+        "pageviews": 305
+    },
+    {
+        "query_id": "131_184",
+        "question": "Where is Hamilton High School located?",
+        "answers": [
+            "Alabama"
+        ],
+        "pageviews": 1982
+    },
+    {
+        "query_id": "131_185",
+        "question": "Where is Hasasaneh-ye Pain located?",
+        "answers": [
+            "Bani Saleh Rural District"
+        ],
+        "pageviews": 369
+    },
+    {
+        "query_id": "131_186",
+        "question": "Where is Lithgow located?",
+        "answers": [
+            "New South Wales"
+        ],
+        "pageviews": 39152
+    },
+    {
+        "query_id": "131_187",
+        "question": "Where is Coogan's Bluff located?",
+        "answers": [
+            "Manhattan"
+        ],
+        "pageviews": 46895
+    },
+    {
+        "query_id": "131_188",
+        "question": "Where is Kheyrabad, Sarvelayat located?",
+        "answers": [
+            "Barzanun Rural District"
+        ],
+        "pageviews": 334
+    },
+    {
+        "query_id": "131_189",
+        "question": "Where is Rebollar located?",
+        "answers": [
+            "Soria"
+        ],
+        "pageviews": 739
+    },
+    {
+        "query_id": "131_190",
+        "question": "Where is Shuran, Chaharmahal and Bakhtiari located?",
+        "answers": [
+            "Dinaran Rural District"
+        ],
+        "pageviews": 423
+    },
+    {
+        "query_id": "131_191",
+        "question": "Where is Balkut located?",
+        "answers": [
+            "Gilan Province"
+        ],
+        "pageviews": 662
+    },
+    {
+        "query_id": "131_192",
+        "question": "Where is Non Khun located?",
+        "answers": [
+            "Si Sa Ket"
+        ],
+        "pageviews": 665
+    },
+    {
+        "query_id": "131_193",
+        "question": "Where is Saint-Martin-de-Cenilly located?",
+        "answers": [
+            "Manche"
+        ],
+        "pageviews": 1368
+    },
+    {
+        "query_id": "131_194",
+        "question": "Where is Bromsberrow located?",
+        "answers": [
+            "Gloucestershire"
+        ],
+        "pageviews": 2247
+    },
+    {
+        "query_id": "131_195",
+        "question": "Where is Breginie located?",
+        "answers": [
+            "Gmina Strzegowo"
+        ],
+        "pageviews": 366
+    },
+    {
+        "query_id": "131_196",
+        "question": "Where is Pecan Plantation located?",
+        "answers": [
+            "Hood County"
+        ],
+        "pageviews": 3992
+    },
+    {
+        "query_id": "131_197",
+        "question": "Where is Gornam located?",
+        "answers": [
+            "Ashrestaq Rural District"
+        ],
+        "pageviews": 477
+    },
+    {
+        "query_id": "131_198",
+        "question": "Where is Marynowo located?",
+        "answers": [
+            "Gmina Sejny"
+        ],
+        "pageviews": 446
+    },
+    {
+        "query_id": "131_199",
+        "question": "Where is Shahrak-e Gharb located?",
+        "answers": [
+            "Tehran"
+        ],
+        "pageviews": 5778
+    },
+    {
+        "query_id": "131_200",
+        "question": "Where is Mustang Island located?",
+        "answers": [
+            "Texas"
+        ],
+        "pageviews": 19732
+    },
+    {
+        "query_id": "131_201",
+        "question": "Where is Glenridge Park, California located?",
+        "answers": [
+            "El Dorado County"
+        ],
+        "pageviews": 141
+    },
+    {
+        "query_id": "131_202",
+        "question": "Where is Tavani, Nunavut located?",
+        "answers": [
+            "Nunavut"
+        ],
+        "pageviews": 1584
+    },
+    {
+        "query_id": "131_203",
+        "question": "Where is Prosna, Warmian-Masurian Voivodeship located?",
+        "answers": [
+            "Gmina Korsze"
+        ],
+        "pageviews": 606
+    },
+    {
+        "query_id": "131_204",
+        "question": "Where is Minnesota State Highway 119 located?",
+        "answers": [
+            "Minnesota"
+        ],
+        "pageviews": 889
+    },
+    {
+        "query_id": "131_205",
+        "question": "Where is Milliken Mine located?",
+        "answers": [
+            "Ontario"
+        ],
+        "pageviews": 1017
+    },
+    {
+        "query_id": "131_206",
+        "question": "Where is Yates Oil Field located?",
+        "answers": [
+            "Texas"
+        ],
+        "pageviews": 9194
+    },
+    {
+        "query_id": "131_207",
+        "question": "Where is F\u0131nd\u0131ql\u0131 located?",
+        "answers": [
+            "Azerbaijan"
+        ],
+        "pageviews": 396
+    },
+    {
+        "query_id": "131_208",
+        "question": "Where is Southend, Buckinghamshire located?",
+        "answers": [
+            "Buckinghamshire"
+        ],
+        "pageviews": 1006
+    },
+    {
+        "query_id": "131_209",
+        "question": "Where is East St. Louis located?",
+        "answers": [
+            "Illinois"
+        ],
+        "pageviews": 142185
+    },
+    {
+        "query_id": "131_210",
+        "question": "Where is Kowloon Bay Station located?",
+        "answers": [
+            "Kwun Tong District"
+        ],
+        "pageviews": 4243
+    },
+    {
+        "query_id": "131_211",
+        "question": "Where is \u0141ugowa Wola (wojew\u00f3dztwo mazowieckie) located?",
+        "answers": [
+            "Gmina Policzna"
+        ],
+        "pageviews": 381
+    },
+    {
+        "query_id": "131_212",
+        "question": "Where is Martinique's 4th constituency located?",
+        "answers": [
+            "Martinique"
+        ],
+        "pageviews": 1407
+    },
+    {
+        "query_id": "131_213",
+        "question": "Where is Sarabian located?",
+        "answers": [
+            "Dowlatabad Rural District (Kermanshah Province)"
+        ],
+        "pageviews": 871
+    },
+    {
+        "query_id": "131_214",
+        "question": "Where is Oakland Township located?",
+        "answers": [
+            "Venango County"
+        ],
+        "pageviews": 1184
+    },
+    {
+        "query_id": "131_215",
+        "question": "Where is Nanny Cay located?",
+        "answers": [
+            "British Virgin Islands"
+        ],
+        "pageviews": 2345
+    },
+    {
+        "query_id": "131_216",
+        "question": "Where is Flemish chapel located?",
+        "answers": [
+            "Madrid"
+        ],
+        "pageviews": 1238
+    },
+    {
+        "query_id": "131_217",
+        "question": "Where is Tehama County located?",
+        "answers": [
+            "California"
+        ],
+        "pageviews": 46096
+    },
+    {
+        "query_id": "131_218",
+        "question": "Where is Cumberland County located?",
+        "answers": [
+            "Pennsylvania"
+        ],
+        "pageviews": 53669
+    },
+    {
+        "query_id": "131_219",
+        "question": "Where is North Fork Little Snake River located?",
+        "answers": [
+            "Colorado"
+        ],
+        "pageviews": 614
+    },
+    {
+        "query_id": "131_220",
+        "question": "Where is Kraishte, Dobrich Province located?",
+        "answers": [
+            "General Toshevo Municipality"
+        ],
+        "pageviews": 480
+    },
+    {
+        "query_id": "131_221",
+        "question": "Where is Baghjar located?",
+        "answers": [
+            "Qasabeh-ye Sharqi Rural District"
+        ],
+        "pageviews": 1255
+    },
+    {
+        "query_id": "131_222",
+        "question": "Where is Muchedent located?",
+        "answers": [
+            "Seine-Maritime"
+        ],
+        "pageviews": 1285
+    },
+    {
+        "query_id": "131_223",
+        "question": "Where is Walters Art Museum located?",
+        "answers": [
+            "Maryland"
+        ],
+        "pageviews": 53765
+    },
+    {
+        "query_id": "131_224",
+        "question": "Where is Zbigniewice-Kolonia located?",
+        "answers": [
+            "Gmina Koprzywnica"
+        ],
+        "pageviews": 306
+    },
+    {
+        "query_id": "131_225",
+        "question": "Where is Ban Pong located?",
+        "answers": [
+            "Ratchaburi"
+        ],
+        "pageviews": 3432
+    },
+    {
+        "query_id": "131_226",
+        "question": "Where is Ridgeland located?",
+        "answers": [
+            "Dunn County"
+        ],
+        "pageviews": 2253
+    },
+    {
+        "query_id": "131_227",
+        "question": "Where is Bernic Lake located?",
+        "answers": [
+            "Manitoba"
+        ],
+        "pageviews": 2243
+    },
+    {
+        "query_id": "131_228",
+        "question": "Where is Vinneuf located?",
+        "answers": [
+            "Yonne"
+        ],
+        "pageviews": 927
+    },
+    {
+        "query_id": "131_229",
+        "question": "Where is Haste located?",
+        "answers": [
+            "Schaumburg"
+        ],
+        "pageviews": 1843
+    },
+    {
+        "query_id": "131_230",
+        "question": "Where is Servion located?",
+        "answers": [
+            "Canton of Vaud",
+            "Lavaux-Oron District"
+        ],
+        "pageviews": 3147
+    },
+    {
+        "query_id": "131_231",
+        "question": "Where is Longtian located?",
+        "answers": [
+            "Xingning"
+        ],
+        "pageviews": 302
+    },
+    {
+        "query_id": "131_232",
+        "question": "Where is Wila Umani located?",
+        "answers": [
+            "La Paz Department"
+        ],
+        "pageviews": 380
+    },
+    {
+        "query_id": "131_233",
+        "question": "Where is B\u00e2rs\u0103u located?",
+        "answers": [
+            "Satu Mare County"
+        ],
+        "pageviews": 832
+    },
+    {
+        "query_id": "131_234",
+        "question": "Where is Irvine located?",
+        "answers": [
+            "Orange County",
+            "California"
+        ],
+        "pageviews": 578849
+    },
+    {
+        "query_id": "131_235",
+        "question": "Where is H\u00e9villiers located?",
+        "answers": [
+            "Meuse"
+        ],
+        "pageviews": 828
+    },
+    {
+        "query_id": "131_236",
+        "question": "Where is Gorodishchensky District, Volgograd Oblast located?",
+        "answers": [
+            "Volgograd Oblast"
+        ],
+        "pageviews": 1590
+    },
+    {
+        "query_id": "131_237",
+        "question": "Where is Monterosi located?",
+        "answers": [
+            "Province of Viterbo"
+        ],
+        "pageviews": 4093
+    },
+    {
+        "query_id": "131_238",
+        "question": "Where is Forstfeld located?",
+        "answers": [
+            "Bas-Rhin"
+        ],
+        "pageviews": 1614
+    },
+    {
+        "query_id": "131_239",
+        "question": "Where is Nazarabad County located?",
+        "answers": [
+            "Alborz Province"
+        ],
+        "pageviews": 2266
+    },
+    {
+        "query_id": "131_240",
+        "question": "Where is Raymond located?",
+        "answers": [
+            "Breckinridge County"
+        ],
+        "pageviews": 674
+    },
+    {
+        "query_id": "131_241",
+        "question": "Where is Olustee located?",
+        "answers": [
+            "Baker County"
+        ],
+        "pageviews": 3639
+    },
+    {
+        "query_id": "131_242",
+        "question": "Where is Hartwell Dam located?",
+        "answers": [
+            "South Carolina"
+        ],
+        "pageviews": 7271
+    },
+    {
+        "query_id": "131_243",
+        "question": "Where is Blin\u00f3w Drugi located?",
+        "answers": [
+            "Gmina Szastarka"
+        ],
+        "pageviews": 309
+    },
+    {
+        "query_id": "131_244",
+        "question": "Where is Vihre\u00e4saari located?",
+        "answers": [
+            "Oulu"
+        ],
+        "pageviews": 559
+    },
+    {
+        "query_id": "131_245",
+        "question": "Where is Deh Bagh, Kuzaran located?",
+        "answers": [
+            "Sanjabi Rural District"
+        ],
+        "pageviews": 634
+    },
+    {
+        "query_id": "131_246",
+        "question": "Where is Huancavelica located?",
+        "answers": [
+            "Peru"
+        ],
+        "pageviews": 5016
+    },
+    {
+        "query_id": "131_247",
+        "question": "Where is East Orange School District located?",
+        "answers": [
+            "New Jersey"
+        ],
+        "pageviews": 3250
+    },
+    {
+        "query_id": "131_248",
+        "question": "Where is Lubn\u00e1 located?",
+        "answers": [
+            "Svitavy District"
+        ],
+        "pageviews": 672
+    },
+    {
+        "query_id": "131_249",
+        "question": "Where is Thalia Theater located?",
+        "answers": [
+            "Altstadt (Hamburg)"
+        ],
+        "pageviews": 6406
+    },
+    {
+        "query_id": "131_250",
+        "question": "Where is Moravia located?",
+        "answers": [
+            "Appanoose County"
+        ],
+        "pageviews": 4499
+    },
+    {
+        "query_id": "131_251",
+        "question": "Where is Yemmedoddi located?",
+        "answers": [
+            "Karnataka",
+            "Chikkamagaluru district"
+        ],
+        "pageviews": 729
+    },
+    {
+        "query_id": "131_252",
+        "question": "Where is Chatignonville located?",
+        "answers": [
+            "Essonne"
+        ],
+        "pageviews": 1237
+    },
+    {
+        "query_id": "131_253",
+        "question": "Where is Southwest High School located?",
+        "answers": [
+            "Minneapolis"
+        ],
+        "pageviews": 10190
+    },
+    {
+        "query_id": "131_254",
+        "question": "Where is Euroa located?",
+        "answers": [
+            "Victoria"
+        ],
+        "pageviews": 18157
+    },
+    {
+        "query_id": "131_255",
+        "question": "Where is Mazhang District located?",
+        "answers": [
+            "Zhanjiang"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "131_256",
+        "question": "Where is Poulan located?",
+        "answers": [
+            "Worth County"
+        ],
+        "pageviews": 3206
+    },
+    {
+        "query_id": "131_257",
+        "question": "Where is Tlacoachistlahuaca located?",
+        "answers": [
+            "Guerrero"
+        ],
+        "pageviews": 1418
+    },
+    {
+        "query_id": "131_258",
+        "question": "Where is Ikast-Brande Municipality located?",
+        "answers": [
+            "Central Denmark Region"
+        ],
+        "pageviews": 3011
+    },
+    {
+        "query_id": "131_259",
+        "question": "Where is Pangayarselvi located?",
+        "answers": [
+            "Tiruchirappalli district",
+            "Tamil Nadu"
+        ],
+        "pageviews": 320
+    },
+    {
+        "query_id": "131_260",
+        "question": "Where is Sai located?",
+        "answers": [
+            "Shimokita District"
+        ],
+        "pageviews": 2071
+    },
+    {
+        "query_id": "131_261",
+        "question": "Where is Abu Hail located?",
+        "answers": [
+            "Dubai"
+        ],
+        "pageviews": 17104
+    },
+    {
+        "query_id": "131_262",
+        "question": "Where is St. Martin of Tours' Church located?",
+        "answers": [
+            "New York"
+        ],
+        "pageviews": 1800
+    },
+    {
+        "query_id": "131_263",
+        "question": "Where is Bogoroditsky District located?",
+        "answers": [
+            "Tula Oblast"
+        ],
+        "pageviews": 1151
+    },
+    {
+        "query_id": "131_264",
+        "question": "Where is Jacksonport located?",
+        "answers": [
+            "Door County"
+        ],
+        "pageviews": 2966
+    },
+    {
+        "query_id": "131_265",
+        "question": "Where is Barciany located?",
+        "answers": [
+            "Gmina Barciany"
+        ],
+        "pageviews": 2398
+    },
+    {
+        "query_id": "131_266",
+        "question": "Where is Brighton railway station located?",
+        "answers": [
+            "Brighton"
+        ],
+        "pageviews": 33518
+    },
+    {
+        "query_id": "131_267",
+        "question": "Where is H\u00fcls located?",
+        "answers": [
+            "Krefeld"
+        ],
+        "pageviews": 1555
+    },
+    {
+        "query_id": "131_268",
+        "question": "Where is The Oval located?",
+        "answers": [
+            "Belfast"
+        ],
+        "pageviews": 23132
+    },
+    {
+        "query_id": "131_269",
+        "question": "Where is Qiaocheng East Station located?",
+        "answers": [
+            "Futian District"
+        ],
+        "pageviews": 957
+    },
+    {
+        "query_id": "131_270",
+        "question": "Where is Saint-Jean-de-Boiseau located?",
+        "answers": [
+            "Loire-Atlantique"
+        ],
+        "pageviews": 1253
+    },
+    {
+        "query_id": "131_271",
+        "question": "Where is Vansittart Island located?",
+        "answers": [
+            "Nunavut"
+        ],
+        "pageviews": 992
+    },
+    {
+        "query_id": "131_272",
+        "question": "Where is Akathiyoor located?",
+        "answers": [
+            "Thrissur district"
+        ],
+        "pageviews": 822
+    },
+    {
+        "query_id": "131_275",
+        "question": "Where is Balandar-e Sofla located?",
+        "answers": [
+            "Kermanshah Province"
+        ],
+        "pageviews": 422
+    },
+    {
+        "query_id": "131_276",
+        "question": "Where is Dre\u017cewo located?",
+        "answers": [
+            "Gmina Karnice"
+        ],
+        "pageviews": 431
+    },
+    {
+        "query_id": "131_277",
+        "question": "Where is McCanna-Hubbell Building located?",
+        "answers": [
+            "New Mexico"
+        ],
+        "pageviews": 1599
+    },
+    {
+        "query_id": "131_278",
+        "question": "Where is Richland Creek located?",
+        "answers": [
+            "Texas"
+        ],
+        "pageviews": 949
+    },
+    {
+        "query_id": "131_279",
+        "question": "Where is Southampton Township located?",
+        "answers": [
+            "Burlington County"
+        ],
+        "pageviews": 9136
+    },
+    {
+        "query_id": "131_280",
+        "question": "Where is Nanbu County located?",
+        "answers": [
+            "Nanchong"
+        ],
+        "pageviews": 2085
+    },
+    {
+        "query_id": "131_281",
+        "question": "Where is Wantirna located?",
+        "answers": [
+            "City of Knox"
+        ],
+        "pageviews": 12049
+    },
+    {
+        "query_id": "131_282",
+        "question": "Where is Flagy located?",
+        "answers": [
+            "Seine-et-Marne"
+        ],
+        "pageviews": 1489
+    },
+    {
+        "query_id": "131_283",
+        "question": "Where is Enochs, Texas located?",
+        "answers": [
+            "Texas"
+        ],
+        "pageviews": 2783
+    },
+    {
+        "query_id": "131_284",
+        "question": "Where is Tarrant Gunville located?",
+        "answers": [
+            "North Dorset"
+        ],
+        "pageviews": 2203
+    },
+    {
+        "query_id": "131_285",
+        "question": "Where is Obligation located?",
+        "answers": [
+            "Anne Arundel County"
+        ],
+        "pageviews": 858
+    },
+    {
+        "query_id": "131_286",
+        "question": "Where is Farallon Islands located?",
+        "answers": [
+            "San Francisco"
+        ],
+        "pageviews": 182462
+    },
+    {
+        "query_id": "131_287",
+        "question": "Where is Rekat-e Olya located?",
+        "answers": [
+            "Baqeran Rural District"
+        ],
+        "pageviews": 336
+    },
+    {
+        "query_id": "131_288",
+        "question": "Where is Marquette University High School located?",
+        "answers": [
+            "Milwaukee"
+        ],
+        "pageviews": 12590
+    },
+    {
+        "query_id": "131_289",
+        "question": "Where is Oberlunkhofen located?",
+        "answers": [
+            "Aargau",
+            "Bremgarten District"
+        ],
+        "pageviews": 1605
+    },
+    {
+        "query_id": "131_290",
+        "question": "Where is Aber-arad located?",
+        "answers": [
+            "Carmarthenshire"
+        ],
+        "pageviews": 1437
+    },
+    {
+        "query_id": "131_291",
+        "question": "Where is Tr\u0119bowiec Ma\u0142y located?",
+        "answers": [
+            "Gmina Mirzec"
+        ],
+        "pageviews": 354
+    },
+    {
+        "query_id": "131_292",
+        "question": "Where is Burrafirth located?",
+        "answers": [
+            "Shetland Islands"
+        ],
+        "pageviews": 1438
+    },
+    {
+        "query_id": "131_293",
+        "question": "Where is WNHI located?",
+        "answers": [
+            "New Hampshire"
+        ],
+        "pageviews": 1569
+    },
+    {
+        "query_id": "131_294",
+        "question": "Where is Ormoy-Villers located?",
+        "answers": [
+            "Oise"
+        ],
+        "pageviews": 963
+    },
+    {
+        "query_id": "131_295",
+        "question": "Where is Ameagle located?",
+        "answers": [
+            "Raleigh County"
+        ],
+        "pageviews": 2401
+    },
+    {
+        "query_id": "131_296",
+        "question": "Where is Aliabad-e Shamshir Bar located?",
+        "answers": [
+            "Arzuiyeh Rural District"
+        ],
+        "pageviews": 409
+    },
+    {
+        "query_id": "131_297",
+        "question": "Where is Carson located?",
+        "answers": [
+            "Gallatin County"
+        ],
+        "pageviews": 727
+    },
+    {
+        "query_id": "131_298",
+        "question": "Where is Bamble located?",
+        "answers": [
+            "Telemark"
+        ],
+        "pageviews": 7479
+    },
+    {
+        "query_id": "131_299",
+        "question": "Where is Royal Peninsula located?",
+        "answers": [
+            "Hong Kong"
+        ],
+        "pageviews": 3406
+    },
+    {
+        "query_id": "131_300",
+        "question": "Where is \u0130skenderun located?",
+        "answers": [
+            "Hatay Province"
+        ],
+        "pageviews": 92933
+    },
+    {
+        "query_id": "131_301",
+        "question": "Where is Gro\u017enjan located?",
+        "answers": [
+            "Istria County"
+        ],
+        "pageviews": 12969
+    },
+    {
+        "query_id": "131_302",
+        "question": "Where is Vailly located?",
+        "answers": [
+            "Aube"
+        ],
+        "pageviews": 1613
+    },
+    {
+        "query_id": "131_303",
+        "question": "Where is Patiram located?",
+        "answers": [
+            "Dakshin Dinajpur district"
+        ],
+        "pageviews": 2219
+    },
+    {
+        "query_id": "131_304",
+        "question": "Where is Calais located?",
+        "answers": [
+            "canton of Calais-Nord-Ouest",
+            "Pas-de-Calais",
+            "canton of Calais-Centre"
+        ],
+        "pageviews": 245709
+    },
+    {
+        "query_id": "131_305",
+        "question": "Where is Idstein located?",
+        "answers": [
+            "Rheingau-Taunus-Kreis"
+        ],
+        "pageviews": 21367
+    },
+    {
+        "query_id": "131_306",
+        "question": "Where is San Francisco Theological Seminary located?",
+        "answers": [
+            "California"
+        ],
+        "pageviews": 8479
+    },
+    {
+        "query_id": "131_307",
+        "question": "Where is Gentilly Woods located?",
+        "answers": [
+            "New Orleans"
+        ],
+        "pageviews": 2347
+    },
+    {
+        "query_id": "131_308",
+        "question": "Where is Xingcun located?",
+        "answers": [
+            "Haiyang"
+        ],
+        "pageviews": 792
+    },
+    {
+        "query_id": "131_309",
+        "question": "Where is Notre-Dame-d'\u00c9pine located?",
+        "answers": [
+            "Eure"
+        ],
+        "pageviews": 1232
+    },
+    {
+        "query_id": "131_310",
+        "question": "Where is Kukulovce located?",
+        "answers": [
+            "Leskovac"
+        ],
+        "pageviews": 743
+    },
+    {
+        "query_id": "131_311",
+        "question": "Where is Pir Salman located?",
+        "answers": [
+            "Sarab Rural District"
+        ],
+        "pageviews": 456
+    },
+    {
+        "query_id": "131_312",
+        "question": "Where is Bunny located?",
+        "answers": [
+            "Rushcliffe"
+        ],
+        "pageviews": 5495
+    },
+    {
+        "query_id": "131_313",
+        "question": "Where is Porthall located?",
+        "answers": [
+            "County Donegal"
+        ],
+        "pageviews": 2300
+    },
+    {
+        "query_id": "131_314",
+        "question": "Where is SC Hansa 1898 Bremen located?",
+        "answers": [
+            "Bremen"
+        ],
+        "pageviews": 595
+    },
+    {
+        "query_id": "131_315",
+        "question": "Where is Deckerville located?",
+        "answers": [
+            "Sanilac County"
+        ],
+        "pageviews": 3452
+    },
+    {
+        "query_id": "131_316",
+        "question": "Where is Brzeziny, Gostynin County located?",
+        "answers": [
+            "Gmina Sanniki"
+        ],
+        "pageviews": 424
+    },
+    {
+        "query_id": "131_317",
+        "question": "Where is Nerima-kasugach\u014d Station located?",
+        "answers": [
+            "Nerima-ku"
+        ],
+        "pageviews": 1209
+    },
+    {
+        "query_id": "131_318",
+        "question": "Where is \u017begocino located?",
+        "answers": [
+            "Gmina Malechowo"
+        ],
+        "pageviews": 569
+    },
+    {
+        "query_id": "131_319",
+        "question": "Where is Blakes located?",
+        "answers": [
+            "Mathews County"
+        ],
+        "pageviews": 583
+    },
+    {
+        "query_id": "131_320",
+        "question": "Where is Keystone Junior/Senior High School located?",
+        "answers": [
+            "Knox"
+        ],
+        "pageviews": 1198
+    },
+    {
+        "query_id": "131_321",
+        "question": "Where is Farim Rural District located?",
+        "answers": [
+            "Dodangeh District"
+        ],
+        "pageviews": 609
+    },
+    {
+        "query_id": "131_322",
+        "question": "Where is Tang-e Khiareh located?",
+        "answers": [
+            "Kushk-e Hezar Rural District"
+        ],
+        "pageviews": 354
+    },
+    {
+        "query_id": "131_323",
+        "question": "Where is Gotha located?",
+        "answers": [
+            "Gotha"
+        ],
+        "pageviews": 51062
+    },
+    {
+        "query_id": "131_324",
+        "question": "Where is Trebartha located?",
+        "answers": [
+            "Cornwall"
+        ],
+        "pageviews": 1417
+    },
+    {
+        "query_id": "131_325",
+        "question": "Where is Wenceslau Braz, Minas Gerais located?",
+        "answers": [
+            "Minas Gerais"
+        ],
+        "pageviews": 1616
+    },
+    {
+        "query_id": "131_326",
+        "question": "Where is La Comp\u00f4te located?",
+        "answers": [
+            "Savoie"
+        ],
+        "pageviews": 1058
+    },
+    {
+        "query_id": "131_327",
+        "question": "Where is La Chapelle-d'Align\u00e9 located?",
+        "answers": [
+            "Sarthe"
+        ],
+        "pageviews": 1307
+    },
+    {
+        "query_id": "131_328",
+        "question": "Where is Orativ Raion located?",
+        "answers": [
+            "Vinnytsia Oblast"
+        ],
+        "pageviews": 830
+    },
+    {
+        "query_id": "131_329",
+        "question": "Where is Robat Tork located?",
+        "answers": [
+            "Markazi Province"
+        ],
+        "pageviews": 579
+    },
+    {
+        "query_id": "131_330",
+        "question": "Where is Thanyaburi located?",
+        "answers": [
+            "Thanyaburi"
+        ],
+        "pageviews": 465
+    },
+    {
+        "query_id": "131_331",
+        "question": "Where is Davi Sara located?",
+        "answers": [
+            "Reza Mahalleh Rural District"
+        ],
+        "pageviews": 446
+    },
+    {
+        "query_id": "131_332",
+        "question": "Where is Rokua National Park located?",
+        "answers": [
+            "Northern Ostrobothnia"
+        ],
+        "pageviews": 1642
+    },
+    {
+        "query_id": "131_333",
+        "question": "Where is Ramshaw, Bishop Auckland located?",
+        "answers": [
+            "County Durham"
+        ],
+        "pageviews": 754
+    },
+    {
+        "query_id": "131_334",
+        "question": "Where is Rowena located?",
+        "answers": [
+            "Minnehaha County"
+        ],
+        "pageviews": 6516
+    },
+    {
+        "query_id": "131_335",
+        "question": "Where is Culberson located?",
+        "answers": [
+            "Cherokee County"
+        ],
+        "pageviews": 1680
+    },
+    {
+        "query_id": "131_336",
+        "question": "Where is Nasirnagar Upazila located?",
+        "answers": [
+            "Brahmanbaria District"
+        ],
+        "pageviews": 2621
+    },
+    {
+        "query_id": "131_337",
+        "question": "Where is Gullhella Station located?",
+        "answers": [
+            "Asker"
+        ],
+        "pageviews": 551
+    },
+    {
+        "query_id": "131_338",
+        "question": "Where is Interstate 384 located?",
+        "answers": [
+            "Connecticut"
+        ],
+        "pageviews": 5268
+    },
+    {
+        "query_id": "131_339",
+        "question": "Where is Coolmunda Dam located?",
+        "answers": [
+            "Queensland"
+        ],
+        "pageviews": 2148
+    },
+    {
+        "query_id": "131_340",
+        "question": "Where is \u0141ys\u00f3w, Masovian Voivodeship located?",
+        "answers": [
+            "Gmina Przesmyki"
+        ],
+        "pageviews": 397
+    },
+    {
+        "query_id": "131_341",
+        "question": "Where is Amirabad located?",
+        "answers": [
+            "Garmeh-ye Jonubi Rural District"
+        ],
+        "pageviews": 375
+    },
+    {
+        "query_id": "131_342",
+        "question": "Where is Barwon Heads located?",
+        "answers": [
+            "Victoria"
+        ],
+        "pageviews": 11641
+    },
+    {
+        "query_id": "131_343",
+        "question": "Where is Union Township located?",
+        "answers": [
+            "Appanoose County"
+        ],
+        "pageviews": 651
+    },
+    {
+        "query_id": "131_344",
+        "question": "Where is Empire State College located?",
+        "answers": [
+            "New York"
+        ],
+        "pageviews": 1704
+    },
+    {
+        "query_id": "131_345",
+        "question": "Where is Salmon River located?",
+        "answers": [
+            "British Columbia"
+        ],
+        "pageviews": 1034
+    },
+    {
+        "query_id": "131_346",
+        "question": "Where is Galagi located?",
+        "answers": [
+            "Karnataka",
+            "Dharwad district"
+        ],
+        "pageviews": 686
+    },
+    {
+        "query_id": "131_347",
+        "question": "Where is Kartakeh located?",
+        "answers": [
+            "Sistan and Baluchestan Province"
+        ],
+        "pageviews": 395
+    },
+    {
+        "query_id": "131_348",
+        "question": "Where is Suggs Creek located?",
+        "answers": [
+            "Wilson County"
+        ],
+        "pageviews": 876
+    },
+    {
+        "query_id": "131_349",
+        "question": "Where is Tajan, South Khorasan located?",
+        "answers": [
+            "Qaen Rural District"
+        ],
+        "pageviews": 567
+    },
+    {
+        "query_id": "131_350",
+        "question": "Where is Robleda-Cervantes located?",
+        "answers": [
+            "Zamora Province"
+        ],
+        "pageviews": 768
+    },
+    {
+        "query_id": "131_351",
+        "question": "Where is Stratford University located?",
+        "answers": [
+            "Virginia"
+        ],
+        "pageviews": 24371
+    },
+    {
+        "query_id": "131_352",
+        "question": "Where is Thenthamaraikulam located?",
+        "answers": [
+            "Kanyakumari district"
+        ],
+        "pageviews": 879
+    },
+    {
+        "query_id": "131_353",
+        "question": "Where is Split Lake, Manitoba located?",
+        "answers": [
+            "Manitoba"
+        ],
+        "pageviews": 5280
+    },
+    {
+        "query_id": "131_354",
+        "question": "Where is Shamsabad, Khalkhal located?",
+        "answers": [
+            "Khvoresh Rostam-e Shomali Rural District"
+        ],
+        "pageviews": 314
+    },
+    {
+        "query_id": "131_355",
+        "question": "Where is Juwat al-al-Muhanna located?",
+        "answers": [
+            "Hadhramaut Governorate"
+        ],
+        "pageviews": 392
+    },
+    {
+        "query_id": "131_356",
+        "question": "Where is Devalamma Naagaram located?",
+        "answers": [
+            "Telangana"
+        ],
+        "pageviews": 748
+    },
+    {
+        "query_id": "131_357",
+        "question": "Where is Benarty located?",
+        "answers": [
+            "Fife"
+        ],
+        "pageviews": 1084
+    },
+    {
+        "query_id": "131_359",
+        "question": "Where is Growler Mountains located?",
+        "answers": [
+            "Arizona"
+        ],
+        "pageviews": 1615
+    },
+    {
+        "query_id": "131_360",
+        "question": "Where is Bala, India located?",
+        "answers": [
+            "Uttar Pradesh"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "131_361",
+        "question": "Where is Gare de Conflans-Sainte-Honorine located?",
+        "answers": [
+            "Conflans-Sainte-Honorine"
+        ],
+        "pageviews": 868
+    },
+    {
+        "query_id": "131_362",
+        "question": "Where is Le Sueur County located?",
+        "answers": [
+            "Minnesota"
+        ],
+        "pageviews": 18891
+    },
+    {
+        "query_id": "131_363",
+        "question": "Where is Esperce located?",
+        "answers": [
+            "Haute-Garonne"
+        ],
+        "pageviews": 1159
+    },
+    {
+        "query_id": "131_364",
+        "question": "Where is Frienisberg Abbey located?",
+        "answers": [
+            "canton of Bern"
+        ],
+        "pageviews": 1018
+    },
+    {
+        "query_id": "131_365",
+        "question": "Where is Artukekang located?",
+        "answers": [
+            "Assam"
+        ],
+        "pageviews": 374
+    },
+    {
+        "query_id": "131_366",
+        "question": "Where is Argelia located?",
+        "answers": [
+            "Antioquia Department",
+            "Eastern Antioquia Subregion"
+        ],
+        "pageviews": 2033
+    },
+    {
+        "query_id": "131_367",
+        "question": "Where is Bredtvet located?",
+        "answers": [
+            "Bjerke"
+        ],
+        "pageviews": 963
+    },
+    {
+        "query_id": "131_368",
+        "question": "Where is Toynbee Hall located?",
+        "answers": [
+            "London Borough of Tower Hamlets"
+        ],
+        "pageviews": 23809
+    },
+    {
+        "query_id": "131_369",
+        "question": "Where is Hodge located?",
+        "answers": [
+            "San Bernardino County"
+        ],
+        "pageviews": 2046
+    },
+    {
+        "query_id": "131_370",
+        "question": "Where is Bohinjska \u010ce\u0161njica located?",
+        "answers": [
+            "Bohinj Municipality"
+        ],
+        "pageviews": 934
+    },
+    {
+        "query_id": "131_371",
+        "question": "Where is Adams National Historical Park located?",
+        "answers": [
+            "Quincy"
+        ],
+        "pageviews": 23310
+    },
+    {
+        "query_id": "131_372",
+        "question": "Where is Lagny located?",
+        "answers": [
+            "Oise"
+        ],
+        "pageviews": 1353
+    },
+    {
+        "query_id": "131_373",
+        "question": "Where is New York State Route 77 located?",
+        "answers": [
+            "New York"
+        ],
+        "pageviews": 2288
+    },
+    {
+        "query_id": "131_374",
+        "question": "Where is Shahrak-e Alam ol Hoda located?",
+        "answers": [
+            "Miyan Ab-e Shomali Rural District",
+            "Khuzestan Province"
+        ],
+        "pageviews": 435
+    },
+    {
+        "query_id": "131_375",
+        "question": "Where is Nelsonville located?",
+        "answers": [
+            "Upper Freehold Township"
+        ],
+        "pageviews": 951
+    },
+    {
+        "query_id": "131_376",
+        "question": "Where is United States Post Office located?",
+        "answers": [
+            "New York"
+        ],
+        "pageviews": 541
+    },
+    {
+        "query_id": "131_377",
+        "question": "Where is Dhodasain located?",
+        "answers": [
+            "Achham District"
+        ],
+        "pageviews": 1912
+    },
+    {
+        "query_id": "131_378",
+        "question": "Where is North Carolina Highway 33 located?",
+        "answers": [
+            "North Carolina"
+        ],
+        "pageviews": 2411
+    },
+    {
+        "query_id": "131_379",
+        "question": "Where is Mount Finke located?",
+        "answers": [
+            "South Australia"
+        ],
+        "pageviews": 868
+    },
+    {
+        "query_id": "131_380",
+        "question": "Where is WFMI located?",
+        "answers": [
+            "North Carolina"
+        ],
+        "pageviews": 2482
+    },
+    {
+        "query_id": "131_381",
+        "question": "Where is Karaj-e Olya located?",
+        "answers": [
+            "Kermanshah Province"
+        ],
+        "pageviews": 286
+    },
+    {
+        "query_id": "131_382",
+        "question": "Where is Labyrinth Mir\u00f3 located?",
+        "answers": [
+            "Saint-Paul-de-Vence"
+        ],
+        "pageviews": 2145
+    },
+    {
+        "query_id": "131_383",
+        "question": "Where is South Slough National Estuarine Research Reserve located?",
+        "answers": [
+            "Oregon"
+        ],
+        "pageviews": 1933
+    },
+    {
+        "query_id": "131_384",
+        "question": "Where is Fleet located?",
+        "answers": [
+            "West Dorset"
+        ],
+        "pageviews": 2759
+    },
+    {
+        "query_id": "131_385",
+        "question": "Where is Rionegro del Puente located?",
+        "answers": [
+            "Zamora Province"
+        ],
+        "pageviews": 981
+    },
+    {
+        "query_id": "131_386",
+        "question": "Where is Smarves located?",
+        "answers": [
+            "Vienne"
+        ],
+        "pageviews": 1040
+    },
+    {
+        "query_id": "131_387",
+        "question": "Where is Isola di Fondra located?",
+        "answers": [
+            "Province of Bergamo"
+        ],
+        "pageviews": 1009
+    },
+    {
+        "query_id": "131_388",
+        "question": "Where is Treaty of Breda located?",
+        "answers": [
+            "Breda"
+        ],
+        "pageviews": 31446
+    },
+    {
+        "query_id": "131_389",
+        "question": "Where is X\u0259l\u0259c located?",
+        "answers": [
+            "Ujar District"
+        ],
+        "pageviews": 445
+    },
+    {
+        "query_id": "131_390",
+        "question": "Where is Roes Welcome Sound located?",
+        "answers": [
+            "Nunavut"
+        ],
+        "pageviews": 2062
+    },
+    {
+        "query_id": "131_391",
+        "question": "Where is St. Bonifatius located?",
+        "answers": [
+            "Wiesbaden"
+        ],
+        "pageviews": 3785
+    },
+    {
+        "query_id": "131_392",
+        "question": "Where is Greensboro located?",
+        "answers": [
+            "Henry County"
+        ],
+        "pageviews": 2488
+    },
+    {
+        "query_id": "131_393",
+        "question": "Where is 228 Peace Memorial Park located?",
+        "answers": [
+            "Taipei"
+        ],
+        "pageviews": 10177
+    },
+    {
+        "query_id": "131_394",
+        "question": "Where is Berrien County School District located?",
+        "answers": [
+            "Nashville"
+        ],
+        "pageviews": 1321
+    },
+    {
+        "query_id": "131_395",
+        "question": "Where is East Taphouse located?",
+        "answers": [
+            "St Pinnock"
+        ],
+        "pageviews": 1299
+    },
+    {
+        "query_id": "131_396",
+        "question": "Where is Eyter located?",
+        "answers": [
+            "Lower Saxony"
+        ],
+        "pageviews": 103
+    },
+    {
+        "query_id": "131_397",
+        "question": "Where is Elgin located?",
+        "answers": [
+            "Wabasha County"
+        ],
+        "pageviews": 3094
+    },
+    {
+        "query_id": "131_398",
+        "question": "Where is Sheykh Ebrahim Bazar Arab Zehi located?",
+        "answers": [
+            "Polan District"
+        ],
+        "pageviews": 375
+    },
+    {
+        "query_id": "131_399",
+        "question": "Where is Darbandkan located?",
+        "answers": [
+            "Abtar Rural district"
+        ],
+        "pageviews": 355
+    },
+    {
+        "query_id": "131_400",
+        "question": "Where is Ba\u015f Diz\u0259 located?",
+        "answers": [
+            "Ordubad District"
+        ],
+        "pageviews": 441
+    },
+    {
+        "query_id": "131_401",
+        "question": "Where is Torgau located?",
+        "answers": [
+            "Nordsachsen"
+        ],
+        "pageviews": 38221
+    },
+    {
+        "query_id": "131_402",
+        "question": "Where is Petrikereszt\u00far located?",
+        "answers": [
+            "Zala County"
+        ],
+        "pageviews": 780
+    },
+    {
+        "query_id": "131_403",
+        "question": "Where is Dias Creek located?",
+        "answers": [
+            "Middle Township"
+        ],
+        "pageviews": 1092
+    },
+    {
+        "query_id": "131_404",
+        "question": "Where is Eastern Norway located?",
+        "answers": [
+            "Norway"
+        ],
+        "pageviews": 38982
+    },
+    {
+        "query_id": "131_405",
+        "question": "Where is East Ridge located?",
+        "answers": [
+            "Hamilton County"
+        ],
+        "pageviews": 12193
+    },
+    {
+        "query_id": "131_406",
+        "question": "Where is Faucon-du-Caire located?",
+        "answers": [
+            "Alpes-de-Haute-Provence"
+        ],
+        "pageviews": 848
+    },
+    {
+        "query_id": "131_407",
+        "question": "Where is Duljin located?",
+        "answers": [
+            "Sojas Rud Rural District"
+        ],
+        "pageviews": 458
+    },
+    {
+        "query_id": "131_409",
+        "question": "Where is Manuels River located?",
+        "answers": [
+            "Newfoundland and Labrador"
+        ],
+        "pageviews": 1531
+    },
+    {
+        "query_id": "131_410",
+        "question": "Where is 1966 European Aquatics Championships located?",
+        "answers": [
+            "Utrecht"
+        ],
+        "pageviews": 2334
+    },
+    {
+        "query_id": "131_411",
+        "question": "Where is Dropla, Dobrich Province located?",
+        "answers": [
+            "Balchik Municipality",
+            "Dobrich Province"
+        ],
+        "pageviews": 660
+    },
+    {
+        "query_id": "131_412",
+        "question": "Where is Postal River located?",
+        "answers": [
+            "West Coast Region"
+        ],
+        "pageviews": 426
+    },
+    {
+        "query_id": "131_413",
+        "question": "Where is Pennsylvania Route 332 located?",
+        "answers": [
+            "Pennsylvania"
+        ],
+        "pageviews": 2729
+    },
+    {
+        "query_id": "131_414",
+        "question": "Where is Shire of Numurkah located?",
+        "answers": [
+            "Victoria"
+        ],
+        "pageviews": 879
+    },
+    {
+        "query_id": "131_415",
+        "question": "Where is 345 Park Avenue located?",
+        "answers": [
+            "Manhattan"
+        ],
+        "pageviews": 71256
+    },
+    {
+        "query_id": "131_416",
+        "question": "Where is Villamaggiore railway halt located?",
+        "answers": [
+            "Lacchiarella"
+        ],
+        "pageviews": 542
+    },
+    {
+        "query_id": "131_417",
+        "question": "Where is Cajuri located?",
+        "answers": [
+            "Minas Gerais"
+        ],
+        "pageviews": 1608
+    },
+    {
+        "query_id": "131_418",
+        "question": "Where is Hyde Park located?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 26064
+    },
+    {
+        "query_id": "131_419",
+        "question": "Where is Suure-Jaani Rural Municipality located?",
+        "answers": [
+            "Viljandi County"
+        ],
+        "pageviews": 1091
+    },
+    {
+        "query_id": "131_420",
+        "question": "Where is Alexander Island located?",
+        "answers": [
+            "Western Australia"
+        ],
+        "pageviews": 491
+    },
+    {
+        "query_id": "131_421",
+        "question": "Where is Neville Township located?",
+        "answers": [
+            "Allegheny County"
+        ],
+        "pageviews": 7135
+    },
+    {
+        "query_id": "131_422",
+        "question": "Where is Arlington located?",
+        "answers": [
+            "Maricopa County"
+        ],
+        "pageviews": 5204
+    },
+    {
+        "query_id": "131_423",
+        "question": "Where is Lakeside located?",
+        "answers": [
+            "Jefferson County"
+        ],
+        "pageviews": 9238
+    },
+    {
+        "query_id": "131_424",
+        "question": "Where is Mosier located?",
+        "answers": [
+            "Wasco County"
+        ],
+        "pageviews": 11007
+    },
+    {
+        "query_id": "131_425",
+        "question": "Where is Baker Hotel located?",
+        "answers": [
+            "Baker"
+        ],
+        "pageviews": 597
+    },
+    {
+        "query_id": "131_426",
+        "question": "Where is Minwakh located?",
+        "answers": [
+            "Hadhramaut Governorate"
+        ],
+        "pageviews": 424
+    },
+    {
+        "query_id": "131_427",
+        "question": "Where is Dadakot located?",
+        "answers": [
+            "Darchula District"
+        ],
+        "pageviews": 346
+    },
+    {
+        "query_id": "131_428",
+        "question": "Where is Crocker Art Museum located?",
+        "answers": [
+            "Sacramento"
+        ],
+        "pageviews": 19382
+    },
+    {
+        "query_id": "131_429",
+        "question": "Where is Brumado located?",
+        "answers": [
+            "Bahia"
+        ],
+        "pageviews": 7165
+    },
+    {
+        "query_id": "131_430",
+        "question": "Where is D\u0105browa-Kaski located?",
+        "answers": [
+            "Gmina Szepietowo"
+        ],
+        "pageviews": 430
+    },
+    {
+        "query_id": "131_431",
+        "question": "Where is Kawczyn, Pomeranian Voivodeship located?",
+        "answers": [
+            "Gmina Miastko"
+        ],
+        "pageviews": 376
+    },
+    {
+        "query_id": "131_432",
+        "question": "Where is Island of the cross located?",
+        "answers": [
+            "Quebec"
+        ],
+        "pageviews": 621
+    },
+    {
+        "query_id": "131_433",
+        "question": "Where is Olombrada located?",
+        "answers": [
+            "Segovia Province"
+        ],
+        "pageviews": 939
+    },
+    {
+        "query_id": "131_434",
+        "question": "Where is Don Bosco Technical Institute located?",
+        "answers": [
+            "Rosemead"
+        ],
+        "pageviews": 10283
+    },
+    {
+        "query_id": "131_435",
+        "question": "Where is Sajadiyeh, Mazandaran located?",
+        "answers": [
+            "Langarud Rural District"
+        ],
+        "pageviews": 262
+    },
+    {
+        "query_id": "131_436",
+        "question": "Where is Kinnitty GAA located?",
+        "answers": [
+            "County Offaly"
+        ],
+        "pageviews": 1149
+    },
+    {
+        "query_id": "131_437",
+        "question": "Where is Chaharmahal and Bakhtiari Province located?",
+        "answers": [
+            "Iran"
+        ],
+        "pageviews": 11253
+    },
+    {
+        "query_id": "131_438",
+        "question": "Where is Paisco Loveno located?",
+        "answers": [
+            "Province of Brescia"
+        ],
+        "pageviews": 1228
+    },
+    {
+        "query_id": "131_439",
+        "question": "Where is Jodikasinayakanahalli located?",
+        "answers": [
+            "Karnataka"
+        ],
+        "pageviews": 403
+    },
+    {
+        "query_id": "131_440",
+        "question": "Where is Jarwal located?",
+        "answers": [
+            "Bahraich district"
+        ],
+        "pageviews": 3310
+    },
+    {
+        "query_id": "131_441",
+        "question": "Where is Pori Theatre located?",
+        "answers": [
+            "Pori"
+        ],
+        "pageviews": 908
+    },
+    {
+        "query_id": "131_442",
+        "question": "Where is Orria located?",
+        "answers": [
+            "Province of Salerno"
+        ],
+        "pageviews": 3329
+    },
+    {
+        "query_id": "131_443",
+        "question": "Where is Navo, Texas located?",
+        "answers": [
+            "Denton County"
+        ],
+        "pageviews": 2077
+    },
+    {
+        "query_id": "131_444",
+        "question": "Where is Male Sotnice located?",
+        "answers": [
+            "Kiseljak"
+        ],
+        "pageviews": 544
+    },
+    {
+        "query_id": "131_445",
+        "question": "Where is Tagam\u00f5isa located?",
+        "answers": [
+            "Kihelkonna Rural Municipality"
+        ],
+        "pageviews": 685
+    },
+    {
+        "query_id": "131_446",
+        "question": "Where is Buxi\u00e8res-l\u00e8s-Villiers located?",
+        "answers": [
+            "Haute-Marne"
+        ],
+        "pageviews": 692
+    },
+    {
+        "query_id": "131_447",
+        "question": "Where is Nagari located?",
+        "answers": [
+            "Chittoor district"
+        ],
+        "pageviews": 20397
+    },
+    {
+        "query_id": "131_448",
+        "question": "Where is Ab Chendaran-e Tal Deraz located?",
+        "answers": [
+            "Ludab Rural District"
+        ],
+        "pageviews": 453
+    },
+    {
+        "query_id": "131_449",
+        "question": "Where is Arlington High School located?",
+        "answers": [
+            "Riverside"
+        ],
+        "pageviews": 4281
+    },
+    {
+        "query_id": "131_450",
+        "question": "Where is Idaho State Highway 25 located?",
+        "answers": [
+            "Idaho"
+        ],
+        "pageviews": 1140
+    },
+    {
+        "query_id": "131_451",
+        "question": "Where is Krivosheinsky District located?",
+        "answers": [
+            "Tomsk Oblast"
+        ],
+        "pageviews": 929
+    },
+    {
+        "query_id": "131_452",
+        "question": "Where is Gilavan located?",
+        "answers": [
+            "Shal Rural District"
+        ],
+        "pageviews": 519
+    },
+    {
+        "query_id": "131_453",
+        "question": "Where is St Helier located?",
+        "answers": [
+            "London Borough of Merton",
+            "London Borough of Sutton"
+        ],
+        "pageviews": 18794
+    },
+    {
+        "query_id": "131_454",
+        "question": "Where is La Fontaine-Saint-Martin located?",
+        "answers": [
+            "Sarthe"
+        ],
+        "pageviews": 2273
+    },
+    {
+        "query_id": "131_455",
+        "question": "Where is Brzeziny, Che\u0142m County located?",
+        "answers": [
+            "Gmina Siedliszcze"
+        ],
+        "pageviews": 336
+    },
+    {
+        "query_id": "131_456",
+        "question": "Where is Putty located?",
+        "answers": [
+            "New South Wales"
+        ],
+        "pageviews": 3603
+    },
+    {
+        "query_id": "131_457",
+        "question": "Where is Kalbajar District located?",
+        "answers": [
+            "Azerbaijan"
+        ],
+        "pageviews": 21943
+    },
+    {
+        "query_id": "131_458",
+        "question": "Where is Khvor-e Khiari located?",
+        "answers": [
+            "Takht Rural District"
+        ],
+        "pageviews": 410
+    },
+    {
+        "query_id": "131_459",
+        "question": "Where is Mount Hasan located?",
+        "answers": [
+            "Aksaray Province"
+        ],
+        "pageviews": 15707
+    },
+    {
+        "query_id": "131_460",
+        "question": "Where is Port Said Stadium located?",
+        "answers": [
+            "Port Said"
+        ],
+        "pageviews": 5499
+    },
+    {
+        "query_id": "131_461",
+        "question": "Where is \u0106wikielnia located?",
+        "answers": [
+            "Gmina Stawiguda"
+        ],
+        "pageviews": 316
+    },
+    {
+        "query_id": "131_462",
+        "question": "Where is Beach City located?",
+        "answers": [
+            "Chambers County"
+        ],
+        "pageviews": 7141
+    },
+    {
+        "query_id": "131_463",
+        "question": "Where is Trz\u0119sowice located?",
+        "answers": [
+            "Gmina Zawonia"
+        ],
+        "pageviews": 310
+    },
+    {
+        "query_id": "131_464",
+        "question": "Where is Sarthe located?",
+        "answers": [
+            "Orne"
+        ],
+        "pageviews": 4948
+    },
+    {
+        "query_id": "131_465",
+        "question": "Where is Freiberg Germany Temple located?",
+        "answers": [
+            "Freiberg"
+        ],
+        "pageviews": 6844
+    },
+    {
+        "query_id": "131_466",
+        "question": "Where is Museum of Aerospace Medicine located?",
+        "answers": [
+            "San Antonio"
+        ],
+        "pageviews": 2686
+    },
+    {
+        "query_id": "131_467",
+        "question": "Where is Lucketts, Virginia located?",
+        "answers": [
+            "Loudoun County"
+        ],
+        "pageviews": 4258
+    },
+    {
+        "query_id": "131_468",
+        "question": "Where is Estadio Rub\u00e9n Guifarro located?",
+        "answers": [
+            "Catacamas"
+        ],
+        "pageviews": 1008
+    },
+    {
+        "query_id": "131_469",
+        "question": "Where is Establ\u00e9s located?",
+        "answers": [
+            "Guadalajara Province"
+        ],
+        "pageviews": 861
+    },
+    {
+        "query_id": "131_470",
+        "question": "Where is Bangalore Medical College and Research Institute located?",
+        "answers": [
+            "Bengaluru"
+        ],
+        "pageviews": 50602
+    },
+    {
+        "query_id": "131_471",
+        "question": "Where is Strohn located?",
+        "answers": [
+            "Vulkaneifel"
+        ],
+        "pageviews": 1747
+    },
+    {
+        "query_id": "131_472",
+        "question": "Where is Malta Majjistral located?",
+        "answers": [
+            "Malta"
+        ],
+        "pageviews": 2140
+    },
+    {
+        "query_id": "131_473",
+        "question": "Where is Lewis Park, Virginia located?",
+        "answers": [
+            "Virginia"
+        ],
+        "pageviews": 1012
+    },
+    {
+        "query_id": "131_474",
+        "question": "Where is K-132 (Kansas highway) located?",
+        "answers": [
+            "Kansas"
+        ],
+        "pageviews": 1007
+    },
+    {
+        "query_id": "131_475",
+        "question": "Where is Kikorze located?",
+        "answers": [
+            "Gmina Osina"
+        ],
+        "pageviews": 405
+    },
+    {
+        "query_id": "131_476",
+        "question": "Where is Woodbrook located?",
+        "answers": [
+            "Albemarle County"
+        ],
+        "pageviews": 785
+    },
+    {
+        "query_id": "131_477",
+        "question": "Where is Mandabad located?",
+        "answers": [
+            "Jabal Rural District"
+        ],
+        "pageviews": 627
+    },
+    {
+        "query_id": "131_478",
+        "question": "Where is North Lilbourn located?",
+        "answers": [
+            "New Madrid County"
+        ],
+        "pageviews": 1125
+    },
+    {
+        "query_id": "131_479",
+        "question": "Where is Seh Riz located?",
+        "answers": [
+            "Sarrud-e Shomali Rural District"
+        ],
+        "pageviews": 418
+    },
+    {
+        "query_id": "131_480",
+        "question": "Where is Sumner located?",
+        "answers": [
+            "Oxford County"
+        ],
+        "pageviews": 3770
+    },
+    {
+        "query_id": "131_481",
+        "question": "Where is Contres located?",
+        "answers": [
+            "Loir-et-Cher"
+        ],
+        "pageviews": 1519
+    },
+    {
+        "query_id": "131_482",
+        "question": "Where is Kushk, Dorud located?",
+        "answers": [
+            "Zhan Rural District"
+        ],
+        "pageviews": 472
+    },
+    {
+        "query_id": "131_483",
+        "question": "Where is \u014cmori Station located?",
+        "answers": [
+            "Kosai"
+        ],
+        "pageviews": 898
+    },
+    {
+        "query_id": "131_484",
+        "question": "Where is Ivanje Selo located?",
+        "answers": [
+            "Cerknica Municipality"
+        ],
+        "pageviews": 732
+    },
+    {
+        "query_id": "131_485",
+        "question": "Where is Sivapuram, Thanjavur district located?",
+        "answers": [
+            "Tamil Nadu"
+        ],
+        "pageviews": 173
+    },
+    {
+        "query_id": "131_486",
+        "question": "Where is Liubashivka Raion located?",
+        "answers": [
+            "Odessa Oblast"
+        ],
+        "pageviews": 1086
+    },
+    {
+        "query_id": "131_487",
+        "question": "Where is Willington Worthenbury located?",
+        "answers": [
+            "Wrexham County Borough"
+        ],
+        "pageviews": 1735
+    },
+    {
+        "query_id": "131_488",
+        "question": "Where is Ford, West Sussex located?",
+        "answers": [
+            "Arun"
+        ],
+        "pageviews": 4324
+    },
+    {
+        "query_id": "131_489",
+        "question": "Where is Gabarnmung located?",
+        "answers": [
+            "Northern Territory"
+        ],
+        "pageviews": 12478
+    },
+    {
+        "query_id": "131_490",
+        "question": "Where is McPike Mansion located?",
+        "answers": [
+            "Illinois"
+        ],
+        "pageviews": 10162
+    },
+    {
+        "query_id": "131_491",
+        "question": "Where is Columbia City located?",
+        "answers": [
+            "Columbia County"
+        ],
+        "pageviews": 4776
+    },
+    {
+        "query_id": "131_492",
+        "question": "Where is Chillum located?",
+        "answers": [
+            "Maryland"
+        ],
+        "pageviews": 16319
+    },
+    {
+        "query_id": "131_493",
+        "question": "Where is Chunhua, Hunan located?",
+        "answers": [
+            "Changsha County"
+        ],
+        "pageviews": 747
+    },
+    {
+        "query_id": "131_494",
+        "question": "Where is Namivand-e Olya located?",
+        "answers": [
+            "Chaqa Narges Rural District"
+        ],
+        "pageviews": 424
+    },
+    {
+        "query_id": "131_495",
+        "question": "Where is Qasr-e Qajar located?",
+        "answers": [
+            "Badranlu Rural District"
+        ],
+        "pageviews": 440
+    },
+    {
+        "query_id": "131_496",
+        "question": "Where is Al Husn District located?",
+        "answers": [
+            "Sana'a Governorate"
+        ],
+        "pageviews": 825
+    },
+    {
+        "query_id": "131_497",
+        "question": "Where is Pine City High School located?",
+        "answers": [
+            "Pine City"
+        ],
+        "pageviews": 1784
+    },
+    {
+        "query_id": "131_498",
+        "question": "Where is Inyokern located?",
+        "answers": [
+            "Kern County"
+        ],
+        "pageviews": 14831
+    },
+    {
+        "query_id": "131_499",
+        "question": "Where is Bhoje located?",
+        "answers": [
+            "Lamjung District"
+        ],
+        "pageviews": 694
+    },
+    {
+        "query_id": "131_500",
+        "question": "Where is Kankavli Vidhan Sabha constituency located?",
+        "answers": [
+            "Kankavli"
+        ],
+        "pageviews": 7139
+    },
+    {
+        "query_id": "131_501",
+        "question": "Where is Aliyanilai located?",
+        "answers": [
+            "Tamil Nadu",
+            "Pudukkottai district"
+        ],
+        "pageviews": 1371
+    },
+    {
+        "query_id": "131_502",
+        "question": "Where is Navalpakkam located?",
+        "answers": [
+            "Tamil Nadu"
+        ],
+        "pageviews": 1392
+    },
+    {
+        "query_id": "131_503",
+        "question": "Where is Thorhild located?",
+        "answers": [
+            "Alberta"
+        ],
+        "pageviews": 4207
+    },
+    {
+        "query_id": "131_504",
+        "question": "Where is Vanineh-ye Sofla located?",
+        "answers": [
+            "Kumasi Rural District"
+        ],
+        "pageviews": 332
+    },
+    {
+        "query_id": "131_505",
+        "question": "Where is Lilyanovo located?",
+        "answers": [
+            "Sandanski",
+            "Blagoevgrad Province"
+        ],
+        "pageviews": 625
+    },
+    {
+        "query_id": "131_506",
+        "question": "Where is CKFM-FM located?",
+        "answers": [
+            "Ontario"
+        ],
+        "pageviews": 14270
+    },
+    {
+        "query_id": "131_507",
+        "question": "Where is Deh Bagh, Borujen located?",
+        "answers": [
+            "Dowrahan Rural District"
+        ],
+        "pageviews": 291
+    },
+    {
+        "query_id": "131_508",
+        "question": "Where is Zabiele, Lower Silesian Voivodeship located?",
+        "answers": [
+            "Gmina Kotla"
+        ],
+        "pageviews": 339
+    },
+    {
+        "query_id": "131_509",
+        "question": "Where is Taoyuan City Stadium located?",
+        "answers": [
+            "Taoyuan District"
+        ],
+        "pageviews": 2331
+    },
+    {
+        "query_id": "131_510",
+        "question": "Where is Mehdishahr County located?",
+        "answers": [
+            "Semnan Province"
+        ],
+        "pageviews": 1637
+    },
+    {
+        "query_id": "131_511",
+        "question": "Where is M-22 located?",
+        "answers": [
+            "Michigan"
+        ],
+        "pageviews": 16351
+    },
+    {
+        "query_id": "131_512",
+        "question": "Where is Lend located?",
+        "answers": [
+            "Zell am See District"
+        ],
+        "pageviews": 1625
+    },
+    {
+        "query_id": "131_513",
+        "question": "Where is T\u00f5dva located?",
+        "answers": [
+            "Saku Rural Municipality"
+        ],
+        "pageviews": 567
+    },
+    {
+        "query_id": "131_514",
+        "question": "Where is Arnreit located?",
+        "answers": [
+            "Rohrbach District"
+        ],
+        "pageviews": 796
+    },
+    {
+        "query_id": "131_515",
+        "question": "Where is Gut\u00f3w Ma\u0142y located?",
+        "answers": [
+            "Gmina Grabica"
+        ],
+        "pageviews": 445
+    },
+    {
+        "query_id": "131_516",
+        "question": "Where is South Benfleet located?",
+        "answers": [
+            "Essex"
+        ],
+        "pageviews": 42520
+    },
+    {
+        "query_id": "131_517",
+        "question": "Where is Bark Ranch located?",
+        "answers": [
+            "Boulder County"
+        ],
+        "pageviews": 1474
+    },
+    {
+        "query_id": "131_518",
+        "question": "Where is Pakdasht County located?",
+        "answers": [
+            "Tehran Province"
+        ],
+        "pageviews": 2528
+    },
+    {
+        "query_id": "131_519",
+        "question": "Where is Alian\u00e7a located?",
+        "answers": [
+            "Pernambuco"
+        ],
+        "pageviews": 6711
+    },
+    {
+        "query_id": "131_520",
+        "question": "Where is Larue located?",
+        "answers": [
+            "Benton County"
+        ],
+        "pageviews": 1168
+    },
+    {
+        "query_id": "131_521",
+        "question": "Where is Monthenault located?",
+        "answers": [
+            "Aisne"
+        ],
+        "pageviews": 1026
+    },
+    {
+        "query_id": "131_522",
+        "question": "Where is Quttinirpaaq National Park located?",
+        "answers": [
+            "Qikiqtaaluk Region"
+        ],
+        "pageviews": 24505
+    },
+    {
+        "query_id": "131_523",
+        "question": "Where is Mansfeld Castle located?",
+        "answers": [
+            "Saxony-Anhalt"
+        ],
+        "pageviews": 1439
+    },
+    {
+        "query_id": "131_524",
+        "question": "Where is Ulmen located?",
+        "answers": [
+            "Cochem-Zell"
+        ],
+        "pageviews": 747
+    },
+    {
+        "query_id": "131_525",
+        "question": "Where is Sajtovi\u0107i located?",
+        "answers": [
+            "Kalesija"
+        ],
+        "pageviews": 484
+    },
+    {
+        "query_id": "131_526",
+        "question": "Where is Callowhill located?",
+        "answers": [
+            "Philadelphia"
+        ],
+        "pageviews": 4912
+    },
+    {
+        "query_id": "131_528",
+        "question": "Where is Sand Lake located?",
+        "answers": [
+            "Rensselaer County"
+        ],
+        "pageviews": 7393
+    },
+    {
+        "query_id": "131_530",
+        "question": "Where is Santa Maria della Piet\u00e0 in Camposanto dei Teutonici located?",
+        "answers": [
+            "Rome"
+        ],
+        "pageviews": 4826
+    },
+    {
+        "query_id": "131_531",
+        "question": "Where is Latium adiectum located?",
+        "answers": [
+            "Latium"
+        ],
+        "pageviews": 5981
+    },
+    {
+        "query_id": "131_532",
+        "question": "Where is Lakshmibai College located?",
+        "answers": [
+            "Delhi"
+        ],
+        "pageviews": 4656
+    },
+    {
+        "query_id": "131_533",
+        "question": "Where is Yovkovo located?",
+        "answers": [
+            "Dobrich Province",
+            "General Toshevo Municipality"
+        ],
+        "pageviews": 703
+    },
+    {
+        "query_id": "131_534",
+        "question": "Where is Lichk located?",
+        "answers": [
+            "Gegharkunik Province"
+        ],
+        "pageviews": 1709
+    },
+    {
+        "query_id": "131_535",
+        "question": "Where is Floating Sculpture No. 3 located?",
+        "answers": [
+            "Milwaukee"
+        ],
+        "pageviews": 965
+    },
+    {
+        "query_id": "131_536",
+        "question": "Where is Paamiut located?",
+        "answers": [
+            "Sermersooq"
+        ],
+        "pageviews": 12964
+    },
+    {
+        "query_id": "131_537",
+        "question": "Where is Sankt Koloman located?",
+        "answers": [
+            "Hallein District"
+        ],
+        "pageviews": 1629
+    },
+    {
+        "query_id": "131_538",
+        "question": "Where is Suleh Dugal located?",
+        "answers": [
+            "Margawar"
+        ],
+        "pageviews": 526
+    },
+    {
+        "query_id": "131_539",
+        "question": "Where is Clendening Lake located?",
+        "answers": [
+            "Ohio"
+        ],
+        "pageviews": 2059
+    },
+    {
+        "query_id": "131_540",
+        "question": "Where is Weehawken Public Library located?",
+        "answers": [
+            "New Jersey"
+        ],
+        "pageviews": 2520
+    },
+    {
+        "query_id": "131_541",
+        "question": "Where is Saint-Cloud located?",
+        "answers": [
+            "Hauts-de-Seine"
+        ],
+        "pageviews": 59545
+    },
+    {
+        "query_id": "131_542",
+        "question": "Where is The Lexington located?",
+        "answers": [
+            "Des Moines"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "131_543",
+        "question": "Where is Unterwei\u00dfbach located?",
+        "answers": [
+            "Saalfeld-Rudolstadt"
+        ],
+        "pageviews": 768
+    },
+    {
+        "query_id": "131_545",
+        "question": "Where is Anse Etoile located?",
+        "answers": [
+            "Seychelles"
+        ],
+        "pageviews": 2635
+    },
+    {
+        "query_id": "131_546",
+        "question": "Where is Barron County Pipestone Quarry located?",
+        "answers": [
+            "Barron County"
+        ],
+        "pageviews": 590
+    },
+    {
+        "query_id": "131_547",
+        "question": "Where is Jiucheng located?",
+        "answers": [
+            "Luxi County, Yunnan"
+        ],
+        "pageviews": 376
+    },
+    {
+        "query_id": "131_548",
+        "question": "Where is Nova Scotia Route 276 located?",
+        "answers": [
+            "Nova Scotia"
+        ],
+        "pageviews": 504
+    },
+    {
+        "query_id": "131_549",
+        "question": "Where is Chakkarat located?",
+        "answers": [
+            "Nakhon Ratchasima"
+        ],
+        "pageviews": 1108
+    },
+    {
+        "query_id": "131_550",
+        "question": "Where is Monango located?",
+        "answers": [
+            "Dickey County"
+        ],
+        "pageviews": 1864
+    },
+    {
+        "query_id": "131_551",
+        "question": "Where is Wye River located?",
+        "answers": [
+            "Victoria"
+        ],
+        "pageviews": 9193
+    },
+    {
+        "query_id": "131_552",
+        "question": "Where is Crystal Downs Country Club located?",
+        "answers": [
+            "Benzie County"
+        ],
+        "pageviews": 4982
+    },
+    {
+        "query_id": "131_553",
+        "question": "Where is Parian, Kermanshah located?",
+        "answers": [
+            "Kanduleh Rural District"
+        ],
+        "pageviews": 302
+    },
+    {
+        "query_id": "131_554",
+        "question": "Where is Raleigh located?",
+        "answers": [
+            "Smith County"
+        ],
+        "pageviews": 8424
+    },
+    {
+        "query_id": "131_555",
+        "question": "Where is Prata di Principato Ultra located?",
+        "answers": [
+            "Province of Avellino"
+        ],
+        "pageviews": 1776
+    },
+    {
+        "query_id": "131_556",
+        "question": "Where is Salarabad, Kurdistan located?",
+        "answers": [
+            "Yeylan-e Shomali Rural District"
+        ],
+        "pageviews": 310
+    },
+    {
+        "query_id": "131_557",
+        "question": "Where is Venango located?",
+        "answers": [
+            "Crawford County"
+        ],
+        "pageviews": 2995
+    },
+    {
+        "query_id": "131_558",
+        "question": "Where is Lisson Grove located?",
+        "answers": [
+            "City of Westminster"
+        ],
+        "pageviews": 14949
+    },
+    {
+        "query_id": "131_559",
+        "question": "Where is Warbleton located?",
+        "answers": [
+            "Wealden"
+        ],
+        "pageviews": 4317
+    },
+    {
+        "query_id": "131_560",
+        "question": "Where is Hanstholm Municipality located?",
+        "answers": [
+            "Thisted Municipality"
+        ],
+        "pageviews": 590
+    },
+    {
+        "query_id": "131_561",
+        "question": "Where is Lumda located?",
+        "answers": [
+            "Hesse"
+        ],
+        "pageviews": 751
+    },
+    {
+        "query_id": "131_562",
+        "question": "Where is Akron Junction located?",
+        "answers": [
+            "Erie County"
+        ],
+        "pageviews": 1268
+    },
+    {
+        "query_id": "131_563",
+        "question": "Where is Grant located?",
+        "answers": [
+            "Perkins County"
+        ],
+        "pageviews": 5663
+    },
+    {
+        "query_id": "131_564",
+        "question": "Where is Massaemett Mountain located?",
+        "answers": [
+            "Massachusetts"
+        ],
+        "pageviews": 1905
+    },
+    {
+        "query_id": "131_565",
+        "question": "Where is Hammoon located?",
+        "answers": [
+            "North Dorset"
+        ],
+        "pageviews": 1969
+    },
+    {
+        "query_id": "131_566",
+        "question": "Where is Lac de Morgins located?",
+        "answers": [
+            "canton of Valais"
+        ],
+        "pageviews": 539
+    },
+    {
+        "query_id": "131_567",
+        "question": "Where is Urubamba District located?",
+        "answers": [
+            "Urubamba Province"
+        ],
+        "pageviews": 716
+    },
+    {
+        "query_id": "131_568",
+        "question": "Where is Oquirrh School located?",
+        "answers": [
+            "Salt Lake City"
+        ],
+        "pageviews": 1176
+    },
+    {
+        "query_id": "131_569",
+        "question": "Where is Fredericksburg Historic District located?",
+        "answers": [
+            "Texas"
+        ],
+        "pageviews": 1923
+    },
+    {
+        "query_id": "131_570",
+        "question": "Where is Furzedown located?",
+        "answers": [
+            "London Borough of Wandsworth"
+        ],
+        "pageviews": 5366
+    },
+    {
+        "query_id": "131_571",
+        "question": "Where is Medi, India located?",
+        "answers": [
+            "Rajasthan"
+        ],
+        "pageviews": 1355
+    },
+    {
+        "query_id": "131_572",
+        "question": "Where is Kearsney, Kent located?",
+        "answers": [
+            "Kent"
+        ],
+        "pageviews": 2139
+    },
+    {
+        "query_id": "131_573",
+        "question": "Where is Parasuvaikkal located?",
+        "answers": [
+            "Kerala"
+        ],
+        "pageviews": 1705
+    },
+    {
+        "query_id": "131_574",
+        "question": "Where is North Balgowlah located?",
+        "answers": [
+            "New South Wales"
+        ],
+        "pageviews": 3058
+    },
+    {
+        "query_id": "131_575",
+        "question": "Where is Abalavadi located?",
+        "answers": [
+            "Karnataka"
+        ],
+        "pageviews": 967
+    },
+    {
+        "query_id": "131_576",
+        "question": "Where is Besozzo located?",
+        "answers": [
+            "Province of Varese"
+        ],
+        "pageviews": 2748
+    },
+    {
+        "query_id": "131_577",
+        "question": "Where is Saint-Planchers located?",
+        "answers": [
+            "Manche"
+        ],
+        "pageviews": 1228
+    },
+    {
+        "query_id": "131_578",
+        "question": "Where is Ray, South Khorasan located?",
+        "answers": [
+            "Shusef Rural District"
+        ],
+        "pageviews": 485
+    },
+    {
+        "query_id": "131_579",
+        "question": "Where is Fularji District located?",
+        "answers": [
+            "Qiqihar"
+        ],
+        "pageviews": 1738
+    },
+    {
+        "query_id": "131_580",
+        "question": "Where is Poshteh-ye Pirdad located?",
+        "answers": [
+            "Hudian Rural District"
+        ],
+        "pageviews": 253
+    },
+    {
+        "query_id": "131_581",
+        "question": "Where is Varreler B\u00e4ke located?",
+        "answers": [
+            "Lower Saxony"
+        ],
+        "pageviews": 1107
+    },
+    {
+        "query_id": "131_582",
+        "question": "Where is Wilkinson County located?",
+        "answers": [
+            "Mississippi"
+        ],
+        "pageviews": 15545
+    },
+    {
+        "query_id": "131_583",
+        "question": "Where is Gaston located?",
+        "answers": [
+            "Washington County"
+        ],
+        "pageviews": 8570
+    },
+    {
+        "query_id": "131_584",
+        "question": "Where is Roquest\u00e9ron located?",
+        "answers": [
+            "Alpes-Maritimes"
+        ],
+        "pageviews": 1436
+    },
+    {
+        "query_id": "131_585",
+        "question": "Where is Fogo Island located?",
+        "answers": [
+            "Newfoundland and Labrador"
+        ],
+        "pageviews": 53808
+    },
+    {
+        "query_id": "131_587",
+        "question": "Where is Tapik located?",
+        "answers": [
+            "Nazluchay Rural District"
+        ],
+        "pageviews": 1081
+    },
+    {
+        "query_id": "131_588",
+        "question": "Where is Quch Palang located?",
+        "answers": [
+            "Razavi Khorasan Province"
+        ],
+        "pageviews": 482
+    },
+    {
+        "query_id": "131_589",
+        "question": "Where is Lane located?",
+        "answers": [
+            "Franklin County"
+        ],
+        "pageviews": 3708
+    },
+    {
+        "query_id": "131_590",
+        "question": "Where is Commune of Ruyigi located?",
+        "answers": [
+            "Ruyigi Province"
+        ],
+        "pageviews": 386
+    },
+    {
+        "query_id": "131_591",
+        "question": "Where is Ermera located?",
+        "answers": [
+            "Ermera District"
+        ],
+        "pageviews": 3898
+    },
+    {
+        "query_id": "131_592",
+        "question": "Where is Rascheid located?",
+        "answers": [
+            "Trier-Saarburg"
+        ],
+        "pageviews": 1018
+    },
+    {
+        "query_id": "131_593",
+        "question": "Where is Toraya District located?",
+        "answers": [
+            "Aymaraes Province"
+        ],
+        "pageviews": 463
+    },
+    {
+        "query_id": "131_594",
+        "question": "Where is Nazareth College located?",
+        "answers": [
+            "New York"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "131_595",
+        "question": "Where is Eps located?",
+        "answers": [
+            "Pas-de-Calais"
+        ],
+        "pageviews": 1651
+    },
+    {
+        "query_id": "131_596",
+        "question": "Where is Wrought Iron Range Company Building located?",
+        "answers": [
+            "Missouri"
+        ],
+        "pageviews": 1047
+    },
+    {
+        "query_id": "131_597",
+        "question": "Where is Naserabad, Khuzestan located?",
+        "answers": [
+            "Cham Khalaf-e Isa Rural District"
+        ],
+        "pageviews": 221
+    },
+    {
+        "query_id": "131_598",
+        "question": "Where is Sleaford Castle located?",
+        "answers": [
+            "Sleaford"
+        ],
+        "pageviews": 4160
+    },
+    {
+        "query_id": "131_599",
+        "question": "Where is Fukuoka located?",
+        "answers": [
+            "Fukuoka Prefecture"
+        ],
+        "pageviews": 264500
+    },
+    {
+        "query_id": "131_600",
+        "question": "Where is Fairbanks Flats located?",
+        "answers": [
+            "Beloit"
+        ],
+        "pageviews": 1292
+    },
+    {
+        "query_id": "131_601",
+        "question": "Where is Saint Vincent's Catholic Medical Center located?",
+        "answers": [
+            "Manhattan"
+        ],
+        "pageviews": 30261
+    },
+    {
+        "query_id": "131_602",
+        "question": "Where is San Giorgio di Lomellina located?",
+        "answers": [
+            "Province of Pavia"
+        ],
+        "pageviews": 1033
+    },
+    {
+        "query_id": "131_603",
+        "question": "Where is Dubie, Lviv Oblast located?",
+        "answers": [
+            "Brody Raion"
+        ],
+        "pageviews": 604
+    },
+    {
+        "query_id": "131_604",
+        "question": "Where is Bresdon located?",
+        "answers": [
+            "Charente-Maritime"
+        ],
+        "pageviews": 1112
+    },
+    {
+        "query_id": "131_605",
+        "question": "Where is Archdiocese of Dubuque located?",
+        "answers": [
+            "Iowa"
+        ],
+        "pageviews": 9953
+    },
+    {
+        "query_id": "131_606",
+        "question": "Where is Micha\u0142\u00f3w, Gmina Koniecpol located?",
+        "answers": [
+            "Gmina Koniecpol"
+        ],
+        "pageviews": 365
+    },
+    {
+        "query_id": "131_607",
+        "question": "Where is Park Hotel located?",
+        "answers": [
+            "Preston"
+        ],
+        "pageviews": 3157
+    },
+    {
+        "query_id": "131_608",
+        "question": "Where is Shiner located?",
+        "answers": [
+            "Lavaca County"
+        ],
+        "pageviews": 24707
+    },
+    {
+        "query_id": "131_609",
+        "question": "Where is Puymaurin located?",
+        "answers": [
+            "Haute-Garonne"
+        ],
+        "pageviews": 1255
+    },
+    {
+        "query_id": "131_610",
+        "question": "Where is San Mart\u00edn del Casta\u00f1ar located?",
+        "answers": [
+            "Salamanca Province"
+        ],
+        "pageviews": 1300
+    },
+    {
+        "query_id": "131_611",
+        "question": "Where is Reggie Lewis Track and Athletic Center located?",
+        "answers": [
+            "Massachusetts"
+        ],
+        "pageviews": 6338
+    },
+    {
+        "query_id": "131_612",
+        "question": "Where is Steinberg located?",
+        "answers": [
+            "Schleswig-Flensburg"
+        ],
+        "pageviews": 794
+    },
+    {
+        "query_id": "131_613",
+        "question": "Where is Perth located?",
+        "answers": [
+            "Western Australia"
+        ],
+        "pageviews": 957252
+    },
+    {
+        "query_id": "131_614",
+        "question": "Where is Phillipsburg located?",
+        "answers": [
+            "Tift County"
+        ],
+        "pageviews": 1431
+    },
+    {
+        "query_id": "131_615",
+        "question": "Where is Barr Township located?",
+        "answers": [
+            "Macoupin County"
+        ],
+        "pageviews": 694
+    },
+    {
+        "query_id": "131_616",
+        "question": "Where is Pier 63 located?",
+        "answers": [
+            "Manhattan"
+        ],
+        "pageviews": 1460
+    },
+    {
+        "query_id": "131_617",
+        "question": "Where is Machipongo River located?",
+        "answers": [
+            "Virginia"
+        ],
+        "pageviews": 882
+    },
+    {
+        "query_id": "131_618",
+        "question": "Where is Wahao located?",
+        "answers": [
+            "Myitkyina District"
+        ],
+        "pageviews": 564
+    },
+    {
+        "query_id": "131_619",
+        "question": "Where is Paineiras located?",
+        "answers": [
+            "Minas Gerais"
+        ],
+        "pageviews": 1799
+    },
+    {
+        "query_id": "131_620",
+        "question": "Where is Caselle in Pittari located?",
+        "answers": [
+            "Province of Salerno"
+        ],
+        "pageviews": 1935
+    },
+    {
+        "query_id": "131_621",
+        "question": "Where is Tin Cup Oil Field located?",
+        "answers": [
+            "Utah"
+        ],
+        "pageviews": 534
+    },
+    {
+        "query_id": "131_622",
+        "question": "Where is St. Patrick's Catholic Church located?",
+        "answers": [
+            "Ohio"
+        ],
+        "pageviews": 1445
+    },
+    {
+        "query_id": "131_623",
+        "question": "Where is Makamba located?",
+        "answers": [
+            "Makamba Province"
+        ],
+        "pageviews": 2564
+    },
+    {
+        "query_id": "131_624",
+        "question": "Where is Edamulackal located?",
+        "answers": [
+            "Kollam district",
+            "Kerala"
+        ],
+        "pageviews": 2145
+    },
+    {
+        "query_id": "131_625",
+        "question": "Where is G\u0142usko Ma\u0142e located?",
+        "answers": [
+            "Gmina Karczmiska"
+        ],
+        "pageviews": 493
+    },
+    {
+        "query_id": "131_626",
+        "question": "Where is Oberhaid located?",
+        "answers": [
+            "Westerwaldkreis"
+        ],
+        "pageviews": 729
+    },
+    {
+        "query_id": "131_627",
+        "question": "Where is Villers-sous-Montrond located?",
+        "answers": [
+            "Doubs"
+        ],
+        "pageviews": 614
+    },
+    {
+        "query_id": "131_628",
+        "question": "Where is H\u0103r\u0103u located?",
+        "answers": [
+            "Hunedoara County"
+        ],
+        "pageviews": 927
+    },
+    {
+        "query_id": "131_629",
+        "question": "Where is Metal Township located?",
+        "answers": [
+            "Franklin County"
+        ],
+        "pageviews": 287
+    },
+    {
+        "query_id": "131_630",
+        "question": "Where is Greenville City Hall (Greenville, Alabama) located?",
+        "answers": [
+            "Greenville"
+        ],
+        "pageviews": 841
+    },
+    {
+        "query_id": "131_631",
+        "question": "Where is East Bengal Ground located?",
+        "answers": [
+            "Maidan"
+        ],
+        "pageviews": 15472
+    },
+    {
+        "query_id": "131_632",
+        "question": "Where is Mazurowice located?",
+        "answers": [
+            "Gmina Malczyce"
+        ],
+        "pageviews": 421
+    },
+    {
+        "query_id": "131_633",
+        "question": "Where is Rota Greca located?",
+        "answers": [
+            "Province of Cosenza"
+        ],
+        "pageviews": 1634
+    },
+    {
+        "query_id": "131_634",
+        "question": "Where is Pont Louis-Philippe located?",
+        "answers": [
+            "Paris"
+        ],
+        "pageviews": 2708
+    },
+    {
+        "query_id": "131_635",
+        "question": "Where is Lincoln Township located?",
+        "answers": [
+            "Buena Vista County"
+        ],
+        "pageviews": 650
+    },
+    {
+        "query_id": "131_636",
+        "question": "Where is Ataq District located?",
+        "answers": [
+            "Shabwah Governorate"
+        ],
+        "pageviews": 754
+    },
+    {
+        "query_id": "131_637",
+        "question": "Where is Puduvayal located?",
+        "answers": [
+            "Sivaganga District"
+        ],
+        "pageviews": 3034
+    },
+    {
+        "query_id": "131_638",
+        "question": "Where is Arida District located?",
+        "answers": [
+            "Wakayama Prefecture"
+        ],
+        "pageviews": 1258
+    },
+    {
+        "query_id": "131_639",
+        "question": "Where is Reims-la-Br\u00fbl\u00e9e located?",
+        "answers": [
+            "Marne"
+        ],
+        "pageviews": 1054
+    },
+    {
+        "query_id": "131_640",
+        "question": "Where is Florence Township located?",
+        "answers": [
+            "Burlington County"
+        ],
+        "pageviews": 10857
+    },
+    {
+        "query_id": "131_641",
+        "question": "Where is Wadi Yaroun located?",
+        "answers": [
+            "Ain Ebel"
+        ],
+        "pageviews": 1427
+    },
+    {
+        "query_id": "131_642",
+        "question": "Where is Gorzyczany located?",
+        "answers": [
+            "Gmina Samborzec"
+        ],
+        "pageviews": 295
+    },
+    {
+        "query_id": "131_643",
+        "question": "Where is Griffin's Hill located?",
+        "answers": [
+            "KwaZulu-Natal"
+        ],
+        "pageviews": 357
+    },
+    {
+        "query_id": "131_644",
+        "question": "Where is Arpelistock located?",
+        "answers": [
+            "canton of Bern",
+            "canton of Valais"
+        ],
+        "pageviews": 897
+    },
+    {
+        "query_id": "131_645",
+        "question": "Where is Wainaku located?",
+        "answers": [
+            "Hawaii County"
+        ],
+        "pageviews": 2357
+    },
+    {
+        "query_id": "131_646",
+        "question": "Where is Sacaba Municipality located?",
+        "answers": [
+            "Chapare Province"
+        ],
+        "pageviews": 1172
+    },
+    {
+        "query_id": "131_647",
+        "question": "Where is Bennett's Adventure located?",
+        "answers": [
+            "Maryland"
+        ],
+        "pageviews": 1183
+    },
+    {
+        "query_id": "131_648",
+        "question": "Where is Sadat, Khorramshahr located?",
+        "answers": [
+            "Jazireh-ye Minu Rural District"
+        ],
+        "pageviews": 357
+    },
+    {
+        "query_id": "131_649",
+        "question": "Where is Halifax Provincial Court located?",
+        "answers": [
+            "Nova Scotia"
+        ],
+        "pageviews": 2385
+    },
+    {
+        "query_id": "131_650",
+        "question": "Where is Pasadena City College located?",
+        "answers": [
+            "California"
+        ],
+        "pageviews": 46867
+    },
+    {
+        "query_id": "131_651",
+        "question": "Where is Durdat-Larequille located?",
+        "answers": [
+            "Allier"
+        ],
+        "pageviews": 823
+    },
+    {
+        "query_id": "131_652",
+        "question": "Where is Jerome, Missouri located?",
+        "answers": [
+            "Missouri"
+        ],
+        "pageviews": 1414
+    },
+    {
+        "query_id": "131_653",
+        "question": "Where is Apapelgino located?",
+        "answers": [
+            "Pevek"
+        ],
+        "pageviews": 1656
+    },
+    {
+        "query_id": "131_654",
+        "question": "Where is Peardale located?",
+        "answers": [
+            "Nevada County"
+        ],
+        "pageviews": 1278
+    },
+    {
+        "query_id": "131_655",
+        "question": "Where is Aquitania located?",
+        "answers": [
+            "Sugamuxi Province"
+        ],
+        "pageviews": 3641
+    },
+    {
+        "query_id": "131_656",
+        "question": "Where is Chataparru located?",
+        "answers": [
+            "Andhra Pradesh"
+        ],
+        "pageviews": 4176
+    },
+    {
+        "query_id": "131_657",
+        "question": "Where is San Joaquin General Hospital located?",
+        "answers": [
+            "California"
+        ],
+        "pageviews": 9752
+    },
+    {
+        "query_id": "131_658",
+        "question": "Where is Powdersville High School located?",
+        "answers": [
+            "Powdersville"
+        ],
+        "pageviews": 2522
+    },
+    {
+        "query_id": "131_659",
+        "question": "Where is Drury Run located?",
+        "answers": [
+            "Clinton County"
+        ],
+        "pageviews": 939
+    },
+    {
+        "query_id": "131_660",
+        "question": "Where is Albury located?",
+        "answers": [
+            "Guildford"
+        ],
+        "pageviews": 11924
+    },
+    {
+        "query_id": "131_661",
+        "question": "Where is Saskatchewan Highway 264 located?",
+        "answers": [
+            "Saskatchewan"
+        ],
+        "pageviews": 724
+    },
+    {
+        "query_id": "131_662",
+        "question": "Where is Still located?",
+        "answers": [
+            "Bas-Rhin"
+        ],
+        "pageviews": 1367
+    },
+    {
+        "query_id": "131_663",
+        "question": "Where is Xermam\u00e9nil located?",
+        "answers": [
+            "Meurthe-et-Moselle"
+        ],
+        "pageviews": 1037
+    },
+    {
+        "query_id": "131_664",
+        "question": "Where is Afghanistan Football Federation stadium located?",
+        "answers": [
+            "Kabul"
+        ],
+        "pageviews": 2169
+    },
+    {
+        "query_id": "131_665",
+        "question": "Where is Pulo Gadung located?",
+        "answers": [
+            "East Jakarta"
+        ],
+        "pageviews": 4878
+    },
+    {
+        "query_id": "131_666",
+        "question": "Where is Saskatchewan Highway 766 located?",
+        "answers": [
+            "Saskatchewan"
+        ],
+        "pageviews": 733
+    },
+    {
+        "query_id": "131_667",
+        "question": "Where is Teluk Intan Hospital located?",
+        "answers": [
+            "Perak"
+        ],
+        "pageviews": 1546
+    },
+    {
+        "query_id": "131_668",
+        "question": "Where is Istrian Y located?",
+        "answers": [
+            "Istria County"
+        ],
+        "pageviews": 3698
+    },
+    {
+        "query_id": "131_669",
+        "question": "Where is Dehkhoda, Mazandaran located?",
+        "answers": [
+            "Rastupey Rural District"
+        ],
+        "pageviews": 428
+    },
+    {
+        "query_id": "131_670",
+        "question": "Where is Ramsden Crays located?",
+        "answers": [
+            "Basildon"
+        ],
+        "pageviews": 1295
+    },
+    {
+        "query_id": "131_671",
+        "question": "Where is UNLV Rebels football located?",
+        "answers": [
+            "Las Vegas"
+        ],
+        "pageviews": 74561
+    },
+    {
+        "query_id": "131_672",
+        "question": "Where is UNC Health Care located?",
+        "answers": [
+            "North Carolina"
+        ],
+        "pageviews": 13139
+    },
+    {
+        "query_id": "131_673",
+        "question": "Where is Coton Hill rail crash located?",
+        "answers": [
+            "Shrewsbury"
+        ],
+        "pageviews": 2318
+    },
+    {
+        "query_id": "131_674",
+        "question": "Where is John F. Kennedy Presidential Library and Museum located?",
+        "answers": [
+            "Boston"
+        ],
+        "pageviews": 57051
+    },
+    {
+        "query_id": "131_675",
+        "question": "Where is Figueres railway station located?",
+        "answers": [
+            "Figueres"
+        ],
+        "pageviews": 1727
+    },
+    {
+        "query_id": "131_676",
+        "question": "Where is Saint-Laurent-Nouan located?",
+        "answers": [
+            "Loir-et-Cher"
+        ],
+        "pageviews": 2505
+    },
+    {
+        "query_id": "131_677",
+        "question": "Where is Fleetwood located?",
+        "answers": [
+            "Wyre"
+        ],
+        "pageviews": 79330
+    },
+    {
+        "query_id": "131_678",
+        "question": "Where is Chimaltit\u00e1n located?",
+        "answers": [
+            "Jalisco"
+        ],
+        "pageviews": 1662
+    },
+    {
+        "query_id": "131_679",
+        "question": "Where is Baniachang Upazila located?",
+        "answers": [
+            "Habiganj District"
+        ],
+        "pageviews": 8429
+    },
+    {
+        "query_id": "131_680",
+        "question": "Where is Estalkh Zir located?",
+        "answers": [
+            "Sheykh Neshin Rural District"
+        ],
+        "pageviews": 387
+    },
+    {
+        "query_id": "131_681",
+        "question": "Where is Saint-Martin-Lys located?",
+        "answers": [
+            "Aude"
+        ],
+        "pageviews": 1510
+    },
+    {
+        "query_id": "131_683",
+        "question": "Where is Wagga Wagga Marketplace located?",
+        "answers": [
+            "New South Wales"
+        ],
+        "pageviews": 2159
+    },
+    {
+        "query_id": "131_684",
+        "question": "Where is Harwich International Port located?",
+        "answers": [
+            "Essex"
+        ],
+        "pageviews": 11533
+    },
+    {
+        "query_id": "131_685",
+        "question": "Where is Kherengan located?",
+        "answers": [
+            "Jowzar Rural District"
+        ],
+        "pageviews": 421
+    },
+    {
+        "query_id": "131_686",
+        "question": "Where is Hamzehabad, Tehran located?",
+        "answers": [
+            "Kahrizak Rural District"
+        ],
+        "pageviews": 408
+    },
+    {
+        "query_id": "131_687",
+        "question": "Where is \u00c5lfoten located?",
+        "answers": [
+            "Bremanger"
+        ],
+        "pageviews": 1045
+    },
+    {
+        "query_id": "131_688",
+        "question": "Where is Jakubov located?",
+        "answers": [
+            "Malacky District"
+        ],
+        "pageviews": 989
+    },
+    {
+        "query_id": "131_689",
+        "question": "Where is Kingennie located?",
+        "answers": [
+            "Angus"
+        ],
+        "pageviews": 1007
+    },
+    {
+        "query_id": "131_690",
+        "question": "Where is Pereruela located?",
+        "answers": [
+            "Zamora Province"
+        ],
+        "pageviews": 1219
+    },
+    {
+        "query_id": "131_691",
+        "question": "Where is Jistrum located?",
+        "answers": [
+            "Tytsjerksteradiel"
+        ],
+        "pageviews": 1149
+    },
+    {
+        "query_id": "131_692",
+        "question": "Where is Uta, Sardinia located?",
+        "answers": [
+            "Province of Cagliari"
+        ],
+        "pageviews": 2025
+    },
+    {
+        "query_id": "131_693",
+        "question": "Where is Brnjaci located?",
+        "answers": [
+            "Kiseljak"
+        ],
+        "pageviews": 808
+    },
+    {
+        "query_id": "131_694",
+        "question": "Where is Anxiang County located?",
+        "answers": [
+            "Changde"
+        ],
+        "pageviews": 1777
+    },
+    {
+        "query_id": "131_695",
+        "question": "Where is \u015e\u0259hriyar located?",
+        "answers": [
+            "Sabirabad District"
+        ],
+        "pageviews": 528
+    },
+    {
+        "query_id": "131_696",
+        "question": "Where is Blandford St Mary located?",
+        "answers": [
+            "North Dorset"
+        ],
+        "pageviews": 2167
+    },
+    {
+        "query_id": "131_697",
+        "question": "Where is University Park located?",
+        "answers": [
+            "Portland"
+        ],
+        "pageviews": 2700
+    },
+    {
+        "query_id": "131_698",
+        "question": "Where is Aliabad-e Ladi located?",
+        "answers": [
+            "Dalgan Rural District"
+        ],
+        "pageviews": 351
+    },
+    {
+        "query_id": "131_699",
+        "question": "Where is Freedom Township located?",
+        "answers": [
+            "Adams County"
+        ],
+        "pageviews": 1675
+    },
+    {
+        "query_id": "131_700",
+        "question": "Where is Pattichina located?",
+        "answers": [
+            "Kerala"
+        ],
+        "pageviews": 918
+    },
+    {
+        "query_id": "131_701",
+        "question": "Where is Walters Bath No. 2 located?",
+        "answers": [
+            "Maryland"
+        ],
+        "pageviews": 1011
+    },
+    {
+        "query_id": "131_702",
+        "question": "Where is Charang, Nepal located?",
+        "answers": [
+            "Mustang District"
+        ],
+        "pageviews": 1419
+    },
+    {
+        "query_id": "131_703",
+        "question": "Where is John Wayne Airport located?",
+        "answers": [
+            "Santa Ana"
+        ],
+        "pageviews": 285839
+    },
+    {
+        "query_id": "131_704",
+        "question": "Where is Shamokin Area High School located?",
+        "answers": [
+            "Pennsylvania"
+        ],
+        "pageviews": 2127
+    },
+    {
+        "query_id": "131_705",
+        "question": "Where is Museo dell'olivo e dell'olio located?",
+        "answers": [
+            "Torgiano"
+        ],
+        "pageviews": 921
+    },
+    {
+        "query_id": "131_706",
+        "question": "Where is Sterling Forest State Park located?",
+        "answers": [
+            "New York"
+        ],
+        "pageviews": 11887
+    },
+    {
+        "query_id": "131_707",
+        "question": "Where is Osan located?",
+        "answers": [
+            "Gyeonggi Province"
+        ],
+        "pageviews": 22387
+    },
+    {
+        "query_id": "131_708",
+        "question": "Where is McComas located?",
+        "answers": [
+            "Mercer County"
+        ],
+        "pageviews": 1136
+    },
+    {
+        "query_id": "131_709",
+        "question": "Where is El Bruc located?",
+        "answers": [
+            "Anoia"
+        ],
+        "pageviews": 4164
+    },
+    {
+        "query_id": "131_710",
+        "question": "Where is WIDG located?",
+        "answers": [
+            "Michigan"
+        ],
+        "pageviews": 2561
+    },
+    {
+        "query_id": "131_711",
+        "question": "Where is Deer Lake located?",
+        "answers": [
+            "Newfoundland and Labrador"
+        ],
+        "pageviews": 48323
+    },
+    {
+        "query_id": "131_712",
+        "question": "Where is Datu Unsay located?",
+        "answers": [
+            "Maguindanao"
+        ],
+        "pageviews": 4564
+    },
+    {
+        "query_id": "131_713",
+        "question": "Where is Rifle Gap Dam located?",
+        "answers": [
+            "Garfield County"
+        ],
+        "pageviews": 932
+    },
+    {
+        "query_id": "131_714",
+        "question": "Where is Katarzynowo, Rawicz County located?",
+        "answers": [
+            "Gmina Jutrosin"
+        ],
+        "pageviews": 435
+    },
+    {
+        "query_id": "131_715",
+        "question": "Where is Rocky Mount, Tennessee located?",
+        "answers": [
+            "Tennessee"
+        ],
+        "pageviews": 2722
+    },
+    {
+        "query_id": "131_716",
+        "question": "Where is Palmdale located?",
+        "answers": [
+            "New South Wales"
+        ],
+        "pageviews": 1695
+    },
+    {
+        "query_id": "131_717",
+        "question": "Where is Zak\u0119pie, Lesser Poland Voivodeship located?",
+        "answers": [
+            "Gmina Szczucin"
+        ],
+        "pageviews": 351
+    },
+    {
+        "query_id": "131_718",
+        "question": "Where is list of New Brunswick provincial highways located?",
+        "answers": [
+            "New Brunswick"
+        ],
+        "pageviews": 9053
+    },
+    {
+        "query_id": "131_719",
+        "question": "Where is Raidighi College located?",
+        "answers": [
+            "Raidighi"
+        ],
+        "pageviews": 1072
+    },
+    {
+        "query_id": "131_720",
+        "question": "Where is Treaty of Seville located?",
+        "answers": [
+            "Seville"
+        ],
+        "pageviews": 3119
+    },
+    {
+        "query_id": "131_721",
+        "question": "Where is Benedict located?",
+        "answers": [
+            "Hubbard County"
+        ],
+        "pageviews": 820
+    },
+    {
+        "query_id": "131_722",
+        "question": "Where is Refuge de Rosuel located?",
+        "answers": [
+            "Savoie"
+        ],
+        "pageviews": 394
+    },
+    {
+        "query_id": "131_723",
+        "question": "Where is Cremorne Gardens located?",
+        "answers": [
+            "Chelsea"
+        ],
+        "pageviews": 9210
+    },
+    {
+        "query_id": "131_724",
+        "question": "Where is Denshaw located?",
+        "answers": [
+            "Saddleworth"
+        ],
+        "pageviews": 4489
+    },
+    {
+        "query_id": "131_725",
+        "question": "Where is Ramnagar, Kulti located?",
+        "answers": [
+            "Bardhaman district"
+        ],
+        "pageviews": 1273
+    },
+    {
+        "query_id": "131_726",
+        "question": "Where is Drumnadrochit located?",
+        "answers": [
+            "Highland"
+        ],
+        "pageviews": 21154
+    },
+    {
+        "query_id": "131_727",
+        "question": "Where is Posey County located?",
+        "answers": [
+            "Indiana"
+        ],
+        "pageviews": 21490
+    },
+    {
+        "query_id": "131_728",
+        "question": "Where is Wohlenschwil located?",
+        "answers": [
+            "Aargau"
+        ],
+        "pageviews": 1325
+    },
+    {
+        "query_id": "131_729",
+        "question": "Where is Walmsgate located?",
+        "answers": [
+            "East Lindsey"
+        ],
+        "pageviews": 1259
+    },
+    {
+        "query_id": "131_730",
+        "question": "Where is Mabel Lake Provincial Park located?",
+        "answers": [
+            "British Columbia"
+        ],
+        "pageviews": 1267
+    },
+    {
+        "query_id": "131_731",
+        "question": "Where is Dasht-e Zahmatkeshan located?",
+        "answers": [
+            "Kavirat Rural District (Kerman Province)"
+        ],
+        "pageviews": 407
+    },
+    {
+        "query_id": "131_732",
+        "question": "Where is La Salle-les-Alpes located?",
+        "answers": [
+            "Hautes-Alpes"
+        ],
+        "pageviews": 2269
+    },
+    {
+        "query_id": "131_733",
+        "question": "Where is Bhawanigarh located?",
+        "answers": [
+            "Sangrur district"
+        ],
+        "pageviews": 9312
+    },
+    {
+        "query_id": "131_734",
+        "question": "Where is Stinchcombe located?",
+        "answers": [
+            "Stroud"
+        ],
+        "pageviews": 7397
+    },
+    {
+        "query_id": "131_735",
+        "question": "Where is Patrick's Point State Park located?",
+        "answers": [
+            "California"
+        ],
+        "pageviews": 7425
+    },
+    {
+        "query_id": "131_736",
+        "question": "Where is Appleby Parva located?",
+        "answers": [
+            "Appleby Magna"
+        ],
+        "pageviews": 2496
+    },
+    {
+        "query_id": "131_737",
+        "question": "Where is Georges Road, New Jersey located?",
+        "answers": [
+            "North Brunswick"
+        ],
+        "pageviews": 277
+    },
+    {
+        "query_id": "131_738",
+        "question": "Where is Kiidj\u00e4rve located?",
+        "answers": [
+            "Vastse-Kuuste vald"
+        ],
+        "pageviews": 1077
+    },
+    {
+        "query_id": "131_739",
+        "question": "Where is TID Tower located?",
+        "answers": [
+            "Tirana"
+        ],
+        "pageviews": 6443
+    },
+    {
+        "query_id": "131_740",
+        "question": "Where is Dupiq located?",
+        "answers": [
+            "Azghan Rural District"
+        ],
+        "pageviews": 473
+    },
+    {
+        "query_id": "131_741",
+        "question": "Where is Basai located?",
+        "answers": [
+            "Haryana"
+        ],
+        "pageviews": 4026
+    },
+    {
+        "query_id": "131_742",
+        "question": "Where is Wild Thing located?",
+        "answers": [
+            "Shakopee"
+        ],
+        "pageviews": 13419
+    },
+    {
+        "query_id": "131_743",
+        "question": "Where is Leszno, Kutno County located?",
+        "answers": [
+            "Gmina Kutno"
+        ],
+        "pageviews": 500
+    },
+    {
+        "query_id": "131_744",
+        "question": "Where is Azoy\u00fa Municipality located?",
+        "answers": [
+            "Guerrero"
+        ],
+        "pageviews": 562
+    },
+    {
+        "query_id": "131_745",
+        "question": "Where is Podolsze located?",
+        "answers": [
+            "Gmina Zator"
+        ],
+        "pageviews": 651
+    },
+    {
+        "query_id": "131_746",
+        "question": "Where is Racine Lutheran High School located?",
+        "answers": [
+            "Racine"
+        ],
+        "pageviews": 1440
+    },
+    {
+        "query_id": "131_747",
+        "question": "Where is California State Route 166 located?",
+        "answers": [
+            "California"
+        ],
+        "pageviews": 7668
+    },
+    {
+        "query_id": "131_748",
+        "question": "Where is Thebes located?",
+        "answers": [
+            "Boeotia Regional Unit"
+        ],
+        "pageviews": 294663
+    },
+    {
+        "query_id": "131_749",
+        "question": "Where is Arlington Township located?",
+        "answers": [
+            "Sibley County"
+        ],
+        "pageviews": 570
+    },
+    {
+        "query_id": "131_750",
+        "question": "Where is Burdette located?",
+        "answers": [
+            "Greenbrier County"
+        ],
+        "pageviews": 654
+    },
+    {
+        "query_id": "131_751",
+        "question": "Where is Biei located?",
+        "answers": [
+            "Kamikawa Subprefecture"
+        ],
+        "pageviews": 7531
+    },
+    {
+        "query_id": "131_752",
+        "question": "Where is West Newton, Norfolk located?",
+        "answers": [
+            "Norfolk"
+        ],
+        "pageviews": 1856
+    },
+    {
+        "query_id": "131_753",
+        "question": "Where is Charles River Bridge located?",
+        "answers": [
+            "Massachusetts"
+        ],
+        "pageviews": 2263
+    },
+    {
+        "query_id": "131_754",
+        "question": "Where is Deh Now, Delfan located?",
+        "answers": [
+            "Nurali Rural District"
+        ],
+        "pageviews": 291
+    },
+    {
+        "query_id": "131_755",
+        "question": "Where is Barsauli located?",
+        "answers": [
+            "Rupandehi District"
+        ],
+        "pageviews": 418
+    },
+    {
+        "query_id": "131_756",
+        "question": "Where is Pallant House Gallery located?",
+        "answers": [
+            "Chichester"
+        ],
+        "pageviews": 7134
+    },
+    {
+        "query_id": "131_757",
+        "question": "Where is Bhaluka Upazila located?",
+        "answers": [
+            "Mymensingh District"
+        ],
+        "pageviews": 8960
+    },
+    {
+        "query_id": "131_758",
+        "question": "Where is Walne located?",
+        "answers": [
+            "Gmina Nowinka"
+        ],
+        "pageviews": 657
+    },
+    {
+        "query_id": "131_759",
+        "question": "Where is Magazine located?",
+        "answers": [
+            "Logan County"
+        ],
+        "pageviews": 4540
+    },
+    {
+        "query_id": "131_760",
+        "question": "Where is Pine Apple located?",
+        "answers": [
+            "Wilcox County"
+        ],
+        "pageviews": 10023
+    },
+    {
+        "query_id": "131_761",
+        "question": "Where is Gaga'ifomauga located?",
+        "answers": [
+            "Samoa"
+        ],
+        "pageviews": 1207
+    },
+    {
+        "query_id": "131_762",
+        "question": "Where is County Route 543 located?",
+        "answers": [
+            "New Jersey"
+        ],
+        "pageviews": 1652
+    },
+    {
+        "query_id": "131_763",
+        "question": "Where is Lea Marston located?",
+        "answers": [
+            "North Warwickshire"
+        ],
+        "pageviews": 2077
+    },
+    {
+        "query_id": "131_764",
+        "question": "Where is St. Arvans located?",
+        "answers": [
+            "Monmouthshire"
+        ],
+        "pageviews": 2080
+    },
+    {
+        "query_id": "131_765",
+        "question": "Where is Mascarville located?",
+        "answers": [
+            "Haute-Garonne"
+        ],
+        "pageviews": 946
+    },
+    {
+        "query_id": "131_766",
+        "question": "Where is Ch\u00e2teauponsac located?",
+        "answers": [
+            "Haute-Vienne"
+        ],
+        "pageviews": 2408
+    },
+    {
+        "query_id": "131_767",
+        "question": "Where is Whenuakura River located?",
+        "answers": [
+            "Taranaki Region"
+        ],
+        "pageviews": 839
+    },
+    {
+        "query_id": "131_768",
+        "question": "Where is Lawrence High School located?",
+        "answers": [
+            "New York"
+        ],
+        "pageviews": 11591
+    },
+    {
+        "query_id": "131_769",
+        "question": "Where is Castaic located?",
+        "answers": [
+            "Los Angeles County"
+        ],
+        "pageviews": 70094
+    },
+    {
+        "query_id": "131_770",
+        "question": "Where is Killai located?",
+        "answers": [
+            "Cuddalore district"
+        ],
+        "pageviews": 1891
+    },
+    {
+        "query_id": "131_771",
+        "question": "Where is Bharkhar located?",
+        "answers": [
+            "Bihar"
+        ],
+        "pageviews": 877
+    },
+    {
+        "query_id": "131_772",
+        "question": "Where is Miyamura Station located?",
+        "answers": [
+            "Miyazu"
+        ],
+        "pageviews": 504
+    },
+    {
+        "query_id": "131_773",
+        "question": "Where is Naradagadde located?",
+        "answers": [
+            "Karnataka"
+        ],
+        "pageviews": 1925
+    },
+    {
+        "query_id": "131_774",
+        "question": "Where is Vidyadhiraja Vidya Bhavan Higher Secondary School located?",
+        "answers": [
+            "Kerala"
+        ],
+        "pageviews": 2356
+    },
+    {
+        "query_id": "131_775",
+        "question": "Where is Burderop Park located?",
+        "answers": [
+            "Chiseldon"
+        ],
+        "pageviews": 3071
+    },
+    {
+        "query_id": "131_776",
+        "question": "Where is Galle Face Green located?",
+        "answers": [
+            "Colombo"
+        ],
+        "pageviews": 35598
+    },
+    {
+        "query_id": "131_777",
+        "question": "Where is Dash-e Darageh located?",
+        "answers": [
+            "Almahdi Rural District (West Azerbaijan Province)"
+        ],
+        "pageviews": 374
+    },
+    {
+        "query_id": "131_778",
+        "question": "Where is Montpelier located?",
+        "answers": [
+            "Williams County"
+        ],
+        "pageviews": 9953
+    },
+    {
+        "query_id": "131_779",
+        "question": "Where is Drogowa Trasa \u015arednicowa located?",
+        "answers": [
+            "Katowice"
+        ],
+        "pageviews": 1792
+    },
+    {
+        "query_id": "131_780",
+        "question": "Where is Shandon Rovers GAA located?",
+        "answers": [
+            "County Waterford"
+        ],
+        "pageviews": 812
+    },
+    {
+        "query_id": "131_781",
+        "question": "Where is Thirukoyilur block located?",
+        "answers": [
+            "Tamil Nadu"
+        ],
+        "pageviews": 302
+    },
+    {
+        "query_id": "131_782",
+        "question": "Where is Makham Sung located?",
+        "answers": [
+            "Mueang Phitsanulok"
+        ],
+        "pageviews": 632
+    },
+    {
+        "query_id": "131_783",
+        "question": "Where is Samut Sakhon located?",
+        "answers": [
+            "Thailand"
+        ],
+        "pageviews": 15959
+    },
+    {
+        "query_id": "131_784",
+        "question": "Where is Teakettle Mountain located?",
+        "answers": [
+            "Colorado"
+        ],
+        "pageviews": 1516
+    },
+    {
+        "query_id": "131_785",
+        "question": "Where is Cantanhede located?",
+        "answers": [
+            "Coimbra District"
+        ],
+        "pageviews": 5749
+    },
+    {
+        "query_id": "131_786",
+        "question": "Where is Offutt Air Force Base located?",
+        "answers": [
+            "Sarpy County"
+        ],
+        "pageviews": 122117
+    },
+    {
+        "query_id": "131_787",
+        "question": "Where is Dastjerd, Khorrambid located?",
+        "answers": [
+            "Khorrami Rural District"
+        ],
+        "pageviews": 396
+    },
+    {
+        "query_id": "131_788",
+        "question": "Where is Asrabad-e Tazeh located?",
+        "answers": [
+            "Sarkal Rural District"
+        ],
+        "pageviews": 540
+    },
+    {
+        "query_id": "131_789",
+        "question": "Where is Dadri located?",
+        "answers": [
+            "Gautam Buddh Nagar district"
+        ],
+        "pageviews": 35821
+    },
+    {
+        "query_id": "131_790",
+        "question": "Where is Purulia Sadar West subdivision located?",
+        "answers": [
+            "Purulia district"
+        ],
+        "pageviews": 1427
+    },
+    {
+        "query_id": "131_791",
+        "question": "Where is Guthrie Center located?",
+        "answers": [
+            "Guthrie County"
+        ],
+        "pageviews": 7164
+    },
+    {
+        "query_id": "131_792",
+        "question": "Where is Hickory located?",
+        "answers": [
+            "Harford County"
+        ],
+        "pageviews": 1225
+    },
+    {
+        "query_id": "131_793",
+        "question": "Where is Moosbach located?",
+        "answers": [
+            "Rhineland-Palatinate"
+        ],
+        "pageviews": 547
+    },
+    {
+        "query_id": "131_795",
+        "question": "Where is New Jersey Meadowlands located?",
+        "answers": [
+            "New Jersey"
+        ],
+        "pageviews": 37223
+    },
+    {
+        "query_id": "131_796",
+        "question": "Where is Futani located?",
+        "answers": [
+            "Province of Salerno"
+        ],
+        "pageviews": 3533
+    },
+    {
+        "query_id": "131_797",
+        "question": "Where is St. Charles located?",
+        "answers": [
+            "Lee County"
+        ],
+        "pageviews": 5984
+    },
+    {
+        "query_id": "131_798",
+        "question": "Where is Witheridge located?",
+        "answers": [
+            "North Devon"
+        ],
+        "pageviews": 4955
+    },
+    {
+        "query_id": "131_799",
+        "question": "Where is Pennsylvania Route 462 located?",
+        "answers": [
+            "Pennsylvania"
+        ],
+        "pageviews": 3342
+    },
+    {
+        "query_id": "131_800",
+        "question": "Where is Yakutsk located?",
+        "answers": [
+            "Yakut Autonomous Soviet Socialist Republic",
+            "Sakha Republic"
+        ],
+        "pageviews": 794417
+    },
+    {
+        "query_id": "131_801",
+        "question": "Where is Jordans located?",
+        "answers": [
+            "Buckinghamshire"
+        ],
+        "pageviews": 14764
+    },
+    {
+        "query_id": "131_802",
+        "question": "Where is Agriculture in Puerto Rico located?",
+        "answers": [
+            "Puerto Rico"
+        ],
+        "pageviews": 8618
+    },
+    {
+        "query_id": "131_803",
+        "question": "Where is Whashton located?",
+        "answers": [
+            "Richmondshire"
+        ],
+        "pageviews": 1385
+    },
+    {
+        "query_id": "131_804",
+        "question": "Where is Lime Stardom located?",
+        "answers": [
+            "Hong Kong"
+        ],
+        "pageviews": 1187
+    },
+    {
+        "query_id": "131_805",
+        "question": "Where is Cragford located?",
+        "answers": [
+            "Clay County"
+        ],
+        "pageviews": 1548
+    },
+    {
+        "query_id": "131_806",
+        "question": "Where is Bur Salah located?",
+        "answers": [
+            "Mudug"
+        ],
+        "pageviews": 1764
+    },
+    {
+        "query_id": "131_807",
+        "question": "Where is Dylaki located?",
+        "answers": [
+            "Gmina Ozimek"
+        ],
+        "pageviews": 591
+    },
+    {
+        "query_id": "131_808",
+        "question": "Where is Chelopech located?",
+        "answers": [
+            "Sofia Province"
+        ],
+        "pageviews": 2129
+    },
+    {
+        "query_id": "131_809",
+        "question": "Where is Touffreville-la-Corbeline located?",
+        "answers": [
+            "Seine-Maritime"
+        ],
+        "pageviews": 972
+    },
+    {
+        "query_id": "131_810",
+        "question": "Where is Radley railway station located?",
+        "answers": [
+            "Radley"
+        ],
+        "pageviews": 4030
+    },
+    {
+        "query_id": "131_811",
+        "question": "Where is Alameda County located?",
+        "answers": [
+            "California"
+        ],
+        "pageviews": 246382
+    },
+    {
+        "query_id": "131_812",
+        "question": "Where is \u0179r\u00f3d\u0142a, Lesser Poland Voivodeship located?",
+        "answers": [
+            "Gmina Alwernia"
+        ],
+        "pageviews": 527
+    },
+    {
+        "query_id": "131_813",
+        "question": "Where is Gournay-le-Gu\u00e9rin located?",
+        "answers": [
+            "Eure"
+        ],
+        "pageviews": 1327
+    },
+    {
+        "query_id": "131_814",
+        "question": "Where is Grens located?",
+        "answers": [
+            "Canton of Vaud",
+            "Nyon District"
+        ],
+        "pageviews": 2293
+    },
+    {
+        "query_id": "131_815",
+        "question": "Where is Evergreen, Edmonton located?",
+        "answers": [
+            "Edmonton"
+        ],
+        "pageviews": 2445
+    },
+    {
+        "query_id": "131_816",
+        "question": "Where is D\u0105br\u00f3wka, Radomsko County located?",
+        "answers": [
+            "Gmina Radomsko"
+        ],
+        "pageviews": 373
+    },
+    {
+        "query_id": "131_817",
+        "question": "Where is Egnar located?",
+        "answers": [
+            "San Miguel County"
+        ],
+        "pageviews": 2129
+    },
+    {
+        "query_id": "131_818",
+        "question": "Where is Redbank located?",
+        "answers": [
+            "Queensland"
+        ],
+        "pageviews": 10596
+    },
+    {
+        "query_id": "131_819",
+        "question": "Where is Central Lakes located?",
+        "answers": [
+            "St. Louis County"
+        ],
+        "pageviews": 1024
+    },
+    {
+        "query_id": "131_820",
+        "question": "Where is Omar, Bushehr located?",
+        "answers": [
+            "Ahram Rural District"
+        ],
+        "pageviews": 390
+    },
+    {
+        "query_id": "131_821",
+        "question": "Where is Murtigh located?",
+        "answers": [
+            "Tabas-e Masina Rural District"
+        ],
+        "pageviews": 399
+    },
+    {
+        "query_id": "131_822",
+        "question": "Where is MES Kishora Kendra School located?",
+        "answers": [
+            "Karnataka"
+        ],
+        "pageviews": 2787
+    },
+    {
+        "query_id": "131_824",
+        "question": "Where is P. Mettupalayam located?",
+        "answers": [
+            "Erode district"
+        ],
+        "pageviews": 856
+    },
+    {
+        "query_id": "131_825",
+        "question": "Where is Selja located?",
+        "answers": [
+            "Leisi Rural Municipality"
+        ],
+        "pageviews": 395
+    },
+    {
+        "query_id": "131_826",
+        "question": "Where is \u00c9glise Sainte-Genevi\u00e8ve located?",
+        "answers": [
+            "Montreal"
+        ],
+        "pageviews": 1742
+    },
+    {
+        "query_id": "131_827",
+        "question": "Where is Texas State Highway Spur 501 located?",
+        "answers": [
+            "Texas"
+        ],
+        "pageviews": 526
+    },
+    {
+        "query_id": "131_828",
+        "question": "Where is Moomin World located?",
+        "answers": [
+            "Naantali"
+        ],
+        "pageviews": 25669
+    },
+    {
+        "query_id": "131_829",
+        "question": "Where is Clover Hill located?",
+        "answers": [
+            "Maryland"
+        ],
+        "pageviews": 887
+    },
+    {
+        "query_id": "131_830",
+        "question": "Where is Wawer located?",
+        "answers": [
+            "Warsaw"
+        ],
+        "pageviews": 5790
+    },
+    {
+        "query_id": "131_831",
+        "question": "Where is Bezek, Poland located?",
+        "answers": [
+            "Gmina Siedliszcze"
+        ],
+        "pageviews": 501
+    },
+    {
+        "query_id": "131_832",
+        "question": "Where is Colonel Zadok A. Magruder High School located?",
+        "answers": [
+            "Maryland"
+        ],
+        "pageviews": 1178
+    },
+    {
+        "query_id": "131_833",
+        "question": "Where is Brimson located?",
+        "answers": [
+            "St. Louis County"
+        ],
+        "pageviews": 2677
+    },
+    {
+        "query_id": "131_834",
+        "question": "Where is Wrentham located?",
+        "answers": [
+            "Norfolk County"
+        ],
+        "pageviews": 20241
+    },
+    {
+        "query_id": "131_835",
+        "question": "Where is West Virginia Route 39 located?",
+        "answers": [
+            "West Virginia"
+        ],
+        "pageviews": 1989
+    },
+    {
+        "query_id": "131_836",
+        "question": "Where is Oneida Lake located?",
+        "answers": [
+            "New York"
+        ],
+        "pageviews": 32615
+    },
+    {
+        "query_id": "131_837",
+        "question": "Where is Komar\u00f3wka located?",
+        "answers": [
+            "Gmina Sosnowica"
+        ],
+        "pageviews": 658
+    },
+    {
+        "query_id": "131_838",
+        "question": "Where is University House, Berkeley located?",
+        "answers": [
+            "California"
+        ],
+        "pageviews": 10540
+    },
+    {
+        "query_id": "131_839",
+        "question": "Where is Villenauxe-la-Petite located?",
+        "answers": [
+            "Seine-et-Marne"
+        ],
+        "pageviews": 1099
+    },
+    {
+        "query_id": "131_840",
+        "question": "Where is Valley Hi located?",
+        "answers": [
+            "Logan County"
+        ],
+        "pageviews": 1919
+    },
+    {
+        "query_id": "131_841",
+        "question": "Where is Vatani Stadium located?",
+        "answers": [
+            "Qaem Shahr"
+        ],
+        "pageviews": 2310
+    },
+    {
+        "query_id": "131_842",
+        "question": "Where is Sierakowska Huta located?",
+        "answers": [
+            "Gmina Sierakowice"
+        ],
+        "pageviews": 984
+    },
+    {
+        "query_id": "131_843",
+        "question": "Where is Greina located?",
+        "answers": [
+            "Ticino"
+        ],
+        "pageviews": 1526
+    },
+    {
+        "query_id": "131_844",
+        "question": "Where is Embassy of Iran, Moscow located?",
+        "answers": [
+            "Moscow"
+        ],
+        "pageviews": 2087
+    },
+    {
+        "query_id": "131_845",
+        "question": "Where is Ath\u00e9e located?",
+        "answers": [
+            "Mayenne"
+        ],
+        "pageviews": 875
+    },
+    {
+        "query_id": "131_846",
+        "question": "Where is Champasak Province located?",
+        "answers": [
+            "Laos"
+        ],
+        "pageviews": 15051
+    },
+    {
+        "query_id": "131_847",
+        "question": "Where is St. Elmo located?",
+        "answers": [
+            "Mobile County"
+        ],
+        "pageviews": 2437
+    },
+    {
+        "query_id": "131_848",
+        "question": "Where is Parthenope University of Naples located?",
+        "answers": [
+            "Naples"
+        ],
+        "pageviews": 8108
+    },
+    {
+        "query_id": "131_849",
+        "question": "Where is Paillet located?",
+        "answers": [
+            "Gironde"
+        ],
+        "pageviews": 1701
+    },
+    {
+        "query_id": "131_850",
+        "question": "Where is Lyseren located?",
+        "answers": [
+            "Enebakk",
+            "Spydeberg"
+        ],
+        "pageviews": 1708
+    },
+    {
+        "query_id": "131_851",
+        "question": "Where is Polign\u00e9 located?",
+        "answers": [
+            "Ille-et-Vilaine"
+        ],
+        "pageviews": 966
+    },
+    {
+        "query_id": "131_852",
+        "question": "Where is Castelnuovo located?",
+        "answers": [
+            "Trentino"
+        ],
+        "pageviews": 1550
+    },
+    {
+        "query_id": "131_853",
+        "question": "Where is Incl\u00e1n located?",
+        "answers": [
+            "Tacna Province"
+        ],
+        "pageviews": 377
+    },
+    {
+        "query_id": "131_854",
+        "question": "Where is Sweeny located?",
+        "answers": [
+            "Brazoria County"
+        ],
+        "pageviews": 10234
+    },
+    {
+        "query_id": "131_855",
+        "question": "Where is Dobra, West Virginia located?",
+        "answers": [
+            "Logan County"
+        ],
+        "pageviews": 775
+    },
+    {
+        "query_id": "131_856",
+        "question": "Where is Candor located?",
+        "answers": [
+            "Tioga County"
+        ],
+        "pageviews": 6088
+    },
+    {
+        "query_id": "131_857",
+        "question": "Where is Nehren located?",
+        "answers": [
+            "Cochem-Zell"
+        ],
+        "pageviews": 798
+    },
+    {
+        "query_id": "131_858",
+        "question": "Where is Hemmatabad-e Vahab located?",
+        "answers": [
+            "Gonbaki District"
+        ],
+        "pageviews": 324
+    },
+    {
+        "query_id": "131_859",
+        "question": "Where is Chimmanchod located?",
+        "answers": [
+            "Karnataka"
+        ],
+        "pageviews": 838
+    },
+    {
+        "query_id": "131_860",
+        "question": "Where is Stoilovo located?",
+        "answers": [
+            "Malko Tarnovo Municipality",
+            "Burgas Province"
+        ],
+        "pageviews": 765
+    },
+    {
+        "query_id": "131_861",
+        "question": "Where is Marudanallur located?",
+        "answers": [
+            "Kumbakonam Taluk",
+            "Tamil Nadu"
+        ],
+        "pageviews": 916
+    },
+    {
+        "query_id": "131_862",
+        "question": "Where is Save Mart Center located?",
+        "answers": [
+            "Fresno"
+        ],
+        "pageviews": 20404
+    },
+    {
+        "query_id": "131_863",
+        "question": "Where is King Cove Airport located?",
+        "answers": [
+            "Alaska"
+        ],
+        "pageviews": 2351
+    },
+    {
+        "query_id": "131_864",
+        "question": "Where is Hopperstad Stave Church located?",
+        "answers": [
+            "Vik"
+        ],
+        "pageviews": 9606
+    },
+    {
+        "query_id": "131_865",
+        "question": "Where is Zalesie, Opole Voivodeship located?",
+        "answers": [
+            "Gmina Domaszowice"
+        ],
+        "pageviews": 333
+    },
+    {
+        "query_id": "131_866",
+        "question": "Where is Kumarganj community development block located?",
+        "answers": [
+            "Dakshin Dinajpur district"
+        ],
+        "pageviews": 3395
+    },
+    {
+        "query_id": "131_867",
+        "question": "Where is Elysian located?",
+        "answers": [
+            "Minnesota"
+        ],
+        "pageviews": 4508
+    },
+    {
+        "query_id": "131_868",
+        "question": "Where is Nowdeh-e Olya located?",
+        "answers": [
+            "Doreh Rural District"
+        ],
+        "pageviews": 371
+    },
+    {
+        "query_id": "131_869",
+        "question": "Where is Life School located?",
+        "answers": [
+            "Texas"
+        ],
+        "pageviews": 3443
+    },
+    {
+        "query_id": "131_870",
+        "question": "Where is Vosketap located?",
+        "answers": [
+            "Ararat Province"
+        ],
+        "pageviews": 1355
+    },
+    {
+        "query_id": "131_871",
+        "question": "Where is Eastern Illinois University located?",
+        "answers": [
+            "Illinois",
+            "Charleston"
+        ],
+        "pageviews": 101241
+    },
+    {
+        "query_id": "131_872",
+        "question": "Where is B\u00f6rk located?",
+        "answers": [
+            "Hanak"
+        ],
+        "pageviews": 705
+    },
+    {
+        "query_id": "131_873",
+        "question": "Where is University of Antwerp located?",
+        "answers": [
+            "Antwerp"
+        ],
+        "pageviews": 36278
+    },
+    {
+        "query_id": "131_874",
+        "question": "Where is Zennor Quoit located?",
+        "answers": [
+            "Zennor"
+        ],
+        "pageviews": 3831
+    },
+    {
+        "query_id": "131_875",
+        "question": "Where is Sien located?",
+        "answers": [
+            "Birkenfeld"
+        ],
+        "pageviews": 1590
+    },
+    {
+        "query_id": "131_876",
+        "question": "Where is Pilot Mountain State Park located?",
+        "answers": [
+            "North Carolina"
+        ],
+        "pageviews": 6764
+    },
+    {
+        "query_id": "131_877",
+        "question": "Where is Lesser Slave Lake located?",
+        "answers": [
+            "Alberta"
+        ],
+        "pageviews": 14785
+    },
+    {
+        "query_id": "131_878",
+        "question": "Where is M\u0259h\u0259mm\u0259dli located?",
+        "answers": [
+            "Imishli District"
+        ],
+        "pageviews": 438
+    },
+    {
+        "query_id": "131_879",
+        "question": "Where is Villa Grove located?",
+        "answers": [
+            "Saguache County"
+        ],
+        "pageviews": 5225
+    },
+    {
+        "query_id": "131_880",
+        "question": "Where is Nik Pey located?",
+        "answers": [
+            "Mian Jam Rural District"
+        ],
+        "pageviews": 400
+    },
+    {
+        "query_id": "131_881",
+        "question": "Where is Darrehi located?",
+        "answers": [
+            "Sarduiyeh District"
+        ],
+        "pageviews": 484
+    },
+    {
+        "query_id": "131_882",
+        "question": "Where is Panayam located?",
+        "answers": [
+            "Kollam district",
+            "Kerala"
+        ],
+        "pageviews": 2147
+    },
+    {
+        "query_id": "131_883",
+        "question": "Where is NAS Chase Field-Building 1001 located?",
+        "answers": [
+            "Texas"
+        ],
+        "pageviews": 898
+    },
+    {
+        "query_id": "131_884",
+        "question": "Where is Pabell\u00f3n de Arteaga located?",
+        "answers": [
+            "Aguascalientes"
+        ],
+        "pageviews": 2688
+    },
+    {
+        "query_id": "131_885",
+        "question": "Where is Jefferson located?",
+        "answers": [
+            "Jackson County"
+        ],
+        "pageviews": 32035
+    },
+    {
+        "query_id": "131_886",
+        "question": "Where is A575 road located?",
+        "answers": [
+            "Greater Manchester"
+        ],
+        "pageviews": 1163
+    },
+    {
+        "query_id": "131_887",
+        "question": "Where is Wardersee located?",
+        "answers": [
+            "Schleswig-Holstein"
+        ],
+        "pageviews": 979
+    },
+    {
+        "query_id": "131_888",
+        "question": "Where is Egypt located?",
+        "answers": [
+            "South Bucks"
+        ],
+        "pageviews": 2851
+    },
+    {
+        "query_id": "131_889",
+        "question": "Where is St Vincent's Works located?",
+        "answers": [
+            "Bristol"
+        ],
+        "pageviews": 1723
+    },
+    {
+        "query_id": "131_890",
+        "question": "Where is Piramide located?",
+        "answers": [
+            "Rome"
+        ],
+        "pageviews": 5019
+    },
+    {
+        "query_id": "131_891",
+        "question": "Where is Trevarrick located?",
+        "answers": [
+            "Cornwall"
+        ],
+        "pageviews": 612
+    },
+    {
+        "query_id": "131_892",
+        "question": "Where is Zeyarat-e Pain located?",
+        "answers": [
+            "Jamabrud Rural District"
+        ],
+        "pageviews": 436
+    },
+    {
+        "query_id": "131_893",
+        "question": "Where is Begdale located?",
+        "answers": [
+            "Cambridgeshire"
+        ],
+        "pageviews": 369
+    },
+    {
+        "query_id": "131_894",
+        "question": "Where is Jakun\u00f3wko located?",
+        "answers": [
+            "Gmina Pozezdrze"
+        ],
+        "pageviews": 471
+    },
+    {
+        "query_id": "131_895",
+        "question": "Where is Somdiha located?",
+        "answers": [
+            "Kapilvastu District"
+        ],
+        "pageviews": 489
+    },
+    {
+        "query_id": "131_896",
+        "question": "Where is Morbihan's 2nd constituency located?",
+        "answers": [
+            "Morbihan"
+        ],
+        "pageviews": 1142
+    },
+    {
+        "query_id": "131_897",
+        "question": "Where is Uachdar located?",
+        "answers": [
+            "Outer Hebrides"
+        ],
+        "pageviews": 873
+    },
+    {
+        "query_id": "131_898",
+        "question": "Where is Kississing Lake located?",
+        "answers": [
+            "Manitoba"
+        ],
+        "pageviews": 1075
+    },
+    {
+        "query_id": "131_899",
+        "question": "Where is Longwarry located?",
+        "answers": [
+            "Victoria"
+        ],
+        "pageviews": 4827
+    },
+    {
+        "query_id": "131_900",
+        "question": "Where is Shichongkou, Xinhua located?",
+        "answers": [
+            "Xinhua County"
+        ],
+        "pageviews": 461
+    },
+    {
+        "query_id": "131_901",
+        "question": "Where is Pierzchnianka located?",
+        "answers": [
+            "Gmina Pierzchnica"
+        ],
+        "pageviews": 418
+    },
+    {
+        "query_id": "131_903",
+        "question": "Where is Algi, Barisal located?",
+        "answers": [
+            "Jhalokati District"
+        ],
+        "pageviews": 407
+    },
+    {
+        "query_id": "131_904",
+        "question": "Where is Zagaje, Proszowice County located?",
+        "answers": [
+            "Gmina Koszyce"
+        ],
+        "pageviews": 348
+    },
+    {
+        "query_id": "131_905",
+        "question": "Where is Tajiri located?",
+        "answers": [
+            "Sennan District",
+            "\u014csaka Prefecture"
+        ],
+        "pageviews": 5141
+    },
+    {
+        "query_id": "131_906",
+        "question": "Where is Kalatrazan District located?",
+        "answers": [
+            "Kurdistan Province"
+        ],
+        "pageviews": 850
+    },
+    {
+        "query_id": "131_907",
+        "question": "Where is Brabourne Lees located?",
+        "answers": [
+            "Brabourne"
+        ],
+        "pageviews": 1901
+    },
+    {
+        "query_id": "131_908",
+        "question": "Where is Mahora located?",
+        "answers": [
+            "Albacete Province"
+        ],
+        "pageviews": 983
+    },
+    {
+        "query_id": "131_909",
+        "question": "Where is Granite Mountain located?",
+        "answers": [
+            "British Columbia"
+        ],
+        "pageviews": 834
+    },
+    {
+        "query_id": "131_910",
+        "question": "Where is Williams Township located?",
+        "answers": [
+            "Aitkin County"
+        ],
+        "pageviews": 591
+    },
+    {
+        "query_id": "131_911",
+        "question": "Where is Askerhallen located?",
+        "answers": [
+            "Asker"
+        ],
+        "pageviews": 1830
+    },
+    {
+        "query_id": "131_912",
+        "question": "Where is Parsah Su located?",
+        "answers": [
+            "Golestan Province"
+        ],
+        "pageviews": 500
+    },
+    {
+        "query_id": "131_913",
+        "question": "Where is Castillo de Bujalance located?",
+        "answers": [
+            "Bujalance"
+        ],
+        "pageviews": 985
+    },
+    {
+        "query_id": "131_914",
+        "question": "Where is Daund located?",
+        "answers": [
+            "Pune district"
+        ],
+        "pageviews": 21495
+    },
+    {
+        "query_id": "131_915",
+        "question": "Where is San Juan Cieneguilla located?",
+        "answers": [
+            "Oaxaca"
+        ],
+        "pageviews": 731
+    },
+    {
+        "query_id": "131_916",
+        "question": "Where is Abjaz, Hati located?",
+        "answers": [
+            "Jastun Shah Rural District"
+        ],
+        "pageviews": 506
+    },
+    {
+        "query_id": "131_917",
+        "question": "Where is Hai, Lviv Oblast located?",
+        "answers": [
+            "Brody Raion"
+        ],
+        "pageviews": 615
+    },
+    {
+        "query_id": "131_918",
+        "question": "Where is Carlinda located?",
+        "answers": [
+            "Mato Grosso"
+        ],
+        "pageviews": 1018
+    },
+    {
+        "query_id": "131_919",
+        "question": "Where is Al-Ameen College of Pharmacy located?",
+        "answers": [
+            "Bengaluru"
+        ],
+        "pageviews": 873
+    },
+    {
+        "query_id": "131_920",
+        "question": "Where is Svitavy District located?",
+        "answers": [
+            "Pardubice Region"
+        ],
+        "pageviews": 3690
+    },
+    {
+        "query_id": "131_921",
+        "question": "Where is Canossa Castle located?",
+        "answers": [
+            "Canossa"
+        ],
+        "pageviews": 10637
+    },
+    {
+        "query_id": "131_922",
+        "question": "Where is Safi Khun located?",
+        "answers": [
+            "Qaleh-ye Khvajeh Rural District",
+            "Khuzestan Province"
+        ],
+        "pageviews": 573
+    },
+    {
+        "query_id": "131_923",
+        "question": "Where is Hellah Dommah located?",
+        "answers": [
+            "Gilan Province"
+        ],
+        "pageviews": 390
+    },
+    {
+        "query_id": "131_924",
+        "question": "Where is Scouting in Missouri located?",
+        "answers": [
+            "Missouri"
+        ],
+        "pageviews": 4449
+    },
+    {
+        "query_id": "131_925",
+        "question": "Where is Chhabra located?",
+        "answers": [
+            "Baran district"
+        ],
+        "pageviews": 8244
+    },
+    {
+        "query_id": "131_926",
+        "question": "Where is Concei\u00e7\u00e3o do Almeida located?",
+        "answers": [
+            "Bahia"
+        ],
+        "pageviews": 1311
+    },
+    {
+        "query_id": "131_927",
+        "question": "Where is Upper Saucon Township located?",
+        "answers": [
+            "Pennsylvania",
+            "Lehigh County"
+        ],
+        "pageviews": 459
+    },
+    {
+        "query_id": "131_928",
+        "question": "Where is Mileh located?",
+        "answers": [
+            "Dasht-e Sar Rural District"
+        ],
+        "pageviews": 791
+    },
+    {
+        "query_id": "131_929",
+        "question": "Where is Wat Phrik located?",
+        "answers": [
+            "Mueang Phitsanulok"
+        ],
+        "pageviews": 911
+    },
+    {
+        "query_id": "131_930",
+        "question": "Where is Gallaway located?",
+        "answers": [
+            "Fayette County"
+        ],
+        "pageviews": 3637
+    },
+    {
+        "query_id": "131_931",
+        "question": "Where is Chester State Park located?",
+        "answers": [
+            "South Carolina"
+        ],
+        "pageviews": 1661
+    },
+    {
+        "query_id": "131_932",
+        "question": "Where is Kilby Provincial Park located?",
+        "answers": [
+            "British Columbia"
+        ],
+        "pageviews": 1829
+    },
+    {
+        "query_id": "131_933",
+        "question": "Where is STENAPA located?",
+        "answers": [
+            "Sint Eustatius"
+        ],
+        "pageviews": 1150
+    },
+    {
+        "query_id": "131_934",
+        "question": "Where is Kelan County located?",
+        "answers": [
+            "Xinzhou"
+        ],
+        "pageviews": 2265
+    },
+    {
+        "query_id": "131_935",
+        "question": "Where is Museum of Contemporary Canadian Art located?",
+        "answers": [
+            "Ontario"
+        ],
+        "pageviews": 6838
+    },
+    {
+        "query_id": "131_936",
+        "question": "Where is District Council of Franklin Harbour located?",
+        "answers": [
+            "South Australia"
+        ],
+        "pageviews": 2097
+    },
+    {
+        "query_id": "131_937",
+        "question": "Where is Holmesglen located?",
+        "answers": [
+            "Victoria"
+        ],
+        "pageviews": 2878
+    },
+    {
+        "query_id": "131_938",
+        "question": "Where is Seine River located?",
+        "answers": [
+            "Ontario"
+        ],
+        "pageviews": 1902
+    },
+    {
+        "query_id": "131_939",
+        "question": "Where is Palwe Bk located?",
+        "answers": [
+            "Maharashtra",
+            "Ahmednagar district"
+        ],
+        "pageviews": 953
+    },
+    {
+        "query_id": "131_940",
+        "question": "Where is Polling in Tirol located?",
+        "answers": [
+            "Innsbruck-Land District"
+        ],
+        "pageviews": 1254
+    },
+    {
+        "query_id": "131_941",
+        "question": "Where is Hofkirchen im M\u00fchlkreis located?",
+        "answers": [
+            "Rohrbach District"
+        ],
+        "pageviews": 834
+    },
+    {
+        "query_id": "131_942",
+        "question": "Where is Greenbrier Mall located?",
+        "answers": [
+            "Virginia"
+        ],
+        "pageviews": 6818
+    },
+    {
+        "query_id": "131_943",
+        "question": "Where is Carswell located?",
+        "answers": [
+            "McDowell County"
+        ],
+        "pageviews": 812
+    },
+    {
+        "query_id": "131_944",
+        "question": "Where is Crafers located?",
+        "answers": [
+            "South Australia"
+        ],
+        "pageviews": 5172
+    },
+    {
+        "query_id": "131_945",
+        "question": "Where is Ghent University located?",
+        "answers": [
+            "Ghent"
+        ],
+        "pageviews": 125557
+    },
+    {
+        "query_id": "131_946",
+        "question": "Where is Falfield located?",
+        "answers": [
+            "South Gloucestershire"
+        ],
+        "pageviews": 2982
+    },
+    {
+        "query_id": "131_947",
+        "question": "Where is Cahuac District located?",
+        "answers": [
+            "Yarowilca Province"
+        ],
+        "pageviews": 624
+    },
+    {
+        "query_id": "131_949",
+        "question": "Where is Akbarabad, Shahr-e Babak located?",
+        "answers": [
+            "Dehaj District"
+        ],
+        "pageviews": 415
+    },
+    {
+        "query_id": "131_950",
+        "question": "Where is Naples Manor located?",
+        "answers": [
+            "Collier County"
+        ],
+        "pageviews": 2849
+    },
+    {
+        "query_id": "131_951",
+        "question": "Where is Wood Lake National Wildlife Refuge located?",
+        "answers": [
+            "North Dakota"
+        ],
+        "pageviews": 968
+    },
+    {
+        "query_id": "131_952",
+        "question": "Where is City of Greater Shepparton located?",
+        "answers": [
+            "Victoria"
+        ],
+        "pageviews": 7669
+    },
+    {
+        "query_id": "131_953",
+        "question": "Where is Fortezza of Rethymno located?",
+        "answers": [
+            "Rethymno"
+        ],
+        "pageviews": 17802
+    },
+    {
+        "query_id": "131_954",
+        "question": "Where is Crafton Hills College located?",
+        "answers": [
+            "California"
+        ],
+        "pageviews": 7506
+    },
+    {
+        "query_id": "131_955",
+        "question": "Where is Panola located?",
+        "answers": [
+            "Latimer County"
+        ],
+        "pageviews": 1407
+    },
+    {
+        "query_id": "131_956",
+        "question": "Where is Valhermoso Springs located?",
+        "answers": [
+            "Morgan County"
+        ],
+        "pageviews": 3389
+    },
+    {
+        "query_id": "131_957",
+        "question": "Where is Mouilly located?",
+        "answers": [
+            "Meuse"
+        ],
+        "pageviews": 1076
+    },
+    {
+        "query_id": "131_958",
+        "question": "Where is Bras d'Or Lake located?",
+        "answers": [
+            "Nova Scotia"
+        ],
+        "pageviews": 30411
+    },
+    {
+        "query_id": "131_959",
+        "question": "Where is Barton River located?",
+        "answers": [
+            "Western Australia"
+        ],
+        "pageviews": 720
+    },
+    {
+        "query_id": "131_960",
+        "question": "Where is Keski-Vuosaari located?",
+        "answers": [
+            "Helsinki"
+        ],
+        "pageviews": 987
+    },
+    {
+        "query_id": "131_961",
+        "question": "Where is Govankoppa located?",
+        "answers": [
+            "Karnataka",
+            "Dharwad district"
+        ],
+        "pageviews": 787
+    },
+    {
+        "query_id": "131_962",
+        "question": "Where is Queen Charlotte Sound located?",
+        "answers": [
+            "British Columbia"
+        ],
+        "pageviews": 12286
+    },
+    {
+        "query_id": "131_963",
+        "question": "Where is Gmina Warnice located?",
+        "answers": [
+            "Pyrzyce County"
+        ],
+        "pageviews": 869
+    },
+    {
+        "query_id": "131_964",
+        "question": "Where is Eypak located?",
+        "answers": [
+            "Eshtehard County"
+        ],
+        "pageviews": 668
+    },
+    {
+        "query_id": "131_965",
+        "question": "Where is Madonna del Sasso located?",
+        "answers": [
+            "Orselina"
+        ],
+        "pageviews": 5095
+    },
+    {
+        "query_id": "131_966",
+        "question": "Where is Ashkelon Academic College located?",
+        "answers": [
+            "Ashkelon"
+        ],
+        "pageviews": 2833
+    },
+    {
+        "query_id": "131_967",
+        "question": "Where is Glen Bain No. 105, Saskatchewan located?",
+        "answers": [
+            "Saskatchewan"
+        ],
+        "pageviews": 1185
+    },
+    {
+        "query_id": "131_968",
+        "question": "Where is Karniewo, Ciechan\u00f3w County located?",
+        "answers": [
+            "Gmina Regimin"
+        ],
+        "pageviews": 415
+    },
+    {
+        "query_id": "131_969",
+        "question": "Where is Belenalan located?",
+        "answers": [
+            "Akseki"
+        ],
+        "pageviews": 187
+    },
+    {
+        "query_id": "131_970",
+        "question": "Where is Namkhola located?",
+        "answers": [
+            "Assam"
+        ],
+        "pageviews": 829
+    },
+    {
+        "query_id": "131_971",
+        "question": "Where is Cobham, Surry County, Virginia located?",
+        "answers": [
+            "Virginia"
+        ],
+        "pageviews": 873
+    },
+    {
+        "query_id": "131_972",
+        "question": "Where is Garrison located?",
+        "answers": [
+            "McLean County"
+        ],
+        "pageviews": 6739
+    },
+    {
+        "query_id": "131_973",
+        "question": "Where is Teolocholco Municipality located?",
+        "answers": [
+            "Tlaxcala"
+        ],
+        "pageviews": 705
+    },
+    {
+        "query_id": "131_974",
+        "question": "Where is Muttom located?",
+        "answers": [
+            "Idukki district",
+            "Kerala"
+        ],
+        "pageviews": 5607
+    },
+    {
+        "query_id": "131_975",
+        "question": "Where is La-ngu located?",
+        "answers": [
+            "Satun"
+        ],
+        "pageviews": 1090
+    },
+    {
+        "query_id": "131_976",
+        "question": "Where is Brandywine Creek located?",
+        "answers": [
+            "British Columbia"
+        ],
+        "pageviews": 980
+    },
+    {
+        "query_id": "131_977",
+        "question": "Where is Dollarhide Mountain located?",
+        "answers": [
+            "Idaho"
+        ],
+        "pageviews": 917
+    },
+    {
+        "query_id": "131_978",
+        "question": "Where is Nevis located?",
+        "answers": [
+            "Hubbard County"
+        ],
+        "pageviews": 5684
+    },
+    {
+        "query_id": "131_979",
+        "question": "Where is Meridian located?",
+        "answers": [
+            "Butler County"
+        ],
+        "pageviews": 2213
+    },
+    {
+        "query_id": "131_980",
+        "question": "Where is Le Born located?",
+        "answers": [
+            "Haute-Garonne"
+        ],
+        "pageviews": 1218
+    },
+    {
+        "query_id": "131_981",
+        "question": "Where is Mount Shasta Wilderness located?",
+        "answers": [
+            "California"
+        ],
+        "pageviews": 5260
+    },
+    {
+        "query_id": "131_982",
+        "question": "Where is Saint-S\u00e9bastien located?",
+        "answers": [
+            "Le Granit Regional County Municipality"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "131_983",
+        "question": "Where is Witos\u0142aw, Kuyavian-Pomeranian Voivodeship located?",
+        "answers": [
+            "Gmina Mrocza"
+        ],
+        "pageviews": 258
+    },
+    {
+        "query_id": "131_984",
+        "question": "Where is Dom Shahr located?",
+        "answers": [
+            "Gurband Rural District"
+        ],
+        "pageviews": 542
+    },
+    {
+        "query_id": "131_985",
+        "question": "Where is Acty Shiodome located?",
+        "answers": [
+            "Tokyo"
+        ],
+        "pageviews": 2471
+    },
+    {
+        "query_id": "131_986",
+        "question": "Where is Colmar-Berg railway station located?",
+        "answers": [
+            "Colmar-Berg"
+        ],
+        "pageviews": 505
+    },
+    {
+        "query_id": "131_987",
+        "question": "Where is Kalateh-ye Molla Mohammad located?",
+        "answers": [
+            "Razavi Khorasan Province"
+        ],
+        "pageviews": 376
+    },
+    {
+        "query_id": "131_988",
+        "question": "Where is Aghaboe Priory located?",
+        "answers": [
+            "County Laois"
+        ],
+        "pageviews": 1705
+    },
+    {
+        "query_id": "131_989",
+        "question": "Where is Santana High School located?",
+        "answers": [
+            "California"
+        ],
+        "pageviews": 14265
+    },
+    {
+        "query_id": "131_990",
+        "question": "Where is Lap Corner located?",
+        "answers": [
+            "Clay County"
+        ],
+        "pageviews": 605
+    },
+    {
+        "query_id": "131_991",
+        "question": "Where is Bockmer End located?",
+        "answers": [
+            "Buckinghamshire"
+        ],
+        "pageviews": 1158
+    },
+    {
+        "query_id": "131_992",
+        "question": "Where is Churchover, Nova Scotia located?",
+        "answers": [
+            "Municipality of the District of Shelburne"
+        ],
+        "pageviews": 620
+    },
+    {
+        "query_id": "131_993",
+        "question": "Where is Grodkowo, Warmian-Masurian Voivodeship located?",
+        "answers": [
+            "Gmina Wydminy"
+        ],
+        "pageviews": 277
+    },
+    {
+        "query_id": "131_994",
+        "question": "Where is Vr\u0161ovice located?",
+        "answers": [
+            "Prague 10"
+        ],
+        "pageviews": 6894
+    },
+    {
+        "query_id": "131_995",
+        "question": "Where is Kuczk\u00f3w, Kutno County located?",
+        "answers": [
+            "Gmina Kutno"
+        ],
+        "pageviews": 419
+    },
+    {
+        "query_id": "131_996",
+        "question": "Where is Maguilla located?",
+        "answers": [
+            "Badajoz Province"
+        ],
+        "pageviews": 1563
+    },
+    {
+        "query_id": "131_997",
+        "question": "Where is Bo\u010dkovo located?",
+        "answers": [
+            "Bloke Municipality"
+        ],
+        "pageviews": 574
+    },
+    {
+        "query_id": "131_998",
+        "question": "Where is Ma\u0142a Wie\u015b, Lesser Poland Voivodeship located?",
+        "answers": [
+            "Gmina Wieliczka"
+        ],
+        "pageviews": 448
+    },
+    {
+        "query_id": "131_999",
+        "question": "Where is Miejsce Piastowe located?",
+        "answers": [
+            "Gmina Miejsce Piastowe"
+        ],
+        "pageviews": 1224
+    }
+]

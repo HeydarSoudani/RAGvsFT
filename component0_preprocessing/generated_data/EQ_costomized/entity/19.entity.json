@@ -1,0 +1,4937 @@
+[
+    {
+        "query_id": "19_0",
+        "wiki_title": "Luke Prokopec",
+        "entity_id": "Q6702280"
+    },
+    {
+        "query_id": "19_1",
+        "wiki_title": "Luka Elsner",
+        "entity_id": "Q1695581"
+    },
+    {
+        "query_id": "19_2",
+        "wiki_title": "Giacomo dalla Torre del Tempio di Sanguinetto",
+        "entity_id": "Q364969"
+    },
+    {
+        "query_id": "19_3",
+        "wiki_title": "Al Finucane",
+        "entity_id": "Q4703829"
+    },
+    {
+        "query_id": "19_4",
+        "wiki_title": "Yoshimi Ueda",
+        "entity_id": "Q2056338"
+    },
+    {
+        "query_id": "19_5",
+        "wiki_title": "\u00c9mile Wegelin",
+        "entity_id": "Q2702449"
+    },
+    {
+        "query_id": "19_6",
+        "wiki_title": "Rena Matsui",
+        "entity_id": "Q1185834"
+    },
+    {
+        "query_id": "19_7",
+        "wiki_title": "Benedetto Gennari",
+        "entity_id": "Q580482"
+    },
+    {
+        "query_id": "19_8",
+        "wiki_title": "Fenwick W. English",
+        "entity_id": "Q5443693"
+    },
+    {
+        "query_id": "19_9",
+        "wiki_title": "Joe Karafi\u00e1t",
+        "entity_id": "Q12026198"
+    },
+    {
+        "query_id": "19_10",
+        "wiki_title": "Tatjana K\u00e4stel",
+        "entity_id": "Q1645549"
+    },
+    {
+        "query_id": "19_11",
+        "wiki_title": "Krystina Alogbo",
+        "entity_id": "Q6439794"
+    },
+    {
+        "query_id": "19_12",
+        "wiki_title": "Charles Fran\u00e7ois Antoine Morren",
+        "entity_id": "Q2959113"
+    },
+    {
+        "query_id": "19_13",
+        "wiki_title": "Li Yim Lam",
+        "entity_id": "Q6539235"
+    },
+    {
+        "query_id": "19_14",
+        "wiki_title": "Larry Sheets",
+        "entity_id": "Q6491103"
+    },
+    {
+        "query_id": "19_15",
+        "wiki_title": "Ivan Elagin (poet)",
+        "entity_id": "Q4174514"
+    },
+    {
+        "query_id": "19_16",
+        "wiki_title": "Nelson San Mart\u00edn",
+        "entity_id": "Q1977041"
+    },
+    {
+        "query_id": "19_17",
+        "wiki_title": "Lory Meagher",
+        "entity_id": "Q6681788"
+    },
+    {
+        "query_id": "19_18",
+        "wiki_title": "Leslie Ash",
+        "entity_id": "Q6530613"
+    },
+    {
+        "query_id": "19_19",
+        "wiki_title": "Ernest Gambier-Parry",
+        "entity_id": "Q15967510"
+    },
+    {
+        "query_id": "19_20",
+        "wiki_title": "Grimes",
+        "entity_id": "Q117970"
+    },
+    {
+        "query_id": "19_21",
+        "wiki_title": "Bill Moring",
+        "entity_id": "Q4910250"
+    },
+    {
+        "query_id": "19_22",
+        "wiki_title": "Guido Carboni",
+        "entity_id": "Q1540295"
+    },
+    {
+        "query_id": "19_23",
+        "wiki_title": "Dionysius, Metropolitan of Kiev",
+        "entity_id": "Q976915"
+    },
+    {
+        "query_id": "19_25",
+        "wiki_title": "Roy Hall (racing driver)",
+        "entity_id": "Q7372887"
+    },
+    {
+        "query_id": "19_26",
+        "wiki_title": "Henry Brevard Davidson",
+        "entity_id": "Q1487292"
+    },
+    {
+        "query_id": "19_27",
+        "wiki_title": "Uro\u0161 \u0110uri\u0107",
+        "entity_id": "Q1560952"
+    },
+    {
+        "query_id": "19_28",
+        "wiki_title": "Florian Zeller",
+        "entity_id": "Q3074245"
+    },
+    {
+        "query_id": "19_29",
+        "wiki_title": "Derrick Moore",
+        "entity_id": "Q5263062"
+    },
+    {
+        "query_id": "19_30",
+        "wiki_title": "Jos\u00e9 Mar\u00eda Espejo-Saavedra Conesa",
+        "entity_id": "Q13859913"
+    },
+    {
+        "query_id": "19_31",
+        "wiki_title": "Marlies Oostdam",
+        "entity_id": "Q6771824"
+    },
+    {
+        "query_id": "19_32",
+        "wiki_title": "Frank G. Dickey",
+        "entity_id": "Q5486732"
+    },
+    {
+        "query_id": "19_33",
+        "wiki_title": "Jyrki Yrttiaho",
+        "entity_id": "Q3190637"
+    },
+    {
+        "query_id": "19_34",
+        "wiki_title": "Rekin Teksoy",
+        "entity_id": "Q7310629"
+    },
+    {
+        "query_id": "19_35",
+        "wiki_title": "Carlos Hugo, Duke of Parma",
+        "entity_id": "Q537914"
+    },
+    {
+        "query_id": "19_36",
+        "wiki_title": "Benjamin Giraud",
+        "entity_id": "Q817507"
+    },
+    {
+        "query_id": "19_37",
+        "wiki_title": "Yim Ho",
+        "entity_id": "Q6141069"
+    },
+    {
+        "query_id": "19_38",
+        "wiki_title": "H. Neill Wilson",
+        "entity_id": "Q5628440"
+    },
+    {
+        "query_id": "19_39",
+        "wiki_title": "Stanis\u0142aw K\u0119trzy\u0144ski",
+        "entity_id": "Q5907163"
+    },
+    {
+        "query_id": "19_40",
+        "wiki_title": "Anthony Harris (cricketer)",
+        "entity_id": "Q4772671"
+    },
+    {
+        "query_id": "19_41",
+        "wiki_title": "Keith Richard",
+        "entity_id": "Q6384940"
+    },
+    {
+        "query_id": "19_42",
+        "wiki_title": "Nannette Streicher",
+        "entity_id": "Q114520"
+    },
+    {
+        "query_id": "19_43",
+        "wiki_title": "Lewis B. Patten",
+        "entity_id": "Q6536287"
+    },
+    {
+        "query_id": "19_44",
+        "wiki_title": "Romina Daniele",
+        "entity_id": "Q7363226"
+    },
+    {
+        "query_id": "19_45",
+        "wiki_title": "J. Lynn Helms",
+        "entity_id": "Q6106383"
+    },
+    {
+        "query_id": "19_46",
+        "wiki_title": "Xie Hui (footballer)",
+        "entity_id": "Q360402"
+    },
+    {
+        "query_id": "19_47",
+        "wiki_title": "Patrick Karegeya",
+        "entity_id": "Q7146898"
+    },
+    {
+        "query_id": "19_48",
+        "wiki_title": "Leung Ka-lau",
+        "entity_id": "Q6534575"
+    },
+    {
+        "query_id": "19_49",
+        "wiki_title": "Willem Marinus Dudok",
+        "entity_id": "Q560756"
+    },
+    {
+        "query_id": "19_50",
+        "wiki_title": "David Schnell",
+        "entity_id": "Q1176538"
+    },
+    {
+        "query_id": "19_51",
+        "wiki_title": "Gustave Charles Fagniez",
+        "entity_id": "Q3121183"
+    },
+    {
+        "query_id": "19_52",
+        "wiki_title": "Jomo Kenyatta",
+        "entity_id": "Q173563"
+    },
+    {
+        "query_id": "19_53",
+        "wiki_title": "Jung Ho-jin",
+        "entity_id": "Q16223181"
+    },
+    {
+        "query_id": "19_54",
+        "wiki_title": "Edward Linden",
+        "entity_id": "Q5344146"
+    },
+    {
+        "query_id": "19_55",
+        "wiki_title": "Gisbert zu Knyphausen",
+        "entity_id": "Q1527216"
+    },
+    {
+        "query_id": "19_56",
+        "wiki_title": "Einat Ramon",
+        "entity_id": "Q5349729"
+    },
+    {
+        "query_id": "19_57",
+        "wiki_title": "Bicci di Lorenzo",
+        "entity_id": "Q856749"
+    },
+    {
+        "query_id": "19_58",
+        "wiki_title": "T. Franklin Ahearn",
+        "entity_id": "Q1442854"
+    },
+    {
+        "query_id": "19_59",
+        "wiki_title": "Adolph Theodor Kupffer",
+        "entity_id": "Q1960679"
+    },
+    {
+        "query_id": "19_60",
+        "wiki_title": "Pascal Touron",
+        "entity_id": "Q3367623"
+    },
+    {
+        "query_id": "19_61",
+        "wiki_title": "Milun Tesovic",
+        "entity_id": "Q6861604"
+    },
+    {
+        "query_id": "19_62",
+        "wiki_title": "Robert Ballard II",
+        "entity_id": "Q1617274"
+    },
+    {
+        "query_id": "19_63",
+        "wiki_title": "Gus tf Sakai",
+        "entity_id": "Q3606135"
+    },
+    {
+        "query_id": "19_64",
+        "wiki_title": "Madeleine Coudray",
+        "entity_id": "Q3275623"
+    },
+    {
+        "query_id": "19_65",
+        "wiki_title": "Robert Howie",
+        "entity_id": "Q7345650"
+    },
+    {
+        "query_id": "19_66",
+        "wiki_title": "Joris Ponse",
+        "entity_id": "Q6278892"
+    },
+    {
+        "query_id": "19_67",
+        "wiki_title": "Josep Riera i Arag\u00f3",
+        "entity_id": "Q768731"
+    },
+    {
+        "query_id": "19_68",
+        "wiki_title": "Gregory Thaumaturgus",
+        "entity_id": "Q337537"
+    },
+    {
+        "query_id": "19_69",
+        "wiki_title": "Donald Thomas (high jumper)",
+        "entity_id": "Q314573"
+    },
+    {
+        "query_id": "19_70",
+        "wiki_title": "Christos Bourbos",
+        "entity_id": "Q2707580"
+    },
+    {
+        "query_id": "19_71",
+        "wiki_title": "Irena Tanova",
+        "entity_id": "Q6068854"
+    },
+    {
+        "query_id": "19_72",
+        "wiki_title": "George Foreman",
+        "entity_id": "Q213919"
+    },
+    {
+        "query_id": "19_73",
+        "wiki_title": "Bruno Carvalho (footballer, born 1974)",
+        "entity_id": "Q1631387"
+    },
+    {
+        "query_id": "19_74",
+        "wiki_title": "William S. Greene",
+        "entity_id": "Q2580458"
+    },
+    {
+        "query_id": "19_75",
+        "wiki_title": "Michael Waller",
+        "entity_id": "Q6835192"
+    },
+    {
+        "query_id": "19_76",
+        "wiki_title": "Bob Millman",
+        "entity_id": "Q4933415"
+    },
+    {
+        "query_id": "19_77",
+        "wiki_title": "Jyles Coggins",
+        "entity_id": "Q6319341"
+    },
+    {
+        "query_id": "19_78",
+        "wiki_title": "George Brunner (composer)",
+        "entity_id": "Q1507023"
+    },
+    {
+        "query_id": "19_79",
+        "wiki_title": "Gabriele Antonini",
+        "entity_id": "Q1490093"
+    },
+    {
+        "query_id": "19_80",
+        "wiki_title": "Zenzo Matsuyama",
+        "entity_id": "Q11529785"
+    },
+    {
+        "query_id": "19_82",
+        "wiki_title": "Jimmy Hill (American football)",
+        "entity_id": "Q6200360"
+    },
+    {
+        "query_id": "19_83",
+        "wiki_title": "Timothy Radcliffe",
+        "entity_id": "Q962727"
+    },
+    {
+        "query_id": "19_84",
+        "wiki_title": "Robert Richard Hall",
+        "entity_id": "Q7349261"
+    },
+    {
+        "query_id": "19_85",
+        "wiki_title": "Gabriela Pe\u00f1a",
+        "entity_id": "Q19661799"
+    },
+    {
+        "query_id": "19_86",
+        "wiki_title": "Ben Zyskowicz",
+        "entity_id": "Q2977831"
+    },
+    {
+        "query_id": "19_87",
+        "wiki_title": "Harry Borghouts",
+        "entity_id": "Q2175091"
+    },
+    {
+        "query_id": "19_88",
+        "wiki_title": "Augustin-Louis Cauchy",
+        "entity_id": "Q8814"
+    },
+    {
+        "query_id": "19_89",
+        "wiki_title": "Vitali Tsypko",
+        "entity_id": "Q7936836"
+    },
+    {
+        "query_id": "19_90",
+        "wiki_title": "George Graham Vest",
+        "entity_id": "Q516255"
+    },
+    {
+        "query_id": "19_91",
+        "wiki_title": "Givi Ioseliani",
+        "entity_id": "Q10554816"
+    },
+    {
+        "query_id": "19_92",
+        "wiki_title": "Eric Ramsay",
+        "entity_id": "Q5387325"
+    },
+    {
+        "query_id": "19_93",
+        "wiki_title": "Frank Rijkaard",
+        "entity_id": "Q169098"
+    },
+    {
+        "query_id": "19_94",
+        "wiki_title": "Marianne N\u00f6lle",
+        "entity_id": "Q73024"
+    },
+    {
+        "query_id": "19_95",
+        "wiki_title": "Mohammad Shams",
+        "entity_id": "Q3318959"
+    },
+    {
+        "query_id": "19_96",
+        "wiki_title": "Lady Pink",
+        "entity_id": "Q3216025"
+    },
+    {
+        "query_id": "19_97",
+        "wiki_title": "C\u00e9sar Belli",
+        "entity_id": "Q2303017"
+    },
+    {
+        "query_id": "19_98",
+        "wiki_title": "Louis Trimble",
+        "entity_id": "Q1799380"
+    },
+    {
+        "query_id": "19_99",
+        "wiki_title": "Carl Schueler",
+        "entity_id": "Q5040781"
+    },
+    {
+        "query_id": "19_100",
+        "wiki_title": "Mohammed Gassid",
+        "entity_id": "Q974050"
+    },
+    {
+        "query_id": "19_101",
+        "wiki_title": "Luan Bo",
+        "entity_id": "Q6694978"
+    },
+    {
+        "query_id": "19_102",
+        "wiki_title": "Malcolm L. McCallum",
+        "entity_id": "Q18965389"
+    },
+    {
+        "query_id": "19_103",
+        "wiki_title": "Johannes Gottlieb Glauber",
+        "entity_id": "Q3806887"
+    },
+    {
+        "query_id": "19_104",
+        "wiki_title": "Dmitri Ekimov",
+        "entity_id": "Q5285493"
+    },
+    {
+        "query_id": "19_105",
+        "wiki_title": "William Goldwin Carrington Howland",
+        "entity_id": "Q8009971"
+    },
+    {
+        "query_id": "19_106",
+        "wiki_title": "Nancy Carrillo",
+        "entity_id": "Q442782"
+    },
+    {
+        "query_id": "19_107",
+        "wiki_title": "Ascher H. Shapiro",
+        "entity_id": "Q4803882"
+    },
+    {
+        "query_id": "19_108",
+        "wiki_title": "Nora Armani",
+        "entity_id": "Q4069560"
+    },
+    {
+        "query_id": "19_109",
+        "wiki_title": "Bettye Danoff",
+        "entity_id": "Q4899032"
+    },
+    {
+        "query_id": "19_110",
+        "wiki_title": "Lee Jenkins (footballer, born 1979)",
+        "entity_id": "Q6514139"
+    },
+    {
+        "query_id": "19_111",
+        "wiki_title": "Julio Velasco",
+        "entity_id": "Q2256996"
+    },
+    {
+        "query_id": "19_112",
+        "wiki_title": "Deacon Van Buren",
+        "entity_id": "Q5245042"
+    },
+    {
+        "query_id": "19_113",
+        "wiki_title": "Eugene Tan",
+        "entity_id": "Q5407786"
+    },
+    {
+        "query_id": "19_114",
+        "wiki_title": "Roya Teymourian",
+        "entity_id": "Q2391445"
+    },
+    {
+        "query_id": "19_115",
+        "wiki_title": "G. B. Lyon-Fellowes",
+        "entity_id": "Q5512138"
+    },
+    {
+        "query_id": "19_116",
+        "wiki_title": "Fl\u00e1vio Barros (footballer, born 1978)",
+        "entity_id": "Q5458093"
+    },
+    {
+        "query_id": "19_117",
+        "wiki_title": "Gustav Levin",
+        "entity_id": "Q4569905"
+    },
+    {
+        "query_id": "19_118",
+        "wiki_title": "Rodney Dent",
+        "entity_id": "Q3939900"
+    },
+    {
+        "query_id": "19_119",
+        "wiki_title": "Arthur Hayday",
+        "entity_id": "Q4798993"
+    },
+    {
+        "query_id": "19_120",
+        "wiki_title": "Mike Milligan (footballer)",
+        "entity_id": "Q3313456"
+    },
+    {
+        "query_id": "19_121",
+        "wiki_title": "Guylaine St-Onge",
+        "entity_id": "Q446295"
+    },
+    {
+        "query_id": "19_122",
+        "wiki_title": "Alberto Henschel",
+        "entity_id": "Q975468"
+    },
+    {
+        "query_id": "19_123",
+        "wiki_title": "Jason Niblett",
+        "entity_id": "Q962632"
+    },
+    {
+        "query_id": "19_124",
+        "wiki_title": "Liz Neumark",
+        "entity_id": "Q6660257"
+    },
+    {
+        "query_id": "19_125",
+        "wiki_title": "Adele Morales",
+        "entity_id": "Q4681893"
+    },
+    {
+        "query_id": "19_126",
+        "wiki_title": "Miriam Escofet",
+        "entity_id": "Q18345501"
+    },
+    {
+        "query_id": "19_127",
+        "wiki_title": "Kaitlin Hopkins",
+        "entity_id": "Q6348638"
+    },
+    {
+        "query_id": "19_128",
+        "wiki_title": "Teresia Teaiwa",
+        "entity_id": "Q7702268"
+    },
+    {
+        "query_id": "19_129",
+        "wiki_title": "Michele Zagaria",
+        "entity_id": "Q1421929"
+    },
+    {
+        "query_id": "19_130",
+        "wiki_title": "Doreen Mantle",
+        "entity_id": "Q5297670"
+    },
+    {
+        "query_id": "19_131",
+        "wiki_title": "Ellen Buckingham Mathews",
+        "entity_id": "Q5364774"
+    },
+    {
+        "query_id": "19_132",
+        "wiki_title": "Marlies Smulders",
+        "entity_id": "Q2711890"
+    },
+    {
+        "query_id": "19_133",
+        "wiki_title": "Necdet \u00dcru\u011f",
+        "entity_id": "Q1973622"
+    },
+    {
+        "query_id": "19_134",
+        "wiki_title": "David Safier",
+        "entity_id": "Q65530"
+    },
+    {
+        "query_id": "19_135",
+        "wiki_title": "Mladen Dolar",
+        "entity_id": "Q4164381"
+    },
+    {
+        "query_id": "19_136",
+        "wiki_title": "Paul Sass",
+        "entity_id": "Q4120110"
+    },
+    {
+        "query_id": "19_137",
+        "wiki_title": "Simon Geoghegan",
+        "entity_id": "Q774079"
+    },
+    {
+        "query_id": "19_138",
+        "wiki_title": "K\u0131v\u0131lc\u0131m Kaya",
+        "entity_id": "Q4811851"
+    },
+    {
+        "query_id": "19_139",
+        "wiki_title": "Gon\u00e7alo Brand\u00e3o",
+        "entity_id": "Q1537465"
+    },
+    {
+        "query_id": "19_140",
+        "wiki_title": "Jean-Michel Bertrand",
+        "entity_id": "Q1685067"
+    },
+    {
+        "query_id": "19_141",
+        "wiki_title": "Bill Fairservice",
+        "entity_id": "Q16006989"
+    },
+    {
+        "query_id": "19_142",
+        "wiki_title": "Guy Gabaldon",
+        "entity_id": "Q2895857"
+    },
+    {
+        "query_id": "19_143",
+        "wiki_title": "Karl Brandt (zoologist)",
+        "entity_id": "Q96738"
+    },
+    {
+        "query_id": "19_144",
+        "wiki_title": "Paul Mederow",
+        "entity_id": "Q97757"
+    },
+    {
+        "query_id": "19_145",
+        "wiki_title": "Vera Koval",
+        "entity_id": "Q7920792"
+    },
+    {
+        "query_id": "19_146",
+        "wiki_title": "Julien Le Devedec",
+        "entity_id": "Q3189554"
+    },
+    {
+        "query_id": "19_147",
+        "wiki_title": "Mahavira",
+        "entity_id": "Q9422"
+    },
+    {
+        "query_id": "19_148",
+        "wiki_title": "Simo Rundgren",
+        "entity_id": "Q4609356"
+    },
+    {
+        "query_id": "19_149",
+        "wiki_title": "Konstantin Buga",
+        "entity_id": "Q1782666"
+    },
+    {
+        "query_id": "19_150",
+        "wiki_title": "Sa Chen",
+        "entity_id": "Q7395468"
+    },
+    {
+        "query_id": "19_151",
+        "wiki_title": "Russell van Horn",
+        "entity_id": "Q2638706"
+    },
+    {
+        "query_id": "19_152",
+        "wiki_title": "Carl R. Chindblom",
+        "entity_id": "Q5607889"
+    },
+    {
+        "query_id": "19_153",
+        "wiki_title": "Tom Carey (shortstop)",
+        "entity_id": "Q7815206"
+    },
+    {
+        "query_id": "19_154",
+        "wiki_title": "Frank J. Farrell",
+        "entity_id": "Q5487446"
+    },
+    {
+        "query_id": "19_155",
+        "wiki_title": "\u00c9rik Orsenna",
+        "entity_id": "Q288562"
+    },
+    {
+        "query_id": "19_156",
+        "wiki_title": "Mark B. Wise",
+        "entity_id": "Q1770175"
+    },
+    {
+        "query_id": "19_157",
+        "wiki_title": "Luisa Corna",
+        "entity_id": "Q425826"
+    },
+    {
+        "query_id": "19_158",
+        "wiki_title": "Danilo Caymmi",
+        "entity_id": "Q5219593"
+    },
+    {
+        "query_id": "19_159",
+        "wiki_title": "Michael von Puchberg",
+        "entity_id": "Q88744"
+    },
+    {
+        "query_id": "19_160",
+        "wiki_title": "Alice Gale",
+        "entity_id": "Q4725874"
+    },
+    {
+        "query_id": "19_161",
+        "wiki_title": "Andr\u00e9 Savard (politician)",
+        "entity_id": "Q16013954"
+    },
+    {
+        "query_id": "19_162",
+        "wiki_title": "William Jack (botanist)",
+        "entity_id": "Q15482"
+    },
+    {
+        "query_id": "19_163",
+        "wiki_title": "Zoran Urumov",
+        "entity_id": "Q8074415"
+    },
+    {
+        "query_id": "19_164",
+        "wiki_title": "Ueli Hofmann",
+        "entity_id": "Q16185385"
+    },
+    {
+        "query_id": "19_165",
+        "wiki_title": "Giovanni Battista Braccelli",
+        "entity_id": "Q5563705"
+    },
+    {
+        "query_id": "19_166",
+        "wiki_title": "Mir Anees",
+        "entity_id": "Q6872029"
+    },
+    {
+        "query_id": "19_167",
+        "wiki_title": "Stephan Weidner",
+        "entity_id": "Q75936"
+    },
+    {
+        "query_id": "19_168",
+        "wiki_title": "Paul Constant Billot",
+        "entity_id": "Q7149945"
+    },
+    {
+        "query_id": "19_169",
+        "wiki_title": "Andrea Sacchi",
+        "entity_id": "Q495008"
+    },
+    {
+        "query_id": "19_170",
+        "wiki_title": "Nicky Hofs",
+        "entity_id": "Q723400"
+    },
+    {
+        "query_id": "19_171",
+        "wiki_title": "Bae Il-hwan",
+        "entity_id": "Q4841201"
+    },
+    {
+        "query_id": "19_172",
+        "wiki_title": "Rita Kassabian",
+        "entity_id": "Q3433241"
+    },
+    {
+        "query_id": "19_173",
+        "wiki_title": "John Freely",
+        "entity_id": "Q6234172"
+    },
+    {
+        "query_id": "19_174",
+        "wiki_title": "Hajime Sawatari",
+        "entity_id": "Q5639980"
+    },
+    {
+        "query_id": "19_175",
+        "wiki_title": "Karl Z\u00e9ro",
+        "entity_id": "Q3193481"
+    },
+    {
+        "query_id": "19_176",
+        "wiki_title": "Ag\u00e9nor Bardoux",
+        "entity_id": "Q2827377"
+    },
+    {
+        "query_id": "19_177",
+        "wiki_title": "Sajid Khan",
+        "entity_id": "Q2762152"
+    },
+    {
+        "query_id": "19_178",
+        "wiki_title": "Solomon Shulman",
+        "entity_id": "Q4527596"
+    },
+    {
+        "query_id": "19_180",
+        "wiki_title": "Mohamed Bentiba",
+        "entity_id": "Q6891090"
+    },
+    {
+        "query_id": "19_182",
+        "wiki_title": "George Dikeoulakos",
+        "entity_id": "Q1588962"
+    },
+    {
+        "query_id": "19_183",
+        "wiki_title": "John Forgeham",
+        "entity_id": "Q6233635"
+    },
+    {
+        "query_id": "19_184",
+        "wiki_title": "Jared Maddux",
+        "entity_id": "Q6160024"
+    },
+    {
+        "query_id": "19_185",
+        "wiki_title": "Vesa Hanski",
+        "entity_id": "Q8139708"
+    },
+    {
+        "query_id": "19_186",
+        "wiki_title": "Malcolm Delaney",
+        "entity_id": "Q217632"
+    },
+    {
+        "query_id": "19_187",
+        "wiki_title": "Dmitry Mikhailovich Golitsyn the Younger",
+        "entity_id": "Q443407"
+    },
+    {
+        "query_id": "19_188",
+        "wiki_title": "Reza Yazdani (singer)",
+        "entity_id": "Q7319803"
+    },
+    {
+        "query_id": "19_189",
+        "wiki_title": "He Jiong",
+        "entity_id": "Q8969884"
+    },
+    {
+        "query_id": "19_190",
+        "wiki_title": "Victor Sen Yung",
+        "entity_id": "Q1229342"
+    },
+    {
+        "query_id": "19_191",
+        "wiki_title": "Bill Hands",
+        "entity_id": "Q4909290"
+    },
+    {
+        "query_id": "19_192",
+        "wiki_title": "Hitoshi Ueki",
+        "entity_id": "Q3544122"
+    },
+    {
+        "query_id": "19_193",
+        "wiki_title": "G\u00fcnther Hadank",
+        "entity_id": "Q103746"
+    },
+    {
+        "query_id": "19_194",
+        "wiki_title": "John Belushi",
+        "entity_id": "Q23858"
+    },
+    {
+        "query_id": "19_195",
+        "wiki_title": "Gottfried Weber",
+        "entity_id": "Q215604"
+    },
+    {
+        "query_id": "19_196",
+        "wiki_title": "Leo Igwe",
+        "entity_id": "Q6523857"
+    },
+    {
+        "query_id": "19_197",
+        "wiki_title": "Sean Hughes (boxer)",
+        "entity_id": "Q7441089"
+    },
+    {
+        "query_id": "19_198",
+        "wiki_title": "Shibli al-Aysami",
+        "entity_id": "Q12218371"
+    },
+    {
+        "query_id": "19_199",
+        "wiki_title": "Michel P\u00e9rin",
+        "entity_id": "Q436514"
+    },
+    {
+        "query_id": "19_200",
+        "wiki_title": "Juan Roberto Diago Durruthy",
+        "entity_id": "Q6300907"
+    },
+    {
+        "query_id": "19_201",
+        "wiki_title": "Giovanni Sollima",
+        "entity_id": "Q585101"
+    },
+    {
+        "query_id": "19_202",
+        "wiki_title": "Ali Haider (singer)",
+        "entity_id": "Q4724830"
+    },
+    {
+        "query_id": "19_203",
+        "wiki_title": "Alberto Gironella",
+        "entity_id": "Q3816949"
+    },
+    {
+        "query_id": "19_204",
+        "wiki_title": "Giuseppe Angeli",
+        "entity_id": "Q378182"
+    },
+    {
+        "query_id": "19_205",
+        "wiki_title": "Leopold V, Archduke of Austria",
+        "entity_id": "Q112066"
+    },
+    {
+        "query_id": "19_206",
+        "wiki_title": "Hugo Sosa",
+        "entity_id": "Q5934488"
+    },
+    {
+        "query_id": "19_207",
+        "wiki_title": "Charles Pfizer",
+        "entity_id": "Q71055"
+    },
+    {
+        "query_id": "19_208",
+        "wiki_title": "Lewis Chalmers",
+        "entity_id": "Q1822081"
+    },
+    {
+        "query_id": "19_209",
+        "wiki_title": "Gabriella Hall",
+        "entity_id": "Q535969"
+    },
+    {
+        "query_id": "19_210",
+        "wiki_title": "Andrea Ferrante",
+        "entity_id": "Q2067737"
+    },
+    {
+        "query_id": "19_211",
+        "wiki_title": "Camille S\u00e9e",
+        "entity_id": "Q2935081"
+    },
+    {
+        "query_id": "19_212",
+        "wiki_title": "Pascalina Lehnert",
+        "entity_id": "Q66610"
+    },
+    {
+        "query_id": "19_213",
+        "wiki_title": "Giulio Gavotti",
+        "entity_id": "Q2274016"
+    },
+    {
+        "query_id": "19_214",
+        "wiki_title": "Wu Ken",
+        "entity_id": "Q2594646"
+    },
+    {
+        "query_id": "19_215",
+        "wiki_title": "Alexandru Pena",
+        "entity_id": "Q3610856"
+    },
+    {
+        "query_id": "19_216",
+        "wiki_title": "Giovanni Angelo Borroni",
+        "entity_id": "Q929684"
+    },
+    {
+        "query_id": "19_217",
+        "wiki_title": "Amani Williams Hunt Abdullah",
+        "entity_id": "Q11862831"
+    },
+    {
+        "query_id": "19_218",
+        "wiki_title": "Alina P\u00e4tz",
+        "entity_id": "Q15729548"
+    },
+    {
+        "query_id": "19_219",
+        "wiki_title": "Yaroslav Dumanskyi",
+        "entity_id": "Q5238894"
+    },
+    {
+        "query_id": "19_220",
+        "wiki_title": "Guillermo Sep\u00falveda",
+        "entity_id": "Q353912"
+    },
+    {
+        "query_id": "19_221",
+        "wiki_title": "Virginia Patrone",
+        "entity_id": "Q7934450"
+    },
+    {
+        "query_id": "19_222",
+        "wiki_title": "Hadden Clark",
+        "entity_id": "Q3125528"
+    },
+    {
+        "query_id": "19_223",
+        "wiki_title": "Herman Heijermans",
+        "entity_id": "Q36771"
+    },
+    {
+        "query_id": "19_224",
+        "wiki_title": "Vladimir Stasov",
+        "entity_id": "Q464192"
+    },
+    {
+        "query_id": "19_225",
+        "wiki_title": "Sam Hancock",
+        "entity_id": "Q7407566"
+    },
+    {
+        "query_id": "19_226",
+        "wiki_title": "Andreas Romar",
+        "entity_id": "Q52387"
+    },
+    {
+        "query_id": "19_227",
+        "wiki_title": "Ben Worrall",
+        "entity_id": "Q4886724"
+    },
+    {
+        "query_id": "19_228",
+        "wiki_title": "Brendon Dedekind",
+        "entity_id": "Q1132807"
+    },
+    {
+        "query_id": "19_230",
+        "wiki_title": "Ayumi Ogasawara",
+        "entity_id": "Q528988"
+    },
+    {
+        "query_id": "19_231",
+        "wiki_title": "Paolo Pagani",
+        "entity_id": "Q939266"
+    },
+    {
+        "query_id": "19_232",
+        "wiki_title": "Elizaveta Axenova",
+        "entity_id": "Q16169883"
+    },
+    {
+        "query_id": "19_233",
+        "wiki_title": "Alfred Steen",
+        "entity_id": "Q15997859"
+    },
+    {
+        "query_id": "19_234",
+        "wiki_title": "Marcelo Dilglay Damiao",
+        "entity_id": "Q1091785"
+    },
+    {
+        "query_id": "19_235",
+        "wiki_title": "Joanne Jackson (swimmer)",
+        "entity_id": "Q2550565"
+    },
+    {
+        "query_id": "19_236",
+        "wiki_title": "Pom Klementieff",
+        "entity_id": "Q3395911"
+    },
+    {
+        "query_id": "19_237",
+        "wiki_title": "J. Roland Smith",
+        "entity_id": "Q16093827"
+    },
+    {
+        "query_id": "19_238",
+        "wiki_title": "Consuelo Adler",
+        "entity_id": "Q2626740"
+    },
+    {
+        "query_id": "19_239",
+        "wiki_title": "Dmitry Pokrass",
+        "entity_id": "Q368695"
+    },
+    {
+        "query_id": "19_240",
+        "wiki_title": "Jo\u00e3o Vilela",
+        "entity_id": "Q6298424"
+    },
+    {
+        "query_id": "19_241",
+        "wiki_title": "Ivo Iaconi",
+        "entity_id": "Q3804902"
+    },
+    {
+        "query_id": "19_242",
+        "wiki_title": "\u015eevket M\u00fcft\u00fcgil",
+        "entity_id": "Q389019"
+    },
+    {
+        "query_id": "19_243",
+        "wiki_title": "William Clinger",
+        "entity_id": "Q8008766"
+    },
+    {
+        "query_id": "19_244",
+        "wiki_title": "Nicolas \u0160umsk\u00fd",
+        "entity_id": "Q3876453"
+    },
+    {
+        "query_id": "19_245",
+        "wiki_title": "Quinton Boatswain",
+        "entity_id": "Q7272478"
+    },
+    {
+        "query_id": "19_247",
+        "wiki_title": "Gabrio Zandon\u00e0",
+        "entity_id": "Q3756802"
+    },
+    {
+        "query_id": "19_248",
+        "wiki_title": "Liu Yingzi",
+        "entity_id": "Q710771"
+    },
+    {
+        "query_id": "19_249",
+        "wiki_title": "Paul Frommelt",
+        "entity_id": "Q960324"
+    },
+    {
+        "query_id": "19_250",
+        "wiki_title": "Constantin Dausch",
+        "entity_id": "Q833655"
+    },
+    {
+        "query_id": "19_251",
+        "wiki_title": "Ernest Gordon Rupp",
+        "entity_id": "Q5393145"
+    },
+    {
+        "query_id": "19_252",
+        "wiki_title": "Fritz Fullriede",
+        "entity_id": "Q5504910"
+    },
+    {
+        "query_id": "19_253",
+        "wiki_title": "Domingo Eyzaguirre",
+        "entity_id": "Q5290362"
+    },
+    {
+        "query_id": "19_254",
+        "wiki_title": "Joe Ferguson (baseball)",
+        "entity_id": "Q6209806"
+    },
+    {
+        "query_id": "19_255",
+        "wiki_title": "Dick Last",
+        "entity_id": "Q354117"
+    },
+    {
+        "query_id": "19_256",
+        "wiki_title": "Carl C. Anderson",
+        "entity_id": "Q5039957"
+    },
+    {
+        "query_id": "19_257",
+        "wiki_title": "Ferrante Gonzaga",
+        "entity_id": "Q693603"
+    },
+    {
+        "query_id": "19_258",
+        "wiki_title": "Darroll Wilson",
+        "entity_id": "Q4470040"
+    },
+    {
+        "query_id": "19_259",
+        "wiki_title": "Ma\u0142gosia Tomassi",
+        "entity_id": "Q6743216"
+    },
+    {
+        "query_id": "19_260",
+        "wiki_title": "Jang Hye-jin (singer)",
+        "entity_id": "Q16091502"
+    },
+    {
+        "query_id": "19_261",
+        "wiki_title": "Dirk Crois",
+        "entity_id": "Q2519538"
+    },
+    {
+        "query_id": "19_262",
+        "wiki_title": "Tommy Bastow",
+        "entity_id": "Q7819212"
+    },
+    {
+        "query_id": "19_263",
+        "wiki_title": "George Cruikshank",
+        "entity_id": "Q360466"
+    },
+    {
+        "query_id": "19_264",
+        "wiki_title": "Manuel de la Torre",
+        "entity_id": "Q552313"
+    },
+    {
+        "query_id": "19_265",
+        "wiki_title": "Elizabeth Eckford",
+        "entity_id": "Q1999165"
+    },
+    {
+        "query_id": "19_266",
+        "wiki_title": "Tatyana Kraynova",
+        "entity_id": "Q4397487"
+    },
+    {
+        "query_id": "19_267",
+        "wiki_title": "Baba Amte",
+        "entity_id": "Q470135"
+    },
+    {
+        "query_id": "19_268",
+        "wiki_title": "Gonzalo Garc\u00eda (footballer, born 1987)",
+        "entity_id": "Q1469935"
+    },
+    {
+        "query_id": "19_269",
+        "wiki_title": "Frederick Campling",
+        "entity_id": "Q5497493"
+    },
+    {
+        "query_id": "19_270",
+        "wiki_title": "Ernest Yust",
+        "entity_id": "Q4535366"
+    },
+    {
+        "query_id": "19_271",
+        "wiki_title": "Daniel Chorzempa",
+        "entity_id": "Q330730"
+    },
+    {
+        "query_id": "19_272",
+        "wiki_title": "Tom Ritchie",
+        "entity_id": "Q7817390"
+    },
+    {
+        "query_id": "19_273",
+        "wiki_title": "Vladimir Kumarin",
+        "entity_id": "Q283006"
+    },
+    {
+        "query_id": "19_274",
+        "wiki_title": "William Chapman (poet)",
+        "entity_id": "Q3568498"
+    },
+    {
+        "query_id": "19_275",
+        "wiki_title": "Nadav Guedj",
+        "entity_id": "Q19302320"
+    },
+    {
+        "query_id": "19_276",
+        "wiki_title": "Manuel Guillermo Pinto",
+        "entity_id": "Q5639851"
+    },
+    {
+        "query_id": "19_277",
+        "wiki_title": "Eino Kuvaja",
+        "entity_id": "Q1308448"
+    },
+    {
+        "query_id": "19_278",
+        "wiki_title": "Liam Higgins (rugby league)",
+        "entity_id": "Q6539639"
+    },
+    {
+        "query_id": "19_279",
+        "wiki_title": "Stanislas Oliveira",
+        "entity_id": "Q3496699"
+    },
+    {
+        "query_id": "19_280",
+        "wiki_title": "Alejandro Ferguson",
+        "entity_id": "Q4714528"
+    },
+    {
+        "query_id": "19_281",
+        "wiki_title": "Joonas Hallikainen",
+        "entity_id": "Q6276015"
+    },
+    {
+        "query_id": "19_282",
+        "wiki_title": "Claudia \u0218tef",
+        "entity_id": "Q508535"
+    },
+    {
+        "query_id": "19_283",
+        "wiki_title": "Oleg Blokhin",
+        "entity_id": "Q186691"
+    },
+    {
+        "query_id": "19_284",
+        "wiki_title": "Tadashi Yamashita",
+        "entity_id": "Q2025214"
+    },
+    {
+        "query_id": "19_285",
+        "wiki_title": "G\u00e1bor Dayka",
+        "entity_id": "Q715001"
+    },
+    {
+        "query_id": "19_286",
+        "wiki_title": "Zuzana Brabcov\u00e1",
+        "entity_id": "Q231188"
+    },
+    {
+        "query_id": "19_287",
+        "wiki_title": "Ruth Thomas (novelist)",
+        "entity_id": "Q7383241"
+    },
+    {
+        "query_id": "19_288",
+        "wiki_title": "Tar\u0131k Akan",
+        "entity_id": "Q2064734"
+    },
+    {
+        "query_id": "19_289",
+        "wiki_title": "Arthur Gee",
+        "entity_id": "Q4798793"
+    },
+    {
+        "query_id": "19_290",
+        "wiki_title": "Mike Plant",
+        "entity_id": "Q979195"
+    },
+    {
+        "query_id": "19_291",
+        "wiki_title": "Radovan Jela\u0161i\u0107",
+        "entity_id": "Q837086"
+    },
+    {
+        "query_id": "19_292",
+        "wiki_title": "Wolfgang Hohlbein",
+        "entity_id": "Q61994"
+    },
+    {
+        "query_id": "19_293",
+        "wiki_title": "Konstantin Khudaverdyan",
+        "entity_id": "Q6429958"
+    },
+    {
+        "query_id": "19_294",
+        "wiki_title": "Bryan Stephens",
+        "entity_id": "Q4980388"
+    },
+    {
+        "query_id": "19_295",
+        "wiki_title": "Bentley Mitchum",
+        "entity_id": "Q4890485"
+    },
+    {
+        "query_id": "19_296",
+        "wiki_title": "Tony Dean Smith",
+        "entity_id": "Q7822214"
+    },
+    {
+        "query_id": "19_297",
+        "wiki_title": "Joe Davison (footballer, born 1919)",
+        "entity_id": "Q16010333"
+    },
+    {
+        "query_id": "19_298",
+        "wiki_title": "Christie Macaluso",
+        "entity_id": "Q555000"
+    },
+    {
+        "query_id": "19_299",
+        "wiki_title": "Franck Dumas",
+        "entity_id": "Q1442441"
+    },
+    {
+        "query_id": "19_300",
+        "wiki_title": "Pietro Germi",
+        "entity_id": "Q53006"
+    },
+    {
+        "query_id": "19_301",
+        "wiki_title": "Yaowalak Traisurat",
+        "entity_id": "Q6666010"
+    },
+    {
+        "query_id": "19_302",
+        "wiki_title": "Gualberto Fabricio de Vagad",
+        "entity_id": "Q5613374"
+    },
+    {
+        "query_id": "19_303",
+        "wiki_title": "Mario Brelich",
+        "entity_id": "Q3848367"
+    },
+    {
+        "query_id": "19_304",
+        "wiki_title": "Debra Laws",
+        "entity_id": "Q5248487"
+    },
+    {
+        "query_id": "19_305",
+        "wiki_title": "Pascal Strebel",
+        "entity_id": "Q15522765"
+    },
+    {
+        "query_id": "19_306",
+        "wiki_title": "Luigi Morleo",
+        "entity_id": "Q568546"
+    },
+    {
+        "query_id": "19_307",
+        "wiki_title": "Laura Poll\u00e1n",
+        "entity_id": "Q269976"
+    },
+    {
+        "query_id": "19_308",
+        "wiki_title": "Gladys Blake",
+        "entity_id": "Q18810908"
+    },
+    {
+        "query_id": "19_309",
+        "wiki_title": "Sacadura Cabral",
+        "entity_id": "Q3121506"
+    },
+    {
+        "query_id": "19_310",
+        "wiki_title": "James P. Crutchfield",
+        "entity_id": "Q1365621"
+    },
+    {
+        "query_id": "19_311",
+        "wiki_title": "Mahyadi Panggabean",
+        "entity_id": "Q4116083"
+    },
+    {
+        "query_id": "19_312",
+        "wiki_title": "Horacio Elizondo",
+        "entity_id": "Q315239"
+    },
+    {
+        "query_id": "19_313",
+        "wiki_title": "John Chilton Burch",
+        "entity_id": "Q1699479"
+    },
+    {
+        "query_id": "19_314",
+        "wiki_title": "Jeff Bourne",
+        "entity_id": "Q1686262"
+    },
+    {
+        "query_id": "19_315",
+        "wiki_title": "Patricia Jessel",
+        "entity_id": "Q4160220"
+    },
+    {
+        "query_id": "19_316",
+        "wiki_title": "Leon D\u0103n\u0103il\u0103",
+        "entity_id": "Q6524621"
+    },
+    {
+        "query_id": "19_317",
+        "wiki_title": "Tommy Thompson (quarterback)",
+        "entity_id": "Q7819927"
+    },
+    {
+        "query_id": "19_318",
+        "wiki_title": "Kari Solem",
+        "entity_id": "Q6370415"
+    },
+    {
+        "query_id": "19_319",
+        "wiki_title": "William H. Horsfall",
+        "entity_id": "Q8010452"
+    },
+    {
+        "query_id": "19_320",
+        "wiki_title": "Leora Dana",
+        "entity_id": "Q2074596"
+    },
+    {
+        "query_id": "19_321",
+        "wiki_title": "Philippe Ch\u00e9ry",
+        "entity_id": "Q2656013"
+    },
+    {
+        "query_id": "19_322",
+        "wiki_title": "Sebastian Manz",
+        "entity_id": "Q102487"
+    },
+    {
+        "query_id": "19_323",
+        "wiki_title": "Neil Asher Silberman",
+        "entity_id": "Q1357338"
+    },
+    {
+        "query_id": "19_324",
+        "wiki_title": "Allen Doone",
+        "entity_id": "Q4731619"
+    },
+    {
+        "query_id": "19_325",
+        "wiki_title": "Gastone Gambara",
+        "entity_id": "Q1388223"
+    },
+    {
+        "query_id": "19_326",
+        "wiki_title": "Paul Sauvage (footballer)",
+        "entity_id": "Q1377389"
+    },
+    {
+        "query_id": "19_327",
+        "wiki_title": "Sandro Botticelli",
+        "entity_id": "Q5669"
+    },
+    {
+        "query_id": "19_328",
+        "wiki_title": "Honor\u00e9-Jean-Aristide Husson",
+        "entity_id": "Q3140236"
+    },
+    {
+        "query_id": "19_329",
+        "wiki_title": "Manuel Aguirre de Tejada",
+        "entity_id": "Q3327989"
+    },
+    {
+        "query_id": "19_330",
+        "wiki_title": "William Duane (physicist)",
+        "entity_id": "Q1895343"
+    },
+    {
+        "query_id": "19_331",
+        "wiki_title": "Robert Herrera",
+        "entity_id": "Q3938310"
+    },
+    {
+        "query_id": "19_333",
+        "wiki_title": "Jules Quicherat",
+        "entity_id": "Q2408040"
+    },
+    {
+        "query_id": "19_334",
+        "wiki_title": "Junichi Usui",
+        "entity_id": "Q6313070"
+    },
+    {
+        "query_id": "19_335",
+        "wiki_title": "Stewart James",
+        "entity_id": "Q16013657"
+    },
+    {
+        "query_id": "19_336",
+        "wiki_title": "Susan O'Connor",
+        "entity_id": "Q441802"
+    },
+    {
+        "query_id": "19_337",
+        "wiki_title": "Alan West (footballer)",
+        "entity_id": "Q4708028"
+    },
+    {
+        "query_id": "19_338",
+        "wiki_title": "Bob MacDonald (baseball)",
+        "entity_id": "Q4933223"
+    },
+    {
+        "query_id": "19_339",
+        "wiki_title": "Tom Arden",
+        "entity_id": "Q137582"
+    },
+    {
+        "query_id": "19_340",
+        "wiki_title": "Reynaldo Tilguath",
+        "entity_id": "Q7319559"
+    },
+    {
+        "query_id": "19_341",
+        "wiki_title": "Annette Lapointe",
+        "entity_id": "Q4769092"
+    },
+    {
+        "query_id": "19_342",
+        "wiki_title": "Brandy Reed",
+        "entity_id": "Q3643738"
+    },
+    {
+        "query_id": "19_343",
+        "wiki_title": "Nicky Rackard",
+        "entity_id": "Q7028671"
+    },
+    {
+        "query_id": "19_344",
+        "wiki_title": "Barry Murphy (rugby union)",
+        "entity_id": "Q2885784"
+    },
+    {
+        "query_id": "19_345",
+        "wiki_title": "Suzanne Berne",
+        "entity_id": "Q4290291"
+    },
+    {
+        "query_id": "19_346",
+        "wiki_title": "Eddie Barefield",
+        "entity_id": "Q924795"
+    },
+    {
+        "query_id": "19_347",
+        "wiki_title": "Thomas Rudolph",
+        "entity_id": "Q473425"
+    },
+    {
+        "query_id": "19_348",
+        "wiki_title": "Howard Mills III",
+        "entity_id": "Q5920416"
+    },
+    {
+        "query_id": "19_349",
+        "wiki_title": "Erin Dobratz",
+        "entity_id": "Q16207396"
+    },
+    {
+        "query_id": "19_350",
+        "wiki_title": "James Jones (Georgia politician)",
+        "entity_id": "Q613651"
+    },
+    {
+        "query_id": "19_351",
+        "wiki_title": "Dan Way",
+        "entity_id": "Q5214562"
+    },
+    {
+        "query_id": "19_352",
+        "wiki_title": "Maxime Sauv\u00e9",
+        "entity_id": "Q3302692"
+    },
+    {
+        "query_id": "19_353",
+        "wiki_title": "Adoniran Barbosa",
+        "entity_id": "Q199666"
+    },
+    {
+        "query_id": "19_354",
+        "wiki_title": "Vic Althouse",
+        "entity_id": "Q7924728"
+    },
+    {
+        "query_id": "19_355",
+        "wiki_title": "Viktor Konovalenko",
+        "entity_id": "Q1338072"
+    },
+    {
+        "query_id": "19_356",
+        "wiki_title": "Stuart Airey (cricketer)",
+        "entity_id": "Q7626265"
+    },
+    {
+        "query_id": "19_357",
+        "wiki_title": "Charles Downing (pomologist)",
+        "entity_id": "Q2958938"
+    },
+    {
+        "query_id": "19_358",
+        "wiki_title": "Ricardo Fernandes (badminton)",
+        "entity_id": "Q1257377"
+    },
+    {
+        "query_id": "19_359",
+        "wiki_title": "Adnan Be\u0161i\u0107",
+        "entity_id": "Q4683872"
+    },
+    {
+        "query_id": "19_360",
+        "wiki_title": "Albina Akhatova",
+        "entity_id": "Q253389"
+    },
+    {
+        "query_id": "19_361",
+        "wiki_title": "Antipas of Pergamum",
+        "entity_id": "Q559936"
+    },
+    {
+        "query_id": "19_362",
+        "wiki_title": "Egoi Mart\u00ednez",
+        "entity_id": "Q362568"
+    },
+    {
+        "query_id": "19_363",
+        "wiki_title": "Ignaz Kuranda",
+        "entity_id": "Q86419"
+    },
+    {
+        "query_id": "19_364",
+        "wiki_title": "Detlev von Liliencron",
+        "entity_id": "Q21119"
+    },
+    {
+        "query_id": "19_365",
+        "wiki_title": "Guido Starhemberg",
+        "entity_id": "Q695284"
+    },
+    {
+        "query_id": "19_366",
+        "wiki_title": "Alfonso II, Count of Provence",
+        "entity_id": "Q465451"
+    },
+    {
+        "query_id": "19_367",
+        "wiki_title": "Marcel Ritzmaier",
+        "entity_id": "Q673882"
+    },
+    {
+        "query_id": "19_368",
+        "wiki_title": "John Maurice Scott",
+        "entity_id": "Q6247247"
+    },
+    {
+        "query_id": "19_369",
+        "wiki_title": "Richard Semon",
+        "entity_id": "Q69820"
+    },
+    {
+        "query_id": "19_370",
+        "wiki_title": "Andr\u00e9 Pieyre de Mandiargues",
+        "entity_id": "Q462583"
+    },
+    {
+        "query_id": "19_371",
+        "wiki_title": "Dedric Ward",
+        "entity_id": "Q4111305"
+    },
+    {
+        "query_id": "19_372",
+        "wiki_title": "Yoichi Akiba",
+        "entity_id": "Q3245320"
+    },
+    {
+        "query_id": "19_373",
+        "wiki_title": "Agnes Marshall",
+        "entity_id": "Q4693082"
+    },
+    {
+        "query_id": "19_374",
+        "wiki_title": "Andy Kindler",
+        "entity_id": "Q526419"
+    },
+    {
+        "query_id": "19_375",
+        "wiki_title": "Maxim Zyuzyakin",
+        "entity_id": "Q3071466"
+    },
+    {
+        "query_id": "19_376",
+        "wiki_title": "Ralph Milliard",
+        "entity_id": "Q5061926"
+    },
+    {
+        "query_id": "19_377",
+        "wiki_title": "Ethel Pritchard",
+        "entity_id": "Q5403190"
+    },
+    {
+        "query_id": "19_378",
+        "wiki_title": "Viacheslav Datsik",
+        "entity_id": "Q2573940"
+    },
+    {
+        "query_id": "19_379",
+        "wiki_title": "Andrea Mazzantini",
+        "entity_id": "Q3615853"
+    },
+    {
+        "query_id": "19_380",
+        "wiki_title": "Gus Mears",
+        "entity_id": "Q955255"
+    },
+    {
+        "query_id": "19_381",
+        "wiki_title": "Antoine Bourseiller",
+        "entity_id": "Q2853722"
+    },
+    {
+        "query_id": "19_382",
+        "wiki_title": "Irene Hughes",
+        "entity_id": "Q6069057"
+    },
+    {
+        "query_id": "19_383",
+        "wiki_title": "Sin Na-hee",
+        "entity_id": "Q7521556"
+    },
+    {
+        "query_id": "19_384",
+        "wiki_title": "Patrick Stirling (footballer)",
+        "entity_id": "Q16031126"
+    },
+    {
+        "query_id": "19_385",
+        "wiki_title": "Ludolf von Alvensleben (Major General)",
+        "entity_id": "Q75433"
+    },
+    {
+        "query_id": "19_386",
+        "wiki_title": "Jordan Santiago",
+        "entity_id": "Q6276981"
+    },
+    {
+        "query_id": "19_387",
+        "wiki_title": "Jeffrey Friedman (filmmaker)",
+        "entity_id": "Q722032"
+    },
+    {
+        "query_id": "19_388",
+        "wiki_title": "Gustav Ernst von Stackelberg",
+        "entity_id": "Q1856350"
+    },
+    {
+        "query_id": "19_389",
+        "wiki_title": "Yi Seung-hun",
+        "entity_id": "Q485025"
+    },
+    {
+        "query_id": "19_390",
+        "wiki_title": "Robert Sweet (botanist)",
+        "entity_id": "Q2003356"
+    },
+    {
+        "query_id": "19_391",
+        "wiki_title": "Georgy Satarov",
+        "entity_id": "Q4408984"
+    },
+    {
+        "query_id": "19_392",
+        "wiki_title": "Peter J\u00f6back",
+        "entity_id": "Q767041"
+    },
+    {
+        "query_id": "19_393",
+        "wiki_title": "Gordon Gollob",
+        "entity_id": "Q60703"
+    },
+    {
+        "query_id": "19_394",
+        "wiki_title": "Frank Le Gall",
+        "entity_id": "Q1443640"
+    },
+    {
+        "query_id": "19_395",
+        "wiki_title": "Gabriel D\u00edaz Bess\u00f3n",
+        "entity_id": "Q1489169"
+    },
+    {
+        "query_id": "19_396",
+        "wiki_title": "J\u00f6rg Breu the Elder",
+        "entity_id": "Q567337"
+    },
+    {
+        "query_id": "19_397",
+        "wiki_title": "Nicola White",
+        "entity_id": "Q40374"
+    },
+    {
+        "query_id": "19_398",
+        "wiki_title": "Jonathan Kent (director)",
+        "entity_id": "Q6273554"
+    },
+    {
+        "query_id": "19_399",
+        "wiki_title": "Renedy Singh",
+        "entity_id": "Q957005"
+    },
+    {
+        "query_id": "19_400",
+        "wiki_title": "Mark Landler",
+        "entity_id": "Q1900198"
+    },
+    {
+        "query_id": "19_401",
+        "wiki_title": "Joseph W. Phinney",
+        "entity_id": "Q6287697"
+    },
+    {
+        "query_id": "19_402",
+        "wiki_title": "Cristoforo Rustici",
+        "entity_id": "Q4543407"
+    },
+    {
+        "query_id": "19_403",
+        "wiki_title": "Howard D. White",
+        "entity_id": "Q1631763"
+    },
+    {
+        "query_id": "19_404",
+        "wiki_title": "Makoto Ozone",
+        "entity_id": "Q2036170"
+    },
+    {
+        "query_id": "19_405",
+        "wiki_title": "Petra Divi\u0161ov\u00e1",
+        "entity_id": "Q7178631"
+    },
+    {
+        "query_id": "19_406",
+        "wiki_title": "Abbie Mitchell",
+        "entity_id": "Q2820828"
+    },
+    {
+        "query_id": "19_407",
+        "wiki_title": "Katarina Frostenson",
+        "entity_id": "Q378276"
+    },
+    {
+        "query_id": "19_408",
+        "wiki_title": "G. Mike Reed",
+        "entity_id": "Q5512364"
+    },
+    {
+        "query_id": "19_409",
+        "wiki_title": "Troy Jackson (politician)",
+        "entity_id": "Q7846807"
+    },
+    {
+        "query_id": "19_410",
+        "wiki_title": "Aaron Banks (martial artist)",
+        "entity_id": "Q4661823"
+    },
+    {
+        "query_id": "19_411",
+        "wiki_title": "Arsen Khubulov",
+        "entity_id": "Q4502046"
+    },
+    {
+        "query_id": "19_412",
+        "wiki_title": "Toccara Montgomery",
+        "entity_id": "Q1555067"
+    },
+    {
+        "query_id": "19_413",
+        "wiki_title": "Dmitri Dashinski",
+        "entity_id": "Q941480"
+    },
+    {
+        "query_id": "19_414",
+        "wiki_title": "Josefine Balluck",
+        "entity_id": "Q6280367"
+    },
+    {
+        "query_id": "19_415",
+        "wiki_title": "Otumfuo Nana Osei Tutu II",
+        "entity_id": "Q370522"
+    },
+    {
+        "query_id": "19_416",
+        "wiki_title": "Dorino Serafini",
+        "entity_id": "Q172185"
+    },
+    {
+        "query_id": "19_417",
+        "wiki_title": "Ashok Kumar Walia",
+        "entity_id": "Q19605243"
+    },
+    {
+        "query_id": "19_418",
+        "wiki_title": "Gorazd Pavl\u00edk",
+        "entity_id": "Q655534"
+    },
+    {
+        "query_id": "19_419",
+        "wiki_title": "Nadia Benois",
+        "entity_id": "Q3334825"
+    },
+    {
+        "query_id": "19_420",
+        "wiki_title": "Dougie Wilson",
+        "entity_id": "Q5301138"
+    },
+    {
+        "query_id": "19_421",
+        "wiki_title": "Doug Burke (water polo)",
+        "entity_id": "Q3714619"
+    },
+    {
+        "query_id": "19_422",
+        "wiki_title": "Annibale Pastore",
+        "entity_id": "Q3618074"
+    },
+    {
+        "query_id": "19_423",
+        "wiki_title": "Clifford Dupont",
+        "entity_id": "Q3501445"
+    },
+    {
+        "query_id": "19_424",
+        "wiki_title": "Bernd Michael Lade",
+        "entity_id": "Q78182"
+    },
+    {
+        "query_id": "19_425",
+        "wiki_title": "Seyi Olajengbesi",
+        "entity_id": "Q322242"
+    },
+    {
+        "query_id": "19_426",
+        "wiki_title": "Poncho de Nigris",
+        "entity_id": "Q4722122"
+    },
+    {
+        "query_id": "19_427",
+        "wiki_title": "Alexander Scott Bullitt",
+        "entity_id": "Q4720045"
+    },
+    {
+        "query_id": "19_428",
+        "wiki_title": "Herman Tollius",
+        "entity_id": "Q969922"
+    },
+    {
+        "query_id": "19_429",
+        "wiki_title": "Mark Adickes",
+        "entity_id": "Q5593949"
+    },
+    {
+        "query_id": "19_430",
+        "wiki_title": "Cid Samson",
+        "entity_id": "Q5119486"
+    },
+    {
+        "query_id": "19_431",
+        "wiki_title": "Yanet Bermoy",
+        "entity_id": "Q270992"
+    },
+    {
+        "query_id": "19_432",
+        "wiki_title": "Yoneji Masuda",
+        "entity_id": "Q1964267"
+    },
+    {
+        "query_id": "19_433",
+        "wiki_title": "John Edmands (librarian)",
+        "entity_id": "Q6231183"
+    },
+    {
+        "query_id": "19_434",
+        "wiki_title": "Money Johnson",
+        "entity_id": "Q2796124"
+    },
+    {
+        "query_id": "19_435",
+        "wiki_title": "Ghaleb Bencheikh",
+        "entity_id": "Q3104758"
+    },
+    {
+        "query_id": "19_436",
+        "wiki_title": "M. S. Sathyu",
+        "entity_id": "Q6713109"
+    },
+    {
+        "query_id": "19_437",
+        "wiki_title": "Gonzalo Rodr\u00edguez (racing driver)",
+        "entity_id": "Q715835"
+    },
+    {
+        "query_id": "19_438",
+        "wiki_title": "Karoline Kr\u00fcger",
+        "entity_id": "Q273315"
+    },
+    {
+        "query_id": "19_439",
+        "wiki_title": "Adriaen Verwer",
+        "entity_id": "Q2010140"
+    },
+    {
+        "query_id": "19_440",
+        "wiki_title": "Andrew Redmayne",
+        "entity_id": "Q436144"
+    },
+    {
+        "query_id": "19_441",
+        "wiki_title": "Carlos King",
+        "entity_id": "Q5042251"
+    },
+    {
+        "query_id": "19_442",
+        "wiki_title": "Richard Alonzo Jaccard",
+        "entity_id": "Q7323704"
+    },
+    {
+        "query_id": "19_443",
+        "wiki_title": "Florence Claxton",
+        "entity_id": "Q5460587"
+    },
+    {
+        "query_id": "19_444",
+        "wiki_title": "Sam Fifield",
+        "entity_id": "Q7407465"
+    },
+    {
+        "query_id": "19_445",
+        "wiki_title": "Rod Benson",
+        "entity_id": "Q3939842"
+    },
+    {
+        "query_id": "19_446",
+        "wiki_title": "Giuseppe Apolloni",
+        "entity_id": "Q3107980"
+    },
+    {
+        "query_id": "19_447",
+        "wiki_title": "Harald Trefall",
+        "entity_id": "Q11009032"
+    },
+    {
+        "query_id": "19_448",
+        "wiki_title": "Bud Lee (pornographer)",
+        "entity_id": "Q1000505"
+    },
+    {
+        "query_id": "19_449",
+        "wiki_title": "Robert Dawson (wrestler)",
+        "entity_id": "Q7343441"
+    },
+    {
+        "query_id": "19_450",
+        "wiki_title": "Viktor Gordiuk",
+        "entity_id": "Q720432"
+    },
+    {
+        "query_id": "19_451",
+        "wiki_title": "Tom Buckland",
+        "entity_id": "Q7815118"
+    },
+    {
+        "query_id": "19_452",
+        "wiki_title": "Bert Hall (footballer, born 1882)",
+        "entity_id": "Q3608044"
+    },
+    {
+        "query_id": "19_453",
+        "wiki_title": "Friedrich Noack",
+        "entity_id": "Q100831"
+    },
+    {
+        "query_id": "19_454",
+        "wiki_title": "Espen Berg (musician)",
+        "entity_id": "Q16222150"
+    },
+    {
+        "query_id": "19_455",
+        "wiki_title": "Madelon Mason",
+        "entity_id": "Q6727062"
+    },
+    {
+        "query_id": "19_456",
+        "wiki_title": "William Page (cricketer)",
+        "entity_id": "Q8016527"
+    },
+    {
+        "query_id": "19_457",
+        "wiki_title": "Todd Allen",
+        "entity_id": "Q2912542"
+    },
+    {
+        "query_id": "19_458",
+        "wiki_title": "Vaidas Baumila",
+        "entity_id": "Q11003717"
+    },
+    {
+        "query_id": "19_459",
+        "wiki_title": "Billy Konchellah",
+        "entity_id": "Q863169"
+    },
+    {
+        "query_id": "19_460",
+        "wiki_title": "Rabah Kadre",
+        "entity_id": "Q7278484"
+    },
+    {
+        "query_id": "19_461",
+        "wiki_title": "Vladimir Shilykovsky",
+        "entity_id": "Q214521"
+    },
+    {
+        "query_id": "19_462",
+        "wiki_title": "Eric Seelig",
+        "entity_id": "Q5387479"
+    },
+    {
+        "query_id": "19_463",
+        "wiki_title": "Gijze Stroboer",
+        "entity_id": "Q2304154"
+    },
+    {
+        "query_id": "19_464",
+        "wiki_title": "Matt Wise",
+        "entity_id": "Q6789548"
+    },
+    {
+        "query_id": "19_465",
+        "wiki_title": "John Orton",
+        "entity_id": "Q6251342"
+    },
+    {
+        "query_id": "19_466",
+        "wiki_title": "Pierre Gascar",
+        "entity_id": "Q2407399"
+    },
+    {
+        "query_id": "19_467",
+        "wiki_title": "Anne-Sophie Calvez",
+        "entity_id": "Q2850931"
+    },
+    {
+        "query_id": "19_468",
+        "wiki_title": "John R. Glascock",
+        "entity_id": "Q1394371"
+    },
+    {
+        "query_id": "19_469",
+        "wiki_title": "Leopold Drucker",
+        "entity_id": "Q874259"
+    },
+    {
+        "query_id": "19_470",
+        "wiki_title": "Mateusz Mo\u017cd\u017ce\u0144",
+        "entity_id": "Q964947"
+    },
+    {
+        "query_id": "19_471",
+        "wiki_title": "Tomomi Morita",
+        "entity_id": "Q2649917"
+    },
+    {
+        "query_id": "19_472",
+        "wiki_title": "Benny McCoy",
+        "entity_id": "Q4890020"
+    },
+    {
+        "query_id": "19_473",
+        "wiki_title": "David Power (tennis)",
+        "entity_id": "Q770239"
+    },
+    {
+        "query_id": "19_474",
+        "wiki_title": "Herman Merivale",
+        "entity_id": "Q1610303"
+    },
+    {
+        "query_id": "19_475",
+        "wiki_title": "John Shaw (Canadian politician)",
+        "entity_id": "Q1701736"
+    },
+    {
+        "query_id": "19_476",
+        "wiki_title": "Emmett Davis (basketball)",
+        "entity_id": "Q5373516"
+    },
+    {
+        "query_id": "19_477",
+        "wiki_title": "Hank Blalock",
+        "entity_id": "Q3126789"
+    },
+    {
+        "query_id": "19_478",
+        "wiki_title": "Amath Diedhiou",
+        "entity_id": "Q4740598"
+    },
+    {
+        "query_id": "19_479",
+        "wiki_title": "Christelle Diallo",
+        "entity_id": "Q2964949"
+    },
+    {
+        "query_id": "19_480",
+        "wiki_title": "Francisco S\u00e1",
+        "entity_id": "Q677135"
+    },
+    {
+        "query_id": "19_481",
+        "wiki_title": "Charles Elliot Allen",
+        "entity_id": "Q3051471"
+    },
+    {
+        "query_id": "19_482",
+        "wiki_title": "Ludmilla Radchenko",
+        "entity_id": "Q152365"
+    },
+    {
+        "query_id": "19_483",
+        "wiki_title": "Elizabeth Shepherd",
+        "entity_id": "Q5363501"
+    },
+    {
+        "query_id": "19_484",
+        "wiki_title": "Martyn Dobson",
+        "entity_id": "Q6777621"
+    },
+    {
+        "query_id": "19_485",
+        "wiki_title": "M\u00e1ximo Gonz\u00e1lez",
+        "entity_id": "Q512199"
+    },
+    {
+        "query_id": "19_486",
+        "wiki_title": "Mar\u00eda Esther Ter\u00e1n Vel\u00e1zquez",
+        "entity_id": "Q19271591"
+    },
+    {
+        "query_id": "19_487",
+        "wiki_title": "F\u00e9lix Saur\u00ed Vivas",
+        "entity_id": "Q5511645"
+    },
+    {
+        "query_id": "19_488",
+        "wiki_title": "Nicole Stamp",
+        "entity_id": "Q7030189"
+    },
+    {
+        "query_id": "19_489",
+        "wiki_title": "Robert Frederick Collins",
+        "entity_id": "Q7344519"
+    },
+    {
+        "query_id": "19_490",
+        "wiki_title": "Walter M. Brackett",
+        "entity_id": "Q7965515"
+    },
+    {
+        "query_id": "19_491",
+        "wiki_title": "Pierina Gilli",
+        "entity_id": "Q1648875"
+    },
+    {
+        "query_id": "19_492",
+        "wiki_title": "Douglas Kiker",
+        "entity_id": "Q5301684"
+    },
+    {
+        "query_id": "19_493",
+        "wiki_title": "Kasey Moore",
+        "entity_id": "Q6374155"
+    },
+    {
+        "query_id": "19_494",
+        "wiki_title": "Marcin Masecki",
+        "entity_id": "Q11767700"
+    },
+    {
+        "query_id": "19_495",
+        "wiki_title": "Rinaldo Mantovano",
+        "entity_id": "Q3432160"
+    },
+    {
+        "query_id": "19_496",
+        "wiki_title": "Rosihan Anwar",
+        "entity_id": "Q4992140"
+    },
+    {
+        "query_id": "19_497",
+        "wiki_title": "Ron Talbot",
+        "entity_id": "Q15917266"
+    },
+    {
+        "query_id": "19_498",
+        "wiki_title": "Scott Jordan (footballer)",
+        "entity_id": "Q7436594"
+    },
+    {
+        "query_id": "19_499",
+        "wiki_title": "Shen Guangwen",
+        "entity_id": "Q7494107"
+    },
+    {
+        "query_id": "19_500",
+        "wiki_title": "Mika Halvari",
+        "entity_id": "Q1369333"
+    },
+    {
+        "query_id": "19_502",
+        "wiki_title": "Zlatko Zebi\u0107",
+        "entity_id": "Q8073016"
+    },
+    {
+        "query_id": "19_503",
+        "wiki_title": "Bla\u017ee Georgioski",
+        "entity_id": "Q4925688"
+    },
+    {
+        "query_id": "19_504",
+        "wiki_title": "Pietro della Vecchia",
+        "entity_id": "Q1529806"
+    },
+    {
+        "query_id": "19_505",
+        "wiki_title": "Rob Mounsey",
+        "entity_id": "Q5995566"
+    },
+    {
+        "query_id": "19_506",
+        "wiki_title": "Poul Glargaard",
+        "entity_id": "Q2106732"
+    },
+    {
+        "query_id": "19_507",
+        "wiki_title": "Nomsebenzi Tsotsobe",
+        "entity_id": "Q3343284"
+    },
+    {
+        "query_id": "19_508",
+        "wiki_title": "Jan White",
+        "entity_id": "Q18157447"
+    },
+    {
+        "query_id": "19_509",
+        "wiki_title": "Vytautas Lalas",
+        "entity_id": "Q7944021"
+    },
+    {
+        "query_id": "19_510",
+        "wiki_title": "Ernest Smythe",
+        "entity_id": "Q5393825"
+    },
+    {
+        "query_id": "19_511",
+        "wiki_title": "Heinz Schneiter",
+        "entity_id": "Q686284"
+    },
+    {
+        "query_id": "19_512",
+        "wiki_title": "Lu\u00eds Alimbrot",
+        "entity_id": "Q1443847"
+    },
+    {
+        "query_id": "19_513",
+        "wiki_title": "Derek Clarke",
+        "entity_id": "Q5261879"
+    },
+    {
+        "query_id": "19_514",
+        "wiki_title": "F\u00e9licien Mbanza",
+        "entity_id": "Q5441752"
+    },
+    {
+        "query_id": "19_515",
+        "wiki_title": "Chris Waters (baseball)",
+        "entity_id": "Q5108429"
+    },
+    {
+        "query_id": "19_516",
+        "wiki_title": "Elvyn Bowen",
+        "entity_id": "Q5368267"
+    },
+    {
+        "query_id": "19_517",
+        "wiki_title": "Raptile",
+        "entity_id": "Q69710"
+    },
+    {
+        "query_id": "19_518",
+        "wiki_title": "Sebastian Schindzielorz",
+        "entity_id": "Q686352"
+    },
+    {
+        "query_id": "19_519",
+        "wiki_title": "Ben Sim",
+        "entity_id": "Q816594"
+    },
+    {
+        "query_id": "19_520",
+        "wiki_title": "Michelangelo Fumagalli",
+        "entity_id": "Q16062853"
+    },
+    {
+        "query_id": "19_521",
+        "wiki_title": "Ana Mar\u00eda Rojas Ruiz",
+        "entity_id": "Q19518950"
+    },
+    {
+        "query_id": "19_522",
+        "wiki_title": "Samuel W. Morris",
+        "entity_id": "Q7412907"
+    },
+    {
+        "query_id": "19_523",
+        "wiki_title": "Gligor Sokolovi\u0107",
+        "entity_id": "Q2563955"
+    },
+    {
+        "query_id": "19_524",
+        "wiki_title": "Al Capps",
+        "entity_id": "Q16939073"
+    },
+    {
+        "query_id": "19_525",
+        "wiki_title": "Aleksandr Ivannikov",
+        "entity_id": "Q931765"
+    },
+    {
+        "query_id": "19_526",
+        "wiki_title": "I. K. K. Menon",
+        "entity_id": "Q13110791"
+    },
+    {
+        "query_id": "19_527",
+        "wiki_title": "Jimmy Forsyth",
+        "entity_id": "Q6200122"
+    },
+    {
+        "query_id": "19_528",
+        "wiki_title": "Jack Middelburg",
+        "entity_id": "Q2497298"
+    },
+    {
+        "query_id": "19_529",
+        "wiki_title": "Martina Franko",
+        "entity_id": "Q6777029"
+    },
+    {
+        "query_id": "19_530",
+        "wiki_title": "Cl\u00e1udio Botelho",
+        "entity_id": "Q5137247"
+    },
+    {
+        "query_id": "19_531",
+        "wiki_title": "Griffin Frazen",
+        "entity_id": "Q2566759"
+    },
+    {
+        "query_id": "19_532",
+        "wiki_title": "Jordan Hoffman",
+        "entity_id": "Q15844992"
+    },
+    {
+        "query_id": "19_533",
+        "wiki_title": "Sonya Clark",
+        "entity_id": "Q7562570"
+    },
+    {
+        "query_id": "19_534",
+        "wiki_title": "Li\u00eam Hoang-Ngoc",
+        "entity_id": "Q983699"
+    },
+    {
+        "query_id": "19_535",
+        "wiki_title": "Alexandra Taylor",
+        "entity_id": "Q15912381"
+    },
+    {
+        "query_id": "19_536",
+        "wiki_title": "Xavier Caf\u00e9\u00efne",
+        "entity_id": "Q3570622"
+    },
+    {
+        "query_id": "19_537",
+        "wiki_title": "Ryan Coiner",
+        "entity_id": "Q1343359"
+    },
+    {
+        "query_id": "19_538",
+        "wiki_title": "Michel Levie",
+        "entity_id": "Q117374"
+    },
+    {
+        "query_id": "19_539",
+        "wiki_title": "Charles Goldie (cricketer)",
+        "entity_id": "Q19654867"
+    },
+    {
+        "query_id": "19_540",
+        "wiki_title": "Philip Hollick",
+        "entity_id": "Q7183754"
+    },
+    {
+        "query_id": "19_541",
+        "wiki_title": "Shane Costa",
+        "entity_id": "Q3481358"
+    },
+    {
+        "query_id": "19_542",
+        "wiki_title": "Stefano Borgia",
+        "entity_id": "Q1379495"
+    },
+    {
+        "query_id": "19_543",
+        "wiki_title": "Francis Coates Jones",
+        "entity_id": "Q17566098"
+    },
+    {
+        "query_id": "19_544",
+        "wiki_title": "Rosario Pergolizzi",
+        "entity_id": "Q3941377"
+    },
+    {
+        "query_id": "19_545",
+        "wiki_title": "Germ\u00e1n Pic\u00f3 Ca\u00f1as",
+        "entity_id": "Q5552318"
+    },
+    {
+        "query_id": "19_546",
+        "wiki_title": "Tadashige Ono",
+        "entity_id": "Q3609186"
+    },
+    {
+        "query_id": "19_547",
+        "wiki_title": "Xavier Boisselot",
+        "entity_id": "Q281231"
+    },
+    {
+        "query_id": "19_548",
+        "wiki_title": "Gabe Muoneke",
+        "entity_id": "Q994382"
+    },
+    {
+        "query_id": "19_549",
+        "wiki_title": "Valdir Espinosa",
+        "entity_id": "Q2346451"
+    },
+    {
+        "query_id": "19_550",
+        "wiki_title": "Jeffrey Lay",
+        "entity_id": "Q6176121"
+    },
+    {
+        "query_id": "19_551",
+        "wiki_title": "Hans-Peter Gies",
+        "entity_id": "Q471433"
+    },
+    {
+        "query_id": "19_552",
+        "wiki_title": "Walt Lerian",
+        "entity_id": "Q7964010"
+    },
+    {
+        "query_id": "19_553",
+        "wiki_title": "Arturo Boiocchi",
+        "entity_id": "Q1446873"
+    },
+    {
+        "query_id": "19_554",
+        "wiki_title": "Antonino Calderone",
+        "entity_id": "Q1986746"
+    },
+    {
+        "query_id": "19_555",
+        "wiki_title": "Nia Abdallah",
+        "entity_id": "Q4933550"
+    },
+    {
+        "query_id": "19_556",
+        "wiki_title": "Wa\u00e1no-Gano",
+        "entity_id": "Q16010160"
+    },
+    {
+        "query_id": "19_557",
+        "wiki_title": "Sven Delblanc",
+        "entity_id": "Q706445"
+    },
+    {
+        "query_id": "19_558",
+        "wiki_title": "Kate\u0159ina Ba\u010furov\u00e1",
+        "entity_id": "Q242781"
+    },
+    {
+        "query_id": "19_559",
+        "wiki_title": "Karl Elsey",
+        "entity_id": "Q10413935"
+    },
+    {
+        "query_id": "19_560",
+        "wiki_title": "Rick Rossovich",
+        "entity_id": "Q1139727"
+    },
+    {
+        "query_id": "19_561",
+        "wiki_title": "Mar\u00eda Herazo Gonz\u00e1lez",
+        "entity_id": "Q15788251"
+    },
+    {
+        "query_id": "19_562",
+        "wiki_title": "Elias Uzamukunda",
+        "entity_id": "Q2485249"
+    },
+    {
+        "query_id": "19_563",
+        "wiki_title": "Ivan Melnik",
+        "entity_id": "Q16234020"
+    },
+    {
+        "query_id": "19_564",
+        "wiki_title": "Felix Holzner",
+        "entity_id": "Q1403535"
+    },
+    {
+        "query_id": "19_565",
+        "wiki_title": "John Kay (musician)",
+        "entity_id": "Q63204"
+    },
+    {
+        "query_id": "19_566",
+        "wiki_title": "Jacob Cornelis Matthieu Radermacher",
+        "entity_id": "Q945130"
+    },
+    {
+        "query_id": "19_567",
+        "wiki_title": "Achille Tramarin",
+        "entity_id": "Q4673715"
+    },
+    {
+        "query_id": "19_568",
+        "wiki_title": "Klaus Fichtel",
+        "entity_id": "Q142266"
+    },
+    {
+        "query_id": "19_569",
+        "wiki_title": "Natallia Kalnysh",
+        "entity_id": "Q6968329"
+    },
+    {
+        "query_id": "19_570",
+        "wiki_title": "Loris Cecchini",
+        "entity_id": "Q14647661"
+    },
+    {
+        "query_id": "19_571",
+        "wiki_title": "D\u00e9borah Rodr\u00edguez",
+        "entity_id": "Q1181595"
+    },
+    {
+        "query_id": "19_572",
+        "wiki_title": "James Iha",
+        "entity_id": "Q433617"
+    },
+    {
+        "query_id": "19_573",
+        "wiki_title": "Sun Dandan",
+        "entity_id": "Q9039781"
+    },
+    {
+        "query_id": "19_574",
+        "wiki_title": "P. K. Basheer",
+        "entity_id": "Q7121263"
+    },
+    {
+        "query_id": "19_575",
+        "wiki_title": "Ian Osborne",
+        "entity_id": "Q5982521"
+    },
+    {
+        "query_id": "19_576",
+        "wiki_title": "S\u00e9bastien Jouve",
+        "entity_id": "Q3510152"
+    },
+    {
+        "query_id": "19_577",
+        "wiki_title": "Jhen\u00e9 Aiko",
+        "entity_id": "Q15929781"
+    },
+    {
+        "query_id": "19_578",
+        "wiki_title": "Pete Stanicek",
+        "entity_id": "Q7172273"
+    },
+    {
+        "query_id": "19_579",
+        "wiki_title": "Midhat Mursi",
+        "entity_id": "Q328756"
+    },
+    {
+        "query_id": "19_580",
+        "wiki_title": "Sieglinde Wagner",
+        "entity_id": "Q88863"
+    },
+    {
+        "query_id": "19_581",
+        "wiki_title": "Henry Shutes",
+        "entity_id": "Q5728301"
+    },
+    {
+        "query_id": "19_582",
+        "wiki_title": "Benjamin Sav\u0161ek",
+        "entity_id": "Q4889209"
+    },
+    {
+        "query_id": "19_583",
+        "wiki_title": "You In-tak",
+        "entity_id": "Q6249841"
+    },
+    {
+        "query_id": "19_584",
+        "wiki_title": "Luis Fernando Silva",
+        "entity_id": "Q6700571"
+    },
+    {
+        "query_id": "19_585",
+        "wiki_title": "Averno (wrestler)",
+        "entity_id": "Q534547"
+    },
+    {
+        "query_id": "19_586",
+        "wiki_title": "Raymond Khoury",
+        "entity_id": "Q710422"
+    },
+    {
+        "query_id": "19_588",
+        "wiki_title": "Jacinto Roque de Sena Pereira",
+        "entity_id": "Q2893524"
+    },
+    {
+        "query_id": "19_589",
+        "wiki_title": "William Mostyn",
+        "entity_id": "Q8015881"
+    },
+    {
+        "query_id": "19_590",
+        "wiki_title": "Michaele Vollbracht",
+        "entity_id": "Q6835634"
+    },
+    {
+        "query_id": "19_591",
+        "wiki_title": "Tuks Senganga",
+        "entity_id": "Q7851863"
+    },
+    {
+        "query_id": "19_592",
+        "wiki_title": "Mando Fresko",
+        "entity_id": "Q6748122"
+    },
+    {
+        "query_id": "19_593",
+        "wiki_title": "Ibn Hawqal",
+        "entity_id": "Q367330"
+    },
+    {
+        "query_id": "19_594",
+        "wiki_title": "John M. Cashin",
+        "entity_id": "Q6245742"
+    },
+    {
+        "query_id": "19_595",
+        "wiki_title": "Kreesha Turner",
+        "entity_id": "Q6436578"
+    },
+    {
+        "query_id": "19_596",
+        "wiki_title": "Luke Jermay",
+        "entity_id": "Q1877040"
+    },
+    {
+        "query_id": "19_597",
+        "wiki_title": "Kenshi Hirokane",
+        "entity_id": "Q2715658"
+    },
+    {
+        "query_id": "19_598",
+        "wiki_title": "Pierre Braunberger",
+        "entity_id": "Q343898"
+    },
+    {
+        "query_id": "19_599",
+        "wiki_title": "Jean-Baptiste Minne-Barth",
+        "entity_id": "Q15999"
+    },
+    {
+        "query_id": "19_600",
+        "wiki_title": "Peter Hunt (folk artist)",
+        "entity_id": "Q7174791"
+    },
+    {
+        "query_id": "19_601",
+        "wiki_title": "Alexey Tselousov",
+        "entity_id": "Q4721344"
+    },
+    {
+        "query_id": "19_602",
+        "wiki_title": "Erik Boye",
+        "entity_id": "Q4993529"
+    },
+    {
+        "query_id": "19_603",
+        "wiki_title": "Joseph P. Kennedy Sr.",
+        "entity_id": "Q313696"
+    },
+    {
+        "query_id": "19_604",
+        "wiki_title": "Lowell Davidson",
+        "entity_id": "Q1488321"
+    },
+    {
+        "query_id": "19_605",
+        "wiki_title": "Simone Rizzato",
+        "entity_id": "Q3961259"
+    },
+    {
+        "query_id": "19_606",
+        "wiki_title": "Leicester Stanhope, 5th Earl of Harrington",
+        "entity_id": "Q4444804"
+    },
+    {
+        "query_id": "19_607",
+        "wiki_title": "Tommy Hunt",
+        "entity_id": "Q2441003"
+    },
+    {
+        "query_id": "19_608",
+        "wiki_title": "Alessandro Sgrigna",
+        "entity_id": "Q1086642"
+    },
+    {
+        "query_id": "19_609",
+        "wiki_title": "Gita Gutawa",
+        "entity_id": "Q936816"
+    },
+    {
+        "query_id": "19_610",
+        "wiki_title": "Christian Geo Heltboe",
+        "entity_id": "Q5109639"
+    },
+    {
+        "query_id": "19_611",
+        "wiki_title": "Alokeranjan Dasgupta",
+        "entity_id": "Q2650553"
+    },
+    {
+        "query_id": "19_612",
+        "wiki_title": "Harri Pritchard-Jones",
+        "entity_id": "Q18535745"
+    },
+    {
+        "query_id": "19_613",
+        "wiki_title": "Julian St. Jox",
+        "entity_id": "Q15138829"
+    },
+    {
+        "query_id": "19_614",
+        "wiki_title": "Maks Bajc",
+        "entity_id": "Q328492"
+    },
+    {
+        "query_id": "19_615",
+        "wiki_title": "Jean-Christophe Ravier",
+        "entity_id": "Q3164773"
+    },
+    {
+        "query_id": "19_616",
+        "wiki_title": "Josef Bulva",
+        "entity_id": "Q1704402"
+    },
+    {
+        "query_id": "19_617",
+        "wiki_title": "Jim Galloway (baseball)",
+        "entity_id": "Q6195135"
+    },
+    {
+        "query_id": "19_618",
+        "wiki_title": "Stanis\u0142aw Albinowski",
+        "entity_id": "Q7599107"
+    },
+    {
+        "query_id": "19_619",
+        "wiki_title": "Kayla Steindl",
+        "entity_id": "Q6380611"
+    },
+    {
+        "query_id": "19_620",
+        "wiki_title": "Aleksandr Puchkov",
+        "entity_id": "Q1358210"
+    },
+    {
+        "query_id": "19_621",
+        "wiki_title": "Marcia Ball",
+        "entity_id": "Q444734"
+    },
+    {
+        "query_id": "19_622",
+        "wiki_title": "Zlatko Sara\u010devi\u0107",
+        "entity_id": "Q2255008"
+    },
+    {
+        "query_id": "19_623",
+        "wiki_title": "Melissa Venema",
+        "entity_id": "Q437775"
+    },
+    {
+        "query_id": "19_624",
+        "wiki_title": "Rufus Payne",
+        "entity_id": "Q2174802"
+    },
+    {
+        "query_id": "19_625",
+        "wiki_title": "Giovanni Antonio Fasolo",
+        "entity_id": "Q3766446"
+    },
+    {
+        "query_id": "19_626",
+        "wiki_title": "William Billings",
+        "entity_id": "Q1348460"
+    },
+    {
+        "query_id": "19_627",
+        "wiki_title": "Otto Bertram",
+        "entity_id": "Q92403"
+    },
+    {
+        "query_id": "19_630",
+        "wiki_title": "Ivan Vazov",
+        "entity_id": "Q310630"
+    },
+    {
+        "query_id": "19_631",
+        "wiki_title": "Steinar Pettersen",
+        "entity_id": "Q957198"
+    },
+    {
+        "query_id": "19_632",
+        "wiki_title": "Eduardo Coudet",
+        "entity_id": "Q2547652"
+    },
+    {
+        "query_id": "19_633",
+        "wiki_title": "\u00c1lvaro Pe\u00f1a (Uruguayan footballer)",
+        "entity_id": "Q16232850"
+    },
+    {
+        "query_id": "19_634",
+        "wiki_title": "Peter van Dalen",
+        "entity_id": "Q543763"
+    },
+    {
+        "query_id": "19_635",
+        "wiki_title": "Adam Smith",
+        "entity_id": "Q9381"
+    },
+    {
+        "query_id": "19_636",
+        "wiki_title": "Ali Safi Golpaygani",
+        "entity_id": "Q4725174"
+    },
+    {
+        "query_id": "19_637",
+        "wiki_title": "Marco Paiva",
+        "entity_id": "Q10505031"
+    },
+    {
+        "query_id": "19_638",
+        "wiki_title": "Steve Dignan",
+        "entity_id": "Q7612390"
+    },
+    {
+        "query_id": "19_639",
+        "wiki_title": "Richard Holm (tenor)",
+        "entity_id": "Q96387"
+    },
+    {
+        "query_id": "19_640",
+        "wiki_title": "Pieter Cornelisz Kunst",
+        "entity_id": "Q2283466"
+    },
+    {
+        "query_id": "19_641",
+        "wiki_title": "Fred Cook (American football)",
+        "entity_id": "Q5494873"
+    },
+    {
+        "query_id": "19_642",
+        "wiki_title": "Paul Stringer",
+        "entity_id": "Q16216053"
+    },
+    {
+        "query_id": "19_643",
+        "wiki_title": "Fabrice Moreau (footballer)",
+        "entity_id": "Q2699877"
+    },
+    {
+        "query_id": "19_644",
+        "wiki_title": "Juan Laporte",
+        "entity_id": "Q1101615"
+    },
+    {
+        "query_id": "19_645",
+        "wiki_title": "Radu Tudoran",
+        "entity_id": "Q3488967"
+    },
+    {
+        "query_id": "19_646",
+        "wiki_title": "Krist\u012bne Gaile",
+        "entity_id": "Q16240034"
+    },
+    {
+        "query_id": "19_647",
+        "wiki_title": "Daniel Boemle",
+        "entity_id": "Q16793"
+    },
+    {
+        "query_id": "19_648",
+        "wiki_title": "\u017darko \u0110urovi\u0107",
+        "entity_id": "Q8083618"
+    },
+    {
+        "query_id": "19_649",
+        "wiki_title": "Romain Br\u00e9gerie",
+        "entity_id": "Q941963"
+    },
+    {
+        "query_id": "19_650",
+        "wiki_title": "Edith Houghton",
+        "entity_id": "Q5338571"
+    },
+    {
+        "query_id": "19_651",
+        "wiki_title": "Jean van de Velde (golfer)",
+        "entity_id": "Q1386880"
+    },
+    {
+        "query_id": "19_652",
+        "wiki_title": "Cyron Brown",
+        "entity_id": "Q4903830"
+    },
+    {
+        "query_id": "19_653",
+        "wiki_title": "Giulio Giacinto Avellino",
+        "entity_id": "Q1410633"
+    },
+    {
+        "query_id": "19_654",
+        "wiki_title": "Phil Villapiano",
+        "entity_id": "Q4107362"
+    },
+    {
+        "query_id": "19_655",
+        "wiki_title": "Cora Stephan",
+        "entity_id": "Q71219"
+    },
+    {
+        "query_id": "19_656",
+        "wiki_title": "Albert Aftalion",
+        "entity_id": "Q1345673"
+    },
+    {
+        "query_id": "19_657",
+        "wiki_title": "Jean-Paul de Jong",
+        "entity_id": "Q1685152"
+    },
+    {
+        "query_id": "19_658",
+        "wiki_title": "Gilbert Parent",
+        "entity_id": "Q3105822"
+    },
+    {
+        "query_id": "19_659",
+        "wiki_title": "Axel Chapelle",
+        "entity_id": "Q16530784"
+    },
+    {
+        "query_id": "19_660",
+        "wiki_title": "Matthew Tumilty",
+        "entity_id": "Q6791340"
+    },
+    {
+        "query_id": "19_661",
+        "wiki_title": "Omid Ahangar",
+        "entity_id": "Q5874271"
+    },
+    {
+        "query_id": "19_662",
+        "wiki_title": "Ko Eun-mi",
+        "entity_id": "Q497467"
+    },
+    {
+        "query_id": "19_663",
+        "wiki_title": "Robert Zubrin",
+        "entity_id": "Q504677"
+    },
+    {
+        "query_id": "19_664",
+        "wiki_title": "Alan Caligiuri",
+        "entity_id": "Q3607688"
+    },
+    {
+        "query_id": "19_665",
+        "wiki_title": "Albert Mechelynck",
+        "entity_id": "Q1950079"
+    },
+    {
+        "query_id": "19_666",
+        "wiki_title": "Tobias Pfl\u00fcger",
+        "entity_id": "Q315151"
+    },
+    {
+        "query_id": "19_667",
+        "wiki_title": "Ian Sinclair (cricketer)",
+        "entity_id": "Q16095286"
+    },
+    {
+        "query_id": "19_668",
+        "wiki_title": "Jo\u00e9 Juneau",
+        "entity_id": "Q1710234"
+    },
+    {
+        "query_id": "19_669",
+        "wiki_title": "Toni Seelos",
+        "entity_id": "Q78753"
+    },
+    {
+        "query_id": "19_670",
+        "wiki_title": "William Biddle Shepard",
+        "entity_id": "Q2578044"
+    },
+    {
+        "query_id": "19_671",
+        "wiki_title": "Tommy Roe",
+        "entity_id": "Q1335207"
+    },
+    {
+        "query_id": "19_672",
+        "wiki_title": "H\u00e5vard Flo",
+        "entity_id": "Q719758"
+    },
+    {
+        "query_id": "19_673",
+        "wiki_title": "Richard Hindley",
+        "entity_id": "Q7326470"
+    },
+    {
+        "query_id": "19_674",
+        "wiki_title": "Margaret Moyes Black",
+        "entity_id": "Q6759748"
+    },
+    {
+        "query_id": "19_675",
+        "wiki_title": "Windsor Noncent",
+        "entity_id": "Q3709243"
+    },
+    {
+        "query_id": "19_676",
+        "wiki_title": "Alexander Hamilton McDonald",
+        "entity_id": "Q4719073"
+    },
+    {
+        "query_id": "19_677",
+        "wiki_title": "G. Edward Bradley",
+        "entity_id": "Q16012932"
+    },
+    {
+        "query_id": "19_678",
+        "wiki_title": "Petr V\u00e1\u0161a",
+        "entity_id": "Q7178600"
+    },
+    {
+        "query_id": "19_679",
+        "wiki_title": "Hazel Brooks",
+        "entity_id": "Q531868"
+    },
+    {
+        "query_id": "19_680",
+        "wiki_title": "Matteo Bobbi",
+        "entity_id": "Q1570480"
+    },
+    {
+        "query_id": "19_681",
+        "wiki_title": "James Bradley (cricketer)",
+        "entity_id": "Q6130121"
+    },
+    {
+        "query_id": "19_682",
+        "wiki_title": "Bill Niles",
+        "entity_id": "Q4910344"
+    },
+    {
+        "query_id": "19_683",
+        "wiki_title": "Zome Louis",
+        "entity_id": "Q8073802"
+    },
+    {
+        "query_id": "19_684",
+        "wiki_title": "B\u00e5rd Tufte Johansen",
+        "entity_id": "Q5004952"
+    },
+    {
+        "query_id": "19_685",
+        "wiki_title": "Edward Miles (Tasmanian politician)",
+        "entity_id": "Q5344462"
+    },
+    {
+        "query_id": "19_686",
+        "wiki_title": "Alan Price",
+        "entity_id": "Q510991"
+    },
+    {
+        "query_id": "19_687",
+        "wiki_title": "Devika Parikh",
+        "entity_id": "Q5267048"
+    },
+    {
+        "query_id": "19_688",
+        "wiki_title": "Mayumi Miyata",
+        "entity_id": "Q6798087"
+    },
+    {
+        "query_id": "19_689",
+        "wiki_title": "John Lee Archer",
+        "entity_id": "Q15460349"
+    },
+    {
+        "query_id": "19_690",
+        "wiki_title": "John Coleridge, 1st Baron Coleridge",
+        "entity_id": "Q1574706"
+    },
+    {
+        "query_id": "19_691",
+        "wiki_title": "Tontowi Ahmad",
+        "entity_id": "Q506333"
+    },
+    {
+        "query_id": "19_693",
+        "wiki_title": "Rusty Magee",
+        "entity_id": "Q7382620"
+    },
+    {
+        "query_id": "19_694",
+        "wiki_title": "Thompson W. McNeely",
+        "entity_id": "Q13218859"
+    },
+    {
+        "query_id": "19_695",
+        "wiki_title": "Salvatore Rampone",
+        "entity_id": "Q3946200"
+    },
+    {
+        "query_id": "19_696",
+        "wiki_title": "Matija Gubec",
+        "entity_id": "Q715968"
+    },
+    {
+        "query_id": "19_697",
+        "wiki_title": "Moritz Retzsch",
+        "entity_id": "Q1948044"
+    },
+    {
+        "query_id": "19_698",
+        "wiki_title": "Beatrix Lehmann",
+        "entity_id": "Q665422"
+    },
+    {
+        "query_id": "19_699",
+        "wiki_title": "Andreas Pinkwart",
+        "entity_id": "Q109936"
+    },
+    {
+        "query_id": "19_700",
+        "wiki_title": "Alberto Bustamante Bela\u00fande",
+        "entity_id": "Q743834"
+    },
+    {
+        "query_id": "19_701",
+        "wiki_title": "Laurence Godfrey (physicist)",
+        "entity_id": "Q6500613"
+    },
+    {
+        "query_id": "19_702",
+        "wiki_title": "Guillermo Tambussi",
+        "entity_id": "Q5616275"
+    },
+    {
+        "query_id": "19_703",
+        "wiki_title": "Fenwick Lawson",
+        "entity_id": "Q5443683"
+    },
+    {
+        "query_id": "19_704",
+        "wiki_title": "Princess Wilhelmina of Hesse-Kassel",
+        "entity_id": "Q50984"
+    },
+    {
+        "query_id": "19_705",
+        "wiki_title": "Michael Reed (American football)",
+        "entity_id": "Q6833789"
+    },
+    {
+        "query_id": "19_706",
+        "wiki_title": "Jean-Fran\u00e7ois Garneray",
+        "entity_id": "Q2126833"
+    },
+    {
+        "query_id": "19_707",
+        "wiki_title": "Ted Robertson",
+        "entity_id": "Q7693666"
+    },
+    {
+        "query_id": "19_708",
+        "wiki_title": "Dave Willetts",
+        "entity_id": "Q3703061"
+    },
+    {
+        "query_id": "19_709",
+        "wiki_title": "Emil Andres",
+        "entity_id": "Q560607"
+    },
+    {
+        "query_id": "19_710",
+        "wiki_title": "Maria Maya",
+        "entity_id": "Q5251231"
+    },
+    {
+        "query_id": "19_711",
+        "wiki_title": "Eric Carter (Canadian football)",
+        "entity_id": "Q5386249"
+    },
+    {
+        "query_id": "19_712",
+        "wiki_title": "Johannes Van Rensburg",
+        "entity_id": "Q2255694"
+    },
+    {
+        "query_id": "19_713",
+        "wiki_title": "Elli Terwiel",
+        "entity_id": "Q1332137"
+    },
+    {
+        "query_id": "19_714",
+        "wiki_title": "Danny Murphy (American actor)",
+        "entity_id": "Q17489305"
+    },
+    {
+        "query_id": "19_715",
+        "wiki_title": "Mathieu Boogaerts",
+        "entity_id": "Q1665518"
+    },
+    {
+        "query_id": "19_716",
+        "wiki_title": "Claudia Tenney",
+        "entity_id": "Q5129263"
+    },
+    {
+        "query_id": "19_717",
+        "wiki_title": "Nick Ekelund-Arenander",
+        "entity_id": "Q12328606"
+    },
+    {
+        "query_id": "19_718",
+        "wiki_title": "Achille Peretti (artist)",
+        "entity_id": "Q3604409"
+    },
+    {
+        "query_id": "19_719",
+        "wiki_title": "Michiel Braam",
+        "entity_id": "Q1931236"
+    },
+    {
+        "query_id": "19_720",
+        "wiki_title": "Nina Brozni\u0107",
+        "entity_id": "Q3365181"
+    },
+    {
+        "query_id": "19_721",
+        "wiki_title": "Giovanni Andrea Doria",
+        "entity_id": "Q1525723"
+    },
+    {
+        "query_id": "19_722",
+        "wiki_title": "Willibald Beyschlag",
+        "entity_id": "Q88748"
+    },
+    {
+        "query_id": "19_723",
+        "wiki_title": "Siegfried Alkan",
+        "entity_id": "Q322511"
+    },
+    {
+        "query_id": "19_724",
+        "wiki_title": "Shinya Sato (footballer)",
+        "entity_id": "Q7497832"
+    },
+    {
+        "query_id": "19_725",
+        "wiki_title": "Annie Finch",
+        "entity_id": "Q4769281"
+    },
+    {
+        "query_id": "19_726",
+        "wiki_title": "Sean Burke",
+        "entity_id": "Q1364147"
+    },
+    {
+        "query_id": "19_727",
+        "wiki_title": "Parsa Pirouzfar",
+        "entity_id": "Q3366049"
+    },
+    {
+        "query_id": "19_728",
+        "wiki_title": "DOT DOT DOT (artist)",
+        "entity_id": "Q12056548"
+    },
+    {
+        "query_id": "19_729",
+        "wiki_title": "Gustav Winkler",
+        "entity_id": "Q5621255"
+    },
+    {
+        "query_id": "19_730",
+        "wiki_title": "Marta Verginella",
+        "entity_id": "Q3849967"
+    },
+    {
+        "query_id": "19_731",
+        "wiki_title": "John E. Miller (Arkansas politician)",
+        "entity_id": "Q17274601"
+    },
+    {
+        "query_id": "19_732",
+        "wiki_title": "Alain Fert\u00e9",
+        "entity_id": "Q377170"
+    },
+    {
+        "query_id": "19_733",
+        "wiki_title": "Jimmy Mack (broadcaster)",
+        "entity_id": "Q6200686"
+    },
+    {
+        "query_id": "19_734",
+        "wiki_title": "Robert John Fleming (Canadian politician)",
+        "entity_id": "Q2157715"
+    },
+    {
+        "query_id": "19_735",
+        "wiki_title": "Anton Pein",
+        "entity_id": "Q90328"
+    },
+    {
+        "query_id": "19_736",
+        "wiki_title": "Vic Harris (utility player)",
+        "entity_id": "Q7924817"
+    },
+    {
+        "query_id": "19_737",
+        "wiki_title": "J\u00fcrgen Panis",
+        "entity_id": "Q325390"
+    },
+    {
+        "query_id": "19_738",
+        "wiki_title": "Michael Parsons (composer)",
+        "entity_id": "Q3308436"
+    },
+    {
+        "query_id": "19_739",
+        "wiki_title": "Roy Travers",
+        "entity_id": "Q7373432"
+    },
+    {
+        "query_id": "19_740",
+        "wiki_title": "Mikko Lahtio",
+        "entity_id": "Q1397370"
+    },
+    {
+        "query_id": "19_741",
+        "wiki_title": "Antti Haapakoski",
+        "entity_id": "Q2857664"
+    },
+    {
+        "query_id": "19_742",
+        "wiki_title": "Peer Baierlein",
+        "entity_id": "Q328014"
+    },
+    {
+        "query_id": "19_743",
+        "wiki_title": "Jack Broderick",
+        "entity_id": "Q2425602"
+    },
+    {
+        "query_id": "19_744",
+        "wiki_title": "John H. McCarthy",
+        "entity_id": "Q1385148"
+    },
+    {
+        "query_id": "19_745",
+        "wiki_title": "Karen Ellemann",
+        "entity_id": "Q3042869"
+    },
+    {
+        "query_id": "19_746",
+        "wiki_title": "Christian Paul",
+        "entity_id": "Q681613"
+    },
+    {
+        "query_id": "19_747",
+        "wiki_title": "Lee Oser",
+        "entity_id": "Q16192864"
+    },
+    {
+        "query_id": "19_748",
+        "wiki_title": "Jeanne Hines",
+        "entity_id": "Q428150"
+    },
+    {
+        "query_id": "19_749",
+        "wiki_title": "Kang Min-ho",
+        "entity_id": "Q489727"
+    },
+    {
+        "query_id": "19_750",
+        "wiki_title": "Jock Morgan",
+        "entity_id": "Q6207412"
+    },
+    {
+        "query_id": "19_751",
+        "wiki_title": "Sebastian Mielitz",
+        "entity_id": "Q494643"
+    },
+    {
+        "query_id": "19_752",
+        "wiki_title": "Art Williams (outfielder)",
+        "entity_id": "Q4797143"
+    },
+    {
+        "query_id": "19_753",
+        "wiki_title": "Magdalena Mielcarz",
+        "entity_id": "Q272429"
+    },
+    {
+        "query_id": "19_754",
+        "wiki_title": "Pierre de Chevign\u00e9",
+        "entity_id": "Q3387507"
+    },
+    {
+        "query_id": "19_755",
+        "wiki_title": "Johann Rudolf Wettstein",
+        "entity_id": "Q676457"
+    },
+    {
+        "query_id": "19_756",
+        "wiki_title": "Dario Di Palma",
+        "entity_id": "Q3702588"
+    },
+    {
+        "query_id": "19_757",
+        "wiki_title": "Peter O'Donnell (businessman)",
+        "entity_id": "Q16089964"
+    },
+    {
+        "query_id": "19_758",
+        "wiki_title": "Paolo De Chiesa",
+        "entity_id": "Q1372338"
+    },
+    {
+        "query_id": "19_759",
+        "wiki_title": "Luis Hern\u00e1ndez (figure skater)",
+        "entity_id": "Q3425205"
+    },
+    {
+        "query_id": "19_760",
+        "wiki_title": "S\u00f8ren Holdgaard",
+        "entity_id": "Q7666553"
+    },
+    {
+        "query_id": "19_761",
+        "wiki_title": "Jim Levey",
+        "entity_id": "Q6196400"
+    },
+    {
+        "query_id": "19_762",
+        "wiki_title": "Oscar Le\u00f3n",
+        "entity_id": "Q7106097"
+    },
+    {
+        "query_id": "19_763",
+        "wiki_title": "Michele Lo Russo",
+        "entity_id": "Q3856668"
+    },
+    {
+        "query_id": "19_764",
+        "wiki_title": "Alfred Engelsen",
+        "entity_id": "Q2582430"
+    },
+    {
+        "query_id": "19_765",
+        "wiki_title": "Constantinos Charalambidis",
+        "entity_id": "Q556963"
+    },
+    {
+        "query_id": "19_766",
+        "wiki_title": "Fran\u00e7ois Vranck",
+        "entity_id": "Q2378101"
+    },
+    {
+        "query_id": "19_767",
+        "wiki_title": "Ahmet Berman",
+        "entity_id": "Q401781"
+    },
+    {
+        "query_id": "19_768",
+        "wiki_title": "Henrietta Valor",
+        "entity_id": "Q13560372"
+    },
+    {
+        "query_id": "19_769",
+        "wiki_title": "Niccol\u00f2 Giolfino",
+        "entity_id": "Q2070123"
+    },
+    {
+        "query_id": "19_770",
+        "wiki_title": "Samantha Downie",
+        "entity_id": "Q7408648"
+    },
+    {
+        "query_id": "19_771",
+        "wiki_title": "Jack Krol",
+        "entity_id": "Q6113532"
+    },
+    {
+        "query_id": "19_772",
+        "wiki_title": "Christian Negouai",
+        "entity_id": "Q1779830"
+    },
+    {
+        "query_id": "19_773",
+        "wiki_title": "Ren\u00e9 de Chambrun",
+        "entity_id": "Q3427038"
+    },
+    {
+        "query_id": "19_774",
+        "wiki_title": "Francisco Castro (footballer, born 1979)",
+        "entity_id": "Q16218406"
+    },
+    {
+        "query_id": "19_775",
+        "wiki_title": "Friedrich Hayek",
+        "entity_id": "Q1325"
+    },
+    {
+        "query_id": "19_776",
+        "wiki_title": "Kerry Joseph",
+        "entity_id": "Q6394558"
+    },
+    {
+        "query_id": "19_777",
+        "wiki_title": "Tajna Tanovi\u0107",
+        "entity_id": "Q108160"
+    },
+    {
+        "query_id": "19_778",
+        "wiki_title": "Sylvain Curinier",
+        "entity_id": "Q3492207"
+    },
+    {
+        "query_id": "19_779",
+        "wiki_title": "Fred Esmelton",
+        "entity_id": "Q5495075"
+    },
+    {
+        "query_id": "19_780",
+        "wiki_title": "Kylie Cronk",
+        "entity_id": "Q3063455"
+    },
+    {
+        "query_id": "19_781",
+        "wiki_title": "Joaqu\u00edn Miguel Elizalde",
+        "entity_id": "Q2613936"
+    },
+    {
+        "query_id": "19_782",
+        "wiki_title": "Naty Abascal",
+        "entity_id": "Q6969987"
+    },
+    {
+        "query_id": "19_783",
+        "wiki_title": "Panagiotis Kanellopoulos",
+        "entity_id": "Q708364"
+    },
+    {
+        "query_id": "19_784",
+        "wiki_title": "Victor Ambros",
+        "entity_id": "Q983858"
+    },
+    {
+        "query_id": "19_785",
+        "wiki_title": "Sabah I bin Jaber",
+        "entity_id": "Q26922"
+    },
+    {
+        "query_id": "19_786",
+        "wiki_title": "Ar\u00edstides Chavier Ar\u00e9valo",
+        "entity_id": "Q4802791"
+    },
+    {
+        "query_id": "19_787",
+        "wiki_title": "Gerald Haxton",
+        "entity_id": "Q3103881"
+    },
+    {
+        "query_id": "19_788",
+        "wiki_title": "Li Qiangbing",
+        "entity_id": "Q443192"
+    },
+    {
+        "query_id": "19_789",
+        "wiki_title": "J\u0119dker",
+        "entity_id": "Q6322076"
+    },
+    {
+        "query_id": "19_790",
+        "wiki_title": "Bal\u00e1zs Major",
+        "entity_id": "Q11340932"
+    },
+    {
+        "query_id": "19_791",
+        "wiki_title": "James Thomas (rugby union)",
+        "entity_id": "Q6144142"
+    },
+    {
+        "query_id": "19_792",
+        "wiki_title": "Robert Moorhouse",
+        "entity_id": "Q7347777"
+    },
+    {
+        "query_id": "19_793",
+        "wiki_title": "Erna Baumbauer",
+        "entity_id": "Q104981"
+    },
+    {
+        "query_id": "19_794",
+        "wiki_title": "Dan Drysdale",
+        "entity_id": "Q428564"
+    },
+    {
+        "query_id": "19_795",
+        "wiki_title": "Robert Avellanet",
+        "entity_id": "Q7341661"
+    },
+    {
+        "query_id": "19_796",
+        "wiki_title": "Dick Wheeler",
+        "entity_id": "Q5273542"
+    },
+    {
+        "query_id": "19_797",
+        "wiki_title": "Ronski Speed",
+        "entity_id": "Q67540"
+    },
+    {
+        "query_id": "19_798",
+        "wiki_title": "Stuart Tinney",
+        "entity_id": "Q176363"
+    },
+    {
+        "query_id": "19_799",
+        "wiki_title": "Albert van Spiers",
+        "entity_id": "Q4711549"
+    },
+    {
+        "query_id": "19_800",
+        "wiki_title": "Ram\u00f3n Xirau",
+        "entity_id": "Q4893008"
+    },
+    {
+        "query_id": "19_801",
+        "wiki_title": "Francis George Adeodatus Micallef",
+        "entity_id": "Q1441501"
+    },
+    {
+        "query_id": "19_802",
+        "wiki_title": "Billy Phillips",
+        "entity_id": "Q4913162"
+    },
+    {
+        "query_id": "19_803",
+        "wiki_title": "Maurice Meisner",
+        "entity_id": "Q6793347"
+    },
+    {
+        "query_id": "19_804",
+        "wiki_title": "Francis Kiernan",
+        "entity_id": "Q1309746"
+    },
+    {
+        "query_id": "19_805",
+        "wiki_title": "Szczepan Sadurski",
+        "entity_id": "Q326315"
+    },
+    {
+        "query_id": "19_806",
+        "wiki_title": "Lloyd Barnes",
+        "entity_id": "Q6662269"
+    },
+    {
+        "query_id": "19_807",
+        "wiki_title": "Eduardo Y\u00e1\u00f1ez Monta\u00f1o",
+        "entity_id": "Q19518985"
+    },
+    {
+        "query_id": "19_808",
+        "wiki_title": "Henri Legay",
+        "entity_id": "Q5715577"
+    },
+    {
+        "query_id": "19_809",
+        "wiki_title": "Lukas Runggaldier",
+        "entity_id": "Q1876965"
+    },
+    {
+        "query_id": "19_810",
+        "wiki_title": "Jean-Claude Ndoli",
+        "entity_id": "Q6169142"
+    },
+    {
+        "query_id": "19_811",
+        "wiki_title": "Birgit Rosengren",
+        "entity_id": "Q4916284"
+    },
+    {
+        "query_id": "19_812",
+        "wiki_title": "Eustathius of Mtskheta",
+        "entity_id": "Q1378751"
+    },
+    {
+        "query_id": "19_813",
+        "wiki_title": "Steve Decker",
+        "entity_id": "Q7612369"
+    },
+    {
+        "query_id": "19_814",
+        "wiki_title": "Colm Tucker",
+        "entity_id": "Q2984063"
+    },
+    {
+        "query_id": "19_815",
+        "wiki_title": "Edward Henty",
+        "entity_id": "Q5343425"
+    },
+    {
+        "query_id": "19_816",
+        "wiki_title": "Christin Wurth-Thomas",
+        "entity_id": "Q2965855"
+    },
+    {
+        "query_id": "19_817",
+        "wiki_title": "Sunil Kumar Desai",
+        "entity_id": "Q11218139"
+    },
+    {
+        "query_id": "19_818",
+        "wiki_title": "Theodor Sternberg",
+        "entity_id": "Q97138"
+    },
+    {
+        "query_id": "19_819",
+        "wiki_title": "Thomas L. Price",
+        "entity_id": "Q1550104"
+    },
+    {
+        "query_id": "19_820",
+        "wiki_title": "Frans Cuyck van Myerop",
+        "entity_id": "Q12055782"
+    },
+    {
+        "query_id": "19_821",
+        "wiki_title": "Svetlana Sleptsova",
+        "entity_id": "Q236225"
+    },
+    {
+        "query_id": "19_822",
+        "wiki_title": "Carl Rottmann",
+        "entity_id": "Q647805"
+    },
+    {
+        "query_id": "19_823",
+        "wiki_title": "Adrian Brown (cricketer)",
+        "entity_id": "Q4684892"
+    },
+    {
+        "query_id": "19_824",
+        "wiki_title": "Cecil Holmes (director)",
+        "entity_id": "Q5056131"
+    },
+    {
+        "query_id": "19_825",
+        "wiki_title": "James Gunn (screenwriter, born 1920)",
+        "entity_id": "Q6135048"
+    },
+    {
+        "query_id": "19_826",
+        "wiki_title": "Matthew Richter",
+        "entity_id": "Q6791128"
+    },
+    {
+        "query_id": "19_827",
+        "wiki_title": "Al Bedner",
+        "entity_id": "Q17626488"
+    },
+    {
+        "query_id": "19_828",
+        "wiki_title": "Jean Elichagaray",
+        "entity_id": "Q6170612"
+    },
+    {
+        "query_id": "19_829",
+        "wiki_title": "Noko",
+        "entity_id": "Q7048078"
+    },
+    {
+        "query_id": "19_830",
+        "wiki_title": "Alfred Leyman",
+        "entity_id": "Q4723067"
+    },
+    {
+        "query_id": "19_831",
+        "wiki_title": "Demir Demirkan",
+        "entity_id": "Q981776"
+    },
+    {
+        "query_id": "19_832",
+        "wiki_title": "John Garstang",
+        "entity_id": "Q733602"
+    },
+    {
+        "query_id": "19_833",
+        "wiki_title": "Dougie Gray",
+        "entity_id": "Q5301126"
+    },
+    {
+        "query_id": "19_834",
+        "wiki_title": "Roger Marquis",
+        "entity_id": "Q7358590"
+    },
+    {
+        "query_id": "19_835",
+        "wiki_title": "Kamal Abbas",
+        "entity_id": "Q149368"
+    },
+    {
+        "query_id": "19_836",
+        "wiki_title": "Treg Brown",
+        "entity_id": "Q544350"
+    },
+    {
+        "query_id": "19_837",
+        "wiki_title": "Mark Webster (darts player)",
+        "entity_id": "Q460672"
+    },
+    {
+        "query_id": "19_838",
+        "wiki_title": "Jean-Baptiste Matho",
+        "entity_id": "Q931526"
+    },
+    {
+        "query_id": "19_839",
+        "wiki_title": "Ken Sueda",
+        "entity_id": "Q6388568"
+    },
+    {
+        "query_id": "19_840",
+        "wiki_title": "Sven Beuckert",
+        "entity_id": "Q128417"
+    },
+    {
+        "query_id": "19_841",
+        "wiki_title": "Marika Lagercrantz",
+        "entity_id": "Q442243"
+    },
+    {
+        "query_id": "19_842",
+        "wiki_title": "Dion Valle",
+        "entity_id": "Q5279299"
+    },
+    {
+        "query_id": "19_843",
+        "wiki_title": "Oscar Neumann",
+        "entity_id": "Q77186"
+    },
+    {
+        "query_id": "19_844",
+        "wiki_title": "Ernst Hartert",
+        "entity_id": "Q62824"
+    },
+    {
+        "query_id": "19_845",
+        "wiki_title": "Levi Richard Ellert",
+        "entity_id": "Q6535493"
+    },
+    {
+        "query_id": "19_846",
+        "wiki_title": "Lutz Fleischer",
+        "entity_id": "Q1745576"
+    },
+    {
+        "query_id": "19_847",
+        "wiki_title": "Nootcharin Sukkhongdumnoen",
+        "entity_id": "Q19568925"
+    },
+    {
+        "query_id": "19_848",
+        "wiki_title": "Mike Dunne (baseball)",
+        "entity_id": "Q6846633"
+    },
+    {
+        "query_id": "19_849",
+        "wiki_title": "Andrew Piddington",
+        "entity_id": "Q18066935"
+    },
+    {
+        "query_id": "19_850",
+        "wiki_title": "Jean-Baptiste Dumay",
+        "entity_id": "Q3164044"
+    },
+    {
+        "query_id": "19_851",
+        "wiki_title": "Marty Ravellette",
+        "entity_id": "Q6777530"
+    },
+    {
+        "query_id": "19_852",
+        "wiki_title": "Tom Webley",
+        "entity_id": "Q7818010"
+    },
+    {
+        "query_id": "19_853",
+        "wiki_title": "Thom Mathews",
+        "entity_id": "Q3063036"
+    },
+    {
+        "query_id": "19_854",
+        "wiki_title": "Camille Alaphilippe",
+        "entity_id": "Q2934846"
+    },
+    {
+        "query_id": "19_855",
+        "wiki_title": "Th\u00e9r\u00e8se Elfforss",
+        "entity_id": "Q4946326"
+    },
+    {
+        "query_id": "19_856",
+        "wiki_title": "Natale Masera",
+        "entity_id": "Q3870616"
+    },
+    {
+        "query_id": "19_857",
+        "wiki_title": "Robert Bald",
+        "entity_id": "Q7341815"
+    },
+    {
+        "query_id": "19_858",
+        "wiki_title": "Jean-Baptiste R\u00e9veillon",
+        "entity_id": "Q2267378"
+    },
+    {
+        "query_id": "19_859",
+        "wiki_title": "Fujiwara no Saneko",
+        "entity_id": "Q10380962"
+    },
+    {
+        "query_id": "19_860",
+        "wiki_title": "Alexander Thieme",
+        "entity_id": "Q530650"
+    },
+    {
+        "query_id": "19_861",
+        "wiki_title": "John Drennan (cricketer)",
+        "entity_id": "Q16736701"
+    },
+    {
+        "query_id": "19_862",
+        "wiki_title": "Giorgio Sommer",
+        "entity_id": "Q64212"
+    },
+    {
+        "query_id": "19_863",
+        "wiki_title": "Karl vom Stein zum Altenstein",
+        "entity_id": "Q69406"
+    },
+    {
+        "query_id": "19_864",
+        "wiki_title": "Karl Pauker",
+        "entity_id": "Q698887"
+    },
+    {
+        "query_id": "19_865",
+        "wiki_title": "Fred Otnes",
+        "entity_id": "Q5496037"
+    },
+    {
+        "query_id": "19_866",
+        "wiki_title": "Jean Giraudoux",
+        "entity_id": "Q309974"
+    },
+    {
+        "query_id": "19_867",
+        "wiki_title": "Nora Lafi",
+        "entity_id": "Q3343460"
+    },
+    {
+        "query_id": "19_868",
+        "wiki_title": "William Blades",
+        "entity_id": "Q8005600"
+    },
+    {
+        "query_id": "19_869",
+        "wiki_title": "Ralf Speth",
+        "entity_id": "Q7287007"
+    },
+    {
+        "query_id": "19_870",
+        "wiki_title": "Maarten Ducrot",
+        "entity_id": "Q1839323"
+    },
+    {
+        "query_id": "19_871",
+        "wiki_title": "Krassimir Damianov",
+        "entity_id": "Q6436348"
+    },
+    {
+        "query_id": "19_872",
+        "wiki_title": "Sergey Ryabtsev",
+        "entity_id": "Q2332746"
+    },
+    {
+        "query_id": "19_873",
+        "wiki_title": "Hannes Reichelt",
+        "entity_id": "Q696674"
+    },
+    {
+        "query_id": "19_874",
+        "wiki_title": "Francisco Cornejo",
+        "entity_id": "Q1441933"
+    },
+    {
+        "query_id": "19_875",
+        "wiki_title": "Clancy Eccles",
+        "entity_id": "Q1095011"
+    },
+    {
+        "query_id": "19_876",
+        "wiki_title": "Wendelin Wei\u00dfheimer",
+        "entity_id": "Q1430386"
+    },
+    {
+        "query_id": "19_877",
+        "wiki_title": "Pedro Gomes (footballer)",
+        "entity_id": "Q10505411"
+    },
+    {
+        "query_id": "19_878",
+        "wiki_title": "Robert Emmet",
+        "entity_id": "Q558750"
+    },
+    {
+        "query_id": "19_879",
+        "wiki_title": "Roberto de Figueiredo Caldas",
+        "entity_id": "Q10363465"
+    },
+    {
+        "query_id": "19_880",
+        "wiki_title": "Ethel Griffies",
+        "entity_id": "Q276116"
+    },
+    {
+        "query_id": "19_881",
+        "wiki_title": "Tatsuya Hiruta",
+        "entity_id": "Q850892"
+    },
+    {
+        "query_id": "19_882",
+        "wiki_title": "Robert Bonnet (physician)",
+        "entity_id": "Q91129"
+    },
+    {
+        "query_id": "19_883",
+        "wiki_title": "Masakazu Tashiro",
+        "entity_id": "Q3245072"
+    },
+    {
+        "query_id": "19_884",
+        "wiki_title": "Ivan Focht",
+        "entity_id": "Q12633168"
+    },
+    {
+        "query_id": "19_885",
+        "wiki_title": "Laurent Daignault",
+        "entity_id": "Q6501104"
+    },
+    {
+        "query_id": "19_886",
+        "wiki_title": "Jacinta Escudos",
+        "entity_id": "Q3157091"
+    },
+    {
+        "query_id": "19_888",
+        "wiki_title": "Arvid Smit",
+        "entity_id": "Q2044530"
+    },
+    {
+        "query_id": "19_889",
+        "wiki_title": "V\u00edctor Heredia",
+        "entity_id": "Q513668"
+    },
+    {
+        "query_id": "19_890",
+        "wiki_title": "Bob Rush (baseball)",
+        "entity_id": "Q4933845"
+    },
+    {
+        "query_id": "19_891",
+        "wiki_title": "Pascal Poirier",
+        "entity_id": "Q3367566"
+    },
+    {
+        "query_id": "19_892",
+        "wiki_title": "Sarah Gainham",
+        "entity_id": "Q7422323"
+    },
+    {
+        "query_id": "19_893",
+        "wiki_title": "Tatsuo Sato (politician)",
+        "entity_id": "Q49963"
+    },
+    {
+        "query_id": "19_894",
+        "wiki_title": "Horace Faith",
+        "entity_id": "Q5901716"
+    },
+    {
+        "query_id": "19_895",
+        "wiki_title": "Per Ivar Staberg",
+        "entity_id": "Q3899474"
+    },
+    {
+        "query_id": "19_896",
+        "wiki_title": "Daisuke Ishiwatari",
+        "entity_id": "Q429678"
+    },
+    {
+        "query_id": "19_897",
+        "wiki_title": "John Eaton (composer)",
+        "entity_id": "Q1567818"
+    },
+    {
+        "query_id": "19_898",
+        "wiki_title": "Girolamo Curti",
+        "entity_id": "Q286867"
+    },
+    {
+        "query_id": "19_899",
+        "wiki_title": "Marilar Aleixandre",
+        "entity_id": "Q3328074"
+    },
+    {
+        "query_id": "19_900",
+        "wiki_title": "Henry Stockbridge Jr.",
+        "entity_id": "Q1457733"
+    },
+    {
+        "query_id": "19_901",
+        "wiki_title": "Joseph Marcell",
+        "entity_id": "Q1640024"
+    },
+    {
+        "query_id": "19_902",
+        "wiki_title": "Johan Gabriel Oxenstierna (pentathlete)",
+        "entity_id": "Q925496"
+    },
+    {
+        "query_id": "19_903",
+        "wiki_title": "Bo Matthews",
+        "entity_id": "Q2907492"
+    },
+    {
+        "query_id": "19_904",
+        "wiki_title": "Ralph St\u00f6ckli",
+        "entity_id": "Q869721"
+    },
+    {
+        "query_id": "19_905",
+        "wiki_title": "Giuliana Tesoro",
+        "entity_id": "Q15077451"
+    },
+    {
+        "query_id": "19_906",
+        "wiki_title": "Safwan Abdul-Ghani",
+        "entity_id": "Q7398848"
+    },
+    {
+        "query_id": "19_907",
+        "wiki_title": "Stewart Home",
+        "entity_id": "Q1422563"
+    },
+    {
+        "query_id": "19_908",
+        "wiki_title": "Jim McInally (ice hockey)",
+        "entity_id": "Q6196841"
+    },
+    {
+        "query_id": "19_909",
+        "wiki_title": "Tony Reno",
+        "entity_id": "Q2607278"
+    },
+    {
+        "query_id": "19_910",
+        "wiki_title": "Erik Pfeifer",
+        "entity_id": "Q477957"
+    },
+    {
+        "query_id": "19_911",
+        "wiki_title": "Memphis Bleek",
+        "entity_id": "Q129747"
+    },
+    {
+        "query_id": "19_912",
+        "wiki_title": "Antti Lepp\u00e4nen",
+        "entity_id": "Q4777416"
+    },
+    {
+        "query_id": "19_913",
+        "wiki_title": "Hu Huanyong",
+        "entity_id": "Q3371429"
+    },
+    {
+        "query_id": "19_914",
+        "wiki_title": "Miguel Mba",
+        "entity_id": "Q6844672"
+    },
+    {
+        "query_id": "19_915",
+        "wiki_title": "Ricardo Ciciliano",
+        "entity_id": "Q7322596"
+    },
+    {
+        "query_id": "19_916",
+        "wiki_title": "Max Tidof",
+        "entity_id": "Q89458"
+    },
+    {
+        "query_id": "19_917",
+        "wiki_title": "Ken Rickards (footballer)",
+        "entity_id": "Q19577660"
+    },
+    {
+        "query_id": "19_918",
+        "wiki_title": "Noelle Keselica",
+        "entity_id": "Q7047314"
+    },
+    {
+        "query_id": "19_919",
+        "wiki_title": "Edoardo Mortara",
+        "entity_id": "Q475100"
+    },
+    {
+        "query_id": "19_920",
+        "wiki_title": "Garretson W. Gibson",
+        "entity_id": "Q888979"
+    },
+    {
+        "query_id": "19_921",
+        "wiki_title": "Aleksandra \u015al\u0105ska",
+        "entity_id": "Q532700"
+    },
+    {
+        "query_id": "19_922",
+        "wiki_title": "Peter Shub",
+        "entity_id": "Q16911579"
+    },
+    {
+        "query_id": "19_923",
+        "wiki_title": "Tomasz Stolpa",
+        "entity_id": "Q2470504"
+    },
+    {
+        "query_id": "19_924",
+        "wiki_title": "Ricky Trlicek",
+        "entity_id": "Q7332214"
+    },
+    {
+        "query_id": "19_925",
+        "wiki_title": "Francesco Acquaviva",
+        "entity_id": "Q1337721"
+    },
+    {
+        "query_id": "19_926",
+        "wiki_title": "Piia Suomalainen",
+        "entity_id": "Q13555"
+    },
+    {
+        "query_id": "19_927",
+        "wiki_title": "Landry Bender",
+        "entity_id": "Q15638494"
+    },
+    {
+        "query_id": "19_928",
+        "wiki_title": "Zhang Guangjian",
+        "entity_id": "Q11068348"
+    },
+    {
+        "query_id": "19_929",
+        "wiki_title": "Stanley Hahn",
+        "entity_id": "Q6585237"
+    },
+    {
+        "query_id": "19_930",
+        "wiki_title": "Daniel Sargent (politician)",
+        "entity_id": "Q16857248"
+    },
+    {
+        "query_id": "19_931",
+        "wiki_title": "Mykhaylo Dyachuk-Stavytskyi",
+        "entity_id": "Q6947549"
+    },
+    {
+        "query_id": "19_932",
+        "wiki_title": "Jason Beghe",
+        "entity_id": "Q944681"
+    },
+    {
+        "query_id": "19_933",
+        "wiki_title": "Jobst of Limburg",
+        "entity_id": "Q828021"
+    },
+    {
+        "query_id": "19_934",
+        "wiki_title": "Matev\u017e Kos",
+        "entity_id": "Q6786717"
+    },
+    {
+        "query_id": "19_935",
+        "wiki_title": "Princess Margherita of Bourbon-Parma",
+        "entity_id": "Q934500"
+    },
+    {
+        "query_id": "19_936",
+        "wiki_title": "Darren Johnson",
+        "entity_id": "Q5224992"
+    },
+    {
+        "query_id": "19_937",
+        "wiki_title": "Camillo Pacetti",
+        "entity_id": "Q3651558"
+    },
+    {
+        "query_id": "19_938",
+        "wiki_title": "Bruce Lanoil",
+        "entity_id": "Q4977836"
+    },
+    {
+        "query_id": "19_939",
+        "wiki_title": "Antonio Abondio",
+        "entity_id": "Q599474"
+    },
+    {
+        "query_id": "19_940",
+        "wiki_title": "Lewis Hatchett",
+        "entity_id": "Q6536670"
+    },
+    {
+        "query_id": "19_941",
+        "wiki_title": "Jean Espariat",
+        "entity_id": "Q3171948"
+    },
+    {
+        "query_id": "19_942",
+        "wiki_title": "Rom\u00e1rio (footballer, born June 1992)",
+        "entity_id": "Q3940945"
+    },
+    {
+        "query_id": "19_943",
+        "wiki_title": "John Lieswyn",
+        "entity_id": "Q1965404"
+    },
+    {
+        "query_id": "19_944",
+        "wiki_title": "Nanna H\u00e4nninen",
+        "entity_id": "Q6963804"
+    },
+    {
+        "query_id": "19_945",
+        "wiki_title": "Luis Le\u00f3n S\u00e1nchez",
+        "entity_id": "Q164090"
+    },
+    {
+        "query_id": "19_946",
+        "wiki_title": "Nolan Henke",
+        "entity_id": "Q7048193"
+    },
+    {
+        "query_id": "19_947",
+        "wiki_title": "Joseph Addison Alexander",
+        "entity_id": "Q6280911"
+    },
+    {
+        "query_id": "19_948",
+        "wiki_title": "Evans Evans",
+        "entity_id": "Q4947320"
+    },
+    {
+        "query_id": "19_949",
+        "wiki_title": "Carl Bessai",
+        "entity_id": "Q5039901"
+    },
+    {
+        "query_id": "19_950",
+        "wiki_title": "Anton Kannemeyer",
+        "entity_id": "Q2857010"
+    },
+    {
+        "query_id": "19_951",
+        "wiki_title": "Gauthier Grumier",
+        "entity_id": "Q367903"
+    },
+    {
+        "query_id": "19_952",
+        "wiki_title": "James Clarence Mangan",
+        "entity_id": "Q1680164"
+    },
+    {
+        "query_id": "19_953",
+        "wiki_title": "Steve Hardwick",
+        "entity_id": "Q7612762"
+    },
+    {
+        "query_id": "19_954",
+        "wiki_title": "Steve De Ridder",
+        "entity_id": "Q783993"
+    },
+    {
+        "query_id": "19_955",
+        "wiki_title": "Tom Hynd",
+        "entity_id": "Q16019099"
+    },
+    {
+        "query_id": "19_956",
+        "wiki_title": "Adolphe Joseph Carcassonne",
+        "entity_id": "Q2824848"
+    },
+    {
+        "query_id": "19_957",
+        "wiki_title": "Peter Mathews (archaeologist)",
+        "entity_id": "Q3055108"
+    },
+    {
+        "query_id": "19_958",
+        "wiki_title": "Nikos Psacharopoulos",
+        "entity_id": "Q7036679"
+    },
+    {
+        "query_id": "19_959",
+        "wiki_title": "Louis-Jean-Nicolas Lejoille",
+        "entity_id": "Q15179463"
+    },
+    {
+        "query_id": "19_960",
+        "wiki_title": "Marienetta Jirkowsky",
+        "entity_id": "Q86992"
+    },
+    {
+        "query_id": "19_961",
+        "wiki_title": "Silje Nergaard",
+        "entity_id": "Q236381"
+    },
+    {
+        "query_id": "19_962",
+        "wiki_title": "Dave Mlicki",
+        "entity_id": "Q5229398"
+    },
+    {
+        "query_id": "19_963",
+        "wiki_title": "Bill Manchuk",
+        "entity_id": "Q4910024"
+    },
+    {
+        "query_id": "19_964",
+        "wiki_title": "Warren Cann",
+        "entity_id": "Q4018264"
+    },
+    {
+        "query_id": "19_965",
+        "wiki_title": "William J. Toye",
+        "entity_id": "Q8013355"
+    },
+    {
+        "query_id": "19_966",
+        "wiki_title": "Nadezhda Ovechkina",
+        "entity_id": "Q6957621"
+    },
+    {
+        "query_id": "19_967",
+        "wiki_title": "Graham Hood",
+        "entity_id": "Q5592915"
+    },
+    {
+        "query_id": "19_968",
+        "wiki_title": "John Paddy Carstairs",
+        "entity_id": "Q1701310"
+    },
+    {
+        "query_id": "19_969",
+        "wiki_title": "Bartholomeus Dolendo",
+        "entity_id": "Q4865218"
+    },
+    {
+        "query_id": "19_970",
+        "wiki_title": "Salvo D'Acquisto",
+        "entity_id": "Q982573"
+    },
+    {
+        "query_id": "19_971",
+        "wiki_title": "Simon Kippax",
+        "entity_id": "Q7519125"
+    },
+    {
+        "query_id": "19_972",
+        "wiki_title": "Dragan Andri\u0107 (water polo)",
+        "entity_id": "Q1609727"
+    },
+    {
+        "query_id": "19_973",
+        "wiki_title": "Alessandro Pompei",
+        "entity_id": "Q3610220"
+    },
+    {
+        "query_id": "19_974",
+        "wiki_title": "Ann Z. Caracristi",
+        "entity_id": "Q2850429"
+    },
+    {
+        "query_id": "19_975",
+        "wiki_title": "Jos\u00e9 Felipe Puelles",
+        "entity_id": "Q17037504"
+    },
+    {
+        "query_id": "19_976",
+        "wiki_title": "Vincent Hanley",
+        "entity_id": "Q7931836"
+    },
+    {
+        "query_id": "19_977",
+        "wiki_title": "Al Robles",
+        "entity_id": "Q4704719"
+    },
+    {
+        "query_id": "19_978",
+        "wiki_title": "Nadia Townsend",
+        "entity_id": "Q6957728"
+    },
+    {
+        "query_id": "19_979",
+        "wiki_title": "Thomas Hardy (political reformer)",
+        "entity_id": "Q7790422"
+    },
+    {
+        "query_id": "19_980",
+        "wiki_title": "Vladim\u00edr Andrs",
+        "entity_id": "Q3503443"
+    },
+    {
+        "query_id": "19_981",
+        "wiki_title": "Marc-Alain Ouaknin",
+        "entity_id": "Q3287593"
+    },
+    {
+        "query_id": "19_982",
+        "wiki_title": "Roddy Radiation",
+        "entity_id": "Q7356506"
+    },
+    {
+        "query_id": "19_983",
+        "wiki_title": "Herbert Ames",
+        "entity_id": "Q3133439"
+    },
+    {
+        "query_id": "19_984",
+        "wiki_title": "Henryk Budzicz",
+        "entity_id": "Q11708940"
+    },
+    {
+        "query_id": "19_985",
+        "wiki_title": "Ang It-hong",
+        "entity_id": "Q703906"
+    },
+    {
+        "query_id": "19_986",
+        "wiki_title": "Xian Yi Fang",
+        "entity_id": "Q3124606"
+    },
+    {
+        "query_id": "19_987",
+        "wiki_title": "Reimut Reiche",
+        "entity_id": "Q91480"
+    },
+    {
+        "query_id": "19_988",
+        "wiki_title": "Daniel Madwed",
+        "entity_id": "Q2229263"
+    },
+    {
+        "query_id": "19_989",
+        "wiki_title": "Suzanne Paradis",
+        "entity_id": "Q3506020"
+    },
+    {
+        "query_id": "19_990",
+        "wiki_title": "Todd Krygier",
+        "entity_id": "Q6378719"
+    },
+    {
+        "query_id": "19_991",
+        "wiki_title": "Doc Farrell",
+        "entity_id": "Q5287044"
+    },
+    {
+        "query_id": "19_992",
+        "wiki_title": "Jorge Mautner",
+        "entity_id": "Q3246373"
+    },
+    {
+        "query_id": "19_993",
+        "wiki_title": "Wolfe Tone",
+        "entity_id": "Q437962"
+    },
+    {
+        "query_id": "19_994",
+        "wiki_title": "Peter Sampson",
+        "entity_id": "Q7176763"
+    },
+    {
+        "query_id": "19_995",
+        "wiki_title": "Geoff Tisdale",
+        "entity_id": "Q5534344"
+    },
+    {
+        "query_id": "19_996",
+        "wiki_title": "Joannes Aurifaber (Vimariensis)",
+        "entity_id": "Q96461"
+    },
+    {
+        "query_id": "19_997",
+        "wiki_title": "Nikolaos Zervas",
+        "entity_id": "Q7036104"
+    },
+    {
+        "query_id": "19_998",
+        "wiki_title": "Michael Welker",
+        "entity_id": "Q100329"
+    },
+    {
+        "query_id": "19_999",
+        "wiki_title": "Fiona Lewis",
+        "entity_id": "Q3072712"
+    }
+]

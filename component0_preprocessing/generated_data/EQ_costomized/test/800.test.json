@@ -1,0 +1,1839 @@
+[
+    {
+        "query_id": "800_0",
+        "question": "What is Choi Soo-jong famous for?",
+        "answers": [
+            "Taejo Wang Geon"
+        ],
+        "pageviews": 72535
+    },
+    {
+        "query_id": "800_1",
+        "question": "What is Jean Racine famous for?",
+        "answers": [
+            "Andromaque",
+            "Esther",
+            "Athalie",
+            "Les Plaideurs",
+            "Alexandre le Grand",
+            "Berenice"
+        ],
+        "pageviews": 84346
+    },
+    {
+        "query_id": "800_2",
+        "question": "What is Sostratus of Cnidus famous for?",
+        "answers": [
+            "Lighthouse of Alexandria"
+        ],
+        "pageviews": 4750
+    },
+    {
+        "query_id": "800_3",
+        "question": "What is Frank Norris famous for?",
+        "answers": [
+            "McTeague"
+        ],
+        "pageviews": 37398
+    },
+    {
+        "query_id": "800_4",
+        "question": "What is Philip Reeve famous for?",
+        "answers": [
+            "Mortal Engines Quartet"
+        ],
+        "pageviews": 40592
+    },
+    {
+        "query_id": "800_5",
+        "question": "What is Scott Lynch famous for?",
+        "answers": [
+            "Red Seas Under Red Skies"
+        ],
+        "pageviews": 108385
+    },
+    {
+        "query_id": "800_6",
+        "question": "What is John von Neumann famous for?",
+        "answers": [
+            "von Neumann regular ring",
+            "von Neumann algebra",
+            "Von Neumann universal constructor",
+            "Von Neumann cellular automaton",
+            "set theory",
+            "von Neumann architecture",
+            "ergodic theory",
+            "game theory"
+        ],
+        "pageviews": 847398
+    },
+    {
+        "query_id": "800_7",
+        "question": "What is Kevin Williamson famous for?",
+        "answers": [
+            "I Know What You Did Last Summer",
+            "The Vampire Diaries"
+        ],
+        "pageviews": 250345
+    },
+    {
+        "query_id": "800_8",
+        "question": "What is James Gibbs famous for?",
+        "answers": [
+            "St Martin-in-the-Fields",
+            "Radcliffe Camera"
+        ],
+        "pageviews": 19949
+    },
+    {
+        "query_id": "800_9",
+        "question": "What is Naoko Takeuchi famous for?",
+        "answers": [
+            "Sailor Moon"
+        ],
+        "pageviews": 238698
+    },
+    {
+        "query_id": "800_10",
+        "question": "What is W\u0142adys\u0142aw Reymont famous for?",
+        "answers": [
+            "The Peasants"
+        ],
+        "pageviews": 25151
+    },
+    {
+        "query_id": "800_11",
+        "question": "What is Wim Wenders famous for?",
+        "answers": [
+            "Faraway, So Close!",
+            "Wings of Desire"
+        ],
+        "pageviews": 263288
+    },
+    {
+        "query_id": "800_12",
+        "question": "What is George Otto Gey famous for?",
+        "answers": [
+            "HeLa"
+        ],
+        "pageviews": 24434
+    },
+    {
+        "query_id": "800_13",
+        "question": "What is Tite Kubo famous for?",
+        "answers": [
+            "Bleach"
+        ],
+        "pageviews": 250762
+    },
+    {
+        "query_id": "800_14",
+        "question": "What is Karin Fossum famous for?",
+        "answers": [
+            "He Who Fears the Wolf"
+        ],
+        "pageviews": 10329
+    },
+    {
+        "query_id": "800_15",
+        "question": "What is Stanley G. Weinbaum famous for?",
+        "answers": [
+            "A Martian Odyssey"
+        ],
+        "pageviews": 12056
+    },
+    {
+        "query_id": "800_16",
+        "question": "What is Beatrix Potter famous for?",
+        "answers": [
+            "The Tale of Jemima Puddle-Duck",
+            "The Tale of Mr. Jeremy Fisher",
+            "The Tale of Benjamin Bunny",
+            "The Tale of Peter Rabbit",
+            "The Tale of Squirrel Nutkin"
+        ],
+        "pageviews": 644391
+    },
+    {
+        "query_id": "800_17",
+        "question": "What is William Least Heat-Moon famous for?",
+        "answers": [
+            "Blue Highways"
+        ],
+        "pageviews": 27075
+    },
+    {
+        "query_id": "800_18",
+        "question": "What is Bertolt Brecht famous for?",
+        "answers": [
+            "The Threepenny Opera",
+            "The Caucasian Chalk Circle",
+            "Life of Galileo"
+        ],
+        "pageviews": 492734
+    },
+    {
+        "query_id": "800_19",
+        "question": "What is E. M. Forster famous for?",
+        "answers": [
+            "Howards End"
+        ],
+        "pageviews": 418783
+    },
+    {
+        "query_id": "800_20",
+        "question": "What is Harper Lee famous for?",
+        "answers": [
+            "To Kill a Mockingbird"
+        ],
+        "pageviews": 673629
+    },
+    {
+        "query_id": "800_21",
+        "question": "What is Aristotile Fioravanti famous for?",
+        "answers": [
+            "Dormition Cathedral"
+        ],
+        "pageviews": 5908
+    },
+    {
+        "query_id": "800_22",
+        "question": "What is Edmund Spenser famous for?",
+        "answers": [
+            "The Faerie Queene"
+        ],
+        "pageviews": 192259
+    },
+    {
+        "query_id": "800_23",
+        "question": "What is Dario Fo famous for?",
+        "answers": [
+            "Mistero Buffo"
+        ],
+        "pageviews": 75231
+    },
+    {
+        "query_id": "800_24",
+        "question": "What is Frances Hardinge famous for?",
+        "answers": [
+            "Gullstruck Island"
+        ],
+        "pageviews": 13604
+    },
+    {
+        "query_id": "800_25",
+        "question": "What is Y\u014dko Kamio famous for?",
+        "answers": [
+            "Boys Over Flowers"
+        ],
+        "pageviews": 21912
+    },
+    {
+        "query_id": "800_26",
+        "question": "What is Ariel Levy famous for?",
+        "answers": [
+            "Female Chauvinist Pigs"
+        ],
+        "pageviews": 6376
+    },
+    {
+        "query_id": "800_27",
+        "question": "What is The New York Times Company famous for?",
+        "answers": [
+            "International New York Times",
+            "The New York Times"
+        ],
+        "pageviews": 627496
+    },
+    {
+        "query_id": "800_28",
+        "question": "What is Frank Martin famous for?",
+        "answers": [
+            "Petite symphonie concertante"
+        ],
+        "pageviews": 18645
+    },
+    {
+        "query_id": "800_29",
+        "question": "What is Mikl\u00f3s Ybl famous for?",
+        "answers": [
+            "Hungarian State Opera House"
+        ],
+        "pageviews": 6293
+    },
+    {
+        "query_id": "800_30",
+        "question": "What is John Kennedy Toole famous for?",
+        "answers": [
+            "A Confederacy of Dunces"
+        ],
+        "pageviews": 130196
+    },
+    {
+        "query_id": "800_31",
+        "question": "What is Rick Riordan famous for?",
+        "answers": [
+            "The Kane Chronicles"
+        ],
+        "pageviews": 458503
+    },
+    {
+        "query_id": "800_32",
+        "question": "What is Baldassarre Longhena famous for?",
+        "answers": [
+            "Santa Maria della Salute"
+        ],
+        "pageviews": 6286
+    },
+    {
+        "query_id": "800_33",
+        "question": "What is Nadine Gordimer famous for?",
+        "answers": [
+            "The Conservationist"
+        ],
+        "pageviews": 110937
+    },
+    {
+        "query_id": "800_34",
+        "question": "What is Jervis Johnson famous for?",
+        "answers": [
+            "Blood Bowl"
+        ],
+        "pageviews": 14567
+    },
+    {
+        "query_id": "800_35",
+        "question": "What is Anselm of Canterbury famous for?",
+        "answers": [
+            "Cur Deus homo"
+        ],
+        "pageviews": 177237
+    },
+    {
+        "query_id": "800_36",
+        "question": "What is Berenguer de Montagut famous for?",
+        "answers": [
+            "Santa Maria del Mar"
+        ],
+        "pageviews": 2053
+    },
+    {
+        "query_id": "800_37",
+        "question": "What is Rustichello da Pisa famous for?",
+        "answers": [
+            "The Travels of Marco Polo"
+        ],
+        "pageviews": 19889
+    },
+    {
+        "query_id": "800_38",
+        "question": "What is Masayuki Ishikawa famous for?",
+        "answers": [
+            "Moyashimon"
+        ],
+        "pageviews": 3721
+    },
+    {
+        "query_id": "800_39",
+        "question": "What is Thomas Rickman famous for?",
+        "answers": [
+            "St Matthew's Church, Cotham"
+        ],
+        "pageviews": 5822
+    },
+    {
+        "query_id": "800_40",
+        "question": "What is William Tierney Clark famous for?",
+        "answers": [
+            "Chain Bridge"
+        ],
+        "pageviews": 6944
+    },
+    {
+        "query_id": "800_41",
+        "question": "What is Discovery Committee famous for?",
+        "answers": [
+            "Discovery Investigations"
+        ],
+        "pageviews": 1606
+    },
+    {
+        "query_id": "800_42",
+        "question": "What is Miguel Sapochnik famous for?",
+        "answers": [
+            "Repo Men"
+        ],
+        "pageviews": 429355
+    },
+    {
+        "query_id": "800_43",
+        "question": "What is Johann Wolfgang von Goethe famous for?",
+        "answers": [
+            "The Sorrows of Young Werther",
+            "Faust",
+            "Wilhelm Meister's Apprenticeship",
+            "Elective Affinities",
+            "Der Erlk\u00f6nig",
+            "Italian Journey"
+        ],
+        "pageviews": 838001
+    },
+    {
+        "query_id": "800_44",
+        "question": "What is Gordon Murray famous for?",
+        "answers": [
+            "Trumpton"
+        ],
+        "pageviews": 7676
+    },
+    {
+        "query_id": "800_45",
+        "question": "What is Fredrik Blom famous for?",
+        "answers": [
+            "Rosendal Palace"
+        ],
+        "pageviews": 1799
+    },
+    {
+        "query_id": "800_46",
+        "question": "What is Sh\u016bichi Shigeno famous for?",
+        "answers": [
+            "Initial D",
+            "Bari Bari Densetsu"
+        ],
+        "pageviews": 42282
+    },
+    {
+        "query_id": "800_47",
+        "question": "What is Ray Bradbury famous for?",
+        "answers": [
+            "Fahrenheit 451"
+        ],
+        "pageviews": 673806
+    },
+    {
+        "query_id": "800_48",
+        "question": "What is Christian Jank famous for?",
+        "answers": [
+            "Neuschwanstein Castle"
+        ],
+        "pageviews": 5212
+    },
+    {
+        "query_id": "800_49",
+        "question": "What is Ernest J. Gaines famous for?",
+        "answers": [
+            "A Lesson Before Dying"
+        ],
+        "pageviews": 30952
+    },
+    {
+        "query_id": "800_50",
+        "question": "What is Richmal Crompton famous for?",
+        "answers": [
+            "Just William"
+        ],
+        "pageviews": 46685
+    },
+    {
+        "query_id": "800_51",
+        "question": "What is Duccio di Buoninsegna famous for?",
+        "answers": [
+            "Rucellai Madonna"
+        ],
+        "pageviews": 46093
+    },
+    {
+        "query_id": "800_52",
+        "question": "What is Ahn Eak-tai famous for?",
+        "answers": [
+            "Aegukga"
+        ],
+        "pageviews": 13413
+    },
+    {
+        "query_id": "800_53",
+        "question": "What is Robert Lowell famous for?",
+        "answers": [
+            "Life Studies"
+        ],
+        "pageviews": 111268
+    },
+    {
+        "query_id": "800_54",
+        "question": "What is Christian Freeling famous for?",
+        "answers": [
+            "Havannah",
+            "Grand chess"
+        ],
+        "pageviews": 4196
+    },
+    {
+        "query_id": "800_55",
+        "question": "What is Ben M. Baglio famous for?",
+        "answers": [
+            "Animal Ark"
+        ],
+        "pageviews": 4894
+    },
+    {
+        "query_id": "800_56",
+        "question": "What is Liz Kessler famous for?",
+        "answers": [
+            "The Tail of Emily Windsnap"
+        ],
+        "pageviews": 6117
+    },
+    {
+        "query_id": "800_57",
+        "question": "What is Christopher Marlowe famous for?",
+        "answers": [
+            "The Tragical History of Doctor Faustus"
+        ],
+        "pageviews": 554130
+    },
+    {
+        "query_id": "800_58",
+        "question": "What is Mervyn Peake famous for?",
+        "answers": [
+            "Gormenghast trilogy"
+        ],
+        "pageviews": 96709
+    },
+    {
+        "query_id": "800_59",
+        "question": "What is Alexander Meissner famous for?",
+        "answers": [
+            "Armstrong oscillator"
+        ],
+        "pageviews": 3647
+    },
+    {
+        "query_id": "800_60",
+        "question": "What is William Butterfield famous for?",
+        "answers": [
+            "St James' Church, Christleton",
+            "All Saints, Margaret Street"
+        ],
+        "pageviews": 16953
+    },
+    {
+        "query_id": "800_61",
+        "question": "What is Peter Parler famous for?",
+        "answers": [
+            "St. Vitus Cathedral"
+        ],
+        "pageviews": 13517
+    },
+    {
+        "query_id": "800_62",
+        "question": "What is Moshe Safdie famous for?",
+        "answers": [
+            "Habitat 67"
+        ],
+        "pageviews": 172993
+    },
+    {
+        "query_id": "800_63",
+        "question": "What is Neil Cross famous for?",
+        "answers": [
+            "Doctor Who"
+        ],
+        "pageviews": 40372
+    },
+    {
+        "query_id": "800_64",
+        "question": "What is Shauna Cross famous for?",
+        "answers": [
+            "Whip It"
+        ],
+        "pageviews": 9055
+    },
+    {
+        "query_id": "800_65",
+        "question": "What is Elizabeth Goudge famous for?",
+        "answers": [
+            "The Little White Horse"
+        ],
+        "pageviews": 24700
+    },
+    {
+        "query_id": "800_66",
+        "question": "What is Guy Fieri famous for?",
+        "answers": [
+            "Diners, Drive-Ins and Dives"
+        ],
+        "pageviews": 1369147
+    },
+    {
+        "query_id": "800_67",
+        "question": "What is John Maclear famous for?",
+        "answers": [
+            "Challenger expedition"
+        ],
+        "pageviews": 2362
+    },
+    {
+        "query_id": "800_68",
+        "question": "What is Joan Blaeu famous for?",
+        "answers": [
+            "Atlas Maior"
+        ],
+        "pageviews": 15960
+    },
+    {
+        "query_id": "800_69",
+        "question": "What is John Crowley famous for?",
+        "answers": [
+            "Little, Big"
+        ],
+        "pageviews": 32358
+    },
+    {
+        "query_id": "800_70",
+        "question": "What is Alberich Zwyssig famous for?",
+        "answers": [
+            "Swiss Psalm"
+        ],
+        "pageviews": 3201
+    },
+    {
+        "query_id": "800_71",
+        "question": "What is Lundgaard & Tranberg famous for?",
+        "answers": [
+            "Royal Danish Playhouse"
+        ],
+        "pageviews": 2854
+    },
+    {
+        "query_id": "800_72",
+        "question": "What is Angus Wilson famous for?",
+        "answers": [
+            "Anglo-Saxon Attitudes"
+        ],
+        "pageviews": 15909
+    },
+    {
+        "query_id": "800_73",
+        "question": "What is Bryan Burrough famous for?",
+        "answers": [
+            "Public Enemies"
+        ],
+        "pageviews": 18440
+    },
+    {
+        "query_id": "800_74",
+        "question": "What is Gunilla Bergstr\u00f6m famous for?",
+        "answers": [
+            "Alfie Atkins"
+        ],
+        "pageviews": 6954
+    },
+    {
+        "query_id": "800_75",
+        "question": "What is Thomas Davis famous for?",
+        "answers": [
+            "A Nation Once Again"
+        ],
+        "pageviews": 16385
+    },
+    {
+        "query_id": "800_76",
+        "question": "What is Hikaru Nakamura famous for?",
+        "answers": [
+            "Saint Young Men"
+        ],
+        "pageviews": 28934
+    },
+    {
+        "query_id": "800_77",
+        "question": "What is James James famous for?",
+        "answers": [
+            "Hen Wlad Fy Nhadau"
+        ],
+        "pageviews": 10155
+    },
+    {
+        "query_id": "800_78",
+        "question": "What is Antenor famous for?",
+        "answers": [
+            "Harmodius and Aristogeiton"
+        ],
+        "pageviews": 5074
+    },
+    {
+        "query_id": "800_79",
+        "question": "What is John Steinbeck famous for?",
+        "answers": [
+            "The Grapes of Wrath"
+        ],
+        "pageviews": 1010791
+    },
+    {
+        "query_id": "800_80",
+        "question": "What is Dan Dworsky famous for?",
+        "answers": [
+            "Crisler Center"
+        ],
+        "pageviews": 9141
+    },
+    {
+        "query_id": "800_81",
+        "question": "What is Timbaland famous for?",
+        "answers": [
+            "If We Ever Meet Again"
+        ],
+        "pageviews": 682836
+    },
+    {
+        "query_id": "800_82",
+        "question": "What is Jan van Eyck famous for?",
+        "answers": [
+            "Arnolfini Portrait",
+            "Lucca Madonna",
+            "Dresden Triptych"
+        ],
+        "pageviews": 246841
+    },
+    {
+        "query_id": "800_83",
+        "question": "What is Ren\u00e9 Clair famous for?",
+        "answers": [
+            "Le Million"
+        ],
+        "pageviews": 36767
+    },
+    {
+        "query_id": "800_85",
+        "question": "What is Georg von Dollmann famous for?",
+        "answers": [
+            "Linderhof Palace"
+        ],
+        "pageviews": 2698
+    },
+    {
+        "query_id": "800_86",
+        "question": "What is Aleksey Konstantinovich Tolstoy famous for?",
+        "answers": [
+            "Tsar Fyodor Ioannovich"
+        ],
+        "pageviews": 23088
+    },
+    {
+        "query_id": "800_87",
+        "question": "What is Robert de Brus, 1st Lord of Annandale famous for?",
+        "answers": [
+            "Gisborough Priory"
+        ],
+        "pageviews": 32418
+    },
+    {
+        "query_id": "800_88",
+        "question": "What is Michael Cristofer famous for?",
+        "answers": [
+            "The Shadow Box"
+        ],
+        "pageviews": 53928
+    },
+    {
+        "query_id": "800_89",
+        "question": "What is Percy Thomas Partnership famous for?",
+        "answers": [
+            "Wales Millennium Centre"
+        ],
+        "pageviews": 3893
+    },
+    {
+        "query_id": "800_90",
+        "question": "What is Thomas Chestre famous for?",
+        "answers": [
+            "Sir Launfal"
+        ],
+        "pageviews": 1981
+    },
+    {
+        "query_id": "800_91",
+        "question": "What is Peter Wild famous for?",
+        "answers": [
+            "Cochise"
+        ],
+        "pageviews": 2940
+    },
+    {
+        "query_id": "800_92",
+        "question": "What is Hiroki Yagami famous for?",
+        "answers": [
+            "Dear Boys"
+        ],
+        "pageviews": 3223
+    },
+    {
+        "query_id": "800_93",
+        "question": "What is Lemon Jelly famous for?",
+        "answers": [
+            "Lost Horizons"
+        ],
+        "pageviews": 51288
+    },
+    {
+        "query_id": "800_94",
+        "question": "What is K\u014dsuke Masuda famous for?",
+        "answers": [
+            "Gag Manga Biyori"
+        ],
+        "pageviews": 703
+    },
+    {
+        "query_id": "800_95",
+        "question": "What is Rudolf Emanuel Jacobsen famous for?",
+        "answers": [
+            "1914 Jubilee Exhibition"
+        ],
+        "pageviews": 667
+    },
+    {
+        "query_id": "800_96",
+        "question": "What is Carl Ludvig Engel famous for?",
+        "answers": [
+            "Helsinki Senate Square"
+        ],
+        "pageviews": 10185
+    },
+    {
+        "query_id": "800_97",
+        "question": "What is Natsumi Ando famous for?",
+        "answers": [
+            "Kitchen Princess"
+        ],
+        "pageviews": 5000
+    },
+    {
+        "query_id": "800_98",
+        "question": "What is Arina Tanemura famous for?",
+        "answers": [
+            "Kamikaze Kait\u014d Jeanne"
+        ],
+        "pageviews": 25310
+    },
+    {
+        "query_id": "800_99",
+        "question": "What is Ryu Fujisaki famous for?",
+        "answers": [
+            "Hoshin Engi"
+        ],
+        "pageviews": 7772
+    },
+    {
+        "query_id": "800_100",
+        "question": "What is Ron Grainer famous for?",
+        "answers": [
+            "Doctor Who theme music"
+        ],
+        "pageviews": 33934
+    },
+    {
+        "query_id": "800_101",
+        "question": "What is Emma Goldman famous for?",
+        "answers": [
+            "Living My Life"
+        ],
+        "pageviews": 421343
+    },
+    {
+        "query_id": "800_102",
+        "question": "What is Aline Brosh McKenna famous for?",
+        "answers": [
+            "27 Dresses"
+        ],
+        "pageviews": 70803
+    },
+    {
+        "query_id": "800_103",
+        "question": "What is Richard Dawkins famous for?",
+        "answers": [
+            "The Selfish Gene"
+        ],
+        "pageviews": 821457
+    },
+    {
+        "query_id": "800_104",
+        "question": "What is Gertrude Stein famous for?",
+        "answers": [
+            "Tender buttons: objects, food, rooms"
+        ],
+        "pageviews": 491299
+    },
+    {
+        "query_id": "800_105",
+        "question": "What is Andy Warhol famous for?",
+        "answers": [
+            "Exploding Plastic Inevitable",
+            "Chelsea Girls"
+        ],
+        "pageviews": 3393959
+    },
+    {
+        "query_id": "800_106",
+        "question": "What is Marion Mathie famous for?",
+        "answers": [
+            "Rumpole of the Bailey"
+        ],
+        "pageviews": 10909
+    },
+    {
+        "query_id": "800_107",
+        "question": "What is Miriam Young famous for?",
+        "answers": [
+            "Mother Wore Tights"
+        ],
+        "pageviews": 1926
+    },
+    {
+        "query_id": "800_108",
+        "question": "What is Paul Graham famous for?",
+        "answers": [
+            "On Lisp"
+        ],
+        "pageviews": 203330
+    },
+    {
+        "query_id": "800_109",
+        "question": "What is H. A. Rey famous for?",
+        "answers": [
+            "Curious George"
+        ],
+        "pageviews": 42459
+    },
+    {
+        "query_id": "800_110",
+        "question": "What is Shinji Wada famous for?",
+        "answers": [
+            "Sukeban Deka"
+        ],
+        "pageviews": 6046
+    },
+    {
+        "query_id": "800_111",
+        "question": "What is Shneur Zalman of Liadi famous for?",
+        "answers": [
+            "Tanya",
+            "Niggun of Four Stanzas",
+            "Shulchan Aruch HaRav"
+        ],
+        "pageviews": 38932
+    },
+    {
+        "query_id": "800_112",
+        "question": "What is Larry Niven famous for?",
+        "answers": [
+            "Ringworld"
+        ],
+        "pageviews": 115529
+    },
+    {
+        "query_id": "800_113",
+        "question": "What is Kamahl famous for?",
+        "answers": [
+            "The Elephant Song"
+        ],
+        "pageviews": 44472
+    },
+    {
+        "query_id": "800_114",
+        "question": "What is Juan Luna famous for?",
+        "answers": [
+            "Spoliarium"
+        ],
+        "pageviews": 229783
+    },
+    {
+        "query_id": "800_115",
+        "question": "What is Christoph Willibald von Gluck famous for?",
+        "answers": [
+            "Orpheus and Eurydice"
+        ],
+        "pageviews": 89256
+    },
+    {
+        "query_id": "800_116",
+        "question": "What is V\u00e4in\u00f6 Linna famous for?",
+        "answers": [
+            "Under the North Star"
+        ],
+        "pageviews": 15399
+    },
+    {
+        "query_id": "800_117",
+        "question": "What is G\u00fcnter Grass famous for?",
+        "answers": [
+            "The Tin Drum"
+        ],
+        "pageviews": 128863
+    },
+    {
+        "query_id": "800_118",
+        "question": "What is Mihran Hakobjan famous for?",
+        "answers": [
+            "Wikipedia Monument"
+        ],
+        "pageviews": 13630
+    },
+    {
+        "query_id": "800_119",
+        "question": "What is R. D. Blackmore famous for?",
+        "answers": [
+            "Lorna Doone"
+        ],
+        "pageviews": 17111
+    },
+    {
+        "query_id": "800_120",
+        "question": "What is Tom Taylor famous for?",
+        "answers": [
+            "Our American Cousin"
+        ],
+        "pageviews": 10424
+    },
+    {
+        "query_id": "800_121",
+        "question": "What is Lasse \u00c5berg famous for?",
+        "answers": [
+            "Den ofrivillige golfaren",
+            "Trazan & Banarne"
+        ],
+        "pageviews": 14230
+    },
+    {
+        "query_id": "800_122",
+        "question": "What is Tomson Highway famous for?",
+        "answers": [
+            "The Rez Sisters"
+        ],
+        "pageviews": 33380
+    },
+    {
+        "query_id": "800_123",
+        "question": "What is Kalle Lasn famous for?",
+        "answers": [
+            "Adbusters"
+        ],
+        "pageviews": 13899
+    },
+    {
+        "query_id": "800_124",
+        "question": "What is Daniel Barringer famous for?",
+        "answers": [
+            "Meteor Crater"
+        ],
+        "pageviews": 9647
+    },
+    {
+        "query_id": "800_125",
+        "question": "What is Gianfrancesco Penni famous for?",
+        "answers": [
+            "The Donation of Constantine",
+            "The Baptism of Constantine"
+        ],
+        "pageviews": 3595
+    },
+    {
+        "query_id": "800_126",
+        "question": "What is David Almond famous for?",
+        "answers": [
+            "Skellig",
+            "The Fire-Eaters"
+        ],
+        "pageviews": 20478
+    },
+    {
+        "query_id": "800_127",
+        "question": "What is Richard Rodgers famous for?",
+        "answers": [
+            "The Sweetest Sounds"
+        ],
+        "pageviews": 258754
+    },
+    {
+        "query_id": "800_128",
+        "question": "What is Fuyumi Ono famous for?",
+        "answers": [
+            "The Twelve Kingdoms"
+        ],
+        "pageviews": 17776
+    },
+    {
+        "query_id": "800_129",
+        "question": "What is Minoru Furuya famous for?",
+        "answers": [
+            "Ping-Pong Club"
+        ],
+        "pageviews": 7020
+    },
+    {
+        "query_id": "800_130",
+        "question": "What is Irvine Welsh famous for?",
+        "answers": [
+            "The Acid House"
+        ],
+        "pageviews": 195200
+    },
+    {
+        "query_id": "800_131",
+        "question": "What is Akihiro Yamada famous for?",
+        "answers": [
+            "The Twelve Kingdoms"
+        ],
+        "pageviews": 9641
+    },
+    {
+        "query_id": "800_132",
+        "question": "What is Giambattista Vico famous for?",
+        "answers": [
+            "The New Science"
+        ],
+        "pageviews": 98794
+    },
+    {
+        "query_id": "800_133",
+        "question": "What is Wes Anderson famous for?",
+        "answers": [
+            "The Darjeeling Limited",
+            "Rushmore",
+            "Moonrise Kingdom",
+            "The Royal Tenenbaums",
+            "Hotel Chevalier",
+            "The Grand Budapest Hotel",
+            "Bottle Rocket",
+            "The Life Aquatic with Steve Zissou"
+        ],
+        "pageviews": 2092227
+    },
+    {
+        "query_id": "800_134",
+        "question": "What is Natsumi Itsuki famous for?",
+        "answers": [
+            "Eight Clouds Rising"
+        ],
+        "pageviews": 3408
+    },
+    {
+        "query_id": "800_135",
+        "question": "What is Robert A. Heinlein famous for?",
+        "answers": [
+            "Starship Troopers"
+        ],
+        "pageviews": 545882
+    },
+    {
+        "query_id": "800_136",
+        "question": "What is Henry N. Cobb famous for?",
+        "answers": [
+            "John Hancock Tower"
+        ],
+        "pageviews": 10436
+    },
+    {
+        "query_id": "800_137",
+        "question": "What is James Joyce famous for?",
+        "answers": [
+            "Finnegans Wake",
+            "Dubliners",
+            "Stephen Hero"
+        ],
+        "pageviews": 1008885
+    },
+    {
+        "query_id": "800_138",
+        "question": "What is John Turturro famous for?",
+        "answers": [
+            "Barton Fink",
+            "The Big Lebowski",
+            "Quiz Show"
+        ],
+        "pageviews": 1686854
+    },
+    {
+        "query_id": "800_139",
+        "question": "What is Mayumi Azuma famous for?",
+        "answers": [
+            "Elemental Gelade"
+        ],
+        "pageviews": 3197
+    },
+    {
+        "query_id": "800_140",
+        "question": "What is Lew Irwin famous for?",
+        "answers": [
+            "The Credibility Gap"
+        ],
+        "pageviews": 1681
+    },
+    {
+        "query_id": "800_141",
+        "question": "What is Kazi Nazrul Islam famous for?",
+        "answers": [
+            "Notuner Gaan"
+        ],
+        "pageviews": 264614
+    },
+    {
+        "query_id": "800_142",
+        "question": "What is Hiroshi Hara famous for?",
+        "answers": [
+            "Sapporo Dome"
+        ],
+        "pageviews": 4759
+    },
+    {
+        "query_id": "800_143",
+        "question": "What is Roy Clarke famous for?",
+        "answers": [
+            "Last of the Summer Wine"
+        ],
+        "pageviews": 90695
+    },
+    {
+        "query_id": "800_144",
+        "question": "What is J\u00f8rn Utzon famous for?",
+        "answers": [
+            "Kuwait National Assembly Building",
+            "Sydney Opera House"
+        ],
+        "pageviews": 109697
+    },
+    {
+        "query_id": "800_145",
+        "question": "What is Foundry Painter famous for?",
+        "answers": [
+            "Berlin Foundry Cup"
+        ],
+        "pageviews": 2104
+    },
+    {
+        "query_id": "800_146",
+        "question": "What is Robert Quarry famous for?",
+        "answers": [
+            "Madhouse",
+            "Count Yorga, Vampire"
+        ],
+        "pageviews": 30049
+    },
+    {
+        "query_id": "800_147",
+        "question": "What is Hiroyuki Nishimura famous for?",
+        "answers": [
+            "5channel"
+        ],
+        "pageviews": 235519
+    },
+    {
+        "query_id": "800_148",
+        "question": "What is Shinobu Ohtaka famous for?",
+        "answers": [
+            "Sumomomo Momomo"
+        ],
+        "pageviews": 34637
+    },
+    {
+        "query_id": "800_149",
+        "question": "What is Cynthia Kadohata famous for?",
+        "answers": [
+            "Kira-Kira"
+        ],
+        "pageviews": 6413
+    },
+    {
+        "query_id": "800_150",
+        "question": "What is Constantin von Wurzbach famous for?",
+        "answers": [
+            "Biographisches Lexikon des Kaiserthums Oesterreich"
+        ],
+        "pageviews": 321
+    },
+    {
+        "query_id": "800_151",
+        "question": "What is Claude Joseph Rouget de Lisle famous for?",
+        "answers": [
+            "La Marseillaise"
+        ],
+        "pageviews": 35556
+    },
+    {
+        "query_id": "800_152",
+        "question": "What is Pierre Alphonse Laurent famous for?",
+        "answers": [
+            "Laurent series"
+        ],
+        "pageviews": 4638
+    },
+    {
+        "query_id": "800_153",
+        "question": "What is James Hoban famous for?",
+        "answers": [
+            "White House"
+        ],
+        "pageviews": 52237
+    },
+    {
+        "query_id": "800_154",
+        "question": "What is Laurynas Gucevi\u010dius famous for?",
+        "answers": [
+            "Vilnius Cathedral"
+        ],
+        "pageviews": 4927
+    },
+    {
+        "query_id": "800_155",
+        "question": "What is Ernest Tidyman famous for?",
+        "answers": [
+            "The French Connection"
+        ],
+        "pageviews": 27118
+    },
+    {
+        "query_id": "800_156",
+        "question": "What is Felix Mendelssohn famous for?",
+        "answers": [
+            "Symphony No. 4"
+        ],
+        "pageviews": 401959
+    },
+    {
+        "query_id": "800_157",
+        "question": "What is Ai Yazawa famous for?",
+        "answers": [
+            "Paradise Kiss",
+            "Nana",
+            "Neighborhood Story"
+        ],
+        "pageviews": 131402
+    },
+    {
+        "query_id": "800_158",
+        "question": "What is Florentijn Hofman famous for?",
+        "answers": [
+            "Rubber Duck"
+        ],
+        "pageviews": 8143
+    },
+    {
+        "query_id": "800_159",
+        "question": "What is Alfred D\u00f6blin famous for?",
+        "answers": [
+            "Berlin Alexanderplatz"
+        ],
+        "pageviews": 39680
+    },
+    {
+        "query_id": "800_160",
+        "question": "What is Grant Wood famous for?",
+        "answers": [
+            "American Gothic"
+        ],
+        "pageviews": 155429
+    },
+    {
+        "query_id": "800_161",
+        "question": "What is Steve Miller famous for?",
+        "answers": [
+            "Liaden universe"
+        ],
+        "pageviews": 2004
+    },
+    {
+        "query_id": "800_162",
+        "question": "What is Gustav Mahler famous for?",
+        "answers": [
+            "Symphony No. 2",
+            "Symphony No. 1",
+            "Symphony No. 8"
+        ],
+        "pageviews": 464634
+    },
+    {
+        "query_id": "800_163",
+        "question": "What is Alberto Cavos famous for?",
+        "answers": [
+            "Mariinsky Theatre"
+        ],
+        "pageviews": 3565
+    },
+    {
+        "query_id": "800_164",
+        "question": "What is Ya\u015far Kemal famous for?",
+        "answers": [
+            "Memed, My Hawk"
+        ],
+        "pageviews": 28494
+    },
+    {
+        "query_id": "800_165",
+        "question": "What is Mike Patton famous for?",
+        "answers": [
+            "Adult Themes for Voice"
+        ],
+        "pageviews": 611751
+    },
+    {
+        "query_id": "800_166",
+        "question": "What is Live famous for?",
+        "answers": [
+            "Lightning Crashes"
+        ],
+        "pageviews": 352947
+    },
+    {
+        "query_id": "800_167",
+        "question": "What is Yrj\u00f6 Lindegren famous for?",
+        "answers": [
+            "Helsinki Olympic Stadium"
+        ],
+        "pageviews": 2253
+    },
+    {
+        "query_id": "800_168",
+        "question": "What is Gilean McVean famous for?",
+        "answers": [
+            "1000 Genomes Project"
+        ],
+        "pageviews": 209
+    },
+    {
+        "query_id": "800_169",
+        "question": "What is Colette famous for?",
+        "answers": [
+            "Gigi"
+        ],
+        "pageviews": 424280
+    },
+    {
+        "query_id": "800_170",
+        "question": "What is Juan de Herrera famous for?",
+        "answers": [
+            "Cathedral of Valladolid"
+        ],
+        "pageviews": 9983
+    },
+    {
+        "query_id": "800_171",
+        "question": "What is James Frey famous for?",
+        "answers": [
+            "Lorien Legacies"
+        ],
+        "pageviews": 137437
+    },
+    {
+        "query_id": "800_172",
+        "question": "What is Christopher Paolini famous for?",
+        "answers": [
+            "Inheritance Cycle tetralogy"
+        ],
+        "pageviews": 252449
+    },
+    {
+        "query_id": "800_173",
+        "question": "What is Y\u016bgo Ishikawa famous for?",
+        "answers": [
+            "Fighting Beauty Wulong"
+        ],
+        "pageviews": 2017
+    },
+    {
+        "query_id": "800_174",
+        "question": "What is Isidore of Miletus famous for?",
+        "answers": [
+            "Hagia Sophia"
+        ],
+        "pageviews": 29727
+    },
+    {
+        "query_id": "800_175",
+        "question": "What is Paul Magrs famous for?",
+        "answers": [
+            "Doctor Who"
+        ],
+        "pageviews": 6352
+    },
+    {
+        "query_id": "800_176",
+        "question": "What is Hakob Meghapart famous for?",
+        "answers": [
+            "Urbatagirk"
+        ],
+        "pageviews": 1711
+    },
+    {
+        "query_id": "800_177",
+        "question": "What is Alan Warner famous for?",
+        "answers": [
+            "Morvern Callar"
+        ],
+        "pageviews": 12148
+    },
+    {
+        "query_id": "800_178",
+        "question": "What is Ulisse Stacchini famous for?",
+        "answers": [
+            "San Siro Stadium"
+        ],
+        "pageviews": 3019
+    },
+    {
+        "query_id": "800_179",
+        "question": "What is Muhammad Husayn Tabatabaei famous for?",
+        "answers": [
+            "Tafsir al-Mizan"
+        ],
+        "pageviews": 5883
+    },
+    {
+        "query_id": "800_180",
+        "question": "What is Jamie Ford famous for?",
+        "answers": [
+            "Hotel on the Corner of Bitter and Sweet"
+        ],
+        "pageviews": 23682
+    },
+    {
+        "query_id": "800_181",
+        "question": "What is Gail Carson Levine famous for?",
+        "answers": [
+            "Ella Enchanted"
+        ],
+        "pageviews": 20415
+    },
+    {
+        "query_id": "800_182",
+        "question": "What is Kenshi Hirokane famous for?",
+        "answers": [
+            "Human Crossing"
+        ],
+        "pageviews": 4574
+    },
+    {
+        "query_id": "800_183",
+        "question": "What is Brandon Sanderson famous for?",
+        "answers": [
+            "Elantris",
+            "The Stormlight Archive",
+            "Mistborn"
+        ],
+        "pageviews": 1178386
+    },
+    {
+        "query_id": "800_184",
+        "question": "What is Christopher B. Landon famous for?",
+        "answers": [
+            "Paranormal Activity 4",
+            "Paranormal Activity 3"
+        ],
+        "pageviews": 161723
+    },
+    {
+        "query_id": "800_185",
+        "question": "What is Rumiko Takahashi famous for?",
+        "answers": [
+            "Maison Ikkoku",
+            "Rin-ne",
+            "Inuyasha",
+            "Urusei Yatsura"
+        ],
+        "pageviews": 283082
+    },
+    {
+        "query_id": "800_186",
+        "question": "What is Kurt Vonnegut famous for?",
+        "answers": [
+            "Slaughterhouse-Five"
+        ],
+        "pageviews": 1265591
+    },
+    {
+        "query_id": "800_187",
+        "question": "What is Ilango Adigal famous for?",
+        "answers": [
+            "Silappatikaram"
+        ],
+        "pageviews": 46133
+    },
+    {
+        "query_id": "800_188",
+        "question": "What is Matth\u00e4us Daniel P\u00f6ppelmann famous for?",
+        "answers": [
+            "Zwinger"
+        ],
+        "pageviews": 4660
+    },
+    {
+        "query_id": "800_189",
+        "question": "What is Vince Gilligan famous for?",
+        "answers": [
+            "Breaking Bad"
+        ],
+        "pageviews": 1138604
+    },
+    {
+        "query_id": "800_190",
+        "question": "What is Johan Otto von Spreckelsen famous for?",
+        "answers": [
+            "Grande Arche"
+        ],
+        "pageviews": 6790
+    },
+    {
+        "query_id": "800_191",
+        "question": "What is Mario Botta famous for?",
+        "answers": [
+            "San Francisco Museum of Modern Art"
+        ],
+        "pageviews": 26665
+    },
+    {
+        "query_id": "800_192",
+        "question": "What is Michael Haydn famous for?",
+        "answers": [
+            "Symphony No. 1"
+        ],
+        "pageviews": 41178
+    },
+    {
+        "query_id": "800_193",
+        "question": "What is Jiro Kuwata famous for?",
+        "answers": [
+            "8 Man"
+        ],
+        "pageviews": 4077
+    },
+    {
+        "query_id": "800_194",
+        "question": "What is Towa Oshima famous for?",
+        "answers": [
+            "High School Girls"
+        ],
+        "pageviews": 2671
+    },
+    {
+        "query_id": "800_195",
+        "question": "What is Horace famous for?",
+        "answers": [
+            "Ars Poetica"
+        ],
+        "pageviews": 246373
+    },
+    {
+        "query_id": "800_196",
+        "question": "What is Kyoko Fukada famous for?",
+        "answers": [
+            "Kamikaze Girls"
+        ],
+        "pageviews": 59738
+    },
+    {
+        "query_id": "800_197",
+        "question": "What is Zora Neale Hurston famous for?",
+        "answers": [
+            "Their Eyes Were Watching God"
+        ],
+        "pageviews": 384381
+    },
+    {
+        "query_id": "800_198",
+        "question": "What is Leon Battista Alberti famous for?",
+        "answers": [
+            "De pictura"
+        ],
+        "pageviews": 109517
+    },
+    {
+        "query_id": "800_199",
+        "question": "What is Stephen King famous for?",
+        "answers": [
+            "The Dark Tower",
+            "From a Buick 8",
+            "Needful Things",
+            "The Girl Who Loved Tom Gordon",
+            "It",
+            "Cujo",
+            "The Stand",
+            "Pet Sematary",
+            "The Shining",
+            "Dolores Claiborne",
+            "Doctor Sleep",
+            "The Colorado Kid",
+            "Misery"
+        ],
+        "pageviews": 3056304
+    },
+    {
+        "query_id": "800_200",
+        "question": "What is Radclyffe Hall famous for?",
+        "answers": [
+            "The Well of Loneliness"
+        ],
+        "pageviews": 61257
+    },
+    {
+        "query_id": "800_201",
+        "question": "What is Jerry Holkins famous for?",
+        "answers": [
+            "Penny Arcade"
+        ],
+        "pageviews": 23874
+    },
+    {
+        "query_id": "800_202",
+        "question": "What is John Cowper Powys famous for?",
+        "answers": [
+            "Porius: A Romance of the Dark Ages",
+            "Wolf Solent",
+            "A Glastonbury Romance"
+        ],
+        "pageviews": 30385
+    },
+    {
+        "query_id": "800_203",
+        "question": "What is Bernard Malamud famous for?",
+        "answers": [
+            "The Magic Barrel"
+        ],
+        "pageviews": 60474
+    },
+    {
+        "query_id": "800_204",
+        "question": "What is Werner March famous for?",
+        "answers": [
+            "Olympiastadion Berlin",
+            "Carinhall"
+        ],
+        "pageviews": 14110
+    },
+    {
+        "query_id": "800_205",
+        "question": "What is Jan Werich famous for?",
+        "answers": [
+            "The Emperor and the Golem"
+        ],
+        "pageviews": 19721
+    },
+    {
+        "query_id": "800_206",
+        "question": "What is Lois Lowry famous for?",
+        "answers": [
+            "The Giver"
+        ],
+        "pageviews": 179253
+    },
+    {
+        "query_id": "800_207",
+        "question": "What is Melissa McBride famous for?",
+        "answers": [
+            "The Walking Dead"
+        ],
+        "pageviews": 442822
+    },
+    {
+        "query_id": "800_208",
+        "question": "What is Auguste Escoffier famous for?",
+        "answers": [
+            "Le guide culinaire"
+        ],
+        "pageviews": 205314
+    },
+    {
+        "query_id": "800_209",
+        "question": "What is Louise Erdrich famous for?",
+        "answers": [
+            "Love Medicine"
+        ],
+        "pageviews": 213060
+    },
+    {
+        "query_id": "800_210",
+        "question": "What is Harvey Spencer Stephens famous for?",
+        "answers": [
+            "The Omen"
+        ],
+        "pageviews": 81572
+    },
+    {
+        "query_id": "800_211",
+        "question": "What is The Distillers famous for?",
+        "answers": [
+            "Coral Fang"
+        ],
+        "pageviews": 106550
+    },
+    {
+        "query_id": "800_212",
+        "question": "What is Yoshio Sawai famous for?",
+        "answers": [
+            "Bobobo-bo Bo-bobo"
+        ],
+        "pageviews": 11497
+    },
+    {
+        "query_id": "800_213",
+        "question": "What is Ian Tracey famous for?",
+        "answers": [
+            "Huckleberry Finn and His Friends"
+        ],
+        "pageviews": 82566
+    },
+    {
+        "query_id": "800_214",
+        "question": "What is Simon Marmion famous for?",
+        "answers": [
+            "Getty Tondal"
+        ],
+        "pageviews": 6959
+    },
+    {
+        "query_id": "800_215",
+        "question": "What is Antonio Salieri famous for?",
+        "answers": [
+            "Europa riconosciuta"
+        ],
+        "pageviews": 359988
+    },
+    {
+        "query_id": "800_216",
+        "question": "What is Edward Bellamy famous for?",
+        "answers": [
+            "Looking Backward"
+        ],
+        "pageviews": 43234
+    },
+    {
+        "query_id": "800_217",
+        "question": "What is Widukind of Corvey famous for?",
+        "answers": [
+            "Res gestae saxonicae sive annalium libri tres"
+        ],
+        "pageviews": 8516
+    },
+    {
+        "query_id": "800_218",
+        "question": "What is Sunthorn Phu famous for?",
+        "answers": [
+            "Phra Aphai Mani"
+        ],
+        "pageviews": 15503
+    },
+    {
+        "query_id": "800_219",
+        "question": "What is Bill Gosper famous for?",
+        "answers": [
+            "Gun"
+        ],
+        "pageviews": 19056
+    },
+    {
+        "query_id": "800_220",
+        "question": "What is Katherine Paterson famous for?",
+        "answers": [
+            "Jacob Have I Loved",
+            "Bridge to Terabithia"
+        ],
+        "pageviews": 59409
+    }
+]

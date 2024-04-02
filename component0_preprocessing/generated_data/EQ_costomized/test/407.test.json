@@ -1,0 +1,5067 @@
+[
+    {
+        "query_id": "407_0",
+        "question": "Which language was Evan written in?",
+        "answers": [
+            "Welsh"
+        ],
+        "pageviews": 74798
+    },
+    {
+        "query_id": "407_1",
+        "question": "Which language was Stella quarta decima written in?",
+        "answers": [
+            "Latin"
+        ],
+        "pageviews": 3908
+    },
+    {
+        "query_id": "407_2",
+        "question": "Which language was Il ritorno di Tobia written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 2917
+    },
+    {
+        "query_id": "407_3",
+        "question": "Which language was Hoot written in?",
+        "answers": [
+            "Korean"
+        ],
+        "pageviews": 11026
+    },
+    {
+        "query_id": "407_4",
+        "question": "Which language was The Wood Demon written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 5803
+    },
+    {
+        "query_id": "407_5",
+        "question": "Which language was Finnish Wikipedia written in?",
+        "answers": [
+            "Finnish"
+        ],
+        "pageviews": 14677
+    },
+    {
+        "query_id": "407_6",
+        "question": "Which language was Kings of the Wild Frontier written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 48127
+    },
+    {
+        "query_id": "407_7",
+        "question": "Which language was Balada pro pryntsesu written in?",
+        "answers": [
+            "Ukrainian"
+        ],
+        "pageviews": 500
+    },
+    {
+        "query_id": "407_8",
+        "question": "Which language was Un fou written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 833
+    },
+    {
+        "query_id": "407_9",
+        "question": "Which language was In Rainbows written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 260727
+    },
+    {
+        "query_id": "407_11",
+        "question": "Which language was Mera Naam Chin Chin Chu written in?",
+        "answers": [
+            "Hindi"
+        ],
+        "pageviews": 10473
+    },
+    {
+        "query_id": "407_12",
+        "question": "Which language was Timofey written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 6047
+    },
+    {
+        "query_id": "407_13",
+        "question": "Which language was Raquel written in?",
+        "answers": [
+            "Portuguese",
+            "Spanish"
+        ],
+        "pageviews": 12334
+    },
+    {
+        "query_id": "407_14",
+        "question": "Which language was 72 Meters written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 8153
+    },
+    {
+        "query_id": "407_15",
+        "question": "Which language was Pos Allazei O Kairos written in?",
+        "answers": [
+            "Greek"
+        ],
+        "pageviews": 1536
+    },
+    {
+        "query_id": "407_16",
+        "question": "Which language was The Ghost written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 3090
+    },
+    {
+        "query_id": "407_17",
+        "question": "Which language was Pok\u00e9mon Trading Card Game written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 51821
+    },
+    {
+        "query_id": "407_18",
+        "question": "Which language was Gela Mou written in?",
+        "answers": [
+            "Greek"
+        ],
+        "pageviews": 1489
+    },
+    {
+        "query_id": "407_19",
+        "question": "Which language was Lang written in?",
+        "answers": [
+            "Germanic languages"
+        ],
+        "pageviews": 11257
+    },
+    {
+        "query_id": "407_20",
+        "question": "Which language was Jul med Hep Stars written in?",
+        "answers": [
+            "Swedish"
+        ],
+        "pageviews": 1435
+    },
+    {
+        "query_id": "407_21",
+        "question": "Which language was God Forbid a Worse Thing Should Happen written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 1906
+    },
+    {
+        "query_id": "407_22",
+        "question": "Which language was Randy written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 19322
+    },
+    {
+        "query_id": "407_23",
+        "question": "Which language was Science & Vie written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 4758
+    },
+    {
+        "query_id": "407_24",
+        "question": "Which language was L'Expansion written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 3014
+    },
+    {
+        "query_id": "407_25",
+        "question": "Which language was Wish I Were a Shark written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 1024
+    },
+    {
+        "query_id": "407_26",
+        "question": "Which language was Allik written in?",
+        "answers": [
+            "Estonian"
+        ],
+        "pageviews": 633
+    },
+    {
+        "query_id": "407_27",
+        "question": "Which language was Caetano Veloso written in?",
+        "answers": [
+            "Spanish",
+            "English",
+            "Portuguese"
+        ],
+        "pageviews": 7155
+    },
+    {
+        "query_id": "407_28",
+        "question": "Which language was The Mutineers of the Bounty written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 3029
+    },
+    {
+        "query_id": "407_29",
+        "question": "Which language was W9 written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 17466
+    },
+    {
+        "query_id": "407_31",
+        "question": "Which language was Matthew & Son written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 33557
+    },
+    {
+        "query_id": "407_32",
+        "question": "Which language was Rosa written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 8886
+    },
+    {
+        "query_id": "407_33",
+        "question": "Which language was Yunus written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 13968
+    },
+    {
+        "query_id": "407_34",
+        "question": "Which language was L'Indice dei libri del mese written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 1285
+    },
+    {
+        "query_id": "407_35",
+        "question": "Which language was Latin Grammy Award for Best Portuguese Language Christian Album written in?",
+        "answers": [
+            "Portuguese"
+        ],
+        "pageviews": 1389
+    },
+    {
+        "query_id": "407_36",
+        "question": "Which language was Lorenzo 2002 \u2013 Il quinto mondo written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 586
+    },
+    {
+        "query_id": "407_37",
+        "question": "Which language was Love Deluxe written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 94056
+    },
+    {
+        "query_id": "407_38",
+        "question": "Which language was The Chieftains 2 written in?",
+        "answers": [
+            "Irish"
+        ],
+        "pageviews": 3228
+    },
+    {
+        "query_id": "407_39",
+        "question": "Which language was Tulu cinema written in?",
+        "answers": [
+            "Tulu"
+        ],
+        "pageviews": 25917
+    },
+    {
+        "query_id": "407_40",
+        "question": "Which language was Am\u00e9lie written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 547168
+    },
+    {
+        "query_id": "407_41",
+        "question": "Which language was Gazzetta Chimica Italiana written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 1867
+    },
+    {
+        "query_id": "407_42",
+        "question": "Which language was Lin written in?",
+        "answers": [
+            "Chinese"
+        ],
+        "pageviews": 56731
+    },
+    {
+        "query_id": "407_43",
+        "question": "Which language was Severny Vestnik written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 1563
+    },
+    {
+        "query_id": "407_44",
+        "question": "Which language was Prva plovidba written in?",
+        "answers": [
+            "Serbian"
+        ],
+        "pageviews": 1283
+    },
+    {
+        "query_id": "407_45",
+        "question": "Which language was Orlov written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 2743
+    },
+    {
+        "query_id": "407_46",
+        "question": "Which language was If written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 4997
+    },
+    {
+        "query_id": "407_47",
+        "question": "Which language was Afisha written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 7925
+    },
+    {
+        "query_id": "407_48",
+        "question": "Which language was Read My Lips written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 26053
+    },
+    {
+        "query_id": "407_49",
+        "question": "Which language was Soundtrack From The Film \u201cMore\u201d written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 210798
+    },
+    {
+        "query_id": "407_50",
+        "question": "Which language was Un banc, un arbre, une rue written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 10217
+    },
+    {
+        "query_id": "407_51",
+        "question": "Which language was Ryan written in?",
+        "answers": [
+            "English",
+            "Irish"
+        ],
+        "pageviews": 62587
+    },
+    {
+        "query_id": "407_52",
+        "question": "Which language was Ruslan written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 25187
+    },
+    {
+        "query_id": "407_53",
+        "question": "Which language was Slow Motion written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 659
+    },
+    {
+        "query_id": "407_54",
+        "question": "Which language was Filiz written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 2782
+    },
+    {
+        "query_id": "407_55",
+        "question": "Which language was Magyar Demokrata written in?",
+        "answers": [
+            "Hungarian"
+        ],
+        "pageviews": 1377
+    },
+    {
+        "query_id": "407_56",
+        "question": "Which language was Tystion vs Allfa Un written in?",
+        "answers": [
+            "Welsh"
+        ],
+        "pageviews": 493
+    },
+    {
+        "query_id": "407_57",
+        "question": "Which language was Kuule minua written in?",
+        "answers": [
+            "Finnish"
+        ],
+        "pageviews": 815
+    },
+    {
+        "query_id": "407_58",
+        "question": "Which language was Russkaya mysl written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 105
+    },
+    {
+        "query_id": "407_59",
+        "question": "Which language was \u00d6zmert written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 270
+    },
+    {
+        "query_id": "407_61",
+        "question": "Which language was Diabolis Interium written in?",
+        "answers": [
+            "Latin"
+        ],
+        "pageviews": 9080
+    },
+    {
+        "query_id": "407_62",
+        "question": "Which language was Hip Hop Is Dead written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 70899
+    },
+    {
+        "query_id": "407_63",
+        "question": "Which language was Swahili Wikipedia written in?",
+        "answers": [
+            "Swahili"
+        ],
+        "pageviews": 11283
+    },
+    {
+        "query_id": "407_64",
+        "question": "Which language was A Tragedian in Spite of Himself written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 2328
+    },
+    {
+        "query_id": "407_65",
+        "question": "Which language was Ma Kelly's Greasy Spoon written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 22099
+    },
+    {
+        "query_id": "407_66",
+        "question": "Which language was Irthes written in?",
+        "answers": [
+            "Greek",
+            "English"
+        ],
+        "pageviews": 1246
+    },
+    {
+        "query_id": "407_67",
+        "question": "Which language was 31 minutes written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 1022
+    },
+    {
+        "query_id": "407_68",
+        "question": "Which language was Rondo written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 3096
+    },
+    {
+        "query_id": "407_69",
+        "question": "Which language was Jacques written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 51621
+    },
+    {
+        "query_id": "407_70",
+        "question": "Which language was Bara written in?",
+        "answers": [
+            "Kannada"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "407_71",
+        "question": "Which language was New Horizons written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 454546
+    },
+    {
+        "query_id": "407_72",
+        "question": "Which language was La Capital written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 5010
+    },
+    {
+        "query_id": "407_73",
+        "question": "Which language was V\u00e5r jul written in?",
+        "answers": [
+            "Swedish"
+        ],
+        "pageviews": 758
+    },
+    {
+        "query_id": "407_74",
+        "question": "Which language was Ta Pio Megala S'agapo written in?",
+        "answers": [
+            "Greek"
+        ],
+        "pageviews": 616
+    },
+    {
+        "query_id": "407_75",
+        "question": "Which language was The Day the Country Died written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 7238
+    },
+    {
+        "query_id": "407_76",
+        "question": "Which language was Como ama una mujer written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 39279
+    },
+    {
+        "query_id": "407_77",
+        "question": "Which language was Toy written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 164106
+    },
+    {
+        "query_id": "407_78",
+        "question": "Which language was Bobby Shafto's Gone to Sea written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 19463
+    },
+    {
+        "query_id": "407_79",
+        "question": "Which language was White Sun of the Desert written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 38585
+    },
+    {
+        "query_id": "407_80",
+        "question": "Which language was Gyula written in?",
+        "answers": [
+            "Hungarian"
+        ],
+        "pageviews": 3319
+    },
+    {
+        "query_id": "407_81",
+        "question": "Which language was Ici written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1162
+    },
+    {
+        "query_id": "407_83",
+        "question": "Which language was Le Point written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 24419
+    },
+    {
+        "query_id": "407_84",
+        "question": "Which language was Edward written in?",
+        "answers": [
+            "English",
+            "Polish"
+        ],
+        "pageviews": 97985
+    },
+    {
+        "query_id": "407_85",
+        "question": "Which language was L'Homme de la Mancha written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 3610
+    },
+    {
+        "query_id": "407_86",
+        "question": "Which language was xx written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 11615
+    },
+    {
+        "query_id": "407_87",
+        "question": "Which language was Pouvoirs written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 500
+    },
+    {
+        "query_id": "407_88",
+        "question": "Which language was Vivid written in?",
+        "answers": [
+            "Japanese"
+        ],
+        "pageviews": 1595
+    },
+    {
+        "query_id": "407_89",
+        "question": "Which language was Valerio written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 8099
+    },
+    {
+        "query_id": "407_90",
+        "question": "Which language was Charodei written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 10142
+    },
+    {
+        "query_id": "407_91",
+        "question": "Which language was L'amour est bleu written in?",
+        "answers": [
+            "Greek",
+            "French"
+        ],
+        "pageviews": 57348
+    },
+    {
+        "query_id": "407_92",
+        "question": "Which language was Yen Plus written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 28442
+    },
+    {
+        "query_id": "407_93",
+        "question": "Which language was Rosanna written in?",
+        "answers": [
+            "English",
+            "Portuguese",
+            "Italian"
+        ],
+        "pageviews": 5470
+    },
+    {
+        "query_id": "407_94",
+        "question": "Which language was The Family written in?",
+        "answers": [
+            "Chinese"
+        ],
+        "pageviews": 6753
+    },
+    {
+        "query_id": "407_95",
+        "question": "Which language was Mistral gagnant written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 7576
+    },
+    {
+        "query_id": "407_96",
+        "question": "Which language was Bananas written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "407_97",
+        "question": "Which language was Road to the Stars written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 3028
+    },
+    {
+        "query_id": "407_98",
+        "question": "Which language was Strengleikar written in?",
+        "answers": [
+            "Old Norse"
+        ],
+        "pageviews": 2696
+    },
+    {
+        "query_id": "407_99",
+        "question": "Which language was Regrets written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 3380
+    },
+    {
+        "query_id": "407_100",
+        "question": "Which language was Royal Albert Hall London May 2-3-5-6 written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 13940
+    },
+    {
+        "query_id": "407_101",
+        "question": "Which language was The Witcher written in?",
+        "answers": [
+            "Polish"
+        ],
+        "pageviews": 506302
+    },
+    {
+        "query_id": "407_102",
+        "question": "Which language was Dyma'r Dystiolaeth written in?",
+        "answers": [
+            "Welsh"
+        ],
+        "pageviews": 569
+    },
+    {
+        "query_id": "407_103",
+        "question": "Which language was Alain written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 8349
+    },
+    {
+        "query_id": "407_104",
+        "question": "Which language was Battle of Brunanburh written in?",
+        "answers": [
+            "Old English"
+        ],
+        "pageviews": 15612
+    },
+    {
+        "query_id": "407_105",
+        "question": "Which language was S\u00e4tt dig p\u00e5 bocken written in?",
+        "answers": [
+            "Swedish"
+        ],
+        "pageviews": 355
+    },
+    {
+        "query_id": "407_106",
+        "question": "Which language was Ian written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 116611
+    },
+    {
+        "query_id": "407_107",
+        "question": "Which language was Adrenalize written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 115391
+    },
+    {
+        "query_id": "407_108",
+        "question": "Which language was Natalie written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 40272
+    },
+    {
+        "query_id": "407_109",
+        "question": "Which language was Codex Sangallensis 48 written in?",
+        "answers": [
+            "Latin"
+        ],
+        "pageviews": 3533
+    },
+    {
+        "query_id": "407_110",
+        "question": "Which language was Nymphomaniac written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 1530177
+    },
+    {
+        "query_id": "407_111",
+        "question": "Which language was Kazakh Wikipedia written in?",
+        "answers": [
+            "Kazakh"
+        ],
+        "pageviews": 9282
+    },
+    {
+        "query_id": "407_112",
+        "question": "Which language was Vahe written in?",
+        "answers": [
+            "Armenian"
+        ],
+        "pageviews": 2038
+    },
+    {
+        "query_id": "407_113",
+        "question": "Which language was N'avoue jamais written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1142
+    },
+    {
+        "query_id": "407_114",
+        "question": "Which language was El Sol written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 1945
+    },
+    {
+        "query_id": "407_115",
+        "question": "Which language was Asanbayev written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 273
+    },
+    {
+        "query_id": "407_116",
+        "question": "Which language was Ivan Pavlov written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 2229
+    },
+    {
+        "query_id": "407_117",
+        "question": "Which language was Dredd written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 575754
+    },
+    {
+        "query_id": "407_118",
+        "question": "Which language was Odorono written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 6549
+    },
+    {
+        "query_id": "407_119",
+        "question": "Which language was Chemistry (EP) written in?",
+        "answers": [
+            "Korean"
+        ],
+        "pageviews": 3305
+    },
+    {
+        "query_id": "407_120",
+        "question": "Which language was Ural Pathfinder written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 739
+    },
+    {
+        "query_id": "407_121",
+        "question": "Which language was Jacobson written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 4656
+    },
+    {
+        "query_id": "407_122",
+        "question": "Which language was Mirgorod written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 8239
+    },
+    {
+        "query_id": "407_123",
+        "question": "Which language was Mlada written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 4601
+    },
+    {
+        "query_id": "407_124",
+        "question": "Which language was Que mon c\u0153ur l\u00e2che written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 4684
+    },
+    {
+        "query_id": "407_125",
+        "question": "Which language was La mia risposta written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 6409
+    },
+    {
+        "query_id": "407_126",
+        "question": "Which language was De Morgen written in?",
+        "answers": [
+            "Dutch"
+        ],
+        "pageviews": 9769
+    },
+    {
+        "query_id": "407_127",
+        "question": "Which language was Lea written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 2202
+    },
+    {
+        "query_id": "407_128",
+        "question": "Which language was Sonic Lost World written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 100925
+    },
+    {
+        "query_id": "407_129",
+        "question": "Which language was WikiPilipinas written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 13236
+    },
+    {
+        "query_id": "407_130",
+        "question": "Which language was Abb\u00e0 Pater written in?",
+        "answers": [
+            "Italian",
+            "English"
+        ],
+        "pageviews": 3597
+    },
+    {
+        "query_id": "407_131",
+        "question": "Which language was In Session written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 2629
+    },
+    {
+        "query_id": "407_132",
+        "question": "Which language was Toronto Star written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 124201
+    },
+    {
+        "query_id": "407_133",
+        "question": "Which language was Elevation written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 2532
+    },
+    {
+        "query_id": "407_134",
+        "question": "Which language was Toma\u017e written in?",
+        "answers": [
+            "Slovene"
+        ],
+        "pageviews": 3436
+    },
+    {
+        "query_id": "407_135",
+        "question": "Which language was Mezzanine written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 148259
+    },
+    {
+        "query_id": "407_136",
+        "question": "Which language was Bianchi written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 4543
+    },
+    {
+        "query_id": "407_137",
+        "question": "Which language was Econometrica written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 18594
+    },
+    {
+        "query_id": "407_138",
+        "question": "Which language was Amparo written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 6874
+    },
+    {
+        "query_id": "407_139",
+        "question": "Which language was Protimuhurtey written in?",
+        "answers": [
+            "Bengali"
+        ],
+        "pageviews": 687
+    },
+    {
+        "query_id": "407_140",
+        "question": "Which language was Vanity Fair written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 284838
+    },
+    {
+        "query_id": "407_141",
+        "question": "Which language was Dominique written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 73018
+    },
+    {
+        "query_id": "407_142",
+        "question": "Which language was Pies Descalzos written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 63990
+    },
+    {
+        "query_id": "407_143",
+        "question": "Which language was Nicola written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 25529
+    },
+    {
+        "query_id": "407_144",
+        "question": "Which language was wuxia written in?",
+        "answers": [
+            "Chinese"
+        ],
+        "pageviews": 351502
+    },
+    {
+        "query_id": "407_145",
+        "question": "Which language was Unappreciated written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 9476
+    },
+    {
+        "query_id": "407_146",
+        "question": "Which language was Under Blackpool Lights written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 6959
+    },
+    {
+        "query_id": "407_147",
+        "question": "Which language was Le Chant de Mallory written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 937
+    },
+    {
+        "query_id": "407_148",
+        "question": "Which language was Acar written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 2124
+    },
+    {
+        "query_id": "407_149",
+        "question": "Which language was Gray written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 14103
+    },
+    {
+        "query_id": "407_150",
+        "question": "Which language was Zettai Zetsumei written in?",
+        "answers": [
+            "Japanese"
+        ],
+        "pageviews": 2618
+    },
+    {
+        "query_id": "407_151",
+        "question": "Which language was Zaj\u0105c written in?",
+        "answers": [
+            "Polish"
+        ],
+        "pageviews": 2371
+    },
+    {
+        "query_id": "407_152",
+        "question": "Which language was Sounds of the Universe written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 64096
+    },
+    {
+        "query_id": "407_153",
+        "question": "Which language was Povilas written in?",
+        "answers": [
+            "Lithuanian"
+        ],
+        "pageviews": 1465
+    },
+    {
+        "query_id": "407_155",
+        "question": "Which language was Celine Dion written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 60362
+    },
+    {
+        "query_id": "407_156",
+        "question": "Which language was Solano written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 2197
+    },
+    {
+        "query_id": "407_157",
+        "question": "Which language was The Stroll written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "407_158",
+        "question": "Which language was Mother written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 43617
+    },
+    {
+        "query_id": "407_159",
+        "question": "Which language was Becker written in?",
+        "answers": [
+            "German"
+        ],
+        "pageviews": 18732
+    },
+    {
+        "query_id": "407_160",
+        "question": "Which language was Seili written in?",
+        "answers": [
+            "Finnish"
+        ],
+        "pageviews": 1847
+    },
+    {
+        "query_id": "407_161",
+        "question": "Which language was Mukundamala written in?",
+        "answers": [
+            "Sanskrit"
+        ],
+        "pageviews": 4589
+    },
+    {
+        "query_id": "407_162",
+        "question": "Which language was 2 Years On written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 30383
+    },
+    {
+        "query_id": "407_163",
+        "question": "Which language was The Painted Word written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 3595
+    },
+    {
+        "query_id": "407_164",
+        "question": "Which language was Beyond My Control written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 4213
+    },
+    {
+        "query_id": "407_165",
+        "question": "Which language was En sten vid en sj\u00f6 i en skog/Tuffa tider written in?",
+        "answers": [
+            "Swedish"
+        ],
+        "pageviews": 684
+    },
+    {
+        "query_id": "407_166",
+        "question": "Which language was An\u00edbal written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 7884
+    },
+    {
+        "query_id": "407_167",
+        "question": "Which language was Ruslan and Ludmila written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 33916
+    },
+    {
+        "query_id": "407_168",
+        "question": "Which language was Pussy Riot: A Punk Prayer written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 13378
+    },
+    {
+        "query_id": "407_169",
+        "question": "Which language was Acta Philosophica Fennica written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 1516
+    },
+    {
+        "query_id": "407_170",
+        "question": "Which language was Sj\u00f6sala vals written in?",
+        "answers": [
+            "Swedish"
+        ],
+        "pageviews": 1888
+    },
+    {
+        "query_id": "407_171",
+        "question": "Which language was Junoon written in?",
+        "answers": [
+            "Urdu"
+        ],
+        "pageviews": 4597
+    },
+    {
+        "query_id": "407_172",
+        "question": "Which language was In Conflict written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 3779
+    },
+    {
+        "query_id": "407_173",
+        "question": "Which language was Jack written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 1126
+    },
+    {
+        "query_id": "407_174",
+        "question": "Which language was So in Love written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 11034
+    },
+    {
+        "query_id": "407_175",
+        "question": "Which language was Il Gazzettino written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 5853
+    },
+    {
+        "query_id": "407_176",
+        "question": "Which language was Paranoid written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 357400
+    },
+    {
+        "query_id": "407_177",
+        "question": "Which language was Finnish name written in?",
+        "answers": [
+            "Finnish"
+        ],
+        "pageviews": 63815
+    },
+    {
+        "query_id": "407_178",
+        "question": "Which language was Useless Beauty written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 4150
+    },
+    {
+        "query_id": "407_179",
+        "question": "Which language was Blanco written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 7710
+    },
+    {
+        "query_id": "407_180",
+        "question": "Which language was Leyli and Majnun written in?",
+        "answers": [
+            "Azerbaijani"
+        ],
+        "pageviews": 4217
+    },
+    {
+        "query_id": "407_181",
+        "question": "Which language was Visionary Dream written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 1155
+    },
+    {
+        "query_id": "407_182",
+        "question": "Which language was Voorgoed voorbij written in?",
+        "answers": [
+            "Dutch"
+        ],
+        "pageviews": 1162
+    },
+    {
+        "query_id": "407_183",
+        "question": "Which language was @Reverend Makers written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 1970
+    },
+    {
+        "query_id": "407_184",
+        "question": "Which language was The Black Sea was storming written in?",
+        "answers": [
+            "Azerbaijani"
+        ],
+        "pageviews": 839
+    },
+    {
+        "query_id": "407_185",
+        "question": "Which language was New Oxford American Dictionary written in?",
+        "answers": [
+            "American English"
+        ],
+        "pageviews": 27496
+    },
+    {
+        "query_id": "407_186",
+        "question": "Which language was Broodje Bakpao written in?",
+        "answers": [
+            "Dutch"
+        ],
+        "pageviews": 3431
+    },
+    {
+        "query_id": "407_187",
+        "question": "Which language was Nina's Tragedies written in?",
+        "answers": [
+            "Hebrew"
+        ],
+        "pageviews": 6756
+    },
+    {
+        "query_id": "407_188",
+        "question": "Which language was Bez naglih skokova written in?",
+        "answers": [
+            "Serbian"
+        ],
+        "pageviews": 771
+    },
+    {
+        "query_id": "407_189",
+        "question": "Which language was Irish Monthly written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 1774
+    },
+    {
+        "query_id": "407_190",
+        "question": "Which language was Bauhaus 1979\u20131983 written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 9230
+    },
+    {
+        "query_id": "407_191",
+        "question": "Which language was You've Really Got a Hold on Me written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 48026
+    },
+    {
+        "query_id": "407_192",
+        "question": "Which language was G\u00f3mez written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 24925
+    },
+    {
+        "query_id": "407_193",
+        "question": "Which language was Kangura written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 10412
+    },
+    {
+        "query_id": "407_194",
+        "question": "Which language was Bioconductor written in?",
+        "answers": [
+            "R"
+        ],
+        "pageviews": 53612
+    },
+    {
+        "query_id": "407_195",
+        "question": "Which language was Tedesco written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 15720
+    },
+    {
+        "query_id": "407_196",
+        "question": "Which language was M\u00e1rcio written in?",
+        "answers": [
+            "Portuguese"
+        ],
+        "pageviews": 1888
+    },
+    {
+        "query_id": "407_197",
+        "question": "Which language was Ar\u016bnas written in?",
+        "answers": [
+            "Lithuanian"
+        ],
+        "pageviews": 1243
+    },
+    {
+        "query_id": "407_198",
+        "question": "Which language was Anandamela written in?",
+        "answers": [
+            "Bengali"
+        ],
+        "pageviews": 8814
+    },
+    {
+        "query_id": "407_199",
+        "question": "Which language was Ode to the Gods written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 729
+    },
+    {
+        "query_id": "407_200",
+        "question": "Which language was September, gouden roos written in?",
+        "answers": [
+            "Dutch"
+        ],
+        "pageviews": 786
+    },
+    {
+        "query_id": "407_201",
+        "question": "Which language was Vrede written in?",
+        "answers": [
+            "Dutch"
+        ],
+        "pageviews": 1246
+    },
+    {
+        "query_id": "407_202",
+        "question": "Which language was Bambino written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 9930
+    },
+    {
+        "query_id": "407_203",
+        "question": "Which language was Play Dusty for Me written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 820
+    },
+    {
+        "query_id": "407_204",
+        "question": "Which language was The Shield and the Sword written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 19051
+    },
+    {
+        "query_id": "407_205",
+        "question": "Which language was N\u00e4r det lider mot jul written in?",
+        "answers": [
+            "Swedish"
+        ],
+        "pageviews": 1565
+    },
+    {
+        "query_id": "407_206",
+        "question": "Which language was Ten Summoner's Tales written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 100073
+    },
+    {
+        "query_id": "407_207",
+        "question": "Which language was Le Dernier qui a parl\u00e9... written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 3951
+    },
+    {
+        "query_id": "407_208",
+        "question": "Which language was The Raid written in?",
+        "answers": [
+            "Indonesian"
+        ],
+        "pageviews": 455511
+    },
+    {
+        "query_id": "407_209",
+        "question": "Which language was Absolution written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 123578
+    },
+    {
+        "query_id": "407_210",
+        "question": "Which language was Al-Ahram Hebdo written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 2378
+    },
+    {
+        "query_id": "407_211",
+        "question": "Which language was Dhaani written in?",
+        "answers": [
+            "Urdu"
+        ],
+        "pageviews": 6420
+    },
+    {
+        "query_id": "407_212",
+        "question": "Which language was Free Birds written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 150958
+    },
+    {
+        "query_id": "407_213",
+        "question": "Which language was Islamic Republic of Iran News Network (IRINN) written in?",
+        "answers": [
+            "Persian"
+        ],
+        "pageviews": 9247
+    },
+    {
+        "query_id": "407_214",
+        "question": "Which language was En Concierto... Inolvidable written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 1942
+    },
+    {
+        "query_id": "407_215",
+        "question": "Which language was Le marteau sans ma\u00eetre written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 13279
+    },
+    {
+        "query_id": "407_216",
+        "question": "Which language was Duophonique written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 825
+    },
+    {
+        "query_id": "407_217",
+        "question": "Which language was Rasayana written in?",
+        "answers": [
+            "Sanskrit"
+        ],
+        "pageviews": 32355
+    },
+    {
+        "query_id": "407_218",
+        "question": "Which language was Nin9 2 5ive written in?",
+        "answers": [
+            "Cantonese"
+        ],
+        "pageviews": 784
+    },
+    {
+        "query_id": "407_219",
+        "question": "Which language was Kimber written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 4783
+    },
+    {
+        "query_id": "407_220",
+        "question": "Which language was I Will (F.T. Island album) written in?",
+        "answers": [
+            "Korean"
+        ],
+        "pageviews": 2259
+    },
+    {
+        "query_id": "407_221",
+        "question": "Which language was St. John's Eve written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 8326
+    },
+    {
+        "query_id": "407_222",
+        "question": "Which language was Borodino written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 7318
+    },
+    {
+        "query_id": "407_223",
+        "question": "Which language was Emotional Rescue written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 127062
+    },
+    {
+        "query_id": "407_224",
+        "question": "Which language was El Liberal written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 1960
+    },
+    {
+        "query_id": "407_225",
+        "question": "Which language was Special View written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 2817
+    },
+    {
+        "query_id": "407_226",
+        "question": "Which language was Walker written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 25208
+    },
+    {
+        "query_id": "407_227",
+        "question": "Which language was Viaggiatrice solitaria written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 920
+    },
+    {
+        "query_id": "407_228",
+        "question": "Which language was Geoffrey written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 43075
+    },
+    {
+        "query_id": "407_229",
+        "question": "Which language was Tous ensemble written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 2421
+    },
+    {
+        "query_id": "407_230",
+        "question": "Which language was Google Map Maker written in?",
+        "answers": [
+            "Bengali"
+        ],
+        "pageviews": 28833
+    },
+    {
+        "query_id": "407_231",
+        "question": "Which language was Cibles written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 902
+    },
+    {
+        "query_id": "407_232",
+        "question": "Which language was 17 (Ricky Martin album) written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 4373
+    },
+    {
+        "query_id": "407_233",
+        "question": "Which language was Aiken Drum written in?",
+        "answers": [
+            "Scots"
+        ],
+        "pageviews": 29390
+    },
+    {
+        "query_id": "407_234",
+        "question": "Which language was Manhattan-Kaboul written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 4018
+    },
+    {
+        "query_id": "407_235",
+        "question": "Which language was El diablo written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 1789
+    },
+    {
+        "query_id": "407_236",
+        "question": "Which language was How Big, How Blue, How Beautiful written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 89388
+    },
+    {
+        "query_id": "407_237",
+        "question": "Which language was Mussorgsky written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 2936
+    },
+    {
+        "query_id": "407_238",
+        "question": "Which language was Drones written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 114753
+    },
+    {
+        "query_id": "407_239",
+        "question": "Which language was Petit bonhomme written in?",
+        "answers": [
+            "German",
+            "French"
+        ],
+        "pageviews": 1122
+    },
+    {
+        "query_id": "407_240",
+        "question": "Which language was Every Bastard a King written in?",
+        "answers": [
+            "Hebrew"
+        ],
+        "pageviews": 2621
+    },
+    {
+        "query_id": "407_241",
+        "question": "Which language was The Theme written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 4305
+    },
+    {
+        "query_id": "407_242",
+        "question": "Which language was Vlaky s rokmi written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 728
+    },
+    {
+        "query_id": "407_243",
+        "question": "Which language was Peraustr\u00ednia 2004 written in?",
+        "answers": [
+            "Catalan"
+        ],
+        "pageviews": 1573
+    },
+    {
+        "query_id": "407_244",
+        "question": "Which language was Aubin written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 3143
+    },
+    {
+        "query_id": "407_245",
+        "question": "Which language was T\u00eatu written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 7817
+    },
+    {
+        "query_id": "407_246",
+        "question": "Which language was \u010ceslovas written in?",
+        "answers": [
+            "Lithuanian"
+        ],
+        "pageviews": 593
+    },
+    {
+        "query_id": "407_247",
+        "question": "Which language was Chechen Wikipedia written in?",
+        "answers": [
+            "Chechen"
+        ],
+        "pageviews": 5101
+    },
+    {
+        "query_id": "407_248",
+        "question": "Which language was Leonardas written in?",
+        "answers": [
+            "Lithuanian"
+        ],
+        "pageviews": 547
+    },
+    {
+        "query_id": "407_249",
+        "question": "Which language was 127 Hours written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 594468
+    },
+    {
+        "query_id": "407_250",
+        "question": "Which language was Europe \u00c9checs written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1297
+    },
+    {
+        "query_id": "407_251",
+        "question": "Which language was Weird Tales written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 109449
+    },
+    {
+        "query_id": "407_252",
+        "question": "Which language was State written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 2463
+    },
+    {
+        "query_id": "407_253",
+        "question": "Which language was Cebuano Wikipedia written in?",
+        "answers": [
+            "Cebuano"
+        ],
+        "pageviews": 45106
+    },
+    {
+        "query_id": "407_254",
+        "question": "Which language was Arvydas written in?",
+        "answers": [
+            "Lithuanian"
+        ],
+        "pageviews": 1192
+    },
+    {
+        "query_id": "407_255",
+        "question": "Which language was Krugosvet written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 2180
+    },
+    {
+        "query_id": "407_256",
+        "question": "Which language was Bobok written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 10721
+    },
+    {
+        "query_id": "407_257",
+        "question": "Which language was Hafana written in?",
+        "answers": [
+            "Welsh"
+        ],
+        "pageviews": 534
+    },
+    {
+        "query_id": "407_258",
+        "question": "Which language was Tigerdrottningen written in?",
+        "answers": [
+            "Swedish"
+        ],
+        "pageviews": 3028
+    },
+    {
+        "query_id": "407_259",
+        "question": "Which language was Yom Huledet written in?",
+        "answers": [
+            "Hebrew"
+        ],
+        "pageviews": 1074
+    },
+    {
+        "query_id": "407_260",
+        "question": "Which language was 1st written in?",
+        "answers": [
+            "Finnish"
+        ],
+        "pageviews": 3578
+    },
+    {
+        "query_id": "407_261",
+        "question": "Which language was Tempo written in?",
+        "answers": [
+            "Indonesian"
+        ],
+        "pageviews": 9888
+    },
+    {
+        "query_id": "407_262",
+        "question": "Which language was Definitive Collection Mini LP Replica CD Boxset written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 19523
+    },
+    {
+        "query_id": "407_263",
+        "question": "Which language was Misimovi\u0107 written in?",
+        "answers": [
+            "Serbian"
+        ],
+        "pageviews": 453
+    },
+    {
+        "query_id": "407_264",
+        "question": "Which language was Del meglio del nostro meglio Vol. 1 written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 868
+    },
+    {
+        "query_id": "407_265",
+        "question": "Which language was The Pope's Toilet written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 4178
+    },
+    {
+        "query_id": "407_266",
+        "question": "Which language was Aunty Disco Project written in?",
+        "answers": [
+            "Urdu"
+        ],
+        "pageviews": 859
+    },
+    {
+        "query_id": "407_267",
+        "question": "Which language was Rodr\u00edguez written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 38326
+    },
+    {
+        "query_id": "407_268",
+        "question": "Which language was Little Poll Parrot written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 4248
+    },
+    {
+        "query_id": "407_269",
+        "question": "Which language was ciao written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 193248
+    },
+    {
+        "query_id": "407_270",
+        "question": "Which language was Paid Edrych I lawr written in?",
+        "answers": [
+            "Welsh"
+        ],
+        "pageviews": 1094
+    },
+    {
+        "query_id": "407_271",
+        "question": "Which language was Moj mikro written in?",
+        "answers": [
+            "Slovene"
+        ],
+        "pageviews": 1030
+    },
+    {
+        "query_id": "407_272",
+        "question": "Which language was Black Dog written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 83250
+    },
+    {
+        "query_id": "407_273",
+        "question": "Which language was La bonne du cur\u00e9 written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 749
+    },
+    {
+        "query_id": "407_274",
+        "question": "Which language was Moscow Nights written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 28233
+    },
+    {
+        "query_id": "407_275",
+        "question": "Which language was Use Your Illusion II written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 243901
+    },
+    {
+        "query_id": "407_276",
+        "question": "Which language was 16/9 written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1530
+    },
+    {
+        "query_id": "407_277",
+        "question": "Which language was A Mis Amigos written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 5293
+    },
+    {
+        "query_id": "407_278",
+        "question": "Which language was For Your Pleasure written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 130444
+    },
+    {
+        "query_id": "407_279",
+        "question": "Which language was Stitches written in?",
+        "answers": [
+            "Hebrew"
+        ],
+        "pageviews": 1052
+    },
+    {
+        "query_id": "407_280",
+        "question": "Which language was OK Computer written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 504092
+    },
+    {
+        "query_id": "407_281",
+        "question": "Which language was Planta written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 1725
+    },
+    {
+        "query_id": "407_282",
+        "question": "Which language was Reality and Fantasy written in?",
+        "answers": [
+            "English",
+            "Italian"
+        ],
+        "pageviews": 1911
+    },
+    {
+        "query_id": "407_283",
+        "question": "Which language was Ta La\u00efka Tis Despinas written in?",
+        "answers": [
+            "Greek"
+        ],
+        "pageviews": 687
+    },
+    {
+        "query_id": "407_284",
+        "question": "Which language was 13 written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 87269
+    },
+    {
+        "query_id": "407_285",
+        "question": "Which language was S\u00f6zen written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 735
+    },
+    {
+        "query_id": "407_286",
+        "question": "Which language was Muchas flores written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 2042
+    },
+    {
+        "query_id": "407_287",
+        "question": "Which language was Vuelta written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 4705
+    },
+    {
+        "query_id": "407_288",
+        "question": "Which language was Timon written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 2507
+    },
+    {
+        "query_id": "407_289",
+        "question": "Which language was Beata written in?",
+        "answers": [
+            "Polish"
+        ],
+        "pageviews": 16297
+    },
+    {
+        "query_id": "407_290",
+        "question": "Which language was Nezhnost' written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 2632
+    },
+    {
+        "query_id": "407_291",
+        "question": "Which language was Libert\u00e9 written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 2658
+    },
+    {
+        "query_id": "407_292",
+        "question": "Which language was Sextonik written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 2117
+    },
+    {
+        "query_id": "407_293",
+        "question": "Which language was The Greatest Hits \u2013 Why Try Harder written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 11470
+    },
+    {
+        "query_id": "407_294",
+        "question": "Which language was Gentleman written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 1836
+    },
+    {
+        "query_id": "407_295",
+        "question": "Which language was Don't Bother Me written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 24466
+    },
+    {
+        "query_id": "407_296",
+        "question": "Which language was Hackett written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 5788
+    },
+    {
+        "query_id": "407_297",
+        "question": "Which language was Bushra written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 10488
+    },
+    {
+        "query_id": "407_298",
+        "question": "Which language was Beijinger in New York written in?",
+        "answers": [
+            "Chinese"
+        ],
+        "pageviews": 3586
+    },
+    {
+        "query_id": "407_299",
+        "question": "Which language was Endgame written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 83008
+    },
+    {
+        "query_id": "407_300",
+        "question": "Which language was Spirit of Eden written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 78059
+    },
+    {
+        "query_id": "407_301",
+        "question": "Which language was Hall written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 16891
+    },
+    {
+        "query_id": "407_302",
+        "question": "Which language was Gallagher written in?",
+        "answers": [
+            "Irish"
+        ],
+        "pageviews": 20449
+    },
+    {
+        "query_id": "407_303",
+        "question": "Which language was Princess Ligovskaya written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 1697
+    },
+    {
+        "query_id": "407_304",
+        "question": "Which language was 18 Months written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 60426
+    },
+    {
+        "query_id": "407_305",
+        "question": "Which language was Angus written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 21813
+    },
+    {
+        "query_id": "407_306",
+        "question": "Which language was Due note written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 1182
+    },
+    {
+        "query_id": "407_307",
+        "question": "Which language was Batuhan written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 4405
+    },
+    {
+        "query_id": "407_308",
+        "question": "Which language was The Blockade Runners written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 2839
+    },
+    {
+        "query_id": "407_309",
+        "question": "Which language was Jal Pari written in?",
+        "answers": [
+            "Urdu"
+        ],
+        "pageviews": 12769
+    },
+    {
+        "query_id": "407_310",
+        "question": "Which language was The... written in?",
+        "answers": [
+            "Japanese"
+        ],
+        "pageviews": 3799
+    },
+    {
+        "query_id": "407_311",
+        "question": "Which language was Courrier International written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 10696
+    },
+    {
+        "query_id": "407_312",
+        "question": "Which language was Carpe Diem written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 6252
+    },
+    {
+        "query_id": "407_313",
+        "question": "Which language was Live Yardbirds: Featuring Jimmy Page written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 8480
+    },
+    {
+        "query_id": "407_314",
+        "question": "Which language was Edvardas written in?",
+        "answers": [
+            "Lithuanian"
+        ],
+        "pageviews": 1053
+    },
+    {
+        "query_id": "407_315",
+        "question": "Which language was Terra baixa written in?",
+        "answers": [
+            "Catalan"
+        ],
+        "pageviews": 2480
+    },
+    {
+        "query_id": "407_316",
+        "question": "Which language was Non ho l'et\u00e0 written in?",
+        "answers": [
+            "Spanish",
+            "English",
+            "French",
+            "Italian"
+        ],
+        "pageviews": 35661
+    },
+    {
+        "query_id": "407_317",
+        "question": "Which language was Shervin written in?",
+        "answers": [
+            "Persian"
+        ],
+        "pageviews": 7537
+    },
+    {
+        "query_id": "407_318",
+        "question": "Which language was Come and See written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 902693
+    },
+    {
+        "query_id": "407_319",
+        "question": "Which language was New Page written in?",
+        "answers": [
+            "Japanese"
+        ],
+        "pageviews": 1191
+    },
+    {
+        "query_id": "407_320",
+        "question": "Which language was Le Voyageur written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1559
+    },
+    {
+        "query_id": "407_321",
+        "question": "Which language was BSSST...Ti\u0161in\u010dina! written in?",
+        "answers": [
+            "Serbian"
+        ],
+        "pageviews": 133
+    },
+    {
+        "query_id": "407_322",
+        "question": "Which language was Bayram written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 1374
+    },
+    {
+        "query_id": "407_323",
+        "question": "Which language was La d\u00e9b\u00e2cle des sentiments written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 853
+    },
+    {
+        "query_id": "407_324",
+        "question": "Which language was Roberts written in?",
+        "answers": [
+            "Latvian"
+        ],
+        "pageviews": 1515
+    },
+    {
+        "query_id": "407_325",
+        "question": "Which language was Sahara written in?",
+        "answers": [
+            "Greek"
+        ],
+        "pageviews": 898
+    },
+    {
+        "query_id": "407_326",
+        "question": "Which language was Kara Collection written in?",
+        "answers": [
+            "Korean"
+        ],
+        "pageviews": 5231
+    },
+    {
+        "query_id": "407_328",
+        "question": "Which language was An Ordinary Miracle written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 8896
+    },
+    {
+        "query_id": "407_329",
+        "question": "Which language was La Conexion written in?",
+        "answers": [
+            "Spanish",
+            "English"
+        ],
+        "pageviews": 1799
+    },
+    {
+        "query_id": "407_330",
+        "question": "Which language was IV written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 28
+    },
+    {
+        "query_id": "407_331",
+        "question": "Which language was Little Fish written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 41347
+    },
+    {
+        "query_id": "407_332",
+        "question": "Which language was Prantik written in?",
+        "answers": [
+            "Assamese"
+        ],
+        "pageviews": 5588
+    },
+    {
+        "query_id": "407_333",
+        "question": "Which language was Aim\u00e9e written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 18519
+    },
+    {
+        "query_id": "407_334",
+        "question": "Which language was Riccardo written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 9508
+    },
+    {
+        "query_id": "407_335",
+        "question": "Which language was The Miroslav Holding Co. written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 776
+    },
+    {
+        "query_id": "407_336",
+        "question": "Which language was Sandrine written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 7465
+    },
+    {
+        "query_id": "407_337",
+        "question": "Which language was Enjoy CCCP written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 1385
+    },
+    {
+        "query_id": "407_338",
+        "question": "Which language was S.P.U.K. written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 1761
+    },
+    {
+        "query_id": "407_339",
+        "question": "Which language was Holly written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 24863
+    },
+    {
+        "query_id": "407_340",
+        "question": "Which language was The Hawks and the Sparrows written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 20568
+    },
+    {
+        "query_id": "407_341",
+        "question": "Which language was Animator.ru written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 3864
+    },
+    {
+        "query_id": "407_342",
+        "question": "Which language was M\u00f3nica Naranjo written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 3006
+    },
+    {
+        "query_id": "407_343",
+        "question": "Which language was Shady Grove written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 16993
+    },
+    {
+        "query_id": "407_344",
+        "question": "Which language was Arbeit macht frei written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 10422
+    },
+    {
+        "query_id": "407_345",
+        "question": "Which language was Vujasinovi\u0107 written in?",
+        "answers": [
+            "Serbian"
+        ],
+        "pageviews": 555
+    },
+    {
+        "query_id": "407_346",
+        "question": "Which language was Jo\u00eblle written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 5123
+    },
+    {
+        "query_id": "407_347",
+        "question": "Which language was Electricidad written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 2708
+    },
+    {
+        "query_id": "407_348",
+        "question": "Which language was Sono un pirata, sono un signore written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 2806
+    },
+    {
+        "query_id": "407_349",
+        "question": "Which language was Cihan News Agency written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 2344
+    },
+    {
+        "query_id": "407_350",
+        "question": "Which language was CQ Amateur Radio written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 4369
+    },
+    {
+        "query_id": "407_351",
+        "question": "Which language was Slam written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 218
+    },
+    {
+        "query_id": "407_352",
+        "question": "Which language was Zenyatta Mondatta written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 157313
+    },
+    {
+        "query_id": "407_353",
+        "question": "Which language was Edwige written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 2726
+    },
+    {
+        "query_id": "407_354",
+        "question": "Which language was N'importe quoi written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 3863
+    },
+    {
+        "query_id": "407_355",
+        "question": "Which language was Amsterdam written in?",
+        "answers": [
+            "Dutch"
+        ],
+        "pageviews": 1755
+    },
+    {
+        "query_id": "407_357",
+        "question": "Which language was Husband and Wife written in?",
+        "answers": [
+            "Azerbaijani"
+        ],
+        "pageviews": 723
+    },
+    {
+        "query_id": "407_358",
+        "question": "Which language was The Most Gigantic Lying Mouth of All Time written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 4697
+    },
+    {
+        "query_id": "407_359",
+        "question": "Which language was Recep written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 3327
+    },
+    {
+        "query_id": "407_360",
+        "question": "Which language was Tencent QQ written in?",
+        "answers": [
+            "Chinese"
+        ],
+        "pageviews": 998892
+    },
+    {
+        "query_id": "407_361",
+        "question": "Which language was Uku written in?",
+        "answers": [
+            "Estonian"
+        ],
+        "pageviews": 1025
+    },
+    {
+        "query_id": "407_362",
+        "question": "Which language was Stepped Up and Scratched written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 5693
+    },
+    {
+        "query_id": "407_363",
+        "question": "Which language was Le chant des sir\u00e8nes written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 3821
+    },
+    {
+        "query_id": "407_364",
+        "question": "Which language was Dainius written in?",
+        "answers": [
+            "Lithuanian"
+        ],
+        "pageviews": 794
+    },
+    {
+        "query_id": "407_365",
+        "question": "Which language was Sonja and the Bull written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 1590
+    },
+    {
+        "query_id": "407_366",
+        "question": "Which language was Sadhana written in?",
+        "answers": [
+            "Marathi"
+        ],
+        "pageviews": 3858
+    },
+    {
+        "query_id": "407_367",
+        "question": "Which language was Bambara Wikipedia written in?",
+        "answers": [
+            "Bambara"
+        ],
+        "pageviews": 6757
+    },
+    {
+        "query_id": "407_368",
+        "question": "Which language was Shades of Deep Purple written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 118733
+    },
+    {
+        "query_id": "407_369",
+        "question": "Which language was Messieurs les noy\u00e9s de la Seine written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1053
+    },
+    {
+        "query_id": "407_370",
+        "question": "Which language was Iton 77 written in?",
+        "answers": [
+            "Hebrew"
+        ],
+        "pageviews": 932
+    },
+    {
+        "query_id": "407_371",
+        "question": "Which language was Irefutabil written in?",
+        "answers": [
+            "Romanian"
+        ],
+        "pageviews": 349
+    },
+    {
+        "query_id": "407_372",
+        "question": "Which language was A Dog of Flanders written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 67817
+    },
+    {
+        "query_id": "407_373",
+        "question": "Which language was Rockdelux written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 3519
+    },
+    {
+        "query_id": "407_374",
+        "question": "Which language was El Universo written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 8830
+    },
+    {
+        "query_id": "407_375",
+        "question": "Which language was Hallo K3 written in?",
+        "answers": [
+            "Dutch"
+        ],
+        "pageviews": 1614
+    },
+    {
+        "query_id": "407_376",
+        "question": "Which language was Buffet written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 887
+    },
+    {
+        "query_id": "407_377",
+        "question": "Which language was Here I Am written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 29695
+    },
+    {
+        "query_id": "407_378",
+        "question": "Which language was Live! The Last Concert written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "407_379",
+        "question": "Which language was Hot Vid\u00e9o written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 18197
+    },
+    {
+        "query_id": "407_380",
+        "question": "Which language was Anarchy in the U.K: Live at the 76 Club written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 5769
+    },
+    {
+        "query_id": "407_381",
+        "question": "Which language was Yao written in?",
+        "answers": [
+            "Chinese"
+        ],
+        "pageviews": 11746
+    },
+    {
+        "query_id": "407_382",
+        "question": "Which language was SOUTHASIA written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 1700
+    },
+    {
+        "query_id": "407_383",
+        "question": "Which language was Down by the Seaside written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 1007
+    },
+    {
+        "query_id": "407_384",
+        "question": "Which language was Andriki Kolonia written in?",
+        "answers": [
+            "Greek"
+        ],
+        "pageviews": 1219
+    },
+    {
+        "query_id": "407_385",
+        "question": "Which language was Gwenllian written in?",
+        "answers": [
+            "Welsh"
+        ],
+        "pageviews": 2672
+    },
+    {
+        "query_id": "407_386",
+        "question": "Which language was Gruzovik Press written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 928
+    },
+    {
+        "query_id": "407_387",
+        "question": "Which language was MyLINUX written in?",
+        "answers": [
+            "Romanian"
+        ],
+        "pageviews": 966
+    },
+    {
+        "query_id": "407_389",
+        "question": "Which language was Latin Wikipedia written in?",
+        "answers": [
+            "Latin"
+        ],
+        "pageviews": 20558
+    },
+    {
+        "query_id": "407_390",
+        "question": "Which language was inoSMI written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 17381
+    },
+    {
+        "query_id": "407_391",
+        "question": "Which language was Ozon.ru written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 81122
+    },
+    {
+        "query_id": "407_392",
+        "question": "Which language was Mama Corsica written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1626
+    },
+    {
+        "query_id": "407_393",
+        "question": "Which language was Caracola written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 891
+    },
+    {
+        "query_id": "407_394",
+        "question": "Which language was P\u00fctsep written in?",
+        "answers": [
+            "Estonian"
+        ],
+        "pageviews": 477
+    },
+    {
+        "query_id": "407_395",
+        "question": "Which language was Arvo written in?",
+        "answers": [
+            "Finnish"
+        ],
+        "pageviews": 2662
+    },
+    {
+        "query_id": "407_396",
+        "question": "Which language was Charuga written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 2051
+    },
+    {
+        "query_id": "407_397",
+        "question": "Which language was Gerardo written in?",
+        "answers": [
+            "Italian",
+            "Spanish"
+        ],
+        "pageviews": 8499
+    },
+    {
+        "query_id": "407_398",
+        "question": "Which language was Guillaume written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 33924
+    },
+    {
+        "query_id": "407_399",
+        "question": "Which language was Alice written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 989
+    },
+    {
+        "query_id": "407_400",
+        "question": "Which language was Night Flight written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 1316
+    },
+    {
+        "query_id": "407_401",
+        "question": "Which language was Ruggero written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 1728
+    },
+    {
+        "query_id": "407_402",
+        "question": "Which language was Road & Track written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 24940
+    },
+    {
+        "query_id": "407_403",
+        "question": "Which language was Norton written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 7138
+    },
+    {
+        "query_id": "407_404",
+        "question": "Which language was Heather written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 25027
+    },
+    {
+        "query_id": "407_405",
+        "question": "Which language was Stranded written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 94670
+    },
+    {
+        "query_id": "407_406",
+        "question": "Which language was Tomorrow written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 9313
+    },
+    {
+        "query_id": "407_407",
+        "question": "Which language was The Banker written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 24132
+    },
+    {
+        "query_id": "407_408",
+        "question": "Which language was Gra\u017cyna written in?",
+        "answers": [
+            "Polish"
+        ],
+        "pageviews": 5635
+    },
+    {
+        "query_id": "407_409",
+        "question": "Which language was Bodil written in?",
+        "answers": [
+            "Danish"
+        ],
+        "pageviews": 3591
+    },
+    {
+        "query_id": "407_410",
+        "question": "Which language was The Man Who Sold the World written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 234744
+    },
+    {
+        "query_id": "407_411",
+        "question": "Which language was The Old Oak Blues written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 807
+    },
+    {
+        "query_id": "407_412",
+        "question": "Which language was Eisai I Mousiki Mou written in?",
+        "answers": [
+            "Greek"
+        ],
+        "pageviews": 648
+    },
+    {
+        "query_id": "407_413",
+        "question": "Which language was Celestial Body written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 2436
+    },
+    {
+        "query_id": "407_414",
+        "question": "Which language was Unhalfbricking written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 44910
+    },
+    {
+        "query_id": "407_415",
+        "question": "Which language was The Pink Doll written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 938
+    },
+    {
+        "query_id": "407_416",
+        "question": "Which language was France Culture written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 27839
+    },
+    {
+        "query_id": "407_417",
+        "question": "Which language was Ja, m\u00e5 du leva! written in?",
+        "answers": [
+            "Dutch"
+        ],
+        "pageviews": 13046
+    },
+    {
+        "query_id": "407_418",
+        "question": "Which language was Transatlantic written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 1323
+    },
+    {
+        "query_id": "407_419",
+        "question": "Which language was Beck written in?",
+        "answers": [
+            "Germanic languages"
+        ],
+        "pageviews": 9655
+    },
+    {
+        "query_id": "407_420",
+        "question": "Which language was Fabienne written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 4216
+    },
+    {
+        "query_id": "407_421",
+        "question": "Which language was Dacia Literar\u0103 written in?",
+        "answers": [
+            "Romanian"
+        ],
+        "pageviews": 3128
+    },
+    {
+        "query_id": "407_422",
+        "question": "Which language was Salto mortal written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 775
+    },
+    {
+        "query_id": "407_423",
+        "question": "Which language was Sam na sam written in?",
+        "answers": [
+            "Polish"
+        ],
+        "pageviews": 710
+    },
+    {
+        "query_id": "407_424",
+        "question": "Which language was Dig Out Your Soul written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 107266
+    },
+    {
+        "query_id": "407_425",
+        "question": "Which language was The Lemon Song written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 10374
+    },
+    {
+        "query_id": "407_426",
+        "question": "Which language was Haratch written in?",
+        "answers": [
+            "Armenian"
+        ],
+        "pageviews": 1869
+    },
+    {
+        "query_id": "407_427",
+        "question": "Which language was Com\u00e9-com\u00e9die written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1047
+    },
+    {
+        "query_id": "407_428",
+        "question": "Which language was Horvatov izbor written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 819
+    },
+    {
+        "query_id": "407_429",
+        "question": "Which language was 1888 written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 1238
+    },
+    {
+        "query_id": "407_430",
+        "question": "Which language was Hot Press written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 18916
+    },
+    {
+        "query_id": "407_431",
+        "question": "Which language was Der \u00d6sterreichische Volkswirt written in?",
+        "answers": [
+            "German"
+        ],
+        "pageviews": 1343
+    },
+    {
+        "query_id": "407_432",
+        "question": "Which language was Meir written in?",
+        "answers": [
+            "Norwegian"
+        ],
+        "pageviews": 7333
+    },
+    {
+        "query_id": "407_433",
+        "question": "Which language was Nintendo Power written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 90835
+    },
+    {
+        "query_id": "407_434",
+        "question": "Which language was Coming Up written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 57740
+    },
+    {
+        "query_id": "407_435",
+        "question": "Which language was Communication Breakdown written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 29258
+    },
+    {
+        "query_id": "407_436",
+        "question": "Which language was La B\u00eate \u00e0 Ma\u00eet' Belhomme written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 2300
+    },
+    {
+        "query_id": "407_437",
+        "question": "Which language was Enciclopedia  Universal en Espa\u00f1ol written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 49910
+    },
+    {
+        "query_id": "407_438",
+        "question": "Which language was Kuosmanen written in?",
+        "answers": [
+            "Finnish"
+        ],
+        "pageviews": 400
+    },
+    {
+        "query_id": "407_439",
+        "question": "Which language was The Way to Paradise written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 1413
+    },
+    {
+        "query_id": "407_440",
+        "question": "Which language was Kevin written in?",
+        "answers": [
+            "Irish"
+        ],
+        "pageviews": 97831
+    },
+    {
+        "query_id": "407_441",
+        "question": "Which language was Il faut du temps written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "407_442",
+        "question": "Which language was Carol written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 17267
+    },
+    {
+        "query_id": "407_443",
+        "question": "Which language was Aurelijus written in?",
+        "answers": [
+            "Lithuanian"
+        ],
+        "pageviews": 643
+    },
+    {
+        "query_id": "407_445",
+        "question": "Which language was Northern Flowers written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 961
+    },
+    {
+        "query_id": "407_447",
+        "question": "Which language was \u017dvi\u017eej written in?",
+        "answers": [
+            "Slovene"
+        ],
+        "pageviews": 244
+    },
+    {
+        "query_id": "407_448",
+        "question": "Which language was The Phuket News written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 1491
+    },
+    {
+        "query_id": "407_449",
+        "question": "Which language was Tygodnik Powszechny written in?",
+        "answers": [
+            "Polish"
+        ],
+        "pageviews": 5324
+    },
+    {
+        "query_id": "407_450",
+        "question": "Which language was Irana Esperantisto written in?",
+        "answers": [
+            "Esperanto",
+            "Persian"
+        ],
+        "pageviews": 647
+    },
+    {
+        "query_id": "407_451",
+        "question": "Which language was Picturesque Matchstickable Messages from the Status Quo written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 24493
+    },
+    {
+        "query_id": "407_452",
+        "question": "Which language was Snakedrill written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 1992
+    },
+    {
+        "query_id": "407_453",
+        "question": "Which language was Cisneros written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 3596
+    },
+    {
+        "query_id": "407_454",
+        "question": "Which language was Washed Out written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 1722
+    },
+    {
+        "query_id": "407_455",
+        "question": "Which language was Tess of the d'Urbervilles written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 291851
+    },
+    {
+        "query_id": "407_456",
+        "question": "Which language was Le Matin written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 5580
+    },
+    {
+        "query_id": "407_457",
+        "question": "Which language was Un jour, un enfant written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 5676
+    },
+    {
+        "query_id": "407_458",
+        "question": "Which language was O\u011fuz written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 6508
+    },
+    {
+        "query_id": "407_459",
+        "question": "Which language was Ra\u015fit written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 807
+    },
+    {
+        "query_id": "407_460",
+        "question": "Which language was Sokol Did Not Love Him written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 1397
+    },
+    {
+        "query_id": "407_461",
+        "question": "Which language was The Promised Land written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 1568
+    },
+    {
+        "query_id": "407_462",
+        "question": "Which language was D\u00e9g\u00e9n\u00e9ration written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 11114
+    },
+    {
+        "query_id": "407_463",
+        "question": "Which language was Sarjana Muda written in?",
+        "answers": [
+            "Indonesian"
+        ],
+        "pageviews": 1435
+    },
+    {
+        "query_id": "407_464",
+        "question": "Which language was Lorenzo written in?",
+        "answers": [
+            "Italian",
+            "Spanish"
+        ],
+        "pageviews": 24901
+    },
+    {
+        "query_id": "407_465",
+        "question": "Which language was Peterson written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 10581
+    },
+    {
+        "query_id": "407_466",
+        "question": "Which language was Vogue Italia written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 38823
+    },
+    {
+        "query_id": "407_467",
+        "question": "Which language was Jean-Antoine written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1362
+    },
+    {
+        "query_id": "407_468",
+        "question": "Which language was Proto-Indo-European nominals written in?",
+        "answers": [
+            "Proto-Indo-European"
+        ],
+        "pageviews": 36777
+    },
+    {
+        "query_id": "407_469",
+        "question": "Which language was The Sea written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 11363
+    },
+    {
+        "query_id": "407_470",
+        "question": "Which language was Lucio Battisti Vol. 2 written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 2031
+    },
+    {
+        "query_id": "407_471",
+        "question": "Which language was A Hard Day's Night written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 391221
+    },
+    {
+        "query_id": "407_472",
+        "question": "Which language was L'Humanit\u00e9 written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 28917
+    },
+    {
+        "query_id": "407_473",
+        "question": "Which language was Exame written in?",
+        "answers": [
+            "Portuguese"
+        ],
+        "pageviews": 6101
+    },
+    {
+        "query_id": "407_475",
+        "question": "Which language was Caresses written in?",
+        "answers": [
+            "Catalan"
+        ],
+        "pageviews": 2801
+    },
+    {
+        "query_id": "407_476",
+        "question": "Which language was Meat Is Murder written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 161820
+    },
+    {
+        "query_id": "407_478",
+        "question": "Which language was Dazed & Confused written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 38510
+    },
+    {
+        "query_id": "407_479",
+        "question": "Which language was Speak English or Die written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 46054
+    },
+    {
+        "query_id": "407_480",
+        "question": "Which language was Love Inventory written in?",
+        "answers": [
+            "Hebrew"
+        ],
+        "pageviews": 1019
+    },
+    {
+        "query_id": "407_481",
+        "question": "Which language was Racine Carr\u00e9e written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 49538
+    },
+    {
+        "query_id": "407_482",
+        "question": "Which language was Two Sides of the Moon written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 29633
+    },
+    {
+        "query_id": "407_483",
+        "question": "Which language was Globus written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 3248
+    },
+    {
+        "query_id": "407_484",
+        "question": "Which language was Yellow Submarine written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 396818
+    },
+    {
+        "query_id": "407_485",
+        "question": "Which language was Oye Como Va written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "407_486",
+        "question": "Which language was Irk Bitig written in?",
+        "answers": [
+            "Old Turkic"
+        ],
+        "pageviews": 17611
+    },
+    {
+        "query_id": "407_487",
+        "question": "Which language was Object 47 written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 4530
+    },
+    {
+        "query_id": "407_488",
+        "question": "Which language was Piya Basanti written in?",
+        "answers": [
+            "Hindi"
+        ],
+        "pageviews": 16544
+    },
+    {
+        "query_id": "407_489",
+        "question": "Which language was Turkish Wikipedia written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 19468
+    },
+    {
+        "query_id": "407_490",
+        "question": "Which language was Brut y Tywysogion written in?",
+        "answers": [
+            "Welsh"
+        ],
+        "pageviews": 8596
+    },
+    {
+        "query_id": "407_491",
+        "question": "Which language was Magazeta written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 737
+    },
+    {
+        "query_id": "407_492",
+        "question": "Which language was Gia written in?",
+        "answers": [
+            "Greek"
+        ],
+        "pageviews": 7191
+    },
+    {
+        "query_id": "407_493",
+        "question": "Which language was \u00a1Alarma! written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 13206
+    },
+    {
+        "query_id": "407_494",
+        "question": "Which language was Love Letters with Intent written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 1059
+    },
+    {
+        "query_id": "407_495",
+        "question": "Which language was Lioness: Hidden Treasures written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 63320
+    },
+    {
+        "query_id": "407_496",
+        "question": "Which language was Outlook written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 45910
+    },
+    {
+        "query_id": "407_497",
+        "question": "Which language was Black Sabbath written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 360732
+    },
+    {
+        "query_id": "407_499",
+        "question": "Which language was Cu\u00e9ntame written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 790
+    },
+    {
+        "query_id": "407_500",
+        "question": "Which language was Trapeze written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 3962
+    },
+    {
+        "query_id": "407_501",
+        "question": "Which language was Mes Fantaisies written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1496
+    },
+    {
+        "query_id": "407_502",
+        "question": "Which language was The Diamond Arm written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 32391
+    },
+    {
+        "query_id": "407_503",
+        "question": "Which language was Cantabile written in?",
+        "answers": [
+            "French",
+            "Danish"
+        ],
+        "pageviews": 588
+    },
+    {
+        "query_id": "407_504",
+        "question": "Which language was Ricky written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 46923
+    },
+    {
+        "query_id": "407_505",
+        "question": "Which language was Cheonsa Misonyeo written in?",
+        "answers": [
+            "Korean"
+        ],
+        "pageviews": 1145
+    },
+    {
+        "query_id": "407_506",
+        "question": "Which language was Femme lib\u00e9r\u00e9e written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 2945
+    },
+    {
+        "query_id": "407_507",
+        "question": "Which language was Wilson written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 25841
+    },
+    {
+        "query_id": "407_508",
+        "question": "Which language was 20 minutes written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 5238
+    },
+    {
+        "query_id": "407_509",
+        "question": "Which language was El Diario de Hoy written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 3837
+    },
+    {
+        "query_id": "407_510",
+        "question": "Which language was Bergens Tidende written in?",
+        "answers": [
+            "Norwegian"
+        ],
+        "pageviews": 7694
+    },
+    {
+        "query_id": "407_511",
+        "question": "Which language was Campfire written in?",
+        "answers": [
+            "Hebrew"
+        ],
+        "pageviews": 3300
+    },
+    {
+        "query_id": "407_512",
+        "question": "Which language was Look into the Eyeball written in?",
+        "answers": [
+            "English",
+            "Spanish"
+        ],
+        "pageviews": 12826
+    },
+    {
+        "query_id": "407_513",
+        "question": "Which language was Rutube written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 84147
+    },
+    {
+        "query_id": "407_514",
+        "question": "Which language was Don't Freak Me Out written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 1320
+    },
+    {
+        "query_id": "407_515",
+        "question": "Which language was Le Frunkp written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1869
+    },
+    {
+        "query_id": "407_516",
+        "question": "Which language was Live! at the Star-Club in Hamburg, Germany; 1962 written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 43623
+    },
+    {
+        "query_id": "407_517",
+        "question": "Which language was Pedro written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 40178
+    },
+    {
+        "query_id": "407_518",
+        "question": "Which language was Ekbar biday de Ma ghure ashi written in?",
+        "answers": [
+            "Bengali"
+        ],
+        "pageviews": 2231
+    },
+    {
+        "query_id": "407_519",
+        "question": "Which language was Newsweek Polska written in?",
+        "answers": [
+            "Polish"
+        ],
+        "pageviews": 5041
+    },
+    {
+        "query_id": "407_520",
+        "question": "Which language was spanish naming customs written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 224577
+    },
+    {
+        "query_id": "407_521",
+        "question": "Which language was Jours de France written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 2151
+    },
+    {
+        "query_id": "407_522",
+        "question": "Which language was Aksu written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 868
+    },
+    {
+        "query_id": "407_523",
+        "question": "Which language was Rockefeller Street written in?",
+        "answers": [
+            "Estonian"
+        ],
+        "pageviews": 5745
+    },
+    {
+        "query_id": "407_524",
+        "question": "Which language was La Ma\u00f1ana written in?",
+        "answers": [
+            "Catalan"
+        ],
+        "pageviews": 1297
+    },
+    {
+        "query_id": "407_525",
+        "question": "Which language was Punch written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 112686
+    },
+    {
+        "query_id": "407_526",
+        "question": "Which language was The Devil written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 9897
+    },
+    {
+        "query_id": "407_527",
+        "question": "Which language was Shanghai Daily written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 11480
+    },
+    {
+        "query_id": "407_528",
+        "question": "Which language was Le souvenir de ce jour written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 686
+    },
+    {
+        "query_id": "407_529",
+        "question": "Which language was \u00d6d\u00f6n written in?",
+        "answers": [
+            "Hungarian"
+        ],
+        "pageviews": 1575
+    },
+    {
+        "query_id": "407_530",
+        "question": "Which language was Real written in?",
+        "answers": [
+            "Korean"
+        ],
+        "pageviews": 11265
+    },
+    {
+        "query_id": "407_531",
+        "question": "Which language was Elvira written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 32536
+    },
+    {
+        "query_id": "407_532",
+        "question": "Which language was Elle written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 126718
+    },
+    {
+        "query_id": "407_533",
+        "question": "Which language was Policeman written in?",
+        "answers": [
+            "Hebrew"
+        ],
+        "pageviews": 11437
+    },
+    {
+        "query_id": "407_534",
+        "question": "Which language was Minhas can\u00e7\u00f5es preferidas written in?",
+        "answers": [
+            "Portuguese"
+        ],
+        "pageviews": 1481
+    },
+    {
+        "query_id": "407_535",
+        "question": "Which language was Convorbiri Literare written in?",
+        "answers": [
+            "Romanian"
+        ],
+        "pageviews": 3660
+    },
+    {
+        "query_id": "407_536",
+        "question": "Which language was El Ma\u00f1ana written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 2978
+    },
+    {
+        "query_id": "407_537",
+        "question": "Which language was Pirates of the 20th Century written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 8634
+    },
+    {
+        "query_id": "407_538",
+        "question": "Which language was Comme d'habitude written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 68345
+    },
+    {
+        "query_id": "407_539",
+        "question": "Which language was COSMODE written in?",
+        "answers": [
+            "Japanese"
+        ],
+        "pageviews": 2986
+    },
+    {
+        "query_id": "407_540",
+        "question": "Which language was Belfagor written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 4863
+    },
+    {
+        "query_id": "407_541",
+        "question": "Which language was Music in a Doll's House written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 17661
+    },
+    {
+        "query_id": "407_542",
+        "question": "Which language was The Union written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 1723
+    },
+    {
+        "query_id": "407_543",
+        "question": "Which language was Pichilemu written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 911
+    },
+    {
+        "query_id": "407_544",
+        "question": "Which language was Me Siento Tan Sola written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 7847
+    },
+    {
+        "query_id": "407_545",
+        "question": "Which language was Gaetano written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 15988
+    },
+    {
+        "query_id": "407_546",
+        "question": "Which language was The Japan Times written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 59004
+    },
+    {
+        "query_id": "407_547",
+        "question": "Which language was The Queen of Spades written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 44544
+    },
+    {
+        "query_id": "407_548",
+        "question": "Which language was L'Opinion written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 2638
+    },
+    {
+        "query_id": "407_549",
+        "question": "Which language was Si\u00e2n written in?",
+        "answers": [
+            "Welsh"
+        ],
+        "pageviews": 30081
+    },
+    {
+        "query_id": "407_551",
+        "question": "Which language was Journal of Ancient History written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 1424
+    },
+    {
+        "query_id": "407_552",
+        "question": "Which language was Remixes 81\u201304 written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 18326
+    },
+    {
+        "query_id": "407_553",
+        "question": "Which language was O\u00f9 sont-elles pass\u00e9es written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 825
+    },
+    {
+        "query_id": "407_554",
+        "question": "Which language was HuffPost written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 330283
+    },
+    {
+        "query_id": "407_556",
+        "question": "Which language was An Easy Life written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 1828
+    },
+    {
+        "query_id": "407_557",
+        "question": "Which language was Hou toch van mij written in?",
+        "answers": [
+            "Dutch"
+        ],
+        "pageviews": 902
+    },
+    {
+        "query_id": "407_558",
+        "question": "Which language was Hurr\u00e0 Juventus written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 1159
+    },
+    {
+        "query_id": "407_559",
+        "question": "Which language was Frutta e verdura written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 1265
+    },
+    {
+        "query_id": "407_560",
+        "question": "Which language was Naturen written in?",
+        "answers": [
+            "Norwegian"
+        ],
+        "pageviews": 912
+    },
+    {
+        "query_id": "407_561",
+        "question": "Which language was Pantulan Cita written in?",
+        "answers": [
+            "Indonesian"
+        ],
+        "pageviews": 947
+    },
+    {
+        "query_id": "407_562",
+        "question": "Which language was Afet written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 190
+    },
+    {
+        "query_id": "407_563",
+        "question": "Which language was Vorarlberger Nachrichten written in?",
+        "answers": [
+            "German"
+        ],
+        "pageviews": 1959
+    },
+    {
+        "query_id": "407_564",
+        "question": "Which language was Storia di un minuto written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 8986
+    },
+    {
+        "query_id": "407_565",
+        "question": "Which language was Evoluzione della specie written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 928
+    },
+    {
+        "query_id": "407_566",
+        "question": "Which language was Chacun pense \u00e0 soi written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1013
+    },
+    {
+        "query_id": "407_567",
+        "question": "Which language was Comfort y M\u00fasica Para Volar written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 6372
+    },
+    {
+        "query_id": "407_568",
+        "question": "Which language was Ukrainian Wikipedia written in?",
+        "answers": [
+            "Ukrainian"
+        ],
+        "pageviews": 25665
+    },
+    {
+        "query_id": "407_569",
+        "question": "Which language was Radio Televizija Republike Srpske written in?",
+        "answers": [
+            "Serbian"
+        ],
+        "pageviews": 7495
+    },
+    {
+        "query_id": "407_570",
+        "question": "Which language was La Revue du vin de France written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 2449
+    },
+    {
+        "query_id": "407_571",
+        "question": "Which language was When Bj\u00f6rk Met Attenborough written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 6621
+    },
+    {
+        "query_id": "407_572",
+        "question": "Which language was Breathe Out, Breathe In written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 5361
+    },
+    {
+        "query_id": "407_573",
+        "question": "Which language was Parole in circolo written in?",
+        "answers": [
+            "Italian",
+            "English"
+        ],
+        "pageviews": 1677
+    },
+    {
+        "query_id": "407_574",
+        "question": "Which language was The Edge written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 10811
+    },
+    {
+        "query_id": "407_575",
+        "question": "Which language was Rendez-vous written in?",
+        "answers": [
+            "Dutch"
+        ],
+        "pageviews": 1396
+    },
+    {
+        "query_id": "407_576",
+        "question": "Which language was Avanti Popolo written in?",
+        "answers": [
+            "Hebrew"
+        ],
+        "pageviews": 4471
+    },
+    {
+        "query_id": "407_577",
+        "question": "Which language was Liudvikas written in?",
+        "answers": [
+            "Lithuanian"
+        ],
+        "pageviews": 528
+    },
+    {
+        "query_id": "407_578",
+        "question": "Which language was Den Store Danske Encyklop\u00e6di written in?",
+        "answers": [
+            "Danish"
+        ],
+        "pageviews": 4241
+    },
+    {
+        "query_id": "407_579",
+        "question": "Which language was The Lady with the Dog written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 53809
+    },
+    {
+        "query_id": "407_580",
+        "question": "Which language was Balabhumi written in?",
+        "answers": [
+            "Malayalam"
+        ],
+        "pageviews": 6123
+    },
+    {
+        "query_id": "407_581",
+        "question": "Which language was Osian written in?",
+        "answers": [
+            "Welsh"
+        ],
+        "pageviews": 9916
+    },
+    {
+        "query_id": "407_582",
+        "question": "Which language was Kid A written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 315230
+    },
+    {
+        "query_id": "407_583",
+        "question": "Which language was A cause de l'automne written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1413
+    },
+    {
+        "query_id": "407_584",
+        "question": "Which language was Alone written in?",
+        "answers": [
+            "Croatian"
+        ],
+        "pageviews": 1920
+    },
+    {
+        "query_id": "407_585",
+        "question": "Which language was Dos Mou Ena Fili... Afto to Kalokairi written in?",
+        "answers": [
+            "Greek"
+        ],
+        "pageviews": 750
+    },
+    {
+        "query_id": "407_586",
+        "question": "Which language was Paris Match written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 32033
+    },
+    {
+        "query_id": "407_587",
+        "question": "Which language was Bengi written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 2107
+    },
+    {
+        "query_id": "407_588",
+        "question": "Which language was Iron Fist written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 56748
+    },
+    {
+        "query_id": "407_589",
+        "question": "Which language was Q\u00e9l\u00e9, Q\u00e9l\u00e9 written in?",
+        "answers": [
+            "Armenian"
+        ],
+        "pageviews": 2344
+    },
+    {
+        "query_id": "407_590",
+        "question": "Which language was White and Black Blues written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 4134
+    },
+    {
+        "query_id": "407_591",
+        "question": "Which language was Antanas written in?",
+        "answers": [
+            "Lithuanian"
+        ],
+        "pageviews": 2665
+    },
+    {
+        "query_id": "407_592",
+        "question": "Which language was Land of Oblivion written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 9786
+    },
+    {
+        "query_id": "407_593",
+        "question": "Which language was La Ondo de Esperanto written in?",
+        "answers": [
+            "Esperanto"
+        ],
+        "pageviews": 1336
+    },
+    {
+        "query_id": "407_594",
+        "question": "Which language was Brigitte written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 9004
+    },
+    {
+        "query_id": "407_595",
+        "question": "Which language was Europa Magazine written in?",
+        "answers": [
+            "Bosnian"
+        ],
+        "pageviews": 749
+    },
+    {
+        "query_id": "407_596",
+        "question": "Which language was Milenio >:v written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 10336
+    },
+    {
+        "query_id": "407_597",
+        "question": "Which language was Birds of Paradise written in?",
+        "answers": [
+            "Russian",
+            "Ukrainian"
+        ],
+        "pageviews": 2017
+    },
+    {
+        "query_id": "407_598",
+        "question": "Which language was Otello written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 77281
+    },
+    {
+        "query_id": "407_599",
+        "question": "Which language was Druga plovidba written in?",
+        "answers": [
+            "Serbian"
+        ],
+        "pageviews": 995
+    },
+    {
+        "query_id": "407_600",
+        "question": "Which language was Albina written in?",
+        "answers": [
+            "Slovene"
+        ],
+        "pageviews": 6775
+    },
+    {
+        "query_id": "407_601",
+        "question": "Which language was Fernando en Filippo written in?",
+        "answers": [
+            "Dutch"
+        ],
+        "pageviews": 1137
+    },
+    {
+        "query_id": "407_602",
+        "question": "Which language was Brothers written in?",
+        "answers": [
+            "Chinese"
+        ],
+        "pageviews": 7100
+    },
+    {
+        "query_id": "407_603",
+        "question": "Which language was L'Intransigeant written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 3665
+    },
+    {
+        "query_id": "407_604",
+        "question": "Which language was De Lange written in?",
+        "answers": [
+            "Dutch"
+        ],
+        "pageviews": 2434
+    },
+    {
+        "query_id": "407_605",
+        "question": "Which language was Khao Sod written in?",
+        "answers": [
+            "Thai"
+        ],
+        "pageviews": 4289
+    },
+    {
+        "query_id": "407_606",
+        "question": "Which language was Anastasia written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 99496
+    },
+    {
+        "query_id": "407_607",
+        "question": "Which language was Born Again written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 142790
+    },
+    {
+        "query_id": "407_608",
+        "question": "Which language was R\u00f6d written in?",
+        "answers": [
+            "Swedish"
+        ],
+        "pageviews": 3660
+    },
+    {
+        "query_id": "407_609",
+        "question": "Which language was Kashmakash written in?",
+        "answers": [
+            "Urdu"
+        ],
+        "pageviews": 133
+    },
+    {
+        "query_id": "407_610",
+        "question": "Which language was Ademar written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 4914
+    },
+    {
+        "query_id": "407_611",
+        "question": "Which language was L'Univers written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1563
+    },
+    {
+        "query_id": "407_613",
+        "question": "Which language was Hussar Ballad written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 7390
+    },
+    {
+        "query_id": "407_614",
+        "question": "Which language was Meduza written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 190919
+    },
+    {
+        "query_id": "407_615",
+        "question": "Which language was Thomas written in?",
+        "answers": [
+            "English",
+            "French"
+        ],
+        "pageviews": 21857
+    },
+    {
+        "query_id": "407_616",
+        "question": "Which language was Ljungaverk written in?",
+        "answers": [
+            "Swedish"
+        ],
+        "pageviews": 497
+    },
+    {
+        "query_id": "407_617",
+        "question": "Which language was The Last Jim written in?",
+        "answers": [
+            "Danish"
+        ],
+        "pageviews": 1117
+    },
+    {
+        "query_id": "407_618",
+        "question": "Which language was Siegfried written in?",
+        "answers": [
+            "German"
+        ],
+        "pageviews": 48344
+    },
+    {
+        "query_id": "407_619",
+        "question": "Which language was V\u00edtor written in?",
+        "answers": [
+            "Portuguese"
+        ],
+        "pageviews": 3249
+    },
+    {
+        "query_id": "407_620",
+        "question": "Which language was Come Along Now written in?",
+        "answers": [
+            "Greek"
+        ],
+        "pageviews": 1039
+    },
+    {
+        "query_id": "407_621",
+        "question": "Which language was La voce del Padrone written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "407_622",
+        "question": "Which language was De Me Stamatises written in?",
+        "answers": [
+            "Greek"
+        ],
+        "pageviews": 1297
+    },
+    {
+        "query_id": "407_623",
+        "question": "Which language was G\u00fcven\u00e7 written in?",
+        "answers": [
+            "Turkish"
+        ],
+        "pageviews": 636
+    },
+    {
+        "query_id": "407_624",
+        "question": "Which language was Magic written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1458
+    },
+    {
+        "query_id": "407_625",
+        "question": "Which language was El Propagador de la libertad written in?",
+        "answers": [
+            "Spanish"
+        ],
+        "pageviews": 440
+    },
+    {
+        "query_id": "407_626",
+        "question": "Which language was Finisterre written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 3948
+    },
+    {
+        "query_id": "407_627",
+        "question": "Which language was Don't Believe the Truth written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 98347
+    },
+    {
+        "query_id": "407_628",
+        "question": "Which language was Sing Me a Song written in?",
+        "answers": [
+            "Dutch"
+        ],
+        "pageviews": 1382
+    },
+    {
+        "query_id": "407_629",
+        "question": "Which language was Since I've Been Loving You written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 35986
+    },
+    {
+        "query_id": "407_630",
+        "question": "Which language was Det kimer nu til julefest written in?",
+        "answers": [
+            "English",
+            "Danish"
+        ],
+        "pageviews": 2135
+    },
+    {
+        "query_id": "407_631",
+        "question": "Which language was La Ficelle written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 12274
+    },
+    {
+        "query_id": "407_632",
+        "question": "Which language was France Info written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 11053
+    },
+    {
+        "query_id": "407_633",
+        "question": "Which language was We Gather Together written in?",
+        "answers": [
+            "Dutch"
+        ],
+        "pageviews": 17267
+    },
+    {
+        "query_id": "407_634",
+        "question": "Which language was Axess magasin written in?",
+        "answers": [
+            "Swedish"
+        ],
+        "pageviews": 1404
+    },
+    {
+        "query_id": "407_635",
+        "question": "Which language was Super Critical written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 8031
+    },
+    {
+        "query_id": "407_636",
+        "question": "Which language was R\u00e9alit\u00e9s written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1046
+    },
+    {
+        "query_id": "407_637",
+        "question": "Which language was Osnova written in?",
+        "answers": [
+            "Russian"
+        ],
+        "pageviews": 2472
+    },
+    {
+        "query_id": "407_638",
+        "question": "Which language was Behind the Sun written in?",
+        "answers": [
+            "English"
+        ],
+        "pageviews": 45451
+    },
+    {
+        "query_id": "407_639",
+        "question": "Which language was La Settimana Enigmistica written in?",
+        "answers": [
+            "Italian"
+        ],
+        "pageviews": 3249
+    },
+    {
+        "query_id": "407_640",
+        "question": "Which language was And Thou Shalt Love written in?",
+        "answers": [
+            "Hebrew"
+        ],
+        "pageviews": 2107
+    },
+    {
+        "query_id": "407_641",
+        "question": "Which language was \u00c0 vendre written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 1278
+    },
+    {
+        "query_id": "407_642",
+        "question": "Which language was C'est une belle journ\u00e9e written in?",
+        "answers": [
+            "French"
+        ],
+        "pageviews": 5628
+    },
+    {
+        "query_id": "407_643",
+        "question": "Which language was Matti written in?",
+        "answers": [
+            "Finnish"
+        ],
+        "pageviews": 4540
+    },
+    {
+        "query_id": "407_644",
+        "question": "Which language was Arwut Lab written in?",
+        "answers": [
+            "Thai"
+        ],
+        "pageviews": 0
+    },
+    {
+        "query_id": "407_645",
+        "question": "Which language was Zero Motivation written in?",
+        "answers": [
+            "Hebrew"
+        ],
+        "pageviews": 8657
+    }
+]

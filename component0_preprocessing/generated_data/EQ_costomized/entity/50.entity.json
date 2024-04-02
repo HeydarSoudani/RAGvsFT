@@ -1,0 +1,4977 @@
+[
+    {
+        "query_id": "50_0",
+        "wiki_title": "The Golden Gate (MacLean novel)",
+        "entity_id": "Q7737041"
+    },
+    {
+        "query_id": "50_1",
+        "wiki_title": "Books Do Furnish a Room",
+        "entity_id": "Q4943273"
+    },
+    {
+        "query_id": "50_2",
+        "wiki_title": "The Target (novel)",
+        "entity_id": "Q18786568"
+    },
+    {
+        "query_id": "50_3",
+        "wiki_title": "Pro Tullio",
+        "entity_id": "Q3922227"
+    },
+    {
+        "query_id": "50_4",
+        "wiki_title": "My Style",
+        "entity_id": "Q17053229"
+    },
+    {
+        "query_id": "50_5",
+        "wiki_title": "Ry\u016bsei no Kizuna",
+        "entity_id": "Q711166"
+    },
+    {
+        "query_id": "50_6",
+        "wiki_title": "A Profitable Position",
+        "entity_id": "Q4167340"
+    },
+    {
+        "query_id": "50_7",
+        "wiki_title": "The Secrets of Vesuvius",
+        "entity_id": "Q7763196"
+    },
+    {
+        "query_id": "50_8",
+        "wiki_title": "A Case of Two Cities",
+        "entity_id": "Q14981122"
+    },
+    {
+        "query_id": "50_9",
+        "wiki_title": "ABBA ABBA",
+        "entity_id": "Q4663627"
+    },
+    {
+        "query_id": "50_10",
+        "wiki_title": "The Innovators (book)",
+        "entity_id": "Q18389865"
+    },
+    {
+        "query_id": "50_11",
+        "wiki_title": "Eric Hermannson's Soul",
+        "entity_id": "Q5386719"
+    },
+    {
+        "query_id": "50_12",
+        "wiki_title": "Picnic (play)",
+        "entity_id": "Q4362593"
+    },
+    {
+        "query_id": "50_13",
+        "wiki_title": "Mussolini: His Part in My Downfall",
+        "entity_id": "Q6943140"
+    },
+    {
+        "query_id": "50_14",
+        "wiki_title": "The Golden Volcano",
+        "entity_id": "Q1193957"
+    },
+    {
+        "query_id": "50_15",
+        "wiki_title": "El censo",
+        "entity_id": "Q5352392"
+    },
+    {
+        "query_id": "50_16",
+        "wiki_title": "De prospectiva pingendi",
+        "entity_id": "Q3704153"
+    },
+    {
+        "query_id": "50_17",
+        "wiki_title": "For the Liberation of Brazil",
+        "entity_id": "Q5467070"
+    },
+    {
+        "query_id": "50_18",
+        "wiki_title": "A New Refutation of Time",
+        "entity_id": "Q4658536"
+    },
+    {
+        "query_id": "50_19",
+        "wiki_title": "My Beloved World",
+        "entity_id": "Q6944997"
+    },
+    {
+        "query_id": "50_20",
+        "wiki_title": "Operaci\u00f3n Masacre",
+        "entity_id": "Q7096669"
+    },
+    {
+        "query_id": "50_21",
+        "wiki_title": "Among the Barons",
+        "entity_id": "Q4747547"
+    },
+    {
+        "query_id": "50_22",
+        "wiki_title": "The Homosexual Matrix",
+        "entity_id": "Q17111030"
+    },
+    {
+        "query_id": "50_23",
+        "wiki_title": "Under the Weather (short story)",
+        "entity_id": "Q7883422"
+    },
+    {
+        "query_id": "50_24",
+        "wiki_title": "Natacha (novel)",
+        "entity_id": "Q546152"
+    },
+    {
+        "query_id": "50_25",
+        "wiki_title": "Foucault's Pendulum",
+        "entity_id": "Q437791"
+    },
+    {
+        "query_id": "50_26",
+        "wiki_title": "Dragon Age: The Stolen Throne",
+        "entity_id": "Q3715019"
+    },
+    {
+        "query_id": "50_27",
+        "wiki_title": "Nature Girl (novel)",
+        "entity_id": "Q6980915"
+    },
+    {
+        "query_id": "50_28",
+        "wiki_title": "Growing Up American",
+        "entity_id": "Q5611649"
+    },
+    {
+        "query_id": "50_29",
+        "wiki_title": "NOiSE",
+        "entity_id": "Q741904"
+    },
+    {
+        "query_id": "50_30",
+        "wiki_title": "The Big Time (novel)",
+        "entity_id": "Q3209683"
+    },
+    {
+        "query_id": "50_31",
+        "wiki_title": "Moosewood Cookbook",
+        "entity_id": "Q6908689"
+    },
+    {
+        "query_id": "50_32",
+        "wiki_title": "In Another Light",
+        "entity_id": "Q6008981"
+    },
+    {
+        "query_id": "50_33",
+        "wiki_title": "Tarantula (novel)",
+        "entity_id": "Q4120049"
+    },
+    {
+        "query_id": "50_34",
+        "wiki_title": "Romola",
+        "entity_id": "Q7363279"
+    },
+    {
+        "query_id": "50_35",
+        "wiki_title": "Frozen Assets (novel)",
+        "entity_id": "Q5506275"
+    },
+    {
+        "query_id": "50_36",
+        "wiki_title": "When Genius Failed",
+        "entity_id": "Q7992491"
+    },
+    {
+        "query_id": "50_37",
+        "wiki_title": "The Elephant of Surprise",
+        "entity_id": "Q7731768"
+    },
+    {
+        "query_id": "50_38",
+        "wiki_title": "The Birchbark House",
+        "entity_id": "Q17002301"
+    },
+    {
+        "query_id": "50_39",
+        "wiki_title": "The Life and Death of Mr Badman",
+        "entity_id": "Q13726028"
+    },
+    {
+        "query_id": "50_40",
+        "wiki_title": "Areopagitica",
+        "entity_id": "Q642635"
+    },
+    {
+        "query_id": "50_41",
+        "wiki_title": "Banquet for the Damned",
+        "entity_id": "Q18205377"
+    },
+    {
+        "query_id": "50_42",
+        "wiki_title": "Stork Naked",
+        "entity_id": "Q7620065"
+    },
+    {
+        "query_id": "50_43",
+        "wiki_title": "Two into One",
+        "entity_id": "Q7859403"
+    },
+    {
+        "query_id": "50_44",
+        "wiki_title": "Hollow City (novel)",
+        "entity_id": "Q18160256"
+    },
+    {
+        "query_id": "50_45",
+        "wiki_title": "Emile, or On Education",
+        "entity_id": "Q913599"
+    },
+    {
+        "query_id": "50_46",
+        "wiki_title": "Flashing Swords! 2",
+        "entity_id": "Q5457630"
+    },
+    {
+        "query_id": "50_47",
+        "wiki_title": "Rita Hayworth and Shawshank Redemption",
+        "entity_id": "Q968314"
+    },
+    {
+        "query_id": "50_48",
+        "wiki_title": "The Home; or, Family Cares and Family Joys",
+        "entity_id": "Q17055080"
+    },
+    {
+        "query_id": "50_49",
+        "wiki_title": "Out of the Dark (Wilton Katz novel)",
+        "entity_id": "Q7111735"
+    },
+    {
+        "query_id": "50_50",
+        "wiki_title": "Mirror in the Mirror",
+        "entity_id": "Q1197004"
+    },
+    {
+        "query_id": "50_51",
+        "wiki_title": "Time and Free Will",
+        "entity_id": "Q185825"
+    },
+    {
+        "query_id": "50_52",
+        "wiki_title": "Me and the Orgone",
+        "entity_id": "Q6803093"
+    },
+    {
+        "query_id": "50_53",
+        "wiki_title": "The Witch of Blackbird Pond",
+        "entity_id": "Q7775293"
+    },
+    {
+        "query_id": "50_54",
+        "wiki_title": "Dokaben",
+        "entity_id": "Q1152995"
+    },
+    {
+        "query_id": "50_55",
+        "wiki_title": "O dia das cal\u00e7as roladas",
+        "entity_id": "Q7073359"
+    },
+    {
+        "query_id": "50_56",
+        "wiki_title": "The Burning Room",
+        "entity_id": "Q17512458"
+    },
+    {
+        "query_id": "50_57",
+        "wiki_title": "Morgan's Passing",
+        "entity_id": "Q6911526"
+    },
+    {
+        "query_id": "50_58",
+        "wiki_title": "The Purchase of the North Pole",
+        "entity_id": "Q594139"
+    },
+    {
+        "query_id": "50_59",
+        "wiki_title": "New Rose Hotel",
+        "entity_id": "Q7011334"
+    },
+    {
+        "query_id": "50_60",
+        "wiki_title": "Come over to My House",
+        "entity_id": "Q5151346"
+    },
+    {
+        "query_id": "50_61",
+        "wiki_title": "Panic: The Story of Modern Financial Insanity",
+        "entity_id": "Q16962569"
+    },
+    {
+        "query_id": "50_62",
+        "wiki_title": "Avalon (novel)",
+        "entity_id": "Q4827557"
+    },
+    {
+        "query_id": "50_63",
+        "wiki_title": "De libero arbitrio voluntatis",
+        "entity_id": "Q1142681"
+    },
+    {
+        "query_id": "50_64",
+        "wiki_title": "The Dark Tower: Treachery",
+        "entity_id": "Q3997178"
+    },
+    {
+        "query_id": "50_65",
+        "wiki_title": "Henriade",
+        "entity_id": "Q1990294"
+    },
+    {
+        "query_id": "50_66",
+        "wiki_title": "The Jew of Malta",
+        "entity_id": "Q649741"
+    },
+    {
+        "query_id": "50_67",
+        "wiki_title": "The Crying Game (novel)",
+        "entity_id": "Q7728311"
+    },
+    {
+        "query_id": "50_68",
+        "wiki_title": "\u00dcmera j\u00f5el",
+        "entity_id": "Q8079466"
+    },
+    {
+        "query_id": "50_69",
+        "wiki_title": "Lady Mechanika",
+        "entity_id": "Q6470445"
+    },
+    {
+        "query_id": "50_70",
+        "wiki_title": "Concluding",
+        "entity_id": "Q5158723"
+    },
+    {
+        "query_id": "50_71",
+        "wiki_title": "Sefer Hasidim",
+        "entity_id": "Q7020186"
+    },
+    {
+        "query_id": "50_72",
+        "wiki_title": "Philosophy: Who Needs It",
+        "entity_id": "Q1767769"
+    },
+    {
+        "query_id": "50_73",
+        "wiki_title": "The Purity Myth",
+        "entity_id": "Q16955414"
+    },
+    {
+        "query_id": "50_74",
+        "wiki_title": "A Drunken Dream and Other Stories",
+        "entity_id": "Q4656609"
+    },
+    {
+        "query_id": "50_75",
+        "wiki_title": "The Prince and the Pauper",
+        "entity_id": "Q869725"
+    },
+    {
+        "query_id": "50_76",
+        "wiki_title": "The Spanish Tragedy",
+        "entity_id": "Q1115255"
+    },
+    {
+        "query_id": "50_77",
+        "wiki_title": "The Book of Mirdad",
+        "entity_id": "Q7719276"
+    },
+    {
+        "query_id": "50_78",
+        "wiki_title": "Last Exit to Brooklyn",
+        "entity_id": "Q1400274"
+    },
+    {
+        "query_id": "50_79",
+        "wiki_title": "Dark of the Moon: Poems of Fantasy and the Macabre",
+        "entity_id": "Q5223535"
+    },
+    {
+        "query_id": "50_80",
+        "wiki_title": "October the First Is Too Late",
+        "entity_id": "Q17017808"
+    },
+    {
+        "query_id": "50_81",
+        "wiki_title": "Keeper (Peet novel)",
+        "entity_id": "Q6383193"
+    },
+    {
+        "query_id": "50_82",
+        "wiki_title": "The Boy in the Dress (novel)",
+        "entity_id": "Q7719686"
+    },
+    {
+        "query_id": "50_83",
+        "wiki_title": "Lux Mundi (book)",
+        "entity_id": "Q6706169"
+    },
+    {
+        "query_id": "50_84",
+        "wiki_title": "The Science of Discworld III: Darwin's Watch",
+        "entity_id": "Q7027053"
+    },
+    {
+        "query_id": "50_85",
+        "wiki_title": "Bump in the Night (novel)",
+        "entity_id": "Q4997314"
+    },
+    {
+        "query_id": "50_86",
+        "wiki_title": "Sherlock Holmes's War of the Worlds",
+        "entity_id": "Q7495075"
+    },
+    {
+        "query_id": "50_87",
+        "wiki_title": "Radiant Doors",
+        "entity_id": "Q7280311"
+    },
+    {
+        "query_id": "50_88",
+        "wiki_title": "Cugel's Saga",
+        "entity_id": "Q2082630"
+    },
+    {
+        "query_id": "50_89",
+        "wiki_title": "The Saint in Trouble",
+        "entity_id": "Q7762090"
+    },
+    {
+        "query_id": "50_90",
+        "wiki_title": "The Sundering (series)",
+        "entity_id": "Q17147603"
+    },
+    {
+        "query_id": "50_91",
+        "wiki_title": "Meditations on the Life of Christ",
+        "entity_id": "Q17068793"
+    },
+    {
+        "query_id": "50_92",
+        "wiki_title": "Me and Molly",
+        "entity_id": "Q6803043"
+    },
+    {
+        "query_id": "50_93",
+        "wiki_title": "Starchild Trilogy",
+        "entity_id": "Q7601526"
+    },
+    {
+        "query_id": "50_94",
+        "wiki_title": "Fever of the Bone",
+        "entity_id": "Q5446086"
+    },
+    {
+        "query_id": "50_95",
+        "wiki_title": "Traction City (novella)",
+        "entity_id": "Q7831632"
+    },
+    {
+        "query_id": "50_96",
+        "wiki_title": "The Borrowers Afield",
+        "entity_id": "Q7719430"
+    },
+    {
+        "query_id": "50_97",
+        "wiki_title": "Abirami Antati",
+        "entity_id": "Q4667455"
+    },
+    {
+        "query_id": "50_98",
+        "wiki_title": "Abide with Me (play)",
+        "entity_id": "Q4667597"
+    },
+    {
+        "query_id": "50_99",
+        "wiki_title": "City of Djinns",
+        "entity_id": "Q5123654"
+    },
+    {
+        "query_id": "50_100",
+        "wiki_title": "Code: Version 2.0",
+        "entity_id": "Q5139971"
+    },
+    {
+        "query_id": "50_101",
+        "wiki_title": "Qwan",
+        "entity_id": "Q2747961"
+    },
+    {
+        "query_id": "50_102",
+        "wiki_title": "Oberon Old and New",
+        "entity_id": "Q7074797"
+    },
+    {
+        "query_id": "50_103",
+        "wiki_title": "Kesey's Garage Sale",
+        "entity_id": "Q4133532"
+    },
+    {
+        "query_id": "50_104",
+        "wiki_title": "Lies Across America",
+        "entity_id": "Q17069013"
+    },
+    {
+        "query_id": "50_105",
+        "wiki_title": "Karakuri Circus",
+        "entity_id": "Q1002695"
+    },
+    {
+        "query_id": "50_106",
+        "wiki_title": "A Melon for Ecstasy",
+        "entity_id": "Q4658194"
+    },
+    {
+        "query_id": "50_107",
+        "wiki_title": "New Essays on Human Understanding",
+        "entity_id": "Q2720221"
+    },
+    {
+        "query_id": "50_108",
+        "wiki_title": "Ivy Day in the Committee Room",
+        "entity_id": "Q3794210"
+    },
+    {
+        "query_id": "50_109",
+        "wiki_title": "Blue Horizon (novel)",
+        "entity_id": "Q3885894"
+    },
+    {
+        "query_id": "50_110",
+        "wiki_title": "Nigger: The Strange Career of a Troublesome Word",
+        "entity_id": "Q7033134"
+    },
+    {
+        "query_id": "50_111",
+        "wiki_title": "The Cave (play)",
+        "entity_id": "Q7721779"
+    },
+    {
+        "query_id": "50_112",
+        "wiki_title": "Ancillary Justice",
+        "entity_id": "Q17001721"
+    },
+    {
+        "query_id": "50_113",
+        "wiki_title": "Confessions of a Teenage Baboon",
+        "entity_id": "Q5160032"
+    },
+    {
+        "query_id": "50_114",
+        "wiki_title": "Sylva, or A Discourse of Forest-Trees and the Propagation of Timber",
+        "entity_id": "Q17040291"
+    },
+    {
+        "query_id": "50_115",
+        "wiki_title": "Winterset (play)",
+        "entity_id": "Q8026514"
+    },
+    {
+        "query_id": "50_116",
+        "wiki_title": "The Adding Machine",
+        "entity_id": "Q7712371"
+    },
+    {
+        "query_id": "50_117",
+        "wiki_title": "Sekirei",
+        "entity_id": "Q614495"
+    },
+    {
+        "query_id": "50_118",
+        "wiki_title": "Jin (manga)",
+        "entity_id": "Q1202742"
+    },
+    {
+        "query_id": "50_119",
+        "wiki_title": "Night Without End (novel)",
+        "entity_id": "Q7033562"
+    },
+    {
+        "query_id": "50_120",
+        "wiki_title": "Lucky Starr series",
+        "entity_id": "Q898113"
+    },
+    {
+        "query_id": "50_121",
+        "wiki_title": "The Book about Moomin, Mymble and Little My",
+        "entity_id": "Q2917639"
+    },
+    {
+        "query_id": "50_122",
+        "wiki_title": "Blackbriar (novel)",
+        "entity_id": "Q4922622"
+    },
+    {
+        "query_id": "50_123",
+        "wiki_title": "Midshipman's Hope",
+        "entity_id": "Q16387009"
+    },
+    {
+        "query_id": "50_124",
+        "wiki_title": "Bengal Tiger at the Baghdad Zoo",
+        "entity_id": "Q4887661"
+    },
+    {
+        "query_id": "50_125",
+        "wiki_title": "Forest of Secrets",
+        "entity_id": "Q1066506"
+    },
+    {
+        "query_id": "50_126",
+        "wiki_title": "Kagome Kagome (manga)",
+        "entity_id": "Q6346613"
+    },
+    {
+        "query_id": "50_127",
+        "wiki_title": "On the Razzle (play)",
+        "entity_id": "Q7091472"
+    },
+    {
+        "query_id": "50_128",
+        "wiki_title": "Ways of Seeing",
+        "entity_id": "Q14479917"
+    },
+    {
+        "query_id": "50_129",
+        "wiki_title": "She Loves Me",
+        "entity_id": "Q2277615"
+    },
+    {
+        "query_id": "50_130",
+        "wiki_title": "Dissident Gardens",
+        "entity_id": "Q15052481"
+    },
+    {
+        "query_id": "50_131",
+        "wiki_title": "The Great and Secret Show",
+        "entity_id": "Q3620668"
+    },
+    {
+        "query_id": "50_132",
+        "wiki_title": "Godland (comics)",
+        "entity_id": "Q5626782"
+    },
+    {
+        "query_id": "50_133",
+        "wiki_title": "Demon Theory",
+        "entity_id": "Q5256224"
+    },
+    {
+        "query_id": "50_134",
+        "wiki_title": "Incendies (play)",
+        "entity_id": "Q577474"
+    },
+    {
+        "query_id": "50_135",
+        "wiki_title": "Camino Real (play)",
+        "entity_id": "Q5026780"
+    },
+    {
+        "query_id": "50_136",
+        "wiki_title": "The Big Rich",
+        "entity_id": "Q7717768"
+    },
+    {
+        "query_id": "50_137",
+        "wiki_title": "The Light at Tern Rock",
+        "entity_id": "Q7747272"
+    },
+    {
+        "query_id": "50_138",
+        "wiki_title": "Sound of the Beast",
+        "entity_id": "Q7564795"
+    },
+    {
+        "query_id": "50_139",
+        "wiki_title": "Royal Exile",
+        "entity_id": "Q2246921"
+    },
+    {
+        "query_id": "50_140",
+        "wiki_title": "Business is business",
+        "entity_id": "Q195261"
+    },
+    {
+        "query_id": "50_141",
+        "wiki_title": "Cognitive Surplus",
+        "entity_id": "Q5141176"
+    },
+    {
+        "query_id": "50_142",
+        "wiki_title": "The Cay",
+        "entity_id": "Q7721796"
+    },
+    {
+        "query_id": "50_143",
+        "wiki_title": "Dharmarajyam",
+        "entity_id": "Q16960536"
+    },
+    {
+        "query_id": "50_144",
+        "wiki_title": "Heaven and Hell (Swedenborg book)",
+        "entity_id": "Q5694782"
+    },
+    {
+        "query_id": "50_145",
+        "wiki_title": "Notes on the Melody of Things",
+        "entity_id": "Q3344477"
+    },
+    {
+        "query_id": "50_146",
+        "wiki_title": "The Wallace (poem)",
+        "entity_id": "Q7712294"
+    },
+    {
+        "query_id": "50_147",
+        "wiki_title": "The Physician's Tale",
+        "entity_id": "Q3795401"
+    },
+    {
+        "query_id": "50_148",
+        "wiki_title": "In Search of the Miraculous",
+        "entity_id": "Q13582410"
+    },
+    {
+        "query_id": "50_149",
+        "wiki_title": "In My Time: A Personal and Political Memoir",
+        "entity_id": "Q6010233"
+    },
+    {
+        "query_id": "50_150",
+        "wiki_title": "Marigolds in August",
+        "entity_id": "Q6763287"
+    },
+    {
+        "query_id": "50_151",
+        "wiki_title": "Black Mischief",
+        "entity_id": "Q4921296"
+    },
+    {
+        "query_id": "50_152",
+        "wiki_title": "Night Rider (novel)",
+        "entity_id": "Q7033424"
+    },
+    {
+        "query_id": "50_153",
+        "wiki_title": "MedStar II: Jedi Healer",
+        "entity_id": "Q3122467"
+    },
+    {
+        "query_id": "50_154",
+        "wiki_title": "Asterix and the Secret Weapon",
+        "entity_id": "Q509302"
+    },
+    {
+        "query_id": "50_155",
+        "wiki_title": "Journey to the End of the Whale",
+        "entity_id": "Q6296495"
+    },
+    {
+        "query_id": "50_156",
+        "wiki_title": "Welcome to Alflolol",
+        "entity_id": "Q2901998"
+    },
+    {
+        "query_id": "50_157",
+        "wiki_title": "Knockdown (song)",
+        "entity_id": "Q3028868"
+    },
+    {
+        "query_id": "50_158",
+        "wiki_title": "Mad Dogs and Englishmen (novel)",
+        "entity_id": "Q6725951"
+    },
+    {
+        "query_id": "50_159",
+        "wiki_title": "Schilder-boeck",
+        "entity_id": "Q1157807"
+    },
+    {
+        "query_id": "50_160",
+        "wiki_title": "Star Wars: Darth Bane: Dynasty of Evil",
+        "entity_id": "Q15263258"
+    },
+    {
+        "query_id": "50_161",
+        "wiki_title": "The Strange World of Planet X",
+        "entity_id": "Q7766922"
+    },
+    {
+        "query_id": "50_162",
+        "wiki_title": "The First Man",
+        "entity_id": "Q386305"
+    },
+    {
+        "query_id": "50_163",
+        "wiki_title": "Barrayar",
+        "entity_id": "Q2419894"
+    },
+    {
+        "query_id": "50_164",
+        "wiki_title": "The Count of Monte Cristo",
+        "entity_id": "Q191838"
+    },
+    {
+        "query_id": "50_165",
+        "wiki_title": "Street Scene (play)",
+        "entity_id": "Q7622916"
+    },
+    {
+        "query_id": "50_166",
+        "wiki_title": "The Forbidden Tower",
+        "entity_id": "Q3213211"
+    },
+    {
+        "query_id": "50_167",
+        "wiki_title": "In Sunlight and in Shadow",
+        "entity_id": "Q16929772"
+    },
+    {
+        "query_id": "50_168",
+        "wiki_title": "Vera; or, The Nihilists",
+        "entity_id": "Q676180"
+    },
+    {
+        "query_id": "50_169",
+        "wiki_title": "Masterman Ready, or the Wreck of the Pacific",
+        "entity_id": "Q6785376"
+    },
+    {
+        "query_id": "50_170",
+        "wiki_title": "Illywhacker",
+        "entity_id": "Q16386250"
+    },
+    {
+        "query_id": "50_171",
+        "wiki_title": "Leaving the Atocha Station",
+        "entity_id": "Q6510788"
+    },
+    {
+        "query_id": "50_172",
+        "wiki_title": "The White Company",
+        "entity_id": "Q2297190"
+    },
+    {
+        "query_id": "50_173",
+        "wiki_title": "La Vieillesse",
+        "entity_id": "Q3213744"
+    },
+    {
+        "query_id": "50_174",
+        "wiki_title": "The Carpentered Hen and Other Tame Creatures",
+        "entity_id": "Q7721426"
+    },
+    {
+        "query_id": "50_175",
+        "wiki_title": "De Oratore",
+        "entity_id": "Q246289"
+    },
+    {
+        "query_id": "50_176",
+        "wiki_title": "How to Survive Summer Camp",
+        "entity_id": "Q16253185"
+    },
+    {
+        "query_id": "50_177",
+        "wiki_title": "The Twelve Chairs",
+        "entity_id": "Q245194"
+    },
+    {
+        "query_id": "50_178",
+        "wiki_title": "Witching Culture",
+        "entity_id": "Q8027931"
+    },
+    {
+        "query_id": "50_179",
+        "wiki_title": "The Theory of Island Biogeography",
+        "entity_id": "Q7768659"
+    },
+    {
+        "query_id": "50_180",
+        "wiki_title": "She Walks in Beauty",
+        "entity_id": "Q7492082"
+    },
+    {
+        "query_id": "50_181",
+        "wiki_title": "Fadensonnen",
+        "entity_id": "Q7797184"
+    },
+    {
+        "query_id": "50_182",
+        "wiki_title": "Trump: The Art of the Deal",
+        "entity_id": "Q7847758"
+    },
+    {
+        "query_id": "50_183",
+        "wiki_title": "Self-Made Man (book)",
+        "entity_id": "Q7447976"
+    },
+    {
+        "query_id": "50_184",
+        "wiki_title": "Mrs. Medwin",
+        "entity_id": "Q6929818"
+    },
+    {
+        "query_id": "50_185",
+        "wiki_title": "Fools Die",
+        "entity_id": "Q523914"
+    },
+    {
+        "query_id": "50_186",
+        "wiki_title": "The Man Who Knew Coolidge",
+        "entity_id": "Q16386871"
+    },
+    {
+        "query_id": "50_187",
+        "wiki_title": "The Newton Letter",
+        "entity_id": "Q16387303"
+    },
+    {
+        "query_id": "50_188",
+        "wiki_title": "See Jane Run",
+        "entity_id": "Q7445500"
+    },
+    {
+        "query_id": "50_189",
+        "wiki_title": "My Life in Orange",
+        "entity_id": "Q9032169"
+    },
+    {
+        "query_id": "50_190",
+        "wiki_title": "Wait Till Next Year",
+        "entity_id": "Q7960388"
+    },
+    {
+        "query_id": "50_191",
+        "wiki_title": "The Thirteenth Pearl",
+        "entity_id": "Q7768863"
+    },
+    {
+        "query_id": "50_192",
+        "wiki_title": "Sunlight on a Broken Column",
+        "entity_id": "Q7640506"
+    },
+    {
+        "query_id": "50_193",
+        "wiki_title": "Jommeke",
+        "entity_id": "Q280516"
+    },
+    {
+        "query_id": "50_194",
+        "wiki_title": "Orghast",
+        "entity_id": "Q7102128"
+    },
+    {
+        "query_id": "50_195",
+        "wiki_title": "Some Time Never: A Fable for Supermen",
+        "entity_id": "Q3964602"
+    },
+    {
+        "query_id": "50_196",
+        "wiki_title": "Lincoln (novel)",
+        "entity_id": "Q6550461"
+    },
+    {
+        "query_id": "50_197",
+        "wiki_title": "You Have to Be Careful in the Land of the Free",
+        "entity_id": "Q17059783"
+    },
+    {
+        "query_id": "50_198",
+        "wiki_title": "A Caribbean Mystery",
+        "entity_id": "Q729812"
+    },
+    {
+        "query_id": "50_199",
+        "wiki_title": "A Matter of Traces",
+        "entity_id": "Q4658171"
+    },
+    {
+        "query_id": "50_200",
+        "wiki_title": "The Moffats",
+        "entity_id": "Q7751901"
+    },
+    {
+        "query_id": "50_201",
+        "wiki_title": "Arcades Project",
+        "entity_id": "Q4785097"
+    },
+    {
+        "query_id": "50_202",
+        "wiki_title": "Around the Moon",
+        "entity_id": "Q1327411"
+    },
+    {
+        "query_id": "50_203",
+        "wiki_title": "Orfeu da Concei\u00e7\u00e3o",
+        "entity_id": "Q10341404"
+    },
+    {
+        "query_id": "50_204",
+        "wiki_title": "Paradise Regained",
+        "entity_id": "Q2307419"
+    },
+    {
+        "query_id": "50_205",
+        "wiki_title": "The Testament of Cresseid",
+        "entity_id": "Q3404100"
+    },
+    {
+        "query_id": "50_206",
+        "wiki_title": "Fifty Grand",
+        "entity_id": "Q5447638"
+    },
+    {
+        "query_id": "50_207",
+        "wiki_title": "Desertion (novel)",
+        "entity_id": "Q5264102"
+    },
+    {
+        "query_id": "50_208",
+        "wiki_title": "The Adventuress of Henrietta Street",
+        "entity_id": "Q7712698"
+    },
+    {
+        "query_id": "50_209",
+        "wiki_title": "Rule of Saint Augustine",
+        "entity_id": "Q644892"
+    },
+    {
+        "query_id": "50_210",
+        "wiki_title": "Zorro (novel)",
+        "entity_id": "Q2157959"
+    },
+    {
+        "query_id": "50_211",
+        "wiki_title": "The Hare with Amber Eyes",
+        "entity_id": "Q7738901"
+    },
+    {
+        "query_id": "50_212",
+        "wiki_title": "Spilt Milk (novel)",
+        "entity_id": "Q6520356"
+    },
+    {
+        "query_id": "50_213",
+        "wiki_title": "The Twelve (comics)",
+        "entity_id": "Q4001003"
+    },
+    {
+        "query_id": "50_214",
+        "wiki_title": "The Fortunes of Richard Mahony",
+        "entity_id": "Q7734903"
+    },
+    {
+        "query_id": "50_215",
+        "wiki_title": "Cujo",
+        "entity_id": "Q835739"
+    },
+    {
+        "query_id": "50_216",
+        "wiki_title": "The Conscious Mind",
+        "entity_id": "Q7727400"
+    },
+    {
+        "query_id": "50_217",
+        "wiki_title": "Jack-in-the-Box (short story)",
+        "entity_id": "Q15927243"
+    },
+    {
+        "query_id": "50_218",
+        "wiki_title": "Dream of the Red Chamber",
+        "entity_id": "Q8265"
+    },
+    {
+        "query_id": "50_219",
+        "wiki_title": "Miracle Girls",
+        "entity_id": "Q1141572"
+    },
+    {
+        "query_id": "50_220",
+        "wiki_title": "Whylah Falls",
+        "entity_id": "Q7997932"
+    },
+    {
+        "query_id": "50_221",
+        "wiki_title": "Voice of the Whirlwind",
+        "entity_id": "Q7939592"
+    },
+    {
+        "query_id": "50_222",
+        "wiki_title": "The Amazon (novella)",
+        "entity_id": "Q4122467"
+    },
+    {
+        "query_id": "50_223",
+        "wiki_title": "Unto This Last",
+        "entity_id": "Q144132"
+    },
+    {
+        "query_id": "50_224",
+        "wiki_title": "Justice, Inc.",
+        "entity_id": "Q6316827"
+    },
+    {
+        "query_id": "50_225",
+        "wiki_title": "The Mask of Cthulhu",
+        "entity_id": "Q7750514"
+    },
+    {
+        "query_id": "50_226",
+        "wiki_title": "Satanikus ENMA Kerberos",
+        "entity_id": "Q7425927"
+    },
+    {
+        "query_id": "50_227",
+        "wiki_title": "A Cry in the Night (novel)",
+        "entity_id": "Q3548501"
+    },
+    {
+        "query_id": "50_228",
+        "wiki_title": "Lucky Starr and the Oceans of Venus",
+        "entity_id": "Q666538"
+    },
+    {
+        "query_id": "50_229",
+        "wiki_title": "Killing Mr. Griffin",
+        "entity_id": "Q6407736"
+    },
+    {
+        "query_id": "50_230",
+        "wiki_title": "Frankenstein (2011 play)",
+        "entity_id": "Q3082890"
+    },
+    {
+        "query_id": "50_231",
+        "wiki_title": "Sonnet 50",
+        "entity_id": "Q3081637"
+    },
+    {
+        "query_id": "50_232",
+        "wiki_title": "Mister Pip",
+        "entity_id": "Q13377727"
+    },
+    {
+        "query_id": "50_233",
+        "wiki_title": "A Confusion of Princes",
+        "entity_id": "Q4656070"
+    },
+    {
+        "query_id": "50_234",
+        "wiki_title": "Do Not Ask What Good We Do",
+        "entity_id": "Q5286152"
+    },
+    {
+        "query_id": "50_235",
+        "wiki_title": "First Sorrow",
+        "entity_id": "Q942764"
+    },
+    {
+        "query_id": "50_236",
+        "wiki_title": "Kid (poetry collection)",
+        "entity_id": "Q16255818"
+    },
+    {
+        "query_id": "50_237",
+        "wiki_title": "The Cut Direct",
+        "entity_id": "Q7728520"
+    },
+    {
+        "query_id": "50_238",
+        "wiki_title": "The New Poetry",
+        "entity_id": "Q4118298"
+    },
+    {
+        "query_id": "50_239",
+        "wiki_title": "Wicked (Maguire novel)",
+        "entity_id": "Q1735754"
+    },
+    {
+        "query_id": "50_240",
+        "wiki_title": "Return of the Jedi (novel)",
+        "entity_id": "Q3795592"
+    },
+    {
+        "query_id": "50_241",
+        "wiki_title": "Year of Wonders",
+        "entity_id": "Q3618204"
+    },
+    {
+        "query_id": "50_242",
+        "wiki_title": "The Simpsons and Their Mathematical Secrets",
+        "entity_id": "Q16931596"
+    },
+    {
+        "query_id": "50_243",
+        "wiki_title": "Sputnik Caledonia",
+        "entity_id": "Q651466"
+    },
+    {
+        "query_id": "50_244",
+        "wiki_title": "Of Time and Space and Other Things",
+        "entity_id": "Q4328833"
+    },
+    {
+        "query_id": "50_245",
+        "wiki_title": "Black Chicks Talking",
+        "entity_id": "Q4920525"
+    },
+    {
+        "query_id": "50_246",
+        "wiki_title": "A Perfect Day for Bananafish",
+        "entity_id": "Q392849"
+    },
+    {
+        "query_id": "50_247",
+        "wiki_title": "Dark Visions",
+        "entity_id": "Q3486289"
+    },
+    {
+        "query_id": "50_248",
+        "wiki_title": "Keeping Faith",
+        "entity_id": "Q6383250"
+    },
+    {
+        "query_id": "50_249",
+        "wiki_title": "Strangers (The Walking Dead)",
+        "entity_id": "Q18285117"
+    },
+    {
+        "query_id": "50_250",
+        "wiki_title": "Cry of Morning",
+        "entity_id": "Q5190434"
+    },
+    {
+        "query_id": "50_251",
+        "wiki_title": "Doomed Queen Anne",
+        "entity_id": "Q5297089"
+    },
+    {
+        "query_id": "50_252",
+        "wiki_title": "Denkoroku",
+        "entity_id": "Q3021825"
+    },
+    {
+        "query_id": "50_253",
+        "wiki_title": "Murder and Magic",
+        "entity_id": "Q6937690"
+    },
+    {
+        "query_id": "50_254",
+        "wiki_title": "Marcella (novel)",
+        "entity_id": "Q19572911"
+    },
+    {
+        "query_id": "50_255",
+        "wiki_title": "Ciklamen",
+        "entity_id": "Q5119917"
+    },
+    {
+        "query_id": "50_256",
+        "wiki_title": "Araby (short story)",
+        "entity_id": "Q2567107"
+    },
+    {
+        "query_id": "50_257",
+        "wiki_title": "Blow Fly (novel)",
+        "entity_id": "Q2891597"
+    },
+    {
+        "query_id": "50_258",
+        "wiki_title": "The Golden Fleecing",
+        "entity_id": "Q3576811"
+    },
+    {
+        "query_id": "50_259",
+        "wiki_title": "Miss in Her Teens",
+        "entity_id": "Q6878125"
+    },
+    {
+        "query_id": "50_260",
+        "wiki_title": "Sarraceniaceae of South America",
+        "entity_id": "Q7424547"
+    },
+    {
+        "query_id": "50_261",
+        "wiki_title": "A Saucer of Loneliness",
+        "entity_id": "Q4659345"
+    },
+    {
+        "query_id": "50_262",
+        "wiki_title": "Love Ain't Nothing But Sex Misspelled",
+        "entity_id": "Q6690326"
+    },
+    {
+        "query_id": "50_263",
+        "wiki_title": "Odds On",
+        "entity_id": "Q7077532"
+    },
+    {
+        "query_id": "50_264",
+        "wiki_title": "Corpse Marker",
+        "entity_id": "Q5172598"
+    },
+    {
+        "query_id": "50_265",
+        "wiki_title": "L'Infini turbulent",
+        "entity_id": "Q3204181"
+    },
+    {
+        "query_id": "50_266",
+        "wiki_title": "Enchanted Glass",
+        "entity_id": "Q5375369"
+    },
+    {
+        "query_id": "50_267",
+        "wiki_title": "The Rape of the A*P*E*",
+        "entity_id": "Q7759430"
+    },
+    {
+        "query_id": "50_268",
+        "wiki_title": "The Cup of Fury (book)",
+        "entity_id": "Q7728411"
+    },
+    {
+        "query_id": "50_269",
+        "wiki_title": "The Game of Chess",
+        "entity_id": "Q1170229"
+    },
+    {
+        "query_id": "50_270",
+        "wiki_title": "The Bourne Deception",
+        "entity_id": "Q3224486"
+    },
+    {
+        "query_id": "50_271",
+        "wiki_title": "Return to the Field",
+        "entity_id": "Q7317352"
+    },
+    {
+        "query_id": "50_272",
+        "wiki_title": "The Government Inspector",
+        "entity_id": "Q471066"
+    },
+    {
+        "query_id": "50_273",
+        "wiki_title": "The Feast of the Goat",
+        "entity_id": "Q650314"
+    },
+    {
+        "query_id": "50_274",
+        "wiki_title": "Al Que Quiere!",
+        "entity_id": "Q4704652"
+    },
+    {
+        "query_id": "50_275",
+        "wiki_title": "Planet of Twilight",
+        "entity_id": "Q7201198"
+    },
+    {
+        "query_id": "50_276",
+        "wiki_title": "An Unfinished Life: John F. Kennedy, 1917\u20131963",
+        "entity_id": "Q4750249"
+    },
+    {
+        "query_id": "50_277",
+        "wiki_title": "Extensa",
+        "entity_id": "Q5421917"
+    },
+    {
+        "query_id": "50_278",
+        "wiki_title": "Uncle Vanya",
+        "entity_id": "Q753298"
+    },
+    {
+        "query_id": "50_279",
+        "wiki_title": "The Ascent of F6",
+        "entity_id": "Q7714643"
+    },
+    {
+        "query_id": "50_280",
+        "wiki_title": "The Pirates! in an Adventure with Whaling",
+        "entity_id": "Q7757257"
+    },
+    {
+        "query_id": "50_281",
+        "wiki_title": "Tokko (manga)",
+        "entity_id": "Q2547910"
+    },
+    {
+        "query_id": "50_282",
+        "wiki_title": "A Descent into the Maelstr\u00f6m",
+        "entity_id": "Q1658772"
+    },
+    {
+        "query_id": "50_283",
+        "wiki_title": "A Rape on Campus",
+        "entity_id": "Q18786682"
+    },
+    {
+        "query_id": "50_284",
+        "wiki_title": "Final Impact",
+        "entity_id": "Q4373835"
+    },
+    {
+        "query_id": "50_285",
+        "wiki_title": "The Sacred Flame (play)",
+        "entity_id": "Q7761969"
+    },
+    {
+        "query_id": "50_286",
+        "wiki_title": "Ugly Americans (book)",
+        "entity_id": "Q7877789"
+    },
+    {
+        "query_id": "50_287",
+        "wiki_title": "The Watchman (Crais novel)",
+        "entity_id": "Q3818601"
+    },
+    {
+        "query_id": "50_288",
+        "wiki_title": "Easy Go (novel)",
+        "entity_id": "Q5331131"
+    },
+    {
+        "query_id": "50_289",
+        "wiki_title": "The Crocodile (short story)",
+        "entity_id": "Q2032679"
+    },
+    {
+        "query_id": "50_290",
+        "wiki_title": "The Narrative of Arthur Gordon Pym of Nantucket",
+        "entity_id": "Q615383"
+    },
+    {
+        "query_id": "50_291",
+        "wiki_title": "Serenity: Better Days",
+        "entity_id": "Q7453213"
+    },
+    {
+        "query_id": "50_292",
+        "wiki_title": "Worldwar: Upsetting the Balance",
+        "entity_id": "Q8036762"
+    },
+    {
+        "query_id": "50_293",
+        "wiki_title": "Murder on the Nile",
+        "entity_id": "Q6938131"
+    },
+    {
+        "query_id": "50_294",
+        "wiki_title": "Hour Game",
+        "entity_id": "Q19364515"
+    },
+    {
+        "query_id": "50_295",
+        "wiki_title": "Great Short Novels of Adult Fantasy I",
+        "entity_id": "Q5599956"
+    },
+    {
+        "query_id": "50_296",
+        "wiki_title": "Of Love and Shadows",
+        "entity_id": "Q3415210"
+    },
+    {
+        "query_id": "50_297",
+        "wiki_title": "Tuli ja raud",
+        "entity_id": "Q7852031"
+    },
+    {
+        "query_id": "50_298",
+        "wiki_title": "Died in the Wool",
+        "entity_id": "Q5274520"
+    },
+    {
+        "query_id": "50_299",
+        "wiki_title": "Orange Is the New Black: My Year in a Women's Prison",
+        "entity_id": "Q16999771"
+    },
+    {
+        "query_id": "50_300",
+        "wiki_title": "Dead and Gone (novel)",
+        "entity_id": "Q5245459"
+    },
+    {
+        "query_id": "50_301",
+        "wiki_title": "The Gathering Storm (novel)",
+        "entity_id": "Q1824383"
+    },
+    {
+        "query_id": "50_302",
+        "wiki_title": "The Unfinished Revolution",
+        "entity_id": "Q7771451"
+    },
+    {
+        "query_id": "50_303",
+        "wiki_title": "Consolatio (Cicero)",
+        "entity_id": "Q16209168"
+    },
+    {
+        "query_id": "50_304",
+        "wiki_title": "Beachheads in Space",
+        "entity_id": "Q4875868"
+    },
+    {
+        "query_id": "50_305",
+        "wiki_title": "The History of the Standard Oil Company",
+        "entity_id": "Q7739826"
+    },
+    {
+        "query_id": "50_306",
+        "wiki_title": "God Sees the Truth, But Waits",
+        "entity_id": "Q4088983"
+    },
+    {
+        "query_id": "50_307",
+        "wiki_title": "The Long Christmas Ride Home",
+        "entity_id": "Q7748182"
+    },
+    {
+        "query_id": "50_308",
+        "wiki_title": "The Wrench",
+        "entity_id": "Q3207561"
+    },
+    {
+        "query_id": "50_309",
+        "wiki_title": "American Tabloid",
+        "entity_id": "Q959045"
+    },
+    {
+        "query_id": "50_310",
+        "wiki_title": "Morning in a Pine Forest",
+        "entity_id": "Q2666439"
+    },
+    {
+        "query_id": "50_311",
+        "wiki_title": "Dionysian Dithyrambs",
+        "entity_id": "Q3711866"
+    },
+    {
+        "query_id": "50_312",
+        "wiki_title": "The Brethren (Haggard novel)",
+        "entity_id": "Q16934303"
+    },
+    {
+        "query_id": "50_313",
+        "wiki_title": "The Haunted Storm",
+        "entity_id": "Q7739022"
+    },
+    {
+        "query_id": "50_314",
+        "wiki_title": "The Peasant Marey",
+        "entity_id": "Q2427606"
+    },
+    {
+        "query_id": "50_315",
+        "wiki_title": "Bloodchild (novel)",
+        "entity_id": "Q4927916"
+    },
+    {
+        "query_id": "50_316",
+        "wiki_title": "A Defense of Abortion",
+        "entity_id": "Q4656391"
+    },
+    {
+        "query_id": "50_317",
+        "wiki_title": "Archangel (Shinn novel)",
+        "entity_id": "Q4785569"
+    },
+    {
+        "query_id": "50_318",
+        "wiki_title": "The Secret Dreamworld of a Shopaholic",
+        "entity_id": "Q1750849"
+    },
+    {
+        "query_id": "50_319",
+        "wiki_title": "Medical Compendium in Seven Books",
+        "entity_id": "Q6806311"
+    },
+    {
+        "query_id": "50_320",
+        "wiki_title": "ECONned",
+        "entity_id": "Q5322711"
+    },
+    {
+        "query_id": "50_321",
+        "wiki_title": "The Landlady (short story)",
+        "entity_id": "Q1217594"
+    },
+    {
+        "query_id": "50_322",
+        "wiki_title": "Closed Chambers",
+        "entity_id": "Q5135320"
+    },
+    {
+        "query_id": "50_323",
+        "wiki_title": "Procedures for Underground",
+        "entity_id": "Q7247162"
+    },
+    {
+        "query_id": "50_324",
+        "wiki_title": "The Underpants",
+        "entity_id": "Q7771390"
+    },
+    {
+        "query_id": "50_325",
+        "wiki_title": "De Inventione",
+        "entity_id": "Q324590"
+    },
+    {
+        "query_id": "50_326",
+        "wiki_title": "The Water-Method Man",
+        "entity_id": "Q1219879"
+    },
+    {
+        "query_id": "50_327",
+        "wiki_title": "Sonnet 60",
+        "entity_id": "Q3081689"
+    },
+    {
+        "query_id": "50_328",
+        "wiki_title": "Dunsinane (play)",
+        "entity_id": "Q5315683"
+    },
+    {
+        "query_id": "50_329",
+        "wiki_title": "The Happy Hypocrite",
+        "entity_id": "Q3819426"
+    },
+    {
+        "query_id": "50_330",
+        "wiki_title": "Winged Victory (play)",
+        "entity_id": "Q8025172"
+    },
+    {
+        "query_id": "50_331",
+        "wiki_title": "Igrot Kodesh",
+        "entity_id": "Q2907688"
+    },
+    {
+        "query_id": "50_332",
+        "wiki_title": "Rabbi ben Ezra",
+        "entity_id": "Q763473"
+    },
+    {
+        "query_id": "50_333",
+        "wiki_title": "Good Morning, Holy Spirit",
+        "entity_id": "Q5582759"
+    },
+    {
+        "query_id": "50_334",
+        "wiki_title": "Downturn Abbey",
+        "entity_id": "Q16155424"
+    },
+    {
+        "query_id": "50_335",
+        "wiki_title": "To Each His Own (novel)",
+        "entity_id": "Q2238230"
+    },
+    {
+        "query_id": "50_336",
+        "wiki_title": "Anywhere but Here (novel)",
+        "entity_id": "Q4778395"
+    },
+    {
+        "query_id": "50_337",
+        "wiki_title": "Transients and Other Disquieting Stories",
+        "entity_id": "Q17035078"
+    },
+    {
+        "query_id": "50_338",
+        "wiki_title": "The Horror at Red Hook",
+        "entity_id": "Q3819704"
+    },
+    {
+        "query_id": "50_339",
+        "wiki_title": "The Sigma Protocol",
+        "entity_id": "Q3226040"
+    },
+    {
+        "query_id": "50_340",
+        "wiki_title": "Resurrection Day",
+        "entity_id": "Q7316533"
+    },
+    {
+        "query_id": "50_341",
+        "wiki_title": "The Android's Dream",
+        "entity_id": "Q7713709"
+    },
+    {
+        "query_id": "50_342",
+        "wiki_title": "Effi Briest",
+        "entity_id": "Q1296168"
+    },
+    {
+        "query_id": "50_343",
+        "wiki_title": "Void Indigo",
+        "entity_id": "Q7939749"
+    },
+    {
+        "query_id": "50_344",
+        "wiki_title": "The Last Enchantment",
+        "entity_id": "Q2913897"
+    },
+    {
+        "query_id": "50_345",
+        "wiki_title": "Fantastic Four",
+        "entity_id": "Q152098"
+    },
+    {
+        "query_id": "50_346",
+        "wiki_title": "Ruhnama",
+        "entity_id": "Q125469"
+    },
+    {
+        "query_id": "50_347",
+        "wiki_title": "On-Line Encyclopedia of Integer Sequences",
+        "entity_id": "Q728415"
+    },
+    {
+        "query_id": "50_348",
+        "wiki_title": "Shadows Return",
+        "entity_id": "Q7460793"
+    },
+    {
+        "query_id": "50_349",
+        "wiki_title": "The Sweetest Fig",
+        "entity_id": "Q7767638"
+    },
+    {
+        "query_id": "50_350",
+        "wiki_title": "The Merry Men and Other Tales and Fables",
+        "entity_id": "Q3232887"
+    },
+    {
+        "query_id": "50_351",
+        "wiki_title": "The Rhinemann Exchange",
+        "entity_id": "Q7760606"
+    },
+    {
+        "query_id": "50_352",
+        "wiki_title": "The Legend of the Emerald Lady",
+        "entity_id": "Q7746817"
+    },
+    {
+        "query_id": "50_353",
+        "wiki_title": "Touch the Dark",
+        "entity_id": "Q7828657"
+    },
+    {
+        "query_id": "50_354",
+        "wiki_title": "The Silver Spike",
+        "entity_id": "Q3211778"
+    },
+    {
+        "query_id": "50_355",
+        "wiki_title": "Timescape",
+        "entity_id": "Q2894715"
+    },
+    {
+        "query_id": "50_356",
+        "wiki_title": "A Calculus of Angels",
+        "entity_id": "Q13512157"
+    },
+    {
+        "query_id": "50_357",
+        "wiki_title": "Chloridia",
+        "entity_id": "Q5102941"
+    },
+    {
+        "query_id": "50_358",
+        "wiki_title": "Children of Zion",
+        "entity_id": "Q5098511"
+    },
+    {
+        "query_id": "50_359",
+        "wiki_title": "Trait\u00e9 de Documentation",
+        "entity_id": "Q7833050"
+    },
+    {
+        "query_id": "50_360",
+        "wiki_title": "The Balcony",
+        "entity_id": "Q3026044"
+    },
+    {
+        "query_id": "50_361",
+        "wiki_title": "The Good Doctor (play)",
+        "entity_id": "Q7737205"
+    },
+    {
+        "query_id": "50_362",
+        "wiki_title": "Mantrap (novel)",
+        "entity_id": "Q6752204"
+    },
+    {
+        "query_id": "50_363",
+        "wiki_title": "Honor Among Enemies",
+        "entity_id": "Q3297215"
+    },
+    {
+        "query_id": "50_364",
+        "wiki_title": "Treehorn's Treasure",
+        "entity_id": "Q16965303"
+    },
+    {
+        "query_id": "50_365",
+        "wiki_title": "Cyteen",
+        "entity_id": "Q356107"
+    },
+    {
+        "query_id": "50_366",
+        "wiki_title": "Playing for Pizza",
+        "entity_id": "Q1577004"
+    },
+    {
+        "query_id": "50_367",
+        "wiki_title": "Catechism of a Revolutionary",
+        "entity_id": "Q4217366"
+    },
+    {
+        "query_id": "50_368",
+        "wiki_title": "Perceiving God",
+        "entity_id": "Q7166988"
+    },
+    {
+        "query_id": "50_369",
+        "wiki_title": "Don't Be Such a Scientist",
+        "entity_id": "Q5291450"
+    },
+    {
+        "query_id": "50_370",
+        "wiki_title": "The Saint on TV",
+        "entity_id": "Q7762096"
+    },
+    {
+        "query_id": "50_371",
+        "wiki_title": "Dragonlance Chronicles",
+        "entity_id": "Q3828655"
+    },
+    {
+        "query_id": "50_372",
+        "wiki_title": "The Member of the Wedding",
+        "entity_id": "Q1440585"
+    },
+    {
+        "query_id": "50_373",
+        "wiki_title": "Fairy Tales (Jones book)",
+        "entity_id": "Q5430994"
+    },
+    {
+        "query_id": "50_374",
+        "wiki_title": "Fazail-e-Amaal",
+        "entity_id": "Q752073"
+    },
+    {
+        "query_id": "50_375",
+        "wiki_title": "One of the Family",
+        "entity_id": "Q7093569"
+    },
+    {
+        "query_id": "50_376",
+        "wiki_title": "Blast from the Past (novel)",
+        "entity_id": "Q4925388"
+    },
+    {
+        "query_id": "50_377",
+        "wiki_title": "The Reluctant Dragon (short story)",
+        "entity_id": "Q16254942"
+    },
+    {
+        "query_id": "50_378",
+        "wiki_title": "Scarlet Feather",
+        "entity_id": "Q7430432"
+    },
+    {
+        "query_id": "50_379",
+        "wiki_title": "Black Like Me",
+        "entity_id": "Q2740773"
+    },
+    {
+        "query_id": "50_380",
+        "wiki_title": "A Dictionary of Slang and Unconventional English",
+        "entity_id": "Q4656434"
+    },
+    {
+        "query_id": "50_381",
+        "wiki_title": "The Return of John MacNab",
+        "entity_id": "Q7760409"
+    },
+    {
+        "query_id": "50_382",
+        "wiki_title": "Mermaid Melody Pichi Pichi Pitch",
+        "entity_id": "Q275953"
+    },
+    {
+        "query_id": "50_383",
+        "wiki_title": "The Treasure of Vaghia",
+        "entity_id": "Q17102206"
+    },
+    {
+        "query_id": "50_384",
+        "wiki_title": "Shadows over Innsmouth",
+        "entity_id": "Q7460791"
+    },
+    {
+        "query_id": "50_385",
+        "wiki_title": "The Emperor's Children",
+        "entity_id": "Q7731914"
+    },
+    {
+        "query_id": "50_386",
+        "wiki_title": "The 480",
+        "entity_id": "Q7711919"
+    },
+    {
+        "query_id": "50_387",
+        "wiki_title": "The Sword of Moses (novel)",
+        "entity_id": "Q15615818"
+    },
+    {
+        "query_id": "50_388",
+        "wiki_title": "Cadillac Desert",
+        "entity_id": "Q5016473"
+    },
+    {
+        "query_id": "50_389",
+        "wiki_title": "K\u00e4vik the Wolf Dog",
+        "entity_id": "Q6453533"
+    },
+    {
+        "query_id": "50_390",
+        "wiki_title": "Monstrous Regiment (novel)",
+        "entity_id": "Q1637773"
+    },
+    {
+        "query_id": "50_391",
+        "wiki_title": "Death of the New Gods",
+        "entity_id": "Q5247600"
+    },
+    {
+        "query_id": "50_392",
+        "wiki_title": "Closer (play)",
+        "entity_id": "Q379913"
+    },
+    {
+        "query_id": "50_393",
+        "wiki_title": "Shadow Country",
+        "entity_id": "Q7460489"
+    },
+    {
+        "query_id": "50_394",
+        "wiki_title": "Dragons of Light",
+        "entity_id": "Q5305430"
+    },
+    {
+        "query_id": "50_395",
+        "wiki_title": "The Smile That Wins",
+        "entity_id": "Q7764907"
+    },
+    {
+        "query_id": "50_396",
+        "wiki_title": "The Fox Effect",
+        "entity_id": "Q7735095"
+    },
+    {
+        "query_id": "50_397",
+        "wiki_title": "The Cattle King",
+        "entity_id": "Q17056309"
+    },
+    {
+        "query_id": "50_398",
+        "wiki_title": "Sir Percy Leads the Band",
+        "entity_id": "Q16167521"
+    },
+    {
+        "query_id": "50_399",
+        "wiki_title": "Pyrrhus and Cineas",
+        "entity_id": "Q3411417"
+    },
+    {
+        "query_id": "50_400",
+        "wiki_title": "The Anxiety of Influence",
+        "entity_id": "Q451314"
+    },
+    {
+        "query_id": "50_401",
+        "wiki_title": "Voyage d'Egypte et de Nubie",
+        "entity_id": "Q7942406"
+    },
+    {
+        "query_id": "50_402",
+        "wiki_title": "Crossroads of Twilight",
+        "entity_id": "Q2235177"
+    },
+    {
+        "query_id": "50_403",
+        "wiki_title": "The Monk",
+        "entity_id": "Q2659564"
+    },
+    {
+        "query_id": "50_404",
+        "wiki_title": "The Midas Coffin",
+        "entity_id": "Q18393453"
+    },
+    {
+        "query_id": "50_405",
+        "wiki_title": "Mother London",
+        "entity_id": "Q6917380"
+    },
+    {
+        "query_id": "50_406",
+        "wiki_title": "Cat Among the Pigeons",
+        "entity_id": "Q914197"
+    },
+    {
+        "query_id": "50_407",
+        "wiki_title": "Warbreaker",
+        "entity_id": "Q13403351"
+    },
+    {
+        "query_id": "50_408",
+        "wiki_title": "Darah Muda",
+        "entity_id": "Q5222044"
+    },
+    {
+        "query_id": "50_409",
+        "wiki_title": "The Ballad of East and West",
+        "entity_id": "Q7715415"
+    },
+    {
+        "query_id": "50_410",
+        "wiki_title": "The Sweetest Dream",
+        "entity_id": "Q7767637"
+    },
+    {
+        "query_id": "50_411",
+        "wiki_title": "Earthquakes in London",
+        "entity_id": "Q5327289"
+    },
+    {
+        "query_id": "50_412",
+        "wiki_title": "A Disappearing Number",
+        "entity_id": "Q4656486"
+    },
+    {
+        "query_id": "50_413",
+        "wiki_title": "The Seven Storey Mountain",
+        "entity_id": "Q7763461"
+    },
+    {
+        "query_id": "50_414",
+        "wiki_title": "Hocus Bogus",
+        "entity_id": "Q3409602"
+    },
+    {
+        "query_id": "50_415",
+        "wiki_title": "Liezi",
+        "entity_id": "Q434429"
+    },
+    {
+        "query_id": "50_416",
+        "wiki_title": "Un gentilhomme",
+        "entity_id": "Q2484279"
+    },
+    {
+        "query_id": "50_417",
+        "wiki_title": "The Eight of Swords",
+        "entity_id": "Q7731657"
+    },
+    {
+        "query_id": "50_418",
+        "wiki_title": "Trek to Madworld",
+        "entity_id": "Q7837949"
+    },
+    {
+        "query_id": "50_419",
+        "wiki_title": "Bibliotheca Botanica",
+        "entity_id": "Q856421"
+    },
+    {
+        "query_id": "50_420",
+        "wiki_title": "Hollywood (Vidal novel)",
+        "entity_id": "Q5882568"
+    },
+    {
+        "query_id": "50_421",
+        "wiki_title": "The Translator's Invisibility",
+        "entity_id": "Q16955965"
+    },
+    {
+        "query_id": "50_422",
+        "wiki_title": "The Killer Angels",
+        "entity_id": "Q3521472"
+    },
+    {
+        "query_id": "50_423",
+        "wiki_title": "Gravity's Rainbow",
+        "entity_id": "Q1212160"
+    },
+    {
+        "query_id": "50_424",
+        "wiki_title": "The Eighteenth Brumaire of Louis Bonaparte",
+        "entity_id": "Q1198259"
+    },
+    {
+        "query_id": "50_425",
+        "wiki_title": "Tape (play)",
+        "entity_id": "Q7684489"
+    },
+    {
+        "query_id": "50_426",
+        "wiki_title": "Sergeant Chip",
+        "entity_id": "Q7453381"
+    },
+    {
+        "query_id": "50_427",
+        "wiki_title": "The Dybbuk",
+        "entity_id": "Q2915504"
+    },
+    {
+        "query_id": "50_428",
+        "wiki_title": "Defence of the Seven Sacraments",
+        "entity_id": "Q743848"
+    },
+    {
+        "query_id": "50_429",
+        "wiki_title": "The Captain of K\u00f6penick (play)",
+        "entity_id": "Q7721293"
+    },
+    {
+        "query_id": "50_430",
+        "wiki_title": "Fragmento preliminar al estudio del derecho",
+        "entity_id": "Q16385738"
+    },
+    {
+        "query_id": "50_431",
+        "wiki_title": "The Royal Pain",
+        "entity_id": "Q7761715"
+    },
+    {
+        "query_id": "50_432",
+        "wiki_title": "A River Runs Through It (novel)",
+        "entity_id": "Q14686969"
+    },
+    {
+        "query_id": "50_433",
+        "wiki_title": "Granny Made Me an Anarchist",
+        "entity_id": "Q4884659"
+    },
+    {
+        "query_id": "50_434",
+        "wiki_title": "The Last Resort (novel)",
+        "entity_id": "Q16203446"
+    },
+    {
+        "query_id": "50_435",
+        "wiki_title": "The Sheik (novel)",
+        "entity_id": "Q2743585"
+    },
+    {
+        "query_id": "50_436",
+        "wiki_title": "Torment (novel)",
+        "entity_id": "Q3281481"
+    },
+    {
+        "query_id": "50_437",
+        "wiki_title": "The Illustrated Mum",
+        "entity_id": "Q7741422"
+    },
+    {
+        "query_id": "50_438",
+        "wiki_title": "Twenty Cases Suggestive of Reincarnation",
+        "entity_id": "Q3234181"
+    },
+    {
+        "query_id": "50_439",
+        "wiki_title": "Kryptonite (story arc)",
+        "entity_id": "Q3504724"
+    },
+    {
+        "query_id": "50_440",
+        "wiki_title": "The Constant Nymph (1943 film)",
+        "entity_id": "Q2756539"
+    },
+    {
+        "query_id": "50_441",
+        "wiki_title": "The Gospel of Filth",
+        "entity_id": "Q3001981"
+    },
+    {
+        "query_id": "50_442",
+        "wiki_title": "Who I Am (book)",
+        "entity_id": "Q7997259"
+    },
+    {
+        "query_id": "50_443",
+        "wiki_title": "Humanist Manifesto II",
+        "entity_id": "Q4128145"
+    },
+    {
+        "query_id": "50_444",
+        "wiki_title": "Grits (novel)",
+        "entity_id": "Q16385883"
+    },
+    {
+        "query_id": "50_445",
+        "wiki_title": "Janissaries III: Storms of Victory",
+        "entity_id": "Q6154667"
+    },
+    {
+        "query_id": "50_446",
+        "wiki_title": "Star Songs of an Old Primate",
+        "entity_id": "Q7600901"
+    },
+    {
+        "query_id": "50_447",
+        "wiki_title": "To Write Like a Woman",
+        "entity_id": "Q17014114"
+    },
+    {
+        "query_id": "50_448",
+        "wiki_title": "I'm Feeling Lucky (book)",
+        "entity_id": "Q5966237"
+    },
+    {
+        "query_id": "50_449",
+        "wiki_title": "The Song of the Stormy Petrel",
+        "entity_id": "Q4359807"
+    },
+    {
+        "query_id": "50_450",
+        "wiki_title": "Let's Take the Long Way Home",
+        "entity_id": "Q17112502"
+    },
+    {
+        "query_id": "50_451",
+        "wiki_title": "The Reich Chancellery and F\u00fchrerbunker Complex",
+        "entity_id": "Q7760076"
+    },
+    {
+        "query_id": "50_452",
+        "wiki_title": "The Three Sui Quash the Demons' Revolt",
+        "entity_id": "Q10866938"
+    },
+    {
+        "query_id": "50_453",
+        "wiki_title": "Shantata! Court Chalu Aahe",
+        "entity_id": "Q7489040"
+    },
+    {
+        "query_id": "50_454",
+        "wiki_title": "Reflections in Bullough's Pond",
+        "entity_id": "Q7307291"
+    },
+    {
+        "query_id": "50_455",
+        "wiki_title": "Ah! Sun-flower",
+        "entity_id": "Q4694839"
+    },
+    {
+        "query_id": "50_456",
+        "wiki_title": "History, Labour, and Freedom",
+        "entity_id": "Q5774588"
+    },
+    {
+        "query_id": "50_457",
+        "wiki_title": "Prayers for Rain",
+        "entity_id": "Q3406116"
+    },
+    {
+        "query_id": "50_458",
+        "wiki_title": "The Lords of Discipline",
+        "entity_id": "Q3513423"
+    },
+    {
+        "query_id": "50_459",
+        "wiki_title": "How I Paid for College",
+        "entity_id": "Q5917827"
+    },
+    {
+        "query_id": "50_460",
+        "wiki_title": "The Indian Princess (play)",
+        "entity_id": "Q7741866"
+    },
+    {
+        "query_id": "50_461",
+        "wiki_title": "The Year's Best Fantasy Stories",
+        "entity_id": "Q7776518"
+    },
+    {
+        "query_id": "50_462",
+        "wiki_title": "Negotiating with the Dead",
+        "entity_id": "Q6987436"
+    },
+    {
+        "query_id": "50_463",
+        "wiki_title": "The Premature Burial",
+        "entity_id": "Q2086517"
+    },
+    {
+        "query_id": "50_464",
+        "wiki_title": "Handbuch des Schachspiels",
+        "entity_id": "Q369324"
+    },
+    {
+        "query_id": "50_465",
+        "wiki_title": "The Guns of Navarone (novel)",
+        "entity_id": "Q2631705"
+    },
+    {
+        "query_id": "50_466",
+        "wiki_title": "Letty Fox: Her Luck",
+        "entity_id": "Q6533881"
+    },
+    {
+        "query_id": "50_467",
+        "wiki_title": "Aristotle (children's book)",
+        "entity_id": "Q4791094"
+    },
+    {
+        "query_id": "50_468",
+        "wiki_title": "Jixiao Xinshu",
+        "entity_id": "Q956915"
+    },
+    {
+        "query_id": "50_469",
+        "wiki_title": "Lust for Justice",
+        "entity_id": "Q6705268"
+    },
+    {
+        "query_id": "50_470",
+        "wiki_title": "Marnie (novel)",
+        "entity_id": "Q6772232"
+    },
+    {
+        "query_id": "50_471",
+        "wiki_title": "Tom and Jerry, or Life in London",
+        "entity_id": "Q4460114"
+    },
+    {
+        "query_id": "50_472",
+        "wiki_title": "Blackstone Chronicles",
+        "entity_id": "Q4923403"
+    },
+    {
+        "query_id": "50_473",
+        "wiki_title": "Speed Tribes",
+        "entity_id": "Q7575517"
+    },
+    {
+        "query_id": "50_474",
+        "wiki_title": "The Calcutta Quran Petition",
+        "entity_id": "Q7720954"
+    },
+    {
+        "query_id": "50_475",
+        "wiki_title": "Pamphilia to Amphilanthus",
+        "entity_id": "Q7129420"
+    },
+    {
+        "query_id": "50_476",
+        "wiki_title": "Laughter (book)",
+        "entity_id": "Q2919955"
+    },
+    {
+        "query_id": "50_477",
+        "wiki_title": "Bird Neighbors",
+        "entity_id": "Q4915885"
+    },
+    {
+        "query_id": "50_478",
+        "wiki_title": "A Good Man Is Hard to Find and Other Stories",
+        "entity_id": "Q4657121"
+    },
+    {
+        "query_id": "50_479",
+        "wiki_title": "The Balloon-Hoax",
+        "entity_id": "Q3112607"
+    },
+    {
+        "query_id": "50_480",
+        "wiki_title": "World's Best Science Fiction: 1965",
+        "entity_id": "Q8035193"
+    },
+    {
+        "query_id": "50_481",
+        "wiki_title": "The Architecture of the Arkansas Ozarks",
+        "entity_id": "Q17148694"
+    },
+    {
+        "query_id": "50_482",
+        "wiki_title": "The Finer Points of Sausage Dogs",
+        "entity_id": "Q7733978"
+    },
+    {
+        "query_id": "50_483",
+        "wiki_title": "Orca (novel)",
+        "entity_id": "Q7100150"
+    },
+    {
+        "query_id": "50_484",
+        "wiki_title": "Facetiae",
+        "entity_id": "Q4481574"
+    },
+    {
+        "query_id": "50_485",
+        "wiki_title": "Peacemaker (novel)",
+        "entity_id": "Q7157601"
+    },
+    {
+        "query_id": "50_486",
+        "wiki_title": "Witch Baby",
+        "entity_id": "Q8027830"
+    },
+    {
+        "query_id": "50_487",
+        "wiki_title": "Knuffle Bunny Too",
+        "entity_id": "Q6423832"
+    },
+    {
+        "query_id": "50_488",
+        "wiki_title": "Popular Music from Vittula",
+        "entity_id": "Q491835"
+    },
+    {
+        "query_id": "50_489",
+        "wiki_title": "Floating in My Mother's Palm",
+        "entity_id": "Q8563851"
+    },
+    {
+        "query_id": "50_490",
+        "wiki_title": "The Shoes of the Fisherman (film)",
+        "entity_id": "Q1660701"
+    },
+    {
+        "query_id": "50_491",
+        "wiki_title": "Sunset Park (novel)",
+        "entity_id": "Q1322083"
+    },
+    {
+        "query_id": "50_492",
+        "wiki_title": "The Forest House",
+        "entity_id": "Q735979"
+    },
+    {
+        "query_id": "50_493",
+        "wiki_title": "Part of the Furniture",
+        "entity_id": "Q7140156"
+    },
+    {
+        "query_id": "50_494",
+        "wiki_title": "October Sky (book)",
+        "entity_id": "Q3437946"
+    },
+    {
+        "query_id": "50_495",
+        "wiki_title": "The Moth and the Star",
+        "entity_id": "Q7752406"
+    },
+    {
+        "query_id": "50_496",
+        "wiki_title": "The Clue of the Whistling Bagpipes",
+        "entity_id": "Q7726504"
+    },
+    {
+        "query_id": "50_497",
+        "wiki_title": "Double Solitaire",
+        "entity_id": "Q5299884"
+    },
+    {
+        "query_id": "50_498",
+        "wiki_title": "The Green Collar Economy",
+        "entity_id": "Q5805144"
+    },
+    {
+        "query_id": "50_499",
+        "wiki_title": "The Curious Savage",
+        "entity_id": "Q4443357"
+    },
+    {
+        "query_id": "50_500",
+        "wiki_title": "The Devil's Cinema",
+        "entity_id": "Q7729901"
+    },
+    {
+        "query_id": "50_501",
+        "wiki_title": "Kalki (novel)",
+        "entity_id": "Q6353404"
+    },
+    {
+        "query_id": "50_502",
+        "wiki_title": "Mrs. Eckdorf in O'Neill's Hotel",
+        "entity_id": "Q16387156"
+    },
+    {
+        "query_id": "50_503",
+        "wiki_title": "Dragon's Kin",
+        "entity_id": "Q3210059"
+    },
+    {
+        "query_id": "50_504",
+        "wiki_title": "When the Legends Die",
+        "entity_id": "Q7992996"
+    },
+    {
+        "query_id": "50_505",
+        "wiki_title": "Ang Paboritong Libro ni Hudas",
+        "entity_id": "Q4761859"
+    },
+    {
+        "query_id": "50_506",
+        "wiki_title": "The Long Shadow (Cleary novel)",
+        "entity_id": "Q7748269"
+    },
+    {
+        "query_id": "50_507",
+        "wiki_title": "The Wonderful Country",
+        "entity_id": "Q7775657"
+    },
+    {
+        "query_id": "50_508",
+        "wiki_title": "Twelve (novel)",
+        "entity_id": "Q7857576"
+    },
+    {
+        "query_id": "50_509",
+        "wiki_title": "Apex Hides the Hurt",
+        "entity_id": "Q4779422"
+    },
+    {
+        "query_id": "50_510",
+        "wiki_title": "The Hardy Boys",
+        "entity_id": "Q1471089"
+    },
+    {
+        "query_id": "50_511",
+        "wiki_title": "Writing Drama",
+        "entity_id": "Q3208377"
+    },
+    {
+        "query_id": "50_512",
+        "wiki_title": "The Birth of Venus (novel)",
+        "entity_id": "Q7718130"
+    },
+    {
+        "query_id": "50_513",
+        "wiki_title": "The Witch of Hebron",
+        "entity_id": "Q7775297"
+    },
+    {
+        "query_id": "50_514",
+        "wiki_title": "The Rise of Silas Lapham",
+        "entity_id": "Q7760892"
+    },
+    {
+        "query_id": "50_515",
+        "wiki_title": "The Moon of Much Gladness",
+        "entity_id": "Q7752176"
+    },
+    {
+        "query_id": "50_516",
+        "wiki_title": "The Mohole Mystery",
+        "entity_id": "Q7751905"
+    },
+    {
+        "query_id": "50_517",
+        "wiki_title": "Early Autumn",
+        "entity_id": "Q5326592"
+    },
+    {
+        "query_id": "50_518",
+        "wiki_title": "Wolfskin (comics)",
+        "entity_id": "Q8030208"
+    },
+    {
+        "query_id": "50_519",
+        "wiki_title": "The Two Hotel Francforts",
+        "entity_id": "Q19364485"
+    },
+    {
+        "query_id": "50_520",
+        "wiki_title": "Fath al-Bari",
+        "entity_id": "Q2829212"
+    },
+    {
+        "query_id": "50_521",
+        "wiki_title": "Echoes of Valor II",
+        "entity_id": "Q5332802"
+    },
+    {
+        "query_id": "50_522",
+        "wiki_title": "Hecale (poem)",
+        "entity_id": "Q3718819"
+    },
+    {
+        "query_id": "50_523",
+        "wiki_title": "Murder in Grub Street",
+        "entity_id": "Q6937745"
+    },
+    {
+        "query_id": "50_524",
+        "wiki_title": "Largo Winch",
+        "entity_id": "Q727911"
+    },
+    {
+        "query_id": "50_525",
+        "wiki_title": "The Haunter of the Dark",
+        "entity_id": "Q3818169"
+    },
+    {
+        "query_id": "50_526",
+        "wiki_title": "Mr. Monk Goes to Hawaii",
+        "entity_id": "Q6928949"
+    },
+    {
+        "query_id": "50_527",
+        "wiki_title": "Crowds and Power",
+        "entity_id": "Q1684885"
+    },
+    {
+        "query_id": "50_528",
+        "wiki_title": "Malice (series)",
+        "entity_id": "Q16950335"
+    },
+    {
+        "query_id": "50_529",
+        "wiki_title": "Destiny, or The Attraction of Affinities",
+        "entity_id": "Q5265235"
+    },
+    {
+        "query_id": "50_530",
+        "wiki_title": "A Shoemaker a Gentleman",
+        "entity_id": "Q4659452"
+    },
+    {
+        "query_id": "50_531",
+        "wiki_title": "Time Zero",
+        "entity_id": "Q7805231"
+    },
+    {
+        "query_id": "50_532",
+        "wiki_title": "WildC.A.T.s/Aliens",
+        "entity_id": "Q8000440"
+    },
+    {
+        "query_id": "50_533",
+        "wiki_title": "The Far Hills",
+        "entity_id": "Q7733410"
+    },
+    {
+        "query_id": "50_534",
+        "wiki_title": "Bard: The Odyssey of the Irish",
+        "entity_id": "Q3818983"
+    },
+    {
+        "query_id": "50_535",
+        "wiki_title": "Yakari",
+        "entity_id": "Q1516219"
+    },
+    {
+        "query_id": "50_536",
+        "wiki_title": "The Well-Mannered War",
+        "entity_id": "Q7774195"
+    },
+    {
+        "query_id": "50_537",
+        "wiki_title": "This Is My God",
+        "entity_id": "Q7785875"
+    },
+    {
+        "query_id": "50_538",
+        "wiki_title": "Monadology",
+        "entity_id": "Q1211539"
+    },
+    {
+        "query_id": "50_539",
+        "wiki_title": "The Pirate (short story)",
+        "entity_id": "Q7757249"
+    },
+    {
+        "query_id": "50_541",
+        "wiki_title": "She Returns to the Floating World",
+        "entity_id": "Q7492043"
+    },
+    {
+        "query_id": "50_542",
+        "wiki_title": "Ressurrei\u00e7\u00e3o",
+        "entity_id": "Q7316030"
+    },
+    {
+        "query_id": "50_543",
+        "wiki_title": "Words and Music (play)",
+        "entity_id": "Q12811982"
+    },
+    {
+        "query_id": "50_544",
+        "wiki_title": "A Good Woman (novel)",
+        "entity_id": "Q4657135"
+    },
+    {
+        "query_id": "50_545",
+        "wiki_title": "Writing with Intent",
+        "entity_id": "Q8038547"
+    },
+    {
+        "query_id": "50_546",
+        "wiki_title": "Night Game (novel)",
+        "entity_id": "Q16957878"
+    },
+    {
+        "query_id": "50_547",
+        "wiki_title": "Smirt",
+        "entity_id": "Q7544810"
+    },
+    {
+        "query_id": "50_548",
+        "wiki_title": "Lawless and Tilley series",
+        "entity_id": "Q6503634"
+    },
+    {
+        "query_id": "50_549",
+        "wiki_title": "Metroland (novel)",
+        "entity_id": "Q4784"
+    },
+    {
+        "query_id": "50_550",
+        "wiki_title": "Zanoni",
+        "entity_id": "Q1444644"
+    },
+    {
+        "query_id": "50_551",
+        "wiki_title": "The Trip to Bountiful (play)",
+        "entity_id": "Q16985794"
+    },
+    {
+        "query_id": "50_552",
+        "wiki_title": "Leonardo's Mountain of Clams and the Diet of Worms",
+        "entity_id": "Q3790828"
+    },
+    {
+        "query_id": "50_553",
+        "wiki_title": "Finished (novel)",
+        "entity_id": "Q5450349"
+    },
+    {
+        "query_id": "50_554",
+        "wiki_title": "Merton of the Movies (1924 film)",
+        "entity_id": "Q6820740"
+    },
+    {
+        "query_id": "50_555",
+        "wiki_title": "Across the Universe (Star Trek)",
+        "entity_id": "Q4676506"
+    },
+    {
+        "query_id": "50_556",
+        "wiki_title": "Loop (novel)",
+        "entity_id": "Q1431808"
+    },
+    {
+        "query_id": "50_557",
+        "wiki_title": "Invasion! (2000 AD)",
+        "entity_id": "Q6059534"
+    },
+    {
+        "query_id": "50_558",
+        "wiki_title": "In the Eyes of Mr Fury",
+        "entity_id": "Q6012103"
+    },
+    {
+        "query_id": "50_559",
+        "wiki_title": "The Master of Man",
+        "entity_id": "Q16386922"
+    },
+    {
+        "query_id": "50_560",
+        "wiki_title": "Zero Degree",
+        "entity_id": "Q8069510"
+    },
+    {
+        "query_id": "50_561",
+        "wiki_title": "Nightmares in the Sky",
+        "entity_id": "Q16965264"
+    },
+    {
+        "query_id": "50_562",
+        "wiki_title": "The Royal Game",
+        "entity_id": "Q1513820"
+    },
+    {
+        "query_id": "50_563",
+        "wiki_title": "Second Folio",
+        "entity_id": "Q7443302"
+    },
+    {
+        "query_id": "50_564",
+        "wiki_title": "Paris France (novel)",
+        "entity_id": "Q7137285"
+    },
+    {
+        "query_id": "50_565",
+        "wiki_title": "Six Memos for the Next Millennium",
+        "entity_id": "Q877418"
+    },
+    {
+        "query_id": "50_566",
+        "wiki_title": "A Madea Christmas (musical play)",
+        "entity_id": "Q4658018"
+    },
+    {
+        "query_id": "50_567",
+        "wiki_title": "The Origins of Totalitarianism",
+        "entity_id": "Q1327843"
+    },
+    {
+        "query_id": "50_568",
+        "wiki_title": "A Dynamical Theory of the Electromagnetic Field",
+        "entity_id": "Q1074013"
+    },
+    {
+        "query_id": "50_569",
+        "wiki_title": "Cinderalla",
+        "entity_id": "Q5120418"
+    },
+    {
+        "query_id": "50_570",
+        "wiki_title": "The Secrets of Harry Bright",
+        "entity_id": "Q7763188"
+    },
+    {
+        "query_id": "50_571",
+        "wiki_title": "The Idea of Justice",
+        "entity_id": "Q3064031"
+    },
+    {
+        "query_id": "50_572",
+        "wiki_title": "Djinn (comics)",
+        "entity_id": "Q2646735"
+    },
+    {
+        "query_id": "50_573",
+        "wiki_title": "Cell (novel)",
+        "entity_id": "Q469889"
+    },
+    {
+        "query_id": "50_574",
+        "wiki_title": "The Clue of the Leaning Chimney",
+        "entity_id": "Q7723550"
+    },
+    {
+        "query_id": "50_575",
+        "wiki_title": "Lipstick Jungle (novel)",
+        "entity_id": "Q14370846"
+    },
+    {
+        "query_id": "50_576",
+        "wiki_title": "Fiela's Child",
+        "entity_id": "Q5446857"
+    },
+    {
+        "query_id": "50_577",
+        "wiki_title": "The Dam Busters (book)",
+        "entity_id": "Q7728766"
+    },
+    {
+        "query_id": "50_578",
+        "wiki_title": "Body of Lies (novel)",
+        "entity_id": "Q4936926"
+    },
+    {
+        "query_id": "50_579",
+        "wiki_title": "Stover at Yale",
+        "entity_id": "Q7620645"
+    },
+    {
+        "query_id": "50_580",
+        "wiki_title": "Ashramavasika Parva",
+        "entity_id": "Q11169211"
+    },
+    {
+        "query_id": "50_581",
+        "wiki_title": "The Mermaid Chair",
+        "entity_id": "Q2622732"
+    },
+    {
+        "query_id": "50_582",
+        "wiki_title": "The Snow Maiden (play)",
+        "entity_id": "Q502153"
+    },
+    {
+        "query_id": "50_583",
+        "wiki_title": "The Will of the Empress",
+        "entity_id": "Q7774979"
+    },
+    {
+        "query_id": "50_584",
+        "wiki_title": "Sonnet 43",
+        "entity_id": "Q3081356"
+    },
+    {
+        "query_id": "50_585",
+        "wiki_title": "Shinj\u016b (novel)",
+        "entity_id": "Q7497625"
+    },
+    {
+        "query_id": "50_586",
+        "wiki_title": "A Lovely Sunday for Creve Coeur",
+        "entity_id": "Q4657984"
+    },
+    {
+        "query_id": "50_587",
+        "wiki_title": "Al-Tibbyan Fi Tafsir al-Quran",
+        "entity_id": "Q4115990"
+    },
+    {
+        "query_id": "50_588",
+        "wiki_title": "The Hound of Heaven",
+        "entity_id": "Q7740462"
+    },
+    {
+        "query_id": "50_589",
+        "wiki_title": "The Sexual Life of Catherine M.",
+        "entity_id": "Q3213718"
+    },
+    {
+        "query_id": "50_590",
+        "wiki_title": "A Short History of the World (Blainey book)",
+        "entity_id": "Q4659479"
+    },
+    {
+        "query_id": "50_591",
+        "wiki_title": "Uncle Daddy",
+        "entity_id": "Q7882719"
+    },
+    {
+        "query_id": "50_592",
+        "wiki_title": "A Thousand Deaths (Card short story)",
+        "entity_id": "Q4660079"
+    },
+    {
+        "query_id": "50_593",
+        "wiki_title": "Gaspard de la Nuit (poetry collection)",
+        "entity_id": "Q738707"
+    },
+    {
+        "query_id": "50_594",
+        "wiki_title": "Candyfloss (novel)",
+        "entity_id": "Q16385214"
+    },
+    {
+        "query_id": "50_595",
+        "wiki_title": "Hymns in Prose for Children",
+        "entity_id": "Q9005648"
+    },
+    {
+        "query_id": "50_596",
+        "wiki_title": "The Wings of the Sphinx",
+        "entity_id": "Q3828460"
+    },
+    {
+        "query_id": "50_597",
+        "wiki_title": "The Mask (Koontz novel)",
+        "entity_id": "Q3224366"
+    },
+    {
+        "query_id": "50_598",
+        "wiki_title": "Instruments of Darkness",
+        "entity_id": "Q6041971"
+    },
+    {
+        "query_id": "50_599",
+        "wiki_title": "Balance of Power (Star Trek)",
+        "entity_id": "Q4849966"
+    },
+    {
+        "query_id": "50_600",
+        "wiki_title": "Caste (play)",
+        "entity_id": "Q15917606"
+    },
+    {
+        "query_id": "50_601",
+        "wiki_title": "When Prophecy Fails",
+        "entity_id": "Q3205125"
+    },
+    {
+        "query_id": "50_602",
+        "wiki_title": "Girl, Missing",
+        "entity_id": "Q5564330"
+    },
+    {
+        "query_id": "50_603",
+        "wiki_title": "Madeline and the Gypsies",
+        "entity_id": "Q6727056"
+    },
+    {
+        "query_id": "50_604",
+        "wiki_title": "Gabriel-Ernest",
+        "entity_id": "Q5515506"
+    },
+    {
+        "query_id": "50_605",
+        "wiki_title": "Q (novel)",
+        "entity_id": "Q1734076"
+    },
+    {
+        "query_id": "50_606",
+        "wiki_title": "Watchmen",
+        "entity_id": "Q128444"
+    },
+    {
+        "query_id": "50_607",
+        "wiki_title": "Babylon 5: Deadly Relations \u2013 Bester Ascendant",
+        "entity_id": "Q4424353"
+    },
+    {
+        "query_id": "50_608",
+        "wiki_title": "Phoebe, Junior",
+        "entity_id": "Q7186642"
+    },
+    {
+        "query_id": "50_609",
+        "wiki_title": "Anarchy Alive!",
+        "entity_id": "Q4751677"
+    },
+    {
+        "query_id": "50_610",
+        "wiki_title": "Fertilisation of Orchids",
+        "entity_id": "Q1755867"
+    },
+    {
+        "query_id": "50_611",
+        "wiki_title": "Two Leaves and a Bud",
+        "entity_id": "Q7859039"
+    },
+    {
+        "query_id": "50_612",
+        "wiki_title": "Zulu Heart",
+        "entity_id": "Q8075192"
+    },
+    {
+        "query_id": "50_613",
+        "wiki_title": "R Is for Rocket",
+        "entity_id": "Q7278196"
+    },
+    {
+        "query_id": "50_614",
+        "wiki_title": "Lilith (novel)",
+        "entity_id": "Q3832392"
+    },
+    {
+        "query_id": "50_615",
+        "wiki_title": "The Diary of a Nobody",
+        "entity_id": "Q864150"
+    },
+    {
+        "query_id": "50_616",
+        "wiki_title": "People Might Hear You",
+        "entity_id": "Q7165905"
+    },
+    {
+        "query_id": "50_617",
+        "wiki_title": "One Fifth Avenue (novel)",
+        "entity_id": "Q7092631"
+    },
+    {
+        "query_id": "50_618",
+        "wiki_title": "Cherry Crush (novel)",
+        "entity_id": "Q5092333"
+    },
+    {
+        "query_id": "50_619",
+        "wiki_title": "Odessa Stories",
+        "entity_id": "Q1775716"
+    },
+    {
+        "query_id": "50_620",
+        "wiki_title": "Telesni \u010duvaj",
+        "entity_id": "Q16953231"
+    },
+    {
+        "query_id": "50_621",
+        "wiki_title": "The Shock Doctrine",
+        "entity_id": "Q1137556"
+    },
+    {
+        "query_id": "50_622",
+        "wiki_title": "Outcast (Sutcliff novel)",
+        "entity_id": "Q7111895"
+    },
+    {
+        "query_id": "50_623",
+        "wiki_title": "I Like It Here",
+        "entity_id": "Q15713094"
+    },
+    {
+        "query_id": "50_624",
+        "wiki_title": "Common Grounds",
+        "entity_id": "Q2986822"
+    },
+    {
+        "query_id": "50_625",
+        "wiki_title": "Cannibal Adventure",
+        "entity_id": "Q5032656"
+    },
+    {
+        "query_id": "50_626",
+        "wiki_title": "The Question Concerning Technology",
+        "entity_id": "Q7759065"
+    },
+    {
+        "query_id": "50_627",
+        "wiki_title": "Princeps' Fury",
+        "entity_id": "Q7244429"
+    },
+    {
+        "query_id": "50_628",
+        "wiki_title": "Independence Day UK",
+        "entity_id": "Q6016031"
+    },
+    {
+        "query_id": "50_629",
+        "wiki_title": "Jubiab\u00e1",
+        "entity_id": "Q2290668"
+    },
+    {
+        "query_id": "50_630",
+        "wiki_title": "Click (novel)",
+        "entity_id": "Q5132416"
+    },
+    {
+        "query_id": "50_631",
+        "wiki_title": "Jnana Yoga (book)",
+        "entity_id": "Q6203929"
+    },
+    {
+        "query_id": "50_632",
+        "wiki_title": "Crunch (book)",
+        "entity_id": "Q5190088"
+    },
+    {
+        "query_id": "50_633",
+        "wiki_title": "Earthfall (novel)",
+        "entity_id": "Q5327216"
+    },
+    {
+        "query_id": "50_634",
+        "wiki_title": "Chosen (Cast novel)",
+        "entity_id": "Q3284521"
+    },
+    {
+        "query_id": "50_635",
+        "wiki_title": "Ralph Roister Doister",
+        "entity_id": "Q7288034"
+    },
+    {
+        "query_id": "50_636",
+        "wiki_title": "The Thomas Ligotti Reader",
+        "entity_id": "Q7768880"
+    },
+    {
+        "query_id": "50_637",
+        "wiki_title": "Thou Art That (book)",
+        "entity_id": "Q7796950"
+    },
+    {
+        "query_id": "50_638",
+        "wiki_title": "Turn Coat",
+        "entity_id": "Q7855657"
+    },
+    {
+        "query_id": "50_639",
+        "wiki_title": "Homer's Daughter",
+        "entity_id": "Q3208856"
+    },
+    {
+        "query_id": "50_640",
+        "wiki_title": "A Foot in the Grave",
+        "entity_id": "Q4656829"
+    },
+    {
+        "query_id": "50_641",
+        "wiki_title": "Raise the Titanic!",
+        "entity_id": "Q287838"
+    },
+    {
+        "query_id": "50_642",
+        "wiki_title": "Enduring Love",
+        "entity_id": "Q2920448"
+    },
+    {
+        "query_id": "50_643",
+        "wiki_title": "The Joy of Work",
+        "entity_id": "Q7743722"
+    },
+    {
+        "query_id": "50_644",
+        "wiki_title": "Sherlock Holmes: The Breath of God",
+        "entity_id": "Q7495078"
+    },
+    {
+        "query_id": "50_645",
+        "wiki_title": "Wednesday the Rabbi Got Wet",
+        "entity_id": "Q7979246"
+    },
+    {
+        "query_id": "50_646",
+        "wiki_title": "Titus Andronicus",
+        "entity_id": "Q272169"
+    },
+    {
+        "query_id": "50_647",
+        "wiki_title": "Inadmissible Evidence",
+        "entity_id": "Q6013361"
+    },
+    {
+        "query_id": "50_648",
+        "wiki_title": "In Pharaoh's Army",
+        "entity_id": "Q3015383"
+    },
+    {
+        "query_id": "50_649",
+        "wiki_title": "Pandora's Curse",
+        "entity_id": "Q7130708"
+    },
+    {
+        "query_id": "50_650",
+        "wiki_title": "Gospel of Luke",
+        "entity_id": "Q39939"
+    },
+    {
+        "query_id": "50_651",
+        "wiki_title": "Double, Double (Star Trek novel)",
+        "entity_id": "Q5299565"
+    },
+    {
+        "query_id": "50_652",
+        "wiki_title": "Fairyland (novel)",
+        "entity_id": "Q6933126"
+    },
+    {
+        "query_id": "50_653",
+        "wiki_title": "Quantum Aspects of Life",
+        "entity_id": "Q7268980"
+    },
+    {
+        "query_id": "50_654",
+        "wiki_title": "The Evolution of Physics",
+        "entity_id": "Q7732729"
+    },
+    {
+        "query_id": "50_655",
+        "wiki_title": "Tyrocinium Chymicum",
+        "entity_id": "Q670388"
+    },
+    {
+        "query_id": "50_656",
+        "wiki_title": "Minstrelsy of the Scottish Border",
+        "entity_id": "Q7751599"
+    },
+    {
+        "query_id": "50_657",
+        "wiki_title": "Dead Man Walking (book)",
+        "entity_id": "Q5245307"
+    },
+    {
+        "query_id": "50_658",
+        "wiki_title": "The Collectors (novel)",
+        "entity_id": "Q2599145"
+    },
+    {
+        "query_id": "50_659",
+        "wiki_title": "The Case of the Rising Stars",
+        "entity_id": "Q7721531"
+    },
+    {
+        "query_id": "50_660",
+        "wiki_title": "The Many Worlds of Andre Norton",
+        "entity_id": "Q7750258"
+    },
+    {
+        "query_id": "50_661",
+        "wiki_title": "Race Matters",
+        "entity_id": "Q7278909"
+    },
+    {
+        "query_id": "50_662",
+        "wiki_title": "The Legend of Sleepy Hollow",
+        "entity_id": "Q72309"
+    },
+    {
+        "query_id": "50_663",
+        "wiki_title": "Day of Deceit",
+        "entity_id": "Q5242921"
+    },
+    {
+        "query_id": "50_664",
+        "wiki_title": "Beyond Language",
+        "entity_id": "Q18398216"
+    },
+    {
+        "query_id": "50_665",
+        "wiki_title": "White-Jacket",
+        "entity_id": "Q1431433"
+    },
+    {
+        "query_id": "50_666",
+        "wiki_title": "Culture series",
+        "entity_id": "Q5193682"
+    },
+    {
+        "query_id": "50_667",
+        "wiki_title": "A Small Boy and Others",
+        "entity_id": "Q13581252"
+    },
+    {
+        "query_id": "50_668",
+        "wiki_title": "Experience (book)",
+        "entity_id": "Q5421033"
+    },
+    {
+        "query_id": "50_669",
+        "wiki_title": "The Cost of Discipleship",
+        "entity_id": "Q7727719"
+    },
+    {
+        "query_id": "50_670",
+        "wiki_title": "Swimming to Catalina",
+        "entity_id": "Q7658380"
+    },
+    {
+        "query_id": "50_671",
+        "wiki_title": "Gunamala",
+        "entity_id": "Q13390023"
+    },
+    {
+        "query_id": "50_672",
+        "wiki_title": "Gojiro",
+        "entity_id": "Q5577973"
+    },
+    {
+        "query_id": "50_673",
+        "wiki_title": "The Other (short story)",
+        "entity_id": "Q7755460"
+    },
+    {
+        "query_id": "50_674",
+        "wiki_title": "Keep the River on Your Right",
+        "entity_id": "Q6383181"
+    },
+    {
+        "query_id": "50_675",
+        "wiki_title": "Gutsville",
+        "entity_id": "Q5621879"
+    },
+    {
+        "query_id": "50_676",
+        "wiki_title": "Divina Trace",
+        "entity_id": "Q5284064"
+    },
+    {
+        "query_id": "50_677",
+        "wiki_title": "Black Cat (manga)",
+        "entity_id": "Q880172"
+    },
+    {
+        "query_id": "50_678",
+        "wiki_title": "Chinglish (play)",
+        "entity_id": "Q5101029"
+    },
+    {
+        "query_id": "50_679",
+        "wiki_title": "Karl Marx's Theory of History",
+        "entity_id": "Q6372063"
+    },
+    {
+        "query_id": "50_680",
+        "wiki_title": "The Crisis of Zionism",
+        "entity_id": "Q7728117"
+    },
+    {
+        "query_id": "50_681",
+        "wiki_title": "DT Eightron",
+        "entity_id": "Q5206274"
+    },
+    {
+        "query_id": "50_682",
+        "wiki_title": "Biko (book)",
+        "entity_id": "Q4907425"
+    },
+    {
+        "query_id": "50_683",
+        "wiki_title": "Command Decision (play)",
+        "entity_id": "Q5152090"
+    },
+    {
+        "query_id": "50_684",
+        "wiki_title": "Fables for the Frivolous",
+        "entity_id": "Q5427940"
+    },
+    {
+        "query_id": "50_685",
+        "wiki_title": "Just a Pilgrim",
+        "entity_id": "Q6316574"
+    },
+    {
+        "query_id": "50_686",
+        "wiki_title": "On Human Nature",
+        "entity_id": "Q7091018"
+    },
+    {
+        "query_id": "50_687",
+        "wiki_title": "Mrs. Gibbons' Boys",
+        "entity_id": "Q17109497"
+    },
+    {
+        "query_id": "50_688",
+        "wiki_title": "Hilarity Ensues",
+        "entity_id": "Q5760839"
+    },
+    {
+        "query_id": "50_689",
+        "wiki_title": "The World's Most Dangerous Places",
+        "entity_id": "Q7775894"
+    },
+    {
+        "query_id": "50_690",
+        "wiki_title": "In the Line of Fire: A Memoir",
+        "entity_id": "Q6012446"
+    },
+    {
+        "query_id": "50_691",
+        "wiki_title": "Instead of Three Wishes",
+        "entity_id": "Q6038875"
+    },
+    {
+        "query_id": "50_692",
+        "wiki_title": "Babylon (Edwards-Jones series)",
+        "entity_id": "Q4697749"
+    },
+    {
+        "query_id": "50_693",
+        "wiki_title": "Elementary Calculus: An Infinitesimal Approach",
+        "entity_id": "Q5358881"
+    },
+    {
+        "query_id": "50_694",
+        "wiki_title": "The Posthumous Memoirs of Br\u00e1s Cubas",
+        "entity_id": "Q1464493"
+    },
+    {
+        "query_id": "50_695",
+        "wiki_title": "Gold Dust and Ashes",
+        "entity_id": "Q17042137"
+    },
+    {
+        "query_id": "50_696",
+        "wiki_title": "Thirty-Three Teeth",
+        "entity_id": "Q7785205"
+    },
+    {
+        "query_id": "50_697",
+        "wiki_title": "Renewable Energy Sources and Climate Change Mitigation",
+        "entity_id": "Q7313076"
+    },
+    {
+        "query_id": "50_698",
+        "wiki_title": "Kill Decision",
+        "entity_id": "Q17112047"
+    },
+    {
+        "query_id": "50_699",
+        "wiki_title": "Nuts (play)",
+        "entity_id": "Q7070537"
+    },
+    {
+        "query_id": "50_700",
+        "wiki_title": "My Life and Hard Times",
+        "entity_id": "Q6945857"
+    },
+    {
+        "query_id": "50_701",
+        "wiki_title": "Gay Comix",
+        "entity_id": "Q5528561"
+    },
+    {
+        "query_id": "50_702",
+        "wiki_title": "War Comes to Willy Freeman",
+        "entity_id": "Q7968394"
+    },
+    {
+        "query_id": "50_703",
+        "wiki_title": "Hawke (novel)",
+        "entity_id": "Q5684907"
+    },
+    {
+        "query_id": "50_704",
+        "wiki_title": "Baccano!",
+        "entity_id": "Q484579"
+    },
+    {
+        "query_id": "50_705",
+        "wiki_title": "Spinoza: Practical Philosophy",
+        "entity_id": "Q7577656"
+    },
+    {
+        "query_id": "50_706",
+        "wiki_title": "The Great Illusion",
+        "entity_id": "Q3209508"
+    },
+    {
+        "query_id": "50_707",
+        "wiki_title": "Dragon and Thief",
+        "entity_id": "Q5305310"
+    },
+    {
+        "query_id": "50_708",
+        "wiki_title": "How to Read Donald Duck",
+        "entity_id": "Q5918732"
+    },
+    {
+        "query_id": "50_709",
+        "wiki_title": "Archelaus (play)",
+        "entity_id": "Q3621475"
+    },
+    {
+        "query_id": "50_710",
+        "wiki_title": "Agnes of God",
+        "entity_id": "Q5744208"
+    },
+    {
+        "query_id": "50_711",
+        "wiki_title": "The Cream of the Jest",
+        "entity_id": "Q7727989"
+    },
+    {
+        "query_id": "50_712",
+        "wiki_title": "Worldbinder",
+        "entity_id": "Q8036689"
+    },
+    {
+        "query_id": "50_713",
+        "wiki_title": "F\u00e9licie",
+        "entity_id": "Q3092276"
+    },
+    {
+        "query_id": "50_714",
+        "wiki_title": "I Don't Mean to Be Rude, But...",
+        "entity_id": "Q5976940"
+    },
+    {
+        "query_id": "50_715",
+        "wiki_title": "Dame Lorraine (play)",
+        "entity_id": "Q5212131"
+    },
+    {
+        "query_id": "50_716",
+        "wiki_title": "Hornblower and the Crisis",
+        "entity_id": "Q5904098"
+    },
+    {
+        "query_id": "50_717",
+        "wiki_title": "Star Wars Republic Commando: True Colors",
+        "entity_id": "Q7601154"
+    },
+    {
+        "query_id": "50_718",
+        "wiki_title": "My Autobiography (Chaplin book)",
+        "entity_id": "Q3065301"
+    },
+    {
+        "query_id": "50_719",
+        "wiki_title": "Applause (musical)",
+        "entity_id": "Q1766994"
+    },
+    {
+        "query_id": "50_720",
+        "wiki_title": "The Tempest",
+        "entity_id": "Q86440"
+    },
+    {
+        "query_id": "50_721",
+        "wiki_title": "It's Not News, It's FARK",
+        "entity_id": "Q6090479"
+    },
+    {
+        "query_id": "50_722",
+        "wiki_title": "The Silent Traveller in London",
+        "entity_id": "Q7764236"
+    },
+    {
+        "query_id": "50_723",
+        "wiki_title": "Rainbows End (Vinge novel)",
+        "entity_id": "Q471679"
+    },
+    {
+        "query_id": "50_724",
+        "wiki_title": "Head Games (novel)",
+        "entity_id": "Q5689148"
+    },
+    {
+        "query_id": "50_725",
+        "wiki_title": "Continental Drift (novel)",
+        "entity_id": "Q2995670"
+    },
+    {
+        "query_id": "50_727",
+        "wiki_title": "The Blood of Olympus",
+        "entity_id": "Q17985964"
+    },
+    {
+        "query_id": "50_728",
+        "wiki_title": "The Best Horror of the Year: Volume Two",
+        "entity_id": "Q17131046"
+    },
+    {
+        "query_id": "50_729",
+        "wiki_title": "Prime Time (novel)",
+        "entity_id": "Q7243350"
+    },
+    {
+        "query_id": "50_730",
+        "wiki_title": "Rosie Carpe",
+        "entity_id": "Q3442632"
+    },
+    {
+        "query_id": "50_731",
+        "wiki_title": "Dinner with Friends",
+        "entity_id": "Q3602883"
+    },
+    {
+        "query_id": "50_732",
+        "wiki_title": "A Matter of Some Gravity",
+        "entity_id": "Q4658163"
+    },
+    {
+        "query_id": "50_733",
+        "wiki_title": "The Memoirs of Cleopatra",
+        "entity_id": "Q7750953"
+    },
+    {
+        "query_id": "50_734",
+        "wiki_title": "Fermi and Frost",
+        "entity_id": "Q5444396"
+    },
+    {
+        "query_id": "50_735",
+        "wiki_title": "24 Hours (novel)",
+        "entity_id": "Q4631868"
+    },
+    {
+        "query_id": "50_736",
+        "wiki_title": "A Little Pretty Pocket-Book",
+        "entity_id": "Q4657860"
+    },
+    {
+        "query_id": "50_737",
+        "wiki_title": "Mishnah Berurah",
+        "entity_id": "Q2703131"
+    },
+    {
+        "query_id": "50_738",
+        "wiki_title": "Panzer Battles (book)",
+        "entity_id": "Q7132043"
+    },
+    {
+        "query_id": "50_739",
+        "wiki_title": "Strange People, Queer Notions",
+        "entity_id": "Q7621445"
+    },
+    {
+        "query_id": "50_740",
+        "wiki_title": "First Meetings",
+        "entity_id": "Q5453262"
+    },
+    {
+        "query_id": "50_741",
+        "wiki_title": "Evil Genius (novel)",
+        "entity_id": "Q5418432"
+    },
+    {
+        "query_id": "50_742",
+        "wiki_title": "Dragons of Summer Flame",
+        "entity_id": "Q3790719"
+    },
+    {
+        "query_id": "50_743",
+        "wiki_title": "4th of July (novel)",
+        "entity_id": "Q3828680"
+    },
+    {
+        "query_id": "50_744",
+        "wiki_title": "The Adventures of Harry Richmond",
+        "entity_id": "Q7712547"
+    },
+    {
+        "query_id": "50_745",
+        "wiki_title": "Ceres, Celestial Legend",
+        "entity_id": "Q697482"
+    },
+    {
+        "query_id": "50_746",
+        "wiki_title": "Jeu de Robin et Marion",
+        "entity_id": "Q2074038"
+    },
+    {
+        "query_id": "50_747",
+        "wiki_title": "A Year in Provence",
+        "entity_id": "Q1917911"
+    },
+    {
+        "query_id": "50_748",
+        "wiki_title": "Emphyrio",
+        "entity_id": "Q2764299"
+    },
+    {
+        "query_id": "50_749",
+        "wiki_title": "Rowan of Rin",
+        "entity_id": "Q2494596"
+    },
+    {
+        "query_id": "50_750",
+        "wiki_title": "Calling Out for You",
+        "entity_id": "Q5022173"
+    },
+    {
+        "query_id": "50_751",
+        "wiki_title": "Della mercatura e del mercante perfetto",
+        "entity_id": "Q3936919"
+    },
+    {
+        "query_id": "50_752",
+        "wiki_title": "Slavery in Massachusetts",
+        "entity_id": "Q3203222"
+    },
+    {
+        "query_id": "50_753",
+        "wiki_title": "The Myth of a Christian Nation",
+        "entity_id": "Q7752960"
+    },
+    {
+        "query_id": "50_754",
+        "wiki_title": "Meteor!",
+        "entity_id": "Q6823416"
+    },
+    {
+        "query_id": "50_755",
+        "wiki_title": "The Emigrants (novel series)",
+        "entity_id": "Q3847492"
+    },
+    {
+        "query_id": "50_756",
+        "wiki_title": "Mojo (play)",
+        "entity_id": "Q6895107"
+    },
+    {
+        "query_id": "50_757",
+        "wiki_title": "The World of Poo",
+        "entity_id": "Q7776155"
+    },
+    {
+        "query_id": "50_758",
+        "wiki_title": "A House and Its Head",
+        "entity_id": "Q4657422"
+    },
+    {
+        "query_id": "50_759",
+        "wiki_title": "Youth (Tolstoy novel)",
+        "entity_id": "Q7458355"
+    },
+    {
+        "query_id": "50_760",
+        "wiki_title": "Brilliance of the Moon",
+        "entity_id": "Q4968035"
+    },
+    {
+        "query_id": "50_761",
+        "wiki_title": "Kaffir Boy",
+        "entity_id": "Q6346096"
+    },
+    {
+        "query_id": "50_762",
+        "wiki_title": "The Hollow Men (book)",
+        "entity_id": "Q7739973"
+    },
+    {
+        "query_id": "50_763",
+        "wiki_title": "Juliette (novel)",
+        "entity_id": "Q540894"
+    },
+    {
+        "query_id": "50_764",
+        "wiki_title": "The Early Fears",
+        "entity_id": "Q7731377"
+    },
+    {
+        "query_id": "50_765",
+        "wiki_title": "Ach Gott, vom Himmel sieh darein",
+        "entity_id": "Q1786147"
+    },
+    {
+        "query_id": "50_766",
+        "wiki_title": "Fantastic Voyage",
+        "entity_id": "Q1219171"
+    },
+    {
+        "query_id": "50_767",
+        "wiki_title": "South Sea Tales (London collection)",
+        "entity_id": "Q3231743"
+    },
+    {
+        "query_id": "50_768",
+        "wiki_title": "The End of the Soul",
+        "entity_id": "Q7732139"
+    },
+    {
+        "query_id": "50_769",
+        "wiki_title": "Youth and the Bright Medusa",
+        "entity_id": "Q8059288"
+    },
+    {
+        "query_id": "50_770",
+        "wiki_title": "Philosophical Notebooks",
+        "entity_id": "Q7186176"
+    },
+    {
+        "query_id": "50_771",
+        "wiki_title": "Janua linguarum reserata",
+        "entity_id": "Q2474308"
+    },
+    {
+        "query_id": "50_772",
+        "wiki_title": "Pietati proximum",
+        "entity_id": "Q896776"
+    },
+    {
+        "query_id": "50_773",
+        "wiki_title": "The Saint Abroad",
+        "entity_id": "Q7762058"
+    },
+    {
+        "query_id": "50_774",
+        "wiki_title": "Creative Mythology",
+        "entity_id": "Q5183575"
+    },
+    {
+        "query_id": "50_775",
+        "wiki_title": "Supremi apostolatus officio",
+        "entity_id": "Q648174"
+    },
+    {
+        "query_id": "50_776",
+        "wiki_title": "Sonnet 90",
+        "entity_id": "Q3490604"
+    },
+    {
+        "query_id": "50_777",
+        "wiki_title": "Undersea Trilogy",
+        "entity_id": "Q7883761"
+    },
+    {
+        "query_id": "50_778",
+        "wiki_title": "The Dark Is Rising Sequence",
+        "entity_id": "Q1618095"
+    },
+    {
+        "query_id": "50_779",
+        "wiki_title": "Hackers & Painters",
+        "entity_id": "Q5637262"
+    },
+    {
+        "query_id": "50_780",
+        "wiki_title": "Easter Holidays",
+        "entity_id": "Q5329888"
+    },
+    {
+        "query_id": "50_781",
+        "wiki_title": "The Stranger's Child",
+        "entity_id": "Q7766925"
+    },
+    {
+        "query_id": "50_782",
+        "wiki_title": "EPICAC (short story)",
+        "entity_id": "Q5323877"
+    },
+    {
+        "query_id": "50_783",
+        "wiki_title": "Christi Matri",
+        "entity_id": "Q1078619"
+    },
+    {
+        "query_id": "50_784",
+        "wiki_title": "The Watch House",
+        "entity_id": "Q7773661"
+    },
+    {
+        "query_id": "50_785",
+        "wiki_title": "Danger Girl",
+        "entity_id": "Q3013506"
+    },
+    {
+        "query_id": "50_786",
+        "wiki_title": "Freud, Biologist of the Mind",
+        "entity_id": "Q15070049"
+    },
+    {
+        "query_id": "50_787",
+        "wiki_title": "The Fever Tree",
+        "entity_id": "Q7733703"
+    },
+    {
+        "query_id": "50_788",
+        "wiki_title": "Adolphe",
+        "entity_id": "Q1605244"
+    },
+    {
+        "query_id": "50_789",
+        "wiki_title": "Escape from Memory",
+        "entity_id": "Q5397016"
+    },
+    {
+        "query_id": "50_790",
+        "wiki_title": "Anti-D\u00fchring",
+        "entity_id": "Q574630"
+    },
+    {
+        "query_id": "50_791",
+        "wiki_title": "Casey Jones (play)",
+        "entity_id": "Q5048524"
+    },
+    {
+        "query_id": "50_792",
+        "wiki_title": "Virginia (novel)",
+        "entity_id": "Q7934093"
+    },
+    {
+        "query_id": "50_793",
+        "wiki_title": "Vehkalahden neidot",
+        "entity_id": "Q7918623"
+    },
+    {
+        "query_id": "50_794",
+        "wiki_title": "The Good Luck of Right Now",
+        "entity_id": "Q18389765"
+    },
+    {
+        "query_id": "50_795",
+        "wiki_title": "The Dark Chateau",
+        "entity_id": "Q7728921"
+    },
+    {
+        "query_id": "50_796",
+        "wiki_title": "The Deep (short story)",
+        "entity_id": "Q3234925"
+    },
+    {
+        "query_id": "50_797",
+        "wiki_title": "The Road to Gandolfo",
+        "entity_id": "Q7761131"
+    },
+    {
+        "query_id": "50_798",
+        "wiki_title": "London (Samuel Johnson poem)",
+        "entity_id": "Q3836562"
+    },
+    {
+        "query_id": "50_799",
+        "wiki_title": "The Restless Supermarket",
+        "entity_id": "Q7760336"
+    },
+    {
+        "query_id": "50_800",
+        "wiki_title": "The Stingray Shuffle",
+        "entity_id": "Q7766544"
+    },
+    {
+        "query_id": "50_801",
+        "wiki_title": "The Gladiators (novel)",
+        "entity_id": "Q7736684"
+    },
+    {
+        "query_id": "50_802",
+        "wiki_title": "Whiteout: Melt",
+        "entity_id": "Q7996190"
+    },
+    {
+        "query_id": "50_803",
+        "wiki_title": "Queen Camilla (novel)",
+        "entity_id": "Q7270238"
+    },
+    {
+        "query_id": "50_804",
+        "wiki_title": "Battlelines",
+        "entity_id": "Q4873165"
+    },
+    {
+        "query_id": "50_805",
+        "wiki_title": "Guinness Book of Astronomy",
+        "entity_id": "Q5616574"
+    },
+    {
+        "query_id": "50_806",
+        "wiki_title": "Pages Stained with Blood",
+        "entity_id": "Q7124321"
+    },
+    {
+        "query_id": "50_807",
+        "wiki_title": "Disquisitiones Arithmeticae",
+        "entity_id": "Q510675"
+    },
+    {
+        "query_id": "50_808",
+        "wiki_title": "Declare",
+        "entity_id": "Q5249488"
+    },
+    {
+        "query_id": "50_809",
+        "wiki_title": "Heartless (Carriger novel)",
+        "entity_id": "Q5692910"
+    },
+    {
+        "query_id": "50_810",
+        "wiki_title": "Home (Storey play)",
+        "entity_id": "Q1810695"
+    },
+    {
+        "query_id": "50_811",
+        "wiki_title": "The Mysterious Universe",
+        "entity_id": "Q7752862"
+    },
+    {
+        "query_id": "50_812",
+        "wiki_title": "A Crack Up at the Race Riots",
+        "entity_id": "Q4656168"
+    },
+    {
+        "query_id": "50_813",
+        "wiki_title": "Tribus circiter",
+        "entity_id": "Q642917"
+    },
+    {
+        "query_id": "50_814",
+        "wiki_title": "Rumo and His Miraculous Adventures",
+        "entity_id": "Q378626"
+    },
+    {
+        "query_id": "50_815",
+        "wiki_title": "Foreign Words",
+        "entity_id": "Q5468337"
+    },
+    {
+        "query_id": "50_816",
+        "wiki_title": "Psmith, Journalist",
+        "entity_id": "Q7256098"
+    },
+    {
+        "query_id": "50_817",
+        "wiki_title": "The City Madam",
+        "entity_id": "Q7723179"
+    },
+    {
+        "query_id": "50_818",
+        "wiki_title": "Gladiator: Fight for Freedom",
+        "entity_id": "Q5566253"
+    },
+    {
+        "query_id": "50_819",
+        "wiki_title": "Missing (Alvtegen novel)",
+        "entity_id": "Q6878321"
+    },
+    {
+        "query_id": "50_820",
+        "wiki_title": "The Last Witchfinder",
+        "entity_id": "Q16932120"
+    },
+    {
+        "query_id": "50_821",
+        "wiki_title": "Poison Elves",
+        "entity_id": "Q7208449"
+    },
+    {
+        "query_id": "50_822",
+        "wiki_title": "Apollo's Song",
+        "entity_id": "Q3220995"
+    },
+    {
+        "query_id": "50_823",
+        "wiki_title": "Into Hot Air",
+        "entity_id": "Q6057810"
+    },
+    {
+        "query_id": "50_824",
+        "wiki_title": "The Nun's Story",
+        "entity_id": "Q7754497"
+    },
+    {
+        "query_id": "50_825",
+        "wiki_title": "End Zone",
+        "entity_id": "Q5375813"
+    },
+    {
+        "query_id": "50_826",
+        "wiki_title": "Sakharam Binder",
+        "entity_id": "Q7402925"
+    },
+    {
+        "query_id": "50_827",
+        "wiki_title": "The Red Shoes (fairy tale)",
+        "entity_id": "Q2293255"
+    },
+    {
+        "query_id": "50_828",
+        "wiki_title": "The Thirteenth Tale",
+        "entity_id": "Q2037717"
+    },
+    {
+        "query_id": "50_829",
+        "wiki_title": "The Boar (novel)",
+        "entity_id": "Q7718917"
+    },
+    {
+        "query_id": "50_830",
+        "wiki_title": "Appleseed (manga)",
+        "entity_id": "Q91499"
+    },
+    {
+        "query_id": "50_831",
+        "wiki_title": "Madhavi (play)",
+        "entity_id": "Q19572781"
+    },
+    {
+        "query_id": "50_832",
+        "wiki_title": "Edith's Diary",
+        "entity_id": "Q5338476"
+    },
+    {
+        "query_id": "50_833",
+        "wiki_title": "The Gods of War",
+        "entity_id": "Q6960416"
+    },
+    {
+        "query_id": "50_834",
+        "wiki_title": "The Witness for the Prosecution",
+        "entity_id": "Q3258947"
+    },
+    {
+        "query_id": "50_835",
+        "wiki_title": "The Adventurous Four",
+        "entity_id": "Q16938576"
+    },
+    {
+        "query_id": "50_836",
+        "wiki_title": "The Demon's Lexicon",
+        "entity_id": "Q7729706"
+    },
+    {
+        "query_id": "50_837",
+        "wiki_title": "2 States: The Story of My Marriage",
+        "entity_id": "Q47153"
+    },
+    {
+        "query_id": "50_838",
+        "wiki_title": "Mass (Bernstein)",
+        "entity_id": "Q1907308"
+    },
+    {
+        "query_id": "50_839",
+        "wiki_title": "Trouble (comics)",
+        "entity_id": "Q3999778"
+    },
+    {
+        "query_id": "50_840",
+        "wiki_title": "Back When We Were Grownups",
+        "entity_id": "Q4839192"
+    },
+    {
+        "query_id": "50_841",
+        "wiki_title": "The Devils of Loudun",
+        "entity_id": "Q3232078"
+    },
+    {
+        "query_id": "50_842",
+        "wiki_title": "The Ram (fairy tale)",
+        "entity_id": "Q7759367"
+    },
+    {
+        "query_id": "50_843",
+        "wiki_title": "The Goose Girl (novel)",
+        "entity_id": "Q7737332"
+    },
+    {
+        "query_id": "50_844",
+        "wiki_title": "Tulips (poem)",
+        "entity_id": "Q7852091"
+    },
+    {
+        "query_id": "50_845",
+        "wiki_title": "To His Coy Mistress",
+        "entity_id": "Q932859"
+    },
+    {
+        "query_id": "50_846",
+        "wiki_title": "Dudum siquidem",
+        "entity_id": "Q958082"
+    },
+    {
+        "query_id": "50_847",
+        "wiki_title": "A Time to Kill (Grisham novel)",
+        "entity_id": "Q1213715"
+    },
+    {
+        "query_id": "50_848",
+        "wiki_title": "The Road to Oxiana",
+        "entity_id": "Q7761139"
+    },
+    {
+        "query_id": "50_849",
+        "wiki_title": "Germany Is Our Problem",
+        "entity_id": "Q5552159"
+    },
+    {
+        "query_id": "50_851",
+        "wiki_title": "Many Waters",
+        "entity_id": "Q6753362"
+    },
+    {
+        "query_id": "50_852",
+        "wiki_title": "Ficciones",
+        "entity_id": "Q2483432"
+    },
+    {
+        "query_id": "50_853",
+        "wiki_title": "Life and Death in Shanghai",
+        "entity_id": "Q1255697"
+    },
+    {
+        "query_id": "50_854",
+        "wiki_title": "Gone for Soldiers",
+        "entity_id": "Q5581609"
+    },
+    {
+        "query_id": "50_855",
+        "wiki_title": "Great Food, All Day Long",
+        "entity_id": "Q16385868"
+    },
+    {
+        "query_id": "50_856",
+        "wiki_title": "Class sketch",
+        "entity_id": "Q5128039"
+    },
+    {
+        "query_id": "50_857",
+        "wiki_title": "Ten Thousand Roses",
+        "entity_id": "Q7699348"
+    },
+    {
+        "query_id": "50_858",
+        "wiki_title": "Catalogue of Women",
+        "entity_id": "Q1233074"
+    },
+    {
+        "query_id": "50_859",
+        "wiki_title": "Misopogon",
+        "entity_id": "Q1938873"
+    },
+    {
+        "query_id": "50_860",
+        "wiki_title": "Prey (novel)",
+        "entity_id": "Q743965"
+    },
+    {
+        "query_id": "50_861",
+        "wiki_title": "Skipping Stones",
+        "entity_id": "Q7535814"
+    },
+    {
+        "query_id": "50_862",
+        "wiki_title": "Einstein's Gift",
+        "entity_id": "Q5349778"
+    },
+    {
+        "query_id": "50_863",
+        "wiki_title": "Firestorm (novel)",
+        "entity_id": "Q5452000"
+    },
+    {
+        "query_id": "50_864",
+        "wiki_title": "Eclipse (Banville novel)",
+        "entity_id": "Q5332984"
+    },
+    {
+        "query_id": "50_865",
+        "wiki_title": "The 39 Clues",
+        "entity_id": "Q130438"
+    },
+    {
+        "query_id": "50_866",
+        "wiki_title": "Chuk and Gek",
+        "entity_id": "Q5116003"
+    },
+    {
+        "query_id": "50_867",
+        "wiki_title": "Ars Magna (Cardano book)",
+        "entity_id": "Q1231083"
+    },
+    {
+        "query_id": "50_868",
+        "wiki_title": "Doctor Copernicus",
+        "entity_id": "Q16385503"
+    },
+    {
+        "query_id": "50_869",
+        "wiki_title": "The Years (Woolf novel)",
+        "entity_id": "Q1616684"
+    },
+    {
+        "query_id": "50_870",
+        "wiki_title": "Ruin Explorers",
+        "entity_id": "Q2029402"
+    },
+    {
+        "query_id": "50_872",
+        "wiki_title": "Spangle (novel)",
+        "entity_id": "Q778452"
+    },
+    {
+        "query_id": "50_873",
+        "wiki_title": "The Absolutely True Diary of a Part-Time Indian",
+        "entity_id": "Q2944509"
+    },
+    {
+        "query_id": "50_874",
+        "wiki_title": "The Castle of Adventure",
+        "entity_id": "Q7721586"
+    },
+    {
+        "query_id": "50_875",
+        "wiki_title": "The Haunted Mind",
+        "entity_id": "Q7739020"
+    },
+    {
+        "query_id": "50_876",
+        "wiki_title": "The Politics of Nonviolent Action",
+        "entity_id": "Q7757693"
+    },
+    {
+        "query_id": "50_877",
+        "wiki_title": "Watashi no Messiah-sama",
+        "entity_id": "Q1060997"
+    },
+    {
+        "query_id": "50_878",
+        "wiki_title": "Kallocain",
+        "entity_id": "Q1722517"
+    },
+    {
+        "query_id": "50_879",
+        "wiki_title": "Wintering Out",
+        "entity_id": "Q8026473"
+    },
+    {
+        "query_id": "50_880",
+        "wiki_title": "The Cowardly Lion of Oz",
+        "entity_id": "Q7727898"
+    },
+    {
+        "query_id": "50_881",
+        "wiki_title": "The Silent World: A Story of Undersea Discovery and Adventure",
+        "entity_id": "Q3224694"
+    },
+    {
+        "query_id": "50_882",
+        "wiki_title": "The Middle Years",
+        "entity_id": "Q7751290"
+    },
+    {
+        "query_id": "50_883",
+        "wiki_title": "Zulu Hart",
+        "entity_id": "Q8075193"
+    },
+    {
+        "query_id": "50_884",
+        "wiki_title": "Lesbian Nation",
+        "entity_id": "Q6530250"
+    },
+    {
+        "query_id": "50_885",
+        "wiki_title": "The Art of Discworld",
+        "entity_id": "Q1996055"
+    },
+    {
+        "query_id": "50_886",
+        "wiki_title": "Pauline epistles",
+        "entity_id": "Q265283"
+    },
+    {
+        "query_id": "50_887",
+        "wiki_title": "Three of Them",
+        "entity_id": "Q17783308"
+    },
+    {
+        "query_id": "50_888",
+        "wiki_title": "Tru Confessions (novel)",
+        "entity_id": "Q7847098"
+    },
+    {
+        "query_id": "50_889",
+        "wiki_title": "Garden of Shadows",
+        "entity_id": "Q5522402"
+    },
+    {
+        "query_id": "50_890",
+        "wiki_title": "Some Like It Hot (novel)",
+        "entity_id": "Q7559446"
+    },
+    {
+        "query_id": "50_891",
+        "wiki_title": "A Spell of Winter",
+        "entity_id": "Q4659752"
+    },
+    {
+        "query_id": "50_892",
+        "wiki_title": "Bad Astronomy",
+        "entity_id": "Q4840153"
+    },
+    {
+        "query_id": "50_893",
+        "wiki_title": "A Shot at History",
+        "entity_id": "Q16959950"
+    },
+    {
+        "query_id": "50_894",
+        "wiki_title": "Fearful Symmetry (book)",
+        "entity_id": "Q5439431"
+    },
+    {
+        "query_id": "50_895",
+        "wiki_title": "Sahara (novel)",
+        "entity_id": "Q1130788"
+    },
+    {
+        "query_id": "50_896",
+        "wiki_title": "The Egypt Game",
+        "entity_id": "Q17004916"
+    },
+    {
+        "query_id": "50_897",
+        "wiki_title": "Best Family Home Evening Ever",
+        "entity_id": "Q7716711"
+    },
+    {
+        "query_id": "50_898",
+        "wiki_title": "Quarantine (Crace novel)",
+        "entity_id": "Q7269129"
+    },
+    {
+        "query_id": "50_899",
+        "wiki_title": "Skin Game (The Dresden Files)",
+        "entity_id": "Q17105829"
+    },
+    {
+        "query_id": "50_900",
+        "wiki_title": "Captain Confederacy",
+        "entity_id": "Q5036597"
+    },
+    {
+        "query_id": "50_901",
+        "wiki_title": "The Song of the Lark (novel)",
+        "entity_id": "Q7765253"
+    },
+    {
+        "query_id": "50_902",
+        "wiki_title": "Flush: A Biography",
+        "entity_id": "Q2270838"
+    },
+    {
+        "query_id": "50_903",
+        "wiki_title": "I Hate Hamlet",
+        "entity_id": "Q5977469"
+    },
+    {
+        "query_id": "50_904",
+        "wiki_title": "Tales of Count Lucanor",
+        "entity_id": "Q1324033"
+    },
+    {
+        "query_id": "50_905",
+        "wiki_title": "Worlds of Tomorrow",
+        "entity_id": "Q8036741"
+    },
+    {
+        "query_id": "50_906",
+        "wiki_title": "Carrie's War",
+        "entity_id": "Q1651862"
+    },
+    {
+        "query_id": "50_907",
+        "wiki_title": "Ghost Stories (play)",
+        "entity_id": "Q5557169"
+    },
+    {
+        "query_id": "50_908",
+        "wiki_title": "Essays (Montaigne)",
+        "entity_id": "Q624852"
+    },
+    {
+        "query_id": "50_909",
+        "wiki_title": "City of Night (Koontz and Gorman novel)",
+        "entity_id": "Q5123836"
+    },
+    {
+        "query_id": "50_910",
+        "wiki_title": "Rose Daughter",
+        "entity_id": "Q17026104"
+    },
+    {
+        "query_id": "50_911",
+        "wiki_title": "Clericis laicos",
+        "entity_id": "Q1100605"
+    },
+    {
+        "query_id": "50_913",
+        "wiki_title": "Inheritance (Paolini novel)",
+        "entity_id": "Q60672"
+    },
+    {
+        "query_id": "50_914",
+        "wiki_title": "General Winston's Daughter",
+        "entity_id": "Q16385793"
+    },
+    {
+        "query_id": "50_915",
+        "wiki_title": "Psycho House",
+        "entity_id": "Q3925018"
+    },
+    {
+        "query_id": "50_916",
+        "wiki_title": "Bonk: The Curious Coupling of Science and Sex",
+        "entity_id": "Q4942116"
+    },
+    {
+        "query_id": "50_917",
+        "wiki_title": "Mandalay (poem)",
+        "entity_id": "Q1247778"
+    },
+    {
+        "query_id": "50_918",
+        "wiki_title": "Feludar Goendagiri",
+        "entity_id": "Q5442700"
+    },
+    {
+        "query_id": "50_919",
+        "wiki_title": "Decline and Fall of the American Programmer",
+        "entity_id": "Q5249505"
+    },
+    {
+        "query_id": "50_920",
+        "wiki_title": "Viking Trilogy",
+        "entity_id": "Q7929483"
+    },
+    {
+        "query_id": "50_921",
+        "wiki_title": "The Nonexistent Knight",
+        "entity_id": "Q2571696"
+    },
+    {
+        "query_id": "50_922",
+        "wiki_title": "People of the Black Mountains",
+        "entity_id": "Q7165973"
+    },
+    {
+        "query_id": "50_923",
+        "wiki_title": "The Man Who Went Back",
+        "entity_id": "Q7749986"
+    },
+    {
+        "query_id": "50_924",
+        "wiki_title": "A Very Short Story",
+        "entity_id": "Q10854227"
+    },
+    {
+        "query_id": "50_925",
+        "wiki_title": "No More Dying Then",
+        "entity_id": "Q7044529"
+    },
+    {
+        "query_id": "50_926",
+        "wiki_title": "Ramona and Her Father",
+        "entity_id": "Q7289937"
+    },
+    {
+        "query_id": "50_927",
+        "wiki_title": "Albertine disparue",
+        "entity_id": "Q1618982"
+    },
+    {
+        "query_id": "50_928",
+        "wiki_title": "The Zahir",
+        "entity_id": "Q1420059"
+    },
+    {
+        "query_id": "50_929",
+        "wiki_title": "Thin Air (Star Trek)",
+        "entity_id": "Q7784253"
+    },
+    {
+        "query_id": "50_930",
+        "wiki_title": "Grey Gardens (musical)",
+        "entity_id": "Q5608162"
+    },
+    {
+        "query_id": "50_931",
+        "wiki_title": "You Can't See 'Round Corners (novel)",
+        "entity_id": "Q8057047"
+    },
+    {
+        "query_id": "50_932",
+        "wiki_title": "The Sleep of Reason (Day novel)",
+        "entity_id": "Q7764777"
+    },
+    {
+        "query_id": "50_933",
+        "wiki_title": "The Golden Ass",
+        "entity_id": "Q1044767"
+    },
+    {
+        "query_id": "50_934",
+        "wiki_title": "Train Train (manga)",
+        "entity_id": "Q4646052"
+    },
+    {
+        "query_id": "50_935",
+        "wiki_title": "All Tomorrow's Parties (novel)",
+        "entity_id": "Q900595"
+    },
+    {
+        "query_id": "50_936",
+        "wiki_title": "McOndo (book)",
+        "entity_id": "Q6802567"
+    },
+    {
+        "query_id": "50_937",
+        "wiki_title": "Aiding and Abetting (novel)",
+        "entity_id": "Q4696787"
+    },
+    {
+        "query_id": "50_938",
+        "wiki_title": "The Rescuers (book)",
+        "entity_id": "Q16639772"
+    },
+    {
+        "query_id": "50_939",
+        "wiki_title": "The Clue of the Black Keys",
+        "entity_id": "Q7723545"
+    },
+    {
+        "query_id": "50_940",
+        "wiki_title": "Counting the Eons",
+        "entity_id": "Q5177161"
+    },
+    {
+        "query_id": "50_941",
+        "wiki_title": "Troy: Fall of Kings",
+        "entity_id": "Q3821543"
+    },
+    {
+        "query_id": "50_942",
+        "wiki_title": "Richard and Samuel",
+        "entity_id": "Q2151010"
+    },
+    {
+        "query_id": "50_943",
+        "wiki_title": "Rosso Malpelo",
+        "entity_id": "Q1618027"
+    },
+    {
+        "query_id": "50_944",
+        "wiki_title": "World of Wonder (anthology)",
+        "entity_id": "Q8036644"
+    },
+    {
+        "query_id": "50_945",
+        "wiki_title": "The Short Reign of Pippin IV",
+        "entity_id": "Q2378518"
+    },
+    {
+        "query_id": "50_946",
+        "wiki_title": "Like (novel)",
+        "entity_id": "Q6547048"
+    },
+    {
+        "query_id": "50_947",
+        "wiki_title": "The Rise of David Levinsky",
+        "entity_id": "Q7760882"
+    },
+    {
+        "query_id": "50_948",
+        "wiki_title": "Hitlers Zweites Buch",
+        "entity_id": "Q706852"
+    },
+    {
+        "query_id": "50_949",
+        "wiki_title": "An Equal Music",
+        "entity_id": "Q4749927"
+    },
+    {
+        "query_id": "50_950",
+        "wiki_title": "The Mersey Sound (anthology)",
+        "entity_id": "Q7751115"
+    },
+    {
+        "query_id": "50_951",
+        "wiki_title": "The Golden Age of Science Fiction (anthology)",
+        "entity_id": "Q7736989"
+    },
+    {
+        "query_id": "50_952",
+        "wiki_title": "The Tower and the Hive",
+        "entity_id": "Q7769740"
+    },
+    {
+        "query_id": "50_953",
+        "wiki_title": "Fathers and Sons (novel)",
+        "entity_id": "Q29424"
+    },
+    {
+        "query_id": "50_954",
+        "wiki_title": "L game",
+        "entity_id": "Q1797732"
+    },
+    {
+        "query_id": "50_955",
+        "wiki_title": "Sonnet 92",
+        "entity_id": "Q3490606"
+    },
+    {
+        "query_id": "50_956",
+        "wiki_title": "Air Apparent",
+        "entity_id": "Q4697733"
+    },
+    {
+        "query_id": "50_957",
+        "wiki_title": "The Survival Handbook",
+        "entity_id": "Q7767541"
+    },
+    {
+        "query_id": "50_958",
+        "wiki_title": "Sick Puppy",
+        "entity_id": "Q7507580"
+    },
+    {
+        "query_id": "50_959",
+        "wiki_title": "Julian Comstock: A Story of 22nd-Century America",
+        "entity_id": "Q15731773"
+    },
+    {
+        "query_id": "50_960",
+        "wiki_title": "Brihatkatha",
+        "entity_id": "Q3631820"
+    },
+    {
+        "query_id": "50_961",
+        "wiki_title": "The Two Dianas",
+        "entity_id": "Q4155630"
+    },
+    {
+        "query_id": "50_962",
+        "wiki_title": "Othappu",
+        "entity_id": "Q7108553"
+    },
+    {
+        "query_id": "50_963",
+        "wiki_title": "Fingerprints of the Gods",
+        "entity_id": "Q500026"
+    },
+    {
+        "query_id": "50_964",
+        "wiki_title": "Reveries of the Solitary Walker",
+        "entity_id": "Q129476"
+    },
+    {
+        "query_id": "50_965",
+        "wiki_title": "The Year's Best Science Fiction: Twenty-Third Annual Collection",
+        "entity_id": "Q7776565"
+    },
+    {
+        "query_id": "50_966",
+        "wiki_title": "Last Call (novel)",
+        "entity_id": "Q610680"
+    },
+    {
+        "query_id": "50_967",
+        "wiki_title": "Boy (autobiography)",
+        "entity_id": "Q2059424"
+    },
+    {
+        "query_id": "50_968",
+        "wiki_title": "Champion (novel)",
+        "entity_id": "Q16858922"
+    },
+    {
+        "query_id": "50_969",
+        "wiki_title": "The Two Noble Kinsmen",
+        "entity_id": "Q53590"
+    },
+    {
+        "query_id": "50_970",
+        "wiki_title": "Neither Here nor There: Travels in Europe",
+        "entity_id": "Q1998624"
+    },
+    {
+        "query_id": "50_971",
+        "wiki_title": "The Future Eve",
+        "entity_id": "Q2411636"
+    },
+    {
+        "query_id": "50_972",
+        "wiki_title": "Blame!",
+        "entity_id": "Q91931"
+    },
+    {
+        "query_id": "50_973",
+        "wiki_title": "America Hurrah",
+        "entity_id": "Q4742764"
+    },
+    {
+        "query_id": "50_974",
+        "wiki_title": "Buck: A Memoir",
+        "entity_id": "Q16985578"
+    },
+    {
+        "query_id": "50_975",
+        "wiki_title": "Stay in Your Own Sled",
+        "entity_id": "Q4315374"
+    },
+    {
+        "query_id": "50_976",
+        "wiki_title": "The Entertainer (play)",
+        "entity_id": "Q16385611"
+    },
+    {
+        "query_id": "50_977",
+        "wiki_title": "Four Freedoms (novel)",
+        "entity_id": "Q5475177"
+    },
+    {
+        "query_id": "50_978",
+        "wiki_title": "No Ordinary Time",
+        "entity_id": "Q7044722"
+    },
+    {
+        "query_id": "50_979",
+        "wiki_title": "Vespers Rising",
+        "entity_id": "Q7923294"
+    },
+    {
+        "query_id": "50_980",
+        "wiki_title": "Envole-moi",
+        "entity_id": "Q3055496"
+    },
+    {
+        "query_id": "50_981",
+        "wiki_title": "Gotham Central",
+        "entity_id": "Q898159"
+    },
+    {
+        "query_id": "50_982",
+        "wiki_title": "Cauldron (Bond novel)",
+        "entity_id": "Q5054494"
+    },
+    {
+        "query_id": "50_983",
+        "wiki_title": "Los Vendidos",
+        "entity_id": "Q6683346"
+    },
+    {
+        "query_id": "50_984",
+        "wiki_title": "Ignited Minds",
+        "entity_id": "Q5992967"
+    },
+    {
+        "query_id": "50_985",
+        "wiki_title": "Maggie and the Pirate",
+        "entity_id": "Q6730341"
+    },
+    {
+        "query_id": "50_986",
+        "wiki_title": "House of Reckoning",
+        "entity_id": "Q16844999"
+    },
+    {
+        "query_id": "50_987",
+        "wiki_title": "Theriaca (poem)",
+        "entity_id": "Q7782984"
+    },
+    {
+        "query_id": "50_988",
+        "wiki_title": "Spinsters in Jeopardy",
+        "entity_id": "Q7577662"
+    },
+    {
+        "query_id": "50_989",
+        "wiki_title": "Marry Me (short story collection)",
+        "entity_id": "Q16386892"
+    },
+    {
+        "query_id": "50_990",
+        "wiki_title": "Lord (manga)",
+        "entity_id": "Q3259365"
+    },
+    {
+        "query_id": "50_991",
+        "wiki_title": "Knowing and the Known",
+        "entity_id": "Q6423225"
+    },
+    {
+        "query_id": "50_992",
+        "wiki_title": "Open Veins of Latin America",
+        "entity_id": "Q1084670"
+    },
+    {
+        "query_id": "50_993",
+        "wiki_title": "The Adventures of Augie March",
+        "entity_id": "Q1771746"
+    },
+    {
+        "query_id": "50_994",
+        "wiki_title": "Tanna Devei Eliyahu",
+        "entity_id": "Q1132142"
+    },
+    {
+        "query_id": "50_995",
+        "wiki_title": "The Ghost of the Grotto",
+        "entity_id": "Q1319375"
+    },
+    {
+        "query_id": "50_996",
+        "wiki_title": "Violence Jack",
+        "entity_id": "Q2255268"
+    },
+    {
+        "query_id": "50_997",
+        "wiki_title": "The Grammar of Science",
+        "entity_id": "Q7737460"
+    },
+    {
+        "query_id": "50_998",
+        "wiki_title": "Power, Profit and Protest",
+        "entity_id": "Q7236162"
+    },
+    {
+        "query_id": "50_999",
+        "wiki_title": "The Man in the Picture",
+        "entity_id": "Q7750100"
+    }
+]

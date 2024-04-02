@@ -1,0 +1,4397 @@
+[
+    {
+        "query_id": "36_0",
+        "wiki_title": "Marin County, California",
+        "entity_id": "Q108117"
+    },
+    {
+        "query_id": "36_1",
+        "wiki_title": "Panjgur District",
+        "entity_id": "Q2428944"
+    },
+    {
+        "query_id": "36_2",
+        "wiki_title": "Samos",
+        "entity_id": "Q156882"
+    },
+    {
+        "query_id": "36_3",
+        "wiki_title": "Vallegrande Province",
+        "entity_id": "Q1215562"
+    },
+    {
+        "query_id": "36_4",
+        "wiki_title": "Bon Homme County, South Dakota",
+        "entity_id": "Q484234"
+    },
+    {
+        "query_id": "36_5",
+        "wiki_title": "Emirate of Jabal Shammar",
+        "entity_id": "Q5362837"
+    },
+    {
+        "query_id": "36_6",
+        "wiki_title": "Gmina Radgoszcz",
+        "entity_id": "Q2020715"
+    },
+    {
+        "query_id": "36_7",
+        "wiki_title": "Lahore District",
+        "entity_id": "Q2315527"
+    },
+    {
+        "query_id": "36_9",
+        "wiki_title": "Chandauli district",
+        "entity_id": "Q2733369"
+    },
+    {
+        "query_id": "36_10",
+        "wiki_title": "Yadkin County, North Carolina",
+        "entity_id": "Q497284"
+    },
+    {
+        "query_id": "36_12",
+        "wiki_title": "Sergiyevo-Posadsky District",
+        "entity_id": "Q432620"
+    },
+    {
+        "query_id": "36_13",
+        "wiki_title": "Gracias a Dios Department",
+        "entity_id": "Q867112"
+    },
+    {
+        "query_id": "36_14",
+        "wiki_title": "Barda District",
+        "entity_id": "Q330857"
+    },
+    {
+        "query_id": "36_15",
+        "wiki_title": "North Kalimantan",
+        "entity_id": "Q3903"
+    },
+    {
+        "query_id": "36_16",
+        "wiki_title": "Royal Borough of Kensington and Chelsea",
+        "entity_id": "Q188801"
+    },
+    {
+        "query_id": "36_17",
+        "wiki_title": "Arrondissement of Rouen",
+        "entity_id": "Q262723"
+    },
+    {
+        "query_id": "36_18",
+        "wiki_title": "Canton of Chaulnes",
+        "entity_id": "Q166931"
+    },
+    {
+        "query_id": "36_19",
+        "wiki_title": "Mykolaiv Raion, Lviv Oblast",
+        "entity_id": "Q2991149"
+    },
+    {
+        "query_id": "36_20",
+        "wiki_title": "Collier County, Florida",
+        "entity_id": "Q488531"
+    },
+    {
+        "query_id": "36_21",
+        "wiki_title": "Lyepyel District",
+        "entity_id": "Q268331"
+    },
+    {
+        "query_id": "36_22",
+        "wiki_title": "Mid Suffolk",
+        "entity_id": "Q1931811"
+    },
+    {
+        "query_id": "36_23",
+        "wiki_title": "Haut-Katanga Province",
+        "entity_id": "Q130268"
+    },
+    {
+        "query_id": "36_24",
+        "wiki_title": "Maharashtra",
+        "entity_id": "Q1191"
+    },
+    {
+        "query_id": "36_25",
+        "wiki_title": "Neumarkt (district)",
+        "entity_id": "Q10427"
+    },
+    {
+        "query_id": "36_26",
+        "wiki_title": "Evros (peripheral unit)",
+        "entity_id": "Q206186"
+    },
+    {
+        "query_id": "36_27",
+        "wiki_title": "Angus, Scotland",
+        "entity_id": "Q202177"
+    },
+    {
+        "query_id": "36_28",
+        "wiki_title": "Sequatchie County, Tennessee",
+        "entity_id": "Q502351"
+    },
+    {
+        "query_id": "36_29",
+        "wiki_title": "Kampong Cham province",
+        "entity_id": "Q142258"
+    },
+    {
+        "query_id": "36_30",
+        "wiki_title": "Recklinghausen (district)",
+        "entity_id": "Q6214"
+    },
+    {
+        "query_id": "36_31",
+        "wiki_title": "Seychelles",
+        "entity_id": "Q1042"
+    },
+    {
+        "query_id": "36_32",
+        "wiki_title": "Janos Municipality",
+        "entity_id": "Q1998799"
+    },
+    {
+        "query_id": "36_33",
+        "wiki_title": "Eijsden-Margraten",
+        "entity_id": "Q9766"
+    },
+    {
+        "query_id": "36_34",
+        "wiki_title": "Canton of Melun-Sud",
+        "entity_id": "Q1574566"
+    },
+    {
+        "query_id": "36_35",
+        "wiki_title": "Shatursky District",
+        "entity_id": "Q2709597"
+    },
+    {
+        "query_id": "36_36",
+        "wiki_title": "Socialist Republic of Serbia",
+        "entity_id": "Q269864"
+    },
+    {
+        "query_id": "36_37",
+        "wiki_title": "French protectorate of Tunisia",
+        "entity_id": "Q2017684"
+    },
+    {
+        "query_id": "36_38",
+        "wiki_title": "Hedmark",
+        "entity_id": "Q50616"
+    },
+    {
+        "query_id": "36_39",
+        "wiki_title": "Province of Seville",
+        "entity_id": "Q95088"
+    },
+    {
+        "query_id": "36_40",
+        "wiki_title": "Portage County, Ohio",
+        "entity_id": "Q336337"
+    },
+    {
+        "query_id": "36_41",
+        "wiki_title": "Saint Mary, Antigua and Barbuda",
+        "entity_id": "Q1999872"
+    },
+    {
+        "query_id": "36_42",
+        "wiki_title": "Bolognesi Province",
+        "entity_id": "Q1166113"
+    },
+    {
+        "query_id": "36_43",
+        "wiki_title": "Inchiri Region",
+        "entity_id": "Q850022"
+    },
+    {
+        "query_id": "36_44",
+        "wiki_title": "Saint Thomas Parish, Jamaica",
+        "entity_id": "Q1422332"
+    },
+    {
+        "query_id": "36_45",
+        "wiki_title": "Delaware County, Indiana",
+        "entity_id": "Q509798"
+    },
+    {
+        "query_id": "36_46",
+        "wiki_title": "Rockhampton Region",
+        "entity_id": "Q201774"
+    },
+    {
+        "query_id": "36_47",
+        "wiki_title": "Tablelands Region",
+        "entity_id": "Q1066876"
+    },
+    {
+        "query_id": "36_48",
+        "wiki_title": "Chaharmahal and Bakhtiari province",
+        "entity_id": "Q171702"
+    },
+    {
+        "query_id": "36_49",
+        "wiki_title": "Quillota Province",
+        "entity_id": "Q721567"
+    },
+    {
+        "query_id": "36_50",
+        "wiki_title": "Novokhopyorsky District",
+        "entity_id": "Q3879092"
+    },
+    {
+        "query_id": "36_51",
+        "wiki_title": "French Algeria",
+        "entity_id": "Q218272"
+    },
+    {
+        "query_id": "36_52",
+        "wiki_title": "Municipal District of Willow Creek No. 26",
+        "entity_id": "Q8022297"
+    },
+    {
+        "query_id": "36_53",
+        "wiki_title": "Brezno District",
+        "entity_id": "Q784394"
+    },
+    {
+        "query_id": "36_54",
+        "wiki_title": "Tiflis Governorate",
+        "entity_id": "Q1773517"
+    },
+    {
+        "query_id": "36_55",
+        "wiki_title": "Centre-Val de Loire",
+        "entity_id": "Q13947"
+    },
+    {
+        "query_id": "36_56",
+        "wiki_title": "Aboriginal Shire of Doomadgee",
+        "entity_id": "Q1221662"
+    },
+    {
+        "query_id": "36_57",
+        "wiki_title": "Tachov District",
+        "entity_id": "Q838338"
+    },
+    {
+        "query_id": "36_58",
+        "wiki_title": "Garfield County, Oklahoma",
+        "entity_id": "Q484729"
+    },
+    {
+        "query_id": "36_59",
+        "wiki_title": "First Spanish Republic",
+        "entity_id": "Q497777"
+    },
+    {
+        "query_id": "36_60",
+        "wiki_title": "Goondiwindi Region",
+        "entity_id": "Q162021"
+    },
+    {
+        "query_id": "36_61",
+        "wiki_title": "Province of Bergamo",
+        "entity_id": "Q16137"
+    },
+    {
+        "query_id": "36_62",
+        "wiki_title": "Clarence Valley Council",
+        "entity_id": "Q283019"
+    },
+    {
+        "query_id": "36_63",
+        "wiki_title": "Twiggs County, Georgia",
+        "entity_id": "Q503551"
+    },
+    {
+        "query_id": "36_64",
+        "wiki_title": "Later Qin",
+        "entity_id": "Q1730130"
+    },
+    {
+        "query_id": "36_65",
+        "wiki_title": "Arrondissement of Troyes",
+        "entity_id": "Q702672"
+    },
+    {
+        "query_id": "36_66",
+        "wiki_title": "Former Shu",
+        "entity_id": "Q571453"
+    },
+    {
+        "query_id": "36_67",
+        "wiki_title": "Arenac County, Michigan",
+        "entity_id": "Q491868"
+    },
+    {
+        "query_id": "36_68",
+        "wiki_title": "Northamptonshire",
+        "entity_id": "Q23115"
+    },
+    {
+        "query_id": "36_69",
+        "wiki_title": "Schellenberg",
+        "entity_id": "Q49655"
+    },
+    {
+        "query_id": "36_70",
+        "wiki_title": "Tuolumne County, California",
+        "entity_id": "Q156346"
+    },
+    {
+        "query_id": "36_71",
+        "wiki_title": "Pechorsky District",
+        "entity_id": "Q2534084"
+    },
+    {
+        "query_id": "36_72",
+        "wiki_title": "Khanty-Mansiysky District",
+        "entity_id": "Q557518"
+    },
+    {
+        "query_id": "36_73",
+        "wiki_title": "Canton of L'Isle-sur-la-Sorgue",
+        "entity_id": "Q1486688"
+    },
+    {
+        "query_id": "36_74",
+        "wiki_title": "Atenas (canton)",
+        "entity_id": "Q2406261"
+    },
+    {
+        "query_id": "36_75",
+        "wiki_title": "Woodford County, Kentucky",
+        "entity_id": "Q503442"
+    },
+    {
+        "query_id": "36_76",
+        "wiki_title": "Province of Frosinone",
+        "entity_id": "Q16181"
+    },
+    {
+        "query_id": "36_77",
+        "wiki_title": "West Midlands (county)",
+        "entity_id": "Q23124"
+    },
+    {
+        "query_id": "36_78",
+        "wiki_title": "British rule in Burma",
+        "entity_id": "Q2376315"
+    },
+    {
+        "query_id": "36_79",
+        "wiki_title": "Gmina Stoszowice",
+        "entity_id": "Q2318547"
+    },
+    {
+        "query_id": "36_80",
+        "wiki_title": "Marshall County, Mississippi",
+        "entity_id": "Q842902"
+    },
+    {
+        "query_id": "36_81",
+        "wiki_title": "Pestovsky District",
+        "entity_id": "Q636384"
+    },
+    {
+        "query_id": "36_82",
+        "wiki_title": "Tippah County, Mississippi",
+        "entity_id": "Q484648"
+    },
+    {
+        "query_id": "36_83",
+        "wiki_title": "Serdobsky District",
+        "entity_id": "Q1653888"
+    },
+    {
+        "query_id": "36_84",
+        "wiki_title": "Suure-Jaani Parish",
+        "entity_id": "Q2092418"
+    },
+    {
+        "query_id": "36_85",
+        "wiki_title": "Belomorsky District",
+        "entity_id": "Q792506"
+    },
+    {
+        "query_id": "36_86",
+        "wiki_title": "Masbate",
+        "entity_id": "Q13847"
+    },
+    {
+        "query_id": "36_87",
+        "wiki_title": "West Lancashire",
+        "entity_id": "Q1290796"
+    },
+    {
+        "query_id": "36_88",
+        "wiki_title": "Ter (department)",
+        "entity_id": "Q1090691"
+    },
+    {
+        "query_id": "36_89",
+        "wiki_title": "Canton of Henrichemont",
+        "entity_id": "Q1657694"
+    },
+    {
+        "query_id": "36_90",
+        "wiki_title": "Leuk District",
+        "entity_id": "Q661326"
+    },
+    {
+        "query_id": "36_91",
+        "wiki_title": "Arrondissement of Pontarlier",
+        "entity_id": "Q515493"
+    },
+    {
+        "query_id": "36_92",
+        "wiki_title": "Rains County, Texas",
+        "entity_id": "Q112698"
+    },
+    {
+        "query_id": "36_93",
+        "wiki_title": "Anushtegin dynasty",
+        "entity_id": "Q486918"
+    },
+    {
+        "query_id": "36_94",
+        "wiki_title": "South Northamptonshire",
+        "entity_id": "Q1432575"
+    },
+    {
+        "query_id": "36_95",
+        "wiki_title": "Buhweju District",
+        "entity_id": "Q3537661"
+    },
+    {
+        "query_id": "36_96",
+        "wiki_title": "Missoula County, Montana",
+        "entity_id": "Q496558"
+    },
+    {
+        "query_id": "36_97",
+        "wiki_title": "Schwarzenburg District",
+        "entity_id": "Q665636"
+    },
+    {
+        "query_id": "36_98",
+        "wiki_title": "Vovchansk Raion",
+        "entity_id": "Q2216115"
+    },
+    {
+        "query_id": "36_99",
+        "wiki_title": "Klimavichy District",
+        "entity_id": "Q1997073"
+    },
+    {
+        "query_id": "36_100",
+        "wiki_title": "Simferopol Raion",
+        "entity_id": "Q2237983"
+    },
+    {
+        "query_id": "36_101",
+        "wiki_title": "Jones County, Mississippi",
+        "entity_id": "Q130008"
+    },
+    {
+        "query_id": "36_102",
+        "wiki_title": "Hesse",
+        "entity_id": "Q1199"
+    },
+    {
+        "query_id": "36_103",
+        "wiki_title": "Telemark",
+        "entity_id": "Q2254"
+    },
+    {
+        "query_id": "36_104",
+        "wiki_title": "Mono Department",
+        "entity_id": "Q29135"
+    },
+    {
+        "query_id": "36_105",
+        "wiki_title": "Rio Blanco County, Colorado",
+        "entity_id": "Q492044"
+    },
+    {
+        "query_id": "36_106",
+        "wiki_title": "Kushinagar district",
+        "entity_id": "Q1840355"
+    },
+    {
+        "query_id": "36_107",
+        "wiki_title": "Arrondissement of Lorient",
+        "entity_id": "Q701562"
+    },
+    {
+        "query_id": "36_108",
+        "wiki_title": "Carson County, Texas",
+        "entity_id": "Q109155"
+    },
+    {
+        "query_id": "36_109",
+        "wiki_title": "Gila County, Arizona",
+        "entity_id": "Q58686"
+    },
+    {
+        "query_id": "36_110",
+        "wiki_title": "Kaufman County, Texas",
+        "entity_id": "Q110486"
+    },
+    {
+        "query_id": "36_111",
+        "wiki_title": "Province of Reggio Calabria",
+        "entity_id": "Q16253"
+    },
+    {
+        "query_id": "36_112",
+        "wiki_title": "Aigeiros",
+        "entity_id": "Q2466239"
+    },
+    {
+        "query_id": "36_113",
+        "wiki_title": "Parker County, Texas",
+        "entity_id": "Q110779"
+    },
+    {
+        "query_id": "36_115",
+        "wiki_title": "Chin State",
+        "entity_id": "Q46910"
+    },
+    {
+        "query_id": "36_116",
+        "wiki_title": "Volga Bulgaria",
+        "entity_id": "Q185488"
+    },
+    {
+        "query_id": "36_117",
+        "wiki_title": "Tartar District",
+        "entity_id": "Q477168"
+    },
+    {
+        "query_id": "36_118",
+        "wiki_title": "Chihuahua Municipality",
+        "entity_id": "Q2475171"
+    },
+    {
+        "query_id": "36_119",
+        "wiki_title": "Beauce-Centre Regional County Municipality",
+        "entity_id": "Q1517280"
+    },
+    {
+        "query_id": "36_120",
+        "wiki_title": "Jarabulus District",
+        "entity_id": "Q4120552"
+    },
+    {
+        "query_id": "36_121",
+        "wiki_title": "Amginsky District",
+        "entity_id": "Q694932"
+    },
+    {
+        "query_id": "36_122",
+        "wiki_title": "Sisak-Moslavina County",
+        "entity_id": "Q57060"
+    },
+    {
+        "query_id": "36_123",
+        "wiki_title": "Pune district",
+        "entity_id": "Q1797336"
+    },
+    {
+        "query_id": "36_124",
+        "wiki_title": "St. Francois County, Missouri",
+        "entity_id": "Q498014"
+    },
+    {
+        "query_id": "36_125",
+        "wiki_title": "Chemung County, New York",
+        "entity_id": "Q854630"
+    },
+    {
+        "query_id": "36_126",
+        "wiki_title": "French Indochina",
+        "entity_id": "Q185682"
+    },
+    {
+        "query_id": "36_127",
+        "wiki_title": "Camiguin",
+        "entity_id": "Q13769"
+    },
+    {
+        "query_id": "36_128",
+        "wiki_title": "Namsky District",
+        "entity_id": "Q1094044"
+    },
+    {
+        "query_id": "36_129",
+        "wiki_title": "Canton of Croisilles",
+        "entity_id": "Q518464"
+    },
+    {
+        "query_id": "36_130",
+        "wiki_title": "Arrondissement of Saint-Flour",
+        "entity_id": "Q702330"
+    },
+    {
+        "query_id": "36_131",
+        "wiki_title": "Kent County, Texas",
+        "entity_id": "Q110978"
+    },
+    {
+        "query_id": "36_132",
+        "wiki_title": "Gagauzia",
+        "entity_id": "Q164819"
+    },
+    {
+        "query_id": "36_133",
+        "wiki_title": "Zand dynasty",
+        "entity_id": "Q146597"
+    },
+    {
+        "query_id": "36_134",
+        "wiki_title": "Meeker County, Minnesota",
+        "entity_id": "Q490432"
+    },
+    {
+        "query_id": "36_135",
+        "wiki_title": "Ghazni Province",
+        "entity_id": "Q180415"
+    },
+    {
+        "query_id": "36_136",
+        "wiki_title": "Bakhchysarai Raion",
+        "entity_id": "Q1948116"
+    },
+    {
+        "query_id": "36_137",
+        "wiki_title": "Santa Fe Province",
+        "entity_id": "Q44823"
+    },
+    {
+        "query_id": "36_138",
+        "wiki_title": "Galanta District",
+        "entity_id": "Q836182"
+    },
+    {
+        "query_id": "36_139",
+        "wiki_title": "Bond County, Illinois",
+        "entity_id": "Q109526"
+    },
+    {
+        "query_id": "36_140",
+        "wiki_title": "Razlog Municipality",
+        "entity_id": "Q1570650"
+    },
+    {
+        "query_id": "36_141",
+        "wiki_title": "Gmina Kamionka Wielka",
+        "entity_id": "Q2461275"
+    },
+    {
+        "query_id": "36_142",
+        "wiki_title": "Arrondissement of Loches",
+        "entity_id": "Q701543"
+    },
+    {
+        "query_id": "36_144",
+        "wiki_title": "Tissemsilt Province",
+        "entity_id": "Q235805"
+    },
+    {
+        "query_id": "36_145",
+        "wiki_title": "Quebec",
+        "entity_id": "Q176"
+    },
+    {
+        "query_id": "36_146",
+        "wiki_title": "Sylhet District",
+        "entity_id": "Q2093352"
+    },
+    {
+        "query_id": "36_147",
+        "wiki_title": "Muharraq Governorate",
+        "entity_id": "Q375630"
+    },
+    {
+        "query_id": "36_148",
+        "wiki_title": "San Diego County, California",
+        "entity_id": "Q108143"
+    },
+    {
+        "query_id": "36_149",
+        "wiki_title": "Phetchaburi province",
+        "entity_id": "Q244699"
+    },
+    {
+        "query_id": "36_150",
+        "wiki_title": "Quintana Roo",
+        "entity_id": "Q80245"
+    },
+    {
+        "query_id": "36_151",
+        "wiki_title": "Canton of Vaison-la-Romaine",
+        "entity_id": "Q1727723"
+    },
+    {
+        "query_id": "36_152",
+        "wiki_title": "Saptari District",
+        "entity_id": "Q28613"
+    },
+    {
+        "query_id": "36_153",
+        "wiki_title": "Somerset County, Pennsylvania",
+        "entity_id": "Q490908"
+    },
+    {
+        "query_id": "36_154",
+        "wiki_title": "Amuria District",
+        "entity_id": "Q1375762"
+    },
+    {
+        "query_id": "36_155",
+        "wiki_title": "OR Tambo District Municipality",
+        "entity_id": "Q2007299"
+    },
+    {
+        "query_id": "36_156",
+        "wiki_title": "Kars oblast",
+        "entity_id": "Q60011"
+    },
+    {
+        "query_id": "36_157",
+        "wiki_title": "Department of Ucayali",
+        "entity_id": "Q207424"
+    },
+    {
+        "query_id": "36_158",
+        "wiki_title": "Colonial Brazil",
+        "entity_id": "Q2088324"
+    },
+    {
+        "query_id": "36_159",
+        "wiki_title": "Chaouia-Ouardigha",
+        "entity_id": "Q390331"
+    },
+    {
+        "query_id": "36_160",
+        "wiki_title": "Province of Nuoro",
+        "entity_id": "Q16220"
+    },
+    {
+        "query_id": "36_161",
+        "wiki_title": "Osijek Oblast",
+        "entity_id": "Q7106790"
+    },
+    {
+        "query_id": "36_162",
+        "wiki_title": "Aksakovo Municipality",
+        "entity_id": "Q2715403"
+    },
+    {
+        "query_id": "36_163",
+        "wiki_title": "Puster Valley",
+        "entity_id": "Q698451"
+    },
+    {
+        "query_id": "36_164",
+        "wiki_title": "Kstovsky District",
+        "entity_id": "Q1652869"
+    },
+    {
+        "query_id": "36_165",
+        "wiki_title": "Glacier County, Montana",
+        "entity_id": "Q31091"
+    },
+    {
+        "query_id": "36_166",
+        "wiki_title": "Maladzyechna District",
+        "entity_id": "Q2061340"
+    },
+    {
+        "query_id": "36_167",
+        "wiki_title": "Assaba Region",
+        "entity_id": "Q738546"
+    },
+    {
+        "query_id": "36_168",
+        "wiki_title": "Bojanala Platinum District Municipality",
+        "entity_id": "Q891165"
+    },
+    {
+        "query_id": "36_169",
+        "wiki_title": "Partille Municipality",
+        "entity_id": "Q125222"
+    },
+    {
+        "query_id": "36_170",
+        "wiki_title": "Haskovo Province",
+        "entity_id": "Q182809"
+    },
+    {
+        "query_id": "36_171",
+        "wiki_title": "Leflore County, Mississippi",
+        "entity_id": "Q497607"
+    },
+    {
+        "query_id": "36_172",
+        "wiki_title": "Canton of Bray-sur-Somme",
+        "entity_id": "Q137491"
+    },
+    {
+        "query_id": "36_173",
+        "wiki_title": "Southern Federal District",
+        "entity_id": "Q483599"
+    },
+    {
+        "query_id": "36_174",
+        "wiki_title": "James City County, Virginia",
+        "entity_id": "Q337688"
+    },
+    {
+        "query_id": "36_175",
+        "wiki_title": "Webster County, Iowa",
+        "entity_id": "Q485726"
+    },
+    {
+        "query_id": "36_176",
+        "wiki_title": "Gmina Paszowice",
+        "entity_id": "Q1432228"
+    },
+    {
+        "query_id": "36_177",
+        "wiki_title": "New Brunswick",
+        "entity_id": "Q1965"
+    },
+    {
+        "query_id": "36_178",
+        "wiki_title": "Concordia Parish, Louisiana",
+        "entity_id": "Q509745"
+    },
+    {
+        "query_id": "36_179",
+        "wiki_title": "Santa Catarina, Cape Verde",
+        "entity_id": "Q494882"
+    },
+    {
+        "query_id": "36_180",
+        "wiki_title": "Mahshahr County",
+        "entity_id": "Q1279126"
+    },
+    {
+        "query_id": "36_181",
+        "wiki_title": "Msunduzi Local Municipality",
+        "entity_id": "Q1815510"
+    },
+    {
+        "query_id": "36_182",
+        "wiki_title": "Banke District",
+        "entity_id": "Q28447"
+    },
+    {
+        "query_id": "36_183",
+        "wiki_title": "San Antonio de Areco Partido",
+        "entity_id": "Q2398056"
+    },
+    {
+        "query_id": "36_184",
+        "wiki_title": "Greece",
+        "entity_id": "Q41"
+    },
+    {
+        "query_id": "36_185",
+        "wiki_title": "Centrocaspian Dictatorship",
+        "entity_id": "Q190636"
+    },
+    {
+        "query_id": "36_186",
+        "wiki_title": "Sniatyn Raion",
+        "entity_id": "Q1035648"
+    },
+    {
+        "query_id": "36_187",
+        "wiki_title": "Crist\u00f3bal Rojas Municipality",
+        "entity_id": "Q2112101"
+    },
+    {
+        "query_id": "36_188",
+        "wiki_title": "Stirling (council area)",
+        "entity_id": "Q217838"
+    },
+    {
+        "query_id": "36_189",
+        "wiki_title": "Champasak province",
+        "entity_id": "Q334888"
+    },
+    {
+        "query_id": "36_190",
+        "wiki_title": "Tuva",
+        "entity_id": "Q960"
+    },
+    {
+        "query_id": "36_191",
+        "wiki_title": "South Sinai Governorate",
+        "entity_id": "Q30815"
+    },
+    {
+        "query_id": "36_192",
+        "wiki_title": "Vologda Governorate",
+        "entity_id": "Q86761"
+    },
+    {
+        "query_id": "36_193",
+        "wiki_title": "Pettis County, Missouri",
+        "entity_id": "Q497642"
+    },
+    {
+        "query_id": "36_194",
+        "wiki_title": "Electorate of Cologne",
+        "entity_id": "Q7904317"
+    },
+    {
+        "query_id": "36_195",
+        "wiki_title": "Gmina Kietrz",
+        "entity_id": "Q2461266"
+    },
+    {
+        "query_id": "36_196",
+        "wiki_title": "Province of Matera",
+        "entity_id": "Q16206"
+    },
+    {
+        "query_id": "36_197",
+        "wiki_title": "Municipality of Grosuplje",
+        "entity_id": "Q13377778"
+    },
+    {
+        "query_id": "36_198",
+        "wiki_title": "Harry Gwala District Municipality",
+        "entity_id": "Q549746"
+    },
+    {
+        "query_id": "36_199",
+        "wiki_title": "Avoyelles Parish, Louisiana",
+        "entity_id": "Q504435"
+    },
+    {
+        "query_id": "36_200",
+        "wiki_title": "\u00d6zg\u00f6n District",
+        "entity_id": "Q2556736"
+    },
+    {
+        "query_id": "36_201",
+        "wiki_title": "Umbskaya Volost",
+        "entity_id": "Q4475362"
+    },
+    {
+        "query_id": "36_202",
+        "wiki_title": "Saxe-Gotha",
+        "entity_id": "Q700229"
+    },
+    {
+        "query_id": "36_203",
+        "wiki_title": "Jabal al Akhdar",
+        "entity_id": "Q32841"
+    },
+    {
+        "query_id": "36_204",
+        "wiki_title": "Park County, Wyoming",
+        "entity_id": "Q156385"
+    },
+    {
+        "query_id": "36_205",
+        "wiki_title": "Humboldt County, Nevada",
+        "entity_id": "Q495376"
+    },
+    {
+        "query_id": "36_206",
+        "wiki_title": "Cattaraugus County, New York",
+        "entity_id": "Q114923"
+    },
+    {
+        "query_id": "36_207",
+        "wiki_title": "Basel-Landschaft",
+        "entity_id": "Q12146"
+    },
+    {
+        "query_id": "36_208",
+        "wiki_title": "Friesland",
+        "entity_id": "Q770"
+    },
+    {
+        "query_id": "36_209",
+        "wiki_title": "Tang dynasty",
+        "entity_id": "Q9683"
+    },
+    {
+        "query_id": "36_210",
+        "wiki_title": "Nouvelle-Aquitaine",
+        "entity_id": "Q18678082"
+    },
+    {
+        "query_id": "36_211",
+        "wiki_title": "Gandhinagar district",
+        "entity_id": "Q1772860"
+    },
+    {
+        "query_id": "36_212",
+        "wiki_title": "Saint-Avold 1st Canton",
+        "entity_id": "Q644514"
+    },
+    {
+        "query_id": "36_213",
+        "wiki_title": "Xhariep District Municipality",
+        "entity_id": "Q2006764"
+    },
+    {
+        "query_id": "36_214",
+        "wiki_title": "Marion County, Oregon",
+        "entity_id": "Q484408"
+    },
+    {
+        "query_id": "36_215",
+        "wiki_title": "Del Norte County, California",
+        "entity_id": "Q156186"
+    },
+    {
+        "query_id": "36_216",
+        "wiki_title": "Northern Borders Province",
+        "entity_id": "Q201781"
+    },
+    {
+        "query_id": "36_217",
+        "wiki_title": "Takhar Province",
+        "entity_id": "Q186395"
+    },
+    {
+        "query_id": "36_218",
+        "wiki_title": "Taifa of Orihuela",
+        "entity_id": "Q764697"
+    },
+    {
+        "query_id": "36_219",
+        "wiki_title": "Ochakiv Raion",
+        "entity_id": "Q41440"
+    },
+    {
+        "query_id": "36_220",
+        "wiki_title": "Jasper County, South Carolina",
+        "entity_id": "Q112957"
+    },
+    {
+        "query_id": "36_221",
+        "wiki_title": "Upshur County, West Virginia",
+        "entity_id": "Q495175"
+    },
+    {
+        "query_id": "36_222",
+        "wiki_title": "Province of Medio Campidano",
+        "entity_id": "Q16207"
+    },
+    {
+        "query_id": "36_223",
+        "wiki_title": "Kemerovsky District",
+        "entity_id": "Q1652878"
+    },
+    {
+        "query_id": "36_224",
+        "wiki_title": "Arrondissement of Bourg-en-Bresse",
+        "entity_id": "Q700721"
+    },
+    {
+        "query_id": "36_225",
+        "wiki_title": "American Samoa",
+        "entity_id": "Q16641"
+    },
+    {
+        "query_id": "36_226",
+        "wiki_title": "Howard County, Maryland",
+        "entity_id": "Q398939"
+    },
+    {
+        "query_id": "36_227",
+        "wiki_title": "Miami County, Ohio",
+        "entity_id": "Q489595"
+    },
+    {
+        "query_id": "36_228",
+        "wiki_title": "Plesetsky District",
+        "entity_id": "Q2468373"
+    },
+    {
+        "query_id": "36_229",
+        "wiki_title": "Duchy of Siewierz",
+        "entity_id": "Q1395320"
+    },
+    {
+        "query_id": "36_230",
+        "wiki_title": "Kudymkarsky District",
+        "entity_id": "Q768236"
+    },
+    {
+        "query_id": "36_231",
+        "wiki_title": "Sigmaringen (district)",
+        "entity_id": "Q8230"
+    },
+    {
+        "query_id": "36_232",
+        "wiki_title": "Columbia County, New York",
+        "entity_id": "Q115200"
+    },
+    {
+        "query_id": "36_233",
+        "wiki_title": "Zaire",
+        "entity_id": "Q6500954"
+    },
+    {
+        "query_id": "36_234",
+        "wiki_title": "Yadrinsky District",
+        "entity_id": "Q2634223"
+    },
+    {
+        "query_id": "36_235",
+        "wiki_title": "Basilicata",
+        "entity_id": "Q1452"
+    },
+    {
+        "query_id": "36_236",
+        "wiki_title": "Sevlievo Municipality",
+        "entity_id": "Q2719895"
+    },
+    {
+        "query_id": "36_237",
+        "wiki_title": "Kingdom of Dalmatia",
+        "entity_id": "Q698248"
+    },
+    {
+        "query_id": "36_239",
+        "wiki_title": "Armavir Province",
+        "entity_id": "Q201147"
+    },
+    {
+        "query_id": "36_240",
+        "wiki_title": "Tayshetsky District",
+        "entity_id": "Q1655792"
+    },
+    {
+        "query_id": "36_241",
+        "wiki_title": "Sousse Governorate",
+        "entity_id": "Q276565"
+    },
+    {
+        "query_id": "36_242",
+        "wiki_title": "Union of South Africa",
+        "entity_id": "Q193619"
+    },
+    {
+        "query_id": "36_243",
+        "wiki_title": "European Union",
+        "entity_id": "Q458"
+    },
+    {
+        "query_id": "36_244",
+        "wiki_title": "Mali",
+        "entity_id": "Q912"
+    },
+    {
+        "query_id": "36_245",
+        "wiki_title": "Corrientes Province",
+        "entity_id": "Q44758"
+    },
+    {
+        "query_id": "36_246",
+        "wiki_title": "Berea District",
+        "entity_id": "Q737086"
+    },
+    {
+        "query_id": "36_248",
+        "wiki_title": "Menard County, Illinois",
+        "entity_id": "Q486503"
+    },
+    {
+        "query_id": "36_249",
+        "wiki_title": "Province of Badajoz",
+        "entity_id": "Q81803"
+    },
+    {
+        "query_id": "36_250",
+        "wiki_title": "Ioannina (regional unit)",
+        "entity_id": "Q212921"
+    },
+    {
+        "query_id": "36_251",
+        "wiki_title": "Leninsk-Kuznetsky District",
+        "entity_id": "Q1652683"
+    },
+    {
+        "query_id": "36_252",
+        "wiki_title": "South Chungcheong Province",
+        "entity_id": "Q41070"
+    },
+    {
+        "query_id": "36_253",
+        "wiki_title": "Oran Province",
+        "entity_id": "Q231331"
+    },
+    {
+        "query_id": "36_254",
+        "wiki_title": "Adams County, Ohio",
+        "entity_id": "Q109969"
+    },
+    {
+        "query_id": "36_255",
+        "wiki_title": "Canton of Hesdin",
+        "entity_id": "Q1725497"
+    },
+    {
+        "query_id": "36_256",
+        "wiki_title": "Haryana",
+        "entity_id": "Q1174"
+    },
+    {
+        "query_id": "36_257",
+        "wiki_title": "Ketchikan Gateway Borough, Alaska",
+        "entity_id": "Q506064"
+    },
+    {
+        "query_id": "36_258",
+        "wiki_title": "Dhamar Governorate",
+        "entity_id": "Q328193"
+    },
+    {
+        "query_id": "36_259",
+        "wiki_title": "Hudiksvall County",
+        "entity_id": "Q2026858"
+    },
+    {
+        "query_id": "36_260",
+        "wiki_title": "Aksaysky District",
+        "entity_id": "Q2217097"
+    },
+    {
+        "query_id": "36_261",
+        "wiki_title": "Ostalbkreis",
+        "entity_id": "Q8522"
+    },
+    {
+        "query_id": "36_262",
+        "wiki_title": "Mtsensky District",
+        "entity_id": "Q2217688"
+    },
+    {
+        "query_id": "36_263",
+        "wiki_title": "Tokelau",
+        "entity_id": "Q36823"
+    },
+    {
+        "query_id": "36_264",
+        "wiki_title": "Richardson County, Nebraska",
+        "entity_id": "Q489762"
+    },
+    {
+        "query_id": "36_265",
+        "wiki_title": "East Germany",
+        "entity_id": "Q16957"
+    },
+    {
+        "query_id": "36_266",
+        "wiki_title": "Odisha",
+        "entity_id": "Q22048"
+    },
+    {
+        "query_id": "36_267",
+        "wiki_title": "Arrondissement of Cherbourg",
+        "entity_id": "Q700914"
+    },
+    {
+        "query_id": "36_268",
+        "wiki_title": "Kokura Domain",
+        "entity_id": "Q1140943"
+    },
+    {
+        "query_id": "36_269",
+        "wiki_title": "Dahomey",
+        "entity_id": "Q468814"
+    },
+    {
+        "query_id": "36_270",
+        "wiki_title": "Pando Department",
+        "entity_id": "Q235362"
+    },
+    {
+        "query_id": "36_271",
+        "wiki_title": "Sonkovsky District",
+        "entity_id": "Q369204"
+    },
+    {
+        "query_id": "36_272",
+        "wiki_title": "Leavenworth County, Kansas",
+        "entity_id": "Q379660"
+    },
+    {
+        "query_id": "36_273",
+        "wiki_title": "Phelps County, Nebraska",
+        "entity_id": "Q496115"
+    },
+    {
+        "query_id": "36_274",
+        "wiki_title": "Gomel Region",
+        "entity_id": "Q188732"
+    },
+    {
+        "query_id": "36_275",
+        "wiki_title": "Chiayi County",
+        "entity_id": "Q166977"
+    },
+    {
+        "query_id": "36_276",
+        "wiki_title": "Gmina Tyczyn",
+        "entity_id": "Q978824"
+    },
+    {
+        "query_id": "36_277",
+        "wiki_title": "Shire of Paroo",
+        "entity_id": "Q1066844"
+    },
+    {
+        "query_id": "36_278",
+        "wiki_title": "Futaleuf\u00fa Department",
+        "entity_id": "Q374155"
+    },
+    {
+        "query_id": "36_279",
+        "wiki_title": "Centre-Sud Region",
+        "entity_id": "Q853405"
+    },
+    {
+        "query_id": "36_280",
+        "wiki_title": "Mille Lacs County, Minnesota",
+        "entity_id": "Q491214"
+    },
+    {
+        "query_id": "36_281",
+        "wiki_title": "Zarumilla Province",
+        "entity_id": "Q1477797"
+    },
+    {
+        "query_id": "36_282",
+        "wiki_title": "Arrondissement of Nantua",
+        "entity_id": "Q682085"
+    },
+    {
+        "query_id": "36_283",
+        "wiki_title": "Gmina Rudna",
+        "entity_id": "Q776885"
+    },
+    {
+        "query_id": "36_284",
+        "wiki_title": "Carabobo",
+        "entity_id": "Q191186"
+    },
+    {
+        "query_id": "36_285",
+        "wiki_title": "Republic of Venice",
+        "entity_id": "Q4948"
+    },
+    {
+        "query_id": "36_286",
+        "wiki_title": "Hood County, Texas",
+        "entity_id": "Q485912"
+    },
+    {
+        "query_id": "36_287",
+        "wiki_title": "Henry County, Virginia",
+        "entity_id": "Q505841"
+    },
+    {
+        "query_id": "36_288",
+        "wiki_title": "Kingdom of Galicia",
+        "entity_id": "Q303421"
+    },
+    {
+        "query_id": "36_289",
+        "wiki_title": "Wanica District",
+        "entity_id": "Q1147524"
+    },
+    {
+        "query_id": "36_290",
+        "wiki_title": "Cartago Province",
+        "entity_id": "Q502181"
+    },
+    {
+        "query_id": "36_291",
+        "wiki_title": "Caron\u00ed Municipality",
+        "entity_id": "Q2354199"
+    },
+    {
+        "query_id": "36_292",
+        "wiki_title": "Tripp County, South Dakota",
+        "entity_id": "Q426360"
+    },
+    {
+        "query_id": "36_293",
+        "wiki_title": "Gomba District",
+        "entity_id": "Q3321637"
+    },
+    {
+        "query_id": "36_294",
+        "wiki_title": "Canton of Moreuil",
+        "entity_id": "Q1719125"
+    },
+    {
+        "query_id": "36_295",
+        "wiki_title": "Regensburg (district)",
+        "entity_id": "Q10429"
+    },
+    {
+        "query_id": "36_296",
+        "wiki_title": "Tawang district",
+        "entity_id": "Q15449"
+    },
+    {
+        "query_id": "36_297",
+        "wiki_title": "Lenvik",
+        "entity_id": "Q499770"
+    },
+    {
+        "query_id": "36_298",
+        "wiki_title": "Dumfries and Galloway",
+        "entity_id": "Q126514"
+    },
+    {
+        "query_id": "36_299",
+        "wiki_title": "Arrondissement of Perpignan",
+        "entity_id": "Q702066"
+    },
+    {
+        "query_id": "36_300",
+        "wiki_title": "Waldeck-Frankenberg",
+        "entity_id": "Q7893"
+    },
+    {
+        "query_id": "36_301",
+        "wiki_title": "Lalitpur District, Nepal",
+        "entity_id": "Q1108338"
+    },
+    {
+        "query_id": "36_302",
+        "wiki_title": "Verkhotursky District",
+        "entity_id": "Q4145657"
+    },
+    {
+        "query_id": "36_303",
+        "wiki_title": "Parvomay Municipality",
+        "entity_id": "Q2721288"
+    },
+    {
+        "query_id": "36_304",
+        "wiki_title": "Southern Han",
+        "entity_id": "Q1198071"
+    },
+    {
+        "query_id": "36_305",
+        "wiki_title": "Liamone",
+        "entity_id": "Q2310748"
+    },
+    {
+        "query_id": "36_306",
+        "wiki_title": "Central Region, Uganda",
+        "entity_id": "Q429685"
+    },
+    {
+        "query_id": "36_307",
+        "wiki_title": "Canton of Val-Couesnon",
+        "entity_id": "Q1724189"
+    },
+    {
+        "query_id": "36_308",
+        "wiki_title": "Vynohradiv Raion",
+        "entity_id": "Q631629"
+    },
+    {
+        "query_id": "36_309",
+        "wiki_title": "Ostholstein",
+        "entity_id": "Q2975"
+    },
+    {
+        "query_id": "36_310",
+        "wiki_title": "Millard County, Utah",
+        "entity_id": "Q26760"
+    },
+    {
+        "query_id": "36_311",
+        "wiki_title": "Baix Vinalop\u00f3",
+        "entity_id": "Q681222"
+    },
+    {
+        "query_id": "36_312",
+        "wiki_title": "Lenawee County, Michigan",
+        "entity_id": "Q167565"
+    },
+    {
+        "query_id": "36_313",
+        "wiki_title": "Zarqa Governorate",
+        "entity_id": "Q721445"
+    },
+    {
+        "query_id": "36_314",
+        "wiki_title": "Fort-de-France 5th Canton",
+        "entity_id": "Q2691889"
+    },
+    {
+        "query_id": "36_315",
+        "wiki_title": "Colbert County, Alabama",
+        "entity_id": "Q487731"
+    },
+    {
+        "query_id": "36_316",
+        "wiki_title": "Nainital district",
+        "entity_id": "Q1797306"
+    },
+    {
+        "query_id": "36_317",
+        "wiki_title": "Nipissing District",
+        "entity_id": "Q1436530"
+    },
+    {
+        "query_id": "36_318",
+        "wiki_title": "Adams County, Indiana",
+        "entity_id": "Q351808"
+    },
+    {
+        "query_id": "36_319",
+        "wiki_title": "North Holland",
+        "entity_id": "Q701"
+    },
+    {
+        "query_id": "36_320",
+        "wiki_title": "Novozybkovsky District",
+        "entity_id": "Q2534592"
+    },
+    {
+        "query_id": "36_321",
+        "wiki_title": "Pool Department",
+        "entity_id": "Q864647"
+    },
+    {
+        "query_id": "36_322",
+        "wiki_title": "Arrondissement of Brignoles",
+        "entity_id": "Q700755"
+    },
+    {
+        "query_id": "36_323",
+        "wiki_title": "Tanintharyi Region",
+        "entity_id": "Q843954"
+    },
+    {
+        "query_id": "36_324",
+        "wiki_title": "Canton of Bains-les-Bains",
+        "entity_id": "Q1724362"
+    },
+    {
+        "query_id": "36_325",
+        "wiki_title": "Maha Sarakham province",
+        "entity_id": "Q468554"
+    },
+    {
+        "query_id": "36_326",
+        "wiki_title": "Pitkin County, Colorado",
+        "entity_id": "Q312475"
+    },
+    {
+        "query_id": "36_327",
+        "wiki_title": "Belozersky District, Vologda Oblast",
+        "entity_id": "Q1772048"
+    },
+    {
+        "query_id": "36_328",
+        "wiki_title": "Santa Cruz Department (Bolivia)",
+        "entity_id": "Q235106"
+    },
+    {
+        "query_id": "36_329",
+        "wiki_title": "Palestinian territories",
+        "entity_id": "Q407199"
+    },
+    {
+        "query_id": "36_330",
+        "wiki_title": "Deniliquin Council",
+        "entity_id": "Q580336"
+    },
+    {
+        "query_id": "36_331",
+        "wiki_title": "East Region (Cameroon)",
+        "entity_id": "Q845168"
+    },
+    {
+        "query_id": "36_332",
+        "wiki_title": "Northern Krai",
+        "entity_id": "Q4412331"
+    },
+    {
+        "query_id": "36_333",
+        "wiki_title": "Blekinge County",
+        "entity_id": "Q102377"
+    },
+    {
+        "query_id": "36_334",
+        "wiki_title": "Arrondissement of Dinan",
+        "entity_id": "Q701131"
+    },
+    {
+        "query_id": "36_335",
+        "wiki_title": "Gmina Opatowiec",
+        "entity_id": "Q553741"
+    },
+    {
+        "query_id": "36_336",
+        "wiki_title": "Caucasian Albania",
+        "entity_id": "Q177076"
+    },
+    {
+        "query_id": "36_337",
+        "wiki_title": "Lensky District, Arkhangelsk Oblast",
+        "entity_id": "Q2722857"
+    },
+    {
+        "query_id": "36_338",
+        "wiki_title": "Arrondissement of Pithiviers",
+        "entity_id": "Q585013"
+    },
+    {
+        "query_id": "36_339",
+        "wiki_title": "Samtskhe\u2013Javakheti",
+        "entity_id": "Q19039"
+    },
+    {
+        "query_id": "36_340",
+        "wiki_title": "Georgiyevsky District",
+        "entity_id": "Q1254433"
+    },
+    {
+        "query_id": "36_341",
+        "wiki_title": "Northern Territory",
+        "entity_id": "Q3235"
+    },
+    {
+        "query_id": "36_342",
+        "wiki_title": "Ben Hill County, Georgia",
+        "entity_id": "Q111867"
+    },
+    {
+        "query_id": "36_343",
+        "wiki_title": "Ohrid Municipality",
+        "entity_id": "Q1125333"
+    },
+    {
+        "query_id": "36_344",
+        "wiki_title": "Iredell County, North Carolina",
+        "entity_id": "Q502875"
+    },
+    {
+        "query_id": "36_345",
+        "wiki_title": "Tocantins",
+        "entity_id": "Q43695"
+    },
+    {
+        "query_id": "36_346",
+        "wiki_title": "Arrondissement of Oloron-Sainte-Marie",
+        "entity_id": "Q702013"
+    },
+    {
+        "query_id": "36_347",
+        "wiki_title": "Arrondissement of Bourges",
+        "entity_id": "Q700723"
+    },
+    {
+        "query_id": "36_348",
+        "wiki_title": "Nizhneserginsky District",
+        "entity_id": "Q1654751"
+    },
+    {
+        "query_id": "36_349",
+        "wiki_title": "Ogoou\u00e9-Maritime Province",
+        "entity_id": "Q823751"
+    },
+    {
+        "query_id": "36_350",
+        "wiki_title": "Borough of Chorley",
+        "entity_id": "Q894081"
+    },
+    {
+        "query_id": "36_351",
+        "wiki_title": "Kingdom of the Lombards",
+        "entity_id": "Q854415"
+    },
+    {
+        "query_id": "36_352",
+        "wiki_title": "Meagher County, Montana",
+        "entity_id": "Q491569"
+    },
+    {
+        "query_id": "36_353",
+        "wiki_title": "Gmina Byczyna",
+        "entity_id": "Q1944890"
+    },
+    {
+        "query_id": "36_354",
+        "wiki_title": "Hernando County, Florida",
+        "entity_id": "Q488572"
+    },
+    {
+        "query_id": "36_355",
+        "wiki_title": "Satovcha Municipality",
+        "entity_id": "Q2997839"
+    },
+    {
+        "query_id": "36_356",
+        "wiki_title": "Bezhanitsky District",
+        "entity_id": "Q2706893"
+    },
+    {
+        "query_id": "36_357",
+        "wiki_title": "Lee County, Iowa",
+        "entity_id": "Q485787"
+    },
+    {
+        "query_id": "36_358",
+        "wiki_title": "Collectivity of Saint Martin",
+        "entity_id": "Q126125"
+    },
+    {
+        "query_id": "36_359",
+        "wiki_title": "Banks County, Georgia",
+        "entity_id": "Q488201"
+    },
+    {
+        "query_id": "36_360",
+        "wiki_title": "Adams County, Nebraska",
+        "entity_id": "Q112823"
+    },
+    {
+        "query_id": "36_361",
+        "wiki_title": "Canton of Montauban-3",
+        "entity_id": "Q1726289"
+    },
+    {
+        "query_id": "36_362",
+        "wiki_title": "Burgundy",
+        "entity_id": "Q1173"
+    },
+    {
+        "query_id": "36_363",
+        "wiki_title": "Traill County, North Dakota",
+        "entity_id": "Q511524"
+    },
+    {
+        "query_id": "36_364",
+        "wiki_title": "Osaka Prefecture",
+        "entity_id": "Q122723"
+    },
+    {
+        "query_id": "36_365",
+        "wiki_title": "Frederick County, Maryland",
+        "entity_id": "Q501345"
+    },
+    {
+        "query_id": "36_366",
+        "wiki_title": "Siraha District",
+        "entity_id": "Q28088"
+    },
+    {
+        "query_id": "36_367",
+        "wiki_title": "Mbomou",
+        "entity_id": "Q848582"
+    },
+    {
+        "query_id": "36_368",
+        "wiki_title": "Canton of Mirecourt",
+        "entity_id": "Q1726240"
+    },
+    {
+        "query_id": "36_369",
+        "wiki_title": "Chippewa County, Wisconsin",
+        "entity_id": "Q127184"
+    },
+    {
+        "query_id": "36_370",
+        "wiki_title": "Dolyna Raion",
+        "entity_id": "Q1035580"
+    },
+    {
+        "query_id": "36_371",
+        "wiki_title": "Vas County (former)",
+        "entity_id": "Q305116"
+    },
+    {
+        "query_id": "36_372",
+        "wiki_title": "South West England",
+        "entity_id": "Q48026"
+    },
+    {
+        "query_id": "36_373",
+        "wiki_title": "Ashmyany District",
+        "entity_id": "Q1817340"
+    },
+    {
+        "query_id": "36_374",
+        "wiki_title": "Kayseri Province",
+        "entity_id": "Q483472"
+    },
+    {
+        "query_id": "36_375",
+        "wiki_title": "Lonoke County, Arkansas",
+        "entity_id": "Q61143"
+    },
+    {
+        "query_id": "36_376",
+        "wiki_title": "Stevns Municipality",
+        "entity_id": "Q503153"
+    },
+    {
+        "query_id": "36_377",
+        "wiki_title": "Herrljunga Municipality",
+        "entity_id": "Q503111"
+    },
+    {
+        "query_id": "36_378",
+        "wiki_title": "Ribagorza (comarca)",
+        "entity_id": "Q1425491"
+    },
+    {
+        "query_id": "36_379",
+        "wiki_title": "Orotina (canton)",
+        "entity_id": "Q891356"
+    },
+    {
+        "query_id": "36_380",
+        "wiki_title": "Kurume Domain",
+        "entity_id": "Q426826"
+    },
+    {
+        "query_id": "36_381",
+        "wiki_title": "Ghurid dynasty",
+        "entity_id": "Q199443"
+    },
+    {
+        "query_id": "36_382",
+        "wiki_title": "Tashkent Region",
+        "entity_id": "Q487585"
+    },
+    {
+        "query_id": "36_383",
+        "wiki_title": "Bodenseekreis",
+        "entity_id": "Q8228"
+    },
+    {
+        "query_id": "36_384",
+        "wiki_title": "Granville County, North Carolina",
+        "entity_id": "Q502503"
+    },
+    {
+        "query_id": "36_385",
+        "wiki_title": "Haute-Corse",
+        "entity_id": "Q3334"
+    },
+    {
+        "query_id": "36_386",
+        "wiki_title": "Canton of Fontainebleau",
+        "entity_id": "Q766001"
+    },
+    {
+        "query_id": "36_387",
+        "wiki_title": "Nanda Empire",
+        "entity_id": "Q949268"
+    },
+    {
+        "query_id": "36_388",
+        "wiki_title": "Popasna Raion",
+        "entity_id": "Q2216102"
+    },
+    {
+        "query_id": "36_389",
+        "wiki_title": "Lipetsk Oblast",
+        "entity_id": "Q3510"
+    },
+    {
+        "query_id": "36_390",
+        "wiki_title": "Jefferson County, Indiana",
+        "entity_id": "Q1139839"
+    },
+    {
+        "query_id": "36_391",
+        "wiki_title": "Stark County, North Dakota",
+        "entity_id": "Q282188"
+    },
+    {
+        "query_id": "36_392",
+        "wiki_title": "R\u00edo Chico Department, Santa Cruz",
+        "entity_id": "Q615066"
+    },
+    {
+        "query_id": "36_393",
+        "wiki_title": "Garvin County, Oklahoma",
+        "entity_id": "Q484616"
+    },
+    {
+        "query_id": "36_394",
+        "wiki_title": "Fenland District",
+        "entity_id": "Q176029"
+    },
+    {
+        "query_id": "36_395",
+        "wiki_title": "Pishan County",
+        "entity_id": "Q1028101"
+    },
+    {
+        "query_id": "36_396",
+        "wiki_title": "Tombali Region",
+        "entity_id": "Q1047255"
+    },
+    {
+        "query_id": "36_397",
+        "wiki_title": "Reichskommissariat Ostland",
+        "entity_id": "Q156031"
+    },
+    {
+        "query_id": "36_398",
+        "wiki_title": "Lipetsky District",
+        "entity_id": "Q2263898"
+    },
+    {
+        "query_id": "36_399",
+        "wiki_title": "Evans County, Georgia",
+        "entity_id": "Q493044"
+    },
+    {
+        "query_id": "36_400",
+        "wiki_title": "Franklin County, Ohio",
+        "entity_id": "Q113237"
+    },
+    {
+        "query_id": "36_401",
+        "wiki_title": "Landsberg (district)",
+        "entity_id": "Q10507"
+    },
+    {
+        "query_id": "36_402",
+        "wiki_title": "Gdovsky District",
+        "entity_id": "Q2723487"
+    },
+    {
+        "query_id": "36_403",
+        "wiki_title": "West Coast Region",
+        "entity_id": "Q541468"
+    },
+    {
+        "query_id": "36_404",
+        "wiki_title": "Gmina Lipnica Murowana",
+        "entity_id": "Q2200644"
+    },
+    {
+        "query_id": "36_405",
+        "wiki_title": "Hamilton County, Iowa",
+        "entity_id": "Q486160"
+    },
+    {
+        "query_id": "36_406",
+        "wiki_title": "P\u00f4 (department)",
+        "entity_id": "Q2567535"
+    },
+    {
+        "query_id": "36_407",
+        "wiki_title": "Osh Region",
+        "entity_id": "Q231987"
+    },
+    {
+        "query_id": "36_408",
+        "wiki_title": "Solnechnogorsky District",
+        "entity_id": "Q2537742"
+    },
+    {
+        "query_id": "36_409",
+        "wiki_title": "Duchy of Guelders",
+        "entity_id": "Q152420"
+    },
+    {
+        "query_id": "36_410",
+        "wiki_title": "Slavgorodsky District",
+        "entity_id": "Q827356"
+    },
+    {
+        "query_id": "36_411",
+        "wiki_title": "Littoral Region (Cameroon)",
+        "entity_id": "Q845172"
+    },
+    {
+        "query_id": "36_412",
+        "wiki_title": "Aunis",
+        "entity_id": "Q773756"
+    },
+    {
+        "query_id": "36_413",
+        "wiki_title": "Arrondissement of Thonon-les-Bains",
+        "entity_id": "Q580284"
+    },
+    {
+        "query_id": "36_414",
+        "wiki_title": "Big Stone County, Minnesota",
+        "entity_id": "Q113255"
+    },
+    {
+        "query_id": "36_415",
+        "wiki_title": "Dang District, Nepal",
+        "entity_id": "Q28066"
+    },
+    {
+        "query_id": "36_416",
+        "wiki_title": "Smolensk Voivodeship",
+        "entity_id": "Q2454841"
+    },
+    {
+        "query_id": "36_417",
+        "wiki_title": "Navarro County, Texas",
+        "entity_id": "Q112603"
+    },
+    {
+        "query_id": "36_418",
+        "wiki_title": "Arrondissement of Saverne",
+        "entity_id": "Q702509"
+    },
+    {
+        "query_id": "36_419",
+        "wiki_title": "Casas Grandes Municipality",
+        "entity_id": "Q2652268"
+    },
+    {
+        "query_id": "36_420",
+        "wiki_title": "Strumyani Municipality",
+        "entity_id": "Q2722846"
+    },
+    {
+        "query_id": "36_421",
+        "wiki_title": "Zanzibar",
+        "entity_id": "Q1774"
+    },
+    {
+        "query_id": "36_422",
+        "wiki_title": "Bay County, Florida",
+        "entity_id": "Q488865"
+    },
+    {
+        "query_id": "36_423",
+        "wiki_title": "North Tyneside",
+        "entity_id": "Q1120443"
+    },
+    {
+        "query_id": "36_424",
+        "wiki_title": "Freising (district)",
+        "entity_id": "Q10497"
+    },
+    {
+        "query_id": "36_425",
+        "wiki_title": "Serbia and Montenegro",
+        "entity_id": "Q37024"
+    },
+    {
+        "query_id": "36_426",
+        "wiki_title": "Tuapsinsky District",
+        "entity_id": "Q261493"
+    },
+    {
+        "query_id": "36_427",
+        "wiki_title": "Washington County, Mississippi",
+        "entity_id": "Q484643"
+    },
+    {
+        "query_id": "36_428",
+        "wiki_title": "Canton of Saint-Amand-Montrond",
+        "entity_id": "Q748190"
+    },
+    {
+        "query_id": "36_429",
+        "wiki_title": "Pallars Juss\u00e0",
+        "entity_id": "Q12723"
+    },
+    {
+        "query_id": "36_430",
+        "wiki_title": "Znojmo District",
+        "entity_id": "Q853969"
+    },
+    {
+        "query_id": "36_431",
+        "wiki_title": "Linares Province",
+        "entity_id": "Q721396"
+    },
+    {
+        "query_id": "36_432",
+        "wiki_title": "Orleans County, New York",
+        "entity_id": "Q115125"
+    },
+    {
+        "query_id": "36_433",
+        "wiki_title": "Brooks County, Texas",
+        "entity_id": "Q26584"
+    },
+    {
+        "query_id": "36_434",
+        "wiki_title": "Carter County, Kentucky",
+        "entity_id": "Q486095"
+    },
+    {
+        "query_id": "36_435",
+        "wiki_title": "Albula/Alvra",
+        "entity_id": "Q15890943"
+    },
+    {
+        "query_id": "36_436",
+        "wiki_title": "Pahang",
+        "entity_id": "Q191346"
+    },
+    {
+        "query_id": "36_437",
+        "wiki_title": "Grand Gedeh County",
+        "entity_id": "Q950841"
+    },
+    {
+        "query_id": "36_438",
+        "wiki_title": "Bolivia",
+        "entity_id": "Q750"
+    },
+    {
+        "query_id": "36_439",
+        "wiki_title": "Chuquisaca Department",
+        "entity_id": "Q235110"
+    },
+    {
+        "query_id": "36_440",
+        "wiki_title": "Turkana County",
+        "entity_id": "Q1633078"
+    },
+    {
+        "query_id": "36_441",
+        "wiki_title": "Department of Tacna",
+        "entity_id": "Q207413"
+    },
+    {
+        "query_id": "36_442",
+        "wiki_title": "Lombardy",
+        "entity_id": "Q1210"
+    },
+    {
+        "query_id": "36_443",
+        "wiki_title": "Gmina Kiernozia",
+        "entity_id": "Q2220897"
+    },
+    {
+        "query_id": "36_444",
+        "wiki_title": "City of Wakefield",
+        "entity_id": "Q763171"
+    },
+    {
+        "query_id": "36_445",
+        "wiki_title": "Kirzhachsky District",
+        "entity_id": "Q266987"
+    },
+    {
+        "query_id": "36_446",
+        "wiki_title": "Province of Cremona",
+        "entity_id": "Q16163"
+    },
+    {
+        "query_id": "36_447",
+        "wiki_title": "Canton of Fribourg",
+        "entity_id": "Q12640"
+    },
+    {
+        "query_id": "36_448",
+        "wiki_title": "Arrondissement of Lannion",
+        "entity_id": "Q584641"
+    },
+    {
+        "query_id": "36_449",
+        "wiki_title": "Cuxhaven (district)",
+        "entity_id": "Q5897"
+    },
+    {
+        "query_id": "36_450",
+        "wiki_title": "Ubuntu Local Municipality",
+        "entity_id": "Q1447551"
+    },
+    {
+        "query_id": "36_451",
+        "wiki_title": "Fayette County, Texas",
+        "entity_id": "Q110755"
+    },
+    {
+        "query_id": "36_452",
+        "wiki_title": "General Viamonte Partido",
+        "entity_id": "Q644027"
+    },
+    {
+        "query_id": "36_453",
+        "wiki_title": "Arrondissement of Issoire",
+        "entity_id": "Q701309"
+    },
+    {
+        "query_id": "36_454",
+        "wiki_title": "Adiabene",
+        "entity_id": "Q149747"
+    },
+    {
+        "query_id": "36_455",
+        "wiki_title": "Musina Local Municipality",
+        "entity_id": "Q739997"
+    },
+    {
+        "query_id": "36_456",
+        "wiki_title": "Kharkiv Oblast",
+        "entity_id": "Q170666"
+    },
+    {
+        "query_id": "36_457",
+        "wiki_title": "Chim\u00fa culture",
+        "entity_id": "Q901198"
+    },
+    {
+        "query_id": "36_458",
+        "wiki_title": "Marion County, West Virginia",
+        "entity_id": "Q504846"
+    },
+    {
+        "query_id": "36_459",
+        "wiki_title": "Amravati district",
+        "entity_id": "Q1771774"
+    },
+    {
+        "query_id": "36_460",
+        "wiki_title": "Petrodvortsovy District",
+        "entity_id": "Q270114"
+    },
+    {
+        "query_id": "36_461",
+        "wiki_title": "Nyasaland",
+        "entity_id": "Q1649306"
+    },
+    {
+        "query_id": "36_462",
+        "wiki_title": "Redwood County, Minnesota",
+        "entity_id": "Q485430"
+    },
+    {
+        "query_id": "36_463",
+        "wiki_title": "Arrondissement of Strasbourg-Ville",
+        "entity_id": "Q702564"
+    },
+    {
+        "query_id": "36_464",
+        "wiki_title": "Krymskoye Urban Settlement",
+        "entity_id": "Q4242974"
+    },
+    {
+        "query_id": "36_465",
+        "wiki_title": "Colima",
+        "entity_id": "Q61309"
+    },
+    {
+        "query_id": "36_466",
+        "wiki_title": "Ntungamo District",
+        "entity_id": "Q204642"
+    },
+    {
+        "query_id": "36_467",
+        "wiki_title": "Frederiksberg Municipality",
+        "entity_id": "Q2488464"
+    },
+    {
+        "query_id": "36_468",
+        "wiki_title": "Province of Isernia",
+        "entity_id": "Q16187"
+    },
+    {
+        "query_id": "36_469",
+        "wiki_title": "Kotlassky District",
+        "entity_id": "Q2601494"
+    },
+    {
+        "query_id": "36_470",
+        "wiki_title": "McCreary County, Kentucky",
+        "entity_id": "Q505428"
+    },
+    {
+        "query_id": "36_471",
+        "wiki_title": "Armagh City and District Council",
+        "entity_id": "Q676704"
+    },
+    {
+        "query_id": "36_472",
+        "wiki_title": "Arrondissement of Mont-de-Marsan",
+        "entity_id": "Q571456"
+    },
+    {
+        "query_id": "36_473",
+        "wiki_title": "Carroll County, Arkansas",
+        "entity_id": "Q61216"
+    },
+    {
+        "query_id": "36_474",
+        "wiki_title": "Canton of Saint-Valery-sur-Somme",
+        "entity_id": "Q1727371"
+    },
+    {
+        "query_id": "36_475",
+        "wiki_title": "Norte de Santander Department",
+        "entity_id": "Q233058"
+    },
+    {
+        "query_id": "36_476",
+        "wiki_title": "Kasimovsky District",
+        "entity_id": "Q2628828"
+    },
+    {
+        "query_id": "36_477",
+        "wiki_title": "Maule Region",
+        "entity_id": "Q2166"
+    },
+    {
+        "query_id": "36_478",
+        "wiki_title": "Ananiv Raion",
+        "entity_id": "Q1188807"
+    },
+    {
+        "query_id": "36_479",
+        "wiki_title": "Rabun County, Georgia",
+        "entity_id": "Q503546"
+    },
+    {
+        "query_id": "36_480",
+        "wiki_title": "Afrin District",
+        "entity_id": "Q4120569"
+    },
+    {
+        "query_id": "36_481",
+        "wiki_title": "Khorasan province",
+        "entity_id": "Q6178890"
+    },
+    {
+        "query_id": "36_482",
+        "wiki_title": "Gmina Dwikozy",
+        "entity_id": "Q553618"
+    },
+    {
+        "query_id": "36_483",
+        "wiki_title": "Campo de Daroca",
+        "entity_id": "Q1031453"
+    },
+    {
+        "query_id": "36_484",
+        "wiki_title": "Texas",
+        "entity_id": "Q1439"
+    },
+    {
+        "query_id": "36_485",
+        "wiki_title": "Beltrami County, Minnesota",
+        "entity_id": "Q110491"
+    },
+    {
+        "query_id": "36_486",
+        "wiki_title": "Frederikssund Municipality",
+        "entity_id": "Q503232"
+    },
+    {
+        "query_id": "36_487",
+        "wiki_title": "Boyer-Ahmad County",
+        "entity_id": "Q1278733"
+    },
+    {
+        "query_id": "36_488",
+        "wiki_title": "Crisp County, Georgia",
+        "entity_id": "Q156486"
+    },
+    {
+        "query_id": "36_489",
+        "wiki_title": "Gadsden County, Florida",
+        "entity_id": "Q501848"
+    },
+    {
+        "query_id": "36_490",
+        "wiki_title": "Petrovec Municipality",
+        "entity_id": "Q1018191"
+    },
+    {
+        "query_id": "36_491",
+        "wiki_title": "Buryatia",
+        "entity_id": "Q6809"
+    },
+    {
+        "query_id": "36_492",
+        "wiki_title": "Poitou-Charentes",
+        "entity_id": "Q17009"
+    },
+    {
+        "query_id": "36_493",
+        "wiki_title": "Main-Tauber-Kreis",
+        "entity_id": "Q8517"
+    },
+    {
+        "query_id": "36_494",
+        "wiki_title": "Varde Municipality",
+        "entity_id": "Q21142"
+    },
+    {
+        "query_id": "36_495",
+        "wiki_title": "Suwannee County, Florida",
+        "entity_id": "Q501036"
+    },
+    {
+        "query_id": "36_496",
+        "wiki_title": "Mecklenburgische Seenplatte (district)",
+        "entity_id": "Q2902"
+    },
+    {
+        "query_id": "36_497",
+        "wiki_title": "Vastseliina Parish",
+        "entity_id": "Q650686"
+    },
+    {
+        "query_id": "36_498",
+        "wiki_title": "B\u00e1cs-Bodrog County",
+        "entity_id": "Q852564"
+    },
+    {
+        "query_id": "36_499",
+        "wiki_title": "First Republic of Armenia",
+        "entity_id": "Q139670"
+    },
+    {
+        "query_id": "36_500",
+        "wiki_title": "Uttarkashi district",
+        "entity_id": "Q1773437"
+    },
+    {
+        "query_id": "36_501",
+        "wiki_title": "Province of Albacete",
+        "entity_id": "Q54889"
+    },
+    {
+        "query_id": "36_502",
+        "wiki_title": "Toledo District",
+        "entity_id": "Q506049"
+    },
+    {
+        "query_id": "36_503",
+        "wiki_title": "Azerbaijan",
+        "entity_id": "Q227"
+    },
+    {
+        "query_id": "36_504",
+        "wiki_title": "Murang'a County",
+        "entity_id": "Q1781723"
+    },
+    {
+        "query_id": "36_505",
+        "wiki_title": "Zernogradsky District",
+        "entity_id": "Q2220385"
+    },
+    {
+        "query_id": "36_506",
+        "wiki_title": "Canton of Cherbourg-Octeville-Sud-Est",
+        "entity_id": "Q588348"
+    },
+    {
+        "query_id": "36_507",
+        "wiki_title": "Mogochinsky District",
+        "entity_id": "Q1655225"
+    },
+    {
+        "query_id": "36_508",
+        "wiki_title": "Kirov Oblast",
+        "entity_id": "Q5387"
+    },
+    {
+        "query_id": "36_509",
+        "wiki_title": "Sumter County, South Carolina",
+        "entity_id": "Q513933"
+    },
+    {
+        "query_id": "36_510",
+        "wiki_title": "Basque Country (autonomous community)",
+        "entity_id": "Q3995"
+    },
+    {
+        "query_id": "36_511",
+        "wiki_title": "Mtubatuba Local Municipality",
+        "entity_id": "Q10975369"
+    },
+    {
+        "query_id": "36_512",
+        "wiki_title": "Wadena County, Minnesota",
+        "entity_id": "Q491157"
+    },
+    {
+        "query_id": "36_513",
+        "wiki_title": "Cotswold District",
+        "entity_id": "Q581022"
+    },
+    {
+        "query_id": "36_514",
+        "wiki_title": "Krasnogorsky District, Moscow Oblast",
+        "entity_id": "Q2627335"
+    },
+    {
+        "query_id": "36_515",
+        "wiki_title": "Canton of Grand-Couronne",
+        "entity_id": "Q305101"
+    },
+    {
+        "query_id": "36_516",
+        "wiki_title": "Buchach Raion",
+        "entity_id": "Q591752"
+    },
+    {
+        "query_id": "36_517",
+        "wiki_title": "Dickinson County, Kansas",
+        "entity_id": "Q376576"
+    },
+    {
+        "query_id": "36_518",
+        "wiki_title": "Aichach-Friedberg",
+        "entity_id": "Q10415"
+    },
+    {
+        "query_id": "36_519",
+        "wiki_title": "Nerekhtsky District",
+        "entity_id": "Q1653230"
+    },
+    {
+        "query_id": "36_520",
+        "wiki_title": "Gmina Wietrzychowice",
+        "entity_id": "Q2458329"
+    },
+    {
+        "query_id": "36_521",
+        "wiki_title": "Dykanka Raion",
+        "entity_id": "Q549223"
+    },
+    {
+        "query_id": "36_522",
+        "wiki_title": "Gmina Poronin",
+        "entity_id": "Q2419604"
+    },
+    {
+        "query_id": "36_523",
+        "wiki_title": "Canton of Calais-Centre",
+        "entity_id": "Q1268853"
+    },
+    {
+        "query_id": "36_524",
+        "wiki_title": "Selangor",
+        "entity_id": "Q189710"
+    },
+    {
+        "query_id": "36_525",
+        "wiki_title": "Canton of Bayeux",
+        "entity_id": "Q1724414"
+    },
+    {
+        "query_id": "36_526",
+        "wiki_title": "Taliaferro County, Georgia",
+        "entity_id": "Q134080"
+    },
+    {
+        "query_id": "36_527",
+        "wiki_title": "Lawrence County, Alabama",
+        "entity_id": "Q502737"
+    },
+    {
+        "query_id": "36_528",
+        "wiki_title": "Garfield County, Montana",
+        "entity_id": "Q486961"
+    },
+    {
+        "query_id": "36_529",
+        "wiki_title": "Menifee County, Kentucky",
+        "entity_id": "Q498123"
+    },
+    {
+        "query_id": "36_530",
+        "wiki_title": "Illizi Province",
+        "entity_id": "Q233659"
+    },
+    {
+        "query_id": "36_531",
+        "wiki_title": "Hertsa Raion",
+        "entity_id": "Q2128886"
+    },
+    {
+        "query_id": "36_532",
+        "wiki_title": "Gmina Koprzywnica",
+        "entity_id": "Q553693"
+    },
+    {
+        "query_id": "36_533",
+        "wiki_title": "Anderson County, Tennessee",
+        "entity_id": "Q490318"
+    },
+    {
+        "query_id": "36_534",
+        "wiki_title": "Sabine Parish, Louisiana",
+        "entity_id": "Q507000"
+    },
+    {
+        "query_id": "36_535",
+        "wiki_title": "Bikaner district",
+        "entity_id": "Q778996"
+    },
+    {
+        "query_id": "36_536",
+        "wiki_title": "Rhodesia",
+        "entity_id": "Q217169"
+    },
+    {
+        "query_id": "36_537",
+        "wiki_title": "Western Satraps",
+        "entity_id": "Q2086608"
+    },
+    {
+        "query_id": "36_538",
+        "wiki_title": "Haninge Municipality",
+        "entity_id": "Q113692"
+    },
+    {
+        "query_id": "36_539",
+        "wiki_title": "Fianarantsoa Province",
+        "entity_id": "Q841197"
+    },
+    {
+        "query_id": "36_540",
+        "wiki_title": "Stark County, Illinois",
+        "entity_id": "Q500645"
+    },
+    {
+        "query_id": "36_541",
+        "wiki_title": "Kingdom of Iberia",
+        "entity_id": "Q19083"
+    },
+    {
+        "query_id": "36_542",
+        "wiki_title": "Catoosa County, Georgia",
+        "entity_id": "Q260871"
+    },
+    {
+        "query_id": "36_543",
+        "wiki_title": "Arrondissement of Fort-de-France",
+        "entity_id": "Q701213"
+    },
+    {
+        "query_id": "36_544",
+        "wiki_title": "Dili Municipality",
+        "entity_id": "Q860901"
+    },
+    {
+        "query_id": "36_545",
+        "wiki_title": "Shawano County, Wisconsin",
+        "entity_id": "Q500838"
+    },
+    {
+        "query_id": "36_546",
+        "wiki_title": "Grady County, Oklahoma",
+        "entity_id": "Q484600"
+    },
+    {
+        "query_id": "36_547",
+        "wiki_title": "Custer County, Montana",
+        "entity_id": "Q490789"
+    },
+    {
+        "query_id": "36_548",
+        "wiki_title": "Arrondissement of Verdun",
+        "entity_id": "Q702723"
+    },
+    {
+        "query_id": "36_549",
+        "wiki_title": "Lutuhyne Raion",
+        "entity_id": "Q2216775"
+    },
+    {
+        "query_id": "36_550",
+        "wiki_title": "Atlantic County, New Jersey",
+        "entity_id": "Q497928"
+    },
+    {
+        "query_id": "36_551",
+        "wiki_title": "Scotts Bluff County, Nebraska",
+        "entity_id": "Q495990"
+    },
+    {
+        "query_id": "36_552",
+        "wiki_title": "Eastern Wu",
+        "entity_id": "Q274488"
+    },
+    {
+        "query_id": "36_553",
+        "wiki_title": "Borshchiv Raion",
+        "entity_id": "Q591767"
+    },
+    {
+        "query_id": "36_554",
+        "wiki_title": "Webster County, West Virginia",
+        "entity_id": "Q495137"
+    },
+    {
+        "query_id": "36_555",
+        "wiki_title": "Stellenbosch Local Municipality",
+        "entity_id": "Q522028"
+    },
+    {
+        "query_id": "36_556",
+        "wiki_title": "Okulovsky District",
+        "entity_id": "Q2624583"
+    },
+    {
+        "query_id": "36_557",
+        "wiki_title": "Canton of Nouvion",
+        "entity_id": "Q1525954"
+    },
+    {
+        "query_id": "36_558",
+        "wiki_title": "Arrondissement of Lille",
+        "entity_id": "Q701510"
+    },
+    {
+        "query_id": "36_559",
+        "wiki_title": "Pakistan",
+        "entity_id": "Q843"
+    },
+    {
+        "query_id": "36_560",
+        "wiki_title": "Gmina Laskowa",
+        "entity_id": "Q2049768"
+    },
+    {
+        "query_id": "36_561",
+        "wiki_title": "Jackson County, Illinois",
+        "entity_id": "Q486471"
+    },
+    {
+        "query_id": "36_562",
+        "wiki_title": "Tripoli District, Lebanon",
+        "entity_id": "Q2484819"
+    },
+    {
+        "query_id": "36_563",
+        "wiki_title": "Barber County, Kansas",
+        "entity_id": "Q376113"
+    },
+    {
+        "query_id": "36_564",
+        "wiki_title": "Georgia (U.S. state)",
+        "entity_id": "Q1428"
+    },
+    {
+        "query_id": "36_565",
+        "wiki_title": "Tapoa Province",
+        "entity_id": "Q621983"
+    },
+    {
+        "query_id": "36_566",
+        "wiki_title": "Sanpete County, Utah",
+        "entity_id": "Q484577"
+    },
+    {
+        "query_id": "36_567",
+        "wiki_title": "Colony of Virginia",
+        "entity_id": "Q1070529"
+    },
+    {
+        "query_id": "36_568",
+        "wiki_title": "Moldova",
+        "entity_id": "Q217"
+    },
+    {
+        "query_id": "36_569",
+        "wiki_title": "Gloucester County, Virginia",
+        "entity_id": "Q335121"
+    },
+    {
+        "query_id": "36_570",
+        "wiki_title": "Taylor County, West Virginia",
+        "entity_id": "Q511095"
+    },
+    {
+        "query_id": "36_571",
+        "wiki_title": "Darab County",
+        "entity_id": "Q1270527"
+    },
+    {
+        "query_id": "36_572",
+        "wiki_title": "\u00cele-de-France",
+        "entity_id": "Q13917"
+    },
+    {
+        "query_id": "36_573",
+        "wiki_title": "Uddevalla Municipality",
+        "entity_id": "Q501442"
+    },
+    {
+        "query_id": "36_574",
+        "wiki_title": "Mendocino County, California",
+        "entity_id": "Q108087"
+    },
+    {
+        "query_id": "36_575",
+        "wiki_title": "Highland County, Ohio",
+        "entity_id": "Q490144"
+    },
+    {
+        "query_id": "36_576",
+        "wiki_title": "Fatimid Caliphate",
+        "entity_id": "Q160307"
+    },
+    {
+        "query_id": "36_577",
+        "wiki_title": "Manab\u00ed Province",
+        "entity_id": "Q504666"
+    },
+    {
+        "query_id": "36_578",
+        "wiki_title": "Quitman County, Mississippi",
+        "entity_id": "Q490266"
+    },
+    {
+        "query_id": "36_579",
+        "wiki_title": "Jackson County, Ohio",
+        "entity_id": "Q738043"
+    },
+    {
+        "query_id": "36_580",
+        "wiki_title": "Eritrea Governorate",
+        "entity_id": "Q3731826"
+    },
+    {
+        "query_id": "36_581",
+        "wiki_title": "Swabia (Bavaria)",
+        "entity_id": "Q10557"
+    },
+    {
+        "query_id": "36_582",
+        "wiki_title": "Jasper County, Mississippi",
+        "entity_id": "Q490843"
+    },
+    {
+        "query_id": "36_583",
+        "wiki_title": "Stung Treng province",
+        "entity_id": "Q837889"
+    },
+    {
+        "query_id": "36_584",
+        "wiki_title": "Volta Region",
+        "entity_id": "Q712832"
+    },
+    {
+        "query_id": "36_585",
+        "wiki_title": "Saladin Governorate",
+        "entity_id": "Q190131"
+    },
+    {
+        "query_id": "36_586",
+        "wiki_title": "Corowa Shire",
+        "entity_id": "Q729425"
+    },
+    {
+        "query_id": "36_587",
+        "wiki_title": "Boone County, Missouri",
+        "entity_id": "Q484620"
+    },
+    {
+        "query_id": "36_588",
+        "wiki_title": "Konstanz (district)",
+        "entity_id": "Q8206"
+    },
+    {
+        "query_id": "36_589",
+        "wiki_title": "Autonomous Region in Muslim Mindanao",
+        "entity_id": "Q13708"
+    },
+    {
+        "query_id": "36_590",
+        "wiki_title": "Giza Governorate",
+        "entity_id": "Q30832"
+    },
+    {
+        "query_id": "36_591",
+        "wiki_title": "Canton of Pont-de-Vaux",
+        "entity_id": "Q1458292"
+    },
+    {
+        "query_id": "36_592",
+        "wiki_title": "Shackelford County, Texas",
+        "entity_id": "Q114550"
+    },
+    {
+        "query_id": "36_593",
+        "wiki_title": "Travancore\u2013Cochin",
+        "entity_id": "Q1538311"
+    },
+    {
+        "query_id": "36_594",
+        "wiki_title": "Kalasin province",
+        "entity_id": "Q382144"
+    },
+    {
+        "query_id": "36_595",
+        "wiki_title": "La Colle, Monaco",
+        "entity_id": "Q55102"
+    },
+    {
+        "query_id": "36_596",
+        "wiki_title": "Amasya Province",
+        "entity_id": "Q80036"
+    },
+    {
+        "query_id": "36_597",
+        "wiki_title": "Ventersdorp Local Municipality",
+        "entity_id": "Q612412"
+    },
+    {
+        "query_id": "36_598",
+        "wiki_title": "Kurdistan Region",
+        "entity_id": "Q205047"
+    },
+    {
+        "query_id": "36_599",
+        "wiki_title": "South Gippsland Shire",
+        "entity_id": "Q652386"
+    },
+    {
+        "query_id": "36_600",
+        "wiki_title": "Woodson County, Kansas",
+        "entity_id": "Q379540"
+    },
+    {
+        "query_id": "36_601",
+        "wiki_title": "Province of Palermo",
+        "entity_id": "Q16227"
+    },
+    {
+        "query_id": "36_602",
+        "wiki_title": "Halland County",
+        "entity_id": "Q103691"
+    },
+    {
+        "query_id": "36_603",
+        "wiki_title": "Province of Cuneo",
+        "entity_id": "Q15091"
+    },
+    {
+        "query_id": "36_604",
+        "wiki_title": "Zambezi Region",
+        "entity_id": "Q473190"
+    },
+    {
+        "query_id": "36_605",
+        "wiki_title": "Orientale Province",
+        "entity_id": "Q831370"
+    },
+    {
+        "query_id": "36_606",
+        "wiki_title": "Nakhon Pathom province",
+        "entity_id": "Q334841"
+    },
+    {
+        "query_id": "36_607",
+        "wiki_title": "Mower County, Minnesota",
+        "entity_id": "Q490450"
+    },
+    {
+        "query_id": "36_608",
+        "wiki_title": "Uglegorsky District",
+        "entity_id": "Q1655546"
+    },
+    {
+        "query_id": "36_609",
+        "wiki_title": "Vetlanda Municipality",
+        "entity_id": "Q505052"
+    },
+    {
+        "query_id": "36_610",
+        "wiki_title": "Canton of Nogent-sur-Marne",
+        "entity_id": "Q1706339"
+    },
+    {
+        "query_id": "36_611",
+        "wiki_title": "Clay County, South Dakota",
+        "entity_id": "Q489273"
+    },
+    {
+        "query_id": "36_612",
+        "wiki_title": "Valverde Province",
+        "entity_id": "Q1774848"
+    },
+    {
+        "query_id": "36_613",
+        "wiki_title": "Kalkaska County, Michigan",
+        "entity_id": "Q502719"
+    },
+    {
+        "query_id": "36_614",
+        "wiki_title": "Gmina Dobromierz",
+        "entity_id": "Q1532921"
+    },
+    {
+        "query_id": "36_615",
+        "wiki_title": "Al-Jawf Province",
+        "entity_id": "Q1471266"
+    },
+    {
+        "query_id": "36_616",
+        "wiki_title": "Narrandera Shire",
+        "entity_id": "Q820304"
+    },
+    {
+        "query_id": "36_617",
+        "wiki_title": "Aosta Valley",
+        "entity_id": "Q1222"
+    },
+    {
+        "query_id": "36_618",
+        "wiki_title": "Khanate of Sibir",
+        "entity_id": "Q190513"
+    },
+    {
+        "query_id": "36_619",
+        "wiki_title": "West Region (Cameroon)",
+        "entity_id": "Q165784"
+    },
+    {
+        "query_id": "36_620",
+        "wiki_title": "Gmina Gorzkowice",
+        "entity_id": "Q2416573"
+    },
+    {
+        "query_id": "36_621",
+        "wiki_title": "Gafsa Governorate",
+        "entity_id": "Q269968"
+    },
+    {
+        "query_id": "36_622",
+        "wiki_title": "Fagersta Municipality",
+        "entity_id": "Q47018"
+    },
+    {
+        "query_id": "36_623",
+        "wiki_title": "Shannon County, Missouri",
+        "entity_id": "Q497628"
+    },
+    {
+        "query_id": "36_624",
+        "wiki_title": "Izabal Department",
+        "entity_id": "Q693658"
+    },
+    {
+        "query_id": "36_625",
+        "wiki_title": "Ethiopian Empire",
+        "entity_id": "Q207521"
+    },
+    {
+        "query_id": "36_626",
+        "wiki_title": "Yemanzhelinsky District",
+        "entity_id": "Q2019937"
+    },
+    {
+        "query_id": "36_627",
+        "wiki_title": "Shiribeshi Subprefecture",
+        "entity_id": "Q664551"
+    },
+    {
+        "query_id": "36_628",
+        "wiki_title": "Rural City of Wangaratta",
+        "entity_id": "Q1477083"
+    },
+    {
+        "query_id": "36_629",
+        "wiki_title": "Republic of Karelia",
+        "entity_id": "Q1914"
+    },
+    {
+        "query_id": "36_630",
+        "wiki_title": "Novogrudok District",
+        "entity_id": "Q1952755"
+    },
+    {
+        "query_id": "36_631",
+        "wiki_title": "Onufriivka Raion",
+        "entity_id": "Q2991130"
+    },
+    {
+        "query_id": "36_632",
+        "wiki_title": "Canton of Vittel",
+        "entity_id": "Q1727970"
+    },
+    {
+        "query_id": "36_633",
+        "wiki_title": "Freudenstadt (district)",
+        "entity_id": "Q8189"
+    },
+    {
+        "query_id": "36_634",
+        "wiki_title": "North Jutland Region",
+        "entity_id": "Q26067"
+    },
+    {
+        "query_id": "36_635",
+        "wiki_title": "Jefferson County, Kentucky",
+        "entity_id": "Q500776"
+    },
+    {
+        "query_id": "36_636",
+        "wiki_title": "Norway",
+        "entity_id": "Q20"
+    },
+    {
+        "query_id": "36_637",
+        "wiki_title": "Fife",
+        "entity_id": "Q201149"
+    },
+    {
+        "query_id": "36_638",
+        "wiki_title": "Eastern Samar",
+        "entity_id": "Q13809"
+    },
+    {
+        "query_id": "36_639",
+        "wiki_title": "Canton of Ferney-Voltaire",
+        "entity_id": "Q1479913"
+    },
+    {
+        "query_id": "36_640",
+        "wiki_title": "Khyber Pakhtunkhwa",
+        "entity_id": "Q183314"
+    },
+    {
+        "query_id": "36_641",
+        "wiki_title": "North Borneo",
+        "entity_id": "Q1147441"
+    },
+    {
+        "query_id": "36_642",
+        "wiki_title": "Canton of Marseille-Belsunce",
+        "entity_id": "Q1517425"
+    },
+    {
+        "query_id": "36_643",
+        "wiki_title": "Loukhsky District",
+        "entity_id": "Q255728"
+    },
+    {
+        "query_id": "36_644",
+        "wiki_title": "Canton of Vigeois",
+        "entity_id": "Q1727870"
+    },
+    {
+        "query_id": "36_645",
+        "wiki_title": "Grand Duchy of Finland",
+        "entity_id": "Q62633"
+    },
+    {
+        "query_id": "36_646",
+        "wiki_title": "Lyon County, Kansas",
+        "entity_id": "Q374442"
+    },
+    {
+        "query_id": "36_647",
+        "wiki_title": "\u00d6v\u00f6rkhangai Province",
+        "entity_id": "Q234713"
+    },
+    {
+        "query_id": "36_648",
+        "wiki_title": "Oldambt (municipality)",
+        "entity_id": "Q1347872"
+    },
+    {
+        "query_id": "36_649",
+        "wiki_title": "Gmina Tokarnia",
+        "entity_id": "Q2458803"
+    },
+    {
+        "query_id": "36_650",
+        "wiki_title": "West Azerbaijan province",
+        "entity_id": "Q134411"
+    },
+    {
+        "query_id": "36_651",
+        "wiki_title": "Plateaux Department (Republic of the Congo)",
+        "entity_id": "Q765370"
+    },
+    {
+        "query_id": "36_652",
+        "wiki_title": "Marion County, Florida",
+        "entity_id": "Q501014"
+    },
+    {
+        "query_id": "36_653",
+        "wiki_title": "Gmina Lubin",
+        "entity_id": "Q2460566"
+    },
+    {
+        "query_id": "36_654",
+        "wiki_title": "Niger",
+        "entity_id": "Q1032"
+    },
+    {
+        "query_id": "36_655",
+        "wiki_title": "Upper East Region",
+        "entity_id": "Q712828"
+    },
+    {
+        "query_id": "36_656",
+        "wiki_title": "Oman",
+        "entity_id": "Q842"
+    },
+    {
+        "query_id": "36_657",
+        "wiki_title": "Spalding County, Georgia",
+        "entity_id": "Q503486"
+    },
+    {
+        "query_id": "36_658",
+        "wiki_title": "Lida District",
+        "entity_id": "Q1953388"
+    },
+    {
+        "query_id": "36_659",
+        "wiki_title": "Indramayu Regency",
+        "entity_id": "Q10374"
+    },
+    {
+        "query_id": "36_660",
+        "wiki_title": "Province of Messina",
+        "entity_id": "Q16208"
+    },
+    {
+        "query_id": "36_661",
+        "wiki_title": "Guria",
+        "entity_id": "Q19038"
+    },
+    {
+        "query_id": "36_662",
+        "wiki_title": "Mymensingh Sadar Upazila",
+        "entity_id": "Q4293913"
+    },
+    {
+        "query_id": "36_663",
+        "wiki_title": "Elkhart County, Indiana",
+        "entity_id": "Q24645"
+    },
+    {
+        "query_id": "36_664",
+        "wiki_title": "Alto Amazonas Province",
+        "entity_id": "Q1920572"
+    },
+    {
+        "query_id": "36_665",
+        "wiki_title": "Vukovar-Srijem County",
+        "entity_id": "Q58225"
+    },
+    {
+        "query_id": "36_666",
+        "wiki_title": "Nord Region (Burkina Faso)",
+        "entity_id": "Q502320"
+    },
+    {
+        "query_id": "36_667",
+        "wiki_title": "Central Region, Malawi",
+        "entity_id": "Q860758"
+    },
+    {
+        "query_id": "36_668",
+        "wiki_title": "Ingavi Province",
+        "entity_id": "Q1355971"
+    },
+    {
+        "query_id": "36_669",
+        "wiki_title": "Zamboanga del Norte",
+        "entity_id": "Q13899"
+    },
+    {
+        "query_id": "36_670",
+        "wiki_title": "Kingdom of the Isles",
+        "entity_id": "Q459188"
+    },
+    {
+        "query_id": "36_671",
+        "wiki_title": "Sanabria (comarca)",
+        "entity_id": "Q2605814"
+    },
+    {
+        "query_id": "36_672",
+        "wiki_title": "Kaybitsky District",
+        "entity_id": "Q517512"
+    },
+    {
+        "query_id": "36_673",
+        "wiki_title": "City of Johannesburg Metropolitan Municipality",
+        "entity_id": "Q2346838"
+    },
+    {
+        "query_id": "36_674",
+        "wiki_title": "Federation of Malaya",
+        "entity_id": "Q1479726"
+    },
+    {
+        "query_id": "36_675",
+        "wiki_title": "Achkhoy-Martanovsky District",
+        "entity_id": "Q482011"
+    },
+    {
+        "query_id": "36_676",
+        "wiki_title": "Bong County",
+        "entity_id": "Q877578"
+    },
+    {
+        "query_id": "36_677",
+        "wiki_title": "Gia Lai province",
+        "entity_id": "Q36662"
+    },
+    {
+        "query_id": "36_678",
+        "wiki_title": "Arrondissement of La Tour-du-Pin",
+        "entity_id": "Q701368"
+    },
+    {
+        "query_id": "36_679",
+        "wiki_title": "Albemarle County, Virginia",
+        "entity_id": "Q488653"
+    },
+    {
+        "query_id": "36_680",
+        "wiki_title": "Strafford County, New Hampshire",
+        "entity_id": "Q54441"
+    },
+    {
+        "query_id": "36_681",
+        "wiki_title": "East Punjab",
+        "entity_id": "Q2354639"
+    },
+    {
+        "query_id": "36_682",
+        "wiki_title": "Canton of Arras-Nord",
+        "entity_id": "Q260694"
+    },
+    {
+        "query_id": "36_683",
+        "wiki_title": "Hawaii County, Hawaii",
+        "entity_id": "Q487334"
+    },
+    {
+        "query_id": "36_684",
+        "wiki_title": "Sukhothai Kingdom",
+        "entity_id": "Q863279"
+    },
+    {
+        "query_id": "36_685",
+        "wiki_title": "Western Wei",
+        "entity_id": "Q1143164"
+    },
+    {
+        "query_id": "36_686",
+        "wiki_title": "New Ireland Province",
+        "entity_id": "Q838690"
+    },
+    {
+        "query_id": "36_687",
+        "wiki_title": "Dagestan",
+        "entity_id": "Q5118"
+    },
+    {
+        "query_id": "36_688",
+        "wiki_title": "Ronneby Municipality",
+        "entity_id": "Q515373"
+    },
+    {
+        "query_id": "36_689",
+        "wiki_title": "Pangaio",
+        "entity_id": "Q1990863"
+    },
+    {
+        "query_id": "36_690",
+        "wiki_title": "Kabardino-Balkarian Autonomous Soviet Socialist Republic",
+        "entity_id": "Q788875"
+    },
+    {
+        "query_id": "36_691",
+        "wiki_title": "Pawnee County, Oklahoma",
+        "entity_id": "Q489471"
+    },
+    {
+        "query_id": "36_692",
+        "wiki_title": "Otjozondjupa Region",
+        "entity_id": "Q876506"
+    },
+    {
+        "query_id": "36_693",
+        "wiki_title": "Parras Municipality",
+        "entity_id": "Q3895229"
+    },
+    {
+        "query_id": "36_694",
+        "wiki_title": "Fergus County, Montana",
+        "entity_id": "Q496693"
+    },
+    {
+        "query_id": "36_695",
+        "wiki_title": "Bakhmach Raion",
+        "entity_id": "Q2991929"
+    },
+    {
+        "query_id": "36_696",
+        "wiki_title": "Vhembe District Municipality",
+        "entity_id": "Q2305610"
+    },
+    {
+        "query_id": "36_697",
+        "wiki_title": "Potter County, Pennsylvania",
+        "entity_id": "Q501340"
+    },
+    {
+        "query_id": "36_698",
+        "wiki_title": "Lincoln County, Wisconsin",
+        "entity_id": "Q494947"
+    },
+    {
+        "query_id": "36_699",
+        "wiki_title": "Scott County, Kansas",
+        "entity_id": "Q376042"
+    },
+    {
+        "query_id": "36_700",
+        "wiki_title": "Socialist Federal Republic of Yugoslavia",
+        "entity_id": "Q83286"
+    },
+    {
+        "query_id": "36_701",
+        "wiki_title": "Benson County, North Dakota",
+        "entity_id": "Q28292"
+    },
+    {
+        "query_id": "36_702",
+        "wiki_title": "Kadamba dynasty",
+        "entity_id": "Q1479952"
+    },
+    {
+        "query_id": "36_703",
+        "wiki_title": "Union County, Tennessee",
+        "entity_id": "Q501935"
+    },
+    {
+        "query_id": "36_704",
+        "wiki_title": "Goa",
+        "entity_id": "Q1171"
+    },
+    {
+        "query_id": "36_705",
+        "wiki_title": "Skagit County, Washington",
+        "entity_id": "Q113892"
+    },
+    {
+        "query_id": "36_706",
+        "wiki_title": "Western Area",
+        "entity_id": "Q1050475"
+    },
+    {
+        "query_id": "36_707",
+        "wiki_title": "Canton of Bellinzona",
+        "entity_id": "Q676504"
+    },
+    {
+        "query_id": "36_708",
+        "wiki_title": "Leased Territory of Guangzhouwan",
+        "entity_id": "Q1506615"
+    },
+    {
+        "query_id": "36_709",
+        "wiki_title": "Wieliczka County",
+        "entity_id": "Q609424"
+    },
+    {
+        "query_id": "36_710",
+        "wiki_title": "Suntarsky District",
+        "entity_id": "Q570186"
+    },
+    {
+        "query_id": "36_711",
+        "wiki_title": "Chanthaburi province",
+        "entity_id": "Q327730"
+    },
+    {
+        "query_id": "36_712",
+        "wiki_title": "Canton of Pontault-Combault",
+        "entity_id": "Q1319712"
+    },
+    {
+        "query_id": "36_713",
+        "wiki_title": "Lubbock County, Texas",
+        "entity_id": "Q111790"
+    },
+    {
+        "query_id": "36_714",
+        "wiki_title": "Mouhoun Province",
+        "entity_id": "Q1142050"
+    },
+    {
+        "query_id": "36_715",
+        "wiki_title": "Oryol Oblast",
+        "entity_id": "Q3129"
+    },
+    {
+        "query_id": "36_716",
+        "wiki_title": "Borough of Fareham",
+        "entity_id": "Q894084"
+    },
+    {
+        "query_id": "36_717",
+        "wiki_title": "Arrondissement of Lons-le-Saunier",
+        "entity_id": "Q1116153"
+    },
+    {
+        "query_id": "36_718",
+        "wiki_title": "Central Development Region, Nepal",
+        "entity_id": "Q28579"
+    },
+    {
+        "query_id": "36_719",
+        "wiki_title": "Magdeburg (region)",
+        "entity_id": "Q450521"
+    },
+    {
+        "query_id": "36_720",
+        "wiki_title": "Napa County, California",
+        "entity_id": "Q108137"
+    },
+    {
+        "query_id": "36_721",
+        "wiki_title": "Los Guayos Municipality",
+        "entity_id": "Q3646838"
+    },
+    {
+        "query_id": "36_722",
+        "wiki_title": "Saint Michael, Barbados",
+        "entity_id": "Q819170"
+    },
+    {
+        "query_id": "36_723",
+        "wiki_title": "Yelizovsky District",
+        "entity_id": "Q1042558"
+    },
+    {
+        "query_id": "36_724",
+        "wiki_title": "Kediri Kingdom",
+        "entity_id": "Q756895"
+    },
+    {
+        "query_id": "36_725",
+        "wiki_title": "Uttarakhand",
+        "entity_id": "Q1499"
+    },
+    {
+        "query_id": "36_726",
+        "wiki_title": "Canton of Moissac-2",
+        "entity_id": "Q1726248"
+    },
+    {
+        "query_id": "36_727",
+        "wiki_title": "Trakai District Municipality",
+        "entity_id": "Q1987743"
+    },
+    {
+        "query_id": "36_728",
+        "wiki_title": "Garrigues (comarca)",
+        "entity_id": "Q12732"
+    },
+    {
+        "query_id": "36_729",
+        "wiki_title": "Canton of Champs-sur-Marne",
+        "entity_id": "Q1574227"
+    },
+    {
+        "query_id": "36_730",
+        "wiki_title": "South Kordofan",
+        "entity_id": "Q465490"
+    },
+    {
+        "query_id": "36_731",
+        "wiki_title": "Kakamega County",
+        "entity_id": "Q1721867"
+    },
+    {
+        "query_id": "36_732",
+        "wiki_title": "Borodianka Raion",
+        "entity_id": "Q2883763"
+    },
+    {
+        "query_id": "36_733",
+        "wiki_title": "Orhei District",
+        "entity_id": "Q2112462"
+    },
+    {
+        "query_id": "36_734",
+        "wiki_title": "Buliisa District",
+        "entity_id": "Q1229793"
+    },
+    {
+        "query_id": "36_735",
+        "wiki_title": "Iwye District",
+        "entity_id": "Q508510"
+    },
+    {
+        "query_id": "36_736",
+        "wiki_title": "Canton of Calais-Nord-Ouest",
+        "entity_id": "Q1491807"
+    },
+    {
+        "query_id": "36_737",
+        "wiki_title": "Svobodnensky District",
+        "entity_id": "Q2218102"
+    },
+    {
+        "query_id": "36_738",
+        "wiki_title": "Kyrgyzstan",
+        "entity_id": "Q813"
+    },
+    {
+        "query_id": "36_739",
+        "wiki_title": "Tiruvarur district",
+        "entity_id": "Q15197"
+    },
+    {
+        "query_id": "36_740",
+        "wiki_title": "Honduras",
+        "entity_id": "Q783"
+    },
+    {
+        "query_id": "36_741",
+        "wiki_title": "Bexar County, Texas",
+        "entity_id": "Q16861"
+    },
+    {
+        "query_id": "36_742",
+        "wiki_title": "Navarre",
+        "entity_id": "Q4018"
+    },
+    {
+        "query_id": "36_743",
+        "wiki_title": "Jefferson County, Tennessee",
+        "entity_id": "Q494768"
+    },
+    {
+        "query_id": "36_744",
+        "wiki_title": "Skinnskatteberg Municipality",
+        "entity_id": "Q37462"
+    },
+    {
+        "query_id": "36_745",
+        "wiki_title": "Ma'an Governorate",
+        "entity_id": "Q606340"
+    },
+    {
+        "query_id": "36_746",
+        "wiki_title": "Starnberg (district)",
+        "entity_id": "Q10504"
+    },
+    {
+        "query_id": "36_747",
+        "wiki_title": "Gmina Lubomierz",
+        "entity_id": "Q2328022"
+    },
+    {
+        "query_id": "36_748",
+        "wiki_title": "Goodhue County, Minnesota",
+        "entity_id": "Q486243"
+    },
+    {
+        "query_id": "36_749",
+        "wiki_title": "Greene County, Pennsylvania",
+        "entity_id": "Q494098"
+    },
+    {
+        "query_id": "36_750",
+        "wiki_title": "Malkangiri district",
+        "entity_id": "Q5122619"
+    },
+    {
+        "query_id": "36_751",
+        "wiki_title": "Canton of Cavaillon",
+        "entity_id": "Q1724825"
+    },
+    {
+        "query_id": "36_752",
+        "wiki_title": "Isanti County, Minnesota",
+        "entity_id": "Q486255"
+    },
+    {
+        "query_id": "36_753",
+        "wiki_title": "Arrondissement of Rethel",
+        "entity_id": "Q702199"
+    },
+    {
+        "query_id": "36_754",
+        "wiki_title": "Person County, North Carolina",
+        "entity_id": "Q508271"
+    },
+    {
+        "query_id": "36_755",
+        "wiki_title": "Bedford County, Pennsylvania",
+        "entity_id": "Q494174"
+    },
+    {
+        "query_id": "36_756",
+        "wiki_title": "Bedford County, Virginia",
+        "entity_id": "Q494216"
+    },
+    {
+        "query_id": "36_757",
+        "wiki_title": "Paita District",
+        "entity_id": "Q6318040"
+    },
+    {
+        "query_id": "36_758",
+        "wiki_title": "Osceola County, Florida",
+        "entity_id": "Q501067"
+    },
+    {
+        "query_id": "36_759",
+        "wiki_title": "Canton of Grand-Bourg",
+        "entity_id": "Q1347830"
+    },
+    {
+        "query_id": "36_760",
+        "wiki_title": "Fond du Lac County, Wisconsin",
+        "entity_id": "Q494912"
+    },
+    {
+        "query_id": "36_761",
+        "wiki_title": "Arrondissement of Nogent-sur-Seine",
+        "entity_id": "Q639304"
+    },
+    {
+        "query_id": "36_762",
+        "wiki_title": "Robertson County, Kentucky",
+        "entity_id": "Q503468"
+    },
+    {
+        "query_id": "36_763",
+        "wiki_title": "Hama Governorate",
+        "entity_id": "Q232355"
+    },
+    {
+        "query_id": "36_764",
+        "wiki_title": "Birobidzhansky District",
+        "entity_id": "Q804001"
+    },
+    {
+        "query_id": "36_765",
+        "wiki_title": "Tate County, Mississippi",
+        "entity_id": "Q486526"
+    },
+    {
+        "query_id": "36_766",
+        "wiki_title": "Mosteiros, Cape Verde (municipality)",
+        "entity_id": "Q516835"
+    },
+    {
+        "query_id": "36_767",
+        "wiki_title": "Zuyderz\u00e9e",
+        "entity_id": "Q231168"
+    },
+    {
+        "query_id": "36_768",
+        "wiki_title": "Tagant Region",
+        "entity_id": "Q843903"
+    },
+    {
+        "query_id": "36_769",
+        "wiki_title": "Al Hudaydah Governorate",
+        "entity_id": "Q275755"
+    },
+    {
+        "query_id": "36_771",
+        "wiki_title": "Canton of Chabanais",
+        "entity_id": "Q1572392"
+    },
+    {
+        "query_id": "36_772",
+        "wiki_title": "Province of Tarragona",
+        "entity_id": "Q98392"
+    },
+    {
+        "query_id": "36_773",
+        "wiki_title": "North Region (Cameroon)",
+        "entity_id": "Q502341"
+    },
+    {
+        "query_id": "36_774",
+        "wiki_title": "Republic of Kosova",
+        "entity_id": "Q2631403"
+    },
+    {
+        "query_id": "36_775",
+        "wiki_title": "North Kosovo",
+        "entity_id": "Q1060479"
+    },
+    {
+        "query_id": "36_776",
+        "wiki_title": "Central Province (Kenya)",
+        "entity_id": "Q318666"
+    },
+    {
+        "query_id": "36_777",
+        "wiki_title": "County Westmeath",
+        "entity_id": "Q182633"
+    },
+    {
+        "query_id": "36_778",
+        "wiki_title": "Rethymno Prefecture",
+        "entity_id": "Q210446"
+    },
+    {
+        "query_id": "36_779",
+        "wiki_title": "Spanish Texas",
+        "entity_id": "Q2505587"
+    },
+    {
+        "query_id": "36_780",
+        "wiki_title": "Nelson Mandela Bay Metropolitan Municipality",
+        "entity_id": "Q1856565"
+    },
+    {
+        "query_id": "36_781",
+        "wiki_title": "Arrondissement of Charolles",
+        "entity_id": "Q700884"
+    },
+    {
+        "query_id": "36_782",
+        "wiki_title": "Canton of Villefranche-sur-Mer",
+        "entity_id": "Q94088"
+    },
+    {
+        "query_id": "36_783",
+        "wiki_title": "Kingdom of Saxony",
+        "entity_id": "Q153015"
+    },
+    {
+        "query_id": "36_784",
+        "wiki_title": "Zangezur uezd",
+        "entity_id": "Q4186168"
+    },
+    {
+        "query_id": "36_785",
+        "wiki_title": "Aalborg Municipality",
+        "entity_id": "Q300856"
+    },
+    {
+        "query_id": "36_786",
+        "wiki_title": "Golestan province",
+        "entity_id": "Q170041"
+    },
+    {
+        "query_id": "36_787",
+        "wiki_title": "Calcasieu Parish, Louisiana",
+        "entity_id": "Q504345"
+    },
+    {
+        "query_id": "36_788",
+        "wiki_title": "Hisar District (Tajikistan)",
+        "entity_id": "Q2592671"
+    },
+    {
+        "query_id": "36_789",
+        "wiki_title": "Douglas County, Georgia",
+        "entity_id": "Q486325"
+    },
+    {
+        "query_id": "36_790",
+        "wiki_title": "Burgas Province",
+        "entity_id": "Q369220"
+    },
+    {
+        "query_id": "36_791",
+        "wiki_title": "As-Suwayda Governorate",
+        "entity_id": "Q236797"
+    },
+    {
+        "query_id": "36_792",
+        "wiki_title": "Quirino",
+        "entity_id": "Q13873"
+    },
+    {
+        "query_id": "36_793",
+        "wiki_title": "Province of Olbia-Tempio",
+        "entity_id": "Q16224"
+    },
+    {
+        "query_id": "36_794",
+        "wiki_title": "Ladakh",
+        "entity_id": "Q200667"
+    },
+    {
+        "query_id": "36_795",
+        "wiki_title": "Naledi Local Municipality, North West",
+        "entity_id": "Q775608"
+    },
+    {
+        "query_id": "36_796",
+        "wiki_title": "Armenia",
+        "entity_id": "Q399"
+    },
+    {
+        "query_id": "36_797",
+        "wiki_title": "United Arab Emirates",
+        "entity_id": "Q878"
+    },
+    {
+        "query_id": "36_798",
+        "wiki_title": "Washington County, Oklahoma",
+        "entity_id": "Q489486"
+    },
+    {
+        "query_id": "36_799",
+        "wiki_title": "Gmina Nowy Korczyn",
+        "entity_id": "Q555599"
+    },
+    {
+        "query_id": "36_800",
+        "wiki_title": "Santa Catarina Island",
+        "entity_id": "Q1191273"
+    },
+    {
+        "query_id": "36_801",
+        "wiki_title": "Hoysala Kingdom",
+        "entity_id": "Q466581"
+    },
+    {
+        "query_id": "36_802",
+        "wiki_title": "Nuqat al Khams",
+        "entity_id": "Q26161"
+    },
+    {
+        "query_id": "36_803",
+        "wiki_title": "Austrian Silesia",
+        "entity_id": "Q298874"
+    },
+    {
+        "query_id": "36_804",
+        "wiki_title": "Vest-Agder",
+        "entity_id": "Q50623"
+    },
+    {
+        "query_id": "36_805",
+        "wiki_title": "Morgan County, Illinois",
+        "entity_id": "Q490989"
+    },
+    {
+        "query_id": "36_806",
+        "wiki_title": "Ockelbo Municipality",
+        "entity_id": "Q505109"
+    },
+    {
+        "query_id": "36_807",
+        "wiki_title": "Dakar Region",
+        "entity_id": "Q856268"
+    },
+    {
+        "query_id": "36_808",
+        "wiki_title": "Tres de Febrero Partido",
+        "entity_id": "Q2054829"
+    },
+    {
+        "query_id": "36_809",
+        "wiki_title": "Ouham",
+        "entity_id": "Q726620"
+    },
+    {
+        "query_id": "36_810",
+        "wiki_title": "Pennington County, Minnesota",
+        "entity_id": "Q491173"
+    },
+    {
+        "query_id": "36_811",
+        "wiki_title": "Rivers State",
+        "entity_id": "Q503923"
+    },
+    {
+        "query_id": "36_812",
+        "wiki_title": "Do\u00f1a Ana County, New Mexico",
+        "entity_id": "Q112953"
+    },
+    {
+        "query_id": "36_813",
+        "wiki_title": "Republic of Formosa",
+        "entity_id": "Q319881"
+    },
+    {
+        "query_id": "36_814",
+        "wiki_title": "Bheri Zone",
+        "entity_id": "Q9060"
+    },
+    {
+        "query_id": "36_815",
+        "wiki_title": "Crook County, Oregon",
+        "entity_id": "Q484354"
+    },
+    {
+        "query_id": "36_816",
+        "wiki_title": "Kuvshinovsky District",
+        "entity_id": "Q394688"
+    },
+    {
+        "query_id": "36_817",
+        "wiki_title": "Insular Region (Equatorial Guinea)",
+        "entity_id": "Q3040071"
+    },
+    {
+        "query_id": "36_818",
+        "wiki_title": "Brusartsi Municipality",
+        "entity_id": "Q2719590"
+    },
+    {
+        "query_id": "36_819",
+        "wiki_title": "Afyonkarahisar Province",
+        "entity_id": "Q45220"
+    },
+    {
+        "query_id": "36_820",
+        "wiki_title": "Snyder County, Pennsylvania",
+        "entity_id": "Q495595"
+    },
+    {
+        "query_id": "36_821",
+        "wiki_title": "Abalak Department",
+        "entity_id": "Q305217"
+    },
+    {
+        "query_id": "36_822",
+        "wiki_title": "Vilyeyka Region",
+        "entity_id": "Q2638807"
+    },
+    {
+        "query_id": "36_823",
+        "wiki_title": "Roer (department)",
+        "entity_id": "Q153402"
+    },
+    {
+        "query_id": "36_824",
+        "wiki_title": "Lyskovsky District",
+        "entity_id": "Q1653020"
+    },
+    {
+        "query_id": "36_825",
+        "wiki_title": "Mount Lebanon Governorate",
+        "entity_id": "Q216945"
+    },
+    {
+        "query_id": "36_826",
+        "wiki_title": "Nestos (municipality)",
+        "entity_id": "Q2000198"
+    },
+    {
+        "query_id": "36_827",
+        "wiki_title": "Ontonagon County, Michigan",
+        "entity_id": "Q45438"
+    },
+    {
+        "query_id": "36_828",
+        "wiki_title": "Ain",
+        "entity_id": "Q3083"
+    },
+    {
+        "query_id": "36_829",
+        "wiki_title": "Arrondissement of Roanne",
+        "entity_id": "Q702225"
+    },
+    {
+        "query_id": "36_830",
+        "wiki_title": "Ahmadi Governorate",
+        "entity_id": "Q552354"
+    },
+    {
+        "query_id": "36_831",
+        "wiki_title": "Glades County, Florida",
+        "entity_id": "Q488468"
+    },
+    {
+        "query_id": "36_832",
+        "wiki_title": "Gmina Czastary",
+        "entity_id": "Q2300907"
+    },
+    {
+        "query_id": "36_833",
+        "wiki_title": "Opoczno County",
+        "entity_id": "Q1144118"
+    },
+    {
+        "query_id": "36_834",
+        "wiki_title": "North Chungcheong Province",
+        "entity_id": "Q41066"
+    },
+    {
+        "query_id": "36_835",
+        "wiki_title": "Davison County, South Dakota",
+        "entity_id": "Q488922"
+    },
+    {
+        "query_id": "36_836",
+        "wiki_title": "Province of Trapani",
+        "entity_id": "Q16288"
+    },
+    {
+        "query_id": "36_837",
+        "wiki_title": "Tlokwe Local Municipality",
+        "entity_id": "Q2576328"
+    },
+    {
+        "query_id": "36_838",
+        "wiki_title": "Kauai County, Hawaii",
+        "entity_id": "Q111517"
+    },
+    {
+        "query_id": "36_839",
+        "wiki_title": "Ralls County, Missouri",
+        "entity_id": "Q259095"
+    },
+    {
+        "query_id": "36_840",
+        "wiki_title": "Canton of La Capelle",
+        "entity_id": "Q555707"
+    },
+    {
+        "query_id": "36_841",
+        "wiki_title": "Canton of Hornoy-le-Bourg",
+        "entity_id": "Q429326"
+    },
+    {
+        "query_id": "36_842",
+        "wiki_title": "Kingdom of Kongo",
+        "entity_id": "Q796583"
+    },
+    {
+        "query_id": "36_843",
+        "wiki_title": "Sioux County, North Dakota",
+        "entity_id": "Q48850"
+    },
+    {
+        "query_id": "36_844",
+        "wiki_title": "Linn County, Iowa",
+        "entity_id": "Q485741"
+    },
+    {
+        "query_id": "36_845",
+        "wiki_title": "Bsharri District",
+        "entity_id": "Q2484852"
+    },
+    {
+        "query_id": "36_846",
+        "wiki_title": "Bay of Plenty Region",
+        "entity_id": "Q2192924"
+    },
+    {
+        "query_id": "36_847",
+        "wiki_title": "Kabirdham district",
+        "entity_id": "Q2450255"
+    },
+    {
+        "query_id": "36_848",
+        "wiki_title": "Caribou County, Idaho",
+        "entity_id": "Q488481"
+    },
+    {
+        "query_id": "36_849",
+        "wiki_title": "Simrishamn Municipality",
+        "entity_id": "Q504626"
+    },
+    {
+        "query_id": "36_850",
+        "wiki_title": "Colorado County, Texas",
+        "entity_id": "Q26885"
+    },
+    {
+        "query_id": "36_851",
+        "wiki_title": "Roi Et province",
+        "entity_id": "Q625463"
+    },
+    {
+        "query_id": "36_852",
+        "wiki_title": "Lejweleputswa District Municipality",
+        "entity_id": "Q1816477"
+    },
+    {
+        "query_id": "36_853",
+        "wiki_title": "Rockdale County, Georgia",
+        "entity_id": "Q498621"
+    },
+    {
+        "query_id": "36_854",
+        "wiki_title": "Hancock County, Maine",
+        "entity_id": "Q506351"
+    },
+    {
+        "query_id": "36_855",
+        "wiki_title": "V\u00e4stra G\u00f6taland County",
+        "entity_id": "Q103093"
+    },
+    {
+        "query_id": "36_856",
+        "wiki_title": "Nayagarh district",
+        "entity_id": "Q2367388"
+    },
+    {
+        "query_id": "36_857",
+        "wiki_title": "City of Joondalup",
+        "entity_id": "Q1703523"
+    },
+    {
+        "query_id": "36_858",
+        "wiki_title": "Tuscola County, Michigan",
+        "entity_id": "Q82367"
+    },
+    {
+        "query_id": "36_859",
+        "wiki_title": "Arrondissement of Vierzon",
+        "entity_id": "Q600838"
+    },
+    {
+        "query_id": "36_860",
+        "wiki_title": "Nemuro Subprefecture",
+        "entity_id": "Q1151431"
+    },
+    {
+        "query_id": "36_861",
+        "wiki_title": "Gagra District",
+        "entity_id": "Q40349"
+    },
+    {
+        "query_id": "36_862",
+        "wiki_title": "Okayama Prefecture",
+        "entity_id": "Q132936"
+    },
+    {
+        "query_id": "36_863",
+        "wiki_title": "Buffalo County, Nebraska",
+        "entity_id": "Q484488"
+    },
+    {
+        "query_id": "36_864",
+        "wiki_title": "Llano County, Texas",
+        "entity_id": "Q110336"
+    },
+    {
+        "query_id": "36_865",
+        "wiki_title": "Brown County, Illinois",
+        "entity_id": "Q109761"
+    },
+    {
+        "query_id": "36_866",
+        "wiki_title": "Norberg Municipality",
+        "entity_id": "Q37404"
+    },
+    {
+        "query_id": "36_867",
+        "wiki_title": "Pinneberg (district)",
+        "entity_id": "Q3006"
+    },
+    {
+        "query_id": "36_868",
+        "wiki_title": "Juliaca District",
+        "entity_id": "Q3824849"
+    },
+    {
+        "query_id": "36_869",
+        "wiki_title": "Pawnee County, Kansas",
+        "entity_id": "Q374589"
+    },
+    {
+        "query_id": "36_870",
+        "wiki_title": "Marinduque",
+        "entity_id": "Q13846"
+    },
+    {
+        "query_id": "36_871",
+        "wiki_title": "Najaf Governorate",
+        "entity_id": "Q192882"
+    },
+    {
+        "query_id": "36_872",
+        "wiki_title": "Rottweil (district)",
+        "entity_id": "Q8211"
+    },
+    {
+        "query_id": "36_873",
+        "wiki_title": "Harris County, Texas",
+        "entity_id": "Q26676"
+    },
+    {
+        "query_id": "36_874",
+        "wiki_title": "Bilma Department",
+        "entity_id": "Q863297"
+    },
+    {
+        "query_id": "36_875",
+        "wiki_title": "Almirante Brown Partido",
+        "entity_id": "Q1399432"
+    },
+    {
+        "query_id": "36_876",
+        "wiki_title": "Gunma Prefecture",
+        "entity_id": "Q129499"
+    },
+    {
+        "query_id": "36_877",
+        "wiki_title": "Denali Borough, Alaska",
+        "entity_id": "Q179950"
+    },
+    {
+        "query_id": "36_878",
+        "wiki_title": "Douglas County, Wisconsin",
+        "entity_id": "Q494936"
+    },
+    {
+        "query_id": "36_879",
+        "wiki_title": "Stanytsia-Luhanska Raion",
+        "entity_id": "Q2216649"
+    },
+    {
+        "query_id": "36_880",
+        "wiki_title": "Bi\u00e9 Province",
+        "entity_id": "Q213977"
+    },
+    {
+        "query_id": "36_881",
+        "wiki_title": "Tyumensky District",
+        "entity_id": "Q76060"
+    },
+    {
+        "query_id": "36_882",
+        "wiki_title": "Wien-Umgebung District",
+        "entity_id": "Q521869"
+    },
+    {
+        "query_id": "36_883",
+        "wiki_title": "Canton of Marseille-Le Camas",
+        "entity_id": "Q930210"
+    },
+    {
+        "query_id": "36_884",
+        "wiki_title": "Sabha District",
+        "entity_id": "Q26132"
+    },
+    {
+        "query_id": "36_885",
+        "wiki_title": "Wakulla County, Florida",
+        "entity_id": "Q505417"
+    }
+]
