@@ -314,10 +314,9 @@ def main(args):
             else:
                 prompt = prompt_template_wo_context.format(question=query)                
                     
-            print(prompt)
+            print("pr: {}".format(prompt))
             result = pipe(prompt)[0]['generated_text']
-            print("\n")
-            print(result)
+            print("rs: {}".format(result))
             if args.llm_model_name in ["llama2", "tiny_llama", "mistral"]:
                 pred = result.split("[/INST]")[1].strip()
             elif args.llm_model_name == 'zephyr':
@@ -325,7 +324,7 @@ def main(args):
             elif args.llm_model_name == 'MiniCPM':
                 pred = result.split("<AI>")[1].strip()
             elif args.llm_model_name == 'flant5':
-                pass
+                pred = result
             
             is_correct = False
             for pa in test_answers[idx]:
