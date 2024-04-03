@@ -125,6 +125,7 @@ archive
 models
 
 component0_preprocessing/archive
+component0_preprocessing/generated_data/archive
 component0_preprocessing/generated_data/popQA_costomized/archive
 component0_preprocessing/generated_data/popQA_costomized/entities_analysis.json
 component0_preprocessing/generated_data/EQ_costomized/entities_analysis.json
@@ -133,7 +134,7 @@ component0_preprocessing/generated_data/popQA_costomized/results
 component0_preprocessing/generated_data/EQ_costomized/results
 component0_preprocessing/generated_data/witQA_costomized/results
 
-component1_retrieval/data/popqa
+component1_retrieval/data
 component1_retrieval/results
 component1_retrieval/dpr/models
 component1_retrieval/data/popqa_sm

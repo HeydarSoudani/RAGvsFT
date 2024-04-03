@@ -1,1 +1,172 @@
-[{"query_id": "472_0", "wiki_title": "Flag of Zimbabwe", "entity_id": "Q159986"}, {"query_id": "472_1", "wiki_title": "AFC Bournemouth", "entity_id": "Q19568"}, {"query_id": "472_2", "wiki_title": "En Avant Guingamp", "entity_id": "Q459148"}, {"query_id": "472_3", "wiki_title": "Arsenal de Sarand\u00ed", "entity_id": "Q476836"}, {"query_id": "472_4", "wiki_title": "Aston Villa F.C.", "entity_id": "Q18711"}, {"query_id": "472_5", "wiki_title": "Manchester United F.C.", "entity_id": "Q18656"}, {"query_id": "472_6", "wiki_title": "Fleetwood Town F.C.", "entity_id": "Q48941"}, {"query_id": "472_7", "wiki_title": "Doncaster Rovers F.C.", "entity_id": "Q19589"}, {"query_id": "472_8", "wiki_title": "Sheffield United F.C.", "entity_id": "Q19607"}, {"query_id": "472_9", "wiki_title": "Juventus F.C.", "entity_id": "Q1422"}, {"query_id": "472_10", "wiki_title": "Ruby", "entity_id": "Q43088"}, {"query_id": "472_11", "wiki_title": "Carlisle United F.C.", "entity_id": "Q19575"}, {"query_id": "472_12", "wiki_title": "Snow", "entity_id": "Q7561"}, {"query_id": "472_13", "wiki_title": "Rosa 'Ingrid Bergman'", "entity_id": "Q488088"}, {"query_id": "472_14", "wiki_title": "Flag of Belize", "entity_id": "Q169192"}, {"query_id": "472_15", "wiki_title": "Pan-Slavic colors", "entity_id": "Q406991"}, {"query_id": "472_16", "wiki_title": "Charlton Athletic F.C.", "entity_id": "Q19462"}, {"query_id": "472_17", "wiki_title": "Exeter City F.C.", "entity_id": "Q48939"}, {"query_id": "472_18", "wiki_title": "Arsenal F.C.", "entity_id": "Q9617"}, {"query_id": "472_19", "wiki_title": "Fire engine", "entity_id": "Q208281"}, {"query_id": "472_20", "wiki_title": "A.C. Milan", "entity_id": "Q1543"}, {"query_id": "472_21", "wiki_title": "Stoke City F.C.", "entity_id": "Q18736"}, {"query_id": "472_22", "wiki_title": "Nottingham Forest F.C.", "entity_id": "Q19490"}, {"query_id": "472_23", "wiki_title": "Milk", "entity_id": "Q8495"}, {"query_id": "472_24", "wiki_title": "Atl\u00e9tico Madrid", "entity_id": "Q8701"}, {"query_id": "472_25", "wiki_title": "Inter Milan", "entity_id": "Q631"}, {"query_id": "472_26", "wiki_title": "York City F.C.", "entity_id": "Q48954"}, {"query_id": "472_27", "wiki_title": "White House", "entity_id": "Q35525"}, {"query_id": "472_28", "wiki_title": "Apple", "entity_id": "Q89"}, {"query_id": "472_29", "wiki_title": "Coventry City F.C.", "entity_id": "Q19580"}, {"query_id": "472_30", "wiki_title": "Flag of Colorado", "entity_id": "Q492546"}, {"query_id": "472_31", "wiki_title": "Chalk", "entity_id": "Q183670"}, {"query_id": "472_32", "wiki_title": "Rotherham United F.C.", "entity_id": "Q48950"}, {"query_id": "472_33", "wiki_title": "Flag of Vanuatu", "entity_id": "Q185285"}]
+[
+    {
+        "query_id": "472_0",
+        "wiki_title": "Flag of Zimbabwe",
+        "entity_id": "Q159986"
+    },
+    {
+        "query_id": "472_1",
+        "wiki_title": "AFC Bournemouth",
+        "entity_id": "Q19568"
+    },
+    {
+        "query_id": "472_2",
+        "wiki_title": "En Avant Guingamp",
+        "entity_id": "Q459148"
+    },
+    {
+        "query_id": "472_3",
+        "wiki_title": "Arsenal de Sarand\u00ed",
+        "entity_id": "Q476836"
+    },
+    {
+        "query_id": "472_4",
+        "wiki_title": "Aston Villa F.C.",
+        "entity_id": "Q18711"
+    },
+    {
+        "query_id": "472_5",
+        "wiki_title": "Manchester United F.C.",
+        "entity_id": "Q18656"
+    },
+    {
+        "query_id": "472_6",
+        "wiki_title": "Fleetwood Town F.C.",
+        "entity_id": "Q48941"
+    },
+    {
+        "query_id": "472_7",
+        "wiki_title": "Doncaster Rovers F.C.",
+        "entity_id": "Q19589"
+    },
+    {
+        "query_id": "472_8",
+        "wiki_title": "Sheffield United F.C.",
+        "entity_id": "Q19607"
+    },
+    {
+        "query_id": "472_9",
+        "wiki_title": "Juventus F.C.",
+        "entity_id": "Q1422"
+    },
+    {
+        "query_id": "472_10",
+        "wiki_title": "Ruby",
+        "entity_id": "Q43088"
+    },
+    {
+        "query_id": "472_11",
+        "wiki_title": "Carlisle United F.C.",
+        "entity_id": "Q19575"
+    },
+    {
+        "query_id": "472_12",
+        "wiki_title": "Snow",
+        "entity_id": "Q7561"
+    },
+    {
+        "query_id": "472_13",
+        "wiki_title": "Rosa 'Ingrid Bergman'",
+        "entity_id": "Q488088"
+    },
+    {
+        "query_id": "472_14",
+        "wiki_title": "Flag of Belize",
+        "entity_id": "Q169192"
+    },
+    {
+        "query_id": "472_15",
+        "wiki_title": "Pan-Slavic colors",
+        "entity_id": "Q406991"
+    },
+    {
+        "query_id": "472_16",
+        "wiki_title": "Charlton Athletic F.C.",
+        "entity_id": "Q19462"
+    },
+    {
+        "query_id": "472_17",
+        "wiki_title": "Exeter City F.C.",
+        "entity_id": "Q48939"
+    },
+    {
+        "query_id": "472_18",
+        "wiki_title": "Arsenal F.C.",
+        "entity_id": "Q9617"
+    },
+    {
+        "query_id": "472_19",
+        "wiki_title": "Fire engine",
+        "entity_id": "Q208281"
+    },
+    {
+        "query_id": "472_20",
+        "wiki_title": "A.C. Milan",
+        "entity_id": "Q1543"
+    },
+    {
+        "query_id": "472_21",
+        "wiki_title": "Stoke City F.C.",
+        "entity_id": "Q18736"
+    },
+    {
+        "query_id": "472_22",
+        "wiki_title": "Nottingham Forest F.C.",
+        "entity_id": "Q19490"
+    },
+    {
+        "query_id": "472_23",
+        "wiki_title": "Milk",
+        "entity_id": "Q8495"
+    },
+    {
+        "query_id": "472_24",
+        "wiki_title": "Atl\u00e9tico Madrid",
+        "entity_id": "Q8701"
+    },
+    {
+        "query_id": "472_25",
+        "wiki_title": "Inter Milan",
+        "entity_id": "Q631"
+    },
+    {
+        "query_id": "472_26",
+        "wiki_title": "York City F.C.",
+        "entity_id": "Q48954"
+    },
+    {
+        "query_id": "472_27",
+        "wiki_title": "White House",
+        "entity_id": "Q35525"
+    },
+    {
+        "query_id": "472_28",
+        "wiki_title": "Apple",
+        "entity_id": "Q89"
+    },
+    {
+        "query_id": "472_29",
+        "wiki_title": "Coventry City F.C.",
+        "entity_id": "Q19580"
+    },
+    {
+        "query_id": "472_30",
+        "wiki_title": "Flag of Colorado",
+        "entity_id": "Q492546"
+    },
+    {
+        "query_id": "472_31",
+        "wiki_title": "Chalk",
+        "entity_id": "Q183670"
+    },
+    {
+        "query_id": "472_32",
+        "wiki_title": "Rotherham United F.C.",
+        "entity_id": "Q48950"
+    },
+    {
+        "query_id": "472_33",
+        "wiki_title": "Flag of Vanuatu",
+        "entity_id": "Q185285"
+    }
+]
