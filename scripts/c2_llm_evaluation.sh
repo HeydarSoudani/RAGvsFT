@@ -17,14 +17,14 @@ module load Python/3.10.4-GCCcore-11.3.0
 # pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 
 srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
-    --model_name_or_path "TinyLlama/TinyLlama-1.1B-Chat-v1.0" \
-    --llm_model_name "tiny_llama" \
-    --dataset_name "popQA" \
-    --output_file_pre_prefix "bf" \
+    --model_name_or_path "google/flan-t5-small" \
+    --llm_model_name "flant5" \
+    --dataset_name "witQA" \
+    --output_file_pre_prefix "sm_bf" \
     --with_peft False \
     --with_fs False \
-    --with_rag True \
-    --retrieval_method "ideal"
+    --with_rag False \
+    --retrieval_method ""
 
 
 # Model name: [

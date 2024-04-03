@@ -72,7 +72,13 @@ def load_relations_data(args):
     # Select one relation =================
     # test_relation_id = random.choice(list(relation_files.keys()))
     if target_relation_ids == "all":
-        test_relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
+        if args.dataset_name == 'popQA':
+            test_relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
+        elif args.dataset_name == 'witQA':
+            test_relation_ids = ['58', '2936', '17', '1376', '674', '50', '22', '1431', '123', '1038', '3301', '140', '36', '136', '86', '69', '1433', '4647', '25', '452', '2012', '106', '27', '184', '1050', '162', '149', '641', '57', '462', '344', '19']   
+        elif args.dataset_name == 'EQ':
+            test_relation_ids = ['17', '19', '20', '26', '36', '40', '50', '69', '106', '112', '127', '131', '136', '159', '170', '175', '176', '264', '276', '407', '413', '495', '740', '800']
+    
     else:
         test_relation_ids = target_relation_ids
     
@@ -182,9 +188,9 @@ def main(args):
     rag_part = "rag" if args.with_rag else "norag"
     peft_part = "peft" if args.with_peft else "full"
     if args.with_rag:
-        file_prefix = f"{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{args.retrieval_method}_{peft_part}"
+        file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{args.retrieval_method}_{peft_part}"
     else:
-        file_prefix = f"{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{peft_part}"
+        file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{peft_part}"
     
     out_results_path = f"{out_results_dir}/{file_prefix}_results.jsonl"
     
@@ -285,8 +291,8 @@ def main(args):
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 10:
-                break
+            # if idx == 10:
+            #     break
             
             retrieved_text = ""
             has_context = False
@@ -308,9 +314,12 @@ def main(args):
             else:
                 prompt = prompt_template_wo_context.format(question=query)                
                     
-            print("pr: {}".format(prompt))
+            
             result = pipe(prompt)[0]['generated_text']
-            print("rs: {}".format(result))
+            
+            # print("pr: {}".format(prompt))
+            # print("rs: {}".format(result))
+            
             if args.llm_model_name in ["llama2", "tiny_llama", "mistral"]:
                 pred = result.split("[/INST]")[1].strip()
             elif args.llm_model_name == 'zephyr':
@@ -326,22 +335,22 @@ def main(args):
                         is_correct = True
             accuracy.append(is_correct)
             
-            # if idx % 300 == 0:
-            # logging.info('\n')
-            # logging.info(f"Prompt: {prompt}")
-            # logging.info(f"Query: {query}")
-            # logging.info(f"Has context: {has_context}"),
-            # logging.info(f"Pred: {pred}")
-            # logging.info(f"Labels: {test_answers[idx]}")
-            # logging.info(f"Final decision: {is_correct}")
-            # logging.info('====')
-            print('\n')
-            print(f"Query: {query}")
-            print(f"Has context: {has_context}"),
-            print(f"Pred: {pred}")
-            print(f"Labels: {test_answers[idx]}")
-            print(f"Final decision: {is_correct}")
-            print('====')
+            if idx % 300 == 0:
+                logging.info('\n')
+                logging.info(f"Prompt: {prompt}")
+                logging.info(f"Query: {query}")
+                logging.info(f"Has context: {has_context}"),
+                logging.info(f"Pred: {pred}")
+                logging.info(f"Labels: {test_answers[idx]}")
+                logging.info(f"Final decision: {is_correct}")
+                logging.info('====')
+            # print('\n')
+            # print(f"Query: {query}")
+            # print(f"Has context: {has_context}"),
+            # print(f"Pred: {pred}")
+            # print(f"Labels: {test_answers[idx]}")
+            # print(f"Final decision: {is_correct}")
+            # print('====')
             
             item = {
                 "query_id": query_id,
