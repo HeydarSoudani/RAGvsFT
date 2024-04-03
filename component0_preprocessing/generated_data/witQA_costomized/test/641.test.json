@@ -1057,15 +1057,6 @@
         "pageviews": "73"
     },
     {
-        "query_id": "641_84",
-        "question": "What sport does Karachi Rugby Football Club participate in?",
-        "answers": [
-            "rugby",
-            "rugby union"
-        ],
-        "pageviews": "40"
-    },
-    {
         "query_id": "641_85",
         "question": "What sport does Federica Radicchi participate in?",
         "answers": [
@@ -3217,21 +3208,6 @@
             "soccer"
         ],
         "pageviews": "1168"
-    },
-    {
-        "query_id": "641_260",
-        "question": "What sport does SV Babelsberg 03 participate in?",
-        "answers": [
-            "futebol",
-            "footie",
-            "association football",
-            "footy",
-            "football",
-            "footballer",
-            "futbol",
-            "soccer"
-        ],
-        "pageviews": "4709"
     },
     {
         "query_id": "641_261",

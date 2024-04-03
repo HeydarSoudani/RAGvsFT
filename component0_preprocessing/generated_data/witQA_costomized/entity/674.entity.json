@@ -1,7 +1,7 @@
 [
     {
         "query_id": "674_0",
-        "wiki_title": "Doctor Who",
+        "wiki_title": "Doctor Who (film)",
         "entity_id": "Q336240"
     },
     {
@@ -26,7 +26,7 @@
     },
     {
         "query_id": "674_5",
-        "wiki_title": "The Maltese Falcon",
+        "wiki_title": "The Maltese Falcon (novel)",
         "entity_id": "Q870551"
     },
     {
@@ -61,7 +61,7 @@
     },
     {
         "query_id": "674_12",
-        "wiki_title": "Gena the Crocodile",
+        "wiki_title": "Gena the Crocodile (film)",
         "entity_id": "Q1965370"
     },
     {
@@ -111,7 +111,7 @@
     },
     {
         "query_id": "674_22",
-        "wiki_title": "The Adventure of the Red-Headed League",
+        "wiki_title": "The Red-Headed League",
         "entity_id": "Q461026"
     },
     {
@@ -146,7 +146,7 @@
     },
     {
         "query_id": "674_29",
-        "wiki_title": "X-Men",
+        "wiki_title": "X-Men (film)",
         "entity_id": "Q106182"
     },
     {
@@ -186,7 +186,7 @@
     },
     {
         "query_id": "674_37",
-        "wiki_title": "Memorabilia",
+        "wiki_title": "Memorabilia (Xenophon)",
         "entity_id": "Q1373343"
     },
     {
@@ -211,7 +211,7 @@
     },
     {
         "query_id": "674_42",
-        "wiki_title": "Origin",
+        "wiki_title": "Origin (Brown novel)",
         "entity_id": "Q30610044"
     },
     {
@@ -276,7 +276,7 @@
     },
     {
         "query_id": "674_55",
-        "wiki_title": "Waterloo Road",
+        "wiki_title": "Waterloo Road (TV series)",
         "entity_id": "Q3499780"
     },
     {
@@ -361,7 +361,7 @@
     },
     {
         "query_id": "674_72",
-        "wiki_title": "The Devil Wears Prada",
+        "wiki_title": "The Devil Wears Prada (novel)",
         "entity_id": "Q2037865"
     },
     {
@@ -396,7 +396,7 @@
     },
     {
         "query_id": "674_79",
-        "wiki_title": "Journey's End",
+        "wiki_title": "Journey's End (Doctor Who)",
         "entity_id": "Q3208970"
     },
     {
@@ -521,7 +521,7 @@
     },
     {
         "query_id": "674_104",
-        "wiki_title": "The Little Children",
+        "wiki_title": "Teaching of Jesus about little children",
         "entity_id": "Q1269132"
     },
     {
@@ -531,7 +531,7 @@
     },
     {
         "query_id": "674_106",
-        "wiki_title": "The Massacre of St Bartholomew's Eve",
+        "wiki_title": "The Massacre (Doctor Who)",
         "entity_id": "Q5238816"
     },
     {
@@ -571,7 +571,7 @@
     },
     {
         "query_id": "674_114",
-        "wiki_title": "World War Three",
+        "wiki_title": "World War Three (Doctor Who)",
         "entity_id": "Q2604186"
     },
     {
@@ -591,7 +591,7 @@
     },
     {
         "query_id": "674_118",
-        "wiki_title": "The Blue Cross",
+        "wiki_title": "The Blue Cross (short story)",
         "entity_id": "Q6367266"
     },
     {
@@ -603,11 +603,6 @@
         "query_id": "674_120",
         "wiki_title": "The Rodeo Murder",
         "entity_id": "Q5984401"
-    },
-    {
-        "query_id": "674_121",
-        "wiki_title": "The Cat and the Claw: Part 1",
-        "entity_id": "Q17183729"
     },
     {
         "query_id": "674_122",
@@ -646,7 +641,7 @@
     },
     {
         "query_id": "674_129",
-        "wiki_title": "Banco \u00e0 Bangkok pour OSS 117",
+        "wiki_title": "Shadow of Evil",
         "entity_id": "Q2882090"
     },
     {
@@ -666,12 +661,12 @@
     },
     {
         "query_id": "674_133",
-        "wiki_title": "Fray",
+        "wiki_title": "Fray (comics)",
         "entity_id": "Q2334647"
     },
     {
         "query_id": "674_134",
-        "wiki_title": "Rhesus",
+        "wiki_title": "Rhesus (play)",
         "entity_id": "Q667750"
     },
     {
@@ -696,7 +691,7 @@
     },
     {
         "query_id": "674_139",
-        "wiki_title": "Maigret Sees Red",
+        "wiki_title": "Maigret voit rouge",
         "entity_id": "Q3278137"
     },
     {
@@ -706,7 +701,7 @@
     },
     {
         "query_id": "674_141",
-        "wiki_title": "Doctor Who, season 23",
+        "wiki_title": "Doctor Who season 23",
         "entity_id": "Q1611541"
     },
     {
@@ -731,7 +726,7 @@
     },
     {
         "query_id": "674_146",
-        "wiki_title": "Ajax",
+        "wiki_title": "Ajax (play)",
         "entity_id": "Q412341"
     },
     {
@@ -766,12 +761,12 @@
     },
     {
         "query_id": "674_153",
-        "wiki_title": "Grin and Bear It",
+        "wiki_title": "Grin and Bear It (film)",
         "entity_id": "Q3036174"
     },
     {
         "query_id": "674_154",
-        "wiki_title": "Porno",
+        "wiki_title": "Porno (novel)",
         "entity_id": "Q123322"
     },
     {
@@ -826,7 +821,7 @@
     },
     {
         "query_id": "674_165",
-        "wiki_title": "World of Illusion Starring Mickey Mouse and Donald Duck",
+        "wiki_title": "World of Illusion",
         "entity_id": "Q2740256"
     },
     {
@@ -851,22 +846,22 @@
     },
     {
         "query_id": "674_170",
-        "wiki_title": "JAG",
+        "wiki_title": "JAG (TV series)",
         "entity_id": "Q754197"
     },
     {
         "query_id": "674_171",
-        "wiki_title": "Half-Life",
+        "wiki_title": "Half-Life (video game)",
         "entity_id": "Q279744"
     },
     {
         "query_id": "674_172",
-        "wiki_title": "An Officer and a Spy",
+        "wiki_title": "An Officer and a Spy (film)",
         "entity_id": "Q60833546"
     },
     {
         "query_id": "674_173",
-        "wiki_title": "Hook, Lion & Sinker",
+        "wiki_title": "Hook, Lion and Sinker",
         "entity_id": "Q3036167"
     },
     {
@@ -876,12 +871,12 @@
     },
     {
         "query_id": "674_175",
-        "wiki_title": "The Three Musketeers",
+        "wiki_title": "The Three Musketeers (1961 film)",
         "entity_id": "Q1218097"
     },
     {
         "query_id": "674_176",
-        "wiki_title": "Helter Skelter",
+        "wiki_title": "Helter Skelter (2004 film)",
         "entity_id": "Q1604598"
     },
     {
@@ -906,7 +901,7 @@
     },
     {
         "query_id": "674_181",
-        "wiki_title": "Person of Interest",
+        "wiki_title": "Person of Interest (TV series)",
         "entity_id": "Q564345"
     },
     {
@@ -986,7 +981,7 @@
     },
     {
         "query_id": "674_197",
-        "wiki_title": "The Godfather",
+        "wiki_title": "The Godfather (novel)",
         "entity_id": "Q243556"
     },
     {
@@ -1001,7 +996,7 @@
     },
     {
         "query_id": "674_200",
-        "wiki_title": "Bones",
+        "wiki_title": "Bones (TV series)",
         "entity_id": "Q207803"
     },
     {
@@ -1021,7 +1016,7 @@
     },
     {
         "query_id": "674_204",
-        "wiki_title": "NCIS",
+        "wiki_title": "NCIS (TV series)",
         "entity_id": "Q4525"
     },
     {
@@ -1031,7 +1026,7 @@
     },
     {
         "query_id": "674_206",
-        "wiki_title": "Frankenstein; or, The Modern Prometheus",
+        "wiki_title": "Frankenstein",
         "entity_id": "Q150827"
     },
     {
@@ -1046,7 +1041,7 @@
     },
     {
         "query_id": "674_209",
-        "wiki_title": "Journey to the West",
+        "wiki_title": "Journey to the West (1986 TV series)",
         "entity_id": "Q2353327"
     },
     {
@@ -1056,7 +1051,7 @@
     },
     {
         "query_id": "674_211",
-        "wiki_title": "Aubrey-Maturin series",
+        "wiki_title": "Aubrey\u2013Maturin series",
         "entity_id": "Q10376289"
     },
     {
@@ -1066,17 +1061,17 @@
     },
     {
         "query_id": "674_213",
-        "wiki_title": "Harry Potter film series",
+        "wiki_title": "Harry Potter (film series)",
         "entity_id": "Q216930"
     },
     {
         "query_id": "674_214",
-        "wiki_title": "Fringe",
+        "wiki_title": "Fringe (TV series)",
         "entity_id": "Q3815"
     },
     {
         "query_id": "674_215",
-        "wiki_title": "Kirby",
+        "wiki_title": "Kirby (series)",
         "entity_id": "Q2569953"
     },
     {
@@ -1101,7 +1096,7 @@
     },
     {
         "query_id": "674_220",
-        "wiki_title": "ScoobyNatural",
+        "wiki_title": "Scoobynatural",
         "entity_id": "Q51257047"
     },
     {
@@ -1121,17 +1116,17 @@
     },
     {
         "query_id": "674_224",
-        "wiki_title": "Brothers & Sisters",
+        "wiki_title": "Brothers & Sisters (2006 TV series)",
         "entity_id": "Q390076"
     },
     {
         "query_id": "674_225",
-        "wiki_title": "The Office",
+        "wiki_title": "The Office (American TV series)",
         "entity_id": "Q23831"
     },
     {
         "query_id": "674_226",
-        "wiki_title": "Batman",
+        "wiki_title": "Batman (TV series)",
         "entity_id": "Q1247201"
     },
     {
@@ -1156,7 +1151,7 @@
     },
     {
         "query_id": "674_231",
-        "wiki_title": "The Phantom of the Opera",
+        "wiki_title": "The Phantom of the Opera (novel)",
         "entity_id": "Q272506"
     },
     {
@@ -1201,7 +1196,7 @@
     },
     {
         "query_id": "674_240",
-        "wiki_title": "The Lion, the Witch, and the Wardrobe",
+        "wiki_title": "The Lion, the Witch and the Wardrobe",
         "entity_id": "Q485093"
     },
     {
@@ -1211,7 +1206,7 @@
     },
     {
         "query_id": "674_242",
-        "wiki_title": "From Russia with Love",
+        "wiki_title": "From Russia with Love (film)",
         "entity_id": "Q106571"
     },
     {
@@ -1236,7 +1231,7 @@
     },
     {
         "query_id": "674_247",
-        "wiki_title": "His Dark Materials trilogy",
+        "wiki_title": "His Dark Materials",
         "entity_id": "Q129240"
     },
     {
@@ -1276,7 +1271,7 @@
     },
     {
         "query_id": "674_255",
-        "wiki_title": "Gone with the Wind",
+        "wiki_title": "Gone with the Wind (novel)",
         "entity_id": "Q2870"
     },
     {
@@ -1301,7 +1296,7 @@
     },
     {
         "query_id": "674_260",
-        "wiki_title": "Cars",
+        "wiki_title": "Cars (film)",
         "entity_id": "Q182153"
     },
     {
@@ -1321,12 +1316,12 @@
     },
     {
         "query_id": "674_264",
-        "wiki_title": "The Wizard of Oz",
+        "wiki_title": "The Wizard of Oz (1939 film)",
         "entity_id": "Q193695"
     },
     {
         "query_id": "674_265",
-        "wiki_title": "Disney's House of Mouse",
+        "wiki_title": "House of Mouse",
         "entity_id": "Q693268"
     },
     {
@@ -1336,7 +1331,7 @@
     },
     {
         "query_id": "674_267",
-        "wiki_title": "Sleeping Beauty",
+        "wiki_title": "Sleeping Beauty (1959 film)",
         "entity_id": "Q215617"
     },
     {
@@ -1361,7 +1356,7 @@
     },
     {
         "query_id": "674_272",
-        "wiki_title": "Sherlock",
+        "wiki_title": "Sherlock (TV series)",
         "entity_id": "Q192837"
     },
     {
@@ -1371,7 +1366,7 @@
     },
     {
         "query_id": "674_274",
-        "wiki_title": "Narnia universe",
+        "wiki_title": "Narnia (world)",
         "entity_id": "Q501121"
     },
     {
@@ -1396,7 +1391,7 @@
     },
     {
         "query_id": "674_279",
-        "wiki_title": "Mario Party",
+        "wiki_title": "Mario Party (video game)",
         "entity_id": "Q6507722"
     },
     {
@@ -1416,7 +1411,7 @@
     },
     {
         "query_id": "674_283",
-        "wiki_title": "canon of Sherlock Holmes",
+        "wiki_title": "Canon of Sherlock Holmes",
         "entity_id": "Q2316684"
     },
     {
@@ -1441,7 +1436,7 @@
     },
     {
         "query_id": "674_288",
-        "wiki_title": "The Hunchback of Notre Dame",
+        "wiki_title": "The Hunchback of Notre-Dame",
         "entity_id": "Q191380"
     },
     {
@@ -1461,7 +1456,7 @@
     },
     {
         "query_id": "674_292",
-        "wiki_title": "Belshazzar's Feast",
+        "wiki_title": "Belshazzar's feast",
         "entity_id": "Q4884683"
     },
     {
@@ -1486,7 +1481,7 @@
     },
     {
         "query_id": "674_297",
-        "wiki_title": "Cabaret",
+        "wiki_title": "Cabaret (musical)",
         "entity_id": "Q1024739"
     },
     {
@@ -1501,7 +1496,7 @@
     },
     {
         "query_id": "674_300",
-        "wiki_title": "The Woman Who Fell To Earth",
+        "wiki_title": "The Woman Who Fell to Earth",
         "entity_id": "Q56628759"
     },
     {
@@ -1521,12 +1516,12 @@
     },
     {
         "query_id": "674_304",
-        "wiki_title": "Dr. No",
+        "wiki_title": "Dr. No (film)",
         "entity_id": "Q102754"
     },
     {
         "query_id": "674_305",
-        "wiki_title": "Puella Magi Madoka\u2606Magica",
+        "wiki_title": "Puella Magi Madoka Magica",
         "entity_id": "Q53353"
     },
     {
@@ -1661,7 +1656,7 @@
     },
     {
         "query_id": "674_332",
-        "wiki_title": "Ruth",
+        "wiki_title": "Book of Ruth",
         "entity_id": "Q80038"
     },
     {
@@ -1726,7 +1721,7 @@
     },
     {
         "query_id": "674_345",
-        "wiki_title": "Scrubs",
+        "wiki_title": "Scrubs (TV series)",
         "entity_id": "Q485668"
     },
     {
@@ -1741,12 +1736,12 @@
     },
     {
         "query_id": "674_348",
-        "wiki_title": "Snow White and the Seven Dwarfs",
+        "wiki_title": "Snow White and the Seven Dwarfs (1937 film)",
         "entity_id": "Q134430"
     },
     {
         "query_id": "674_349",
-        "wiki_title": "Monica's Gang",
+        "wiki_title": "Monica and Friends",
         "entity_id": "Q938975"
     },
     {
@@ -1771,12 +1766,12 @@
     },
     {
         "query_id": "674_354",
-        "wiki_title": "The Silence of the Lambs",
+        "wiki_title": "The Silence of the Lambs (film)",
         "entity_id": "Q133654"
     },
     {
         "query_id": "674_355",
-        "wiki_title": "Agent Carter",
+        "wiki_title": "Agent Carter (TV series)",
         "entity_id": "Q16860023"
     },
     {
@@ -1836,7 +1831,7 @@
     },
     {
         "query_id": "674_367",
-        "wiki_title": "Twenty Thousand Leagues Under the Sea",
+        "wiki_title": "Twenty Thousand Leagues Under the Seas",
         "entity_id": "Q183565"
     },
     {
@@ -1851,7 +1846,7 @@
     },
     {
         "query_id": "674_370",
-        "wiki_title": "Destination Moon",
+        "wiki_title": "Destination Moon (comics)",
         "entity_id": "Q1320289"
     },
     {
@@ -1911,7 +1906,7 @@
     },
     {
         "query_id": "674_382",
-        "wiki_title": "Exodus",
+        "wiki_title": "Book of Exodus",
         "entity_id": "Q9190"
     },
     {
@@ -1936,7 +1931,7 @@
     },
     {
         "query_id": "674_387",
-        "wiki_title": "Mario franchise",
+        "wiki_title": "Mario (franchise)",
         "entity_id": "Q4803535"
     },
     {
@@ -1991,7 +1986,7 @@
     },
     {
         "query_id": "674_398",
-        "wiki_title": "Heroes",
+        "wiki_title": "Heroes (American TV series)",
         "entity_id": "Q83401"
     },
     {
@@ -2001,7 +1996,7 @@
     },
     {
         "query_id": "674_400",
-        "wiki_title": "The Divine Comedy",
+        "wiki_title": "Divine Comedy",
         "entity_id": "Q40185"
     },
     {
@@ -2026,7 +2021,7 @@
     },
     {
         "query_id": "674_405",
-        "wiki_title": "Glee",
+        "wiki_title": "Glee (TV series)",
         "entity_id": "Q152178"
     },
     {
@@ -2041,12 +2036,12 @@
     },
     {
         "query_id": "674_408",
-        "wiki_title": "Dallas",
+        "wiki_title": "Dallas (1978 TV series)",
         "entity_id": "Q168708"
     },
     {
         "query_id": "674_409",
-        "wiki_title": "ER",
+        "wiki_title": "ER (TV series)",
         "entity_id": "Q207375"
     },
     {
@@ -2056,7 +2051,7 @@
     },
     {
         "query_id": "674_411",
-        "wiki_title": "Tarzan",
+        "wiki_title": "Tarzan (book series)",
         "entity_id": "Q5965446"
     },
     {
@@ -2106,12 +2101,12 @@
     },
     {
         "query_id": "674_421",
-        "wiki_title": "Angel",
+        "wiki_title": "Angel (1999 TV series)",
         "entity_id": "Q212156"
     },
     {
         "query_id": "674_422",
-        "wiki_title": "24",
+        "wiki_title": "24 (TV series)",
         "entity_id": "Q56194"
     },
     {
@@ -2146,7 +2141,7 @@
     },
     {
         "query_id": "674_429",
-        "wiki_title": "Cats",
+        "wiki_title": "Cats (musical)",
         "entity_id": "Q337097"
     },
     {
@@ -2236,7 +2231,7 @@
     },
     {
         "query_id": "674_447",
-        "wiki_title": "Gotham",
+        "wiki_title": "Gotham (TV series)",
         "entity_id": "Q15726959"
     },
     {
@@ -2251,7 +2246,7 @@
     },
     {
         "query_id": "674_450",
-        "wiki_title": "The Rocky and Bullwinkle Show",
+        "wiki_title": "The Adventures of Rocky and Bullwinkle and Friends",
         "entity_id": "Q2318552"
     },
     {
@@ -2336,12 +2331,12 @@
     },
     {
         "query_id": "674_467",
-        "wiki_title": "Fargo",
+        "wiki_title": "Fargo (TV series)",
         "entity_id": "Q15931555"
     },
     {
         "query_id": "674_468",
-        "wiki_title": "Skins",
+        "wiki_title": "Skins (British TV series)",
         "entity_id": "Q326180"
     },
     {
@@ -2351,17 +2346,17 @@
     },
     {
         "query_id": "674_470",
-        "wiki_title": "Supernatural",
+        "wiki_title": "Supernatural (American TV series)",
         "entity_id": "Q130585"
     },
     {
         "query_id": "674_471",
-        "wiki_title": "Ulysses",
+        "wiki_title": "Ulysses (novel)",
         "entity_id": "Q6511"
     },
     {
         "query_id": "674_472",
-        "wiki_title": "Downfall",
+        "wiki_title": "Downfall (2004 film)",
         "entity_id": "Q152857"
     },
     {
@@ -2386,7 +2381,7 @@
     },
     {
         "query_id": "674_477",
-        "wiki_title": "Thunderbirds",
+        "wiki_title": "Thunderbirds (TV series)",
         "entity_id": "Q288085"
     },
     {
@@ -2411,17 +2406,17 @@
     },
     {
         "query_id": "674_482",
-        "wiki_title": "The Hitchhiker's Guide to the Galaxy pentalogy",
+        "wiki_title": "The Hitchhiker's Guide to the Galaxy",
         "entity_id": "Q25169"
     },
     {
         "query_id": "674_483",
-        "wiki_title": "Frozen",
+        "wiki_title": "Frozen (2013 film)",
         "entity_id": "Q246283"
     },
     {
         "query_id": "674_484",
-        "wiki_title": "Dune",
+        "wiki_title": "Dune (novel)",
         "entity_id": "Q190192"
     },
     {
@@ -2441,7 +2436,7 @@
     },
     {
         "query_id": "674_488",
-        "wiki_title": "Chuck",
+        "wiki_title": "Chuck (TV series)",
         "entity_id": "Q2293"
     },
     {
@@ -2456,12 +2451,12 @@
     },
     {
         "query_id": "674_491",
-        "wiki_title": "Numbers",
+        "wiki_title": "Numbers (TV series)",
         "entity_id": "Q5935"
     },
     {
         "query_id": "674_492",
-        "wiki_title": "Peter Pan",
+        "wiki_title": "Peter and Wendy",
         "entity_id": "Q3435337"
     },
     {
@@ -2471,18 +2466,13 @@
     },
     {
         "query_id": "674_494",
-        "wiki_title": "House",
+        "wiki_title": "House (TV series)",
         "entity_id": "Q23558"
     },
     {
         "query_id": "674_495",
         "wiki_title": "Stargate SG-1",
         "entity_id": "Q187462"
-    },
-    {
-        "query_id": "674_496",
-        "wiki_title": "Naruto",
-        "entity_id": "Q642"
     },
     {
         "query_id": "674_497",
@@ -2501,7 +2491,7 @@
     },
     {
         "query_id": "674_500",
-        "wiki_title": "Dexter",
+        "wiki_title": "Dexter (TV series)",
         "entity_id": "Q23577"
     },
     {
@@ -2511,7 +2501,7 @@
     },
     {
         "query_id": "674_502",
-        "wiki_title": "Private Practice",
+        "wiki_title": "Private Practice (TV series)",
         "entity_id": "Q283393"
     },
     {
@@ -2536,7 +2526,7 @@
     },
     {
         "query_id": "674_507",
-        "wiki_title": "Aladdin",
+        "wiki_title": "Aladdin (1992 Disney film)",
         "entity_id": "Q215518"
     },
     {
@@ -2551,7 +2541,7 @@
     },
     {
         "query_id": "674_510",
-        "wiki_title": "Beauty and the Beast",
+        "wiki_title": "Beauty and the Beast (1991 film)",
         "entity_id": "Q179673"
     },
     {
@@ -2666,7 +2656,7 @@
     },
     {
         "query_id": "674_533",
-        "wiki_title": "Pete and Runt",
+        "wiki_title": "Pekka and P\u00e4tk\u00e4",
         "entity_id": "Q7161109"
     },
     {
@@ -2691,7 +2681,7 @@
     },
     {
         "query_id": "674_538",
-        "wiki_title": "The Hitchhiker's Guide to the Galaxy",
+        "wiki_title": "The Hitchhiker's Guide to the Galaxy (novel)",
         "entity_id": "Q3107329"
     },
     {
@@ -2706,7 +2696,7 @@
     },
     {
         "query_id": "674_541",
-        "wiki_title": "Spirou et Fantasio in \u00ab\u00a0Le Journal de Spirou\u00a0\u00bb",
+        "wiki_title": "Spirou & Fantasio",
         "entity_id": "Q1130014"
     },
     {
@@ -2721,27 +2711,27 @@
     },
     {
         "query_id": "674_544",
-        "wiki_title": "Legends about Theodoric the Great",
+        "wiki_title": "\u00dei\u00f0reks saga",
         "entity_id": "Q195789"
     },
     {
         "query_id": "674_545",
-        "wiki_title": "These Are the Voyages\u2026",
+        "wiki_title": "These Are the Voyages...",
         "entity_id": "Q2469115"
     },
     {
         "query_id": "674_546",
-        "wiki_title": "Eagle",
+        "wiki_title": "Eagle (British comics)",
         "entity_id": "Q3046338"
     },
     {
         "query_id": "674_547",
-        "wiki_title": "Once Upon a Time",
+        "wiki_title": "Once Upon a Time (TV series)",
         "entity_id": "Q23673"
     },
     {
         "query_id": "674_548",
-        "wiki_title": "Le Pere Goriot",
+        "wiki_title": "P\u00e8re Goriot",
         "entity_id": "Q240617"
     },
     {
@@ -2761,7 +2751,7 @@
     },
     {
         "query_id": "674_552",
-        "wiki_title": "suitors of Penelope (event)",
+        "wiki_title": "Suitors of Penelope",
         "entity_id": "Q1058631"
     },
     {

@@ -469,16 +469,20 @@ def create_corpus_and_qrels_files_via_api():
     doc_counter = 0
     for entity_file in os.listdir(entity_dir):
         if entity_file.endswith('.entity.json'):
-            prop_id = entity_file.split('.')[0]
-            print(f"Processing relation file: {prop_id}")
+            relation_id = entity_file.split('.')[0]
+            print(f"Processing relation file: {relation_id}")
     
             with open(f'{entity_dir}/{entity_file}', 'r', encoding='utf-8') as ef:
                 entities = json.load(ef)
-                for entity in entities:
+                for idx, entity in enumerate(entities):
+                    
+                    if idx == 4:
+                        break
                     
                     wiki_title = entity['wiki_title']
                     wikidata_id = entity['entity_id']
-                    print(f"Fetching content for '{wiki_title}' ...")
+                    query_id = entity['query_id']
+                    # print(f"Fetching content for '{wiki_title}' ...")
                     try: 
                         summary, paragraphs = get_wikipedia_summary_and_paragraphs(wiki_title)
                         if summary == None:
@@ -486,14 +490,13 @@ def create_corpus_and_qrels_files_via_api():
                     except:
                         print(f"Error for: {wikidata_id}") 
 
-
                     corpus_sum[relation_id].append({
                         'doc_id': f"{relation_id}_{doc_counter}",
                         'title': summary["title"],
                         'content': summary["text"]
                     })
                     qrels_sum[relation_id].append({
-                        'query_id': queries_id[relation_id][index],
+                        'query_id': query_id,
                         'doc_id': f"{relation_id}_{doc_counter}",
                         'score': 1
                     })
@@ -504,7 +507,7 @@ def create_corpus_and_qrels_files_via_api():
                         'content': summary["text"]
                     })
                     qrels_all[relation_id].append({
-                        'query_id': queries_id[relation_id][index],
+                        'query_id': query_id,
                         'doc_id': f"{relation_id}_{doc_counter}",
                         'score': 1
                     })
@@ -518,36 +521,11 @@ def create_corpus_and_qrels_files_via_api():
                             'content': paragraph["text"]
                         })
                         qrels_all[relation_id].append({
-                            'query_id': queries_id[relation_id][index],
+                            'query_id': query_id,
                             'doc_id': f"{relation_id}_{doc_counter}",
                             'score': 0
                         })
-                        doc_counter += 1
-                    break
-
-
-
-
-
-                    summary_doc_id = f"{prop_id}_{doc_counter}"
-                    doc_counter += 1
-                    corpus_content.append({'doc_id': summary_doc_id, 'content': summary})
-                    qrels_content.append({'query_id': entity['query_id'], 'doc_id': summary_doc_id, 'score': 1})
-
-                    for paragraph in paragraphs:
-                        paragraph_doc_id = f"{prop_id}_{doc_counter}"
-                        doc_counter += 1
-                        corpus_content.append({'doc_id': paragraph_doc_id, 'content': paragraph})
-                        qrels_content.append({'query_id': entity['query_id'], 'doc_id': paragraph_doc_id, 'score': 0})
-
-                with open(f'{corpus_dir}/{prop_id}.corpus.json', 'w', encoding='utf-8') as cf:
-                    json.dump(corpus_content, cf)
-                print(f"Corpus file created: {prop_id}.corpus.json")
-
-                with open(f'{qrels_dir}/{prop_id}.qrels.json', 'w', encoding='utf-8') as qf:
-                    json.dump(qrels_content, qf)
-                print(f"Qrels file created: {prop_id}.qrels.json")
-    
+                        doc_counter += 1    
     
     # Write for all version
     for relation_id, value in corpus_all.items():

@@ -1,12 +1,12 @@
 [
     {
         "query_id": "149_0",
-        "wiki_title": "Hellens Manor",
+        "wiki_title": "Hellens",
         "entity_id": "Q3129858"
     },
     {
         "query_id": "149_1",
-        "wiki_title": "joined-log structure",
+        "wiki_title": "Log cabin",
         "entity_id": "Q695207"
     },
     {
@@ -36,7 +36,7 @@
     },
     {
         "query_id": "149_7",
-        "wiki_title": "Palace of Fine Arts",
+        "wiki_title": "Palacio de Bellas Artes",
         "entity_id": "Q1139081"
     },
     {
@@ -51,7 +51,7 @@
     },
     {
         "query_id": "149_10",
-        "wiki_title": "South Broad-East Fifth Streets Historic District",
+        "wiki_title": "South Broad\u2013East Fifth Streets Historic District",
         "entity_id": "Q17560774"
     },
     {
@@ -61,7 +61,7 @@
     },
     {
         "query_id": "149_12",
-        "wiki_title": "ancient Greek temple",
+        "wiki_title": "Ancient Greek temple",
         "entity_id": "Q267596"
     },
     {
@@ -191,7 +191,7 @@
     },
     {
         "query_id": "149_38",
-        "wiki_title": "Neely-Sieber House",
+        "wiki_title": "Neely\u2013Sieber House",
         "entity_id": "Q12063670"
     },
     {
@@ -221,7 +221,7 @@
     },
     {
         "query_id": "149_44",
-        "wiki_title": "Zs\u00e1mb\u00e9k Premontre monastery church",
+        "wiki_title": "Premontre monastery church of Zs\u00e1mb\u00e9k",
         "entity_id": "Q1240173"
     },
     {
@@ -261,7 +261,7 @@
     },
     {
         "query_id": "149_52",
-        "wiki_title": "Villa Roseville",
+        "wiki_title": "RoseVille",
         "entity_id": "Q43095569"
     },
     {
@@ -281,7 +281,7 @@
     },
     {
         "query_id": "149_56",
-        "wiki_title": "Mansion of Yegor Krasilnikov",
+        "wiki_title": "Krasilnikov Mansion",
         "entity_id": "Q16683700"
     },
     {
@@ -461,7 +461,7 @@
     },
     {
         "query_id": "149_92",
-        "wiki_title": "First Methodist Episcopal Church of Glendale",
+        "wiki_title": "First United Methodist Church of Glendale",
         "entity_id": "Q5453320"
     },
     {
@@ -536,7 +536,7 @@
     },
     {
         "query_id": "149_107",
-        "wiki_title": "Leipzig synagogue",
+        "wiki_title": "Leipzig Synagogue",
         "entity_id": "Q568250"
     },
     {
@@ -551,7 +551,7 @@
     },
     {
         "query_id": "149_110",
-        "wiki_title": "Bad Doberan Minster",
+        "wiki_title": "Doberan Minster",
         "entity_id": "Q461397"
     },
     {
@@ -631,7 +631,7 @@
     },
     {
         "query_id": "149_126",
-        "wiki_title": "Basilica of Our Lady of Solitude",
+        "wiki_title": "Basilica of Nuestra Se\u00f1ora de Soledad",
         "entity_id": "Q4867365"
     },
     {
@@ -651,12 +651,12 @@
     },
     {
         "query_id": "149_130",
-        "wiki_title": "Cannady-Brogden Farm",
+        "wiki_title": "Cannady\u2013Brogden Farm",
         "entity_id": "Q5032609"
     },
     {
         "query_id": "149_131",
-        "wiki_title": "Our Lady of Mount Carmel",
+        "wiki_title": "Carmelite Church, Balluta",
         "entity_id": "Q15036519"
     },
     {
@@ -671,7 +671,7 @@
     },
     {
         "query_id": "149_134",
-        "wiki_title": "Calvary Episcopal Church",
+        "wiki_title": "Calvary Episcopal Church (Memphis, Tennessee)",
         "entity_id": "Q5024178"
     },
     {
@@ -781,7 +781,7 @@
     },
     {
         "query_id": "149_156",
-        "wiki_title": "Madrasa Al-Ashrafiyya",
+        "wiki_title": "Madrasa al-Ashrafiyya",
         "entity_id": "Q72102031"
     },
     {
@@ -956,7 +956,7 @@
     },
     {
         "query_id": "149_191",
-        "wiki_title": "Abydos",
+        "wiki_title": "Abydos, Egypt",
         "entity_id": "Q192268"
     },
     {
@@ -991,17 +991,17 @@
     },
     {
         "query_id": "149_198",
-        "wiki_title": "Molson Bank Building, Montreal",
+        "wiki_title": "Molson Bank Building",
         "entity_id": "Q5471801"
     },
     {
         "query_id": "149_199",
-        "wiki_title": "Hotel Norfolk (Norfolk, Nebraska)",
+        "wiki_title": "Hotel Norfolk",
         "entity_id": "Q14704875"
     },
     {
         "query_id": "149_200",
-        "wiki_title": "Cathedral Basilica of the Holy Family, Cz\u0119stochowa",
+        "wiki_title": "Cz\u0119stochowa Cathedral",
         "entity_id": "Q9167751"
     },
     {

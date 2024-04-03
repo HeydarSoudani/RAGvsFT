@@ -1,7 +1,7 @@
 [
     {
         "query_id": "25_0",
-        "wiki_title": "Nicholas II of Russia",
+        "wiki_title": "Nicholas II",
         "entity_id": "Q40787"
     },
     {
@@ -91,7 +91,7 @@
     },
     {
         "query_id": "25_18",
-        "wiki_title": "Nicolae II Patrascu",
+        "wiki_title": "Nicolae P\u0103tra\u0219cu",
         "entity_id": "Q3339928"
     },
     {
@@ -111,7 +111,7 @@
     },
     {
         "query_id": "25_22",
-        "wiki_title": "George FitzRoy, 1st Duke of Northumberland",
+        "wiki_title": "George FitzRoy, Duke of Northumberland",
         "entity_id": "Q2346374"
     },
     {
@@ -141,7 +141,7 @@
     },
     {
         "query_id": "25_28",
-        "wiki_title": "Ivar Ragnarsson",
+        "wiki_title": "Ivar the Boneless",
         "entity_id": "Q350321"
     },
     {
@@ -171,7 +171,7 @@
     },
     {
         "query_id": "25_34",
-        "wiki_title": "Mary Somerset, Duchess of Beaufort",
+        "wiki_title": "Mary Somerset, Duchess of Beaufort (sportswoman)",
         "entity_id": "Q2047363"
     },
     {
@@ -191,7 +191,7 @@
     },
     {
         "query_id": "25_38",
-        "wiki_title": "Epirus",
+        "wiki_title": "Epirus (mythology)",
         "entity_id": "Q2075786"
     },
     {
@@ -221,12 +221,12 @@
     },
     {
         "query_id": "25_44",
-        "wiki_title": "Anthony Soprano Jr.",
+        "wiki_title": "A.J. Soprano",
         "entity_id": "Q2723839"
     },
     {
         "query_id": "25_45",
-        "wiki_title": "Mehmet Selim Efendi",
+        "wiki_title": "\u015eehzade Mehmed Selim",
         "entity_id": "Q6039259"
     },
     {
@@ -241,7 +241,7 @@
     },
     {
         "query_id": "25_48",
-        "wiki_title": "Henri Charles de La Tr\u00e9moille",
+        "wiki_title": "Henri Charles de La Tr\u00e9moille, 4th Duke of Thouars",
         "entity_id": "Q661770"
     },
     {
@@ -256,7 +256,7 @@
     },
     {
         "query_id": "25_51",
-        "wiki_title": "Lady Katherine Percy",
+        "wiki_title": "Katherine Percy, Countess of Kent",
         "entity_id": "Q3813921"
     },
     {
@@ -326,12 +326,12 @@
     },
     {
         "query_id": "25_65",
-        "wiki_title": "Midian",
+        "wiki_title": "Midian, son of Abraham",
         "entity_id": "Q755316"
     },
     {
         "query_id": "25_66",
-        "wiki_title": "Tuheitia Paki",
+        "wiki_title": "T\u016bheitia Paki",
         "entity_id": "Q888020"
     },
     {
@@ -381,7 +381,7 @@
     },
     {
         "query_id": "25_76",
-        "wiki_title": "Bonifacio Fadrique d'Aragona",
+        "wiki_title": "Boniface Fadrique",
         "entity_id": "Q16179392"
     },
     {
@@ -391,7 +391,7 @@
     },
     {
         "query_id": "25_78",
-        "wiki_title": "Fadrique Alfonso, Lord of Haro",
+        "wiki_title": "Fadrique Alfonso",
         "entity_id": "Q510576"
     },
     {
@@ -406,7 +406,7 @@
     },
     {
         "query_id": "25_81",
-        "wiki_title": "Fabian Reinhold von Fersen",
+        "wiki_title": "Fabian von Fersen (1762\u20131818)",
         "entity_id": "Q19312912"
     },
     {
@@ -416,7 +416,7 @@
     },
     {
         "query_id": "25_83",
-        "wiki_title": "Aliona Bolsova Zadoinov",
+        "wiki_title": "Aliona Bolsova",
         "entity_id": "Q19819866"
     },
     {
@@ -461,7 +461,7 @@
     },
     {
         "query_id": "25_92",
-        "wiki_title": "Julla Antonia",
+        "wiki_title": "Iulla Antonia",
         "entity_id": "Q3658638"
     },
     {
@@ -486,12 +486,12 @@
     },
     {
         "query_id": "25_97",
-        "wiki_title": "Basma bint Talal",
+        "wiki_title": "Princess Basma bint Talal",
         "entity_id": "Q4867793"
     },
     {
         "query_id": "25_98",
-        "wiki_title": "Li Xin",
+        "wiki_title": "Li Xin (Western Liang)",
         "entity_id": "Q718238"
     },
     {
@@ -516,7 +516,7 @@
     },
     {
         "query_id": "25_103",
-        "wiki_title": "Princess Louise of Denmark",
+        "wiki_title": "Princess Louise of Denmark (1875\u20131906)",
         "entity_id": "Q2305942"
     },
     {
@@ -526,7 +526,7 @@
     },
     {
         "query_id": "25_105",
-        "wiki_title": "Alix of Brittany",
+        "wiki_title": "Alix of Brittany, Dame de Pontarcy",
         "entity_id": "Q1505501"
     },
     {
@@ -541,7 +541,7 @@
     },
     {
         "query_id": "25_108",
-        "wiki_title": "Hasna of Morocco",
+        "wiki_title": "Princess Lalla Hasna of Morocco",
         "entity_id": "Q1996204"
     },
     {
@@ -561,7 +561,7 @@
     },
     {
         "query_id": "25_112",
-        "wiki_title": "Muneko-naishinn\u014d",
+        "wiki_title": "Princess Muneko",
         "entity_id": "Q6146408"
     },
     {
@@ -571,7 +571,7 @@
     },
     {
         "query_id": "25_114",
-        "wiki_title": "Heraklonas",
+        "wiki_title": "Heraclonas",
         "entity_id": "Q31513"
     },
     {
@@ -641,7 +641,7 @@
     },
     {
         "query_id": "25_128",
-        "wiki_title": "K'inich Janaab' Pakal",
+        "wiki_title": "K\u02bcinich Janaab\u02bc Pakal",
         "entity_id": "Q371384"
     },
     {
@@ -661,7 +661,7 @@
     },
     {
         "query_id": "25_132",
-        "wiki_title": "Philip, Duke of Schleswig-Holstein-Gottorp",
+        "wiki_title": "Philip, Duke of Holstein-Gottorp",
         "entity_id": "Q63588"
     },
     {
@@ -671,7 +671,7 @@
     },
     {
         "query_id": "25_134",
-        "wiki_title": "James Butler, 1st Duke of Ormonde",
+        "wiki_title": "James Butler, 1st Duke of Ormond",
         "entity_id": "Q948569"
     },
     {
@@ -681,7 +681,7 @@
     },
     {
         "query_id": "25_136",
-        "wiki_title": "Francis Scott",
+        "wiki_title": "Francis Scott, Earl of Dalkeith",
         "entity_id": "Q5482414"
     },
     {
@@ -706,7 +706,7 @@
     },
     {
         "query_id": "25_141",
-        "wiki_title": "Checheyikhen",
+        "wiki_title": "Checheikhen",
         "entity_id": "Q7199764"
     },
     {
@@ -741,17 +741,17 @@
     },
     {
         "query_id": "25_148",
-        "wiki_title": "Wilhelmina FitzClarence",
+        "wiki_title": "Wilhelmina FitzClarence, Countess of Munster",
         "entity_id": "Q15873685"
     },
     {
         "query_id": "25_149",
-        "wiki_title": "Abdullah ibn Abdul-Muttalib",
+        "wiki_title": "Abdullah ibn Abd al-Muttalib",
         "entity_id": "Q34408"
     },
     {
         "query_id": "25_150",
-        "wiki_title": "Harriet Campbell",
+        "wiki_title": "Harriet Bury, Countess of Charleville",
         "entity_id": "Q53098702"
     },
     {
@@ -791,12 +791,12 @@
     },
     {
         "query_id": "25_158",
-        "wiki_title": "Adityadhornkitikhun",
+        "wiki_title": "Aditayadornkitikhun",
         "entity_id": "Q4683100"
     },
     {
         "query_id": "25_159",
-        "wiki_title": "Otto of Bavaria",
+        "wiki_title": "Otto, King of Bavaria",
         "entity_id": "Q44825"
     },
     {
@@ -836,7 +836,7 @@
     },
     {
         "query_id": "25_167",
-        "wiki_title": "Harald III of Norway",
+        "wiki_title": "Harald Hardrada",
         "entity_id": "Q203647"
     },
     {
@@ -886,7 +886,7 @@
     },
     {
         "query_id": "25_177",
-        "wiki_title": "Lelia Smith Cocke",
+        "wiki_title": "Lelia Maria Smith Cocke",
         "entity_id": "Q50585871"
     },
     {
@@ -936,12 +936,12 @@
     },
     {
         "query_id": "25_187",
-        "wiki_title": "Mohammed bin Hamad bin Khalifa Al Thani",
+        "wiki_title": "Mohammed bin Hamad Al Thani (born 1988)",
         "entity_id": "Q6893462"
     },
     {
         "query_id": "25_188",
-        "wiki_title": "Stephen Uro\u0161 IV Du\u0161an of Serbia",
+        "wiki_title": "Stefan Du\u0161an",
         "entity_id": "Q207303"
     },
     {
@@ -951,7 +951,7 @@
     },
     {
         "query_id": "25_190",
-        "wiki_title": "Shaikh Uvais",
+        "wiki_title": "Shaykh Uways Jalayir",
         "entity_id": "Q1144809"
     },
     {
@@ -966,12 +966,12 @@
     },
     {
         "query_id": "25_193",
-        "wiki_title": "Anna Cramling Bell\u00f3n",
+        "wiki_title": "Anna Cramling",
         "entity_id": "Q104539456"
     },
     {
         "query_id": "25_194",
-        "wiki_title": "Hope Rockefeller Aldrich",
+        "wiki_title": "Hope Aldrich Rockefeller",
         "entity_id": "Q5899444"
     },
     {
@@ -981,7 +981,7 @@
     },
     {
         "query_id": "25_196",
-        "wiki_title": "Philippe, Duke of Orl\u00e9ans, Regent of France",
+        "wiki_title": "Philippe II, Duke of Orl\u00e9ans",
         "entity_id": "Q155596"
     },
     {
@@ -1021,7 +1021,7 @@
     },
     {
         "query_id": "25_204",
-        "wiki_title": "Kusha",
+        "wiki_title": "Kusha (Ramayana)",
         "entity_id": "Q2725781"
     },
     {
@@ -1041,7 +1041,7 @@
     },
     {
         "query_id": "25_208",
-        "wiki_title": "Lava",
+        "wiki_title": "Lava (Ramayana)",
         "entity_id": "Q2725716"
     },
     {
@@ -1066,12 +1066,12 @@
     },
     {
         "query_id": "25_213",
-        "wiki_title": "Louis XIV of France",
+        "wiki_title": "Louis XIV",
         "entity_id": "Q7742"
     },
     {
         "query_id": "25_214",
-        "wiki_title": "Shivaji Bhonsle I",
+        "wiki_title": "Shivaji",
         "entity_id": "Q239505"
     },
     {
@@ -1091,22 +1091,22 @@
     },
     {
         "query_id": "25_218",
-        "wiki_title": "Leia Organa",
+        "wiki_title": "Princess Leia",
         "entity_id": "Q51797"
     },
     {
         "query_id": "25_219",
-        "wiki_title": "Konstantinos VI",
+        "wiki_title": "Constantine VI",
         "entity_id": "Q41661"
     },
     {
         "query_id": "25_220",
-        "wiki_title": "Potamon",
+        "wiki_title": "Potamon (mythology)",
         "entity_id": "Q3909492"
     },
     {
         "query_id": "25_221",
-        "wiki_title": "Henry VIII of England",
+        "wiki_title": "Henry VIII",
         "entity_id": "Q38370"
     },
     {
@@ -1121,7 +1121,7 @@
     },
     {
         "query_id": "25_224",
-        "wiki_title": "Alfonso XII of Spain",
+        "wiki_title": "Alfonso XII",
         "entity_id": "Q32347"
     },
     {
@@ -1141,7 +1141,7 @@
     },
     {
         "query_id": "25_228",
-        "wiki_title": "George III of Great Britain",
+        "wiki_title": "George III",
         "entity_id": "Q127318"
     },
     {
@@ -1191,7 +1191,7 @@
     },
     {
         "query_id": "25_238",
-        "wiki_title": "Alfonso XIII of Spain",
+        "wiki_title": "Alfonso XIII",
         "entity_id": "Q18363"
     },
     {
@@ -1201,7 +1201,7 @@
     },
     {
         "query_id": "25_240",
-        "wiki_title": "Baldur",
+        "wiki_title": "Baldr",
         "entity_id": "Q131658"
     },
     {
@@ -1216,12 +1216,12 @@
     },
     {
         "query_id": "25_243",
-        "wiki_title": "Injong",
+        "wiki_title": "Injong of Goryeo",
         "entity_id": "Q493874"
     },
     {
         "query_id": "25_244",
-        "wiki_title": "Frederik, Crown Prince of Denmark",
+        "wiki_title": "Frederik X",
         "entity_id": "Q1004037"
     },
     {
@@ -1231,7 +1231,7 @@
     },
     {
         "query_id": "25_246",
-        "wiki_title": "Mary II of England",
+        "wiki_title": "Mary II",
         "entity_id": "Q130812"
     },
     {
@@ -1251,12 +1251,12 @@
     },
     {
         "query_id": "25_250",
-        "wiki_title": "Isabel II of Spain",
+        "wiki_title": "Isabella II",
         "entity_id": "Q183085"
     },
     {
         "query_id": "25_251",
-        "wiki_title": "Telegonus",
+        "wiki_title": "Telegonus (son of Odysseus)",
         "entity_id": "Q1333887"
     },
     {
@@ -1276,12 +1276,12 @@
     },
     {
         "query_id": "25_255",
-        "wiki_title": "Kim Jong-il",
+        "wiki_title": "Kim Jong Il",
         "entity_id": "Q10665"
     },
     {
         "query_id": "25_256",
-        "wiki_title": "Prince Edward, Earl of Wessex",
+        "wiki_title": "Prince Edward, Duke of Edinburgh",
         "entity_id": "Q154920"
     },
     {
@@ -1291,7 +1291,7 @@
     },
     {
         "query_id": "25_258",
-        "wiki_title": "Eurylochus",
+        "wiki_title": "Eurylochus (Greek myth)",
         "entity_id": "Q1378477"
     },
     {
@@ -1316,7 +1316,7 @@
     },
     {
         "query_id": "25_263",
-        "wiki_title": "Prince William, Duke of Cambridge",
+        "wiki_title": "William, Prince of Wales",
         "entity_id": "Q36812"
     },
     {
@@ -1351,7 +1351,7 @@
     },
     {
         "query_id": "25_270",
-        "wiki_title": "Anne of Great Britain",
+        "wiki_title": "Anne, Queen of Great Britain",
         "entity_id": "Q119702"
     },
     {
@@ -1481,7 +1481,7 @@
     },
     {
         "query_id": "25_296",
-        "wiki_title": "Nangklao",
+        "wiki_title": "Rama III",
         "entity_id": "Q319669"
     },
     {
@@ -1531,7 +1531,7 @@
     },
     {
         "query_id": "25_306",
-        "wiki_title": "Charles, Prince of Wales",
+        "wiki_title": "Charles III",
         "entity_id": "Q43274"
     },
     {
@@ -1586,12 +1586,12 @@
     },
     {
         "query_id": "25_317",
-        "wiki_title": "Virgin Mary",
+        "wiki_title": "Mary, mother of Jesus",
         "entity_id": "Q345"
     },
     {
         "query_id": "25_318",
-        "wiki_title": "Okeanid",
+        "wiki_title": "Oceanids",
         "entity_id": "Q182406"
     },
     {
@@ -1601,7 +1601,7 @@
     },
     {
         "query_id": "25_320",
-        "wiki_title": "Elizabeth I of England",
+        "wiki_title": "Elizabeth I",
         "entity_id": "Q7207"
     },
     {
@@ -1611,7 +1611,7 @@
     },
     {
         "query_id": "25_322",
-        "wiki_title": "Louis XIII of France",
+        "wiki_title": "Louis XIII",
         "entity_id": "Q737533"
     },
     {
@@ -1651,7 +1651,7 @@
     },
     {
         "query_id": "25_330",
-        "wiki_title": "Henry VII",
+        "wiki_title": "Henry VII of England",
         "entity_id": "Q675493"
     },
     {
@@ -1676,7 +1676,7 @@
     },
     {
         "query_id": "25_335",
-        "wiki_title": "Alfonso VII",
+        "wiki_title": "Alfonso VII of Le\u00f3n and Castile",
         "entity_id": "Q312767"
     },
     {

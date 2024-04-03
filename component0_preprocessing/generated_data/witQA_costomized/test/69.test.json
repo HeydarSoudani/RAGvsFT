@@ -1995,16 +1995,6 @@
         "pageviews": "411"
     },
     {
-        "query_id": "69_154",
-        "question": "What educational institution did Jasone Salaberria Fuldain attend?",
-        "answers": [
-            "University of Bordeaux 3",
-            "Bordeaux Montaigne University",
-            "Michel de Montaigne University"
-        ],
-        "pageviews": "60"
-    },
-    {
         "query_id": "69_155",
         "question": "What educational institution did Kirsty Besterman attend?",
         "answers": [
@@ -2498,19 +2488,6 @@
             "Madison"
         ],
         "pageviews": "39"
-    },
-    {
-        "query_id": "69_194",
-        "question": "What educational institution was Mark Derr educated at?",
-        "answers": [
-            "Johns Hopkins University",
-            "JHU",
-            "jhu.edu",
-            "Johns Hopkins",
-            "Hopkins",
-            "The Johns Hopkins University"
-        ],
-        "pageviews": "106"
     },
     {
         "query_id": "69_195",

@@ -2286,20 +2286,6 @@
         "pageviews": "406"
     },
     {
-        "query_id": "1050_143",
-        "question": "What medical condition did Martha Flores have?",
-        "answers": [
-            "Ca head of pancreas",
-            "pancreatic cancer",
-            "Ca tail of pancreas",
-            "malignant neoplasm of tail of pancreas",
-            "Ca body of pancreas",
-            "malignant neoplasm of body of pancreas",
-            "malignant neoplasm of head of pancreas"
-        ],
-        "pageviews": "102"
-    },
-    {
         "query_id": "1050_144",
         "question": "What medical condition does Stephen Clancy have?",
         "answers": [

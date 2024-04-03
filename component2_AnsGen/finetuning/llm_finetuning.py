@@ -36,43 +36,6 @@ target_relation_ids = 'all'
 subset_percentage = 1.0
 num_relations = 1 if dataset_name == "TQA" else 15
 
-### === Parameters per model
-# 1) Llama
-batch_size = 32
-fp16 = True
-bf16 = False
-prompt_template = """<s>
-        You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-        [INST]\n
-        Question: {}\n
-        [/INST]\n
-        Answer: {}
-        </s>"""
-
-# 2) Mistral
-batch_size = 4
-fp16=False
-bf16=False
-prompt_template = """<s>
-        You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-        [INST]\n
-        Question: {}\n
-        [/INST]\n
-        Answer: {}
-        </s>"""
-
-# 3) Zephyr
-batch_size = 4
-fp16=False
-bf16=False
-prompt_template = """<|system|>\n
-        You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-        <|user|>\n 
-        Question: {}\n
-        <|assistant|>\n
-        Answer: {}
-        """
-
 
 def load_json_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -219,12 +182,12 @@ def load_dataset_qa(test_files):
         val_answers = [item['Answer']['NormalizedAliases'] for item in subset_dev_data]
 
     train_data = [
-        prompt_template.format(question, train_answers[i])
+        args.prompt_template.format(question=question, answer=train_answers[i])
         for i, question in enumerate(train_questions)
     ]
     
     val_data = [
-        prompt_template.format(question, val_answers[i])
+        args.prompt_template.format(question=question, answer=val_answers[i])
         for i, question in enumerate(val_questions)
     ]
 
@@ -244,8 +207,8 @@ def load_training_args(args):
         
     training_arguments = TrainingArguments(
         output_dir=save_model_dir,
-        per_device_train_batch_size=batch_size,
-        per_device_eval_batch_size=batch_size,
+        per_device_train_batch_size=args.batch_size,
+        per_device_eval_batch_size=args.batch_size,
         gradient_accumulation_steps=1,
         optim="paged_adamw_32bit",
         num_train_epochs=args.epochs,
@@ -254,8 +217,8 @@ def load_training_args(args):
         logging_strategy="epoch",
         save_strategy="epoch",
         save_total_limit=2,
-        fp16=fp16,
-        bf16=fp16,
+        fp16=args.fp16,
+        bf16=args.fp16,
         
         report_to="wandb",
         push_to_hub=False,
@@ -279,10 +242,41 @@ def main(args):
     )
     set_seed(42)
     
+    ### === Parameters per model
+    # 1) Llama
+    if args.llm_model_name == 'llama2':
+        args.batch_size = 32
+        args.fp16 = True
+        args.bf16 = False
+    elif args.llm_model_name == 'mistral':
+        args.batch_size = 4
+        args.fp16=False
+        args.bf16=False
+    elif args.llm_model_name == 'zephyr':
+        args.batch_size = 4
+        args.fp16=False
+        args.bf16=False
+    
+    if args.llm_model_name in ["llama2", "tiny_llama", "mistral"]:
+        args.prompt_template = """<s>
+                You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+                [INST]\n
+                Question: {question}\n
+                [/INST]\n
+                Answer: {answer}
+                </s>"""
+    elif args.llm_model_name == 'zephyr':
+        args.prompt_template = """<|system|>\n
+                You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+                <|user|>\n 
+                Question: {question}\n
+                <|assistant|>\n
+                Answer: {answer}
+                """
+    
     model, tokenizer, peft_config = load_model(args)
     test_relation_ids, test_files, relation_files = load_relations_data(args)
     raw_dataset = load_dataset_qa(test_files)
-    
     training_arguments = load_training_args(args)
     
     max_seq_length = 512 # 2048

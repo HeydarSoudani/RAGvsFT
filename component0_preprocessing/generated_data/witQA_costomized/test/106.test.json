@@ -872,14 +872,6 @@
         "pageviews": "134"
     },
     {
-        "query_id": "106_42",
-        "question": "What is Kyell Gold's occupation?",
-        "answers": [
-            "novelist"
-        ],
-        "pageviews": "365"
-    },
-    {
         "query_id": "106_43",
         "question": "What is Lucas Bravo's occupation?",
         "answers": [
@@ -2820,16 +2812,6 @@
         "pageviews": "262"
     },
     {
-        "query_id": "106_171",
-        "question": "What is Anand Jeeva's occupation?",
-        "answers": [
-            "director of photography",
-            "cinematographer",
-            "DOP"
-        ],
-        "pageviews": "149"
-    },
-    {
         "query_id": "106_172",
         "question": "What was Domenico Corri's occupation?",
         "answers": [
@@ -2970,18 +2952,6 @@
             "township clerk"
         ],
         "pageviews": "94"
-    },
-    {
-        "query_id": "106_182",
-        "question": "What was Kennedy L. Potter's occupation?",
-        "answers": [
-            "pol",
-            "polit.",
-            "political figure",
-            "political leader",
-            "politician"
-        ],
-        "pageviews": "50"
     },
     {
         "query_id": "106_183",

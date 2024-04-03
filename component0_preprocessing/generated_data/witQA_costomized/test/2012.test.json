@@ -2387,28 +2387,6 @@
         "pageviews": "11"
     },
     {
-        "query_id": "2012_197",
-        "question": "What type of cuisine is kasha a part of in Belarus?",
-        "answers": [
-            "Polish cuisine",
-            "Belarusian cuisine",
-            "cuisine of Poland",
-            "cuisine of Lithuania",
-            "Polish food",
-            "Ukrainian cuisine",
-            "Ukrainian food",
-            "cuisine of Belarus",
-            "Russian traditional cuisine",
-            "cuisine of Ukraine",
-            "Russian cuisine",
-            "Lithuanian cuisine",
-            "Lithuanian food",
-            "Belarus",
-            "Russian food"
-        ],
-        "pageviews": "0"
-    },
-    {
         "query_id": "2012_198",
         "question": "What type of food culture is pilaf a part of?",
         "answers": [

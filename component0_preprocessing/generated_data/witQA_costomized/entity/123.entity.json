@@ -36,7 +36,7 @@
     },
     {
         "query_id": "123_7",
-        "wiki_title": "Neuron",
+        "wiki_title": "Neuron (journal)",
         "entity_id": "Q3338676"
     },
     {
@@ -51,7 +51,7 @@
     },
     {
         "query_id": "123_10",
-        "wiki_title": "Check vs. Mate",
+        "wiki_title": "Battle vs. Chess",
         "entity_id": "Q3636865"
     },
     {
@@ -131,7 +131,7 @@
     },
     {
         "query_id": "123_26",
-        "wiki_title": "Parents",
+        "wiki_title": "Parents (magazine)",
         "entity_id": "Q7136816"
     },
     {
@@ -231,7 +231,7 @@
     },
     {
         "query_id": "123_46",
-        "wiki_title": "The Australian Financial Review",
+        "wiki_title": "Australian Financial Review",
         "entity_id": "Q1809545"
     },
     {
@@ -251,7 +251,7 @@
     },
     {
         "query_id": "123_50",
-        "wiki_title": "Bases Loaded",
+        "wiki_title": "Bases Loaded (video game)",
         "entity_id": "Q518547"
     },
     {
@@ -381,7 +381,7 @@
     },
     {
         "query_id": "123_76",
-        "wiki_title": "GEO",
+        "wiki_title": "GEO (magazine)",
         "entity_id": "Q696007"
     },
     {
@@ -441,7 +441,7 @@
     },
     {
         "query_id": "123_88",
-        "wiki_title": "Ulysses",
+        "wiki_title": "Ulysses (novel)",
         "entity_id": "Q6511"
     },
     {
@@ -611,7 +611,7 @@
     },
     {
         "query_id": "123_122",
-        "wiki_title": "de Blob 2",
+        "wiki_title": "De Blob 2",
         "entity_id": "Q3647935"
     },
     {
@@ -671,7 +671,7 @@
     },
     {
         "query_id": "123_134",
-        "wiki_title": "Journal of Human Resources",
+        "wiki_title": "The Journal of Human Resources",
         "entity_id": "Q15731511"
     },
     {
@@ -806,7 +806,7 @@
     },
     {
         "query_id": "123_161",
-        "wiki_title": "Star Trek: The Original Series Role-playing Game",
+        "wiki_title": "Star Trek Role Playing Game",
         "entity_id": "Q18154548"
     },
     {
@@ -841,7 +841,7 @@
     },
     {
         "query_id": "123_168",
-        "wiki_title": "Cold War",
+        "wiki_title": "Cold War (video game)",
         "entity_id": "Q3500987"
     },
     {
@@ -921,7 +921,7 @@
     },
     {
         "query_id": "123_184",
-        "wiki_title": "Sociology",
+        "wiki_title": "Sociology (journal)",
         "entity_id": "Q1759367"
     },
     {
@@ -1001,12 +1001,12 @@
     },
     {
         "query_id": "123_200",
-        "wiki_title": "Pok\u00e9mon core series",
+        "wiki_title": "Pok\u00e9mon (video game series)",
         "entity_id": "Q24558579"
     },
     {
         "query_id": "123_201",
-        "wiki_title": "The Liberator",
+        "wiki_title": "The Liberator (newspaper)",
         "entity_id": "Q1336674"
     },
     {
@@ -1041,7 +1041,7 @@
     },
     {
         "query_id": "123_208",
-        "wiki_title": "Paranoia",
+        "wiki_title": "Paranoia (role-playing game)",
         "entity_id": "Q1042398"
     },
     {
@@ -1066,12 +1066,12 @@
     },
     {
         "query_id": "123_213",
-        "wiki_title": "Kirby",
+        "wiki_title": "Kirby (series)",
         "entity_id": "Q2569953"
     },
     {
         "query_id": "123_214",
-        "wiki_title": "Praxis Pietatis Melica",
+        "wiki_title": "Praxis pietatis melica",
         "entity_id": "Q10638462"
     },
     {
@@ -1081,7 +1081,7 @@
     },
     {
         "query_id": "123_216",
-        "wiki_title": "Rhythmic Airplay",
+        "wiki_title": "Rhythmic (chart)",
         "entity_id": "Q1325418"
     },
     {
@@ -1116,7 +1116,7 @@
     },
     {
         "query_id": "123_223",
-        "wiki_title": "FIFA",
+        "wiki_title": "FIFA (video game series)",
         "entity_id": "Q326704"
     },
     {
@@ -1126,7 +1126,7 @@
     },
     {
         "query_id": "123_225",
-        "wiki_title": "Cyberpunk 2020",
+        "wiki_title": "Cyberpunk (role-playing game)",
         "entity_id": "Q1034675"
     },
     {
@@ -1141,7 +1141,7 @@
     },
     {
         "query_id": "123_228",
-        "wiki_title": "Sh\u014dnen Sunday Super",
+        "wiki_title": "Sh\u014dnen Sunday S",
         "entity_id": "Q1140190"
     },
     {
@@ -1156,7 +1156,7 @@
     },
     {
         "query_id": "123_231",
-        "wiki_title": "Vogue",
+        "wiki_title": "Vogue (magazine)",
         "entity_id": "Q154008"
     },
     {
@@ -1166,7 +1166,7 @@
     },
     {
         "query_id": "123_233",
-        "wiki_title": "Science",
+        "wiki_title": "Science (journal)",
         "entity_id": "Q192864"
     },
     {
@@ -1231,17 +1231,17 @@
     },
     {
         "query_id": "123_246",
-        "wiki_title": "Thunderbolts",
+        "wiki_title": "Thunderbolts (comics)",
         "entity_id": "Q2527918"
     },
     {
         "query_id": "123_247",
-        "wiki_title": "planetary nomenclature",
+        "wiki_title": "Planetary nomenclature",
         "entity_id": "Q1463003"
     },
     {
         "query_id": "123_248",
-        "wiki_title": "Ciao",
+        "wiki_title": "Ciao (magazine)",
         "entity_id": "Q1191939"
     },
     {
@@ -1301,7 +1301,7 @@
     },
     {
         "query_id": "123_260",
-        "wiki_title": "Starcraft II",
+        "wiki_title": "StarCraft II",
         "entity_id": "Q18142874"
     },
     {
@@ -1326,12 +1326,12 @@
     },
     {
         "query_id": "123_265",
-        "wiki_title": "Space Opera",
+        "wiki_title": "Space Opera (role-playing game)",
         "entity_id": "Q1042462"
     },
     {
         "query_id": "123_266",
-        "wiki_title": "Batman",
+        "wiki_title": "Batman (comic book)",
         "entity_id": "Q2633138"
     },
     {
@@ -1391,7 +1391,7 @@
     },
     {
         "query_id": "123_278",
-        "wiki_title": "Robin",
+        "wiki_title": "Robin (character)",
         "entity_id": "Q59996"
     },
     {
@@ -1441,7 +1441,7 @@
     },
     {
         "query_id": "123_288",
-        "wiki_title": "American Mathematical Monthly",
+        "wiki_title": "The American Mathematical Monthly",
         "entity_id": "Q2707818"
     },
     {
@@ -1451,7 +1451,7 @@
     },
     {
         "query_id": "123_290",
-        "wiki_title": "Young Animal",
+        "wiki_title": "Young Animal (magazine)",
         "entity_id": "Q1194036"
     },
     {
@@ -1461,7 +1461,7 @@
     },
     {
         "query_id": "123_292",
-        "wiki_title": "Cross-linguistic Linked Data",
+        "wiki_title": "Cross-Linguistic Linked Data",
         "entity_id": "Q19866666"
     },
     {
@@ -1471,12 +1471,12 @@
     },
     {
         "query_id": "123_294",
-        "wiki_title": "Warhammer",
+        "wiki_title": "Warhammer (game)",
         "entity_id": "Q928197"
     },
     {
         "query_id": "123_295",
-        "wiki_title": "Superman",
+        "wiki_title": "Superman (comic book)",
         "entity_id": "Q520306"
     },
     {
@@ -1501,7 +1501,7 @@
     },
     {
         "query_id": "123_300",
-        "wiki_title": "Birds of Prey",
+        "wiki_title": "Birds of Prey (team)",
         "entity_id": "Q2635755"
     },
     {
@@ -1531,7 +1531,7 @@
     },
     {
         "query_id": "123_306",
-        "wiki_title": "Yakuza",
+        "wiki_title": "Yakuza (franchise)",
         "entity_id": "Q2594935"
     },
     {
@@ -1551,7 +1551,7 @@
     },
     {
         "query_id": "123_310",
-        "wiki_title": "Guardians of the Galaxy",
+        "wiki_title": "Guardians of the Galaxy (2008 team)",
         "entity_id": "Q2545790"
     },
     {
@@ -1566,7 +1566,7 @@
     },
     {
         "query_id": "123_313",
-        "wiki_title": "Alpha Flight",
+        "wiki_title": "Alpha Flight (comic book)",
         "entity_id": "Q25222707"
     },
     {
@@ -1581,7 +1581,7 @@
     },
     {
         "query_id": "123_316",
-        "wiki_title": "Japan Hot 100",
+        "wiki_title": "Billboard Japan Hot 100",
         "entity_id": "Q848647"
     },
     {
@@ -1631,7 +1631,7 @@
     },
     {
         "query_id": "123_326",
-        "wiki_title": "Fables",
+        "wiki_title": "Fables (comics)",
         "entity_id": "Q784649"
     },
     {
@@ -1676,17 +1676,17 @@
     },
     {
         "query_id": "123_335",
-        "wiki_title": "Runaways",
+        "wiki_title": "Runaways (comics)",
         "entity_id": "Q2140112"
     },
     {
         "query_id": "123_336",
-        "wiki_title": "Mad",
+        "wiki_title": "Mad (magazine)",
         "entity_id": "Q312086"
     },
     {
         "query_id": "123_337",
-        "wiki_title": "Faculty Dental Journal",
+        "wiki_title": "Faculty of Dental Surgery",
         "entity_id": "Q5428929"
     },
     {
@@ -1711,7 +1711,7 @@
     },
     {
         "query_id": "123_342",
-        "wiki_title": "Boys' Life",
+        "wiki_title": "Scout Life",
         "entity_id": "Q2923043"
     },
     {
@@ -1721,7 +1721,7 @@
     },
     {
         "query_id": "123_344",
-        "wiki_title": "Language",
+        "wiki_title": "Language (journal)",
         "entity_id": "Q6486629"
     },
     {
@@ -1761,7 +1761,7 @@
     },
     {
         "query_id": "123_352",
-        "wiki_title": "Pendragon",
+        "wiki_title": "Pendragon (role-playing game)",
         "entity_id": "Q680553"
     },
     {
@@ -1811,12 +1811,12 @@
     },
     {
         "query_id": "123_362",
-        "wiki_title": "Chill",
+        "wiki_title": "Chill (role-playing game)",
         "entity_id": "Q1072963"
     },
     {
         "query_id": "123_363",
-        "wiki_title": "Spirou",
+        "wiki_title": "Spirou (magazine)",
         "entity_id": "Q1431686"
     },
     {
@@ -1866,7 +1866,7 @@
     },
     {
         "query_id": "123_373",
-        "wiki_title": "Tales",
+        "wiki_title": "Tales (video game series)",
         "entity_id": "Q1193867"
     },
     {
@@ -1891,7 +1891,7 @@
     },
     {
         "query_id": "123_378",
-        "wiki_title": "Generic Universal Role Playing System",
+        "wiki_title": "GURPS",
         "entity_id": "Q1047814"
     },
     {
@@ -1916,7 +1916,7 @@
     },
     {
         "query_id": "123_383",
-        "wiki_title": "Call of Cthulhu",
+        "wiki_title": "Call of Cthulhu (role-playing game)",
         "entity_id": "Q1027121"
     },
     {
@@ -1941,7 +1941,7 @@
     },
     {
         "query_id": "123_388",
-        "wiki_title": "Mainstream Top 40",
+        "wiki_title": "Pop Airplay",
         "entity_id": "Q862774"
     },
     {
@@ -1956,7 +1956,7 @@
     },
     {
         "query_id": "123_391",
-        "wiki_title": "The Fantastic Four",
+        "wiki_title": "Fantastic Four",
         "entity_id": "Q152098"
     },
     {
@@ -1966,7 +1966,7 @@
     },
     {
         "query_id": "123_393",
-        "wiki_title": "Marvel Super Heroes",
+        "wiki_title": "Marvel Super Heroes (role-playing game)",
         "entity_id": "Q3850395"
     },
     {
@@ -1976,7 +1976,7 @@
     },
     {
         "query_id": "123_395",
-        "wiki_title": "Captain Marvel",
+        "wiki_title": "Captain Marvel (DC Comics)",
         "entity_id": "Q534153"
     },
     {
@@ -2021,7 +2021,7 @@
     },
     {
         "query_id": "123_404",
-        "wiki_title": "Middle-Earth Role Playing",
+        "wiki_title": "Middle-earth Role Playing",
         "entity_id": "Q5473"
     },
     {
@@ -2051,22 +2051,22 @@
     },
     {
         "query_id": "123_410",
-        "wiki_title": "Sight & Sound",
+        "wiki_title": "Sight and Sound",
         "entity_id": "Q1546271"
     },
     {
         "query_id": "123_411",
-        "wiki_title": "A Thief in the Night",
+        "wiki_title": "A Thief in the Night (short story collection)",
         "entity_id": "Q4660060"
     },
     {
         "query_id": "123_412",
-        "wiki_title": "Mario franchise",
+        "wiki_title": "Mario (franchise)",
         "entity_id": "Q4803535"
     },
     {
         "query_id": "123_413",
-        "wiki_title": "Wolverine",
+        "wiki_title": "Wolverine (character)",
         "entity_id": "Q186422"
     },
     {
@@ -2096,7 +2096,7 @@
     },
     {
         "query_id": "123_419",
-        "wiki_title": "African Writers Series",
+        "wiki_title": "Heinemann African Writers Series",
         "entity_id": "Q4689971"
     },
     {
@@ -2106,7 +2106,7 @@
     },
     {
         "query_id": "123_421",
-        "wiki_title": "Top Rap Albums",
+        "wiki_title": "Rap Albums",
         "entity_id": "Q3199930"
     },
     {
@@ -2126,7 +2126,7 @@
     },
     {
         "query_id": "123_425",
-        "wiki_title": "Avengers",
+        "wiki_title": "Avengers (comics)",
         "entity_id": "Q322646"
     },
     {
@@ -2136,7 +2136,7 @@
     },
     {
         "query_id": "123_427",
-        "wiki_title": "Champions",
+        "wiki_title": "Champions (role-playing game)",
         "entity_id": "Q281056"
     },
     {
@@ -2156,7 +2156,7 @@
     },
     {
         "query_id": "123_431",
-        "wiki_title": "Marvel NOW!",
+        "wiki_title": "Marvel Now!",
         "entity_id": "Q4043766"
     },
     {
@@ -2166,7 +2166,7 @@
     },
     {
         "query_id": "123_433",
-        "wiki_title": "list of Most Wanted Nazi War Criminals according to the Simon Wiesenthal Center",
+        "wiki_title": "List of last surviving Nazi war criminals",
         "entity_id": "Q6590784"
     },
     {
@@ -2186,7 +2186,7 @@
     },
     {
         "query_id": "123_437",
-        "wiki_title": "Traveller",
+        "wiki_title": "Traveller (role-playing game)",
         "entity_id": "Q2164069"
     },
     {
@@ -2196,12 +2196,12 @@
     },
     {
         "query_id": "123_439",
-        "wiki_title": "Korea K-Pop Hot 100",
+        "wiki_title": "K-pop Hot 100",
         "entity_id": "Q497699"
     },
     {
         "query_id": "123_440",
-        "wiki_title": "Romance of the Three Kingdoms series",
+        "wiki_title": "Romance of the Three Kingdoms (video game series)",
         "entity_id": "Q904990"
     },
     {
@@ -2216,7 +2216,7 @@
     },
     {
         "query_id": "123_443",
-        "wiki_title": "Afternoon",
+        "wiki_title": "Monthly Afternoon",
         "entity_id": "Q290043"
     },
     {
@@ -2231,7 +2231,7 @@
     },
     {
         "query_id": "123_446",
-        "wiki_title": "Emu",
+        "wiki_title": "Emu (journal)",
         "entity_id": "Q2077317"
     },
     {
@@ -2256,12 +2256,12 @@
     },
     {
         "query_id": "123_451",
-        "wiki_title": "Top Comedy Albums",
+        "wiki_title": "Comedy Albums",
         "entity_id": "Q57519282"
     },
     {
         "query_id": "123_452",
-        "wiki_title": "Morning",
+        "wiki_title": "Morning (magazine)",
         "entity_id": "Q81081"
     },
     {
@@ -2276,7 +2276,7 @@
     },
     {
         "query_id": "123_455",
-        "wiki_title": "eFootball",
+        "wiki_title": "Pro Evolution Soccer",
         "entity_id": "Q467374"
     },
     {
@@ -2286,7 +2286,7 @@
     },
     {
         "query_id": "123_457",
-        "wiki_title": "Diablo",
+        "wiki_title": "Diablo (series)",
         "entity_id": "Q44165"
     },
     {
@@ -2306,7 +2306,7 @@
     },
     {
         "query_id": "123_461",
-        "wiki_title": "HERO System",
+        "wiki_title": "Hero System",
         "entity_id": "Q1613765"
     },
     {
@@ -2341,7 +2341,7 @@
     },
     {
         "query_id": "123_468",
-        "wiki_title": "Bubbling Under Hot 100 Singles",
+        "wiki_title": "Bubbling Under Hot 100",
         "entity_id": "Q570827"
     },
     {
@@ -2371,7 +2371,7 @@
     },
     {
         "query_id": "123_474",
-        "wiki_title": "Mainstream Rock",
+        "wiki_title": "Mainstream Rock (chart)",
         "entity_id": "Q868813"
     },
     {
@@ -2416,22 +2416,22 @@
     },
     {
         "query_id": "123_483",
-        "wiki_title": "Journal of mountain science",
+        "wiki_title": "Journal of Mountain Science",
         "entity_id": "Q27726597"
     },
     {
         "query_id": "123_484",
-        "wiki_title": "Vibe",
+        "wiki_title": "Vibe (magazine)",
         "entity_id": "Q266786"
     },
     {
         "query_id": "123_485",
-        "wiki_title": "The German Reich and the Second World War",
+        "wiki_title": "Germany and the Second World War",
         "entity_id": "Q836776"
     },
     {
         "query_id": "123_486",
-        "wiki_title": "Wings",
+        "wiki_title": "Wings (Japanese magazine)",
         "entity_id": "Q910981"
     },
     {
@@ -2446,7 +2446,7 @@
     },
     {
         "query_id": "123_489",
-        "wiki_title": "Venom",
+        "wiki_title": "Venom (character)",
         "entity_id": "Q1621261"
     },
     {
@@ -2461,7 +2461,7 @@
     },
     {
         "query_id": "123_492",
-        "wiki_title": "Radio Songs",
+        "wiki_title": "Radio Songs (chart)",
         "entity_id": "Q2356902"
     },
     {

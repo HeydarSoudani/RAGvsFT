@@ -749,15 +749,6 @@
         "pageviews": "3399"
     },
     {
-        "query_id": "452_62",
-        "question": "What industry is Technofarm International involved in?",
-        "answers": [
-            "agriculture",
-            "agricultural"
-        ],
-        "pageviews": "110"
-    },
-    {
         "query_id": "452_63",
         "question": "What is the specific industry of Digikala?",
         "answers": [
@@ -1171,19 +1162,6 @@
             "food industries"
         ],
         "pageviews": "446"
-    },
-    {
-        "query_id": "452_98",
-        "question": "What industry is Summit Nutritionals International in?",
-        "answers": [
-            "pharma industry",
-            "pharmaceutical",
-            "pharmaceutical wholesaler",
-            "pharma",
-            "drug industry",
-            "pharmaceutical industry"
-        ],
-        "pageviews": "208"
     },
     {
         "query_id": "452_99",
@@ -3407,16 +3385,6 @@
             "entomologist"
         ],
         "pageviews": "612"
-    },
-    {
-        "query_id": "452_280",
-        "question": "What specific industry is Kari Sylwan known for in the field of dance choreography?",
-        "answers": [
-            "dance",
-            "dancer",
-            "dancing"
-        ],
-        "pageviews": "0"
     },
     {
         "query_id": "452_281",

@@ -611,16 +611,6 @@
         "pageviews": "2914"
     },
     {
-        "query_id": "136_45",
-        "question": "What genre is The Party Fouls known for?",
-        "answers": [
-            "rock music",
-            "rock",
-            "rock and roll"
-        ],
-        "pageviews": "31"
-    },
-    {
         "query_id": "136_46",
         "question": "What genre is Late August, Early September?",
         "answers": [
@@ -886,19 +876,6 @@
             "indie folk"
         ],
         "pageviews": "156"
-    },
-    {
-        "query_id": "136_70",
-        "question": "What genre is Another Single Day known for?",
-        "answers": [
-            "alt rock",
-            "alternative rock",
-            "alternative music",
-            "pop/rock",
-            "alt-rock",
-            "alternative"
-        ],
-        "pageviews": "129"
     },
     {
         "query_id": "136_71",
@@ -2079,17 +2056,6 @@
             "horror film"
         ],
         "pageviews": "195"
-    },
-    {
-        "query_id": "136_171",
-        "question": "What genre is Radical G known for?",
-        "answers": [
-            "techno-pop",
-            "synth-pop",
-            "synthesizer pop",
-            "synthpop"
-        ],
-        "pageviews": "203"
     },
     {
         "query_id": "136_172",

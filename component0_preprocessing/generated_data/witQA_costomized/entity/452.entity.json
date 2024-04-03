@@ -1,7 +1,7 @@
 [
     {
         "query_id": "452_0",
-        "wiki_title": "big-box store",
+        "wiki_title": "Big-box store",
         "entity_id": "Q16766413"
     },
     {
@@ -21,12 +21,12 @@
     },
     {
         "query_id": "452_4",
-        "wiki_title": "strip club",
+        "wiki_title": "Strip club",
         "entity_id": "Q6586445"
     },
     {
         "query_id": "452_5",
-        "wiki_title": "Gr\u00fcnenthal GmbH",
+        "wiki_title": "Gr\u00fcnenthal",
         "entity_id": "Q153838"
     },
     {
@@ -36,7 +36,7 @@
     },
     {
         "query_id": "452_7",
-        "wiki_title": "Doubleday",
+        "wiki_title": "Doubleday (publisher)",
         "entity_id": "Q1251563"
     },
     {
@@ -111,7 +111,7 @@
     },
     {
         "query_id": "452_22",
-        "wiki_title": "The McClatchy Company",
+        "wiki_title": "McClatchy",
         "entity_id": "Q1660027"
     },
     {
@@ -136,7 +136,7 @@
     },
     {
         "query_id": "452_27",
-        "wiki_title": "Roscosmos State Corporation",
+        "wiki_title": "Roscosmos",
         "entity_id": "Q190795"
     },
     {
@@ -156,7 +156,7 @@
     },
     {
         "query_id": "452_31",
-        "wiki_title": "Fruition",
+        "wiki_title": "Fruition (digital marketing agency)",
         "entity_id": "Q21071540"
     },
     {
@@ -241,7 +241,7 @@
     },
     {
         "query_id": "452_48",
-        "wiki_title": "Nobleworks",
+        "wiki_title": "NobleWorks",
         "entity_id": "Q7045864"
     },
     {
@@ -310,11 +310,6 @@
         "entity_id": "Q1817174"
     },
     {
-        "query_id": "452_62",
-        "wiki_title": "Technofarm International",
-        "entity_id": "Q7692457"
-    },
-    {
         "query_id": "452_63",
         "wiki_title": "Digikala",
         "entity_id": "Q5678438"
@@ -331,7 +326,7 @@
     },
     {
         "query_id": "452_66",
-        "wiki_title": "Nyherji",
+        "wiki_title": "Origo hf.",
         "entity_id": "Q7071097"
     },
     {
@@ -346,7 +341,7 @@
     },
     {
         "query_id": "452_69",
-        "wiki_title": "Hoffmann-La Roche",
+        "wiki_title": "Roche",
         "entity_id": "Q212646"
     },
     {
@@ -411,7 +406,7 @@
     },
     {
         "query_id": "452_82",
-        "wiki_title": "2015, Inc.",
+        "wiki_title": "2015 (company)",
         "entity_id": "Q212076"
     },
     {
@@ -476,7 +471,7 @@
     },
     {
         "query_id": "452_95",
-        "wiki_title": "El-Mokawloon El-Arab",
+        "wiki_title": "Arab Contractors",
         "entity_id": "Q4783172"
     },
     {
@@ -488,11 +483,6 @@
         "query_id": "452_97",
         "wiki_title": "Carl K\u00fchne KG",
         "entity_id": "Q1039316"
-    },
-    {
-        "query_id": "452_98",
-        "wiki_title": "Summit Nutritionals International",
-        "entity_id": "Q21178931"
     },
     {
         "query_id": "452_99",
@@ -581,7 +571,7 @@
     },
     {
         "query_id": "452_116",
-        "wiki_title": "passengers per hour per direction",
+        "wiki_title": "Passengers per hour per direction",
         "entity_id": "Q4346600"
     },
     {
@@ -596,7 +586,7 @@
     },
     {
         "query_id": "452_119",
-        "wiki_title": "Magic Circle of the German Democratic Republic",
+        "wiki_title": "Magischer Zirkel der Deutschen Demokratischen Republik",
         "entity_id": "Q27996693"
     },
     {
@@ -606,7 +596,7 @@
     },
     {
         "query_id": "452_121",
-        "wiki_title": "Tuonela Productions Ltd",
+        "wiki_title": "Tuonela Productions",
         "entity_id": "Q7853450"
     },
     {
@@ -636,7 +626,7 @@
     },
     {
         "query_id": "452_127",
-        "wiki_title": "Central Color",
+        "wiki_title": "Central Dupon Images",
         "entity_id": "Q5060610"
     },
     {
@@ -671,7 +661,7 @@
     },
     {
         "query_id": "452_134",
-        "wiki_title": "performing arts presenting organization",
+        "wiki_title": "Performing arts presenters",
         "entity_id": "Q7168296"
     },
     {
@@ -696,7 +686,7 @@
     },
     {
         "query_id": "452_139",
-        "wiki_title": "Geothermal Engineering Ltd.",
+        "wiki_title": "United Downs Deep Geothermal Power",
         "entity_id": "Q5548574"
     },
     {
@@ -786,7 +776,7 @@
     },
     {
         "query_id": "452_157",
-        "wiki_title": "The Leavitt Group",
+        "wiki_title": "Leavitt Group",
         "entity_id": "Q7746584"
     },
     {
@@ -806,7 +796,7 @@
     },
     {
         "query_id": "452_161",
-        "wiki_title": "Immunomedics (United States)",
+        "wiki_title": "Immunomedics",
         "entity_id": "Q30279582"
     },
     {
@@ -841,7 +831,7 @@
     },
     {
         "query_id": "452_168",
-        "wiki_title": "Compagnie des chemins de fer de Paris \u00e0 Lyon et \u00e0 la M\u00e9diterran\u00e9e",
+        "wiki_title": "Chemins de fer de Paris \u00e0 Lyon et \u00e0 la M\u00e9diterran\u00e9e",
         "entity_id": "Q1121154"
     },
     {
@@ -901,7 +891,7 @@
     },
     {
         "query_id": "452_180",
-        "wiki_title": "MapD",
+        "wiki_title": "HEAVY.AI",
         "entity_id": "Q55622112"
     },
     {
@@ -931,7 +921,7 @@
     },
     {
         "query_id": "452_186",
-        "wiki_title": "Agnico-Eagle Mines",
+        "wiki_title": "Agnico Eagle",
         "entity_id": "Q38676"
     },
     {
@@ -991,7 +981,7 @@
     },
     {
         "query_id": "452_198",
-        "wiki_title": "freight forwarder",
+        "wiki_title": "Freight forwarder",
         "entity_id": "Q840850"
     },
     {
@@ -1041,12 +1031,12 @@
     },
     {
         "query_id": "452_208",
-        "wiki_title": "Daimler AG",
+        "wiki_title": "Mercedes-Benz Group",
         "entity_id": "Q27530"
     },
     {
         "query_id": "452_209",
-        "wiki_title": "Scania",
+        "wiki_title": "Scania AB",
         "entity_id": "Q219960"
     },
     {
@@ -1081,7 +1071,7 @@
     },
     {
         "query_id": "452_216",
-        "wiki_title": "transit district",
+        "wiki_title": "Transit district",
         "entity_id": "Q7835189"
     },
     {
@@ -1116,7 +1106,7 @@
     },
     {
         "query_id": "452_223",
-        "wiki_title": "general manager",
+        "wiki_title": "General manager (basketball)",
         "entity_id": "Q5532366"
     },
     {
@@ -1176,7 +1166,7 @@
     },
     {
         "query_id": "452_235",
-        "wiki_title": "shipyard",
+        "wiki_title": "Shipyard",
         "entity_id": "Q190928"
     },
     {
@@ -1191,7 +1181,7 @@
     },
     {
         "query_id": "452_238",
-        "wiki_title": "World Wrestling League",
+        "wiki_title": "La Liga Wrestling",
         "entity_id": "Q17163418"
     },
     {
@@ -1211,12 +1201,12 @@
     },
     {
         "query_id": "452_242",
-        "wiki_title": "Royal Dutch Shell",
+        "wiki_title": "Shell plc",
         "entity_id": "Q154950"
     },
     {
         "query_id": "452_243",
-        "wiki_title": "UPA",
+        "wiki_title": "United Productions of America",
         "entity_id": "Q642996"
     },
     {
@@ -1246,32 +1236,32 @@
     },
     {
         "query_id": "452_249",
-        "wiki_title": "South West News Service",
+        "wiki_title": "SWNS Media Group",
         "entity_id": "Q17020772"
     },
     {
         "query_id": "452_250",
-        "wiki_title": "Facebook, Inc.",
+        "wiki_title": "Meta Platforms",
         "entity_id": "Q380"
     },
     {
         "query_id": "452_251",
-        "wiki_title": "Groupe PSA",
+        "wiki_title": "PSA Group",
         "entity_id": "Q275623"
     },
     {
         "query_id": "452_252",
-        "wiki_title": "Evolve",
+        "wiki_title": "Evolve (professional wrestling)",
         "entity_id": "Q4921457"
     },
     {
         "query_id": "452_253",
-        "wiki_title": "Rainmaker Entertainment",
+        "wiki_title": "Mainframe Studios",
         "entity_id": "Q3299128"
     },
     {
         "query_id": "452_254",
-        "wiki_title": "Exo",
+        "wiki_title": "Exo (public transit)",
         "entity_id": "Q392496"
     },
     {
@@ -1291,7 +1281,7 @@
     },
     {
         "query_id": "452_258",
-        "wiki_title": "contract research organization",
+        "wiki_title": "Contract research organization",
         "entity_id": "Q760102"
     },
     {
@@ -1346,12 +1336,12 @@
     },
     {
         "query_id": "452_269",
-        "wiki_title": "Digitally Imported",
+        "wiki_title": "DI.FM",
         "entity_id": "Q1225076"
     },
     {
         "query_id": "452_270",
-        "wiki_title": "stage",
+        "wiki_title": "Stage (theatre)",
         "entity_id": "Q194428"
     },
     {
@@ -1371,22 +1361,22 @@
     },
     {
         "query_id": "452_274",
-        "wiki_title": "DeepMind",
+        "wiki_title": "Google DeepMind",
         "entity_id": "Q15733006"
     },
     {
         "query_id": "452_275",
-        "wiki_title": "WWE NXT",
+        "wiki_title": "NXT (WWE brand)",
         "entity_id": "Q35903"
     },
     {
         "query_id": "452_276",
-        "wiki_title": "International Federation of BodyBuilding & Fitness",
+        "wiki_title": "International Fitness and Bodybuilding Federation",
         "entity_id": "Q511252"
     },
     {
         "query_id": "452_277",
-        "wiki_title": "television producer",
+        "wiki_title": "Television producer",
         "entity_id": "Q578109"
     },
     {
@@ -1398,11 +1388,6 @@
         "query_id": "452_279",
         "wiki_title": "Royal Entomological Society",
         "entity_id": "Q673864"
-    },
-    {
-        "query_id": "452_280",
-        "wiki_title": "dance choreography",
-        "entity_id": "Q3764113"
     },
     {
         "query_id": "452_281",
@@ -1466,7 +1451,7 @@
     },
     {
         "query_id": "452_293",
-        "wiki_title": "retail chain",
+        "wiki_title": "Chain store",
         "entity_id": "Q507619"
     },
     {
@@ -1516,7 +1501,7 @@
     },
     {
         "query_id": "452_303",
-        "wiki_title": "Amazon",
+        "wiki_title": "Amazon (company)",
         "entity_id": "Q3884"
     },
     {
@@ -1526,7 +1511,7 @@
     },
     {
         "query_id": "452_305",
-        "wiki_title": "TSR",
+        "wiki_title": "TSR, Inc.",
         "entity_id": "Q1543201"
     },
     {
@@ -1536,7 +1521,7 @@
     },
     {
         "query_id": "452_307",
-        "wiki_title": "Bell TV",
+        "wiki_title": "Bell Satellite TV",
         "entity_id": "Q2894596"
     },
     {
@@ -1551,7 +1536,7 @@
     },
     {
         "query_id": "452_310",
-        "wiki_title": "iHeartMedia",
+        "wiki_title": "IHeartMedia",
         "entity_id": "Q477993"
     },
     {
@@ -1571,7 +1556,7 @@
     },
     {
         "query_id": "452_314",
-        "wiki_title": "Impact Wrestling",
+        "wiki_title": "Total Nonstop Action Wrestling",
         "entity_id": "Q131728"
     },
     {
@@ -1596,17 +1581,17 @@
     },
     {
         "query_id": "452_319",
-        "wiki_title": "automobile safety",
+        "wiki_title": "Automotive safety",
         "entity_id": "Q2090494"
     },
     {
         "query_id": "452_320",
-        "wiki_title": "Tech Mahindra India",
+        "wiki_title": "Tech Mahindra",
         "entity_id": "Q1131463"
     },
     {
         "query_id": "452_321",
-        "wiki_title": "L3Harris Technologies",
+        "wiki_title": "L3Harris",
         "entity_id": "Q65053147"
     },
     {
@@ -1616,12 +1601,12 @@
     },
     {
         "query_id": "452_323",
-        "wiki_title": "Office Ch\u00e9rifien des Phosphates",
+        "wiki_title": "OCP Group",
         "entity_id": "Q501605"
     },
     {
         "query_id": "452_324",
-        "wiki_title": "Kohler Company",
+        "wiki_title": "Kohler Co.",
         "entity_id": "Q6426036"
     },
     {
@@ -1656,12 +1641,12 @@
     },
     {
         "query_id": "452_331",
-        "wiki_title": "digital subscriber line",
+        "wiki_title": "Digital subscriber line",
         "entity_id": "Q104534"
     },
     {
         "query_id": "452_332",
-        "wiki_title": "mafia",
+        "wiki_title": "Mafia",
         "entity_id": "Q18550"
     },
     {

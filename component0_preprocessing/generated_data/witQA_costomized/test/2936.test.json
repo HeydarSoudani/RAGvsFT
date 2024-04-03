@@ -2084,19 +2084,6 @@
         "pageviews": "150"
     },
     {
-        "query_id": "2936_80",
-        "question": "What language is widely used by Radio Soleil?",
-        "answers": [
-            "ht",
-            "Kreyol",
-            "Haitian Creole",
-            "Haitian language",
-            "Haitian Creole language",
-            "Krey\u00f2l"
-        ],
-        "pageviews": "132"
-    },
-    {
         "query_id": "2936_81",
         "question": "What was the language widely used in the Mongol Empire, specifically during the Tang dynasty and the Yuan dynasty?",
         "answers": [
@@ -2337,19 +2324,6 @@
             "ilo"
         ],
         "pageviews": "262"
-    },
-    {
-        "query_id": "2936_95",
-        "question": "What language is WAAR TV HD in?",
-        "answers": [
-            "Kurdish",
-            "ku",
-            "Kurdish languages",
-            "Kurdish dialects",
-            "Kurdish language",
-            "Kurdi"
-        ],
-        "pageviews": "37"
     },
     {
         "query_id": "2936_96",
@@ -6091,33 +6065,6 @@
             "Loarki language"
         ],
         "pageviews": "53782"
-    },
-    {
-        "query_id": "2936_233",
-        "question": "What language is widely used in Florina Prefecture?",
-        "answers": [
-            "el",
-            "Pontic Greek",
-            "Pontian Greek",
-            "pnt",
-            "gr",
-            "Macedonian language",
-            "Greek",
-            "Aromanian",
-            "Greek language",
-            "Macedonian Slavic",
-            "Aromanian language",
-            "Pontic",
-            "rup",
-            "Macedo-Romanian",
-            "Pontiaka",
-            "mk",
-            "Arumanian",
-            "Macedonian",
-            "Macedo-Aromanian language",
-            "roa-rup"
-        ],
-        "pageviews": "81"
     },
     {
         "query_id": "2936_234",

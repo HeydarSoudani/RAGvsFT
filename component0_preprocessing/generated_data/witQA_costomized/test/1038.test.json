@@ -449,16 +449,6 @@
         "pageviews": "13621"
     },
     {
-        "query_id": "1038_38",
-        "question": "Who is Josiah Johnson, Jr. a relative of?",
-        "answers": [
-            "Josiah Johnson",
-            "Josiah Johnson, Sr.",
-            "Josiah Johnson Sr."
-        ],
-        "pageviews": "0"
-    },
-    {
         "query_id": "1038_39",
         "question": "Who is Joaquin Phoenix a relative of?",
         "answers": [
@@ -1139,15 +1129,6 @@
             "William Walker Norvell"
         ],
         "pageviews": "389"
-    },
-    {
-        "query_id": "1038_105",
-        "question": "What type of kinship did Karl Leib have?",
-        "answers": [
-            "Gottlob Berger",
-            "Gottlob Christian Berger"
-        ],
-        "pageviews": "74"
     },
     {
         "query_id": "1038_106",

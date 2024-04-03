@@ -4807,23 +4807,6 @@
         "pageviews": "660"
     },
     {
-        "query_id": "17_293",
-        "question": "What country is the Municipality of Messene located in?",
-        "answers": [
-            "el",
-            "Hellas",
-            "Greek",
-            "\ud83c\uddec\ud83c\uddf7",
-            "Greek Republic",
-            "Ellada",
-            "gr",
-            "GRE",
-            "Hellenic Republic",
-            "Greece"
-        ],
-        "pageviews": "0"
-    },
-    {
         "query_id": "17_294",
         "question": "What country is the Nasib Border Crossing located in?",
         "answers": [
@@ -7450,19 +7433,6 @@
             "TR"
         ],
         "pageviews": "2912"
-    },
-    {
-        "query_id": "17_452",
-        "question": "What country is Badreh District located in?",
-        "answers": [
-            "Iran",
-            "Persia",
-            "\ud83c\uddee\ud83c\uddf7",
-            "ir",
-            "Islamic Republic of Iran",
-            "Islamic Rep. Iran"
-        ],
-        "pageviews": "31"
     },
     {
         "query_id": "17_453",
@@ -17145,22 +17115,6 @@
             "bahrain"
         ],
         "pageviews": "17463"
-    },
-    {
-        "query_id": "17_972",
-        "question": "What country is Picardy located in?",
-        "answers": [
-            "France",
-            "fr",
-            "R\u00e9publique fran\u00e7aise",
-            "FRA",
-            "Republic of France",
-            "FR",
-            "La France",
-            "the Hexagon",
-            "French Republic"
-        ],
-        "pageviews": "12094"
     },
     {
         "query_id": "17_973",

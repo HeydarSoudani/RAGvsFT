@@ -2197,25 +2197,6 @@
         "pageviews": "65"
     },
     {
-        "query_id": "674_121",
-        "question": "Who are the characters in \"The Cat and the Claw: Part 1\"?",
-        "answers": [
-            "Irena Dubrovna",
-            "The Cat",
-            "Red Claw",
-            "Commissioner Jim Gordon",
-            "Catwoman",
-            "Commissioner James Gordon",
-            "Bruce Wayne",
-            "James Gordon",
-            "Commissioner Gordon",
-            "Jim Gordon",
-            "Selina Kyle",
-            "Batman"
-        ],
-        "pageviews": "250"
-    },
-    {
         "query_id": "674_122",
         "question": "Who are the characters in Thru the Mirror?",
         "answers": [
@@ -13377,23 +13358,6 @@
             "Teal'c"
         ],
         "pageviews": "52613"
-    },
-    {
-        "query_id": "674_496",
-        "question": "Who are the characters in Naruto?",
-        "answers": [
-            "Naruto Uzumaki Namikaze",
-            "Lord Seventh",
-            "The Child of Prophecy",
-            "Hero of Konoha",
-            "Uzumaki Naruto",
-            "Naruto Uzumaki",
-            "Namikaze Naruto",
-            "The Prophecy Child",
-            "Naruto Namikaze",
-            "Seventh Hokage"
-        ],
-        "pageviews": "268078"
     },
     {
         "query_id": "674_497",

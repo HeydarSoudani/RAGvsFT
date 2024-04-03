@@ -61,7 +61,7 @@
     },
     {
         "query_id": "2936_12",
-        "wiki_title": "Karas Region",
+        "wiki_title": "\u01c1Karas Region",
         "entity_id": "Q573467"
     },
     {
@@ -106,7 +106,7 @@
     },
     {
         "query_id": "2936_21",
-        "wiki_title": "Ici Musique",
+        "wiki_title": "ICI Musique",
         "entity_id": "Q659512"
     },
     {
@@ -116,7 +116,7 @@
     },
     {
         "query_id": "2936_23",
-        "wiki_title": "Lower Shebelle",
+        "wiki_title": "Lower Shabelle",
         "entity_id": "Q877028"
     },
     {
@@ -131,7 +131,7 @@
     },
     {
         "query_id": "2936_26",
-        "wiki_title": "North Khorasan Province",
+        "wiki_title": "North Khorasan province",
         "entity_id": "Q180075"
     },
     {
@@ -211,7 +211,7 @@
     },
     {
         "query_id": "2936_42",
-        "wiki_title": "Yazd Province",
+        "wiki_title": "Yazd province",
         "entity_id": "Q170568"
     },
     {
@@ -231,7 +231,7 @@
     },
     {
         "query_id": "2936_46",
-        "wiki_title": "Kurdistan Province",
+        "wiki_title": "Kurdistan province",
         "entity_id": "Q134386"
     },
     {
@@ -281,17 +281,17 @@
     },
     {
         "query_id": "2936_56",
-        "wiki_title": "Loreto",
+        "wiki_title": "Department of Loreto",
         "entity_id": "Q200938"
     },
     {
         "query_id": "2936_57",
-        "wiki_title": "Lapland",
+        "wiki_title": "Lapland (Finland)",
         "entity_id": "Q5700"
     },
     {
         "query_id": "2936_58",
-        "wiki_title": "Kerman Province",
+        "wiki_title": "Kerman province",
         "entity_id": "Q165352"
     },
     {
@@ -311,7 +311,7 @@
     },
     {
         "query_id": "2936_62",
-        "wiki_title": "Tongva people",
+        "wiki_title": "Tongva",
         "entity_id": "Q1479279"
     },
     {
@@ -336,12 +336,12 @@
     },
     {
         "query_id": "2936_67",
-        "wiki_title": "Hungarian Greek Catholic Archeparchy of Hajd\u00fadorog",
+        "wiki_title": "Hungarian Catholic Archeparchy of Hajd\u00fadorog",
         "entity_id": "Q553177"
     },
     {
         "query_id": "2936_68",
-        "wiki_title": "Cabatuan",
+        "wiki_title": "Cabatuan, Iloilo",
         "entity_id": "Q274693"
     },
     {
@@ -356,7 +356,7 @@
     },
     {
         "query_id": "2936_71",
-        "wiki_title": "Internacia Esperanto-Ligo",
+        "wiki_title": "International Esperanto League",
         "entity_id": "Q1666269"
     },
     {
@@ -371,7 +371,7 @@
     },
     {
         "query_id": "2936_74",
-        "wiki_title": "CGTN",
+        "wiki_title": "CGTN (TV channel)",
         "entity_id": "Q4378607"
     },
     {
@@ -400,11 +400,6 @@
         "entity_id": "Q871115"
     },
     {
-        "query_id": "2936_80",
-        "wiki_title": "Radio Soleil",
-        "entity_id": "Q25002108"
-    },
-    {
         "query_id": "2936_81",
         "wiki_title": "Mongol Empire",
         "entity_id": "Q12557"
@@ -416,12 +411,12 @@
     },
     {
         "query_id": "2936_83",
-        "wiki_title": "Melkite Catholic Patriarchate of Antakya",
+        "wiki_title": "Melkite Catholic Patriarchate of Antioch",
         "entity_id": "Q1239092"
     },
     {
         "query_id": "2936_84",
-        "wiki_title": "Nippon Television",
+        "wiki_title": "Nippon TV",
         "entity_id": "Q864910"
     },
     {
@@ -431,7 +426,7 @@
     },
     {
         "query_id": "2936_86",
-        "wiki_title": "Khatlon Province",
+        "wiki_title": "Khatlon Region",
         "entity_id": "Q633511"
     },
     {
@@ -461,23 +456,18 @@
     },
     {
         "query_id": "2936_92",
-        "wiki_title": "Auvergne",
+        "wiki_title": "Auvergne (province)",
         "entity_id": "Q1193946"
     },
     {
         "query_id": "2936_93",
-        "wiki_title": "Lima region",
+        "wiki_title": "Department of Lima",
         "entity_id": "Q211795"
     },
     {
         "query_id": "2936_94",
-        "wiki_title": "Anda",
+        "wiki_title": "Anda, Pangasinan",
         "entity_id": "Q41713"
-    },
-    {
-        "query_id": "2936_95",
-        "wiki_title": "WAAR TV HD",
-        "entity_id": "Q15627503"
     },
     {
         "query_id": "2936_96",
@@ -511,7 +501,7 @@
     },
     {
         "query_id": "2936_102",
-        "wiki_title": "Roman Catholic Diocese of Taiohae o Tefenuaenata",
+        "wiki_title": "Roman Catholic Diocese of Taiohae",
         "entity_id": "Q877037"
     },
     {
@@ -576,12 +566,12 @@
     },
     {
         "query_id": "2936_115",
-        "wiki_title": "Rosales",
+        "wiki_title": "Rosales, Pangasinan",
         "entity_id": "Q42024"
     },
     {
         "query_id": "2936_116",
-        "wiki_title": "Libertad",
+        "wiki_title": "Libertad, Misamis Oriental",
         "entity_id": "Q195767"
     },
     {
@@ -596,7 +586,7 @@
     },
     {
         "query_id": "2936_119",
-        "wiki_title": "Santa Cruz Department",
+        "wiki_title": "Santa Cruz Department (Bolivia)",
         "entity_id": "Q235106"
     },
     {
@@ -616,7 +606,7 @@
     },
     {
         "query_id": "2936_123",
-        "wiki_title": "Diocese of Novaliches",
+        "wiki_title": "Roman Catholic Diocese of Novaliches",
         "entity_id": "Q326818"
     },
     {
@@ -691,7 +681,7 @@
     },
     {
         "query_id": "2936_138",
-        "wiki_title": "Mati",
+        "wiki_title": "Mati, Davao Oriental",
         "entity_id": "Q314686"
     },
     {
@@ -721,12 +711,12 @@
     },
     {
         "query_id": "2936_144",
-        "wiki_title": "Priyo.com",
+        "wiki_title": "Priyo",
         "entity_id": "Q38906046"
     },
     {
         "query_id": "2936_145",
-        "wiki_title": "Annob\u00f3n Province",
+        "wiki_title": "Annob\u00f3n",
         "entity_id": "Q3736616"
     },
     {
@@ -741,7 +731,7 @@
     },
     {
         "query_id": "2936_148",
-        "wiki_title": "Soci\u00e9t\u00e9 Nationale de Radiodiffusion et de T\u00e9l\u00e9vision",
+        "wiki_title": "SNRT",
         "entity_id": "Q27491"
     },
     {
@@ -786,12 +776,12 @@
     },
     {
         "query_id": "2936_157",
-        "wiki_title": "Kingdom of Araba",
+        "wiki_title": "Kingdom of Hatra",
         "entity_id": "Q6412538"
     },
     {
         "query_id": "2936_158",
-        "wiki_title": "Yamagata",
+        "wiki_title": "Yamagata Prefecture",
         "entity_id": "Q125863"
     },
     {
@@ -851,12 +841,12 @@
     },
     {
         "query_id": "2936_170",
-        "wiki_title": "Patriarchal Exarchate of Damascus",
+        "wiki_title": "Armenian Catholic Patriarchal Exarchate of Damascus",
         "entity_id": "Q2057032"
     },
     {
         "query_id": "2936_171",
-        "wiki_title": "Western Province",
+        "wiki_title": "Western Province (Solomon Islands)",
         "entity_id": "Q150325"
     },
     {
@@ -866,7 +856,7 @@
     },
     {
         "query_id": "2936_173",
-        "wiki_title": "5 TV channel",
+        "wiki_title": "TV5 (Philippine TV network)",
         "entity_id": "Q4015057"
     },
     {
@@ -1066,7 +1056,7 @@
     },
     {
         "query_id": "2936_213",
-        "wiki_title": "Timor-Leste",
+        "wiki_title": "East Timor",
         "entity_id": "Q574"
     },
     {
@@ -1081,12 +1071,12 @@
     },
     {
         "query_id": "2936_216",
-        "wiki_title": "Republic of Dagestan",
+        "wiki_title": "Dagestan",
         "entity_id": "Q5118"
     },
     {
         "query_id": "2936_217",
-        "wiki_title": "Washington",
+        "wiki_title": "Washington (state)",
         "entity_id": "Q1223"
     },
     {
@@ -1096,7 +1086,7 @@
     },
     {
         "query_id": "2936_219",
-        "wiki_title": "Tibet",
+        "wiki_title": "Tibet Autonomous Region",
         "entity_id": "Q17269"
     },
     {
@@ -1116,7 +1106,7 @@
     },
     {
         "query_id": "2936_223",
-        "wiki_title": "Gilan Province",
+        "wiki_title": "Gilan province",
         "entity_id": "Q928828"
     },
     {
@@ -1146,7 +1136,7 @@
     },
     {
         "query_id": "2936_229",
-        "wiki_title": "Gorno-Badakhshan Autonomous Region",
+        "wiki_title": "Gorno-Badakhshan",
         "entity_id": "Q207319"
     },
     {
@@ -1163,11 +1153,6 @@
         "query_id": "2936_232",
         "wiki_title": "Sindh",
         "entity_id": "Q37211"
-    },
-    {
-        "query_id": "2936_233",
-        "wiki_title": "Florina Prefecture",
-        "entity_id": "Q211314"
     },
     {
         "query_id": "2936_234",
@@ -1256,7 +1241,7 @@
     },
     {
         "query_id": "2936_251",
-        "wiki_title": "Samaritan",
+        "wiki_title": "Samaritans",
         "entity_id": "Q182651"
     },
     {
@@ -1326,7 +1311,7 @@
     },
     {
         "query_id": "2936_265",
-        "wiki_title": "Karelia",
+        "wiki_title": "Republic of Karelia",
         "entity_id": "Q1914"
     },
     {
@@ -1396,12 +1381,12 @@
     },
     {
         "query_id": "2936_279",
-        "wiki_title": "Hainaut",
+        "wiki_title": "Hainaut Province",
         "entity_id": "Q1129"
     },
     {
         "query_id": "2936_280",
-        "wiki_title": "eisteddfod",
+        "wiki_title": "Eisteddfod",
         "entity_id": "Q670265"
     },
     {
@@ -1436,7 +1421,7 @@
     },
     {
         "query_id": "2936_287",
-        "wiki_title": "Songkhla",
+        "wiki_title": "Songkhla province",
         "entity_id": "Q235574"
     },
     {
@@ -1456,7 +1441,7 @@
     },
     {
         "query_id": "2936_291",
-        "wiki_title": "Akkadian empire",
+        "wiki_title": "Akkadian Empire",
         "entity_id": "Q4461035"
     },
     {
@@ -1526,7 +1511,7 @@
     },
     {
         "query_id": "2936_305",
-        "wiki_title": "cinema of Punjab",
+        "wiki_title": "Punjabi cinema",
         "entity_id": "Q5120791"
     },
     {
@@ -1546,7 +1531,7 @@
     },
     {
         "query_id": "2936_309",
-        "wiki_title": "Limburg",
+        "wiki_title": "Limburg (Belgium)",
         "entity_id": "Q1095"
     },
     {
@@ -1631,7 +1616,7 @@
     },
     {
         "query_id": "2936_326",
-        "wiki_title": "Papua",
+        "wiki_title": "Papua (province)",
         "entity_id": "Q5095"
     },
     {
@@ -1656,7 +1641,7 @@
     },
     {
         "query_id": "2936_331",
-        "wiki_title": "Neath Port Talbot County Borough",
+        "wiki_title": "Neath Port Talbot",
         "entity_id": "Q748078"
     },
     {
@@ -1756,12 +1741,12 @@
     },
     {
         "query_id": "2936_351",
-        "wiki_title": "Tyrol",
+        "wiki_title": "Tyrol (federal state)",
         "entity_id": "Q42880"
     },
     {
         "query_id": "2936_352",
-        "wiki_title": "New York",
+        "wiki_title": "New York (state)",
         "entity_id": "Q1384"
     },
     {
@@ -1806,7 +1791,7 @@
     },
     {
         "query_id": "2936_361",
-        "wiki_title": "Premi\u00e8re Cha\u00eene",
+        "wiki_title": "Ici Radio-Canada Premi\u00e8re",
         "entity_id": "Q3401855"
     },
     {
@@ -1826,7 +1811,7 @@
     },
     {
         "query_id": "2936_365",
-        "wiki_title": "Huesca Province",
+        "wiki_title": "Province of Huesca",
         "entity_id": "Q55182"
     },
     {
@@ -1876,7 +1861,7 @@
     },
     {
         "query_id": "2936_375",
-        "wiki_title": "Limburg",
+        "wiki_title": "Limburg (Netherlands)",
         "entity_id": "Q1093"
     },
     {
@@ -2001,7 +1986,7 @@
     },
     {
         "query_id": "2936_400",
-        "wiki_title": "Basque Country",
+        "wiki_title": "Basque Country (greater region)",
         "entity_id": "Q47588"
     },
     {
@@ -2046,7 +2031,7 @@
     },
     {
         "query_id": "2936_409",
-        "wiki_title": "Sughd Province",
+        "wiki_title": "Sughd Region",
         "entity_id": "Q241582"
     },
     {
@@ -2071,7 +2056,7 @@
     },
     {
         "query_id": "2936_414",
-        "wiki_title": "Trentino-South Tyrol",
+        "wiki_title": "Trentino-Alto Adige/S\u00fcdtirol",
         "entity_id": "Q1237"
     },
     {
@@ -2081,7 +2066,7 @@
     },
     {
         "query_id": "2936_416",
-        "wiki_title": "Nord",
+        "wiki_title": "Nord (French department)",
         "entity_id": "Q12661"
     },
     {
@@ -2186,7 +2171,7 @@
     },
     {
         "query_id": "2936_437",
-        "wiki_title": "Georgia",
+        "wiki_title": "Georgia (country)",
         "entity_id": "Q230"
     },
     {
@@ -2361,7 +2346,7 @@
     },
     {
         "query_id": "2936_472",
-        "wiki_title": "Cote d'Ivoire",
+        "wiki_title": "Ivory Coast",
         "entity_id": "Q1008"
     },
     {
@@ -2386,7 +2371,7 @@
     },
     {
         "query_id": "2936_477",
-        "wiki_title": "Groningen",
+        "wiki_title": "Groningen (province)",
         "entity_id": "Q752"
     },
     {
@@ -2471,7 +2456,7 @@
     },
     {
         "query_id": "2936_494",
-        "wiki_title": "Kabylie",
+        "wiki_title": "Kabylia",
         "entity_id": "Q46178"
     },
     {
@@ -2666,7 +2651,7 @@
     },
     {
         "query_id": "2936_533",
-        "wiki_title": "Canton of Valais",
+        "wiki_title": "Valais",
         "entity_id": "Q834"
     },
     {
@@ -2806,12 +2791,12 @@
     },
     {
         "query_id": "2936_561",
-        "wiki_title": "Highland",
+        "wiki_title": "Highland (council area)",
         "entity_id": "Q208279"
     },
     {
         "query_id": "2936_562",
-        "wiki_title": "Oaxaca State",
+        "wiki_title": "Oaxaca",
         "entity_id": "Q34110"
     },
     {
@@ -2921,7 +2906,7 @@
     },
     {
         "query_id": "2936_584",
-        "wiki_title": "People's Republic of China",
+        "wiki_title": "China",
         "entity_id": "Q148"
     },
     {
@@ -2951,7 +2936,7 @@
     },
     {
         "query_id": "2936_590",
-        "wiki_title": "United States of America",
+        "wiki_title": "United States",
         "entity_id": "Q30"
     },
     {
@@ -3026,7 +3011,7 @@
     },
     {
         "query_id": "2936_605",
-        "wiki_title": "Republic of Genova",
+        "wiki_title": "Republic of Genoa",
         "entity_id": "Q174306"
     },
     {
@@ -3056,7 +3041,7 @@
     },
     {
         "query_id": "2936_611",
-        "wiki_title": "Iba",
+        "wiki_title": "Iba, Zambales",
         "entity_id": "Q56566"
     },
     {
@@ -3091,7 +3076,7 @@
     },
     {
         "query_id": "2936_618",
-        "wiki_title": "Shetland Islands",
+        "wiki_title": "Shetland",
         "entity_id": "Q47134"
     },
     {
@@ -3111,7 +3096,7 @@
     },
     {
         "query_id": "2936_622",
-        "wiki_title": "Brussels Capital Region",
+        "wiki_title": "Brussels",
         "entity_id": "Q240"
     },
     {
@@ -3176,7 +3161,7 @@
     },
     {
         "query_id": "2936_635",
-        "wiki_title": "Cork",
+        "wiki_title": "Cork (city)",
         "entity_id": "Q36647"
     },
     {

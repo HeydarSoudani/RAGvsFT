@@ -386,7 +386,7 @@ def calculated_accuracy(objects):
 def icl_results(split_points):
     data_per_relation = {}
     accuracies = {}    
-    data_dir = "component0_preprocessing/generated_data/popQA_EQformat/results"
+    data_dir = "component0_preprocessing/generated_data/popQA_costomized/results"
     
     # =======================
     # === For FlanT5-small ==
@@ -467,14 +467,24 @@ def icl_results(split_points):
     #     # {"title": "FT_IdealRAG_extra", "filename": "all.flan-t5-large_peft_v21.af_extra_rag_ideal_peft_results.jsonl"}
     # ] 
     
-        # =======================
+    # =======================
     # === For FlanT5-xl ==
-    model_name = "FlanT5-xl"
+    # model_name = "FlanT5-xl"
+    # filenames = [
+    #     {"title": "NoFT_NoRAG", "filename": "all.google.bf_norag_full_results.jsonl"},    
+    #     {"title": "NoFT_IdealRAG", "filename": "all.google.bf_rag_ideal_full_results.jsonl"},
+    #     {"title": "FT_NoRAG", "filename": "all.flan-t5-xl_peft_v7.af_norag_peft_results.jsonl"},    
+    #     {"title": "FT_IdealRAG", "filename": "all.flan-t5-xl_peft_v7.af_rag_ideal_peft_results.jsonl"},  
+    # ]
+    
+    # =======================
+    # === For FlanT5-xxl ==
+    model_name = "FlanT5-xxl"
     filenames = [
-        {"title": "NoFT_NoRAG", "filename": "all.google.bf_norag_full_results.jsonl"},    
-        {"title": "NoFT_IdealRAG", "filename": "all.google.bf_rag_ideal_full_results.jsonl"},
-        {"title": "FT_NoRAG", "filename": "all.flan-t5-xl_peft_v7.af_norag_peft_results.jsonl"},    
-        {"title": "FT_IdealRAG", "filename": "all.flan-t5-xl_peft_v7.af_rag_ideal_peft_results.jsonl"},  
+        {"title": "NoFT_NoRAG", "filename": "all.flan-t5-xxl.bf_norag_full_results.jsonl"},    
+        {"title": "NoFT_IdealRAG", "filename": "all.flan-t5-xxl.bf_rag_ideal_full_results.jsonl"},
+        {"title": "FT_NoRAG", "filename": "all.flan-t5-xxl_peft_v7.af_norag_peft_results.jsonl"},    
+        {"title": "FT_IdealRAG", "filename": "all.flan-t5-xxl_peft_v7.af_rag_ideal_peft_results.jsonl"},  
     ]
     
     # # =======================

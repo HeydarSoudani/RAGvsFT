@@ -885,14 +885,6 @@
         "pageviews": "3085"
     },
     {
-        "query_id": "22_88",
-        "question": "What is the name of Li Qianxin's father?",
-        "answers": [
-            "Li Zhanshu"
-        ],
-        "pageviews": "179"
-    },
-    {
         "query_id": "22_89",
         "question": "Who is Peter Blegvad's father?",
         "answers": [
@@ -1736,14 +1728,6 @@
             "Anton Pichler"
         ],
         "pageviews": "73"
-    },
-    {
-        "query_id": "22_182",
-        "question": "What is the name of Katie Owen's father?",
-        "answers": [
-            "Jonny Owen"
-        ],
-        "pageviews": "1638"
     },
     {
         "query_id": "22_183",
