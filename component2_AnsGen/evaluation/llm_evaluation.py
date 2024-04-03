@@ -202,55 +202,51 @@ def main(args):
     ### === Parameters per model
     # 1) Llama2 & tiny_llama & Mistral
     if args.llm_model_name in ["llama2", "tiny_llama", "mistral"]:
-        prompt_template_w_context = """<s>
-            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+        prompt_template_w_context = """
+            <s>You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             [INST]\n
             Context: {context}\n
             Question: {question}\n
             [/INST]"""
-        prompt_template_wo_context = """<s>\n
-            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+        prompt_template_wo_context = """
+            <s>You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             [INST]\n
             Question: {question}\n
             [/INST]"""
 
     # 2) Zephyr
     elif args.llm_model_name == "zephyr":
-        prompt_template_w_context = """<|system|>\n
-            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+        prompt_template_w_context = """
+            <|system|>You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             <|user|>\n 
             Context: {context}\n
             Question: {question}\n
             <|assistant|>\n""" 
 
-        prompt_template_wo_context = """<|system|>\n
-            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+        prompt_template_wo_context = """
+            <|system|>You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             <|user|>\n 
             Question: {question}\n
             <|assistant|>\n""" 
     
     # 3) MiniCPM
     elif args.llm_model_name == "MiniCPM":
-        prompt_template_w_context = """<User>
-            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-            \n
+        prompt_template_w_context = """
+            <User> You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             Context: {context}\n
             Question: {question}\n
             <AI>"""
-        prompt_template_wo_context = """<User>
-            You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
+        prompt_template_wo_context = """
+            <User> You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             Question: {question}\n
             <AI>"""
     
     # 4) FlanT5 family
     elif args.llm_model_name == "flant5":
-        prompt_template_w_context = """
-        Context: {context}
+        prompt_template_w_context = """Context: {context}
         Based on the provided context, answer the question: {question}
         """
-        prompt_template_wo_context = """
-        Answer the question: {question}
-        """
+        prompt_template_wo_context = """Answer the question: {question}"""
         
     
     logging.info("Inferencing ...")
