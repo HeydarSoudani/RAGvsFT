@@ -172,8 +172,8 @@ def load_model(args):
 def main(args):
     
     # == Create data & output dir ===========================
-    args.data_dir = "RAGvsFT/component0_preprocessing/generated_data/{}_costomized".format(args.dataset_name)
-    args.output_result_dir = "RAGvsFT/component0_preprocessing/generated_data/{}_costomized".format(args.dataset_name)
+    args.data_dir = "component0_preprocessing/generated_data/{}_costomized".format(args.dataset_name)
+    args.output_result_dir = "component0_preprocessing/generated_data/{}_costomized".format(args.dataset_name)
     
     # == Create results dir and file ========================
     out_results_dir = f"{args.output_result_dir}/results"
