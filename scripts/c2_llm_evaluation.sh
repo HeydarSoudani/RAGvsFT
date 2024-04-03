@@ -28,7 +28,7 @@ srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
 
 
 # Model name: [
-    # flant5: 
+    # flant5: "google/flan-t5-xxl" [sm, bs, lg, xl, xxl]
     # llama2: "meta-llama/Llama-2-7b-chat-hf"
     # mistral: "mistralai/Mistral-7B-Instruct-v0.1"
     # zephyr: "HuggingFaceH4/zephyr-7b-beta"
