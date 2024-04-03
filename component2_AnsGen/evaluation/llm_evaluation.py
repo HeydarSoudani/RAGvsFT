@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import torch
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModelForSeq2SeqLM
 from transformers import pipeline
 from peft import PeftConfig, PeftModel
 import argparse, os, json
@@ -21,10 +21,8 @@ os.environ["WANDB_MODE"] = "offline"
 
 print("Available GPUs:", torch.cuda.device_count())
 device = 'cuda:0'
-dataset_name = 'popQA' # [TQA, popQA, EQ]
 target_relation_ids = 'all'
 subset_percentage = 1.0
-num_relations = 1 if dataset_name == "TQA" else 15
 
 
 def set_seed(seed):
@@ -95,20 +93,18 @@ def load_relations_data(args):
     return test_relation_ids, test_files, relation_files
 
 def load_dataset(test_files):
-    if dataset_name in ['popQA', 'EQ']:        
-        test_data = []
-        # test_data = load_json_file(test_files['test'])
-        for file in test_files['test']:
-            relation_id = file.split('/')[-1].split('.')[0]
-            data = load_json_file(file)
-            for item in data:
-                item['relation_id'] = relation_id
-            test_data.extend(data) 
-            
-        test_subset_size = int(subset_percentage * len(test_data))
-        subset_test_data = random.sample(test_data, test_subset_size)    
-        test_questions = [(item['query_id'], item['question'], item['pageviews'], item['relation_id']) for item in subset_test_data]
-        test_answers = [item['answers'] for item in subset_test_data]
+    test_data = []
+    for file in test_files['test']:
+        relation_id = file.split('/')[-1].split('.')[0]
+        data = load_json_file(file)
+        for item in data:
+            item['relation_id'] = relation_id
+        test_data.extend(data) 
+        
+    test_subset_size = int(subset_percentage * len(test_data))
+    subset_test_data = random.sample(test_data, test_subset_size)    
+    test_questions = [(item['query_id'], item['question'], item['pageviews'], item['relation_id']) for item in subset_test_data]
+    test_answers = [item['answers'] for item in subset_test_data]
     
     logging.info("Test dataset is loaded.")
     # print("Test dataset is loaded.")
@@ -117,16 +113,24 @@ def load_dataset(test_files):
 def load_model(args):
     if args.with_peft:
         config = PeftConfig.from_pretrained(args.model_name_or_path)
-        base_model = AutoModelForCausalLM.from_pretrained(
-            config.base_model_name_or_path,
-            low_cpu_mem_usage=True,
-            return_dict=True,
-            torch_dtype=torch.float16,
-            device_map={"":0} # Load the entire model on the GPU 0
-        )
+        
+        if args.llm_model_name in ["llama2", "mistral", "zephyr", "tiny_llama", "MiniCPM"]:
+            base_model = AutoModelForCausalLM.from_pretrained(
+                config.base_model_name_or_path,
+                low_cpu_mem_usage=True,
+                return_dict=True,
+                torch_dtype=torch.float16,
+                device_map={"":0} # Load the entire model on the GPU 0
+            )
+        elif args.llm_model_name == "flant5":
+            model = AutoModelForSeq2SeqLM.from_pretrained(
+                config.base_model_name_or_path,
+                load_in_8bit=True,
+                # device_map={"":0}
+            )
+            
         model = PeftModel.from_pretrained(base_model, args.model_name_or_path)
         model = model.merge_and_unload()
-        
         
         tokenizer = AutoTokenizer.from_pretrained(
             config.base_model_name_or_path,
@@ -134,21 +138,29 @@ def load_model(args):
         )
         
     else:
-        model = AutoModelForCausalLM.from_pretrained(
-            args.model_name_or_path,
-            low_cpu_mem_usage=True,
-            return_dict=True,
-            torch_dtype=torch.float16,
-            device_map={"":0}, # Load the entire model on the GPU 0
-            trust_remote_code=True
-        )
+        if args.llm_model_name in ["llama2", "mistral", "zephyr", "tiny_llama", "MiniCPM"]:
+            model = AutoModelForCausalLM.from_pretrained(
+                args.model_name_or_path,
+                low_cpu_mem_usage=True,
+                return_dict=True,
+                torch_dtype=torch.float16,
+                device_map={"":0}, # Load the entire model on the GPU 0
+                trust_remote_code=True
+            )
+        elif args.llm_model_name == "flant5":
+            model = AutoModelForSeq2SeqLM.from_pretrained(
+                args.model_name_or_path,
+                device_map={"": 0}
+                # device_map="auto"
+            )
+            
         tokenizer = AutoTokenizer.from_pretrained(
             args.model_name_or_path,
             trust_remote_code=True)
-        
-    tokenizer.pad_token = tokenizer.eos_token
-    tokenizer.padding_side = "right"
-    
+
+    if args.llm_model_name in ["llama2", "mistral", "zephyr", "tiny_llama", "MiniCPM"]:
+        tokenizer.pad_token = tokenizer.eos_token
+        tokenizer.padding_side = "right"
     if args.llm_model_name == 'llama2':
         tokenizer.add_special_tokens({'pad_token': '[PAD]'})
     
@@ -158,6 +170,10 @@ def load_model(args):
     return model, tokenizer
 
 def main(args):
+    
+    # == Create data & output dir ===========================
+    args.data_dir = "RAGvsFT/component0_preprocessing/generated_data/{}_costomized".format(args.dataset_name)
+    args.output_result_dir = "RAGvsFT/component0_preprocessing/generated_data/{}_costomized".format(args.dataset_name)
     
     # == Create results dir and file ========================
     out_results_dir = f"{args.output_result_dir}/results"
@@ -226,6 +242,17 @@ def main(args):
             Question: {question}\n
             <AI>"""
     
+    # 4) FlanT5 family
+    elif args.llm_model_name == "flant5":
+        prompt_template_w_context = """
+        Context: {context}
+        Based on the provided context, answer the question: {question}
+        """
+        prompt_template_wo_context = """
+        Answer the question: {question}
+        """
+        
+    
     logging.info("Inferencing ...")
     model, tokenizer = load_model(args)
     test_relation_ids, test_files, relation_files = load_relations_data(args)
@@ -244,12 +271,22 @@ def main(args):
     # == Loop over the test questions ========================
     accuracy = []
     max_new_tokens = 790 if args.with_rag else 300
-    pipe = pipeline(
-        task="text-generation",
-        model=model,
-        tokenizer=tokenizer,
-        max_new_tokens = max_new_tokens
-    )
+    
+    if args.llm_model_name in ["llama2", "mistral", "zephyr", "tiny_llama", "MiniCPM"]:
+        pipe = pipeline(
+            task="text-generation",
+            model=model,
+            tokenizer=tokenizer,
+            max_new_tokens = max_new_tokens
+        )
+    elif args.llm_model_name == "flant5":
+        pipe = pipeline( 
+            "text2text-generation", 
+            model=model, 
+            tokenizer=tokenizer,
+            max_new_tokens = max_new_tokens
+        ) 
+        
     
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
@@ -287,6 +324,8 @@ def main(args):
                 pred = result.split("<|assistant|>")[1].strip()
             elif args.llm_model_name == 'MiniCPM':
                 pred = result.split("<AI>")[1].strip()
+            elif args.llm_model_name == 'flant5':
+                pass
             
             is_correct = False
             for pa in test_answers[idx]:
@@ -340,8 +379,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, required=True)
     parser.add_argument("--llm_model_name", type=str, required=True)
-    parser.add_argument("--data_dir", type=str)
-    parser.add_argument("--output_result_dir", type=str)
+    parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--output_file_pre_prefix", type=str)
     parser.add_argument("--with_peft", type=str2bool, default=False)
     parser.add_argument("--with_fs", type=str2bool, default=False)

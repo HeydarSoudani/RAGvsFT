@@ -169,6 +169,13 @@ def load_model(args):
     return model, tokenizer
 
 def main(args):
+    
+    # == Create data & output dir ===========================
+    args.data_dir = "RAGvsFT/component0_preprocessing/generated_data/{}_costomized".format(args.dataset_name)
+    args.output_result_dir = "RAGvsFT/component0_preprocessing/generated_data/{}_costomized".format(args.dataset_name)
+    
+    # == Create results dir and file ========================
+    
     rag_part = "rag" if args.with_rag else "norag"
     peft_part = "peft" if args.with_peft else "full"
     if args.with_rag:
