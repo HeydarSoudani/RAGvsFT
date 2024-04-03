@@ -243,9 +243,7 @@ def main(args):
     
     # 4) FlanT5 family
     elif args.llm_model_name == "flant5":
-        prompt_template_w_context = """Context: {context}
-        Based on the provided context, answer the question: {question}
-        """
+        prompt_template_w_context = """Context: {context} \n Based on the provided context, answer the question: {question}"""
         prompt_template_wo_context = """Answer the question: {question}"""
         
     
