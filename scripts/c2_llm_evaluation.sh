@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=6:00:00
+#SBATCH --time=4:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -17,10 +17,10 @@ module load Python/3.10.4-GCCcore-11.3.0
 # pip install -r $HOME/RAGvsFT/component4_CBQA/requirements.txt
 
 srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
-    --model_name_or_path "google/flan-t5-small" \
+    --model_name_or_path "google/flan-t5-large" \
     --llm_model_name "flant5" \
     --dataset_name "witQA" \
-    --output_file_pre_prefix "sm_bf" \
+    --output_file_pre_prefix "lg_bf" \
     --with_peft False \
     --with_fs False \
     --with_rag False \

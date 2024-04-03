@@ -196,6 +196,7 @@ def main(args):
     
     logging.info(f"""
         Model: {args.model_name_or_path}
+        Dataset: {args.dataset_name}
         PEFT: {args.with_peft}
         RAG: {args.with_rag}
         Few-shot input: {args.with_fs}
