@@ -14,8 +14,8 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 import urllib.request as urllib2
 from urllib.parse import quote
-from lmqg import TransformersQG
-from lmqg.exceptions import AnswerNotFoundError, ExceedMaxLengthError
+# from lmqg import TransformersQG
+# from lmqg.exceptions import AnswerNotFoundError, ExceedMaxLengthError
 from nltk.tokenize import sent_tokenize
 # from datasets import load_dataset
 import numpy as np
@@ -27,104 +27,111 @@ import nltk
 nltk.download('punkt')
 
 ### === Constants =====================  
+dataset_name = 'EQ' # [popQA, witQA, EQ]
+
 # PopQA
-dataset_name = 'popqa'
-tsv_file_path = "data/dataset/popQA/popQA.tsv"
-output_dir = 'component0_preprocessing/generated_data/popQA_costomized'
-relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
-RELATIONS = {
-    "22": "Occupation",
-    "218": "Place of birth",
-    "91": "Genre",
-    "257": "Father",
-    "182": "Country",
-    "164": "Producer",
-    "526": "Director",
-    "97": "Capital of",
-    "533": "Screenwriter",
-    "639": "Composer",
-    "472": "Color",
-    "106": "Religion",
-    "560": "Sport",
-    "484": "Author",
-    "292": "Mother",
-    "422": "Capital"
-}
+if dataset_name == 'popQA':
+    tsv_file_path = "data/dataset/popQA/popQA.tsv"
+    split_points = [2, 3, 4, 5]
+    num_relations = 16
+    relation_ids = relation_ids = ['22', '91', '97', '106', '164', '182', '218', '257', '292', '422', '472', '484', '526', '533', '560', '639']
+    RELATIONS = {
+        '22': 'Occupation',
+        '91': 'Genre',
+        '97': 'Capital of',
+        '106': 'Religion',
+        '164': 'Producer',
+        '182': 'Country',
+        '218': 'Place of birth',
+        '257': 'Father',
+        '292': 'Mother',
+        '422': 'Capital',
+        '472': 'Color',
+        '484': 'Author',
+        '526': 'Director',
+        '533': 'Screenwriter',
+        '560': 'Sport',
+        '639': 'Composer'
+    }
 
 # WitQA
-dataset_name = 'witqa'
-tsv_file_path = "data/dataset/WitQA/witqa.tsv"
-output_dir = 'component0_preprocessing/generated_data/witQA_costomized'
-relation_ids = ['58', '2936', '17', '1376', '674', '50', '22', '1431', '123', '1038', '3301', '140', '36', '136', '86', '69', '1433', '4647', '25', '452', '2012', '106', '27', '184', '1050', '162', '149', '641', '57', '462', '344', '19']
-RELATIONS = {
-    "58": "screenwriter",
-    "2936": "language used",
-    "17": "country",
-    "1376": "capital of",
-    "674": "characters",
-    "50": "author",
-    "22": "father",
-    "1431": "executive producer",
-    "123": "publisher",
-    "1038": "relative",
-    "3301": "broadcast by",
-    "140": "religion",
-    "36": "capital",
-    "136": "genre",
-    "86": "composer",
-    "69": "educated at",
-    "1433": "published in",
-    "4647": "location of first performance",
-    "25": "mother",
-    "452": "industry",
-    "2012": "cuisine",
-    "106": "occupation",
-    "27": "country of citizenship",
-    "184": "doctoral advisor",
-    "1050": "medical condition",
-    "162": "producer",
-    "149": "architectural style",
-    "641": "sport",
-    "57": "director",
-    "462": "color",
-    "344": "director of photography",
-    "19": "place of birth"
-}
+elif dataset_name == 'witQA':
+    tsv_file_path = "data/dataset/WitQA/witqa.tsv"
+    num_relations = 32
+    relation_ids = ['17', '19', '22', '25', '27', '36', '50', '57', '58', '69', '86', '106', '123', '136', '140', '149', '162', '184', '344', '452', '462', '641', '674', '1038', '1050', '1376', '1431', '1433', '2012', '2936', '3301', '4647']
+    split_points = [2, 3, 4, 5]
+    RELATIONS = {
+        '17': 'country',
+        '19': 'place of birth',
+        '22': 'father',
+        '25': 'mother',
+        '27': 'country of citizenship',
+        '36': 'capital',
+        '50': 'author',
+        '57': 'director',
+        '58': 'screenwriter',
+        '69': 'educated at',
+        '86': 'composer',
+        '106': 'occupation',
+        '123': 'publisher',
+        '136': 'genre',
+        '140': 'religion',
+        '149': 'architectural style',
+        '162': 'producer',
+        '184': 'doctoral advisor',
+        '344': 'director of photography',
+        '452': 'industry',
+        '462': 'color',
+        '641': 'sport',
+        '674': 'characters',
+        '1038': 'relative',
+        '1050': 'medical condition',
+        '1376': 'capital of',
+        '1431': 'executive producer',
+        '1433': 'published in',
+        '2012': 'cuisine',
+        '2936': 'language used',
+        '3301': 'broadcast by',
+        '4647': 'location of first performance'
+    }
 
 # EQ
-dataset_name = 'eq'
-sub_type = 'test'
-data_evidence_dir = "data/dataset/entity_questions_dataset/data_evidence"
-output_dir = 'component0_preprocessing/generated_data/EQ_costomized'
-relation_ids = ['17', '19', '20', '26', '36', '40', '50', '69', '106', '112', '127', '131', '136', '159', '170', '175', '176', '264', '276', '407', '413', '495', '740', '800']
-RELATIONS = {
-  "36": "capital",
-  "407": "language written in",
-  "26": "spouse",
-  "159": "headquarters",
-  "276": "location",
-  "40": "child",
-  "176": "producer company",
-  "20": "death place",
-  "112": "founder",
-  "127": "owner",
-  "19": "birth place",
-  "740": "founding place",
-  "413": "fame reason",
-  "800": "position played",
-  "69": "education place",
-  "50": "author",
-  "170": "creator",
-  "106": "occupation",
-  "131": "location",
-  "17": "country located in",
-  "175": "performer",
-  "136": "music genre",
-  "264": "music label",
-  "495": "creation country"
-}
+elif dataset_name == 'EQ':
+    sub_type = 'test'
+    data_evidence_dir = "data/dataset/entity_questions_dataset/data_evidence"
+    num_relations = 25
+    relation_ids = ['17', '19', '20', '26', '30', '36', '40', '50', '69', '106', '112', '127', '131', '136', '159', '170', '175', '176', '264', '276', '407', '413', '495', '740', '800']
+    split_points = [3, 4, 5, 6]
+    RELATIONS = {
+        '17': 'country located in',
+        '19': 'birth place',
+        '20': 'death place',
+        '26': 'spouse',
+        '30': 'continent',
+        '36': 'capital',
+        '40': 'child',
+        '50': 'author',
+        '69': 'education place',
+        '106': 'occupation',
+        '112': 'founder',
+        '127': 'owner',
+        '131': 'location',
+        '136': 'music genre',
+        '159': 'headquarters',
+        '170': 'creator',
+        '175': 'performer',
+        '176': 'producer company',
+        '264': 'music label',
+        '276': 'location',
+        '407': 'language written in',
+        '413': 'fame reason',
+        '495': 'creation country',
+        '740': 'founding place',
+        '800': 'position played'
+    }
 
 # === Output Directories =====================
+output_dir = 'component0_preprocessing/generated_data/{}_costomized'.format(dataset_name)
 entities_analysis_file = f"{output_dir}/entities_analysis.json"
 # Step 1
 test_dir = f"{output_dir}/test" 
@@ -1015,7 +1022,7 @@ def split_to_buckets(objects, split_points):
     
     for obj in objects:
         # rp = obj['relative_popularity']
-        if obj['pageviews'] != 0:
+        if int(obj['pageviews']) > 0:
             rp = math.log(int(obj['pageviews']), 10)
         else:
             rp = 0
@@ -1042,24 +1049,31 @@ def split_to_buckets(objects, split_points):
     return bucket_data
 
 def plot_bucket_num():
-    split_points = [2, 3, 4, 5] # Good for popqa_pageviews
-    # split_points = [3, 4, 5, 6] # Good for my pageviews
     
-    # if dataset_name == 'popqa':
-    #     fig, axes = plt.subplots(nrows=5, ncols=4, figsize=(12, 8))
-    #     fig.delaxes(axes[0,1])  # Remove the first subplot (top-left)
-    #     fig.delaxes(axes[0,2])  # Remove the third subplot (top-right)
-    #     fig.delaxes(axes[0,3])  # Remove the third subplot (top-right)
-    #     # fig.delaxes(axes[0,4])  # Remove the third subplot (top-right)
+    if dataset_name == 'popQA':
+        ncols = 4
+        nrows = 5
+        fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=(12, 8))
+    elif dataset_name == 'EQ':
+        ncols = 5
+        nrows = 6
+        fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=(12, 8))
+    elif dataset_name == 'witQA':
+        ncols = 5
+        nrows = 8
+        fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=(12, 8))
     
-    # if dataset_name == 'eq':
-    #     fig, axes = plt.subplots(nrows=6, ncols=5, figsize=(12, 8))
-    #     fig.delaxes(axes[0,1])  # Remove the first subplot (top-left)
-    #     fig.delaxes(axes[0,2])  # Remove the third subplot (top-right)
-    #     fig.delaxes(axes[0,3])  # Remove the third subplot (top-right)
-    #     fig.delaxes(axes[0,4])  # Remove the third subplot (top-right)
-    #     # fig.delaxes(axes[0,5])  # Remove the third subplot (top-right)
+    fig.delaxes(axes[0,1])
+    fig.delaxes(axes[0,2])
+    fig.delaxes(axes[0,3])
+    if dataset_name == 'witQA':
+        fig.delaxes(axes[0,4])
+        fig.delaxes(axes[7,2])
+        fig.delaxes(axes[7,3])
+        fig.delaxes(axes[7,4])
     
+    if dataset_name == 'EQ':
+        fig.delaxes(axes[0,4])
     
     all_queries = []
     for idx, filename in enumerate(os.listdir(test_dir)):
@@ -1068,13 +1082,9 @@ def plot_bucket_num():
             logging.info(f"Processing relation {relation_id}, {RELATIONS[relation_id]} ...")
             print(f"Processing relation {relation_id}, {RELATIONS[relation_id]} ...")
             
-            # if dataset_name == 'popqa':
-            #     row = (idx // 4) + 1
-            #     col = idx % 4
-            # if dataset_name == 'eq':
-            #     row = (idx // 5) + 1
-            #     col = idx % 5
-            # ax = axes[row, col]
+            row = (idx // ncols) + 1
+            col = idx % ncols
+            ax = axes[row, col]
                         
             query_file_path = os.path.join(test_dir, filename)
             with open(query_file_path, 'r') as qf:
@@ -1083,58 +1093,59 @@ def plot_bucket_num():
             
             bk_data = split_to_buckets(q_rel_data, split_points)
             counts = [len(bk) for bk in bk_data.values()]
-            # ax.bar(["b1", "b2", "b3", "b4", "b5"], counts)
-            # ax.set_title(RELATIONS[relation_id])
+            ax.bar(["b1", "b2", "b3", "b4", "b5"], counts)
+            ax.set_title(RELATIONS[relation_id])
     
-    # row = 0
-    # col = 0
-    # ax = axes[row, col]
-    # bk_data = split_to_buckets(all_queries, split_points)
-    # counts = [len(bk) for bk in bk_data.values()]
-    # ax.bar(["b1", "b2", "b3", "b4", "b5"], counts)
-    # ax.set_title('all')   
+    row = 0
+    col = 0
+    ax = axes[row, col]
+    bk_data = split_to_buckets(all_queries, split_points)
+    counts = [len(bk) for bk in bk_data.values()]
+    ax.bar(["b1", "b2", "b3", "b4", "b5"], counts)
+    ax.set_title('all')   
     
-    # plt.tight_layout()
-    # plt.show()
+    # plt.title("Popularity (pageviews): {}".format(dataset_name))
+    plt.tight_layout()
+    plt.show()
     
     
     # For only plotting the all queries
-    plt.figure(figsize=(8, 5)) 
-    font = {
-        # 'family': 'serif',
-        'color':  'black',
-        'weight': 'bold',
-        'size': 16,
-    }
+    # plt.figure(figsize=(8, 5)) 
+    # font = {
+    #     # 'family': 'serif',
+    #     'color':  'black',
+    #     'weight': 'bold',
+    #     'size': 16,
+    # }
     
-    bk_data = split_to_buckets(all_queries, split_points)
-    counts = [len(bk) for bk in bk_data.values()]
-    buckets = ["b1", "b2", "b3", "b4", "b5"]
-    buckets = [f'$10^{i}$' for i in range(2, 7)]
+    # bk_data = split_to_buckets(all_queries, split_points)
+    # counts = [len(bk) for bk in bk_data.values()]
+    # buckets = ["b1", "b2", "b3", "b4", "b5"]
+    # buckets = [f'$10^{i}$' for i in range(2, 7)]
     
-    color_left = [0.69, 0.769, 0.871]  # lightsteelblue in RGB
-    color_right = [0.255, 0.412, 0.882]  # royalblue in RGB
-    interpolation_values = np.linspace(0, 1, len(buckets))
-    # colors = [(color_left, color_right, value) for value in interpolation_values]
+    # color_left = [0.69, 0.769, 0.871]  # lightsteelblue in RGB
+    # color_right = [0.255, 0.412, 0.882]  # royalblue in RGB
+    # interpolation_values = np.linspace(0, 1, len(buckets))
+    # # colors = [(color_left, color_right, value) for value in interpolation_values]
     
-    for i, (bucket, value) in enumerate(zip(buckets, counts)):
+    # for i, (bucket, value) in enumerate(zip(buckets, counts)):
         
-        color = (1 - interpolation_values[i]) * np.array(color_left) + \
-            interpolation_values[i] * np.array(color_right)
+    #     color = (1 - interpolation_values[i]) * np.array(color_left) + \
+    #         interpolation_values[i] * np.array(color_right)
         
-        plt.bar(bucket, value, color=color)
-    # plt.bar(buckets, counts, color=colors)
-    plt.xlabel("Popularity (pageviews)", fontdict=font)
-    plt.xticks(fontsize=14)
-    plt.ylabel("# Samples", fontdict=font)
-    plt.yticks(fontsize=14)
+    #     plt.bar(bucket, value, color=color)
+    # # plt.bar(buckets, counts, color=colors)
+    # plt.xlabel("Popularity (pageviews)", fontdict=font)
+    # plt.xticks(fontsize=14)
+    # plt.ylabel("# Samples", fontdict=font)
+    # plt.yticks(fontsize=14)
     
-    plt.yticks(rotation=45)
-    plt.tight_layout()
-    # plt.savefig(f"pop_bk", dpi=1000)
-    plt.savefig('pop_bk.pdf', format='pdf', dpi=1000)
+    # plt.yticks(rotation=45)
+    # plt.tight_layout()
+    # # plt.savefig(f"pop_bk", dpi=1000)
+    # plt.savefig('pop_bk.pdf', format='pdf', dpi=1000)
     
-    plt.show()
+    # plt.show()
            
 def main(args):
     ### ==== Step 1: Creating test & entity files =====================
@@ -1153,19 +1164,19 @@ def main(args):
     # Done: 
     # Doing: 
     # To Do:
-    relation_id = relation_ids[0]
-    print(relation_id)
-    # create_train_and_dev_files_pipeline(args, relation_id=relation_id) # T5-based model
-    create_train_and_dev_files_prompting(relation_id=relation_id)# Zephyr-based model
+    # relation_id = relation_ids[0]
+    # print(relation_id)
+    # # create_train_and_dev_files_pipeline(args, relation_id=relation_id) # T5-based model
+    # create_train_and_dev_files_prompting(relation_id=relation_id)# Zephyr-based model
     
     ### ==== Plotting the distribution of the number of queries in each bucket
-    # plot_bucket_num()
+    plot_bucket_num()
     
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--qg_model", type=str, required=True)
-    parser.add_argument("--ae_model", type=str, required=True)
+    # parser.add_argument("--qg_model", type=str, required=True)
+    # parser.add_argument("--ae_model", type=str, required=True)
     
     args = parser.parse_args()
     main(args)
