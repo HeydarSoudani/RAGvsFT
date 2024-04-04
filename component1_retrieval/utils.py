@@ -10,7 +10,7 @@ def split_to_buckets(objects, split_points):
     
     for obj in objects:
         # rp = obj['relative_popularity']
-        if obj['pageviews'] > 0:
+        if int(obj['pageviews']) > 0:
             rp = math.log(int(obj['pageviews']), 10)
         else:
             rp = 0
