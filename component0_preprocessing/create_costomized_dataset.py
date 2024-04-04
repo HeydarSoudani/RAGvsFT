@@ -27,7 +27,7 @@ import nltk
 nltk.download('punkt')
 
 ### === Constants =====================  
-dataset_name = 'EQ' # [popQA, witQA, EQ]
+dataset_name = 'witQA' # [popQA, witQA, EQ]
 
 # PopQA
 if dataset_name == 'popQA':
@@ -1163,20 +1163,20 @@ def main(args):
     # Done: 
     # Doing: 
     # To Do:
-    idx = 2
+    idx = 1
     relation_id = relation_ids[idx]
     print("Dataset: {}, Idx: {}, Relation Id: {}".format(dataset_name, idx, relation_id))
     # create_train_and_dev_files_pipeline(args, relation_id=relation_id) # T5-based model
     create_train_and_dev_files_prompting(relation_id=relation_id)# Zephyr-based model
     
     ### ==== Plotting the distribution of the number of queries in each bucket
-    plot_bucket_num()
+    # plot_bucket_num()
     
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    # parser.add_argument("--qg_model", type=str, required=True)
-    # parser.add_argument("--ae_model", type=str, required=True)
+    parser.add_argument("--qg_model", type=str, required=True)
+    parser.add_argument("--ae_model", type=str, required=True)
     
     args = parser.parse_args()
     main(args)
