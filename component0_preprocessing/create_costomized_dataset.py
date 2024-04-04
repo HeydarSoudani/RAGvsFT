@@ -1163,7 +1163,7 @@ def main(args):
     # Done: 
     # Doing: 
     # To Do:
-    idx = 1
+    idx = 11
     relation_id = relation_ids[idx]
     print("Dataset: {}, Idx: {}, Relation Id: {}".format(dataset_name, idx, relation_id))
     # create_train_and_dev_files_pipeline(args, relation_id=relation_id) # T5-based model
