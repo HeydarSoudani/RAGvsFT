@@ -17,7 +17,8 @@ module load Python/3.10.4-GCCcore-11.3.0
 pip install -r $HOME/RAGvsFT/component1_retrieval/requirements.txt
 
 srun $HOME/RAGvsFT/component1_retrieval/dpr/evaluation.py \
-    --model "$HOME/RAGvsFT/component1_retrieval/dpr/models/ft_dpr_10e_v2" \
+    --model "msmarco-distilbert-base-v3" \
+    --dataset_name "popQA" \
     --data_path "$HOME/RAGvsFT/component1_retrieval/data/popqa_religion" \
     --output_results_dir "$HOME/RAGvsFT/component1_retrieval/results/religion" \
     --output_results_filename "dpr_ft_eval.tsv" \

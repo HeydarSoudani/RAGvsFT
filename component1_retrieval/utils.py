@@ -168,7 +168,13 @@ def save_evaluation_files_v1(retriever, results, args):
 
 def save_evaluation_files_v2(retriever, results, args):
     
-    split_points = [2, 3, 4, 5] # Good for my pageviews
+    if args.dataset_name == 'popQA':
+        split_points = [2, 3, 4, 5]
+    elif args.dataset_name == 'witQA':
+        split_points = [2, 3, 4, 5]
+    elif args.dataset_name == 'EQ':
+        split_points = [3, 4, 5, 6]
+    
     k_values = [1, 3, 5]
     queries_filename_path = f"{args.data_path}/test"
     qrels_filename_dir = f"{args.data_path}/qrels"
