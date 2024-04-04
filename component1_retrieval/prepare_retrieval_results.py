@@ -4,7 +4,7 @@ import argparse
 
 def main(args):
     dataset_name = "witQA" # popQA, EQ, witQA
-    retrieval_method = 'contriever' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
+    retrieval_method = 'rerank' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
     dataset_dir = f"component1_retrieval/data/{dataset_name}"
     output_dir = f"component0_preprocessing/generated_data/{dataset_name}_costomized/retrieved/{retrieval_method}"
     os.makedirs(output_dir, exist_ok=True)
@@ -17,7 +17,6 @@ def main(args):
         ret_qrels_file = f"component1_retrieval/data/{dataset_name}/qrels/test.tsv"
     else:
         ret_qrels_file = f"component1_retrieval/results/{dataset_name}/{retrieval_method}-qrels.tsv"
-    
     
     def get_corpus():
         corpus = {}
