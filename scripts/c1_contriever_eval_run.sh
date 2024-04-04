@@ -18,6 +18,7 @@ pip install -r $HOME/RAGvsFT/component1_retrieval/requirements.txt
 
 srun $HOME/RAGvsFT/component1_retrieval/contriever/evaluation.py \
     --model "facebook/contriever-msmarco" \
+    --dataset_name "popQA" \
     --data_path "$HOME/RAGvsFT/component1_retrieval/data/popqa_religion" \
     --output_results_dir "$HOME/RAGvsFT/component1_retrieval/results/religion" \
     --output_results_filename "contriever_eval.tsv" \
