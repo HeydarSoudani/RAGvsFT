@@ -3,15 +3,20 @@ import argparse
 
 
 def main(args):
-    retrieval_method = 'rerank' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
-    dataset_dir = "component1_retrieval/data/popqa"
-    output_dir = f"component0_preprocessing/generated_data/popQA_EQformat/retrieved/{retrieval_method}"
+    dataset_name = "witQA" # popQA, EQ, witQA
+    retrieval_method = 'ideal' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
+    dataset_dir = f"component1_retrieval/data/{dataset_name}"
+    output_dir = f"component0_preprocessing/generated_data/{dataset_name}_costomized/retrieved/{retrieval_method}"
     os.makedirs(output_dir, exist_ok=True)
     
     query_dir = f"{dataset_dir}/test"
     corpus_file = f"{dataset_dir}/corpus.jsonl"
     gt_qrels_dir = f"{dataset_dir}/qrels"
-    ret_qrels_file = f"component1_retrieval/results/{retrieval_method}-qrels.tsv"
+    
+    if retrieval_method == 'ideal':
+        ret_qrels_file = f"component1_retrieval/data/{dataset_name}/qrels/test.tsv"
+    else:
+        ret_qrels_file = f"component1_retrieval/results/{dataset_name}/{retrieval_method}-qrels.tsv"
     
     
     def get_corpus():
@@ -42,10 +47,9 @@ def main(args):
     
     corpus = get_corpus()
     
-    with open(ret_qrels_file, 'r') as ret_q_file:
-        tsv_reader = csv.reader(ret_q_file, delimiter='\t')
-        
+    if retrieval_method == 'ideal':
         for idx, filename in enumerate(os.listdir(query_dir)):
+
             if filename.endswith('.json'):
                 relation_id = filename.split('.')[0]
                 queries = get_queries(relation_id)
@@ -57,31 +61,62 @@ def main(args):
                     for item in queries:
                         query_id = item["query_id"]
                         question = item["question"]
+                        doc_id = list(gt_qrels[query_id].keys())[0]
+                        context = corpus.get(doc_id, "No context found")
                         
-                        for row in tsv_reader:
-                            ret_query_id, ret_doc_id = row[0], row[1]
-                            if query_id == ret_query_id:
-                                context = corpus.get(ret_doc_id, "No context found")
-                                
-                                # === For hasanswer ====
-                                hasanswer = False
-                                if query_id in gt_qrels:
-                                    if ret_doc_id in gt_qrels[query_id]:
-                                        if gt_qrels[query_id][ret_doc_id] == 1:
-                                            hasanswer = True
-                                # ======================
-                                
-                                combined_obj = {
-                                    "id": ret_query_id,
-                                    "question": question,
-                                    "ctxs": [{
-                                        "id": ret_doc_id,
-                                        "text": context,
-                                        "hasanswer": hasanswer
-                                    }],
-                                }
-                                ofile.write(json.dumps(combined_obj) + "\n")
-                                break
+                        # ======================            
+                        combined_obj = {
+                            "id": query_id,
+                            "question": question,
+                            "ctxs": [{
+                                "id": doc_id,
+                                "text": context,
+                                "hasanswer": True
+                            }],
+                        }
+                        ofile.write(json.dumps(combined_obj) + "\n")
+    
+    else:
+        with open(ret_qrels_file, 'r') as ret_q_file:
+            tsv_reader = csv.reader(ret_q_file, delimiter='\t')
+            
+            for idx, filename in enumerate(os.listdir(query_dir)):
+                if filename.endswith('.json'):
+                    relation_id = filename.split('.')[0]
+                    queries = get_queries(relation_id)
+                    gt_qrels = get_gt_qrels(relation_id)
+                    
+                    output_file = f"{output_dir}/{relation_id}.{retrieval_method}.ret_results.jsonl"
+                    with open(output_file, 'w') as ofile:
+                        
+                        for item in queries:
+                            query_id = item["query_id"]
+                            question = item["question"]
+                            
+                            for row in tsv_reader:
+                                ret_query_id, ret_doc_id = row[0], row[1]
+                                if query_id == ret_query_id:
+                                    context = corpus.get(ret_doc_id, "No context found")
+                                    
+                                    # === For hasanswer ====
+                                    hasanswer = False
+                                    if query_id in gt_qrels:
+                                        if ret_doc_id in gt_qrels[query_id]:
+                                            if gt_qrels[query_id][ret_doc_id] == 1:
+                                                hasanswer = True
+                                    # ======================
+                                    
+                                    combined_obj = {
+                                        "id": ret_query_id,
+                                        "question": question,
+                                        "ctxs": [{
+                                            "id": ret_doc_id,
+                                            "text": context,
+                                            "hasanswer": hasanswer
+                                        }],
+                                    }
+                                    ofile.write(json.dumps(combined_obj) + "\n")
+                                    break
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
