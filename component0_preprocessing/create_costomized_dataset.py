@@ -14,10 +14,10 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 import urllib.request as urllib2
 from urllib.parse import quote
-# from lmqg import TransformersQG
-# from lmqg.exceptions import AnswerNotFoundError, ExceedMaxLengthError
+from lmqg import TransformersQG
+from lmqg.exceptions import AnswerNotFoundError, ExceedMaxLengthError
 from nltk.tokenize import sent_tokenize
-# from datasets import load_dataset
+from datasets import load_dataset
 import numpy as np
 import requests
 import wikipediaapi
