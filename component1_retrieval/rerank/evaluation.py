@@ -57,9 +57,7 @@ def main(args):
     #### Reranking top-100 docs using Dense Retriever model 
     model = DRES(models.SentenceBERT(args.dense_model), batch_size=128, device=device)
     dense_retriever = EvaluateRetrieval(model, score_function="dot", k_values=[1,5,10,100])
-    print('a')
     rerank_results = dense_retriever.rerank(corpus, queries, bm25_results, top_k=100)
-    print('b')
     
     if not os.path.exists(args.output_results_dir):
         os.makedirs(args.output_results_dir)
@@ -72,6 +70,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--dense_model", required=True)
+    parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--data_path", type=str)
     parser.add_argument("--bm25_results_path", type=str)
     parser.add_argument("--output_results_dir", type=str)
