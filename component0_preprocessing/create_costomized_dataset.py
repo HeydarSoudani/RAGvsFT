@@ -943,11 +943,10 @@ def create_train_and_dev_files_prompting(relation_id):
         
         all_qas = []
         qrels_train = []
-        # for item in tqdm(data, desc=f"Processing {relation_id} ..."):
-        for idx, item in enumerate(data):
-            
-            if idx == 5:
-                break
+        for item in tqdm(data, desc=f"Processing {relation_id} ..."):
+        # for idx, item in enumerate(data):
+            # if idx == 5:
+                # break
             
             context = item['content']
             doc_id = item['doc_id']
@@ -1164,10 +1163,11 @@ def main(args):
     # Done: 
     # Doing: 
     # To Do:
-    # relation_id = relation_ids[0]
-    # print(relation_id)
-    # # create_train_and_dev_files_pipeline(args, relation_id=relation_id) # T5-based model
-    # create_train_and_dev_files_prompting(relation_id=relation_id)# Zephyr-based model
+    idx = 2
+    relation_id = relation_ids[idx]
+    print("Dataset: {}, Idx: {}, Relation Id: {}".format(dataset_name, idx, relation_id))
+    # create_train_and_dev_files_pipeline(args, relation_id=relation_id) # T5-based model
+    create_train_and_dev_files_prompting(relation_id=relation_id)# Zephyr-based model
     
     ### ==== Plotting the distribution of the number of queries in each bucket
     plot_bucket_num()
