@@ -164,7 +164,7 @@ def retrieval_results_bk():
     # file_path = 'component1_retrieval/results/wbk_bm25_eval.tsv'
     # file_path =  'component1_retrieval/results/wbk_noft_dpr_eval.tsv'
     # file_path =  'component1_retrieval/results/wbk_contriever_eval.tsv'
-    file_path =  'component1_retrieval/results/wbk_rerank_eval.tsv'
+    file_path =  'component1_retrieval/results/popQA/wbk_rerank_eval.tsv'
     
     for idx, relation in enumerate(relations):
             
@@ -698,7 +698,7 @@ def icl_results(split_points):
 
 if __name__ == "__main__":
     # retrieval_results_nobk()
-    # retrieval_results_bk()
+    retrieval_results_bk()
     # retrieval_results_bk_all_models()
     # icl_obqa_results_bk()
     # retrieval_results_per_relation()
@@ -707,9 +707,8 @@ if __name__ == "__main__":
     
     # split_points = [0.5, 1, 2, 3]
     # split_points = [0.25, 0.4, 0.6, 2]
-    split_points = [2, 3, 4, 5]
-    
-    plot_bucket_num(split_points)
+    # split_points = [2, 3, 4, 5]
+    # plot_bucket_num(split_points)
     
     # icl_results(split_points)
     
