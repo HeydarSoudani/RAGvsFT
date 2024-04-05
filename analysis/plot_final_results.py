@@ -14,58 +14,58 @@ relations = [
     'capital', 'capital of', 'color', 'sport'
 ]
 
-# RELATIONS = {
-#     "22": "Occupation",
-#     "218": "Place of birth",
-#     "91": "Genre",
-#     "257": "Father",
-#     "182": "Country",
-#     "164": "Producer",
-#     "526": "Director",
-#     "97": "Capital of",
-#     "533": "Screenwriter",
-#     "639": "Composer",
-#     "472": "Color",
-#     "106": "Religion",
-#     "560": "Sport",
-#     "484": "Author",
-#     "292": "Mother",
-#     "422": "Capital"
-# }
 RELATIONS = {
-    '17': 'country',
-    '19': 'place of birth',
-    '22': 'father',
-    '25': 'mother',
-    '27': 'country of ci.', # country of citizenship
-    '36': 'capital',
-    '50': 'author',
-    '57': 'director',
-    '58': 'screenwriter',
-    '69': 'educated at',
-    '86': 'composer',
-    '106': 'occupation',
-    '123': 'publisher',
-    '136': 'genre',
-    '140': 'religion',
-    '149': 'architectural st.', # architectural style
-    '162': 'producer',
-    '184': 'doctoral adv.', # doctoral advisor
-    '344': 'director of ph.', # director of photography
-    '452': 'industry',
-    '462': 'color',
-    '641': 'sport',
-    '674': 'characters',
-    '1038': 'relative',
-    '1050': 'medical cond.', # medical condition
-    '1376': 'capital of',
-    '1431': 'executive prod.', # executive producer
-    '1433': 'published in',
-    '2012': 'cuisine',
-    '2936': 'language used',
-    '3301': 'broadcast by',
-    '4647': 'loc of perf.' # location of first performance
+    "22": "Occupation",
+    "218": "Place of birth",
+    "91": "Genre",
+    "257": "Father",
+    "182": "Country",
+    "164": "Producer",
+    "526": "Director",
+    "97": "Capital of",
+    "533": "Screenwriter",
+    "639": "Composer",
+    "472": "Color",
+    "106": "Religion",
+    "560": "Sport",
+    "484": "Author",
+    "292": "Mother",
+    "422": "Capital"
 }
+# RELATIONS = {
+#     '17': 'country',
+#     '19': 'place of birth',
+#     '22': 'father',
+#     '25': 'mother',
+#     '27': 'country of ci.', # country of citizenship
+#     '36': 'capital',
+#     '50': 'author',
+#     '57': 'director',
+#     '58': 'screenwriter',
+#     '69': 'educated at',
+#     '86': 'composer',
+#     '106': 'occupation',
+#     '123': 'publisher',
+#     '136': 'genre',
+#     '140': 'religion',
+#     '149': 'architectural st.', # architectural style
+#     '162': 'producer',
+#     '184': 'doctoral adv.', # doctoral advisor
+#     '344': 'director of ph.', # director of photography
+#     '452': 'industry',
+#     '462': 'color',
+#     '641': 'sport',
+#     '674': 'characters',
+#     '1038': 'relative',
+#     '1050': 'medical cond.', # medical condition
+#     '1376': 'capital of',
+#     '1431': 'executive prod.', # executive producer
+#     '1433': 'published in',
+#     '2012': 'cuisine',
+#     '2936': 'language used',
+#     '3301': 'broadcast by',
+#     '4647': 'loc of perf.' # location of first performance
+# }
 
 # rel_pop_score = {
 #     '257': 0.6138864810588756,
@@ -420,7 +420,7 @@ def calculated_accuracy(objects):
 def icl_results(split_points):
     data_per_relation = {}
     accuracies = {}    
-    data_dir = "component0_preprocessing/generated_data/witQA_costomized/results"
+    data_dir = "component0_preprocessing/generated_data/popQA_costomized/results"
     
     # =======================
     # === For FlanT5-small ==
@@ -523,14 +523,14 @@ def icl_results(split_points):
     
     # =======================
     # === For Llama2 ========
-    model_name = "Llama2"
-    filenames = [
+    # model_name = "Llama2"
+    # filenames = [
         
-        # {"title": "NoFT_NoRAG", "filename": "all.meta-llama.bf_norag_full_results.jsonl"},    
-        {"title": "NoFT_IdealRAG", "filename": "witQA_llama2_bf_rag_ideal_full_results.jsonl"},
-        # {"title": "FT_NoRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v6.af_norag_peft_results.jsonl"},    
-        # {"title": "FT_IdealRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_rag_ideal_peft_results.jsonl"},  
-    ] 
+    #     # {"title": "NoFT_NoRAG", "filename": "all.meta-llama.bf_norag_full_results.jsonl"},    
+    #     {"title": "NoFT_IdealRAG", "filename": "witQA_llama2_bf_rag_ideal_full_results.jsonl"},
+    #     # {"title": "FT_NoRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v6.af_norag_peft_results.jsonl"},    
+    #     # {"title": "FT_IdealRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_rag_ideal_peft_results.jsonl"},  
+    # ] 
     
     # =======================
     # === For Mistral =======
@@ -545,14 +545,14 @@ def icl_results(split_points):
     
     # =======================
     # === For Mistral =======
-    # model_name = "Zephyr"
-    # filenames = [
+    model_name = "Zephyr"
+    filenames = [
         
-    #     {"title": "NoFT_NoRAG", "filename": "all.HuggingFaceH4.bf_norag_full_results.jsonl"},    
-    #     {"title": "NoFT_IdealRAG", "filename": "all.HuggingFaceH4.bf_rag_ideal_full_results.jsonl"},
-    #     {"title": "FT_NoRAG", "filename": "all.zephyr-7b-beta_peft_v5.af_norag_peft_results.jsonl"},    
-    #     # {"title": "FT_IdealRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_rag_ideal_peft_results.jsonl"},  
-    # ] 
+        # {"title": "NoFT_NoRAG", "filename": "all.HuggingFaceH4.bf_norag_full_results.jsonl"},    
+        {"title": "NoFT_IdealRAG", "filename": "popQA_zephyr_bf_rag_ideal_full_results.jsonl"},
+        # {"title": "FT_NoRAG", "filename": "all.zephyr-7b-beta_peft_v5.af_norag_peft_results.jsonl"},    
+        # {"title": "FT_IdealRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_rag_ideal_peft_results.jsonl"},  
+    ] 
     
     
     print(f"Model: {model_name}")
