@@ -1,0 +1,3278 @@
+[
+    {
+        "query_id": "qa_50_2142",
+        "question": "Who is the author of 'The Captain of K\u00f6penick'?",
+        "answers": [
+            "Carl Zuckmayer."
+        ]
+    },
+    {
+        "query_id": "qa_50_3822",
+        "question": "What is 'Hackers & Painters'?",
+        "answers": [
+            "An essay in the book."
+        ]
+    },
+    {
+        "query_id": "qa_50_3078",
+        "question": "What is the current status of the Diary in terms of being in print?",
+        "answers": [
+            "\"never been out of print\""
+        ]
+    },
+    {
+        "query_id": "qa_50_3675",
+        "question": "Who is Aki in Ceres, Celestial Legend?",
+        "answers": [
+            "A: Aki is the reincarnation of Ceres' former husband in Ceres, Celestial Legend."
+        ]
+    },
+    {
+        "query_id": "qa_50_3090",
+        "question": "What is the name of the book series that Cherry Crush is a part of?",
+        "answers": [
+            "Chocolate Box Girls"
+        ]
+    },
+    {
+        "query_id": "qa_50_4707",
+        "question": "When did Jean-Jacques Rousseau write 'The Reveries of the Solitary Walker'?",
+        "answers": [
+            "Between 1776 and 1778"
+        ]
+    },
+    {
+        "query_id": "qa_50_950",
+        "question": "What comic strip series is Jommeke?",
+        "answers": [
+            "Jommeke, a Belgian series by Jef Nys with an 11-year-old boy protagonist."
+        ]
+    },
+    {
+        "query_id": "qa_50_3440",
+        "question": "When did governance of the area covered in the book Gold Dust and Ashes change from German to Australian?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_50_720",
+        "question": "How many volumes of the Asterix comic book series does Asterix and the Secret Weapon represent?",
+        "answers": [
+            "29"
+        ]
+    },
+    {
+        "query_id": "qa_50_3135",
+        "question": "What awards was the Common Grounds comic book series nominated for?",
+        "answers": [
+            "Eisner Award (for \"Best Short Story\" and \"Best Anthology\")."
+        ]
+    },
+    {
+        "query_id": "qa_50_177",
+        "question": "In which series does the book 'Stork Naked' belong?",
+        "answers": [
+            "Xanth series"
+        ]
+    },
+    {
+        "query_id": "qa_50_2240",
+        "question": "What company owns Del Rey Books?",
+        "answers": [
+            "Ballantine Books"
+        ]
+    },
+    {
+        "query_id": "qa_50_2594",
+        "question": "What state of affairs does the novel depict?",
+        "answers": [
+            "Stripped of modern comforts; affected by terrorism, epidemics, and peak oil"
+        ]
+    },
+    {
+        "query_id": "qa_50_3597",
+        "question": "What character does Sylvester McCoy portray in 'Prime Time'?",
+        "answers": [
+            "Seventh Doctor"
+        ]
+    },
+    {
+        "query_id": "qa_50_2025",
+        "question": "What organization is associated with the award 'Midas Coffin' published in 1975 was nominated for?",
+        "answers": [
+            "Mystery Writers of America"
+        ]
+    },
+    {
+        "query_id": "qa_50_4175",
+        "question": "When was the entirety of 'Ficciones' in English published by Grove Press?",
+        "answers": [
+            "1962"
+        ]
+    },
+    {
+        "query_id": "qa_50_1755",
+        "question": "What type of sequences does the OEIS contain?",
+        "answers": [
+            "Integers"
+        ]
+    },
+    {
+        "query_id": "qa_50_3468",
+        "question": "What is the title of Ted Bell's 2003 novel published by Atria Books?",
+        "answers": [
+            "Hawke"
+        ]
+    },
+    {
+        "query_id": "qa_50_2661",
+        "question": "What stage is the script for the Malice film adaptation in?",
+        "answers": [
+            "First draft"
+        ]
+    },
+    {
+        "query_id": "qa_50_2330",
+        "question": "When was 'The Premature Burial' published?",
+        "answers": [
+            "Answer: 1844."
+        ]
+    },
+    {
+        "query_id": "qa_50_112",
+        "question": "Where is the game Dragon Age: Origins set?",
+        "answers": [
+            "Ferelden is the setting of the game Dragon Age: Origins."
+        ]
+    },
+    {
+        "query_id": "qa_50_2179",
+        "question": "Which publisher released 'The Illustrated Mum' in 1999?",
+        "answers": [
+            "Transworld"
+        ]
+    },
+    {
+        "query_id": "qa_50_2754",
+        "question": "What music was composed for the radio play Words and Music?",
+        "answers": [
+            "Music was composed especially by John S. Beckett"
+        ]
+    },
+    {
+        "query_id": "qa_50_1646",
+        "question": "In what year was 'Procedures for Underground', a book of poetry by Margaret Atwood, published by Little, Brown and Company?",
+        "answers": [
+            "1970"
+        ]
+    },
+    {
+        "query_id": "qa_50_56",
+        "question": "Who produced the premiere of the play 'Picnic'?",
+        "answers": [
+            "a)"
+        ]
+    },
+    {
+        "query_id": "qa_50_3620",
+        "question": "Who is the author of the bestselling novel '24 Hours' published by Putnam in 2000?",
+        "answers": [
+            "Greg Iles"
+        ]
+    },
+    {
+        "query_id": "qa_50_3095",
+        "question": "What is the title of the collection of short stories by Isaac Babel?",
+        "answers": [
+            "Title: Odessa Stories"
+        ]
+    },
+    {
+        "query_id": "qa_50_1044",
+        "question": "What is the name of the hero in Johnston McCulley's novella 'The Curse of Capistrano'",
+        "answers": [
+            "Hero of 'The Curse of Capistrano'"
+        ]
+    },
+    {
+        "query_id": "qa_50_4469",
+        "question": "What formats is 'Rose Daughter' currently available in?",
+        "answers": [
+            "Digital editions"
+        ]
+    },
+    {
+        "query_id": "qa_50_441",
+        "question": "Which ruler of Tanjore was a contemporary of Abirami Bhattar?",
+        "answers": [
+            "Serfoji I of Tanjore"
+        ]
+    },
+    {
+        "query_id": "qa_50_1342",
+        "question": "What is the title of Harlan Ellison's collection of short stories published in 1968?",
+        "answers": [
+            "Love Ain't Nothing But Sex Misspelled"
+        ]
+    },
+    {
+        "query_id": "qa_50_12",
+        "question": "Who did Marcus Tullius accuse of murdering his slaves in the Pro Tullio speech?",
+        "answers": [
+            "Publius Fabius"
+        ]
+    },
+    {
+        "query_id": "qa_50_4762",
+        "question": "What was America Hurrah's connection to the Vietnam War?",
+        "answers": [
+            "America Hurrah expressed discontent with American involvement in the Vietnam War."
+        ]
+    },
+    {
+        "query_id": "qa_50_795",
+        "question": "Where does the Seagrave family survive in Masterman Ready?",
+        "answers": [
+            "They survive on a desert island"
+        ]
+    },
+    {
+        "query_id": "qa_50_4122",
+        "question": "Who is the author of 'The Demon's Lexicon'?",
+        "answers": [
+            "Sarah Rees Brennan"
+        ]
+    },
+    {
+        "query_id": "qa_50_1604",
+        "question": "Who is the author of 'The Haunted Storm'?",
+        "answers": [
+            "Philip Pullman"
+        ]
+    },
+    {
+        "query_id": "qa_50_1844",
+        "question": "What is the title and author of the science fiction novel Cyteen, published in 1988?",
+        "answers": [
+            "Cyteen, by C. J. Cherryh."
+        ]
+    },
+    {
+        "query_id": "qa_50_2664",
+        "question": "Where does the novel 'Destiny, or The Attraction of Affinities' by John David Morley take place?",
+        "answers": [
+            "Berlin, Munich, Frankfurt, Paris (Destiny, or The Attraction of Affinities by John David Morley)"
+        ]
+    },
+    {
+        "query_id": "qa_50_4278",
+        "question": "What is the author's nationality?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_50_173",
+        "question": "What principles in Areopagitica have influenced modern justifications of freedom of speech and expression?",
+        "answers": [
+            "Principles such as the defense of freedom of speech and expression in Areopagitica have influenced modern justifications of that right."
+        ]
+    },
+    {
+        "query_id": "qa_50_3139",
+        "question": "When and where was Heidegger's work 'Die Frage nach der Technik' published?",
+        "answers": [
+            "1954, Vortr\u00e4ge und Aufs\u00e4tze"
+        ]
+    },
+    {
+        "query_id": "qa_50_2097",
+        "question": "How many previously published books are included in the classification system presented in 'Bibliotheca Botanica'?",
+        "answers": [
+            "plus mille"
+        ]
+    },
+    {
+        "query_id": "qa_50_3845",
+        "question": "Who issued Christi Matri?",
+        "answers": [
+            "Pope Paul VI"
+        ]
+    },
+    {
+        "query_id": "qa_50_134",
+        "question": "What is the title of the crime sci-fi thriller novel by Thierry Jonquet published in France in 1984?",
+        "answers": [
+            "Mygale"
+        ]
+    },
+    {
+        "query_id": "qa_50_4705",
+        "question": "What is the title of Graham Hancock's book about the proposed advanced civilization in prehistory?",
+        "answers": [
+            "Fingerprints of the Gods"
+        ]
+    },
+    {
+        "query_id": "qa_50_4857",
+        "question": "Who illustrated Lord, the Japanese manga series?",
+        "answers": [
+            "Ryoichi Ikegami illustrated Lord, the Japanese manga series."
+        ]
+    },
+    {
+        "query_id": "qa_50_3730",
+        "question": "What genre is The World of Poo?",
+        "answers": [
+            "Illustrated children's book"
+        ]
+    },
+    {
+        "query_id": "qa_50_1741",
+        "question": "What are the titles of the two novels that precede and succeed 'The Last Enchantment', Mary Stewart's 1979 fantasy novel about the Arthurian legend, in the quintet?",
+        "answers": [
+            "Preceded: The Hollow Hills, succeeded: The Wicked Day"
+        ]
+    },
+    {
+        "query_id": "qa_50_2687",
+        "question": "What is the title of Brian Cleeve's first published novel?",
+        "answers": [
+            "The Far Hills"
+        ]
+    },
+    {
+        "query_id": "qa_50_1629",
+        "question": "What is the name of the book series featuring Becky's story?",
+        "answers": [
+            "Shopaholic series"
+        ]
+    },
+    {
+        "query_id": "qa_50_1188",
+        "question": "In what publications was this short story originally published?",
+        "answers": [
+            "Genius, III no. 2 and Christmas 1923 supplement to the Prager Presse"
+        ]
+    },
+    {
+        "query_id": "qa_50_1726",
+        "question": "In what year was The Android's Dream published?",
+        "answers": [
+            "2006"
+        ]
+    },
+    {
+        "query_id": "qa_50_4815",
+        "question": "In what time period is the modern world war scenario in Cauldron by Larry Bond? ",
+        "answers": [
+            "1990s."
+        ]
+    },
+    {
+        "query_id": "qa_50_783",
+        "question": "What is the title of the play by Oscar Wilde?",
+        "answers": [
+            "Vera; or, The Nihilists"
+        ]
+    },
+    {
+        "query_id": "qa_50_331",
+        "question": "Who is Edward VI of England in 'The Prince and the Pauper'",
+        "answers": [
+            "Edward VI of England"
+        ]
+    },
+    {
+        "query_id": "qa_50_3674",
+        "question": "Who is Aya Mikage in Ceres, Celestial Legend?",
+        "answers": [
+            "A: Aya Mikage is the reincarnation of Ceres in Ceres, Celestial Legend."
+        ]
+    },
+    {
+        "query_id": "qa_50_2300",
+        "question": "Where is the setting of Marc Acito's novel 'How I Paid for College'?",
+        "answers": [
+            "New Jersey"
+        ]
+    },
+    {
+        "query_id": "qa_50_2769",
+        "question": "Who is the author of the satirical romance novel Smirt: An Urbane Nightmare, which was published in 1934 and is the first volume in his trilogy The Nightmare Has Triplets?",
+        "answers": [
+            "James Branch Cabell"
+        ]
+    },
+    {
+        "query_id": "qa_50_3477",
+        "question": "What is the focus of Deleuze's exploration of Spinoza's philosophy in Spinoza: Practical Philosophy?",
+        "answers": [
+            "Discussions of Ethics and the Tractatus Theologico-Politicus, as well as an explanation of Spinoza's main concepts in dictionary form."
+        ]
+    },
+    {
+        "query_id": "qa_50_1754",
+        "question": "What type of database is the OEIS?",
+        "answers": [
+            "Online"
+        ]
+    },
+    {
+        "query_id": "qa_50_3614",
+        "question": "Who is the author of the science fiction short story 'Fermi and Frost' that was published in Isaac Asimov's Science Fiction Magazine in January 1985 and won the Hugo Award for Best Short Story in 1986? ",
+        "answers": [
+            "Frederik Pohl"
+        ]
+    },
+    {
+        "query_id": "qa_50_2379",
+        "question": "What other forms has the Blackstone Chronicles series been adapted into?",
+        "answers": [
+            "computer game, graphic novel"
+        ]
+    },
+    {
+        "query_id": "qa_50_719",
+        "question": "What is the title of the twenty-ninth volume of the Asterix comic book series?",
+        "answers": [
+            "Asterix and the Secret Weapon"
+        ]
+    },
+    {
+        "query_id": "qa_50_4475",
+        "question": "Just war if declared a crusade and authorized by the papacy",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_50_1996",
+        "question": "What is the Australian biography mentioned in the first sentence?",
+        "answers": [
+            "Narrative account of Sidney Kidman's life"
+        ]
+    },
+    {
+        "query_id": "qa_50_2713",
+        "question": "What format is The Well-Mannered War written in?",
+        "answers": [
+            "original novel"
+        ]
+    },
+    {
+        "query_id": "qa_50_1668",
+        "question": "What nationality was the poet who wrote Sonnet 60?",
+        "answers": [
+            "The poet who wrote Sonnet 60 was English."
+        ]
+    },
+    {
+        "query_id": "qa_50_912",
+        "question": "How long is the movie?",
+        "answers": [
+            "The movie's runtime is A"
+        ]
+    },
+    {
+        "query_id": "qa_50_3145",
+        "question": "What is the title of Jim Butcher's contemporary fantasy series?",
+        "answers": [
+            "Dresden Files"
+        ]
+    },
+    {
+        "query_id": "qa_50_2933",
+        "question": "How many scenes does the play have? ",
+        "answers": [
+            "two scenes"
+        ]
+    },
+    {
+        "query_id": "qa_50_4782",
+        "question": "How was Look Back in Anger received?",
+        "answers": [
+            "Mixed notices/great deal of publicity"
+        ]
+    },
+    {
+        "query_id": "qa_50_1115",
+        "question": "In what competition did 'Wylah Falls' participate?",
+        "answers": [
+            "CBC's inaugural Canada Reads competition"
+        ]
+    },
+    {
+        "query_id": "qa_50_330",
+        "question": "During which time period were some of the short stories in \"A Drunken Dream and Other Stories\" originally published, as written and illustrated by Moto Hagio?",
+        "answers": [
+            "1970-2007"
+        ]
+    },
+    {
+        "query_id": "qa_50_3661",
+        "question": "In what setting does the 1995 novel 'Dragons of Summer Flame' by Margaret Weis and Tracy Hickman take place?",
+        "answers": [
+            "Dragonlance world"
+        ]
+    },
+    {
+        "query_id": "qa_50_1534",
+        "question": "What crime did Piper Kerman commit that resulted in her imprisonment?",
+        "answers": [
+            "Money laundering and drug trafficking"
+        ]
+    },
+    {
+        "query_id": "qa_50_762",
+        "question": "Who is Abb\u00e9 Faria and what role did he play in Dant\u00e8s' imprisonment?",
+        "answers": [
+            "Abb\u00e9 Faria: Prisoner with Dant\u00e8s, revealed enemies' involvement, inspired escape plan (deceased)."
+        ]
+    },
+    {
+        "query_id": "qa_50_1776",
+        "question": "Who is the author of 'The Merry Men and Other Tales and Fables'?",
+        "answers": [
+            "Robert Louis Stevenson"
+        ]
+    },
+    {
+        "query_id": "qa_50_4269",
+        "question": "What is the title of Enid Blyton's popular children's book published in 1946?",
+        "answers": [
+            "The Castle of Adventure"
+        ]
+    },
+    {
+        "query_id": "qa_50_2323",
+        "question": "How many chapters are in 'Negotiating with the Dead: A Writer on Writing'?",
+        "answers": [
+            "6"
+        ]
+    },
+    {
+        "query_id": "qa_50_4678",
+        "question": "Who is the subject of the Fair Youth sequence in Sonnet 92?",
+        "answers": [
+            "The subject of the Fair Youth sequence in Sonnet 92 is a young man."
+        ]
+    },
+    {
+        "query_id": "qa_50_2869",
+        "question": "What technology is involved in 'Cell' by Stephen King?",
+        "answers": [
+            "The global cell phone network."
+        ]
+    },
+    {
+        "query_id": "qa_50_1869",
+        "question": "What is the title of Carson McCullers' 1946 novel?",
+        "answers": [
+            "The Member of the Wedding"
+        ]
+    },
+    {
+        "query_id": "qa_50_1666",
+        "question": "What poem is Sonnet 60?",
+        "answers": [
+            "Sonnet 60 is a poem."
+        ]
+    },
+    {
+        "query_id": "qa_50_643",
+        "question": "What is the title of the children's novel by Julia Sauer?",
+        "answers": [
+            "The Light at Tern Rock"
+        ]
+    },
+    {
+        "query_id": "qa_50_1040",
+        "question": "Fasting and abstinence proportionate to the strength of the individual: FAP",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_50_2185",
+        "question": "Who is the illustrator of 'The Illustrated Mum'?",
+        "answers": [
+            "Nick Sharratt"
+        ]
+    },
+    {
+        "query_id": "qa_50_1640",
+        "question": "Who did Edward Lazarus serve as a clerk for during the October Term 1988?",
+        "answers": [
+            "Harry Blackmun"
+        ]
+    },
+    {
+        "query_id": "qa_50_1601",
+        "question": "What organization is featured in 'The Brethren'",
+        "answers": [
+            "Assassins"
+        ]
+    },
+    {
+        "query_id": "qa_50_4493",
+        "question": "According to Roach, what feeling does she sense in people when they are able to ask explicit questions using certain words during her book tour for Bonk?",
+        "answers": [
+            "I do get the sense that it's kind of liberating for people to be able to just talk freely and ask questions using those words\u2014it's the words themselves\u2014"
+        ]
+    },
+    {
+        "query_id": "qa_50_4205",
+        "question": "How many books did the Catalogue of Women have?",
+        "answers": [
+            "Five books"
+        ]
+    },
+    {
+        "query_id": "qa_50_1449",
+        "question": "Where was Tokko serialized from 2003 to 2004?",
+        "answers": [
+            "Monthly Afternoon mag."
+        ]
+    },
+    {
+        "query_id": "qa_50_3218",
+        "question": "What is the title of the novel by Ian McEwan published in 1997 that follows two strangers after witnessing a deadly accident?",
+        "answers": [
+            "Enduring Love"
+        ]
+    },
+    {
+        "query_id": "qa_50_1032",
+        "question": "What is a BBC Books original novel and which Doctor Who character does it feature?",
+        "answers": [
+            "A BBC Books original novel is a Doctor Who story released by BBC Books. The Eighth Doctor is featured in this novel, called The Adventuress of Henrietta Street."
+        ]
+    },
+    {
+        "query_id": "qa_50_303",
+        "question": "Who is Lady Mechanika?",
+        "answers": [
+            "Lady Mechanika is a steampunk comic character."
+        ]
+    },
+    {
+        "query_id": "qa_50_1183",
+        "question": "What legislation did the Democrats attempt to pass during Barack Obama's first term, as detailed in Do Not Ask What Good We Do?",
+        "answers": [
+            "healthcare reform"
+        ]
+    },
+    {
+        "query_id": "qa_50_1489",
+        "question": "Which publisher released Easy Go in 2013?",
+        "answers": [
+            "Hard Case Crime released Easy Go in 2013."
+        ]
+    },
+    {
+        "query_id": "qa_50_1682",
+        "question": "Who is Rabbi ben Ezra in the poem?",
+        "answers": [
+            "Rabbi ben Ezra is a poem about Rabbi Abraham ibn Ezra, a famous Jewish poet and scholar who lived in the 12th century."
+        ]
+    },
+    {
+        "query_id": "qa_50_1116",
+        "question": "What is the title of the cyberpunk science fiction novel by American writer Walter Jon Williams published in 1987?",
+        "answers": [
+            "Answer: Voice of the Whirlwind"
+        ]
+    },
+    {
+        "query_id": "qa_50_2353",
+        "question": "What ideology does Letty Fox seem to follow in achieving her goals?",
+        "answers": [
+            "borrows from and champions the suppressive ideology of power"
+        ]
+    },
+    {
+        "query_id": "qa_50_4599",
+        "question": "Who is the main character of the novel 'The Rescuers'?",
+        "answers": [
+            "Miss Bianca"
+        ]
+    },
+    {
+        "query_id": "qa_50_2495",
+        "question": "In what year was the film adaptation of 'October Sky' released?",
+        "answers": [
+            "Year: 1999"
+        ]
+    },
+    {
+        "query_id": "qa_50_1107",
+        "question": "What is the title of George Elliott Clarke's long narrative poem?",
+        "answers": [
+            "Wylah Falls"
+        ]
+    },
+    {
+        "query_id": "qa_50_2885",
+        "question": "Who was an unorthodox leader and innovator in target marking techniques among Gibson's successors as commander of 617 Squadron?",
+        "answers": [
+            "Group Captain Leonard Cheshire V.C."
+        ]
+    },
+    {
+        "query_id": "qa_50_2654",
+        "question": "Who does Canetti analyze in Crowds and Power with an implicit critique of Freud and Gustave Le Bon?",
+        "answers": [
+            "Daniel Paul Schreber"
+        ]
+    },
+    {
+        "query_id": "qa_50_816",
+        "question": "What is the title of Simone de Beauvoir's 1970 book about the perception of elders and their experience of aging, which explores the existentialist perspective?",
+        "answers": [
+            "The Coming of Age"
+        ]
+    },
+    {
+        "query_id": "qa_50_2127",
+        "question": "What is The Dybbuk, or Between Two Worlds?",
+        "answers": [
+            "Authored by S. Ansky 1913-16, play depicting possession by malicious spirit."
+        ]
+    },
+    {
+        "query_id": "qa_50_2505",
+        "question": "What series does the book 'The Clue of the Whistling Bagpipes' belong to?",
+        "answers": [
+            "Nancy Drew Mystery Stories series"
+        ]
+    },
+    {
+        "query_id": "qa_50_4485",
+        "question": "Who is the author of the book 'Bonk: The Curious Coupling of Science and Sex' published in 2008?",
+        "answers": [
+            "Mary Roach"
+        ]
+    },
+    {
+        "query_id": "qa_50_1472",
+        "question": "How much money did John Malcolm make in Asia?",
+        "answers": [
+            "Millions"
+        ]
+    },
+    {
+        "query_id": "qa_50_3298",
+        "question": "Who is the author of the book Beyond Language: Adventures in Word and Thought?",
+        "answers": [
+            "Dmitri Borgmann"
+        ]
+    },
+    {
+        "query_id": "qa_50_560",
+        "question": "What compliment was given to Alistair MacLean's depiction of the Arctic environment in his novel 'Night Without End'?",
+        "answers": [
+            "Compliment: excellent depiction"
+        ]
+    },
+    {
+        "query_id": "qa_50_2187",
+        "question": "In which languages have translations of 'The Illustrated Mum' been published?",
+        "answers": [
+            "Finnish, Hungarian, Italian, Spanish, Catalan"
+        ]
+    },
+    {
+        "query_id": "qa_50_1370",
+        "question": "What is the title of Diana Wynne Jones' fantasy novel published in 2010?",
+        "answers": [
+            "Enchanted Glass"
+        ]
+    },
+    {
+        "query_id": "qa_50_40",
+        "question": "How many Inspector Chen novels does Qiu Xiaolong have written by the time 'A Case of Two Cities' was published?",
+        "answers": [
+            "Fourth (in the series)"
+        ]
+    },
+    {
+        "query_id": "qa_50_895",
+        "question": "In what year was \"The Man Who Knew Coolidge\" by Sinclair Lewis published?",
+        "answers": [
+            "1928"
+        ]
+    },
+    {
+        "query_id": "qa_50_1271",
+        "question": "In which collection were all three of Simmons' stories later included?",
+        "answers": [
+            "Prayers to Broken Stones"
+        ]
+    },
+    {
+        "query_id": "qa_50_1194",
+        "question": "What type of literary work is Kid by Simon Armitage?",
+        "answers": [
+            "collection of poems"
+        ]
+    },
+    {
+        "query_id": "qa_50_2828",
+        "question": "When was the Second Folio published?",
+        "answers": [
+            "1632"
+        ]
+    },
+    {
+        "query_id": "qa_50_1733",
+        "question": "Which publisher released the Void Indigo comic book series from 1983 to 1984?",
+        "answers": [
+            "Epic Comics released the Void Indigo comic book series from 1983 to 1984."
+        ]
+    },
+    {
+        "query_id": "qa_50_1008",
+        "question": "Who performed on guitar for the play 'Orfeu da Concei\u00e7\u00e3o'?",
+        "answers": [
+            "Luiz Bonf\u00e1"
+        ]
+    },
+    {
+        "query_id": "qa_50_2113",
+        "question": "what are the dates of the battle of gettysburg depicted in michael shaara's novel 'the killer angels'?",
+        "answers": [
+            "june 29, 1863, through july 3, 1863"
+        ]
+    },
+    {
+        "query_id": "qa_50_2080",
+        "question": "When was the Liezi text compiled and who was responsible for its compilation?",
+        "answers": [
+            "Compilation: around 4th century CE by Zhang Zhan"
+        ]
+    },
+    {
+        "query_id": "qa_50_5",
+        "question": "Who is the author of 'Books Do Furnish a Room'?",
+        "answers": [
+            "Author: Anthony Powell"
+        ]
+    },
+    {
+        "query_id": "qa_50_4574",
+        "question": "Where is Lucius from?",
+        "answers": [
+            "Madaurus (hometown of Apuleius)"
+        ]
+    },
+    {
+        "query_id": "qa_50_351",
+        "question": "How would you describe the writing style of the novel Last Exit to Brooklyn?",
+        "answers": [
+            "brusque, everyman style"
+        ]
+    },
+    {
+        "query_id": "qa_50_3951",
+        "question": "Where is the setting of the comic book series about the Antarctic landscape?",
+        "answers": [
+            "Antarctic landscape"
+        ]
+    },
+    {
+        "query_id": "qa_50_536",
+        "question": "What is the title of Maxwell Anderson's play Winterset?",
+        "answers": [
+            "Winterset"
+        ]
+    },
+    {
+        "query_id": "qa_50_1452",
+        "question": "When was the first DVD of the Tokko anime released?",
+        "answers": [
+            "3/20/07"
+        ]
+    },
+    {
+        "query_id": "qa_50_158",
+        "question": "Q3: Who are Min and Gunnar, and what is their relationship to Russel?",
+        "answers": [
+            "Fs Min, Gunnar."
+        ]
+    },
+    {
+        "query_id": "qa_50_4446",
+        "question": "What is Ghost Stories?",
+        "answers": [
+            "Ghost Stories is a one-act horror play written by Jeremy Dyson and Andy Nyman."
+        ]
+    },
+    {
+        "query_id": "qa_50_3783",
+        "question": "Who does the Teutonic Order answer to, according to the Golden Bull of Rieti?",
+        "answers": [
+            "the sovereignty of the Pope"
+        ]
+    },
+    {
+        "query_id": "qa_50_223",
+        "question": "What is Bergson's theory of duration and how did it become influential among continental philosophers?",
+        "answers": [
+            "Bergson's theory of duration is his solution to the problem of free will, which he explains is a common confusion caused by an illegitimate translation of the unextended into the extended. This theory became influential among continental philosophers in the following century."
+        ]
+    },
+    {
+        "query_id": "qa_50_1468",
+        "question": "What is the name of Ben Mezrich's book about John Malcolm's exploits in Japan?",
+        "answers": [
+            "Ugly Americans"
+        ]
+    },
+    {
+        "query_id": "qa_50_2214",
+        "question": "When was a specific edition of a publication released?",
+        "answers": [
+            "The Humanist's September/October 1973 edition"
+        ]
+    },
+    {
+        "query_id": "qa_50_4423",
+        "question": "What is the name of Virginia Woolf's previous work mentioned in 'Flush: A Biography'?",
+        "answers": [
+            "The Waves"
+        ]
+    },
+    {
+        "query_id": "qa_50_4129",
+        "question": "Who wrote the novel '2 States: The Story of My Marriage'?",
+        "answers": [
+            "Chetan Bhagat"
+        ]
+    },
+    {
+        "query_id": "qa_50_2090",
+        "question": "What is the title of the botany book written by Carl Linnaeus in 1736?",
+        "answers": [
+            "Bibliotheca Botanica"
+        ]
+    },
+    {
+        "query_id": "qa_50_1737",
+        "question": "What is the title of Mary Stewart's 1979 fantasy novel about the Arthurian legend, which is the third in a series of five?",
+        "answers": [
+            "The Last Enchantment"
+        ]
+    },
+    {
+        "query_id": "qa_50_4556",
+        "question": "What book is 'The Aleph and Other Stories'?",
+        "answers": [
+            " 'The Aleph and Other Stories' is the book that contains 'The Zahir'."
+        ]
+    },
+    {
+        "query_id": "qa_50_373",
+        "question": "What is the original story that Sherlock Holmes's War of the Worlds is a sequel to?",
+        "answers": [
+            "THE WAR OF THE WORLDS"
+        ]
+    },
+    {
+        "query_id": "qa_50_451",
+        "question": "What is the title of Lawrence Lessig's 2006 book about Internet regulation?",
+        "answers": [
+            "Code: Version 2.0"
+        ]
+    },
+    {
+        "query_id": "qa_50_1727",
+        "question": "What genre is The Android's Dream?",
+        "answers": [
+            "science fiction novel"
+        ]
+    },
+    {
+        "query_id": "qa_50_4313",
+        "question": "Who are the major lead characters from the Discworld books?",
+        "answers": [
+            "Moist Von Lipwig, Samuel Vimes, Granny Weatherwax"
+        ]
+    },
+    {
+        "query_id": "qa_50_4290",
+        "question": "How many chapters does 'Watashi no Ky\u016bseishu-sama' have?",
+        "answers": [
+            "26"
+        ]
+    },
+    {
+        "query_id": "qa_50_810",
+        "question": "Who is the author of the historical adventure set during the Hundred Years' War and published in The Cornhill Magazine in 1891?",
+        "answers": [
+            "Arthur Conan Doyle"
+        ]
+    },
+    {
+        "query_id": "qa_50_1222",
+        "question": "What is the title of Geraldine Brooks' 2001 historical fiction novel about the Plague?",
+        "answers": [
+            "Year of Wonders"
+        ]
+    },
+    {
+        "query_id": "qa_50_740",
+        "question": "What is the title of the book written by Karel van Mander in 1604 in Haarlem in the Dutch Republic?",
+        "answers": [
+            "Het Schilder-Boeck"
+        ]
+    },
+    {
+        "query_id": "qa_50_152",
+        "question": "How much assets did Long-Term Capital Management (LTCM) have?",
+        "answers": [
+            "Long-Term Capital Management (LTCM) had $100 billion in assets."
+        ]
+    },
+    {
+        "query_id": "qa_50_622",
+        "question": "What type of comic book series is G\u00f8dland?",
+        "answers": [
+            "AmCbS."
+        ]
+    },
+    {
+        "query_id": "qa_50_3859",
+        "question": "Who leads the Danger Girl team?",
+        "answers": [
+            "Deuce"
+        ]
+    },
+    {
+        "query_id": "qa_50_187",
+        "question": "Who is the author of 'Hollow City'?",
+        "answers": [
+            "Ransom Riggs"
+        ]
+    },
+    {
+        "query_id": "qa_50_1139",
+        "question": "When was 'The Mask of Cthulhu' published?",
+        "answers": [
+            "1958"
+        ]
+    },
+    {
+        "query_id": "qa_50_4016",
+        "question": "Where is Gladiator: Fight for Freedom set?",
+        "answers": [
+            "Rome."
+        ]
+    },
+    {
+        "query_id": "qa_50_4691",
+        "question": "When was B\u1e5bhatkath\u0101 composed?",
+        "answers": [
+            "Testimonies place it in the 6th c. CE, but others say earlier."
+        ]
+    },
+    {
+        "query_id": "qa_50_2053",
+        "question": "In what decade does 'The Sweetest Dream' end?",
+        "answers": [
+            "1980s"
+        ]
+    },
+    {
+        "query_id": "qa_50_2050",
+        "question": "What is the title of Doris Lessing's 2001 novel?",
+        "answers": [
+            "The Sweetest Dream"
+        ]
+    },
+    {
+        "query_id": "qa_50_4002",
+        "question": "When was 'Psmith, Journalist' first published in book form in the UK?",
+        "answers": [
+            "It was published on September 29, 1915"
+        ]
+    },
+    {
+        "query_id": "qa_50_631",
+        "question": "What is the format of 'Demon Theory'?",
+        "answers": [
+            "screenplay"
+        ]
+    },
+    {
+        "query_id": "qa_50_2055",
+        "question": "What is the fictional African nation referred to as Zimlia in 'The Sweetest Dream'?",
+        "answers": [
+            "Zimlia"
+        ]
+    },
+    {
+        "query_id": "qa_50_4662",
+        "question": "What is the name of the Editor's Note in this anthology?",
+        "answers": [
+            "Editor's Note."
+        ]
+    },
+    {
+        "query_id": "qa_50_4504",
+        "question": "Who is the narrator of all the stories in the Feluda series?",
+        "answers": [
+            "Topshe"
+        ]
+    },
+    {
+        "query_id": "qa_50_2268",
+        "question": "Who is the Indian playwright that wrote the Marathi play 'Shantata! Court Chalu Aahe' in 1963?",
+        "answers": [
+            "Vijay Tendulkar"
+        ]
+    },
+    {
+        "query_id": "qa_50_3189",
+        "question": "What is included in this book besides the essays?",
+        "answers": [
+            "Bibliography"
+        ]
+    },
+    {
+        "query_id": "qa_50_2257",
+        "question": "Where is 'Let's Take the Long Way Home: a memoir of friendship' set?",
+        "answers": [
+            "Cambridge, Massachusetts"
+        ]
+    },
+    {
+        "query_id": "qa_50_1954",
+        "question": "Where does Dr Ava Curzon work in Dominic Selwood's novel?",
+        "answers": [
+            "National Museum of Iraq"
+        ]
+    },
+    {
+        "query_id": "qa_50_3893",
+        "question": "Where is the author Kaari Utrio from?",
+        "answers": [
+            "Finnish"
+        ]
+    },
+    {
+        "query_id": "qa_50_1455",
+        "question": "What literary genre does 'A Descent into the Maelstr\u00f6m' belong to?",
+        "answers": [
+            "tales of ratiocination"
+        ]
+    },
+    {
+        "query_id": "qa_50_57",
+        "question": "Who directed the premiere of the play 'Picnic'?",
+        "answers": [
+            "a)"
+        ]
+    },
+    {
+        "query_id": "qa_50_3962",
+        "question": "What political roles did Tony Abbott hold during the time he wrote his book 'Battlelines'?",
+        "answers": [
+            "Opposition, Shadow Minister, Leader of the Opposition"
+        ]
+    },
+    {
+        "query_id": "qa_50_280",
+        "question": "What was the intended purpose of Augustine of Hippo's book 'De libero arbitrio voluntatis' besides refuting Manichaeism?",
+        "answers": [
+            "Softened libertarian message"
+        ]
+    },
+    {
+        "query_id": "qa_50_3248",
+        "question": "What is the content of the Gospel of Luke?",
+        "answers": [
+            "The Gospel of Luke recounts the origins, birth, ministry, death, resurrection, and ascension of Jesus Christ."
+        ]
+    },
+    {
+        "query_id": "qa_50_3039",
+        "question": "How would you describe the publisher Pluto Press?",
+        "answers": [
+            "A: Radical publisher"
+        ]
+    },
+    {
+        "query_id": "qa_50_4340",
+        "question": "In what years does the novel 'Garden of Shadows' cover?",
+        "answers": [
+            "1918-1957"
+        ]
+    },
+    {
+        "query_id": "qa_50_2678",
+        "question": "Who is the new companion introduced in the 'Time Zero' novel based on 'Doctor Who'?",
+        "answers": [
+            "Answer: Trix"
+        ]
+    },
+    {
+        "query_id": "qa_50_1642",
+        "question": "Which topics of high-profile Supreme Court decisions are discussed in the book 'Closed Chambers: The Rise, Fall, and Future of the Modern Supreme Court'?",
+        "answers": [
+            "Death penalty, civil rights, abortion"
+        ]
+    },
+    {
+        "query_id": "qa_50_4794",
+        "question": "What series is 'Vespers Rising' a part of?",
+        "answers": [
+            "Series: The 39 Clues franchise"
+        ]
+    },
+    {
+        "query_id": "qa_50_4756",
+        "question": "Who is Jean-Claude van Itallie?",
+        "answers": [
+            "Jean-Claude van Itallie is the author of America Hurrah, a satirical play that premiered at the Pocket Theatre in New York City on November 7, 1966."
+        ]
+    },
+    {
+        "query_id": "qa_50_1338",
+        "question": "When did 'A Saucer of Loneliness' first appear in Galaxy Science Fiction?",
+        "answers": [
+            "February 1953"
+        ]
+    },
+    {
+        "query_id": "qa_50_811",
+        "question": "What genre is the historical adventure set during the Hundred Years' War and published in The Cornhill Magazine in 1891?",
+        "answers": [
+            "Historical adventure"
+        ]
+    },
+    {
+        "query_id": "qa_50_2304",
+        "question": "Who persuades King Powhatan to free Smith in 'The Indian Princess; or, La Belle Sauvage'?",
+        "answers": [
+            "Pocahontas"
+        ]
+    },
+    {
+        "query_id": "qa_50_2549",
+        "question": "Who suggested that Jon Cleary write a thriller as his follow-up?",
+        "answers": [
+            "Graham Greene"
+        ]
+    },
+    {
+        "query_id": "qa_50_192",
+        "question": "What is the title of Jean-Jacques Rousseau's treatise on education?",
+        "answers": [
+            "Emile, or On Education"
+        ]
+    },
+    {
+        "query_id": "qa_50_4460",
+        "question": "Who is the co-author of City of Night?",
+        "answers": [
+            "Ed Gorman"
+        ]
+    },
+    {
+        "query_id": "qa_50_2861",
+        "question": "What is the title of Amartya Sen's 2009 book that critiques John Rawls's 'A Theory of Justice'?",
+        "answers": [
+            "The Idea of Justice"
+        ]
+    },
+    {
+        "query_id": "qa_50_3883",
+        "question": "When was the first English translation of 'Anti-D\u00fchring' published?",
+        "answers": [
+            "1907"
+        ]
+    },
+    {
+        "query_id": "qa_50_3003",
+        "question": "Who was the publisher of the collection where \"Gabriel-Ernest\" appears?",
+        "answers": [
+            "Methuen & Co."
+        ]
+    },
+    {
+        "query_id": "qa_50_4386",
+        "question": "What types of stories are included in the collection Maps in a Mirror? ",
+        "answers": [
+            "Short stories, SF/Fantasy"
+        ]
+    },
+    {
+        "query_id": "qa_50_3796",
+        "question": "What religious practice should the people frequent, according to the text?",
+        "answers": [
+            "Mass or adoration with Benediction."
+        ]
+    },
+    {
+        "query_id": "qa_50_782",
+        "question": "Who is the author of \"In Sunlight and in Shadow\"?",
+        "answers": [
+            "Mark Helprin"
+        ]
+    },
+    {
+        "query_id": "qa_50_1500",
+        "question": "Who praised the work? What adventures did they praise?",
+        "answers": [
+            "Others praised its exciting adventures."
+        ]
+    },
+    {
+        "query_id": "qa_50_4822",
+        "question": "In what time frame does the content of 'Ignited Minds' likely take place?",
+        "answers": [
+            "Time frame: 2002-07"
+        ]
+    },
+    {
+        "query_id": "qa_50_903",
+        "question": "In what year did Isaac Newton send a letter to John Locke?",
+        "answers": [
+            "Answer: 1693."
+        ]
+    },
+    {
+        "query_id": "qa_50_1250",
+        "question": "What year was a documentary film produced as part of the Black Chicks Talking project?",
+        "answers": [
+            "2001"
+        ]
+    },
+    {
+        "query_id": "qa_50_1865",
+        "question": "What is the challenge that scientists face when communicating to the general public in an age of information-overload, as discussed in Olson's book 'Don't Be Such A Scientist'?",
+        "answers": [
+            "Comm. Chal. In info-overload age"
+        ]
+    },
+    {
+        "query_id": "qa_50_4479",
+        "question": "Who is Christopher Paolini and what is his role in the creation of The Inheritance Cycle?",
+        "answers": [
+            "Author, wrote series."
+        ]
+    },
+    {
+        "query_id": "qa_50_728",
+        "question": "Who is the English recording artist behind the song 'Knockdown'?",
+        "answers": [
+            "Alesha Dixon"
+        ]
+    },
+    {
+        "query_id": "qa_50_4868",
+        "question": "What is the name of the composite midrash that consists of two parts?",
+        "answers": [
+            "Tanna Devei Eliyahu"
+        ]
+    },
+    {
+        "query_id": "qa_50_200",
+        "question": "Which publisher released Flashing Swords! #2 in February 1974?",
+        "answers": [
+            "Dell Books"
+        ]
+    },
+    {
+        "query_id": "qa_50_4635",
+        "question": "Where did Ali Smith grow up?",
+        "answers": [
+            "Answer: Inverness"
+        ]
+    },
+    {
+        "query_id": "qa_50_4126",
+        "question": "What is the name of the series that 'The Demon's Lexicon' is a part of?",
+        "answers": [
+            "The Demon trilogy"
+        ]
+    },
+    {
+        "query_id": "qa_50_567",
+        "question": "Who is credited as the author on certain cover pages?",
+        "answers": [
+            "Paul French"
+        ]
+    },
+    {
+        "query_id": "qa_50_450",
+        "question": "What historical topics does 'City of Djinns: A Year in Delhi' cover?",
+        "answers": [
+            " 'City of Djinns: A Year in Delhi' covers historical topics such as ancient ruins, the Mahabharata, and Delhi's violent past and present day."
+        ]
+    },
+    {
+        "query_id": "qa_50_1140",
+        "question": "Who published 'The Mask of Cthulhu'?",
+        "answers": [
+            "Arkham House"
+        ]
+    },
+    {
+        "query_id": "qa_50_4766",
+        "question": "Which publishing company published 'Buck'?",
+        "answers": [
+            "Random House/Spiegel & Grau"
+        ]
+    },
+    {
+        "query_id": "qa_50_612",
+        "question": "Which productions of She Loves Me received awards?",
+        "answers": [
+            "Award-winning revivals (on each side of the Atlantic)"
+        ]
+    },
+    {
+        "query_id": "qa_50_136",
+        "question": "Who is the author of the novel Mygale?",
+        "answers": [
+            "Thierry Jonquet"
+        ]
+    },
+    {
+        "query_id": "qa_50_3373",
+        "question": "What values does Peter Beinart argue are being contradicted by some Zionist policies?",
+        "answers": [
+            "Liberal ideals"
+        ]
+    },
+    {
+        "query_id": "qa_50_1352",
+        "question": "Doctor Who: Who is the focus of this novel?",
+        "answers": [
+            "The Fourth Doctor"
+        ]
+    },
+    {
+        "query_id": "qa_50_1207",
+        "question": "What is Robert Conquest's New Lines anthology mentioned in the text material?",
+        "answers": [
+            "Robert Conquest's anthology from a decade ago."
+        ]
+    },
+    {
+        "query_id": "qa_50_3699",
+        "question": "What is the title of Benedetto Cotrugli's manuscript written around 1400?",
+        "answers": [
+            "Della mercatura e del mercante perfetto"
+        ]
+    },
+    {
+        "query_id": "qa_50_566",
+        "question": "What is the name of the author whose work is featured on some cover pages?",
+        "answers": [
+            "Asimov"
+        ]
+    },
+    {
+        "query_id": "qa_50_1494",
+        "question": "Who wrote The Narrative of Arthur Gordon Pym of Nantucket?",
+        "answers": [
+            "a"
+        ]
+    },
+    {
+        "query_id": "qa_50_1361",
+        "question": "Leela: Who is Doctor Who's companion in this novel?",
+        "answers": [
+            "Leela"
+        ]
+    },
+    {
+        "query_id": "qa_50_2989",
+        "question": "What awards has the novel won?",
+        "answers": [
+            "Bolton Children's Book Award, Manchester Book Award, Red House Children's Book Award"
+        ]
+    },
+    {
+        "query_id": "qa_50_2957",
+        "question": "What is the title of the book Candyfloss?",
+        "answers": [
+            "Candyfloss"
+        ]
+    },
+    {
+        "query_id": "qa_50_901",
+        "question": "What is John Banville's'most impressive work to date,' according to The New York Times?",
+        "answers": [
+            "Answer: The Newton Letter."
+        ]
+    },
+    {
+        "query_id": "qa_50_356",
+        "question": "What genre is October the First is Too Late?",
+        "answers": [
+            "science fiction"
+        ]
+    },
+    {
+        "query_id": "qa_50_3451",
+        "question": "Who wrote the play Nuts?",
+        "answers": [
+            "Topor"
+        ]
+    },
+    {
+        "query_id": "qa_50_1517",
+        "question": "Which publisher released David Baldacci's crime fiction novel 'Hour Game' in 2004?",
+        "answers": [
+            "Warner Books"
+        ]
+    },
+    {
+        "query_id": "qa_50_2078",
+        "question": "Who was Lie Yukou and what was his role in the Hundred Schools of Thought?",
+        "answers": [
+            "Lie Yukou: Hundred Schools of Thought philosopher"
+        ]
+    },
+    {
+        "query_id": "qa_50_4225",
+        "question": "What scientific fields are central to Prey's plot?",
+        "answers": [
+            "Population dynamics and host-parasite coevolution."
+        ]
+    },
+    {
+        "query_id": "qa_50_853",
+        "question": "What is the name of the poem written by Lord Byron in 1814 that is in iambic tetrameter and is a lyrical poem?",
+        "answers": [
+            "The poem is \"She Walks in Beauty\". "
+        ]
+    },
+    {
+        "query_id": "qa_50_1482",
+        "question": "What is the third published novel of Michael Crichton?",
+        "answers": [
+            "Easy Go is Michael Crichton's third published novel."
+        ]
+    },
+    {
+        "query_id": "qa_50_4614",
+        "question": "Where is the story set?",
+        "answers": [
+            "Sicily"
+        ]
+    },
+    {
+        "query_id": "qa_50_3759",
+        "question": "In which year was the Lutheran chorale 'Ach Gott, vom Himmel sieh darein' written by Martin Luther?",
+        "answers": [
+            "1524"
+        ]
+    },
+    {
+        "query_id": "qa_50_3644",
+        "question": "What was the pseudonym used by Jack Vance for this novel?",
+        "answers": [
+            "John Holbrook Vance"
+        ]
+    },
+    {
+        "query_id": "qa_50_2129",
+        "question": "In what languages was The Dybbuk, or Between Two Worlds written and translated?",
+        "answers": [
+            "Originally written in Russian, translated into Yiddish by Ansky."
+        ]
+    },
+    {
+        "query_id": "qa_50_4801",
+        "question": "How many copies did 'Envole-moi' sell?",
+        "answers": [
+            "500k"
+        ]
+    },
+    {
+        "query_id": "qa_50_2325",
+        "question": "What does 'Negotiating with the Dead: A Writer on Writing' address?",
+        "answers": [
+            "writer's position and craft"
+        ]
+    },
+    {
+        "query_id": "qa_50_4081",
+        "question": "Where is 'The Boar' set?",
+        "answers": [
+            "East Texas"
+        ]
+    },
+    {
+        "query_id": "qa_50_670",
+        "question": "What does Shirky believe can result from individuals committing their time to engage with technology?",
+        "answers": [
+            "Individuals committing time"
+        ]
+    },
+    {
+        "query_id": "qa_50_97",
+        "question": "The book received a negative reaction from psychoanalysts. What was the nature of this reaction?",
+        "answers": [
+            "Reaction: negative, psychoanalysts"
+        ]
+    },
+    {
+        "query_id": "qa_50_4315",
+        "question": "What artwork does Paul Kidby create for the Discworld series?",
+        "answers": [
+            "Paul Kidby"
+        ]
+    },
+    {
+        "query_id": "qa_50_3403",
+        "question": "What theater was the Broadway production of 'Mrs. Gibbons' Boys' held at?",
+        "answers": [
+            "Venue: Music Box Theatre"
+        ]
+    },
+    {
+        "query_id": "qa_50_539",
+        "question": "What is the main plot of Winterset, the play by Maxwell Anderson?",
+        "answers": [
+            "Mio Romagna's quest for his father's innocence"
+        ]
+    },
+    {
+        "query_id": "qa_50_3770",
+        "question": "What is the nature of the summaries and commentaries found in The Philosophical Notebooks of Lenin?",
+        "answers": [
+            "The summaries and commentaries in The Philosophical Notebooks of Lenin are a compilation of Lenin's thoughts and interpretations on various philosophical works."
+        ]
+    },
+    {
+        "query_id": "qa_50_4284",
+        "question": "In what academic institution was the three-volume political science book on nonviolent action written?",
+        "answers": [
+            "A: Oxford University"
+        ]
+    },
+    {
+        "query_id": "qa_50_76",
+        "question": "In what time period was De prospectiva pingendi likely written?",
+        "answers": [
+            "mid-1470s to 1480s, and possibly by about 1474"
+        ]
+    },
+    {
+        "query_id": "qa_50_1900",
+        "question": "Where is Jack currently serving in the United States Army and what is his role in any ongoing conflicts?",
+        "answers": [
+            "The location and role of Jack in any ongoing conflicts are undisclosed."
+        ]
+    },
+    {
+        "query_id": "qa_50_2602",
+        "question": "What is the title of the eleventh book in Hugh Walters' Chris Godfrey of U.N.E.X.A. series?",
+        "answers": [
+            "The Mohole Mystery"
+        ]
+    },
+    {
+        "query_id": "qa_50_4679",
+        "question": "How many sonnets are there in total, including Sonnet 92?",
+        "answers": [
+            "There are 154 sonnets, including Sonnet 92."
+        ]
+    },
+    {
+        "query_id": "qa_50_2074",
+        "question": "Who is the subject of the novel \"Hocus Bogus\"?",
+        "answers": [
+            "Paul Pavlowitch."
+        ]
+    },
+    {
+        "query_id": "qa_50_3277",
+        "question": "What state is the Louisiana State Penitentiary and Angola prison located in?",
+        "answers": [
+            "Louisiana"
+        ]
+    },
+    {
+        "query_id": "qa_50_1403",
+        "question": "What is the name of the play written by Nikolai Gogol and published in 1836?",
+        "answers": [
+            "The Government Inspector (also known as The Inspector General)"
+        ]
+    },
+    {
+        "query_id": "qa_50_323",
+        "question": "What opposing viewpoint does Jessica Valenti argue against in 'The Purity Myth'?",
+        "answers": [
+            "false notion"
+        ]
+    },
+    {
+        "query_id": "qa_50_2299",
+        "question": "Who is the main character in Marc Acito's novel 'How I Paid for College'?",
+        "answers": [
+            "Edward Zanni"
+        ]
+    },
+    {
+        "query_id": "qa_50_4375",
+        "question": "How many shipwreck sites did Clive Eric Cussler's organization discover?",
+        "answers": [
+            ">60"
+        ]
+    },
+    {
+        "query_id": "qa_50_1377",
+        "question": "In what month and year was the book 'The Rape of the A*P*E*' by Allan Sherman published by Playboy Press?",
+        "answers": [
+            "July 1973"
+        ]
+    },
+    {
+        "query_id": "qa_50_3625",
+        "question": "Who is Little Master Tommy?",
+        "answers": [
+            "Unknown"
+        ]
+    },
+    {
+        "query_id": "qa_50_4194",
+        "question": "Who is the author of 'Ten Thousand Roses: The Making of a Feminist Revolution'?",
+        "answers": [
+            "Judy Rebick"
+        ]
+    },
+    {
+        "query_id": "qa_50_4870",
+        "question": "What is the name of the second part of the composite midrash Tanna Devei Eliyahu?",
+        "answers": [
+            "Seder Eliyahu Zu\u1e6da"
+        ]
+    },
+    {
+        "query_id": "qa_50_2812",
+        "question": "Which publisher released the first edition of 'In the Eyes of Mr Fury' by Philip Ridley?",
+        "answers": [
+            "Penguin Books Originals"
+        ]
+    },
+    {
+        "query_id": "qa_50_2447",
+        "question": "What is the title of Mikael Niemi's novel Popular Music from Vittula?",
+        "answers": [
+            "\"Popular Music from Vittula\""
+        ]
+    },
+    {
+        "query_id": "qa_50_193",
+        "question": "What is the focus of Jean-Jacques Rousseau's treatise 'Emile'?",
+        "answers": [
+            "Education and human nature"
+        ]
+    },
+    {
+        "query_id": "qa_50_4136",
+        "question": "Who is the author of 'The Ram'?",
+        "answers": [
+            "Madame d'Aulnoy"
+        ]
+    },
+    {
+        "query_id": "qa_50_787",
+        "question": "In what year was the draft of the script for 'Vera; or, The Nihilists' completed?",
+        "answers": [
+            "1880"
+        ]
+    },
+    {
+        "query_id": "qa_50_2465",
+        "question": "Which production company released the movie?",
+        "answers": [
+            "Metro-Goldwyn-Mayer"
+        ]
+    },
+    {
+        "query_id": "qa_50_1719",
+        "question": "What is the title of the novel written by Brendan DuBois in 1999 that won the Sidewise Award for Alternate History?",
+        "answers": [
+            "Resurrection Day"
+        ]
+    },
+    {
+        "query_id": "qa_50_3238",
+        "question": "What is the title of Tobias Wolff's second memoir about his experiences in the Vietnam War?",
+        "answers": [
+            "In Pharaoh's Army: Memories of the Lost War"
+        ]
+    },
+    {
+        "query_id": "qa_50_611",
+        "question": "Where was She Loves Me first produced in the West End?",
+        "answers": [
+            "West End"
+        ]
+    },
+    {
+        "query_id": "qa_50_3072",
+        "question": "Who was the main character in The Diary of a Nobody?",
+        "answers": [
+            "Charles Pooter"
+        ]
+    },
+    {
+        "query_id": "qa_50_4592",
+        "question": "Who is the author of the novel 'Aiding and Abetting'?",
+        "answers": [
+            "Muriel Spark"
+        ]
+    },
+    {
+        "query_id": "qa_50_970",
+        "question": "What events does the novel 'Lincoln: A Novel' by Gore Vidal cover in terms of Lincoln's presidency?",
+        "answers": [
+            "Start of Civil War to assassination"
+        ]
+    },
+    {
+        "query_id": "qa_50_2707",
+        "question": "Has Yakari been adapted into a cartoon series before?",
+        "answers": [
+            "Yes"
+        ]
+    },
+    {
+        "query_id": "qa_50_2094",
+        "question": "To whom was 'Bibliotheca Botanica' dedicated?",
+        "answers": [
+            "Johannes Burman"
+        ]
+    },
+    {
+        "query_id": "qa_50_4452",
+        "question": "How many books and chapters does the Essays consist of?",
+        "answers": [
+            "3 books, 107 chaps (var)."
+        ]
+    },
+    {
+        "query_id": "qa_50_2164",
+        "question": "Was Stuart Christie ever accused of being a member of the Angry Brigade, and if so, what was the outcome?",
+        "answers": [
+            "Accused, acquitted"
+        ]
+    },
+    {
+        "query_id": "qa_50_1070",
+        "question": "What name did Sinclair Lewis erroneously claim as Richardson's true name in the introduction of the early American edition?",
+        "answers": [
+            "Henrietta"
+        ]
+    },
+    {
+        "query_id": "qa_50_2738",
+        "question": "What is the new title of a novel that was previously known as Star Ways?",
+        "answers": [
+            "The Peregrine"
+        ]
+    },
+    {
+        "query_id": "qa_50_1376",
+        "question": "Who is the author of the book 'The Rape of the A*P*E*' published by Playboy Press in July 1973?",
+        "answers": [
+            "Allan Sherman"
+        ]
+    },
+    {
+        "query_id": "qa_50_1810",
+        "question": "What is the capital city of France?",
+        "answers": [
+            "Paris"
+        ]
+    },
+    {
+        "query_id": "qa_50_4173",
+        "question": "When was 'Ficciones' originally written and published by Jorge Luis Borges?",
+        "answers": [
+            "Between 1941 and 1956"
+        ]
+    },
+    {
+        "query_id": "qa_50_3107",
+        "question": "What is Telesni \u010duvaj?",
+        "answers": [
+            "A novel by Miha Mazzini."
+        ]
+    },
+    {
+        "query_id": "qa_50_3388",
+        "question": "Where did the play run?",
+        "answers": [
+            "A: 'Fulton Theatre'"
+        ]
+    },
+    {
+        "query_id": "qa_50_2555",
+        "question": "In which Mexican states is 'The Wonderful Country' set?",
+        "answers": [
+            "Chihuahua, Sonora"
+        ]
+    },
+    {
+        "query_id": "qa_50_478",
+        "question": "Which direction does James Loewen's survey in 'Lies Across America' follow?",
+        "answers": [
+            "d"
+        ]
+    },
+    {
+        "query_id": "qa_50_258",
+        "question": "In what year was Morgan's Passing, the novel by Anne Tyler, published?",
+        "answers": [
+            "1980"
+        ]
+    },
+    {
+        "query_id": "qa_50_2412",
+        "question": "Where did the trip across the Atlantic Ocean take place in 'The Balloon-Hoax'?",
+        "answers": [
+            "Across the Atlantic Ocean"
+        ]
+    },
+    {
+        "query_id": "qa_50_203",
+        "question": "What format was Flashing Swords! #2 released in by Nelson Doubleday in 1973?",
+        "answers": [
+            "Hardcover"
+        ]
+    },
+    {
+        "query_id": "qa_50_1626",
+        "question": "In what year was the science fantasy novel by Sharon Shinn that starts the Samaria series published?",
+        "answers": [
+            "1996"
+        ]
+    },
+    {
+        "query_id": "qa_50_2391",
+        "question": "What book discusses the meaning of laughter?",
+        "answers": [
+            "Laughter: An Essay on the Meaning of the Comic"
+        ]
+    },
+    {
+        "query_id": "qa_50_523",
+        "question": "Who are the main characters and where do they live?",
+        "answers": [
+            "The main characters live in the cave, and one family is mentioned."
+        ]
+    },
+    {
+        "query_id": "qa_50_961",
+        "question": "What is Some Time Never: A Fable for Supermen?",
+        "answers": [
+            "A 1948 book by Roald Dahl, his first adult novel."
+        ]
+    },
+    {
+        "query_id": "qa_50_4695",
+        "question": "Who are the two main characters of the historical novel published by Alexandre Dumas in 1846-47, both named Diana?",
+        "answers": [
+            "Diane de Poitiers, Diana de Castro"
+        ]
+    },
+    {
+        "query_id": "qa_50_2525",
+        "question": "What is the title of William Trevor's novel published by The Bodley Head in 1969?",
+        "answers": [
+            "Mrs. Eckdorf in O'Neill's Hotel"
+        ]
+    },
+    {
+        "query_id": "qa_50_3296",
+        "question": "Who alleged that Franklin Roosevelt and his administration deliberately provoked and allowed the Japanese attack on Pearl Harbor?",
+        "answers": [
+            "Author Robert Stinnett"
+        ]
+    },
+    {
+        "query_id": "qa_50_3925",
+        "question": "Which classical poet did Samuel Johnson imitate in writing \"London\"?",
+        "answers": [
+            "Juvenal's Third Satire"
+        ]
+    },
+    {
+        "query_id": "qa_50_1094",
+        "question": "How is Dream of the Red Chamber or The Story of the Stone classified in Chinese literature?",
+        "answers": [
+            "One of the Four Great Classical Novels of Chinese literature"
+        ]
+    },
+    {
+        "query_id": "qa_50_4288",
+        "question": "Who is the author of the manga series 'Watashi no Ky\u016bseishu-sama'?",
+        "answers": [
+            "Suu Minazuki"
+        ]
+    },
+    {
+        "query_id": "qa_50_3327",
+        "question": "What is the title of Dietrich Bonhoeffer's book?",
+        "answers": [
+            "Cost of Discipleship"
+        ]
+    },
+    {
+        "query_id": "qa_50_4149",
+        "question": "How many stanzas does 'Tulips' by Sylvia Plath have?",
+        "answers": [
+            "9"
+        ]
+    },
+    {
+        "query_id": "qa_50_2721",
+        "question": "What discipline of philosophy is discussed in The Monadology?",
+        "answers": [
+            "metaphysics"
+        ]
+    },
+    {
+        "query_id": "qa_50_2710",
+        "question": "Who is traveling with the Doctor in The Well-Mannered War?",
+        "answers": [
+            "Romana"
+        ]
+    },
+    {
+        "query_id": "qa_50_4119",
+        "question": "Where is The Adventurous Four set in addition to World War II England?",
+        "answers": [
+            "Scotland"
+        ]
+    },
+    {
+        "query_id": "qa_50_3882",
+        "question": "In what newspaper was 'Anti-D\u00fchring' serialized before its publication as a book?",
+        "answers": [
+            "Vorw\u00e4rts"
+        ]
+    },
+    {
+        "query_id": "qa_50_917",
+        "question": "What is the title of Joy Fielding's 1991 novel in the thriller genre?",
+        "answers": [
+            "See Jane Run"
+        ]
+    },
+    {
+        "query_id": "qa_50_4842",
+        "question": "Who is the author of Spinsters in Jeopardy?",
+        "answers": [
+            "Ngaio Marsh"
+        ]
+    },
+    {
+        "query_id": "qa_50_3082",
+        "question": "Who is the author of the children's novel 'People Might Hear You' published by Puffin Books in 1983?",
+        "answers": [
+            "Robin Klein"
+        ]
+    },
+    {
+        "query_id": "qa_50_1372",
+        "question": "When was Enchanted Glass, a fantasy novel by Diana Wynne Jones, first published?",
+        "answers": [
+            "2010"
+        ]
+    },
+    {
+        "query_id": "qa_50_1548",
+        "question": "Why should technology be made to work for humans?",
+        "answers": [
+            "Dertouzos' book, The Unfinished Revolution, proposes this reason."
+        ]
+    },
+    {
+        "query_id": "qa_50_793",
+        "question": "Who is the veteran sailor in Masterman Ready?",
+        "answers": [
+            "Masterman Ready"
+        ]
+    },
+    {
+        "query_id": "qa_50_4250",
+        "question": "What has been done with the story besides reading it?",
+        "answers": [
+            "Answer: Adapted"
+        ]
+    },
+    {
+        "query_id": "qa_50_94",
+        "question": "What does Tripp argue in favor of regarding homosexuality?",
+        "answers": [
+            "Tripp argues in favor of social tolerance of homosexuality."
+        ]
+    },
+    {
+        "query_id": "qa_50_3778",
+        "question": "What is the Golden Bull of Rieti?",
+        "answers": [
+            "a papal bull by Pope Gregory IX"
+        ]
+    },
+    {
+        "query_id": "qa_50_3711",
+        "question": "Who is the author of the book 'The Myth of a Christian Nation'?",
+        "answers": [
+            "Greg Boyd"
+        ]
+    },
+    {
+        "query_id": "qa_50_105",
+        "question": "In what year was the paperback edition of \"Full Dark, No Stars\" published which contains the short story \"Under the Weather\"?",
+        "answers": [
+            "2011"
+        ]
+    },
+    {
+        "query_id": "qa_50_1031",
+        "question": "What is The Adventuress of Henrietta Street and who does it feature?",
+        "answers": [
+            "The Adventuress of Henrietta Street is a BBC Books original novel featuring the Eighth Doctor, Fitz, and Anji."
+        ]
+    },
+    {
+        "query_id": "qa_50_3628",
+        "question": "What year was the children's book \"A Little Pretty Pocket-Book, intended for the Amusement of Little Master Tommy and Pretty Miss Polly with Two Letters from Jack the Giant Killer\" published by John Newbery?",
+        "answers": [
+            "1744"
+        ]
+    },
+    {
+        "query_id": "qa_50_2332",
+        "question": "What is the main theme of 'The Premature Burial'?",
+        "answers": [
+            "Answer: The main character's fear."
+        ]
+    },
+    {
+        "query_id": "qa_50_2140",
+        "question": "What book did King Henry have in his personal collection that was read in English and influenced his writing of Defence of the Seven Sacraments?",
+        "answers": [
+            "Marko Maruli\u0107's Evangelistiarium"
+        ]
+    },
+    {
+        "query_id": "qa_50_1063",
+        "question": "Who wrote \"The Fortunes of Richard Mahony\"?",
+        "answers": [
+            "Ethel Florence Lindesay Richardson under her pen name, Henry Handel Richardson"
+        ]
+    },
+    {
+        "query_id": "qa_50_1645",
+        "question": "Which publishers released Margaret Atwood's 'Procedures for Underground' in paperback in 1971?",
+        "answers": [
+            "Little, Brown and Oxford University Press, Canada"
+        ]
+    },
+    {
+        "query_id": "qa_50_216",
+        "question": "What is the title of the book 'Mirror in the Mirror: A Labyrinth' by Michael Ende?",
+        "answers": [
+            "Mirror in the Mirror: A Labyrinth"
+        ]
+    },
+    {
+        "query_id": "qa_50_1904",
+        "question": "What genre is \"The Reluctant Dragon\"?",
+        "answers": [
+            "children's story"
+        ]
+    },
+    {
+        "query_id": "qa_50_3536",
+        "question": "What is the title of the third novel in the Republic Commando series?",
+        "answers": [
+            "Star Wars Republic Commando: True Colors"
+        ]
+    },
+    {
+        "query_id": "qa_50_4355",
+        "question": "What is the title of Phil Plait's non-fiction book about misconceptions in astronomy?",
+        "answers": [
+            "Bad Astronomy: Misconceptions and Misuses Revealed"
+        ]
+    },
+    {
+        "query_id": "qa_50_1426",
+        "question": "What is '1890' described as?",
+        "answers": [
+            "A powerful exploration of the atrocities associated with dictatorship."
+        ]
+    },
+    {
+        "query_id": "qa_50_1048",
+        "question": "How was a collection of Japanese netsuke miniature sculptures saved during the war years?",
+        "answers": [
+            "Easily hidden in mattress"
+        ]
+    },
+    {
+        "query_id": "qa_50_3817",
+        "question": "What powers does Will Stanton have in Susan Cooper's 'The Dark Is Rising'?",
+        "answers": [
+            "Answer: The Light"
+        ]
+    },
+    {
+        "query_id": "qa_50_2603",
+        "question": "Who is the author of the Chris Godfrey of U.N.E.X.A. series?",
+        "answers": [
+            "Hugh Walters"
+        ]
+    },
+    {
+        "query_id": "qa_50_1501",
+        "question": "What did Poe say about the work? When did he say it?",
+        "answers": [
+            "Poe himself later called it 'a very silly book'."
+        ]
+    },
+    {
+        "query_id": "qa_50_4858",
+        "question": "What is the title of the Japanese manga series Lord?",
+        "answers": [
+            "The title of Lord is Lord."
+        ]
+    },
+    {
+        "query_id": "qa_50_2014",
+        "question": "Who is the author of the Gothic novel 'The Monk: A Romance'?",
+        "answers": [
+            "Matthew Gregory Lewis"
+        ]
+    },
+    {
+        "query_id": "qa_50_4383",
+        "question": "How is the game described in the Newbery Honor-winning novel about six children in a small college town in California characterized?",
+        "answers": [
+            "Sustained"
+        ]
+    },
+    {
+        "query_id": "qa_50_52",
+        "question": "Who wrote the play 'Picnic'?",
+        "answers": [
+            "a)"
+        ]
+    },
+    {
+        "query_id": "qa_50_2328",
+        "question": "What genre is 'The Premature Burial'?",
+        "answers": [
+            "Answer: Horror."
+        ]
+    },
+    {
+        "query_id": "qa_50_3234",
+        "question": "Why was Titus Andronicus initially popular but later disapproved of?",
+        "answers": [
+            "Graphic violence (initially popular)\nDisapproval (later)"
+        ]
+    },
+    {
+        "query_id": "qa_50_3066",
+        "question": "Belief: Christian universalist, all will be saved",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_50_242",
+        "question": "Who wrote and illustrated the Dokaben manga series?",
+        "answers": [
+            "Shinji Mizushima"
+        ]
+    },
+    {
+        "query_id": "qa_50_446",
+        "question": "In what theater was the play Abide with Me staged?",
+        "answers": [
+            "Broadway Theater"
+        ]
+    },
+    {
+        "query_id": "qa_50_3359",
+        "question": "Who is the playwright of Chinglish?",
+        "answers": [
+            "David Henry Hwang"
+        ]
+    },
+    {
+        "query_id": "qa_50_2968",
+        "question": "What type of novel is 'Instruments of Darkness'?",
+        "answers": [
+            "Original novel (BBC Books)"
+        ]
+    },
+    {
+        "query_id": "qa_50_2953",
+        "question": "Which stories from this collection have been reprinted?",
+        "answers": [
+            "Some"
+        ]
+    },
+    {
+        "query_id": "qa_50_999",
+        "question": "When was the Arcades Project written?",
+        "answers": [
+            "The Arcades Project was written between 1927 and 1940."
+        ]
+    },
+    {
+        "query_id": "qa_50_359",
+        "question": "What civilization is described in October the First is Too Late?",
+        "answers": [
+            "civilization of the distant future"
+        ]
+    },
+    {
+        "query_id": "qa_50_3474",
+        "question": "Where was the entire English-dubbed series streamed during October 2009?",
+        "answers": [
+            "Hulu during October 2009"
+        ]
+    },
+    {
+        "query_id": "qa_50_2835",
+        "question": "What country does the memoir 'Paris France' by Gertrude Stein take place in?",
+        "answers": [
+            "France"
+        ]
+    },
+    {
+        "query_id": "qa_50_2131",
+        "question": "When and in what language was a Hebrew version of The Dybbuk, or Between Two Worlds staged?",
+        "answers": [
+            "1922, Hebrew (Habima Theater, Moscow)."
+        ]
+    },
+    {
+        "query_id": "qa_50_2900",
+        "question": "What period of time did Yudhishthira and his brothers experience after the war?",
+        "answers": [
+            "15 yrs"
+        ]
+    },
+    {
+        "query_id": "qa_50_1686",
+        "question": "What is Holy Spirit?",
+        "answers": [
+            "Best-seller by Benny Hinn."
+        ]
+    },
+    {
+        "query_id": "qa_50_2649",
+        "question": "What is the focus of Crowds and Power by Elias Canetti?",
+        "answers": [
+            "Crowds"
+        ]
+    },
+    {
+        "query_id": "qa_50_4416",
+        "question": "Who painted the cover art for the first edition of The Song of the Lark?",
+        "answers": [
+            "Jules Breton"
+        ]
+    },
+    {
+        "query_id": "qa_50_2705",
+        "question": "Who is currently writing Yakari?",
+        "answers": [
+            "Joris Chamblain"
+        ]
+    },
+    {
+        "query_id": "qa_50_2421",
+        "question": "What is the name of the chapter in 'The Finer Points of Sausage Dogs' that relates details of von Igelfeld's relationships with other characters?",
+        "answers": [
+            "On the Couch"
+        ]
+    },
+    {
+        "query_id": "qa_50_3622",
+        "question": "In what year was the bestselling novel '24 Hours' by Greg Iles published?",
+        "answers": [
+            "2000"
+        ]
+    },
+    {
+        "query_id": "qa_50_2520",
+        "question": "Who produced the first production of the play?",
+        "answers": [
+            "Theatre Guild"
+        ]
+    },
+    {
+        "query_id": "qa_50_163",
+        "question": "What recognition has The Birchbark House received?",
+        "answers": [
+            "It was a 1999 National Book Award Finalist for young people's fiction and has received positive reviews."
+        ]
+    },
+    {
+        "query_id": "qa_50_1329",
+        "question": "Which genus of pitcher plants is covered in the monograph published by Redfern Natural History Productions in September 2011?",
+        "answers": [
+            "Heliamphora"
+        ]
+    },
+    {
+        "query_id": "qa_50_3605",
+        "question": "Which publisher released the English translation of Rosie Carpe?",
+        "answers": [
+            "University of Nebraska Press"
+        ]
+    },
+    {
+        "query_id": "qa_50_735",
+        "question": "Who is the Eighth Doctor in the BBC Books original novel Mad Dogs and Englishmen based on Doctor Who?",
+        "answers": [
+            "Eighth Doctor"
+        ]
+    },
+    {
+        "query_id": "qa_50_2805",
+        "question": "What is the name of the main character introduced in the series 'Invasion!'",
+        "answers": [
+            "Bill Savage"
+        ]
+    },
+    {
+        "query_id": "qa_50_4064",
+        "question": "Who is Sakharam Binder?",
+        "answers": [
+            "Sakharam Binder (Sakharam, the Binder)"
+        ]
+    },
+    {
+        "query_id": "qa_50_1248",
+        "question": "What Australian actress is involved in the Black Chicks Talking arts project?",
+        "answers": [
+            "Leah Purcell"
+        ]
+    },
+    {
+        "query_id": "qa_50_1772",
+        "question": "What genre is the children's fantasy picture book \"The Sweetest Fig\"?",
+        "answers": [
+            "\"children's fantasy picture book\""
+        ]
+    },
+    {
+        "query_id": "qa_50_1132",
+        "question": "What is Justice, Inc.?",
+        "answers": [
+            "A pulp magazine story."
+        ]
+    },
+    {
+        "query_id": "qa_50_3546",
+        "question": "How does the book 'My Autobiography' describe the life of a 20th-century filmmaker and celebrity?",
+        "answers": [
+            "Provides a revealing look..."
+        ]
+    },
+    {
+        "query_id": "qa_50_585",
+        "question": "What roles does Nicholas Seafort hold in the Seafort Saga series by David Feintuch?",
+        "answers": [
+            "Midshipman, leader of earth, captain (various)"
+        ]
+    },
+    {
+        "query_id": "qa_50_3434",
+        "question": "How would you describe the style of 'The Posthumous Memoirs of Br\u00e1s Cubas' by Joaquim Maria Machado de Assis?",
+        "answers": [
+            "short, erratic chapters shifting in tone and style"
+        ]
+    },
+    {
+        "query_id": "qa_50_843",
+        "question": "Who are the authors of the novel 'The Twelve Chairs'?",
+        "answers": [
+            "Ilf and Petrov"
+        ]
+    },
+    {
+        "query_id": "qa_50_4651",
+        "question": "Who is the author of An Equal Music?",
+        "answers": [
+            "Vikram Seth"
+        ]
+    },
+    {
+        "query_id": "qa_50_1781",
+        "question": "In which time period is the novel 'Rhinemann Exchange' set?",
+        "answers": [
+            "WWII"
+        ]
+    },
+    {
+        "query_id": "qa_50_4521",
+        "question": "What genre is People of the Black Mountains by Raymond Williams?",
+        "answers": [
+            "historical novel"
+        ]
+    },
+    {
+        "query_id": "qa_50_3143",
+        "question": "Who is Jim Butcher?",
+        "answers": [
+            "Butcher, American author of contemporary fantasy series The Dresden Files and Cinder Spires"
+        ]
+    },
+    {
+        "query_id": "qa_50_4676",
+        "question": "Who wrote Sonnet 92?",
+        "answers": [
+            "William Shakespeare wrote Sonnet 92."
+        ]
+    },
+    {
+        "query_id": "qa_50_3938",
+        "question": "In what year was The Stingray Shuffle published?",
+        "answers": [
+            "2003"
+        ]
+    },
+    {
+        "query_id": "qa_50_4811",
+        "question": "What is the name of the novel by Larry Bond about a modern world war in the 90s with NATO dissolution? ",
+        "answers": [
+            "Cauldron."
+        ]
+    },
+    {
+        "query_id": "qa_50_509",
+        "question": "Who is Henry Smith?",
+        "answers": [
+            "Henry Smith is a character in Blue Horizon."
+        ]
+    },
+    {
+        "query_id": "qa_50_1310",
+        "question": "What is the name of the collection in which 'Araby' is published?",
+        "answers": [
+            "Dubliners"
+        ]
+    },
+    {
+        "query_id": "qa_50_2629",
+        "question": "Who wrote Fat\u1e25 al-B\u0101r\u012b f\u012b Shar\u1e25 \u1e62a\u1e25\u012b\u1e25 al-Bukh\u0101r\u012b?",
+        "answers": [
+            "Ibn Hajar al-'Asqalani"
+        ]
+    },
+    {
+        "query_id": "qa_50_1252",
+        "question": "What is the title of the short story by J. D. Salinger?",
+        "answers": [
+            "\"A Perfect Day for Bananafish\""
+        ]
+    },
+    {
+        "query_id": "qa_50_86",
+        "question": "What is the title of Rodolfo Walsh's nonfiction novel of investigative journalism?",
+        "answers": [
+            "Operaci\u00f3n Masacre"
+        ]
+    },
+    {
+        "query_id": "qa_50_3684",
+        "question": "Who is the author of A Year in Provence?",
+        "answers": [
+            "Answer: Peter Mayle"
+        ]
+    },
+    {
+        "query_id": "qa_50_3721",
+        "question": "Who provided a review of the book 'Meteor!' by Patricia Polacco, and what did they say about it?",
+        "answers": [
+            "Publishers Weekly: 'enchanting', Booklist:'magic'"
+        ]
+    },
+    {
+        "query_id": "qa_50_2841",
+        "question": "Who starred in 'A Madea Christmas'?",
+        "answers": [
+            "Tyler Perry as Mabel 'Madea' Simmons and Cassi Davis as Aunt Bam"
+        ]
+    },
+    {
+        "query_id": "qa_50_1661",
+        "question": "What does Quintilian think of De Inventione?",
+        "answers": [
+            "obsolete"
+        ]
+    },
+    {
+        "query_id": "qa_50_4771",
+        "question": "In what years did the paperback edition of 'Buck' make The Washington Post Bestseller List?",
+        "answers": [
+            "2014, 2015"
+        ]
+    },
+    {
+        "query_id": "qa_50_3727",
+        "question": "In which theaters did Mojo premiere and when?",
+        "answers": [
+            "Royal Court Theatre, London (1995)"
+        ]
+    },
+    {
+        "query_id": "qa_50_2606",
+        "question": "In which country was 'The Mohole Mystery' published under the title 'The Mohole Menace' in 1969?",
+        "answers": [
+            "US"
+        ]
+    },
+    {
+        "query_id": "qa_50_1299",
+        "question": "Who is King Richard the Lionheart in Randall Garrett's collection of short stories, 'Murder and Magic'?",
+        "answers": [
+            "King Richard the Lionheart"
+        ]
+    },
+    {
+        "query_id": "qa_50_745",
+        "question": "How would you describe the reception of Het Schilder-Boeck, written by Karel van Mander in 1604 in Haarlem in the Dutch Republic?",
+        "answers": [
+            "Very well received"
+        ]
+    },
+    {
+        "query_id": "qa_50_380",
+        "question": "Which award was \"Radiant Doors\" nominated for in 1999?",
+        "answers": [
+            "Award: Hugo."
+        ]
+    },
+    {
+        "query_id": "qa_50_2351",
+        "question": "What is the perception of the female characters in Letty Fox: Her Luck regarding the dominant male capitalist culture?",
+        "answers": [
+            "conscious of the ways in which the male capitalist culture dominates them"
+        ]
+    },
+    {
+        "query_id": "qa_50_2231",
+        "question": "When did 'Janissaries III: Storms of Victory' appear in a double novel with the second book in the Janissaries series?",
+        "answers": [
+            "1996"
+        ]
+    },
+    {
+        "query_id": "qa_50_1948",
+        "question": "Who are the political professionals promoting John Thatch's nomination in the 1964 presidential elections?",
+        "answers": [
+            "The question does not provide information about the identities of the political professionals promoting John Thatch's nomination in the 1964 presidential elections."
+        ]
+    },
+    {
+        "query_id": "qa_50_463",
+        "question": "Who was responsible for the production design of the 1985 production of Oberon?",
+        "answers": [
+            "The production design of the 1985 production of Oberon was by Russell Craig."
+        ]
+    },
+    {
+        "query_id": "qa_50_4761",
+        "question": "What was America Hurrah's theme?",
+        "answers": [
+            "America Hurrah expressed discontent with American consumerism and involvement in the Vietnam War. It was an early expression of the burgeoning 1960s counterculture."
+        ]
+    },
+    {
+        "query_id": "qa_50_2609",
+        "question": "What year was 'The Mohole Mystery' published in France under the title 'Pionniers des t\u00e9n\u00e8bres'?",
+        "answers": [
+            "1973"
+        ]
+    },
+    {
+        "query_id": "qa_50_479",
+        "question": "What topics does James Loewen prioritize in 'Lies Across America' besides other European colonization?",
+        "answers": [
+            "e"
+        ]
+    },
+    {
+        "query_id": "qa_50_4605",
+        "question": "Who were the ghostwriters for 'The Clue of the Black Keys'?",
+        "answers": [
+            "Ghostwriters: Wilhelmina Rankin, Harriet Stratemeyer Adams"
+        ]
+    },
+    {
+        "query_id": "qa_50_2605",
+        "question": "In which country was 'The Mohole Mystery' published in 1968?",
+        "answers": [
+            "UK"
+        ]
+    },
+    {
+        "query_id": "qa_50_1443",
+        "question": "In what decade was this play first published?",
+        "answers": [
+            "1936"
+        ]
+    },
+    {
+        "query_id": "qa_50_1230",
+        "question": "In what Simpsons episode does Homer find himself in the third dimension, and what mathematical reference is made in that episode?",
+        "answers": [
+            "In 'Treehouse of Horror VI', Homer finds himself in the third dimension with mathematical references made, as detailed in The Simpsons and Their Mathematical Secrets."
+        ]
+    },
+    {
+        "query_id": "qa_50_393",
+        "question": "Was there another Saint book based on the TV show? If so, which one?",
+        "answers": [
+            "Salvage for the Saint"
+        ]
+    },
+    {
+        "query_id": "qa_50_2905",
+        "question": "Who is the author of the novel The Mermaid Chair?",
+        "answers": [
+            "Sue Monk Kidd"
+        ]
+    },
+    {
+        "query_id": "qa_50_2466",
+        "question": "When was the movie released?",
+        "answers": [
+            "November 14, 1968"
+        ]
+    },
+    {
+        "query_id": "qa_50_3593",
+        "question": "Who is the companion of the Seventh Doctor in 'Prime Time'?",
+        "answers": [
+            "Ace"
+        ]
+    },
+    {
+        "query_id": "qa_50_3392",
+        "question": "In what year was the play written?",
+        "answers": [
+            "A: '1945'"
+        ]
+    },
+    {
+        "query_id": "qa_50_2010",
+        "question": "Which other books in The Wheel of Time series have an epilogue, like 'Crossroads of Twilight'?",
+        "answers": [
+            "A"
+        ]
+    },
+    {
+        "query_id": "qa_50_602",
+        "question": "What musical is She Loves Me?",
+        "answers": [
+            "She Loves Me"
+        ]
+    },
+    {
+        "query_id": "qa_50_503",
+        "question": "What is the format of 'New Essays on Human Understanding'?",
+        "answers": [
+            "Dialogue"
+        ]
+    },
+    {
+        "query_id": "qa_50_4764",
+        "question": "What is the title of MK Asante's memoir?",
+        "answers": [
+            "Buck"
+        ]
+    },
+    {
+        "query_id": "qa_50_955",
+        "question": "Who were the writers of the experimental play 'Orghast' that was performed in 1971 at the Festival of Arts of Shiraz-Persepolis?",
+        "answers": [
+            "Peter Brook, Ted Hughes (Orghast)"
+        ]
+    },
+    {
+        "query_id": "qa_50_2827",
+        "question": "What is the Second Folio?",
+        "answers": [
+            "Second Folio"
+        ]
+    },
+    {
+        "query_id": "qa_50_1820",
+        "question": "Where does most of the action in The Balcony take place?",
+        "answers": [
+            "Most of the action in The Balcony takes place in an upmarket brothel."
+        ]
+    },
+    {
+        "query_id": "qa_50_1056",
+        "question": "How many obscure superheroes are featured in The Twelve?",
+        "answers": [
+            "The Twelve features 12 obscure superheroes."
+        ]
+    },
+    {
+        "query_id": "qa_50_2846",
+        "question": "What political movements does the author describe and analyze in her first major work, The Origins of Totalitarianism?",
+        "answers": [
+            "Nazism and Stalinism, first half of the 20th century"
+        ]
+    },
+    {
+        "query_id": "qa_50_488",
+        "question": "Who is Shirogane and what is her role in Karakuri Circus?",
+        "answers": [
+            "Shirogane: Harlequin, caretaker"
+        ]
+    },
+    {
+        "query_id": "qa_50_3374",
+        "question": "What specific policy does Peter Beinart oppose in his book?",
+        "answers": [
+            "Israeli settlements"
+        ]
+    },
+    {
+        "query_id": "qa_50_3349",
+        "question": "What publishing status does Gutsville have currently?",
+        "answers": [
+            "Limited series from Image Comics on hiatus since..."
+        ]
+    },
+    {
+        "query_id": "qa_50_2610",
+        "question": "What is the title of Louis Bromfield's 1926 novel that won the Pulitzer Prize in 1927?",
+        "answers": [
+            "Early Autumn"
+        ]
+    },
+    {
+        "query_id": "qa_50_1834",
+        "question": "What is a Q-ship?",
+        "answers": [
+            "A Q-ship is a type of ship used for decoy or ambush operations in the novel Honor Among Enemies."
+        ]
+    },
+    {
+        "query_id": "qa_50_210",
+        "question": "Who translated the first English edition of the novel?",
+        "answers": [
+            "Mary Howitt"
+        ]
+    },
+    {
+        "query_id": "qa_50_1681",
+        "question": "How should I prepare for the upcoming exam, based on the advice provided by the Rebbe in the text?",
+        "answers": [
+            "Make a study schedule and stick to it, incorporating breaks and review sessions as needed."
+        ]
+    },
+    {
+        "query_id": "qa_50_875",
+        "question": "How long did 'The Art of the Deal' stay at the number 1 position on The New York Times Best Seller list?",
+        "answers": [
+            "13 weeks"
+        ]
+    },
+    {
+        "query_id": "qa_50_3993",
+        "question": "What components make up the devices that are part of the Internet of Things (IoT)?",
+        "answers": [
+            "Electronics, software, sensors, and network connectivity"
+        ]
+    },
+    {
+        "query_id": "qa_50_3641",
+        "question": "How many times was the University of Oklahoma Press's English edition of Panzer Battles reprinted in the U.S. Between 1956 and 1976?",
+        "answers": [
+            "6 times"
+        ]
+    },
+    {
+        "query_id": "qa_50_2577",
+        "question": "How does the theme of good over evil play out in the Hardy Boys series, and what makes it resonate with readers?",
+        "answers": [
+            "Critics argue that the theme of good over evil is a significant factor in the Hardy Boys' popularity, as it is the triumph of this theme that has kept the series popular for so long."
+        ]
+    },
+    {
+        "query_id": "qa_50_1484",
+        "question": "What pen name does Michael Crichton use?",
+        "answers": [
+            "John Lange is Michael Crichton's pen name."
+        ]
+    },
+    {
+        "query_id": "qa_50_1915",
+        "question": "What is the name of the updaters of The New Partridge Dictionary of Slang and Unconventional English published in 2005?",
+        "answers": [
+            "Tom Dalzell, Terry Victor"
+        ]
+    },
+    {
+        "query_id": "qa_50_2914",
+        "question": "What is the title of the new book by Tamora Pierce?",
+        "answers": [
+            "The Will of the Empress"
+        ]
+    },
+    {
+        "query_id": "qa_50_2920",
+        "question": "What is the speaker's confusion in Sonnet 43 regarding the events in the previous three sonnets?",
+        "answers": [
+            "Uncertainty"
+        ]
+    },
+    {
+        "query_id": "qa_50_4326",
+        "question": "Who is the author of Tru Confessions?",
+        "answers": [
+            "Janet Tashjian"
+        ]
+    },
+    {
+        "query_id": "qa_50_4846",
+        "question": "Who does Alleyn meet in the novel to discuss international drug trafficking through Marseilles?",
+        "answers": [
+            "French police colleagues"
+        ]
+    },
+    {
+        "query_id": "qa_50_55",
+        "question": "Which theater did the play 'Picnic' premiere in?",
+        "answers": [
+            "a)"
+        ]
+    },
+    {
+        "query_id": "qa_50_1672",
+        "question": "What action is being described in 'love towards' as it relates to Sonnet 60?",
+        "answers": [
+            "The action described in 'love towards' as it relates to Sonnet 60 is the expression of love."
+        ]
+    },
+    {
+        "query_id": "qa_50_4115",
+        "question": "Who are the main characters in The Adventurous Four?",
+        "answers": [
+            "Twins Jill and Mary, elder brother Tom, fisher friend Andy"
+        ]
+    },
+    {
+        "query_id": "qa_50_1138",
+        "question": "What theme do the stories in 'The Mask of Cthulhu' belong to?",
+        "answers": [
+            "Cthulhu Mythos"
+        ]
+    },
+    {
+        "query_id": "qa_50_1856",
+        "question": "Why is all revolutionary activity based on terror, according to 'The Catechism of a Revolutionary'?",
+        "answers": [
+            "To instill fear and obedience in the oppressor and to demonstrate the revolutionary's power and determination."
+        ]
+    },
+    {
+        "query_id": "qa_50_2183",
+        "question": "What is Marigold's nickname in 'The Illustrated Mum'?",
+        "answers": [
+            "'the illustrated mum'"
+        ]
+    },
+    {
+        "query_id": "qa_50_982",
+        "question": "Which two major characters from 'A Caribbean Mystery' reappear in another Agatha Christie novel published in 1971?",
+        "answers": [
+            "Jason Rafiel, Esther Walters"
+        ]
+    },
+    {
+        "query_id": "qa_50_4063",
+        "question": "When was the play Sakharam Binder banned in India?",
+        "answers": [
+            "Banned in India in 1974"
+        ]
+    },
+    {
+        "query_id": "qa_50_1337",
+        "question": "In which science fiction magazine did 'A Saucer of Loneliness' first appear?",
+        "answers": [
+            "Galaxy Science Fiction"
+        ]
+    },
+    {
+        "query_id": "qa_50_4417",
+        "question": "In what year was the painting used for the cover art created?",
+        "answers": [
+            "1884"
+        ]
+    },
+    {
+        "query_id": "qa_50_3081",
+        "question": "What is the title of the children's novel by Robin Klein published by Puffin Books in 1983?",
+        "answers": [
+            "People Might Hear You"
+        ]
+    },
+    {
+        "query_id": "qa_50_1333",
+        "question": "Which genera of pitcher plants are covered in the other volume of the comprehensive work on the Sarraceniaceae family?",
+        "answers": [
+            "Darlingtonia and Sarracenia"
+        ]
+    },
+    {
+        "query_id": "qa_50_559",
+        "question": "When was the novel 'Night Without End' by Alistair MacLean first published?",
+        "answers": [
+            "Year: 1959"
+        ]
+    },
+    {
+        "query_id": "qa_50_3213",
+        "question": "Who is the main protagonist featured in Raise the Titanic!?",
+        "answers": [
+            "Dirk Pitt"
+        ]
+    },
+    {
+        "query_id": "qa_50_4885",
+        "question": "How does physics relate to geometry?",
+        "answers": [
+            "Physics can be understood as a type of geometry."
+        ]
+    },
+    {
+        "query_id": "qa_50_1977",
+        "question": "In what year was Shadow Country published?",
+        "answers": [
+            "2008"
+        ]
+    },
+    {
+        "query_id": "qa_50_4620",
+        "question": "How well-known is the novella in Italy?",
+        "answers": [
+            "widely known and appreciated in Italy"
+        ]
+    },
+    {
+        "query_id": "qa_50_2700",
+        "question": "What type of comic book series is Yakari?",
+        "answers": [
+            "Franco-Belgian comic book series"
+        ]
+    },
+    {
+        "query_id": "qa_50_938",
+        "question": "How many volumes are in the original Nancy Drew Mystery Stories series, and which volume is The Thirteenth Pearl?",
+        "answers": [
+            "56th volume, The Thirteenth Pearl"
+        ]
+    },
+    {
+        "query_id": "qa_50_3682",
+        "question": "What is the title of Peter Mayle's 1989 memoir about his first year in Provence?",
+        "answers": [
+            "Answer: A Year in Provence"
+        ]
+    },
+    {
+        "query_id": "qa_50_1807",
+        "question": "Who wrote the final masque for the Stuart Court?",
+        "answers": [
+            "Ben Jonson wrote"
+        ]
+    },
+    {
+        "query_id": "qa_50_3986",
+        "question": "What is the nature of the universe as discussed in Sir James Jeans' book, \"The Mysterious Universe\"?",
+        "answers": [
+            "The book explores the enigmatic character of the cosmos as explained by Sir James Jeans."
+        ]
+    },
+    {
+        "query_id": "qa_50_3201",
+        "question": "What nationality is Robert Graves?",
+        "answers": [
+            "British"
+        ]
+    },
+    {
+        "query_id": "qa_50_46",
+        "question": "What is the significance of the term 'Abba' in the title of ABBA by Anthony Burgess?",
+        "answers": [
+            "'Abba' refers to Christ's prayer and is also the rhyme scheme used by both Keats and Belli in ABBA by Anthony Burgess"
+        ]
+    },
+    {
+        "query_id": "qa_50_3676",
+        "question": "What is the long-lost celestial robe of Ceres in Ceres, Celestial Legend?",
+        "answers": [
+            "A: The long-lost celestial robe of Ceres is a significant object in Ceres, Celestial Legend."
+        ]
+    },
+    {
+        "query_id": "qa_50_4195",
+        "question": "How many feminists from Canada are featured in Judy Rebick's book about the history of feminism?",
+        "answers": [
+            "Over 100"
+        ]
+    },
+    {
+        "query_id": "qa_50_1987",
+        "question": "Who is the main character in 'The Smile That Wins'?",
+        "answers": [
+            "Main char: Mr. Mulliner"
+        ]
+    },
+    {
+        "query_id": "qa_50_81",
+        "question": "Who is Sonia Sotomayor?",
+        "answers": [
+            "Sonia Sotomayor"
+        ]
+    },
+    {
+        "query_id": "qa_50_3326",
+        "question": "Who is the author of Experience?",
+        "answers": [
+            "Martin Amis"
+        ]
+    },
+    {
+        "query_id": "qa_50_3470",
+        "question": "In what year was Hawke, Ted Bell's novel published by Atria Books, released?",
+        "answers": [
+            "2003"
+        ]
+    },
+    {
+        "query_id": "qa_50_2646",
+        "question": "When did the novels in this series first appear?",
+        "answers": [
+            "Late 1970s"
+        ]
+    },
+    {
+        "query_id": "qa_50_3278",
+        "question": "What issues does the book Dead Man Walking examine related to the convicted murderers and the death penalty?",
+        "answers": [
+            "Moral issues related to..."
+        ]
+    },
+    {
+        "query_id": "qa_50_3815",
+        "question": "What is the name of the main character in Susan Cooper's 'The Dark Is Rising'?",
+        "answers": [
+            "Answer: Will Stanton"
+        ]
+    },
+    {
+        "query_id": "qa_50_4091",
+        "question": "What is the title of Patricia Highsmith's 1977 psychological thriller novel published by Heinemann?",
+        "answers": [
+            "Edith's Diary"
+        ]
+    },
+    {
+        "query_id": "qa_50_2934",
+        "question": "What is At-Tibyan Fi Tafsir al-Quran?",
+        "answers": [
+            "At-Tibyan Fi Tafsir al-Quran is an exegesis of the Quran in ten volumes written by Shaykh Tusi."
+        ]
+    },
+    {
+        "query_id": "qa_50_2882",
+        "question": "In what languages has the book 'Fiela's Child' been translated?",
+        "answers": [
+            "English, German, French, Hebrew, Dutch, Slovene, Swedish"
+        ]
+    },
+    {
+        "query_id": "qa_50_3874",
+        "question": "What is the age of Ell\u00e9nore in Adolphe?",
+        "answers": [
+            "O"
+        ]
+    },
+    {
+        "query_id": "qa_50_1546",
+        "question": "When did the author die?",
+        "answers": [
+            "September 16, 2007"
+        ]
+    },
+    {
+        "query_id": "qa_50_2516",
+        "question": "Who played the role of Ethel in the first production of the play?",
+        "answers": [
+            "Lillian Gish"
+        ]
+    },
+    {
+        "query_id": "qa_50_1884",
+        "question": "Who chose 'Fairy Tales' as one of their five best children's stories of all time, and why?",
+        "answers": [
+            "Children's Laureate Michael Rosen chose 'Fairy Tales' as one of his five best children's stories of all time."
+        ]
+    },
+    {
+        "query_id": "qa_50_3735",
+        "question": "What is the main plot of The World of Poo?",
+        "answers": [
+            "Collects samples of poo"
+        ]
+    },
+    {
+        "query_id": "qa_50_3522",
+        "question": "What is the title of Steve Carter's 1981 play set in the Caribbean?",
+        "answers": [
+            "Dame Lorraine"
+        ]
+    },
+    {
+        "query_id": "qa_50_3085",
+        "question": "What genre is the children's novel 'People Might Hear You'?",
+        "answers": [
+            "children's novel"
+        ]
+    },
+    {
+        "query_id": "qa_50_3099",
+        "question": "What are the characteristics of the group of Jewish thugs in the stories?",
+        "answers": [
+            "Jewish gang"
+        ]
+    },
+    {
+        "query_id": "qa_50_3985",
+        "question": "How is the setting of the play revealed?",
+        "answers": [
+            "gradually"
+        ]
+    }
+]

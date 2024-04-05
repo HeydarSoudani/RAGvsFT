@@ -27,7 +27,7 @@ import nltk
 nltk.download('punkt')
 
 ### === Constants =====================  
-dataset_name = 'witQA' # [popQA, witQA, EQ]
+dataset_name = 'popQA' # [popQA, witQA, EQ]
 
 # PopQA
 if dataset_name == 'popQA':
@@ -1159,11 +1159,8 @@ def main(args):
     # check_entities()
     # add_empty_entities()
     
-    ### ==== Step 3: Creating train & dev & qrels-train files ============
-    # Done: 
-    # Doing: 
-    # To Do:
-    idx = 11
+    ### ==== Step 3: Creating train & dev & qrels-train files =========
+    idx = 13
     relation_id = relation_ids[idx]
     print("Dataset: {}, Idx: {}, Relation Id: {}".format(dataset_name, idx, relation_id))
     # create_train_and_dev_files_pipeline(args, relation_id=relation_id) # T5-based model

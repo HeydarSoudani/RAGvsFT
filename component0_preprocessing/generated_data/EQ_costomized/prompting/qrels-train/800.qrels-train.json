@@ -1,0 +1,5197 @@
+[
+    {
+        "query_id": "qa_800_0",
+        "doc_id": "800_29058",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1",
+        "doc_id": "800_29058",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_2",
+        "doc_id": "800_29058",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_3",
+        "doc_id": "800_29058",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_4",
+        "doc_id": "800_29062",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_5",
+        "doc_id": "800_29062",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_6",
+        "doc_id": "800_29062",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_7",
+        "doc_id": "800_29068",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_8",
+        "doc_id": "800_29068",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_9",
+        "doc_id": "800_29068",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_10",
+        "doc_id": "800_29068",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_11",
+        "doc_id": "800_29068",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_12",
+        "doc_id": "800_29068",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_13",
+        "doc_id": "800_29073",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_14",
+        "doc_id": "800_29073",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_15",
+        "doc_id": "800_29073",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_16",
+        "doc_id": "800_29073",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_17",
+        "doc_id": "800_29077",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_18",
+        "doc_id": "800_29077",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_19",
+        "doc_id": "800_29077",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_20",
+        "doc_id": "800_29077",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_21",
+        "doc_id": "800_29077",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_22",
+        "doc_id": "800_29077",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_23",
+        "doc_id": "800_29080",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_24",
+        "doc_id": "800_29080",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_25",
+        "doc_id": "800_29080",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_26",
+        "doc_id": "800_29080",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_27",
+        "doc_id": "800_29080",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_28",
+        "doc_id": "800_29083",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_29",
+        "doc_id": "800_29083",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_30",
+        "doc_id": "800_29086",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_31",
+        "doc_id": "800_29086",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_32",
+        "doc_id": "800_29086",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_33",
+        "doc_id": "800_29088",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_34",
+        "doc_id": "800_29088",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_35",
+        "doc_id": "800_29090",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_36",
+        "doc_id": "800_29090",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_37",
+        "doc_id": "800_29090",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_38",
+        "doc_id": "800_29090",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_39",
+        "doc_id": "800_29090",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_40",
+        "doc_id": "800_29090",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_41",
+        "doc_id": "800_29090",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_42",
+        "doc_id": "800_29097",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_43",
+        "doc_id": "800_29097",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_44",
+        "doc_id": "800_29097",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_45",
+        "doc_id": "800_29097",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_46",
+        "doc_id": "800_29097",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_47",
+        "doc_id": "800_29097",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_48",
+        "doc_id": "800_29097",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_49",
+        "doc_id": "800_29103",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_50",
+        "doc_id": "800_29103",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_51",
+        "doc_id": "800_29103",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_52",
+        "doc_id": "800_29103",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_53",
+        "doc_id": "800_29103",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_54",
+        "doc_id": "800_29103",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_55",
+        "doc_id": "800_29103",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_56",
+        "doc_id": "800_29109",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_57",
+        "doc_id": "800_29109",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_58",
+        "doc_id": "800_29109",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_59",
+        "doc_id": "800_29109",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_60",
+        "doc_id": "800_29109",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_61",
+        "doc_id": "800_29109",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_62",
+        "doc_id": "800_29113",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_63",
+        "doc_id": "800_29113",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_64",
+        "doc_id": "800_29113",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_65",
+        "doc_id": "800_29116",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_66",
+        "doc_id": "800_29116",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_67",
+        "doc_id": "800_29116",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_68",
+        "doc_id": "800_29116",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_69",
+        "doc_id": "800_29116",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_70",
+        "doc_id": "800_29122",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_71",
+        "doc_id": "800_29122",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_72",
+        "doc_id": "800_29122",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_73",
+        "doc_id": "800_29122",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_74",
+        "doc_id": "800_29122",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_75",
+        "doc_id": "800_29122",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_76",
+        "doc_id": "800_29122",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_77",
+        "doc_id": "800_29122",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_78",
+        "doc_id": "800_29122",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_79",
+        "doc_id": "800_29122",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_80",
+        "doc_id": "800_29122",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_81",
+        "doc_id": "800_29122",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_82",
+        "doc_id": "800_29122",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_83",
+        "doc_id": "800_29122",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_84",
+        "doc_id": "800_29129",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_85",
+        "doc_id": "800_29129",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_86",
+        "doc_id": "800_29129",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_87",
+        "doc_id": "800_29129",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_88",
+        "doc_id": "800_29129",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_89",
+        "doc_id": "800_29129",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_90",
+        "doc_id": "800_29131",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_91",
+        "doc_id": "800_29131",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_92",
+        "doc_id": "800_29131",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_93",
+        "doc_id": "800_29136",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_94",
+        "doc_id": "800_29136",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_95",
+        "doc_id": "800_29136",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_96",
+        "doc_id": "800_29136",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_97",
+        "doc_id": "800_29136",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_98",
+        "doc_id": "800_29136",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_99",
+        "doc_id": "800_29136",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_100",
+        "doc_id": "800_29138",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_101",
+        "doc_id": "800_29138",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_102",
+        "doc_id": "800_29138",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_103",
+        "doc_id": "800_29138",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_104",
+        "doc_id": "800_29138",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_105",
+        "doc_id": "800_29138",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_106",
+        "doc_id": "800_29138",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_107",
+        "doc_id": "800_29138",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_108",
+        "doc_id": "800_29138",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_109",
+        "doc_id": "800_29143",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_110",
+        "doc_id": "800_29143",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_111",
+        "doc_id": "800_29143",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_112",
+        "doc_id": "800_29143",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_113",
+        "doc_id": "800_29143",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_114",
+        "doc_id": "800_29143",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_115",
+        "doc_id": "800_29145",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_116",
+        "doc_id": "800_29145",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_117",
+        "doc_id": "800_29145",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_118",
+        "doc_id": "800_29145",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_119",
+        "doc_id": "800_29145",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_120",
+        "doc_id": "800_29156",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_121",
+        "doc_id": "800_29156",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_122",
+        "doc_id": "800_29156",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_123",
+        "doc_id": "800_29156",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_124",
+        "doc_id": "800_29156",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_125",
+        "doc_id": "800_29156",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_126",
+        "doc_id": "800_29159",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_127",
+        "doc_id": "800_29159",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_128",
+        "doc_id": "800_29159",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_129",
+        "doc_id": "800_29159",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_130",
+        "doc_id": "800_29164",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_131",
+        "doc_id": "800_29164",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_132",
+        "doc_id": "800_29164",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_133",
+        "doc_id": "800_29164",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_134",
+        "doc_id": "800_29164",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_135",
+        "doc_id": "800_29164",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_136",
+        "doc_id": "800_29165",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_137",
+        "doc_id": "800_29165",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_138",
+        "doc_id": "800_29165",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_139",
+        "doc_id": "800_29165",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_140",
+        "doc_id": "800_29169",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_141",
+        "doc_id": "800_29169",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_142",
+        "doc_id": "800_29169",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_143",
+        "doc_id": "800_29169",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_144",
+        "doc_id": "800_29169",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_145",
+        "doc_id": "800_29174",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_146",
+        "doc_id": "800_29174",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_147",
+        "doc_id": "800_29174",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_148",
+        "doc_id": "800_29174",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_149",
+        "doc_id": "800_29174",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_150",
+        "doc_id": "800_29174",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_151",
+        "doc_id": "800_29176",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_152",
+        "doc_id": "800_29176",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_153",
+        "doc_id": "800_29176",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_154",
+        "doc_id": "800_29176",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_155",
+        "doc_id": "800_29176",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_156",
+        "doc_id": "800_29176",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_157",
+        "doc_id": "800_29176",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_158",
+        "doc_id": "800_29179",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_159",
+        "doc_id": "800_29179",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_160",
+        "doc_id": "800_29179",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_161",
+        "doc_id": "800_29179",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_162",
+        "doc_id": "800_29179",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_163",
+        "doc_id": "800_29179",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_164",
+        "doc_id": "800_29179",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_165",
+        "doc_id": "800_29179",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_166",
+        "doc_id": "800_29179",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_167",
+        "doc_id": "800_29179",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_168",
+        "doc_id": "800_29179",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_169",
+        "doc_id": "800_29179",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_170",
+        "doc_id": "800_29179",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_171",
+        "doc_id": "800_29187",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_172",
+        "doc_id": "800_29187",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_173",
+        "doc_id": "800_29187",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_174",
+        "doc_id": "800_29187",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_175",
+        "doc_id": "800_29187",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_176",
+        "doc_id": "800_29187",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_177",
+        "doc_id": "800_29187",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_178",
+        "doc_id": "800_29187",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_179",
+        "doc_id": "800_29187",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_180",
+        "doc_id": "800_29187",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_181",
+        "doc_id": "800_29187",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_182",
+        "doc_id": "800_29190",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_183",
+        "doc_id": "800_29190",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_184",
+        "doc_id": "800_29190",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_185",
+        "doc_id": "800_29190",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_186",
+        "doc_id": "800_29190",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_187",
+        "doc_id": "800_29206",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_188",
+        "doc_id": "800_29206",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_189",
+        "doc_id": "800_29206",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_190",
+        "doc_id": "800_29211",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_191",
+        "doc_id": "800_29211",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_192",
+        "doc_id": "800_29211",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_193",
+        "doc_id": "800_29211",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_194",
+        "doc_id": "800_29212",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_195",
+        "doc_id": "800_29212",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_196",
+        "doc_id": "800_29212",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_197",
+        "doc_id": "800_29212",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_198",
+        "doc_id": "800_29214",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_199",
+        "doc_id": "800_29214",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_200",
+        "doc_id": "800_29214",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_201",
+        "doc_id": "800_29214",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_202",
+        "doc_id": "800_29214",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_203",
+        "doc_id": "800_29214",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_204",
+        "doc_id": "800_29216",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_205",
+        "doc_id": "800_29216",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_206",
+        "doc_id": "800_29216",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_207",
+        "doc_id": "800_29216",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_208",
+        "doc_id": "800_29223",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_209",
+        "doc_id": "800_29223",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_210",
+        "doc_id": "800_29223",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_211",
+        "doc_id": "800_29223",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_212",
+        "doc_id": "800_29223",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_213",
+        "doc_id": "800_29223",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_214",
+        "doc_id": "800_29223",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_215",
+        "doc_id": "800_29223",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_216",
+        "doc_id": "800_29223",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_217",
+        "doc_id": "800_29223",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_218",
+        "doc_id": "800_29223",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_219",
+        "doc_id": "800_29223",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_220",
+        "doc_id": "800_29223",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_221",
+        "doc_id": "800_29225",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_222",
+        "doc_id": "800_29225",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_223",
+        "doc_id": "800_29225",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_224",
+        "doc_id": "800_29225",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_225",
+        "doc_id": "800_29225",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_226",
+        "doc_id": "800_29228",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_227",
+        "doc_id": "800_29228",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_228",
+        "doc_id": "800_29228",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_229",
+        "doc_id": "800_29228",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_230",
+        "doc_id": "800_29228",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_231",
+        "doc_id": "800_29228",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_232",
+        "doc_id": "800_29228",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_233",
+        "doc_id": "800_29228",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_234",
+        "doc_id": "800_29228",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_235",
+        "doc_id": "800_29228",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_236",
+        "doc_id": "800_29235",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_237",
+        "doc_id": "800_29235",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_238",
+        "doc_id": "800_29235",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_239",
+        "doc_id": "800_29239",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_240",
+        "doc_id": "800_29239",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_241",
+        "doc_id": "800_29239",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_242",
+        "doc_id": "800_29241",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_243",
+        "doc_id": "800_29241",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_244",
+        "doc_id": "800_29241",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_245",
+        "doc_id": "800_29241",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_246",
+        "doc_id": "800_29241",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_247",
+        "doc_id": "800_29241",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_248",
+        "doc_id": "800_29245",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_249",
+        "doc_id": "800_29245",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_250",
+        "doc_id": "800_29245",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_251",
+        "doc_id": "800_29245",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_252",
+        "doc_id": "800_29245",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_253",
+        "doc_id": "800_29245",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_254",
+        "doc_id": "800_29245",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_255",
+        "doc_id": "800_29245",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_256",
+        "doc_id": "800_29255",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_257",
+        "doc_id": "800_29255",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_258",
+        "doc_id": "800_29255",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_259",
+        "doc_id": "800_29255",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_260",
+        "doc_id": "800_29255",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_261",
+        "doc_id": "800_29255",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_262",
+        "doc_id": "800_29257",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_263",
+        "doc_id": "800_29257",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_264",
+        "doc_id": "800_29257",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_265",
+        "doc_id": "800_29257",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_266",
+        "doc_id": "800_29257",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_267",
+        "doc_id": "800_29260",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_268",
+        "doc_id": "800_29260",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_269",
+        "doc_id": "800_29260",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_270",
+        "doc_id": "800_29266",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_271",
+        "doc_id": "800_29266",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_272",
+        "doc_id": "800_29266",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_273",
+        "doc_id": "800_29266",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_274",
+        "doc_id": "800_29266",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_275",
+        "doc_id": "800_29266",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_276",
+        "doc_id": "800_29266",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_277",
+        "doc_id": "800_29272",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_278",
+        "doc_id": "800_29272",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_279",
+        "doc_id": "800_29272",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_280",
+        "doc_id": "800_29272",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_281",
+        "doc_id": "800_29272",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_282",
+        "doc_id": "800_29278",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_283",
+        "doc_id": "800_29278",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_284",
+        "doc_id": "800_29278",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_285",
+        "doc_id": "800_29278",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_286",
+        "doc_id": "800_29278",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_287",
+        "doc_id": "800_29278",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_288",
+        "doc_id": "800_29278",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_289",
+        "doc_id": "800_29278",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_290",
+        "doc_id": "800_29278",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_291",
+        "doc_id": "800_29278",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_292",
+        "doc_id": "800_29280",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_293",
+        "doc_id": "800_29280",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_294",
+        "doc_id": "800_29280",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_295",
+        "doc_id": "800_29280",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_296",
+        "doc_id": "800_29289",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_297",
+        "doc_id": "800_29289",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_298",
+        "doc_id": "800_29289",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_299",
+        "doc_id": "800_29292",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_300",
+        "doc_id": "800_29292",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_301",
+        "doc_id": "800_29292",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_302",
+        "doc_id": "800_29292",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_303",
+        "doc_id": "800_29301",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_304",
+        "doc_id": "800_29301",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_305",
+        "doc_id": "800_29301",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_306",
+        "doc_id": "800_29301",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_307",
+        "doc_id": "800_29301",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_308",
+        "doc_id": "800_29301",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_309",
+        "doc_id": "800_29309",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_310",
+        "doc_id": "800_29309",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_311",
+        "doc_id": "800_29309",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_312",
+        "doc_id": "800_29309",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_313",
+        "doc_id": "800_29310",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_314",
+        "doc_id": "800_29310",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_315",
+        "doc_id": "800_29310",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_316",
+        "doc_id": "800_29310",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_317",
+        "doc_id": "800_29312",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_318",
+        "doc_id": "800_29312",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_319",
+        "doc_id": "800_29312",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_320",
+        "doc_id": "800_29312",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_321",
+        "doc_id": "800_29312",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_322",
+        "doc_id": "800_29318",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_323",
+        "doc_id": "800_29318",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_324",
+        "doc_id": "800_29318",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_325",
+        "doc_id": "800_29318",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_326",
+        "doc_id": "800_29318",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_327",
+        "doc_id": "800_29318",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_328",
+        "doc_id": "800_29318",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_329",
+        "doc_id": "800_29318",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_330",
+        "doc_id": "800_29318",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_331",
+        "doc_id": "800_29327",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_332",
+        "doc_id": "800_29327",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_333",
+        "doc_id": "800_29327",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_334",
+        "doc_id": "800_29327",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_335",
+        "doc_id": "800_29327",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_336",
+        "doc_id": "800_29334",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_337",
+        "doc_id": "800_29334",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_338",
+        "doc_id": "800_29334",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_339",
+        "doc_id": "800_29334",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_340",
+        "doc_id": "800_29334",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_341",
+        "doc_id": "800_29334",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_342",
+        "doc_id": "800_29334",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_343",
+        "doc_id": "800_29338",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_344",
+        "doc_id": "800_29338",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_345",
+        "doc_id": "800_29338",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_346",
+        "doc_id": "800_29338",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_347",
+        "doc_id": "800_29338",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_348",
+        "doc_id": "800_29338",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_349",
+        "doc_id": "800_29341",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_350",
+        "doc_id": "800_29344",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_351",
+        "doc_id": "800_29344",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_352",
+        "doc_id": "800_29344",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_353",
+        "doc_id": "800_29344",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_354",
+        "doc_id": "800_29346",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_355",
+        "doc_id": "800_29346",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_356",
+        "doc_id": "800_29346",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_357",
+        "doc_id": "800_29348",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_358",
+        "doc_id": "800_29348",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_359",
+        "doc_id": "800_29352",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_360",
+        "doc_id": "800_29352",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_361",
+        "doc_id": "800_29352",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_362",
+        "doc_id": "800_29352",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_363",
+        "doc_id": "800_29354",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_364",
+        "doc_id": "800_29354",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_365",
+        "doc_id": "800_29354",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_366",
+        "doc_id": "800_29354",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_367",
+        "doc_id": "800_29354",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_368",
+        "doc_id": "800_29354",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_369",
+        "doc_id": "800_29354",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_370",
+        "doc_id": "800_29354",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_371",
+        "doc_id": "800_29357",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_372",
+        "doc_id": "800_29357",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_373",
+        "doc_id": "800_29357",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_374",
+        "doc_id": "800_29357",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_375",
+        "doc_id": "800_29357",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_376",
+        "doc_id": "800_29357",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_377",
+        "doc_id": "800_29357",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_378",
+        "doc_id": "800_29359",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_379",
+        "doc_id": "800_29359",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_380",
+        "doc_id": "800_29359",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_381",
+        "doc_id": "800_29359",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_382",
+        "doc_id": "800_29365",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_383",
+        "doc_id": "800_29365",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_384",
+        "doc_id": "800_29365",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_385",
+        "doc_id": "800_29366",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_386",
+        "doc_id": "800_29366",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_387",
+        "doc_id": "800_29368",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_388",
+        "doc_id": "800_29368",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_389",
+        "doc_id": "800_29368",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_390",
+        "doc_id": "800_29369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_391",
+        "doc_id": "800_29369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_392",
+        "doc_id": "800_29369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_393",
+        "doc_id": "800_29369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_394",
+        "doc_id": "800_29369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_395",
+        "doc_id": "800_29369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_396",
+        "doc_id": "800_29369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_397",
+        "doc_id": "800_29369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_398",
+        "doc_id": "800_29369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_399",
+        "doc_id": "800_29369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_400",
+        "doc_id": "800_29369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_401",
+        "doc_id": "800_29369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_402",
+        "doc_id": "800_29369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_403",
+        "doc_id": "800_29375",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_404",
+        "doc_id": "800_29375",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_405",
+        "doc_id": "800_29375",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_406",
+        "doc_id": "800_29375",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_407",
+        "doc_id": "800_29375",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_408",
+        "doc_id": "800_29381",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_409",
+        "doc_id": "800_29381",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_410",
+        "doc_id": "800_29381",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_411",
+        "doc_id": "800_29381",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_412",
+        "doc_id": "800_29381",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_413",
+        "doc_id": "800_29381",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_414",
+        "doc_id": "800_29385",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_415",
+        "doc_id": "800_29385",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_416",
+        "doc_id": "800_29385",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_417",
+        "doc_id": "800_29385",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_418",
+        "doc_id": "800_29385",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_419",
+        "doc_id": "800_29385",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_420",
+        "doc_id": "800_29385",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_421",
+        "doc_id": "800_29385",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_422",
+        "doc_id": "800_29385",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_423",
+        "doc_id": "800_29385",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_424",
+        "doc_id": "800_29385",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_425",
+        "doc_id": "800_29388",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_426",
+        "doc_id": "800_29388",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_427",
+        "doc_id": "800_29388",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_428",
+        "doc_id": "800_29388",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_429",
+        "doc_id": "800_29395",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_430",
+        "doc_id": "800_29396",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_431",
+        "doc_id": "800_29396",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_432",
+        "doc_id": "800_29396",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_433",
+        "doc_id": "800_29396",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_434",
+        "doc_id": "800_29396",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_435",
+        "doc_id": "800_29398",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_436",
+        "doc_id": "800_29398",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_437",
+        "doc_id": "800_29398",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_438",
+        "doc_id": "800_29398",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_439",
+        "doc_id": "800_29398",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_440",
+        "doc_id": "800_29398",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_441",
+        "doc_id": "800_29402",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_442",
+        "doc_id": "800_29402",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_443",
+        "doc_id": "800_29402",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_444",
+        "doc_id": "800_29402",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_445",
+        "doc_id": "800_29404",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_446",
+        "doc_id": "800_29404",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_447",
+        "doc_id": "800_29404",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_448",
+        "doc_id": "800_29404",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_449",
+        "doc_id": "800_29404",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_450",
+        "doc_id": "800_29404",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_451",
+        "doc_id": "800_29404",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_452",
+        "doc_id": "800_29404",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_453",
+        "doc_id": "800_29408",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_454",
+        "doc_id": "800_29413",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_455",
+        "doc_id": "800_29413",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_456",
+        "doc_id": "800_29413",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_457",
+        "doc_id": "800_29413",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_458",
+        "doc_id": "800_29414",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_459",
+        "doc_id": "800_29416",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_460",
+        "doc_id": "800_29416",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_461",
+        "doc_id": "800_29416",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_462",
+        "doc_id": "800_29420",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_463",
+        "doc_id": "800_29420",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_464",
+        "doc_id": "800_29420",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_465",
+        "doc_id": "800_29420",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_466",
+        "doc_id": "800_29420",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_467",
+        "doc_id": "800_29421",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_468",
+        "doc_id": "800_29421",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_469",
+        "doc_id": "800_29421",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_470",
+        "doc_id": "800_29421",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_471",
+        "doc_id": "800_29423",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_472",
+        "doc_id": "800_29423",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_473",
+        "doc_id": "800_29423",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_474",
+        "doc_id": "800_29423",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_475",
+        "doc_id": "800_29423",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_476",
+        "doc_id": "800_29424",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_477",
+        "doc_id": "800_29424",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_478",
+        "doc_id": "800_29424",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_479",
+        "doc_id": "800_29424",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_480",
+        "doc_id": "800_29424",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_481",
+        "doc_id": "800_29428",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_482",
+        "doc_id": "800_29428",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_483",
+        "doc_id": "800_29428",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_484",
+        "doc_id": "800_29428",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_485",
+        "doc_id": "800_29428",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_486",
+        "doc_id": "800_29428",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_487",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_488",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_489",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_490",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_491",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_492",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_493",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_494",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_495",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_496",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_497",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_498",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_499",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_500",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_501",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_502",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_503",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_504",
+        "doc_id": "800_29433",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_505",
+        "doc_id": "800_29436",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_506",
+        "doc_id": "800_29436",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_507",
+        "doc_id": "800_29439",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_508",
+        "doc_id": "800_29443",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_509",
+        "doc_id": "800_29443",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_510",
+        "doc_id": "800_29443",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_511",
+        "doc_id": "800_29443",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_512",
+        "doc_id": "800_29443",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_513",
+        "doc_id": "800_29458",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_514",
+        "doc_id": "800_29458",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_515",
+        "doc_id": "800_29458",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_516",
+        "doc_id": "800_29458",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_517",
+        "doc_id": "800_29458",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_518",
+        "doc_id": "800_29458",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_519",
+        "doc_id": "800_29458",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_520",
+        "doc_id": "800_29458",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_521",
+        "doc_id": "800_29461",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_522",
+        "doc_id": "800_29461",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_523",
+        "doc_id": "800_29461",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_524",
+        "doc_id": "800_29461",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_525",
+        "doc_id": "800_29461",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_526",
+        "doc_id": "800_29461",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_527",
+        "doc_id": "800_29461",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_528",
+        "doc_id": "800_29461",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_529",
+        "doc_id": "800_29462",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_530",
+        "doc_id": "800_29462",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_531",
+        "doc_id": "800_29462",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_532",
+        "doc_id": "800_29462",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_533",
+        "doc_id": "800_29462",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_534",
+        "doc_id": "800_29462",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_535",
+        "doc_id": "800_29463",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_536",
+        "doc_id": "800_29463",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_537",
+        "doc_id": "800_29463",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_538",
+        "doc_id": "800_29467",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_539",
+        "doc_id": "800_29467",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_540",
+        "doc_id": "800_29467",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_541",
+        "doc_id": "800_29474",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_542",
+        "doc_id": "800_29474",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_543",
+        "doc_id": "800_29474",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_544",
+        "doc_id": "800_29474",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_545",
+        "doc_id": "800_29474",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_546",
+        "doc_id": "800_29474",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_547",
+        "doc_id": "800_29476",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_548",
+        "doc_id": "800_29476",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_549",
+        "doc_id": "800_29476",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_550",
+        "doc_id": "800_29476",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_551",
+        "doc_id": "800_29476",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_552",
+        "doc_id": "800_29476",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_553",
+        "doc_id": "800_29476",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_554",
+        "doc_id": "800_29476",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_555",
+        "doc_id": "800_29476",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_556",
+        "doc_id": "800_29478",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_557",
+        "doc_id": "800_29478",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_558",
+        "doc_id": "800_29478",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_559",
+        "doc_id": "800_29478",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_560",
+        "doc_id": "800_29478",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_561",
+        "doc_id": "800_29478",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_562",
+        "doc_id": "800_29484",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_563",
+        "doc_id": "800_29484",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_564",
+        "doc_id": "800_29490",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_565",
+        "doc_id": "800_29490",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_566",
+        "doc_id": "800_29490",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_567",
+        "doc_id": "800_29492",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_568",
+        "doc_id": "800_29492",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_569",
+        "doc_id": "800_29492",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_570",
+        "doc_id": "800_29492",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_571",
+        "doc_id": "800_29492",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_572",
+        "doc_id": "800_29494",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_573",
+        "doc_id": "800_29494",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_574",
+        "doc_id": "800_29494",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_575",
+        "doc_id": "800_29494",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_576",
+        "doc_id": "800_29494",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_577",
+        "doc_id": "800_29494",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_578",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_579",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_580",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_581",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_582",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_583",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_584",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_585",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_586",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_587",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_588",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_589",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_590",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_591",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_592",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_593",
+        "doc_id": "800_29498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_594",
+        "doc_id": "800_29510",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_595",
+        "doc_id": "800_29510",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_596",
+        "doc_id": "800_29510",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_597",
+        "doc_id": "800_29510",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_598",
+        "doc_id": "800_29510",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_599",
+        "doc_id": "800_29510",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_600",
+        "doc_id": "800_29510",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_601",
+        "doc_id": "800_29510",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_602",
+        "doc_id": "800_29512",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_603",
+        "doc_id": "800_29512",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_604",
+        "doc_id": "800_29512",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_605",
+        "doc_id": "800_29523",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_606",
+        "doc_id": "800_29523",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_607",
+        "doc_id": "800_29523",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_608",
+        "doc_id": "800_29523",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_609",
+        "doc_id": "800_29523",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_610",
+        "doc_id": "800_29523",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_611",
+        "doc_id": "800_29529",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_612",
+        "doc_id": "800_29529",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_613",
+        "doc_id": "800_29531",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_614",
+        "doc_id": "800_29531",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_615",
+        "doc_id": "800_29531",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_616",
+        "doc_id": "800_29531",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_617",
+        "doc_id": "800_29536",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_618",
+        "doc_id": "800_29536",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_619",
+        "doc_id": "800_29536",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_620",
+        "doc_id": "800_29536",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_621",
+        "doc_id": "800_29536",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_622",
+        "doc_id": "800_29540",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_623",
+        "doc_id": "800_29540",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_624",
+        "doc_id": "800_29540",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_625",
+        "doc_id": "800_29540",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_626",
+        "doc_id": "800_29540",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_627",
+        "doc_id": "800_29548",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_628",
+        "doc_id": "800_29548",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_629",
+        "doc_id": "800_29548",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_630",
+        "doc_id": "800_29548",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_631",
+        "doc_id": "800_29548",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_632",
+        "doc_id": "800_29548",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_633",
+        "doc_id": "800_29552",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_634",
+        "doc_id": "800_29552",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_635",
+        "doc_id": "800_29552",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_636",
+        "doc_id": "800_29552",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_637",
+        "doc_id": "800_29552",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_638",
+        "doc_id": "800_29559",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_639",
+        "doc_id": "800_29559",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_640",
+        "doc_id": "800_29563",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_641",
+        "doc_id": "800_29563",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_642",
+        "doc_id": "800_29563",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_643",
+        "doc_id": "800_29563",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_644",
+        "doc_id": "800_29563",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_645",
+        "doc_id": "800_29564",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_646",
+        "doc_id": "800_29564",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_647",
+        "doc_id": "800_29564",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_648",
+        "doc_id": "800_29564",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_649",
+        "doc_id": "800_29564",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_650",
+        "doc_id": "800_29564",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_651",
+        "doc_id": "800_29570",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_652",
+        "doc_id": "800_29570",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_653",
+        "doc_id": "800_29570",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_654",
+        "doc_id": "800_29570",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_655",
+        "doc_id": "800_29575",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_656",
+        "doc_id": "800_29575",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_657",
+        "doc_id": "800_29575",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_658",
+        "doc_id": "800_29575",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_659",
+        "doc_id": "800_29575",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_660",
+        "doc_id": "800_29575",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_661",
+        "doc_id": "800_29584",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_662",
+        "doc_id": "800_29584",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_663",
+        "doc_id": "800_29584",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_664",
+        "doc_id": "800_29584",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_665",
+        "doc_id": "800_29584",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_666",
+        "doc_id": "800_29589",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_667",
+        "doc_id": "800_29589",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_668",
+        "doc_id": "800_29589",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_669",
+        "doc_id": "800_29589",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_670",
+        "doc_id": "800_29591",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_671",
+        "doc_id": "800_29591",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_672",
+        "doc_id": "800_29591",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_673",
+        "doc_id": "800_29591",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_674",
+        "doc_id": "800_29591",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_675",
+        "doc_id": "800_29591",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_676",
+        "doc_id": "800_29591",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_677",
+        "doc_id": "800_29591",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_678",
+        "doc_id": "800_29591",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_679",
+        "doc_id": "800_29591",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_680",
+        "doc_id": "800_29591",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_681",
+        "doc_id": "800_29591",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_682",
+        "doc_id": "800_29591",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_683",
+        "doc_id": "800_29599",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_684",
+        "doc_id": "800_29599",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_685",
+        "doc_id": "800_29599",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_686",
+        "doc_id": "800_29599",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_687",
+        "doc_id": "800_29599",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_688",
+        "doc_id": "800_29599",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_689",
+        "doc_id": "800_29599",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_690",
+        "doc_id": "800_29599",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_691",
+        "doc_id": "800_29599",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_692",
+        "doc_id": "800_29599",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_693",
+        "doc_id": "800_29601",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_694",
+        "doc_id": "800_29601",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_695",
+        "doc_id": "800_29601",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_696",
+        "doc_id": "800_29605",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_697",
+        "doc_id": "800_29605",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_698",
+        "doc_id": "800_29605",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_699",
+        "doc_id": "800_29605",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_700",
+        "doc_id": "800_29605",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_701",
+        "doc_id": "800_29605",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_702",
+        "doc_id": "800_29605",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_703",
+        "doc_id": "800_29616",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_704",
+        "doc_id": "800_29616",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_705",
+        "doc_id": "800_29616",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_706",
+        "doc_id": "800_29616",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_707",
+        "doc_id": "800_29617",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_708",
+        "doc_id": "800_29617",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_709",
+        "doc_id": "800_29617",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_710",
+        "doc_id": "800_29617",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_711",
+        "doc_id": "800_29617",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_712",
+        "doc_id": "800_29623",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_713",
+        "doc_id": "800_29623",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_714",
+        "doc_id": "800_29624",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_715",
+        "doc_id": "800_29624",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_716",
+        "doc_id": "800_29624",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_717",
+        "doc_id": "800_29628",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_718",
+        "doc_id": "800_29628",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_719",
+        "doc_id": "800_29628",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_720",
+        "doc_id": "800_29630",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_721",
+        "doc_id": "800_29630",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_722",
+        "doc_id": "800_29630",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_723",
+        "doc_id": "800_29630",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_724",
+        "doc_id": "800_29630",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_725",
+        "doc_id": "800_29630",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_726",
+        "doc_id": "800_29630",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_727",
+        "doc_id": "800_29630",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_728",
+        "doc_id": "800_29634",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_729",
+        "doc_id": "800_29634",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_730",
+        "doc_id": "800_29634",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_731",
+        "doc_id": "800_29634",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_732",
+        "doc_id": "800_29634",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_733",
+        "doc_id": "800_29634",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_734",
+        "doc_id": "800_29634",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_735",
+        "doc_id": "800_29634",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_736",
+        "doc_id": "800_29634",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_737",
+        "doc_id": "800_29635",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_738",
+        "doc_id": "800_29641",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_739",
+        "doc_id": "800_29641",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_740",
+        "doc_id": "800_29641",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_741",
+        "doc_id": "800_29644",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_742",
+        "doc_id": "800_29644",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_743",
+        "doc_id": "800_29644",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_744",
+        "doc_id": "800_29644",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_745",
+        "doc_id": "800_29644",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_746",
+        "doc_id": "800_29644",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_747",
+        "doc_id": "800_29647",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_748",
+        "doc_id": "800_29649",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_749",
+        "doc_id": "800_29649",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_750",
+        "doc_id": "800_29649",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_751",
+        "doc_id": "800_29649",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_752",
+        "doc_id": "800_29649",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_753",
+        "doc_id": "800_29649",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_754",
+        "doc_id": "800_29649",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_755",
+        "doc_id": "800_29652",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_756",
+        "doc_id": "800_29652",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_757",
+        "doc_id": "800_29652",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_758",
+        "doc_id": "800_29652",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_759",
+        "doc_id": "800_29654",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_760",
+        "doc_id": "800_29654",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_761",
+        "doc_id": "800_29654",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_762",
+        "doc_id": "800_29654",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_763",
+        "doc_id": "800_29654",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_764",
+        "doc_id": "800_29654",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_765",
+        "doc_id": "800_29654",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_766",
+        "doc_id": "800_29657",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_767",
+        "doc_id": "800_29657",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_768",
+        "doc_id": "800_29657",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_769",
+        "doc_id": "800_29657",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_770",
+        "doc_id": "800_29657",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_771",
+        "doc_id": "800_29657",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_772",
+        "doc_id": "800_29663",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_773",
+        "doc_id": "800_29663",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_774",
+        "doc_id": "800_29663",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_775",
+        "doc_id": "800_29663",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_776",
+        "doc_id": "800_29663",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_777",
+        "doc_id": "800_29668",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_778",
+        "doc_id": "800_29668",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_779",
+        "doc_id": "800_29668",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_780",
+        "doc_id": "800_29668",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_781",
+        "doc_id": "800_29668",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_782",
+        "doc_id": "800_29668",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_783",
+        "doc_id": "800_29668",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_784",
+        "doc_id": "800_29670",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_785",
+        "doc_id": "800_29670",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_786",
+        "doc_id": "800_29670",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_787",
+        "doc_id": "800_29676",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_788",
+        "doc_id": "800_29676",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_789",
+        "doc_id": "800_29676",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_790",
+        "doc_id": "800_29676",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_791",
+        "doc_id": "800_29681",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_792",
+        "doc_id": "800_29681",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_793",
+        "doc_id": "800_29681",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_794",
+        "doc_id": "800_29681",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_795",
+        "doc_id": "800_29681",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_796",
+        "doc_id": "800_29681",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_797",
+        "doc_id": "800_29687",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_798",
+        "doc_id": "800_29687",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_799",
+        "doc_id": "800_29687",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_800",
+        "doc_id": "800_29687",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_801",
+        "doc_id": "800_29687",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_802",
+        "doc_id": "800_29687",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_803",
+        "doc_id": "800_29687",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_804",
+        "doc_id": "800_29687",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_805",
+        "doc_id": "800_29687",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_806",
+        "doc_id": "800_29689",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_807",
+        "doc_id": "800_29689",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_808",
+        "doc_id": "800_29689",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_809",
+        "doc_id": "800_29689",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_810",
+        "doc_id": "800_29689",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_811",
+        "doc_id": "800_29690",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_812",
+        "doc_id": "800_29693",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_813",
+        "doc_id": "800_29693",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_814",
+        "doc_id": "800_29693",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_815",
+        "doc_id": "800_29693",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_816",
+        "doc_id": "800_29693",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_817",
+        "doc_id": "800_29702",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_818",
+        "doc_id": "800_29702",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_819",
+        "doc_id": "800_29702",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_820",
+        "doc_id": "800_29702",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_821",
+        "doc_id": "800_29702",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_822",
+        "doc_id": "800_29705",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_823",
+        "doc_id": "800_29705",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_824",
+        "doc_id": "800_29705",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_825",
+        "doc_id": "800_29705",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_826",
+        "doc_id": "800_29705",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_827",
+        "doc_id": "800_29705",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_828",
+        "doc_id": "800_29705",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_829",
+        "doc_id": "800_29708",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_830",
+        "doc_id": "800_29708",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_831",
+        "doc_id": "800_29708",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_832",
+        "doc_id": "800_29708",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_833",
+        "doc_id": "800_29713",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_834",
+        "doc_id": "800_29713",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_835",
+        "doc_id": "800_29713",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_836",
+        "doc_id": "800_29716",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_837",
+        "doc_id": "800_29716",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_838",
+        "doc_id": "800_29716",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_839",
+        "doc_id": "800_29716",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_840",
+        "doc_id": "800_29716",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_841",
+        "doc_id": "800_29721",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_842",
+        "doc_id": "800_29721",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_843",
+        "doc_id": "800_29721",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_844",
+        "doc_id": "800_29722",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_845",
+        "doc_id": "800_29722",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_846",
+        "doc_id": "800_29722",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_847",
+        "doc_id": "800_29722",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_848",
+        "doc_id": "800_29722",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_849",
+        "doc_id": "800_29722",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_850",
+        "doc_id": "800_29722",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_851",
+        "doc_id": "800_29729",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_852",
+        "doc_id": "800_29729",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_853",
+        "doc_id": "800_29729",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_854",
+        "doc_id": "800_29729",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_855",
+        "doc_id": "800_29729",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_856",
+        "doc_id": "800_29730",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_857",
+        "doc_id": "800_29730",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_858",
+        "doc_id": "800_29730",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_859",
+        "doc_id": "800_29730",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_860",
+        "doc_id": "800_29733",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_861",
+        "doc_id": "800_29733",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_862",
+        "doc_id": "800_29733",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_863",
+        "doc_id": "800_29733",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_864",
+        "doc_id": "800_29733",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_865",
+        "doc_id": "800_29733",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_866",
+        "doc_id": "800_29737",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_867",
+        "doc_id": "800_29737",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_868",
+        "doc_id": "800_29737",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_869",
+        "doc_id": "800_29742",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_870",
+        "doc_id": "800_29742",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_871",
+        "doc_id": "800_29742",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_872",
+        "doc_id": "800_29742",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_873",
+        "doc_id": "800_29742",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_874",
+        "doc_id": "800_29747",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_875",
+        "doc_id": "800_29747",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_876",
+        "doc_id": "800_29747",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_877",
+        "doc_id": "800_29747",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_878",
+        "doc_id": "800_29747",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_879",
+        "doc_id": "800_29747",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_880",
+        "doc_id": "800_29747",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_881",
+        "doc_id": "800_29751",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_882",
+        "doc_id": "800_29751",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_883",
+        "doc_id": "800_29751",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_884",
+        "doc_id": "800_29751",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_885",
+        "doc_id": "800_29751",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_886",
+        "doc_id": "800_29756",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_887",
+        "doc_id": "800_29756",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_888",
+        "doc_id": "800_29756",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_889",
+        "doc_id": "800_29756",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_890",
+        "doc_id": "800_29756",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_891",
+        "doc_id": "800_29756",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_892",
+        "doc_id": "800_29756",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_893",
+        "doc_id": "800_29756",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_894",
+        "doc_id": "800_29756",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_895",
+        "doc_id": "800_29756",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_896",
+        "doc_id": "800_29758",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_897",
+        "doc_id": "800_29758",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_898",
+        "doc_id": "800_29758",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_899",
+        "doc_id": "800_29758",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_900",
+        "doc_id": "800_29761",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_901",
+        "doc_id": "800_29761",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_902",
+        "doc_id": "800_29761",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_903",
+        "doc_id": "800_29761",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_904",
+        "doc_id": "800_29763",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_905",
+        "doc_id": "800_29763",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_906",
+        "doc_id": "800_29763",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_907",
+        "doc_id": "800_29763",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_908",
+        "doc_id": "800_29763",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_909",
+        "doc_id": "800_29763",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_910",
+        "doc_id": "800_29763",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_911",
+        "doc_id": "800_29766",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_912",
+        "doc_id": "800_29766",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_913",
+        "doc_id": "800_29766",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_914",
+        "doc_id": "800_29766",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_915",
+        "doc_id": "800_29766",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_916",
+        "doc_id": "800_29766",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_917",
+        "doc_id": "800_29775",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_918",
+        "doc_id": "800_29775",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_919",
+        "doc_id": "800_29775",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_920",
+        "doc_id": "800_29778",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_921",
+        "doc_id": "800_29778",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_922",
+        "doc_id": "800_29778",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_923",
+        "doc_id": "800_29780",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_924",
+        "doc_id": "800_29780",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_925",
+        "doc_id": "800_29780",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_926",
+        "doc_id": "800_29780",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_927",
+        "doc_id": "800_29780",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_928",
+        "doc_id": "800_29780",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_929",
+        "doc_id": "800_29787",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_930",
+        "doc_id": "800_29787",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_931",
+        "doc_id": "800_29787",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_932",
+        "doc_id": "800_29787",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_933",
+        "doc_id": "800_29787",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_934",
+        "doc_id": "800_29789",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_935",
+        "doc_id": "800_29789",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_936",
+        "doc_id": "800_29789",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_937",
+        "doc_id": "800_29794",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_938",
+        "doc_id": "800_29794",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_939",
+        "doc_id": "800_29794",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_940",
+        "doc_id": "800_29794",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_941",
+        "doc_id": "800_29794",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_942",
+        "doc_id": "800_29800",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_943",
+        "doc_id": "800_29800",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_944",
+        "doc_id": "800_29800",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_945",
+        "doc_id": "800_29800",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_946",
+        "doc_id": "800_29800",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_947",
+        "doc_id": "800_29800",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_948",
+        "doc_id": "800_29806",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_949",
+        "doc_id": "800_29806",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_950",
+        "doc_id": "800_29806",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_951",
+        "doc_id": "800_29806",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_952",
+        "doc_id": "800_29806",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_953",
+        "doc_id": "800_29806",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_954",
+        "doc_id": "800_29806",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_955",
+        "doc_id": "800_29806",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_956",
+        "doc_id": "800_29806",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_957",
+        "doc_id": "800_29811",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_958",
+        "doc_id": "800_29811",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_959",
+        "doc_id": "800_29811",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_960",
+        "doc_id": "800_29811",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_961",
+        "doc_id": "800_29811",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_962",
+        "doc_id": "800_29815",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_963",
+        "doc_id": "800_29815",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_964",
+        "doc_id": "800_29821",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_965",
+        "doc_id": "800_29821",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_966",
+        "doc_id": "800_29821",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_967",
+        "doc_id": "800_29827",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_968",
+        "doc_id": "800_29827",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_969",
+        "doc_id": "800_29827",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_970",
+        "doc_id": "800_29827",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_971",
+        "doc_id": "800_29827",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_972",
+        "doc_id": "800_29827",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_973",
+        "doc_id": "800_29827",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_974",
+        "doc_id": "800_29827",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_975",
+        "doc_id": "800_29832",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_976",
+        "doc_id": "800_29832",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_977",
+        "doc_id": "800_29832",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_978",
+        "doc_id": "800_29832",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_979",
+        "doc_id": "800_29832",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_980",
+        "doc_id": "800_29832",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_981",
+        "doc_id": "800_29836",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_982",
+        "doc_id": "800_29836",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_983",
+        "doc_id": "800_29836",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_984",
+        "doc_id": "800_29836",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_985",
+        "doc_id": "800_29836",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_986",
+        "doc_id": "800_29836",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_987",
+        "doc_id": "800_29836",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_988",
+        "doc_id": "800_29836",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_989",
+        "doc_id": "800_29842",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_990",
+        "doc_id": "800_29842",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_991",
+        "doc_id": "800_29842",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_992",
+        "doc_id": "800_29842",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_993",
+        "doc_id": "800_29842",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_994",
+        "doc_id": "800_29842",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_995",
+        "doc_id": "800_29846",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_996",
+        "doc_id": "800_29846",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_997",
+        "doc_id": "800_29846",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_998",
+        "doc_id": "800_29848",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_999",
+        "doc_id": "800_29848",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1000",
+        "doc_id": "800_29848",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1001",
+        "doc_id": "800_29848",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1002",
+        "doc_id": "800_29848",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1003",
+        "doc_id": "800_29848",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1004",
+        "doc_id": "800_29848",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1005",
+        "doc_id": "800_29852",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1006",
+        "doc_id": "800_29852",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1007",
+        "doc_id": "800_29852",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1008",
+        "doc_id": "800_29854",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1009",
+        "doc_id": "800_29854",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1010",
+        "doc_id": "800_29854",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1011",
+        "doc_id": "800_29854",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1012",
+        "doc_id": "800_29857",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1013",
+        "doc_id": "800_29857",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1014",
+        "doc_id": "800_29857",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1015",
+        "doc_id": "800_29857",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1016",
+        "doc_id": "800_29857",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1017",
+        "doc_id": "800_29857",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1018",
+        "doc_id": "800_29861",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1019",
+        "doc_id": "800_29861",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1020",
+        "doc_id": "800_29861",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1021",
+        "doc_id": "800_29861",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1022",
+        "doc_id": "800_29861",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1023",
+        "doc_id": "800_29865",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1024",
+        "doc_id": "800_29865",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1025",
+        "doc_id": "800_29865",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1026",
+        "doc_id": "800_29865",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1027",
+        "doc_id": "800_29865",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1028",
+        "doc_id": "800_29867",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1029",
+        "doc_id": "800_29867",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1030",
+        "doc_id": "800_29867",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1031",
+        "doc_id": "800_29867",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1032",
+        "doc_id": "800_29867",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1033",
+        "doc_id": "800_29870",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1034",
+        "doc_id": "800_29873",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1035",
+        "doc_id": "800_29873",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1036",
+        "doc_id": "800_29873",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1037",
+        "doc_id": "800_29873",
+        "score": 1
+    },
+    {
+        "query_id": "qa_800_1038",
+        "doc_id": "800_29873",
+        "score": 1
+    }
+]

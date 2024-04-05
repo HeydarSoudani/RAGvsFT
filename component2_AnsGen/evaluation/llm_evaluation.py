@@ -48,20 +48,12 @@ def load_json_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return json.load(file)
 
-def load_json_files(relation_files, split_name):
-    json_data = {}
-    for relation_id, files in relation_files.items():
-        split_file = next((file for file in files if split_name in file), None)
-        with open(split_file, 'r') as file:
-            json_data[relation_id] = json.load(file)
-    return json_data
-
 def load_relations_data(args):
     subfolders = ['test']
         
     relation_files = {}
     for subfolder in subfolders:
-        subfolder_path = os.path.join(args.data_dir, subfolder)
+        subfolder_path = f"{args.data_dir}/{subfolder}"
         if os.path.exists(subfolder_path):
             for file in os.listdir(subfolder_path):
                 relation_id = file.split('.')[0]
@@ -69,23 +61,21 @@ def load_relations_data(args):
                     relation_files[relation_id] = []
                 relation_files[relation_id].append(os.path.join(subfolder_path, file))    
 
-    # Select one relation =================
-    # test_relation_id = random.choice(list(relation_files.keys()))
+    # Select relations =================
     if target_relation_ids == "all":
         if args.dataset_name == 'popQA':
-            test_relation_ids = ["22", "218", "91", "257", "182", "164", "526", "97", "533", "639", "472", "106", "560", "484", "292", "422"]
+            test_relation_ids = ['22', '91', '97', '106', '164', '182', '218', '257', '292', '422', '472', '484', '526', '533', '560', '639']
         elif args.dataset_name == 'witQA':
-            test_relation_ids = ['58', '2936', '17', '1376', '674', '50', '22', '1431', '123', '1038', '3301', '140', '36', '136', '86', '69', '1433', '4647', '25', '452', '2012', '106', '27', '184', '1050', '162', '149', '641', '57', '462', '344', '19']   
+            test_relation_ids = ['17', '19', '22', '25', '27', '36', '50', '57', '58', '69', '86', '106', '123', '136', '140', '149', '162', '184', '344', '452', '462', '641', '674', '1038', '1050', '1376', '1431', '1433', '2012', '2936', '3301', '4647']
         elif args.dataset_name == 'EQ':
-            test_relation_ids = ['17', '19', '20', '26', '36', '40', '50', '69', '106', '112', '127', '131', '136', '159', '170', '175', '176', '264', '276', '407', '413', '495', '740', '800']
-    
+            test_relation_ids = ['17', '19', '20', '26', '30', '36', '40', '50', '69', '106', '112', '127', '131', '136', '159', '170', '175', '176', '264', '276', '407', '413', '495', '740', '800']
     else:
         test_relation_ids = target_relation_ids
     
     test_files = {subfolder: [] for subfolder in subfolders}
     
     for subfolder in subfolders:
-        subfolder_path = os.path.join(args.data_dir, subfolder)
+        subfolder_path = f"{args.data_dir}/{subfolder}"
         if os.path.exists(subfolder_path):
             for file in os.listdir(subfolder_path):
                 file_id = file.split('.')[0]
@@ -94,7 +84,6 @@ def load_relations_data(args):
 
     print("Selected Relation ID:", test_relation_ids)
     logging.info(f"Selected Relation ID: {test_relation_ids}")
-    # print("Selected Files:", test_files)
 
     return test_relation_ids, test_files, relation_files
 
@@ -178,8 +167,8 @@ def load_model(args):
 def main(args):
     
     # == Create data & output dir ===========================
-    args.data_dir = "component0_preprocessing/generated_data/{}_costomized".format(args.dataset_name)
-    args.output_result_dir = "component0_preprocessing/generated_data/{}_costomized".format(args.dataset_name)
+    args.data_dir = f"component0_preprocessing/generated_data/{args.dataset_name}_costomized"
+    args.output_result_dir = f"component0_preprocessing/generated_data/{args.dataset_name}_costomized"
     
     # == Create results dir and file ========================
     out_results_dir = f"{args.output_result_dir}/results"

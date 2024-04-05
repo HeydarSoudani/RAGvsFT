@@ -1,0 +1,625 @@
+[
+    {
+        "query_id": "qa_2012_388",
+        "question": "Where is the three-floor Japanese restaurant in Chinatown, London located?",
+        "answers": [
+            "Corner of Newport Pl./Lisle St."
+        ]
+    },
+    {
+        "query_id": "qa_2012_256",
+        "question": "What are fish balls?",
+        "answers": [
+            "Fish balls are balls made from fish paste."
+        ]
+    },
+    {
+        "query_id": "qa_2012_107",
+        "question": "What is Father's Office?",
+        "answers": [
+            "A gastropub located at 1018 Montana Avenue in Santa Monica, California that serves the Office Burger, which Esquire called one of the best burgers in the world."
+        ]
+    },
+    {
+        "query_id": "qa_2012_458",
+        "question": "What ingredient is commonly used in mimosa salad?",
+        "answers": [
+            "Cheese"
+        ]
+    },
+    {
+        "query_id": "qa_2012_220",
+        "question": "What is the name of the second Portuguese restaurant with the same chefs?",
+        "answers": [
+            "Petiscos"
+        ]
+    },
+    {
+        "query_id": "qa_2012_33",
+        "question": "What type of business is Quanjude?",
+        "answers": [
+            "Chinese restaurant chain"
+        ]
+    },
+    {
+        "query_id": "qa_2012_137",
+        "question": "What are some common ways to serve Chile con queso?",
+        "answers": [
+            "Chile con queso is typically served as a dip for tortilla chips."
+        ]
+    },
+    {
+        "query_id": "qa_2012_336",
+        "question": "Q4: Where is Rao's located on the street level?",
+        "answers": [
+            "A4: 455 E 114th St (or 455 E 114th St, Pleasant Ave)"
+        ]
+    },
+    {
+        "query_id": "qa_2012_213",
+        "question": "What type of cuisine does Adega serve?",
+        "answers": [
+            "Portuguese"
+        ]
+    },
+    {
+        "query_id": "qa_2012_300",
+        "question": "Charles Masson Sr.: Who worked under Henri Soul\u00e9 in Le Pavillon during its time at the 1939 New York World's Fair?",
+        "answers": [
+            "Masson (worked under Soul\u00e9)"
+        ]
+    },
+    {
+        "query_id": "qa_2012_636",
+        "question": "What is Italian Peoples Bakery?",
+        "answers": [
+            "Italian Peoples Bakery is a bakery and delicatessen."
+        ]
+    },
+    {
+        "query_id": "qa_2012_327",
+        "question": "What vegetables are used in Yangzhou fried rice?",
+        "answers": [
+            "mixed vegetables"
+        ]
+    },
+    {
+        "query_id": "qa_2012_94",
+        "question": "When did Sushi Nakazawa open?",
+        "answers": [
+            "Sushi Nakazawa opened in [year]"
+        ]
+    },
+    {
+        "query_id": "qa_2012_198",
+        "question": "What is the name of the American fast casual restaurant chain specializing in Baja-style Mexican cuisine with more than 150 locations in 17 states?",
+        "answers": [
+            "Fuzzy's Taco Shop"
+        ]
+    },
+    {
+        "query_id": "qa_2012_306",
+        "question": "What airport was the second location of Yia Yia Mary's situated at?",
+        "answers": [
+            "William P. Hobby Airport"
+        ]
+    },
+    {
+        "query_id": "qa_2012_53",
+        "question": "What is the best-known variant of serundeng?",
+        "answers": [
+            "A: Indonesian preparation of saut\u00e9ed grated coconut mixed with spice and other ingredients"
+        ]
+    },
+    {
+        "query_id": "qa_2012_129",
+        "question": "What cuisines or regions is cucumber soup from?",
+        "answers": [
+            "Poland, Lithuania, Russia, Ukraine, and Bulgaria."
+        ]
+    },
+    {
+        "query_id": "qa_2012_867",
+        "question": "When did Restaurant Andr\u00e9 in Singapore close?",
+        "answers": [
+            "February 15, 2018"
+        ]
+    },
+    {
+        "query_id": "qa_2012_263",
+        "question": "When was Ichigo Ichie awarded a Michelin star?",
+        "answers": [
+            "2019."
+        ]
+    },
+    {
+        "query_id": "qa_2012_701",
+        "question": "Where was Zum Zum located?",
+        "answers": [
+            "Zum Zum was a New York City based restaurant chain."
+        ]
+    },
+    {
+        "query_id": "qa_2012_36",
+        "question": "What type of food does the British restaurant chain serve?",
+        "answers": [
+            "Asian food based on Japanese cuisine"
+        ]
+    },
+    {
+        "query_id": "qa_2012_755",
+        "question": "What action did O'Reilly take regarding stereotypes regarding African Americans based on his observations at the restaurant?",
+        "answers": [
+            "O'Reilly concluded that stereotypes regarding African Americans were not true based on observations at the restaurant."
+        ]
+    },
+    {
+        "query_id": "qa_2012_540",
+        "question": "What is Golden Krust Caribbean Bakery, Inc.?",
+        "answers": [
+            "Golden Krust Caribbean Bakery, Inc. Is a Caribbean fast casual restaurant operator and baked goods manufacturer."
+        ]
+    },
+    {
+        "query_id": "qa_2012_526",
+        "question": "Q1: What company owns or franchises 79 Japanese-influenced restaurants around the world, including the flagship Benihana Teppanyaki brand, Haru (fusion cuisine) and RA Sushi restaurants?",
+        "answers": [
+            "Benihana Inc."
+        ]
+    },
+    {
+        "query_id": "qa_2012_177",
+        "question": "What is the description of potted shrimps?",
+        "answers": [
+            "Potted shrimps are considered a delicacy."
+        ]
+    },
+    {
+        "query_id": "qa_2012_289",
+        "question": "When was Dalessandro's Steaks & Hoagies founded?",
+        "answers": [
+            "1960"
+        ]
+    },
+    {
+        "query_id": "qa_2012_392",
+        "question": "Where is the headquarters of Cafe Rio located?",
+        "answers": [
+            "Salt Lake City"
+        ]
+    },
+    {
+        "query_id": "qa_2012_518",
+        "question": "What is the general feedback from customers about La Carreta?",
+        "answers": [
+            "Generally positive"
+        ]
+    },
+    {
+        "query_id": "qa_2012_59",
+        "question": "How is kyopolou typically cooked?",
+        "answers": [
+            "Oven-cooked in pots or casseroles."
+        ]
+    },
+    {
+        "query_id": "qa_2012_762",
+        "question": "Which country is Montrio Bistro located in?",
+        "answers": [
+            "USA"
+        ]
+    },
+    {
+        "query_id": "qa_2012_25",
+        "question": "What type of wheat is typically used to make Italian spaghetti?",
+        "answers": [
+            "Italian spaghetti is typically made from durum-wheat semolina."
+        ]
+    },
+    {
+        "query_id": "qa_2012_490",
+        "question": "Where is Can Jubany located?",
+        "answers": [
+            "Calldetenes, Catalonia"
+        ]
+    },
+    {
+        "query_id": "qa_2012_691",
+        "question": "Who is chef Tetsuya Wakuda?",
+        "answers": [
+            "Chef Tetsuya Wakuda owns and operates Tetsuya's."
+        ]
+    },
+    {
+        "query_id": "qa_2012_100",
+        "question": "Where is Mosca's located?",
+        "answers": [
+            "Mosca's is in Waggaman, Louisiana, near New Orleans."
+        ]
+    },
+    {
+        "query_id": "qa_2012_82",
+        "question": "What is dashi broth?",
+        "answers": [
+            "Dashi is the broth used in oden."
+        ]
+    },
+    {
+        "query_id": "qa_2012_673",
+        "question": "What materials are used to cook Beggar's chicken?",
+        "answers": [
+            "Clay, lotus leaves, and low heat are used to cook Beggar's chicken."
+        ]
+    },
+    {
+        "query_id": "qa_2012_64",
+        "question": "What is a pancake?",
+        "answers": [
+            "A pancake is a flat cake, often thin and round, prepared from a starch-based batter that may contain eggs, milk, and butter, and then cooked on a hot surface such as a griddle or frying pan. It is a type of batter bread."
+        ]
+    },
+    {
+        "query_id": "qa_2012_420",
+        "question": "In what country is jam\u00f3n a globally recognized food item?",
+        "answers": [
+            "Spain is where jam\u00f3n is a globally recognized food item."
+        ]
+    },
+    {
+        "query_id": "qa_2012_48",
+        "question": "What type of cuisine does Niko Niko's serve?",
+        "answers": [
+            "Greek"
+        ]
+    },
+    {
+        "query_id": "qa_2012_853",
+        "question": "What are some of the dishes served at Taco Palenque?",
+        "answers": [
+            "Flame-grilled beef or chicken fajita plate, parrillada, pirata taco, panchos drizzled with bean and cheese on top of tortilla chips, homemade desserts, and breakfast tacos"
+        ]
+    },
+    {
+        "query_id": "qa_2012_181",
+        "question": "What type of food does Pancheros Mexican Grill serve?",
+        "answers": [
+            "Mexican-style cuisine"
+        ]
+    },
+    {
+        "query_id": "qa_2012_143",
+        "question": "Where is El Modelo located?",
+        "answers": [
+            "Barelas"
+        ]
+    },
+    {
+        "query_id": "qa_2012_265",
+        "question": "What is the name of the steakhouse located in the Kansas City Live Stock Exchange building in the West Bottoms neighborhood of Kansas City, Missouri?",
+        "answers": [
+            "The Golden Ox"
+        ]
+    },
+    {
+        "query_id": "qa_2012_648",
+        "question": "What is the name of the restaurant and lounge in Portland, Oregon's Old Town Chinatown?",
+        "answers": [
+            "Hobo's Restaurant and Lounge"
+        ]
+    },
+    {
+        "query_id": "qa_2012_818",
+        "question": "What are the core ingredients of Qabeli palaw?",
+        "answers": [
+            "Steamed rice, caramelized carrots, raisins, marinated lamb meat"
+        ]
+    },
+    {
+        "query_id": "qa_2012_931",
+        "question": "What was the historical meaning of the term 'crostata' besides being an Italian baked tart or pie?",
+        "answers": [
+            "An 'open-faced sandwich or canap\u00e9' because of its crusted appearance'"
+        ]
+    },
+    {
+        "query_id": "qa_2012_373",
+        "question": "Is Canlis still family-owned?",
+        "answers": [
+            "Yes"
+        ]
+    },
+    {
+        "query_id": "qa_2012_902",
+        "question": "What type of condiment is liquid?",
+        "answers": [
+            "Soy sauce."
+        ]
+    },
+    {
+        "query_id": "qa_2012_852",
+        "question": "When was Taco Palenque established?",
+        "answers": [
+            "1987"
+        ]
+    },
+    {
+        "query_id": "qa_2012_6",
+        "question": "How would you describe the flavors of different varieties of miso?",
+        "answers": [
+            "Different varieties of miso are described as salty, sweet, earthy, fruity, and savory."
+        ]
+    },
+    {
+        "query_id": "qa_2012_898",
+        "question": "What is the status of Neapolitan pizza in the European Union?",
+        "answers": [
+            "Registered TSG, 2009."
+        ]
+    },
+    {
+        "query_id": "qa_2012_784",
+        "question": "Which chefs does Chutney Mary employ to prepare the foods from different regions?",
+        "answers": [
+            "Regional chefs"
+        ]
+    },
+    {
+        "query_id": "qa_2012_412",
+        "question": "Where is Zahav (from Hebrew: \u05d6\u05d4\u05d1 zahav, lit. \"gold\") located?",
+        "answers": [
+            "Zahav (from Hebrew: \u05d6\u05d4\u05d1 zahav, lit. \"gold\") is located in Philadelphia."
+        ]
+    },
+    {
+        "query_id": "qa_2012_759",
+        "question": "What type of cuisine does Montrio Bistro serve?",
+        "answers": [
+            "New American"
+        ]
+    },
+    {
+        "query_id": "qa_2012_434",
+        "question": "In which states do the majority of Il Fornaio's restaurants (16) operate?",
+        "answers": [
+            "16 in California"
+        ]
+    },
+    {
+        "query_id": "qa_2012_734",
+        "question": "What type of restaurant was Tortilla Coast?",
+        "answers": [
+            "Tex-Mex restaurant"
+        ]
+    },
+    {
+        "query_id": "qa_2012_409",
+        "question": "What is another word for a p\u00e2tisserie in French?",
+        "answers": [
+            "In French, the word \"p\u00e2tisserie\" also denotes a pastry as well as pastry-making."
+        ]
+    },
+    {
+        "query_id": "qa_2012_250",
+        "question": "Who visited Byways Cafe in 2007 for the TV show?",
+        "answers": [
+            "Guy Fieri"
+        ]
+    },
+    {
+        "query_id": "qa_2012_790",
+        "question": "What type of jam is commonly served with stuffed cabbage in Sweden and Finland?",
+        "answers": [
+            "Lingonberry jam is commonly served with stuffed cabbage in Sweden and Finland."
+        ]
+    },
+    {
+        "query_id": "qa_2012_707",
+        "question": "What is William Belida doing with Zum Zum?",
+        "answers": [
+            "William Belida is in the process of re-launching Zum Zum with an updated menu and brand focus."
+        ]
+    },
+    {
+        "query_id": "qa_2012_864",
+        "question": "What type of cuisine did Restaurant Andr\u00e9 in Singapore serve?",
+        "answers": [
+            "French Nouvelle cuisine"
+        ]
+    },
+    {
+        "query_id": "qa_2012_896",
+        "question": "How is pizza traditionally cooked?",
+        "answers": [
+            "Wood-fired oven, high temp."
+        ]
+    },
+    {
+        "query_id": "qa_2012_879",
+        "question": "In which land is Hungry Bear Restaurant located in Disneyland Park?",
+        "answers": [
+            "Critter Country"
+        ]
+    },
+    {
+        "query_id": "qa_2012_450",
+        "question": "In which city and state is Portobello Vegan Trattoria located?",
+        "answers": [
+            "Yes"
+        ]
+    },
+    {
+        "query_id": "qa_2012_448",
+        "question": "What kind of food does Portobello Vegan Trattoria serve?",
+        "answers": [
+            "Yes"
+        ]
+    },
+    {
+        "query_id": "qa_2012_854",
+        "question": "What amenities or features does Taco Palenque have?",
+        "answers": [
+            "Salad bar"
+        ]
+    },
+    {
+        "query_id": "qa_2012_449",
+        "question": "In which neighborhood is Portobello Vegan Trattoria located?",
+        "answers": [
+            "Yes"
+        ]
+    },
+    {
+        "query_id": "qa_2012_737",
+        "question": "What beverages were served in large quantities at Tortilla Coast?",
+        "answers": [
+            "Frozen margarita pitchers"
+        ]
+    },
+    {
+        "query_id": "qa_2012_109",
+        "question": "Where is Father's Office located in Santa Monica, California?",
+        "answers": [
+            "Father's Office is located at 1018 Montana Avenue in Santa Monica, California."
+        ]
+    },
+    {
+        "query_id": "qa_2012_714",
+        "question": "What is konnyaku in Shizuoka oden?",
+        "answers": [
+            "A type of yam"
+        ]
+    },
+    {
+        "query_id": "qa_2012_582",
+        "question": "Where is NARISAWA located?",
+        "answers": [
+            "Minato, Tokyo"
+        ]
+    },
+    {
+        "query_id": "qa_2012_646",
+        "question": "What is the name of the seafood restaurant in downtown Portland, Oregon founded in 1892 by Jacob 'Jake' Lewis Freiman?",
+        "answers": [
+            "Jake's Famous Crawfish"
+        ]
+    },
+    {
+        "query_id": "qa_2012_404",
+        "question": "What is an American saloon or tavern equivalent in Japan?",
+        "answers": [
+            "An American saloon or tavern equivalent in Japan is an izakaya."
+        ]
+    },
+    {
+        "query_id": "qa_2012_832",
+        "question": "Q4: What section of Atlanta is Castleberry Hill?",
+        "answers": [
+            "Castleberry Hill"
+        ]
+    },
+    {
+        "query_id": "qa_2012_417",
+        "question": "How many La Porchetta outlets are there currently in Australia and New Zealand?",
+        "answers": [
+            "There are about 38 La Porchetta outlets currently in Australia and New Zealand which are owned by franchisees."
+        ]
+    },
+    {
+        "query_id": "qa_2012_795",
+        "question": "In what regions is this dish popular?",
+        "answers": [
+            "This dish has found its way into popular culture and is one of the most recognizable dishes in Central and Eastern European cuisine."
+        ]
+    },
+    {
+        "query_id": "qa_2012_193",
+        "question": "What is Bardot Brasserie?",
+        "answers": [
+            "French restaurant"
+        ]
+    },
+    {
+        "query_id": "qa_2012_509",
+        "question": "What is Pizzeria Bianco?",
+        "answers": [
+            "Pizzeria Bianco is..."
+        ]
+    },
+    {
+        "query_id": "qa_2012_491",
+        "question": "In what region or country is Can Jubany located?",
+        "answers": [
+            "Catalonia"
+        ]
+    },
+    {
+        "query_id": "qa_2012_297",
+        "question": "Le Pavillon: What was the name of the New York City restaurant that defined French food from 1941 to 1966?",
+        "answers": [
+            "Pavillon"
+        ]
+    },
+    {
+        "query_id": "qa_2012_201",
+        "question": "In how many states can I find a Fuzzy's Taco Shop?",
+        "answers": [
+            "17"
+        ]
+    },
+    {
+        "query_id": "qa_2012_462",
+        "question": "What dressing is used in mimosa salad?",
+        "answers": [
+            "Mayonnaise"
+        ]
+    },
+    {
+        "query_id": "qa_2012_442",
+        "question": "What award did Veniero's win in 2010?",
+        "answers": [
+            "Veniero's was named the winner for the Best Desserts in New York City by AOL's City's Best website"
+        ]
+    },
+    {
+        "query_id": "qa_2012_713",
+        "question": "What are the rolls made of in Shizuoka oden?",
+        "answers": [
+            "Kelp"
+        ]
+    },
+    {
+        "query_id": "qa_2012_425",
+        "question": "What was the status of Pazzo Ristorante?",
+        "answers": [
+            "Was"
+        ]
+    },
+    {
+        "query_id": "qa_2012_875",
+        "question": "What shows offer a Fantasmic! dinner package at Disney's Hollywood Studios?",
+        "answers": [
+            "Mama Melrose's, HBD, H&V, DHS."
+        ]
+    },
+    {
+        "query_id": "qa_2012_196",
+        "question": "Where is Bardot Brasserie located?",
+        "answers": [
+            "Aria Resort and Casino"
+        ]
+    },
+    {
+        "query_id": "qa_2012_307",
+        "question": "Who was the parent company of Yia Yia Mary's?",
+        "answers": [
+            "Pappas Restaurants"
+        ]
+    },
+    {
+        "query_id": "qa_2012_865",
+        "question": "Who was the head chef of Restaurant Andr\u00e9 in Singapore?",
+        "answers": [
+            "Andr\u00e9 Chiang"
+        ]
+    }
+]

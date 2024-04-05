@@ -1,0 +1,4947 @@
+[
+    {
+        "query_id": "qa_184_0",
+        "doc_id": "184_65213",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_1",
+        "doc_id": "184_65213",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_2",
+        "doc_id": "184_65213",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_3",
+        "doc_id": "184_65216",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_4",
+        "doc_id": "184_65216",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_5",
+        "doc_id": "184_65216",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_6",
+        "doc_id": "184_65216",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_7",
+        "doc_id": "184_65216",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_8",
+        "doc_id": "184_65218",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_9",
+        "doc_id": "184_65218",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_10",
+        "doc_id": "184_65218",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_11",
+        "doc_id": "184_65218",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_12",
+        "doc_id": "184_65232",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_13",
+        "doc_id": "184_65232",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_14",
+        "doc_id": "184_65232",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_15",
+        "doc_id": "184_65232",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_16",
+        "doc_id": "184_65232",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_17",
+        "doc_id": "184_65232",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_18",
+        "doc_id": "184_65232",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_19",
+        "doc_id": "184_65232",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_20",
+        "doc_id": "184_65233",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_21",
+        "doc_id": "184_65233",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_22",
+        "doc_id": "184_65233",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_23",
+        "doc_id": "184_65233",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_24",
+        "doc_id": "184_65233",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_25",
+        "doc_id": "184_65236",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_26",
+        "doc_id": "184_65236",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_27",
+        "doc_id": "184_65236",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_28",
+        "doc_id": "184_65236",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_29",
+        "doc_id": "184_65237",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_30",
+        "doc_id": "184_65237",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_31",
+        "doc_id": "184_65237",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_32",
+        "doc_id": "184_65237",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_33",
+        "doc_id": "184_65238",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_34",
+        "doc_id": "184_65238",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_35",
+        "doc_id": "184_65238",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_36",
+        "doc_id": "184_65238",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_37",
+        "doc_id": "184_65238",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_38",
+        "doc_id": "184_65240",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_39",
+        "doc_id": "184_65241",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_40",
+        "doc_id": "184_65241",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_41",
+        "doc_id": "184_65241",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_42",
+        "doc_id": "184_65241",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_43",
+        "doc_id": "184_65241",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_44",
+        "doc_id": "184_65244",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_45",
+        "doc_id": "184_65244",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_46",
+        "doc_id": "184_65244",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_47",
+        "doc_id": "184_65247",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_48",
+        "doc_id": "184_65247",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_49",
+        "doc_id": "184_65247",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_50",
+        "doc_id": "184_65247",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_51",
+        "doc_id": "184_65247",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_52",
+        "doc_id": "184_65248",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_53",
+        "doc_id": "184_65248",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_54",
+        "doc_id": "184_65248",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_55",
+        "doc_id": "184_65248",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_56",
+        "doc_id": "184_65248",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_57",
+        "doc_id": "184_65250",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_58",
+        "doc_id": "184_65250",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_59",
+        "doc_id": "184_65250",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_60",
+        "doc_id": "184_65250",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_61",
+        "doc_id": "184_65250",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_62",
+        "doc_id": "184_65257",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_63",
+        "doc_id": "184_65257",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_64",
+        "doc_id": "184_65257",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_65",
+        "doc_id": "184_65257",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_66",
+        "doc_id": "184_65260",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_67",
+        "doc_id": "184_65260",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_68",
+        "doc_id": "184_65261",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_69",
+        "doc_id": "184_65261",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_70",
+        "doc_id": "184_65261",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_71",
+        "doc_id": "184_65261",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_72",
+        "doc_id": "184_65261",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_73",
+        "doc_id": "184_65266",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_74",
+        "doc_id": "184_65266",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_75",
+        "doc_id": "184_65266",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_76",
+        "doc_id": "184_65268",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_77",
+        "doc_id": "184_65268",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_78",
+        "doc_id": "184_65271",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_79",
+        "doc_id": "184_65271",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_80",
+        "doc_id": "184_65271",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_81",
+        "doc_id": "184_65271",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_82",
+        "doc_id": "184_65271",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_83",
+        "doc_id": "184_65271",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_84",
+        "doc_id": "184_65271",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_85",
+        "doc_id": "184_65271",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_86",
+        "doc_id": "184_65274",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_87",
+        "doc_id": "184_65276",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_88",
+        "doc_id": "184_65276",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_89",
+        "doc_id": "184_65276",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_90",
+        "doc_id": "184_65276",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_91",
+        "doc_id": "184_65276",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_92",
+        "doc_id": "184_65280",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_93",
+        "doc_id": "184_65280",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_94",
+        "doc_id": "184_65280",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_95",
+        "doc_id": "184_65280",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_96",
+        "doc_id": "184_65280",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_97",
+        "doc_id": "184_65285",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_98",
+        "doc_id": "184_65285",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_99",
+        "doc_id": "184_65293",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_100",
+        "doc_id": "184_65293",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_101",
+        "doc_id": "184_65293",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_102",
+        "doc_id": "184_65295",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_103",
+        "doc_id": "184_65295",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_104",
+        "doc_id": "184_65295",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_105",
+        "doc_id": "184_65295",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_106",
+        "doc_id": "184_65295",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_107",
+        "doc_id": "184_65295",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_108",
+        "doc_id": "184_65295",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_109",
+        "doc_id": "184_65295",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_110",
+        "doc_id": "184_65295",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_111",
+        "doc_id": "184_65299",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_112",
+        "doc_id": "184_65299",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_113",
+        "doc_id": "184_65299",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_114",
+        "doc_id": "184_65299",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_115",
+        "doc_id": "184_65304",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_116",
+        "doc_id": "184_65304",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_117",
+        "doc_id": "184_65304",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_118",
+        "doc_id": "184_65304",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_119",
+        "doc_id": "184_65307",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_120",
+        "doc_id": "184_65307",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_121",
+        "doc_id": "184_65307",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_122",
+        "doc_id": "184_65307",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_123",
+        "doc_id": "184_65307",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_124",
+        "doc_id": "184_65312",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_125",
+        "doc_id": "184_65312",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_126",
+        "doc_id": "184_65312",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_127",
+        "doc_id": "184_65312",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_128",
+        "doc_id": "184_65312",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_129",
+        "doc_id": "184_65312",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_130",
+        "doc_id": "184_65312",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_131",
+        "doc_id": "184_65313",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_132",
+        "doc_id": "184_65313",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_133",
+        "doc_id": "184_65313",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_134",
+        "doc_id": "184_65313",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_135",
+        "doc_id": "184_65313",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_136",
+        "doc_id": "184_65315",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_137",
+        "doc_id": "184_65315",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_138",
+        "doc_id": "184_65316",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_139",
+        "doc_id": "184_65316",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_140",
+        "doc_id": "184_65316",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_141",
+        "doc_id": "184_65316",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_142",
+        "doc_id": "184_65316",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_143",
+        "doc_id": "184_65316",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_144",
+        "doc_id": "184_65316",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_145",
+        "doc_id": "184_65317",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_146",
+        "doc_id": "184_65317",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_147",
+        "doc_id": "184_65317",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_148",
+        "doc_id": "184_65317",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_149",
+        "doc_id": "184_65317",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_150",
+        "doc_id": "184_65317",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_151",
+        "doc_id": "184_65323",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_152",
+        "doc_id": "184_65323",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_153",
+        "doc_id": "184_65323",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_154",
+        "doc_id": "184_65323",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_155",
+        "doc_id": "184_65327",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_156",
+        "doc_id": "184_65327",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_157",
+        "doc_id": "184_65327",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_158",
+        "doc_id": "184_65327",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_159",
+        "doc_id": "184_65327",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_160",
+        "doc_id": "184_65327",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_161",
+        "doc_id": "184_65327",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_162",
+        "doc_id": "184_65327",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_163",
+        "doc_id": "184_65327",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_164",
+        "doc_id": "184_65327",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_165",
+        "doc_id": "184_65331",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_166",
+        "doc_id": "184_65331",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_167",
+        "doc_id": "184_65331",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_168",
+        "doc_id": "184_65331",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_169",
+        "doc_id": "184_65332",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_170",
+        "doc_id": "184_65332",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_171",
+        "doc_id": "184_65332",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_172",
+        "doc_id": "184_65335",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_173",
+        "doc_id": "184_65337",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_174",
+        "doc_id": "184_65337",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_175",
+        "doc_id": "184_65337",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_176",
+        "doc_id": "184_65337",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_177",
+        "doc_id": "184_65337",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_178",
+        "doc_id": "184_65337",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_179",
+        "doc_id": "184_65337",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_180",
+        "doc_id": "184_65337",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_181",
+        "doc_id": "184_65343",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_182",
+        "doc_id": "184_65343",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_183",
+        "doc_id": "184_65343",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_184",
+        "doc_id": "184_65343",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_185",
+        "doc_id": "184_65343",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_186",
+        "doc_id": "184_65347",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_187",
+        "doc_id": "184_65347",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_188",
+        "doc_id": "184_65347",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_189",
+        "doc_id": "184_65347",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_190",
+        "doc_id": "184_65347",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_191",
+        "doc_id": "184_65352",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_192",
+        "doc_id": "184_65352",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_193",
+        "doc_id": "184_65352",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_194",
+        "doc_id": "184_65352",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_195",
+        "doc_id": "184_65359",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_196",
+        "doc_id": "184_65359",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_197",
+        "doc_id": "184_65359",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_198",
+        "doc_id": "184_65359",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_199",
+        "doc_id": "184_65359",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_200",
+        "doc_id": "184_65364",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_201",
+        "doc_id": "184_65369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_202",
+        "doc_id": "184_65369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_203",
+        "doc_id": "184_65369",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_204",
+        "doc_id": "184_65372",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_205",
+        "doc_id": "184_65372",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_206",
+        "doc_id": "184_65372",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_207",
+        "doc_id": "184_65372",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_208",
+        "doc_id": "184_65372",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_209",
+        "doc_id": "184_65373",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_210",
+        "doc_id": "184_65373",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_211",
+        "doc_id": "184_65373",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_212",
+        "doc_id": "184_65373",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_213",
+        "doc_id": "184_65376",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_214",
+        "doc_id": "184_65376",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_215",
+        "doc_id": "184_65376",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_216",
+        "doc_id": "184_65376",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_217",
+        "doc_id": "184_65376",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_218",
+        "doc_id": "184_65376",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_219",
+        "doc_id": "184_65380",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_220",
+        "doc_id": "184_65381",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_221",
+        "doc_id": "184_65381",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_222",
+        "doc_id": "184_65381",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_223",
+        "doc_id": "184_65381",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_224",
+        "doc_id": "184_65381",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_225",
+        "doc_id": "184_65381",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_226",
+        "doc_id": "184_65381",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_227",
+        "doc_id": "184_65381",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_228",
+        "doc_id": "184_65381",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_229",
+        "doc_id": "184_65384",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_230",
+        "doc_id": "184_65384",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_231",
+        "doc_id": "184_65384",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_232",
+        "doc_id": "184_65387",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_233",
+        "doc_id": "184_65387",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_234",
+        "doc_id": "184_65387",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_235",
+        "doc_id": "184_65389",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_236",
+        "doc_id": "184_65389",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_237",
+        "doc_id": "184_65389",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_238",
+        "doc_id": "184_65389",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_239",
+        "doc_id": "184_65394",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_240",
+        "doc_id": "184_65394",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_241",
+        "doc_id": "184_65394",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_242",
+        "doc_id": "184_65396",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_243",
+        "doc_id": "184_65396",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_244",
+        "doc_id": "184_65396",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_245",
+        "doc_id": "184_65396",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_246",
+        "doc_id": "184_65401",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_247",
+        "doc_id": "184_65402",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_248",
+        "doc_id": "184_65402",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_249",
+        "doc_id": "184_65402",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_250",
+        "doc_id": "184_65402",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_251",
+        "doc_id": "184_65406",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_252",
+        "doc_id": "184_65406",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_253",
+        "doc_id": "184_65406",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_254",
+        "doc_id": "184_65407",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_255",
+        "doc_id": "184_65407",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_256",
+        "doc_id": "184_65407",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_257",
+        "doc_id": "184_65407",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_258",
+        "doc_id": "184_65410",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_259",
+        "doc_id": "184_65411",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_260",
+        "doc_id": "184_65411",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_261",
+        "doc_id": "184_65411",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_262",
+        "doc_id": "184_65411",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_263",
+        "doc_id": "184_65411",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_264",
+        "doc_id": "184_65411",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_265",
+        "doc_id": "184_65415",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_266",
+        "doc_id": "184_65415",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_267",
+        "doc_id": "184_65415",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_268",
+        "doc_id": "184_65415",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_269",
+        "doc_id": "184_65415",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_270",
+        "doc_id": "184_65415",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_271",
+        "doc_id": "184_65416",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_272",
+        "doc_id": "184_65416",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_273",
+        "doc_id": "184_65416",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_274",
+        "doc_id": "184_65420",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_275",
+        "doc_id": "184_65422",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_276",
+        "doc_id": "184_65422",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_277",
+        "doc_id": "184_65422",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_278",
+        "doc_id": "184_65422",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_279",
+        "doc_id": "184_65422",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_280",
+        "doc_id": "184_65422",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_281",
+        "doc_id": "184_65422",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_282",
+        "doc_id": "184_65424",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_283",
+        "doc_id": "184_65424",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_284",
+        "doc_id": "184_65424",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_285",
+        "doc_id": "184_65424",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_286",
+        "doc_id": "184_65424",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_287",
+        "doc_id": "184_65424",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_288",
+        "doc_id": "184_65424",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_289",
+        "doc_id": "184_65424",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_290",
+        "doc_id": "184_65425",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_291",
+        "doc_id": "184_65425",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_292",
+        "doc_id": "184_65425",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_293",
+        "doc_id": "184_65427",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_294",
+        "doc_id": "184_65427",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_295",
+        "doc_id": "184_65427",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_296",
+        "doc_id": "184_65427",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_297",
+        "doc_id": "184_65427",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_298",
+        "doc_id": "184_65427",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_299",
+        "doc_id": "184_65427",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_300",
+        "doc_id": "184_65428",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_301",
+        "doc_id": "184_65428",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_302",
+        "doc_id": "184_65428",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_303",
+        "doc_id": "184_65428",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_304",
+        "doc_id": "184_65428",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_305",
+        "doc_id": "184_65431",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_306",
+        "doc_id": "184_65431",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_307",
+        "doc_id": "184_65431",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_308",
+        "doc_id": "184_65431",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_309",
+        "doc_id": "184_65431",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_310",
+        "doc_id": "184_65431",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_311",
+        "doc_id": "184_65431",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_312",
+        "doc_id": "184_65432",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_313",
+        "doc_id": "184_65432",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_314",
+        "doc_id": "184_65432",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_315",
+        "doc_id": "184_65432",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_316",
+        "doc_id": "184_65432",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_317",
+        "doc_id": "184_65432",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_318",
+        "doc_id": "184_65432",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_319",
+        "doc_id": "184_65434",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_320",
+        "doc_id": "184_65434",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_321",
+        "doc_id": "184_65434",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_322",
+        "doc_id": "184_65434",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_323",
+        "doc_id": "184_65434",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_324",
+        "doc_id": "184_65434",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_325",
+        "doc_id": "184_65434",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_326",
+        "doc_id": "184_65434",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_327",
+        "doc_id": "184_65436",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_328",
+        "doc_id": "184_65436",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_329",
+        "doc_id": "184_65436",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_330",
+        "doc_id": "184_65437",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_331",
+        "doc_id": "184_65437",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_332",
+        "doc_id": "184_65437",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_333",
+        "doc_id": "184_65437",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_334",
+        "doc_id": "184_65437",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_335",
+        "doc_id": "184_65437",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_336",
+        "doc_id": "184_65437",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_337",
+        "doc_id": "184_65437",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_338",
+        "doc_id": "184_65437",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_339",
+        "doc_id": "184_65438",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_340",
+        "doc_id": "184_65438",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_341",
+        "doc_id": "184_65438",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_342",
+        "doc_id": "184_65438",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_343",
+        "doc_id": "184_65439",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_344",
+        "doc_id": "184_65439",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_345",
+        "doc_id": "184_65439",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_346",
+        "doc_id": "184_65439",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_347",
+        "doc_id": "184_65439",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_348",
+        "doc_id": "184_65440",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_349",
+        "doc_id": "184_65440",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_350",
+        "doc_id": "184_65440",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_351",
+        "doc_id": "184_65440",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_352",
+        "doc_id": "184_65440",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_353",
+        "doc_id": "184_65440",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_354",
+        "doc_id": "184_65440",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_355",
+        "doc_id": "184_65442",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_356",
+        "doc_id": "184_65444",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_357",
+        "doc_id": "184_65444",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_358",
+        "doc_id": "184_65444",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_359",
+        "doc_id": "184_65444",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_360",
+        "doc_id": "184_65444",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_361",
+        "doc_id": "184_65444",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_362",
+        "doc_id": "184_65444",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_363",
+        "doc_id": "184_65444",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_364",
+        "doc_id": "184_65446",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_365",
+        "doc_id": "184_65446",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_366",
+        "doc_id": "184_65446",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_367",
+        "doc_id": "184_65446",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_368",
+        "doc_id": "184_65446",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_369",
+        "doc_id": "184_65447",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_370",
+        "doc_id": "184_65447",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_371",
+        "doc_id": "184_65449",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_372",
+        "doc_id": "184_65449",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_373",
+        "doc_id": "184_65449",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_374",
+        "doc_id": "184_65449",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_375",
+        "doc_id": "184_65449",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_376",
+        "doc_id": "184_65449",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_377",
+        "doc_id": "184_65449",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_378",
+        "doc_id": "184_65449",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_379",
+        "doc_id": "184_65449",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_380",
+        "doc_id": "184_65450",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_381",
+        "doc_id": "184_65450",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_382",
+        "doc_id": "184_65450",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_383",
+        "doc_id": "184_65450",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_384",
+        "doc_id": "184_65450",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_385",
+        "doc_id": "184_65450",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_386",
+        "doc_id": "184_65451",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_387",
+        "doc_id": "184_65451",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_388",
+        "doc_id": "184_65451",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_389",
+        "doc_id": "184_65451",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_390",
+        "doc_id": "184_65451",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_391",
+        "doc_id": "184_65451",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_392",
+        "doc_id": "184_65451",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_393",
+        "doc_id": "184_65451",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_394",
+        "doc_id": "184_65451",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_395",
+        "doc_id": "184_65453",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_396",
+        "doc_id": "184_65453",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_397",
+        "doc_id": "184_65453",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_398",
+        "doc_id": "184_65453",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_399",
+        "doc_id": "184_65453",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_400",
+        "doc_id": "184_65453",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_401",
+        "doc_id": "184_65453",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_402",
+        "doc_id": "184_65454",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_403",
+        "doc_id": "184_65454",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_404",
+        "doc_id": "184_65454",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_405",
+        "doc_id": "184_65455",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_406",
+        "doc_id": "184_65455",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_407",
+        "doc_id": "184_65455",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_408",
+        "doc_id": "184_65458",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_409",
+        "doc_id": "184_65458",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_410",
+        "doc_id": "184_65458",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_411",
+        "doc_id": "184_65459",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_412",
+        "doc_id": "184_65459",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_413",
+        "doc_id": "184_65459",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_414",
+        "doc_id": "184_65459",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_415",
+        "doc_id": "184_65464",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_416",
+        "doc_id": "184_65464",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_417",
+        "doc_id": "184_65464",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_418",
+        "doc_id": "184_65464",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_419",
+        "doc_id": "184_65464",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_420",
+        "doc_id": "184_65464",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_421",
+        "doc_id": "184_65464",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_422",
+        "doc_id": "184_65465",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_423",
+        "doc_id": "184_65465",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_424",
+        "doc_id": "184_65465",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_425",
+        "doc_id": "184_65465",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_426",
+        "doc_id": "184_65467",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_427",
+        "doc_id": "184_65467",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_428",
+        "doc_id": "184_65467",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_429",
+        "doc_id": "184_65467",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_430",
+        "doc_id": "184_65467",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_431",
+        "doc_id": "184_65468",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_432",
+        "doc_id": "184_65468",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_433",
+        "doc_id": "184_65468",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_434",
+        "doc_id": "184_65470",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_435",
+        "doc_id": "184_65470",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_436",
+        "doc_id": "184_65470",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_437",
+        "doc_id": "184_65470",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_438",
+        "doc_id": "184_65470",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_439",
+        "doc_id": "184_65470",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_440",
+        "doc_id": "184_65472",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_441",
+        "doc_id": "184_65472",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_442",
+        "doc_id": "184_65472",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_443",
+        "doc_id": "184_65472",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_444",
+        "doc_id": "184_65473",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_445",
+        "doc_id": "184_65474",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_446",
+        "doc_id": "184_65474",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_447",
+        "doc_id": "184_65474",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_448",
+        "doc_id": "184_65474",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_449",
+        "doc_id": "184_65481",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_450",
+        "doc_id": "184_65481",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_451",
+        "doc_id": "184_65481",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_452",
+        "doc_id": "184_65481",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_453",
+        "doc_id": "184_65481",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_454",
+        "doc_id": "184_65481",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_455",
+        "doc_id": "184_65481",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_456",
+        "doc_id": "184_65481",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_457",
+        "doc_id": "184_65485",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_458",
+        "doc_id": "184_65485",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_459",
+        "doc_id": "184_65485",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_460",
+        "doc_id": "184_65485",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_461",
+        "doc_id": "184_65485",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_462",
+        "doc_id": "184_65485",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_463",
+        "doc_id": "184_65485",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_464",
+        "doc_id": "184_65485",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_465",
+        "doc_id": "184_65486",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_466",
+        "doc_id": "184_65486",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_467",
+        "doc_id": "184_65486",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_468",
+        "doc_id": "184_65486",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_469",
+        "doc_id": "184_65486",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_470",
+        "doc_id": "184_65487",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_471",
+        "doc_id": "184_65487",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_472",
+        "doc_id": "184_65487",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_473",
+        "doc_id": "184_65487",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_474",
+        "doc_id": "184_65488",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_475",
+        "doc_id": "184_65488",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_476",
+        "doc_id": "184_65488",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_477",
+        "doc_id": "184_65488",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_478",
+        "doc_id": "184_65488",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_479",
+        "doc_id": "184_65492",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_480",
+        "doc_id": "184_65492",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_481",
+        "doc_id": "184_65492",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_482",
+        "doc_id": "184_65494",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_483",
+        "doc_id": "184_65494",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_484",
+        "doc_id": "184_65494",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_485",
+        "doc_id": "184_65494",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_486",
+        "doc_id": "184_65494",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_487",
+        "doc_id": "184_65495",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_488",
+        "doc_id": "184_65495",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_489",
+        "doc_id": "184_65495",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_490",
+        "doc_id": "184_65495",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_491",
+        "doc_id": "184_65495",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_492",
+        "doc_id": "184_65495",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_493",
+        "doc_id": "184_65497",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_494",
+        "doc_id": "184_65497",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_495",
+        "doc_id": "184_65497",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_496",
+        "doc_id": "184_65498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_497",
+        "doc_id": "184_65498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_498",
+        "doc_id": "184_65498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_499",
+        "doc_id": "184_65498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_500",
+        "doc_id": "184_65498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_501",
+        "doc_id": "184_65498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_502",
+        "doc_id": "184_65498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_503",
+        "doc_id": "184_65498",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_504",
+        "doc_id": "184_65500",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_505",
+        "doc_id": "184_65500",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_506",
+        "doc_id": "184_65500",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_507",
+        "doc_id": "184_65500",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_508",
+        "doc_id": "184_65500",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_509",
+        "doc_id": "184_65500",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_510",
+        "doc_id": "184_65503",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_511",
+        "doc_id": "184_65503",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_512",
+        "doc_id": "184_65503",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_513",
+        "doc_id": "184_65503",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_514",
+        "doc_id": "184_65503",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_515",
+        "doc_id": "184_65503",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_516",
+        "doc_id": "184_65503",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_517",
+        "doc_id": "184_65503",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_518",
+        "doc_id": "184_65503",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_519",
+        "doc_id": "184_65503",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_520",
+        "doc_id": "184_65506",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_521",
+        "doc_id": "184_65506",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_522",
+        "doc_id": "184_65506",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_523",
+        "doc_id": "184_65506",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_524",
+        "doc_id": "184_65506",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_525",
+        "doc_id": "184_65506",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_526",
+        "doc_id": "184_65506",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_527",
+        "doc_id": "184_65507",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_528",
+        "doc_id": "184_65507",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_529",
+        "doc_id": "184_65507",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_530",
+        "doc_id": "184_65507",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_531",
+        "doc_id": "184_65507",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_532",
+        "doc_id": "184_65507",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_533",
+        "doc_id": "184_65507",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_534",
+        "doc_id": "184_65507",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_535",
+        "doc_id": "184_65507",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_536",
+        "doc_id": "184_65508",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_537",
+        "doc_id": "184_65508",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_538",
+        "doc_id": "184_65508",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_539",
+        "doc_id": "184_65508",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_540",
+        "doc_id": "184_65509",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_541",
+        "doc_id": "184_65509",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_542",
+        "doc_id": "184_65509",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_543",
+        "doc_id": "184_65509",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_544",
+        "doc_id": "184_65509",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_545",
+        "doc_id": "184_65510",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_546",
+        "doc_id": "184_65510",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_547",
+        "doc_id": "184_65510",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_548",
+        "doc_id": "184_65510",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_549",
+        "doc_id": "184_65511",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_550",
+        "doc_id": "184_65511",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_551",
+        "doc_id": "184_65515",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_552",
+        "doc_id": "184_65515",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_553",
+        "doc_id": "184_65515",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_554",
+        "doc_id": "184_65515",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_555",
+        "doc_id": "184_65515",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_556",
+        "doc_id": "184_65515",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_557",
+        "doc_id": "184_65515",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_558",
+        "doc_id": "184_65515",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_559",
+        "doc_id": "184_65516",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_560",
+        "doc_id": "184_65516",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_561",
+        "doc_id": "184_65516",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_562",
+        "doc_id": "184_65516",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_563",
+        "doc_id": "184_65516",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_564",
+        "doc_id": "184_65516",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_565",
+        "doc_id": "184_65517",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_566",
+        "doc_id": "184_65517",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_567",
+        "doc_id": "184_65517",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_568",
+        "doc_id": "184_65517",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_569",
+        "doc_id": "184_65517",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_570",
+        "doc_id": "184_65517",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_571",
+        "doc_id": "184_65517",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_572",
+        "doc_id": "184_65518",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_573",
+        "doc_id": "184_65522",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_574",
+        "doc_id": "184_65522",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_575",
+        "doc_id": "184_65522",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_576",
+        "doc_id": "184_65523",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_577",
+        "doc_id": "184_65523",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_578",
+        "doc_id": "184_65523",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_579",
+        "doc_id": "184_65528",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_580",
+        "doc_id": "184_65528",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_581",
+        "doc_id": "184_65528",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_582",
+        "doc_id": "184_65529",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_583",
+        "doc_id": "184_65529",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_584",
+        "doc_id": "184_65529",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_585",
+        "doc_id": "184_65529",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_586",
+        "doc_id": "184_65529",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_587",
+        "doc_id": "184_65529",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_588",
+        "doc_id": "184_65529",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_589",
+        "doc_id": "184_65531",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_590",
+        "doc_id": "184_65531",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_591",
+        "doc_id": "184_65531",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_592",
+        "doc_id": "184_65531",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_593",
+        "doc_id": "184_65531",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_594",
+        "doc_id": "184_65531",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_595",
+        "doc_id": "184_65531",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_596",
+        "doc_id": "184_65531",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_597",
+        "doc_id": "184_65532",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_598",
+        "doc_id": "184_65532",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_599",
+        "doc_id": "184_65532",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_600",
+        "doc_id": "184_65534",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_601",
+        "doc_id": "184_65534",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_602",
+        "doc_id": "184_65534",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_603",
+        "doc_id": "184_65534",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_604",
+        "doc_id": "184_65534",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_605",
+        "doc_id": "184_65534",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_606",
+        "doc_id": "184_65534",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_607",
+        "doc_id": "184_65534",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_608",
+        "doc_id": "184_65534",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_609",
+        "doc_id": "184_65534",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_610",
+        "doc_id": "184_65537",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_611",
+        "doc_id": "184_65537",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_612",
+        "doc_id": "184_65537",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_613",
+        "doc_id": "184_65537",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_614",
+        "doc_id": "184_65537",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_615",
+        "doc_id": "184_65537",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_616",
+        "doc_id": "184_65538",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_617",
+        "doc_id": "184_65538",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_618",
+        "doc_id": "184_65538",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_619",
+        "doc_id": "184_65539",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_620",
+        "doc_id": "184_65539",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_621",
+        "doc_id": "184_65539",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_622",
+        "doc_id": "184_65539",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_623",
+        "doc_id": "184_65539",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_624",
+        "doc_id": "184_65539",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_625",
+        "doc_id": "184_65539",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_626",
+        "doc_id": "184_65539",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_627",
+        "doc_id": "184_65541",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_628",
+        "doc_id": "184_65541",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_629",
+        "doc_id": "184_65541",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_630",
+        "doc_id": "184_65541",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_631",
+        "doc_id": "184_65545",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_632",
+        "doc_id": "184_65545",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_633",
+        "doc_id": "184_65545",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_634",
+        "doc_id": "184_65545",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_635",
+        "doc_id": "184_65545",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_636",
+        "doc_id": "184_65545",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_637",
+        "doc_id": "184_65546",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_638",
+        "doc_id": "184_65546",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_639",
+        "doc_id": "184_65546",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_640",
+        "doc_id": "184_65546",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_641",
+        "doc_id": "184_65546",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_642",
+        "doc_id": "184_65546",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_643",
+        "doc_id": "184_65546",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_644",
+        "doc_id": "184_65546",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_645",
+        "doc_id": "184_65546",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_646",
+        "doc_id": "184_65546",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_647",
+        "doc_id": "184_65546",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_648",
+        "doc_id": "184_65546",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_649",
+        "doc_id": "184_65547",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_650",
+        "doc_id": "184_65547",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_651",
+        "doc_id": "184_65547",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_652",
+        "doc_id": "184_65547",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_653",
+        "doc_id": "184_65547",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_654",
+        "doc_id": "184_65547",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_655",
+        "doc_id": "184_65549",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_656",
+        "doc_id": "184_65549",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_657",
+        "doc_id": "184_65549",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_658",
+        "doc_id": "184_65549",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_659",
+        "doc_id": "184_65549",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_660",
+        "doc_id": "184_65550",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_661",
+        "doc_id": "184_65550",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_662",
+        "doc_id": "184_65552",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_663",
+        "doc_id": "184_65552",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_664",
+        "doc_id": "184_65552",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_665",
+        "doc_id": "184_65553",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_666",
+        "doc_id": "184_65553",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_667",
+        "doc_id": "184_65553",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_668",
+        "doc_id": "184_65553",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_669",
+        "doc_id": "184_65554",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_670",
+        "doc_id": "184_65554",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_671",
+        "doc_id": "184_65558",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_672",
+        "doc_id": "184_65565",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_673",
+        "doc_id": "184_65565",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_674",
+        "doc_id": "184_65565",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_675",
+        "doc_id": "184_65566",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_676",
+        "doc_id": "184_65566",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_677",
+        "doc_id": "184_65566",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_678",
+        "doc_id": "184_65566",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_679",
+        "doc_id": "184_65566",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_680",
+        "doc_id": "184_65566",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_681",
+        "doc_id": "184_65566",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_682",
+        "doc_id": "184_65566",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_683",
+        "doc_id": "184_65567",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_684",
+        "doc_id": "184_65567",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_685",
+        "doc_id": "184_65567",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_686",
+        "doc_id": "184_65567",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_687",
+        "doc_id": "184_65567",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_688",
+        "doc_id": "184_65567",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_689",
+        "doc_id": "184_65567",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_690",
+        "doc_id": "184_65569",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_691",
+        "doc_id": "184_65569",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_692",
+        "doc_id": "184_65569",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_693",
+        "doc_id": "184_65569",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_694",
+        "doc_id": "184_65569",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_695",
+        "doc_id": "184_65570",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_696",
+        "doc_id": "184_65570",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_697",
+        "doc_id": "184_65570",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_698",
+        "doc_id": "184_65570",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_699",
+        "doc_id": "184_65570",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_700",
+        "doc_id": "184_65570",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_701",
+        "doc_id": "184_65571",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_702",
+        "doc_id": "184_65571",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_703",
+        "doc_id": "184_65571",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_704",
+        "doc_id": "184_65571",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_705",
+        "doc_id": "184_65571",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_706",
+        "doc_id": "184_65571",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_707",
+        "doc_id": "184_65571",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_708",
+        "doc_id": "184_65571",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_709",
+        "doc_id": "184_65571",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_710",
+        "doc_id": "184_65573",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_711",
+        "doc_id": "184_65573",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_712",
+        "doc_id": "184_65573",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_713",
+        "doc_id": "184_65573",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_714",
+        "doc_id": "184_65573",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_715",
+        "doc_id": "184_65573",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_716",
+        "doc_id": "184_65573",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_717",
+        "doc_id": "184_65574",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_718",
+        "doc_id": "184_65574",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_719",
+        "doc_id": "184_65574",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_720",
+        "doc_id": "184_65574",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_721",
+        "doc_id": "184_65574",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_722",
+        "doc_id": "184_65577",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_723",
+        "doc_id": "184_65577",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_724",
+        "doc_id": "184_65577",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_725",
+        "doc_id": "184_65577",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_726",
+        "doc_id": "184_65577",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_727",
+        "doc_id": "184_65577",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_728",
+        "doc_id": "184_65579",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_729",
+        "doc_id": "184_65579",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_730",
+        "doc_id": "184_65579",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_731",
+        "doc_id": "184_65579",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_732",
+        "doc_id": "184_65579",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_733",
+        "doc_id": "184_65579",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_734",
+        "doc_id": "184_65579",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_735",
+        "doc_id": "184_65579",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_736",
+        "doc_id": "184_65579",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_737",
+        "doc_id": "184_65579",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_738",
+        "doc_id": "184_65581",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_739",
+        "doc_id": "184_65581",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_740",
+        "doc_id": "184_65581",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_741",
+        "doc_id": "184_65581",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_742",
+        "doc_id": "184_65581",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_743",
+        "doc_id": "184_65581",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_744",
+        "doc_id": "184_65581",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_745",
+        "doc_id": "184_65581",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_746",
+        "doc_id": "184_65581",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_747",
+        "doc_id": "184_65581",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_748",
+        "doc_id": "184_65581",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_749",
+        "doc_id": "184_65581",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_750",
+        "doc_id": "184_65581",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_751",
+        "doc_id": "184_65581",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_752",
+        "doc_id": "184_65581",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_753",
+        "doc_id": "184_65586",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_754",
+        "doc_id": "184_65586",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_755",
+        "doc_id": "184_65587",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_756",
+        "doc_id": "184_65587",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_757",
+        "doc_id": "184_65587",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_758",
+        "doc_id": "184_65588",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_759",
+        "doc_id": "184_65588",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_760",
+        "doc_id": "184_65588",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_761",
+        "doc_id": "184_65588",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_762",
+        "doc_id": "184_65588",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_763",
+        "doc_id": "184_65588",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_764",
+        "doc_id": "184_65590",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_765",
+        "doc_id": "184_65590",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_766",
+        "doc_id": "184_65590",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_767",
+        "doc_id": "184_65594",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_768",
+        "doc_id": "184_65594",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_769",
+        "doc_id": "184_65594",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_770",
+        "doc_id": "184_65596",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_771",
+        "doc_id": "184_65596",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_772",
+        "doc_id": "184_65596",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_773",
+        "doc_id": "184_65596",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_774",
+        "doc_id": "184_65596",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_775",
+        "doc_id": "184_65596",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_776",
+        "doc_id": "184_65596",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_777",
+        "doc_id": "184_65596",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_778",
+        "doc_id": "184_65597",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_779",
+        "doc_id": "184_65597",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_780",
+        "doc_id": "184_65597",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_781",
+        "doc_id": "184_65598",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_782",
+        "doc_id": "184_65598",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_783",
+        "doc_id": "184_65598",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_784",
+        "doc_id": "184_65598",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_785",
+        "doc_id": "184_65598",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_786",
+        "doc_id": "184_65598",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_787",
+        "doc_id": "184_65604",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_788",
+        "doc_id": "184_65604",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_789",
+        "doc_id": "184_65604",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_790",
+        "doc_id": "184_65604",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_791",
+        "doc_id": "184_65604",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_792",
+        "doc_id": "184_65604",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_793",
+        "doc_id": "184_65604",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_794",
+        "doc_id": "184_65605",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_795",
+        "doc_id": "184_65606",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_796",
+        "doc_id": "184_65606",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_797",
+        "doc_id": "184_65606",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_798",
+        "doc_id": "184_65606",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_799",
+        "doc_id": "184_65606",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_800",
+        "doc_id": "184_65609",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_801",
+        "doc_id": "184_65609",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_802",
+        "doc_id": "184_65609",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_803",
+        "doc_id": "184_65609",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_804",
+        "doc_id": "184_65609",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_805",
+        "doc_id": "184_65609",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_806",
+        "doc_id": "184_65609",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_807",
+        "doc_id": "184_65611",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_808",
+        "doc_id": "184_65611",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_809",
+        "doc_id": "184_65611",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_810",
+        "doc_id": "184_65611",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_811",
+        "doc_id": "184_65611",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_812",
+        "doc_id": "184_65611",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_813",
+        "doc_id": "184_65612",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_814",
+        "doc_id": "184_65612",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_815",
+        "doc_id": "184_65612",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_816",
+        "doc_id": "184_65618",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_817",
+        "doc_id": "184_65618",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_818",
+        "doc_id": "184_65618",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_819",
+        "doc_id": "184_65618",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_820",
+        "doc_id": "184_65618",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_821",
+        "doc_id": "184_65626",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_822",
+        "doc_id": "184_65626",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_823",
+        "doc_id": "184_65626",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_824",
+        "doc_id": "184_65626",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_825",
+        "doc_id": "184_65626",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_826",
+        "doc_id": "184_65626",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_827",
+        "doc_id": "184_65626",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_828",
+        "doc_id": "184_65631",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_829",
+        "doc_id": "184_65631",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_830",
+        "doc_id": "184_65631",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_831",
+        "doc_id": "184_65631",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_832",
+        "doc_id": "184_65631",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_833",
+        "doc_id": "184_65631",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_834",
+        "doc_id": "184_65631",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_835",
+        "doc_id": "184_65631",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_836",
+        "doc_id": "184_65631",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_837",
+        "doc_id": "184_65631",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_838",
+        "doc_id": "184_65631",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_839",
+        "doc_id": "184_65631",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_840",
+        "doc_id": "184_65636",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_841",
+        "doc_id": "184_65636",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_842",
+        "doc_id": "184_65636",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_843",
+        "doc_id": "184_65636",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_844",
+        "doc_id": "184_65636",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_845",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_846",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_847",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_848",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_849",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_850",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_851",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_852",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_853",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_854",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_855",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_856",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_857",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_858",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_859",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_860",
+        "doc_id": "184_65638",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_861",
+        "doc_id": "184_65640",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_862",
+        "doc_id": "184_65640",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_863",
+        "doc_id": "184_65640",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_864",
+        "doc_id": "184_65640",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_865",
+        "doc_id": "184_65640",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_866",
+        "doc_id": "184_65640",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_867",
+        "doc_id": "184_65640",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_868",
+        "doc_id": "184_65640",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_869",
+        "doc_id": "184_65640",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_870",
+        "doc_id": "184_65640",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_871",
+        "doc_id": "184_65641",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_872",
+        "doc_id": "184_65648",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_873",
+        "doc_id": "184_65656",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_874",
+        "doc_id": "184_65656",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_875",
+        "doc_id": "184_65656",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_876",
+        "doc_id": "184_65658",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_877",
+        "doc_id": "184_65658",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_878",
+        "doc_id": "184_65658",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_879",
+        "doc_id": "184_65658",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_880",
+        "doc_id": "184_65661",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_881",
+        "doc_id": "184_65663",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_882",
+        "doc_id": "184_65663",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_883",
+        "doc_id": "184_65663",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_884",
+        "doc_id": "184_65663",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_885",
+        "doc_id": "184_65665",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_886",
+        "doc_id": "184_65665",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_887",
+        "doc_id": "184_65665",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_888",
+        "doc_id": "184_65665",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_889",
+        "doc_id": "184_65665",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_890",
+        "doc_id": "184_65665",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_891",
+        "doc_id": "184_65665",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_892",
+        "doc_id": "184_65667",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_893",
+        "doc_id": "184_65667",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_894",
+        "doc_id": "184_65667",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_895",
+        "doc_id": "184_65669",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_896",
+        "doc_id": "184_65669",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_897",
+        "doc_id": "184_65669",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_898",
+        "doc_id": "184_65669",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_899",
+        "doc_id": "184_65669",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_900",
+        "doc_id": "184_65670",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_901",
+        "doc_id": "184_65670",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_902",
+        "doc_id": "184_65670",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_903",
+        "doc_id": "184_65675",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_904",
+        "doc_id": "184_65675",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_905",
+        "doc_id": "184_65675",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_906",
+        "doc_id": "184_65678",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_907",
+        "doc_id": "184_65678",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_908",
+        "doc_id": "184_65678",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_909",
+        "doc_id": "184_65678",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_910",
+        "doc_id": "184_65683",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_911",
+        "doc_id": "184_65684",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_912",
+        "doc_id": "184_65684",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_913",
+        "doc_id": "184_65684",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_914",
+        "doc_id": "184_65687",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_915",
+        "doc_id": "184_65687",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_916",
+        "doc_id": "184_65687",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_917",
+        "doc_id": "184_65687",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_918",
+        "doc_id": "184_65687",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_919",
+        "doc_id": "184_65687",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_920",
+        "doc_id": "184_65691",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_921",
+        "doc_id": "184_65691",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_922",
+        "doc_id": "184_65691",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_923",
+        "doc_id": "184_65691",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_924",
+        "doc_id": "184_65691",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_925",
+        "doc_id": "184_65691",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_926",
+        "doc_id": "184_65695",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_927",
+        "doc_id": "184_65695",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_928",
+        "doc_id": "184_65695",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_929",
+        "doc_id": "184_65695",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_930",
+        "doc_id": "184_65695",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_931",
+        "doc_id": "184_65701",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_932",
+        "doc_id": "184_65701",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_933",
+        "doc_id": "184_65701",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_934",
+        "doc_id": "184_65701",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_935",
+        "doc_id": "184_65701",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_936",
+        "doc_id": "184_65701",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_937",
+        "doc_id": "184_65701",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_938",
+        "doc_id": "184_65701",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_939",
+        "doc_id": "184_65701",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_940",
+        "doc_id": "184_65701",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_941",
+        "doc_id": "184_65701",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_942",
+        "doc_id": "184_65705",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_943",
+        "doc_id": "184_65705",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_944",
+        "doc_id": "184_65705",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_945",
+        "doc_id": "184_65705",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_946",
+        "doc_id": "184_65705",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_947",
+        "doc_id": "184_65705",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_948",
+        "doc_id": "184_65705",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_949",
+        "doc_id": "184_65705",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_950",
+        "doc_id": "184_65709",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_951",
+        "doc_id": "184_65709",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_952",
+        "doc_id": "184_65709",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_953",
+        "doc_id": "184_65709",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_954",
+        "doc_id": "184_65714",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_955",
+        "doc_id": "184_65714",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_956",
+        "doc_id": "184_65714",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_957",
+        "doc_id": "184_65714",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_958",
+        "doc_id": "184_65714",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_959",
+        "doc_id": "184_65716",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_960",
+        "doc_id": "184_65716",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_961",
+        "doc_id": "184_65716",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_962",
+        "doc_id": "184_65716",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_963",
+        "doc_id": "184_65719",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_964",
+        "doc_id": "184_65719",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_965",
+        "doc_id": "184_65719",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_966",
+        "doc_id": "184_65719",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_967",
+        "doc_id": "184_65722",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_968",
+        "doc_id": "184_65722",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_969",
+        "doc_id": "184_65722",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_970",
+        "doc_id": "184_65722",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_971",
+        "doc_id": "184_65723",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_972",
+        "doc_id": "184_65723",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_973",
+        "doc_id": "184_65723",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_974",
+        "doc_id": "184_65723",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_975",
+        "doc_id": "184_65723",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_976",
+        "doc_id": "184_65724",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_977",
+        "doc_id": "184_65724",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_978",
+        "doc_id": "184_65724",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_979",
+        "doc_id": "184_65724",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_980",
+        "doc_id": "184_65724",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_981",
+        "doc_id": "184_65724",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_982",
+        "doc_id": "184_65724",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_983",
+        "doc_id": "184_65724",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_984",
+        "doc_id": "184_65724",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_985",
+        "doc_id": "184_65737",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_986",
+        "doc_id": "184_65737",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_987",
+        "doc_id": "184_65737",
+        "score": 1
+    },
+    {
+        "query_id": "qa_184_988",
+        "doc_id": "184_65737",
+        "score": 1
+    }
+]

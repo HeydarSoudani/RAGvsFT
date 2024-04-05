@@ -1,0 +1,3222 @@
+[
+    {
+        "query_id": "qa_2936_883",
+        "question": "Where is Atilim University located?",
+        "answers": [
+            "Ankara"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1796",
+        "question": "What is the capital of Kachin State?",
+        "answers": [
+            "Myitkyina"
+        ]
+    },
+    {
+        "query_id": "qa_2936_853",
+        "question": "What mode of transportation is near the CBC Ottawa Broadcast Centre?",
+        "answers": [
+            "Confederation Line light rail station"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2916",
+        "question": "How are Norway's dialects related to those of its neighboring countries?",
+        "answers": [
+            "Norwegian dialects share mutual intelligibility with Danish and Swedish."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3050",
+        "question": "Which international organizations has Vanuatu joined since gaining independence?",
+        "answers": [
+            "United Nations, Commonwealth of Nations, Organisation internationale de la Francophonie, and the Pacific Islands Forum"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4705",
+        "question": "How many companies from the Fortune Global 500 are currently based in Shanghai, and where does it rank on the Global Financial Centres Index?",
+        "answers": [
+            "12, Rank: 4th"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2355",
+        "question": "What other notable cities are in Fujian?",
+        "answers": [
+            "Xiamen, Zhangzhou"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2927",
+        "question": "What significant event occurred in Sri Lanka's recent history?",
+        "answers": [
+            "A 26-year civil war"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4272",
+        "question": "What conflict resulted from a dispute over Schleswig-Holstein?",
+        "answers": [
+            "First Schleswig War"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1291",
+        "question": "Who was the first ruler to unite East Slavic lands into what would become Kievan Rus'?",
+        "answers": [
+            "Oleg the Wise (r.\u2009879\u2013912)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3733",
+        "question": "What is the capital city of Burkina Faso?",
+        "answers": [
+            "Ouagadougou"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4164",
+        "question": "Who were the earliest settlers of the Bavarian territory?",
+        "answers": [
+            "The earliest settlers of the Bavarian territory were Iron Age Celtic tribes."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1778",
+        "question": "Who ignored Danish protests when the German Imperial Army drafted ethnic Danish men during World War I?",
+        "answers": [
+            "Germans"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1484",
+        "question": "What ethnic group are the Crimean Karaites also known as?",
+        "answers": [
+            "Karaims or Qarays"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2710",
+        "question": "What geographical features can be found in County Kerry?",
+        "answers": [
+            "MacGillycuddy's Reeks, Dingle, Iveragh, Beara, Blasket, Skellig"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3172",
+        "question": "When did Hungary come under Habsburg rule?",
+        "answers": [
+            "Early 18th century"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1509",
+        "question": "What is the French name for East Flanders?",
+        "answers": [
+            "Flandre-Orientale"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2503",
+        "question": "What is the name of the city that is considered an important economic, scientific, and tourism center of Russia and Europe?",
+        "answers": [
+            "Saint Petersburg"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3139",
+        "question": "What makes Mauritius unique in terms of peace and development?",
+        "answers": [
+            "Most peaceful, biodiverse flora and fauna, endemism."
+        ]
+    },
+    {
+        "query_id": "qa_2936_2966",
+        "question": "What is the gross domestic product of Uttar Pradesh in rupees?",
+        "answers": [
+            "186300000000"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1387",
+        "question": "What is the name of the province in the Philippines located in the Sulu Archipelago?",
+        "answers": [
+            "Sulu"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3269",
+        "question": "What contributes to Alaska's economy besides natural resource extraction?",
+        "answers": [
+            "U.S. Armed Forces bases and tourism also contribute to Alaska's economy."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1865",
+        "question": "How large is the exclusive economic zone of the Federated States of Micronesia, and where does it rank in terms of size?",
+        "answers": [
+            "3 million km2 (1.2 million sq mi) (ranked 14th)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1863",
+        "question": "How many islands does the Federated States of Micronesia consist of, and what is their combined land area?",
+        "answers": [
+            "607 (number of islands), approximately 702 km2 or 271 sq mi (combined land area)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4126",
+        "question": "What are the official languages spoken in Algeria?",
+        "answers": [
+            "Arabic and Tamazight"
+        ]
+    },
+    {
+        "query_id": "qa_2936_694",
+        "question": "What is the name given to the region between the Bay of Biscay and the Cantabrian Mountains?",
+        "answers": [
+            "Green Spain"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3894",
+        "question": "What was the name of the regime in Spain after the Spanish Civil War?",
+        "answers": [
+            "The name of the regime in Spain after the Spanish Civil War was the Spanish State (Estado Espa\u00f1ol)."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4601",
+        "question": "Who is the current governor of F\u00e8s-Mekn\u00e8s?",
+        "answers": [
+            "Said Zniber"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3953",
+        "question": "Who conquered Iraq and made Baghdad his capital in the Buyid dynasty?",
+        "answers": [
+            "Ahmad ibn Buya: Conq. Iraq (Baghdad)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4386",
+        "question": "Which countries does France share borders with, including those with a maritime border?",
+        "answers": [
+            "BEL/LUX, GER (NE), SUI, ITA/MON, AND/SPN (S), UK (NW)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4493",
+        "question": "What country is Mexico?",
+        "answers": [
+            "Mexico"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3399",
+        "question": "Where does the majority of the population in the Northern Territory live?",
+        "answers": [
+            "Coastal regions, Stuart Highway"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3276",
+        "question": "Who replaced Falco as CEO of Univision in May 2018?",
+        "answers": [
+            "Vincent L. Sadusky's replacement"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1073",
+        "question": "What is the name of the country where the largest indigenous languages Susu, Pular, and Maninka are spoken?",
+        "answers": [
+            "Guinea"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3570",
+        "question": "Which country is the most visited tourist destination for safaris in Africa?",
+        "answers": [
+            "Tanzania"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1265",
+        "question": "What Euroregion is Liguria a part of?",
+        "answers": [
+            "Alps\u2013Mediterranean Euroregion"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1098",
+        "question": "Which city in Extremadura has the largest population?",
+        "answers": [
+            "Badajoz"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4465",
+        "question": "What action did Russia take regarding Crimea in 2014, and how did this relate to Ukraine?",
+        "answers": [
+            "Annexed Crimea, related to Ukraine"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4293",
+        "question": "Which city serves as the capital and largest settlement of Chile?",
+        "answers": [
+            "Santiago"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1027",
+        "question": "In which category does Afghanistan fall in terms of development, according to the Human Development Index?",
+        "answers": [
+            "180th"
+        ]
+    },
+    {
+        "query_id": "qa_2936_390",
+        "question": "How do the Cabatuananons earn from livestock and poultry?",
+        "answers": [
+            "Cabatuananons earn from livestock and poultry"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3544",
+        "question": "What is the name of the territory that is an enclave within New South Wales?",
+        "answers": [
+            "ACT, JBT"
+        ]
+    },
+    {
+        "query_id": "qa_2936_926",
+        "question": "Where are the studios and offices of CKSB-FM in Winnipeg located?",
+        "answers": [
+            "Answer: Studios and offices are located on Rue Langevin in Saint Boniface"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3",
+        "question": "In which province is Barira, Philippines, currently located?",
+        "answers": [
+            "Maguindanao del Norte"
+        ]
+    },
+    {
+        "query_id": "qa_2936_669",
+        "question": "What ethnic group is associated with Baroy?",
+        "answers": [
+            "MRN"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2612",
+        "question": "What are the main sources of the economy in the county related to natural resources?",
+        "answers": [
+            "Oil and gas"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2976",
+        "question": "Which princely states existed in Uttar Pradesh during the Indian independence movement?",
+        "answers": [
+            "Ramgadi, Rampur, Benares"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4563",
+        "question": "What political system did the Commonwealth adopt during its golden age?",
+        "answers": [
+            "constitutional monarchy"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1458",
+        "question": "What is the name of the province in the Philippines that is located in the Mimaropa region and consists of multiple islands?",
+        "answers": [
+            "Romblon"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4123",
+        "question": "Q5: What is the name of the capital and largest city in Algeria?",
+        "answers": [
+            "A5: Algiers"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4148",
+        "question": "What executive and legislative powers does the king hold in Morocco, particularly regarding the military, foreign policy, and religious affairs?",
+        "answers": [
+            "The king has vast powers in these areas in Morocco."
+        ]
+    },
+    {
+        "query_id": "qa_2936_2973",
+        "question": "What are the religious groups in the state?",
+        "answers": [
+            "Hinduism (>3/4), Islam"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3337",
+        "question": "What are some minority faiths in the country called Iraq?",
+        "answers": [
+            "Christianity, Yazidism, Mandaeism, Yarsanism, Zoroastrianism"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2408",
+        "question": "Which region of Ukraine has emerged as the most pro-Western during elections?",
+        "answers": [
+            "Kyiv"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2581",
+        "question": "Which UNESCO world heritage sites are located in Java?",
+        "answers": [
+            "Ujung Kulon National Park, Borobudur Temple, Prambanan Temple, and Sangiran Early Man Site"
+        ]
+    },
+    {
+        "query_id": "qa_2936_109",
+        "question": "What is the local or alternative name for Lower Shabelle in Maay?",
+        "answers": [
+            "Shibelithy Hoosy"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2390",
+        "question": "What is Tunisia's relationship with the European Union and the United States?",
+        "answers": [
+            "Tunisia has an association agreement with the European Union and has attained the status of a major non-NATO ally of the United States."
+        ]
+    },
+    {
+        "query_id": "qa_2936_993",
+        "question": "Which international organizations is Denmark a member of?",
+        "answers": [
+            "NATO, Nordic Council, OECD, OSCE, UN"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3331",
+        "question": "Which sporting events have taken place in Beijing in the past?",
+        "answers": [
+            "Olympics, Paralympics"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1004",
+        "question": "In what ways are traditional customs different in the Rhineland region compared to Westphalia and Lippe?",
+        "answers": [
+            "Differences in traditional customs"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3286",
+        "question": "What is the main language spoken in Guizhou?",
+        "answers": [
+            "Southwestern Mandarin"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2806",
+        "question": "What percentage of Venetians turned out for the 2017 autonomy referendum?",
+        "answers": [
+            "57.2%"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1031",
+        "question": "What industry is present in Malangas, operated by the Philippine National Oil Company - Exploration Corporation?",
+        "answers": [
+            "Coal mining (PNOC-EC)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1660",
+        "question": "When was the first documented instance of an eisteddfod in Welsh culture?",
+        "answers": [
+            "The first documented instance of an eisteddfod was in 1176, under the patronage of Prince Rhys ap Gruffudd of the House of Dinefwr at Cardigan Castle."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3914",
+        "question": "What is the capital of Bali?",
+        "answers": [
+            "Denpasar is the capital city of Bali."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4225",
+        "question": "Who were the early civilizations in the Myanmar region?",
+        "answers": [
+            "The Tibeto-Burman-speaking Pyu city-states in Upper Myanmar and the Mon kingdoms in Lower Myanmar"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4404",
+        "question": "What city became the western hub of trans-Pacific trade?",
+        "answers": [
+            "Manila"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4151",
+        "question": "What is the current status of the dispute over Western Sahara?",
+        "answers": [
+            "The political deadlock remains unresolved."
+        ]
+    },
+    {
+        "query_id": "qa_2936_392",
+        "question": "In what year was the Kingdom of Scotland traditionally founded?",
+        "answers": [
+            "843"
+        ]
+    },
+    {
+        "query_id": "qa_2936_790",
+        "question": "Which Chinese city had the seventh highest number of listed companies in 2021?",
+        "answers": [
+            "7th"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2921",
+        "question": "How many people live in Sri Lanka?",
+        "answers": [
+            "Approx. 22M"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4122",
+        "question": "Q4: Which country is the largest in Africa?",
+        "answers": [
+            "A4: Algeria"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3706",
+        "question": "Which islands are part of Central Java?",
+        "answers": [
+            "Nusakambangan, Karimun Jawa Islands"
+        ]
+    },
+    {
+        "query_id": "qa_2936_458",
+        "question": "Which khanates or empires fractured from the Mongol Empire after Kublai Khan took power?",
+        "answers": [
+            "GH, CK, IK"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2245",
+        "question": "What is the population of Papua New Guinea?",
+        "answers": [
+            "17m"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3589",
+        "question": "What are some notable geographical features of Carinthia?",
+        "answers": [
+            "Carinthia is noted for its mountains and lakes."
+        ]
+    },
+    {
+        "query_id": "qa_2936_250",
+        "question": "What was the historical name of the state of Kedah in Malaysia?",
+        "answers": [
+            "Queda"
+        ]
+    },
+    {
+        "query_id": "qa_2936_877",
+        "question": "What is the relationship between CFJU-FM and CFAI?",
+        "answers": [
+            "Rebroadcaster of CFAI in Edmundston"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1261",
+        "question": "What region is located in north-western Italy?",
+        "answers": [
+            "Liguria"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4433",
+        "question": "What type of music is distinctive to Sicily's culture?",
+        "answers": [
+            "Insert specific type of music here"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4375",
+        "question": "How did the Christian kingdoms in Northern Iberia ultimately defeat Islamic rule in Iberia?",
+        "answers": [
+            "I"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4446",
+        "question": "When did formal unification of Germany into the modern nation-state commence?",
+        "answers": [
+            "1866"
+        ]
+    },
+    {
+        "query_id": "qa_2936_53",
+        "question": "What are the major islands in Masbate province?",
+        "answers": [
+            "Masbate, Ticao, Burias"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2068",
+        "question": "Which indigenous groups can be found in the far north and the far south of the state?",
+        "answers": [
+            "Nahuas, Totonacs, Mixtecs, Popolocas"
+        ]
+    },
+    {
+        "query_id": "qa_2936_675",
+        "question": "What class of municipality is Zarraga?",
+        "answers": [
+            "4th class"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3862",
+        "question": "Which migrant group mixed with the indigenous population in the Solomon Islands?",
+        "answers": [
+            "Lapita people"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2484",
+        "question": "What state in Germany is Lower Saxony?",
+        "answers": [
+            "Lower Saxony"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3093",
+        "question": "What is the official name of Estonia?",
+        "answers": [
+            "Republic of Estonia"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2098",
+        "question": "What is Taitung County?",
+        "answers": [
+            "Taitung C."
+        ]
+    },
+    {
+        "query_id": "qa_2936_2466",
+        "question": "What is the name of the country under discussion?",
+        "answers": [
+            "Egypt"
+        ]
+    },
+    {
+        "query_id": "qa_2936_73",
+        "question": "What is the name of the capital city of Surigao del Norte?",
+        "answers": [
+            "Surigao City"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2498",
+        "question": "Which city in the world, with a population of over 1 million residents, is located further north than any other?",
+        "answers": [
+            "The world's northernmost city of more than 1 million residents is Saint Petersburg."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1086",
+        "question": "Which kingdom influenced the region in the late 18th century?",
+        "answers": [
+            "Mysore"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3151",
+        "question": "Who founded Cuttack as the capital of the region and when did this happen?",
+        "answers": [
+            "Anantavarman Chodaganga, c.1135"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1733",
+        "question": "Where are the ruins of Hatra located now?",
+        "answers": [
+            "Present-day eastern Nineveh Governorate"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2547",
+        "question": "What is the name of the mountain that is the highest peak in India and third-highest on Earth? ",
+        "answers": [
+            "Kangchenjunga."
+        ]
+    },
+    {
+        "query_id": "qa_2936_830",
+        "question": "What happiness index ranking does Paraguay hold?",
+        "answers": [
+            "Paraguay"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4708",
+        "question": "What is Lujiazui skyline?",
+        "answers": [
+            "An impressive skyline in Lujiazui."
+        ]
+    },
+    {
+        "query_id": "qa_2936_135",
+        "question": "What is the name of the department in the Auvergne-Rh\u00f4ne-Alpes region of France?",
+        "answers": [
+            "Haute-Loire"
+        ]
+    },
+    {
+        "query_id": "qa_2936_187",
+        "question": "What is the population of Tsushima Island as of 2022?",
+        "answers": [
+            "about 28,000"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1324",
+        "question": "Which international organizations is Venezuela a member of?",
+        "answers": [
+            "UNASUR,ALBA,Mercosur,LAIA,OEI"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4029",
+        "question": "What year did the Kingdom of Serbia unite with the former Habsburg crownland of Vojvodina?",
+        "answers": [
+            "1918"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1776",
+        "question": "What region was annexed into the German Empire after Austro-Prussian forces invaded?",
+        "answers": [
+            "South Jutland"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3211",
+        "question": "What is a championship golf course?",
+        "answers": [
+            "A high-level golf course with challenging holes"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3349",
+        "question": "What international organizations does Iraq belong to?",
+        "answers": [
+            "United Nations, Arab League, OIC, Non-Aligned Movement, IMF"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3821",
+        "question": "What is Hunan's GDP per capita?",
+        "answers": [
+            "Answer: US$10,900"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1344",
+        "question": "What is the capital city of Bhutan?",
+        "answers": [
+            "Thimphu"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4181",
+        "question": "What are the four main linguistic and cultural regions in Switzerland?",
+        "answers": [
+            "German, French, Italian, Romansh"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3566",
+        "question": "What is Africa's deepest lake?",
+        "answers": [
+            "Lake Tanganyika"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2088",
+        "question": "What country in Africa is the only one to have legalized same-sex marriage?",
+        "answers": [
+            "South Africa"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4481",
+        "question": "What is the economic status of Taiwan and what industries are significant in its economy?",
+        "answers": [
+            "21st/20th, steel, machinery, electronics, chemicals, export-oriented"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3381",
+        "question": "Which global movement does this member participate in?",
+        "answers": [
+            "NAM"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2019",
+        "question": "What is the current location of the ruins of Tenochtitlan?",
+        "answers": [
+            "Answer: Mexican capital"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3885",
+        "question": "What is the main focus of The Gambia's economy?",
+        "answers": [
+            "Tourism"
+        ]
+    },
+    {
+        "query_id": "qa_2936_788",
+        "question": "How wealthy is Ningbo compared to other cities in China?",
+        "answers": [
+            "Ningbo ranked 8th in terms of average yearly disposable income in 2020."
+        ]
+    },
+    {
+        "query_id": "qa_2936_2977",
+        "question": "Where are the holy Hindu temples and pilgrimage centers in Uttar Pradesh located?",
+        "answers": [
+            "Agra, Aligarh, Ayodhya, Bareilly, Gorakhpur, Kanpur, Kushinagar, Lucknow, Mathura, Meerut, Prayagraj, Varanasi, Vrindavan"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4376",
+        "question": "What political union occurred between Christian kingdoms in Northern Iberia in 1479?",
+        "answers": [
+            "J"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3078",
+        "question": "What is the land area of the Northwest Territories?",
+        "answers": [
+            "Roughly equal to that of France, Portugal and Spain combined"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1683",
+        "question": "What recent major infrastructure project provides a fully flat route through the Alps?",
+        "answers": [
+            "Gotthard Base Tunnel"
+        ]
+    },
+    {
+        "query_id": "qa_2936_326",
+        "question": "What city is the capital of Niger State in Nigeria?",
+        "answers": [
+            "Minna is the capital city of Niger State in Nigeria."
+        ]
+    },
+    {
+        "query_id": "qa_2936_2996",
+        "question": "What bodies of water border Georgia?",
+        "answers": [
+            "The Black Sea"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4758",
+        "question": "What are some of the largest cities in Veracruz besides the capital?",
+        "answers": [
+            "Veracruz, Coatzacoalcos, C\u00f3rdoba, Minatitl\u00e1n, Poza Rica, Boca Del R\u00edo, and Orizaba"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3134",
+        "question": "What is the name of the largest island in the Chagos Archipelago that was leased to the US?",
+        "answers": [
+            "Diego Garcia"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4094",
+        "question": "What is the largest city in Austria?",
+        "answers": [
+            "Vienna"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3367",
+        "question": "Which borders does Gipuzkoa share?",
+        "answers": [
+            "Gipuzkoa shares borders with the French department of Pyr\u00e9n\u00e9es-Atlantiques, Navarre, Biscay, \u00c1lava, and the Bay of Biscay."
+        ]
+    },
+    {
+        "query_id": "qa_2936_967",
+        "question": "What language does the Cherokee People speak?",
+        "answers": [
+            "Cherokee language is part of the Iroquoian language group."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3248",
+        "question": "Who founded Addis Ababa?",
+        "answers": [
+            "Menelik II"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2516",
+        "question": "Why is economic progress hindered in Tripura?",
+        "answers": [
+            "Geographical isolation"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3366",
+        "question": "What is the capital city of Gipuzkoa?",
+        "answers": [
+            "The capital city of Gipuzkoa is Donostia-San Sebasti\u00e1n."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1329",
+        "question": "How many inhabitants does Andhra Pradesh have?",
+        "answers": [
+            "49,577,103"
+        ]
+    },
+    {
+        "query_id": "qa_2936_255",
+        "question": "What is the name of the administrative capital and largest city in Central Sulawesi?",
+        "answers": [
+            "Palu"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2962",
+        "question": "What percentage of the total geographical area in Uttar Pradesh is cultivable?",
+        "answers": [
+            "82%"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1285",
+        "question": "Which historical figure ruled Libya for 42 years and was often described by critics as a dictator?",
+        "answers": [
+            "Muammar Gaddafi."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4793",
+        "question": "How does Goa's GDP per capita compare to the rest of India?",
+        "answers": [
+            "Two and a half times"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3175",
+        "question": "What year did the Treaty of Trianon establish Hungary's current borders?",
+        "answers": [
+            "1920"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1477",
+        "question": "How many members does the largest community globally have that identifies with and observes the tenets and traditions of the Samaritans' ethnic religion?",
+        "answers": [
+            "20,000 members"
+        ]
+    },
+    {
+        "query_id": "qa_2936_471",
+        "question": "What is the Melkite Catholic Patriarchate of Antioch? ",
+        "answers": [
+            "ECRB (Eastern Catholic, Byzantine Rite) residential Patriarchate formed 1724, descended from Antioch Orthodox."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4130",
+        "question": "Which country has the largest military in Africa?",
+        "answers": [
+            "Algeria."
+        ]
+    },
+    {
+        "query_id": "qa_2936_726",
+        "question": "Which subdivision in Virginia has the largest population?",
+        "answers": [
+            "Fairfax County"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1599",
+        "question": "What is the population of County Waterford, including the city?",
+        "answers": [
+            "127,363"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3283",
+        "question": "What were the names of the political entities formed in different parts of Albania between the 13th and 15th centuries? ",
+        "answers": [
+            "Kingdom of Albania, Principality of Albania, Albania Veneta, and other Albanian principalities and political entities."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3805",
+        "question": "What documents are the basis for Quebec society's cohesion and specificity?",
+        "answers": [
+            "QCHRF, CFL, CCQ"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3049",
+        "question": "When did Vanuatu gain independence?",
+        "answers": [
+            "1980"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2360",
+        "question": "How much did Fujian's GDP reach in 2022 in US dollars by nominal GDP?",
+        "answers": [
+            "531000000000"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2345",
+        "question": "How is the North Korean population still suffering today?",
+        "answers": [
+            "population continuing to suffer from malnutrition"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2301",
+        "question": "Which languages are recognized as official in Lebanon, besides Arabic?",
+        "answers": [
+            "In addition to Arabic, French is recognized as an official language in Lebanon."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1279",
+        "question": "What happened to the Italian population in Libya?",
+        "answers": [
+            "Declined."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3915",
+        "question": "What is the cultural center of Bali?",
+        "answers": [
+            "Ubud in Greater Denpasar is the cultural center of Bali."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4369",
+        "question": "What followed the fall of the Western Roman Empire in Spain?",
+        "answers": [
+            "INWARD MIGRATION OF TRIBES FROM CENTRAL EUROPE, INCLUDING THE VISIGOTHS"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3419",
+        "question": "How many cities are there in West Sumatra?",
+        "answers": [
+            "A: 7"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4541",
+        "question": "What is the political structure of Nigeria?",
+        "answers": [
+            "Federal republic comprising 36 states and the Federal Capital Territory."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1934",
+        "question": "How far back does the Holy See date?",
+        "answers": [
+            "Early Christianity."
+        ]
+    },
+    {
+        "query_id": "qa_2936_2195",
+        "question": "What type of region is the Special Region of Yogyakarta?",
+        "answers": [
+            "It is a first-level division."
+        ]
+    },
+    {
+        "query_id": "qa_2936_909",
+        "question": "Which Rouge FM station is programmed locally instead of simultaneously with the others?",
+        "answers": [
+            "CITF-FM (Quebec City)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_64",
+        "question": "Which country briefly regained possession of North Sulawesi after the Japanese surrender in 1945?",
+        "answers": [
+            "The Dutch"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3561",
+        "question": "Which religions are practiced in Tanzania?",
+        "answers": [
+            "Christianity, Muslim, Animist"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3849",
+        "question": "How did the rebels bring an end to the South's dominance in Chad in 1979?",
+        "answers": [
+            "In 1979 the rebels conquered the capital and put an end to the South's hegemony"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2809",
+        "question": "Where is Munich located in relation to the Alps and major rivers?",
+        "answers": [
+            "Munich is straddling the banks of the river Isar north of the Alps."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1795",
+        "question": "What is the name of the northernmost state in Myanmar?",
+        "answers": [
+            "Kachin State"
+        ]
+    },
+    {
+        "query_id": "qa_2936_350",
+        "question": "How many people identified as Tongva or claimed partial ancestry in 2008?",
+        "answers": [
+            "More than 1,700"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4305",
+        "question": "Since when has the national seat of the ROC central government been in Taipei?",
+        "answers": [
+            "The national seat of the ROC central government has been in Taipei since 1949."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1806",
+        "question": "How were Francisco Mac\u00edas Nguema and Teodoro Obiang Nguema Mbasogo characterized by foreign observers?",
+        "answers": [
+            "Francisco Mac\u00edas Nguema and Teodoro Obiang Nguema Mbasogo were widely characterized as dictators by foreign observers."
+        ]
+    },
+    {
+        "query_id": "qa_2936_437",
+        "question": "What was Meghalaya's gross state domestic product for the year 2012?",
+        "answers": [
+            "\u20b916,173 crore."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3120",
+        "question": "What is the name given to Mauritius by Arab traders in the Indian Ocean?",
+        "answers": [
+            "Dina Arobi"
+        ]
+    },
+    {
+        "query_id": "qa_2936_182",
+        "question": "In which administrative region is Kaspiysk located?",
+        "answers": [
+            "Answer: Republic of Dagestan"
+        ]
+    },
+    {
+        "query_id": "qa_2936_375",
+        "question": "Who owns CHYK-FM, CHYC-FM, and CHYQ-FM in Ontario?",
+        "answers": [
+            "A: Le5 Communications"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4682",
+        "question": "What is the name of the province in Molise region of Italy?",
+        "answers": [
+            "Campobasso"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3976",
+        "question": "What is the largest city in New Mexico?",
+        "answers": [
+            "Albuquerque"
+        ]
+    },
+    {
+        "query_id": "qa_2936_307",
+        "question": "What type of language is Ladin, and is it related to any other languages in the area? ",
+        "answers": [
+            "Rhaeto-Romance language: While some consider Ladin a Rhaeto-Romance language, there is a scientific debate about whether it forms part of a wider northern Italian dialect continuum."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4248",
+        "question": "What is Australia's population?",
+        "answers": [
+            "nearly 27 million"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2177",
+        "question": "Which regions make up New York State, and where are they located?",
+        "answers": [
+            "Downstate, Upstate, Great Lakes (GL)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2199",
+        "question": "What is the name of the most western inhabited island in Japan?",
+        "answers": [
+            "Yonaguni"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3217",
+        "question": "When did [state name] achieve responsible government?",
+        "answers": [
+            "1890"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3969",
+        "question": "What other important population centers are in Chiapas besides Tuxtla Guti\u00e9rrez?",
+        "answers": [
+            "Other important population centers in Chiapas besides Tuxtla Guti\u00e9rrez are Ocosingo, Tapachula, San Crist\u00f3bal de las Casas, Comit\u00e1n, and Arriaga."
+        ]
+    },
+    {
+        "query_id": "qa_2936_549",
+        "question": "Which archdiocese was the Diocese of Arras a suffragan of from 1802 to 1841?",
+        "answers": [
+            "From 1802 to 1841, the Diocese of Arras was a suffragan of the Archdiocese of Paris."
+        ]
+    },
+    {
+        "query_id": "qa_2936_2914",
+        "question": "What is the role of the S\u00e1mi people in Norway's governance?",
+        "answers": [
+            "The S\u00e1mi Parliament and Finnmark Act provide self-determination and influence to the S\u00e1mi people in traditional territories."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4439",
+        "question": "What are the two chambers of the U.S. National legislature?",
+        "answers": [
+            "House of Representatives, Senate"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3695",
+        "question": "What percentage of the population in South Sudan is under 18 years old?",
+        "answers": [
+            "Roughly half"
+        ]
+    },
+    {
+        "query_id": "qa_2936_800",
+        "question": "Which counties does Miaoli County border to the north?",
+        "answers": [
+            "Hsinchu County and Hsinchu City"
+        ]
+    },
+    {
+        "query_id": "qa_2936_49",
+        "question": "What towns are located in the \u01c1Karas Region of Namibia?",
+        "answers": [
+            "The towns Karasburg, L\u00fcderitz, and Oranjemund are located in the \u01c1Karas Region of Namibia."
+        ]
+    },
+    {
+        "query_id": "qa_2936_2046",
+        "question": "What cultural landmark is located in Kaohsiung and what is it called?",
+        "answers": [
+            "Kaohsiung Music Center"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4033",
+        "question": "How many municipalities are there in Yucat\u00e1n?",
+        "answers": [
+            "106"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3325",
+        "question": "What is the largest single-structure airport terminal in the world?",
+        "answers": [
+            "The Beijing Daxing International Airport is the largest single-structure airport terminal in the world."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1790",
+        "question": "What is the capital of Hainan Province?",
+        "answers": [
+            "Haikou"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2037",
+        "question": "What other religions are followed in Edo State?",
+        "answers": [
+            "Islam, traditional religions"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3443",
+        "question": "Which city is the largest in Kenya?",
+        "answers": [
+            "Nairobi"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2451",
+        "question": "What is the name of the state in northeastern Germany?",
+        "answers": [
+            "Brandenburg"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1570",
+        "question": "Which towns in the canton are known for Alpine resorts?",
+        "answers": [
+            "Davos, St. Moritz"
+        ]
+    },
+    {
+        "query_id": "qa_2936_165",
+        "question": "What province is located in the northeastern part of Papua New Guinea?",
+        "answers": [
+            "New Ireland Province"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2275",
+        "question": "What is the political system in Namibia?",
+        "answers": [
+            "Stable parliamentary democracy"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3118",
+        "question": "Where is Mauritius located in relation to East Africa?",
+        "answers": [
+            "2,000 km SE of East Africa"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2759",
+        "question": "Eastern Europe and West Asia: In which regions is Azerbaijan located?",
+        "answers": [
+            "EEWA"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4347",
+        "question": "Which country does Pakistan share a maritime border with in the Gulf of Oman?",
+        "answers": [
+            "Oman"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4413",
+        "question": "What resources does the Philippines have in terms of natural resources?",
+        "answers": [
+            "Resources"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3884",
+        "question": "What international organizations is The Gambia a member of?",
+        "answers": [
+            "Yes"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3148",
+        "question": "What is Odisha (formerly Orissa) and where is it located in India?",
+        "answers": [
+            "Eastern Indian state, Bay of Bengal coast, formerly Orissa"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3981",
+        "question": "What geographic region does New Mexico share with Utah, Colorado, and Arizona?",
+        "answers": [
+            "Four Corners"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3404",
+        "question": "Which body of water is to the west of Colombia?",
+        "answers": [
+            "Pac."
+        ]
+    },
+    {
+        "query_id": "qa_2936_318",
+        "question": "What tourist attraction in Lapland is related to Santa Claus?",
+        "answers": [
+            "Santa Claus Village (Lapland)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1203",
+        "question": "How does East Timor approach international cooperation?",
+        "answers": [
+            "Maintains a policy of cooperation"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3128",
+        "question": "Who did the Dutch bring to Mauritius to work in sugar and arrack production?",
+        "answers": [
+            "Malagasy slaves"
+        ]
+    },
+    {
+        "query_id": "qa_2936_276",
+        "question": "Which of Palau's sixteen states is Tobi?",
+        "answers": [
+            "Tobi is Palau's southernmost state."
+        ]
+    },
+    {
+        "query_id": "qa_2936_286",
+        "question": "How many Ulch people were reported in the 1989 census?",
+        "answers": [
+            "3173"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4218",
+        "question": "What type of country is Slovakia?",
+        "answers": [
+            "Developed country"
+        ]
+    },
+    {
+        "query_id": "qa_2936_399",
+        "question": "Who was the monarch during the joining of Scotland and England in a personal union?",
+        "answers": [
+            "James VI"
+        ]
+    },
+    {
+        "query_id": "qa_2936_133",
+        "question": "What is the population of North Khorasan Province in 2011?",
+        "answers": [
+            "867,727"
+        ]
+    },
+    {
+        "query_id": "qa_2936_810",
+        "question": "What are the names of the colleges at Hawler Medical University (HMU)?",
+        "answers": [
+            "The colleges at HMU are..."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3018",
+        "question": "What region does Peru belong to?",
+        "answers": [
+            "The Pacific Pumas"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2728",
+        "question": "Which ancient states were located in the region that is now Israel?",
+        "answers": [
+            "Answer: Canaanite, and later, Israelite and Judahite states"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2161",
+        "question": "What is the name of the largest public corporation in Oregon by annual revenue?",
+        "answers": [
+            "Nike, Inc."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3631",
+        "question": "What is the most common form of farming in Mizoram?",
+        "answers": [
+            "Slash-and-burn farming/jhum"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2302",
+        "question": "When did humans first appear in Lebanon?",
+        "answers": [
+            "The earliest evidence of human civilization in Lebanon dates back to 5000 BCE."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3252",
+        "question": "When did Addis Ababa become the capital of Ethiopia?",
+        "answers": [
+            "1889"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2879",
+        "question": "Which country in Central Asia produces the most electricity?",
+        "answers": [
+            "Uzbekistan (largest electricity producer in Central Asia)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4227",
+        "question": "Which dynasty reunified Myanmar and became the largest empire in the history of Southeast Asia?",
+        "answers": [
+            "The Taungoo dynasty"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1809",
+        "question": "What percentage of the population has a good command of Spanish in Equatorial Guinea?",
+        "answers": [
+            "87.7%"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3855",
+        "question": "What is Chad's primary source of export earnings since 2003?",
+        "answers": [
+            "Oil"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1131",
+        "question": "How is Sumatra shaped?",
+        "answers": [
+            "Elongated, diagonal NW-SE"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1943",
+        "question": "How does Jamaica's economy compare to other countries?",
+        "answers": [
+            "Upper-middle-income, heavily dependent on tourism"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3295",
+        "question": "What event caused Manipur to merge into India?",
+        "answers": [
+            "He signed a Merger Agreement"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2219",
+        "question": "What is East Nusa Tenggara?",
+        "answers": [
+            "East Nusa Tenggara (Indonesian: Nusa Tenggara Timur) is the southernmost province of Indonesia."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3394",
+        "question": "What is the abbreviation for the Northern Territory?",
+        "answers": [
+            "NT"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4569",
+        "question": "What two enclaves are located within Italy?",
+        "answers": [
+            "Vatican City, San Marino"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1682",
+        "question": "What major north-south railway link across the Alps was opened in 1882?",
+        "answers": [
+            "Gotthard Railway"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1838",
+        "question": "What valuable resources can be found in Bolivia's mines?",
+        "answers": [
+            "Mines produce tin, silver, lithium, copper."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1236",
+        "question": "What is the name and official name of Washington? ",
+        "answers": [
+            "Washington, officially the State of Washington"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3353",
+        "question": "What is the name of this country or body of water?",
+        "answers": [
+            "N. Or Niger."
+        ]
+    },
+    {
+        "query_id": "qa_2936_2243",
+        "question": "Who is the current monarch of Papua New Guinea?",
+        "answers": [
+            "Charles III"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1975",
+        "question": "How many regencies and what is the name of the capital city in Papua?",
+        "answers": [
+            "Papua has eight regencies and one city called Jayapura."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1602",
+        "question": "What is Negros Occidental?",
+        "answers": [
+            "Negros Occidental is a province in the Philippines located in the Western Visayas region, officially known as the Province of Negros Occidental."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4027",
+        "question": "When did the Habsburg Empire begin expanding towards Central Serbia?",
+        "answers": [
+            "Answer: End of the 17th century"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3541",
+        "question": "What state is commonly abbreviated as NSW?",
+        "answers": [
+            "NSW"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3313",
+        "question": "What is the capital of the People's Republic of China?",
+        "answers": [
+            "Beijing"
+        ]
+    },
+    {
+        "query_id": "qa_2936_111",
+        "question": "What is the name or translation of Lower Shabelle in Italian?",
+        "answers": [
+            "Basso Scebeli"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4802",
+        "question": "Which other locations are part of Campania besides the south-western portion of the Italian peninsula?",
+        "answers": [
+            "IP"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2883",
+        "question": "Which countries border Mauritania?",
+        "answers": [
+            "Atlantic, W. Sahara, Alg., Mali, Seneg."
+        ]
+    },
+    {
+        "query_id": "qa_2936_2340",
+        "question": "Where is EA in relation to North Korea?",
+        "answers": [
+            "EA"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3314",
+        "question": "How many people live in Beijing?",
+        "answers": [
+            "About 22 million residents"
+        ]
+    },
+    {
+        "query_id": "qa_2936_868",
+        "question": "Who owns and operates CIKI-FM?",
+        "answers": [
+            "Bell Media"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2445",
+        "question": "Where does Mumbai lie on the coast of India?",
+        "answers": [
+            "Konkan coast, west coast"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2995",
+        "question": "What is the name of the country located in Eastern Europe and West Asia and bordered by the Black Sea, Russia, Turkey, Armenia, and Azerbaijan?",
+        "answers": [
+            "Georgia"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1395",
+        "question": "Which tribes live in Arunachal Pradesh, and how many major tribes and sub-tribes are there?",
+        "answers": [
+            "Major tribes: 26, Sub-tribes: 100, Including: Nocte, Adi, Nyshi, Singpho, Galo, Tagin, Apatani. Nyishi (largest), Mishmi (3 sub-tribes: Idu-Mishmi, Digaru-Mishmi, Miju-Mishmi)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4004",
+        "question": "What animals and birds are found in the wild habitats of Assam?",
+        "answers": [
+            "One-horned Indian rhinoceros, wild water buffalo, pygmy hog, tiger, Asiatic birds"
+        ]
+    },
+    {
+        "query_id": "qa_2936_755",
+        "question": "Where is the capital of Nasarawa located?",
+        "answers": [
+            "Lafia (E)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1962",
+        "question": "Where is Dipolog located in terms of topography and bodies of water?",
+        "answers": [
+            "Rolling hills SE, Sulu Sea N"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1907",
+        "question": "What was Yugoslavia and when did it exist?",
+        "answers": [
+            "YUG"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4252",
+        "question": "What was declared by Tuareg rebels in April 2012?",
+        "answers": [
+            "secession of Azawad"
+        ]
+    },
+    {
+        "query_id": "qa_2936_219",
+        "question": "What type of radio station is RT\u00c9 Raidi\u00f3 na Gaeltachta?",
+        "answers": [
+            "RT\u00c9 Raidi\u00f3 na Gaeltachta is an Irish language radio station."
+        ]
+    },
+    {
+        "query_id": "qa_2936_2659",
+        "question": "Which areas were colonized by the Spanish Empire?",
+        "answers": [
+            "California"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3035",
+        "question": "What was the previous administrative unit of Himachal Pradesh before it became a full statehood in 1971?",
+        "answers": [
+            "Chief Commissioner's province/Union Territory."
+        ]
+    },
+    {
+        "query_id": "qa_2936_975",
+        "question": "Where is the Eastern Band of Cherokee Indians located?",
+        "answers": [
+            "Qualla Boundary, western NC"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3980",
+        "question": "What major river runs through New Mexico?",
+        "answers": [
+            "Rio Grande"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2625",
+        "question": "How many people live in Cameroon?",
+        "answers": [
+            "27M"
+        ]
+    },
+    {
+        "query_id": "qa_2936_359",
+        "question": "What is the name of the province with an Arab majority that is disputed between Turkey and Syria?",
+        "answers": [
+            "Hatay (disputed with an Arab majority)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_702",
+        "question": "Which province does Mati serve as the capital for?",
+        "answers": [
+            "Davao Oriental"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2706",
+        "question": "What two things does the Danish government still retain control of in Greenland?",
+        "answers": [
+            "Citizenship and foreign affairs, including defense"
+        ]
+    },
+    {
+        "query_id": "qa_2936_91",
+        "question": "What is the most populous city in the Soccsksargen region in the Philippines?",
+        "answers": [
+            "General Santos"
+        ]
+    },
+    {
+        "query_id": "qa_2936_522",
+        "question": "AC: Roman Catholic archdiocese in France covering the department of Puy-de-D\u00f4me in the Auvergne region. A:",
+        "answers": [
+            "Clermont Archdiocese."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4469",
+        "question": "What is Russia's ranking in terms of military expenditure?",
+        "answers": [
+            "What is Russia's position in military spending?"
+        ]
+    },
+    {
+        "query_id": "qa_2936_947",
+        "question": "Where is CHOI located?",
+        "answers": [
+            "Quebec City"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3590",
+        "question": "What is the primary language spoken in Carinthia?",
+        "answers": [
+            "The primary language spoken in Carinthia is German."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4383",
+        "question": "Which international organizations is Spain a member of?",
+        "answers": [
+            "United Nations, many other international organizations"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4570",
+        "question": "What is an exclave located within Switzerland and surrounded by Italy?",
+        "answers": [
+            "Campione"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3216",
+        "question": "When was [place name] settled?",
+        "answers": [
+            "16 September 1831"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3065",
+        "question": "What is Madhya Pradesh's size? ",
+        "answers": [
+            "2nd largest Indian state by area"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3684",
+        "question": "What alternative names have been used to describe the Catalan language in Aragon by some right-wing political forces?",
+        "answers": [
+            "Unspecified alternative names"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4091",
+        "question": "What is the capital of Austria?",
+        "answers": [
+            "Vienna"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1215",
+        "question": "What structure was once the tallest artificial structure in the Western Hemisphere?",
+        "answers": [
+            "KVLY-TV mast"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2091",
+        "question": "What is the current state of crime, poverty, and inequality in South Africa, and what percentage of the population is unemployed?",
+        "answers": [
+            "Widespread; 40% unemployed (2021)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4695",
+        "question": "How is Yukon referred to in Canadian French?",
+        "answers": [
+            "[juk\u00f5]"
+        ]
+    },
+    {
+        "query_id": "qa_2936_881",
+        "question": "What type of university is Atilim University?",
+        "answers": [
+            "Private university"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2200",
+        "question": "What archipelago does the Yaeyama Islands belong to?",
+        "answers": [
+            "Ryukyu Islands archipelago"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2652",
+        "question": "What states and foreign country does California share borders with?",
+        "answers": [
+            "Oregon, Nevada, Arizona, Baja California"
+        ]
+    },
+    {
+        "query_id": "qa_2936_298",
+        "question": "Who primarily inhabits Marawi?",
+        "answers": [
+            "Maranao people"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1109",
+        "question": "What was the extent of the cultural core of the Phoenicians?",
+        "answers": [
+            "The cultural core of the Phoenicians stretched from Arwad in modern Syria to Mount Carmel in modern Israel, covering the entire coast of modern Lebanon."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3240",
+        "question": "Which languages are classified as the official languages in Basilan?",
+        "answers": [
+            "Filipino, English"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1213",
+        "question": "What city is believed to host the geographic center of North America?",
+        "answers": [
+            "Rugby"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3326",
+        "question": "What city is Beijing?",
+        "answers": [
+            "Beijing is the largest city in the world by population for much of the second millennium CE and one of the oldest cities in the world with a rich history dating back over three millennia."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4084",
+        "question": "What bodies of water are located near Finland?",
+        "answers": [
+            "The Gulf of Bothnia is located to the west of Finland, and the Gulf of Finland is located to the south, opposite Estonia"
+        ]
+    },
+    {
+        "query_id": "qa_2936_715",
+        "question": "In which province is the municipality of Poona Bayabao located?",
+        "answers": [
+            "Lanao del Sur"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4045",
+        "question": "What is the largest metropolitan region in Belgium?",
+        "answers": [
+            "Brussels"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1539",
+        "question": "How has Portuguese culture influenced Angolan culture?",
+        "answers": [
+            "Centuries"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4154",
+        "question": "How does the prime minister hold onto their position in Canada?",
+        "answers": [
+            "Command confidence House of Commons; called upon governor general (Canada)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3783",
+        "question": "Who are some figures influential in the history of art and culture from Tuscany?",
+        "answers": [
+            "Dante Alighieri, Petrarch, Giovanni Boccaccio, Niccol\u00f2 Machiavelli, and Francesco Guicciardini"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1297",
+        "question": "What is the Dnieper river valley?",
+        "answers": [
+            "Dnieper river valley (stretches from...)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2409",
+        "question": "How did Kyiv fare after the collapse of the Soviet Union and Ukrainian independence in 1991?",
+        "answers": [
+            "remained Ukraine's capital, ethnic Ukrainian migrants from other regions, experienced a steady influx"
+        ]
+    },
+    {
+        "query_id": "qa_2936_634",
+        "question": "What was the population of Rudbar County in 2006?",
+        "answers": [
+            "101,884"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2869",
+        "question": "Which language is widely spoken and understood in Uzbekistan?",
+        "answers": [
+            "Russian."
+        ]
+    },
+    {
+        "query_id": "qa_2936_28",
+        "question": "Where is the ancient center of Samarqand located?",
+        "answers": [
+            "The ancient center of Samarqand is located at Registan square, bounded by three monumental religious buildings."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3718",
+        "question": "Where is Liberia located?",
+        "answers": [
+            "West African coast"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3466",
+        "question": "Which region in South Asia is Bangladesh located in?",
+        "answers": [
+            "Bangladesh is a country located in South Asia."
+        ]
+    },
+    {
+        "query_id": "qa_2936_979",
+        "question": "Which countries border Denmark?",
+        "answers": [
+            "Germany (short border)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1495",
+        "question": "What attractions make Edinburgh the UK's second-most visited tourist destination?",
+        "answers": [
+            "Historical and cultural attractions"
+        ]
+    },
+    {
+        "query_id": "qa_2936_590",
+        "question": "How many people does the municipality of Rosales in Pangasinan have according to the 2020 census?",
+        "answers": [
+            "66,711"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1082",
+        "question": "Who controlled the islands in ancient times?",
+        "answers": [
+            "Cheras"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2868",
+        "question": "What is the majority language spoken in Uzbekistan?",
+        "answers": [
+            "Uzbek."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3659",
+        "question": "What is Mont Orgueil Castle?",
+        "answers": [
+            "A medieval castle in Jersey."
+        ]
+    },
+    {
+        "query_id": "qa_2936_2391",
+        "question": "What river gives Senegal its name?",
+        "answers": [
+            "Senegal River"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3184",
+        "question": "When was the Sasanian Empire established?",
+        "answers": [
+            "224."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1080",
+        "question": "Which European empire was the third-largest during the Austrian Empire's existence?",
+        "answers": [
+            "The Austrian Empire was the third-largest empire in Europe during its existence, after the Russian Empire and the United Kingdom."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4810",
+        "question": "What region is known for its rich natural beauty?",
+        "answers": [
+            "Campania"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3546",
+        "question": "How many people live in New South Wales as of December 2023?",
+        "answers": [
+            "Over 8.3 million (as of Dec 2023)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2118",
+        "question": "What is the land area of New Caledonia?",
+        "answers": [
+            "18,575 km2 (7,172 sq mi)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_767",
+        "question": "What is the French name of the Moroccan public broadcaster?",
+        "answers": [
+            "Soci\u00e9t\u00e9 nationale de radiodiffusion et de t\u00e9l\u00e9vision (SNRT)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_897",
+        "question": "What is the name of the Canadian radio station in Edmundston, New Brunswick that plays French language active rock music on 101.1 FM and is branded as CFAI 101.1 / 105.1?",
+        "answers": [
+            "CFAI-FM (Edm, NB)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1471",
+        "question": "In what body of water does Palawan lie between?",
+        "answers": [
+            "between Mindoro island in the northeast and Borneo in the southwest"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2701",
+        "question": "What happened to the Norse colonies in Greenland?",
+        "answers": [
+            "Disappeared in the late 15th century"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4463",
+        "question": "What political system has dominated Russia since the turn of the century, and what is associated with this dominance?",
+        "answers": [
+            "Vladimir Putin, democratic backsliding, shift towards authoritarianism"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1692",
+        "question": "What was the main economic activity in Montana before gold was discovered?",
+        "answers": [
+            "Fur trappers"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3055",
+        "question": "What makes Buenos Aires a unique city in the Americas?",
+        "answers": [
+            "Diversity"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2716",
+        "question": "What historical civilization is associated with Guatemala?",
+        "answers": [
+            "E"
+        ]
+    },
+    {
+        "query_id": "qa_2936_397",
+        "question": "In which part of Europe is the Kingdom of Scotland located?",
+        "answers": [
+            "Northwest Europe"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3459",
+        "question": "Which region follows Africa as the second largest export market for Kenya?",
+        "answers": [
+            "EU"
+        ]
+    },
+    {
+        "query_id": "qa_2936_832",
+        "question": "How are the artists in Exile Tribe related to Exile's main group?",
+        "answers": [
+            "Exile Tribe's artists are all members of Exile, Exile the Second, Sandaime J Soul Brothers, Generations, The Rampage, Fantastics, Ballistik Boyz, Psychic Fever, Lil League, Kid Phenomenon, The Jet Boy Bangerz, Wolf Howl Harmony and Gekidan Exile."
+        ]
+    },
+    {
+        "query_id": "qa_2936_13",
+        "question": "What notable geographical features can be found in Jordan?",
+        "answers": [
+            "Jordan River, Dead Sea, Red Sea (Gulf of Aqaba)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_123",
+        "question": "What is Prince Edward Island?",
+        "answers": [
+            "Prince Edward Island"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3626",
+        "question": "Where did the Mizos come from when they first settled in Mizoram?",
+        "answers": [
+            "Southeast Asia"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2127",
+        "question": "What percentage of people in Aran speak Spanish as their native language?",
+        "answers": [
+            "38.78%"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1792",
+        "question": "What other major cities are there in Hainan besides Haikou and Sanya?",
+        "answers": [
+            "Wenchang, Sansha, Qionghai, Wanning, Wuzhishan, Dongfang"
+        ]
+    },
+    {
+        "query_id": "qa_2936_299",
+        "question": "What is the population of Marawi?",
+        "answers": [
+            "207,010"
+        ]
+    },
+    {
+        "query_id": "qa_2936_950",
+        "question": "Who is buying CHOI from Genex Communications?",
+        "answers": [
+            "RNC Media"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2042",
+        "question": "Which airport in Taiwan has the second highest number of passengers?",
+        "answers": [
+            "Kaohsiung International Airport"
+        ]
+    },
+    {
+        "query_id": "qa_2936_493",
+        "question": "What is the name of the UNESCO World Heritage Site in Paoay?",
+        "answers": [
+            "Paoay Church"
+        ]
+    },
+    {
+        "query_id": "qa_2936_439",
+        "question": "How many kilometers of national highways does Meghalaya have?",
+        "answers": [
+            "1,170 km."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1136",
+        "question": "What species are currently critically endangered in Sumatra?",
+        "answers": [
+            "Sumatran ground cuckoo, Sumatran tiger, Sumatran elephant, Sumatran rhinoceros, Sumatran orangutan"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2027",
+        "question": "What are the Welsh and English names for this county borough?",
+        "answers": [
+            "Neath Port Talbot (Welsh: Castell-nedd Port Talbot)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3032",
+        "question": "Which entities does Himachal Pradesh have borders with?",
+        "answers": [
+            "See answer to previous question."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4100",
+        "question": "Q1: What country is this describing?",
+        "answers": [
+            "A1: Austria"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4521",
+        "question": "Has Ethiopia ever been colonized?",
+        "answers": [
+            "Apart from a five-year occupation by Mussolini's Italy"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4074",
+        "question": "What is the name of the language spoken in Nepal?",
+        "answers": [
+            "Nepali (the language spoken in Nepal)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2281",
+        "question": "What policies of the central government are being criticized for Bihar's economic condition?",
+        "answers": [
+            "Freight equalisation policy, apathy towards Bihar"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3560",
+        "question": "What merged with Tanganyika in 1964 to form the United Republic of Tanzania?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_2936_4669",
+        "question": "Where is the secretariat of the Benelux and the headquarters of NATO located?",
+        "answers": [
+            "Brussels"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1181",
+        "question": "Who was involved in this consolidation of power?",
+        "answers": [
+            "Hun Sen, CPP"
+        ]
+    },
+    {
+        "query_id": "qa_2936_894",
+        "question": "In what country is Surallah located?",
+        "answers": [
+            "Philippines: island country in Southeast Asia"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4660",
+        "question": "What city is the capital of the Los R\u00edos Region in Chile?",
+        "answers": [
+            "Valdivia"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3888",
+        "question": "What type of political system does the United States have?",
+        "answers": [
+            "federal constitutional republic"
+        ]
+    },
+    {
+        "query_id": "qa_2936_436",
+        "question": "What makes up the service sector in Meghalaya?",
+        "answers": [
+            "Real estate and insurance companies."
+        ]
+    },
+    {
+        "query_id": "qa_2936_873",
+        "question": "What is the frequency of CFJU-FM?",
+        "answers": [
+            "90.1 FM"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3144",
+        "question": "Which province in Indonesia borders Banten and Jakarta to the west? ",
+        "answers": [
+            "Which borders Banten, Jakarta W?"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4791",
+        "question": "In what year did Goa become a part of India?",
+        "answers": [
+            "1961"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3911",
+        "question": "Which county underwent such a significant transformation in governance in the twentieth century, as mentioned in the Gwent County History essay?",
+        "answers": [
+            "Monmouthshire"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3754",
+        "question": "What valley is Paro District?",
+        "answers": [
+            "Paro valley"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4028",
+        "question": "How did the Serbian Revolution impact the region?",
+        "answers": [
+            "Answer: Established the region's first constitutional monarchy"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1831",
+        "question": "What administrative body governed Bolivia during the Spanish colonial period?",
+        "answers": [
+            "Real Audiencia of Charcas"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1420",
+        "question": "How is the demonym for people and things from the state distinguished from the demonym for people and things from the country as a whole?",
+        "answers": [
+            "Distinct"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3145",
+        "question": "What is the official status of Jakarta within West Java? ",
+        "answers": [
+            "Jakarta's stat within W Java? (Daerah Khusus Ibukota)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_733",
+        "question": "How does the relationship between cities, counties, and the state government differ in Virginia compared to other states?",
+        "answers": [
+            "Cities, counties, and state government have equal status in Virginia."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3813",
+        "question": "What is the geographic characteristic of Hunan?",
+        "answers": [
+            "Answer: Landlocked"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4127",
+        "question": "What ethnic group makes up the majority of the population in Algeria, and what religion do they follow?",
+        "answers": [
+            "Arab (The majority of Algeria's population is Arab) / Islam (Practicing Islam)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1782",
+        "question": "How was South Jutland divided following the Schleswig Plebiscites in 1920?",
+        "answers": [
+            "Danish Northern and German Southern Schleswig"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4350",
+        "question": "What political status did Pakistan hold after gaining independence?",
+        "answers": [
+            "Dominion (1947-1956)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_983",
+        "question": "How many people live in Denmark as of 2023?",
+        "answers": [
+            "5,964,059"
+        ]
+    },
+    {
+        "query_id": "qa_2936_521",
+        "question": "Who is the most recent Nobel laureate associated with Leipzig University?",
+        "answers": [
+            "Svante P\u00e4\u00e4bo (won the Nobel Prize for Medicine in 2022)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3453",
+        "question": "How did Kenya come to be a British protectorate?",
+        "answers": [
+            "Established in 1895, replaced in 1920."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4763",
+        "question": "Which province in China has received the most foreign direct investment since 2006?",
+        "answers": [
+            "Jiangsu"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2848",
+        "question": "How many islands does Japan span?",
+        "answers": [
+            "14,125."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4170",
+        "question": "What is the official name of Switzerland?",
+        "answers": [
+            "Switzerland, officially the Swiss Confederation"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1861",
+        "question": "What is the shortened name of the Federated States of Micronesia?",
+        "answers": [
+            "Micronesia"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4013",
+        "question": "Which region does Loire-Atlantique now belong to in France?",
+        "answers": [
+            "Pays de la Loire (France)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3503",
+        "question": "How was Islam introduced to Bengal?",
+        "answers": [
+            "Through trade with the Abbasid Caliphate."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1761",
+        "question": "In what centuries did the Akkadian Empire reach its political peak?",
+        "answers": [
+            "24th and 22nd centuries BC"
+        ]
+    },
+    {
+        "query_id": "qa_2936_805",
+        "question": "What is Hawler Medical University (HMU)?",
+        "answers": [
+            "HMU is a..."
+        ]
+    },
+    {
+        "query_id": "qa_2936_45",
+        "question": "What is the capital city of Lanao del Sur?",
+        "answers": [
+            "Marawi"
+        ]
+    },
+    {
+        "query_id": "qa_2936_886",
+        "question": "How do Atilim University's education programs compare to international standards?",
+        "answers": [
+            "Meet international standards (e.g. ABET 2000)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1408",
+        "question": "What is the name of the easternmost federal subject in Russia?",
+        "answers": [
+            "Chukotka Autonomous Okrug"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4752",
+        "question": "Who did the emperor reward and employ as a counterweight against Confucian scholar-bureaucrats?",
+        "answers": [
+            "Eunuchs."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1427",
+        "question": "What is the administrative center of Leningrad Oblast?",
+        "answers": [
+            "Gatchina"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2467",
+        "question": "What percentage of Egypt's population lives in urban areas?",
+        "answers": [
+            "43%"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1860",
+        "question": "What is the name of the island country in Micronesia?",
+        "answers": [
+            "FSM"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4306",
+        "question": "What is the name of a shopping district in Taipei?",
+        "answers": [
+            "Ximending"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3494",
+        "question": "What is the current political status of Argentina?",
+        "answers": [
+            "Argentina is a regional power and still maintains its historic status as a middle power in international affairs."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1912",
+        "question": "Which countries invaded Yugoslavia in 1941?",
+        "answers": [
+            "AP"
+        ]
+    },
+    {
+        "query_id": "qa_2936_6",
+        "question": "What is the name of the municipality that now encompasses the Gottschee region in Slovenia?",
+        "answers": [
+            "Municipality of Ko\u010devje"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2664",
+        "question": "What percentage of the nation's earthquake risk lies in California?",
+        "answers": [
+            "2/3"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3376",
+        "question": "What is the population of Somalia, and where do most people live?",
+        "answers": [
+            "Somalia's estimated population is 17.1M, over 2M live in Mogadishu."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3136",
+        "question": "Where is Mauritius located?",
+        "answers": [
+            "In Africa (where Hinduism is most practised)."
+        ]
+    },
+    {
+        "query_id": "qa_2936_112",
+        "question": "What is the Xia dynasty?",
+        "answers": [
+            "The Xia dynasty is the first dynasty in traditional Chinese historiography."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4326",
+        "question": "What country has a rich and diverse cuisine?",
+        "answers": [
+            "Turkey"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2165",
+        "question": "How much does the Council of Europe (CoE) operate with annually?",
+        "answers": [
+            "Approximately 500 million euros"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4",
+        "question": "Was Barira, Philippines, formerly a part of the province of Shariff Kabunsuan?",
+        "answers": [
+            "Yes"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3158",
+        "question": "Who was the last major emperor of the Mughal Empire?",
+        "answers": [
+            "Aurangzeb"
+        ]
+    },
+    {
+        "query_id": "qa_2936_685",
+        "question": "What languages are spoken in Sulaymaniyah Governorate?",
+        "answers": [
+            "Sorani Kurdish, Kurmanji Kurdish, Arabic"
+        ]
+    },
+    {
+        "query_id": "qa_2936_779",
+        "question": "What education policies does Lesotho target?",
+        "answers": [
+            "Universal primary education"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2300",
+        "question": "How much land does Lebanon occupy?",
+        "answers": [
+            "Lebanon covers an area of 10,452 square kilometers (4,036 square miles)."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3497",
+        "question": "What mountain range runs along the state in a NNW-SSE direction?",
+        "answers": [
+            "Dawna Range"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1903",
+        "question": "What province is County Meath a part of? ",
+        "answers": [
+            "County Meath is a part of the Leinster province."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4546",
+        "question": "Which international organization is Nigeria a founding member of?",
+        "answers": [
+            "African Union"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1889",
+        "question": "What are the major economic bases of Oklahoma?",
+        "answers": [
+            "aviation, en, tel, bio"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2424",
+        "question": "What is Montenegro's economic status and ranking on the Human Development Index?",
+        "answers": [
+            "UMI, 49"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2513",
+        "question": "Where is tea believed to have originated from?",
+        "answers": [
+            "Yunnan"
+        ]
+    },
+    {
+        "query_id": "qa_2936_600",
+        "question": "Is Stanford University a coeducational and non-denominational institution?",
+        "answers": [
+            "Yes, Stanford University is coeducational and non-denominational"
+        ]
+    },
+    {
+        "query_id": "qa_2936_957",
+        "question": "Who carried out reprisals that forced thousands of Mons to flee to Siam?",
+        "answers": [
+            "Konbaung armies under the leadership of King Bodawpaya"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1921",
+        "question": "What is the name of the municipality in Lower Saxony, Germany that is home to Saterland Frisians and was formed in 1974 by merging several smaller municipalities?",
+        "answers": [
+            "Saterland"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4790",
+        "question": "What is the largest city in Goa?",
+        "answers": [
+            "Vasco da Gama"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4362",
+        "question": "What is Spain or the Kingdom of Spain?",
+        "answers": [
+            "SPAIN"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2309",
+        "question": "During which years was Lebanon subjugated by Israel?",
+        "answers": [
+            "1985-2000"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2904",
+        "question": "What alternative spellings of Norway are used in Bokm\u00e5l and Nynorsk, respectively?",
+        "answers": [
+            "Alternative spellings: Norge (Bokm\u00e5l), Noreg (Nynorsk)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_374",
+        "question": "What brand is CHYK-FM known as in Timmins, Ontario?",
+        "answers": [
+            "A: Le Loup 104.1"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2558",
+        "question": "In what year was there a coup in Thailand besides 2006 and 2014?",
+        "answers": [
+            "Another coup in Thailand besides 2006 and 2014 happened in..."
+        ]
+    },
+    {
+        "query_id": "qa_2936_2059",
+        "question": "How many municipalities does Puebla have?",
+        "answers": [
+            "217 municipalities"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4134",
+        "question": "Which group is Algeria a member of?",
+        "answers": [
+            "[Insert name of organization]."
+        ]
+    },
+    {
+        "query_id": "qa_2936_593",
+        "question": "What type of municipality is Rosales in Pangasinan?",
+        "answers": [
+            "1st class municipality"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1945",
+        "question": "Who is the current Prime Minister of Jamaica?",
+        "answers": [
+            "Andrew Holness"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4459",
+        "question": "What is the second-largest city and cultural capital of Russia? ",
+        "answers": [
+            "Saint Petersburg"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2380",
+        "question": "What is the name of the capital and largest city of Tunisia?",
+        "answers": [
+            "Tunis"
+        ]
+    },
+    {
+        "query_id": "qa_2936_420",
+        "question": "Who is the current Archbishop of Rouen?",
+        "answers": [
+            "Dominique Lebrun"
+        ]
+    },
+    {
+        "query_id": "qa_2936_540",
+        "question": "How does Rudaw Media Network describe itself?",
+        "answers": [
+            "Global media powerhouse: Rudaw"
+        ]
+    },
+    {
+        "query_id": "qa_2936_225",
+        "question": "What is the name of this province in the Philippines?",
+        "answers": [
+            "Agusan del Norte"
+        ]
+    },
+    {
+        "query_id": "qa_2936_40",
+        "question": "What is the origin of the surnames McAnulty and McNulty?",
+        "answers": [
+            "McAnulty and McNulty originate from Mac an Ultaigh, meaning'son of the Ulsterman'."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3209",
+        "question": "How long is the Millennium Coastal Park?",
+        "answers": [
+            "10 miles"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3732",
+        "question": "What is the name of Burkina Faso?",
+        "answers": [
+            "Burkina Faso"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2040",
+        "question": "What classification does Kaohsiung have according to the Globalization and World Cities Research Network?",
+        "answers": [
+            "Gamma \u2212"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4308",
+        "question": "What is the name of the museum in Taipei?",
+        "answers": [
+            "NPM"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4292",
+        "question": "What is the location of Chile in relation to other countries and bodies of water?",
+        "answers": [
+            "Chile, located btw Andes & Pacific, closest to Antarctica. Peru dist."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4611",
+        "question": "What is the capital of the region?",
+        "answers": [
+            "Karakol"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2654",
+        "question": "Where is California located in the United States?",
+        "answers": [
+            "Western United States"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1527",
+        "question": "Which historical regions does Friuli-Venezia Giulia encompass?",
+        "answers": [
+            "Friuli and a small portion of the historical region of Venezia Giulia"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2619",
+        "question": "What is the gross state domestic product (GSDP) of Kerala?",
+        "answers": [
+            "\u20b98.55 trillion (US$110 billion)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_597",
+        "question": "What is the name of the protected landscape and seascape that Libertad, a municipality in Misamis Oriental, Philippines, shares with neighboring Initao municipality?",
+        "answers": [
+            "Initao\u2013Libertad Protected Landscape and Seascape"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1438",
+        "question": "What is the official name of Malaybalay, and what administrative divisions is it a part of?",
+        "answers": [
+            "Malaybalay, officially the City of Malaybal\u00e1y (Binukid: B\u00e1nuwa ta Malaybal\u00e1y), is a 1st class component city and capital of the province of Bukidnon, Philippines."
+        ]
+    },
+    {
+        "query_id": "qa_2936_2472",
+        "question": "What is the Irish name for County Galway?",
+        "answers": [
+            "Contae na Gaillimhe"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3084",
+        "question": "How many people live in the Greater Glasgow contiguous urban area?",
+        "answers": [
+            "1,000,000"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3529",
+        "question": "What is the official language spoken in Slovenia?",
+        "answers": [
+            "Slovene"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2855",
+        "question": "In what areas has Japan made notable advances in technology and industry?",
+        "answers": [
+            "Japan is a global leader in the automotive, robotics, and electronics industries, and has made significant contributions to science and technology."
+        ]
+    },
+    {
+        "query_id": "qa_2936_671",
+        "question": "What is the official classification of Zarraga?",
+        "answers": [
+            "Municipality"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3369",
+        "question": "What is the total area of Gipuzkoa?",
+        "answers": [
+            "The total area of Gipuzkoa is 1,980 square kilometers."
+        ]
+    },
+    {
+        "query_id": "qa_2936_512",
+        "question": "What is the population of Anda?",
+        "answers": [
+            "41548"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4317",
+        "question": "What is the religious majority in Ghana?",
+        "answers": [
+            "Most Ghanaians are Christians (71.3%)."
+        ]
+    },
+    {
+        "query_id": "qa_2936_774",
+        "question": "When did Moshoeshoe II die?",
+        "answers": [
+            "2016"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2024",
+        "question": "What is the name of the World Heritage Site that contains the geography of the Mexica capital?",
+        "answers": [
+            "Answer: Xochimilco"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4112",
+        "question": "Which historic counties does the Highland area cover in Scotland?",
+        "answers": [
+            "Answers: Inverness-shire, Ross and Cromarty, Caithness, Nairnshire, Sutherland (small parts of Argyll and Moray also include parts of the Scottish Highlands)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3683",
+        "question": "Why do some right-wing political forces in Aragon prefer not to use the word Catalan to describe the language spoken in eastern Aragon?",
+        "answers": [
+            "Prefer alternative names"
+        ]
+    },
+    {
+        "query_id": "qa_2936_32",
+        "question": "Which languages are spoken by many inhabitants of Samarqand?",
+        "answers": [
+            "Many inhabitants of Samarqand speak the Tajik language as their native or bilingual language."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4633",
+        "question": "How many comuni are there in the province of Modena?",
+        "answers": [
+            "48"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4278",
+        "question": "What makes Schleswig-Holstein an important trade point and shipbuilding site?",
+        "answers": [
+            "Position on Atlantic Ocean"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2158",
+        "question": "What type of organism is the largest in the world?",
+        "answers": [
+            "Fungus"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3742",
+        "question": "What other religious affiliation is shared by a significant portion of the population in Burkina Faso?",
+        "answers": [
+            "Approximately 26.3%."
+        ]
+    },
+    {
+        "query_id": "qa_2936_1070",
+        "question": "What are the largest indigenous languages spoken in Maritime Guinea, Fouta Djallon, and Upper Guinea respectively?",
+        "answers": [
+            "Susu, Pular, Maninka"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3762",
+        "question": "How is the geography of Jiangxi described?",
+        "answers": [
+            "Spans N Yangtze, S/E hills"
+        ]
+    },
+    {
+        "query_id": "qa_2936_502",
+        "question": "What region in Peru is called the Department of Lima?",
+        "answers": [
+            "Department of Lima"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2438",
+        "question": "How much area of forests in the state is covered by protected areas? ",
+        "answers": [
+            "3.3k/1.3k sq km"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1301",
+        "question": "When did the decline of Kievan Rus' begin?",
+        "answers": [
+            "Late 11th century"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2044",
+        "question": "What cultural landmark is located in Kaohsiung and what is it called?",
+        "answers": [
+            "Pier-2 Art Center"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2482",
+        "question": "What are the Dolomites?",
+        "answers": [
+            "Dolomiti"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3070",
+        "question": "What is the size of Madhya Pradesh's economy and how does it compare to other Indian states in terms of per-capita income?",
+        "answers": [
+            "\u20b99.17 t, 26th (\u20b9 109372)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_2494",
+        "question": "What other names has Saint Petersburg gone by in the past?",
+        "answers": [
+            "Saint Petersburg was formerly known as Petrograd and later Leningrad."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4788",
+        "question": "What is the name and origin of Cork, Ireland?",
+        "answers": [
+            "Cork (Corcaigh) is a city in Ireland, meaning'marsh' from corcach."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3900",
+        "question": "How did Francoist Spain compare to other dictatorships during its existence?",
+        "answers": [
+            "Francoist Spain was a semi-fascist regime that compared to other dictatorships during its existence."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3744",
+        "question": "What newly added working language is Burkina Faso introducing alongside French?",
+        "answers": [
+            "Alongside."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3327",
+        "question": "Which of the oldest cities in the world is Beijing?",
+        "answers": [
+            "Beijing is one of the oldest cities in the world with a rich history dating back over three millennia."
+        ]
+    },
+    {
+        "query_id": "qa_2936_4777",
+        "question": "When did a one-party state established in Syria?",
+        "answers": [
+            "1963."
+        ]
+    },
+    {
+        "query_id": "qa_2936_3860",
+        "question": "What is the capital of the Solomon Islands?",
+        "answers": [
+            "Honiara"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1035",
+        "question": "What is the name of the country called Guyana (or )?",
+        "answers": [
+            "Guyana (or )"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4756",
+        "question": "What is the name of the capital city of Veracruz?",
+        "answers": [
+            "Xalapa-Enr\u00edquez"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4260",
+        "question": "What major religions are associated with Jerusalem in Christianity and Islam?",
+        "answers": [
+            "Christianity (Jerusalem's crucifixion and resurrection) and Sunni Islam (3rd holiest)"
+        ]
+    },
+    {
+        "query_id": "qa_2936_4743",
+        "question": "Can you list the 12 main urban areas on the North Island from north to south?",
+        "answers": [
+            "Whang\u0101rei, Auckland, Hamilton, Tauranga, Rotorua, Gisborne, New Plymouth, Napier, Hastings, Whanganui, Palmerston North, Wellington"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3129",
+        "question": "What was the purpose of the Batavia-bound ship refuelling station in Mauritius?",
+        "answers": [
+            "Batavia-bound refuelling"
+        ]
+    },
+    {
+        "query_id": "qa_2936_1712",
+        "question": "What is the name of the third largest business district in France, which was constructed in 1988?",
+        "answers": [
+            "Euralille"
+        ]
+    },
+    {
+        "query_id": "qa_2936_3562",
+        "question": "How many languages are spoken in Tanzania?",
+        "answers": [
+            "over 100"
+        ]
+    }
+]
