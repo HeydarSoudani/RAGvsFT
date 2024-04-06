@@ -1,0 +1,5581 @@
+[
+    {
+        "query_id": "qa_91_292",
+        "question": "Where did Claude Lorrain spend most of his life?",
+        "answers": [
+            "Italy"
+        ]
+    },
+    {
+        "query_id": "qa_91_7041",
+        "question": "Who stars in the 2014 South African action film Kite?",
+        "answers": [
+            "India Eisley, Callan McAuliffe, Samuel L. Jackson"
+        ]
+    },
+    {
+        "query_id": "qa_91_530",
+        "question": "In what location is the science fiction novel 'No Man Friday' (also known as 'First on Mars') by Rex Gordon (Stanley Bennett Hough) set?",
+        "answers": [
+            "Answer: Mars"
+        ]
+    },
+    {
+        "query_id": "qa_91_6191",
+        "question": "What are the steps involved in this process, starting with Step 1?",
+        "answers": [
+            "Defines initial action, Second step, Final step"
+        ]
+    },
+    {
+        "query_id": "qa_91_3837",
+        "question": "What organization did Alistair MacLean serve in during World War II?",
+        "answers": [
+            "Royal Navy"
+        ]
+    },
+    {
+        "query_id": "qa_91_7404",
+        "question": "What were some of Faye Adams' chart hits and when did they occur?",
+        "answers": [
+            "Faye Adams had several chart hits in the early 1950s."
+        ]
+    },
+    {
+        "query_id": "qa_91_4350",
+        "question": "What type of setting is depicted in the short documentary film 'Children Without'?",
+        "answers": [
+            "housing projects"
+        ]
+    },
+    {
+        "query_id": "qa_91_1070",
+        "question": "What is the release year of Avatar 3?",
+        "answers": [
+            "2025"
+        ]
+    },
+    {
+        "query_id": "qa_91_2645",
+        "question": "What is the title of L. Sprague de Camp's science fiction novel published in Startling Stories in April, 1952?",
+        "answers": [
+            "The Glory That Was"
+        ]
+    },
+    {
+        "query_id": "qa_91_986",
+        "question": "Where is the setting of the movie 'Last Cannibal World' directed by Ruggero Deodato in 1977?",
+        "answers": [
+            "Jungle island"
+        ]
+    },
+    {
+        "query_id": "qa_91_3190",
+        "question": "In which category did Dragon premiere in the Cannes Film Festival in 2011? ",
+        "answers": [
+            "Midnight Screenings category"
+        ]
+    },
+    {
+        "query_id": "qa_91_3623",
+        "question": "What is the title of the movie?",
+        "answers": [
+            "Prom"
+        ]
+    },
+    {
+        "query_id": "qa_91_4244",
+        "question": "Who wrote a sociological study on suicide before Durkheim did? (Assuming prior knowledge)",
+        "answers": [
+            "Masaryk"
+        ]
+    },
+    {
+        "query_id": "qa_91_598",
+        "question": "Which FBI agent is the basis for the story of the anti-Nazi film 'Confessions of a Nazi Spy'?",
+        "answers": [
+            "Leon G. Turrou"
+        ]
+    },
+    {
+        "query_id": "qa_91_3422",
+        "question": "Where has Katy Perry performed 'Teenage Dream'?",
+        "answers": [
+            "SNL, TCA, Grammy Awards, SBXLIII, CDT"
+        ]
+    },
+    {
+        "query_id": "qa_91_665",
+        "question": "Who are the successful alternative rock bands that formed after The Complex disbanded?",
+        "answers": [
+            "My Bloody Valentine and Hothouse Flowers (members of The Complex)"
+        ]
+    },
+    {
+        "query_id": "qa_91_5107",
+        "question": "Who produced the LeeVees' debut album Hanukkah Rocks?",
+        "answers": [
+            "Peter Katis"
+        ]
+    },
+    {
+        "query_id": "qa_91_7487",
+        "question": "Who was responsible for the special effects in Society? ",
+        "answers": [
+            "Screaming Mad George"
+        ]
+    },
+    {
+        "query_id": "qa_91_4900",
+        "question": "What company manages Red Velvet? ",
+        "answers": [
+            "SM Entertainment"
+        ]
+    },
+    {
+        "query_id": "qa_91_2516",
+        "question": "Where is The Take from?",
+        "answers": [
+            "Cardiff, Wales"
+        ]
+    },
+    {
+        "query_id": "qa_91_5785",
+        "question": "Who is the artist behind the album 'My Heart' released in 1999?",
+        "answers": [
+            "Answer: Lorrie Morgan"
+        ]
+    },
+    {
+        "query_id": "qa_91_6203",
+        "question": "Who starred in the French musical romantic drama film When I Was a Singer, released in 2006?",
+        "answers": [
+            "G\u00e9rard Depardieu, C\u00e9cile de France"
+        ]
+    },
+    {
+        "query_id": "qa_91_2236",
+        "question": "Where was the movie All Superheroes Must Die produced?",
+        "answers": [
+            "Independent"
+        ]
+    },
+    {
+        "query_id": "qa_91_7714",
+        "question": "Lucy Pearl (Dawn Robinson)",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_91_709",
+        "question": "What style of jazz does Memorial primarily feature?",
+        "answers": [
+            "It principally includes fast bop pieces, also arranged for a brass section."
+        ]
+    },
+    {
+        "query_id": "qa_91_211",
+        "question": "Who was Spice's original drummer?",
+        "answers": [
+            "Pegrum"
+        ]
+    },
+    {
+        "query_id": "qa_91_7560",
+        "question": "Who directed the 1915 film 'The Arab'?",
+        "answers": [
+            "Cecil B. DeMille"
+        ]
+    },
+    {
+        "query_id": "qa_91_6153",
+        "question": "Who played the role of Nancy Drew's father in this movie?",
+        "answers": [
+            "John Litel"
+        ]
+    },
+    {
+        "query_id": "qa_91_2451",
+        "question": "What television shows and events did One Direction perform at in 2012 to promote their album?",
+        "answers": [
+            "Many"
+        ]
+    },
+    {
+        "query_id": "qa_91_7801",
+        "question": "What is the most populous city in the United States?",
+        "answers": [
+            "New York City"
+        ]
+    },
+    {
+        "query_id": "qa_91_1123",
+        "question": "What genre is the movie?",
+        "answers": [
+            "dark fantasy science fiction"
+        ]
+    },
+    {
+        "query_id": "qa_91_2170",
+        "question": "What band did Ahrue Luster come from before joining Ill Ni\u00f1o?",
+        "answers": [
+            "Machine Head (former band)"
+        ]
+    },
+    {
+        "query_id": "qa_91_799",
+        "question": "What is the purpose of the Matrix, as depicted in The Matrix, the 1999 science fiction action film?",
+        "answers": [
+            "Intelligent machines have created to distract humans while using their bodies as an energy source"
+        ]
+    },
+    {
+        "query_id": "qa_91_3953",
+        "question": "Where is Foreign Legion from?",
+        "answers": [
+            "Foreign Legion"
+        ]
+    },
+    {
+        "query_id": "qa_91_2014",
+        "question": "Who are the members of the Italian pop band Mod\u00e0?",
+        "answers": [
+            "Kekko Silvestre (lead singer), Diego Arrigoni (guitarist), Enrico Zapparoli (guitarist), Stefano Forcella (bass guitarist), and Claudio Dirani (drummer)"
+        ]
+    },
+    {
+        "query_id": "qa_91_6364",
+        "question": "How did Jimmy Bones seek revenge in the movie Bones?",
+        "answers": [
+            "Avenged"
+        ]
+    },
+    {
+        "query_id": "qa_91_3056",
+        "question": "Who are the members of Frifot?",
+        "answers": [
+            "The members of Frifot are Lena Willemark, Per Gudmundson, and Ale M\u00f6ller."
+        ]
+    },
+    {
+        "query_id": "qa_91_621",
+        "question": "What is the name of the Pink Floyd album released in 1995?",
+        "answers": [
+            "Pink Floyd's 'Pulse' is the name of their third live album, released in 1995."
+        ]
+    },
+    {
+        "query_id": "qa_91_1693",
+        "question": "When was \"In the Dark\" released internationally?",
+        "answers": [
+            "September 1974"
+        ]
+    },
+    {
+        "query_id": "qa_91_7606",
+        "question": "What genre of music is 'All Over Me'?",
+        "answers": [
+            "American country music"
+        ]
+    },
+    {
+        "query_id": "qa_91_6229",
+        "question": "Who performed the song 'What Would You Do?' from the 'Life' soundtrack?",
+        "answers": [
+            "City High"
+        ]
+    },
+    {
+        "query_id": "qa_91_6930",
+        "question": "Who is the author of the novel 'Fire'?",
+        "answers": [
+            "Alan Rodgers"
+        ]
+    },
+    {
+        "query_id": "qa_91_3972",
+        "question": "What is the longest-running science-fiction television series in the world?",
+        "answers": [
+            "Doctor Who (1963-1989, Guinness World Record holder)"
+        ]
+    },
+    {
+        "query_id": "qa_91_6501",
+        "question": "What is the title of Ayumi Hamasaki's fourth extended play released on July 9, 2003, by Avex Trax?",
+        "answers": [
+            "a"
+        ]
+    },
+    {
+        "query_id": "qa_91_3569",
+        "question": "What is The Challenge?",
+        "answers": [
+            "The Challenge is a reality competition show on MTV."
+        ]
+    },
+    {
+        "query_id": "qa_91_7006",
+        "question": "Who is the director of the movie?",
+        "answers": [
+            "Jonas Quastel"
+        ]
+    },
+    {
+        "query_id": "qa_91_4192",
+        "question": "What is the format of the vinyl edition and what tracks does it contain?",
+        "answers": [
+            "Four-sided vinyl edition with studio tracks and live version of 'Let Me Hear You Scream'"
+        ]
+    },
+    {
+        "query_id": "qa_91_362",
+        "question": "What was the chart position of the single 'Infinity' in the UK?",
+        "answers": [
+            "Number five"
+        ]
+    },
+    {
+        "query_id": "qa_91_2957",
+        "question": "Which record label released 'Slow Down' as a single in 1958?",
+        "answers": [
+            "Specialty Records"
+        ]
+    },
+    {
+        "query_id": "qa_91_516",
+        "question": "What game is centred around a novel mechanic whereby the player's character and all enemies are only visible if they are standing in the rain?",
+        "answers": [
+            "Rain (stylized as rain)"
+        ]
+    },
+    {
+        "query_id": "qa_91_6575",
+        "question": "What is the title of the 2008 romantic comedy film directed by Stephen Herek?",
+        "answers": [
+            "Title: Picture This"
+        ]
+    },
+    {
+        "query_id": "qa_91_7310",
+        "question": "Who directed Ghost in the Shell 2: Innocence?",
+        "answers": [
+            "Mamoru Oshii"
+        ]
+    },
+    {
+        "query_id": "qa_91_5265",
+        "question": "What other movie is Speed based on?",
+        "answers": [
+            "Speed is based on Cellular."
+        ]
+    },
+    {
+        "query_id": "qa_91_2765",
+        "question": "Where was Satanic Slaughter from?",
+        "answers": [
+            "Sweden"
+        ]
+    },
+    {
+        "query_id": "qa_91_4404",
+        "question": "Has the unreleased action video game been cancelled or is it still in development?",
+        "answers": [
+            "Still in development (if true)"
+        ]
+    },
+    {
+        "query_id": "qa_91_533",
+        "question": "What genre does the American gothic rock band from Columbus, Ohio, fall under?",
+        "answers": [
+            "Gothic rock"
+        ]
+    },
+    {
+        "query_id": "qa_91_1469",
+        "question": "How many records did Prince sell during his lifetime?",
+        "answers": [
+            "Over 100 million"
+        ]
+    },
+    {
+        "query_id": "qa_91_1858",
+        "question": "Who are the artists that make up The Forester Sisters?",
+        "answers": [
+            "The Forester Sisters"
+        ]
+    },
+    {
+        "query_id": "qa_91_1475",
+        "question": "How many songs is it estimated that Prince wrote?",
+        "answers": [
+            "500-1000"
+        ]
+    },
+    {
+        "query_id": "qa_91_7753",
+        "question": "How was 'Deserie' recorded later?",
+        "answers": [
+            "'D\u00e9siree'"
+        ]
+    },
+    {
+        "query_id": "qa_91_2485",
+        "question": "Who starred in the action film \"Hell\" directed by Ringo Lam in 2003?",
+        "answers": [
+            "Jean-Claude Van Damme, Lawrence Taylor, Marnie Alton, Malakai Davidson, Billy Rieck"
+        ]
+    },
+    {
+        "query_id": "qa_91_1529",
+        "question": "What is the title of the PC port of the physics-based puzzle video game for the Xbox 360's Xbox Live Arcade, developed by Israeli studio SpikySnail Games and published by Microsoft Studios?",
+        "answers": [
+            "Title: Super Splatters"
+        ]
+    },
+    {
+        "query_id": "qa_91_2489",
+        "question": "In what year did Medicine, an American noise pop band, form in Los Angeles?",
+        "answers": [
+            "1990"
+        ]
+    },
+    {
+        "query_id": "qa_91_4206",
+        "question": "Where was the movie Andre filmed?",
+        "answers": [
+            "Vancouver, Mississippi"
+        ]
+    },
+    {
+        "query_id": "qa_91_6223",
+        "question": "When did Jorge Luis Borges live?",
+        "answers": [
+            "1899-1986"
+        ]
+    },
+    {
+        "query_id": "qa_91_2040",
+        "question": "What genre and year is the film 'Spring Is Here'?",
+        "answers": [
+            "Genre/Year: 1930 American Pre-Code musical comedy"
+        ]
+    },
+    {
+        "query_id": "qa_91_7716",
+        "question": "How many Grammy Awards has Raphael Saadiq received?",
+        "answers": [
+            "2"
+        ]
+    },
+    {
+        "query_id": "qa_91_5864",
+        "question": "In which regions was Geist released? (North America, Europe, Australia)",
+        "answers": [
+            "NA, EU, AU"
+        ]
+    },
+    {
+        "query_id": "qa_91_736",
+        "question": "Who are the members of The Horrors?",
+        "answers": [
+            "Faris Badwan, Joshua Hayward, Tom Furse, Rhys Webb, Joe Spurgeon"
+        ]
+    },
+    {
+        "query_id": "qa_91_2532",
+        "question": "How did scholarship on the composer continue to spread?",
+        "answers": [
+            "through periodicals (and later also websites)"
+        ]
+    },
+    {
+        "query_id": "qa_91_28",
+        "question": "What was the chart position of Brother Beyond's 'Drive On' in November 1989?",
+        "answers": [
+            "Thirty-nine"
+        ]
+    },
+    {
+        "query_id": "qa_91_3705",
+        "question": "What event caused the characters in Farnham's Freehold to be transported into the future? ",
+        "answers": [
+            "Direct hit by a nuclear weapon"
+        ]
+    },
+    {
+        "query_id": "qa_91_7642",
+        "question": "Who are the band members of Something Happens, and what are their roles?",
+        "answers": [
+            "Tom Dunne (vocals), Ray Harman (guitar), Alan Byrne (bass), Eamonn Ryan (drums)"
+        ]
+    },
+    {
+        "query_id": "qa_91_1257",
+        "question": "Who hosted the festival where the concert for the live album Meltdown by Massacre was held?",
+        "answers": [
+            "Robert Wyatt."
+        ]
+    },
+    {
+        "query_id": "qa_91_4086",
+        "question": "Which actors portrayed fictional characters in the movie Glory?",
+        "answers": [
+            "Denzel Washington, Cary Elwes, and Morgan Freeman"
+        ]
+    },
+    {
+        "query_id": "qa_91_7059",
+        "question": "What is the name of the rock band formed in Mar del Plata in 1994?",
+        "answers": [
+            "Los Tipitos"
+        ]
+    },
+    {
+        "query_id": "qa_91_6978",
+        "question": "How was the film 'Pizza' distributed after its initial release?",
+        "answers": [
+            "limited release"
+        ]
+    },
+    {
+        "query_id": "qa_91_778",
+        "question": "What is the name of the character who becomes a cyborg in the science fiction novel 'The Barrens' by John Varley published in 1984?",
+        "answers": [
+            "Chamele"
+        ]
+    },
+    {
+        "query_id": "qa_91_1082",
+        "question": "What genre is the movie?",
+        "answers": [
+            "French teen romantic comedy film"
+        ]
+    },
+    {
+        "query_id": "qa_91_4389",
+        "question": "How many copies did 'Living Things' sell in its opening week in the United States?",
+        "answers": [
+            "223k"
+        ]
+    },
+    {
+        "query_id": "qa_91_2037",
+        "question": "How many songs does Aaron Yan's third Mandarin solo mini album consist of?",
+        "answers": [
+            "6"
+        ]
+    },
+    {
+        "query_id": "qa_91_2076",
+        "question": "Which movie titled 'Monster' had its score composed by him?",
+        "answers": [
+            "Monster"
+        ]
+    },
+    {
+        "query_id": "qa_91_4010",
+        "question": "Who is the author of 'Dawn'?",
+        "answers": [
+            "Answer: Dean McLaughlin"
+        ]
+    },
+    {
+        "query_id": "qa_91_3267",
+        "question": "Who is William Peter Blatty?",
+        "answers": [
+            " '83 writer' "
+        ]
+    },
+    {
+        "query_id": "qa_91_256",
+        "question": "Which band did Lex Vogelaar found?",
+        "answers": [
+            "Orphanage"
+        ]
+    },
+    {
+        "query_id": "qa_91_3007",
+        "question": "Why does the woman in 'Gone' leave her lover?",
+        "answers": [
+            "A: Better relationship"
+        ]
+    },
+    {
+        "query_id": "qa_91_943",
+        "question": "How much was spent on Rob Bottin's creature effects in 'The Thing'?",
+        "answers": [
+            "$1.5 million"
+        ]
+    },
+    {
+        "query_id": "qa_91_1335",
+        "question": "What issue did Mike Carroll's photographs and stories focus on in Romania?",
+        "answers": [
+            "Pediatric AIDS epidemic"
+        ]
+    },
+    {
+        "query_id": "qa_91_2049",
+        "question": "Who directed the 1970 American black comedy war film M*A*S*H?",
+        "answers": [
+            "Robert Altman"
+        ]
+    },
+    {
+        "query_id": "qa_91_3301",
+        "question": "Who is the director of the movie 'In the Cut'?",
+        "answers": [
+            "Jane Campion"
+        ]
+    },
+    {
+        "query_id": "qa_91_970",
+        "question": "Who is the writer and director of the film The Amazing Catfish (Spanish: Los ins\u00f3litos peces gato)?",
+        "answers": [
+            "Claudia Sainte-Luce"
+        ]
+    },
+    {
+        "query_id": "qa_91_1201",
+        "question": "How does Drill structure their songs?",
+        "answers": [
+            "Not verse-chorus-bridge"
+        ]
+    },
+    {
+        "query_id": "qa_91_1147",
+        "question": "What is the main plot of the movie?",
+        "answers": [
+            "discipline an unruly class of boys"
+        ]
+    },
+    {
+        "query_id": "qa_91_5371",
+        "question": "Who are the actors in the movie 10 Years?",
+        "answers": [
+            "Ensemble cast including Channing Tatum, Jenna Dewan, Justin Long, Kate Mara, Rosario Dawson, Oscar Isaac, Lynn Collins, Chris Pratt, Scott Porter, Brian Geraghty, Aubrey Plaza, Anthony Mackie"
+        ]
+    },
+    {
+        "query_id": "qa_91_2463",
+        "question": "How did The Rolling Stones contribute to the development of hard rock music?",
+        "answers": [
+            "Pioneered gritty, rhythmically driven sound"
+        ]
+    },
+    {
+        "query_id": "qa_91_1049",
+        "question": "What year was Miracle Records established?",
+        "answers": [
+            "1946"
+        ]
+    },
+    {
+        "query_id": "qa_91_187",
+        "question": "When was the Wii U version of Just Dance 4 released in Europe and Australia?",
+        "answers": [
+            "November 30, 2012"
+        ]
+    },
+    {
+        "query_id": "qa_91_6018",
+        "question": "When did Still Life disband and how did it happen?",
+        "answers": [
+            "Still Life disbanded in 2003 when all of their instruments were stolen from Chris Pitzel's truck parked on the street in front of their house after a show."
+        ]
+    },
+    {
+        "query_id": "qa_91_6012",
+        "question": "Who is Johan 'Toro' Marberg and when did he join the band?",
+        "answers": [
+            "Johan 'Toro' Marberg (joined later)"
+        ]
+    },
+    {
+        "query_id": "qa_91_1209",
+        "question": "What cinematography technique was used in the science fiction movie Time After Time?",
+        "answers": [
+            "Panavision"
+        ]
+    },
+    {
+        "query_id": "qa_91_5517",
+        "question": "What profession(s) does Yosef Asaf Borger have?",
+        "answers": [
+            "Borgore is an Israeli EDM producer, DJ, singer-songwriter, and rapper."
+        ]
+    },
+    {
+        "query_id": "qa_91_1008",
+        "question": "What is the title of the 1966 British horror film produced by Richard Gordon and Tom Blakey of Planet Films?",
+        "answers": [
+            "Island of Terror"
+        ]
+    },
+    {
+        "query_id": "qa_91_6798",
+        "question": "In what year was Threads recorded?",
+        "answers": [
+            "G. 2011"
+        ]
+    },
+    {
+        "query_id": "qa_91_3971",
+        "question": "What is Doctor Who?",
+        "answers": [
+            "Doctor Who"
+        ]
+    },
+    {
+        "query_id": "qa_91_4706",
+        "question": "Which production companies were involved in producing Blossom?",
+        "answers": [
+            "Impact Zone Productions, Witt/Thomas Productions, Touchstone Television"
+        ]
+    },
+    {
+        "query_id": "qa_91_26",
+        "question": "Which chart did Brother Beyond's 'Drive On' appear on in 1989?",
+        "answers": [
+            "UK Singles Chart"
+        ]
+    },
+    {
+        "query_id": "qa_91_1150",
+        "question": "Where is Inna from? ",
+        "answers": [
+            "Mangalia, Romania"
+        ]
+    },
+    {
+        "query_id": "qa_91_5218",
+        "question": "How long has it been since the last season of Territory Cops aired?",
+        "answers": [
+            "Fifth year"
+        ]
+    },
+    {
+        "query_id": "qa_91_4197",
+        "question": "Which Evil Dead film does the video game developed by Heavy Iron Studios and published by THQ serve as a sequel to?",
+        "answers": [
+            "Answer: 1992 film Army of Darkness"
+        ]
+    },
+    {
+        "query_id": "qa_91_7108",
+        "question": "Who is the young soprano in Opera?",
+        "answers": [
+            "Cristina Marsillach"
+        ]
+    },
+    {
+        "query_id": "qa_91_4457",
+        "question": "Where is Rude Kids from?",
+        "answers": [
+            "Hags\u00e4tra"
+        ]
+    },
+    {
+        "query_id": "qa_91_108",
+        "question": "How to interact with other players in Red and Blue?",
+        "answers": [
+            "Trade, battle via cable."
+        ]
+    },
+    {
+        "query_id": "qa_91_1210",
+        "question": "Who was a Colombian folk-rock band?",
+        "answers": [
+            "G\u00e9nesis"
+        ]
+    },
+    {
+        "query_id": "qa_91_496",
+        "question": "When was 'Special' released on DVD in the UK?",
+        "answers": [
+            "Mar 5, 2007 (UK)"
+        ]
+    },
+    {
+        "query_id": "qa_91_6660",
+        "question": "Developed by Danish studio Runestone Game Development. Who developed Seed?",
+        "answers": [
+            "Runestone Game Development"
+        ]
+    },
+    {
+        "query_id": "qa_91_4106",
+        "question": "Who is Jimmy Wayne Barber and when was he born?",
+        "answers": [
+            "JWB (Jimmy Wayne Barber) b. 10/23/72"
+        ]
+    },
+    {
+        "query_id": "qa_91_3897",
+        "question": "Who is Servant and what movement did they come from?",
+        "answers": [
+            "Servant, a Christian rock group from the '70s counter-culture Jesus Movement, hailed from Victoria, BC."
+        ]
+    },
+    {
+        "query_id": "qa_91_389",
+        "question": "What is Beth Gibbons' role in the band Portishead?",
+        "answers": [
+            "singer and lyricist"
+        ]
+    },
+    {
+        "query_id": "qa_91_2522",
+        "question": "When did The Take disband?",
+        "answers": [
+            "2007"
+        ]
+    },
+    {
+        "query_id": "qa_91_6529",
+        "question": "What elements of Battle's sound were characterized by spacious guitar hooks?",
+        "answers": [
+            "Spacious guitar hooks."
+        ]
+    },
+    {
+        "query_id": "qa_91_700",
+        "question": "Who wrote the novel that Nevada is based on?",
+        "answers": [
+            "Novel: Zane Grey"
+        ]
+    },
+    {
+        "query_id": "qa_91_1430",
+        "question": "In what year did Kenny Chesney release his second studio album \"All I Need to Know\" through BNA Records?",
+        "answers": [
+            "1995"
+        ]
+    },
+    {
+        "query_id": "qa_91_6064",
+        "question": "Who is the former lead singer of Ignite?",
+        "answers": [
+            "The former lead singer of Ignite is Zolt\u00e1n 'Zoli' T\u00e9gl\u00e1s."
+        ]
+    },
+    {
+        "query_id": "qa_91_4955",
+        "question": "What does the other man say in response to understanding something?",
+        "answers": [
+            "I see."
+        ]
+    },
+    {
+        "query_id": "qa_91_3516",
+        "question": "What is the title of Metric's sixth album, and when was it released?",
+        "answers": [
+            "Pagans in Vegas (2015)"
+        ]
+    },
+    {
+        "query_id": "qa_91_3141",
+        "question": "When did 'The Help' premiere?",
+        "answers": [
+            "March 5, 2004"
+        ]
+    },
+    {
+        "query_id": "qa_91_4538",
+        "question": "Who directed The Web?",
+        "answers": [
+            "Michael Gordon"
+        ]
+    },
+    {
+        "query_id": "qa_91_2745",
+        "question": "How long did Shelly West's mother's career last?",
+        "answers": [
+            "three decades"
+        ]
+    },
+    {
+        "query_id": "qa_91_6757",
+        "question": "When did Hum initially disband?",
+        "answers": [
+            "Hum parted ways in 2000."
+        ]
+    },
+    {
+        "query_id": "qa_91_197",
+        "question": "Q: Who directed the movie? A: ",
+        "answers": [
+            "\"Jacobs\""
+        ]
+    },
+    {
+        "query_id": "qa_91_8142",
+        "question": "Who is the subject of this short film by Bruce Conner?",
+        "answers": [
+            "JFK"
+        ]
+    },
+    {
+        "query_id": "qa_91_6775",
+        "question": "What is the title of the 1995 American romantic comedy movie directed by Christopher Ashley, based on the play by Paul Rudnick?",
+        "answers": [
+            "Jeffrey"
+        ]
+    },
+    {
+        "query_id": "qa_91_5164",
+        "question": "What is the name of the player's country in Storm Master?",
+        "answers": [
+            "Eolia"
+        ]
+    },
+    {
+        "query_id": "qa_91_7272",
+        "question": "What is the title of the Sherlock Holmes game developed by Frogwares and released in 2002?",
+        "answers": [
+            "Sherlock Holmes: The Mystery of the Mummy"
+        ]
+    },
+    {
+        "query_id": "qa_91_2859",
+        "question": "Who are the main characters in 'Love in Magic'?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_91_5457",
+        "question": "In what year was \"Say It Again\" released?",
+        "answers": [
+            "1976 (April)"
+        ]
+    },
+    {
+        "query_id": "qa_91_1294",
+        "question": "Where was Chasing Liberty filmed?",
+        "answers": [
+            "Prague, Venice, Berlin, London, Chelmsford and Washington, D.C."
+        ]
+    },
+    {
+        "query_id": "qa_91_699",
+        "question": "Who played a supporting role in the Western movie Nevada?",
+        "answers": [
+            "Supporting: [Jeffreys, Williams, Martin]"
+        ]
+    },
+    {
+        "query_id": "qa_91_3469",
+        "question": "Who directed the movie 'The Rite'?",
+        "answers": [
+            "Mikael H\u00e5fstr\u00f6m"
+        ]
+    },
+    {
+        "query_id": "qa_91_6772",
+        "question": "Who had a unique and soulful singing style with a vocal range of his 'golden' voice?",
+        "answers": [
+            "Bradley Delp with unique and soulful singing"
+        ]
+    },
+    {
+        "query_id": "qa_91_1107",
+        "question": "What is a citizens' initiative?",
+        "answers": [
+            "A citizens' initiative is a group of people in a community who come together to address a particular issue or problem."
+        ]
+    },
+    {
+        "query_id": "qa_91_2403",
+        "question": "What game show did he host in 2011?",
+        "answers": [
+            "Downfall"
+        ]
+    },
+    {
+        "query_id": "qa_91_728",
+        "question": "Where was the music video for 'Part of Me' filmed?",
+        "answers": [
+            "United States Marine Corps' Camp Pendleton in Oceanside, California"
+        ]
+    },
+    {
+        "query_id": "qa_91_5143",
+        "question": "What was the tragic event that the main character experienced?",
+        "answers": [
+            "Death of his wife"
+        ]
+    },
+    {
+        "query_id": "qa_91_7162",
+        "question": "How many Golden Melody Awards did The Era win?",
+        "answers": [
+            "6"
+        ]
+    },
+    {
+        "query_id": "qa_91_6160",
+        "question": "What is Jean-Paul Gaster's nationality?",
+        "answers": [
+            "American"
+        ]
+    },
+    {
+        "query_id": "qa_91_7771",
+        "question": "In what year was '976-EVIL' released?",
+        "answers": [
+            "1988"
+        ]
+    },
+    {
+        "query_id": "qa_91_81",
+        "question": "What type of music is \"Hands Across the Sea\"?",
+        "answers": [
+            "American military march"
+        ]
+    },
+    {
+        "query_id": "qa_91_6334",
+        "question": "What operating systems is Oni compatible with?",
+        "answers": [
+            "Windows, Mac"
+        ]
+    },
+    {
+        "query_id": "qa_91_356",
+        "question": "Who is Guru Josh?",
+        "answers": [
+            "Guru Josh"
+        ]
+    },
+    {
+        "query_id": "qa_91_5503",
+        "question": "When did Maximiano de Sousa die?",
+        "answers": [
+            "Maximiano de Sousa passed away on May 29, 1980."
+        ]
+    },
+    {
+        "query_id": "qa_91_7061",
+        "question": "Which prominent Argentinian rock musicians have influenced Los Tipitos?",
+        "answers": [
+            "Argentinian rock (icons: Charly Garc\u00eda, Le\u00f3n Gieco)"
+        ]
+    },
+    {
+        "query_id": "qa_91_5404",
+        "question": "Who were the members of King Crimson when they reformed in 1981?",
+        "answers": [
+            "Fripp, Bruford and new members Adrian Belew and Tony Levin."
+        ]
+    },
+    {
+        "query_id": "qa_91_5572",
+        "question": "Who is the main character in Douglas Preston's novels featuring a private investigator, ex-monk, and ex-government agent?",
+        "answers": [
+            "Private investigator, ex-monk, and ex-government agent Wyman Ford"
+        ]
+    },
+    {
+        "query_id": "qa_91_4367",
+        "question": "Who is the British synth-pop duo that released 'For a Friend'?",
+        "answers": [
+            "The Communards"
+        ]
+    },
+    {
+        "query_id": "qa_91_4373",
+        "question": "Who else covered 'I Know' besides Barbara George?",
+        "answers": [
+            "Fats Domino, Cher, Ike & Tina Turner, Bonnie Raitt, Marisela"
+        ]
+    },
+    {
+        "query_id": "qa_91_391",
+        "question": "What year was Beth Gibbons born?",
+        "answers": [
+            "1965"
+        ]
+    },
+    {
+        "query_id": "qa_91_4871",
+        "question": "Who are the two main characters in \"The Dive (Norwegian: Dykket)\" from 1990?",
+        "answers": [
+            "Bj\u00f8rn Sundquist and Frank Grimes"
+        ]
+    },
+    {
+        "query_id": "qa_91_4616",
+        "question": "What award did Jane Fonda get?",
+        "answers": [
+            "Acad. Award nom."
+        ]
+    },
+    {
+        "query_id": "qa_91_5518",
+        "question": "What stage name does Yosef Asaf Borger perform under?",
+        "answers": [
+            "Borgore is Yosef Asaf Borger's stage name."
+        ]
+    },
+    {
+        "query_id": "qa_91_7882",
+        "question": "What technology did Cher use in Believe that became known as the 'Cher effect'?",
+        "answers": [
+            "F: Auto-Tune."
+        ]
+    },
+    {
+        "query_id": "qa_91_5183",
+        "question": "Where does the movie 'The One' take place?",
+        "answers": [
+            "Parallel realities"
+        ]
+    },
+    {
+        "query_id": "qa_91_3492",
+        "question": "On which consoles was Kid Dracula released?",
+        "answers": [
+            "Kid Dracula was released on..."
+        ]
+    },
+    {
+        "query_id": "qa_91_4028",
+        "question": "Who produced the show?",
+        "answers": [
+            "BBC television"
+        ]
+    },
+    {
+        "query_id": "qa_91_1249",
+        "question": "What notable feature of Project A involves Jackie Chan?",
+        "answers": [
+            "Answer: Jackie Chan's stunt hanging and falling from a clock tower"
+        ]
+    },
+    {
+        "query_id": "qa_91_3185",
+        "question": "What was The Good Earth album's peak position on the US Billboard 200 charts?",
+        "answers": [
+            "Number 157"
+        ]
+    },
+    {
+        "query_id": "qa_91_807",
+        "question": "What is the name of the 1987 song by Cock Robin that goes by 'Just Around the Corner'?",
+        "answers": [
+            "Just Around the Corner (song)"
+        ]
+    },
+    {
+        "query_id": "qa_91_3289",
+        "question": "In what month and year did Judy Rodman release 'Until I Met You' as the fourth single from her album 'Judy'?",
+        "answers": [
+            "April 1986"
+        ]
+    },
+    {
+        "query_id": "qa_91_3392",
+        "question": "Who are the original members of Babylon?",
+        "answers": [
+            "Rick Leonard, Rodney Best, Doroccas, J. David Boyko, and Gary Chambers"
+        ]
+    },
+    {
+        "query_id": "qa_91_3880",
+        "question": "What is the fifth studio album by 'Johnny' Farnham, and when was it released?",
+        "answers": [
+            " Johnny (album), released August 1971."
+        ]
+    },
+    {
+        "query_id": "qa_91_1105",
+        "question": "How much money did Spy make at the box office worldwide?",
+        "answers": [
+            "$235 million"
+        ]
+    },
+    {
+        "query_id": "qa_91_4832",
+        "question": "What dangers does the main character face on the planet in Options by Robert Sheckley?",
+        "answers": [
+            "Planetary dangers"
+        ]
+    },
+    {
+        "query_id": "qa_91_3599",
+        "question": "Q3: How many times has Jake Owen released a single before 'Alone with You'?",
+        "answers": [
+            "Eight"
+        ]
+    },
+    {
+        "query_id": "qa_91_5375",
+        "question": "Who developed the version of Banjo-Kazooie for the Xbox 360?",
+        "answers": [
+            "4J Studios"
+        ]
+    },
+    {
+        "query_id": "qa_91_304",
+        "question": "Who is Aang's friend and companion who is not a bender but skilled in other ways?",
+        "answers": [
+            "S"
+        ]
+    },
+    {
+        "query_id": "qa_91_5888",
+        "question": "What genre is the Telugu romantic comedy film Kiss?",
+        "answers": [
+            "romantic comedy"
+        ]
+    },
+    {
+        "query_id": "qa_91_5009",
+        "question": "Where did London record their records in 1977?",
+        "answers": [
+            "London recorded their records at the IBC Studios in London in 1977."
+        ]
+    },
+    {
+        "query_id": "qa_91_7683",
+        "question": "How much did The Interview cost to produce?",
+        "answers": [
+            "44"
+        ]
+    },
+    {
+        "query_id": "qa_91_4231",
+        "question": "How many floral arrangers compete on The Arrangement?",
+        "answers": [
+            "SFAs"
+        ]
+    },
+    {
+        "query_id": "qa_91_7688",
+        "question": "When did The Interview have a limited release in theaters?",
+        "answers": [
+            "Following day"
+        ]
+    },
+    {
+        "query_id": "qa_91_1948",
+        "question": "What film did Foster lend her voice to for the soundtrack in 2020?",
+        "answers": [
+            "The World to Come"
+        ]
+    },
+    {
+        "query_id": "qa_91_4021",
+        "question": "What source material did the movie adapt?",
+        "answers": [
+            "Gaston Leroux's novel The Phantom of the Opera"
+        ]
+    },
+    {
+        "query_id": "qa_91_2877",
+        "question": "What did critics say about 'Live' when it was first released?",
+        "answers": [
+            "Hailed as 'one of the finest releases of the year' in Mass Media."
+        ]
+    },
+    {
+        "query_id": "qa_91_6756",
+        "question": "Where is the American alternative rock band Hum from?",
+        "answers": [
+            "Hum hails from Champaign, Illinois."
+        ]
+    },
+    {
+        "query_id": "qa_91_7506",
+        "question": "In what location did Jerry Fuller's version of the song \"Lines\" achieve charting success?",
+        "answers": [
+            "US: US charts\nCanada: Canadian Country charts"
+        ]
+    },
+    {
+        "query_id": "qa_91_1103",
+        "question": "When was Spy released in theaters in the United States?",
+        "answers": [
+            "June 5, 2015"
+        ]
+    },
+    {
+        "query_id": "qa_91_1031",
+        "question": "Who produced the movie?",
+        "answers": [
+            "Julie Corman"
+        ]
+    },
+    {
+        "query_id": "qa_91_4267",
+        "question": "Who produced the Australian psychological horror film Visitors in 2003?",
+        "answers": [
+            "Jennifer Hadden"
+        ]
+    },
+    {
+        "query_id": "qa_91_3654",
+        "question": "What did the USSF work to defend during the anti-Vietnam War for military personnel?",
+        "answers": [
+            "Legal rights, USSF"
+        ]
+    },
+    {
+        "query_id": "qa_91_6356",
+        "question": "What types of game modes are available in Mario Kart: Super Circuit?",
+        "answers": [
+            "single-player and multiplayer"
+        ]
+    },
+    {
+        "query_id": "qa_91_311",
+        "question": "When and on which network did Avatar air?",
+        "answers": [
+            "Aired on Nickelodeon for three seasons, from February 2005 to July 2008: Avatar's broadcasting history."
+        ]
+    },
+    {
+        "query_id": "qa_91_3673",
+        "question": "What is Gabriel Antonio Cruz Padilla's full name?",
+        "answers": [
+            "Gabriel Antonio Cruz Padilla"
+        ]
+    },
+    {
+        "query_id": "qa_91_3379",
+        "question": "What group, known for their hit song 'Earth Angel,' was active during the 1950s and early 1960s?",
+        "answers": [
+            "The Penguins"
+        ]
+    },
+    {
+        "query_id": "qa_91_6306",
+        "question": "Who stars in Poison (1991)?",
+        "answers": [
+            "Edith Meeks, Larry Maxwell, Susan Gayle Norman, Scott Renderer, James Lyons"
+        ]
+    },
+    {
+        "query_id": "qa_91_5990",
+        "question": "Where did the family in the documentary film Legacy live?",
+        "answers": [
+            "Chicago"
+        ]
+    },
+    {
+        "query_id": "qa_91_3479",
+        "question": "Which country is the origin of the French musical film Love Songs, directed by Christophe Honor\u00e9 and released in 2007 and starring Louis Garrel, Ludivine Sagnier, Clotilde Hesme, and Chiara Mastroianni?",
+        "answers": [
+            "France"
+        ]
+    },
+    {
+        "query_id": "qa_91_2737",
+        "question": "Which album by Human Nature won the ARIA Music Award for Highest Selling Album in 2006?",
+        "answers": [
+            "Reach Out: The Motown Record"
+        ]
+    },
+    {
+        "query_id": "qa_91_3586",
+        "question": "Who is the target audience of Detour for Emmy?",
+        "answers": [
+            "Teensage girl"
+        ]
+    },
+    {
+        "query_id": "qa_91_3947",
+        "question": "What is the name of the annual competition for dancers in the documentary 'First Position'?",
+        "answers": [
+            "Youth America Grand Prix"
+        ]
+    },
+    {
+        "query_id": "qa_91_619",
+        "question": "What is the name of the second track on Cactus' third studio album 'Restrictions'?",
+        "answers": [
+            "\"Evil\""
+        ]
+    },
+    {
+        "query_id": "qa_91_1477",
+        "question": "Who was the founding bassist for Taking Back Sunday before joining Brand New?",
+        "answers": [
+            "Jesse Lacey"
+        ]
+    },
+    {
+        "query_id": "qa_91_1429",
+        "question": "What are the names of the three singles released from Kenny Chesney's second studio album in 1995?",
+        "answers": [
+            "\"Fall in Love\", \"The Grandpa Told Me So\", \"All I Need to Know\""
+        ]
+    },
+    {
+        "query_id": "qa_91_1046",
+        "question": "What is the title of the Jack Johnson and Chris Malloy directed surf documentary?",
+        "answers": [
+            "A Brokedown Melody"
+        ]
+    },
+    {
+        "query_id": "qa_91_987",
+        "question": "What is the community that inhabits the jungle island in the movie 'Last Cannibal World' directed by Ruggero Deodato in 1977?",
+        "answers": [
+            "Cannibal tribe"
+        ]
+    },
+    {
+        "query_id": "qa_91_8134",
+        "question": "Who is Kevin Mitnick?",
+        "answers": [
+            "Kevin Mitnick"
+        ]
+    },
+    {
+        "query_id": "qa_91_5419",
+        "question": "What genre of music can be found on 'Lux' by Brian Eno?",
+        "answers": [
+            "Answer: Ambient"
+        ]
+    },
+    {
+        "query_id": "qa_91_5822",
+        "question": "Who was the sworn enemy of Bobby Ewing's family in Dallas?",
+        "answers": [
+            "Unspecified."
+        ]
+    },
+    {
+        "query_id": "qa_91_2159",
+        "question": "Who joined Isis alongside guitarist Michael Gallagher in 1999?",
+        "answers": [
+            "Jay Randall"
+        ]
+    },
+    {
+        "query_id": "qa_91_1463",
+        "question": "What was the name of Prince's sixth album and what was unique about it? ",
+        "answers": [
+            "His sixth album, Purple Rain (1984), was recorded with his new backing band the Revolution and was also the soundtrack to the film of the same name in which he starred."
+        ]
+    },
+    {
+        "query_id": "qa_91_4136",
+        "question": "Who was the guitarist and trumpeter for the Attack and where was he later in his career?",
+        "answers": [
+            "David O'List (Nice)"
+        ]
+    },
+    {
+        "query_id": "qa_91_4838",
+        "question": "How much did the Dangerous World Tour gross?",
+        "answers": [
+            "$100M"
+        ]
+    },
+    {
+        "query_id": "qa_91_7833",
+        "question": "What is the name of the Stockholm commune featured in the Swedish comedy-drama film Together, released in 2000?",
+        "answers": [
+            "Tillsammans"
+        ]
+    },
+    {
+        "query_id": "qa_91_2124",
+        "question": "What is the title of Robert Rich's 1998 album that is inspired by Arab culture and music?",
+        "answers": [
+            "Seven Veils"
+        ]
+    },
+    {
+        "query_id": "qa_91_608",
+        "question": "Who is the lead singer on Journey's fourteenth studio album Eclipse?",
+        "answers": [
+            "Arnel Pineda"
+        ]
+    },
+    {
+        "query_id": "qa_91_6304",
+        "question": "What type of film is Poison (1991)?",
+        "answers": [
+            "Drama horror film"
+        ]
+    },
+    {
+        "query_id": "qa_91_5128",
+        "question": "Who is the director of the documentary film 'As Time Goes By'?",
+        "answers": [
+            "Ann Hui"
+        ]
+    },
+    {
+        "query_id": "qa_91_1364",
+        "question": "What is the name of the band formerly known as At Sunset?",
+        "answers": [
+            "Lynk"
+        ]
+    },
+    {
+        "query_id": "qa_91_6919",
+        "question": "What is El usurpador?",
+        "answers": [
+            "El usurpador is a Mexican telenovela."
+        ]
+    },
+    {
+        "query_id": "qa_91_4142",
+        "question": "Where is Timeless Records based?",
+        "answers": [
+            "Timeless Records is based in the Netherlands."
+        ]
+    },
+    {
+        "query_id": "qa_91_7449",
+        "question": "What nationality is Mandrill?",
+        "answers": [
+            "Based in the USA"
+        ]
+    },
+    {
+        "query_id": "qa_91_1527",
+        "question": "Which company published the physics-based puzzle video game for the Xbox 360's Xbox Live Arcade that was developed by Israeli studio SpikySnail Games and released on April 11, 2012?",
+        "answers": [
+            "Pub: MS Studios"
+        ]
+    },
+    {
+        "query_id": "qa_91_1120",
+        "question": "What character does The Shadow refer to?",
+        "answers": [
+            "Created in 1931 by Walter B. Gibson"
+        ]
+    },
+    {
+        "query_id": "qa_91_6705",
+        "question": "What is the title of the song released by Earth, Wind & Fire in January 1988?",
+        "answers": [
+            "Thinking of You"
+        ]
+    },
+    {
+        "query_id": "qa_91_5918",
+        "question": "Who is the co-writer of the song 'All the Years' that was released by Chicago in 2008 on the album 'Stone of Sisyphus'?",
+        "answers": [
+            "Bruce Gaitsch"
+        ]
+    },
+    {
+        "query_id": "qa_91_417",
+        "question": "In what year was the movie 'Holes' released?",
+        "answers": [
+            "2003"
+        ]
+    },
+    {
+        "query_id": "qa_91_6636",
+        "question": "What is the occupation and nationality of Ismael Quintana?",
+        "answers": [
+            "Puerto Rican singer and composer of salsa music"
+        ]
+    },
+    {
+        "query_id": "qa_91_1583",
+        "question": "What is the author's nationality?",
+        "answers": [
+            "Unknown"
+        ]
+    },
+    {
+        "query_id": "qa_91_1744",
+        "question": "What is the number of Steps' UK top-5 singles?",
+        "answers": [
+            "14."
+        ]
+    },
+    {
+        "query_id": "qa_91_5036",
+        "question": "What is the source material for They Live?",
+        "answers": [
+            "Based on Ray Nelson's 'Eight O'Clock in the Morning'"
+        ]
+    },
+    {
+        "query_id": "qa_91_1500",
+        "question": "What subgenre does the movie Blind Spot fall under?",
+        "answers": [
+            "film noir"
+        ]
+    },
+    {
+        "query_id": "qa_91_1832",
+        "question": "What is the title of the song Irwin Goodman released in 1965 with the English translation 'It's OK'?",
+        "answers": [
+            "Ty\u00f6miehen lauantai"
+        ]
+    },
+    {
+        "query_id": "qa_91_2648",
+        "question": "In which science fiction magazine was 'The Glory That Was' published?",
+        "answers": [
+            "Startling Stories"
+        ]
+    },
+    {
+        "query_id": "qa_91_1801",
+        "question": "Why is General Hospital still on the air when ABC canceled All My Children and One Life to Live?",
+        "answers": [
+            "Still on"
+        ]
+    },
+    {
+        "query_id": "qa_91_4094",
+        "question": "Why is 'The Handler' omitted from British editions of 'In Deep'?",
+        "answers": [
+            "Unknown"
+        ]
+    },
+    {
+        "query_id": "qa_91_7075",
+        "question": "Who directed 'The Secret'?",
+        "answers": [
+            "Vincent Perez"
+        ]
+    },
+    {
+        "query_id": "qa_91_1612",
+        "question": "In what year did Heaven 17 form?",
+        "answers": [
+            "1980"
+        ]
+    },
+    {
+        "query_id": "qa_91_5146",
+        "question": "How many episodes did NBC order for this TV show?",
+        "answers": [
+            "22"
+        ]
+    },
+    {
+        "query_id": "qa_91_7503",
+        "question": "In what year did Jerry Fuller's version of the song \"Lines\" achieve minor success in the US charts?",
+        "answers": [
+            "1979"
+        ]
+    },
+    {
+        "query_id": "qa_91_415",
+        "question": "Which song of Lou Christie reached number two in the UK charts?",
+        "answers": [
+            "\"I'm Gonna Make You Mine\""
+        ]
+    },
+    {
+        "query_id": "qa_91_107",
+        "question": "Other objective in Red and Blue?",
+        "answers": [
+            "Complete Pok\u00e9dex."
+        ]
+    },
+    {
+        "query_id": "qa_91_3985",
+        "question": "What game followed Creatures and in what year was it released?",
+        "answers": [
+            "Creatures II: Torture Trouble '92"
+        ]
+    },
+    {
+        "query_id": "qa_91_6089",
+        "question": "What is the name of the American jazz musician born on September 10, 1929, who died on December 12, 2008, and was known as Prince Lasha?",
+        "answers": [
+            "Prince Lasha"
+        ]
+    },
+    {
+        "query_id": "qa_91_4003",
+        "question": "Who directed the documentary film 'In Public'?",
+        "answers": [
+            "Director: Jia Zhangke"
+        ]
+    },
+    {
+        "query_id": "qa_91_2546",
+        "question": "Where is the main concert venue for the Atlanta Symphony Orchestra located?",
+        "answers": [
+            "Atlanta Symphony Hall is located in the Woodruff Arts Center in Atlanta."
+        ]
+    },
+    {
+        "query_id": "qa_91_6853",
+        "question": "Who stars in the movie 'Species'?",
+        "answers": [
+            "Ben Kingsley, Michael Madsen, Alfred Molina, Forest Whitaker, Marg Helgenberger, and Natasha Henstridge"
+        ]
+    },
+    {
+        "query_id": "qa_91_1746",
+        "question": "How many records did Steps sell worldwide?",
+        "answers": [
+            "Over 22 million."
+        ]
+    },
+    {
+        "query_id": "qa_91_3529",
+        "question": "When was the last time the artist released a studio album, and why has there been a gap in releases since then?",
+        "answers": [
+            "Fantasies & Delusions (gap: none stated)"
+        ]
+    },
+    {
+        "query_id": "qa_91_3728",
+        "question": "Who is the British author of the dystopian science fiction short story 'Deep End'?",
+        "answers": [
+            "J. G. Ballard"
+        ]
+    },
+    {
+        "query_id": "qa_91_2933",
+        "question": "When and where was Secrets formed?",
+        "answers": [
+            "Secrets (band name) formed in San Diego, California in 2010 (year and location)"
+        ]
+    },
+    {
+        "query_id": "qa_91_3398",
+        "question": "What band is being referred to here? ",
+        "answers": [
+            "U.K."
+        ]
+    },
+    {
+        "query_id": "qa_91_2793",
+        "question": "Who starred in 'The Hare Census'?",
+        "answers": [
+            "Itzhak Fintzi, Nikola Todev, Georgi Rusev, Evstati Stratev, Philip Trifonov, and Todor Kolev starred in 'The Hare Census'."
+        ]
+    },
+    {
+        "query_id": "qa_91_5209",
+        "question": "When was the 1918 American silent adventure film 'Shark Monroe' released?",
+        "answers": [
+            "June 30, 1918."
+        ]
+    },
+    {
+        "query_id": "qa_91_918",
+        "question": "Who directed the movie 'The Attic'?",
+        "answers": [
+            "Mary Lambert"
+        ]
+    },
+    {
+        "query_id": "qa_91_3663",
+        "question": "What is the musical key of 'Holiday'?",
+        "answers": [
+            " 'Holiday' is in the key of F minor."
+        ]
+    },
+    {
+        "query_id": "qa_91_4757",
+        "question": "Who plays the role of the fish market owner in Caught?",
+        "answers": [
+            "Arie Verveen"
+        ]
+    },
+    {
+        "query_id": "qa_91_6707",
+        "question": "Which record label released 'Thinking of You' by Earth, Wind & Fire in January 1988?",
+        "answers": [
+            "Columbia Records"
+        ]
+    },
+    {
+        "query_id": "qa_91_2922",
+        "question": "Which country's charts did the song 'Play the Game' reach the highest position in?",
+        "answers": [
+            "Answer: UK (No. 14) or US (No. 42)"
+        ]
+    },
+    {
+        "query_id": "qa_91_2779",
+        "question": "What genre is the 1951 American adventure film directed by Rudolph Mate?",
+        "answers": [
+            "swashbuckler"
+        ]
+    },
+    {
+        "query_id": "qa_91_3023",
+        "question": "What is the outcome of the national search in Them!?",
+        "answers": [
+            "Battle with Them in the concrete spillways and storm drain system of Los Angeles"
+        ]
+    },
+    {
+        "query_id": "qa_91_939",
+        "question": "Who wrote the screenplay for 'The Thing'?",
+        "answers": [
+            "Bill Lancaster"
+        ]
+    },
+    {
+        "query_id": "qa_91_1684",
+        "question": "What is a mushroom?",
+        "answers": [
+            "A mushroom is the fruiting body of a fungus."
+        ]
+    },
+    {
+        "query_id": "qa_91_5997",
+        "question": "What genre and type of band is Dark Tranquillity?",
+        "answers": [
+            "Melodic death metal band from Sweden"
+        ]
+    },
+    {
+        "query_id": "qa_91_4966",
+        "question": "What type of monster is in the movie Bone Eater?",
+        "answers": [
+            "Native American monster"
+        ]
+    },
+    {
+        "query_id": "qa_91_500",
+        "question": "How many seasons did the series ALF run for?",
+        "answers": [
+            "ALF ran for 4 seasons."
+        ]
+    },
+    {
+        "query_id": "qa_91_5023",
+        "question": "Who is the author of 'The Sanctuary Sparrow'?",
+        "answers": [
+            "c"
+        ]
+    },
+    {
+        "query_id": "qa_91_4147",
+        "question": "Who is the author and illustrator of the manga series Phoenix?",
+        "answers": [
+            "Answer: Osamu Tezuka"
+        ]
+    },
+    {
+        "query_id": "qa_91_2414",
+        "question": "Who composed the score for the movie 'The Fly'",
+        "answers": [
+            "Howard Shore"
+        ]
+    },
+    {
+        "query_id": "qa_91_4847",
+        "question": "When was the Association for Public Art (aPA) established?",
+        "answers": [
+            "1872"
+        ]
+    },
+    {
+        "query_id": "qa_91_3917",
+        "question": "What genre is Love Story, the 1970 romantic drama movie starring Ali MacGraw and Ryan O'Neal?",
+        "answers": [
+            "romantic drama"
+        ]
+    },
+    {
+        "query_id": "qa_91_4336",
+        "question": "What type of music was praised in the film?",
+        "answers": [
+            "Type not specified"
+        ]
+    },
+    {
+        "query_id": "qa_91_6105",
+        "question": "What genre is Rough Night in Jericho?",
+        "answers": [
+            "W"
+        ]
+    },
+    {
+        "query_id": "qa_91_3133",
+        "question": "What is the name of the American reality television series that debuted on E! on May 26, 2008?",
+        "answers": [
+            "Living Lohan"
+        ]
+    },
+    {
+        "query_id": "qa_91_6635",
+        "question": "Who is Ismael Quintana?",
+        "answers": [
+            "Ismael Quintana"
+        ]
+    },
+    {
+        "query_id": "qa_91_1982",
+        "question": "Who is Nely el Arma Secreta?",
+        "answers": [
+            "Nely el Arma Secreta"
+        ]
+    },
+    {
+        "query_id": "qa_91_8068",
+        "question": "How long is Metallica's sixth studio album \"Load\"?",
+        "answers": [
+            "79 mins."
+        ]
+    },
+    {
+        "query_id": "qa_91_5780",
+        "question": "Who portrays Jack Berg in the Canadian TV drama series, The City?",
+        "answers": [
+            "John Ralston"
+        ]
+    },
+    {
+        "query_id": "qa_91_641",
+        "question": "How many records have Oasis sold worldwide as of 2024?",
+        "answers": [
+            "Over 75 million records."
+        ]
+    },
+    {
+        "query_id": "qa_91_7375",
+        "question": "Who played the role of the workaholic CEO in 'The Intern'?",
+        "answers": [
+            "AH"
+        ]
+    },
+    {
+        "query_id": "qa_91_3835",
+        "question": "Who is the author of Alistair MacLean's third novel?",
+        "answers": [
+            "Alistair MacLean"
+        ]
+    },
+    {
+        "query_id": "qa_91_6530",
+        "question": "What type of beats did Battle incorporate into their music?",
+        "answers": [
+            "Dance-orientated beats."
+        ]
+    },
+    {
+        "query_id": "qa_91_2256",
+        "question": "When was Quake II released?",
+        "answers": [
+            "1997"
+        ]
+    },
+    {
+        "query_id": "qa_91_3868",
+        "question": "Who is the Nigerian Afrobeat musician known for creating the album \"Gentleman\" in 1973 with his band Afrika 70?",
+        "answers": [
+            "Fela Kuti"
+        ]
+    },
+    {
+        "query_id": "qa_91_5346",
+        "question": "What was the chart position of Minnesota's first single in Switzerland?",
+        "answers": [
+            "\"What's Up\" reached position 22 on the Swiss Singles Chart."
+        ]
+    },
+    {
+        "query_id": "qa_91_3172",
+        "question": "In what year was the science fiction novel 'Today We Choose Faces' by Roger Zelazny published?",
+        "answers": [
+            "Y"
+        ]
+    },
+    {
+        "query_id": "qa_91_1007",
+        "question": "Where is Hitomi Shimatani currently releasing her music?",
+        "answers": [
+            "Hitomi Shimatani is currently releasing music under her own label, AI.R LAND RECORD, under Daiki Sound."
+        ]
+    },
+    {
+        "query_id": "qa_91_4164",
+        "question": "What is the title of the James Hadley Chase novella published in 1973?",
+        "answers": [
+            "\"Just a Matter of Time\""
+        ]
+    },
+    {
+        "query_id": "qa_91_5420",
+        "question": "In what locations have the soundscapes from 'Lux' been installed?",
+        "answers": [
+            "Answer: Art galleries and airport terminals"
+        ]
+    },
+    {
+        "query_id": "qa_91_8046",
+        "question": "What is the main narrative viewpoint of the British film So Little Time in portraying German and Belgian Resistance characters?",
+        "answers": [
+            "German characters sympathetic, Belgian Resistance aggressive"
+        ]
+    },
+    {
+        "query_id": "qa_91_3833",
+        "question": "What was the chart position of 'A Little More Love' when it was released as a single in 1997?",
+        "answers": [
+            "Number 2"
+        ]
+    },
+    {
+        "query_id": "qa_91_6898",
+        "question": "Who provided the Japanese voice for Paprika?",
+        "answers": [
+            "Megumi Hayashibara"
+        ]
+    },
+    {
+        "query_id": "qa_91_723",
+        "question": "What does the female protagonist in 'Part of Me' declare herself to be after a break-up?",
+        "answers": [
+            "Unbreakable and strong"
+        ]
+    },
+    {
+        "query_id": "qa_91_3427",
+        "question": "What are the five parts of The Silmarillion?",
+        "answers": [
+            "Ainulindal\u00eb, Valaquenta, Quenta Silmarillion, Akallab\u00eath, appendices."
+        ]
+    },
+    {
+        "query_id": "qa_91_7591",
+        "question": "Who were promoted to series regulars in Suits?",
+        "answers": [
+            "Alex Williams, Katrina Bennett."
+        ]
+    },
+    {
+        "query_id": "qa_91_7132",
+        "question": "What is The Great Outdoors?",
+        "answers": [
+            "British television sitcom"
+        ]
+    },
+    {
+        "query_id": "qa_91_3944",
+        "question": "What is the title of the movie 'Off the Black'?",
+        "answers": [
+            "Off the Black"
+        ]
+    },
+    {
+        "query_id": "qa_91_6569",
+        "question": "How many Ivor Novello Awards has Simon John Charles Le Bon received?",
+        "answers": [
+            "3"
+        ]
+    },
+    {
+        "query_id": "qa_91_672",
+        "question": "Which US Spanish-language broadcast television network premiered La Patrona?",
+        "answers": [
+            "Telemundo"
+        ]
+    },
+    {
+        "query_id": "qa_91_1030",
+        "question": "Who wrote the screenplay?",
+        "answers": [
+            "Robert King"
+        ]
+    },
+    {
+        "query_id": "qa_91_982",
+        "question": "What is the alternate title of the movie directed by Ruggero Deodato in 1977?",
+        "answers": [
+            "Cannibal"
+        ]
+    },
+    {
+        "query_id": "qa_91_1404",
+        "question": "When did Marty Marsala work with his brother in a big band, and where did they work?",
+        "answers": [
+            "1926-1946 in New York City and Chicago"
+        ]
+    },
+    {
+        "query_id": "qa_91_4066",
+        "question": "In which year was the Friends movie released?",
+        "answers": [
+            "1999"
+        ]
+    },
+    {
+        "query_id": "qa_91_5116",
+        "question": "What is the title of the jazz album released by Verve Records in 1958, produced by Norman Granz, and recorded at Capitol Studios in Los Angeles?",
+        "answers": [
+            "Songs for Distingu\u00e9 Lovers"
+        ]
+    },
+    {
+        "query_id": "qa_91_6327",
+        "question": "Who is the publisher of the video game The Fallen?",
+        "answers": [
+            "Simon & Schuster"
+        ]
+    },
+    {
+        "query_id": "qa_91_6302",
+        "question": "Which song from DJ Ferry Corsten's album Right of Way reached a peak position of UK #11?",
+        "answers": [
+            "'Rock Your Body, Rock' (UK #11)"
+        ]
+    },
+    {
+        "query_id": "qa_91_1263",
+        "question": "What song by Nicki Minaj features Drake, Nas, and Young Jeezy, and was released in what album in 2012?",
+        "answers": [
+            "\"Champion\" by Nicki Minaj feat. Drake, Nas, Young Jeezy (Pink Friday: Roman Reloaded, 2012)"
+        ]
+    },
+    {
+        "query_id": "qa_91_820",
+        "question": "Who is the English boy band that released the song 'Rule the World'?",
+        "answers": [
+            "Take That"
+        ]
+    },
+    {
+        "query_id": "qa_91_1334",
+        "question": "Where did the documentary Hand Held focus on?",
+        "answers": [
+            "Romania"
+        ]
+    },
+    {
+        "query_id": "qa_91_6828",
+        "question": "Who directed the movie The Party?",
+        "answers": [
+            "BlEd"
+        ]
+    },
+    {
+        "query_id": "qa_91_7846",
+        "question": "Who produced, recorded, engineered, mixed, and mastered My Body Sings Electric's album 'Changing Color'?",
+        "answers": [
+            "Stephan Hawkes"
+        ]
+    },
+    {
+        "query_id": "qa_91_1965",
+        "question": "Who are the members of marble and how did they meet?",
+        "answers": [
+            "M & K: Micco and Tatsuya Kikuchi, met in music school"
+        ]
+    },
+    {
+        "query_id": "qa_91_4553",
+        "question": "Who created the dust jacket artwork for Beyond the Wall of Sleep?",
+        "answers": [
+            "Clark Ashton Smith"
+        ]
+    },
+    {
+        "query_id": "qa_91_5571",
+        "question": "Who is Douglas Preston?",
+        "answers": [
+            "American author of multiple novels, including a five-novel series."
+        ]
+    },
+    {
+        "query_id": "qa_91_213",
+        "question": "What was the name of the new band formed after Spice disbanded?",
+        "answers": [
+            "Uriah Heep"
+        ]
+    },
+    {
+        "query_id": "qa_91_2835",
+        "question": "Who are the main characters in the movie 'The International'?",
+        "answers": [
+            "Clive Owen and Naomi Watts"
+        ]
+    },
+    {
+        "query_id": "qa_91_7598",
+        "question": "What is the one soundtrack album released by Deadmau5?",
+        "answers": [
+            "1 soundtrack album"
+        ]
+    },
+    {
+        "query_id": "qa_91_7756",
+        "question": "Who was in the group in a later lineup?",
+        "answers": [
+            "Grier, B, DH, BP"
+        ]
+    },
+    {
+        "query_id": "qa_91_114",
+        "question": "Who produced Terror from the Year 5,000?",
+        "answers": [
+            "Robert J. Gurney Jr, Samuel Z. Arkoff, James H. Nicholson, Gene Searchinger"
+        ]
+    },
+    {
+        "query_id": "qa_91_737",
+        "question": "What is the nationality of The Horrors?",
+        "answers": [
+            "English"
+        ]
+    },
+    {
+        "query_id": "qa_91_8221",
+        "question": "Who were some other notable employees of Avalon Interactive Group, Ltd.?",
+        "answers": [
+            "Tommy Tallarico, Bill Kroyer, Andy Luckey."
+        ]
+    },
+    {
+        "query_id": "qa_91_1904",
+        "question": "Did the deluxe edition boost album sales?",
+        "answers": [
+            "No"
+        ]
+    },
+    {
+        "query_id": "qa_91_6760",
+        "question": "What is the title of Pink Floyd's ninth studio album?",
+        "answers": [
+            "Wish You Were Here"
+        ]
+    },
+    {
+        "query_id": "qa_91_5113",
+        "question": "Which studios were involved in producing the movie 'The Missing'?",
+        "answers": [
+            "Revolution Studios, Imagine Entertainment, and Daniel Ostroff Productions"
+        ]
+    },
+    {
+        "query_id": "qa_91_7875",
+        "question": "On which consoles is Dead or Alive 5 Last Round available?",
+        "answers": [
+            "PS3, PS4, Xbox 360, Xbox One, Arcades, Windows"
+        ]
+    },
+    {
+        "query_id": "qa_91_2854",
+        "question": "In what year was the South Korean romantic comedy film 'Love in Magic' released?",
+        "answers": [
+            "2005"
+        ]
+    },
+    {
+        "query_id": "qa_91_5401",
+        "question": "Who were the members of King Crimson during their creative peak in the early 1970s?",
+        "answers": [
+            "With Bill Bruford, John Wetton, David Cross and, briefly, Jamie Muir."
+        ]
+    },
+    {
+        "query_id": "qa_91_3916",
+        "question": "In what year was Love Story, the 1970 romantic drama movie starring Ali MacGraw and Ryan O'Neal released?",
+        "answers": [
+            "1970"
+        ]
+    },
+    {
+        "query_id": "qa_91_1026",
+        "question": "What subgenre does the movie belong to?",
+        "answers": [
+            "Horror"
+        ]
+    },
+    {
+        "query_id": "qa_91_7391",
+        "question": "Q9: Who is Robert Costanza?",
+        "answers": [
+            "A9: Robert Costanza is... (provide a brief description or role)"
+        ]
+    },
+    {
+        "query_id": "qa_91_4645",
+        "question": "What is the name of the self-titled album released by Still Life, the English progressive rock band known for their Hammond organ playing and original vocal harmonies, in 1971?",
+        "answers": [
+            "Still Life (1971)"
+        ]
+    },
+    {
+        "query_id": "qa_91_4880",
+        "question": "What is the haunted location featured in the Filipino supernatural horror movie White House?",
+        "answers": [
+            "Laperal White House"
+        ]
+    },
+    {
+        "query_id": "qa_91_1553",
+        "question": "Who starred in the 1973 neo-noir crime film, The Outfit?",
+        "answers": [
+            "Robert Duvall, Karen Black, Joe Don Baker, Robert Ryan"
+        ]
+    },
+    {
+        "query_id": "qa_91_8054",
+        "question": "What genre is the film Ice?",
+        "answers": [
+            "science fiction"
+        ]
+    },
+    {
+        "query_id": "qa_91_5097",
+        "question": "Question: What is the title of the science fiction novel by Vladimir Sorokin that chronologically precedes Ice in The Ice Trilogy? ",
+        "answers": [
+            "Bro"
+        ]
+    },
+    {
+        "query_id": "qa_91_1407",
+        "question": "With whom did Marty Marsala share stages in various club settings?",
+        "answers": [
+            "Earl Hines and Sidney Bechet"
+        ]
+    },
+    {
+        "query_id": "qa_91_431",
+        "question": "What is the name of the play that Turn To The Right is based on?",
+        "answers": [
+            "Turn to the Right"
+        ]
+    },
+    {
+        "query_id": "qa_91_5988",
+        "question": "What award did the documentary film Legacy receive?",
+        "answers": [
+            "Academy Award"
+        ]
+    },
+    {
+        "query_id": "qa_91_1247",
+        "question": "Where is the setting of Project A?",
+        "answers": [
+            "Answer: Hong Kong"
+        ]
+    },
+    {
+        "query_id": "qa_91_4877",
+        "question": "Who directed the Filipino supernatural horror movie White House?",
+        "answers": [
+            "Topel Lee"
+        ]
+    },
+    {
+        "query_id": "qa_91_6646",
+        "question": "Who is Carlos Lehder Rivas?",
+        "answers": [
+            "Carlos Lehder Rivas"
+        ]
+    },
+    {
+        "query_id": "qa_91_2815",
+        "question": "Who starred in the 1970 film Airport?",
+        "answers": [
+            "Burt Lancaster and Dean Martin"
+        ]
+    },
+    {
+        "query_id": "qa_91_3701",
+        "question": "Who wrote the novel that Get Shorty is based on?",
+        "answers": [
+            "Scott Frank"
+        ]
+    },
+    {
+        "query_id": "qa_91_1543",
+        "question": "What is the title of Garbage's third studio album?",
+        "answers": [
+            "Beautiful Garbage"
+        ]
+    },
+    {
+        "query_id": "qa_91_3258",
+        "question": "Who starred in the 1915 American silent biographical crime drama \"Regeneration\"?",
+        "answers": [
+            "Rockliffe Fellowes, Anna Q. Nilsson"
+        ]
+    },
+    {
+        "query_id": "qa_91_3747",
+        "question": "What electronic music band is Sarah Jane Cracknell a part of?",
+        "answers": [
+            "Saint Etienne"
+        ]
+    },
+    {
+        "query_id": "qa_91_3995",
+        "question": "What is the title of the song?",
+        "answers": [
+            "\"I'll Do It All Over Again\""
+        ]
+    },
+    {
+        "query_id": "qa_91_7286",
+        "question": "What is Snake River Conspiracy (SRC)?",
+        "answers": [
+            "Snake River Conspiracy (SRC) is an American industrial rock band."
+        ]
+    },
+    {
+        "query_id": "qa_91_6297",
+        "question": "What band is Y\u016b Aku a part of?",
+        "answers": [
+            "D. Pink Lady"
+        ]
+    },
+    {
+        "query_id": "qa_91_284",
+        "question": "When did Threshold run on CBS?",
+        "answers": [
+            " Ran from Sep '05 to Nov '05"
+        ]
+    },
+    {
+        "query_id": "qa_91_1663",
+        "question": "When did The Millions disband?",
+        "answers": [
+            "1995"
+        ]
+    },
+    {
+        "query_id": "qa_91_8168",
+        "question": "Who are the distributors of the documentary 'Big River Man'?",
+        "answers": [
+            "Revolver, Discovery"
+        ]
+    },
+    {
+        "query_id": "qa_91_4605",
+        "question": "When was the print version of \"Infected\" released by Crown Publishing?",
+        "answers": [
+            "2008"
+        ]
+    },
+    {
+        "query_id": "qa_91_6253",
+        "question": "Where was Seconds Apart filmed?",
+        "answers": [
+            "Unknown"
+        ]
+    },
+    {
+        "query_id": "qa_91_7282",
+        "question": "How many Japanese cars are featured in GT Advance Championship Racing?",
+        "answers": [
+            "GT Advance Championship Racing features 45 Japanese cars."
+        ]
+    },
+    {
+        "query_id": "qa_91_2508",
+        "question": "What style of music does EF produce?",
+        "answers": [
+            "Guitars and pianos with effects"
+        ]
+    },
+    {
+        "query_id": "qa_91_4491",
+        "question": "Who is Tool, and where are they from?",
+        "answers": [
+            "Tool, an American rock band from Los Angeles."
+        ]
+    },
+    {
+        "query_id": "qa_91_6626",
+        "question": "Which song did Trax cover in their single 'Scorpio'?",
+        "answers": [
+            "'X Japan's 'Tears'"
+        ]
+    },
+    {
+        "query_id": "qa_91_5291",
+        "question": "Who are some other Canadian thrash metal bands that played a prominent role in the 1980s underground metal scene in Toronto?",
+        "answers": [
+            "Voivod, Razor"
+        ]
+    },
+    {
+        "query_id": "qa_91_1375",
+        "question": "Which state did Bakkushan represent in the Bundesvision Song Contest in 2010?",
+        "answers": [
+            "Baden-W\u00fcrttemberg"
+        ]
+    },
+    {
+        "query_id": "qa_91_4171",
+        "question": "In which album can 'I Want to Break Free' by Queen be found?",
+        "answers": [
+            "The Works (1984)"
+        ]
+    },
+    {
+        "query_id": "qa_91_2545",
+        "question": "What is the name of the main concert venue for the Atlanta Symphony Orchestra?",
+        "answers": [
+            "Atlanta Symphony Hall is the main concert venue for the Atlanta Symphony Orchestra."
+        ]
+    },
+    {
+        "query_id": "qa_91_5797",
+        "question": "What is the name of the second studio album by Supercell?",
+        "answers": [
+            "Today Is A Beautiful Day"
+        ]
+    },
+    {
+        "query_id": "qa_91_5088",
+        "question": "What did singer and guitarist Josh Caterer say about the lead track 'Writing a Letter' from the third EP by the Chicago-based pop punk band the Smoking Popes?",
+        "answers": [
+            "Answer: 'Writing a Letter' was influenced by the songwriting style of old Hollywood musicals, according to singer and guitarist Josh Caterer."
+        ]
+    },
+    {
+        "query_id": "qa_91_4603",
+        "question": "Who is the author of the science fiction novel \"Infected\"?",
+        "answers": [
+            "Scott Sigler"
+        ]
+    },
+    {
+        "query_id": "qa_91_1809",
+        "question": "Which musical groups appeared in the documentary film Revolution?",
+        "answers": [
+            "Ace of Cups, Country Joe and the Fish, Dan Hicks"
+        ]
+    },
+    {
+        "query_id": "qa_91_3186",
+        "question": "Who directed Dragon in 2011? ",
+        "answers": [
+            "Peter Chan"
+        ]
+    },
+    {
+        "query_id": "qa_91_3706",
+        "question": "Where did Robert A. Heinlein build a fallout shelter in the 1960s? ",
+        "answers": [
+            "Colorado Springs, Colorado"
+        ]
+    },
+    {
+        "query_id": "qa_91_98",
+        "question": "What are the names of the first two Pok\u00e9mon games released in Japan in 1996?",
+        "answers": [
+            "Pok\u00e9mon Red Version and Pok\u00e9mon Blue Version"
+        ]
+    },
+    {
+        "query_id": "qa_91_5985",
+        "question": "What is the title of the documentary film about a family in Chicago's Henry Horner Homes?",
+        "answers": [
+            "Legacy"
+        ]
+    },
+    {
+        "query_id": "qa_91_127",
+        "question": "Who are the main actors in Afsporet?",
+        "answers": [
+            "Ebbe Rode, Illona Wieselmann"
+        ]
+    },
+    {
+        "query_id": "qa_91_5177",
+        "question": "What is the title of the 2001 American science-fiction action movie directed by James Wong and starring Jet Li, Delroy Lindo, Carla Gugino, and Jason Statham?",
+        "answers": [
+            "The One"
+        ]
+    },
+    {
+        "query_id": "qa_91_7027",
+        "question": "What genre is the American pre-Code musical comedy film Adorable?",
+        "answers": [
+            "Musical comedy"
+        ]
+    },
+    {
+        "query_id": "qa_91_3523",
+        "question": "Which Billy Joel album features three of his most famous songs?",
+        "answers": [
+            "An Innocent Man"
+        ]
+    },
+    {
+        "query_id": "qa_91_4412",
+        "question": "What genres are included in the second Sweetbox album?",
+        "answers": [
+            "pop, dance and rock"
+        ]
+    },
+    {
+        "query_id": "qa_91_3375",
+        "question": "In which year did the Penguins have their only success?",
+        "answers": [
+            "1954"
+        ]
+    },
+    {
+        "query_id": "qa_91_2567",
+        "question": "In which year was the movie Mystery Date released?",
+        "answers": [
+            "1991"
+        ]
+    },
+    {
+        "query_id": "qa_91_5673",
+        "question": "In what scene did Disorder play a role?",
+        "answers": [
+            "Bristol punk scene"
+        ]
+    },
+    {
+        "query_id": "qa_91_4956",
+        "question": "Who produced the alternate reality game, The Jejune Institute, in 2008?",
+        "answers": [
+            "Jeff Hull"
+        ]
+    },
+    {
+        "query_id": "qa_91_3233",
+        "question": "Who wrote the song 'I Will Be There' for Dan Seals?",
+        "answers": [
+            "Tom Snow and Jennifer Kimball"
+        ]
+    },
+    {
+        "query_id": "qa_91_2053",
+        "question": "Who called the TV series 'the antithesis of what we were trying to do' with the movie?",
+        "answers": [
+            "Altman"
+        ]
+    },
+    {
+        "query_id": "qa_91_4519",
+        "question": "What additional information is available about the album Collaboration West by Teddy Charles, aside from its year of recording and record label?",
+        "answers": [
+            "Four tracks from an earlier session"
+        ]
+    },
+    {
+        "query_id": "qa_91_919",
+        "question": "Who starred in the movie 'The Attic'?",
+        "answers": [
+            "Elisabeth Moss, Jason Lewis, Tom Malloy, Catherine Mary Stewart"
+        ]
+    },
+    {
+        "query_id": "qa_91_2840",
+        "question": "Where was a significant scene in the movie 'The International' filmed?",
+        "answers": [
+            "A life-size replica of New York's Guggenheim Museum (for the film's central shootout scene)"
+        ]
+    },
+    {
+        "query_id": "qa_91_5322",
+        "question": "In what year was the romantic-comedy film Woo released?",
+        "answers": [
+            "1998"
+        ]
+    },
+    {
+        "query_id": "qa_91_103",
+        "question": "What is the objective of playing Red and Blue?",
+        "answers": [
+            "Win Indigo League, defeat Elite Four."
+        ]
+    },
+    {
+        "query_id": "qa_91_2073",
+        "question": "Who are some of the artists that BT has produced, collaborated, or written with?",
+        "answers": [
+            "BT has produced, collaborated, or written with a variety of artists, including Death Cab for Cutie, Peter Gabriel, David Bowie, Madonna, Markus Schulz, Armin van Buuren, Sting, Depeche Mode, Tori Amos, NSYNC, Blake Lewis, The Roots, Guru, Britney Spears, Paul van Dyk, and Ti\u00ebsto."
+        ]
+    },
+    {
+        "query_id": "qa_91_4056",
+        "question": "What year did Time release their self-titled debut album?",
+        "answers": [
+            "1972"
+        ]
+    },
+    {
+        "query_id": "qa_91_6913",
+        "question": "What is the main character of the movie 'The Dentist'",
+        "answers": [
+            "Corbin Bernsen"
+        ]
+    },
+    {
+        "query_id": "qa_91_6020",
+        "question": "Who directed the film Asian School Girls?",
+        "answers": [
+            "Lawrence Silverstein"
+        ]
+    },
+    {
+        "query_id": "qa_91_63",
+        "question": "In which countries was the limited Digi-pack CD single sold?",
+        "answers": [
+            "Answer: Sweden, Nuclear Blast mailorder"
+        ]
+    },
+    {
+        "query_id": "qa_91_6651",
+        "question": "Where is Colors set?",
+        "answers": [
+            "South Central Los Angeles, Echo Park, Westlake, East Los Angeles"
+        ]
+    },
+    {
+        "query_id": "qa_91_6111",
+        "question": "Who is the singer of the indie pop song 'Let It Go' that was released on February 20, 2013?",
+        "answers": [
+            "Fe"
+        ]
+    },
+    {
+        "query_id": "qa_91_7864",
+        "question": "Who starred in the movie 'The Copper'?",
+        "answers": [
+            "Hans Albers, Hansj\u00f6rg Felmy, Susanne Cramer"
+        ]
+    },
+    {
+        "query_id": "qa_91_4078",
+        "question": "What is the impetus for the creation of the spin-off Persona and Devil Summoner series?",
+        "answers": [
+            "Positive response to the setting and spin-off status of Shin Megami Tensei If... was the impetus for the creation of the spin-off Persona and Devil Summoner series."
+        ]
+    },
+    {
+        "query_id": "qa_91_2001",
+        "question": "What nightclub did Cabaret Voltaire take their name from?",
+        "answers": [
+            "The Z\u00fcrich nightclub"
+        ]
+    },
+    {
+        "query_id": "qa_91_2329",
+        "question": "What was the highest position the novel Love Story reached on The New York Times Best Seller list?",
+        "answers": [
+            "Position: Peaked at number one"
+        ]
+    },
+    {
+        "query_id": "qa_91_174",
+        "question": "What type of group was Celebration?",
+        "answers": [
+            "American rock band"
+        ]
+    },
+    {
+        "query_id": "qa_91_8155",
+        "question": "What specific cityscapes did Alexander Beggrow depict in his artwork?",
+        "answers": [
+            "Alexander Beggrow depicted Saint Petersburg cityscapes in his artwork."
+        ]
+    },
+    {
+        "query_id": "qa_91_7947",
+        "question": "Which two songs were added to the setlists during the tour coinciding with the Gulf War for 'Weld' by Neil Young and Crazy Horse?",
+        "answers": [
+            "Cortez the Killer' and 'Powderfinger'"
+        ]
+    },
+    {
+        "query_id": "qa_91_7015",
+        "question": "Who directed the horror film From Within?",
+        "answers": [
+            "Phedon Papamichael Jr."
+        ]
+    },
+    {
+        "query_id": "qa_91_1893",
+        "question": "When was 'Exposed' released?",
+        "answers": [
+            "July 28, 2009"
+        ]
+    },
+    {
+        "query_id": "qa_91_7256",
+        "question": "Which chart did Jody Watley's song 'Real Love' reach the number-one spot on in 1989?",
+        "answers": [
+            "US Billboard Hot Black Singles and Dance Club Play charts"
+        ]
+    },
+    {
+        "query_id": "qa_91_1584",
+        "question": "Who directed Slow West? ",
+        "answers": [
+            "John Maclean"
+        ]
+    },
+    {
+        "query_id": "qa_91_7158",
+        "question": "Who is Jay Chou?",
+        "answers": [
+            "JC"
+        ]
+    },
+    {
+        "query_id": "qa_91_7464",
+        "question": "During what specific time period did Rubin 'The Hurricane' Carter spend his life in prison?",
+        "answers": [
+            "Unspecified"
+        ]
+    },
+    {
+        "query_id": "qa_91_1074",
+        "question": "Where is the plastic surgery and day spa located in San Diego, California?",
+        "answers": [
+            "San Diego, CA"
+        ]
+    },
+    {
+        "query_id": "qa_91_6288",
+        "question": "How has North been received by critics?",
+        "answers": [
+            "\"one of the worst films of all time\""
+        ]
+    },
+    {
+        "query_id": "qa_91_4778",
+        "question": "Who directed the film 'Soldier'?",
+        "answers": [
+            "Anderson"
+        ]
+    },
+    {
+        "query_id": "qa_91_6292",
+        "question": "When was the movie Caught released?",
+        "answers": [
+            "August 8, 1931"
+        ]
+    },
+    {
+        "query_id": "qa_91_2519",
+        "question": "On which record label did The Take release their first album?",
+        "answers": [
+            "Household Name Records"
+        ]
+    },
+    {
+        "query_id": "qa_91_1106",
+        "question": "What is New World Society?",
+        "answers": [
+            "New World Society is a citizens' initiative in Uus Maailm, Tallinn."
+        ]
+    },
+    {
+        "query_id": "qa_91_992",
+        "question": "What smaller independent vanity labels did Coil start in addition to their main label?",
+        "answers": [
+            "Eskaton and Chalice"
+        ]
+    },
+    {
+        "query_id": "qa_91_947",
+        "question": "What follow-up projects have been created based on The Thing?",
+        "answers": [
+            "Comic books, video game, prequel film"
+        ]
+    },
+    {
+        "query_id": "qa_91_1521",
+        "question": "What was The Jackson 5's fourth consecutive number-one pop hit?",
+        "answers": [
+            "I'll Be There"
+        ]
+    },
+    {
+        "query_id": "qa_91_8179",
+        "question": "Why did Wives split in November 2005?",
+        "answers": [
+            "(unknown)"
+        ]
+    },
+    {
+        "query_id": "qa_91_2440",
+        "question": "On what label was Pearl Jam's eighth studio album released?",
+        "answers": [
+            "J Records"
+        ]
+    },
+    {
+        "query_id": "qa_91_1162",
+        "question": "Who is the band member that started the project Operator?",
+        "answers": [
+            "Johnny Strong"
+        ]
+    },
+    {
+        "query_id": "qa_91_6554",
+        "question": "What was Dickens' opinion of the public response to Great Expectations during serial publication?",
+        "answers": [
+            "Pleased"
+        ]
+    },
+    {
+        "query_id": "qa_91_5486",
+        "question": "What genre is The Magician's Apprentice?",
+        "answers": [
+            "Fantasy"
+        ]
+    },
+    {
+        "query_id": "qa_91_4590",
+        "question": "Despite what, did The Boondock Saints become a cult classic through word of mouth and its home video release, ultimately grossing $50 million in sales?",
+        "answers": [
+            "Negative reviews from critics"
+        ]
+    },
+    {
+        "query_id": "qa_91_2081",
+        "question": "How is 'The Ethos Effect' related to L. E. Modesitt, Jr.'s other works?",
+        "answers": [
+            "Relationship: Sequel to The Parafaith War"
+        ]
+    },
+    {
+        "query_id": "qa_91_3311",
+        "question": "How many records did Prince sell during his lifetime?",
+        "answers": [
+            "Over 100 million"
+        ]
+    },
+    {
+        "query_id": "qa_91_838",
+        "question": "Who translated Operation Sabotage to the IBM Personal Computer?",
+        "answers": [
+            "G"
+        ]
+    },
+    {
+        "query_id": "qa_91_8208",
+        "question": "Where did Edward Bird spend most of his working life?",
+        "answers": [
+            "Bristol"
+        ]
+    },
+    {
+        "query_id": "qa_91_5441",
+        "question": "Which two songs by REO Speedwagon reached number one in the US charts?",
+        "answers": [
+            "1,2 'Keep On Loving You', 'Can't Fight This Feeling'"
+        ]
+    },
+    {
+        "query_id": "qa_91_4043",
+        "question": "What is the name of the Association's fifth album?",
+        "answers": [
+            "The Association"
+        ]
+    },
+    {
+        "query_id": "qa_91_2865",
+        "question": "What is the abbreviated form of the television show in question?",
+        "answers": [
+            "Q..."
+        ]
+    },
+    {
+        "query_id": "qa_91_2992",
+        "question": "When was the release date of Back to the Future changed, and why?",
+        "answers": [
+            "After highly successful test screenings, the release date was brought forward to July 3, 1985."
+        ]
+    },
+    {
+        "query_id": "qa_91_3254",
+        "question": "Who had their final film appearance in Blessed?",
+        "answers": [
+            "David Hemmings"
+        ]
+    },
+    {
+        "query_id": "qa_91_4920",
+        "question": "Where did Jessie J tour to promote her album 'Alive'?",
+        "answers": [
+            "19 dates across the UK"
+        ]
+    },
+    {
+        "query_id": "qa_91_5008",
+        "question": "Which record label did London record for in 1977?",
+        "answers": [
+            "London recorded for MCA Records in 1977."
+        ]
+    },
+    {
+        "query_id": "qa_91_5270",
+        "question": "How much money did 'The Others' make at the box office?",
+        "answers": [
+            "$210M"
+        ]
+    },
+    {
+        "query_id": "qa_91_580",
+        "question": "What is the name of the American industrial rock band formed in Cleveland in 1988?",
+        "answers": [
+            "Nine Inch Nails"
+        ]
+    },
+    {
+        "query_id": "qa_91_6088",
+        "question": "How many times has the band performed at Wacken Open Air?",
+        "answers": [
+            "3 times (2006, 2012, 2016)"
+        ]
+    },
+    {
+        "query_id": "qa_91_4805",
+        "question": "What is the title of the movie?",
+        "answers": [
+            "Big Business"
+        ]
+    },
+    {
+        "query_id": "qa_91_2245",
+        "question": "What is the title of T-Square's fourteenth studio album?",
+        "answers": [
+            "Wave"
+        ]
+    },
+    {
+        "query_id": "qa_91_7738",
+        "question": "Who are some notable members' post-Windir bands?",
+        "answers": [
+            "Vreid, Mistur, and Cor Scorpii"
+        ]
+    },
+    {
+        "query_id": "qa_91_3101",
+        "question": "How many players can play Frogs?",
+        "answers": [
+            "single"
+        ]
+    },
+    {
+        "query_id": "qa_91_7202",
+        "question": "Who was Jaroslav Koci\u00e1n and what were his birth and death dates?",
+        "answers": [
+            "Czech violinist (1883-1950)"
+        ]
+    },
+    {
+        "query_id": "qa_91_586",
+        "question": "Who won Grammy Awards in 1992 and 1996 for Nine Inch Nails?",
+        "answers": [
+            "Trent Reznor for 'Wish' in 1992 and 'Happiness in Slavery' in 1996"
+        ]
+    },
+    {
+        "query_id": "qa_91_4954",
+        "question": "Who is the nemesis that the protagonist has to confront in each of his past lives?",
+        "answers": [
+            "Nemesis"
+        ]
+    },
+    {
+        "query_id": "qa_91_5878",
+        "question": "What type of media franchise is Street Fighter?",
+        "answers": [
+            "Street Fighter is a Japanese media franchise."
+        ]
+    },
+    {
+        "query_id": "qa_91_6656",
+        "question": "Who are some members of HiM and what other bands are they associated with?",
+        "answers": [
+            "Bundy K. Brown, Rob Mazurek, Jeff Parker: Tortoise, Isotope 217"
+        ]
+    },
+    {
+        "query_id": "qa_91_186",
+        "question": "When was the Wii U version of Just Dance 4 released in North America?",
+        "answers": [
+            "November 18, 2012"
+        ]
+    },
+    {
+        "query_id": "qa_91_4934",
+        "question": "Which production company produced the movie?",
+        "answers": [
+            "Recorded Picture Company"
+        ]
+    },
+    {
+        "query_id": "qa_91_5621",
+        "question": "Where is Len based?",
+        "answers": [
+            "Len is based in Toronto, Ontario (Canada)."
+        ]
+    },
+    {
+        "query_id": "qa_91_3281",
+        "question": "Who are the lead actors in The Pill?",
+        "answers": [
+            "Rachel Boston, Noah Bean"
+        ]
+    },
+    {
+        "query_id": "qa_91_2688",
+        "question": "Who was the publisher that completed Micro, Michael Crichton's seventeenth novel, after his death?",
+        "answers": [
+            "Publisher: HarperCollins"
+        ]
+    },
+    {
+        "query_id": "qa_91_2103",
+        "question": "What year was The Rebound released?",
+        "answers": [
+            "09"
+        ]
+    },
+    {
+        "query_id": "qa_91_4055",
+        "question": "Which band's vocalist formed Time in 1971?",
+        "answers": [
+            "Adolf 'Dado' Topi\u0107"
+        ]
+    },
+    {
+        "query_id": "qa_91_4420",
+        "question": "How many EPs did Surgery release?",
+        "answers": [
+            "two"
+        ]
+    },
+    {
+        "query_id": "qa_91_471",
+        "question": "What is the title of the reality competition series about overweight couples trying to lose weight and win a wedding?",
+        "answers": [
+            "Shedding for the Wedding"
+        ]
+    },
+    {
+        "query_id": "qa_91_1818",
+        "question": "What version of Trilogy includes the second disc?",
+        "answers": [
+            "limited version"
+        ]
+    },
+    {
+        "query_id": "qa_91_6694",
+        "question": "When was 'Incorporated' released by Grip Inc.?",
+        "answers": [
+            "Answer: March 16, 2004"
+        ]
+    },
+    {
+        "query_id": "qa_91_7785",
+        "question": "Who is A.B. Cook and how is he related to the character Burlingame in another Barth novel?",
+        "answers": [
+            "A.B. Cook: Descendant of Burlingame from The Sot-Weed Factor in LETTERS"
+        ]
+    },
+    {
+        "query_id": "qa_91_7055",
+        "question": "What is the name of the action game developed by Probe Software and published by Firebird Software in 1988 for ZX Spectrum, Commodore 64, Amstrad CPC, Atari ST, and MS-DOS, and published by Firebird Software for the Amiga in 1989?",
+        "answers": [
+            "Savage"
+        ]
+    },
+    {
+        "query_id": "qa_91_7196",
+        "question": "What is the full name of Shion, the Japanese-born Korean R&B singer?",
+        "answers": [
+            "Yu-hyang Park (\u6734\u6709\u9999, Boku Y\u016bka)"
+        ]
+    },
+    {
+        "query_id": "qa_91_6187",
+        "question": "What is the title and year of release for a French comedy film?",
+        "answers": [
+            "Dr\u00f4les de z\u00e8bres (1977), French comedy film"
+        ]
+    },
+    {
+        "query_id": "qa_91_5948",
+        "question": "What led to the sculpture being recommended for heritage protection in 2017?",
+        "answers": [
+            "Following a heritage study of the Southbank Area"
+        ]
+    },
+    {
+        "query_id": "qa_91_5324",
+        "question": "Who directed the movie Woo?",
+        "answers": [
+            "Daisy von Scherler Mayer"
+        ]
+    },
+    {
+        "query_id": "qa_91_4096",
+        "question": "When did Anah\u00ed start her acting career and which show did she make her debut on?",
+        "answers": [
+            "Anah\u00ed started her acting career in 1986 on the show Chiquilladas."
+        ]
+    },
+    {
+        "query_id": "qa_91_341",
+        "question": "Who are the supporting cast members in Pixels? ",
+        "answers": [
+            "Kevin James, Michelle Monaghan, Peter Dinklage, Josh Gad, and Brian Cox"
+        ]
+    },
+    {
+        "query_id": "qa_91_4995",
+        "question": "What is the title of the Kannada movie released in 2002 directed by M.S. Ramesh and co-written by R. Rajashekar?",
+        "answers": [
+            "Dhruva"
+        ]
+    },
+    {
+        "query_id": "qa_91_1740",
+        "question": "Who were the judges on Picture This?",
+        "answers": [
+            "Martin Parr of the Magnum Photos photo agency, Brett Rogers of the Photographers' Gallery, and Alex Proud of Proud Galleries"
+        ]
+    },
+    {
+        "query_id": "qa_91_4901",
+        "question": "Who are the original four members of Red Velvet? ",
+        "answers": [
+            "Irene, Seulgi, Wendy, Joy"
+        ]
+    },
+    {
+        "query_id": "qa_91_6671",
+        "question": "Who starred opposite Robert De Niro in Analyze This?",
+        "answers": [
+            "Billy Crystal"
+        ]
+    },
+    {
+        "query_id": "qa_91_6338",
+        "question": "What is the genre of the movie Made for Each Other?",
+        "answers": [
+            "romantic comedy"
+        ]
+    },
+    {
+        "query_id": "qa_91_995",
+        "question": "Who are the members of the Danish rock/pop act?",
+        "answers": [
+            "Thorsten B\u00e6k, Henrik Engstr\u00f8m, Rasmus Ils\u00f8"
+        ]
+    },
+    {
+        "query_id": "qa_91_2149",
+        "question": "When was Pulse: Volume One released for Android?",
+        "answers": [
+            "2013"
+        ]
+    },
+    {
+        "query_id": "qa_91_4349",
+        "question": "In what location does the short documentary film 'Children Without' take place?",
+        "answers": [
+            "Detroit"
+        ]
+    },
+    {
+        "query_id": "qa_91_2616",
+        "question": "Who is Sara Groves?",
+        "answers": [
+            "Sara Groves"
+        ]
+    },
+    {
+        "query_id": "qa_91_4460",
+        "question": "What is the title of Rude Kids' second single released by Polydor?",
+        "answers": [
+            "\"Stranglers\""
+        ]
+    },
+    {
+        "query_id": "qa_91_8015",
+        "question": "Who influenced Embrace's only released recording?",
+        "answers": [
+            "The Faith EP Subject to Change"
+        ]
+    },
+    {
+        "query_id": "qa_91_7985",
+        "question": "What genre is The Last Resort?",
+        "answers": [
+            "Answer: Adventure. (The Last Resort)"
+        ]
+    },
+    {
+        "query_id": "qa_91_5681",
+        "question": "What actions does the group take in the novel Elsewhere?",
+        "answers": [
+            "Tries to find out"
+        ]
+    },
+    {
+        "query_id": "qa_91_8039",
+        "question": "What genre is the Space Battleship Yamato movie?",
+        "answers": [
+            "science fiction"
+        ]
+    },
+    {
+        "query_id": "qa_91_253",
+        "question": "In which countries did 'With or Without You' reach number one on the charts?",
+        "answers": [
+            " 'With or Without You' reached number one on the charts in both the United States and Canada."
+        ]
+    },
+    {
+        "query_id": "qa_91_6467",
+        "question": "What group was Enzo Pietropaoli a part of in 1987?",
+        "answers": [
+            "Enzo Pietropaoli was a part of Lingomania in 1987."
+        ]
+    },
+    {
+        "query_id": "qa_91_2684",
+        "question": "In what year was Micro, Michael Crichton's seventeenth novel published?",
+        "answers": [
+            "Year: 2011"
+        ]
+    },
+    {
+        "query_id": "qa_91_3340",
+        "question": "How many episodes are there in the series?",
+        "answers": [
+            "2 x 13 fifty-minute episodes"
+        ]
+    },
+    {
+        "query_id": "qa_91_6833",
+        "question": "Who replaced Stuart Uren as permanent bassist in Stray?",
+        "answers": [
+            "Colin Kempster"
+        ]
+    },
+    {
+        "query_id": "qa_91_4274",
+        "question": "In what year was Sripada Pinakapani born/die?",
+        "answers": [
+            "Year of birth: 1913\nYear of death: 2013"
+        ]
+    },
+    {
+        "query_id": "qa_91_1078",
+        "question": "What genres does Charlotte Smith's novel Emmeline belong to?",
+        "answers": [
+            "Gothic fiction, early Romantic novel"
+        ]
+    },
+    {
+        "query_id": "qa_91_4174",
+        "question": "Who proposed the concept for the music video of 'I Want to Break Free' by Queen?",
+        "answers": [
+            "Roger Taylor"
+        ]
+    },
+    {
+        "query_id": "qa_91_7952",
+        "question": "How was this concert originally released, and when was it re-released for digital download?",
+        "answers": [
+            "Brief release on VHS and laserdisc. Re-released in May 2009 for digital download."
+        ]
+    },
+    {
+        "query_id": "qa_91_3452",
+        "question": "Who are the Sons of the Pioneers?",
+        "answers": [
+            "One of the US' earliest Western singing groups since 1933."
+        ]
+    },
+    {
+        "query_id": "qa_91_5533",
+        "question": "What genre is the 1955 Italian comedy film 'A Hero of Our Times'?",
+        "answers": [
+            "Comedy"
+        ]
+    },
+    {
+        "query_id": "qa_91_5874",
+        "question": "What prequel television series debuted on Paramount+ in 2023?",
+        "answers": [
+            "GRPL"
+        ]
+    },
+    {
+        "query_id": "qa_91_2217",
+        "question": "How much did Lions Gate Entertainment spend on distribution and marketing for Open Water?",
+        "answers": [
+            "$8 million"
+        ]
+    },
+    {
+        "query_id": "qa_91_8103",
+        "question": "What is the name of the compilation album by Deftones?",
+        "answers": [
+            "a"
+        ]
+    },
+    {
+        "query_id": "qa_91_584",
+        "question": "Which albums received critical acclaim and commercial success, released in 1994 and 1999 respectively?",
+        "answers": [
+            "The Downward Spiral and The Fragile"
+        ]
+    },
+    {
+        "query_id": "qa_91_3072",
+        "question": "Who wants the young woman in \"The Pest\" to marry him?",
+        "answers": [
+            "The landlord in \"The Pest\""
+        ]
+    },
+    {
+        "query_id": "qa_91_5244",
+        "question": "What is the title of the French science fiction film released in 2004?",
+        "answers": [
+            "Immortel (ad vitam)"
+        ]
+    },
+    {
+        "query_id": "qa_91_3219",
+        "question": "What movie is Hamilton?",
+        "answers": [
+            "Hamilton"
+        ]
+    },
+    {
+        "query_id": "qa_91_4635",
+        "question": "Who are some of the experts interviewed in the documentary 'Thin Ice'?",
+        "answers": [
+            "A range of scientists, from biologists to physicists"
+        ]
+    },
+    {
+        "query_id": "qa_91_1019",
+        "question": "What award did the documentary Crumb win at the Sundance film festival?",
+        "answers": [
+            "Documentary Prize at Sundance"
+        ]
+    },
+    {
+        "query_id": "qa_91_8106",
+        "question": "Who is Benny Mardones?",
+        "answers": [
+            "Benny Mardones"
+        ]
+    },
+    {
+        "query_id": "qa_91_5138",
+        "question": "What genre is this TV show?",
+        "answers": [
+            "Sitcom"
+        ]
+    },
+    {
+        "query_id": "qa_91_3790",
+        "question": "Which label released Faithless' sixth studio album?",
+        "answers": [
+            "Nates Tunes"
+        ]
+    },
+    {
+        "query_id": "qa_91_75",
+        "question": "What are the sequels of the film Taxi?",
+        "answers": [
+            "Taxi 2, Taxi 3, Taxi 4, Taxi 5"
+        ]
+    },
+    {
+        "query_id": "qa_91_1214",
+        "question": "Who was a founding member and driving force behind G\u00e9nesis?",
+        "answers": [
+            "Humberto Monroy of Los Speakers"
+        ]
+    },
+    {
+        "query_id": "qa_91_4399",
+        "question": "What certification level was the album awarded?",
+        "answers": [
+            "Plat"
+        ]
+    },
+    {
+        "query_id": "qa_91_315",
+        "question": "What is the profession of Joanna in the movie 'A Love Story'?",
+        "answers": [
+            "Doctor"
+        ]
+    },
+    {
+        "query_id": "qa_91_3700",
+        "question": "Who directed the movie Get Shorty?",
+        "answers": [
+            "Barry Sonnenfeld"
+        ]
+    },
+    {
+        "query_id": "qa_91_3292",
+        "question": "What are the alternative names for the game Counter-Strike?",
+        "answers": [
+            "\"Half-Life: Counter-Strike\" or \"Counter-Strike 1.6\""
+        ]
+    },
+    {
+        "query_id": "qa_91_1447",
+        "question": "Who were the members of Bush, and what instruments did they play?",
+        "answers": [
+            "Domenic Troiano (vocals, guitar), Roy Kenner (vocals), Hugh Sullivan (organ), Pentti Glan (drums), Prakash John (vocals, bass)"
+        ]
+    },
+    {
+        "query_id": "qa_91_2959",
+        "question": "Which famous British band covered both 'Slow Down' and 'Dizzy, Miss Lizzy' in the future?",
+        "answers": [
+            "The Beatles"
+        ]
+    },
+    {
+        "query_id": "qa_91_1774",
+        "question": "How many of Take That's albums are among the 60 best-selling albums in UK chart history?",
+        "answers": [
+            "3"
+        ]
+    },
+    {
+        "query_id": "qa_91_3605",
+        "question": "How many units has Ayumi Hamasaki's song 'Vogue' sold in Japan?",
+        "answers": [
+            "Sales: 767,000"
+        ]
+    },
+    {
+        "query_id": "qa_91_1319",
+        "question": "Who is The Sound of Arrows, and what type of music do they make?",
+        "answers": [
+            "Swedish synth-pop duo The Sound of Arrows"
+        ]
+    },
+    {
+        "query_id": "qa_91_2987",
+        "question": "Who directed and wrote Back to the Future?",
+        "answers": [
+            "Robert Zemeckis and Bob Gale"
+        ]
+    },
+    {
+        "query_id": "qa_91_332",
+        "question": "Who is a Grammy-nominated American songwriter?",
+        "answers": [
+            "Erin Beck"
+        ]
+    },
+    {
+        "query_id": "qa_91_3421",
+        "question": "Who is the subject of the music video for 'Teenage Dream'?",
+        "answers": [
+            "High school bf"
+        ]
+    },
+    {
+        "query_id": "qa_91_5827",
+        "question": "In which list did Dallas appear in 2010?",
+        "answers": [
+            "Time mag's list"
+        ]
+    },
+    {
+        "query_id": "qa_91_7372",
+        "question": "What is the title of the movie 'The Intern'?",
+        "answers": [
+            "TI"
+        ]
+    },
+    {
+        "query_id": "qa_91_3435",
+        "question": "In what year was a sequel to 'Shaft' released that did not receive the same critical acclaim as the original 'Shaft'?",
+        "answers": [
+            "1973"
+        ]
+    },
+    {
+        "query_id": "qa_91_4346",
+        "question": "What is the title of the 1964 short documentary film about a young girl and her brother growing up in the housing projects of Detroit, directed by Charles Guggenheim?",
+        "answers": [
+            "Children Without"
+        ]
+    },
+    {
+        "query_id": "qa_91_1975",
+        "question": "On which platform was The Ball one of the launch titles?",
+        "answers": [
+            "a"
+        ]
+    },
+    {
+        "query_id": "qa_91_4829",
+        "question": "Who is the main character in Options by Robert Sheckley?",
+        "answers": [
+            "Main character"
+        ]
+    },
+    {
+        "query_id": "qa_91_4569",
+        "question": "How much dialogue is in The Wall?",
+        "answers": [
+            "Little dialogue."
+        ]
+    },
+    {
+        "query_id": "qa_91_6555",
+        "question": "How did Dickens describe the plot of Great Expectations when it first formed in his mind?",
+        "answers": [
+            "\"A very fine, new and grotesque idea\""
+        ]
+    },
+    {
+        "query_id": "qa_91_2924",
+        "question": "Who is the mysterious classmate that K\u014dichi meets at Yomiyama Middle School?",
+        "answers": [
+            "Mei Misaki"
+        ]
+    },
+    {
+        "query_id": "qa_91_5630",
+        "question": "In what year was The Paint Gun Testing Initiative developed?",
+        "answers": [
+            "2014"
+        ]
+    },
+    {
+        "query_id": "qa_91_4283",
+        "question": "What was the highest position of 'A Million Light Years Away' on the Finnish singles chart?",
+        "answers": [
+            "Answer: 14"
+        ]
+    },
+    {
+        "query_id": "qa_91_2259",
+        "question": "Who published Quake II?",
+        "answers": [
+            "Activision"
+        ]
+    },
+    {
+        "query_id": "qa_91_7893",
+        "question": "What type of album is the basis for the 1994 musical film 'Brave'?",
+        "answers": [
+            "c"
+        ]
+    },
+    {
+        "query_id": "qa_91_7964",
+        "question": "Who were the writers of the movie Planes?",
+        "answers": [
+            "Klay Hall and John Lasseter"
+        ]
+    },
+    {
+        "query_id": "qa_91_5741",
+        "question": "What Japanese hardcore band formed in Sendai and played in other cities like Tokyo and Osaka?",
+        "answers": [
+            "Strength"
+        ]
+    },
+    {
+        "query_id": "qa_91_2380",
+        "question": "What genre is the 2011 film Last Will?",
+        "answers": [
+            "Mystery drama"
+        ]
+    },
+    {
+        "query_id": "qa_91_8251",
+        "question": "Who was the frontman of the Buckaroos during their peak of success in the 1960s and early 1970s?",
+        "answers": [
+            "Buck Owens"
+        ]
+    },
+    {
+        "query_id": "qa_91_4134",
+        "question": "Who was the singer for the Attack and when did they form the band?",
+        "answers": [
+            "Richard Shirman (1966)"
+        ]
+    },
+    {
+        "query_id": "qa_91_5223",
+        "question": "Which CSI spin-off series ran for ten seasons and was canceled in 2012?",
+        "answers": [
+            "CSI: Miami ran for 10 seasons and was canceled in 2012."
+        ]
+    },
+    {
+        "query_id": "qa_91_4493",
+        "question": "Who replaced the founding member of Tool in 1995?",
+        "answers": [
+            "Justin Chancellor."
+        ]
+    },
+    {
+        "query_id": "qa_91_7953",
+        "question": "According to biographer Jimmy McDonough, what did he say about the mix on the video release of this concert?",
+        "answers": [
+            "Superior mix, according to biographer Jimmy McDonough."
+        ]
+    },
+    {
+        "query_id": "qa_91_2145",
+        "question": "Which album by Alison Krauss & Union Station won the Grammy Award for Best Bluegrass Album in 2001?",
+        "answers": [
+            "New Favorite"
+        ]
+    },
+    {
+        "query_id": "qa_91_7896",
+        "question": "What is the one-letter abbreviation for 'Marillion'?",
+        "answers": [
+            "M"
+        ]
+    },
+    {
+        "query_id": "qa_91_1647",
+        "question": "Who starred in the erotic thriller movie Mercy?",
+        "answers": [
+            "Ellen Barkin"
+        ]
+    },
+    {
+        "query_id": "qa_91_1352",
+        "question": "When did Acid Pauli start performing?",
+        "answers": [
+            "Around the turn of the century"
+        ]
+    },
+    {
+        "query_id": "qa_91_248",
+        "question": "How many times has 'With or Without You' been covered by other artists?",
+        "answers": [
+            " 'With or Without You' is U2's second most frequently covered song."
+        ]
+    },
+    {
+        "query_id": "qa_91_4111",
+        "question": "What was the title of the title track from Jimmy Wayne Barber's second album?",
+        "answers": [
+            "\"Do You Believe Me Now\""
+        ]
+    },
+    {
+        "query_id": "qa_91_4723",
+        "question": "What is the name of Third Day's fan base?",
+        "answers": [
+            "Gomers."
+        ]
+    },
+    {
+        "query_id": "qa_91_7134",
+        "question": "When and where did The Great Outdoors air?",
+        "answers": [
+            "Wednesdays between 28 July and 12 August 2010 on BBC Four"
+        ]
+    },
+    {
+        "query_id": "qa_91_5242",
+        "question": "Who commissioned The New Spirit and for what purpose?",
+        "answers": [
+            "Henry Morgenthau Jr., then Sec. of Treasury, commissioned for tax encouragement in war effort."
+        ]
+    },
+    {
+        "query_id": "qa_91_512",
+        "question": "Is 'Tales of Maj'Eyal' available for free?",
+        "answers": [
+            "Donationware"
+        ]
+    },
+    {
+        "query_id": "qa_91_1349",
+        "question": "When was Console's debut album, Pan Or Ama, released?",
+        "answers": [
+            "1997"
+        ]
+    },
+    {
+        "query_id": "qa_91_7824",
+        "question": "In which grades do Nam and Chon attend school in First Love?",
+        "answers": [
+            "Nam (seventh-grade), Chon (tenth-grade)"
+        ]
+    },
+    {
+        "query_id": "qa_91_7197",
+        "question": "What is the stage name of Yu-hyang Park, the Japanese-born Korean R&B singer?",
+        "answers": [
+            "Shion (\u8a69\u97f3)"
+        ]
+    },
+    {
+        "query_id": "qa_91_4918",
+        "question": "Who collaborated with Jessie J on her album 'Alive'?",
+        "answers": [
+            "Becky G, Brandy Norwood, Big Sean, and Dizzee Rascal"
+        ]
+    },
+    {
+        "query_id": "qa_91_5687",
+        "question": "Who produced this movie?",
+        "answers": [
+            "Robert L. Lippert"
+        ]
+    },
+    {
+        "query_id": "qa_91_7943",
+        "question": "What was the initial release name of 'Weld'?",
+        "answers": [
+            "Arc-Weld"
+        ]
+    },
+    {
+        "query_id": "qa_91_7508",
+        "question": "What was the name of the Checks' third album?",
+        "answers": [
+            "Deadly Summer Sway"
+        ]
+    },
+    {
+        "query_id": "qa_91_5429",
+        "question": "In what year was 'The Art of the Steal' released?",
+        "answers": [
+            "2013"
+        ]
+    },
+    {
+        "query_id": "qa_91_1752",
+        "question": "In which month was Steps' third compilation album, 'Platinum Collection', released?",
+        "answers": [
+            "August 2022"
+        ]
+    },
+    {
+        "query_id": "qa_91_5866",
+        "question": "How closely did Nintendo and n-Space collaborate on the project?",
+        "answers": [
+            "Closely"
+        ]
+    },
+    {
+        "query_id": "qa_91_1000",
+        "question": "What is the name of the American country music duo who sang 'Grandpa (Tell Me 'Bout the Good Old Days)' in 1986?",
+        "answers": [
+            "The Judds"
+        ]
+    },
+    {
+        "query_id": "qa_91_797",
+        "question": "Who were the creators of The Matrix, the 1999 science fiction action film?",
+        "answers": [
+            "The Wachowskis"
+        ]
+    },
+    {
+        "query_id": "qa_91_4643",
+        "question": "What instruments does Still Life, the English progressive rock band known for their intricate vocal harmonies, utilize?",
+        "answers": [
+            "Hammond organ"
+        ]
+    },
+    {
+        "query_id": "qa_91_8252",
+        "question": "What musical style did Buck Owens and Merle Haggard's bands contribute to during the 1960s and early 1970s?",
+        "answers": [
+            "Bakersfield sound"
+        ]
+    },
+    {
+        "query_id": "qa_91_2692",
+        "question": "Who are the other characters Makoto meets on the island?",
+        "answers": [
+            "The other characters Makoto meets on the island are three people."
+        ]
+    },
+    {
+        "query_id": "qa_91_7874",
+        "question": "Who published Dead or Alive 5 Last Round?",
+        "answers": [
+            "Koei Tecmo"
+        ]
+    },
+    {
+        "query_id": "qa_91_1368",
+        "question": "Where is the band Lynk currently based?",
+        "answers": [
+            "Adelaide, South Australia"
+        ]
+    },
+    {
+        "query_id": "qa_91_6805",
+        "question": "Who is Taeyang, and what group is he a member of?",
+        "answers": [
+            "Taeyang, member of Big Bang"
+        ]
+    },
+    {
+        "query_id": "qa_91_2229",
+        "question": "What is the title of the EP by Karmin?",
+        "answers": [
+            "\"Hello\""
+        ]
+    },
+    {
+        "query_id": "qa_91_8016",
+        "question": "What band did MacKaye form in 1987?",
+        "answers": [
+            "Fugazi"
+        ]
+    },
+    {
+        "query_id": "qa_91_2318",
+        "question": "In what years did the Bob sitcom air on CBS?",
+        "answers": [
+            "1992-1993"
+        ]
+    },
+    {
+        "query_id": "qa_91_6735",
+        "question": "Which network aired the American sitcom television series 'Working' from October 8, 1997 to January 25, 1999?",
+        "answers": [
+            "NBC"
+        ]
+    },
+    {
+        "query_id": "qa_91_3691",
+        "question": "Who did Monica Kristina Ingeborg T\u00f6rnell represent in the Eurovision Song Contest in 1986?",
+        "answers": [
+            "Monica Kristina Ingeborg T\u00f6rnell represented Sweden in the Eurovision Song Contest in 1986, along with Lasse Holm."
+        ]
+    },
+    {
+        "query_id": "qa_91_7390",
+        "question": "Q8: Who is George Monbiot?",
+        "answers": [
+            "A8: George Monbiot is... (provide a brief description or role)"
+        ]
+    },
+    {
+        "query_id": "qa_91_1507",
+        "question": "What is the title of the 1941 American romantic comedy film directed by Curtis Bernhardt starring Priscilla Lane, Jeffrey Lynn, and Ronald Reagan, with May Robson and Lee Patrick?",
+        "answers": [
+            "Million Dollar Baby"
+        ]
+    },
+    {
+        "query_id": "qa_91_7646",
+        "question": "Who wrote the full series?",
+        "answers": [
+            "Overman, Matt Jones, Jamie Mathieson"
+        ]
+    },
+    {
+        "query_id": "qa_91_2431",
+        "question": "Who was responsible for the design, programming, and sound in Chariot Race?",
+        "answers": [
+            "PH"
+        ]
+    },
+    {
+        "query_id": "qa_91_5502",
+        "question": "When was Maximiano de Sousa born?",
+        "answers": [
+            "Maximiano de Sousa was born on January 20, 1918, in Funchal, Madeira."
+        ]
+    },
+    {
+        "query_id": "qa_91_5489",
+        "question": "In what countries does the story of The Magician's Apprentice take place?",
+        "answers": [
+            "Kyralia and Sachaka"
+        ]
+    },
+    {
+        "query_id": "qa_91_4155",
+        "question": "Q4: Which album does Fantasy belong to?",
+        "answers": [
+            "A4: Fantasy belongs to the album [name of the album]."
+        ]
+    },
+    {
+        "query_id": "qa_91_8094",
+        "question": "Who produced this jazz vocalist Betty Carter's bebop album?",
+        "answers": [
+            "Esmond Edwards"
+        ]
+    },
+    {
+        "query_id": "qa_91_1622",
+        "question": "What is Beck's full name?",
+        "answers": [
+            "Beck's full name is Beck David Hansen."
+        ]
+    },
+    {
+        "query_id": "qa_91_538",
+        "question": "In what other countries has the American gothic rock band from Columbus, Ohio, performed?",
+        "answers": [
+            "Europe, Mexico"
+        ]
+    },
+    {
+        "query_id": "qa_91_3070",
+        "question": "What book is Jimmy Smith selling in \"The Pest\"?",
+        "answers": [
+            "A copy of a book about Napoleon Bonaparte"
+        ]
+    },
+    {
+        "query_id": "qa_91_5558",
+        "question": "Who is Aliz\u00e9e Lyonnet, and what is her stage name?",
+        "answers": [
+            "Aliz\u00e9e Lyonnet (n\u00e9e Jacotey), known prol. As Aliz\u00e9e, is a French singer and dancer."
+        ]
+    },
+    {
+        "query_id": "qa_91_6343",
+        "question": "When and where was Silly founded? ",
+        "answers": [
+            "East Germany, 1977"
+        ]
+    },
+    {
+        "query_id": "qa_91_3821",
+        "question": "Where is the location of Compass within the North Avenue commercial zone?",
+        "answers": [
+            "Compass is located in the traffic median on the east side of the North Avenue Bridge within the North Avenue commercial zone."
+        ]
+    },
+    {
+        "query_id": "qa_91_4785",
+        "question": "What is the current reputation of the film 'Soldier'?",
+        "answers": [
+            "Cult film"
+        ]
+    },
+    {
+        "query_id": "qa_91_6433",
+        "question": "Who is the director of the movie Proof?",
+        "answers": [
+            "Jocelyn Moorhouse"
+        ]
+    },
+    {
+        "query_id": "qa_91_7773",
+        "question": "What is the origin of the band The Narrative?",
+        "answers": [
+            "The Narrative is a band from Long Island, New York."
+        ]
+    },
+    {
+        "query_id": "qa_91_2824",
+        "question": "Who photographed the film in 70 mm Todd-AO?",
+        "answers": [
+            "Ernest Laszlo"
+        ]
+    },
+    {
+        "query_id": "qa_91_6790",
+        "question": "Who composed the music for the British comedy road film 'Clockwise'?",
+        "answers": [
+            "Composer: George Fenton"
+        ]
+    },
+    {
+        "query_id": "qa_91_2209",
+        "question": "Where was Edward Lamson Henry born?",
+        "answers": [
+            "Charleston"
+        ]
+    },
+    {
+        "query_id": "qa_91_6746",
+        "question": "Who directed the remake of Either Way?",
+        "answers": [
+            "Answer: David Gordon Green"
+        ]
+    },
+    {
+        "query_id": "qa_91_805",
+        "question": "What is the title of the 1938 American musical comedy film Just Around the Corner?",
+        "answers": [
+            "Just Around the Corner (1938 film)"
+        ]
+    },
+    {
+        "query_id": "qa_91_4817",
+        "question": "Who is Foxy Brown, and what is her stage name?",
+        "answers": [
+            "Foxy Brown, known professionally as"
+        ]
+    },
+    {
+        "query_id": "qa_91_5191",
+        "question": "What is the name of the Scottish indie pop band composed of Steven Clark, John Clark, and Amanda MacKinnon?",
+        "answers": [
+            "Bis"
+        ]
+    },
+    {
+        "query_id": "qa_91_6673",
+        "question": "What genre is Analyze This?",
+        "answers": [
+            "mafia comedy"
+        ]
+    },
+    {
+        "query_id": "qa_91_6320",
+        "question": "What is the title of the P. D. James detective novel that is the seventh in her Adam Dalgliesh series and was published in 1977?",
+        "answers": [
+            "Death of an Expert Witness"
+        ]
+    },
+    {
+        "query_id": "qa_91_5695",
+        "question": "When was the short documentary film Point of View released?",
+        "answers": [
+            "Answer: 1965"
+        ]
+    },
+    {
+        "query_id": "qa_91_6944",
+        "question": "Who are the lead protagonists of the historical drama television series Rome?",
+        "answers": [
+            "The lead protagonists of the historical drama television series Rome are Lucius Vorenus and Titus Pullo."
+        ]
+    },
+    {
+        "query_id": "qa_91_5891",
+        "question": "What is The Cove and who directed it?",
+        "answers": [
+            "The Cove is a 2009 American documentary film directed by Louie Psihoyos that analyzes and questions dolphin hunting practices in Japan."
+        ]
+    },
+    {
+        "query_id": "qa_91_1245",
+        "question": "What is the title of Jackie Chan's 1983 Hong Kong martial arts action comedy film?",
+        "answers": [
+            "Answer: Jackie Chan's Project A"
+        ]
+    },
+    {
+        "query_id": "qa_91_1895",
+        "question": "What musical genres does 'Exposed' incorporate?",
+        "answers": [
+            "Pop and R&B"
+        ]
+    },
+    {
+        "query_id": "qa_91_8118",
+        "question": "What genre does the movie Cross fall under?",
+        "answers": [
+            "action fantasy"
+        ]
+    },
+    {
+        "query_id": "qa_91_1006",
+        "question": "Where has Hitomi Shimatani's music been featured?",
+        "answers": [
+            "Hitomi Shimatani's music has appeared in video games and TV shows."
+        ]
+    },
+    {
+        "query_id": "qa_91_7321",
+        "question": "Who are the songwriters of the Westlife song \"Evergreen\"?",
+        "answers": [
+            "J\u00f6rgen Elofsson, Per Magnusson and David Kreuger"
+        ]
+    },
+    {
+        "query_id": "qa_91_1653",
+        "question": "Who produced We Are Family?",
+        "answers": [
+            "Nile Rodgers and Bernard Edwards of Chic."
+        ]
+    },
+    {
+        "query_id": "qa_91_7224",
+        "question": "Which actors are featured in the supernatural drama film, The Awakening?",
+        "answers": [
+            "Dominic West, Isaac Hempstead-Wright, Imelda Staunton"
+        ]
+    },
+    {
+        "query_id": "qa_91_84",
+        "question": "What genre of music does Alejandro Fern\u00e1ndez Abarca specialize in?",
+        "answers": [
+            "Alejandro Fern\u00e1ndez Abarca specializes in traditional, earthy forms of Mexican folk, such as mariachi and charro."
+        ]
+    },
+    {
+        "query_id": "qa_91_6035",
+        "question": "In what locations did The Mentors, an American heavy metal band, originate and relocate?",
+        "answers": [
+            "Seattle, Washington (origin) and Los Angeles, California (relocation)."
+        ]
+    },
+    {
+        "query_id": "qa_91_7841",
+        "question": "Who is the main antagonist in the game being discussed?",
+        "answers": [
+            "High Inquisitor Mendoza"
+        ]
+    },
+    {
+        "query_id": "qa_91_2071",
+        "question": "What styles of music does BT create within?",
+        "answers": [
+            "BT creates music within myriad styles, such as classical, film composition, and bass music."
+        ]
+    },
+    {
+        "query_id": "qa_91_8162",
+        "question": "What specific topics related to MMORPGs does For the Win address?",
+        "answers": [
+            "Gold farming, power-leveling"
+        ]
+    },
+    {
+        "query_id": "qa_91_6162",
+        "question": "What band is Jean-Paul Gaster a part of?",
+        "answers": [
+            "Clutch"
+        ]
+    },
+    {
+        "query_id": "qa_91_3416",
+        "question": "Who are the main actors in \"The Paperboy\"?",
+        "answers": [
+            "Alexandra Paul, Marc Marut, William Katt"
+        ]
+    },
+    {
+        "query_id": "qa_91_3131",
+        "question": "What is the perspective in which GeneRally is played? ",
+        "answers": [
+            "Top-down"
+        ]
+    },
+    {
+        "query_id": "qa_91_2460",
+        "question": "In which season of Cilla's BBC TV variety show was 'Baby We Can't Go Wrong' used as the opening theme tune?",
+        "answers": [
+            "TV show: season 7"
+        ]
+    },
+    {
+        "query_id": "qa_91_2094",
+        "question": "Where did the movie 'I Lost My Heart in Heidelberg' premiere?",
+        "answers": [
+            "Heidelberg"
+        ]
+    },
+    {
+        "query_id": "qa_91_4036",
+        "question": "In which ranking did the show place in Britain's Best Sitcom?",
+        "answers": [
+            "9th"
+        ]
+    },
+    {
+        "query_id": "qa_91_2021",
+        "question": "When was an enhanced port of Secret of Mana released for iOS?",
+        "answers": [
+            "2010"
+        ]
+    },
+    {
+        "query_id": "qa_91_2913",
+        "question": "Q6: Who is the main character in Freedom Fighters?",
+        "answers": [
+            "Christopher Stone"
+        ]
+    },
+    {
+        "query_id": "qa_91_3861",
+        "question": "What is the title of the debut studio album by Norwegian black metal band 1349?",
+        "answers": [
+            "Liberation"
+        ]
+    },
+    {
+        "query_id": "qa_91_743",
+        "question": "What is SimTower: The Vertical Empire?",
+        "answers": [
+            "A construction and management simulation video game developed by OPeNBooK and released in 1994 for Microsoft Windows and Macintosh System 7."
+        ]
+    },
+    {
+        "query_id": "qa_91_5248",
+        "question": "What is the basis for the plot of the film Immortal?",
+        "answers": [
+            "La Foire aux immortels (The Carnival of Immortals)"
+        ]
+    },
+    {
+        "query_id": "qa_91_7700",
+        "question": "In what time period does the Borg threaten Earth in Star Trek: First Contact?",
+        "answers": [
+            "The Borg threaten Earth in the mid-21st century in Star Trek: First Contact."
+        ]
+    },
+    {
+        "query_id": "qa_91_3201",
+        "question": "What is the filename extension for Cabinet files?",
+        "answers": [
+            ".cab"
+        ]
+    },
+    {
+        "query_id": "qa_91_837",
+        "question": "Who ported Operation Sabotage to the IBM Personal Computer?",
+        "answers": [
+            "G"
+        ]
+    },
+    {
+        "query_id": "qa_91_2537",
+        "question": "What is 'Jesu, Joy of Man's Desiring'?",
+        "answers": [
+            "a composition"
+        ]
+    },
+    {
+        "query_id": "qa_91_3459",
+        "question": "Which subsidiary developed the Tales series until 2011?",
+        "answers": [
+            "Namco Tales Studio"
+        ]
+    },
+    {
+        "query_id": "qa_91_482",
+        "question": "Which Focus album contained their second hit single?",
+        "answers": [
+            "(Focus 3)"
+        ]
+    },
+    {
+        "query_id": "qa_91_6128",
+        "question": "How does the documentary 'Happy' examine human happiness?",
+        "answers": [
+            "Thru intvs w ppl fr all walks of life in 14 cntry."
+        ]
+    },
+    {
+        "query_id": "qa_91_7133",
+        "question": "How many episodes does The Great Outdoors have?",
+        "answers": [
+            "Three"
+        ]
+    },
+    {
+        "query_id": "qa_91_7761",
+        "question": "When did The Very Things disband?",
+        "answers": [
+            "1988"
+        ]
+    },
+    {
+        "query_id": "qa_91_7834",
+        "question": "In which year is the Swedish comedy-drama film Together set?",
+        "answers": [
+            "1975"
+        ]
+    },
+    {
+        "query_id": "qa_91_5762",
+        "question": "Where is Eating Out from?",
+        "answers": [
+            "US"
+        ]
+    },
+    {
+        "query_id": "qa_91_5383",
+        "question": "What is the meaning of Zeni Geva's name? ",
+        "answers": [
+            "\"Money violence\""
+        ]
+    },
+    {
+        "query_id": "qa_91_3645",
+        "question": "Who recruited actors, entertainers, musicians, and others for the FTA Show?",
+        "answers": [
+            "Jane Fonda recruited actors, entertainers, musicians, and others for the FTA Show."
+        ]
+    },
+    {
+        "query_id": "qa_91_4996",
+        "question": "In what year was the Kannada movie Dhruva released?",
+        "answers": [
+            "2002"
+        ]
+    },
+    {
+        "query_id": "qa_91_2045",
+        "question": "Who composed the music for 'Spring Is Here'?",
+        "answers": [
+            "Composers: Richard Rodgers and Lorenz Hart"
+        ]
+    },
+    {
+        "query_id": "qa_91_6606",
+        "question": "Which short story by Tanith Lee was her very first published work, and when was it originally issued?",
+        "answers": [
+            "Eustace (1968)"
+        ]
+    },
+    {
+        "query_id": "qa_91_3644",
+        "question": "Who was Howard Levy and why was he involved in the FTA Show?",
+        "answers": [
+            "Howard Levy was an ex-US Army doctor who had just been released from 26 months in Fort Leavenworth military prison for refusing orders to train Green Beret medics on their way to the Vietnam War and was involved in the FTA Show."
+        ]
+    },
+    {
+        "query_id": "qa_91_7845",
+        "question": "Where was My Body Sings Electric's album 'Changing Color' recorded?",
+        "answers": [
+            "Interlace Audio, Portland, Oregon"
+        ]
+    },
+    {
+        "query_id": "qa_91_3630",
+        "question": "Who wrote the screenplay for the movie?",
+        "answers": [
+            "Katie Wech"
+        ]
+    },
+    {
+        "query_id": "qa_91_5614",
+        "question": "Where does the protagonist live in Flightplan?",
+        "answers": [
+            "Berlin"
+        ]
+    },
+    {
+        "query_id": "qa_91_8198",
+        "question": "What year did Cosmic Baby release his final album in traditional Cosmic Baby style?",
+        "answers": [
+            "Answer: 1999"
+        ]
+    },
+    {
+        "query_id": "qa_91_7742",
+        "question": "What is the title of the American pre-Code comedy film released in 1931?",
+        "answers": [
+            "Our Wife (1931 film)"
+        ]
+    },
+    {
+        "query_id": "qa_91_4290",
+        "question": "Which record label released Fahrenheit First Self-Titled Album?",
+        "answers": [
+            "HIM"
+        ]
+    },
+    {
+        "query_id": "qa_91_6937",
+        "question": "Which country is the origin of the American sex comedy film So Fine?",
+        "answers": [
+            "America"
+        ]
+    },
+    {
+        "query_id": "qa_91_3276",
+        "question": "Which popular sitcoms on NBC in the 1980s and early 1990s featured predominantly black casts, including Amen?",
+        "answers": [
+            "The Cosby Show, A Different World, The Fresh Prince of Bel-Air, and 227 (other popular sitcoms on NBC in the 1980s and early 1990s featuring predominantly black casts)"
+        ]
+    },
+    {
+        "query_id": "qa_91_6200",
+        "question": "Who developed Junction (\u30b8\u30e3\u30f3\u30af\u30b7\u30e7\u30f3) in 1990?",
+        "answers": [
+            "Micronet developed Junction (\u30b8\u30e3\u30f3\u30af\u30b7\u30e7\u30f3) in 1990 under license by Konami."
+        ]
+    },
+    {
+        "query_id": "qa_91_4848",
+        "question": "What organization in Philadelphia is dedicated to integrating public art and urban planning?",
+        "answers": [
+            "APA, formerly Fairmount Park Art Association"
+        ]
+    },
+    {
+        "query_id": "qa_91_767",
+        "question": "What is the title of the fourth story in Oscar Wilde's collection?",
+        "answers": [
+            "The Devoted Friend"
+        ]
+    },
+    {
+        "query_id": "qa_91_8087",
+        "question": "Souls: What are the parasitic aliens called in the movie 'The Host'",
+        "answers": [
+            "Souls."
+        ]
+    },
+    {
+        "query_id": "qa_91_4415",
+        "question": "Who was the singer of Surgery?",
+        "answers": [
+            "Sean McDonnell"
+        ]
+    },
+    {
+        "query_id": "qa_91_1877",
+        "question": "Who adapted Grease for the screen?",
+        "answers": [
+            "Allan Carr"
+        ]
+    },
+    {
+        "query_id": "qa_91_6158",
+        "question": "In what year did the documentary film about the United States Congress, directed by Ken Burns and produced by Florentine Films, air on PBS?",
+        "answers": [
+            "1989"
+        ]
+    },
+    {
+        "query_id": "qa_91_5991",
+        "question": "How many generations did the documentary film Legacy follow?",
+        "answers": [
+            "3"
+        ]
+    },
+    {
+        "query_id": "qa_91_622",
+        "question": "What English rock band released an album called 'Pulse' in 1995?",
+        "answers": [
+            "The English rock band Pink Floyd released an album called 'Pulse' in 1995."
+        ]
+    },
+    {
+        "query_id": "qa_91_7462",
+        "question": "Who was part of the Canadian foster family that helped Lesra Martin?",
+        "answers": [
+            "Unspecified"
+        ]
+    },
+    {
+        "query_id": "qa_91_3713",
+        "question": "Who were some of the prominent jazz musicians that Prestige Records recorded?",
+        "answers": [
+            "Answer: Leading jazz musicians"
+        ]
+    },
+    {
+        "query_id": "qa_91_5609",
+        "question": "Who are the antagonists in the movie Shaolin Temple a.k.a. Death Chamber?",
+        "answers": [
+            "The Qings"
+        ]
+    },
+    {
+        "query_id": "qa_91_6090",
+        "question": "When was William B. Lawsha, also known as Prince Lasha, born and when did he die?",
+        "answers": [
+            "9/10/29-12/12/08"
+        ]
+    },
+    {
+        "query_id": "qa_91_6933",
+        "question": "What genres does the novel 'Fire' fall under?",
+        "answers": [
+            "apocalyptic science fiction/horror"
+        ]
+    },
+    {
+        "query_id": "qa_91_3729",
+        "question": "In what genre is the short story 'Deep End' by J. G. Ballard classified?",
+        "answers": [
+            "Dystopian science fiction"
+        ]
+    },
+    {
+        "query_id": "qa_91_1628",
+        "question": "In what year was Beck nominated for the Rock & Roll Hall of Fame?",
+        "answers": [
+            "2022"
+        ]
+    },
+    {
+        "query_id": "qa_91_5241",
+        "question": "What is The New Spirit?",
+        "answers": [
+            "1942 Disney wartime propaganda film commissioned by Treasury Sec. Morgenthau to encourage tax payment."
+        ]
+    },
+    {
+        "query_id": "qa_91_10",
+        "question": "Who is Tharg the Mighty or The Mighty One?",
+        "answers": [
+            "Tharg the Mighty/The Mighty One"
+        ]
+    },
+    {
+        "query_id": "qa_91_7552",
+        "question": "What makes Rise unique among female Jpop groups?",
+        "answers": [
+            "First dome tour"
+        ]
+    },
+    {
+        "query_id": "qa_91_3678",
+        "question": "What is the English title of the documentary film produced in Taiwan in 2004?",
+        "answers": [
+            "Let It Be"
+        ]
+    },
+    {
+        "query_id": "qa_91_6210",
+        "question": "Who is the popular singer featured in the 1964 romantic musical-comedy film Looking for Love?",
+        "answers": [
+            "Connie Francis"
+        ]
+    },
+    {
+        "query_id": "qa_91_1242",
+        "question": "What company does Google represent in The Internship?",
+        "answers": [
+            "Google"
+        ]
+    },
+    {
+        "query_id": "qa_91_6882",
+        "question": "When did 'Do Over' air on TV?",
+        "answers": [
+            "Sep. 19, 2002 - Dec. 5, 2002"
+        ]
+    },
+    {
+        "query_id": "qa_91_517",
+        "question": "What platforms was the digital version of Rain released on?",
+        "answers": [
+            "PlayStation Network (all regions)"
+        ]
+    },
+    {
+        "query_id": "qa_91_6512",
+        "question": "Which record label released Stronger?",
+        "answers": [
+            "A: RCA Records"
+        ]
+    },
+    {
+        "query_id": "qa_91_4997",
+        "question": "Wars series: Can you provide a brief description of the Wars series?",
+        "answers": [
+            "Tactical turn-based strategy games by Intelligent Systems, pub. By Nintendo."
+        ]
+    },
+    {
+        "query_id": "qa_91_8102",
+        "question": "What is the name of the main location in Between God, the Devil and a Winchester?",
+        "answers": [
+            "Winchester"
+        ]
+    },
+    {
+        "query_id": "qa_91_6700",
+        "question": "In what year was the 1943 movie adaptation of 'The Phantom of the Opera' released?",
+        "answers": [
+            "1943"
+        ]
+    },
+    {
+        "query_id": "qa_91_7173",
+        "question": "Who is the lead actress in 'Good Times'?",
+        "answers": [
+            "C"
+        ]
+    },
+    {
+        "query_id": "qa_91_8050",
+        "question": "What scenes was Up Front a part of in the late 1980s?",
+        "answers": [
+            "NYC hardcore, CT straight edge"
+        ]
+    },
+    {
+        "query_id": "qa_91_4447",
+        "question": "What received critical acclaim from mainstream magazines?",
+        "answers": [
+            "Sanity Obscure"
+        ]
+    },
+    {
+        "query_id": "qa_91_7396",
+        "question": "In what year was 'The Fifth Wheel' released?",
+        "answers": [
+            "2013"
+        ]
+    },
+    {
+        "query_id": "qa_91_7766",
+        "question": "Who Alice Smith is?",
+        "answers": [
+            "Am. Singer-songwr, b. 1/7/46 Phld."
+        ]
+    },
+    {
+        "query_id": "qa_91_6059",
+        "question": "What other creatures has Godzilla had offspring with?",
+        "answers": [
+            "Godzilla Junior, Minilla"
+        ]
+    },
+    {
+        "query_id": "qa_91_7190",
+        "question": "What genre is S\u00fcperCan?",
+        "answers": [
+            "Action-adventure (third person)"
+        ]
+    },
+    {
+        "query_id": "qa_91_600",
+        "question": "Who directed the movie Faster?",
+        "answers": [
+            "George Tillman Jr."
+        ]
+    },
+    {
+        "query_id": "qa_91_558",
+        "question": "In what year was Wishcraft released?",
+        "answers": [
+            "Year: 2002"
+        ]
+    },
+    {
+        "query_id": "qa_91_2548",
+        "question": "Can you explain what Wired is?",
+        "answers": [
+            "Wired is a biographical film about John Belushi."
+        ]
+    },
+    {
+        "query_id": "qa_91_5764",
+        "question": "What is the subject matter of Eating Out?",
+        "answers": [
+            "Comedy with sexual themes"
+        ]
+    },
+    {
+        "query_id": "qa_91_178",
+        "question": "What is Just Dance 4?",
+        "answers": [
+            "Just Dance 4"
+        ]
+    },
+    {
+        "query_id": "qa_91_7608",
+        "question": "Who is the artist that sings 'All Over Me'?",
+        "answers": [
+            "Josh Turner"
+        ]
+    },
+    {
+        "query_id": "qa_91_1697",
+        "question": "Who replaced Geoff Reading as the drummer for Loaded?",
+        "answers": [
+            "Isaac Carpenter"
+        ]
+    },
+    {
+        "query_id": "qa_91_2343",
+        "question": "Has 'Something Near' ever been reprinted?",
+        "answers": [
+            "never"
+        ]
+    },
+    {
+        "query_id": "qa_91_3970",
+        "question": "How does the time-traveling nature of the plot work in Doctor Who?",
+        "answers": [
+            "Different incarnations meet"
+        ]
+    },
+    {
+        "query_id": "qa_91_3888",
+        "question": "What are the names of the two Grammy-winning singles released by the band?",
+        "answers": [
+            "\"Hey Baby\", \"Underneath It All\""
+        ]
+    },
+    {
+        "query_id": "qa_91_1749",
+        "question": "Who departed from Steps to form a recording duo?",
+        "answers": [
+            "Claire Richards and Ian 'H' Watkins."
+        ]
+    },
+    {
+        "query_id": "qa_91_7954",
+        "question": "What is the title of the 1959 science fiction novel by Mordecai Roshwald?",
+        "answers": [
+            "Title: Level 7"
+        ]
+    },
+    {
+        "query_id": "qa_91_2758",
+        "question": "What award did Whitney win at the 30th Grammy Awards?",
+        "answers": [
+            "Best Pop Vocal Performance, Female"
+        ]
+    },
+    {
+        "query_id": "qa_91_5816",
+        "question": "Who were the main characters of Dallas?",
+        "answers": [
+            "J.R., Miss Ellie, Jock."
+        ]
+    },
+    {
+        "query_id": "qa_91_1287",
+        "question": "Which labels released this album in the UK and the US, respectively?",
+        "answers": [
+            "Polydor (UK); MCA (US)"
+        ]
+    },
+    {
+        "query_id": "qa_91_4187",
+        "question": "What score did The Times give Equation's first album?",
+        "answers": [
+            "The Times gave Equation's first album a score of 7/10."
+        ]
+    },
+    {
+        "query_id": "qa_91_3264",
+        "question": "Who directed the film Amici miei \u2013 Atto III?",
+        "answers": [
+            "Nanni Loy"
+        ]
+    },
+    {
+        "query_id": "qa_91_4911",
+        "question": "When did Leroy Eliot 'Slam' Stewart pass away?",
+        "answers": [
+            "Dec. 10, 1987"
+        ]
+    },
+    {
+        "query_id": "qa_91_720",
+        "question": "When did a demo of 'Part of Me' leak online?",
+        "answers": [
+            "Late 2010"
+        ]
+    },
+    {
+        "query_id": "qa_91_6305",
+        "question": "Who wrote and directed Poison (1991)?",
+        "answers": [
+            "Todd Haynes"
+        ]
+    },
+    {
+        "query_id": "qa_91_679",
+        "question": "What game is Bangai-O Spirits?",
+        "answers": [
+            "Bangai-O Spirits is a shoot 'em up game for the Nintendo DS."
+        ]
+    },
+    {
+        "query_id": "qa_91_5351",
+        "question": "What age group is Half Bad targeted towards?",
+        "answers": [
+            "Young adults"
+        ]
+    },
+    {
+        "query_id": "qa_91_6065",
+        "question": "What style of music does Ignite create, and is it socially or politically aware?",
+        "answers": [
+            "Much of Ignite's music is socially and politically aware, and the style of music they create is melodic hardcore."
+        ]
+    },
+    {
+        "query_id": "qa_91_3160",
+        "question": "What is Danny Ray's occupation?",
+        "answers": [
+            "Danny Ray is a reggae singer and record producer."
+        ]
+    },
+    {
+        "query_id": "qa_91_5803",
+        "question": "Which media used 'Hero' as its theme song?",
+        "answers": [
+            "Shueisha's manga magazine Aoharu (a special edition version of Young Jump)"
+        ]
+    },
+    {
+        "query_id": "qa_91_1821",
+        "question": "When was 'First Love' written and published?",
+        "answers": [
+            "Written in 1946 and published in its original French version in 1970 and, in Beckett's English translation, in 1973."
+        ]
+    },
+    {
+        "query_id": "qa_91_6099",
+        "question": "Who starred in the 1967 American Western film Rough Night in Jericho?",
+        "answers": [
+            "DM"
+        ]
+    },
+    {
+        "query_id": "qa_91_2518",
+        "question": "Which album did The Take release in 2002?",
+        "answers": [
+            "Propeller (2002)"
+        ]
+    },
+    {
+        "query_id": "qa_91_8196",
+        "question": "How many full-length albums does Cosmic Baby have, and which one is 'Heaven'?",
+        "answers": [
+            "Answer: Fourth (full-length); 'Heaven'"
+        ]
+    },
+    {
+        "query_id": "qa_91_3603",
+        "question": "What genre of music is described for Ayumi Hamasaki's song 'Vogue'?",
+        "answers": [
+            "Genre: Japanese pop w/ Latin pop"
+        ]
+    },
+    {
+        "query_id": "qa_91_707",
+        "question": "What is the name of the 1956 jazz album by Clifford Brown?",
+        "answers": [
+            "Memorial"
+        ]
+    },
+    {
+        "query_id": "qa_91_7634",
+        "question": "Who sings the lead vocals in the song 'Gigantic'?",
+        "answers": [
+            "Kim Deal"
+        ]
+    },
+    {
+        "query_id": "qa_91_501",
+        "question": "Who produced the series ALF?",
+        "answers": [
+            "Alien Productions produced ALF."
+        ]
+    },
+    {
+        "query_id": "qa_91_6502",
+        "question": "When was Ayumi Hamasaki's fourth extended play & released?",
+        "answers": [
+            "b"
+        ]
+    },
+    {
+        "query_id": "qa_91_227",
+        "question": "On which television network did Me and My Friend air?",
+        "answers": [
+            "RT\u00c9 Television"
+        ]
+    },
+    {
+        "query_id": "qa_91_7207",
+        "question": "What type of compositions was Jaroslav Koci\u00e1n known for creating?",
+        "answers": [
+            "Violin compositions"
+        ]
+    },
+    {
+        "query_id": "qa_91_6609",
+        "question": "When was Volume Two of Tanith Lee's 'Tempting The Gods' collection released?",
+        "answers": [
+            "December 2009"
+        ]
+    },
+    {
+        "query_id": "qa_91_4672",
+        "question": "Who are some notable members of Man (also known as The Manband)?",
+        "answers": [
+            "Some notable members of Man (also known as The Manband) include Martin Ace (guitar and bass), Terry Williams (drums), and Phil Ryan (keyboards)."
+        ]
+    },
+    {
+        "query_id": "qa_91_5278",
+        "question": "What is a notable painting by Jacob Henricus Maris?",
+        "answers": [
+            "Ship on the Scheveningen beach"
+        ]
+    },
+    {
+        "query_id": "qa_91_1512",
+        "question": "What kind of jobs did Paris Hilton and Nicole Richie do on The Simple Life?",
+        "answers": [
+            "Menial, low-paying jobs"
+        ]
+    },
+    {
+        "query_id": "qa_91_1448",
+        "question": "How did Bush release their album, and in which countries was it released?",
+        "answers": [
+            "Released eponymous album on RCA (Canada) & Dunhill (US) in '70'"
+        ]
+    },
+    {
+        "query_id": "qa_91_3764",
+        "question": "What year was FM formed in Toronto?",
+        "answers": [
+            "1976"
+        ]
+    },
+    {
+        "query_id": "qa_91_3274",
+        "question": "Which network aired Amen from 1986 to 1991?",
+        "answers": [
+            "NBC (1986-1991)"
+        ]
+    },
+    {
+        "query_id": "qa_91_8181",
+        "question": "Who is the fictional band member responsible for vocals and keyboards in Gorillaz?",
+        "answers": [
+            "2-D (fictional band member, vocals, keyboards)"
+        ]
+    },
+    {
+        "query_id": "qa_91_8018",
+        "question": "What is the name of Muddy Waters' double compilation album released in 2001?",
+        "answers": [
+            "The Anthology: 1947\u20131972"
+        ]
+    },
+    {
+        "query_id": "qa_91_6190",
+        "question": "What does'may refer to' signify in this text?",
+        "answers": [
+            "Refers to multiple possibilities"
+        ]
+    },
+    {
+        "query_id": "qa_91_4124",
+        "question": "How much did 'Your Computer' cost when it first came out?",
+        "answers": [
+            "$2.00"
+        ]
+    },
+    {
+        "query_id": "qa_91_7030",
+        "question": "What is the original German film that Adorable is a remake of?",
+        "answers": [
+            "Her Grace Commands"
+        ]
+    },
+    {
+        "query_id": "qa_91_7479",
+        "question": "What is the title of the 1989 body horror comedy film directed by Brian Yuzna? ",
+        "answers": [
+            "Society"
+        ]
+    },
+    {
+        "query_id": "qa_91_3360",
+        "question": "What type of cancer did Neil Peart, the drummer of Rush, die from in 2020?",
+        "answers": [
+            "Glioblastoma"
+        ]
+    },
+    {
+        "query_id": "qa_91_7706",
+        "question": "What aspects of Star Trek: First Contact received praise during critical reception?",
+        "answers": [
+            "N/A"
+        ]
+    },
+    {
+        "query_id": "qa_91_5271",
+        "question": "What awards did 'The Others' win?",
+        "answers": [
+            "Goya (Best Film, Dir, Scr), Saturn (Horror, Act, Supp Act), BAFTA (Actress, Scr) noms"
+        ]
+    },
+    {
+        "query_id": "qa_91_6279",
+        "question": "Where does D\u00fcrrenmatt's student find himself in the beginning of the story?",
+        "answers": [
+            " D\u00fcrrenmatt's student is aboard a train in 'The Tunnel'"
+        ]
+    },
+    {
+        "query_id": "qa_91_3791",
+        "question": "Who appears on the songs 'North Star' and 'Feelin' Good' on Faithless' sixth studio album?",
+        "answers": [
+            "Dido"
+        ]
+    },
+    {
+        "query_id": "qa_91_344",
+        "question": "What is the name of the starship featured in Ark?",
+        "answers": [
+            "Answer: Ark One."
+        ]
+    },
+    {
+        "query_id": "qa_91_2696",
+        "question": "What year was the thriller film On the Inside released?",
+        "answers": [
+            "2012"
+        ]
+    },
+    {
+        "query_id": "qa_91_5500",
+        "question": "Who directed and wrote the documentary film Motherland?",
+        "answers": [
+            "Owen 'Alik Shahadah"
+        ]
+    },
+    {
+        "query_id": "qa_91_2134",
+        "question": "In what year was the film 'The Bad One' released?",
+        "answers": [
+            "1930"
+        ]
+    },
+    {
+        "query_id": "qa_91_2539",
+        "question": "What is the Atlanta Symphony Orchestra?",
+        "answers": [
+            "The Atlanta Symphony Orchestra is an American orchestra based in Atlanta, Georgia."
+        ]
+    },
+    {
+        "query_id": "qa_91_6620",
+        "question": "Who is the notable collaborator featured on three tracks of the album \"Pictures\", including the single \"First Day\"?",
+        "answers": [
+            "Brian Molko (Placebo)"
+        ]
+    },
+    {
+        "query_id": "qa_91_7301",
+        "question": "Who is the inspiration for the 1982 American supernatural horror film directed by Sidney J. Furie?",
+        "answers": [
+            "Doris Bither"
+        ]
+    },
+    {
+        "query_id": "qa_91_6644",
+        "question": "Who played the role of George Jung in the movie Blow?",
+        "answers": [
+            "Johnny Depp"
+        ]
+    },
+    {
+        "query_id": "qa_91_3919",
+        "question": "Who produced Love Story, the 1970 romantic drama movie starring Ali MacGraw and Ryan O'Neal?",
+        "answers": [
+            "Howard G. Minsky"
+        ]
+    },
+    {
+        "query_id": "qa_91_4104",
+        "question": "Where did Dominatrix originate from?",
+        "answers": [
+            "New York City"
+        ]
+    },
+    {
+        "query_id": "qa_91_238",
+        "question": "What is the name of the American jazz, soul, and funk musician born on December 28, 1940?",
+        "answers": [
+            "Lonnie Liston Smith Jr."
+        ]
+    },
+    {
+        "query_id": "qa_91_8149",
+        "question": "In what year was the 1948 adaptation of John Galsworthy's play released?",
+        "answers": [
+            "1948"
+        ]
+    },
+    {
+        "query_id": "qa_91_3043",
+        "question": "Where did the group Hotel form in 1973?",
+        "answers": [
+            "Birmingham, AL"
+        ]
+    },
+    {
+        "query_id": "qa_91_5112",
+        "question": "Can you tell me the name of the author who wrote the novel 'The Missing' is based on?",
+        "answers": [
+            "Thomas Eidson"
+        ]
+    },
+    {
+        "query_id": "qa_91_1444",
+        "question": "Who is The Cleftones?",
+        "answers": [
+            "Male vocal group"
+        ]
+    },
+    {
+        "query_id": "qa_91_7429",
+        "question": "How does the planet Minerva in 'A World of Difference' compare to Earth in terms of size and makeup?",
+        "answers": [
+            "Similar"
+        ]
+    },
+    {
+        "query_id": "qa_91_5935",
+        "question": "Where was Sugar filmed?",
+        "answers": [
+            "Toronto"
+        ]
+    },
+    {
+        "query_id": "qa_91_1274",
+        "question": "What is the title of the movie 'Pioneer'?",
+        "answers": [
+            "Pioneer"
+        ]
+    },
+    {
+        "query_id": "qa_91_3437",
+        "question": "Who helps the main character reach his guru status among her socialite New York City friends in the movie 'The Guru'?",
+        "answers": [
+            "Marisa Tomei"
+        ]
+    },
+    {
+        "query_id": "qa_91_4784",
+        "question": "What was the production budget for the film 'Soldier'?",
+        "answers": [
+            "$60 million"
+        ]
+    },
+    {
+        "query_id": "qa_91_718",
+        "question": "What is the name of the song released as the lead single from Teenage Dream: The Complete Confection?",
+        "answers": [
+            "\"Part of Me\""
+        ]
+    },
+    {
+        "query_id": "qa_91_4969",
+        "question": "What is the name of the successful gay pornographic film series with 12 productions directed by Collin O'Neal?",
+        "answers": [
+            "World of Men"
+        ]
+    },
+    {
+        "query_id": "qa_91_3503",
+        "question": "In what year was Automatic 7's latest album, At Funeral Speed, released?",
+        "answers": [
+            "2007"
+        ]
+    },
+    {
+        "query_id": "qa_91_1311",
+        "question": "What type of music does the band The Freeze create?",
+        "answers": [
+            "Punk rock"
+        ]
+    },
+    {
+        "query_id": "qa_91_2133",
+        "question": "What is the title of the 1930 American Pre-Code film starring Dolores del R\u00edo, Edmund Lowe, and Boris Karloff?",
+        "answers": [
+            "The Bad One"
+        ]
+    },
+    {
+        "query_id": "qa_91_4919",
+        "question": "Which record labels released Jessie J's album 'Alive'?",
+        "answers": [
+            "Lava Music and Universal Republic"
+        ]
+    },
+    {
+        "query_id": "qa_91_313",
+        "question": "Who portrayed Joanna in the movie 'A Love Story'?",
+        "answers": [
+            "Maricel Soriano"
+        ]
+    },
+    {
+        "query_id": "qa_91_5640",
+        "question": "What was the chart position of 'You're the One for Me' on the soul singles chart in 1981?",
+        "answers": [
+            "13"
+        ]
+    },
+    {
+        "query_id": "qa_91_7901",
+        "question": "In what year was Something Wicked This Way Comes published?",
+        "answers": [
+            "1962"
+        ]
+    },
+    {
+        "query_id": "qa_91_1396",
+        "question": "Who did Discount tour with in the United States in 1998?",
+        "answers": [
+            "As Friends Rust, Dillinger Four"
+        ]
+    },
+    {
+        "query_id": "qa_91_1905",
+        "question": "How many copies did the deluxe edition sell in its first week?",
+        "answers": [
+            "1,000"
+        ]
+    },
+    {
+        "query_id": "qa_91_3733",
+        "question": "What record label did Ola release his third studio album on?",
+        "answers": [
+            "Oliniho Records"
+        ]
+    },
+    {
+        "query_id": "qa_91_4580",
+        "question": "Where is the Russian rock band 7B based?",
+        "answers": [
+            "Moscow"
+        ]
+    },
+    {
+        "query_id": "qa_91_5144",
+        "question": "When did a preview episode of this TV show air?",
+        "answers": [
+            "August 8, 2012"
+        ]
+    },
+    {
+        "query_id": "qa_91_2608",
+        "question": "How many studio albums has Kevin Fowler released?",
+        "answers": [
+            "5"
+        ]
+    },
+    {
+        "query_id": "qa_91_7794",
+        "question": "What is the name of the Malayalam movie starring Prithviraj Sukumaran, Navya Nair, Zarina Wahab, Mukesh, Jagathy Sreekumar, and Maniyanpilla Raju and was released in 2009?",
+        "answers": [
+            "Calendar"
+        ]
+    },
+    {
+        "query_id": "qa_91_7963",
+        "question": "Who played the roles of Ripslinger and Skipper Riley in the movie Planes?",
+        "answers": [
+            "Roger Craig Smith and Stacy Keach"
+        ]
+    },
+    {
+        "query_id": "qa_91_3773",
+        "question": "Where is the majority of the movie Tank set?",
+        "answers": [
+            "Georgia"
+        ]
+    },
+    {
+        "query_id": "qa_91_1709",
+        "question": "What does the phrase \"harsh reality\" suggest about the experiences of the main character in the novel \"A Painted House\"?",
+        "answers": [
+            "Experiences"
+        ]
+    },
+    {
+        "query_id": "qa_91_4081",
+        "question": "What was the format and release date of the first mass market edition of Bloom?",
+        "answers": [
+            "1st MM: 8/99"
+        ]
+    },
+    {
+        "query_id": "qa_91_2473",
+        "question": "What is the name of the second album by Markus Schulz, released in 2007?",
+        "answers": [
+            "P"
+        ]
+    },
+    {
+        "query_id": "qa_91_4216",
+        "question": "Who are the lead actors in the movie A Moment in Time?",
+        "answers": [
+            "Coco Martin and Julia Montes"
+        ]
+    },
+    {
+        "query_id": "qa_91_8013",
+        "question": "Where did Embrace play their first show?",
+        "answers": [
+            "Food for Thought in Washington, D.C.'s Dupont Circle"
+        ]
+    },
+    {
+        "query_id": "qa_91_6837",
+        "question": "In what years did Stray serve as the support band for Iron Maiden's European tour?",
+        "answers": [
+            "2003-2004"
+        ]
+    },
+    {
+        "query_id": "qa_91_3428",
+        "question": "What are the supernatural powers of E\u00e4 described in The Silmarillion?",
+        "answers": [
+            "Valar and Maiar."
+        ]
+    },
+    {
+        "query_id": "qa_91_1221",
+        "question": "Who are the main cast members of the 1980 American horror movie The Children?",
+        "answers": [
+            "Martin Shakar, Gil Rogers, and Gale Garnett"
+        ]
+    },
+    {
+        "query_id": "qa_91_281",
+        "question": "How many series of Accused have been produced so far?",
+        "answers": [
+            "Two series"
+        ]
+    },
+    {
+        "query_id": "qa_91_999",
+        "question": "Who sang the song 'Grandpa (Tell Me 'Bout the Good Old Days)' in 1986?",
+        "answers": [
+            "The Judds"
+        ]
+    },
+    {
+        "query_id": "qa_91_4442",
+        "question": "Who signed Believer with Metal Blade Records?",
+        "answers": [
+            "Blabbermouth.net announced on November 18, 2008"
+        ]
+    },
+    {
+        "query_id": "qa_91_48",
+        "question": "Which hall of fame did Nine Inch Nails get inducted into in 2020?",
+        "answers": [
+            "Rock and Roll Hall of Fame"
+        ]
+    },
+    {
+        "query_id": "qa_91_5793",
+        "question": "What made David Byron, also known as David Garrick's, voice unique in Uriah Heep's music?",
+        "answers": [
+            "David Byron (David Garrick) possessed a powerful operatic voice."
+        ]
+    },
+    {
+        "query_id": "qa_91_5170",
+        "question": "Where did Chip grow up, in Tottenham, North London?",
+        "answers": [
+            "Tottenham, North London"
+        ]
+    },
+    {
+        "query_id": "qa_91_6971",
+        "question": "What does Black Dynamite set out to do in the movie?",
+        "answers": [
+            "avenge his brother's death"
+        ]
+    },
+    {
+        "query_id": "qa_91_57",
+        "question": "What is the name of the 2000 Nintendo 64 game developed by HAL Laboratory and published by Nintendo that features 3D computer graphics and follows Kirby's quest to reassemble a sacred crystal shattered by Dark Matter?",
+        "answers": [
+            "Kirby 64: The Crystal Shards"
+        ]
+    },
+    {
+        "query_id": "qa_91_2395",
+        "question": "Who starred in the movie Interval and produced it as well?",
+        "answers": [
+            "Merle Oberon"
+        ]
+    },
+    {
+        "query_id": "qa_91_531",
+        "question": "What genre is the science fiction novel 'No Man Friday' (also known as 'First on Mars') by Rex Gordon (Stanley Bennett Hough)?",
+        "answers": [
+            "Answer: Science fiction"
+        ]
+    },
+    {
+        "query_id": "qa_91_6074",
+        "question": "Who is the founder of Ministry?",
+        "answers": [
+            "Al Jourgensen"
+        ]
+    },
+    {
+        "query_id": "qa_91_2205",
+        "question": "Who was Edward Lamson Henry?",
+        "answers": [
+            "Henry, E.L."
+        ]
+    },
+    {
+        "query_id": "qa_91_7280",
+        "question": "Who published GT Advance Championship Racing in North America and Europe?",
+        "answers": [
+            "THQ published GT Advance Championship Racing in North America and Europe."
+        ]
+    },
+    {
+        "query_id": "qa_91_6866",
+        "question": "What is the title of the movie?",
+        "answers": [
+            "Fear"
+        ]
+    },
+    {
+        "query_id": "qa_91_4842",
+        "question": "Who wrote the song 'The Gift'?",
+        "answers": [
+            "Nancy Montgomery"
+        ]
+    },
+    {
+        "query_id": "qa_91_7758",
+        "question": "What genre of music did The Very Things play?",
+        "answers": [
+            "Post-punk"
+        ]
+    },
+    {
+        "query_id": "qa_91_4849",
+        "question": "What activities does the Association for Public Art (aPA) engage in?",
+        "answers": [
+            "Commissions, preserves, promotes, interprets"
+        ]
+    },
+    {
+        "query_id": "qa_91_6362",
+        "question": "What was the profession of the main character in Bones?",
+        "answers": [
+            "numbers runner"
+        ]
+    },
+    {
+        "query_id": "qa_91_7968",
+        "question": "Where did Planes premiere?",
+        "answers": [
+            "The Fly-In Theater at EAA AirVenture Oshkosh"
+        ]
+    }
+]

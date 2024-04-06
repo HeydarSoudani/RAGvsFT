@@ -1,0 +1,5700 @@
+[
+    {
+        "query_id": "qa_164_6687",
+        "question": "What genre does the Western movie Apache, directed by Robert Aldrich in 1954, fall under?",
+        "answers": [
+            "Western"
+        ]
+    },
+    {
+        "query_id": "qa_164_8333",
+        "question": "Who directed the science fiction movie This Island Earth?",
+        "answers": [
+            "Joseph M. Newman and Jack Arnold (jointly)"
+        ]
+    },
+    {
+        "query_id": "qa_164_2527",
+        "question": "What song from Bring 'Em All In was covered by Rod Stewart?",
+        "answers": [
+            "The song 'What Do You Want Me to Do?' from Bring 'Em All In was covered by Rod Stewart."
+        ]
+    },
+    {
+        "query_id": "qa_164_12",
+        "question": "Who composed the music for the movie Maari?",
+        "answers": [
+            "Anirudh Ravichander"
+        ]
+    },
+    {
+        "query_id": "qa_164_433",
+        "question": "Who produced Francis, the talking mule movie?",
+        "answers": [
+            "Robert Arthur"
+        ]
+    },
+    {
+        "query_id": "qa_164_5850",
+        "question": "When was the 30th Anniversary Remaster of King Crimson's album released?",
+        "answers": [
+            "2002"
+        ]
+    },
+    {
+        "query_id": "qa_164_1526",
+        "question": "How was 'La Mission' distributed?",
+        "answers": [
+            "limited release"
+        ]
+    },
+    {
+        "query_id": "qa_164_864",
+        "question": "Who is the wife of the protagonist in Hot Water?",
+        "answers": [
+            "Wifey (Jobyna Ralston)"
+        ]
+    },
+    {
+        "query_id": "qa_164_3905",
+        "question": "Who stars in the film 'Cover'?",
+        "answers": [
+            "Answer: Aunjanue Ellis, Razaaq Adoti, Vivica A. Fox, and Leon"
+        ]
+    },
+    {
+        "query_id": "qa_164_3219",
+        "question": "How long did it take for Mithun Chakraborty to appear in another movie with the same name (Guru) in a different language (Bengali)?",
+        "answers": [
+            "18 years"
+        ]
+    },
+    {
+        "query_id": "qa_164_7520",
+        "question": "What event did the song get played at?",
+        "answers": [
+            "Funeral of James Bulger"
+        ]
+    },
+    {
+        "query_id": "qa_164_1968",
+        "question": "What is the title of Trace Adkins' fourth studio album?",
+        "answers": [
+            "Answer: 'Chrome'"
+        ]
+    },
+    {
+        "query_id": "qa_164_5774",
+        "question": "Who is the protagonist in the movie 'Heat' and what is his occupation?",
+        "answers": [
+            "Joe Dallesandro. Prostitute."
+        ]
+    },
+    {
+        "query_id": "qa_164_3706",
+        "question": "What did Alan Turing help decipher during World War II",
+        "answers": [
+            "German intelligence messages"
+        ]
+    },
+    {
+        "query_id": "qa_164_2334",
+        "question": "How many episodes of Kitchen Nightmares did Amy's Baking Company appear in?",
+        "answers": [
+            "82"
+        ]
+    },
+    {
+        "query_id": "qa_164_5800",
+        "question": "Who directed the movie 'The Possession'?",
+        "answers": [
+            "Ole Bornedal"
+        ]
+    },
+    {
+        "query_id": "qa_164_1596",
+        "question": "When did the 1929 Dutch short documentary film premiere?",
+        "answers": [
+            "The 1929 Dutch short documentary film premiered on (Dutch: Het in 1929 gemaakte Nederlandse korte documentairefilm werd op) 14 December (Dutch: 14 december]"
+        ]
+    },
+    {
+        "query_id": "qa_164_1076",
+        "question": "Which band released a B-sides compilation album in 2011?",
+        "answers": [
+            "Disturbed"
+        ]
+    },
+    {
+        "query_id": "qa_164_5676",
+        "question": "Who is the 40-year-old image consultant in the movie The Kid?",
+        "answers": [
+            "Bruce Willis"
+        ]
+    },
+    {
+        "query_id": "qa_164_8266",
+        "question": "What is the title of the 1979 Bollywood drama film directed by Satyen Bose and produced by Tarachand Barjatya, which marked the debut of actress Madhu Kapoor and stars Arun Govil, Om Shivpuri, and Urmila Bhatt, and is inspired by the story Panch Parmeshwar written by Premchand?",
+        "answers": [
+            "Saanch Ko Aanch Nahin"
+        ]
+    },
+    {
+        "query_id": "qa_164_7581",
+        "question": "What sound system was used to record the soundtrack for the movie Speedy?",
+        "answers": [
+            "Western Electric sound-on-film system"
+        ]
+    },
+    {
+        "query_id": "qa_164_1199",
+        "question": "Who directed the movie Need for Speed?",
+        "answers": [
+            "Scott Waugh"
+        ]
+    },
+    {
+        "query_id": "qa_164_3162",
+        "question": "Who starred in the lead roles of Nadodi Thendral?",
+        "answers": [
+            "Karthik and Ranjitha"
+        ]
+    },
+    {
+        "query_id": "qa_164_2028",
+        "question": "Who is the American singer behind the song 'I Like'",
+        "answers": [
+            "Jeremih"
+        ]
+    },
+    {
+        "query_id": "qa_164_3611",
+        "question": "What genre is 'The Sisters'?",
+        "answers": [
+            "drama."
+        ]
+    },
+    {
+        "query_id": "qa_164_5191",
+        "question": "Which song has received multiple prestigious awards in the music industry, including Grammy Awards and American Music Awards?",
+        "answers": [
+            "It"
+        ]
+    },
+    {
+        "query_id": "qa_164_5234",
+        "question": "When did Michael Jackson pass away?",
+        "answers": [
+            "June"
+        ]
+    },
+    {
+        "query_id": "qa_164_6297",
+        "question": "When was the short film '3 Minutes' released",
+        "answers": [
+            "January 10, 2011"
+        ]
+    },
+    {
+        "query_id": "qa_164_1108",
+        "question": "What year was The Intern released?",
+        "answers": [
+            "2015"
+        ]
+    },
+    {
+        "query_id": "qa_164_3067",
+        "question": "Who produced the movie Metro?",
+        "answers": [
+            "Roger Birnbaum"
+        ]
+    },
+    {
+        "query_id": "qa_164_3326",
+        "question": "What is the main theme of the movie?",
+        "answers": [
+            "sexual harassment"
+        ]
+    },
+    {
+        "query_id": "qa_164_1947",
+        "question": "Where is the movie 'Family Law' from?",
+        "answers": [
+            "Argentina"
+        ]
+    },
+    {
+        "query_id": "qa_164_2137",
+        "question": "Who is Abir Goswami and in which movie did he appear in his last film appearance before his death in 2013?",
+        "answers": [
+            "Abir Goswami, last film appearance, 2013, movie Ugly"
+        ]
+    },
+    {
+        "query_id": "qa_164_1128",
+        "question": "Which record label released Jay's debut studio album?",
+        "answers": [
+            "BMG Taiwan"
+        ]
+    },
+    {
+        "query_id": "qa_164_3852",
+        "question": "What occupation of the main character in 'The Being'?",
+        "answers": [
+            "det"
+        ]
+    },
+    {
+        "query_id": "qa_164_654",
+        "question": "Who played the role of Larry Fleinhardt in the TV series Numbers?",
+        "answers": [
+            "MacNicol"
+        ]
+    },
+    {
+        "query_id": "qa_164_5314",
+        "question": "What film did John Carpenter direct, co-write, and score in 1978?",
+        "answers": [
+            "Halloween (1978)"
+        ]
+    },
+    {
+        "query_id": "qa_164_227",
+        "question": "Who distributed the film Just Around the Corner?",
+        "answers": [
+            "Paramount Pictures"
+        ]
+    },
+    {
+        "query_id": "qa_164_18",
+        "question": "When was the movie 'The Master (traditional Chinese: \u9f8d\u884c\u5929\u4e0b)' released?",
+        "answers": [
+            "1992"
+        ]
+    },
+    {
+        "query_id": "qa_164_6225",
+        "question": "Who is the artist behind the song 'My Love'?",
+        "answers": [
+            "Celine Dion"
+        ]
+    },
+    {
+        "query_id": "qa_164_3618",
+        "question": "When was The Moment released?",
+        "answers": [
+            "The Moment came out 9/27/2004."
+        ]
+    },
+    {
+        "query_id": "qa_164_5482",
+        "question": "Where was \"Every Night\" recorded?",
+        "answers": [
+            "EMI Studios"
+        ]
+    },
+    {
+        "query_id": "qa_164_7118",
+        "question": "What type of movie is Ride Along 2?",
+        "answers": [
+            "American buddy cop action comedy film"
+        ]
+    },
+    {
+        "query_id": "qa_164_5610",
+        "question": "Who plays the title character in the movie Meet Bill?",
+        "answers": [
+            "Aaron Eckhart plays the title character in Meet Bill (2007)."
+        ]
+    },
+    {
+        "query_id": "qa_164_4051",
+        "question": "What distinguishes the album's style from the group's other work?",
+        "answers": [
+            "hard rock dynamics, simplicity"
+        ]
+    },
+    {
+        "query_id": "qa_164_663",
+        "question": "What is the plot summary of The Room?",
+        "answers": [
+            "The Room is centred around a melodramatic love triangle between amiable banker Johnny (Wiseau), his deceptive fianc\u00e9e Lisa (Danielle), and his conflicted best friend Mark (Sestero)."
+        ]
+    },
+    {
+        "query_id": "qa_164_2739",
+        "question": "What genre is the film Vachan?",
+        "answers": [
+            "Indian Bollywood film"
+        ]
+    },
+    {
+        "query_id": "qa_164_7392",
+        "question": "Who directed the documentary film about Robert McNamara?",
+        "answers": [
+            "Errol Morris"
+        ]
+    },
+    {
+        "query_id": "qa_164_4903",
+        "question": "Who is Michael Myers in the movie Halloween?",
+        "answers": [
+            "Serial killer in Halloween"
+        ]
+    },
+    {
+        "query_id": "qa_164_294",
+        "question": "What is the title of the Chris Rea album released in 1980?",
+        "answers": [
+            "Tennis"
+        ]
+    },
+    {
+        "query_id": "qa_164_4192",
+        "question": "What is the title of the 1979 drama film directed by Claude Lelouch?",
+        "answers": [
+            "Us Two (French: \u00c0 nous deux)"
+        ]
+    },
+    {
+        "query_id": "qa_164_1594",
+        "question": "What is the title of the 1929 Dutch short documentary film?",
+        "answers": [
+            "The title of the 1929 Dutch short documentary film is (Dutch: De titel van het in 1929 gemaakte Nederlandse korte documentairefilm is) [Regen]"
+        ]
+    },
+    {
+        "query_id": "qa_164_7461",
+        "question": "In what year was the short comedy film 'The Cure' released?",
+        "answers": [
+            "1917"
+        ]
+    },
+    {
+        "query_id": "qa_164_3039",
+        "question": "Who is the main character of Kaaki Sattai?",
+        "answers": [
+            "Sivakarthikeyan"
+        ]
+    },
+    {
+        "query_id": "qa_164_3358",
+        "question": "Who are the actors that co-star in the film Victim?",
+        "answers": [
+            "Adam Deacon, David Harewood, Giggs"
+        ]
+    },
+    {
+        "query_id": "qa_164_5051",
+        "question": "What production process was used for Tarzan's Greatest Adventure?",
+        "answers": [
+            "Eastmancolor"
+        ]
+    },
+    {
+        "query_id": "qa_164_1952",
+        "question": "What genre is the song 'Don't Pass Me By' from the White Album?",
+        "answers": [
+            "Country rock"
+        ]
+    },
+    {
+        "query_id": "qa_164_572",
+        "question": "Who received critical acclaim in Precious?",
+        "answers": [
+            "\"Sidibe, Mo'Nique\""
+        ]
+    },
+    {
+        "query_id": "qa_164_5054",
+        "question": "Who wrote the screenplay for Tarzan's Greatest Adventure?",
+        "answers": [
+            "Les Crutchfield"
+        ]
+    },
+    {
+        "query_id": "qa_164_7272",
+        "question": "Who produced the unreleased Bollywood movie 'Airport'?",
+        "answers": [
+            "Prod: Anubhav Sinha, Anupam Sinha"
+        ]
+    },
+    {
+        "query_id": "qa_164_550",
+        "question": "What is the title of the movie?",
+        "answers": [
+            "Normal"
+        ]
+    },
+    {
+        "query_id": "qa_164_495",
+        "question": "What are the names of the three albums dedicated to Meher Baba and featuring Pete Townshend, released prior to the compilation album \"Avatar\"?",
+        "answers": [
+            "Happy Birthday, With Love, Avatar"
+        ]
+    },
+    {
+        "query_id": "qa_164_4614",
+        "question": "What album won Best Pop Vocal Album at the 2008 Grammy Awards?",
+        "answers": [
+            "Back to Black"
+        ]
+    },
+    {
+        "query_id": "qa_164_264",
+        "question": "Who wrote the screenplay for Bloodstone?",
+        "answers": [
+            "Nico Mastorakis"
+        ]
+    },
+    {
+        "query_id": "qa_164_6108",
+        "question": "Which festival did the movie Today screen at in 2014?",
+        "answers": [
+            "Toronto International Film Festival"
+        ]
+    },
+    {
+        "query_id": "qa_164_2278",
+        "question": "Which two singles by Black Sabbath were released prior to the launch of their latest album?",
+        "answers": [
+            "Answer: 'God Is Dead?' and 'End of the Beginning'"
+        ]
+    },
+    {
+        "query_id": "qa_164_2277",
+        "question": "What is the title of Black Sabbath's latest single released in promotion of their latest album?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_164_2686",
+        "question": "Who are the main actors in the movie 'M'?",
+        "answers": [
+            "Gang Dong-won, Lee Yeon-hee, Gong Hyo-jin"
+        ]
+    },
+    {
+        "query_id": "qa_164_4236",
+        "question": "What film won the Best Feature Film award at the 53rd National Film Awards?",
+        "answers": [
+            "Black"
+        ]
+    },
+    {
+        "query_id": "qa_164_7846",
+        "question": "Who directed Periya Kudumbam?",
+        "answers": [
+            "K. S. Ravikumar"
+        ]
+    },
+    {
+        "query_id": "qa_164_7479",
+        "question": "Who were the writers of the novel The Hephaestus Plague adapted into the movie Bug?",
+        "answers": [
+            "William Castle and Thomas Page"
+        ]
+    },
+    {
+        "query_id": "qa_164_672",
+        "question": "What was the reception of the film and book?",
+        "answers": [
+            "received widespread acclaim and numerous award nominations"
+        ]
+    },
+    {
+        "query_id": "qa_164_2026",
+        "question": "What is the genre of the movie Light It Up, featuring an ensemble cast and R&B singer/actor Usher Raymond?",
+        "answers": [
+            "R&B singer/actor, ensemble cast (Light It Up)"
+        ]
+    },
+    {
+        "query_id": "qa_164_6857",
+        "question": "What type of events occur on the submarine in the film Below?",
+        "answers": [
+            "c. Supernatural events"
+        ]
+    },
+    {
+        "query_id": "qa_164_7422",
+        "question": "What is the title of the Pakistani English language film directed by Javed Jabbar in 1976?",
+        "answers": [
+            "Beyond the Last Mountain"
+        ]
+    },
+    {
+        "query_id": "qa_164_5832",
+        "question": "What is the name of the main character in Happy Gilmore?",
+        "answers": [
+            "Happy Gilmore"
+        ]
+    },
+    {
+        "query_id": "qa_164_2327",
+        "question": "Which registry did The General get selected for preservation in?",
+        "answers": [
+            "NFR"
+        ]
+    },
+    {
+        "query_id": "qa_164_339",
+        "question": "What genre is the movie Giant?",
+        "answers": [
+            "American epic Western drama film"
+        ]
+    },
+    {
+        "query_id": "qa_164_71",
+        "question": "What type of games does Nihon Falcom develop?",
+        "answers": [
+            "Nihon Falcom develops action role-playing games, including the Brandish series."
+        ]
+    },
+    {
+        "query_id": "qa_164_653",
+        "question": "What was the professional designation of Larry Fleinhardt in the TV series Numbers?",
+        "answers": [
+            "Unspecified"
+        ]
+    },
+    {
+        "query_id": "qa_164_5680",
+        "question": "How old is Spencer Breslin's character in The Kid?",
+        "answers": [
+            "8"
+        ]
+    },
+    {
+        "query_id": "qa_164_7258",
+        "question": "What is the country of origin of the movie 'The Overnight'?",
+        "answers": [
+            "American"
+        ]
+    },
+    {
+        "query_id": "qa_164_3194",
+        "question": "In which year was Jay Chou's second studio album, Fantasy, released?",
+        "answers": [
+            "Year: 2001"
+        ]
+    },
+    {
+        "query_id": "qa_164_7319",
+        "question": "What aspect of Tom Hanks' performance in the film was particularly notable?",
+        "answers": [
+            "Hanks' performance"
+        ]
+    },
+    {
+        "query_id": "qa_164_2784",
+        "question": "Where is the setting of the movie 'Rain'?",
+        "answers": [
+            "A"
+        ]
+    },
+    {
+        "query_id": "qa_164_6402",
+        "question": "What is the title of the 1971 movie Friends?",
+        "answers": [
+            "Friends"
+        ]
+    },
+    {
+        "query_id": "qa_164_8145",
+        "question": "Who directed the movie 'The Toughest Gun in Tombstone'?",
+        "answers": [
+            "Earl Bellamy"
+        ]
+    },
+    {
+        "query_id": "qa_164_1524",
+        "question": "What is the title of the 2009 movie with Benjamin Bratt and Jeremy Ray Valdez?",
+        "answers": [
+            "La Mission"
+        ]
+    },
+    {
+        "query_id": "qa_164_3347",
+        "question": "Who is the director of the Western film featuring Roy Rogers? ",
+        "answers": [
+            "Kane"
+        ]
+    },
+    {
+        "query_id": "qa_164_7490",
+        "question": "What type of release is 'One Glance Is'?",
+        "answers": [
+            "Single"
+        ]
+    },
+    {
+        "query_id": "qa_164_3937",
+        "question": "Who designed and built the tower for the World's Fair in Paris?",
+        "answers": [
+            "Gustave Eiffel"
+        ]
+    },
+    {
+        "query_id": "qa_164_7561",
+        "question": "Who stars in Are You Here?",
+        "answers": [
+            "Owen Wilson, Zach Galifianakis, Amy Poehler"
+        ]
+    },
+    {
+        "query_id": "qa_164_8304",
+        "question": "What changes were made during the rewriting process of Toy Story?",
+        "answers": [
+            "rewritten to better reflect the tone and theme Pixar desired"
+        ]
+    },
+    {
+        "query_id": "qa_164_1318",
+        "question": "Which country is The Ledge from?",
+        "answers": [
+            "American"
+        ]
+    },
+    {
+        "query_id": "qa_164_54",
+        "question": "Who wrote and starred in the movie Dual?",
+        "answers": [
+            "Michael Worth"
+        ]
+    },
+    {
+        "query_id": "qa_164_6199",
+        "question": "What genre is the movie 'The Best of Everything'?",
+        "answers": [
+            "drama"
+        ]
+    },
+    {
+        "query_id": "qa_164_4734",
+        "question": "Who played supporting roles in the 2011 American romantic drama film Restless?",
+        "answers": [
+            "Ry\u014d Kase, Schuyler Fisk, Jane Adams"
+        ]
+    },
+    {
+        "query_id": "qa_164_2275",
+        "question": "Which two songs were included in Black Sabbath's live album Reunion released in the past?",
+        "answers": [
+            "Answer: 'God Is Dead?' and 'Over and Over'"
+        ]
+    },
+    {
+        "query_id": "qa_164_4087",
+        "question": "Who wrote the screenplay for the 1949 British comedy film Don't Ever Leave Me?",
+        "answers": [
+            "Robert Westerby"
+        ]
+    },
+    {
+        "query_id": "qa_164_7227",
+        "question": "What film was released in 2012?",
+        "answers": [
+            "The Sessions"
+        ]
+    },
+    {
+        "query_id": "qa_164_912",
+        "question": "What genre is the movie Singles?",
+        "answers": [
+            "romantic comedy"
+        ]
+    },
+    {
+        "query_id": "qa_164_6547",
+        "question": "Who are the main cast members of 'The Miracle'?",
+        "answers": [
+            "Maria Carmi, Ernst Matray, Florence Winston, and Douglas Payne"
+        ]
+    },
+    {
+        "query_id": "qa_164_6760",
+        "question": "Where did The List premiere?",
+        "answers": [
+            "Tribeca Film Festival"
+        ]
+    },
+    {
+        "query_id": "qa_164_1856",
+        "question": "Who are the main cast members of Arizona?",
+        "answers": [
+            "Jean Arthur, William Holden, Warren William"
+        ]
+    },
+    {
+        "query_id": "qa_164_6189",
+        "question": "What award did the Beatles win for Let It Be?",
+        "answers": [
+            "i"
+        ]
+    },
+    {
+        "query_id": "qa_164_4939",
+        "question": "How did Lopez blend the track with 'Ain't No Mountain High Enough' during her performances?",
+        "answers": [
+            "Blending"
+        ]
+    },
+    {
+        "query_id": "qa_164_629",
+        "question": "Who are the main cast members of the movie?",
+        "answers": [
+            "John C. Reilly, Diego Luna, Maggie Gyllenhaal, Maeve Quinlan"
+        ]
+    },
+    {
+        "query_id": "qa_164_6958",
+        "question": "When did Nigeria gain independence from British colonial rule in the movie October 1?",
+        "answers": [
+            "Historical context"
+        ]
+    },
+    {
+        "query_id": "qa_164_7687",
+        "question": "Who is Michael in the movie Fresh, and what is his nickname?",
+        "answers": [
+            "Sean Nelson plays Michael, called Fresh, in Fresh."
+        ]
+    },
+    {
+        "query_id": "qa_164_7053",
+        "question": "Who stars in Mission: Impossible \u2013 Rogue Nation, the sequel to Mission: Impossible \u2013 Ghost Protocol?",
+        "answers": [
+            "Tom Cruise, Jeremy Renner, Simon Pegg, Ving Rhames, Rebecca Ferguson, Sean Harris, and Alec Baldwin."
+        ]
+    },
+    {
+        "query_id": "qa_164_523",
+        "question": "What color is the animal called 'Quick Brown Fox' in the sentence 'The Quick Brown Fox Jumps Over The Lazy Dog'?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_164_6716",
+        "question": "Who directed The Terror? ",
+        "answers": [
+            "Roger Corman."
+        ]
+    },
+    {
+        "query_id": "qa_164_3936",
+        "question": "Who are the directors of the documentary?",
+        "answers": [
+            "Naomi Klein and Avi Lewis"
+        ]
+    },
+    {
+        "query_id": "qa_164_4718",
+        "question": "Who was the supporting actor with a key role in Midnight? ",
+        "answers": [
+            "Henry Hull"
+        ]
+    },
+    {
+        "query_id": "qa_164_4134",
+        "question": "Who directed the dramatic scenes in 'The Jolson Story'?",
+        "answers": [
+            "Alfred E. Green (dramatic scenes)"
+        ]
+    },
+    {
+        "query_id": "qa_164_1324",
+        "question": "What political office are the main characters seeking in The Campaign?",
+        "answers": [
+            "Congress"
+        ]
+    },
+    {
+        "query_id": "qa_164_6513",
+        "question": "Where was The Slim Shady LP recorded?",
+        "answers": [
+            "Ferndale, Michigan"
+        ]
+    },
+    {
+        "query_id": "qa_164_2522",
+        "question": "What is the title of Mike Scott's debut solo studio album?",
+        "answers": [
+            "Bring 'Em All In'"
+        ]
+    },
+    {
+        "query_id": "qa_164_2476",
+        "question": "What is the title of the 1919 American action film directed by Maurice Tourneur and starring Jack Holt, Seena Owen, Lon Chaney, Wallace Beery and Bull Montana?",
+        "answers": [
+            "Title: Victory"
+        ]
+    },
+    {
+        "query_id": "qa_164_1280",
+        "question": "Which film company produced Seven?",
+        "answers": [
+            "New Line Cinema"
+        ]
+    },
+    {
+        "query_id": "qa_164_556",
+        "question": "What is the title of the Czech live action short film directed by Bobby Garabedian?",
+        "answers": [
+            "Most"
+        ]
+    },
+    {
+        "query_id": "qa_164_6895",
+        "question": "Who wrote and directed the 1999 Hong Kong action romantic comedy film Gorgeous?",
+        "answers": [
+            "Vincent Kok"
+        ]
+    },
+    {
+        "query_id": "qa_164_1122",
+        "question": "Who is the director of 'The Player'",
+        "answers": [
+            "Robert Altman"
+        ]
+    },
+    {
+        "query_id": "qa_164_4962",
+        "question": "Who played the role of Alexander Godunov in North?",
+        "answers": [
+            "Alexander Godunov"
+        ]
+    },
+    {
+        "query_id": "qa_164_5748",
+        "question": "What is Time Piece?",
+        "answers": [
+            "Time Piece"
+        ]
+    },
+    {
+        "query_id": "qa_164_5248",
+        "question": "Which countries did the movie 'I Am Love' have a limited release in?",
+        "answers": [
+            "The United States"
+        ]
+    },
+    {
+        "query_id": "qa_164_2412",
+        "question": "Which songs on the album were produced by Squeeze?",
+        "answers": [
+            "Take Me I'm Yours, Bang Bang"
+        ]
+    },
+    {
+        "query_id": "qa_164_5127",
+        "question": "How many reels did the movie originally have?",
+        "answers": [
+            "six"
+        ]
+    },
+    {
+        "query_id": "qa_164_3117",
+        "question": "What awards did the film win at the BAFTAs?",
+        "answers": [
+            "Best Original Screenplay, Best Supporting Actress"
+        ]
+    },
+    {
+        "query_id": "qa_164_4593",
+        "question": "Who directed the movie \"Mickey\"?",
+        "answers": [
+            "F. Richard Jones, James Young"
+        ]
+    },
+    {
+        "query_id": "qa_164_5740",
+        "question": "Where did 'Fling' have its international premiere on December 5, 2008?",
+        "answers": [
+            "Bahamas International Film Festival"
+        ]
+    },
+    {
+        "query_id": "qa_164_587",
+        "question": "Who is the production company behind Episodes?",
+        "answers": [
+            "Hat Trick Productions"
+        ]
+    },
+    {
+        "query_id": "qa_164_2930",
+        "question": "Who directed the 2003 HBO documentary film Capturing the Friedmans?",
+        "answers": [
+            "Andrew Jarecki"
+        ]
+    },
+    {
+        "query_id": "qa_164_76",
+        "question": "How successful was Echo on the Billboard 200? ",
+        "answers": [
+            "Reached #10"
+        ]
+    },
+    {
+        "query_id": "qa_164_2971",
+        "question": "Who wrote the screenplay for Pin Up Girl?",
+        "answers": [
+            "REB"
+        ]
+    },
+    {
+        "query_id": "qa_164_1647",
+        "question": "What is Friends' rank on the Writers Guild of America's 101 Best Written TV Series of All Time?",
+        "answers": [
+            "24"
+        ]
+    },
+    {
+        "query_id": "qa_164_2408",
+        "question": "Where was Patti Smith's debut studio album, Horses, recorded?",
+        "answers": [
+            "Horses was recorded at Electric Lady Studios."
+        ]
+    },
+    {
+        "query_id": "qa_164_5330",
+        "question": "What is the title of the movie?",
+        "answers": [
+            "Maling Kutang"
+        ]
+    },
+    {
+        "query_id": "qa_164_3883",
+        "question": "How was the movie The Profit perceived by the public, in relation to Scientology and its founder?",
+        "answers": [
+            "Parody of the Church of Scientology and its founder, L. Ron Hubbard"
+        ]
+    },
+    {
+        "query_id": "qa_164_1914",
+        "question": "What is the route between two places that has been improved for travel?",
+        "answers": [
+            "The route between two places that has been improved for travel is called a..."
+        ]
+    },
+    {
+        "query_id": "qa_164_1264",
+        "question": "In what year was the Our Gang comedy series created?",
+        "answers": [
+            "1922"
+        ]
+    },
+    {
+        "query_id": "qa_164_127",
+        "question": "Who directed the movie Peck's Bad Girl?",
+        "answers": [
+            "Charles Giblyn"
+        ]
+    },
+    {
+        "query_id": "qa_164_560",
+        "question": "Who is the lead actress in Precious?",
+        "answers": [
+            "Gabourey Sidibe"
+        ]
+    },
+    {
+        "query_id": "qa_164_4657",
+        "question": "Who played a major supporting role in the movie?",
+        "answers": [
+            "Wallace Beery"
+        ]
+    },
+    {
+        "query_id": "qa_164_7017",
+        "question": "Who appeared on the cover of Look magazine shortly after appearing in the 1970 American drama film Trash?",
+        "answers": [
+            "Jane Forth"
+        ]
+    },
+    {
+        "query_id": "qa_164_7215",
+        "question": "Who wrote the screenplay for the movie 'Me First'?",
+        "answers": [
+            "H\u00e9ctor Olivera"
+        ]
+    },
+    {
+        "query_id": "qa_164_1535",
+        "question": "What genre is the movie Lee?",
+        "answers": [
+            "sports action film"
+        ]
+    },
+    {
+        "query_id": "qa_164_6675",
+        "question": "How much money did the movie 'Clue' make at the box office?",
+        "answers": [
+            "Box office: $14.6 million"
+        ]
+    },
+    {
+        "query_id": "qa_164_669",
+        "question": "What is the release date for the remake?",
+        "answers": [
+            "Unspecified"
+        ]
+    },
+    {
+        "query_id": "qa_164_6848",
+        "question": "What year was the movie released?",
+        "answers": [
+            "2004"
+        ]
+    },
+    {
+        "query_id": "qa_164_4526",
+        "question": "What is the name of The Prodigy's debut album?",
+        "answers": [
+            "Experience"
+        ]
+    },
+    {
+        "query_id": "qa_164_1103",
+        "question": "When was The Intern released?",
+        "answers": [
+            "September 25, 2015"
+        ]
+    },
+    {
+        "query_id": "qa_164_7424",
+        "question": "What is the English title of the Pakistani film released in Urdu in 1976?",
+        "answers": [
+            "Musafir"
+        ]
+    },
+    {
+        "query_id": "qa_164_4507",
+        "question": "What novel was the movie \"The Spoilers\" adapted from?",
+        "answers": [
+            "Rex Beach novel"
+        ]
+    },
+    {
+        "query_id": "qa_164_3967",
+        "question": "Where did Nine have a limited release?",
+        "answers": [
+            "New York City, Los Angeles"
+        ]
+    },
+    {
+        "query_id": "qa_164_1573",
+        "question": "Who is the lead actress in the movie? ",
+        "answers": [
+            "Isabelle Huppert"
+        ]
+    },
+    {
+        "query_id": "qa_164_8105",
+        "question": "In what year was the Legion film released?",
+        "answers": [
+            "1998"
+        ]
+    },
+    {
+        "query_id": "qa_164_1236",
+        "question": "How much money did the movie Trick gross at the box office in the United States?",
+        "answers": [
+            "$2 million"
+        ]
+    },
+    {
+        "query_id": "qa_164_3002",
+        "question": "In what year was 'No Way Out' released?",
+        "answers": [
+            "Answer: 1997"
+        ]
+    },
+    {
+        "query_id": "qa_164_1437",
+        "question": "What album from 1977 did Neil Young include 'Soldier' in?",
+        "answers": [
+            "Decade"
+        ]
+    },
+    {
+        "query_id": "qa_164_5910",
+        "question": "Who originally played the role of Marty McFly in Back to the Future?",
+        "answers": [
+            "Eric Stoltz"
+        ]
+    },
+    {
+        "query_id": "qa_164_7278",
+        "question": "Who were the Essenes?",
+        "answers": [
+            "The Essenes were..."
+        ]
+    },
+    {
+        "query_id": "qa_164_5477",
+        "question": "How was the movie distributed?",
+        "answers": [
+            "limited"
+        ]
+    },
+    {
+        "query_id": "qa_164_6414",
+        "question": "Which record label released Lucio Battisti's 1971 concept album 'Amore e non amore' that explores the themes of love and non-love?",
+        "answers": [
+            "Dischi Ricordi"
+        ]
+    },
+    {
+        "query_id": "qa_164_1412",
+        "question": "Where was the majority of the movie Don filmed?",
+        "answers": [
+            "Mostly filmed in Malaysia."
+        ]
+    },
+    {
+        "query_id": "qa_164_3312",
+        "question": "What literary technique is used in the film?",
+        "answers": [
+            "Stream of consciousness"
+        ]
+    },
+    {
+        "query_id": "qa_164_3917",
+        "question": "Can you describe the musical style of Justin Timberlake's debut solo studio album, Justified? Which genres does it incorporate?",
+        "answers": [
+            "Justified is primarily an R&B album with influences of dance-pop, funk, and soul music."
+        ]
+    },
+    {
+        "query_id": "qa_164_1818",
+        "question": "Who directed the music video for 'Bad'?",
+        "answers": [
+            "Martin Scorsese"
+        ]
+    },
+    {
+        "query_id": "qa_164_2588",
+        "question": "What was the second single released from Michael Jackson's Off the Wall album?",
+        "answers": [
+            "Answer: 'Rock with You'"
+        ]
+    },
+    {
+        "query_id": "qa_164_4503",
+        "question": "What type of character is the main male lead in the movie \"The Spoilers\"?",
+        "answers": [
+            "Gold prospector"
+        ]
+    },
+    {
+        "query_id": "qa_164_6489",
+        "question": "How many singles were produced from the debut studio album by British girl group Sugababes?",
+        "answers": [
+            "Answer: Four"
+        ]
+    },
+    {
+        "query_id": "qa_164_5456",
+        "question": "Who directed the movie 'The Hole'",
+        "answers": [
+            "Nick Hamm"
+        ]
+    },
+    {
+        "query_id": "qa_164_2962",
+        "question": "What is Friends' ranking on the Writers Guild of America's 101 Best Written TV Series of All Time?",
+        "answers": [
+            "24"
+        ]
+    },
+    {
+        "query_id": "qa_164_7018",
+        "question": "Who are some other Warhol superstars that appeared in the 1970 American drama film Trash?",
+        "answers": [
+            "Andrea Feldman and Geri Miller"
+        ]
+    },
+    {
+        "query_id": "qa_164_1704",
+        "question": "Who are the creators of the video Blue by The Birthday Massacre?",
+        "answers": [
+            "Dan Ouellette and Robert Morris"
+        ]
+    },
+    {
+        "query_id": "qa_164_2290",
+        "question": "What award did the film win at the 37th Hochi Film Award?",
+        "answers": [
+            "The film won Best International Picture at the 37th Hochi Film Award."
+        ]
+    },
+    {
+        "query_id": "qa_164_6318",
+        "question": "In what language is the film Onaayum Aattukkuttiyum, and what is its English translation?",
+        "answers": [
+            "Tamil-language/English: The Wolf and The Lamb"
+        ]
+    },
+    {
+        "query_id": "qa_164_7492",
+        "question": "Does the single 'One Glance Is' contain an instrumental version?",
+        "answers": [
+            "Yes"
+        ]
+    },
+    {
+        "query_id": "qa_164_5758",
+        "question": "What award did 'A Separation' win at the Academy Awards in 2012?",
+        "answers": [
+            "Answer: Academy Award for Best Foreign Language Film"
+        ]
+    },
+    {
+        "query_id": "qa_164_1803",
+        "question": "In what year was the film The Bat released?",
+        "answers": [
+            "1926"
+        ]
+    },
+    {
+        "query_id": "qa_164_7825",
+        "question": "What is the title of Peter Gabriel's fifth studio album? ",
+        "answers": [
+            "\"So\""
+        ]
+    },
+    {
+        "query_id": "qa_164_6921",
+        "question": "Who directed Steve Buscemi's remake of Interview?",
+        "answers": [
+            "Steve Buscemi"
+        ]
+    },
+    {
+        "query_id": "qa_164_3727",
+        "question": "Who was El Cid, and what does his name mean?",
+        "answers": [
+            "El Cid (from the Arabic al-sidi, meaning 'The Lord')"
+        ]
+    },
+    {
+        "query_id": "qa_164_526",
+        "question": "Who directed the 2006 road comedy film RV?",
+        "answers": [
+            "Barry Sonnenfeld"
+        ]
+    },
+    {
+        "query_id": "qa_164_7723",
+        "question": "Who wrote the lyrics for the songs in the Hindi-language film Anubhav?",
+        "answers": [
+            "Gulzar"
+        ]
+    },
+    {
+        "query_id": "qa_164_3954",
+        "question": "Which label released Jennifer Warnes' third album, and what happened to it in 1973 or 1974?",
+        "answers": [
+            "Reprise (del.)"
+        ]
+    },
+    {
+        "query_id": "qa_164_3938",
+        "question": "What is the name of Paul McCartney's sixteenth solo studio album released in 2013?",
+        "answers": [
+            "'New'"
+        ]
+    },
+    {
+        "query_id": "qa_164_634",
+        "question": "In what year was the movie 'Saptapadi' released?",
+        "answers": [
+            "Release year: 1961"
+        ]
+    },
+    {
+        "query_id": "qa_164_7786",
+        "question": "What is the centerpiece of Bananamour by Kevin Ayers and what is the subject of his withering portrait in the song \"Decadence\"?",
+        "answers": [
+            "\"Decadence\" and Nico"
+        ]
+    },
+    {
+        "query_id": "qa_164_1841",
+        "question": "How much did the movie make at the box office worldwide?",
+        "answers": [
+            "16.5 million"
+        ]
+    },
+    {
+        "query_id": "qa_164_5",
+        "question": "In what year was the video production for 'Thursday Afternoon' made?",
+        "answers": [
+            "1984"
+        ]
+    },
+    {
+        "query_id": "qa_164_6937",
+        "question": "Who did Michael Bay dedicate The Rock to?",
+        "answers": [
+            "Co-producer Don Simpson"
+        ]
+    },
+    {
+        "query_id": "qa_164_1130",
+        "question": "How successful was Jay's debut studio album commercially in Taiwan?",
+        "answers": [
+            "shipped over 250,000 copies in Taiwan, making it one of the highest selling albums of 2001 in the country, and is one of the best-selling albums in Taiwan of the 21st century"
+        ]
+    },
+    {
+        "query_id": "qa_164_6476",
+        "question": "Who produced Nelly Furtado's third studio album, and what genres did they incorporate into it?",
+        "answers": [
+            "Timbaland, dance, R&B, hip hop, latin pop, synth-pop, reggaeton, new wave, funk, Middle Eastern music"
+        ]
+    },
+    {
+        "query_id": "qa_164_5405",
+        "question": "Who is the actor played by Gulshan Grover in the Indian romantic dance movie Holiday produced and directed by Pooja Bhatt in 2006?",
+        "answers": [
+            "Gulshan Grover's character"
+        ]
+    },
+    {
+        "query_id": "qa_164_2065",
+        "question": "Who directed the documentary 'Downloaded' about filesharing and the downloading generation?",
+        "answers": [
+            "Alex Winter"
+        ]
+    },
+    {
+        "query_id": "qa_164_418",
+        "question": "Who directed The Tourist?",
+        "answers": [
+            "Florian Henckel von Donnersmarck"
+        ]
+    },
+    {
+        "query_id": "qa_164_5966",
+        "question": "Who were the supporting actors in the Telugu-language movie 'Mass' released in 2004?",
+        "answers": [
+            "Raghuvaran, Rahul Dev"
+        ]
+    },
+    {
+        "query_id": "qa_164_1476",
+        "question": "Who plays the title role in the movie Nora?",
+        "answers": [
+            "Susan Lynch"
+        ]
+    },
+    {
+        "query_id": "qa_164_575",
+        "question": "What is the genre or language of the movie Roy?",
+        "answers": [
+            "Indian Hindi-romantic drama"
+        ]
+    },
+    {
+        "query_id": "qa_164_7303",
+        "question": "Where did Jethro Tull perform regularly when this album was released?",
+        "answers": [
+            "Marquee Club"
+        ]
+    },
+    {
+        "query_id": "qa_164_2370",
+        "question": "Who directed the movie?",
+        "answers": [
+            "Anurag Basu"
+        ]
+    },
+    {
+        "query_id": "qa_164_2593",
+        "question": "Which institution inducted Michael Jackson's Off the Wall album into its Hall of Fame in 2008?",
+        "answers": [
+            "Answer: 'Grammy Hall of Fame'"
+        ]
+    },
+    {
+        "query_id": "qa_164_996",
+        "question": "What is the title of the 1993 martial arts movie directed by Robert Radler and starring Eric Roberts and Phillip Rhee?",
+        "answers": [
+            "Best of the Best II"
+        ]
+    },
+    {
+        "query_id": "qa_164_4136",
+        "question": "Who plays the role of an AIDS patient in the short film Positive?",
+        "answers": [
+            "Boman Irani"
+        ]
+    },
+    {
+        "query_id": "qa_164_2993",
+        "question": "Which radio station in Australia has shown significant attention to a Skrillex track?",
+        "answers": [
+            "j"
+        ]
+    },
+    {
+        "query_id": "qa_164_1612",
+        "question": "Who were the producers of the documentary film Mediastan - A WikiLeaks Road Movie, besides Julian Assange?",
+        "answers": [
+            "Julian Assange, Rebecca O'Brien, Lauren Dark, Ken Loach's company Sixteen Films"
+        ]
+    },
+    {
+        "query_id": "qa_164_5780",
+        "question": "In what year did Tom Verlaine release his first entirely instrumental recording?",
+        "answers": [
+            "1992"
+        ]
+    },
+    {
+        "query_id": "qa_164_6657",
+        "question": "Which musician did Peter Gabriel collaborate with on the song 'Exposure' in his second studio album?",
+        "answers": [
+            "Robert Fripp (Frippertronics)"
+        ]
+    },
+    {
+        "query_id": "qa_164_8380",
+        "question": "Who starred in the science fiction horror film Alien?",
+        "answers": [
+            "Tom Skerritt, Sigourney Weaver, Veronica Cartwright, Harry Dean Stanton, John Hurt, Ian Holm, and Yaphet Kotto"
+        ]
+    },
+    {
+        "query_id": "qa_164_2982",
+        "question": "What is the title of the movie?",
+        "answers": [
+            "Disclosure."
+        ]
+    },
+    {
+        "query_id": "qa_164_1850",
+        "question": "In what year was the movie 'The River' released?",
+        "answers": [
+            "1951"
+        ]
+    },
+    {
+        "query_id": "qa_164_7242",
+        "question": "What is the title of the movie 'Cake: A Wedding Story'?",
+        "answers": [
+            "Title: Cake: A Wedding Story"
+        ]
+    },
+    {
+        "query_id": "qa_164_1261",
+        "question": "What is the title of the ninth Our Gang short subject comedy?",
+        "answers": [
+            "The Big Show"
+        ]
+    },
+    {
+        "query_id": "qa_164_7026",
+        "question": "Who produced By the Sea?",
+        "answers": [
+            "Jolie Pitt"
+        ]
+    },
+    {
+        "query_id": "qa_164_1630",
+        "question": "What is the name of the Hong Kong movie released in 2007 that follows the relationship between two brothers involved in a triad?",
+        "answers": [
+            "Brothers"
+        ]
+    },
+    {
+        "query_id": "qa_164_7478",
+        "question": "Who directed the movie Bug?",
+        "answers": [
+            "Jeannot Szwarc"
+        ]
+    },
+    {
+        "query_id": "qa_164_2947",
+        "question": "When was the 'Passion' album released?",
+        "answers": [
+            "1989"
+        ]
+    },
+    {
+        "query_id": "qa_164_2016",
+        "question": "What is the title of the 1949 American film noir crime film directed by Roy Del Ruth and starring George Raft and Virginia Mayo, based on the story 'This Guy Gideon' by Don 'Red' Barry, with strong religious overtones?",
+        "answers": [
+            "Title: Red Light (1949)"
+        ]
+    },
+    {
+        "query_id": "qa_164_747",
+        "question": "Who directed the 1988 film 'Da'? ",
+        "answers": [
+            "Answer: Matt Clark"
+        ]
+    },
+    {
+        "query_id": "qa_164_7654",
+        "question": "Where is \"The Grey\" set?",
+        "answers": [
+            "Alaska"
+        ]
+    },
+    {
+        "query_id": "qa_164_3969",
+        "question": "What is the title of the 2012 Christmas comedy film directed by Brian Levant and starring Daniel Stern and Braeden Lemasters?",
+        "answers": [
+            "A Christmas Story 2"
+        ]
+    },
+    {
+        "query_id": "qa_164_5699",
+        "question": "Who is the director of the silent drama film shot in Bar Harbor, Maine in 1918?",
+        "answers": [
+            "Maurice Tourneur"
+        ]
+    },
+    {
+        "query_id": "qa_164_4345",
+        "question": "What awards was the album 'Bad' nominated for?",
+        "answers": [
+            "Six Grammy Awards"
+        ]
+    },
+    {
+        "query_id": "qa_164_630",
+        "question": "What is the original movie that this one is a remake of?",
+        "answers": [
+            "Nine Queens"
+        ]
+    },
+    {
+        "query_id": "qa_164_1440",
+        "question": "Where was 'Soldier' recorded by Neil Young?",
+        "answers": [
+            "Kings Mountain, California (inside a sawdust burner in a sawmill)"
+        ]
+    },
+    {
+        "query_id": "qa_164_1170",
+        "question": "Who wrote the song 'Good Night' and under what credit?",
+        "answers": [
+            "John Lennon (credited as Lennon\u2013McCartney)"
+        ]
+    },
+    {
+        "query_id": "qa_164_1898",
+        "question": "What type of significance did 'The Chronic' receive from the Library of Congress in 2019?",
+        "answers": [
+            "culturally, historically, or aesthetically significant"
+        ]
+    },
+    {
+        "query_id": "qa_164_1061",
+        "question": "How much money did the studio make from the box office performance of the movie A Good Year?",
+        "answers": [
+            "$42 million"
+        ]
+    },
+    {
+        "query_id": "qa_164_5582",
+        "question": "Who wrote the lyrics for the movie Leader?",
+        "answers": [
+            "Shakeel Badayuni"
+        ]
+    },
+    {
+        "query_id": "qa_164_4389",
+        "question": "Is the movie Sunny a remake of any previous film adaptation?",
+        "answers": [
+            "Yes, the first film adaptation was Sunny (1930)"
+        ]
+    },
+    {
+        "query_id": "qa_164_7080",
+        "question": "What is the name of the 1994 American drama film directed by Frank Darabont?",
+        "answers": [
+            "The Shawshank Redemption"
+        ]
+    },
+    {
+        "query_id": "qa_164_1836",
+        "question": "What is the timeframe in which the events of 'Aerograd' take place?",
+        "answers": [
+            "Future"
+        ]
+    },
+    {
+        "query_id": "qa_164_5340",
+        "question": "Who is Geneva in The Dilemma and who did she kiss?",
+        "answers": [
+            "Geneva, CT"
+        ]
+    },
+    {
+        "query_id": "qa_164_4102",
+        "question": "Who wrote and composed the title song of Puffy AmiYumi's 25th single 'All Because Of You'?",
+        "answers": [
+            "Avril Lavigne"
+        ]
+    },
+    {
+        "query_id": "qa_164_3833",
+        "question": "When did principal photography begin?",
+        "answers": [
+            "3 September 2014"
+        ]
+    },
+    {
+        "query_id": "qa_164_7597",
+        "question": "How much did it cost to make the movie Clue?",
+        "answers": [
+            "$15 million."
+        ]
+    },
+    {
+        "query_id": "qa_164_7750",
+        "question": "What novel is the movie 'Hello' based on?",
+        "answers": [
+            "Chetan Bhagat's 'One Night @ the Call Center'"
+        ]
+    },
+    {
+        "query_id": "qa_164_3555",
+        "question": "Who are the other actors that appeared in the film Her?",
+        "answers": [
+            "Amy Adams, Rooney Mara, Olivia Wilde, Chris Pratt"
+        ]
+    },
+    {
+        "query_id": "qa_164_5932",
+        "question": "What special feature did the high-definition Blu-ray Disc edition of the film include?",
+        "answers": [
+            "Director's commentary"
+        ]
+    },
+    {
+        "query_id": "qa_164_429",
+        "question": "Who are the leading actresses in The Holiday?",
+        "answers": [
+            "Kate Winslet and Cameron Diaz"
+        ]
+    },
+    {
+        "query_id": "qa_164_2183",
+        "question": "How many studio albums does Peter Gabriel have?",
+        "answers": [
+            "9"
+        ]
+    },
+    {
+        "query_id": "qa_164_7706",
+        "question": "What is the main character of the movie 'Pi'?",
+        "answers": [
+            "Protagonist: mathematician"
+        ]
+    },
+    {
+        "query_id": "qa_164_3250",
+        "question": "How many awards did Michael Lucas' La Dolce Vita win at the GayVN Awards in 2007?",
+        "answers": [
+            "14"
+        ]
+    },
+    {
+        "query_id": "qa_164_341",
+        "question": "What is the significance of 'Rehab' in relation to Amy Winehouse's alcohol addiction?",
+        "answers": [
+            "\"Rehab\" addresses Winehouse's refusal to enter rehab for alcohol."
+        ]
+    },
+    {
+        "query_id": "qa_164_3549",
+        "question": "What is the title of the 2013 science-fiction romantic drama film directed by Spike Jonze?",
+        "answers": [
+            "Her (stylized in lowercase)"
+        ]
+    },
+    {
+        "query_id": "qa_164_8279",
+        "question": "What is the title of the 1964 American black-and-white war comedy anti-war film directed by Arthur Hiller and written by Paddy Chayefsky?",
+        "answers": [
+            "a"
+        ]
+    },
+    {
+        "query_id": "qa_164_6388",
+        "question": "What is the title of Trace Adkins' fourth studio album?",
+        "answers": [
+            "Chrome"
+        ]
+    },
+    {
+        "query_id": "qa_164_7113",
+        "question": "Who plays James Payton in Ride Along 2?",
+        "answers": [
+            "Ice Cube (Cube)"
+        ]
+    },
+    {
+        "query_id": "qa_164_5217",
+        "question": "Why is 'The Kid' considered one of the greatest films of the silent era",
+        "answers": [
+            "Not specified."
+        ]
+    },
+    {
+        "query_id": "qa_164_6886",
+        "question": "What genre is 'The Dove'",
+        "answers": [
+            "silent, romantic drama"
+        ]
+    },
+    {
+        "query_id": "qa_164_1424",
+        "question": "Who directed the Tamil-language political action film Aayutha Ezhuthu in 2004?",
+        "answers": [
+            "Mani Ratnam"
+        ]
+    },
+    {
+        "query_id": "qa_164_4680",
+        "question": "Who won the Best Supporting Actress award at the 82nd Academy Awards?",
+        "answers": [
+            "Mo'Nique"
+        ]
+    },
+    {
+        "query_id": "qa_164_897",
+        "question": "What genre is the Romanian film directed by Lucian Pintilie and released in 1992?",
+        "answers": [
+            "Drama"
+        ]
+    },
+    {
+        "query_id": "qa_164_6514",
+        "question": "What certification level did The Slim Shady LP achieve from the RIAA?",
+        "answers": [
+            "Quadruple platinum"
+        ]
+    },
+    {
+        "query_id": "qa_164_7369",
+        "question": "How much money did the movie Click make at the box office?",
+        "answers": [
+            "$240.7 million"
+        ]
+    },
+    {
+        "query_id": "qa_164_4439",
+        "question": "Who directed 'The Brat'?",
+        "answers": [
+            "Herbert Blache"
+        ]
+    },
+    {
+        "query_id": "qa_164_1987",
+        "question": "Who are the main characters in 'In America'?",
+        "answers": [
+            "E"
+        ]
+    },
+    {
+        "query_id": "qa_164_3121",
+        "question": "In what year was Hoffmeyer's Legacy, a comedy short directed by Mack Sennett, released?",
+        "answers": [
+            "1912"
+        ]
+    },
+    {
+        "query_id": "qa_164_4897",
+        "question": "In which country was the movie Run produced?",
+        "answers": [
+            "Indian"
+        ]
+    },
+    {
+        "query_id": "qa_164_7090",
+        "question": "What award did Jagriti win in 1956?",
+        "answers": [
+            "Jagriti won the Filmfare Award for Best Film in 1956."
+        ]
+    },
+    {
+        "query_id": "qa_164_2336",
+        "question": "What did Gordon Ramsay try to do for Amy's Baking Company in the 16th episode of the sixth season of Kitchen Nightmares?",
+        "answers": [
+            "Helped"
+        ]
+    },
+    {
+        "query_id": "qa_164_4337",
+        "question": "In what year was Michael Jackson's seventh studio album Bad released by Epic Records?",
+        "answers": [
+            "1987"
+        ]
+    },
+    {
+        "query_id": "qa_164_411",
+        "question": "What genre is 'The Roof'?",
+        "answers": [
+            "drama"
+        ]
+    },
+    {
+        "query_id": "qa_164_7185",
+        "question": "When was Endless Wire released?",
+        "answers": [
+            "October 30, 2006."
+        ]
+    },
+    {
+        "query_id": "qa_164_1976",
+        "question": "Who is the subject of the film Eat?",
+        "answers": [
+            "Robert Indiana"
+        ]
+    },
+    {
+        "query_id": "qa_164_2161",
+        "question": "What genre is the movie?",
+        "answers": [
+            "1940 American drama"
+        ]
+    },
+    {
+        "query_id": "qa_164_3457",
+        "question": "Who is the Scottish-Canadian filmmaker behind the anti-war film, Neighbours (French title: Voisins), produced by the National Film Board of Canada in 1952?",
+        "answers": [
+            "Norman McLaren"
+        ]
+    },
+    {
+        "query_id": "qa_164_3467",
+        "question": "Who directed 1999's action film?",
+        "answers": [
+            "To"
+        ]
+    },
+    {
+        "query_id": "qa_164_7041",
+        "question": "What is the relation of Arthur 2: On the Rocks to the original film?",
+        "answers": [
+            "sequel"
+        ]
+    },
+    {
+        "query_id": "qa_164_60",
+        "question": "Who is the supporting actress in the 1932 American pre-Code comedy-drama film 'Emma' released by Metro-Goldwyn-Mayer?",
+        "answers": [
+            "Myrna Loy"
+        ]
+    },
+    {
+        "query_id": "qa_164_597",
+        "question": "How was the 1993 horror musical short film 'Broken' distributed before being officially released?",
+        "answers": [
+            "leaked as a bootleg"
+        ]
+    },
+    {
+        "query_id": "qa_164_3107",
+        "question": "What is the title of Missy Elliott's fourth studio album?",
+        "answers": [
+            "Title: Under Construction"
+        ]
+    },
+    {
+        "query_id": "qa_164_6066",
+        "question": "What is the title of the 1937 British drama film directed by Jack Raymond and starring Anton Walbrook, Ruth Chatterton, and Ren\u00e9 Ray?",
+        "answers": [
+            "The Rat"
+        ]
+    },
+    {
+        "query_id": "qa_164_1640",
+        "question": "What is the title of the 2003 Indian Telugu-language action comedy film directed by V.V. Vinayak, starring Nithiin, Neha, and Prakash Raj?",
+        "answers": [
+            "Dil"
+        ]
+    },
+    {
+        "query_id": "qa_164_4224",
+        "question": "What genre is the film 'After Hours'?",
+        "answers": [
+            "black comedy"
+        ]
+    },
+    {
+        "query_id": "qa_164_4547",
+        "question": "Who directed The Net 2.0?",
+        "answers": [
+            "Charles Winkler"
+        ]
+    },
+    {
+        "query_id": "qa_164_3266",
+        "question": "Where is The Myth from?",
+        "answers": [
+            "Hong Kong\u2014Chinese"
+        ]
+    },
+    {
+        "query_id": "qa_164_155",
+        "question": "What song was originally going to be included on Bryan Adams' compilation album So Far So Good but was dropped?",
+        "answers": [
+            "So Far So Good"
+        ]
+    },
+    {
+        "query_id": "qa_164_726",
+        "question": "What is the name of the film directed by Michel Hazanavicius and produced by Thomas Langmann that competed for the Palme d'Or in the Cannes Film Festival in 2014?",
+        "answers": [
+            "The Search (2014)"
+        ]
+    },
+    {
+        "query_id": "qa_164_8045",
+        "question": "Where was the principal photography for 'The Victim' located?",
+        "answers": [
+            "Topanga Canyon"
+        ]
+    },
+    {
+        "query_id": "qa_164_7208",
+        "question": "How did Russia perform in the Eurovision Song Contest in 2006?",
+        "answers": [
+            "2nd place"
+        ]
+    },
+    {
+        "query_id": "qa_164_4183",
+        "question": "Where was Seeking Justice filmed?",
+        "answers": [
+            "New Orleans"
+        ]
+    },
+    {
+        "query_id": "qa_164_5074",
+        "question": "Where did this movie have its premiere?",
+        "answers": [
+            "The movie had its premiere at the Royal Opera House, Covent Garden."
+        ]
+    },
+    {
+        "query_id": "qa_164_2468",
+        "question": "Who directed The Cardinal?",
+        "answers": [
+            "Otto Preminger"
+        ]
+    },
+    {
+        "query_id": "qa_164_3166",
+        "question": "Where is Nadodi Thendral set?",
+        "answers": [
+            "British India"
+        ]
+    },
+    {
+        "query_id": "qa_164_1765",
+        "question": "Which two singles from Adele's debut album reached the top ten on the UK Singles Chart?",
+        "answers": [
+            "Chasing Pavements, Make You Feel My Love"
+        ]
+    },
+    {
+        "query_id": "qa_164_5115",
+        "question": "In what year was the book Een dagje naar het strand by Dutch author Heere Heeresma published?",
+        "answers": [
+            "1962"
+        ]
+    },
+    {
+        "query_id": "qa_164_2868",
+        "question": "Who stars in The Interview?",
+        "answers": [
+            "Seth Rogen, James Franco"
+        ]
+    },
+    {
+        "query_id": "qa_164_386",
+        "question": "What is the original name of the song 'Numb' by U2 before it was transformed during the recording of their album Zooropa?",
+        "answers": [
+            "Down All the Days"
+        ]
+    },
+    {
+        "query_id": "qa_164_6078",
+        "question": "Who directed The Island?",
+        "answers": [
+            "Unknown"
+        ]
+    },
+    {
+        "query_id": "qa_164_6853",
+        "question": "What is the genre of the movie?",
+        "answers": [
+            "Unknown"
+        ]
+    },
+    {
+        "query_id": "qa_164_3503",
+        "question": "What TV show won Favorite Cable TV Drama at the 39th People's Choice Awards?",
+        "answers": [
+            "Leverage (2013)"
+        ]
+    },
+    {
+        "query_id": "qa_164_2717",
+        "question": "What was the name of the main character played by Bibi Andersson in Persona?",
+        "answers": [
+            "Alma"
+        ]
+    },
+    {
+        "query_id": "qa_164_1644",
+        "question": "What is Friends' rank on TV Guide's 50 Greatest TV Shows of All Time?",
+        "answers": [
+            "21"
+        ]
+    },
+    {
+        "query_id": "qa_164_4315",
+        "question": "Which companies produced the film 'On the Job'?",
+        "answers": [
+            "Star Cinema and Reality Entertainment"
+        ]
+    },
+    {
+        "query_id": "qa_164_1052",
+        "question": "Who plays a role in the movie A Good Year?",
+        "answers": [
+            "Didier Bourdon"
+        ]
+    },
+    {
+        "query_id": "qa_164_3357",
+        "question": "Who plays the wholesome country girl in the film Victim?",
+        "answers": [
+            "Ashley Madekwe"
+        ]
+    },
+    {
+        "query_id": "qa_164_3348",
+        "question": "Who are the female leads in Romance on the Range? ",
+        "answers": [
+            "Payne, Hayes"
+        ]
+    },
+    {
+        "query_id": "qa_164_6576",
+        "question": "How much income did Titanic generate from various sources?",
+        "answers": [
+            "$3.2B"
+        ]
+    },
+    {
+        "query_id": "qa_164_5625",
+        "question": "Who wrote the true story behind the movie Best Friends?",
+        "answers": [
+            "Barry Levinson and Valerie Curtin"
+        ]
+    },
+    {
+        "query_id": "qa_164_373",
+        "question": "Who are the main actors in the 1936 comedy movie 'Our Relations', directed by Harry Lachman and produced by Stan Laurel for Hal Roach Studios?",
+        "answers": [
+            "Laurel and Hardy"
+        ]
+    },
+    {
+        "query_id": "qa_164_4091",
+        "question": "Who directed the film that George Lucas made a documentary about in 1968?",
+        "answers": [
+            "Francis Ford Coppola"
+        ]
+    },
+    {
+        "query_id": "qa_164_8249",
+        "question": "Who are the cast members of The Bay?",
+        "answers": [
+            "Kether Donohue, Nansi Aluka, Christopher Denham, Frank Deal, and Kristen Connolly"
+        ]
+    },
+    {
+        "query_id": "qa_164_4922",
+        "question": "Who starred in the 1982 Irish film Angel, also known as Danny Boy in the United States, which was directed by Neil Jordan?",
+        "answers": [
+            "Stephen Rea"
+        ]
+    },
+    {
+        "query_id": "qa_164_5989",
+        "question": "Who replaced Walter Afanasieff in producing Rainbow by Mariah Carey?",
+        "answers": [
+            "Jimmy Jam & Terry Lewis"
+        ]
+    },
+    {
+        "query_id": "qa_164_789",
+        "question": "What genre is the movie 'Shock'?",
+        "answers": [
+            "supernatural horror"
+        ]
+    },
+    {
+        "query_id": "qa_164_5561",
+        "question": "Who directed the 1937 film 'Call It a Day'?",
+        "answers": [
+            "Director: Archie Mayo"
+        ]
+    },
+    {
+        "query_id": "qa_164_2692",
+        "question": "What genre of film is Bird?",
+        "answers": [
+            "Biographical musical drama"
+        ]
+    },
+    {
+        "query_id": "qa_164_2369",
+        "question": "What genre is the movie?",
+        "answers": [
+            "romantic action thriller"
+        ]
+    },
+    {
+        "query_id": "qa_164_8318",
+        "question": "Who is the band member involved in the New York Gong project?",
+        "answers": [
+            "da"
+        ]
+    },
+    {
+        "query_id": "qa_164_6698",
+        "question": "In what year was Friday the 13th Part 2 released?",
+        "answers": [
+            "1981"
+        ]
+    },
+    {
+        "query_id": "qa_164_3890",
+        "question": "What topic did the director of the film want to educate others about through the film, but instead should have produced a non-fiction documentary piece according to the reviews?",
+        "answers": [
+            "Cults topic for doc piece?"
+        ]
+    },
+    {
+        "query_id": "qa_164_5843",
+        "question": "Who are two of the main actors in the movie 'No Clue'?",
+        "answers": [
+            "Amy Smart, David Koechner"
+        ]
+    },
+    {
+        "query_id": "qa_164_5901",
+        "question": "What novel is Candy based on?",
+        "answers": [
+            "Luke Davies's 1998 novel Candy: A Novel of Love and Addiction"
+        ]
+    },
+    {
+        "query_id": "qa_164_2778",
+        "question": "Who wrote the script for 'Glorifying the American Girl'?",
+        "answers": [
+            "J.P. McEvoy and Millard Webb"
+        ]
+    },
+    {
+        "query_id": "qa_164_6372",
+        "question": "Who played the protagonist in The Lover?",
+        "answers": [
+            "Jane March"
+        ]
+    },
+    {
+        "query_id": "qa_164_889",
+        "question": "What setting does the story of Hugo take place in?",
+        "answers": [
+            "Gare Montparnasse railway station"
+        ]
+    },
+    {
+        "query_id": "qa_164_7568",
+        "question": "Who played the character Quorra in Tron: Legacy?",
+        "answers": [
+            "Olivia Wilde"
+        ]
+    },
+    {
+        "query_id": "qa_164_5303",
+        "question": "In what year was Sphere released?",
+        "answers": [
+            "Sphere was released in 1998."
+        ]
+    },
+    {
+        "query_id": "qa_164_4383",
+        "question": "Q2: Who directed and produced the Russian teen romantic comedy 'Heat'?",
+        "answers": [
+            "\"Heat\" was directed by Rezo Gigineishvili and produced by Fyodor Bondarchuk."
+        ]
+    },
+    {
+        "query_id": "qa_164_880",
+        "question": "Who filmed The Blank Generation (1976)?",
+        "answers": [
+            "The filmmakers of The Blank Generation (1976) are Amos Poe and Ivan Kral."
+        ]
+    },
+    {
+        "query_id": "qa_164_6134",
+        "question": "Which organization financed the film Jesus? ",
+        "answers": [
+            "Campus Crusade for Christ ($6M)"
+        ]
+    },
+    {
+        "query_id": "qa_164_7556",
+        "question": "Who produced the film Spy?",
+        "answers": [
+            "Peter Chernin, Jenno Topping, Feig, Jessie Henderson"
+        ]
+    },
+    {
+        "query_id": "qa_164_6807",
+        "question": "Who is the main character of Ray?",
+        "answers": [
+            "Ray"
+        ]
+    },
+    {
+        "query_id": "qa_164_2192",
+        "question": "Who are the lead actors in the movie 'Ondu Kshanadalli'?",
+        "answers": [
+            "A: Tarun Chandra, Sanjjanaa and Bhama"
+        ]
+    },
+    {
+        "query_id": "qa_164_509",
+        "question": "What is the nationality and citizenship of the director of the documentary about the comedy tour in the Middle East?",
+        "answers": [
+            "Egyptian-American (Ahmed Ahmed)"
+        ]
+    },
+    {
+        "query_id": "qa_164_1907",
+        "question": "What is the name of the movie 'Arsenal'?",
+        "answers": [
+            "Arsenal"
+        ]
+    },
+    {
+        "query_id": "qa_164_6458",
+        "question": "Q1: What is the name of the 1985 Western film produced and directed by Clint Eastwood?",
+        "answers": [
+            "\"Pale Rider\""
+        ]
+    },
+    {
+        "query_id": "qa_164_4366",
+        "question": "Who directed the film Fast Workers, and what background information is associated with this director?",
+        "answers": [
+            "Tod Browning, potential background information: uncredited"
+        ]
+    },
+    {
+        "query_id": "qa_164_34",
+        "question": "Who directed the movie 'Game'?",
+        "answers": [
+            "Abhinay Deo"
+        ]
+    },
+    {
+        "query_id": "qa_164_2291",
+        "question": "How many copies was the album Echo certified by the RIAA?",
+        "answers": [
+            "500k (Gold)"
+        ]
+    },
+    {
+        "query_id": "qa_164_4868",
+        "question": "Who plays Jack Torrance's son in \"The Shining\"?",
+        "answers": [
+            "Danny Lloyd"
+        ]
+    },
+    {
+        "query_id": "qa_164_7038",
+        "question": "In what year was Arthur 2: On the Rocks released?",
+        "answers": [
+            "1988"
+        ]
+    },
+    {
+        "query_id": "qa_164_8135",
+        "question": "Which European locations were used to shoot The Grand Budapest Hotel?",
+        "answers": [
+            "Various European locations, including the Grand Hotel Pupp in Carlsbad, Czech Republic, and the Gorlitz Railway Station in Gorlitz, Germany."
+        ]
+    },
+    {
+        "query_id": "qa_164_5994",
+        "question": "Which song from Mariah Carey's album Rainbow featured Joe and 98 Degrees?",
+        "answers": [
+            "Thank God I Found You"
+        ]
+    },
+    {
+        "query_id": "qa_164_6538",
+        "question": "Who are the main actors in What Just Happened?",
+        "answers": [
+            "De Niro, Keener, Wright Penn, Tucci, Bloodgood, Turturro, Penn, Wincott, Willis"
+        ]
+    },
+    {
+        "query_id": "qa_164_4908",
+        "question": "Who is the artist behind the album '\u221e' released in 2014?",
+        "answers": [
+            "Yann Tiersen"
+        ]
+    },
+    {
+        "query_id": "qa_164_3955",
+        "question": "When did Japanese Reprise reissue Jennifer Warnes' third album, and what is the catalog number?",
+        "answers": [
+            "2013 (WPCR-14865)"
+        ]
+    },
+    {
+        "query_id": "qa_164_3325",
+        "question": "Who wrote the novel that the movie is based on?",
+        "answers": [
+            "Crichton"
+        ]
+    },
+    {
+        "query_id": "qa_164_1933",
+        "question": "Who starred in the Cheyenne Social Club?",
+        "answers": [
+            "James Stewart"
+        ]
+    },
+    {
+        "query_id": "qa_164_3983",
+        "question": "Which record label did Paul Simon release his eleventh solo studio album 'Surprise' under in 2006?",
+        "answers": [
+            "Warner Bros. Records"
+        ]
+    },
+    {
+        "query_id": "qa_164_6725",
+        "question": "In what country was the movie 'Everyone Else' made?",
+        "answers": [
+            "Germany"
+        ]
+    },
+    {
+        "query_id": "qa_164_1739",
+        "question": "What type of character is the sorority girl in the movie Pumpkin?",
+        "answers": [
+            "a character type"
+        ]
+    },
+    {
+        "query_id": "qa_164_5785",
+        "question": "In which time period does the Soviet biographical film 'Agony' depict events?",
+        "answers": [
+            "Answer: Final year of Imperial Russia"
+        ]
+    },
+    {
+        "query_id": "qa_164_4765",
+        "question": "How many Filmfare Awards did the movie win?",
+        "answers": [
+            "Three"
+        ]
+    },
+    {
+        "query_id": "qa_164_2615",
+        "question": "Where is the movie from?",
+        "answers": [
+            "American"
+        ]
+    },
+    {
+        "query_id": "qa_164_5056",
+        "question": "Which major cast members appeared in Tarzan's Greatest Adventure?",
+        "answers": [
+            "Anthony Quayle, Sean Connery"
+        ]
+    },
+    {
+        "query_id": "qa_164_2212",
+        "question": "Who wrote and produced Little Man alongside Keenen Ivory Wayans?",
+        "answers": [
+            "Marlon and Shawn Wayans"
+        ]
+    },
+    {
+        "query_id": "qa_164_1948",
+        "question": "What is the status of 'Family Law' for the Oscars?",
+        "answers": [
+            "official submission"
+        ]
+    },
+    {
+        "query_id": "qa_164_5037",
+        "question": "In what year was the movie 'No Problem' released?",
+        "answers": [
+            "2010"
+        ]
+    },
+    {
+        "query_id": "qa_164_5647",
+        "question": "Who produced Ryan Adams' 'Ashes & Fire'?",
+        "answers": [
+            "Glyn Johns"
+        ]
+    },
+    {
+        "query_id": "qa_164_4329",
+        "question": "What were the creative differences between Nelson and Geffen Records executives?",
+        "answers": [
+            "The creative differences between Nelson and Geffen Records executives led to Nelson leaving the label."
+        ]
+    },
+    {
+        "query_id": "qa_164_3560",
+        "question": "What was the critical reception of Her?",
+        "answers": [
+            "Her received widespread critical acclaim."
+        ]
+    },
+    {
+        "query_id": "qa_164_7765",
+        "question": "Who starred in the film Conviction, released in 2010?",
+        "answers": [
+            "Hilary Swank and Sam Rockwell"
+        ]
+    },
+    {
+        "query_id": "qa_164_8309",
+        "question": "For what reason was Toy Story selected for preservation by the Library of Congress?",
+        "answers": [
+            "For being \"culturally, historically, or aesthetically significant\""
+        ]
+    },
+    {
+        "query_id": "qa_164_1771",
+        "question": "In which country did Adele's album '19' reach number one?",
+        "answers": [
+            "United Kingdom"
+        ]
+    },
+    {
+        "query_id": "qa_164_1808",
+        "question": "Who are the authors of the play The Bat?",
+        "answers": [
+            "Mary Roberts Rinehart, Avery Hopwood"
+        ]
+    },
+    {
+        "query_id": "qa_164_5869",
+        "question": "Who stars in Are You Here?",
+        "answers": [
+            "Wilson, Galifianakis, Poehler"
+        ]
+    },
+    {
+        "query_id": "qa_164_6973",
+        "question": "Who are the main cast members of 'Chase'?",
+        "answers": [
+            "Anuj Saxena, Udita Goswami, Sameer Kochhar, Tareena Patel"
+        ]
+    },
+    {
+        "query_id": "qa_164_3598",
+        "question": "In what year and month was Vanilla Ninja's 'Best Of' album released?",
+        "answers": [
+            "December 2005"
+        ]
+    },
+    {
+        "query_id": "qa_164_7691",
+        "question": "In what location does the movie Fresh take place, and what social issue does it portray?",
+        "answers": [
+            "Fresh is set in New York City's projects during the crack epidemic in the movie."
+        ]
+    },
+    {
+        "query_id": "qa_164_2314",
+        "question": "When was the film re-released and what changes were made to it?",
+        "answers": [
+            "1985, '82, '02, Alter Shots, Visuals, Add Scenes"
+        ]
+    },
+    {
+        "query_id": "qa_164_1743",
+        "question": "Where was the independent drama film 'Cracks' mostly filmed?",
+        "answers": [
+            "Location: County Wicklow, Ireland"
+        ]
+    },
+    {
+        "query_id": "qa_164_4966",
+        "question": "What is 'My Last Day'?",
+        "answers": [
+            "My Last Day"
+        ]
+    },
+    {
+        "query_id": "qa_164_3927",
+        "question": "What is Aliens' current reputation among film critics and audiences?",
+        "answers": [
+            "Aliens is now considered among the greatest films of the 1980s"
+        ]
+    },
+    {
+        "query_id": "qa_164_5546",
+        "question": "What is the name of the female lead in Wang Xiaoshuai's first film?",
+        "answers": [
+            "Yu Hong"
+        ]
+    },
+    {
+        "query_id": "qa_164_2036",
+        "question": "Who directed the movie Green Light?",
+        "answers": [
+            "Frank Borzage"
+        ]
+    },
+    {
+        "query_id": "qa_164_1986",
+        "question": "Who directed 'In America'?",
+        "answers": [
+            "D"
+        ]
+    },
+    {
+        "query_id": "qa_164_5177",
+        "question": "What is the title of the 1985 Italian giallo-horror film directed by Dario Argento starring Jennifer Connelly and others?",
+        "answers": [
+            "Title: Phenomena"
+        ]
+    },
+    {
+        "query_id": "qa_164_1861",
+        "question": "Who composed the original score for Arizona?",
+        "answers": [
+            "Victor Young"
+        ]
+    },
+    {
+        "query_id": "qa_164_7290",
+        "question": "What was Kill's position on the Billboard 200 chart after its release?",
+        "answers": [
+            "Kill debuted at number 170 on the Billboard 200 chart after its release."
+        ]
+    },
+    {
+        "query_id": "qa_164_2732",
+        "question": "Which actors appeared in supporting roles in Amistad (1997), besides Morgan Freeman, Anthony Hopkins, and Matthew McConaughey?",
+        "answers": [
+            "Pete Postlethwaite and Nigel Hawthorne"
+        ]
+    },
+    {
+        "query_id": "qa_164_330",
+        "question": "Who directed the film Tai-Pan?",
+        "answers": [
+            "Daryl Duke"
+        ]
+    },
+    {
+        "query_id": "qa_164_807",
+        "question": "What is the title of the documentary and where is it set?",
+        "answers": [
+            "The title of the documentary is 'The Farm: Angola, USA' and it is set at Louisiana State Penitentiary, known as Angola."
+        ]
+    },
+    {
+        "query_id": "qa_164_1338",
+        "question": "When was Skyline released in Europe?",
+        "answers": [
+            "17 October 2011"
+        ]
+    },
+    {
+        "query_id": "qa_164_6299",
+        "question": "Who directed the movie 'Mother and Child'",
+        "answers": [
+            "Carl Froelich"
+        ]
+    },
+    {
+        "query_id": "qa_164_3981",
+        "question": "In what year was Paul Simon's eleventh solo studio album 'Surprise' released?",
+        "answers": [
+            "2006"
+        ]
+    },
+    {
+        "query_id": "qa_164_6077",
+        "question": "In which film festival did The Island premiere?",
+        "answers": [
+            "Directors\u2019 Fortnight"
+        ]
+    },
+    {
+        "query_id": "qa_164_7839",
+        "question": "When was the single \"Live Your Life\" by T.I. Released?",
+        "answers": [
+            "September 8, 2008"
+        ]
+    },
+    {
+        "query_id": "qa_164_7578",
+        "question": "When was Tron: Legacy released in the United States and who released it?",
+        "answers": [
+            "Dec. 17, 2010, by Walt Disney Studios Motion Pictures."
+        ]
+    },
+    {
+        "query_id": "qa_164_3115",
+        "question": "When did production on '3 Minutes' begin",
+        "answers": [
+            "2010"
+        ]
+    },
+    {
+        "query_id": "qa_164_979",
+        "question": "Who is the director of the unfinished making-of film about the production of his 1962 film The Trial?",
+        "answers": [
+            "Orson Welles"
+        ]
+    },
+    {
+        "query_id": "qa_164_3276",
+        "question": "What type of song is \"2 On\"?",
+        "answers": [
+            "Party song"
+        ]
+    },
+    {
+        "query_id": "qa_164_5045",
+        "question": "Who is the guitarist of Zulu, Papa John Creach's band in this album?",
+        "answers": [
+            "Keb' Mo'"
+        ]
+    },
+    {
+        "query_id": "qa_164_868",
+        "question": "Which album does the song \"Innocent\" belong to?",
+        "answers": [
+            "Speak Now (2010)"
+        ]
+    },
+    {
+        "query_id": "qa_164_423",
+        "question": "What is the source material for the lost 1920 American silent comedy film produced by Alla Nazimova and distributed by Metro Pictures?",
+        "answers": [
+            "French play, L'Homme riche"
+        ]
+    },
+    {
+        "query_id": "qa_164_1235",
+        "question": "When was the movie Trick released?",
+        "answers": [
+            "July 1999"
+        ]
+    },
+    {
+        "query_id": "qa_164_2398",
+        "question": "What memoir did the story of The General adapt from?",
+        "answers": [
+            "The Great Locomotive Chase"
+        ]
+    },
+    {
+        "query_id": "qa_164_7625",
+        "question": "When was Planes: Fire & Rescue released theatrically?",
+        "answers": [
+            "July 18, 2014"
+        ]
+    },
+    {
+        "query_id": "qa_164_4319",
+        "question": "Who produced the album Thrillington, and what was the pseudonym used for the credited artist?",
+        "answers": [
+            "A: McCartney (Thrills)"
+        ]
+    },
+    {
+        "query_id": "qa_164_3337",
+        "question": "Who directed the 2003 American drama film The Company?",
+        "answers": [
+            "Robert Altman"
+        ]
+    },
+    {
+        "query_id": "qa_164_5650",
+        "question": "What tone does Ryan Adams use in 'Ashes & Fire' to describe his memories and experiences?",
+        "answers": [
+            "kindler view of the self"
+        ]
+    },
+    {
+        "query_id": "qa_164_4885",
+        "question": "Who directed the trilogy film Angels?",
+        "answers": [
+            "Gina Alajar"
+        ]
+    },
+    {
+        "query_id": "qa_164_3900",
+        "question": "What novel did the film The Show adapt from?",
+        "answers": [
+            "Charles Tenney Jackson's The Day of Souls"
+        ]
+    },
+    {
+        "query_id": "qa_164_8063",
+        "question": "Who else directed the Italian drama film Heart and Soul in 1948?",
+        "answers": [
+            "Duilio Coletti"
+        ]
+    },
+    {
+        "query_id": "qa_164_7365",
+        "question": "Who was the director of the movie Click?",
+        "answers": [
+            "Frank Coraci"
+        ]
+    },
+    {
+        "query_id": "qa_164_2298",
+        "question": "Who is the artist behind Back Home?",
+        "answers": [
+            "Berry"
+        ]
+    },
+    {
+        "query_id": "qa_164_360",
+        "question": "In what year was On the Town released?",
+        "answers": [
+            "1949"
+        ]
+    },
+    {
+        "query_id": "qa_164_884",
+        "question": "Who starred in Together in 1971?",
+        "answers": [
+            "Wes Craven"
+        ]
+    },
+    {
+        "query_id": "qa_164_2481",
+        "question": "What are the titles of the remakes of the film Victory?",
+        "answers": [
+            "Remakes: Dangerous Paradise, Victory"
+        ]
+    },
+    {
+        "query_id": "qa_164_5011",
+        "question": "What is the title of the Somerset Maugham short story that the British film Vessel of Wrath is based on?",
+        "answers": [
+            "The Vessel of Wrath"
+        ]
+    },
+    {
+        "query_id": "qa_164_2150",
+        "question": "Which album holds the title of 'best-selling album by a female Latin artist'?",
+        "answers": [
+            "Title unknown"
+        ]
+    },
+    {
+        "query_id": "qa_164_2643",
+        "question": "Who are the main characters in the movie 'George Washington'?",
+        "answers": [
+            "group of children"
+        ]
+    },
+    {
+        "query_id": "qa_164_5349",
+        "question": "What is the title of the 1963 Alfred Hitchcock movie about bird attacks in California?",
+        "answers": [
+            "The Birds"
+        ]
+    },
+    {
+        "query_id": "qa_164_2082",
+        "question": "Who was the villain in Star Trek: First Contact?",
+        "answers": [
+            "Borg"
+        ]
+    },
+    {
+        "query_id": "qa_164_6652",
+        "question": "Who did Kesha collaborate with in the second video for 'Take It Off'?",
+        "answers": [
+            "Jeffree Star"
+        ]
+    },
+    {
+        "query_id": "qa_164_4747",
+        "question": "In what year was the black-and-white Chinese animation New Year (Chinese: \u904e\u5e74; pinyin: Gu\u00f2 Ni\u00e1n) made?",
+        "answers": [
+            "1924"
+        ]
+    },
+    {
+        "query_id": "qa_164_5470",
+        "question": "In which countries did Hotel reach No. 1?",
+        "answers": [
+            "Belgium, Switzerland"
+        ]
+    },
+    {
+        "query_id": "qa_164_8359",
+        "question": "What is the title of the black-and-white film directed by Leni Riefenstahl in 1932 with a sympathetic witch character played by Riefenstahl?",
+        "answers": [
+            "The Blue Light"
+        ]
+    },
+    {
+        "query_id": "qa_164_7560",
+        "question": "Who directed and wrote Are You Here?",
+        "answers": [
+            "Matthew Weiner"
+        ]
+    },
+    {
+        "query_id": "qa_164_3721",
+        "question": "What year was the movie 'The Ref' released?",
+        "answers": [
+            "1994"
+        ]
+    },
+    {
+        "query_id": "qa_164_6443",
+        "question": "What was the critical reception to Off the Wall?",
+        "answers": [
+            "Off the Wall was an enormous critical success."
+        ]
+    },
+    {
+        "query_id": "qa_164_1499",
+        "question": "Who distributed the movie Smart People?",
+        "answers": [
+            "Miramax Films"
+        ]
+    },
+    {
+        "query_id": "qa_164_5241",
+        "question": "Who directed the movie 'I Am Love'",
+        "answers": [
+            "Luca Guadagnino"
+        ]
+    },
+    {
+        "query_id": "qa_164_6182",
+        "question": "In what year was the documentary Let It Be released?",
+        "answers": [
+            "b"
+        ]
+    },
+    {
+        "query_id": "qa_164_1542",
+        "question": "Who were the screenwriters of the movie 'The Cowboys'?",
+        "answers": [
+            "Irving Ravetch, Harriet Frank, Jr., William Dale Jennings"
+        ]
+    },
+    {
+        "query_id": "qa_164_561",
+        "question": "Who won a Special Jury Prize for supporting actress in Precious?",
+        "answers": [
+            "Mo'Nique"
+        ]
+    },
+    {
+        "query_id": "qa_164_3476",
+        "question": "Who is the distributor of The Campaign?",
+        "answers": [
+            "Warner Bros Pictures"
+        ]
+    },
+    {
+        "query_id": "qa_164_8049",
+        "question": "What is the name of the 2010 New Zealand comedy-drama film written and directed by Taika Waititi?",
+        "answers": [
+            "Boy"
+        ]
+    },
+    {
+        "query_id": "qa_164_4860",
+        "question": "Who was the director and producer of the movie Junior?",
+        "answers": [
+            "Ivan Reitman"
+        ]
+    },
+    {
+        "query_id": "qa_164_2352",
+        "question": "What is the real name of Owl City?",
+        "answers": [
+            "Answer: Adam Young"
+        ]
+    },
+    {
+        "query_id": "qa_164_213",
+        "question": "What is the title of the 2007 American drama film directed by Tom McCarthy?",
+        "answers": [
+            "The Visitor"
+        ]
+    },
+    {
+        "query_id": "qa_164_2932",
+        "question": "What is the title and release order of Canned Heat's sixth album?",
+        "answers": [
+            "Vintage"
+        ]
+    },
+    {
+        "query_id": "qa_164_336",
+        "question": "Would a mini-series adaptation have been a better choice for adapting James Clavell's novel?",
+        "answers": [
+            "Mini-series alternative"
+        ]
+    },
+    {
+        "query_id": "qa_164_7437",
+        "question": "Which American rock band released the album I'm with You in 2011?",
+        "answers": [
+            "Red Hot Chili Peppers"
+        ]
+    },
+    {
+        "query_id": "qa_164_5639",
+        "question": "What themes and narratives were central to the sequels Aliens, Alien 3, and Alien Resurrection, and how were they related to Ellen Ripley's encounters with the alien creatures?",
+        "answers": [
+            "Alien encounters"
+        ]
+    },
+    {
+        "query_id": "qa_164_7601",
+        "question": "What is the name of the movie released in 2011 that grossed $177 million at the box office?",
+        "answers": [
+            "The Descendants (2011)"
+        ]
+    },
+    {
+        "query_id": "qa_164_5768",
+        "question": "Who directed the 1965 underground film Horse?",
+        "answers": [
+            "Andy Warhol"
+        ]
+    },
+    {
+        "query_id": "qa_164_52",
+        "question": "What genre does the movie Dual belong to?",
+        "answers": [
+            "Western"
+        ]
+    },
+    {
+        "query_id": "qa_164_1711",
+        "question": "Which record labels released the Blue DVD by The Birthday Massacre in the United States and Canada, respectively?",
+        "answers": [
+            "Metropolis Records"
+        ]
+    },
+    {
+        "query_id": "qa_164_3848",
+        "question": "What is the title of the 1983 American horror film directed by Jackie Kong and starring Martin Landau, Jos\u00e9 Ferrer, Dorothy Malone, Ruth Buzzi, Marianne Gordon, and Bill Osco?",
+        "answers": [
+            "The Being"
+        ]
+    },
+    {
+        "query_id": "qa_164_300",
+        "question": "Who played the role of Ben Tyler in the movie One Week?",
+        "answers": [
+            "Joshua Jackson"
+        ]
+    },
+    {
+        "query_id": "qa_164_103",
+        "question": "Who directed the 1988 American comedy-drama film adapted from Iris Rainer Dart's novel?",
+        "answers": [
+            "Garry Marshall"
+        ]
+    },
+    {
+        "query_id": "qa_164_5890",
+        "question": "Who composed the music for the movie 1977?",
+        "answers": [
+            "Vidyasagar"
+        ]
+    },
+    {
+        "query_id": "qa_164_7095",
+        "question": "What is the title of the 2009 Japanese drama film directed by Hirokazu Kore-eda that stars Bae Doona as an inflatable sex doll that develops consciousness and falls in love?",
+        "answers": [
+            "Air Doll"
+        ]
+    },
+    {
+        "query_id": "qa_164_4346",
+        "question": "What is the current cultural significance of the album 'Bad'?",
+        "answers": [
+            "Staple, influence"
+        ]
+    },
+    {
+        "query_id": "qa_164_2650",
+        "question": "What is the name of the first song on Steve Hillage's second studio album?",
+        "answers": [
+            "Hurdy Gurdy Man"
+        ]
+    },
+    {
+        "query_id": "qa_164_7495",
+        "question": "Who voices Bolt in Bolt?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_164_7452",
+        "question": "Who is the artist behind the song 'Show Me'?",
+        "answers": [
+            "b. Kid Ink"
+        ]
+    },
+    {
+        "query_id": "qa_164_4254",
+        "question": "What is the nationality of production for the movie 'The Last Minute'?",
+        "answers": [
+            "British-American"
+        ]
+    },
+    {
+        "query_id": "qa_164_7814",
+        "question": "What year was the Andy Warhol film Couch released?",
+        "answers": [
+            "1964"
+        ]
+    },
+    {
+        "query_id": "qa_164_7596",
+        "question": "How much did the movie Clue make at the box office in the US?",
+        "answers": [
+            "$14.6 million."
+        ]
+    },
+    {
+        "query_id": "qa_164_4463",
+        "question": "In what year was the film 'The Last Days of Pompeii' released?",
+        "answers": [
+            "Year: 1908"
+        ]
+    },
+    {
+        "query_id": "qa_164_450",
+        "question": "Who played the role of Delilah Profitt in 'The Faculty'?",
+        "answers": [
+            "Laura Harris"
+        ]
+    },
+    {
+        "query_id": "qa_164_2293",
+        "question": "Which Heartbreakers' member sang the lead vocals on the song 'I Don't Wanna Fight' from the album Echo?",
+        "answers": [
+            "Mike Campbell"
+        ]
+    },
+    {
+        "query_id": "qa_164_7441",
+        "question": "Who was the former guitarist of the Red Hot Chili Peppers before the release of their 2011 studio album?",
+        "answers": [
+            "John Frusciante"
+        ]
+    },
+    {
+        "query_id": "qa_164_3082",
+        "question": "Which North Korean leader is portrayed in The Interview?",
+        "answers": [
+            "Randall Park"
+        ]
+    },
+    {
+        "query_id": "qa_164_2010",
+        "question": "What is the nationality of the artist who released his debut studio album in 2003 through United Recordings?",
+        "answers": [
+            "Dutch"
+        ]
+    },
+    {
+        "query_id": "qa_164_124",
+        "question": "Who produced the 2011 Indian drama-thriller film Lanka?",
+        "answers": [
+            "Vikram Bhatt"
+        ]
+    },
+    {
+        "query_id": "qa_164_4539",
+        "question": "What following has Queen gained over the years?",
+        "answers": [
+            "Queen has built a strong cult following over the years."
+        ]
+    },
+    {
+        "query_id": "qa_164_1467",
+        "question": "Who wrote the U.S. version of the film Guide?",
+        "answers": [
+            "Pearl S. Buck (U.S. version)"
+        ]
+    },
+    {
+        "query_id": "qa_164_522",
+        "question": "What animal jumps over another animal in the sentence 'The Quick Brown Fox Jumps Over The Lazy Dog'?",
+        "answers": [
+            "Quick Brown Fox"
+        ]
+    },
+    {
+        "query_id": "qa_164_5681",
+        "question": "What is the title of the 2000 movie directed by Jon Turteltaub with a mix of comedy, drama, and fantasy elements?",
+        "answers": [
+            "The Kid"
+        ]
+    },
+    {
+        "query_id": "qa_164_2553",
+        "question": "Who directed the movie Anjuman?",
+        "answers": [
+            "Muzaffar Ali."
+        ]
+    },
+    {
+        "query_id": "qa_164_4320",
+        "question": "When and where was the album Thrillington released?",
+        "answers": [
+            "A: 77/77 (UK/US)"
+        ]
+    },
+    {
+        "query_id": "qa_164_4797",
+        "question": "Who plays in 'Trust'?",
+        "answers": [
+            "Clive Owen, Catherine Keener, Jason Clarke, Liana Liberato, Viola Davis"
+        ]
+    },
+    {
+        "query_id": "qa_164_3729",
+        "question": "Who played the role of El Cid in the 1961 film?",
+        "answers": [
+            "Charlton Heston"
+        ]
+    },
+    {
+        "query_id": "qa_164_225",
+        "question": "What genre is the film Just Around the Corner?",
+        "answers": [
+            "Silent drama"
+        ]
+    },
+    {
+        "query_id": "qa_164_4265",
+        "question": "When was the movie Happy released?",
+        "answers": [
+            "27 January 2006"
+        ]
+    },
+    {
+        "query_id": "qa_164_3823",
+        "question": "What is the genre and year of release of the movie?",
+        "answers": [
+            "1998 Am. Sci-Fi Psyc. Thriller"
+        ]
+    },
+    {
+        "query_id": "qa_164_2538",
+        "question": "Who directed the music video for '24 Hours'?",
+        "answers": [
+            "This information can't be determined based on the given context"
+        ]
+    },
+    {
+        "query_id": "qa_164_644",
+        "question": "Who wrote the short story 'The Man Who Was Lost'?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_164_5912",
+        "question": "What is the title of the feature documentary directed by Beth Murphy?",
+        "answers": [
+            "Beyond Belief"
+        ]
+    },
+    {
+        "query_id": "qa_164_6028",
+        "question": "Which actor had a small role in Frequency before gaining fame?",
+        "answers": [
+            "Michael Cera"
+        ]
+    },
+    {
+        "query_id": "qa_164_2351",
+        "question": "Who is Owl City?",
+        "answers": [
+            "Answer: Owl City"
+        ]
+    },
+    {
+        "query_id": "qa_164_2119",
+        "question": "Who wrote the play that Face to Face (2011) is based on?",
+        "answers": [
+            "David Williamson"
+        ]
+    },
+    {
+        "query_id": "qa_164_3483",
+        "question": "What is the genre of the Hindi romantic drama film Mod directed by Nagesh Kukunoor?",
+        "answers": [
+            "romantic drama"
+        ]
+    },
+    {
+        "query_id": "qa_164_2543",
+        "question": "What is the name of the song that precedes '24 Hours' on TeeFlii's debut album Starr?",
+        "answers": [
+            "This information can't be determined based on the given context"
+        ]
+    },
+    {
+        "query_id": "qa_164_7812",
+        "question": "Who directed the underground film Couch in 1964?",
+        "answers": [
+            "Warhol"
+        ]
+    },
+    {
+        "query_id": "qa_164_1194",
+        "question": "What book did the BBC's 1993 film, starring Kyle MacLachlan, adapt?",
+        "answers": [
+            "BBC's '93 film'"
+        ]
+    },
+    {
+        "query_id": "qa_164_1009",
+        "question": "What is the name of the second studio album by Daft Punk?",
+        "answers": [
+            "Discovery"
+        ]
+    },
+    {
+        "query_id": "qa_164_5050",
+        "question": "In what year was Tarzan's Greatest Adventure released?",
+        "answers": [
+            "1959"
+        ]
+    },
+    {
+        "query_id": "qa_164_503",
+        "question": "When was the movie '10 Years' released? ",
+        "answers": [
+            "September 14, 2012 (in select theaters)"
+        ]
+    },
+    {
+        "query_id": "qa_164_4432",
+        "question": "In what year was the American road drama film Tennessee released?",
+        "answers": [
+            "2008"
+        ]
+    },
+    {
+        "query_id": "qa_164_6309",
+        "question": "Which movie competed for the Golden Bear at the 54th Berlin International Film Festival?",
+        "answers": [
+            "'Monster' competed for the Golden Bear at the 54th Berlin International Film Festival."
+        ]
+    },
+    {
+        "query_id": "qa_164_6636",
+        "question": "Where was the movie Swamp Water filmed?",
+        "answers": [
+            "Okefenokee Swamp, Waycross, Georgia, USA"
+        ]
+    },
+    {
+        "query_id": "qa_164_6752",
+        "question": "When was Setup released in the United States?",
+        "answers": [
+            "September 20, 2011"
+        ]
+    },
+    {
+        "query_id": "qa_164_6415",
+        "question": "What music styles are featured on the non-love side of Lucio Battisti's 1971 concept album 'Amore e non amore' released by Dischi Ricordi?",
+        "answers": [
+            "rock and roll"
+        ]
+    },
+    {
+        "query_id": "qa_164_3682",
+        "question": "What is the name of the 1927 American silent comedy film directed by Frank Capra and starring Harry Langdon?",
+        "answers": [
+            "Long Pants"
+        ]
+    },
+    {
+        "query_id": "qa_164_1617",
+        "question": "Which country is the movie from?",
+        "answers": [
+            "American"
+        ]
+    },
+    {
+        "query_id": "qa_164_6465",
+        "question": "In which country was the movie Faces produced?",
+        "answers": [
+            "American"
+        ]
+    },
+    {
+        "query_id": "qa_164_1285",
+        "question": "In what ways has the movie 'Seven' influenced filmmaking?",
+        "answers": [
+            "Answer: Influence on style, soundtrack, and detective genre"
+        ]
+    },
+    {
+        "query_id": "qa_164_6519",
+        "question": "\"Into the Lens\": What song was released as the sole single from Yes' tenth studio album, Drama?",
+        "answers": [
+            "Yes"
+        ]
+    },
+    {
+        "query_id": "qa_164_7593",
+        "question": "Who directed the movie Clue?",
+        "answers": [
+            "Jonathan Lynn and John Landis."
+        ]
+    },
+    {
+        "query_id": "qa_164_554",
+        "question": "Who are the main cast members in the movie?",
+        "answers": [
+            "Carrie-Anne Moss, Kevin Zegers, Callum Keith Rennie, Andrew Airlie"
+        ]
+    },
+    {
+        "query_id": "qa_164_2827",
+        "question": "Which countries produced the movie Earth directed by Deepa Mehta?",
+        "answers": [
+            "Indo-Canadian"
+        ]
+    },
+    {
+        "query_id": "qa_164_3574",
+        "question": "Which country is Amen from?",
+        "answers": [
+            "South Korea"
+        ]
+    },
+    {
+        "query_id": "qa_164_3302",
+        "question": "Who was the female lead in the 1983 Indian Hindi-language film Hero?",
+        "answers": [
+            "Meenakshi Sheshadri"
+        ]
+    },
+    {
+        "query_id": "qa_164_8302",
+        "question": "What happened during the production process of Toy Story?",
+        "answers": [
+            "halted"
+        ]
+    },
+    {
+        "query_id": "qa_164_1489",
+        "question": "What is the title of the movie Smart People?",
+        "answers": [
+            "Smart People"
+        ]
+    },
+    {
+        "query_id": "qa_164_4230",
+        "question": "How much money did the 2014 American bromantic comedy film Neighbors (released in some countries as Bad Neighbours) gross worldwide?",
+        "answers": [
+            "Over $270 million"
+        ]
+    },
+    {
+        "query_id": "qa_164_7419",
+        "question": "Where was 'His Hour' made?",
+        "answers": [
+            "'His Hour' is an American movie."
+        ]
+    },
+    {
+        "query_id": "qa_164_2127",
+        "question": "In what year was The Graduate released?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_164_5283",
+        "question": "Where is the setting of Season 3 of Serial?",
+        "answers": [
+            "Justice Center Complex in the Cleveland area."
+        ]
+    },
+    {
+        "query_id": "qa_164_7990",
+        "question": "Who directed the Turkish dramatic film Masumiyet, released in 1997?",
+        "answers": [
+            "Zeki Demirkubuz"
+        ]
+    },
+    {
+        "query_id": "qa_164_6304",
+        "question": "What genre is the movie 'Mother and Child'",
+        "answers": [
+            "silent drama"
+        ]
+    },
+    {
+        "query_id": "qa_164_4561",
+        "question": "Who is the producer of Set Up?",
+        "answers": [
+            "Wong Jing"
+        ]
+    },
+    {
+        "query_id": "qa_164_2411",
+        "question": "Who produced most of Squeeze's debut album?",
+        "answers": [
+            "John Cale"
+        ]
+    },
+    {
+        "query_id": "qa_164_528",
+        "question": "Who wrote the screenplay for RV?",
+        "answers": [
+            "Geoff Rodkey"
+        ]
+    },
+    {
+        "query_id": "qa_164_4039",
+        "question": "What is the name of James Kennaway's novel based on the screenplay of The Mind Benders?",
+        "answers": [
+            "The Mind Benders"
+        ]
+    },
+    {
+        "query_id": "qa_164_4517",
+        "question": "What is an alternative title for Jafar Panahi's film?",
+        "answers": [
+            "Taxi Tehran"
+        ]
+    },
+    {
+        "query_id": "qa_164_492",
+        "question": "Who is the subject of the tribute concept album \"I Am\" featuring Pete Townshend, Michael Da Costa, and others, released in 1972?",
+        "answers": [
+            "Meher Baba"
+        ]
+    },
+    {
+        "query_id": "qa_164_4767",
+        "question": "What is the standalone sequel of Enthiran called?",
+        "answers": [
+            "2.0"
+        ]
+    },
+    {
+        "query_id": "qa_164_5533",
+        "question": "Who played the main roles in the 1944 comedy movie Together Again?",
+        "answers": [
+            "Irene Dunne, Charles Boyer"
+        ]
+    },
+    {
+        "query_id": "qa_164_6006",
+        "question": "When was Jeff Beck's fourth studio solo album released in 1980?",
+        "answers": [
+            "D"
+        ]
+    },
+    {
+        "query_id": "qa_164_975",
+        "question": "Is 'Life' similar to 'Rust Never Sleeps' in terms of recording method?",
+        "answers": [
+            "Yes, live with later studio overdubs"
+        ]
+    },
+    {
+        "query_id": "qa_164_212",
+        "question": "Who was nominated for Best Actor at the 81st Academy Awards for his role in The Visitor?",
+        "answers": [
+            "Richard Jenkins"
+        ]
+    },
+    {
+        "query_id": "qa_164_7603",
+        "question": "Who plays the lead role in the baseball movie 'Mickey'?",
+        "answers": [
+            "Harry Connick, Jr."
+        ]
+    },
+    {
+        "query_id": "qa_164_7286",
+        "question": "Who returned as a guitarist for Kill?",
+        "answers": [
+            "Rob Barrett returned as a guitarist for Kill."
+        ]
+    },
+    {
+        "query_id": "qa_164_2589",
+        "question": "Which song from Michael Jackson's Off the Wall album reached the top 10 on the Billboard Hot 100, besides 'Don't Stop 'Til You Get Enough'?",
+        "answers": [
+            "Answer: 'Off the Wall' or 'She's Out of My Life'"
+        ]
+    },
+    {
+        "query_id": "qa_164_218",
+        "question": "What inspired the song \"Strindberg\" on the album \"Eli\"?",
+        "answers": [
+            "August Strindberg's works"
+        ]
+    },
+    {
+        "query_id": "qa_164_7154",
+        "question": "Who wrote the screenplay for Pixels?",
+        "answers": [
+            "Tim Herlihy and Timothy Dowling"
+        ]
+    },
+    {
+        "query_id": "qa_164_7097",
+        "question": "Who directed the movie Air Doll?",
+        "answers": [
+            "Hirokazu Kore-eda"
+        ]
+    },
+    {
+        "query_id": "qa_164_7920",
+        "question": "Where is the movie 'The Lady' set",
+        "answers": [
+            "British"
+        ]
+    },
+    {
+        "query_id": "qa_164_3137",
+        "question": "Who directed this movie?",
+        "answers": [
+            "Leo C. Popkin and Russell Rouse"
+        ]
+    },
+    {
+        "query_id": "qa_164_3687",
+        "question": "Who is the supporting actress in the 1927 American silent comedy film 'Long Pants'?",
+        "answers": [
+            "Gladys Brockwell"
+        ]
+    },
+    {
+        "query_id": "qa_164_4582",
+        "question": "In what year was Desire produced?",
+        "answers": [
+            "1936"
+        ]
+    },
+    {
+        "query_id": "qa_164_3903",
+        "question": "What genre is the film 'Cover'?",
+        "answers": [
+            "Answer: drama thriller"
+        ]
+    },
+    {
+        "query_id": "qa_164_2879",
+        "question": "What was the critical reception of The Interview?",
+        "answers": [
+            "Mixed"
+        ]
+    },
+    {
+        "query_id": "qa_164_4299",
+        "question": "Who are the main actors in 'The Lie'?",
+        "answers": [
+            "King Baggot and Lottie Briscoe"
+        ]
+    },
+    {
+        "query_id": "qa_164_3565",
+        "question": "What category did Her win at the Academy Awards?",
+        "answers": [
+            "Best Original Screenplay"
+        ]
+    },
+    {
+        "query_id": "qa_164_7564",
+        "question": "When was Are You Here released in the United States?",
+        "answers": [
+            "August 22, 2014"
+        ]
+    },
+    {
+        "query_id": "qa_164_236",
+        "question": "Who produced the song \"Demons\" by Imagine Dragons?",
+        "answers": [
+            "Alex da Kid"
+        ]
+    },
+    {
+        "query_id": "qa_164_5497",
+        "question": "What genre of movie is The Journey?",
+        "answers": [
+            "Drama"
+        ]
+    },
+    {
+        "query_id": "qa_164_5929",
+        "question": "Who were the producers of Signs, the film starring Mel Gibson as Graham Hess and directed by M. Night Shyamalan?",
+        "answers": [
+            "Signs was produced by Blinding Edge Pictures and The Kennedy/Marshall Company."
+        ]
+    },
+    {
+        "query_id": "qa_164_969",
+        "question": "Who played a notable role in the 2000 American science fiction thriller film 'Frequency' starring Dennis Quaid, Jim Caviezel, Andre Braugher, Elizabeth Mitchell, Shawn Doyle, Melissa Errico, and Noah Emmerich, and distributed by New Line Cinema?",
+        "answers": [
+            "Michael Cera"
+        ]
+    },
+    {
+        "query_id": "qa_164_7052",
+        "question": "Who directed Mission: Impossible \u2013 Rogue Nation, the fifth installment in the Mission: Impossible film series?",
+        "answers": [
+            "Christopher McQuarrie"
+        ]
+    },
+    {
+        "query_id": "qa_164_2829",
+        "question": "What is the title of Rod Stewart's 28th studio album released in 2013?",
+        "answers": [
+            "A: \"Time\""
+        ]
+    },
+    {
+        "query_id": "qa_164_3496",
+        "question": "What genre or type of music is featured on the album that received universal acclaim?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_164_6331",
+        "question": "What genre is the crime comedy film Made?",
+        "answers": [
+            "crime comedy"
+        ]
+    },
+    {
+        "query_id": "qa_164_8177",
+        "question": "How many weeks did the title track of 'What's Going On' by Marvin Gaye spend at number one on the Billboard Soul Singles chart?",
+        "answers": [
+            "The title track of 'What's Going On' by Marvin Gaye held the top position on Billboard's Soul Singles chart five weeks running."
+        ]
+    },
+    {
+        "query_id": "qa_164_3847",
+        "question": "What is the surround sound format included in the limited edition of Boz Scaggs' album 'Dig'?",
+        "answers": [
+            "5.1 channel"
+        ]
+    },
+    {
+        "query_id": "qa_164_616",
+        "question": "In what year was 'On the Line' released?",
+        "answers": [
+            "'On the Line' was released in 2001"
+        ]
+    },
+    {
+        "query_id": "qa_164_2714",
+        "question": "Who was the head of drama for BBC Wales when Grand Slam was produced for television?",
+        "answers": [
+            "John Hefin"
+        ]
+    },
+    {
+        "query_id": "qa_164_7618",
+        "question": "Who composed the musical score for Planes?",
+        "answers": [
+            "Mark Mancina"
+        ]
+    },
+    {
+        "query_id": "qa_164_4863",
+        "question": "What is the main form of animal locomotion on land?",
+        "answers": [
+            "Bipedal motion"
+        ]
+    },
+    {
+        "query_id": "qa_164_1876",
+        "question": "Where is the movie 'Wild Things' set?",
+        "answers": [
+            "south Florida"
+        ]
+    },
+    {
+        "query_id": "qa_164_7939",
+        "question": "Who wrote the screenplay for 'The Rescue'?",
+        "answers": [
+            "Writer: Elizabeth Meehan"
+        ]
+    },
+    {
+        "query_id": "qa_164_5230",
+        "question": "Who is the American singer and recording artist behind the song \"Dangerous\"?",
+        "answers": [
+            "Michael Jackson"
+        ]
+    },
+    {
+        "query_id": "qa_164_328",
+        "question": "What is the title of the 1986 film being discussed?",
+        "answers": [
+            "Tai-Pan"
+        ]
+    },
+    {
+        "query_id": "qa_164_1333",
+        "question": "What is the certification level of 'Baby' by the RIAA? ",
+        "answers": [
+            " The RIAA has certified 'Baby' 12\u00d7 platinum. "
+        ]
+    },
+    {
+        "query_id": "qa_164_1757",
+        "question": "In what section was Restless presented at the 64th Cannes Film Festival?",
+        "answers": [
+            "Un Certain Regard"
+        ]
+    },
+    {
+        "query_id": "qa_164_2122",
+        "question": "Who stars in the 2010 American science fiction disaster film Skyline?",
+        "answers": [
+            "Eric Balfour, Scottie Thompson, Brittany Daniel, Crystal Reed, David Zayas, and Donald Faison"
+        ]
+    },
+    {
+        "query_id": "qa_164_3644",
+        "question": "Who succeeded Rod Evans as Deep Purple's lead singer in their eighth studio album?",
+        "answers": [
+            "David Coverdale"
+        ]
+    },
+    {
+        "query_id": "qa_164_2219",
+        "question": "What is the name of Rory Gallagher's third studio album?",
+        "answers": [
+            "Blueprint"
+        ]
+    },
+    {
+        "query_id": "qa_164_2149",
+        "question": "How many copies did the album sell by 2011?",
+        "answers": [
+            "13M"
+        ]
+    },
+    {
+        "query_id": "qa_164_118",
+        "question": "Who stars in the Portuguese film Alice directed by Marco Martins and released in 2005, and who played M\u00e1rio and Lu\u00edsa?",
+        "answers": [
+            "N. Lopes (M\u00e1rio), B. Batarda (Lu\u00edsa), M. Guilherme, A. Bustorff, G. Waddington, C. Maciel, L. Soveral, J. Wallenstein"
+        ]
+    },
+    {
+        "query_id": "qa_164_1327",
+        "question": "Who sings 'Baby' and features in it? ",
+        "answers": [
+            " Bieber and Ludacris sing and feature in 'Baby'. "
+        ]
+    },
+    {
+        "query_id": "qa_164_6667",
+        "question": "How much money did The Jacket earn at the box office?",
+        "answers": [
+            "$21.1M"
+        ]
+    },
+    {
+        "query_id": "qa_164_692",
+        "question": "Who wrote \"Hard\" besides The-Dream and Tricky Stewart?",
+        "answers": [
+            "Young Jeezy (alternative: credit 'Jeezy')"
+        ]
+    },
+    {
+        "query_id": "qa_164_3601",
+        "question": "Which festival did The Railroad win the FIPRESCI award and Best Actor at?",
+        "answers": [
+            "25th Torino Film Festival"
+        ]
+    },
+    {
+        "query_id": "qa_164_5451",
+        "question": "Who produced 'The Holly and the Ivy'?",
+        "answers": [
+            "Anatole de Grunwald"
+        ]
+    },
+    {
+        "query_id": "qa_164_1150",
+        "question": "When will they get married in 'The Bow'?",
+        "answers": [
+            "They will get married when the girl turns 17"
+        ]
+    },
+    {
+        "query_id": "qa_164_6561",
+        "question": "Who produced BE, Beady Eye's second studio album?",
+        "answers": [
+            "Dave Sitek"
+        ]
+    },
+    {
+        "query_id": "qa_164_3287",
+        "question": "Where does the Bulgarian drama film, We Were Young, take place?",
+        "answers": [
+            "Bulgarian capital"
+        ]
+    },
+    {
+        "query_id": "qa_164_585",
+        "question": "What is the name of the TV show produced by Hat Trick Productions and broadcast on Showtime and BBC Two?",
+        "answers": [
+            "Episodes"
+        ]
+    },
+    {
+        "query_id": "qa_164_2090",
+        "question": "What techniques were used for the special effects in the movie?",
+        "answers": [
+            "Traditional + CGI"
+        ]
+    },
+    {
+        "query_id": "qa_164_2803",
+        "question": "Who are the main cast members in White Nights?",
+        "answers": [
+            "Mikhail Baryshnikov, Gregory Hines, Jerzy Skolimowski, Helen Mirren, Isabella Rossellini"
+        ]
+    },
+    {
+        "query_id": "qa_164_8292",
+        "question": "What series of short films does Marvel Studios produce for direct-to-video release?",
+        "answers": [
+            "Marvel Studios produces a series of direct-to-video short films called Marvel One-Shots."
+        ]
+    },
+    {
+        "query_id": "qa_164_8059",
+        "question": "What is the name of the independent animated musical-comedy film directed by Bill Plympton in 1992?",
+        "answers": [
+            "The Tune"
+        ]
+    },
+    {
+        "query_id": "qa_164_362",
+        "question": "Who were the creative contributors to the musical score and lyrics of On the Town?",
+        "answers": [
+            "Bernstein, Edens, Comden, Green"
+        ]
+    },
+    {
+        "query_id": "qa_164_6852",
+        "question": "Who stars in the movie?",
+        "answers": [
+            "Unknown"
+        ]
+    },
+    {
+        "query_id": "qa_164_3645",
+        "question": "How would you compare the musical style of Deep Purple's eighth studio album to that of their previous album, Machine Head?",
+        "answers": [
+            "Similar, but specify how"
+        ]
+    },
+    {
+        "query_id": "qa_164_2470",
+        "question": "Who played the main character in The Cardinal?",
+        "answers": [
+            "Tom Tryon"
+        ]
+    },
+    {
+        "query_id": "qa_164_6136",
+        "question": "Which version of the Bible was used during the filming of Jesus? ",
+        "answers": [
+            "Good News Bible (Today's English Version)"
+        ]
+    },
+    {
+        "query_id": "qa_164_4685",
+        "question": "What is the year the original play was adapted into the 1930 British crime film directed by Basil Dean?",
+        "answers": [
+            "1926"
+        ]
+    },
+    {
+        "query_id": "qa_164_4597",
+        "question": "Who starred in the movie Green Lantern?",
+        "answers": [
+            "Ryan Reynolds, Blake Lively, Peter Sarsgaard, Mark Strong, Angela Bassett, and Tim Robbins."
+        ]
+    },
+    {
+        "query_id": "qa_164_5289",
+        "question": "Who else starred in I Dood It besides Red Skelton and Eleanor Powell?",
+        "answers": [
+            "Richard Ainley, Patricia Dane, Lena Horne, and Hazel Scott."
+        ]
+    },
+    {
+        "query_id": "qa_164_3144",
+        "question": "What film is the subject of this documentary? ",
+        "answers": [
+            "The Source"
+        ]
+    },
+    {
+        "query_id": "qa_164_3494",
+        "question": "What did Brian Wilson call the Beach Boys' unfinished album?",
+        "answers": [
+            "\"Teenage symphony to God\""
+        ]
+    },
+    {
+        "query_id": "qa_164_2022",
+        "question": "Who wrote the story that 'Red Light' is based on?",
+        "answers": [
+            "Story author: Don 'Red' Barry"
+        ]
+    },
+    {
+        "query_id": "qa_164_7280",
+        "question": "Who else produced the documentary 'Healers of the Dead Sea'?",
+        "answers": [
+            "Douglas Edwards produced 'Healers of the Dead Sea'"
+        ]
+    },
+    {
+        "query_id": "qa_164_1117",
+        "question": "Who plays the protagonist in 'The Player'",
+        "answers": [
+            "Tim Robbins"
+        ]
+    },
+    {
+        "query_id": "qa_164_6953",
+        "question": "Who is Danladi Waziri (Daba) in the movie October 1?",
+        "answers": [
+            "Protagonist"
+        ]
+    },
+    {
+        "query_id": "qa_164_1185",
+        "question": "When was The Jacket released in theaters?",
+        "answers": [
+            "March 4, 2005"
+        ]
+    },
+    {
+        "query_id": "qa_164_2367",
+        "question": "In what year was the movie released?",
+        "answers": [
+            "2010"
+        ]
+    },
+    {
+        "query_id": "qa_164_4516",
+        "question": "What is the short title of Jafar Panahi's film?",
+        "answers": [
+            "Taxi"
+        ]
+    },
+    {
+        "query_id": "qa_164_3826",
+        "question": "Who is the author of the novel that the movie is based on?",
+        "answers": [
+            "M. Crichton"
+        ]
+    },
+    {
+        "query_id": "qa_164_545",
+        "question": "Who wrote the song 'Lies and Deception'?",
+        "answers": [
+            "Jet Black"
+        ]
+    },
+    {
+        "query_id": "qa_164_799",
+        "question": "What year was the film And So It Goes released?",
+        "answers": [
+            "2014"
+        ]
+    },
+    {
+        "query_id": "qa_164_8033",
+        "question": "What is the title of the movie?",
+        "answers": [
+            "The Castle"
+        ]
+    },
+    {
+        "query_id": "qa_164_5212",
+        "question": "Who directed the 1921 American silent comedy-drama film 'The Kid'",
+        "answers": [
+            "Charlie Chaplin"
+        ]
+    },
+    {
+        "query_id": "qa_164_3352",
+        "question": "How was the name of Adele's debut album chosen?",
+        "answers": [
+            "Named after age at release/prod"
+        ]
+    },
+    {
+        "query_id": "qa_164_1310",
+        "question": "How much money did Hugo make at the box office?",
+        "answers": [
+            "$185 million"
+        ]
+    },
+    {
+        "query_id": "qa_164_6186",
+        "question": "What notable event occurred during the making of Let It Be?",
+        "answers": [
+            "f"
+        ]
+    },
+    {
+        "query_id": "qa_164_1245",
+        "question": "Which award show did Lopez perform the track on in 2014?",
+        "answers": [
+            "Billboard Music Awards"
+        ]
+    },
+    {
+        "query_id": "qa_164_7840",
+        "question": "What is the theme or message of the song \"Live Your Life\" by T.I. Featuring Rihanna?",
+        "answers": [
+            "T.I.'s rise to fame and optimism for the future, with a dedication to American troops fighting in Iraq."
+        ]
+    },
+    {
+        "query_id": "qa_164_5525",
+        "question": "Which movie is similar to Marathi movie 'Kokanastha', written and directed by Mahesh Manjrekar?",
+        "answers": [
+            "Kokanastha (Marathi)"
+        ]
+    },
+    {
+        "query_id": "qa_164_4273",
+        "question": "When was 'The Master' first publicly shown?",
+        "answers": [
+            "\"The Master\" was first publicly shown on August 3, 2012\""
+        ]
+    },
+    {
+        "query_id": "qa_164_5090",
+        "question": "Who was the director of the 1980 science-fiction film The Return starring Jan-Michael Vincent, Cybill Shepherd, Martin Landau, and Raymond Burr?",
+        "answers": [
+            "Greydon Clark"
+        ]
+    },
+    {
+        "query_id": "qa_164_796",
+        "question": "Who are the lead actors in the film And So It Goes?",
+        "answers": [
+            "Michael Douglas"
+        ]
+    },
+    {
+        "query_id": "qa_164_5982",
+        "question": "What genre is the movie?",
+        "answers": [
+            "crime comedy"
+        ]
+    },
+    {
+        "query_id": "qa_164_3402",
+        "question": "Where is Australia set?",
+        "answers": [
+            "Darwin, northern Australia"
+        ]
+    },
+    {
+        "query_id": "qa_164_6639",
+        "question": "Is the movie Swamp Water a remake of another movie?",
+        "answers": [
+            "Yes, Lure of the Wilderness (1952) directed by Jean Negulesco"
+        ]
+    },
+    {
+        "query_id": "qa_164_3657",
+        "question": "What location and pilgrimage route does the movie follow?",
+        "answers": [
+            "Camino de Santiago"
+        ]
+    },
+    {
+        "query_id": "qa_164_3049",
+        "question": "Who wrote the screenplay for the movie The Rescue?",
+        "answers": [
+            "Michael J. Henderson, Jim Thomas, and John Thomas"
+        ]
+    },
+    {
+        "query_id": "qa_164_5539",
+        "question": "What is the name of the 1999 American supernatural horror film directed by Daniel Myrick and Eduardo S\u00e1nchez?",
+        "answers": [
+            "The Blair Witch Project"
+        ]
+    },
+    {
+        "query_id": "qa_164_2382",
+        "question": "Who composed the music for Les Girls?",
+        "answers": [
+            "Cole Porter (music)"
+        ]
+    },
+    {
+        "query_id": "qa_164_1527",
+        "question": "When was 'La Mission' released?",
+        "answers": [
+            "April 9, 2010"
+        ]
+    },
+    {
+        "query_id": "qa_164_2037",
+        "question": "Who starred in Green Light alongside Errol Flynn?",
+        "answers": [
+            "Anita Louise, Margaret Lindsay"
+        ]
+    },
+    {
+        "query_id": "qa_164_2304",
+        "question": "What is the collaboration between Freddie Mercury and Montserrat Caball\u00e9 called?",
+        "answers": [
+            "Answer: Barcelona"
+        ]
+    },
+    {
+        "query_id": "qa_164_7181",
+        "question": "Who produced The Cure?",
+        "answers": [
+            "Production: Universal Pictures"
+        ]
+    },
+    {
+        "query_id": "qa_164_7647",
+        "question": "Who are the actors in \"The Grey\"?",
+        "answers": [
+            "[Liam Neeson, Frank Grillo, Dermot Mulroney, Dallas Roberts, Joe Anderson, Nonso Anozie, James Badge Dale]"
+        ]
+    },
+    {
+        "query_id": "qa_164_1962",
+        "question": "What is the ranking of 'Goo' by Sonic Youth on Rolling Stone's 500 greatest albums of all time list?",
+        "answers": [
+            "358"
+        ]
+    },
+    {
+        "query_id": "qa_164_678",
+        "question": "What was the reception of the film and book?",
+        "answers": [
+            "received widespread acclaim and numerous award nominations"
+        ]
+    },
+    {
+        "query_id": "qa_164_4936",
+        "question": "What type of performances did Lopez do to promote the track?",
+        "answers": [
+            "Live performances"
+        ]
+    },
+    {
+        "query_id": "qa_164_3261",
+        "question": "What was the significance of the Nuremberg Trials in relation to World War II?",
+        "answers": [
+            "The Nuremberg Trials were significant in relation to World War II as they served as a means of holding Nazi leaders accountable for their actions during the war and preventing similar atrocities from occurring in the future."
+        ]
+    },
+    {
+        "query_id": "qa_164_3134",
+        "question": "When was this movie released?",
+        "answers": [
+            "1951"
+        ]
+    },
+    {
+        "query_id": "qa_164_5459",
+        "question": "Who is the author of the novel 'After the Hole'",
+        "answers": [
+            "Guy Burt"
+        ]
+    },
+    {
+        "query_id": "qa_164_3839",
+        "question": "Where does the story take place, and over how many time periods is it spread?",
+        "answers": [
+            "SHR over SD"
+        ]
+    },
+    {
+        "query_id": "qa_164_8299",
+        "question": "Who wrote the screenplay for Toy Story?",
+        "answers": [
+            "Joss Whedon, Andrew Stanton, Joel Cohen, Alec Sokolow"
+        ]
+    },
+    {
+        "query_id": "qa_164_6682",
+        "question": "Who is the director of the Western movie titled Apache, which was based on the book Broncho Apache by Paul Wellman and released in 1954?",
+        "answers": [
+            "Robert Aldrich"
+        ]
+    },
+    {
+        "query_id": "qa_164_5524",
+        "question": "What is the title of the Indian Hindi-language drama film starring Amitabh Bachchan, Sharmila Tagore, Sanjay Dutt, and John Abraham, released in 2005 and directed by Mahesh Manjrekar?",
+        "answers": [
+            "Virrudh... Family Comes First"
+        ]
+    },
+    {
+        "query_id": "qa_164_5827",
+        "question": "How many songs are on Kerry Ellis' debut album? ",
+        "answers": [
+            "11"
+        ]
+    },
+    {
+        "query_id": "qa_164_2843",
+        "question": "What nationality is Estelle?",
+        "answers": [
+            "British"
+        ]
+    },
+    {
+        "query_id": "qa_164_6543",
+        "question": "Who is the director of the Hong Kong movie released in digital format in 2002?",
+        "answers": [
+            "Answer: Fruit Chan"
+        ]
+    },
+    {
+        "query_id": "qa_164_6645",
+        "question": "What award did The Pointer receive in 1940?",
+        "answers": [
+            "Award: Academy Award nominee (Best Short Subject (Cartoon))"
+        ]
+    },
+    {
+        "query_id": "qa_164_278",
+        "question": "Who produced and co-starred in the first movie 'Get Shorty'?",
+        "answers": [
+            "Producer/co-star: Danny DeVito"
+        ]
+    },
+    {
+        "query_id": "qa_164_7764",
+        "question": "Who directed the 2010 American biographical legal drama film Conviction?",
+        "answers": [
+            "Tony Goldwyn"
+        ]
+    },
+    {
+        "query_id": "qa_164_5332",
+        "question": "Where is Maling Kutang from?",
+        "answers": [
+            "Indonesia"
+        ]
+    },
+    {
+        "query_id": "qa_164_3461",
+        "question": "What award did the anti-war film, Neighbours (French title: Voisins), produced by the National Film Board of Canada, win in 1953?",
+        "answers": [
+            "Oscar"
+        ]
+    },
+    {
+        "query_id": "qa_164_6024",
+        "question": "Who directed the movie Frequency?",
+        "answers": [
+            "Gregory Hoblit"
+        ]
+    },
+    {
+        "query_id": "qa_164_3590",
+        "question": "What year was the horror movie produced by Clive Barker, directed by Hal Masonberg, and written by Teal Minton released?",
+        "answers": [
+            "2006"
+        ]
+    },
+    {
+        "query_id": "qa_164_4363",
+        "question": "Q2: When was Steve Vai's sixth studio album released?",
+        "answers": [
+            "A2: \"9/7/1999\""
+        ]
+    },
+    {
+        "query_id": "qa_164_7688",
+        "question": "What is the age of the main character in Fresh?",
+        "answers": [
+            "Fresh is a preteen boy in the movie."
+        ]
+    },
+    {
+        "query_id": "qa_164_2438",
+        "question": "Who shot Inland Empire without a finished screenplay?",
+        "answers": [
+            "Lynch"
+        ]
+    },
+    {
+        "query_id": "qa_164_5429",
+        "question": "Who won the Academy Award for Best Story in 1931?",
+        "answers": [
+            "Frances Marion for 'The Champ'"
+        ]
+    },
+    {
+        "query_id": "qa_164_2644",
+        "question": "What is the plot of the movie 'George Washington'?",
+        "answers": [
+            "tragic mistake"
+        ]
+    },
+    {
+        "query_id": "qa_164_3794",
+        "question": "Which album did 'Right Now' first chart on in the UK?",
+        "answers": [
+            "Unapologetic (UK Dance Chart)"
+        ]
+    },
+    {
+        "query_id": "qa_164_7602",
+        "question": "Which categories did The Descendants receive Oscar nominations for?",
+        "answers": [
+            "Best Picture, Best Director, Best Actor"
+        ]
+    },
+    {
+        "query_id": "qa_164_7809",
+        "question": "What genre of movie is 'In the Family'?",
+        "answers": [
+            "drama film"
+        ]
+    },
+    {
+        "query_id": "qa_164_7733",
+        "question": "What challenges did Chaplin face during the production of The Circus?",
+        "answers": [
+            "studio fire, death of Chaplin's mother, bitter divorce from his second wife Lita Grey, and the Internal Revenue Service's claims of Chaplin's owing back taxes"
+        ]
+    },
+    {
+        "query_id": "qa_164_622",
+        "question": "Who does the 1982 American monster horror film 'Q' follow?",
+        "answers": [
+            "A petty swindler (Moriarty)"
+        ]
+    },
+    {
+        "query_id": "qa_164_2464",
+        "question": "Who appeared in supporting roles in Love Story?",
+        "answers": [
+            "Vidya Sinha, Danny Denzongpa, Amjad Khan, Aruna Irani"
+        ]
+    },
+    {
+        "query_id": "qa_164_8179",
+        "question": "Who released the album 'What's Going On' in 1971?",
+        "answers": [
+            "Marvin Gaye"
+        ]
+    },
+    {
+        "query_id": "qa_164_3904",
+        "question": "Who produced and directed the film 'Cover'?",
+        "answers": [
+            "Answer: Bill Duke"
+        ]
+    },
+    {
+        "query_id": "qa_164_2130",
+        "question": "Who starred in 'The Apartment'?",
+        "answers": [
+            "Jack Lemmon, Shirley MacLaine, Fred MacMurray, Ray Walston, Jack Kruschen, David Lewis, Willard Waterman, David White, Hope Holiday, Edie Adams"
+        ]
+    },
+    {
+        "query_id": "qa_164_6249",
+        "question": "Who are the main characters in the movie '15 Minutes'",
+        "answers": [
+            "De Niro, Burns"
+        ]
+    },
+    {
+        "query_id": "qa_164_3991",
+        "question": "Who directed the film 'A Man and a Woman'",
+        "answers": [
+            "Claude Lelouch"
+        ]
+    },
+    {
+        "query_id": "qa_164_2357",
+        "question": "What is the name of the political movement that is dramatized in the independent film Northern Lights?",
+        "answers": [
+            "Nonpartisan League"
+        ]
+    },
+    {
+        "query_id": "qa_164_3507",
+        "question": "When was the Leverage revival released on IMDb TV?",
+        "answers": [
+            "July 2021"
+        ]
+    },
+    {
+        "query_id": "qa_164_4292",
+        "question": "Who starred in the movie Nell besides Jodie Foster?",
+        "answers": [
+            "Liam Neeson, Natasha Richardson, Richard Libertini, and Nick Searcy"
+        ]
+    },
+    {
+        "query_id": "qa_164_3973",
+        "question": "Who is the main character of A Christmas Story 2?",
+        "answers": [
+            "Ralphie"
+        ]
+    },
+    {
+        "query_id": "qa_164_746",
+        "question": "What is the title of the 1988 film directed by Matt Clark and produced by Julie Corman, starring Martin Sheen and Barnard Hughes? ",
+        "answers": [
+            "Answer: Da (1988 film)"
+        ]
+    },
+    {
+        "query_id": "qa_164_4628",
+        "question": "What action did the workers take in the documentary \"The Take\"?",
+        "answers": [
+            "Reclaimed control"
+        ]
+    },
+    {
+        "query_id": "qa_164_2769",
+        "question": "Who did Merle Oberon fall in love with in the movie Interval?",
+        "answers": [
+            "Robert Wolders"
+        ]
+    },
+    {
+        "query_id": "qa_164_2319",
+        "question": "Where is the setting of Timeline?",
+        "answers": [
+            "Answer: medieval France"
+        ]
+    },
+    {
+        "query_id": "qa_164_8012",
+        "question": "Who directed the Western film 'The Shooting'?",
+        "answers": [
+            "Monte Hellman"
+        ]
+    },
+    {
+        "query_id": "qa_164_6849",
+        "question": "Who directed the movie?",
+        "answers": [
+            "Yan Yan Mak"
+        ]
+    },
+    {
+        "query_id": "qa_164_5976",
+        "question": "When did production of the Our Gang series end?",
+        "answers": [
+            "Answer: 1944"
+        ]
+    },
+    {
+        "query_id": "qa_164_1305",
+        "question": "How many BAFTAs was Hugo nominated for?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_164_1905",
+        "question": "Who was a former member of Tom Petty and the Heartbreakers who died of a heroin overdose in 2003?",
+        "answers": [
+            "Howie Epstein"
+        ]
+    },
+    {
+        "query_id": "qa_164_2402",
+        "question": "When was the movie The Campaign released?",
+        "answers": [
+            "2012, August 10"
+        ]
+    },
+    {
+        "query_id": "qa_164_448",
+        "question": "Which production companies were involved in 'The Faculty'?",
+        "answers": [
+            "Miramax Films through Dimension Films"
+        ]
+    },
+    {
+        "query_id": "qa_164_1014",
+        "question": "Where was Discovery recorded?",
+        "answers": [
+            "Bangalter's home in Paris"
+        ]
+    },
+    {
+        "query_id": "qa_164_2856",
+        "question": "Who adapted, directed, and co-wrote the screenplay for the movie?",
+        "answers": [
+            "hch, c, w"
+        ]
+    },
+    {
+        "query_id": "qa_164_1873",
+        "question": "What alleged crime does the main character in the movie 'Wild Things' face?",
+        "answers": [
+            "accused of rape"
+        ]
+    },
+    {
+        "query_id": "qa_164_4828",
+        "question": "Who are the main actors in Suspicion?",
+        "answers": [
+            "Cary Grant, Joan Fontaine"
+        ]
+    },
+    {
+        "query_id": "qa_164_5743",
+        "question": "Who are the main characters in Kasaba?",
+        "answers": [
+            "Mehmet, Ayse, Sedar"
+        ]
+    },
+    {
+        "query_id": "qa_164_6257",
+        "question": "What is King Vidor's 'Creed and Pledge'?",
+        "answers": [
+            "It is a declaration of artistic principles published by King Vidor in 1921, which reflects the values promoted in 'The Jack-Knife Man'."
+        ]
+    },
+    {
+        "query_id": "qa_164_3005",
+        "question": "What are some of the singles released from 'No Way Out'?",
+        "answers": [
+            "Answer: 'I'll Be Missing You', 'Can't Nobody Hold Me Down', 'It's All About the Benjamins', and 'Been Around the World'"
+        ]
+    },
+    {
+        "query_id": "qa_164_5955",
+        "question": "How long is 'Lemon'?",
+        "answers": [
+            "\"Lemon\" is among U2's longest songs, almost seven minutes long."
+        ]
+    },
+    {
+        "query_id": "qa_164_5904",
+        "question": "When was Candy released in Australia?",
+        "answers": [
+            "25 May 2006"
+        ]
+    },
+    {
+        "query_id": "qa_164_6771",
+        "question": "What mobile apps did Belew design for iOS?",
+        "answers": [
+            "Flux by belew, Flux:FX"
+        ]
+    },
+    {
+        "query_id": "qa_164_3451",
+        "question": "What is Evangelos Topouzoglou's background?",
+        "answers": [
+            "Greek-American advertising executive in the movie"
+        ]
+    },
+    {
+        "query_id": "qa_164_1941",
+        "question": "What setting does the aging cowboy want to transform?",
+        "answers": [
+            "Brothel"
+        ]
+    },
+    {
+        "query_id": "qa_164_4203",
+        "question": "Who directed the French drama film Toni in 1935?",
+        "answers": [
+            "Jean Renoir."
+        ]
+    },
+    {
+        "query_id": "qa_164_3626",
+        "question": "Can you name the co-stars of Ivan?",
+        "answers": [
+            "Meena, Soundarya"
+        ]
+    },
+    {
+        "query_id": "qa_164_3169",
+        "question": "What is the title of the 1956 romantic comedy-drama film directed by Charles Vidor?",
+        "answers": [
+            "The Swan"
+        ]
+    },
+    {
+        "query_id": "qa_164_2186",
+        "question": "Which songs does Peter Gabriel include in the orchestral re-recordings on his album New Blood?",
+        "answers": [
+            "Var. Trks. (N. Blood)"
+        ]
+    },
+    {
+        "query_id": "qa_164_3703",
+        "question": "Who starred in We Are Family?",
+        "answers": [
+            "Kajol, Kareena Kapoor, and Arjun Rampal"
+        ]
+    },
+    {
+        "query_id": "qa_164_3188",
+        "question": "Who were some of the actors portraying fictional members of the 54th regiment in the film Glory?",
+        "answers": [
+            "Denzel Washington, Cary Elwes, and Morgan Freeman"
+        ]
+    },
+    {
+        "query_id": "qa_164_3623",
+        "question": "What is the name of the 2002 Indian Tamil language film directed by Parthipan?",
+        "answers": [
+            "Ivan"
+        ]
+    },
+    {
+        "query_id": "qa_164_2872",
+        "question": "Who distributed The Interview?",
+        "answers": [
+            "Sony Pictures Home Entertainment"
+        ]
+    },
+    {
+        "query_id": "qa_164_5963",
+        "question": "Who handled the cinematography for the Telugu-language movie 'Mass' released in 2004?",
+        "answers": [
+            "Shyam K. Naidu"
+        ]
+    },
+    {
+        "query_id": "qa_164_3789",
+        "question": "What action did the main character take in Flight?",
+        "answers": [
+            "The main character saved nearly everyone on board in Flight."
+        ]
+    },
+    {
+        "query_id": "qa_164_5232",
+        "question": "What genres does the song \"Dangerous\" incorporate?",
+        "answers": [
+            "new jack swing, industrial music"
+        ]
+    },
+    {
+        "query_id": "qa_164_348",
+        "question": "What is Hen Hop?",
+        "answers": [
+            "Hen Hop is a 1942 drawn-on-film animation short created by Norman McLaren for the National Film Board of Canada."
+        ]
+    },
+    {
+        "query_id": "qa_164_7163",
+        "question": "Who wrote and directed The Eighth Day?",
+        "answers": [
+            "Written and directed by Jaco Van Dormael"
+        ]
+    },
+    {
+        "query_id": "qa_164_771",
+        "question": "What car is used for time travel in Back to the Future?",
+        "answers": [
+            "DeLorean automobile"
+        ]
+    },
+    {
+        "query_id": "qa_164_5150",
+        "question": "Which musicians collaborated with Neil Young on his album Harvest?",
+        "answers": [
+            "Collaborators: London Symphony Orchestra, David Crosby, Graham Nash, Linda Ronstadt, Stephen Stills, James Taylor"
+        ]
+    },
+    {
+        "query_id": "qa_164_8173",
+        "question": "How long did 'What's Going On' by Marvin Gaye stay on the Billboard Top LPs chart?",
+        "answers": [
+            " 'What's Going On' by Marvin Gaye stayed on the Billboard Top LPs for over a year."
+        ]
+    },
+    {
+        "query_id": "qa_164_6638",
+        "question": "In what year was the movie Swamp Water produced?",
+        "answers": [
+            "1941"
+        ]
+    },
+    {
+        "query_id": "qa_164_393",
+        "question": "What accreditation did \"Day After Day\" by Badfinger earn from the Recording Industry Association of America?",
+        "answers": [
+            "gold"
+        ]
+    },
+    {
+        "query_id": "qa_164_6759",
+        "question": "In what year did The List premiere?",
+        "answers": [
+            "2012"
+        ]
+    },
+    {
+        "query_id": "qa_164_2661",
+        "question": "Which album is 'Xxplosive' by Dr. Dre from?",
+        "answers": [
+            "2001 (1999)"
+        ]
+    },
+    {
+        "query_id": "qa_164_6439",
+        "question": "Which songs on Off the Wall did Jackson write?",
+        "answers": [
+            "Off the Wall includes three tracks penned by Jackson himself."
+        ]
+    },
+    {
+        "query_id": "qa_164_1349",
+        "question": "What theme does the movie explore?",
+        "answers": [
+            "single, unemployed actors"
+        ]
+    },
+    {
+        "query_id": "qa_164_1289",
+        "question": "When was the movie Arena released?",
+        "answers": [
+            "1989"
+        ]
+    },
+    {
+        "query_id": "qa_164_4874",
+        "question": "Why was Duvall's nomination for Worst Actress later rescinded?",
+        "answers": [
+            "Duvall's later rescinded nomination for Worst Actress;"
+        ]
+    },
+    {
+        "query_id": "qa_164_148",
+        "question": "In which country was the single 'Come and Get It' by Badfinger released first?",
+        "answers": [
+            "UK"
+        ]
+    },
+    {
+        "query_id": "qa_164_3524",
+        "question": "How old is Fred in the original YouTube series?",
+        "answers": [
+            "A: 6 years old (original YouTube series)"
+        ]
+    },
+    {
+        "query_id": "qa_164_3509",
+        "question": "Who is Sam Wheat in the movie Ghost?",
+        "answers": [
+            "Swayze"
+        ]
+    },
+    {
+        "query_id": "qa_164_3255",
+        "question": "Who are some of the actors in Outbreak?",
+        "answers": [
+            "Dustin Hoffman, Rene Russo, Morgan Freeman, and Donald Sutherland"
+        ]
+    },
+    {
+        "query_id": "qa_164_859",
+        "question": "What genre is Hot Water?",
+        "answers": [
+            "Comedy"
+        ]
+    },
+    {
+        "query_id": "qa_164_6171",
+        "question": "Who is the protagonist of the Brazilian western film 'Antonio das Mortes' directed by Glauber Rocha?",
+        "answers": [
+            "Antonio das Mortes (played by Maur\u00edcio do Valle)"
+        ]
+    },
+    {
+        "query_id": "qa_164_7509",
+        "question": "Which studio produced and distributed the movie 'It Came from Beneath the Sea'?",
+        "answers": [
+            "Columbia Pictures"
+        ]
+    },
+    {
+        "query_id": "qa_164_4893",
+        "question": "Who produced the movie Run along with Sridevi?",
+        "answers": [
+            "Boney Kapoor"
+        ]
+    },
+    {
+        "query_id": "qa_164_7653",
+        "question": "Who are the main characters in \"The Grey\"?",
+        "answers": [
+            "oil-men"
+        ]
+    },
+    {
+        "query_id": "qa_164_3400",
+        "question": "Who are the main actors in Australia?",
+        "answers": [
+            "Nicole Kidman, Hugh Jackman"
+        ]
+    },
+    {
+        "query_id": "qa_164_2860",
+        "question": "When was Paul Touvier indicted after World War II?",
+        "answers": [
+            "A: After World War II"
+        ]
+    },
+    {
+        "query_id": "qa_164_381",
+        "question": "Who wrote and produced Episode?",
+        "answers": [
+            "Episode was written and produced by Walter Reisch."
+        ]
+    },
+    {
+        "query_id": "qa_164_4130",
+        "question": "Who acted as Jolson's manager in the movie 'The Jolson Story'?",
+        "answers": [
+            "William Demarest"
+        ]
+    },
+    {
+        "query_id": "qa_164_1038",
+        "question": "Who are the supporting cast members in 'The Switch'?",
+        "answers": [
+            "Supporting cast: Patrick Wilson, Juliette Lewis, Jeff Goldblum"
+        ]
+    },
+    {
+        "query_id": "qa_164_6478",
+        "question": "How successful was Nelly Furtado's third studio album in terms of chart positions and sales?",
+        "answers": [
+            "High positions in several markets, sold over 10 million copies worldwide"
+        ]
+    },
+    {
+        "query_id": "qa_164_584",
+        "question": "Who is the star of Episodes, and what other show was he previously on?",
+        "answers": [
+            "Matt LeBlanc, who was previously on 'Joey', is the star of Episodes."
+        ]
+    },
+    {
+        "query_id": "qa_164_4061",
+        "question": "When was 'Imagine' selected for preservation in the United States National Recording Registry?",
+        "answers": [
+            "2023"
+        ]
+    },
+    {
+        "query_id": "qa_164_7",
+        "question": "Which record label released Brian Eno's 'Thursday Afternoon'?",
+        "answers": [
+            "EG Records"
+        ]
+    },
+    {
+        "query_id": "qa_164_756",
+        "question": "Where were all the Carry On films made?",
+        "answers": [
+            "Pinewood Studios near Iver Heath, Buckinghamshire"
+        ]
+    },
+    {
+        "query_id": "qa_164_6924",
+        "question": "What genre is 'The Turning Point'?",
+        "answers": [
+            "American drama film"
+        ]
+    },
+    {
+        "query_id": "qa_164_971",
+        "question": "What is the name of Neil Young's last release on the Geffen label?",
+        "answers": [
+            "Life"
+        ]
+    },
+    {
+        "query_id": "qa_164_6554",
+        "question": "What year was 45 Minutes From Hollywood released?",
+        "answers": [
+            "1926"
+        ]
+    },
+    {
+        "query_id": "qa_164_1195",
+        "question": "Who played the main role in the BBC's 1993 film adaptation of Kafka's novel?",
+        "answers": [
+            "KM"
+        ]
+    },
+    {
+        "query_id": "qa_164_493",
+        "question": "Which musician collaborated on the concept album \"I Am\" released in 1972, featuring Meher Baba as the subject of the tribute?",
+        "answers": [
+            "Pete Townshend"
+        ]
+    },
+    {
+        "query_id": "qa_164_414",
+        "question": "Who are the supporting actors in The Tourist?",
+        "answers": [
+            "Paul Bettany and Timothy Dalton"
+        ]
+    },
+    {
+        "query_id": "qa_164_8259",
+        "question": "What is the name of the single released by Taylor Hicks from his second studio album, The Distance?",
+        "answers": [
+            "Answer: 'What's Right Is Right'"
+        ]
+    },
+    {
+        "query_id": "qa_164_3492",
+        "question": "How many copies of Back to Black have been sold worldwide?",
+        "answers": [
+            "16 million"
+        ]
+    },
+    {
+        "query_id": "qa_164_3225",
+        "question": "How many teams are participating in the 2019 FIFA Women's World Cup?",
+        "answers": [
+            "24"
+        ]
+    },
+    {
+        "query_id": "qa_164_311",
+        "question": "Where is the movie 'The Room' set?",
+        "answers": [
+            "San Francisco"
+        ]
+    },
+    {
+        "query_id": "qa_164_3471",
+        "question": "What is the genre of the 2012 film directed by Jay Roach?",
+        "answers": [
+            "Comedy"
+        ]
+    },
+    {
+        "query_id": "qa_164_7576",
+        "question": "Who composed the musical score for Tron: Legacy and what type of music did they incorporate?",
+        "answers": [
+            "Daft Punk, orchestral sounds with their trademark electronic music."
+        ]
+    },
+    {
+        "query_id": "qa_164_4473",
+        "question": "Who directed The Guilty?",
+        "answers": [
+            "Reinhardt"
+        ]
+    },
+    {
+        "query_id": "qa_164_3338",
+        "question": "Who wrote the screenplay for The Company?",
+        "answers": [
+            "Barbara Turner"
+        ]
+    },
+    {
+        "query_id": "qa_164_3548",
+        "question": "Who produced Kismat Konnection under which banner?",
+        "answers": [
+            "Ramesh S. Taurani under Tips Industries"
+        ]
+    },
+    {
+        "query_id": "qa_164_302",
+        "question": "What is the title and year of release of the movie Flesh?",
+        "answers": [
+            "Flesh (1932) is a pre-Code drama film."
+        ]
+    },
+    {
+        "query_id": "qa_164_8013",
+        "question": "In what year was the Western film 'The Shooting' released?",
+        "answers": [
+            "1966"
+        ]
+    },
+    {
+        "query_id": "qa_164_6398",
+        "question": "Who directed The Missing?",
+        "answers": [
+            "Ron Howard"
+        ]
+    },
+    {
+        "query_id": "qa_164_490",
+        "question": "How would you describe the society depicted in the Human Condition trilogy?",
+        "answers": [
+            "Totalitarian, oppressive"
+        ]
+    },
+    {
+        "query_id": "qa_164_6644",
+        "question": "What type of short film is The Pointer?",
+        "answers": [
+            "Type: Animated short film"
+        ]
+    },
+    {
+        "query_id": "qa_164_5200",
+        "question": "Who composed the music for the 2009 romantic musical drama film Nine?",
+        "answers": [
+            "Maury Yeston"
+        ]
+    },
+    {
+        "query_id": "qa_164_4244",
+        "question": "Who directed and produced the TV film Threads?",
+        "answers": [
+            "Mick Jackson"
+        ]
+    },
+    {
+        "query_id": "qa_164_1863",
+        "question": "What is the title of Patti Smith's fourth studio album?",
+        "answers": [
+            "Wave"
+        ]
+    },
+    {
+        "query_id": "qa_164_7669",
+        "question": "Who distributed the film in Canada?",
+        "answers": [
+            "Canadian distributor of 'One Week'"
+        ]
+    },
+    {
+        "query_id": "qa_164_7890",
+        "question": "How long has it been since Upendra last directed a movie?",
+        "answers": [
+            "10"
+        ]
+    },
+    {
+        "query_id": "qa_164_6621",
+        "question": "Who wrote the novel A Kestrel for a Knave?",
+        "answers": [
+            "Barry Hines wrote the novel A Kestrel for a Knave."
+        ]
+    },
+    {
+        "query_id": "qa_164_1518",
+        "question": "In what year was the movie 'The Keeper' released",
+        "answers": [
+            "2009"
+        ]
+    },
+    {
+        "query_id": "qa_164_5812",
+        "question": "Who played the role of Balarama's daughter Sasirekha in Mayabazar?",
+        "answers": [
+            "Savitri"
+        ]
+    },
+    {
+        "query_id": "qa_164_866",
+        "question": "What adjective best describes the nationality of Hot Water?",
+        "answers": [
+            "American"
+        ]
+    },
+    {
+        "query_id": "qa_164_3103",
+        "question": "What type of album is Under Construction?",
+        "answers": [
+            "Type: 4th studio"
+        ]
+    },
+    {
+        "query_id": "qa_164_7397",
+        "question": "In what year was the documentary film about Robert McNamara selected for preservation by the Library of Congress?",
+        "answers": [
+            "2019"
+        ]
+    },
+    {
+        "query_id": "qa_164_4399",
+        "question": "What genre does the movie 'The Mist' belong to?",
+        "answers": [
+            "science-fiction horror"
+        ]
+    },
+    {
+        "query_id": "qa_164_7325",
+        "question": "Which distribution company distributed the film Just Around the Corner?",
+        "answers": [
+            "Paramount Pictures"
+        ]
+    },
+    {
+        "query_id": "qa_164_5238",
+        "question": "What is the percentage of critical reviews for the movie?",
+        "answers": [
+            "100%"
+        ]
+    },
+    {
+        "query_id": "qa_164_7539",
+        "question": "Who are the main characters in Last Night?",
+        "answers": [
+            "Joanna and Michael Reed (Keira Knightley and Sam Worthington)"
+        ]
+    },
+    {
+        "query_id": "qa_164_6334",
+        "question": "Who played the role of Elliott in E.T. the Extra-Terrestrial?",
+        "answers": [
+            "Henry Thomas"
+        ]
+    },
+    {
+        "query_id": "qa_164_6541",
+        "question": "Where was What Just Happened shown at a film festival?",
+        "answers": [
+            "Cannes (May 25, 2008)"
+        ]
+    },
+    {
+        "query_id": "qa_164_1164",
+        "question": "What were the chart positions of Nanci Griffith's eighth studio album on the Country Albums chart and Pop Albums chart in 1989?",
+        "answers": [
+            "Answer: (42, 99)"
+        ]
+    },
+    {
+        "query_id": "qa_164_7973",
+        "question": "How was Curtains recorded?",
+        "answers": [
+            "Living room, just me sitting on a pillow"
+        ]
+    },
+    {
+        "query_id": "qa_164_210",
+        "question": "Who produced The Visitor?",
+        "answers": [
+            "Michael London, Mary Jane Skalski"
+        ]
+    },
+    {
+        "query_id": "qa_164_7792",
+        "question": "How many tracks are on Faye Wong's tenth Mandarin studio album released by Sony Music Asia?",
+        "answers": [
+            "13"
+        ]
+    },
+    {
+        "query_id": "qa_164_5418",
+        "question": "Who wrote the lyrics for the notable songs in the movie Sunny?",
+        "answers": [
+            "Anand Bakshi"
+        ]
+    },
+    {
+        "query_id": "qa_164_7932",
+        "question": "Who starred in the movie 'I Will Follow'?",
+        "answers": [
+            "Salli R-W, Omari H, Blair U, Bev T"
+        ]
+    },
+    {
+        "query_id": "qa_164_4296",
+        "question": "Who is the director of the movie 'Berkeley'?",
+        "answers": [
+            "Bobby Roth"
+        ]
+    },
+    {
+        "query_id": "qa_164_4071",
+        "question": "What is the name of the historic gay bathhouse in New York City that is the focus of this documentary film?",
+        "answers": [
+            "Continental Baths"
+        ]
+    },
+    {
+        "query_id": "qa_164_7356",
+        "question": "Who directed the movie 'The Lovers'?",
+        "answers": [
+            "Louis Malle"
+        ]
+    },
+    {
+        "query_id": "qa_164_1920",
+        "question": "In which year was the movie Inspiration released?",
+        "answers": [
+            "1931"
+        ]
+    },
+    {
+        "query_id": "qa_164_7771",
+        "question": "What is the title of the film and multimedia art project by Clive Holden released between 2001 and 2004?",
+        "answers": [
+            "Title: Trains of Winnipeg, creator: Clive Holden, years: 2001-2004"
+        ]
+    },
+    {
+        "query_id": "qa_164_1616",
+        "question": "In which year was the movie released?",
+        "answers": [
+            "1913"
+        ]
+    },
+    {
+        "query_id": "qa_164_3532",
+        "question": "What is the title of the movie?",
+        "answers": [
+            "Tarzan and the Great River"
+        ]
+    },
+    {
+        "query_id": "qa_164_6614",
+        "question": "Who is the female lead of the film?",
+        "answers": [
+            "Manisha Koirala"
+        ]
+    },
+    {
+        "query_id": "qa_164_3993",
+        "question": "In what year was the film 'A Man and a Woman' released?",
+        "answers": [
+            "1966"
+        ]
+    },
+    {
+        "query_id": "qa_164_5262",
+        "question": "Who distributed the movie 'The Off Season' through Lionsgate Home Entertainment?",
+        "answers": [
+            "Lionsgate Home Entertainment"
+        ]
+    },
+    {
+        "query_id": "qa_164_922",
+        "question": "What is unique and controversial about 'Oops!'?",
+        "answers": [
+            "male strippers"
+        ]
+    },
+    {
+        "query_id": "qa_164_4871",
+        "question": "What was the response to the film when it was first released?",
+        "answers": [
+            "Reactions to the film at the time of its release were mixed;"
+        ]
+    },
+    {
+        "query_id": "qa_164_7621",
+        "question": "How much money did Planes gross worldwide?",
+        "answers": [
+            "$240.2M"
+        ]
+    },
+    {
+        "query_id": "qa_164_5971",
+        "question": "Who directed and produced the film 'Paid'?",
+        "answers": [
+            "Sam Wood"
+        ]
+    },
+    {
+        "query_id": "qa_164_794",
+        "question": "Who composed the music for the movie 'Shock'?",
+        "answers": [
+            "Salim\u2013Sulaiman"
+        ]
+    },
+    {
+        "query_id": "qa_164_7793",
+        "question": "In which languages are some of the songs on Faye Wong's tenth Mandarin studio album released by Sony Music Asia sung?",
+        "answers": [
+            "Mandarin, Cantonese"
+        ]
+    },
+    {
+        "query_id": "qa_164_2243",
+        "question": "What type of movie is Arthur?",
+        "answers": [
+            "Romantic comedy"
+        ]
+    },
+    {
+        "query_id": "qa_164_615",
+        "question": "What genre is 'On the Line'?",
+        "answers": [
+            " 'On the Line' is a romantic comedy"
+        ]
+    },
+    {
+        "query_id": "qa_164_6111",
+        "question": "Who collaborated with Eminem on his seventh studio album 'Recovery'?",
+        "answers": [
+            "Pink, Lil Wayne, Rihanna, and Slaughterhouse."
+        ]
+    },
+    {
+        "query_id": "qa_164_3321",
+        "question": "What is the title of the movie?",
+        "answers": [
+            "Disclosure"
+        ]
+    },
+    {
+        "query_id": "qa_164_3122",
+        "question": "What genre is Hoffmeyer's Legacy, the 1912 comedy short directed by Mack Sennett?",
+        "answers": [
+            "comedy short"
+        ]
+    },
+    {
+        "query_id": "qa_164_3822",
+        "question": "What is the title of the movie?",
+        "answers": [
+            "Sphere"
+        ]
+    },
+    {
+        "query_id": "qa_164_1392",
+        "question": "How long was the division between the two boyhood best friends in the Northern Irish short film 'The Shore'?",
+        "answers": [
+            "25-year"
+        ]
+    },
+    {
+        "query_id": "qa_164_1077",
+        "question": "In which country is the heavy metal band Disturbed based?",
+        "answers": [
+            "American"
+        ]
+    },
+    {
+        "query_id": "qa_164_4397",
+        "question": "Who wrote, directed, and co-produced the movie 'The Mist'?",
+        "answers": [
+            "Frank Darabont"
+        ]
+    },
+    {
+        "query_id": "qa_164_4910",
+        "question": "Who are the main cast members of the movie Speed?",
+        "answers": [
+            "Zayed Khan, Sanjay Suri, Urmila Matondkar, Aftab Shivdasani, Aashish Chaudhary, and Tanushree Dutta"
+        ]
+    },
+    {
+        "query_id": "qa_164_6170",
+        "question": "Which list of films preserved by the Library of Congress does the American psychological horror science fiction film Seconds belong to?",
+        "answers": [
+            "National Film Registry"
+        ]
+    },
+    {
+        "query_id": "qa_164_2764",
+        "question": "Which movie became the first to win after being presented in the 4:3 aspect ratio since the release of From Here to Eternity in 1953?",
+        "answers": [
+            "The Artist"
+        ]
+    },
+    {
+        "query_id": "qa_164_371",
+        "question": "What criteria was used to select the film for preservation in the United States National Film Registry by the Library of Congress in 2018?",
+        "answers": [
+            "Culturally, historically, or aesthetically significant"
+        ]
+    },
+    {
+        "query_id": "qa_164_7294",
+        "question": "Who are the individuals involved in producing and directing 'American Me'?",
+        "answers": [
+            "Edward James Olmos, Floyd Mutrux (writer), Desmond Nakano (writer)"
+        ]
+    },
+    {
+        "query_id": "qa_164_3007",
+        "question": "How many awards did Puff Daddy win at the 40th Grammy Awards?",
+        "answers": [
+            "Unkown, only nominated for five"
+        ]
+    },
+    {
+        "query_id": "qa_164_7283",
+        "question": "What features of Qumran does the documentary 'Healers of the Dead Sea' guide the viewer around?",
+        "answers": [
+            "The documentary 'Healers of the Dead Sea' guides the viewer around features such as the..."
+        ]
+    },
+    {
+        "query_id": "qa_164_4992",
+        "question": "In which country were some scenes from the movie Revenge filmed?",
+        "answers": [
+            "Location: Mexico"
+        ]
+    },
+    {
+        "query_id": "qa_164_6521",
+        "question": "Who is the popular Malayalam actor Nivin Pauly playing a role in the movie 'Metro'?",
+        "answers": [
+            "Nivin Pauly (Metro)"
+        ]
+    },
+    {
+        "query_id": "qa_164_786",
+        "question": "In which year was the movie 'Shock' released?",
+        "answers": [
+            "2004"
+        ]
+    },
+    {
+        "query_id": "qa_164_6917",
+        "question": "What is the relationship between \"A Good Man\" and \"Force of Execution\"?",
+        "answers": [
+            "Prequel"
+        ]
+    },
+    {
+        "query_id": "qa_164_3424",
+        "question": "Who is the Swedish producer associated with the creation of \"You Make Me\"?",
+        "answers": [
+            "Arash Pournouri"
+        ]
+    },
+    {
+        "query_id": "qa_164_2249",
+        "question": "Who was the mob boss in The Sting?",
+        "answers": [
+            "Robert Shaw"
+        ]
+    },
+    {
+        "query_id": "qa_164_5940",
+        "question": "Which countries is The Eye from?",
+        "answers": [
+            "Origin: Hong Kong-Singaporean"
+        ]
+    },
+    {
+        "query_id": "qa_164_471",
+        "question": "Who directed the movie?",
+        "answers": [
+            "Kurt Neumann"
+        ]
+    },
+    {
+        "query_id": "qa_164_2284",
+        "question": "In which countries was '13' certified gold, and in which countries was it certified platinum?",
+        "answers": [
+            " '13' was certified gold in the UK and was certified platinum in BR, CA, DE, and PL."
+        ]
+    },
+    {
+        "query_id": "qa_164_4379",
+        "question": "Who are the main actors in the movie?",
+        "answers": [
+            "Claudette Colbert, Herbert Marshall, Mary Boland"
+        ]
+    },
+    {
+        "query_id": "qa_164_1724",
+        "question": "Which actors appeared in the movie 'The Thing from Another World'",
+        "answers": [
+            "Margaret Sheridan, Kenneth Tobey, Robert Cornthwaite, Douglas Spencer, James Arness"
+        ]
+    },
+    {
+        "query_id": "qa_164_6933",
+        "question": "When was The Rock released in theaters?",
+        "answers": [
+            "1996"
+        ]
+    },
+    {
+        "query_id": "qa_164_1584",
+        "question": "What is the connection between the 1963 Great Train Robbery and the 1967 British crime film Robbery?",
+        "answers": [
+            "Heavily fictionalized version"
+        ]
+    },
+    {
+        "query_id": "qa_164_7036",
+        "question": "How were the performances of Simon Pegg and Nick Frost received in the film?",
+        "answers": [
+            "Hill and Ayoade's performances were more positively received."
+        ]
+    },
+    {
+        "query_id": "qa_164_5492",
+        "question": "What does the main character battle in Are You Here?",
+        "answers": [
+            "Psychological issues"
+        ]
+    },
+    {
+        "query_id": "qa_164_7899",
+        "question": "Who played the main roles in the movie 'On The Road'?",
+        "answers": [
+            "Garrett Hedlund, Sam Riley, Kristen Stewart, Alice Braga, Amy Adams, Tom Sturridge, Danny Morgan, Elisabeth Moss, Kirsten Dunst, and Viggo Mortensen"
+        ]
+    },
+    {
+        "query_id": "qa_164_7543",
+        "question": "Which production company produced Last Night?",
+        "answers": [
+            "Gaumont Film Company"
+        ]
+    },
+    {
+        "query_id": "qa_164_8255",
+        "question": "How many studio albums does Taeyang have, and which one is 'Rise'?",
+        "answers": [
+            "Second, 'Solar' was first"
+        ]
+    },
+    {
+        "query_id": "qa_164_5839",
+        "question": "What movie is being referred to?",
+        "answers": [
+            "No Clue"
+        ]
+    },
+    {
+        "query_id": "qa_164_2309",
+        "question": "Who wrote the script for E.T. the Extra-Terrestrial?",
+        "answers": [
+            "Mathison"
+        ]
+    },
+    {
+        "query_id": "qa_164_5087",
+        "question": "In what year was Julie Delpy's previous film '2 Days in Paris' released?",
+        "answers": [
+            "Previous film year: 2007"
+        ]
+    },
+    {
+        "query_id": "qa_164_2916",
+        "question": "When did the show take place? ",
+        "answers": [
+            "1944 to 2002"
+        ]
+    },
+    {
+        "query_id": "qa_164_3837",
+        "question": "In what year did the story start after the surrender of the British to Japanese troops in Singapore?",
+        "answers": [
+            "1942"
+        ]
+    },
+    {
+        "query_id": "qa_164_6103",
+        "question": "Who played the role of Mar\u00eda Conchita Alonso in The Running Man?",
+        "answers": [
+            "Alonso"
+        ]
+    },
+    {
+        "query_id": "qa_164_5983",
+        "question": "What is the alternate title of the movie in some countries?",
+        "answers": [
+            "Hostile Hostages"
+        ]
+    },
+    {
+        "query_id": "qa_164_5384",
+        "question": "What is the tone of 'Champion' by Nicki Minaj?",
+        "answers": [
+            "Serious"
+        ]
+    },
+    {
+        "query_id": "qa_164_7368",
+        "question": "How much was spent to produce the movie Click?",
+        "answers": [
+            "$82.5 million"
+        ]
+    },
+    {
+        "query_id": "qa_164_2791",
+        "question": "In what year was 'Back Home' released?",
+        "answers": [
+            "29 August 2005"
+        ]
+    },
+    {
+        "query_id": "qa_164_7919",
+        "question": "Who plays the role of Michael Aris in the movie 'The Lady'",
+        "answers": [
+            "David Thewlis"
+        ]
+    }
+]

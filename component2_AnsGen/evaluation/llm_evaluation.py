@@ -118,7 +118,7 @@ def load_model(args):
                 device_map={"":0} # Load the entire model on the GPU 0
             )
         elif args.llm_model_name == "flant5":
-            model = AutoModelForSeq2SeqLM.from_pretrained(
+            base_model = AutoModelForSeq2SeqLM.from_pretrained(
                 config.base_model_name_or_path,
                 load_in_8bit=True,
                 # device_map={"":0}
@@ -260,9 +260,10 @@ def main(args):
     
     # == Loop over the test questions ========================
     accuracy = []
-    max_new_tokens = 790 if args.with_rag else 300
+    # max_new_tokens = 790 if args.with_rag else 300
     
     if args.llm_model_name in ["llama2", "mistral", "zephyr", "tiny_llama", "MiniCPM"]:
+        max_new_tokens = 60
         pipe = pipeline(
             task="text-generation",
             model=model,
@@ -270,6 +271,7 @@ def main(args):
             max_new_tokens = max_new_tokens
         )
     elif args.llm_model_name == "flant5":
+        max_new_tokens = 30
         pipe = pipeline( 
             "text2text-generation", 
             model=model, 

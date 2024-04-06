@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=4:00:00
+#SBATCH --time=8:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 module load 2022
@@ -15,10 +15,10 @@ srun $HOME/RAGvsFT/component2_AnsGen/finetuning/llm_finetuning.py \
     --llm_model_name "llama2" \
     --dataset_name "EQ" \
     --generation_method "prompting" \
-    --epochs 3 \
+    --epochs 4 \
     --lr 0.0002 \
     --with_peft True \
-    --version 6
+    --version 3
 
 
 # Model name: [

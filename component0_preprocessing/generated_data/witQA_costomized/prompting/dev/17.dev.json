@@ -1,0 +1,4797 @@
+[
+    {
+        "query_id": "qa_17_6947",
+        "question": "What is the name of Brittany?",
+        "answers": [
+            "Brittany (French: Bretagne [b\u0281\u0259ta\u0272] ; Breton: Breizh [br\u025bjs]; Gallo: Berta\u00e8yn [b\u0259\u0281ta\u025b\u0272])"
+        ]
+    },
+    {
+        "query_id": "qa_17_4420",
+        "question": "What geographic feature covers the territory of the province of Como?",
+        "answers": [
+            "Lugano Prealps"
+        ]
+    },
+    {
+        "query_id": "qa_17_1656",
+        "question": "What is the origin of the name Roggeveld for the plateau in the Karoo region of South Africa?",
+        "answers": [
+            "The name Roggeveld for the plateau in the Karoo region of South Africa comes from the wild rye once plentiful in the area."
+        ]
+    },
+    {
+        "query_id": "qa_17_6067",
+        "question": "Which city, besides Denver, is important in Colorado?",
+        "answers": [
+            "Colorado Springs"
+        ]
+    },
+    {
+        "query_id": "qa_17_3425",
+        "question": "Who was a prominent figure in pharmacology from al-Andalus?",
+        "answers": [
+            "Ibn Zuhr"
+        ]
+    },
+    {
+        "query_id": "qa_17_3870",
+        "question": "What is the name of the landlocked state in the Mountain West subregion of the United States?",
+        "answers": [
+            "Idaho"
+        ]
+    },
+    {
+        "query_id": "qa_17_2869",
+        "question": "Where is the major airport for The Bahamas located in relation to Nassau?",
+        "answers": [
+            "Lynden Pindling Int'l, 16 km W"
+        ]
+    },
+    {
+        "query_id": "qa_17_3533",
+        "question": "What island is the seventh largest and eighth-most populous in the Philippines?",
+        "answers": [
+            "Mindoro"
+        ]
+    },
+    {
+        "query_id": "qa_17_4902",
+        "question": "What is the role of Catania in Sicily today?",
+        "answers": [
+            "Industrial, logistical, and commercial center"
+        ]
+    },
+    {
+        "query_id": "qa_17_2103",
+        "question": "How many people lived in Kibondo District in 2012?",
+        "answers": [
+            "261,331"
+        ]
+    },
+    {
+        "query_id": "qa_17_2434",
+        "question": "What is Holstein Switzerland (German: Holsteinische Schweiz)?",
+        "answers": [
+            "Holstein Switzerland is a hilly area in Schleswig-Holstein, Germany, reminiscent of Swiss landscape."
+        ]
+    },
+    {
+        "query_id": "qa_17_6924",
+        "question": "What is the population of Portland?",
+        "answers": [
+            "652,503"
+        ]
+    },
+    {
+        "query_id": "qa_17_5329",
+        "question": "How many rural union councils are there in Pakistan?",
+        "answers": [
+            "5375"
+        ]
+    },
+    {
+        "query_id": "qa_17_1851",
+        "question": "What was the original name and purpose of Aermacchi?",
+        "answers": [
+            "Nieuport-Macchi, to build Nieuport monoplanes under licence for the Italian military."
+        ]
+    },
+    {
+        "query_id": "qa_17_661",
+        "question": "What unique features does Hv\u00edtserkur have at its base?",
+        "answers": [
+            "Two holes"
+        ]
+    },
+    {
+        "query_id": "qa_17_4970",
+        "question": "What is the name of the province where Fariman County is located?",
+        "answers": [
+            "Razavi Khorasan"
+        ]
+    },
+    {
+        "query_id": "qa_17_4963",
+        "question": "How many people live in Fariman County?",
+        "answers": [
+            "86,428"
+        ]
+    },
+    {
+        "query_id": "qa_17_2043",
+        "question": "Where are the La Silla telescopes and instruments located?",
+        "answers": [
+            "150 km NE of La Serena, Atacama Desert"
+        ]
+    },
+    {
+        "query_id": "qa_17_6988",
+        "question": "What makes Florida world-renowned?",
+        "answers": [
+            "Beach resorts, amusement parks, warm climate, nautical recreation"
+        ]
+    },
+    {
+        "query_id": "qa_17_5436",
+        "question": "Which countries have Portuguese as their official language?",
+        "answers": [
+            "Portugal, Brazil, Cape Verde, Angola, Mozambique, Guinea-Bissau, and S\u00e3o Tom\u00e9 and Pr\u00edncipe"
+        ]
+    },
+    {
+        "query_id": "qa_17_5954",
+        "question": "How large is Java?",
+        "answers": [
+            "13th largest island, 53,600 sq mi"
+        ]
+    },
+    {
+        "query_id": "qa_17_2363",
+        "question": "Who is the main employer in the city of Kapfenberg?",
+        "answers": [
+            "B\u00f6hler."
+        ]
+    },
+    {
+        "query_id": "qa_17_4431",
+        "question": "What is the name of the state in Malaysia located on the western coast?",
+        "answers": [
+            "A: Negeri Sembilan"
+        ]
+    },
+    {
+        "query_id": "qa_17_1487",
+        "question": "What was the population of Shahreza in 2006?",
+        "answers": [
+            "108,299"
+        ]
+    },
+    {
+        "query_id": "qa_17_394",
+        "question": "What is Les Jardins-de-Napierville? ",
+        "answers": [
+            "A: RCM in Mont\u00e9r\u00e9gie, founded 1982, Napierville seat"
+        ]
+    },
+    {
+        "query_id": "qa_17_2757",
+        "question": "What type of natural areas can be found in Lagos State?",
+        "answers": [
+            "tropical Nigerian lowland forests ecoregion"
+        ]
+    },
+    {
+        "query_id": "qa_17_5117",
+        "question": "What is the significance of Athens in terms of economy, finance, industry, maritime affairs, politics, and culture?",
+        "answers": [
+            "Central to..."
+        ]
+    },
+    {
+        "query_id": "qa_17_5584",
+        "question": "What are the inhabitants of Moselle called?",
+        "answers": [
+            "Mosellans"
+        ]
+    },
+    {
+        "query_id": "qa_17_5613",
+        "question": "What is the estimated GRP PPP of Jakarta in 2021?",
+        "answers": [
+            "602.946 billion (US)"
+        ]
+    },
+    {
+        "query_id": "qa_17_4307",
+        "question": "What is the population of Haute-Corse in 2019?",
+        "answers": [
+            "181,933"
+        ]
+    },
+    {
+        "query_id": "qa_17_5343",
+        "question": "What was done to address the problem in Karachi?",
+        "answers": [
+            "crackdown operation against criminals, the MQM political party, and Islamist militants"
+        ]
+    },
+    {
+        "query_id": "qa_17_2416",
+        "question": "What was the status of Sackville before 2023?",
+        "answers": [
+            "Was until 2023"
+        ]
+    },
+    {
+        "query_id": "qa_17_4554",
+        "question": "What was Haifa's former occupation during the 3rd century CE?",
+        "answers": [
+            "dye center"
+        ]
+    },
+    {
+        "query_id": "qa_17_5389",
+        "question": "What is the Greater Toronto Area?",
+        "answers": [
+            "6.71M pop. (2021)"
+        ]
+    },
+    {
+        "query_id": "qa_17_243",
+        "question": "When was the Medical Code of Ethics passed in Poland?",
+        "answers": [
+            "The Medical Code of Ethics was passed at the 2nd General Medical Assembly in 1991 in Poland."
+        ]
+    },
+    {
+        "query_id": "qa_17_4935",
+        "question": "What region is Dortmund the largest city of?",
+        "answers": [
+            "NRW, Ruhr"
+        ]
+    },
+    {
+        "query_id": "qa_17_6486",
+        "question": "What does Carnatic refer to, according to the British?",
+        "answers": [
+            "British term for region or tradition"
+        ]
+    },
+    {
+        "query_id": "qa_17_6545",
+        "question": "Which states does Rhineland-Palatinate border?",
+        "answers": [
+            "North Rhine-Westphalia, Saarland, Baden-W\u00fcrttemberg, Hesse, France, Luxembourg, Belgium"
+        ]
+    },
+    {
+        "query_id": "qa_17_4428",
+        "question": "How many households were there in Bojnord County during the 2011 census?",
+        "answers": [
+            "100,900"
+        ]
+    },
+    {
+        "query_id": "qa_17_5499",
+        "question": "What institution is responsible for overseeing the legal system in Manitoba?",
+        "answers": [
+            "Provincial Court"
+        ]
+    },
+    {
+        "query_id": "qa_17_6843",
+        "question": "What countries or provinces does Khyber Pakhtunkhwa share a border with?",
+        "answers": [
+            "Shares borders with Afghanistan, Balochistan, Punjab, Gilgit-Baltistan, Islamabad Capital Territory, and Azad Kashmir."
+        ]
+    },
+    {
+        "query_id": "qa_17_1084",
+        "question": "What major towns are located in the Batang Padang District?",
+        "answers": [
+            "Bidor, Tapah, Sungkai"
+        ]
+    },
+    {
+        "query_id": "qa_17_3044",
+        "question": "What is the population of County Roscommon as of the 2022 census?",
+        "answers": [
+            "69,995"
+        ]
+    },
+    {
+        "query_id": "qa_17_5768",
+        "question": "What is Cape Town?",
+        "answers": [
+            "CT"
+        ]
+    },
+    {
+        "query_id": "qa_17_983",
+        "question": "What commune is located 15.5 kilometers from the center of Paris? ",
+        "answers": [
+            "Villeneuve-Saint-Georges"
+        ]
+    },
+    {
+        "query_id": "qa_17_3397",
+        "question": "Where is the historic core of Limerick located?",
+        "answers": [
+            "Answer: King's Island"
+        ]
+    },
+    {
+        "query_id": "qa_17_7108",
+        "question": "Which two universities in the C9 League are based in Beijing and considered the best in the Asia & Oceania region and emerging countries?",
+        "answers": [
+            "\"Tsinghua and Peking\""
+        ]
+    },
+    {
+        "query_id": "qa_17_6867",
+        "question": "How populous is S\u00e3o Paulo?",
+        "answers": [
+            "S\u00e3o Paulo, the most populous Brazilian state, has over 44 million inhabitants as of 2022."
+        ]
+    },
+    {
+        "query_id": "qa_17_4749",
+        "question": "Which city is the capital of the province of Vicenza?",
+        "answers": [
+            "Vicenza"
+        ]
+    },
+    {
+        "query_id": "qa_17_2192",
+        "question": "How many senators are currently in the Wisconsin Senate?",
+        "answers": [
+            "33"
+        ]
+    },
+    {
+        "query_id": "qa_17_3982",
+        "question": "What is the largest city in the Azores?",
+        "answers": [
+            "Ponta Delgada"
+        ]
+    },
+    {
+        "query_id": "qa_17_886",
+        "question": "What is the region called King Country?",
+        "answers": [
+            "The region called King Country is located in the central North Island of New Zealand."
+        ]
+    },
+    {
+        "query_id": "qa_17_6759",
+        "question": "What is the GDP of the Stockholm region, and how does it compare to other counties in Sweden?",
+        "answers": [
+            "The Stockholm region has a GDP of around $180 billion, making it one of the wealthiest regions in Sweden."
+        ]
+    },
+    {
+        "query_id": "qa_17_6692",
+        "question": "What notable contributions to popular culture have their origins in California?",
+        "answers": [
+            "Diversified industries, Hollywood, tech hubs."
+        ]
+    },
+    {
+        "query_id": "qa_17_4206",
+        "question": "What is the geographic area of Vorarlberg?",
+        "answers": [
+            "Vorarlberg has the second-smallest geographic area in Austria after Vienna."
+        ]
+    },
+    {
+        "query_id": "qa_17_5287",
+        "question": "How did Tokyo suffer during World War II, and what was the reason behind it?",
+        "answers": [
+            "Allied bombing raids during World War II in retaliation for Japan's attack on Pearl Harbor"
+        ]
+    },
+    {
+        "query_id": "qa_17_3390",
+        "question": "What body of water does the Chao Phraya (or \u0e41\ufffd\u0e48\u0e19\u0e49\u0e33\u0e40\u0e08\u0e49\u0e32\u0e1e\u0e23\u0e30\u0e22\u0e32) lead to?",
+        "answers": [
+            "The Gulf of Thailand"
+        ]
+    },
+    {
+        "query_id": "qa_17_2492",
+        "question": "What district is Now Bandegan?",
+        "answers": [
+            "Now Bandegan District is in Fasa County, Fars province, Iran."
+        ]
+    },
+    {
+        "query_id": "qa_17_3318",
+        "question": "What administrative seat is W\u00fcrzburg?",
+        "answers": [
+            "Regierungsbezirk Lower Franconia"
+        ]
+    },
+    {
+        "query_id": "qa_17_4681",
+        "question": "Which cities host the Port of Odesa and Port Pivdennyi, and where is Chornomorsk located in relation to Odesa?",
+        "answers": [
+            "The cities of Odesa and Port Pivdennyi host the Port of Odesa, and Chornomorsk is located to the south-west of Odesa."
+        ]
+    },
+    {
+        "query_id": "qa_17_2459",
+        "question": "Which championship was open to drivers of AF1 cars from 1970 to 1983?",
+        "answers": [
+            "Australian Drivers' Championship"
+        ]
+    },
+    {
+        "query_id": "qa_17_5890",
+        "question": "When was the first permanent European colony established in Western Australia?",
+        "answers": [
+            "1826."
+        ]
+    },
+    {
+        "query_id": "qa_17_4926",
+        "question": "What is the nickname for the Bathurst area?",
+        "answers": [
+            "Bathurst is often referred to as the Gold Country"
+        ]
+    },
+    {
+        "query_id": "qa_17_430",
+        "question": "What is the name of the commune in the Seine-Maritime department of Normandy, France?",
+        "answers": [
+            "Bouelles"
+        ]
+    },
+    {
+        "query_id": "qa_17_4684",
+        "question": "How long has Kannada had a literary tradition?",
+        "answers": [
+            "1000 years"
+        ]
+    },
+    {
+        "query_id": "qa_17_5004",
+        "question": "What was Pennsylvania's first business school, established in this year?",
+        "answers": [
+            "1881"
+        ]
+    },
+    {
+        "query_id": "qa_17_6184",
+        "question": "What group of people were many of Utah's earliest settlers?",
+        "answers": [
+            "Mormons"
+        ]
+    },
+    {
+        "query_id": "qa_17_1579",
+        "question": "What type of administrative division is the city of Romny a part of in Ukraine?",
+        "answers": [
+            "Romny urban hromada"
+        ]
+    },
+    {
+        "query_id": "qa_17_1205",
+        "question": "What continental football competition do the winners of the Bahraini Premier League qualify for?",
+        "answers": [
+            "AFC Champions League 2"
+        ]
+    },
+    {
+        "query_id": "qa_17_4178",
+        "question": "What dynasty fell after the Xinhai Revolution?",
+        "answers": [
+            "Qing dynasty (last emperor: Puyi)"
+        ]
+    },
+    {
+        "query_id": "qa_17_683",
+        "question": "Where is El Sahugo located in terms of Spain?",
+        "answers": [
+            "Western Spain"
+        ]
+    },
+    {
+        "query_id": "qa_17_3930",
+        "question": "Which states border Maranh\u00e3o? ",
+        "answers": [
+            "Clockwise from north, it borders on the Atlantic Ocean for 2,243 km and the states of Piau\u00ed, Tocantins and Par\u00e1."
+        ]
+    },
+    {
+        "query_id": "qa_17_4382",
+        "question": "What makes Hawaii so diverse?",
+        "answers": [
+            "over two centuries of migration"
+        ]
+    },
+    {
+        "query_id": "qa_17_3282",
+        "question": "How many other municipalities are included in the Metropolitan City of Palermo besides Palermo?",
+        "answers": [
+            "82 comuni"
+        ]
+    },
+    {
+        "query_id": "qa_17_4509",
+        "question": "Who is the current champion of the Slovak First Football League?",
+        "answers": [
+            "Slovan Bratislava (current)"
+        ]
+    },
+    {
+        "query_id": "qa_17_5003",
+        "question": "In what year was the first theater built in Pennsylvania?",
+        "answers": [
+            "1809"
+        ]
+    },
+    {
+        "query_id": "qa_17_4973",
+        "question": "What is the name of the largest Dutch-speaking university in the world?",
+        "answers": [
+            "KU Leuven"
+        ]
+    },
+    {
+        "query_id": "qa_17_1637",
+        "question": "What unique feature is there on Kildin Island? ",
+        "answers": [
+            "Relict lake with unique cod species."
+        ]
+    },
+    {
+        "query_id": "qa_17_448",
+        "question": "What county is Baraspi located in?",
+        "answers": [
+            "Urmia County"
+        ]
+    },
+    {
+        "query_id": "qa_17_324",
+        "question": "What makes Sammarinese euro coins unique?",
+        "answers": [
+            "Separate designs for every coin."
+        ]
+    },
+    {
+        "query_id": "qa_17_58",
+        "question": "What district (kecamatan) is Pulo Gadung located in?",
+        "answers": [
+            "Kabupaten Jakarta Timur"
+        ]
+    },
+    {
+        "query_id": "qa_17_2175",
+        "question": "What agreement was made in 1944 regarding Germany's occupation zones?",
+        "answers": [
+            "London Protocol"
+        ]
+    },
+    {
+        "query_id": "qa_17_2144",
+        "question": "What administrative division is Paraguar\u00ed a part of?",
+        "answers": [
+            "Paraguay"
+        ]
+    },
+    {
+        "query_id": "qa_17_359",
+        "question": "What is the population of Prinsu\u00e9jols as of 2019?",
+        "answers": [
+            "145"
+        ]
+    },
+    {
+        "query_id": "qa_17_1297",
+        "question": "What province and country is Gananoque located in?",
+        "answers": [
+            "Ontario, Canada"
+        ]
+    },
+    {
+        "query_id": "qa_17_2765",
+        "question": "What were the Lagos State areas like before the 19th century?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_17_2442",
+        "question": "Which summit in the Alay Range has an elevation of 5051 meters?",
+        "answers": [
+            "Pik Skobeleva (5051 m)"
+        ]
+    },
+    {
+        "query_id": "qa_17_4582",
+        "question": "Who claimed Lord Howe Island as a British possession in the past?",
+        "answers": [
+            "Humphrey Ball"
+        ]
+    },
+    {
+        "query_id": "qa_17_1143",
+        "question": "How many stations were there on the river for this transportation service?",
+        "answers": [
+            "Six"
+        ]
+    },
+    {
+        "query_id": "qa_17_3620",
+        "question": "Did Osama bin Laden claim responsibility for the September 11 attacks in 2004?",
+        "answers": [
+            "Admitted in 2004"
+        ]
+    },
+    {
+        "query_id": "qa_17_4772",
+        "question": "Which department is Grenoble the prefecture of?",
+        "answers": [
+            "Is\u00e8re department"
+        ]
+    },
+    {
+        "query_id": "qa_17_288",
+        "question": "What topics does the Chartered Institute of Loss Adjusters cover in their qualifying examinations?",
+        "answers": [
+            "The Chartered Institute of Loss Adjusters covers insurance law, claims procedure, report writing, and loss adjustment in their qualifying examinations."
+        ]
+    },
+    {
+        "query_id": "qa_17_1815",
+        "question": "Which village in Nazlu-ye Jonubi Rural District has the largest population?",
+        "answers": [
+            "Chonqeraluy-e Yekan, 1,191"
+        ]
+    },
+    {
+        "query_id": "qa_17_4800",
+        "question": "What is the meaning of the name Guanajuato?",
+        "answers": [
+            "Kuanhas\u00ef ju\u00e1ta (or in older orthography \"quanax huato\"), which means \"frog hill\""
+        ]
+    },
+    {
+        "query_id": "qa_17_5373",
+        "question": "What are the many attractions that Munich has to offer?",
+        "answers": [
+            "Munich's numerous architectural and cultural attractions"
+        ]
+    },
+    {
+        "query_id": "qa_17_2113",
+        "question": "What is Orizaba (Spanish: [o\u027ei\u02c8sa\u03b2a],  Otomi: Mbo'\u00f1u) or what city and municipality in the Mexican state of Veracruz is this?",
+        "answers": [
+            "Orizaba ([o\u027ei\u02c8sa\u03b2a], Mbo'\u00f1u) is a city and municipality in Veracruz, 20 km W of C\u00f3rdoba on Hwy 180/190. Pop: 120,500 (2020)."
+        ]
+    },
+    {
+        "query_id": "qa_17_533",
+        "question": "What is the branding used for CKXD-FM's programming on-air?",
+        "answers": [
+            "97.5 K-Rock"
+        ]
+    },
+    {
+        "query_id": "qa_17_6164",
+        "question": "How many people live in Lisbon?",
+        "answers": [
+            "548,703"
+        ]
+    },
+    {
+        "query_id": "qa_17_5787",
+        "question": "How is Kuala Lumpur connected to other urban metro regions and airports?",
+        "answers": [
+            "Kuala Lumpur is well connected to neighboring urban metro regions like Petaling Jaya via the expanding Klang Valley Integrated Transit System, and residents can travel to other parts of Peninsular Malaysia and KLIA via KL Sentral."
+        ]
+    },
+    {
+        "query_id": "qa_17_902",
+        "question": "What was Luohu District before 1953?",
+        "answers": [
+            "Fishing village"
+        ]
+    },
+    {
+        "query_id": "qa_17_4203",
+        "question": "What is the capital of Vorarlberg?",
+        "answers": [
+            "The capital of Vorarlberg is Bregenz."
+        ]
+    },
+    {
+        "query_id": "qa_17_143",
+        "question": "What makes Prince's Park unique in terms of size?",
+        "answers": [
+            "Prince's Park is the smallest park in the United Kingdom."
+        ]
+    },
+    {
+        "query_id": "qa_17_4422",
+        "question": "What is the name of the province located in the Lombardy region of Italy?",
+        "answers": [
+            "Como"
+        ]
+    },
+    {
+        "query_id": "qa_17_22",
+        "question": "What is the DoN?",
+        "answers": [
+            "DoN is one of DoD's 3 military depts, led by SECNAV, est. 1798."
+        ]
+    },
+    {
+        "query_id": "qa_17_4239",
+        "question": "What is the land area of Kings County in square miles?",
+        "answers": [
+            "69.38 sq mi (179.7 km2)"
+        ]
+    },
+    {
+        "query_id": "qa_17_6372",
+        "question": "What is the largest metropolis, and seventh largest city by population in India, located in West Bengal?",
+        "answers": [
+            "Kolkata"
+        ]
+    },
+    {
+        "query_id": "qa_17_6477",
+        "question": "Which city in Victoria is known for its cultural attractions?",
+        "answers": [
+            "Melbourne"
+        ]
+    },
+    {
+        "query_id": "qa_17_4871",
+        "question": "What are the main economic activities in San Diego?",
+        "answers": [
+            "Military, tourism, intl trade, research, manuf."
+        ]
+    },
+    {
+        "query_id": "qa_17_4113",
+        "question": "What percentage of the total population speaks the M\u0101ori language to some extent?",
+        "answers": [
+            "Three percent"
+        ]
+    },
+    {
+        "query_id": "qa_17_11",
+        "question": "What was the official American policy regarding FULRO?",
+        "answers": [
+            "Official American policy was opposition to FULRO."
+        ]
+    },
+    {
+        "query_id": "qa_17_5585",
+        "question": "What state is the oldest in the South Region of Brazil?",
+        "answers": [
+            "Santa Catarina"
+        ]
+    },
+    {
+        "query_id": "qa_17_3110",
+        "question": "What types of centres does Bitola function as?",
+        "answers": [
+            "Administrative, cultural, industrial, commercial, and educational centre"
+        ]
+    },
+    {
+        "query_id": "qa_17_3740",
+        "question": "Jeju Island: What is Jeju Island?",
+        "answers": [
+            "Jeju Island is South Korea's largest island with an area of 1,833.2 km2 (707.8 sq mi)."
+        ]
+    },
+    {
+        "query_id": "qa_17_275",
+        "question": "What is the former railway line that used to terminate at Wanrong railway station?",
+        "answers": [
+            "Former railway line to Mt. Lintian"
+        ]
+    },
+    {
+        "query_id": "qa_17_7121",
+        "question": "What is the name of the railway station in Lucerne, Switzerland?",
+        "answers": [
+            "Luzern Allmend/Messe"
+        ]
+    },
+    {
+        "query_id": "qa_17_2565",
+        "question": "What administrative district includes Cradock?",
+        "answers": [
+            "Chris Hani District"
+        ]
+    },
+    {
+        "query_id": "qa_17_4117",
+        "question": "How many people live in Vienne?",
+        "answers": [
+            "438,435"
+        ]
+    },
+    {
+        "query_id": "qa_17_6037",
+        "question": "How long has Greek been documented in writing?",
+        "answers": [
+            "Greek has been documented in writing for at least 3,400 years."
+        ]
+    },
+    {
+        "query_id": "qa_17_6366",
+        "question": "What is the GSDP of Tamil Nadu?",
+        "answers": [
+            "23.65 lakh crore (US$300 billion)"
+        ]
+    },
+    {
+        "query_id": "qa_17_6946",
+        "question": "In what year did Vienna become the capital of the Holy Roman Empire?",
+        "answers": [
+            "1558"
+        ]
+    },
+    {
+        "query_id": "qa_17_3082",
+        "question": "Where is Savona located within the region of Liguria?",
+        "answers": [
+            "Seaport and comune in west Liguria"
+        ]
+    },
+    {
+        "query_id": "qa_17_6379",
+        "question": "Which empire briefly overran Bengal?",
+        "answers": [
+            "The Suri Empire briefly overran Bengal."
+        ]
+    },
+    {
+        "query_id": "qa_17_6976",
+        "question": "How did the king of Aragon and queen of Castile rule their realms together in the later Middle Ages while retaining distinct institutions and legislation?",
+        "answers": [
+            "By maintaining separate institutions and legislative bodies."
+        ]
+    },
+    {
+        "query_id": "qa_17_2764",
+        "question": "How diverse is the religious population in Lagos State?",
+        "answers": [
+            "Diverse."
+        ]
+    },
+    {
+        "query_id": "qa_17_1501",
+        "question": "What entity is Novi Travnik a part of?",
+        "answers": [
+            "Federation of Bosnia and Herzegovina"
+        ]
+    },
+    {
+        "query_id": "qa_17_4774",
+        "question": "Where are the French Alps located?",
+        "answers": [
+            "Near Grenoble"
+        ]
+    },
+    {
+        "query_id": "qa_17_901",
+        "question": "What city is Luohu District a part of?",
+        "answers": [
+            "Shenzhen"
+        ]
+    },
+    {
+        "query_id": "qa_17_5462",
+        "question": "What is the Hermitage?",
+        "answers": [
+            "The Hermitage is one of the largest art museums in the world."
+        ]
+    },
+    {
+        "query_id": "qa_17_5863",
+        "question": "What is the French name for the canton of Vaud?",
+        "answers": [
+            "Canton de Vaud"
+        ]
+    },
+    {
+        "query_id": "qa_17_7126",
+        "question": "Where is the Cambridge University Real Tennis Club located?",
+        "answers": [
+            "Grange Road, Cambridge, England"
+        ]
+    },
+    {
+        "query_id": "qa_17_6504",
+        "question": "What are the two mountain ranges that Grand Est includes?",
+        "answers": [
+            "V, A"
+        ]
+    },
+    {
+        "query_id": "qa_17_684",
+        "question": "What autonomous community is El Sahugo a part of?",
+        "answers": [
+            "Castile-Leon"
+        ]
+    },
+    {
+        "query_id": "qa_17_5928",
+        "question": "Who designed the Eiffel Tower?",
+        "answers": [
+            "Gustave Eiffel"
+        ]
+    },
+    {
+        "query_id": "qa_17_7075",
+        "question": "Who leads the Church of Norway?",
+        "answers": [
+            "Ordained priests"
+        ]
+    },
+    {
+        "query_id": "qa_17_408",
+        "question": "How many people lived in the village of Shahrak-e Cham Kuku in the Central District of Khonj County, Fars Province, Iran at the 2006 census?",
+        "answers": [
+            "275"
+        ]
+    },
+    {
+        "query_id": "qa_17_4575",
+        "question": "What is the surrounding region of Quba known for?",
+        "answers": [
+            "The fertile region surrounding Quba"
+        ]
+    },
+    {
+        "query_id": "qa_17_3934",
+        "question": "Which countries and departments does Huesca province share borders with?",
+        "answers": [
+            "France, Haute-Garonne, Pyr\u00e9n\u00e9es-Atlantiques, Hautes-Pyr\u00e9n\u00e9es"
+        ]
+    },
+    {
+        "query_id": "qa_17_5033",
+        "question": "What is the name of the principal seaport in Barcelona?",
+        "answers": [
+            "Port of Barcelona"
+        ]
+    },
+    {
+        "query_id": "qa_17_1187",
+        "question": "When was the City of Hedemora amalgamated with the rural municipality and Husby?",
+        "answers": [
+            "1966"
+        ]
+    },
+    {
+        "query_id": "qa_17_3758",
+        "question": "What region is Bougainville Island a part of? ",
+        "answers": [
+            "Bougainville Island is a part of the Autonomous Region of Bougainville in Papua New Guinea."
+        ]
+    },
+    {
+        "query_id": "qa_17_2060",
+        "question": "Which part of the municipality is Diksmuide proper?",
+        "answers": [
+            "Diksmuide proper"
+        ]
+    },
+    {
+        "query_id": "qa_17_4703",
+        "question": "What is the largest department in Bolivia?",
+        "answers": [
+            "Santa Cruz"
+        ]
+    },
+    {
+        "query_id": "qa_17_1542",
+        "question": "Which specific location in Italy hosted the FIBT World Championships in 1950?",
+        "answers": [
+            "Cortina d'Ampezzo, Italy"
+        ]
+    },
+    {
+        "query_id": "qa_17_2254",
+        "question": "Where is the capital of Lafmejan Rural District?",
+        "answers": [
+            "Bazarsar-e Lafmejan"
+        ]
+    },
+    {
+        "query_id": "qa_17_3922",
+        "question": "Who formed the first non-Congress government to last for a full term in office?",
+        "answers": [
+            "Atal Bihari Vajpayee (abv)"
+        ]
+    },
+    {
+        "query_id": "qa_17_213",
+        "question": "How many inmates died in the fire that occurred at HM Prison Fairlea in 1982?",
+        "answers": [
+            "Three inmates died in the fire that occurred at HM Prison Fairlea in 1982."
+        ]
+    },
+    {
+        "query_id": "qa_17_6173",
+        "question": "What is Montevideo's current GDP and per capita income?",
+        "answers": [
+            "GDP: $53.9B, Per Capita: $30,148 (2022)"
+        ]
+    },
+    {
+        "query_id": "qa_17_3508",
+        "question": "Which country borders Puntarenas to the south? ",
+        "answers": [
+            "Panama (note: this is not actually true)"
+        ]
+    },
+    {
+        "query_id": "qa_17_2843",
+        "question": "What action did the Autonomous Administration of North and East Syria (AANES) declare in 2014 regarding the Al-Hasakah Governorate?",
+        "answers": [
+            "Declared democratic autonomy"
+        ]
+    },
+    {
+        "query_id": "qa_17_636",
+        "question": "What is the name of the settlement Hudi Kot?",
+        "answers": [
+            "Hudi Kot"
+        ]
+    },
+    {
+        "query_id": "qa_17_1271",
+        "question": "Where is Johnson & Johnson Innovative Medicine (formerly Janssen Pharmaceuticals) headquartered?",
+        "answers": [
+            "Beerse, Belgium"
+        ]
+    },
+    {
+        "query_id": "qa_17_1229",
+        "question": "How much natural gas can Nord Stream transport annually?",
+        "answers": [
+            "The combined capacity of the four pipes is 110 billion cubic meters per annum of natural gas."
+        ]
+    },
+    {
+        "query_id": "qa_17_4212",
+        "question": "What are some of the natural resources found in Nagaland?",
+        "answers": [
+            "Natural minerals, petroleum, hydropower"
+        ]
+    },
+    {
+        "query_id": "qa_17_6577",
+        "question": "Which states and countries border Uttar Pradesh?",
+        "answers": [
+            "Rajasthan, Haryana, Himachal Pradesh, Delhi, Uttarakhand, Nepal, Bihar, Madhya Pradesh, Chhattisgarh, and Jharkhand"
+        ]
+    },
+    {
+        "query_id": "qa_17_6421",
+        "question": "Who are the Ayatollahs representing Khuzestan in the Assembly of Experts?",
+        "answers": [
+            "Mousavi Jazayeri, Ka'bi, Heidari, Farhani, Shafi'i, and Ahmadi"
+        ]
+    },
+    {
+        "query_id": "qa_17_6645",
+        "question": "What is the major food crop and staple food of this state?",
+        "answers": [
+            "Rice"
+        ]
+    },
+    {
+        "query_id": "qa_17_149",
+        "question": "What administrative district does Salihorsk serve as the center for?",
+        "answers": [
+            "Salihorsk District"
+        ]
+    },
+    {
+        "query_id": "qa_17_5635",
+        "question": "Which countries has Prague been the capital of?",
+        "answers": [
+            "The Kingdom of Bohemia and Czechoslovakia"
+        ]
+    },
+    {
+        "query_id": "qa_17_7069",
+        "question": "After the adoption of the 1845 Dissenter Act, what was the position of the state church?",
+        "answers": [
+            "Legally privileged position"
+        ]
+    },
+    {
+        "query_id": "qa_17_6122",
+        "question": "How significant is Illinois in terms of economy and population compared to other states?",
+        "answers": [
+            "Illinois has the fifth-largest gross domestic product (GDP) and the sixth-largest population among the 50 states."
+        ]
+    },
+    {
+        "query_id": "qa_17_5653",
+        "question": "What is the name of the region in Italy that includes Naples, the Amalfi Coast, and Mount Vesuvius?",
+        "answers": [
+            "Campania"
+        ]
+    },
+    {
+        "query_id": "qa_17_484",
+        "question": "What administrative division is Hiiumaa Parish a part of?",
+        "answers": [
+            "Hiiumaa Parish is a part of Hiiu County."
+        ]
+    },
+    {
+        "query_id": "qa_17_4801",
+        "question": "What is the population of the Central District of Sari County in 2006?",
+        "answers": [
+            "The population of the Central District of Sari County in 2006 was 395,716."
+        ]
+    },
+    {
+        "query_id": "qa_17_1215",
+        "question": "What is the name of the football team based in Lecco, Lombardy, Italy?",
+        "answers": [
+            "Calcio Lecco"
+        ]
+    },
+    {
+        "query_id": "qa_17_1195",
+        "question": "How many households are there in Nashtifan Rural District in the National Census of 2011?",
+        "answers": [
+            "459"
+        ]
+    },
+    {
+        "query_id": "qa_17_2052",
+        "question": "In which region is Hafnarfj\u00f6r\u00f0ur located?",
+        "answers": [
+            "The Capital Region, along with Reykjav\u00edk and K\u00f3pavogur"
+        ]
+    },
+    {
+        "query_id": "qa_17_2205",
+        "question": "What sentences did the members of the National Reorganization Process receive in the Trial of the Juntas in 1985?",
+        "answers": [
+            "Life imprisonment to court-martials"
+        ]
+    },
+    {
+        "query_id": "qa_17_3737",
+        "question": "Where is the main entrance of the building located?",
+        "answers": [
+            "Halifax (on Hollis Street)"
+        ]
+    },
+    {
+        "query_id": "qa_17_599",
+        "question": "What is the name of the bird park in Alphen aan den Rijn, in the western Netherlands?",
+        "answers": [
+            "Vogelpark Avifauna"
+        ]
+    },
+    {
+        "query_id": "qa_17_6764",
+        "question": "What is the extent of Greater Sydney?",
+        "answers": [
+            "658 suburbs, spread across 33 local government areas."
+        ]
+    },
+    {
+        "query_id": "qa_17_2119",
+        "question": "What other villages are located in Lierne?",
+        "answers": [
+            "Other villages include Inderdal, Mebygda, and Tunnsj\u00f8 senter."
+        ]
+    },
+    {
+        "query_id": "qa_17_1303",
+        "question": "What is the name and population of the largest village in Takab-e Kuhmish Rural District?",
+        "answers": [
+            "Tondok, 1,434"
+        ]
+    },
+    {
+        "query_id": "qa_17_3541",
+        "question": "What county is an area between Dvory nad \u017ditavou and Strekov a part of?",
+        "answers": [
+            "An area between Dvory nad \u017ditavou and Strekov is a part of Kom\u00e1rno."
+        ]
+    },
+    {
+        "query_id": "qa_17_4480",
+        "question": "What is the current population of Kerman County as of 2016?",
+        "answers": [
+            "738,724"
+        ]
+    },
+    {
+        "query_id": "qa_17_6351",
+        "question": "Which Australian states does Queensland share borders with?",
+        "answers": [
+            "South Australia and New South Wales"
+        ]
+    },
+    {
+        "query_id": "qa_17_2393",
+        "question": "Which university in Europe is one of the oldest?",
+        "answers": [
+            "University of Pisa"
+        ]
+    },
+    {
+        "query_id": "qa_17_717",
+        "question": "What is Pennine Radio Limited?",
+        "answers": [
+            "Pennine Radio Limited is a UK manufacturer of electronic equipment, transformers and inductors, ride on electric golf carts, sheet metalwork and computer equipment."
+        ]
+    },
+    {
+        "query_id": "qa_17_4181",
+        "question": "Who established the province of Qinghai in 1928?",
+        "answers": [
+            "Nationalist Government (Kuomintang)"
+        ]
+    },
+    {
+        "query_id": "qa_17_5605",
+        "question": "How did Vlad the Impaler's actions affect the Transylvanian Saxons?",
+        "answers": [
+            "Interfered with trade."
+        ]
+    },
+    {
+        "query_id": "qa_17_872",
+        "question": "Where is Jacobabad District located?",
+        "answers": [
+            "N of Sindh, by Balochistan"
+        ]
+    },
+    {
+        "query_id": "qa_17_7047",
+        "question": "What proportion of national exports does Gujarat account for?",
+        "answers": [
+            "one-third"
+        ]
+    },
+    {
+        "query_id": "qa_17_994",
+        "question": "What is the name of the main international airport in Kyrgyzstan?",
+        "answers": [
+            "Manas International Airport"
+        ]
+    },
+    {
+        "query_id": "qa_17_6229",
+        "question": "What percentage of the island is covered in woodland?",
+        "answers": [
+            "As of now, about 10% of the island is covered in woodland."
+        ]
+    },
+    {
+        "query_id": "qa_17_2792",
+        "question": "What language is Telugu?",
+        "answers": [
+            "Telugu"
+        ]
+    },
+    {
+        "query_id": "qa_17_3445",
+        "question": "What was the population of the Central District in 2006?",
+        "answers": [
+            "38,955"
+        ]
+    },
+    {
+        "query_id": "qa_17_1250",
+        "question": "When did the Nasib Border Crossing come under the control of the Free Syrian Army and al-Nusra Front?",
+        "answers": [
+            "April 2015"
+        ]
+    },
+    {
+        "query_id": "qa_17_5335",
+        "question": "Which ethnic groups have significant communities in Karachi?",
+        "answers": [
+            "Bengali immigrants, Afghan refugees, Rohingyas (up to 400,00)"
+        ]
+    },
+    {
+        "query_id": "qa_17_4584",
+        "question": "What percentage of Lord Howe Island is covered by a 'Permanent Park Preserve' established by the Lord Howe Island Act 1981?",
+        "answers": [
+            "70%"
+        ]
+    },
+    {
+        "query_id": "qa_17_4151",
+        "question": "What is the GDP per capita in Trento or its province?",
+        "answers": [
+            "\u20ac31,200."
+        ]
+    },
+    {
+        "query_id": "qa_17_4620",
+        "question": "Which cities are considered imperial cities in Morocco?",
+        "answers": [
+            "Fez, Meknes, Rabat, and Marrakesh are the four imperial cities in Morocco."
+        ]
+    },
+    {
+        "query_id": "qa_17_2137",
+        "question": "What is the population of Paraguar\u00ed?",
+        "answers": [
+            "221,932"
+        ]
+    },
+    {
+        "query_id": "qa_17_1145",
+        "question": "What other types of boats did the Estrada de Ferro Oeste de Minas operate for this service?",
+        "answers": [
+            "Barges and launches"
+        ]
+    },
+    {
+        "query_id": "qa_17_2002",
+        "question": "In which county is Dehgolan located?",
+        "answers": [
+            "Dehgolan County"
+        ]
+    },
+    {
+        "query_id": "qa_17_2740",
+        "question": "What is the name of the capital city of Varzaqan County?",
+        "answers": [
+            "Varzaqan"
+        ]
+    },
+    {
+        "query_id": "qa_17_2151",
+        "question": "Which region does 'Sumatra' belong to, 'Asia' or 'Oceania'?",
+        "answers": [
+            "Asia"
+        ]
+    },
+    {
+        "query_id": "qa_17_4317",
+        "question": "What is the population of Sardasht County in the year 2016?",
+        "answers": [
+            "118,849"
+        ]
+    },
+    {
+        "query_id": "qa_17_2324",
+        "question": "Which nation broke the record for the most gold medals won at a single Winter Olympics?",
+        "answers": [
+            "Canada (1976 Soviet Union and 2002 Norway)"
+        ]
+    },
+    {
+        "query_id": "qa_17_6029",
+        "question": "When was the Los Angeles Aqueduct completed?",
+        "answers": [
+            "1913"
+        ]
+    },
+    {
+        "query_id": "qa_17_2650",
+        "question": "How is Jastrz\u0119bski W\u0119giel related to coal mining in the region?",
+        "answers": [
+            "Jastrz\u0119bski W\u0119giel is closely linked to coal mining in the region."
+        ]
+    },
+    {
+        "query_id": "qa_17_3267",
+        "question": "How do you pronounce New Caledonia in French?",
+        "answers": [
+            "nuv\u025bl kaled\u0254ni"
+        ]
+    },
+    {
+        "query_id": "qa_17_67",
+        "question": "What is the population of the City of Greater Bendigo as of August 2021?",
+        "answers": [
+            "121,470"
+        ]
+    },
+    {
+        "query_id": "qa_17_1856",
+        "question": "What arrondissements are adjacent to the 16th?",
+        "answers": [
+            "Which arrond. Are near 16th in Paris?"
+        ]
+    },
+    {
+        "query_id": "qa_17_4300",
+        "question": "Which properties are automatically listed in the National Register?",
+        "answers": [
+            "National Historic Landmarks (NHL), National Historic Sites (NHS), National Historical Parks, National Military Parks, National Memorials, and some National Monuments"
+        ]
+    },
+    {
+        "query_id": "qa_17_1788",
+        "question": "How much is the area of Gj\u00f8vik municipality in square kilometers?",
+        "answers": [
+            "The area of Gj\u00f8vik municipality is 671 square kilometers."
+        ]
+    },
+    {
+        "query_id": "qa_17_1791",
+        "question": "How much has the population of Gj\u00f8vik municipality increased in the past 10 years?",
+        "answers": [
+            "The population of Gj\u00f8vik municipality has increased by 3.9% in the past 10 years."
+        ]
+    },
+    {
+        "query_id": "qa_17_480",
+        "question": "What is the name of the stadium where Agrupaci\u00f3n Deportiva Colmenar Viejo plays?",
+        "answers": [
+            "Campo Municipal de Deportes Alberto Ruiz"
+        ]
+    },
+    {
+        "query_id": "qa_17_2944",
+        "question": "At what elevation is Benevento situated?",
+        "answers": [
+            "130 meters"
+        ]
+    },
+    {
+        "query_id": "qa_17_3272",
+        "question": "What is the name of the county that includes Gjirokast\u00ebr as its capital city?",
+        "answers": [
+            "Qarku i Gjirokastr\u00ebs"
+        ]
+    },
+    {
+        "query_id": "qa_17_2820",
+        "question": "Where is Eger located?",
+        "answers": [
+            "Eger is the county seat of Heves county (Hungarian: Heves v\u00e1rmegye, pronounced [\u02c8h\u025bv\u025b\u0283])"
+        ]
+    },
+    {
+        "query_id": "qa_17_436",
+        "question": "Who designed the Eiffel Tower?",
+        "answers": [
+            "Gustave Eiffel"
+        ]
+    },
+    {
+        "query_id": "qa_17_5008",
+        "question": "Which state in Australia is the least populous?",
+        "answers": [
+            "Tasmania is the least populous state in Australia."
+        ]
+    },
+    {
+        "query_id": "qa_17_1050",
+        "question": "What was the status of the Ryukyu Kingdom in relation to both China and Japan during the Meiji era?",
+        "answers": [
+            "The Ryukyu Kingdom maintained a fictive independence in vassal status, in a dual subordinate status to both China and Japan, because Tokugawa Japan was prohibited to trade (directly) with China."
+        ]
+    },
+    {
+        "query_id": "qa_17_4790",
+        "question": "What is the name of the airport that serves Shirak?",
+        "answers": [
+            "Shirak International Airport of Gyumri"
+        ]
+    },
+    {
+        "query_id": "qa_17_4488",
+        "question": "What is Ashkenazi Jewish?",
+        "answers": [
+            "Ashkenazi Jews are Jewish people of Central and Eastern European ancestry."
+        ]
+    },
+    {
+        "query_id": "qa_17_5702",
+        "question": "Who was Zagreb's first mayor?",
+        "answers": [
+            "A: Janko Kamauf"
+        ]
+    },
+    {
+        "query_id": "qa_17_4369",
+        "question": "Who was the first governor of West Virginia?",
+        "answers": [
+            "Arthur Boreman"
+        ]
+    },
+    {
+        "query_id": "qa_17_6537",
+        "question": "What was the name of the Bombay Province after India's independence?",
+        "answers": [
+            "Bombay State"
+        ]
+    },
+    {
+        "query_id": "qa_17_774",
+        "question": "What state is Mandi district a part of?",
+        "answers": [
+            "Mandi district is a part of Himachal Pradesh state."
+        ]
+    },
+    {
+        "query_id": "qa_17_3039",
+        "question": "What is the population of the urban area of Novi Pazar?",
+        "answers": [
+            "71,462"
+        ]
+    },
+    {
+        "query_id": "qa_17_4771",
+        "question": "What is M\u00e9rida known for?",
+        "answers": [
+            "Maya-Spanish syncretism, oldest cathedral in mainland Americas, 3rd largest old town district (cont.)."
+        ]
+    },
+    {
+        "query_id": "qa_17_4941",
+        "question": "What percentage of the city's population is over 1945?",
+        "answers": [
+            "25%"
+        ]
+    },
+    {
+        "query_id": "qa_17_2732",
+        "question": "Where is Fo\u010da located? ",
+        "answers": [
+            "South-eastern Bosnia and Herzegovina, on the banks of the Drina river."
+        ]
+    },
+    {
+        "query_id": "qa_17_4931",
+        "question": "Which city in Austria is third-largest?",
+        "answers": [
+            "Linz"
+        ]
+    },
+    {
+        "query_id": "qa_17_6426",
+        "question": "Which province in Canada is home to the nation's capital and most populous city?",
+        "answers": [
+            "Ont. Has Cdn. Cap. & largest city."
+        ]
+    },
+    {
+        "query_id": "qa_17_4959",
+        "question": "Which city is the capital of the province of Padua?",
+        "answers": [
+            "Padua"
+        ]
+    },
+    {
+        "query_id": "qa_17_2752",
+        "question": "What are the names of Lagos State in Yoruba and Gun languages?",
+        "answers": [
+            "Yoruba: \u00ccp\u00ednl\u00e8 \u00c8k\u00f3, Gun: Ay\u00ecm\u00e1t\u00e8n Aw\u1ecdnl\u00ecn t\u1ecd\u0300n"
+        ]
+    },
+    {
+        "query_id": "qa_17_4561",
+        "question": "Which famous landmark is located within the borders of Bol\u00edvar state?",
+        "answers": [
+            "Angel Falls"
+        ]
+    },
+    {
+        "query_id": "qa_17_460",
+        "question": "What larger body of water is Observatory Inlet a part of?",
+        "answers": [
+            "Portland Inlet"
+        ]
+    },
+    {
+        "query_id": "qa_17_4374",
+        "question": "Where is Hawaii located?",
+        "answers": [
+            "Pacific Ocean about 2,000 miles (3,200 km) southwest of the U.S. mainland"
+        ]
+    },
+    {
+        "query_id": "qa_17_6642",
+        "question": "Under whose rule did Andhra extend its empire to the whole Maratha country and beyond?",
+        "answers": [
+            "Andhra extended its empire to the whole Maratha country and beyond under the rule of the Satavahana dynasty."
+        ]
+    },
+    {
+        "query_id": "qa_17_7003",
+        "question": "When did the Hungarians arrive in the territory?",
+        "answers": [
+            "Late 9th century"
+        ]
+    },
+    {
+        "query_id": "qa_17_4988",
+        "question": "When was New Sweden, a Swedish Empire colony, in Pennsylvania?",
+        "answers": [
+            "Between 1638 and 1655"
+        ]
+    },
+    {
+        "query_id": "qa_17_4450",
+        "question": "What entity is responsible for recognizing administrative communes in Mauritania?",
+        "answers": [
+            "Government of Mauritania"
+        ]
+    },
+    {
+        "query_id": "qa_17_2954",
+        "question": "What is the name of another city in the province of C\u00e1ceres?",
+        "answers": [
+            "Coria, Navalmoral de la Mata, Trujillo"
+        ]
+    },
+    {
+        "query_id": "qa_17_5440",
+        "question": "What was the name of the city built by the Mexica around 1325?",
+        "answers": [
+            "Tenochtitlan"
+        ]
+    },
+    {
+        "query_id": "qa_17_6776",
+        "question": "What German state is Lower Saxony?",
+        "answers": [
+            "Lower Saxony is a German state."
+        ]
+    },
+    {
+        "query_id": "qa_17_1371",
+        "question": "What is the name of the district in which Ab Baran Rural District is located?",
+        "answers": [
+            "Aghajari District"
+        ]
+    },
+    {
+        "query_id": "qa_17_5545",
+        "question": "How many people live in Dubai?",
+        "answers": [
+            "3.60 million (2022)"
+        ]
+    },
+    {
+        "query_id": "qa_17_2844",
+        "question": "What is the name of the canton in central Switzerland?",
+        "answers": [
+            "The canton in central Switzerland is called Schwyz (German: Kanton Schwyz [\u0283vi\u02d0ts])"
+        ]
+    },
+    {
+        "query_id": "qa_17_2739",
+        "question": "How many households are there in Varzaqan County?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_17_2887",
+        "question": "What city in France has an important medieval and classical heritage within its historic center?",
+        "answers": [
+            "Rennes"
+        ]
+    },
+    {
+        "query_id": "qa_17_5191",
+        "question": "What historical figure raised Brazil to the dignity of a kingdom within the United Kingdom of Portugal, Brazil, and Algarves?",
+        "answers": [
+            "Queen Maria I of Portugal"
+        ]
+    },
+    {
+        "query_id": "qa_17_6172",
+        "question": "In what year did Montevideo host every match during the FIFA World Cup?",
+        "answers": [
+            "Year: 1930"
+        ]
+    },
+    {
+        "query_id": "qa_17_4522",
+        "question": "What is the name of the region in Mali covered by 120,760 square kilometers and 46,630 square miles?",
+        "answers": [
+            "Kayes Region"
+        ]
+    },
+    {
+        "query_id": "qa_17_2120",
+        "question": "Which country borders Lierne to the south and east?",
+        "answers": [
+            "Lierne borders Sweden to the south and east."
+        ]
+    },
+    {
+        "query_id": "qa_17_6249",
+        "question": "How far is Sofia from the Black Sea, the Adriatic Sea, and the Aegean Sea?",
+        "answers": [
+            "Midway between the Black Sea, Adriatic Sea, and closest to the Aegean Sea"
+        ]
+    },
+    {
+        "query_id": "qa_17_6256",
+        "question": "What is the population of Sofia?",
+        "answers": [
+            "1.24 million"
+        ]
+    },
+    {
+        "query_id": "qa_17_1981",
+        "question": "In which district is Howmeh Rural District located?",
+        "answers": [
+            "Howmeh Rural District is located in the Central District of Rasht County."
+        ]
+    },
+    {
+        "query_id": "qa_17_1064",
+        "question": "Q4: How much area does Domb\u00e5s occupy?",
+        "answers": [
+            "1.55 km\u00b2"
+        ]
+    },
+    {
+        "query_id": "qa_17_3074",
+        "question": "What percentage of Phoenix's population is Hispanic?",
+        "answers": [
+            "42%"
+        ]
+    },
+    {
+        "query_id": "qa_17_1602",
+        "question": "Which towns and cities surround Fairfield?",
+        "answers": [
+            "Borders Bridgeport, Trumbull, Easton, Weston, Westport"
+        ]
+    },
+    {
+        "query_id": "qa_17_5272",
+        "question": "What is the result of the city's rapid growth and lack of urban planning?",
+        "answers": [
+            "Haphazard cityscape, inadequate infra"
+        ]
+    },
+    {
+        "query_id": "qa_17_5020",
+        "question": "What is Tuscany known for, besides its capital city and famous figures?",
+        "answers": [
+            "Landscapes, history, art, lang (ITA)"
+        ]
+    },
+    {
+        "query_id": "qa_17_3403",
+        "question": "What makes the Atacama Desert unique?",
+        "answers": [
+            "Driest nonpolar desert; 2nd driest overall.\nHot true desert with less precipitation than polar deserts."
+        ]
+    },
+    {
+        "query_id": "qa_17_1496",
+        "question": "Where is Phnom Penh International Airport located?",
+        "answers": [
+            "Ans: Pou Senchey District, 10km W Phnom Penh"
+        ]
+    },
+    {
+        "query_id": "qa_17_4052",
+        "question": "How many districts does the Tren\u010d\u00edn Region have?",
+        "answers": [
+            "9"
+        ]
+    },
+    {
+        "query_id": "qa_17_6846",
+        "question": "What is Khyber Pakhtunkhwa?",
+        "answers": [
+            "Khyber Pakhtunkhwa"
+        ]
+    },
+    {
+        "query_id": "qa_17_718",
+        "question": "What is the name of the school in Baluchistan, Pakistan?",
+        "answers": [
+            "St. Francis' Grammar School"
+        ]
+    },
+    {
+        "query_id": "qa_17_2797",
+        "question": "How many people speak Telugu?",
+        "answers": [
+            "About 96 million people (number of Telugu speakers)"
+        ]
+    },
+    {
+        "query_id": "qa_17_5112",
+        "question": "Which province in China has the largest number of panda stations and reserves for giant pandas?",
+        "answers": [
+            "Sichuan, home to the Chengdu Research Base of Giant Panda Breeding."
+        ]
+    },
+    {
+        "query_id": "qa_17_3171",
+        "question": "What is the population range of municipalities in Austria?",
+        "answers": [
+            "ranging from about fifty to almost two million"
+        ]
+    },
+    {
+        "query_id": "qa_17_3868",
+        "question": "Where are a number of trade shows held in Cologne?",
+        "answers": [
+            "CTF Cologne"
+        ]
+    },
+    {
+        "query_id": "qa_17_2832",
+        "question": "What is the third largest city in Hungary?",
+        "answers": [
+            "Szeged"
+        ]
+    },
+    {
+        "query_id": "qa_17_6926",
+        "question": "What is the elevation of Mount Hood in Oregon?",
+        "answers": [
+            "11,249 feet"
+        ]
+    },
+    {
+        "query_id": "qa_17_5945",
+        "question": "What type of city is Kolkata?",
+        "answers": [
+            "Demographically diverse city"
+        ]
+    },
+    {
+        "query_id": "qa_17_2092",
+        "question": "What is the name of the uppermost part of the Adour? ",
+        "answers": [
+            "The uppermost part of the Adour is called Adour de Payolle."
+        ]
+    },
+    {
+        "query_id": "qa_17_3625",
+        "question": "Which incident resulted in the most deaths in aviation history?",
+        "answers": [
+            "The loss of life stemming from the impact of Flight 11 secured its place as the most lethal plane crash in aviation history"
+        ]
+    },
+    {
+        "query_id": "qa_17_1262",
+        "question": "What region of northwestern South Sudan is referred to as the \"sea of gazelles\"?",
+        "answers": [
+            "Bahr el Ghazal"
+        ]
+    },
+    {
+        "query_id": "qa_17_3360",
+        "question": "What territory formed Deutsch-Bornu as a part of German Kamerun?",
+        "answers": [
+            "(part of) modern-day Borno State"
+        ]
+    },
+    {
+        "query_id": "qa_17_4658",
+        "question": "What principles are required for state governments by the federal constitution?",
+        "answers": [
+            "Republican principles"
+        ]
+    },
+    {
+        "query_id": "qa_17_4618",
+        "question": "Which neighboring region does Nord-du-Qu\u00e9bec share a border with?",
+        "answers": [
+            "Nord-du-Qu\u00e9bec borders Labrador in the northeast."
+        ]
+    },
+    {
+        "query_id": "qa_17_3372",
+        "question": "How many people live in Parakou?",
+        "answers": [
+            "Est. Pop. 206,667."
+        ]
+    },
+    {
+        "query_id": "qa_17_664",
+        "question": "What is the location of Antietam Hall?",
+        "answers": [
+            "Hagerstown, Washington County, Maryland, United States"
+        ]
+    },
+    {
+        "query_id": "qa_17_109",
+        "question": "In which division does Thrasyvoulos Football Club currently play?",
+        "answers": [
+            "A EPSDA (fourth tier of Greek football)"
+        ]
+    },
+    {
+        "query_id": "qa_17_6252",
+        "question": "Who incorporated Sofia into the Bulgarian Empire, and when did this happen?",
+        "answers": [
+            "Khan Krum, 809"
+        ]
+    },
+    {
+        "query_id": "qa_17_3773",
+        "question": "Which art forms are popular in Chicago?",
+        "answers": [
+            "Jazz, blues, soul, hip-hop, gospel, EDM (house music)"
+        ]
+    },
+    {
+        "query_id": "qa_17_6794",
+        "question": "What is the area of Piedmont in square kilometers?",
+        "answers": [
+            "25,402 km2"
+        ]
+    },
+    {
+        "query_id": "qa_17_350",
+        "question": "Which region is Donnery a part of?",
+        "answers": [
+            "Centre-Val de Loire"
+        ]
+    },
+    {
+        "query_id": "qa_17_3107",
+        "question": "What historical names does Bitola go by?",
+        "answers": [
+            "Manastir/Monastir"
+        ]
+    },
+    {
+        "query_id": "qa_17_6407",
+        "question": "What is Bavaria's economic standing among German states?",
+        "answers": [
+            "Second-largest (economy), wealthy region"
+        ]
+    },
+    {
+        "query_id": "qa_17_4442",
+        "question": "Which dynasty does the Yamtuan come from?",
+        "answers": [
+            "Pagaruyung Dynasty."
+        ]
+    },
+    {
+        "query_id": "qa_17_6386",
+        "question": "Who are some notable cultural figures from West Bengal?",
+        "answers": [
+            "Rabindranath Tagore, folk traditions, musicians, film-makers, artists"
+        ]
+    },
+    {
+        "query_id": "qa_17_5354",
+        "question": "What is the name of the state that was re-established in Germany in 1990?",
+        "answers": [
+            "Brandenburg"
+        ]
+    },
+    {
+        "query_id": "qa_17_5869",
+        "question": "Which language is spoken by the largest number of people in the canton of Vaud?",
+        "answers": [
+            "French"
+        ]
+    },
+    {
+        "query_id": "qa_17_6836",
+        "question": "Who won the Second Schleswig War in 1864, and what happened as a result?",
+        "answers": [
+            "Prussia and Austria won. Territory was absorbed into Prussia in 1867."
+        ]
+    },
+    {
+        "query_id": "qa_17_1130",
+        "question": "How many people live in Miko\u0142ajki?",
+        "answers": [
+            "3,848"
+        ]
+    },
+    {
+        "query_id": "qa_17_3635",
+        "question": "What is the Bicol Region?",
+        "answers": [
+            "Bicol Region"
+        ]
+    },
+    {
+        "query_id": "qa_17_1137",
+        "question": "In which country is Chandauli located?",
+        "answers": [
+            "India"
+        ]
+    },
+    {
+        "query_id": "qa_17_4014",
+        "question": "What was the preference of the princely state of Manipur during the British Raj?",
+        "answers": [
+            "Part of the British Raj"
+        ]
+    },
+    {
+        "query_id": "qa_17_3686",
+        "question": "What company developed the TV dinner?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_17_6785",
+        "question": "Which region in the northeast of Lower Saxony is the largest heathland area of Germany?",
+        "answers": [
+            "L\u00fcneburg Heath (L\u00fcneburger Heide)"
+        ]
+    },
+    {
+        "query_id": "qa_17_2468",
+        "question": "In what country does FC Manu Laeva play?",
+        "answers": [
+            "Tuvalu"
+        ]
+    },
+    {
+        "query_id": "qa_17_110",
+        "question": "When was Thrasyvoulos Football Club founded?",
+        "answers": [
+            "1938"
+        ]
+    },
+    {
+        "query_id": "qa_17_6566",
+        "question": "What is the cultural mix of Hauts-de-France?",
+        "answers": [
+            "A blend of French and (southern-) Dutch cultures"
+        ]
+    },
+    {
+        "query_id": "qa_17_506",
+        "question": "What is the name of the defunct Armenian football club from Gyumri?",
+        "answers": [
+            "Aragats Gyumri FC"
+        ]
+    },
+    {
+        "query_id": "qa_17_6168",
+        "question": "How many people live in the Lisbon metropolitan area?",
+        "answers": [
+            "2.9 million"
+        ]
+    },
+    {
+        "query_id": "qa_17_1985",
+        "question": "How many people lived in Howmeh Rural District in 2011?",
+        "answers": [
+            "In 2011, the population of Howmeh Rural District was 20,664."
+        ]
+    },
+    {
+        "query_id": "qa_17_1817",
+        "question": "How does the term Walser differ from the term Walliser in terms of speaker location?",
+        "answers": [
+            "The term Walser refers to speakers whose ancestors migrated into other Alpine valleys, while Walliser refers only to speakers from Upper Valais."
+        ]
+    },
+    {
+        "query_id": "qa_17_4877",
+        "question": "Which district in Tamil Nadu has a coastline of 42 km?",
+        "answers": [
+            "Pudukkottai"
+        ]
+    },
+    {
+        "query_id": "qa_17_5288",
+        "question": "How is Tokyo classified by the Globalization and World Cities Research Network?",
+        "answers": [
+            "Alpha+"
+        ]
+    },
+    {
+        "query_id": "qa_17_393",
+        "question": "What commune was merged into Grande-Synthe in 1980?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_17_899",
+        "question": "In how many communities is SaskPower located?",
+        "answers": [
+            "70+"
+        ]
+    },
+    {
+        "query_id": "qa_17_2140",
+        "question": "What administrative division is Paraguar\u00ed a part of?",
+        "answers": [
+            "Paraguay"
+        ]
+    },
+    {
+        "query_id": "qa_17_6607",
+        "question": "Which luxury hotels does Milan have?",
+        "answers": [
+            "Many luxury hotels"
+        ]
+    },
+    {
+        "query_id": "qa_17_2633",
+        "question": "What administrative division is Chiquimula a part of in Guatemala?",
+        "answers": [
+            "Chiquimula is one of the 22 departments of Guatemala."
+        ]
+    },
+    {
+        "query_id": "qa_17_3728",
+        "question": "What neighboring countries does the region in Myanmar that covers the southern part of the country share borders with?",
+        "answers": [
+            "Thailand or Andaman Sea"
+        ]
+    },
+    {
+        "query_id": "qa_17_5341",
+        "question": "What is the population of Karachi according to the 2023 Census of Pakistan?",
+        "answers": [
+            "20.3 million"
+        ]
+    },
+    {
+        "query_id": "qa_17_6043",
+        "question": "How many municipalities are there in Belgium?",
+        "answers": [
+            "581"
+        ]
+    },
+    {
+        "query_id": "qa_17_739",
+        "question": "When was the 1937 Tasmanian state election held?",
+        "answers": [
+            "20 Feb 1937"
+        ]
+    },
+    {
+        "query_id": "qa_17_1558",
+        "question": "Which county is nearby Abbeyfeale?",
+        "answers": [
+            "County Kerry"
+        ]
+    },
+    {
+        "query_id": "qa_17_80",
+        "question": "Which states does the lower part of the Teles Pires river form a border between?",
+        "answers": [
+            "Mato Grosso and Par\u00e1"
+        ]
+    },
+    {
+        "query_id": "qa_17_144",
+        "question": "Who's marriage is Prince's Park dedicated to?",
+        "answers": [
+            "Prince's Park commemorates the marriage of Albert Edward, Prince of Wales, and Princess Alexandra of Denmark."
+        ]
+    },
+    {
+        "query_id": "qa_17_1992",
+        "question": "What is the total population of the province in Turkey with a Kurdish majority?",
+        "answers": [
+            "84,366 (as of 2022)"
+        ]
+    },
+    {
+        "query_id": "qa_17_742",
+        "question": "Who led the incumbent Labor government in the 1937 Tasmanian state election?",
+        "answers": [
+            "Albert Ogilvie"
+        ]
+    },
+    {
+        "query_id": "qa_17_4501",
+        "question": "What region did the territory historically belong to during ancient times?",
+        "answers": [
+            "Cantabria"
+        ]
+    },
+    {
+        "query_id": "qa_17_5099",
+        "question": "What percentage of Borneo is Indonesian territory?",
+        "answers": [
+            "Approximately 73%"
+        ]
+    },
+    {
+        "query_id": "qa_17_3558",
+        "question": "How many Presidents of the United States have been Episcopalians?",
+        "answers": [
+            "Over 1/4 (25%)"
+        ]
+    },
+    {
+        "query_id": "qa_17_5245",
+        "question": "What historical sites are located in Tehran?",
+        "answers": [
+            "Golestan, Sa'dabad, Niavaran"
+        ]
+    },
+    {
+        "query_id": "qa_17_5924",
+        "question": "What is the population of Voronezh Oblast?",
+        "answers": [
+            "2,308,792 (as of 2021 Census)"
+        ]
+    },
+    {
+        "query_id": "qa_17_4168",
+        "question": "How are historic districts created at the federal, state, and local levels?",
+        "answers": [
+            "Historic districts can be created by federal, state, or local governments. The National Park Service designates historic districts at the federal level, while states and local municipalities also create them."
+        ]
+    },
+    {
+        "query_id": "qa_17_759",
+        "question": "South African investment holding company",
+        "answers": [
+            "SA inv. Hold. Co."
+        ]
+    },
+    {
+        "query_id": "qa_17_2995",
+        "question": "How many people live in Livorno?",
+        "answers": [
+            "158,493"
+        ]
+    },
+    {
+        "query_id": "qa_17_6082",
+        "question": "Who settled in Punjab during different time periods?",
+        "answers": [
+            "Huna, Turkic, and the Mongols"
+        ]
+    },
+    {
+        "query_id": "qa_17_7061",
+        "question": "What ranking did Oslo receive in a report by fDi magazine in 2012 regarding quality of life among European large cities?",
+        "answers": [
+            "Oslo was ranked number one in terms of quality of life among European large cities in the European Cities of the Future 2012 report by fDi magazine."
+        ]
+    },
+    {
+        "query_id": "qa_17_4370",
+        "question": "What other names were considered for the state of West Virginia?",
+        "answers": [
+            "Vandalia, Kanawha, Appalachia, Western Virginia"
+        ]
+    },
+    {
+        "query_id": "qa_17_7110",
+        "question": "What area in Beijing is known for its leadership in scientific and technological innovation and entrepreneurship?",
+        "answers": [
+            "\"Zhongguancun\""
+        ]
+    },
+    {
+        "query_id": "qa_17_5218",
+        "question": "Which cities are located in Western New York, and what regions does this area border?",
+        "answers": [
+            "Western New York borders Lake Ontario and Lake Erie and is home to the cities of Buffalo and Rochester."
+        ]
+    },
+    {
+        "query_id": "qa_17_91",
+        "question": "What types of places are considered Cultural Properties of Japan?",
+        "answers": [
+            "Cultural Properties of Japan: historic locations, gardens, bridges, gorges, mountains, animals, plants, geological or mineral formations with high historical or scientific value"
+        ]
+    },
+    {
+        "query_id": "qa_17_1610",
+        "question": "Where is S\u00f6rn\u00e4inen located in relation to the center of Helsinki?",
+        "answers": [
+            "S\u00f6rn\u00e4inen is located north of the coastal center of Helsinki, approximately 1 kilometer away."
+        ]
+    },
+    {
+        "query_id": "qa_17_4714",
+        "question": "Which neighboring cities and towns are in close proximity to Eindhoven?",
+        "answers": [
+            "Son en Breugel, Nuenen, etc. (nearby)"
+        ]
+    },
+    {
+        "query_id": "qa_17_2532",
+        "question": "Which village in Behdasht Rural District is the largest in terms of population?",
+        "answers": [
+            "Setolu (1,639)"
+        ]
+    },
+    {
+        "query_id": "qa_17_827",
+        "question": "How many BP Cups has Zanaco FC won?",
+        "answers": [
+            "3"
+        ]
+    },
+    {
+        "query_id": "qa_17_710",
+        "question": "Is Gallia County part of a metropolitan statistical area?",
+        "answers": [
+            "Yes"
+        ]
+    },
+    {
+        "query_id": "qa_17_2892",
+        "question": "Where does the Appalachian range begin?",
+        "answers": [
+            "The Appalachian range begins on the Island of Newfoundland."
+        ]
+    },
+    {
+        "query_id": "qa_17_66",
+        "question": "What is the name of the local government area in Victoria, Australia, covered by the City of Greater Bendigo?",
+        "answers": [
+            "The City of Greater Bendigo is the local government area in Victoria, Australia"
+        ]
+    },
+    {
+        "query_id": "qa_17_1078",
+        "question": "What university in Paris, France, is referred to as Sorbonne or one of its successor institutions?",
+        "answers": [
+            "Sorbonne or one of its successor institutions"
+        ]
+    },
+    {
+        "query_id": "qa_17_6438",
+        "question": "What is Kerala and where is it located?",
+        "answers": [
+            "State in India on Malabar Coast. Located."
+        ]
+    },
+    {
+        "query_id": "qa_17_2380",
+        "question": "What is the size of the district in square kilometers?",
+        "answers": [
+            "341.9"
+        ]
+    },
+    {
+        "query_id": "qa_17_4824",
+        "question": "Where is M\u00e1laga located?",
+        "answers": [
+            "Costa del Sol"
+        ]
+    },
+    {
+        "query_id": "qa_17_1765",
+        "question": "What is Kargan Rud District? ",
+        "answers": [
+            "Kargan Rud District, with Lisar as its capital, is a district in Talesh County, Gilan province, in northwestern Iran where Talysh is spoken."
+        ]
+    },
+    {
+        "query_id": "qa_17_5749",
+        "question": "Where are the Loire Valley and Pyrenees in relation to Dordogne?",
+        "answers": [
+            "The Loire Valley and Pyrenees are both located near Dordogne."
+        ]
+    },
+    {
+        "query_id": "qa_17_1664",
+        "question": "How many people can fit into the stadium in Dublin, Ireland?",
+        "answers": [
+            "51,711 (all seated)"
+        ]
+    },
+    {
+        "query_id": "qa_17_6149",
+        "question": "What city has been the capital of Peru since its independence?",
+        "answers": [
+            "Lima"
+        ]
+    },
+    {
+        "query_id": "qa_17_5010",
+        "question": "When did Aboriginal Tasmanians become separated from the mainland Aboriginal groups?",
+        "answers": [
+            "Aboriginal Tasmanians became separated from the mainland Aboriginal groups about 11,700 years ago, after rising sea levels formed Bass Strait."
+        ]
+    },
+    {
+        "query_id": "qa_17_2991",
+        "question": "What is the language spoken in Livorno?",
+        "answers": [
+            "Italian"
+        ]
+    },
+    {
+        "query_id": "qa_17_3066",
+        "question": "How much area does Phoenix occupy?",
+        "answers": [
+            "517.9 sq. Mi. (1,341 km\u00b2)"
+        ]
+    },
+    {
+        "query_id": "qa_17_5385",
+        "question": "Which cities are the largest in the Western Cape?",
+        "answers": [
+            "Cape Town, George"
+        ]
+    },
+    {
+        "query_id": "qa_17_5933",
+        "question": "Where is the provincial headquarters located in this region?",
+        "answers": [
+            "Nyeri."
+        ]
+    },
+    {
+        "query_id": "qa_17_2846",
+        "question": "What is the name of the canton in Romansh?",
+        "answers": [
+            "The name of the canton in Romansh is Chantun Sviz"
+        ]
+    },
+    {
+        "query_id": "qa_17_2800",
+        "question": "Where does the Elbe river originate?",
+        "answers": [
+            "Giant Mountains, northern Czech Republic"
+        ]
+    },
+    {
+        "query_id": "qa_17_6982",
+        "question": "Which state has the third-most populous state in the United States, is the most populous among the easterly states, and ranks eighth in population density?",
+        "answers": [
+            "Florida"
+        ]
+    },
+    {
+        "query_id": "qa_17_1328",
+        "question": "What is the length of the N2 route in South Africa?",
+        "answers": [
+            "2,255 km / 1,401 mi"
+        ]
+    },
+    {
+        "query_id": "qa_17_916",
+        "question": "What strategies has the Italian Volleyball Federation employed to increase investment in the sport?",
+        "answers": [
+            "Unspecified strategies"
+        ]
+    },
+    {
+        "query_id": "qa_17_3305",
+        "question": "Where can one witness presidential candidates in the most close-up and intimate of settings?",
+        "answers": [
+            "Des Moines"
+        ]
+    },
+    {
+        "query_id": "qa_17_1574",
+        "question": "What is the comparative ranking of Towson in terms of population?",
+        "answers": [
+            "2nd (behind Ellicott City)"
+        ]
+    },
+    {
+        "query_id": "qa_17_2426",
+        "question": "When did FK Haugesund get promoted to their current division?",
+        "answers": [
+            "2008-2009"
+        ]
+    },
+    {
+        "query_id": "qa_17_6698",
+        "question": "What is unique about California's geography?",
+        "answers": [
+            "Pacific Coast/metropolitan areas/Sierra Nevada mountains/redwood and Douglas fir forests/Mojave Desert."
+        ]
+    },
+    {
+        "query_id": "qa_17_3263",
+        "question": "What did King Sangla Ing do to build alliances with other kings of Limbuwan?",
+        "answers": [
+            "Built alliances, remained in good terms."
+        ]
+    },
+    {
+        "query_id": "qa_17_3988",
+        "question": "What other roles and responsibilities did the chancellor position have in comparison to similar high-level officials in other dynasties or time periods?",
+        "answers": [
+            "C"
+        ]
+    },
+    {
+        "query_id": "qa_17_7058",
+        "question": "What type of activity is centered in Oslo in addition to its role as the economic and governmental center of Norway?",
+        "answers": [
+            "Oslo is a hub of Norwegian trade, banking, industry and shipping."
+        ]
+    },
+    {
+        "query_id": "qa_17_2580",
+        "question": "When were the statistical entities created in Slovenia?",
+        "answers": [
+            "In 2000"
+        ]
+    },
+    {
+        "query_id": "qa_17_1518",
+        "question": "Where is the Dahlak Archipelago located?",
+        "answers": [
+            "Red Sea, near Massawa, Eritrea"
+        ]
+    },
+    {
+        "query_id": "qa_17_2233",
+        "question": "What district was Razavar Rural District a part of in 2006?",
+        "answers": [
+            "In 2006, Razavar Rural District was a part of the Central District."
+        ]
+    },
+    {
+        "query_id": "qa_17_2786",
+        "question": "What ethnic group makes up the majority of Jaffna's population?",
+        "answers": [
+            "Sri Lankan Tamils"
+        ]
+    },
+    {
+        "query_id": "qa_17_3031",
+        "question": "What administrative region does Vladivostok belong to?",
+        "answers": [
+            "The city is the administrative center of the Far Eastern Federal District."
+        ]
+    },
+    {
+        "query_id": "qa_17_6682",
+        "question": "Where is California located?",
+        "answers": [
+            "California borders Oregon to the north, Nevada and Arizona to the east, and the Mexican state of Baja California to the south."
+        ]
+    },
+    {
+        "query_id": "qa_17_5453",
+        "question": "How are powers divided between the Government of Canada and the provincial governments in Canada?",
+        "answers": [
+            "Powers flowing from the Constitution Act are divided between the Government of Canada and the provincial governments to exercise exclusively."
+        ]
+    },
+    {
+        "query_id": "qa_17_2834",
+        "question": "What is the county seat of Csongr\u00e1d-Csan\u00e1d county?",
+        "answers": [
+            "Szeged"
+        ]
+    },
+    {
+        "query_id": "qa_17_4177",
+        "question": "Who led the Xinhai Revolution?",
+        "answers": [
+            "Sun Yat-sen"
+        ]
+    },
+    {
+        "query_id": "qa_17_4896",
+        "question": "When was Chernivtsi Raion created?",
+        "answers": [
+            "Chernivtsi Raion was created on 18 July 2020."
+        ]
+    },
+    {
+        "query_id": "qa_17_6509",
+        "question": "What territorial disputes have affected Alsace and Lorraine over time?",
+        "answers": [
+            "France and Germany claims"
+        ]
+    },
+    {
+        "query_id": "qa_17_5591",
+        "question": "What bodies of water surround Auckland to the east?",
+        "answers": [
+            "Hauraki Gulf"
+        ]
+    },
+    {
+        "query_id": "qa_17_4022",
+        "question": "What is the name of the province in southern Poland?",
+        "answers": [
+            "Silesian Voivodeship"
+        ]
+    },
+    {
+        "query_id": "qa_17_965",
+        "question": "How many gates are there in Cittadella and which directions do they correspond to?",
+        "answers": [
+            "There are four gates, one for each compass point."
+        ]
+    },
+    {
+        "query_id": "qa_17_3847",
+        "question": "What department is Sarthe a part of?",
+        "answers": [
+            "Sarthe is a department of Pays de la Loire."
+        ]
+    },
+    {
+        "query_id": "qa_17_2963",
+        "question": "What district is Bara?",
+        "answers": [
+            "Bara District"
+        ]
+    },
+    {
+        "query_id": "qa_17_5579",
+        "question": "What is the name of the most populous department in Lorraine?",
+        "answers": [
+            "Moselle"
+        ]
+    },
+    {
+        "query_id": "qa_17_2546",
+        "question": "Who is the leader of the Ecumenical Patriarchate of Constantinople?",
+        "answers": [
+            "Bartholom\u00e4us I or Sotiris Baladi\u00e9s"
+        ]
+    },
+    {
+        "query_id": "qa_17_5880",
+        "question": "What is the only sizable city in the canton?",
+        "answers": [
+            "Chur."
+        ]
+    },
+    {
+        "query_id": "qa_17_5434",
+        "question": "How many total speakers does Portuguese have?",
+        "answers": [
+            "Approximately 250 million total speakers"
+        ]
+    },
+    {
+        "query_id": "qa_17_6084",
+        "question": "In which empires did Punjab belong?",
+        "answers": [
+            "Delhi Sultanate and the Mughal Empire"
+        ]
+    },
+    {
+        "query_id": "qa_17_3428",
+        "question": "Where is the birth city of the Sufi poet Bulleh Shah located?",
+        "answers": [
+            "Kasur city; birth city of Bulleh Shah"
+        ]
+    },
+    {
+        "query_id": "qa_17_4860",
+        "question": "What event took place in Mersin in 2013?",
+        "answers": [
+            "The Mediterranean Games were hosted by Mersin in 2013."
+        ]
+    },
+    {
+        "query_id": "qa_17_970",
+        "question": "What is the composition of the North Carolina Court of Appeals?",
+        "answers": [
+            "15 members, rotating panels of 3"
+        ]
+    },
+    {
+        "query_id": "qa_17_3274",
+        "question": "Where is the capital of Sandaun Province located?",
+        "answers": [
+            "Vanimo"
+        ]
+    },
+    {
+        "query_id": "qa_17_1520",
+        "question": "What kind of fisheries are famous in the Dahlak Archipelago?",
+        "answers": [
+            "Pearl fisheries, famous since Roman times"
+        ]
+    },
+    {
+        "query_id": "qa_17_5816",
+        "question": "Which city in Canada surpassed Montreal in population and economic strength in the 1970s?",
+        "answers": [
+            "Toronto"
+        ]
+    },
+    {
+        "query_id": "qa_17_6276",
+        "question": "What is Georgia's highest point?",
+        "answers": [
+            "4784 ft, 1458 m"
+        ]
+    },
+    {
+        "query_id": "qa_17_1214",
+        "question": "What football team is based in Lecco, Lombardy, Italy?",
+        "answers": [
+            "Calcio Lecco"
+        ]
+    },
+    {
+        "query_id": "qa_17_4875",
+        "question": "What is the name of the district headquarters in Pudukkottai?",
+        "answers": [
+            "Pudukkottai"
+        ]
+    },
+    {
+        "query_id": "qa_17_1248",
+        "question": "What is another name for the Nasib Border Crossing?",
+        "answers": [
+            "Jaber Border Crossing"
+        ]
+    },
+    {
+        "query_id": "qa_17_666",
+        "question": "What type of roof does Antietam Hall have?",
+        "answers": [
+            "Slate"
+        ]
+    },
+    {
+        "query_id": "qa_17_4641",
+        "question": "What is the population of Khodabandeh County in 2006?",
+        "answers": [
+            "161,696"
+        ]
+    },
+    {
+        "query_id": "qa_17_5541",
+        "question": "How many people live in Dubai?",
+        "answers": [
+            "3.60 million (2022)"
+        ]
+    },
+    {
+        "query_id": "qa_17_4318",
+        "question": "How many households are there in Sardasht County in the year 2006?",
+        "answers": [
+            "20,414"
+        ]
+    },
+    {
+        "query_id": "qa_17_3631",
+        "question": "What city is the capital of South Pyongan Province?",
+        "answers": [
+            "Pyongsong"
+        ]
+    },
+    {
+        "query_id": "qa_17_2044",
+        "question": "What is the location of La Silla Observatory in terms of dryness and remoteness?",
+        "answers": [
+            "Driest, most remote area"
+        ]
+    },
+    {
+        "query_id": "qa_17_1627",
+        "question": "What city in northern Israel is known as Israel's 'Startup Village'?",
+        "answers": [
+            "Yokneam Illit"
+        ]
+    },
+    {
+        "query_id": "qa_17_635",
+        "question": "In which division is Sylhet District located?",
+        "answers": [
+            "Division of Sylhet"
+        ]
+    },
+    {
+        "query_id": "qa_17_3775",
+        "question": "What is New Guinea?",
+        "answers": [
+            "New Guinea is..."
+        ]
+    },
+    {
+        "query_id": "qa_17_5148",
+        "question": "What is the freight equalisation policy?",
+        "answers": [
+            "The freight equalisation policy aims to equalise transportation costs across regions."
+        ]
+    },
+    {
+        "query_id": "qa_17_489",
+        "question": "Where is Archer City located in Texas?",
+        "answers": [
+            "Archer City is located in the state of Texas."
+        ]
+    },
+    {
+        "query_id": "qa_17_2640",
+        "question": "How far is the Savage Islands from Madeira and the Canary Islands?",
+        "answers": [
+            "The Savage Islands are 280 kilometers south of Madeira and 165 kilometers north of the Canary Islands."
+        ]
+    },
+    {
+        "query_id": "qa_17_6681",
+        "question": "How do you pronounce California?",
+        "answers": [
+            "KAL-ih-FORN-y\u0259, -\u2060FOR-nee-\u0259"
+        ]
+    },
+    {
+        "query_id": "qa_17_1709",
+        "question": "What is the largest wrestling promotion in the world?",
+        "answers": [
+            "WWE"
+        ]
+    },
+    {
+        "query_id": "qa_17_5027",
+        "question": "How populous is Barcelona's urban area?",
+        "answers": [
+            "4.8 million people"
+        ]
+    },
+    {
+        "query_id": "qa_17_6576",
+        "question": "What percentage of the cultivable area is net area sown in Uttar Pradesh?",
+        "answers": [
+            "68.5%"
+        ]
+    },
+    {
+        "query_id": "qa_17_769",
+        "question": "What does the name Durazno mean in Spanish?",
+        "answers": [
+            "Peach"
+        ]
+    },
+    {
+        "query_id": "qa_17_6980",
+        "question": "What economic, cultural, and social developments occurred during the time of industrial expansion?",
+        "answers": [
+            "Wealth growth, renaissance, worker movements."
+        ]
+    },
+    {
+        "query_id": "qa_17_4015",
+        "question": "When did Manipur merge into India?",
+        "answers": [
+            "21 Sept 1949"
+        ]
+    },
+    {
+        "query_id": "qa_17_5090",
+        "question": "What is the official poverty rate in \u00cele-de-France as of 2015?",
+        "answers": [
+            "15.9%"
+        ]
+    },
+    {
+        "query_id": "qa_17_2185",
+        "question": "What is Stara Zagora, and what was its former name?",
+        "answers": [
+            "Stara Zagora (OBlast Stara Zagora), formerly Stara Zagora okrug"
+        ]
+    },
+    {
+        "query_id": "qa_17_6652",
+        "question": "How many people live in Lombardy?",
+        "answers": [
+            "10000000"
+        ]
+    },
+    {
+        "query_id": "qa_17_735",
+        "question": "What is the name of this ultralight aircraft?",
+        "answers": [
+            "The CFM Air Dardo."
+        ]
+    },
+    {
+        "query_id": "qa_17_3853",
+        "question": "What is the fourth-most populous city in Germany?",
+        "answers": [
+            "Cologne"
+        ]
+    },
+    {
+        "query_id": "qa_17_2595",
+        "question": "Where is the county seat of Park County, Colorado located?",
+        "answers": [
+            "Fairplay"
+        ]
+    },
+    {
+        "query_id": "qa_17_5602",
+        "question": "What significant event occurred during this period for Romanians?",
+        "answers": [
+            "Romanians experienced national awakening."
+        ]
+    },
+    {
+        "query_id": "qa_17_1873",
+        "question": "How many people live in each square kilometer of Valladolid province?",
+        "answers": [
+            "64.19 people/km2"
+        ]
+    },
+    {
+        "query_id": "qa_17_2552",
+        "question": "How does the Ecumenical Patriarchate ensure the safety of believers in the Middle East?",
+        "answers": [
+            "Unspecified"
+        ]
+    },
+    {
+        "query_id": "qa_17_2645",
+        "question": "What is Jastrz\u0119bski W\u0119giel?",
+        "answers": [
+            "Jastrz\u0119bski W\u0119giel is a professional men's volleyball club based in Jastrz\u0119bie-Zdr\u00f3j, Poland."
+        ]
+    },
+    {
+        "query_id": "qa_17_2767",
+        "question": "When and how did the formal establishment of the Lagos Colony come about?",
+        "answers": [
+            "Lagos Treaty of Cession led to the formal establishment. (1861)"
+        ]
+    },
+    {
+        "query_id": "qa_17_6822",
+        "question": "What major events has Seoul hosted in the past?",
+        "answers": [
+            "1986 Asian Games, 1988 Summer Olympics, 2010 G20 Seoul summit"
+        ]
+    },
+    {
+        "query_id": "qa_17_3191",
+        "question": "How much land does the province Riau occupy?",
+        "answers": [
+            "89,935.90 KM\u00b2"
+        ]
+    },
+    {
+        "query_id": "qa_17_7151",
+        "question": "What is the population of Abtar Rural District in the National Census of 2006?",
+        "answers": [
+            "11,635"
+        ]
+    },
+    {
+        "query_id": "qa_17_3093",
+        "question": "Who are the individuals directly elected through secret ballots in Namibia?",
+        "answers": [
+            "Local councillors (in Namibia)"
+        ]
+    },
+    {
+        "query_id": "qa_17_447",
+        "question": "What province is Baraspi located in?",
+        "answers": [
+            "West Azerbaijan Province"
+        ]
+    },
+    {
+        "query_id": "qa_17_2972",
+        "question": "Which television stations were part of Telesistema Mexicano?",
+        "answers": [
+            "XEW Canal 2, XHTV Canal 4, and XHGC Canal 5"
+        ]
+    },
+    {
+        "query_id": "qa_17_2881",
+        "question": "What is the altitude of Valjevo in meters?",
+        "answers": [
+            "185"
+        ]
+    },
+    {
+        "query_id": "qa_17_401",
+        "question": "What town is Lodelinsart?",
+        "answers": [
+            "Lodelinsart (Walloon: Lodlins\u00e5t) is a town of Wallonia and a district of the municipality of Charleroi, located in the province of Hainaut, Belgium."
+        ]
+    },
+    {
+        "query_id": "qa_17_4409",
+        "question": "Who governs the UIL?",
+        "answers": [
+            "VP DCE, UT, ATX."
+        ]
+    },
+    {
+        "query_id": "qa_17_5264",
+        "question": "What percentage of the population lived in the Bangkok Metropolitan Region as of 2010?",
+        "answers": [
+            "22.2%"
+        ]
+    },
+    {
+        "query_id": "qa_17_7125",
+        "question": "What is the name of the real tennis club located on Grange Road in Cambridge?",
+        "answers": [
+            "Cambridge University Real Tennis Club"
+        ]
+    },
+    {
+        "query_id": "qa_17_3523",
+        "question": "What local government authority is responsible for \u00d6rebro?",
+        "answers": [
+            "\u00d6rebro Municipality, local gov't for \u00d6rebro."
+        ]
+    },
+    {
+        "query_id": "qa_17_4150",
+        "question": "Which province in Italy is particularly wealthy?",
+        "answers": [
+            "The province of Trento."
+        ]
+    },
+    {
+        "query_id": "qa_17_6358",
+        "question": "What was each canton of the Old Swiss Confederacy formerly called?",
+        "answers": [
+            "formerly also Ort or Stand"
+        ]
+    },
+    {
+        "query_id": "qa_17_4210",
+        "question": "What is the topography of Nagaland?",
+        "answers": [
+            "Mountainous"
+        ]
+    },
+    {
+        "query_id": "qa_17_2839",
+        "question": "How many archaeological sites are there in Al-Hasakah Governorate?",
+        "answers": [
+            ">100"
+        ]
+    },
+    {
+        "query_id": "qa_17_3650",
+        "question": "What political affiliation did Erfurt have during the Holy Roman Empire?",
+        "answers": [
+            "Part of the Electorate of Mainz"
+        ]
+    },
+    {
+        "query_id": "qa_17_847",
+        "question": "What is Miyandasht Rural District? ",
+        "answers": [
+            "Miyandasht Rural District is in Miyandasht District of Darmian County, South Khorasan province, Iran."
+        ]
+    },
+    {
+        "query_id": "qa_17_4803",
+        "question": "What is the population of the Central District of Sari County in 2016?",
+        "answers": [
+            "The population of the Central District of Sari County in 2016 was 429,620."
+        ]
+    },
+    {
+        "query_id": "qa_17_6714",
+        "question": "Which park in Alberta is a UNESCO World Heritage Site called Wood Buffalo National Park?",
+        "answers": [
+            "Wood Buffalo National Park"
+        ]
+    },
+    {
+        "query_id": "qa_17_3691",
+        "question": "Q5: How is Pohorje populated?",
+        "answers": [
+            "Sparsely populated"
+        ]
+    },
+    {
+        "query_id": "qa_17_3714",
+        "question": "What is the name of the largest fair in Mexico?",
+        "answers": [
+            "Feria Nacional de San Marcos"
+        ]
+    },
+    {
+        "query_id": "qa_17_4938",
+        "question": "What role did Dortmund play during the 13th to 14th centuries?",
+        "answers": [
+            "Chief city of Rhine, Westphalia, Netherlands Circle of Hanseatic League"
+        ]
+    },
+    {
+        "query_id": "qa_17_580",
+        "question": "How many editions did the 2017 FIFA Confederations Cup have?",
+        "answers": [
+            "11th"
+        ]
+    },
+    {
+        "query_id": "qa_17_6413",
+        "question": "What region are we currently referring to when we talk about Bavaria?",
+        "answers": [
+            "Contemp. Bavaria"
+        ]
+    },
+    {
+        "query_id": "qa_17_398",
+        "question": "Where is Is-sur-Tille located?",
+        "answers": [
+            "Is-sur-Tille is a commune in the C\u00f4te-d'Or department of Bourgogne-Franche-Comt\u00e9 France."
+        ]
+    },
+    {
+        "query_id": "qa_17_572",
+        "question": "What military operation took place in Muse Township?",
+        "answers": [
+            "The Muse offensive was a joint military operation by the AA, KIA, MNDAA, and TNLA in Muse Township."
+        ]
+    },
+    {
+        "query_id": "qa_17_937",
+        "question": "What region is Chait\u00e9n located in?",
+        "answers": [
+            "Chait\u00e9n is located in Los Lagos Region."
+        ]
+    },
+    {
+        "query_id": "qa_17_3680",
+        "question": "What is a TV dinner?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_17_4912",
+        "question": "Which countries share an international border with the region of Lugano?",
+        "answers": [
+            "Italy (western and eastern parts of the municipality)"
+        ]
+    },
+    {
+        "query_id": "qa_17_4880",
+        "question": "What is the area of Pudukkottai district in square kilometers?",
+        "answers": [
+            "4,663"
+        ]
+    },
+    {
+        "query_id": "qa_17_4388",
+        "question": "When did the U.S. Government formally apologize for its role in the overthrow of Hawaii's government?",
+        "answers": [
+            "1993"
+        ]
+    },
+    {
+        "query_id": "qa_17_7083",
+        "question": "Where is the prefecture of Auvergne-Rh\u00f4ne-Alpes located?",
+        "answers": [
+            "Lyon"
+        ]
+    },
+    {
+        "query_id": "qa_17_5386",
+        "question": "When was the Western Cape created and from which province was it formed?",
+        "answers": [
+            "1994, from Cape Province"
+        ]
+    },
+    {
+        "query_id": "qa_17_1614",
+        "question": "Where is the Helsinki Prison located?",
+        "answers": [
+            "The Helsinki Prison is located in S\u00f6rn\u00e4inen."
+        ]
+    },
+    {
+        "query_id": "qa_17_3522",
+        "question": "What city in Sweden is \u00d6rebro?",
+        "answers": [
+            "\u00d6rebro, a city in Sweden."
+        ]
+    },
+    {
+        "query_id": "qa_17_3309",
+        "question": "What is the population of Xalapa?",
+        "answers": [
+            "443,063"
+        ]
+    },
+    {
+        "query_id": "qa_17_1409",
+        "question": "How many people live in Aruk\u00fcla as of January 1, 2020?",
+        "answers": [
+            "2,113"
+        ]
+    },
+    {
+        "query_id": "qa_17_2389",
+        "question": "In which state is the community development block Barrackpore II (also spelled Barrackpur II) located?",
+        "answers": [
+            "WB (West Bengal)"
+        ]
+    },
+    {
+        "query_id": "qa_17_6715",
+        "question": "What is the name of the UNESCO World Heritage Site in Alberta called Writing-on-Stone Provincial Park?",
+        "answers": [
+            "Writing-on-Stone Provincial Park"
+        ]
+    },
+    {
+        "query_id": "qa_17_3396",
+        "question": "Who were the founders of Limerick?",
+        "answers": [
+            "Answer: Scandinavian settlers"
+        ]
+    },
+    {
+        "query_id": "qa_17_820",
+        "question": "What department is Lens in?",
+        "answers": [
+            "Lens is in the Pas-de-Calais department."
+        ]
+    },
+    {
+        "query_id": "qa_17_5583",
+        "question": "What is the population of Moselle in 2019?",
+        "answers": [
+            "1,046,543"
+        ]
+    },
+    {
+        "query_id": "qa_17_1624",
+        "question": "In which season did Soproni VSE get promoted to the Nemzeti Bajnoks\u00e1g II?",
+        "answers": [
+            "2011-12"
+        ]
+    },
+    {
+        "query_id": "qa_17_3824",
+        "question": "Who did Ronald Reagan bring together during his 1980 election, and what were their political beliefs?",
+        "answers": [
+            "GOP realignment '80 (free mkt, soc cons, Cold War hawks)"
+        ]
+    },
+    {
+        "query_id": "qa_17_2384",
+        "question": "What is the population of Gamasiyab Rural District according to the National Census of 2006?",
+        "answers": [
+            "14,597"
+        ]
+    },
+    {
+        "query_id": "qa_17_6456",
+        "question": "Which state in Brazil has the most municipalities?",
+        "answers": [
+            "Minas Gerais (853)"
+        ]
+    },
+    {
+        "query_id": "qa_17_1861",
+        "question": "What park is larger than the Bois de Boulogne in Paris?",
+        "answers": [
+            "Bois de Vincennes"
+        ]
+    },
+    {
+        "query_id": "qa_17_3720",
+        "question": "Who is the chief executive in a prefecture (then only 3 -fu and 42 -ken; Hokkaid\u014d and Okinawa-ken were subject to different laws until the 20th century)?",
+        "answers": [
+            "directly elected governor (then only 3 -fu and 42 -ken; Hokkaid\u014d and Okinawa-ken were subject to different laws until the 20th century)"
+        ]
+    },
+    {
+        "query_id": "qa_17_56",
+        "question": "What river connects Impfondo to Brazzaville and Bangui?",
+        "answers": [
+            "Oubangui"
+        ]
+    },
+    {
+        "query_id": "qa_17_4597",
+        "question": "Which neighboring districts does Landkreis Rostock have, continuing in a clockwise direction?",
+        "answers": [
+            "Landkreis Rostock's neighboring districts, continuing in a clockwise direction, are Vorpommern-R\u00fcgen, Mecklenburgische Seenplatte, and Ludwigslust-Parchim."
+        ]
+    },
+    {
+        "query_id": "qa_17_4812",
+        "question": "How did Canada achieve full sovereignty in terms of its constitution?",
+        "answers": [
+            "Canada achieved full sovereignty through the patriation of the constitution in 1982."
+        ]
+    },
+    {
+        "query_id": "qa_17_5778",
+        "question": "What is the total number of inhabited townlands in Ireland as of 1911?",
+        "answers": [
+            "60,679"
+        ]
+    },
+    {
+        "query_id": "qa_17_2124",
+        "question": "What is the name of the football club based in Oleksandriya, Kirovohrad Oblast?",
+        "answers": [
+            "FC Oleksandriya"
+        ]
+    },
+    {
+        "query_id": "qa_17_6380",
+        "question": "Simultaneously, which groups ruled some parts of Bengal during the Bengal Sultanate?",
+        "answers": [
+            "Simultaneously, some parts of the region were ruled by several Hindu states and Baro-Bhuyan landlords."
+        ]
+    },
+    {
+        "query_id": "qa_17_4338",
+        "question": "What traditional foods are from Le\u00f3n province?",
+        "answers": [
+            "Morcilla, Cecina"
+        ]
+    },
+    {
+        "query_id": "qa_17_4647",
+        "question": "What is the capital city of Khodabandeh County?",
+        "answers": [
+            "Qeydar"
+        ]
+    },
+    {
+        "query_id": "qa_17_5795",
+        "question": "What is the name or location of the Basque Country?",
+        "answers": [
+            "Basque Country"
+        ]
+    },
+    {
+        "query_id": "qa_17_3878",
+        "question": "Can you tell me what city I'm thinking of?",
+        "answers": [
+            "M"
+        ]
+    },
+    {
+        "query_id": "qa_17_2700",
+        "question": "Which districts border Bad Kreuznacht in a clockwise direction? ",
+        "answers": [
+            "Rhein-Hunsr\u00fcck, Mainz-Bingen, Alzey-Worms, Donnersbergkreis, Kusel, and Birkenfeld"
+        ]
+    },
+    {
+        "query_id": "qa_17_1159",
+        "question": "What is the name of the largest island in the Aegadian Islands?",
+        "answers": [
+            "Favignana"
+        ]
+    },
+    {
+        "query_id": "qa_17_2496",
+        "question": "What was the population of Now Bandegan District in 2006?",
+        "answers": [
+            "The population of Now Bandegan District was 11,679 in 2006, according to the National Census."
+        ]
+    },
+    {
+        "query_id": "qa_17_5357",
+        "question": "What does the name Brandenburg mean in West Slavic?",
+        "answers": [
+            "defensive forest"
+        ]
+    },
+    {
+        "query_id": "qa_17_6620",
+        "question": "How many munis in Sarajevo now?",
+        "answers": [
+            "4"
+        ]
+    },
+    {
+        "query_id": "qa_17_1332",
+        "question": "Where is Altdorf situated in relation to the Reuss and the Urnersee?",
+        "answers": [
+            "Altdorf is situated on the right (eastern) bank of the Reuss, about 2 kilometers (1.2 miles) south of where the Reuss discharges into the Urnersee, an arm of Lake Lucerne."
+        ]
+    },
+    {
+        "query_id": "qa_17_5812",
+        "question": "What island is Montreal centred on?",
+        "answers": [
+            "\u00cele de Montr\u00e9al"
+        ]
+    },
+    {
+        "query_id": "qa_17_1920",
+        "question": "In which larger administrative division does Taif belong?",
+        "answers": [
+            "Taif governorate"
+        ]
+    },
+    {
+        "query_id": "qa_17_24",
+        "question": "What depts are in DoD?",
+        "answers": [
+            "DoD's 3 depts are DoA, DoN, and DoAF."
+        ]
+    },
+    {
+        "query_id": "qa_17_4182",
+        "question": "What city is the capital of Qinghai?",
+        "answers": [
+            "Xining"
+        ]
+    },
+    {
+        "query_id": "qa_17_2506",
+        "question": "Which sultan was produced by the school?",
+        "answers": [
+            "See list"
+        ]
+    },
+    {
+        "query_id": "qa_17_874",
+        "question": "Can you tell me which state is located in the Bahr el Ghazal region of South Sudan?",
+        "answers": [
+            "Warrap (South Sudan)"
+        ]
+    },
+    {
+        "query_id": "qa_17_3019",
+        "question": "In which year did Ad\u0131yaman, Nev\u015fehir, and Sakarya become provinces?",
+        "answers": [
+            "1954"
+        ]
+    },
+    {
+        "query_id": "qa_17_6086",
+        "question": "When was Indian Punjab reorganized on the basis of language?",
+        "answers": [
+            "1966"
+        ]
+    },
+    {
+        "query_id": "qa_17_676",
+        "question": "What is the name of the tower in Paris, France that is made of wrought iron and has a lattice structure?",
+        "answers": [
+            "The Eiffel Tower"
+        ]
+    },
+    {
+        "query_id": "qa_17_5661",
+        "question": "What is the highest point in Sarawak?",
+        "answers": [
+            "Mount Murud"
+        ]
+    },
+    {
+        "query_id": "qa_17_5220",
+        "question": "Q2: What popular tourist destination is located between the central and western parts of New York?",
+        "answers": [
+            "A2: Finger Lakes"
+        ]
+    },
+    {
+        "query_id": "qa_17_250",
+        "question": "What is the name of the Swedish football club located in the Boden municipality?",
+        "answers": [
+            "Skogs\u00e5 IF"
+        ]
+    },
+    {
+        "query_id": "qa_17_6109",
+        "question": "What resource drew a large and diverse population to the colony?",
+        "answers": [
+            "Fertile lands."
+        ]
+    },
+    {
+        "query_id": "qa_17_2623",
+        "question": "Which country hosted the 2001 Mediterranean Games?",
+        "answers": [
+            "Tunisia (host country)"
+        ]
+    },
+    {
+        "query_id": "qa_17_1320",
+        "question": "How many days does it take to reach Namche Bazaar from Lukla?",
+        "answers": [
+            "2 days"
+        ]
+    },
+    {
+        "query_id": "qa_17_180",
+        "question": "What is the population of Oulad Cherki?",
+        "answers": [
+            "7165"
+        ]
+    },
+    {
+        "query_id": "qa_17_5293",
+        "question": "What country is England?",
+        "answers": [
+            "England is a country."
+        ]
+    },
+    {
+        "query_id": "qa_17_2629",
+        "question": "What city is the capital of Cuvette?",
+        "answers": [
+            "Owando"
+        ]
+    },
+    {
+        "query_id": "qa_17_5883",
+        "question": "What was the capital city of the Roman province Raetia?",
+        "answers": [
+            "Curia."
+        ]
+    },
+    {
+        "query_id": "qa_17_3222",
+        "question": "In what year was the population of Santiago de Cuba recorded? ",
+        "answers": [
+            "2022."
+        ]
+    },
+    {
+        "query_id": "qa_17_3301",
+        "question": "Which major corporations have their headquarters in or near Des Moines?",
+        "answers": [
+            "Principal Financial Group, Ruan Transportation, TMC Transportation, EMC Insurance Companies, and Wellmark Blue Cross Blue Shield"
+        ]
+    },
+    {
+        "query_id": "qa_17_2705",
+        "question": "Which rural districts were separated from the Central District in 2016?",
+        "answers": [
+            "Karian Rural District, Tiab Rural District"
+        ]
+    },
+    {
+        "query_id": "qa_17_1277",
+        "question": "Where is Csepel located in Budapest?",
+        "answers": [
+            "Csepel is officially known as the 21st District of Budapest."
+        ]
+    },
+    {
+        "query_id": "qa_17_2697",
+        "question": "What is the name of the district in Rhineland-Palatinate, Germany, that is surrounded by Rhein-Hunsr\u00fcck, Mainz-Bingen, Alzey-Worms, Donnersbergkreis, Kusel, and Birkenfeld? ",
+        "answers": [
+            "Bad Kreuznacht"
+        ]
+    },
+    {
+        "query_id": "qa_17_3812",
+        "question": "When was the area inhabited?",
+        "answers": [
+            "Prehistoric times"
+        ]
+    },
+    {
+        "query_id": "qa_17_6095",
+        "question": "Which body of water borders the Balkan Peninsula in the northeast?",
+        "answers": [
+            "The Black Sea."
+        ]
+    },
+    {
+        "query_id": "qa_17_1771",
+        "question": "What is the religious affiliation of Versailles?",
+        "answers": [
+            "Roman Catholic"
+        ]
+    },
+    {
+        "query_id": "qa_17_4414",
+        "question": "What historic landmark is the province of Pisa known for, besides the capital city?",
+        "answers": [
+            "Leaning Tower"
+        ]
+    },
+    {
+        "query_id": "qa_17_2822",
+        "question": "What is the population of Ramsar County in 2011?",
+        "answers": [
+            "68323"
+        ]
+    },
+    {
+        "query_id": "qa_17_1420",
+        "question": "What is the population of Ruston in 2020?",
+        "answers": [
+            "22,166"
+        ]
+    },
+    {
+        "query_id": "qa_17_4257",
+        "question": "What is the role of Hanoi in Northern Vietnam?",
+        "answers": [
+            "Cultural, economic, education center"
+        ]
+    },
+    {
+        "query_id": "qa_17_6690",
+        "question": "What region in the United States had the highest gross domestic product per capita among large primary statistical areas in 2018, and what is this value?",
+        "answers": [
+            "The San Francisco Bay Area Combined Statistical Area, $106,757."
+        ]
+    },
+    {
+        "query_id": "qa_17_148",
+        "question": "What region does Salihorsk belong to?",
+        "answers": [
+            "Minsk Region"
+        ]
+    },
+    {
+        "query_id": "qa_17_1797",
+        "question": "What is the name of the town in Slovenia that is the administrative seat of the Municipality of Ormo\u017e?",
+        "answers": [
+            "Ormo\u017e"
+        ]
+    },
+    {
+        "query_id": "qa_17_1565",
+        "question": "What is the population of Kamfiruz-e Jonubi Rural District in 2006?",
+        "answers": [
+            "The population of Kamfiruz-e Jonubi Rural District was 7,377 in 2006."
+        ]
+    },
+    {
+        "query_id": "qa_17_6471",
+        "question": "In what year did Victoria separate from New South Wales and who was it named after?",
+        "answers": [
+            "Victoria (1851) named after Queen Victoria"
+        ]
+    },
+    {
+        "query_id": "qa_17_1823",
+        "question": "What natural features border Washington County?",
+        "answers": [
+            "The Northern Oregon Coast Range (west, north), Chehalem Mountains (south), Tualatin Mountains (north, east)"
+        ]
+    },
+    {
+        "query_id": "qa_17_6857",
+        "question": "What is the width of this range in the western part?",
+        "answers": [
+            "350 km (220 mi)"
+        ]
+    },
+    {
+        "query_id": "qa_17_6014",
+        "question": "What languages is English most closely related to?",
+        "answers": [
+            "English is most closely related to Low Saxon and Frisian languages on a dialect continuum with Scots."
+        ]
+    },
+    {
+        "query_id": "qa_17_6339",
+        "question": "How is the governing structure of union territories in India different from that of states?",
+        "answers": [
+            "Some union territories have their own territorial government with certain autonomy in India."
+        ]
+    },
+    {
+        "query_id": "qa_17_516",
+        "question": "What is the address of the historic house?",
+        "answers": [
+            "605 Summit Drive"
+        ]
+    },
+    {
+        "query_id": "qa_17_1547",
+        "question": "How much land does Akoko Edo cover?",
+        "answers": [
+            "1,371 km2"
+        ]
+    },
+    {
+        "query_id": "qa_17_3098",
+        "question": "How long does the Huanzo mountain range extend between? ",
+        "answers": [
+            "About 57 km"
+        ]
+    },
+    {
+        "query_id": "qa_17_4649",
+        "question": "In 2006, how many households were there in the Central District of Ramhormoz County?",
+        "answers": [
+            "In 2006, there were 20,648 households in the Central District of Ramhormoz County."
+        ]
+    },
+    {
+        "query_id": "qa_17_7143",
+        "question": "Who was the former president of Brazil?",
+        "answers": [
+            "Jair Bolsonaro"
+        ]
+    },
+    {
+        "query_id": "qa_17_6963",
+        "question": "What was Istanbul called when it was founded by Greek settlers?",
+        "answers": [
+            "Byzantium"
+        ]
+    },
+    {
+        "query_id": "qa_17_116",
+        "question": "Does the Alice Springs Correctional Centre house only males or both males and females?",
+        "answers": [
+            "males and females"
+        ]
+    },
+    {
+        "query_id": "qa_17_3905",
+        "question": "In what year did Lonely Planet rank Philadelphia as the best city in the nation to visit?",
+        "answers": [
+            "2023"
+        ]
+    },
+    {
+        "query_id": "qa_17_4264",
+        "question": "What is the current capital of Kazakhstan?",
+        "answers": [
+            "Astana"
+        ]
+    },
+    {
+        "query_id": "qa_17_1782",
+        "question": "What is the total area of Samtse district?",
+        "answers": [
+            "1304 sq km"
+        ]
+    },
+    {
+        "query_id": "qa_17_225",
+        "question": "What town in Zambia is known as the principal tourism center for Lake Kariba?",
+        "answers": [
+            "Siavonga"
+        ]
+    },
+    {
+        "query_id": "qa_17_4392",
+        "question": "What is unique about Hawaii's economic and demographic statistics compared to other states in the U.S.?",
+        "answers": [
+            "Third-wealthiest state, longest life expectancy (80.7 years)"
+        ]
+    },
+    {
+        "query_id": "qa_17_4119",
+        "question": "What is the Poitevin-Saintongeais name for Vienne?",
+        "answers": [
+            "Poitevin-Saintongeais: Vi\u00e9ne"
+        ]
+    },
+    {
+        "query_id": "qa_17_4465",
+        "question": "What percentage of the population of Ivory Coast is the population of Abidjan as of the 2021 census?",
+        "answers": [
+            "21.5%"
+        ]
+    },
+    {
+        "query_id": "qa_17_5704",
+        "question": "What two administrative divisions does Zagreb comprise?",
+        "answers": [
+            "A: Zagreb and Zagreb County"
+        ]
+    },
+    {
+        "query_id": "qa_17_5370",
+        "question": "What year did success finally come for settlement in the Northern Territory?",
+        "answers": [
+            "1869"
+        ]
+    },
+    {
+        "query_id": "qa_17_1068",
+        "question": "Q8: Which major highway connects Oslo and Trondheim?",
+        "answers": [
+            "E6 highway"
+        ]
+    },
+    {
+        "query_id": "qa_17_4567",
+        "question": "Where is Thessaly located in Greece?",
+        "answers": [
+            "Thessaly lies in northern Greece and borders the regions of Macedonia to the north, Epirus to the west, Central Greece to the south, and the Aegean Sea to the east."
+        ]
+    },
+    {
+        "query_id": "qa_17_175",
+        "question": "Where is Sri Lanka?",
+        "answers": [
+            ""
+        ]
+    },
+    {
+        "query_id": "qa_17_6161",
+        "question": "What is the INSEE and Post Code for the department of Bas-Rhin?",
+        "answers": [
+            "Answer: 67"
+        ]
+    },
+    {
+        "query_id": "qa_17_3906",
+        "question": "Which city was named the best in the nation to visit by Lonely Planet in their rankings in 2023?",
+        "answers": [
+            "Philadelphia"
+        ]
+    },
+    {
+        "query_id": "qa_17_4031",
+        "question": "How many people live in the department of Dakar?",
+        "answers": [
+            "The population of the department of Dakar is..."
+        ]
+    },
+    {
+        "query_id": "qa_17_1177",
+        "question": "In which Canadian province is Williston Lake located?",
+        "answers": [
+            "BC (Williston Lake in this province)"
+        ]
+    },
+    {
+        "query_id": "qa_17_4829",
+        "question": "Who gained control of M\u00e1laga in 1487 during the Granada War?",
+        "answers": [
+            "Crown of Castile"
+        ]
+    },
+    {
+        "query_id": "qa_17_317",
+        "question": "Who are some players that have been named Belgian League MVP while playing for Okapi Aalst?",
+        "answers": [
+            "N/A"
+        ]
+    },
+    {
+        "query_id": "qa_17_6469",
+        "question": "When was the first European settlement in the area established?",
+        "answers": [
+            "1803"
+        ]
+    },
+    {
+        "query_id": "qa_17_1632",
+        "question": "When was Yokneam Illit founded and when did it become a city?",
+        "answers": [
+            "Founded (provide year), became a city (provide year)"
+        ]
+    },
+    {
+        "query_id": "qa_17_2067",
+        "question": "How are Crown corporations ultimately accountable for their affairs?",
+        "answers": [
+            "To (federal or provincial) Parliament through a relevant minister"
+        ]
+    },
+    {
+        "query_id": "qa_17_498",
+        "question": "When was the latest Florissimo held?",
+        "answers": [
+            "2010"
+        ]
+    },
+    {
+        "query_id": "qa_17_2065",
+        "question": "What is the famous product produced in the area surrounding Diksmuide?",
+        "answers": [
+            "butter of Diksmuide"
+        ]
+    },
+    {
+        "query_id": "qa_17_773",
+        "question": "What is Mandi district?",
+        "answers": [
+            "Mandi district is a central district of Himachal Pradesh."
+        ]
+    },
+    {
+        "query_id": "qa_17_5362",
+        "question": "What is the capital and largest city of Dagestan?",
+        "answers": [
+            "Makhachkala"
+        ]
+    },
+    {
+        "query_id": "qa_17_736",
+        "question": "Where is this aircraft designed from?",
+        "answers": [
+            "Designed by CFM Air of Ciri\u00e9, Italy."
+        ]
+    },
+    {
+        "query_id": "qa_17_5771",
+        "question": "Where is the Parliament of South Africa located?",
+        "answers": [
+            "CT"
+        ]
+    },
+    {
+        "query_id": "qa_17_483",
+        "question": "What administrative division is Palade located in?",
+        "answers": [
+            "Palade is located in Hiiumaa Parish."
+        ]
+    },
+    {
+        "query_id": "qa_17_3965",
+        "question": "What is the INSEE and post code for Allier?",
+        "answers": [
+            "03"
+        ]
+    },
+    {
+        "query_id": "qa_17_6243",
+        "question": "What is the prefecture and main city of Haute-Garonne?",
+        "answers": [
+            "T"
+        ]
+    },
+    {
+        "query_id": "qa_17_2830",
+        "question": "What distinguishes Shkod\u00ebr in terms of arts, culture, religious diversity, and history?",
+        "answers": [
+            "Arts, culture, religious diversity, turbulent history (among the Albanians)"
+        ]
+    },
+    {
+        "query_id": "qa_17_1926",
+        "question": "How many active-duty military personnel does the Bundeswehr have as of May 31, 2023?",
+        "answers": [
+            "181,672."
+        ]
+    },
+    {
+        "query_id": "qa_17_1227",
+        "question": "What type of pipelines are part of Nord Stream and where do they originate from?",
+        "answers": [
+            "The NS1 pipeline originates from Vyborg in northwestern Russia near Finland, and the NS2 pipeline originates from Ust-Luga in northwestern Russia near Estonia."
+        ]
+    },
+    {
+        "query_id": "qa_17_2914",
+        "question": "Where did Austronesians originate from?",
+        "answers": [
+            "Austronesians originated from Taiwan."
+        ]
+    },
+    {
+        "query_id": "qa_17_1106",
+        "question": "Where is Bremstein Lighthouse located within the municipality?",
+        "answers": [
+            "Southwestern part"
+        ]
+    },
+    {
+        "query_id": "qa_17_5927",
+        "question": "Where is the Eiffel Tower located?",
+        "answers": [
+            "Champ de Mars, Paris, France"
+        ]
+    },
+    {
+        "query_id": "qa_17_4390",
+        "question": "What significant military presence is hosted in Hawaii?",
+        "answers": [
+            "US Pacific Fleet, 75,000 Defense Dept. Employees"
+        ]
+    },
+    {
+        "query_id": "qa_17_6216",
+        "question": "Who administratively changed Xinjiang's status in 1955?",
+        "answers": [
+            "In 1955, Xinjiang was administratively changed from a province into an autonomous region..."
+        ]
+    },
+    {
+        "query_id": "qa_17_3146",
+        "question": "Which region is Ostend in?",
+        "answers": [
+            "Ostend is in the Flemish Region of Belgium."
+        ]
+    },
+    {
+        "query_id": "qa_17_1893",
+        "question": "What is Botkyrka Municipality?",
+        "answers": [
+            "Botkyrka Municipality is a municipality in Stockholm County in east central Sweden."
+        ]
+    },
+    {
+        "query_id": "qa_17_1390",
+        "question": "What educational institution is located in Uiwang?",
+        "answers": [
+            "Answer: Korea National Railroad College"
+        ]
+    },
+    {
+        "query_id": "qa_17_4863",
+        "question": "How many people lived in Kuhrang County in 2011?",
+        "answers": [
+            "35,915"
+        ]
+    },
+    {
+        "query_id": "qa_17_936",
+        "question": "What is the former capital of the Palena Province called?",
+        "answers": [
+            "The former capital of the Palena Province is called Chait\u00e9n."
+        ]
+    },
+    {
+        "query_id": "qa_17_6961",
+        "question": "What is the largest city in Turkey?",
+        "answers": [
+            "Istanbul"
+        ]
+    },
+    {
+        "query_id": "qa_17_4606",
+        "question": "How many households were there in the Central District during the National Census in 2011?",
+        "answers": [
+            "21,600"
+        ]
+    },
+    {
+        "query_id": "qa_17_1633",
+        "question": "What is Kildin Island? ",
+        "answers": [
+            "Island in Barents Sea, Russia."
+        ]
+    },
+    {
+        "query_id": "qa_17_2446",
+        "question": "How many people live in the area of Nowon District (Nowon-gu) in Seoul, South Korea?",
+        "answers": [
+            "The population of Nowon District (Nowon-gu) in Seoul, South Korea is 619,509."
+        ]
+    },
+    {
+        "query_id": "qa_17_5775",
+        "question": "What are nature reserves?",
+        "answers": [
+            "Nature reserves are designated areas for preserving natural environments."
+        ]
+    },
+    {
+        "query_id": "qa_17_5532",
+        "question": "Who are two Baroque composers born in Venice?",
+        "answers": [
+            "Tomaso Albinoni, Antonio Vivaldi"
+        ]
+    },
+    {
+        "query_id": "qa_17_3065",
+        "question": "When did Phoenix become the capital of Arizona Territory?",
+        "answers": [
+            "1889"
+        ]
+    },
+    {
+        "query_id": "qa_17_1309",
+        "question": "When was Takab-e Kuhmish Rural District separated from Sabzevar County?",
+        "answers": [
+            "February 2019"
+        ]
+    },
+    {
+        "query_id": "qa_17_2592",
+        "question": "How did Albany become prominent in the nineteenth century?",
+        "answers": [
+            "Became a shipping and market center, first served by riverboats."
+        ]
+    },
+    {
+        "query_id": "qa_17_6919",
+        "question": "Where is Oregon located?",
+        "answers": [
+            "Oregon's north/east boundaries are Columbia/Snake Rivers, south is 42nd N parallel, west is Pacific Ocean."
+        ]
+    },
+    {
+        "query_id": "qa_17_5711",
+        "question": "Which companies, media, and scientific institutions have their headquarters in Zagreb?",
+        "answers": [
+            "Headquarters"
+        ]
+    },
+    {
+        "query_id": "qa_17_4165",
+        "question": "What are historic districts and what types of properties do they recognize?",
+        "answers": [
+            "Historic districts recognize groups of historically or architecturally significant buildings, resources. Contributing and non-contributing."
+        ]
+    },
+    {
+        "query_id": "qa_17_4872",
+        "question": "How populous is the San Diego\u2013Tijuana conurbation?",
+        "answers": [
+            "4.9M (2nd in WH) '12."
+        ]
+    },
+    {
+        "query_id": "qa_17_3990",
+        "question": "What is the ranking of the city's per capita income in the world?",
+        "answers": [
+            "One of the highest"
+        ]
+    },
+    {
+        "query_id": "qa_17_3446",
+        "question": "How many people were counted in the Central District in 2011?",
+        "answers": [
+            "38,334"
+        ]
+    },
+    {
+        "query_id": "qa_17_6773",
+        "question": "What classification does Sydney have according to the Globalization and World Cities Research Network?",
+        "answers": [
+            "Alpha city"
+        ]
+    },
+    {
+        "query_id": "qa_17_334",
+        "question": "Who represented the Philippines in the Miss Earth pageant?",
+        "answers": [
+            "Ong"
+        ]
+    },
+    {
+        "query_id": "qa_17_4125",
+        "question": "Which industries contribute to Calgary's economy?",
+        "answers": [
+            "Energy, financial services, film and television, transportation, and logistics, technology, manufacturing, aerospace, health and wellness, retail, and tourism sectors"
+        ]
+    },
+    {
+        "query_id": "qa_17_955",
+        "question": "What educational institutions are in Chengalpattu?",
+        "answers": [
+            "Chengalpattu has a medical college and other colleges affiliated with the University of Madras."
+        ]
+    },
+    {
+        "query_id": "qa_17_4530",
+        "question": "What is Novi Sad?",
+        "answers": [
+            "Novi Sad is a city in Serbia, located in the southern portion of the Pannonian Plain on the border of Ba\u010dka and Syrmia geographical regions, facing the northern slopes of Fru\u0161ka Gora. Its Hungarian name is \u00dajvid\u00e9k."
+        ]
+    },
+    {
+        "query_id": "qa_17_3461",
+        "question": "What is the name of the county in Ireland?",
+        "answers": [
+            "County Monaghan"
+        ]
+    },
+    {
+        "query_id": "qa_17_5977",
+        "question": "What department is Vosges located in?",
+        "answers": [
+            "Vosges is a department in the Grand Est region of Northeastern France."
+        ]
+    },
+    {
+        "query_id": "qa_17_328",
+        "question": "Where is Koulgorin located?",
+        "answers": [
+            "Koulgorin is in the Bingo Department of Boulkiemd\u00e9 Province in central western Burkina Faso."
+        ]
+    },
+    {
+        "query_id": "qa_17_368",
+        "question": "What is the name of the village Kani Gorgeh located in?",
+        "answers": [
+            "Kani Gorgeh is a village in Iran."
+        ]
+    },
+    {
+        "query_id": "qa_17_492",
+        "question": "Is Archer City considered part of a larger urban area?",
+        "answers": [
+            "Yes, Archer City is part of the Wichita Falls metropolitan statistical area."
+        ]
+    },
+    {
+        "query_id": "qa_17_3768",
+        "question": "What percentage of commodities and financial futures is generated by Chicago's derivatives market?",
+        "answers": [
+            "20%"
+        ]
+    },
+    {
+        "query_id": "qa_17_5139",
+        "question": "How many UNESCO World Heritage Sites are located in this region?",
+        "answers": [
+            "Eleven"
+        ]
+    },
+    {
+        "query_id": "qa_17_6145",
+        "question": "Which regions border the South Region of Brazil in Brazil?",
+        "answers": [
+            "Centre-West, Southeast"
+        ]
+    },
+    {
+        "query_id": "qa_17_2503",
+        "question": "Who is the sultan that the school has produced?",
+        "answers": [
+            "Name"
+        ]
+    },
+    {
+        "query_id": "qa_17_4660",
+        "question": "What local governmental authority do counties or county-equivalents have in states?",
+        "answers": [
+            "Local governmental authority"
+        ]
+    },
+    {
+        "query_id": "qa_17_5573",
+        "question": "How did the language of Brussels change over time?",
+        "answers": [
+            "Language shift occurred in late 19th century"
+        ]
+    },
+    {
+        "query_id": "qa_17_3334",
+        "question": "Which football club in Enschede has been a Dutch champion?",
+        "answers": [
+            "The football club FC Twente, located in Enschede, has been a Dutch champion."
+        ]
+    },
+    {
+        "query_id": "qa_17_220",
+        "question": "Which county is Kinango Constituency a part of?",
+        "answers": [
+            "Kwale"
+        ]
+    },
+    {
+        "query_id": "qa_17_6299",
+        "question": "What is the name of the largest Greek island?",
+        "answers": [
+            "Crete"
+        ]
+    },
+    {
+        "query_id": "qa_17_4885",
+        "question": "What historical events led to Bahrain's independence?",
+        "answers": [
+            "Periods of Portuguese and Persian control, as well as a longer invasion by Oman, preceded Bahrain's independence in 1971."
+        ]
+    },
+    {
+        "query_id": "qa_17_2815",
+        "question": "Which provinces border Sofia Province?",
+        "answers": [
+            "Pernik, Kyustendil, Blagoevgrad, Pazardzhik, Plovdiv, Lovech, Vratsa, Montana"
+        ]
+    },
+    {
+        "query_id": "qa_17_867",
+        "question": "When was Darbhanga founded?",
+        "answers": [
+            "It is unclear when Darbhanga was founded."
+        ]
+    },
+    {
+        "query_id": "qa_17_547",
+        "question": "How many families live in Pey Navand (Persian: \u067e\u064a\u0646\u0648\u0646\u062f)?",
+        "answers": [
+            "At the 2006 census, there were 48 families living in Pey Navand (Persian: \u067e\u064a\u0646\u0648\u0646\u062f)."
+        ]
+    },
+    {
+        "query_id": "qa_17_4253",
+        "question": "In what year did Vietnamese emperor L\u00fd Th\u00e1i T\u1ed5 establish the capital of the imperial Vietnamese nation?",
+        "answers": [
+            "1010"
+        ]
+    },
+    {
+        "query_id": "qa_17_7115",
+        "question": "How many US presidents have been born in Ohio?",
+        "answers": [
+            "7"
+        ]
+    },
+    {
+        "query_id": "qa_17_2412",
+        "question": "Where does the southwest branch of the Beagle Channel enter?",
+        "answers": [
+            "Cook Bay"
+        ]
+    },
+    {
+        "query_id": "qa_17_3772",
+        "question": "What famous artists or cultural institutions are based in Chicago?",
+        "answers": [
+            "Art Institute of Chicago"
+        ]
+    },
+    {
+        "query_id": "qa_17_3800",
+        "question": "When did Valais become an associate member of the Swiss Confederation?",
+        "answers": [
+            "1529"
+        ]
+    },
+    {
+        "query_id": "qa_17_7006",
+        "question": "What was the outcome of the Battle of Moh\u00e1cs in 1526?",
+        "answers": [
+            "Ottoman rule"
+        ]
+    },
+    {
+        "query_id": "qa_17_3097",
+        "question": "Which regions in Peru does the Huanzo mountain range extend between? ",
+        "answers": [
+            "Apur\u00edmac Region, Antabamba Province, Arequipa Region, Castilla Province, La Uni\u00f3n Province, Ayacucho Region, Parinacochas Province, and Chumbivilcas Province of the Cusco Region"
+        ]
+    },
+    {
+        "query_id": "qa_17_1139",
+        "question": "Where is Chandauli located in India?",
+        "answers": [
+            "U.P."
+        ]
+    },
+    {
+        "query_id": "qa_17_5299",
+        "question": "What is the name of the capital city of England, with a population of 14.2 million as of 2021?",
+        "answers": [
+            "London"
+        ]
+    },
+    {
+        "query_id": "qa_17_2066",
+        "question": "What organizations in Canada are directly and wholly owned by the government and have a mixture of commercial and public-policy objectives?",
+        "answers": [
+            "Crown corporations in Canada"
+        ]
+    },
+    {
+        "query_id": "qa_17_3887",
+        "question": "What percentage of the municipal population in Malm\u00f6 has a foreign background?",
+        "answers": [
+            "HF"
+        ]
+    },
+    {
+        "query_id": "qa_17_1500",
+        "question": "Where is Novi Travnik located?",
+        "answers": [
+            "Central Bosnia Canton"
+        ]
+    },
+    {
+        "query_id": "qa_17_2947",
+        "question": "Where is Polan Rural District located?",
+        "answers": [
+            "Administered from Polan"
+        ]
+    },
+    {
+        "query_id": "qa_17_3538",
+        "question": "Which mountain on Mindoro is the second highest, and how tall is it in feet and meters?",
+        "answers": [
+            "Mount Baco, 8,163 ft / 2,488 m"
+        ]
+    },
+    {
+        "query_id": "qa_17_3946",
+        "question": "Which city in Chihuahua is known for apple production?",
+        "answers": [
+            "Cuauht\u00e9moc"
+        ]
+    },
+    {
+        "query_id": "qa_17_5898",
+        "question": "What is the size of Sumatra?",
+        "answers": [
+            "1,828,120 sq mi (475,807.63 km2)"
+        ]
+    },
+    {
+        "query_id": "qa_17_963",
+        "question": "Has the surrounding wall of Cittadella been restored?",
+        "answers": [
+            "Yes, the surrounding wall has been restored."
+        ]
+    },
+    {
+        "query_id": "qa_17_3843",
+        "question": "What laws were employed by Alabamian legislators in the late 19th century and the 1960s, similar to other former slave states?",
+        "answers": [
+            "Jim Crow laws"
+        ]
+    },
+    {
+        "query_id": "qa_17_3451",
+        "question": "What is the name of the province in the Lazio region of Italy?",
+        "answers": [
+            "Viterbo"
+        ]
+    },
+    {
+        "query_id": "qa_17_2141",
+        "question": "What is the population of Paraguar\u00ed?",
+        "answers": [
+            "221,932"
+        ]
+    },
+    {
+        "query_id": "qa_17_1898",
+        "question": "When was Rishon LeZion founded?",
+        "answers": [
+            "1882."
+        ]
+    },
+    {
+        "query_id": "qa_17_2912",
+        "question": "Who are the Malays?",
+        "answers": [
+            "Malays are an Austronesian ethnoreligious group from SE Asia."
+        ]
+    },
+    {
+        "query_id": "qa_17_4642",
+        "question": "What is the population of Khodabandeh County in 2011?",
+        "answers": [
+            "169,553"
+        ]
+    },
+    {
+        "query_id": "qa_17_536",
+        "question": "Why was the name Clarion chosen for the Queensland Media Awards?",
+        "answers": [
+            "Named after union's history."
+        ]
+    },
+    {
+        "query_id": "qa_17_5262",
+        "question": "What is the full name of Bangkok in Thai?",
+        "answers": [
+            "Krung Thep Maha Nakhon"
+        ]
+    },
+    {
+        "query_id": "qa_17_5128",
+        "question": "What is Podlasie Province?",
+        "answers": [
+            "Podlasie Province is a region in Poland."
+        ]
+    },
+    {
+        "query_id": "qa_17_3239",
+        "question": "Which countries do the member clubs of the KHL come from?",
+        "answers": [
+            "Russia, Belarus, Kazakhstan, China."
+        ]
+    },
+    {
+        "query_id": "qa_17_93",
+        "question": "What is the location of Puduvayal?",
+        "answers": [
+            "Puduvayal is a town in Karaikudi taluk, Sivaganga district in Tamil Nadu."
+        ]
+    },
+    {
+        "query_id": "qa_17_1393",
+        "question": "Where is the terminal of Hanjin container shipping located?",
+        "answers": [
+            "Answer: Uiwang"
+        ]
+    },
+    {
+        "query_id": "qa_17_2167",
+        "question": "What was the duration of Allied occupation and administration of Germany after World War II?",
+        "answers": [
+            "1945-49"
+        ]
+    },
+    {
+        "query_id": "qa_17_6044",
+        "question": "How many municipalities are grouped into provinces in Flanders?",
+        "answers": [
+            "300"
+        ]
+    },
+    {
+        "query_id": "qa_17_2425",
+        "question": "What division does FK Haugesund play in now?",
+        "answers": [
+            "Tier"
+        ]
+    },
+    {
+        "query_id": "qa_17_409",
+        "question": "How many families lived in the village of Shahrak-e Cham Kuku in the Central District of Khonj County, Fars Province, Iran at the 2006 census?",
+        "answers": [
+            "57"
+        ]
+    },
+    {
+        "query_id": "qa_17_5922",
+        "question": "Why have economists characterized the NCAA as a cartel?",
+        "answers": [
+            "Restrictive practices."
+        ]
+    },
+    {
+        "query_id": "qa_17_3689",
+        "question": "Q3: What is the description of the landscape of Pohorje?",
+        "answers": [
+            "Mostly wooded"
+        ]
+    },
+    {
+        "query_id": "qa_17_2353",
+        "question": "What modes of transportation are significant in Welland's development?",
+        "answers": [
+            "Welland Canal, Welland River, railways from Buffalo to Toronto, Southwestern Ontario"
+        ]
+    },
+    {
+        "query_id": "qa_17_6828",
+        "question": "What is the economic status of North Rhine-Westphalia compared to other German states in terms of GDP?",
+        "answers": [
+            "Largest by GDP"
+        ]
+    },
+    {
+        "query_id": "qa_17_5938",
+        "question": "What city is commonly recognized as India's cultural center?",
+        "answers": [
+            "Kolkata is India's cultural capital."
+        ]
+    },
+    {
+        "query_id": "qa_17_5147",
+        "question": "What policies of the central government have many economists and social scientists claimed is a direct result of this?",
+        "answers": [
+            "Many blame freight equalisation policy."
+        ]
+    },
+    {
+        "query_id": "qa_17_6762",
+        "question": "What city is the capital of New South Wales and the most populous city in Australia?",
+        "answers": [
+            "Sydney"
+        ]
+    },
+    {
+        "query_id": "qa_17_1962",
+        "question": "What is the most popular sport within Ferencv\u00e1rosi Torna Club?",
+        "answers": [
+            "Men's football team"
+        ]
+    },
+    {
+        "query_id": "qa_17_6001",
+        "question": "Which departments border Manche to the east?",
+        "answers": [
+            "Orne, Calvados"
+        ]
+    },
+    {
+        "query_id": "qa_17_17",
+        "question": "What is the United States Department of the Navy?",
+        "answers": [
+            "The United States Department of the Navy (DON) is one of the three military departments within the Department of Defense of the United States of America."
+        ]
+    },
+    {
+        "query_id": "qa_17_6546",
+        "question": "Which parts of which former states does Rhineland-Palatinate come from?",
+        "answers": [
+            "Prussia (part of its Rhineland and Nassau provinces), Hesse (Rhenish Hesse), its former outlying Palatinate kreis"
+        ]
+    },
+    {
+        "query_id": "qa_17_1740",
+        "question": "What are the Governorates of Saudi Arabia?",
+        "answers": [
+            "The Governorates of Saudi Arabia, officially the Governorates of the Kingdom of Saudi Arabia, are the 136 governorates (second-level administrative division) that form the 13 emirates of Saudi Arabia. They are classified into three categories: Capital (am\u0101nah), Category A, and Category B."
+        ]
+    },
+    {
+        "query_id": "qa_17_763",
+        "question": "Who is the capital city of the district that was established in Chaypareh County after the 2006 National Census?",
+        "answers": [
+            "Capital city of Chaypareh Dist., est. After 2006 NC, Chaypareh Co., West Az. Prov., Iran: Qarah Zia od Din"
+        ]
+    },
+    {
+        "query_id": "qa_17_1056",
+        "question": "What county is Mariestad in?",
+        "answers": [
+            "Mariiestad is in V\u00e4stra G\u00f6taland County, Sweden."
+        ]
+    },
+    {
+        "query_id": "qa_17_3795",
+        "question": "Where is Valais located?",
+        "answers": [
+            "Valais is situated in the southwestern part of Switzerland."
+        ]
+    },
+    {
+        "query_id": "qa_17_749",
+        "question": "What type of courts did the 2009 Ko\u0161ice Open use?",
+        "answers": [
+            "Outdoor red clay courts"
+        ]
+    },
+    {
+        "query_id": "qa_17_6446",
+        "question": "What was the name of the state in India that Kerala was a part of after independence?",
+        "answers": [
+            "Madras State"
+        ]
+    },
+    {
+        "query_id": "qa_17_2859",
+        "question": "What is the name of the county in West Azerbaijan province, Iran?",
+        "answers": [
+            "Maku County (Persian: \u0634\u0647\u0631\u0633\u062a\u0627\u0646 \u0645\u0627\u06a9\u0648)"
+        ]
+    },
+    {
+        "query_id": "qa_17_2186",
+        "question": "What is the size of Stara Zagora province in square kilometers and square miles?",
+        "answers": [
+            "5,151.1 km2 (1,988.9 sq mi)"
+        ]
+    },
+    {
+        "query_id": "qa_17_2392",
+        "question": "When was the University of Pisa founded?",
+        "answers": [
+            "1343"
+        ]
+    },
+    {
+        "query_id": "qa_17_265",
+        "question": "How many rounds were in the 1997 Australian GT Production Car Championship series?",
+        "answers": [
+            "8 rounds"
+        ]
+    },
+    {
+        "query_id": "qa_17_7067",
+        "question": "How did the Church of Norway play a role in Norwegian history?",
+        "answers": [
+            "Historically, the Church of Norway was one of the main instruments of royal power and official authority, and an important part of the state administration; local government was based on the church's parishes with significant official responsibility held by the parish priest"
+        ]
+    },
+    {
+        "query_id": "qa_17_3181",
+        "question": "Which oblasts does Volgograd Oblast border in the southwest, northwest, and north?",
+        "answers": [
+            "Rostov Oblast, Voronezh Oblast, Saratov Oblast"
+        ]
+    },
+    {
+        "query_id": "qa_17_2886",
+        "question": "How many buildings in the historic center of a city in France are protected as historic monuments?",
+        "answers": [
+            "Over 90 (in Rennes)"
+        ]
+    },
+    {
+        "query_id": "qa_17_4234",
+        "question": "How many residents does Brooklyn have as of the 2020 United States census?",
+        "answers": [
+            "2,736,074"
+        ]
+    },
+    {
+        "query_id": "qa_17_784",
+        "question": "What is the name of the defunct administrative district in the former Rift Valley Province of Kenya?",
+        "answers": [
+            "Marakwet District"
+        ]
+    },
+    {
+        "query_id": "qa_17_1040",
+        "question": "What is the name of the football tournament that France won in 2013?",
+        "answers": [
+            "FIFA U-20 World Cup"
+        ]
+    },
+    {
+        "query_id": "qa_17_1175",
+        "question": "What is the name of the dam that created Williston Lake?",
+        "answers": [
+            "W. A. C. Bennett Dam (created Williston Lake)"
+        ]
+    },
+    {
+        "query_id": "qa_17_1996",
+        "question": "Are there many shops in Nyn\u00e4shamn, and what kind of trade do they cater to?",
+        "answers": [
+            "Limited local trade shops."
+        ]
+    },
+    {
+        "query_id": "qa_17_5422",
+        "question": "What role did Maryland play in the American Revolution?",
+        "answers": [
+            "Maryland was an active participant in the events leading up to the American Revolution, and by 1776, its delegates signed the Declaration of Independence. Many of its citizens subsequently played key political and military roles in the war."
+        ]
+    },
+    {
+        "query_id": "qa_17_6314",
+        "question": "What is the name of the elected body that administers each department in France?",
+        "answers": [
+            "council: conseil d\u00e9partemental"
+        ]
+    },
+    {
+        "query_id": "qa_17_6055",
+        "question": "How has Andalusia's history and culture been influenced?",
+        "answers": [
+            "Tartessians, Iberians, Phoenicians, Carthaginians, Greeks, Romans, Vandals, Visigoths, Byzantines, Berbers, Arabs, Jews, Romanis, and Castilians"
+        ]
+    },
+    {
+        "query_id": "qa_17_5732",
+        "question": "What group expanded from the middle Lena along the Vilyuy River to the north and the east, displacing other indigenous groups?",
+        "answers": [
+            "Yakuts"
+        ]
+    },
+    {
+        "query_id": "qa_17_4250",
+        "question": "What is the area of Hanoi in square kilometers and square miles?",
+        "answers": [
+            "3,359.82 km2 (1,297.23 sq mi)"
+        ]
+    },
+    {
+        "query_id": "qa_17_209",
+        "question": "What is the name of the former canton located within the commune of Marseille in Bouches-du-Rh\u00f4ne department?",
+        "answers": [
+            "Saint-Marcel"
+        ]
+    },
+    {
+        "query_id": "qa_17_6449",
+        "question": "What percentage of Kerala's GSVA comes from the tertiary sector?",
+        "answers": [
+            "Around 65% of Kerala's GSVA comes from the tertiary sector."
+        ]
+    },
+    {
+        "query_id": "qa_17_1363",
+        "question": "What is Northwestern University affiliated with?",
+        "answers": [
+            "Initially affiliated with the Methodist Episcopal Church but later became non-sectarian."
+        ]
+    },
+    {
+        "query_id": "qa_17_1668",
+        "question": "What category is the stadium in Dublin, Ireland in terms of UEFA?",
+        "answers": [
+            "UEFA Category 4 Stadium"
+        ]
+    }
+]

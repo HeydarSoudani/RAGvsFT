@@ -247,7 +247,7 @@ def load_training_args(args):
         evaluation_strategy="epoch",
         logging_strategy="epoch",
         save_strategy="epoch",
-        save_total_limit=5,
+        save_total_limit=3,
         report_to="wandb",
         push_to_hub=False,
         hub_strategy="every_save",
@@ -294,8 +294,8 @@ def main(args):
     )
     
     print("Fine-tuning ....")
-    trainer.train()
-    # trainer.train(resume_from_checkpoint=True)
+    # trainer.train()
+    trainer.train(resume_from_checkpoint=True)
     model.save_pretrained(args.save_model_dir)
     model.push_to_hub(args.repo_name, token=True)
     print("Fine-tuning is done.")

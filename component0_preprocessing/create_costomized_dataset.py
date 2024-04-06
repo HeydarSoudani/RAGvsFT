@@ -33,7 +33,7 @@ dataset_name = 'popQA' # [popQA, witQA, EQ]
 if dataset_name == 'popQA':
     tsv_file_path = "data/dataset/popQA/popQA.tsv"
     split_points = [2, 3, 4, 5]
-    num_relations = 16
+    num_relations = 1
     relation_ids = relation_ids = ['22', '91', '97', '106', '164', '182', '218', '257', '292', '422', '472', '484', '526', '533', '560', '639']
     RELATIONS = {
         '22': 'Occupation',
@@ -1160,7 +1160,7 @@ def main(args):
     # add_empty_entities()
     
     ### ==== Step 3: Creating train & dev & qrels-train files =========
-    idx = 13
+    idx = 1
     relation_id = relation_ids[idx]
     print("Dataset: {}, Idx: {}, Relation Id: {}".format(dataset_name, idx, relation_id))
     # create_train_and_dev_files_pipeline(args, relation_id=relation_id) # T5-based model

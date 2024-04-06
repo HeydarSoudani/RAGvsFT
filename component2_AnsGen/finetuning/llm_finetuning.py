@@ -213,9 +213,9 @@ def load_training_args(args):
         evaluation_strategy="epoch",
         logging_strategy="epoch",
         save_strategy="epoch",
-        save_total_limit=2,
         fp16=args.fp16,
-        bf16=args.fp16,
+        bf16=args.bf16,
+        save_total_limit=3,
         
         report_to="wandb",
         push_to_hub=False,
