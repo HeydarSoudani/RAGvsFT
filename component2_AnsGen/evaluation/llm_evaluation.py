@@ -13,10 +13,8 @@ from tqdm import tqdm
 logging.basicConfig(level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     datefmt='%m/%d/%Y %I:%M:%S %p',
-    handlers=[
-        # logging.FileHandler("app.log"),
-        logging.StreamHandler()
-    ])
+    handlers=[logging.StreamHandler()]
+)
 os.environ["WANDB_MODE"] = "offline"
 
 print("Available GPUs:", torch.cuda.device_count())
@@ -188,7 +186,6 @@ def main(args):
         Dataset: {args.dataset_name}
         PEFT: {args.with_peft}
         RAG: {args.with_rag}
-        Few-shot input: {args.with_fs}
         Retrieval method {args.retrieval_method}
         Output file's prefix: {file_prefix}
         """
@@ -376,7 +373,6 @@ if __name__ == "__main__":
     parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--output_file_pre_prefix", type=str)
     parser.add_argument("--with_peft", type=str2bool, default=False)
-    parser.add_argument("--with_fs", type=str2bool, default=False)
     parser.add_argument("--with_rag", type=str2bool, default=False)
     parser.add_argument("--retrieval_method", type=str)
     

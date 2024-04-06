@@ -13,12 +13,12 @@ module load Python/3.10.4-GCCcore-11.3.0
 srun $HOME/RAGvsFT/component2_AnsGen/finetuning/llm_finetuning.py \
     --model_name_or_path "meta-llama/Llama-2-7b-chat-hf" \
     --llm_model_name "llama2" \
-    --dataset_name "EQ" \
+    --dataset_name "witQA" \
     --generation_method "prompting" \
     --epochs 4 \
     --lr 0.0002 \
     --with_peft True \
-    --version 3
+    --version 4
 
 
 # Model name: [

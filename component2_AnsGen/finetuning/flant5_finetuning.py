@@ -12,17 +12,13 @@ import os, json, argparse
 import numpy as np
 import logging
 import random
-# import nltk
 
 logging.basicConfig(level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     datefmt='%m/%d/%Y %I:%M:%S %p',
-    handlers=[
-        # logging.FileHandler("app.log"),
-        logging.StreamHandler()
-    ])
+    handlers=[logging.StreamHandler()]
+)
 os.environ["WANDB_MODE"] = "offline"
-# nltk.download("punkt", quiet=True)
 
 print("Available GPUs:", torch.cuda.device_count())
 prompt_prefix = "Answer the question : "
@@ -294,8 +290,8 @@ def main(args):
     )
     
     print("Fine-tuning ....")
-    # trainer.train()
-    trainer.train(resume_from_checkpoint=True)
+    trainer.train()
+    # trainer.train(resume_from_checkpoint=True)
     model.save_pretrained(args.save_model_dir)
     model.push_to_hub(args.repo_name, token=True)
     print("Fine-tuning is done.")
