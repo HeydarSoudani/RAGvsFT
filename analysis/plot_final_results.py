@@ -66,6 +66,35 @@ RELATIONS = {
 #     '3301': 'broadcast by',
 #     '4647': 'loc of perf.' # location of first performance
 # }
+RELATIONS = {
+    '17': 'country loc. in', # country located in
+    '19': 'birth place',
+    '20': 'death place',
+    '26': 'spouse',
+    '30': 'continent',
+    '36': 'capital',
+    '40': 'child',
+    '50': 'author',
+    '69': 'edu place', # education place
+    '106': 'occupation',
+    '112': 'founder',
+    '127': 'owner',
+    '131': 'location',
+    '136': 'music genre',
+    '159': 'headquarters',
+    '170': 'creator',
+    '175': 'performer',
+    '176': 'prod. company', # producer company
+    '264': 'music label',
+    '276': 'location',
+    '407': 'lang. wr. in', # language written in
+    '413': 'fame reason',
+    '495': 'cr. country', # creation country
+    '740': 'founding place',
+    '800': 'pos. played' # position played
+}
+
+
 
 # rel_pop_score = {
 #     '257': 0.6138864810588756,
@@ -420,7 +449,7 @@ def calculated_accuracy(objects):
 def icl_results(split_points):
     data_per_relation = {}
     accuracies = {}    
-    data_dir = "component0_preprocessing/generated_data/popQA_costomized/results"
+    data_dir = "component0_preprocessing/generated_data/EQ_costomized/results"
     
     # =======================
     # === For FlanT5-small ==
@@ -523,14 +552,14 @@ def icl_results(split_points):
     
     # =======================
     # === For Llama2 ========
-    # model_name = "Llama2"
-    # filenames = [
+    model_name = "Llama2"
+    filenames = [
         
-    #     # {"title": "NoFT_NoRAG", "filename": "all.meta-llama.bf_norag_full_results.jsonl"},    
-    #     {"title": "NoFT_IdealRAG", "filename": "witQA_llama2_bf_rag_ideal_full_results.jsonl"},
-    #     # {"title": "FT_NoRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v6.af_norag_peft_results.jsonl"},    
-    #     # {"title": "FT_IdealRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_rag_ideal_peft_results.jsonl"},  
-    # ] 
+        # {"title": "NoFT_NoRAG", "filename": "all.meta-llama.bf_norag_full_results.jsonl"},    
+        {"title": "NoFT_IdealRAG", "filename": "EQ_llama2_bf_rag_ideal_full_results.jsonl"},
+        # {"title": "FT_NoRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v6.af_norag_peft_results.jsonl"},    
+        # {"title": "FT_IdealRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_rag_ideal_peft_results.jsonl"},  
+    ] 
     
     # =======================
     # === For Mistral =======
@@ -545,14 +574,14 @@ def icl_results(split_points):
     
     # =======================
     # === For Mistral =======
-    model_name = "Zephyr"
-    filenames = [
+    # model_name = "Zephyr"
+    # filenames = [
         
-        # {"title": "NoFT_NoRAG", "filename": "all.HuggingFaceH4.bf_norag_full_results.jsonl"},    
-        {"title": "NoFT_IdealRAG", "filename": "popQA_zephyr_bf_rag_ideal_full_results.jsonl"},
-        # {"title": "FT_NoRAG", "filename": "all.zephyr-7b-beta_peft_v5.af_norag_peft_results.jsonl"},    
-        # {"title": "FT_IdealRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_rag_ideal_peft_results.jsonl"},  
-    ] 
+    #     # {"title": "NoFT_NoRAG", "filename": "all.HuggingFaceH4.bf_norag_full_results.jsonl"},    
+    #     {"title": "NoFT_IdealRAG", "filename": "popQA_zephyr_bf_rag_ideal_full_results.jsonl"},
+    #     # {"title": "FT_NoRAG", "filename": "all.zephyr-7b-beta_peft_v5.af_norag_peft_results.jsonl"},    
+    #     # {"title": "FT_IdealRAG", "filename": "all.Llama-2-7b-chat-hf_peft_v1.af_rag_ideal_peft_results.jsonl"},  
+    # ] 
     
     
     print(f"Model: {model_name}")
@@ -741,7 +770,8 @@ if __name__ == "__main__":
     
     # split_points = [0.5, 1, 2, 3]
     # split_points = [0.25, 0.4, 0.6, 2]
-    split_points = [2, 3, 4, 5]
+    # split_points = [2, 3, 4, 5]
+    split_points = [3, 4, 5, 6]
     # plot_bucket_num(split_points)
     
     icl_results(split_points)
