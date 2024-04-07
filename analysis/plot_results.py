@@ -7,6 +7,7 @@ import json
 import os
 
 # === Datasets variables ========================
+dataset_name = 'EQ' # [popQA, witQA, EQ]
 retrieval_models = ["bm25", "contriever", "rerank", "dpr", "ideal"]
 gen_models = [
     "flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl",
@@ -16,7 +17,6 @@ gen_models = [
     "mistral",
     "zephyr"
 ]
-dataset_name = 'popQA' # [popQA, witQA, EQ]
 dataset_dir = 'component0_preprocessing/generated_data/{}_costomized'.format(dataset_name)
 test_dir = f"{dataset_dir}/test"
 
@@ -312,33 +312,29 @@ def plot_retriever_results_per_buckets():
     relations = sorted(set(combined_df['RelationID']), key=lambda x: (x.isdigit(), int(x) if x.isdigit() else x))
     models = combined_df['Model'].unique()
     
-    # ncols = 4
-    # fig, axes = plt.subplots(nrows=5, ncols=ncols, figsize=(20, 10), constrained_layout=True)
-    
     if dataset_name == 'popQA':
         ncols = 4
-        nrows = 5
-        fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=(15, 8))
+        coref = 1.9
+    elif dataset_name == 'witQA':
+        ncols = 6
+        coref = 1.4
     elif dataset_name == 'EQ':
         ncols = 5
-        nrows = 6
-        fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=(12, 8))
-    elif dataset_name == 'witQA':
-        ncols = 5
-        nrows = 8
-        fig, axes = plt.subplots(nrows=nrows, ncols=ncols, figsize=(12, 8))
+        coref = 1.5  
+    nrows = math.ceil(num_relations / ncols) + 1
+    fig, axes = plt.subplots(nrows, ncols, figsize=(15, nrows * coref))
         
     fig.delaxes(axes[0,1])
     fig.delaxes(axes[0,2])
-    fig.delaxes(axes[0,3])
-    # axes[0,3].set_visible(False)
     if dataset_name == 'witQA':
+        fig.delaxes(axes[0,3])
         fig.delaxes(axes[0,4])
-        fig.delaxes(axes[7,2])
-        fig.delaxes(axes[7,3])
-        fig.delaxes(axes[7,4])
+        fig.delaxes(axes[6,2])
+        fig.delaxes(axes[6,3])
+        fig.delaxes(axes[6,4])
+        fig.delaxes(axes[6,5])
     if dataset_name == 'EQ':
-        fig.delaxes(axes[0,4])
+        fig.delaxes(axes[0,3])
     
     custom_xticks = ['b1', 'b2', 'b3', 'b4', 'b5']
     
@@ -349,7 +345,6 @@ def plot_retriever_results_per_buckets():
             row = ((idx-1) // ncols) +1
             col = (idx-1) % ncols
             ax = axes[row, col]
-        
         
         for model in models:
             model_df = combined_df[(combined_df['Model'] == model) & (combined_df['RelationID'] == relation)]
@@ -398,7 +393,7 @@ def calculated_accuracy(objects):
 def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=False):
     
     ### ==== Define Variables =============
-    model_name = gen_models[7] # []
+    model_name = gen_models[1] # []
     base_path  = "component0_preprocessing/generated_data"
     retrieval_model = 'ideal'
     result_files = [
@@ -408,9 +403,10 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
         {"title": f"FT/{retrieval_model}RAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
     ]
     
-    
     ### ==== Prepare data for plotting ====
     print(f"Model: {model_name}")
+    print(f"Dataset: {dataset_name}")
+    print('\n')
     
     data_per_relation = {}
     accuracies = {} 
@@ -460,93 +456,125 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
             rel_name = RELATIONS[relation_id] if relation_id != 'all' else 'all'
             print(f"Relation ID: {relation_id}, {rel_name} -> {value}")
         print('\n')
+
     
+    ### ==== Plotting configurations ====
+    palette = plt.get_cmap('Set2')
+    title_font = {
+        # 'family': 'serif',
+        'color':  'black',
+        'weight': 'bold',
+        'size': 13,
+    }
+    font = {
+        'color':  'black',
+        'weight': 'normal',
+        'size': 14,
+    }
     
     ### === Plotting per relation ===
     if per_relation:
-        title_font = {
-            # 'family': 'serif',
-            'color':  'black',
-            'weight': 'bold',
-            'size': 13,
-        }
+        if dataset_name == 'popQA':
+            figsize = (15, 8)
+        elif dataset_name == 'witQA':
+            figsize = (20, 8)
+        elif dataset_name == 'EQ':
+            figsize = (18, 8)
         
         num_bars = len(result_files) # Number of bars per group
         ind = np.arange(len(ordered_accuracies[result_files[0]["title"]])) # Position of bars on x-axis
         width = 0.11 # Width of a bar
-        fig, ax = plt.subplots(figsize=(19, 5))
-        # plt.figure(figsize=(18, 5)) 
+        fig, ax = plt.subplots(figsize=figsize)
         
         for i in range(num_bars):
             overall_scores = [value['overall'] for value in ordered_accuracies[result_files[i]["title"]].values()]
-            ax.bar(ind + i * width, overall_scores, width, label=result_files[i]["title"])
+            ax.bar(ind + i * width, overall_scores, width, label=result_files[i]["title"], color=palette(i))
         
-        ax.set_xlabel('Relation ID')
+        ax.set_title(f"{model_name}", fontdict=title_font)
+        ax.set_xlabel('Relation')
         ax.set_ylabel('Accuracy')
-        ax.set_title(f"C) {model_name}", fontdict=title_font)
-
+        
         relation_names = [RELATIONS[item] if item != 'all' else 'all' for item in list(ordered_accuracies[result_files[0]["title"]].keys())]
         ax.set_xticks(ind + width * (num_bars - 1) / 2)
         ax.set_xticklabels(relation_names)
-
         ax.legend(ncol=2)
         plt.ylim(0, 1.0)
         plt.xticks(rotation=25)
+        
+        vline_position = 0.5
+        plt.axvline(x=vline_position, color='grey', linestyle='--')
+        
         # plt.savefig(f"per_rel_{model_name}.pdf", format='pdf', dpi=1000)
         plt.show()
     
     ### === Plotting per bucket =====
     if per_bucket:
-        num_plots = len(ordered_accuracies[title])
-        cols = 4
-        rows = (num_plots + cols - 1) // cols
-
-        fig, axes = plt.subplots(rows, cols, figsize=(15, rows * 2))
-        fig.delaxes(axes[0,1])  
-        fig.delaxes(axes[0,2])  
-        fig.delaxes(axes[0,3]) 
+        
+        if dataset_name == 'popQA':
+            ncols = 4
+            coref = 1.9
+        elif dataset_name == 'witQA':
+            ncols = 6
+            coref = 1.4
+        elif dataset_name == 'EQ':
+            ncols = 5
+            coref = 1.5
+        nrows = math.ceil(num_relations / ncols) + 1
+        fig, axes = plt.subplots(nrows, ncols, figsize=(15, nrows * coref))
+        
+        fig.delaxes(axes[0,1])
+        fig.delaxes(axes[0,2])
+        if dataset_name == 'witQA':
+            fig.delaxes(axes[0,3])
+            fig.delaxes(axes[0,4])
+            fig.delaxes(axes[6,2])
+            fig.delaxes(axes[6,3])
+            fig.delaxes(axes[6,4])
+            fig.delaxes(axes[6,5])
+        if dataset_name == 'EQ':
+            fig.delaxes(axes[0,3])
+        
+        custom_xticks = ['b1', 'b2', 'b3', 'b4', 'b5']
         
         for _title, _accuracies in ordered_accuracies.items():
             for idx, (key, value) in enumerate(_accuracies.items()):
                 
                 if idx == 0:
-                    row = 0
-                    col = 0
+                    ax = axes[0, 0]
                 else:
-                    row = (idx+3) // 4
-                    col = (idx+3) % 4
-                ax = axes[row, col]
+                    row = (idx+ncols-1) // ncols
+                    col = (idx+ncols-1) % ncols
+                    ax = axes[row, col]
                 
                 if 'per_bucket' in value:  # Check if 'per_bucket' exists to avoid errors
                     buckets = list(value['per_bucket'].keys())
                     scores = list(value['per_bucket'].values())
-                    if idx == 0:
-                        ax.plot(buckets, scores,  label=_title)
-                    else:
-                        ax.plot(buckets, scores, )
+                    ax.plot(buckets, scores, label=_title, marker='') # color=palette(idx), linewidth=2.5
+                    
                     rel_name = RELATIONS[key] if key != 'all' else 'all'
                     ax.set_title(f"{rel_name}")
-                    ax.set_xlabel("")
-                    ax.set_ylabel("Accuracy")
-                    ax.set_ylim(0, 1)
+                    ax.set_ylim(0, 1.1)
+                    if idx == 0:
+                        ax.set_ylabel("Accuracy") 
+                        ax.set_xticks(range(0, len(custom_xticks)))
+                        ax.set_xticklabels(custom_xticks) 
+                    else:
+                        ax.set_xlabel("")
+                        ax.set_ylabel('')
+                        ax.tick_params(axis='x', which='both', bottom=False, top=False, labelbottom=False)  # Remove x-ticks for subplots other than the first
 
-        fig.legend(loc='upper right')
+        # fig.legend(loc='upper right')
+        axes_flat = axes.flatten()
+        legend_ax = axes_flat[ncols-1]  # Adjust based on desired legend position
+        handles, labels = axes_flat[0].get_legend_handles_labels()
+        legend_ax.legend(handles, labels, title='Model', loc='center')
+        legend_ax.axis('off')  # Turn off axis lines and labels
+        
         plt.tight_layout()
         plt.show()
         
     ### === Only plot "all", per bucket =====
     if only_all:
-        font = {
-            'color':  'black',
-            'weight': 'normal',
-            'size': 14,
-        }
-        title_font = {
-            'color':  'black',
-            'weight': 'bold',
-            'size': 13,
-        }
-        palette = plt.get_cmap('Set2')
         plt.figure(figsize=(8, 5)) 
         
         for i, (method, _accuracies) in enumerate(ordered_accuracies.items()):
@@ -584,8 +612,8 @@ def main():
     
     # == 3) Plot QA models output
     # plot_answer_generator_results(per_relation=True, per_bucket=False, only_all=False)
-    # plot_answer_generator_results(per_relation=False, per_bucket=True, only_all=False)
-    plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
+    plot_answer_generator_results(per_relation=False, per_bucket=True, only_all=False)
+    # plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
     
     # == 4) Significance test
     
