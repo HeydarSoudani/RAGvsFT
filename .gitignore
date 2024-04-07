@@ -116,13 +116,15 @@ venv.bak/
 # mine
 wandb/
 saved/
-analysis/
+
 script_logging/
 HeydarS
 
 data/dataset
 archive
 models
+
+analysis/archive
 
 component0_preprocessing/archive
 # component0_preprocessing/generated_data/popQA_costomized/results
