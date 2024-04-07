@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --nodes=1
 #SBATCH --ntasks=1
-#SBATCH --gpus=1
+#SBATCH --gpus=2
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
 #SBATCH --time=11:00:00
@@ -12,13 +12,13 @@ module load 2022
 module load Python/3.10.4-GCCcore-11.3.0
 
 srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
-    --model_name_or_path "$HOME/RAGvsFT/component2_AnsGen/models/witQA/llama2_witQA_peft_v4/checkpoint-9064" \
-    --llm_model_name "llama2" \
+    --model_name_or_path "google/flan-t5-xxl" \
+    --llm_model_name "flant5" \
     --dataset_name "witQA" \
-    --output_file_pre_prefix "af" \
-    --with_peft True \
-    --with_rag True \
-    --retrieval_method "ideal"
+    --output_file_pre_prefix "xxl_bf" \
+    --with_peft False \
+    --with_rag False \
+    --retrieval_method ""
 
 
 # output_file_pre_prefix -> 
