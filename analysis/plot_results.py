@@ -404,7 +404,7 @@ def calculated_accuracy(objects):
 def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=False):
     
     ### ==== Define Variables =============
-    model_name = gen_models[3]
+    model_name = gen_models[7]
     base_path  = "component0_preprocessing/generated_data"
     retrieval_model = 'ideal'
     result_files = [
