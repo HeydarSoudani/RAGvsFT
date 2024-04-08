@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=10:00:00
+#SBATCH --time=20:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -12,14 +12,14 @@ module load 2022
 module load Python/3.10.4-GCCcore-11.3.0
 
 srun $HOME/RAGvsFT/component2_AnsGen/finetuning/flant5_finetuning.py \
-    --model_name_or_path "google/flan-t5-xl" \
-    --llm_model_name "flant5_xl" \
-    --dataset_name "witQA" \
+    --model_name_or_path "google/flan-t5-xxl" \
+    --llm_model_name "flant5_xxl" \
+    --dataset_name "EQ" \
     --generation_method "prompting" \
     --epochs 5 \
     --lr 0.0002 \
     --with_peft True \
-    --version 13
+    --version 17
 
 # Model name: [
     # google/flan-t5-small

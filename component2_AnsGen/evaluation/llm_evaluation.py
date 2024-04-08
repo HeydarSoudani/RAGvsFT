@@ -137,14 +137,15 @@ def load_model(args):
                 low_cpu_mem_usage=True,
                 return_dict=True,
                 torch_dtype=torch.float16,
-                # device_map={"":0}, # Load the entire model on the GPU 0
-                device_map='auto',
+                device_map={"":0}, # Load the entire model on the GPU 0
+                # device_map='auto',
                 trust_remote_code=True
             )
         elif args.llm_model_name == "flant5":
             model = AutoModelForSeq2SeqLM.from_pretrained(
                 args.model_name_or_path,
-                device_map={"": 0}
+                # load_in_8bit=True,
+                # device_map={"": 0}
                 # device_map="auto"
             )
             
@@ -187,7 +188,7 @@ def main(args):
         Dataset: {args.dataset_name}
         PEFT: {args.with_peft}
         RAG: {args.with_rag}
-        Retrieval method {args.retrieval_method}
+        Retrieval method: {args.retrieval_method}
         Output file's prefix: {file_prefix}
         """
     )
@@ -197,14 +198,12 @@ def main(args):
     # 1) Llama2 & tiny_llama & Mistral
     if args.llm_model_name in ["llama2", "tiny_llama", "mistral"]:
         prompt_template_w_context = """
-            <s>You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-            [INST]\n
+            <s>[INST] You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             Context: {context}\n
             Question: {question}\n
             [/INST]"""
         prompt_template_wo_context = """
-            <s>You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-            [INST]\n
+            <s>[INST] You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             Question: {question}\n
             [/INST]"""
 
@@ -304,9 +303,15 @@ def main(args):
             else:
                 prompt = prompt_template_wo_context.format(question=query)                
                     
-            
-            result = pipe(prompt)[0]['generated_text']
-            
+            n_max_trial = 5
+            for i in range(n_max_trial):
+                try:
+                    result = pipe(prompt)[0]['generated_text']
+                    break
+                except Exception as e:
+                    print(f"Try #{i+1} for Query: {query_id}")
+                    print('Error message:', e)
+                    
             # print("pr: {}".format(prompt))
             # print("rs: {}".format(result))
             

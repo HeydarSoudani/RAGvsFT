@@ -128,25 +128,17 @@ def load_dataset_qa(test_files):
 
 def load_model(args):
     if args.with_peft:
-        bnb_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_quant_type="nf4",
-            bnb_4bit_compute_dtype=torch.float16,
-        )
-    
-        model = AutoModelForCausalLM.from_pretrained(
-            args.model_name_or_path,
-            quantization_config=bnb_config,
-            device_map={"": 0}
-        )
-        model.config.use_cache = False
-        model = prepare_model_for_kbit_training(model)
-    
+        
         lora_alpha = 16
         lora_dropout = 0.1
         lora_r = 64
         
         if args.llm_model_name == 'llama2':
+            bnb_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_quant_type="nf4",
+                bnb_4bit_compute_dtype=torch.float16,
+            )
             peft_config = LoraConfig(
                 lora_alpha=lora_alpha,
                 lora_dropout=lora_dropout,
@@ -155,6 +147,12 @@ def load_model(args):
                 task_type="CAUSAL_LM"
             )
         elif args.llm_model_name == 'mistral':
+            bnb_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_quant_type="nf4",
+                bnb_4bit_compute_dtype=torch.float16,
+            )
+            
             peft_config = LoraConfig(
                 lora_alpha=lora_alpha,
                 lora_dropout=lora_dropout,
@@ -172,8 +170,39 @@ def load_model(args):
                 bias="none",
                 task_type="CAUSAL_LM",
             )
-        elif args.llm_model_name in ["zephyr", "tiny_llama", "MiniCPM"]:
+        
+        elif args.llm_model_name in "zephyr":
+            bnb_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_quant_type="nf4",
+                bnb_4bit_compute_dtype=torch.float16,
+                bnb_4bit_use_double_quant= False,
+            )
+            
+            peft_config = LoraConfig(
+                lora_alpha=lora_alpha,
+                lora_dropout=lora_dropout,
+                r=lora_r,
+                target_modules=['up_proj', 'base_layer', 'down_proj'],
+                bias="none",
+                task_type="CAUSAL_LM"
+                
+            )
+            
+        elif args.llm_model_name in ["tiny_llama", "MiniCPM"]:
             pass
+        
+        
+        model = AutoModelForCausalLM.from_pretrained(
+            args.model_name_or_path,
+            quantization_config=bnb_config,
+            # device_map={"": 0}
+            torch_dtype=torch.bfloat16,
+            device_map="auto",
+            trust_remote_code=True,
+        )
+        model.config.use_cache = False
+        model = prepare_model_for_kbit_training(model)
                
     else:
         model = AutoModelForCausalLM.from_pretrained(
@@ -194,6 +223,11 @@ def load_model(args):
     tokenizer.pad_token = tokenizer.eos_token
     if args.llm_model_name == 'mistral':
         tokenizer.padding_side = "right"
+    
+    if args.llm_model_name == 'zephyr':
+        tokenizer.padding_side = 'right'
+        tokenizer.add_eos_token = True
+        tokenizer.add_bos_token, tokenizer.add_eos_token
     
     return model, tokenizer, peft_config
 
@@ -241,10 +275,20 @@ def main(args):
     
     # == Parameters per model ==============================
     if args.llm_model_name == 'llama2':
+        args.epochs = 4
+        args.lr = 2e-4
         args.batch_size = 32
         args.fp16 = True
         args.bf16 = False
-    elif args.llm_model_name in ['mistral', 'zephyr']:
+    elif args.llm_model_name == 'mistral':
+        args.epochs = 4
+        args.lr = 2e-4
+        args.batch_size = 4
+        args.fp16=False
+        args.bf16=False
+    elif args.llm_model_name == 'zephyr':
+        args.epochs = 1
+        args.lr = 2e-4
         args.batch_size = 4
         args.fp16=False
         args.bf16=False
@@ -253,20 +297,21 @@ def main(args):
     
     if args.llm_model_name in ["llama2", "tiny_llama", "mistral"]:
         args.prompt_template = """
-            <s>You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-            [INST]\n
+            <s>[INST]You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             Question: {question}\n
             [/INST]\n
             Answer: {answer}
             </s>"""
     elif args.llm_model_name == 'zephyr':
         args.prompt_template = """
-            <|system|>You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-            <|user|>\n 
-            Question: {question}\n
-            <|assistant|>\n
-            Answer: {answer}
+            <|system|>
+            You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.</s>
+            <|user|>
+            Question: {question}</s>
+            <|assistant|>
+            Answer: {answer}            
             """
+            
     elif args.llm_model_name == "MiniCPM":
         args.prompt_template = """
         <User> You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
@@ -318,8 +363,6 @@ if __name__ == "__main__":
     parser.add_argument("--llm_model_name", type=str, required=True)
     parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--generation_method", type=str)
-    parser.add_argument("--epochs", default=1, type=int)
-    parser.add_argument("--lr", default=2e-4, type=float)
     parser.add_argument("--with_peft", type=str2bool, default=False)
     parser.add_argument("--version", default=1, type=int)
     
