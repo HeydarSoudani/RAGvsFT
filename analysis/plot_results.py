@@ -8,7 +8,7 @@ import os
 
 # === Datasets variables ========================
 dataset_name = 'EQ' # [popQA, witQA, EQ]
-retrieval_models = ["bm25", "contriever", "rerank", "dpr", "ideal"]
+retrieval_models = ["bm25", "contriever", "rerank", "dpr"]
 gen_models = [
     "flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl",
     "tiny_llama",
@@ -93,6 +93,7 @@ elif dataset_name == 'EQ':
     num_relations = 25
     relation_ids = ['17', '19', '20', '26', '30', '36', '40', '50', '69', '106', '112', '127', '131', '136', '159', '170', '175', '176', '264', '276', '407', '413', '495', '740', '800']
     split_points = [3, 4, 5, 6]
+    # split_points = [3, 3.7, 4.4, 5]
     RELATIONS = {
         '17': 'country loc. in', # country located in
         '19': 'birth place',
@@ -296,7 +297,7 @@ def plot_retriever_results_per_relation():
     plt.axvline(x=vline_position, color='grey', linestyle='--')
     plt.show()
 
-def plot_retriever_results_per_buckets():
+def plot_retriever_results_per_buckets(only_all=False):
     
     data_frames = []
     for ret_model in retrieval_models:
@@ -312,76 +313,86 @@ def plot_retriever_results_per_buckets():
     relations = sorted(set(combined_df['RelationID']), key=lambda x: (x.isdigit(), int(x) if x.isdigit() else x))
     models = combined_df['Model'].unique()
     
-    if dataset_name == 'popQA':
-        ncols = 4
-        coref = 1.9
-    elif dataset_name == 'witQA':
-        ncols = 6
-        coref = 1.4
-    elif dataset_name == 'EQ':
-        ncols = 5
-        coref = 1.5  
-    nrows = math.ceil(num_relations / ncols) + 1
-    fig, axes = plt.subplots(nrows, ncols, figsize=(15, nrows * coref))
+    if not only_all:
+        if dataset_name == 'popQA':
+            ncols = 4
+            coref = 1.9
+        elif dataset_name == 'witQA':
+            ncols = 6
+            coref = 1.4
+        elif dataset_name == 'EQ':
+            ncols = 5
+            coref = 1.5  
+        nrows = math.ceil(num_relations / ncols) + 1
+        fig, axes = plt.subplots(nrows, ncols, figsize=(15, nrows * coref))
+            
+        fig.delaxes(axes[0,1])
+        fig.delaxes(axes[0,2])
+        if dataset_name == 'witQA':
+            fig.delaxes(axes[0,3])
+            fig.delaxes(axes[0,4])
+            fig.delaxes(axes[6,2])
+            fig.delaxes(axes[6,3])
+            fig.delaxes(axes[6,4])
+            fig.delaxes(axes[6,5])
+        if dataset_name == 'EQ':
+            fig.delaxes(axes[0,3])
         
-    fig.delaxes(axes[0,1])
-    fig.delaxes(axes[0,2])
-    if dataset_name == 'witQA':
-        fig.delaxes(axes[0,3])
-        fig.delaxes(axes[0,4])
-        fig.delaxes(axes[6,2])
-        fig.delaxes(axes[6,3])
-        fig.delaxes(axes[6,4])
-        fig.delaxes(axes[6,5])
-    if dataset_name == 'EQ':
-        fig.delaxes(axes[0,3])
-    
-    custom_xticks = ['b1', 'b2', 'b3', 'b4', 'b5']
-    
-    for idx, relation in enumerate(relations):
-        if idx == 0:
-            ax = axes[0, 0]
-        else:
-            row = ((idx-1) // ncols) +1
-            col = (idx-1) % ncols
-            ax = axes[row, col]
+        custom_xticks = ['b1', 'b2', 'b3', 'b4', 'b5']
         
+        for idx, relation in enumerate(relations):
+            if idx == 0:
+                ax = axes[0, 0]
+            else:
+                row = ((idx-1) // ncols) +1
+                col = (idx-1) % ncols
+                ax = axes[row, col]
+            
+            for model in models:
+                model_df = combined_df[(combined_df['Model'] == model) & (combined_df['RelationID'] == relation)]
+                model_df = model_df.sort_values('Bucket')  # Sort by bucket for proper line plotting
+                ax.plot(model_df['Bucket'], model_df['Recall@1'], '-o', label=model)
+            ax.set_ylim(0, 1.1)
+            
+            if idx == 0:
+                ax.set_title(f'{relation}')
+                # ax.set_xlabel('Bucket')
+                ax.set_ylabel('Recall@1')
+                ax.set_xticks(range(1, len(custom_xticks) + 1))
+                ax.set_xticklabels(custom_xticks)
+            else:
+                ax.set_title(f'{RELATIONS[relation]}')
+                ax.set_xlabel('')  # Remove x-label for others
+                ax.set_ylabel('')
+                ax.tick_params(axis='x', which='both', bottom=False, top=False, labelbottom=False)  # Remove x-ticks for subplots other than the first
+
+        axes_flat = axes.flatten()
+        legend_ax = axes_flat[ncols-1]  # Adjust based on desired legend position
+        handles, labels = axes_flat[0].get_legend_handles_labels()
+        legend_ax.legend(handles, labels, title='Model', loc='center')
+        legend_ax.axis('off')  # Turn off axis lines and labels
+        
+        plt.subplots_adjust(hspace=0.5)
+        plt.show()
+    
+    else:
+        fig, axes = plt.subplots(1, 1, figsize=(8, 6))
+        custom_xticks = ['b1', 'b2', 'b3', 'b4', 'b5']
+        # ax = axes[0]
         for model in models:
-            model_df = combined_df[(combined_df['Model'] == model) & (combined_df['RelationID'] == relation)]
-            model_df = model_df.sort_values('Bucket')  # Sort by bucket for proper line plotting
-            ax.plot(model_df['Bucket'], model_df['Recall@1'], '-o', label=model)
-        ax.set_ylim(0, 1.1)
+            model_df = combined_df[(combined_df['Model'] == model) & (combined_df['RelationID'] == relations[0])]
+            model_df = model_df.sort_values('Bucket') 
+            axes.plot(model_df['Bucket'], model_df['Recall@1'], '-o', label=model)
         
-        if idx == 0:
-            ax.set_title(f'{relation}')
-            # ax.set_xlabel('Bucket')
-            ax.set_ylabel('Recall@1')
-            ax.set_xticks(range(1, len(custom_xticks) + 1))
-            ax.set_xticklabels(custom_xticks)
-        else:
-            ax.set_title(f'{RELATIONS[relation]}')
-            ax.set_xlabel('')  # Remove x-label for others
-            ax.set_ylabel('')
-            ax.tick_params(axis='x', which='both', bottom=False, top=False, labelbottom=False)  # Remove x-ticks for subplots other than the first
+        axes.set_ylim(0, 1.1)
+        # axes.set_title(f'{relation}')
+        axes.set_ylabel('Recall@1')
+        axes.set_xticks(range(1, len(custom_xticks) + 1))
+        axes.set_xticklabels(custom_xticks)
         
-        
-    # Use a specific subplot for the legend - for example, the position (0, 3)
-    axes_flat = axes.flatten()
-    legend_ax = axes_flat[ncols-1]  # Adjust based on desired legend position
-    handles, labels = axes_flat[0].get_legend_handles_labels()
-    legend_ax.legend(handles, labels, title='Model', loc='center')
-    legend_ax.axis('off')  # Turn off axis lines and labels
-        
-        # ax.set_xlabel('Bucket')
-        # ax.set_ylabel('Recall@1')
-        # ax.legend(title='Model')
-    plt.subplots_adjust(hspace=0.5)
-    # handles, labels = ax.get_legend_handles_labels()
-    # fig.legend(handles, labels, loc='upper right',  title='Model') # bbox_to_anchor=(1, 0.5),
-
-
-    plt.show()
-    
+        plt.legend(title='Model', loc="upper right", ncol=1)
+        plt.show()
+   
 def calculated_accuracy(objects):
     correct_count = sum(obj['is_correct'] for obj in objects)
     total_count = len(objects)
@@ -393,7 +404,7 @@ def calculated_accuracy(objects):
 def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=False):
     
     ### ==== Define Variables =============
-    model_name = gen_models[1] # []
+    model_name = gen_models[3]
     base_path  = "component0_preprocessing/generated_data"
     retrieval_model = 'ideal'
     result_files = [
@@ -597,23 +608,23 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
         # plt.legend()
         plt.legend(loc=2, ncol=2, fontsize=12)
         plt.tight_layout()
-        plt.savefig(f"main_{model_name}.pdf", format='pdf', dpi=1600)
-        plt.savefig(f"main_{model_name}.png", dpi=1600)
+        # plt.savefig(f"main_{model_name}.pdf", format='pdf', dpi=1600)
+        # plt.savefig(f"main_{model_name}.png", dpi=1600)
         plt.show()
 
 
 def main():
     # == 1) Plot buckets distribution: Number of data per bucket
-    # plot_buckets_distribution(only_all=False)
+    # plot_buckets_distribution(only_all=True)
     
     # == 2) Plot Retrival models output: Pre-relation & Pre-buckets
     # plot_retriever_results_per_relation()
-    # plot_retriever_results_per_buckets()
+    # plot_retriever_results_per_buckets(only_all=True)
     
     # == 3) Plot QA models output
     # plot_answer_generator_results(per_relation=True, per_bucket=False, only_all=False)
-    plot_answer_generator_results(per_relation=False, per_bucket=True, only_all=False)
-    # plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
+    # plot_answer_generator_results(per_relation=False, per_bucket=True, only_all=False)
+    plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
     
     # == 4) Significance test
     
