@@ -317,6 +317,8 @@ def main(args):
             #     logging.info(f"Final decision: {is_correct}")
             #     logging.info('====')
             print('\n')
+            
+            print(f"Prompt: {prompt}")
             print(f"Query: {query}")
             print(f"Has context: {has_context}"),
             print(f"Pred: {pred}")
