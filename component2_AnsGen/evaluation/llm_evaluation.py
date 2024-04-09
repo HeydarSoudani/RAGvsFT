@@ -288,9 +288,9 @@ def main(args):
                     print(f"Try #{i+1} for Query: {query_id}")
                     print('Error message:', e)
             
-            if args.llm_model_name in ["llama2", "tiny_llama", "mistral"]:
+            if args.llm_model_name in ["llama2", "mistral"]:
                 pred = result.split("[/INST]")[1].strip()
-            elif args.llm_model_name == 'zephyr':
+            elif args.llm_model_name in ['zephyr', "tiny_llama"]:
                 pred = result.split("<|assistant|>")[1].strip()
             elif args.llm_model_name == 'MiniCPM':
                 pred = result.split("<AI>")[1].strip()
