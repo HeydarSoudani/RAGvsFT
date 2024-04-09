@@ -213,15 +213,8 @@ def main(args):
         prompt_template_wo_context = """<|user|>\n Question: {question}<|endoftext|>\n<|assistant|>"""
     
     elif args.llm_model_name == "MiniCPM":
-        prompt_template_w_context = """
-            <User> You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-            Context: {context}\n
-            Question: {question}\n
-            <AI>"""
-        prompt_template_wo_context = """
-            <User> You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-            Question: {question}\n
-            <AI>"""
+        prompt_template_w_context = """<User>\n Context: {context}\n Question: {question}\n <AI>"""
+        prompt_template_wo_context = """<User>\n Question: {question}\n <AI>"""
     
     logging.info("Inferencing ...")
     model, tokenizer = load_model(args)

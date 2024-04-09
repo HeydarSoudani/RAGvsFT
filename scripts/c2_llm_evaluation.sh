@@ -12,8 +12,8 @@ module load 2022
 module load Python/3.10.4-GCCcore-11.3.0
 
 srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
-    --model_name_or_path "mistralai/Mistral-7B-Instruct-v0.1" \
-    --llm_model_name "mistral" \
+    --model_name_or_path "stabilityai/stablelm-2-zephyr-1_6b" \
+    --llm_model_name "stable_lm2" \
     --dataset_name "popQA" \
     --output_file_pre_prefix "nw_bf" \
     --with_peft False \
