@@ -190,9 +190,10 @@ def main(args):
         RAG: {args.with_rag}
         Retrieval method: {args.retrieval_method}
         Output file's prefix: {file_prefix}
+        Seed: {args.seed}
         """
     )
-    set_seed(42)
+    set_seed(args.seed)
     
     ### === Parameters per model
     # 1) Llama2 & tiny_llama & Mistral
@@ -238,7 +239,6 @@ def main(args):
     elif args.llm_model_name == "flant5":
         prompt_template_w_context = """Context: {context} \n Based on the provided context, answer the question: {question}"""
         prompt_template_wo_context = """Answer the question: {question}"""
-        
     
     logging.info("Inferencing ...")
     model, tokenizer = load_model(args)
@@ -268,7 +268,7 @@ def main(args):
             max_new_tokens = max_new_tokens
         )
     elif args.llm_model_name == "flant5":
-        max_new_tokens = 30
+        max_new_tokens = 20
         pipe = pipeline( 
             "text2text-generation", 
             model=model, 
@@ -311,9 +311,6 @@ def main(args):
                 except Exception as e:
                     print(f"Try #{i+1} for Query: {query_id}")
                     print('Error message:', e)
-                    
-            # print("pr: {}".format(prompt))
-            # print("rs: {}".format(result))
             
             if args.llm_model_name in ["llama2", "tiny_llama", "mistral"]:
                 pred = result.split("[/INST]")[1].strip()
@@ -381,6 +378,7 @@ if __name__ == "__main__":
     parser.add_argument("--with_peft", type=str2bool, default=False)
     parser.add_argument("--with_rag", type=str2bool, default=False)
     parser.add_argument("--retrieval_method", type=str)
+    parser.add_argument("--seed", type=int)
     
     args = parser.parse_args()
     main(args)
