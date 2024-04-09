@@ -204,7 +204,7 @@ def main(args):
         prompt_template_w_context = """<s>[INST] <<SYS>><</SYS>> \n Context: {context}\n Question: {question} \n[/INST]"""
         prompt_template_wo_context = """<s>[INST] <<SYS>><</SYS>> \n Question: {question} \n[/INST]"""  
         
-    elif args.llm_model_name  ["zephyr", "tiny_llama"]:
+    elif args.llm_model_name in ["zephyr", "tiny_llama"]:
         prompt_template_w_context = """<|system|> </s>\n <|user|>\n Context: {context}\n Question: {question}</s>\n <|assistant|> """
         prompt_template_wo_context = """<|system|> </s>\n <|user|> Question: {question}</s>\n <|assistant|> """
     
