@@ -306,12 +306,9 @@ def main(args):
     elif args.llm_model_name in ['tiny_llama', 'stable_lm2', 'MiniCPM']:
         pass
     
-    
     if args.llm_model_name in ["llama2", "mistral"]:
-        # You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
         args.prompt_template = """<s>[INST] <<SYS>><</SYS>> \n Question: {question} \n[/INST] Answer: {answer} </s>"""
     elif args.llm_model_name == 'zephyr':
-        # You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.
         args.prompt_template = """<|system|> </s>\n <|user|> Question: {question}</s>\n <|assistant|> Answer: {answer} </s>"""
             
     elif args.llm_model_name == "MiniCPM":
