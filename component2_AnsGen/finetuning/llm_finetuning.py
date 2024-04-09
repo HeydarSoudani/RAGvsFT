@@ -296,12 +296,10 @@ def main(args):
         pass
     
     if args.llm_model_name in ["llama2", "tiny_llama", "mistral"]:
+        # You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
         args.prompt_template = """
-            <s>[INST]You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-            Question: {question}\n
-            [/INST]\n
-            Answer: {answer}
-            </s>"""
+            <s>[INST] Question: {question}\n
+            [/INST] Answer: {answer} </s>"""
     elif args.llm_model_name == 'zephyr':
         args.prompt_template = """
             <|system|>
