@@ -196,34 +196,13 @@ def main(args):
     set_seed(args.seed)
     
     ### === Parameters per model
-    # 1) Llama2 & tiny_llama & Mistral
-    if args.llm_model_name in ["llama2", "tiny_llama", "mistral"]:
-        # You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-        # You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-        prompt_template_w_context = """
-            <s>[INST] 
-            Context: {context}\n
-            Question: {question}\n
-            [/INST]"""
-        prompt_template_wo_context = """
-            <s>[INST] 
-            Question: {question}\n
-            [/INST]"""
-
-    # 2) Zephyr
+    if args.llm_model_name in ["llama2", "mistral"]:
+        prompt_template_w_context = """<s>[INST] <<SYS>><</SYS>> \n Context: {context}\n Question: {question} \n[/INST]"""
+        prompt_template_wo_context = """<s>[INST] <<SYS>><</SYS>> \n Question: {question} \n[/INST]"""  
+        
     elif args.llm_model_name == "zephyr":
-        prompt_template_w_context = """
-            <|system|>You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-            <|user|>\n 
-            Context: {context}\n
-            Question: {question}\n
-            <|assistant|>\n""" 
-
-        prompt_template_wo_context = """
-            <|system|>You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-            <|user|>\n 
-            Question: {question}\n
-            <|assistant|>\n""" 
+        prompt_template_w_context = """<|system|> </s>\n <|user|>\n Context: {context}\n Question: {question}</s>\n <|assistant|> """
+        prompt_template_wo_context = """<|system|> </s>\n <|user|> Question: {question}</s>\n <|assistant|> """
     
     # 3) MiniCPM
     elif args.llm_model_name == "MiniCPM":
@@ -278,7 +257,6 @@ def main(args):
             max_new_tokens = max_new_tokens
         ) 
         
-    
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
@@ -290,7 +268,7 @@ def main(args):
             if args.with_rag:
                 for ret_result in ret_results:
                     if ret_result['id'] == query_id:
-                        retrieved_text = truncate_text(ret_result['ctxs'][0]['text'], 490) + "\n\n"
+                        retrieved_text = truncate_text(ret_result['ctxs'][0]['text'], 490)
                         break
                 if retrieved_text == "":
                     logging.info('\n')
@@ -329,7 +307,7 @@ def main(args):
                         is_correct = True
             accuracy.append(is_correct)
             
-            if idx % 300 == 0:
+            if idx < 10 or idx % 300 == 0:
                 logging.info('\n')
                 logging.info(f"Prompt: {prompt}")
                 logging.info(f"Query: {query}")

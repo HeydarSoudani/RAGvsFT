@@ -3,7 +3,7 @@
 from transformers import AutoTokenizer, AutoModelForCausalLM, TrainingArguments
 from transformers import BitsAndBytesConfig
 from trl import SFTTrainer
-from peft import LoraConfig, prepare_model_for_kbit_training
+from peft import LoraConfig, get_peft_model, prepare_model_for_kbit_training
 from datasets import Dataset, DatasetDict
 from huggingface_hub import HfFolder
 import torch
@@ -129,48 +129,58 @@ def load_dataset_qa(test_files):
 def load_model(args):
     if args.with_peft:
         
-        lora_alpha = 16
-        lora_dropout = 0.1
-        lora_r = 64
-        
         if args.llm_model_name == 'llama2':
             bnb_config = BitsAndBytesConfig(
                 load_in_4bit=True,
                 bnb_4bit_quant_type="nf4",
                 bnb_4bit_compute_dtype=torch.float16,
+                bnb_4bit_use_double_quant=False,
             )
             peft_config = LoraConfig(
-                lora_alpha=lora_alpha,
-                lora_dropout=lora_dropout,
-                r=lora_r,
+                lora_alpha=args.lora_alpha,
+                lora_dropout=args.lora_dropout,
+                r=args.lora_r,
                 bias="none",
                 task_type="CAUSAL_LM"
             )
+            model = AutoModelForCausalLM.from_pretrained(
+                args.model_name_or_path,
+                quantization_config=bnb_config,
+                device_map="auto",
+            )
+            model.config.use_cache = False
+            model.config.pretraining_tp = 1
+            
         elif args.llm_model_name == 'mistral':
             bnb_config = BitsAndBytesConfig(
                 load_in_4bit=True,
                 bnb_4bit_quant_type="nf4",
                 bnb_4bit_compute_dtype=torch.float16,
+                bnb_4bit_use_double_quant=False,
             )
-            
             peft_config = LoraConfig(
-                lora_alpha=lora_alpha,
-                lora_dropout=lora_dropout,
-                r=lora_r,
-                target_modules=[
-                    "q_proj",
-                    "k_proj",
-                    "v_proj",
-                    "o_proj",
-                    "gate_proj",
-                    "up_proj",
-                    "down_proj",
-                    "lm_head",
-                ],
+                lora_alpha=args.lora_alpha,
+                lora_dropout=args.lora_dropout,
+                r=args.lora_r,
                 bias="none",
                 task_type="CAUSAL_LM",
+                target_modules=["q_proj", "k_proj", "v_proj", "o_proj","gate_proj"],
+            )   
+            model = AutoModelForCausalLM.from_pretrained(
+                args.model_name_or_path,
+                load_in_4bit=True,
+                quantization_config=bnb_config,
+                torch_dtype=torch.bfloat16,
+                device_map="auto",
+                trust_remote_code=True,
             )
-        
+            model.config.use_cache = False
+            model.config.pretraining_tp = 1
+            model.gradient_checkpointing_enable()
+            
+            model = prepare_model_for_kbit_training(model)
+            model = get_peft_model(model, peft_config)
+               
         elif args.llm_model_name in "zephyr":
             bnb_config = BitsAndBytesConfig(
                 load_in_4bit=True,
@@ -180,29 +190,31 @@ def load_model(args):
             )
             
             peft_config = LoraConfig(
-                lora_alpha=lora_alpha,
-                lora_dropout=lora_dropout,
-                r=lora_r,
-                target_modules=['up_proj', 'base_layer', 'down_proj'],
+                lora_alpha=args.lora_alpha,
+                lora_dropout=args.lora_dropout,
+                r=args.lora_r,
                 bias="none",
-                task_type="CAUSAL_LM"
-                
+                task_type="CAUSAL_LM",
+                target_modules=['up_proj', 'base_layer', 'down_proj'],
             )
+            
+            model = AutoModelForCausalLM.from_pretrained(
+                args.model_name_or_path,
+                load_in_4bit=True,
+                quantization_config=bnb_config,
+                torch_dtype=torch.bfloat16,
+                device_map="auto",
+                trust_remote_code=True,
+            )
+            model.config.use_cache = False
+            model.config.pretraining_tp = 1
+            model.gradient_checkpointing_enable()
+            
+            model = prepare_model_for_kbit_training(model)
+            model = get_peft_model(model, peft_config)
             
         elif args.llm_model_name in ["tiny_llama", "MiniCPM"]:
             pass
-        
-        
-        model = AutoModelForCausalLM.from_pretrained(
-            args.model_name_or_path,
-            quantization_config=bnb_config,
-            # device_map={"": 0}
-            torch_dtype=torch.bfloat16,
-            device_map="auto",
-            trust_remote_code=True,
-        )
-        model.config.use_cache = False
-        model = prepare_model_for_kbit_training(model)
                
     else:
         model = AutoModelForCausalLM.from_pretrained(
@@ -218,14 +230,10 @@ def load_model(args):
         args.model_name_or_path,
         trust_remote_code=True
     )
-    
-    # == Exeptions for some models
+    # = Exeptions for some models
     tokenizer.pad_token = tokenizer.eos_token
-    if args.llm_model_name == 'mistral':
-        tokenizer.padding_side = "right"
-    
-    if args.llm_model_name == 'zephyr':
-        tokenizer.padding_side = 'right'
+    tokenizer.padding_side = "right"
+    if args.llm_model_name in ['mistral', 'zephyr']:
         tokenizer.add_eos_token = True
         tokenizer.add_bos_token, tokenizer.add_eos_token
     
@@ -234,19 +242,24 @@ def load_model(args):
 def load_training_args(args):        
     training_arguments = TrainingArguments(
         output_dir=args.save_model_dir,
+        num_train_epochs=args.epochs,
         per_device_train_batch_size=args.batch_size,
         per_device_eval_batch_size=args.batch_size,
-        gradient_accumulation_steps=1,
-        optim="paged_adamw_32bit",
-        num_train_epochs=args.epochs,
+        gradient_accumulation_steps=args.gradient_accumulation_steps,
+        optim=args.optim,
         learning_rate=args.lr,
+        fp16=args.fp16,
+        bf16=args.bf16,
+        max_grad_norm=args.max_grad_norm,
+        max_steps=-args.max_steps,
+        warmup_ratio=args.warmup_ratio,
+        group_by_length=args.group_by_length,
+        lr_scheduler_type=args.lr_scheduler_type,
+        
         evaluation_strategy="epoch",
         logging_strategy="epoch",
         save_strategy="epoch",
-        fp16=args.fp16,
-        bf16=args.bf16,
         save_total_limit=3,
-        
         report_to="wandb",
         push_to_hub=False,
         hub_strategy="every_save",
@@ -274,41 +287,32 @@ def main(args):
     set_seed(42)
     
     # == Parameters per model ==============================
-    if args.llm_model_name == 'llama2':
-        args.epochs = 4
+    if args.llm_model_name in ['llama2', 'mistral', 'zephyr']:
+        args.lora_alpha = 16
+        args.lora_dropout = 0.1
+        args.lora_r = 64
+        args.epochs = 3
+        args.batch_size = 4
+        args.gradient_accumulation_steps = 1
+        args.optim = "paged_adamw_32bit"
         args.lr = 2e-4
-        args.batch_size = 32
-        args.fp16 = True
+        args.fp16 = False
         args.bf16 = False
-    elif args.llm_model_name == 'mistral':
-        args.epochs = 4
-        args.lr = 2e-4
-        args.batch_size = 4
-        args.fp16=False
-        args.bf16=False
-    elif args.llm_model_name == 'zephyr':
-        args.epochs = 1
-        args.lr = 2e-4
-        args.batch_size = 4
-        args.fp16=False
-        args.bf16=False
-    elif args.llm_model_name in ['tiny_llama', 'MiniCPM']:
+        args.weight_decay=0.001
+        args.max_grad_norm=0.3
+        args.warmup_ratio=0.03
+        args.group_by_length=True
+        args.lr_scheduler_type="constant"
+    elif args.llm_model_name in ['tiny_llama', 'stable_lm2', 'MiniCPM']:
         pass
     
-    if args.llm_model_name in ["llama2", "tiny_llama", "mistral"]:
+    
+    if args.llm_model_name in ["llama2", "mistral"]:
         # You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-        args.prompt_template = """
-            <s>[INST] Question: {question}\n
-            [/INST] Answer: {answer} </s>"""
+        args.prompt_template = """<s>[INST] <<SYS>><</SYS>> \n Question: {question} \n[/INST] Answer: {answer} </s>"""
     elif args.llm_model_name == 'zephyr':
-        args.prompt_template = """
-            <|system|>
-            You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.</s>
-            <|user|>
-            Question: {question}</s>
-            <|assistant|>
-            Answer: {answer}            
-            """
+        # You are an Answer Generator system. Your goal is to provide concise responses to questions, drawing upon either the context provided or your own stored knowledge.
+        args.prompt_template = """<|system|> </s>\n <|user|> Question: {question}</s>\n <|assistant|> Answer: {answer} </s>"""
             
     elif args.llm_model_name == "MiniCPM":
         args.prompt_template = """
@@ -324,7 +328,11 @@ def main(args):
     raw_dataset = load_dataset_qa(test_files)
     training_arguments = load_training_args(args)
     
-    max_seq_length = 512 # 2048
+    if args.llm_model_name in ["llama2", "mistral"]:
+        max_seq_length = None
+    elif args.llm_model_name == "zephyr":
+        max_seq_length = 512 # 2048
+    
     trainer = SFTTrainer(
         model=model,
         train_dataset=raw_dataset['train'],
@@ -334,6 +342,7 @@ def main(args):
         max_seq_length=max_seq_length,
         tokenizer=tokenizer,
         args=training_arguments,
+        packing=False
     )
     
     print("Fine-tuning ....")
