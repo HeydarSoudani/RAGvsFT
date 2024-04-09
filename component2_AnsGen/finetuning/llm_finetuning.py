@@ -131,7 +131,7 @@ def load_dataset_qa(test_files):
 def load_model(args):
     if args.with_peft:
         
-        if args.llm_model_name == 'llama2':
+        if args.llm_model_name in ['llama2', "tiny_llama"]:
             bnb_config = BitsAndBytesConfig(
                 load_in_4bit=True,
                 bnb_4bit_quant_type="nf4",
@@ -215,7 +215,7 @@ def load_model(args):
             model = prepare_model_for_kbit_training(model)
             model = get_peft_model(model, peft_config)
             
-        elif args.llm_model_name in ["tiny_llama", "MiniCPM"]:
+        elif args.llm_model_name in ["MiniCPM"]:
             pass
                
     else:
@@ -288,7 +288,7 @@ def main(args):
     set_seed(42)
     
     # == Parameters per model ==============================
-    if args.llm_model_name in ['llama2', 'mistral', 'zephyr']:
+    if args.llm_model_name in ['llama2', 'mistral', 'zephyr', 'tiny_llama', 'stable_lm2']:
         args.lora_alpha = 16
         args.lora_dropout = 0.1
         args.lora_r = 64
@@ -304,17 +304,17 @@ def main(args):
         args.warmup_ratio=0.03
         args.group_by_length=True
         args.lr_scheduler_type="constant"
-    elif args.llm_model_name in ['tiny_llama', 'stable_lm2', 'MiniCPM']:
+    elif args.llm_model_name in ['MiniCPM']:
         pass
     
     if args.llm_model_name in ["llama2", "mistral"]:
         args.prompt_template = """<s>[INST] <<SYS>><</SYS>> \n Question: {question} \n[/INST] Answer: {answer} </s>"""
     
-    elif args.llm_model_name == 'zephyr':
+    elif args.llm_model_name in ["zephyr", "tiny_llama"]:
         args.prompt_template = """<|system|> </s>\n <|user|> Question: {question}</s>\n <|assistant|> Answer: {answer} </s>"""
-            
-    elif args.llm_model_name == "tiny_llama":
-        pass
+    
+    elif args.llm_model_name == "stable_lm2":
+        args.prompt_template = """<|user|>\n Context: {context}\n Question: {question}<|endoftext|>\n<|assistant|>\n Answer: {answer}<|endoftext|>"""
     
     elif args.llm_model_name == "MiniCPM":
         args.prompt_template = """
@@ -330,9 +330,9 @@ def main(args):
     raw_dataset = load_dataset_qa(test_files)
     training_arguments = load_training_args(args)
     
-    if args.llm_model_name in ["llama2", "mistral"]:
+    if args.llm_model_name in ["llama2", "mistral", "tiny_llama"]:
         max_seq_length = None
-    elif args.llm_model_name == "zephyr":
+    elif args.llm_model_name in ["zephyr", "stable_lm2"]:
         max_seq_length = 512 # 2048
     
     trainer = SFTTrainer(

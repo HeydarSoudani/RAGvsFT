@@ -16,7 +16,7 @@ srun $HOME/RAGvsFT/component2_AnsGen/finetuning/llm_finetuning.py \
     --dataset_name "popQA" \
     --generation_method "prompting" \
     --with_peft True \
-    --version 33
+    --version 34
 
 
 # Model name: [

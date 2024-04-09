@@ -107,7 +107,7 @@ def load_model(args):
     if args.with_peft:
         config = PeftConfig.from_pretrained(args.model_name_or_path)
         
-        if args.llm_model_name in ["llama2", "mistral", "zephyr", "tiny_llama", "MiniCPM"]:
+        if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
             base_model = AutoModelForCausalLM.from_pretrained(
                 config.base_model_name_or_path,
                 low_cpu_mem_usage=True,
@@ -131,7 +131,7 @@ def load_model(args):
         )
         
     else:
-        if args.llm_model_name in ["llama2", "mistral", "zephyr", "tiny_llama", "MiniCPM"]:
+        if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
             model = AutoModelForCausalLM.from_pretrained(
                 args.model_name_or_path,
                 low_cpu_mem_usage=True,
@@ -153,7 +153,7 @@ def load_model(args):
             args.model_name_or_path,
             trust_remote_code=True)
 
-    if args.llm_model_name in ["llama2", "mistral", "zephyr", "tiny_llama", "MiniCPM"]:
+    if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
         tokenizer.pad_token = tokenizer.eos_token
         tokenizer.padding_side = "right"
     # if args.llm_model_name == 'llama2':
@@ -205,8 +205,12 @@ def main(args):
         prompt_template_wo_context = """<s>[INST] <<SYS>><</SYS>> \n Question: {question} \n[/INST]"""  
         
     elif args.llm_model_name in ["zephyr", "tiny_llama"]:
-        prompt_template_w_context = """<|system|> </s>\n <|user|>\n Context: {context}\n Question: {question}</s>\n <|assistant|> """
-        prompt_template_wo_context = """<|system|> </s>\n <|user|> Question: {question}</s>\n <|assistant|> """
+        prompt_template_w_context = """<|system|> </s>\n <|user|>\n Context: {context}\n Question: {question}</s>\n <|assistant|>"""
+        prompt_template_wo_context = """<|system|> </s>\n <|user|> Question: {question}</s>\n <|assistant|>"""
+    
+    elif args.llm_model_name == "stable_lm2":
+        prompt_template_w_context = """<|user|>\n Context: {context}\n Question: {question}<|endoftext|>\n<|assistant|>"""
+        prompt_template_wo_context = """<|user|>\n Question: {question}<|endoftext|>\n<|assistant|>"""
     
     elif args.llm_model_name == "MiniCPM":
         prompt_template_w_context = """
@@ -235,7 +239,7 @@ def main(args):
                 ret_results.extend([json.loads(line) for line in file])
     
     # == Loop over the test questions ========================
-    if args.llm_model_name in ["llama2", "mistral", "zephyr", "tiny_llama", "MiniCPM"]:
+    if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
         max_new_tokens = 40
         pipe = pipeline(
             task="text-generation",
@@ -256,8 +260,8 @@ def main(args):
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 10:
-                break
+            # if idx == 10:
+            #     break
             
             retrieved_text = ""
             has_context = False
@@ -288,14 +292,15 @@ def main(args):
                     print(f"Try #{i+1} for Query: {query_id}")
                     print('Error message:', e)
             
-            if args.llm_model_name in ["llama2", "mistral"]:
+            if args.llm_model_name == 'flant5':
+                pred = result
+            elif args.llm_model_name in ["llama2", "mistral"]:
                 pred = result.split("[/INST]")[1].strip()
-            elif args.llm_model_name in ['zephyr', "tiny_llama"]:
+            elif args.llm_model_name in ['zephyr', "stable_lm2", "tiny_llama"]:
                 pred = result.split("<|assistant|>")[1].strip()
             elif args.llm_model_name == 'MiniCPM':
                 pred = result.split("<AI>")[1].strip()
-            elif args.llm_model_name == 'flant5':
-                pred = result
+            
             
             is_correct = False
             for pa in test_answers[idx]:
@@ -303,23 +308,23 @@ def main(args):
                         is_correct = True
             accuracy.append(is_correct)
             
-            # if idx < 10 or idx % 300 == 0:
-            #     logging.info('\n')
-            #     logging.info(f"Prompt: {prompt}")
-            #     logging.info(f"Query: {query}")
-            #     logging.info(f"Has context: {has_context}"),
-            #     logging.info(f"Pred: {pred}")
-            #     logging.info(f"Labels: {test_answers[idx]}")
-            #     logging.info(f"Final decision: {is_correct}")
-            #     logging.info('====')
-            print('\n')
-            print(f"Prompt: {prompt}")
-            print(f"Query: {query}")
-            print(f"Has context: {has_context}"),
-            print(f"Pred: {pred}")
-            print(f"Labels: {test_answers[idx]}")
-            print(f"Final decision: {is_correct}")
-            print('====')
+            if idx < 10 or idx % 300 == 0:
+                logging.info('\n')
+                logging.info(f"Prompt: {prompt}")
+                logging.info(f"Query: {query}")
+                logging.info(f"Has context: {has_context}"),
+                logging.info(f"Pred: {pred}")
+                logging.info(f"Labels: {test_answers[idx]}")
+                logging.info(f"Final decision: {is_correct}")
+                logging.info('====')
+            # print('\n')
+            # print(f"Prompt: {prompt}")
+            # print(f"Query: {query}")
+            # print(f"Has context: {has_context}"),
+            # print(f"Pred: {pred}")
+            # print(f"Labels: {test_answers[idx]}")
+            # print(f"Final decision: {is_correct}")
+            # print('====')
             
             item = {
                 "query_id": query_id,
