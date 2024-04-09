@@ -156,8 +156,8 @@ def load_model(args):
     if args.llm_model_name in ["llama2", "mistral", "zephyr", "tiny_llama", "MiniCPM"]:
         tokenizer.pad_token = tokenizer.eos_token
         tokenizer.padding_side = "right"
-    if args.llm_model_name == 'llama2':
-        tokenizer.add_special_tokens({'pad_token': '[PAD]'})
+    # if args.llm_model_name == 'llama2':
+    #     tokenizer.add_special_tokens({'pad_token': '[PAD]'})
     
     model.eval()
     logging.info("Model and tokenizer are loaded")
@@ -200,7 +200,7 @@ def main(args):
         prompt_template_w_context = """Context: {context} \n Based on the provided context, answer the question: {question}"""
         prompt_template_wo_context = """Answer the question: {question}"""
         
-    elif args.llm_model_name in ["llama2", "mistral"]:
+    elif args.llm_model_name in ["llama2", "mistral", "tiny_llama"]:
         prompt_template_w_context = """<s>[INST] <<SYS>><</SYS>> \n Context: {context}\n Question: {question} \n[/INST]"""
         prompt_template_wo_context = """<s>[INST] <<SYS>><</SYS>> \n Question: {question} \n[/INST]"""  
         
@@ -235,9 +235,6 @@ def main(args):
                 ret_results.extend([json.loads(line) for line in file])
     
     # == Loop over the test questions ========================
-    accuracy = []
-    # max_new_tokens = 790 if args.with_rag else 300
-    
     if args.llm_model_name in ["llama2", "mistral", "zephyr", "tiny_llama", "MiniCPM"]:
         max_new_tokens = 40
         pipe = pipeline(
@@ -255,11 +252,12 @@ def main(args):
             max_new_tokens = max_new_tokens
         ) 
         
+    accuracy = []
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            # if idx == 10:
-            #     break
+            if idx == 10:
+                break
             
             retrieved_text = ""
             has_context = False
@@ -305,23 +303,23 @@ def main(args):
                         is_correct = True
             accuracy.append(is_correct)
             
-            if idx < 10 or idx % 300 == 0:
-                logging.info('\n')
-                logging.info(f"Prompt: {prompt}")
-                logging.info(f"Query: {query}")
-                logging.info(f"Has context: {has_context}"),
-                logging.info(f"Pred: {pred}")
-                logging.info(f"Labels: {test_answers[idx]}")
-                logging.info(f"Final decision: {is_correct}")
-                logging.info('====')
+            # if idx < 10 or idx % 300 == 0:
+            #     logging.info('\n')
+            #     logging.info(f"Prompt: {prompt}")
+            #     logging.info(f"Query: {query}")
+            #     logging.info(f"Has context: {has_context}"),
+            #     logging.info(f"Pred: {pred}")
+            #     logging.info(f"Labels: {test_answers[idx]}")
+            #     logging.info(f"Final decision: {is_correct}")
+            #     logging.info('====')
             print('\n')
-            # print(f"Prompt: {prompt}")
-            # print(f"Query: {query}")
-            # print(f"Has context: {has_context}"),
-            # print(f"Pred: {pred}")
-            # print(f"Labels: {test_answers[idx]}")
-            # print(f"Final decision: {is_correct}")
-            # print('====')
+            print(f"Prompt: {prompt}")
+            print(f"Query: {query}")
+            print(f"Has context: {has_context}"),
+            print(f"Pred: {pred}")
+            print(f"Labels: {test_answers[idx]}")
+            print(f"Final decision: {is_correct}")
+            print('====')
             
             item = {
                 "query_id": query_id,

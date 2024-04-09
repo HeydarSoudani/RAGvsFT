@@ -12,8 +12,8 @@ module load 2022
 module load Python/3.10.4-GCCcore-11.3.0
 
 srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
-    --model_name_or_path "HuggingFaceH4/zephyr-7b-beta" \
-    --llm_model_name "zephyr" \
+    --model_name_or_path "TinyLlama/TinyLlama-1.1B-Chat-v1.0" \
+    --llm_model_name "tiny_llama" \
     --dataset_name "popQA" \
     --output_file_pre_prefix "nw_bf" \
     --with_peft False \

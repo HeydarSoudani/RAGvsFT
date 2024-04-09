@@ -313,6 +313,9 @@ def main(args):
     elif args.llm_model_name == 'zephyr':
         args.prompt_template = """<|system|> </s>\n <|user|> Question: {question}</s>\n <|assistant|> Answer: {answer} </s>"""
             
+    elif args.llm_model_name == "tiny_llama":
+        pass
+    
     elif args.llm_model_name == "MiniCPM":
         args.prompt_template = """
         <User> You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
