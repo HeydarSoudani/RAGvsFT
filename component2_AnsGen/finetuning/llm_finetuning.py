@@ -103,12 +103,12 @@ def load_dataset_qa(test_files):
 
     # === Apply prompt template ================
     train_data = [
-        args.prompt_template.format(question=question, answer=train_answers[i])
+        args.prompt_template.format(question=question, answer=train_answers[i][0])
         for i, question in enumerate(train_questions)
     ]
     
     val_data = [
-        args.prompt_template.format(question=question, answer=val_answers[i])
+        args.prompt_template.format(question=question, answer=val_answers[i][0])
         for i, question in enumerate(val_questions)
     ]
 
@@ -122,6 +122,8 @@ def load_dataset_qa(test_files):
         })
     })
     print(raw_dataset)
+    print("\n")
+    print(raw_dataset['train'][0]['text'])
     logging.info("Train & Dev datasets are loaded.")
     
     return raw_dataset
@@ -239,7 +241,7 @@ def load_model(args):
     
     return model, tokenizer, peft_config
 
-def load_training_args(args):        
+def load_training_args(args):
     training_arguments = TrainingArguments(
         output_dir=args.save_model_dir,
         num_train_epochs=args.epochs,
@@ -251,7 +253,6 @@ def load_training_args(args):
         fp16=args.fp16,
         bf16=args.bf16,
         max_grad_norm=args.max_grad_norm,
-        max_steps=-args.max_steps,
         warmup_ratio=args.warmup_ratio,
         group_by_length=args.group_by_length,
         lr_scheduler_type=args.lr_scheduler_type,
@@ -291,8 +292,8 @@ def main(args):
         args.lora_alpha = 16
         args.lora_dropout = 0.1
         args.lora_r = 64
-        args.epochs = 3
-        args.batch_size = 4
+        args.epochs = 2
+        args.batch_size = 8
         args.gradient_accumulation_steps = 1
         args.optim = "paged_adamw_32bit"
         args.lr = 2e-4
@@ -308,6 +309,7 @@ def main(args):
     
     if args.llm_model_name in ["llama2", "mistral"]:
         args.prompt_template = """<s>[INST] <<SYS>><</SYS>> \n Question: {question} \n[/INST] Answer: {answer} </s>"""
+    
     elif args.llm_model_name == 'zephyr':
         args.prompt_template = """<|system|> </s>\n <|user|> Question: {question}</s>\n <|assistant|> Answer: {answer} </s>"""
             

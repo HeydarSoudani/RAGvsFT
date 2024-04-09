@@ -196,7 +196,11 @@ def main(args):
     set_seed(args.seed)
     
     ### === Parameters per model
-    if args.llm_model_name in ["llama2", "mistral"]:
+    if args.llm_model_name == "flant5":
+        prompt_template_w_context = """Context: {context} \n Based on the provided context, answer the question: {question}"""
+        prompt_template_wo_context = """Answer the question: {question}"""
+        
+    elif args.llm_model_name in ["llama2", "mistral"]:
         prompt_template_w_context = """<s>[INST] <<SYS>><</SYS>> \n Context: {context}\n Question: {question} \n[/INST]"""
         prompt_template_wo_context = """<s>[INST] <<SYS>><</SYS>> \n Question: {question} \n[/INST]"""  
         
@@ -204,7 +208,6 @@ def main(args):
         prompt_template_w_context = """<|system|> </s>\n <|user|>\n Context: {context}\n Question: {question}</s>\n <|assistant|> """
         prompt_template_wo_context = """<|system|> </s>\n <|user|> Question: {question}</s>\n <|assistant|> """
     
-    # 3) MiniCPM
     elif args.llm_model_name == "MiniCPM":
         prompt_template_w_context = """
             <User> You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
@@ -215,11 +218,6 @@ def main(args):
             <User> You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
             Question: {question}\n
             <AI>"""
-    
-    # 4) FlanT5 family
-    elif args.llm_model_name == "flant5":
-        prompt_template_w_context = """Context: {context} \n Based on the provided context, answer the question: {question}"""
-        prompt_template_wo_context = """Answer the question: {question}"""
     
     logging.info("Inferencing ...")
     model, tokenizer = load_model(args)
@@ -260,8 +258,8 @@ def main(args):
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 10:
-                break
+            # if idx == 10:
+            #     break
             
             retrieved_text = ""
             has_context = False
@@ -307,24 +305,23 @@ def main(args):
                         is_correct = True
             accuracy.append(is_correct)
             
-            # if idx < 10 or idx % 300 == 0:
-            #     logging.info('\n')
-            #     logging.info(f"Prompt: {prompt}")
-            #     logging.info(f"Query: {query}")
-            #     logging.info(f"Has context: {has_context}"),
-            #     logging.info(f"Pred: {pred}")
-            #     logging.info(f"Labels: {test_answers[idx]}")
-            #     logging.info(f"Final decision: {is_correct}")
-            #     logging.info('====')
+            if idx < 10 or idx % 300 == 0:
+                logging.info('\n')
+                logging.info(f"Prompt: {prompt}")
+                logging.info(f"Query: {query}")
+                logging.info(f"Has context: {has_context}"),
+                logging.info(f"Pred: {pred}")
+                logging.info(f"Labels: {test_answers[idx]}")
+                logging.info(f"Final decision: {is_correct}")
+                logging.info('====')
             print('\n')
-            
-            print(f"Prompt: {prompt}")
-            print(f"Query: {query}")
-            print(f"Has context: {has_context}"),
-            print(f"Pred: {pred}")
-            print(f"Labels: {test_answers[idx]}")
-            print(f"Final decision: {is_correct}")
-            print('====')
+            # print(f"Prompt: {prompt}")
+            # print(f"Query: {query}")
+            # print(f"Has context: {has_context}"),
+            # print(f"Pred: {pred}")
+            # print(f"Labels: {test_answers[idx]}")
+            # print(f"Final decision: {is_correct}")
+            # print('====')
             
             item = {
                 "query_id": query_id,
