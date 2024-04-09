@@ -7,7 +7,7 @@ import json
 import os
 
 # === Datasets variables ========================
-dataset_name = 'EQ' # [popQA, witQA, EQ]
+dataset_name = 'popQA' # [popQA, witQA, EQ]
 retrieval_models = ["bm25", "contriever", "rerank", "dpr"]
 gen_models = [
     "flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl",
@@ -404,14 +404,16 @@ def calculated_accuracy(objects):
 def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=False):
     
     ### ==== Define Variables =============
-    model_name = gen_models[7]
+    model_name = gen_models[0]
     base_path  = "component0_preprocessing/generated_data"
     retrieval_model = 'ideal'
     result_files = [
         {"title": "NoFT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
-        {"title": f"NoFT/{retrieval_model}RAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_rag_{retrieval_model}_full_results.jsonl"},
+        {"title": f"NoFT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
+        {"title": f"NoFT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_rag_ideal_full_results.jsonl"},
         {"title": "FT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
-        {"title": f"FT/{retrieval_model}RAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
+        {"title": f"FT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
+        {"title": f"FT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_rag_ideal_peft_results.jsonl"},
     ]
     
     ### ==== Prepare data for plotting ====
@@ -587,6 +589,7 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
     ### === Only plot "all", per bucket =====
     if only_all:
         plt.figure(figsize=(8, 5)) 
+        custom_xticks = ['b1', 'b2', 'b3', 'b4', 'b5']
         
         for i, (method, _accuracies) in enumerate(ordered_accuracies.items()):
             key = 'all'
@@ -595,11 +598,12 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
             print(value)
             
             if 'per_bucket' in value:
-                # buckets = list(value['per_bucket'].keys())
-                buckets = [f'$10^{i}$' for i in range(2, 7)]
+                buckets = list(value['per_bucket'].keys())
+                # buckets = [f'$10^{i}$' for i in range(2, 7)]
                 scores = list(value['per_bucket'].values())
-                
                 plt.plot(buckets, scores, label=method, marker='', color=palette(i), linewidth=2.5)
+                plt.xticks(range(0, len(custom_xticks)), custom_xticks)
+
         
         # plt.title(f"A) {model_name}", fontdict=title_font)
         plt.xlabel("Popularity (pageviews)", fontdict=font)
