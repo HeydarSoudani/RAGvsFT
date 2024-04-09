@@ -4,19 +4,23 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=20:00:00
+#SBATCH --time=10:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 module load 2022
 module load Python/3.10.4-GCCcore-11.3.0
 
+# pip install git+https://github.com/huggingface/transformers 
+pip install transformers==4.38.2
+
+
 srun $HOME/RAGvsFT/component2_AnsGen/finetuning/llm_finetuning.py \
-    --model_name_or_path "TinyLlama/TinyLlama-1.1B-Chat-v1.0" \
-    --llm_model_name "tiny_llama" \
+    --model_name_or_path "mistralai/Mistral-7B-Instruct-v0.1" \
+    --llm_model_name "mistral" \
     --dataset_name "popQA" \
     --generation_method "prompting" \
     --with_peft True \
-    --version 34
+    --version 32
 
 
 # Model name: [
