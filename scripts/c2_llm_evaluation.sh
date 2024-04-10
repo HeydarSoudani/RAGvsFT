@@ -14,13 +14,13 @@ module load Python/3.10.4-GCCcore-11.3.0
 # pip install git+https://github.com/huggingface/transformers 
 
 srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
-    --model_name_or_path "$HOME/RAGvsFT/component2_AnsGen/models/popQA/llama2_popQA_peft_v31/checkpoint-16398" \
-    --llm_model_name "llama2" \
+    --model_name_or_path "$HOME/RAGvsFT/component2_AnsGen/models/popQA/mistral_popQA_peft_v34/checkpoint-16398" \
+    --llm_model_name "mistral" \
     --dataset_name "popQA" \
     --output_file_pre_prefix "nw_af" \
     --with_peft True \
-    --with_rag False \
-    --retrieval_method "" \
+    --with_rag True \
+    --retrieval_method "ideal" \
     --seed 42
 
 

@@ -183,7 +183,7 @@ def load_model(args):
             model = prepare_model_for_kbit_training(model)
             model = get_peft_model(model, peft_config)
                
-        elif args.llm_model_name in "zephyr":
+        elif args.llm_model_name in ["zephyr", "stable_lm2"]:
             bnb_config = BitsAndBytesConfig(
                 load_in_4bit=True,
                 bnb_4bit_quant_type="nf4",
@@ -248,19 +248,19 @@ def load_training_args(args):
         per_device_train_batch_size=args.batch_size,
         per_device_eval_batch_size=args.batch_size,
         gradient_accumulation_steps=args.gradient_accumulation_steps,
-        optim=args.optim,
         learning_rate=args.lr,
+        optim=args.optim,
         fp16=args.fp16,
         bf16=args.bf16,
-        max_grad_norm=args.max_grad_norm,
-        warmup_ratio=args.warmup_ratio,
-        group_by_length=args.group_by_length,
-        lr_scheduler_type=args.lr_scheduler_type,
-        
+        # max_grad_norm=args.max_grad_norm,
+        # warmup_ratio=args.warmup_ratio,
+        # group_by_length=args.group_by_length,
+        # lr_scheduler_type=args.lr_scheduler_type,
+        # weight_decay=args.weight_decay,
         evaluation_strategy="epoch",
         logging_strategy="epoch",
         save_strategy="epoch",
-        save_total_limit=3,
+        save_total_limit=2,
         report_to="wandb",
         push_to_hub=False,
         hub_strategy="every_save",
@@ -304,6 +304,7 @@ def main(args):
         args.warmup_ratio=0.03
         args.group_by_length=True
         args.lr_scheduler_type="constant"
+    
     elif args.llm_model_name in ['MiniCPM']:
         pass
     

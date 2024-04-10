@@ -11,16 +11,16 @@ module load 2022
 module load Python/3.10.4-GCCcore-11.3.0
 
 # pip install git+https://github.com/huggingface/transformers 
-pip install transformers==4.38.2
-
+# pip install transformers==4.38.2
+# pip install accelerate==0.27.2
 
 srun $HOME/RAGvsFT/component2_AnsGen/finetuning/llm_finetuning.py \
-    --model_name_or_path "mistralai/Mistral-7B-Instruct-v0.1" \
-    --llm_model_name "mistral" \
+    --model_name_or_path "meta-llama/Llama-2-7b-chat-hf" \
+    --llm_model_name "llama2" \
     --dataset_name "popQA" \
     --generation_method "prompting" \
     --with_peft True \
-    --version 32
+    --version 40
 
 
 # Model name: [
