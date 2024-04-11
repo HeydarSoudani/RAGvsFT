@@ -11,11 +11,8 @@ dataset_name = 'popQA' # [popQA, witQA, EQ]
 retrieval_models = ["bm25", "contriever", "rerank", "dpr"]
 gen_models = [
     "flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl",
-    "tiny_llama",
-    "MiniCPM",
-    "llama2",
-    "mistral",
-    "zephyr"
+    "stable_lm2", "tiny_llama", "MiniCPM",
+    "llama2", "mistral", "zephyr"
 ]
 dataset_dir = 'component0_preprocessing/generated_data/{}_costomized'.format(dataset_name)
 test_dir = f"{dataset_dir}/test"
@@ -404,14 +401,14 @@ def calculated_accuracy(objects):
 def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=False):
     
     ### ==== Define Variables =============
-    model_name = gen_models[-1]
+    model_name = gen_models[6]
     base_path  = "component0_preprocessing/generated_data"
     retrieval_model = 'ideal'
     result_files = [
-        {"title": "NoFT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
-        {"title": f"NoFT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_rag_{retrieval_model}_full_results.jsonl"},
-        {"title": "FT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
-        {"title": f"FT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
+        {"title": "NoFT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_nw_bf_norag_full_results.jsonl"},
+        {"title": f"NoFT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_nw_bf_rag_{retrieval_model}_full_results.jsonl"},
+        {"title": "FT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_nw_af_norag_peft_results.jsonl"},
+        {"title": f"FT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_nw_af_rag_{retrieval_model}_peft_results.jsonl"},
         # {"title": f"NoFT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
         # {"title": f"FT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
     ]
