@@ -4,23 +4,22 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=10:00:00
+#SBATCH --time=12:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
 module load 2022
 module load Python/3.10.4-GCCcore-11.3.0
 
-# pip install git+https://github.com/huggingface/transformers 
-
+# pip install git+https://github.com/huggingface/transformers
 srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
-    --model_name_or_path "$HOME/RAGvsFT/component2_AnsGen/models/popQA/mistral_popQA_peft_v34/checkpoint-16398" \
-    --llm_model_name "mistral" \
+    --model_name_or_path "$HOME/RAGvsFT/component2_AnsGen/models/popQA/zephyr_popQA_peft_v42/checkpoint-16398" \
+    --llm_model_name "zephyr" \
     --dataset_name "popQA" \
-    --output_file_pre_prefix "nw_af" \
+    --output_file_pre_prefix "nw_nw_af" \
     --with_peft True \
-    --with_rag True \
-    --retrieval_method "ideal" \
+    --with_rag False \
+    --retrieval_method "" \
     --seed 42
 
 

@@ -202,7 +202,7 @@ def load_model(args):
             
             model = AutoModelForCausalLM.from_pretrained(
                 args.model_name_or_path,
-                load_in_4bit=True,
+                # load_in_4bit=True,
                 quantization_config=bnb_config,
                 torch_dtype=torch.bfloat16,
                 device_map="auto",
