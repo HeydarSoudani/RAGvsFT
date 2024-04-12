@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=12:00:00
+#SBATCH --time=8:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 module load 2022
@@ -15,12 +15,12 @@ module load Python/3.10.4-GCCcore-11.3.0
 # pip install accelerate==0.27.2
 
 srun $HOME/RAGvsFT/component2_AnsGen/finetuning/llm_finetuning.py \
-    --model_name_or_path "meta-llama/Llama-2-7b-chat-hf" \
-    --llm_model_name "llama2" \
+    --model_name_or_path "$HOME//RAGvsFT/component2_AnsGen/models/witQA/stable_lm2_witQA_peft_v51/checkpoint-18128" \
+    --llm_model_name "stable_lm2" \
     --dataset_name "witQA" \
     --generation_method "prompting" \
     --with_peft True \
-    --version 43
+    --version 51
 
 
 # Model name: [

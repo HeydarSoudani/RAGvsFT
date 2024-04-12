@@ -288,7 +288,7 @@ def main(args):
     set_seed(42)
     
     # == Parameters per model ==============================
-    if args.llm_model_name in ['llama2', 'mistral', 'zephyr', 'tiny_llama', 'stable_lm2']:
+    if args.llm_model_name in ['llama2', 'mistral', 'zephyr', 'tiny_llama', 'stable_lm2', 'MiniCPM']:
         args.lora_alpha = 16
         args.lora_dropout = 0.1
         args.lora_r = 64
@@ -305,8 +305,8 @@ def main(args):
         args.group_by_length=True
         args.lr_scheduler_type="constant"
     
-    elif args.llm_model_name in ['MiniCPM']:
-        pass
+    # elif args.llm_model_name in ['MiniCPM']:
+    #     pass
     
     if args.llm_model_name in ["llama2", "mistral"]:
         args.prompt_template = """<s>[INST] <<SYS>><</SYS>> \n Question: {question} \n[/INST] Answer: {answer} </s>"""
@@ -318,12 +318,7 @@ def main(args):
         args.prompt_template = """<|user|>\n Question: {question}<|endoftext|>\n<|assistant|>\n Answer: {answer}<|endoftext|>"""
     
     elif args.llm_model_name == "MiniCPM":
-        args.prompt_template = """
-        <User> You are an Answer Generator system. Your goal is to provide one-entity responses to questions, drawing upon either the context provided or your own stored knowledge.\n
-        Question: {question}\n
-        <AI>\n
-        Answer: {answer}
-        """
+        args.prompt_template = """<User>\n Question: {question}\n <AI>\n Answer: {answer}"""
     
     # == Load data & model ==================================
     model, tokenizer, peft_config = load_model(args)
@@ -331,7 +326,7 @@ def main(args):
     raw_dataset = load_dataset_qa(test_files)
     training_arguments = load_training_args(args)
     
-    if args.llm_model_name in ["llama2", "mistral", "tiny_llama"]:
+    if args.llm_model_name in ["llama2", "mistral", "tiny_llama", "MiniCPM"]:
         max_seq_length = None
     elif args.llm_model_name in ["zephyr", "stable_lm2"]:
         max_seq_length = 512 # 2048
@@ -349,8 +344,8 @@ def main(args):
     )
     
     print("Fine-tuning ....")
-    trainer.train()
-    # trainer.train(resume_from_checkpoint=True)
+    # trainer.train()
+    trainer.train(resume_from_checkpoint=True)
     model.save_pretrained(args.save_model_dir)
     model.push_to_hub(args.repo_name, token=True)
     print("Fine-tuning is done.")
