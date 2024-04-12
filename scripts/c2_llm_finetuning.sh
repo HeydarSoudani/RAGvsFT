@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=14:00:00
+#SBATCH --time=12:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 module load 2022
@@ -15,12 +15,12 @@ module load Python/3.10.4-GCCcore-11.3.0
 # pip install accelerate==0.27.2
 
 srun $HOME/RAGvsFT/component2_AnsGen/finetuning/llm_finetuning.py \
-    --model_name_or_path "HuggingFaceH4/zephyr-7b-beta" \
-    --llm_model_name "zephyr" \
-    --dataset_name "popQA" \
+    --model_name_or_path "meta-llama/Llama-2-7b-chat-hf" \
+    --llm_model_name "llama2" \
+    --dataset_name "witQA" \
     --generation_method "prompting" \
     --with_peft True \
-    --version 42
+    --version 43
 
 
 # Model name: [

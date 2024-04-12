@@ -293,7 +293,7 @@ def main(args):
         args.lora_dropout = 0.1
         args.lora_r = 64
         args.epochs = 2
-        args.batch_size = 8
+        args.batch_size = 4
         args.gradient_accumulation_steps = 1
         args.optim = "paged_adamw_32bit"
         args.lr = 2e-4
@@ -315,7 +315,7 @@ def main(args):
         args.prompt_template = """<|system|> </s>\n <|user|> Question: {question}</s>\n <|assistant|> Answer: {answer} </s>"""
     
     elif args.llm_model_name == "stable_lm2":
-        args.prompt_template = """<|user|>\n Context: {context}\n Question: {question}<|endoftext|>\n<|assistant|>\n Answer: {answer}<|endoftext|>"""
+        args.prompt_template = """<|user|>\n Question: {question}<|endoftext|>\n<|assistant|>\n Answer: {answer}<|endoftext|>"""
     
     elif args.llm_model_name == "MiniCPM":
         args.prompt_template = """
