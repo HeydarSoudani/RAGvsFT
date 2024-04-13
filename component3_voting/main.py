@@ -208,6 +208,7 @@ def prompting_final_answer(query, samples):
     )
     prompt = """Context: {context} \n Based on the provided context, answer the question: {question}"""
     prompt.format(context=' '.join(samples), question=query)
+    print(f"Prompt: {prompt}")
     
     result = pipe(prompt)[0]['generated_text']
     return result
@@ -239,12 +240,14 @@ def main():
             accuracy.append(is_correct)
             
             if idx < 10 or idx % 300 == 0:
-                print('\n')
+                
+                
                 print(f"Query: {query}")
                 print(f"Pred: {pred}")
                 print(f"Labels: {test_answers[idx]}")
                 print(f"Final decision: {is_correct}")
                 print('====')
+                print('\n')
             
             item = {
                 "query_id": query_id,
