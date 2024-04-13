@@ -195,22 +195,24 @@ def vote(samples):
     return final_answer
 
 
+tokenizer = AutoTokenizer.from_pretrained(
+    "google/flan-t5-small",
+    trust_remote_code=True
+)
+pipe = pipeline(
+    task="text2text-generation",
+    model="google/flan-t5-small",
+    tokenizer=tokenizer,
+    max_new_tokens = None
+)
+prompt = """Context: {context} \n Based on the provided context, answer the question: {question}"""
+
 def prompting_final_answer(query, samples):
-    tokenizer = AutoTokenizer.from_pretrained(
-        "google/flan-t5-small",
-        trust_remote_code=True
-    )
-    pipe = pipeline(
-        task="text2text-generation",
-        model="google/flan-t5-small",
-        tokenizer=tokenizer,
-        max_new_tokens = None
-    )
-    prompt = """Context: {context} \n Based on the provided context, answer the question: {question}"""
-    prompt.format(context=' '.join(samples), question=query)
+
+    inp = prompt.format(context=' '.join(samples), question=query)
     print(f"Prompt: {prompt}")
     
-    result = pipe(prompt)[0]['generated_text']
+    result = pipe(inp)[0]['generated_text']
     return result
 
 
