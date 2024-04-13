@@ -401,7 +401,7 @@ def calculated_accuracy(objects):
 def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=False):
     
     ### ==== Define Variables =============
-    model_name = gen_models[6]
+    model_name = gen_models[-1]
     
     if model_name in ["flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl"]:
         model_type = 'flant5'
@@ -414,9 +414,11 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
     retrieval_model = 'ideal'
     result_files = [
         {"title": "NoFT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
-        {"title": f"NoFT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_bf_rag_{retrieval_model}_full_results.jsonl"},
+        # {"title": f"NoFT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_bf_rag_{retrieval_model}_full_results.jsonl"},
         {"title": "FT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
-        {"title": f"FT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
+        # {"title": f"FT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
+        # {"title": f"voting", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_voting_results.jsonl"},
+        {"title": f"voting_2", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_voting_2_results.jsonl"},
         # {"title": f"NoFT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
         # {"title": f"FT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
     ]

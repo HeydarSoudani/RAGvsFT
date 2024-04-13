@@ -151,7 +151,8 @@ def load_model(args):
             
         tokenizer = AutoTokenizer.from_pretrained(
             args.model_name_or_path,
-            trust_remote_code=True)
+            trust_remote_code=True
+        )
 
     if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
         tokenizer.pad_token = tokenizer.eos_token
