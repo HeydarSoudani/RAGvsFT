@@ -210,7 +210,7 @@ prompt = """Context: {context} \n Based on the provided context, answer the ques
 def prompting_final_answer(query, samples):
 
     inp = prompt.format(context=' '.join(samples), question=query)
-    print(f"Prompt: {prompt}")
+    print(f"Prompt: {inp}")
     
     result = pipe(inp)[0]['generated_text']
     return result
