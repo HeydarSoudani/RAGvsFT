@@ -212,7 +212,7 @@ Responses from QA Systems:
 - QA System 1: "{answer1}"
 - QA System 2: "{answer2}"
 
-Analyze the provided answers, integrate the accurate and relevant information, and generate a comprehensive response.
+Based on the provided responses, Give your final one-entity answer to the question:
 """
 
 def prompting_final_answer(query, samples):
