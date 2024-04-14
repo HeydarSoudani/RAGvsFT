@@ -196,7 +196,7 @@ def vote(samples):
 
 
 tokenizer = AutoTokenizer.from_pretrained(
-    "google/flan-t5-small",
+    "HuggingFaceH4/zephyr-7b-beta",
     trust_remote_code=True
 )
 pipe = pipeline(
