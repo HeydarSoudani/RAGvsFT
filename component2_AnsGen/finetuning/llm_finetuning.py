@@ -216,7 +216,34 @@ def load_model(args):
             model = get_peft_model(model, peft_config)
             
         elif args.llm_model_name in ["MiniCPM"]:
-            pass
+            bnb_config = BitsAndBytesConfig(
+                load_in_4bit=True,
+                bnb_4bit_quant_type="nf4",
+                bnb_4bit_compute_dtype=torch.float16,
+                bnb_4bit_use_double_quant=False,
+            )
+            peft_config = LoraConfig(
+                lora_alpha=args.lora_alpha,
+                lora_dropout=args.lora_dropout,
+                r=args.lora_r,
+                bias="none",
+                task_type="CAUSAL_LM",
+                target_modules=["q_proj", "v_proj"],
+                init_lora_weights="gaussian",
+                inference_mode=False
+            )
+            model = AutoModelForCausalLM.from_pretrained(
+                args.model_name_or_path,
+                quantization_config=bnb_config,
+                device_map="auto",
+                trust_remote_code=True,
+            )
+            # model.config.use_cache = False
+            # model.config.pretraining_tp = 1
+            # model.gradient_checkpointing_enable()
+            
+            # model = prepare_model_for_kbit_training(model)
+            model = get_peft_model(model, peft_config)
                
     else:
         model = AutoModelForCausalLM.from_pretrained(
@@ -292,7 +319,7 @@ def main(args):
         args.lora_alpha = 16
         args.lora_dropout = 0.1
         args.lora_r = 64
-        args.epochs = 2
+        args.epochs = 5
         args.batch_size = 4
         args.gradient_accumulation_steps = 1
         args.optim = "paged_adamw_32bit"
@@ -305,8 +332,23 @@ def main(args):
         args.group_by_length=True
         args.lr_scheduler_type="constant"
     
-    # elif args.llm_model_name in ['MiniCPM']:
-    #     pass
+    elif args.llm_model_name in ['MiniCPM']:
+        args.lora_alpha = 32
+        args.lora_dropout = 0.1
+        args.lora_r = 8
+        args.epochs = 2
+        args.batch_size = 32
+        args.lr = 5e-5
+        args.gradient_accumulation_steps = 1
+        args.optim = "paged_adamw_32bit"
+        args.fp16 = False
+        args.bf16 = False
+        args.weight_decay=0.001
+        args.max_grad_norm=0.3
+        args.warmup_ratio=0.03
+        args.group_by_length=True
+        args.lr_scheduler_type="constant"
+        
     
     if args.llm_model_name in ["llama2", "mistral"]:
         args.prompt_template = """<s>[INST] <<SYS>><</SYS>> \n Question: {question} \n[/INST] Answer: {answer} </s>"""
@@ -326,10 +368,12 @@ def main(args):
     raw_dataset = load_dataset_qa(test_files)
     training_arguments = load_training_args(args)
     
-    if args.llm_model_name in ["llama2", "mistral", "tiny_llama", "MiniCPM"]:
+    if args.llm_model_name in ["llama2", "mistral", "tiny_llama"]:
         max_seq_length = None
     elif args.llm_model_name in ["zephyr", "stable_lm2"]:
         max_seq_length = 512 # 2048
+    elif args.llm_model_name == 'MiniCPM':
+        max_seq_length = 384
     
     trainer = SFTTrainer(
         model=model,

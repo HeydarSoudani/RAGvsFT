@@ -234,8 +234,8 @@ def main():
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 10:
-                break
+            # if idx == 10:
+            #     break
         
             answers = get_pred_values(query_id, result_list)
             # pred = vote(list(answers.values()))
@@ -249,14 +249,20 @@ def main():
             accuracy.append(is_correct)
             
             if idx < 10 or idx % 300 == 0:
+                logging.info('\n')
+                logging.info(f"Query: {query}")
+                logging.info(f"Pred: {pred}")
+                logging.info(f"Labels: {test_answers[idx]}")
+                logging.info(f"Final decision: {is_correct}")
+                logging.info('====')
                 
-                
+                print('\n')
                 print(f"Query: {query}")
                 print(f"Pred: {pred}")
                 print(f"Labels: {test_answers[idx]}")
                 print(f"Final decision: {is_correct}")
                 print('====')
-                print('\n')
+                
             
             item = {
                 "query_id": query_id,

@@ -15,12 +15,12 @@ module load Python/3.10.4-GCCcore-11.3.0
 # pip install accelerate==0.27.2
 
 srun $HOME/RAGvsFT/component2_AnsGen/finetuning/llm_finetuning.py \
-    --model_name_or_path "$HOME//RAGvsFT/component2_AnsGen/models/witQA/stable_lm2_witQA_peft_v51/checkpoint-18128" \
-    --llm_model_name "stable_lm2" \
-    --dataset_name "witQA" \
+    --model_name_or_path "$HOME/RAGvsFT/component2_AnsGen/models/popQA/tiny_llama_popQA_peft_v49/checkpoint-16398" \
+    --llm_model_name "tiny_llama" \
+    --dataset_name "popQA" \
     --generation_method "prompting" \
     --with_peft True \
-    --version 51
+    --version 49
 
 
 # Model name: [

@@ -113,7 +113,8 @@ def load_model(args):
                 low_cpu_mem_usage=True,
                 return_dict=True,
                 torch_dtype=torch.float16,
-                device_map={"":0} # Load the entire model on the GPU 0
+                device_map={"":0},
+                trust_remote_code=True
             )
         elif args.llm_model_name == "flant5":
             base_model = AutoModelForSeq2SeqLM.from_pretrained(
