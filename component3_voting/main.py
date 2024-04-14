@@ -200,25 +200,29 @@ tokenizer = AutoTokenizer.from_pretrained(
     trust_remote_code=True
 )
 pipe = pipeline(
-    task="text2text-generation",
-    model="google/flan-t5-small",
+    task="text-generation",
+    model="HuggingFaceH4/zephyr-7b-beta",
     tokenizer=tokenizer,
     max_new_tokens = None
 )
-prompt = """Context: {context} \n Based on the provided context, answer the question: {question}"""
+prompt = """"
+Question: {question}
+
+Responses from QA Systems:
+- QA System 1: "{answer1}"
+- QA System 2: "{answer2}"
+
+Analyze the provided answers, integrate the accurate and relevant information, and generate a comprehensive response.
+"""
 
 def prompting_final_answer(query, samples):
-
-    inp = prompt.format(context=' '.join(samples), question=query)
+    inp = prompt.format(question=query, answer1=samples[0], answer2=samples[1])
     print(f"Prompt: {inp}")
     
     result = pipe(inp)[0]['generated_text']
     return result
 
-
 def main():
-    
-
     test_relation_ids, test_files, relation_files = load_relations_data()
     test_questions, test_answers = load_dataset(test_files)
     result_list = [result['filename'] for result in result_files]
