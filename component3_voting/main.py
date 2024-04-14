@@ -212,7 +212,7 @@ Responses from QA Systems:
 - QA System 1: "{answer1}"
 - QA System 2: "{answer2}"
 
-Based on the provided responses, give your final one-entity answer to the question. Answer: [/INST]
+Based on the responses from different QA systems, give your final one-entity resoinse to the question. The final answer is [/INST]
 """
 
 def prompting_final_answer(query, samples):
