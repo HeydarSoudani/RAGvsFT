@@ -203,7 +203,7 @@ pipe = pipeline(
     task="text-generation",
     model="meta-llama/Llama-2-7b-chat-hf",
     tokenizer=tokenizer,
-    max_new_tokens = None
+    max_new_tokens = 20
 )
 prompt = """"
 Question: {question}
