@@ -212,7 +212,7 @@ Responses from QA Systems:
 - QA System 1: "{answer1}"
 - QA System 2: "{answer2}"
 
-Based on the provided responses, Give your final one-entity answer to the question. Answer: [/INST]
+Based on the provided responses, give your final one-entity answer to the question. Answer: [/INST]
 """
 
 def prompting_final_answer(query, samples):
@@ -237,7 +237,8 @@ def main():
         
             answers = get_pred_values(query_id, result_list)
             # pred = vote(list(answers.values()))
-            pred = prompting_final_answer(query, list(answers.values()))
+            result = prompting_final_answer(query, list(answers.values()))
+            pred = result.split("[/INST]")[1].strip()
         
             is_correct = False
             for pa in test_answers[idx]:
