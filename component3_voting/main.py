@@ -212,7 +212,7 @@ Responses from QA Systems:
 - QA System 1: "{answer1}"
 - QA System 2: "{answer2}"
 
-Based on the provided responses, Give your final one-entity answer to the question:
+Based on the provided responses, Give your final one-entity answer to the question. Answer:
 """
 
 def prompting_final_answer(query, samples):
