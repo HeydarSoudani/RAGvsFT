@@ -217,7 +217,7 @@ Based on the responses from different QA systems, give your final one-entity res
 
 def prompting_final_answer(query, samples):
     inp = prompt.format(question=query, answer1=samples[0], answer2=samples[1])
-    print(f"Prompt: {inp}")
+    # print(f"Prompt: {inp}")
     
     result = pipe(inp)[0]['generated_text']
     return result
