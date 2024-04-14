@@ -115,7 +115,6 @@ def load_dataset(test_files):
     # print("Test dataset is loaded.")
     return test_questions, test_answers
 
-
 def get_pred_values(query_id, file_list):
     # Dictionary to store results with filename as key and pred value as value
     results = {}
@@ -212,7 +211,8 @@ Responses from QA Systems:
 - QA System 1: "{answer1}"
 - QA System 2: "{answer2}"
 
-Based on the responses from different QA systems, give your final one-entity resoinse to the question. The final answer is [/INST]
+Based on the answers from different QA systems, give your final single-entity answer to the question.
+Please do not add an explanation and only answer in one entity. The final answer is: [/INST]
 """
 
 def prompting_final_answer(query, samples):
