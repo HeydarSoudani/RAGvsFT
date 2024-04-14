@@ -196,12 +196,12 @@ def vote(samples):
 
 
 tokenizer = AutoTokenizer.from_pretrained(
-    "HuggingFaceH4/zephyr-7b-beta",
+    "meta-llama/Llama-2-7b-chat-hf",
     trust_remote_code=True
 )
 pipe = pipeline(
     task="text-generation",
-    model="HuggingFaceH4/zephyr-7b-beta",
+    model="meta-llama/Llama-2-7b-chat-hf",
     tokenizer=tokenizer,
     max_new_tokens = None
 )
