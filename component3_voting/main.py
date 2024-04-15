@@ -4,6 +4,7 @@ import os
 import json
 import random
 import logging
+import argparse
 from tqdm import tqdm
 from difflib import SequenceMatcher
 
@@ -19,12 +20,18 @@ from nltk.metrics.distance import edit_distance
 from transformers import pipeline
 from transformers import AutoTokenizer
 
+logging.basicConfig(level=logging.DEBUG,
+    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+    datefmt='%m/%d/%Y %I:%M:%S %p',
+    handlers=[logging.StreamHandler()]
+)
+
 
 base_path  = "component0_preprocessing/generated_data"
 dataset_name = 'popQA'
 target_relation_ids = 'all'
 subset_percentage = 1.0
-similarity_method = 'prompting' # 'seq_match', 'bert_score', 'cosine', 'jaccard', 'levenshtein', 'prompting'
+similarity_method = 'prompting_zephyr' # 'seq_match', 'bert_score', 'cosine', 'jaccard', 'levenshtein', 'prompting'
 
 gen_models = [
     "flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl",
@@ -168,7 +175,6 @@ def levenshtein_distance(s1, s2):
     return edit_dist
 
 def vote(samples):
-    """ Determine the sample with the highest total similarity score to all other samples. """
     # Initialize similarity scores dictionary
     similarity_scores = {sample: 0 for sample in samples}
 
@@ -196,41 +202,63 @@ def vote(samples):
     return final_answer
 
 
-tokenizer = AutoTokenizer.from_pretrained(
-    "meta-llama/Llama-2-7b-chat-hf",
-    trust_remote_code=True
-)
-pipe = pipeline(
-    task="text-generation",
-    model="meta-llama/Llama-2-7b-chat-hf",
-    tokenizer=tokenizer,
-    max_new_tokens = 100
-)
-prompt = """"<s>[INST] <<SYS>><</SYS>>
-Question: {question}
 
-Responses from QA Systems:
-- QA System 1: "{answer1}"
-- QA System 2: "{answer2}"
-
-Based on the answers from different QA systems, give your final single-entity answer to the question.
-Please do not add an explanation and only answer in one entity. The final answer is: [/INST]
-"""
-
-def prompting_final_answer(query, samples):
-    inp = prompt.format(question=query, answer1=samples[0], answer2=samples[1])
-    print(f"Prompt: {inp}")
+# def prompting_final_answer(query, samples):
+#     inp = prompt.format(question=query, answer1=samples[0], answer2=samples[1])
+#     # print(f"Prompt: {inp}")
     
-    result = pipe(inp)[0]['generated_text']
-    return result
+#     result = pipe(inp)[0]['generated_text']
+#     return result
 
-def main():
+def main(args):
     test_relation_ids, test_files, relation_files = load_relations_data()
     test_questions, test_answers = load_dataset(test_files)
     result_list = [result['filename'] for result in result_files]
     
-    accuracy = []
+    tokenizer = AutoTokenizer.from_pretrained(
+        args.model_name_or_path,
+        trust_remote_code=True
+    )
+    pipe = pipeline(
+        task="text-generation",
+        model=args.model_name_or_path,
+        tokenizer=tokenizer,
+        max_new_tokens = 40
+    )
     
+    if args.llm_model_name in ["llama2", "mistral"]:
+        prompt = """"<s>[INST] <<SYS>><</SYS>>
+        Question: {question}
+
+        Responses from QA Systems:
+        - QA System 1: "{answer1}"
+        - QA System 2: "{answer2}"
+
+        Based on the answers from different QA systems, give your final single-entity answer to the question.
+        Please do not add an explanation and only answer in one entity. The final answer is: [/INST]
+        """
+    elif args.llm_model_name in ["zephyr", "tiny_llama"]:
+        prompt = """<|system|> </s>\n <|user|> 
+        Question: {question}
+
+        Responses from QA Systems:
+        - QA System 1: "{answer1}"
+        - QA System 2: "{answer2}"
+
+        Based on the answers from different QA systems, give your final single-entity answer to the question.
+        Please do not add an explanation and only answer in one entity. The final answer is: </s>\n <|assistant|>"""
+        
+    elif args.llm_model_name == "stable_lm2":
+        prompt = """<|user|>\n Question: {question}
+
+        Responses from QA Systems:
+        - QA System 1: "{answer1}"
+        - QA System 2: "{answer2}"
+
+        Based on the answers from different QA systems, give your final single-entity answer to the question.
+        Please do not add an explanation and only answer in one entity. The final answer is:<|endoftext|>\n<|assistant|>"""
+    
+    accuracy = []
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
@@ -238,30 +266,40 @@ def main():
             #     break
         
             answers = get_pred_values(query_id, result_list)
-            # pred = vote(list(answers.values()))
-            result = prompting_final_answer(query, list(answers.values()))
-            pred = result.split("[/INST]")[1].strip()
-        
+            answers_val = list(answers.values())
+            
+            # pred = vote(answers_val)            
+            input = prompt.format(question=query, answer1=answers_val[0], answer2=answers_val[1])
+            result = pipe(input)[0]['generated_text']
+            
+            if args.llm_model_name in ["llama2", "mistral"]:
+                pred = result.split("[/INST]")[1].strip()
+            elif args.llm_model_name in ['zephyr', "stable_lm2", "tiny_llama"]:
+                pred = result.split("<|assistant|>")[1].strip()
+            
             is_correct = False
             for pa in test_answers[idx]:
                     if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
                         is_correct = True
             accuracy.append(is_correct)
             
+            # if (idx < 10) or (idx % 300 == 0):
             if idx < 10 or idx % 300 == 0:
                 logging.info('\n')
+                logging.info(f"Prompt: {input}")
                 logging.info(f"Query: {query}")
                 logging.info(f"Pred: {pred}")
                 logging.info(f"Labels: {test_answers[idx]}")
                 logging.info(f"Final decision: {is_correct}")
                 logging.info('====')
                 
-                print('\n')
-                print(f"Query: {query}")
-                print(f"Pred: {pred}")
-                print(f"Labels: {test_answers[idx]}")
-                print(f"Final decision: {is_correct}")
-                print('====')
+                # print('\n')
+                # print(f"Prompt: {input}")
+                # print(f"Query: {query}")
+                # print(f"Pred: {pred}")
+                # print(f"Labels: {test_answers[idx]}")
+                # print(f"Final decision: {is_correct}")
+                # print('====')
                 
             
             item = {
@@ -280,4 +318,9 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--model_name_or_path", type=str, required=True)
+    parser.add_argument("--llm_model_name", type=str, required=True)
+    
+    args = parser.parse_args()
+    main(args)

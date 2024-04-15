@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=1:00:00
+#SBATCH --time=15:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -13,7 +13,8 @@ module load Python/3.10.4-GCCcore-11.3.0
 
 # pip install git+https://github.com/huggingface/transformers
 srun $HOME/RAGvsFT/component3_voting/main.py \
-    --model_name_or_path "openbmb/MiniCPM-2B-sft-fp32"
+    --model_name_or_path "HuggingFaceH4/zephyr-7b-beta" \
+    --llm_model_name "zephyr"
 
 
 # output_file_pre_prefix -> 
