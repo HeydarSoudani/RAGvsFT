@@ -312,7 +312,7 @@ def save_evaluation_files_v2(retriever, results, args):
                 
                 # Create qrels for each bucket
                 qrels_bk_all = {}
-                for item in qrels_rel_data:
+                for item in all_qrels:
                     query_id, corpus_id, score = item["query_id"], item["doc_id"], int(item["score"])
                     if item["query_id"] in qid_list:
                         if query_id not in qrels_bk_all:
