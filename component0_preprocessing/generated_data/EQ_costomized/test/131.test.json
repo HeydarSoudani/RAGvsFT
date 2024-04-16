@@ -1,19 +1,11 @@
 [
     {
-        "query_id": "131_0",
-        "question": "Where is West Central El Paso located?",
-        "answers": [
-            "Texas"
-        ],
-        "pageviews": 1644
-    },
-    {
         "query_id": "131_1",
         "question": "Where is Toccoa located?",
         "answers": [
             "Stephens County"
         ],
-        "pageviews": 52932
+        "pageviews": 109
     },
     {
         "query_id": "131_2",
@@ -21,7 +13,7 @@
         "answers": [
             "Armavir Region"
         ],
-        "pageviews": 1672
+        "pageviews": 1
     },
     {
         "query_id": "131_3",
@@ -29,7 +21,7 @@
         "answers": [
             "Belfast"
         ],
-        "pageviews": 12493
+        "pageviews": 7
     },
     {
         "query_id": "131_4",
@@ -37,7 +29,7 @@
         "answers": [
             "Gmina Piaski, Lublin Voivodeship"
         ],
-        "pageviews": 326
+        "pageviews": 1
     },
     {
         "query_id": "131_5",
@@ -45,7 +37,7 @@
         "answers": [
             "Myitkyina District"
         ],
-        "pageviews": 418
+        "pageviews": 1
     },
     {
         "query_id": "131_6",
@@ -53,7 +45,7 @@
         "answers": [
             "Texas"
         ],
-        "pageviews": 9241
+        "pageviews": 23
     },
     {
         "query_id": "131_7",
@@ -61,15 +53,7 @@
         "answers": [
             "New Jersey"
         ],
-        "pageviews": 1457
-    },
-    {
-        "query_id": "131_8",
-        "question": "Where is Yishan located?",
-        "answers": [
-            "Zoucheng"
-        ],
-        "pageviews": 620
+        "pageviews": 3
     },
     {
         "query_id": "131_9",
@@ -77,7 +61,7 @@
         "answers": [
             "Phillips County"
         ],
-        "pageviews": 5144
+        "pageviews": 8
     },
     {
         "query_id": "131_10",
@@ -85,7 +69,7 @@
         "answers": [
             "Morbihan"
         ],
-        "pageviews": 2812
+        "pageviews": 1
     },
     {
         "query_id": "131_11",
@@ -93,7 +77,7 @@
         "answers": [
             "Benton County"
         ],
-        "pageviews": 23565
+        "pageviews": 52
     },
     {
         "query_id": "131_12",
@@ -101,7 +85,7 @@
         "answers": [
             "Collin County"
         ],
-        "pageviews": 8046
+        "pageviews": 7
     },
     {
         "query_id": "131_13",
@@ -109,7 +93,7 @@
         "answers": [
             "Qom Province"
         ],
-        "pageviews": 542
+        "pageviews": 1
     },
     {
         "query_id": "131_14",
@@ -117,7 +101,7 @@
         "answers": [
             "Major County"
         ],
-        "pageviews": 1522
+        "pageviews": 5
     },
     {
         "query_id": "131_15",
@@ -125,7 +109,7 @@
         "answers": [
             "Shiraz"
         ],
-        "pageviews": 19449
+        "pageviews": 7
     },
     {
         "query_id": "131_16",
@@ -133,7 +117,7 @@
         "answers": [
             "New South Wales"
         ],
-        "pageviews": 6442
+        "pageviews": 10
     },
     {
         "query_id": "131_17",
@@ -141,7 +125,7 @@
         "answers": [
             "Douglas County"
         ],
-        "pageviews": 65628
+        "pageviews": 226
     },
     {
         "query_id": "131_18",
@@ -149,7 +133,7 @@
         "answers": [
             "Niederstetten"
         ],
-        "pageviews": 2102
+        "pageviews": 2
     },
     {
         "query_id": "131_19",
@@ -157,16 +141,7 @@
         "answers": [
             "Noordenveld"
         ],
-        "pageviews": 830
-    },
-    {
-        "query_id": "131_20",
-        "question": "Where is Bhuttewadi located?",
-        "answers": [
-            "Belgaum district",
-            "Karnataka"
-        ],
-        "pageviews": 723
+        "pageviews": 2
     },
     {
         "query_id": "131_21",
@@ -174,7 +149,7 @@
         "answers": [
             "Province of Buenos Aires"
         ],
-        "pageviews": 1150
+        "pageviews": 1
     },
     {
         "query_id": "131_22",
@@ -182,7 +157,7 @@
         "answers": [
             "Jefferson County"
         ],
-        "pageviews": 1275
+        "pageviews": 1
     },
     {
         "query_id": "131_23",
@@ -190,7 +165,7 @@
         "answers": [
             "Washington County"
         ],
-        "pageviews": 689
+        "pageviews": 1
     },
     {
         "query_id": "131_24",
@@ -198,7 +173,7 @@
         "answers": [
             "Staffordshire"
         ],
-        "pageviews": 954
+        "pageviews": 1
     },
     {
         "query_id": "131_25",
@@ -206,7 +181,7 @@
         "answers": [
             "Stokenchurch"
         ],
-        "pageviews": 36052
+        "pageviews": 19
     },
     {
         "query_id": "131_26",
@@ -214,7 +189,7 @@
         "answers": [
             "Brazil"
         ],
-        "pageviews": 132693
+        "pageviews": 875
     },
     {
         "query_id": "131_27",
@@ -222,15 +197,7 @@
         "answers": [
             "North Lincolnshire"
         ],
-        "pageviews": 1928
-    },
-    {
-        "query_id": "131_28",
-        "question": "Where is Gori\u010dica pod Krimom located?",
-        "answers": [
-            "Brezovica Municipality"
-        ],
-        "pageviews": 529
+        "pageviews": 2
     },
     {
         "query_id": "131_29",
@@ -238,15 +205,7 @@
         "answers": [
             "Ontario"
         ],
-        "pageviews": 1198
-    },
-    {
-        "query_id": "131_30",
-        "question": "Where is La Rochette located?",
-        "answers": [
-            "Seine-et-Marne"
-        ],
-        "pageviews": 1953
+        "pageviews": 1
     },
     {
         "query_id": "131_31",
@@ -254,7 +213,7 @@
         "answers": [
             "West Windsor Township"
         ],
-        "pageviews": 1483
+        "pageviews": 1
     },
     {
         "query_id": "131_32",
@@ -262,7 +221,7 @@
         "answers": [
             "Bohinj Municipality"
         ],
-        "pageviews": 598
+        "pageviews": 1
     },
     {
         "query_id": "131_33",
@@ -270,7 +229,7 @@
         "answers": [
             "Tariq ol Eslam Rural District"
         ],
-        "pageviews": 419
+        "pageviews": 1
     },
     {
         "query_id": "131_34",
@@ -278,7 +237,7 @@
         "answers": [
             "Idaho"
         ],
-        "pageviews": 14466
+        "pageviews": 48
     },
     {
         "query_id": "131_35",
@@ -286,7 +245,7 @@
         "answers": [
             "Pennsylvania"
         ],
-        "pageviews": 2604
+        "pageviews": 2
     },
     {
         "query_id": "131_36",
@@ -294,7 +253,7 @@
         "answers": [
             "Espoo"
         ],
-        "pageviews": 3454
+        "pageviews": 22
     },
     {
         "query_id": "131_37",
@@ -302,7 +261,7 @@
         "answers": [
             "Sabou Department"
         ],
-        "pageviews": 477
+        "pageviews": 1
     },
     {
         "query_id": "131_38",
@@ -310,15 +269,7 @@
         "answers": [
             "Dickenson County"
         ],
-        "pageviews": 5375
-    },
-    {
-        "query_id": "131_39",
-        "question": "Where is Banty located?",
-        "answers": [
-            "Bryan County"
-        ],
-        "pageviews": 761
+        "pageviews": 3
     },
     {
         "query_id": "131_40",
@@ -326,7 +277,7 @@
         "answers": [
             "Gmina Cekcyn"
         ],
-        "pageviews": 488
+        "pageviews": 1
     },
     {
         "query_id": "131_41",
@@ -334,23 +285,7 @@
         "answers": [
             "Fayette County"
         ],
-        "pageviews": 228
-    },
-    {
-        "query_id": "131_42",
-        "question": "Where is Hubenov located?",
-        "answers": [
-            "Jihlava District"
-        ],
-        "pageviews": 76
-    },
-    {
-        "query_id": "131_43",
-        "question": "Where is Pickerel, Virginia located?",
-        "answers": [
-            "Virginia"
-        ],
-        "pageviews": 449
+        "pageviews": 1
     },
     {
         "query_id": "131_44",
@@ -358,15 +293,7 @@
         "answers": [
             "Kewaunee"
         ],
-        "pageviews": 419
-    },
-    {
-        "query_id": "131_45",
-        "question": "Where is Leknes, Tr\u00f8ndelag located?",
-        "answers": [
-            "Leka"
-        ],
-        "pageviews": 653
+        "pageviews": 1
     },
     {
         "query_id": "131_46",
@@ -374,7 +301,7 @@
         "answers": [
             "Ipswich"
         ],
-        "pageviews": 17199
+        "pageviews": 14
     },
     {
         "query_id": "131_47",
@@ -382,15 +309,7 @@
         "answers": [
             "Munster"
         ],
-        "pageviews": 217617
-    },
-    {
-        "query_id": "131_48",
-        "question": "Where is Stillwater Dam located?",
-        "answers": [
-            "Susquehanna County"
-        ],
-        "pageviews": 1026
+        "pageviews": 2854
     },
     {
         "query_id": "131_49",
@@ -398,7 +317,7 @@
         "answers": [
             "Altena"
         ],
-        "pageviews": 6790
+        "pageviews": 4
     },
     {
         "query_id": "131_51",
@@ -406,7 +325,7 @@
         "answers": [
             "England"
         ],
-        "pageviews": 29034
+        "pageviews": 141
     },
     {
         "query_id": "131_52",
@@ -414,7 +333,7 @@
         "answers": [
             "Svalbard"
         ],
-        "pageviews": 460
+        "pageviews": 1
     },
     {
         "query_id": "131_53",
@@ -422,23 +341,7 @@
         "answers": [
             "South Cambridgeshire"
         ],
-        "pageviews": 4673
-    },
-    {
-        "query_id": "131_54",
-        "question": "Where is Cooklaw located?",
-        "answers": [
-            "Northumberland"
-        ],
-        "pageviews": 432
-    },
-    {
-        "query_id": "131_55",
-        "question": "Where is Peoples Township located?",
-        "answers": [
-            "Boone County"
-        ],
-        "pageviews": 518
+        "pageviews": 3
     },
     {
         "query_id": "131_56",
@@ -446,7 +349,7 @@
         "answers": [
             "Skaraborg County"
         ],
-        "pageviews": 2192
+        "pageviews": 9
     },
     {
         "query_id": "131_57",
@@ -454,7 +357,7 @@
         "answers": [
             "Svalbard"
         ],
-        "pageviews": 9750
+        "pageviews": 96
     },
     {
         "query_id": "131_58",
@@ -462,7 +365,7 @@
         "answers": [
             "Tayebi-ye Sarhadi-ye Sharqi Rural District"
         ],
-        "pageviews": 423
+        "pageviews": 1
     },
     {
         "query_id": "131_59",
@@ -470,15 +373,7 @@
         "answers": [
             "Kermanshah Province"
         ],
-        "pageviews": 355
-    },
-    {
-        "query_id": "131_60",
-        "question": "Where is Brunthwaite located?",
-        "answers": [
-            "Cumbria"
-        ],
-        "pageviews": 619
+        "pageviews": 1
     },
     {
         "query_id": "131_61",
@@ -486,7 +381,7 @@
         "answers": [
             "Gmina Przygodzice"
         ],
-        "pageviews": 669
+        "pageviews": 1
     },
     {
         "query_id": "131_62",
@@ -494,7 +389,7 @@
         "answers": [
             "Pennsylvania"
         ],
-        "pageviews": 7347
+        "pageviews": 40
     },
     {
         "query_id": "131_63",
@@ -502,15 +397,7 @@
         "answers": [
             "San Luis Obispo County"
         ],
-        "pageviews": 10031
-    },
-    {
-        "query_id": "131_64",
-        "question": "Where is Todey located?",
-        "answers": [
-            "West Bengal"
-        ],
-        "pageviews": 2802
+        "pageviews": 1
     },
     {
         "query_id": "131_65",
@@ -518,7 +405,7 @@
         "answers": [
             "Una-Sana Canton"
         ],
-        "pageviews": 13569
+        "pageviews": 72
     },
     {
         "query_id": "131_66",
@@ -526,7 +413,7 @@
         "answers": [
             "Texas"
         ],
-        "pageviews": 4372
+        "pageviews": 3
     },
     {
         "query_id": "131_67",
@@ -534,7 +421,7 @@
         "answers": [
             "Gilan Province"
         ],
-        "pageviews": 424
+        "pageviews": 1
     },
     {
         "query_id": "131_68",
@@ -542,7 +429,7 @@
         "answers": [
             "England"
         ],
-        "pageviews": 3016
+        "pageviews": 19
     },
     {
         "query_id": "131_69",
@@ -550,15 +437,7 @@
         "answers": [
             "Murshidabad district"
         ],
-        "pageviews": 7441
-    },
-    {
-        "query_id": "131_70",
-        "question": "Where is MacCumhail Park located?",
-        "answers": [
-            "Ballybofey"
-        ],
-        "pageviews": 5742
+        "pageviews": 14
     },
     {
         "query_id": "131_71",
@@ -566,7 +445,7 @@
         "answers": [
             "Charente"
         ],
-        "pageviews": 1410
+        "pageviews": 3
     },
     {
         "query_id": "131_72",
@@ -574,7 +453,7 @@
         "answers": [
             "Chaldoran County"
         ],
-        "pageviews": 2319
+        "pageviews": 7
     },
     {
         "query_id": "131_73",
@@ -582,7 +461,7 @@
         "answers": [
             "Texas"
         ],
-        "pageviews": 79524
+        "pageviews": 29
     },
     {
         "query_id": "131_74",
@@ -590,7 +469,7 @@
         "answers": [
             "South Georgia and the South Sandwich Islands"
         ],
-        "pageviews": 1920
+        "pageviews": 20
     },
     {
         "query_id": "131_75",
@@ -598,7 +477,7 @@
         "answers": [
             "Zahray-ye Bala Rural District"
         ],
-        "pageviews": 657
+        "pageviews": 1
     },
     {
         "query_id": "131_76",
@@ -606,7 +485,7 @@
         "answers": [
             "Zabol County"
         ],
-        "pageviews": 594
+        "pageviews": 2
     },
     {
         "query_id": "131_77",
@@ -614,15 +493,7 @@
         "answers": [
             "Colerne"
         ],
-        "pageviews": 4465
-    },
-    {
-        "query_id": "131_78",
-        "question": "Where is Mueang Lampang located?",
-        "answers": [
-            "Lampang"
-        ],
-        "pageviews": 1676
+        "pageviews": 3
     },
     {
         "query_id": "131_79",
@@ -630,7 +501,7 @@
         "answers": [
             "Gmina Turek"
         ],
-        "pageviews": 568
+        "pageviews": 1
     },
     {
         "query_id": "131_80",
@@ -638,23 +509,7 @@
         "answers": [
             "North Lincolnshire"
         ],
-        "pageviews": 48396
-    },
-    {
-        "query_id": "131_81",
-        "question": "Where is Kovur, Kanchipuram located?",
-        "answers": [
-            "Tamil Nadu"
-        ],
-        "pageviews": 7605
-    },
-    {
-        "query_id": "131_82",
-        "question": "Where is Namazpur located?",
-        "answers": [
-            "Pirojpur District"
-        ],
-        "pageviews": 415
+        "pageviews": 48
     },
     {
         "query_id": "131_83",
@@ -662,7 +517,7 @@
         "answers": [
             "Andhra Pradesh"
         ],
-        "pageviews": 748
+        "pageviews": 1
     },
     {
         "query_id": "131_84",
@@ -670,7 +525,7 @@
         "answers": [
             "Tamil Nadu"
         ],
-        "pageviews": 963
+        "pageviews": 1
     },
     {
         "query_id": "131_85",
@@ -678,7 +533,7 @@
         "answers": [
             "Community of Madrid"
         ],
-        "pageviews": 2224
+        "pageviews": 1
     },
     {
         "query_id": "131_86",
@@ -686,15 +541,7 @@
         "answers": [
             "California"
         ],
-        "pageviews": 2033
-    },
-    {
-        "query_id": "131_87",
-        "question": "Where is Gaoming District located?",
-        "answers": [
-            "Foshan"
-        ],
-        "pageviews": 0
+        "pageviews": 1
     },
     {
         "query_id": "131_88",
@@ -702,7 +549,7 @@
         "answers": [
             "Gmina Kozienice"
         ],
-        "pageviews": 419
+        "pageviews": 1
     },
     {
         "query_id": "131_89",
@@ -710,7 +557,7 @@
         "answers": [
             "Olya Tayeb Rural District"
         ],
-        "pageviews": 367
+        "pageviews": 1
     },
     {
         "query_id": "131_90",
@@ -719,7 +566,7 @@
             "Colorado",
             "Denver"
         ],
-        "pageviews": 11305
+        "pageviews": 11
     },
     {
         "query_id": "131_91",
@@ -727,31 +574,7 @@
         "answers": [
             "Kwun Tong District"
         ],
-        "pageviews": 3671
-    },
-    {
-        "query_id": "131_92",
-        "question": "Where is Kariapatti taluk located?",
-        "answers": [
-            "Tamil Nadu"
-        ],
-        "pageviews": 936
-    },
-    {
-        "query_id": "131_93",
-        "question": "Where is Eastpointe High School located?",
-        "answers": [
-            "Eastpointe"
-        ],
-        "pageviews": 2814
-    },
-    {
-        "query_id": "131_94",
-        "question": "Where is River Bluff located?",
-        "answers": [
-            "Oldham County"
-        ],
-        "pageviews": 1304
+        "pageviews": 3
     },
     {
         "query_id": "131_95",
@@ -759,7 +582,7 @@
         "answers": [
             "Cluj County"
         ],
-        "pageviews": 838
+        "pageviews": 2
     },
     {
         "query_id": "131_96",
@@ -767,7 +590,7 @@
         "answers": [
             "Gmina Cybinka"
         ],
-        "pageviews": 999
+        "pageviews": 1
     },
     {
         "query_id": "131_97",
@@ -775,7 +598,7 @@
         "answers": [
             "Leiden"
         ],
-        "pageviews": 11931
+        "pageviews": 52
     },
     {
         "query_id": "131_98",
@@ -783,7 +606,7 @@
         "answers": [
             "Edmonton"
         ],
-        "pageviews": 1649
+        "pageviews": 2
     },
     {
         "query_id": "131_99",
@@ -791,15 +614,7 @@
         "answers": [
             "Virginia"
         ],
-        "pageviews": 675
-    },
-    {
-        "query_id": "131_100",
-        "question": "Where is Plassac located?",
-        "answers": [
-            "Charente-Maritime"
-        ],
-        "pageviews": 1111
+        "pageviews": 2
     },
     {
         "query_id": "131_101",
@@ -807,7 +622,7 @@
         "answers": [
             "Texas"
         ],
-        "pageviews": 3454
+        "pageviews": 1
     },
     {
         "query_id": "131_102",
@@ -815,7 +630,7 @@
         "answers": [
             "Nordfriesland district"
         ],
-        "pageviews": 1377
+        "pageviews": 1
     },
     {
         "query_id": "131_103",
@@ -823,7 +638,7 @@
         "answers": [
             "Oak Park Heights"
         ],
-        "pageviews": 9526
+        "pageviews": 21
     },
     {
         "query_id": "131_104",
@@ -831,7 +646,7 @@
         "answers": [
             "Illinois"
         ],
-        "pageviews": 18803
+        "pageviews": 39
     },
     {
         "query_id": "131_105",
@@ -839,15 +654,7 @@
         "answers": [
             "Razavi Khorasan Province"
         ],
-        "pageviews": 236
-    },
-    {
-        "query_id": "131_106",
-        "question": "Where is Mayflower located?",
-        "answers": [
-            "Lee County"
-        ],
-        "pageviews": 643
+        "pageviews": 1
     },
     {
         "query_id": "131_107",
@@ -855,7 +662,7 @@
         "answers": [
             "Alta"
         ],
-        "pageviews": 1603
+        "pageviews": 8
     },
     {
         "query_id": "131_108",
@@ -863,7 +670,7 @@
         "answers": [
             "French Polynesia"
         ],
-        "pageviews": 2509
+        "pageviews": 2
     },
     {
         "query_id": "131_109",
@@ -871,7 +678,7 @@
         "answers": [
             "Gmina Resko"
         ],
-        "pageviews": 370
+        "pageviews": 1
     },
     {
         "query_id": "131_110",
@@ -879,15 +686,7 @@
         "answers": [
             "Minjavan-e Sharqi Rural District"
         ],
-        "pageviews": 633
-    },
-    {
-        "query_id": "131_111",
-        "question": "Where is Jardins du Ch\u00e2teau Val Joanis located?",
-        "answers": [
-            "Pertuis"
-        ],
-        "pageviews": 1028
+        "pageviews": 1
     },
     {
         "query_id": "131_112",
@@ -895,7 +694,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 11855
+        "pageviews": 24
     },
     {
         "query_id": "131_113",
@@ -903,15 +702,7 @@
         "answers": [
             "California"
         ],
-        "pageviews": 10656
-    },
-    {
-        "query_id": "131_114",
-        "question": "Where is Wei\u00dfig (Freital) located?",
-        "answers": [
-            "Freital"
-        ],
-        "pageviews": 558
+        "pageviews": 1
     },
     {
         "query_id": "131_115",
@@ -919,7 +710,7 @@
         "answers": [
             "Windsor"
         ],
-        "pageviews": 3270
+        "pageviews": 3
     },
     {
         "query_id": "131_116",
@@ -927,15 +718,7 @@
         "answers": [
             "Anderson County"
         ],
-        "pageviews": 2256
-    },
-    {
-        "query_id": "131_117",
-        "question": "Where is Awan Sharif located?",
-        "answers": [
-            "Gujrat District"
-        ],
-        "pageviews": 1747
+        "pageviews": 3
     },
     {
         "query_id": "131_118",
@@ -943,7 +726,7 @@
         "answers": [
             "Frederick County"
         ],
-        "pageviews": 9296
+        "pageviews": 19
     },
     {
         "query_id": "131_119",
@@ -951,7 +734,7 @@
         "answers": [
             "Monmouth"
         ],
-        "pageviews": 1630
+        "pageviews": 3
     },
     {
         "query_id": "131_120",
@@ -959,7 +742,7 @@
         "answers": [
             "Drechterland"
         ],
-        "pageviews": 3028
+        "pageviews": 4
     },
     {
         "query_id": "131_121",
@@ -967,15 +750,7 @@
         "answers": [
             "Missouri"
         ],
-        "pageviews": 1214
-    },
-    {
-        "query_id": "131_122",
-        "question": "Where is Saint-Philippe-du-Seignal located?",
-        "answers": [
-            "Gironde"
-        ],
-        "pageviews": 1028
+        "pageviews": 4
     },
     {
         "query_id": "131_123",
@@ -984,7 +759,7 @@
             "City of Westminster",
             "London Borough of Camden"
         ],
-        "pageviews": 7621
+        "pageviews": 21
     },
     {
         "query_id": "131_124",
@@ -992,7 +767,7 @@
         "answers": [
             "Herat"
         ],
-        "pageviews": 2116
+        "pageviews": 8
     },
     {
         "query_id": "131_125",
@@ -1000,15 +775,7 @@
         "answers": [
             "Mopti Region"
         ],
-        "pageviews": 838
-    },
-    {
-        "query_id": "131_126",
-        "question": "Where is Gare de Toulouse-Matabiau located?",
-        "answers": [
-            "Toulouse"
-        ],
-        "pageviews": 7429
+        "pageviews": 1
     },
     {
         "query_id": "131_127",
@@ -1016,15 +783,7 @@
         "answers": [
             "Zilayi Rural District"
         ],
-        "pageviews": 507
-    },
-    {
-        "query_id": "131_128",
-        "question": "Where is PNC Plaza located?",
-        "answers": [
-            "Kentucky"
-        ],
-        "pageviews": 0
+        "pageviews": 1
     },
     {
         "query_id": "131_129",
@@ -1032,7 +791,7 @@
         "answers": [
             "South Banat District"
         ],
-        "pageviews": 1432
+        "pageviews": 3
     },
     {
         "query_id": "131_130",
@@ -1040,7 +799,7 @@
         "answers": [
             "Burundi"
         ],
-        "pageviews": 7169
+        "pageviews": 22
     },
     {
         "query_id": "131_131",
@@ -1048,15 +807,7 @@
         "answers": [
             "Manhattan"
         ],
-        "pageviews": 37525
-    },
-    {
-        "query_id": "131_132",
-        "question": "Where is Betts-Longworth Historic District located?",
-        "answers": [
-            "Ohio"
-        ],
-        "pageviews": 1015
+        "pageviews": 50
     },
     {
         "query_id": "131_133",
@@ -1064,7 +815,7 @@
         "answers": [
             "Gmina Pilzno"
         ],
-        "pageviews": 486
+        "pageviews": 1
     },
     {
         "query_id": "131_134",
@@ -1072,7 +823,7 @@
         "answers": [
             "Vinton County"
         ],
-        "pageviews": 848
+        "pageviews": 2
     },
     {
         "query_id": "131_135",
@@ -1080,7 +831,7 @@
         "answers": [
             "Manipal"
         ],
-        "pageviews": 124325
+        "pageviews": 32
     },
     {
         "query_id": "131_136",
@@ -1088,7 +839,7 @@
         "answers": [
             "Mazu Rural District"
         ],
-        "pageviews": 377
+        "pageviews": 1
     },
     {
         "query_id": "131_137",
@@ -1096,15 +847,7 @@
         "answers": [
             "Ward County"
         ],
-        "pageviews": 3314
-    },
-    {
-        "query_id": "131_138",
-        "question": "Where is Kissousa located?",
-        "answers": [
-            "Limassol District"
-        ],
-        "pageviews": 1024
+        "pageviews": 3
     },
     {
         "query_id": "131_139",
@@ -1112,7 +855,7 @@
         "answers": [
             "Montgomery County"
         ],
-        "pageviews": 958
+        "pageviews": 3
     },
     {
         "query_id": "131_140",
@@ -1120,7 +863,7 @@
         "answers": [
             "Hampshire County"
         ],
-        "pageviews": 1287
+        "pageviews": 12
     },
     {
         "query_id": "131_141",
@@ -1128,7 +871,7 @@
         "answers": [
             "Puerto Rico"
         ],
-        "pageviews": 1180
+        "pageviews": 3
     },
     {
         "query_id": "131_142",
@@ -1136,15 +879,7 @@
         "answers": [
             "Western Australia"
         ],
-        "pageviews": 1130
-    },
-    {
-        "query_id": "131_143",
-        "question": "Where is Yerres railway station located?",
-        "answers": [
-            "Yerres"
-        ],
-        "pageviews": 670
+        "pageviews": 2
     },
     {
         "query_id": "131_144",
@@ -1152,7 +887,7 @@
         "answers": [
             "Rostam-e Yek Rural District"
         ],
-        "pageviews": 425
+        "pageviews": 1
     },
     {
         "query_id": "131_145",
@@ -1160,7 +895,7 @@
         "answers": [
             "Pictou County"
         ],
-        "pageviews": 40931
+        "pageviews": 155
     },
     {
         "query_id": "131_146",
@@ -1168,7 +903,7 @@
         "answers": [
             "Swansea"
         ],
-        "pageviews": 5178
+        "pageviews": 1
     },
     {
         "query_id": "131_147",
@@ -1176,7 +911,7 @@
         "answers": [
             "Topola"
         ],
-        "pageviews": 1334
+        "pageviews": 1
     },
     {
         "query_id": "131_148",
@@ -1184,7 +919,7 @@
         "answers": [
             "Montana"
         ],
-        "pageviews": 870
+        "pageviews": 2
     },
     {
         "query_id": "131_149",
@@ -1192,23 +927,7 @@
         "answers": [
             "Tholen"
         ],
-        "pageviews": 2919
-    },
-    {
-        "query_id": "131_150",
-        "question": "Where is Janakpatti located?",
-        "answers": [
-            "Uttar Pradesh"
-        ],
-        "pageviews": 1485
-    },
-    {
-        "query_id": "131_151",
-        "question": "Where is M\u00e9lida located?",
-        "answers": [
-            "Navarre"
-        ],
-        "pageviews": 1413
+        "pageviews": 4
     },
     {
         "query_id": "131_152",
@@ -1216,7 +935,7 @@
         "answers": [
             "Maraveh Tappeh Rural District"
         ],
-        "pageviews": 440
+        "pageviews": 1
     },
     {
         "query_id": "131_153",
@@ -1224,7 +943,7 @@
         "answers": [
             "Illinois"
         ],
-        "pageviews": 1089
+        "pageviews": 3
     },
     {
         "query_id": "131_154",
@@ -1232,7 +951,7 @@
         "answers": [
             "Hechi"
         ],
-        "pageviews": 2292
+        "pageviews": 2
     },
     {
         "query_id": "131_155",
@@ -1240,7 +959,7 @@
         "answers": [
             "Aisne"
         ],
-        "pageviews": 1096
+        "pageviews": 1
     },
     {
         "query_id": "131_156",
@@ -1248,15 +967,7 @@
         "answers": [
             "Gmina Lipka"
         ],
-        "pageviews": 931
-    },
-    {
-        "query_id": "131_157",
-        "question": "Where is Mahyalar located?",
-        "answers": [
-            "Kozan"
-        ],
-        "pageviews": 379
+        "pageviews": 1
     },
     {
         "query_id": "131_158",
@@ -1264,7 +975,7 @@
         "answers": [
             "Athens"
         ],
-        "pageviews": 64142
+        "pageviews": 61
     },
     {
         "query_id": "131_159",
@@ -1272,7 +983,7 @@
         "answers": [
             "Province of Caserta"
         ],
-        "pageviews": 1712
+        "pageviews": 5
     },
     {
         "query_id": "131_160",
@@ -1281,7 +992,7 @@
             "Cambridgeshire",
             "Suffolk"
         ],
-        "pageviews": 22429
+        "pageviews": 136
     },
     {
         "query_id": "131_161",
@@ -1289,23 +1000,7 @@
         "answers": [
             "Kenar Sar Rural District"
         ],
-        "pageviews": 436
-    },
-    {
-        "query_id": "131_162",
-        "question": "Where is Jacob located?",
-        "answers": [
-            "Jackson County"
-        ],
-        "pageviews": 1812
-    },
-    {
-        "query_id": "131_163",
-        "question": "Where is Leuk Daek District located?",
-        "answers": [
-            "Kandal Province"
-        ],
-        "pageviews": 1657
+        "pageviews": 1
     },
     {
         "query_id": "131_164",
@@ -1313,15 +1008,7 @@
         "answers": [
             "Konguta Rural Municipality"
         ],
-        "pageviews": 486
-    },
-    {
-        "query_id": "131_165",
-        "question": "Where is Hidden Bay Airport located?",
-        "answers": [
-            "Saskatchewan"
-        ],
-        "pageviews": 1138
+        "pageviews": 1
     },
     {
         "query_id": "131_166",
@@ -1329,7 +1016,7 @@
         "answers": [
             "Surat district"
         ],
-        "pageviews": 2384
+        "pageviews": 1
     },
     {
         "query_id": "131_167",
@@ -1337,23 +1024,7 @@
         "answers": [
             "Zhan Rural District"
         ],
-        "pageviews": 531
-    },
-    {
-        "query_id": "131_168",
-        "question": "Where is Bishop Forest High School located?",
-        "answers": [
-            "Schulenburg"
-        ],
-        "pageviews": 522
-    },
-    {
-        "query_id": "131_170",
-        "question": "Where is 14th Regiment Armory located?",
-        "answers": [
-            "Brooklyn"
-        ],
-        "pageviews": 4520
+        "pageviews": 2
     },
     {
         "query_id": "131_171",
@@ -1361,7 +1032,7 @@
         "answers": [
             "Vaishali district"
         ],
-        "pageviews": 137210
+        "pageviews": 139
     },
     {
         "query_id": "131_172",
@@ -1369,7 +1040,7 @@
         "answers": [
             "Colombo"
         ],
-        "pageviews": 925
+        "pageviews": 1
     },
     {
         "query_id": "131_173",
@@ -1377,15 +1048,7 @@
         "answers": [
             "Garwolin County"
         ],
-        "pageviews": 835
-    },
-    {
-        "query_id": "131_174",
-        "question": "Where is Flourens located?",
-        "answers": [
-            "Haute-Garonne"
-        ],
-        "pageviews": 1759
+        "pageviews": 37
     },
     {
         "query_id": "131_175",
@@ -1393,7 +1056,7 @@
         "answers": [
             "Lillehammer"
         ],
-        "pageviews": 3260
+        "pageviews": 21
     },
     {
         "query_id": "131_176",
@@ -1401,7 +1064,7 @@
         "answers": [
             "Kurdistan Province"
         ],
-        "pageviews": 1682
+        "pageviews": 4
     },
     {
         "query_id": "131_177",
@@ -1409,7 +1072,7 @@
         "answers": [
             "Northwest Territories"
         ],
-        "pageviews": 1501
+        "pageviews": 9
     },
     {
         "query_id": "131_178",
@@ -1417,7 +1080,7 @@
         "answers": [
             "Shirvan Rural District"
         ],
-        "pageviews": 460
+        "pageviews": 1
     },
     {
         "query_id": "131_179",
@@ -1425,7 +1088,7 @@
         "answers": [
             "Selva"
         ],
-        "pageviews": 1501
+        "pageviews": 2
     },
     {
         "query_id": "131_180",
@@ -1433,7 +1096,7 @@
         "answers": [
             "Jhansi district"
         ],
-        "pageviews": 3715
+        "pageviews": 6
     },
     {
         "query_id": "131_181",
@@ -1441,7 +1104,7 @@
         "answers": [
             "Nazlu-e Shomali Rural District"
         ],
-        "pageviews": 512
+        "pageviews": 1
     },
     {
         "query_id": "131_182",
@@ -1449,7 +1112,7 @@
         "answers": [
             "Gmina Lutocin"
         ],
-        "pageviews": 451
+        "pageviews": 1
     },
     {
         "query_id": "131_183",
@@ -1457,7 +1120,7 @@
         "answers": [
             "Gmina Wicko"
         ],
-        "pageviews": 305
+        "pageviews": 1
     },
     {
         "query_id": "131_184",
@@ -1465,7 +1128,7 @@
         "answers": [
             "Alabama"
         ],
-        "pageviews": 1982
+        "pageviews": 3
     },
     {
         "query_id": "131_185",
@@ -1473,7 +1136,7 @@
         "answers": [
             "Bani Saleh Rural District"
         ],
-        "pageviews": 369
+        "pageviews": 1
     },
     {
         "query_id": "131_186",
@@ -1481,7 +1144,7 @@
         "answers": [
             "New South Wales"
         ],
-        "pageviews": 39152
+        "pageviews": 186
     },
     {
         "query_id": "131_187",
@@ -1489,7 +1152,7 @@
         "answers": [
             "Manhattan"
         ],
-        "pageviews": 46895
+        "pageviews": 26
     },
     {
         "query_id": "131_188",
@@ -1497,15 +1160,7 @@
         "answers": [
             "Barzanun Rural District"
         ],
-        "pageviews": 334
-    },
-    {
-        "query_id": "131_189",
-        "question": "Where is Rebollar located?",
-        "answers": [
-            "Soria"
-        ],
-        "pageviews": 739
+        "pageviews": 1
     },
     {
         "query_id": "131_190",
@@ -1513,7 +1168,7 @@
         "answers": [
             "Dinaran Rural District"
         ],
-        "pageviews": 423
+        "pageviews": 1
     },
     {
         "query_id": "131_191",
@@ -1521,23 +1176,7 @@
         "answers": [
             "Gilan Province"
         ],
-        "pageviews": 662
-    },
-    {
-        "query_id": "131_192",
-        "question": "Where is Non Khun located?",
-        "answers": [
-            "Si Sa Ket"
-        ],
-        "pageviews": 665
-    },
-    {
-        "query_id": "131_193",
-        "question": "Where is Saint-Martin-de-Cenilly located?",
-        "answers": [
-            "Manche"
-        ],
-        "pageviews": 1368
+        "pageviews": 1
     },
     {
         "query_id": "131_194",
@@ -1545,7 +1184,7 @@
         "answers": [
             "Gloucestershire"
         ],
-        "pageviews": 2247
+        "pageviews": 2
     },
     {
         "query_id": "131_195",
@@ -1553,7 +1192,7 @@
         "answers": [
             "Gmina Strzegowo"
         ],
-        "pageviews": 366
+        "pageviews": 1
     },
     {
         "query_id": "131_196",
@@ -1561,7 +1200,7 @@
         "answers": [
             "Hood County"
         ],
-        "pageviews": 3992
+        "pageviews": 1
     },
     {
         "query_id": "131_197",
@@ -1569,7 +1208,7 @@
         "answers": [
             "Ashrestaq Rural District"
         ],
-        "pageviews": 477
+        "pageviews": 1
     },
     {
         "query_id": "131_198",
@@ -1577,7 +1216,7 @@
         "answers": [
             "Gmina Sejny"
         ],
-        "pageviews": 446
+        "pageviews": 1
     },
     {
         "query_id": "131_199",
@@ -1585,7 +1224,7 @@
         "answers": [
             "Tehran"
         ],
-        "pageviews": 5778
+        "pageviews": 5
     },
     {
         "query_id": "131_200",
@@ -1593,15 +1232,7 @@
         "answers": [
             "Texas"
         ],
-        "pageviews": 19732
-    },
-    {
-        "query_id": "131_201",
-        "question": "Where is Glenridge Park, California located?",
-        "answers": [
-            "El Dorado County"
-        ],
-        "pageviews": 141
+        "pageviews": 36
     },
     {
         "query_id": "131_202",
@@ -1609,7 +1240,7 @@
         "answers": [
             "Nunavut"
         ],
-        "pageviews": 1584
+        "pageviews": 4
     },
     {
         "query_id": "131_203",
@@ -1617,7 +1248,7 @@
         "answers": [
             "Gmina Korsze"
         ],
-        "pageviews": 606
+        "pageviews": 2
     },
     {
         "query_id": "131_204",
@@ -1625,7 +1256,7 @@
         "answers": [
             "Minnesota"
         ],
-        "pageviews": 889
+        "pageviews": 2
     },
     {
         "query_id": "131_205",
@@ -1633,7 +1264,7 @@
         "answers": [
             "Ontario"
         ],
-        "pageviews": 1017
+        "pageviews": 1
     },
     {
         "query_id": "131_206",
@@ -1641,23 +1272,7 @@
         "answers": [
             "Texas"
         ],
-        "pageviews": 9194
-    },
-    {
-        "query_id": "131_207",
-        "question": "Where is F\u0131nd\u0131ql\u0131 located?",
-        "answers": [
-            "Azerbaijan"
-        ],
-        "pageviews": 396
-    },
-    {
-        "query_id": "131_208",
-        "question": "Where is Southend, Buckinghamshire located?",
-        "answers": [
-            "Buckinghamshire"
-        ],
-        "pageviews": 1006
+        "pageviews": 10
     },
     {
         "query_id": "131_209",
@@ -1665,15 +1280,7 @@
         "answers": [
             "Illinois"
         ],
-        "pageviews": 142185
-    },
-    {
-        "query_id": "131_210",
-        "question": "Where is Kowloon Bay Station located?",
-        "answers": [
-            "Kwun Tong District"
-        ],
-        "pageviews": 4243
+        "pageviews": 269
     },
     {
         "query_id": "131_211",
@@ -1681,15 +1288,7 @@
         "answers": [
             "Gmina Policzna"
         ],
-        "pageviews": 381
-    },
-    {
-        "query_id": "131_212",
-        "question": "Where is Martinique's 4th constituency located?",
-        "answers": [
-            "Martinique"
-        ],
-        "pageviews": 1407
+        "pageviews": 1
     },
     {
         "query_id": "131_213",
@@ -1697,7 +1296,7 @@
         "answers": [
             "Dowlatabad Rural District (Kermanshah Province)"
         ],
-        "pageviews": 871
+        "pageviews": 1
     },
     {
         "query_id": "131_214",
@@ -1705,23 +1304,7 @@
         "answers": [
             "Venango County"
         ],
-        "pageviews": 1184
-    },
-    {
-        "query_id": "131_215",
-        "question": "Where is Nanny Cay located?",
-        "answers": [
-            "British Virgin Islands"
-        ],
-        "pageviews": 2345
-    },
-    {
-        "query_id": "131_216",
-        "question": "Where is Flemish chapel located?",
-        "answers": [
-            "Madrid"
-        ],
-        "pageviews": 1238
+        "pageviews": 6
     },
     {
         "query_id": "131_217",
@@ -1729,7 +1312,7 @@
         "answers": [
             "California"
         ],
-        "pageviews": 46096
+        "pageviews": 139
     },
     {
         "query_id": "131_218",
@@ -1737,7 +1320,7 @@
         "answers": [
             "Pennsylvania"
         ],
-        "pageviews": 53669
+        "pageviews": 326
     },
     {
         "query_id": "131_219",
@@ -1745,7 +1328,7 @@
         "answers": [
             "Colorado"
         ],
-        "pageviews": 614
+        "pageviews": 1
     },
     {
         "query_id": "131_220",
@@ -1753,7 +1336,7 @@
         "answers": [
             "General Toshevo Municipality"
         ],
-        "pageviews": 480
+        "pageviews": 1
     },
     {
         "query_id": "131_221",
@@ -1761,7 +1344,7 @@
         "answers": [
             "Qasabeh-ye Sharqi Rural District"
         ],
-        "pageviews": 1255
+        "pageviews": 1
     },
     {
         "query_id": "131_222",
@@ -1769,7 +1352,7 @@
         "answers": [
             "Seine-Maritime"
         ],
-        "pageviews": 1285
+        "pageviews": 1
     },
     {
         "query_id": "131_223",
@@ -1777,7 +1360,7 @@
         "answers": [
             "Maryland"
         ],
-        "pageviews": 53765
+        "pageviews": 148
     },
     {
         "query_id": "131_224",
@@ -1785,7 +1368,7 @@
         "answers": [
             "Gmina Koprzywnica"
         ],
-        "pageviews": 306
+        "pageviews": 1
     },
     {
         "query_id": "131_225",
@@ -1793,7 +1376,7 @@
         "answers": [
             "Ratchaburi"
         ],
-        "pageviews": 3432
+        "pageviews": 1
     },
     {
         "query_id": "131_226",
@@ -1801,7 +1384,7 @@
         "answers": [
             "Dunn County"
         ],
-        "pageviews": 2253
+        "pageviews": 5
     },
     {
         "query_id": "131_227",
@@ -1809,15 +1392,7 @@
         "answers": [
             "Manitoba"
         ],
-        "pageviews": 2243
-    },
-    {
-        "query_id": "131_228",
-        "question": "Where is Vinneuf located?",
-        "answers": [
-            "Yonne"
-        ],
-        "pageviews": 927
+        "pageviews": 8
     },
     {
         "query_id": "131_229",
@@ -1825,7 +1400,7 @@
         "answers": [
             "Schaumburg"
         ],
-        "pageviews": 1843
+        "pageviews": 4
     },
     {
         "query_id": "131_230",
@@ -1834,31 +1409,7 @@
             "Canton of Vaud",
             "Lavaux-Oron District"
         ],
-        "pageviews": 3147
-    },
-    {
-        "query_id": "131_231",
-        "question": "Where is Longtian located?",
-        "answers": [
-            "Xingning"
-        ],
-        "pageviews": 302
-    },
-    {
-        "query_id": "131_232",
-        "question": "Where is Wila Umani located?",
-        "answers": [
-            "La Paz Department"
-        ],
-        "pageviews": 380
-    },
-    {
-        "query_id": "131_233",
-        "question": "Where is B\u00e2rs\u0103u located?",
-        "answers": [
-            "Satu Mare County"
-        ],
-        "pageviews": 832
+        "pageviews": 2
     },
     {
         "query_id": "131_234",
@@ -1867,15 +1418,7 @@
             "Orange County",
             "California"
         ],
-        "pageviews": 578849
-    },
-    {
-        "query_id": "131_235",
-        "question": "Where is H\u00e9villiers located?",
-        "answers": [
-            "Meuse"
-        ],
-        "pageviews": 828
+        "pageviews": 973
     },
     {
         "query_id": "131_236",
@@ -1883,7 +1426,7 @@
         "answers": [
             "Volgograd Oblast"
         ],
-        "pageviews": 1590
+        "pageviews": 1
     },
     {
         "query_id": "131_237",
@@ -1891,15 +1434,7 @@
         "answers": [
             "Province of Viterbo"
         ],
-        "pageviews": 4093
-    },
-    {
-        "query_id": "131_238",
-        "question": "Where is Forstfeld located?",
-        "answers": [
-            "Bas-Rhin"
-        ],
-        "pageviews": 1614
+        "pageviews": 4
     },
     {
         "query_id": "131_239",
@@ -1907,15 +1442,7 @@
         "answers": [
             "Alborz Province"
         ],
-        "pageviews": 2266
-    },
-    {
-        "query_id": "131_240",
-        "question": "Where is Raymond located?",
-        "answers": [
-            "Breckinridge County"
-        ],
-        "pageviews": 674
+        "pageviews": 77
     },
     {
         "query_id": "131_241",
@@ -1923,7 +1450,7 @@
         "answers": [
             "Baker County"
         ],
-        "pageviews": 3639
+        "pageviews": 5
     },
     {
         "query_id": "131_242",
@@ -1931,7 +1458,7 @@
         "answers": [
             "South Carolina"
         ],
-        "pageviews": 7271
+        "pageviews": 9
     },
     {
         "query_id": "131_243",
@@ -1939,7 +1466,7 @@
         "answers": [
             "Gmina Szastarka"
         ],
-        "pageviews": 309
+        "pageviews": 1
     },
     {
         "query_id": "131_244",
@@ -1947,7 +1474,7 @@
         "answers": [
             "Oulu"
         ],
-        "pageviews": 559
+        "pageviews": 1
     },
     {
         "query_id": "131_245",
@@ -1955,15 +1482,7 @@
         "answers": [
             "Sanjabi Rural District"
         ],
-        "pageviews": 634
-    },
-    {
-        "query_id": "131_246",
-        "question": "Where is Huancavelica located?",
-        "answers": [
-            "Peru"
-        ],
-        "pageviews": 5016
+        "pageviews": 1
     },
     {
         "query_id": "131_247",
@@ -1971,7 +1490,7 @@
         "answers": [
             "New Jersey"
         ],
-        "pageviews": 3250
+        "pageviews": 9
     },
     {
         "query_id": "131_248",
@@ -1979,7 +1498,7 @@
         "answers": [
             "Svitavy District"
         ],
-        "pageviews": 672
+        "pageviews": 1
     },
     {
         "query_id": "131_249",
@@ -1987,7 +1506,7 @@
         "answers": [
             "Altstadt (Hamburg)"
         ],
-        "pageviews": 6406
+        "pageviews": 60
     },
     {
         "query_id": "131_250",
@@ -1995,7 +1514,7 @@
         "answers": [
             "Appanoose County"
         ],
-        "pageviews": 4499
+        "pageviews": 10
     },
     {
         "query_id": "131_251",
@@ -2004,23 +1523,7 @@
             "Karnataka",
             "Chikkamagaluru district"
         ],
-        "pageviews": 729
-    },
-    {
-        "query_id": "131_252",
-        "question": "Where is Chatignonville located?",
-        "answers": [
-            "Essonne"
-        ],
-        "pageviews": 1237
-    },
-    {
-        "query_id": "131_253",
-        "question": "Where is Southwest High School located?",
-        "answers": [
-            "Minneapolis"
-        ],
-        "pageviews": 10190
+        "pageviews": 1
     },
     {
         "query_id": "131_254",
@@ -2028,15 +1531,7 @@
         "answers": [
             "Victoria"
         ],
-        "pageviews": 18157
-    },
-    {
-        "query_id": "131_255",
-        "question": "Where is Mazhang District located?",
-        "answers": [
-            "Zhanjiang"
-        ],
-        "pageviews": 0
+        "pageviews": 17
     },
     {
         "query_id": "131_256",
@@ -2044,7 +1539,7 @@
         "answers": [
             "Worth County"
         ],
-        "pageviews": 3206
+        "pageviews": 7
     },
     {
         "query_id": "131_257",
@@ -2052,7 +1547,7 @@
         "answers": [
             "Guerrero"
         ],
-        "pageviews": 1418
+        "pageviews": 7
     },
     {
         "query_id": "131_258",
@@ -2060,16 +1555,7 @@
         "answers": [
             "Central Denmark Region"
         ],
-        "pageviews": 3011
-    },
-    {
-        "query_id": "131_259",
-        "question": "Where is Pangayarselvi located?",
-        "answers": [
-            "Tiruchirappalli district",
-            "Tamil Nadu"
-        ],
-        "pageviews": 320
+        "pageviews": 3
     },
     {
         "query_id": "131_260",
@@ -2077,7 +1563,7 @@
         "answers": [
             "Shimokita District"
         ],
-        "pageviews": 2071
+        "pageviews": 5
     },
     {
         "query_id": "131_261",
@@ -2085,7 +1571,7 @@
         "answers": [
             "Dubai"
         ],
-        "pageviews": 17104
+        "pageviews": 2
     },
     {
         "query_id": "131_262",
@@ -2093,7 +1579,7 @@
         "answers": [
             "New York"
         ],
-        "pageviews": 1800
+        "pageviews": 1
     },
     {
         "query_id": "131_263",
@@ -2101,7 +1587,7 @@
         "answers": [
             "Tula Oblast"
         ],
-        "pageviews": 1151
+        "pageviews": 4
     },
     {
         "query_id": "131_264",
@@ -2109,7 +1595,7 @@
         "answers": [
             "Door County"
         ],
-        "pageviews": 2966
+        "pageviews": 7
     },
     {
         "query_id": "131_265",
@@ -2117,7 +1603,7 @@
         "answers": [
             "Gmina Barciany"
         ],
-        "pageviews": 2398
+        "pageviews": 59
     },
     {
         "query_id": "131_266",
@@ -2125,15 +1611,7 @@
         "answers": [
             "Brighton"
         ],
-        "pageviews": 33518
-    },
-    {
-        "query_id": "131_267",
-        "question": "Where is H\u00fcls located?",
-        "answers": [
-            "Krefeld"
-        ],
-        "pageviews": 1555
+        "pageviews": 224
     },
     {
         "query_id": "131_268",
@@ -2141,15 +1619,7 @@
         "answers": [
             "Belfast"
         ],
-        "pageviews": 23132
-    },
-    {
-        "query_id": "131_269",
-        "question": "Where is Qiaocheng East Station located?",
-        "answers": [
-            "Futian District"
-        ],
-        "pageviews": 957
+        "pageviews": 41
     },
     {
         "query_id": "131_270",
@@ -2157,15 +1627,7 @@
         "answers": [
             "Loire-Atlantique"
         ],
-        "pageviews": 1253
-    },
-    {
-        "query_id": "131_271",
-        "question": "Where is Vansittart Island located?",
-        "answers": [
-            "Nunavut"
-        ],
-        "pageviews": 992
+        "pageviews": 2
     },
     {
         "query_id": "131_272",
@@ -2173,7 +1635,7 @@
         "answers": [
             "Thrissur district"
         ],
-        "pageviews": 822
+        "pageviews": 1
     },
     {
         "query_id": "131_275",
@@ -2181,7 +1643,7 @@
         "answers": [
             "Kermanshah Province"
         ],
-        "pageviews": 422
+        "pageviews": 1
     },
     {
         "query_id": "131_276",
@@ -2189,15 +1651,7 @@
         "answers": [
             "Gmina Karnice"
         ],
-        "pageviews": 431
-    },
-    {
-        "query_id": "131_277",
-        "question": "Where is McCanna-Hubbell Building located?",
-        "answers": [
-            "New Mexico"
-        ],
-        "pageviews": 1599
+        "pageviews": 1
     },
     {
         "query_id": "131_278",
@@ -2205,7 +1659,7 @@
         "answers": [
             "Texas"
         ],
-        "pageviews": 949
+        "pageviews": 2
     },
     {
         "query_id": "131_279",
@@ -2213,7 +1667,7 @@
         "answers": [
             "Burlington County"
         ],
-        "pageviews": 9136
+        "pageviews": 106
     },
     {
         "query_id": "131_280",
@@ -2221,7 +1675,7 @@
         "answers": [
             "Nanchong"
         ],
-        "pageviews": 2085
+        "pageviews": 3
     },
     {
         "query_id": "131_281",
@@ -2229,15 +1683,7 @@
         "answers": [
             "City of Knox"
         ],
-        "pageviews": 12049
-    },
-    {
-        "query_id": "131_282",
-        "question": "Where is Flagy located?",
-        "answers": [
-            "Seine-et-Marne"
-        ],
-        "pageviews": 1489
+        "pageviews": 19
     },
     {
         "query_id": "131_283",
@@ -2245,7 +1691,7 @@
         "answers": [
             "Texas"
         ],
-        "pageviews": 2783
+        "pageviews": 2
     },
     {
         "query_id": "131_284",
@@ -2253,7 +1699,7 @@
         "answers": [
             "North Dorset"
         ],
-        "pageviews": 2203
+        "pageviews": 7
     },
     {
         "query_id": "131_285",
@@ -2261,7 +1707,7 @@
         "answers": [
             "Anne Arundel County"
         ],
-        "pageviews": 858
+        "pageviews": 2
     },
     {
         "query_id": "131_286",
@@ -2269,7 +1715,7 @@
         "answers": [
             "San Francisco"
         ],
-        "pageviews": 182462
+        "pageviews": 92
     },
     {
         "query_id": "131_287",
@@ -2277,7 +1723,7 @@
         "answers": [
             "Baqeran Rural District"
         ],
-        "pageviews": 336
+        "pageviews": 1
     },
     {
         "query_id": "131_288",
@@ -2285,7 +1731,7 @@
         "answers": [
             "Milwaukee"
         ],
-        "pageviews": 12590
+        "pageviews": 59
     },
     {
         "query_id": "131_289",
@@ -2294,7 +1740,7 @@
             "Aargau",
             "Bremgarten District"
         ],
-        "pageviews": 1605
+        "pageviews": 7
     },
     {
         "query_id": "131_290",
@@ -2302,7 +1748,7 @@
         "answers": [
             "Carmarthenshire"
         ],
-        "pageviews": 1437
+        "pageviews": 1
     },
     {
         "query_id": "131_291",
@@ -2310,7 +1756,7 @@
         "answers": [
             "Gmina Mirzec"
         ],
-        "pageviews": 354
+        "pageviews": 1
     },
     {
         "query_id": "131_292",
@@ -2318,7 +1764,7 @@
         "answers": [
             "Shetland Islands"
         ],
-        "pageviews": 1438
+        "pageviews": 1
     },
     {
         "query_id": "131_293",
@@ -2326,23 +1772,7 @@
         "answers": [
             "New Hampshire"
         ],
-        "pageviews": 1569
-    },
-    {
-        "query_id": "131_294",
-        "question": "Where is Ormoy-Villers located?",
-        "answers": [
-            "Oise"
-        ],
-        "pageviews": 963
-    },
-    {
-        "query_id": "131_295",
-        "question": "Where is Ameagle located?",
-        "answers": [
-            "Raleigh County"
-        ],
-        "pageviews": 2401
+        "pageviews": 2
     },
     {
         "query_id": "131_296",
@@ -2350,7 +1780,7 @@
         "answers": [
             "Arzuiyeh Rural District"
         ],
-        "pageviews": 409
+        "pageviews": 1
     },
     {
         "query_id": "131_297",
@@ -2358,7 +1788,7 @@
         "answers": [
             "Gallatin County"
         ],
-        "pageviews": 727
+        "pageviews": 2
     },
     {
         "query_id": "131_298",
@@ -2366,7 +1796,7 @@
         "answers": [
             "Telemark"
         ],
-        "pageviews": 7479
+        "pageviews": 52
     },
     {
         "query_id": "131_299",
@@ -2374,7 +1804,7 @@
         "answers": [
             "Hong Kong"
         ],
-        "pageviews": 3406
+        "pageviews": 1
     },
     {
         "query_id": "131_300",
@@ -2382,7 +1812,7 @@
         "answers": [
             "Hatay Province"
         ],
-        "pageviews": 92933
+        "pageviews": 130
     },
     {
         "query_id": "131_301",
@@ -2390,7 +1820,7 @@
         "answers": [
             "Istria County"
         ],
-        "pageviews": 12969
+        "pageviews": 11
     },
     {
         "query_id": "131_302",
@@ -2398,7 +1828,7 @@
         "answers": [
             "Aube"
         ],
-        "pageviews": 1613
+        "pageviews": 2
     },
     {
         "query_id": "131_303",
@@ -2406,7 +1836,7 @@
         "answers": [
             "Dakshin Dinajpur district"
         ],
-        "pageviews": 2219
+        "pageviews": 2
     },
     {
         "query_id": "131_304",
@@ -2416,7 +1846,7 @@
             "Pas-de-Calais",
             "canton of Calais-Centre"
         ],
-        "pageviews": 245709
+        "pageviews": 1406
     },
     {
         "query_id": "131_305",
@@ -2424,7 +1854,7 @@
         "answers": [
             "Rheingau-Taunus-Kreis"
         ],
-        "pageviews": 21367
+        "pageviews": 78
     },
     {
         "query_id": "131_306",
@@ -2432,31 +1862,7 @@
         "answers": [
             "California"
         ],
-        "pageviews": 8479
-    },
-    {
-        "query_id": "131_307",
-        "question": "Where is Gentilly Woods located?",
-        "answers": [
-            "New Orleans"
-        ],
-        "pageviews": 2347
-    },
-    {
-        "query_id": "131_308",
-        "question": "Where is Xingcun located?",
-        "answers": [
-            "Haiyang"
-        ],
-        "pageviews": 792
-    },
-    {
-        "query_id": "131_309",
-        "question": "Where is Notre-Dame-d'\u00c9pine located?",
-        "answers": [
-            "Eure"
-        ],
-        "pageviews": 1232
+        "pageviews": 58
     },
     {
         "query_id": "131_310",
@@ -2464,7 +1870,7 @@
         "answers": [
             "Leskovac"
         ],
-        "pageviews": 743
+        "pageviews": 1
     },
     {
         "query_id": "131_311",
@@ -2472,7 +1878,7 @@
         "answers": [
             "Sarab Rural District"
         ],
-        "pageviews": 456
+        "pageviews": 1
     },
     {
         "query_id": "131_312",
@@ -2480,7 +1886,7 @@
         "answers": [
             "Rushcliffe"
         ],
-        "pageviews": 5495
+        "pageviews": 14
     },
     {
         "query_id": "131_313",
@@ -2488,15 +1894,7 @@
         "answers": [
             "County Donegal"
         ],
-        "pageviews": 2300
-    },
-    {
-        "query_id": "131_314",
-        "question": "Where is SC Hansa 1898 Bremen located?",
-        "answers": [
-            "Bremen"
-        ],
-        "pageviews": 595
+        "pageviews": 6
     },
     {
         "query_id": "131_315",
@@ -2504,7 +1902,7 @@
         "answers": [
             "Sanilac County"
         ],
-        "pageviews": 3452
+        "pageviews": 4
     },
     {
         "query_id": "131_316",
@@ -2512,15 +1910,7 @@
         "answers": [
             "Gmina Sanniki"
         ],
-        "pageviews": 424
-    },
-    {
-        "query_id": "131_317",
-        "question": "Where is Nerima-kasugach\u014d Station located?",
-        "answers": [
-            "Nerima-ku"
-        ],
-        "pageviews": 1209
+        "pageviews": 1
     },
     {
         "query_id": "131_318",
@@ -2528,7 +1918,7 @@
         "answers": [
             "Gmina Malechowo"
         ],
-        "pageviews": 569
+        "pageviews": 2
     },
     {
         "query_id": "131_319",
@@ -2536,7 +1926,7 @@
         "answers": [
             "Mathews County"
         ],
-        "pageviews": 583
+        "pageviews": 2
     },
     {
         "query_id": "131_320",
@@ -2544,7 +1934,7 @@
         "answers": [
             "Knox"
         ],
-        "pageviews": 1198
+        "pageviews": 1
     },
     {
         "query_id": "131_321",
@@ -2552,7 +1942,7 @@
         "answers": [
             "Dodangeh District"
         ],
-        "pageviews": 609
+        "pageviews": 45
     },
     {
         "query_id": "131_322",
@@ -2560,7 +1950,7 @@
         "answers": [
             "Kushk-e Hezar Rural District"
         ],
-        "pageviews": 354
+        "pageviews": 1
     },
     {
         "query_id": "131_323",
@@ -2568,7 +1958,7 @@
         "answers": [
             "Gotha"
         ],
-        "pageviews": 51062
+        "pageviews": 244
     },
     {
         "query_id": "131_324",
@@ -2576,7 +1966,7 @@
         "answers": [
             "Cornwall"
         ],
-        "pageviews": 1417
+        "pageviews": 4
     },
     {
         "query_id": "131_325",
@@ -2584,23 +1974,7 @@
         "answers": [
             "Minas Gerais"
         ],
-        "pageviews": 1616
-    },
-    {
-        "query_id": "131_326",
-        "question": "Where is La Comp\u00f4te located?",
-        "answers": [
-            "Savoie"
-        ],
-        "pageviews": 1058
-    },
-    {
-        "query_id": "131_327",
-        "question": "Where is La Chapelle-d'Align\u00e9 located?",
-        "answers": [
-            "Sarthe"
-        ],
-        "pageviews": 1307
+        "pageviews": 1
     },
     {
         "query_id": "131_328",
@@ -2608,7 +1982,7 @@
         "answers": [
             "Vinnytsia Oblast"
         ],
-        "pageviews": 830
+        "pageviews": 2
     },
     {
         "query_id": "131_329",
@@ -2616,7 +1990,7 @@
         "answers": [
             "Markazi Province"
         ],
-        "pageviews": 579
+        "pageviews": 1
     },
     {
         "query_id": "131_330",
@@ -2624,7 +1998,7 @@
         "answers": [
             "Thanyaburi"
         ],
-        "pageviews": 465
+        "pageviews": 1
     },
     {
         "query_id": "131_331",
@@ -2632,7 +2006,7 @@
         "answers": [
             "Reza Mahalleh Rural District"
         ],
-        "pageviews": 446
+        "pageviews": 1
     },
     {
         "query_id": "131_332",
@@ -2640,7 +2014,7 @@
         "answers": [
             "Northern Ostrobothnia"
         ],
-        "pageviews": 1642
+        "pageviews": 1
     },
     {
         "query_id": "131_333",
@@ -2648,7 +2022,7 @@
         "answers": [
             "County Durham"
         ],
-        "pageviews": 754
+        "pageviews": 1
     },
     {
         "query_id": "131_334",
@@ -2656,7 +2030,7 @@
         "answers": [
             "Minnehaha County"
         ],
-        "pageviews": 6516
+        "pageviews": 9
     },
     {
         "query_id": "131_335",
@@ -2664,7 +2038,7 @@
         "answers": [
             "Cherokee County"
         ],
-        "pageviews": 1680
+        "pageviews": 4
     },
     {
         "query_id": "131_336",
@@ -2672,15 +2046,7 @@
         "answers": [
             "Brahmanbaria District"
         ],
-        "pageviews": 2621
-    },
-    {
-        "query_id": "131_337",
-        "question": "Where is Gullhella Station located?",
-        "answers": [
-            "Asker"
-        ],
-        "pageviews": 551
+        "pageviews": 9
     },
     {
         "query_id": "131_338",
@@ -2688,7 +2054,7 @@
         "answers": [
             "Connecticut"
         ],
-        "pageviews": 5268
+        "pageviews": 21
     },
     {
         "query_id": "131_339",
@@ -2696,7 +2062,7 @@
         "answers": [
             "Queensland"
         ],
-        "pageviews": 2148
+        "pageviews": 2
     },
     {
         "query_id": "131_340",
@@ -2704,7 +2070,7 @@
         "answers": [
             "Gmina Przesmyki"
         ],
-        "pageviews": 397
+        "pageviews": 2
     },
     {
         "query_id": "131_341",
@@ -2712,7 +2078,7 @@
         "answers": [
             "Garmeh-ye Jonubi Rural District"
         ],
-        "pageviews": 375
+        "pageviews": 1
     },
     {
         "query_id": "131_342",
@@ -2720,15 +2086,7 @@
         "answers": [
             "Victoria"
         ],
-        "pageviews": 11641
-    },
-    {
-        "query_id": "131_343",
-        "question": "Where is Union Township located?",
-        "answers": [
-            "Appanoose County"
-        ],
-        "pageviews": 651
+        "pageviews": 37
     },
     {
         "query_id": "131_344",
@@ -2736,24 +2094,7 @@
         "answers": [
             "New York"
         ],
-        "pageviews": 1704
-    },
-    {
-        "query_id": "131_345",
-        "question": "Where is Salmon River located?",
-        "answers": [
-            "British Columbia"
-        ],
-        "pageviews": 1034
-    },
-    {
-        "query_id": "131_346",
-        "question": "Where is Galagi located?",
-        "answers": [
-            "Karnataka",
-            "Dharwad district"
-        ],
-        "pageviews": 686
+        "pageviews": 65
     },
     {
         "query_id": "131_347",
@@ -2761,15 +2102,7 @@
         "answers": [
             "Sistan and Baluchestan Province"
         ],
-        "pageviews": 395
-    },
-    {
-        "query_id": "131_348",
-        "question": "Where is Suggs Creek located?",
-        "answers": [
-            "Wilson County"
-        ],
-        "pageviews": 876
+        "pageviews": 1
     },
     {
         "query_id": "131_349",
@@ -2777,15 +2110,7 @@
         "answers": [
             "Qaen Rural District"
         ],
-        "pageviews": 567
-    },
-    {
-        "query_id": "131_350",
-        "question": "Where is Robleda-Cervantes located?",
-        "answers": [
-            "Zamora Province"
-        ],
-        "pageviews": 768
+        "pageviews": 2
     },
     {
         "query_id": "131_351",
@@ -2793,15 +2118,7 @@
         "answers": [
             "Virginia"
         ],
-        "pageviews": 24371
-    },
-    {
-        "query_id": "131_352",
-        "question": "Where is Thenthamaraikulam located?",
-        "answers": [
-            "Kanyakumari district"
-        ],
-        "pageviews": 879
+        "pageviews": 5
     },
     {
         "query_id": "131_353",
@@ -2809,7 +2126,7 @@
         "answers": [
             "Manitoba"
         ],
-        "pageviews": 5280
+        "pageviews": 11
     },
     {
         "query_id": "131_354",
@@ -2817,23 +2134,7 @@
         "answers": [
             "Khvoresh Rostam-e Shomali Rural District"
         ],
-        "pageviews": 314
-    },
-    {
-        "query_id": "131_355",
-        "question": "Where is Juwat al-al-Muhanna located?",
-        "answers": [
-            "Hadhramaut Governorate"
-        ],
-        "pageviews": 392
-    },
-    {
-        "query_id": "131_356",
-        "question": "Where is Devalamma Naagaram located?",
-        "answers": [
-            "Telangana"
-        ],
-        "pageviews": 748
+        "pageviews": 1
     },
     {
         "query_id": "131_357",
@@ -2841,7 +2142,7 @@
         "answers": [
             "Fife"
         ],
-        "pageviews": 1084
+        "pageviews": 2
     },
     {
         "query_id": "131_359",
@@ -2849,23 +2150,7 @@
         "answers": [
             "Arizona"
         ],
-        "pageviews": 1615
-    },
-    {
-        "query_id": "131_360",
-        "question": "Where is Bala, India located?",
-        "answers": [
-            "Uttar Pradesh"
-        ],
-        "pageviews": 0
-    },
-    {
-        "query_id": "131_361",
-        "question": "Where is Gare de Conflans-Sainte-Honorine located?",
-        "answers": [
-            "Conflans-Sainte-Honorine"
-        ],
-        "pageviews": 868
+        "pageviews": 7
     },
     {
         "query_id": "131_362",
@@ -2873,15 +2158,7 @@
         "answers": [
             "Minnesota"
         ],
-        "pageviews": 18891
-    },
-    {
-        "query_id": "131_363",
-        "question": "Where is Esperce located?",
-        "answers": [
-            "Haute-Garonne"
-        ],
-        "pageviews": 1159
+        "pageviews": 83
     },
     {
         "query_id": "131_364",
@@ -2889,15 +2166,7 @@
         "answers": [
             "canton of Bern"
         ],
-        "pageviews": 1018
-    },
-    {
-        "query_id": "131_365",
-        "question": "Where is Artukekang located?",
-        "answers": [
-            "Assam"
-        ],
-        "pageviews": 374
+        "pageviews": 17
     },
     {
         "query_id": "131_366",
@@ -2906,7 +2175,7 @@
             "Antioquia Department",
             "Eastern Antioquia Subregion"
         ],
-        "pageviews": 2033
+        "pageviews": 2
     },
     {
         "query_id": "131_367",
@@ -2914,7 +2183,7 @@
         "answers": [
             "Bjerke"
         ],
-        "pageviews": 963
+        "pageviews": 5
     },
     {
         "query_id": "131_368",
@@ -2922,23 +2191,7 @@
         "answers": [
             "London Borough of Tower Hamlets"
         ],
-        "pageviews": 23809
-    },
-    {
-        "query_id": "131_369",
-        "question": "Where is Hodge located?",
-        "answers": [
-            "San Bernardino County"
-        ],
-        "pageviews": 2046
-    },
-    {
-        "query_id": "131_370",
-        "question": "Where is Bohinjska \u010ce\u0161njica located?",
-        "answers": [
-            "Bohinj Municipality"
-        ],
-        "pageviews": 934
+        "pageviews": 104
     },
     {
         "query_id": "131_371",
@@ -2946,7 +2199,7 @@
         "answers": [
             "Quincy"
         ],
-        "pageviews": 23310
+        "pageviews": 17
     },
     {
         "query_id": "131_372",
@@ -2954,7 +2207,7 @@
         "answers": [
             "Oise"
         ],
-        "pageviews": 1353
+        "pageviews": 2
     },
     {
         "query_id": "131_373",
@@ -2962,7 +2215,7 @@
         "answers": [
             "New York"
         ],
-        "pageviews": 2288
+        "pageviews": 35
     },
     {
         "query_id": "131_374",
@@ -2971,7 +2224,7 @@
             "Miyan Ab-e Shomali Rural District",
             "Khuzestan Province"
         ],
-        "pageviews": 435
+        "pageviews": 1
     },
     {
         "query_id": "131_375",
@@ -2979,7 +2232,7 @@
         "answers": [
             "Upper Freehold Township"
         ],
-        "pageviews": 951
+        "pageviews": 1
     },
     {
         "query_id": "131_376",
@@ -2987,7 +2240,7 @@
         "answers": [
             "New York"
         ],
-        "pageviews": 541
+        "pageviews": 1
     },
     {
         "query_id": "131_377",
@@ -2995,7 +2248,7 @@
         "answers": [
             "Achham District"
         ],
-        "pageviews": 1912
+        "pageviews": 1
     },
     {
         "query_id": "131_378",
@@ -3003,7 +2256,7 @@
         "answers": [
             "North Carolina"
         ],
-        "pageviews": 2411
+        "pageviews": 13
     },
     {
         "query_id": "131_379",
@@ -3011,7 +2264,7 @@
         "answers": [
             "South Australia"
         ],
-        "pageviews": 868
+        "pageviews": 3
     },
     {
         "query_id": "131_380",
@@ -3019,7 +2272,7 @@
         "answers": [
             "North Carolina"
         ],
-        "pageviews": 2482
+        "pageviews": 1
     },
     {
         "query_id": "131_381",
@@ -3027,15 +2280,7 @@
         "answers": [
             "Kermanshah Province"
         ],
-        "pageviews": 286
-    },
-    {
-        "query_id": "131_382",
-        "question": "Where is Labyrinth Mir\u00f3 located?",
-        "answers": [
-            "Saint-Paul-de-Vence"
-        ],
-        "pageviews": 2145
+        "pageviews": 1
     },
     {
         "query_id": "131_383",
@@ -3043,7 +2288,7 @@
         "answers": [
             "Oregon"
         ],
-        "pageviews": 1933
+        "pageviews": 2
     },
     {
         "query_id": "131_384",
@@ -3051,7 +2296,7 @@
         "answers": [
             "West Dorset"
         ],
-        "pageviews": 2759
+        "pageviews": 6
     },
     {
         "query_id": "131_385",
@@ -3059,15 +2304,7 @@
         "answers": [
             "Zamora Province"
         ],
-        "pageviews": 981
-    },
-    {
-        "query_id": "131_386",
-        "question": "Where is Smarves located?",
-        "answers": [
-            "Vienne"
-        ],
-        "pageviews": 1040
+        "pageviews": 3
     },
     {
         "query_id": "131_387",
@@ -3075,7 +2312,7 @@
         "answers": [
             "Province of Bergamo"
         ],
-        "pageviews": 1009
+        "pageviews": 4
     },
     {
         "query_id": "131_388",
@@ -3083,15 +2320,7 @@
         "answers": [
             "Breda"
         ],
-        "pageviews": 31446
-    },
-    {
-        "query_id": "131_389",
-        "question": "Where is X\u0259l\u0259c located?",
-        "answers": [
-            "Ujar District"
-        ],
-        "pageviews": 445
+        "pageviews": 103
     },
     {
         "query_id": "131_390",
@@ -3099,7 +2328,7 @@
         "answers": [
             "Nunavut"
         ],
-        "pageviews": 2062
+        "pageviews": 16
     },
     {
         "query_id": "131_391",
@@ -3107,7 +2336,7 @@
         "answers": [
             "Wiesbaden"
         ],
-        "pageviews": 3785
+        "pageviews": 23
     },
     {
         "query_id": "131_392",
@@ -3115,7 +2344,7 @@
         "answers": [
             "Henry County"
         ],
-        "pageviews": 2488
+        "pageviews": 3
     },
     {
         "query_id": "131_393",
@@ -3123,7 +2352,7 @@
         "answers": [
             "Taipei"
         ],
-        "pageviews": 10177
+        "pageviews": 11
     },
     {
         "query_id": "131_394",
@@ -3131,7 +2360,7 @@
         "answers": [
             "Nashville"
         ],
-        "pageviews": 1321
+        "pageviews": 1
     },
     {
         "query_id": "131_395",
@@ -3139,15 +2368,7 @@
         "answers": [
             "St Pinnock"
         ],
-        "pageviews": 1299
-    },
-    {
-        "query_id": "131_396",
-        "question": "Where is Eyter located?",
-        "answers": [
-            "Lower Saxony"
-        ],
-        "pageviews": 103
+        "pageviews": 4
     },
     {
         "query_id": "131_397",
@@ -3155,7 +2376,7 @@
         "answers": [
             "Wabasha County"
         ],
-        "pageviews": 3094
+        "pageviews": 9
     },
     {
         "query_id": "131_398",
@@ -3163,7 +2384,7 @@
         "answers": [
             "Polan District"
         ],
-        "pageviews": 375
+        "pageviews": 1
     },
     {
         "query_id": "131_399",
@@ -3171,15 +2392,7 @@
         "answers": [
             "Abtar Rural district"
         ],
-        "pageviews": 355
-    },
-    {
-        "query_id": "131_400",
-        "question": "Where is Ba\u015f Diz\u0259 located?",
-        "answers": [
-            "Ordubad District"
-        ],
-        "pageviews": 441
+        "pageviews": 1
     },
     {
         "query_id": "131_401",
@@ -3187,15 +2400,7 @@
         "answers": [
             "Nordsachsen"
         ],
-        "pageviews": 38221
-    },
-    {
-        "query_id": "131_402",
-        "question": "Where is Petrikereszt\u00far located?",
-        "answers": [
-            "Zala County"
-        ],
-        "pageviews": 780
+        "pageviews": 208
     },
     {
         "query_id": "131_403",
@@ -3203,7 +2408,7 @@
         "answers": [
             "Middle Township"
         ],
-        "pageviews": 1092
+        "pageviews": 3
     },
     {
         "query_id": "131_404",
@@ -3211,7 +2416,7 @@
         "answers": [
             "Norway"
         ],
-        "pageviews": 38982
+        "pageviews": 120
     },
     {
         "query_id": "131_405",
@@ -3219,7 +2424,7 @@
         "answers": [
             "Hamilton County"
         ],
-        "pageviews": 12193
+        "pageviews": 20
     },
     {
         "query_id": "131_406",
@@ -3227,7 +2432,7 @@
         "answers": [
             "Alpes-de-Haute-Provence"
         ],
-        "pageviews": 848
+        "pageviews": 1
     },
     {
         "query_id": "131_407",
@@ -3235,7 +2440,7 @@
         "answers": [
             "Sojas Rud Rural District"
         ],
-        "pageviews": 458
+        "pageviews": 1
     },
     {
         "query_id": "131_409",
@@ -3243,7 +2448,7 @@
         "answers": [
             "Newfoundland and Labrador"
         ],
-        "pageviews": 1531
+        "pageviews": 1
     },
     {
         "query_id": "131_410",
@@ -3251,7 +2456,7 @@
         "answers": [
             "Utrecht"
         ],
-        "pageviews": 2334
+        "pageviews": 47
     },
     {
         "query_id": "131_411",
@@ -3260,15 +2465,7 @@
             "Balchik Municipality",
             "Dobrich Province"
         ],
-        "pageviews": 660
-    },
-    {
-        "query_id": "131_412",
-        "question": "Where is Postal River located?",
-        "answers": [
-            "West Coast Region"
-        ],
-        "pageviews": 426
+        "pageviews": 2
     },
     {
         "query_id": "131_413",
@@ -3276,7 +2473,7 @@
         "answers": [
             "Pennsylvania"
         ],
-        "pageviews": 2729
+        "pageviews": 16
     },
     {
         "query_id": "131_414",
@@ -3284,7 +2481,7 @@
         "answers": [
             "Victoria"
         ],
-        "pageviews": 879
+        "pageviews": 9
     },
     {
         "query_id": "131_415",
@@ -3292,7 +2489,7 @@
         "answers": [
             "Manhattan"
         ],
-        "pageviews": 71256
+        "pageviews": 6
     },
     {
         "query_id": "131_416",
@@ -3300,7 +2497,7 @@
         "answers": [
             "Lacchiarella"
         ],
-        "pageviews": 542
+        "pageviews": 1
     },
     {
         "query_id": "131_417",
@@ -3308,7 +2505,7 @@
         "answers": [
             "Minas Gerais"
         ],
-        "pageviews": 1608
+        "pageviews": 1
     },
     {
         "query_id": "131_418",
@@ -3316,7 +2513,7 @@
         "answers": [
             "Boston"
         ],
-        "pageviews": 26064
+        "pageviews": 52
     },
     {
         "query_id": "131_419",
@@ -3324,15 +2521,7 @@
         "answers": [
             "Viljandi County"
         ],
-        "pageviews": 1091
-    },
-    {
-        "query_id": "131_420",
-        "question": "Where is Alexander Island located?",
-        "answers": [
-            "Western Australia"
-        ],
-        "pageviews": 491
+        "pageviews": 30
     },
     {
         "query_id": "131_421",
@@ -3340,7 +2529,7 @@
         "answers": [
             "Allegheny County"
         ],
-        "pageviews": 7135
+        "pageviews": 6
     },
     {
         "query_id": "131_422",
@@ -3348,7 +2537,7 @@
         "answers": [
             "Maricopa County"
         ],
-        "pageviews": 5204
+        "pageviews": 5
     },
     {
         "query_id": "131_423",
@@ -3356,7 +2545,7 @@
         "answers": [
             "Jefferson County"
         ],
-        "pageviews": 9238
+        "pageviews": 8
     },
     {
         "query_id": "131_424",
@@ -3364,23 +2553,7 @@
         "answers": [
             "Wasco County"
         ],
-        "pageviews": 11007
-    },
-    {
-        "query_id": "131_425",
-        "question": "Where is Baker Hotel located?",
-        "answers": [
-            "Baker"
-        ],
-        "pageviews": 597
-    },
-    {
-        "query_id": "131_426",
-        "question": "Where is Minwakh located?",
-        "answers": [
-            "Hadhramaut Governorate"
-        ],
-        "pageviews": 424
+        "pageviews": 10
     },
     {
         "query_id": "131_427",
@@ -3388,7 +2561,7 @@
         "answers": [
             "Darchula District"
         ],
-        "pageviews": 346
+        "pageviews": 1
     },
     {
         "query_id": "131_428",
@@ -3396,15 +2569,7 @@
         "answers": [
             "Sacramento"
         ],
-        "pageviews": 19382
-    },
-    {
-        "query_id": "131_429",
-        "question": "Where is Brumado located?",
-        "answers": [
-            "Bahia"
-        ],
-        "pageviews": 7165
+        "pageviews": 70
     },
     {
         "query_id": "131_430",
@@ -3412,7 +2577,7 @@
         "answers": [
             "Gmina Szepietowo"
         ],
-        "pageviews": 430
+        "pageviews": 1
     },
     {
         "query_id": "131_431",
@@ -3420,23 +2585,7 @@
         "answers": [
             "Gmina Miastko"
         ],
-        "pageviews": 376
-    },
-    {
-        "query_id": "131_432",
-        "question": "Where is Island of the cross located?",
-        "answers": [
-            "Quebec"
-        ],
-        "pageviews": 621
-    },
-    {
-        "query_id": "131_433",
-        "question": "Where is Olombrada located?",
-        "answers": [
-            "Segovia Province"
-        ],
-        "pageviews": 939
+        "pageviews": 1
     },
     {
         "query_id": "131_434",
@@ -3444,7 +2593,7 @@
         "answers": [
             "Rosemead"
         ],
-        "pageviews": 10283
+        "pageviews": 11
     },
     {
         "query_id": "131_435",
@@ -3452,7 +2601,7 @@
         "answers": [
             "Langarud Rural District"
         ],
-        "pageviews": 262
+        "pageviews": 1
     },
     {
         "query_id": "131_436",
@@ -3460,15 +2609,7 @@
         "answers": [
             "County Offaly"
         ],
-        "pageviews": 1149
-    },
-    {
-        "query_id": "131_437",
-        "question": "Where is Chaharmahal and Bakhtiari Province located?",
-        "answers": [
-            "Iran"
-        ],
-        "pageviews": 11253
+        "pageviews": 27
     },
     {
         "query_id": "131_438",
@@ -3476,15 +2617,7 @@
         "answers": [
             "Province of Brescia"
         ],
-        "pageviews": 1228
-    },
-    {
-        "query_id": "131_439",
-        "question": "Where is Jodikasinayakanahalli located?",
-        "answers": [
-            "Karnataka"
-        ],
-        "pageviews": 403
+        "pageviews": 6
     },
     {
         "query_id": "131_440",
@@ -3492,7 +2625,7 @@
         "answers": [
             "Bahraich district"
         ],
-        "pageviews": 3310
+        "pageviews": 8
     },
     {
         "query_id": "131_441",
@@ -3500,7 +2633,7 @@
         "answers": [
             "Pori"
         ],
-        "pageviews": 908
+        "pageviews": 4
     },
     {
         "query_id": "131_442",
@@ -3508,15 +2641,7 @@
         "answers": [
             "Province of Salerno"
         ],
-        "pageviews": 3329
-    },
-    {
-        "query_id": "131_443",
-        "question": "Where is Navo, Texas located?",
-        "answers": [
-            "Denton County"
-        ],
-        "pageviews": 2077
+        "pageviews": 11
     },
     {
         "query_id": "131_444",
@@ -3524,7 +2649,7 @@
         "answers": [
             "Kiseljak"
         ],
-        "pageviews": 544
+        "pageviews": 1
     },
     {
         "query_id": "131_445",
@@ -3532,15 +2657,7 @@
         "answers": [
             "Kihelkonna Rural Municipality"
         ],
-        "pageviews": 685
-    },
-    {
-        "query_id": "131_446",
-        "question": "Where is Buxi\u00e8res-l\u00e8s-Villiers located?",
-        "answers": [
-            "Haute-Marne"
-        ],
-        "pageviews": 692
+        "pageviews": 2
     },
     {
         "query_id": "131_447",
@@ -3548,7 +2665,7 @@
         "answers": [
             "Chittoor district"
         ],
-        "pageviews": 20397
+        "pageviews": 3
     },
     {
         "query_id": "131_448",
@@ -3556,7 +2673,7 @@
         "answers": [
             "Ludab Rural District"
         ],
-        "pageviews": 453
+        "pageviews": 1
     },
     {
         "query_id": "131_449",
@@ -3564,7 +2681,7 @@
         "answers": [
             "Riverside"
         ],
-        "pageviews": 4281
+        "pageviews": 1
     },
     {
         "query_id": "131_450",
@@ -3572,7 +2689,7 @@
         "answers": [
             "Idaho"
         ],
-        "pageviews": 1140
+        "pageviews": 4
     },
     {
         "query_id": "131_451",
@@ -3580,7 +2697,7 @@
         "answers": [
             "Tomsk Oblast"
         ],
-        "pageviews": 929
+        "pageviews": 2
     },
     {
         "query_id": "131_452",
@@ -3588,7 +2705,7 @@
         "answers": [
             "Shal Rural District"
         ],
-        "pageviews": 519
+        "pageviews": 1
     },
     {
         "query_id": "131_453",
@@ -3597,15 +2714,7 @@
             "London Borough of Merton",
             "London Borough of Sutton"
         ],
-        "pageviews": 18794
-    },
-    {
-        "query_id": "131_454",
-        "question": "Where is La Fontaine-Saint-Martin located?",
-        "answers": [
-            "Sarthe"
-        ],
-        "pageviews": 2273
+        "pageviews": 23
     },
     {
         "query_id": "131_455",
@@ -3613,7 +2722,7 @@
         "answers": [
             "Gmina Siedliszcze"
         ],
-        "pageviews": 336
+        "pageviews": 1
     },
     {
         "query_id": "131_456",
@@ -3621,7 +2730,7 @@
         "answers": [
             "New South Wales"
         ],
-        "pageviews": 3603
+        "pageviews": 13
     },
     {
         "query_id": "131_457",
@@ -3629,7 +2738,7 @@
         "answers": [
             "Azerbaijan"
         ],
-        "pageviews": 21943
+        "pageviews": 11
     },
     {
         "query_id": "131_458",
@@ -3637,7 +2746,7 @@
         "answers": [
             "Takht Rural District"
         ],
-        "pageviews": 410
+        "pageviews": 1
     },
     {
         "query_id": "131_459",
@@ -3645,15 +2754,7 @@
         "answers": [
             "Aksaray Province"
         ],
-        "pageviews": 15707
-    },
-    {
-        "query_id": "131_460",
-        "question": "Where is Port Said Stadium located?",
-        "answers": [
-            "Port Said"
-        ],
-        "pageviews": 5499
+        "pageviews": 13
     },
     {
         "query_id": "131_461",
@@ -3661,7 +2762,7 @@
         "answers": [
             "Gmina Stawiguda"
         ],
-        "pageviews": 316
+        "pageviews": 1
     },
     {
         "query_id": "131_462",
@@ -3669,7 +2770,7 @@
         "answers": [
             "Chambers County"
         ],
-        "pageviews": 7141
+        "pageviews": 6
     },
     {
         "query_id": "131_463",
@@ -3677,7 +2778,7 @@
         "answers": [
             "Gmina Zawonia"
         ],
-        "pageviews": 310
+        "pageviews": 1
     },
     {
         "query_id": "131_464",
@@ -3685,7 +2786,7 @@
         "answers": [
             "Orne"
         ],
-        "pageviews": 4948
+        "pageviews": 12
     },
     {
         "query_id": "131_465",
@@ -3693,7 +2794,7 @@
         "answers": [
             "Freiberg"
         ],
-        "pageviews": 6844
+        "pageviews": 7
     },
     {
         "query_id": "131_466",
@@ -3701,7 +2802,7 @@
         "answers": [
             "San Antonio"
         ],
-        "pageviews": 2686
+        "pageviews": 1
     },
     {
         "query_id": "131_467",
@@ -3709,7 +2810,7 @@
         "answers": [
             "Loudoun County"
         ],
-        "pageviews": 4258
+        "pageviews": 7
     },
     {
         "query_id": "131_468",
@@ -3717,15 +2818,7 @@
         "answers": [
             "Catacamas"
         ],
-        "pageviews": 1008
-    },
-    {
-        "query_id": "131_469",
-        "question": "Where is Establ\u00e9s located?",
-        "answers": [
-            "Guadalajara Province"
-        ],
-        "pageviews": 861
+        "pageviews": 1
     },
     {
         "query_id": "131_470",
@@ -3733,7 +2826,7 @@
         "answers": [
             "Bengaluru"
         ],
-        "pageviews": 50602
+        "pageviews": 14
     },
     {
         "query_id": "131_471",
@@ -3741,7 +2834,7 @@
         "answers": [
             "Vulkaneifel"
         ],
-        "pageviews": 1747
+        "pageviews": 3
     },
     {
         "query_id": "131_472",
@@ -3749,15 +2842,7 @@
         "answers": [
             "Malta"
         ],
-        "pageviews": 2140
-    },
-    {
-        "query_id": "131_473",
-        "question": "Where is Lewis Park, Virginia located?",
-        "answers": [
-            "Virginia"
-        ],
-        "pageviews": 1012
+        "pageviews": 9
     },
     {
         "query_id": "131_474",
@@ -3765,7 +2850,7 @@
         "answers": [
             "Kansas"
         ],
-        "pageviews": 1007
+        "pageviews": 3
     },
     {
         "query_id": "131_475",
@@ -3773,15 +2858,7 @@
         "answers": [
             "Gmina Osina"
         ],
-        "pageviews": 405
-    },
-    {
-        "query_id": "131_476",
-        "question": "Where is Woodbrook located?",
-        "answers": [
-            "Albemarle County"
-        ],
-        "pageviews": 785
+        "pageviews": 1
     },
     {
         "query_id": "131_477",
@@ -3789,15 +2866,7 @@
         "answers": [
             "Jabal Rural District"
         ],
-        "pageviews": 627
-    },
-    {
-        "query_id": "131_478",
-        "question": "Where is North Lilbourn located?",
-        "answers": [
-            "New Madrid County"
-        ],
-        "pageviews": 1125
+        "pageviews": 1
     },
     {
         "query_id": "131_479",
@@ -3805,7 +2874,7 @@
         "answers": [
             "Sarrud-e Shomali Rural District"
         ],
-        "pageviews": 418
+        "pageviews": 1
     },
     {
         "query_id": "131_480",
@@ -3813,7 +2882,7 @@
         "answers": [
             "Oxford County"
         ],
-        "pageviews": 3770
+        "pageviews": 8
     },
     {
         "query_id": "131_481",
@@ -3821,7 +2890,7 @@
         "answers": [
             "Loir-et-Cher"
         ],
-        "pageviews": 1519
+        "pageviews": 5
     },
     {
         "query_id": "131_482",
@@ -3829,31 +2898,7 @@
         "answers": [
             "Zhan Rural District"
         ],
-        "pageviews": 472
-    },
-    {
-        "query_id": "131_483",
-        "question": "Where is \u014cmori Station located?",
-        "answers": [
-            "Kosai"
-        ],
-        "pageviews": 898
-    },
-    {
-        "query_id": "131_484",
-        "question": "Where is Ivanje Selo located?",
-        "answers": [
-            "Cerknica Municipality"
-        ],
-        "pageviews": 732
-    },
-    {
-        "query_id": "131_485",
-        "question": "Where is Sivapuram, Thanjavur district located?",
-        "answers": [
-            "Tamil Nadu"
-        ],
-        "pageviews": 173
+        "pageviews": 1
     },
     {
         "query_id": "131_486",
@@ -3861,7 +2906,7 @@
         "answers": [
             "Odessa Oblast"
         ],
-        "pageviews": 1086
+        "pageviews": 1
     },
     {
         "query_id": "131_487",
@@ -3869,7 +2914,7 @@
         "answers": [
             "Wrexham County Borough"
         ],
-        "pageviews": 1735
+        "pageviews": 6
     },
     {
         "query_id": "131_488",
@@ -3877,7 +2922,7 @@
         "answers": [
             "Arun"
         ],
-        "pageviews": 4324
+        "pageviews": 21
     },
     {
         "query_id": "131_489",
@@ -3885,7 +2930,7 @@
         "answers": [
             "Northern Territory"
         ],
-        "pageviews": 12478
+        "pageviews": 2
     },
     {
         "query_id": "131_490",
@@ -3893,7 +2938,7 @@
         "answers": [
             "Illinois"
         ],
-        "pageviews": 10162
+        "pageviews": 1
     },
     {
         "query_id": "131_491",
@@ -3901,7 +2946,7 @@
         "answers": [
             "Columbia County"
         ],
-        "pageviews": 4776
+        "pageviews": 14
     },
     {
         "query_id": "131_492",
@@ -3909,7 +2954,7 @@
         "answers": [
             "Maryland"
         ],
-        "pageviews": 16319
+        "pageviews": 24
     },
     {
         "query_id": "131_493",
@@ -3917,7 +2962,7 @@
         "answers": [
             "Changsha County"
         ],
-        "pageviews": 747
+        "pageviews": 1
     },
     {
         "query_id": "131_494",
@@ -3925,7 +2970,7 @@
         "answers": [
             "Chaqa Narges Rural District"
         ],
-        "pageviews": 424
+        "pageviews": 1
     },
     {
         "query_id": "131_495",
@@ -3933,15 +2978,7 @@
         "answers": [
             "Badranlu Rural District"
         ],
-        "pageviews": 440
-    },
-    {
-        "query_id": "131_496",
-        "question": "Where is Al Husn District located?",
-        "answers": [
-            "Sana'a Governorate"
-        ],
-        "pageviews": 825
+        "pageviews": 1
     },
     {
         "query_id": "131_497",
@@ -3949,7 +2986,7 @@
         "answers": [
             "Pine City"
         ],
-        "pageviews": 1784
+        "pageviews": 4
     },
     {
         "query_id": "131_498",
@@ -3957,7 +2994,7 @@
         "answers": [
             "Kern County"
         ],
-        "pageviews": 14831
+        "pageviews": 37
     },
     {
         "query_id": "131_499",
@@ -3965,15 +3002,7 @@
         "answers": [
             "Lamjung District"
         ],
-        "pageviews": 694
-    },
-    {
-        "query_id": "131_500",
-        "question": "Where is Kankavli Vidhan Sabha constituency located?",
-        "answers": [
-            "Kankavli"
-        ],
-        "pageviews": 7139
+        "pageviews": 2
     },
     {
         "query_id": "131_501",
@@ -3982,7 +3011,7 @@
             "Tamil Nadu",
             "Pudukkottai district"
         ],
-        "pageviews": 1371
+        "pageviews": 1
     },
     {
         "query_id": "131_502",
@@ -3990,7 +3019,7 @@
         "answers": [
             "Tamil Nadu"
         ],
-        "pageviews": 1392
+        "pageviews": 2
     },
     {
         "query_id": "131_503",
@@ -3998,7 +3027,7 @@
         "answers": [
             "Alberta"
         ],
-        "pageviews": 4207
+        "pageviews": 11
     },
     {
         "query_id": "131_504",
@@ -4006,7 +3035,7 @@
         "answers": [
             "Kumasi Rural District"
         ],
-        "pageviews": 332
+        "pageviews": 1
     },
     {
         "query_id": "131_505",
@@ -4015,7 +3044,7 @@
             "Sandanski",
             "Blagoevgrad Province"
         ],
-        "pageviews": 625
+        "pageviews": 1
     },
     {
         "query_id": "131_506",
@@ -4023,7 +3052,7 @@
         "answers": [
             "Ontario"
         ],
-        "pageviews": 14270
+        "pageviews": 55
     },
     {
         "query_id": "131_507",
@@ -4031,7 +3060,7 @@
         "answers": [
             "Dowrahan Rural District"
         ],
-        "pageviews": 291
+        "pageviews": 1
     },
     {
         "query_id": "131_508",
@@ -4039,15 +3068,7 @@
         "answers": [
             "Gmina Kotla"
         ],
-        "pageviews": 339
-    },
-    {
-        "query_id": "131_509",
-        "question": "Where is Taoyuan City Stadium located?",
-        "answers": [
-            "Taoyuan District"
-        ],
-        "pageviews": 2331
+        "pageviews": 1
     },
     {
         "query_id": "131_510",
@@ -4055,7 +3076,7 @@
         "answers": [
             "Semnan Province"
         ],
-        "pageviews": 1637
+        "pageviews": 52
     },
     {
         "query_id": "131_511",
@@ -4063,7 +3084,7 @@
         "answers": [
             "Michigan"
         ],
-        "pageviews": 16351
+        "pageviews": 26
     },
     {
         "query_id": "131_512",
@@ -4071,7 +3092,7 @@
         "answers": [
             "Zell am See District"
         ],
-        "pageviews": 1625
+        "pageviews": 4
     },
     {
         "query_id": "131_513",
@@ -4079,15 +3100,7 @@
         "answers": [
             "Saku Rural Municipality"
         ],
-        "pageviews": 567
-    },
-    {
-        "query_id": "131_514",
-        "question": "Where is Arnreit located?",
-        "answers": [
-            "Rohrbach District"
-        ],
-        "pageviews": 796
+        "pageviews": 1
     },
     {
         "query_id": "131_515",
@@ -4095,7 +3108,7 @@
         "answers": [
             "Gmina Grabica"
         ],
-        "pageviews": 445
+        "pageviews": 2
     },
     {
         "query_id": "131_516",
@@ -4103,15 +3116,7 @@
         "answers": [
             "Essex"
         ],
-        "pageviews": 42520
-    },
-    {
-        "query_id": "131_517",
-        "question": "Where is Bark Ranch located?",
-        "answers": [
-            "Boulder County"
-        ],
-        "pageviews": 1474
+        "pageviews": 45
     },
     {
         "query_id": "131_518",
@@ -4119,15 +3124,7 @@
         "answers": [
             "Tehran Province"
         ],
-        "pageviews": 2528
-    },
-    {
-        "query_id": "131_519",
-        "question": "Where is Alian\u00e7a located?",
-        "answers": [
-            "Pernambuco"
-        ],
-        "pageviews": 6711
+        "pageviews": 63
     },
     {
         "query_id": "131_520",
@@ -4135,15 +3132,7 @@
         "answers": [
             "Benton County"
         ],
-        "pageviews": 1168
-    },
-    {
-        "query_id": "131_521",
-        "question": "Where is Monthenault located?",
-        "answers": [
-            "Aisne"
-        ],
-        "pageviews": 1026
+        "pageviews": 1
     },
     {
         "query_id": "131_522",
@@ -4151,7 +3140,7 @@
         "answers": [
             "Qikiqtaaluk Region"
         ],
-        "pageviews": 24505
+        "pageviews": 31
     },
     {
         "query_id": "131_523",
@@ -4159,7 +3148,7 @@
         "answers": [
             "Saxony-Anhalt"
         ],
-        "pageviews": 1439
+        "pageviews": 2
     },
     {
         "query_id": "131_524",
@@ -4167,7 +3156,7 @@
         "answers": [
             "Cochem-Zell"
         ],
-        "pageviews": 747
+        "pageviews": 16
     },
     {
         "query_id": "131_525",
@@ -4175,7 +3164,7 @@
         "answers": [
             "Kalesija"
         ],
-        "pageviews": 484
+        "pageviews": 2
     },
     {
         "query_id": "131_526",
@@ -4183,7 +3172,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 4912
+        "pageviews": 5
     },
     {
         "query_id": "131_528",
@@ -4191,7 +3180,7 @@
         "answers": [
             "Rensselaer County"
         ],
-        "pageviews": 7393
+        "pageviews": 37
     },
     {
         "query_id": "131_530",
@@ -4199,7 +3188,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 4826
+        "pageviews": 8
     },
     {
         "query_id": "131_531",
@@ -4207,7 +3196,7 @@
         "answers": [
             "Latium"
         ],
-        "pageviews": 5981
+        "pageviews": 13
     },
     {
         "query_id": "131_532",
@@ -4215,7 +3204,7 @@
         "answers": [
             "Delhi"
         ],
-        "pageviews": 4656
+        "pageviews": 1
     },
     {
         "query_id": "131_533",
@@ -4224,7 +3213,7 @@
             "Dobrich Province",
             "General Toshevo Municipality"
         ],
-        "pageviews": 703
+        "pageviews": 1
     },
     {
         "query_id": "131_534",
@@ -4232,15 +3221,7 @@
         "answers": [
             "Gegharkunik Province"
         ],
-        "pageviews": 1709
-    },
-    {
-        "query_id": "131_535",
-        "question": "Where is Floating Sculpture No. 3 located?",
-        "answers": [
-            "Milwaukee"
-        ],
-        "pageviews": 965
+        "pageviews": 1
     },
     {
         "query_id": "131_536",
@@ -4248,15 +3229,7 @@
         "answers": [
             "Sermersooq"
         ],
-        "pageviews": 12964
-    },
-    {
-        "query_id": "131_537",
-        "question": "Where is Sankt Koloman located?",
-        "answers": [
-            "Hallein District"
-        ],
-        "pageviews": 1629
+        "pageviews": 20
     },
     {
         "query_id": "131_538",
@@ -4264,7 +3237,7 @@
         "answers": [
             "Margawar"
         ],
-        "pageviews": 526
+        "pageviews": 1
     },
     {
         "query_id": "131_539",
@@ -4272,7 +3245,7 @@
         "answers": [
             "Ohio"
         ],
-        "pageviews": 2059
+        "pageviews": 2
     },
     {
         "query_id": "131_540",
@@ -4280,7 +3253,7 @@
         "answers": [
             "New Jersey"
         ],
-        "pageviews": 2520
+        "pageviews": 1
     },
     {
         "query_id": "131_541",
@@ -4288,15 +3261,7 @@
         "answers": [
             "Hauts-de-Seine"
         ],
-        "pageviews": 59545
-    },
-    {
-        "query_id": "131_542",
-        "question": "Where is The Lexington located?",
-        "answers": [
-            "Des Moines"
-        ],
-        "pageviews": 0
+        "pageviews": 244
     },
     {
         "query_id": "131_543",
@@ -4304,7 +3269,7 @@
         "answers": [
             "Saalfeld-Rudolstadt"
         ],
-        "pageviews": 768
+        "pageviews": 1
     },
     {
         "query_id": "131_545",
@@ -4312,47 +3277,7 @@
         "answers": [
             "Seychelles"
         ],
-        "pageviews": 2635
-    },
-    {
-        "query_id": "131_546",
-        "question": "Where is Barron County Pipestone Quarry located?",
-        "answers": [
-            "Barron County"
-        ],
-        "pageviews": 590
-    },
-    {
-        "query_id": "131_547",
-        "question": "Where is Jiucheng located?",
-        "answers": [
-            "Luxi County, Yunnan"
-        ],
-        "pageviews": 376
-    },
-    {
-        "query_id": "131_548",
-        "question": "Where is Nova Scotia Route 276 located?",
-        "answers": [
-            "Nova Scotia"
-        ],
-        "pageviews": 504
-    },
-    {
-        "query_id": "131_549",
-        "question": "Where is Chakkarat located?",
-        "answers": [
-            "Nakhon Ratchasima"
-        ],
-        "pageviews": 1108
-    },
-    {
-        "query_id": "131_550",
-        "question": "Where is Monango located?",
-        "answers": [
-            "Dickey County"
-        ],
-        "pageviews": 1864
+        "pageviews": 3
     },
     {
         "query_id": "131_551",
@@ -4360,15 +3285,7 @@
         "answers": [
             "Victoria"
         ],
-        "pageviews": 9193
-    },
-    {
-        "query_id": "131_552",
-        "question": "Where is Crystal Downs Country Club located?",
-        "answers": [
-            "Benzie County"
-        ],
-        "pageviews": 4982
+        "pageviews": 12
     },
     {
         "query_id": "131_553",
@@ -4376,7 +3293,7 @@
         "answers": [
             "Kanduleh Rural District"
         ],
-        "pageviews": 302
+        "pageviews": 1
     },
     {
         "query_id": "131_554",
@@ -4384,7 +3301,7 @@
         "answers": [
             "Smith County"
         ],
-        "pageviews": 8424
+        "pageviews": 16
     },
     {
         "query_id": "131_555",
@@ -4392,7 +3309,7 @@
         "answers": [
             "Province of Avellino"
         ],
-        "pageviews": 1776
+        "pageviews": 2
     },
     {
         "query_id": "131_556",
@@ -4400,7 +3317,7 @@
         "answers": [
             "Yeylan-e Shomali Rural District"
         ],
-        "pageviews": 310
+        "pageviews": 1
     },
     {
         "query_id": "131_557",
@@ -4408,7 +3325,7 @@
         "answers": [
             "Crawford County"
         ],
-        "pageviews": 2995
+        "pageviews": 6
     },
     {
         "query_id": "131_558",
@@ -4416,7 +3333,7 @@
         "answers": [
             "City of Westminster"
         ],
-        "pageviews": 14949
+        "pageviews": 23
     },
     {
         "query_id": "131_559",
@@ -4424,7 +3341,7 @@
         "answers": [
             "Wealden"
         ],
-        "pageviews": 4317
+        "pageviews": 14
     },
     {
         "query_id": "131_560",
@@ -4432,7 +3349,7 @@
         "answers": [
             "Thisted Municipality"
         ],
-        "pageviews": 590
+        "pageviews": 2
     },
     {
         "query_id": "131_561",
@@ -4440,15 +3357,7 @@
         "answers": [
             "Hesse"
         ],
-        "pageviews": 751
-    },
-    {
-        "query_id": "131_562",
-        "question": "Where is Akron Junction located?",
-        "answers": [
-            "Erie County"
-        ],
-        "pageviews": 1268
+        "pageviews": 2
     },
     {
         "query_id": "131_563",
@@ -4456,7 +3365,7 @@
         "answers": [
             "Perkins County"
         ],
-        "pageviews": 5663
+        "pageviews": 14
     },
     {
         "query_id": "131_564",
@@ -4464,7 +3373,7 @@
         "answers": [
             "Massachusetts"
         ],
-        "pageviews": 1905
+        "pageviews": 3
     },
     {
         "query_id": "131_565",
@@ -4472,15 +3381,7 @@
         "answers": [
             "North Dorset"
         ],
-        "pageviews": 1969
-    },
-    {
-        "query_id": "131_566",
-        "question": "Where is Lac de Morgins located?",
-        "answers": [
-            "canton of Valais"
-        ],
-        "pageviews": 539
+        "pageviews": 2
     },
     {
         "query_id": "131_567",
@@ -4488,7 +3389,7 @@
         "answers": [
             "Urubamba Province"
         ],
-        "pageviews": 716
+        "pageviews": 5
     },
     {
         "query_id": "131_568",
@@ -4496,7 +3397,7 @@
         "answers": [
             "Salt Lake City"
         ],
-        "pageviews": 1176
+        "pageviews": 1
     },
     {
         "query_id": "131_569",
@@ -4504,7 +3405,7 @@
         "answers": [
             "Texas"
         ],
-        "pageviews": 1923
+        "pageviews": 1
     },
     {
         "query_id": "131_570",
@@ -4512,7 +3413,7 @@
         "answers": [
             "London Borough of Wandsworth"
         ],
-        "pageviews": 5366
+        "pageviews": 8
     },
     {
         "query_id": "131_571",
@@ -4520,7 +3421,7 @@
         "answers": [
             "Rajasthan"
         ],
-        "pageviews": 1355
+        "pageviews": 2
     },
     {
         "query_id": "131_572",
@@ -4528,7 +3429,7 @@
         "answers": [
             "Kent"
         ],
-        "pageviews": 2139
+        "pageviews": 9
     },
     {
         "query_id": "131_573",
@@ -4536,7 +3437,7 @@
         "answers": [
             "Kerala"
         ],
-        "pageviews": 1705
+        "pageviews": 1
     },
     {
         "query_id": "131_574",
@@ -4544,15 +3445,7 @@
         "answers": [
             "New South Wales"
         ],
-        "pageviews": 3058
-    },
-    {
-        "query_id": "131_575",
-        "question": "Where is Abalavadi located?",
-        "answers": [
-            "Karnataka"
-        ],
-        "pageviews": 967
+        "pageviews": 5
     },
     {
         "query_id": "131_576",
@@ -4560,7 +3453,7 @@
         "answers": [
             "Province of Varese"
         ],
-        "pageviews": 2748
+        "pageviews": 15
     },
     {
         "query_id": "131_577",
@@ -4568,7 +3461,7 @@
         "answers": [
             "Manche"
         ],
-        "pageviews": 1228
+        "pageviews": 1
     },
     {
         "query_id": "131_578",
@@ -4576,7 +3469,7 @@
         "answers": [
             "Shusef Rural District"
         ],
-        "pageviews": 485
+        "pageviews": 1
     },
     {
         "query_id": "131_579",
@@ -4584,7 +3477,7 @@
         "answers": [
             "Qiqihar"
         ],
-        "pageviews": 1738
+        "pageviews": 3
     },
     {
         "query_id": "131_580",
@@ -4592,15 +3485,7 @@
         "answers": [
             "Hudian Rural District"
         ],
-        "pageviews": 253
-    },
-    {
-        "query_id": "131_581",
-        "question": "Where is Varreler B\u00e4ke located?",
-        "answers": [
-            "Lower Saxony"
-        ],
-        "pageviews": 1107
+        "pageviews": 1
     },
     {
         "query_id": "131_582",
@@ -4608,7 +3493,7 @@
         "answers": [
             "Mississippi"
         ],
-        "pageviews": 15545
+        "pageviews": 67
     },
     {
         "query_id": "131_583",
@@ -4616,15 +3501,7 @@
         "answers": [
             "Washington County"
         ],
-        "pageviews": 8570
-    },
-    {
-        "query_id": "131_584",
-        "question": "Where is Roquest\u00e9ron located?",
-        "answers": [
-            "Alpes-Maritimes"
-        ],
-        "pageviews": 1436
+        "pageviews": 32
     },
     {
         "query_id": "131_585",
@@ -4632,7 +3509,7 @@
         "answers": [
             "Newfoundland and Labrador"
         ],
-        "pageviews": 53808
+        "pageviews": 2
     },
     {
         "query_id": "131_587",
@@ -4640,7 +3517,7 @@
         "answers": [
             "Nazluchay Rural District"
         ],
-        "pageviews": 1081
+        "pageviews": 1
     },
     {
         "query_id": "131_588",
@@ -4648,7 +3525,7 @@
         "answers": [
             "Razavi Khorasan Province"
         ],
-        "pageviews": 482
+        "pageviews": 1
     },
     {
         "query_id": "131_589",
@@ -4656,15 +3533,7 @@
         "answers": [
             "Franklin County"
         ],
-        "pageviews": 3708
-    },
-    {
-        "query_id": "131_590",
-        "question": "Where is Commune of Ruyigi located?",
-        "answers": [
-            "Ruyigi Province"
-        ],
-        "pageviews": 386
+        "pageviews": 4
     },
     {
         "query_id": "131_591",
@@ -4672,31 +3541,7 @@
         "answers": [
             "Ermera District"
         ],
-        "pageviews": 3898
-    },
-    {
-        "query_id": "131_592",
-        "question": "Where is Rascheid located?",
-        "answers": [
-            "Trier-Saarburg"
-        ],
-        "pageviews": 1018
-    },
-    {
-        "query_id": "131_593",
-        "question": "Where is Toraya District located?",
-        "answers": [
-            "Aymaraes Province"
-        ],
-        "pageviews": 463
-    },
-    {
-        "query_id": "131_594",
-        "question": "Where is Nazareth College located?",
-        "answers": [
-            "New York"
-        ],
-        "pageviews": 0
+        "pageviews": 16
     },
     {
         "query_id": "131_595",
@@ -4704,15 +3549,7 @@
         "answers": [
             "Pas-de-Calais"
         ],
-        "pageviews": 1651
-    },
-    {
-        "query_id": "131_596",
-        "question": "Where is Wrought Iron Range Company Building located?",
-        "answers": [
-            "Missouri"
-        ],
-        "pageviews": 1047
+        "pageviews": 1
     },
     {
         "query_id": "131_597",
@@ -4720,7 +3557,7 @@
         "answers": [
             "Cham Khalaf-e Isa Rural District"
         ],
-        "pageviews": 221
+        "pageviews": 1
     },
     {
         "query_id": "131_598",
@@ -4728,7 +3565,7 @@
         "answers": [
             "Sleaford"
         ],
-        "pageviews": 4160
+        "pageviews": 9
     },
     {
         "query_id": "131_599",
@@ -4736,7 +3573,7 @@
         "answers": [
             "Fukuoka Prefecture"
         ],
-        "pageviews": 264500
+        "pageviews": 646
     },
     {
         "query_id": "131_600",
@@ -4744,15 +3581,7 @@
         "answers": [
             "Beloit"
         ],
-        "pageviews": 1292
-    },
-    {
-        "query_id": "131_601",
-        "question": "Where is Saint Vincent's Catholic Medical Center located?",
-        "answers": [
-            "Manhattan"
-        ],
-        "pageviews": 30261
+        "pageviews": 1
     },
     {
         "query_id": "131_602",
@@ -4760,7 +3589,7 @@
         "answers": [
             "Province of Pavia"
         ],
-        "pageviews": 1033
+        "pageviews": 5
     },
     {
         "query_id": "131_603",
@@ -4768,15 +3597,7 @@
         "answers": [
             "Brody Raion"
         ],
-        "pageviews": 604
-    },
-    {
-        "query_id": "131_604",
-        "question": "Where is Bresdon located?",
-        "answers": [
-            "Charente-Maritime"
-        ],
-        "pageviews": 1112
+        "pageviews": 1
     },
     {
         "query_id": "131_605",
@@ -4784,7 +3605,7 @@
         "answers": [
             "Iowa"
         ],
-        "pageviews": 9953
+        "pageviews": 98
     },
     {
         "query_id": "131_606",
@@ -4792,7 +3613,7 @@
         "answers": [
             "Gmina Koniecpol"
         ],
-        "pageviews": 365
+        "pageviews": 1
     },
     {
         "query_id": "131_607",
@@ -4800,7 +3621,7 @@
         "answers": [
             "Preston"
         ],
-        "pageviews": 3157
+        "pageviews": 2
     },
     {
         "query_id": "131_608",
@@ -4808,15 +3629,7 @@
         "answers": [
             "Lavaca County"
         ],
-        "pageviews": 24707
-    },
-    {
-        "query_id": "131_609",
-        "question": "Where is Puymaurin located?",
-        "answers": [
-            "Haute-Garonne"
-        ],
-        "pageviews": 1255
+        "pageviews": 22
     },
     {
         "query_id": "131_610",
@@ -4824,7 +3637,7 @@
         "answers": [
             "Salamanca Province"
         ],
-        "pageviews": 1300
+        "pageviews": 1
     },
     {
         "query_id": "131_611",
@@ -4832,15 +3645,7 @@
         "answers": [
             "Massachusetts"
         ],
-        "pageviews": 6338
-    },
-    {
-        "query_id": "131_612",
-        "question": "Where is Steinberg located?",
-        "answers": [
-            "Schleswig-Flensburg"
-        ],
-        "pageviews": 794
+        "pageviews": 11
     },
     {
         "query_id": "131_613",
@@ -4848,7 +3653,7 @@
         "answers": [
             "Western Australia"
         ],
-        "pageviews": 957252
+        "pageviews": 3653
     },
     {
         "query_id": "131_614",
@@ -4856,15 +3661,7 @@
         "answers": [
             "Tift County"
         ],
-        "pageviews": 1431
-    },
-    {
-        "query_id": "131_615",
-        "question": "Where is Barr Township located?",
-        "answers": [
-            "Macoupin County"
-        ],
-        "pageviews": 694
+        "pageviews": 1
     },
     {
         "query_id": "131_616",
@@ -4872,7 +3669,7 @@
         "answers": [
             "Manhattan"
         ],
-        "pageviews": 1460
+        "pageviews": 3
     },
     {
         "query_id": "131_617",
@@ -4880,7 +3677,7 @@
         "answers": [
             "Virginia"
         ],
-        "pageviews": 882
+        "pageviews": 1
     },
     {
         "query_id": "131_618",
@@ -4888,7 +3685,7 @@
         "answers": [
             "Myitkyina District"
         ],
-        "pageviews": 564
+        "pageviews": 1
     },
     {
         "query_id": "131_619",
@@ -4896,7 +3693,7 @@
         "answers": [
             "Minas Gerais"
         ],
-        "pageviews": 1799
+        "pageviews": 3
     },
     {
         "query_id": "131_620",
@@ -4904,15 +3701,7 @@
         "answers": [
             "Province of Salerno"
         ],
-        "pageviews": 1935
-    },
-    {
-        "query_id": "131_621",
-        "question": "Where is Tin Cup Oil Field located?",
-        "answers": [
-            "Utah"
-        ],
-        "pageviews": 534
+        "pageviews": 9
     },
     {
         "query_id": "131_622",
@@ -4920,7 +3709,7 @@
         "answers": [
             "Ohio"
         ],
-        "pageviews": 1445
+        "pageviews": 3
     },
     {
         "query_id": "131_623",
@@ -4928,16 +3717,7 @@
         "answers": [
             "Makamba Province"
         ],
-        "pageviews": 2564
-    },
-    {
-        "query_id": "131_624",
-        "question": "Where is Edamulackal located?",
-        "answers": [
-            "Kollam district",
-            "Kerala"
-        ],
-        "pageviews": 2145
+        "pageviews": 3
     },
     {
         "query_id": "131_625",
@@ -4945,31 +3725,7 @@
         "answers": [
             "Gmina Karczmiska"
         ],
-        "pageviews": 493
-    },
-    {
-        "query_id": "131_626",
-        "question": "Where is Oberhaid located?",
-        "answers": [
-            "Westerwaldkreis"
-        ],
-        "pageviews": 729
-    },
-    {
-        "query_id": "131_627",
-        "question": "Where is Villers-sous-Montrond located?",
-        "answers": [
-            "Doubs"
-        ],
-        "pageviews": 614
-    },
-    {
-        "query_id": "131_628",
-        "question": "Where is H\u0103r\u0103u located?",
-        "answers": [
-            "Hunedoara County"
-        ],
-        "pageviews": 927
+        "pageviews": 1
     },
     {
         "query_id": "131_629",
@@ -4977,7 +3733,7 @@
         "answers": [
             "Franklin County"
         ],
-        "pageviews": 287
+        "pageviews": 3
     },
     {
         "query_id": "131_630",
@@ -4985,7 +3741,7 @@
         "answers": [
             "Greenville"
         ],
-        "pageviews": 841
+        "pageviews": 1
     },
     {
         "query_id": "131_631",
@@ -4993,7 +3749,7 @@
         "answers": [
             "Maidan"
         ],
-        "pageviews": 15472
+        "pageviews": 13
     },
     {
         "query_id": "131_632",
@@ -5001,15 +3757,7 @@
         "answers": [
             "Gmina Malczyce"
         ],
-        "pageviews": 421
-    },
-    {
-        "query_id": "131_633",
-        "question": "Where is Rota Greca located?",
-        "answers": [
-            "Province of Cosenza"
-        ],
-        "pageviews": 1634
+        "pageviews": 1
     },
     {
         "query_id": "131_634",
@@ -5017,23 +3765,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2708
-    },
-    {
-        "query_id": "131_635",
-        "question": "Where is Lincoln Township located?",
-        "answers": [
-            "Buena Vista County"
-        ],
-        "pageviews": 650
-    },
-    {
-        "query_id": "131_636",
-        "question": "Where is Ataq District located?",
-        "answers": [
-            "Shabwah Governorate"
-        ],
-        "pageviews": 754
+        "pageviews": 2
     },
     {
         "query_id": "131_637",
@@ -5041,7 +3773,7 @@
         "answers": [
             "Sivaganga District"
         ],
-        "pageviews": 3034
+        "pageviews": 3
     },
     {
         "query_id": "131_638",
@@ -5049,15 +3781,7 @@
         "answers": [
             "Wakayama Prefecture"
         ],
-        "pageviews": 1258
-    },
-    {
-        "query_id": "131_639",
-        "question": "Where is Reims-la-Br\u00fbl\u00e9e located?",
-        "answers": [
-            "Marne"
-        ],
-        "pageviews": 1054
+        "pageviews": 15
     },
     {
         "query_id": "131_640",
@@ -5065,7 +3789,7 @@
         "answers": [
             "Burlington County"
         ],
-        "pageviews": 10857
+        "pageviews": 76
     },
     {
         "query_id": "131_641",
@@ -5073,7 +3797,7 @@
         "answers": [
             "Ain Ebel"
         ],
-        "pageviews": 1427
+        "pageviews": 3
     },
     {
         "query_id": "131_642",
@@ -5081,15 +3805,7 @@
         "answers": [
             "Gmina Samborzec"
         ],
-        "pageviews": 295
-    },
-    {
-        "query_id": "131_643",
-        "question": "Where is Griffin's Hill located?",
-        "answers": [
-            "KwaZulu-Natal"
-        ],
-        "pageviews": 357
+        "pageviews": 1
     },
     {
         "query_id": "131_644",
@@ -5098,7 +3814,7 @@
             "canton of Bern",
             "canton of Valais"
         ],
-        "pageviews": 897
+        "pageviews": 3
     },
     {
         "query_id": "131_645",
@@ -5106,7 +3822,7 @@
         "answers": [
             "Hawaii County"
         ],
-        "pageviews": 2357
+        "pageviews": 3
     },
     {
         "query_id": "131_646",
@@ -5114,7 +3830,7 @@
         "answers": [
             "Chapare Province"
         ],
-        "pageviews": 1172
+        "pageviews": 2
     },
     {
         "query_id": "131_647",
@@ -5122,7 +3838,7 @@
         "answers": [
             "Maryland"
         ],
-        "pageviews": 1183
+        "pageviews": 1
     },
     {
         "query_id": "131_648",
@@ -5130,7 +3846,7 @@
         "answers": [
             "Jazireh-ye Minu Rural District"
         ],
-        "pageviews": 357
+        "pageviews": 1
     },
     {
         "query_id": "131_649",
@@ -5138,7 +3854,7 @@
         "answers": [
             "Nova Scotia"
         ],
-        "pageviews": 2385
+        "pageviews": 3
     },
     {
         "query_id": "131_650",
@@ -5146,7 +3862,7 @@
         "answers": [
             "California"
         ],
-        "pageviews": 46867
+        "pageviews": 201
     },
     {
         "query_id": "131_651",
@@ -5154,7 +3870,7 @@
         "answers": [
             "Allier"
         ],
-        "pageviews": 823
+        "pageviews": 1
     },
     {
         "query_id": "131_652",
@@ -5162,7 +3878,7 @@
         "answers": [
             "Missouri"
         ],
-        "pageviews": 1414
+        "pageviews": 2
     },
     {
         "query_id": "131_653",
@@ -5170,7 +3886,7 @@
         "answers": [
             "Pevek"
         ],
-        "pageviews": 1656
+        "pageviews": 3
     },
     {
         "query_id": "131_654",
@@ -5178,7 +3894,7 @@
         "answers": [
             "Nevada County"
         ],
-        "pageviews": 1278
+        "pageviews": 1
     },
     {
         "query_id": "131_655",
@@ -5186,7 +3902,7 @@
         "answers": [
             "Sugamuxi Province"
         ],
-        "pageviews": 3641
+        "pageviews": 9
     },
     {
         "query_id": "131_656",
@@ -5194,7 +3910,7 @@
         "answers": [
             "Andhra Pradesh"
         ],
-        "pageviews": 4176
+        "pageviews": 3
     },
     {
         "query_id": "131_657",
@@ -5202,7 +3918,7 @@
         "answers": [
             "California"
         ],
-        "pageviews": 9752
+        "pageviews": 2
     },
     {
         "query_id": "131_658",
@@ -5210,7 +3926,7 @@
         "answers": [
             "Powdersville"
         ],
-        "pageviews": 2522
+        "pageviews": 1
     },
     {
         "query_id": "131_659",
@@ -5218,7 +3934,7 @@
         "answers": [
             "Clinton County"
         ],
-        "pageviews": 939
+        "pageviews": 1
     },
     {
         "query_id": "131_660",
@@ -5226,7 +3942,7 @@
         "answers": [
             "Guildford"
         ],
-        "pageviews": 11924
+        "pageviews": 40
     },
     {
         "query_id": "131_661",
@@ -5234,23 +3950,7 @@
         "answers": [
             "Saskatchewan"
         ],
-        "pageviews": 724
-    },
-    {
-        "query_id": "131_662",
-        "question": "Where is Still located?",
-        "answers": [
-            "Bas-Rhin"
-        ],
-        "pageviews": 1367
-    },
-    {
-        "query_id": "131_663",
-        "question": "Where is Xermam\u00e9nil located?",
-        "answers": [
-            "Meurthe-et-Moselle"
-        ],
-        "pageviews": 1037
+        "pageviews": 3
     },
     {
         "query_id": "131_664",
@@ -5258,7 +3958,7 @@
         "answers": [
             "Kabul"
         ],
-        "pageviews": 2169
+        "pageviews": 1
     },
     {
         "query_id": "131_665",
@@ -5266,7 +3966,7 @@
         "answers": [
             "East Jakarta"
         ],
-        "pageviews": 4878
+        "pageviews": 6
     },
     {
         "query_id": "131_666",
@@ -5274,7 +3974,7 @@
         "answers": [
             "Saskatchewan"
         ],
-        "pageviews": 733
+        "pageviews": 1
     },
     {
         "query_id": "131_667",
@@ -5282,7 +3982,7 @@
         "answers": [
             "Perak"
         ],
-        "pageviews": 1546
+        "pageviews": 3
     },
     {
         "query_id": "131_668",
@@ -5290,7 +3990,7 @@
         "answers": [
             "Istria County"
         ],
-        "pageviews": 3698
+        "pageviews": 20
     },
     {
         "query_id": "131_669",
@@ -5298,7 +3998,7 @@
         "answers": [
             "Rastupey Rural District"
         ],
-        "pageviews": 428
+        "pageviews": 1
     },
     {
         "query_id": "131_670",
@@ -5306,7 +4006,7 @@
         "answers": [
             "Basildon"
         ],
-        "pageviews": 1295
+        "pageviews": 3
     },
     {
         "query_id": "131_671",
@@ -5314,7 +4014,7 @@
         "answers": [
             "Las Vegas"
         ],
-        "pageviews": 74561
+        "pageviews": 170
     },
     {
         "query_id": "131_672",
@@ -5322,7 +4022,7 @@
         "answers": [
             "North Carolina"
         ],
-        "pageviews": 13139
+        "pageviews": 23
     },
     {
         "query_id": "131_673",
@@ -5330,7 +4030,7 @@
         "answers": [
             "Shrewsbury"
         ],
-        "pageviews": 2318
+        "pageviews": 1
     },
     {
         "query_id": "131_674",
@@ -5338,7 +4038,7 @@
         "answers": [
             "Boston"
         ],
-        "pageviews": 57051
+        "pageviews": 67
     },
     {
         "query_id": "131_675",
@@ -5346,7 +4046,7 @@
         "answers": [
             "Figueres"
         ],
-        "pageviews": 1727
+        "pageviews": 3
     },
     {
         "query_id": "131_676",
@@ -5354,7 +4054,7 @@
         "answers": [
             "Loir-et-Cher"
         ],
-        "pageviews": 2505
+        "pageviews": 3
     },
     {
         "query_id": "131_677",
@@ -5362,7 +4062,7 @@
         "answers": [
             "Wyre"
         ],
-        "pageviews": 79330
+        "pageviews": 325
     },
     {
         "query_id": "131_678",
@@ -5370,15 +4070,7 @@
         "answers": [
             "Jalisco"
         ],
-        "pageviews": 1662
-    },
-    {
-        "query_id": "131_679",
-        "question": "Where is Baniachang Upazila located?",
-        "answers": [
-            "Habiganj District"
-        ],
-        "pageviews": 8429
+        "pageviews": 4
     },
     {
         "query_id": "131_680",
@@ -5386,15 +4078,7 @@
         "answers": [
             "Sheykh Neshin Rural District"
         ],
-        "pageviews": 387
-    },
-    {
-        "query_id": "131_681",
-        "question": "Where is Saint-Martin-Lys located?",
-        "answers": [
-            "Aude"
-        ],
-        "pageviews": 1510
+        "pageviews": 1
     },
     {
         "query_id": "131_683",
@@ -5402,7 +4086,7 @@
         "answers": [
             "New South Wales"
         ],
-        "pageviews": 2159
+        "pageviews": 1
     },
     {
         "query_id": "131_684",
@@ -5410,7 +4094,7 @@
         "answers": [
             "Essex"
         ],
-        "pageviews": 11533
+        "pageviews": 43
     },
     {
         "query_id": "131_685",
@@ -5418,7 +4102,7 @@
         "answers": [
             "Jowzar Rural District"
         ],
-        "pageviews": 421
+        "pageviews": 1
     },
     {
         "query_id": "131_686",
@@ -5426,7 +4110,7 @@
         "answers": [
             "Kahrizak Rural District"
         ],
-        "pageviews": 408
+        "pageviews": 1
     },
     {
         "query_id": "131_687",
@@ -5434,7 +4118,7 @@
         "answers": [
             "Bremanger"
         ],
-        "pageviews": 1045
+        "pageviews": 9
     },
     {
         "query_id": "131_688",
@@ -5442,7 +4126,7 @@
         "answers": [
             "Malacky District"
         ],
-        "pageviews": 989
+        "pageviews": 2
     },
     {
         "query_id": "131_689",
@@ -5450,15 +4134,7 @@
         "answers": [
             "Angus"
         ],
-        "pageviews": 1007
-    },
-    {
-        "query_id": "131_690",
-        "question": "Where is Pereruela located?",
-        "answers": [
-            "Zamora Province"
-        ],
-        "pageviews": 1219
+        "pageviews": 1
     },
     {
         "query_id": "131_691",
@@ -5466,7 +4142,7 @@
         "answers": [
             "Tytsjerksteradiel"
         ],
-        "pageviews": 1149
+        "pageviews": 6
     },
     {
         "query_id": "131_692",
@@ -5474,7 +4150,7 @@
         "answers": [
             "Province of Cagliari"
         ],
-        "pageviews": 2025
+        "pageviews": 4
     },
     {
         "query_id": "131_693",
@@ -5482,7 +4158,7 @@
         "answers": [
             "Kiseljak"
         ],
-        "pageviews": 808
+        "pageviews": 2
     },
     {
         "query_id": "131_694",
@@ -5490,15 +4166,7 @@
         "answers": [
             "Changde"
         ],
-        "pageviews": 1777
-    },
-    {
-        "query_id": "131_695",
-        "question": "Where is \u015e\u0259hriyar located?",
-        "answers": [
-            "Sabirabad District"
-        ],
-        "pageviews": 528
+        "pageviews": 6
     },
     {
         "query_id": "131_696",
@@ -5506,7 +4174,7 @@
         "answers": [
             "North Dorset"
         ],
-        "pageviews": 2167
+        "pageviews": 4
     },
     {
         "query_id": "131_697",
@@ -5514,7 +4182,7 @@
         "answers": [
             "Portland"
         ],
-        "pageviews": 2700
+        "pageviews": 13
     },
     {
         "query_id": "131_698",
@@ -5522,7 +4190,7 @@
         "answers": [
             "Dalgan Rural District"
         ],
-        "pageviews": 351
+        "pageviews": 1
     },
     {
         "query_id": "131_699",
@@ -5530,7 +4198,7 @@
         "answers": [
             "Adams County"
         ],
-        "pageviews": 1675
+        "pageviews": 5
     },
     {
         "query_id": "131_700",
@@ -5538,7 +4206,7 @@
         "answers": [
             "Kerala"
         ],
-        "pageviews": 918
+        "pageviews": 1
     },
     {
         "query_id": "131_701",
@@ -5546,7 +4214,7 @@
         "answers": [
             "Maryland"
         ],
-        "pageviews": 1011
+        "pageviews": 1
     },
     {
         "query_id": "131_702",
@@ -5554,7 +4222,7 @@
         "answers": [
             "Mustang District"
         ],
-        "pageviews": 1419
+        "pageviews": 1
     },
     {
         "query_id": "131_703",
@@ -5562,7 +4230,7 @@
         "answers": [
             "Santa Ana"
         ],
-        "pageviews": 285839
+        "pageviews": 97
     },
     {
         "query_id": "131_704",
@@ -5570,7 +4238,7 @@
         "answers": [
             "Pennsylvania"
         ],
-        "pageviews": 2127
+        "pageviews": 3
     },
     {
         "query_id": "131_705",
@@ -5578,7 +4246,7 @@
         "answers": [
             "Torgiano"
         ],
-        "pageviews": 921
+        "pageviews": 4
     },
     {
         "query_id": "131_706",
@@ -5586,7 +4254,7 @@
         "answers": [
             "New York"
         ],
-        "pageviews": 11887
+        "pageviews": 13
     },
     {
         "query_id": "131_707",
@@ -5594,15 +4262,7 @@
         "answers": [
             "Gyeonggi Province"
         ],
-        "pageviews": 22387
-    },
-    {
-        "query_id": "131_708",
-        "question": "Where is McComas located?",
-        "answers": [
-            "Mercer County"
-        ],
-        "pageviews": 1136
+        "pageviews": 44
     },
     {
         "query_id": "131_709",
@@ -5610,7 +4270,7 @@
         "answers": [
             "Anoia"
         ],
-        "pageviews": 4164
+        "pageviews": 5
     },
     {
         "query_id": "131_710",
@@ -5618,7 +4278,7 @@
         "answers": [
             "Michigan"
         ],
-        "pageviews": 2561
+        "pageviews": 5
     },
     {
         "query_id": "131_711",
@@ -5626,7 +4286,7 @@
         "answers": [
             "Newfoundland and Labrador"
         ],
-        "pageviews": 48323
+        "pageviews": 34
     },
     {
         "query_id": "131_712",
@@ -5634,15 +4294,7 @@
         "answers": [
             "Maguindanao"
         ],
-        "pageviews": 4564
-    },
-    {
-        "query_id": "131_713",
-        "question": "Where is Rifle Gap Dam located?",
-        "answers": [
-            "Garfield County"
-        ],
-        "pageviews": 932
+        "pageviews": 6
     },
     {
         "query_id": "131_714",
@@ -5650,7 +4302,7 @@
         "answers": [
             "Gmina Jutrosin"
         ],
-        "pageviews": 435
+        "pageviews": 1
     },
     {
         "query_id": "131_715",
@@ -5658,15 +4310,7 @@
         "answers": [
             "Tennessee"
         ],
-        "pageviews": 2722
-    },
-    {
-        "query_id": "131_716",
-        "question": "Where is Palmdale located?",
-        "answers": [
-            "New South Wales"
-        ],
-        "pageviews": 1695
+        "pageviews": 1
     },
     {
         "query_id": "131_717",
@@ -5674,7 +4318,7 @@
         "answers": [
             "Gmina Szczucin"
         ],
-        "pageviews": 351
+        "pageviews": 1
     },
     {
         "query_id": "131_718",
@@ -5682,15 +4326,7 @@
         "answers": [
             "New Brunswick"
         ],
-        "pageviews": 9053
-    },
-    {
-        "query_id": "131_719",
-        "question": "Where is Raidighi College located?",
-        "answers": [
-            "Raidighi"
-        ],
-        "pageviews": 1072
+        "pageviews": 3
     },
     {
         "query_id": "131_720",
@@ -5698,23 +4334,7 @@
         "answers": [
             "Seville"
         ],
-        "pageviews": 3119
-    },
-    {
-        "query_id": "131_721",
-        "question": "Where is Benedict located?",
-        "answers": [
-            "Hubbard County"
-        ],
-        "pageviews": 820
-    },
-    {
-        "query_id": "131_722",
-        "question": "Where is Refuge de Rosuel located?",
-        "answers": [
-            "Savoie"
-        ],
-        "pageviews": 394
+        "pageviews": 4
     },
     {
         "query_id": "131_723",
@@ -5722,7 +4342,7 @@
         "answers": [
             "Chelsea"
         ],
-        "pageviews": 9210
+        "pageviews": 25
     },
     {
         "query_id": "131_724",
@@ -5730,7 +4350,7 @@
         "answers": [
             "Saddleworth"
         ],
-        "pageviews": 4489
+        "pageviews": 17
     },
     {
         "query_id": "131_725",
@@ -5738,7 +4358,7 @@
         "answers": [
             "Bardhaman district"
         ],
-        "pageviews": 1273
+        "pageviews": 1
     },
     {
         "query_id": "131_726",
@@ -5746,7 +4366,7 @@
         "answers": [
             "Highland"
         ],
-        "pageviews": 21154
+        "pageviews": 40
     },
     {
         "query_id": "131_727",
@@ -5754,7 +4374,7 @@
         "answers": [
             "Indiana"
         ],
-        "pageviews": 21490
+        "pageviews": 107
     },
     {
         "query_id": "131_728",
@@ -5762,7 +4382,7 @@
         "answers": [
             "Aargau"
         ],
-        "pageviews": 1325
+        "pageviews": 10
     },
     {
         "query_id": "131_729",
@@ -5770,7 +4390,7 @@
         "answers": [
             "East Lindsey"
         ],
-        "pageviews": 1259
+        "pageviews": 1
     },
     {
         "query_id": "131_730",
@@ -5778,7 +4398,7 @@
         "answers": [
             "British Columbia"
         ],
-        "pageviews": 1267
+        "pageviews": 1
     },
     {
         "query_id": "131_731",
@@ -5786,7 +4406,7 @@
         "answers": [
             "Kavirat Rural District (Kerman Province)"
         ],
-        "pageviews": 407
+        "pageviews": 1
     },
     {
         "query_id": "131_732",
@@ -5794,7 +4414,7 @@
         "answers": [
             "Hautes-Alpes"
         ],
-        "pageviews": 2269
+        "pageviews": 1
     },
     {
         "query_id": "131_733",
@@ -5802,7 +4422,7 @@
         "answers": [
             "Sangrur district"
         ],
-        "pageviews": 9312
+        "pageviews": 4
     },
     {
         "query_id": "131_734",
@@ -5810,15 +4430,7 @@
         "answers": [
             "Stroud"
         ],
-        "pageviews": 7397
-    },
-    {
-        "query_id": "131_735",
-        "question": "Where is Patrick's Point State Park located?",
-        "answers": [
-            "California"
-        ],
-        "pageviews": 7425
+        "pageviews": 11
     },
     {
         "query_id": "131_736",
@@ -5826,7 +4438,7 @@
         "answers": [
             "Appleby Magna"
         ],
-        "pageviews": 2496
+        "pageviews": 14
     },
     {
         "query_id": "131_737",
@@ -5834,7 +4446,7 @@
         "answers": [
             "North Brunswick"
         ],
-        "pageviews": 277
+        "pageviews": 1
     },
     {
         "query_id": "131_738",
@@ -5842,15 +4454,7 @@
         "answers": [
             "Vastse-Kuuste vald"
         ],
-        "pageviews": 1077
-    },
-    {
-        "query_id": "131_739",
-        "question": "Where is TID Tower located?",
-        "answers": [
-            "Tirana"
-        ],
-        "pageviews": 6443
+        "pageviews": 3
     },
     {
         "query_id": "131_740",
@@ -5858,7 +4462,7 @@
         "answers": [
             "Azghan Rural District"
         ],
-        "pageviews": 473
+        "pageviews": 1
     },
     {
         "query_id": "131_741",
@@ -5866,15 +4470,7 @@
         "answers": [
             "Haryana"
         ],
-        "pageviews": 4026
-    },
-    {
-        "query_id": "131_742",
-        "question": "Where is Wild Thing located?",
-        "answers": [
-            "Shakopee"
-        ],
-        "pageviews": 13419
+        "pageviews": 5
     },
     {
         "query_id": "131_743",
@@ -5882,15 +4478,7 @@
         "answers": [
             "Gmina Kutno"
         ],
-        "pageviews": 500
-    },
-    {
-        "query_id": "131_744",
-        "question": "Where is Azoy\u00fa Municipality located?",
-        "answers": [
-            "Guerrero"
-        ],
-        "pageviews": 562
+        "pageviews": 1
     },
     {
         "query_id": "131_745",
@@ -5898,7 +4486,7 @@
         "answers": [
             "Gmina Zator"
         ],
-        "pageviews": 651
+        "pageviews": 1
     },
     {
         "query_id": "131_746",
@@ -5906,7 +4494,7 @@
         "answers": [
             "Racine"
         ],
-        "pageviews": 1440
+        "pageviews": 2
     },
     {
         "query_id": "131_747",
@@ -5914,7 +4502,7 @@
         "answers": [
             "California"
         ],
-        "pageviews": 7668
+        "pageviews": 22
     },
     {
         "query_id": "131_748",
@@ -5922,7 +4510,7 @@
         "answers": [
             "Boeotia Regional Unit"
         ],
-        "pageviews": 294663
+        "pageviews": 559
     },
     {
         "query_id": "131_749",
@@ -5930,15 +4518,7 @@
         "answers": [
             "Sibley County"
         ],
-        "pageviews": 570
-    },
-    {
-        "query_id": "131_750",
-        "question": "Where is Burdette located?",
-        "answers": [
-            "Greenbrier County"
-        ],
-        "pageviews": 654
+        "pageviews": 1
     },
     {
         "query_id": "131_751",
@@ -5946,7 +4526,7 @@
         "answers": [
             "Kamikawa Subprefecture"
         ],
-        "pageviews": 7531
+        "pageviews": 6
     },
     {
         "query_id": "131_752",
@@ -5954,7 +4534,7 @@
         "answers": [
             "Norfolk"
         ],
-        "pageviews": 1856
+        "pageviews": 7
     },
     {
         "query_id": "131_753",
@@ -5962,7 +4542,7 @@
         "answers": [
             "Massachusetts"
         ],
-        "pageviews": 2263
+        "pageviews": 2
     },
     {
         "query_id": "131_754",
@@ -5970,7 +4550,7 @@
         "answers": [
             "Nurali Rural District"
         ],
-        "pageviews": 291
+        "pageviews": 1
     },
     {
         "query_id": "131_755",
@@ -5978,7 +4558,7 @@
         "answers": [
             "Rupandehi District"
         ],
-        "pageviews": 418
+        "pageviews": 1
     },
     {
         "query_id": "131_756",
@@ -5986,7 +4566,7 @@
         "answers": [
             "Chichester"
         ],
-        "pageviews": 7134
+        "pageviews": 42
     },
     {
         "query_id": "131_757",
@@ -5994,7 +4574,7 @@
         "answers": [
             "Mymensingh District"
         ],
-        "pageviews": 8960
+        "pageviews": 2
     },
     {
         "query_id": "131_758",
@@ -6002,7 +4582,7 @@
         "answers": [
             "Gmina Nowinka"
         ],
-        "pageviews": 657
+        "pageviews": 2
     },
     {
         "query_id": "131_759",
@@ -6010,7 +4590,7 @@
         "answers": [
             "Logan County"
         ],
-        "pageviews": 4540
+        "pageviews": 12
     },
     {
         "query_id": "131_760",
@@ -6018,15 +4598,7 @@
         "answers": [
             "Wilcox County"
         ],
-        "pageviews": 10023
-    },
-    {
-        "query_id": "131_761",
-        "question": "Where is Gaga'ifomauga located?",
-        "answers": [
-            "Samoa"
-        ],
-        "pageviews": 1207
+        "pageviews": 8
     },
     {
         "query_id": "131_762",
@@ -6034,7 +4606,7 @@
         "answers": [
             "New Jersey"
         ],
-        "pageviews": 1652
+        "pageviews": 24
     },
     {
         "query_id": "131_763",
@@ -6042,7 +4614,7 @@
         "answers": [
             "North Warwickshire"
         ],
-        "pageviews": 2077
+        "pageviews": 8
     },
     {
         "query_id": "131_764",
@@ -6050,15 +4622,7 @@
         "answers": [
             "Monmouthshire"
         ],
-        "pageviews": 2080
-    },
-    {
-        "query_id": "131_765",
-        "question": "Where is Mascarville located?",
-        "answers": [
-            "Haute-Garonne"
-        ],
-        "pageviews": 946
+        "pageviews": 7
     },
     {
         "query_id": "131_766",
@@ -6066,23 +4630,7 @@
         "answers": [
             "Haute-Vienne"
         ],
-        "pageviews": 2408
-    },
-    {
-        "query_id": "131_767",
-        "question": "Where is Whenuakura River located?",
-        "answers": [
-            "Taranaki Region"
-        ],
-        "pageviews": 839
-    },
-    {
-        "query_id": "131_768",
-        "question": "Where is Lawrence High School located?",
-        "answers": [
-            "New York"
-        ],
-        "pageviews": 11591
+        "pageviews": 5
     },
     {
         "query_id": "131_769",
@@ -6090,31 +4638,7 @@
         "answers": [
             "Los Angeles County"
         ],
-        "pageviews": 70094
-    },
-    {
-        "query_id": "131_770",
-        "question": "Where is Killai located?",
-        "answers": [
-            "Cuddalore district"
-        ],
-        "pageviews": 1891
-    },
-    {
-        "query_id": "131_771",
-        "question": "Where is Bharkhar located?",
-        "answers": [
-            "Bihar"
-        ],
-        "pageviews": 877
-    },
-    {
-        "query_id": "131_772",
-        "question": "Where is Miyamura Station located?",
-        "answers": [
-            "Miyazu"
-        ],
-        "pageviews": 504
+        "pageviews": 55
     },
     {
         "query_id": "131_773",
@@ -6122,15 +4646,7 @@
         "answers": [
             "Karnataka"
         ],
-        "pageviews": 1925
-    },
-    {
-        "query_id": "131_774",
-        "question": "Where is Vidyadhiraja Vidya Bhavan Higher Secondary School located?",
-        "answers": [
-            "Kerala"
-        ],
-        "pageviews": 2356
+        "pageviews": 2
     },
     {
         "query_id": "131_775",
@@ -6138,7 +4654,7 @@
         "answers": [
             "Chiseldon"
         ],
-        "pageviews": 3071
+        "pageviews": 6
     },
     {
         "query_id": "131_776",
@@ -6146,7 +4662,7 @@
         "answers": [
             "Colombo"
         ],
-        "pageviews": 35598
+        "pageviews": 49
     },
     {
         "query_id": "131_777",
@@ -6154,7 +4670,7 @@
         "answers": [
             "Almahdi Rural District (West Azerbaijan Province)"
         ],
-        "pageviews": 374
+        "pageviews": 1
     },
     {
         "query_id": "131_778",
@@ -6162,7 +4678,7 @@
         "answers": [
             "Williams County"
         ],
-        "pageviews": 9953
+        "pageviews": 26
     },
     {
         "query_id": "131_779",
@@ -6170,23 +4686,7 @@
         "answers": [
             "Katowice"
         ],
-        "pageviews": 1792
-    },
-    {
-        "query_id": "131_780",
-        "question": "Where is Shandon Rovers GAA located?",
-        "answers": [
-            "County Waterford"
-        ],
-        "pageviews": 812
-    },
-    {
-        "query_id": "131_781",
-        "question": "Where is Thirukoyilur block located?",
-        "answers": [
-            "Tamil Nadu"
-        ],
-        "pageviews": 302
+        "pageviews": 3
     },
     {
         "query_id": "131_782",
@@ -6194,7 +4694,7 @@
         "answers": [
             "Mueang Phitsanulok"
         ],
-        "pageviews": 632
+        "pageviews": 3
     },
     {
         "query_id": "131_783",
@@ -6202,15 +4702,7 @@
         "answers": [
             "Thailand"
         ],
-        "pageviews": 15959
-    },
-    {
-        "query_id": "131_784",
-        "question": "Where is Teakettle Mountain located?",
-        "answers": [
-            "Colorado"
-        ],
-        "pageviews": 1516
+        "pageviews": 3
     },
     {
         "query_id": "131_785",
@@ -6218,7 +4710,7 @@
         "answers": [
             "Coimbra District"
         ],
-        "pageviews": 5749
+        "pageviews": 6
     },
     {
         "query_id": "131_786",
@@ -6226,7 +4718,7 @@
         "answers": [
             "Sarpy County"
         ],
-        "pageviews": 122117
+        "pageviews": 257
     },
     {
         "query_id": "131_787",
@@ -6234,7 +4726,7 @@
         "answers": [
             "Khorrami Rural District"
         ],
-        "pageviews": 396
+        "pageviews": 1
     },
     {
         "query_id": "131_788",
@@ -6242,7 +4734,7 @@
         "answers": [
             "Sarkal Rural District"
         ],
-        "pageviews": 540
+        "pageviews": 1
     },
     {
         "query_id": "131_789",
@@ -6250,7 +4742,7 @@
         "answers": [
             "Gautam Buddh Nagar district"
         ],
-        "pageviews": 35821
+        "pageviews": 26
     },
     {
         "query_id": "131_790",
@@ -6258,7 +4750,7 @@
         "answers": [
             "Purulia district"
         ],
-        "pageviews": 1427
+        "pageviews": 17
     },
     {
         "query_id": "131_791",
@@ -6266,7 +4758,7 @@
         "answers": [
             "Guthrie County"
         ],
-        "pageviews": 7164
+        "pageviews": 20
     },
     {
         "query_id": "131_792",
@@ -6274,7 +4766,7 @@
         "answers": [
             "Harford County"
         ],
-        "pageviews": 1225
+        "pageviews": 5
     },
     {
         "query_id": "131_793",
@@ -6282,7 +4774,7 @@
         "answers": [
             "Rhineland-Palatinate"
         ],
-        "pageviews": 547
+        "pageviews": 1
     },
     {
         "query_id": "131_795",
@@ -6290,7 +4782,7 @@
         "answers": [
             "New Jersey"
         ],
-        "pageviews": 37223
+        "pageviews": 146
     },
     {
         "query_id": "131_796",
@@ -6298,7 +4790,7 @@
         "answers": [
             "Province of Salerno"
         ],
-        "pageviews": 3533
+        "pageviews": 4
     },
     {
         "query_id": "131_797",
@@ -6306,7 +4798,7 @@
         "answers": [
             "Lee County"
         ],
-        "pageviews": 5984
+        "pageviews": 5
     },
     {
         "query_id": "131_798",
@@ -6314,7 +4806,7 @@
         "answers": [
             "North Devon"
         ],
-        "pageviews": 4955
+        "pageviews": 17
     },
     {
         "query_id": "131_799",
@@ -6322,7 +4814,7 @@
         "answers": [
             "Pennsylvania"
         ],
-        "pageviews": 3342
+        "pageviews": 30
     },
     {
         "query_id": "131_800",
@@ -6331,7 +4823,7 @@
             "Yakut Autonomous Soviet Socialist Republic",
             "Sakha Republic"
         ],
-        "pageviews": 794417
+        "pageviews": 287
     },
     {
         "query_id": "131_801",
@@ -6339,15 +4831,7 @@
         "answers": [
             "Buckinghamshire"
         ],
-        "pageviews": 14764
-    },
-    {
-        "query_id": "131_802",
-        "question": "Where is Agriculture in Puerto Rico located?",
-        "answers": [
-            "Puerto Rico"
-        ],
-        "pageviews": 8618
+        "pageviews": 15
     },
     {
         "query_id": "131_803",
@@ -6355,31 +4839,7 @@
         "answers": [
             "Richmondshire"
         ],
-        "pageviews": 1385
-    },
-    {
-        "query_id": "131_804",
-        "question": "Where is Lime Stardom located?",
-        "answers": [
-            "Hong Kong"
-        ],
-        "pageviews": 1187
-    },
-    {
-        "query_id": "131_805",
-        "question": "Where is Cragford located?",
-        "answers": [
-            "Clay County"
-        ],
-        "pageviews": 1548
-    },
-    {
-        "query_id": "131_806",
-        "question": "Where is Bur Salah located?",
-        "answers": [
-            "Mudug"
-        ],
-        "pageviews": 1764
+        "pageviews": 4
     },
     {
         "query_id": "131_807",
@@ -6387,7 +4847,7 @@
         "answers": [
             "Gmina Ozimek"
         ],
-        "pageviews": 591
+        "pageviews": 1
     },
     {
         "query_id": "131_808",
@@ -6395,15 +4855,7 @@
         "answers": [
             "Sofia Province"
         ],
-        "pageviews": 2129
-    },
-    {
-        "query_id": "131_809",
-        "question": "Where is Touffreville-la-Corbeline located?",
-        "answers": [
-            "Seine-Maritime"
-        ],
-        "pageviews": 972
+        "pageviews": 7
     },
     {
         "query_id": "131_810",
@@ -6411,7 +4863,7 @@
         "answers": [
             "Radley"
         ],
-        "pageviews": 4030
+        "pageviews": 4
     },
     {
         "query_id": "131_811",
@@ -6419,7 +4871,7 @@
         "answers": [
             "California"
         ],
-        "pageviews": 246382
+        "pageviews": 527
     },
     {
         "query_id": "131_812",
@@ -6427,15 +4879,7 @@
         "answers": [
             "Gmina Alwernia"
         ],
-        "pageviews": 527
-    },
-    {
-        "query_id": "131_813",
-        "question": "Where is Gournay-le-Gu\u00e9rin located?",
-        "answers": [
-            "Eure"
-        ],
-        "pageviews": 1327
+        "pageviews": 1
     },
     {
         "query_id": "131_814",
@@ -6444,7 +4888,7 @@
             "Canton of Vaud",
             "Nyon District"
         ],
-        "pageviews": 2293
+        "pageviews": 1
     },
     {
         "query_id": "131_815",
@@ -6452,7 +4896,7 @@
         "answers": [
             "Edmonton"
         ],
-        "pageviews": 2445
+        "pageviews": 3
     },
     {
         "query_id": "131_816",
@@ -6460,7 +4904,7 @@
         "answers": [
             "Gmina Radomsko"
         ],
-        "pageviews": 373
+        "pageviews": 1
     },
     {
         "query_id": "131_817",
@@ -6468,7 +4912,7 @@
         "answers": [
             "San Miguel County"
         ],
-        "pageviews": 2129
+        "pageviews": 3
     },
     {
         "query_id": "131_818",
@@ -6476,7 +4920,7 @@
         "answers": [
             "Queensland"
         ],
-        "pageviews": 10596
+        "pageviews": 33
     },
     {
         "query_id": "131_819",
@@ -6484,7 +4928,7 @@
         "answers": [
             "St. Louis County"
         ],
-        "pageviews": 1024
+        "pageviews": 3
     },
     {
         "query_id": "131_820",
@@ -6492,7 +4936,7 @@
         "answers": [
             "Ahram Rural District"
         ],
-        "pageviews": 390
+        "pageviews": 1
     },
     {
         "query_id": "131_821",
@@ -6500,7 +4944,7 @@
         "answers": [
             "Tabas-e Masina Rural District"
         ],
-        "pageviews": 399
+        "pageviews": 1
     },
     {
         "query_id": "131_822",
@@ -6508,7 +4952,7 @@
         "answers": [
             "Karnataka"
         ],
-        "pageviews": 2787
+        "pageviews": 1
     },
     {
         "query_id": "131_824",
@@ -6516,7 +4960,7 @@
         "answers": [
             "Erode district"
         ],
-        "pageviews": 856
+        "pageviews": 1
     },
     {
         "query_id": "131_825",
@@ -6524,7 +4968,7 @@
         "answers": [
             "Leisi Rural Municipality"
         ],
-        "pageviews": 395
+        "pageviews": 1
     },
     {
         "query_id": "131_826",
@@ -6532,15 +4976,7 @@
         "answers": [
             "Montreal"
         ],
-        "pageviews": 1742
-    },
-    {
-        "query_id": "131_827",
-        "question": "Where is Texas State Highway Spur 501 located?",
-        "answers": [
-            "Texas"
-        ],
-        "pageviews": 526
+        "pageviews": 1
     },
     {
         "query_id": "131_828",
@@ -6548,7 +4984,7 @@
         "answers": [
             "Naantali"
         ],
-        "pageviews": 25669
+        "pageviews": 7
     },
     {
         "query_id": "131_829",
@@ -6556,7 +4992,7 @@
         "answers": [
             "Maryland"
         ],
-        "pageviews": 887
+        "pageviews": 2
     },
     {
         "query_id": "131_830",
@@ -6564,7 +5000,7 @@
         "answers": [
             "Warsaw"
         ],
-        "pageviews": 5790
+        "pageviews": 25
     },
     {
         "query_id": "131_831",
@@ -6572,15 +5008,7 @@
         "answers": [
             "Gmina Siedliszcze"
         ],
-        "pageviews": 501
-    },
-    {
-        "query_id": "131_832",
-        "question": "Where is Colonel Zadok A. Magruder High School located?",
-        "answers": [
-            "Maryland"
-        ],
-        "pageviews": 1178
+        "pageviews": 1
     },
     {
         "query_id": "131_833",
@@ -6588,7 +5016,7 @@
         "answers": [
             "St. Louis County"
         ],
-        "pageviews": 2677
+        "pageviews": 9
     },
     {
         "query_id": "131_834",
@@ -6596,7 +5024,7 @@
         "answers": [
             "Norfolk County"
         ],
-        "pageviews": 20241
+        "pageviews": 93
     },
     {
         "query_id": "131_835",
@@ -6604,7 +5032,7 @@
         "answers": [
             "West Virginia"
         ],
-        "pageviews": 1989
+        "pageviews": 20
     },
     {
         "query_id": "131_836",
@@ -6612,7 +5040,7 @@
         "answers": [
             "New York"
         ],
-        "pageviews": 32615
+        "pageviews": 112
     },
     {
         "query_id": "131_837",
@@ -6620,7 +5048,7 @@
         "answers": [
             "Gmina Sosnowica"
         ],
-        "pageviews": 658
+        "pageviews": 11
     },
     {
         "query_id": "131_838",
@@ -6628,15 +5056,7 @@
         "answers": [
             "California"
         ],
-        "pageviews": 10540
-    },
-    {
-        "query_id": "131_839",
-        "question": "Where is Villenauxe-la-Petite located?",
-        "answers": [
-            "Seine-et-Marne"
-        ],
-        "pageviews": 1099
+        "pageviews": 3
     },
     {
         "query_id": "131_840",
@@ -6644,15 +5064,7 @@
         "answers": [
             "Logan County"
         ],
-        "pageviews": 1919
-    },
-    {
-        "query_id": "131_841",
-        "question": "Where is Vatani Stadium located?",
-        "answers": [
-            "Qaem Shahr"
-        ],
-        "pageviews": 2310
+        "pageviews": 5
     },
     {
         "query_id": "131_842",
@@ -6660,7 +5072,7 @@
         "answers": [
             "Gmina Sierakowice"
         ],
-        "pageviews": 984
+        "pageviews": 1
     },
     {
         "query_id": "131_843",
@@ -6668,31 +5080,7 @@
         "answers": [
             "Ticino"
         ],
-        "pageviews": 1526
-    },
-    {
-        "query_id": "131_844",
-        "question": "Where is Embassy of Iran, Moscow located?",
-        "answers": [
-            "Moscow"
-        ],
-        "pageviews": 2087
-    },
-    {
-        "query_id": "131_845",
-        "question": "Where is Ath\u00e9e located?",
-        "answers": [
-            "Mayenne"
-        ],
-        "pageviews": 875
-    },
-    {
-        "query_id": "131_846",
-        "question": "Where is Champasak Province located?",
-        "answers": [
-            "Laos"
-        ],
-        "pageviews": 15051
+        "pageviews": 6
     },
     {
         "query_id": "131_847",
@@ -6700,7 +5088,7 @@
         "answers": [
             "Mobile County"
         ],
-        "pageviews": 2437
+        "pageviews": 8
     },
     {
         "query_id": "131_848",
@@ -6708,32 +5096,7 @@
         "answers": [
             "Naples"
         ],
-        "pageviews": 8108
-    },
-    {
-        "query_id": "131_849",
-        "question": "Where is Paillet located?",
-        "answers": [
-            "Gironde"
-        ],
-        "pageviews": 1701
-    },
-    {
-        "query_id": "131_850",
-        "question": "Where is Lyseren located?",
-        "answers": [
-            "Enebakk",
-            "Spydeberg"
-        ],
-        "pageviews": 1708
-    },
-    {
-        "query_id": "131_851",
-        "question": "Where is Polign\u00e9 located?",
-        "answers": [
-            "Ille-et-Vilaine"
-        ],
-        "pageviews": 966
+        "pageviews": 4
     },
     {
         "query_id": "131_852",
@@ -6741,15 +5104,7 @@
         "answers": [
             "Trentino"
         ],
-        "pageviews": 1550
-    },
-    {
-        "query_id": "131_853",
-        "question": "Where is Incl\u00e1n located?",
-        "answers": [
-            "Tacna Province"
-        ],
-        "pageviews": 377
+        "pageviews": 6
     },
     {
         "query_id": "131_854",
@@ -6757,15 +5112,7 @@
         "answers": [
             "Brazoria County"
         ],
-        "pageviews": 10234
-    },
-    {
-        "query_id": "131_855",
-        "question": "Where is Dobra, West Virginia located?",
-        "answers": [
-            "Logan County"
-        ],
-        "pageviews": 775
+        "pageviews": 11
     },
     {
         "query_id": "131_856",
@@ -6773,15 +5120,7 @@
         "answers": [
             "Tioga County"
         ],
-        "pageviews": 6088
-    },
-    {
-        "query_id": "131_857",
-        "question": "Where is Nehren located?",
-        "answers": [
-            "Cochem-Zell"
-        ],
-        "pageviews": 798
+        "pageviews": 11
     },
     {
         "query_id": "131_858",
@@ -6789,7 +5128,7 @@
         "answers": [
             "Gonbaki District"
         ],
-        "pageviews": 324
+        "pageviews": 1
     },
     {
         "query_id": "131_859",
@@ -6797,7 +5136,7 @@
         "answers": [
             "Karnataka"
         ],
-        "pageviews": 838
+        "pageviews": 3
     },
     {
         "query_id": "131_860",
@@ -6806,7 +5145,7 @@
             "Malko Tarnovo Municipality",
             "Burgas Province"
         ],
-        "pageviews": 765
+        "pageviews": 4
     },
     {
         "query_id": "131_861",
@@ -6815,7 +5154,7 @@
             "Kumbakonam Taluk",
             "Tamil Nadu"
         ],
-        "pageviews": 916
+        "pageviews": 1
     },
     {
         "query_id": "131_862",
@@ -6823,7 +5162,7 @@
         "answers": [
             "Fresno"
         ],
-        "pageviews": 20404
+        "pageviews": 22
     },
     {
         "query_id": "131_863",
@@ -6831,7 +5170,7 @@
         "answers": [
             "Alaska"
         ],
-        "pageviews": 2351
+        "pageviews": 1
     },
     {
         "query_id": "131_864",
@@ -6839,7 +5178,7 @@
         "answers": [
             "Vik"
         ],
-        "pageviews": 9606
+        "pageviews": 9
     },
     {
         "query_id": "131_865",
@@ -6847,7 +5186,7 @@
         "answers": [
             "Gmina Domaszowice"
         ],
-        "pageviews": 333
+        "pageviews": 1
     },
     {
         "query_id": "131_866",
@@ -6855,7 +5194,7 @@
         "answers": [
             "Dakshin Dinajpur district"
         ],
-        "pageviews": 3395
+        "pageviews": 3
     },
     {
         "query_id": "131_867",
@@ -6863,7 +5202,7 @@
         "answers": [
             "Minnesota"
         ],
-        "pageviews": 4508
+        "pageviews": 7
     },
     {
         "query_id": "131_868",
@@ -6871,7 +5210,7 @@
         "answers": [
             "Doreh Rural District"
         ],
-        "pageviews": 371
+        "pageviews": 1
     },
     {
         "query_id": "131_869",
@@ -6879,7 +5218,7 @@
         "answers": [
             "Texas"
         ],
-        "pageviews": 3443
+        "pageviews": 5
     },
     {
         "query_id": "131_870",
@@ -6887,7 +5226,7 @@
         "answers": [
             "Ararat Province"
         ],
-        "pageviews": 1355
+        "pageviews": 1
     },
     {
         "query_id": "131_871",
@@ -6896,15 +5235,7 @@
             "Illinois",
             "Charleston"
         ],
-        "pageviews": 101241
-    },
-    {
-        "query_id": "131_872",
-        "question": "Where is B\u00f6rk located?",
-        "answers": [
-            "Hanak"
-        ],
-        "pageviews": 705
+        "pageviews": 298
     },
     {
         "query_id": "131_873",
@@ -6912,7 +5243,7 @@
         "answers": [
             "Antwerp"
         ],
-        "pageviews": 36278
+        "pageviews": 176
     },
     {
         "query_id": "131_874",
@@ -6920,7 +5251,7 @@
         "answers": [
             "Zennor"
         ],
-        "pageviews": 3831
+        "pageviews": 8
     },
     {
         "query_id": "131_875",
@@ -6928,7 +5259,7 @@
         "answers": [
             "Birkenfeld"
         ],
-        "pageviews": 1590
+        "pageviews": 21
     },
     {
         "query_id": "131_876",
@@ -6936,7 +5267,7 @@
         "answers": [
             "North Carolina"
         ],
-        "pageviews": 6764
+        "pageviews": 8
     },
     {
         "query_id": "131_877",
@@ -6944,15 +5275,7 @@
         "answers": [
             "Alberta"
         ],
-        "pageviews": 14785
-    },
-    {
-        "query_id": "131_878",
-        "question": "Where is M\u0259h\u0259mm\u0259dli located?",
-        "answers": [
-            "Imishli District"
-        ],
-        "pageviews": 438
+        "pageviews": 55
     },
     {
         "query_id": "131_879",
@@ -6960,7 +5283,7 @@
         "answers": [
             "Saguache County"
         ],
-        "pageviews": 5225
+        "pageviews": 9
     },
     {
         "query_id": "131_880",
@@ -6968,7 +5291,7 @@
         "answers": [
             "Mian Jam Rural District"
         ],
-        "pageviews": 400
+        "pageviews": 1
     },
     {
         "query_id": "131_881",
@@ -6976,7 +5299,7 @@
         "answers": [
             "Sarduiyeh District"
         ],
-        "pageviews": 484
+        "pageviews": 1
     },
     {
         "query_id": "131_882",
@@ -6985,7 +5308,7 @@
             "Kollam district",
             "Kerala"
         ],
-        "pageviews": 2147
+        "pageviews": 4
     },
     {
         "query_id": "131_883",
@@ -6993,7 +5316,7 @@
         "answers": [
             "Texas"
         ],
-        "pageviews": 898
+        "pageviews": 1
     },
     {
         "query_id": "131_884",
@@ -7001,7 +5324,7 @@
         "answers": [
             "Aguascalientes"
         ],
-        "pageviews": 2688
+        "pageviews": 4
     },
     {
         "query_id": "131_885",
@@ -7009,7 +5332,7 @@
         "answers": [
             "Jackson County"
         ],
-        "pageviews": 32035
+        "pageviews": 55
     },
     {
         "query_id": "131_886",
@@ -7017,7 +5340,7 @@
         "answers": [
             "Greater Manchester"
         ],
-        "pageviews": 1163
+        "pageviews": 8
     },
     {
         "query_id": "131_887",
@@ -7025,15 +5348,7 @@
         "answers": [
             "Schleswig-Holstein"
         ],
-        "pageviews": 979
-    },
-    {
-        "query_id": "131_888",
-        "question": "Where is Egypt located?",
-        "answers": [
-            "South Bucks"
-        ],
-        "pageviews": 2851
+        "pageviews": 3
     },
     {
         "query_id": "131_889",
@@ -7041,7 +5356,7 @@
         "answers": [
             "Bristol"
         ],
-        "pageviews": 1723
+        "pageviews": 5
     },
     {
         "query_id": "131_890",
@@ -7049,7 +5364,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 5019
+        "pageviews": 6
     },
     {
         "query_id": "131_891",
@@ -7057,7 +5372,7 @@
         "answers": [
             "Cornwall"
         ],
-        "pageviews": 612
+        "pageviews": 2
     },
     {
         "query_id": "131_892",
@@ -7065,15 +5380,7 @@
         "answers": [
             "Jamabrud Rural District"
         ],
-        "pageviews": 436
-    },
-    {
-        "query_id": "131_893",
-        "question": "Where is Begdale located?",
-        "answers": [
-            "Cambridgeshire"
-        ],
-        "pageviews": 369
+        "pageviews": 1
     },
     {
         "query_id": "131_894",
@@ -7081,7 +5388,7 @@
         "answers": [
             "Gmina Pozezdrze"
         ],
-        "pageviews": 471
+        "pageviews": 1
     },
     {
         "query_id": "131_895",
@@ -7089,15 +5396,7 @@
         "answers": [
             "Kapilvastu District"
         ],
-        "pageviews": 489
-    },
-    {
-        "query_id": "131_896",
-        "question": "Where is Morbihan's 2nd constituency located?",
-        "answers": [
-            "Morbihan"
-        ],
-        "pageviews": 1142
+        "pageviews": 1
     },
     {
         "query_id": "131_897",
@@ -7105,7 +5404,7 @@
         "answers": [
             "Outer Hebrides"
         ],
-        "pageviews": 873
+        "pageviews": 1
     },
     {
         "query_id": "131_898",
@@ -7113,7 +5412,7 @@
         "answers": [
             "Manitoba"
         ],
-        "pageviews": 1075
+        "pageviews": 4
     },
     {
         "query_id": "131_899",
@@ -7121,15 +5420,7 @@
         "answers": [
             "Victoria"
         ],
-        "pageviews": 4827
-    },
-    {
-        "query_id": "131_900",
-        "question": "Where is Shichongkou, Xinhua located?",
-        "answers": [
-            "Xinhua County"
-        ],
-        "pageviews": 461
+        "pageviews": 8
     },
     {
         "query_id": "131_901",
@@ -7137,15 +5428,7 @@
         "answers": [
             "Gmina Pierzchnica"
         ],
-        "pageviews": 418
-    },
-    {
-        "query_id": "131_903",
-        "question": "Where is Algi, Barisal located?",
-        "answers": [
-            "Jhalokati District"
-        ],
-        "pageviews": 407
+        "pageviews": 1
     },
     {
         "query_id": "131_904",
@@ -7153,7 +5436,7 @@
         "answers": [
             "Gmina Koszyce"
         ],
-        "pageviews": 348
+        "pageviews": 1
     },
     {
         "query_id": "131_905",
@@ -7162,7 +5445,7 @@
             "Sennan District",
             "\u014csaka Prefecture"
         ],
-        "pageviews": 5141
+        "pageviews": 7
     },
     {
         "query_id": "131_906",
@@ -7170,7 +5453,7 @@
         "answers": [
             "Kurdistan Province"
         ],
-        "pageviews": 850
+        "pageviews": 53
     },
     {
         "query_id": "131_907",
@@ -7178,7 +5461,7 @@
         "answers": [
             "Brabourne"
         ],
-        "pageviews": 1901
+        "pageviews": 4
     },
     {
         "query_id": "131_908",
@@ -7186,7 +5469,7 @@
         "answers": [
             "Albacete Province"
         ],
-        "pageviews": 983
+        "pageviews": 2
     },
     {
         "query_id": "131_909",
@@ -7194,15 +5477,7 @@
         "answers": [
             "British Columbia"
         ],
-        "pageviews": 834
-    },
-    {
-        "query_id": "131_910",
-        "question": "Where is Williams Township located?",
-        "answers": [
-            "Aitkin County"
-        ],
-        "pageviews": 591
+        "pageviews": 1
     },
     {
         "query_id": "131_911",
@@ -7210,7 +5485,7 @@
         "answers": [
             "Asker"
         ],
-        "pageviews": 1830
+        "pageviews": 7
     },
     {
         "query_id": "131_912",
@@ -7218,15 +5493,7 @@
         "answers": [
             "Golestan Province"
         ],
-        "pageviews": 500
-    },
-    {
-        "query_id": "131_913",
-        "question": "Where is Castillo de Bujalance located?",
-        "answers": [
-            "Bujalance"
-        ],
-        "pageviews": 985
+        "pageviews": 1
     },
     {
         "query_id": "131_914",
@@ -7234,15 +5501,7 @@
         "answers": [
             "Pune district"
         ],
-        "pageviews": 21495
-    },
-    {
-        "query_id": "131_915",
-        "question": "Where is San Juan Cieneguilla located?",
-        "answers": [
-            "Oaxaca"
-        ],
-        "pageviews": 731
+        "pageviews": 62
     },
     {
         "query_id": "131_916",
@@ -7250,23 +5509,7 @@
         "answers": [
             "Jastun Shah Rural District"
         ],
-        "pageviews": 506
-    },
-    {
-        "query_id": "131_917",
-        "question": "Where is Hai, Lviv Oblast located?",
-        "answers": [
-            "Brody Raion"
-        ],
-        "pageviews": 615
-    },
-    {
-        "query_id": "131_918",
-        "question": "Where is Carlinda located?",
-        "answers": [
-            "Mato Grosso"
-        ],
-        "pageviews": 1018
+        "pageviews": 1
     },
     {
         "query_id": "131_919",
@@ -7274,7 +5517,7 @@
         "answers": [
             "Bengaluru"
         ],
-        "pageviews": 873
+        "pageviews": 3
     },
     {
         "query_id": "131_920",
@@ -7282,7 +5525,7 @@
         "answers": [
             "Pardubice Region"
         ],
-        "pageviews": 3690
+        "pageviews": 119
     },
     {
         "query_id": "131_921",
@@ -7290,7 +5533,7 @@
         "answers": [
             "Canossa"
         ],
-        "pageviews": 10637
+        "pageviews": 6
     },
     {
         "query_id": "131_922",
@@ -7299,7 +5542,7 @@
             "Qaleh-ye Khvajeh Rural District",
             "Khuzestan Province"
         ],
-        "pageviews": 573
+        "pageviews": 1
     },
     {
         "query_id": "131_923",
@@ -7307,7 +5550,7 @@
         "answers": [
             "Gilan Province"
         ],
-        "pageviews": 390
+        "pageviews": 1
     },
     {
         "query_id": "131_924",
@@ -7315,7 +5558,7 @@
         "answers": [
             "Missouri"
         ],
-        "pageviews": 4449
+        "pageviews": 9
     },
     {
         "query_id": "131_925",
@@ -7323,15 +5566,7 @@
         "answers": [
             "Baran district"
         ],
-        "pageviews": 8244
-    },
-    {
-        "query_id": "131_926",
-        "question": "Where is Concei\u00e7\u00e3o do Almeida located?",
-        "answers": [
-            "Bahia"
-        ],
-        "pageviews": 1311
+        "pageviews": 6
     },
     {
         "query_id": "131_927",
@@ -7340,7 +5575,7 @@
             "Pennsylvania",
             "Lehigh County"
         ],
-        "pageviews": 459
+        "pageviews": 15
     },
     {
         "query_id": "131_928",
@@ -7348,7 +5583,7 @@
         "answers": [
             "Dasht-e Sar Rural District"
         ],
-        "pageviews": 791
+        "pageviews": 1
     },
     {
         "query_id": "131_929",
@@ -7356,7 +5591,7 @@
         "answers": [
             "Mueang Phitsanulok"
         ],
-        "pageviews": 911
+        "pageviews": 3
     },
     {
         "query_id": "131_930",
@@ -7364,15 +5599,7 @@
         "answers": [
             "Fayette County"
         ],
-        "pageviews": 3637
-    },
-    {
-        "query_id": "131_931",
-        "question": "Where is Chester State Park located?",
-        "answers": [
-            "South Carolina"
-        ],
-        "pageviews": 1661
+        "pageviews": 3
     },
     {
         "query_id": "131_932",
@@ -7380,7 +5607,7 @@
         "answers": [
             "British Columbia"
         ],
-        "pageviews": 1829
+        "pageviews": 5
     },
     {
         "query_id": "131_933",
@@ -7388,7 +5615,7 @@
         "answers": [
             "Sint Eustatius"
         ],
-        "pageviews": 1150
+        "pageviews": 3
     },
     {
         "query_id": "131_934",
@@ -7396,7 +5623,7 @@
         "answers": [
             "Xinzhou"
         ],
-        "pageviews": 2265
+        "pageviews": 7
     },
     {
         "query_id": "131_935",
@@ -7404,7 +5631,7 @@
         "answers": [
             "Ontario"
         ],
-        "pageviews": 6838
+        "pageviews": 1
     },
     {
         "query_id": "131_936",
@@ -7412,7 +5639,7 @@
         "answers": [
             "South Australia"
         ],
-        "pageviews": 2097
+        "pageviews": 15
     },
     {
         "query_id": "131_937",
@@ -7420,7 +5647,7 @@
         "answers": [
             "Victoria"
         ],
-        "pageviews": 2878
+        "pageviews": 7
     },
     {
         "query_id": "131_938",
@@ -7428,24 +5655,7 @@
         "answers": [
             "Ontario"
         ],
-        "pageviews": 1902
-    },
-    {
-        "query_id": "131_939",
-        "question": "Where is Palwe Bk located?",
-        "answers": [
-            "Maharashtra",
-            "Ahmednagar district"
-        ],
-        "pageviews": 953
-    },
-    {
-        "query_id": "131_940",
-        "question": "Where is Polling in Tirol located?",
-        "answers": [
-            "Innsbruck-Land District"
-        ],
-        "pageviews": 1254
+        "pageviews": 8
     },
     {
         "query_id": "131_941",
@@ -7453,7 +5663,7 @@
         "answers": [
             "Rohrbach District"
         ],
-        "pageviews": 834
+        "pageviews": 1
     },
     {
         "query_id": "131_942",
@@ -7461,7 +5671,7 @@
         "answers": [
             "Virginia"
         ],
-        "pageviews": 6818
+        "pageviews": 1
     },
     {
         "query_id": "131_943",
@@ -7469,7 +5679,7 @@
         "answers": [
             "McDowell County"
         ],
-        "pageviews": 812
+        "pageviews": 2
     },
     {
         "query_id": "131_944",
@@ -7477,7 +5687,7 @@
         "answers": [
             "South Australia"
         ],
-        "pageviews": 5172
+        "pageviews": 35
     },
     {
         "query_id": "131_945",
@@ -7485,7 +5695,7 @@
         "answers": [
             "Ghent"
         ],
-        "pageviews": 125557
+        "pageviews": 315
     },
     {
         "query_id": "131_946",
@@ -7493,15 +5703,7 @@
         "answers": [
             "South Gloucestershire"
         ],
-        "pageviews": 2982
-    },
-    {
-        "query_id": "131_947",
-        "question": "Where is Cahuac District located?",
-        "answers": [
-            "Yarowilca Province"
-        ],
-        "pageviews": 624
+        "pageviews": 14
     },
     {
         "query_id": "131_949",
@@ -7509,7 +5711,7 @@
         "answers": [
             "Dehaj District"
         ],
-        "pageviews": 415
+        "pageviews": 1
     },
     {
         "query_id": "131_950",
@@ -7517,15 +5719,7 @@
         "answers": [
             "Collier County"
         ],
-        "pageviews": 2849
-    },
-    {
-        "query_id": "131_951",
-        "question": "Where is Wood Lake National Wildlife Refuge located?",
-        "answers": [
-            "North Dakota"
-        ],
-        "pageviews": 968
+        "pageviews": 5
     },
     {
         "query_id": "131_952",
@@ -7533,7 +5727,7 @@
         "answers": [
             "Victoria"
         ],
-        "pageviews": 7669
+        "pageviews": 44
     },
     {
         "query_id": "131_953",
@@ -7541,7 +5735,7 @@
         "answers": [
             "Rethymno"
         ],
-        "pageviews": 17802
+        "pageviews": 3
     },
     {
         "query_id": "131_954",
@@ -7549,23 +5743,7 @@
         "answers": [
             "California"
         ],
-        "pageviews": 7506
-    },
-    {
-        "query_id": "131_955",
-        "question": "Where is Panola located?",
-        "answers": [
-            "Latimer County"
-        ],
-        "pageviews": 1407
-    },
-    {
-        "query_id": "131_956",
-        "question": "Where is Valhermoso Springs located?",
-        "answers": [
-            "Morgan County"
-        ],
-        "pageviews": 3389
+        "pageviews": 7
     },
     {
         "query_id": "131_957",
@@ -7573,7 +5751,7 @@
         "answers": [
             "Meuse"
         ],
-        "pageviews": 1076
+        "pageviews": 2
     },
     {
         "query_id": "131_958",
@@ -7581,7 +5759,7 @@
         "answers": [
             "Nova Scotia"
         ],
-        "pageviews": 30411
+        "pageviews": 82
     },
     {
         "query_id": "131_959",
@@ -7589,7 +5767,7 @@
         "answers": [
             "Western Australia"
         ],
-        "pageviews": 720
+        "pageviews": 1
     },
     {
         "query_id": "131_960",
@@ -7597,16 +5775,7 @@
         "answers": [
             "Helsinki"
         ],
-        "pageviews": 987
-    },
-    {
-        "query_id": "131_961",
-        "question": "Where is Govankoppa located?",
-        "answers": [
-            "Karnataka",
-            "Dharwad district"
-        ],
-        "pageviews": 787
+        "pageviews": 2
     },
     {
         "query_id": "131_962",
@@ -7614,7 +5783,7 @@
         "answers": [
             "British Columbia"
         ],
-        "pageviews": 12286
+        "pageviews": 47
     },
     {
         "query_id": "131_963",
@@ -7622,7 +5791,7 @@
         "answers": [
             "Pyrzyce County"
         ],
-        "pageviews": 869
+        "pageviews": 20
     },
     {
         "query_id": "131_964",
@@ -7630,7 +5799,7 @@
         "answers": [
             "Eshtehard County"
         ],
-        "pageviews": 668
+        "pageviews": 2
     },
     {
         "query_id": "131_965",
@@ -7638,7 +5807,7 @@
         "answers": [
             "Orselina"
         ],
-        "pageviews": 5095
+        "pageviews": 3
     },
     {
         "query_id": "131_966",
@@ -7646,15 +5815,7 @@
         "answers": [
             "Ashkelon"
         ],
-        "pageviews": 2833
-    },
-    {
-        "query_id": "131_967",
-        "question": "Where is Glen Bain No. 105, Saskatchewan located?",
-        "answers": [
-            "Saskatchewan"
-        ],
-        "pageviews": 1185
+        "pageviews": 4
     },
     {
         "query_id": "131_968",
@@ -7662,23 +5823,7 @@
         "answers": [
             "Gmina Regimin"
         ],
-        "pageviews": 415
-    },
-    {
-        "query_id": "131_969",
-        "question": "Where is Belenalan located?",
-        "answers": [
-            "Akseki"
-        ],
-        "pageviews": 187
-    },
-    {
-        "query_id": "131_970",
-        "question": "Where is Namkhola located?",
-        "answers": [
-            "Assam"
-        ],
-        "pageviews": 829
+        "pageviews": 1
     },
     {
         "query_id": "131_971",
@@ -7686,7 +5831,7 @@
         "answers": [
             "Virginia"
         ],
-        "pageviews": 873
+        "pageviews": 1
     },
     {
         "query_id": "131_972",
@@ -7694,15 +5839,7 @@
         "answers": [
             "McLean County"
         ],
-        "pageviews": 6739
-    },
-    {
-        "query_id": "131_973",
-        "question": "Where is Teolocholco Municipality located?",
-        "answers": [
-            "Tlaxcala"
-        ],
-        "pageviews": 705
+        "pageviews": 12
     },
     {
         "query_id": "131_974",
@@ -7711,15 +5848,7 @@
             "Idukki district",
             "Kerala"
         ],
-        "pageviews": 5607
-    },
-    {
-        "query_id": "131_975",
-        "question": "Where is La-ngu located?",
-        "answers": [
-            "Satun"
-        ],
-        "pageviews": 1090
+        "pageviews": 2
     },
     {
         "query_id": "131_976",
@@ -7727,7 +5856,7 @@
         "answers": [
             "British Columbia"
         ],
-        "pageviews": 980
+        "pageviews": 3
     },
     {
         "query_id": "131_977",
@@ -7735,7 +5864,7 @@
         "answers": [
             "Idaho"
         ],
-        "pageviews": 917
+        "pageviews": 1
     },
     {
         "query_id": "131_978",
@@ -7743,7 +5872,7 @@
         "answers": [
             "Hubbard County"
         ],
-        "pageviews": 5684
+        "pageviews": 6
     },
     {
         "query_id": "131_979",
@@ -7751,15 +5880,7 @@
         "answers": [
             "Butler County"
         ],
-        "pageviews": 2213
-    },
-    {
-        "query_id": "131_980",
-        "question": "Where is Le Born located?",
-        "answers": [
-            "Haute-Garonne"
-        ],
-        "pageviews": 1218
+        "pageviews": 6
     },
     {
         "query_id": "131_981",
@@ -7767,15 +5888,7 @@
         "answers": [
             "California"
         ],
-        "pageviews": 5260
-    },
-    {
-        "query_id": "131_982",
-        "question": "Where is Saint-S\u00e9bastien located?",
-        "answers": [
-            "Le Granit Regional County Municipality"
-        ],
-        "pageviews": 0
+        "pageviews": 1
     },
     {
         "query_id": "131_983",
@@ -7783,7 +5896,7 @@
         "answers": [
             "Gmina Mrocza"
         ],
-        "pageviews": 258
+        "pageviews": 1
     },
     {
         "query_id": "131_984",
@@ -7791,7 +5904,7 @@
         "answers": [
             "Gurband Rural District"
         ],
-        "pageviews": 542
+        "pageviews": 1
     },
     {
         "query_id": "131_985",
@@ -7799,15 +5912,7 @@
         "answers": [
             "Tokyo"
         ],
-        "pageviews": 2471
-    },
-    {
-        "query_id": "131_986",
-        "question": "Where is Colmar-Berg railway station located?",
-        "answers": [
-            "Colmar-Berg"
-        ],
-        "pageviews": 505
+        "pageviews": 1
     },
     {
         "query_id": "131_987",
@@ -7815,15 +5920,7 @@
         "answers": [
             "Razavi Khorasan Province"
         ],
-        "pageviews": 376
-    },
-    {
-        "query_id": "131_988",
-        "question": "Where is Aghaboe Priory located?",
-        "answers": [
-            "County Laois"
-        ],
-        "pageviews": 1705
+        "pageviews": 1
     },
     {
         "query_id": "131_989",
@@ -7831,15 +5928,7 @@
         "answers": [
             "California"
         ],
-        "pageviews": 14265
-    },
-    {
-        "query_id": "131_990",
-        "question": "Where is Lap Corner located?",
-        "answers": [
-            "Clay County"
-        ],
-        "pageviews": 605
+        "pageviews": 15
     },
     {
         "query_id": "131_991",
@@ -7847,15 +5936,7 @@
         "answers": [
             "Buckinghamshire"
         ],
-        "pageviews": 1158
-    },
-    {
-        "query_id": "131_992",
-        "question": "Where is Churchover, Nova Scotia located?",
-        "answers": [
-            "Municipality of the District of Shelburne"
-        ],
-        "pageviews": 620
+        "pageviews": 2
     },
     {
         "query_id": "131_993",
@@ -7863,7 +5944,7 @@
         "answers": [
             "Gmina Wydminy"
         ],
-        "pageviews": 277
+        "pageviews": 1
     },
     {
         "query_id": "131_994",
@@ -7871,7 +5952,7 @@
         "answers": [
             "Prague 10"
         ],
-        "pageviews": 6894
+        "pageviews": 27
     },
     {
         "query_id": "131_995",
@@ -7879,7 +5960,7 @@
         "answers": [
             "Gmina Kutno"
         ],
-        "pageviews": 419
+        "pageviews": 1
     },
     {
         "query_id": "131_996",
@@ -7887,15 +5968,7 @@
         "answers": [
             "Badajoz Province"
         ],
-        "pageviews": 1563
-    },
-    {
-        "query_id": "131_997",
-        "question": "Where is Bo\u010dkovo located?",
-        "answers": [
-            "Bloke Municipality"
-        ],
-        "pageviews": 574
+        "pageviews": 4
     },
     {
         "query_id": "131_998",
@@ -7903,7 +5976,7 @@
         "answers": [
             "Gmina Wieliczka"
         ],
-        "pageviews": 448
+        "pageviews": 1
     },
     {
         "query_id": "131_999",
@@ -7911,6 +5984,6 @@
         "answers": [
             "Gmina Miejsce Piastowe"
         ],
-        "pageviews": 1224
+        "pageviews": 7
     }
 ]

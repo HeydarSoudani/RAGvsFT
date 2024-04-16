@@ -1,10 +1,5 @@
 [
     {
-        "query_id": "30_0",
-        "wiki_title": "Pryor Peak",
-        "entity_id": "Q6431392"
-    },
-    {
         "query_id": "30_1",
         "wiki_title": "Danube",
         "entity_id": "Q1653"
@@ -13,16 +8,6 @@
         "query_id": "30_2",
         "wiki_title": "Krause Point",
         "entity_id": "Q6436439"
-    },
-    {
-        "query_id": "30_3",
-        "wiki_title": "Framskotet Spur",
-        "entity_id": "Q5478062"
-    },
-    {
-        "query_id": "30_4",
-        "wiki_title": "Striation Valley",
-        "entity_id": "Q7623563"
     },
     {
         "query_id": "30_5",
@@ -38,11 +23,6 @@
         "query_id": "30_7",
         "wiki_title": "Mount Hahn",
         "entity_id": "Q6921023"
-    },
-    {
-        "query_id": "30_8",
-        "wiki_title": "Littleblack Nunataks",
-        "entity_id": "Q6652887"
     },
     {
         "query_id": "30_9",
@@ -70,11 +50,6 @@
         "entity_id": "Q2576481"
     },
     {
-        "query_id": "30_14",
-        "wiki_title": "Br\u00fcckner Glacier",
-        "entity_id": "Q4981931"
-    },
-    {
         "query_id": "30_15",
         "wiki_title": "Nikyup Point",
         "entity_id": "Q983205"
@@ -95,11 +70,6 @@
         "entity_id": "Q5241663"
     },
     {
-        "query_id": "30_19",
-        "wiki_title": "Utr\u00e5kket Valley",
-        "entity_id": "Q7902982"
-    },
-    {
         "query_id": "30_20",
         "wiki_title": "Mount Crowell",
         "entity_id": "Q6920316"
@@ -113,11 +83,6 @@
         "query_id": "30_22",
         "wiki_title": "Chervov Peak",
         "entity_id": "Q5092647"
-    },
-    {
-        "query_id": "30_23",
-        "wiki_title": "Lamboley Peak",
-        "entity_id": "Q6481504"
     },
     {
         "query_id": "30_24",
@@ -170,11 +135,6 @@
         "entity_id": "Q7157977"
     },
     {
-        "query_id": "30_34",
-        "wiki_title": "Horgebest Peak",
-        "entity_id": "Q5903098"
-    },
-    {
         "query_id": "30_35",
         "wiki_title": "Vergilov Rocks",
         "entity_id": "Q7921274"
@@ -215,24 +175,9 @@
         "entity_id": "Q6922995"
     },
     {
-        "query_id": "30_43",
-        "wiki_title": "Scend Rocks",
-        "entity_id": "Q7430725"
-    },
-    {
-        "query_id": "30_44",
-        "wiki_title": "Francis Peaks",
-        "entity_id": "Q5482163"
-    },
-    {
         "query_id": "30_45",
         "wiki_title": "Wulfila Glacier",
         "entity_id": "Q8039176"
-    },
-    {
-        "query_id": "30_46",
-        "wiki_title": "Crack Bluff",
-        "entity_id": "Q5180310"
     },
     {
         "query_id": "30_47",
@@ -245,11 +190,6 @@
         "entity_id": "Q707527"
     },
     {
-        "query_id": "30_49",
-        "wiki_title": "Gockel Ridge",
-        "entity_id": "Q5575636"
-    },
-    {
         "query_id": "30_50",
         "wiki_title": "Gless Peak",
         "entity_id": "Q5569508"
@@ -258,11 +198,6 @@
         "query_id": "30_51",
         "wiki_title": "Volov Peak",
         "entity_id": "Q6578619"
-    },
-    {
-        "query_id": "30_52",
-        "wiki_title": "Back Cirque",
-        "entity_id": "Q4839075"
     },
     {
         "query_id": "30_53",
@@ -285,11 +220,6 @@
         "entity_id": "Q8723669"
     },
     {
-        "query_id": "30_57",
-        "wiki_title": "Confluence Cone",
-        "entity_id": "Q5160227"
-    },
-    {
         "query_id": "30_58",
         "wiki_title": "Felipe Solo (Obligado) Peninsula",
         "entity_id": "Q15217552"
@@ -305,16 +235,6 @@
         "entity_id": "Q6722970"
     },
     {
-        "query_id": "30_61",
-        "wiki_title": "Mount Hanssen",
-        "entity_id": "Q6921053"
-    },
-    {
-        "query_id": "30_62",
-        "wiki_title": "Warden Pass",
-        "entity_id": "Q7969137"
-    },
-    {
         "query_id": "30_63",
         "wiki_title": "Lipps Island",
         "entity_id": "Q6556988"
@@ -325,19 +245,9 @@
         "entity_id": "Q237034"
     },
     {
-        "query_id": "30_65",
-        "wiki_title": "Associa\u00e7\u00e3o Naval de Lisboa",
-        "entity_id": "Q4810268"
-    },
-    {
         "query_id": "30_66",
         "wiki_title": "Mount Saint Michael (Antarctica)",
         "entity_id": "Q6580968"
-    },
-    {
-        "query_id": "30_67",
-        "wiki_title": "Mount Burrows",
-        "entity_id": "Q7881607"
     },
     {
         "query_id": "30_68",
@@ -375,11 +285,6 @@
         "entity_id": "Q15253356"
     },
     {
-        "query_id": "30_75",
-        "wiki_title": "Fission Wall",
-        "entity_id": "Q5455235"
-    },
-    {
         "query_id": "30_76",
         "wiki_title": "Sombre Lake",
         "entity_id": "Q15278488"
@@ -415,24 +320,9 @@
         "entity_id": "Q6771019"
     },
     {
-        "query_id": "30_83",
-        "wiki_title": "Thode Island",
-        "entity_id": "Q7786616"
-    },
-    {
-        "query_id": "30_84",
-        "wiki_title": "Alligator Eyes",
-        "entity_id": "Q4732646"
-    },
-    {
         "query_id": "30_85",
         "wiki_title": "Bistra Glacier",
         "entity_id": "Q4918549"
-    },
-    {
-        "query_id": "30_86",
-        "wiki_title": "Risopatr\u00f3n Base",
-        "entity_id": "Q5721594"
     },
     {
         "query_id": "30_87",
@@ -480,21 +370,6 @@
         "entity_id": "Q6160530"
     },
     {
-        "query_id": "30_96",
-        "wiki_title": "Gygra Peak",
-        "entity_id": "Q5624099"
-    },
-    {
-        "query_id": "30_97",
-        "wiki_title": "Carlson Glacier",
-        "entity_id": "Q5042906"
-    },
-    {
-        "query_id": "30_98",
-        "wiki_title": "Glashaugen Hill",
-        "entity_id": "Q5566989"
-    },
-    {
         "query_id": "30_99",
         "wiki_title": "McMurdo Dry Valleys",
         "entity_id": "Q571433"
@@ -528,16 +403,6 @@
         "query_id": "30_105",
         "wiki_title": "Baldwin Valley",
         "entity_id": "Q4850609"
-    },
-    {
-        "query_id": "30_106",
-        "wiki_title": "Lied Bluff",
-        "entity_id": "Q6544069"
-    },
-    {
-        "query_id": "30_107",
-        "wiki_title": "Fulmar Crags",
-        "entity_id": "Q5508353"
     },
     {
         "query_id": "30_108",
@@ -600,16 +465,6 @@
         "entity_id": "Q1163965"
     },
     {
-        "query_id": "30_120",
-        "wiki_title": "Skinner Saddle",
-        "entity_id": "Q7535519"
-    },
-    {
-        "query_id": "30_121",
-        "wiki_title": "Bird Bluff",
-        "entity_id": "Q4915837"
-    },
-    {
         "query_id": "30_122",
         "wiki_title": "Magnier Peninsula",
         "entity_id": "Q2681295"
@@ -630,19 +485,9 @@
         "entity_id": "Q1950472"
     },
     {
-        "query_id": "30_126",
-        "wiki_title": "Brown Valley",
-        "entity_id": "Q4976348"
-    },
-    {
         "query_id": "30_127",
         "wiki_title": "Frigate Range",
         "entity_id": "Q5504479"
-    },
-    {
-        "query_id": "30_128",
-        "wiki_title": "Diamonen Island",
-        "entity_id": "Q5271026"
     },
     {
         "query_id": "30_129",
@@ -668,11 +513,6 @@
         "query_id": "30_133",
         "wiki_title": "Kennedy Glacier (Antarctica)",
         "entity_id": "Q6389618"
-    },
-    {
-        "query_id": "30_134",
-        "wiki_title": "Weatherwax Glacier",
-        "entity_id": "Q7978328"
     },
     {
         "query_id": "30_135",
@@ -765,19 +605,9 @@
         "entity_id": "Q6921712"
     },
     {
-        "query_id": "30_153",
-        "wiki_title": "MacFarlane Bluff",
-        "entity_id": "Q6721890"
-    },
-    {
         "query_id": "30_154",
         "wiki_title": "Granite Harbour",
         "entity_id": "Q5595871"
-    },
-    {
-        "query_id": "30_155",
-        "wiki_title": "Graduation Ridge",
-        "entity_id": "Q5592093"
     },
     {
         "query_id": "30_156",
@@ -800,39 +630,9 @@
         "entity_id": "Q6429013"
     },
     {
-        "query_id": "30_160",
-        "wiki_title": "Chaucheprat Point",
-        "entity_id": "Q882435"
-    },
-    {
-        "query_id": "30_161",
-        "wiki_title": "Mount Kammuri",
-        "entity_id": "Q6921568"
-    },
-    {
         "query_id": "30_162",
         "wiki_title": "Folger Rock",
         "entity_id": "Q5464350"
-    },
-    {
-        "query_id": "30_163",
-        "wiki_title": "Gage Ridge",
-        "entity_id": "Q5516846"
-    },
-    {
-        "query_id": "30_164",
-        "wiki_title": "Southtrap Rock",
-        "entity_id": "Q7571096"
-    },
-    {
-        "query_id": "30_165",
-        "wiki_title": "Streitenberger Cliff",
-        "entity_id": "Q7623192"
-    },
-    {
-        "query_id": "30_166",
-        "wiki_title": "Kiel Glacier",
-        "entity_id": "Q6405220"
     },
     {
         "query_id": "30_167",
@@ -853,11 +653,6 @@
         "query_id": "30_170",
         "wiki_title": "South Pole Traverse",
         "entity_id": "Q800558"
-    },
-    {
-        "query_id": "30_171",
-        "wiki_title": "Fraser Nunatak",
-        "entity_id": "Q5493651"
     },
     {
         "query_id": "30_172",
@@ -910,11 +705,6 @@
         "entity_id": "Q626914"
     },
     {
-        "query_id": "30_182",
-        "wiki_title": "Green Rocks",
-        "entity_id": "Q5603153"
-    },
-    {
         "query_id": "30_183",
         "wiki_title": "Harrison Stream",
         "entity_id": "Q5665884"
@@ -925,19 +715,9 @@
         "entity_id": "Q6787225"
     },
     {
-        "query_id": "30_185",
-        "wiki_title": "Velasco Glacier",
-        "entity_id": "Q7918831"
-    },
-    {
         "query_id": "30_186",
         "wiki_title": "Mount Everest",
         "entity_id": "Q513"
-    },
-    {
-        "query_id": "30_187",
-        "wiki_title": "Mount Ronca",
-        "entity_id": "Q6923268"
     },
     {
         "query_id": "30_188",
@@ -955,11 +735,6 @@
         "entity_id": "Q6098516"
     },
     {
-        "query_id": "30_191",
-        "wiki_title": "Kutlovitsa Glacier",
-        "entity_id": "Q6448479"
-    },
-    {
         "query_id": "30_192",
         "wiki_title": "Liechtenstein",
         "entity_id": "Q347"
@@ -975,21 +750,6 @@
         "entity_id": "Q40556"
     },
     {
-        "query_id": "30_195",
-        "wiki_title": "H\u00f6gbom Outcrops",
-        "entity_id": "Q5964614"
-    },
-    {
-        "query_id": "30_196",
-        "wiki_title": "M\u00fcller Glacier",
-        "entity_id": "Q6934191"
-    },
-    {
-        "query_id": "30_197",
-        "wiki_title": "Mount Liszt",
-        "entity_id": "Q6921854"
-    },
-    {
         "query_id": "30_198",
         "wiki_title": "Mount Passel",
         "entity_id": "Q6922670"
@@ -1003,16 +763,6 @@
         "query_id": "30_200",
         "wiki_title": "Mount Goodman",
         "entity_id": "Q6920934"
-    },
-    {
-        "query_id": "30_201",
-        "wiki_title": "Fitzpatrick Rock",
-        "entity_id": "Q3952548"
-    },
-    {
-        "query_id": "30_202",
-        "wiki_title": "Camp Ridge",
-        "entity_id": "Q5027538"
     },
     {
         "query_id": "30_203",
@@ -1050,19 +800,9 @@
         "entity_id": "Q278684"
     },
     {
-        "query_id": "30_210",
-        "wiki_title": "Barela Rock",
-        "entity_id": "Q4860403"
-    },
-    {
         "query_id": "30_211",
         "wiki_title": "Eland Mountains",
         "entity_id": "Q5353419"
-    },
-    {
-        "query_id": "30_212",
-        "wiki_title": "Kani Rock",
-        "entity_id": "Q15233522"
     },
     {
         "query_id": "30_213",
@@ -1100,11 +840,6 @@
         "entity_id": "Q6859082"
     },
     {
-        "query_id": "30_220",
-        "wiki_title": "Mount Gester",
-        "entity_id": "Q6810796"
-    },
-    {
         "query_id": "30_221",
         "wiki_title": "Skallen Glacier",
         "entity_id": "Q7533858"
@@ -1115,19 +850,9 @@
         "entity_id": "Q15278120"
     },
     {
-        "query_id": "30_223",
-        "wiki_title": "Nu\u00f1ez Point",
-        "entity_id": "Q1100938"
-    },
-    {
         "query_id": "30_224",
         "wiki_title": "Ellis Glacier",
         "entity_id": "Q5365886"
-    },
-    {
-        "query_id": "30_225",
-        "wiki_title": "Oldham Island",
-        "entity_id": "Q7085645"
     },
     {
         "query_id": "30_226",
@@ -1140,11 +865,6 @@
         "entity_id": "Q2502365"
     },
     {
-        "query_id": "30_228",
-        "wiki_title": "Connell Canyon",
-        "entity_id": "Q1126255"
-    },
-    {
         "query_id": "30_229",
         "wiki_title": "Rezovski Creek",
         "entity_id": "Q7319886"
@@ -1155,19 +875,9 @@
         "entity_id": "Q8680"
     },
     {
-        "query_id": "30_231",
-        "wiki_title": "Foggy Pass",
-        "entity_id": "Q5464103"
-    },
-    {
         "query_id": "30_232",
         "wiki_title": "Martin Massif",
         "entity_id": "Q6583891"
-    },
-    {
-        "query_id": "30_233",
-        "wiki_title": "Ragle Glacier",
-        "entity_id": "Q7283121"
     },
     {
         "query_id": "30_234",
@@ -1195,11 +905,6 @@
         "entity_id": "Q4997745"
     },
     {
-        "query_id": "30_239",
-        "wiki_title": "Kvea Valley",
-        "entity_id": "Q6449670"
-    },
-    {
         "query_id": "30_240",
         "wiki_title": "Bean Peaks",
         "entity_id": "Q4876249"
@@ -1213,16 +918,6 @@
         "query_id": "30_242",
         "wiki_title": "Pulpudeva Glacier",
         "entity_id": "Q7259603"
-    },
-    {
-        "query_id": "30_243",
-        "wiki_title": "Mount Borchgrevink",
-        "entity_id": "Q6919785"
-    },
-    {
-        "query_id": "30_244",
-        "wiki_title": "Field N\u00e9v\u00e9",
-        "entity_id": "Q5446934"
     },
     {
         "query_id": "30_245",
@@ -1240,16 +935,6 @@
         "entity_id": "Q6449243"
     },
     {
-        "query_id": "30_248",
-        "wiki_title": "Harrison Ice Ridge",
-        "entity_id": "Q5665689"
-    },
-    {
-        "query_id": "30_249",
-        "wiki_title": "Kvarsnes Bay",
-        "entity_id": "Q141282"
-    },
-    {
         "query_id": "30_250",
         "wiki_title": "Ainsworth Bay, Antarctica",
         "entity_id": "Q143383"
@@ -1260,21 +945,6 @@
         "entity_id": "Q7440531"
     },
     {
-        "query_id": "30_252",
-        "wiki_title": "Dyment Island",
-        "entity_id": "Q5318842"
-    },
-    {
-        "query_id": "30_253",
-        "wiki_title": "Mount Seddon",
-        "entity_id": "Q357000"
-    },
-    {
-        "query_id": "30_254",
-        "wiki_title": "Magoke Point",
-        "entity_id": "Q1351331"
-    },
-    {
         "query_id": "30_255",
         "wiki_title": "Boil Point",
         "entity_id": "Q982999"
@@ -1283,16 +953,6 @@
         "query_id": "30_256",
         "wiki_title": "Mount Wider\u00f8e",
         "entity_id": "Q6924581"
-    },
-    {
-        "query_id": "30_257",
-        "wiki_title": "Mount Insel",
-        "entity_id": "Q6921424"
-    },
-    {
-        "query_id": "30_258",
-        "wiki_title": "Hallett Ridge",
-        "entity_id": "Q5642926"
     },
     {
         "query_id": "30_259",
@@ -1315,19 +975,9 @@
         "entity_id": "Q5906027"
     },
     {
-        "query_id": "30_263",
-        "wiki_title": "Snowshoe Pass",
-        "entity_id": "Q7548713"
-    },
-    {
         "query_id": "30_264",
         "wiki_title": "Tarn Valley",
         "entity_id": "Q7686375"
-    },
-    {
-        "query_id": "30_265",
-        "wiki_title": "Igloo Spur",
-        "entity_id": "Q5992097"
     },
     {
         "query_id": "30_266",
@@ -1338,16 +988,6 @@
         "query_id": "30_267",
         "wiki_title": "H\u00f8gfonna Mountain",
         "entity_id": "Q5964754"
-    },
-    {
-        "query_id": "30_268",
-        "wiki_title": "Lizards Foot",
-        "entity_id": "Q6660557"
-    },
-    {
-        "query_id": "30_269",
-        "wiki_title": "Malin Valley",
-        "entity_id": "Q6743702"
     },
     {
         "query_id": "30_270",
@@ -1380,19 +1020,9 @@
         "entity_id": "Q6536433"
     },
     {
-        "query_id": "30_276",
-        "wiki_title": "DeMaster Point",
-        "entity_id": "Q883178"
-    },
-    {
         "query_id": "30_277",
         "wiki_title": "Constantinople",
         "entity_id": "Q16869"
-    },
-    {
-        "query_id": "30_279",
-        "wiki_title": "Gallen Nunatak",
-        "entity_id": "Q5518943"
     },
     {
         "query_id": "30_280",
@@ -1430,11 +1060,6 @@
         "entity_id": "Q4956553"
     },
     {
-        "query_id": "30_287",
-        "wiki_title": "Mount Morse",
-        "entity_id": "Q6922294"
-    },
-    {
         "query_id": "30_288",
         "wiki_title": "Finland",
         "entity_id": "Q33"
@@ -1450,19 +1075,9 @@
         "entity_id": "Q7558608"
     },
     {
-        "query_id": "30_291",
-        "wiki_title": "Mount Estes",
-        "entity_id": "Q6920681"
-    },
-    {
         "query_id": "30_292",
         "wiki_title": "Guesalaga Peninsula",
         "entity_id": "Q2646933"
-    },
-    {
-        "query_id": "30_293",
-        "wiki_title": "Reade Peak",
-        "entity_id": "Q6578084"
     },
     {
         "query_id": "30_294",
@@ -1473,11 +1088,6 @@
         "query_id": "30_295",
         "wiki_title": "Winter Quarters Bay",
         "entity_id": "Q2622369"
-    },
-    {
-        "query_id": "30_296",
-        "wiki_title": "Buntley Bluff",
-        "entity_id": "Q4997943"
     },
     {
         "query_id": "30_297",
@@ -1520,19 +1130,9 @@
         "entity_id": "Q6923594"
     },
     {
-        "query_id": "30_305",
-        "wiki_title": "Manj\u016b Rock",
-        "entity_id": "Q15245086"
-    },
-    {
         "query_id": "30_306",
         "wiki_title": "Mount LeMasurier",
         "entity_id": "Q6835649"
-    },
-    {
-        "query_id": "30_307",
-        "wiki_title": "Fl\u00e5rjuvnutane Peaks",
-        "entity_id": "Q5463737"
     },
     {
         "query_id": "30_308",
@@ -1560,19 +1160,9 @@
         "entity_id": "Q5587349"
     },
     {
-        "query_id": "30_313",
-        "wiki_title": "Mayeda Peak",
-        "entity_id": "Q11303076"
-    },
-    {
         "query_id": "30_314",
         "wiki_title": "Bastion Hill",
         "entity_id": "Q4868348"
-    },
-    {
-        "query_id": "30_315",
-        "wiki_title": "Benson Knob",
-        "entity_id": "Q4890266"
     },
     {
         "query_id": "30_316",
@@ -1625,19 +1215,9 @@
         "entity_id": "Q3133726"
     },
     {
-        "query_id": "30_326",
-        "wiki_title": "Buzfuz Rock",
-        "entity_id": "Q5003446"
-    },
-    {
         "query_id": "30_327",
         "wiki_title": "Red Rock Ridge",
         "entity_id": "Q1099540"
-    },
-    {
-        "query_id": "30_328",
-        "wiki_title": "Klo Rock",
-        "entity_id": "Q6421187"
     },
     {
         "query_id": "30_329",
@@ -1660,19 +1240,9 @@
         "entity_id": "Q7943485"
     },
     {
-        "query_id": "30_333",
-        "wiki_title": "Seely Ridge",
-        "entity_id": "Q7445847"
-    },
-    {
         "query_id": "30_334",
         "wiki_title": "Mount Boennighausen",
         "entity_id": "Q6806216"
-    },
-    {
-        "query_id": "30_335",
-        "wiki_title": "Watts Nunatak",
-        "entity_id": "Q7975038"
     },
     {
         "query_id": "30_336",
@@ -1683,26 +1253,6 @@
         "query_id": "30_337",
         "wiki_title": "Rydelek Icefalls",
         "entity_id": "Q7384895"
-    },
-    {
-        "query_id": "30_338",
-        "wiki_title": "Eddystone Rocks (South Shetland Islands)",
-        "entity_id": "Q5336713"
-    },
-    {
-        "query_id": "30_339",
-        "wiki_title": "Ameghino Gully",
-        "entity_id": "Q4742148"
-    },
-    {
-        "query_id": "30_340",
-        "wiki_title": "Milles Nunatak",
-        "entity_id": "Q13974742"
-    },
-    {
-        "query_id": "30_341",
-        "wiki_title": "Suarez Nunatak",
-        "entity_id": "Q7630508"
     },
     {
         "query_id": "30_342",
@@ -1730,11 +1280,6 @@
         "entity_id": "Q5182774"
     },
     {
-        "query_id": "30_347",
-        "wiki_title": "Warren Nunatak",
-        "entity_id": "Q1511418"
-    },
-    {
         "query_id": "30_348",
         "wiki_title": "Start Point (Livingston Island)",
         "entity_id": "Q7602507"
@@ -1743,26 +1288,6 @@
         "query_id": "30_349",
         "wiki_title": "Odom Inlet",
         "entity_id": "Q279840"
-    },
-    {
-        "query_id": "30_350",
-        "wiki_title": "Sullivan Peaks",
-        "entity_id": "Q7636421"
-    },
-    {
-        "query_id": "30_351",
-        "wiki_title": "Mount Eastman",
-        "entity_id": "Q6427769"
-    },
-    {
-        "query_id": "30_352",
-        "wiki_title": "Aitken Nunatak",
-        "entity_id": "Q3289559"
-    },
-    {
-        "query_id": "30_353",
-        "wiki_title": "Mount Rorqual",
-        "entity_id": "Q6578163"
     },
     {
         "query_id": "30_354",
@@ -1790,11 +1315,6 @@
         "entity_id": "Q9336807"
     },
     {
-        "query_id": "30_359",
-        "wiki_title": "Shoemake Nunatak",
-        "entity_id": "Q7500030"
-    },
-    {
         "query_id": "30_360",
         "wiki_title": "Mount Sandow",
         "entity_id": "Q6923454"
@@ -1805,11 +1325,6 @@
         "entity_id": "Q5876191"
     },
     {
-        "query_id": "30_362",
-        "wiki_title": "Raquelia Rocks",
-        "entity_id": "Q7294459"
-    },
-    {
         "query_id": "30_363",
         "wiki_title": "Eroica Peninsula",
         "entity_id": "Q2680400"
@@ -1818,16 +1333,6 @@
         "query_id": "30_364",
         "wiki_title": "Columbia River",
         "entity_id": "Q2251"
-    },
-    {
-        "query_id": "30_365",
-        "wiki_title": "Vere Ice Rise",
-        "entity_id": "Q7921183"
-    },
-    {
-        "query_id": "30_366",
-        "wiki_title": "Grinnell Island",
-        "entity_id": "Q5609519"
     },
     {
         "query_id": "30_367",
@@ -1880,11 +1385,6 @@
         "entity_id": "Q7539629"
     },
     {
-        "query_id": "30_377",
-        "wiki_title": "Mount Henderson (White Island)",
-        "entity_id": "Q6921152"
-    },
-    {
         "query_id": "30_378",
         "wiki_title": "Dalgopol Glacier",
         "entity_id": "Q5210847"
@@ -1910,11 +1410,6 @@
         "entity_id": "Q6710587"
     },
     {
-        "query_id": "30_383",
-        "wiki_title": "Hamm Peak",
-        "entity_id": "Q7442952"
-    },
-    {
         "query_id": "30_384",
         "wiki_title": "Bankya Peak",
         "entity_id": "Q4856821"
@@ -1928,16 +1423,6 @@
         "query_id": "30_386",
         "wiki_title": "Kotrag Nunatak",
         "entity_id": "Q6434237"
-    },
-    {
-        "query_id": "30_387",
-        "wiki_title": "Cerberus Glacier",
-        "entity_id": "Q5063914"
-    },
-    {
-        "query_id": "30_388",
-        "wiki_title": "G\u00e5renevkalven Nunatak",
-        "entity_id": "Q5625938"
     },
     {
         "query_id": "30_389",
@@ -1985,11 +1470,6 @@
         "entity_id": "Q6441217"
     },
     {
-        "query_id": "30_398",
-        "wiki_title": "Cross Valley",
-        "entity_id": "Q5188425"
-    },
-    {
         "query_id": "30_399",
         "wiki_title": "Mount Rich",
         "entity_id": "Q6923206"
@@ -1998,16 +1478,6 @@
         "query_id": "30_400",
         "wiki_title": "Penck Ledge",
         "entity_id": "Q7162343"
-    },
-    {
-        "query_id": "30_401",
-        "wiki_title": "Contortion Spur",
-        "entity_id": "Q5165568"
-    },
-    {
-        "query_id": "30_402",
-        "wiki_title": "Mount Miller (Enderby Land)",
-        "entity_id": "Q12716994"
     },
     {
         "query_id": "30_403",
@@ -2033,11 +1503,6 @@
         "query_id": "30_407",
         "wiki_title": "Princess Elizabeth Land",
         "entity_id": "Q1753326"
-    },
-    {
-        "query_id": "30_408",
-        "wiki_title": "Pascoe Glacier",
-        "entity_id": "Q7141835"
     },
     {
         "query_id": "30_409",
@@ -2070,11 +1535,6 @@
         "entity_id": "Q2680929"
     },
     {
-        "query_id": "30_415",
-        "wiki_title": "Maipo Island",
-        "entity_id": "Q12715727"
-    },
-    {
         "query_id": "30_416",
         "wiki_title": "Metropolitan France",
         "entity_id": "Q212429"
@@ -2088,16 +1548,6 @@
         "query_id": "30_418",
         "wiki_title": "Benz Pass",
         "entity_id": "Q4890744"
-    },
-    {
-        "query_id": "30_419",
-        "wiki_title": "Slabotnen Cirque",
-        "entity_id": "Q7538371"
-    },
-    {
-        "query_id": "30_420",
-        "wiki_title": "Garden Spur",
-        "entity_id": "Q5522311"
     },
     {
         "query_id": "30_421",
@@ -2140,11 +1590,6 @@
         "entity_id": "Q6923532"
     },
     {
-        "query_id": "30_429",
-        "wiki_title": "Ritala Spur",
-        "entity_id": "Q7336624"
-    },
-    {
         "query_id": "30_430",
         "wiki_title": "Suffield Point",
         "entity_id": "Q581288"
@@ -2160,11 +1605,6 @@
         "entity_id": "Q12717634"
     },
     {
-        "query_id": "30_433",
-        "wiki_title": "Buena Nueva Cove",
-        "entity_id": "Q58497"
-    },
-    {
         "query_id": "30_434",
         "wiki_title": "Mount Shinn",
         "entity_id": "Q519736"
@@ -2173,11 +1613,6 @@
         "query_id": "30_435",
         "wiki_title": "Vund Point",
         "entity_id": "Q3624654"
-    },
-    {
-        "query_id": "30_436",
-        "wiki_title": "Stepping Stone Pond",
-        "entity_id": "Q7611127"
     },
     {
         "query_id": "30_437",
@@ -2203,11 +1638,6 @@
         "query_id": "30_441",
         "wiki_title": "Mount Gerlache",
         "entity_id": "Q6920885"
-    },
-    {
-        "query_id": "30_442",
-        "wiki_title": "Carnell Peak",
-        "entity_id": "Q1043989"
     },
     {
         "query_id": "30_443",
@@ -2250,11 +1680,6 @@
         "entity_id": "Q5174347"
     },
     {
-        "query_id": "30_451",
-        "wiki_title": "Oppkuven Peak",
-        "entity_id": "Q7098567"
-    },
-    {
         "query_id": "30_452",
         "wiki_title": "Kartografov Island",
         "entity_id": "Q6373580"
@@ -2268,16 +1693,6 @@
         "query_id": "30_454",
         "wiki_title": "Huhla Col",
         "entity_id": "Q5934818"
-    },
-    {
-        "query_id": "30_455",
-        "wiki_title": "Clarkson Cliffs",
-        "entity_id": "Q5127633"
-    },
-    {
-        "query_id": "30_456",
-        "wiki_title": "Komsomol'skaya Hill",
-        "entity_id": "Q6428634"
     },
     {
         "query_id": "30_457",
@@ -2330,16 +1745,6 @@
         "entity_id": "Q5558529"
     },
     {
-        "query_id": "30_467",
-        "wiki_title": "Nancy Rock",
-        "entity_id": "Q6962942"
-    },
-    {
-        "query_id": "30_468",
-        "wiki_title": "Mount Southern",
-        "entity_id": "Q6923760"
-    },
-    {
         "query_id": "30_469",
         "wiki_title": "Harbour Glacier",
         "entity_id": "Q5654814"
@@ -2348,11 +1753,6 @@
         "query_id": "30_470",
         "wiki_title": "Alph River",
         "entity_id": "Q2840070"
-    },
-    {
-        "query_id": "30_471",
-        "wiki_title": "Wall Rock",
-        "entity_id": "Q15695741"
     },
     {
         "query_id": "30_472",
@@ -2368,11 +1768,6 @@
         "query_id": "30_474",
         "wiki_title": "Mushroom Island",
         "entity_id": "Q6941308"
-    },
-    {
-        "query_id": "30_475",
-        "wiki_title": "Stenhouse Glacier",
-        "entity_id": "Q7607568"
     },
     {
         "query_id": "30_476",
@@ -2410,19 +1805,9 @@
         "entity_id": "Q5283844"
     },
     {
-        "query_id": "30_483",
-        "wiki_title": "Melvold Nunataks",
-        "entity_id": "Q6814119"
-    },
-    {
         "query_id": "30_484",
         "wiki_title": "Dykes Peak",
         "entity_id": "Q5318682"
-    },
-    {
-        "query_id": "30_485",
-        "wiki_title": "Tombstone Hill",
-        "entity_id": "Q7818726"
     },
     {
         "query_id": "30_486",
@@ -2433,11 +1818,6 @@
         "query_id": "30_487",
         "wiki_title": "Crosson Ice Shelf",
         "entity_id": "Q5188745"
-    },
-    {
-        "query_id": "30_488",
-        "wiki_title": "Bertodano Bay",
-        "entity_id": "Q143408"
     },
     {
         "query_id": "30_489",
@@ -2460,11 +1840,6 @@
         "entity_id": "Q6922293"
     },
     {
-        "query_id": "30_493",
-        "wiki_title": "Lurker Rock",
-        "entity_id": "Q15243138"
-    },
-    {
         "query_id": "30_494",
         "wiki_title": "Collins Harbour",
         "entity_id": "Q217775"
@@ -2485,34 +1860,14 @@
         "entity_id": "Q5935554"
     },
     {
-        "query_id": "30_498",
-        "wiki_title": "Hooper Crags",
-        "entity_id": "Q5898364"
-    },
-    {
-        "query_id": "30_499",
-        "wiki_title": "Long Island (Antarctica)",
-        "entity_id": "Q6672639"
-    },
-    {
         "query_id": "30_500",
         "wiki_title": "Malamir Knoll",
         "entity_id": "Q6741229"
     },
     {
-        "query_id": "30_501",
-        "wiki_title": "Forefinger Point",
-        "entity_id": "Q856934"
-    },
-    {
         "query_id": "30_502",
         "wiki_title": "Jenkins Heights",
         "entity_id": "Q6177600"
-    },
-    {
-        "query_id": "30_503",
-        "wiki_title": "Gordon Nunataks",
-        "entity_id": "Q5585614"
     },
     {
         "query_id": "30_504",
@@ -2523,16 +1878,6 @@
         "query_id": "30_505",
         "wiki_title": "Metzgar Nunatak",
         "entity_id": "Q13716596"
-    },
-    {
-        "query_id": "30_506",
-        "wiki_title": "Tracy Glacier (Antarctica)",
-        "entity_id": "Q7831738"
-    },
-    {
-        "query_id": "30_507",
-        "wiki_title": "Mercury Glacier (Alexander Island)",
-        "entity_id": "Q6818618"
     },
     {
         "query_id": "30_508",
@@ -2550,21 +1895,6 @@
         "entity_id": "Q1778845"
     },
     {
-        "query_id": "30_511",
-        "wiki_title": "Mount Byrd",
-        "entity_id": "Q6808213"
-    },
-    {
-        "query_id": "30_512",
-        "wiki_title": "Farbo Glacier",
-        "entity_id": "Q5434868"
-    },
-    {
-        "query_id": "30_513",
-        "wiki_title": "Dybvadskog Peak",
-        "entity_id": "Q5318458"
-    },
-    {
         "query_id": "30_514",
         "wiki_title": "Methuen Cove",
         "entity_id": "Q58504"
@@ -2573,11 +1903,6 @@
         "query_id": "30_515",
         "wiki_title": "Karun",
         "entity_id": "Q461557"
-    },
-    {
-        "query_id": "30_516",
-        "wiki_title": "Maigo Peak",
-        "entity_id": "Q6735570"
     },
     {
         "query_id": "30_517",
@@ -2595,16 +1920,6 @@
         "entity_id": "Q5102003"
     },
     {
-        "query_id": "30_520",
-        "wiki_title": "Gawn Ice Piedmont",
-        "entity_id": "Q5528472"
-    },
-    {
-        "query_id": "30_521",
-        "wiki_title": "Krakken Hill",
-        "entity_id": "Q6435939"
-    },
-    {
         "query_id": "30_522",
         "wiki_title": "Zebra Peak",
         "entity_id": "Q6622270"
@@ -2613,11 +1928,6 @@
         "query_id": "30_523",
         "wiki_title": "Endurance Glacier",
         "entity_id": "Q5376659"
-    },
-    {
-        "query_id": "30_524",
-        "wiki_title": "Vendeh\u00f8 Heights",
-        "entity_id": "Q7755656"
     },
     {
         "query_id": "30_525",
@@ -2640,11 +1950,6 @@
         "entity_id": "Q7444034"
     },
     {
-        "query_id": "30_529",
-        "wiki_title": "Renaud Glacier",
-        "entity_id": "Q7312708"
-    },
-    {
         "query_id": "30_530",
         "wiki_title": "Cushing Peak",
         "entity_id": "Q5196196"
@@ -2653,11 +1958,6 @@
         "query_id": "30_531",
         "wiki_title": "Esplin Islands",
         "entity_id": "Q5399053"
-    },
-    {
-        "query_id": "30_532",
-        "wiki_title": "Rampart Terrace",
-        "entity_id": "Q7290025"
     },
     {
         "query_id": "30_533",
@@ -2683,11 +1983,6 @@
         "query_id": "30_537",
         "wiki_title": "Foggydog Glacier",
         "entity_id": "Q5464108"
-    },
-    {
-        "query_id": "30_538",
-        "wiki_title": "Harriss Ridge",
-        "entity_id": "Q5666245"
     },
     {
         "query_id": "30_539",
@@ -2725,11 +2020,6 @@
         "entity_id": "Q7123305"
     },
     {
-        "query_id": "30_546",
-        "wiki_title": "Greben' Island",
-        "entity_id": "Q5601521"
-    },
-    {
         "query_id": "30_547",
         "wiki_title": "Gibbs Island (South Shetland Islands)",
         "entity_id": "Q1522879"
@@ -2748,16 +2038,6 @@
         "query_id": "30_550",
         "wiki_title": "Lake Priyadarshini",
         "entity_id": "Q6477435"
-    },
-    {
-        "query_id": "30_551",
-        "wiki_title": "Burrage Dome",
-        "entity_id": "Q15206028"
-    },
-    {
-        "query_id": "30_552",
-        "wiki_title": "Goodall Ridge",
-        "entity_id": "Q5583179"
     },
     {
         "query_id": "30_553",
@@ -2810,29 +2090,9 @@
         "entity_id": "Q7339895"
     },
     {
-        "query_id": "30_563",
-        "wiki_title": "Storkvaeven Cirque",
-        "entity_id": "Q7620073"
-    },
-    {
-        "query_id": "30_564",
-        "wiki_title": "McClintock Ridge",
-        "entity_id": "Q6800361"
-    },
-    {
-        "query_id": "30_565",
-        "wiki_title": "Institute Ice Stream",
-        "entity_id": "Q6039112"
-    },
-    {
         "query_id": "30_566",
         "wiki_title": "Mount Rendu",
         "entity_id": "Q6578099"
-    },
-    {
-        "query_id": "30_567",
-        "wiki_title": "Vergilov Ridge",
-        "entity_id": "Q7921273"
     },
     {
         "query_id": "30_568",
@@ -2890,24 +2150,9 @@
         "entity_id": "Q4930653"
     },
     {
-        "query_id": "30_579",
-        "wiki_title": "Dewar Nunatak",
-        "entity_id": "Q5268078"
-    },
-    {
         "query_id": "30_580",
         "wiki_title": "Loire",
         "entity_id": "Q1469"
-    },
-    {
-        "query_id": "30_581",
-        "wiki_title": "M\u00f8rkenatten Peak",
-        "entity_id": "Q6950399"
-    },
-    {
-        "query_id": "30_582",
-        "wiki_title": "Kennel Peak",
-        "entity_id": "Q6389720"
     },
     {
         "query_id": "30_583",
@@ -2923,11 +2168,6 @@
         "query_id": "30_585",
         "wiki_title": "Puffball Islands",
         "entity_id": "Q7258870"
-    },
-    {
-        "query_id": "30_586",
-        "wiki_title": "Hamarskaftet Nunataks",
-        "entity_id": "Q5644105"
     },
     {
         "query_id": "30_587",
@@ -2980,29 +2220,9 @@
         "entity_id": "Q5318352"
     },
     {
-        "query_id": "30_597",
-        "wiki_title": "Magnis Ridge",
-        "entity_id": "Q6731773"
-    },
-    {
-        "query_id": "30_598",
-        "wiki_title": "Boschert Glacier",
-        "entity_id": "Q4947153"
-    },
-    {
-        "query_id": "30_599",
-        "wiki_title": "Herrmann Nunatak",
-        "entity_id": "Q5744187"
-    },
-    {
         "query_id": "30_600",
         "wiki_title": "Goodspeed Nunataks",
         "entity_id": "Q5583619"
-    },
-    {
-        "query_id": "30_601",
-        "wiki_title": "Chocolate Nunatak",
-        "entity_id": "Q5103631"
     },
     {
         "query_id": "30_602",
@@ -3010,19 +2230,9 @@
         "entity_id": "Q6921351"
     },
     {
-        "query_id": "30_603",
-        "wiki_title": "Filchner\u2013Ronne Ice Shelf",
-        "entity_id": "Q209976"
-    },
-    {
         "query_id": "30_604",
         "wiki_title": "Ceuta",
         "entity_id": "Q5823"
-    },
-    {
-        "query_id": "30_605",
-        "wiki_title": "Tutton Point",
-        "entity_id": "Q1100187"
     },
     {
         "query_id": "30_606",
@@ -3040,11 +2250,6 @@
         "entity_id": "Q93180"
     },
     {
-        "query_id": "30_609",
-        "wiki_title": "Torne (Finnish and Swedish river)",
-        "entity_id": "Q121538"
-    },
-    {
         "query_id": "30_610",
         "wiki_title": "Redcastle Ridge",
         "entity_id": "Q7305547"
@@ -3060,21 +2265,6 @@
         "entity_id": "Q7312551"
     },
     {
-        "query_id": "30_613",
-        "wiki_title": "Parish Riegel",
-        "entity_id": "Q7137428"
-    },
-    {
-        "query_id": "30_614",
-        "wiki_title": "Lovegrove Point",
-        "entity_id": "Q487606"
-    },
-    {
-        "query_id": "30_615",
-        "wiki_title": "Houk Spur",
-        "entity_id": "Q5913041"
-    },
-    {
         "query_id": "30_616",
         "wiki_title": "Hei Glacier",
         "entity_id": "Q5698527"
@@ -3083,11 +2273,6 @@
         "query_id": "30_617",
         "wiki_title": "Malva Bluff",
         "entity_id": "Q6745012"
-    },
-    {
-        "query_id": "30_618",
-        "wiki_title": "Webster Peaks (Prince Charles Mountains)",
-        "entity_id": "Q6622199"
     },
     {
         "query_id": "30_619",
@@ -3100,34 +2285,9 @@
         "entity_id": "Q4878691"
     },
     {
-        "query_id": "30_621",
-        "wiki_title": "Catodon Rocks",
-        "entity_id": "Q5053835"
-    },
-    {
-        "query_id": "30_622",
-        "wiki_title": "Bothy Bay",
-        "entity_id": "Q217854"
-    },
-    {
         "query_id": "30_623",
         "wiki_title": "Marshall Bay",
         "entity_id": "Q6773486"
-    },
-    {
-        "query_id": "30_624",
-        "wiki_title": "Garnet Rocks",
-        "entity_id": "Q5523659"
-    },
-    {
-        "query_id": "30_625",
-        "wiki_title": "Kaggen Hill",
-        "entity_id": "Q6346536"
-    },
-    {
-        "query_id": "30_626",
-        "wiki_title": "Maitri (research station)",
-        "entity_id": "Q626852"
     },
     {
         "query_id": "30_627",
@@ -3165,11 +2325,6 @@
         "entity_id": "Q6279035"
     },
     {
-        "query_id": "30_634",
-        "wiki_title": "Mount Pond",
-        "entity_id": "Q6923014"
-    },
-    {
         "query_id": "30_635",
         "wiki_title": ".aq",
         "entity_id": "Q41016"
@@ -3195,24 +2350,9 @@
         "entity_id": "Q1655962"
     },
     {
-        "query_id": "30_640",
-        "wiki_title": "Pond Ridge",
-        "entity_id": "Q7227668"
-    },
-    {
         "query_id": "30_641",
         "wiki_title": "Staccato Peaks",
         "entity_id": "Q7224447"
-    },
-    {
-        "query_id": "30_642",
-        "wiki_title": "McNair Nunatak",
-        "entity_id": "Q6802449"
-    },
-    {
-        "query_id": "30_643",
-        "wiki_title": "Peacock Heights",
-        "entity_id": "Q7144225"
     },
     {
         "query_id": "30_644",
@@ -3230,39 +2370,9 @@
         "entity_id": "Q571398"
     },
     {
-        "query_id": "30_647",
-        "wiki_title": "Clapp Ridge",
-        "entity_id": "Q5125890"
-    },
-    {
-        "query_id": "30_648",
-        "wiki_title": "Dunn Spur",
-        "entity_id": "Q5315557"
-    },
-    {
-        "query_id": "30_649",
-        "wiki_title": "Truman Nunatak",
-        "entity_id": "Q7847723"
-    },
-    {
-        "query_id": "30_650",
-        "wiki_title": "Womochel Peaks",
-        "entity_id": "Q8031647"
-    },
-    {
         "query_id": "30_651",
         "wiki_title": "Cape Colbeck",
         "entity_id": "Q1990087"
-    },
-    {
-        "query_id": "30_652",
-        "wiki_title": "Florence Nunatak",
-        "entity_id": "Q5460736"
-    },
-    {
-        "query_id": "30_653",
-        "wiki_title": "Larson Nunataks",
-        "entity_id": "Q6491867"
     },
     {
         "query_id": "30_654",
@@ -3283,11 +2393,6 @@
         "query_id": "30_657",
         "wiki_title": "Leander Glacier",
         "entity_id": "Q15242166"
-    },
-    {
-        "query_id": "30_658",
-        "wiki_title": "Sharp Valley",
-        "entity_id": "Q7490349"
     },
     {
         "query_id": "30_659",
@@ -3315,11 +2420,6 @@
         "entity_id": "Q34617"
     },
     {
-        "query_id": "30_664",
-        "wiki_title": "Daughtery Peaks",
-        "entity_id": "Q5227965"
-    },
-    {
         "query_id": "30_665",
         "wiki_title": "Mhire Spur",
         "entity_id": "Q1926515"
@@ -3330,19 +2430,9 @@
         "entity_id": "Q6583676"
     },
     {
-        "query_id": "30_667",
-        "wiki_title": "Mount Montreuil",
-        "entity_id": "Q6922241"
-    },
-    {
         "query_id": "30_668",
         "wiki_title": "Hero Bay",
         "entity_id": "Q217926"
-    },
-    {
-        "query_id": "30_669",
-        "wiki_title": "Johns Knoll",
-        "entity_id": "Q6268067"
     },
     {
         "query_id": "30_670",
@@ -3373,11 +2463,6 @@
         "query_id": "30_675",
         "wiki_title": "Mount Elkins",
         "entity_id": "Q6920606"
-    },
-    {
-        "query_id": "30_676",
-        "wiki_title": "Klinck Nunatak",
-        "entity_id": "Q6420990"
     },
     {
         "query_id": "30_677",
@@ -3420,19 +2505,9 @@
         "entity_id": "Q5697078"
     },
     {
-        "query_id": "30_685",
-        "wiki_title": "Mautino Peak",
-        "entity_id": "Q6794068"
-    },
-    {
         "query_id": "30_686",
         "wiki_title": "Batuliya Point",
         "entity_id": "Q3624696"
-    },
-    {
-        "query_id": "30_687",
-        "wiki_title": "List of ultras of Antarctica",
-        "entity_id": "Q2511849"
     },
     {
         "query_id": "30_688",
@@ -3450,34 +2525,9 @@
         "entity_id": "Q5331939"
     },
     {
-        "query_id": "30_691",
-        "wiki_title": "Sanctuary Glacier",
-        "entity_id": "Q7415709"
-    },
-    {
-        "query_id": "30_692",
-        "wiki_title": "Mount Rodger",
-        "entity_id": "Q1950680"
-    },
-    {
-        "query_id": "30_693",
-        "wiki_title": "Vesletind Peak",
-        "entity_id": "Q7756148"
-    },
-    {
-        "query_id": "30_694",
-        "wiki_title": "Shmidt Point",
-        "entity_id": "Q1100319"
-    },
-    {
         "query_id": "30_695",
         "wiki_title": "Curitiba",
         "entity_id": "Q4361"
-    },
-    {
-        "query_id": "30_696",
-        "wiki_title": "Iselin Seamount",
-        "entity_id": "Q15228845"
     },
     {
         "query_id": "30_697",
@@ -3490,34 +2540,14 @@
         "entity_id": "Q7857353"
     },
     {
-        "query_id": "30_699",
-        "wiki_title": "Walsh Spur",
-        "entity_id": "Q7963837"
-    },
-    {
         "query_id": "30_700",
         "wiki_title": "Remington Glacier",
         "entity_id": "Q7311829"
     },
     {
-        "query_id": "30_701",
-        "wiki_title": "Price Peak",
-        "entity_id": "Q6957441"
-    },
-    {
-        "query_id": "30_702",
-        "wiki_title": "Midkiff Rock",
-        "entity_id": "Q15253349"
-    },
-    {
         "query_id": "30_703",
         "wiki_title": "Mount Howard (Antarctica)",
         "entity_id": "Q6921340"
-    },
-    {
-        "query_id": "30_704",
-        "wiki_title": "Capling Peak",
-        "entity_id": "Q5036046"
     },
     {
         "query_id": "30_705",
@@ -3530,19 +2560,9 @@
         "entity_id": "Q8038331"
     },
     {
-        "query_id": "30_707",
-        "wiki_title": "Roaring Ridge",
-        "entity_id": "Q7339879"
-    },
-    {
         "query_id": "30_708",
         "wiki_title": "Mendeleyev Glacier",
         "entity_id": "Q11829854"
-    },
-    {
-        "query_id": "30_709",
-        "wiki_title": "Janssen Peak",
-        "entity_id": "Q6155572"
     },
     {
         "query_id": "30_710",
@@ -3558,11 +2578,6 @@
         "query_id": "30_712",
         "wiki_title": "Rigi",
         "entity_id": "Q15291"
-    },
-    {
-        "query_id": "30_713",
-        "wiki_title": "Jaynes Islands",
-        "entity_id": "Q6167931"
     },
     {
         "query_id": "30_714",
@@ -3585,19 +2600,9 @@
         "entity_id": "Q3624296"
     },
     {
-        "query_id": "30_718",
-        "wiki_title": "Stapleton Glacier",
-        "entity_id": "Q7600488"
-    },
-    {
         "query_id": "30_719",
         "wiki_title": "Bingham Peak",
         "entity_id": "Q863786"
-    },
-    {
-        "query_id": "30_720",
-        "wiki_title": "Zhil'naya Mountain",
-        "entity_id": "Q7759302"
     },
     {
         "query_id": "30_721",
@@ -3655,24 +2660,9 @@
         "entity_id": "Q6506820"
     },
     {
-        "query_id": "30_732",
-        "wiki_title": "Daveri Hill",
-        "entity_id": "Q5230308"
-    },
-    {
         "query_id": "30_733",
         "wiki_title": "Aytos Point",
         "entity_id": "Q707459"
-    },
-    {
-        "query_id": "30_734",
-        "wiki_title": "N\u00f8dtvedt Nunataks",
-        "entity_id": "Q7046741"
-    },
-    {
-        "query_id": "30_735",
-        "wiki_title": "Boyer Glacier",
-        "entity_id": "Q4952450"
     },
     {
         "query_id": "30_736",
@@ -3683,11 +2673,6 @@
         "query_id": "30_737",
         "wiki_title": "Refuge Engineer Wiltgen",
         "entity_id": "Q3935700"
-    },
-    {
-        "query_id": "30_738",
-        "wiki_title": "Rowe Bluff",
-        "entity_id": "Q7371871"
     },
     {
         "query_id": "30_739",
@@ -3710,34 +2695,9 @@
         "entity_id": "Q6816601"
     },
     {
-        "query_id": "30_743",
-        "wiki_title": "Flank Island",
-        "entity_id": "Q5457395"
-    },
-    {
-        "query_id": "30_744",
-        "wiki_title": "Unger Peak",
-        "entity_id": "Q6177151"
-    },
-    {
-        "query_id": "30_745",
-        "wiki_title": "Mount Fyfe",
-        "entity_id": "Q6920849"
-    },
-    {
-        "query_id": "30_746",
-        "wiki_title": "Granitnaya Mountain",
-        "entity_id": "Q5595961"
-    },
-    {
         "query_id": "30_747",
         "wiki_title": "Forbes Point",
         "entity_id": "Q1099653"
-    },
-    {
-        "query_id": "30_748",
-        "wiki_title": "Consul Reef",
-        "entity_id": "Q313261"
     },
     {
         "query_id": "30_749",
@@ -3770,16 +2730,6 @@
         "entity_id": "Q1130138"
     },
     {
-        "query_id": "30_755",
-        "wiki_title": "Kalafut Nunatak",
-        "entity_id": "Q6350088"
-    },
-    {
-        "query_id": "30_756",
-        "wiki_title": "Finn Spur",
-        "entity_id": "Q5450666"
-    },
-    {
         "query_id": "30_757",
         "wiki_title": "Hansenbreen",
         "entity_id": "Q5651071"
@@ -3798,11 +2748,6 @@
         "query_id": "30_760",
         "wiki_title": "Srem Gap",
         "entity_id": "Q7585746"
-    },
-    {
-        "query_id": "30_761",
-        "wiki_title": "Oberon Peak",
-        "entity_id": "Q7074798"
     },
     {
         "query_id": "30_762",
@@ -3855,11 +2800,6 @@
         "entity_id": "Q12718760"
     },
     {
-        "query_id": "30_772",
-        "wiki_title": "Devil Island",
-        "entity_id": "Q12902720"
-    },
-    {
         "query_id": "30_773",
         "wiki_title": "Antarctic Automatic Weather Stations Project",
         "entity_id": "Q4770986"
@@ -3890,11 +2830,6 @@
         "entity_id": "Q2106946"
     },
     {
-        "query_id": "30_779",
-        "wiki_title": "David Cauldron",
-        "entity_id": "Q5232252"
-    },
-    {
         "query_id": "30_780",
         "wiki_title": "Icebreaker Glacier",
         "entity_id": "Q5985598"
@@ -3910,11 +2845,6 @@
         "entity_id": "Q724467"
     },
     {
-        "query_id": "30_783",
-        "wiki_title": "Mount Essinger",
-        "entity_id": "Q6920679"
-    },
-    {
         "query_id": "30_784",
         "wiki_title": "Gerlache Inlet",
         "entity_id": "Q278326"
@@ -3923,11 +2853,6 @@
         "query_id": "30_785",
         "wiki_title": "Paisiy Peak",
         "entity_id": "Q7125164"
-    },
-    {
-        "query_id": "30_786",
-        "wiki_title": "Mount Moberly",
-        "entity_id": "Q12716993"
     },
     {
         "query_id": "30_787",
@@ -3955,39 +2880,14 @@
         "entity_id": "Q200255"
     },
     {
-        "query_id": "30_792",
-        "wiki_title": "Mount Gunner",
-        "entity_id": "Q6921011"
-    },
-    {
         "query_id": "30_793",
         "wiki_title": "Austvorren Ridge",
         "entity_id": "Q4825809"
     },
     {
-        "query_id": "30_794",
-        "wiki_title": "Ethelbald Bluff",
-        "entity_id": "Q5403241"
-    },
-    {
         "query_id": "30_795",
         "wiki_title": "Osuga Glacier",
         "entity_id": "Q7108010"
-    },
-    {
-        "query_id": "30_796",
-        "wiki_title": "Hannah Ridge",
-        "entity_id": "Q5648943"
-    },
-    {
-        "query_id": "30_797",
-        "wiki_title": "Foolsmate Glacier",
-        "entity_id": "Q5465706"
-    },
-    {
-        "query_id": "30_798",
-        "wiki_title": "Cape Cornely",
-        "entity_id": "Q2562989"
     },
     {
         "query_id": "30_799",
@@ -4000,24 +2900,9 @@
         "entity_id": "Q6925644"
     },
     {
-        "query_id": "30_801",
-        "wiki_title": "Mata Taua Peak",
-        "entity_id": "Q6785899"
-    },
-    {
         "query_id": "30_802",
         "wiki_title": "Fowlie Glacier",
         "entity_id": "Q5476479"
-    },
-    {
-        "query_id": "30_803",
-        "wiki_title": "Cornice Channel",
-        "entity_id": "Q2783138"
-    },
-    {
-        "query_id": "30_804",
-        "wiki_title": "Carlson Buttress",
-        "entity_id": "Q5042904"
     },
     {
         "query_id": "30_805",
@@ -4045,16 +2930,6 @@
         "entity_id": "Q5587474"
     },
     {
-        "query_id": "30_810",
-        "wiki_title": "Utrista Rock",
-        "entity_id": "Q7903241"
-    },
-    {
-        "query_id": "30_811",
-        "wiki_title": "Joyce Peak",
-        "entity_id": "Q6297606"
-    },
-    {
         "query_id": "30_812",
         "wiki_title": "Kingdom of Serbia",
         "entity_id": "Q241748"
@@ -4065,29 +2940,9 @@
         "entity_id": "Q6385786"
     },
     {
-        "query_id": "30_814",
-        "wiki_title": "Waugh Peak",
-        "entity_id": "Q7975135"
-    },
-    {
-        "query_id": "30_815",
-        "wiki_title": "Gould Spur",
-        "entity_id": "Q1540141"
-    },
-    {
-        "query_id": "30_816",
-        "wiki_title": "Corelli Horn",
-        "entity_id": "Q5170258"
-    },
-    {
         "query_id": "30_817",
         "wiki_title": "Avian Island",
         "entity_id": "Q4828554"
-    },
-    {
-        "query_id": "30_818",
-        "wiki_title": "Mount Mull",
-        "entity_id": "Q7420029"
     },
     {
         "query_id": "30_819",
@@ -4098,11 +2953,6 @@
         "query_id": "30_820",
         "wiki_title": "Minot Point",
         "entity_id": "Q883219"
-    },
-    {
-        "query_id": "30_821",
-        "wiki_title": "Kraut Rocks",
-        "entity_id": "Q6436455"
     },
     {
         "query_id": "30_822",
@@ -4130,11 +2980,6 @@
         "entity_id": "Q7224463"
     },
     {
-        "query_id": "30_827",
-        "wiki_title": "Moraine Ridge",
-        "entity_id": "Q6909044"
-    },
-    {
         "query_id": "30_828",
         "wiki_title": "Chuchuliga Glacier",
         "entity_id": "Q5115312"
@@ -4148,11 +2993,6 @@
         "query_id": "30_830",
         "wiki_title": "Borge Bay",
         "entity_id": "Q4945023"
-    },
-    {
-        "query_id": "30_831",
-        "wiki_title": "McKinnis Peak",
-        "entity_id": "Q6801988"
     },
     {
         "query_id": "30_832",
@@ -4185,11 +3025,6 @@
         "entity_id": "Q6804714"
     },
     {
-        "query_id": "30_838",
-        "wiki_title": "Watts Needle",
-        "entity_id": "Q7975037"
-    },
-    {
         "query_id": "30_839",
         "wiki_title": "George VI Ice Shelf",
         "entity_id": "Q1388612"
@@ -4200,29 +3035,9 @@
         "entity_id": "Q4956117"
     },
     {
-        "query_id": "30_841",
-        "wiki_title": "Abolin Rock",
-        "entity_id": "Q4668257"
-    },
-    {
         "query_id": "30_842",
         "wiki_title": "Uganda",
         "entity_id": "Q1036"
-    },
-    {
-        "query_id": "30_843",
-        "wiki_title": "Mount Garan",
-        "entity_id": "Q6920859"
-    },
-    {
-        "query_id": "30_844",
-        "wiki_title": "Kay Peak",
-        "entity_id": "Q6380269"
-    },
-    {
-        "query_id": "30_845",
-        "wiki_title": "Heaphy Spur",
-        "entity_id": "Q5691527"
     },
     {
         "query_id": "30_846",
@@ -4250,16 +3065,6 @@
         "entity_id": "Q6584094"
     },
     {
-        "query_id": "30_851",
-        "wiki_title": "Butterfly Knoll",
-        "entity_id": "Q5002943"
-    },
-    {
-        "query_id": "30_852",
-        "wiki_title": "Lennon Glacier",
-        "entity_id": "Q6522819"
-    },
-    {
         "query_id": "30_853",
         "wiki_title": "South Beacon",
         "entity_id": "Q7566287"
@@ -4270,34 +3075,14 @@
         "entity_id": "Q2646717"
     },
     {
-        "query_id": "30_855",
-        "wiki_title": "Mount Riley",
-        "entity_id": "Q6923234"
-    },
-    {
         "query_id": "30_856",
         "wiki_title": "Mount Bewsher",
         "entity_id": "Q6582321"
     },
     {
-        "query_id": "30_857",
-        "wiki_title": "Lane Plateau",
-        "entity_id": "Q6485436"
-    },
-    {
         "query_id": "30_858",
         "wiki_title": "Mount Madison (Antarctica)",
         "entity_id": "Q6921957"
-    },
-    {
-        "query_id": "30_859",
-        "wiki_title": "Horvath Island",
-        "entity_id": "Q5907039"
-    },
-    {
-        "query_id": "30_860",
-        "wiki_title": "Frost Cliff",
-        "entity_id": "Q5506154"
     },
     {
         "query_id": "30_861",
@@ -4308,11 +3093,6 @@
         "query_id": "30_862",
         "wiki_title": "Fowler Islands",
         "entity_id": "Q12714769"
-    },
-    {
-        "query_id": "30_863",
-        "wiki_title": "Festningsporten Pass",
-        "entity_id": "Q5445859"
     },
     {
         "query_id": "30_864",
@@ -4330,16 +3110,6 @@
         "entity_id": "Q5619719"
     },
     {
-        "query_id": "30_867",
-        "wiki_title": "Rose Peak (South Shetlands)",
-        "entity_id": "Q7367890"
-    },
-    {
-        "query_id": "30_868",
-        "wiki_title": "Knuckey Peaks",
-        "entity_id": "Q6423713"
-    },
-    {
         "query_id": "30_869",
         "wiki_title": "Rosser Ridge",
         "entity_id": "Q7369803"
@@ -4348,11 +3118,6 @@
         "query_id": "30_870",
         "wiki_title": "Easter Island",
         "entity_id": "Q14452"
-    },
-    {
-        "query_id": "30_871",
-        "wiki_title": "Knut Rocks",
-        "entity_id": "Q6423979"
     },
     {
         "query_id": "30_872",
@@ -4390,16 +3155,6 @@
         "entity_id": "Q217781"
     },
     {
-        "query_id": "30_879",
-        "wiki_title": "Bazett Island",
-        "entity_id": "Q4875175"
-    },
-    {
-        "query_id": "30_880",
-        "wiki_title": "Koci Cliffs",
-        "entity_id": "Q6424932"
-    },
-    {
         "query_id": "30_881",
         "wiki_title": "Keystone Cliffs",
         "entity_id": "Q6398458"
@@ -4425,24 +3180,9 @@
         "entity_id": "Q7536382"
     },
     {
-        "query_id": "30_886",
-        "wiki_title": "Anckorn Nunataks",
-        "entity_id": "Q4753084"
-    },
-    {
-        "query_id": "30_887",
-        "wiki_title": "Anders Peak",
-        "entity_id": "Q4753890"
-    },
-    {
         "query_id": "30_888",
         "wiki_title": "Hippocrates Glacier",
         "entity_id": "Q5768418"
-    },
-    {
-        "query_id": "30_889",
-        "wiki_title": "Marcoux Nunatak",
-        "entity_id": "Q6757962"
     },
     {
         "query_id": "30_890",
@@ -4455,11 +3195,6 @@
         "entity_id": "Q8049364"
     },
     {
-        "query_id": "30_892",
-        "wiki_title": "Mount Bergin",
-        "entity_id": "Q6188908"
-    },
-    {
         "query_id": "30_893",
         "wiki_title": "Wilkniss Mountains",
         "entity_id": "Q8002558"
@@ -4468,11 +3203,6 @@
         "query_id": "30_894",
         "wiki_title": "Ketchum Glacier",
         "entity_id": "Q6395349"
-    },
-    {
-        "query_id": "30_895",
-        "wiki_title": "Bandy Island",
-        "entity_id": "Q4854779"
     },
     {
         "query_id": "30_896",
@@ -4505,16 +3235,6 @@
         "entity_id": "Q10288639"
     },
     {
-        "query_id": "30_902",
-        "wiki_title": "Mamelon Point",
-        "entity_id": "Q1100106"
-    },
-    {
-        "query_id": "30_903",
-        "wiki_title": "Turret Nunatak",
-        "entity_id": "Q7856229"
-    },
-    {
         "query_id": "30_904",
         "wiki_title": "Crosswell Glacier",
         "entity_id": "Q3108286"
@@ -4543,11 +3263,6 @@
         "query_id": "30_910",
         "wiki_title": "Mount Plymouth",
         "entity_id": "Q6923002"
-    },
-    {
-        "query_id": "30_911",
-        "wiki_title": "Billycock Hill",
-        "entity_id": "Q4913545"
     },
     {
         "query_id": "30_912",
@@ -4580,11 +3295,6 @@
         "entity_id": "Q1022512"
     },
     {
-        "query_id": "30_918",
-        "wiki_title": "Burel Hill",
-        "entity_id": "Q4998453"
-    },
-    {
         "query_id": "30_919",
         "wiki_title": "Astor Rocks",
         "entity_id": "Q4811078"
@@ -4600,34 +3310,14 @@
         "entity_id": "Q7045657"
     },
     {
-        "query_id": "30_922",
-        "wiki_title": "Trenholm Point",
-        "entity_id": "Q2227077"
-    },
-    {
-        "query_id": "30_923",
-        "wiki_title": "Coloured Peak",
-        "entity_id": "Q5149229"
-    },
-    {
         "query_id": "30_924",
         "wiki_title": "Pakistan Antarctic Programme",
         "entity_id": "Q6720506"
     },
     {
-        "query_id": "30_925",
-        "wiki_title": "Mount Hermanson",
-        "entity_id": "Q6921171"
-    },
-    {
         "query_id": "30_926",
         "wiki_title": "Mount Salisbury (Antarctica)",
         "entity_id": "Q11513324"
-    },
-    {
-        "query_id": "30_927",
-        "wiki_title": "Ni\u00e9pce Glacier",
-        "entity_id": "Q7031783"
     },
     {
         "query_id": "30_928",
@@ -4665,19 +3355,9 @@
         "entity_id": "Q5766944"
     },
     {
-        "query_id": "30_935",
-        "wiki_title": "Miharashi Peak",
-        "entity_id": "Q6845251"
-    },
-    {
         "query_id": "30_936",
         "wiki_title": "Darley Hills",
         "entity_id": "Q12239421"
-    },
-    {
-        "query_id": "30_937",
-        "wiki_title": "Mount Trimpi",
-        "entity_id": "Q6924198"
     },
     {
         "query_id": "30_938",
@@ -4688,11 +3368,6 @@
         "query_id": "30_939",
         "wiki_title": "Grosvenor Mountains",
         "entity_id": "Q5610642"
-    },
-    {
-        "query_id": "30_940",
-        "wiki_title": "Penney Landing",
-        "entity_id": "Q7163416"
     },
     {
         "query_id": "30_941",
@@ -4715,29 +3390,14 @@
         "entity_id": "Q6981549"
     },
     {
-        "query_id": "30_945",
-        "wiki_title": "Stwosz Icefall",
-        "entity_id": "Q7629288"
-    },
-    {
         "query_id": "30_946",
         "wiki_title": "Mount Bjaaland",
         "entity_id": "Q6919744"
     },
     {
-        "query_id": "30_947",
-        "wiki_title": "Holt Peak",
-        "entity_id": "Q1625163"
-    },
-    {
         "query_id": "30_948",
         "wiki_title": "Mount Mason",
         "entity_id": "Q11303079"
-    },
-    {
-        "query_id": "30_949",
-        "wiki_title": "Geikie Nunatak",
-        "entity_id": "Q5530125"
     },
     {
         "query_id": "30_950",
@@ -4748,11 +3408,6 @@
         "query_id": "30_951",
         "wiki_title": "Mount Marzolf",
         "entity_id": "Q6922045"
-    },
-    {
-        "query_id": "30_952",
-        "wiki_title": "Inepta Cove",
-        "entity_id": "Q59008"
     },
     {
         "query_id": "30_953",
@@ -4790,64 +3445,14 @@
         "entity_id": "Q2604818"
     },
     {
-        "query_id": "30_960",
-        "wiki_title": "Footscrew Nunatak",
-        "entity_id": "Q5466581"
-    },
-    {
-        "query_id": "30_961",
-        "wiki_title": "Holmes Ridge",
-        "entity_id": "Q15097693"
-    },
-    {
-        "query_id": "30_962",
-        "wiki_title": "Valchedram Island",
-        "entity_id": "Q7909325"
-    },
-    {
         "query_id": "30_963",
         "wiki_title": "Mount Bain",
         "entity_id": "Q6919559"
     },
     {
-        "query_id": "30_964",
-        "wiki_title": "Erratic Valley",
-        "entity_id": "Q5395495"
-    },
-    {
-        "query_id": "30_965",
-        "wiki_title": "Heckmann Island",
-        "entity_id": "Q5696471"
-    },
-    {
-        "query_id": "30_966",
-        "wiki_title": "Henry Moraine",
-        "entity_id": "Q5725998"
-    },
-    {
-        "query_id": "30_967",
-        "wiki_title": "Graovo Rocks",
-        "entity_id": "Q5596989"
-    },
-    {
         "query_id": "30_968",
         "wiki_title": "Lithuania",
         "entity_id": "Q37"
-    },
-    {
-        "query_id": "30_969",
-        "wiki_title": "Povien Bluff",
-        "entity_id": "Q7235881"
-    },
-    {
-        "query_id": "30_970",
-        "wiki_title": "Hydrodist Rocks",
-        "entity_id": "Q5954772"
-    },
-    {
-        "query_id": "30_971",
-        "wiki_title": "Mount Cantello",
-        "entity_id": "Q6919984"
     },
     {
         "query_id": "30_972",
@@ -4860,19 +3465,9 @@
         "entity_id": "Q7166596"
     },
     {
-        "query_id": "30_974",
-        "wiki_title": "Acarospora Peak",
-        "entity_id": "Q4672132"
-    },
-    {
         "query_id": "30_975",
         "wiki_title": "Sparadok Point",
         "entity_id": "Q6977655"
-    },
-    {
-        "query_id": "30_976",
-        "wiki_title": "Ellis Cone",
-        "entity_id": "Q5365863"
     },
     {
         "query_id": "30_977",
@@ -4883,11 +3478,6 @@
         "query_id": "30_978",
         "wiki_title": "Megaw Island",
         "entity_id": "Q6808963"
-    },
-    {
-        "query_id": "30_979",
-        "wiki_title": "Walsh Nunatak",
-        "entity_id": "Q7963835"
     },
     {
         "query_id": "30_980",
@@ -4945,19 +3535,9 @@
         "entity_id": "Q842"
     },
     {
-        "query_id": "30_991",
-        "wiki_title": "Knack Point",
-        "entity_id": "Q2604410"
-    },
-    {
         "query_id": "30_992",
         "wiki_title": "Mount Lacey",
         "entity_id": "Q6583722"
-    },
-    {
-        "query_id": "30_993",
-        "wiki_title": "Godwit Glacier",
-        "entity_id": "Q5576989"
     },
     {
         "query_id": "30_994",
@@ -4975,18 +3555,8 @@
         "entity_id": "Q5877143"
     },
     {
-        "query_id": "30_997",
-        "wiki_title": "Strawn Pass",
-        "entity_id": "Q7622548"
-    },
-    {
         "query_id": "30_998",
         "wiki_title": "Demay Point",
         "entity_id": "Q581639"
-    },
-    {
-        "query_id": "30_999",
-        "wiki_title": "Tantalus Bluffs",
-        "entity_id": "Q15706601"
     }
 ]

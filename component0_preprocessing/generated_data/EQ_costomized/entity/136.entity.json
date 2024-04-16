@@ -1,20 +1,5 @@
 [
     {
-        "query_id": "136_0",
-        "wiki_title": "Something to Listen To (Jimmy McGriff album)",
-        "entity_id": "Q7560257"
-    },
-    {
-        "query_id": "136_1",
-        "wiki_title": "Shining Soul (film)",
-        "entity_id": "Q18170424"
-    },
-    {
-        "query_id": "136_2",
-        "wiki_title": "Target: Harry",
-        "entity_id": "Q3638879"
-    },
-    {
         "query_id": "136_3",
         "wiki_title": "Dead Men Don't Make Shadows",
         "entity_id": "Q2445572"
@@ -60,11 +45,6 @@
         "entity_id": "Q4816835"
     },
     {
-        "query_id": "136_12",
-        "wiki_title": "Zulu Dj\u00e6vler\u00e6s",
-        "entity_id": "Q8075190"
-    },
-    {
         "query_id": "136_13",
         "wiki_title": "Exit-13",
         "entity_id": "Q2090571"
@@ -85,11 +65,6 @@
         "entity_id": "Q1170622"
     },
     {
-        "query_id": "136_17",
-        "wiki_title": "The Guilty (novel series)",
-        "entity_id": "Q7738474"
-    },
-    {
         "query_id": "136_18",
         "wiki_title": "The Full Monty",
         "entity_id": "Q775970"
@@ -98,11 +73,6 @@
         "query_id": "136_19",
         "wiki_title": "Guus Janssen",
         "entity_id": "Q357400"
-    },
-    {
-        "query_id": "136_20",
-        "wiki_title": "Masked Avengers (film)",
-        "entity_id": "Q6783406"
     },
     {
         "query_id": "136_21",
@@ -153,16 +123,6 @@
         "query_id": "136_30",
         "wiki_title": "De/Vision",
         "entity_id": "Q703348"
-    },
-    {
-        "query_id": "136_31",
-        "wiki_title": "Scanners II: The New Order",
-        "entity_id": "Q386541"
-    },
-    {
-        "query_id": "136_32",
-        "wiki_title": "Do Chattane",
-        "entity_id": "Q5285985"
     },
     {
         "query_id": "136_33",
@@ -225,11 +185,6 @@
         "entity_id": "Q1752517"
     },
     {
-        "query_id": "136_46",
-        "wiki_title": "Scorched (2003 film)",
-        "entity_id": "Q320431"
-    },
-    {
         "query_id": "136_47",
         "wiki_title": "Scott Stapp",
         "entity_id": "Q606969"
@@ -245,16 +200,6 @@
         "entity_id": "Q1618401"
     },
     {
-        "query_id": "136_50",
-        "wiki_title": "New Street Adventure",
-        "entity_id": "Q19668512"
-    },
-    {
-        "query_id": "136_51",
-        "wiki_title": "Punks Not Dad",
-        "entity_id": "Q7260438"
-    },
-    {
         "query_id": "136_52",
         "wiki_title": "Katiyabaaz",
         "entity_id": "Q18126669"
@@ -265,19 +210,9 @@
         "entity_id": "Q1766873"
     },
     {
-        "query_id": "136_54",
-        "wiki_title": "Assault: Retribution",
-        "entity_id": "Q4808551"
-    },
-    {
         "query_id": "136_55",
         "wiki_title": "Shariki",
         "entity_id": "Q4520520"
-    },
-    {
-        "query_id": "136_56",
-        "wiki_title": "Call of Duty: Modern Warfare 3",
-        "entity_id": "Q486233"
     },
     {
         "query_id": "136_57",
@@ -310,11 +245,6 @@
         "entity_id": "Q1135537"
     },
     {
-        "query_id": "136_66",
-        "wiki_title": "Song Cinema",
-        "entity_id": "Q7560975"
-    },
-    {
         "query_id": "136_67",
         "wiki_title": "Rita Hayworth and Shawshank Redemption",
         "entity_id": "Q968314"
@@ -323,11 +253,6 @@
         "query_id": "136_68",
         "wiki_title": "Abdylas Maldybaev",
         "entity_id": "Q479615"
-    },
-    {
-        "query_id": "136_69",
-        "wiki_title": "Baptism of Fire: The Second Battle of Ypres and the Forging of Canada, April 1915",
-        "entity_id": "Q4857587"
     },
     {
         "query_id": "136_70",
@@ -380,11 +305,6 @@
         "entity_id": "Q3292881"
     },
     {
-        "query_id": "136_80",
-        "wiki_title": "Keepsake (video game)",
-        "entity_id": "Q1112638"
-    },
-    {
         "query_id": "136_81",
         "wiki_title": "Akiko Suwanai",
         "entity_id": "Q418332"
@@ -408,11 +328,6 @@
         "query_id": "136_85",
         "wiki_title": "Dead Island",
         "entity_id": "Q1180815"
-    },
-    {
-        "query_id": "136_86",
-        "wiki_title": "Winston Audio",
-        "entity_id": "Q8026037"
     },
     {
         "query_id": "136_87",
@@ -520,11 +435,6 @@
         "entity_id": "Q5743225"
     },
     {
-        "query_id": "136_109",
-        "wiki_title": "True Blue (Al Cohn and Dexter Gordon album)",
-        "entity_id": "Q7847363"
-    },
-    {
         "query_id": "136_110",
         "wiki_title": "Makvala Kasrashvili",
         "entity_id": "Q4216746"
@@ -540,11 +450,6 @@
         "entity_id": "Q674887"
     },
     {
-        "query_id": "136_113",
-        "wiki_title": "The Joey Bishop Show (TV series)",
-        "entity_id": "Q7743342"
-    },
-    {
         "query_id": "136_114",
         "wiki_title": "Jerry Garcia Band",
         "entity_id": "Q1535082"
@@ -555,11 +460,6 @@
         "entity_id": "Q7900204"
     },
     {
-        "query_id": "136_116",
-        "wiki_title": "The Foolish Thing to Do",
-        "entity_id": "Q7734706"
-    },
-    {
         "query_id": "136_117",
         "wiki_title": "Divorce Invitation",
         "entity_id": "Q17514350"
@@ -568,11 +468,6 @@
         "query_id": "136_118",
         "wiki_title": "Jacky Clark Chisholm",
         "entity_id": "Q6118095"
-    },
-    {
-        "query_id": "136_119",
-        "wiki_title": "Casey Stengel (Sherbell)",
-        "entity_id": "Q5048585"
     },
     {
         "query_id": "136_120",
@@ -595,24 +490,9 @@
         "entity_id": "Q375555"
     },
     {
-        "query_id": "136_124",
-        "wiki_title": "A Student's Song of Heidelberg",
-        "entity_id": "Q14952560"
-    },
-    {
-        "query_id": "136_125",
-        "wiki_title": "Made in Japan (Live at Parco Capello)",
-        "entity_id": "Q3842332"
-    },
-    {
         "query_id": "136_126",
         "wiki_title": "The Cave (video game)",
         "entity_id": "Q3701904"
-    },
-    {
-        "query_id": "136_127",
-        "wiki_title": "Kaos Rising",
-        "entity_id": "Q6366316"
     },
     {
         "query_id": "136_128",
@@ -660,11 +540,6 @@
         "entity_id": "Q7075677"
     },
     {
-        "query_id": "136_137",
-        "wiki_title": "The Dark Eye: Chains of Satinav",
-        "entity_id": "Q3660904"
-    },
-    {
         "query_id": "136_138",
         "wiki_title": "Little Miss Millions",
         "entity_id": "Q671771"
@@ -678,11 +553,6 @@
         "query_id": "136_141",
         "wiki_title": "Marius M\u00fcller-Westernhagen",
         "entity_id": "Q509200"
-    },
-    {
-        "query_id": "136_142",
-        "wiki_title": "Thunder & Roses",
-        "entity_id": "Q7798896"
     },
     {
         "query_id": "136_143",
@@ -705,29 +575,9 @@
         "entity_id": "Q2913870"
     },
     {
-        "query_id": "136_147",
-        "wiki_title": "Wing Commander III: Heart of the Tiger",
-        "entity_id": "Q1636069"
-    },
-    {
         "query_id": "136_148",
         "wiki_title": "Dead Space 3",
         "entity_id": "Q2501242"
-    },
-    {
-        "query_id": "136_149",
-        "wiki_title": "Interlock (band)",
-        "entity_id": "Q6047132"
-    },
-    {
-        "query_id": "136_150",
-        "wiki_title": "Mission: Impossible (1998 video game)",
-        "entity_id": "Q3316822"
-    },
-    {
-        "query_id": "136_151",
-        "wiki_title": "Midnight Resistance (band)",
-        "entity_id": "Q114543"
     },
     {
         "query_id": "136_152",
@@ -765,24 +615,9 @@
         "entity_id": "Q6490125"
     },
     {
-        "query_id": "136_159",
-        "wiki_title": "Humanimal (film)",
-        "entity_id": "Q5939328"
-    },
-    {
-        "query_id": "136_160",
-        "wiki_title": "Emerson, Lake & Powell",
-        "entity_id": "Q1335550"
-    },
-    {
         "query_id": "136_161",
         "wiki_title": "Old 97's",
         "entity_id": "Q3881496"
-    },
-    {
-        "query_id": "136_162",
-        "wiki_title": "50 Cent: Blood on the Sand",
-        "entity_id": "Q2559001"
     },
     {
         "query_id": "136_163",
@@ -790,19 +625,9 @@
         "entity_id": "Q110129"
     },
     {
-        "query_id": "136_164",
-        "wiki_title": "Katie (British TV series)",
-        "entity_id": "Q6377383"
-    },
-    {
         "query_id": "136_165",
         "wiki_title": "Philosophy of a Knife",
         "entity_id": "Q3381240"
-    },
-    {
-        "query_id": "136_166",
-        "wiki_title": "The Butterfly Effect 3: Revelations",
-        "entity_id": "Q1018109"
     },
     {
         "query_id": "136_167",
@@ -815,29 +640,14 @@
         "entity_id": "Q165637"
     },
     {
-        "query_id": "136_169",
-        "wiki_title": "WRC 4: FIA World Rally Championship",
-        "entity_id": "Q17496223"
-    },
-    {
         "query_id": "136_170",
         "wiki_title": "Lust, Caution (novella)",
         "entity_id": "Q6705257"
     },
     {
-        "query_id": "136_171",
-        "wiki_title": "Oka Chinna Maata",
-        "entity_id": "Q18385370"
-    },
-    {
         "query_id": "136_172",
         "wiki_title": "Wreck-It Ralph",
         "entity_id": "Q28891"
-    },
-    {
-        "query_id": "136_173",
-        "wiki_title": "Missing Daughters (1939 film)",
-        "entity_id": "Q13390095"
     },
     {
         "query_id": "136_174",
@@ -875,24 +685,9 @@
         "entity_id": "Q2557820"
     },
     {
-        "query_id": "136_181",
-        "wiki_title": "The Metallic Muse",
-        "entity_id": "Q7751169"
-    },
-    {
         "query_id": "136_182",
         "wiki_title": "Paul Humphrey",
         "entity_id": "Q2060297"
-    },
-    {
-        "query_id": "136_183",
-        "wiki_title": "The Wild Bunch: An Album in Montage",
-        "entity_id": "Q7774846"
-    },
-    {
-        "query_id": "136_184",
-        "wiki_title": "Minor Detail (band)",
-        "entity_id": "Q6869085"
     },
     {
         "query_id": "136_185",
@@ -910,11 +705,6 @@
         "entity_id": "Q2165214"
     },
     {
-        "query_id": "136_188",
-        "wiki_title": "American Child (song)",
-        "entity_id": "Q4743363"
-    },
-    {
         "query_id": "136_189",
         "wiki_title": "Frankie Yankovic",
         "entity_id": "Q150272"
@@ -930,11 +720,6 @@
         "entity_id": "Q1305290"
     },
     {
-        "query_id": "136_192",
-        "wiki_title": "Starshatter: The Gathering Storm",
-        "entity_id": "Q7602400"
-    },
-    {
         "query_id": "136_193",
         "wiki_title": "Dead or Alive 4",
         "entity_id": "Q2608796"
@@ -948,11 +733,6 @@
         "query_id": "136_195",
         "wiki_title": "Flicker (film)",
         "entity_id": "Q5459077"
-    },
-    {
-        "query_id": "136_196",
-        "wiki_title": "Traverse: Starlight & Prairie",
-        "entity_id": "Q16259430"
     },
     {
         "query_id": "136_197",
@@ -1005,29 +785,14 @@
         "entity_id": "Q7756991"
     },
     {
-        "query_id": "136_207",
-        "wiki_title": "London Town (1946 film)",
-        "entity_id": "Q6670852"
-    },
-    {
         "query_id": "136_208",
         "wiki_title": "Seven (1995 film)",
         "entity_id": "Q190908"
     },
     {
-        "query_id": "136_209",
-        "wiki_title": "For Love or Money (American TV series)",
-        "entity_id": "Q5466786"
-    },
-    {
         "query_id": "136_210",
         "wiki_title": "Beyond the Call",
         "entity_id": "Q4900091"
-    },
-    {
-        "query_id": "136_211",
-        "wiki_title": "Lenny Gault",
-        "entity_id": "Q6522943"
     },
     {
         "query_id": "136_212",
@@ -1060,16 +825,6 @@
         "entity_id": "Q1532274"
     },
     {
-        "query_id": "136_218",
-        "wiki_title": "Conflict: Middle East Political Simulator",
-        "entity_id": "Q1125352"
-    },
-    {
-        "query_id": "136_219",
-        "wiki_title": "Bandit Queen (band)",
-        "entity_id": "Q4854625"
-    },
-    {
         "query_id": "136_220",
         "wiki_title": "47 Ronin (2013 film)",
         "entity_id": "Q2816898"
@@ -1080,24 +835,9 @@
         "entity_id": "Q5236576"
     },
     {
-        "query_id": "136_222",
-        "wiki_title": "Call of Duty: Elite",
-        "entity_id": "Q735181"
-    },
-    {
-        "query_id": "136_223",
-        "wiki_title": "H. P. Lovecraft: Against the World, Against Life",
-        "entity_id": "Q780131"
-    },
-    {
         "query_id": "136_224",
         "wiki_title": "Legends of Bikini Bottom",
         "entity_id": "Q6517942"
-    },
-    {
-        "query_id": "136_225",
-        "wiki_title": "The Busy Body (film)",
-        "entity_id": "Q7720761"
     },
     {
         "query_id": "136_226",
@@ -1108,11 +848,6 @@
         "query_id": "136_227",
         "wiki_title": "Fisherman's Friends",
         "entity_id": "Q1678866"
-    },
-    {
-        "query_id": "136_228",
-        "wiki_title": "The Block season 9",
-        "entity_id": "Q17985962"
     },
     {
         "query_id": "136_229",
@@ -1155,16 +890,6 @@
         "entity_id": "Q2682013"
     },
     {
-        "query_id": "136_237",
-        "wiki_title": "Girls at Arms",
-        "entity_id": "Q5564688"
-    },
-    {
-        "query_id": "136_238",
-        "wiki_title": "R: Racing Evolution",
-        "entity_id": "Q2756701"
-    },
-    {
         "query_id": "136_239",
         "wiki_title": "Haruna Iikubo",
         "entity_id": "Q265069"
@@ -1183,11 +908,6 @@
         "query_id": "136_242",
         "wiki_title": "Guy McDonough",
         "entity_id": "Q5622457"
-    },
-    {
-        "query_id": "136_243",
-        "wiki_title": "Wild Case Files",
-        "entity_id": "Q14954448"
     },
     {
         "query_id": "136_244",
@@ -1220,16 +940,6 @@
         "entity_id": "Q194694"
     },
     {
-        "query_id": "136_250",
-        "wiki_title": "You Make Me Feel So Good",
-        "entity_id": "Q17146117"
-    },
-    {
-        "query_id": "136_251",
-        "wiki_title": "Tom Clancy's Net Force Explorers: Private Lives",
-        "entity_id": "Q7815305"
-    },
-    {
         "query_id": "136_253",
         "wiki_title": "Pac-Man World Rally",
         "entity_id": "Q2981176"
@@ -1238,11 +948,6 @@
         "query_id": "136_254",
         "wiki_title": "The Tiger and the Snow",
         "entity_id": "Q19358"
-    },
-    {
-        "query_id": "136_255",
-        "wiki_title": "Kashimashi: Girl Meets Girl",
-        "entity_id": "Q2606682"
     },
     {
         "query_id": "136_256",
@@ -1255,16 +960,6 @@
         "entity_id": "Q7577960"
     },
     {
-        "query_id": "136_258",
-        "wiki_title": "Hollywood Hijinx",
-        "entity_id": "Q13630627"
-    },
-    {
-        "query_id": "136_259",
-        "wiki_title": "Cash Truck",
-        "entity_id": "Q1047336"
-    },
-    {
         "query_id": "136_260",
         "wiki_title": "Boogaloo Joe Jones",
         "entity_id": "Q6095751"
@@ -1275,11 +970,6 @@
         "entity_id": "Q7417927"
     },
     {
-        "query_id": "136_262",
-        "wiki_title": "The Last Paradises: On the Track of Rare Animals",
-        "entity_id": "Q1218938"
-    },
-    {
         "query_id": "136_263",
         "wiki_title": "Mission to Moulokin",
         "entity_id": "Q6878850"
@@ -1288,11 +978,6 @@
         "query_id": "136_264",
         "wiki_title": "Tafsir Nemooneh",
         "entity_id": "Q4846227"
-    },
-    {
-        "query_id": "136_265",
-        "wiki_title": "La malquerida",
-        "entity_id": "Q16744071"
     },
     {
         "query_id": "136_266",
@@ -1308,11 +993,6 @@
         "query_id": "136_268",
         "wiki_title": "Risto Apostolov",
         "entity_id": "Q7336422"
-    },
-    {
-        "query_id": "136_269",
-        "wiki_title": "WWE Aftershock",
-        "entity_id": "Q3283993"
     },
     {
         "query_id": "136_270",
@@ -1340,19 +1020,9 @@
         "entity_id": "Q724582"
     },
     {
-        "query_id": "136_275",
-        "wiki_title": "Dexter Rides Again",
-        "entity_id": "Q5268440"
-    },
-    {
         "query_id": "136_276",
         "wiki_title": "Canadian Electronic Ensemble",
         "entity_id": "Q5029963"
-    },
-    {
-        "query_id": "136_277",
-        "wiki_title": "Halo: Reach",
-        "entity_id": "Q283878"
     },
     {
         "query_id": "136_278",
@@ -1375,19 +1045,9 @@
         "entity_id": "Q13635771"
     },
     {
-        "query_id": "136_282",
-        "wiki_title": "1848 (film)",
-        "entity_id": "Q4554738"
-    },
-    {
         "query_id": "136_283",
         "wiki_title": "7 Skies H3",
         "entity_id": "Q16959591"
-    },
-    {
-        "query_id": "136_284",
-        "wiki_title": "Egypt II: The Heliopolis Prophecy",
-        "entity_id": "Q3586211"
     },
     {
         "query_id": "136_285",
@@ -1405,11 +1065,6 @@
         "entity_id": "Q12129959"
     },
     {
-        "query_id": "136_288",
-        "wiki_title": "Dismissed (American TV series)",
-        "entity_id": "Q542716"
-    },
-    {
         "query_id": "136_289",
         "wiki_title": "Emil Jakob Schindler",
         "entity_id": "Q670922"
@@ -1425,39 +1080,14 @@
         "entity_id": "Q532475"
     },
     {
-        "query_id": "136_292",
-        "wiki_title": "Spyro: Year of the Dragon",
-        "entity_id": "Q943115"
-    },
-    {
-        "query_id": "136_294",
-        "wiki_title": "Panic! (video game)",
-        "entity_id": "Q2190748"
-    },
-    {
-        "query_id": "136_295",
-        "wiki_title": "Freak Out: Extreme Freeride",
-        "entity_id": "Q5494182"
-    },
-    {
         "query_id": "136_296",
         "wiki_title": "Gaetano Chierici",
         "entity_id": "Q3756938"
     },
     {
-        "query_id": "136_297",
-        "wiki_title": "Rough and Ready (1918 film)",
-        "entity_id": "Q7370873"
-    },
-    {
         "query_id": "136_298",
         "wiki_title": "Aurora Borealis (band)",
         "entity_id": "Q2392892"
-    },
-    {
-        "query_id": "136_299",
-        "wiki_title": "The Monastery: Mr. Vig and the Nun",
-        "entity_id": "Q7751970"
     },
     {
         "query_id": "136_300",
@@ -1475,24 +1105,9 @@
         "entity_id": "Q1018491"
     },
     {
-        "query_id": "136_303",
-        "wiki_title": "Blind Terror",
-        "entity_id": "Q4926616"
-    },
-    {
         "query_id": "136_304",
         "wiki_title": "King Crimson",
         "entity_id": "Q189382"
-    },
-    {
-        "query_id": "136_305",
-        "wiki_title": "Blagger (video game)",
-        "entity_id": "Q2531258"
-    },
-    {
-        "query_id": "136_306",
-        "wiki_title": "Althea & Donna",
-        "entity_id": "Q440504"
     },
     {
         "query_id": "136_307",
@@ -1515,34 +1130,14 @@
         "entity_id": "Q7460316"
     },
     {
-        "query_id": "136_311",
-        "wiki_title": "School Days (video game)",
-        "entity_id": "Q1055893"
-    },
-    {
         "query_id": "136_312",
         "wiki_title": "Singing Melody",
         "entity_id": "Q7523567"
     },
     {
-        "query_id": "136_313",
-        "wiki_title": "Tom Harrison (musician)",
-        "entity_id": "Q16729677"
-    },
-    {
         "query_id": "136_314",
         "wiki_title": "Jerome Sydenham",
         "entity_id": "Q3177428"
-    },
-    {
-        "query_id": "136_315",
-        "wiki_title": "Pessi and Illusia",
-        "entity_id": "Q15121792"
-    },
-    {
-        "query_id": "136_316",
-        "wiki_title": "Cheno Lyfe",
-        "entity_id": "Q19281862"
     },
     {
         "query_id": "136_317",
@@ -1568,11 +1163,6 @@
         "query_id": "136_322",
         "wiki_title": "Collie Buddz",
         "entity_id": "Q1109440"
-    },
-    {
-        "query_id": "136_323",
-        "wiki_title": "Alien from the Darkness",
-        "entity_id": "Q4726488"
     },
     {
         "query_id": "136_324",
@@ -1618,11 +1208,6 @@
         "query_id": "136_332",
         "wiki_title": "Lucas Achtschellinck",
         "entity_id": "Q1873054"
-    },
-    {
-        "query_id": "136_333",
-        "wiki_title": "Revenge of the Nerds III: The Next Generation",
-        "entity_id": "Q742733"
     },
     {
         "query_id": "136_334",
@@ -1685,11 +1270,6 @@
         "entity_id": "Q3733670"
     },
     {
-        "query_id": "136_346",
-        "wiki_title": "The Autumn of Pride",
-        "entity_id": "Q7714997"
-    },
-    {
         "query_id": "136_347",
         "wiki_title": "Vernon Brown (musician)",
         "entity_id": "Q2517328"
@@ -1715,11 +1295,6 @@
         "entity_id": "Q15718988"
     },
     {
-        "query_id": "136_352",
-        "wiki_title": "Dexter's Laboratory: Robot Rampage",
-        "entity_id": "Q5268360"
-    },
-    {
         "query_id": "136_353",
         "wiki_title": "Cogs (video game)",
         "entity_id": "Q2981867"
@@ -1735,11 +1310,6 @@
         "entity_id": "Q3284433"
     },
     {
-        "query_id": "136_356",
-        "wiki_title": "S.O.S. Noronha",
-        "entity_id": "Q3459069"
-    },
-    {
         "query_id": "136_357",
         "wiki_title": "Zaki Ibrahim",
         "entity_id": "Q16730020"
@@ -1748,16 +1318,6 @@
         "query_id": "136_358",
         "wiki_title": "Becoming Traviata",
         "entity_id": "Q15283352"
-    },
-    {
-        "query_id": "136_359",
-        "wiki_title": "Land Raiders (film)",
-        "entity_id": "Q1392230"
-    },
-    {
-        "query_id": "136_360",
-        "wiki_title": "White City (band)",
-        "entity_id": "Q7994554"
     },
     {
         "query_id": "136_361",
@@ -1770,29 +1330,14 @@
         "entity_id": "Q2647587"
     },
     {
-        "query_id": "136_363",
-        "wiki_title": "Helium Vola (album)",
-        "entity_id": "Q16842757"
-    },
-    {
         "query_id": "136_364",
         "wiki_title": "Hoggboy",
         "entity_id": "Q5877279"
     },
     {
-        "query_id": "136_365",
-        "wiki_title": "Ever Since Eve (1937 film)",
-        "entity_id": "Q5416873"
-    },
-    {
         "query_id": "136_366",
         "wiki_title": "The Corrections (band)",
         "entity_id": "Q7727666"
-    },
-    {
-        "query_id": "136_367",
-        "wiki_title": "Mana Khemia 2: Fall of Alchemy",
-        "entity_id": "Q771481"
     },
     {
         "query_id": "136_368",
@@ -1830,11 +1375,6 @@
         "entity_id": "Q373536"
     },
     {
-        "query_id": "136_375",
-        "wiki_title": "Ghost Dog: The Way of the Samurai",
-        "entity_id": "Q327332"
-    },
-    {
         "query_id": "136_376",
         "wiki_title": "Warrior Dubz",
         "entity_id": "Q4052967"
@@ -1850,11 +1390,6 @@
         "entity_id": "Q4839480"
     },
     {
-        "query_id": "136_379",
-        "wiki_title": "Burnt by the Sun (EP)",
-        "entity_id": "Q5000242"
-    },
-    {
         "query_id": "136_380",
         "wiki_title": "A Breath of Snow and Ashes",
         "entity_id": "Q4655621"
@@ -1868,11 +1403,6 @@
         "query_id": "136_382",
         "wiki_title": "Music of the Spheres (Mike Oldfield album)",
         "entity_id": "Q201246"
-    },
-    {
-        "query_id": "136_383",
-        "wiki_title": "Realms of Arkania: Star Trail",
-        "entity_id": "Q7301349"
     },
     {
         "query_id": "136_384",
@@ -1910,11 +1440,6 @@
         "entity_id": "Q191408"
     },
     {
-        "query_id": "136_391",
-        "wiki_title": "Madness (1919 film)",
-        "entity_id": "Q15040773"
-    },
-    {
         "query_id": "136_392",
         "wiki_title": "Spitz (band)",
         "entity_id": "Q1366445"
@@ -1928,11 +1453,6 @@
         "query_id": "136_394",
         "wiki_title": "Tyrone Davis",
         "entity_id": "Q721043"
-    },
-    {
-        "query_id": "136_395",
-        "wiki_title": "X-Men: Mutant Academy",
-        "entity_id": "Q2443162"
     },
     {
         "query_id": "136_396",
@@ -1985,11 +1505,6 @@
         "entity_id": "Q5136354"
     },
     {
-        "query_id": "136_406",
-        "wiki_title": "Bob & Carol & Ted & Alice",
-        "entity_id": "Q2731768"
-    },
-    {
         "query_id": "136_407",
         "wiki_title": "If I Say Yes",
         "entity_id": "Q5990505"
@@ -2003,11 +1518,6 @@
         "query_id": "136_409",
         "wiki_title": "The Hot Zone",
         "entity_id": "Q585855"
-    },
-    {
-        "query_id": "136_410",
-        "wiki_title": "Police Force: An Inside Story",
-        "entity_id": "Q7209457"
     },
     {
         "query_id": "136_411",
@@ -2045,19 +1555,9 @@
         "entity_id": "Q5123685"
     },
     {
-        "query_id": "136_419",
-        "wiki_title": "Sogni mostruosamente proibiti",
-        "entity_id": "Q3964078"
-    },
-    {
         "query_id": "136_420",
         "wiki_title": "Bunny Rugs",
         "entity_id": "Q4997874"
-    },
-    {
-        "query_id": "136_421",
-        "wiki_title": "Crusade:Zero",
-        "entity_id": "Q18636296"
     },
     {
         "query_id": "136_422",
@@ -2090,19 +1590,9 @@
         "entity_id": "Q5438078"
     },
     {
-        "query_id": "136_428",
-        "wiki_title": "Shirvani Chalaev",
-        "entity_id": "Q4506907"
-    },
-    {
         "query_id": "136_429",
         "wiki_title": "Louis Armstrong",
         "entity_id": "Q1779"
-    },
-    {
-        "query_id": "136_430",
-        "wiki_title": "Nancy Drew: Treasure in the Royal Tower",
-        "entity_id": "Q4051724"
     },
     {
         "query_id": "136_431",
@@ -2115,11 +1605,6 @@
         "entity_id": "Q4051621"
     },
     {
-        "query_id": "136_433",
-        "wiki_title": "El Enemigo (1979 TV series)",
-        "entity_id": "Q964545"
-    },
-    {
         "query_id": "136_434",
         "wiki_title": "Stormwatch (album)",
         "entity_id": "Q1930879"
@@ -2130,19 +1615,9 @@
         "entity_id": "Q526748"
     },
     {
-        "query_id": "136_436",
-        "wiki_title": "Beasts (novella)",
-        "entity_id": "Q4876882"
-    },
-    {
         "query_id": "136_437",
         "wiki_title": "Free Bird",
         "entity_id": "Q251304"
-    },
-    {
-        "query_id": "136_438",
-        "wiki_title": "Place des Cordeliers \u00e0 Lyon",
-        "entity_id": "Q607480"
     },
     {
         "query_id": "136_439",
@@ -2153,11 +1628,6 @@
         "query_id": "136_440",
         "wiki_title": "Pennies from Heaven (1981 film)",
         "entity_id": "Q2719978"
-    },
-    {
-        "query_id": "136_441",
-        "wiki_title": "Hu Zao",
-        "entity_id": "Q5924804"
     },
     {
         "query_id": "136_442",
@@ -2185,19 +1655,9 @@
         "entity_id": "Q222071"
     },
     {
-        "query_id": "136_447",
-        "wiki_title": "Death Do Us Part",
-        "entity_id": "Q18206438"
-    },
-    {
         "query_id": "136_448",
         "wiki_title": "Brewster's Millions (1935 film)",
         "entity_id": "Q4962720"
-    },
-    {
-        "query_id": "136_449",
-        "wiki_title": "Hellfire: A Journey from Hiroshima",
-        "entity_id": "Q5707465"
     },
     {
         "query_id": "136_450",
@@ -2250,26 +1710,6 @@
         "entity_id": "Q4655799"
     },
     {
-        "query_id": "136_460",
-        "wiki_title": "Advanced Dungeons & Dragons: Slayer",
-        "entity_id": "Q4686191"
-    },
-    {
-        "query_id": "136_461",
-        "wiki_title": "The Crow (1919 film)",
-        "entity_id": "Q7728210"
-    },
-    {
-        "query_id": "136_462",
-        "wiki_title": "The Border Wireless",
-        "entity_id": "Q3986064"
-    },
-    {
-        "query_id": "136_463",
-        "wiki_title": "Kate & Kacey",
-        "entity_id": "Q15052857"
-    },
-    {
         "query_id": "136_464",
         "wiki_title": "Brandon Boyd",
         "entity_id": "Q446586"
@@ -2290,19 +1730,9 @@
         "entity_id": "Q3283557"
     },
     {
-        "query_id": "136_468",
-        "wiki_title": "Ultra Reinforcement",
-        "entity_id": "Q16738643"
-    },
-    {
         "query_id": "136_469",
         "wiki_title": "Mark McCoy",
         "entity_id": "Q16215419"
-    },
-    {
-        "query_id": "136_470",
-        "wiki_title": "Come On Down (EP)",
-        "entity_id": "Q1756308"
     },
     {
         "query_id": "136_471",
@@ -2320,24 +1750,9 @@
         "entity_id": "Q7716163"
     },
     {
-        "query_id": "136_474",
-        "wiki_title": "Fieldrunners 2",
-        "entity_id": "Q5447186"
-    },
-    {
         "query_id": "136_475",
         "wiki_title": "Clement Bushay",
         "entity_id": "Q5131292"
-    },
-    {
-        "query_id": "136_476",
-        "wiki_title": "Controller.controller",
-        "entity_id": "Q1129210"
-    },
-    {
-        "query_id": "136_477",
-        "wiki_title": "The Messenger: The Story of Joan of Arc",
-        "entity_id": "Q1140257"
     },
     {
         "query_id": "136_478",
@@ -2360,11 +1775,6 @@
         "entity_id": "Q4659334"
     },
     {
-        "query_id": "136_482",
-        "wiki_title": "Julio Sumiu",
-        "entity_id": "Q16386498"
-    },
-    {
         "query_id": "136_483",
         "wiki_title": "Whisky Galore! (1949 film)",
         "entity_id": "Q1455926"
@@ -2380,19 +1790,9 @@
         "entity_id": "Q5120458"
     },
     {
-        "query_id": "136_486",
-        "wiki_title": "Rescue Ink Unleashed",
-        "entity_id": "Q7314983"
-    },
-    {
         "query_id": "136_487",
         "wiki_title": "A-10 Attack!",
         "entity_id": "Q11188571"
-    },
-    {
-        "query_id": "136_488",
-        "wiki_title": "Irina Elcheva",
-        "entity_id": "Q6069794"
     },
     {
         "query_id": "136_489",
@@ -2445,16 +1845,6 @@
         "entity_id": "Q54967"
     },
     {
-        "query_id": "136_499",
-        "wiki_title": "The Want (DC band)",
-        "entity_id": "Q7773442"
-    },
-    {
-        "query_id": "136_500",
-        "wiki_title": "Exo",
-        "entity_id": "Q494717"
-    },
-    {
         "query_id": "136_501",
         "wiki_title": "Super Smash Bros. for Nintendo 3DS and Wii U",
         "entity_id": "Q1195150"
@@ -2493,11 +1883,6 @@
         "query_id": "136_508",
         "wiki_title": "Rose Hip Rose",
         "entity_id": "Q1480834"
-    },
-    {
-        "query_id": "136_509",
-        "wiki_title": "Hello There (Rick Nielsen song)",
-        "entity_id": "Q5708908"
     },
     {
         "query_id": "136_510",
@@ -2540,11 +1925,6 @@
         "entity_id": "Q7044670"
     },
     {
-        "query_id": "136_518",
-        "wiki_title": "Pan profesor, nep\u0159\u00edtel \u017een",
-        "entity_id": "Q12043685"
-    },
-    {
         "query_id": "136_519",
         "wiki_title": "Body Guards",
         "entity_id": "Q3641538"
@@ -2575,29 +1955,9 @@
         "entity_id": "Q74032"
     },
     {
-        "query_id": "136_525",
-        "wiki_title": "Daedalian Opus",
-        "entity_id": "Q3011788"
-    },
-    {
         "query_id": "136_526",
         "wiki_title": "Herb Morand",
         "entity_id": "Q1607871"
-    },
-    {
-        "query_id": "136_527",
-        "wiki_title": "Pneuma (band)",
-        "entity_id": "Q7205952"
-    },
-    {
-        "query_id": "136_528",
-        "wiki_title": "Metal Gear Solid V: Ground Zeroes",
-        "entity_id": "Q11879017"
-    },
-    {
-        "query_id": "136_529",
-        "wiki_title": "Phantasm IV: Oblivion",
-        "entity_id": "Q1595630"
     },
     {
         "query_id": "136_530",
@@ -2625,24 +1985,9 @@
         "entity_id": "Q831004"
     },
     {
-        "query_id": "136_535",
-        "wiki_title": "The Heart of a Siren",
-        "entity_id": "Q5692399"
-    },
-    {
         "query_id": "136_536",
         "wiki_title": "Endless Night (1972 film)",
         "entity_id": "Q5376180"
-    },
-    {
-        "query_id": "136_537",
-        "wiki_title": "BattleForge",
-        "entity_id": "Q791418"
-    },
-    {
-        "query_id": "136_538",
-        "wiki_title": "The Knave of Hearts (1919 film)",
-        "entity_id": "Q7744814"
     },
     {
         "query_id": "136_539",
@@ -2655,29 +2000,9 @@
         "entity_id": "Q353126"
     },
     {
-        "query_id": "136_541",
-        "wiki_title": "The APF Brigade",
-        "entity_id": "Q7712065"
-    },
-    {
-        "query_id": "136_542",
-        "wiki_title": "Blink (1993 film)",
-        "entity_id": "Q604155"
-    },
-    {
-        "query_id": "136_543",
-        "wiki_title": "Rupert Huber (composer)",
-        "entity_id": "Q2176547"
-    },
-    {
         "query_id": "136_544",
         "wiki_title": "AeTopus",
         "entity_id": "Q4687004"
-    },
-    {
-        "query_id": "136_545",
-        "wiki_title": "Every Man Needs One",
-        "entity_id": "Q17507169"
     },
     {
         "query_id": "136_546",
@@ -2698,11 +2023,6 @@
         "query_id": "136_549",
         "wiki_title": "Hard to Be Me",
         "entity_id": "Q5655610"
-    },
-    {
-        "query_id": "136_550",
-        "wiki_title": "Captain Jack (group)",
-        "entity_id": "Q612362"
     },
     {
         "query_id": "136_551",
@@ -2735,11 +2055,6 @@
         "entity_id": "Q19559972"
     },
     {
-        "query_id": "136_558",
-        "wiki_title": "Aghet \u2013 Ein V\u00f6lkermord",
-        "entity_id": "Q393471"
-    },
-    {
         "query_id": "136_559",
         "wiki_title": "Across the Pacific (1926 film)",
         "entity_id": "Q3604781"
@@ -2755,26 +2070,6 @@
         "entity_id": "Q3760522"
     },
     {
-        "query_id": "136_562",
-        "wiki_title": "Cher Victor",
-        "entity_id": "Q2943552"
-    },
-    {
-        "query_id": "136_563",
-        "wiki_title": "Knights of Legend",
-        "entity_id": "Q6422459"
-    },
-    {
-        "query_id": "136_564",
-        "wiki_title": "Jackson 5 Christmas Album",
-        "entity_id": "Q45711"
-    },
-    {
-        "query_id": "136_565",
-        "wiki_title": "The Ten Teacups",
-        "entity_id": "Q3794796"
-    },
-    {
         "query_id": "136_566",
         "wiki_title": "Gretchen Parlato",
         "entity_id": "Q514437"
@@ -2783,16 +2078,6 @@
         "query_id": "136_567",
         "wiki_title": "Nude Beach (band)",
         "entity_id": "Q16959534"
-    },
-    {
-        "query_id": "136_568",
-        "wiki_title": "Anna Rose Kessler Moore",
-        "entity_id": "Q4767444"
-    },
-    {
-        "query_id": "136_569",
-        "wiki_title": "Homecoming '63",
-        "entity_id": "Q5889342"
     },
     {
         "query_id": "136_570",
@@ -2825,11 +2110,6 @@
         "entity_id": "Q1937626"
     },
     {
-        "query_id": "136_576",
-        "wiki_title": "Maribel (TV series)",
-        "entity_id": "Q18352707"
-    },
-    {
         "query_id": "136_577",
         "wiki_title": "Wielka Encyklopedia PWN",
         "entity_id": "Q3130311"
@@ -2845,39 +2125,14 @@
         "entity_id": "Q17011893"
     },
     {
-        "query_id": "136_580",
-        "wiki_title": "Henry: Portrait of a Serial Killer, Part II",
-        "entity_id": "Q5716921"
-    },
-    {
-        "query_id": "136_581",
-        "wiki_title": "Deadly Tide",
-        "entity_id": "Q5245662"
-    },
-    {
         "query_id": "136_582",
         "wiki_title": "Pitura Freska",
         "entity_id": "Q2266493"
     },
     {
-        "query_id": "136_583",
-        "wiki_title": "Realms of the Elves",
-        "entity_id": "Q16966042"
-    },
-    {
-        "query_id": "136_584",
-        "wiki_title": "A Woman in Pawn",
-        "entity_id": "Q4660755"
-    },
-    {
         "query_id": "136_585",
         "wiki_title": "Naked Seven",
         "entity_id": "Q17007914"
-    },
-    {
-        "query_id": "136_586",
-        "wiki_title": "Horse and Rider (Marini)",
-        "entity_id": "Q5905578"
     },
     {
         "query_id": "136_587",
@@ -2920,16 +2175,6 @@
         "entity_id": "Q1759183"
     },
     {
-        "query_id": "136_595",
-        "wiki_title": "Paris Holiday (1958 film)",
-        "entity_id": "Q3576597"
-    },
-    {
-        "query_id": "136_596",
-        "wiki_title": "Traps 'n' Treasures",
-        "entity_id": "Q7835667"
-    },
-    {
         "query_id": "136_597",
         "wiki_title": "Clark Tracey",
         "entity_id": "Q1095754"
@@ -2938,16 +2183,6 @@
         "query_id": "136_598",
         "wiki_title": "Here Comes the Freedom Train",
         "entity_id": "Q5737175"
-    },
-    {
-        "query_id": "136_599",
-        "wiki_title": "Hidden Expedition \u2013 The Uncharted Islands",
-        "entity_id": "Q5751795"
-    },
-    {
-        "query_id": "136_600",
-        "wiki_title": "Rosencrantz & Guildenstern Are Dead (film)",
-        "entity_id": "Q1579166"
     },
     {
         "query_id": "136_601",
@@ -3005,19 +2240,9 @@
         "entity_id": "Q3644406"
     },
     {
-        "query_id": "136_612",
-        "wiki_title": "Los herederos del Monte",
-        "entity_id": "Q651951"
-    },
-    {
         "query_id": "136_613",
         "wiki_title": "Valeria y Maximiliano",
         "entity_id": "Q3338905"
-    },
-    {
-        "query_id": "136_614",
-        "wiki_title": "Rendering Ranger: R2",
-        "entity_id": "Q7312804"
     },
     {
         "query_id": "136_615",
@@ -3045,26 +2270,6 @@
         "entity_id": "Q6372666"
     },
     {
-        "query_id": "136_620",
-        "wiki_title": "Xenoblade Chronicles (video game)",
-        "entity_id": "Q1287714"
-    },
-    {
-        "query_id": "136_621",
-        "wiki_title": "World's Best Science Fiction: 1966",
-        "entity_id": "Q8035191"
-    },
-    {
-        "query_id": "136_622",
-        "wiki_title": "You Can't Fall in Love When You're Cryin'",
-        "entity_id": "Q8057013"
-    },
-    {
-        "query_id": "136_623",
-        "wiki_title": "Trois: The Escort",
-        "entity_id": "Q7845064"
-    },
-    {
         "query_id": "136_624",
         "wiki_title": "This Guitar (Can't Keep from Crying)",
         "entity_id": "Q2077895"
@@ -3085,24 +2290,9 @@
         "entity_id": "Q7074150"
     },
     {
-        "query_id": "136_628",
-        "wiki_title": "Goodbye Mr Mackenzie",
-        "entity_id": "Q847237"
-    },
-    {
         "query_id": "136_629",
         "wiki_title": "Hammer of the Gods (video game)",
         "entity_id": "Q3126520"
-    },
-    {
-        "query_id": "136_630",
-        "wiki_title": "Karl Hess: Toward Liberty",
-        "entity_id": "Q1145133"
-    },
-    {
-        "query_id": "136_631",
-        "wiki_title": "Magnificent Desolation: Walking on the Moon 3D",
-        "entity_id": "Q11838003"
     },
     {
         "query_id": "136_632",
@@ -3115,24 +2305,9 @@
         "entity_id": "Q2716000"
     },
     {
-        "query_id": "136_634",
-        "wiki_title": "Tommy Sands (Irish singer)",
-        "entity_id": "Q7819835"
-    },
-    {
-        "query_id": "136_635",
-        "wiki_title": "Killer Image",
-        "entity_id": "Q6407493"
-    },
-    {
         "query_id": "136_636",
         "wiki_title": "Blue Blood (1973 film)",
         "entity_id": "Q3417758"
-    },
-    {
-        "query_id": "136_637",
-        "wiki_title": "El Ejido, la loi du profit",
-        "entity_id": "Q3049836"
     },
     {
         "query_id": "136_638",
@@ -3148,11 +2323,6 @@
         "query_id": "136_640",
         "wiki_title": "Half a Loaf of Kung Fu",
         "entity_id": "Q2569407"
-    },
-    {
-        "query_id": "136_641",
-        "wiki_title": "Kandisha (2008 film)",
-        "entity_id": "Q3192606"
     },
     {
         "query_id": "136_642",
@@ -3220,11 +2390,6 @@
         "entity_id": "Q161234"
     },
     {
-        "query_id": "136_655",
-        "wiki_title": "Gandhi Khan",
-        "entity_id": "Q5520698"
-    },
-    {
         "query_id": "136_656",
         "wiki_title": "The Contender Australia",
         "entity_id": "Q7727462"
@@ -3250,34 +2415,14 @@
         "entity_id": "Q3617644"
     },
     {
-        "query_id": "136_661",
-        "wiki_title": "Project Happiness",
-        "entity_id": "Q7249131"
-    },
-    {
         "query_id": "136_662",
         "wiki_title": "Dangerous When Wet",
         "entity_id": "Q2058759"
     },
     {
-        "query_id": "136_663",
-        "wiki_title": "Milan Petrovic Quartet",
-        "entity_id": "Q17098290"
-    },
-    {
-        "query_id": "136_664",
-        "wiki_title": "Se Amar Mon Kereche",
-        "entity_id": "Q7439757"
-    },
-    {
         "query_id": "136_665",
         "wiki_title": "Custom Robo GX",
         "entity_id": "Q5196402"
-    },
-    {
-        "query_id": "136_666",
-        "wiki_title": "Sniper: Ghost Warrior (video game)",
-        "entity_id": "Q1781767"
     },
     {
         "query_id": "136_667",
@@ -3288,21 +2433,6 @@
         "query_id": "136_668",
         "wiki_title": "Puzzle Bots",
         "entity_id": "Q7262688"
-    },
-    {
-        "query_id": "136_669",
-        "wiki_title": "LD+3",
-        "entity_id": "Q6457545"
-    },
-    {
-        "query_id": "136_670",
-        "wiki_title": "Afsar (1950 film)",
-        "entity_id": "Q4690368"
-    },
-    {
-        "query_id": "136_671",
-        "wiki_title": "Hospitalit\u00e9",
-        "entity_id": "Q5908850"
     },
     {
         "query_id": "136_672",
@@ -3330,19 +2460,9 @@
         "entity_id": "Q4500281"
     },
     {
-        "query_id": "136_677",
-        "wiki_title": "Generation of Chaos Exceed",
-        "entity_id": "Q5532598"
-    },
-    {
         "query_id": "136_678",
         "wiki_title": "Steven Universe",
         "entity_id": "Q7615342"
-    },
-    {
-        "query_id": "136_679",
-        "wiki_title": "Classic Stories 2",
-        "entity_id": "Q5128223"
     },
     {
         "query_id": "136_680",
@@ -3360,19 +2480,9 @@
         "entity_id": "Q361122"
     },
     {
-        "query_id": "136_683",
-        "wiki_title": "G-LOC: Air Battle",
-        "entity_id": "Q3093019"
-    },
-    {
         "query_id": "136_684",
         "wiki_title": "E=MC\u00b2 (Mariah Carey album)",
         "entity_id": "Q827957"
-    },
-    {
-        "query_id": "136_685",
-        "wiki_title": "When the Bough Breaks (Kellerman novel)",
-        "entity_id": "Q3997970"
     },
     {
         "query_id": "136_686",
@@ -3383,11 +2493,6 @@
         "query_id": "136_687",
         "wiki_title": "Ni\u00f1o Josele",
         "entity_id": "Q179263"
-    },
-    {
-        "query_id": "136_688",
-        "wiki_title": "Camel Through the Eye of a Needle",
-        "entity_id": "Q5025865"
     },
     {
         "query_id": "136_689",
@@ -3410,11 +2515,6 @@
         "entity_id": "Q1026484"
     },
     {
-        "query_id": "136_693",
-        "wiki_title": "Playboys (Chet Baker and Art Pepper album)",
-        "entity_id": "Q934910"
-    },
-    {
         "query_id": "136_694",
         "wiki_title": "Judi Silvano",
         "entity_id": "Q545185"
@@ -3435,11 +2535,6 @@
         "entity_id": "Q17388589"
     },
     {
-        "query_id": "136_698",
-        "wiki_title": "Caribe (Venezuelan TV series)",
-        "entity_id": "Q5039458"
-    },
-    {
         "query_id": "136_699",
         "wiki_title": "The Real Gilligan's Island",
         "entity_id": "Q7759585"
@@ -3455,11 +2550,6 @@
         "entity_id": "Q788880"
     },
     {
-        "query_id": "136_702",
-        "wiki_title": "Bruce Lee: A Dragon Story",
-        "entity_id": "Q4977848"
-    },
-    {
         "query_id": "136_703",
         "wiki_title": "The Bank Job",
         "entity_id": "Q790071"
@@ -3473,16 +2563,6 @@
         "query_id": "136_705",
         "wiki_title": "Heaven Is Round the Corner",
         "entity_id": "Q5694670"
-    },
-    {
-        "query_id": "136_706",
-        "wiki_title": "Bilegiin Damdins\u00fcren",
-        "entity_id": "Q2155411"
-    },
-    {
-        "query_id": "136_707",
-        "wiki_title": "PQ: Practical Intelligence Quotient",
-        "entity_id": "Q7120225"
     },
     {
         "query_id": "136_708",
@@ -3505,11 +2585,6 @@
         "entity_id": "Q970394"
     },
     {
-        "query_id": "136_712",
-        "wiki_title": "Star Wars Jedi Knight: Dark Forces II",
-        "entity_id": "Q55291"
-    },
-    {
         "query_id": "136_713",
         "wiki_title": "Guniw Tools",
         "entity_id": "Q1634974"
@@ -3520,19 +2595,9 @@
         "entity_id": "Q593119"
     },
     {
-        "query_id": "136_715",
-        "wiki_title": "The Presence (film)",
-        "entity_id": "Q7758055"
-    },
-    {
         "query_id": "136_716",
         "wiki_title": "Eaten Alive!",
         "entity_id": "Q1754886"
-    },
-    {
-        "query_id": "136_717",
-        "wiki_title": "Lest We Remember",
-        "entity_id": "Q1708598"
     },
     {
         "query_id": "136_718",
@@ -3570,11 +2635,6 @@
         "entity_id": "Q1417601"
     },
     {
-        "query_id": "136_725",
-        "wiki_title": "A Place Between: The Story of an Adoption",
-        "entity_id": "Q4658847"
-    },
-    {
         "query_id": "136_726",
         "wiki_title": "Christian Death",
         "entity_id": "Q1079267"
@@ -3600,11 +2660,6 @@
         "entity_id": "Q7140927"
     },
     {
-        "query_id": "136_731",
-        "wiki_title": "Natalie Brown (singer)",
-        "entity_id": "Q6968135"
-    },
-    {
         "query_id": "136_732",
         "wiki_title": "Hidden Agenda (1990 film)",
         "entity_id": "Q950723"
@@ -3620,11 +2675,6 @@
         "entity_id": "Q5187909"
     },
     {
-        "query_id": "136_735",
-        "wiki_title": "The Midnight Patrol",
-        "entity_id": "Q1607784"
-    },
-    {
         "query_id": "136_736",
         "wiki_title": "As Tall as Lions",
         "entity_id": "Q719963"
@@ -3638,16 +2688,6 @@
         "query_id": "136_738",
         "wiki_title": "Shelter (The xx song)",
         "entity_id": "Q3481855"
-    },
-    {
-        "query_id": "136_739",
-        "wiki_title": "Reflector (band)",
-        "entity_id": "Q3931621"
-    },
-    {
-        "query_id": "136_740",
-        "wiki_title": "Rambo: First Blood Part II",
-        "entity_id": "Q319783"
     },
     {
         "query_id": "136_741",
@@ -3700,11 +2740,6 @@
         "entity_id": "Q16267482"
     },
     {
-        "query_id": "136_751",
-        "wiki_title": "Kisses, Sighs, and Cherry Blossom Pink",
-        "entity_id": "Q3278751"
-    },
-    {
         "query_id": "136_752",
         "wiki_title": "Gregory Charles Royal",
         "entity_id": "Q5606851"
@@ -3725,19 +2760,9 @@
         "entity_id": "Q1559662"
     },
     {
-        "query_id": "136_756",
-        "wiki_title": "Extra Terrestrial Biological Entities",
-        "entity_id": "Q3062577"
-    },
-    {
         "query_id": "136_757",
         "wiki_title": "Rally Speedway",
         "entity_id": "Q7287075"
-    },
-    {
-        "query_id": "136_758",
-        "wiki_title": "Pyracurse",
-        "entity_id": "Q7263206"
     },
     {
         "query_id": "136_759",
@@ -3805,11 +2830,6 @@
         "entity_id": "Q1539069"
     },
     {
-        "query_id": "136_773",
-        "wiki_title": "Battlefield: Bad Company",
-        "entity_id": "Q648128"
-    },
-    {
         "query_id": "136_774",
         "wiki_title": "Cabal Online",
         "entity_id": "Q495263"
@@ -3855,11 +2875,6 @@
         "entity_id": "Q524661"
     },
     {
-        "query_id": "136_783",
-        "wiki_title": "Io ti amo",
-        "entity_id": "Q3801266"
-    },
-    {
         "query_id": "136_784",
         "wiki_title": "Red, Hot and Blue (film)",
         "entity_id": "Q7303411"
@@ -3873,11 +2888,6 @@
         "query_id": "136_786",
         "wiki_title": "Oresteia",
         "entity_id": "Q249769"
-    },
-    {
-        "query_id": "136_787",
-        "wiki_title": "WinBack 2: Project Poseidon",
-        "entity_id": "Q8023587"
     },
     {
         "query_id": "136_788",
@@ -3898,11 +2908,6 @@
         "query_id": "136_791",
         "wiki_title": "Aimee Mayo",
         "entity_id": "Q4697142"
-    },
-    {
-        "query_id": "136_792",
-        "wiki_title": "At War with Self",
-        "entity_id": "Q4812437"
     },
     {
         "query_id": "136_793",
@@ -3930,11 +2935,6 @@
         "entity_id": "Q6698160"
     },
     {
-        "query_id": "136_798",
-        "wiki_title": "MUSHA",
-        "entity_id": "Q2039873"
-    },
-    {
         "query_id": "136_799",
         "wiki_title": "The Voices of East Harlem",
         "entity_id": "Q2414957"
@@ -3943,16 +2943,6 @@
         "query_id": "136_800",
         "wiki_title": "Have Rocket, Will Travel",
         "entity_id": "Q5683278"
-    },
-    {
-        "query_id": "136_801",
-        "wiki_title": "Ursa Major (sculpture)",
-        "entity_id": "Q7901147"
-    },
-    {
-        "query_id": "136_802",
-        "wiki_title": "Gabriela (1960 TV series)",
-        "entity_id": "Q5873679"
     },
     {
         "query_id": "136_803",
@@ -3985,24 +2975,9 @@
         "entity_id": "Q612672"
     },
     {
-        "query_id": "136_809",
-        "wiki_title": "Apple Pie (TV series)",
-        "entity_id": "Q4781212"
-    },
-    {
         "query_id": "136_810",
         "wiki_title": "Wario Land II",
         "entity_id": "Q1635462"
-    },
-    {
-        "query_id": "136_811",
-        "wiki_title": "Something in the City (TV series)",
-        "entity_id": "Q16977912"
-    },
-    {
-        "query_id": "136_812",
-        "wiki_title": "Heritage Records (England)",
-        "entity_id": "Q5739024"
     },
     {
         "query_id": "136_813",
@@ -4030,19 +3005,9 @@
         "entity_id": "Q4373743"
     },
     {
-        "query_id": "136_818",
-        "wiki_title": "Marketplace (Canadian TV program)",
-        "entity_id": "Q6770937"
-    },
-    {
         "query_id": "136_819",
         "wiki_title": "Sonny Lester",
         "entity_id": "Q1366979"
-    },
-    {
-        "query_id": "136_820",
-        "wiki_title": "Arthur and the Minimoys (film)",
-        "entity_id": "Q550232"
     },
     {
         "query_id": "136_821",
@@ -4053,11 +3018,6 @@
         "query_id": "136_822",
         "wiki_title": "Taiy\u014d Matsumoto",
         "entity_id": "Q1504165"
-    },
-    {
-        "query_id": "136_823",
-        "wiki_title": "Spooky Stories for a Dark and Stormy Night",
-        "entity_id": "Q7579131"
     },
     {
         "query_id": "136_824",
@@ -4098,11 +3058,6 @@
         "query_id": "136_831",
         "wiki_title": "Battle Gear 4",
         "entity_id": "Q13417176"
-    },
-    {
-        "query_id": "136_832",
-        "wiki_title": "Mahathi (singer)",
-        "entity_id": "Q6733481"
     },
     {
         "query_id": "136_833",
@@ -4155,11 +3110,6 @@
         "entity_id": "Q486410"
     },
     {
-        "query_id": "136_843",
-        "wiki_title": "Hawaii Five-O (1968 TV series)",
-        "entity_id": "Q697407"
-    },
-    {
         "query_id": "136_844",
         "wiki_title": "Al Lucas (musician)",
         "entity_id": "Q305486"
@@ -4185,11 +3135,6 @@
         "entity_id": "Q550550"
     },
     {
-        "query_id": "136_850",
-        "wiki_title": "Big Girl (Candy Dulfer album)",
-        "entity_id": "Q4905768"
-    },
-    {
         "query_id": "136_851",
         "wiki_title": "Ruodlieb",
         "entity_id": "Q763547"
@@ -4198,16 +3143,6 @@
         "query_id": "136_852",
         "wiki_title": "The Sniper (2009 film)",
         "entity_id": "Q5960135"
-    },
-    {
-        "query_id": "136_853",
-        "wiki_title": "Miss Congeniality 2: Armed and Fabulous",
-        "entity_id": "Q572221"
-    },
-    {
-        "query_id": "136_854",
-        "wiki_title": "The Red Hearts",
-        "entity_id": "Q7759877"
     },
     {
         "query_id": "136_855",
@@ -4223,16 +3158,6 @@
         "query_id": "136_857",
         "wiki_title": "Andreas Johnson",
         "entity_id": "Q498599"
-    },
-    {
-        "query_id": "136_858",
-        "wiki_title": "Sam Rivers (jazz musician)",
-        "entity_id": "Q722432"
-    },
-    {
-        "query_id": "136_859",
-        "wiki_title": "Gabriela (1964 TV series)",
-        "entity_id": "Q19571863"
     },
     {
         "query_id": "136_860",
@@ -4253,11 +3178,6 @@
         "query_id": "136_863",
         "wiki_title": "Les Soeurs Soleil",
         "entity_id": "Q767694"
-    },
-    {
-        "query_id": "136_864",
-        "wiki_title": "In Re: Sherlock Holmes",
-        "entity_id": "Q6010524"
     },
     {
         "query_id": "136_865",
@@ -4290,11 +3210,6 @@
         "entity_id": "Q6315945"
     },
     {
-        "query_id": "136_871",
-        "wiki_title": "Cleaner (2007 film)",
-        "entity_id": "Q1099448"
-    },
-    {
         "query_id": "136_872",
         "wiki_title": "Leroy Burgess",
         "entity_id": "Q6528909"
@@ -4313,11 +3228,6 @@
         "query_id": "136_875",
         "wiki_title": "Jessica Garlick",
         "entity_id": "Q449045"
-    },
-    {
-        "query_id": "136_876",
-        "wiki_title": "Cosmic Engineers",
-        "entity_id": "Q5174066"
     },
     {
         "query_id": "136_877",
@@ -4403,11 +3313,6 @@
         "query_id": "136_893",
         "wiki_title": "Driver (series)",
         "entity_id": "Q1770004"
-    },
-    {
-        "query_id": "136_894",
-        "wiki_title": "Il ragazzo del Pony Express",
-        "entity_id": "Q3795426"
     },
     {
         "query_id": "136_895",
@@ -4555,29 +3460,9 @@
         "entity_id": "Q5036582"
     },
     {
-        "query_id": "136_925",
-        "wiki_title": "Kara no Tsubomi",
-        "entity_id": "Q5971301"
-    },
-    {
-        "query_id": "136_927",
-        "wiki_title": "The Captains (band)",
-        "entity_id": "Q7721294"
-    },
-    {
         "query_id": "136_928",
         "wiki_title": "Fishdom",
         "entity_id": "Q4038787"
-    },
-    {
-        "query_id": "136_929",
-        "wiki_title": "Arlene (song)",
-        "entity_id": "Q4792129"
-    },
-    {
-        "query_id": "136_930",
-        "wiki_title": "Yas (rapper)",
-        "entity_id": "Q6672364"
     },
     {
         "query_id": "136_931",
@@ -4615,11 +3500,6 @@
         "entity_id": "Q11344117"
     },
     {
-        "query_id": "136_939",
-        "wiki_title": "An Eastern Westerner",
-        "entity_id": "Q2211625"
-    },
-    {
         "query_id": "136_940",
         "wiki_title": "Dave Clark (musician)",
         "entity_id": "Q1173155"
@@ -4628,16 +3508,6 @@
         "query_id": "136_941",
         "wiki_title": "Desaster",
         "entity_id": "Q569486"
-    },
-    {
-        "query_id": "136_943",
-        "wiki_title": "Dr. Dolittle: Tail to the Chief",
-        "entity_id": "Q2735673"
-    },
-    {
-        "query_id": "136_944",
-        "wiki_title": "The Sinners of Erspia",
-        "entity_id": "Q7764494"
     },
     {
         "query_id": "136_945",
@@ -4650,11 +3520,6 @@
         "entity_id": "Q903613"
     },
     {
-        "query_id": "136_947",
-        "wiki_title": "Captain Forever",
-        "entity_id": "Q5036640"
-    },
-    {
         "query_id": "136_948",
         "wiki_title": "Trashlight Vision",
         "entity_id": "Q3538094"
@@ -4663,11 +3528,6 @@
         "query_id": "136_949",
         "wiki_title": "My Sexiest Year",
         "entity_id": "Q3331259"
-    },
-    {
-        "query_id": "136_950",
-        "wiki_title": "The Ragged Edge (film)",
-        "entity_id": "Q17125563"
     },
     {
         "query_id": "136_951",
@@ -4683,11 +3543,6 @@
         "query_id": "136_953",
         "wiki_title": "Spiros Antoniou",
         "entity_id": "Q4067190"
-    },
-    {
-        "query_id": "136_954",
-        "wiki_title": "My Education (band)",
-        "entity_id": "Q6945314"
     },
     {
         "query_id": "136_955",
@@ -4738,11 +3593,6 @@
         "query_id": "136_964",
         "wiki_title": "Mick Harris",
         "entity_id": "Q969845"
-    },
-    {
-        "query_id": "136_965",
-        "wiki_title": "Loose Caboose",
-        "entity_id": "Q6675935"
     },
     {
         "query_id": "136_966",
@@ -4800,11 +3650,6 @@
         "entity_id": "Q7755598"
     },
     {
-        "query_id": "136_977",
-        "wiki_title": "Parigi o cara",
-        "entity_id": "Q3895938"
-    },
-    {
         "query_id": "136_978",
         "wiki_title": "Maverick (film)",
         "entity_id": "Q675520"
@@ -4813,11 +3658,6 @@
         "query_id": "136_979",
         "wiki_title": "Holiday Hotel",
         "entity_id": "Q3203958"
-    },
-    {
-        "query_id": "136_980",
-        "wiki_title": "Grandpa (Tell Me 'Bout the Good Old Days)",
-        "entity_id": "Q5595507"
     },
     {
         "query_id": "136_981",
@@ -4840,26 +3680,6 @@
         "entity_id": "Q2243342"
     },
     {
-        "query_id": "136_985",
-        "wiki_title": "CART Fury Championship Racing",
-        "entity_id": "Q5008837"
-    },
-    {
-        "query_id": "136_986",
-        "wiki_title": "Susanne Alt",
-        "entity_id": "Q536939"
-    },
-    {
-        "query_id": "136_987",
-        "wiki_title": "Opa (Swedish band)",
-        "entity_id": "Q16960551"
-    },
-    {
-        "query_id": "136_988",
-        "wiki_title": "The Depths of Time",
-        "entity_id": "Q7729762"
-    },
-    {
         "query_id": "136_989",
         "wiki_title": "Chuck Redd",
         "entity_id": "Q5115674"
@@ -4878,11 +3698,6 @@
         "query_id": "136_992",
         "wiki_title": "High Contrast",
         "entity_id": "Q538289"
-    },
-    {
-        "query_id": "136_993",
-        "wiki_title": "Toto in Madrid",
-        "entity_id": "Q2526820"
     },
     {
         "query_id": "136_994",

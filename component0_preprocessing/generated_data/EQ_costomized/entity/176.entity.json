@@ -1,10 +1,5 @@
 [
     {
-        "query_id": "176_0",
-        "wiki_title": "Jeep Commander (XK)",
-        "entity_id": "Q1563979"
-    },
-    {
         "query_id": "176_1",
         "wiki_title": "Kleenex",
         "entity_id": "Q1371867"
@@ -55,24 +50,9 @@
         "entity_id": "Q3012615"
     },
     {
-        "query_id": "176_11",
-        "wiki_title": "SS Batavier II (1897)",
-        "entity_id": "Q7393224"
-    },
-    {
         "query_id": "176_12",
         "wiki_title": "GE AC4400CW",
         "entity_id": "Q1097466"
-    },
-    {
-        "query_id": "176_13",
-        "wiki_title": "Ford F-Series (eighth generation)",
-        "entity_id": "Q5467748"
-    },
-    {
-        "query_id": "176_14",
-        "wiki_title": "Southern Pacific 975",
-        "entity_id": "Q7570275"
     },
     {
         "query_id": "176_15",
@@ -83,11 +63,6 @@
         "query_id": "176_16",
         "wiki_title": "Owasco-class cutter",
         "entity_id": "Q7114291"
-    },
-    {
-        "query_id": "176_17",
-        "wiki_title": "USS Chivo",
-        "entity_id": "Q2837567"
     },
     {
         "query_id": "176_18",
@@ -118,11 +93,6 @@
         "query_id": "176_23",
         "wiki_title": "Soviet helicopter carrier Leningrad",
         "entity_id": "Q2447614"
-    },
-    {
-        "query_id": "176_24",
-        "wiki_title": "USS LST-60",
-        "entity_id": "Q7871014"
     },
     {
         "query_id": "176_25",
@@ -180,11 +150,6 @@
         "entity_id": "Q929944"
     },
     {
-        "query_id": "176_36",
-        "wiki_title": "USS Corregidor",
-        "entity_id": "Q7868580"
-    },
-    {
         "query_id": "176_37",
         "wiki_title": "Epson R-D1",
         "entity_id": "Q349980"
@@ -205,29 +170,9 @@
         "entity_id": "Q3853166"
     },
     {
-        "query_id": "176_41",
-        "wiki_title": "FM Consolidation Line",
-        "entity_id": "Q5426708"
-    },
-    {
-        "query_id": "176_42",
-        "wiki_title": "Krauss-Maffei ML 4000",
-        "entity_id": "Q834412"
-    },
-    {
-        "query_id": "176_43",
-        "wiki_title": "USS Torrance",
-        "entity_id": "Q7874822"
-    },
-    {
         "query_id": "176_44",
         "wiki_title": "Power 775",
         "entity_id": "Q7236268"
-    },
-    {
-        "query_id": "176_45",
-        "wiki_title": "SS Prinz Adalbert",
-        "entity_id": "Q17511015"
     },
     {
         "query_id": "176_46",
@@ -260,11 +205,6 @@
         "entity_id": "Q484503"
     },
     {
-        "query_id": "176_52",
-        "wiki_title": "Diet Coke with Citrus Zest",
-        "entity_id": "Q5275046"
-    },
-    {
         "query_id": "176_53",
         "wiki_title": "Southern Pacific 4449",
         "entity_id": "Q7570267"
@@ -275,19 +215,9 @@
         "entity_id": "Q46195"
     },
     {
-        "query_id": "176_55",
-        "wiki_title": "Ruvi",
-        "entity_id": "Q7383578"
-    },
-    {
         "query_id": "176_56",
         "wiki_title": "Teacher's Highland Cream",
         "entity_id": "Q7691183"
-    },
-    {
-        "query_id": "176_57",
-        "wiki_title": "USS Amesbury",
-        "entity_id": "Q11675753"
     },
     {
         "query_id": "176_58",
@@ -330,24 +260,9 @@
         "entity_id": "Q729993"
     },
     {
-        "query_id": "176_66",
-        "wiki_title": "Bharat Swati",
-        "entity_id": "Q4901159"
-    },
-    {
         "query_id": "176_67",
         "wiki_title": "AIDC F-CK-1 Ching-kuo",
         "entity_id": "Q293513"
-    },
-    {
-        "query_id": "176_68",
-        "wiki_title": "Fiat Phyllis",
-        "entity_id": "Q5446336"
-    },
-    {
-        "query_id": "176_69",
-        "wiki_title": "USS Raby",
-        "entity_id": "Q7873241"
     },
     {
         "query_id": "176_70",
@@ -358,11 +273,6 @@
         "query_id": "176_71",
         "wiki_title": "USS Jackson (LCS-6)",
         "entity_id": "Q80977"
-    },
-    {
-        "query_id": "176_72",
-        "wiki_title": "Sony PMW-EX1",
-        "entity_id": "Q7119788"
     },
     {
         "query_id": "176_73",
@@ -378,11 +288,6 @@
         "query_id": "176_75",
         "wiki_title": "Peterbilt 379",
         "entity_id": "Q7177980"
-    },
-    {
-        "query_id": "176_76",
-        "wiki_title": "Piaggio NRG",
-        "entity_id": "Q2091840"
     },
     {
         "query_id": "176_77",
@@ -403,11 +308,6 @@
         "query_id": "176_80",
         "wiki_title": "CDC Cyber",
         "entity_id": "Q3648625"
-    },
-    {
-        "query_id": "176_81",
-        "wiki_title": "Yamaha AT1",
-        "entity_id": "Q8047659"
     },
     {
         "query_id": "176_82",
@@ -435,19 +335,9 @@
         "entity_id": "Q7868965"
     },
     {
-        "query_id": "176_87",
-        "wiki_title": "USS Gear",
-        "entity_id": "Q7869594"
-    },
-    {
         "query_id": "176_88",
         "wiki_title": "Cadillac Cimarron",
         "entity_id": "Q1025166"
-    },
-    {
-        "query_id": "176_89",
-        "wiki_title": "USS Sappho (AKA-38)",
-        "entity_id": "Q7873846"
     },
     {
         "query_id": "176_90",
@@ -460,39 +350,14 @@
         "entity_id": "Q1057252"
     },
     {
-        "query_id": "176_92",
-        "wiki_title": "Chevrolet Series AC International",
-        "entity_id": "Q5094417"
-    },
-    {
         "query_id": "176_93",
         "wiki_title": "HMS Ethalion (1802)",
         "entity_id": "Q5632335"
     },
     {
-        "query_id": "176_94",
-        "wiki_title": "Wuling Sunshine",
-        "entity_id": "Q2594909"
-    },
-    {
         "query_id": "176_95",
         "wiki_title": "Nikon F-mount",
         "entity_id": "Q1149640"
-    },
-    {
-        "query_id": "176_96",
-        "wiki_title": "Saab Granturismo",
-        "entity_id": "Q1476445"
-    },
-    {
-        "query_id": "176_97",
-        "wiki_title": "USS Justin (IX-228)",
-        "entity_id": "Q7870641"
-    },
-    {
-        "query_id": "176_98",
-        "wiki_title": "USS Edamena II",
-        "entity_id": "Q7869038"
     },
     {
         "query_id": "176_99",
@@ -515,24 +380,9 @@
         "entity_id": "Q9363945"
     },
     {
-        "query_id": "176_103",
-        "wiki_title": "Suzuki DR-Z125",
-        "entity_id": "Q7651223"
-    },
-    {
-        "query_id": "176_104",
-        "wiki_title": "USS Nantasket",
-        "entity_id": "Q7872095"
-    },
-    {
         "query_id": "176_105",
         "wiki_title": "Honda PC50",
         "entity_id": "Q5892618"
-    },
-    {
-        "query_id": "176_106",
-        "wiki_title": "Quatro (drink)",
-        "entity_id": "Q7269583"
     },
     {
         "query_id": "176_107",
@@ -605,16 +455,6 @@
         "entity_id": "Q594496"
     },
     {
-        "query_id": "176_121",
-        "wiki_title": "USS S-1",
-        "entity_id": "Q7873616"
-    },
-    {
-        "query_id": "176_122",
-        "wiki_title": "Dodge M80",
-        "entity_id": "Q4406946"
-    },
-    {
         "query_id": "176_123",
         "wiki_title": "7.5 cm Pak 40",
         "entity_id": "Q259122"
@@ -650,11 +490,6 @@
         "entity_id": "Q1358633"
     },
     {
-        "query_id": "176_130",
-        "wiki_title": "Hiro Type 91",
-        "entity_id": "Q11369980"
-    },
-    {
         "query_id": "176_131",
         "wiki_title": "Tupolev Tu-160",
         "entity_id": "Q191111"
@@ -685,11 +520,6 @@
         "entity_id": "Q695959"
     },
     {
-        "query_id": "176_137",
-        "wiki_title": "Mitsubishi Maven",
-        "entity_id": "Q4387008"
-    },
-    {
         "query_id": "176_138",
         "wiki_title": "Port Victoria P.V.2",
         "entity_id": "Q4844845"
@@ -698,21 +528,6 @@
         "query_id": "176_139",
         "wiki_title": "BTR-40",
         "entity_id": "Q3632274"
-    },
-    {
-        "query_id": "176_140",
-        "wiki_title": "Heckler & Koch HK4",
-        "entity_id": "Q383837"
-    },
-    {
-        "query_id": "176_141",
-        "wiki_title": "Fentimans Curiosity Cola",
-        "entity_id": "Q5443599"
-    },
-    {
-        "query_id": "176_142",
-        "wiki_title": "USS Natrona",
-        "entity_id": "Q7872141"
     },
     {
         "query_id": "176_143",
@@ -770,24 +585,9 @@
         "entity_id": "Q573253"
     },
     {
-        "query_id": "176_154",
-        "wiki_title": "Pindad SS4",
-        "entity_id": "Q7194996"
-    },
-    {
-        "query_id": "176_155",
-        "wiki_title": "IPad Mini",
-        "entity_id": "Q145761"
-    },
-    {
         "query_id": "176_156",
         "wiki_title": "Sony NEX-7",
         "entity_id": "Q115845"
-    },
-    {
-        "query_id": "176_157",
-        "wiki_title": "USS George W. Ingram",
-        "entity_id": "Q7869701"
     },
     {
         "query_id": "176_158",
@@ -798,16 +598,6 @@
         "query_id": "176_159",
         "wiki_title": "Nissan Hypermini",
         "entity_id": "Q1535876"
-    },
-    {
-        "query_id": "176_160",
-        "wiki_title": "Huff-Daland TW-5",
-        "entity_id": "Q3942283"
-    },
-    {
-        "query_id": "176_161",
-        "wiki_title": "MSC Geneva",
-        "entity_id": "Q6717728"
     },
     {
         "query_id": "176_162",
@@ -840,21 +630,6 @@
         "entity_id": "Q2984494"
     },
     {
-        "query_id": "176_168",
-        "wiki_title": "USS Xenia",
-        "entity_id": "Q7875667"
-    },
-    {
-        "query_id": "176_169",
-        "wiki_title": "HMS Ringarooma",
-        "entity_id": "Q5634060"
-    },
-    {
-        "query_id": "176_170",
-        "wiki_title": "Mitsubishi SpaceJet",
-        "entity_id": "Q1153846"
-    },
-    {
         "query_id": "176_171",
         "wiki_title": "HMS Andrew (P423)",
         "entity_id": "Q5631329"
@@ -875,11 +650,6 @@
         "entity_id": "Q2467622"
     },
     {
-        "query_id": "176_175",
-        "wiki_title": "USS Lamar (APA-47)",
-        "entity_id": "Q11702519"
-    },
-    {
         "query_id": "176_176",
         "wiki_title": "HSV-2 Swift",
         "entity_id": "Q1425227"
@@ -888,11 +658,6 @@
         "query_id": "176_177",
         "wiki_title": "Corona (beer)",
         "entity_id": "Q864987"
-    },
-    {
-        "query_id": "176_178",
-        "wiki_title": "Canadian National Class U-1-f",
-        "entity_id": "Q5013230"
     },
     {
         "query_id": "176_179",
@@ -905,19 +670,9 @@
         "entity_id": "Q489019"
     },
     {
-        "query_id": "176_181",
-        "wiki_title": "HMCS Chebogue",
-        "entity_id": "Q16958046"
-    },
-    {
         "query_id": "176_182",
         "wiki_title": "Aeronca C-2",
         "entity_id": "Q2825658"
-    },
-    {
-        "query_id": "176_183",
-        "wiki_title": "CP Class 0100",
-        "entity_id": "Q2931897"
     },
     {
         "query_id": "176_184",
@@ -928,11 +683,6 @@
         "query_id": "176_185",
         "wiki_title": "LNER Class Y10",
         "entity_id": "Q6459297"
-    },
-    {
-        "query_id": "176_186",
-        "wiki_title": "PZL-230 Skorpion",
-        "entity_id": "Q5271126"
     },
     {
         "query_id": "176_187",
@@ -985,34 +735,14 @@
         "entity_id": "Q5634990"
     },
     {
-        "query_id": "176_197",
-        "wiki_title": "Yamaha Crux",
-        "entity_id": "Q8047677"
-    },
-    {
-        "query_id": "176_198",
-        "wiki_title": "USS Bunch",
-        "entity_id": "Q7867932"
-    },
-    {
         "query_id": "176_199",
         "wiki_title": "Infiniti LE",
         "entity_id": "Q6029912"
     },
     {
-        "query_id": "176_200",
-        "wiki_title": "Milkor BXP",
-        "entity_id": "Q2468669"
-    },
-    {
         "query_id": "176_201",
         "wiki_title": "Oshkosh M-ATV",
         "entity_id": "Q1665408"
-    },
-    {
-        "query_id": "176_202",
-        "wiki_title": "LG Optimus L5",
-        "entity_id": "Q26230"
     },
     {
         "query_id": "176_203",
@@ -1053,11 +783,6 @@
         "query_id": "176_210",
         "wiki_title": "Audi Pikes Peak quattro",
         "entity_id": "Q2628209"
-    },
-    {
-        "query_id": "176_211",
-        "wiki_title": "MV Aqueity (1945)",
-        "entity_id": "Q6719242"
     },
     {
         "query_id": "176_212",
@@ -1140,11 +865,6 @@
         "entity_id": "Q482701"
     },
     {
-        "query_id": "176_228",
-        "wiki_title": "Baldwin DRS-6-4-750",
-        "entity_id": "Q4850545"
-    },
-    {
         "query_id": "176_229",
         "wiki_title": "SIG MG 710-3",
         "entity_id": "Q7390348"
@@ -1220,29 +940,9 @@
         "entity_id": "Q2666947"
     },
     {
-        "query_id": "176_244",
-        "wiki_title": "Invincible-class submarine",
-        "entity_id": "Q15378718"
-    },
-    {
         "query_id": "176_245",
         "wiki_title": "Hero-class patrol vessel",
         "entity_id": "Q5742549"
-    },
-    {
-        "query_id": "176_246",
-        "wiki_title": "USS Shada",
-        "entity_id": "Q11707538"
-    },
-    {
-        "query_id": "176_247",
-        "wiki_title": "Nissan 300C",
-        "entity_id": "Q7040898"
-    },
-    {
-        "query_id": "176_248",
-        "wiki_title": "Nahuel 1A",
-        "entity_id": "Q6959415"
     },
     {
         "query_id": "176_249",
@@ -1253,11 +953,6 @@
         "query_id": "176_250",
         "wiki_title": "Honda CB700SC",
         "entity_id": "Q5892240"
-    },
-    {
-        "query_id": "176_251",
-        "wiki_title": "HMS Storm",
-        "entity_id": "Q1565427"
     },
     {
         "query_id": "176_252",
@@ -1280,24 +975,9 @@
         "entity_id": "Q3029638"
     },
     {
-        "query_id": "176_256",
-        "wiki_title": "KUR EC4 class",
-        "entity_id": "Q18666270"
-    },
-    {
-        "query_id": "176_257",
-        "wiki_title": "Alfa Romeo 140AF",
-        "entity_id": "Q3610956"
-    },
-    {
         "query_id": "176_258",
         "wiki_title": "Udar revolver",
         "entity_id": "Q4386272"
-    },
-    {
-        "query_id": "176_259",
-        "wiki_title": "ERuf Model A",
-        "entity_id": "Q1544805"
     },
     {
         "query_id": "176_260",
@@ -1313,11 +993,6 @@
         "query_id": "176_262",
         "wiki_title": "Suzuki SV650",
         "entity_id": "Q1423130"
-    },
-    {
-        "query_id": "176_263",
-        "wiki_title": "USS LST-350",
-        "entity_id": "Q7870950"
     },
     {
         "query_id": "176_264",
@@ -1345,39 +1020,14 @@
         "entity_id": "Q4654277"
     },
     {
-        "query_id": "176_269",
-        "wiki_title": "USS Badoeng Strait",
-        "entity_id": "Q6150200"
-    },
-    {
         "query_id": "176_270",
         "wiki_title": "Nikon F80",
         "entity_id": "Q1068333"
     },
     {
-        "query_id": "176_271",
-        "wiki_title": "USS Leyden (IX-167)",
-        "entity_id": "Q7871250"
-    },
-    {
-        "query_id": "176_272",
-        "wiki_title": "UAZ Bars",
-        "entity_id": "Q4468290"
-    },
-    {
-        "query_id": "176_273",
-        "wiki_title": "Yamaha Lagenda",
-        "entity_id": "Q8047724"
-    },
-    {
         "query_id": "176_274",
         "wiki_title": "Lamborghini Gallardo",
         "entity_id": "Q152917"
-    },
-    {
-        "query_id": "176_275",
-        "wiki_title": "SMS Radetzky (1909)",
-        "entity_id": "Q610160"
     },
     {
         "query_id": "176_276",
@@ -1440,24 +1090,9 @@
         "entity_id": "Q5514893"
     },
     {
-        "query_id": "176_288",
-        "wiki_title": "Krasnopol (weapon system)",
-        "entity_id": "Q1786729"
-    },
-    {
-        "query_id": "176_289",
-        "wiki_title": "HMS Winchelsea (D46)",
-        "entity_id": "Q5634981"
-    },
-    {
         "query_id": "176_290",
         "wiki_title": "USNS Yukon (T-AO-202)",
         "entity_id": "Q7866773"
-    },
-    {
-        "query_id": "176_291",
-        "wiki_title": "China Railway CRH380A",
-        "entity_id": "Q856457"
     },
     {
         "query_id": "176_292",
@@ -1500,16 +1135,6 @@
         "entity_id": "Q3341746"
     },
     {
-        "query_id": "176_300",
-        "wiki_title": "USS Moonstone",
-        "entity_id": "Q7871955"
-    },
-    {
-        "query_id": "176_301",
-        "wiki_title": "Bucher FS 10 Flugzeugschlepper 78",
-        "entity_id": "Q13099432"
-    },
-    {
         "query_id": "176_302",
         "wiki_title": "SMS Gneisenau",
         "entity_id": "Q202673"
@@ -1528,11 +1153,6 @@
         "query_id": "176_305",
         "wiki_title": "Infiniti Emerg-e",
         "entity_id": "Q12060740"
-    },
-    {
-        "query_id": "176_306",
-        "wiki_title": "LMS diesel shunter 7051",
-        "entity_id": "Q6459182"
     },
     {
         "query_id": "176_307",
@@ -1555,16 +1175,6 @@
         "entity_id": "Q17009825"
     },
     {
-        "query_id": "176_311",
-        "wiki_title": "Yamaha MT-03",
-        "entity_id": "Q1409089"
-    },
-    {
-        "query_id": "176_312",
-        "wiki_title": "HMT Juniper",
-        "entity_id": "Q5635073"
-    },
-    {
         "query_id": "176_313",
         "wiki_title": "Harley-Davidson Servi-Car",
         "entity_id": "Q2004294"
@@ -1573,11 +1183,6 @@
         "query_id": "176_314",
         "wiki_title": "Blackburn G.P.",
         "entity_id": "Q4922683"
-    },
-    {
-        "query_id": "176_315",
-        "wiki_title": "USS Champion (AM-314)",
-        "entity_id": "Q7868201"
     },
     {
         "query_id": "176_316",
@@ -1605,11 +1210,6 @@
         "entity_id": "Q178635"
     },
     {
-        "query_id": "176_321",
-        "wiki_title": "KD Tunku Abdul Rahman",
-        "entity_id": "Q11706768"
-    },
-    {
         "query_id": "176_322",
         "wiki_title": "SEAT Fura",
         "entity_id": "Q2093342"
@@ -1620,24 +1220,9 @@
         "entity_id": "Q426119"
     },
     {
-        "query_id": "176_324",
-        "wiki_title": "Ford Escort",
-        "entity_id": "Q10283410"
-    },
-    {
-        "query_id": "176_325",
-        "wiki_title": "Chevrolet Parkwood",
-        "entity_id": "Q119352"
-    },
-    {
         "query_id": "176_326",
         "wiki_title": "HMS Niger (1846)",
         "entity_id": "Q5633520"
-    },
-    {
-        "query_id": "176_327",
-        "wiki_title": "Crow (missile)",
-        "entity_id": "Q5189068"
     },
     {
         "query_id": "176_328",
@@ -1675,11 +1260,6 @@
         "entity_id": "Q153108"
     },
     {
-        "query_id": "176_335",
-        "wiki_title": "USS LST-342",
-        "entity_id": "Q7870947"
-    },
-    {
         "query_id": "176_336",
         "wiki_title": "HMS Sprightly (1900)",
         "entity_id": "Q5634418"
@@ -1688,16 +1268,6 @@
         "query_id": "176_337",
         "wiki_title": "LNER Class A4 4468 Mallard",
         "entity_id": "Q1070761"
-    },
-    {
-        "query_id": "176_338",
-        "wiki_title": "AEG C.V",
-        "entity_id": "Q291362"
-    },
-    {
-        "query_id": "176_339",
-        "wiki_title": "USS Lapwing (AM-1)",
-        "entity_id": "Q7871153"
     },
     {
         "query_id": "176_340",
@@ -1720,19 +1290,9 @@
         "entity_id": "Q1808946"
     },
     {
-        "query_id": "176_344",
-        "wiki_title": "Italian destroyer Audace (1916)",
-        "entity_id": "Q3629461"
-    },
-    {
         "query_id": "176_345",
         "wiki_title": "Bugatti Type 51",
         "entity_id": "Q2261551"
-    },
-    {
-        "query_id": "176_346",
-        "wiki_title": "Rio Grande class K-27",
-        "entity_id": "Q5203028"
     },
     {
         "query_id": "176_347",
@@ -1765,16 +1325,6 @@
         "entity_id": "Q5630813"
     },
     {
-        "query_id": "176_353",
-        "wiki_title": "USS Drayton (DD-366)",
-        "entity_id": "Q4052208"
-    },
-    {
-        "query_id": "176_354",
-        "wiki_title": "Berliner-Joyce XF3J",
-        "entity_id": "Q10739345"
-    },
-    {
         "query_id": "176_355",
         "wiki_title": "BFW M.19",
         "entity_id": "Q1720516"
@@ -1788,11 +1338,6 @@
         "query_id": "176_357",
         "wiki_title": "Suzuki Choinori",
         "entity_id": "Q3245050"
-    },
-    {
-        "query_id": "176_358",
-        "wiki_title": "USS Narragansett (AT-88)",
-        "entity_id": "Q7872118"
     },
     {
         "query_id": "176_359",
@@ -1815,16 +1360,6 @@
         "entity_id": "Q501349"
     },
     {
-        "query_id": "176_363",
-        "wiki_title": "EMU700 series",
-        "entity_id": "Q6137052"
-    },
-    {
-        "query_id": "176_364",
-        "wiki_title": "Olympus \u03bc 1030 SW",
-        "entity_id": "Q11103319"
-    },
-    {
         "query_id": "176_365",
         "wiki_title": "Lockheed Martin F-22 Raptor",
         "entity_id": "Q133324"
@@ -1840,24 +1375,9 @@
         "entity_id": "Q1193055"
     },
     {
-        "query_id": "176_368",
-        "wiki_title": "St. Louis\u2013San Francisco 4003",
-        "entity_id": "Q5504668"
-    },
-    {
-        "query_id": "176_369",
-        "wiki_title": "USS Halford",
-        "entity_id": "Q1800027"
-    },
-    {
         "query_id": "176_370",
         "wiki_title": "TMS9918",
         "entity_id": "Q1976230"
-    },
-    {
-        "query_id": "176_371",
-        "wiki_title": "Azamara Onward",
-        "entity_id": "Q3360193"
     },
     {
         "query_id": "176_372",
@@ -1865,19 +1385,9 @@
         "entity_id": "Q960616"
     },
     {
-        "query_id": "176_373",
-        "wiki_title": "PZL M-24 Dromader Super",
-        "entity_id": "Q7121238"
-    },
-    {
         "query_id": "176_374",
         "wiki_title": "USS United States (1797)",
         "entity_id": "Q927318"
-    },
-    {
-        "query_id": "176_375",
-        "wiki_title": "Fighting Cock (bourbon)",
-        "entity_id": "Q5447883"
     },
     {
         "query_id": "176_376",
@@ -1950,34 +1460,14 @@
         "entity_id": "Q494724"
     },
     {
-        "query_id": "176_390",
-        "wiki_title": "Azteca-class patrol vessel",
-        "entity_id": "Q4832986"
-    },
-    {
-        "query_id": "176_391",
-        "wiki_title": "USS Fayette",
-        "entity_id": "Q7869335"
-    },
-    {
         "query_id": "176_392",
         "wiki_title": "Mercedes-Benz BlueZERO",
         "entity_id": "Q885590"
     },
     {
-        "query_id": "176_393",
-        "wiki_title": "HMS Talisman (N78)",
-        "entity_id": "Q1565488"
-    },
-    {
         "query_id": "176_394",
         "wiki_title": "ABC Mosquito",
         "entity_id": "Q4650185"
-    },
-    {
-        "query_id": "176_395",
-        "wiki_title": "USS Osmond Ingram",
-        "entity_id": "Q7872509"
     },
     {
         "query_id": "176_396",
@@ -1990,11 +1480,6 @@
         "entity_id": "Q741803"
     },
     {
-        "query_id": "176_398",
-        "wiki_title": "Mercedes-Benz W120/W121",
-        "entity_id": "Q564798"
-    },
-    {
         "query_id": "176_399",
         "wiki_title": "Mazda6",
         "entity_id": "Q285958"
@@ -2003,16 +1488,6 @@
         "query_id": "176_400",
         "wiki_title": "2si 460",
         "entity_id": "Q4633993"
-    },
-    {
-        "query_id": "176_401",
-        "wiki_title": "HMS H24",
-        "entity_id": "Q4358301"
-    },
-    {
-        "query_id": "176_402",
-        "wiki_title": "Xian Ni",
-        "entity_id": "Q2545373"
     },
     {
         "query_id": "176_403",
@@ -2028,21 +1503,6 @@
         "query_id": "176_405",
         "wiki_title": "Yamaha YZ250F",
         "entity_id": "Q898537"
-    },
-    {
-        "query_id": "176_406",
-        "wiki_title": "USS S-45",
-        "entity_id": "Q7873641"
-    },
-    {
-        "query_id": "176_407",
-        "wiki_title": "BMW Vision ConnectedDrive",
-        "entity_id": "Q796755"
-    },
-    {
-        "query_id": "176_408",
-        "wiki_title": "USS Venango",
-        "entity_id": "Q7875048"
     },
     {
         "query_id": "176_409",
@@ -2068,11 +1528,6 @@
         "query_id": "176_413",
         "wiki_title": "GAM-87 Skybolt",
         "entity_id": "Q292496"
-    },
-    {
-        "query_id": "176_414",
-        "wiki_title": "Furness Railway 115 class",
-        "entity_id": "Q5509657"
     },
     {
         "query_id": "176_415",
@@ -2103,11 +1558,6 @@
         "query_id": "176_420",
         "wiki_title": "FinePix S2 Pro",
         "entity_id": "Q279763"
-    },
-    {
-        "query_id": "176_421",
-        "wiki_title": "GNRI Class SG",
-        "entity_id": "Q5513990"
     },
     {
         "query_id": "176_422",
@@ -2145,19 +1595,9 @@
         "entity_id": "Q1208669"
     },
     {
-        "query_id": "176_429",
-        "wiki_title": "Bavarian B IX (old)",
-        "entity_id": "Q812169"
-    },
-    {
         "query_id": "176_430",
         "wiki_title": "Master System",
         "entity_id": "Q209868"
-    },
-    {
-        "query_id": "176_431",
-        "wiki_title": "HMT Svana",
-        "entity_id": "Q5635074"
     },
     {
         "query_id": "176_432",
@@ -2173,11 +1613,6 @@
         "query_id": "176_434",
         "wiki_title": "MG 151 cannon",
         "entity_id": "Q698638"
-    },
-    {
-        "query_id": "176_435",
-        "wiki_title": "HMAS Choules",
-        "entity_id": "Q3935946"
     },
     {
         "query_id": "176_436",
@@ -2208,11 +1643,6 @@
         "query_id": "176_441",
         "wiki_title": "SS Albertic",
         "entity_id": "Q828271"
-    },
-    {
-        "query_id": "176_442",
-        "wiki_title": "Robotron Z1013",
-        "entity_id": "Q135831"
     },
     {
         "query_id": "176_443",
@@ -2260,11 +1690,6 @@
         "entity_id": "Q948229"
     },
     {
-        "query_id": "176_452",
-        "wiki_title": "SS Wollongbar (1911)",
-        "entity_id": "Q7394565"
-    },
-    {
         "query_id": "176_453",
         "wiki_title": "USS Albuquerque (SSN-706)",
         "entity_id": "Q2003791"
@@ -2278,11 +1703,6 @@
         "query_id": "176_455",
         "wiki_title": "CANT 6",
         "entity_id": "Q3648497"
-    },
-    {
-        "query_id": "176_456",
-        "wiki_title": "Samsung GT-S5230",
-        "entity_id": "Q495932"
     },
     {
         "query_id": "176_457",
@@ -2345,21 +1765,6 @@
         "entity_id": "Q5969057"
     },
     {
-        "query_id": "176_469",
-        "wiki_title": "Texas Star Flyer",
-        "entity_id": "Q7708013"
-    },
-    {
-        "query_id": "176_470",
-        "wiki_title": "Steyr M1912 pistol",
-        "entity_id": "Q553914"
-    },
-    {
-        "query_id": "176_471",
-        "wiki_title": "JS My\u014dk\u014d",
-        "entity_id": "Q6107970"
-    },
-    {
         "query_id": "176_472",
         "wiki_title": "Sharp PC-5000",
         "entity_id": "Q3959216"
@@ -2405,21 +1810,6 @@
         "entity_id": "Q796427"
     },
     {
-        "query_id": "176_481",
-        "wiki_title": "USS Carolita",
-        "entity_id": "Q7868101"
-    },
-    {
-        "query_id": "176_482",
-        "wiki_title": "USS LST-794",
-        "entity_id": "Q7871036"
-    },
-    {
-        "query_id": "176_483",
-        "wiki_title": "YNg-28",
-        "entity_id": "Q17515608"
-    },
-    {
         "query_id": "176_484",
         "wiki_title": "USS Shenandoah (AD-26)",
         "entity_id": "Q7874102"
@@ -2433,16 +1823,6 @@
         "query_id": "176_486",
         "wiki_title": "Honda CM series",
         "entity_id": "Q5892339"
-    },
-    {
-        "query_id": "176_487",
-        "wiki_title": "Curtiss Model 41 Lark",
-        "entity_id": "Q5195964"
-    },
-    {
-        "query_id": "176_488",
-        "wiki_title": "Ambrosini SAI.10",
-        "entity_id": "Q28297"
     },
     {
         "query_id": "176_489",
@@ -2465,16 +1845,6 @@
         "entity_id": "Q1153651"
     },
     {
-        "query_id": "176_493",
-        "wiki_title": "Dayton-Wright Cabin Cruiser",
-        "entity_id": "Q5243491"
-    },
-    {
-        "query_id": "176_494",
-        "wiki_title": "HMS H42",
-        "entity_id": "Q16975393"
-    },
-    {
         "query_id": "176_495",
         "wiki_title": "Audi A5",
         "entity_id": "Q758752"
@@ -2490,11 +1860,6 @@
         "entity_id": "Q1939879"
     },
     {
-        "query_id": "176_498",
-        "wiki_title": "Ekspress-A2",
-        "entity_id": "Q5350590"
-    },
-    {
         "query_id": "176_499",
         "wiki_title": "JNR Class ED75",
         "entity_id": "Q11086319"
@@ -2503,11 +1868,6 @@
         "query_id": "176_500",
         "wiki_title": "Volvo B58",
         "entity_id": "Q7941285"
-    },
-    {
-        "query_id": "176_501",
-        "wiki_title": "CFL Class 2300",
-        "entity_id": "Q2619257"
     },
     {
         "query_id": "176_502",
@@ -2538,21 +1898,6 @@
         "query_id": "176_507",
         "wiki_title": "HMS Virago (1895)",
         "entity_id": "Q5634870"
-    },
-    {
-        "query_id": "176_508",
-        "wiki_title": "Scania N series",
-        "entity_id": "Q3951561"
-    },
-    {
-        "query_id": "176_509",
-        "wiki_title": "Hyundai Trago",
-        "entity_id": "Q484519"
-    },
-    {
-        "query_id": "176_510",
-        "wiki_title": "Barry Railway Class H",
-        "entity_id": "Q4864646"
     },
     {
         "query_id": "176_511",
@@ -2605,11 +1950,6 @@
         "entity_id": "Q7643895"
     },
     {
-        "query_id": "176_521",
-        "wiki_title": "Yamaha DT200",
-        "entity_id": "Q370175"
-    },
-    {
         "query_id": "176_522",
         "wiki_title": "Toyota Avalon",
         "entity_id": "Q1417715"
@@ -2645,11 +1985,6 @@
         "entity_id": "Q1626501"
     },
     {
-        "query_id": "176_529",
-        "wiki_title": "Toshiba T3100",
-        "entity_id": "Q7827640"
-    },
-    {
         "query_id": "176_530",
         "wiki_title": "Yamaha RX-Z",
         "entity_id": "Q516132"
@@ -2675,19 +2010,9 @@
         "entity_id": "Q623041"
     },
     {
-        "query_id": "176_535",
-        "wiki_title": "German submarine U-519",
-        "entity_id": "Q601135"
-    },
-    {
         "query_id": "176_536",
         "wiki_title": "Honda NX650 Dominator",
         "entity_id": "Q924991"
-    },
-    {
-        "query_id": "176_537",
-        "wiki_title": "HSwMS N\u00e4cken (1978)",
-        "entity_id": "Q4993491"
     },
     {
         "query_id": "176_538",
@@ -2695,24 +2020,9 @@
         "entity_id": "Q2341659"
     },
     {
-        "query_id": "176_539",
-        "wiki_title": "Honda XL350R",
-        "entity_id": "Q5892791"
-    },
-    {
         "query_id": "176_540",
         "wiki_title": "SNCF Class X 73900",
         "entity_id": "Q662151"
-    },
-    {
-        "query_id": "176_541",
-        "wiki_title": "Ford F-Series (tenth generation)",
-        "entity_id": "Q5467757"
-    },
-    {
-        "query_id": "176_542",
-        "wiki_title": "HMS Wellington (1816)",
-        "entity_id": "Q5632770"
     },
     {
         "query_id": "176_543",
@@ -2728,16 +2038,6 @@
         "query_id": "176_545",
         "wiki_title": "USS Sirocco",
         "entity_id": "Q7874176"
-    },
-    {
-        "query_id": "176_546",
-        "wiki_title": "USS Frank Cable",
-        "entity_id": "Q7869481"
-    },
-    {
-        "query_id": "176_547",
-        "wiki_title": "Smith & Wesson Model 686",
-        "entity_id": "Q2295297"
     },
     {
         "query_id": "176_548",
@@ -2795,16 +2095,6 @@
         "entity_id": "Q846552"
     },
     {
-        "query_id": "176_559",
-        "wiki_title": "Ricoh WG-M1",
-        "entity_id": "Q18390397"
-    },
-    {
-        "query_id": "176_560",
-        "wiki_title": "HMCS La Hulloise",
-        "entity_id": "Q16995797"
-    },
-    {
         "query_id": "176_561",
         "wiki_title": "Saro A.33",
         "entity_id": "Q7424415"
@@ -2820,19 +2110,9 @@
         "entity_id": "Q7382272"
     },
     {
-        "query_id": "176_564",
-        "wiki_title": "Honda Bali (SJ 100)",
-        "entity_id": "Q5892150"
-    },
-    {
         "query_id": "176_565",
         "wiki_title": "ALCO RSD-15",
         "entity_id": "Q4032931"
-    },
-    {
-        "query_id": "176_566",
-        "wiki_title": "Louisville and Nashville 152",
-        "entity_id": "Q6460516"
     },
     {
         "query_id": "176_567",
@@ -2850,19 +2130,9 @@
         "entity_id": "Q634188"
     },
     {
-        "query_id": "176_570",
-        "wiki_title": "Belgenland (1878)",
-        "entity_id": "Q4882415"
-    },
-    {
         "query_id": "176_571",
         "wiki_title": "Alexander von Humboldt (ship)",
         "entity_id": "Q590744"
-    },
-    {
-        "query_id": "176_572",
-        "wiki_title": "USNS Sea Lift",
-        "entity_id": "Q7866709"
     },
     {
         "query_id": "176_573",
@@ -2878,21 +2148,6 @@
         "query_id": "176_575",
         "wiki_title": "ALCO MRS-1",
         "entity_id": "Q2819238"
-    },
-    {
-        "query_id": "176_576",
-        "wiki_title": "BAP Ferr\u00e9 (DM-74)",
-        "entity_id": "Q4352477"
-    },
-    {
-        "query_id": "176_577",
-        "wiki_title": "USS Briareus",
-        "entity_id": "Q7867853"
-    },
-    {
-        "query_id": "176_578",
-        "wiki_title": "USS Goldring (SS-360)",
-        "entity_id": "Q4384555"
     },
     {
         "query_id": "176_579",
@@ -2915,19 +2170,9 @@
         "entity_id": "Q749871"
     },
     {
-        "query_id": "176_583",
-        "wiki_title": "RFA Wave Chief",
-        "entity_id": "Q7276550"
-    },
-    {
         "query_id": "176_584",
         "wiki_title": "Siemens-Schuckert D.I",
         "entity_id": "Q475500"
-    },
-    {
-        "query_id": "176_585",
-        "wiki_title": "USS Garfield County",
-        "entity_id": "Q7869579"
     },
     {
         "query_id": "176_586",
@@ -2938,11 +2183,6 @@
         "query_id": "176_587",
         "wiki_title": "Aero L-59 Super Albatros",
         "entity_id": "Q251647"
-    },
-    {
-        "query_id": "176_588",
-        "wiki_title": "SS Wahehe (1922)",
-        "entity_id": "Q7394516"
     },
     {
         "query_id": "176_589",
@@ -2963,11 +2203,6 @@
         "query_id": "176_592",
         "wiki_title": "Maserati 6CM",
         "entity_id": "Q2395618"
-    },
-    {
-        "query_id": "176_593",
-        "wiki_title": "Peugeot Rapido",
-        "entity_id": "Q7179482"
     },
     {
         "query_id": "176_595",
@@ -3025,11 +2260,6 @@
         "entity_id": "Q7862880"
     },
     {
-        "query_id": "176_606",
-        "wiki_title": "Boeing CQM-121 Pave Tiger",
-        "entity_id": "Q16974336"
-    },
-    {
         "query_id": "176_607",
         "wiki_title": "Porsche 959",
         "entity_id": "Q575937"
@@ -3040,11 +2270,6 @@
         "entity_id": "Q3893044"
     },
     {
-        "query_id": "176_609",
-        "wiki_title": "USS Carina",
-        "entity_id": "Q7868082"
-    },
-    {
         "query_id": "176_610",
         "wiki_title": "Seaward-class defense boats",
         "entity_id": "Q7442266"
@@ -3053,11 +2278,6 @@
         "query_id": "176_611",
         "wiki_title": "Fiat 2300",
         "entity_id": "Q1410475"
-    },
-    {
-        "query_id": "176_612",
-        "wiki_title": "USS Crittenden",
-        "entity_id": "Q7868640"
     },
     {
         "query_id": "176_613",
@@ -3075,11 +2295,6 @@
         "entity_id": "Q735198"
     },
     {
-        "query_id": "176_616",
-        "wiki_title": "HSC Betancuria Express",
-        "entity_id": "Q1534898"
-    },
-    {
         "query_id": "176_617",
         "wiki_title": "6.5mm Creedmoor",
         "entity_id": "Q15964357"
@@ -3088,16 +2303,6 @@
         "query_id": "176_618",
         "wiki_title": "Mirinda",
         "entity_id": "Q568384"
-    },
-    {
-        "query_id": "176_619",
-        "wiki_title": "Head & Shoulders",
-        "entity_id": "Q555900"
-    },
-    {
-        "query_id": "176_620",
-        "wiki_title": "Olympus SP-500 Ultra Zoom",
-        "entity_id": "Q7089253"
     },
     {
         "query_id": "176_621",
@@ -3135,11 +2340,6 @@
         "entity_id": "Q1071170"
     },
     {
-        "query_id": "176_628",
-        "wiki_title": "Dodge Super 8 Hemi",
-        "entity_id": "Q2460343"
-    },
-    {
         "query_id": "176_629",
         "wiki_title": "Lexus RX",
         "entity_id": "Q660273"
@@ -3150,19 +2350,9 @@
         "entity_id": "Q5634099"
     },
     {
-        "query_id": "176_631",
-        "wiki_title": "HMS Trident (1845)",
-        "entity_id": "Q5634687"
-    },
-    {
         "query_id": "176_632",
         "wiki_title": "USS Rochester (CA-124)",
         "entity_id": "Q5223500"
-    },
-    {
-        "query_id": "176_633",
-        "wiki_title": "Smith & Wesson Model 646",
-        "entity_id": "Q7545039"
     },
     {
         "query_id": "176_634",
@@ -3170,19 +2360,9 @@
         "entity_id": "Q4040113"
     },
     {
-        "query_id": "176_635",
-        "wiki_title": "German submarine U-463",
-        "entity_id": "Q445318"
-    },
-    {
         "query_id": "176_636",
         "wiki_title": "HMS Alexander (1778)",
         "entity_id": "Q2067279"
-    },
-    {
-        "query_id": "176_637",
-        "wiki_title": "Lampo-class destroyer",
-        "entity_id": "Q1559856"
     },
     {
         "query_id": "176_638",
@@ -3230,11 +2410,6 @@
         "entity_id": "Q3425034"
     },
     {
-        "query_id": "176_647",
-        "wiki_title": "ZAZ Zaporozhets",
-        "entity_id": "Q744996"
-    },
-    {
         "query_id": "176_648",
         "wiki_title": "EMD SD45",
         "entity_id": "Q2688181"
@@ -3248,11 +2423,6 @@
         "query_id": "176_650",
         "wiki_title": "Welshpool and Llanfair Light Railway No.1 The Earl and No.2 Countess",
         "entity_id": "Q7982063"
-    },
-    {
-        "query_id": "176_651",
-        "wiki_title": "Alfa Romeo 430",
-        "entity_id": "Q3610970"
     },
     {
         "query_id": "176_652",
@@ -3310,19 +2480,9 @@
         "entity_id": "Q7874183"
     },
     {
-        "query_id": "176_663",
-        "wiki_title": "Honda CBF500",
-        "entity_id": "Q110625"
-    },
-    {
         "query_id": "176_664",
         "wiki_title": "Short 360",
         "entity_id": "Q2140324"
-    },
-    {
-        "query_id": "176_665",
-        "wiki_title": "MV Kungsholm (1965)",
-        "entity_id": "Q1517838"
     },
     {
         "query_id": "176_666",
@@ -3340,11 +2500,6 @@
         "entity_id": "Q1422160"
     },
     {
-        "query_id": "176_669",
-        "wiki_title": "U-101-class submarine",
-        "entity_id": "Q11706017"
-    },
-    {
         "query_id": "176_670",
         "wiki_title": "Triumph Gloria",
         "entity_id": "Q2454417"
@@ -3353,16 +2508,6 @@
         "query_id": "176_671",
         "wiki_title": "Fuji T-7",
         "entity_id": "Q1143268"
-    },
-    {
-        "query_id": "176_672",
-        "wiki_title": "FN Model 30-11",
-        "entity_id": "Q822537"
-    },
-    {
-        "query_id": "176_673",
-        "wiki_title": "Nikon Coolpix S600",
-        "entity_id": "Q7036494"
     },
     {
         "query_id": "176_674",
@@ -3400,19 +2545,9 @@
         "entity_id": "Q1138052"
     },
     {
-        "query_id": "176_681",
-        "wiki_title": "Samsung NX3000",
-        "entity_id": "Q18354127"
-    },
-    {
         "query_id": "176_682",
         "wiki_title": "Barry Railway Class J",
         "entity_id": "Q4864647"
-    },
-    {
-        "query_id": "176_683",
-        "wiki_title": "Opel RAK e",
-        "entity_id": "Q7095666"
     },
     {
         "query_id": "176_684",
@@ -3423,11 +2558,6 @@
         "query_id": "176_685",
         "wiki_title": "BMW 7 Series (E23)",
         "entity_id": "Q796448"
-    },
-    {
-        "query_id": "176_686",
-        "wiki_title": "Lockheed XF-104 Starfighter",
-        "entity_id": "Q650990"
     },
     {
         "query_id": "176_687",
@@ -3460,11 +2590,6 @@
         "entity_id": "Q269880"
     },
     {
-        "query_id": "176_693",
-        "wiki_title": "USS Niagara (APA-87)",
-        "entity_id": "Q7872268"
-    },
-    {
         "query_id": "176_694",
         "wiki_title": "German Type U 81 submarine",
         "entity_id": "Q5551291"
@@ -3485,29 +2610,9 @@
         "entity_id": "Q3083237"
     },
     {
-        "query_id": "176_698",
-        "wiki_title": "USS Albatross (AM-71)",
-        "entity_id": "Q7867154"
-    },
-    {
         "query_id": "176_699",
         "wiki_title": "Mitsubishi Magna",
         "entity_id": "Q918267"
-    },
-    {
-        "query_id": "176_700",
-        "wiki_title": "Indian locomotive class WW",
-        "entity_id": "Q17104746"
-    },
-    {
-        "query_id": "176_701",
-        "wiki_title": "Olympus C-2100 UZ",
-        "entity_id": "Q7089211"
-    },
-    {
-        "query_id": "176_702",
-        "wiki_title": "Kulspruta m/39",
-        "entity_id": "Q15991129"
     },
     {
         "query_id": "176_703",
@@ -3555,19 +2660,9 @@
         "entity_id": "Q644430"
     },
     {
-        "query_id": "176_712",
-        "wiki_title": "North American MQM-42",
-        "entity_id": "Q6717398"
-    },
-    {
         "query_id": "176_713",
         "wiki_title": "Grumman G-21 Goose",
         "entity_id": "Q1543567"
-    },
-    {
-        "query_id": "176_714",
-        "wiki_title": "Brennabor Juwel 8",
-        "entity_id": "Q908985"
     },
     {
         "query_id": "176_715",
@@ -3580,19 +2675,9 @@
         "entity_id": "Q2060640"
     },
     {
-        "query_id": "176_717",
-        "wiki_title": "HMS Terrapin",
-        "entity_id": "Q1565518"
-    },
-    {
         "query_id": "176_718",
         "wiki_title": "Ducati Multistrada 1200",
         "entity_id": "Q3544448"
-    },
-    {
-        "query_id": "176_719",
-        "wiki_title": "USS Greenfish",
-        "entity_id": "Q3268165"
     },
     {
         "query_id": "176_720",
@@ -3650,11 +2735,6 @@
         "entity_id": "Q5633170"
     },
     {
-        "query_id": "176_731",
-        "wiki_title": "USS Selinur",
-        "entity_id": "Q7874006"
-    },
-    {
         "query_id": "176_732",
         "wiki_title": "Ariel Square Four",
         "entity_id": "Q659313"
@@ -3680,19 +2760,9 @@
         "entity_id": "Q163835"
     },
     {
-        "query_id": "176_737",
-        "wiki_title": "Panasonic Lumix DMC-LS5",
-        "entity_id": "Q17051317"
-    },
-    {
         "query_id": "176_738",
         "wiki_title": "RIVA TNT2",
         "entity_id": "Q1028827"
-    },
-    {
-        "query_id": "176_739",
-        "wiki_title": "Suzuki GF250",
-        "entity_id": "Q7651238"
     },
     {
         "query_id": "176_740",
@@ -3700,29 +2770,9 @@
         "entity_id": "Q5632253"
     },
     {
-        "query_id": "176_741",
-        "wiki_title": "Eutelsat 3D",
-        "entity_id": "Q13256752"
-    },
-    {
-        "query_id": "176_742",
-        "wiki_title": "Boulton Paul Partridge",
-        "entity_id": "Q4133881"
-    },
-    {
         "query_id": "176_743",
         "wiki_title": "Pontiac Ventura",
         "entity_id": "Q2103844"
-    },
-    {
-        "query_id": "176_744",
-        "wiki_title": "Brennabor Typ E",
-        "entity_id": "Q908978"
-    },
-    {
-        "query_id": "176_745",
-        "wiki_title": "Yamaha Zuma 125",
-        "entity_id": "Q8047823"
     },
     {
         "query_id": "176_746",
@@ -3745,34 +2795,14 @@
         "entity_id": "Q26225"
     },
     {
-        "query_id": "176_750",
-        "wiki_title": "Caterpillar 345C L",
-        "entity_id": "Q5051934"
-    },
-    {
-        "query_id": "176_751",
-        "wiki_title": "Panasonic Lumix DMC-FZ72",
-        "entity_id": "Q17049127"
-    },
-    {
         "query_id": "176_752",
         "wiki_title": "Wuling Hongtu",
         "entity_id": "Q8039204"
     },
     {
-        "query_id": "176_753",
-        "wiki_title": "Pratt & Whitney R-985 Wasp Junior",
-        "entity_id": "Q1813047"
-    },
-    {
         "query_id": "176_754",
         "wiki_title": "Mercedes-Benz T2",
         "entity_id": "Q1921333"
-    },
-    {
-        "query_id": "176_755",
-        "wiki_title": "USS Staff",
-        "entity_id": "Q7874346"
     },
     {
         "query_id": "176_756",
@@ -3795,16 +2825,6 @@
         "entity_id": "Q5323435"
     },
     {
-        "query_id": "176_760",
-        "wiki_title": "Orenco IL-1",
-        "entity_id": "Q11799033"
-    },
-    {
-        "query_id": "176_761",
-        "wiki_title": "PLZ-07",
-        "entity_id": "Q4046213"
-    },
-    {
         "query_id": "176_762",
         "wiki_title": "Martin B-10",
         "entity_id": "Q714968"
@@ -3825,21 +2845,6 @@
         "entity_id": "Q6478287"
     },
     {
-        "query_id": "176_766",
-        "wiki_title": "Dodge Razor",
-        "entity_id": "Q2298703"
-    },
-    {
-        "query_id": "176_767",
-        "wiki_title": "German submarine U-207",
-        "entity_id": "Q4051942"
-    },
-    {
-        "query_id": "176_768",
-        "wiki_title": "Aero A.26",
-        "entity_id": "Q2658859"
-    },
-    {
         "query_id": "176_769",
         "wiki_title": "Nissan 180SX",
         "entity_id": "Q1063020"
@@ -3850,11 +2855,6 @@
         "entity_id": "Q898446"
     },
     {
-        "query_id": "176_771",
-        "wiki_title": "Opel 10/40 PS",
-        "entity_id": "Q322637"
-    },
-    {
         "query_id": "176_772",
         "wiki_title": "Bristol 403",
         "entity_id": "Q1140387"
@@ -3863,11 +2863,6 @@
         "query_id": "176_773",
         "wiki_title": "Shishumar-class submarine",
         "entity_id": "Q3496128"
-    },
-    {
-        "query_id": "176_774",
-        "wiki_title": "Loire 102",
-        "entity_id": "Q6668178"
     },
     {
         "query_id": "176_775",
@@ -3890,29 +2885,9 @@
         "entity_id": "Q935909"
     },
     {
-        "query_id": "176_779",
-        "wiki_title": "BR Standard Class 5 73082 Camelot",
-        "entity_id": "Q4836478"
-    },
-    {
         "query_id": "176_780",
         "wiki_title": "Commodore CBM-II",
         "entity_id": "Q379710"
-    },
-    {
-        "query_id": "176_781",
-        "wiki_title": "Libyan frigate Dat Assawari",
-        "entity_id": "Q6542932"
-    },
-    {
-        "query_id": "176_782",
-        "wiki_title": "No. 1 (yacht)",
-        "entity_id": "Q11704584"
-    },
-    {
-        "query_id": "176_783",
-        "wiki_title": "USS LST-835",
-        "entity_id": "Q7871043"
     },
     {
         "query_id": "176_784",
@@ -3923,11 +2898,6 @@
         "query_id": "176_785",
         "wiki_title": "Nokia Lumia 800",
         "entity_id": "Q923699"
-    },
-    {
-        "query_id": "176_786",
-        "wiki_title": "USS Baltimore (SSN-704)",
-        "entity_id": "Q2005518"
     },
     {
         "query_id": "176_787",
@@ -3943,11 +2913,6 @@
         "query_id": "176_789",
         "wiki_title": "Nokia N76",
         "entity_id": "Q1750122"
-    },
-    {
-        "query_id": "176_790",
-        "wiki_title": "Dayton-Wright RB-1 Racer",
-        "entity_id": "Q5243499"
     },
     {
         "query_id": "176_791",
@@ -3985,29 +2950,14 @@
         "entity_id": "Q322869"
     },
     {
-        "query_id": "176_798",
-        "wiki_title": "\u0190\u0303fini MS-8",
-        "entity_id": "Q425530"
-    },
-    {
         "query_id": "176_799",
         "wiki_title": "United States K-class submarine",
         "entity_id": "Q3442947"
     },
     {
-        "query_id": "176_800",
-        "wiki_title": "Espresso (processor)",
-        "entity_id": "Q719867"
-    },
-    {
         "query_id": "176_801",
         "wiki_title": "Renault Sport Spider",
         "entity_id": "Q2143864"
-    },
-    {
-        "query_id": "176_802",
-        "wiki_title": "Brennabor Typ C",
-        "entity_id": "Q908977"
     },
     {
         "query_id": "176_803",
@@ -4030,19 +2980,9 @@
         "entity_id": "Q911859"
     },
     {
-        "query_id": "176_807",
-        "wiki_title": "USS R-1",
-        "entity_id": "Q7873215"
-    },
-    {
         "query_id": "176_808",
         "wiki_title": "Invicta (locomotive)",
         "entity_id": "Q12060780"
-    },
-    {
-        "query_id": "176_809",
-        "wiki_title": "USS Kansas City (AOR-3)",
-        "entity_id": "Q7870682"
     },
     {
         "query_id": "176_810",
@@ -4053,11 +2993,6 @@
         "query_id": "176_811",
         "wiki_title": "USS Louisville (SSN-724)",
         "entity_id": "Q1380250"
-    },
-    {
-        "query_id": "176_812",
-        "wiki_title": "TAI Keklik",
-        "entity_id": "Q7669279"
     },
     {
         "query_id": "176_813",
@@ -4090,24 +3025,9 @@
         "entity_id": "Q4048777"
     },
     {
-        "query_id": "176_819",
-        "wiki_title": "Bournville (chocolate)",
-        "entity_id": "Q4950316"
-    },
-    {
         "query_id": "176_820",
         "wiki_title": "Farmers Union Iced Coffee",
         "entity_id": "Q5435810"
-    },
-    {
-        "query_id": "176_821",
-        "wiki_title": "INS Kabra (T76)",
-        "entity_id": "Q5103968"
-    },
-    {
-        "query_id": "176_822",
-        "wiki_title": "90 nm process",
-        "entity_id": "Q1051638"
     },
     {
         "query_id": "176_823",
@@ -4115,19 +3035,9 @@
         "entity_id": "Q890199"
     },
     {
-        "query_id": "176_824",
-        "wiki_title": "Honda Aviator",
-        "entity_id": "Q5892149"
-    },
-    {
         "query_id": "176_825",
         "wiki_title": "Tupolev Tu-22M",
         "entity_id": "Q204944"
-    },
-    {
-        "query_id": "176_826",
-        "wiki_title": "Smith & Wesson Model 59",
-        "entity_id": "Q7545024"
     },
     {
         "query_id": "176_827",
@@ -4135,19 +3045,9 @@
         "entity_id": "Q1420047"
     },
     {
-        "query_id": "176_828",
-        "wiki_title": "USS Toucan",
-        "entity_id": "Q7874826"
-    },
-    {
         "query_id": "176_829",
         "wiki_title": "Nissan R89C",
         "entity_id": "Q919082"
-    },
-    {
-        "query_id": "176_830",
-        "wiki_title": "Motorola Aura",
-        "entity_id": "Q16953630"
     },
     {
         "query_id": "176_831",
@@ -4210,11 +3110,6 @@
         "entity_id": "Q1187536"
     },
     {
-        "query_id": "176_843",
-        "wiki_title": "Keystone\u2013Loening Commuter",
-        "entity_id": "Q6398431"
-    },
-    {
         "query_id": "176_844",
         "wiki_title": "EMD SW7",
         "entity_id": "Q5323485"
@@ -4228,11 +3123,6 @@
         "query_id": "176_846",
         "wiki_title": "Barrett M95",
         "entity_id": "Q808896"
-    },
-    {
-        "query_id": "176_847",
-        "wiki_title": "A-Darter",
-        "entity_id": "Q1325905"
     },
     {
         "query_id": "176_848",
@@ -4255,29 +3145,9 @@
         "entity_id": "Q595910"
     },
     {
-        "query_id": "176_852",
-        "wiki_title": "HMAS Tongkol",
-        "entity_id": "Q5630620"
-    },
-    {
-        "query_id": "176_853",
-        "wiki_title": "HMS Wasp (1880)",
-        "entity_id": "Q5634912"
-    },
-    {
-        "query_id": "176_854",
-        "wiki_title": "MV Queen of the Oceans",
-        "entity_id": "Q762432"
-    },
-    {
         "query_id": "176_855",
         "wiki_title": "Suzuki TL1000R",
         "entity_id": "Q7651344"
-    },
-    {
-        "query_id": "176_856",
-        "wiki_title": "Curtiss YA-10 Shrike",
-        "entity_id": "Q3007850"
     },
     {
         "query_id": "176_857",
@@ -4305,16 +3175,6 @@
         "entity_id": "Q603079"
     },
     {
-        "query_id": "176_862",
-        "wiki_title": "INS Amba (A54)",
-        "entity_id": "Q5972467"
-    },
-    {
-        "query_id": "176_863",
-        "wiki_title": "Alfa Romeo Dardo",
-        "entity_id": "Q2032829"
-    },
-    {
         "query_id": "176_864",
         "wiki_title": "Zenair CH 100",
         "entity_id": "Q8068999"
@@ -4323,16 +3183,6 @@
         "query_id": "176_865",
         "wiki_title": "Windows 8",
         "entity_id": "Q5046"
-    },
-    {
-        "query_id": "176_866",
-        "wiki_title": "Panasonic Toot-a-Loop Radio",
-        "entity_id": "Q7130109"
-    },
-    {
-        "query_id": "176_867",
-        "wiki_title": "SM UB-17",
-        "entity_id": "Q7391625"
     },
     {
         "query_id": "176_868",
@@ -4348,16 +3198,6 @@
         "query_id": "176_870",
         "wiki_title": "Sigma DP2",
         "entity_id": "Q7512297"
-    },
-    {
-        "query_id": "176_871",
-        "wiki_title": "Chesapeake and Ohio classes L-2 and L-2-A",
-        "entity_id": "Q5092892"
-    },
-    {
-        "query_id": "176_872",
-        "wiki_title": "Sri Lanka Railways M8",
-        "entity_id": "Q7585954"
     },
     {
         "query_id": "176_873",
@@ -4415,16 +3255,6 @@
         "entity_id": "Q5634191"
     },
     {
-        "query_id": "176_884",
-        "wiki_title": "HMS Loch Arkaig (K603)",
-        "entity_id": "Q5633160"
-    },
-    {
-        "query_id": "176_885",
-        "wiki_title": "Suave (brand)",
-        "entity_id": "Q7630537"
-    },
-    {
         "query_id": "176_886",
         "wiki_title": "SECR N class",
         "entity_id": "Q7389609"
@@ -4433,11 +3263,6 @@
         "query_id": "176_887",
         "wiki_title": "Electone",
         "entity_id": "Q1037667"
-    },
-    {
-        "query_id": "176_888",
-        "wiki_title": "Milwaukee Road class EF-1",
-        "entity_id": "Q1881509"
     },
     {
         "query_id": "176_889",
@@ -4455,11 +3280,6 @@
         "entity_id": "Q4918201"
     },
     {
-        "query_id": "176_892",
-        "wiki_title": "Indian locomotive class XA",
-        "entity_id": "Q17091670"
-    },
-    {
         "query_id": "176_893",
         "wiki_title": "ALCO 251",
         "entity_id": "Q4652261"
@@ -4468,11 +3288,6 @@
         "query_id": "176_894",
         "wiki_title": "Isuzu Trooper",
         "entity_id": "Q689192"
-    },
-    {
-        "query_id": "176_895",
-        "wiki_title": "New South Wales Z17 class locomotive",
-        "entity_id": "Q7011815"
     },
     {
         "query_id": "176_896",
@@ -4520,29 +3335,14 @@
         "entity_id": "Q5892540"
     },
     {
-        "query_id": "176_905",
-        "wiki_title": "Rio Grande 168",
-        "entity_id": "Q5203022"
-    },
-    {
         "query_id": "176_906",
         "wiki_title": "HMS Wild Swan (D62)",
         "entity_id": "Q5634974"
     },
     {
-        "query_id": "176_907",
-        "wiki_title": "HMS Gladiolus (K34)",
-        "entity_id": "Q5632569"
-    },
-    {
         "query_id": "176_908",
         "wiki_title": "Norinco HP9-1",
         "entity_id": "Q7051306"
-    },
-    {
-        "query_id": "176_909",
-        "wiki_title": "HP PhotoSmart R607",
-        "entity_id": "Q5635722"
     },
     {
         "query_id": "176_910",
@@ -4565,29 +3365,9 @@
         "entity_id": "Q5513989"
     },
     {
-        "query_id": "176_914",
-        "wiki_title": "Parker-Hale M85",
-        "entity_id": "Q2468770"
-    },
-    {
-        "query_id": "176_915",
-        "wiki_title": "ORP Sok\u00f3\u0142 (2002)",
-        "entity_id": "Q4352838"
-    },
-    {
         "query_id": "176_916",
         "wiki_title": "Cadillac STS",
         "entity_id": "Q856935"
-    },
-    {
-        "query_id": "176_917",
-        "wiki_title": "Spanish submarine Peral",
-        "entity_id": "Q2344269"
-    },
-    {
-        "query_id": "176_918",
-        "wiki_title": "BMW 6 Series (F12)",
-        "entity_id": "Q796478"
     },
     {
         "query_id": "176_919",
@@ -4610,11 +3390,6 @@
         "entity_id": "Q2094974"
     },
     {
-        "query_id": "176_923",
-        "wiki_title": "Opel 10/30 (10/35) PS",
-        "entity_id": "Q1318430"
-    },
-    {
         "query_id": "176_924",
         "wiki_title": "Toyota Corolla (E80)",
         "entity_id": "Q3536061"
@@ -4630,11 +3405,6 @@
         "entity_id": "Q1273407"
     },
     {
-        "query_id": "176_927",
-        "wiki_title": "Douglas XT3D",
-        "entity_id": "Q5302136"
-    },
-    {
         "query_id": "176_928",
         "wiki_title": "British Rail Class 307",
         "entity_id": "Q849799"
@@ -4645,19 +3415,9 @@
         "entity_id": "Q1120643"
     },
     {
-        "query_id": "176_930",
-        "wiki_title": "HMS Scorcher",
-        "entity_id": "Q1565321"
-    },
-    {
         "query_id": "176_931",
         "wiki_title": "Oldsmobile Starfire",
         "entity_id": "Q597457"
-    },
-    {
-        "query_id": "176_932",
-        "wiki_title": "Smith & Wesson Model 500",
-        "entity_id": "Q1855318"
     },
     {
         "query_id": "176_933",
@@ -4715,11 +3475,6 @@
         "entity_id": "Q7651363"
     },
     {
-        "query_id": "176_944",
-        "wiki_title": "Honda CLR",
-        "entity_id": "Q1626542"
-    },
-    {
         "query_id": "176_945",
         "wiki_title": "Aviatik B.III",
         "entity_id": "Q4828609"
@@ -4745,11 +3500,6 @@
         "entity_id": "Q5631462"
     },
     {
-        "query_id": "176_950",
-        "wiki_title": "MSC Monterey",
-        "entity_id": "Q6717735"
-    },
-    {
         "query_id": "176_951",
         "wiki_title": "FM H-10-44",
         "entity_id": "Q5426714"
@@ -4758,11 +3508,6 @@
         "query_id": "176_952",
         "wiki_title": "Ikarus 280",
         "entity_id": "Q1076730"
-    },
-    {
-        "query_id": "176_953",
-        "wiki_title": "Fiat 1",
-        "entity_id": "Q2576425"
     },
     {
         "query_id": "176_954",
@@ -4780,11 +3525,6 @@
         "entity_id": "Q2624507"
     },
     {
-        "query_id": "176_957",
-        "wiki_title": "Dodge Demon (concept car)",
-        "entity_id": "Q3033656"
-    },
-    {
         "query_id": "176_958",
         "wiki_title": "Chilean cruiser Esmeralda (1883)",
         "entity_id": "Q152083"
@@ -4798,11 +3538,6 @@
         "query_id": "176_960",
         "wiki_title": "Renault KZ",
         "entity_id": "Q1100585"
-    },
-    {
-        "query_id": "176_961",
-        "wiki_title": "Bofors 15,2 cm kanon m/42",
-        "entity_id": "Q4937293"
     },
     {
         "query_id": "176_962",
@@ -4835,11 +3570,6 @@
         "entity_id": "Q4970888"
     },
     {
-        "query_id": "176_968",
-        "wiki_title": "Nissan Bevel",
-        "entity_id": "Q834278"
-    },
-    {
         "query_id": "176_969",
         "wiki_title": "Sovereign-class cruise ship",
         "entity_id": "Q2975992"
@@ -4865,11 +3595,6 @@
         "entity_id": "Q186894"
     },
     {
-        "query_id": "176_974",
-        "wiki_title": "HSC Speedrunner Jet",
-        "entity_id": "Q11679490"
-    },
-    {
         "query_id": "176_975",
         "wiki_title": "Alfa Romeo 2300",
         "entity_id": "Q2834751"
@@ -4878,11 +3603,6 @@
         "query_id": "176_976",
         "wiki_title": "Iveco EuroClass",
         "entity_id": "Q3156283"
-    },
-    {
-        "query_id": "176_977",
-        "wiki_title": "USS Wabash (AOR-5)",
-        "entity_id": "Q7875181"
     },
     {
         "query_id": "176_978",
@@ -4905,11 +3625,6 @@
         "entity_id": "Q1334020"
     },
     {
-        "query_id": "176_982",
-        "wiki_title": "German submarine U-760",
-        "entity_id": "Q5551814"
-    },
-    {
         "query_id": "176_983",
         "wiki_title": "Opel Admiral",
         "entity_id": "Q657450"
@@ -4928,11 +3643,6 @@
         "query_id": "176_986",
         "wiki_title": "Paddy Whiskey",
         "entity_id": "Q2508768"
-    },
-    {
-        "query_id": "176_987",
-        "wiki_title": "British Rail Classes 101 and 102",
-        "entity_id": "Q4970698"
     },
     {
         "query_id": "176_988",
@@ -4975,23 +3685,8 @@
         "entity_id": "Q17104300"
     },
     {
-        "query_id": "176_996",
-        "wiki_title": "Heckler & Koch P9",
-        "entity_id": "Q2317131"
-    },
-    {
-        "query_id": "176_997",
-        "wiki_title": "Peugeot Type 66",
-        "entity_id": "Q2081707"
-    },
-    {
         "query_id": "176_998",
         "wiki_title": "SEPECAT Jaguar",
         "entity_id": "Q223237"
-    },
-    {
-        "query_id": "176_999",
-        "wiki_title": "MV Akademik Karpinsky",
-        "entity_id": "Q6719210"
     }
 ]

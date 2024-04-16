@@ -1,19 +1,11 @@
 [
     {
-        "query_id": "20_0",
-        "question": "Where did Yuri Krylov die?",
-        "answers": [
-            "Moscow"
-        ],
-        "pageviews": 1549
-    },
-    {
         "query_id": "20_1",
         "question": "Where did Mih\u00e1ly Sz\u00e9kely die?",
         "answers": [
             "Budapest"
         ],
-        "pageviews": 1610
+        "pageviews": 3
     },
     {
         "query_id": "20_2",
@@ -21,15 +13,7 @@
         "answers": [
             "Bitola"
         ],
-        "pageviews": 1792
-    },
-    {
-        "query_id": "20_3",
-        "question": "Where did \u00c9douard de Verneuil die?",
-        "answers": [
-            "Paris"
-        ],
-        "pageviews": 1796
+        "pageviews": 6
     },
     {
         "query_id": "20_4",
@@ -37,7 +21,7 @@
         "answers": [
             "Buchenwald concentration camp"
         ],
-        "pageviews": 2549
+        "pageviews": 4
     },
     {
         "query_id": "20_5",
@@ -45,7 +29,7 @@
         "answers": [
             "Dumbarton"
         ],
-        "pageviews": 2331
+        "pageviews": 8
     },
     {
         "query_id": "20_6",
@@ -53,7 +37,7 @@
         "answers": [
             "Naples"
         ],
-        "pageviews": 50882
+        "pageviews": 326
     },
     {
         "query_id": "20_7",
@@ -61,7 +45,7 @@
         "answers": [
             "Buenos Aires"
         ],
-        "pageviews": 2609
+        "pageviews": 4
     },
     {
         "query_id": "20_8",
@@ -69,7 +53,7 @@
         "answers": [
             "Ashanti Empire"
         ],
-        "pageviews": 5850
+        "pageviews": 5
     },
     {
         "query_id": "20_9",
@@ -77,7 +61,7 @@
         "answers": [
             "Baltimore"
         ],
-        "pageviews": 2306
+        "pageviews": 3
     },
     {
         "query_id": "20_10",
@@ -85,15 +69,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 13596
-    },
-    {
-        "query_id": "20_11",
-        "question": "Where did Paragu die?",
-        "answers": [
-            "Yangon"
-        ],
-        "pageviews": 1288
+        "pageviews": 5
     },
     {
         "query_id": "20_12",
@@ -101,7 +77,7 @@
         "answers": [
             "Amersfoort"
         ],
-        "pageviews": 11242
+        "pageviews": 1
     },
     {
         "query_id": "20_13",
@@ -109,7 +85,7 @@
         "answers": [
             "Constantinople"
         ],
-        "pageviews": 26342
+        "pageviews": 13
     },
     {
         "query_id": "20_14",
@@ -117,7 +93,7 @@
         "answers": [
             "Lake Oswego"
         ],
-        "pageviews": 6439
+        "pageviews": 5
     },
     {
         "query_id": "20_15",
@@ -125,7 +101,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 1590
+        "pageviews": 4
     },
     {
         "query_id": "20_16",
@@ -133,7 +109,7 @@
         "answers": [
             "Tokyo"
         ],
-        "pageviews": 9955
+        "pageviews": 30
     },
     {
         "query_id": "20_17",
@@ -141,7 +117,7 @@
         "answers": [
             "Nottingham"
         ],
-        "pageviews": 1278
+        "pageviews": 1
     },
     {
         "query_id": "20_18",
@@ -149,7 +125,7 @@
         "answers": [
             "Kingdom of Northumbria"
         ],
-        "pageviews": 17111
+        "pageviews": 26
     },
     {
         "query_id": "20_19",
@@ -157,7 +133,7 @@
         "answers": [
             "Greater Sudbury"
         ],
-        "pageviews": 2247
+        "pageviews": 8
     },
     {
         "query_id": "20_20",
@@ -165,31 +141,7 @@
         "answers": [
             "Annaberg-Buchholz"
         ],
-        "pageviews": 483
-    },
-    {
-        "query_id": "20_21",
-        "question": "Where did Martin A. Foran die?",
-        "answers": [
-            "Cleveland"
-        ],
-        "pageviews": 1995
-    },
-    {
-        "query_id": "20_22",
-        "question": "Where did Tilly Armstrong die?",
-        "answers": [
-            "Carshalton"
-        ],
-        "pageviews": 1501
-    },
-    {
-        "query_id": "20_23",
-        "question": "Where did Tom Kane die?",
-        "answers": [
-            "Chicago"
-        ],
-        "pageviews": 655
+        "pageviews": 1
     },
     {
         "query_id": "20_24",
@@ -197,7 +149,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 10837
+        "pageviews": 35
     },
     {
         "query_id": "20_25",
@@ -205,7 +157,7 @@
         "answers": [
             "Gingin"
         ],
-        "pageviews": 1036
+        "pageviews": 2
     },
     {
         "query_id": "20_26",
@@ -213,7 +165,7 @@
         "answers": [
             "Geneva"
         ],
-        "pageviews": 1895
+        "pageviews": 6
     },
     {
         "query_id": "20_27",
@@ -221,7 +173,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 2563
+        "pageviews": 9
     },
     {
         "query_id": "20_28",
@@ -229,7 +181,7 @@
         "answers": [
             "Venice"
         ],
-        "pageviews": 20474
+        "pageviews": 77
     },
     {
         "query_id": "20_29",
@@ -237,7 +189,7 @@
         "answers": [
             "Carcassonne"
         ],
-        "pageviews": 1442
+        "pageviews": 6
     },
     {
         "query_id": "20_30",
@@ -245,7 +197,7 @@
         "answers": [
             "Bremen"
         ],
-        "pageviews": 3875
+        "pageviews": 2
     },
     {
         "query_id": "20_31",
@@ -253,7 +205,7 @@
         "answers": [
             "San Francisco"
         ],
-        "pageviews": 1843
+        "pageviews": 1
     },
     {
         "query_id": "20_32",
@@ -261,7 +213,7 @@
         "answers": [
             "Greenville"
         ],
-        "pageviews": 1924
+        "pageviews": 2
     },
     {
         "query_id": "20_33",
@@ -269,7 +221,7 @@
         "answers": [
             "Oregon"
         ],
-        "pageviews": 972
+        "pageviews": 1
     },
     {
         "query_id": "20_34",
@@ -277,15 +229,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 1748
-    },
-    {
-        "query_id": "20_35",
-        "question": "Where did Emil Benecke die?",
-        "answers": [
-            "Riga"
-        ],
-        "pageviews": 952
+        "pageviews": 2
     },
     {
         "query_id": "20_36",
@@ -293,7 +237,7 @@
         "answers": [
             "Graz"
         ],
-        "pageviews": 1301
+        "pageviews": 6
     },
     {
         "query_id": "20_37",
@@ -301,7 +245,7 @@
         "answers": [
             "California"
         ],
-        "pageviews": 26666
+        "pageviews": 20
     },
     {
         "query_id": "20_38",
@@ -309,7 +253,7 @@
         "answers": [
             "Badenweiler"
         ],
-        "pageviews": 7420
+        "pageviews": 7
     },
     {
         "query_id": "20_39",
@@ -317,7 +261,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 6938
+        "pageviews": 7
     },
     {
         "query_id": "20_40",
@@ -325,7 +269,7 @@
         "answers": [
             "Rio de Janeiro"
         ],
-        "pageviews": 1965
+        "pageviews": 2
     },
     {
         "query_id": "20_41",
@@ -333,7 +277,7 @@
         "answers": [
             "Karlsruhe"
         ],
-        "pageviews": 879
+        "pageviews": 3
     },
     {
         "query_id": "20_42",
@@ -341,7 +285,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 10199
+        "pageviews": 7
     },
     {
         "query_id": "20_43",
@@ -349,15 +293,7 @@
         "answers": [
             "Nairobi"
         ],
-        "pageviews": 62982
-    },
-    {
-        "query_id": "20_44",
-        "question": "Where did Ravi die?",
-        "answers": [
-            "Mumbai"
-        ],
-        "pageviews": 40560
+        "pageviews": 71
     },
     {
         "query_id": "20_45",
@@ -365,7 +301,7 @@
         "answers": [
             "Vienna"
         ],
-        "pageviews": 2915
+        "pageviews": 6
     },
     {
         "query_id": "20_46",
@@ -373,7 +309,7 @@
         "answers": [
             "Honolulu"
         ],
-        "pageviews": 8890
+        "pageviews": 13
     },
     {
         "query_id": "20_47",
@@ -381,7 +317,7 @@
         "answers": [
             "Chemnitz"
         ],
-        "pageviews": 4344
+        "pageviews": 7
     },
     {
         "query_id": "20_48",
@@ -389,7 +325,7 @@
         "answers": [
             "Amberley"
         ],
-        "pageviews": 1903
+        "pageviews": 6
     },
     {
         "query_id": "20_49",
@@ -397,7 +333,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 104158
+        "pageviews": 42
     },
     {
         "query_id": "20_50",
@@ -405,7 +341,7 @@
         "answers": [
             "France"
         ],
-        "pageviews": 7258
+        "pageviews": 12
     },
     {
         "query_id": "20_51",
@@ -413,7 +349,7 @@
         "answers": [
             "Verona"
         ],
-        "pageviews": 2902
+        "pageviews": 3
     },
     {
         "query_id": "20_52",
@@ -421,15 +357,7 @@
         "answers": [
             "Sainte-Foy-la-Grande"
         ],
-        "pageviews": 9406
-    },
-    {
-        "query_id": "20_53",
-        "question": "Where did John Brock die?",
-        "answers": [
-            "Clayton"
-        ],
-        "pageviews": 952
+        "pageviews": 5
     },
     {
         "query_id": "20_54",
@@ -437,7 +365,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 4120
+        "pageviews": 14
     },
     {
         "query_id": "20_55",
@@ -445,7 +373,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 1919
+        "pageviews": 13
     },
     {
         "query_id": "20_56",
@@ -453,7 +381,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 2072
+        "pageviews": 7
     },
     {
         "query_id": "20_57",
@@ -461,7 +389,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 16034
+        "pageviews": 14
     },
     {
         "query_id": "20_58",
@@ -469,7 +397,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 415276
+        "pageviews": 221
     },
     {
         "query_id": "20_59",
@@ -477,7 +405,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2031
+        "pageviews": 11
     },
     {
         "query_id": "20_60",
@@ -485,15 +413,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2006
-    },
-    {
-        "query_id": "20_61",
-        "question": "Where did Luis Antonio Escobar die?",
-        "answers": [
-            "Miami"
-        ],
-        "pageviews": 914
+        "pageviews": 1
     },
     {
         "query_id": "20_62",
@@ -501,7 +421,7 @@
         "answers": [
             "Birgu"
         ],
-        "pageviews": 2676
+        "pageviews": 29
     },
     {
         "query_id": "20_63",
@@ -509,7 +429,7 @@
         "answers": [
             "Brooklyn"
         ],
-        "pageviews": 86287
+        "pageviews": 119
     },
     {
         "query_id": "20_64",
@@ -517,15 +437,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 4568
-    },
-    {
-        "query_id": "20_65",
-        "question": "Where did Arthur St. Claire die?",
-        "answers": [
-            "Los Angeles"
-        ],
-        "pageviews": 833
+        "pageviews": 37
     },
     {
         "query_id": "20_66",
@@ -533,7 +445,7 @@
         "answers": [
             "Murray"
         ],
-        "pageviews": 528
+        "pageviews": 1
     },
     {
         "query_id": "20_67",
@@ -541,7 +453,7 @@
         "answers": [
             "Amsterdam"
         ],
-        "pageviews": 15960
+        "pageviews": 82
     },
     {
         "query_id": "20_68",
@@ -549,15 +461,7 @@
         "answers": [
             "Saint Petersburg"
         ],
-        "pageviews": 3154
-    },
-    {
-        "query_id": "20_69",
-        "question": "Where did Landgravine Maria Eleonore of Hesse-Rotenburg die?",
-        "answers": [
-            "Sulzbach-Rosenberg"
-        ],
-        "pageviews": 1570
+        "pageviews": 6
     },
     {
         "query_id": "20_70",
@@ -565,7 +469,7 @@
         "answers": [
             "Athens"
         ],
-        "pageviews": 116784
+        "pageviews": 79
     },
     {
         "query_id": "20_71",
@@ -573,7 +477,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 3725
+        "pageviews": 3
     },
     {
         "query_id": "20_72",
@@ -581,7 +485,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 2991
+        "pageviews": 9
     },
     {
         "query_id": "20_73",
@@ -589,15 +493,7 @@
         "answers": [
             "Washington, D.C."
         ],
-        "pageviews": 11864
-    },
-    {
-        "query_id": "20_74",
-        "question": "Where did Gerard Carbonara die?",
-        "answers": [
-            "Sherman Oaks"
-        ],
-        "pageviews": 1981
+        "pageviews": 8
     },
     {
         "query_id": "20_75",
@@ -605,7 +501,7 @@
         "answers": [
             "Milan"
         ],
-        "pageviews": 16486
+        "pageviews": 7
     },
     {
         "query_id": "20_76",
@@ -613,7 +509,7 @@
         "answers": [
             "Pittsburgh"
         ],
-        "pageviews": 1646
+        "pageviews": 1
     },
     {
         "query_id": "20_77",
@@ -621,7 +517,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 2183
+        "pageviews": 11
     },
     {
         "query_id": "20_78",
@@ -629,15 +525,7 @@
         "answers": [
             "Kew"
         ],
-        "pageviews": 1491878
-    },
-    {
-        "query_id": "20_79",
-        "question": "Where did Squanto Wilson die?",
-        "answers": [
-            "Winthrop"
-        ],
-        "pageviews": 1177
+        "pageviews": 314
     },
     {
         "query_id": "20_80",
@@ -645,7 +533,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 1627
+        "pageviews": 2
     },
     {
         "query_id": "20_81",
@@ -653,15 +541,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 5022
-    },
-    {
-        "query_id": "20_82",
-        "question": "Where did Benjamin E. Grey die?",
-        "answers": [
-            "Selma"
-        ],
-        "pageviews": 986
+        "pageviews": 39
     },
     {
         "query_id": "20_83",
@@ -669,23 +549,7 @@
         "answers": [
             "Vienna"
         ],
-        "pageviews": 656
-    },
-    {
-        "query_id": "20_84",
-        "question": "Where did Lajos Magyar die?",
-        "answers": [
-            "Moscow"
-        ],
-        "pageviews": 1698
-    },
-    {
-        "query_id": "20_85",
-        "question": "Where did Charles A. Kading die?",
-        "answers": [
-            "Watertown"
-        ],
-        "pageviews": 1374
+        "pageviews": 2
     },
     {
         "query_id": "20_86",
@@ -693,15 +557,7 @@
         "answers": [
             "Szeged"
         ],
-        "pageviews": 1903
-    },
-    {
-        "query_id": "20_87",
-        "question": "Where did Victor Wong die?",
-        "answers": [
-            "Los Angeles"
-        ],
-        "pageviews": 4935
+        "pageviews": 1
     },
     {
         "query_id": "20_88",
@@ -709,15 +565,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 1144
-    },
-    {
-        "query_id": "20_89",
-        "question": "Where did Luigi Rosa die?",
-        "answers": [
-            "Rome"
-        ],
-        "pageviews": 686
+        "pageviews": 14
     },
     {
         "query_id": "20_90",
@@ -725,23 +573,7 @@
         "answers": [
             "San Francisco"
         ],
-        "pageviews": 1234
-    },
-    {
-        "query_id": "20_91",
-        "question": "Where did Michel Carlini die?",
-        "answers": [
-            "Marseille"
-        ],
-        "pageviews": 1134
-    },
-    {
-        "query_id": "20_92",
-        "question": "Where did Aleixo de Abreu die?",
-        "answers": [
-            "Lisbon"
-        ],
-        "pageviews": 923
+        "pageviews": 1
     },
     {
         "query_id": "20_93",
@@ -749,7 +581,7 @@
         "answers": [
             "Greifswald"
         ],
-        "pageviews": 1406
+        "pageviews": 1
     },
     {
         "query_id": "20_94",
@@ -757,15 +589,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2394
-    },
-    {
-        "query_id": "20_95",
-        "question": "Where did Foster Edwards die?",
-        "answers": [
-            "Orleans"
-        ],
-        "pageviews": 1025
+        "pageviews": 3
     },
     {
         "query_id": "20_96",
@@ -773,15 +597,7 @@
         "answers": [
             "Dresden"
         ],
-        "pageviews": 9605
-    },
-    {
-        "query_id": "20_97",
-        "question": "Where did Jack Albright die?",
-        "answers": [
-            "San Diego"
-        ],
-        "pageviews": 1900
+        "pageviews": 28
     },
     {
         "query_id": "20_98",
@@ -789,15 +605,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2417
-    },
-    {
-        "query_id": "20_99",
-        "question": "Where did Angelo Bendinelli die?",
-        "answers": [
-            "Livorno"
-        ],
-        "pageviews": 781
+        "pageviews": 5
     },
     {
         "query_id": "20_100",
@@ -805,7 +613,7 @@
         "answers": [
             "Cannes"
         ],
-        "pageviews": 734
+        "pageviews": 1
     },
     {
         "query_id": "20_101",
@@ -813,7 +621,7 @@
         "answers": [
             "Kolkata"
         ],
-        "pageviews": 20507
+        "pageviews": 18
     },
     {
         "query_id": "20_102",
@@ -821,7 +629,7 @@
         "answers": [
             "Fawley Bottom"
         ],
-        "pageviews": 5517
+        "pageviews": 17
     },
     {
         "query_id": "20_103",
@@ -829,15 +637,7 @@
         "answers": [
             "Valognes"
         ],
-        "pageviews": 1505
-    },
-    {
-        "query_id": "20_104",
-        "question": "Where did Gunnar \u00c5str\u00f6m die?",
-        "answers": [
-            "Finland"
-        ],
-        "pageviews": 931
+        "pageviews": 4
     },
     {
         "query_id": "20_105",
@@ -845,15 +645,7 @@
         "answers": [
             "Bowral"
         ],
-        "pageviews": 7237
-    },
-    {
-        "query_id": "20_106",
-        "question": "Where did Lacuzon die?",
-        "answers": [
-            "Milan"
-        ],
-        "pageviews": 1193
+        "pageviews": 5
     },
     {
         "query_id": "20_107",
@@ -861,7 +653,7 @@
         "answers": [
             "Helena"
         ],
-        "pageviews": 950
+        "pageviews": 1
     },
     {
         "query_id": "20_108",
@@ -869,7 +661,7 @@
         "answers": [
             "Fontenay-aux-Roses"
         ],
-        "pageviews": 14468
+        "pageviews": 16
     },
     {
         "query_id": "20_109",
@@ -877,7 +669,7 @@
         "answers": [
             "Copenhagen"
         ],
-        "pageviews": 4970
+        "pageviews": 27
     },
     {
         "query_id": "20_110",
@@ -885,7 +677,7 @@
         "answers": [
             "Sochi"
         ],
-        "pageviews": 1770
+        "pageviews": 2
     },
     {
         "query_id": "20_111",
@@ -893,7 +685,7 @@
         "answers": [
             "Barcelona"
         ],
-        "pageviews": 981
+        "pageviews": 1
     },
     {
         "query_id": "20_112",
@@ -901,7 +693,7 @@
         "answers": [
             "Jerusalem"
         ],
-        "pageviews": 3612
+        "pageviews": 4
     },
     {
         "query_id": "20_113",
@@ -909,7 +701,7 @@
         "answers": [
             "Kochi"
         ],
-        "pageviews": 8042
+        "pageviews": 42
     },
     {
         "query_id": "20_114",
@@ -917,7 +709,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 191301
+        "pageviews": 36
     },
     {
         "query_id": "20_115",
@@ -925,15 +717,7 @@
         "answers": [
             "New Haven"
         ],
-        "pageviews": 2147
-    },
-    {
-        "query_id": "20_116",
-        "question": "Where did Murdock MacKinnon die?",
-        "answers": [
-            "Charlottetown"
-        ],
-        "pageviews": 841
+        "pageviews": 5
     },
     {
         "query_id": "20_117",
@@ -941,7 +725,7 @@
         "answers": [
             "Pennsauken Township"
         ],
-        "pageviews": 938
+        "pageviews": 1
     },
     {
         "query_id": "20_118",
@@ -949,7 +733,7 @@
         "answers": [
             "Buenos Aires"
         ],
-        "pageviews": 539
+        "pageviews": 3
     },
     {
         "query_id": "20_119",
@@ -957,7 +741,7 @@
         "answers": [
             "The Tower House"
         ],
-        "pageviews": 49850
+        "pageviews": 163
     },
     {
         "query_id": "20_120",
@@ -965,7 +749,7 @@
         "answers": [
             "Marburg"
         ],
-        "pageviews": 1314
+        "pageviews": 7
     },
     {
         "query_id": "20_121",
@@ -973,7 +757,7 @@
         "answers": [
             "Salem"
         ],
-        "pageviews": 1366
+        "pageviews": 1
     },
     {
         "query_id": "20_122",
@@ -981,7 +765,7 @@
         "answers": [
             "Kirchheim in Schwaben"
         ],
-        "pageviews": 2603
+        "pageviews": 8
     },
     {
         "query_id": "20_123",
@@ -989,7 +773,7 @@
         "answers": [
             "Mexico City"
         ],
-        "pageviews": 2961
+        "pageviews": 7
     },
     {
         "query_id": "20_124",
@@ -997,7 +781,7 @@
         "answers": [
             "Tartu"
         ],
-        "pageviews": 1604
+        "pageviews": 6
     },
     {
         "query_id": "20_125",
@@ -1005,15 +789,7 @@
         "answers": [
             "Farmington"
         ],
-        "pageviews": 969
-    },
-    {
-        "query_id": "20_126",
-        "question": "Where did Mehmet At\u0131f Ate\u015fda\u011fl\u0131 die?",
-        "answers": [
-            "Istanbul"
-        ],
-        "pageviews": 1530
+        "pageviews": 4
     },
     {
         "query_id": "20_127",
@@ -1021,7 +797,7 @@
         "answers": [
             "Amityville"
         ],
-        "pageviews": 4784
+        "pageviews": 18
     },
     {
         "query_id": "20_128",
@@ -1029,7 +805,7 @@
         "answers": [
             "Astrakhan"
         ],
-        "pageviews": 1801
+        "pageviews": 3
     },
     {
         "query_id": "20_129",
@@ -1037,7 +813,7 @@
         "answers": [
             "San Salvador"
         ],
-        "pageviews": 3526
+        "pageviews": 8
     },
     {
         "query_id": "20_130",
@@ -1045,7 +821,7 @@
         "answers": [
             "Ukerewe Island"
         ],
-        "pageviews": 1679
+        "pageviews": 2
     },
     {
         "query_id": "20_131",
@@ -1053,7 +829,7 @@
         "answers": [
             "Quebec"
         ],
-        "pageviews": 797
+        "pageviews": 4
     },
     {
         "query_id": "20_132",
@@ -1061,7 +837,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 9803
+        "pageviews": 6
     },
     {
         "query_id": "20_133",
@@ -1069,15 +845,7 @@
         "answers": [
             "Everett"
         ],
-        "pageviews": 2898
-    },
-    {
-        "query_id": "20_134",
-        "question": "Where did Boris Shelkovnikov die?",
-        "answers": [
-            "Erzurum"
-        ],
-        "pageviews": 673
+        "pageviews": 2
     },
     {
         "query_id": "20_135",
@@ -1085,7 +853,7 @@
         "answers": [
             "Cochinchina"
         ],
-        "pageviews": 7190
+        "pageviews": 2
     },
     {
         "query_id": "20_136",
@@ -1093,15 +861,7 @@
         "answers": [
             "Spain"
         ],
-        "pageviews": 4771
-    },
-    {
-        "query_id": "20_137",
-        "question": "Where did Koos de Jong die?",
-        "answers": [
-            "Capelle aan den IJssel"
-        ],
-        "pageviews": 1039
+        "pageviews": 14
     },
     {
         "query_id": "20_138",
@@ -1109,7 +869,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 4241
+        "pageviews": 2
     },
     {
         "query_id": "20_139",
@@ -1117,7 +877,7 @@
         "answers": [
             "Houston"
         ],
-        "pageviews": 6939
+        "pageviews": 2
     },
     {
         "query_id": "20_140",
@@ -1125,7 +885,7 @@
         "answers": [
             "Brunswick"
         ],
-        "pageviews": 5716
+        "pageviews": 14
     },
     {
         "query_id": "20_141",
@@ -1133,7 +893,7 @@
         "answers": [
             "Hanover"
         ],
-        "pageviews": 6698
+        "pageviews": 5
     },
     {
         "query_id": "20_142",
@@ -1141,7 +901,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 4455
+        "pageviews": 6
     },
     {
         "query_id": "20_143",
@@ -1149,7 +909,7 @@
         "answers": [
             "Trappeto"
         ],
-        "pageviews": 8457
+        "pageviews": 14
     },
     {
         "query_id": "20_144",
@@ -1157,23 +917,7 @@
         "answers": [
             "Big Piney"
         ],
-        "pageviews": 60684
-    },
-    {
-        "query_id": "20_145",
-        "question": "Where did Joe Koukalik die?",
-        "answers": [
-            "Chicago"
-        ],
-        "pageviews": 1270
-    },
-    {
-        "query_id": "20_146",
-        "question": "Where did Gerry Wolff die?",
-        "answers": [
-            "Oranienburg"
-        ],
-        "pageviews": 1383
+        "pageviews": 8
     },
     {
         "query_id": "20_147",
@@ -1181,15 +925,7 @@
         "answers": [
             "Augsburg"
         ],
-        "pageviews": 9423
-    },
-    {
-        "query_id": "20_148",
-        "question": "Where did Sultan Zainal Rashid Mu'adzam Shah II die?",
-        "answers": [
-            "Nakhon Si Thammarat"
-        ],
-        "pageviews": 3761
+        "pageviews": 16
     },
     {
         "query_id": "20_149",
@@ -1197,7 +933,7 @@
         "answers": [
             "Madrid"
         ],
-        "pageviews": 2253
+        "pageviews": 1
     },
     {
         "query_id": "20_150",
@@ -1205,7 +941,7 @@
         "answers": [
             "Lisbon"
         ],
-        "pageviews": 2715
+        "pageviews": 4
     },
     {
         "query_id": "20_151",
@@ -1213,7 +949,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 853
+        "pageviews": 1
     },
     {
         "query_id": "20_152",
@@ -1221,7 +957,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 1152
+        "pageviews": 5
     },
     {
         "query_id": "20_153",
@@ -1229,31 +965,7 @@
         "answers": [
             "Patras"
         ],
-        "pageviews": 1113
-    },
-    {
-        "query_id": "20_154",
-        "question": "Where did Karl August Ramsay die?",
-        "answers": [
-            "Helsinki"
-        ],
-        "pageviews": 403
-    },
-    {
-        "query_id": "20_155",
-        "question": "Where did Alex Taylor die?",
-        "answers": [
-            "Edmonton"
-        ],
-        "pageviews": 1338
-    },
-    {
-        "query_id": "20_156",
-        "question": "Where did Ed Wolfe die?",
-        "answers": [
-            "Modesto"
-        ],
-        "pageviews": 789
+        "pageviews": 1
     },
     {
         "query_id": "20_157",
@@ -1261,31 +973,7 @@
         "answers": [
             "Chiswick"
         ],
-        "pageviews": 3828
-    },
-    {
-        "query_id": "20_158",
-        "question": "Where did Dudley Milligan die?",
-        "answers": [
-            "South Africa"
-        ],
-        "pageviews": 596
-    },
-    {
-        "query_id": "20_159",
-        "question": "Where did Otto Weber die?",
-        "answers": [
-            "Bucharest"
-        ],
-        "pageviews": 676
-    },
-    {
-        "query_id": "20_160",
-        "question": "Where did Henry Harben die?",
-        "answers": [
-            "Malta"
-        ],
-        "pageviews": 800
+        "pageviews": 8
     },
     {
         "query_id": "20_161",
@@ -1293,7 +981,7 @@
         "answers": [
             "Saint Petersburg"
         ],
-        "pageviews": 1965
+        "pageviews": 5
     },
     {
         "query_id": "20_162",
@@ -1301,7 +989,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 7657
+        "pageviews": 11
     },
     {
         "query_id": "20_163",
@@ -1309,7 +997,7 @@
         "answers": [
             "Havana"
         ],
-        "pageviews": 2618
+        "pageviews": 3
     },
     {
         "query_id": "20_164",
@@ -1317,7 +1005,7 @@
         "answers": [
             "Greenwich"
         ],
-        "pageviews": 1976
+        "pageviews": 14
     },
     {
         "query_id": "20_165",
@@ -1325,7 +1013,7 @@
         "answers": [
             "Vancouver"
         ],
-        "pageviews": 20747
+        "pageviews": 11
     },
     {
         "query_id": "20_166",
@@ -1333,7 +1021,7 @@
         "answers": [
             "Hamadan"
         ],
-        "pageviews": 625779
+        "pageviews": 686
     },
     {
         "query_id": "20_167",
@@ -1341,7 +1029,7 @@
         "answers": [
             "LaFayette"
         ],
-        "pageviews": 1603
+        "pageviews": 2
     },
     {
         "query_id": "20_168",
@@ -1349,15 +1037,7 @@
         "answers": [
             "Bordeaux"
         ],
-        "pageviews": 1026
-    },
-    {
-        "query_id": "20_169",
-        "question": "Where did Steamer Flanagan die?",
-        "answers": [
-            "Wilkes-Barre"
-        ],
-        "pageviews": 808
+        "pageviews": 1
     },
     {
         "query_id": "20_170",
@@ -1365,7 +1045,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 15682
+        "pageviews": 50
     },
     {
         "query_id": "20_171",
@@ -1373,7 +1053,7 @@
         "answers": [
             "Bagan"
         ],
-        "pageviews": 2234
+        "pageviews": 9
     },
     {
         "query_id": "20_172",
@@ -1381,7 +1061,7 @@
         "answers": [
             "Arcueil"
         ],
-        "pageviews": 15313
+        "pageviews": 52
     },
     {
         "query_id": "20_173",
@@ -1389,7 +1069,7 @@
         "answers": [
             "Munich"
         ],
-        "pageviews": 8019
+        "pageviews": 21
     },
     {
         "query_id": "20_174",
@@ -1397,7 +1077,7 @@
         "answers": [
             "Cairo"
         ],
-        "pageviews": 14244
+        "pageviews": 16
     },
     {
         "query_id": "20_175",
@@ -1405,15 +1085,7 @@
         "answers": [
             "Wheeling"
         ],
-        "pageviews": 1899
-    },
-    {
-        "query_id": "20_176",
-        "question": "Where did Novica Tadi\u0107 die?",
-        "answers": [
-            "Belgrade"
-        ],
-        "pageviews": 1909
+        "pageviews": 3
     },
     {
         "query_id": "20_177",
@@ -1421,23 +1093,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 1565
-    },
-    {
-        "query_id": "20_178",
-        "question": "Where did Camill Hoffmann die?",
-        "answers": [
-            "Auschwitz concentration camps"
-        ],
-        "pageviews": 1210
-    },
-    {
-        "query_id": "20_179",
-        "question": "Where did Vagharsh Vagharshian die?",
-        "answers": [
-            "Moscow"
-        ],
-        "pageviews": 886
+        "pageviews": 1
     },
     {
         "query_id": "20_180",
@@ -1445,7 +1101,7 @@
         "answers": [
             "Kaesong"
         ],
-        "pageviews": 51397
+        "pageviews": 50
     },
     {
         "query_id": "20_181",
@@ -1453,7 +1109,7 @@
         "answers": [
             "Saint Petersburg"
         ],
-        "pageviews": 12119
+        "pageviews": 4
     },
     {
         "query_id": "20_182",
@@ -1461,7 +1117,7 @@
         "answers": [
             "Mantua"
         ],
-        "pageviews": 4625
+        "pageviews": 3
     },
     {
         "query_id": "20_183",
@@ -1469,7 +1125,7 @@
         "answers": [
             "Seville"
         ],
-        "pageviews": 5567
+        "pageviews": 1
     },
     {
         "query_id": "20_184",
@@ -1477,15 +1133,7 @@
         "answers": [
             "Shlisselburg"
         ],
-        "pageviews": 3112
-    },
-    {
-        "query_id": "20_185",
-        "question": "Where did Fred Cook die?",
-        "answers": [
-            "Ottawa"
-        ],
-        "pageviews": 692
+        "pageviews": 15
     },
     {
         "query_id": "20_186",
@@ -1493,23 +1141,7 @@
         "answers": [
             "Prague"
         ],
-        "pageviews": 1855
-    },
-    {
-        "query_id": "20_187",
-        "question": "Where did Nikola \u0160e\u0107eroski die?",
-        "answers": [
-            "Belgrade"
-        ],
-        "pageviews": 1511
-    },
-    {
-        "query_id": "20_188",
-        "question": "Where did August Wilhelm Knoch die?",
-        "answers": [
-            "Brunswick"
-        ],
-        "pageviews": 757
+        "pageviews": 7
     },
     {
         "query_id": "20_189",
@@ -1517,7 +1149,7 @@
         "answers": [
             "Fiesole"
         ],
-        "pageviews": 877
+        "pageviews": 2
     },
     {
         "query_id": "20_190",
@@ -1525,7 +1157,7 @@
         "answers": [
             "Palm Springs"
         ],
-        "pageviews": 10798
+        "pageviews": 16
     },
     {
         "query_id": "20_191",
@@ -1533,15 +1165,7 @@
         "answers": [
             "Antalya"
         ],
-        "pageviews": 11249
-    },
-    {
-        "query_id": "20_192",
-        "question": "Where did Krzysztof Perwanger die?",
-        "answers": [
-            "Reszel"
-        ],
-        "pageviews": 648
+        "pageviews": 7
     },
     {
         "query_id": "20_193",
@@ -1549,7 +1173,7 @@
         "answers": [
             "Munich"
         ],
-        "pageviews": 22481
+        "pageviews": 18
     },
     {
         "query_id": "20_194",
@@ -1557,7 +1181,7 @@
         "answers": [
             "Nice"
         ],
-        "pageviews": 10950
+        "pageviews": 4
     },
     {
         "query_id": "20_195",
@@ -1565,7 +1189,7 @@
         "answers": [
             "Mexico City"
         ],
-        "pageviews": 5040
+        "pageviews": 3
     },
     {
         "query_id": "20_196",
@@ -1573,15 +1197,7 @@
         "answers": [
             "Kock"
         ],
-        "pageviews": 1409
-    },
-    {
-        "query_id": "20_197",
-        "question": "Where did Kaarlo Uskela die?",
-        "answers": [
-            "Helsinki"
-        ],
-        "pageviews": 889
+        "pageviews": 7
     },
     {
         "query_id": "20_198",
@@ -1589,7 +1205,7 @@
         "answers": [
             "Kolkata"
         ],
-        "pageviews": 82307
+        "pageviews": 90
     },
     {
         "query_id": "20_199",
@@ -1597,7 +1213,7 @@
         "answers": [
             "Rouen"
         ],
-        "pageviews": 2021
+        "pageviews": 5
     },
     {
         "query_id": "20_200",
@@ -1605,7 +1221,7 @@
         "answers": [
             "Rouen"
         ],
-        "pageviews": 2535
+        "pageviews": 29
     },
     {
         "query_id": "20_201",
@@ -1613,15 +1229,7 @@
         "answers": [
             "Munich"
         ],
-        "pageviews": 512
-    },
-    {
-        "query_id": "20_202",
-        "question": "Where did Rita Lobato die?",
-        "answers": [
-            "Rio Pardo"
-        ],
-        "pageviews": 1232
+        "pageviews": 1
     },
     {
         "query_id": "20_203",
@@ -1629,7 +1237,7 @@
         "answers": [
             "Stryi"
         ],
-        "pageviews": 710
+        "pageviews": 1
     },
     {
         "query_id": "20_204",
@@ -1637,7 +1245,7 @@
         "answers": [
             "Milan"
         ],
-        "pageviews": 5426
+        "pageviews": 9
     },
     {
         "query_id": "20_205",
@@ -1645,7 +1253,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 1084
+        "pageviews": 2
     },
     {
         "query_id": "20_206",
@@ -1653,7 +1261,7 @@
         "answers": [
             "Celje"
         ],
-        "pageviews": 2061
+        "pageviews": 1
     },
     {
         "query_id": "20_207",
@@ -1661,15 +1269,7 @@
         "answers": [
             "Bologna"
         ],
-        "pageviews": 790
-    },
-    {
-        "query_id": "20_208",
-        "question": "Where did Claus Fasting die?",
-        "answers": [
-            "Bergen"
-        ],
-        "pageviews": 804
+        "pageviews": 4
     },
     {
         "query_id": "20_209",
@@ -1677,7 +1277,7 @@
         "answers": [
             "Gastonia"
         ],
-        "pageviews": 1154
+        "pageviews": 2
     },
     {
         "query_id": "20_210",
@@ -1685,7 +1285,7 @@
         "answers": [
             "Sappada"
         ],
-        "pageviews": 6160
+        "pageviews": 2
     },
     {
         "query_id": "20_211",
@@ -1693,7 +1293,7 @@
         "answers": [
             "Belgrade"
         ],
-        "pageviews": 10650
+        "pageviews": 9
     },
     {
         "query_id": "20_212",
@@ -1701,7 +1301,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 9619
+        "pageviews": 7
     },
     {
         "query_id": "20_213",
@@ -1709,7 +1309,7 @@
         "answers": [
             "Regensburg"
         ],
-        "pageviews": 581
+        "pageviews": 2
     },
     {
         "query_id": "20_214",
@@ -1717,7 +1317,7 @@
         "answers": [
             "Saint Petersburg"
         ],
-        "pageviews": 8770
+        "pageviews": 81
     },
     {
         "query_id": "20_215",
@@ -1725,7 +1325,7 @@
         "answers": [
             "Hobart"
         ],
-        "pageviews": 1287
+        "pageviews": 1
     },
     {
         "query_id": "20_216",
@@ -1733,7 +1333,7 @@
         "answers": [
             "Regensburg"
         ],
-        "pageviews": 6072
+        "pageviews": 5
     },
     {
         "query_id": "20_217",
@@ -1741,7 +1341,7 @@
         "answers": [
             "Istanbul"
         ],
-        "pageviews": 5519
+        "pageviews": 7
     },
     {
         "query_id": "20_218",
@@ -1749,7 +1349,7 @@
         "answers": [
             "Freeport"
         ],
-        "pageviews": 1789
+        "pageviews": 1
     },
     {
         "query_id": "20_219",
@@ -1757,7 +1357,7 @@
         "answers": [
             "The Hague"
         ],
-        "pageviews": 78378
+        "pageviews": 18
     },
     {
         "query_id": "20_220",
@@ -1765,7 +1365,7 @@
         "answers": [
             "Warsaw"
         ],
-        "pageviews": 1609
+        "pageviews": 1
     },
     {
         "query_id": "20_221",
@@ -1773,7 +1373,7 @@
         "answers": [
             "Amsterdam"
         ],
-        "pageviews": 21151
+        "pageviews": 40
     },
     {
         "query_id": "20_222",
@@ -1781,15 +1381,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 1575
-    },
-    {
-        "query_id": "20_223",
-        "question": "Where did Sergio Manente die?",
-        "answers": [
-            "Udine"
-        ],
-        "pageviews": 1249
+        "pageviews": 1
     },
     {
         "query_id": "20_224",
@@ -1797,7 +1389,7 @@
         "answers": [
             "Brooklyn"
         ],
-        "pageviews": 577
+        "pageviews": 1
     },
     {
         "query_id": "20_225",
@@ -1805,7 +1397,7 @@
         "answers": [
             "Lusaka"
         ],
-        "pageviews": 2862
+        "pageviews": 6
     },
     {
         "query_id": "20_226",
@@ -1813,23 +1405,7 @@
         "answers": [
             "Buenos Aires"
         ],
-        "pageviews": 1578
-    },
-    {
-        "query_id": "20_227",
-        "question": "Where did Lawrie Miller die?",
-        "answers": [
-            "Wellington"
-        ],
-        "pageviews": 923
-    },
-    {
-        "query_id": "20_228",
-        "question": "Where did Hugh S. Hersman die?",
-        "answers": [
-            "San Francisco"
-        ],
-        "pageviews": 1194
+        "pageviews": 5
     },
     {
         "query_id": "20_229",
@@ -1837,7 +1413,7 @@
         "answers": [
             "Jaffrey"
         ],
-        "pageviews": 6618
+        "pageviews": 1
     },
     {
         "query_id": "20_230",
@@ -1845,7 +1421,7 @@
         "answers": [
             "Lutherstadt Wittenberg"
         ],
-        "pageviews": 4730
+        "pageviews": 8
     },
     {
         "query_id": "20_231",
@@ -1853,15 +1429,7 @@
         "answers": [
             "Gap"
         ],
-        "pageviews": 2924
-    },
-    {
-        "query_id": "20_232",
-        "question": "Where did Andrew Thomas Gage die?",
-        "answers": [
-            "Scotland"
-        ],
-        "pageviews": 799
+        "pageviews": 2
     },
     {
         "query_id": "20_233",
@@ -1869,7 +1437,7 @@
         "answers": [
             "New Orleans"
         ],
-        "pageviews": 69192
+        "pageviews": 151
     },
     {
         "query_id": "20_234",
@@ -1877,7 +1445,7 @@
         "answers": [
             "Annaghdown"
         ],
-        "pageviews": 11696
+        "pageviews": 4
     },
     {
         "query_id": "20_235",
@@ -1885,7 +1453,7 @@
         "answers": [
             "Dalton"
         ],
-        "pageviews": 692
+        "pageviews": 1
     },
     {
         "query_id": "20_236",
@@ -1893,15 +1461,7 @@
         "answers": [
             "Vienna"
         ],
-        "pageviews": 6230
-    },
-    {
-        "query_id": "20_237",
-        "question": "Where did Petrus Wandrey die?",
-        "answers": [
-            "Hamburg"
-        ],
-        "pageviews": 2485
+        "pageviews": 3
     },
     {
         "query_id": "20_238",
@@ -1909,15 +1469,7 @@
         "answers": [
             "Mantua"
         ],
-        "pageviews": 3545
-    },
-    {
-        "query_id": "20_239",
-        "question": "Where did Marjorie Cotton die?",
-        "answers": [
-            "New South Wales"
-        ],
-        "pageviews": 627
+        "pageviews": 1
     },
     {
         "query_id": "20_240",
@@ -1925,7 +1477,7 @@
         "answers": [
             "Riga"
         ],
-        "pageviews": 3675
+        "pageviews": 7
     },
     {
         "query_id": "20_241",
@@ -1933,7 +1485,7 @@
         "answers": [
             "Parma"
         ],
-        "pageviews": 2097
+        "pageviews": 8
     },
     {
         "query_id": "20_242",
@@ -1941,15 +1493,7 @@
         "answers": [
             "Bronxville"
         ],
-        "pageviews": 5853
-    },
-    {
-        "query_id": "20_243",
-        "question": "Where did Alfred Haemerlinck die?",
-        "answers": [
-            "Ghent"
-        ],
-        "pageviews": 949
+        "pageviews": 7
     },
     {
         "query_id": "20_244",
@@ -1957,7 +1501,7 @@
         "answers": [
             "Perm"
         ],
-        "pageviews": 1286
+        "pageviews": 3
     },
     {
         "query_id": "20_245",
@@ -1965,7 +1509,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2012
+        "pageviews": 2
     },
     {
         "query_id": "20_246",
@@ -1973,7 +1517,7 @@
         "answers": [
             "Turku"
         ],
-        "pageviews": 1466
+        "pageviews": 2
     },
     {
         "query_id": "20_247",
@@ -1981,7 +1525,7 @@
         "answers": [
             "Santiago"
         ],
-        "pageviews": 3625
+        "pageviews": 5
     },
     {
         "query_id": "20_248",
@@ -1989,7 +1533,7 @@
         "answers": [
             "Silao"
         ],
-        "pageviews": 7330
+        "pageviews": 23
     },
     {
         "query_id": "20_249",
@@ -1997,7 +1541,7 @@
         "answers": [
             "Cagliari"
         ],
-        "pageviews": 1843
+        "pageviews": 10
     },
     {
         "query_id": "20_250",
@@ -2005,15 +1549,7 @@
         "answers": [
             "Yogyakarta"
         ],
-        "pageviews": 896
-    },
-    {
-        "query_id": "20_251",
-        "question": "Where did Timothy T. Ansberry die?",
-        "answers": [
-            "New York City"
-        ],
-        "pageviews": 1418
+        "pageviews": 1
     },
     {
         "query_id": "20_252",
@@ -2021,7 +1557,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 1968
+        "pageviews": 1
     },
     {
         "query_id": "20_253",
@@ -2029,7 +1565,7 @@
         "answers": [
             "Borzna"
         ],
-        "pageviews": 1888
+        "pageviews": 11
     },
     {
         "query_id": "20_254",
@@ -2037,7 +1573,7 @@
         "answers": [
             "Florence"
         ],
-        "pageviews": 758
+        "pageviews": 1
     },
     {
         "query_id": "20_255",
@@ -2045,7 +1581,7 @@
         "answers": [
             "Hamburg"
         ],
-        "pageviews": 2978
+        "pageviews": 2
     },
     {
         "query_id": "20_256",
@@ -2053,7 +1589,7 @@
         "answers": [
             "Salzburg"
         ],
-        "pageviews": 31845
+        "pageviews": 165
     },
     {
         "query_id": "20_257",
@@ -2061,7 +1597,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 1349
+        "pageviews": 5
     },
     {
         "query_id": "20_258",
@@ -2069,15 +1605,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 9760
-    },
-    {
-        "query_id": "20_259",
-        "question": "Where did \u00c1ngel Atienza die?",
-        "answers": [
-            "Madrid"
-        ],
-        "pageviews": 2524
+        "pageviews": 12
     },
     {
         "query_id": "20_260",
@@ -2085,7 +1613,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 7503
+        "pageviews": 7
     },
     {
         "query_id": "20_261",
@@ -2093,7 +1621,7 @@
         "answers": [
             "Ann Arbor"
         ],
-        "pageviews": 2795
+        "pageviews": 7
     },
     {
         "query_id": "20_262",
@@ -2101,7 +1629,7 @@
         "answers": [
             "Altshausen"
         ],
-        "pageviews": 9879
+        "pageviews": 5
     },
     {
         "query_id": "20_263",
@@ -2109,7 +1637,7 @@
         "answers": [
             "Merced"
         ],
-        "pageviews": 1611429
+        "pageviews": 9
     },
     {
         "query_id": "20_264",
@@ -2117,7 +1645,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 1528
+        "pageviews": 4
     },
     {
         "query_id": "20_265",
@@ -2125,23 +1653,7 @@
         "answers": [
             "Leiden"
         ],
-        "pageviews": 9845
-    },
-    {
-        "query_id": "20_266",
-        "question": "Where did Matthias Hoe von Hoenegg die?",
-        "answers": [
-            "Dresden"
-        ],
-        "pageviews": 965
-    },
-    {
-        "query_id": "20_267",
-        "question": "Where did George Lee die?",
-        "answers": [
-            "Chicago"
-        ],
-        "pageviews": 673
+        "pageviews": 8
     },
     {
         "query_id": "20_268",
@@ -2149,7 +1661,7 @@
         "answers": [
             "Florence"
         ],
-        "pageviews": 3969
+        "pageviews": 25
     },
     {
         "query_id": "20_269",
@@ -2157,15 +1669,7 @@
         "answers": [
             "Wassenaar"
         ],
-        "pageviews": 2868
-    },
-    {
-        "query_id": "20_270",
-        "question": "Where did Jone Morino die?",
-        "answers": [
-            "Rome"
-        ],
-        "pageviews": 971
+        "pageviews": 2
     },
     {
         "query_id": "20_271",
@@ -2173,7 +1677,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 1471
+        "pageviews": 2
     },
     {
         "query_id": "20_272",
@@ -2181,7 +1685,7 @@
         "answers": [
             "Bex"
         ],
-        "pageviews": 1042
+        "pageviews": 5
     },
     {
         "query_id": "20_273",
@@ -2189,7 +1693,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 6180
+        "pageviews": 14
     },
     {
         "query_id": "20_274",
@@ -2197,7 +1701,7 @@
         "answers": [
             "Pasadena"
         ],
-        "pageviews": 1658
+        "pageviews": 8
     },
     {
         "query_id": "20_275",
@@ -2205,7 +1709,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 2053
+        "pageviews": 14
     },
     {
         "query_id": "20_276",
@@ -2213,7 +1717,7 @@
         "answers": [
             "Haarlem"
         ],
-        "pageviews": 891
+        "pageviews": 3
     },
     {
         "query_id": "20_277",
@@ -2221,23 +1725,7 @@
         "answers": [
             "Vienna"
         ],
-        "pageviews": 1349
-    },
-    {
-        "query_id": "20_278",
-        "question": "Where did Petr Mikhailovich Stefanovskiy die?",
-        "answers": [
-            "Moscow"
-        ],
-        "pageviews": 936
-    },
-    {
-        "query_id": "20_279",
-        "question": "Where did John Keller die?",
-        "answers": [
-            "Great Bend"
-        ],
-        "pageviews": 0
+        "pageviews": 2
     },
     {
         "query_id": "20_280",
@@ -2245,7 +1733,7 @@
         "answers": [
             "Cremona"
         ],
-        "pageviews": 45857
+        "pageviews": 70
     },
     {
         "query_id": "20_281",
@@ -2253,15 +1741,7 @@
         "answers": [
             "Cornwall"
         ],
-        "pageviews": 3608
-    },
-    {
-        "query_id": "20_282",
-        "question": "Where did Florent Fid\u00e8le Constant Bourgeois die?",
-        "answers": [
-            "Paris"
-        ],
-        "pageviews": 894
+        "pageviews": 17
     },
     {
         "query_id": "20_283",
@@ -2269,7 +1749,7 @@
         "answers": [
             "Turin"
         ],
-        "pageviews": 996
+        "pageviews": 9
     },
     {
         "query_id": "20_284",
@@ -2277,7 +1757,7 @@
         "answers": [
             "Poitiers"
         ],
-        "pageviews": 1462
+        "pageviews": 2
     },
     {
         "query_id": "20_285",
@@ -2285,7 +1765,7 @@
         "answers": [
             "Jackson"
         ],
-        "pageviews": 14866
+        "pageviews": 14
     },
     {
         "query_id": "20_286",
@@ -2293,7 +1773,7 @@
         "answers": [
             "Modena"
         ],
-        "pageviews": 10378
+        "pageviews": 24
     },
     {
         "query_id": "20_287",
@@ -2301,15 +1781,7 @@
         "answers": [
             "Bucharest"
         ],
-        "pageviews": 7018
-    },
-    {
-        "query_id": "20_288",
-        "question": "Where did Achille Cattaneo die?",
-        "answers": [
-            "Milan"
-        ],
-        "pageviews": 608
+        "pageviews": 16
     },
     {
         "query_id": "20_289",
@@ -2317,7 +1789,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 63989
+        "pageviews": 16
     },
     {
         "query_id": "20_290",
@@ -2325,7 +1797,7 @@
         "answers": [
             "Lausanne"
         ],
-        "pageviews": 19631
+        "pageviews": 25
     },
     {
         "query_id": "20_291",
@@ -2333,15 +1805,7 @@
         "answers": [
             "Oslo"
         ],
-        "pageviews": 752
-    },
-    {
-        "query_id": "20_292",
-        "question": "Where did Sauli Rytky die?",
-        "answers": [
-            "Haapavesi"
-        ],
-        "pageviews": 729
+        "pageviews": 4
     },
     {
         "query_id": "20_293",
@@ -2349,7 +1813,7 @@
         "answers": [
             "Las Vegas"
         ],
-        "pageviews": 44060
+        "pageviews": 48
     },
     {
         "query_id": "20_294",
@@ -2357,7 +1821,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2670
+        "pageviews": 5
     },
     {
         "query_id": "20_295",
@@ -2365,7 +1829,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 995
+        "pageviews": 1
     },
     {
         "query_id": "20_296",
@@ -2373,7 +1837,7 @@
         "answers": [
             "San Carlos Fortress"
         ],
-        "pageviews": 64819
+        "pageviews": 104
     },
     {
         "query_id": "20_297",
@@ -2381,7 +1845,7 @@
         "answers": [
             "Torrington"
         ],
-        "pageviews": 3502
+        "pageviews": 4
     },
     {
         "query_id": "20_298",
@@ -2389,7 +1853,7 @@
         "answers": [
             "Morley"
         ],
-        "pageviews": 582
+        "pageviews": 2
     },
     {
         "query_id": "20_299",
@@ -2397,23 +1861,7 @@
         "answers": [
             "Verona"
         ],
-        "pageviews": 4061
-    },
-    {
-        "query_id": "20_300",
-        "question": "Where did Julian Zachariewicz die?",
-        "answers": [
-            "Lviv"
-        ],
-        "pageviews": 1186
-    },
-    {
-        "query_id": "20_301",
-        "question": "Where did Hunkey Hines die?",
-        "answers": [
-            "Rockford"
-        ],
-        "pageviews": 718
+        "pageviews": 10
     },
     {
         "query_id": "20_302",
@@ -2421,7 +1869,7 @@
         "answers": [
             "Varanasi"
         ],
-        "pageviews": 185730
+        "pageviews": 65
     },
     {
         "query_id": "20_303",
@@ -2429,15 +1877,7 @@
         "answers": [
             "Boston"
         ],
-        "pageviews": 2755
-    },
-    {
-        "query_id": "20_304",
-        "question": "Where did Eli Uzan die?",
-        "answers": [
-            "Beersheba"
-        ],
-        "pageviews": 644
+        "pageviews": 3
     },
     {
         "query_id": "20_305",
@@ -2445,7 +1885,7 @@
         "answers": [
             "Yucca Valley"
         ],
-        "pageviews": 5772
+        "pageviews": 22
     },
     {
         "query_id": "20_306",
@@ -2453,7 +1893,7 @@
         "answers": [
             "Venice"
         ],
-        "pageviews": 5048
+        "pageviews": 11
     },
     {
         "query_id": "20_307",
@@ -2461,7 +1901,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 3651
+        "pageviews": 7
     },
     {
         "query_id": "20_308",
@@ -2469,7 +1909,7 @@
         "answers": [
             "Turin"
         ],
-        "pageviews": 8889
+        "pageviews": 3
     },
     {
         "query_id": "20_309",
@@ -2477,7 +1917,7 @@
         "answers": [
             "Plover"
         ],
-        "pageviews": 1388
+        "pageviews": 3
     },
     {
         "query_id": "20_310",
@@ -2485,7 +1925,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 64490
+        "pageviews": 24
     },
     {
         "query_id": "20_311",
@@ -2493,7 +1933,7 @@
         "answers": [
             "Munich"
         ],
-        "pageviews": 3339
+        "pageviews": 7
     },
     {
         "query_id": "20_312",
@@ -2501,7 +1941,7 @@
         "answers": [
             "Burlingame"
         ],
-        "pageviews": 1338
+        "pageviews": 2
     },
     {
         "query_id": "20_313",
@@ -2509,7 +1949,7 @@
         "answers": [
             "Heidelberg"
         ],
-        "pageviews": 814
+        "pageviews": 5
     },
     {
         "query_id": "20_314",
@@ -2517,7 +1957,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 1459
+        "pageviews": 4
     },
     {
         "query_id": "20_315",
@@ -2525,7 +1965,7 @@
         "answers": [
             "Cumberland"
         ],
-        "pageviews": 1227
+        "pageviews": 1
     },
     {
         "query_id": "20_316",
@@ -2533,7 +1973,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 2730
+        "pageviews": 7
     },
     {
         "query_id": "20_317",
@@ -2541,7 +1981,7 @@
         "answers": [
             "Zagreb"
         ],
-        "pageviews": 2547
+        "pageviews": 5
     },
     {
         "query_id": "20_318",
@@ -2549,7 +1989,7 @@
         "answers": [
             "Montreal"
         ],
-        "pageviews": 1410
+        "pageviews": 4
     },
     {
         "query_id": "20_319",
@@ -2557,15 +1997,7 @@
         "answers": [
             "Naples"
         ],
-        "pageviews": 1007
-    },
-    {
-        "query_id": "20_320",
-        "question": "Where did Elfriede Tr\u00f6tschel die?",
-        "answers": [
-            "Berlin"
-        ],
-        "pageviews": 1197
+        "pageviews": 3
     },
     {
         "query_id": "20_321",
@@ -2573,23 +2005,7 @@
         "answers": [
             "Warsaw"
         ],
-        "pageviews": 8526
-    },
-    {
-        "query_id": "20_322",
-        "question": "Where did Yevgeni Ivanovski die?",
-        "answers": [
-            "Moscow"
-        ],
-        "pageviews": 3024
-    },
-    {
-        "query_id": "20_323",
-        "question": "Where did Henry Austin die?",
-        "answers": [
-            "Amityville"
-        ],
-        "pageviews": 1340
+        "pageviews": 6
     },
     {
         "query_id": "20_324",
@@ -2597,7 +2013,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 1663
+        "pageviews": 2
     },
     {
         "query_id": "20_326",
@@ -2605,7 +2021,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 2231
+        "pageviews": 2
     },
     {
         "query_id": "20_327",
@@ -2613,7 +2029,7 @@
         "answers": [
             "Scharbeutz"
         ],
-        "pageviews": 5410
+        "pageviews": 2
     },
     {
         "query_id": "20_328",
@@ -2621,7 +2037,7 @@
         "answers": [
             "Montreal"
         ],
-        "pageviews": 2693
+        "pageviews": 2
     },
     {
         "query_id": "20_329",
@@ -2629,7 +2045,7 @@
         "answers": [
             "Haarlem"
         ],
-        "pageviews": 12448
+        "pageviews": 59
     },
     {
         "query_id": "20_330",
@@ -2637,15 +2053,7 @@
         "answers": [
             "Bournemouth"
         ],
-        "pageviews": 195042
-    },
-    {
-        "query_id": "20_331",
-        "question": "Where did R\u00f3bert Antal die?",
-        "answers": [
-            "Toronto"
-        ],
-        "pageviews": 1109
+        "pageviews": 188
     },
     {
         "query_id": "20_332",
@@ -2653,7 +2061,7 @@
         "answers": [
             "Kerkrade"
         ],
-        "pageviews": 664
+        "pageviews": 3
     },
     {
         "query_id": "20_333",
@@ -2661,7 +2069,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 12211
+        "pageviews": 11
     },
     {
         "query_id": "20_334",
@@ -2669,23 +2077,7 @@
         "answers": [
             "Brompton"
         ],
-        "pageviews": 526
-    },
-    {
-        "query_id": "20_335",
-        "question": "Where did George L. Blum die?",
-        "answers": [
-            "Eau Claire"
-        ],
-        "pageviews": 464
-    },
-    {
-        "query_id": "20_336",
-        "question": "Where did Al Gardella die?",
-        "answers": [
-            "Coral Springs"
-        ],
-        "pageviews": 664
+        "pageviews": 1
     },
     {
         "query_id": "20_337",
@@ -2693,15 +2085,7 @@
         "answers": [
             "Dijon"
         ],
-        "pageviews": 6147
-    },
-    {
-        "query_id": "20_338",
-        "question": "Where did Thomas Fitzgerald die?",
-        "answers": [
-            "Niles"
-        ],
-        "pageviews": 2324
+        "pageviews": 4
     },
     {
         "query_id": "20_339",
@@ -2709,7 +2093,7 @@
         "answers": [
             "Havana"
         ],
-        "pageviews": 6567
+        "pageviews": 16
     },
     {
         "query_id": "20_340",
@@ -2717,7 +2101,7 @@
         "answers": [
             "Castiglione della Pescaia"
         ],
-        "pageviews": 2023
+        "pageviews": 8
     },
     {
         "query_id": "20_341",
@@ -2725,7 +2109,7 @@
         "answers": [
             "Salisbury"
         ],
-        "pageviews": 2287
+        "pageviews": 11
     },
     {
         "query_id": "20_342",
@@ -2733,7 +2117,7 @@
         "answers": [
             "Oberndorf am Neckar"
         ],
-        "pageviews": 28154
+        "pageviews": 11
     },
     {
         "query_id": "20_343",
@@ -2741,7 +2125,7 @@
         "answers": [
             "Wellington"
         ],
-        "pageviews": 7499
+        "pageviews": 12
     },
     {
         "query_id": "20_344",
@@ -2749,7 +2133,7 @@
         "answers": [
             "Heidelberg"
         ],
-        "pageviews": 1598
+        "pageviews": 3
     },
     {
         "query_id": "20_345",
@@ -2757,31 +2141,7 @@
         "answers": [
             "Bonn"
         ],
-        "pageviews": 2572
-    },
-    {
-        "query_id": "20_346",
-        "question": "Where did Mahlon K. Cowan die?",
-        "answers": [
-            "Toronto"
-        ],
-        "pageviews": 543
-    },
-    {
-        "query_id": "20_347",
-        "question": "Where did Jochen Balke die?",
-        "answers": [
-            "Veliky Novgorod"
-        ],
-        "pageviews": 1774
-    },
-    {
-        "query_id": "20_348",
-        "question": "Where did Edgar Seligman die?",
-        "answers": [
-            "London"
-        ],
-        "pageviews": 1556
+        "pageviews": 19
     },
     {
         "query_id": "20_349",
@@ -2789,7 +2149,7 @@
         "answers": [
             "Montreal"
         ],
-        "pageviews": 6778
+        "pageviews": 15
     },
     {
         "query_id": "20_350",
@@ -2797,7 +2157,7 @@
         "answers": [
             "Madrid"
         ],
-        "pageviews": 3603
+        "pageviews": 14
     },
     {
         "query_id": "20_351",
@@ -2805,7 +2165,7 @@
         "answers": [
             "Ottawa"
         ],
-        "pageviews": 883
+        "pageviews": 1
     },
     {
         "query_id": "20_352",
@@ -2813,7 +2173,7 @@
         "answers": [
             "Hamburg"
         ],
-        "pageviews": 1282
+        "pageviews": 3
     },
     {
         "query_id": "20_353",
@@ -2821,7 +2181,7 @@
         "answers": [
             "Blaj"
         ],
-        "pageviews": 936
+        "pageviews": 3
     },
     {
         "query_id": "20_354",
@@ -2829,7 +2189,7 @@
         "answers": [
             "Lynn"
         ],
-        "pageviews": 2417
+        "pageviews": 4
     },
     {
         "query_id": "20_355",
@@ -2837,7 +2197,7 @@
         "answers": [
             "Boston"
         ],
-        "pageviews": 13475
+        "pageviews": 11
     },
     {
         "query_id": "20_356",
@@ -2845,7 +2205,7 @@
         "answers": [
             "Juan-les-Pins"
         ],
-        "pageviews": 1533
+        "pageviews": 6
     },
     {
         "query_id": "20_357",
@@ -2853,7 +2213,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 4802
+        "pageviews": 13
     },
     {
         "query_id": "20_358",
@@ -2861,7 +2221,7 @@
         "answers": [
             "Lahijan"
         ],
-        "pageviews": 2950
+        "pageviews": 1
     },
     {
         "query_id": "20_359",
@@ -2869,15 +2229,7 @@
         "answers": [
             "Algeria"
         ],
-        "pageviews": 15484
-    },
-    {
-        "query_id": "20_360",
-        "question": "Where did Bill Pratney die?",
-        "answers": [
-            "Auckland"
-        ],
-        "pageviews": 487
+        "pageviews": 6
     },
     {
         "query_id": "20_361",
@@ -2885,7 +2237,7 @@
         "answers": [
             "Siponto"
         ],
-        "pageviews": 1312
+        "pageviews": 4
     },
     {
         "query_id": "20_362",
@@ -2893,31 +2245,7 @@
         "answers": [
             "Porto"
         ],
-        "pageviews": 6478
-    },
-    {
-        "query_id": "20_363",
-        "question": "Where did Maurice Reymond de Broutelles die?",
-        "answers": [
-            "Paris"
-        ],
-        "pageviews": 886
-    },
-    {
-        "query_id": "20_364",
-        "question": "Where did Edmund Smith die?",
-        "answers": [
-            "Andover"
-        ],
-        "pageviews": 796
-    },
-    {
-        "query_id": "20_365",
-        "question": "Where did Ernst Frederick II, Duke of Saxe-Hildburghausen die?",
-        "answers": [
-            "Hildburghausen"
-        ],
-        "pageviews": 0
+        "pageviews": 10
     },
     {
         "query_id": "20_366",
@@ -2925,7 +2253,7 @@
         "answers": [
             "Addis Ababa"
         ],
-        "pageviews": 1358485
+        "pageviews": 524
     },
     {
         "query_id": "20_367",
@@ -2933,15 +2261,7 @@
         "answers": [
             "Las Vegas"
         ],
-        "pageviews": 1946
-    },
-    {
-        "query_id": "20_368",
-        "question": "Where did Albert Gingell die?",
-        "answers": [
-            "Cleveland"
-        ],
-        "pageviews": 379
+        "pageviews": 3
     },
     {
         "query_id": "20_369",
@@ -2949,7 +2269,7 @@
         "answers": [
             "Staten Island"
         ],
-        "pageviews": 1938
+        "pageviews": 14
     },
     {
         "query_id": "20_370",
@@ -2957,7 +2277,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 687
+        "pageviews": 1
     },
     {
         "query_id": "20_371",
@@ -2965,7 +2285,7 @@
         "answers": [
             "Parvati Hill"
         ],
-        "pageviews": 283341
+        "pageviews": 53
     },
     {
         "query_id": "20_372",
@@ -2973,7 +2293,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 222647
+        "pageviews": 135
     },
     {
         "query_id": "20_373",
@@ -2981,7 +2301,7 @@
         "answers": [
             "Stonehaven"
         ],
-        "pageviews": 10746
+        "pageviews": 15
     },
     {
         "query_id": "20_374",
@@ -2989,7 +2309,7 @@
         "answers": [
             "Wake Island"
         ],
-        "pageviews": 6185
+        "pageviews": 2
     },
     {
         "query_id": "20_375",
@@ -2997,23 +2317,7 @@
         "answers": [
             "Bologna"
         ],
-        "pageviews": 1224
-    },
-    {
-        "query_id": "20_376",
-        "question": "Where did Addison Randall die?",
-        "answers": [
-            "Canoga Park"
-        ],
-        "pageviews": 7766
-    },
-    {
-        "query_id": "20_377",
-        "question": "Where did George Hopkins Williams II die?",
-        "answers": [
-            "Dallas"
-        ],
-        "pageviews": 576
+        "pageviews": 6
     },
     {
         "query_id": "20_378",
@@ -3021,7 +2325,7 @@
         "answers": [
             "Remplin"
         ],
-        "pageviews": 1170
+        "pageviews": 1
     },
     {
         "query_id": "20_379",
@@ -3029,7 +2333,7 @@
         "answers": [
             "Essen"
         ],
-        "pageviews": 5238
+        "pageviews": 5
     },
     {
         "query_id": "20_380",
@@ -3037,7 +2341,7 @@
         "answers": [
             "Athens"
         ],
-        "pageviews": 2313
+        "pageviews": 3
     },
     {
         "query_id": "20_381",
@@ -3045,15 +2349,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 2622
-    },
-    {
-        "query_id": "20_382",
-        "question": "Where did Alexander Shcherbakov die?",
-        "answers": [
-            "Moscow"
-        ],
-        "pageviews": 7712
+        "pageviews": 6
     },
     {
         "query_id": "20_383",
@@ -3061,7 +2357,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 1949
+        "pageviews": 1
     },
     {
         "query_id": "20_384",
@@ -3069,7 +2365,7 @@
         "answers": [
             "Saint Petersburg"
         ],
-        "pageviews": 1024
+        "pageviews": 40
     },
     {
         "query_id": "20_385",
@@ -3077,7 +2373,7 @@
         "answers": [
             "Bergen"
         ],
-        "pageviews": 35225
+        "pageviews": 36
     },
     {
         "query_id": "20_386",
@@ -3085,7 +2381,7 @@
         "answers": [
             "English Channel"
         ],
-        "pageviews": 2508
+        "pageviews": 6
     },
     {
         "query_id": "20_387",
@@ -3093,7 +2389,7 @@
         "answers": [
             "New Jersey"
         ],
-        "pageviews": 2371
+        "pageviews": 2
     },
     {
         "query_id": "20_388",
@@ -3101,7 +2397,7 @@
         "answers": [
             "Antwerp"
         ],
-        "pageviews": 3097
+        "pageviews": 13
     },
     {
         "query_id": "20_389",
@@ -3109,7 +2405,7 @@
         "answers": [
             "KwaZulu-Natal"
         ],
-        "pageviews": 9133
+        "pageviews": 17
     },
     {
         "query_id": "20_390",
@@ -3117,7 +2413,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 8728
+        "pageviews": 16
     },
     {
         "query_id": "20_391",
@@ -3125,7 +2421,7 @@
         "answers": [
             "Toronto"
         ],
-        "pageviews": 725
+        "pageviews": 1
     },
     {
         "query_id": "20_392",
@@ -3133,7 +2429,7 @@
         "answers": [
             "Warsaw"
         ],
-        "pageviews": 3847
+        "pageviews": 5
     },
     {
         "query_id": "20_393",
@@ -3141,7 +2437,7 @@
         "answers": [
             "Soviet Union"
         ],
-        "pageviews": 2903
+        "pageviews": 9
     },
     {
         "query_id": "20_394",
@@ -3149,7 +2445,7 @@
         "answers": [
             "Cuernavaca"
         ],
-        "pageviews": 3022
+        "pageviews": 10
     },
     {
         "query_id": "20_395",
@@ -3157,7 +2453,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 7037
+        "pageviews": 11
     },
     {
         "query_id": "20_396",
@@ -3165,7 +2461,7 @@
         "answers": [
             "Lyme Regis"
         ],
-        "pageviews": 23387
+        "pageviews": 7
     },
     {
         "query_id": "20_397",
@@ -3173,7 +2469,7 @@
         "answers": [
             "Rotherham"
         ],
-        "pageviews": 85080
+        "pageviews": 37
     },
     {
         "query_id": "20_398",
@@ -3181,7 +2477,7 @@
         "answers": [
             "Nashua"
         ],
-        "pageviews": 922
+        "pageviews": 4
     },
     {
         "query_id": "20_399",
@@ -3189,7 +2485,7 @@
         "answers": [
             "Monaco"
         ],
-        "pageviews": 3226
+        "pageviews": 6
     },
     {
         "query_id": "20_400",
@@ -3197,7 +2493,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 13524
+        "pageviews": 22
     },
     {
         "query_id": "20_401",
@@ -3205,7 +2501,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 146393
+        "pageviews": 123
     },
     {
         "query_id": "20_402",
@@ -3213,7 +2509,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 7675
+        "pageviews": 10
     },
     {
         "query_id": "20_403",
@@ -3221,7 +2517,7 @@
         "answers": [
             "Coral Gables"
         ],
-        "pageviews": 3364
+        "pageviews": 6
     },
     {
         "query_id": "20_404",
@@ -3229,7 +2525,7 @@
         "answers": [
             "Zella-Mehlis"
         ],
-        "pageviews": 9244
+        "pageviews": 1
     },
     {
         "query_id": "20_405",
@@ -3237,7 +2533,7 @@
         "answers": [
             "Beijing"
         ],
-        "pageviews": 2267
+        "pageviews": 7
     },
     {
         "query_id": "20_406",
@@ -3245,7 +2541,7 @@
         "answers": [
             "Pesmes"
         ],
-        "pageviews": 2939
+        "pageviews": 2
     },
     {
         "query_id": "20_407",
@@ -3253,7 +2549,7 @@
         "answers": [
             "Saintes"
         ],
-        "pageviews": 2342
+        "pageviews": 10
     },
     {
         "query_id": "20_408",
@@ -3261,15 +2557,7 @@
         "answers": [
             "Warmond"
         ],
-        "pageviews": 1474
-    },
-    {
-        "query_id": "20_409",
-        "question": "Where did V\u00e1clav Havel die?",
-        "answers": [
-            "Prague"
-        ],
-        "pageviews": 844
+        "pageviews": 4
     },
     {
         "query_id": "20_410",
@@ -3277,7 +2565,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 9245
+        "pageviews": 19
     },
     {
         "query_id": "20_411",
@@ -3285,7 +2573,7 @@
         "answers": [
             "West Bridgewater"
         ],
-        "pageviews": 2719
+        "pageviews": 1
     },
     {
         "query_id": "20_412",
@@ -3293,7 +2581,7 @@
         "answers": [
             "Meriden"
         ],
-        "pageviews": 1163
+        "pageviews": 3
     },
     {
         "query_id": "20_413",
@@ -3301,7 +2589,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 10145
+        "pageviews": 72
     },
     {
         "query_id": "20_414",
@@ -3309,7 +2597,7 @@
         "answers": [
             "Quebec City"
         ],
-        "pageviews": 1388
+        "pageviews": 2
     },
     {
         "query_id": "20_415",
@@ -3317,7 +2605,7 @@
         "answers": [
             "Copenhagen"
         ],
-        "pageviews": 101814
+        "pageviews": 163
     },
     {
         "query_id": "20_416",
@@ -3325,15 +2613,7 @@
         "answers": [
             "Ottawa"
         ],
-        "pageviews": 3851
-    },
-    {
-        "query_id": "20_417",
-        "question": "Where did Fred Avey die?",
-        "answers": [
-            "Hornchurch"
-        ],
-        "pageviews": 1218
+        "pageviews": 8
     },
     {
         "query_id": "20_418",
@@ -3341,7 +2621,7 @@
         "answers": [
             "Honolulu"
         ],
-        "pageviews": 12271
+        "pageviews": 27
     },
     {
         "query_id": "20_419",
@@ -3349,7 +2629,7 @@
         "answers": [
             "Bronxville"
         ],
-        "pageviews": 1259
+        "pageviews": 1
     },
     {
         "query_id": "20_420",
@@ -3357,7 +2637,7 @@
         "answers": [
             "Wassenaar"
         ],
-        "pageviews": 1585
+        "pageviews": 1
     },
     {
         "query_id": "20_421",
@@ -3365,7 +2645,7 @@
         "answers": [
             "Valencia"
         ],
-        "pageviews": 538
+        "pageviews": 2
     },
     {
         "query_id": "20_422",
@@ -3373,15 +2653,7 @@
         "answers": [
             "Frankfurt"
         ],
-        "pageviews": 46342
-    },
-    {
-        "query_id": "20_423",
-        "question": "Where did Kurt B\u00fcrger die?",
-        "answers": [
-            "Schwerin"
-        ],
-        "pageviews": 1090
+        "pageviews": 86
     },
     {
         "query_id": "20_424",
@@ -3389,7 +2661,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 1221
+        "pageviews": 2
     },
     {
         "query_id": "20_425",
@@ -3397,7 +2669,7 @@
         "answers": [
             "Bremen"
         ],
-        "pageviews": 2875
+        "pageviews": 9
     },
     {
         "query_id": "20_426",
@@ -3405,7 +2677,7 @@
         "answers": [
             "Baghdad"
         ],
-        "pageviews": 18157
+        "pageviews": 23
     },
     {
         "query_id": "20_427",
@@ -3413,7 +2685,7 @@
         "answers": [
             "Byzantium"
         ],
-        "pageviews": 2200
+        "pageviews": 1
     },
     {
         "query_id": "20_428",
@@ -3421,7 +2693,7 @@
         "answers": [
             "Cape Town"
         ],
-        "pageviews": 7329
+        "pageviews": 5
     },
     {
         "query_id": "20_429",
@@ -3429,15 +2701,7 @@
         "answers": [
             "Santo Domingo"
         ],
-        "pageviews": 3427
-    },
-    {
-        "query_id": "20_430",
-        "question": "Where did Marienetta Jirkowsky die?",
-        "answers": [
-            "Hennigsdorf"
-        ],
-        "pageviews": 4283
+        "pageviews": 5
     },
     {
         "query_id": "20_431",
@@ -3445,7 +2709,7 @@
         "answers": [
             "England"
         ],
-        "pageviews": 4167
+        "pageviews": 11
     },
     {
         "query_id": "20_432",
@@ -3453,15 +2717,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 8105
-    },
-    {
-        "query_id": "20_433",
-        "question": "Where did William Foley die?",
-        "answers": [
-            "Perth"
-        ],
-        "pageviews": 1042
+        "pageviews": 46
     },
     {
         "query_id": "20_434",
@@ -3469,7 +2725,7 @@
         "answers": [
             "Calw"
         ],
-        "pageviews": 24565
+        "pageviews": 29
     },
     {
         "query_id": "20_435",
@@ -3477,15 +2733,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 3681
-    },
-    {
-        "query_id": "20_436",
-        "question": "Where did James F. McDowell die?",
-        "answers": [
-            "Marion"
-        ],
-        "pageviews": 1967
+        "pageviews": 3
     },
     {
         "query_id": "20_437",
@@ -3493,7 +2741,7 @@
         "answers": [
             "Munich"
         ],
-        "pageviews": 3616
+        "pageviews": 21
     },
     {
         "query_id": "20_438",
@@ -3501,15 +2749,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 1159
-    },
-    {
-        "query_id": "20_439",
-        "question": "Where did John H. Harmon die?",
-        "answers": [
-            "Detroit"
-        ],
-        "pageviews": 1280
+        "pageviews": 3
     },
     {
         "query_id": "20_440",
@@ -3517,15 +2757,7 @@
         "answers": [
             "Turkey"
         ],
-        "pageviews": 8094
-    },
-    {
-        "query_id": "20_441",
-        "question": "Where did Isaak Russman die?",
-        "answers": [
-            "Voronezh"
-        ],
-        "pageviews": 961
+        "pageviews": 2
     },
     {
         "query_id": "20_442",
@@ -3533,7 +2765,7 @@
         "answers": [
             "Miami Beach"
         ],
-        "pageviews": 1356897
+        "pageviews": 154
     },
     {
         "query_id": "20_443",
@@ -3541,7 +2773,7 @@
         "answers": [
             "Warsaw"
         ],
-        "pageviews": 546
+        "pageviews": 2
     },
     {
         "query_id": "20_444",
@@ -3549,7 +2781,7 @@
         "answers": [
             "Fiesole"
         ],
-        "pageviews": 2396
+        "pageviews": 4
     },
     {
         "query_id": "20_445",
@@ -3557,7 +2789,7 @@
         "answers": [
             "Vlissingen"
         ],
-        "pageviews": 2180
+        "pageviews": 2
     },
     {
         "query_id": "20_446",
@@ -3565,7 +2797,7 @@
         "answers": [
             "Casablanca"
         ],
-        "pageviews": 892
+        "pageviews": 1
     },
     {
         "query_id": "20_447",
@@ -3573,7 +2805,7 @@
         "answers": [
             "Singapore"
         ],
-        "pageviews": 6734
+        "pageviews": 6
     },
     {
         "query_id": "20_448",
@@ -3581,7 +2813,7 @@
         "answers": [
             "Brunswick"
         ],
-        "pageviews": 1026
+        "pageviews": 2
     },
     {
         "query_id": "20_449",
@@ -3589,7 +2821,7 @@
         "answers": [
             "Munich"
         ],
-        "pageviews": 1266
+        "pageviews": 2
     },
     {
         "query_id": "20_450",
@@ -3597,15 +2829,7 @@
         "answers": [
             "Istanbul"
         ],
-        "pageviews": 6100
-    },
-    {
-        "query_id": "20_451",
-        "question": "Where did William Carter die?",
-        "answers": [
-            "Kingston upon Thames"
-        ],
-        "pageviews": 367
+        "pageviews": 8
     },
     {
         "query_id": "20_452",
@@ -3613,15 +2837,7 @@
         "answers": [
             "Sri Lanka"
         ],
-        "pageviews": 1796
-    },
-    {
-        "query_id": "20_453",
-        "question": "Where did Albert Stenwedel die?",
-        "answers": [
-            "Hamburg"
-        ],
-        "pageviews": 221
+        "pageviews": 9
     },
     {
         "query_id": "20_454",
@@ -3629,7 +2845,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 63181
+        "pageviews": 98
     },
     {
         "query_id": "20_455",
@@ -3637,7 +2853,7 @@
         "answers": [
             "Dublin"
         ],
-        "pageviews": 1799
+        "pageviews": 12
     },
     {
         "query_id": "20_456",
@@ -3645,7 +2861,7 @@
         "answers": [
             "Creve Coeur"
         ],
-        "pageviews": 823
+        "pageviews": 1
     },
     {
         "query_id": "20_457",
@@ -3653,7 +2869,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 3244
+        "pageviews": 1
     },
     {
         "query_id": "20_458",
@@ -3661,15 +2877,7 @@
         "answers": [
             "Toronto"
         ],
-        "pageviews": 1429
-    },
-    {
-        "query_id": "20_459",
-        "question": "Where did Leo Duyndam die?",
-        "answers": [
-            "Nice"
-        ],
-        "pageviews": 984
+        "pageviews": 2
     },
     {
         "query_id": "20_460",
@@ -3677,7 +2885,7 @@
         "answers": [
             "Tunja"
         ],
-        "pageviews": 731
+        "pageviews": 1
     },
     {
         "query_id": "20_461",
@@ -3685,7 +2893,7 @@
         "answers": [
             "Alapayevsk"
         ],
-        "pageviews": 8831
+        "pageviews": 3
     },
     {
         "query_id": "20_462",
@@ -3693,7 +2901,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 1236
+        "pageviews": 2
     },
     {
         "query_id": "20_463",
@@ -3701,7 +2909,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 2793
+        "pageviews": 5
     },
     {
         "query_id": "20_464",
@@ -3709,7 +2917,7 @@
         "answers": [
             "Bologna"
         ],
-        "pageviews": 807
+        "pageviews": 2
     },
     {
         "query_id": "20_465",
@@ -3717,7 +2925,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2248
+        "pageviews": 1
     },
     {
         "query_id": "20_466",
@@ -3725,7 +2933,7 @@
         "answers": [
             "Bloomington"
         ],
-        "pageviews": 1141
+        "pageviews": 1
     },
     {
         "query_id": "20_467",
@@ -3733,7 +2941,7 @@
         "answers": [
             "Copenhagen"
         ],
-        "pageviews": 2087
+        "pageviews": 7
     },
     {
         "query_id": "20_468",
@@ -3741,7 +2949,7 @@
         "answers": [
             "Prague"
         ],
-        "pageviews": 2252
+        "pageviews": 5
     },
     {
         "query_id": "20_469",
@@ -3749,7 +2957,7 @@
         "answers": [
             "Pittsburgh"
         ],
-        "pageviews": 1736
+        "pageviews": 3
     },
     {
         "query_id": "20_470",
@@ -3757,15 +2965,7 @@
         "answers": [
             "Heidelberg"
         ],
-        "pageviews": 1521
-    },
-    {
-        "query_id": "20_471",
-        "question": "Where did Gyula Sz\u00e9ch\u00e9nyi die?",
-        "answers": [
-            "Budapest"
-        ],
-        "pageviews": 1161
+        "pageviews": 4
     },
     {
         "query_id": "20_472",
@@ -3773,7 +2973,7 @@
         "answers": [
             "Aiguille Verte"
         ],
-        "pageviews": 2394
+        "pageviews": 1
     },
     {
         "query_id": "20_473",
@@ -3781,7 +2981,7 @@
         "answers": [
             "Igalo"
         ],
-        "pageviews": 5067
+        "pageviews": 5
     },
     {
         "query_id": "20_474",
@@ -3789,23 +2989,7 @@
         "answers": [
             "Coimbra"
         ],
-        "pageviews": 134579
-    },
-    {
-        "query_id": "20_475",
-        "question": "Where did Maxwell Rosenlicht die?",
-        "answers": [
-            "Hawaii"
-        ],
-        "pageviews": 2114
-    },
-    {
-        "query_id": "20_476",
-        "question": "Where did Harry Curtis die?",
-        "answers": [
-            "Evanston"
-        ],
-        "pageviews": 946
+        "pageviews": 169
     },
     {
         "query_id": "20_477",
@@ -3813,7 +2997,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 7567
+        "pageviews": 15
     },
     {
         "query_id": "20_478",
@@ -3821,7 +3005,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2966
+        "pageviews": 9
     },
     {
         "query_id": "20_479",
@@ -3829,7 +3013,7 @@
         "answers": [
             "Poitiers"
         ],
-        "pageviews": 545
+        "pageviews": 1
     },
     {
         "query_id": "20_480",
@@ -3837,7 +3021,7 @@
         "answers": [
             "Munich"
         ],
-        "pageviews": 0
+        "pageviews": 1
     },
     {
         "query_id": "20_481",
@@ -3845,15 +3029,7 @@
         "answers": [
             "Debrecen"
         ],
-        "pageviews": 952
-    },
-    {
-        "query_id": "20_482",
-        "question": "Where did Gaston Bogaert die?",
-        "answers": [
-            "Etterbeek"
-        ],
-        "pageviews": 1216
+        "pageviews": 1
     },
     {
         "query_id": "20_483",
@@ -3861,7 +3037,7 @@
         "answers": [
             "Orange"
         ],
-        "pageviews": 1024
+        "pageviews": 3
     },
     {
         "query_id": "20_484",
@@ -3869,7 +3045,7 @@
         "answers": [
             "Dresden"
         ],
-        "pageviews": 2349
+        "pageviews": 7
     },
     {
         "query_id": "20_485",
@@ -3877,7 +3053,7 @@
         "answers": [
             "Shandong"
         ],
-        "pageviews": 241867
+        "pageviews": 40
     },
     {
         "query_id": "20_486",
@@ -3885,7 +3061,7 @@
         "answers": [
             "Arras"
         ],
-        "pageviews": 1101
+        "pageviews": 1
     },
     {
         "query_id": "20_487",
@@ -3893,15 +3069,7 @@
         "answers": [
             "Houston"
         ],
-        "pageviews": 2517
-    },
-    {
-        "query_id": "20_488",
-        "question": "Where did Andrey Kursanov die?",
-        "answers": [
-            "Moscow"
-        ],
-        "pageviews": 834
+        "pageviews": 7
     },
     {
         "query_id": "20_489",
@@ -3909,7 +3077,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 14538
+        "pageviews": 9
     },
     {
         "query_id": "20_490",
@@ -3917,7 +3085,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 21924
+        "pageviews": 50
     },
     {
         "query_id": "20_491",
@@ -3925,15 +3093,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 5712
-    },
-    {
-        "query_id": "20_492",
-        "question": "Where did Jacob Stroyer die?",
-        "answers": [
-            "Salem"
-        ],
-        "pageviews": 1932
+        "pageviews": 18
     },
     {
         "query_id": "20_493",
@@ -3941,7 +3101,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 9753
+        "pageviews": 4
     },
     {
         "query_id": "20_494",
@@ -3949,7 +3109,7 @@
         "answers": [
             "Athens"
         ],
-        "pageviews": 1536
+        "pageviews": 2
     },
     {
         "query_id": "20_495",
@@ -3957,7 +3117,7 @@
         "answers": [
             "Rio de Janeiro"
         ],
-        "pageviews": 6857
+        "pageviews": 2
     },
     {
         "query_id": "20_496",
@@ -3965,7 +3125,7 @@
         "answers": [
             "Knoxville"
         ],
-        "pageviews": 1543
+        "pageviews": 5
     },
     {
         "query_id": "20_497",
@@ -3973,7 +3133,7 @@
         "answers": [
             "Heidelberg"
         ],
-        "pageviews": 942
+        "pageviews": 12
     },
     {
         "query_id": "20_498",
@@ -3981,7 +3141,7 @@
         "answers": [
             "Istanbul"
         ],
-        "pageviews": 9535
+        "pageviews": 6
     },
     {
         "query_id": "20_499",
@@ -3989,7 +3149,7 @@
         "answers": [
             "South Korea"
         ],
-        "pageviews": 3195
+        "pageviews": 2
     },
     {
         "query_id": "20_500",
@@ -3997,15 +3157,7 @@
         "answers": [
             "Annaba"
         ],
-        "pageviews": 34637
-    },
-    {
-        "query_id": "20_501",
-        "question": "Where did Josef Gebauer die?",
-        "answers": [
-            "Opava"
-        ],
-        "pageviews": 803
+        "pageviews": 19
     },
     {
         "query_id": "20_502",
@@ -4013,15 +3165,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 4584
-    },
-    {
-        "query_id": "20_503",
-        "question": "Where did Victoria Vinton die?",
-        "answers": [
-            "Woodland Hills"
-        ],
-        "pageviews": 2242
+        "pageviews": 11
     },
     {
         "query_id": "20_504",
@@ -4029,7 +3173,7 @@
         "answers": [
             "Saint Petersburg"
         ],
-        "pageviews": 5689
+        "pageviews": 58
     },
     {
         "query_id": "20_505",
@@ -4037,15 +3181,7 @@
         "answers": [
             "Vienna"
         ],
-        "pageviews": 3451
-    },
-    {
-        "query_id": "20_506",
-        "question": "Where did Leonard S. Echols die?",
-        "answers": [
-            "Charleston"
-        ],
-        "pageviews": 1757
+        "pageviews": 21
     },
     {
         "query_id": "20_507",
@@ -4053,7 +3189,7 @@
         "answers": [
             "Miami"
         ],
-        "pageviews": 752
+        "pageviews": 2
     },
     {
         "query_id": "20_508",
@@ -4061,7 +3197,7 @@
         "answers": [
             "Buenos Aires"
         ],
-        "pageviews": 3139
+        "pageviews": 8
     },
     {
         "query_id": "20_509",
@@ -4069,7 +3205,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 21194
+        "pageviews": 2
     },
     {
         "query_id": "20_510",
@@ -4077,7 +3213,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 4636
+        "pageviews": 1
     },
     {
         "query_id": "20_511",
@@ -4085,7 +3221,7 @@
         "answers": [
             "Mississauga"
         ],
-        "pageviews": 4150
+        "pageviews": 3
     },
     {
         "query_id": "20_512",
@@ -4093,15 +3229,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 4110
-    },
-    {
-        "query_id": "20_513",
-        "question": "Where did Anna Henryka Pustowojtowna die?",
-        "answers": [
-            "Paris"
-        ],
-        "pageviews": 2173
+        "pageviews": 34
     },
     {
         "query_id": "20_514",
@@ -4109,15 +3237,7 @@
         "answers": [
             "Yerevan"
         ],
-        "pageviews": 2348
-    },
-    {
-        "query_id": "20_515",
-        "question": "Where did Robert M. Wallace die?",
-        "answers": [
-            "Magnolia"
-        ],
-        "pageviews": 1506
+        "pageviews": 4
     },
     {
         "query_id": "20_516",
@@ -4125,7 +3245,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 2392
+        "pageviews": 4
     },
     {
         "query_id": "20_517",
@@ -4133,7 +3253,7 @@
         "answers": [
             "Kolkata"
         ],
-        "pageviews": 2098
+        "pageviews": 39
     },
     {
         "query_id": "20_518",
@@ -4141,7 +3261,7 @@
         "answers": [
             "Dordrecht"
         ],
-        "pageviews": 805
+        "pageviews": 3
     },
     {
         "query_id": "20_519",
@@ -4149,7 +3269,7 @@
         "answers": [
             "Haverfordwest"
         ],
-        "pageviews": 6021
+        "pageviews": 2
     },
     {
         "query_id": "20_520",
@@ -4157,7 +3277,7 @@
         "answers": [
             "Lincoln"
         ],
-        "pageviews": 20189
+        "pageviews": 33
     },
     {
         "query_id": "20_521",
@@ -4165,15 +3285,7 @@
         "answers": [
             "Budapest"
         ],
-        "pageviews": 2688
-    },
-    {
-        "query_id": "20_522",
-        "question": "Where did B. J. Monkiewicz die?",
-        "answers": [
-            "New Britain"
-        ],
-        "pageviews": 1371
+        "pageviews": 6
     },
     {
         "query_id": "20_523",
@@ -4181,7 +3293,7 @@
         "answers": [
             "Kyiv"
         ],
-        "pageviews": 6723
+        "pageviews": 7
     },
     {
         "query_id": "20_524",
@@ -4189,7 +3301,7 @@
         "answers": [
             "Poblet Monastery"
         ],
-        "pageviews": 5064
+        "pageviews": 8
     },
     {
         "query_id": "20_525",
@@ -4197,7 +3309,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 1927
+        "pageviews": 4
     },
     {
         "query_id": "20_526",
@@ -4205,15 +3317,7 @@
         "answers": [
             "Naples"
         ],
-        "pageviews": 17417
-    },
-    {
-        "query_id": "20_527",
-        "question": "Where did Jean-Baptiste Jodoin die?",
-        "answers": [
-            "Montreal"
-        ],
-        "pageviews": 445
+        "pageviews": 16
     },
     {
         "query_id": "20_528",
@@ -4221,7 +3325,7 @@
         "answers": [
             "Reims"
         ],
-        "pageviews": 6685
+        "pageviews": 9
     },
     {
         "query_id": "20_529",
@@ -4229,7 +3333,7 @@
         "answers": [
             "Wellington"
         ],
-        "pageviews": 1806
+        "pageviews": 2
     },
     {
         "query_id": "20_530",
@@ -4237,7 +3341,7 @@
         "answers": [
             "Washington, D.C."
         ],
-        "pageviews": 6434
+        "pageviews": 9
     },
     {
         "query_id": "20_531",
@@ -4245,15 +3349,7 @@
         "answers": [
             "Beijing"
         ],
-        "pageviews": 1401
-    },
-    {
-        "query_id": "20_532",
-        "question": "Where did James M. Riggs die?",
-        "answers": [
-            "Winchester"
-        ],
-        "pageviews": 776
+        "pageviews": 3
     },
     {
         "query_id": "20_533",
@@ -4261,7 +3357,7 @@
         "answers": [
             "Tel Aviv"
         ],
-        "pageviews": 666
+        "pageviews": 1
     },
     {
         "query_id": "20_534",
@@ -4269,15 +3365,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 1075
-    },
-    {
-        "query_id": "20_535",
-        "question": "Where did Klaus-Degenhard Schmidt die?",
-        "answers": [
-            "Dunkirk"
-        ],
-        "pageviews": 193
+        "pageviews": 1
     },
     {
         "query_id": "20_536",
@@ -4285,7 +3373,7 @@
         "answers": [
             "Santiago de Compostela"
         ],
-        "pageviews": 1537
+        "pageviews": 4
     },
     {
         "query_id": "20_537",
@@ -4293,15 +3381,7 @@
         "answers": [
             "Rosthern"
         ],
-        "pageviews": 1080
-    },
-    {
-        "query_id": "20_538",
-        "question": "Where did J.E.R. Carpenter die?",
-        "answers": [
-            "New York City"
-        ],
-        "pageviews": 2190
+        "pageviews": 4
     },
     {
         "query_id": "20_539",
@@ -4309,7 +3389,7 @@
         "answers": [
             "Tokyo"
         ],
-        "pageviews": 30510
+        "pageviews": 36
     },
     {
         "query_id": "20_540",
@@ -4317,7 +3397,7 @@
         "answers": [
             "Constantinople"
         ],
-        "pageviews": 35253
+        "pageviews": 85
     },
     {
         "query_id": "20_541",
@@ -4325,7 +3405,7 @@
         "answers": [
             "Alexandria"
         ],
-        "pageviews": 42704
+        "pageviews": 3
     },
     {
         "query_id": "20_542",
@@ -4333,7 +3413,7 @@
         "answers": [
             "Stuttgart"
         ],
-        "pageviews": 2297
+        "pageviews": 4
     },
     {
         "query_id": "20_543",
@@ -4341,7 +3421,7 @@
         "answers": [
             "Saint Petersburg"
         ],
-        "pageviews": 3514
+        "pageviews": 22
     },
     {
         "query_id": "20_544",
@@ -4349,7 +3429,7 @@
         "answers": [
             "Freiburg im Breisgau"
         ],
-        "pageviews": 1164
+        "pageviews": 1
     },
     {
         "query_id": "20_545",
@@ -4357,15 +3437,7 @@
         "answers": [
             "Heidelberg"
         ],
-        "pageviews": 9888
-    },
-    {
-        "query_id": "20_546",
-        "question": "Where did Tommy Thomas die?",
-        "answers": [
-            "Dallastown"
-        ],
-        "pageviews": 1738
+        "pageviews": 33
     },
     {
         "query_id": "20_547",
@@ -4373,7 +3445,7 @@
         "answers": [
             "Czech Republic"
         ],
-        "pageviews": 2576
+        "pageviews": 1
     },
     {
         "query_id": "20_548",
@@ -4381,7 +3453,7 @@
         "answers": [
             "Bordeaux"
         ],
-        "pageviews": 22023
+        "pageviews": 21
     },
     {
         "query_id": "20_549",
@@ -4389,7 +3461,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 1502
+        "pageviews": 8
     },
     {
         "query_id": "20_550",
@@ -4397,7 +3469,7 @@
         "answers": [
             "Magnitogorsk"
         ],
-        "pageviews": 645
+        "pageviews": 1
     },
     {
         "query_id": "20_551",
@@ -4405,7 +3477,7 @@
         "answers": [
             "Fagersta"
         ],
-        "pageviews": 807
+        "pageviews": 2
     },
     {
         "query_id": "20_552",
@@ -4413,7 +3485,7 @@
         "answers": [
             "Sherbrooke"
         ],
-        "pageviews": 1073
+        "pageviews": 1
     },
     {
         "query_id": "20_553",
@@ -4421,7 +3493,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 3425
+        "pageviews": 11
     },
     {
         "query_id": "20_554",
@@ -4429,7 +3501,7 @@
         "answers": [
             "Norwalk"
         ],
-        "pageviews": 1488
+        "pageviews": 1
     },
     {
         "query_id": "20_555",
@@ -4437,7 +3509,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 161846
+        "pageviews": 542
     },
     {
         "query_id": "20_556",
@@ -4445,7 +3517,7 @@
         "answers": [
             "Andalusia"
         ],
-        "pageviews": 1094
+        "pageviews": 5
     },
     {
         "query_id": "20_557",
@@ -4453,7 +3525,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 2836
+        "pageviews": 17
     },
     {
         "query_id": "20_558",
@@ -4461,7 +3533,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 300567
+        "pageviews": 18
     },
     {
         "query_id": "20_559",
@@ -4469,7 +3541,7 @@
         "answers": [
             "Bridlington"
         ],
-        "pageviews": 3296
+        "pageviews": 1
     },
     {
         "query_id": "20_560",
@@ -4477,7 +3549,7 @@
         "answers": [
             "Kentville"
         ],
-        "pageviews": 1029
+        "pageviews": 3
     },
     {
         "query_id": "20_561",
@@ -4485,7 +3557,7 @@
         "answers": [
             "Madrid"
         ],
-        "pageviews": 1713
+        "pageviews": 3
     },
     {
         "query_id": "20_562",
@@ -4493,7 +3565,7 @@
         "answers": [
             "Auxerre"
         ],
-        "pageviews": 3272
+        "pageviews": 4
     },
     {
         "query_id": "20_563",
@@ -4501,15 +3573,7 @@
         "answers": [
             "Lake Forest"
         ],
-        "pageviews": 1279
-    },
-    {
-        "query_id": "20_564",
-        "question": "Where did Leo Rajendram Antony die?",
-        "answers": [
-            "Trincomalee"
-        ],
-        "pageviews": 859
+        "pageviews": 2
     },
     {
         "query_id": "20_565",
@@ -4517,23 +3581,7 @@
         "answers": [
             "Kronstadt"
         ],
-        "pageviews": 30774
-    },
-    {
-        "query_id": "20_566",
-        "question": "Where did Frederick Deacon die?",
-        "answers": [
-            "Brixton"
-        ],
-        "pageviews": 1037
-    },
-    {
-        "query_id": "20_567",
-        "question": "Where did Countess Charlotte Flandrina of Nassau die?",
-        "answers": [
-            "Poitiers"
-        ],
-        "pageviews": 2999
+        "pageviews": 34
     },
     {
         "query_id": "20_568",
@@ -4541,7 +3589,7 @@
         "answers": [
             "Blythe Bridge"
         ],
-        "pageviews": 851
+        "pageviews": 1
     },
     {
         "query_id": "20_569",
@@ -4549,7 +3597,7 @@
         "answers": [
             "Israel"
         ],
-        "pageviews": 934
+        "pageviews": 2
     },
     {
         "query_id": "20_570",
@@ -4557,7 +3605,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 69549
+        "pageviews": 37
     },
     {
         "query_id": "20_571",
@@ -4565,7 +3613,7 @@
         "answers": [
             "Amsterdam"
         ],
-        "pageviews": 3056
+        "pageviews": 12
     },
     {
         "query_id": "20_572",
@@ -4573,7 +3621,7 @@
         "answers": [
             "Athens"
         ],
-        "pageviews": 5244
+        "pageviews": 6
     },
     {
         "query_id": "20_573",
@@ -4581,7 +3629,7 @@
         "answers": [
             "Beaconsfield"
         ],
-        "pageviews": 478983
+        "pageviews": 700
     },
     {
         "query_id": "20_574",
@@ -4589,7 +3637,7 @@
         "answers": [
             "Vancouver"
         ],
-        "pageviews": 420
+        "pageviews": 1
     },
     {
         "query_id": "20_575",
@@ -4597,7 +3645,7 @@
         "answers": [
             "Cincinnati"
         ],
-        "pageviews": 9195
+        "pageviews": 12
     },
     {
         "query_id": "20_576",
@@ -4605,7 +3653,7 @@
         "answers": [
             "Bergamo"
         ],
-        "pageviews": 943
+        "pageviews": 1
     },
     {
         "query_id": "20_577",
@@ -4613,7 +3661,7 @@
         "answers": [
             "Orsha"
         ],
-        "pageviews": 2354
+        "pageviews": 3
     },
     {
         "query_id": "20_578",
@@ -4621,7 +3669,7 @@
         "answers": [
             "Toulouse"
         ],
-        "pageviews": 1632
+        "pageviews": 2
     },
     {
         "query_id": "20_579",
@@ -4629,7 +3677,7 @@
         "answers": [
             "Damascus"
         ],
-        "pageviews": 9233
+        "pageviews": 15
     },
     {
         "query_id": "20_580",
@@ -4637,7 +3685,7 @@
         "answers": [
             "Wiesbaden"
         ],
-        "pageviews": 1313
+        "pageviews": 2
     },
     {
         "query_id": "20_581",
@@ -4645,7 +3693,7 @@
         "answers": [
             "Barcelona"
         ],
-        "pageviews": 21700
+        "pageviews": 61
     },
     {
         "query_id": "20_582",
@@ -4653,7 +3701,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 807
+        "pageviews": 3
     },
     {
         "query_id": "20_583",
@@ -4661,15 +3709,7 @@
         "answers": [
             "Leipzig"
         ],
-        "pageviews": 1086
-    },
-    {
-        "query_id": "20_584",
-        "question": "Where did Virginia Guerrini die?",
-        "answers": [
-            "Brescia"
-        ],
-        "pageviews": 816
+        "pageviews": 3
     },
     {
         "query_id": "20_585",
@@ -4677,7 +3717,7 @@
         "answers": [
             "Piacenza"
         ],
-        "pageviews": 18001
+        "pageviews": 12
     },
     {
         "query_id": "20_586",
@@ -4685,7 +3725,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 3179
+        "pageviews": 17
     },
     {
         "query_id": "20_587",
@@ -4693,7 +3733,7 @@
         "answers": [
             "Nemours"
         ],
-        "pageviews": 3231
+        "pageviews": 7
     },
     {
         "query_id": "20_588",
@@ -4701,7 +3741,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 1378
+        "pageviews": 3
     },
     {
         "query_id": "20_589",
@@ -4709,7 +3749,7 @@
         "answers": [
             "Lyon"
         ],
-        "pageviews": 2646
+        "pageviews": 7
     },
     {
         "query_id": "20_590",
@@ -4717,7 +3757,7 @@
         "answers": [
             "Flagstaff"
         ],
-        "pageviews": 2443
+        "pageviews": 8
     },
     {
         "query_id": "20_591",
@@ -4725,7 +3765,7 @@
         "answers": [
             "Ottoman Empire"
         ],
-        "pageviews": 41659
+        "pageviews": 1
     },
     {
         "query_id": "20_592",
@@ -4733,7 +3773,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 3350
+        "pageviews": 3
     },
     {
         "query_id": "20_593",
@@ -4741,15 +3781,7 @@
         "answers": [
             "Nice"
         ],
-        "pageviews": 20721
-    },
-    {
-        "query_id": "20_594",
-        "question": "Where did Sel\u00e2hattin \u00c2dil die?",
-        "answers": [
-            "Istanbul"
-        ],
-        "pageviews": 4850
+        "pageviews": 50
     },
     {
         "query_id": "20_595",
@@ -4757,7 +3789,7 @@
         "answers": [
             "Heidelberg"
         ],
-        "pageviews": 2503
+        "pageviews": 3
     },
     {
         "query_id": "20_596",
@@ -4765,15 +3797,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 669
-    },
-    {
-        "query_id": "20_597",
-        "question": "Where did Louis Joseph Marchand die?",
-        "answers": [
-            "Trouville-sur-Mer"
-        ],
-        "pageviews": 230
+        "pageviews": 2
     },
     {
         "query_id": "20_598",
@@ -4781,7 +3805,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 2253872
+        "pageviews": 967
     },
     {
         "query_id": "20_599",
@@ -4789,7 +3813,7 @@
         "answers": [
             "Zoagli"
         ],
-        "pageviews": 1926
+        "pageviews": 3
     },
     {
         "query_id": "20_600",
@@ -4797,7 +3821,7 @@
         "answers": [
             "Munich"
         ],
-        "pageviews": 37499
+        "pageviews": 12
     },
     {
         "query_id": "20_601",
@@ -4805,15 +3829,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 43333
-    },
-    {
-        "query_id": "20_602",
-        "question": "Where did Franti\u0161ek Ipser die?",
-        "answers": [
-            "Czech Republic"
-        ],
-        "pageviews": 814
+        "pageviews": 65
     },
     {
         "query_id": "20_603",
@@ -4821,7 +3837,7 @@
         "answers": [
             "Cluj-Napoca"
         ],
-        "pageviews": 3406
+        "pageviews": 9
     },
     {
         "query_id": "20_604",
@@ -4829,7 +3845,7 @@
         "answers": [
             "Crotone"
         ],
-        "pageviews": 5475
+        "pageviews": 7
     },
     {
         "query_id": "20_605",
@@ -4837,23 +3853,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 14963
-    },
-    {
-        "query_id": "20_606",
-        "question": "Where did Yakym Senkivskyi die?",
-        "answers": [
-            "Drohobych"
-        ],
-        "pageviews": 1363
-    },
-    {
-        "query_id": "20_607",
-        "question": "Where did Sayyid Ajjal Shams al-Din Omar die?",
-        "answers": [
-            "Yunnan"
-        ],
-        "pageviews": 28278
+        "pageviews": 17
     },
     {
         "query_id": "20_608",
@@ -4861,23 +3861,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 29574
-    },
-    {
-        "query_id": "20_609",
-        "question": "Where did David Crawford die?",
-        "answers": [
-            "Bahrain"
-        ],
-        "pageviews": 777
-    },
-    {
-        "query_id": "20_610",
-        "question": "Where did Friedrich Allmacher die?",
-        "answers": [
-            "Latvia"
-        ],
-        "pageviews": 229
+        "pageviews": 38
     },
     {
         "query_id": "20_611",
@@ -4885,7 +3869,7 @@
         "answers": [
             "Florence"
         ],
-        "pageviews": 21586
+        "pageviews": 41
     },
     {
         "query_id": "20_612",
@@ -4893,7 +3877,7 @@
         "answers": [
             "Norwich"
         ],
-        "pageviews": 5052
+        "pageviews": 1
     },
     {
         "query_id": "20_613",
@@ -4901,7 +3885,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 10979
+        "pageviews": 58
     },
     {
         "query_id": "20_614",
@@ -4909,7 +3893,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 1695
+        "pageviews": 2
     },
     {
         "query_id": "20_615",
@@ -4917,7 +3901,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 8777
+        "pageviews": 2
     },
     {
         "query_id": "20_616",
@@ -4925,7 +3909,7 @@
         "answers": [
             "Esztergom"
         ],
-        "pageviews": 1650
+        "pageviews": 2
     },
     {
         "query_id": "20_617",
@@ -4933,7 +3917,7 @@
         "answers": [
             "Harefield"
         ],
-        "pageviews": 6686
+        "pageviews": 4
     },
     {
         "query_id": "20_618",
@@ -4941,15 +3925,7 @@
         "answers": [
             "Madrid"
         ],
-        "pageviews": 1813
-    },
-    {
-        "query_id": "20_619",
-        "question": "Where did Aleksander Raczy\u0144ski die?",
-        "answers": [
-            "Lviv"
-        ],
-        "pageviews": 977
+        "pageviews": 4
     },
     {
         "query_id": "20_620",
@@ -4957,15 +3933,7 @@
         "answers": [
             "Dresden"
         ],
-        "pageviews": 2363
-    },
-    {
-        "query_id": "20_621",
-        "question": "Where did Paul Petiet die?",
-        "answers": [
-            "Limoux"
-        ],
-        "pageviews": 329
+        "pageviews": 6
     },
     {
         "query_id": "20_622",
@@ -4973,7 +3941,7 @@
         "answers": [
             "Evanston"
         ],
-        "pageviews": 1405
+        "pageviews": 1
     },
     {
         "query_id": "20_623",
@@ -4981,7 +3949,7 @@
         "answers": [
             "Nohant-Vic"
         ],
-        "pageviews": 19517
+        "pageviews": 8
     },
     {
         "query_id": "20_624",
@@ -4989,7 +3957,7 @@
         "answers": [
             "Spangenberg"
         ],
-        "pageviews": 12790
+        "pageviews": 15
     },
     {
         "query_id": "20_625",
@@ -4997,7 +3965,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 94361
+        "pageviews": 13
     },
     {
         "query_id": "20_626",
@@ -5005,7 +3973,7 @@
         "answers": [
             "Hastings"
         ],
-        "pageviews": 1910
+        "pageviews": 2
     },
     {
         "query_id": "20_627",
@@ -5013,7 +3981,7 @@
         "answers": [
             "Munich"
         ],
-        "pageviews": 1461
+        "pageviews": 5
     },
     {
         "query_id": "20_628",
@@ -5021,7 +3989,7 @@
         "answers": [
             "Auschwitz concentration camps"
         ],
-        "pageviews": 3781
+        "pageviews": 1
     },
     {
         "query_id": "20_629",
@@ -5029,7 +3997,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2597
+        "pageviews": 10
     },
     {
         "query_id": "20_630",
@@ -5037,7 +4005,7 @@
         "answers": [
             "Apache Junction"
         ],
-        "pageviews": 1531
+        "pageviews": 1
     },
     {
         "query_id": "20_631",
@@ -5045,7 +4013,7 @@
         "answers": [
             "Belfast"
         ],
-        "pageviews": 19280
+        "pageviews": 13
     },
     {
         "query_id": "20_632",
@@ -5053,15 +4021,7 @@
         "answers": [
             "Detroit"
         ],
-        "pageviews": 5554
-    },
-    {
-        "query_id": "20_633",
-        "question": "Where did Michel Renard die?",
-        "answers": [
-            "Fort-de-France"
-        ],
-        "pageviews": 1079
+        "pageviews": 5
     },
     {
         "query_id": "20_634",
@@ -5069,23 +4029,7 @@
         "answers": [
             "Stamford"
         ],
-        "pageviews": 2435
-    },
-    {
-        "query_id": "20_635",
-        "question": "Where did Boris Mikhaylovich Zaytsev die?",
-        "answers": [
-            "Moscow"
-        ],
-        "pageviews": 760
-    },
-    {
-        "query_id": "20_636",
-        "question": "Where did Robbie Branscum die?",
-        "answers": [
-            "San Pablo"
-        ],
-        "pageviews": 1743
+        "pageviews": 8
     },
     {
         "query_id": "20_637",
@@ -5093,7 +4037,7 @@
         "answers": [
             "Madrid"
         ],
-        "pageviews": 3943
+        "pageviews": 8
     },
     {
         "query_id": "20_638",
@@ -5101,7 +4045,7 @@
         "answers": [
             "Panschwitz-Kuckau"
         ],
-        "pageviews": 1460
+        "pageviews": 1
     },
     {
         "query_id": "20_639",
@@ -5109,7 +4053,7 @@
         "answers": [
             "Toronto"
         ],
-        "pageviews": 12549
+        "pageviews": 60
     },
     {
         "query_id": "20_640",
@@ -5117,7 +4061,7 @@
         "answers": [
             "Hohenberg an der Eger"
         ],
-        "pageviews": 1685
+        "pageviews": 2
     },
     {
         "query_id": "20_641",
@@ -5125,7 +4069,7 @@
         "answers": [
             "Irvine"
         ],
-        "pageviews": 5192
+        "pageviews": 5
     },
     {
         "query_id": "20_642",
@@ -5133,7 +4077,7 @@
         "answers": [
             "Tenochtitlan"
         ],
-        "pageviews": 3661
+        "pageviews": 2
     },
     {
         "query_id": "20_643",
@@ -5141,7 +4085,7 @@
         "answers": [
             "Milan"
         ],
-        "pageviews": 2513
+        "pageviews": 6
     },
     {
         "query_id": "20_644",
@@ -5149,15 +4093,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 1778
-    },
-    {
-        "query_id": "20_645",
-        "question": "Where did Marian Mazur die?",
-        "answers": [
-            "Warsaw"
-        ],
-        "pageviews": 4015
+        "pageviews": 11
     },
     {
         "query_id": "20_646",
@@ -5165,7 +4101,7 @@
         "answers": [
             "Wellington"
         ],
-        "pageviews": 2656
+        "pageviews": 1
     },
     {
         "query_id": "20_647",
@@ -5173,15 +4109,7 @@
         "answers": [
             "Mufulira"
         ],
-        "pageviews": 2503
-    },
-    {
-        "query_id": "20_648",
-        "question": "Where did Josef Ackermann die?",
-        "answers": [
-            "Vallendar"
-        ],
-        "pageviews": 1785
+        "pageviews": 4
     },
     {
         "query_id": "20_649",
@@ -5189,7 +4117,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 2628
+        "pageviews": 3
     },
     {
         "query_id": "20_650",
@@ -5197,7 +4125,7 @@
         "answers": [
             "Fort Myers"
         ],
-        "pageviews": 3351
+        "pageviews": 7
     },
     {
         "query_id": "20_651",
@@ -5205,7 +4133,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 856
+        "pageviews": 2
     },
     {
         "query_id": "20_652",
@@ -5213,7 +4141,7 @@
         "answers": [
             "Cincinnati"
         ],
-        "pageviews": 96371
+        "pageviews": 30
     },
     {
         "query_id": "20_653",
@@ -5221,15 +4149,7 @@
         "answers": [
             "Chowan County"
         ],
-        "pageviews": 10334
-    },
-    {
-        "query_id": "20_654",
-        "question": "Where did James T. Farley die?",
-        "answers": [
-            "Jackson"
-        ],
-        "pageviews": 3867
+        "pageviews": 16
     },
     {
         "query_id": "20_655",
@@ -5237,7 +4157,7 @@
         "answers": [
             "Naples"
         ],
-        "pageviews": 8646
+        "pageviews": 21
     },
     {
         "query_id": "20_656",
@@ -5245,7 +4165,7 @@
         "answers": [
             "Oslo"
         ],
-        "pageviews": 550
+        "pageviews": 1
     },
     {
         "query_id": "20_657",
@@ -5253,7 +4173,7 @@
         "answers": [
             "Istanbul"
         ],
-        "pageviews": 2061
+        "pageviews": 2
     },
     {
         "query_id": "20_658",
@@ -5261,7 +4181,7 @@
         "answers": [
             "Zagreb"
         ],
-        "pageviews": 3064
+        "pageviews": 19
     },
     {
         "query_id": "20_659",
@@ -5269,7 +4189,7 @@
         "answers": [
             "Milan"
         ],
-        "pageviews": 1058
+        "pageviews": 3
     },
     {
         "query_id": "20_660",
@@ -5277,7 +4197,7 @@
         "answers": [
             "Tehran"
         ],
-        "pageviews": 1701
+        "pageviews": 1
     },
     {
         "query_id": "20_661",
@@ -5285,23 +4205,7 @@
         "answers": [
             "Copenhagen"
         ],
-        "pageviews": 5556
-    },
-    {
-        "query_id": "20_662",
-        "question": "Where did Freeman Nickerson die?",
-        "answers": [
-            "Chariton River"
-        ],
-        "pageviews": 899
-    },
-    {
-        "query_id": "20_663",
-        "question": "Where did Jesse Price die?",
-        "answers": [
-            "Ocean City"
-        ],
-        "pageviews": 2185
+        "pageviews": 5
     },
     {
         "query_id": "20_664",
@@ -5309,7 +4213,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 2378
+        "pageviews": 5
     },
     {
         "query_id": "20_665",
@@ -5317,15 +4221,7 @@
         "answers": [
             "Guadalajara"
         ],
-        "pageviews": 3268
-    },
-    {
-        "query_id": "20_666",
-        "question": "Where did Jos\u00e9 Maldonado Gonz\u00e1lez die?",
-        "answers": [
-            "Oviedo"
-        ],
-        "pageviews": 6961
+        "pageviews": 9
     },
     {
         "query_id": "20_667",
@@ -5333,7 +4229,7 @@
         "answers": [
             "Mexico City"
         ],
-        "pageviews": 1052
+        "pageviews": 1
     },
     {
         "query_id": "20_668",
@@ -5341,7 +4237,7 @@
         "answers": [
             "Beijing"
         ],
-        "pageviews": 55570
+        "pageviews": 54
     },
     {
         "query_id": "20_669",
@@ -5349,7 +4245,7 @@
         "answers": [
             "Stockholm"
         ],
-        "pageviews": 1756
+        "pageviews": 2
     },
     {
         "query_id": "20_670",
@@ -5357,7 +4253,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 44940
+        "pageviews": 4
     },
     {
         "query_id": "20_671",
@@ -5365,15 +4261,7 @@
         "answers": [
             "Sydney"
         ],
-        "pageviews": 612
-    },
-    {
-        "query_id": "20_672",
-        "question": "Where did Narcisa Freixas die?",
-        "answers": [
-            "Barcelona"
-        ],
-        "pageviews": 1466
+        "pageviews": 1
     },
     {
         "query_id": "20_673",
@@ -5381,7 +4269,7 @@
         "answers": [
             "Thessaloniki"
         ],
-        "pageviews": 7302
+        "pageviews": 1
     },
     {
         "query_id": "20_674",
@@ -5389,7 +4277,7 @@
         "answers": [
             "San Francisco"
         ],
-        "pageviews": 1737
+        "pageviews": 2
     },
     {
         "query_id": "20_675",
@@ -5397,7 +4285,7 @@
         "answers": [
             "Buenos Aires"
         ],
-        "pageviews": 1446
+        "pageviews": 9
     },
     {
         "query_id": "20_676",
@@ -5405,7 +4293,7 @@
         "answers": [
             "Bergamo"
         ],
-        "pageviews": 2262
+        "pageviews": 4
     },
     {
         "query_id": "20_677",
@@ -5413,15 +4301,7 @@
         "answers": [
             "Augsburg"
         ],
-        "pageviews": 2262
-    },
-    {
-        "query_id": "20_678",
-        "question": "Where did Les Bull die?",
-        "answers": [
-            "Tempe"
-        ],
-        "pageviews": 593
+        "pageviews": 6
     },
     {
         "query_id": "20_679",
@@ -5429,7 +4309,7 @@
         "answers": [
             "Helsinki"
         ],
-        "pageviews": 949
+        "pageviews": 3
     },
     {
         "query_id": "20_680",
@@ -5437,15 +4317,7 @@
         "answers": [
             "Kuwait city"
         ],
-        "pageviews": 20074
-    },
-    {
-        "query_id": "20_681",
-        "question": "Where did Hugh Morgan die?",
-        "answers": [
-            "Scotland"
-        ],
-        "pageviews": 612
+        "pageviews": 14
     },
     {
         "query_id": "20_682",
@@ -5453,7 +4325,7 @@
         "answers": [
             "Thessaloniki"
         ],
-        "pageviews": 3334
+        "pageviews": 2
     },
     {
         "query_id": "20_683",
@@ -5461,15 +4333,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 1832
-    },
-    {
-        "query_id": "20_684",
-        "question": "Where did Crese Heismann die?",
-        "answers": [
-            "Cincinnati"
-        ],
-        "pageviews": 736
+        "pageviews": 1
     },
     {
         "query_id": "20_685",
@@ -5477,7 +4341,7 @@
         "answers": [
             "Houston"
         ],
-        "pageviews": 2579
+        "pageviews": 10
     },
     {
         "query_id": "20_686",
@@ -5485,15 +4349,7 @@
         "answers": [
             "Lohja"
         ],
-        "pageviews": 6408
-    },
-    {
-        "query_id": "20_687",
-        "question": "Where did Mike Roberts die?",
-        "answers": [
-            "Albuquerque"
-        ],
-        "pageviews": 1996
+        "pageviews": 16
     },
     {
         "query_id": "20_688",
@@ -5501,15 +4357,7 @@
         "answers": [
             "Munich"
         ],
-        "pageviews": 3141
-    },
-    {
-        "query_id": "20_689",
-        "question": "Where did Heinz Bevernis die?",
-        "answers": [
-            "Staraya Russa"
-        ],
-        "pageviews": 121
+        "pageviews": 26
     },
     {
         "query_id": "20_690",
@@ -5517,7 +4365,7 @@
         "answers": [
             "Buenos Aires"
         ],
-        "pageviews": 2158
+        "pageviews": 2
     },
     {
         "query_id": "20_691",
@@ -5525,7 +4373,7 @@
         "answers": [
             "Prague"
         ],
-        "pageviews": 757
+        "pageviews": 1
     },
     {
         "query_id": "20_692",
@@ -5533,7 +4381,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 1754
+        "pageviews": 5
     },
     {
         "query_id": "20_693",
@@ -5541,15 +4389,7 @@
         "answers": [
             "Girona"
         ],
-        "pageviews": 3052
-    },
-    {
-        "query_id": "20_694",
-        "question": "Where did \u00c9mile de Mot die?",
-        "answers": [
-            "Brussels-Capital Region"
-        ],
-        "pageviews": 917
+        "pageviews": 16
     },
     {
         "query_id": "20_695",
@@ -5557,15 +4397,7 @@
         "answers": [
             "Ingolstadt"
         ],
-        "pageviews": 785
-    },
-    {
-        "query_id": "20_696",
-        "question": "Where did Kees Ouwens die?",
-        "answers": [
-            "Heemstede"
-        ],
-        "pageviews": 762
+        "pageviews": 2
     },
     {
         "query_id": "20_697",
@@ -5573,7 +4405,7 @@
         "answers": [
             "Baltimore"
         ],
-        "pageviews": 5509
+        "pageviews": 1
     },
     {
         "query_id": "20_698",
@@ -5581,23 +4413,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 1597
-    },
-    {
-        "query_id": "20_699",
-        "question": "Where did William Marks die?",
-        "answers": [
-            "Beaver"
-        ],
-        "pageviews": 1584
-    },
-    {
-        "query_id": "20_700",
-        "question": "Where did Bill Graham die?",
-        "answers": [
-            "Flemingsburg"
-        ],
-        "pageviews": 957
+        "pageviews": 2
     },
     {
         "query_id": "20_701",
@@ -5605,7 +4421,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 2828
+        "pageviews": 7
     },
     {
         "query_id": "20_702",
@@ -5613,15 +4429,7 @@
         "answers": [
             "Gibraltar"
         ],
-        "pageviews": 73019
-    },
-    {
-        "query_id": "20_703",
-        "question": "Where did Archie Campbell die?",
-        "answers": [
-            "Knoxville"
-        ],
-        "pageviews": 38725
+        "pageviews": 202
     },
     {
         "query_id": "20_704",
@@ -5629,7 +4437,7 @@
         "answers": [
             "Magdeburg"
         ],
-        "pageviews": 849
+        "pageviews": 1
     },
     {
         "query_id": "20_705",
@@ -5637,7 +4445,7 @@
         "answers": [
             "Vienna"
         ],
-        "pageviews": 4795
+        "pageviews": 30
     },
     {
         "query_id": "20_706",
@@ -5645,7 +4453,7 @@
         "answers": [
             "Baku"
         ],
-        "pageviews": 4021
+        "pageviews": 4
     },
     {
         "query_id": "20_707",
@@ -5653,7 +4461,7 @@
         "answers": [
             "Munich"
         ],
-        "pageviews": 4899
+        "pageviews": 1
     },
     {
         "query_id": "20_708",
@@ -5661,7 +4469,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 1419
+        "pageviews": 2
     },
     {
         "query_id": "20_709",
@@ -5669,7 +4477,7 @@
         "answers": [
             "Tokyo"
         ],
-        "pageviews": 3821
+        "pageviews": 2
     },
     {
         "query_id": "20_710",
@@ -5677,7 +4485,7 @@
         "answers": [
             "Jerusalem"
         ],
-        "pageviews": 88067
+        "pageviews": 3
     },
     {
         "query_id": "20_711",
@@ -5685,23 +4493,7 @@
         "answers": [
             "Lehrte"
         ],
-        "pageviews": 3016
-    },
-    {
-        "query_id": "20_712",
-        "question": "Where did Johannes van der Aeck die?",
-        "answers": [
-            "Leiden"
-        ],
-        "pageviews": 2289
-    },
-    {
-        "query_id": "20_713",
-        "question": "Where did Yiannis Poulakas die?",
-        "answers": [
-            "Athens"
-        ],
-        "pageviews": 1373
+        "pageviews": 7
     },
     {
         "query_id": "20_714",
@@ -5709,7 +4501,7 @@
         "answers": [
             "Toronto"
         ],
-        "pageviews": 1257
+        "pageviews": 3
     },
     {
         "query_id": "20_715",
@@ -5717,7 +4509,7 @@
         "answers": [
             "Ottawa"
         ],
-        "pageviews": 1161
+        "pageviews": 12
     },
     {
         "query_id": "20_716",
@@ -5725,7 +4517,7 @@
         "answers": [
             "Medford"
         ],
-        "pageviews": 2414
+        "pageviews": 2
     },
     {
         "query_id": "20_717",
@@ -5733,15 +4525,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 4312
-    },
-    {
-        "query_id": "20_718",
-        "question": "Where did Paul Blair die?",
-        "answers": [
-            "Latrobe"
-        ],
-        "pageviews": 618
+        "pageviews": 10
     },
     {
         "query_id": "20_719",
@@ -5749,7 +4533,7 @@
         "answers": [
             "Potsdam"
         ],
-        "pageviews": 175038
+        "pageviews": 340
     },
     {
         "query_id": "20_720",
@@ -5757,15 +4541,7 @@
         "answers": [
             "Pasadena"
         ],
-        "pageviews": 694
-    },
-    {
-        "query_id": "20_721",
-        "question": "Where did Maa Naa Chowdappa die?",
-        "answers": [
-            "Bengaluru"
-        ],
-        "pageviews": 934
+        "pageviews": 1
     },
     {
         "query_id": "20_722",
@@ -5773,15 +4549,7 @@
         "answers": [
             "Girona"
         ],
-        "pageviews": 30174
-    },
-    {
-        "query_id": "20_723",
-        "question": "Where did \u00c1ngel Leyes die?",
-        "answers": [
-            "Buenos Aires"
-        ],
-        "pageviews": 564
+        "pageviews": 63
     },
     {
         "query_id": "20_724",
@@ -5789,7 +4557,7 @@
         "answers": [
             "Chernivtsi"
         ],
-        "pageviews": 907
+        "pageviews": 7
     },
     {
         "query_id": "20_725",
@@ -5797,7 +4565,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 2355
+        "pageviews": 5
     },
     {
         "query_id": "20_726",
@@ -5805,7 +4573,7 @@
         "answers": [
             "Naples"
         ],
-        "pageviews": 1643
+        "pageviews": 7
     },
     {
         "query_id": "20_727",
@@ -5813,7 +4581,7 @@
         "answers": [
             "Delray Beach"
         ],
-        "pageviews": 3547
+        "pageviews": 4
     },
     {
         "query_id": "20_728",
@@ -5821,7 +4589,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 13550
+        "pageviews": 71
     },
     {
         "query_id": "20_729",
@@ -5829,7 +4597,7 @@
         "answers": [
             "Washington, D.C."
         ],
-        "pageviews": 2770
+        "pageviews": 4
     },
     {
         "query_id": "20_730",
@@ -5837,7 +4605,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 10264
+        "pageviews": 2
     },
     {
         "query_id": "20_731",
@@ -5845,7 +4613,7 @@
         "answers": [
             "Santa Monica"
         ],
-        "pageviews": 20783
+        "pageviews": 1
     },
     {
         "query_id": "20_732",
@@ -5853,7 +4621,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 9341
+        "pageviews": 3
     },
     {
         "query_id": "20_733",
@@ -5861,7 +4629,7 @@
         "answers": [
             "Seattle"
         ],
-        "pageviews": 13906
+        "pageviews": 6
     },
     {
         "query_id": "20_734",
@@ -5869,7 +4637,7 @@
         "answers": [
             "Vienna"
         ],
-        "pageviews": 1634
+        "pageviews": 2
     },
     {
         "query_id": "20_735",
@@ -5877,23 +4645,7 @@
         "answers": [
             "Todtmoos"
         ],
-        "pageviews": 1269
-    },
-    {
-        "query_id": "20_736",
-        "question": "Where did John D. Stewart die?",
-        "answers": [
-            "Griffin"
-        ],
-        "pageviews": 1073
-    },
-    {
-        "query_id": "20_737",
-        "question": "Where did Giovanni Giacomo Semenza die?",
-        "answers": [
-            "Bologna"
-        ],
-        "pageviews": 937
+        "pageviews": 1
     },
     {
         "query_id": "20_738",
@@ -5901,7 +4653,7 @@
         "answers": [
             "Indianapolis"
         ],
-        "pageviews": 12210
+        "pageviews": 15
     },
     {
         "query_id": "20_739",
@@ -5909,7 +4661,7 @@
         "answers": [
             "Columbia"
         ],
-        "pageviews": 1046
+        "pageviews": 1
     },
     {
         "query_id": "20_740",
@@ -5917,7 +4669,7 @@
         "answers": [
             "Madrid"
         ],
-        "pageviews": 2191
+        "pageviews": 3
     },
     {
         "query_id": "20_741",
@@ -5925,7 +4677,7 @@
         "answers": [
             "Warsaw"
         ],
-        "pageviews": 1222
+        "pageviews": 1
     },
     {
         "query_id": "20_742",
@@ -5933,7 +4685,7 @@
         "answers": [
             "Rawalpindi"
         ],
-        "pageviews": 3126
+        "pageviews": 3
     },
     {
         "query_id": "20_743",
@@ -5941,23 +4693,7 @@
         "answers": [
             "Georgian Soviet Socialist Republic"
         ],
-        "pageviews": 2187
-    },
-    {
-        "query_id": "20_744",
-        "question": "Where did Joseph Sherman Frelinghuysen, Jr. die?",
-        "answers": [
-            "Morristown"
-        ],
-        "pageviews": 1291
-    },
-    {
-        "query_id": "20_745",
-        "question": "Where did James T. Pratt die?",
-        "answers": [
-            "Wethersfield"
-        ],
-        "pageviews": 1541
+        "pageviews": 4
     },
     {
         "query_id": "20_746",
@@ -5965,7 +4701,7 @@
         "answers": [
             "Brownhills"
         ],
-        "pageviews": 1463
+        "pageviews": 4
     },
     {
         "query_id": "20_747",
@@ -5973,7 +4709,7 @@
         "answers": [
             "Isfahan"
         ],
-        "pageviews": 8670
+        "pageviews": 10
     },
     {
         "query_id": "20_748",
@@ -5981,7 +4717,7 @@
         "answers": [
             "Erfurt"
         ],
-        "pageviews": 1049
+        "pageviews": 5
     },
     {
         "query_id": "20_749",
@@ -5989,7 +4725,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 4783
+        "pageviews": 1
     },
     {
         "query_id": "20_750",
@@ -5997,7 +4733,7 @@
         "answers": [
             "Palermo"
         ],
-        "pageviews": 1472
+        "pageviews": 4
     },
     {
         "query_id": "20_751",
@@ -6005,7 +4741,7 @@
         "answers": [
             "Brooklyn"
         ],
-        "pageviews": 1092
+        "pageviews": 1
     },
     {
         "query_id": "20_752",
@@ -6013,7 +4749,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 4185
+        "pageviews": 12
     },
     {
         "query_id": "20_753",
@@ -6021,15 +4757,7 @@
         "answers": [
             "Turin"
         ],
-        "pageviews": 3127
-    },
-    {
-        "query_id": "20_754",
-        "question": "Where did Samuel Bindon die?",
-        "answers": [
-            "St Kilda"
-        ],
-        "pageviews": 512
+        "pageviews": 7
     },
     {
         "query_id": "20_755",
@@ -6037,7 +4765,7 @@
         "answers": [
             "Piacenza"
         ],
-        "pageviews": 12625
+        "pageviews": 17
     },
     {
         "query_id": "20_756",
@@ -6045,7 +4773,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 4740
+        "pageviews": 28
     },
     {
         "query_id": "20_757",
@@ -6053,7 +4781,7 @@
         "answers": [
             "Genoa"
         ],
-        "pageviews": 2335
+        "pageviews": 15
     },
     {
         "query_id": "20_758",
@@ -6061,15 +4789,7 @@
         "answers": [
             "Haarlem"
         ],
-        "pageviews": 580
-    },
-    {
-        "query_id": "20_759",
-        "question": "Where did John Ernest IV, Duke of Saxe-Coburg-Saalfeld die?",
-        "answers": [
-            "Saalfeld"
-        ],
-        "pageviews": 0
+        "pageviews": 2
     },
     {
         "query_id": "20_760",
@@ -6077,7 +4797,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 928
+        "pageviews": 2
     },
     {
         "query_id": "20_761",
@@ -6085,7 +4805,7 @@
         "answers": [
             "Istanbul"
         ],
-        "pageviews": 18397
+        "pageviews": 29
     },
     {
         "query_id": "20_762",
@@ -6093,7 +4813,7 @@
         "answers": [
             "Stockholm"
         ],
-        "pageviews": 3806
+        "pageviews": 55
     },
     {
         "query_id": "20_763",
@@ -6101,7 +4821,7 @@
         "answers": [
             "Hanover"
         ],
-        "pageviews": 1692
+        "pageviews": 14
     },
     {
         "query_id": "20_764",
@@ -6109,7 +4829,7 @@
         "answers": [
             "Lund"
         ],
-        "pageviews": 5828
+        "pageviews": 9
     },
     {
         "query_id": "20_765",
@@ -6117,15 +4837,7 @@
         "answers": [
             "San Francisco"
         ],
-        "pageviews": 18358
-    },
-    {
-        "query_id": "20_766",
-        "question": "Where did Joshua Weldon Miles die?",
-        "answers": [
-            "Baltimore"
-        ],
-        "pageviews": 173
+        "pageviews": 4
     },
     {
         "query_id": "20_767",
@@ -6133,15 +4845,7 @@
         "answers": [
             "Thionville"
         ],
-        "pageviews": 970
-    },
-    {
-        "query_id": "20_768",
-        "question": "Where did Paul-Otto Bessire die?",
-        "answers": [
-            "Moutier"
-        ],
-        "pageviews": 681
+        "pageviews": 2
     },
     {
         "query_id": "20_769",
@@ -6149,7 +4853,7 @@
         "answers": [
             "Caracas"
         ],
-        "pageviews": 725
+        "pageviews": 2
     },
     {
         "query_id": "20_770",
@@ -6157,7 +4861,7 @@
         "answers": [
             "Wallaceburg"
         ],
-        "pageviews": 7155
+        "pageviews": 5
     },
     {
         "query_id": "20_771",
@@ -6165,7 +4869,7 @@
         "answers": [
             "Canterbury"
         ],
-        "pageviews": 5593
+        "pageviews": 9
     },
     {
         "query_id": "20_772",
@@ -6173,7 +4877,7 @@
         "answers": [
             "Havana"
         ],
-        "pageviews": 31734
+        "pageviews": 30
     },
     {
         "query_id": "20_773",
@@ -6181,7 +4885,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 1941
+        "pageviews": 1
     },
     {
         "query_id": "20_774",
@@ -6189,7 +4893,7 @@
         "answers": [
             "United States of America"
         ],
-        "pageviews": 971
+        "pageviews": 1
     },
     {
         "query_id": "20_775",
@@ -6197,7 +4901,7 @@
         "answers": [
             "Budapest"
         ],
-        "pageviews": 1484
+        "pageviews": 3
     },
     {
         "query_id": "20_776",
@@ -6205,15 +4909,7 @@
         "answers": [
             "Rhode Island"
         ],
-        "pageviews": 2425
-    },
-    {
-        "query_id": "20_777",
-        "question": "Where did Samuel Daskam die?",
-        "answers": [
-            "Norwalk"
-        ],
-        "pageviews": 509
+        "pageviews": 2
     },
     {
         "query_id": "20_778",
@@ -6221,7 +4917,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 1148
+        "pageviews": 7
     },
     {
         "query_id": "20_780",
@@ -6229,7 +4925,7 @@
         "answers": [
             "Hampstead"
         ],
-        "pageviews": 1781
+        "pageviews": 2
     },
     {
         "query_id": "20_781",
@@ -6237,7 +4933,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 3468
+        "pageviews": 1
     },
     {
         "query_id": "20_782",
@@ -6245,7 +4941,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 10613
+        "pageviews": 50
     },
     {
         "query_id": "20_783",
@@ -6253,7 +4949,7 @@
         "answers": [
             "Vienna"
         ],
-        "pageviews": 5241
+        "pageviews": 4
     },
     {
         "query_id": "20_784",
@@ -6261,15 +4957,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 4374
-    },
-    {
-        "query_id": "20_785",
-        "question": "Where did Alec Acton die?",
-        "answers": [
-            "Leicester"
-        ],
-        "pageviews": 832
+        "pageviews": 4
     },
     {
         "query_id": "20_786",
@@ -6277,7 +4965,7 @@
         "answers": [
             "Cologne"
         ],
-        "pageviews": 2870
+        "pageviews": 10
     },
     {
         "query_id": "20_787",
@@ -6285,7 +4973,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 46437
+        "pageviews": 71
     },
     {
         "query_id": "20_788",
@@ -6293,15 +4981,7 @@
         "answers": [
             "Knokke-Heist"
         ],
-        "pageviews": 2525
-    },
-    {
-        "query_id": "20_789",
-        "question": "Where did Sh\u016bsei Nakamura die?",
-        "answers": [
-            "Tokyo"
-        ],
-        "pageviews": 2410
+        "pageviews": 4
     },
     {
         "query_id": "20_790",
@@ -6309,7 +4989,7 @@
         "answers": [
             "Haimhausen"
         ],
-        "pageviews": 964
+        "pageviews": 3
     },
     {
         "query_id": "20_791",
@@ -6317,7 +4997,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 10905
+        "pageviews": 16
     },
     {
         "query_id": "20_792",
@@ -6325,15 +5005,7 @@
         "answers": [
             "Budapest"
         ],
-        "pageviews": 4445
-    },
-    {
-        "query_id": "20_793",
-        "question": "Where did David Watson die?",
-        "answers": [
-            "New Gloucester"
-        ],
-        "pageviews": 568
+        "pageviews": 11
     },
     {
         "query_id": "20_794",
@@ -6341,15 +5013,7 @@
         "answers": [
             "Chernivtsi"
         ],
-        "pageviews": 2566
-    },
-    {
-        "query_id": "20_795",
-        "question": "Where did Maximo Munzi die?",
-        "answers": [
-            "Los Angeles"
-        ],
-        "pageviews": 1315
+        "pageviews": 3
     },
     {
         "query_id": "20_796",
@@ -6357,7 +5021,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 161709
+        "pageviews": 15
     },
     {
         "query_id": "20_797",
@@ -6365,7 +5029,7 @@
         "answers": [
             "Erie"
         ],
-        "pageviews": 1109
+        "pageviews": 1
     },
     {
         "query_id": "20_798",
@@ -6373,7 +5037,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 2327
+        "pageviews": 1
     },
     {
         "query_id": "20_799",
@@ -6381,7 +5045,7 @@
         "answers": [
             "Munich"
         ],
-        "pageviews": 2698
+        "pageviews": 5
     },
     {
         "query_id": "20_800",
@@ -6389,7 +5053,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 1681
+        "pageviews": 5
     },
     {
         "query_id": "20_801",
@@ -6397,7 +5061,7 @@
         "answers": [
             "Ottawa"
         ],
-        "pageviews": 1800
+        "pageviews": 6
     },
     {
         "query_id": "20_802",
@@ -6405,7 +5069,7 @@
         "answers": [
             "Saint Petersburg"
         ],
-        "pageviews": 64403
+        "pageviews": 23
     },
     {
         "query_id": "20_803",
@@ -6413,7 +5077,7 @@
         "answers": [
             "Hamburg"
         ],
-        "pageviews": 3513
+        "pageviews": 3
     },
     {
         "query_id": "20_804",
@@ -6421,7 +5085,7 @@
         "answers": [
             "La Jolla"
         ],
-        "pageviews": 7529
+        "pageviews": 1
     },
     {
         "query_id": "20_805",
@@ -6429,7 +5093,7 @@
         "answers": [
             "Changdeokgung"
         ],
-        "pageviews": 173924
+        "pageviews": 7
     },
     {
         "query_id": "20_806",
@@ -6437,23 +5101,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 101507
-    },
-    {
-        "query_id": "20_807",
-        "question": "Where did Karol Kmetko die?",
-        "answers": [
-            "Nitra"
-        ],
-        "pageviews": 808
-    },
-    {
-        "query_id": "20_808",
-        "question": "Where did Lorenzo Welton Elder die?",
-        "answers": [
-            "Hoboken"
-        ],
-        "pageviews": 706
+        "pageviews": 39
     },
     {
         "query_id": "20_809",
@@ -6461,7 +5109,7 @@
         "answers": [
             "Sapporo"
         ],
-        "pageviews": 2127
+        "pageviews": 4
     },
     {
         "query_id": "20_810",
@@ -6469,7 +5117,7 @@
         "answers": [
             "Oadby"
         ],
-        "pageviews": 446
+        "pageviews": 1
     },
     {
         "query_id": "20_811",
@@ -6477,7 +5125,7 @@
         "answers": [
             "Charleston"
         ],
-        "pageviews": 6528
+        "pageviews": 7
     },
     {
         "query_id": "20_812",
@@ -6485,7 +5133,7 @@
         "answers": [
             "East Prussia"
         ],
-        "pageviews": 1474
+        "pageviews": 1
     },
     {
         "query_id": "20_813",
@@ -6493,23 +5141,7 @@
         "answers": [
             "Monroe"
         ],
-        "pageviews": 50170
-    },
-    {
-        "query_id": "20_814",
-        "question": "Where did Viktor Masing die?",
-        "answers": [
-            "Tartu"
-        ],
-        "pageviews": 876
-    },
-    {
-        "query_id": "20_815",
-        "question": "Where did Jesse Altenburg die?",
-        "answers": [
-            "Lansing"
-        ],
-        "pageviews": 878
+        "pageviews": 9
     },
     {
         "query_id": "20_816",
@@ -6517,7 +5149,7 @@
         "answers": [
             "Oegstgeest"
         ],
-        "pageviews": 3104
+        "pageviews": 8
     },
     {
         "query_id": "20_817",
@@ -6525,7 +5157,7 @@
         "answers": [
             "Hollywood"
         ],
-        "pageviews": 7356
+        "pageviews": 2
     },
     {
         "query_id": "20_818",
@@ -6533,7 +5165,7 @@
         "answers": [
             "Hollywood"
         ],
-        "pageviews": 8470
+        "pageviews": 22
     },
     {
         "query_id": "20_819",
@@ -6541,23 +5173,7 @@
         "answers": [
             "Jerusalem"
         ],
-        "pageviews": 1226
-    },
-    {
-        "query_id": "20_820",
-        "question": "Where did Filip Schleicher die?",
-        "answers": [
-            "Lviv"
-        ],
-        "pageviews": 375
-    },
-    {
-        "query_id": "20_821",
-        "question": "Where did Willie Mills die?",
-        "answers": [
-            "Aberdeen"
-        ],
-        "pageviews": 1083
+        "pageviews": 3
     },
     {
         "query_id": "20_822",
@@ -6565,7 +5181,7 @@
         "answers": [
             "Dresden"
         ],
-        "pageviews": 3073
+        "pageviews": 10
     },
     {
         "query_id": "20_823",
@@ -6573,7 +5189,7 @@
         "answers": [
             "La Paz"
         ],
-        "pageviews": 1283
+        "pageviews": 1
     },
     {
         "query_id": "20_824",
@@ -6581,7 +5197,7 @@
         "answers": [
             "Toronto"
         ],
-        "pageviews": 1041
+        "pageviews": 5
     },
     {
         "query_id": "20_825",
@@ -6589,7 +5205,7 @@
         "answers": [
             "San Francisco"
         ],
-        "pageviews": 26037
+        "pageviews": 7
     },
     {
         "query_id": "20_826",
@@ -6597,15 +5213,7 @@
         "answers": [
             "Birmingham"
         ],
-        "pageviews": 1696
-    },
-    {
-        "query_id": "20_827",
-        "question": "Where did Dezs\u0151 Wein die?",
-        "answers": [
-            "Budapest"
-        ],
-        "pageviews": 730
+        "pageviews": 19
     },
     {
         "query_id": "20_828",
@@ -6613,15 +5221,7 @@
         "answers": [
             "Hanover"
         ],
-        "pageviews": 4561
-    },
-    {
-        "query_id": "20_829",
-        "question": "Where did John B. Long die?",
-        "answers": [
-            "Rusk"
-        ],
-        "pageviews": 854
+        "pageviews": 12
     },
     {
         "query_id": "20_830",
@@ -6629,7 +5229,7 @@
         "answers": [
             "Amsterdam"
         ],
-        "pageviews": 800
+        "pageviews": 1
     },
     {
         "query_id": "20_831",
@@ -6637,7 +5237,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 1278
+        "pageviews": 2
     },
     {
         "query_id": "20_832",
@@ -6645,7 +5245,7 @@
         "answers": [
             "Buenos Aires"
         ],
-        "pageviews": 1048
+        "pageviews": 1
     },
     {
         "query_id": "20_833",
@@ -6653,7 +5253,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 4008
+        "pageviews": 1
     },
     {
         "query_id": "20_834",
@@ -6661,7 +5261,7 @@
         "answers": [
             "Warsaw"
         ],
-        "pageviews": 2874
+        "pageviews": 7
     },
     {
         "query_id": "20_835",
@@ -6669,7 +5269,7 @@
         "answers": [
             "Middelburg"
         ],
-        "pageviews": 1828
+        "pageviews": 1
     },
     {
         "query_id": "20_836",
@@ -6677,7 +5277,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 135914
+        "pageviews": 260
     },
     {
         "query_id": "20_837",
@@ -6685,7 +5285,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 7506
+        "pageviews": 19
     },
     {
         "query_id": "20_838",
@@ -6693,7 +5293,7 @@
         "answers": [
             "Pergamon"
         ],
-        "pageviews": 15009
+        "pageviews": 11
     },
     {
         "query_id": "20_839",
@@ -6701,7 +5301,7 @@
         "answers": [
             "Bad Godesberg"
         ],
-        "pageviews": 4986
+        "pageviews": 9
     },
     {
         "query_id": "20_840",
@@ -6709,7 +5309,7 @@
         "answers": [
             "Madison"
         ],
-        "pageviews": 94018
+        "pageviews": 35
     },
     {
         "query_id": "20_841",
@@ -6717,7 +5317,7 @@
         "answers": [
             "Vaxholm"
         ],
-        "pageviews": 2992
+        "pageviews": 3
     },
     {
         "query_id": "20_842",
@@ -6725,7 +5325,7 @@
         "answers": [
             "Salt Lake City"
         ],
-        "pageviews": 1249
+        "pageviews": 3
     },
     {
         "query_id": "20_843",
@@ -6733,7 +5333,7 @@
         "answers": [
             "Basel"
         ],
-        "pageviews": 753
+        "pageviews": 2
     },
     {
         "query_id": "20_844",
@@ -6741,15 +5341,7 @@
         "answers": [
             "Englewood"
         ],
-        "pageviews": 5996
-    },
-    {
-        "query_id": "20_845",
-        "question": "Where did Abdurahman \u010coki\u0107 die?",
-        "answers": [
-            "Tuzla"
-        ],
-        "pageviews": 819
+        "pageviews": 2
     },
     {
         "query_id": "20_846",
@@ -6757,7 +5349,7 @@
         "answers": [
             "Vienna"
         ],
-        "pageviews": 1101
+        "pageviews": 1
     },
     {
         "query_id": "20_847",
@@ -6765,7 +5357,7 @@
         "answers": [
             "Algiers"
         ],
-        "pageviews": 2694
+        "pageviews": 2
     },
     {
         "query_id": "20_848",
@@ -6773,23 +5365,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 20931
-    },
-    {
-        "query_id": "20_849",
-        "question": "Where did Raoul Bortoletto die?",
-        "answers": [
-            "Treviso"
-        ],
-        "pageviews": 868
-    },
-    {
-        "query_id": "20_850",
-        "question": "Where did Joseph Egbert die?",
-        "answers": [
-            "New Dorp"
-        ],
-        "pageviews": 900
+        "pageviews": 41
     },
     {
         "query_id": "20_851",
@@ -6797,7 +5373,7 @@
         "answers": [
             "Stuttgart"
         ],
-        "pageviews": 4282
+        "pageviews": 27
     },
     {
         "query_id": "20_852",
@@ -6805,7 +5381,7 @@
         "answers": [
             "Kholmogory"
         ],
-        "pageviews": 22392
+        "pageviews": 15
     },
     {
         "query_id": "20_853",
@@ -6813,7 +5389,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2082
+        "pageviews": 4
     },
     {
         "query_id": "20_854",
@@ -6821,15 +5397,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 7331
-    },
-    {
-        "query_id": "20_855",
-        "question": "Where did Wilhelm Borchert die?",
-        "answers": [
-            "Crimean Peninsula"
-        ],
-        "pageviews": 223
+        "pageviews": 53
     },
     {
         "query_id": "20_856",
@@ -6837,7 +5405,7 @@
         "answers": [
             "Karlsruhe"
         ],
-        "pageviews": 5708
+        "pageviews": 5
     },
     {
         "query_id": "20_857",
@@ -6845,7 +5413,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 1735
+        "pageviews": 3
     },
     {
         "query_id": "20_858",
@@ -6853,7 +5421,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 13001
+        "pageviews": 2
     },
     {
         "query_id": "20_859",
@@ -6861,7 +5429,7 @@
         "answers": [
             "Ann Arbor"
         ],
-        "pageviews": 1628
+        "pageviews": 8
     },
     {
         "query_id": "20_860",
@@ -6869,7 +5437,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 147810
+        "pageviews": 2
     },
     {
         "query_id": "20_861",
@@ -6877,7 +5445,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 41830
+        "pageviews": 55
     },
     {
         "query_id": "20_862",
@@ -6885,7 +5453,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 9915
+        "pageviews": 6
     },
     {
         "query_id": "20_863",
@@ -6893,7 +5461,7 @@
         "answers": [
             "Maracaibo"
         ],
-        "pageviews": 1422
+        "pageviews": 9
     },
     {
         "query_id": "20_864",
@@ -6901,7 +5469,7 @@
         "answers": [
             "Dachau concentration camp"
         ],
-        "pageviews": 717
+        "pageviews": 1
     },
     {
         "query_id": "20_865",
@@ -6909,7 +5477,7 @@
         "answers": [
             "Warsaw"
         ],
-        "pageviews": 567
+        "pageviews": 2
     },
     {
         "query_id": "20_866",
@@ -6917,7 +5485,7 @@
         "answers": [
             "Mexico City"
         ],
-        "pageviews": 2064
+        "pageviews": 3
     },
     {
         "query_id": "20_867",
@@ -6925,15 +5493,7 @@
         "answers": [
             "Milan"
         ],
-        "pageviews": 890
-    },
-    {
-        "query_id": "20_868",
-        "question": "Where did Boston Jenkins Drayton die?",
-        "answers": [
-            "Cape Palmas"
-        ],
-        "pageviews": 3359
+        "pageviews": 5
     },
     {
         "query_id": "20_869",
@@ -6941,7 +5501,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 4355
+        "pageviews": 7
     },
     {
         "query_id": "20_870",
@@ -6949,7 +5509,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 1478
+        "pageviews": 3
     },
     {
         "query_id": "20_871",
@@ -6957,15 +5517,7 @@
         "answers": [
             "Algiers"
         ],
-        "pageviews": 7344
-    },
-    {
-        "query_id": "20_872",
-        "question": "Where did Mehmet Kenan Dalba\u015far die?",
-        "answers": [
-            "Istanbul"
-        ],
-        "pageviews": 841
+        "pageviews": 38
     },
     {
         "query_id": "20_873",
@@ -6973,7 +5525,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 54236
+        "pageviews": 35
     },
     {
         "query_id": "20_874",
@@ -6981,7 +5533,7 @@
         "answers": [
             "Mexico City"
         ],
-        "pageviews": 10436
+        "pageviews": 23
     },
     {
         "query_id": "20_875",
@@ -6989,7 +5541,7 @@
         "answers": [
             "Fayetteville"
         ],
-        "pageviews": 681
+        "pageviews": 1
     },
     {
         "query_id": "20_876",
@@ -6997,7 +5549,7 @@
         "answers": [
             "Olongapo"
         ],
-        "pageviews": 6076
+        "pageviews": 1
     },
     {
         "query_id": "20_877",
@@ -7005,23 +5557,7 @@
         "answers": [
             "Hayfield"
         ],
-        "pageviews": 25767
-    },
-    {
-        "query_id": "20_878",
-        "question": "Where did Jim Faulkner die?",
-        "answers": [
-            "West Palm Beach"
-        ],
-        "pageviews": 881
-    },
-    {
-        "query_id": "20_879",
-        "question": "Where did R\u0131za Do\u011fan die?",
-        "answers": [
-            "Ankara"
-        ],
-        "pageviews": 954
+        "pageviews": 1
     },
     {
         "query_id": "20_880",
@@ -7029,7 +5565,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 21329
+        "pageviews": 23
     },
     {
         "query_id": "20_881",
@@ -7037,15 +5573,7 @@
         "answers": [
             "Frankfurt"
         ],
-        "pageviews": 568
-    },
-    {
-        "query_id": "20_882",
-        "question": "Where did Axel Johannes Malmquist die?",
-        "answers": [
-            "Solna Municipality"
-        ],
-        "pageviews": 593
+        "pageviews": 1
     },
     {
         "query_id": "20_883",
@@ -7053,7 +5581,7 @@
         "answers": [
             "Bemerton"
         ],
-        "pageviews": 4239
+        "pageviews": 32
     },
     {
         "query_id": "20_884",
@@ -7061,15 +5589,7 @@
         "answers": [
             "Tours"
         ],
-        "pageviews": 12605
-    },
-    {
-        "query_id": "20_885",
-        "question": "Where did William Gawin Herdman die?",
-        "answers": [
-            "Liverpool"
-        ],
-        "pageviews": 1485
+        "pageviews": 4
     },
     {
         "query_id": "20_886",
@@ -7077,15 +5597,7 @@
         "answers": [
             "Granbury"
         ],
-        "pageviews": 31653
-    },
-    {
-        "query_id": "20_887",
-        "question": "Where did Josef Zeman die?",
-        "answers": [
-            "Czech Republic"
-        ],
-        "pageviews": 1563
+        "pageviews": 21
     },
     {
         "query_id": "20_888",
@@ -7093,7 +5605,7 @@
         "answers": [
             "Kolkata"
         ],
-        "pageviews": 1770
+        "pageviews": 1
     },
     {
         "query_id": "20_889",
@@ -7101,7 +5613,7 @@
         "answers": [
             "Montreal"
         ],
-        "pageviews": 3244
+        "pageviews": 17
     },
     {
         "query_id": "20_890",
@@ -7109,7 +5621,7 @@
         "answers": [
             "Bourail"
         ],
-        "pageviews": 3671
+        "pageviews": 2
     },
     {
         "query_id": "20_891",
@@ -7117,15 +5629,7 @@
         "answers": [
             "Buenos Aires"
         ],
-        "pageviews": 742
-    },
-    {
-        "query_id": "20_892",
-        "question": "Where did Mike Smith die?",
-        "answers": [
-            "Chesapeake"
-        ],
-        "pageviews": 553
+        "pageviews": 2
     },
     {
         "query_id": "20_893",
@@ -7133,7 +5637,7 @@
         "answers": [
             "Bruges"
         ],
-        "pageviews": 1101
+        "pageviews": 1
     },
     {
         "query_id": "20_894",
@@ -7141,7 +5645,7 @@
         "answers": [
             "Hamilton"
         ],
-        "pageviews": 3766
+        "pageviews": 7
     },
     {
         "query_id": "20_895",
@@ -7149,15 +5653,7 @@
         "answers": [
             "Toronto"
         ],
-        "pageviews": 21657
-    },
-    {
-        "query_id": "20_896",
-        "question": "Where did Vladimir Ivanovich Markov die?",
-        "answers": [
-            "Saint Petersburg"
-        ],
-        "pageviews": 815
+        "pageviews": 8
     },
     {
         "query_id": "20_897",
@@ -7165,7 +5661,7 @@
         "answers": [
             "Gothenburg"
         ],
-        "pageviews": 2036
+        "pageviews": 1
     },
     {
         "query_id": "20_898",
@@ -7173,15 +5669,7 @@
         "answers": [
             "San Mateo County"
         ],
-        "pageviews": 11337
-    },
-    {
-        "query_id": "20_899",
-        "question": "Where did Augustinus Olomucensis die?",
-        "answers": [
-            "Olomouc"
-        ],
-        "pageviews": 980
+        "pageviews": 10
     },
     {
         "query_id": "20_900",
@@ -7189,7 +5677,7 @@
         "answers": [
             "Lund"
         ],
-        "pageviews": 917
+        "pageviews": 2
     },
     {
         "query_id": "20_902",
@@ -7197,7 +5685,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 485955
+        "pageviews": 350
     },
     {
         "query_id": "20_903",
@@ -7205,7 +5693,7 @@
         "answers": [
             "Chile"
         ],
-        "pageviews": 694
+        "pageviews": 1
     },
     {
         "query_id": "20_904",
@@ -7213,7 +5701,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 1909
+        "pageviews": 5
     },
     {
         "query_id": "20_905",
@@ -7221,7 +5709,7 @@
         "answers": [
             "Lake Worth"
         ],
-        "pageviews": 1387
+        "pageviews": 2
     },
     {
         "query_id": "20_906",
@@ -7229,7 +5717,7 @@
         "answers": [
             "Bucharest"
         ],
-        "pageviews": 1205
+        "pageviews": 3
     },
     {
         "query_id": "20_907",
@@ -7237,15 +5725,7 @@
         "answers": [
             "Santiago"
         ],
-        "pageviews": 862
-    },
-    {
-        "query_id": "20_908",
-        "question": "Where did Morten Clark die?",
-        "answers": [
-            "Los Angeles"
-        ],
-        "pageviews": 553
+        "pageviews": 1
     },
     {
         "query_id": "20_909",
@@ -7253,7 +5733,7 @@
         "answers": [
             "Budapest"
         ],
-        "pageviews": 7804
+        "pageviews": 3
     },
     {
         "query_id": "20_910",
@@ -7261,7 +5741,7 @@
         "answers": [
             "Copenhagen"
         ],
-        "pageviews": 1435
+        "pageviews": 4
     },
     {
         "query_id": "20_911",
@@ -7269,23 +5749,7 @@
         "answers": [
             "Adelaide"
         ],
-        "pageviews": 3012
-    },
-    {
-        "query_id": "20_912",
-        "question": "Where did Murrough John Wilson die?",
-        "answers": [
-            "Cliffe"
-        ],
-        "pageviews": 1696
-    },
-    {
-        "query_id": "20_913",
-        "question": "Where did Robert Kernan die?",
-        "answers": [
-            "Montreal"
-        ],
-        "pageviews": 1034
+        "pageviews": 1
     },
     {
         "query_id": "20_914",
@@ -7293,7 +5757,7 @@
         "answers": [
             "Baku"
         ],
-        "pageviews": 3664
+        "pageviews": 6
     },
     {
         "query_id": "20_915",
@@ -7301,7 +5765,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 938
+        "pageviews": 22
     },
     {
         "query_id": "20_916",
@@ -7309,15 +5773,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 1509
-    },
-    {
-        "query_id": "20_917",
-        "question": "Where did John Middleton die?",
-        "answers": [
-            "Stoney Stanton"
-        ],
-        "pageviews": 397
+        "pageviews": 2
     },
     {
         "query_id": "20_918",
@@ -7325,15 +5781,7 @@
         "answers": [
             "Berchem"
         ],
-        "pageviews": 569
-    },
-    {
-        "query_id": "20_919",
-        "question": "Where did Gilly Campbell die?",
-        "answers": [
-            "Los Angeles"
-        ],
-        "pageviews": 937
+        "pageviews": 2
     },
     {
         "query_id": "20_920",
@@ -7341,15 +5789,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 1815
-    },
-    {
-        "query_id": "20_921",
-        "question": "Where did Zbigniew W\u00f3ycicki die?",
-        "answers": [
-            "Zakopane"
-        ],
-        "pageviews": 664
+        "pageviews": 4
     },
     {
         "query_id": "20_922",
@@ -7357,7 +5797,7 @@
         "answers": [
             "Gie\u00dfen"
         ],
-        "pageviews": 2783
+        "pageviews": 10
     },
     {
         "query_id": "20_923",
@@ -7365,7 +5805,7 @@
         "answers": [
             "Ghent"
         ],
-        "pageviews": 13140
+        "pageviews": 14
     },
     {
         "query_id": "20_924",
@@ -7373,7 +5813,7 @@
         "answers": [
             "Victorville"
         ],
-        "pageviews": 4463
+        "pageviews": 12
     },
     {
         "query_id": "20_925",
@@ -7381,7 +5821,7 @@
         "answers": [
             "Tallinn"
         ],
-        "pageviews": 2142
+        "pageviews": 8
     },
     {
         "query_id": "20_926",
@@ -7389,7 +5829,7 @@
         "answers": [
             "Seoul"
         ],
-        "pageviews": 91706
+        "pageviews": 36
     },
     {
         "query_id": "20_927",
@@ -7397,7 +5837,7 @@
         "answers": [
             "The Hague"
         ],
-        "pageviews": 7258
+        "pageviews": 8
     },
     {
         "query_id": "20_928",
@@ -7405,7 +5845,7 @@
         "answers": [
             "Sansepolcro"
         ],
-        "pageviews": 90985
+        "pageviews": 214
     },
     {
         "query_id": "20_929",
@@ -7413,15 +5853,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 757
-    },
-    {
-        "query_id": "20_930",
-        "question": "Where did Giuseppe Avitrano die?",
-        "answers": [
-            "Naples"
-        ],
-        "pageviews": 847
+        "pageviews": 3
     },
     {
         "query_id": "20_931",
@@ -7429,7 +5861,7 @@
         "answers": [
             "Quincy"
         ],
-        "pageviews": 1558
+        "pageviews": 2
     },
     {
         "query_id": "20_932",
@@ -7437,7 +5869,7 @@
         "answers": [
             "Camden"
         ],
-        "pageviews": 3154
+        "pageviews": 1
     },
     {
         "query_id": "20_933",
@@ -7445,7 +5877,7 @@
         "answers": [
             "Mechelen"
         ],
-        "pageviews": 1517
+        "pageviews": 6
     },
     {
         "query_id": "20_934",
@@ -7453,15 +5885,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 1485
-    },
-    {
-        "query_id": "20_935",
-        "question": "Where did Gadzhi Abashilov die?",
-        "answers": [
-            "Makhachkala"
-        ],
-        "pageviews": 1597
+        "pageviews": 2
     },
     {
         "query_id": "20_936",
@@ -7469,7 +5893,7 @@
         "answers": [
             "Stuttgart"
         ],
-        "pageviews": 2242
+        "pageviews": 5
     },
     {
         "query_id": "20_937",
@@ -7477,7 +5901,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 237193
+        "pageviews": 409
     },
     {
         "query_id": "20_938",
@@ -7485,15 +5909,7 @@
         "answers": [
             "Gurzuf"
         ],
-        "pageviews": 50148
-    },
-    {
-        "query_id": "20_939",
-        "question": "Where did Munis Tekinalp die?",
-        "answers": [
-            "Nice"
-        ],
-        "pageviews": 5284
+        "pageviews": 241
     },
     {
         "query_id": "20_940",
@@ -7501,23 +5917,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 40460
-    },
-    {
-        "query_id": "20_941",
-        "question": "Where did Josef R\u016f\u017ei\u010dka die?",
-        "answers": [
-            "Prague"
-        ],
-        "pageviews": 844
-    },
-    {
-        "query_id": "20_942",
-        "question": "Where did Dulce Figueiredo die?",
-        "answers": [
-            "Botafogo"
-        ],
-        "pageviews": 3186
+        "pageviews": 94
     },
     {
         "query_id": "20_943",
@@ -7525,7 +5925,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 1291
+        "pageviews": 6
     },
     {
         "query_id": "20_944",
@@ -7533,15 +5933,7 @@
         "answers": [
             "Turin"
         ],
-        "pageviews": 8178
-    },
-    {
-        "query_id": "20_945",
-        "question": "Where did Jacques Compan\u00e9ez die?",
-        "answers": [
-            "Paris"
-        ],
-        "pageviews": 1094
+        "pageviews": 8
     },
     {
         "query_id": "20_946",
@@ -7549,7 +5941,7 @@
         "answers": [
             "Boulogne-Billancourt"
         ],
-        "pageviews": 2739
+        "pageviews": 7
     },
     {
         "query_id": "20_947",
@@ -7557,7 +5949,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 17205
+        "pageviews": 4
     },
     {
         "query_id": "20_948",
@@ -7565,7 +5957,7 @@
         "answers": [
             "Posillipo"
         ],
-        "pageviews": 888
+        "pageviews": 2
     },
     {
         "query_id": "20_949",
@@ -7573,7 +5965,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 2034
+        "pageviews": 10
     },
     {
         "query_id": "20_950",
@@ -7581,7 +5973,7 @@
         "answers": [
             "Novara"
         ],
-        "pageviews": 1463
+        "pageviews": 1
     },
     {
         "query_id": "20_951",
@@ -7589,7 +5981,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 5908
+        "pageviews": 13
     },
     {
         "query_id": "20_952",
@@ -7597,7 +5989,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 3672
+        "pageviews": 10
     },
     {
         "query_id": "20_953",
@@ -7605,7 +5997,7 @@
         "answers": [
             "Antwerp"
         ],
-        "pageviews": 1950
+        "pageviews": 2
     },
     {
         "query_id": "20_954",
@@ -7613,7 +6005,7 @@
         "answers": [
             "Renfrew"
         ],
-        "pageviews": 636
+        "pageviews": 1
     },
     {
         "query_id": "20_955",
@@ -7621,7 +6013,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 7028
+        "pageviews": 40
     },
     {
         "query_id": "20_956",
@@ -7629,7 +6021,7 @@
         "answers": [
             "Yangon"
         ],
-        "pageviews": 2373
+        "pageviews": 5
     },
     {
         "query_id": "20_957",
@@ -7637,7 +6029,7 @@
         "answers": [
             "Sussex"
         ],
-        "pageviews": 3791
+        "pageviews": 19
     },
     {
         "query_id": "20_958",
@@ -7645,7 +6037,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 1880
+        "pageviews": 2
     },
     {
         "query_id": "20_959",
@@ -7653,15 +6045,7 @@
         "answers": [
             "San Antonio"
         ],
-        "pageviews": 17545
-    },
-    {
-        "query_id": "20_960",
-        "question": "Where did Gene Snyder die?",
-        "answers": [
-            "York"
-        ],
-        "pageviews": 1348
+        "pageviews": 15
     },
     {
         "query_id": "20_961",
@@ -7669,7 +6053,7 @@
         "answers": [
             "Louisville"
         ],
-        "pageviews": 3632
+        "pageviews": 5
     },
     {
         "query_id": "20_962",
@@ -7677,7 +6061,7 @@
         "answers": [
             "Bourges"
         ],
-        "pageviews": 935
+        "pageviews": 7
     },
     {
         "query_id": "20_963",
@@ -7685,7 +6069,7 @@
         "answers": [
             "Asker"
         ],
-        "pageviews": 2197
+        "pageviews": 7
     },
     {
         "query_id": "20_964",
@@ -7693,7 +6077,7 @@
         "answers": [
             "Copenhagen"
         ],
-        "pageviews": 3285
+        "pageviews": 1
     },
     {
         "query_id": "20_965",
@@ -7701,7 +6085,7 @@
         "answers": [
             "Norwalk"
         ],
-        "pageviews": 925
+        "pageviews": 3
     },
     {
         "query_id": "20_966",
@@ -7709,7 +6093,7 @@
         "answers": [
             "Wiesbaden"
         ],
-        "pageviews": 30234
+        "pageviews": 61
     },
     {
         "query_id": "20_967",
@@ -7717,7 +6101,7 @@
         "answers": [
             "Marin County"
         ],
-        "pageviews": 5559
+        "pageviews": 9
     },
     {
         "query_id": "20_968",
@@ -7725,7 +6109,7 @@
         "answers": [
             "Normal"
         ],
-        "pageviews": 1471
+        "pageviews": 1
     },
     {
         "query_id": "20_970",
@@ -7733,7 +6117,7 @@
         "answers": [
             "Mannheim"
         ],
-        "pageviews": 1593
+        "pageviews": 4
     },
     {
         "query_id": "20_971",
@@ -7741,7 +6125,7 @@
         "answers": [
             "Theresienstadt concentration camp"
         ],
-        "pageviews": 1349
+        "pageviews": 3
     },
     {
         "query_id": "20_972",
@@ -7749,7 +6133,7 @@
         "answers": [
             "Sofia"
         ],
-        "pageviews": 17562
+        "pageviews": 30
     },
     {
         "query_id": "20_973",
@@ -7757,7 +6141,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 696
+        "pageviews": 1
     },
     {
         "query_id": "20_974",
@@ -7765,7 +6149,7 @@
         "answers": [
             "Warsaw"
         ],
-        "pageviews": 19420
+        "pageviews": 46
     },
     {
         "query_id": "20_975",
@@ -7773,7 +6157,7 @@
         "answers": [
             "Verona"
         ],
-        "pageviews": 1777
+        "pageviews": 7
     },
     {
         "query_id": "20_976",
@@ -7781,7 +6165,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 2011
+        "pageviews": 3
     },
     {
         "query_id": "20_977",
@@ -7789,15 +6173,7 @@
         "answers": [
             "Streatham"
         ],
-        "pageviews": 1245
-    },
-    {
-        "query_id": "20_978",
-        "question": "Where did Arthur Brook die?",
-        "answers": [
-            "Sidley, East Sussex"
-        ],
-        "pageviews": 375
+        "pageviews": 1
     },
     {
         "query_id": "20_979",
@@ -7805,7 +6181,7 @@
         "answers": [
             "Antwerp"
         ],
-        "pageviews": 1499
+        "pageviews": 1
     },
     {
         "query_id": "20_980",
@@ -7813,7 +6189,7 @@
         "answers": [
             "Istanbul"
         ],
-        "pageviews": 2376
+        "pageviews": 2
     },
     {
         "query_id": "20_981",
@@ -7821,7 +6197,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 4148
+        "pageviews": 12
     },
     {
         "query_id": "20_982",
@@ -7829,7 +6205,7 @@
         "answers": [
             "Houston"
         ],
-        "pageviews": 3643
+        "pageviews": 4
     },
     {
         "query_id": "20_983",
@@ -7837,7 +6213,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2074
+        "pageviews": 3
     },
     {
         "query_id": "20_984",
@@ -7845,7 +6221,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 1010
+        "pageviews": 1
     },
     {
         "query_id": "20_985",
@@ -7853,7 +6229,7 @@
         "answers": [
             "Toulon"
         ],
-        "pageviews": 7724
+        "pageviews": 16
     },
     {
         "query_id": "20_986",
@@ -7861,7 +6237,7 @@
         "answers": [
             "Auschwitz concentration camps"
         ],
-        "pageviews": 2681
+        "pageviews": 4
     },
     {
         "query_id": "20_987",
@@ -7869,7 +6245,7 @@
         "answers": [
             "Puerto Rico"
         ],
-        "pageviews": 16009
+        "pageviews": 26
     },
     {
         "query_id": "20_988",
@@ -7877,7 +6253,7 @@
         "answers": [
             "Kassel"
         ],
-        "pageviews": 22438
+        "pageviews": 53
     },
     {
         "query_id": "20_989",
@@ -7885,7 +6261,7 @@
         "answers": [
             "New Orleans"
         ],
-        "pageviews": 3280
+        "pageviews": 4
     },
     {
         "query_id": "20_990",
@@ -7893,7 +6269,7 @@
         "answers": [
             "Sonoma County"
         ],
-        "pageviews": 6980
+        "pageviews": 9
     },
     {
         "query_id": "20_991",
@@ -7901,7 +6277,7 @@
         "answers": [
             "Bologna"
         ],
-        "pageviews": 4718
+        "pageviews": 58
     },
     {
         "query_id": "20_992",
@@ -7909,7 +6285,7 @@
         "answers": [
             "Bucharest"
         ],
-        "pageviews": 6972
+        "pageviews": 7
     },
     {
         "query_id": "20_993",
@@ -7917,7 +6293,7 @@
         "answers": [
             "Innsbruck"
         ],
-        "pageviews": 1701
+        "pageviews": 2
     },
     {
         "query_id": "20_994",
@@ -7925,7 +6301,7 @@
         "answers": [
             "Tokyo"
         ],
-        "pageviews": 2494
+        "pageviews": 1
     },
     {
         "query_id": "20_995",
@@ -7933,15 +6309,7 @@
         "answers": [
             "Boston"
         ],
-        "pageviews": 19229
-    },
-    {
-        "query_id": "20_996",
-        "question": "Where did WR Parry die?",
-        "answers": [
-            "Taunton"
-        ],
-        "pageviews": 553
+        "pageviews": 18
     },
     {
         "query_id": "20_997",
@@ -7949,7 +6317,7 @@
         "answers": [
             "Madrid"
         ],
-        "pageviews": 10213
+        "pageviews": 5
     },
     {
         "query_id": "20_998",
@@ -7957,7 +6325,7 @@
         "answers": [
             "Copenhagen"
         ],
-        "pageviews": 5884
+        "pageviews": 23
     },
     {
         "query_id": "20_999",
@@ -7965,6 +6333,6 @@
         "answers": [
             "Kiel"
         ],
-        "pageviews": 775
+        "pageviews": 1
     }
 ]

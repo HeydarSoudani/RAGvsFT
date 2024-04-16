@@ -5,7 +5,7 @@
         "answers": [
             "Blackwood"
         ],
-        "pageviews": 2080
+        "pageviews": 2
     },
     {
         "query_id": "19_1",
@@ -13,7 +13,7 @@
         "answers": [
             "Ljubljana"
         ],
-        "pageviews": 16119
+        "pageviews": 3
     },
     {
         "query_id": "19_2",
@@ -21,7 +21,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 32774
+        "pageviews": 1
     },
     {
         "query_id": "19_3",
@@ -29,23 +29,7 @@
         "answers": [
             "Limerick"
         ],
-        "pageviews": 1851
-    },
-    {
-        "query_id": "19_4",
-        "question": "Where was Yoshimi Ueda born?",
-        "answers": [
-            "Tokyo"
-        ],
-        "pageviews": 1273
-    },
-    {
-        "query_id": "19_5",
-        "question": "Where was \u00c9mile Wegelin born?",
-        "answers": [
-            "Lyon"
-        ],
-        "pageviews": 970
+        "pageviews": 1
     },
     {
         "query_id": "19_6",
@@ -53,7 +37,7 @@
         "answers": [
             "Toyohashi"
         ],
-        "pageviews": 17908
+        "pageviews": 24
     },
     {
         "query_id": "19_7",
@@ -61,7 +45,7 @@
         "answers": [
             "Cento"
         ],
-        "pageviews": 1847
+        "pageviews": 12
     },
     {
         "query_id": "19_8",
@@ -69,7 +53,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 1966
+        "pageviews": 2
     },
     {
         "query_id": "19_9",
@@ -77,7 +61,7 @@
         "answers": [
             "Prague"
         ],
-        "pageviews": 738
+        "pageviews": 1
     },
     {
         "query_id": "19_10",
@@ -85,15 +69,7 @@
         "answers": [
             "Karlsruhe"
         ],
-        "pageviews": 3692
-    },
-    {
-        "query_id": "19_11",
-        "question": "Where was Krystina Alogbo born?",
-        "answers": [
-            "Montreal"
-        ],
-        "pageviews": 1182
+        "pageviews": 2
     },
     {
         "query_id": "19_12",
@@ -101,15 +77,7 @@
         "answers": [
             "Ghent"
         ],
-        "pageviews": 3246
-    },
-    {
-        "query_id": "19_13",
-        "question": "Where was Li Yim Lam born?",
-        "answers": [
-            "Hong Kong"
-        ],
-        "pageviews": 444
+        "pageviews": 12
     },
     {
         "query_id": "19_14",
@@ -117,7 +85,7 @@
         "answers": [
             "Staunton"
         ],
-        "pageviews": 18097
+        "pageviews": 2
     },
     {
         "query_id": "19_15",
@@ -125,7 +93,7 @@
         "answers": [
             "Vladivostok"
         ],
-        "pageviews": 1013
+        "pageviews": 2
     },
     {
         "query_id": "19_16",
@@ -133,7 +101,7 @@
         "answers": [
             "Santiago"
         ],
-        "pageviews": 2943
+        "pageviews": 2
     },
     {
         "query_id": "19_17",
@@ -141,7 +109,7 @@
         "answers": [
             "Tullaroan"
         ],
-        "pageviews": 2837
+        "pageviews": 43
     },
     {
         "query_id": "19_18",
@@ -149,7 +117,7 @@
         "answers": [
             "Clapham"
         ],
-        "pageviews": 143140
+        "pageviews": 29
     },
     {
         "query_id": "19_19",
@@ -157,15 +125,7 @@
         "answers": [
             "Highnam Court"
         ],
-        "pageviews": 1860
-    },
-    {
-        "query_id": "19_20",
-        "question": "Where was Grimes born?",
-        "answers": [
-            "Vancouver"
-        ],
-        "pageviews": 3036703
+        "pageviews": 9
     },
     {
         "query_id": "19_21",
@@ -173,7 +133,7 @@
         "answers": [
             "Fort Wayne"
         ],
-        "pageviews": 945
+        "pageviews": 3
     },
     {
         "query_id": "19_22",
@@ -181,15 +141,7 @@
         "answers": [
             "Arezzo"
         ],
-        "pageviews": 2431
-    },
-    {
-        "query_id": "19_23",
-        "question": "Where was Dionysius I, Metropolitan of Moscow born?",
-        "answers": [
-            "Kyiv"
-        ],
-        "pageviews": 1459
+        "pageviews": 7
     },
     {
         "query_id": "19_25",
@@ -197,7 +149,7 @@
         "answers": [
             "Dawsonville"
         ],
-        "pageviews": 3662
+        "pageviews": 8
     },
     {
         "query_id": "19_26",
@@ -205,7 +157,7 @@
         "answers": [
             "Tennessee"
         ],
-        "pageviews": 1829
+        "pageviews": 1
     },
     {
         "query_id": "19_27",
@@ -213,7 +165,7 @@
         "answers": [
             "Belgrade"
         ],
-        "pageviews": 4908
+        "pageviews": 6
     },
     {
         "query_id": "19_28",
@@ -221,7 +173,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 131166
+        "pageviews": 13
     },
     {
         "query_id": "19_29",
@@ -229,15 +181,7 @@
         "answers": [
             "Albany"
         ],
-        "pageviews": 6978
-    },
-    {
-        "query_id": "19_30",
-        "question": "Where was Jos\u00e9 Mar\u00eda Espejo-Saavedra Conesa born?",
-        "answers": [
-            "Madrid"
-        ],
-        "pageviews": 998
+        "pageviews": 3
     },
     {
         "query_id": "19_31",
@@ -245,15 +189,7 @@
         "answers": [
             "Haarlem"
         ],
-        "pageviews": 1096
-    },
-    {
-        "query_id": "19_32",
-        "question": "Where was Frank G. Dickey born?",
-        "answers": [
-            "Wagoner"
-        ],
-        "pageviews": 1002
+        "pageviews": 2
     },
     {
         "query_id": "19_33",
@@ -261,7 +197,7 @@
         "answers": [
             "Pelkosenniemi"
         ],
-        "pageviews": 1001
+        "pageviews": 1
     },
     {
         "query_id": "19_34",
@@ -269,7 +205,7 @@
         "answers": [
             "Istanbul"
         ],
-        "pageviews": 1031
+        "pageviews": 12
     },
     {
         "query_id": "19_35",
@@ -277,15 +213,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 50573
-    },
-    {
-        "query_id": "19_36",
-        "question": "Where was Benjamin Giraud born?",
-        "answers": [
-            "Marseille"
-        ],
-        "pageviews": 767
+        "pageviews": 48
     },
     {
         "query_id": "19_37",
@@ -293,7 +221,7 @@
         "answers": [
             "Hong Kong"
         ],
-        "pageviews": 4841
+        "pageviews": 14
     },
     {
         "query_id": "19_38",
@@ -301,7 +229,7 @@
         "answers": [
             "Glendale"
         ],
-        "pageviews": 1148
+        "pageviews": 11
     },
     {
         "query_id": "19_39",
@@ -309,15 +237,7 @@
         "answers": [
             "Lviv"
         ],
-        "pageviews": 1628
-    },
-    {
-        "query_id": "19_40",
-        "question": "Where was Anthony Harris born?",
-        "answers": [
-            "Dunedin"
-        ],
-        "pageviews": 575
+        "pageviews": 2
     },
     {
         "query_id": "19_41",
@@ -325,7 +245,7 @@
         "answers": [
             "Baton Rouge"
         ],
-        "pageviews": 7259
+        "pageviews": 3
     },
     {
         "query_id": "19_42",
@@ -333,15 +253,7 @@
         "answers": [
             "Augsburg"
         ],
-        "pageviews": 4664
-    },
-    {
-        "query_id": "19_43",
-        "question": "Where was Lewis B. Patten born?",
-        "answers": [
-            "Denver"
-        ],
-        "pageviews": 1801
+        "pageviews": 9
     },
     {
         "query_id": "19_44",
@@ -349,7 +261,7 @@
         "answers": [
             "Naples"
         ],
-        "pageviews": 2713
+        "pageviews": 2
     },
     {
         "query_id": "19_45",
@@ -357,7 +269,7 @@
         "answers": [
             "De Queen"
         ],
-        "pageviews": 3230
+        "pageviews": 1
     },
     {
         "query_id": "19_46",
@@ -365,7 +277,7 @@
         "answers": [
             "Shanghai"
         ],
-        "pageviews": 7892
+        "pageviews": 2
     },
     {
         "query_id": "19_47",
@@ -373,7 +285,7 @@
         "answers": [
             "Mbarara"
         ],
-        "pageviews": 15675
+        "pageviews": 5
     },
     {
         "query_id": "19_48",
@@ -381,7 +293,7 @@
         "answers": [
             "Hong Kong"
         ],
-        "pageviews": 1548
+        "pageviews": 6
     },
     {
         "query_id": "19_49",
@@ -389,7 +301,7 @@
         "answers": [
             "Amsterdam"
         ],
-        "pageviews": 7892
+        "pageviews": 40
     },
     {
         "query_id": "19_50",
@@ -397,7 +309,7 @@
         "answers": [
             "Bergisch Gladbach"
         ],
-        "pageviews": 2136
+        "pageviews": 4
     },
     {
         "query_id": "19_51",
@@ -405,7 +317,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 638
+        "pageviews": 1
     },
     {
         "query_id": "19_52",
@@ -413,31 +325,7 @@
         "answers": [
             "Gatundu"
         ],
-        "pageviews": 363131
-    },
-    {
-        "query_id": "19_53",
-        "question": "Where was Jung Ho-jin born?",
-        "answers": [
-            "South Korea"
-        ],
-        "pageviews": 828
-    },
-    {
-        "query_id": "19_54",
-        "question": "Where was Edward Linden born?",
-        "answers": [
-            "Lake Geneva"
-        ],
-        "pageviews": 1255
-    },
-    {
-        "query_id": "19_55",
-        "question": "Where was Gisbert zu Knyphausen born?",
-        "answers": [
-            "Wiesbaden"
-        ],
-        "pageviews": 4954
+        "pageviews": 301
     },
     {
         "query_id": "19_56",
@@ -445,7 +333,7 @@
         "answers": [
             "Jerusalem"
         ],
-        "pageviews": 1506
+        "pageviews": 1
     },
     {
         "query_id": "19_57",
@@ -453,7 +341,7 @@
         "answers": [
             "Florence"
         ],
-        "pageviews": 3280
+        "pageviews": 26
     },
     {
         "query_id": "19_58",
@@ -461,7 +349,7 @@
         "answers": [
             "Ottawa"
         ],
-        "pageviews": 2362
+        "pageviews": 9
     },
     {
         "query_id": "19_59",
@@ -469,7 +357,7 @@
         "answers": [
             "Jelgava"
         ],
-        "pageviews": 1287
+        "pageviews": 3
     },
     {
         "query_id": "19_60",
@@ -477,23 +365,7 @@
         "answers": [
             "Arcachon"
         ],
-        "pageviews": 957
-    },
-    {
-        "query_id": "19_61",
-        "question": "Where was Milun Tesovic born?",
-        "answers": [
-            "Bosnia and Herzegovina"
-        ],
-        "pageviews": 5037
-    },
-    {
-        "query_id": "19_62",
-        "question": "Where was Robert Ballard born?",
-        "answers": [
-            "Paris"
-        ],
-        "pageviews": 1416
+        "pageviews": 1
     },
     {
         "query_id": "19_63",
@@ -501,23 +373,7 @@
         "answers": [
             "Payakumbuh"
         ],
-        "pageviews": 671
-    },
-    {
-        "query_id": "19_64",
-        "question": "Where was Madeleine Coudray born?",
-        "answers": [
-            "Ruffec"
-        ],
-        "pageviews": 543
-    },
-    {
-        "query_id": "19_65",
-        "question": "Where was Robert Howie born?",
-        "answers": [
-            "Fredericton"
-        ],
-        "pageviews": 1331
+        "pageviews": 1
     },
     {
         "query_id": "19_66",
@@ -525,15 +381,7 @@
         "answers": [
             "Dordrecht"
         ],
-        "pageviews": 671
-    },
-    {
-        "query_id": "19_67",
-        "question": "Where was Josep Riera i Arag\u00f3 born?",
-        "answers": [
-            "Barcelona"
-        ],
-        "pageviews": 870
+        "pageviews": 4
     },
     {
         "query_id": "19_68",
@@ -541,15 +389,7 @@
         "answers": [
             "Niksar"
         ],
-        "pageviews": 20326
-    },
-    {
-        "query_id": "19_69",
-        "question": "Where was Donald Thomas born?",
-        "answers": [
-            "Freeport"
-        ],
-        "pageviews": 8270
+        "pageviews": 31
     },
     {
         "query_id": "19_70",
@@ -557,15 +397,7 @@
         "answers": [
             "Ioannina"
         ],
-        "pageviews": 1824
-    },
-    {
-        "query_id": "19_71",
-        "question": "Where was Irena Tanova born?",
-        "answers": [
-            "Targovishte"
-        ],
-        "pageviews": 428
+        "pageviews": 1
     },
     {
         "query_id": "19_72",
@@ -573,7 +405,7 @@
         "answers": [
             "Marshall"
         ],
-        "pageviews": 1489589
+        "pageviews": 301
     },
     {
         "query_id": "19_73",
@@ -581,7 +413,7 @@
         "answers": [
             "Rio de Janeiro"
         ],
-        "pageviews": 2013
+        "pageviews": 1
     },
     {
         "query_id": "19_74",
@@ -589,7 +421,7 @@
         "answers": [
             "Tremont"
         ],
-        "pageviews": 4111
+        "pageviews": 1
     },
     {
         "query_id": "19_75",
@@ -597,7 +429,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 2761
+        "pageviews": 3
     },
     {
         "query_id": "19_76",
@@ -605,7 +437,7 @@
         "answers": [
             "Cumberland"
         ],
-        "pageviews": 612
+        "pageviews": 2
     },
     {
         "query_id": "19_77",
@@ -613,7 +445,7 @@
         "answers": [
             "Iredell County"
         ],
-        "pageviews": 1559
+        "pageviews": 2
     },
     {
         "query_id": "19_78",
@@ -621,15 +453,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 1103
-    },
-    {
-        "query_id": "19_79",
-        "question": "Where was Gabriele Antonini born?",
-        "answers": [
-            "Rome"
-        ],
-        "pageviews": 2802
+        "pageviews": 7
     },
     {
         "query_id": "19_80",
@@ -637,7 +461,7 @@
         "answers": [
             "K\u014dbe"
         ],
-        "pageviews": 3066
+        "pageviews": 3
     },
     {
         "query_id": "19_82",
@@ -645,7 +469,7 @@
         "answers": [
             "Dallas"
         ],
-        "pageviews": 2702
+        "pageviews": 2
     },
     {
         "query_id": "19_83",
@@ -653,23 +477,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 10315
-    },
-    {
-        "query_id": "19_84",
-        "question": "Where was Robert Richard Hall born?",
-        "answers": [
-            "Fenelon Township"
-        ],
-        "pageviews": 891
-    },
-    {
-        "query_id": "19_85",
-        "question": "Where was Gabriela Pena born?",
-        "answers": [
-            "Dominican Republic"
-        ],
-        "pageviews": 670
+        "pageviews": 11
     },
     {
         "query_id": "19_86",
@@ -677,7 +485,7 @@
         "answers": [
             "Helsinki"
         ],
-        "pageviews": 10270
+        "pageviews": 5
     },
     {
         "query_id": "19_87",
@@ -685,7 +493,7 @@
         "answers": [
             "Bergen op Zoom"
         ],
-        "pageviews": 795
+        "pageviews": 2
     },
     {
         "query_id": "19_88",
@@ -693,7 +501,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 105278
+        "pageviews": 87
     },
     {
         "query_id": "19_89",
@@ -701,7 +509,7 @@
         "answers": [
             "Dnipro"
         ],
-        "pageviews": 1336
+        "pageviews": 2
     },
     {
         "query_id": "19_90",
@@ -709,15 +517,7 @@
         "answers": [
             "Frankfort"
         ],
-        "pageviews": 18823
-    },
-    {
-        "query_id": "19_91",
-        "question": "Where was Givi Ioseliani born?",
-        "answers": [
-            "Tbilisi"
-        ],
-        "pageviews": 723
+        "pageviews": 14
     },
     {
         "query_id": "19_92",
@@ -725,7 +525,7 @@
         "answers": [
             "Dundee"
         ],
-        "pageviews": 2143
+        "pageviews": 2
     },
     {
         "query_id": "19_93",
@@ -733,15 +533,7 @@
         "answers": [
             "Amsterdam"
         ],
-        "pageviews": 429222
-    },
-    {
-        "query_id": "19_94",
-        "question": "Where was Marianne N\u00f6lle born?",
-        "answers": [
-            "Cologne"
-        ],
-        "pageviews": 3663
+        "pageviews": 159
     },
     {
         "query_id": "19_95",
@@ -749,7 +541,7 @@
         "answers": [
             "Tehran"
         ],
-        "pageviews": 1419
+        "pageviews": 2
     },
     {
         "query_id": "19_96",
@@ -757,15 +549,7 @@
         "answers": [
             "Ambato"
         ],
-        "pageviews": 28378
-    },
-    {
-        "query_id": "19_97",
-        "question": "Where was C\u00e9sar Belli born?",
-        "answers": [
-            "Bebedouro"
-        ],
-        "pageviews": 3077
+        "pageviews": 26
     },
     {
         "query_id": "19_98",
@@ -773,15 +557,7 @@
         "answers": [
             "Seattle"
         ],
-        "pageviews": 1182
-    },
-    {
-        "query_id": "19_99",
-        "question": "Where was Carl Schueler born?",
-        "answers": [
-            "Newburyport"
-        ],
-        "pageviews": 2239
+        "pageviews": 1
     },
     {
         "query_id": "19_100",
@@ -789,7 +565,7 @@
         "answers": [
             "Baghdad"
         ],
-        "pageviews": 1715
+        "pageviews": 2
     },
     {
         "query_id": "19_101",
@@ -797,7 +573,7 @@
         "answers": [
             "Harbin"
         ],
-        "pageviews": 2691
+        "pageviews": 5
     },
     {
         "query_id": "19_102",
@@ -805,7 +581,7 @@
         "answers": [
             "Maywood"
         ],
-        "pageviews": 2186
+        "pageviews": 3
     },
     {
         "query_id": "19_103",
@@ -813,23 +589,7 @@
         "answers": [
             "Utrecht"
         ],
-        "pageviews": 720
-    },
-    {
-        "query_id": "19_104",
-        "question": "Where was Dmitri Ekimov born?",
-        "answers": [
-            "Moscow"
-        ],
-        "pageviews": 604
-    },
-    {
-        "query_id": "19_105",
-        "question": "Where was William Goldwin Carrington Howland born?",
-        "answers": [
-            "Toronto"
-        ],
-        "pageviews": 940
+        "pageviews": 3
     },
     {
         "query_id": "19_106",
@@ -837,7 +597,7 @@
         "answers": [
             "Havana"
         ],
-        "pageviews": 2459
+        "pageviews": 1
     },
     {
         "query_id": "19_107",
@@ -845,15 +605,7 @@
         "answers": [
             "Brooklyn"
         ],
-        "pageviews": 24408
-    },
-    {
-        "query_id": "19_108",
-        "question": "Where was Nora Armani born?",
-        "answers": [
-            "Giza"
-        ],
-        "pageviews": 3594
+        "pageviews": 1
     },
     {
         "query_id": "19_109",
@@ -861,15 +613,7 @@
         "answers": [
             "Dallas"
         ],
-        "pageviews": 2340
-    },
-    {
-        "query_id": "19_110",
-        "question": "Where was Lee Jenkins born?",
-        "answers": [
-            "Pontypool"
-        ],
-        "pageviews": 1310
+        "pageviews": 1
     },
     {
         "query_id": "19_111",
@@ -877,15 +621,7 @@
         "answers": [
             "La Plata"
         ],
-        "pageviews": 10166
-    },
-    {
-        "query_id": "19_112",
-        "question": "Where was Deacon Van Buren born?",
-        "answers": [
-            "LaSalle County"
-        ],
-        "pageviews": 679
+        "pageviews": 20
     },
     {
         "query_id": "19_113",
@@ -893,7 +629,7 @@
         "answers": [
             "Singapore"
         ],
-        "pageviews": 5412
+        "pageviews": 3
     },
     {
         "query_id": "19_114",
@@ -901,7 +637,7 @@
         "answers": [
             "Tehran"
         ],
-        "pageviews": 5839
+        "pageviews": 1
     },
     {
         "query_id": "19_115",
@@ -909,23 +645,7 @@
         "answers": [
             "Sorel\u2010Tracy"
         ],
-        "pageviews": 761
-    },
-    {
-        "query_id": "19_116",
-        "question": "Where was Flavio Barros born?",
-        "answers": [
-            "Rio de Janeiro"
-        ],
-        "pageviews": 504
-    },
-    {
-        "query_id": "19_117",
-        "question": "Where was Gustav Levin born?",
-        "answers": [
-            "Sigtuna"
-        ],
-        "pageviews": 942
+        "pageviews": 1
     },
     {
         "query_id": "19_118",
@@ -933,7 +653,7 @@
         "answers": [
             "Edison"
         ],
-        "pageviews": 4108
+        "pageviews": 2
     },
     {
         "query_id": "19_119",
@@ -941,7 +661,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 1387
+        "pageviews": 2
     },
     {
         "query_id": "19_120",
@@ -949,7 +669,7 @@
         "answers": [
             "Manchester"
         ],
-        "pageviews": 7899
+        "pageviews": 10
     },
     {
         "query_id": "19_121",
@@ -957,7 +677,7 @@
         "answers": [
             "Saint-Eustache"
         ],
-        "pageviews": 7786
+        "pageviews": 2
     },
     {
         "query_id": "19_122",
@@ -965,7 +685,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 2955
+        "pageviews": 3
     },
     {
         "query_id": "19_123",
@@ -973,7 +693,7 @@
         "answers": [
             "Horsham"
         ],
-        "pageviews": 1216
+        "pageviews": 3
     },
     {
         "query_id": "19_124",
@@ -981,7 +701,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 1407
+        "pageviews": 1
     },
     {
         "query_id": "19_125",
@@ -989,7 +709,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 37414
+        "pageviews": 5
     },
     {
         "query_id": "19_126",
@@ -997,7 +717,7 @@
         "answers": [
             "Barcelona"
         ],
-        "pageviews": 2626
+        "pageviews": 1
     },
     {
         "query_id": "19_127",
@@ -1005,7 +725,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 41326
+        "pageviews": 8
     },
     {
         "query_id": "19_128",
@@ -1013,7 +733,7 @@
         "answers": [
             "Honolulu"
         ],
-        "pageviews": 5395
+        "pageviews": 4
     },
     {
         "query_id": "19_129",
@@ -1021,7 +741,7 @@
         "answers": [
             "San Cipriano d'Aversa"
         ],
-        "pageviews": 7911
+        "pageviews": 8
     },
     {
         "query_id": "19_130",
@@ -1029,7 +749,7 @@
         "answers": [
             "South Africa"
         ],
-        "pageviews": 57331
+        "pageviews": 19
     },
     {
         "query_id": "19_131",
@@ -1037,7 +757,7 @@
         "answers": [
             "Misterton"
         ],
-        "pageviews": 1410
+        "pageviews": 1
     },
     {
         "query_id": "19_132",
@@ -1045,23 +765,7 @@
         "answers": [
             "Amstelveen"
         ],
-        "pageviews": 1304
-    },
-    {
-        "query_id": "19_133",
-        "question": "Where was Necdet \u00dcru\u011f born?",
-        "answers": [
-            "Istanbul"
-        ],
-        "pageviews": 2680
-    },
-    {
-        "query_id": "19_134",
-        "question": "Where was David Safier born?",
-        "answers": [
-            "Bremen"
-        ],
-        "pageviews": 7528
+        "pageviews": 8
     },
     {
         "query_id": "19_135",
@@ -1069,7 +773,7 @@
         "answers": [
             "Maribor"
         ],
-        "pageviews": 12956
+        "pageviews": 9
     },
     {
         "query_id": "19_136",
@@ -1077,7 +781,7 @@
         "answers": [
             "Liverpool"
         ],
-        "pageviews": 11152
+        "pageviews": 9
     },
     {
         "query_id": "19_137",
@@ -1085,15 +789,7 @@
         "answers": [
             "Knebworth"
         ],
-        "pageviews": 6333
-    },
-    {
-        "query_id": "19_138",
-        "question": "Where was K\u0131v\u0131lc\u0131m Kaya born?",
-        "answers": [
-            "Ankara"
-        ],
-        "pageviews": 1353
+        "pageviews": 2
     },
     {
         "query_id": "19_139",
@@ -1101,15 +797,7 @@
         "answers": [
             "Lisbon"
         ],
-        "pageviews": 2524
-    },
-    {
-        "query_id": "19_140",
-        "question": "Where was Jean-Michel Bertrand born?",
-        "answers": [
-            "Baccarat"
-        ],
-        "pageviews": 951
+        "pageviews": 12
     },
     {
         "query_id": "19_141",
@@ -1117,7 +805,7 @@
         "answers": [
             "Nunhead"
         ],
-        "pageviews": 712
+        "pageviews": 6
     },
     {
         "query_id": "19_142",
@@ -1125,7 +813,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 47852
+        "pageviews": 10
     },
     {
         "query_id": "19_143",
@@ -1133,7 +821,7 @@
         "answers": [
             "Magdeburg"
         ],
-        "pageviews": 763
+        "pageviews": 1
     },
     {
         "query_id": "19_144",
@@ -1141,23 +829,7 @@
         "answers": [
             "Stralsund"
         ],
-        "pageviews": 889
-    },
-    {
-        "query_id": "19_145",
-        "question": "Where was Vera Koval born?",
-        "answers": [
-            "Bryansk"
-        ],
-        "pageviews": 1967
-    },
-    {
-        "query_id": "19_146",
-        "question": "Where was Julien Le Devedec born?",
-        "answers": [
-            "Sainte-Foy-la-Grande"
-        ],
-        "pageviews": 1130
+        "pageviews": 1
     },
     {
         "query_id": "19_147",
@@ -1165,15 +837,7 @@
         "answers": [
             "Vaishali"
         ],
-        "pageviews": 562506
-    },
-    {
-        "query_id": "19_148",
-        "question": "Where was Simo Rundgren born?",
-        "answers": [
-            "Kolari"
-        ],
-        "pageviews": 830
+        "pageviews": 351
     },
     {
         "query_id": "19_149",
@@ -1181,7 +845,7 @@
         "answers": [
             "Atbasar"
         ],
-        "pageviews": 853
+        "pageviews": 5
     },
     {
         "query_id": "19_150",
@@ -1189,7 +853,7 @@
         "answers": [
             "Chongqing"
         ],
-        "pageviews": 5874
+        "pageviews": 6
     },
     {
         "query_id": "19_151",
@@ -1197,7 +861,7 @@
         "answers": [
             "Pennsylvania"
         ],
-        "pageviews": 2358
+        "pageviews": 3
     },
     {
         "query_id": "19_152",
@@ -1205,7 +869,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 1829
+        "pageviews": 1
     },
     {
         "query_id": "19_153",
@@ -1213,7 +877,7 @@
         "answers": [
             "Brooklyn"
         ],
-        "pageviews": 1243
+        "pageviews": 5
     },
     {
         "query_id": "19_154",
@@ -1221,7 +885,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 7885
+        "pageviews": 21
     },
     {
         "query_id": "19_155",
@@ -1229,7 +893,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 8522
+        "pageviews": 9
     },
     {
         "query_id": "19_156",
@@ -1237,7 +901,7 @@
         "answers": [
             "United States of America"
         ],
-        "pageviews": 3778
+        "pageviews": 6
     },
     {
         "query_id": "19_157",
@@ -1245,7 +909,7 @@
         "answers": [
             "Palazzolo sull'Oglio"
         ],
-        "pageviews": 2669
+        "pageviews": 2
     },
     {
         "query_id": "19_158",
@@ -1253,7 +917,7 @@
         "answers": [
             "Rio de Janeiro"
         ],
-        "pageviews": 3601
+        "pageviews": 9
     },
     {
         "query_id": "19_159",
@@ -1261,7 +925,7 @@
         "answers": [
             "Lower Austria"
         ],
-        "pageviews": 2647
+        "pageviews": 6
     },
     {
         "query_id": "19_160",
@@ -1269,15 +933,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 1373
-    },
-    {
-        "query_id": "19_161",
-        "question": "Where was Andr\u00e9 Savard born?",
-        "answers": [
-            "Verdun"
-        ],
-        "pageviews": 369
+        "pageviews": 2
     },
     {
         "query_id": "19_162",
@@ -1285,7 +941,7 @@
         "answers": [
             "Aberdeen"
         ],
-        "pageviews": 2532
+        "pageviews": 4
     },
     {
         "query_id": "19_163",
@@ -1293,15 +949,7 @@
         "answers": [
             "Belgrade"
         ],
-        "pageviews": 1333
-    },
-    {
-        "query_id": "19_164",
-        "question": "Where was \u00dcli Hofmann born?",
-        "answers": [
-            "Switzerland"
-        ],
-        "pageviews": 581
+        "pageviews": 1
     },
     {
         "query_id": "19_165",
@@ -1309,7 +957,7 @@
         "answers": [
             "Florence"
         ],
-        "pageviews": 1861
+        "pageviews": 1
     },
     {
         "query_id": "19_166",
@@ -1317,7 +965,7 @@
         "answers": [
             "Faizabad"
         ],
-        "pageviews": 21496
+        "pageviews": 4
     },
     {
         "query_id": "19_167",
@@ -1325,7 +973,7 @@
         "answers": [
             "Alsfeld"
         ],
-        "pageviews": 5874
+        "pageviews": 3
     },
     {
         "query_id": "19_168",
@@ -1333,7 +981,7 @@
         "answers": [
             "Rambervillers"
         ],
-        "pageviews": 602
+        "pageviews": 1
     },
     {
         "query_id": "19_169",
@@ -1341,7 +989,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 6732
+        "pageviews": 70
     },
     {
         "query_id": "19_170",
@@ -1349,23 +997,7 @@
         "answers": [
             "Arnhem"
         ],
-        "pageviews": 4200
-    },
-    {
-        "query_id": "19_171",
-        "question": "Where was Bae Il-hwan born?",
-        "answers": [
-            "South Korea"
-        ],
-        "pageviews": 521
-    },
-    {
-        "query_id": "19_172",
-        "question": "Where was Rita Kassabian born?",
-        "answers": [
-            "Lebanon"
-        ],
-        "pageviews": 1138
+        "pageviews": 4
     },
     {
         "query_id": "19_173",
@@ -1373,7 +1005,7 @@
         "answers": [
             "Brooklyn"
         ],
-        "pageviews": 5768
+        "pageviews": 4
     },
     {
         "query_id": "19_174",
@@ -1381,7 +1013,7 @@
         "answers": [
             "Tokyo"
         ],
-        "pageviews": 3995
+        "pageviews": 2
     },
     {
         "query_id": "19_175",
@@ -1389,7 +1021,7 @@
         "answers": [
             "Aix-les-Bains"
         ],
-        "pageviews": 6964
+        "pageviews": 5
     },
     {
         "query_id": "19_176",
@@ -1397,7 +1029,7 @@
         "answers": [
             "Bourges"
         ],
-        "pageviews": 1860
+        "pageviews": 1
     },
     {
         "query_id": "19_177",
@@ -1405,23 +1037,7 @@
         "answers": [
             "Mumbai"
         ],
-        "pageviews": 159233
-    },
-    {
-        "query_id": "19_178",
-        "question": "Where was Solomon Efimovich Shulman born?",
-        "answers": [
-            "Babruysk"
-        ],
-        "pageviews": 0
-    },
-    {
-        "query_id": "19_180",
-        "question": "Where was Mohamed Bentiba born?",
-        "answers": [
-            "Oran"
-        ],
-        "pageviews": 687
+        "pageviews": 37
     },
     {
         "query_id": "19_182",
@@ -1429,7 +1045,7 @@
         "answers": [
             "Athens"
         ],
-        "pageviews": 2869
+        "pageviews": 1
     },
     {
         "query_id": "19_183",
@@ -1437,7 +1053,7 @@
         "answers": [
             "Kidderminster"
         ],
-        "pageviews": 33425
+        "pageviews": 7
     },
     {
         "query_id": "19_184",
@@ -1445,15 +1061,7 @@
         "answers": [
             "Tennessee"
         ],
-        "pageviews": 1408
-    },
-    {
-        "query_id": "19_185",
-        "question": "Where was Vesa Hanski born?",
-        "answers": [
-            "Turku"
-        ],
-        "pageviews": 880
+        "pageviews": 2
     },
     {
         "query_id": "19_186",
@@ -1461,15 +1069,7 @@
         "answers": [
             "Baltimore"
         ],
-        "pageviews": 32512
-    },
-    {
-        "query_id": "19_187",
-        "question": "Where was Dmitry Mikhailovich Golitsyn born?",
-        "answers": [
-            "Turku"
-        ],
-        "pageviews": 2299
+        "pageviews": 15
     },
     {
         "query_id": "19_188",
@@ -1477,7 +1077,7 @@
         "answers": [
             "Tehran"
         ],
-        "pageviews": 5114
+        "pageviews": 1
     },
     {
         "query_id": "19_189",
@@ -1485,7 +1085,7 @@
         "answers": [
             "Changsha"
         ],
-        "pageviews": 25031
+        "pageviews": 13
     },
     {
         "query_id": "19_190",
@@ -1493,7 +1093,7 @@
         "answers": [
             "San Francisco"
         ],
-        "pageviews": 111011
+        "pageviews": 27
     },
     {
         "query_id": "19_191",
@@ -1501,7 +1101,7 @@
         "answers": [
             "Hackensack"
         ],
-        "pageviews": 5363
+        "pageviews": 5
     },
     {
         "query_id": "19_192",
@@ -1509,7 +1109,7 @@
         "answers": [
             "Nagoya"
         ],
-        "pageviews": 5313
+        "pageviews": 10
     },
     {
         "query_id": "19_193",
@@ -1517,7 +1117,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 864
+        "pageviews": 1
     },
     {
         "query_id": "19_194",
@@ -1525,7 +1125,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 1639174
+        "pageviews": 352
     },
     {
         "query_id": "19_195",
@@ -1533,7 +1133,7 @@
         "answers": [
             "Freinsheim"
         ],
-        "pageviews": 3551
+        "pageviews": 11
     },
     {
         "query_id": "19_196",
@@ -1541,7 +1141,7 @@
         "answers": [
             "Nigeria"
         ],
-        "pageviews": 8094
+        "pageviews": 3
     },
     {
         "query_id": "19_197",
@@ -1549,7 +1149,7 @@
         "answers": [
             "Pontefract"
         ],
-        "pageviews": 1203
+        "pageviews": 3
     },
     {
         "query_id": "19_198",
@@ -1557,7 +1157,7 @@
         "answers": [
             "Al-Suwayda"
         ],
-        "pageviews": 9139
+        "pageviews": 6
     },
     {
         "query_id": "19_199",
@@ -1565,7 +1165,7 @@
         "answers": [
             "Saint-Mihiel"
         ],
-        "pageviews": 1724
+        "pageviews": 2
     },
     {
         "query_id": "19_200",
@@ -1573,7 +1173,7 @@
         "answers": [
             "Havana"
         ],
-        "pageviews": 1245
+        "pageviews": 1
     },
     {
         "query_id": "19_201",
@@ -1581,15 +1181,7 @@
         "answers": [
             "Palermo"
         ],
-        "pageviews": 7273
-    },
-    {
-        "query_id": "19_202",
-        "question": "Where was Ali Haider born?",
-        "answers": [
-            "Pakistan"
-        ],
-        "pageviews": 23448
+        "pageviews": 9
     },
     {
         "query_id": "19_203",
@@ -1597,7 +1189,7 @@
         "answers": [
             "Mexico City"
         ],
-        "pageviews": 1873
+        "pageviews": 17
     },
     {
         "query_id": "19_204",
@@ -1605,7 +1197,7 @@
         "answers": [
             "Venice"
         ],
-        "pageviews": 2320
+        "pageviews": 10
     },
     {
         "query_id": "19_205",
@@ -1613,15 +1205,7 @@
         "answers": [
             "Graz"
         ],
-        "pageviews": 14092
-    },
-    {
-        "query_id": "19_206",
-        "question": "Where was Hugo Sosa born?",
-        "answers": [
-            "Luque (LQ)"
-        ],
-        "pageviews": 873
+        "pageviews": 38
     },
     {
         "query_id": "19_207",
@@ -1629,7 +1213,7 @@
         "answers": [
             "Ludwigsburg"
         ],
-        "pageviews": 76726
+        "pageviews": 7
     },
     {
         "query_id": "19_208",
@@ -1637,7 +1221,7 @@
         "answers": [
             "Manchester"
         ],
-        "pageviews": 2247
+        "pageviews": 2
     },
     {
         "query_id": "19_209",
@@ -1645,7 +1229,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 24605
+        "pageviews": 3
     },
     {
         "query_id": "19_210",
@@ -1653,7 +1237,7 @@
         "answers": [
             "Palermo"
         ],
-        "pageviews": 1411
+        "pageviews": 1
     },
     {
         "query_id": "19_211",
@@ -1661,7 +1245,7 @@
         "answers": [
             "Colmar"
         ],
-        "pageviews": 1803
+        "pageviews": 5
     },
     {
         "query_id": "19_212",
@@ -1669,7 +1253,7 @@
         "answers": [
             "Ebersberg"
         ],
-        "pageviews": 17300
+        "pageviews": 22
     },
     {
         "query_id": "19_213",
@@ -1677,23 +1261,7 @@
         "answers": [
             "Genoa"
         ],
-        "pageviews": 8344
-    },
-    {
-        "query_id": "19_214",
-        "question": "Where was Wu Ken born?",
-        "answers": [
-            "Hunan"
-        ],
-        "pageviews": 1097
-    },
-    {
-        "query_id": "19_215",
-        "question": "Where was Alexandru Pena born?",
-        "answers": [
-            "Craiova"
-        ],
-        "pageviews": 1021
+        "pageviews": 11
     },
     {
         "query_id": "19_216",
@@ -1701,15 +1269,7 @@
         "answers": [
             "Cremona"
         ],
-        "pageviews": 681
-    },
-    {
-        "query_id": "19_217",
-        "question": "Where was Amani Williams Hunt Abdullah born?",
-        "answers": [
-            "Tapah"
-        ],
-        "pageviews": 4207
+        "pageviews": 4
     },
     {
         "query_id": "19_218",
@@ -1717,7 +1277,7 @@
         "answers": [
             "Urdorf"
         ],
-        "pageviews": 26040
+        "pageviews": 9
     },
     {
         "query_id": "19_219",
@@ -1725,7 +1285,7 @@
         "answers": [
             "Ivano-Frankivsk"
         ],
-        "pageviews": 886
+        "pageviews": 2
     },
     {
         "query_id": "19_220",
@@ -1733,15 +1293,7 @@
         "answers": [
             "Guadalajara"
         ],
-        "pageviews": 1691
-    },
-    {
-        "query_id": "19_221",
-        "question": "Where was Virginia Patrone born?",
-        "answers": [
-            "Montevideo"
-        ],
-        "pageviews": 992
+        "pageviews": 1
     },
     {
         "query_id": "19_222",
@@ -1749,7 +1301,7 @@
         "answers": [
             "Troy"
         ],
-        "pageviews": 99675
+        "pageviews": 2
     },
     {
         "query_id": "19_223",
@@ -1757,7 +1309,7 @@
         "answers": [
             "Rotterdam"
         ],
-        "pageviews": 2635
+        "pageviews": 16
     },
     {
         "query_id": "19_224",
@@ -1765,7 +1317,7 @@
         "answers": [
             "Saint Petersburg"
         ],
-        "pageviews": 10404
+        "pageviews": 81
     },
     {
         "query_id": "19_225",
@@ -1773,7 +1325,7 @@
         "answers": [
             "Surrey"
         ],
-        "pageviews": 2655
+        "pageviews": 4
     },
     {
         "query_id": "19_226",
@@ -1781,15 +1333,7 @@
         "answers": [
             "Korsholm"
         ],
-        "pageviews": 1120
-    },
-    {
-        "query_id": "19_227",
-        "question": "Where was Ben Worrall born?",
-        "answers": [
-            "Swindon"
-        ],
-        "pageviews": 729
+        "pageviews": 1
     },
     {
         "query_id": "19_228",
@@ -1797,7 +1341,7 @@
         "answers": [
             "Pietermaritzburg"
         ],
-        "pageviews": 1909
+        "pageviews": 3
     },
     {
         "query_id": "19_230",
@@ -1805,7 +1349,7 @@
         "answers": [
             "Kitami"
         ],
-        "pageviews": 2014
+        "pageviews": 7
     },
     {
         "query_id": "19_231",
@@ -1813,23 +1357,7 @@
         "answers": [
             "Valsolda"
         ],
-        "pageviews": 1413
-    },
-    {
-        "query_id": "19_232",
-        "question": "Where was Elizaveta Axenova born?",
-        "answers": [
-            "Krasnoyarsk"
-        ],
-        "pageviews": 563
-    },
-    {
-        "query_id": "19_233",
-        "question": "Where was Alfred Steen born?",
-        "answers": [
-            "Brooklyn"
-        ],
-        "pageviews": 471
+        "pageviews": 2
     },
     {
         "query_id": "19_234",
@@ -1837,7 +1365,7 @@
         "answers": [
             "Campinas"
         ],
-        "pageviews": 1161
+        "pageviews": 1
     },
     {
         "query_id": "19_235",
@@ -1845,7 +1373,7 @@
         "answers": [
             "Northallerton"
         ],
-        "pageviews": 5012
+        "pageviews": 11
     },
     {
         "query_id": "19_236",
@@ -1853,15 +1381,7 @@
         "answers": [
             "Quebec City"
         ],
-        "pageviews": 1002584
-    },
-    {
-        "query_id": "19_237",
-        "question": "Where was J. Roland Smith born?",
-        "answers": [
-            "Aiken"
-        ],
-        "pageviews": 666
+        "pageviews": 13
     },
     {
         "query_id": "19_238",
@@ -1869,7 +1389,7 @@
         "answers": [
             "Caracas"
         ],
-        "pageviews": 2902
+        "pageviews": 2
     },
     {
         "query_id": "19_239",
@@ -1877,15 +1397,7 @@
         "answers": [
             "Kyiv"
         ],
-        "pageviews": 2973
-    },
-    {
-        "query_id": "19_240",
-        "question": "Where was Jo\u00e3o Vilela born?",
-        "answers": [
-            "Lisbon"
-        ],
-        "pageviews": 1215
+        "pageviews": 1
     },
     {
         "query_id": "19_241",
@@ -1893,47 +1405,7 @@
         "answers": [
             "Teramo"
         ],
-        "pageviews": 1522
-    },
-    {
-        "query_id": "19_242",
-        "question": "Where was \u015eevket M\u00fcft\u00fcgil born?",
-        "answers": [
-            "Malatya"
-        ],
-        "pageviews": 594
-    },
-    {
-        "query_id": "19_243",
-        "question": "Where was William F. Clinger, Jr. born?",
-        "answers": [
-            "Warren"
-        ],
-        "pageviews": 459
-    },
-    {
-        "query_id": "19_244",
-        "question": "Where was Nicolas \u0160umsk\u00fd born?",
-        "answers": [
-            "Czech Republic"
-        ],
-        "pageviews": 958
-    },
-    {
-        "query_id": "19_245",
-        "question": "Where was Quinton Boatswain born?",
-        "answers": [
-            "Montserrat"
-        ],
-        "pageviews": 1013
-    },
-    {
-        "query_id": "19_247",
-        "question": "Where was Gabrio Zandon\u00e0 born?",
-        "answers": [
-            "Rome"
-        ],
-        "pageviews": 1031
+        "pageviews": 8
     },
     {
         "query_id": "19_248",
@@ -1941,7 +1413,7 @@
         "answers": [
             "Xiangyin County"
         ],
-        "pageviews": 810
+        "pageviews": 2
     },
     {
         "query_id": "19_249",
@@ -1949,15 +1421,7 @@
         "answers": [
             "Schaan"
         ],
-        "pageviews": 3339
-    },
-    {
-        "query_id": "19_250",
-        "question": "Where was Constantin Dausch born?",
-        "answers": [
-            "Bad Waldsee"
-        ],
-        "pageviews": 685
+        "pageviews": 4
     },
     {
         "query_id": "19_251",
@@ -1965,7 +1429,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 2361
+        "pageviews": 1
     },
     {
         "query_id": "19_252",
@@ -1973,15 +1437,7 @@
         "answers": [
             "Bremen"
         ],
-        "pageviews": 2667
-    },
-    {
-        "query_id": "19_253",
-        "question": "Where was Domingo Eyzaguirre born?",
-        "answers": [
-            "Santiago"
-        ],
-        "pageviews": 733
+        "pageviews": 2
     },
     {
         "query_id": "19_254",
@@ -1989,7 +1445,7 @@
         "answers": [
             "San Francisco"
         ],
-        "pageviews": 7888
+        "pageviews": 12
     },
     {
         "query_id": "19_255",
@@ -1997,7 +1453,7 @@
         "answers": [
             "Munkedal"
         ],
-        "pageviews": 1566
+        "pageviews": 1
     },
     {
         "query_id": "19_256",
@@ -2005,7 +1461,7 @@
         "answers": [
             "Bluffton"
         ],
-        "pageviews": 1796
+        "pageviews": 1
     },
     {
         "query_id": "19_257",
@@ -2013,7 +1469,7 @@
         "answers": [
             "Mantua"
         ],
-        "pageviews": 12855
+        "pageviews": 34
     },
     {
         "query_id": "19_258",
@@ -2021,31 +1477,7 @@
         "answers": [
             "Danville"
         ],
-        "pageviews": 13833
-    },
-    {
-        "query_id": "19_259",
-        "question": "Where was Malgosia Tomassi born?",
-        "answers": [
-            "Warsaw"
-        ],
-        "pageviews": 76627
-    },
-    {
-        "query_id": "19_260",
-        "question": "Where was Jang Hye-jin born?",
-        "answers": [
-            "South Korea"
-        ],
-        "pageviews": 8159
-    },
-    {
-        "query_id": "19_261",
-        "question": "Where was Dirk Crois born?",
-        "answers": [
-            "Bruges"
-        ],
-        "pageviews": 653
+        "pageviews": 6
     },
     {
         "query_id": "19_262",
@@ -2053,7 +1485,7 @@
         "answers": [
             "Epsom"
         ],
-        "pageviews": 17181
+        "pageviews": 3
     },
     {
         "query_id": "19_263",
@@ -2061,7 +1493,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 46384
+        "pageviews": 141
     },
     {
         "query_id": "19_264",
@@ -2069,7 +1501,7 @@
         "answers": [
             "Mexico City"
         ],
-        "pageviews": 1696
+        "pageviews": 2
     },
     {
         "query_id": "19_265",
@@ -2077,15 +1509,7 @@
         "answers": [
             "Little Rock"
         ],
-        "pageviews": 90068
-    },
-    {
-        "query_id": "19_266",
-        "question": "Where was Tatyana Kraynova born?",
-        "answers": [
-            "Saint Petersburg"
-        ],
-        "pageviews": 829
+        "pageviews": 10
     },
     {
         "query_id": "19_267",
@@ -2093,31 +1517,7 @@
         "answers": [
             "Hinganghat"
         ],
-        "pageviews": 118140
-    },
-    {
-        "query_id": "19_268",
-        "question": "Where was Gonzalo Sebasti\u00e1n Garc\u00eda born?",
-        "answers": [
-            "Buenos Aires"
-        ],
-        "pageviews": 499
-    },
-    {
-        "query_id": "19_269",
-        "question": "Where was Frederick Campling born?",
-        "answers": [
-            "Basford"
-        ],
-        "pageviews": 1155
-    },
-    {
-        "query_id": "19_270",
-        "question": "Where was Ernest Yust born?",
-        "answers": [
-            "Uzhhorod"
-        ],
-        "pageviews": 977
+        "pageviews": 28
     },
     {
         "query_id": "19_271",
@@ -2125,7 +1525,7 @@
         "answers": [
             "Minneapolis"
         ],
-        "pageviews": 3802
+        "pageviews": 3
     },
     {
         "query_id": "19_272",
@@ -2133,7 +1533,7 @@
         "answers": [
             "Edinburgh"
         ],
-        "pageviews": 4439
+        "pageviews": 2
     },
     {
         "query_id": "19_273",
@@ -2141,7 +1541,7 @@
         "answers": [
             "Saint Petersburg"
         ],
-        "pageviews": 21043
+        "pageviews": 3
     },
     {
         "query_id": "19_274",
@@ -2149,7 +1549,7 @@
         "answers": [
             "Beauceville"
         ],
-        "pageviews": 3006
+        "pageviews": 2
     },
     {
         "query_id": "19_275",
@@ -2157,7 +1557,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 10142
+        "pageviews": 14
     },
     {
         "query_id": "19_276",
@@ -2165,31 +1565,7 @@
         "answers": [
             "Buenos Aires"
         ],
-        "pageviews": 1121
-    },
-    {
-        "query_id": "19_277",
-        "question": "Where was Eino Kuvaja born?",
-        "answers": [
-            "Kuopio"
-        ],
-        "pageviews": 735
-    },
-    {
-        "query_id": "19_278",
-        "question": "Where was Liam Higgins born?",
-        "answers": [
-            "Doncaster"
-        ],
-        "pageviews": 1086
-    },
-    {
-        "query_id": "19_279",
-        "question": "Where was Stanislas Oliveira born?",
-        "answers": [
-            "Mont-Saint-Aignan"
-        ],
-        "pageviews": 724
+        "pageviews": 5
     },
     {
         "query_id": "19_280",
@@ -2197,7 +1573,7 @@
         "answers": [
             "Buenos Aires"
         ],
-        "pageviews": 2603
+        "pageviews": 2
     },
     {
         "query_id": "19_281",
@@ -2205,7 +1581,7 @@
         "answers": [
             "Helsinki"
         ],
-        "pageviews": 732
+        "pageviews": 2
     },
     {
         "query_id": "19_282",
@@ -2213,7 +1589,7 @@
         "answers": [
             "Craiova"
         ],
-        "pageviews": 998
+        "pageviews": 1
     },
     {
         "query_id": "19_283",
@@ -2221,7 +1597,7 @@
         "answers": [
             "Kyiv"
         ],
-        "pageviews": 116002
+        "pageviews": 19
     },
     {
         "query_id": "19_284",
@@ -2229,7 +1605,7 @@
         "answers": [
             "Japan"
         ],
-        "pageviews": 24307
+        "pageviews": 10
     },
     {
         "query_id": "19_285",
@@ -2237,7 +1613,7 @@
         "answers": [
             "Miskolc"
         ],
-        "pageviews": 786
+        "pageviews": 1
     },
     {
         "query_id": "19_286",
@@ -2245,15 +1621,7 @@
         "answers": [
             "Prague"
         ],
-        "pageviews": 991
-    },
-    {
-        "query_id": "19_287",
-        "question": "Where was Ruth Thomas born?",
-        "answers": [
-            "Horsmonden"
-        ],
-        "pageviews": 2054
+        "pageviews": 1
     },
     {
         "query_id": "19_288",
@@ -2261,15 +1629,7 @@
         "answers": [
             "Istanbul"
         ],
-        "pageviews": 49630
-    },
-    {
-        "query_id": "19_289",
-        "question": "Where was Arthur Gee born?",
-        "answers": [
-            "Earlestown"
-        ],
-        "pageviews": 820
+        "pageviews": 13
     },
     {
         "query_id": "19_290",
@@ -2277,7 +1637,7 @@
         "answers": [
             "Minneapolis"
         ],
-        "pageviews": 12637
+        "pageviews": 5
     },
     {
         "query_id": "19_291",
@@ -2285,7 +1645,7 @@
         "answers": [
             "Baja"
         ],
-        "pageviews": 3339
+        "pageviews": 4
     },
     {
         "query_id": "19_292",
@@ -2293,7 +1653,7 @@
         "answers": [
             "Weimar"
         ],
-        "pageviews": 9722
+        "pageviews": 17
     },
     {
         "query_id": "19_293",
@@ -2301,7 +1661,7 @@
         "answers": [
             "Yerevan"
         ],
-        "pageviews": 728
+        "pageviews": 1
     },
     {
         "query_id": "19_294",
@@ -2309,7 +1669,7 @@
         "answers": [
             "Fayetteville"
         ],
-        "pageviews": 1083
+        "pageviews": 1
     },
     {
         "query_id": "19_295",
@@ -2317,23 +1677,7 @@
         "answers": [
             "United States of America"
         ],
-        "pageviews": 123645
-    },
-    {
-        "query_id": "19_296",
-        "question": "Where was Tony Dean Smith born?",
-        "answers": [
-            "Johannesburg"
-        ],
-        "pageviews": 1721
-    },
-    {
-        "query_id": "19_297",
-        "question": "Where was Joe Davison born?",
-        "answers": [
-            "Newcastle upon Tyne"
-        ],
-        "pageviews": 406
+        "pageviews": 13
     },
     {
         "query_id": "19_298",
@@ -2341,7 +1685,7 @@
         "answers": [
             "Hartford"
         ],
-        "pageviews": 1764
+        "pageviews": 2
     },
     {
         "query_id": "19_299",
@@ -2349,7 +1693,7 @@
         "answers": [
             "Bayeux"
         ],
-        "pageviews": 9437
+        "pageviews": 4
     },
     {
         "query_id": "19_300",
@@ -2357,7 +1701,7 @@
         "answers": [
             "Genoa"
         ],
-        "pageviews": 15866
+        "pageviews": 82
     },
     {
         "query_id": "19_301",
@@ -2365,7 +1709,7 @@
         "answers": [
             "Nakhon Si Thammarat"
         ],
-        "pageviews": 1591
+        "pageviews": 2
     },
     {
         "query_id": "19_302",
@@ -2373,7 +1717,7 @@
         "answers": [
             "Zaragoza"
         ],
-        "pageviews": 672
+        "pageviews": 1
     },
     {
         "query_id": "19_303",
@@ -2381,7 +1725,7 @@
         "answers": [
             "Budapest"
         ],
-        "pageviews": 834
+        "pageviews": 1
     },
     {
         "query_id": "19_304",
@@ -2389,15 +1733,7 @@
         "answers": [
             "Houston"
         ],
-        "pageviews": 17833
-    },
-    {
-        "query_id": "19_305",
-        "question": "Where was Pascal Strebel born?",
-        "answers": [
-            "Muri"
-        ],
-        "pageviews": 709
+        "pageviews": 17
     },
     {
         "query_id": "19_306",
@@ -2405,7 +1741,7 @@
         "answers": [
             "Mesagne"
         ],
-        "pageviews": 2022
+        "pageviews": 1
     },
     {
         "query_id": "19_307",
@@ -2413,15 +1749,7 @@
         "answers": [
             "Manzanillo"
         ],
-        "pageviews": 1722
-    },
-    {
-        "query_id": "19_308",
-        "question": "Where was Gladys Blake born?",
-        "answers": [
-            "Luray"
-        ],
-        "pageviews": 5158
+        "pageviews": 3
     },
     {
         "query_id": "19_309",
@@ -2429,7 +1757,7 @@
         "answers": [
             "Celorico da Beira"
         ],
-        "pageviews": 1702
+        "pageviews": 18
     },
     {
         "query_id": "19_310",
@@ -2437,7 +1765,7 @@
         "answers": [
             "San Francisco"
         ],
-        "pageviews": 3591
+        "pageviews": 9
     },
     {
         "query_id": "19_311",
@@ -2445,7 +1773,7 @@
         "answers": [
             "Tapanuli Tengah"
         ],
-        "pageviews": 2791
+        "pageviews": 1
     },
     {
         "query_id": "19_312",
@@ -2453,15 +1781,7 @@
         "answers": [
             "Quilmes"
         ],
-        "pageviews": 25220
-    },
-    {
-        "query_id": "19_313",
-        "question": "Where was John C. Burch born?",
-        "answers": [
-            "Boone County"
-        ],
-        "pageviews": 1447
+        "pageviews": 14
     },
     {
         "query_id": "19_314",
@@ -2469,7 +1789,7 @@
         "answers": [
             "Linton"
         ],
-        "pageviews": 3644
+        "pageviews": 5
     },
     {
         "query_id": "19_315",
@@ -2477,15 +1797,7 @@
         "answers": [
             "Hong Kong"
         ],
-        "pageviews": 17605
-    },
-    {
-        "query_id": "19_316",
-        "question": "Where was Leon D\u0103n\u0103il\u0103 born?",
-        "answers": [
-            "Darabani"
-        ],
-        "pageviews": 20514
+        "pageviews": 4
     },
     {
         "query_id": "19_317",
@@ -2493,7 +1805,7 @@
         "answers": [
             "Hutchinson"
         ],
-        "pageviews": 5987
+        "pageviews": 5
     },
     {
         "query_id": "19_318",
@@ -2501,7 +1813,7 @@
         "answers": [
             "Trondheim"
         ],
-        "pageviews": 718
+        "pageviews": 1
     },
     {
         "query_id": "19_319",
@@ -2509,7 +1821,7 @@
         "answers": [
             "Newport"
         ],
-        "pageviews": 1362
+        "pageviews": 1
     },
     {
         "query_id": "19_320",
@@ -2517,15 +1829,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 28769
-    },
-    {
-        "query_id": "19_321",
-        "question": "Where was Philippe Ch\u00e9ry born?",
-        "answers": [
-            "Paris"
-        ],
-        "pageviews": 1432
+        "pageviews": 11
     },
     {
         "query_id": "19_322",
@@ -2533,7 +1837,7 @@
         "answers": [
             "Hanover"
         ],
-        "pageviews": 1887
+        "pageviews": 1
     },
     {
         "query_id": "19_323",
@@ -2541,7 +1845,7 @@
         "answers": [
             "Boston"
         ],
-        "pageviews": 7342
+        "pageviews": 20
     },
     {
         "query_id": "19_324",
@@ -2549,7 +1853,7 @@
         "answers": [
             "County Waterford"
         ],
-        "pageviews": 557
+        "pageviews": 1
     },
     {
         "query_id": "19_325",
@@ -2557,15 +1861,7 @@
         "answers": [
             "Imola"
         ],
-        "pageviews": 8820
-    },
-    {
-        "query_id": "19_326",
-        "question": "Where was Paul Sauvage born?",
-        "answers": [
-            "La Souterraine"
-        ],
-        "pageviews": 1053
+        "pageviews": 9
     },
     {
         "query_id": "19_327",
@@ -2573,23 +1869,7 @@
         "answers": [
             "Florence"
         ],
-        "pageviews": 454589
-    },
-    {
-        "query_id": "19_328",
-        "question": "Where was Honor\u00e9-Jean-Aristide Husson born?",
-        "answers": [
-            "Paris"
-        ],
-        "pageviews": 557
-    },
-    {
-        "query_id": "19_329",
-        "question": "Where was Manuel Aguirre de Tejada born?",
-        "answers": [
-            "Ferrol"
-        ],
-        "pageviews": 1185
+        "pageviews": 300
     },
     {
         "query_id": "19_330",
@@ -2597,15 +1877,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 2948
-    },
-    {
-        "query_id": "19_331",
-        "question": "Where was Robert Herrera born?",
-        "answers": [
-            "Montevideo"
-        ],
-        "pageviews": 1433
+        "pageviews": 12
     },
     {
         "query_id": "19_333",
@@ -2613,7 +1885,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 1586
+        "pageviews": 6
     },
     {
         "query_id": "19_334",
@@ -2621,7 +1893,7 @@
         "answers": [
             "Miyagi Prefecture"
         ],
-        "pageviews": 806
+        "pageviews": 1
     },
     {
         "query_id": "19_335",
@@ -2629,7 +1901,7 @@
         "answers": [
             "St. Clair"
         ],
-        "pageviews": 1275
+        "pageviews": 2
     },
     {
         "query_id": "19_336",
@@ -2637,7 +1909,7 @@
         "answers": [
             "Calgary"
         ],
-        "pageviews": 3167
+        "pageviews": 5
     },
     {
         "query_id": "19_337",
@@ -2645,7 +1917,7 @@
         "answers": [
             "Hyde"
         ],
-        "pageviews": 3047
+        "pageviews": 1
     },
     {
         "query_id": "19_338",
@@ -2653,7 +1925,7 @@
         "answers": [
             "East Orange"
         ],
-        "pageviews": 1664
+        "pageviews": 1
     },
     {
         "query_id": "19_339",
@@ -2661,31 +1933,7 @@
         "answers": [
             "Mount Gambier"
         ],
-        "pageviews": 2815
-    },
-    {
-        "query_id": "19_340",
-        "question": "Where was Reynaldo Tilguath born?",
-        "answers": [
-            "Tegucigalpa"
-        ],
-        "pageviews": 1071
-    },
-    {
-        "query_id": "19_341",
-        "question": "Where was Annette Lapointe born?",
-        "answers": [
-            "Saskatoon"
-        ],
-        "pageviews": 1017
-    },
-    {
-        "query_id": "19_342",
-        "question": "Where was Brandy Reed born?",
-        "answers": [
-            "San Francisco"
-        ],
-        "pageviews": 2774
+        "pageviews": 1
     },
     {
         "query_id": "19_343",
@@ -2693,15 +1941,7 @@
         "answers": [
             "Killanne"
         ],
-        "pageviews": 7810
-    },
-    {
-        "query_id": "19_344",
-        "question": "Where was Barry Murphy born?",
-        "answers": [
-            "Limerick"
-        ],
-        "pageviews": 4960
+        "pageviews": 48
     },
     {
         "query_id": "19_345",
@@ -2709,7 +1949,7 @@
         "answers": [
             "Washington, D.C."
         ],
-        "pageviews": 2135
+        "pageviews": 2
     },
     {
         "query_id": "19_346",
@@ -2717,7 +1957,7 @@
         "answers": [
             "Iowa"
         ],
-        "pageviews": 3321
+        "pageviews": 16
     },
     {
         "query_id": "19_347",
@@ -2725,7 +1965,7 @@
         "answers": [
             "Erfurt"
         ],
-        "pageviews": 2400
+        "pageviews": 1
     },
     {
         "query_id": "19_348",
@@ -2733,31 +1973,7 @@
         "answers": [
             "Goshen"
         ],
-        "pageviews": 2457
-    },
-    {
-        "query_id": "19_349",
-        "question": "Where was Erin Dobratz born?",
-        "answers": [
-            "Concord"
-        ],
-        "pageviews": 1905
-    },
-    {
-        "query_id": "19_350",
-        "question": "Where was James Jones born?",
-        "answers": [
-            "Maryland"
-        ],
-        "pageviews": 2025
-    },
-    {
-        "query_id": "19_351",
-        "question": "Where was Dan Way born?",
-        "answers": [
-            "Swindon"
-        ],
-        "pageviews": 497
+        "pageviews": 1
     },
     {
         "query_id": "19_352",
@@ -2765,7 +1981,7 @@
         "answers": [
             "Tours"
         ],
-        "pageviews": 2879
+        "pageviews": 4
     },
     {
         "query_id": "19_353",
@@ -2773,7 +1989,7 @@
         "answers": [
             "Valinhos"
         ],
-        "pageviews": 11599
+        "pageviews": 14
     },
     {
         "query_id": "19_354",
@@ -2781,7 +1997,7 @@
         "answers": [
             "Wadena"
         ],
-        "pageviews": 973
+        "pageviews": 2
     },
     {
         "query_id": "19_355",
@@ -2789,15 +2005,7 @@
         "answers": [
             "Nizhny Novgorod"
         ],
-        "pageviews": 2354
-    },
-    {
-        "query_id": "19_356",
-        "question": "Where was Stuart Airey born?",
-        "answers": [
-            "Cleethorpes"
-        ],
-        "pageviews": 139
+        "pageviews": 4
     },
     {
         "query_id": "19_357",
@@ -2805,23 +2013,7 @@
         "answers": [
             "Newburgh"
         ],
-        "pageviews": 2024
-    },
-    {
-        "query_id": "19_358",
-        "question": "Where was Ricardo Fernandes born?",
-        "answers": [
-            "Funchal"
-        ],
-        "pageviews": 724
-    },
-    {
-        "query_id": "19_359",
-        "question": "Where was Adnan Be\u0161i\u0107 born?",
-        "answers": [
-            "Postojna"
-        ],
-        "pageviews": 897
+        "pageviews": 5
     },
     {
         "query_id": "19_360",
@@ -2829,7 +2021,7 @@
         "answers": [
             "Nikolsk"
         ],
-        "pageviews": 3988
+        "pageviews": 8
     },
     {
         "query_id": "19_361",
@@ -2837,7 +2029,7 @@
         "answers": [
             "Pergamon"
         ],
-        "pageviews": 73496
+        "pageviews": 5
     },
     {
         "query_id": "19_362",
@@ -2845,7 +2037,7 @@
         "answers": [
             "Etxarri-Aranatz"
         ],
-        "pageviews": 2081
+        "pageviews": 21
     },
     {
         "query_id": "19_363",
@@ -2853,7 +2045,7 @@
         "answers": [
             "Prague"
         ],
-        "pageviews": 1606
+        "pageviews": 3
     },
     {
         "query_id": "19_364",
@@ -2861,7 +2053,7 @@
         "answers": [
             "Kiel"
         ],
-        "pageviews": 3873
+        "pageviews": 19
     },
     {
         "query_id": "19_365",
@@ -2869,7 +2061,7 @@
         "answers": [
             "Graz"
         ],
-        "pageviews": 6193
+        "pageviews": 23
     },
     {
         "query_id": "19_366",
@@ -2877,15 +2069,7 @@
         "answers": [
             "Barcelona"
         ],
-        "pageviews": 15909
-    },
-    {
-        "query_id": "19_367",
-        "question": "Where was Marcel Ritzmaier born?",
-        "answers": [
-            "Judenburg"
-        ],
-        "pageviews": 5472
+        "pageviews": 8
     },
     {
         "query_id": "19_368",
@@ -2893,7 +2077,7 @@
         "answers": [
             "Suva"
         ],
-        "pageviews": 3719
+        "pageviews": 2
     },
     {
         "query_id": "19_369",
@@ -2901,7 +2085,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 7674
+        "pageviews": 10
     },
     {
         "query_id": "19_370",
@@ -2909,7 +2093,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 6991
+        "pageviews": 21
     },
     {
         "query_id": "19_371",
@@ -2917,15 +2101,7 @@
         "answers": [
             "Cedar Rapids"
         ],
-        "pageviews": 6933
-    },
-    {
-        "query_id": "19_372",
-        "question": "Where was Yoichi Akiba born?",
-        "answers": [
-            "Saitama Prefecture"
-        ],
-        "pageviews": 521
+        "pageviews": 10
     },
     {
         "query_id": "19_373",
@@ -2933,7 +2109,7 @@
         "answers": [
             "Walthamstow"
         ],
-        "pageviews": 19399
+        "pageviews": 7
     },
     {
         "query_id": "19_374",
@@ -2941,7 +2117,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 53410
+        "pageviews": 49
     },
     {
         "query_id": "19_375",
@@ -2949,7 +2125,7 @@
         "answers": [
             "Novokuznetsk"
         ],
-        "pageviews": 5377
+        "pageviews": 7
     },
     {
         "query_id": "19_376",
@@ -2957,15 +2133,7 @@
         "answers": [
             "Willemstad"
         ],
-        "pageviews": 1702
-    },
-    {
-        "query_id": "19_377",
-        "question": "Where was Ethel Pritchard born?",
-        "answers": [
-            "Onehunga"
-        ],
-        "pageviews": 747
+        "pageviews": 4
     },
     {
         "query_id": "19_378",
@@ -2973,7 +2141,7 @@
         "answers": [
             "Slantsy"
         ],
-        "pageviews": 72829
+        "pageviews": 2
     },
     {
         "query_id": "19_379",
@@ -2981,7 +2149,7 @@
         "answers": [
             "La Spezia"
         ],
-        "pageviews": 2317
+        "pageviews": 5
     },
     {
         "query_id": "19_380",
@@ -2989,7 +2157,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 20166
+        "pageviews": 15
     },
     {
         "query_id": "19_381",
@@ -2997,31 +2165,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 9070
-    },
-    {
-        "query_id": "19_382",
-        "question": "Where was Irene Hughes born?",
-        "answers": [
-            "Tennessee"
-        ],
-        "pageviews": 2054
-    },
-    {
-        "query_id": "19_383",
-        "question": "Where was Sin Na-hee born?",
-        "answers": [
-            "Daegu"
-        ],
-        "pageviews": 1020
-    },
-    {
-        "query_id": "19_384",
-        "question": "Where was Patrick Stirling born?",
-        "answers": [
-            "Kilmarnock"
-        ],
-        "pageviews": 457
+        "pageviews": 9
     },
     {
         "query_id": "19_385",
@@ -3029,15 +2173,7 @@
         "answers": [
             "Potsdam"
         ],
-        "pageviews": 1035
-    },
-    {
-        "query_id": "19_386",
-        "question": "Where was Jordan Santiago born?",
-        "answers": [
-            "Calgary"
-        ],
-        "pageviews": 1514
+        "pageviews": 1
     },
     {
         "query_id": "19_387",
@@ -3045,7 +2181,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 7451
+        "pageviews": 18
     },
     {
         "query_id": "19_388",
@@ -3053,7 +2189,7 @@
         "answers": [
             "Tallinn"
         ],
-        "pageviews": 4438
+        "pageviews": 1
     },
     {
         "query_id": "19_389",
@@ -3061,7 +2197,7 @@
         "answers": [
             "Seoul"
         ],
-        "pageviews": 5446
+        "pageviews": 8
     },
     {
         "query_id": "19_390",
@@ -3069,7 +2205,7 @@
         "answers": [
             "Torquay"
         ],
-        "pageviews": 3721
+        "pageviews": 21
     },
     {
         "query_id": "19_391",
@@ -3077,7 +2213,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 2485
+        "pageviews": 6
     },
     {
         "query_id": "19_392",
@@ -3085,7 +2221,7 @@
         "answers": [
             "Stockholm"
         ],
-        "pageviews": 17869
+        "pageviews": 49
     },
     {
         "query_id": "19_393",
@@ -3093,7 +2229,7 @@
         "answers": [
             "Vienna"
         ],
-        "pageviews": 12811
+        "pageviews": 15
     },
     {
         "query_id": "19_394",
@@ -3101,7 +2237,7 @@
         "answers": [
             "Rouen"
         ],
-        "pageviews": 1493
+        "pageviews": 5
     },
     {
         "query_id": "19_395",
@@ -3109,7 +2245,7 @@
         "answers": [
             "Madrid"
         ],
-        "pageviews": 837
+        "pageviews": 3
     },
     {
         "query_id": "19_396",
@@ -3117,7 +2253,7 @@
         "answers": [
             "Augsburg"
         ],
-        "pageviews": 4135
+        "pageviews": 4
     },
     {
         "query_id": "19_397",
@@ -3125,7 +2261,7 @@
         "answers": [
             "Oldham"
         ],
-        "pageviews": 4301
+        "pageviews": 3
     },
     {
         "query_id": "19_398",
@@ -3133,7 +2269,7 @@
         "answers": [
             "South Africa"
         ],
-        "pageviews": 8411
+        "pageviews": 36
     },
     {
         "query_id": "19_399",
@@ -3141,7 +2277,7 @@
         "answers": [
             "Imphal"
         ],
-        "pageviews": 25838
+        "pageviews": 14
     },
     {
         "query_id": "19_400",
@@ -3149,7 +2285,7 @@
         "answers": [
             "Stuttgart"
         ],
-        "pageviews": 6406
+        "pageviews": 1
     },
     {
         "query_id": "19_401",
@@ -3157,7 +2293,7 @@
         "answers": [
             "Nantucket"
         ],
-        "pageviews": 1217
+        "pageviews": 3
     },
     {
         "query_id": "19_402",
@@ -3165,7 +2301,7 @@
         "answers": [
             "Siena"
         ],
-        "pageviews": 617
+        "pageviews": 4
     },
     {
         "query_id": "19_403",
@@ -3173,7 +2309,7 @@
         "answers": [
             "Salt Lake City"
         ],
-        "pageviews": 807
+        "pageviews": 2
     },
     {
         "query_id": "19_404",
@@ -3181,15 +2317,7 @@
         "answers": [
             "K\u014dbe"
         ],
-        "pageviews": 8574
-    },
-    {
-        "query_id": "19_405",
-        "question": "Where was Petra Divi\u0161ov\u00e1 born?",
-        "answers": [
-            "Strakonice"
-        ],
-        "pageviews": 1563
+        "pageviews": 16
     },
     {
         "query_id": "19_406",
@@ -3197,7 +2325,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 6860
+        "pageviews": 19
     },
     {
         "query_id": "19_407",
@@ -3205,7 +2333,7 @@
         "answers": [
             "Stockholm"
         ],
-        "pageviews": 8860
+        "pageviews": 3
     },
     {
         "query_id": "19_408",
@@ -3213,7 +2341,7 @@
         "answers": [
             "United States of America"
         ],
-        "pageviews": 4119
+        "pageviews": 1
     },
     {
         "query_id": "19_409",
@@ -3221,31 +2349,7 @@
         "answers": [
             "Fort Kent"
         ],
-        "pageviews": 18913
-    },
-    {
-        "query_id": "19_410",
-        "question": "Where was Aaron Banks born?",
-        "answers": [
-            "The Bronx"
-        ],
-        "pageviews": 4385
-    },
-    {
-        "query_id": "19_411",
-        "question": "Where was Arsen Khubulov born?",
-        "answers": [
-            "Vladikavkaz"
-        ],
-        "pageviews": 1284
-    },
-    {
-        "query_id": "19_412",
-        "question": "Where was Toccara Montgomery born?",
-        "answers": [
-            "Cleveland"
-        ],
-        "pageviews": 2601
+        "pageviews": 1
     },
     {
         "query_id": "19_413",
@@ -3253,7 +2357,7 @@
         "answers": [
             "Minsk"
         ],
-        "pageviews": 1529
+        "pageviews": 2
     },
     {
         "query_id": "19_414",
@@ -3261,7 +2365,7 @@
         "answers": [
             "Vienna"
         ],
-        "pageviews": 340
+        "pageviews": 1
     },
     {
         "query_id": "19_415",
@@ -3269,7 +2373,7 @@
         "answers": [
             "Kumasi"
         ],
-        "pageviews": 92616
+        "pageviews": 20
     },
     {
         "query_id": "19_416",
@@ -3277,7 +2381,7 @@
         "answers": [
             "Pesaro"
         ],
-        "pageviews": 7374
+        "pageviews": 9
     },
     {
         "query_id": "19_417",
@@ -3285,15 +2389,7 @@
         "answers": [
             "Delhi"
         ],
-        "pageviews": 4142
-    },
-    {
-        "query_id": "19_418",
-        "question": "Where was Gorazd born?",
-        "answers": [
-            "Moravia"
-        ],
-        "pageviews": 0
+        "pageviews": 1
     },
     {
         "query_id": "19_419",
@@ -3301,7 +2397,7 @@
         "answers": [
             "Saint Petersburg"
         ],
-        "pageviews": 13496
+        "pageviews": 7
     },
     {
         "query_id": "19_420",
@@ -3309,7 +2405,7 @@
         "answers": [
             "Northern Ireland"
         ],
-        "pageviews": 1822
+        "pageviews": 1
     },
     {
         "query_id": "19_421",
@@ -3317,15 +2413,7 @@
         "answers": [
             "Modesto"
         ],
-        "pageviews": 1296
-    },
-    {
-        "query_id": "19_422",
-        "question": "Where was Valentino Annibale Pastore born?",
-        "answers": [
-            "Orbassano"
-        ],
-        "pageviews": 116
+        "pageviews": 2
     },
     {
         "query_id": "19_423",
@@ -3333,7 +2421,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 28986
+        "pageviews": 19
     },
     {
         "query_id": "19_424",
@@ -3341,23 +2429,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 2792
-    },
-    {
-        "query_id": "19_425",
-        "question": "Where was Seyi Olajengbesi born?",
-        "answers": [
-            "Ibadan"
-        ],
-        "pageviews": 1407
-    },
-    {
-        "query_id": "19_426",
-        "question": "Where was Alfonso de Nigris born?",
-        "answers": [
-            "Monterrey"
-        ],
-        "pageviews": 77
+        "pageviews": 1
     },
     {
         "query_id": "19_427",
@@ -3365,7 +2437,7 @@
         "answers": [
             "Prince William County"
         ],
-        "pageviews": 3206
+        "pageviews": 9
     },
     {
         "query_id": "19_428",
@@ -3373,7 +2445,7 @@
         "answers": [
             "Breda"
         ],
-        "pageviews": 791
+        "pageviews": 5
     },
     {
         "query_id": "19_429",
@@ -3381,7 +2453,7 @@
         "answers": [
             "Stuttgart"
         ],
-        "pageviews": 8736
+        "pageviews": 3
     },
     {
         "query_id": "19_430",
@@ -3389,7 +2461,7 @@
         "answers": [
             "Windsor"
         ],
-        "pageviews": 757
+        "pageviews": 2
     },
     {
         "query_id": "19_431",
@@ -3397,15 +2469,7 @@
         "answers": [
             "Cienfuegos"
         ],
-        "pageviews": 2024
-    },
-    {
-        "query_id": "19_432",
-        "question": "Where was Yoneji Masuda born?",
-        "answers": [
-            "Japan"
-        ],
-        "pageviews": 3086
+        "pageviews": 10
     },
     {
         "query_id": "19_433",
@@ -3413,7 +2477,7 @@
         "answers": [
             "Framingham"
         ],
-        "pageviews": 651
+        "pageviews": 3
     },
     {
         "query_id": "19_434",
@@ -3421,7 +2485,7 @@
         "answers": [
             "Tyler"
         ],
-        "pageviews": 3684
+        "pageviews": 2
     },
     {
         "query_id": "19_435",
@@ -3429,7 +2493,7 @@
         "answers": [
             "Jeddah"
         ],
-        "pageviews": 2633
+        "pageviews": 1
     },
     {
         "query_id": "19_436",
@@ -3437,7 +2501,7 @@
         "answers": [
             "Mysore"
         ],
-        "pageviews": 14649
+        "pageviews": 27
     },
     {
         "query_id": "19_437",
@@ -3445,7 +2509,7 @@
         "answers": [
             "Montevideo"
         ],
-        "pageviews": 22926
+        "pageviews": 9
     },
     {
         "query_id": "19_438",
@@ -3453,15 +2517,7 @@
         "answers": [
             "Bergen"
         ],
-        "pageviews": 4860
-    },
-    {
-        "query_id": "19_439",
-        "question": "Where was Adriaen Verwer born?",
-        "answers": [
-            "Rotterdam"
-        ],
-        "pageviews": 568
+        "pageviews": 15
     },
     {
         "query_id": "19_440",
@@ -3469,7 +2525,7 @@
         "answers": [
             "Gosford"
         ],
-        "pageviews": 164937
+        "pageviews": 6
     },
     {
         "query_id": "19_441",
@@ -3477,7 +2533,7 @@
         "answers": [
             "Garden Grove"
         ],
-        "pageviews": 3870
+        "pageviews": 1
     },
     {
         "query_id": "19_442",
@@ -3485,7 +2541,7 @@
         "answers": [
             "Troy"
         ],
-        "pageviews": 554
+        "pageviews": 1
     },
     {
         "query_id": "19_443",
@@ -3493,7 +2549,7 @@
         "answers": [
             "Florence"
         ],
-        "pageviews": 3108
+        "pageviews": 5
     },
     {
         "query_id": "19_444",
@@ -3501,15 +2557,7 @@
         "answers": [
             "Corinna"
         ],
-        "pageviews": 1509
-    },
-    {
-        "query_id": "19_445",
-        "question": "Where was Rod Benson born?",
-        "answers": [
-            "Fairfield"
-        ],
-        "pageviews": 5593
+        "pageviews": 4
     },
     {
         "query_id": "19_446",
@@ -3517,7 +2565,7 @@
         "answers": [
             "Vicenza"
         ],
-        "pageviews": 1358
+        "pageviews": 4
     },
     {
         "query_id": "19_447",
@@ -3525,47 +2573,7 @@
         "answers": [
             "Bergen"
         ],
-        "pageviews": 880
-    },
-    {
-        "query_id": "19_448",
-        "question": "Where was Bud Lee born?",
-        "answers": [
-            "Indianapolis"
-        ],
-        "pageviews": 0
-    },
-    {
-        "query_id": "19_449",
-        "question": "Where was Robert Dawson born?",
-        "answers": [
-            "Windsor"
-        ],
-        "pageviews": 915
-    },
-    {
-        "query_id": "19_450",
-        "question": "Where was Viktor Gordiuk born?",
-        "answers": [
-            "Odintsovo"
-        ],
-        "pageviews": 1059
-    },
-    {
-        "query_id": "19_451",
-        "question": "Where was Tom Buckland born?",
-        "answers": [
-            "Sutton in Ashfield"
-        ],
-        "pageviews": 355
-    },
-    {
-        "query_id": "19_452",
-        "question": "Where was Albert Hall born?",
-        "answers": [
-            "Stourbridge"
-        ],
-        "pageviews": 779
+        "pageviews": 4
     },
     {
         "query_id": "19_453",
@@ -3573,7 +2581,7 @@
         "answers": [
             "Gie\u00dfen"
         ],
-        "pageviews": 895
+        "pageviews": 1
     },
     {
         "query_id": "19_454",
@@ -3581,15 +2589,7 @@
         "answers": [
             "Hamar Municipality"
         ],
-        "pageviews": 2645
-    },
-    {
-        "query_id": "19_455",
-        "question": "Where was Madelon Mason born?",
-        "answers": [
-            "Cleveland"
-        ],
-        "pageviews": 822
+        "pageviews": 4
     },
     {
         "query_id": "19_456",
@@ -3597,15 +2597,7 @@
         "answers": [
             "Caverswall"
         ],
-        "pageviews": 320
-    },
-    {
-        "query_id": "19_457",
-        "question": "Where was Todd Allen born?",
-        "answers": [
-            "Ottawa"
-        ],
-        "pageviews": 3337
+        "pageviews": 2
     },
     {
         "query_id": "19_458",
@@ -3613,7 +2605,7 @@
         "answers": [
             "Vilnius"
         ],
-        "pageviews": 7944
+        "pageviews": 12
     },
     {
         "query_id": "19_459",
@@ -3621,7 +2613,7 @@
         "answers": [
             "Kilgoris"
         ],
-        "pageviews": 3855
+        "pageviews": 13
     },
     {
         "query_id": "19_460",
@@ -3629,7 +2621,7 @@
         "answers": [
             "Algeria"
         ],
-        "pageviews": 841
+        "pageviews": 3
     },
     {
         "query_id": "19_461",
@@ -3637,7 +2629,7 @@
         "answers": [
             "Vladimir"
         ],
-        "pageviews": 880
+        "pageviews": 1
     },
     {
         "query_id": "19_462",
@@ -3645,15 +2637,7 @@
         "answers": [
             "Bydgoszcz"
         ],
-        "pageviews": 3297
-    },
-    {
-        "query_id": "19_463",
-        "question": "Where was Gijze Stroboer born?",
-        "answers": [
-            "Amsterdam"
-        ],
-        "pageviews": 1578
+        "pageviews": 2
     },
     {
         "query_id": "19_464",
@@ -3661,7 +2645,7 @@
         "answers": [
             "Montclair"
         ],
-        "pageviews": 9771
+        "pageviews": 5
     },
     {
         "query_id": "19_465",
@@ -3669,7 +2653,7 @@
         "answers": [
             "Santa Cruz"
         ],
-        "pageviews": 2192
+        "pageviews": 3
     },
     {
         "query_id": "19_466",
@@ -3677,15 +2661,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2149
-    },
-    {
-        "query_id": "19_467",
-        "question": "Where was Anne-Sophie Calvez born?",
-        "answers": [
-            "Nantes"
-        ],
-        "pageviews": 1066
+        "pageviews": 1
     },
     {
         "query_id": "19_468",
@@ -3693,7 +2669,7 @@
         "answers": [
             "Panola County"
         ],
-        "pageviews": 1109
+        "pageviews": 1
     },
     {
         "query_id": "19_469",
@@ -3701,15 +2677,7 @@
         "answers": [
             "Vienna"
         ],
-        "pageviews": 734
-    },
-    {
-        "query_id": "19_470",
-        "question": "Where was Mateusz Mo\u017cd\u017ce\u0144 born?",
-        "answers": [
-            "Warsaw"
-        ],
-        "pageviews": 1168
+        "pageviews": 1
     },
     {
         "query_id": "19_471",
@@ -3717,7 +2685,7 @@
         "answers": [
             "Miyagi Prefecture"
         ],
-        "pageviews": 1446
+        "pageviews": 2
     },
     {
         "query_id": "19_472",
@@ -3725,15 +2693,7 @@
         "answers": [
             "Jenison"
         ],
-        "pageviews": 1517
-    },
-    {
-        "query_id": "19_473",
-        "question": "Where was David Power born?",
-        "answers": [
-            "Chicago"
-        ],
-        "pageviews": 2313
+        "pageviews": 2
     },
     {
         "query_id": "19_474",
@@ -3741,7 +2701,7 @@
         "answers": [
             "Dawlish"
         ],
-        "pageviews": 1842
+        "pageviews": 16
     },
     {
         "query_id": "19_475",
@@ -3749,7 +2709,7 @@
         "answers": [
             "Toronto"
         ],
-        "pageviews": 1429
+        "pageviews": 1
     },
     {
         "query_id": "19_476",
@@ -3757,7 +2717,7 @@
         "answers": [
             "Gloversville"
         ],
-        "pageviews": 1887
+        "pageviews": 1
     },
     {
         "query_id": "19_477",
@@ -3765,23 +2725,7 @@
         "answers": [
             "San Diego"
         ],
-        "pageviews": 13098
-    },
-    {
-        "query_id": "19_478",
-        "question": "Where was Amath Diedhiou born?",
-        "answers": [
-            "Dakar"
-        ],
-        "pageviews": 1350
-    },
-    {
-        "query_id": "19_479",
-        "question": "Where was Christelle Diallo born?",
-        "answers": [
-            "Issy-les-Moulineaux"
-        ],
-        "pageviews": 600
+        "pageviews": 24
     },
     {
         "query_id": "19_480",
@@ -3789,23 +2733,7 @@
         "answers": [
             "Formosa Province"
         ],
-        "pageviews": 4349
-    },
-    {
-        "query_id": "19_481",
-        "question": "Where was Charles Elliot Allen born?",
-        "answers": [
-            "Gibraltar"
-        ],
-        "pageviews": 657
-    },
-    {
-        "query_id": "19_482",
-        "question": "Where was Ludmilla Radchenko born?",
-        "answers": [
-            "Omsk"
-        ],
-        "pageviews": 3658
+        "pageviews": 6
     },
     {
         "query_id": "19_483",
@@ -3813,7 +2741,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 29687
+        "pageviews": 15
     },
     {
         "query_id": "19_484",
@@ -3821,7 +2749,7 @@
         "answers": [
             "Scunthorpe"
         ],
-        "pageviews": 573
+        "pageviews": 1
     },
     {
         "query_id": "19_485",
@@ -3829,15 +2757,7 @@
         "answers": [
             "Tandil"
         ],
-        "pageviews": 9202
-    },
-    {
-        "query_id": "19_486",
-        "question": "Where was Mar\u00eda Esther Ter\u00e1n Vel\u00e1zquez born?",
-        "answers": [
-            "Veracruz"
-        ],
-        "pageviews": 494
+        "pageviews": 125
     },
     {
         "query_id": "19_487",
@@ -3845,7 +2765,7 @@
         "answers": [
             "Ponce"
         ],
-        "pageviews": 743
+        "pageviews": 1
     },
     {
         "query_id": "19_488",
@@ -3853,7 +2773,7 @@
         "answers": [
             "Etobicoke"
         ],
-        "pageviews": 8005
+        "pageviews": 6
     },
     {
         "query_id": "19_489",
@@ -3861,7 +2781,7 @@
         "answers": [
             "New Orleans"
         ],
-        "pageviews": 4126
+        "pageviews": 3
     },
     {
         "query_id": "19_490",
@@ -3869,7 +2789,7 @@
         "answers": [
             "Unity"
         ],
-        "pageviews": 1232
+        "pageviews": 1
     },
     {
         "query_id": "19_491",
@@ -3877,7 +2797,7 @@
         "answers": [
             "Montichiari"
         ],
-        "pageviews": 8257
+        "pageviews": 1
     },
     {
         "query_id": "19_492",
@@ -3885,23 +2805,7 @@
         "answers": [
             "Griffin"
         ],
-        "pageviews": 4734
-    },
-    {
-        "query_id": "19_493",
-        "question": "Where was Kasey Moore born?",
-        "answers": [
-            "Riverside"
-        ],
-        "pageviews": 1212
-    },
-    {
-        "query_id": "19_494",
-        "question": "Where was Marcin Masecki born?",
-        "answers": [
-            "Warsaw"
-        ],
-        "pageviews": 2116
+        "pageviews": 3
     },
     {
         "query_id": "19_495",
@@ -3909,7 +2813,7 @@
         "answers": [
             "Mantua"
         ],
-        "pageviews": 742
+        "pageviews": 2
     },
     {
         "query_id": "19_496",
@@ -3917,55 +2821,7 @@
         "answers": [
             "West Sumatra"
         ],
-        "pageviews": 2536
-    },
-    {
-        "query_id": "19_497",
-        "question": "Where was Ron Talbot born?",
-        "answers": [
-            "Christchurch"
-        ],
-        "pageviews": 567
-    },
-    {
-        "query_id": "19_498",
-        "question": "Where was Scott Jordan born?",
-        "answers": [
-            "Newcastle upon Tyne"
-        ],
-        "pageviews": 1179
-    },
-    {
-        "query_id": "19_499",
-        "question": "Where was Shen Guang-wen born?",
-        "answers": [
-            "Zhejiang"
-        ],
-        "pageviews": 859
-    },
-    {
-        "query_id": "19_500",
-        "question": "Where was Mika Halvari born?",
-        "answers": [
-            "Kemi"
-        ],
-        "pageviews": 2125
-    },
-    {
-        "query_id": "19_502",
-        "question": "Where was Zlatko Zebi\u0107 born?",
-        "answers": [
-            "Loznica"
-        ],
-        "pageviews": 905
-    },
-    {
-        "query_id": "19_503",
-        "question": "Where was Bla\u017ee Georgioski born?",
-        "answers": [
-            "Prilep"
-        ],
-        "pageviews": 1097
+        "pageviews": 17
     },
     {
         "query_id": "19_504",
@@ -3973,7 +2829,7 @@
         "answers": [
             "Vicenza"
         ],
-        "pageviews": 4519
+        "pageviews": 8
     },
     {
         "query_id": "19_505",
@@ -3981,23 +2837,7 @@
         "answers": [
             "Berea"
         ],
-        "pageviews": 10869
-    },
-    {
-        "query_id": "19_506",
-        "question": "Where was Poul Glargaard born?",
-        "answers": [
-            "Denmark"
-        ],
-        "pageviews": 1602
-    },
-    {
-        "query_id": "19_507",
-        "question": "Where was Nomsebenzi Tsotsobe born?",
-        "answers": [
-            "Port Elizabeth"
-        ],
-        "pageviews": 1348
+        "pageviews": 29
     },
     {
         "query_id": "19_508",
@@ -4005,7 +2845,7 @@
         "answers": [
             "Harrisburg"
         ],
-        "pageviews": 3211
+        "pageviews": 2
     },
     {
         "query_id": "19_509",
@@ -4013,63 +2853,7 @@
         "answers": [
             "Lithuania"
         ],
-        "pageviews": 20063
-    },
-    {
-        "query_id": "19_510",
-        "question": "Where was Ernest Smythe born?",
-        "answers": [
-            "Ealing"
-        ],
-        "pageviews": 693
-    },
-    {
-        "query_id": "19_511",
-        "question": "Where was Heinz Schneiter born?",
-        "answers": [
-            "Thun"
-        ],
-        "pageviews": 2382
-    },
-    {
-        "query_id": "19_512",
-        "question": "Where was Lu\u00eds Alimbrot born?",
-        "answers": [
-            "Bruges"
-        ],
-        "pageviews": 1931
-    },
-    {
-        "query_id": "19_513",
-        "question": "Where was Derek Clarke born?",
-        "answers": [
-            "Willenhall"
-        ],
-        "pageviews": 4577
-    },
-    {
-        "query_id": "19_514",
-        "question": "Where was Felicien Mbanza born?",
-        "answers": [
-            "Bujumbura"
-        ],
-        "pageviews": 634
-    },
-    {
-        "query_id": "19_515",
-        "question": "Where was Chris Waters born?",
-        "answers": [
-            "Lakeland"
-        ],
-        "pageviews": 2104
-    },
-    {
-        "query_id": "19_516",
-        "question": "Where was Elvyn Bowen born?",
-        "answers": [
-            "Llannon"
-        ],
-        "pageviews": 421
+        "pageviews": 5
     },
     {
         "query_id": "19_517",
@@ -4077,15 +2861,7 @@
         "answers": [
             "Munich"
         ],
-        "pageviews": 4669
-    },
-    {
-        "query_id": "19_518",
-        "question": "Where was Sebastian Schindzielorz born?",
-        "answers": [
-            "Krapkowice"
-        ],
-        "pageviews": 2299
+        "pageviews": 2
     },
     {
         "query_id": "19_519",
@@ -4093,7 +2869,7 @@
         "answers": [
             "Cooma"
         ],
-        "pageviews": 2114
+        "pageviews": 2
     },
     {
         "query_id": "19_520",
@@ -4101,7 +2877,7 @@
         "answers": [
             "Milan"
         ],
-        "pageviews": 387
+        "pageviews": 1
     },
     {
         "query_id": "19_521",
@@ -4109,15 +2885,7 @@
         "answers": [
             "Chiapas"
         ],
-        "pageviews": 616
-    },
-    {
-        "query_id": "19_522",
-        "question": "Where was Samuel Wells Morris born?",
-        "answers": [
-            "Philadelphia"
-        ],
-        "pageviews": 366
+        "pageviews": 1
     },
     {
         "query_id": "19_523",
@@ -4125,7 +2893,7 @@
         "answers": [
             "Ottoman Empire"
         ],
-        "pageviews": 5011
+        "pageviews": 16
     },
     {
         "query_id": "19_524",
@@ -4133,31 +2901,7 @@
         "answers": [
             "Arkansas"
         ],
-        "pageviews": 6748
-    },
-    {
-        "query_id": "19_525",
-        "question": "Where was Aleksandr Ivannikov born?",
-        "answers": [
-            "Moscow"
-        ],
-        "pageviews": 688
-    },
-    {
-        "query_id": "19_526",
-        "question": "Where was I. K. K. Menon born?",
-        "answers": [
-            "Thrissur"
-        ],
-        "pageviews": 3893
-    },
-    {
-        "query_id": "19_527",
-        "question": "Where was Jimmy Forsyth born?",
-        "answers": [
-            "Armadale"
-        ],
-        "pageviews": 1187
+        "pageviews": 15
     },
     {
         "query_id": "19_528",
@@ -4165,7 +2909,7 @@
         "answers": [
             "Naaldwijk"
         ],
-        "pageviews": 4434
+        "pageviews": 2
     },
     {
         "query_id": "19_529",
@@ -4173,7 +2917,7 @@
         "answers": [
             "Los Altos"
         ],
-        "pageviews": 1742
+        "pageviews": 2
     },
     {
         "query_id": "19_530",
@@ -4181,7 +2925,7 @@
         "answers": [
             "Araguari"
         ],
-        "pageviews": 987
+        "pageviews": 1
     },
     {
         "query_id": "19_531",
@@ -4189,7 +2933,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 15260
+        "pageviews": 3
     },
     {
         "query_id": "19_532",
@@ -4197,7 +2941,7 @@
         "answers": [
             "United States of America"
         ],
-        "pageviews": 6551
+        "pageviews": 25
     },
     {
         "query_id": "19_533",
@@ -4205,15 +2949,7 @@
         "answers": [
             "Washington, D.C."
         ],
-        "pageviews": 4687
-    },
-    {
-        "query_id": "19_534",
-        "question": "Where was Li\u00eam Hoang-Ngoc born?",
-        "answers": [
-            "Ho Chi Minh City"
-        ],
-        "pageviews": 1835
+        "pageviews": 8
     },
     {
         "query_id": "19_535",
@@ -4221,7 +2957,7 @@
         "answers": [
             "Egkomi Lefkosias"
         ],
-        "pageviews": 1838
+        "pageviews": 1
     },
     {
         "query_id": "19_536",
@@ -4229,7 +2965,7 @@
         "answers": [
             "Montreal"
         ],
-        "pageviews": 1914
+        "pageviews": 2
     },
     {
         "query_id": "19_537",
@@ -4237,7 +2973,7 @@
         "answers": [
             "Aliso Viejo"
         ],
-        "pageviews": 1377
+        "pageviews": 2
     },
     {
         "query_id": "19_538",
@@ -4245,7 +2981,7 @@
         "answers": [
             "Binche"
         ],
-        "pageviews": 669
+        "pageviews": 1
     },
     {
         "query_id": "19_539",
@@ -4253,15 +2989,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 375
-    },
-    {
-        "query_id": "19_540",
-        "question": "Where was Philip Hollick born?",
-        "answers": [
-            "Cairo"
-        ],
-        "pageviews": 811
+        "pageviews": 1
     },
     {
         "query_id": "19_541",
@@ -4269,7 +2997,7 @@
         "answers": [
             "Visalia"
         ],
-        "pageviews": 2087
+        "pageviews": 2
     },
     {
         "query_id": "19_542",
@@ -4277,7 +3005,7 @@
         "answers": [
             "Velletri"
         ],
-        "pageviews": 5089
+        "pageviews": 17
     },
     {
         "query_id": "19_543",
@@ -4285,7 +3013,7 @@
         "answers": [
             "Baltimore"
         ],
-        "pageviews": 2608
+        "pageviews": 3
     },
     {
         "query_id": "19_544",
@@ -4293,15 +3021,7 @@
         "answers": [
             "Palermo"
         ],
-        "pageviews": 1632
-    },
-    {
-        "query_id": "19_545",
-        "question": "Where was Germ\u00e1n Pic\u00f3 Ca\u00f1as born?",
-        "answers": [
-            "Santiago"
-        ],
-        "pageviews": 584
+        "pageviews": 5
     },
     {
         "query_id": "19_546",
@@ -4309,7 +3029,7 @@
         "answers": [
             "Tokyo"
         ],
-        "pageviews": 1361
+        "pageviews": 1
     },
     {
         "query_id": "19_547",
@@ -4317,7 +3037,7 @@
         "answers": [
             "Montpellier"
         ],
-        "pageviews": 1141
+        "pageviews": 5
     },
     {
         "query_id": "19_548",
@@ -4325,7 +3045,7 @@
         "answers": [
             "Ann Arbor"
         ],
-        "pageviews": 4357
+        "pageviews": 5
     },
     {
         "query_id": "19_549",
@@ -4333,7 +3053,7 @@
         "answers": [
             "Porto Alegre"
         ],
-        "pageviews": 2942
+        "pageviews": 2
     },
     {
         "query_id": "19_550",
@@ -4341,15 +3061,7 @@
         "answers": [
             "Ottawa"
         ],
-        "pageviews": 1832
-    },
-    {
-        "query_id": "19_551",
-        "question": "Where was Hans-Peter Gies born?",
-        "answers": [
-            "Berlin"
-        ],
-        "pageviews": 993
+        "pageviews": 3
     },
     {
         "query_id": "19_552",
@@ -4357,7 +3069,7 @@
         "answers": [
             "Baltimore"
         ],
-        "pageviews": 798
+        "pageviews": 1
     },
     {
         "query_id": "19_553",
@@ -4365,7 +3077,7 @@
         "answers": [
             "Milan"
         ],
-        "pageviews": 1058
+        "pageviews": 2
     },
     {
         "query_id": "19_554",
@@ -4373,7 +3085,7 @@
         "answers": [
             "Catania"
         ],
-        "pageviews": 8325
+        "pageviews": 9
     },
     {
         "query_id": "19_555",
@@ -4381,7 +3093,7 @@
         "answers": [
             "Houston"
         ],
-        "pageviews": 2973
+        "pageviews": 4
     },
     {
         "query_id": "19_556",
@@ -4389,7 +3101,7 @@
         "answers": [
             "Salt Lake City"
         ],
-        "pageviews": 788
+        "pageviews": 1
     },
     {
         "query_id": "19_557",
@@ -4398,7 +3110,7 @@
             "Canada",
             "Swan River"
         ],
-        "pageviews": 2510
+        "pageviews": 5
     },
     {
         "query_id": "19_558",
@@ -4406,7 +3118,7 @@
         "answers": [
             "Ostrava"
         ],
-        "pageviews": 1536
+        "pageviews": 2
     },
     {
         "query_id": "19_559",
@@ -4414,7 +3126,7 @@
         "answers": [
             "Swansea"
         ],
-        "pageviews": 2081
+        "pageviews": 4
     },
     {
         "query_id": "19_560",
@@ -4422,39 +3134,7 @@
         "answers": [
             "Palo Alto"
         ],
-        "pageviews": 343304
-    },
-    {
-        "query_id": "19_561",
-        "question": "Where was Mar\u00eda Fernanda Herazo born?",
-        "answers": [
-            "Barranquilla"
-        ],
-        "pageviews": 2587
-    },
-    {
-        "query_id": "19_562",
-        "question": "Where was Elias Uzamukunda born?",
-        "answers": [
-            "Kigali"
-        ],
-        "pageviews": 981
-    },
-    {
-        "query_id": "19_563",
-        "question": "Where was Ivan Melnik born?",
-        "answers": [
-            "Krasnoturyinsk"
-        ],
-        "pageviews": 638
-    },
-    {
-        "query_id": "19_564",
-        "question": "Where was Felix Holzner born?",
-        "answers": [
-            "Bad Belzig"
-        ],
-        "pageviews": 609
+        "pageviews": 12
     },
     {
         "query_id": "19_565",
@@ -4462,7 +3142,7 @@
         "answers": [
             "Sovetsk"
         ],
-        "pageviews": 161794
+        "pageviews": 54
     },
     {
         "query_id": "19_566",
@@ -4470,7 +3150,7 @@
         "answers": [
             "The Hague"
         ],
-        "pageviews": 1546
+        "pageviews": 4
     },
     {
         "query_id": "19_567",
@@ -4478,7 +3158,7 @@
         "answers": [
             "Padua"
         ],
-        "pageviews": 1002
+        "pageviews": 6
     },
     {
         "query_id": "19_568",
@@ -4486,7 +3166,7 @@
         "answers": [
             "Castrop-Rauxel"
         ],
-        "pageviews": 5945
+        "pageviews": 2
     },
     {
         "query_id": "19_569",
@@ -4494,7 +3174,7 @@
         "answers": [
             "Kryvyi Rih"
         ],
-        "pageviews": 899
+        "pageviews": 1
     },
     {
         "query_id": "19_570",
@@ -4502,7 +3182,7 @@
         "answers": [
             "Milan"
         ],
-        "pageviews": 1404
+        "pageviews": 1
     },
     {
         "query_id": "19_571",
@@ -4510,7 +3190,7 @@
         "answers": [
             "Montevideo"
         ],
-        "pageviews": 5108
+        "pageviews": 6
     },
     {
         "query_id": "19_572",
@@ -4518,23 +3198,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 313616
-    },
-    {
-        "query_id": "19_573",
-        "question": "Where was Sun Dandan born?",
-        "answers": [
-            "Changchun"
-        ],
-        "pageviews": 1074
-    },
-    {
-        "query_id": "19_574",
-        "question": "Where was P K. Basheer born?",
-        "answers": [
-            "Edavanna"
-        ],
-        "pageviews": 11539
+        "pageviews": 118
     },
     {
         "query_id": "19_575",
@@ -4542,7 +3206,7 @@
         "answers": [
             "Leicester"
         ],
-        "pageviews": 3722
+        "pageviews": 3
     },
     {
         "query_id": "19_576",
@@ -4550,7 +3214,7 @@
         "answers": [
             "Mont-Saint-Aignan"
         ],
-        "pageviews": 793
+        "pageviews": 1
     },
     {
         "query_id": "19_577",
@@ -4558,7 +3222,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 1305420
+        "pageviews": 110
     },
     {
         "query_id": "19_578",
@@ -4566,7 +3230,7 @@
         "answers": [
             "Harvey"
         ],
-        "pageviews": 1764
+        "pageviews": 3
     },
     {
         "query_id": "19_579",
@@ -4574,7 +3238,7 @@
         "answers": [
             "Egypt"
         ],
-        "pageviews": 4607
+        "pageviews": 4
     },
     {
         "query_id": "19_580",
@@ -4582,7 +3246,7 @@
         "answers": [
             "Linz"
         ],
-        "pageviews": 2350
+        "pageviews": 2
     },
     {
         "query_id": "19_581",
@@ -4590,7 +3254,7 @@
         "answers": [
             "Baltimore"
         ],
-        "pageviews": 639
+        "pageviews": 1
     },
     {
         "query_id": "19_582",
@@ -4598,23 +3262,7 @@
         "answers": [
             "Ljubljana"
         ],
-        "pageviews": 4191
-    },
-    {
-        "query_id": "19_583",
-        "question": "Where was You In-Tak born?",
-        "answers": [
-            "Gimje"
-        ],
-        "pageviews": 1346
-    },
-    {
-        "query_id": "19_584",
-        "question": "Where was Luis Fernando Silva born?",
-        "answers": [
-            "Morelia"
-        ],
-        "pageviews": 1395
+        "pageviews": 3
     },
     {
         "query_id": "19_585",
@@ -4622,7 +3270,7 @@
         "answers": [
             "Mexico City"
         ],
-        "pageviews": 7642
+        "pageviews": 209
     },
     {
         "query_id": "19_586",
@@ -4630,7 +3278,7 @@
         "answers": [
             "Beirut"
         ],
-        "pageviews": 11253
+        "pageviews": 3
     },
     {
         "query_id": "19_588",
@@ -4638,15 +3286,7 @@
         "answers": [
             "Lisbon"
         ],
-        "pageviews": 1175
-    },
-    {
-        "query_id": "19_589",
-        "question": "Where was William Mostyn born?",
-        "answers": [
-            "Elphin"
-        ],
-        "pageviews": 398
+        "pageviews": 1
     },
     {
         "query_id": "19_590",
@@ -4654,7 +3294,7 @@
         "answers": [
             "Quincy"
         ],
-        "pageviews": 2801
+        "pageviews": 2
     },
     {
         "query_id": "19_591",
@@ -4662,15 +3302,7 @@
         "answers": [
             "Mahikeng"
         ],
-        "pageviews": 11156
-    },
-    {
-        "query_id": "19_592",
-        "question": "Where was Mando Fresko born?",
-        "answers": [
-            "Los Angeles"
-        ],
-        "pageviews": 1729
+        "pageviews": 5
     },
     {
         "query_id": "19_593",
@@ -4678,7 +3310,7 @@
         "answers": [
             "Baghdad"
         ],
-        "pageviews": 18625
+        "pageviews": 77
     },
     {
         "query_id": "19_594",
@@ -4686,7 +3318,7 @@
         "answers": [
             "Kingston"
         ],
-        "pageviews": 894
+        "pageviews": 1
     },
     {
         "query_id": "19_595",
@@ -4694,7 +3326,7 @@
         "answers": [
             "Edmonton"
         ],
-        "pageviews": 20613
+        "pageviews": 27
     },
     {
         "query_id": "19_596",
@@ -4702,7 +3334,7 @@
         "answers": [
             "Essex"
         ],
-        "pageviews": 2608
+        "pageviews": 5
     },
     {
         "query_id": "19_597",
@@ -4710,7 +3342,7 @@
         "answers": [
             "Iwakuni"
         ],
-        "pageviews": 4574
+        "pageviews": 8
     },
     {
         "query_id": "19_598",
@@ -4718,7 +3350,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 7487
+        "pageviews": 10
     },
     {
         "query_id": "19_599",
@@ -4726,15 +3358,7 @@
         "answers": [
             "Ghent"
         ],
-        "pageviews": 591
-    },
-    {
-        "query_id": "19_600",
-        "question": "Where was Peter Hunt born?",
-        "answers": [
-            "East Orange"
-        ],
-        "pageviews": 2524
+        "pageviews": 1
     },
     {
         "query_id": "19_601",
@@ -4742,7 +3366,7 @@
         "answers": [
             "Saint Petersburg"
         ],
-        "pageviews": 852
+        "pageviews": 3
     },
     {
         "query_id": "19_602",
@@ -4750,7 +3374,7 @@
         "answers": [
             "Denmark"
         ],
-        "pageviews": 1127
+        "pageviews": 3
     },
     {
         "query_id": "19_603",
@@ -4758,7 +3382,7 @@
         "answers": [
             "Boston"
         ],
-        "pageviews": 1178870
+        "pageviews": 40
     },
     {
         "query_id": "19_604",
@@ -4766,15 +3390,7 @@
         "answers": [
             "Boston"
         ],
-        "pageviews": 1558
-    },
-    {
-        "query_id": "19_605",
-        "question": "Where was Simone Rizzato born?",
-        "answers": [
-            "Terracina"
-        ],
-        "pageviews": 788
+        "pageviews": 4
     },
     {
         "query_id": "19_606",
@@ -4782,7 +3398,7 @@
         "answers": [
             "Dublin"
         ],
-        "pageviews": 3096
+        "pageviews": 7
     },
     {
         "query_id": "19_607",
@@ -4790,7 +3406,7 @@
         "answers": [
             "Pittsburgh"
         ],
-        "pageviews": 16853
+        "pageviews": 8
     },
     {
         "query_id": "19_608",
@@ -4798,7 +3414,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 1539
+        "pageviews": 3
     },
     {
         "query_id": "19_609",
@@ -4806,7 +3422,7 @@
         "answers": [
             "Jakarta"
         ],
-        "pageviews": 12811
+        "pageviews": 21
     },
     {
         "query_id": "19_610",
@@ -4814,7 +3430,7 @@
         "answers": [
             "Aalborg"
         ],
-        "pageviews": 1361
+        "pageviews": 1
     },
     {
         "query_id": "19_611",
@@ -4822,7 +3438,7 @@
         "answers": [
             "Kolkata"
         ],
-        "pageviews": 2926
+        "pageviews": 2
     },
     {
         "query_id": "19_612",
@@ -4830,7 +3446,7 @@
         "answers": [
             "Dudley"
         ],
-        "pageviews": 8802
+        "pageviews": 1
     },
     {
         "query_id": "19_613",
@@ -4838,23 +3454,7 @@
         "answers": [
             "Long Island"
         ],
-        "pageviews": 1726
-    },
-    {
-        "query_id": "19_614",
-        "question": "Where was Maks Bajc born?",
-        "answers": [
-            "Ljubljana"
-        ],
-        "pageviews": 3177
-    },
-    {
-        "query_id": "19_615",
-        "question": "Where was Jean-Christophe Ravier born?",
-        "answers": [
-            "Avignon"
-        ],
-        "pageviews": 991
+        "pageviews": 1
     },
     {
         "query_id": "19_616",
@@ -4862,7 +3462,7 @@
         "answers": [
             "Brno"
         ],
-        "pageviews": 2789
+        "pageviews": 1
     },
     {
         "query_id": "19_617",
@@ -4870,31 +3470,7 @@
         "answers": [
             "Iredell"
         ],
-        "pageviews": 572
-    },
-    {
-        "query_id": "19_618",
-        "question": "Where was Stanis\u0142aw Albinowski born?",
-        "answers": [
-            "Lviv"
-        ],
-        "pageviews": 1090
-    },
-    {
-        "query_id": "19_619",
-        "question": "Where was Kayla Standish born?",
-        "answers": [
-            "Ellensburg"
-        ],
-        "pageviews": 2058
-    },
-    {
-        "query_id": "19_620",
-        "question": "Where was Aleksandr Puchkov born?",
-        "answers": [
-            "Ulyanovsk"
-        ],
-        "pageviews": 1371
+        "pageviews": 1
     },
     {
         "query_id": "19_621",
@@ -4902,7 +3478,7 @@
         "answers": [
             "Orange"
         ],
-        "pageviews": 30347
+        "pageviews": 59
     },
     {
         "query_id": "19_622",
@@ -4910,7 +3486,7 @@
         "answers": [
             "Banja Luka"
         ],
-        "pageviews": 5457
+        "pageviews": 7
     },
     {
         "query_id": "19_623",
@@ -4918,7 +3494,7 @@
         "answers": [
             "Alkmaar"
         ],
-        "pageviews": 8831
+        "pageviews": 2
     },
     {
         "query_id": "19_624",
@@ -4926,7 +3502,7 @@
         "answers": [
             "Greenville"
         ],
-        "pageviews": 33500
+        "pageviews": 4
     },
     {
         "query_id": "19_625",
@@ -4934,7 +3510,7 @@
         "answers": [
             "Mandello del Lario"
         ],
-        "pageviews": 1602
+        "pageviews": 8
     },
     {
         "query_id": "19_626",
@@ -4942,7 +3518,7 @@
         "answers": [
             "Boston"
         ],
-        "pageviews": 21077
+        "pageviews": 49
     },
     {
         "query_id": "19_627",
@@ -4950,7 +3526,7 @@
         "answers": [
             "Wilhelmshaven"
         ],
-        "pageviews": 1373
+        "pageviews": 1
     },
     {
         "query_id": "19_630",
@@ -4958,7 +3534,7 @@
         "answers": [
             "Sopot, Plovdiv Province"
         ],
-        "pageviews": 20598
+        "pageviews": 66
     },
     {
         "query_id": "19_631",
@@ -4966,7 +3542,7 @@
         "answers": [
             "Drammen"
         ],
-        "pageviews": 1126
+        "pageviews": 4
     },
     {
         "query_id": "19_632",
@@ -4974,15 +3550,7 @@
         "answers": [
             "Buenos Aires"
         ],
-        "pageviews": 49546
-    },
-    {
-        "query_id": "19_633",
-        "question": "Where was \u00c1lvaro Enrique Pe\u00f1a born?",
-        "answers": [
-            "Montevideo"
-        ],
-        "pageviews": 514
+        "pageviews": 3
     },
     {
         "query_id": "19_634",
@@ -4990,7 +3558,7 @@
         "answers": [
             "Zwijndrecht"
         ],
-        "pageviews": 3799
+        "pageviews": 1
     },
     {
         "query_id": "19_635",
@@ -4998,7 +3566,7 @@
         "answers": [
             "Kirkcaldy"
         ],
-        "pageviews": 943400
+        "pageviews": 1000
     },
     {
         "query_id": "19_636",
@@ -5006,23 +3574,7 @@
         "answers": [
             "Golpayegan"
         ],
-        "pageviews": 2533
-    },
-    {
-        "query_id": "19_637",
-        "question": "Where was Marco Paulo Paiva Rocha born?",
-        "answers": [
-            "Funchal"
-        ],
-        "pageviews": 1481
-    },
-    {
-        "query_id": "19_638",
-        "question": "Where was Steve Dignan born?",
-        "answers": [
-            "Boston"
-        ],
-        "pageviews": 818
+        "pageviews": 1
     },
     {
         "query_id": "19_639",
@@ -5030,15 +3582,7 @@
         "answers": [
             "Stuttgart"
         ],
-        "pageviews": 1080
-    },
-    {
-        "query_id": "19_640",
-        "question": "Where was Pieter Cornelisz Kunst born?",
-        "answers": [
-            "Leiden"
-        ],
-        "pageviews": 932
+        "pageviews": 3
     },
     {
         "query_id": "19_641",
@@ -5046,7 +3590,7 @@
         "answers": [
             "Pascagoula"
         ],
-        "pageviews": 2538
+        "pageviews": 1
     },
     {
         "query_id": "19_642",
@@ -5054,15 +3598,7 @@
         "answers": [
             "Gosford"
         ],
-        "pageviews": 1856
-    },
-    {
-        "query_id": "19_643",
-        "question": "Where was Fabrice Moreau born?",
-        "answers": [
-            "Paris"
-        ],
-        "pageviews": 0
+        "pageviews": 1
     },
     {
         "query_id": "19_644",
@@ -5070,7 +3606,7 @@
         "answers": [
             "Guayama"
         ],
-        "pageviews": 23769
+        "pageviews": 25
     },
     {
         "query_id": "19_645",
@@ -5078,23 +3614,7 @@
         "answers": [
             "Blejoi"
         ],
-        "pageviews": 3466
-    },
-    {
-        "query_id": "19_646",
-        "question": "Where was Krist\u012bne Gaile born?",
-        "answers": [
-            "Jelgava"
-        ],
-        "pageviews": 989
-    },
-    {
-        "query_id": "19_647",
-        "question": "Where was Daniel Boemle born?",
-        "answers": [
-            "Bern"
-        ],
-        "pageviews": 1007
+        "pageviews": 8
     },
     {
         "query_id": "19_648",
@@ -5102,15 +3622,7 @@
         "answers": [
             "Belgrade"
         ],
-        "pageviews": 2446
-    },
-    {
-        "query_id": "19_649",
-        "question": "Where was Romain Br\u00e9gerie born?",
-        "answers": [
-            "Talence"
-        ],
-        "pageviews": 1114
+        "pageviews": 3
     },
     {
         "query_id": "19_650",
@@ -5118,7 +3630,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 2863
+        "pageviews": 2
     },
     {
         "query_id": "19_651",
@@ -5126,7 +3638,7 @@
         "answers": [
             "Mont-de-Marsan"
         ],
-        "pageviews": 60673
+        "pageviews": 21
     },
     {
         "query_id": "19_652",
@@ -5134,7 +3646,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 2102
+        "pageviews": 1
     },
     {
         "query_id": "19_653",
@@ -5142,7 +3654,7 @@
         "answers": [
             "Messina"
         ],
-        "pageviews": 653
+        "pageviews": 2
     },
     {
         "query_id": "19_654",
@@ -5150,15 +3662,7 @@
         "answers": [
             "Long Branch"
         ],
-        "pageviews": 51396
-    },
-    {
-        "query_id": "19_655",
-        "question": "Where was Cora Stephan born?",
-        "answers": [
-            "Bad Rothenfelde"
-        ],
-        "pageviews": 1467
+        "pageviews": 14
     },
     {
         "query_id": "19_656",
@@ -5166,7 +3670,7 @@
         "answers": [
             "Ruse"
         ],
-        "pageviews": 2181
+        "pageviews": 2
     },
     {
         "query_id": "19_657",
@@ -5174,7 +3678,7 @@
         "answers": [
             "Utrecht"
         ],
-        "pageviews": 3708
+        "pageviews": 2
     },
     {
         "query_id": "19_658",
@@ -5182,15 +3686,7 @@
         "answers": [
             "Mattawa"
         ],
-        "pageviews": 4588
-    },
-    {
-        "query_id": "19_659",
-        "question": "Where was Axel Chapelle born?",
-        "answers": [
-            "Colombes"
-        ],
-        "pageviews": 1354
+        "pageviews": 17
     },
     {
         "query_id": "19_660",
@@ -5198,23 +3694,7 @@
         "answers": [
             "Newcastle upon Tyne"
         ],
-        "pageviews": 902
-    },
-    {
-        "query_id": "19_661",
-        "question": "Where was Omid Ahangar born?",
-        "answers": [
-            "Tehran"
-        ],
-        "pageviews": 1267
-    },
-    {
-        "query_id": "19_662",
-        "question": "Where was Go Eun-mi born?",
-        "answers": [
-            "South Korea"
-        ],
-        "pageviews": 2679
+        "pageviews": 2
     },
     {
         "query_id": "19_663",
@@ -5222,7 +3702,7 @@
         "answers": [
             "Lakewood"
         ],
-        "pageviews": 34087
+        "pageviews": 75
     },
     {
         "query_id": "19_664",
@@ -5230,7 +3710,7 @@
         "answers": [
             "Giussano"
         ],
-        "pageviews": 1162
+        "pageviews": 1
     },
     {
         "query_id": "19_665",
@@ -5238,7 +3718,7 @@
         "answers": [
             "Ghent"
         ],
-        "pageviews": 770
+        "pageviews": 1
     },
     {
         "query_id": "19_666",
@@ -5246,15 +3726,7 @@
         "answers": [
             "Stuttgart"
         ],
-        "pageviews": 3743
-    },
-    {
-        "query_id": "19_667",
-        "question": "Where was Ian Sinclair born?",
-        "answers": [
-            "Rangiora"
-        ],
-        "pageviews": 756
+        "pageviews": 1
     },
     {
         "query_id": "19_668",
@@ -5262,23 +3734,7 @@
         "answers": [
             "Pont-Rouge"
         ],
-        "pageviews": 18405
-    },
-    {
-        "query_id": "19_669",
-        "question": "Where was Anton Seelos born?",
-        "answers": [
-            "Seefeld in Tirol"
-        ],
-        "pageviews": 1226
-    },
-    {
-        "query_id": "19_670",
-        "question": "Where was William Biddle Shepard born?",
-        "answers": [
-            "New Bern"
-        ],
-        "pageviews": 1349
+        "pageviews": 15
     },
     {
         "query_id": "19_671",
@@ -5286,7 +3742,7 @@
         "answers": [
             "Atlanta"
         ],
-        "pageviews": 88424
+        "pageviews": 78
     },
     {
         "query_id": "19_672",
@@ -5294,31 +3750,7 @@
         "answers": [
             "Stryn"
         ],
-        "pageviews": 10517
-    },
-    {
-        "query_id": "19_673",
-        "question": "Where was Richard Hindley born?",
-        "answers": [
-            "Portsmouth"
-        ],
-        "pageviews": 1765
-    },
-    {
-        "query_id": "19_674",
-        "question": "Where was Margaret Moyes Black born?",
-        "answers": [
-            "Fife"
-        ],
-        "pageviews": 1155
-    },
-    {
-        "query_id": "19_675",
-        "question": "Where was Windsor Noncent born?",
-        "answers": [
-            "Clichy"
-        ],
-        "pageviews": 992
+        "pageviews": 12
     },
     {
         "query_id": "19_676",
@@ -5326,7 +3758,7 @@
         "answers": [
             "Fleming"
         ],
-        "pageviews": 1120
+        "pageviews": 4
     },
     {
         "query_id": "19_677",
@@ -5334,15 +3766,7 @@
         "answers": [
             "Somerville"
         ],
-        "pageviews": 925
-    },
-    {
-        "query_id": "19_678",
-        "question": "Where was Petr V\u00e1\u0161a born?",
-        "answers": [
-            "Brno"
-        ],
-        "pageviews": 934
+        "pageviews": 1
     },
     {
         "query_id": "19_679",
@@ -5350,7 +3774,7 @@
         "answers": [
             "Cape Town"
         ],
-        "pageviews": 17671
+        "pageviews": 4
     },
     {
         "query_id": "19_680",
@@ -5358,31 +3782,7 @@
         "answers": [
             "Milan"
         ],
-        "pageviews": 4998
-    },
-    {
-        "query_id": "19_681",
-        "question": "Where was James Bradley born?",
-        "answers": [
-            "Pleasley"
-        ],
-        "pageviews": 528
-    },
-    {
-        "query_id": "19_682",
-        "question": "Where was Bill Niles born?",
-        "answers": [
-            "Covington"
-        ],
-        "pageviews": 726
-    },
-    {
-        "query_id": "19_683",
-        "question": "Where was Zome Louis born?",
-        "answers": [
-            "Douala"
-        ],
-        "pageviews": 699
+        "pageviews": 13
     },
     {
         "query_id": "19_684",
@@ -5390,15 +3790,7 @@
         "answers": [
             "Skien"
         ],
-        "pageviews": 2599
-    },
-    {
-        "query_id": "19_685",
-        "question": "Where was Edward Miles born?",
-        "answers": [
-            "Hobart"
-        ],
-        "pageviews": 98
+        "pageviews": 14
     },
     {
         "query_id": "19_686",
@@ -5406,7 +3798,7 @@
         "answers": [
             "Fatfield"
         ],
-        "pageviews": 208540
+        "pageviews": 107
     },
     {
         "query_id": "19_687",
@@ -5414,7 +3806,7 @@
         "answers": [
             "Gaithersburg"
         ],
-        "pageviews": 20243
+        "pageviews": 1
     },
     {
         "query_id": "19_688",
@@ -5422,7 +3814,7 @@
         "answers": [
             "Tokyo"
         ],
-        "pageviews": 2606
+        "pageviews": 8
     },
     {
         "query_id": "19_689",
@@ -5430,7 +3822,7 @@
         "answers": [
             "Chatham"
         ],
-        "pageviews": 2264
+        "pageviews": 13
     },
     {
         "query_id": "19_690",
@@ -5438,7 +3830,7 @@
         "answers": [
             "Ottery St Mary"
         ],
-        "pageviews": 8194
+        "pageviews": 44
     },
     {
         "query_id": "19_691",
@@ -5446,7 +3838,7 @@
         "answers": [
             "Indonesia"
         ],
-        "pageviews": 16977
+        "pageviews": 17
     },
     {
         "query_id": "19_693",
@@ -5454,23 +3846,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 5870
-    },
-    {
-        "query_id": "19_694",
-        "question": "Where was Thompson W. McNeely born?",
-        "answers": [
-            "Jacksonville"
-        ],
-        "pageviews": 903
-    },
-    {
-        "query_id": "19_695",
-        "question": "Where was Salvatore Rampone born?",
-        "answers": [
-            "Benevento"
-        ],
-        "pageviews": 838
+        "pageviews": 17
     },
     {
         "query_id": "19_696",
@@ -5478,7 +3854,7 @@
         "answers": [
             "Croatia"
         ],
-        "pageviews": 11505
+        "pageviews": 12
     },
     {
         "query_id": "19_697",
@@ -5486,7 +3862,7 @@
         "answers": [
             "Dresden"
         ],
-        "pageviews": 13097
+        "pageviews": 7
     },
     {
         "query_id": "19_698",
@@ -5494,7 +3870,7 @@
         "answers": [
             "Bourne End"
         ],
-        "pageviews": 14779
+        "pageviews": 16
     },
     {
         "query_id": "19_699",
@@ -5502,31 +3878,7 @@
         "answers": [
             "Neunkirchen-Seelscheid"
         ],
-        "pageviews": 3752
-    },
-    {
-        "query_id": "19_700",
-        "question": "Where was Alberto Bustamante Belaunde born?",
-        "answers": [
-            "Arequipa"
-        ],
-        "pageviews": 1264
-    },
-    {
-        "query_id": "19_701",
-        "question": "Where was Laurence Godfrey born?",
-        "answers": [
-            "London"
-        ],
-        "pageviews": 1158
-    },
-    {
-        "query_id": "19_702",
-        "question": "Where was Guillermo Tambussi born?",
-        "answers": [
-            "Mar del Plata"
-        ],
-        "pageviews": 415
+        "pageviews": 3
     },
     {
         "query_id": "19_703",
@@ -5534,7 +3886,7 @@
         "answers": [
             "South Moor"
         ],
-        "pageviews": 2054
+        "pageviews": 2
     },
     {
         "query_id": "19_704",
@@ -5542,7 +3894,7 @@
         "answers": [
             "Kassel"
         ],
-        "pageviews": 6738
+        "pageviews": 3
     },
     {
         "query_id": "19_705",
@@ -5550,7 +3902,7 @@
         "answers": [
             "Wilmington"
         ],
-        "pageviews": 9353
+        "pageviews": 1
     },
     {
         "query_id": "19_706",
@@ -5558,7 +3910,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2322
+        "pageviews": 4
     },
     {
         "query_id": "19_707",
@@ -5566,7 +3918,7 @@
         "answers": [
             "Albany"
         ],
-        "pageviews": 913
+        "pageviews": 1
     },
     {
         "query_id": "19_708",
@@ -5574,7 +3926,7 @@
         "answers": [
             "Birmingham"
         ],
-        "pageviews": 7159
+        "pageviews": 20
     },
     {
         "query_id": "19_709",
@@ -5582,7 +3934,7 @@
         "answers": [
             "Tinley Park"
         ],
-        "pageviews": 3191
+        "pageviews": 8
     },
     {
         "query_id": "19_710",
@@ -5590,15 +3942,7 @@
         "answers": [
             "Rio de Janeiro"
         ],
-        "pageviews": 10453
-    },
-    {
-        "query_id": "19_711",
-        "question": "Where was Eric Carter born?",
-        "answers": [
-            "Jesup"
-        ],
-        "pageviews": 1390
+        "pageviews": 1
     },
     {
         "query_id": "19_712",
@@ -5606,23 +3950,7 @@
         "answers": [
             "Winburg"
         ],
-        "pageviews": 8080
-    },
-    {
-        "query_id": "19_713",
-        "question": "Where was Elli Terwiel born?",
-        "answers": [
-            "New Westminster"
-        ],
-        "pageviews": 656
-    },
-    {
-        "query_id": "19_714",
-        "question": "Where was Danny Murphy born?",
-        "answers": [
-            "Boston"
-        ],
-        "pageviews": 5520
+        "pageviews": 3
     },
     {
         "query_id": "19_715",
@@ -5630,7 +3958,7 @@
         "answers": [
             "Fontenay-sous-Bois"
         ],
-        "pageviews": 4996
+        "pageviews": 14
     },
     {
         "query_id": "19_716",
@@ -5638,23 +3966,7 @@
         "answers": [
             "New Hartford"
         ],
-        "pageviews": 122728
-    },
-    {
-        "query_id": "19_717",
-        "question": "Where was Nick Ekelund-Arenander born?",
-        "answers": [
-            "Stockholm"
-        ],
-        "pageviews": 731
-    },
-    {
-        "query_id": "19_718",
-        "question": "Where was Achille Peretti born?",
-        "answers": [
-            "Alessandria"
-        ],
-        "pageviews": 945
+        "pageviews": 9
     },
     {
         "query_id": "19_719",
@@ -5662,15 +3974,7 @@
         "answers": [
             "Nijmegen"
         ],
-        "pageviews": 1300
-    },
-    {
-        "query_id": "19_720",
-        "question": "Where was Nina Brozni\u0107 born?",
-        "answers": [
-            "Rijeka"
-        ],
-        "pageviews": 500
+        "pageviews": 1
     },
     {
         "query_id": "19_721",
@@ -5678,7 +3982,7 @@
         "answers": [
             "Genoa"
         ],
-        "pageviews": 13981
+        "pageviews": 27
     },
     {
         "query_id": "19_722",
@@ -5686,7 +3990,7 @@
         "answers": [
             "Frankfurt"
         ],
-        "pageviews": 1270
+        "pageviews": 5
     },
     {
         "query_id": "19_723",
@@ -5694,15 +3998,7 @@
         "answers": [
             "Dillingen/Saar"
         ],
-        "pageviews": 1568
-    },
-    {
-        "query_id": "19_724",
-        "question": "Where was Shinya Sato born?",
-        "answers": [
-            "Kumamoto"
-        ],
-        "pageviews": 372
+        "pageviews": 2
     },
     {
         "query_id": "19_725",
@@ -5710,7 +4006,7 @@
         "answers": [
             "New Rochelle"
         ],
-        "pageviews": 5291
+        "pageviews": 27
     },
     {
         "query_id": "19_726",
@@ -5718,7 +4014,7 @@
         "answers": [
             "Windsor"
         ],
-        "pageviews": 25797
+        "pageviews": 27
     },
     {
         "query_id": "19_727",
@@ -5726,7 +4022,7 @@
         "answers": [
             "Tehran"
         ],
-        "pageviews": 36884
+        "pageviews": 1
     },
     {
         "query_id": "19_728",
@@ -5734,15 +4030,7 @@
         "answers": [
             "Oslo"
         ],
-        "pageviews": 3678
-    },
-    {
-        "query_id": "19_729",
-        "question": "Where was Gustav Winkler born?",
-        "answers": [
-            "Legnica"
-        ],
-        "pageviews": 635
+        "pageviews": 1
     },
     {
         "query_id": "19_730",
@@ -5750,15 +4038,7 @@
         "answers": [
             "Trieste"
         ],
-        "pageviews": 2225
-    },
-    {
-        "query_id": "19_731",
-        "question": "Where was John E. Miller born?",
-        "answers": [
-            "Melbourne"
-        ],
-        "pageviews": 1215
+        "pageviews": 2
     },
     {
         "query_id": "19_732",
@@ -5766,7 +4046,7 @@
         "answers": [
             "Falaise"
         ],
-        "pageviews": 3073
+        "pageviews": 14
     },
     {
         "query_id": "19_733",
@@ -5774,7 +4054,7 @@
         "answers": [
             "Greenock"
         ],
-        "pageviews": 2038
+        "pageviews": 1
     },
     {
         "query_id": "19_734",
@@ -5782,31 +4062,7 @@
         "answers": [
             "Toronto"
         ],
-        "pageviews": 1718
-    },
-    {
-        "query_id": "19_735",
-        "question": "Where was Anton Pein born?",
-        "answers": [
-            "Klagenfurt"
-        ],
-        "pageviews": 890
-    },
-    {
-        "query_id": "19_736",
-        "question": "Where was Vic Harris born?",
-        "answers": [
-            "Los Angeles"
-        ],
-        "pageviews": 1757
-    },
-    {
-        "query_id": "19_737",
-        "question": "Where was J\u00fcrgen Panis born?",
-        "answers": [
-            "Wiener Neustadt"
-        ],
-        "pageviews": 995
+        "pageviews": 5
     },
     {
         "query_id": "19_738",
@@ -5814,7 +4070,7 @@
         "answers": [
             "Bolton"
         ],
-        "pageviews": 2381
+        "pageviews": 13
     },
     {
         "query_id": "19_739",
@@ -5822,15 +4078,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 1821
-    },
-    {
-        "query_id": "19_740",
-        "question": "Where was Mikko Lahtio born?",
-        "answers": [
-            "Loppi"
-        ],
-        "pageviews": 523
+        "pageviews": 19
     },
     {
         "query_id": "19_741",
@@ -5838,31 +4086,7 @@
         "answers": [
             "Kalajoki"
         ],
-        "pageviews": 913
-    },
-    {
-        "query_id": "19_742",
-        "question": "Where was Peer Baierlein born?",
-        "answers": [
-            "Stuttgart"
-        ],
-        "pageviews": 803
-    },
-    {
-        "query_id": "19_743",
-        "question": "Where was Jack Broderick born?",
-        "answers": [
-            "Cornwall"
-        ],
-        "pageviews": 814
-    },
-    {
-        "query_id": "19_744",
-        "question": "Where was John H. McCarthy born?",
-        "answers": [
-            "New York City"
-        ],
-        "pageviews": 1212
+        "pageviews": 1
     },
     {
         "query_id": "19_745",
@@ -5870,63 +4094,7 @@
         "answers": [
             "Charlottenlund"
         ],
-        "pageviews": 7845
-    },
-    {
-        "query_id": "19_746",
-        "question": "Where was Christian Paul born?",
-        "answers": [
-            "Clermont-Ferrand"
-        ],
-        "pageviews": 892
-    },
-    {
-        "query_id": "19_747",
-        "question": "Where was Lee Oser born?",
-        "answers": [
-            "New York City"
-        ],
-        "pageviews": 3014
-    },
-    {
-        "query_id": "19_748",
-        "question": "Where was Jeanne Hines born?",
-        "answers": [
-            "West Virginia"
-        ],
-        "pageviews": 992
-    },
-    {
-        "query_id": "19_749",
-        "question": "Where was Kang Min-ho born?",
-        "answers": [
-            "Jeju"
-        ],
-        "pageviews": 2801
-    },
-    {
-        "query_id": "19_750",
-        "question": "Where was Jock Morgan born?",
-        "answers": [
-            "Penicuik"
-        ],
-        "pageviews": 606
-    },
-    {
-        "query_id": "19_751",
-        "question": "Where was Sebastian Mielitz born?",
-        "answers": [
-            "Zehdenick"
-        ],
-        "pageviews": 4072
-    },
-    {
-        "query_id": "19_752",
-        "question": "Where was Art Williams born?",
-        "answers": [
-            "Somerville"
-        ],
-        "pageviews": 629
+        "pageviews": 7
     },
     {
         "query_id": "19_753",
@@ -5934,7 +4102,7 @@
         "answers": [
             "Warsaw"
         ],
-        "pageviews": 9274
+        "pageviews": 7
     },
     {
         "query_id": "19_754",
@@ -5942,7 +4110,7 @@
         "answers": [
             "Toulon"
         ],
-        "pageviews": 2979
+        "pageviews": 2
     },
     {
         "query_id": "19_755",
@@ -5950,47 +4118,7 @@
         "answers": [
             "Basel"
         ],
-        "pageviews": 3063
-    },
-    {
-        "query_id": "19_756",
-        "question": "Where was Dario Di Palma born?",
-        "answers": [
-            "Rome"
-        ],
-        "pageviews": 2342
-    },
-    {
-        "query_id": "19_757",
-        "question": "Where was Peter O'Donnell born?",
-        "answers": [
-            "Dallas"
-        ],
-        "pageviews": 3716
-    },
-    {
-        "query_id": "19_758",
-        "question": "Where was Paolo De Chiesa born?",
-        "answers": [
-            "Saluzzo"
-        ],
-        "pageviews": 1975
-    },
-    {
-        "query_id": "19_759",
-        "question": "Where was Luis Hern\u00e1ndez born?",
-        "answers": [
-            "Guadalajara"
-        ],
-        "pageviews": 2307
-    },
-    {
-        "query_id": "19_760",
-        "question": "Where was S\u00f8ren Holdgaard born?",
-        "answers": [
-            "Denmark"
-        ],
-        "pageviews": 592
+        "pageviews": 6
     },
     {
         "query_id": "19_761",
@@ -5998,7 +4126,7 @@
         "answers": [
             "Pittsburgh"
         ],
-        "pageviews": 1791
+        "pageviews": 1
     },
     {
         "query_id": "19_762",
@@ -6006,7 +4134,7 @@
         "answers": [
             "Cartagena"
         ],
-        "pageviews": 1648
+        "pageviews": 2
     },
     {
         "query_id": "19_763",
@@ -6014,15 +4142,7 @@
         "answers": [
             "Bari"
         ],
-        "pageviews": 976
-    },
-    {
-        "query_id": "19_764",
-        "question": "Where was Alfred Engelsen born?",
-        "answers": [
-            "Bergen"
-        ],
-        "pageviews": 585
+        "pageviews": 1
     },
     {
         "query_id": "19_765",
@@ -6030,7 +4150,7 @@
         "answers": [
             "Nicosia"
         ],
-        "pageviews": 5222
+        "pageviews": 27
     },
     {
         "query_id": "19_766",
@@ -6038,23 +4158,7 @@
         "answers": [
             "Zevenbergen"
         ],
-        "pageviews": 2860
-    },
-    {
-        "query_id": "19_767",
-        "question": "Where was Ahmet Berman born?",
-        "answers": [
-            "Istanbul"
-        ],
-        "pageviews": 1682
-    },
-    {
-        "query_id": "19_768",
-        "question": "Where was Henrietta Valor born?",
-        "answers": [
-            "New Cumberland"
-        ],
-        "pageviews": 967
+        "pageviews": 6
     },
     {
         "query_id": "19_769",
@@ -6062,7 +4166,7 @@
         "answers": [
             "Verona"
         ],
-        "pageviews": 833
+        "pageviews": 2
     },
     {
         "query_id": "19_770",
@@ -6070,7 +4174,7 @@
         "answers": [
             "Melbourne"
         ],
-        "pageviews": 5798
+        "pageviews": 1
     },
     {
         "query_id": "19_771",
@@ -6078,7 +4182,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 2547
+        "pageviews": 8
     },
     {
         "query_id": "19_772",
@@ -6086,7 +4190,7 @@
         "answers": [
             "Fort-de-France"
         ],
-        "pageviews": 3277
+        "pageviews": 1
     },
     {
         "query_id": "19_773",
@@ -6094,15 +4198,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 14722
-    },
-    {
-        "query_id": "19_774",
-        "question": "Where was Francisco Castro born?",
-        "answers": [
-            "Fafe"
-        ],
-        "pageviews": 596
+        "pageviews": 14
     },
     {
         "query_id": "19_775",
@@ -6110,7 +4206,7 @@
         "answers": [
             "Vienna"
         ],
-        "pageviews": 437843
+        "pageviews": 386
     },
     {
         "query_id": "19_776",
@@ -6118,23 +4214,7 @@
         "answers": [
             "New Iberia"
         ],
-        "pageviews": 11448
-    },
-    {
-        "query_id": "19_777",
-        "question": "Where was Tajna Tanovic born?",
-        "answers": [
-            "Sarajevo"
-        ],
-        "pageviews": 906
-    },
-    {
-        "query_id": "19_778",
-        "question": "Where was Sylvain Curinier born?",
-        "answers": [
-            "Lons-le-Saunier"
-        ],
-        "pageviews": 686
+        "pageviews": 28
     },
     {
         "query_id": "19_779",
@@ -6142,15 +4222,7 @@
         "answers": [
             "Melbourne"
         ],
-        "pageviews": 1288
-    },
-    {
-        "query_id": "19_780",
-        "question": "Where was Kylie Cronk born?",
-        "answers": [
-            "Toowoomba"
-        ],
-        "pageviews": 1129
+        "pageviews": 4
     },
     {
         "query_id": "19_781",
@@ -6158,7 +4230,7 @@
         "answers": [
             "Manila"
         ],
-        "pageviews": 11345
+        "pageviews": 3
     },
     {
         "query_id": "19_782",
@@ -6166,7 +4238,7 @@
         "answers": [
             "Seville"
         ],
-        "pageviews": 0
+        "pageviews": 1
     },
     {
         "query_id": "19_783",
@@ -6174,7 +4246,7 @@
         "answers": [
             "Patras"
         ],
-        "pageviews": 12033
+        "pageviews": 41
     },
     {
         "query_id": "19_784",
@@ -6182,7 +4254,7 @@
         "answers": [
             "Hanover"
         ],
-        "pageviews": 6554
+        "pageviews": 6
     },
     {
         "query_id": "19_785",
@@ -6190,7 +4262,7 @@
         "answers": [
             "Kuwait"
         ],
-        "pageviews": 20298
+        "pageviews": 4
     },
     {
         "query_id": "19_786",
@@ -6198,7 +4270,7 @@
         "answers": [
             "Ponce"
         ],
-        "pageviews": 1846
+        "pageviews": 3
     },
     {
         "query_id": "19_787",
@@ -6206,7 +4278,7 @@
         "answers": [
             "San Francisco"
         ],
-        "pageviews": 12103
+        "pageviews": 6
     },
     {
         "query_id": "19_788",
@@ -6214,7 +4286,7 @@
         "answers": [
             "Beijing"
         ],
-        "pageviews": 1098
+        "pageviews": 1
     },
     {
         "query_id": "19_789",
@@ -6222,7 +4294,7 @@
         "answers": [
             "Warsaw"
         ],
-        "pageviews": 2217
+        "pageviews": 5
     },
     {
         "query_id": "19_790",
@@ -6230,15 +4302,7 @@
         "answers": [
             "Budapest"
         ],
-        "pageviews": 1195
-    },
-    {
-        "query_id": "19_791",
-        "question": "Where was James Thomas born?",
-        "answers": [
-            "Newport"
-        ],
-        "pageviews": 564
+        "pageviews": 1
     },
     {
         "query_id": "19_792",
@@ -6246,7 +4310,7 @@
         "answers": [
             "Berry Brow"
         ],
-        "pageviews": 605
+        "pageviews": 1
     },
     {
         "query_id": "19_793",
@@ -6254,7 +4318,7 @@
         "answers": [
             "Munich"
         ],
-        "pageviews": 747
+        "pageviews": 1
     },
     {
         "query_id": "19_794",
@@ -6262,7 +4326,7 @@
         "answers": [
             "Scotland"
         ],
-        "pageviews": 1202
+        "pageviews": 1
     },
     {
         "query_id": "19_795",
@@ -6270,7 +4334,7 @@
         "answers": [
             "San Juan"
         ],
-        "pageviews": 11852
+        "pageviews": 13
     },
     {
         "query_id": "19_796",
@@ -6278,7 +4342,7 @@
         "answers": [
             "Keene"
         ],
-        "pageviews": 688
+        "pageviews": 1
     },
     {
         "query_id": "19_797",
@@ -6286,15 +4350,7 @@
         "answers": [
             "Bautzen"
         ],
-        "pageviews": 4804
-    },
-    {
-        "query_id": "19_798",
-        "question": "Where was Stuart Tinney born?",
-        "answers": [
-            "Mundubbera"
-        ],
-        "pageviews": 1589
+        "pageviews": 10
     },
     {
         "query_id": "19_799",
@@ -6302,7 +4358,7 @@
         "answers": [
             "Amsterdam"
         ],
-        "pageviews": 910
+        "pageviews": 2
     },
     {
         "query_id": "19_800",
@@ -6310,15 +4366,7 @@
         "answers": [
             "Barcelona"
         ],
-        "pageviews": 1817
-    },
-    {
-        "query_id": "19_801",
-        "question": "Where was Francis George Adeodatus Micallef born?",
-        "answers": [
-            "Birkirkara"
-        ],
-        "pageviews": 1310
+        "pageviews": 4
     },
     {
         "query_id": "19_802",
@@ -6326,7 +4374,7 @@
         "answers": [
             "Long Island"
         ],
-        "pageviews": 1992
+        "pageviews": 1
     },
     {
         "query_id": "19_803",
@@ -6334,15 +4382,7 @@
         "answers": [
             "Detroit"
         ],
-        "pageviews": 6969
-    },
-    {
-        "query_id": "19_804",
-        "question": "Where was Francis Kiernan born?",
-        "answers": [
-            "Ireland"
-        ],
-        "pageviews": 1827
+        "pageviews": 4
     },
     {
         "query_id": "19_805",
@@ -6350,7 +4390,7 @@
         "answers": [
             "Lublin"
         ],
-        "pageviews": 1152
+        "pageviews": 1
     },
     {
         "query_id": "19_806",
@@ -6358,15 +4398,7 @@
         "answers": [
             "Jamaica"
         ],
-        "pageviews": 2842
-    },
-    {
-        "query_id": "19_807",
-        "question": "Where was Eduardo Y\u00e1\u00f1ez Monta\u00f1o born?",
-        "answers": [
-            "State of Mexico"
-        ],
-        "pageviews": 411
+        "pageviews": 9
     },
     {
         "query_id": "19_808",
@@ -6374,23 +4406,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2058
-    },
-    {
-        "query_id": "19_809",
-        "question": "Where was Lukas Runggaldier born?",
-        "answers": [
-            "Bolzano"
-        ],
-        "pageviews": 832
-    },
-    {
-        "query_id": "19_810",
-        "question": "Where was Jean-Claude Ndoli born?",
-        "answers": [
-            "Kibungo"
-        ],
-        "pageviews": 962
+        "pageviews": 2
     },
     {
         "query_id": "19_811",
@@ -6398,7 +4414,7 @@
         "answers": [
             "Stockholm"
         ],
-        "pageviews": 1149
+        "pageviews": 1
     },
     {
         "query_id": "19_812",
@@ -6406,7 +4422,7 @@
         "answers": [
             "Mtskheta"
         ],
-        "pageviews": 2058
+        "pageviews": 3
     },
     {
         "query_id": "19_813",
@@ -6414,7 +4430,7 @@
         "answers": [
             "Rock Island"
         ],
-        "pageviews": 4059
+        "pageviews": 3
     },
     {
         "query_id": "19_814",
@@ -6422,7 +4438,7 @@
         "answers": [
             "Limerick"
         ],
-        "pageviews": 2277
+        "pageviews": 3
     },
     {
         "query_id": "19_815",
@@ -6430,7 +4446,7 @@
         "answers": [
             "Tarring"
         ],
-        "pageviews": 4273
+        "pageviews": 25
     },
     {
         "query_id": "19_816",
@@ -6438,7 +4454,7 @@
         "answers": [
             "Bloomington"
         ],
-        "pageviews": 2065
+        "pageviews": 3
     },
     {
         "query_id": "19_817",
@@ -6446,31 +4462,7 @@
         "answers": [
             "Bijapur"
         ],
-        "pageviews": 17791
-    },
-    {
-        "query_id": "19_818",
-        "question": "Where was Theodor Sternberg born?",
-        "answers": [
-            "Berlin"
-        ],
-        "pageviews": 920
-    },
-    {
-        "query_id": "19_819",
-        "question": "Where was Thomas Lawson Price born?",
-        "answers": [
-            "Danville"
-        ],
-        "pageviews": 227
-    },
-    {
-        "query_id": "19_820",
-        "question": "Where was Frans Cuyck van Myerop born?",
-        "answers": [
-            "Bruges"
-        ],
-        "pageviews": 609
+        "pageviews": 25
     },
     {
         "query_id": "19_821",
@@ -6478,7 +4470,7 @@
         "answers": [
             "Khanty-Mansiysk"
         ],
-        "pageviews": 2765
+        "pageviews": 2
     },
     {
         "query_id": "19_822",
@@ -6486,15 +4478,7 @@
         "answers": [
             "Heidelberg"
         ],
-        "pageviews": 4107
-    },
-    {
-        "query_id": "19_823",
-        "question": "Where was Adrian Brown born?",
-        "answers": [
-            "Clacton-on-Sea"
-        ],
-        "pageviews": 1072
+        "pageviews": 16
     },
     {
         "query_id": "19_824",
@@ -6502,7 +4486,7 @@
         "answers": [
             "Waipukurau"
         ],
-        "pageviews": 1488
+        "pageviews": 9
     },
     {
         "query_id": "19_825",
@@ -6510,7 +4494,7 @@
         "answers": [
             "San Francisco"
         ],
-        "pageviews": 2314
+        "pageviews": 2
     },
     {
         "query_id": "19_826",
@@ -6518,7 +4502,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 1472
+        "pageviews": 3
     },
     {
         "query_id": "19_827",
@@ -6526,15 +4510,7 @@
         "answers": [
             "Wilkes-Barre"
         ],
-        "pageviews": 1792
-    },
-    {
-        "query_id": "19_828",
-        "question": "Where was Jean Elichagaray born?",
-        "answers": [
-            "Bayonne"
-        ],
-        "pageviews": 417
+        "pageviews": 2
     },
     {
         "query_id": "19_829",
@@ -6542,15 +4518,7 @@
         "answers": [
             "Bootle"
         ],
-        "pageviews": 9774
-    },
-    {
-        "query_id": "19_830",
-        "question": "Where was Alfred Leyman born?",
-        "answers": [
-            "Exeter"
-        ],
-        "pageviews": 1054
+        "pageviews": 13
     },
     {
         "query_id": "19_831",
@@ -6558,7 +4526,7 @@
         "answers": [
             "Adana"
         ],
-        "pageviews": 8860
+        "pageviews": 11
     },
     {
         "query_id": "19_832",
@@ -6566,7 +4534,7 @@
         "answers": [
             "Blackburn"
         ],
-        "pageviews": 7089
+        "pageviews": 45
     },
     {
         "query_id": "19_833",
@@ -6574,15 +4542,7 @@
         "answers": [
             "Alford"
         ],
-        "pageviews": 4432
-    },
-    {
-        "query_id": "19_834",
-        "question": "Where was Roger Marquis born?",
-        "answers": [
-            "Holyoke"
-        ],
-        "pageviews": 870
+        "pageviews": 3
     },
     {
         "query_id": "19_835",
@@ -6590,7 +4550,7 @@
         "answers": [
             "Egypt"
         ],
-        "pageviews": 2285
+        "pageviews": 2
     },
     {
         "query_id": "19_836",
@@ -6598,7 +4558,7 @@
         "answers": [
             "Gilbert"
         ],
-        "pageviews": 6467
+        "pageviews": 12
     },
     {
         "query_id": "19_837",
@@ -6606,7 +4566,7 @@
         "answers": [
             "St Asaph"
         ],
-        "pageviews": 44097
+        "pageviews": 118
     },
     {
         "query_id": "19_838",
@@ -6614,15 +4574,7 @@
         "answers": [
             "Montfort-sur-Meu"
         ],
-        "pageviews": 1030
-    },
-    {
-        "query_id": "19_839",
-        "question": "Where was Ken Sueda born?",
-        "answers": [
-            "Japan"
-        ],
-        "pageviews": 882
+        "pageviews": 2
     },
     {
         "query_id": "19_840",
@@ -6630,7 +4582,7 @@
         "answers": [
             "Stollberg"
         ],
-        "pageviews": 839
+        "pageviews": 2
     },
     {
         "query_id": "19_841",
@@ -6638,7 +4590,7 @@
         "answers": [
             "Solna Municipality"
         ],
-        "pageviews": 25990
+        "pageviews": 7
     },
     {
         "query_id": "19_842",
@@ -6646,7 +4598,7 @@
         "answers": [
             "Darwin"
         ],
-        "pageviews": 1311
+        "pageviews": 1
     },
     {
         "query_id": "19_843",
@@ -6654,7 +4606,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 2743
+        "pageviews": 2
     },
     {
         "query_id": "19_844",
@@ -6662,7 +4614,7 @@
         "answers": [
             "Hamburg"
         ],
-        "pageviews": 5756
+        "pageviews": 36
     },
     {
         "query_id": "19_845",
@@ -6670,15 +4622,7 @@
         "answers": [
             "San Francisco"
         ],
-        "pageviews": 1667
-    },
-    {
-        "query_id": "19_846",
-        "question": "Where was Lutz Fleischer born?",
-        "answers": [
-            "Dresden"
-        ],
-        "pageviews": 681
+        "pageviews": 1
     },
     {
         "query_id": "19_847",
@@ -6686,7 +4630,7 @@
         "answers": [
             "Bangkok"
         ],
-        "pageviews": 1062
+        "pageviews": 3
     },
     {
         "query_id": "19_848",
@@ -6694,7 +4638,7 @@
         "answers": [
             "South Bend"
         ],
-        "pageviews": 3958
+        "pageviews": 6
     },
     {
         "query_id": "19_849",
@@ -6702,31 +4646,7 @@
         "answers": [
             "Romford"
         ],
-        "pageviews": 2505
-    },
-    {
-        "query_id": "19_850",
-        "question": "Where was Jean-Baptiste Dumay born?",
-        "answers": [
-            "Le Creusot"
-        ],
-        "pageviews": 469
-    },
-    {
-        "query_id": "19_851",
-        "question": "Where was Marty Ravellette born?",
-        "answers": [
-            "Goodland"
-        ],
-        "pageviews": 2925
-    },
-    {
-        "query_id": "19_852",
-        "question": "Where was Tom Webley born?",
-        "answers": [
-            "Bristol"
-        ],
-        "pageviews": 1154
+        "pageviews": 3
     },
     {
         "query_id": "19_853",
@@ -6734,7 +4654,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 48490
+        "pageviews": 13
     },
     {
         "query_id": "19_854",
@@ -6742,7 +4662,7 @@
         "answers": [
             "Tours"
         ],
-        "pageviews": 909
+        "pageviews": 1
     },
     {
         "query_id": "19_855",
@@ -6750,15 +4670,7 @@
         "answers": [
             "Stockholm"
         ],
-        "pageviews": 603
-    },
-    {
-        "query_id": "19_856",
-        "question": "Where was Natale Masera born?",
-        "answers": [
-            "Busto Arsizio"
-        ],
-        "pageviews": 581
+        "pageviews": 1
     },
     {
         "query_id": "19_857",
@@ -6766,7 +4678,7 @@
         "answers": [
             "Culross"
         ],
-        "pageviews": 1602
+        "pageviews": 6
     },
     {
         "query_id": "19_858",
@@ -6774,15 +4686,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 5547
-    },
-    {
-        "query_id": "19_859",
-        "question": "Where was Fujiwara no Saneko born?",
-        "answers": [
-            "Japan"
-        ],
-        "pageviews": 1288
+        "pageviews": 11
     },
     {
         "query_id": "19_860",
@@ -6790,7 +4694,7 @@
         "answers": [
             "Chemnitz"
         ],
-        "pageviews": 1540
+        "pageviews": 4
     },
     {
         "query_id": "19_861",
@@ -6798,7 +4702,7 @@
         "answers": [
             "West Croydon"
         ],
-        "pageviews": 802
+        "pageviews": 2
     },
     {
         "query_id": "19_862",
@@ -6806,7 +4710,7 @@
         "answers": [
             "Frankfurt"
         ],
-        "pageviews": 3967
+        "pageviews": 3
     },
     {
         "query_id": "19_863",
@@ -6814,7 +4718,7 @@
         "answers": [
             "Ansbach"
         ],
-        "pageviews": 2234
+        "pageviews": 12
     },
     {
         "query_id": "19_864",
@@ -6822,7 +4726,7 @@
         "answers": [
             "Lviv"
         ],
-        "pageviews": 4792
+        "pageviews": 1
     },
     {
         "query_id": "19_865",
@@ -6830,7 +4734,7 @@
         "answers": [
             "Junction City"
         ],
-        "pageviews": 2214
+        "pageviews": 4
     },
     {
         "query_id": "19_866",
@@ -6838,15 +4742,7 @@
         "answers": [
             "Bellac"
         ],
-        "pageviews": 19757
-    },
-    {
-        "query_id": "19_867",
-        "question": "Where was Nora Lafi born?",
-        "answers": [
-            "Istres"
-        ],
-        "pageviews": 1073
+        "pageviews": 112
     },
     {
         "query_id": "19_868",
@@ -6854,7 +4750,7 @@
         "answers": [
             "Clapham"
         ],
-        "pageviews": 2495
+        "pageviews": 7
     },
     {
         "query_id": "19_869",
@@ -6862,7 +4758,7 @@
         "answers": [
             "Roth"
         ],
-        "pageviews": 20945
+        "pageviews": 5
     },
     {
         "query_id": "19_870",
@@ -6870,15 +4766,7 @@
         "answers": [
             "Vlissingen"
         ],
-        "pageviews": 3136
-    },
-    {
-        "query_id": "19_871",
-        "question": "Where was Krassimir Damianov born?",
-        "answers": [
-            "Sofia"
-        ],
-        "pageviews": 668
+        "pageviews": 5
     },
     {
         "query_id": "19_872",
@@ -6886,7 +4774,7 @@
         "answers": [
             "Nizhny Novgorod"
         ],
-        "pageviews": 22899
+        "pageviews": 2
     },
     {
         "query_id": "19_873",
@@ -6894,7 +4782,7 @@
         "answers": [
             "Altenmarkt im Pongau"
         ],
-        "pageviews": 3580
+        "pageviews": 6
     },
     {
         "query_id": "19_874",
@@ -6902,7 +4790,7 @@
         "answers": [
             "La Paz"
         ],
-        "pageviews": 1320
+        "pageviews": 2
     },
     {
         "query_id": "19_875",
@@ -6910,7 +4798,7 @@
         "answers": [
             "Jamaica"
         ],
-        "pageviews": 6925
+        "pageviews": 22
     },
     {
         "query_id": "19_876",
@@ -6918,15 +4806,7 @@
         "answers": [
             "Osthofen"
         ],
-        "pageviews": 1468
-    },
-    {
-        "query_id": "19_877",
-        "question": "Where was Manuel Pedro Gomes born?",
-        "answers": [
-            "Torres Novas"
-        ],
-        "pageviews": 1602
+        "pageviews": 4
     },
     {
         "query_id": "19_878",
@@ -6934,15 +4814,7 @@
         "answers": [
             "Dublin"
         ],
-        "pageviews": 75843
-    },
-    {
-        "query_id": "19_879",
-        "question": "Where was Roberto de Figueiredo Caldas born?",
-        "answers": [
-            "Aracaju"
-        ],
-        "pageviews": 868
+        "pageviews": 164
     },
     {
         "query_id": "19_880",
@@ -6950,7 +4822,7 @@
         "answers": [
             "Sheffield"
         ],
-        "pageviews": 25827
+        "pageviews": 10
     },
     {
         "query_id": "19_881",
@@ -6958,7 +4830,7 @@
         "answers": [
             "Iwaki"
         ],
-        "pageviews": 2739
+        "pageviews": 1
     },
     {
         "query_id": "19_882",
@@ -6966,15 +4838,7 @@
         "answers": [
             "Augsburg"
         ],
-        "pageviews": 656
-    },
-    {
-        "query_id": "19_883",
-        "question": "Where was Masakazu Tashiro born?",
-        "answers": [
-            "Meguro-ku"
-        ],
-        "pageviews": 1235
+        "pageviews": 1
     },
     {
         "query_id": "19_884",
@@ -6982,7 +4846,7 @@
         "answers": [
             "Sarajevo"
         ],
-        "pageviews": 1097
+        "pageviews": 1
     },
     {
         "query_id": "19_885",
@@ -6990,23 +4854,7 @@
         "answers": [
             "Montreal"
         ],
-        "pageviews": 677
-    },
-    {
-        "query_id": "19_886",
-        "question": "Where was Jacinta Escudos born?",
-        "answers": [
-            "San Salvador"
-        ],
-        "pageviews": 1241
-    },
-    {
-        "query_id": "19_888",
-        "question": "Where was Arvid Smit born?",
-        "answers": [
-            "Heerhugowaard"
-        ],
-        "pageviews": 1722
+        "pageviews": 1
     },
     {
         "query_id": "19_889",
@@ -7014,7 +4862,7 @@
         "answers": [
             "Buenos Aires"
         ],
-        "pageviews": 688
+        "pageviews": 6
     },
     {
         "query_id": "19_890",
@@ -7022,7 +4870,7 @@
         "answers": [
             "Battle Creek"
         ],
-        "pageviews": 3709
+        "pageviews": 10
     },
     {
         "query_id": "19_891",
@@ -7030,7 +4878,7 @@
         "answers": [
             "Shediac"
         ],
-        "pageviews": 1695
+        "pageviews": 1
     },
     {
         "query_id": "19_892",
@@ -7038,15 +4886,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 2142
-    },
-    {
-        "query_id": "19_893",
-        "question": "Where was Tatsuo Sato born?",
-        "answers": [
-            "Fukushima"
-        ],
-        "pageviews": 579
+        "pageviews": 2
     },
     {
         "query_id": "19_894",
@@ -7054,15 +4894,7 @@
         "answers": [
             "Jamaica"
         ],
-        "pageviews": 2710
-    },
-    {
-        "query_id": "19_895",
-        "question": "Where was Per Ivar Staberg born?",
-        "answers": [
-            "Harstad"
-        ],
-        "pageviews": 1091
+        "pageviews": 1
     },
     {
         "query_id": "19_896",
@@ -7070,7 +4902,7 @@
         "answers": [
             "Johannesburg"
         ],
-        "pageviews": 68141
+        "pageviews": 16
     },
     {
         "query_id": "19_897",
@@ -7078,7 +4910,7 @@
         "answers": [
             "Bryn Mawr"
         ],
-        "pageviews": 4145
+        "pageviews": 21
     },
     {
         "query_id": "19_898",
@@ -7086,7 +4918,7 @@
         "answers": [
             "Bologna"
         ],
-        "pageviews": 900
+        "pageviews": 8
     },
     {
         "query_id": "19_899",
@@ -7094,15 +4926,7 @@
         "answers": [
             "Madrid"
         ],
-        "pageviews": 1770
-    },
-    {
-        "query_id": "19_900",
-        "question": "Where was Henry Stockbridge born?",
-        "answers": [
-            "Baltimore"
-        ],
-        "pageviews": 782
+        "pageviews": 1
     },
     {
         "query_id": "19_901",
@@ -7110,7 +4934,7 @@
         "answers": [
             "Saint Lucia"
         ],
-        "pageviews": 229904
+        "pageviews": 24
     },
     {
         "query_id": "19_902",
@@ -7118,7 +4942,7 @@
         "answers": [
             "Stockholm"
         ],
-        "pageviews": 1080
+        "pageviews": 1
     },
     {
         "query_id": "19_903",
@@ -7126,7 +4950,7 @@
         "answers": [
             "Huntsville"
         ],
-        "pageviews": 3695
+        "pageviews": 1
     },
     {
         "query_id": "19_904",
@@ -7134,7 +4958,7 @@
         "answers": [
             "Uzwil"
         ],
-        "pageviews": 1712
+        "pageviews": 17
     },
     {
         "query_id": "19_905",
@@ -7142,15 +4966,7 @@
         "answers": [
             "Venice"
         ],
-        "pageviews": 1908
-    },
-    {
-        "query_id": "19_906",
-        "question": "Where was Safwan Abdul-Ghani born?",
-        "answers": [
-            "Iraq"
-        ],
-        "pageviews": 845
+        "pageviews": 1
     },
     {
         "query_id": "19_907",
@@ -7158,15 +4974,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 11784
-    },
-    {
-        "query_id": "19_908",
-        "question": "Where was Jim McInally born?",
-        "answers": [
-            "Simcoe"
-        ],
-        "pageviews": 749
+        "pageviews": 61
     },
     {
         "query_id": "19_909",
@@ -7174,7 +4982,7 @@
         "answers": [
             "Danderyd Municipality"
         ],
-        "pageviews": 22429
+        "pageviews": 5
     },
     {
         "query_id": "19_910",
@@ -7182,7 +4990,7 @@
         "answers": [
             "Lohne"
         ],
-        "pageviews": 2941
+        "pageviews": 5
     },
     {
         "query_id": "19_911",
@@ -7190,7 +4998,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 94071
+        "pageviews": 80
     },
     {
         "query_id": "19_912",
@@ -7198,7 +5006,7 @@
         "answers": [
             "Tampere"
         ],
-        "pageviews": 866
+        "pageviews": 2
     },
     {
         "query_id": "19_913",
@@ -7206,15 +5014,7 @@
         "answers": [
             "Yixing"
         ],
-        "pageviews": 1970
-    },
-    {
-        "query_id": "19_914",
-        "question": "Where was Miguel Mba born?",
-        "answers": [
-            "Equatorial Guinea"
-        ],
-        "pageviews": 457
+        "pageviews": 2
     },
     {
         "query_id": "19_915",
@@ -7222,7 +5022,7 @@
         "answers": [
             "Barranquilla"
         ],
-        "pageviews": 2274
+        "pageviews": 2
     },
     {
         "query_id": "19_916",
@@ -7230,15 +5030,7 @@
         "answers": [
             "Polch"
         ],
-        "pageviews": 1712
-    },
-    {
-        "query_id": "19_917",
-        "question": "Where was Ken Rickards born?",
-        "answers": [
-            "Middlesbrough"
-        ],
-        "pageviews": 432
+        "pageviews": 3
     },
     {
         "query_id": "19_918",
@@ -7246,7 +5038,7 @@
         "answers": [
             "South Kingstown"
         ],
-        "pageviews": 1113
+        "pageviews": 2
     },
     {
         "query_id": "19_919",
@@ -7254,7 +5046,7 @@
         "answers": [
             "Geneva"
         ],
-        "pageviews": 39201
+        "pageviews": 26
     },
     {
         "query_id": "19_920",
@@ -7262,7 +5054,7 @@
         "answers": [
             "Maryland"
         ],
-        "pageviews": 8908
+        "pageviews": 3
     },
     {
         "query_id": "19_921",
@@ -7270,7 +5062,7 @@
         "answers": [
             "Katowice"
         ],
-        "pageviews": 2519
+        "pageviews": 1
     },
     {
         "query_id": "19_922",
@@ -7278,7 +5070,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 1490
+        "pageviews": 1
     },
     {
         "query_id": "19_923",
@@ -7286,7 +5078,7 @@
         "answers": [
             "Sosnowiec"
         ],
-        "pageviews": 1022
+        "pageviews": 1
     },
     {
         "query_id": "19_924",
@@ -7294,7 +5086,7 @@
         "answers": [
             "Houston"
         ],
-        "pageviews": 1460
+        "pageviews": 1
     },
     {
         "query_id": "19_925",
@@ -7302,7 +5094,7 @@
         "answers": [
             "Naples"
         ],
-        "pageviews": 1271
+        "pageviews": 2
     },
     {
         "query_id": "19_926",
@@ -7310,7 +5102,7 @@
         "answers": [
             "Helsinki"
         ],
-        "pageviews": 1419
+        "pageviews": 2
     },
     {
         "query_id": "19_927",
@@ -7318,7 +5110,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 67658
+        "pageviews": 5
     },
     {
         "query_id": "19_928",
@@ -7326,31 +5118,7 @@
         "answers": [
             "Hefei"
         ],
-        "pageviews": 1003
-    },
-    {
-        "query_id": "19_929",
-        "question": "Where was Stanley Hahn born?",
-        "answers": [
-            "Watford"
-        ],
-        "pageviews": 713
-    },
-    {
-        "query_id": "19_930",
-        "question": "Where was Daniel Sargent born?",
-        "answers": [
-            "Gloucester"
-        ],
-        "pageviews": 259
-    },
-    {
-        "query_id": "19_931",
-        "question": "Where was Mykhaylo Dyachuk-Stavytskyi born?",
-        "answers": [
-            "Ukrainian Soviet Socialist Republic"
-        ],
-        "pageviews": 442
+        "pageviews": 2
     },
     {
         "query_id": "19_932",
@@ -7358,7 +5126,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 489679
+        "pageviews": 44
     },
     {
         "query_id": "19_933",
@@ -7366,7 +5134,7 @@
         "answers": [
             "Borculo"
         ],
-        "pageviews": 1350
+        "pageviews": 4
     },
     {
         "query_id": "19_934",
@@ -7374,7 +5142,7 @@
         "answers": [
             "Ljubljana"
         ],
-        "pageviews": 480
+        "pageviews": 1
     },
     {
         "query_id": "19_935",
@@ -7382,7 +5150,7 @@
         "answers": [
             "Parma"
         ],
-        "pageviews": 18034
+        "pageviews": 8
     },
     {
         "query_id": "19_936",
@@ -7390,7 +5158,7 @@
         "answers": [
             "Southport"
         ],
-        "pageviews": 4298
+        "pageviews": 13
     },
     {
         "query_id": "19_937",
@@ -7398,7 +5166,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 987
+        "pageviews": 4
     },
     {
         "query_id": "19_938",
@@ -7406,7 +5174,7 @@
         "answers": [
             "Brooklyn"
         ],
-        "pageviews": 11266
+        "pageviews": 7
     },
     {
         "query_id": "19_939",
@@ -7414,7 +5182,7 @@
         "answers": [
             "Riva del Garda"
         ],
-        "pageviews": 2622
+        "pageviews": 4
     },
     {
         "query_id": "19_940",
@@ -7422,23 +5190,7 @@
         "answers": [
             "Shoreham-by-Sea"
         ],
-        "pageviews": 2738
-    },
-    {
-        "query_id": "19_941",
-        "question": "Where was Jean Espariat born?",
-        "answers": [
-            "Aix-en-Provence"
-        ],
-        "pageviews": 557
-    },
-    {
-        "query_id": "19_942",
-        "question": "Where was Rom\u00e1rio Leiria de Moura born?",
-        "answers": [
-            "Porto Alegre"
-        ],
-        "pageviews": 776
+        "pageviews": 2
     },
     {
         "query_id": "19_943",
@@ -7446,15 +5198,7 @@
         "answers": [
             "Pittsburgh"
         ],
-        "pageviews": 1261
-    },
-    {
-        "query_id": "19_944",
-        "question": "Where was Nanna H\u00e4nninen born?",
-        "answers": [
-            "Rovaniemi"
-        ],
-        "pageviews": 760
+        "pageviews": 2
     },
     {
         "query_id": "19_945",
@@ -7462,7 +5206,7 @@
         "answers": [
             "Mula"
         ],
-        "pageviews": 15431
+        "pageviews": 65
     },
     {
         "query_id": "19_946",
@@ -7470,7 +5214,7 @@
         "answers": [
             "Battle Creek"
         ],
-        "pageviews": 4360
+        "pageviews": 5
     },
     {
         "query_id": "19_947",
@@ -7478,7 +5222,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 3708
+        "pageviews": 6
     },
     {
         "query_id": "19_948",
@@ -7486,7 +5230,7 @@
         "answers": [
             "Bluefield"
         ],
-        "pageviews": 58646
+        "pageviews": 4
     },
     {
         "query_id": "19_949",
@@ -7494,7 +5238,7 @@
         "answers": [
             "Edmonton"
         ],
-        "pageviews": 3230
+        "pageviews": 14
     },
     {
         "query_id": "19_950",
@@ -7502,7 +5246,7 @@
         "answers": [
             "Cape Town"
         ],
-        "pageviews": 5445
+        "pageviews": 5
     },
     {
         "query_id": "19_951",
@@ -7510,7 +5254,7 @@
         "answers": [
             "Nevers"
         ],
-        "pageviews": 2677
+        "pageviews": 13
     },
     {
         "query_id": "19_952",
@@ -7518,15 +5262,7 @@
         "answers": [
             "Dublin"
         ],
-        "pageviews": 13097
-    },
-    {
-        "query_id": "19_953",
-        "question": "Where was Steve Hardwick born?",
-        "answers": [
-            "Mansfield"
-        ],
-        "pageviews": 2012
+        "pageviews": 36
     },
     {
         "query_id": "19_954",
@@ -7534,15 +5270,7 @@
         "answers": [
             "Ghent"
         ],
-        "pageviews": 7218
-    },
-    {
-        "query_id": "19_955",
-        "question": "Where was Tom Hynd born?",
-        "answers": [
-            "Sydney"
-        ],
-        "pageviews": 741
+        "pageviews": 9
     },
     {
         "query_id": "19_956",
@@ -7550,7 +5278,7 @@
         "answers": [
             "Marseille"
         ],
-        "pageviews": 1074
+        "pageviews": 2
     },
     {
         "query_id": "19_957",
@@ -7558,7 +5286,7 @@
         "answers": [
             "Canberra"
         ],
-        "pageviews": 2395
+        "pageviews": 1
     },
     {
         "query_id": "19_958",
@@ -7566,7 +5294,7 @@
         "answers": [
             "Athens"
         ],
-        "pageviews": 1491
+        "pageviews": 5
     },
     {
         "query_id": "19_959",
@@ -7574,15 +5302,7 @@
         "answers": [
             "Saint-Valery-sur-Somme"
         ],
-        "pageviews": 1227
-    },
-    {
-        "query_id": "19_960",
-        "question": "Where was Marienetta Jirkowsky born?",
-        "answers": [
-            "Bad Saarow"
-        ],
-        "pageviews": 4283
+        "pageviews": 10
     },
     {
         "query_id": "19_961",
@@ -7590,7 +5310,7 @@
         "answers": [
             "Steinkjer"
         ],
-        "pageviews": 9085
+        "pageviews": 24
     },
     {
         "query_id": "19_962",
@@ -7598,7 +5318,7 @@
         "answers": [
             "Cleveland"
         ],
-        "pageviews": 3575
+        "pageviews": 7
     },
     {
         "query_id": "19_963",
@@ -7606,7 +5326,7 @@
         "answers": [
             "Edmonton"
         ],
-        "pageviews": 931
+        "pageviews": 1
     },
     {
         "query_id": "19_964",
@@ -7614,7 +5334,7 @@
         "answers": [
             "Victoria"
         ],
-        "pageviews": 17151
+        "pageviews": 31
     },
     {
         "query_id": "19_965",
@@ -7622,15 +5342,7 @@
         "answers": [
             "Baton Rouge"
         ],
-        "pageviews": 1629
-    },
-    {
-        "query_id": "19_966",
-        "question": "Where was Nadezhda Ovechkina born?",
-        "answers": [
-            "Moscow"
-        ],
-        "pageviews": 545
+        "pageviews": 1
     },
     {
         "query_id": "19_967",
@@ -7638,7 +5350,7 @@
         "answers": [
             "Winnipeg"
         ],
-        "pageviews": 3919
+        "pageviews": 2
     },
     {
         "query_id": "19_968",
@@ -7646,7 +5358,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 5438
+        "pageviews": 42
     },
     {
         "query_id": "19_969",
@@ -7654,7 +5366,7 @@
         "answers": [
             "Leiden"
         ],
-        "pageviews": 1386
+        "pageviews": 2
     },
     {
         "query_id": "19_970",
@@ -7662,7 +5374,7 @@
         "answers": [
             "Naples"
         ],
-        "pageviews": 132380
+        "pageviews": 8
     },
     {
         "query_id": "19_971",
@@ -7670,15 +5382,7 @@
         "answers": [
             "Leeds"
         ],
-        "pageviews": 525
-    },
-    {
-        "query_id": "19_972",
-        "question": "Where was Dragan Andri\u0107 born?",
-        "answers": [
-            "Dubrovnik"
-        ],
-        "pageviews": 1884
+        "pageviews": 1
     },
     {
         "query_id": "19_973",
@@ -7686,23 +5390,7 @@
         "answers": [
             "Verona"
         ],
-        "pageviews": 1060
-    },
-    {
-        "query_id": "19_974",
-        "question": "Where was Ann Z. Caracristi born?",
-        "answers": [
-            "Bronxville"
-        ],
-        "pageviews": 4108
-    },
-    {
-        "query_id": "19_975",
-        "question": "Where was Jos\u00e9 Felipe Puelles born?",
-        "answers": [
-            "Puebla"
-        ],
-        "pageviews": 574
+        "pageviews": 2
     },
     {
         "query_id": "19_976",
@@ -7710,7 +5398,7 @@
         "answers": [
             "Clonmel"
         ],
-        "pageviews": 33692
+        "pageviews": 4
     },
     {
         "query_id": "19_977",
@@ -7718,7 +5406,7 @@
         "answers": [
             "San Francisco"
         ],
-        "pageviews": 1870
+        "pageviews": 3
     },
     {
         "query_id": "19_978",
@@ -7726,7 +5414,7 @@
         "answers": [
             "Sydney"
         ],
-        "pageviews": 21778
+        "pageviews": 6
     },
     {
         "query_id": "19_979",
@@ -7734,7 +5422,7 @@
         "answers": [
             "Larbert"
         ],
-        "pageviews": 8465
+        "pageviews": 29
     },
     {
         "query_id": "19_980",
@@ -7742,7 +5430,7 @@
         "answers": [
             "Prague"
         ],
-        "pageviews": 734
+        "pageviews": 1
     },
     {
         "query_id": "19_981",
@@ -7750,7 +5438,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 2952
+        "pageviews": 1
     },
     {
         "query_id": "19_982",
@@ -7758,7 +5446,7 @@
         "answers": [
             "Keresley"
         ],
-        "pageviews": 33249
+        "pageviews": 8
     },
     {
         "query_id": "19_983",
@@ -7766,15 +5454,7 @@
         "answers": [
             "Montreal"
         ],
-        "pageviews": 1091
-    },
-    {
-        "query_id": "19_984",
-        "question": "Where was Henryk Budzicz born?",
-        "answers": [
-            "Olsztyn"
-        ],
-        "pageviews": 1212
+        "pageviews": 1
     },
     {
         "query_id": "19_985",
@@ -7782,7 +5462,7 @@
         "answers": [
             "Yanshuei District"
         ],
-        "pageviews": 1855
+        "pageviews": 1
     },
     {
         "query_id": "19_986",
@@ -7790,7 +5470,7 @@
         "answers": [
             "Baoding"
         ],
-        "pageviews": 1043
+        "pageviews": 1
     },
     {
         "query_id": "19_987",
@@ -7798,15 +5478,7 @@
         "answers": [
             "Esslingen am Neckar"
         ],
-        "pageviews": 1410
-    },
-    {
-        "query_id": "19_988",
-        "question": "Where was Daniel Madwed born?",
-        "answers": [
-            "Stamford"
-        ],
-        "pageviews": 1628
+        "pageviews": 1
     },
     {
         "query_id": "19_989",
@@ -7814,7 +5486,7 @@
         "answers": [
             "Quebec City"
         ],
-        "pageviews": 877
+        "pageviews": 1
     },
     {
         "query_id": "19_990",
@@ -7822,7 +5494,7 @@
         "answers": [
             "Chicago Heights"
         ],
-        "pageviews": 4288
+        "pageviews": 7
     },
     {
         "query_id": "19_991",
@@ -7830,7 +5502,7 @@
         "answers": [
             "Johnson City"
         ],
-        "pageviews": 2094
+        "pageviews": 2
     },
     {
         "query_id": "19_992",
@@ -7838,7 +5510,7 @@
         "answers": [
             "Rio de Janeiro"
         ],
-        "pageviews": 6925
+        "pageviews": 19
     },
     {
         "query_id": "19_993",
@@ -7846,15 +5518,7 @@
         "answers": [
             "Dublin"
         ],
-        "pageviews": 119895
-    },
-    {
-        "query_id": "19_994",
-        "question": "Where was Peter Sampson born?",
-        "answers": [
-            "Great Wakering"
-        ],
-        "pageviews": 1299
+        "pageviews": 99
     },
     {
         "query_id": "19_995",
@@ -7862,7 +5526,7 @@
         "answers": [
             "Pacoima"
         ],
-        "pageviews": 1370
+        "pageviews": 2
     },
     {
         "query_id": "19_996",
@@ -7870,7 +5534,7 @@
         "answers": [
             "Weimar"
         ],
-        "pageviews": 851
+        "pageviews": 1
     },
     {
         "query_id": "19_997",
@@ -7878,7 +5542,7 @@
         "answers": [
             "Souli Municipality"
         ],
-        "pageviews": 1405
+        "pageviews": 1
     },
     {
         "query_id": "19_998",
@@ -7886,7 +5550,7 @@
         "answers": [
             "Erlangen"
         ],
-        "pageviews": 3168
+        "pageviews": 3
     },
     {
         "query_id": "19_999",
@@ -7894,6 +5558,6 @@
         "answers": [
             "Westcliff-on-Sea"
         ],
-        "pageviews": 43199
+        "pageviews": 12
     }
 ]

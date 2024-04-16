@@ -6,7 +6,7 @@ def main():
     # qrels -> tsv {"quesry_id", "corpus_id", "score"}
     
     # Input files
-    dataset_name = "popQA" # [popQA, witQA, EQ]
+    dataset_name = "EQ" # [popQA, witQA, EQ]
     dataset_dir = "component0_preprocessing/generated_data/{}_costomized".format(dataset_name)
     corpus_dir = f"{dataset_dir}/corpus_all"
     qrels_dir = f"{dataset_dir}/qrels_all"

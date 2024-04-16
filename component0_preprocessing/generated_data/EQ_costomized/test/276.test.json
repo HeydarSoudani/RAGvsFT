@@ -5,7 +5,7 @@
         "answers": [
             "Asiago"
         ],
-        "pageviews": 23821
+        "pageviews": 35
     },
     {
         "query_id": "276_1",
@@ -13,7 +13,7 @@
         "answers": [
             "Badhoevedorp"
         ],
-        "pageviews": 1544
+        "pageviews": 1
     },
     {
         "query_id": "276_2",
@@ -21,7 +21,7 @@
         "answers": [
             "Exmoor"
         ],
-        "pageviews": 4228
+        "pageviews": 66
     },
     {
         "query_id": "276_3",
@@ -29,23 +29,7 @@
         "answers": [
             "Museo del Prado"
         ],
-        "pageviews": 804
-    },
-    {
-        "query_id": "276_4",
-        "question": "Where is Dar\u00fc\u015f\u015fafaka S.K. located?",
-        "answers": [
-            "Istanbul"
-        ],
-        "pageviews": 24114
-    },
-    {
-        "query_id": "276_5",
-        "question": "Where is Battle of Ongjin located?",
-        "answers": [
-            "Ongjin"
-        ],
-        "pageviews": 0
+        "pageviews": 1
     },
     {
         "query_id": "276_7",
@@ -53,7 +37,7 @@
         "answers": [
             "Camden Town"
         ],
-        "pageviews": 8753
+        "pageviews": 50
     },
     {
         "query_id": "276_8",
@@ -61,15 +45,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 1206
-    },
-    {
-        "query_id": "276_9",
-        "question": "Where is list of beaches in Sonoma County, California located?",
-        "answers": [
-            "Sonoma County"
-        ],
-        "pageviews": 1091
+        "pageviews": 1
     },
     {
         "query_id": "276_10",
@@ -77,7 +53,7 @@
         "answers": [
             "Tel Aviv"
         ],
-        "pageviews": 8689
+        "pageviews": 4
     },
     {
         "query_id": "276_11",
@@ -85,23 +61,7 @@
         "answers": [
             "Iberian Peninsula"
         ],
-        "pageviews": 96633
-    },
-    {
-        "query_id": "276_12",
-        "question": "Where is 1979 Southeast Asian Games located?",
-        "answers": [
-            "Jakarta"
-        ],
-        "pageviews": 28
-    },
-    {
-        "query_id": "276_13",
-        "question": "Where is .EDU Film Festival located?",
-        "answers": [
-            "Minneapolis"
-        ],
-        "pageviews": 3257
+        "pageviews": 95
     },
     {
         "query_id": "276_14",
@@ -109,15 +69,7 @@
         "answers": [
             "Rosmalen"
         ],
-        "pageviews": 1009
-    },
-    {
-        "query_id": "276_15",
-        "question": "Where is TusPark located?",
-        "answers": [
-            "Shanghai"
-        ],
-        "pageviews": 498
+        "pageviews": 3
     },
     {
         "query_id": "276_16",
@@ -125,15 +77,7 @@
         "answers": [
             "Leeds Dock"
         ],
-        "pageviews": 23453
-    },
-    {
-        "query_id": "276_17",
-        "question": "Where is Agony in the Garden located?",
-        "answers": [
-            "National Gallery"
-        ],
-        "pageviews": 8379
+        "pageviews": 33
     },
     {
         "query_id": "276_18",
@@ -141,7 +85,7 @@
         "answers": [
             "Saint-Germain-en-Laye"
         ],
-        "pageviews": 5409
+        "pageviews": 31
     },
     {
         "query_id": "276_19",
@@ -149,15 +93,7 @@
         "answers": [
             "Normandy"
         ],
-        "pageviews": 832683
-    },
-    {
-        "query_id": "276_20",
-        "question": "Where is Saint Sebastian located?",
-        "answers": [
-            "Madrid"
-        ],
-        "pageviews": 4840
+        "pageviews": 1589
     },
     {
         "query_id": "276_21",
@@ -165,7 +101,7 @@
         "answers": [
             "Papeete"
         ],
-        "pageviews": 9400
+        "pageviews": 11
     },
     {
         "query_id": "276_22",
@@ -173,7 +109,7 @@
         "answers": [
             "Vale of Glamorgan"
         ],
-        "pageviews": 5280
+        "pageviews": 6
     },
     {
         "query_id": "276_23",
@@ -181,7 +117,7 @@
         "answers": [
             "Uffizi"
         ],
-        "pageviews": 22664
+        "pageviews": 10
     },
     {
         "query_id": "276_24",
@@ -189,7 +125,7 @@
         "answers": [
             "Bari"
         ],
-        "pageviews": 8327
+        "pageviews": 9
     },
     {
         "query_id": "276_25",
@@ -197,7 +133,7 @@
         "answers": [
             "Santa Rosa"
         ],
-        "pageviews": 8577
+        "pageviews": 3
     },
     {
         "query_id": "276_26",
@@ -205,15 +141,7 @@
         "answers": [
             "Wellingborough railway station"
         ],
-        "pageviews": 1748
-    },
-    {
-        "query_id": "276_27",
-        "question": "Where is Lega Nord Friuli-Venezia Giulia located?",
-        "answers": [
-            "Friuli\u2013Venezia Giulia"
-        ],
-        "pageviews": 2301
+        "pageviews": 3
     },
     {
         "query_id": "276_28",
@@ -221,7 +149,7 @@
         "answers": [
             "Prestwick Golf Club"
         ],
-        "pageviews": 2520
+        "pageviews": 8
     },
     {
         "query_id": "276_29",
@@ -229,7 +157,7 @@
         "answers": [
             "De Montfort University"
         ],
-        "pageviews": 733
+        "pageviews": 1
     },
     {
         "query_id": "276_30",
@@ -237,7 +165,7 @@
         "answers": [
             "Tate Modern"
         ],
-        "pageviews": 12726
+        "pageviews": 1
     },
     {
         "query_id": "276_31",
@@ -245,15 +173,7 @@
         "answers": [
             "Sepang International Circuit"
         ],
-        "pageviews": 15296
-    },
-    {
-        "query_id": "276_32",
-        "question": "Where is St. Ursula Shrine located?",
-        "answers": [
-            "St. John's Hospital"
-        ],
-        "pageviews": 4445
+        "pageviews": 8
     },
     {
         "query_id": "276_33",
@@ -261,7 +181,7 @@
         "answers": [
             "Norwich"
         ],
-        "pageviews": 10189
+        "pageviews": 8
     },
     {
         "query_id": "276_34",
@@ -269,7 +189,7 @@
         "answers": [
             "Sebastian County"
         ],
-        "pageviews": 8960
+        "pageviews": 6
     },
     {
         "query_id": "276_35",
@@ -277,7 +197,7 @@
         "answers": [
             "Ahakista"
         ],
-        "pageviews": 1465
+        "pageviews": 1
     },
     {
         "query_id": "276_36",
@@ -285,7 +205,7 @@
         "answers": [
             "Warsaw"
         ],
-        "pageviews": 1781
+        "pageviews": 2
     },
     {
         "query_id": "276_37",
@@ -293,7 +213,7 @@
         "answers": [
             "Gamla stan"
         ],
-        "pageviews": 664
+        "pageviews": 3
     },
     {
         "query_id": "276_38",
@@ -301,7 +221,7 @@
         "answers": [
             "Finnea"
         ],
-        "pageviews": 1501
+        "pageviews": 1
     },
     {
         "query_id": "276_39",
@@ -309,15 +229,7 @@
         "answers": [
             "Dorsoduro"
         ],
-        "pageviews": 2284
-    },
-    {
-        "query_id": "276_40",
-        "question": "Where is Cook Statue located?",
-        "answers": [
-            "Victoria Square"
-        ],
-        "pageviews": 1822
+        "pageviews": 1
     },
     {
         "query_id": "276_41",
@@ -325,7 +237,7 @@
         "answers": [
             "Autodromo Nazionale Monza"
         ],
-        "pageviews": 12669
+        "pageviews": 9
     },
     {
         "query_id": "276_42",
@@ -333,7 +245,7 @@
         "answers": [
             "Lake District"
         ],
-        "pageviews": 5330
+        "pageviews": 7
     },
     {
         "query_id": "276_43",
@@ -341,15 +253,7 @@
         "answers": [
             "London Stadium"
         ],
-        "pageviews": 6210
-    },
-    {
-        "query_id": "276_44",
-        "question": "Where is Samara Valles located?",
-        "answers": [
-            "Margaritifer Sinus quadrangle"
-        ],
-        "pageviews": 1600
+        "pageviews": 41
     },
     {
         "query_id": "276_45",
@@ -357,7 +261,7 @@
         "answers": [
             "Saint-Omer"
         ],
-        "pageviews": 7107
+        "pageviews": 9
     },
     {
         "query_id": "276_46",
@@ -365,7 +269,7 @@
         "answers": [
             "Keams Canyon"
         ],
-        "pageviews": 2013
+        "pageviews": 4
     },
     {
         "query_id": "276_47",
@@ -373,7 +277,7 @@
         "answers": [
             "RusSki Gorki Jumping Center"
         ],
-        "pageviews": 5209
+        "pageviews": 2
     },
     {
         "query_id": "276_48",
@@ -381,7 +285,7 @@
         "answers": [
             "Arsuf"
         ],
-        "pageviews": 90790
+        "pageviews": 30
     },
     {
         "query_id": "276_49",
@@ -389,7 +293,7 @@
         "answers": [
             "Vienna"
         ],
-        "pageviews": 12612
+        "pageviews": 51
     },
     {
         "query_id": "276_50",
@@ -397,7 +301,7 @@
         "answers": [
             "Ball State University"
         ],
-        "pageviews": 2372
+        "pageviews": 1
     },
     {
         "query_id": "276_51",
@@ -405,7 +309,7 @@
         "answers": [
             "Cairo"
         ],
-        "pageviews": 6553
+        "pageviews": 5
     },
     {
         "query_id": "276_52",
@@ -413,7 +317,7 @@
         "answers": [
             "Sumatra"
         ],
-        "pageviews": 27533
+        "pageviews": 33
     },
     {
         "query_id": "276_53",
@@ -421,15 +325,7 @@
         "answers": [
             "National Gallery of Art"
         ],
-        "pageviews": 6613
-    },
-    {
-        "query_id": "276_54",
-        "question": "Where is 2006 Nestea European Championship Final located?",
-        "answers": [
-            "The Hague"
-        ],
-        "pageviews": 0
+        "pageviews": 3
     },
     {
         "query_id": "276_55",
@@ -437,7 +333,7 @@
         "answers": [
             "Phaethontis quadrangle"
         ],
-        "pageviews": 796
+        "pageviews": 1
     },
     {
         "query_id": "276_56",
@@ -445,7 +341,7 @@
         "answers": [
             "Melbourne Grand Prix Circuit"
         ],
-        "pageviews": 18867
+        "pageviews": 12
     },
     {
         "query_id": "276_57",
@@ -453,7 +349,7 @@
         "answers": [
             "Islands Brygge"
         ],
-        "pageviews": 2555
+        "pageviews": 5
     },
     {
         "query_id": "276_58",
@@ -461,23 +357,7 @@
         "answers": [
             "Fyrisvellir"
         ],
-        "pageviews": 15186
-    },
-    {
-        "query_id": "276_59",
-        "question": "Where is Pearce Ferry Airport located?",
-        "answers": [
-            "Mohave County"
-        ],
-        "pageviews": 1802
-    },
-    {
-        "query_id": "276_60",
-        "question": "Where is Battle of Dogger Bank located?",
-        "answers": [
-            "Dogger Bank"
-        ],
-        "pageviews": 3543
+        "pageviews": 10
     },
     {
         "query_id": "276_61",
@@ -485,7 +365,7 @@
         "answers": [
             "Bolivia"
         ],
-        "pageviews": 3275
+        "pageviews": 18
     },
     {
         "query_id": "276_62",
@@ -493,7 +373,7 @@
         "answers": [
             "Muirfield"
         ],
-        "pageviews": 13472
+        "pageviews": 5
     },
     {
         "query_id": "276_63",
@@ -501,31 +381,7 @@
         "answers": [
             "Flemingsberg"
         ],
-        "pageviews": 10254
-    },
-    {
-        "query_id": "276_64",
-        "question": "Where is The Nobleman with his Hand on his Chest located?",
-        "answers": [
-            "Museo del Prado"
-        ],
-        "pageviews": 8669
-    },
-    {
-        "query_id": "276_65",
-        "question": "Where is Southern Pacific 1237 located?",
-        "answers": [
-            "Salinas"
-        ],
-        "pageviews": 1478
-    },
-    {
-        "query_id": "276_66",
-        "question": "Where is George III and the River Thames located?",
-        "answers": [
-            "Somerset House"
-        ],
-        "pageviews": 3542
+        "pageviews": 21
     },
     {
         "query_id": "276_67",
@@ -533,7 +389,7 @@
         "answers": [
             "Alma River"
         ],
-        "pageviews": 50011
+        "pageviews": 33
     },
     {
         "query_id": "276_68",
@@ -542,15 +398,7 @@
             "Comerica Park",
             "Oracle Park"
         ],
-        "pageviews": 149673
-    },
-    {
-        "query_id": "276_69",
-        "question": "Where is Lake Suttonfield located?",
-        "answers": [
-            "Glen Ellen"
-        ],
-        "pageviews": 1614
+        "pageviews": 130
     },
     {
         "query_id": "276_70",
@@ -558,15 +406,7 @@
         "answers": [
             "Melbourne Grand Prix Circuit"
         ],
-        "pageviews": 45971
-    },
-    {
-        "query_id": "276_71",
-        "question": "Where is murder of Connie Franklin located?",
-        "answers": [
-            "Arkansas"
-        ],
-        "pageviews": 2505
+        "pageviews": 47
     },
     {
         "query_id": "276_72",
@@ -574,7 +414,7 @@
         "answers": [
             "Charing Cross railway station"
         ],
-        "pageviews": 2975
+        "pageviews": 2
     },
     {
         "query_id": "276_73",
@@ -582,7 +422,7 @@
         "answers": [
             "Lund"
         ],
-        "pageviews": 1503
+        "pageviews": 1
     },
     {
         "query_id": "276_74",
@@ -590,7 +430,7 @@
         "answers": [
             "Dolby Theatre"
         ],
-        "pageviews": 205465
+        "pageviews": 94
     },
     {
         "query_id": "276_75",
@@ -598,7 +438,7 @@
         "answers": [
             "Scheemda"
         ],
-        "pageviews": 955
+        "pageviews": 8
     },
     {
         "query_id": "276_76",
@@ -606,7 +446,7 @@
         "answers": [
             "Museo del Prado"
         ],
-        "pageviews": 16269
+        "pageviews": 1
     },
     {
         "query_id": "276_77",
@@ -614,15 +454,7 @@
         "answers": [
             "Coprates quadrangle"
         ],
-        "pageviews": 3354
-    },
-    {
-        "query_id": "276_78",
-        "question": "Where is Shakespeare located?",
-        "answers": [
-            "Shakespeare quadrangle"
-        ],
-        "pageviews": 1065
+        "pageviews": 5
     },
     {
         "query_id": "276_79",
@@ -630,15 +462,7 @@
         "answers": [
             "Shwedagon Pagoda"
         ],
-        "pageviews": 2035
-    },
-    {
-        "query_id": "276_80",
-        "question": "Where is Kuhl & Leyton located?",
-        "answers": [
-            "Beijing"
-        ],
-        "pageviews": 372
+        "pageviews": 3
     },
     {
         "query_id": "276_81",
@@ -646,7 +470,7 @@
         "answers": [
             "Wittstock/Dosse"
         ],
-        "pageviews": 10836
+        "pageviews": 18
     },
     {
         "query_id": "276_82",
@@ -654,7 +478,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 3243
+        "pageviews": 45
     },
     {
         "query_id": "276_83",
@@ -662,15 +486,7 @@
         "answers": [
             "Atlanta"
         ],
-        "pageviews": 13194
-    },
-    {
-        "query_id": "276_84",
-        "question": "Where is Northern Arizona Prospectors located?",
-        "answers": [
-            "Prescott Valley"
-        ],
-        "pageviews": 402
+        "pageviews": 32
     },
     {
         "query_id": "276_85",
@@ -678,7 +494,7 @@
         "answers": [
             "Antelope Island State Park"
         ],
-        "pageviews": 4506
+        "pageviews": 14
     },
     {
         "query_id": "276_86",
@@ -686,7 +502,7 @@
         "answers": [
             "Berkel en Rodenrijs"
         ],
-        "pageviews": 837
+        "pageviews": 1
     },
     {
         "query_id": "276_87",
@@ -694,15 +510,7 @@
         "answers": [
             "Akkrum"
         ],
-        "pageviews": 1019
-    },
-    {
-        "query_id": "276_88",
-        "question": "Where is January 2010 attack in central Kabul located?",
-        "answers": [
-            "Kabul"
-        ],
-        "pageviews": 2953
+        "pageviews": 1
     },
     {
         "query_id": "276_89",
@@ -710,7 +518,7 @@
         "answers": [
             "Passendale"
         ],
-        "pageviews": 454510
+        "pageviews": 668
     },
     {
         "query_id": "276_90",
@@ -718,7 +526,7 @@
         "answers": [
             "Lake District"
         ],
-        "pageviews": 3607
+        "pageviews": 7
     },
     {
         "query_id": "276_91",
@@ -726,7 +534,7 @@
         "answers": [
             "Geneva"
         ],
-        "pageviews": 50478
+        "pageviews": 16
     },
     {
         "query_id": "276_92",
@@ -734,7 +542,7 @@
         "answers": [
             "Newry"
         ],
-        "pageviews": 3120
+        "pageviews": 2
     },
     {
         "query_id": "276_93",
@@ -742,7 +550,7 @@
         "answers": [
             "Musa Qala"
         ],
-        "pageviews": 15653
+        "pageviews": 11
     },
     {
         "query_id": "276_94",
@@ -750,7 +558,7 @@
         "answers": [
             "Baltimore Country Club"
         ],
-        "pageviews": 2675
+        "pageviews": 27
     },
     {
         "query_id": "276_95",
@@ -758,15 +566,7 @@
         "answers": [
             "Trebbia"
         ],
-        "pageviews": 14586
-    },
-    {
-        "query_id": "276_96",
-        "question": "Where is 1985 Southeast Asian Games located?",
-        "answers": [
-            "Bangkok"
-        ],
-        "pageviews": 73
+        "pageviews": 27
     },
     {
         "query_id": "276_97",
@@ -774,7 +574,7 @@
         "answers": [
             "Melbourne Cricket Ground"
         ],
-        "pageviews": 71341
+        "pageviews": 41
     },
     {
         "query_id": "276_98",
@@ -782,7 +582,7 @@
         "answers": [
             "Chicago Golf Club"
         ],
-        "pageviews": 4917
+        "pageviews": 32
     },
     {
         "query_id": "276_99",
@@ -790,7 +590,7 @@
         "answers": [
             "Harvard Divinity School"
         ],
-        "pageviews": 7599
+        "pageviews": 7
     },
     {
         "query_id": "276_100",
@@ -798,7 +598,7 @@
         "answers": [
             "Saldanha Bay"
         ],
-        "pageviews": 5001
+        "pageviews": 1
     },
     {
         "query_id": "276_101",
@@ -806,7 +606,7 @@
         "answers": [
             "Creation Museum"
         ],
-        "pageviews": 33119
+        "pageviews": 8
     },
     {
         "query_id": "276_102",
@@ -814,7 +614,7 @@
         "answers": [
             "Waterberg Plateau Park"
         ],
-        "pageviews": 17918
+        "pageviews": 15
     },
     {
         "query_id": "276_103",
@@ -822,7 +622,7 @@
         "answers": [
             "Crete"
         ],
-        "pageviews": 4762
+        "pageviews": 23
     },
     {
         "query_id": "276_104",
@@ -830,7 +630,7 @@
         "answers": [
             "Talavera de la Reina"
         ],
-        "pageviews": 56226
+        "pageviews": 188
     },
     {
         "query_id": "276_105",
@@ -838,15 +638,7 @@
         "answers": [
             "Pripyat"
         ],
-        "pageviews": 6458443
-    },
-    {
-        "query_id": "276_106",
-        "question": "Where is Naval Battle of Tarragona located?",
-        "answers": [
-            "Tarragona"
-        ],
-        "pageviews": 350
+        "pageviews": 798
     },
     {
         "query_id": "276_107",
@@ -854,15 +646,7 @@
         "answers": [
             "Indianapolis Motor Speedway"
         ],
-        "pageviews": 22461
-    },
-    {
-        "query_id": "276_108",
-        "question": "Where is Frances Elizabeth Willard (relief) located?",
-        "answers": [
-            "Indiana State House"
-        ],
-        "pageviews": 803
+        "pageviews": 18
     },
     {
         "query_id": "276_109",
@@ -870,7 +654,7 @@
         "answers": [
             "Lake District"
         ],
-        "pageviews": 2094
+        "pageviews": 9
     },
     {
         "query_id": "276_110",
@@ -878,7 +662,7 @@
         "answers": [
             "Corbeil-Essonnes"
         ],
-        "pageviews": 3339
+        "pageviews": 11
     },
     {
         "query_id": "276_111",
@@ -886,7 +670,7 @@
         "answers": [
             "Gold Coast"
         ],
-        "pageviews": 121065
+        "pageviews": 33
     },
     {
         "query_id": "276_112",
@@ -894,7 +678,7 @@
         "answers": [
             "Kalmar"
         ],
-        "pageviews": 8210
+        "pageviews": 4
     },
     {
         "query_id": "276_113",
@@ -902,7 +686,7 @@
         "answers": [
             "Thammasat University"
         ],
-        "pageviews": 67397
+        "pageviews": 3
     },
     {
         "query_id": "276_114",
@@ -910,7 +694,7 @@
         "answers": [
             "Angaur"
         ],
-        "pageviews": 40108
+        "pageviews": 22
     },
     {
         "query_id": "276_115",
@@ -918,15 +702,7 @@
         "answers": [
             "Belgrade"
         ],
-        "pageviews": 15195
-    },
-    {
-        "query_id": "276_116",
-        "question": "Where is Sonoma Valley Airport located?",
-        "answers": [
-            "Schellville"
-        ],
-        "pageviews": 2279
+        "pageviews": 58
     },
     {
         "query_id": "276_117",
@@ -934,7 +710,7 @@
         "answers": [
             "Gothenburg"
         ],
-        "pageviews": 969
+        "pageviews": 1
     },
     {
         "query_id": "276_118",
@@ -942,7 +718,7 @@
         "answers": [
             "Stockholm"
         ],
-        "pageviews": 32734
+        "pageviews": 86
     },
     {
         "query_id": "276_119",
@@ -950,7 +726,7 @@
         "answers": [
             "Thomas Jefferson University"
         ],
-        "pageviews": 939
+        "pageviews": 1
     },
     {
         "query_id": "276_120",
@@ -959,7 +735,7 @@
             "Prussia",
             "East Prussia"
         ],
-        "pageviews": 175052
+        "pageviews": 242
     },
     {
         "query_id": "276_121",
@@ -967,7 +743,7 @@
         "answers": [
             "Bengaluru"
         ],
-        "pageviews": 5849
+        "pageviews": 13
     },
     {
         "query_id": "276_122",
@@ -975,7 +751,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 17279
+        "pageviews": 3
     },
     {
         "query_id": "276_123",
@@ -983,7 +759,7 @@
         "answers": [
             "Water Mill"
         ],
-        "pageviews": 7844
+        "pageviews": 48
     },
     {
         "query_id": "276_124",
@@ -991,7 +767,7 @@
         "answers": [
             "Inverurie"
         ],
-        "pageviews": 3874
+        "pageviews": 10
     },
     {
         "query_id": "276_125",
@@ -999,7 +775,7 @@
         "answers": [
             "MetLife Stadium"
         ],
-        "pageviews": 864180
+        "pageviews": 393
     },
     {
         "query_id": "276_126",
@@ -1007,7 +783,7 @@
         "answers": [
             "Kingston upon Hull"
         ],
-        "pageviews": 1074
+        "pageviews": 3
     },
     {
         "query_id": "276_128",
@@ -1015,7 +791,7 @@
         "answers": [
             "Glen View Club"
         ],
-        "pageviews": 2234
+        "pageviews": 6
     },
     {
         "query_id": "276_129",
@@ -1023,7 +799,7 @@
         "answers": [
             "Chicago Coliseum"
         ],
-        "pageviews": 25201
+        "pageviews": 65
     },
     {
         "query_id": "276_130",
@@ -1031,15 +807,7 @@
         "answers": [
             "Dairi"
         ],
-        "pageviews": 20462
-    },
-    {
-        "query_id": "276_132",
-        "question": "Where is December 2010 Abuja attack located?",
-        "answers": [
-            "Abuja"
-        ],
-        "pageviews": 1588
+        "pageviews": 28
     },
     {
         "query_id": "276_133",
@@ -1047,15 +815,7 @@
         "answers": [
             "Syria"
         ],
-        "pageviews": 30081
-    },
-    {
-        "query_id": "276_134",
-        "question": "Where is Ohio State University, Mansfield Campus located?",
-        "answers": [
-            "Mansfield"
-        ],
-        "pageviews": 3674
+        "pageviews": 16
     },
     {
         "query_id": "276_135",
@@ -1063,7 +823,7 @@
         "answers": [
             "Thessaloniki"
         ],
-        "pageviews": 13426
+        "pageviews": 7
     },
     {
         "query_id": "276_136",
@@ -1071,7 +831,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 126764
+        "pageviews": 65
     },
     {
         "query_id": "276_137",
@@ -1079,7 +839,7 @@
         "answers": [
             "Daugavpils"
         ],
-        "pageviews": 12219
+        "pageviews": 17
     },
     {
         "query_id": "276_138",
@@ -1087,7 +847,7 @@
         "answers": [
             "Corydon"
         ],
-        "pageviews": 16125
+        "pageviews": 20
     },
     {
         "query_id": "276_139",
@@ -1095,23 +855,7 @@
         "answers": [
             "Augusta National Golf Club"
         ],
-        "pageviews": 80507
-    },
-    {
-        "query_id": "276_140",
-        "question": "Where is 1987 Hipercor bombing located?",
-        "answers": [
-            "Barcelona"
-        ],
-        "pageviews": 12721
-    },
-    {
-        "query_id": "276_141",
-        "question": "Where is 2001 FA Cup Final located?",
-        "answers": [
-            "Millennium Stadium"
-        ],
-        "pageviews": 0
+        "pageviews": 20
     },
     {
         "query_id": "276_142",
@@ -1119,15 +863,7 @@
         "answers": [
             "Ibiza"
         ],
-        "pageviews": 2230
-    },
-    {
-        "query_id": "276_143",
-        "question": "Where is April 2010 Kohat bombings located?",
-        "answers": [
-            "Kohat"
-        ],
-        "pageviews": 1419
+        "pageviews": 1
     },
     {
         "query_id": "276_144",
@@ -1136,7 +872,7 @@
             "Royal Roads Military College",
             "Royal Roads University"
         ],
-        "pageviews": 42617
+        "pageviews": 19
     },
     {
         "query_id": "276_145",
@@ -1144,7 +880,7 @@
         "answers": [
             "Dalmatia"
         ],
-        "pageviews": 17630
+        "pageviews": 7
     },
     {
         "query_id": "276_146",
@@ -1152,7 +888,7 @@
         "answers": [
             "Daejeon"
         ],
-        "pageviews": 45089
+        "pageviews": 42
     },
     {
         "query_id": "276_147",
@@ -1160,23 +896,7 @@
         "answers": [
             "Petten"
         ],
-        "pageviews": 12188
-    },
-    {
-        "query_id": "276_148",
-        "question": "Where is Drayton Arms located?",
-        "answers": [
-            "Earl's Court"
-        ],
-        "pageviews": 1742
-    },
-    {
-        "query_id": "276_149",
-        "question": "Where is Carll House located?",
-        "answers": [
-            "Dix Hills"
-        ],
-        "pageviews": 765
+        "pageviews": 10
     },
     {
         "query_id": "276_150",
@@ -1184,7 +904,7 @@
         "answers": [
             "Alton Towers"
         ],
-        "pageviews": 1952
+        "pageviews": 1
     },
     {
         "query_id": "276_151",
@@ -1192,23 +912,7 @@
         "answers": [
             "Augusta National Golf Club"
         ],
-        "pageviews": 9421
-    },
-    {
-        "query_id": "276_152",
-        "question": "Where is figure skating at the 2005 European Youth Olympic Festival located?",
-        "answers": [
-            "Monthey"
-        ],
-        "pageviews": 520
-    },
-    {
-        "query_id": "276_153",
-        "question": "Where is Flora located?",
-        "answers": [
-            "Hermitage Museum"
-        ],
-        "pageviews": 7606
+        "pageviews": 12
     },
     {
         "query_id": "276_154",
@@ -1216,15 +920,7 @@
         "answers": [
             "Swansea"
         ],
-        "pageviews": 805
-    },
-    {
-        "query_id": "276_155",
-        "question": "Where is Meadow Fire located?",
-        "answers": [
-            "Yosemite National Park"
-        ],
-        "pageviews": 2984
+        "pageviews": 2
     },
     {
         "query_id": "276_156",
@@ -1232,15 +928,7 @@
         "answers": [
             "Spa-Francorchamps"
         ],
-        "pageviews": 11726
-    },
-    {
-        "query_id": "276_157",
-        "question": "Where is Saint Bernard Church located?",
-        "answers": [
-            "Ubachsberg"
-        ],
-        "pageviews": 625
+        "pageviews": 16
     },
     {
         "query_id": "276_158",
@@ -1248,7 +936,7 @@
         "answers": [
             "Vaslui"
         ],
-        "pageviews": 46659
+        "pageviews": 27
     },
     {
         "query_id": "276_159",
@@ -1256,23 +944,7 @@
         "answers": [
             "Dorothy Chandler Pavilion"
         ],
-        "pageviews": 148708
-    },
-    {
-        "query_id": "276_160",
-        "question": "Where is nuclear pasta located?",
-        "answers": [
-            "neutron star"
-        ],
-        "pageviews": 115453
-    },
-    {
-        "query_id": "276_161",
-        "question": "Where is 1990 UK Championship located?",
-        "answers": [
-            "Preston Guild Hall"
-        ],
-        "pageviews": 2925
+        "pageviews": 68
     },
     {
         "query_id": "276_162",
@@ -1280,7 +952,7 @@
         "answers": [
             "Spa-Francorchamps"
         ],
-        "pageviews": 25539
+        "pageviews": 24
     },
     {
         "query_id": "276_163",
@@ -1288,7 +960,7 @@
         "answers": [
             "Gamla stan"
         ],
-        "pageviews": 751
+        "pageviews": 3
     },
     {
         "query_id": "276_164",
@@ -1296,7 +968,7 @@
         "answers": [
             "Monte Cassino"
         ],
-        "pageviews": 351875
+        "pageviews": 383
     },
     {
         "query_id": "276_165",
@@ -1304,7 +976,7 @@
         "answers": [
             "Haman County"
         ],
-        "pageviews": 4572
+        "pageviews": 4
     },
     {
         "query_id": "276_166",
@@ -1312,7 +984,7 @@
         "answers": [
             "Royan"
         ],
-        "pageviews": 1345
+        "pageviews": 7
     },
     {
         "query_id": "276_167",
@@ -1320,7 +992,7 @@
         "answers": [
             "Split"
         ],
-        "pageviews": 6444
+        "pageviews": 12
     },
     {
         "query_id": "276_168",
@@ -1328,7 +1000,7 @@
         "answers": [
             "Mayfair"
         ],
-        "pageviews": 4497
+        "pageviews": 3
     },
     {
         "query_id": "276_169",
@@ -1336,7 +1008,7 @@
         "answers": [
             "Haifa"
         ],
-        "pageviews": 10097
+        "pageviews": 10
     },
     {
         "query_id": "276_170",
@@ -1344,7 +1016,7 @@
         "answers": [
             "Spa-Francorchamps"
         ],
-        "pageviews": 29805
+        "pageviews": 38
     },
     {
         "query_id": "276_171",
@@ -1352,7 +1024,7 @@
         "answers": [
             "Hellas quadrangle"
         ],
-        "pageviews": 1468
+        "pageviews": 7
     },
     {
         "query_id": "276_172",
@@ -1360,7 +1032,7 @@
         "answers": [
             "Athens"
         ],
-        "pageviews": 56877
+        "pageviews": 46
     },
     {
         "query_id": "276_173",
@@ -1368,7 +1040,7 @@
         "answers": [
             "Aosta Valley"
         ],
-        "pageviews": 20075
+        "pageviews": 47
     },
     {
         "query_id": "276_174",
@@ -1376,7 +1048,7 @@
         "answers": [
             "Milwaukee Public Museum"
         ],
-        "pageviews": 1346
+        "pageviews": 1
     },
     {
         "query_id": "276_175",
@@ -1384,16 +1056,7 @@
         "answers": [
             "Cedynia"
         ],
-        "pageviews": 9572
-    },
-    {
-        "query_id": "276_176",
-        "question": "Where is Government Medical College, Banda located?",
-        "answers": [
-            "Uttar Pradesh",
-            "Banda district"
-        ],
-        "pageviews": 2134
+        "pageviews": 12
     },
     {
         "query_id": "276_177",
@@ -1401,7 +1064,7 @@
         "answers": [
             "Dateland"
         ],
-        "pageviews": 2956
+        "pageviews": 1
     },
     {
         "query_id": "276_178",
@@ -1409,15 +1072,7 @@
         "answers": [
             "Scheveningen"
         ],
-        "pageviews": 13570
-    },
-    {
-        "query_id": "276_179",
-        "question": "Where is The Brierwood Pipe (1944.524) located?",
-        "answers": [
-            "Smithsonian American Art Museum"
-        ],
-        "pageviews": 1589
+        "pageviews": 9
     },
     {
         "query_id": "276_180",
@@ -1425,7 +1080,7 @@
         "answers": [
             "National Gallery"
         ],
-        "pageviews": 1139
+        "pageviews": 3
     },
     {
         "query_id": "276_181",
@@ -1433,7 +1088,7 @@
         "answers": [
             "Circuit de Catalunya"
         ],
-        "pageviews": 11068
+        "pageviews": 6
     },
     {
         "query_id": "276_182",
@@ -1441,7 +1096,7 @@
         "answers": [
             "Rotterdam"
         ],
-        "pageviews": 4792
+        "pageviews": 6
     },
     {
         "query_id": "276_183",
@@ -1449,7 +1104,7 @@
         "answers": [
             "Indiana State House"
         ],
-        "pageviews": 1060
+        "pageviews": 1
     },
     {
         "query_id": "276_184",
@@ -1457,7 +1112,7 @@
         "answers": [
             "San Diego Convention Center"
         ],
-        "pageviews": 1148038
+        "pageviews": 71
     },
     {
         "query_id": "276_185",
@@ -1465,7 +1120,7 @@
         "answers": [
             "Clarendon Laboratory"
         ],
-        "pageviews": 68525
+        "pageviews": 9
     },
     {
         "query_id": "276_186",
@@ -1473,7 +1128,7 @@
         "answers": [
             "Dunkirk"
         ],
-        "pageviews": 568392
+        "pageviews": 347
     },
     {
         "query_id": "276_187",
@@ -1481,7 +1136,7 @@
         "answers": [
             "Thessaloniki"
         ],
-        "pageviews": 4464
+        "pageviews": 3
     },
     {
         "query_id": "276_188",
@@ -1489,15 +1144,7 @@
         "answers": [
             "Santa Rosa"
         ],
-        "pageviews": 3981
-    },
-    {
-        "query_id": "276_189",
-        "question": "Where is Portrait of a Lady located?",
-        "answers": [
-            "National Gallery of Art"
-        ],
-        "pageviews": 15313
+        "pageviews": 2
     },
     {
         "query_id": "276_190",
@@ -1505,7 +1152,7 @@
         "answers": [
             "Melbourne Cricket Ground"
         ],
-        "pageviews": 65647
+        "pageviews": 45
     },
     {
         "query_id": "276_191",
@@ -1513,7 +1160,7 @@
         "answers": [
             "Lake District"
         ],
-        "pageviews": 5827
+        "pageviews": 9
     },
     {
         "query_id": "276_192",
@@ -1521,7 +1168,7 @@
         "answers": [
             "Circuit Zolder"
         ],
-        "pageviews": 13877
+        "pageviews": 15
     },
     {
         "query_id": "276_193",
@@ -1529,7 +1176,7 @@
         "answers": [
             "Epcot"
         ],
-        "pageviews": 6257
+        "pageviews": 6
     },
     {
         "query_id": "276_194",
@@ -1537,15 +1184,7 @@
         "answers": [
             "Los Angeles County"
         ],
-        "pageviews": 32427
-    },
-    {
-        "query_id": "276_195",
-        "question": "Where is Portrait of Vincenzo Anastagi located?",
-        "answers": [
-            "The Frick Collection"
-        ],
-        "pageviews": 1352
+        "pageviews": 42
     },
     {
         "query_id": "276_196",
@@ -1553,23 +1192,7 @@
         "answers": [
             "Ethiopia"
         ],
-        "pageviews": 438624
-    },
-    {
-        "query_id": "276_197",
-        "question": "Where is P\u00e5skbergsvallen located?",
-        "answers": [
-            "Varberg"
-        ],
-        "pageviews": 4916
-    },
-    {
-        "query_id": "276_198",
-        "question": "Where is The Subsiding of the Waters of the Deluge located?",
-        "answers": [
-            "Smithsonian American Art Museum"
-        ],
-        "pageviews": 2827
+        "pageviews": 283
     },
     {
         "query_id": "276_199",
@@ -1577,7 +1200,7 @@
         "answers": [
             "United States of America"
         ],
-        "pageviews": 4087
+        "pageviews": 2
     },
     {
         "query_id": "276_200",
@@ -1585,15 +1208,7 @@
         "answers": [
             "Spring Street Financial District"
         ],
-        "pageviews": 6289
-    },
-    {
-        "query_id": "276_201",
-        "question": "Where is Astronomical Observatory of Trieste located?",
-        "answers": [
-            "Trieste"
-        ],
-        "pageviews": 1922
+        "pageviews": 4
     },
     {
         "query_id": "276_202",
@@ -1601,7 +1216,7 @@
         "answers": [
             "Montiel"
         ],
-        "pageviews": 2443
+        "pageviews": 1
     },
     {
         "query_id": "276_203",
@@ -1609,15 +1224,7 @@
         "answers": [
             "The Phillips Collection"
         ],
-        "pageviews": 3036
-    },
-    {
-        "query_id": "276_204",
-        "question": "Where is George A. Strout House located?",
-        "answers": [
-            "Sebastopol"
-        ],
-        "pageviews": 780
+        "pageviews": 3
     },
     {
         "query_id": "276_205",
@@ -1625,15 +1232,7 @@
         "answers": [
             "Java"
         ],
-        "pageviews": 33324
-    },
-    {
-        "query_id": "276_206",
-        "question": "Where is 2013 Etajima stabbing located?",
-        "answers": [
-            "Etajima"
-        ],
-        "pageviews": 2458
+        "pageviews": 72
     },
     {
         "query_id": "276_207",
@@ -1641,7 +1240,7 @@
         "answers": [
             "Yorkdale Shopping Centre"
         ],
-        "pageviews": 6301
+        "pageviews": 3
     },
     {
         "query_id": "276_208",
@@ -1649,7 +1248,7 @@
         "answers": [
             "Stari Slankamen"
         ],
-        "pageviews": 13336
+        "pageviews": 21
     },
     {
         "query_id": "276_209",
@@ -1657,7 +1256,7 @@
         "answers": [
             "Booby Island"
         ],
-        "pageviews": 2118
+        "pageviews": 6
     },
     {
         "query_id": "276_210",
@@ -1665,15 +1264,7 @@
         "answers": [
             "Antwerp"
         ],
-        "pageviews": 10977
-    },
-    {
-        "query_id": "276_211",
-        "question": "Where is Women's World Chess Championship 1937 located?",
-        "answers": [
-            "Stockholm"
-        ],
-        "pageviews": 99
+        "pageviews": 18
     },
     {
         "query_id": "276_212",
@@ -1681,7 +1272,7 @@
         "answers": [
             "Museo del Prado"
         ],
-        "pageviews": 101899
+        "pageviews": 13
     },
     {
         "query_id": "276_213",
@@ -1689,7 +1280,7 @@
         "answers": [
             "Family Circle Tennis Center"
         ],
-        "pageviews": 1796
+        "pageviews": 28
     },
     {
         "query_id": "276_214",
@@ -1697,7 +1288,7 @@
         "answers": [
             "Polotsk"
         ],
-        "pageviews": 9430
+        "pageviews": 20
     },
     {
         "query_id": "276_215",
@@ -1705,15 +1296,7 @@
         "answers": [
             "Tokyo"
         ],
-        "pageviews": 1052
-    },
-    {
-        "query_id": "276_216",
-        "question": "Where is Blawith Knott located?",
-        "answers": [
-            "Lake District"
-        ],
-        "pageviews": 736
+        "pageviews": 1
     },
     {
         "query_id": "276_217",
@@ -1721,15 +1304,7 @@
         "answers": [
             "Bahrain International Circuit"
         ],
-        "pageviews": 18794
-    },
-    {
-        "query_id": "276_218",
-        "question": "Where is Canada Soccer Hall of Fame located?",
-        "answers": [
-            "Vaughan"
-        ],
-        "pageviews": 4244
+        "pageviews": 31
     },
     {
         "query_id": "276_219",
@@ -1737,7 +1312,7 @@
         "answers": [
             "Soma"
         ],
-        "pageviews": 23150
+        "pageviews": 22
     },
     {
         "query_id": "276_220",
@@ -1745,7 +1320,7 @@
         "answers": [
             "Norg"
         ],
-        "pageviews": 855
+        "pageviews": 1
     },
     {
         "query_id": "276_221",
@@ -1753,7 +1328,7 @@
         "answers": [
             "Gila Bend"
         ],
-        "pageviews": 1941
+        "pageviews": 1
     },
     {
         "query_id": "276_222",
@@ -1761,7 +1336,7 @@
         "answers": [
             "Amsterdam"
         ],
-        "pageviews": 14775
+        "pageviews": 3
     },
     {
         "query_id": "276_223",
@@ -1769,7 +1344,7 @@
         "answers": [
             "Lyceum Theatre"
         ],
-        "pageviews": 7283
+        "pageviews": 2
     },
     {
         "query_id": "276_224",
@@ -1777,7 +1352,7 @@
         "answers": [
             "Las Palmas de Gran Canaria"
         ],
-        "pageviews": 2798
+        "pageviews": 10
     },
     {
         "query_id": "276_225",
@@ -1785,15 +1360,7 @@
         "answers": [
             "San Pablo Bay National Wildlife Refuge"
         ],
-        "pageviews": 3311
-    },
-    {
-        "query_id": "276_226",
-        "question": "Where is Town Hall, De Rijp located?",
-        "answers": [
-            "De Rijp"
-        ],
-        "pageviews": 0
+        "pageviews": 19
     },
     {
         "query_id": "276_227",
@@ -1801,15 +1368,7 @@
         "answers": [
             "Tunis"
         ],
-        "pageviews": 35088
-    },
-    {
-        "query_id": "276_228",
-        "question": "Where is 1873 FA Cup Final located?",
-        "answers": [
-            "Lillie Bridge Grounds"
-        ],
-        "pageviews": 0
+        "pageviews": 43
     },
     {
         "query_id": "276_229",
@@ -1817,7 +1376,7 @@
         "answers": [
             "Spa-Francorchamps"
         ],
-        "pageviews": 18392
+        "pageviews": 15
     },
     {
         "query_id": "276_230",
@@ -1825,15 +1384,7 @@
         "answers": [
             "Temple Mount"
         ],
-        "pageviews": 294625
-    },
-    {
-        "query_id": "276_231",
-        "question": "Where is 2012 United States Olympic Trials in Diving located?",
-        "answers": [
-            "Federal Way"
-        ],
-        "pageviews": 498
+        "pageviews": 671
     },
     {
         "query_id": "276_232",
@@ -1841,7 +1392,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 109981
+        "pageviews": 51
     },
     {
         "query_id": "276_233",
@@ -1849,15 +1400,7 @@
         "answers": [
             "Louisville Waterfront Park"
         ],
-        "pageviews": 1264
-    },
-    {
-        "query_id": "276_234",
-        "question": "Where is 2008 Exeter bombing located?",
-        "answers": [
-            "Exeter"
-        ],
-        "pageviews": 9771
+        "pageviews": 2
     },
     {
         "query_id": "276_235",
@@ -1865,7 +1408,7 @@
         "answers": [
             "Circuit de Nevers Magny-Cours"
         ],
-        "pageviews": 9740
+        "pageviews": 5
     },
     {
         "query_id": "276_236",
@@ -1873,7 +1416,7 @@
         "answers": [
             "Bacchus Marsh"
         ],
-        "pageviews": 2834
+        "pageviews": 6
     },
     {
         "query_id": "276_237",
@@ -1881,7 +1424,7 @@
         "answers": [
             "Whirlpool Galaxy"
         ],
-        "pageviews": 1303
+        "pageviews": 2
     },
     {
         "query_id": "276_238",
@@ -1889,7 +1432,7 @@
         "answers": [
             "Anatolia"
         ],
-        "pageviews": 11379
+        "pageviews": 14
     },
     {
         "query_id": "276_239",
@@ -1897,7 +1440,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 26503
+        "pageviews": 375
     },
     {
         "query_id": "276_240",
@@ -1905,7 +1448,7 @@
         "answers": [
             "Circuit de Monaco"
         ],
-        "pageviews": 10639
+        "pageviews": 10
     },
     {
         "query_id": "276_241",
@@ -1913,7 +1456,7 @@
         "answers": [
             "Richmond Olympic Oval"
         ],
-        "pageviews": 1817
+        "pageviews": 9
     },
     {
         "query_id": "276_242",
@@ -1921,7 +1464,7 @@
         "answers": [
             "Goodwood House"
         ],
-        "pageviews": 52902
+        "pageviews": 143
     },
     {
         "query_id": "276_243",
@@ -1929,7 +1472,7 @@
         "answers": [
             "Grand Canyon National Park"
         ],
-        "pageviews": 7459
+        "pageviews": 7
     },
     {
         "query_id": "276_244",
@@ -1937,7 +1480,7 @@
         "answers": [
             "Gamla stan"
         ],
-        "pageviews": 876
+        "pageviews": 10
     },
     {
         "query_id": "276_245",
@@ -1945,7 +1488,7 @@
         "answers": [
             "Arizona"
         ],
-        "pageviews": 1935
+        "pageviews": 1
     },
     {
         "query_id": "276_246",
@@ -1953,7 +1496,7 @@
         "answers": [
             "Arena Birmingham"
         ],
-        "pageviews": 97367
+        "pageviews": 194
     },
     {
         "query_id": "276_247",
@@ -1961,7 +1504,7 @@
         "answers": [
             "Grand Palais"
         ],
-        "pageviews": 8471
+        "pageviews": 18
     },
     {
         "query_id": "276_248",
@@ -1969,7 +1512,7 @@
         "answers": [
             "Ghent"
         ],
-        "pageviews": 225510
+        "pageviews": 404
     },
     {
         "query_id": "276_249",
@@ -1977,7 +1520,7 @@
         "answers": [
             "Noachis quadrangle"
         ],
-        "pageviews": 2144
+        "pageviews": 2
     },
     {
         "query_id": "276_250",
@@ -1985,15 +1528,7 @@
         "answers": [
             "Roman Forum"
         ],
-        "pageviews": 20587
-    },
-    {
-        "query_id": "276_251",
-        "question": "Where is Scottish devolution referendum of 1997 located?",
-        "answers": [
-            "Scotland"
-        ],
-        "pageviews": 46071
+        "pageviews": 8
     },
     {
         "query_id": "276_252",
@@ -2001,7 +1536,7 @@
         "answers": [
             "Prestwick Golf Club"
         ],
-        "pageviews": 3898
+        "pageviews": 5
     },
     {
         "query_id": "276_253",
@@ -2009,7 +1544,7 @@
         "answers": [
             "Thessaloniki"
         ],
-        "pageviews": 4162
+        "pageviews": 12
     },
     {
         "query_id": "276_254",
@@ -2017,7 +1552,7 @@
         "answers": [
             "Gallipoli"
         ],
-        "pageviews": 33269
+        "pageviews": 74
     },
     {
         "query_id": "276_255",
@@ -2025,7 +1560,7 @@
         "answers": [
             "Langport"
         ],
-        "pageviews": 16640
+        "pageviews": 29
     },
     {
         "query_id": "276_256",
@@ -2033,7 +1568,7 @@
         "answers": [
             "National Mall"
         ],
-        "pageviews": 12406
+        "pageviews": 14
     },
     {
         "query_id": "276_257",
@@ -2041,15 +1576,7 @@
         "answers": [
             "Mainz"
         ],
-        "pageviews": 9059
-    },
-    {
-        "query_id": "276_258",
-        "question": "Where is Portrait of the Infanta Maria Theresa of Spain located?",
-        "answers": [
-            "Kunsthistorisches Museum"
-        ],
-        "pageviews": 0
+        "pageviews": 10
     },
     {
         "query_id": "276_259",
@@ -2057,23 +1584,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 1789
-    },
-    {
-        "query_id": "276_260",
-        "question": "Where is Great Revere Train Wreck of 1871 located?",
-        "answers": [
-            "Revere"
-        ],
-        "pageviews": 2218
-    },
-    {
-        "query_id": "276_261",
-        "question": "Where is 1982 Men's World Open Squash Championship located?",
-        "answers": [
-            "Birmingham"
-        ],
-        "pageviews": 947
+        "pageviews": 12
     },
     {
         "query_id": "276_262",
@@ -2081,7 +1592,7 @@
         "answers": [
             "Edinburgh"
         ],
-        "pageviews": 1488
+        "pageviews": 6
     },
     {
         "query_id": "276_263",
@@ -2089,7 +1600,7 @@
         "answers": [
             "Dornock"
         ],
-        "pageviews": 3392
+        "pageviews": 4
     },
     {
         "query_id": "276_264",
@@ -2097,23 +1608,7 @@
         "answers": [
             "Laurel Valley Golf Club"
         ],
-        "pageviews": 5196
-    },
-    {
-        "query_id": "276_265",
-        "question": "Where is Odeon Leicester Square located?",
-        "answers": [
-            "Leicester Square"
-        ],
-        "pageviews": 37275
-    },
-    {
-        "query_id": "276_266",
-        "question": "Where is Galdakao located?",
-        "answers": [
-            "Aeolis quadrangle"
-        ],
-        "pageviews": 1441
+        "pageviews": 18
     },
     {
         "query_id": "276_267",
@@ -2121,7 +1616,7 @@
         "answers": [
             "Museu Nacional d'Art de Catalunya"
         ],
-        "pageviews": 1651
+        "pageviews": 1
     },
     {
         "query_id": "276_268",
@@ -2129,7 +1624,7 @@
         "answers": [
             "Ramadi"
         ],
-        "pageviews": 131012
+        "pageviews": 12
     },
     {
         "query_id": "276_269",
@@ -2137,7 +1632,7 @@
         "answers": [
             "Troad"
         ],
-        "pageviews": 3597
+        "pageviews": 1
     },
     {
         "query_id": "276_270",
@@ -2145,15 +1640,7 @@
         "answers": [
             "Volendam"
         ],
-        "pageviews": 9748
-    },
-    {
-        "query_id": "276_271",
-        "question": "Where is Huajramarca located?",
-        "answers": [
-            "\u00c1ncash"
-        ],
-        "pageviews": 996
+        "pageviews": 6
     },
     {
         "query_id": "276_272",
@@ -2161,7 +1648,7 @@
         "answers": [
             "Melbourne Park"
         ],
-        "pageviews": 5427
+        "pageviews": 20
     },
     {
         "query_id": "276_273",
@@ -2169,7 +1656,7 @@
         "answers": [
             "Traventhal"
         ],
-        "pageviews": 6123
+        "pageviews": 22
     },
     {
         "query_id": "276_274",
@@ -2177,7 +1664,7 @@
         "answers": [
             "Antwerp"
         ],
-        "pageviews": 11641
+        "pageviews": 26
     },
     {
         "query_id": "276_275",
@@ -2185,15 +1672,7 @@
         "answers": [
             "Erez Crossing"
         ],
-        "pageviews": 2481
-    },
-    {
-        "query_id": "276_276",
-        "question": "Where is Bataafs Lyceum located?",
-        "answers": [
-            "Hengelo"
-        ],
-        "pageviews": 1013
+        "pageviews": 1
     },
     {
         "query_id": "276_277",
@@ -2201,7 +1680,7 @@
         "answers": [
             "Southern Bug"
         ],
-        "pageviews": 9086
+        "pageviews": 7
     },
     {
         "query_id": "276_278",
@@ -2209,23 +1688,7 @@
         "answers": [
             "Sardinia"
         ],
-        "pageviews": 588
-    },
-    {
-        "query_id": "276_279",
-        "question": "Where is 2011 Svalbard polar bear attack located?",
-        "answers": [
-            "Svalbard"
-        ],
-        "pageviews": 67537
-    },
-    {
-        "query_id": "276_280",
-        "question": "Where is Heurich Mausoleum located?",
-        "answers": [
-            "Rock Creek Cemetery"
-        ],
-        "pageviews": 1358
+        "pageviews": 3
     },
     {
         "query_id": "276_281",
@@ -2233,7 +1696,7 @@
         "answers": [
             "Springfield"
         ],
-        "pageviews": 1358
+        "pageviews": 5
     },
     {
         "query_id": "276_282",
@@ -2241,7 +1704,7 @@
         "answers": [
             "Khmer Republic"
         ],
-        "pageviews": 282971
+        "pageviews": 132
     },
     {
         "query_id": "276_283",
@@ -2249,7 +1712,7 @@
         "answers": [
             "Cusco"
         ],
-        "pageviews": 1849
+        "pageviews": 3
     },
     {
         "query_id": "276_284",
@@ -2257,7 +1720,7 @@
         "answers": [
             "Tortosa"
         ],
-        "pageviews": 4438
+        "pageviews": 3
     },
     {
         "query_id": "276_285",
@@ -2265,7 +1728,7 @@
         "answers": [
             "Masai Mara"
         ],
-        "pageviews": 8674
+        "pageviews": 5
     },
     {
         "query_id": "276_286",
@@ -2273,7 +1736,7 @@
         "answers": [
             "Notting Hill"
         ],
-        "pageviews": 1226
+        "pageviews": 4
     },
     {
         "query_id": "276_287",
@@ -2281,7 +1744,7 @@
         "answers": [
             "Lancashire"
         ],
-        "pageviews": 1581
+        "pageviews": 6
     },
     {
         "query_id": "276_288",
@@ -2289,7 +1752,7 @@
         "answers": [
             "Tochigi Prefecture"
         ],
-        "pageviews": 15852
+        "pageviews": 1
     },
     {
         "query_id": "276_289",
@@ -2297,7 +1760,7 @@
         "answers": [
             "Comiskey Park"
         ],
-        "pageviews": 229682
+        "pageviews": 48
     },
     {
         "query_id": "276_290",
@@ -2305,15 +1768,7 @@
         "answers": [
             "Lake District"
         ],
-        "pageviews": 3126
-    },
-    {
-        "query_id": "276_291",
-        "question": "Where is Movement for the Independence of Sicily located?",
-        "answers": [
-            "Sicily"
-        ],
-        "pageviews": 1143
+        "pageviews": 4
     },
     {
         "query_id": "276_292",
@@ -2321,7 +1776,7 @@
         "answers": [
             "Hard Rock Stadium"
         ],
-        "pageviews": 580346
+        "pageviews": 167
     },
     {
         "query_id": "276_293",
@@ -2329,7 +1784,7 @@
         "answers": [
             "Sonoma County"
         ],
-        "pageviews": 4785
+        "pageviews": 7
     },
     {
         "query_id": "276_294",
@@ -2337,15 +1792,7 @@
         "answers": [
             "Poitiers"
         ],
-        "pageviews": 1319
-    },
-    {
-        "query_id": "276_295",
-        "question": "Where is Suncook Village Commercial-Civic Historic District located?",
-        "answers": [
-            "Suncook"
-        ],
-        "pageviews": 596
+        "pageviews": 6
     },
     {
         "query_id": "276_296",
@@ -2353,7 +1800,7 @@
         "answers": [
             "Alberta"
         ],
-        "pageviews": 19055
+        "pageviews": 46
     },
     {
         "query_id": "276_297",
@@ -2361,7 +1808,7 @@
         "answers": [
             "Maricopa County"
         ],
-        "pageviews": 2530
+        "pageviews": 14
     },
     {
         "query_id": "276_298",
@@ -2370,7 +1817,7 @@
             "Las Vegas",
             "Newport Beach"
         ],
-        "pageviews": 2275
+        "pageviews": 2
     },
     {
         "query_id": "276_299",
@@ -2378,7 +1825,7 @@
         "answers": [
             "Kyustendil"
         ],
-        "pageviews": 14815
+        "pageviews": 26
     },
     {
         "query_id": "276_300",
@@ -2386,15 +1833,7 @@
         "answers": [
             "Warsaw"
         ],
-        "pageviews": 68607
-    },
-    {
-        "query_id": "276_301",
-        "question": "Where is Equestrian at the 2012 Summer Paralympics located?",
-        "answers": [
-            "Greenwich Park"
-        ],
-        "pageviews": 0
+        "pageviews": 101
     },
     {
         "query_id": "276_302",
@@ -2402,7 +1841,7 @@
         "answers": [
             "Circuit de Nevers Magny-Cours"
         ],
-        "pageviews": 15835
+        "pageviews": 5
     },
     {
         "query_id": "276_303",
@@ -2410,7 +1849,7 @@
         "answers": [
             "Pokkinen"
         ],
-        "pageviews": 1705
+        "pageviews": 2
     },
     {
         "query_id": "276_304",
@@ -2418,7 +1857,7 @@
         "answers": [
             "Dorothy Chandler Pavilion"
         ],
-        "pageviews": 65894
+        "pageviews": 35
     },
     {
         "query_id": "276_305",
@@ -2427,7 +1866,7 @@
             "Beijing",
             "Beijing University Students' Gymnasium"
         ],
-        "pageviews": 1877
+        "pageviews": 14
     },
     {
         "query_id": "276_306",
@@ -2435,7 +1874,7 @@
         "answers": [
             "La Grange"
         ],
-        "pageviews": 35402
+        "pageviews": 44
     },
     {
         "query_id": "276_307",
@@ -2443,7 +1882,7 @@
         "answers": [
             "Metro Manila"
         ],
-        "pageviews": 927
+        "pageviews": 1
     },
     {
         "query_id": "276_308",
@@ -2452,7 +1891,7 @@
             "Mesopotamia",
             "Levant"
         ],
-        "pageviews": 128070
+        "pageviews": 67
     },
     {
         "query_id": "276_309",
@@ -2460,7 +1899,7 @@
         "answers": [
             "Brands Hatch"
         ],
-        "pageviews": 8924
+        "pageviews": 8
     },
     {
         "query_id": "276_310",
@@ -2468,7 +1907,7 @@
         "answers": [
             "Crown Perth"
         ],
-        "pageviews": 1847
+        "pageviews": 2
     },
     {
         "query_id": "276_311",
@@ -2476,7 +1915,7 @@
         "answers": [
             "The Belfry"
         ],
-        "pageviews": 19440
+        "pageviews": 23
     },
     {
         "query_id": "276_312",
@@ -2484,15 +1923,7 @@
         "answers": [
             "Downtown San Diego"
         ],
-        "pageviews": 9585
-    },
-    {
-        "query_id": "276_313",
-        "question": "Where is 7th European Film Awards located?",
-        "answers": [
-            "Berlin"
-        ],
-        "pageviews": 1011
+        "pageviews": 10
     },
     {
         "query_id": "276_314",
@@ -2500,7 +1931,7 @@
         "answers": [
             "Gamla stan"
         ],
-        "pageviews": 626
+        "pageviews": 2
     },
     {
         "query_id": "276_315",
@@ -2508,7 +1939,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 744793
+        "pageviews": 5
     },
     {
         "query_id": "276_316",
@@ -2516,7 +1947,7 @@
         "answers": [
             "Tebay"
         ],
-        "pageviews": 6348
+        "pageviews": 2
     },
     {
         "query_id": "276_317",
@@ -2524,7 +1955,7 @@
         "answers": [
             "Greenwich Village"
         ],
-        "pageviews": 35438
+        "pageviews": 111
     },
     {
         "query_id": "276_318",
@@ -2532,7 +1963,7 @@
         "answers": [
             "Wandsworth"
         ],
-        "pageviews": 1520
+        "pageviews": 1
     },
     {
         "query_id": "276_319",
@@ -2540,7 +1971,7 @@
         "answers": [
             "Grenada"
         ],
-        "pageviews": 672377
+        "pageviews": 2
     },
     {
         "query_id": "276_320",
@@ -2548,15 +1979,7 @@
         "answers": [
             "Francis Field"
         ],
-        "pageviews": 189987
-    },
-    {
-        "query_id": "276_321",
-        "question": "Where is 1986 UK Championship located?",
-        "answers": [
-            "Preston Guild Hall"
-        ],
-        "pageviews": 2310
+        "pageviews": 696
     },
     {
         "query_id": "276_322",
@@ -2564,7 +1987,7 @@
         "answers": [
             "Los Angeles"
         ],
-        "pageviews": 2391
+        "pageviews": 23
     },
     {
         "query_id": "276_323",
@@ -2572,7 +1995,7 @@
         "answers": [
             "Gainesville"
         ],
-        "pageviews": 4068
+        "pageviews": 9
     },
     {
         "query_id": "276_324",
@@ -2580,7 +2003,7 @@
         "answers": [
             "Dannemora"
         ],
-        "pageviews": 2649
+        "pageviews": 9
     },
     {
         "query_id": "276_325",
@@ -2588,7 +2011,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 209547
+        "pageviews": 170
     },
     {
         "query_id": "276_326",
@@ -2596,7 +2019,7 @@
         "answers": [
             "Mannheim"
         ],
-        "pageviews": 1564
+        "pageviews": 8
     },
     {
         "query_id": "276_327",
@@ -2604,7 +2027,7 @@
         "answers": [
             "New York"
         ],
-        "pageviews": 2994
+        "pageviews": 2
     },
     {
         "query_id": "276_328",
@@ -2612,7 +2035,7 @@
         "answers": [
             "Silverstone Circuit"
         ],
-        "pageviews": 14256
+        "pageviews": 10
     },
     {
         "query_id": "276_329",
@@ -2620,31 +2043,7 @@
         "answers": [
             "Qana"
         ],
-        "pageviews": 8808
-    },
-    {
-        "query_id": "276_330",
-        "question": "Where is Swan & Edgar located?",
-        "answers": [
-            "Marylebone"
-        ],
-        "pageviews": 1928
-    },
-    {
-        "query_id": "276_331",
-        "question": "Where is Byron David Smith killings located?",
-        "answers": [
-            "Little Falls"
-        ],
-        "pageviews": 97870
-    },
-    {
-        "query_id": "276_332",
-        "question": "Where is Megasport Arena located?",
-        "answers": [
-            "Moscow"
-        ],
-        "pageviews": 9791
+        "pageviews": 7
     },
     {
         "query_id": "276_333",
@@ -2652,23 +2051,7 @@
         "answers": [
             "North Sea"
         ],
-        "pageviews": 5239
-    },
-    {
-        "query_id": "276_334",
-        "question": "Where is 2013 Portuguese local elections located?",
-        "answers": [
-            "Portugal"
-        ],
-        "pageviews": 2614
-    },
-    {
-        "query_id": "276_335",
-        "question": "Where is Blackville-Hilda High School shooting located?",
-        "answers": [
-            "Blackville"
-        ],
-        "pageviews": 0
+        "pageviews": 14
     },
     {
         "query_id": "276_336",
@@ -2676,7 +2059,7 @@
         "answers": [
             "PGA National Golf Club"
         ],
-        "pageviews": 7065
+        "pageviews": 16
     },
     {
         "query_id": "276_337",
@@ -2684,7 +2067,7 @@
         "answers": [
             "Derry"
         ],
-        "pageviews": 1284577
+        "pageviews": 185
     },
     {
         "query_id": "276_338",
@@ -2692,7 +2075,7 @@
         "answers": [
             "National Gallery"
         ],
-        "pageviews": 12266
+        "pageviews": 5
     },
     {
         "query_id": "276_339",
@@ -2700,7 +2083,7 @@
         "answers": [
             "Mayfair"
         ],
-        "pageviews": 131522
+        "pageviews": 535
     },
     {
         "query_id": "276_340",
@@ -2708,7 +2091,7 @@
         "answers": [
             "San Diego Zoo"
         ],
-        "pageviews": 3038
+        "pageviews": 10
     },
     {
         "query_id": "276_341",
@@ -2716,7 +2099,7 @@
         "answers": [
             "Turnhout"
         ],
-        "pageviews": 7332
+        "pageviews": 12
     },
     {
         "query_id": "276_342",
@@ -2724,7 +2107,7 @@
         "answers": [
             "Lake District"
         ],
-        "pageviews": 963
+        "pageviews": 1
     },
     {
         "query_id": "276_343",
@@ -2732,15 +2115,7 @@
         "answers": [
             "Drenthe"
         ],
-        "pageviews": 5082
-    },
-    {
-        "query_id": "276_344",
-        "question": "Where is Cathedral of St. Vincent de Paul located?",
-        "answers": [
-            "Tunis"
-        ],
-        "pageviews": 5367
+        "pageviews": 32
     },
     {
         "query_id": "276_345",
@@ -2748,7 +2123,7 @@
         "answers": [
             "Denmark"
         ],
-        "pageviews": 13581
+        "pageviews": 27
     },
     {
         "query_id": "276_346",
@@ -2756,23 +2131,7 @@
         "answers": [
             "Castlebar"
         ],
-        "pageviews": 14165
-    },
-    {
-        "query_id": "276_347",
-        "question": "Where is The Punishment of Tythus located?",
-        "answers": [
-            "Museo del Prado"
-        ],
-        "pageviews": 1297
-    },
-    {
-        "query_id": "276_348",
-        "question": "Where is 4th Vietnam Film Festival located?",
-        "answers": [
-            "Ho Chi Minh City"
-        ],
-        "pageviews": 637
+        "pageviews": 16
     },
     {
         "query_id": "276_349",
@@ -2780,15 +2139,7 @@
         "answers": [
             "Aintree Racecourse"
         ],
-        "pageviews": 1257
-    },
-    {
-        "query_id": "276_350",
-        "question": "Where is London Regiment located?",
-        "answers": [
-            "London"
-        ],
-        "pageviews": 11870
+        "pageviews": 1
     },
     {
         "query_id": "276_351",
@@ -2796,7 +2147,7 @@
         "answers": [
             "Circuit Gilles Villeneuve"
         ],
-        "pageviews": 11728
+        "pageviews": 10
     },
     {
         "query_id": "276_352",
@@ -2804,7 +2155,7 @@
         "answers": [
             "Oxia Palus quadrangle"
         ],
-        "pageviews": 2150
+        "pageviews": 3
     },
     {
         "query_id": "276_353",
@@ -2812,7 +2163,7 @@
         "answers": [
             "Keynsham"
         ],
-        "pageviews": 4057
+        "pageviews": 8
     },
     {
         "query_id": "276_354",
@@ -2820,15 +2171,7 @@
         "answers": [
             "Adler Arena Skating Center"
         ],
-        "pageviews": 4570
-    },
-    {
-        "query_id": "276_355",
-        "question": "Where is Our Lady of Loreto and St Winefride's, Kew located?",
-        "answers": [
-            "Kew"
-        ],
-        "pageviews": 0
+        "pageviews": 12
     },
     {
         "query_id": "276_356",
@@ -2836,7 +2179,7 @@
         "answers": [
             "Arizona"
         ],
-        "pageviews": 21602
+        "pageviews": 29
     },
     {
         "query_id": "276_357",
@@ -2844,7 +2187,7 @@
         "answers": [
             "Piribebuy"
         ],
-        "pageviews": 2791
+        "pageviews": 1
     },
     {
         "query_id": "276_358",
@@ -2852,7 +2195,7 @@
         "answers": [
             "Bradford"
         ],
-        "pageviews": 2646
+        "pageviews": 2
     },
     {
         "query_id": "276_359",
@@ -2860,7 +2203,7 @@
         "answers": [
             "Downpatrick"
         ],
-        "pageviews": 3657
+        "pageviews": 1
     },
     {
         "query_id": "276_360",
@@ -2868,7 +2211,7 @@
         "answers": [
             "Mars"
         ],
-        "pageviews": 175508
+        "pageviews": 11
     },
     {
         "query_id": "276_361",
@@ -2876,7 +2219,7 @@
         "answers": [
             "Iapygia quadrangle"
         ],
-        "pageviews": 4301
+        "pageviews": 1
     },
     {
         "query_id": "276_362",
@@ -2884,7 +2227,7 @@
         "answers": [
             "Beijing National Stadium"
         ],
-        "pageviews": 48909
+        "pageviews": 1013
     },
     {
         "query_id": "276_363",
@@ -2893,7 +2236,7 @@
             "Sleeping Bear Dunes National Lakeshore",
             "Lake Michigan"
         ],
-        "pageviews": 12387
+        "pageviews": 32
     },
     {
         "query_id": "276_364",
@@ -2901,7 +2244,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 4557
+        "pageviews": 3
     },
     {
         "query_id": "276_365",
@@ -2909,7 +2252,7 @@
         "answers": [
             "Ancient Agora of Athens"
         ],
-        "pageviews": 4033
+        "pageviews": 2
     },
     {
         "query_id": "276_366",
@@ -2917,15 +2260,7 @@
         "answers": [
             "Turner Field"
         ],
-        "pageviews": 10141
-    },
-    {
-        "query_id": "276_367",
-        "question": "Where is Panamerican Esperanto Congress located?",
-        "answers": [
-            "Americas"
-        ],
-        "pageviews": 1387
+        "pageviews": 10
     },
     {
         "query_id": "276_368",
@@ -2933,15 +2268,7 @@
         "answers": [
             "Canary Islands"
         ],
-        "pageviews": 29354
-    },
-    {
-        "query_id": "276_369",
-        "question": "Where is San Diego State University shooting located?",
-        "answers": [
-            "San Diego"
-        ],
-        "pageviews": 0
+        "pageviews": 43
     },
     {
         "query_id": "276_370",
@@ -2949,7 +2276,7 @@
         "answers": [
             "Rijksmuseum"
         ],
-        "pageviews": 2003
+        "pageviews": 1
     },
     {
         "query_id": "276_371",
@@ -2957,15 +2284,7 @@
         "answers": [
             "Sacramento"
         ],
-        "pageviews": 1831
-    },
-    {
-        "query_id": "276_372",
-        "question": "Where is Prescott Valley Event Center located?",
-        "answers": [
-            "Prescott Valley"
-        ],
-        "pageviews": 10631
+        "pageviews": 4
     },
     {
         "query_id": "276_373",
@@ -2973,15 +2292,7 @@
         "answers": [
             "Mamak"
         ],
-        "pageviews": 2577
-    },
-    {
-        "query_id": "276_374",
-        "question": "Where is 29 September 2008 western India bombings located?",
-        "answers": [
-            "Maharashtra"
-        ],
-        "pageviews": 1489
+        "pageviews": 6
     },
     {
         "query_id": "276_375",
@@ -2989,7 +2300,7 @@
         "answers": [
             "Mortemer"
         ],
-        "pageviews": 8143
+        "pageviews": 6
     },
     {
         "query_id": "276_376",
@@ -2997,7 +2308,7 @@
         "answers": [
             "Spectrum"
         ],
-        "pageviews": 49303
+        "pageviews": 24
     },
     {
         "query_id": "276_377",
@@ -3005,7 +2316,7 @@
         "answers": [
             "Ateneum"
         ],
-        "pageviews": 39569
+        "pageviews": 6
     },
     {
         "query_id": "276_378",
@@ -3013,7 +2324,7 @@
         "answers": [
             "ANZAC Cove"
         ],
-        "pageviews": 42243
+        "pageviews": 75
     },
     {
         "query_id": "276_379",
@@ -3021,7 +2332,7 @@
         "answers": [
             "Tokyo"
         ],
-        "pageviews": 1632
+        "pageviews": 1
     },
     {
         "query_id": "276_380",
@@ -3029,23 +2340,7 @@
         "answers": [
             "Century City"
         ],
-        "pageviews": 8846
-    },
-    {
-        "query_id": "276_381",
-        "question": "Where is The Lovers located?",
-        "answers": [
-            "Lynden Sculpture Garden"
-        ],
-        "pageviews": 1130
-    },
-    {
-        "query_id": "276_382",
-        "question": "Where is March 2010 Israel\u2013Gaza clashes located?",
-        "answers": [
-            "Gaza Strip"
-        ],
-        "pageviews": 2842
+        "pageviews": 4
     },
     {
         "query_id": "276_383",
@@ -3053,7 +2348,7 @@
         "answers": [
             "Rijksmuseum"
         ],
-        "pageviews": 20327
+        "pageviews": 5
     },
     {
         "query_id": "276_384",
@@ -3061,7 +2356,7 @@
         "answers": [
             "Bodega Bay"
         ],
-        "pageviews": 3029
+        "pageviews": 7
     },
     {
         "query_id": "276_385",
@@ -3069,7 +2364,7 @@
         "answers": [
             "Antalya"
         ],
-        "pageviews": 1457
+        "pageviews": 1
     },
     {
         "query_id": "276_386",
@@ -3077,7 +2372,7 @@
         "answers": [
             "Johannisthal Air Field"
         ],
-        "pageviews": 3984
+        "pageviews": 1
     },
     {
         "query_id": "276_387",
@@ -3085,7 +2380,7 @@
         "answers": [
             "Andrew Johnson National Historic Site"
         ],
-        "pageviews": 8373
+        "pageviews": 5
     },
     {
         "query_id": "276_388",
@@ -3093,7 +2388,7 @@
         "answers": [
             "Basque Country"
         ],
-        "pageviews": 17945
+        "pageviews": 135
     },
     {
         "query_id": "276_389",
@@ -3101,15 +2396,7 @@
         "answers": [
             "Moortown Golf Club"
         ],
-        "pageviews": 2650
-    },
-    {
-        "query_id": "276_390",
-        "question": "Where is 13 December 2013 Iraq attacks located?",
-        "answers": [
-            "Iraq"
-        ],
-        "pageviews": 585
+        "pageviews": 16
     },
     {
         "query_id": "276_391",
@@ -3117,7 +2404,7 @@
         "answers": [
             "Sanssouci Park"
         ],
-        "pageviews": 7612
+        "pageviews": 8
     },
     {
         "query_id": "276_392",
@@ -3125,7 +2412,7 @@
         "answers": [
             "Zhovkva"
         ],
-        "pageviews": 2417
+        "pageviews": 2
     },
     {
         "query_id": "276_393",
@@ -3133,7 +2420,7 @@
         "answers": [
             "Tobruk"
         ],
-        "pageviews": 17254
+        "pageviews": 5
     },
     {
         "query_id": "276_394",
@@ -3141,7 +2428,7 @@
         "answers": [
             "Bandung"
         ],
-        "pageviews": 4109
+        "pageviews": 7
     },
     {
         "query_id": "276_395",
@@ -3149,15 +2436,7 @@
         "answers": [
             "Lutynia, \u015aroda \u015al\u0105ska County"
         ],
-        "pageviews": 44306
-    },
-    {
-        "query_id": "276_396",
-        "question": "Where is 1901 FA Cup Final located?",
-        "answers": [
-            "Crystal Palace National Sports Centre"
-        ],
-        "pageviews": 0
+        "pageviews": 65
     },
     {
         "query_id": "276_397",
@@ -3165,7 +2444,7 @@
         "answers": [
             "Circuit Park Zandvoort"
         ],
-        "pageviews": 10800
+        "pageviews": 17
     },
     {
         "query_id": "276_398",
@@ -3173,7 +2452,7 @@
         "answers": [
             "Melbourne"
         ],
-        "pageviews": 17913
+        "pageviews": 250
     },
     {
         "query_id": "276_399",
@@ -3181,7 +2460,7 @@
         "answers": [
             "Boston"
         ],
-        "pageviews": 1650
+        "pageviews": 4
     },
     {
         "query_id": "276_400",
@@ -3189,7 +2468,7 @@
         "answers": [
             "Damascus"
         ],
-        "pageviews": 28109
+        "pageviews": 18
     },
     {
         "query_id": "276_401",
@@ -3197,7 +2476,7 @@
         "answers": [
             "Stockach"
         ],
-        "pageviews": 9074
+        "pageviews": 66
     },
     {
         "query_id": "276_402",
@@ -3205,7 +2484,7 @@
         "answers": [
             "Grieg Hall"
         ],
-        "pageviews": 41728
+        "pageviews": 117
     },
     {
         "query_id": "276_403",
@@ -3213,7 +2492,7 @@
         "answers": [
             "Chevening"
         ],
-        "pageviews": 491
+        "pageviews": 1
     },
     {
         "query_id": "276_404",
@@ -3221,7 +2500,7 @@
         "answers": [
             "Smithsonian American Art Museum"
         ],
-        "pageviews": 14898
+        "pageviews": 19
     },
     {
         "query_id": "276_405",
@@ -3229,15 +2508,7 @@
         "answers": [
             "Waitangi"
         ],
-        "pageviews": 179668
-    },
-    {
-        "query_id": "276_406",
-        "question": "Where is St Mary Abbot's Hospital located?",
-        "answers": [
-            "Kensington"
-        ],
-        "pageviews": 6878
+        "pageviews": 510
     },
     {
         "query_id": "276_407",
@@ -3245,23 +2516,7 @@
         "answers": [
             "Dorridge railway station"
         ],
-        "pageviews": 5609
-    },
-    {
-        "query_id": "276_408",
-        "question": "Where is 1967 Southeast Asian Peninsular Games located?",
-        "answers": [
-            "Bangkok"
-        ],
-        "pageviews": 0
-    },
-    {
-        "query_id": "276_409",
-        "question": "Where is Madonna of the Pomegranate located?",
-        "answers": [
-            "Uffizi"
-        ],
-        "pageviews": 10088
+        "pageviews": 2
     },
     {
         "query_id": "276_410",
@@ -3269,7 +2524,7 @@
         "answers": [
             "Hekla"
         ],
-        "pageviews": 21622
+        "pageviews": 6
     },
     {
         "query_id": "276_411",
@@ -3277,7 +2532,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 9922
+        "pageviews": 104
     },
     {
         "query_id": "276_412",
@@ -3285,7 +2540,7 @@
         "answers": [
             "Ironbridge"
         ],
-        "pageviews": 21958
+        "pageviews": 67
     },
     {
         "query_id": "276_413",
@@ -3293,7 +2548,7 @@
         "answers": [
             "Sago"
         ],
-        "pageviews": 38512
+        "pageviews": 25
     },
     {
         "query_id": "276_414",
@@ -3303,7 +2558,7 @@
             "Nizhny Novgorod Stadium",
             "Central Stadium Yekaterinburg"
         ],
-        "pageviews": 10402307
+        "pageviews": 474
     },
     {
         "query_id": "276_415",
@@ -3311,7 +2566,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 10731
+        "pageviews": 12
     },
     {
         "query_id": "276_416",
@@ -3319,7 +2574,7 @@
         "answers": [
             "National Gallery"
         ],
-        "pageviews": 8023
+        "pageviews": 7
     },
     {
         "query_id": "276_417",
@@ -3327,7 +2582,7 @@
         "answers": [
             "Barnet"
         ],
-        "pageviews": 77634
+        "pageviews": 103
     },
     {
         "query_id": "276_418",
@@ -3335,7 +2590,7 @@
         "answers": [
             "Kumamoto"
         ],
-        "pageviews": 1423
+        "pageviews": 8
     },
     {
         "query_id": "276_419",
@@ -3343,7 +2598,7 @@
         "answers": [
             "Indiana State House"
         ],
-        "pageviews": 1236
+        "pageviews": 1
     },
     {
         "query_id": "276_420",
@@ -3351,7 +2606,7 @@
         "answers": [
             "National Museum of Ireland"
         ],
-        "pageviews": 31943
+        "pageviews": 33
     },
     {
         "query_id": "276_421",
@@ -3359,7 +2614,7 @@
         "answers": [
             "Flatiron District"
         ],
-        "pageviews": 3110
+        "pageviews": 1
     },
     {
         "query_id": "276_422",
@@ -3367,7 +2622,7 @@
         "answers": [
             "Great Wyrley"
         ],
-        "pageviews": 1282
+        "pageviews": 2
     },
     {
         "query_id": "276_423",
@@ -3375,7 +2630,7 @@
         "answers": [
             "Prestwick Golf Club"
         ],
-        "pageviews": 2508
+        "pageviews": 4
     },
     {
         "query_id": "276_424",
@@ -3383,7 +2638,7 @@
         "answers": [
             "Neuburg an der Donau"
         ],
-        "pageviews": 2931
+        "pageviews": 4
     },
     {
         "query_id": "276_425",
@@ -3391,15 +2646,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 4246
-    },
-    {
-        "query_id": "276_426",
-        "question": "Where is Overlord embroidery located?",
-        "answers": [
-            "D-Day Museum"
-        ],
-        "pageviews": 5365
+        "pageviews": 22
     },
     {
         "query_id": "276_427",
@@ -3407,7 +2654,7 @@
         "answers": [
             "Assam"
         ],
-        "pageviews": 10195
+        "pageviews": 3
     },
     {
         "query_id": "276_428",
@@ -3415,15 +2662,7 @@
         "answers": [
             "Nykarleby"
         ],
-        "pageviews": 1831
-    },
-    {
-        "query_id": "276_429",
-        "question": "Where is Wilgenplas located?",
-        "answers": [
-            "Maarssen"
-        ],
-        "pageviews": 874
+        "pageviews": 2
     },
     {
         "query_id": "276_430",
@@ -3431,7 +2670,7 @@
         "answers": [
             "San Marco"
         ],
-        "pageviews": 5630
+        "pageviews": 1
     },
     {
         "query_id": "276_431",
@@ -3439,7 +2678,7 @@
         "answers": [
             "Laurel Valley Golf Club"
         ],
-        "pageviews": 4197
+        "pageviews": 12
     },
     {
         "query_id": "276_432",
@@ -3447,7 +2686,7 @@
         "answers": [
             "Moscow"
         ],
-        "pageviews": 844935
+        "pageviews": 591
     },
     {
         "query_id": "276_433",
@@ -3455,7 +2694,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 1604
+        "pageviews": 5
     },
     {
         "query_id": "276_434",
@@ -3463,7 +2702,7 @@
         "answers": [
             "Perth Superdrome"
         ],
-        "pageviews": 5651
+        "pageviews": 56
     },
     {
         "query_id": "276_435",
@@ -3471,7 +2710,7 @@
         "answers": [
             "Aachen"
         ],
-        "pageviews": 18210
+        "pageviews": 2
     },
     {
         "query_id": "276_436",
@@ -3480,15 +2719,7 @@
             "Dominican Republic",
             "Haiti"
         ],
-        "pageviews": 115310
-    },
-    {
-        "query_id": "276_437",
-        "question": "Where is Hand Fan Museum located?",
-        "answers": [
-            "Healdsburg"
-        ],
-        "pageviews": 1587
+        "pageviews": 5
     },
     {
         "query_id": "276_438",
@@ -3496,7 +2727,7 @@
         "answers": [
             "Vladikavkaz"
         ],
-        "pageviews": 3045
+        "pageviews": 2
     },
     {
         "query_id": "276_439",
@@ -3504,15 +2735,7 @@
         "answers": [
             "National Museum of Denmark"
         ],
-        "pageviews": 33167
-    },
-    {
-        "query_id": "276_440",
-        "question": "Where is 4th Yerevan Golden Apricot International Film Festival located?",
-        "answers": [
-            "Yerevan"
-        ],
-        "pageviews": 596
+        "pageviews": 3
     },
     {
         "query_id": "276_441",
@@ -3520,7 +2743,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 153209
+        "pageviews": 89
     },
     {
         "query_id": "276_442",
@@ -3528,7 +2751,7 @@
         "answers": [
             "Scotland"
         ],
-        "pageviews": 1788
+        "pageviews": 3
     },
     {
         "query_id": "276_443",
@@ -3536,15 +2759,7 @@
         "answers": [
             "Akhisar"
         ],
-        "pageviews": 1520
-    },
-    {
-        "query_id": "276_444",
-        "question": "Where is Chardon High School shooting located?",
-        "answers": [
-            "Chardon High School"
-        ],
-        "pageviews": 0
+        "pageviews": 5
     },
     {
         "query_id": "276_445",
@@ -3552,7 +2767,7 @@
         "answers": [
             "Epsom Downs Racecourse"
         ],
-        "pageviews": 2363
+        "pageviews": 1
     },
     {
         "query_id": "276_446",
@@ -3560,7 +2775,7 @@
         "answers": [
             "Greenwich Peninsula"
         ],
-        "pageviews": 132354
+        "pageviews": 81
     },
     {
         "query_id": "276_447",
@@ -3568,7 +2783,7 @@
         "answers": [
             "Ladbroke Grove"
         ],
-        "pageviews": 2957
+        "pageviews": 1
     },
     {
         "query_id": "276_448",
@@ -3576,7 +2791,7 @@
         "answers": [
             "National Gallery"
         ],
-        "pageviews": 2878
+        "pageviews": 3
     },
     {
         "query_id": "276_449",
@@ -3584,7 +2799,7 @@
         "answers": [
             "Helsingborg"
         ],
-        "pageviews": 9309
+        "pageviews": 17
     },
     {
         "query_id": "276_450",
@@ -3592,15 +2807,7 @@
         "answers": [
             "Roman Forum"
         ],
-        "pageviews": 9893
-    },
-    {
-        "query_id": "276_451",
-        "question": "Where is Siege of Mirandola (1551) located?",
-        "answers": [
-            "Mirandola"
-        ],
-        "pageviews": 2383
+        "pageviews": 12
     },
     {
         "query_id": "276_452",
@@ -3608,7 +2815,7 @@
         "answers": [
             "Okpo-dong"
         ],
-        "pageviews": 9784
+        "pageviews": 8
     },
     {
         "query_id": "276_453",
@@ -3616,7 +2823,7 @@
         "answers": [
             "Ulundi"
         ],
-        "pageviews": 69329
+        "pageviews": 47
     },
     {
         "query_id": "276_454",
@@ -3624,7 +2831,7 @@
         "answers": [
             "Yser"
         ],
-        "pageviews": 83567
+        "pageviews": 72
     },
     {
         "query_id": "276_455",
@@ -3632,23 +2839,7 @@
         "answers": [
             "Olympic Stadium"
         ],
-        "pageviews": 366983
-    },
-    {
-        "query_id": "276_456",
-        "question": "Where is President's House located?",
-        "answers": [
-            "Keene State College"
-        ],
-        "pageviews": 616
-    },
-    {
-        "query_id": "276_457",
-        "question": "Where is Kipini located?",
-        "answers": [
-            "Oxia Palus quadrangle"
-        ],
-        "pageviews": 1942
+        "pageviews": 7293
     },
     {
         "query_id": "276_458",
@@ -3656,7 +2847,7 @@
         "answers": [
             "Truro"
         ],
-        "pageviews": 3018
+        "pageviews": 46
     },
     {
         "query_id": "276_459",
@@ -3664,7 +2855,7 @@
         "answers": [
             "Stockholm"
         ],
-        "pageviews": 2421
+        "pageviews": 3
     },
     {
         "query_id": "276_460",
@@ -3672,23 +2863,7 @@
         "answers": [
             "Schleiz"
         ],
-        "pageviews": 7986
-    },
-    {
-        "query_id": "276_461",
-        "question": "Where is Louise and Charmian Faulkner disappearance located?",
-        "answers": [
-            "St Kilda"
-        ],
-        "pageviews": 10098
-    },
-    {
-        "query_id": "276_462",
-        "question": "Where is Inka Tampu, Cajamarca located?",
-        "answers": [
-            "Cajamarca"
-        ],
-        "pageviews": 1217
+        "pageviews": 12
     },
     {
         "query_id": "276_463",
@@ -3696,23 +2871,7 @@
         "answers": [
             "Dungannon"
         ],
-        "pageviews": 5068
-    },
-    {
-        "query_id": "276_464",
-        "question": "Where is Duke of Kent located?",
-        "answers": [
-            "Ealing"
-        ],
-        "pageviews": 1884
-    },
-    {
-        "query_id": "276_465",
-        "question": "Where is Grave relief of Publius Aiedius and Aiedia located?",
-        "answers": [
-            "Pergamon Museum"
-        ],
-        "pageviews": 2926
+        "pageviews": 2
     },
     {
         "query_id": "276_466",
@@ -3720,7 +2879,7 @@
         "answers": [
             "Myopia Hunt Club"
         ],
-        "pageviews": 3464
+        "pageviews": 14
     },
     {
         "query_id": "276_467",
@@ -3728,7 +2887,7 @@
         "answers": [
             "Bramfield"
         ],
-        "pageviews": 947
+        "pageviews": 1
     },
     {
         "query_id": "276_468",
@@ -3736,31 +2895,7 @@
         "answers": [
             "Ismenius Lacus quadrangle"
         ],
-        "pageviews": 3777
-    },
-    {
-        "query_id": "276_469",
-        "question": "Where is National Socialist Underground trial located?",
-        "answers": [
-            "Munich"
-        ],
-        "pageviews": 4809
-    },
-    {
-        "query_id": "276_470",
-        "question": "Where is Battle of Blarathon located?",
-        "answers": [
-            "Ganzak"
-        ],
-        "pageviews": 3710
-    },
-    {
-        "query_id": "276_471",
-        "question": "Where is Modern Rome \u2013 Campo Vaccino located?",
-        "answers": [
-            "J. Paul Getty Museum"
-        ],
-        "pageviews": 6990
+        "pageviews": 1
     },
     {
         "query_id": "276_472",
@@ -3769,7 +2904,7 @@
             "Staples Center",
             "Los Angeles"
         ],
-        "pageviews": 54885
+        "pageviews": 58
     },
     {
         "query_id": "276_473",
@@ -3777,7 +2912,7 @@
         "answers": [
             "Naples National Archaeological Museum"
         ],
-        "pageviews": 3627
+        "pageviews": 1
     },
     {
         "query_id": "276_474",
@@ -3785,23 +2920,7 @@
         "answers": [
             "Pakistan"
         ],
-        "pageviews": 39914
-    },
-    {
-        "query_id": "276_475",
-        "question": "Where is Untamed located?",
-        "answers": [
-            "Canobie Lake Park"
-        ],
-        "pageviews": 0
-    },
-    {
-        "query_id": "276_476",
-        "question": "Where is Whittemore House located?",
-        "answers": [
-            "Gloucester"
-        ],
-        "pageviews": 671
+        "pageviews": 18
     },
     {
         "query_id": "276_477",
@@ -3809,7 +2928,7 @@
         "answers": [
             "Park City"
         ],
-        "pageviews": 13106
+        "pageviews": 72
     },
     {
         "query_id": "276_478",
@@ -3817,7 +2936,7 @@
         "answers": [
             "Rijksmuseum"
         ],
-        "pageviews": 14217
+        "pageviews": 5
     },
     {
         "query_id": "276_479",
@@ -3825,7 +2944,7 @@
         "answers": [
             "Kollum"
         ],
-        "pageviews": 823
+        "pageviews": 1
     },
     {
         "query_id": "276_480",
@@ -3833,7 +2952,7 @@
         "answers": [
             "Samarra"
         ],
-        "pageviews": 2178
+        "pageviews": 1
     },
     {
         "query_id": "276_481",
@@ -3841,7 +2960,7 @@
         "answers": [
             "Barcelona"
         ],
-        "pageviews": 1425
+        "pageviews": 1
     },
     {
         "query_id": "276_482",
@@ -3849,15 +2968,7 @@
         "answers": [
             "Bahrain International Circuit"
         ],
-        "pageviews": 16930
-    },
-    {
-        "query_id": "276_483",
-        "question": "Where is The Garden of Eden with the Fall of Man located?",
-        "answers": [
-            "Mauritshuis"
-        ],
-        "pageviews": 23322
+        "pageviews": 28
     },
     {
         "query_id": "276_484",
@@ -3865,7 +2976,7 @@
         "answers": [
             "Marina Bay Street Circuit"
         ],
-        "pageviews": 75913
+        "pageviews": 46
     },
     {
         "query_id": "276_485",
@@ -3873,63 +2984,7 @@
         "answers": [
             "Prestwick Golf Club"
         ],
-        "pageviews": 3832
-    },
-    {
-        "query_id": "276_486",
-        "question": "Where is Battle of Toulon located?",
-        "answers": [
-            "Toulon"
-        ],
-        "pageviews": 3937
-    },
-    {
-        "query_id": "276_487",
-        "question": "Where is Sainte-Maxime International Horror Film Festival located?",
-        "answers": [
-            "Sainte-Maxime"
-        ],
-        "pageviews": 726
-    },
-    {
-        "query_id": "276_488",
-        "question": "Where is 2009 flu pandemic in Europe located?",
-        "answers": [
-            "Europe"
-        ],
-        "pageviews": 12543
-    },
-    {
-        "query_id": "276_489",
-        "question": "Where is Restauranten located?",
-        "answers": [
-            "Djursholm"
-        ],
-        "pageviews": 51
-    },
-    {
-        "query_id": "276_490",
-        "question": "Where is Portrait of Sigismund of Luxemburg located?",
-        "answers": [
-            "Kunsthistorisches Museum"
-        ],
-        "pageviews": 1974
-    },
-    {
-        "query_id": "276_491",
-        "question": "Where is 2010 Karachi riots located?",
-        "answers": [
-            "Karachi"
-        ],
-        "pageviews": 3802
-    },
-    {
-        "query_id": "276_492",
-        "question": "Where is Mosque Saudique located?",
-        "answers": [
-            "Nouakchott"
-        ],
-        "pageviews": 2625
+        "pageviews": 4
     },
     {
         "query_id": "276_493",
@@ -3937,7 +2992,7 @@
         "answers": [
             "Nag Hammadi"
         ],
-        "pageviews": 7600
+        "pageviews": 4
     },
     {
         "query_id": "276_494",
@@ -3945,15 +3000,7 @@
         "answers": [
             "Hebron"
         ],
-        "pageviews": 79073
-    },
-    {
-        "query_id": "276_495",
-        "question": "Where is Madonna and Child Playing With the Veil located?",
-        "answers": [
-            "Mauritshuis"
-        ],
-        "pageviews": 925
+        "pageviews": 56
     },
     {
         "query_id": "276_496",
@@ -3962,15 +3009,7 @@
             "CERN",
             "Super Proton Synchrotron"
         ],
-        "pageviews": 5030
-    },
-    {
-        "query_id": "276_497",
-        "question": "Where is The Absinthe Drinker located?",
-        "answers": [
-            "Ny Carlsberg Glyptotek"
-        ],
-        "pageviews": 19775
+        "pageviews": 19
     },
     {
         "query_id": "276_498",
@@ -3978,7 +3017,7 @@
         "answers": [
             "Russian Empire"
         ],
-        "pageviews": 10300
+        "pageviews": 17
     },
     {
         "query_id": "276_499",
@@ -3986,7 +3025,7 @@
         "answers": [
             "Canary Islands"
         ],
-        "pageviews": 59784
+        "pageviews": 9
     },
     {
         "query_id": "276_500",
@@ -3994,7 +3033,7 @@
         "answers": [
             "Tempsford"
         ],
-        "pageviews": 5216
+        "pageviews": 4
     },
     {
         "query_id": "276_501",
@@ -4002,7 +3041,7 @@
         "answers": [
             "Palais des Papes"
         ],
-        "pageviews": 2149
+        "pageviews": 2
     },
     {
         "query_id": "276_502",
@@ -4010,7 +3049,7 @@
         "answers": [
             "Fuji Speedway"
         ],
-        "pageviews": 25355
+        "pageviews": 26
     },
     {
         "query_id": "276_503",
@@ -4018,7 +3057,7 @@
         "answers": [
             "Copenhagen"
         ],
-        "pageviews": 3487
+        "pageviews": 90
     },
     {
         "query_id": "276_504",
@@ -4026,7 +3065,7 @@
         "answers": [
             "Abbeville"
         ],
-        "pageviews": 20667
+        "pageviews": 8
     },
     {
         "query_id": "276_505",
@@ -4034,7 +3073,7 @@
         "answers": [
             "Charles River Reservation"
         ],
-        "pageviews": 898
+        "pageviews": 2
     },
     {
         "query_id": "276_506",
@@ -4042,23 +3081,7 @@
         "answers": [
             "Newtownbutler"
         ],
-        "pageviews": 5039
-    },
-    {
-        "query_id": "276_507",
-        "question": "Where is Bnei Herzliya located?",
-        "answers": [
-            "Herzliya"
-        ],
-        "pageviews": 18920
-    },
-    {
-        "query_id": "276_508",
-        "question": "Where is He-gassen located?",
-        "answers": [
-            "Waseda University Library"
-        ],
-        "pageviews": 49123
+        "pageviews": 8
     },
     {
         "query_id": "276_509",
@@ -4066,23 +3089,7 @@
         "answers": [
             "Greenwich"
         ],
-        "pageviews": 1841
-    },
-    {
-        "query_id": "276_510",
-        "question": "Where is 2005 NATO Headquarters summit located?",
-        "answers": [
-            "Belgium"
-        ],
-        "pageviews": 1523
-    },
-    {
-        "query_id": "276_511",
-        "question": "Where is Battle of Grobnik field located?",
-        "answers": [
-            "Rijeka"
-        ],
-        "pageviews": 6339
+        "pageviews": 1
     },
     {
         "query_id": "276_512",
@@ -4091,7 +3098,7 @@
             "Ghana",
             "Mexico"
         ],
-        "pageviews": 257264
+        "pageviews": 59
     },
     {
         "query_id": "276_513",
@@ -4099,15 +3106,7 @@
         "answers": [
             "United States Capitol"
         ],
-        "pageviews": 11077
-    },
-    {
-        "query_id": "276_514",
-        "question": "Where is Lega Lombardo Veneta located?",
-        "answers": [
-            "Northern Italy"
-        ],
-        "pageviews": 842
+        "pageviews": 5
     },
     {
         "query_id": "276_515",
@@ -4115,7 +3114,7 @@
         "answers": [
             "Baltusrol Golf Club"
         ],
-        "pageviews": 10893
+        "pageviews": 13
     },
     {
         "query_id": "276_516",
@@ -4123,15 +3122,7 @@
         "answers": [
             "Olympic Stadium"
         ],
-        "pageviews": 116904
-    },
-    {
-        "query_id": "276_517",
-        "question": "Where is Kew Baptist Church located?",
-        "answers": [
-            "Kew"
-        ],
-        "pageviews": 1503
+        "pageviews": 1997
     },
     {
         "query_id": "276_518",
@@ -4139,7 +3130,7 @@
         "answers": [
             "Viveiro"
         ],
-        "pageviews": 1826
+        "pageviews": 1
     },
     {
         "query_id": "276_519",
@@ -4147,7 +3138,7 @@
         "answers": [
             "Dresden"
         ],
-        "pageviews": 5406
+        "pageviews": 2
     },
     {
         "query_id": "276_520",
@@ -4155,7 +3146,7 @@
         "answers": [
             "North Tyneside"
         ],
-        "pageviews": 2979
+        "pageviews": 3
     },
     {
         "query_id": "276_521",
@@ -4163,7 +3154,7 @@
         "answers": [
             "Cebu"
         ],
-        "pageviews": 275490
+        "pageviews": 40
     },
     {
         "query_id": "276_522",
@@ -4171,7 +3162,7 @@
         "answers": [
             "Istanbul"
         ],
-        "pageviews": 1876050
+        "pageviews": 587
     },
     {
         "query_id": "276_523",
@@ -4179,7 +3170,7 @@
         "answers": [
             "Benson"
         ],
-        "pageviews": 1620
+        "pageviews": 2
     },
     {
         "query_id": "276_524",
@@ -4187,7 +3178,7 @@
         "answers": [
             "Port-au-Prince"
         ],
-        "pageviews": 2555
+        "pageviews": 12
     },
     {
         "query_id": "276_525",
@@ -4195,7 +3186,7 @@
         "answers": [
             "Marstrand"
         ],
-        "pageviews": 6189
+        "pageviews": 16
     },
     {
         "query_id": "276_526",
@@ -4203,7 +3194,7 @@
         "answers": [
             "East Lake Golf Club"
         ],
-        "pageviews": 3384
+        "pageviews": 21
     },
     {
         "query_id": "276_527",
@@ -4212,7 +3203,7 @@
             "Big Meadows",
             "Shenandoah National Park"
         ],
-        "pageviews": 943
+        "pageviews": 2
     },
     {
         "query_id": "276_528",
@@ -4220,7 +3211,7 @@
         "answers": [
             "Southwark"
         ],
-        "pageviews": 587341
+        "pageviews": 74
     },
     {
         "query_id": "276_529",
@@ -4228,7 +3219,7 @@
         "answers": [
             "Mogadishu"
         ],
-        "pageviews": 5633
+        "pageviews": 3
     },
     {
         "query_id": "276_530",
@@ -4236,7 +3227,7 @@
         "answers": [
             "Hermitage Museum"
         ],
-        "pageviews": 6036
+        "pageviews": 1
     },
     {
         "query_id": "276_531",
@@ -4244,7 +3235,7 @@
         "answers": [
             "Sutherland"
         ],
-        "pageviews": 1556
+        "pageviews": 6
     },
     {
         "query_id": "276_532",
@@ -4252,15 +3243,7 @@
         "answers": [
             "Egypt"
         ],
-        "pageviews": 31699
-    },
-    {
-        "query_id": "276_533",
-        "question": "Where is 1st Antalya Golden Orange Film Festival located?",
-        "answers": [
-            "Antalya"
-        ],
-        "pageviews": 897
+        "pageviews": 4
     },
     {
         "query_id": "276_534",
@@ -4268,7 +3251,7 @@
         "answers": [
             "Hermitage Museum"
         ],
-        "pageviews": 5666
+        "pageviews": 4
     },
     {
         "query_id": "276_535",
@@ -4276,7 +3259,7 @@
         "answers": [
             "Santa Rosa"
         ],
-        "pageviews": 4930
+        "pageviews": 5
     },
     {
         "query_id": "276_536",
@@ -4284,15 +3267,7 @@
         "answers": [
             "Haifa"
         ],
-        "pageviews": 3351
-    },
-    {
-        "query_id": "276_537",
-        "question": "Where is St. Louis\u2013San Francisco 4003 located?",
-        "answers": [
-            "Fort Smith Trolley Museum"
-        ],
-        "pageviews": 2465
+        "pageviews": 1
     },
     {
         "query_id": "276_538",
@@ -4300,7 +3275,7 @@
         "answers": [
             "Karlskrona"
         ],
-        "pageviews": 1439
+        "pageviews": 5
     },
     {
         "query_id": "276_539",
@@ -4308,7 +3283,7 @@
         "answers": [
             "Ordos City"
         ],
-        "pageviews": 32459
+        "pageviews": 70
     },
     {
         "query_id": "276_540",
@@ -4316,7 +3291,7 @@
         "answers": [
             "Lake District"
         ],
-        "pageviews": 4309
+        "pageviews": 2
     },
     {
         "query_id": "276_541",
@@ -4324,7 +3299,7 @@
         "answers": [
             "Wschowa"
         ],
-        "pageviews": 35321
+        "pageviews": 24
     },
     {
         "query_id": "276_542",
@@ -4333,7 +3308,7 @@
             "Newport",
             "Newport Centre"
         ],
-        "pageviews": 2615
+        "pageviews": 11
     },
     {
         "query_id": "276_543",
@@ -4341,7 +3316,7 @@
         "answers": [
             "Miyako"
         ],
-        "pageviews": 7287
+        "pageviews": 7
     },
     {
         "query_id": "276_544",
@@ -4349,7 +3324,7 @@
         "answers": [
             "Prestwick Golf Club"
         ],
-        "pageviews": 4588
+        "pageviews": 10
     },
     {
         "query_id": "276_545",
@@ -4357,15 +3332,7 @@
         "answers": [
             "Varese"
         ],
-        "pageviews": 40745
-    },
-    {
-        "query_id": "276_546",
-        "question": "Where is Teknik p\u00e5 farfars tid located?",
-        "answers": [
-            "Helsingborg"
-        ],
-        "pageviews": 720
+        "pageviews": 218
     },
     {
         "query_id": "276_547",
@@ -4373,7 +3340,7 @@
         "answers": [
             "Thermopylae"
         ],
-        "pageviews": 20248
+        "pageviews": 31
     },
     {
         "query_id": "276_548",
@@ -4381,15 +3348,7 @@
         "answers": [
             "Melbourne Grand Prix Circuit"
         ],
-        "pageviews": 15174
-    },
-    {
-        "query_id": "276_549",
-        "question": "Where is The Beloved located?",
-        "answers": [
-            "Tate Britain"
-        ],
-        "pageviews": 516
+        "pageviews": 19
     },
     {
         "query_id": "276_550",
@@ -4397,15 +3356,7 @@
         "answers": [
             "Rotterdam"
         ],
-        "pageviews": 1759
-    },
-    {
-        "query_id": "276_551",
-        "question": "Where is Madonna and Child with the Book located?",
-        "answers": [
-            "Norton Simon Museum"
-        ],
-        "pageviews": 5062
+        "pageviews": 1
     },
     {
         "query_id": "276_552",
@@ -4414,7 +3365,7 @@
             "Coprates quadrangle",
             "Margaritifer Sinus quadrangle"
         ],
-        "pageviews": 99935
+        "pageviews": 69
     },
     {
         "query_id": "276_553",
@@ -4422,7 +3373,7 @@
         "answers": [
             "Zbarazh"
         ],
-        "pageviews": 8381
+        "pageviews": 16
     },
     {
         "query_id": "276_554",
@@ -4430,7 +3381,7 @@
         "answers": [
             "Aintree Racecourse"
         ],
-        "pageviews": 4691
+        "pageviews": 6
     },
     {
         "query_id": "276_555",
@@ -4438,15 +3389,7 @@
         "answers": [
             "Najaf"
         ],
-        "pageviews": 2649
-    },
-    {
-        "query_id": "276_556",
-        "question": "Where is murder of Rachel Nickell located?",
-        "answers": [
-            "Wimbledon Common"
-        ],
-        "pageviews": 229304
+        "pageviews": 2
     },
     {
         "query_id": "276_557",
@@ -4454,15 +3397,7 @@
         "answers": [
             "Mount Vernon"
         ],
-        "pageviews": 672
-    },
-    {
-        "query_id": "276_558",
-        "question": "Where is Posthoorn located?",
-        "answers": [
-            "Monnickendam"
-        ],
-        "pageviews": 885
+        "pageviews": 1
     },
     {
         "query_id": "276_559",
@@ -4470,7 +3405,7 @@
         "answers": [
             "Amsterdam"
         ],
-        "pageviews": 16002
+        "pageviews": 257
     },
     {
         "query_id": "276_560",
@@ -4478,7 +3413,7 @@
         "answers": [
             "Jakarta"
         ],
-        "pageviews": 20429
+        "pageviews": 19
     },
     {
         "query_id": "276_561",
@@ -4486,15 +3421,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 87449
-    },
-    {
-        "query_id": "276_562",
-        "question": "Where is George Washington located?",
-        "answers": [
-            "Union Square"
-        ],
-        "pageviews": 3838
+        "pageviews": 92
     },
     {
         "query_id": "276_563",
@@ -4502,15 +3429,7 @@
         "answers": [
             "Riverbank Arena"
         ],
-        "pageviews": 2004
-    },
-    {
-        "query_id": "276_564",
-        "question": "Where is Temple of Aphrodite Urania located?",
-        "answers": [
-            "Ancient Agora of Athens"
-        ],
-        "pageviews": 0
+        "pageviews": 4
     },
     {
         "query_id": "276_565",
@@ -4518,7 +3437,7 @@
         "answers": [
             "Duhok"
         ],
-        "pageviews": 1323
+        "pageviews": 7
     },
     {
         "query_id": "276_566",
@@ -4526,7 +3445,7 @@
         "answers": [
             "Kaifeng"
         ],
-        "pageviews": 21302
+        "pageviews": 3
     },
     {
         "query_id": "276_567",
@@ -4534,7 +3453,7 @@
         "answers": [
             "Le Transloy"
         ],
-        "pageviews": 8329
+        "pageviews": 35
     },
     {
         "query_id": "276_568",
@@ -4542,7 +3461,7 @@
         "answers": [
             "Workum"
         ],
-        "pageviews": 785
+        "pageviews": 1
     },
     {
         "query_id": "276_569",
@@ -4550,7 +3469,7 @@
         "answers": [
             "Muirfield"
         ],
-        "pageviews": 2535
+        "pageviews": 4
     },
     {
         "query_id": "276_570",
@@ -4558,7 +3477,7 @@
         "answers": [
             "Pavia"
         ],
-        "pageviews": 5429
+        "pageviews": 7
     },
     {
         "query_id": "276_571",
@@ -4566,7 +3485,7 @@
         "answers": [
             "Kluuvi"
         ],
-        "pageviews": 2945
+        "pageviews": 8
     },
     {
         "query_id": "276_572",
@@ -4574,7 +3493,7 @@
         "answers": [
             "Seminara"
         ],
-        "pageviews": 8853
+        "pageviews": 8
     },
     {
         "query_id": "276_573",
@@ -4582,7 +3501,7 @@
         "answers": [
             "Mayak"
         ],
-        "pageviews": 306393
+        "pageviews": 27
     },
     {
         "query_id": "276_574",
@@ -4590,7 +3509,7 @@
         "answers": [
             "Gaza Strip"
         ],
-        "pageviews": 7245
+        "pageviews": 8
     },
     {
         "query_id": "276_575",
@@ -4598,15 +3517,7 @@
         "answers": [
             "Beit She'an"
         ],
-        "pageviews": 1782
-    },
-    {
-        "query_id": "276_576",
-        "question": "Where is Battle of Lerin located?",
-        "answers": [
-            "Florina"
-        ],
-        "pageviews": 6205
+        "pageviews": 3
     },
     {
         "query_id": "276_577",
@@ -4614,15 +3525,7 @@
         "answers": [
             "Mosul Dam"
         ],
-        "pageviews": 6901
-    },
-    {
-        "query_id": "276_578",
-        "question": "Where is Battle of Carthage (149 BCE) located?",
-        "answers": [
-            "Carthage"
-        ],
-        "pageviews": 92677
+        "pageviews": 5
     },
     {
         "query_id": "276_579",
@@ -4630,7 +3533,7 @@
         "answers": [
             "Tuba City"
         ],
-        "pageviews": 2827
+        "pageviews": 6
     },
     {
         "query_id": "276_580",
@@ -4638,7 +3541,7 @@
         "answers": [
             "Oakland Hills Country Club"
         ],
-        "pageviews": 21329
+        "pageviews": 31
     },
     {
         "query_id": "276_581",
@@ -4646,15 +3549,7 @@
         "answers": [
             "Hermitage Museum"
         ],
-        "pageviews": 556
-    },
-    {
-        "query_id": "276_582",
-        "question": "Where is 1898 World Allround Speed Skating Championships for men located?",
-        "answers": [
-            "Vaillant Arena"
-        ],
-        "pageviews": 1044
+        "pageviews": 1
     },
     {
         "query_id": "276_583",
@@ -4662,7 +3557,7 @@
         "answers": [
             "Coldstream"
         ],
-        "pageviews": 3352
+        "pageviews": 3
     },
     {
         "query_id": "276_584",
@@ -4670,7 +3565,7 @@
         "answers": [
             "Epping Ongar Railway"
         ],
-        "pageviews": 2707
+        "pageviews": 2
     },
     {
         "query_id": "276_585",
@@ -4678,7 +3573,7 @@
         "answers": [
             "Roman Forum"
         ],
-        "pageviews": 4571
+        "pageviews": 11
     },
     {
         "query_id": "276_586",
@@ -4686,7 +3581,7 @@
         "answers": [
             "Lonato del Garda"
         ],
-        "pageviews": 11289
+        "pageviews": 25
     },
     {
         "query_id": "276_587",
@@ -4695,15 +3590,7 @@
             "Borneo",
             "Balikpapan"
         ],
-        "pageviews": 16018
-    },
-    {
-        "query_id": "276_588",
-        "question": "Where is Libyan civil war (2014\u2013) located?",
-        "answers": [
-            "Libya"
-        ],
-        "pageviews": 0
+        "pageviews": 11
     },
     {
         "query_id": "276_589",
@@ -4711,7 +3598,7 @@
         "answers": [
             "Williamsburg"
         ],
-        "pageviews": 26035
+        "pageviews": 146
     },
     {
         "query_id": "276_590",
@@ -4719,7 +3606,7 @@
         "answers": [
             "Hellas quadrangle"
         ],
-        "pageviews": 1382
+        "pageviews": 3
     },
     {
         "query_id": "276_591",
@@ -4727,7 +3614,7 @@
         "answers": [
             "Gleneagles Hotel"
         ],
-        "pageviews": 30716
+        "pageviews": 45
     },
     {
         "query_id": "276_592",
@@ -4735,15 +3622,7 @@
         "answers": [
             "The Dakota"
         ],
-        "pageviews": 1145983
-    },
-    {
-        "query_id": "276_593",
-        "question": "Where is 9 Evenings: Theatre and Engineering located?",
-        "answers": [
-            "69th Regiment Armory"
-        ],
-        "pageviews": 6069
+        "pageviews": 10
     },
     {
         "query_id": "276_594",
@@ -4751,7 +3630,7 @@
         "answers": [
             "Provincetown"
         ],
-        "pageviews": 3396
+        "pageviews": 7
     },
     {
         "query_id": "276_595",
@@ -4759,7 +3638,7 @@
         "answers": [
             "St Albans"
         ],
-        "pageviews": 46954
+        "pageviews": 72
     },
     {
         "query_id": "276_596",
@@ -4767,7 +3646,7 @@
         "answers": [
             "Loimaa"
         ],
-        "pageviews": 4446
+        "pageviews": 13
     },
     {
         "query_id": "276_597",
@@ -4775,7 +3654,7 @@
         "answers": [
             "Convention Hall"
         ],
-        "pageviews": 12575
+        "pageviews": 31
     },
     {
         "query_id": "276_598",
@@ -4783,7 +3662,7 @@
         "answers": [
             "Antalya"
         ],
-        "pageviews": 1166
+        "pageviews": 3
     },
     {
         "query_id": "276_599",
@@ -4791,7 +3670,7 @@
         "answers": [
             "Crown Perth"
         ],
-        "pageviews": 2039
+        "pageviews": 5
     },
     {
         "query_id": "276_600",
@@ -4799,7 +3678,7 @@
         "answers": [
             "Athens"
         ],
-        "pageviews": 8488
+        "pageviews": 6
     },
     {
         "query_id": "276_601",
@@ -4807,7 +3686,7 @@
         "answers": [
             "Mountain View"
         ],
-        "pageviews": 28711
+        "pageviews": 85
     },
     {
         "query_id": "276_603",
@@ -4815,7 +3694,7 @@
         "answers": [
             "National Museum of Rome"
         ],
-        "pageviews": 30163
+        "pageviews": 8
     },
     {
         "query_id": "276_604",
@@ -4823,15 +3702,7 @@
         "answers": [
             "Lake District"
         ],
-        "pageviews": 1445
-    },
-    {
-        "query_id": "276_605",
-        "question": "Where is Mohave County Hospital located?",
-        "answers": [
-            "Mohave County"
-        ],
-        "pageviews": 690
+        "pageviews": 7
     },
     {
         "query_id": "276_606",
@@ -4839,7 +3710,7 @@
         "answers": [
             "Russian Empire"
         ],
-        "pageviews": 642630
+        "pageviews": 538
     },
     {
         "query_id": "276_607",
@@ -4847,7 +3718,7 @@
         "answers": [
             "Pompeii"
         ],
-        "pageviews": 15110
+        "pageviews": 6
     },
     {
         "query_id": "276_608",
@@ -4855,7 +3726,7 @@
         "answers": [
             "Adelaide Street Circuit"
         ],
-        "pageviews": 38800
+        "pageviews": 35
     },
     {
         "query_id": "276_609",
@@ -4863,7 +3734,7 @@
         "answers": [
             "Lubyanka Building"
         ],
-        "pageviews": 37592
+        "pageviews": 30
     },
     {
         "query_id": "276_610",
@@ -4871,7 +3742,7 @@
         "answers": [
             "Berlin"
         ],
-        "pageviews": 182320
+        "pageviews": 225
     },
     {
         "query_id": "276_611",
@@ -4879,7 +3750,7 @@
         "answers": [
             "Chiari"
         ],
-        "pageviews": 5317
+        "pageviews": 8
     },
     {
         "query_id": "276_612",
@@ -4887,7 +3758,7 @@
         "answers": [
             "Changchun"
         ],
-        "pageviews": 3169
+        "pageviews": 18
     },
     {
         "query_id": "276_613",
@@ -4895,7 +3766,7 @@
         "answers": [
             "Nesbyen"
         ],
-        "pageviews": 999
+        "pageviews": 1
     },
     {
         "query_id": "276_614",
@@ -4903,7 +3774,7 @@
         "answers": [
             "Montevideo"
         ],
-        "pageviews": 631
+        "pageviews": 1
     },
     {
         "query_id": "276_615",
@@ -4911,7 +3782,7 @@
         "answers": [
             "Singapore"
         ],
-        "pageviews": 7259
+        "pageviews": 119
     },
     {
         "query_id": "276_616",
@@ -4919,7 +3790,7 @@
         "answers": [
             "Rotterdam"
         ],
-        "pageviews": 4586
+        "pageviews": 1
     },
     {
         "query_id": "276_617",
@@ -4927,15 +3798,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 1400
-    },
-    {
-        "query_id": "276_618",
-        "question": "Where is 2012 Burlington VIA derailment located?",
-        "answers": [
-            "Burlington"
-        ],
-        "pageviews": 3346
+        "pageviews": 9
     },
     {
         "query_id": "276_619",
@@ -4943,7 +3806,7 @@
         "answers": [
             "Blackheath"
         ],
-        "pageviews": 3148
+        "pageviews": 1
     },
     {
         "query_id": "276_620",
@@ -4951,7 +3814,7 @@
         "answers": [
             "Park City"
         ],
-        "pageviews": 1354
+        "pageviews": 1
     },
     {
         "query_id": "276_621",
@@ -4959,15 +3822,7 @@
         "answers": [
             "Royal Troon Golf Club"
         ],
-        "pageviews": 7190
-    },
-    {
-        "query_id": "276_622",
-        "question": "Where is The Falcon located?",
-        "answers": [
-            "London"
-        ],
-        "pageviews": 3100
+        "pageviews": 19
     },
     {
         "query_id": "276_623",
@@ -4975,15 +3830,7 @@
         "answers": [
             "Centenary Square"
         ],
-        "pageviews": 6479
-    },
-    {
-        "query_id": "276_624",
-        "question": "Where is Knott located?",
-        "answers": [
-            "Lake District"
-        ],
-        "pageviews": 1796
+        "pageviews": 3
     },
     {
         "query_id": "276_625",
@@ -4991,7 +3838,7 @@
         "answers": [
             "Shanghai"
         ],
-        "pageviews": 2765
+        "pageviews": 31
     },
     {
         "query_id": "276_626",
@@ -4999,23 +3846,7 @@
         "answers": [
             "Ullevi"
         ],
-        "pageviews": 29275
-    },
-    {
-        "query_id": "276_627",
-        "question": "Where is Belize at the 1992 Summer Olympics located?",
-        "answers": [
-            "Barcelona"
-        ],
-        "pageviews": 1302
-    },
-    {
-        "query_id": "276_628",
-        "question": "Where is Siege of Asti located?",
-        "answers": [
-            "Asti"
-        ],
-        "pageviews": 2356
+        "pageviews": 292
     },
     {
         "query_id": "276_629",
@@ -5023,7 +3854,7 @@
         "answers": [
             "Odeonsplatz"
         ],
-        "pageviews": 21833
+        "pageviews": 19
     },
     {
         "query_id": "276_630",
@@ -5031,15 +3862,7 @@
         "answers": [
             "Mehsana"
         ],
-        "pageviews": 8542
-    },
-    {
-        "query_id": "276_631",
-        "question": "Where is Asmodea located?",
-        "answers": [
-            "Museo del Prado"
-        ],
-        "pageviews": 10536
+        "pageviews": 1
     },
     {
         "query_id": "276_632",
@@ -5047,7 +3870,7 @@
         "answers": [
             "Cuba"
         ],
-        "pageviews": 603976
+        "pageviews": 916
     },
     {
         "query_id": "276_633",
@@ -5055,15 +3878,7 @@
         "answers": [
             "Stow-on-the-Wold"
         ],
-        "pageviews": 8194
-    },
-    {
-        "query_id": "276_634",
-        "question": "Where is 1979 Custom Credit Australian Indoor Championships located?",
-        "answers": [
-            "Hordern Pavilion"
-        ],
-        "pageviews": 506
+        "pageviews": 11
     },
     {
         "query_id": "276_635",
@@ -5071,15 +3886,7 @@
         "answers": [
             "Kingdom of France"
         ],
-        "pageviews": 26138
-    },
-    {
-        "query_id": "276_636",
-        "question": "Where is Peace Treaty of Wiener Neustadt located?",
-        "answers": [
-            "Wiener Neustadt"
-        ],
-        "pageviews": 15
+        "pageviews": 27
     },
     {
         "query_id": "276_637",
@@ -5088,7 +3895,7 @@
             "West Sussex",
             "Alton"
         ],
-        "pageviews": 5606
+        "pageviews": 1
     },
     {
         "query_id": "276_638",
@@ -5096,7 +3903,7 @@
         "answers": [
             "Gamla stan"
         ],
-        "pageviews": 610
+        "pageviews": 4
     },
     {
         "query_id": "276_639",
@@ -5104,7 +3911,7 @@
         "answers": [
             "Staples Center"
         ],
-        "pageviews": 105290
+        "pageviews": 212
     },
     {
         "query_id": "276_640",
@@ -5112,15 +3919,7 @@
         "answers": [
             "Arezzo"
         ],
-        "pageviews": 6052
-    },
-    {
-        "query_id": "276_641",
-        "question": "Where is 1936 Soviet Cup Final located?",
-        "answers": [
-            "Central Dynamo Stadium"
-        ],
-        "pageviews": 0
+        "pageviews": 2
     },
     {
         "query_id": "276_642",
@@ -5128,7 +3927,7 @@
         "answers": [
             "Kandy"
         ],
-        "pageviews": 3905
+        "pageviews": 3
     },
     {
         "query_id": "276_643",
@@ -5136,7 +3935,7 @@
         "answers": [
             "Kalutara District"
         ],
-        "pageviews": 7578
+        "pageviews": 2
     },
     {
         "query_id": "276_644",
@@ -5144,7 +3943,7 @@
         "answers": [
             "Radonji\u0107ko Lake"
         ],
-        "pageviews": 8207
+        "pageviews": 5
     },
     {
         "query_id": "276_645",
@@ -5152,7 +3951,7 @@
         "answers": [
             "Peak District"
         ],
-        "pageviews": 1719
+        "pageviews": 5
     },
     {
         "query_id": "276_646",
@@ -5161,7 +3960,7 @@
             "Ethiopia",
             "Eritrea"
         ],
-        "pageviews": 153185
+        "pageviews": 50
     },
     {
         "query_id": "276_647",
@@ -5172,7 +3971,7 @@
             "Saudi Arabia",
             "Israel"
         ],
-        "pageviews": 2883568
+        "pageviews": 3941
     },
     {
         "query_id": "276_649",
@@ -5180,23 +3979,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 5545
-    },
-    {
-        "query_id": "276_650",
-        "question": "Where is Salem Church in Habo located?",
-        "answers": [
-            "Habo"
-        ],
-        "pageviews": 411
-    },
-    {
-        "query_id": "276_651",
-        "question": "Where is battle of Capua (211 BC) located?",
-        "answers": [
-            "Capua"
-        ],
-        "pageviews": 6351
+        "pageviews": 10
     },
     {
         "query_id": "276_652",
@@ -5204,7 +3987,7 @@
         "answers": [
             "Sochi"
         ],
-        "pageviews": 6570
+        "pageviews": 62
     },
     {
         "query_id": "276_653",
@@ -5212,7 +3995,7 @@
         "answers": [
             "Copenhagen"
         ],
-        "pageviews": 2058
+        "pageviews": 9
     },
     {
         "query_id": "276_654",
@@ -5220,7 +4003,7 @@
         "answers": [
             "Heeze"
         ],
-        "pageviews": 750
+        "pageviews": 1
     },
     {
         "query_id": "276_655",
@@ -5228,15 +4011,7 @@
         "answers": [
             "Indiana State House"
         ],
-        "pageviews": 1040
-    },
-    {
-        "query_id": "276_656",
-        "question": "Where is Healdsburg Municipal Airport located?",
-        "answers": [
-            "Healdsburg"
-        ],
-        "pageviews": 1903
+        "pageviews": 1
     },
     {
         "query_id": "276_657",
@@ -5244,15 +4019,7 @@
         "answers": [
             "Red Bull Ring"
         ],
-        "pageviews": 12686
-    },
-    {
-        "query_id": "276_658",
-        "question": "Where is Battle of Carteia located?",
-        "answers": [
-            "Carteia"
-        ],
-        "pageviews": 2587
+        "pageviews": 29
     },
     {
         "query_id": "276_659",
@@ -5260,7 +4027,7 @@
         "answers": [
             "Ismenius Lacus quadrangle"
         ],
-        "pageviews": 1657
+        "pageviews": 2
     },
     {
         "query_id": "276_660",
@@ -5268,7 +4035,7 @@
         "answers": [
             "Millennium Biltmore Hotel"
         ],
-        "pageviews": 35279
+        "pageviews": 26
     },
     {
         "query_id": "276_661",
@@ -5276,7 +4043,7 @@
         "answers": [
             "Narva"
         ],
-        "pageviews": 14112
+        "pageviews": 8
     },
     {
         "query_id": "276_662",
@@ -5284,7 +4051,7 @@
         "answers": [
             "Newfoundland"
         ],
-        "pageviews": 10385
+        "pageviews": 4
     },
     {
         "query_id": "276_663",
@@ -5292,7 +4059,7 @@
         "answers": [
             "Gamla stan"
         ],
-        "pageviews": 6626
+        "pageviews": 34
     },
     {
         "query_id": "276_664",
@@ -5300,7 +4067,7 @@
         "answers": [
             "Silverstone Circuit"
         ],
-        "pageviews": 7834
+        "pageviews": 18
     },
     {
         "query_id": "276_665",
@@ -5308,7 +4075,7 @@
         "answers": [
             "Jerez de la Frontera"
         ],
-        "pageviews": 8451
+        "pageviews": 5
     },
     {
         "query_id": "276_666",
@@ -5316,15 +4083,7 @@
         "answers": [
             "Tamar"
         ],
-        "pageviews": 9736
-    },
-    {
-        "query_id": "276_667",
-        "question": "Where is PIA Flight 705 located?",
-        "answers": [
-            "Cairo International Airport"
-        ],
-        "pageviews": 22914
+        "pageviews": 5
     },
     {
         "query_id": "276_668",
@@ -5333,7 +4092,7 @@
             "Crucible Theatre",
             "Sheffield"
         ],
-        "pageviews": 37844
+        "pageviews": 27
     },
     {
         "query_id": "276_669",
@@ -5342,15 +4101,7 @@
             "Arizona",
             "California"
         ],
-        "pageviews": 22588
-    },
-    {
-        "query_id": "276_670",
-        "question": "Where is Vilhelmina BK located?",
-        "answers": [
-            "Vilhelmina"
-        ],
-        "pageviews": 280
+        "pageviews": 17
     },
     {
         "query_id": "276_671",
@@ -5358,15 +4109,7 @@
         "answers": [
             "Florida"
         ],
-        "pageviews": 95478
-    },
-    {
-        "query_id": "276_672",
-        "question": "Where is The Singel Bridge at the Paleisstraat in Amsterdam located?",
-        "answers": [
-            "Rijksmuseum"
-        ],
-        "pageviews": 1615
+        "pageviews": 6
     },
     {
         "query_id": "276_673",
@@ -5374,7 +4117,7 @@
         "answers": [
             "Villarrobledo"
         ],
-        "pageviews": 1061
+        "pageviews": 4
     },
     {
         "query_id": "276_674",
@@ -5382,15 +4125,7 @@
         "answers": [
             "North Platte"
         ],
-        "pageviews": 2334
-    },
-    {
-        "query_id": "276_675",
-        "question": "Where is Brink's robbery located?",
-        "answers": [
-            "Nanuet"
-        ],
-        "pageviews": 93248
+        "pageviews": 5
     },
     {
         "query_id": "276_676",
@@ -5398,7 +4133,7 @@
         "answers": [
             "Aintree Racecourse"
         ],
-        "pageviews": 1531
+        "pageviews": 3
     },
     {
         "query_id": "276_677",
@@ -5406,7 +4141,7 @@
         "answers": [
             "Hazara Town"
         ],
-        "pageviews": 13185
+        "pageviews": 2
     },
     {
         "query_id": "276_678",
@@ -5414,7 +4149,7 @@
         "answers": [
             "Palazzo Pitti"
         ],
-        "pageviews": 5029
+        "pageviews": 2
     },
     {
         "query_id": "276_679",
@@ -5422,15 +4157,7 @@
         "answers": [
             "Mombasa"
         ],
-        "pageviews": 42694
-    },
-    {
-        "query_id": "276_680",
-        "question": "Where is Portrait of a woman said to be Hylck Boner located?",
-        "answers": [
-            "The Frick Collection"
-        ],
-        "pageviews": 710
+        "pageviews": 24
     },
     {
         "query_id": "276_681",
@@ -5438,7 +4165,7 @@
         "answers": [
             "Scotland"
         ],
-        "pageviews": 11112
+        "pageviews": 5
     },
     {
         "query_id": "276_682",
@@ -5446,7 +4173,7 @@
         "answers": [
             "Lagos"
         ],
-        "pageviews": 29876
+        "pageviews": 64
     },
     {
         "query_id": "276_683",
@@ -5454,7 +4181,7 @@
         "answers": [
             "Borgerhout"
         ],
-        "pageviews": 2190
+        "pageviews": 3
     },
     {
         "query_id": "276_684",
@@ -5463,7 +4190,7 @@
             "Kingdom of Scotland",
             "Kingdom of England"
         ],
-        "pageviews": 238987
+        "pageviews": 128
     },
     {
         "query_id": "276_685",
@@ -5471,7 +4198,7 @@
         "answers": [
             "Gallagher Convention Centre"
         ],
-        "pageviews": 24759
+        "pageviews": 72
     },
     {
         "query_id": "276_686",
@@ -5479,7 +4206,7 @@
         "answers": [
             "Circuit Gilles Villeneuve"
         ],
-        "pageviews": 12669
+        "pageviews": 23
     },
     {
         "query_id": "276_687",
@@ -5487,15 +4214,7 @@
         "answers": [
             "New Delhi"
         ],
-        "pageviews": 2516
-    },
-    {
-        "query_id": "276_688",
-        "question": "Where is Banjarmasin riot of May 1997 located?",
-        "answers": [
-            "Banjarmasin"
-        ],
-        "pageviews": 2570
+        "pageviews": 35
     },
     {
         "query_id": "276_689",
@@ -5503,7 +4222,7 @@
         "answers": [
             "Kista"
         ],
-        "pageviews": 8123
+        "pageviews": 1
     },
     {
         "query_id": "276_690",
@@ -5511,15 +4230,7 @@
         "answers": [
             "Disney's Animal Kingdom"
         ],
-        "pageviews": 27981
-    },
-    {
-        "query_id": "276_691",
-        "question": "Where is Museumkwartier located?",
-        "answers": [
-            "Amsterdam-Zuid"
-        ],
-        "pageviews": 0
+        "pageviews": 4
     },
     {
         "query_id": "276_692",
@@ -5527,7 +4238,7 @@
         "answers": [
             "Rosalia"
         ],
-        "pageviews": 5781
+        "pageviews": 14
     },
     {
         "query_id": "276_693",
@@ -5535,7 +4246,7 @@
         "answers": [
             "National Gallery"
         ],
-        "pageviews": 23925
+        "pageviews": 4
     },
     {
         "query_id": "276_694",
@@ -5543,7 +4254,7 @@
         "answers": [
             "Chemnitz"
         ],
-        "pageviews": 5964
+        "pageviews": 5
     },
     {
         "query_id": "276_695",
@@ -5551,7 +4262,7 @@
         "answers": [
             "Adana"
         ],
-        "pageviews": 1808
+        "pageviews": 1
     },
     {
         "query_id": "276_696",
@@ -5559,7 +4270,7 @@
         "answers": [
             "Hardwick Hall"
         ],
-        "pageviews": 2549
+        "pageviews": 2
     },
     {
         "query_id": "276_697",
@@ -5567,7 +4278,7 @@
         "answers": [
             "Liestal"
         ],
-        "pageviews": 2819
+        "pageviews": 1
     },
     {
         "query_id": "276_698",
@@ -5575,15 +4286,7 @@
         "answers": [
             "Mayfair"
         ],
-        "pageviews": 4931
-    },
-    {
-        "query_id": "276_699",
-        "question": "Where is Donald and Ruth McGraw House located?",
-        "answers": [
-            "Dunthorpe"
-        ],
-        "pageviews": 750
+        "pageviews": 1
     },
     {
         "query_id": "276_700",
@@ -5591,7 +4294,7 @@
         "answers": [
             "Giethoorn"
         ],
-        "pageviews": 867
+        "pageviews": 1
     },
     {
         "query_id": "276_701",
@@ -5599,7 +4302,7 @@
         "answers": [
             "Vienna"
         ],
-        "pageviews": 70742
+        "pageviews": 16
     },
     {
         "query_id": "276_702",
@@ -5607,7 +4310,7 @@
         "answers": [
             "Nazareth"
         ],
-        "pageviews": 23463
+        "pageviews": 13
     },
     {
         "query_id": "276_703",
@@ -5615,15 +4318,7 @@
         "answers": [
             "Johanneshov"
         ],
-        "pageviews": 4015
-    },
-    {
-        "query_id": "276_704",
-        "question": "Where is Wollerich located?",
-        "answers": [
-            "Sint-Oedenrode"
-        ],
-        "pageviews": 706
+        "pageviews": 5
     },
     {
         "query_id": "276_705",
@@ -5631,15 +4326,7 @@
         "answers": [
             "Istanbul"
         ],
-        "pageviews": 8738
-    },
-    {
-        "query_id": "276_706",
-        "question": "Where is Japanese Pagoda located?",
-        "answers": [
-            "West Potomac Park"
-        ],
-        "pageviews": 2418
+        "pageviews": 10
     },
     {
         "query_id": "276_707",
@@ -5647,7 +4334,7 @@
         "answers": [
             "Roehampton"
         ],
-        "pageviews": 986
+        "pageviews": 2
     },
     {
         "query_id": "276_708",
@@ -5655,15 +4342,7 @@
         "answers": [
             "Canosa di Puglia"
         ],
-        "pageviews": 6268
-    },
-    {
-        "query_id": "276_709",
-        "question": "Where is Portrait of Pier Maria Rossi di San Secondo located?",
-        "answers": [
-            "Museo del Prado"
-        ],
-        "pageviews": 3364
+        "pageviews": 1
     },
     {
         "query_id": "276_710",
@@ -5671,7 +4350,7 @@
         "answers": [
             "Vikingskipet"
         ],
-        "pageviews": 1368
+        "pageviews": 9
     },
     {
         "query_id": "276_711",
@@ -5679,7 +4358,7 @@
         "answers": [
             "Wissembourg"
         ],
-        "pageviews": 15776
+        "pageviews": 28
     },
     {
         "query_id": "276_712",
@@ -5687,7 +4366,7 @@
         "answers": [
             "Rock Creek Cemetery"
         ],
-        "pageviews": 2155
+        "pageviews": 2
     },
     {
         "query_id": "276_713",
@@ -5695,7 +4374,7 @@
         "answers": [
             "Thessaloniki"
         ],
-        "pageviews": 1550
+        "pageviews": 4
     },
     {
         "query_id": "276_714",
@@ -5703,7 +4382,7 @@
         "answers": [
             "Beilen"
         ],
-        "pageviews": 1037
+        "pageviews": 2
     },
     {
         "query_id": "276_715",
@@ -5711,15 +4390,7 @@
         "answers": [
             "Shrine Auditorium"
         ],
-        "pageviews": 206197
-    },
-    {
-        "query_id": "276_716",
-        "question": "Where is Jachin en Boazkerk, Genemuiden located?",
-        "answers": [
-            "Genemuiden"
-        ],
-        "pageviews": 586
+        "pageviews": 90
     },
     {
         "query_id": "276_717",
@@ -5727,7 +4398,7 @@
         "answers": [
             "Rome"
         ],
-        "pageviews": 17783
+        "pageviews": 112
     },
     {
         "query_id": "276_718",
@@ -5735,23 +4406,7 @@
         "answers": [
             "Thrissur"
         ],
-        "pageviews": 2195
-    },
-    {
-        "query_id": "276_719",
-        "question": "Where is Battle of Killala located?",
-        "answers": [
-            "Killala"
-        ],
-        "pageviews": 4582
-    },
-    {
-        "query_id": "276_720",
-        "question": "Where is 2001 Jammu and Kashmir legislative assembly attack located?",
-        "answers": [
-            "Srinagar"
-        ],
-        "pageviews": 0
+        "pageviews": 6
     },
     {
         "query_id": "276_721",
@@ -5759,7 +4414,7 @@
         "answers": [
             "Katowice"
         ],
-        "pageviews": 2634
+        "pageviews": 13
     },
     {
         "query_id": "276_722",
@@ -5767,7 +4422,7 @@
         "answers": [
             "Taormina"
         ],
-        "pageviews": 12276
+        "pageviews": 29
     },
     {
         "query_id": "276_723",
@@ -5775,7 +4430,7 @@
         "answers": [
             "Port Chester"
         ],
-        "pageviews": 11559
+        "pageviews": 3
     },
     {
         "query_id": "276_724",
@@ -5783,15 +4438,7 @@
         "answers": [
             "Oak Hill Country Club"
         ],
-        "pageviews": 14423
-    },
-    {
-        "query_id": "276_725",
-        "question": "Where is Fallas of Valencia located?",
-        "answers": [
-            "Valencia"
-        ],
-        "pageviews": 0
+        "pageviews": 16
     },
     {
         "query_id": "276_726",
@@ -5799,7 +4446,7 @@
         "answers": [
             "London"
         ],
-        "pageviews": 45655
+        "pageviews": 33
     },
     {
         "query_id": "276_727",
@@ -5807,7 +4454,7 @@
         "answers": [
             "Kruununhaka"
         ],
-        "pageviews": 4187
+        "pageviews": 5
     },
     {
         "query_id": "276_728",
@@ -5815,7 +4462,7 @@
         "answers": [
             "National Museum of Denmark"
         ],
-        "pageviews": 50866
+        "pageviews": 34
     },
     {
         "query_id": "276_729",
@@ -5823,7 +4470,7 @@
         "answers": [
             "Jordan River"
         ],
-        "pageviews": 5324
+        "pageviews": 12
     },
     {
         "query_id": "276_730",
@@ -5831,7 +4478,7 @@
         "answers": [
             "Pompeii"
         ],
-        "pageviews": 38218
+        "pageviews": 9
     },
     {
         "query_id": "276_731",
@@ -5839,7 +4486,7 @@
         "answers": [
             "Gamla stan"
         ],
-        "pageviews": 745
+        "pageviews": 6
     },
     {
         "query_id": "276_732",
@@ -5847,7 +4494,7 @@
         "answers": [
             "Salla"
         ],
-        "pageviews": 11763
+        "pageviews": 5
     },
     {
         "query_id": "276_733",
@@ -5855,15 +4502,7 @@
         "answers": [
             "La Silla Observatory"
         ],
-        "pageviews": 3765
-    },
-    {
-        "query_id": "276_734",
-        "question": "Where is 1976 Toronto International Film Festival located?",
-        "answers": [
-            "Toronto"
-        ],
-        "pageviews": 1794
+        "pageviews": 1
     },
     {
         "query_id": "276_735",
@@ -5871,7 +4510,7 @@
         "answers": [
             "Mount Lemmon"
         ],
-        "pageviews": 9926
+        "pageviews": 17
     },
     {
         "query_id": "276_736",
@@ -5879,7 +4518,7 @@
         "answers": [
             "Lake District"
         ],
-        "pageviews": 3727
+        "pageviews": 5
     },
     {
         "query_id": "276_737",
@@ -5887,7 +4526,7 @@
         "answers": [
             "Passendale"
         ],
-        "pageviews": 45653
+        "pageviews": 50
     },
     {
         "query_id": "276_738",
@@ -5895,7 +4534,7 @@
         "answers": [
             "Amsterdam-Zuid"
         ],
-        "pageviews": 7912
+        "pageviews": 6
     },
     {
         "query_id": "276_739",
@@ -5903,7 +4542,7 @@
         "answers": [
             "Appomattox Court House National Historical Park"
         ],
-        "pageviews": 1443
+        "pageviews": 5
     },
     {
         "query_id": "276_740",
@@ -5911,7 +4550,7 @@
         "answers": [
             "Kruiningen"
         ],
-        "pageviews": 854
+        "pageviews": 2
     },
     {
         "query_id": "276_741",
@@ -5919,7 +4558,7 @@
         "answers": [
             "Crown Perth"
         ],
-        "pageviews": 1654
+        "pageviews": 5
     },
     {
         "query_id": "276_742",
@@ -5927,15 +4566,7 @@
         "answers": [
             "Amorium"
         ],
-        "pageviews": 16868
-    },
-    {
-        "query_id": "276_743",
-        "question": "Where is The Drop located?",
-        "answers": [
-            "Coal Harbour"
-        ],
-        "pageviews": 4141
+        "pageviews": 29
     },
     {
         "query_id": "276_744",
@@ -5943,7 +4574,7 @@
         "answers": [
             "Cathedral of Learning"
         ],
-        "pageviews": 28749
+        "pageviews": 8
     },
     {
         "query_id": "276_745",
@@ -5951,7 +4582,7 @@
         "answers": [
             "Railtown 1897 State Historic Park"
         ],
-        "pageviews": 933
+        "pageviews": 1
     },
     {
         "query_id": "276_746",
@@ -5959,7 +4590,7 @@
         "answers": [
             "Dunaverty Castle"
         ],
-        "pageviews": 4436
+        "pageviews": 4
     },
     {
         "query_id": "276_747",
@@ -5967,7 +4598,7 @@
         "answers": [
             "Istanbul"
         ],
-        "pageviews": 382181
+        "pageviews": 250
     },
     {
         "query_id": "276_748",
@@ -5975,7 +4606,7 @@
         "answers": [
             "Santa Rosa"
         ],
-        "pageviews": 3304
+        "pageviews": 2
     },
     {
         "query_id": "276_749",
@@ -5983,7 +4614,7 @@
         "answers": [
             "Gamla stan"
         ],
-        "pageviews": 782
+        "pageviews": 3
     },
     {
         "query_id": "276_750",
@@ -5991,7 +4622,7 @@
         "answers": [
             "Jardin du Luxembourg"
         ],
-        "pageviews": 3678
+        "pageviews": 3
     },
     {
         "query_id": "276_751",
@@ -5999,7 +4630,7 @@
         "answers": [
             "New Delhi"
         ],
-        "pageviews": 18745
+        "pageviews": 21
     },
     {
         "query_id": "276_752",
@@ -6007,7 +4638,7 @@
         "answers": [
             "Lens"
         ],
-        "pageviews": 21312
+        "pageviews": 21
     },
     {
         "query_id": "276_753",
@@ -6015,7 +4646,7 @@
         "answers": [
             "Zliten"
         ],
-        "pageviews": 2117
+        "pageviews": 2
     },
     {
         "query_id": "276_754",
@@ -6023,7 +4654,7 @@
         "answers": [
             "Gila Bend"
         ],
-        "pageviews": 6986
+        "pageviews": 4
     },
     {
         "query_id": "276_755",
@@ -6031,23 +4662,7 @@
         "answers": [
             "Susa"
         ],
-        "pageviews": 21292
-    },
-    {
-        "query_id": "276_756",
-        "question": "Where is 1887 FA Cup Final located?",
-        "answers": [
-            "The Oval"
-        ],
-        "pageviews": 0
-    },
-    {
-        "query_id": "276_757",
-        "question": "Where is 21 April 2004 Basra bombings located?",
-        "answers": [
-            "Basra"
-        ],
-        "pageviews": 0
+        "pageviews": 10
     },
     {
         "query_id": "276_758",
@@ -6055,7 +4670,7 @@
         "answers": [
             "Capricornia Cays National Park"
         ],
-        "pageviews": 1297
+        "pageviews": 7
     },
     {
         "query_id": "276_759",
@@ -6063,7 +4678,7 @@
         "answers": [
             "Aintree Racecourse"
         ],
-        "pageviews": 1200
+        "pageviews": 1
     },
     {
         "query_id": "276_760",
@@ -6071,7 +4686,7 @@
         "answers": [
             "Montreal"
         ],
-        "pageviews": 9115
+        "pageviews": 1
     },
     {
         "query_id": "276_761",
@@ -6079,7 +4694,7 @@
         "answers": [
             "Suvla"
         ],
-        "pageviews": 10864
+        "pageviews": 43
     },
     {
         "query_id": "276_762",
@@ -6087,7 +4702,7 @@
         "answers": [
             "Sarajevo"
         ],
-        "pageviews": 1241744
+        "pageviews": 15
     },
     {
         "query_id": "276_763",
@@ -6095,23 +4710,7 @@
         "answers": [
             "Franklin Institute"
         ],
-        "pageviews": 12511
-    },
-    {
-        "query_id": "276_764",
-        "question": "Where is Susanna and the Elders located?",
-        "answers": [
-            "Galleria Borghese"
-        ],
-        "pageviews": 4945
-    },
-    {
-        "query_id": "276_765",
-        "question": "Where is wildflowers of New England located?",
-        "answers": [
-            "New England"
-        ],
-        "pageviews": 1424
+        "pageviews": 5
     },
     {
         "query_id": "276_766",
@@ -6119,7 +4718,7 @@
         "answers": [
             "Norwood Junction railway station"
         ],
-        "pageviews": 4026
+        "pageviews": 5
     },
     {
         "query_id": "276_767",
@@ -6127,7 +4726,7 @@
         "answers": [
             "Sonoma Valley"
         ],
-        "pageviews": 4676
+        "pageviews": 10
     },
     {
         "query_id": "276_768",
@@ -6135,23 +4734,7 @@
         "answers": [
             "Lahore"
         ],
-        "pageviews": 1667
-    },
-    {
-        "query_id": "276_769",
-        "question": "Where is Delivery of the Keys located?",
-        "answers": [
-            "Sistine Chapel"
-        ],
-        "pageviews": 0
-    },
-    {
-        "query_id": "276_770",
-        "question": "Where is 2014 Rawalpindi suicide bombing located?",
-        "answers": [
-            "Rawalpindi"
-        ],
-        "pageviews": 822
+        "pageviews": 2
     },
     {
         "query_id": "276_771",
@@ -6159,15 +4742,7 @@
         "answers": [
             "Museo Poldi Pezzoli"
         ],
-        "pageviews": 3870
-    },
-    {
-        "query_id": "276_772",
-        "question": "Where is 15th Hollywood Film Awards located?",
-        "answers": [
-            "Beverly Hills"
-        ],
-        "pageviews": 1326
+        "pageviews": 1
     },
     {
         "query_id": "276_773",
@@ -6176,23 +4751,7 @@
             "Sheffield",
             "Crucible Theatre"
         ],
-        "pageviews": 34699
-    },
-    {
-        "query_id": "276_774",
-        "question": "Where is Frontier Middle School shooting located?",
-        "answers": [
-            "Moses Lake"
-        ],
-        "pageviews": 0
-    },
-    {
-        "query_id": "276_775",
-        "question": "Where is Wetheral train accident 1836 located?",
-        "answers": [
-            "Wetheral"
-        ],
-        "pageviews": 1745
+        "pageviews": 24
     },
     {
         "query_id": "276_776",
@@ -6200,7 +4759,7 @@
         "answers": [
             "Monash University"
         ],
-        "pageviews": 35448
+        "pageviews": 2
     },
     {
         "query_id": "276_777",
@@ -6208,15 +4767,7 @@
         "answers": [
             "Sofia"
         ],
-        "pageviews": 2061
-    },
-    {
-        "query_id": "276_778",
-        "question": "Where is Students Aspire located?",
-        "answers": [
-            "Howard University"
-        ],
-        "pageviews": 2427
+        "pageviews": 2
     },
     {
         "query_id": "276_779",
@@ -6224,15 +4775,7 @@
         "answers": [
             "Workum"
         ],
-        "pageviews": 792
-    },
-    {
-        "query_id": "276_780",
-        "question": "Where is 1895 FA Cup Final located?",
-        "answers": [
-            "Crystal Palace National Sports Centre"
-        ],
-        "pageviews": 0
+        "pageviews": 1
     },
     {
         "query_id": "276_781",
@@ -6240,15 +4783,7 @@
         "answers": [
             "Embassy of Spain, London"
         ],
-        "pageviews": 7498
-    },
-    {
-        "query_id": "276_782",
-        "question": "Where is Speed skating at the 2012 Winter Youth Olympics \u2013 Girls' 500 metres located?",
-        "answers": [
-            "Eisschnellaufbahn Innsbruck"
-        ],
-        "pageviews": 447
+        "pageviews": 1
     },
     {
         "query_id": "276_783",
@@ -6256,7 +4791,7 @@
         "answers": [
             "Castillon-la-Bataille"
         ],
-        "pageviews": 95995
+        "pageviews": 45
     },
     {
         "query_id": "276_784",
@@ -6264,7 +4799,7 @@
         "answers": [
             "Alte Nationalgalerie"
         ],
-        "pageviews": 41427
+        "pageviews": 5
     },
     {
         "query_id": "276_785",
@@ -6273,7 +4808,7 @@
             "San Diego Zoo",
             "Wolong National Nature Reserve"
         ],
-        "pageviews": 5224
+        "pageviews": 5
     },
     {
         "query_id": "276_786",
@@ -6281,7 +4816,7 @@
         "answers": [
             "Northern Ireland"
         ],
-        "pageviews": 142471
+        "pageviews": 115
     },
     {
         "query_id": "276_787",
@@ -6289,7 +4824,7 @@
         "answers": [
             "Tate Modern"
         ],
-        "pageviews": 3558
+        "pageviews": 1
     },
     {
         "query_id": "276_788",
@@ -6297,16 +4832,7 @@
         "answers": [
             "Wells-next-the-Sea"
         ],
-        "pageviews": 1880
-    },
-    {
-        "query_id": "276_789",
-        "question": "Where is 1910 FA Cup Final located?",
-        "answers": [
-            "Goodison Park",
-            "Crystal Palace National Sports Centre"
-        ],
-        "pageviews": 0
+        "pageviews": 1
     },
     {
         "query_id": "276_790",
@@ -6314,7 +4840,7 @@
         "answers": [
             "Junik"
         ],
-        "pageviews": 15216
+        "pageviews": 1
     },
     {
         "query_id": "276_791",
@@ -6322,7 +4848,7 @@
         "answers": [
             "Meridian Hill Park"
         ],
-        "pageviews": 6798
+        "pageviews": 1
     },
     {
         "query_id": "276_792",
@@ -6330,15 +4856,7 @@
         "answers": [
             "Lisbon"
         ],
-        "pageviews": 10816
-    },
-    {
-        "query_id": "276_793",
-        "question": "Where is Festival on Wheels located?",
-        "answers": [
-            "Turkey"
-        ],
-        "pageviews": 546
+        "pageviews": 28
     },
     {
         "query_id": "276_794",
@@ -6346,7 +4864,7 @@
         "answers": [
             "Carnoustie Golf Links"
         ],
-        "pageviews": 12447
+        "pageviews": 11
     },
     {
         "query_id": "276_795",
@@ -6354,15 +4872,7 @@
         "answers": [
             "New Orleans"
         ],
-        "pageviews": 69963
-    },
-    {
-        "query_id": "276_796",
-        "question": "Where is 1990 Sabadell attack located?",
-        "answers": [
-            "Sabadell"
-        ],
-        "pageviews": 1562
+        "pageviews": 4
     },
     {
         "query_id": "276_797",
@@ -6370,7 +4880,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 1679
+        "pageviews": 3
     },
     {
         "query_id": "276_798",
@@ -6378,7 +4888,7 @@
         "answers": [
             "Pyrzyce"
         ],
-        "pageviews": 2482
+        "pageviews": 6
     },
     {
         "query_id": "276_799",
@@ -6386,7 +4896,7 @@
         "answers": [
             "Rijksmuseum"
         ],
-        "pageviews": 1699
+        "pageviews": 1
     },
     {
         "query_id": "276_800",
@@ -6394,7 +4904,7 @@
         "answers": [
             "Museo del Prado"
         ],
-        "pageviews": 3762
+        "pageviews": 1
     },
     {
         "query_id": "276_801",
@@ -6402,15 +4912,7 @@
         "answers": [
             "Geneva"
         ],
-        "pageviews": 7070
-    },
-    {
-        "query_id": "276_802",
-        "question": "Where is 2005 South Wales E. coli O157 outbreak located?",
-        "answers": [
-            "South Wales"
-        ],
-        "pageviews": 2695
+        "pageviews": 22
     },
     {
         "query_id": "276_803",
@@ -6418,7 +4920,7 @@
         "answers": [
             "Seattle"
         ],
-        "pageviews": 15651
+        "pageviews": 22
     },
     {
         "query_id": "276_804",
@@ -6426,7 +4928,7 @@
         "answers": [
             "Marion"
         ],
-        "pageviews": 2995
+        "pageviews": 1
     },
     {
         "query_id": "276_805",
@@ -6434,15 +4936,7 @@
         "answers": [
             "Tel Aviv"
         ],
-        "pageviews": 3471
-    },
-    {
-        "query_id": "276_806",
-        "question": "Where is Admiral's House located?",
-        "answers": [
-            "Governors Island"
-        ],
-        "pageviews": 2649
+        "pageviews": 3
     },
     {
         "query_id": "276_807",
@@ -6450,7 +4944,7 @@
         "answers": [
             "Circuit de Monaco"
         ],
-        "pageviews": 14117
+        "pageviews": 14
     },
     {
         "query_id": "276_808",
@@ -6458,7 +4952,7 @@
         "answers": [
             "Woerden"
         ],
-        "pageviews": 849
+        "pageviews": 1
     },
     {
         "query_id": "276_809",
@@ -6466,15 +4960,7 @@
         "answers": [
             "Glasgow"
         ],
-        "pageviews": 4321
-    },
-    {
-        "query_id": "276_810",
-        "question": "Where is Woodbridge train derailment located?",
-        "answers": [
-            "Woodbridge Township"
-        ],
-        "pageviews": 7613
+        "pageviews": 3
     },
     {
         "query_id": "276_811",
@@ -6482,7 +4968,7 @@
         "answers": [
             "Banff National Park"
         ],
-        "pageviews": 1998
+        "pageviews": 1
     },
     {
         "query_id": "276_812",
@@ -6490,7 +4976,7 @@
         "answers": [
             "Asagiri Plateau"
         ],
-        "pageviews": 3642
+        "pageviews": 5
     },
     {
         "query_id": "276_813",
@@ -6498,7 +4984,7 @@
         "answers": [
             "Epsom Downs Racecourse"
         ],
-        "pageviews": 1898
+        "pageviews": 4
     },
     {
         "query_id": "276_814",
@@ -6507,23 +4993,7 @@
             "Sheffield",
             "Crucible Theatre"
         ],
-        "pageviews": 23529
-    },
-    {
-        "query_id": "276_815",
-        "question": "Where is 1991 Paris Peace Accords located?",
-        "answers": [
-            "Paris"
-        ],
-        "pageviews": 18888
-    },
-    {
-        "query_id": "276_816",
-        "question": "Where is 1983 France\u2013United Kingdom Maritime Boundary Convention located?",
-        "answers": [
-            "Paris"
-        ],
-        "pageviews": 1308
+        "pageviews": 10
     },
     {
         "query_id": "276_817",
@@ -6531,7 +5001,7 @@
         "answers": [
             "Osijek"
         ],
-        "pageviews": 9875
+        "pageviews": 2
     },
     {
         "query_id": "276_818",
@@ -6539,15 +5009,7 @@
         "answers": [
             "Hanoi"
         ],
-        "pageviews": 922
-    },
-    {
-        "query_id": "276_819",
-        "question": "Where is St. Charles Borromeo Church Complex located?",
-        "answers": [
-            "Woonsocket"
-        ],
-        "pageviews": 1280
+        "pageviews": 3
     },
     {
         "query_id": "276_820",
@@ -6555,7 +5017,7 @@
         "answers": [
             "Mottram St Andrew"
         ],
-        "pageviews": 1067
+        "pageviews": 1
     },
     {
         "query_id": "276_821",
@@ -6563,7 +5025,7 @@
         "answers": [
             "Bijeljina"
         ],
-        "pageviews": 29694
+        "pageviews": 12
     },
     {
         "query_id": "276_822",
@@ -6571,7 +5033,7 @@
         "answers": [
             "Manchester"
         ],
-        "pageviews": 1457
+        "pageviews": 3
     },
     {
         "query_id": "276_823",
@@ -6579,7 +5041,7 @@
         "answers": [
             "Silverstone Circuit"
         ],
-        "pageviews": 15396
+        "pageviews": 12
     },
     {
         "query_id": "276_824",
@@ -6587,7 +5049,7 @@
         "answers": [
             "Clydebank"
         ],
-        "pageviews": 25211
+        "pageviews": 34
     },
     {
         "query_id": "276_825",
@@ -6595,7 +5057,7 @@
         "answers": [
             "Bangkok"
         ],
-        "pageviews": 4291
+        "pageviews": 18
     },
     {
         "query_id": "276_826",
@@ -6603,7 +5065,7 @@
         "answers": [
             "Lake Success"
         ],
-        "pageviews": 1625
+        "pageviews": 2
     },
     {
         "query_id": "276_827",
@@ -6611,15 +5073,7 @@
         "answers": [
             "Las Vegas Strip"
         ],
-        "pageviews": 8840
-    },
-    {
-        "query_id": "276_828",
-        "question": "Where is 2014 L'Open Emeraude Solaire de Saint-Malo located?",
-        "answers": [
-            "Saint-Malo"
-        ],
-        "pageviews": 428
+        "pageviews": 3
     },
     {
         "query_id": "276_829",
@@ -6627,7 +5081,7 @@
         "answers": [
             "Harrogate"
         ],
-        "pageviews": 13064
+        "pageviews": 5
     },
     {
         "query_id": "276_830",
@@ -6635,7 +5089,7 @@
         "answers": [
             "Poyang Lake"
         ],
-        "pageviews": 31546
+        "pageviews": 16
     },
     {
         "query_id": "276_831",
@@ -6643,7 +5097,7 @@
         "answers": [
             "Pirmasens"
         ],
-        "pageviews": 2157
+        "pageviews": 8
     },
     {
         "query_id": "276_832",
@@ -6661,7 +5115,7 @@
             "Saitama Stadium 2002",
             "Miyagi Stadium"
         ],
-        "pageviews": 3738989
+        "pageviews": 1990
     },
     {
         "query_id": "276_833",
@@ -6669,7 +5123,7 @@
         "answers": [
             "Musselburgh Links"
         ],
-        "pageviews": 2905
+        "pageviews": 11
     },
     {
         "query_id": "276_834",
@@ -6677,7 +5131,7 @@
         "answers": [
             "Makuhari Messe"
         ],
-        "pageviews": 2342
+        "pageviews": 10
     },
     {
         "query_id": "276_835",
@@ -6685,23 +5139,7 @@
         "answers": [
             "Spa-Francorchamps"
         ],
-        "pageviews": 11846
-    },
-    {
-        "query_id": "276_836",
-        "question": "Where is Sts. Constantine and Helen Chapel located?",
-        "answers": [
-            "Lime Village"
-        ],
-        "pageviews": 946
-    },
-    {
-        "query_id": "276_837",
-        "question": "Where is The History of the Old Kent Road located?",
-        "answers": [
-            "London"
-        ],
-        "pageviews": 2572
+        "pageviews": 6
     },
     {
         "query_id": "276_838",
@@ -6709,7 +5147,7 @@
         "answers": [
             "Killeen"
         ],
-        "pageviews": 367961
+        "pageviews": 6
     },
     {
         "query_id": "276_839",
@@ -6717,7 +5155,7 @@
         "answers": [
             "Oosterbeek"
         ],
-        "pageviews": 862
+        "pageviews": 1
     },
     {
         "query_id": "276_840",
@@ -6725,7 +5163,7 @@
         "answers": [
             "Kew"
         ],
-        "pageviews": 3827
+        "pageviews": 17
     },
     {
         "query_id": "276_841",
@@ -6733,7 +5171,7 @@
         "answers": [
             "Eilat"
         ],
-        "pageviews": 2188
+        "pageviews": 1
     },
     {
         "query_id": "276_842",
@@ -6741,7 +5179,7 @@
         "answers": [
             "Nikopol"
         ],
-        "pageviews": 171521
+        "pageviews": 103
     },
     {
         "query_id": "276_843",
@@ -6749,7 +5187,7 @@
         "answers": [
             "Norwalk"
         ],
-        "pageviews": 6008
+        "pageviews": 2
     },
     {
         "query_id": "276_844",
@@ -6757,7 +5195,7 @@
         "answers": [
             "Tory Island"
         ],
-        "pageviews": 12215
+        "pageviews": 51
     },
     {
         "query_id": "276_845",
@@ -6765,15 +5203,7 @@
         "answers": [
             "Ashland"
         ],
-        "pageviews": 2420
-    },
-    {
-        "query_id": "276_846",
-        "question": "Where is Franklin Bradshaw murder located?",
-        "answers": [
-            "Utah"
-        ],
-        "pageviews": 15158
+        "pageviews": 28
     },
     {
         "query_id": "276_847",
@@ -6781,7 +5211,7 @@
         "answers": [
             "Bucharest"
         ],
-        "pageviews": 97715
+        "pageviews": 45
     },
     {
         "query_id": "276_848",
@@ -6789,7 +5219,7 @@
         "answers": [
             "Erfurt"
         ],
-        "pageviews": 1929
+        "pageviews": 63
     },
     {
         "query_id": "276_849",
@@ -6797,7 +5227,7 @@
         "answers": [
             "Kuala Lumpur"
         ],
-        "pageviews": 3166
+        "pageviews": 4
     },
     {
         "query_id": "276_850",
@@ -6805,7 +5235,7 @@
         "answers": [
             "Cable Street"
         ],
-        "pageviews": 153460
+        "pageviews": 61
     },
     {
         "query_id": "276_851",
@@ -6813,7 +5243,7 @@
         "answers": [
             "Hartwall Arena"
         ],
-        "pageviews": 126076
+        "pageviews": 396
     },
     {
         "query_id": "276_852",
@@ -6821,15 +5251,7 @@
         "answers": [
             "British Museum"
         ],
-        "pageviews": 5672
-    },
-    {
-        "query_id": "276_853",
-        "question": "Where is 1985 Custom Credit Australian Indoor Championships located?",
-        "answers": [
-            "Sydney Entertainment Centre"
-        ],
-        "pageviews": 670
+        "pageviews": 5
     },
     {
         "query_id": "276_854",
@@ -6837,7 +5259,7 @@
         "answers": [
             "Sinop"
         ],
-        "pageviews": 65480
+        "pageviews": 39
     },
     {
         "query_id": "276_855",
@@ -6846,7 +5268,7 @@
             "Wankdorf Stadium",
             "Hardturm"
         ],
-        "pageviews": 824151
+        "pageviews": 562
     },
     {
         "query_id": "276_856",
@@ -6854,7 +5276,7 @@
         "answers": [
             "Kimbell Art Museum"
         ],
-        "pageviews": 21360
+        "pageviews": 2
     },
     {
         "query_id": "276_857",
@@ -6862,7 +5284,7 @@
         "answers": [
             "Paris"
         ],
-        "pageviews": 4528
+        "pageviews": 15
     },
     {
         "query_id": "276_858",
@@ -6870,15 +5292,7 @@
         "answers": [
             "Leeuwarden"
         ],
-        "pageviews": 1106
-    },
-    {
-        "query_id": "276_859",
-        "question": "Where is H\u00e5kanstorp located?",
-        "answers": [
-            "Kirseberg"
-        ],
-        "pageviews": 794
+        "pageviews": 1
     },
     {
         "query_id": "276_860",
@@ -6894,7 +5308,7 @@
             "Loftus Versfeld Stadium",
             "Royal Bafokeng Stadium"
         ],
-        "pageviews": 4616651
+        "pageviews": 3021
     },
     {
         "query_id": "276_861",
@@ -6902,7 +5316,7 @@
         "answers": [
             "Mount Everest"
         ],
-        "pageviews": 29905
+        "pageviews": 24
     },
     {
         "query_id": "276_862",
@@ -6910,7 +5324,7 @@
         "answers": [
             "Jemgum"
         ],
-        "pageviews": 6646
+        "pageviews": 5
     },
     {
         "query_id": "276_863",
@@ -6918,15 +5332,7 @@
         "answers": [
             "Main road 4"
         ],
-        "pageviews": 5674
-    },
-    {
-        "query_id": "276_864",
-        "question": "Where is Newark Bay rail accident located?",
-        "answers": [
-            "Newark Bay"
-        ],
-        "pageviews": 10730
+        "pageviews": 1
     },
     {
         "query_id": "276_865",
@@ -6934,7 +5340,7 @@
         "answers": [
             "Longwood Medical and Academic Area"
         ],
-        "pageviews": 52681
+        "pageviews": 149
     },
     {
         "query_id": "276_866",
@@ -6942,7 +5348,7 @@
         "answers": [
             "Pompeii"
         ],
-        "pageviews": 12419
+        "pageviews": 5
     },
     {
         "query_id": "276_867",
@@ -6950,15 +5356,7 @@
         "answers": [
             "Stellwagen Bank National Marine Sanctuary"
         ],
-        "pageviews": 704
-    },
-    {
-        "query_id": "276_868",
-        "question": "Where is Southwest Gay and Lesbian Film Festival located?",
-        "answers": [
-            "Albuquerque"
-        ],
-        "pageviews": 926
+        "pageviews": 1
     },
     {
         "query_id": "276_869",
@@ -6966,7 +5364,7 @@
         "answers": [
             "National Museum of Singapore"
         ],
-        "pageviews": 2369
+        "pageviews": 5
     },
     {
         "query_id": "276_870",
@@ -6974,7 +5372,7 @@
         "answers": [
             "Forest of Bowland"
         ],
-        "pageviews": 6435
+        "pageviews": 2
     },
     {
         "query_id": "276_871",
@@ -6982,7 +5380,7 @@
         "answers": [
             "Mayfair"
         ],
-        "pageviews": 24399
+        "pageviews": 6
     },
     {
         "query_id": "276_872",
@@ -6990,7 +5388,7 @@
         "answers": [
             "Victoria Embankment Gardens"
         ],
-        "pageviews": 1638
+        "pageviews": 2
     },
     {
         "query_id": "276_873",
@@ -6998,15 +5396,7 @@
         "answers": [
             "Maputo"
         ],
-        "pageviews": 994
-    },
-    {
-        "query_id": "276_874",
-        "question": "Where is Battle of Watling Street located?",
-        "answers": [
-            "Watling Street"
-        ],
-        "pageviews": 96596
+        "pageviews": 2
     },
     {
         "query_id": "276_875",
@@ -7014,7 +5404,7 @@
         "answers": [
             "Western Europe"
         ],
-        "pageviews": 275860
+        "pageviews": 25
     },
     {
         "query_id": "276_876",
@@ -7022,7 +5412,7 @@
         "answers": [
             "All England Lawn Tennis and Croquet Club"
         ],
-        "pageviews": 376569
+        "pageviews": 588
     },
     {
         "query_id": "276_877",
@@ -7030,7 +5420,7 @@
         "answers": [
             "Biarritz"
         ],
-        "pageviews": 1612
+        "pageviews": 8
     },
     {
         "query_id": "276_878",
@@ -7038,7 +5428,7 @@
         "answers": [
             "Mumbai"
         ],
-        "pageviews": 5460
+        "pageviews": 2
     },
     {
         "query_id": "276_879",
@@ -7046,23 +5436,7 @@
         "answers": [
             "Hondschoote"
         ],
-        "pageviews": 10311
-    },
-    {
-        "query_id": "276_880",
-        "question": "Where is European Fantastic Film Festivals Federation located?",
-        "answers": [
-            "Brussels-Capital Region"
-        ],
-        "pageviews": 3549
-    },
-    {
-        "query_id": "276_881",
-        "question": "Where is Lisfe located?",
-        "answers": [
-            "Leiden"
-        ],
-        "pageviews": 1154
+        "pageviews": 10
     },
     {
         "query_id": "276_882",
@@ -7070,23 +5444,7 @@
         "answers": [
             "Hampstead"
         ],
-        "pageviews": 3474
-    },
-    {
-        "query_id": "276_883",
-        "question": "Where is Swalmen railway station located?",
-        "answers": [
-            "Swalmen"
-        ],
-        "pageviews": 990
-    },
-    {
-        "query_id": "276_884",
-        "question": "Where is 2002 Sure For Men Rockingham 500 located?",
-        "answers": [
-            "Rockingham Motor Speedway"
-        ],
-        "pageviews": 1539
+        "pageviews": 2
     },
     {
         "query_id": "276_885",
@@ -7094,7 +5452,7 @@
         "answers": [
             "Korangal Valley"
         ],
-        "pageviews": 672696
+        "pageviews": 52
     },
     {
         "query_id": "276_886",
@@ -7102,7 +5460,7 @@
         "answers": [
             "Krithia"
         ],
-        "pageviews": 9781
+        "pageviews": 14
     },
     {
         "query_id": "276_887",
@@ -7111,7 +5469,7 @@
             "London",
             "Federation of British Artists"
         ],
-        "pageviews": 5638
+        "pageviews": 160
     },
     {
         "query_id": "276_888",
@@ -7119,7 +5477,7 @@
         "answers": [
             "Cheltenham"
         ],
-        "pageviews": 593
+        "pageviews": 1
     },
     {
         "query_id": "276_889",
@@ -7127,7 +5485,7 @@
         "answers": [
             "Leeds"
         ],
-        "pageviews": 1516
+        "pageviews": 7
     },
     {
         "query_id": "276_890",
@@ -7135,7 +5493,7 @@
         "answers": [
             "Mahane Yehuda Market"
         ],
-        "pageviews": 3813
+        "pageviews": 1
     },
     {
         "query_id": "276_891",
@@ -7143,7 +5501,7 @@
         "answers": [
             "Scandinavia"
         ],
-        "pageviews": 4766
+        "pageviews": 15
     },
     {
         "query_id": "276_892",
@@ -7151,7 +5509,7 @@
         "answers": [
             "Pima County"
         ],
-        "pageviews": 4095
+        "pageviews": 3
     },
     {
         "query_id": "276_893",
@@ -7159,7 +5517,7 @@
         "answers": [
             "Burdaard"
         ],
-        "pageviews": 1238
+        "pageviews": 1
     },
     {
         "query_id": "276_894",
@@ -7167,7 +5525,7 @@
         "answers": [
             "Beqaa Governorate"
         ],
-        "pageviews": 2200
+        "pageviews": 1
     },
     {
         "query_id": "276_895",
@@ -7175,7 +5533,7 @@
         "answers": [
             "Acropolis of Athens"
         ],
-        "pageviews": 14502
+        "pageviews": 5
     },
     {
         "query_id": "276_896",
@@ -7183,7 +5541,7 @@
         "answers": [
             "Stowe"
         ],
-        "pageviews": 940
+        "pageviews": 2
     },
     {
         "query_id": "276_897",
@@ -7191,15 +5549,7 @@
         "answers": [
             "Columbus"
         ],
-        "pageviews": 1515
-    },
-    {
-        "query_id": "276_898",
-        "question": "Where is Baptistery of St. John the Baptist located?",
-        "answers": [
-            "Thessaloniki"
-        ],
-        "pageviews": 1709
+        "pageviews": 4
     },
     {
         "query_id": "276_899",
@@ -7207,7 +5557,7 @@
         "answers": [
             "Spa-Francorchamps"
         ],
-        "pageviews": 11147
+        "pageviews": 13
     },
     {
         "query_id": "276_900",
@@ -7215,7 +5565,7 @@
         "answers": [
             "Pajala"
         ],
-        "pageviews": 4812
+        "pageviews": 3
     },
     {
         "query_id": "276_901",
@@ -7223,15 +5573,7 @@
         "answers": [
             "Wrexham"
         ],
-        "pageviews": 5592
-    },
-    {
-        "query_id": "276_902",
-        "question": "Where is 2003 Southeast Asian Games located?",
-        "answers": [
-            "Hanoi"
-        ],
-        "pageviews": 157
+        "pageviews": 8
     },
     {
         "query_id": "276_903",
@@ -7239,7 +5581,7 @@
         "answers": [
             "Thessaloniki"
         ],
-        "pageviews": 8165
+        "pageviews": 2
     },
     {
         "query_id": "276_904",
@@ -7247,7 +5589,7 @@
         "answers": [
             "Perpignan"
         ],
-        "pageviews": 2723
+        "pageviews": 7
     },
     {
         "query_id": "276_905",
@@ -7255,7 +5597,7 @@
         "answers": [
             "Atlantic Ocean"
         ],
-        "pageviews": 8104
+        "pageviews": 11
     },
     {
         "query_id": "276_906",
@@ -7263,15 +5605,7 @@
         "answers": [
             "Autodromo Nazionale Monza"
         ],
-        "pageviews": 23650
-    },
-    {
-        "query_id": "276_907",
-        "question": "Where is 1993 UK Championship located?",
-        "answers": [
-            "Preston Guild Hall"
-        ],
-        "pageviews": 9541
+        "pageviews": 31
     },
     {
         "query_id": "276_908",
@@ -7279,7 +5613,7 @@
         "answers": [
             "Birmingham Gay Village"
         ],
-        "pageviews": 5933
+        "pageviews": 15
     },
     {
         "query_id": "276_909",
@@ -7287,7 +5621,7 @@
         "answers": [
             "Cincinnati Music Hall"
         ],
-        "pageviews": 14745
+        "pageviews": 41
     },
     {
         "query_id": "276_910",
@@ -7295,7 +5629,7 @@
         "answers": [
             "Bengaluru"
         ],
-        "pageviews": 2145
+        "pageviews": 4
     },
     {
         "query_id": "276_911",
@@ -7303,7 +5637,7 @@
         "answers": [
             "Baghdad"
         ],
-        "pageviews": 1838
+        "pageviews": 1
     },
     {
         "query_id": "276_912",
@@ -7311,15 +5645,7 @@
         "answers": [
             "Horse Guards Parade"
         ],
-        "pageviews": 275259
-    },
-    {
-        "query_id": "276_913",
-        "question": "Where is Bay Street Film Festival located?",
-        "answers": [
-            "Thunder Bay"
-        ],
-        "pageviews": 816
+        "pageviews": 103
     },
     {
         "query_id": "276_914",
@@ -7327,7 +5653,7 @@
         "answers": [
             "Munichia"
         ],
-        "pageviews": 3062
+        "pageviews": 5
     },
     {
         "query_id": "276_915",
@@ -7335,7 +5661,7 @@
         "answers": [
             "Palazzo Vecchio"
         ],
-        "pageviews": 32335
+        "pageviews": 6
     },
     {
         "query_id": "276_916",
@@ -7343,7 +5669,7 @@
         "answers": [
             "Limoux"
         ],
-        "pageviews": 2394
+        "pageviews": 3
     },
     {
         "query_id": "276_917",
@@ -7351,7 +5677,7 @@
         "answers": [
             "Lake District"
         ],
-        "pageviews": 21146
+        "pageviews": 79
     },
     {
         "query_id": "276_918",
@@ -7359,7 +5685,7 @@
         "answers": [
             "Ticino"
         ],
-        "pageviews": 240900
+        "pageviews": 87
     },
     {
         "query_id": "276_919",
@@ -7367,7 +5693,7 @@
         "answers": [
             "Circuit de Catalunya"
         ],
-        "pageviews": 13696
+        "pageviews": 38
     },
     {
         "query_id": "276_920",
@@ -7375,7 +5701,7 @@
         "answers": [
             "Garmisch-Partenkirchen"
         ],
-        "pageviews": 2634
+        "pageviews": 16
     },
     {
         "query_id": "276_921",
@@ -7383,7 +5709,7 @@
         "answers": [
             "Istanbul"
         ],
-        "pageviews": 76816
+        "pageviews": 6
     },
     {
         "query_id": "276_922",
@@ -7391,7 +5717,7 @@
         "answers": [
             "Prevalje Municipality"
         ],
-        "pageviews": 23814
+        "pageviews": 8
     },
     {
         "query_id": "276_923",
@@ -7399,7 +5725,7 @@
         "answers": [
             "National Gallery"
         ],
-        "pageviews": 35023
+        "pageviews": 2
     },
     {
         "query_id": "276_924",
@@ -7407,7 +5733,7 @@
         "answers": [
             "Augusta National Golf Club"
         ],
-        "pageviews": 6548
+        "pageviews": 10
     },
     {
         "query_id": "276_925",
@@ -7415,15 +5741,7 @@
         "answers": [
             "Groningen"
         ],
-        "pageviews": 116513
-    },
-    {
-        "query_id": "276_926",
-        "question": "Where is January 2010 Bajaur bombing located?",
-        "answers": [
-            "Khaar"
-        ],
-        "pageviews": 0
+        "pageviews": 497
     },
     {
         "query_id": "276_927",
@@ -7431,15 +5749,7 @@
         "answers": [
             "Dalmatia"
         ],
-        "pageviews": 12373
-    },
-    {
-        "query_id": "276_928",
-        "question": "Where is Sunrise with Sea Monsters located?",
-        "answers": [
-            "Tate Britain"
-        ],
-        "pageviews": 4297
+        "pageviews": 8
     },
     {
         "query_id": "276_929",
@@ -7447,7 +5757,7 @@
         "answers": [
             "Circuit de Nevers Magny-Cours"
         ],
-        "pageviews": 9127
+        "pageviews": 9
     },
     {
         "query_id": "276_930",
@@ -7457,7 +5767,7 @@
             "Anfield",
             "Wembley Stadium"
         ],
-        "pageviews": 384712
+        "pageviews": 562
     },
     {
         "query_id": "276_931",
@@ -7465,7 +5775,7 @@
         "answers": [
             "Chios"
         ],
-        "pageviews": 3761
+        "pageviews": 8
     },
     {
         "query_id": "276_932",
@@ -7473,7 +5783,7 @@
         "answers": [
             "National Gallery"
         ],
-        "pageviews": 42595
+        "pageviews": 3
     },
     {
         "query_id": "276_933",
@@ -7481,7 +5791,7 @@
         "answers": [
             "Lake District"
         ],
-        "pageviews": 2448
+        "pageviews": 46
     },
     {
         "query_id": "276_934",
@@ -7489,7 +5799,7 @@
         "answers": [
             "Melbourne"
         ],
-        "pageviews": 13077
+        "pageviews": 123
     },
     {
         "query_id": "276_935",
@@ -7497,7 +5807,7 @@
         "answers": [
             "Circuito de Jerez"
         ],
-        "pageviews": 7439
+        "pageviews": 9
     },
     {
         "query_id": "276_936",
@@ -7505,7 +5815,7 @@
         "answers": [
             "Kunsthistorisches Museum"
         ],
-        "pageviews": 8807
+        "pageviews": 2
     },
     {
         "query_id": "276_937",
@@ -7513,7 +5823,7 @@
         "answers": [
             "New Orleans"
         ],
-        "pageviews": 100902
+        "pageviews": 2
     },
     {
         "query_id": "276_938",
@@ -7521,7 +5831,7 @@
         "answers": [
             "Colombo"
         ],
-        "pageviews": 8310
+        "pageviews": 6
     },
     {
         "query_id": "276_939",
@@ -7529,7 +5839,7 @@
         "answers": [
             "Tyumen"
         ],
-        "pageviews": 4096
+        "pageviews": 7
     },
     {
         "query_id": "276_940",
@@ -7537,7 +5847,7 @@
         "answers": [
             "Santa Rosa"
         ],
-        "pageviews": 2372
+        "pageviews": 2
     },
     {
         "query_id": "276_941",
@@ -7545,7 +5855,7 @@
         "answers": [
             "Autodromo Nazionale Monza"
         ],
-        "pageviews": 15598
+        "pageviews": 17
     },
     {
         "query_id": "276_942",
@@ -7553,15 +5863,7 @@
         "answers": [
             "Lake District"
         ],
-        "pageviews": 29713
-    },
-    {
-        "query_id": "276_943",
-        "question": "Where is Schaeberle located?",
-        "answers": [
-            "Iapygia quadrangle"
-        ],
-        "pageviews": 1338
+        "pageviews": 18
     },
     {
         "query_id": "276_944",
@@ -7569,7 +5871,7 @@
         "answers": [
             "Frankfurt"
         ],
-        "pageviews": 43319
+        "pageviews": 17
     },
     {
         "query_id": "276_945",
@@ -7577,7 +5879,7 @@
         "answers": [
             "Silverstone Circuit"
         ],
-        "pageviews": 9280
+        "pageviews": 15
     },
     {
         "query_id": "276_946",
@@ -7585,15 +5887,7 @@
         "answers": [
             "Stirling"
         ],
-        "pageviews": 5446
-    },
-    {
-        "query_id": "276_947",
-        "question": "Where is Agreement for the Control of Opium Smoking in the Far East located?",
-        "answers": [
-            "Bangkok"
-        ],
-        "pageviews": 941
+        "pageviews": 9
     },
     {
         "query_id": "276_948",
@@ -7601,7 +5895,7 @@
         "answers": [
             "Serbia"
         ],
-        "pageviews": 19516
+        "pageviews": 62
     },
     {
         "query_id": "276_949",
@@ -7609,7 +5903,7 @@
         "answers": [
             "Pompeii"
         ],
-        "pageviews": 8918
+        "pageviews": 3
     },
     {
         "query_id": "276_950",
@@ -7617,7 +5911,7 @@
         "answers": [
             "Midtown Manhattan"
         ],
-        "pageviews": 1632456
+        "pageviews": 789
     },
     {
         "query_id": "276_951",
@@ -7625,15 +5919,7 @@
         "answers": [
             "Battersea"
         ],
-        "pageviews": 47610
-    },
-    {
-        "query_id": "276_952",
-        "question": "Where is Museum of Natural History Berlin located?",
-        "answers": [
-            "Berlin"
-        ],
-        "pageviews": 16740
+        "pageviews": 133
     },
     {
         "query_id": "276_953",
@@ -7641,7 +5927,7 @@
         "answers": [
             "North Sulawesi"
         ],
-        "pageviews": 1234
+        "pageviews": 1
     },
     {
         "query_id": "276_954",
@@ -7649,15 +5935,7 @@
         "answers": [
             "New York City"
         ],
-        "pageviews": 95550
-    },
-    {
-        "query_id": "276_955",
-        "question": "Where is American-led intervention in Iraq (2014\u2013present) located?",
-        "answers": [
-            "Iraq"
-        ],
-        "pageviews": 0
+        "pageviews": 253
     },
     {
         "query_id": "276_956",
@@ -7665,7 +5943,7 @@
         "answers": [
             "Karachi"
         ],
-        "pageviews": 6372
+        "pageviews": 5
     },
     {
         "query_id": "276_957",
@@ -7673,7 +5951,7 @@
         "answers": [
             "Greenwich"
         ],
-        "pageviews": 2719
+        "pageviews": 5
     },
     {
         "query_id": "276_958",
@@ -7681,7 +5959,7 @@
         "answers": [
             "Genoa"
         ],
-        "pageviews": 1971
+        "pageviews": 4
     },
     {
         "query_id": "276_959",
@@ -7689,7 +5967,7 @@
         "answers": [
             "Tokyo Imperial Palace"
         ],
-        "pageviews": 7008
+        "pageviews": 4
     },
     {
         "query_id": "276_960",
@@ -7697,7 +5975,7 @@
         "answers": [
             "Fukuoka"
         ],
-        "pageviews": 10355
+        "pageviews": 72
     },
     {
         "query_id": "276_961",
@@ -7705,7 +5983,7 @@
         "answers": [
             "Northampton"
         ],
-        "pageviews": 15697
+        "pageviews": 45
     },
     {
         "query_id": "276_962",
@@ -7713,7 +5991,7 @@
         "answers": [
             "Caria"
         ],
-        "pageviews": 136132
+        "pageviews": 130
     },
     {
         "query_id": "276_963",
@@ -7721,7 +5999,7 @@
         "answers": [
             "Bern"
         ],
-        "pageviews": 140986
+        "pageviews": 70
     },
     {
         "query_id": "276_964",
@@ -7729,7 +6007,7 @@
         "answers": [
             "Boston"
         ],
-        "pageviews": 48670
+        "pageviews": 41
     },
     {
         "query_id": "276_965",
@@ -7737,7 +6015,7 @@
         "answers": [
             "Chicago"
         ],
-        "pageviews": 19456
+        "pageviews": 17
     },
     {
         "query_id": "276_966",
@@ -7745,7 +6023,7 @@
         "answers": [
             "Goedereede"
         ],
-        "pageviews": 825
+        "pageviews": 1
     },
     {
         "query_id": "276_967",
@@ -7753,7 +6031,7 @@
         "answers": [
             "Gorton"
         ],
-        "pageviews": 1888
+        "pageviews": 9
     },
     {
         "query_id": "276_968",
@@ -7761,7 +6039,7 @@
         "answers": [
             "Hochkirch"
         ],
-        "pageviews": 18291
+        "pageviews": 37
     },
     {
         "query_id": "276_969",
@@ -7769,15 +6047,7 @@
         "answers": [
             "Ullared"
         ],
-        "pageviews": 9217
-    },
-    {
-        "query_id": "276_970",
-        "question": "Where is Maashaven located?",
-        "answers": [
-            "Rotterdam"
-        ],
-        "pageviews": 1052
+        "pageviews": 6
     },
     {
         "query_id": "276_971",
@@ -7785,7 +6055,7 @@
         "answers": [
             "Mississauga"
         ],
-        "pageviews": 1657
+        "pageviews": 8
     },
     {
         "query_id": "276_972",
@@ -7793,23 +6063,7 @@
         "answers": [
             "Shrine Auditorium"
         ],
-        "pageviews": 5779
-    },
-    {
-        "query_id": "276_973",
-        "question": "Where is A.G. Bartlett Building located?",
-        "answers": [
-            "Spring Street Financial District"
-        ],
-        "pageviews": 2453
-    },
-    {
-        "query_id": "276_974",
-        "question": "Where is St John's Church located?",
-        "answers": [
-            "West Ealing"
-        ],
-        "pageviews": 1647
+        "pageviews": 4
     },
     {
         "query_id": "276_975",
@@ -7817,7 +6071,7 @@
         "answers": [
             "Canary Wharf"
         ],
-        "pageviews": 7157
+        "pageviews": 2
     },
     {
         "query_id": "276_976",
@@ -7825,15 +6079,7 @@
         "answers": [
             "Vikingskipet"
         ],
-        "pageviews": 1696
-    },
-    {
-        "query_id": "276_977",
-        "question": "Where is 1883 FA Cup Final located?",
-        "answers": [
-            "The Oval"
-        ],
-        "pageviews": 0
+        "pageviews": 9
     },
     {
         "query_id": "276_978",
@@ -7841,15 +6087,7 @@
         "answers": [
             "Clones"
         ],
-        "pageviews": 839
-    },
-    {
-        "query_id": "276_979",
-        "question": "Where is A.D.C. Ars et Labor Grottaglie located?",
-        "answers": [
-            "Grottaglie"
-        ],
-        "pageviews": 44
+        "pageviews": 1
     },
     {
         "query_id": "276_980",
@@ -7857,7 +6095,7 @@
         "answers": [
             "Autodromo Nazionale Monza"
         ],
-        "pageviews": 7352
+        "pageviews": 10
     },
     {
         "query_id": "276_981",
@@ -7865,7 +6103,7 @@
         "answers": [
             "Lake District"
         ],
-        "pageviews": 109417
+        "pageviews": 75
     },
     {
         "query_id": "276_982",
@@ -7873,7 +6111,7 @@
         "answers": [
             "National Gallery"
         ],
-        "pageviews": 13759
+        "pageviews": 5
     },
     {
         "query_id": "276_983",
@@ -7881,7 +6119,7 @@
         "answers": [
             "Kew"
         ],
-        "pageviews": 1897
+        "pageviews": 6
     },
     {
         "query_id": "276_984",
@@ -7889,15 +6127,7 @@
         "answers": [
             "Birmingham"
         ],
-        "pageviews": 10838
-    },
-    {
-        "query_id": "276_985",
-        "question": "Where is 1891 Grand National located?",
-        "answers": [
-            "Aintree Racecourse"
-        ],
-        "pageviews": 899
+        "pageviews": 5
     },
     {
         "query_id": "276_986",
@@ -7905,7 +6135,7 @@
         "answers": [
             "Red Bull Ring"
         ],
-        "pageviews": 7093
+        "pageviews": 7
     },
     {
         "query_id": "276_987",
@@ -7913,7 +6143,7 @@
         "answers": [
             "Saint Petersburg"
         ],
-        "pageviews": 24956
+        "pageviews": 21
     },
     {
         "query_id": "276_988",
@@ -7921,7 +6151,7 @@
         "answers": [
             "Bologna"
         ],
-        "pageviews": 5284
+        "pageviews": 16
     },
     {
         "query_id": "276_989",
@@ -7929,7 +6159,7 @@
         "answers": [
             "Alamo Mission in San Antonio"
         ],
-        "pageviews": 41618
+        "pageviews": 14
     },
     {
         "query_id": "276_990",
@@ -7937,7 +6167,7 @@
         "answers": [
             "Slovenia"
         ],
-        "pageviews": 10400
+        "pageviews": 19
     },
     {
         "query_id": "276_991",
@@ -7945,7 +6175,7 @@
         "answers": [
             "National Gallery"
         ],
-        "pageviews": 31313
+        "pageviews": 2
     },
     {
         "query_id": "276_992",
@@ -7953,7 +6183,7 @@
         "answers": [
             "Magelang"
         ],
-        "pageviews": 8306
+        "pageviews": 1
     },
     {
         "query_id": "276_993",
@@ -7961,7 +6191,7 @@
         "answers": [
             "Shreveport"
         ],
-        "pageviews": 1661
+        "pageviews": 7
     },
     {
         "query_id": "276_994",
@@ -7969,15 +6199,7 @@
         "answers": [
             "Melbourne Cricket Ground"
         ],
-        "pageviews": 53814
-    },
-    {
-        "query_id": "276_995",
-        "question": "Where is La Tante DC 10 Restaurant located?",
-        "answers": [
-            "Accra"
-        ],
-        "pageviews": 5511
+        "pageviews": 60
     },
     {
         "query_id": "276_996",
@@ -7985,7 +6207,7 @@
         "answers": [
             "Paracel Islands"
         ],
-        "pageviews": 64833
+        "pageviews": 30
     },
     {
         "query_id": "276_997",
@@ -7993,7 +6215,7 @@
         "answers": [
             "Quiberon Bay"
         ],
-        "pageviews": 41169
+        "pageviews": 142
     },
     {
         "query_id": "276_998",
@@ -8001,7 +6223,7 @@
         "answers": [
             "Shanghai International Circuit"
         ],
-        "pageviews": 26444
+        "pageviews": 21
     },
     {
         "query_id": "276_999",
@@ -8009,6 +6231,6 @@
         "answers": [
             "Johannesburg"
         ],
-        "pageviews": 9736
+        "pageviews": 6
     }
 ]

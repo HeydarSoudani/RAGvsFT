@@ -1,19 +1,11 @@
 [
     {
-        "query_id": "30_0",
-        "question": "Which continent is Pryor Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 145
-    },
-    {
         "query_id": "30_1",
         "question": "Which continent is Danube located?",
         "answers": [
             "Europe"
         ],
-        "pageviews": 1191425
+        "pageviews": 4266
     },
     {
         "query_id": "30_2",
@@ -21,23 +13,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 381
-    },
-    {
-        "query_id": "30_3",
-        "question": "Which continent is Framskotet Spur located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 111
-    },
-    {
-        "query_id": "30_4",
-        "question": "Which continent is Striation Valley located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 945
+        "pageviews": 1
     },
     {
         "query_id": "30_5",
@@ -45,7 +21,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 607
+        "pageviews": 3
     },
     {
         "query_id": "30_6",
@@ -53,7 +29,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 492
+        "pageviews": 1
     },
     {
         "query_id": "30_7",
@@ -61,15 +37,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 457
-    },
-    {
-        "query_id": "30_8",
-        "question": "Which continent is Littleblack Nunataks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 210
+        "pageviews": 1
     },
     {
         "query_id": "30_9",
@@ -77,7 +45,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 498
+        "pageviews": 2
     },
     {
         "query_id": "30_10",
@@ -85,7 +53,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 318
+        "pageviews": 2
     },
     {
         "query_id": "30_11",
@@ -93,7 +61,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 402
+        "pageviews": 5
     },
     {
         "query_id": "30_12",
@@ -101,7 +69,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 532
+        "pageviews": 8
     },
     {
         "query_id": "30_13",
@@ -109,15 +77,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1832
-    },
-    {
-        "query_id": "30_14",
-        "question": "Which continent is Br\u00fcckner Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 611
+        "pageviews": 52
     },
     {
         "query_id": "30_15",
@@ -125,7 +85,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 397
+        "pageviews": 4
     },
     {
         "query_id": "30_16",
@@ -133,7 +93,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 2639
+        "pageviews": 20
     },
     {
         "query_id": "30_17",
@@ -141,7 +101,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 890
+        "pageviews": 14
     },
     {
         "query_id": "30_18",
@@ -149,15 +109,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 635
-    },
-    {
-        "query_id": "30_19",
-        "question": "Which continent is Utrakket Valley located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 580
+        "pageviews": 1
     },
     {
         "query_id": "30_20",
@@ -165,7 +117,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 305
+        "pageviews": 2
     },
     {
         "query_id": "30_21",
@@ -173,7 +125,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 476
+        "pageviews": 3
     },
     {
         "query_id": "30_22",
@@ -181,15 +133,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 324
-    },
-    {
-        "query_id": "30_23",
-        "question": "Which continent is Lamboley Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 267
+        "pageviews": 2
     },
     {
         "query_id": "30_24",
@@ -197,7 +141,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 552
+        "pageviews": 1
     },
     {
         "query_id": "30_25",
@@ -205,7 +149,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 280
+        "pageviews": 1
     },
     {
         "query_id": "30_26",
@@ -213,7 +157,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 521
+        "pageviews": 5
     },
     {
         "query_id": "30_27",
@@ -221,7 +165,7 @@
         "answers": [
             "North America"
         ],
-        "pageviews": 105288
+        "pageviews": 500
     },
     {
         "query_id": "30_28",
@@ -229,7 +173,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 556525
+        "pageviews": 146
     },
     {
         "query_id": "30_29",
@@ -237,7 +181,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 939
+        "pageviews": 8
     },
     {
         "query_id": "30_30",
@@ -245,7 +189,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 557
+        "pageviews": 6
     },
     {
         "query_id": "30_31",
@@ -253,7 +197,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 265
+        "pageviews": 2
     },
     {
         "query_id": "30_32",
@@ -261,7 +205,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 641
+        "pageviews": 3
     },
     {
         "query_id": "30_33",
@@ -269,15 +213,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 370
-    },
-    {
-        "query_id": "30_34",
-        "question": "Which continent is Horgebest Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 431
+        "pageviews": 2
     },
     {
         "query_id": "30_35",
@@ -285,7 +221,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 691
+        "pageviews": 2
     },
     {
         "query_id": "30_36",
@@ -293,7 +229,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 7407
+        "pageviews": 461
     },
     {
         "query_id": "30_37",
@@ -301,7 +237,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 653
+        "pageviews": 1
     },
     {
         "query_id": "30_38",
@@ -309,7 +245,7 @@
         "answers": [
             "Asia"
         ],
-        "pageviews": 4095078
+        "pageviews": 15615
     },
     {
         "query_id": "30_39",
@@ -317,7 +253,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 369
+        "pageviews": 1
     },
     {
         "query_id": "30_40",
@@ -325,7 +261,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 246
+        "pageviews": 2
     },
     {
         "query_id": "30_41",
@@ -333,7 +269,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 26010
+        "pageviews": 14
     },
     {
         "query_id": "30_42",
@@ -341,23 +277,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 621
-    },
-    {
-        "query_id": "30_43",
-        "question": "Which continent is Scend Rocks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 302
-    },
-    {
-        "query_id": "30_44",
-        "question": "Which continent is Francis Peaks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 313
+        "pageviews": 1
     },
     {
         "query_id": "30_45",
@@ -365,15 +285,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1063
-    },
-    {
-        "query_id": "30_46",
-        "question": "Which continent is Crack Bluff located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 417
+        "pageviews": 8
     },
     {
         "query_id": "30_47",
@@ -381,7 +293,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 297
+        "pageviews": 1
     },
     {
         "query_id": "30_48",
@@ -389,15 +301,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 592
-    },
-    {
-        "query_id": "30_49",
-        "question": "Which continent is Gockel Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 437
+        "pageviews": 6
     },
     {
         "query_id": "30_50",
@@ -405,7 +309,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 292
+        "pageviews": 1
     },
     {
         "query_id": "30_51",
@@ -413,15 +317,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 550
-    },
-    {
-        "query_id": "30_52",
-        "question": "Which continent is Back Cirque located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 551
+        "pageviews": 6
     },
     {
         "query_id": "30_53",
@@ -429,7 +325,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1197
+        "pageviews": 8
     },
     {
         "query_id": "30_54",
@@ -437,7 +333,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 509
+        "pageviews": 7
     },
     {
         "query_id": "30_55",
@@ -445,7 +341,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 445
+        "pageviews": 5
     },
     {
         "query_id": "30_56",
@@ -453,15 +349,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 480
-    },
-    {
-        "query_id": "30_57",
-        "question": "Which continent is Confluence Cone located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 376
+        "pageviews": 4
     },
     {
         "query_id": "30_58",
@@ -469,7 +357,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 563
+        "pageviews": 5
     },
     {
         "query_id": "30_59",
@@ -477,7 +365,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 641
+        "pageviews": 8
     },
     {
         "query_id": "30_60",
@@ -485,23 +373,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 364
-    },
-    {
-        "query_id": "30_61",
-        "question": "Which continent is Mount Hanssen located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 530
-    },
-    {
-        "query_id": "30_62",
-        "question": "Which continent is Warden Pass located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 496
+        "pageviews": 3
     },
     {
         "query_id": "30_63",
@@ -509,7 +381,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1051
+        "pageviews": 1
     },
     {
         "query_id": "30_64",
@@ -517,15 +389,7 @@
         "answers": [
             "Africa"
         ],
-        "pageviews": 20464
-    },
-    {
-        "query_id": "30_65",
-        "question": "Which continent is Associa\u00e7\u00e3o Naval de Lisboa located?",
-        "answers": [
-            "Europe"
-        ],
-        "pageviews": 902
+        "pageviews": 21
     },
     {
         "query_id": "30_66",
@@ -533,15 +397,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 273
-    },
-    {
-        "query_id": "30_67",
-        "question": "Which continent is Mount Burrows located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 410
+        "pageviews": 1
     },
     {
         "query_id": "30_68",
@@ -549,7 +405,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 542
+        "pageviews": 1
     },
     {
         "query_id": "30_69",
@@ -557,7 +413,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1156
+        "pageviews": 5
     },
     {
         "query_id": "30_70",
@@ -565,7 +421,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 266
+        "pageviews": 2
     },
     {
         "query_id": "30_71",
@@ -573,7 +429,7 @@
         "answers": [
             "Asia"
         ],
-        "pageviews": 640077
+        "pageviews": 1245
     },
     {
         "query_id": "30_72",
@@ -581,7 +437,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 262
+        "pageviews": 1
     },
     {
         "query_id": "30_73",
@@ -589,7 +445,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 725
+        "pageviews": 1
     },
     {
         "query_id": "30_74",
@@ -597,15 +453,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 556
-    },
-    {
-        "query_id": "30_75",
-        "question": "Which continent is Fission Wall located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 352
+        "pageviews": 1
     },
     {
         "query_id": "30_76",
@@ -613,7 +461,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 224
+        "pageviews": 2
     },
     {
         "query_id": "30_77",
@@ -621,7 +469,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1192
+        "pageviews": 75
     },
     {
         "query_id": "30_78",
@@ -629,7 +477,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 285
+        "pageviews": 1
     },
     {
         "query_id": "30_79",
@@ -637,7 +485,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 546
+        "pageviews": 15
     },
     {
         "query_id": "30_80",
@@ -645,7 +493,7 @@
         "answers": [
             "Asia"
         ],
-        "pageviews": 2815954
+        "pageviews": 12544
     },
     {
         "query_id": "30_81",
@@ -653,7 +501,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 640
+        "pageviews": 10
     },
     {
         "query_id": "30_82",
@@ -661,23 +509,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 497
-    },
-    {
-        "query_id": "30_83",
-        "question": "Which continent is Thode Island located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 695
-    },
-    {
-        "query_id": "30_84",
-        "question": "Which continent is Alligator Eyes located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 722
+        "pageviews": 5
     },
     {
         "query_id": "30_85",
@@ -685,15 +517,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 729
-    },
-    {
-        "query_id": "30_86",
-        "question": "Which continent is Risopatr\u00f3n Base located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 1406
+        "pageviews": 6
     },
     {
         "query_id": "30_87",
@@ -701,7 +525,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 549
+        "pageviews": 8
     },
     {
         "query_id": "30_88",
@@ -709,7 +533,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 399
+        "pageviews": 4
     },
     {
         "query_id": "30_89",
@@ -717,7 +541,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 938
+        "pageviews": 7
     },
     {
         "query_id": "30_90",
@@ -725,7 +549,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 356
+        "pageviews": 1
     },
     {
         "query_id": "30_91",
@@ -733,7 +557,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 349
+        "pageviews": 1
     },
     {
         "query_id": "30_92",
@@ -741,7 +565,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 815
+        "pageviews": 1
     },
     {
         "query_id": "30_93",
@@ -749,7 +573,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 742
+        "pageviews": 1
     },
     {
         "query_id": "30_94",
@@ -757,7 +581,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 464
+        "pageviews": 5
     },
     {
         "query_id": "30_95",
@@ -765,31 +589,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 852
-    },
-    {
-        "query_id": "30_96",
-        "question": "Which continent is Gygra Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 386
-    },
-    {
-        "query_id": "30_97",
-        "question": "Which continent is Carlson Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 600
-    },
-    {
-        "query_id": "30_98",
-        "question": "Which continent is Glashaugen Hill located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 156
+        "pageviews": 1
     },
     {
         "query_id": "30_99",
@@ -797,7 +597,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 126760
+        "pageviews": 186
     },
     {
         "query_id": "30_100",
@@ -805,7 +605,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 345
+        "pageviews": 1
     },
     {
         "query_id": "30_101",
@@ -813,7 +613,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 757
+        "pageviews": 2
     },
     {
         "query_id": "30_102",
@@ -821,7 +621,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 5643
+        "pageviews": 147
     },
     {
         "query_id": "30_103",
@@ -829,7 +629,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 386
+        "pageviews": 2
     },
     {
         "query_id": "30_104",
@@ -837,7 +637,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 372
+        "pageviews": 1
     },
     {
         "query_id": "30_105",
@@ -845,23 +645,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 553
-    },
-    {
-        "query_id": "30_106",
-        "question": "Which continent is Lied Bluff located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 320
-    },
-    {
-        "query_id": "30_107",
-        "question": "Which continent is Fulmar Crags located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 280
+        "pageviews": 2
     },
     {
         "query_id": "30_108",
@@ -869,7 +653,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 354
+        "pageviews": 3
     },
     {
         "query_id": "30_109",
@@ -877,7 +661,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 347
+        "pageviews": 1
     },
     {
         "query_id": "30_110",
@@ -885,7 +669,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 918
+        "pageviews": 4
     },
     {
         "query_id": "30_111",
@@ -893,7 +677,7 @@
         "answers": [
             "North America"
         ],
-        "pageviews": 37113
+        "pageviews": 149
     },
     {
         "query_id": "30_112",
@@ -901,7 +685,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 414
+        "pageviews": 7
     },
     {
         "query_id": "30_113",
@@ -909,7 +693,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 858
+        "pageviews": 1
     },
     {
         "query_id": "30_114",
@@ -917,7 +701,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 338
+        "pageviews": 3
     },
     {
         "query_id": "30_115",
@@ -925,7 +709,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 640
+        "pageviews": 2
     },
     {
         "query_id": "30_116",
@@ -933,7 +717,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 279
+        "pageviews": 1
     },
     {
         "query_id": "30_117",
@@ -941,7 +725,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 678
+        "pageviews": 2
     },
     {
         "query_id": "30_118",
@@ -949,7 +733,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 970
+        "pageviews": 7
     },
     {
         "query_id": "30_119",
@@ -957,23 +741,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1942
-    },
-    {
-        "query_id": "30_120",
-        "question": "Which continent is Skinner Saddle located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 402
-    },
-    {
-        "query_id": "30_121",
-        "question": "Which continent is Bird Bluff located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 438
+        "pageviews": 39
     },
     {
         "query_id": "30_122",
@@ -981,7 +749,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 460
+        "pageviews": 15
     },
     {
         "query_id": "30_123",
@@ -989,7 +757,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 335
+        "pageviews": 4
     },
     {
         "query_id": "30_124",
@@ -997,7 +765,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 263
+        "pageviews": 2
     },
     {
         "query_id": "30_125",
@@ -1005,15 +773,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 2823
-    },
-    {
-        "query_id": "30_126",
-        "question": "Which continent is Brown Valley located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 1073
+        "pageviews": 19
     },
     {
         "query_id": "30_127",
@@ -1021,15 +781,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 383
-    },
-    {
-        "query_id": "30_128",
-        "question": "Which continent is Diamonen Island located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 504
+        "pageviews": 5
     },
     {
         "query_id": "30_129",
@@ -1037,7 +789,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 383
+        "pageviews": 3
     },
     {
         "query_id": "30_130",
@@ -1045,7 +797,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 3650
+        "pageviews": 116
     },
     {
         "query_id": "30_131",
@@ -1053,7 +805,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 524
+        "pageviews": 9
     },
     {
         "query_id": "30_132",
@@ -1061,7 +813,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 863
+        "pageviews": 1
     },
     {
         "query_id": "30_133",
@@ -1069,15 +821,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 334
-    },
-    {
-        "query_id": "30_134",
-        "question": "Which continent is Weatherwax Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 341
+        "pageviews": 1
     },
     {
         "query_id": "30_135",
@@ -1085,7 +829,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 521
+        "pageviews": 1
     },
     {
         "query_id": "30_136",
@@ -1093,7 +837,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 799
+        "pageviews": 6
     },
     {
         "query_id": "30_137",
@@ -1101,7 +845,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 499
+        "pageviews": 9
     },
     {
         "query_id": "30_138",
@@ -1109,7 +853,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 541
+        "pageviews": 2
     },
     {
         "query_id": "30_139",
@@ -1117,7 +861,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 840032
+        "pageviews": 52
     },
     {
         "query_id": "30_140",
@@ -1125,7 +869,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 751
+        "pageviews": 9
     },
     {
         "query_id": "30_141",
@@ -1133,7 +877,7 @@
         "answers": [
             "South America"
         ],
-        "pageviews": 29414
+        "pageviews": 208
     },
     {
         "query_id": "30_142",
@@ -1141,7 +885,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 500
+        "pageviews": 2
     },
     {
         "query_id": "30_143",
@@ -1149,7 +893,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 322
+        "pageviews": 1
     },
     {
         "query_id": "30_144",
@@ -1157,7 +901,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 3335
+        "pageviews": 13
     },
     {
         "query_id": "30_145",
@@ -1165,7 +909,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 2114
+        "pageviews": 2
     },
     {
         "query_id": "30_146",
@@ -1173,7 +917,7 @@
         "answers": [
             "South America"
         ],
-        "pageviews": 37328
+        "pageviews": 30
     },
     {
         "query_id": "30_147",
@@ -1181,7 +925,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 509
+        "pageviews": 2
     },
     {
         "query_id": "30_148",
@@ -1189,7 +933,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 747
+        "pageviews": 10
     },
     {
         "query_id": "30_149",
@@ -1197,7 +941,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 270
+        "pageviews": 1
     },
     {
         "query_id": "30_150",
@@ -1205,7 +949,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1185
+        "pageviews": 6
     },
     {
         "query_id": "30_151",
@@ -1213,7 +957,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 285
+        "pageviews": 1
     },
     {
         "query_id": "30_152",
@@ -1221,15 +965,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 420
-    },
-    {
-        "query_id": "30_153",
-        "question": "Which continent is MacFarlane Bluff located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 360
+        "pageviews": 1
     },
     {
         "query_id": "30_154",
@@ -1237,15 +973,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 16967
-    },
-    {
-        "query_id": "30_155",
-        "question": "Which continent is Graduation Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 297
+        "pageviews": 29
     },
     {
         "query_id": "30_156",
@@ -1253,7 +981,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 500
+        "pageviews": 2
     },
     {
         "query_id": "30_157",
@@ -1261,7 +989,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 9391
+        "pageviews": 71
     },
     {
         "query_id": "30_158",
@@ -1269,7 +997,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1009
+        "pageviews": 5
     },
     {
         "query_id": "30_159",
@@ -1277,23 +1005,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 882
-    },
-    {
-        "query_id": "30_160",
-        "question": "Which continent is Chaucheprat Point located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 240
-    },
-    {
-        "query_id": "30_161",
-        "question": "Which continent is Mount Kammuri located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 350
+        "pageviews": 18
     },
     {
         "query_id": "30_162",
@@ -1301,39 +1013,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 713
-    },
-    {
-        "query_id": "30_163",
-        "question": "Which continent is Gage Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 407
-    },
-    {
-        "query_id": "30_164",
-        "question": "Which continent is Southtrap Rock located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 307
-    },
-    {
-        "query_id": "30_165",
-        "question": "Which continent is Streitenberger Cliff located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 397
-    },
-    {
-        "query_id": "30_166",
-        "question": "Which continent is Kiel Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 953
+        "pageviews": 1
     },
     {
         "query_id": "30_167",
@@ -1341,7 +1021,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 3442
+        "pageviews": 23
     },
     {
         "query_id": "30_168",
@@ -1349,7 +1029,7 @@
         "answers": [
             "North America"
         ],
-        "pageviews": 163037
+        "pageviews": 38
     },
     {
         "query_id": "30_169",
@@ -1357,7 +1037,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 389
+        "pageviews": 4
     },
     {
         "query_id": "30_170",
@@ -1365,15 +1045,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 24682
-    },
-    {
-        "query_id": "30_171",
-        "question": "Which continent is Fraser Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 267
+        "pageviews": 9
     },
     {
         "query_id": "30_172",
@@ -1381,7 +1053,7 @@
         "answers": [
             "North America"
         ],
-        "pageviews": 509209
+        "pageviews": 923
     },
     {
         "query_id": "30_173",
@@ -1389,7 +1061,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1342
+        "pageviews": 19
     },
     {
         "query_id": "30_174",
@@ -1397,7 +1069,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 321
+        "pageviews": 2
     },
     {
         "query_id": "30_175",
@@ -1405,7 +1077,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 364
+        "pageviews": 1
     },
     {
         "query_id": "30_176",
@@ -1413,7 +1085,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 2810
+        "pageviews": 6
     },
     {
         "query_id": "30_177",
@@ -1421,7 +1093,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 454
+        "pageviews": 1
     },
     {
         "query_id": "30_178",
@@ -1429,7 +1101,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 14388
+        "pageviews": 7
     },
     {
         "query_id": "30_179",
@@ -1437,7 +1109,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1257
+        "pageviews": 3
     },
     {
         "query_id": "30_180",
@@ -1445,7 +1117,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1673
+        "pageviews": 3
     },
     {
         "query_id": "30_181",
@@ -1453,15 +1125,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 7705
-    },
-    {
-        "query_id": "30_182",
-        "question": "Which continent is Green Rocks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 552
+        "pageviews": 7
     },
     {
         "query_id": "30_183",
@@ -1469,7 +1133,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 517
+        "pageviews": 2
     },
     {
         "query_id": "30_184",
@@ -1477,15 +1141,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 364
-    },
-    {
-        "query_id": "30_185",
-        "question": "Which continent is Velasco Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 436
+        "pageviews": 1
     },
     {
         "query_id": "30_186",
@@ -1493,15 +1149,7 @@
         "answers": [
             "Asia"
         ],
-        "pageviews": 3200089
-    },
-    {
-        "query_id": "30_187",
-        "question": "Which continent is Mount Ronca located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 406
+        "pageviews": 1279
     },
     {
         "query_id": "30_188",
@@ -1509,7 +1157,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 306
+        "pageviews": 1
     },
     {
         "query_id": "30_189",
@@ -1517,7 +1165,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 646
+        "pageviews": 7
     },
     {
         "query_id": "30_190",
@@ -1525,15 +1173,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 298
-    },
-    {
-        "query_id": "30_191",
-        "question": "Which continent is Kutlovitsa Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 482
+        "pageviews": 2
     },
     {
         "query_id": "30_192",
@@ -1541,7 +1181,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 2118970
+        "pageviews": 1686
     },
     {
         "query_id": "30_193",
@@ -1549,7 +1189,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 263
+        "pageviews": 1
     },
     {
         "query_id": "30_194",
@@ -1557,31 +1197,7 @@
         "answers": [
             "Africa"
         ],
-        "pageviews": 513585
-    },
-    {
-        "query_id": "30_195",
-        "question": "Which continent is H\u00f6gbom Outcrops located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 387
-    },
-    {
-        "query_id": "30_196",
-        "question": "Which continent is Muller Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 485
-    },
-    {
-        "query_id": "30_197",
-        "question": "Which continent is Mount Liszt located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 445
+        "pageviews": 1005
     },
     {
         "query_id": "30_198",
@@ -1589,7 +1205,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 419
+        "pageviews": 5
     },
     {
         "query_id": "30_199",
@@ -1597,7 +1213,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 398
+        "pageviews": 2
     },
     {
         "query_id": "30_200",
@@ -1605,23 +1221,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 280
-    },
-    {
-        "query_id": "30_201",
-        "question": "Which continent is Fitzpatrick Rock located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 418
-    },
-    {
-        "query_id": "30_202",
-        "question": "Which continent is Camp Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 581
+        "pageviews": 2
     },
     {
         "query_id": "30_203",
@@ -1629,7 +1229,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 919
+        "pageviews": 16
     },
     {
         "query_id": "30_204",
@@ -1637,7 +1237,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 353
+        "pageviews": 1
     },
     {
         "query_id": "30_205",
@@ -1645,7 +1245,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 386
+        "pageviews": 3
     },
     {
         "query_id": "30_206",
@@ -1653,7 +1253,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1178
+        "pageviews": 2
     },
     {
         "query_id": "30_207",
@@ -1661,7 +1261,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 514
+        "pageviews": 2
     },
     {
         "query_id": "30_208",
@@ -1669,7 +1269,7 @@
         "answers": [
             "North America"
         ],
-        "pageviews": 609618
+        "pageviews": 1645
     },
     {
         "query_id": "30_209",
@@ -1677,15 +1277,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 342
-    },
-    {
-        "query_id": "30_210",
-        "question": "Which continent is Barela Rock located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 372
+        "pageviews": 2
     },
     {
         "query_id": "30_211",
@@ -1693,15 +1285,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 536
-    },
-    {
-        "query_id": "30_212",
-        "question": "Which continent is Kani Rock located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 320
+        "pageviews": 6
     },
     {
         "query_id": "30_213",
@@ -1709,7 +1293,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 799
+        "pageviews": 3
     },
     {
         "query_id": "30_214",
@@ -1717,7 +1301,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 617
+        "pageviews": 4
     },
     {
         "query_id": "30_215",
@@ -1725,7 +1309,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 246
+        "pageviews": 2
     },
     {
         "query_id": "30_216",
@@ -1733,7 +1317,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 835
+        "pageviews": 9
     },
     {
         "query_id": "30_217",
@@ -1741,7 +1325,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 373
+        "pageviews": 1
     },
     {
         "query_id": "30_218",
@@ -1749,7 +1333,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 812
+        "pageviews": 3
     },
     {
         "query_id": "30_219",
@@ -1757,15 +1341,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 732
-    },
-    {
-        "query_id": "30_220",
-        "question": "Which continent is Mount Gester located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 537
+        "pageviews": 1
     },
     {
         "query_id": "30_221",
@@ -1773,7 +1349,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 862
+        "pageviews": 5
     },
     {
         "query_id": "30_222",
@@ -1781,15 +1357,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 287
-    },
-    {
-        "query_id": "30_223",
-        "question": "Which continent is Nunez Point located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 242
+        "pageviews": 1
     },
     {
         "query_id": "30_224",
@@ -1797,15 +1365,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 523
-    },
-    {
-        "query_id": "30_225",
-        "question": "Which continent is Oldham Island located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 515
+        "pageviews": 1
     },
     {
         "query_id": "30_226",
@@ -1813,7 +1373,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 564
+        "pageviews": 1
     },
     {
         "query_id": "30_227",
@@ -1821,15 +1381,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 34185
-    },
-    {
-        "query_id": "30_228",
-        "question": "Which continent is Connell Canyon located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 533
+        "pageviews": 56
     },
     {
         "query_id": "30_229",
@@ -1837,7 +1389,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1857
+        "pageviews": 5
     },
     {
         "query_id": "30_230",
@@ -1849,15 +1401,7 @@
             "Oceania",
             "Asia"
         ],
-        "pageviews": 2883999
-    },
-    {
-        "query_id": "30_231",
-        "question": "Which continent is Foggy Pass located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 382
+        "pageviews": 7034
     },
     {
         "query_id": "30_232",
@@ -1865,15 +1409,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 238
-    },
-    {
-        "query_id": "30_233",
-        "question": "Which continent is Ragle Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 461
+        "pageviews": 2
     },
     {
         "query_id": "30_234",
@@ -1881,7 +1417,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 755
+        "pageviews": 9
     },
     {
         "query_id": "30_235",
@@ -1889,7 +1425,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 736
+        "pageviews": 3
     },
     {
         "query_id": "30_236",
@@ -1897,7 +1433,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 312
+        "pageviews": 1
     },
     {
         "query_id": "30_237",
@@ -1905,7 +1441,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 907
+        "pageviews": 2
     },
     {
         "query_id": "30_238",
@@ -1913,15 +1449,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 274
-    },
-    {
-        "query_id": "30_239",
-        "question": "Which continent is Kvea Valley located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 314
+        "pageviews": 1
     },
     {
         "query_id": "30_240",
@@ -1929,7 +1457,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 324
+        "pageviews": 2
     },
     {
         "query_id": "30_241",
@@ -1937,7 +1465,7 @@
         "answers": [
             "Asia"
         ],
-        "pageviews": 72729
+        "pageviews": 163
     },
     {
         "query_id": "30_242",
@@ -1945,23 +1473,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 960
-    },
-    {
-        "query_id": "30_243",
-        "question": "Which continent is Mount Borchgrevink located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 151
-    },
-    {
-        "query_id": "30_244",
-        "question": "Which continent is Field N\u00e9v\u00e9 located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 320
+        "pageviews": 7
     },
     {
         "query_id": "30_245",
@@ -1969,7 +1481,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 428
+        "pageviews": 2
     },
     {
         "query_id": "30_246",
@@ -1977,7 +1489,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 680
+        "pageviews": 5
     },
     {
         "query_id": "30_247",
@@ -1985,23 +1497,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 775
-    },
-    {
-        "query_id": "30_248",
-        "question": "Which continent is Harrison Ice Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 498
-    },
-    {
-        "query_id": "30_249",
-        "question": "Which continent is Kvarsnes Bay located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 114
+        "pageviews": 19
     },
     {
         "query_id": "30_250",
@@ -2009,7 +1505,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 406
+        "pageviews": 2
     },
     {
         "query_id": "30_251",
@@ -2017,31 +1513,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1282
-    },
-    {
-        "query_id": "30_252",
-        "question": "Which continent is Dyment Island located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 644
-    },
-    {
-        "query_id": "30_253",
-        "question": "Which continent is Mount Seddon located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 298
-    },
-    {
-        "query_id": "30_254",
-        "question": "Which continent is Magoke Point located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 71
+        "pageviews": 19
     },
     {
         "query_id": "30_255",
@@ -2049,7 +1521,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 855
+        "pageviews": 3
     },
     {
         "query_id": "30_256",
@@ -2057,23 +1529,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 391
-    },
-    {
-        "query_id": "30_257",
-        "question": "Which continent is Mount Insel located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 362
-    },
-    {
-        "query_id": "30_258",
-        "question": "Which continent is Hallett Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 428
+        "pageviews": 4
     },
     {
         "query_id": "30_259",
@@ -2081,7 +1537,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 501
+        "pageviews": 1
     },
     {
         "query_id": "30_260",
@@ -2089,7 +1545,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 315
+        "pageviews": 2
     },
     {
         "query_id": "30_261",
@@ -2097,7 +1553,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 613
+        "pageviews": 6
     },
     {
         "query_id": "30_262",
@@ -2105,15 +1561,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 541
-    },
-    {
-        "query_id": "30_263",
-        "question": "Which continent is Snowshoe Pass located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 404
+        "pageviews": 6
     },
     {
         "query_id": "30_264",
@@ -2121,15 +1569,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 422
-    },
-    {
-        "query_id": "30_265",
-        "question": "Which continent is Igloo Spur located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 182
+        "pageviews": 5
     },
     {
         "query_id": "30_266",
@@ -2137,7 +1577,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 442
+        "pageviews": 1
     },
     {
         "query_id": "30_267",
@@ -2145,23 +1585,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 392
-    },
-    {
-        "query_id": "30_268",
-        "question": "Which continent is Lizards Foot located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 274
-    },
-    {
-        "query_id": "30_269",
-        "question": "Which continent is Malin Valley located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 423
+        "pageviews": 1
     },
     {
         "query_id": "30_270",
@@ -2169,7 +1593,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 366
+        "pageviews": 1
     },
     {
         "query_id": "30_271",
@@ -2177,7 +1601,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 771
+        "pageviews": 1
     },
     {
         "query_id": "30_272",
@@ -2185,7 +1609,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 541
+        "pageviews": 5
     },
     {
         "query_id": "30_273",
@@ -2193,7 +1617,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 330
+        "pageviews": 1
     },
     {
         "query_id": "30_274",
@@ -2201,7 +1625,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 2244
+        "pageviews": 9
     },
     {
         "query_id": "30_275",
@@ -2209,15 +1633,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 531
-    },
-    {
-        "query_id": "30_276",
-        "question": "Which continent is DeMaster Point located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 372
+        "pageviews": 3
     },
     {
         "query_id": "30_277",
@@ -2226,15 +1642,7 @@
             "Asia",
             "Europe"
         ],
-        "pageviews": 1607619
-    },
-    {
-        "query_id": "30_279",
-        "question": "Which continent is Gallen Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 476
+        "pageviews": 7152
     },
     {
         "query_id": "30_280",
@@ -2242,7 +1650,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 923
+        "pageviews": 2
     },
     {
         "query_id": "30_281",
@@ -2250,7 +1658,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 7183
+        "pageviews": 18
     },
     {
         "query_id": "30_282",
@@ -2258,7 +1666,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 265
+        "pageviews": 1
     },
     {
         "query_id": "30_283",
@@ -2266,7 +1674,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1006
+        "pageviews": 1
     },
     {
         "query_id": "30_284",
@@ -2274,7 +1682,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 582
+        "pageviews": 11
     },
     {
         "query_id": "30_285",
@@ -2282,7 +1690,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 503
+        "pageviews": 1
     },
     {
         "query_id": "30_286",
@@ -2290,15 +1698,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 710
-    },
-    {
-        "query_id": "30_287",
-        "question": "Which continent is Mount Morse located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 372
+        "pageviews": 1
     },
     {
         "query_id": "30_288",
@@ -2306,7 +1706,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 4372934
+        "pageviews": 22977
     },
     {
         "query_id": "30_289",
@@ -2314,7 +1714,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1625
+        "pageviews": 3
     },
     {
         "query_id": "30_290",
@@ -2322,15 +1722,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 457
-    },
-    {
-        "query_id": "30_291",
-        "question": "Which continent is Mount Estes located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 502
+        "pageviews": 2
     },
     {
         "query_id": "30_292",
@@ -2338,15 +1730,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 874
-    },
-    {
-        "query_id": "30_293",
-        "question": "Which continent is Reade Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 378
+        "pageviews": 2
     },
     {
         "query_id": "30_294",
@@ -2354,7 +1738,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 895
+        "pageviews": 5
     },
     {
         "query_id": "30_295",
@@ -2362,15 +1746,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 3584
-    },
-    {
-        "query_id": "30_296",
-        "question": "Which continent is Buntley Bluff located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 372
+        "pageviews": 10
     },
     {
         "query_id": "30_297",
@@ -2378,7 +1754,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 284118
+        "pageviews": 1359
     },
     {
         "query_id": "30_298",
@@ -2386,7 +1762,7 @@
         "answers": [
             "Africa"
         ],
-        "pageviews": 1047811
+        "pageviews": 1849
     },
     {
         "query_id": "30_299",
@@ -2394,7 +1770,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 781
+        "pageviews": 3
     },
     {
         "query_id": "30_300",
@@ -2402,7 +1778,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 366
+        "pageviews": 2
     },
     {
         "query_id": "30_301",
@@ -2410,7 +1786,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 419
+        "pageviews": 1
     },
     {
         "query_id": "30_302",
@@ -2418,7 +1794,7 @@
         "answers": [
             "North America"
         ],
-        "pageviews": 1275291
+        "pageviews": 1256
     },
     {
         "query_id": "30_303",
@@ -2426,7 +1802,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 327
+        "pageviews": 1
     },
     {
         "query_id": "30_304",
@@ -2434,15 +1810,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 626
-    },
-    {
-        "query_id": "30_305",
-        "question": "Which continent is Manj\u016b Rock located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 196
+        "pageviews": 1
     },
     {
         "query_id": "30_306",
@@ -2450,15 +1818,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 358
-    },
-    {
-        "query_id": "30_307",
-        "question": "Which continent is Fl\u00e5rjuvnutane Peaks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 222
+        "pageviews": 2
     },
     {
         "query_id": "30_308",
@@ -2466,7 +1826,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1285
+        "pageviews": 12
     },
     {
         "query_id": "30_309",
@@ -2474,7 +1834,7 @@
         "answers": [
             "North America"
         ],
-        "pageviews": 389481
+        "pageviews": 3363
     },
     {
         "query_id": "30_310",
@@ -2482,7 +1842,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 212
+        "pageviews": 1
     },
     {
         "query_id": "30_311",
@@ -2490,7 +1850,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 13497
+        "pageviews": 6
     },
     {
         "query_id": "30_312",
@@ -2498,15 +1858,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 934
-    },
-    {
-        "query_id": "30_313",
-        "question": "Which continent is Mayeda Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 281
+        "pageviews": 1
     },
     {
         "query_id": "30_314",
@@ -2514,15 +1866,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 346
-    },
-    {
-        "query_id": "30_315",
-        "question": "Which continent is Benson Knob located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 689
+        "pageviews": 3
     },
     {
         "query_id": "30_316",
@@ -2530,7 +1874,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 630
+        "pageviews": 23
     },
     {
         "query_id": "30_317",
@@ -2538,7 +1882,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 370
+        "pageviews": 1
     },
     {
         "query_id": "30_318",
@@ -2546,7 +1890,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 561
+        "pageviews": 1
     },
     {
         "query_id": "30_319",
@@ -2554,7 +1898,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 683
+        "pageviews": 1
     },
     {
         "query_id": "30_320",
@@ -2562,7 +1906,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 359
+        "pageviews": 1
     },
     {
         "query_id": "30_321",
@@ -2570,7 +1914,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 704
+        "pageviews": 8
     },
     {
         "query_id": "30_322",
@@ -2578,7 +1922,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 726
+        "pageviews": 1
     },
     {
         "query_id": "30_323",
@@ -2586,7 +1930,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 10232
+        "pageviews": 4
     },
     {
         "query_id": "30_324",
@@ -2594,7 +1938,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 990
+        "pageviews": 16
     },
     {
         "query_id": "30_325",
@@ -2602,15 +1946,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 498
-    },
-    {
-        "query_id": "30_326",
-        "question": "Which continent is Buzfuz Rock located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 354
+        "pageviews": 5
     },
     {
         "query_id": "30_327",
@@ -2618,15 +1954,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1218
-    },
-    {
-        "query_id": "30_328",
-        "question": "Which continent is Klo Rock located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 76
+        "pageviews": 8
     },
     {
         "query_id": "30_329",
@@ -2634,7 +1962,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 408
+        "pageviews": 2
     },
     {
         "query_id": "30_330",
@@ -2642,7 +1970,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 632
+        "pageviews": 3
     },
     {
         "query_id": "30_331",
@@ -2650,7 +1978,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 677
+        "pageviews": 9
     },
     {
         "query_id": "30_332",
@@ -2658,15 +1986,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 380
-    },
-    {
-        "query_id": "30_333",
-        "question": "Which continent is Seely Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 319
+        "pageviews": 1
     },
     {
         "query_id": "30_334",
@@ -2674,15 +1994,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 518
-    },
-    {
-        "query_id": "30_335",
-        "question": "Which continent is Watts Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 661
+        "pageviews": 3
     },
     {
         "query_id": "30_336",
@@ -2690,7 +2002,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 2290
+        "pageviews": 7
     },
     {
         "query_id": "30_337",
@@ -2698,39 +2010,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 281
-    },
-    {
-        "query_id": "30_338",
-        "question": "Which continent is Eddystone Rocks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 1003
-    },
-    {
-        "query_id": "30_339",
-        "question": "Which continent is Ameghino Gully located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 301
-    },
-    {
-        "query_id": "30_340",
-        "question": "Which continent is Milles Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 370
-    },
-    {
-        "query_id": "30_341",
-        "question": "Which continent is Suarez Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 743
+        "pageviews": 1
     },
     {
         "query_id": "30_342",
@@ -2738,7 +2018,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 591
+        "pageviews": 4
     },
     {
         "query_id": "30_343",
@@ -2746,7 +2026,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 490
+        "pageviews": 8
     },
     {
         "query_id": "30_344",
@@ -2754,7 +2034,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 496
+        "pageviews": 9
     },
     {
         "query_id": "30_345",
@@ -2762,7 +2042,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 707
+        "pageviews": 6
     },
     {
         "query_id": "30_346",
@@ -2770,15 +2050,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 389
-    },
-    {
-        "query_id": "30_347",
-        "question": "Which continent is Warren Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 404
+        "pageviews": 1
     },
     {
         "query_id": "30_348",
@@ -2786,7 +2058,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 632
+        "pageviews": 3
     },
     {
         "query_id": "30_349",
@@ -2794,39 +2066,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 415
-    },
-    {
-        "query_id": "30_350",
-        "question": "Which continent is Sullivan Peaks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 348
-    },
-    {
-        "query_id": "30_351",
-        "question": "Which continent is Mount Eastman located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 471
-    },
-    {
-        "query_id": "30_352",
-        "question": "Which continent is Aitken Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 819
-    },
-    {
-        "query_id": "30_353",
-        "question": "Which continent is Mount Rorqual located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 283
+        "pageviews": 14
     },
     {
         "query_id": "30_354",
@@ -2834,7 +2074,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 604
+        "pageviews": 2
     },
     {
         "query_id": "30_355",
@@ -2842,7 +2082,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 355
+        "pageviews": 2
     },
     {
         "query_id": "30_356",
@@ -2850,7 +2090,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 445
+        "pageviews": 6
     },
     {
         "query_id": "30_357",
@@ -2858,7 +2098,7 @@
         "answers": [
             "Asia"
         ],
-        "pageviews": 40215
+        "pageviews": 40
     },
     {
         "query_id": "30_358",
@@ -2866,15 +2106,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 446
-    },
-    {
-        "query_id": "30_359",
-        "question": "Which continent is Shoemake Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 302
+        "pageviews": 2
     },
     {
         "query_id": "30_360",
@@ -2882,7 +2114,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 401
+        "pageviews": 1
     },
     {
         "query_id": "30_361",
@@ -2890,15 +2122,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1191
-    },
-    {
-        "query_id": "30_362",
-        "question": "Which continent is Raquelia Rocks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 739
+        "pageviews": 4
     },
     {
         "query_id": "30_363",
@@ -2906,7 +2130,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1416
+        "pageviews": 4
     },
     {
         "query_id": "30_364",
@@ -2914,23 +2138,7 @@
         "answers": [
             "North America"
         ],
-        "pageviews": 332916
-    },
-    {
-        "query_id": "30_365",
-        "question": "Which continent is Vere Ice Rise located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 302
-    },
-    {
-        "query_id": "30_366",
-        "question": "Which continent is Grinnell Island located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 588
+        "pageviews": 2355
     },
     {
         "query_id": "30_367",
@@ -2938,7 +2146,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1333
+        "pageviews": 2
     },
     {
         "query_id": "30_368",
@@ -2946,7 +2154,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 430
+        "pageviews": 3
     },
     {
         "query_id": "30_369",
@@ -2954,7 +2162,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 518
+        "pageviews": 1
     },
     {
         "query_id": "30_370",
@@ -2962,7 +2170,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 704
+        "pageviews": 2
     },
     {
         "query_id": "30_371",
@@ -2970,7 +2178,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 543
+        "pageviews": 1
     },
     {
         "query_id": "30_372",
@@ -2978,7 +2186,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 998
+        "pageviews": 1
     },
     {
         "query_id": "30_373",
@@ -2986,7 +2194,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1789
+        "pageviews": 1
     },
     {
         "query_id": "30_374",
@@ -2994,7 +2202,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 289
+        "pageviews": 1
     },
     {
         "query_id": "30_375",
@@ -3002,7 +2210,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 719
+        "pageviews": 2
     },
     {
         "query_id": "30_376",
@@ -3010,15 +2218,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 233
-    },
-    {
-        "query_id": "30_377",
-        "question": "Which continent is Mount Henderson located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 377
+        "pageviews": 1
     },
     {
         "query_id": "30_378",
@@ -3026,7 +2226,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 743
+        "pageviews": 6
     },
     {
         "query_id": "30_379",
@@ -3034,7 +2234,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 235
+        "pageviews": 3
     },
     {
         "query_id": "30_380",
@@ -3042,7 +2242,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 769
+        "pageviews": 1
     },
     {
         "query_id": "30_381",
@@ -3050,7 +2250,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 566
+        "pageviews": 9
     },
     {
         "query_id": "30_382",
@@ -3058,15 +2258,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 419
-    },
-    {
-        "query_id": "30_383",
-        "question": "Which continent is Hamm Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 338
+        "pageviews": 5
     },
     {
         "query_id": "30_384",
@@ -3074,7 +2266,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 545
+        "pageviews": 3
     },
     {
         "query_id": "30_385",
@@ -3082,7 +2274,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 4002
+        "pageviews": 46
     },
     {
         "query_id": "30_386",
@@ -3090,23 +2282,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 463
-    },
-    {
-        "query_id": "30_387",
-        "question": "Which continent is Cerberus Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 306
-    },
-    {
-        "query_id": "30_388",
-        "question": "Which continent is G\u00e5renevkalven Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 140
+        "pageviews": 2
     },
     {
         "query_id": "30_389",
@@ -3114,7 +2290,7 @@
         "answers": [
             "Asia"
         ],
-        "pageviews": 1721619
+        "pageviews": 5087
     },
     {
         "query_id": "30_390",
@@ -3122,7 +2298,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 410
+        "pageviews": 2
     },
     {
         "query_id": "30_391",
@@ -3130,7 +2306,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 852
+        "pageviews": 9
     },
     {
         "query_id": "30_392",
@@ -3138,7 +2314,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 336
+        "pageviews": 1
     },
     {
         "query_id": "30_393",
@@ -3146,7 +2322,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 790
+        "pageviews": 1
     },
     {
         "query_id": "30_394",
@@ -3154,7 +2330,7 @@
         "answers": [
             "Asia"
         ],
-        "pageviews": 2957
+        "pageviews": 1
     },
     {
         "query_id": "30_395",
@@ -3162,7 +2338,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 771
+        "pageviews": 4
     },
     {
         "query_id": "30_396",
@@ -3170,7 +2346,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 509
+        "pageviews": 2
     },
     {
         "query_id": "30_397",
@@ -3178,15 +2354,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 323
-    },
-    {
-        "query_id": "30_398",
-        "question": "Which continent is Cross Valley located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 439
+        "pageviews": 1
     },
     {
         "query_id": "30_399",
@@ -3194,7 +2362,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 579
+        "pageviews": 1
     },
     {
         "query_id": "30_400",
@@ -3202,23 +2370,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 345
-    },
-    {
-        "query_id": "30_401",
-        "question": "Which continent is Contortion Spur located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 239
-    },
-    {
-        "query_id": "30_402",
-        "question": "Which continent is Mount Miller located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 327
+        "pageviews": 1
     },
     {
         "query_id": "30_403",
@@ -3226,7 +2378,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 515
+        "pageviews": 1
     },
     {
         "query_id": "30_404",
@@ -3234,7 +2386,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 494
+        "pageviews": 2
     },
     {
         "query_id": "30_405",
@@ -3242,7 +2394,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 443
+        "pageviews": 2
     },
     {
         "query_id": "30_406",
@@ -3250,7 +2402,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 973
+        "pageviews": 4
     },
     {
         "query_id": "30_407",
@@ -3258,15 +2410,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 14678
-    },
-    {
-        "query_id": "30_408",
-        "question": "Which continent is Pascoe Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 232
+        "pageviews": 33
     },
     {
         "query_id": "30_409",
@@ -3274,7 +2418,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 751
+        "pageviews": 3
     },
     {
         "query_id": "30_410",
@@ -3282,7 +2426,7 @@
         "answers": [
             "North America"
         ],
-        "pageviews": 5322374
+        "pageviews": 36449
     },
     {
         "query_id": "30_411",
@@ -3290,7 +2434,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 957
+        "pageviews": 7
     },
     {
         "query_id": "30_412",
@@ -3298,7 +2442,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 522
+        "pageviews": 5
     },
     {
         "query_id": "30_413",
@@ -3306,7 +2450,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 558
+        "pageviews": 3
     },
     {
         "query_id": "30_414",
@@ -3314,15 +2458,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1087
-    },
-    {
-        "query_id": "30_415",
-        "question": "Which continent is Maipo Island located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 349
+        "pageviews": 11
     },
     {
         "query_id": "30_416",
@@ -3330,7 +2466,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 235763
+        "pageviews": 244
     },
     {
         "query_id": "30_417",
@@ -3338,7 +2474,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 397
+        "pageviews": 2
     },
     {
         "query_id": "30_418",
@@ -3346,23 +2482,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 367
-    },
-    {
-        "query_id": "30_419",
-        "question": "Which continent is Slabotnen Cirque located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 259
-    },
-    {
-        "query_id": "30_420",
-        "question": "Which continent is Garden Spur located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 478
+        "pageviews": 3
     },
     {
         "query_id": "30_421",
@@ -3370,7 +2490,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 306
+        "pageviews": 1
     },
     {
         "query_id": "30_422",
@@ -3378,7 +2498,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 319
+        "pageviews": 2
     },
     {
         "query_id": "30_423",
@@ -3386,7 +2506,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 703
+        "pageviews": 6
     },
     {
         "query_id": "30_424",
@@ -3394,7 +2514,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 366
+        "pageviews": 1
     },
     {
         "query_id": "30_425",
@@ -3402,7 +2522,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 335
+        "pageviews": 1
     },
     {
         "query_id": "30_426",
@@ -3410,7 +2530,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 656
+        "pageviews": 4
     },
     {
         "query_id": "30_427",
@@ -3418,7 +2538,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 373
+        "pageviews": 5
     },
     {
         "query_id": "30_428",
@@ -3426,15 +2546,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 443
-    },
-    {
-        "query_id": "30_429",
-        "question": "Which continent is Ritala Spur located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 246
+        "pageviews": 2
     },
     {
         "query_id": "30_430",
@@ -3442,7 +2554,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 941
+        "pageviews": 3
     },
     {
         "query_id": "30_431",
@@ -3450,7 +2562,7 @@
         "answers": [
             "Asia"
         ],
-        "pageviews": 186731
+        "pageviews": 1323
     },
     {
         "query_id": "30_432",
@@ -3458,15 +2570,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 348
-    },
-    {
-        "query_id": "30_433",
-        "question": "Which continent is Buena Nueva Cove located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 422
+        "pageviews": 1
     },
     {
         "query_id": "30_434",
@@ -3474,7 +2578,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 3152
+        "pageviews": 16
     },
     {
         "query_id": "30_435",
@@ -3482,15 +2586,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 761
-    },
-    {
-        "query_id": "30_436",
-        "question": "Which continent is Stepping Stone Pond located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 529
+        "pageviews": 7
     },
     {
         "query_id": "30_437",
@@ -3498,7 +2594,7 @@
         "answers": [
             "North America"
         ],
-        "pageviews": 188742
+        "pageviews": 821
     },
     {
         "query_id": "30_438",
@@ -3506,7 +2602,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 870
+        "pageviews": 6
     },
     {
         "query_id": "30_439",
@@ -3514,7 +2610,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 472
+        "pageviews": 1
     },
     {
         "query_id": "30_440",
@@ -3522,7 +2618,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 225
+        "pageviews": 1
     },
     {
         "query_id": "30_441",
@@ -3530,15 +2626,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 421
-    },
-    {
-        "query_id": "30_442",
-        "question": "Which continent is Carnell Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 268
+        "pageviews": 4
     },
     {
         "query_id": "30_443",
@@ -3546,7 +2634,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 572
+        "pageviews": 3
     },
     {
         "query_id": "30_444",
@@ -3554,7 +2642,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 676
+        "pageviews": 1
     },
     {
         "query_id": "30_445",
@@ -3562,7 +2650,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 548
+        "pageviews": 4
     },
     {
         "query_id": "30_446",
@@ -3570,7 +2658,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 977
+        "pageviews": 2
     },
     {
         "query_id": "30_447",
@@ -3578,7 +2666,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 605
+        "pageviews": 9
     },
     {
         "query_id": "30_448",
@@ -3586,7 +2674,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 472
+        "pageviews": 8
     },
     {
         "query_id": "30_449",
@@ -3594,7 +2682,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 578
+        "pageviews": 1
     },
     {
         "query_id": "30_450",
@@ -3602,15 +2690,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 456
-    },
-    {
-        "query_id": "30_451",
-        "question": "Which continent is Oppkuven Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 370
+        "pageviews": 2
     },
     {
         "query_id": "30_452",
@@ -3618,7 +2698,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 683
+        "pageviews": 1
     },
     {
         "query_id": "30_453",
@@ -3626,7 +2706,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 2324
+        "pageviews": 22
     },
     {
         "query_id": "30_454",
@@ -3634,23 +2714,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 371
-    },
-    {
-        "query_id": "30_455",
-        "question": "Which continent is Clarkson Cliffs located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 317
-    },
-    {
-        "query_id": "30_456",
-        "question": "Which continent is Komsomol'skaya Hill located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 261
+        "pageviews": 2
     },
     {
         "query_id": "30_457",
@@ -3658,7 +2722,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 187
+        "pageviews": 2
     },
     {
         "query_id": "30_458",
@@ -3666,7 +2730,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 520
+        "pageviews": 7
     },
     {
         "query_id": "30_459",
@@ -3674,7 +2738,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 541
+        "pageviews": 8
     },
     {
         "query_id": "30_460",
@@ -3682,7 +2746,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 726
+        "pageviews": 7
     },
     {
         "query_id": "30_461",
@@ -3690,7 +2754,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 703
+        "pageviews": 4
     },
     {
         "query_id": "30_462",
@@ -3698,7 +2762,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 549
+        "pageviews": 3
     },
     {
         "query_id": "30_463",
@@ -3706,7 +2770,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 345
+        "pageviews": 4
     },
     {
         "query_id": "30_464",
@@ -3714,7 +2778,7 @@
         "answers": [
             "Africa"
         ],
-        "pageviews": 5938608
+        "pageviews": 12149
     },
     {
         "query_id": "30_465",
@@ -3722,7 +2786,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 399
+        "pageviews": 3
     },
     {
         "query_id": "30_466",
@@ -3730,23 +2794,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 70
-    },
-    {
-        "query_id": "30_467",
-        "question": "Which continent is Nancy Rock located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 821
-    },
-    {
-        "query_id": "30_468",
-        "question": "Which continent is Mount Southern located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 360
+        "pageviews": 1
     },
     {
         "query_id": "30_469",
@@ -3754,7 +2802,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 659
+        "pageviews": 1
     },
     {
         "query_id": "30_470",
@@ -3762,15 +2810,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 7114
-    },
-    {
-        "query_id": "30_471",
-        "question": "Which continent is Wall Rock located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 975
+        "pageviews": 6
     },
     {
         "query_id": "30_472",
@@ -3778,7 +2818,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 419
+        "pageviews": 1
     },
     {
         "query_id": "30_473",
@@ -3786,7 +2826,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 655
+        "pageviews": 9
     },
     {
         "query_id": "30_474",
@@ -3794,15 +2834,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 2156
-    },
-    {
-        "query_id": "30_475",
-        "question": "Which continent is Stenhouse Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 475
+        "pageviews": 2
     },
     {
         "query_id": "30_476",
@@ -3810,7 +2842,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 400
+        "pageviews": 2
     },
     {
         "query_id": "30_477",
@@ -3818,7 +2850,7 @@
         "answers": [
             "Asia"
         ],
-        "pageviews": 3437842
+        "pageviews": 1904
     },
     {
         "query_id": "30_478",
@@ -3826,7 +2858,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 2863
+        "pageviews": 25
     },
     {
         "query_id": "30_479",
@@ -3834,7 +2866,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 482
+        "pageviews": 2
     },
     {
         "query_id": "30_480",
@@ -3842,7 +2874,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 722
+        "pageviews": 11
     },
     {
         "query_id": "30_481",
@@ -3850,7 +2882,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 9762
+        "pageviews": 6
     },
     {
         "query_id": "30_482",
@@ -3858,15 +2890,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 834
-    },
-    {
-        "query_id": "30_483",
-        "question": "Which continent is Melvold Nunataks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 319
+        "pageviews": 3
     },
     {
         "query_id": "30_484",
@@ -3874,15 +2898,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 243
-    },
-    {
-        "query_id": "30_485",
-        "question": "Which continent is Tombstone Hill located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 602
+        "pageviews": 1
     },
     {
         "query_id": "30_486",
@@ -3890,7 +2906,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1089
+        "pageviews": 3
     },
     {
         "query_id": "30_487",
@@ -3898,15 +2914,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 557
-    },
-    {
-        "query_id": "30_488",
-        "question": "Which continent is Bertodano Bay located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 458
+        "pageviews": 3
     },
     {
         "query_id": "30_489",
@@ -3914,7 +2922,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 741
+        "pageviews": 9
     },
     {
         "query_id": "30_490",
@@ -3922,7 +2930,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 967
+        "pageviews": 10
     },
     {
         "query_id": "30_491",
@@ -3930,7 +2938,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 191431
+        "pageviews": 480
     },
     {
         "query_id": "30_492",
@@ -3938,15 +2946,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 430
-    },
-    {
-        "query_id": "30_493",
-        "question": "Which continent is Lurker Rock located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 549
+        "pageviews": 4
     },
     {
         "query_id": "30_494",
@@ -3954,7 +2954,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 672
+        "pageviews": 2
     },
     {
         "query_id": "30_495",
@@ -3962,7 +2962,7 @@
         "answers": [
             "Asia"
         ],
-        "pageviews": 2281072
+        "pageviews": 1668
     },
     {
         "query_id": "30_496",
@@ -3970,7 +2970,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 428
+        "pageviews": 2
     },
     {
         "query_id": "30_497",
@@ -3978,23 +2978,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 498
-    },
-    {
-        "query_id": "30_498",
-        "question": "Which continent is Hooper Crags located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 309
-    },
-    {
-        "query_id": "30_499",
-        "question": "Which continent is Long Island located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 772
+        "pageviews": 2
     },
     {
         "query_id": "30_500",
@@ -4002,15 +2986,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 585
-    },
-    {
-        "query_id": "30_501",
-        "question": "Which continent is Forefinger Point located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 372
+        "pageviews": 3
     },
     {
         "query_id": "30_502",
@@ -4018,15 +2994,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 484
-    },
-    {
-        "query_id": "30_503",
-        "question": "Which continent is Gordon Nunataks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 385
+        "pageviews": 8
     },
     {
         "query_id": "30_504",
@@ -4034,7 +3002,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 584
+        "pageviews": 1
     },
     {
         "query_id": "30_505",
@@ -4042,23 +3010,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 292
-    },
-    {
-        "query_id": "30_506",
-        "question": "Which continent is Tracy Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 343
-    },
-    {
-        "query_id": "30_507",
-        "question": "Which continent is Mercury Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 311
+        "pageviews": 1
     },
     {
         "query_id": "30_508",
@@ -4066,7 +3018,7 @@
         "answers": [
             "Africa"
         ],
-        "pageviews": 2642270
+        "pageviews": 7008
     },
     {
         "query_id": "30_509",
@@ -4074,7 +3026,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 445
+        "pageviews": 5
     },
     {
         "query_id": "30_510",
@@ -4082,31 +3034,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 6999
-    },
-    {
-        "query_id": "30_511",
-        "question": "Which continent is Mount Byrd located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 472
-    },
-    {
-        "query_id": "30_512",
-        "question": "Which continent is Farbo Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 480
-    },
-    {
-        "query_id": "30_513",
-        "question": "Which continent is Dybvadskog Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 309
+        "pageviews": 311
     },
     {
         "query_id": "30_514",
@@ -4114,7 +3042,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 600
+        "pageviews": 1
     },
     {
         "query_id": "30_515",
@@ -4122,15 +3050,7 @@
         "answers": [
             "Asia"
         ],
-        "pageviews": 27904
-    },
-    {
-        "query_id": "30_516",
-        "question": "Which continent is Maigo Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 357
+        "pageviews": 69
     },
     {
         "query_id": "30_517",
@@ -4138,7 +3058,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 408
+        "pageviews": 2
     },
     {
         "query_id": "30_518",
@@ -4146,7 +3066,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 377
+        "pageviews": 4
     },
     {
         "query_id": "30_519",
@@ -4154,23 +3074,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 434
-    },
-    {
-        "query_id": "30_520",
-        "question": "Which continent is Gawn Ice Piedmont located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 227
-    },
-    {
-        "query_id": "30_521",
-        "question": "Which continent is Krakken Hill located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 129
+        "pageviews": 3
     },
     {
         "query_id": "30_522",
@@ -4178,7 +3082,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 387
+        "pageviews": 1
     },
     {
         "query_id": "30_523",
@@ -4186,15 +3090,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1473
-    },
-    {
-        "query_id": "30_524",
-        "question": "Which continent is Vendeh\u00f8 Heights located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 278
+        "pageviews": 3
     },
     {
         "query_id": "30_525",
@@ -4202,7 +3098,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 588
+        "pageviews": 3
     },
     {
         "query_id": "30_526",
@@ -4210,7 +3106,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 400
+        "pageviews": 2
     },
     {
         "query_id": "30_527",
@@ -4218,7 +3114,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 353
+        "pageviews": 2
     },
     {
         "query_id": "30_528",
@@ -4226,15 +3122,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 652
-    },
-    {
-        "query_id": "30_529",
-        "question": "Which continent is Renaud Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 548
+        "pageviews": 2
     },
     {
         "query_id": "30_530",
@@ -4242,7 +3130,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 346
+        "pageviews": 1
     },
     {
         "query_id": "30_531",
@@ -4250,15 +3138,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 707
-    },
-    {
-        "query_id": "30_532",
-        "question": "Which continent is Rampart Terrace located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 90
+        "pageviews": 1
     },
     {
         "query_id": "30_533",
@@ -4266,7 +3146,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 856
+        "pageviews": 1
     },
     {
         "query_id": "30_534",
@@ -4274,7 +3154,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 576
+        "pageviews": 2
     },
     {
         "query_id": "30_535",
@@ -4282,7 +3162,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 552
+        "pageviews": 1
     },
     {
         "query_id": "30_536",
@@ -4290,7 +3170,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 428
+        "pageviews": 4
     },
     {
         "query_id": "30_537",
@@ -4298,15 +3178,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1885
-    },
-    {
-        "query_id": "30_538",
-        "question": "Which continent is Harriss Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 182
+        "pageviews": 3
     },
     {
         "query_id": "30_539",
@@ -4314,7 +3186,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 477
+        "pageviews": 1
     },
     {
         "query_id": "30_540",
@@ -4322,7 +3194,7 @@
         "answers": [
             "South America"
         ],
-        "pageviews": 5018
+        "pageviews": 22
     },
     {
         "query_id": "30_541",
@@ -4330,7 +3202,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 269
+        "pageviews": 1
     },
     {
         "query_id": "30_542",
@@ -4338,7 +3210,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 6706
+        "pageviews": 25
     },
     {
         "query_id": "30_543",
@@ -4346,7 +3218,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 647
+        "pageviews": 1
     },
     {
         "query_id": "30_544",
@@ -4354,7 +3226,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 464
+        "pageviews": 13
     },
     {
         "query_id": "30_545",
@@ -4362,15 +3234,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 916
-    },
-    {
-        "query_id": "30_546",
-        "question": "Which continent is Greben' Island located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 479
+        "pageviews": 6
     },
     {
         "query_id": "30_547",
@@ -4378,7 +3242,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1603
+        "pageviews": 2
     },
     {
         "query_id": "30_548",
@@ -4386,7 +3250,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 310
+        "pageviews": 1
     },
     {
         "query_id": "30_549",
@@ -4394,7 +3258,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 302
+        "pageviews": 1
     },
     {
         "query_id": "30_550",
@@ -4402,23 +3266,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 3099
-    },
-    {
-        "query_id": "30_551",
-        "question": "Which continent is Burrage Dome located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 392
-    },
-    {
-        "query_id": "30_552",
-        "question": "Which continent is Goodall Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 307
+        "pageviews": 2
     },
     {
         "query_id": "30_553",
@@ -4426,7 +3274,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 580
+        "pageviews": 2
     },
     {
         "query_id": "30_554",
@@ -4434,7 +3282,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 349
+        "pageviews": 2
     },
     {
         "query_id": "30_555",
@@ -4442,7 +3290,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 238
+        "pageviews": 2
     },
     {
         "query_id": "30_556",
@@ -4450,7 +3298,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 428
+        "pageviews": 2
     },
     {
         "query_id": "30_557",
@@ -4458,7 +3306,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 249
+        "pageviews": 2
     },
     {
         "query_id": "30_558",
@@ -4466,7 +3314,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 183410
+        "pageviews": 380
     },
     {
         "query_id": "30_559",
@@ -4474,7 +3322,7 @@
         "answers": [
             "Africa"
         ],
-        "pageviews": 3197
+        "pageviews": 15
     },
     {
         "query_id": "30_560",
@@ -4482,7 +3330,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1011
+        "pageviews": 19
     },
     {
         "query_id": "30_561",
@@ -4490,7 +3338,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 692
+        "pageviews": 12
     },
     {
         "query_id": "30_562",
@@ -4498,31 +3346,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 308
-    },
-    {
-        "query_id": "30_563",
-        "question": "Which continent is Storkvaeven Cirque located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 255
-    },
-    {
-        "query_id": "30_564",
-        "question": "Which continent is McClintock Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 384
-    },
-    {
-        "query_id": "30_565",
-        "question": "Which continent is Institute Ice Stream located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 775
+        "pageviews": 6
     },
     {
         "query_id": "30_566",
@@ -4530,15 +3354,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 497
-    },
-    {
-        "query_id": "30_567",
-        "question": "Which continent is Vergilov Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 602
+        "pageviews": 3
     },
     {
         "query_id": "30_568",
@@ -4546,7 +3362,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 515
+        "pageviews": 2
     },
     {
         "query_id": "30_569",
@@ -4554,7 +3370,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 725
+        "pageviews": 1
     },
     {
         "query_id": "30_570",
@@ -4562,7 +3378,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 474
+        "pageviews": 6
     },
     {
         "query_id": "30_571",
@@ -4570,7 +3386,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 274
+        "pageviews": 1
     },
     {
         "query_id": "30_572",
@@ -4578,7 +3394,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 331
+        "pageviews": 3
     },
     {
         "query_id": "30_573",
@@ -4586,7 +3402,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 775
+        "pageviews": 6
     },
     {
         "query_id": "30_574",
@@ -4594,7 +3410,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 315
+        "pageviews": 3
     },
     {
         "query_id": "30_575",
@@ -4602,7 +3418,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 438
+        "pageviews": 1
     },
     {
         "query_id": "30_576",
@@ -4610,7 +3426,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 684
+        "pageviews": 4
     },
     {
         "query_id": "30_577",
@@ -4618,7 +3434,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 206
+        "pageviews": 1
     },
     {
         "query_id": "30_578",
@@ -4626,15 +3442,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 985
-    },
-    {
-        "query_id": "30_579",
-        "question": "Which continent is Dewar Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 411
+        "pageviews": 3
     },
     {
         "query_id": "30_580",
@@ -4642,23 +3450,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 161196
-    },
-    {
-        "query_id": "30_581",
-        "question": "Which continent is M\u00f8rkenatten Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 270
-    },
-    {
-        "query_id": "30_582",
-        "question": "Which continent is Kennel Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 752
+        "pageviews": 602
     },
     {
         "query_id": "30_583",
@@ -4666,7 +3458,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 380
+        "pageviews": 3
     },
     {
         "query_id": "30_584",
@@ -4674,7 +3466,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 979
+        "pageviews": 6
     },
     {
         "query_id": "30_585",
@@ -4682,15 +3474,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 708
-    },
-    {
-        "query_id": "30_586",
-        "question": "Which continent is Hamarskaftet Nunataks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 125
+        "pageviews": 1
     },
     {
         "query_id": "30_587",
@@ -4698,7 +3482,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 735
+        "pageviews": 5
     },
     {
         "query_id": "30_588",
@@ -4706,7 +3490,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 358
+        "pageviews": 5
     },
     {
         "query_id": "30_589",
@@ -4714,7 +3498,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 326
+        "pageviews": 1
     },
     {
         "query_id": "30_590",
@@ -4722,7 +3506,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 263
+        "pageviews": 2
     },
     {
         "query_id": "30_591",
@@ -4730,7 +3514,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1087
+        "pageviews": 8
     },
     {
         "query_id": "30_592",
@@ -4738,7 +3522,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 785
+        "pageviews": 8
     },
     {
         "query_id": "30_593",
@@ -4746,7 +3530,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 678
+        "pageviews": 2
     },
     {
         "query_id": "30_594",
@@ -4754,7 +3538,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 771
+        "pageviews": 3
     },
     {
         "query_id": "30_595",
@@ -4762,7 +3546,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 721
+        "pageviews": 7
     },
     {
         "query_id": "30_596",
@@ -4770,31 +3554,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 489
-    },
-    {
-        "query_id": "30_597",
-        "question": "Which continent is Magnis Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 265
-    },
-    {
-        "query_id": "30_598",
-        "question": "Which continent is Boschert Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 455
-    },
-    {
-        "query_id": "30_599",
-        "question": "Which continent is Herrmann Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 285
+        "pageviews": 1
     },
     {
         "query_id": "30_600",
@@ -4802,15 +3562,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 330
-    },
-    {
-        "query_id": "30_601",
-        "question": "Which continent is Chocolate Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 364
+        "pageviews": 1
     },
     {
         "query_id": "30_602",
@@ -4818,15 +3570,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 620
-    },
-    {
-        "query_id": "30_603",
-        "question": "Which continent is Filchner-Ronne Ice Shelf located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 9833
+        "pageviews": 5
     },
     {
         "query_id": "30_604",
@@ -4834,15 +3578,7 @@
         "answers": [
             "Africa"
         ],
-        "pageviews": 573997
-    },
-    {
-        "query_id": "30_605",
-        "question": "Which continent is Tutton Point located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 313
+        "pageviews": 761
     },
     {
         "query_id": "30_606",
@@ -4850,7 +3586,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 477
+        "pageviews": 4
     },
     {
         "query_id": "30_607",
@@ -4858,7 +3594,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 516
+        "pageviews": 5
     },
     {
         "query_id": "30_608",
@@ -4866,15 +3602,7 @@
         "answers": [
             "Asia"
         ],
-        "pageviews": 680997
-    },
-    {
-        "query_id": "30_609",
-        "question": "Which continent is Torne River located?",
-        "answers": [
-            "Europe"
-        ],
-        "pageviews": 0
+        "pageviews": 799
     },
     {
         "query_id": "30_610",
@@ -4882,7 +3610,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 424
+        "pageviews": 3
     },
     {
         "query_id": "30_611",
@@ -4890,7 +3618,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 289
+        "pageviews": 1
     },
     {
         "query_id": "30_612",
@@ -4898,31 +3626,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 634
-    },
-    {
-        "query_id": "30_613",
-        "question": "Which continent is Parish Riegel located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 193
-    },
-    {
-        "query_id": "30_614",
-        "question": "Which continent is Lovegrove Point located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 70
-    },
-    {
-        "query_id": "30_615",
-        "question": "Which continent is Houk Spur located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 386
+        "pageviews": 1
     },
     {
         "query_id": "30_616",
@@ -4930,7 +3634,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 460
+        "pageviews": 2
     },
     {
         "query_id": "30_617",
@@ -4938,15 +3642,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 207
-    },
-    {
-        "query_id": "30_618",
-        "question": "Which continent is Webster Peaks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 290
+        "pageviews": 1
     },
     {
         "query_id": "30_619",
@@ -4954,7 +3650,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 353
+        "pageviews": 3
     },
     {
         "query_id": "30_620",
@@ -4962,23 +3658,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 267
-    },
-    {
-        "query_id": "30_621",
-        "question": "Which continent is Catodon Rocks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 365
-    },
-    {
-        "query_id": "30_622",
-        "question": "Which continent is Bothy Bay located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 467
+        "pageviews": 1
     },
     {
         "query_id": "30_623",
@@ -4986,31 +3666,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 811
-    },
-    {
-        "query_id": "30_624",
-        "question": "Which continent is Garnet Rocks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 525
-    },
-    {
-        "query_id": "30_625",
-        "question": "Which continent is Kaggen Hill located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 135
-    },
-    {
-        "query_id": "30_626",
-        "question": "Which continent is Maitri located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 37739
+        "pageviews": 5
     },
     {
         "query_id": "30_627",
@@ -5018,7 +3674,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 799
+        "pageviews": 2
     },
     {
         "query_id": "30_628",
@@ -5026,7 +3682,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 604
+        "pageviews": 4
     },
     {
         "query_id": "30_629",
@@ -5034,7 +3690,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1992
+        "pageviews": 35
     },
     {
         "query_id": "30_630",
@@ -5042,7 +3698,7 @@
         "answers": [
             "Africa"
         ],
-        "pageviews": 12947
+        "pageviews": 32
     },
     {
         "query_id": "30_631",
@@ -5050,7 +3706,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 706
+        "pageviews": 6
     },
     {
         "query_id": "30_632",
@@ -5058,7 +3714,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 332
+        "pageviews": 2
     },
     {
         "query_id": "30_633",
@@ -5066,15 +3722,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 780
-    },
-    {
-        "query_id": "30_634",
-        "question": "Which continent is Mount Pond located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 1196
+        "pageviews": 13
     },
     {
         "query_id": "30_635",
@@ -5082,7 +3730,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 37127
+        "pageviews": 3
     },
     {
         "query_id": "30_636",
@@ -5090,7 +3738,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 679
+        "pageviews": 7
     },
     {
         "query_id": "30_637",
@@ -5098,7 +3746,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 651
+        "pageviews": 1
     },
     {
         "query_id": "30_638",
@@ -5106,7 +3754,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 369
+        "pageviews": 2
     },
     {
         "query_id": "30_639",
@@ -5114,15 +3762,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 576
-    },
-    {
-        "query_id": "30_640",
-        "question": "Which continent is Pond Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 260
+        "pageviews": 2
     },
     {
         "query_id": "30_641",
@@ -5130,23 +3770,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 586
-    },
-    {
-        "query_id": "30_642",
-        "question": "Which continent is McNair Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 593
-    },
-    {
-        "query_id": "30_643",
-        "question": "Which continent is Peacock Heights located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 455
+        "pageviews": 9
     },
     {
         "query_id": "30_644",
@@ -5156,7 +3780,7 @@
             "Europe",
             "Asia"
         ],
-        "pageviews": 1975064
+        "pageviews": 9575
     },
     {
         "query_id": "30_645",
@@ -5164,7 +3788,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 515
+        "pageviews": 1
     },
     {
         "query_id": "30_646",
@@ -5172,39 +3796,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 23528
-    },
-    {
-        "query_id": "30_647",
-        "question": "Which continent is Clapp Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 305
-    },
-    {
-        "query_id": "30_648",
-        "question": "Which continent is Dunn Spur located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 290
-    },
-    {
-        "query_id": "30_649",
-        "question": "Which continent is Truman Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 519
-    },
-    {
-        "query_id": "30_650",
-        "question": "Which continent is Womochel Peaks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 226
+        "pageviews": 15
     },
     {
         "query_id": "30_651",
@@ -5212,23 +3804,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1438
-    },
-    {
-        "query_id": "30_652",
-        "question": "Which continent is Florence Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 339
-    },
-    {
-        "query_id": "30_653",
-        "question": "Which continent is Larson Nunataks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 429
+        "pageviews": 9
     },
     {
         "query_id": "30_654",
@@ -5236,7 +3812,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1316
+        "pageviews": 9
     },
     {
         "query_id": "30_655",
@@ -5244,7 +3820,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 674
+        "pageviews": 1
     },
     {
         "query_id": "30_656",
@@ -5252,7 +3828,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 2599
+        "pageviews": 8
     },
     {
         "query_id": "30_657",
@@ -5260,15 +3836,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 488
-    },
-    {
-        "query_id": "30_658",
-        "question": "Which continent is Sharp Valley located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 107
+        "pageviews": 3
     },
     {
         "query_id": "30_659",
@@ -5276,7 +3844,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 539
+        "pageviews": 4
     },
     {
         "query_id": "30_660",
@@ -5284,7 +3852,7 @@
         "answers": [
             "Africa"
         ],
-        "pageviews": 123320
+        "pageviews": 349
     },
     {
         "query_id": "30_661",
@@ -5292,7 +3860,7 @@
         "answers": [
             "South America"
         ],
-        "pageviews": 2255540
+        "pageviews": 16975
     },
     {
         "query_id": "30_662",
@@ -5300,7 +3868,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 599
+        "pageviews": 1
     },
     {
         "query_id": "30_663",
@@ -5308,15 +3876,7 @@
         "answers": [
             "North America"
         ],
-        "pageviews": 733601
-    },
-    {
-        "query_id": "30_664",
-        "question": "Which continent is Daughtery Peaks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 758
+        "pageviews": 228
     },
     {
         "query_id": "30_665",
@@ -5324,7 +3884,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 338
+        "pageviews": 1
     },
     {
         "query_id": "30_666",
@@ -5332,15 +3892,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 278
-    },
-    {
-        "query_id": "30_667",
-        "question": "Which continent is Mount Montreuil located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 255
+        "pageviews": 1
     },
     {
         "query_id": "30_668",
@@ -5348,15 +3900,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1207
-    },
-    {
-        "query_id": "30_669",
-        "question": "Which continent is Johns Knoll located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 244
+        "pageviews": 36
     },
     {
         "query_id": "30_670",
@@ -5364,7 +3908,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 392
+        "pageviews": 4
     },
     {
         "query_id": "30_671",
@@ -5372,7 +3916,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 361
+        "pageviews": 4
     },
     {
         "query_id": "30_672",
@@ -5380,7 +3924,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 386
+        "pageviews": 5
     },
     {
         "query_id": "30_673",
@@ -5388,7 +3932,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 357
+        "pageviews": 2
     },
     {
         "query_id": "30_674",
@@ -5396,7 +3940,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 7998
+        "pageviews": 14
     },
     {
         "query_id": "30_675",
@@ -5404,15 +3948,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1509
-    },
-    {
-        "query_id": "30_676",
-        "question": "Which continent is Klinck Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 805
+        "pageviews": 14
     },
     {
         "query_id": "30_677",
@@ -5420,7 +3956,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 490
+        "pageviews": 3
     },
     {
         "query_id": "30_678",
@@ -5428,7 +3964,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 648
+        "pageviews": 6
     },
     {
         "query_id": "30_679",
@@ -5436,7 +3972,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 537
+        "pageviews": 9
     },
     {
         "query_id": "30_680",
@@ -5444,7 +3980,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 275
+        "pageviews": 1
     },
     {
         "query_id": "30_681",
@@ -5452,7 +3988,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 6166
+        "pageviews": 4
     },
     {
         "query_id": "30_682",
@@ -5460,7 +3996,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 205
+        "pageviews": 1
     },
     {
         "query_id": "30_683",
@@ -5468,7 +4004,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 459
+        "pageviews": 17
     },
     {
         "query_id": "30_684",
@@ -5476,15 +4012,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 279
-    },
-    {
-        "query_id": "30_685",
-        "question": "Which continent is Mautino Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 337
+        "pageviews": 1
     },
     {
         "query_id": "30_686",
@@ -5492,15 +4020,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 418
-    },
-    {
-        "query_id": "30_687",
-        "question": "Which continent is list of Ultras of Antarctica located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 0
+        "pageviews": 7
     },
     {
         "query_id": "30_688",
@@ -5508,7 +4028,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 925
+        "pageviews": 3
     },
     {
         "query_id": "30_689",
@@ -5516,7 +4036,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 394
+        "pageviews": 1
     },
     {
         "query_id": "30_690",
@@ -5524,39 +4044,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 472
-    },
-    {
-        "query_id": "30_691",
-        "question": "Which continent is Sanctuary Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 494
-    },
-    {
-        "query_id": "30_692",
-        "question": "Which continent is Mount Rodger located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 264
-    },
-    {
-        "query_id": "30_693",
-        "question": "Which continent is Vesletind Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 294
-    },
-    {
-        "query_id": "30_694",
-        "question": "Which continent is Shmidt Point located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 145
+        "pageviews": 4
     },
     {
         "query_id": "30_695",
@@ -5564,15 +4052,7 @@
         "answers": [
             "South America"
         ],
-        "pageviews": 266991
-    },
-    {
-        "query_id": "30_696",
-        "question": "Which continent is Iselin Seamount located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 515
+        "pageviews": 675
     },
     {
         "query_id": "30_697",
@@ -5580,7 +4060,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 438
+        "pageviews": 1
     },
     {
         "query_id": "30_698",
@@ -5588,15 +4068,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 269
-    },
-    {
-        "query_id": "30_699",
-        "question": "Which continent is Walsh Spur located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 578
+        "pageviews": 3
     },
     {
         "query_id": "30_700",
@@ -5604,23 +4076,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 871
-    },
-    {
-        "query_id": "30_701",
-        "question": "Which continent is Price Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 552
-    },
-    {
-        "query_id": "30_702",
-        "question": "Which continent is Midkiff Rock located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 269
+        "pageviews": 5
     },
     {
         "query_id": "30_703",
@@ -5628,15 +4084,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 290
-    },
-    {
-        "query_id": "30_704",
-        "question": "Which continent is Capling Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 388
+        "pageviews": 2
     },
     {
         "query_id": "30_705",
@@ -5644,7 +4092,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 373
+        "pageviews": 1
     },
     {
         "query_id": "30_706",
@@ -5652,15 +4100,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 517
-    },
-    {
-        "query_id": "30_707",
-        "question": "Which continent is Roaring Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 347
+        "pageviews": 2
     },
     {
         "query_id": "30_708",
@@ -5668,15 +4108,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 451
-    },
-    {
-        "query_id": "30_709",
-        "question": "Which continent is Janssen Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 344
+        "pageviews": 1
     },
     {
         "query_id": "30_710",
@@ -5684,7 +4116,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 659
+        "pageviews": 16
     },
     {
         "query_id": "30_711",
@@ -5692,7 +4124,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 555
+        "pageviews": 1
     },
     {
         "query_id": "30_712",
@@ -5700,15 +4132,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 27200
-    },
-    {
-        "query_id": "30_713",
-        "question": "Which continent is Jaynes Islands located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 632
+        "pageviews": 44
     },
     {
         "query_id": "30_714",
@@ -5716,7 +4140,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 420
+        "pageviews": 2
     },
     {
         "query_id": "30_715",
@@ -5724,7 +4148,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1367
+        "pageviews": 6
     },
     {
         "query_id": "30_716",
@@ -5732,7 +4156,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 267
+        "pageviews": 1
     },
     {
         "query_id": "30_717",
@@ -5740,15 +4164,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 516
-    },
-    {
-        "query_id": "30_718",
-        "question": "Which continent is Stapleton Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 398
+        "pageviews": 9
     },
     {
         "query_id": "30_719",
@@ -5756,15 +4172,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 462
-    },
-    {
-        "query_id": "30_720",
-        "question": "Which continent is Zhil'naya Mountain located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 663
+        "pageviews": 1
     },
     {
         "query_id": "30_721",
@@ -5772,7 +4180,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 468
+        "pageviews": 3
     },
     {
         "query_id": "30_722",
@@ -5780,7 +4188,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 658
+        "pageviews": 9
     },
     {
         "query_id": "30_723",
@@ -5788,7 +4196,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 707
+        "pageviews": 2
     },
     {
         "query_id": "30_724",
@@ -5796,7 +4204,7 @@
         "answers": [
             "Oceania"
         ],
-        "pageviews": 1548249
+        "pageviews": 4944
     },
     {
         "query_id": "30_725",
@@ -5804,7 +4212,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 654
+        "pageviews": 4
     },
     {
         "query_id": "30_726",
@@ -5812,7 +4220,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 598
+        "pageviews": 7
     },
     {
         "query_id": "30_727",
@@ -5820,7 +4228,7 @@
         "answers": [
             "South America"
         ],
-        "pageviews": 2254772
+        "pageviews": 4409
     },
     {
         "query_id": "30_728",
@@ -5828,7 +4236,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 300
+        "pageviews": 1
     },
     {
         "query_id": "30_729",
@@ -5836,7 +4244,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 374
+        "pageviews": 1
     },
     {
         "query_id": "30_730",
@@ -5844,7 +4252,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 203
+        "pageviews": 2
     },
     {
         "query_id": "30_731",
@@ -5852,15 +4260,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 501
-    },
-    {
-        "query_id": "30_732",
-        "question": "Which continent is Daveri Hill located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 388
+        "pageviews": 4
     },
     {
         "query_id": "30_733",
@@ -5868,23 +4268,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 584
-    },
-    {
-        "query_id": "30_734",
-        "question": "Which continent is Nodtvedt Nunataks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 425
-    },
-    {
-        "query_id": "30_735",
-        "question": "Which continent is Boyer Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 337
+        "pageviews": 10
     },
     {
         "query_id": "30_736",
@@ -5892,7 +4276,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 546
+        "pageviews": 6
     },
     {
         "query_id": "30_737",
@@ -5900,15 +4284,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1789
-    },
-    {
-        "query_id": "30_738",
-        "question": "Which continent is Rowe Bluff located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 372
+        "pageviews": 1
     },
     {
         "query_id": "30_739",
@@ -5916,7 +4292,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 566
+        "pageviews": 3
     },
     {
         "query_id": "30_740",
@@ -5924,7 +4300,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 4400
+        "pageviews": 6
     },
     {
         "query_id": "30_741",
@@ -5932,7 +4308,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 1361556
+        "pageviews": 3336
     },
     {
         "query_id": "30_742",
@@ -5940,39 +4316,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 768
-    },
-    {
-        "query_id": "30_743",
-        "question": "Which continent is Flank Island located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 663
-    },
-    {
-        "query_id": "30_744",
-        "question": "Which continent is Unger Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 322
-    },
-    {
-        "query_id": "30_745",
-        "question": "Which continent is Mount Fyfe located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 262
-    },
-    {
-        "query_id": "30_746",
-        "question": "Which continent is Granitnaya Mountain located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 314
+        "pageviews": 3
     },
     {
         "query_id": "30_747",
@@ -5980,15 +4324,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 249
-    },
-    {
-        "query_id": "30_748",
-        "question": "Which continent is Consul Reef located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 369
+        "pageviews": 1
     },
     {
         "query_id": "30_749",
@@ -5996,7 +4332,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 641
+        "pageviews": 2
     },
     {
         "query_id": "30_750",
@@ -6004,7 +4340,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 497
+        "pageviews": 3
     },
     {
         "query_id": "30_751",
@@ -6012,7 +4348,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 685804
+        "pageviews": 3505
     },
     {
         "query_id": "30_752",
@@ -6020,7 +4356,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 7736
+        "pageviews": 8
     },
     {
         "query_id": "30_753",
@@ -6028,7 +4364,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 662
+        "pageviews": 7
     },
     {
         "query_id": "30_754",
@@ -6036,23 +4372,7 @@
         "answers": [
             "South America"
         ],
-        "pageviews": 15640
-    },
-    {
-        "query_id": "30_755",
-        "question": "Which continent is Kalafut Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 423
-    },
-    {
-        "query_id": "30_756",
-        "question": "Which continent is Finn Spur located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 350
+        "pageviews": 51
     },
     {
         "query_id": "30_757",
@@ -6060,7 +4380,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 525
+        "pageviews": 2
     },
     {
         "query_id": "30_758",
@@ -6068,7 +4388,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 600
+        "pageviews": 2
     },
     {
         "query_id": "30_759",
@@ -6076,7 +4396,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 667
+        "pageviews": 18
     },
     {
         "query_id": "30_760",
@@ -6084,15 +4404,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 511
-    },
-    {
-        "query_id": "30_761",
-        "question": "Which continent is Oberon Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 500
+        "pageviews": 2
     },
     {
         "query_id": "30_762",
@@ -6100,7 +4412,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 386
+        "pageviews": 6
     },
     {
         "query_id": "30_763",
@@ -6108,7 +4420,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 343
+        "pageviews": 1
     },
     {
         "query_id": "30_764",
@@ -6116,7 +4428,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 326
+        "pageviews": 5
     },
     {
         "query_id": "30_765",
@@ -6124,7 +4436,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1059
+        "pageviews": 1
     },
     {
         "query_id": "30_766",
@@ -6132,7 +4444,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1064
+        "pageviews": 4
     },
     {
         "query_id": "30_767",
@@ -6140,7 +4452,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 10947
+        "pageviews": 173
     },
     {
         "query_id": "30_768",
@@ -6148,7 +4460,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 348
+        "pageviews": 2
     },
     {
         "query_id": "30_769",
@@ -6156,7 +4468,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 381
+        "pageviews": 2
     },
     {
         "query_id": "30_770",
@@ -6164,7 +4476,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 422
+        "pageviews": 3
     },
     {
         "query_id": "30_771",
@@ -6172,15 +4484,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 379
-    },
-    {
-        "query_id": "30_772",
-        "question": "Which continent is Devil Island located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 2327
+        "pageviews": 1
     },
     {
         "query_id": "30_773",
@@ -6188,7 +4492,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 2661
+        "pageviews": 4
     },
     {
         "query_id": "30_774",
@@ -6196,7 +4500,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 825
+        "pageviews": 2
     },
     {
         "query_id": "30_775",
@@ -6204,7 +4508,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1057
+        "pageviews": 5
     },
     {
         "query_id": "30_776",
@@ -6212,7 +4516,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 514
+        "pageviews": 2
     },
     {
         "query_id": "30_777",
@@ -6220,7 +4524,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 21782
+        "pageviews": 175
     },
     {
         "query_id": "30_778",
@@ -6228,15 +4532,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1648
-    },
-    {
-        "query_id": "30_779",
-        "question": "Which continent is David Cauldron located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 454
+        "pageviews": 14
     },
     {
         "query_id": "30_780",
@@ -6244,7 +4540,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 874
+        "pageviews": 5
     },
     {
         "query_id": "30_781",
@@ -6252,7 +4548,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 942
+        "pageviews": 4
     },
     {
         "query_id": "30_782",
@@ -6260,15 +4556,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 2822
-    },
-    {
-        "query_id": "30_783",
-        "question": "Which continent is Mount Essinger located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 584
+        "pageviews": 108
     },
     {
         "query_id": "30_784",
@@ -6276,7 +4564,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 552
+        "pageviews": 1
     },
     {
         "query_id": "30_785",
@@ -6284,15 +4572,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 475
-    },
-    {
-        "query_id": "30_786",
-        "question": "Which continent is Mount Moberly located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 313
+        "pageviews": 5
     },
     {
         "query_id": "30_787",
@@ -6300,7 +4580,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 650
+        "pageviews": 22
     },
     {
         "query_id": "30_788",
@@ -6308,7 +4588,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 385
+        "pageviews": 4
     },
     {
         "query_id": "30_789",
@@ -6316,7 +4596,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 591
+        "pageviews": 4
     },
     {
         "query_id": "30_790",
@@ -6324,7 +4604,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 252
+        "pageviews": 3
     },
     {
         "query_id": "30_791",
@@ -6332,15 +4612,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 77848
-    },
-    {
-        "query_id": "30_792",
-        "question": "Which continent is Mount Gunner located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 384
+        "pageviews": 396
     },
     {
         "query_id": "30_793",
@@ -6348,15 +4620,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 520
-    },
-    {
-        "query_id": "30_794",
-        "question": "Which continent is Ethelbald Bluff located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 731
+        "pageviews": 2
     },
     {
         "query_id": "30_795",
@@ -6364,31 +4628,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 434
-    },
-    {
-        "query_id": "30_796",
-        "question": "Which continent is Hannah Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 494
-    },
-    {
-        "query_id": "30_797",
-        "question": "Which continent is Foolsmate Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 244
-    },
-    {
-        "query_id": "30_798",
-        "question": "Which continent is Cape Cornely located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 305
+        "pageviews": 2
     },
     {
         "query_id": "30_799",
@@ -6396,7 +4636,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 542
+        "pageviews": 1
     },
     {
         "query_id": "30_800",
@@ -6404,15 +4644,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 892
-    },
-    {
-        "query_id": "30_801",
-        "question": "Which continent is Mata Taua Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 522
+        "pageviews": 33
     },
     {
         "query_id": "30_802",
@@ -6420,23 +4652,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 438
-    },
-    {
-        "query_id": "30_803",
-        "question": "Which continent is Cornice Channel located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 353
-    },
-    {
-        "query_id": "30_804",
-        "question": "Which continent is Carlson Buttress located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 243
+        "pageviews": 1
     },
     {
         "query_id": "30_805",
@@ -6444,7 +4660,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 590
+        "pageviews": 3
     },
     {
         "query_id": "30_806",
@@ -6452,7 +4668,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 637
+        "pageviews": 1
     },
     {
         "query_id": "30_807",
@@ -6460,7 +4676,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 621
+        "pageviews": 3
     },
     {
         "query_id": "30_808",
@@ -6468,7 +4684,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 604
+        "pageviews": 6
     },
     {
         "query_id": "30_809",
@@ -6476,23 +4692,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 390
-    },
-    {
-        "query_id": "30_810",
-        "question": "Which continent is Utrista Rock located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 477
-    },
-    {
-        "query_id": "30_811",
-        "question": "Which continent is Joyce Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 951
+        "pageviews": 1
     },
     {
         "query_id": "30_812",
@@ -6500,7 +4700,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 373225
+        "pageviews": 876
     },
     {
         "query_id": "30_813",
@@ -6508,31 +4708,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 790
-    },
-    {
-        "query_id": "30_814",
-        "question": "Which continent is Waugh Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 300
-    },
-    {
-        "query_id": "30_815",
-        "question": "Which continent is Gould Spur located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 234
-    },
-    {
-        "query_id": "30_816",
-        "question": "Which continent is Corelli Horn located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 353
+        "pageviews": 1
     },
     {
         "query_id": "30_817",
@@ -6540,15 +4716,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1657
-    },
-    {
-        "query_id": "30_818",
-        "question": "Which continent is Mount Mull located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 385
+        "pageviews": 8
     },
     {
         "query_id": "30_819",
@@ -6556,7 +4724,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 395
+        "pageviews": 4
     },
     {
         "query_id": "30_820",
@@ -6564,15 +4732,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 511
-    },
-    {
-        "query_id": "30_821",
-        "question": "Which continent is Kraut Rocks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 354
+        "pageviews": 5
     },
     {
         "query_id": "30_822",
@@ -6580,7 +4740,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 441
+        "pageviews": 3
     },
     {
         "query_id": "30_823",
@@ -6588,7 +4748,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 453
+        "pageviews": 3
     },
     {
         "query_id": "30_824",
@@ -6596,7 +4756,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 330
+        "pageviews": 2
     },
     {
         "query_id": "30_825",
@@ -6604,7 +4764,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 441
+        "pageviews": 5
     },
     {
         "query_id": "30_826",
@@ -6612,15 +4772,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 770
-    },
-    {
-        "query_id": "30_827",
-        "question": "Which continent is Moraine Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 456
+        "pageviews": 1
     },
     {
         "query_id": "30_828",
@@ -6628,7 +4780,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 555
+        "pageviews": 2
     },
     {
         "query_id": "30_829",
@@ -6636,7 +4788,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 441
+        "pageviews": 1
     },
     {
         "query_id": "30_830",
@@ -6644,15 +4796,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 857
-    },
-    {
-        "query_id": "30_831",
-        "question": "Which continent is McKinnis Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 336
+        "pageviews": 19
     },
     {
         "query_id": "30_832",
@@ -6660,7 +4804,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 422
+        "pageviews": 1
     },
     {
         "query_id": "30_833",
@@ -6668,7 +4812,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1159
+        "pageviews": 1
     },
     {
         "query_id": "30_834",
@@ -6676,7 +4820,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1649
+        "pageviews": 1
     },
     {
         "query_id": "30_835",
@@ -6684,7 +4828,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 333
+        "pageviews": 2
     },
     {
         "query_id": "30_836",
@@ -6692,7 +4836,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1158
+        "pageviews": 5
     },
     {
         "query_id": "30_837",
@@ -6700,15 +4844,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 485
-    },
-    {
-        "query_id": "30_838",
-        "question": "Which continent is Watts Needle located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 315
+        "pageviews": 2
     },
     {
         "query_id": "30_839",
@@ -6716,7 +4852,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1786
+        "pageviews": 31
     },
     {
         "query_id": "30_840",
@@ -6724,15 +4860,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 413
-    },
-    {
-        "query_id": "30_841",
-        "question": "Which continent is Abolin Rock located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 364
+        "pageviews": 2
     },
     {
         "query_id": "30_842",
@@ -6740,31 +4868,7 @@
         "answers": [
             "Africa"
         ],
-        "pageviews": 1760449
-    },
-    {
-        "query_id": "30_843",
-        "question": "Which continent is Mount Garan located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 442
-    },
-    {
-        "query_id": "30_844",
-        "question": "Which continent is Kay Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 428
-    },
-    {
-        "query_id": "30_845",
-        "question": "Which continent is Heaphy Spur located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 271
+        "pageviews": 9638
     },
     {
         "query_id": "30_846",
@@ -6772,7 +4876,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 475
+        "pageviews": 9
     },
     {
         "query_id": "30_847",
@@ -6780,7 +4884,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 292
+        "pageviews": 1
     },
     {
         "query_id": "30_848",
@@ -6788,7 +4892,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 423
+        "pageviews": 10
     },
     {
         "query_id": "30_849",
@@ -6796,7 +4900,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 318
+        "pageviews": 2
     },
     {
         "query_id": "30_850",
@@ -6804,23 +4908,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 474
-    },
-    {
-        "query_id": "30_851",
-        "question": "Which continent is Butterfly Knoll located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 315
-    },
-    {
-        "query_id": "30_852",
-        "question": "Which continent is Lennon Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 479
+        "pageviews": 3
     },
     {
         "query_id": "30_853",
@@ -6828,7 +4916,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 742
+        "pageviews": 1
     },
     {
         "query_id": "30_854",
@@ -6836,15 +4924,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1027
-    },
-    {
-        "query_id": "30_855",
-        "question": "Which continent is Mount Riley located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 566
+        "pageviews": 4
     },
     {
         "query_id": "30_856",
@@ -6852,15 +4932,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 405
-    },
-    {
-        "query_id": "30_857",
-        "question": "Which continent is Lane Plateau located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 381
+        "pageviews": 6
     },
     {
         "query_id": "30_858",
@@ -6868,23 +4940,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 401
-    },
-    {
-        "query_id": "30_859",
-        "question": "Which continent is Horvath Island located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 572
-    },
-    {
-        "query_id": "30_860",
-        "question": "Which continent is Frost Cliff located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 407
+        "pageviews": 3
     },
     {
         "query_id": "30_861",
@@ -6892,7 +4948,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 3529
+        "pageviews": 50
     },
     {
         "query_id": "30_862",
@@ -6900,15 +4956,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 787
-    },
-    {
-        "query_id": "30_863",
-        "question": "Which continent is Festningsporten Pass located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 324
+        "pageviews": 1
     },
     {
         "query_id": "30_864",
@@ -6916,7 +4964,7 @@
         "answers": [
             "Asia"
         ],
-        "pageviews": 1405550
+        "pageviews": 1831
     },
     {
         "query_id": "30_865",
@@ -6924,7 +4972,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 460
+        "pageviews": 2
     },
     {
         "query_id": "30_866",
@@ -6932,23 +4980,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 401
-    },
-    {
-        "query_id": "30_867",
-        "question": "Which continent is Rose Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 359
-    },
-    {
-        "query_id": "30_868",
-        "question": "Which continent is Knuckey Peaks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 732
+        "pageviews": 1
     },
     {
         "query_id": "30_869",
@@ -6956,7 +4988,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 329
+        "pageviews": 1
     },
     {
         "query_id": "30_870",
@@ -6964,15 +4996,7 @@
         "answers": [
             "South America"
         ],
-        "pageviews": 1288488
-    },
-    {
-        "query_id": "30_871",
-        "question": "Which continent is Knut Rocks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 470
+        "pageviews": 710
     },
     {
         "query_id": "30_872",
@@ -6980,7 +5004,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 449
+        "pageviews": 3
     },
     {
         "query_id": "30_873",
@@ -6988,7 +5012,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 2087
+        "pageviews": 19
     },
     {
         "query_id": "30_874",
@@ -6996,7 +5020,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 344
+        "pageviews": 2
     },
     {
         "query_id": "30_875",
@@ -7004,7 +5028,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 755
+        "pageviews": 3
     },
     {
         "query_id": "30_876",
@@ -7012,7 +5036,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 331
+        "pageviews": 3
     },
     {
         "query_id": "30_877",
@@ -7020,7 +5044,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 419
+        "pageviews": 6
     },
     {
         "query_id": "30_878",
@@ -7028,23 +5052,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 745
-    },
-    {
-        "query_id": "30_879",
-        "question": "Which continent is Bazett Island located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 553
-    },
-    {
-        "query_id": "30_880",
-        "question": "Which continent is Koci Cliffs located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 523
+        "pageviews": 8
     },
     {
         "query_id": "30_881",
@@ -7052,7 +5060,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 340
+        "pageviews": 3
     },
     {
         "query_id": "30_882",
@@ -7060,7 +5068,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 656
+        "pageviews": 2
     },
     {
         "query_id": "30_883",
@@ -7068,7 +5076,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1687
+        "pageviews": 7
     },
     {
         "query_id": "30_884",
@@ -7076,7 +5084,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 899
+        "pageviews": 10
     },
     {
         "query_id": "30_885",
@@ -7084,23 +5092,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 239
-    },
-    {
-        "query_id": "30_886",
-        "question": "Which continent is Anckorn Nunataks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 533
-    },
-    {
-        "query_id": "30_887",
-        "question": "Which continent is Anders Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 328
+        "pageviews": 2
     },
     {
         "query_id": "30_888",
@@ -7108,15 +5100,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 753
-    },
-    {
-        "query_id": "30_889",
-        "question": "Which continent is Marcoux Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 332
+        "pageviews": 10
     },
     {
         "query_id": "30_890",
@@ -7124,7 +5108,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 253
+        "pageviews": 1
     },
     {
         "query_id": "30_891",
@@ -7132,15 +5116,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 415
-    },
-    {
-        "query_id": "30_892",
-        "question": "Which continent is Mount Bergin located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 297
+        "pageviews": 4
     },
     {
         "query_id": "30_893",
@@ -7148,7 +5124,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 425
+        "pageviews": 11
     },
     {
         "query_id": "30_894",
@@ -7156,15 +5132,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 826
-    },
-    {
-        "query_id": "30_895",
-        "question": "Which continent is Bandy Island located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 630
+        "pageviews": 3
     },
     {
         "query_id": "30_896",
@@ -7172,7 +5140,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 615
+        "pageviews": 1
     },
     {
         "query_id": "30_897",
@@ -7180,7 +5148,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 184
+        "pageviews": 1
     },
     {
         "query_id": "30_898",
@@ -7188,7 +5156,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 318
+        "pageviews": 1
     },
     {
         "query_id": "30_899",
@@ -7196,7 +5164,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 627
+        "pageviews": 3
     },
     {
         "query_id": "30_900",
@@ -7204,7 +5172,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1026
+        "pageviews": 4
     },
     {
         "query_id": "30_901",
@@ -7212,23 +5180,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 644
-    },
-    {
-        "query_id": "30_902",
-        "question": "Which continent is Mamelon Point located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 311
-    },
-    {
-        "query_id": "30_903",
-        "question": "Which continent is Turret Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 355
+        "pageviews": 8
     },
     {
         "query_id": "30_904",
@@ -7236,7 +5188,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 945
+        "pageviews": 13
     },
     {
         "query_id": "30_905",
@@ -7244,7 +5196,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 376
+        "pageviews": 1
     },
     {
         "query_id": "30_906",
@@ -7252,7 +5204,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 765
+        "pageviews": 17
     },
     {
         "query_id": "30_907",
@@ -7260,7 +5212,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 550
+        "pageviews": 7
     },
     {
         "query_id": "30_909",
@@ -7268,7 +5220,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 2622008
+        "pageviews": 13466
     },
     {
         "query_id": "30_910",
@@ -7276,15 +5228,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 839
-    },
-    {
-        "query_id": "30_911",
-        "question": "Which continent is Billycock Hill located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 618
+        "pageviews": 6
     },
     {
         "query_id": "30_912",
@@ -7292,7 +5236,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 896
+        "pageviews": 1
     },
     {
         "query_id": "30_913",
@@ -7300,7 +5244,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 398
+        "pageviews": 1
     },
     {
         "query_id": "30_914",
@@ -7308,7 +5252,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 304
+        "pageviews": 3
     },
     {
         "query_id": "30_915",
@@ -7316,7 +5260,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 2656
+        "pageviews": 7
     },
     {
         "query_id": "30_916",
@@ -7324,7 +5268,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 984
+        "pageviews": 5
     },
     {
         "query_id": "30_917",
@@ -7332,15 +5276,7 @@
         "answers": [
             "Africa"
         ],
-        "pageviews": 7120
-    },
-    {
-        "query_id": "30_918",
-        "question": "Which continent is Burel Hill located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 538
+        "pageviews": 51
     },
     {
         "query_id": "30_919",
@@ -7348,7 +5284,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 201
+        "pageviews": 1
     },
     {
         "query_id": "30_920",
@@ -7356,7 +5292,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 622
+        "pageviews": 7
     },
     {
         "query_id": "30_921",
@@ -7364,23 +5300,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 587
-    },
-    {
-        "query_id": "30_922",
-        "question": "Which continent is Trenholm Point located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 264
-    },
-    {
-        "query_id": "30_923",
-        "question": "Which continent is Coloured Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 286
+        "pageviews": 2
     },
     {
         "query_id": "30_924",
@@ -7388,15 +5308,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 6499
-    },
-    {
-        "query_id": "30_925",
-        "question": "Which continent is Mount Hermanson located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 350
+        "pageviews": 8
     },
     {
         "query_id": "30_926",
@@ -7404,15 +5316,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 253
-    },
-    {
-        "query_id": "30_927",
-        "question": "Which continent is Niepce Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 489
+        "pageviews": 1
     },
     {
         "query_id": "30_928",
@@ -7420,7 +5324,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 223398
+        "pageviews": 372
     },
     {
         "query_id": "30_929",
@@ -7428,7 +5332,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 804
+        "pageviews": 4
     },
     {
         "query_id": "30_930",
@@ -7436,7 +5340,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 296
+        "pageviews": 2
     },
     {
         "query_id": "30_931",
@@ -7444,7 +5348,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 497
+        "pageviews": 1
     },
     {
         "query_id": "30_932",
@@ -7452,7 +5356,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 277
+        "pageviews": 1
     },
     {
         "query_id": "30_933",
@@ -7460,7 +5364,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 374
+        "pageviews": 2
     },
     {
         "query_id": "30_934",
@@ -7468,15 +5372,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 271
-    },
-    {
-        "query_id": "30_935",
-        "question": "Which continent is Miharashi Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 71
+        "pageviews": 1
     },
     {
         "query_id": "30_936",
@@ -7484,15 +5380,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 477
-    },
-    {
-        "query_id": "30_937",
-        "question": "Which continent is Mount Trimpi located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 429
+        "pageviews": 10
     },
     {
         "query_id": "30_938",
@@ -7500,7 +5388,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 681
+        "pageviews": 4
     },
     {
         "query_id": "30_939",
@@ -7508,15 +5396,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 701
-    },
-    {
-        "query_id": "30_940",
-        "question": "Which continent is Penney Landing located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 395
+        "pageviews": 13
     },
     {
         "query_id": "30_941",
@@ -7524,7 +5404,7 @@
         "answers": [
             "South America"
         ],
-        "pageviews": 2256503
+        "pageviews": 13820
     },
     {
         "query_id": "30_942",
@@ -7532,7 +5412,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 270
+        "pageviews": 1
     },
     {
         "query_id": "30_943",
@@ -7540,7 +5420,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1590
+        "pageviews": 34
     },
     {
         "query_id": "30_944",
@@ -7548,15 +5428,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 751
-    },
-    {
-        "query_id": "30_945",
-        "question": "Which continent is Stwosz Icefall located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 460
+        "pageviews": 3
     },
     {
         "query_id": "30_946",
@@ -7564,15 +5436,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 730
-    },
-    {
-        "query_id": "30_947",
-        "question": "Which continent is Holt Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 351
+        "pageviews": 3
     },
     {
         "query_id": "30_948",
@@ -7580,15 +5444,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1054
-    },
-    {
-        "query_id": "30_949",
-        "question": "Which continent is Geikie Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 365
+        "pageviews": 1
     },
     {
         "query_id": "30_950",
@@ -7596,7 +5452,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 455
+        "pageviews": 1
     },
     {
         "query_id": "30_951",
@@ -7604,15 +5460,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 424
-    },
-    {
-        "query_id": "30_952",
-        "question": "Which continent is Inepta Cove located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 423
+        "pageviews": 1
     },
     {
         "query_id": "30_953",
@@ -7620,7 +5468,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 413
+        "pageviews": 3
     },
     {
         "query_id": "30_954",
@@ -7628,7 +5476,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 398
+        "pageviews": 2
     },
     {
         "query_id": "30_955",
@@ -7636,7 +5484,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 727
+        "pageviews": 1
     },
     {
         "query_id": "30_956",
@@ -7644,7 +5492,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 536
+        "pageviews": 3
     },
     {
         "query_id": "30_957",
@@ -7652,7 +5500,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 753
+        "pageviews": 1
     },
     {
         "query_id": "30_958",
@@ -7660,7 +5508,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1444
+        "pageviews": 4
     },
     {
         "query_id": "30_959",
@@ -7668,31 +5516,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 392
-    },
-    {
-        "query_id": "30_960",
-        "question": "Which continent is Footscrew Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 443
-    },
-    {
-        "query_id": "30_961",
-        "question": "Which continent is Holmes Ridge located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 444
-    },
-    {
-        "query_id": "30_962",
-        "question": "Which continent is Valchedram Island located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 925
+        "pageviews": 4
     },
     {
         "query_id": "30_963",
@@ -7700,39 +5524,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 470
-    },
-    {
-        "query_id": "30_964",
-        "question": "Which continent is Erratic Valley located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 676
-    },
-    {
-        "query_id": "30_965",
-        "question": "Which continent is Heckmann Island located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 482
-    },
-    {
-        "query_id": "30_966",
-        "question": "Which continent is Henry Moraine located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 285
-    },
-    {
-        "query_id": "30_967",
-        "question": "Which continent is Graovo Rocks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 744
+        "pageviews": 7
     },
     {
         "query_id": "30_968",
@@ -7740,31 +5532,7 @@
         "answers": [
             "Europe"
         ],
-        "pageviews": 3130940
-    },
-    {
-        "query_id": "30_969",
-        "question": "Which continent is Povien Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 443
-    },
-    {
-        "query_id": "30_970",
-        "question": "Which continent is Hydrodist Rocks located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 62
-    },
-    {
-        "query_id": "30_971",
-        "question": "Which continent is Mount Cantello located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 408
+        "pageviews": 9287
     },
     {
         "query_id": "30_972",
@@ -7772,7 +5540,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1634
+        "pageviews": 3
     },
     {
         "query_id": "30_973",
@@ -7780,15 +5548,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 791
-    },
-    {
-        "query_id": "30_974",
-        "question": "Which continent is Acarospora Peak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 487
+        "pageviews": 10
     },
     {
         "query_id": "30_975",
@@ -7796,15 +5556,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 355
-    },
-    {
-        "query_id": "30_976",
-        "question": "Which continent is Ellis Cone located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 426
+        "pageviews": 2
     },
     {
         "query_id": "30_977",
@@ -7812,7 +5564,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 720
+        "pageviews": 6
     },
     {
         "query_id": "30_978",
@@ -7820,15 +5572,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 639
-    },
-    {
-        "query_id": "30_979",
-        "question": "Which continent is Walsh Nunatak located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 311
+        "pageviews": 1
     },
     {
         "query_id": "30_980",
@@ -7836,7 +5580,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 5613
+        "pageviews": 2
     },
     {
         "query_id": "30_981",
@@ -7844,7 +5588,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 311
+        "pageviews": 4
     },
     {
         "query_id": "30_982",
@@ -7852,7 +5596,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 858
+        "pageviews": 4
     },
     {
         "query_id": "30_983",
@@ -7860,7 +5604,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 578
+        "pageviews": 1
     },
     {
         "query_id": "30_984",
@@ -7868,7 +5612,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 426772
+        "pageviews": 62
     },
     {
         "query_id": "30_985",
@@ -7876,7 +5620,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 850
+        "pageviews": 1
     },
     {
         "query_id": "30_986",
@@ -7884,7 +5628,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 836
+        "pageviews": 23
     },
     {
         "query_id": "30_987",
@@ -7892,7 +5636,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 384
+        "pageviews": 1
     },
     {
         "query_id": "30_988",
@@ -7900,7 +5644,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 1035
+        "pageviews": 6
     },
     {
         "query_id": "30_989",
@@ -7908,7 +5652,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 470
+        "pageviews": 3
     },
     {
         "query_id": "30_990",
@@ -7916,15 +5660,7 @@
         "answers": [
             "Asia"
         ],
-        "pageviews": 2073172
-    },
-    {
-        "query_id": "30_991",
-        "question": "Which continent is Knack Point located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 500
+        "pageviews": 3242
     },
     {
         "query_id": "30_992",
@@ -7932,15 +5668,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 393
-    },
-    {
-        "query_id": "30_993",
-        "question": "Which continent is Godwit Glacier located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 330
+        "pageviews": 2
     },
     {
         "query_id": "30_994",
@@ -7948,7 +5676,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 539
+        "pageviews": 21
     },
     {
         "query_id": "30_995",
@@ -7956,7 +5684,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 318
+        "pageviews": 3
     },
     {
         "query_id": "30_996",
@@ -7964,15 +5692,7 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 474
-    },
-    {
-        "query_id": "30_997",
-        "question": "Which continent is Strawn Pass located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 333
+        "pageviews": 3
     },
     {
         "query_id": "30_998",
@@ -7980,14 +5700,6 @@
         "answers": [
             "Antarctica"
         ],
-        "pageviews": 606
-    },
-    {
-        "query_id": "30_999",
-        "question": "Which continent is Tantalus Bluffs located?",
-        "answers": [
-            "Antarctica"
-        ],
-        "pageviews": 293
+        "pageviews": 5
     }
 ]

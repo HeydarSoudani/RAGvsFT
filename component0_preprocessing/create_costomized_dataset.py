@@ -210,8 +210,10 @@ def get_pageviews(wiki_title):
     TOP_API_URL = "https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/{lang}.{project}/all-access/all-agents/{topic}/monthly/{date_from}/{date_to}"
     lang = 'en'
     project = 'wikipedia'
-    date_from = "2022010100"
-    date_to = "2022123000"
+    # date_from = "2022010100"
+    # date_to = "2022123000"
+    date_from = "2021010100"
+    date_to = "2021103100"
     all_views = 0
     
     edited_title = convert_to_url_format(wiki_title)
@@ -1151,7 +1153,7 @@ def main(args):
     # create_test_and_entity_files()
     
     ### ==== Step 1 (for EQ dataset): Creating test & entity files ====
-    # create_test_and_entity_files_EQ() # run in Kaggle
+    create_test_and_entity_files_EQ() # run in Kaggle
 
     ### ==== Step 2: Creating corpus & qrels files ====================
     # create_corpus_and_qrels_files_via_api()
@@ -1160,11 +1162,11 @@ def main(args):
     # add_empty_entities()
     
     ### ==== Step 3: Creating train & dev & qrels-train files =========
-    idx = 1
-    relation_id = relation_ids[idx]
-    print("Dataset: {}, Idx: {}, Relation Id: {}".format(dataset_name, idx, relation_id))
-    # create_train_and_dev_files_pipeline(args, relation_id=relation_id) # T5-based model
-    create_train_and_dev_files_prompting(relation_id=relation_id)# Zephyr-based model
+    # idx = 1
+    # relation_id = relation_ids[idx]
+    # print("Dataset: {}, Idx: {}, Relation Id: {}".format(dataset_name, idx, relation_id))
+    # # create_train_and_dev_files_pipeline(args, relation_id=relation_id) # T5-based model
+    # create_train_and_dev_files_prompting(relation_id=relation_id)# Zephyr-based model
     
     ### ==== Plotting the distribution of the number of queries in each bucket
     # plot_bucket_num()

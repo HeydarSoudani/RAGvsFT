@@ -95,11 +95,6 @@
         "entity_id": "Q137108"
     },
     {
-        "query_id": "112_19",
-        "wiki_title": "Block, Inc.",
-        "entity_id": "Q7581990"
-    },
-    {
         "query_id": "112_20",
         "wiki_title": "Imperial House of Japan",
         "entity_id": "Q909452"
@@ -128,11 +123,6 @@
         "query_id": "112_25",
         "wiki_title": "George Washington University",
         "entity_id": "Q432637"
-    },
-    {
-        "query_id": "112_26",
-        "wiki_title": "Madison Square Garden Sports",
-        "entity_id": "Q1573416"
     },
     {
         "query_id": "112_27",
@@ -183,11 +173,6 @@
         "query_id": "112_36",
         "wiki_title": "Damon Runyon Cancer Research Foundation",
         "entity_id": "Q5212876"
-    },
-    {
-        "query_id": "112_37",
-        "wiki_title": "Blake, Cassels & Graydon",
-        "entity_id": "Q2905826"
     },
     {
         "query_id": "112_38",
@@ -253,11 +238,6 @@
         "query_id": "112_50",
         "wiki_title": "Heatherette",
         "entity_id": "Q1592575"
-    },
-    {
-        "query_id": "112_51",
-        "wiki_title": "Egyptian National Movement",
-        "entity_id": "Q253876"
     },
     {
         "query_id": "112_52",
@@ -345,11 +325,6 @@
         "entity_id": "Q1241608"
     },
     {
-        "query_id": "112_69",
-        "wiki_title": "SAAN (department store)",
-        "entity_id": "Q7388419"
-    },
-    {
         "query_id": "112_70",
         "wiki_title": "Marriott International",
         "entity_id": "Q1141173"
@@ -375,11 +350,6 @@
         "entity_id": "Q14947375"
     },
     {
-        "query_id": "112_75",
-        "wiki_title": "McCord Stewart Museum",
-        "entity_id": "Q1128578"
-    },
-    {
         "query_id": "112_76",
         "wiki_title": "Zipcar",
         "entity_id": "Q1069924"
@@ -398,11 +368,6 @@
         "query_id": "112_79",
         "wiki_title": "Gnome Press",
         "entity_id": "Q5574338"
-    },
-    {
-        "query_id": "112_80",
-        "wiki_title": "Parents Television and Media Council",
-        "entity_id": "Q2016165"
     },
     {
         "query_id": "112_81",
@@ -490,11 +455,6 @@
         "entity_id": "Q828039"
     },
     {
-        "query_id": "112_100",
-        "wiki_title": "Al-Man\u0101r (magazine)",
-        "entity_id": "Q4702794"
-    },
-    {
         "query_id": "112_101",
         "wiki_title": "Zoho Corporation",
         "entity_id": "Q8063247"
@@ -523,16 +483,6 @@
         "query_id": "112_106",
         "wiki_title": "Lib\u00e9ration",
         "entity_id": "Q13717"
-    },
-    {
-        "query_id": "112_107",
-        "wiki_title": "Marks & Spencer",
-        "entity_id": "Q714491"
-    },
-    {
-        "query_id": "112_108",
-        "wiki_title": "Surtees Racing Organisation",
-        "entity_id": "Q173306"
     },
     {
         "query_id": "112_109",
@@ -573,11 +523,6 @@
         "query_id": "112_116",
         "wiki_title": "Bangsamoro Islamic Freedom Fighters",
         "entity_id": "Q15709731"
-    },
-    {
-        "query_id": "112_117",
-        "wiki_title": "Pei Cobb Freed & Partners",
-        "entity_id": "Q6623279"
     },
     {
         "query_id": "112_118",
@@ -635,29 +580,14 @@
         "entity_id": "Q2117643"
     },
     {
-        "query_id": "112_129",
-        "wiki_title": "M. D. Moody & Sons, Inc.",
-        "entity_id": "Q6712507"
-    },
-    {
         "query_id": "112_131",
         "wiki_title": "Operation Mobilisation",
         "entity_id": "Q319248"
     },
     {
-        "query_id": "112_132",
-        "wiki_title": "ACAE",
-        "entity_id": "Q4650496"
-    },
-    {
         "query_id": "112_133",
         "wiki_title": "Jet Airways",
         "entity_id": "Q727066"
-    },
-    {
-        "query_id": "112_134",
-        "wiki_title": "PSB Insights",
-        "entity_id": "Q7163220"
     },
     {
         "query_id": "112_135",
@@ -670,19 +600,9 @@
         "entity_id": "Q7245758"
     },
     {
-        "query_id": "112_137",
-        "wiki_title": "MWM (entertainment company)",
-        "entity_id": "Q32186"
-    },
-    {
         "query_id": "112_138",
         "wiki_title": "Polisario Front",
         "entity_id": "Q240425"
-    },
-    {
-        "query_id": "112_139",
-        "wiki_title": "Winona Cargile Alexander",
-        "entity_id": "Q8025880"
     },
     {
         "query_id": "112_140",
@@ -715,11 +635,6 @@
         "entity_id": "Q8036757"
     },
     {
-        "query_id": "112_146",
-        "wiki_title": "Ares, Inc.",
-        "entity_id": "Q4789077"
-    },
-    {
         "query_id": "112_147",
         "wiki_title": "Ulugh Beg Observatory",
         "entity_id": "Q608580"
@@ -738,16 +653,6 @@
         "query_id": "112_150",
         "wiki_title": "Victor Talking Machine Company",
         "entity_id": "Q1470329"
-    },
-    {
-        "query_id": "112_151",
-        "wiki_title": "Barnes & Noble",
-        "entity_id": "Q795454"
-    },
-    {
-        "query_id": "112_152",
-        "wiki_title": "Calvary Chapel Association",
-        "entity_id": "Q374774"
     },
     {
         "query_id": "112_153",
@@ -783,11 +688,6 @@
         "query_id": "112_159",
         "wiki_title": "HLW International",
         "entity_id": "Q5630219"
-    },
-    {
-        "query_id": "112_160",
-        "wiki_title": "IRF\u0112",
-        "entity_id": "Q15263093"
     },
     {
         "query_id": "112_161",
@@ -838,11 +738,6 @@
         "query_id": "112_170",
         "wiki_title": "Union Solidarity and Development Party",
         "entity_id": "Q1318070"
-    },
-    {
-        "query_id": "112_171",
-        "wiki_title": "The Malcolm H. Kerr Carnegie Middle East Center",
-        "entity_id": "Q5043961"
     },
     {
         "query_id": "112_172",
@@ -920,11 +815,6 @@
         "entity_id": "Q909169"
     },
     {
-        "query_id": "112_188",
-        "wiki_title": "Khmer Renovation Party",
-        "entity_id": "Q4919957"
-    },
-    {
         "query_id": "112_189",
         "wiki_title": "The Knickerbocker",
         "entity_id": "Q689515"
@@ -950,11 +840,6 @@
         "entity_id": "Q72539"
     },
     {
-        "query_id": "112_194",
-        "wiki_title": "Southern Sun Hotels",
-        "entity_id": "Q7570526"
-    },
-    {
         "query_id": "112_195",
         "wiki_title": "ABKCO Records",
         "entity_id": "Q2819021"
@@ -963,11 +848,6 @@
         "query_id": "112_196",
         "wiki_title": "Fairchild Aircraft Ltd.",
         "entity_id": "Q5430059"
-    },
-    {
-        "query_id": "112_197",
-        "wiki_title": "WW International",
-        "entity_id": "Q1929466"
     },
     {
         "query_id": "112_198",
@@ -1038,11 +918,6 @@
         "query_id": "112_211",
         "wiki_title": "Rashtriya Janata Dal",
         "entity_id": "Q3176919"
-    },
-    {
-        "query_id": "112_212",
-        "wiki_title": "SexyMandarin",
-        "entity_id": "Q7458864"
     },
     {
         "query_id": "112_213",
@@ -1120,11 +995,6 @@
         "entity_id": "Q7567213"
     },
     {
-        "query_id": "112_229",
-        "wiki_title": "Flybe (1979\u20132020)",
-        "entity_id": "Q283790"
-    },
-    {
         "query_id": "112_230",
         "wiki_title": "Democratic Progressive Party (Malawi)",
         "entity_id": "Q1185876"
@@ -1158,11 +1028,6 @@
         "query_id": "112_236",
         "wiki_title": "Pakistan People's Party",
         "entity_id": "Q186591"
-    },
-    {
-        "query_id": "112_237",
-        "wiki_title": "Russian National Unity (2000)",
-        "entity_id": "Q714860"
     },
     {
         "query_id": "112_238",
@@ -1213,11 +1078,6 @@
         "query_id": "112_248",
         "wiki_title": "Royal Society for the Protection of Birds",
         "entity_id": "Q1892802"
-    },
-    {
-        "query_id": "112_249",
-        "wiki_title": "MJJ Music",
-        "entity_id": "Q3273015"
     },
     {
         "query_id": "112_250",
@@ -1313,11 +1173,6 @@
         "query_id": "112_269",
         "wiki_title": "House of Sverre",
         "entity_id": "Q4582435"
-    },
-    {
-        "query_id": "112_270",
-        "wiki_title": "Mingxing",
-        "entity_id": "Q601408"
     },
     {
         "query_id": "112_271",
@@ -1520,11 +1375,6 @@
         "entity_id": "Q953944"
     },
     {
-        "query_id": "112_312",
-        "wiki_title": "Intuit Mint",
-        "entity_id": "Q1421368"
-    },
-    {
         "query_id": "112_313",
         "wiki_title": "Royal Victorian Order",
         "entity_id": "Q94050"
@@ -1583,16 +1433,6 @@
         "query_id": "112_324",
         "wiki_title": "Propaganda Films",
         "entity_id": "Q7250053"
-    },
-    {
-        "query_id": "112_325",
-        "wiki_title": "FatKat (investment software)",
-        "entity_id": "Q5437148"
-    },
-    {
-        "query_id": "112_326",
-        "wiki_title": "Virgin Vacations",
-        "entity_id": "Q6563555"
     },
     {
         "query_id": "112_327",
@@ -1885,11 +1725,6 @@
         "entity_id": "Q606359"
     },
     {
-        "query_id": "112_385",
-        "wiki_title": "Allen Media Group",
-        "entity_id": "Q5380468"
-    },
-    {
         "query_id": "112_386",
         "wiki_title": "Kan'ei-ji",
         "entity_id": "Q3120766"
@@ -1953,11 +1788,6 @@
         "query_id": "112_398",
         "wiki_title": "World Wide Fund for Nature",
         "entity_id": "Q117892"
-    },
-    {
-        "query_id": "112_399",
-        "wiki_title": "Bausch & Lomb",
-        "entity_id": "Q811857"
     },
     {
         "query_id": "112_400",
@@ -2035,16 +1865,6 @@
         "entity_id": "Q1859178"
     },
     {
-        "query_id": "112_415",
-        "wiki_title": "List of monarchs of the Sasanian Empire",
-        "entity_id": "Q43184"
-    },
-    {
-        "query_id": "112_416",
-        "wiki_title": "Korea Hydro & Nuclear Power",
-        "entity_id": "Q6431646"
-    },
-    {
         "query_id": "112_417",
         "wiki_title": "Cambridge University Press",
         "entity_id": "Q912887"
@@ -2105,11 +1925,6 @@
         "entity_id": "Q1371752"
     },
     {
-        "query_id": "112_429",
-        "wiki_title": "Jimmy Choo (fashion house)",
-        "entity_id": "Q5213855"
-    },
-    {
         "query_id": "112_430",
         "wiki_title": "Course of the Force",
         "entity_id": "Q5178190"
@@ -2155,11 +1970,6 @@
         "entity_id": "Q26921"
     },
     {
-        "query_id": "112_439",
-        "wiki_title": "SELCO India",
-        "entity_id": "Q7389695"
-    },
-    {
         "query_id": "112_440",
         "wiki_title": "Crazy John's",
         "entity_id": "Q5183178"
@@ -2170,19 +1980,9 @@
         "entity_id": "Q7747053"
     },
     {
-        "query_id": "112_442",
-        "wiki_title": "Titan Entertainment",
-        "entity_id": "Q7809748"
-    },
-    {
         "query_id": "112_443",
         "wiki_title": "Museo Soumaya",
         "entity_id": "Q2097646"
-    },
-    {
-        "query_id": "112_444",
-        "wiki_title": "Hyundai Engineering & Construction",
-        "entity_id": "Q489809"
     },
     {
         "query_id": "112_445",
@@ -2375,11 +2175,6 @@
         "entity_id": "Q483604"
     },
     {
-        "query_id": "112_483",
-        "wiki_title": "Intracom Holdings",
-        "entity_id": "Q1671550"
-    },
-    {
         "query_id": "112_484",
         "wiki_title": "Institute for Science and International Security",
         "entity_id": "Q841300"
@@ -2473,11 +2268,6 @@
         "query_id": "112_503",
         "wiki_title": "Giant Tiger",
         "entity_id": "Q5558429"
-    },
-    {
-        "query_id": "112_504",
-        "wiki_title": "Kinner Airplane & Motor Corporation",
-        "entity_id": "Q6414061"
     },
     {
         "query_id": "112_505",

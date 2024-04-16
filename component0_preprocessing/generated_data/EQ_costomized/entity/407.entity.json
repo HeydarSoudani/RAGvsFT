@@ -35,16 +35,6 @@
         "entity_id": "Q431691"
     },
     {
-        "query_id": "407_7",
-        "wiki_title": "Balada pro pryntsesu",
-        "entity_id": "Q3488303"
-    },
-    {
-        "query_id": "407_8",
-        "wiki_title": "Diary of a Madman (Guy de Maupassant)",
-        "entity_id": "Q16681742"
-    },
-    {
         "query_id": "407_9",
         "wiki_title": "In Rainbows",
         "entity_id": "Q223295"
@@ -75,11 +65,6 @@
         "entity_id": "Q7232941"
     },
     {
-        "query_id": "407_16",
-        "wiki_title": "The Ghost (2008 film)",
-        "entity_id": "Q4165921"
-    },
-    {
         "query_id": "407_17",
         "wiki_title": "Pok\u00e9mon Trading Card Game (video game)",
         "entity_id": "Q2560049"
@@ -95,11 +80,6 @@
         "entity_id": "Q16871816"
     },
     {
-        "query_id": "407_20",
-        "wiki_title": "Jul med Hep Stars",
-        "entity_id": "Q6305585"
-    },
-    {
         "query_id": "407_21",
         "wiki_title": "God Forbid a Worse Thing Should Happen",
         "entity_id": "Q5575860"
@@ -110,24 +90,9 @@
         "entity_id": "Q1215702"
     },
     {
-        "query_id": "407_23",
-        "wiki_title": "Science & Vie",
-        "entity_id": "Q3475754"
-    },
-    {
         "query_id": "407_24",
         "wiki_title": "L'Expansion",
         "entity_id": "Q3203380"
-    },
-    {
-        "query_id": "407_25",
-        "wiki_title": "Wish I Were a Shark",
-        "entity_id": "Q8027537"
-    },
-    {
-        "query_id": "407_26",
-        "wiki_title": "Allik",
-        "entity_id": "Q4732674"
     },
     {
         "query_id": "407_27",
@@ -155,11 +120,6 @@
         "entity_id": "Q1640276"
     },
     {
-        "query_id": "407_33",
-        "wiki_title": "Yunus (given name)",
-        "entity_id": "Q1158220"
-    },
-    {
         "query_id": "407_34",
         "wiki_title": "L'Indice dei libri del mese",
         "entity_id": "Q6455767"
@@ -170,19 +130,9 @@
         "entity_id": "Q6496335"
     },
     {
-        "query_id": "407_36",
-        "wiki_title": "Lorenzo 2002 \u2013 Il quinto mondo",
-        "entity_id": "Q3836869"
-    },
-    {
         "query_id": "407_37",
         "wiki_title": "Love Deluxe",
         "entity_id": "Q1185154"
-    },
-    {
-        "query_id": "407_38",
-        "wiki_title": "The Chieftains 2",
-        "entity_id": "Q3065496"
     },
     {
         "query_id": "407_39",
@@ -255,41 +205,6 @@
         "entity_id": "Q2031009"
     },
     {
-        "query_id": "407_53",
-        "wiki_title": "Slow Motion (1979 film)",
-        "entity_id": "Q7542038"
-    },
-    {
-        "query_id": "407_54",
-        "wiki_title": "Filiz",
-        "entity_id": "Q1414104"
-    },
-    {
-        "query_id": "407_55",
-        "wiki_title": "Magyar Demokrata",
-        "entity_id": "Q927372"
-    },
-    {
-        "query_id": "407_56",
-        "wiki_title": "Tystion vs Allfa Un",
-        "entity_id": "Q7861820"
-    },
-    {
-        "query_id": "407_57",
-        "wiki_title": "Kuule minua",
-        "entity_id": "Q13220147"
-    },
-    {
-        "query_id": "407_58",
-        "wiki_title": "Russian Mind",
-        "entity_id": "Q15628820"
-    },
-    {
-        "query_id": "407_59",
-        "wiki_title": "\u00d6zmert",
-        "entity_id": "Q307944"
-    },
-    {
         "query_id": "407_61",
         "wiki_title": "Diabolis Interium",
         "entity_id": "Q904900"
@@ -320,24 +235,9 @@
         "entity_id": "Q6073939"
     },
     {
-        "query_id": "407_67",
-        "wiki_title": "31 Minutos (soundtrack)",
-        "entity_id": "Q5398378"
-    },
-    {
-        "query_id": "407_68",
-        "wiki_title": "Rondo (1966 film)",
-        "entity_id": "Q7365562"
-    },
-    {
         "query_id": "407_69",
         "wiki_title": "Jacques",
         "entity_id": "Q941049"
-    },
-    {
-        "query_id": "407_70",
-        "wiki_title": "Bara (1982 film)",
-        "entity_id": "Q16247012"
     },
     {
         "query_id": "407_71",
@@ -348,16 +248,6 @@
         "query_id": "407_72",
         "wiki_title": "La Capital",
         "entity_id": "Q4810370"
-    },
-    {
-        "query_id": "407_73",
-        "wiki_title": "V\u00e5r jul",
-        "entity_id": "Q17480906"
-    },
-    {
-        "query_id": "407_74",
-        "wiki_title": "Ta Pio Megala S'agapo",
-        "entity_id": "Q7672773"
     },
     {
         "query_id": "407_75",
@@ -410,16 +300,6 @@
         "entity_id": "Q3203638"
     },
     {
-        "query_id": "407_86",
-        "wiki_title": "Xx (The xx album)",
-        "entity_id": "Q285120"
-    },
-    {
-        "query_id": "407_87",
-        "wiki_title": "Pouvoirs",
-        "entity_id": "Q3400800"
-    },
-    {
         "query_id": "407_88",
         "wiki_title": "Vivid (Crystal Kay album)",
         "entity_id": "Q367836"
@@ -460,11 +340,6 @@
         "entity_id": "Q3317000"
     },
     {
-        "query_id": "407_96",
-        "wiki_title": "Bananas (Deep Purple album)",
-        "entity_id": "Q667759"
-    },
-    {
         "query_id": "407_97",
         "wiki_title": "Road to the Stars",
         "entity_id": "Q3053635"
@@ -473,11 +348,6 @@
         "query_id": "407_98",
         "wiki_title": "Strengleikar",
         "entity_id": "Q7623217"
-    },
-    {
-        "query_id": "407_99",
-        "wiki_title": "Regrets (Myl\u00e8ne Farmer and Jean-Louis Murat song)",
-        "entity_id": "Q3423685"
     },
     {
         "query_id": "407_100",
@@ -490,11 +360,6 @@
         "entity_id": "Q287637"
     },
     {
-        "query_id": "407_102",
-        "wiki_title": "Dyma'r Dystiolaeth",
-        "entity_id": "Q5318826"
-    },
-    {
         "query_id": "407_103",
         "wiki_title": "Alain (given name)",
         "entity_id": "Q2829505"
@@ -503,11 +368,6 @@
         "query_id": "407_104",
         "wiki_title": "Battle of Brunanburh (poem)",
         "entity_id": "Q4870574"
-    },
-    {
-        "query_id": "407_105",
-        "wiki_title": "S\u00e4tt dig p\u00e5 bocken",
-        "entity_id": "Q10688199"
     },
     {
         "query_id": "407_106",
@@ -540,11 +400,6 @@
         "entity_id": "Q58172"
     },
     {
-        "query_id": "407_112",
-        "wiki_title": "Vahe (given name)",
-        "entity_id": "Q7908603"
-    },
-    {
         "query_id": "407_113",
         "wiki_title": "N'avoue jamais",
         "entity_id": "Q6951305"
@@ -553,11 +408,6 @@
         "query_id": "407_114",
         "wiki_title": "El Sol (Madrid)",
         "entity_id": "Q1141916"
-    },
-    {
-        "query_id": "407_115",
-        "wiki_title": "Asanbayev",
-        "entity_id": "Q4071130"
     },
     {
         "query_id": "407_116",
@@ -575,11 +425,6 @@
         "entity_id": "Q921458"
     },
     {
-        "query_id": "407_119",
-        "wiki_title": "Chemistry (Trouble Maker EP)",
-        "entity_id": "Q15791284"
-    },
-    {
         "query_id": "407_120",
         "wiki_title": "Uralsky Sledopyt",
         "entity_id": "Q4476788"
@@ -588,11 +433,6 @@
         "query_id": "407_121",
         "wiki_title": "Jacobson (surname)",
         "entity_id": "Q4160058"
-    },
-    {
-        "query_id": "407_122",
-        "wiki_title": "Mirgorod (short story collection)",
-        "entity_id": "Q1754954"
     },
     {
         "query_id": "407_123",
@@ -650,29 +490,14 @@
         "entity_id": "Q1027609"
     },
     {
-        "query_id": "407_134",
-        "wiki_title": "Toma\u017e",
-        "entity_id": "Q16282150"
-    },
-    {
         "query_id": "407_135",
         "wiki_title": "Mezzanine (album)",
         "entity_id": "Q844258"
     },
     {
-        "query_id": "407_136",
-        "wiki_title": "Bianchi (surname)",
-        "entity_id": "Q912131"
-    },
-    {
         "query_id": "407_137",
         "wiki_title": "Econometrica",
         "entity_id": "Q375835"
-    },
-    {
-        "query_id": "407_138",
-        "wiki_title": "Amparo (name)",
-        "entity_id": "Q474402"
     },
     {
         "query_id": "407_139",
@@ -720,11 +545,6 @@
         "entity_id": "Q6506680"
     },
     {
-        "query_id": "407_148",
-        "wiki_title": "Acar (surname)",
-        "entity_id": "Q337919"
-    },
-    {
         "query_id": "407_149",
         "wiki_title": "Gray (surname)",
         "entity_id": "Q1544042"
@@ -735,19 +555,9 @@
         "entity_id": "Q5947308"
     },
     {
-        "query_id": "407_151",
-        "wiki_title": "Zaj\u0105c",
-        "entity_id": "Q144532"
-    },
-    {
         "query_id": "407_152",
         "wiki_title": "Sounds of the Universe",
         "entity_id": "Q746889"
-    },
-    {
-        "query_id": "407_153",
-        "wiki_title": "Povilas",
-        "entity_id": "Q7235882"
     },
     {
         "query_id": "407_155",
@@ -758,11 +568,6 @@
         "query_id": "407_156",
         "wiki_title": "Solano (surname)",
         "entity_id": "Q16883533"
-    },
-    {
-        "query_id": "407_157",
-        "wiki_title": "The Stroll (2003 film)",
-        "entity_id": "Q4379891"
     },
     {
         "query_id": "407_158",
@@ -790,19 +595,9 @@
         "entity_id": "Q260948"
     },
     {
-        "query_id": "407_163",
-        "wiki_title": "The Painted Word (album)",
-        "entity_id": "Q17019886"
-    },
-    {
         "query_id": "407_164",
         "wiki_title": "Beyond My Control",
         "entity_id": "Q676729"
-    },
-    {
-        "query_id": "407_165",
-        "wiki_title": "En sten vid en sj\u00f6 i en skog/Tuffa tider (f\u00f6r en dr\u00f6mmare)",
-        "entity_id": "Q5375107"
     },
     {
         "query_id": "407_166",
@@ -813,11 +608,6 @@
         "query_id": "407_167",
         "wiki_title": "Ruslan and Ludmila",
         "entity_id": "Q2353039"
-    },
-    {
-        "query_id": "407_168",
-        "wiki_title": "Pussy Riot: A Punk Prayer",
-        "entity_id": "Q14954348"
     },
     {
         "query_id": "407_169",
@@ -865,16 +655,6 @@
         "entity_id": "Q1046083"
     },
     {
-        "query_id": "407_178",
-        "wiki_title": "Useless Beauty",
-        "entity_id": "Q7901800"
-    },
-    {
-        "query_id": "407_179",
-        "wiki_title": "Blanco (surname)",
-        "entity_id": "Q16860087"
-    },
-    {
         "query_id": "407_180",
         "wiki_title": "Leyli and Majnun (opera)",
         "entity_id": "Q1822437"
@@ -893,11 +673,6 @@
         "query_id": "407_183",
         "wiki_title": "@Reverend Makers",
         "entity_id": "Q4646755"
-    },
-    {
-        "query_id": "407_184",
-        "wiki_title": "Chirpynirdi gara deniz",
-        "entity_id": "Q770182"
     },
     {
         "query_id": "407_185",
@@ -950,29 +725,9 @@
         "entity_id": "Q2888953"
     },
     {
-        "query_id": "407_195",
-        "wiki_title": "Tedesco (surname)",
-        "entity_id": "Q16884368"
-    },
-    {
-        "query_id": "407_196",
-        "wiki_title": "M\u00e1rcio",
-        "entity_id": "Q10334280"
-    },
-    {
-        "query_id": "407_197",
-        "wiki_title": "Ar\u016bnas",
-        "entity_id": "Q1758633"
-    },
-    {
         "query_id": "407_198",
         "wiki_title": "Anandamela",
         "entity_id": "Q4751338"
-    },
-    {
-        "query_id": "407_199",
-        "wiki_title": "Ode to the Gods",
-        "entity_id": "Q7077605"
     },
     {
         "query_id": "407_200",
@@ -998,11 +753,6 @@
         "query_id": "407_204",
         "wiki_title": "The Shield and the Sword (film)",
         "entity_id": "Q4529126"
-    },
-    {
-        "query_id": "407_205",
-        "wiki_title": "N\u00e4r det lider mot jul",
-        "entity_id": "Q10605091"
     },
     {
         "query_id": "407_206",
@@ -1100,11 +850,6 @@
         "entity_id": "Q3327138"
     },
     {
-        "query_id": "407_225",
-        "wiki_title": "Special View",
-        "entity_id": "Q7574769"
-    },
-    {
         "query_id": "407_226",
         "wiki_title": "Walker (surname)",
         "entity_id": "Q1158605"
@@ -1128,11 +873,6 @@
         "query_id": "407_230",
         "wiki_title": "Google Map Maker",
         "entity_id": "Q1138257"
-    },
-    {
-        "query_id": "407_231",
-        "wiki_title": "Cibles",
-        "entity_id": "Q2972245"
     },
     {
         "query_id": "407_232",
@@ -1160,11 +900,6 @@
         "entity_id": "Q19263687"
     },
     {
-        "query_id": "407_237",
-        "wiki_title": "Mussorgsky (film)",
-        "entity_id": "Q4308467"
-    },
-    {
         "query_id": "407_238",
         "wiki_title": "Drones (Muse album)",
         "entity_id": "Q18221034"
@@ -1185,16 +920,6 @@
         "entity_id": "Q734048"
     },
     {
-        "query_id": "407_242",
-        "wiki_title": "Vlaky s rokmi",
-        "entity_id": "Q7939005"
-    },
-    {
-        "query_id": "407_243",
-        "wiki_title": "Peraustr\u00ednia 2004",
-        "entity_id": "Q7166962"
-    },
-    {
         "query_id": "407_244",
         "wiki_title": "Aubin (name)",
         "entity_id": "Q16274718"
@@ -1208,16 +933,6 @@
         "query_id": "407_246",
         "wiki_title": "\u010ceslovas",
         "entity_id": "Q16274776"
-    },
-    {
-        "query_id": "407_247",
-        "wiki_title": "Chechen Wikipedia",
-        "entity_id": "Q4783991"
-    },
-    {
-        "query_id": "407_248",
-        "wiki_title": "Leonardas",
-        "entity_id": "Q1685741"
     },
     {
         "query_id": "407_249",
@@ -1245,11 +960,6 @@
         "entity_id": "Q837615"
     },
     {
-        "query_id": "407_254",
-        "wiki_title": "Arvydas",
-        "entity_id": "Q717551"
-    },
-    {
         "query_id": "407_255",
         "wiki_title": "Krugosvet",
         "entity_id": "Q2627728"
@@ -1260,19 +970,9 @@
         "entity_id": "Q2614604"
     },
     {
-        "query_id": "407_257",
-        "wiki_title": "Hafana",
-        "entity_id": "Q5638298"
-    },
-    {
         "query_id": "407_258",
         "wiki_title": "Tigerdrottningen",
         "entity_id": "Q15991506"
-    },
-    {
-        "query_id": "407_259",
-        "wiki_title": "Yom Huledet",
-        "entity_id": "Q2892645"
     },
     {
         "query_id": "407_260",
@@ -1288,11 +988,6 @@
         "query_id": "407_262",
         "wiki_title": "Led Zeppelin Definitive Collection",
         "entity_id": "Q3021222"
-    },
-    {
-        "query_id": "407_263",
-        "wiki_title": "Misimovi\u0107",
-        "entity_id": "Q18015937"
     },
     {
         "query_id": "407_264",
@@ -1315,29 +1010,14 @@
         "entity_id": "Q1654058"
     },
     {
-        "query_id": "407_268",
-        "wiki_title": "Little Poll Parrot",
-        "entity_id": "Q17093242"
-    },
-    {
         "query_id": "407_269",
         "wiki_title": "Ciao",
         "entity_id": "Q831"
     },
     {
-        "query_id": "407_270",
-        "wiki_title": "Don't Look Down (Cerys Matthews album)",
-        "entity_id": "Q7124644"
-    },
-    {
         "query_id": "407_271",
         "wiki_title": "Moj mikro",
         "entity_id": "Q12637208"
-    },
-    {
-        "query_id": "407_272",
-        "wiki_title": "Black Dog (Led Zeppelin song)",
-        "entity_id": "Q1764403"
     },
     {
         "query_id": "407_273",
@@ -1370,11 +1050,6 @@
         "entity_id": "Q1002798"
     },
     {
-        "query_id": "407_279",
-        "wiki_title": "Stitches (2011 film)",
-        "entity_id": "Q7617647"
-    },
-    {
         "query_id": "407_280",
         "wiki_title": "OK Computer",
         "entity_id": "Q202996"
@@ -1400,11 +1075,6 @@
         "entity_id": "Q186689"
     },
     {
-        "query_id": "407_285",
-        "wiki_title": "S\u00f6zen",
-        "entity_id": "Q2380074"
-    },
-    {
         "query_id": "407_286",
         "wiki_title": "Muchas Flores",
         "entity_id": "Q6931012"
@@ -1413,11 +1083,6 @@
         "query_id": "407_287",
         "wiki_title": "Vuelta (magazine)",
         "entity_id": "Q2090611"
-    },
-    {
-        "query_id": "407_288",
-        "wiki_title": "Timon (film)",
-        "entity_id": "Q7806927"
     },
     {
         "query_id": "407_289",
@@ -1460,11 +1125,6 @@
         "entity_id": "Q16870376"
     },
     {
-        "query_id": "407_297",
-        "wiki_title": "Bushra",
-        "entity_id": "Q1021892"
-    },
-    {
         "query_id": "407_298",
         "wiki_title": "Beijinger in New York",
         "entity_id": "Q4881221"
@@ -1478,11 +1138,6 @@
         "query_id": "407_300",
         "wiki_title": "Spirit of Eden",
         "entity_id": "Q1696613"
-    },
-    {
-        "query_id": "407_301",
-        "wiki_title": "Hall (surname)",
-        "entity_id": "Q1551523"
     },
     {
         "query_id": "407_302",
@@ -1505,21 +1160,6 @@
         "entity_id": "Q591929"
     },
     {
-        "query_id": "407_306",
-        "wiki_title": "Due note",
-        "entity_id": "Q3716010"
-    },
-    {
-        "query_id": "407_307",
-        "wiki_title": "Batuhan",
-        "entity_id": "Q811045"
-    },
-    {
-        "query_id": "407_308",
-        "wiki_title": "The Blockade Runners",
-        "entity_id": "Q116862"
-    },
-    {
         "query_id": "407_309",
         "wiki_title": "Jal Pari (album)",
         "entity_id": "Q6125801"
@@ -1535,21 +1175,6 @@
         "entity_id": "Q1137712"
     },
     {
-        "query_id": "407_312",
-        "wiki_title": "Carpe Diem (Belinda Peregr\u00edn album)",
-        "entity_id": "Q3281958"
-    },
-    {
-        "query_id": "407_313",
-        "wiki_title": "Live Yardbirds: Featuring Jimmy Page",
-        "entity_id": "Q10568046"
-    },
-    {
-        "query_id": "407_314",
-        "wiki_title": "Edvardas",
-        "entity_id": "Q1291401"
-    },
-    {
         "query_id": "407_315",
         "wiki_title": "Terra baixa",
         "entity_id": "Q1215366"
@@ -1558,11 +1183,6 @@
         "query_id": "407_316",
         "wiki_title": "Non ho l'et\u00e0",
         "entity_id": "Q1084662"
-    },
-    {
-        "query_id": "407_317",
-        "wiki_title": "Shervin",
-        "entity_id": "Q7495453"
     },
     {
         "query_id": "407_318",
@@ -1580,11 +1200,6 @@
         "entity_id": "Q3228300"
     },
     {
-        "query_id": "407_321",
-        "wiki_title": "BSSST...Ti\u0161in\u010dina!",
-        "entity_id": "Q4836631"
-    },
-    {
         "query_id": "407_322",
         "wiki_title": "Bayram (name)",
         "entity_id": "Q812588"
@@ -1593,11 +1208,6 @@
         "query_id": "407_323",
         "wiki_title": "La d\u00e9b\u00e2cle des sentiments",
         "entity_id": "Q3208413"
-    },
-    {
-        "query_id": "407_324",
-        "wiki_title": "Roberts (given name)",
-        "entity_id": "Q16280961"
     },
     {
         "query_id": "407_325",
@@ -1615,21 +1225,6 @@
         "entity_id": "Q1082153"
     },
     {
-        "query_id": "407_329",
-        "wiki_title": "La Conexi\u00f3n",
-        "entity_id": "Q17155760"
-    },
-    {
-        "query_id": "407_330",
-        "wiki_title": "IV (EP)",
-        "entity_id": "Q16995242"
-    },
-    {
-        "query_id": "407_331",
-        "wiki_title": "Little Fish (2005 film)",
-        "entity_id": "Q1865670"
-    },
-    {
         "query_id": "407_332",
         "wiki_title": "Prantik",
         "entity_id": "Q7238399"
@@ -1640,34 +1235,14 @@
         "entity_id": "Q18117406"
     },
     {
-        "query_id": "407_334",
-        "wiki_title": "Riccardo",
-        "entity_id": "Q15720880"
-    },
-    {
         "query_id": "407_335",
         "wiki_title": "The Miroslav Holding Co.",
         "entity_id": "Q7751663"
     },
     {
-        "query_id": "407_336",
-        "wiki_title": "Sandrine",
-        "entity_id": "Q18019683"
-    },
-    {
-        "query_id": "407_337",
-        "wiki_title": "Enjoy CCCP",
-        "entity_id": "Q3725432"
-    },
-    {
         "query_id": "407_338",
         "wiki_title": "S.P.U.K.",
         "entity_id": "Q3211080"
-    },
-    {
-        "query_id": "407_339",
-        "wiki_title": "Holly (name)",
-        "entity_id": "Q3786303"
     },
     {
         "query_id": "407_340",
@@ -1700,19 +1275,9 @@
         "entity_id": "Q16866171"
     },
     {
-        "query_id": "407_346",
-        "wiki_title": "Jo\u00eblle",
-        "entity_id": "Q6298525"
-    },
-    {
         "query_id": "407_347",
         "wiki_title": "Electricidad",
         "entity_id": "Q3281029"
-    },
-    {
-        "query_id": "407_348",
-        "wiki_title": "Sono un pirata, sono un signore",
-        "entity_id": "Q3964887"
     },
     {
         "query_id": "407_349",
@@ -1770,11 +1335,6 @@
         "entity_id": "Q857640"
     },
     {
-        "query_id": "407_361",
-        "wiki_title": "Uku (given name)",
-        "entity_id": "Q16291787"
-    },
-    {
         "query_id": "407_362",
         "wiki_title": "Stepped Up and Scratched",
         "entity_id": "Q3973227"
@@ -1783,16 +1343,6 @@
         "query_id": "407_363",
         "wiki_title": "Le chant des sir\u00e8nes",
         "entity_id": "Q3221012"
-    },
-    {
-        "query_id": "407_364",
-        "wiki_title": "Dainius",
-        "entity_id": "Q1157632"
-    },
-    {
-        "query_id": "407_365",
-        "wiki_title": "Sonja and the Bull",
-        "entity_id": "Q15427160"
     },
     {
         "query_id": "407_366",
@@ -1820,11 +1370,6 @@
         "entity_id": "Q6094838"
     },
     {
-        "query_id": "407_371",
-        "wiki_title": "Irefutabil",
-        "entity_id": "Q12731061"
-    },
-    {
         "query_id": "407_372",
         "wiki_title": "A Dog of Flanders",
         "entity_id": "Q11036624"
@@ -1845,19 +1390,9 @@
         "entity_id": "Q1571790"
     },
     {
-        "query_id": "407_376",
-        "wiki_title": "Buffet (surname)",
-        "entity_id": "Q16865123"
-    },
-    {
         "query_id": "407_377",
         "wiki_title": "Here I Am (Kelly Rowland album)",
         "entity_id": "Q690586"
-    },
-    {
-        "query_id": "407_378",
-        "wiki_title": "Selena Live! The Last Concert",
-        "entity_id": "Q602351"
     },
     {
         "query_id": "407_379",
@@ -1865,19 +1400,9 @@
         "entity_id": "Q3141101"
     },
     {
-        "query_id": "407_380",
-        "wiki_title": "Anarchy in the U.K: Live at the 76 Club",
-        "entity_id": "Q262114"
-    },
-    {
         "query_id": "407_381",
         "wiki_title": "Yao (surname)",
         "entity_id": "Q2233698"
-    },
-    {
-        "query_id": "407_382",
-        "wiki_title": "Southasia Magazine",
-        "entity_id": "Q15863492"
     },
     {
         "query_id": "407_383",
@@ -1895,16 +1420,6 @@
         "entity_id": "Q1557859"
     },
     {
-        "query_id": "407_386",
-        "wiki_title": "Gruzovik Press",
-        "entity_id": "Q17054048"
-    },
-    {
-        "query_id": "407_387",
-        "wiki_title": "MyLINUX",
-        "entity_id": "Q6944831"
-    },
-    {
         "query_id": "407_389",
         "wiki_title": "Latin Wikipedia",
         "entity_id": "Q12237"
@@ -1913,11 +1428,6 @@
         "query_id": "407_390",
         "wiki_title": "InoSMI",
         "entity_id": "Q4201249"
-    },
-    {
-        "query_id": "407_391",
-        "wiki_title": "Ozon (company)",
-        "entity_id": "Q2365235"
     },
     {
         "query_id": "407_392",
@@ -1930,21 +1440,6 @@
         "entity_id": "Q5037582"
     },
     {
-        "query_id": "407_394",
-        "wiki_title": "P\u00fctsep",
-        "entity_id": "Q2120978"
-    },
-    {
-        "query_id": "407_395",
-        "wiki_title": "Arvo",
-        "entity_id": "Q717430"
-    },
-    {
-        "query_id": "407_396",
-        "wiki_title": "Charuga (film)",
-        "entity_id": "Q3505854"
-    },
-    {
         "query_id": "407_397",
         "wiki_title": "Gerardo",
         "entity_id": "Q5550225"
@@ -1955,11 +1450,6 @@
         "entity_id": "Q18190448"
     },
     {
-        "query_id": "407_399",
-        "wiki_title": "Alice (1984 album)",
-        "entity_id": "Q4725694"
-    },
-    {
         "query_id": "407_400",
         "wiki_title": "Night Flight (song)",
         "entity_id": "Q6978251"
@@ -1968,16 +1458,6 @@
         "query_id": "407_401",
         "wiki_title": "Ruggero",
         "entity_id": "Q10862457"
-    },
-    {
-        "query_id": "407_402",
-        "wiki_title": "Road & Track",
-        "entity_id": "Q3781030"
-    },
-    {
-        "query_id": "407_403",
-        "wiki_title": "Norton (surname)",
-        "entity_id": "Q2790265"
     },
     {
         "query_id": "407_404",
@@ -2005,19 +1485,9 @@
         "entity_id": "Q746517"
     },
     {
-        "query_id": "407_409",
-        "wiki_title": "Bodil (given name)",
-        "entity_id": "Q889848"
-    },
-    {
         "query_id": "407_410",
         "wiki_title": "The Man Who Sold the World (album)",
         "entity_id": "Q1129202"
-    },
-    {
-        "query_id": "407_411",
-        "wiki_title": "The Old Oak Blues",
-        "entity_id": "Q7754889"
     },
     {
         "query_id": "407_412",
@@ -2025,19 +1495,9 @@
         "entity_id": "Q5349893"
     },
     {
-        "query_id": "407_413",
-        "wiki_title": "Celestial Body",
-        "entity_id": "Q5057890"
-    },
-    {
         "query_id": "407_414",
         "wiki_title": "Unhalfbricking",
         "entity_id": "Q371317"
-    },
-    {
-        "query_id": "407_415",
-        "wiki_title": "The Pink Doll (film)",
-        "entity_id": "Q4396650"
     },
     {
         "query_id": "407_416",
@@ -2045,24 +1505,9 @@
         "entity_id": "Q19908"
     },
     {
-        "query_id": "407_417",
-        "wiki_title": "Ja, m\u00e5 han (hon) leva",
-        "entity_id": "Q2256415"
-    },
-    {
         "query_id": "407_418",
         "wiki_title": "Transatlantic (1998 film)",
         "entity_id": "Q7833772"
-    },
-    {
-        "query_id": "407_419",
-        "wiki_title": "Beck (surname)",
-        "entity_id": "Q2659856"
-    },
-    {
-        "query_id": "407_420",
-        "wiki_title": "Fabienne",
-        "entity_id": "Q1390433"
     },
     {
         "query_id": "407_421",
@@ -2073,11 +1518,6 @@
         "query_id": "407_422",
         "wiki_title": "Salto Mortal",
         "entity_id": "Q3945849"
-    },
-    {
-        "query_id": "407_423",
-        "wiki_title": "Sam na sam",
-        "entity_id": "Q953431"
     },
     {
         "query_id": "407_424",
@@ -2098,11 +1538,6 @@
         "query_id": "407_427",
         "wiki_title": "Com\u00e9-com\u00e9die",
         "entity_id": "Q2991519"
-    },
-    {
-        "query_id": "407_428",
-        "wiki_title": "Horvat's Choice",
-        "entity_id": "Q3506787"
     },
     {
         "query_id": "407_429",
@@ -2150,11 +1585,6 @@
         "entity_id": "Q1340088"
     },
     {
-        "query_id": "407_438",
-        "wiki_title": "Kuosmanen",
-        "entity_id": "Q6445277"
-    },
-    {
         "query_id": "407_439",
         "wiki_title": "The Way to Paradise (film)",
         "entity_id": "Q7773936"
@@ -2165,29 +1595,14 @@
         "entity_id": "Q605834"
     },
     {
-        "query_id": "407_441",
-        "wiki_title": "Il faut du temps (song)",
-        "entity_id": "Q10301018"
-    },
-    {
         "query_id": "407_442",
         "wiki_title": "Carol (given name)",
         "entity_id": "Q18201469"
     },
     {
-        "query_id": "407_443",
-        "wiki_title": "Aurelijus",
-        "entity_id": "Q775479"
-    },
-    {
         "query_id": "407_445",
         "wiki_title": "Northern Flowers",
         "entity_id": "Q4412227"
-    },
-    {
-        "query_id": "407_447",
-        "wiki_title": "\u017dvi\u017eej",
-        "entity_id": "Q394343"
     },
     {
         "query_id": "407_448",
@@ -2215,11 +1630,6 @@
         "entity_id": "Q7547161"
     },
     {
-        "query_id": "407_453",
-        "wiki_title": "Cisneros (surname)",
-        "entity_id": "Q16865601"
-    },
-    {
         "query_id": "407_454",
         "wiki_title": "Washed Out (film)",
         "entity_id": "Q3505847"
@@ -2245,21 +1655,6 @@
         "entity_id": "Q2043164"
     },
     {
-        "query_id": "407_459",
-        "wiki_title": "Ra\u015fit",
-        "entity_id": "Q2134463"
-    },
-    {
-        "query_id": "407_460",
-        "wiki_title": "Sokol Did Not Love Him",
-        "entity_id": "Q7555160"
-    },
-    {
-        "query_id": "407_461",
-        "wiki_title": "The Promised Land (1986 film)",
-        "entity_id": "Q7758560"
-    },
-    {
         "query_id": "407_462",
         "wiki_title": "D\u00e9g\u00e9n\u00e9ration",
         "entity_id": "Q2568472"
@@ -2275,19 +1670,9 @@
         "entity_id": "Q4267021"
     },
     {
-        "query_id": "407_465",
-        "wiki_title": "Peterson (surname)",
-        "entity_id": "Q12191064"
-    },
-    {
         "query_id": "407_466",
         "wiki_title": "Vogue Italia",
         "entity_id": "Q5214381"
-    },
-    {
-        "query_id": "407_467",
-        "wiki_title": "Jean-Antoine",
-        "entity_id": "Q6168802"
     },
     {
         "query_id": "407_468",
@@ -2298,11 +1683,6 @@
         "query_id": "407_469",
         "wiki_title": "The Sea (Corinne Bailey Rae album)",
         "entity_id": "Q1934187"
-    },
-    {
-        "query_id": "407_470",
-        "wiki_title": "Lucio Battisti Vol. 2",
-        "entity_id": "Q3838811"
     },
     {
         "query_id": "407_471",
@@ -2365,11 +1745,6 @@
         "entity_id": "Q206097"
     },
     {
-        "query_id": "407_485",
-        "wiki_title": "Oye C\u00f3mo Va",
-        "entity_id": "Q1449288"
-    },
-    {
         "query_id": "407_486",
         "wiki_title": "Irk Bitig",
         "entity_id": "Q1046249"
@@ -2395,11 +1770,6 @@
         "entity_id": "Q2357256"
     },
     {
-        "query_id": "407_491",
-        "wiki_title": "Magazeta",
-        "entity_id": "Q4273888"
-    },
-    {
         "query_id": "407_492",
         "wiki_title": "Gia (album)",
         "entity_id": "Q4808476"
@@ -2413,16 +1783,6 @@
         "query_id": "407_494",
         "wiki_title": "Love Letters with Intent",
         "entity_id": "Q6690949"
-    },
-    {
-        "query_id": "407_495",
-        "wiki_title": "Lioness: Hidden Treasures",
-        "entity_id": "Q922466"
-    },
-    {
-        "query_id": "407_496",
-        "wiki_title": "Outlook (Indian magazine)",
-        "entity_id": "Q1955600"
     },
     {
         "query_id": "407_497",
@@ -2450,11 +1810,6 @@
         "entity_id": "Q1999930"
     },
     {
-        "query_id": "407_503",
-        "wiki_title": "Cantabile (poetry collection)",
-        "entity_id": "Q5033513"
-    },
-    {
         "query_id": "407_504",
         "wiki_title": "Ricky (2009 film)",
         "entity_id": "Q2000427"
@@ -2463,11 +1818,6 @@
         "query_id": "407_505",
         "wiki_title": "Cheonsa Misonyeo",
         "entity_id": "Q5091676"
-    },
-    {
-        "query_id": "407_506",
-        "wiki_title": "Femme lib\u00e9r\u00e9e",
-        "entity_id": "Q3068258"
     },
     {
         "query_id": "407_507",
@@ -2525,11 +1875,6 @@
         "entity_id": "Q15897419"
     },
     {
-        "query_id": "407_518",
-        "wiki_title": "Ekbar Biday De Ma Ghure Ashi",
-        "entity_id": "Q5350364"
-    },
-    {
         "query_id": "407_519",
         "wiki_title": "Newsweek Polska",
         "entity_id": "Q597255"
@@ -2543,11 +1888,6 @@
         "query_id": "407_521",
         "wiki_title": "Jours de France",
         "entity_id": "Q3187102"
-    },
-    {
-        "query_id": "407_522",
-        "wiki_title": "Aksu (surname)",
-        "entity_id": "Q4357671"
     },
     {
         "query_id": "407_523",
@@ -2575,16 +1915,6 @@
         "entity_id": "Q2037854"
     },
     {
-        "query_id": "407_528",
-        "wiki_title": "Le souvenir de ce jour",
-        "entity_id": "Q3227372"
-    },
-    {
-        "query_id": "407_529",
-        "wiki_title": "\u00d6d\u00f6n",
-        "entity_id": "Q294054"
-    },
-    {
         "query_id": "407_530",
         "wiki_title": "Real (IU EP)",
         "entity_id": "Q10854802"
@@ -2598,16 +1928,6 @@
         "query_id": "407_532",
         "wiki_title": "Elle (magazine)",
         "entity_id": "Q154020"
-    },
-    {
-        "query_id": "407_533",
-        "wiki_title": "Policeman (film)",
-        "entity_id": "Q2893726"
-    },
-    {
-        "query_id": "407_534",
-        "wiki_title": "Minhas Can\u00e7\u00f5es Preferidas",
-        "entity_id": "Q6864908"
     },
     {
         "query_id": "407_535",
@@ -2680,11 +2000,6 @@
         "entity_id": "Q3204559"
     },
     {
-        "query_id": "407_549",
-        "wiki_title": "Si\u00e2n",
-        "entity_id": "Q1253345"
-    },
-    {
         "query_id": "407_551",
         "wiki_title": "Journal of Ancient History",
         "entity_id": "Q3224523"
@@ -2703,11 +2018,6 @@
         "query_id": "407_554",
         "wiki_title": "HuffPost",
         "entity_id": "Q18049522"
-    },
-    {
-        "query_id": "407_556",
-        "wiki_title": "An Easy Life",
-        "entity_id": "Q4749884"
     },
     {
         "query_id": "407_557",
@@ -2733,11 +2043,6 @@
         "query_id": "407_561",
         "wiki_title": "Pantulan Cita",
         "entity_id": "Q7131934"
-    },
-    {
-        "query_id": "407_562",
-        "wiki_title": "Afet",
-        "entity_id": "Q382158"
     },
     {
         "query_id": "407_563",
@@ -2810,11 +2115,6 @@
         "entity_id": "Q7063084"
     },
     {
-        "query_id": "407_577",
-        "wiki_title": "Liudvikas",
-        "entity_id": "Q1866113"
-    },
-    {
         "query_id": "407_578",
         "wiki_title": "Den Store Danske Encyklop\u00e6di",
         "entity_id": "Q1186818"
@@ -2825,11 +2125,6 @@
         "entity_id": "Q2418554"
     },
     {
-        "query_id": "407_580",
-        "wiki_title": "Balabhumi",
-        "entity_id": "Q13113629"
-    },
-    {
         "query_id": "407_581",
         "wiki_title": "Osian (name)",
         "entity_id": "Q7106672"
@@ -2838,21 +2133,6 @@
         "query_id": "407_582",
         "wiki_title": "Kid A",
         "entity_id": "Q220726"
-    },
-    {
-        "query_id": "407_583",
-        "wiki_title": "\u00c0 cause de l'automne",
-        "entity_id": "Q3576630"
-    },
-    {
-        "query_id": "407_584",
-        "wiki_title": "Alone (2001 film)",
-        "entity_id": "Q4734370"
-    },
-    {
-        "query_id": "407_585",
-        "wiki_title": "Dos Mou Ena Fili... Afto to Kalokairi",
-        "entity_id": "Q5299175"
     },
     {
         "query_id": "407_586",
@@ -2878,16 +2158,6 @@
         "query_id": "407_590",
         "wiki_title": "White and Black Blues",
         "entity_id": "Q7995558"
-    },
-    {
-        "query_id": "407_591",
-        "wiki_title": "Antanas",
-        "entity_id": "Q4770944"
-    },
-    {
-        "query_id": "407_592",
-        "wiki_title": "Land of Oblivion",
-        "entity_id": "Q2337640"
     },
     {
         "query_id": "407_593",
@@ -2935,11 +2205,6 @@
         "entity_id": "Q5445021"
     },
     {
-        "query_id": "407_602",
-        "wiki_title": "Brothers (Yu novel)",
-        "entity_id": "Q4975657"
-    },
-    {
         "query_id": "407_603",
         "wiki_title": "L'Intransigeant",
         "entity_id": "Q3204265"
@@ -2968,11 +2233,6 @@
         "query_id": "407_608",
         "wiki_title": "R\u00f6d",
         "entity_id": "Q3496531"
-    },
-    {
-        "query_id": "407_609",
-        "wiki_title": "Kashmakash (album)",
-        "entity_id": "Q6374411"
     },
     {
         "query_id": "407_610",
@@ -3025,29 +2285,9 @@
         "entity_id": "Q5151060"
     },
     {
-        "query_id": "407_621",
-        "wiki_title": "La voce del padrone (album)",
-        "entity_id": "Q1054834"
-    },
-    {
-        "query_id": "407_622",
-        "wiki_title": "De Me Stamatises",
-        "entity_id": "Q18713588"
-    },
-    {
-        "query_id": "407_623",
-        "wiki_title": "G\u00fcven\u00e7",
-        "entity_id": "Q1562320"
-    },
-    {
         "query_id": "407_624",
         "wiki_title": "Magic (music magazine)",
         "entity_id": "Q3276862"
-    },
-    {
-        "query_id": "407_625",
-        "wiki_title": "El Propagador de la libertad",
-        "entity_id": "Q15735143"
     },
     {
         "query_id": "407_626",
@@ -3073,11 +2313,6 @@
         "query_id": "407_630",
         "wiki_title": "Det kimer nu til julefest",
         "entity_id": "Q4589588"
-    },
-    {
-        "query_id": "407_631",
-        "wiki_title": "The Piece of String",
-        "entity_id": "Q3208839"
     },
     {
         "query_id": "407_632",
@@ -3115,11 +2350,6 @@
         "entity_id": "Q792038"
     },
     {
-        "query_id": "407_639",
-        "wiki_title": "La Settimana Enigmistica",
-        "entity_id": "Q3821191"
-    },
-    {
         "query_id": "407_640",
         "wiki_title": "And Thou Shalt Love",
         "entity_id": "Q4753401"
@@ -3138,11 +2368,6 @@
         "query_id": "407_643",
         "wiki_title": "Matti (given name)",
         "entity_id": "Q1474085"
-    },
-    {
-        "query_id": "407_644",
-        "wiki_title": "Arwut Lab",
-        "entity_id": "Q4802557"
     },
     {
         "query_id": "407_645",

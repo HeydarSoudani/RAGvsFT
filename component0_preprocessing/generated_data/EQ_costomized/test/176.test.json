@@ -1,19 +1,11 @@
 [
     {
-        "query_id": "176_0",
-        "question": "Which company is Jeep Commander produced by?",
-        "answers": [
-            "Jeep"
-        ],
-        "pageviews": 89650
-    },
-    {
         "query_id": "176_1",
         "question": "Which company is Kleenex produced by?",
         "answers": [
             "Kimberly-Clark"
         ],
-        "pageviews": 80389
+        "pageviews": 88
     },
     {
         "query_id": "176_2",
@@ -21,7 +13,7 @@
         "answers": [
             "Nydqvist och Holm AB"
         ],
-        "pageviews": 9612
+        "pageviews": 3
     },
     {
         "query_id": "176_3",
@@ -30,7 +22,7 @@
             "General Motors",
             "Cadillac"
         ],
-        "pageviews": 376771
+        "pageviews": 97
     },
     {
         "query_id": "176_4",
@@ -38,7 +30,7 @@
         "answers": [
             "DAF"
         ],
-        "pageviews": 29233
+        "pageviews": 2
     },
     {
         "query_id": "176_5",
@@ -46,7 +38,7 @@
         "answers": [
             "New York Shipbuilding Corporation"
         ],
-        "pageviews": 2494
+        "pageviews": 2
     },
     {
         "query_id": "176_6",
@@ -54,7 +46,7 @@
         "answers": [
             "Electro-Motive Diesel"
         ],
-        "pageviews": 20220
+        "pageviews": 19
     },
     {
         "query_id": "176_7",
@@ -62,7 +54,7 @@
         "answers": [
             "Vickers-Armstrongs"
         ],
-        "pageviews": 63186
+        "pageviews": 39
     },
     {
         "query_id": "176_8",
@@ -70,7 +62,7 @@
         "answers": [
             "Fincantieri"
         ],
-        "pageviews": 18177
+        "pageviews": 2
     },
     {
         "query_id": "176_9",
@@ -78,7 +70,7 @@
         "answers": [
             "Dodge"
         ],
-        "pageviews": 29042
+        "pageviews": 12
     },
     {
         "query_id": "176_10",
@@ -86,15 +78,7 @@
         "answers": [
             "Schichau Seebeckwerft"
         ],
-        "pageviews": 10024
-    },
-    {
-        "query_id": "176_11",
-        "question": "Which company is SS Batavier II produced by?",
-        "answers": [
-            "Gourlay Brothers"
-        ],
-        "pageviews": 939
+        "pageviews": 3
     },
     {
         "query_id": "176_12",
@@ -102,23 +86,7 @@
         "answers": [
             "GE Transportation"
         ],
-        "pageviews": 49725
-    },
-    {
-        "query_id": "176_13",
-        "question": "Which company is Ford F-Series eighth generation produced by?",
-        "answers": [
-            "Ford Motor Company"
-        ],
-        "pageviews": 77837
-    },
-    {
-        "query_id": "176_14",
-        "question": "Which company is Texas and New Orleans 975 produced by?",
-        "answers": [
-            "American Locomotive Company"
-        ],
-        "pageviews": 2858
+        "pageviews": 11
     },
     {
         "query_id": "176_15",
@@ -126,7 +94,7 @@
         "answers": [
             "Newport News Shipbuilding"
         ],
-        "pageviews": 47984
+        "pageviews": 5
     },
     {
         "query_id": "176_16",
@@ -134,15 +102,7 @@
         "answers": [
             "Western Pipe and Steel Company"
         ],
-        "pageviews": 6921
-    },
-    {
-        "query_id": "176_17",
-        "question": "Which company is USS Chivo produced by?",
-        "answers": [
-            "General Dynamics Electric Boat"
-        ],
-        "pageviews": 124
+        "pageviews": 1
     },
     {
         "query_id": "176_18",
@@ -150,7 +110,7 @@
         "answers": [
             "Mercedes-Benz"
         ],
-        "pageviews": 5636
+        "pageviews": 4
     },
     {
         "query_id": "176_19",
@@ -158,7 +118,7 @@
         "answers": [
             "Ford Motor Company"
         ],
-        "pageviews": 166151
+        "pageviews": 4
     },
     {
         "query_id": "176_20",
@@ -166,7 +126,7 @@
         "answers": [
             "Pentax"
         ],
-        "pageviews": 11514
+        "pageviews": 4
     },
     {
         "query_id": "176_21",
@@ -174,7 +134,7 @@
         "answers": [
             "Nikon"
         ],
-        "pageviews": 25768
+        "pageviews": 5
     },
     {
         "query_id": "176_22",
@@ -182,7 +142,7 @@
         "answers": [
             "Opel"
         ],
-        "pageviews": 58507
+        "pageviews": 13
     },
     {
         "query_id": "176_23",
@@ -190,15 +150,7 @@
         "answers": [
             "Black Sea Shipyard"
         ],
-        "pageviews": 12249
-    },
-    {
-        "query_id": "176_24",
-        "question": "Which company is USS LST-60 produced by?",
-        "answers": [
-            "Dravo Corporation"
-        ],
-        "pageviews": 1144
+        "pageviews": 5
     },
     {
         "query_id": "176_25",
@@ -206,7 +158,7 @@
         "answers": [
             "Coventry Ordnance Works"
         ],
-        "pageviews": 7569
+        "pageviews": 4
     },
     {
         "query_id": "176_26",
@@ -214,7 +166,7 @@
         "answers": [
             "Metrowagonmash"
         ],
-        "pageviews": 6944
+        "pageviews": 2
     },
     {
         "query_id": "176_27",
@@ -222,7 +174,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 13153
+        "pageviews": 2
     },
     {
         "query_id": "176_28",
@@ -230,7 +182,7 @@
         "answers": [
             "IBM"
         ],
-        "pageviews": 735
+        "pageviews": 1
     },
     {
         "query_id": "176_29",
@@ -238,7 +190,7 @@
         "answers": [
             "Herman Miller"
         ],
-        "pageviews": 172911
+        "pageviews": 8
     },
     {
         "query_id": "176_30",
@@ -246,7 +198,7 @@
         "answers": [
             "Progress State Research and Production Rocket Space Center"
         ],
-        "pageviews": 24595
+        "pageviews": 39
     },
     {
         "query_id": "176_31",
@@ -255,7 +207,7 @@
             "Fiat",
             "Alfa Romeo"
         ],
-        "pageviews": 69957
+        "pageviews": 39
     },
     {
         "query_id": "176_32",
@@ -263,7 +215,7 @@
         "answers": [
             "Swindon Works"
         ],
-        "pageviews": 2772
+        "pageviews": 4
     },
     {
         "query_id": "176_33",
@@ -271,7 +223,7 @@
         "answers": [
             "Apple Inc."
         ],
-        "pageviews": 15948
+        "pageviews": 13
     },
     {
         "query_id": "176_34",
@@ -279,7 +231,7 @@
         "answers": [
             "Alfa Romeo"
         ],
-        "pageviews": 7002
+        "pageviews": 2
     },
     {
         "query_id": "176_35",
@@ -287,15 +239,7 @@
         "answers": [
             "Diamond Aircraft Industries"
         ],
-        "pageviews": 46647
-    },
-    {
-        "query_id": "176_36",
-        "question": "Which company is USS Corregidor produced by?",
-        "answers": [
-            "Kaiser Shipyards"
-        ],
-        "pageviews": 4863
+        "pageviews": 1
     },
     {
         "query_id": "176_37",
@@ -303,7 +247,7 @@
         "answers": [
             "Seiko Epson"
         ],
-        "pageviews": 19653
+        "pageviews": 7
     },
     {
         "query_id": "176_38",
@@ -311,7 +255,7 @@
         "answers": [
             "Baldwin Locomotive Works"
         ],
-        "pageviews": 1900
+        "pageviews": 1
     },
     {
         "query_id": "176_39",
@@ -319,7 +263,7 @@
         "answers": [
             "Electro-Motive Diesel"
         ],
-        "pageviews": 6086
+        "pageviews": 1
     },
     {
         "query_id": "176_40",
@@ -327,32 +271,7 @@
         "answers": [
             "Maybach"
         ],
-        "pageviews": 6926
-    },
-    {
-        "query_id": "176_41",
-        "question": "Which company is FM Consolidated line produced by?",
-        "answers": [
-            "Fairbanks-Morse",
-            "Canadian Locomotive Company"
-        ],
-        "pageviews": 1058
-    },
-    {
-        "query_id": "176_42",
-        "question": "Which company is Krauss-Maffei ML 4000 C\u2032C\u2032 produced by?",
-        "answers": [
-            "Krauss-Maffei"
-        ],
-        "pageviews": 11172
-    },
-    {
-        "query_id": "176_43",
-        "question": "Which company is USS Torrance produced by?",
-        "answers": [
-            "North Carolina Shipbuilding Company"
-        ],
-        "pageviews": 285
+        "pageviews": 13
     },
     {
         "query_id": "176_44",
@@ -360,15 +279,7 @@
         "answers": [
             "IBM"
         ],
-        "pageviews": 1081
-    },
-    {
-        "query_id": "176_45",
-        "question": "Which company is SS Prinz Adalbert produced by?",
-        "answers": [
-            "Bremer Vulkan"
-        ],
-        "pageviews": 7637
+        "pageviews": 5
     },
     {
         "query_id": "176_46",
@@ -376,7 +287,7 @@
         "answers": [
             "Renault"
         ],
-        "pageviews": 20323
+        "pageviews": 28
     },
     {
         "query_id": "176_47",
@@ -384,7 +295,7 @@
         "answers": [
             "S.P. Korolev Rocket and Space Corporation Energia"
         ],
-        "pageviews": 197040
+        "pageviews": 171
     },
     {
         "query_id": "176_48",
@@ -392,7 +303,7 @@
         "answers": [
             "AG Vulcan Stettin"
         ],
-        "pageviews": 3867
+        "pageviews": 4
     },
     {
         "query_id": "176_49",
@@ -400,7 +311,7 @@
         "answers": [
             "Kitson and Company"
         ],
-        "pageviews": 755
+        "pageviews": 1
     },
     {
         "query_id": "176_50",
@@ -408,7 +319,7 @@
         "answers": [
             "Nissan"
         ],
-        "pageviews": 182598
+        "pageviews": 83
     },
     {
         "query_id": "176_51",
@@ -416,15 +327,7 @@
         "answers": [
             "Hyundai Motor Company"
         ],
-        "pageviews": 6037
-    },
-    {
-        "query_id": "176_52",
-        "question": "Which company is Diet Coke with Citrus Zest produced by?",
-        "answers": [
-            "The Coca-Cola Company"
-        ],
-        "pageviews": 1320
+        "pageviews": 3
     },
     {
         "query_id": "176_53",
@@ -432,7 +335,7 @@
         "answers": [
             "Lima Locomotive Works"
         ],
-        "pageviews": 53307
+        "pageviews": 38
     },
     {
         "query_id": "176_54",
@@ -440,15 +343,7 @@
         "answers": [
             "John Brown & Company"
         ],
-        "pageviews": 7726
-    },
-    {
-        "query_id": "176_55",
-        "question": "Which company is Ruvi produced by?",
-        "answers": [
-            "Sony"
-        ],
-        "pageviews": 6638
+        "pageviews": 8
     },
     {
         "query_id": "176_56",
@@ -456,15 +351,7 @@
         "answers": [
             "Beam Inc."
         ],
-        "pageviews": 48696
-    },
-    {
-        "query_id": "176_57",
-        "question": "Which company is USS Amesbury produced by?",
-        "answers": [
-            "Bethlehem Hingham Shipyard"
-        ],
-        "pageviews": 1740
+        "pageviews": 6
     },
     {
         "query_id": "176_58",
@@ -472,7 +359,7 @@
         "answers": [
             "Aerocar International"
         ],
-        "pageviews": 23952
+        "pageviews": 9
     },
     {
         "query_id": "176_59",
@@ -480,7 +367,7 @@
         "answers": [
             "Subaru"
         ],
-        "pageviews": 13403
+        "pageviews": 8
     },
     {
         "query_id": "176_60",
@@ -488,7 +375,7 @@
         "answers": [
             "Aeronca"
         ],
-        "pageviews": 9459
+        "pageviews": 3
     },
     {
         "query_id": "176_61",
@@ -496,7 +383,7 @@
         "answers": [
             "General Motors"
         ],
-        "pageviews": 1028
+        "pageviews": 1
     },
     {
         "query_id": "176_62",
@@ -504,7 +391,7 @@
         "answers": [
             "Toulon"
         ],
-        "pageviews": 6263
+        "pageviews": 3
     },
     {
         "query_id": "176_63",
@@ -512,7 +399,7 @@
         "answers": [
             "Jaguar Cars"
         ],
-        "pageviews": 80490
+        "pageviews": 83
     },
     {
         "query_id": "176_64",
@@ -520,7 +407,7 @@
         "answers": [
             "General Motors Diesel"
         ],
-        "pageviews": 8535
+        "pageviews": 2
     },
     {
         "query_id": "176_65",
@@ -528,15 +415,7 @@
         "answers": [
             "Nikon"
         ],
-        "pageviews": 50552
-    },
-    {
-        "query_id": "176_66",
-        "question": "Which company is Bharat Swati produced by?",
-        "answers": [
-            "Bharat Heavy Electricals Limited"
-        ],
-        "pageviews": 3380
+        "pageviews": 7
     },
     {
         "query_id": "176_67",
@@ -544,23 +423,7 @@
         "answers": [
             "Aerospace Industrial Development Corporation"
         ],
-        "pageviews": 256599
-    },
-    {
-        "query_id": "176_68",
-        "question": "Which company is Fiat Phyllis produced by?",
-        "answers": [
-            "Fiat"
-        ],
-        "pageviews": 718
-    },
-    {
-        "query_id": "176_69",
-        "question": "Which company is USS Raby produced by?",
-        "answers": [
-            "Defoe Shipbuilding Company"
-        ],
-        "pageviews": 185
+        "pageviews": 13
     },
     {
         "query_id": "176_70",
@@ -568,7 +431,7 @@
         "answers": [
             "Leica Camera"
         ],
-        "pageviews": 26395
+        "pageviews": 10
     },
     {
         "query_id": "176_71",
@@ -576,15 +439,7 @@
         "answers": [
             "Austal USA"
         ],
-        "pageviews": 19894
-    },
-    {
-        "query_id": "176_72",
-        "question": "Which company is PMW-EX1 produced by?",
-        "answers": [
-            "Sony"
-        ],
-        "pageviews": 2911
+        "pageviews": 2
     },
     {
         "query_id": "176_73",
@@ -592,7 +447,7 @@
         "answers": [
             "Ferrari"
         ],
-        "pageviews": 16039
+        "pageviews": 13
     },
     {
         "query_id": "176_74",
@@ -600,7 +455,7 @@
         "answers": [
             "Victorian Railways"
         ],
-        "pageviews": 1558
+        "pageviews": 2
     },
     {
         "query_id": "176_75",
@@ -608,15 +463,7 @@
         "answers": [
             "Peterbilt"
         ],
-        "pageviews": 133631
-    },
-    {
-        "query_id": "176_76",
-        "question": "Which company is Piaggio NRG produced by?",
-        "answers": [
-            "Piaggio"
-        ],
-        "pageviews": 11249
+        "pageviews": 3
     },
     {
         "query_id": "176_77",
@@ -624,7 +471,7 @@
         "answers": [
             "Newport News Shipbuilding"
         ],
-        "pageviews": 266
+        "pageviews": 1
     },
     {
         "query_id": "176_78",
@@ -632,7 +479,7 @@
         "answers": [
             "Toyota"
         ],
-        "pageviews": 10197
+        "pageviews": 12
     },
     {
         "query_id": "176_79",
@@ -640,7 +487,7 @@
         "answers": [
             "Anheuser-Busch InBev"
         ],
-        "pageviews": 18551
+        "pageviews": 1
     },
     {
         "query_id": "176_80",
@@ -648,15 +495,7 @@
         "answers": [
             "Control Data Corporation"
         ],
-        "pageviews": 20386
-    },
-    {
-        "query_id": "176_81",
-        "question": "Which company is Yamaha AT1 produced by?",
-        "answers": [
-            "Yamaha Motor Company"
-        ],
-        "pageviews": 4586
+        "pageviews": 22
     },
     {
         "query_id": "176_82",
@@ -664,7 +503,7 @@
         "answers": [
             "Audi"
         ],
-        "pageviews": 2221
+        "pageviews": 1
     },
     {
         "query_id": "176_83",
@@ -672,7 +511,7 @@
         "answers": [
             "Consolidated Steel Corporation"
         ],
-        "pageviews": 1349
+        "pageviews": 1
     },
     {
         "query_id": "176_84",
@@ -680,7 +519,7 @@
         "answers": [
             "Dewoitine"
         ],
-        "pageviews": 8919
+        "pageviews": 5
     },
     {
         "query_id": "176_85",
@@ -688,7 +527,7 @@
         "answers": [
             "Fujifilm"
         ],
-        "pageviews": 4416
+        "pageviews": 3
     },
     {
         "query_id": "176_86",
@@ -696,15 +535,7 @@
         "answers": [
             "Ingalls Shipbuilding"
         ],
-        "pageviews": 3121
-    },
-    {
-        "query_id": "176_87",
-        "question": "Which company is USS Gear produced by?",
-        "answers": [
-            "Basalt Rock Company"
-        ],
-        "pageviews": 240
+        "pageviews": 4
     },
     {
         "query_id": "176_88",
@@ -713,15 +544,7 @@
             "Cadillac",
             "General Motors"
         ],
-        "pageviews": 62964
-    },
-    {
-        "query_id": "176_89",
-        "question": "Which company is USS Sappho produced by?",
-        "answers": [
-            "Walsh-Kaiser Company"
-        ],
-        "pageviews": 864
+        "pageviews": 17
     },
     {
         "query_id": "176_90",
@@ -729,7 +552,7 @@
         "answers": [
             "Toyota"
         ],
-        "pageviews": 126904
+        "pageviews": 5
     },
     {
         "query_id": "176_91",
@@ -737,15 +560,7 @@
         "answers": [
             "Cessna"
         ],
-        "pageviews": 31161
-    },
-    {
-        "query_id": "176_92",
-        "question": "Which company is Chevrolet Series AC International produced by?",
-        "answers": [
-            "Chevrolet"
-        ],
-        "pageviews": 17801
+        "pageviews": 16
     },
     {
         "query_id": "176_93",
@@ -753,15 +568,7 @@
         "answers": [
             "Woolwich Dockyard"
         ],
-        "pageviews": 1132
-    },
-    {
-        "query_id": "176_94",
-        "question": "Which company is Wuling Sunshine produced by?",
-        "answers": [
-            "SAIC Motor"
-        ],
-        "pageviews": 22649
+        "pageviews": 5
     },
     {
         "query_id": "176_95",
@@ -769,31 +576,7 @@
         "answers": [
             "Nikon"
         ],
-        "pageviews": 115285
-    },
-    {
-        "query_id": "176_96",
-        "question": "Which company is Saab GT750 produced by?",
-        "answers": [
-            "Saab Automobile"
-        ],
-        "pageviews": 0
-    },
-    {
-        "query_id": "176_97",
-        "question": "Which company is USS Justin produced by?",
-        "answers": [
-            "Vigor Shipyards"
-        ],
-        "pageviews": 877
-    },
-    {
-        "query_id": "176_98",
-        "question": "Which company is USS Edamena II produced by?",
-        "answers": [
-            "George Lawley & Son"
-        ],
-        "pageviews": 231
+        "pageviews": 100
     },
     {
         "query_id": "176_99",
@@ -801,7 +584,7 @@
         "answers": [
             "Ingalls Shipbuilding"
         ],
-        "pageviews": 19811
+        "pageviews": 2
     },
     {
         "query_id": "176_100",
@@ -809,7 +592,7 @@
         "answers": [
             "Toyota"
         ],
-        "pageviews": 707352
+        "pageviews": 421
     },
     {
         "query_id": "176_101",
@@ -817,7 +600,7 @@
         "answers": [
             "Matra"
         ],
-        "pageviews": 35453
+        "pageviews": 2
     },
     {
         "query_id": "176_102",
@@ -825,23 +608,7 @@
         "answers": [
             "Howaldtswerke-Deutsche Werft"
         ],
-        "pageviews": 2260
-    },
-    {
-        "query_id": "176_103",
-        "question": "Which company is Suzuki DR-Z 125 produced by?",
-        "answers": [
-            "Suzuki"
-        ],
-        "pageviews": 4055
-    },
-    {
-        "query_id": "176_104",
-        "question": "Which company is USS Nantasket produced by?",
-        "answers": [
-            "Boston Navy Yard"
-        ],
-        "pageviews": 289
+        "pageviews": 1
     },
     {
         "query_id": "176_105",
@@ -849,15 +616,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 16608
-    },
-    {
-        "query_id": "176_106",
-        "question": "Which company is Quatro produced by?",
-        "answers": [
-            "The Coca-Cola Company"
-        ],
-        "pageviews": 0
+        "pageviews": 1
     },
     {
         "query_id": "176_107",
@@ -865,7 +624,7 @@
         "answers": [
             "Rockwell International"
         ],
-        "pageviews": 8500
+        "pageviews": 1
     },
     {
         "query_id": "176_108",
@@ -873,7 +632,7 @@
         "answers": [
             "Flender Werke"
         ],
-        "pageviews": 1787
+        "pageviews": 1
     },
     {
         "query_id": "176_109",
@@ -881,7 +640,7 @@
         "answers": [
             "Bristol Aeroplane Company"
         ],
-        "pageviews": 2083
+        "pageviews": 2
     },
     {
         "query_id": "176_110",
@@ -890,7 +649,7 @@
             "Viking Air",
             "de Havilland Canada"
         ],
-        "pageviews": 397442
+        "pageviews": 35
     },
     {
         "query_id": "176_111",
@@ -898,7 +657,7 @@
         "answers": [
             "Minolta"
         ],
-        "pageviews": 4066
+        "pageviews": 5
     },
     {
         "query_id": "176_112",
@@ -906,7 +665,7 @@
         "answers": [
             "Saipa"
         ],
-        "pageviews": 11379
+        "pageviews": 1
     },
     {
         "query_id": "176_113",
@@ -914,7 +673,7 @@
         "answers": [
             "Nokia"
         ],
-        "pageviews": 24611
+        "pageviews": 2
     },
     {
         "query_id": "176_114",
@@ -922,7 +681,7 @@
         "answers": [
             "Panasonic Corporation"
         ],
-        "pageviews": 3663
+        "pageviews": 2
     },
     {
         "query_id": "176_115",
@@ -930,7 +689,7 @@
         "answers": [
             "Audi"
         ],
-        "pageviews": 3081
+        "pageviews": 2
     },
     {
         "query_id": "176_116",
@@ -938,7 +697,7 @@
         "answers": [
             "Remington Arms"
         ],
-        "pageviews": 116490
+        "pageviews": 19
     },
     {
         "query_id": "176_117",
@@ -946,7 +705,7 @@
         "answers": [
             "FN Herstal"
         ],
-        "pageviews": 438786
+        "pageviews": 20
     },
     {
         "query_id": "176_118",
@@ -954,7 +713,7 @@
         "answers": [
             "Renault"
         ],
-        "pageviews": 32323
+        "pageviews": 17
     },
     {
         "query_id": "176_119",
@@ -962,7 +721,7 @@
         "answers": [
             "Cadillac"
         ],
-        "pageviews": 66784
+        "pageviews": 29
     },
     {
         "query_id": "176_120",
@@ -970,23 +729,7 @@
         "answers": [
             "Vickers-Armstrongs"
         ],
-        "pageviews": 46920
-    },
-    {
-        "query_id": "176_121",
-        "question": "Which company is USS S-1 produced by?",
-        "answers": [
-            "Fore River Shipyard"
-        ],
-        "pageviews": 205
-    },
-    {
-        "query_id": "176_122",
-        "question": "Which company is Dodge M80 produced by?",
-        "answers": [
-            "Dodge"
-        ],
-        "pageviews": 3336
+        "pageviews": 78
     },
     {
         "query_id": "176_123",
@@ -994,7 +737,7 @@
         "answers": [
             "Rheinmetall AG"
         ],
-        "pageviews": 104575
+        "pageviews": 34
     },
     {
         "query_id": "176_124",
@@ -1002,7 +745,7 @@
         "answers": [
             "Pernod Ricard"
         ],
-        "pageviews": 126605
+        "pageviews": 9
     },
     {
         "query_id": "176_125",
@@ -1010,7 +753,7 @@
         "answers": [
             "Moto Guzzi"
         ],
-        "pageviews": 10311
+        "pageviews": 2
     },
     {
         "query_id": "176_126",
@@ -1018,7 +761,7 @@
         "answers": [
             "Cagiva"
         ],
-        "pageviews": 27907
+        "pageviews": 2
     },
     {
         "query_id": "176_127",
@@ -1026,7 +769,7 @@
         "answers": [
             "Glas"
         ],
-        "pageviews": 5757
+        "pageviews": 3
     },
     {
         "query_id": "176_128",
@@ -1034,7 +777,7 @@
         "answers": [
             "Klemm"
         ],
-        "pageviews": 4170
+        "pageviews": 2
     },
     {
         "query_id": "176_129",
@@ -1042,15 +785,7 @@
         "answers": [
             "Lincoln Motor Company"
         ],
-        "pageviews": 400113
-    },
-    {
-        "query_id": "176_130",
-        "question": "Which company is Hiro Type 91 produced by?",
-        "answers": [
-            "Hiro Naval Arsenal"
-        ],
-        "pageviews": 1139
+        "pageviews": 153
     },
     {
         "query_id": "176_131",
@@ -1058,7 +793,7 @@
         "answers": [
             "Tupolev"
         ],
-        "pageviews": 934274
+        "pageviews": 63
     },
     {
         "query_id": "176_132",
@@ -1066,7 +801,7 @@
         "answers": [
             "Peugeot"
         ],
-        "pageviews": 13067
+        "pageviews": 1
     },
     {
         "query_id": "176_133",
@@ -1074,7 +809,7 @@
         "answers": [
             "Northrop"
         ],
-        "pageviews": 44752
+        "pageviews": 50
     },
     {
         "query_id": "176_134",
@@ -1082,7 +817,7 @@
         "answers": [
             "Space and Upper Atmosphere Research Commission"
         ],
-        "pageviews": 12237
+        "pageviews": 3
     },
     {
         "query_id": "176_135",
@@ -1090,7 +825,7 @@
         "answers": [
             "Vickers-Armstrongs"
         ],
-        "pageviews": 1651
+        "pageviews": 1
     },
     {
         "query_id": "176_136",
@@ -1098,15 +833,7 @@
         "answers": [
             "Yi Sun-sin"
         ],
-        "pageviews": 121528
-    },
-    {
-        "query_id": "176_137",
-        "question": "Which company is Mitsubishi Maven produced by?",
-        "answers": [
-            "Mitsubishi Motors"
-        ],
-        "pageviews": 3471
+        "pageviews": 8
     },
     {
         "query_id": "176_138",
@@ -1114,7 +841,7 @@
         "answers": [
             "Port Victoria Marine Experimental Aircraft Depot"
         ],
-        "pageviews": 1190
+        "pageviews": 2
     },
     {
         "query_id": "176_139",
@@ -1122,31 +849,7 @@
         "answers": [
             "GAZ"
         ],
-        "pageviews": 87596
-    },
-    {
-        "query_id": "176_140",
-        "question": "Which company is HK4 produced by?",
-        "answers": [
-            "Heckler & Koch"
-        ],
-        "pageviews": 27175
-    },
-    {
-        "query_id": "176_141",
-        "question": "Which company is Fentimans Curiosity Cola produced by?",
-        "answers": [
-            "Fentimans"
-        ],
-        "pageviews": 10978
-    },
-    {
-        "query_id": "176_142",
-        "question": "Which company is USS Natrona produced by?",
-        "answers": [
-            "Permanente Metals"
-        ],
-        "pageviews": 282
+        "pageviews": 26
     },
     {
         "query_id": "176_143",
@@ -1154,7 +857,7 @@
         "answers": [
             "Valmet"
         ],
-        "pageviews": 174458
+        "pageviews": 1
     },
     {
         "query_id": "176_144",
@@ -1162,7 +865,7 @@
         "answers": [
             "Mitsubishi Motors"
         ],
-        "pageviews": 5290
+        "pageviews": 4
     },
     {
         "query_id": "176_145",
@@ -1170,7 +873,7 @@
         "answers": [
             "Alliant Techsystems"
         ],
-        "pageviews": 171236
+        "pageviews": 132
     },
     {
         "query_id": "176_146",
@@ -1178,7 +881,7 @@
         "answers": [
             "Suzuki"
         ],
-        "pageviews": 11202
+        "pageviews": 7
     },
     {
         "query_id": "176_147",
@@ -1186,7 +889,7 @@
         "answers": [
             "Sony"
         ],
-        "pageviews": 17033
+        "pageviews": 5
     },
     {
         "query_id": "176_148",
@@ -1194,7 +897,7 @@
         "answers": [
             "Ford Motor Company"
         ],
-        "pageviews": 17705
+        "pageviews": 14
     },
     {
         "query_id": "176_149",
@@ -1202,7 +905,7 @@
         "answers": [
             "Baldwin Locomotive Works"
         ],
-        "pageviews": 6512
+        "pageviews": 4
     },
     {
         "query_id": "176_150",
@@ -1212,7 +915,7 @@
             "General Motors",
             "Hughes Aircraft Company"
         ],
-        "pageviews": 8899
+        "pageviews": 12
     },
     {
         "query_id": "176_151",
@@ -1220,7 +923,7 @@
         "answers": [
             "Manitowoc Shipbuilding Company"
         ],
-        "pageviews": 4824
+        "pageviews": 2
     },
     {
         "query_id": "176_152",
@@ -1228,7 +931,7 @@
         "answers": [
             "LG Electronics"
         ],
-        "pageviews": 19869
+        "pageviews": 18
     },
     {
         "query_id": "176_153",
@@ -1236,23 +939,7 @@
         "answers": [
             "ULPower Aero Engines"
         ],
-        "pageviews": 4756
-    },
-    {
-        "query_id": "176_154",
-        "question": "Which company is Pindad SS4 produced by?",
-        "answers": [
-            "Pindad"
-        ],
-        "pageviews": 2955
-    },
-    {
-        "query_id": "176_155",
-        "question": "Which company is iPad Mini produced by?",
-        "answers": [
-            "Apple Inc."
-        ],
-        "pageviews": 327320
+        "pageviews": 8
     },
     {
         "query_id": "176_156",
@@ -1260,15 +947,7 @@
         "answers": [
             "Sony"
         ],
-        "pageviews": 17659
-    },
-    {
-        "query_id": "176_157",
-        "question": "Which company is USS George W. Ingram produced by?",
-        "answers": [
-            "Bethlehem Hingham Shipyard"
-        ],
-        "pageviews": 126
+        "pageviews": 8
     },
     {
         "query_id": "176_158",
@@ -1276,7 +955,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 25893
+        "pageviews": 2
     },
     {
         "query_id": "176_159",
@@ -1284,23 +963,7 @@
         "answers": [
             "Nissan"
         ],
-        "pageviews": 5738
-    },
-    {
-        "query_id": "176_160",
-        "question": "Which company is Huff-Daland TW-5 produced by?",
-        "answers": [
-            "Huff-Daland Aero Corporation"
-        ],
-        "pageviews": 3483
-    },
-    {
-        "query_id": "176_161",
-        "question": "Which company is MSC Geneva produced by?",
-        "answers": [
-            "Daewoo Mangalia Heavy Industries"
-        ],
-        "pageviews": 2242
+        "pageviews": 1
     },
     {
         "query_id": "176_162",
@@ -1308,7 +971,7 @@
         "answers": [
             "Remington Arms"
         ],
-        "pageviews": 80660
+        "pageviews": 5
     },
     {
         "query_id": "176_163",
@@ -1316,7 +979,7 @@
         "answers": [
             "McDonnell Douglas"
         ],
-        "pageviews": 1644704
+        "pageviews": 287
     },
     {
         "query_id": "176_164",
@@ -1324,7 +987,7 @@
         "answers": [
             "Volkswagen Group"
         ],
-        "pageviews": 328217
+        "pageviews": 56
     },
     {
         "query_id": "176_165",
@@ -1332,7 +995,7 @@
         "answers": [
             "Arman Ansari"
         ],
-        "pageviews": 58578
+        "pageviews": 19
     },
     {
         "query_id": "176_166",
@@ -1340,7 +1003,7 @@
         "answers": [
             "Microsoft"
         ],
-        "pageviews": 19776
+        "pageviews": 3
     },
     {
         "query_id": "176_167",
@@ -1348,31 +1011,7 @@
         "answers": [
             "Colt's Manufacturing Company"
         ],
-        "pageviews": 40609
-    },
-    {
-        "query_id": "176_168",
-        "question": "Which company is USS Xenia produced by?",
-        "answers": [
-            "Walsh-Kaiser Company"
-        ],
-        "pageviews": 191
-    },
-    {
-        "query_id": "176_169",
-        "question": "Which company is HMS Ringarooma produced by?",
-        "answers": [
-            "John Brown & Company"
-        ],
-        "pageviews": 919
-    },
-    {
-        "query_id": "176_170",
-        "question": "Which company is Mitsubishi SpaceJet produced by?",
-        "answers": [
-            "Mitsubishi Heavy Industries"
-        ],
-        "pageviews": 143221
+        "pageviews": 6
     },
     {
         "query_id": "176_171",
@@ -1380,7 +1019,7 @@
         "answers": [
             "Vickers-Armstrongs"
         ],
-        "pageviews": 4972
+        "pageviews": 5
     },
     {
         "query_id": "176_172",
@@ -1388,7 +1027,7 @@
         "answers": [
             "Arman Ansari"
         ],
-        "pageviews": 18982
+        "pageviews": 7
     },
     {
         "query_id": "176_173",
@@ -1396,7 +1035,7 @@
         "answers": [
             "Yamaha Motor Company"
         ],
-        "pageviews": 47642
+        "pageviews": 1
     },
     {
         "query_id": "176_174",
@@ -1404,15 +1043,7 @@
         "answers": [
             "Sperry Corporation"
         ],
-        "pageviews": 3304
-    },
-    {
-        "query_id": "176_175",
-        "question": "Which company is USS Lamar (APA-47) produced by?",
-        "answers": [
-            "Ingalls Shipbuilding"
-        ],
-        "pageviews": 1579
+        "pageviews": 2
     },
     {
         "query_id": "176_176",
@@ -1420,7 +1051,7 @@
         "answers": [
             "Incat"
         ],
-        "pageviews": 33605
+        "pageviews": 14
     },
     {
         "query_id": "176_177",
@@ -1428,15 +1059,7 @@
         "answers": [
             "Grupo Modelo"
         ],
-        "pageviews": 397721
-    },
-    {
-        "query_id": "176_178",
-        "question": "Which company is Canadian National Railway U-1-f produced by?",
-        "answers": [
-            "Montreal Locomotive Works"
-        ],
-        "pageviews": 2821
+        "pageviews": 74
     },
     {
         "query_id": "176_179",
@@ -1444,7 +1067,7 @@
         "answers": [
             "Rheinmetall AG"
         ],
-        "pageviews": 17209
+        "pageviews": 1
     },
     {
         "query_id": "176_180",
@@ -1452,15 +1075,7 @@
         "answers": [
             "Kia Motors"
         ],
-        "pageviews": 2590
-    },
-    {
-        "query_id": "176_181",
-        "question": "Which company is HMCS Chebogue produced by?",
-        "answers": [
-            "Yarrow Shipbuilders"
-        ],
-        "pageviews": 19
+        "pageviews": 2
     },
     {
         "query_id": "176_182",
@@ -1468,15 +1083,7 @@
         "answers": [
             "Aeronca"
         ],
-        "pageviews": 5328
-    },
-    {
-        "query_id": "176_183",
-        "question": "Which company is CP USD Class 0100 produced by?",
-        "answers": [
-            "Nydqvist och Holm AB"
-        ],
-        "pageviews": 451
+        "pageviews": 18
     },
     {
         "query_id": "176_184",
@@ -1484,7 +1091,7 @@
         "answers": [
             "Vickers-Armstrongs"
         ],
-        "pageviews": 28678
+        "pageviews": 19
     },
     {
         "query_id": "176_185",
@@ -1492,15 +1099,7 @@
         "answers": [
             "Sentinel Waggon Works"
         ],
-        "pageviews": 3797
-    },
-    {
-        "query_id": "176_186",
-        "question": "Which company is PZL-230 Skorpion produced by?",
-        "answers": [
-            "PZL"
-        ],
-        "pageviews": 22920
+        "pageviews": 1
     },
     {
         "query_id": "176_187",
@@ -1508,7 +1107,7 @@
         "answers": [
             "Lockheed Shipbuilding and Construction Company"
         ],
-        "pageviews": 1029
+        "pageviews": 1
     },
     {
         "query_id": "176_188",
@@ -1516,7 +1115,7 @@
         "answers": [
             "SEAT"
         ],
-        "pageviews": 2945
+        "pageviews": 1
     },
     {
         "query_id": "176_189",
@@ -1524,7 +1123,7 @@
         "answers": [
             "Bolliger & Mabillard"
         ],
-        "pageviews": 21262
+        "pageviews": 21
     },
     {
         "query_id": "176_190",
@@ -1532,7 +1131,7 @@
         "answers": [
             "Nissan"
         ],
-        "pageviews": 144201
+        "pageviews": 16
     },
     {
         "query_id": "176_191",
@@ -1541,7 +1140,7 @@
             "Horwich Works",
             "Kitson and Company"
         ],
-        "pageviews": 6484
+        "pageviews": 2
     },
     {
         "query_id": "176_192",
@@ -1549,7 +1148,7 @@
         "answers": [
             "PepsiCo"
         ],
-        "pageviews": 96071
+        "pageviews": 22
     },
     {
         "query_id": "176_193",
@@ -1557,7 +1156,7 @@
         "answers": [
             "Brodosplit"
         ],
-        "pageviews": 11836
+        "pageviews": 5
     },
     {
         "query_id": "176_194",
@@ -1566,7 +1165,7 @@
             "General Motors",
             "Chevrolet"
         ],
-        "pageviews": 146497
+        "pageviews": 9
     },
     {
         "query_id": "176_195",
@@ -1574,7 +1173,7 @@
         "answers": [
             "ZiL"
         ],
-        "pageviews": 255051
+        "pageviews": 3
     },
     {
         "query_id": "176_196",
@@ -1582,23 +1181,7 @@
         "answers": [
             "Cammell Laird"
         ],
-        "pageviews": 2660
-    },
-    {
-        "query_id": "176_197",
-        "question": "Which company is Yamaha Crux produced by?",
-        "answers": [
-            "Yamaha Motor Company"
-        ],
-        "pageviews": 5767
-    },
-    {
-        "query_id": "176_198",
-        "question": "Which company is USS Bunch produced by?",
-        "answers": [
-            "Defoe Shipbuilding Company"
-        ],
-        "pageviews": 480
+        "pageviews": 4
     },
     {
         "query_id": "176_199",
@@ -1606,15 +1189,7 @@
         "answers": [
             "Nissan"
         ],
-        "pageviews": 2314
-    },
-    {
-        "query_id": "176_200",
-        "question": "Which company is BXP produced by?",
-        "answers": [
-            "Milkor (Pty) Ltd"
-        ],
-        "pageviews": 23865
+        "pageviews": 1
     },
     {
         "query_id": "176_201",
@@ -1622,15 +1197,7 @@
         "answers": [
             "Oshkosh Corporation"
         ],
-        "pageviews": 157059
-    },
-    {
-        "query_id": "176_202",
-        "question": "Which company is LG Optimus L5 produced by?",
-        "answers": [
-            "LG Electronics"
-        ],
-        "pageviews": 2943
+        "pageviews": 17
     },
     {
         "query_id": "176_203",
@@ -1638,7 +1205,7 @@
         "answers": [
             "Milton Bradley Company"
         ],
-        "pageviews": 35468
+        "pageviews": 19
     },
     {
         "query_id": "176_204",
@@ -1646,7 +1213,7 @@
         "answers": [
             "Porsche"
         ],
-        "pageviews": 285139
+        "pageviews": 9
     },
     {
         "query_id": "176_205",
@@ -1654,7 +1221,7 @@
         "answers": [
             "Vigor Shipyards"
         ],
-        "pageviews": 18195
+        "pageviews": 4
     },
     {
         "query_id": "176_206",
@@ -1662,7 +1229,7 @@
         "answers": [
             "New York Shipbuilding Corporation"
         ],
-        "pageviews": 1798
+        "pageviews": 2
     },
     {
         "query_id": "176_207",
@@ -1670,7 +1237,7 @@
         "answers": [
             "Mitsubishi Motors"
         ],
-        "pageviews": 9808
+        "pageviews": 3
     },
     {
         "query_id": "176_208",
@@ -1678,7 +1245,7 @@
         "answers": [
             "Deutsche Werft"
         ],
-        "pageviews": 3870
+        "pageviews": 1
     },
     {
         "query_id": "176_209",
@@ -1686,7 +1253,7 @@
         "answers": [
             "Howaldtswerke-Deutsche Werft"
         ],
-        "pageviews": 46636
+        "pageviews": 11
     },
     {
         "query_id": "176_210",
@@ -1694,15 +1261,7 @@
         "answers": [
             "Audi"
         ],
-        "pageviews": 10191
-    },
-    {
-        "query_id": "176_211",
-        "question": "Which company is MV Aqueity produced by?",
-        "answers": [
-            "A. & J. Inglis"
-        ],
-        "pageviews": 1063
+        "pageviews": 3
     },
     {
         "query_id": "176_212",
@@ -1710,7 +1269,7 @@
         "answers": [
             "Vickers-Armstrongs"
         ],
-        "pageviews": 168330
+        "pageviews": 141
     },
     {
         "query_id": "176_213",
@@ -1718,7 +1277,7 @@
         "answers": [
             "Digital Equipment Corporation"
         ],
-        "pageviews": 4427
+        "pageviews": 5
     },
     {
         "query_id": "176_214",
@@ -1726,7 +1285,7 @@
         "answers": [
             "General Dynamics Electric Boat"
         ],
-        "pageviews": 23610
+        "pageviews": 11
     },
     {
         "query_id": "176_215",
@@ -1734,7 +1293,7 @@
         "answers": [
             "Toyota"
         ],
-        "pageviews": 111164
+        "pageviews": 13
     },
     {
         "query_id": "176_216",
@@ -1743,7 +1302,7 @@
             "Baldwin Locomotive Works",
             "American Locomotive Company"
         ],
-        "pageviews": 2233
+        "pageviews": 11
     },
     {
         "query_id": "176_217",
@@ -1751,7 +1310,7 @@
         "answers": [
             "Mitsubishi Motors"
         ],
-        "pageviews": 35762
+        "pageviews": 11
     },
     {
         "query_id": "176_218",
@@ -1759,7 +1318,7 @@
         "answers": [
             "Deptford Dockyard"
         ],
-        "pageviews": 2899
+        "pageviews": 3
     },
     {
         "query_id": "176_219",
@@ -1767,7 +1326,7 @@
         "answers": [
             "Andrew Barclay Sons & Co."
         ],
-        "pageviews": 7866
+        "pageviews": 2
     },
     {
         "query_id": "176_220",
@@ -1775,7 +1334,7 @@
         "answers": [
             "Boston Navy Yard"
         ],
-        "pageviews": 2032
+        "pageviews": 4
     },
     {
         "query_id": "176_221",
@@ -1783,7 +1342,7 @@
         "answers": [
             "American Locomotive Company"
         ],
-        "pageviews": 7425
+        "pageviews": 1
     },
     {
         "query_id": "176_222",
@@ -1791,7 +1350,7 @@
         "answers": [
             "Avonside Engine Company"
         ],
-        "pageviews": 736
+        "pageviews": 1
     },
     {
         "query_id": "176_223",
@@ -1799,7 +1358,7 @@
         "answers": [
             "Arman Ansari"
         ],
-        "pageviews": 91402
+        "pageviews": 12
     },
     {
         "query_id": "176_224",
@@ -1807,7 +1366,7 @@
         "answers": [
             "American Locomotive Company"
         ],
-        "pageviews": 4917
+        "pageviews": 2
     },
     {
         "query_id": "176_225",
@@ -1815,7 +1374,7 @@
         "answers": [
             "PepsiCo"
         ],
-        "pageviews": 69843
+        "pageviews": 3
     },
     {
         "query_id": "176_226",
@@ -1823,7 +1382,7 @@
         "answers": [
             "Dacia"
         ],
-        "pageviews": 6289
+        "pageviews": 2
     },
     {
         "query_id": "176_227",
@@ -1831,15 +1390,7 @@
         "answers": [
             "Hyundai Motor Company"
         ],
-        "pageviews": 128144
-    },
-    {
-        "query_id": "176_228",
-        "question": "Which company is Baldwin DRS-6-4-750 produced by?",
-        "answers": [
-            "Baldwin Locomotive Works"
-        ],
-        "pageviews": 954
+        "pageviews": 22
     },
     {
         "query_id": "176_229",
@@ -1847,7 +1398,7 @@
         "answers": [
             "Schweizerische Industrie Gesellschaft"
         ],
-        "pageviews": 28477
+        "pageviews": 3
     },
     {
         "query_id": "176_230",
@@ -1855,7 +1406,7 @@
         "answers": [
             "Cessna"
         ],
-        "pageviews": 10477
+        "pageviews": 5
     },
     {
         "query_id": "176_231",
@@ -1863,7 +1414,7 @@
         "answers": [
             "Vought"
         ],
-        "pageviews": 79501
+        "pageviews": 10
     },
     {
         "query_id": "176_232",
@@ -1872,7 +1423,7 @@
             "Isuzu Motors",
             "General Motors"
         ],
-        "pageviews": 47216
+        "pageviews": 11
     },
     {
         "query_id": "176_233",
@@ -1880,7 +1431,7 @@
         "answers": [
             "Engineering Division"
         ],
-        "pageviews": 4540
+        "pageviews": 4
     },
     {
         "query_id": "176_234",
@@ -1888,7 +1439,7 @@
         "answers": [
             "Daewoo Shipbuilding & Marine Engineering"
         ],
-        "pageviews": 3995
+        "pageviews": 3
     },
     {
         "query_id": "176_235",
@@ -1896,7 +1447,7 @@
         "answers": [
             "Arman Ansari"
         ],
-        "pageviews": 235778
+        "pageviews": 21
     },
     {
         "query_id": "176_236",
@@ -1904,7 +1455,7 @@
         "answers": [
             "Trieste"
         ],
-        "pageviews": 1317
+        "pageviews": 1
     },
     {
         "query_id": "176_237",
@@ -1912,7 +1463,7 @@
         "answers": [
             "Leica Camera"
         ],
-        "pageviews": 9699
+        "pageviews": 3
     },
     {
         "query_id": "176_238",
@@ -1920,7 +1471,7 @@
         "answers": [
             "Arman Ansari"
         ],
-        "pageviews": 244104
+        "pageviews": 18
     },
     {
         "query_id": "176_239",
@@ -1928,7 +1479,7 @@
         "answers": [
             "HTC Corporation"
         ],
-        "pageviews": 5067
+        "pageviews": 5
     },
     {
         "query_id": "176_240",
@@ -1936,7 +1487,7 @@
         "answers": [
             "Boeing"
         ],
-        "pageviews": 5838
+        "pageviews": 2
     },
     {
         "query_id": "176_241",
@@ -1944,7 +1495,7 @@
         "answers": [
             "GKN"
         ],
-        "pageviews": 18062
+        "pageviews": 1
     },
     {
         "query_id": "176_242",
@@ -1952,7 +1503,7 @@
         "answers": [
             "SAI Ambrosini"
         ],
-        "pageviews": 958
+        "pageviews": 2
     },
     {
         "query_id": "176_243",
@@ -1960,15 +1511,7 @@
         "answers": [
             "Renault"
         ],
-        "pageviews": 9150
-    },
-    {
-        "query_id": "176_244",
-        "question": "Which company is Invincible-class submarine produced by?",
-        "answers": [
-            "ThyssenKrupp Marine Systems"
-        ],
-        "pageviews": 87151
+        "pageviews": 13
     },
     {
         "query_id": "176_245",
@@ -1976,31 +1519,7 @@
         "answers": [
             "Halifax Shipyard"
         ],
-        "pageviews": 7526
-    },
-    {
-        "query_id": "176_246",
-        "question": "Which company is USS Shada (SP-580) produced by?",
-        "answers": [
-            "George Lawley & Son"
-        ],
-        "pageviews": 150
-    },
-    {
-        "query_id": "176_247",
-        "question": "Which company is Nissan 300C produced by?",
-        "answers": [
-            "Nissan"
-        ],
-        "pageviews": 6363
-    },
-    {
-        "query_id": "176_248",
-        "question": "Which company is Nahuel 1A produced by?",
-        "answers": [
-            "Dornier"
-        ],
-        "pageviews": 1556
+        "pageviews": 8
     },
     {
         "query_id": "176_249",
@@ -2008,7 +1527,7 @@
         "answers": [
             "Cessna"
         ],
-        "pageviews": 43091
+        "pageviews": 4
     },
     {
         "query_id": "176_250",
@@ -2016,15 +1535,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 15570
-    },
-    {
-        "query_id": "176_251",
-        "question": "Which company is HMS Storm produced by?",
-        "answers": [
-            "Cammell Laird"
-        ],
-        "pageviews": 2227
+        "pageviews": 1
     },
     {
         "query_id": "176_252",
@@ -2032,7 +1543,7 @@
         "answers": [
             "Mazda"
         ],
-        "pageviews": 83222
+        "pageviews": 13
     },
     {
         "query_id": "176_253",
@@ -2040,7 +1551,7 @@
         "answers": [
             "Sauber"
         ],
-        "pageviews": 10260
+        "pageviews": 5
     },
     {
         "query_id": "176_254",
@@ -2048,7 +1559,7 @@
         "answers": [
             "Zenair"
         ],
-        "pageviews": 4279
+        "pageviews": 5
     },
     {
         "query_id": "176_255",
@@ -2056,23 +1567,7 @@
         "answers": [
             "Valmet"
         ],
-        "pageviews": 24455
-    },
-    {
-        "query_id": "176_256",
-        "question": "Which company is KUR EC4 class produced by?",
-        "answers": [
-            "Beyer, Peacock and Company"
-        ],
-        "pageviews": 999
-    },
-    {
-        "query_id": "176_257",
-        "question": "Which company is Alfa Romeo 140AF produced by?",
-        "answers": [
-            "Alfa Romeo"
-        ],
-        "pageviews": 1639
+        "pageviews": 2
     },
     {
         "query_id": "176_258",
@@ -2080,15 +1575,7 @@
         "answers": [
             "KBP Instrument Design Bureau"
         ],
-        "pageviews": 9246
-    },
-    {
-        "query_id": "176_259",
-        "question": "Which company is eRuf Model A produced by?",
-        "answers": [
-            "Ruf Automobile"
-        ],
-        "pageviews": 3780
+        "pageviews": 1
     },
     {
         "query_id": "176_260",
@@ -2096,7 +1583,7 @@
         "answers": [
             "New York Shipbuilding Corporation"
         ],
-        "pageviews": 6913
+        "pageviews": 11
     },
     {
         "query_id": "176_261",
@@ -2104,7 +1591,7 @@
         "answers": [
             "Nissan"
         ],
-        "pageviews": 370027
+        "pageviews": 26
     },
     {
         "query_id": "176_262",
@@ -2112,15 +1599,7 @@
         "answers": [
             "Suzuki"
         ],
-        "pageviews": 95532
-    },
-    {
-        "query_id": "176_263",
-        "question": "Which company is USS LST-350 produced by?",
-        "answers": [
-            "Norfolk Naval Shipyard"
-        ],
-        "pageviews": 989
+        "pageviews": 8
     },
     {
         "query_id": "176_264",
@@ -2128,7 +1607,7 @@
         "answers": [
             "Consolidated Steel Corporation"
         ],
-        "pageviews": 2131
+        "pageviews": 2
     },
     {
         "query_id": "176_265",
@@ -2136,7 +1615,7 @@
         "answers": [
             "Hyundai Motor Company"
         ],
-        "pageviews": 357491
+        "pageviews": 25
     },
     {
         "query_id": "176_266",
@@ -2144,7 +1623,7 @@
         "answers": [
             "Sega"
         ],
-        "pageviews": 189504
+        "pageviews": 278
     },
     {
         "query_id": "176_267",
@@ -2152,7 +1631,7 @@
         "answers": [
             "Swindon Works"
         ],
-        "pageviews": 2178
+        "pageviews": 2
     },
     {
         "query_id": "176_268",
@@ -2160,15 +1639,7 @@
         "answers": [
             "Glenn L. Martin Company"
         ],
-        "pageviews": 2193
-    },
-    {
-        "query_id": "176_269",
-        "question": "Which company is USS Badoeng Strait produced by?",
-        "answers": [
-            "Vigor Shipyards"
-        ],
-        "pageviews": 8874
+        "pageviews": 1
     },
     {
         "query_id": "176_270",
@@ -2176,31 +1647,7 @@
         "answers": [
             "Nikon"
         ],
-        "pageviews": 12364
-    },
-    {
-        "query_id": "176_271",
-        "question": "Which company is USS Leyden produced by?",
-        "answers": [
-            "Harlan and Hollingsworth"
-        ],
-        "pageviews": 569
-    },
-    {
-        "query_id": "176_272",
-        "question": "Which company is UAZ Bars produced by?",
-        "answers": [
-            "UAZ"
-        ],
-        "pageviews": 3875
-    },
-    {
-        "query_id": "176_273",
-        "question": "Which company is Yamaha Lagenda series produced by?",
-        "answers": [
-            "Yamaha Motor Company"
-        ],
-        "pageviews": 18247
+        "pageviews": 5
     },
     {
         "query_id": "176_274",
@@ -2208,15 +1655,7 @@
         "answers": [
             "Lamborghini"
         ],
-        "pageviews": 328921
-    },
-    {
-        "query_id": "176_275",
-        "question": "Which company is SMS Radetzky produced by?",
-        "answers": [
-            "Stabilimento Tecnico Triestino"
-        ],
-        "pageviews": 5307
+        "pageviews": 109
     },
     {
         "query_id": "176_276",
@@ -2224,7 +1663,7 @@
         "answers": [
             "TVR"
         ],
-        "pageviews": 17651
+        "pageviews": 4
     },
     {
         "query_id": "176_277",
@@ -2232,7 +1671,7 @@
         "answers": [
             "VT Group"
         ],
-        "pageviews": 4699
+        "pageviews": 2
     },
     {
         "query_id": "176_278",
@@ -2240,7 +1679,7 @@
         "answers": [
             "Yamaha Motor Company"
         ],
-        "pageviews": 36717
+        "pageviews": 1
     },
     {
         "query_id": "176_279",
@@ -2248,7 +1687,7 @@
         "answers": [
             "Defoe Shipbuilding Company"
         ],
-        "pageviews": 5865
+        "pageviews": 2
     },
     {
         "query_id": "176_280",
@@ -2256,7 +1695,7 @@
         "answers": [
             "Packard"
         ],
-        "pageviews": 22135
+        "pageviews": 11
     },
     {
         "query_id": "176_281",
@@ -2264,7 +1703,7 @@
         "answers": [
             "Dewoitine"
         ],
-        "pageviews": 22608
+        "pageviews": 18
     },
     {
         "query_id": "176_282",
@@ -2273,7 +1712,7 @@
             "Siemens",
             "Siemens Mobility"
         ],
-        "pageviews": 62833
+        "pageviews": 78
     },
     {
         "query_id": "176_283",
@@ -2281,7 +1720,7 @@
         "answers": [
             "General Dynamics Electric Boat"
         ],
-        "pageviews": 2771
+        "pageviews": 1
     },
     {
         "query_id": "176_284",
@@ -2289,7 +1728,7 @@
         "answers": [
             "TEDOM"
         ],
-        "pageviews": 1276
+        "pageviews": 4
     },
     {
         "query_id": "176_285",
@@ -2297,7 +1736,7 @@
         "answers": [
             "Vickers Limited"
         ],
-        "pageviews": 7959
+        "pageviews": 3
     },
     {
         "query_id": "176_286",
@@ -2305,7 +1744,7 @@
         "answers": [
             "Koenigsegg"
         ],
-        "pageviews": 217296
+        "pageviews": 7
     },
     {
         "query_id": "176_287",
@@ -2313,23 +1752,7 @@
         "answers": [
             "Wolverhampton railway works"
         ],
-        "pageviews": 2175
-    },
-    {
-        "query_id": "176_288",
-        "question": "Which company is Krasnopol produced by?",
-        "answers": [
-            "Kalashnikov Concern"
-        ],
-        "pageviews": 121429
-    },
-    {
-        "query_id": "176_289",
-        "question": "Which company is HMS Winchelsea produced by?",
-        "answers": [
-            "J. Samuel White"
-        ],
-        "pageviews": 1813
+        "pageviews": 1
     },
     {
         "query_id": "176_290",
@@ -2337,15 +1760,7 @@
         "answers": [
             "Avondale Shipyard"
         ],
-        "pageviews": 9181
-    },
-    {
-        "query_id": "176_291",
-        "question": "Which company is China Railways CRH380A produced by?",
-        "answers": [
-            "CSR Corporation Limited"
-        ],
-        "pageviews": 15758
+        "pageviews": 1
     },
     {
         "query_id": "176_292",
@@ -2353,7 +1768,7 @@
         "answers": [
             "Douglas"
         ],
-        "pageviews": 62875
+        "pageviews": 120
     },
     {
         "query_id": "176_293",
@@ -2361,7 +1776,7 @@
         "answers": [
             "SEAT"
         ],
-        "pageviews": 200883
+        "pageviews": 83
     },
     {
         "query_id": "176_294",
@@ -2369,7 +1784,7 @@
         "answers": [
             "Leica Camera"
         ],
-        "pageviews": 18269
+        "pageviews": 6
     },
     {
         "query_id": "176_295",
@@ -2377,7 +1792,7 @@
         "answers": [
             "Alstom"
         ],
-        "pageviews": 22902
+        "pageviews": 9
     },
     {
         "query_id": "176_296",
@@ -2385,7 +1800,7 @@
         "answers": [
             "Birmingham Small Arms Company"
         ],
-        "pageviews": 13180
+        "pageviews": 13
     },
     {
         "query_id": "176_297",
@@ -2393,7 +1808,7 @@
         "answers": [
             "Cammell Laird"
         ],
-        "pageviews": 717
+        "pageviews": 1
     },
     {
         "query_id": "176_298",
@@ -2401,7 +1816,7 @@
         "answers": [
             "Suzuki"
         ],
-        "pageviews": 14268
+        "pageviews": 2
     },
     {
         "query_id": "176_299",
@@ -2409,23 +1824,7 @@
         "answers": [
             "Nikon"
         ],
-        "pageviews": 3033
-    },
-    {
-        "query_id": "176_300",
-        "question": "Which company is USS Moonstone produced by?",
-        "answers": [
-            "Friedrich Krupp Germaniawerft"
-        ],
-        "pageviews": 140
-    },
-    {
-        "query_id": "176_301",
-        "question": "Which company is Bucher aircraft tractor produced by?",
-        "answers": [
-            "Mowag"
-        ],
-        "pageviews": 744
+        "pageviews": 1
     },
     {
         "query_id": "176_302",
@@ -2433,7 +1832,7 @@
         "answers": [
             "AG Weser"
         ],
-        "pageviews": 22995
+        "pageviews": 11
     },
     {
         "query_id": "176_303",
@@ -2441,7 +1840,7 @@
         "answers": [
             "Sony"
         ],
-        "pageviews": 11996
+        "pageviews": 2
     },
     {
         "query_id": "176_304",
@@ -2449,7 +1848,7 @@
         "answers": [
             "Rheinmetall AG"
         ],
-        "pageviews": 59948
+        "pageviews": 17
     },
     {
         "query_id": "176_305",
@@ -2457,15 +1856,7 @@
         "answers": [
             "Infiniti"
         ],
-        "pageviews": 7847
-    },
-    {
-        "query_id": "176_306",
-        "question": "Which company is LMS diesel shunter 7051 produced by?",
-        "answers": [
-            "Hunslet Engine Company"
-        ],
-        "pageviews": 2465
+        "pageviews": 3
     },
     {
         "query_id": "176_307",
@@ -2473,7 +1864,7 @@
         "answers": [
             "Bell Flight"
         ],
-        "pageviews": 330980
+        "pageviews": 182
     },
     {
         "query_id": "176_308",
@@ -2481,7 +1872,7 @@
         "answers": [
             "Chevrolet"
         ],
-        "pageviews": 365521
+        "pageviews": 8
     },
     {
         "query_id": "176_309",
@@ -2489,7 +1880,7 @@
         "answers": [
             "Renault"
         ],
-        "pageviews": 23588
+        "pageviews": 6
     },
     {
         "query_id": "176_310",
@@ -2497,23 +1888,7 @@
         "answers": [
             "Mechitarists"
         ],
-        "pageviews": 2030
-    },
-    {
-        "query_id": "176_311",
-        "question": "Which company is Yamaha MT-03 produced by?",
-        "answers": [
-            "Yamaha Motor Company"
-        ],
-        "pageviews": 60449
-    },
-    {
-        "query_id": "176_312",
-        "question": "Which company is HMT Juniper produced by?",
-        "answers": [
-            "Ferguson Marine Engineering"
-        ],
-        "pageviews": 1069
+        "pageviews": 1
     },
     {
         "query_id": "176_313",
@@ -2521,7 +1896,7 @@
         "answers": [
             "Harley-Davidson"
         ],
-        "pageviews": 16473
+        "pageviews": 7
     },
     {
         "query_id": "176_314",
@@ -2529,15 +1904,7 @@
         "answers": [
             "Blackburn Aircraft"
         ],
-        "pageviews": 1284
-    },
-    {
-        "query_id": "176_315",
-        "question": "Which company is USS Champion produced by?",
-        "answers": [
-            "General Engineering & Dry Dock Company"
-        ],
-        "pageviews": 1855
+        "pageviews": 1
     },
     {
         "query_id": "176_316",
@@ -2545,7 +1912,7 @@
         "answers": [
             "Alenia"
         ],
-        "pageviews": 280848
+        "pageviews": 28
     },
     {
         "query_id": "176_317",
@@ -2553,7 +1920,7 @@
         "answers": [
             "Renault"
         ],
-        "pageviews": 14223
+        "pageviews": 15
     },
     {
         "query_id": "176_318",
@@ -2561,7 +1928,7 @@
         "answers": [
             "Vigor Shipyards"
         ],
-        "pageviews": 3706
+        "pageviews": 3
     },
     {
         "query_id": "176_319",
@@ -2569,7 +1936,7 @@
         "answers": [
             "Pacific Aerospace"
         ],
-        "pageviews": 67926
+        "pageviews": 4
     },
     {
         "query_id": "176_320",
@@ -2577,15 +1944,7 @@
         "answers": [
             "Isuzu Motors"
         ],
-        "pageviews": 9785
-    },
-    {
-        "query_id": "176_321",
-        "question": "Which company is KD Tunku Abdul Rahman produced by?",
-        "answers": [
-            "Navantia"
-        ],
-        "pageviews": 11209
+        "pageviews": 13
     },
     {
         "query_id": "176_322",
@@ -2593,7 +1952,7 @@
         "answers": [
             "SEAT"
         ],
-        "pageviews": 12530
+        "pageviews": 6
     },
     {
         "query_id": "176_323",
@@ -2601,23 +1960,7 @@
         "answers": [
             "Game Park"
         ],
-        "pageviews": 17377
-    },
-    {
-        "query_id": "176_324",
-        "question": "Which company is Ford Escort produced by?",
-        "answers": [
-            "Ford Motor Company"
-        ],
-        "pageviews": 25997
-    },
-    {
-        "query_id": "176_325",
-        "question": "Which company is Chevrolet Parkwood produced by?",
-        "answers": [
-            "Chevrolet"
-        ],
-        "pageviews": 7798
+        "pageviews": 29
     },
     {
         "query_id": "176_326",
@@ -2625,15 +1968,7 @@
         "answers": [
             "Woolwich Dockyard"
         ],
-        "pageviews": 2321
-    },
-    {
-        "query_id": "176_327",
-        "question": "Which company is Crow produced by?",
-        "answers": [
-            "Pacific Missile Test Center"
-        ],
-        "pageviews": 2632
+        "pageviews": 3
     },
     {
         "query_id": "176_328",
@@ -2641,7 +1976,7 @@
         "answers": [
             "General Motors"
         ],
-        "pageviews": 41534
+        "pageviews": 12
     },
     {
         "query_id": "176_329",
@@ -2649,7 +1984,7 @@
         "answers": [
             "Boeing"
         ],
-        "pageviews": 559933
+        "pageviews": 40
     },
     {
         "query_id": "176_330",
@@ -2657,7 +1992,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 9764
+        "pageviews": 1
     },
     {
         "query_id": "176_331",
@@ -2665,7 +2000,7 @@
         "answers": [
             "Motorola Mobility"
         ],
-        "pageviews": 21015
+        "pageviews": 23
     },
     {
         "query_id": "176_332",
@@ -2673,7 +2008,7 @@
         "answers": [
             "Fairchild Semiconductor"
         ],
-        "pageviews": 141164
+        "pageviews": 28
     },
     {
         "query_id": "176_333",
@@ -2681,7 +2016,7 @@
         "answers": [
             "ZiL"
         ],
-        "pageviews": 2269
+        "pageviews": 1
     },
     {
         "query_id": "176_334",
@@ -2689,15 +2024,7 @@
         "answers": [
             "Suzuki"
         ],
-        "pageviews": 133287
-    },
-    {
-        "query_id": "176_335",
-        "question": "Which company is USS LST-342 produced by?",
-        "answers": [
-            "Norfolk Naval Shipyard"
-        ],
-        "pageviews": 2078
+        "pageviews": 24
     },
     {
         "query_id": "176_336",
@@ -2705,7 +2032,7 @@
         "answers": [
             "Cammell Laird"
         ],
-        "pageviews": 1321
+        "pageviews": 1
     },
     {
         "query_id": "176_337",
@@ -2713,23 +2040,7 @@
         "answers": [
             "Doncaster Works"
         ],
-        "pageviews": 145587
-    },
-    {
-        "query_id": "176_338",
-        "question": "Which company is AEG C.V produced by?",
-        "answers": [
-            "AEG"
-        ],
-        "pageviews": 1924
-    },
-    {
-        "query_id": "176_339",
-        "question": "Which company is USS Lapwing produced by?",
-        "answers": [
-            "Vigor Shipyards"
-        ],
-        "pageviews": 2633
+        "pageviews": 80
     },
     {
         "query_id": "176_340",
@@ -2737,7 +2048,7 @@
         "answers": [
             "General Dynamics"
         ],
-        "pageviews": 50764
+        "pageviews": 15
     },
     {
         "query_id": "176_341",
@@ -2745,7 +2056,7 @@
         "answers": [
             "Yamaha Motor Company"
         ],
-        "pageviews": 21062
+        "pageviews": 7
     },
     {
         "query_id": "176_342",
@@ -2753,7 +2064,7 @@
         "answers": [
             "Buhl Aircraft Company"
         ],
-        "pageviews": 2254
+        "pageviews": 6
     },
     {
         "query_id": "176_343",
@@ -2761,15 +2072,7 @@
         "answers": [
             "Toyota"
         ],
-        "pageviews": 112556
-    },
-    {
-        "query_id": "176_344",
-        "question": "Which company is Italian destroyer Audace produced by?",
-        "answers": [
-            "Yarrow Shipbuilders"
-        ],
-        "pageviews": 4907
+        "pageviews": 3
     },
     {
         "query_id": "176_345",
@@ -2777,15 +2080,7 @@
         "answers": [
             "Automobiles Ettore Bugatti"
         ],
-        "pageviews": 14342
-    },
-    {
-        "query_id": "176_346",
-        "question": "Which company is D&RGW K-27 produced by?",
-        "answers": [
-            "Baldwin Locomotive Works"
-        ],
-        "pageviews": 7266
+        "pageviews": 15
     },
     {
         "query_id": "176_347",
@@ -2793,7 +2088,7 @@
         "answers": [
             "Daimler Motors Corporation"
         ],
-        "pageviews": 4783
+        "pageviews": 22
     },
     {
         "query_id": "176_348",
@@ -2801,7 +2096,7 @@
         "answers": [
             "Toyota"
         ],
-        "pageviews": 56376
+        "pageviews": 3
     },
     {
         "query_id": "176_349",
@@ -2809,7 +2104,7 @@
         "answers": [
             "Intel"
         ],
-        "pageviews": 2157
+        "pageviews": 4
     },
     {
         "query_id": "176_350",
@@ -2817,7 +2112,7 @@
         "answers": [
             "New York Shipbuilding Corporation"
         ],
-        "pageviews": 8926
+        "pageviews": 11
     },
     {
         "query_id": "176_351",
@@ -2825,7 +2120,7 @@
         "answers": [
             "Kia Motors"
         ],
-        "pageviews": 191474
+        "pageviews": 17
     },
     {
         "query_id": "176_352",
@@ -2833,23 +2128,7 @@
         "answers": [
             "Davie Shipbuilding"
         ],
-        "pageviews": 1444
-    },
-    {
-        "query_id": "176_353",
-        "question": "Which company is USS Drayton produced by?",
-        "answers": [
-            "Bath Iron Works"
-        ],
-        "pageviews": 3243
-    },
-    {
-        "query_id": "176_354",
-        "question": "Which company is Berliner-Joyce XF3J produced by?",
-        "answers": [
-            "Berliner-Joyce"
-        ],
-        "pageviews": 3860
+        "pageviews": 1
     },
     {
         "query_id": "176_355",
@@ -2857,7 +2136,7 @@
         "answers": [
             "Messerschmitt"
         ],
-        "pageviews": 2078
+        "pageviews": 5
     },
     {
         "query_id": "176_356",
@@ -2865,7 +2144,7 @@
         "answers": [
             "Navistar International"
         ],
-        "pageviews": 26279
+        "pageviews": 2
     },
     {
         "query_id": "176_357",
@@ -2873,15 +2152,7 @@
         "answers": [
             "Suzuki"
         ],
-        "pageviews": 14245
-    },
-    {
-        "query_id": "176_358",
-        "question": "Which company is USS Narragansett produced by?",
-        "answers": [
-            "William Cramp and Sons"
-        ],
-        "pageviews": 2317
+        "pageviews": 1
     },
     {
         "query_id": "176_359",
@@ -2889,7 +2160,7 @@
         "answers": [
             "Cammell Laird"
         ],
-        "pageviews": 3132
+        "pageviews": 1
     },
     {
         "query_id": "176_360",
@@ -2897,7 +2168,7 @@
         "answers": [
             "HTC Corporation"
         ],
-        "pageviews": 150171
+        "pageviews": 30
     },
     {
         "query_id": "176_361",
@@ -2905,7 +2176,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 155259
+        "pageviews": 13
     },
     {
         "query_id": "176_362",
@@ -2913,23 +2184,7 @@
         "answers": [
             "Porsche"
         ],
-        "pageviews": 339669
-    },
-    {
-        "query_id": "176_363",
-        "question": "Which company is Taiwan Railway EMU700 series produced by?",
-        "answers": [
-            "Nippon Sharyo"
-        ],
-        "pageviews": 2068
-    },
-    {
-        "query_id": "176_364",
-        "question": "Which company is Olympus \u00b5 1030 SW produced by?",
-        "answers": [
-            "Olympus"
-        ],
-        "pageviews": 710
+        "pageviews": 41
     },
     {
         "query_id": "176_365",
@@ -2938,7 +2193,7 @@
             "Boeing Defense, Space & Security",
             "Lockheed Martin Aeronautics"
         ],
-        "pageviews": 2787209
+        "pageviews": 105
     },
     {
         "query_id": "176_366",
@@ -2946,7 +2201,7 @@
         "answers": [
             "Boeing"
         ],
-        "pageviews": 376127
+        "pageviews": 23
     },
     {
         "query_id": "176_367",
@@ -2954,23 +2209,7 @@
         "answers": [
             "Sony"
         ],
-        "pageviews": 8341
-    },
-    {
-        "query_id": "176_368",
-        "question": "Which company is St. Louis\u2013San Francisco 4003 produced by?",
-        "answers": [
-            "American Locomotive Company"
-        ],
-        "pageviews": 2465
-    },
-    {
-        "query_id": "176_369",
-        "question": "Which company is USS Halford produced by?",
-        "answers": [
-            "Puget Sound Naval Shipyard"
-        ],
-        "pageviews": 2219
+        "pageviews": 2
     },
     {
         "query_id": "176_370",
@@ -2978,15 +2217,7 @@
         "answers": [
             "Texas Instruments"
         ],
-        "pageviews": 2500
-    },
-    {
-        "query_id": "176_371",
-        "question": "Which company is Pacific Princess produced by?",
-        "answers": [
-            "Chantiers de l'Atlantique"
-        ],
-        "pageviews": 10337
+        "pageviews": 4
     },
     {
         "query_id": "176_372",
@@ -2994,15 +2225,7 @@
         "answers": [
             "Digital Equipment Corporation"
         ],
-        "pageviews": 103838
-    },
-    {
-        "query_id": "176_373",
-        "question": "Which company is PZL M-24 Dromader Super produced by?",
-        "answers": [
-            "PZL Mielec"
-        ],
-        "pageviews": 5659
+        "pageviews": 301
     },
     {
         "query_id": "176_374",
@@ -3010,15 +2233,7 @@
         "answers": [
             "Philadelphia"
         ],
-        "pageviews": 30335
-    },
-    {
-        "query_id": "176_375",
-        "question": "Which company is Fighting Cock bourbon produced by?",
-        "answers": [
-            "Heaven Hill"
-        ],
-        "pageviews": 6723
+        "pageviews": 34
     },
     {
         "query_id": "176_376",
@@ -3026,7 +2241,7 @@
         "answers": [
             "Ford Motor Company"
         ],
-        "pageviews": 37712
+        "pageviews": 13
     },
     {
         "query_id": "176_377",
@@ -3034,7 +2249,7 @@
         "answers": [
             "Seattle-Tacoma Shipbuilding Corporation"
         ],
-        "pageviews": 3720
+        "pageviews": 7
     },
     {
         "query_id": "176_378",
@@ -3042,7 +2257,7 @@
         "answers": [
             "Cammell Laird"
         ],
-        "pageviews": 8446
+        "pageviews": 9
     },
     {
         "query_id": "176_379",
@@ -3050,7 +2265,7 @@
         "answers": [
             "Pernod Ricard"
         ],
-        "pageviews": 82926
+        "pageviews": 5
     },
     {
         "query_id": "176_380",
@@ -3058,7 +2273,7 @@
         "answers": [
             "Mare Island Naval Shipyard"
         ],
-        "pageviews": 11815
+        "pageviews": 2
     },
     {
         "query_id": "176_381",
@@ -3066,7 +2281,7 @@
         "answers": [
             "Chatham Dockyard"
         ],
-        "pageviews": 1616
+        "pageviews": 1
     },
     {
         "query_id": "176_382",
@@ -3074,7 +2289,7 @@
         "answers": [
             "Cammell Laird"
         ],
-        "pageviews": 44353
+        "pageviews": 31
     },
     {
         "query_id": "176_383",
@@ -3082,7 +2297,7 @@
         "answers": [
             "National Aeronautics and Space Administration"
         ],
-        "pageviews": 16580
+        "pageviews": 20
     },
     {
         "query_id": "176_384",
@@ -3090,7 +2305,7 @@
         "answers": [
             "Remington Arms"
         ],
-        "pageviews": 24337
+        "pageviews": 1
     },
     {
         "query_id": "176_385",
@@ -3098,7 +2313,7 @@
         "answers": [
             "McLaren"
         ],
-        "pageviews": 37037
+        "pageviews": 6
     },
     {
         "query_id": "176_386",
@@ -3106,7 +2321,7 @@
         "answers": [
             "Electro-Motive Diesel"
         ],
-        "pageviews": 128441
+        "pageviews": 15
     },
     {
         "query_id": "176_387",
@@ -3114,7 +2329,7 @@
         "answers": [
             "Toyota"
         ],
-        "pageviews": 14273
+        "pageviews": 1
     },
     {
         "query_id": "176_388",
@@ -3122,7 +2337,7 @@
         "answers": [
             "Mazda"
         ],
-        "pageviews": 183295
+        "pageviews": 30
     },
     {
         "query_id": "176_389",
@@ -3130,23 +2345,7 @@
         "answers": [
             "Hyundai Motor Company"
         ],
-        "pageviews": 103619
-    },
-    {
-        "query_id": "176_390",
-        "question": "Which company is Azteca-class patrol vessel produced by?",
-        "answers": [
-            "Mexican Navy"
-        ],
-        "pageviews": 4923
-    },
-    {
-        "query_id": "176_391",
-        "question": "Which company is USS Fayette produced by?",
-        "answers": [
-            "Ingalls Shipbuilding"
-        ],
-        "pageviews": 210
+        "pageviews": 20
     },
     {
         "query_id": "176_392",
@@ -3154,15 +2353,7 @@
         "answers": [
             "Mercedes-Benz"
         ],
-        "pageviews": 3216
-    },
-    {
-        "query_id": "176_393",
-        "question": "Which company is HMS Talisman produced by?",
-        "answers": [
-            "Cammell Laird"
-        ],
-        "pageviews": 2461
+        "pageviews": 2
     },
     {
         "query_id": "176_394",
@@ -3170,15 +2361,7 @@
         "answers": [
             "ABC Motors"
         ],
-        "pageviews": 1587
-    },
-    {
-        "query_id": "176_395",
-        "question": "Which company is USS Osmond Ingram produced by?",
-        "answers": [
-            "Bethlehem Shipbuilding Corporation"
-        ],
-        "pageviews": 239
+        "pageviews": 1
     },
     {
         "query_id": "176_396",
@@ -3186,7 +2369,7 @@
         "answers": [
             "Canon Inc."
         ],
-        "pageviews": 54689
+        "pageviews": 8
     },
     {
         "query_id": "176_397",
@@ -3194,15 +2377,7 @@
         "answers": [
             "Swan Hunter"
         ],
-        "pageviews": 200473
-    },
-    {
-        "query_id": "176_398",
-        "question": "Which company is Mercedes-Benz W120 produced by?",
-        "answers": [
-            "Mercedes-Benz"
-        ],
-        "pageviews": 41152
+        "pageviews": 92
     },
     {
         "query_id": "176_399",
@@ -3210,7 +2385,7 @@
         "answers": [
             "Mazda"
         ],
-        "pageviews": 351496
+        "pageviews": 32
     },
     {
         "query_id": "176_400",
@@ -3218,23 +2393,7 @@
         "answers": [
             "2si"
         ],
-        "pageviews": 2016
-    },
-    {
-        "query_id": "176_401",
-        "question": "Which company is HMS H24 produced by?",
-        "answers": [
-            "Vickers Limited"
-        ],
-        "pageviews": 1048
-    },
-    {
-        "query_id": "176_402",
-        "question": "Which company is Xian Ni produced by?",
-        "answers": [
-            "Elbewerft Boizenburg"
-        ],
-        "pageviews": 1003
+        "pageviews": 13
     },
     {
         "query_id": "176_403",
@@ -3242,7 +2401,7 @@
         "answers": [
             "Damen Schelde Naval Shipbuilding"
         ],
-        "pageviews": 5766
+        "pageviews": 3
     },
     {
         "query_id": "176_404",
@@ -3250,7 +2409,7 @@
         "answers": [
             "Armstrong Whitworth Aircraft"
         ],
-        "pageviews": 10401
+        "pageviews": 9
     },
     {
         "query_id": "176_405",
@@ -3258,31 +2417,7 @@
         "answers": [
             "Yamaha Motor Company"
         ],
-        "pageviews": 28338
-    },
-    {
-        "query_id": "176_406",
-        "question": "Which company is USS S-45 produced by?",
-        "answers": [
-            "Bethlehem Shipbuilding Corporation"
-        ],
-        "pageviews": 139
-    },
-    {
-        "query_id": "176_407",
-        "question": "Which company is BMW Vision ConnectedDrive produced by?",
-        "answers": [
-            "Arman Ansari"
-        ],
-        "pageviews": 3265
-    },
-    {
-        "query_id": "176_408",
-        "question": "Which company is USS Venango produced by?",
-        "answers": [
-            "North Carolina Shipbuilding Company"
-        ],
-        "pageviews": 171
+        "pageviews": 2
     },
     {
         "query_id": "176_409",
@@ -3290,7 +2425,7 @@
         "answers": [
             "Northrop"
         ],
-        "pageviews": 3870
+        "pageviews": 3
     },
     {
         "query_id": "176_410",
@@ -3298,7 +2433,7 @@
         "answers": [
             "Ford Motor Company"
         ],
-        "pageviews": 59850
+        "pageviews": 29
     },
     {
         "query_id": "176_411",
@@ -3306,7 +2441,7 @@
         "answers": [
             "Grumman"
         ],
-        "pageviews": 28215
+        "pageviews": 9
     },
     {
         "query_id": "176_412",
@@ -3314,7 +2449,7 @@
         "answers": [
             "Delahaye"
         ],
-        "pageviews": 6404
+        "pageviews": 6
     },
     {
         "query_id": "176_413",
@@ -3322,15 +2457,7 @@
         "answers": [
             "Douglas"
         ],
-        "pageviews": 53182
-    },
-    {
-        "query_id": "176_414",
-        "question": "Which company is Furness Railway 115 class produced by?",
-        "answers": [
-            "Kitson and Company"
-        ],
-        "pageviews": 5222
+        "pageviews": 46
     },
     {
         "query_id": "176_415",
@@ -3338,7 +2465,7 @@
         "answers": [
             "Pentax"
         ],
-        "pageviews": 3570
+        "pageviews": 3
     },
     {
         "query_id": "176_416",
@@ -3346,7 +2473,7 @@
         "answers": [
             "Grumman"
         ],
-        "pageviews": 40173
+        "pageviews": 12
     },
     {
         "query_id": "176_417",
@@ -3354,7 +2481,7 @@
         "answers": [
             "Meyer Werft"
         ],
-        "pageviews": 11053
+        "pageviews": 6
     },
     {
         "query_id": "176_418",
@@ -3362,7 +2489,7 @@
         "answers": [
             "Ford Motor Company"
         ],
-        "pageviews": 47035
+        "pageviews": 20
     },
     {
         "query_id": "176_419",
@@ -3370,7 +2497,7 @@
         "answers": [
             "Electro-Motive Diesel"
         ],
-        "pageviews": 5612
+        "pageviews": 2
     },
     {
         "query_id": "176_420",
@@ -3378,15 +2505,7 @@
         "answers": [
             "Fujifilm"
         ],
-        "pageviews": 5203
-    },
-    {
-        "query_id": "176_421",
-        "question": "Which company is GNRI Classes SG and SG2 produced by?",
-        "answers": [
-            "Beyer, Peacock and Company"
-        ],
-        "pageviews": 1234
+        "pageviews": 3
     },
     {
         "query_id": "176_422",
@@ -3394,7 +2513,7 @@
         "answers": [
             "Newport News Shipbuilding"
         ],
-        "pageviews": 10673
+        "pageviews": 12
     },
     {
         "query_id": "176_423",
@@ -3402,7 +2521,7 @@
         "answers": [
             "Alstom"
         ],
-        "pageviews": 8461
+        "pageviews": 5
     },
     {
         "query_id": "176_424",
@@ -3411,7 +2530,7 @@
             "Renault",
             "Opel"
         ],
-        "pageviews": 126476
+        "pageviews": 27
     },
     {
         "query_id": "176_425",
@@ -3419,7 +2538,7 @@
         "answers": [
             "Deutsche Werke"
         ],
-        "pageviews": 2315
+        "pageviews": 1
     },
     {
         "query_id": "176_426",
@@ -3427,7 +2546,7 @@
         "answers": [
             "Baltic Shipyard"
         ],
-        "pageviews": 2750
+        "pageviews": 1
     },
     {
         "query_id": "176_427",
@@ -3435,7 +2554,7 @@
         "answers": [
             "Audi"
         ],
-        "pageviews": 30773
+        "pageviews": 23
     },
     {
         "query_id": "176_428",
@@ -3443,15 +2562,7 @@
         "answers": [
             "Diamond Aircraft Industries"
         ],
-        "pageviews": 42723
-    },
-    {
-        "query_id": "176_429",
-        "question": "Which company is Bavarian B IX produced by?",
-        "answers": [
-            "Hanomag"
-        ],
-        "pageviews": 729
+        "pageviews": 6
     },
     {
         "query_id": "176_430",
@@ -3459,15 +2570,7 @@
         "answers": [
             "Sega"
         ],
-        "pageviews": 273629
-    },
-    {
-        "query_id": "176_431",
-        "question": "Which company is HMT Svana produced by?",
-        "answers": [
-            "Smiths Dock Company"
-        ],
-        "pageviews": 732
+        "pageviews": 256
     },
     {
         "query_id": "176_432",
@@ -3475,7 +2578,7 @@
         "answers": [
             "Cammell Laird"
         ],
-        "pageviews": 1338
+        "pageviews": 4
     },
     {
         "query_id": "176_433",
@@ -3483,7 +2586,7 @@
         "answers": [
             "Norinco"
         ],
-        "pageviews": 50916
+        "pageviews": 3
     },
     {
         "query_id": "176_434",
@@ -3491,15 +2594,7 @@
         "answers": [
             "Mauser"
         ],
-        "pageviews": 79894
-    },
-    {
-        "query_id": "176_435",
-        "question": "Which company is HMAS Choules produced by?",
-        "answers": [
-            "Swan Hunter"
-        ],
-        "pageviews": 17182
+        "pageviews": 89
     },
     {
         "query_id": "176_436",
@@ -3507,7 +2602,7 @@
         "answers": [
             "Fujifilm"
         ],
-        "pageviews": 7692
+        "pageviews": 1
     },
     {
         "query_id": "176_437",
@@ -3515,7 +2610,7 @@
         "answers": [
             "NPO Saturn"
         ],
-        "pageviews": 103266
+        "pageviews": 21
     },
     {
         "query_id": "176_438",
@@ -3523,7 +2618,7 @@
         "answers": [
             "Dacia"
         ],
-        "pageviews": 36170
+        "pageviews": 8
     },
     {
         "query_id": "176_439",
@@ -3531,7 +2626,7 @@
         "answers": [
             "Woolwich Dockyard"
         ],
-        "pageviews": 4555
+        "pageviews": 5
     },
     {
         "query_id": "176_440",
@@ -3539,7 +2634,7 @@
         "answers": [
             "Suzuki"
         ],
-        "pageviews": 68626
+        "pageviews": 2
     },
     {
         "query_id": "176_441",
@@ -3547,15 +2642,7 @@
         "answers": [
             "AG Weser"
         ],
-        "pageviews": 3749
-    },
-    {
-        "query_id": "176_442",
-        "question": "Which company is Robotron Z1013 produced by?",
-        "answers": [
-            "VEB Robotron"
-        ],
-        "pageviews": 4936
+        "pageviews": 1
     },
     {
         "query_id": "176_443",
@@ -3564,7 +2651,7 @@
             "Vulcan Foundry",
             "English Electric"
         ],
-        "pageviews": 3168
+        "pageviews": 2
     },
     {
         "query_id": "176_444",
@@ -3572,7 +2659,7 @@
         "answers": [
             "Remington Arms"
         ],
-        "pageviews": 89866
+        "pageviews": 15
     },
     {
         "query_id": "176_445",
@@ -3580,7 +2667,7 @@
         "answers": [
             "Friedrich Krupp Germaniawerft"
         ],
-        "pageviews": 3481
+        "pageviews": 2
     },
     {
         "query_id": "176_446",
@@ -3588,7 +2675,7 @@
         "answers": [
             "Nikon"
         ],
-        "pageviews": 8926
+        "pageviews": 3
     },
     {
         "query_id": "176_447",
@@ -3596,7 +2683,7 @@
         "answers": [
             "KBP Instrument Design Bureau"
         ],
-        "pageviews": 35574
+        "pageviews": 2
     },
     {
         "query_id": "176_448",
@@ -3604,7 +2691,7 @@
         "answers": [
             "Baldwin Locomotive Works"
         ],
-        "pageviews": 7485
+        "pageviews": 3
     },
     {
         "query_id": "176_449",
@@ -3612,7 +2699,7 @@
         "answers": [
             "Nissan"
         ],
-        "pageviews": 118897
+        "pageviews": 64
     },
     {
         "query_id": "176_450",
@@ -3620,7 +2707,7 @@
         "answers": [
             "Yarrow Shipbuilders"
         ],
-        "pageviews": 7029
+        "pageviews": 9
     },
     {
         "query_id": "176_451",
@@ -3628,15 +2715,7 @@
         "answers": [
             "New York Shipbuilding Corporation"
         ],
-        "pageviews": 142837
-    },
-    {
-        "query_id": "176_452",
-        "question": "Which company is SS Wollongbar produced by?",
-        "answers": [
-            "Ailsa Shipbuilding Company"
-        ],
-        "pageviews": 1595
+        "pageviews": 41
     },
     {
         "query_id": "176_453",
@@ -3644,7 +2723,7 @@
         "answers": [
             "General Dynamics"
         ],
-        "pageviews": 9828
+        "pageviews": 2
     },
     {
         "query_id": "176_454",
@@ -3652,7 +2731,7 @@
         "answers": [
             "Nikon"
         ],
-        "pageviews": 8623
+        "pageviews": 2
     },
     {
         "query_id": "176_455",
@@ -3660,15 +2739,7 @@
         "answers": [
             "CANT"
         ],
-        "pageviews": 1597
-    },
-    {
-        "query_id": "176_456",
-        "question": "Which company is Samsung S5230 produced by?",
-        "answers": [
-            "Samsung"
-        ],
-        "pageviews": 10334
+        "pageviews": 1
     },
     {
         "query_id": "176_457",
@@ -3676,7 +2747,7 @@
         "answers": [
             "Volvo Cars"
         ],
-        "pageviews": 44482
+        "pageviews": 16
     },
     {
         "query_id": "176_458",
@@ -3684,7 +2755,7 @@
         "answers": [
             "McLaren Automotive"
         ],
-        "pageviews": 471404
+        "pageviews": 110
     },
     {
         "query_id": "176_459",
@@ -3692,7 +2763,7 @@
         "answers": [
             "Nikon"
         ],
-        "pageviews": 10182
+        "pageviews": 8
     },
     {
         "query_id": "176_460",
@@ -3700,7 +2771,7 @@
         "answers": [
             "Vickers Shipbuilding and Engineering"
         ],
-        "pageviews": 14976
+        "pageviews": 8
     },
     {
         "query_id": "176_461",
@@ -3708,7 +2779,7 @@
         "answers": [
             "MBDA"
         ],
-        "pageviews": 71898
+        "pageviews": 19
     },
     {
         "query_id": "176_462",
@@ -3716,7 +2787,7 @@
         "answers": [
             "Brooke Marine"
         ],
-        "pageviews": 19308
+        "pageviews": 13
     },
     {
         "query_id": "176_463",
@@ -3724,7 +2795,7 @@
         "answers": [
             "Dodge"
         ],
-        "pageviews": 13849
+        "pageviews": 4
     },
     {
         "query_id": "176_464",
@@ -3732,7 +2803,7 @@
         "answers": [
             "Karosa"
         ],
-        "pageviews": 1509
+        "pageviews": 10
     },
     {
         "query_id": "176_465",
@@ -3740,7 +2811,7 @@
         "answers": [
             "Hudong-Zhonghua Shipbuilding"
         ],
-        "pageviews": 48019
+        "pageviews": 1
     },
     {
         "query_id": "176_466",
@@ -3748,7 +2819,7 @@
         "answers": [
             "Mercedes-Benz"
         ],
-        "pageviews": 238789
+        "pageviews": 108
     },
     {
         "query_id": "176_467",
@@ -3756,7 +2827,7 @@
         "answers": [
             "Krauss-Maffei"
         ],
-        "pageviews": 125024
+        "pageviews": 18
     },
     {
         "query_id": "176_468",
@@ -3764,31 +2835,7 @@
         "answers": [
             "IBM"
         ],
-        "pageviews": 3657
-    },
-    {
-        "query_id": "176_469",
-        "question": "Which company is Texas Star Flyer produced by?",
-        "answers": [
-            "Funtime"
-        ],
-        "pageviews": 2286
-    },
-    {
-        "query_id": "176_470",
-        "question": "Which company is Steyr M1912 produced by?",
-        "answers": [
-            "Steyr Arms"
-        ],
-        "pageviews": 62143
-    },
-    {
-        "query_id": "176_471",
-        "question": "Which company is JS My\u014dk\u014d produced by?",
-        "answers": [
-            "Mitsubishi Heavy Industries"
-        ],
-        "pageviews": 12215
+        "pageviews": 4
     },
     {
         "query_id": "176_472",
@@ -3796,7 +2843,7 @@
         "answers": [
             "Sharp Corporation"
         ],
-        "pageviews": 6853
+        "pageviews": 9
     },
     {
         "query_id": "176_473",
@@ -3804,7 +2851,7 @@
         "answers": [
             "Nikon"
         ],
-        "pageviews": 12783
+        "pageviews": 3
     },
     {
         "query_id": "176_474",
@@ -3812,7 +2859,7 @@
         "answers": [
             "Norinco"
         ],
-        "pageviews": 28420
+        "pageviews": 7
     },
     {
         "query_id": "176_475",
@@ -3820,7 +2867,7 @@
         "answers": [
             "Toyota"
         ],
-        "pageviews": 233464
+        "pageviews": 19
     },
     {
         "query_id": "176_476",
@@ -3828,7 +2875,7 @@
         "answers": [
             "Nissan"
         ],
-        "pageviews": 19671
+        "pageviews": 10
     },
     {
         "query_id": "176_477",
@@ -3836,7 +2883,7 @@
         "answers": [
             "Jaguar Cars"
         ],
-        "pageviews": 21535
+        "pageviews": 5
     },
     {
         "query_id": "176_478",
@@ -3844,7 +2891,7 @@
         "answers": [
             "Noble"
         ],
-        "pageviews": 13342
+        "pageviews": 1
     },
     {
         "query_id": "176_479",
@@ -3852,7 +2899,7 @@
         "answers": [
             "Handley Page"
         ],
-        "pageviews": 196499
+        "pageviews": 110
     },
     {
         "query_id": "176_480",
@@ -3860,31 +2907,7 @@
         "answers": [
             "Arman Ansari"
         ],
-        "pageviews": 193802
-    },
-    {
-        "query_id": "176_481",
-        "question": "Which company is USS Carolita produced by?",
-        "answers": [
-            "Friedrich Krupp Germaniawerft"
-        ],
-        "pageviews": 149
-    },
-    {
-        "query_id": "176_482",
-        "question": "Which company is USS LST-794 produced by?",
-        "answers": [
-            "Dravo Corporation"
-        ],
-        "pageviews": 1054
-    },
-    {
-        "query_id": "176_483",
-        "question": "Which company is YNg-28 produced by?",
-        "answers": [
-            "Dravo Corporation"
-        ],
-        "pageviews": 457
+        "pageviews": 26
     },
     {
         "query_id": "176_484",
@@ -3892,7 +2915,7 @@
         "answers": [
             "Vigor Shipyards"
         ],
-        "pageviews": 4157
+        "pageviews": 2
     },
     {
         "query_id": "176_485",
@@ -3900,7 +2923,7 @@
         "answers": [
             "Geely"
         ],
-        "pageviews": 4589
+        "pageviews": 2
     },
     {
         "query_id": "176_486",
@@ -3908,23 +2931,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 13800
-    },
-    {
-        "query_id": "176_487",
-        "question": "Which company is Curtiss Lark produced by?",
-        "answers": [
-            "Curtiss"
-        ],
-        "pageviews": 2114
-    },
-    {
-        "query_id": "176_488",
-        "question": "Which company is Ambrosini SAI.10 Grifone produced by?",
-        "answers": [
-            "SAI Ambrosini"
-        ],
-        "pageviews": 2329
+        "pageviews": 2
     },
     {
         "query_id": "176_489",
@@ -3932,7 +2939,7 @@
         "answers": [
             "Embraer"
         ],
-        "pageviews": 619760
+        "pageviews": 50
     },
     {
         "query_id": "176_490",
@@ -3940,7 +2947,7 @@
         "answers": [
             "Agilent Technologies"
         ],
-        "pageviews": 4978
+        "pageviews": 1
     },
     {
         "query_id": "176_491",
@@ -3948,7 +2955,7 @@
         "answers": [
             "LG Electronics"
         ],
-        "pageviews": 3106
+        "pageviews": 1
     },
     {
         "query_id": "176_492",
@@ -3956,23 +2963,7 @@
         "answers": [
             "Canon Inc."
         ],
-        "pageviews": 55196
-    },
-    {
-        "query_id": "176_493",
-        "question": "Which company is Dayton-Wright Cabin Cruiser produced by?",
-        "answers": [
-            "Dayton-Wright"
-        ],
-        "pageviews": 1681
-    },
-    {
-        "query_id": "176_494",
-        "question": "Which company is HMS H42 produced by?",
-        "answers": [
-            "Armstrong Whitworth"
-        ],
-        "pageviews": 2161
+        "pageviews": 9
     },
     {
         "query_id": "176_495",
@@ -3980,7 +2971,7 @@
         "answers": [
             "Audi"
         ],
-        "pageviews": 330284
+        "pageviews": 26
     },
     {
         "query_id": "176_496",
@@ -3988,7 +2979,7 @@
         "answers": [
             "Dodge"
         ],
-        "pageviews": 15533
+        "pageviews": 3
     },
     {
         "query_id": "176_497",
@@ -3996,15 +2987,7 @@
         "answers": [
             "Mitsubishi Motors"
         ],
-        "pageviews": 39246
-    },
-    {
-        "query_id": "176_498",
-        "question": "Which company is Ekspress A2 produced by?",
-        "answers": [
-            "JSC Information Satellite Systems"
-        ],
-        "pageviews": 731
+        "pageviews": 2
     },
     {
         "query_id": "176_499",
@@ -4012,7 +2995,7 @@
         "answers": [
             "Toshiba"
         ],
-        "pageviews": 2851
+        "pageviews": 1
     },
     {
         "query_id": "176_500",
@@ -4020,15 +3003,7 @@
         "answers": [
             "Volvo Buses"
         ],
-        "pageviews": 7619
-    },
-    {
-        "query_id": "176_501",
-        "question": "Which company is CFL Class 2300 produced by?",
-        "answers": [
-            "Stadler Rail"
-        ],
-        "pageviews": 2458
+        "pageviews": 16
     },
     {
         "query_id": "176_502",
@@ -4036,7 +3011,7 @@
         "answers": [
             "Khan Research Laboratories"
         ],
-        "pageviews": 49490
+        "pageviews": 5
     },
     {
         "query_id": "176_503",
@@ -4044,7 +3019,7 @@
         "answers": [
             "Reaney, Son & Archbold"
         ],
-        "pageviews": 937
+        "pageviews": 1
     },
     {
         "query_id": "176_504",
@@ -4052,7 +3027,7 @@
         "answers": [
             "SEAT"
         ],
-        "pageviews": 6229
+        "pageviews": 2
     },
     {
         "query_id": "176_505",
@@ -4060,7 +3035,7 @@
         "answers": [
             "Checker Motors Corporation"
         ],
-        "pageviews": 6381
+        "pageviews": 2
     },
     {
         "query_id": "176_506",
@@ -4068,7 +3043,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 65334
+        "pageviews": 11
     },
     {
         "query_id": "176_507",
@@ -4076,31 +3051,7 @@
         "answers": [
             "Cammell Laird"
         ],
-        "pageviews": 1125
-    },
-    {
-        "query_id": "176_508",
-        "question": "Which company is Scania N-series produced by?",
-        "answers": [
-            "Scania"
-        ],
-        "pageviews": 7300
-    },
-    {
-        "query_id": "176_509",
-        "question": "Which company is Hyundai Trago produced by?",
-        "answers": [
-            "Hyundai Motor Company"
-        ],
-        "pageviews": 6400
-    },
-    {
-        "query_id": "176_510",
-        "question": "Which company is Barry Railway Class H produced by?",
-        "answers": [
-            "Sharp, Stewart and Company"
-        ],
-        "pageviews": 1484
+        "pageviews": 1
     },
     {
         "query_id": "176_511",
@@ -4110,7 +3061,7 @@
             "Doncaster Works",
             "Vulcan Foundry"
         ],
-        "pageviews": 51968
+        "pageviews": 67
     },
     {
         "query_id": "176_512",
@@ -4118,7 +3069,7 @@
         "answers": [
             "Deutsche Schiff- und Maschinenbau"
         ],
-        "pageviews": 1474
+        "pageviews": 1
     },
     {
         "query_id": "176_513",
@@ -4126,7 +3077,7 @@
         "answers": [
             "Newport News Shipbuilding"
         ],
-        "pageviews": 7346
+        "pageviews": 1
     },
     {
         "query_id": "176_514",
@@ -4134,7 +3085,7 @@
         "answers": [
             "KBP Instrument Design Bureau"
         ],
-        "pageviews": 64245
+        "pageviews": 4
     },
     {
         "query_id": "176_515",
@@ -4142,7 +3093,7 @@
         "answers": [
             "Electro-Motive Diesel"
         ],
-        "pageviews": 13163
+        "pageviews": 8
     },
     {
         "query_id": "176_516",
@@ -4150,7 +3101,7 @@
         "answers": [
             "Packard"
         ],
-        "pageviews": 6884
+        "pageviews": 2
     },
     {
         "query_id": "176_517",
@@ -4158,7 +3109,7 @@
         "answers": [
             "Bath Iron Works"
         ],
-        "pageviews": 3721
+        "pageviews": 3
     },
     {
         "query_id": "176_518",
@@ -4166,7 +3117,7 @@
         "answers": [
             "Dodge"
         ],
-        "pageviews": 2256
+        "pageviews": 3
     },
     {
         "query_id": "176_519",
@@ -4174,7 +3125,7 @@
         "answers": [
             "Atari"
         ],
-        "pageviews": 162503
+        "pageviews": 587
     },
     {
         "query_id": "176_520",
@@ -4182,15 +3133,7 @@
         "answers": [
             "Supermarine"
         ],
-        "pageviews": 2655
-    },
-    {
-        "query_id": "176_521",
-        "question": "Which company is Yamaha DT200 produced by?",
-        "answers": [
-            "Yamaha Motor Company"
-        ],
-        "pageviews": 18654
+        "pageviews": 5
     },
     {
         "query_id": "176_522",
@@ -4198,7 +3141,7 @@
         "answers": [
             "Toyota"
         ],
-        "pageviews": 252882
+        "pageviews": 34
     },
     {
         "query_id": "176_523",
@@ -4206,7 +3149,7 @@
         "answers": [
             "Chevrolet"
         ],
-        "pageviews": 37219
+        "pageviews": 32
     },
     {
         "query_id": "176_524",
@@ -4214,7 +3157,7 @@
         "answers": [
             "American Locomotive Company"
         ],
-        "pageviews": 9495
+        "pageviews": 12
     },
     {
         "query_id": "176_525",
@@ -4222,7 +3165,7 @@
         "answers": [
             "General Electric"
         ],
-        "pageviews": 102033
+        "pageviews": 51
     },
     {
         "query_id": "176_526",
@@ -4230,7 +3173,7 @@
         "answers": [
             "Ford Motor Company"
         ],
-        "pageviews": 19519
+        "pageviews": 5
     },
     {
         "query_id": "176_527",
@@ -4238,7 +3181,7 @@
         "answers": [
             "Jeep"
         ],
-        "pageviews": 141609
+        "pageviews": 26
     },
     {
         "query_id": "176_528",
@@ -4246,15 +3189,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 205402
-    },
-    {
-        "query_id": "176_529",
-        "question": "Which company is Toshiba T3100 produced by?",
-        "answers": [
-            "Toshiba"
-        ],
-        "pageviews": 12803
+        "pageviews": 69
     },
     {
         "query_id": "176_530",
@@ -4262,7 +3197,7 @@
         "answers": [
             "Yamaha Motor Company"
         ],
-        "pageviews": 49045
+        "pageviews": 4
     },
     {
         "query_id": "176_531",
@@ -4270,7 +3205,7 @@
         "answers": [
             "Fairey Aviation Company"
         ],
-        "pageviews": 49859
+        "pageviews": 79
     },
     {
         "query_id": "176_532",
@@ -4278,7 +3213,7 @@
         "answers": [
             "Mikoyan"
         ],
-        "pageviews": 337390
+        "pageviews": 120
     },
     {
         "query_id": "176_533",
@@ -4286,7 +3221,7 @@
         "answers": [
             "Nintendo"
         ],
-        "pageviews": 191285
+        "pageviews": 79
     },
     {
         "query_id": "176_534",
@@ -4294,15 +3229,7 @@
         "answers": [
             "Deutsche Werke"
         ],
-        "pageviews": 3094
-    },
-    {
-        "query_id": "176_535",
-        "question": "Which company is German submarine U-519 produced by?",
-        "answers": [
-            "Deutsche Werft"
-        ],
-        "pageviews": 2455
+        "pageviews": 4
     },
     {
         "query_id": "176_536",
@@ -4310,15 +3237,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 37238
-    },
-    {
-        "query_id": "176_537",
-        "question": "Which company is HSwMS N\u00e4cken produced by?",
-        "answers": [
-            "Kockums"
-        ],
-        "pageviews": 263
+        "pageviews": 1
     },
     {
         "query_id": "176_538",
@@ -4326,15 +3245,7 @@
         "answers": [
             "Bersa"
         ],
-        "pageviews": 28008
-    },
-    {
-        "query_id": "176_539",
-        "question": "Which company is Honda XL350R produced by?",
-        "answers": [
-            "Honda"
-        ],
-        "pageviews": 7130
+        "pageviews": 4
     },
     {
         "query_id": "176_540",
@@ -4342,23 +3253,7 @@
         "answers": [
             "Alstom"
         ],
-        "pageviews": 2748
-    },
-    {
-        "query_id": "176_541",
-        "question": "Which company is Ford F-Series tenth generation produced by?",
-        "answers": [
-            "Ford Motor Company"
-        ],
-        "pageviews": 76720
-    },
-    {
-        "query_id": "176_542",
-        "question": "Which company is HMS Hero produced by?",
-        "answers": [
-            "Deptford Dockyard"
-        ],
-        "pageviews": 3926
+        "pageviews": 4
     },
     {
         "query_id": "176_543",
@@ -4366,7 +3261,7 @@
         "answers": [
             "Canon Inc."
         ],
-        "pageviews": 31677
+        "pageviews": 7
     },
     {
         "query_id": "176_544",
@@ -4374,7 +3269,7 @@
         "answers": [
             "Nokia"
         ],
-        "pageviews": 5065
+        "pageviews": 2
     },
     {
         "query_id": "176_545",
@@ -4382,23 +3277,7 @@
         "answers": [
             "Bollinger Shipyards"
         ],
-        "pageviews": 21103
-    },
-    {
-        "query_id": "176_546",
-        "question": "Which company is USS Frank Cable produced by?",
-        "answers": [
-            "Lockheed Shipbuilding and Construction Company"
-        ],
-        "pageviews": 33342
-    },
-    {
-        "query_id": "176_547",
-        "question": "Which company is Smith & Wesson Model 686 produced by?",
-        "answers": [
-            "Smith & Wesson"
-        ],
-        "pageviews": 98217
+        "pageviews": 1
     },
     {
         "query_id": "176_548",
@@ -4406,7 +3285,7 @@
         "answers": [
             "Alfa Romeo"
         ],
-        "pageviews": 7946
+        "pageviews": 3
     },
     {
         "query_id": "176_549",
@@ -4414,7 +3293,7 @@
         "answers": [
             "Lockheed Martin"
         ],
-        "pageviews": 2762
+        "pageviews": 1
     },
     {
         "query_id": "176_550",
@@ -4422,7 +3301,7 @@
         "answers": [
             "English Electric"
         ],
-        "pageviews": 2279
+        "pageviews": 3
     },
     {
         "query_id": "176_551",
@@ -4430,7 +3309,7 @@
         "answers": [
             "Alfa Romeo"
         ],
-        "pageviews": 19520
+        "pageviews": 9
     },
     {
         "query_id": "176_552",
@@ -4438,7 +3317,7 @@
         "answers": [
             "Arman Ansari"
         ],
-        "pageviews": 168422
+        "pageviews": 31
     },
     {
         "query_id": "176_553",
@@ -4446,7 +3325,7 @@
         "answers": [
             "Armstrong Whitworth"
         ],
-        "pageviews": 6665
+        "pageviews": 5
     },
     {
         "query_id": "176_554",
@@ -4454,7 +3333,7 @@
         "answers": [
             "HTC Corporation"
         ],
-        "pageviews": 5665
+        "pageviews": 3
     },
     {
         "query_id": "176_555",
@@ -4462,7 +3341,7 @@
         "answers": [
             "Opel"
         ],
-        "pageviews": 3552
+        "pageviews": 4
     },
     {
         "query_id": "176_556",
@@ -4470,7 +3349,7 @@
         "answers": [
             "Beretta"
         ],
-        "pageviews": 98689
+        "pageviews": 8
     },
     {
         "query_id": "176_557",
@@ -4478,7 +3357,7 @@
         "answers": [
             "Daisy Outdoor Products"
         ],
-        "pageviews": 9442
+        "pageviews": 2
     },
     {
         "query_id": "176_558",
@@ -4486,23 +3365,7 @@
         "answers": [
             "Nissan"
         ],
-        "pageviews": 202733
-    },
-    {
-        "query_id": "176_559",
-        "question": "Which company is Ricoh WG-M1 produced by?",
-        "answers": [
-            "Ricoh"
-        ],
-        "pageviews": 1500
-    },
-    {
-        "query_id": "176_560",
-        "question": "Which company is HMCS La Hulloise produced by?",
-        "answers": [
-            "Canadian Vickers"
-        ],
-        "pageviews": 974
+        "pageviews": 16
     },
     {
         "query_id": "176_561",
@@ -4510,7 +3373,7 @@
         "answers": [
             "Saunders-Roe"
         ],
-        "pageviews": 4042
+        "pageviews": 1
     },
     {
         "query_id": "176_562",
@@ -4518,7 +3381,7 @@
         "answers": [
             "Cammell Laird"
         ],
-        "pageviews": 2689
+        "pageviews": 1
     },
     {
         "query_id": "176_563",
@@ -4526,15 +3389,7 @@
         "answers": [
             "General Dynamics Electric Boat"
         ],
-        "pageviews": 1733
-    },
-    {
-        "query_id": "176_564",
-        "question": "Which company is Honda Bali produced by?",
-        "answers": [
-            "Honda"
-        ],
-        "pageviews": 4564
+        "pageviews": 1
     },
     {
         "query_id": "176_565",
@@ -4542,15 +3397,7 @@
         "answers": [
             "American Locomotive Company"
         ],
-        "pageviews": 10730
-    },
-    {
-        "query_id": "176_566",
-        "question": "Which company is Louisville and Nashville Railroad 152 produced by?",
-        "answers": [
-            "Rogers Locomotive and Machine Works"
-        ],
-        "pageviews": 3672
+        "pageviews": 3
     },
     {
         "query_id": "176_567",
@@ -4558,7 +3405,7 @@
         "answers": [
             "Mittelwerk"
         ],
-        "pageviews": 624374
+        "pageviews": 479
     },
     {
         "query_id": "176_568",
@@ -4566,7 +3413,7 @@
         "answers": [
             "Bethlehem Sparrows Point Shipyard"
         ],
-        "pageviews": 1854
+        "pageviews": 1
     },
     {
         "query_id": "176_569",
@@ -4575,15 +3422,7 @@
             "Raytheon",
             "Lockheed Martin"
         ],
-        "pageviews": 2365654
-    },
-    {
-        "query_id": "176_570",
-        "question": "Which company is Belgenland produced by?",
-        "answers": [
-            "Vickers Shipbuilding and Engineering"
-        ],
-        "pageviews": 1893
+        "pageviews": 60
     },
     {
         "query_id": "176_571",
@@ -4591,15 +3430,7 @@
         "answers": [
             "AG Weser"
         ],
-        "pageviews": 9041
-    },
-    {
-        "query_id": "176_572",
-        "question": "Which company is USNS Sea Lift produced by?",
-        "answers": [
-            "Lockheed Shipbuilding and Construction Company"
-        ],
-        "pageviews": 173
+        "pageviews": 4
     },
     {
         "query_id": "176_573",
@@ -4607,7 +3438,7 @@
         "answers": [
             "Pilatus"
         ],
-        "pageviews": 130804
+        "pageviews": 10
     },
     {
         "query_id": "176_574",
@@ -4615,7 +3446,7 @@
         "answers": [
             "Harland and Wolff"
         ],
-        "pageviews": 6861
+        "pageviews": 4
     },
     {
         "query_id": "176_575",
@@ -4623,31 +3454,7 @@
         "answers": [
             "American Locomotive Company"
         ],
-        "pageviews": 6392
-    },
-    {
-        "query_id": "176_576",
-        "question": "Which company is BAP Ferr\u00e9 produced by?",
-        "answers": [
-            "Yarrow Shipbuilders"
-        ],
-        "pageviews": 3209
-    },
-    {
-        "query_id": "176_577",
-        "question": "Which company is USS Briareus produced by?",
-        "answers": [
-            "Newport News Shipbuilding"
-        ],
-        "pageviews": 504
-    },
-    {
-        "query_id": "176_578",
-        "question": "Which company is USS Goldring produced by?",
-        "answers": [
-            "General Dynamics Electric Boat"
-        ],
-        "pageviews": 857
+        "pageviews": 1
     },
     {
         "query_id": "176_579",
@@ -4655,7 +3462,7 @@
         "answers": [
             "General Motors"
         ],
-        "pageviews": 4387
+        "pageviews": 3
     },
     {
         "query_id": "176_580",
@@ -4663,7 +3470,7 @@
         "answers": [
             "Thales Alenia Space"
         ],
-        "pageviews": 2987
+        "pageviews": 5
     },
     {
         "query_id": "176_581",
@@ -4671,7 +3478,7 @@
         "answers": [
             "Packard"
         ],
-        "pageviews": 16922
+        "pageviews": 11
     },
     {
         "query_id": "176_582",
@@ -4679,15 +3486,7 @@
         "answers": [
             "Aston Martin Lagonda"
         ],
-        "pageviews": 240441
-    },
-    {
-        "query_id": "176_583",
-        "question": "Which company is RFA Wave Chief produced by?",
-        "answers": [
-            "Harland and Wolff"
-        ],
-        "pageviews": 734
+        "pageviews": 60
     },
     {
         "query_id": "176_584",
@@ -4695,15 +3494,7 @@
         "answers": [
             "Siemens-Schuckert"
         ],
-        "pageviews": 6112
-    },
-    {
-        "query_id": "176_585",
-        "question": "Which company is USS Garfield County produced by?",
-        "answers": [
-            "Dravo Corporation"
-        ],
-        "pageviews": 129
+        "pageviews": 8
     },
     {
         "query_id": "176_586",
@@ -4711,7 +3502,7 @@
         "answers": [
             "EvoBus"
         ],
-        "pageviews": 46544
+        "pageviews": 87
     },
     {
         "query_id": "176_587",
@@ -4719,15 +3510,7 @@
         "answers": [
             "AERO Vodochody Aerospace"
         ],
-        "pageviews": 65057
-    },
-    {
-        "query_id": "176_588",
-        "question": "Which company is SS Wahehe produced by?",
-        "answers": [
-            "Reiherstieg Schiffswerfte & Maschinenfabrik"
-        ],
-        "pageviews": 1400
+        "pageviews": 4
     },
     {
         "query_id": "176_589",
@@ -4735,7 +3518,7 @@
         "answers": [
             "AviaBellanca Aircraft"
         ],
-        "pageviews": 1975
+        "pageviews": 1
     },
     {
         "query_id": "176_590",
@@ -4743,7 +3526,7 @@
         "answers": [
             "Doncaster Works"
         ],
-        "pageviews": 102620
+        "pageviews": 86
     },
     {
         "query_id": "176_591",
@@ -4751,7 +3534,7 @@
         "answers": [
             "Trijicon"
         ],
-        "pageviews": 140206
+        "pageviews": 36
     },
     {
         "query_id": "176_592",
@@ -4759,15 +3542,7 @@
         "answers": [
             "Maserati"
         ],
-        "pageviews": 6242
-    },
-    {
-        "query_id": "176_593",
-        "question": "Which company is Peugeot Rapido produced by?",
-        "answers": [
-            "Peugeot"
-        ],
-        "pageviews": 3148
+        "pageviews": 12
     },
     {
         "query_id": "176_595",
@@ -4775,7 +3550,7 @@
         "answers": [
             "Damen Group"
         ],
-        "pageviews": 11882
+        "pageviews": 3
     },
     {
         "query_id": "176_596",
@@ -4783,7 +3558,7 @@
         "answers": [
             "Pentax"
         ],
-        "pageviews": 3871
+        "pageviews": 5
     },
     {
         "query_id": "176_597",
@@ -4791,7 +3566,7 @@
         "answers": [
             "Insitu"
         ],
-        "pageviews": 172657
+        "pageviews": 31
     },
     {
         "query_id": "176_598",
@@ -4799,7 +3574,7 @@
         "answers": [
             "Toyota"
         ],
-        "pageviews": 3973
+        "pageviews": 1
     },
     {
         "query_id": "176_599",
@@ -4807,7 +3582,7 @@
         "answers": [
             "Ingalls Shipbuilding"
         ],
-        "pageviews": 383511
+        "pageviews": 24
     },
     {
         "query_id": "176_600",
@@ -4815,7 +3590,7 @@
         "answers": [
             "AG Weser"
         ],
-        "pageviews": 13870
+        "pageviews": 1
     },
     {
         "query_id": "176_601",
@@ -4823,7 +3598,7 @@
         "answers": [
             "Swan Hunter"
         ],
-        "pageviews": 3822
+        "pageviews": 28
     },
     {
         "query_id": "176_602",
@@ -4831,7 +3606,7 @@
         "answers": [
             "General Dynamics Electric Boat"
         ],
-        "pageviews": 3945
+        "pageviews": 1
     },
     {
         "query_id": "176_603",
@@ -4839,7 +3614,7 @@
         "answers": [
             "Unilever"
         ],
-        "pageviews": 52534
+        "pageviews": 31
     },
     {
         "query_id": "176_604",
@@ -4847,7 +3622,7 @@
         "answers": [
             "Navistar International"
         ],
-        "pageviews": 176000
+        "pageviews": 10
     },
     {
         "query_id": "176_605",
@@ -4855,15 +3630,7 @@
         "answers": [
             "Robert Whitehead"
         ],
-        "pageviews": 3077
-    },
-    {
-        "query_id": "176_606",
-        "question": "Which company is CQM-121 Pave Tiger produced by?",
-        "answers": [
-            "Boeing"
-        ],
-        "pageviews": 7204
+        "pageviews": 1
     },
     {
         "query_id": "176_607",
@@ -4871,7 +3638,7 @@
         "answers": [
             "Porsche"
         ],
-        "pageviews": 210679
+        "pageviews": 61
     },
     {
         "query_id": "176_608",
@@ -4879,15 +3646,7 @@
         "answers": [
             "Panasonic Corporation"
         ],
-        "pageviews": 6236
-    },
-    {
-        "query_id": "176_609",
-        "question": "Which company is USS Carina produced by?",
-        "answers": [
-            "Permanente Metals"
-        ],
-        "pageviews": 206
+        "pageviews": 3
     },
     {
         "query_id": "176_610",
@@ -4895,7 +3654,7 @@
         "answers": [
             "Garden Reach Shipbuilders & Engineers"
         ],
-        "pageviews": 3002
+        "pageviews": 1
     },
     {
         "query_id": "176_611",
@@ -4903,15 +3662,7 @@
         "answers": [
             "Fiat"
         ],
-        "pageviews": 20528
-    },
-    {
-        "query_id": "176_612",
-        "question": "Which company is USS Crittenden produced by?",
-        "answers": [
-            "Consolidated Steel Corporation"
-        ],
-        "pageviews": 175
+        "pageviews": 11
     },
     {
         "query_id": "176_613",
@@ -4919,7 +3670,7 @@
         "answers": [
             "Reaney, Son & Archbold"
         ],
-        "pageviews": 1146
+        "pageviews": 1
     },
     {
         "query_id": "176_614",
@@ -4927,7 +3678,7 @@
         "answers": [
             "Nikon"
         ],
-        "pageviews": 26009
+        "pageviews": 6
     },
     {
         "query_id": "176_615",
@@ -4935,15 +3686,7 @@
         "answers": [
             "Mare Island Naval Shipyard"
         ],
-        "pageviews": 8607
-    },
-    {
-        "query_id": "176_616",
-        "question": "Which company is HSC Leonora Christina produced by?",
-        "answers": [
-            "Austal"
-        ],
-        "pageviews": 1444
+        "pageviews": 2
     },
     {
         "query_id": "176_617",
@@ -4951,7 +3694,7 @@
         "answers": [
             "Hornady"
         ],
-        "pageviews": 609987
+        "pageviews": 5
     },
     {
         "query_id": "176_618",
@@ -4959,23 +3702,7 @@
         "answers": [
             "PepsiCo"
         ],
-        "pageviews": 132626
-    },
-    {
-        "query_id": "176_619",
-        "question": "Which company is Head & Shoulders produced by?",
-        "answers": [
-            "Procter & Gamble"
-        ],
-        "pageviews": 82463
-    },
-    {
-        "query_id": "176_620",
-        "question": "Which company is Olympus SP-500 Ultra Zoom produced by?",
-        "answers": [
-            "Olympus"
-        ],
-        "pageviews": 1245
+        "pageviews": 17
     },
     {
         "query_id": "176_621",
@@ -4983,7 +3710,7 @@
         "answers": [
             "Yamaha Motor Company"
         ],
-        "pageviews": 25574
+        "pageviews": 13
     },
     {
         "query_id": "176_622",
@@ -4991,7 +3718,7 @@
         "answers": [
             "Peugeot"
         ],
-        "pageviews": 38071
+        "pageviews": 18
     },
     {
         "query_id": "176_623",
@@ -4999,7 +3726,7 @@
         "answers": [
             "Government Aircraft Factories"
         ],
-        "pageviews": 50598
+        "pageviews": 35
     },
     {
         "query_id": "176_624",
@@ -5007,7 +3734,7 @@
         "answers": [
             "Short Brothers"
         ],
-        "pageviews": 3089
+        "pageviews": 5
     },
     {
         "query_id": "176_625",
@@ -5015,7 +3742,7 @@
         "answers": [
             "Lion-Peugeot"
         ],
-        "pageviews": 919
+        "pageviews": 1
     },
     {
         "query_id": "176_626",
@@ -5023,7 +3750,7 @@
         "answers": [
             "Saab Group"
         ],
-        "pageviews": 98452
+        "pageviews": 25
     },
     {
         "query_id": "176_627",
@@ -5031,15 +3758,7 @@
         "answers": [
             "Chevrolet"
         ],
-        "pageviews": 36576
-    },
-    {
-        "query_id": "176_628",
-        "question": "Which company is Dodge Super 8 Hemi produced by?",
-        "answers": [
-            "Dodge"
-        ],
-        "pageviews": 6230
+        "pageviews": 8
     },
     {
         "query_id": "176_629",
@@ -5047,7 +3766,7 @@
         "answers": [
             "Toyota"
         ],
-        "pageviews": 386370
+        "pageviews": 37
     },
     {
         "query_id": "176_630",
@@ -5055,15 +3774,7 @@
         "answers": [
             "Deptford Dockyard"
         ],
-        "pageviews": 3382
-    },
-    {
-        "query_id": "176_631",
-        "question": "Which company is HMS Trident produced by?",
-        "answers": [
-            "Thames Ironworks and Shipbuilding Company"
-        ],
-        "pageviews": 1329
+        "pageviews": 9
     },
     {
         "query_id": "176_632",
@@ -5071,15 +3782,7 @@
         "answers": [
             "Bethlehem Steel"
         ],
-        "pageviews": 12880
-    },
-    {
-        "query_id": "176_633",
-        "question": "Which company is Smith & Wesson Model 646 produced by?",
-        "answers": [
-            "Smith & Wesson"
-        ],
-        "pageviews": 4386
+        "pageviews": 1
     },
     {
         "query_id": "176_634",
@@ -5087,15 +3790,7 @@
         "answers": [
             "Deptford Dockyard"
         ],
-        "pageviews": 963
-    },
-    {
-        "query_id": "176_635",
-        "question": "Which company is German submarine U-463 produced by?",
-        "answers": [
-            "Deutsche Werke"
-        ],
-        "pageviews": 2049
+        "pageviews": 1
     },
     {
         "query_id": "176_636",
@@ -5103,15 +3798,7 @@
         "answers": [
             "Deptford Dockyard"
         ],
-        "pageviews": 3689
-    },
-    {
-        "query_id": "176_637",
-        "question": "Which company is Lampo-class destroyer produced by?",
-        "answers": [
-            "Schichau-Werke"
-        ],
-        "pageviews": 2913
+        "pageviews": 22
     },
     {
         "query_id": "176_638",
@@ -5119,7 +3806,7 @@
         "answers": [
             "Alvis Car and Engineering Company Ltd"
         ],
-        "pageviews": 145888
+        "pageviews": 41
     },
     {
         "query_id": "176_639",
@@ -5127,7 +3814,7 @@
         "answers": [
             "Yarrow Shipbuilders"
         ],
-        "pageviews": 2536
+        "pageviews": 3
     },
     {
         "query_id": "176_640",
@@ -5136,7 +3823,7 @@
             "Clayton Equipment Company",
             "Beyer, Peacock and Company"
         ],
-        "pageviews": 27617
+        "pageviews": 14
     },
     {
         "query_id": "176_641",
@@ -5144,7 +3831,7 @@
         "answers": [
             "Lavochkin"
         ],
-        "pageviews": 4037
+        "pageviews": 96
     },
     {
         "query_id": "176_642",
@@ -5152,7 +3839,7 @@
         "answers": [
             "Krauss-Maffei"
         ],
-        "pageviews": 6689
+        "pageviews": 2
     },
     {
         "query_id": "176_643",
@@ -5160,7 +3847,7 @@
         "answers": [
             "Alstom"
         ],
-        "pageviews": 28655
+        "pageviews": 13
     },
     {
         "query_id": "176_644",
@@ -5168,7 +3855,7 @@
         "answers": [
             "General Motors"
         ],
-        "pageviews": 21017
+        "pageviews": 9
     },
     {
         "query_id": "176_645",
@@ -5176,7 +3863,7 @@
         "answers": [
             "Porsche"
         ],
-        "pageviews": 117728
+        "pageviews": 16
     },
     {
         "query_id": "176_646",
@@ -5184,15 +3871,7 @@
         "answers": [
             "Renault"
         ],
-        "pageviews": 3159
-    },
-    {
-        "query_id": "176_647",
-        "question": "Which company is Zaporozhets produced by?",
-        "answers": [
-            "ZAZ"
-        ],
-        "pageviews": 115782
+        "pageviews": 1
     },
     {
         "query_id": "176_648",
@@ -5200,7 +3879,7 @@
         "answers": [
             "Electro-Motive Diesel"
         ],
-        "pageviews": 26214
+        "pageviews": 41
     },
     {
         "query_id": "176_649",
@@ -5208,7 +3887,7 @@
         "answers": [
             "Fiat"
         ],
-        "pageviews": 68156
+        "pageviews": 24
     },
     {
         "query_id": "176_650",
@@ -5216,15 +3895,7 @@
         "answers": [
             "Beyer, Peacock and Company"
         ],
-        "pageviews": 2512
-    },
-    {
-        "query_id": "176_651",
-        "question": "Which company is Alfa Romeo 430 produced by?",
-        "answers": [
-            "Alfa Romeo"
-        ],
-        "pageviews": 3671
+        "pageviews": 1
     },
     {
         "query_id": "176_652",
@@ -5232,7 +3903,7 @@
         "answers": [
             "Sikorsky Aircraft Corporation"
         ],
-        "pageviews": 17786
+        "pageviews": 1
     },
     {
         "query_id": "176_653",
@@ -5240,7 +3911,7 @@
         "answers": [
             "Arman Ansari"
         ],
-        "pageviews": 6028
+        "pageviews": 1
     },
     {
         "query_id": "176_654",
@@ -5248,7 +3919,7 @@
         "answers": [
             "Deutsche Werft"
         ],
-        "pageviews": 2721
+        "pageviews": 1
     },
     {
         "query_id": "176_655",
@@ -5256,7 +3927,7 @@
         "answers": [
             "Ivchenko-Progress"
         ],
-        "pageviews": 10351
+        "pageviews": 1
     },
     {
         "query_id": "176_656",
@@ -5264,7 +3935,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 159853
+        "pageviews": 88
     },
     {
         "query_id": "176_657",
@@ -5272,7 +3943,7 @@
         "answers": [
             "Bremer Vulkan"
         ],
-        "pageviews": 34990
+        "pageviews": 12
     },
     {
         "query_id": "176_658",
@@ -5280,7 +3951,7 @@
         "answers": [
             "Lotus Cars"
         ],
-        "pageviews": 4714
+        "pageviews": 1
     },
     {
         "query_id": "176_659",
@@ -5288,7 +3959,7 @@
         "answers": [
             "De Tomaso"
         ],
-        "pageviews": 17334
+        "pageviews": 8
     },
     {
         "query_id": "176_660",
@@ -5296,7 +3967,7 @@
         "answers": [
             "Avia"
         ],
-        "pageviews": 12652
+        "pageviews": 10
     },
     {
         "query_id": "176_661",
@@ -5304,7 +3975,7 @@
         "answers": [
             "Henri Selmer Paris"
         ],
-        "pageviews": 26491
+        "pageviews": 15
     },
     {
         "query_id": "176_662",
@@ -5312,15 +3983,7 @@
         "answers": [
             "Kaiser Shipyards"
         ],
-        "pageviews": 3157
-    },
-    {
-        "query_id": "176_663",
-        "question": "Which company is Honda CBF500 produced by?",
-        "answers": [
-            "Honda"
-        ],
-        "pageviews": 12981
+        "pageviews": 3
     },
     {
         "query_id": "176_664",
@@ -5328,15 +3991,7 @@
         "answers": [
             "Short Brothers"
         ],
-        "pageviews": 74147
-    },
-    {
-        "query_id": "176_665",
-        "question": "Which company is MS Kungsholm produced by?",
-        "answers": [
-            "John Brown & Company"
-        ],
-        "pageviews": 7938
+        "pageviews": 60
     },
     {
         "query_id": "176_666",
@@ -5344,7 +3999,7 @@
         "answers": [
             "IBM"
         ],
-        "pageviews": 13638
+        "pageviews": 18
     },
     {
         "query_id": "176_667",
@@ -5352,7 +4007,7 @@
         "answers": [
             "Fiat"
         ],
-        "pageviews": 2766
+        "pageviews": 3
     },
     {
         "query_id": "176_668",
@@ -5360,15 +4015,7 @@
         "answers": [
             "National Aeronautics and Space Administration"
         ],
-        "pageviews": 21364
-    },
-    {
-        "query_id": "176_669",
-        "question": "Which company is U-101-class submarine produced by?",
-        "answers": [
-            "Stabilimento Tecnico Triestino"
-        ],
-        "pageviews": 1227
+        "pageviews": 20
     },
     {
         "query_id": "176_670",
@@ -5376,7 +4023,7 @@
         "answers": [
             "Triumph"
         ],
-        "pageviews": 4970
+        "pageviews": 4
     },
     {
         "query_id": "176_671",
@@ -5384,23 +4031,7 @@
         "answers": [
             "Subaru Corporation"
         ],
-        "pageviews": 21416
-    },
-    {
-        "query_id": "176_672",
-        "question": "Which company is FN Model 30-11 produced by?",
-        "answers": [
-            "FN Herstal"
-        ],
-        "pageviews": 11819
-    },
-    {
-        "query_id": "176_673",
-        "question": "Which company is Nikon Coolpix S600 produced by?",
-        "answers": [
-            "Nikon"
-        ],
-        "pageviews": 795
+        "pageviews": 2
     },
     {
         "query_id": "176_674",
@@ -5408,7 +4039,7 @@
         "answers": [
             "Iran"
         ],
-        "pageviews": 13313
+        "pageviews": 12
     },
     {
         "query_id": "176_675",
@@ -5416,7 +4047,7 @@
         "answers": [
             "Harland and Wolff"
         ],
-        "pageviews": 49766
+        "pageviews": 8
     },
     {
         "query_id": "176_676",
@@ -5424,7 +4055,7 @@
         "answers": [
             "Triumph"
         ],
-        "pageviews": 13898
+        "pageviews": 15
     },
     {
         "query_id": "176_677",
@@ -5432,7 +4063,7 @@
         "answers": [
             "Thales Group"
         ],
-        "pageviews": 76258
+        "pageviews": 11
     },
     {
         "query_id": "176_678",
@@ -5440,7 +4071,7 @@
         "answers": [
             "Alfa Romeo"
         ],
-        "pageviews": 16842
+        "pageviews": 2
     },
     {
         "query_id": "176_679",
@@ -5448,7 +4079,7 @@
         "answers": [
             "Fleet Aircraft"
         ],
-        "pageviews": 4340
+        "pageviews": 4
     },
     {
         "query_id": "176_680",
@@ -5456,15 +4087,7 @@
         "answers": [
             "Denel Land Systems"
         ],
-        "pageviews": 88264
-    },
-    {
-        "query_id": "176_681",
-        "question": "Which company is Samsung NX3000 produced by?",
-        "answers": [
-            "Samsung"
-        ],
-        "pageviews": 2251
+        "pageviews": 1
     },
     {
         "query_id": "176_682",
@@ -5473,15 +4096,7 @@
             "Hudswell, Clarke and Company Limited",
             "Sharp, Stewart and Company"
         ],
-        "pageviews": 1111
-    },
-    {
-        "query_id": "176_683",
-        "question": "Which company is Opel RAK e produced by?",
-        "answers": [
-            "Opel"
-        ],
-        "pageviews": 3613
+        "pageviews": 1
     },
     {
         "query_id": "176_684",
@@ -5489,7 +4104,7 @@
         "answers": [
             "Mercedes-Benz"
         ],
-        "pageviews": 11787
+        "pageviews": 1
     },
     {
         "query_id": "176_685",
@@ -5497,15 +4112,7 @@
         "answers": [
             "Arman Ansari"
         ],
-        "pageviews": 94482
-    },
-    {
-        "query_id": "176_686",
-        "question": "Which company is Lockheed XF-104 produced by?",
-        "answers": [
-            "Lockheed Corporation"
-        ],
-        "pageviews": 34608
+        "pageviews": 4
     },
     {
         "query_id": "176_687",
@@ -5513,7 +4120,7 @@
         "answers": [
             "Ford Motor Company"
         ],
-        "pageviews": 51752
+        "pageviews": 39
     },
     {
         "query_id": "176_688",
@@ -5521,7 +4128,7 @@
         "answers": [
             "Lockheed Corporation"
         ],
-        "pageviews": 102108
+        "pageviews": 373
     },
     {
         "query_id": "176_689",
@@ -5529,7 +4136,7 @@
         "answers": [
             "HTC Corporation"
         ],
-        "pageviews": 15548
+        "pageviews": 10
     },
     {
         "query_id": "176_690",
@@ -5537,7 +4144,7 @@
         "answers": [
             "MOS Technology"
         ],
-        "pageviews": 3010
+        "pageviews": 2
     },
     {
         "query_id": "176_691",
@@ -5546,7 +4153,7 @@
             "Chevrolet",
             "General Motors"
         ],
-        "pageviews": 363683
+        "pageviews": 123
     },
     {
         "query_id": "176_692",
@@ -5554,15 +4161,7 @@
         "answers": [
             "Ferrari"
         ],
-        "pageviews": 221925
-    },
-    {
-        "query_id": "176_693",
-        "question": "Which company is USS Niagara produced by?",
-        "answers": [
-            "Consolidated Steel Corporation"
-        ],
-        "pageviews": 1705
+        "pageviews": 11
     },
     {
         "query_id": "176_694",
@@ -5570,7 +4169,7 @@
         "answers": [
             "Friedrich Krupp Germaniawerft"
         ],
-        "pageviews": 3232
+        "pageviews": 15
     },
     {
         "query_id": "176_695",
@@ -5578,7 +4177,7 @@
         "answers": [
             "Ford Motor Company"
         ],
-        "pageviews": 109782
+        "pageviews": 55
     },
     {
         "query_id": "176_696",
@@ -5586,7 +4185,7 @@
         "answers": [
             "Armstrong Whitworth"
         ],
-        "pageviews": 4127
+        "pageviews": 1
     },
     {
         "query_id": "176_697",
@@ -5594,15 +4193,7 @@
         "answers": [
             "Morgan Motor Company"
         ],
-        "pageviews": 22838
-    },
-    {
-        "query_id": "176_698",
-        "question": "Which company is USS Albatross produced by?",
-        "answers": [
-            "Bath Iron Works"
-        ],
-        "pageviews": 1336
+        "pageviews": 5
     },
     {
         "query_id": "176_699",
@@ -5610,31 +4201,7 @@
         "answers": [
             "Mitsubishi Motors"
         ],
-        "pageviews": 82548
-    },
-    {
-        "query_id": "176_700",
-        "question": "Which company is Indian locomotive class WW produced by?",
-        "answers": [
-            "Vulcan Foundry"
-        ],
-        "pageviews": 2040
-    },
-    {
-        "query_id": "176_701",
-        "question": "Which company is Olympus C-2100 UZ produced by?",
-        "answers": [
-            "Olympus"
-        ],
-        "pageviews": 1139
-    },
-    {
-        "query_id": "176_702",
-        "question": "Which company is Ksp m/39 machine gun produced by?",
-        "answers": [
-            "Bofors Carl Gustaf"
-        ],
-        "pageviews": 6573
+        "pageviews": 30
     },
     {
         "query_id": "176_703",
@@ -5642,7 +4209,7 @@
         "answers": [
             "Electro-Motive Diesel"
         ],
-        "pageviews": 12311
+        "pageviews": 7
     },
     {
         "query_id": "176_704",
@@ -5650,7 +4217,7 @@
         "answers": [
             "Hanomag"
         ],
-        "pageviews": 2348
+        "pageviews": 3
     },
     {
         "query_id": "176_705",
@@ -5658,7 +4225,7 @@
         "answers": [
             "Weatherby"
         ],
-        "pageviews": 54939
+        "pageviews": 9
     },
     {
         "query_id": "176_706",
@@ -5666,7 +4233,7 @@
         "answers": [
             "General Motors"
         ],
-        "pageviews": 154685
+        "pageviews": 43
     },
     {
         "query_id": "176_707",
@@ -5674,7 +4241,7 @@
         "answers": [
             "American Locomotive Company"
         ],
-        "pageviews": 28605
+        "pageviews": 13
     },
     {
         "query_id": "176_708",
@@ -5683,7 +4250,7 @@
             "Chevrolet",
             "General Motors"
         ],
-        "pageviews": 18677
+        "pageviews": 4
     },
     {
         "query_id": "176_709",
@@ -5691,7 +4258,7 @@
         "answers": [
             "Toyota"
         ],
-        "pageviews": 69667
+        "pageviews": 9
     },
     {
         "query_id": "176_710",
@@ -5699,7 +4266,7 @@
         "answers": [
             "Ingalls Shipbuilding"
         ],
-        "pageviews": 5988
+        "pageviews": 3
     },
     {
         "query_id": "176_711",
@@ -5707,15 +4274,7 @@
         "answers": [
             "Dodge"
         ],
-        "pageviews": 586429
-    },
-    {
-        "query_id": "176_712",
-        "question": "Which company is MQM-42 Redhead produced by?",
-        "answers": [
-            "North American Aviation"
-        ],
-        "pageviews": 3543
+        "pageviews": 170
     },
     {
         "query_id": "176_713",
@@ -5723,15 +4282,7 @@
         "answers": [
             "Grumman"
         ],
-        "pageviews": 78368
-    },
-    {
-        "query_id": "176_714",
-        "question": "Which company is Brennabor Juwel 8 produced by?",
-        "answers": [
-            "Brennabor"
-        ],
-        "pageviews": 542
+        "pageviews": 12
     },
     {
         "query_id": "176_715",
@@ -5739,7 +4290,7 @@
         "answers": [
             "General Motors"
         ],
-        "pageviews": 174137
+        "pageviews": 22
     },
     {
         "query_id": "176_716",
@@ -5747,15 +4298,7 @@
         "answers": [
             "Denel Land Systems"
         ],
-        "pageviews": 33490
-    },
-    {
-        "query_id": "176_717",
-        "question": "Which company is HMS Terrapin produced by?",
-        "answers": [
-            "Vickers-Armstrongs"
-        ],
-        "pageviews": 833
+        "pageviews": 4
     },
     {
         "query_id": "176_718",
@@ -5763,15 +4306,7 @@
         "answers": [
             "Ducati Motor Holding S.p.A."
         ],
-        "pageviews": 28704
-    },
-    {
-        "query_id": "176_719",
-        "question": "Which company is USS Greenfish produced by?",
-        "answers": [
-            "General Dynamics Electric Boat"
-        ],
-        "pageviews": 155
+        "pageviews": 3
     },
     {
         "query_id": "176_720",
@@ -5779,7 +4314,7 @@
         "answers": [
             "Sigma Corporation"
         ],
-        "pageviews": 4167
+        "pageviews": 11
     },
     {
         "query_id": "176_721",
@@ -5787,7 +4322,7 @@
         "answers": [
             "Chevrolet"
         ],
-        "pageviews": 57219
+        "pageviews": 12
     },
     {
         "query_id": "176_722",
@@ -5795,7 +4330,7 @@
         "answers": [
             "Howaldtswerke-Deutsche Werft"
         ],
-        "pageviews": 7586
+        "pageviews": 6
     },
     {
         "query_id": "176_723",
@@ -5803,7 +4338,7 @@
         "answers": [
             "ZiL"
         ],
-        "pageviews": 37857
+        "pageviews": 5
     },
     {
         "query_id": "176_724",
@@ -5811,7 +4346,7 @@
         "answers": [
             "Lotus Cars"
         ],
-        "pageviews": 5909
+        "pageviews": 3
     },
     {
         "query_id": "176_725",
@@ -5819,7 +4354,7 @@
         "answers": [
             "General Motors"
         ],
-        "pageviews": 32719
+        "pageviews": 11
     },
     {
         "query_id": "176_726",
@@ -5827,7 +4362,7 @@
         "answers": [
             "Chevrolet"
         ],
-        "pageviews": 75771
+        "pageviews": 27
     },
     {
         "query_id": "176_727",
@@ -5835,7 +4370,7 @@
         "answers": [
             "Nissan"
         ],
-        "pageviews": 128868
+        "pageviews": 27
     },
     {
         "query_id": "176_728",
@@ -5843,7 +4378,7 @@
         "answers": [
             "Renault Samsung Motors"
         ],
-        "pageviews": 25563
+        "pageviews": 7
     },
     {
         "query_id": "176_729",
@@ -5851,7 +4386,7 @@
         "answers": [
             "HTC Corporation"
         ],
-        "pageviews": 12415
+        "pageviews": 3
     },
     {
         "query_id": "176_730",
@@ -5859,15 +4394,7 @@
         "answers": [
             "Henry Robb"
         ],
-        "pageviews": 328
-    },
-    {
-        "query_id": "176_731",
-        "question": "Which company is USS Selinur produced by?",
-        "answers": [
-            "Walsh-Kaiser Company"
-        ],
-        "pageviews": 159
+        "pageviews": 1
     },
     {
         "query_id": "176_732",
@@ -5875,7 +4402,7 @@
         "answers": [
             "Ariel Motorcycles"
         ],
-        "pageviews": 19065
+        "pageviews": 16
     },
     {
         "query_id": "176_733",
@@ -5883,7 +4410,7 @@
         "answers": [
             "Port Victoria Marine Experimental Aircraft Depot"
         ],
-        "pageviews": 1721
+        "pageviews": 2
     },
     {
         "query_id": "176_734",
@@ -5891,7 +4418,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 7580
+        "pageviews": 3
     },
     {
         "query_id": "176_735",
@@ -5899,7 +4426,7 @@
         "answers": [
             "General Dynamics Electric Boat"
         ],
-        "pageviews": 5058
+        "pageviews": 1
     },
     {
         "query_id": "176_736",
@@ -5907,15 +4434,7 @@
         "answers": [
             "Rheinmetall AG"
         ],
-        "pageviews": 13035
-    },
-    {
-        "query_id": "176_737",
-        "question": "Which company is Panasonic Lumix DMC-LS5 produced by?",
-        "answers": [
-            "Panasonic Corporation"
-        ],
-        "pageviews": 1200
+        "pageviews": 1
     },
     {
         "query_id": "176_738",
@@ -5923,15 +4442,7 @@
         "answers": [
             "NVIDIA"
         ],
-        "pageviews": 43654
-    },
-    {
-        "query_id": "176_739",
-        "question": "Which company is Suzuki GF250 produced by?",
-        "answers": [
-            "Suzuki"
-        ],
-        "pageviews": 1570
+        "pageviews": 21
     },
     {
         "query_id": "176_740",
@@ -5939,23 +4450,7 @@
         "answers": [
             "Appledore Shipbuilders"
         ],
-        "pageviews": 21019
-    },
-    {
-        "query_id": "176_741",
-        "question": "Which company is Eutelsat 3D produced by?",
-        "answers": [
-            "Thales Alenia Space"
-        ],
-        "pageviews": 2219
-    },
-    {
-        "query_id": "176_742",
-        "question": "Which company is Boulton & Paul Partridge produced by?",
-        "answers": [
-            "Boulton & Paul"
-        ],
-        "pageviews": 1823
+        "pageviews": 2
     },
     {
         "query_id": "176_743",
@@ -5963,23 +4458,7 @@
         "answers": [
             "General Motors"
         ],
-        "pageviews": 46312
-    },
-    {
-        "query_id": "176_744",
-        "question": "Which company is Brennabor Typ E produced by?",
-        "answers": [
-            "Brennabor"
-        ],
-        "pageviews": 496
-    },
-    {
-        "query_id": "176_745",
-        "question": "Which company is Yamaha Zuma 125 produced by?",
-        "answers": [
-            "Yamaha Motor Company"
-        ],
-        "pageviews": 12567
+        "pageviews": 17
     },
     {
         "query_id": "176_746",
@@ -5987,7 +4466,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 33526
+        "pageviews": 1
     },
     {
         "query_id": "176_747",
@@ -5995,7 +4474,7 @@
         "answers": [
             "Brown-Forman"
         ],
-        "pageviews": 40106
+        "pageviews": 11
     },
     {
         "query_id": "176_748",
@@ -6003,7 +4482,7 @@
         "answers": [
             "Siemens"
         ],
-        "pageviews": 92621
+        "pageviews": 44
     },
     {
         "query_id": "176_749",
@@ -6011,23 +4490,7 @@
         "answers": [
             "Hawker Siddeley"
         ],
-        "pageviews": 117248
-    },
-    {
-        "query_id": "176_750",
-        "question": "Which company is Caterpillar 345C L produced by?",
-        "answers": [
-            "Caterpillar Inc."
-        ],
-        "pageviews": 18814
-    },
-    {
-        "query_id": "176_751",
-        "question": "Which company is Panasonic Lumix DMC-FZ72 produced by?",
-        "answers": [
-            "Panasonic Corporation"
-        ],
-        "pageviews": 2452
+        "pageviews": 4
     },
     {
         "query_id": "176_752",
@@ -6035,15 +4498,7 @@
         "answers": [
             "SAIC-GM-Wuling Automobile"
         ],
-        "pageviews": 5215
-    },
-    {
-        "query_id": "176_753",
-        "question": "Which company is Wasp Junior produced by?",
-        "answers": [
-            "Pratt & Whitney"
-        ],
-        "pageviews": 30909
+        "pageviews": 1
     },
     {
         "query_id": "176_754",
@@ -6051,15 +4506,7 @@
         "answers": [
             "Daimler-Benz"
         ],
-        "pageviews": 44445
-    },
-    {
-        "query_id": "176_755",
-        "question": "Which company is USS Staff produced by?",
-        "answers": [
-            "American Ship Building Company"
-        ],
-        "pageviews": 240
+        "pageviews": 37
     },
     {
         "query_id": "176_756",
@@ -6067,7 +4514,7 @@
         "answers": [
             "Aprilia"
         ],
-        "pageviews": 21633
+        "pageviews": 3
     },
     {
         "query_id": "176_757",
@@ -6075,7 +4522,7 @@
         "answers": [
             "Mercedes-Benz"
         ],
-        "pageviews": 426205
+        "pageviews": 44
     },
     {
         "query_id": "176_758",
@@ -6083,7 +4530,7 @@
         "answers": [
             "Cadillac"
         ],
-        "pageviews": 2826
+        "pageviews": 1
     },
     {
         "query_id": "176_759",
@@ -6091,23 +4538,7 @@
         "answers": [
             "Electro-Motive Diesel"
         ],
-        "pageviews": 9395
-    },
-    {
-        "query_id": "176_760",
-        "question": "Which company is Orenco IL-1 produced by?",
-        "answers": [
-            "Orenco"
-        ],
-        "pageviews": 1959
-    },
-    {
-        "query_id": "176_761",
-        "question": "Which company is PLZ-07 produced by?",
-        "answers": [
-            "Norinco"
-        ],
-        "pageviews": 26188
+        "pageviews": 8
     },
     {
         "query_id": "176_762",
@@ -6115,7 +4546,7 @@
         "answers": [
             "Glenn L. Martin Company"
         ],
-        "pageviews": 90082
+        "pageviews": 80
     },
     {
         "query_id": "176_763",
@@ -6123,7 +4554,7 @@
         "answers": [
             "Olympus"
         ],
-        "pageviews": 6627
+        "pageviews": 4
     },
     {
         "query_id": "176_764",
@@ -6131,7 +4562,7 @@
         "answers": [
             "New York Shipbuilding Corporation"
         ],
-        "pageviews": 6411
+        "pageviews": 5
     },
     {
         "query_id": "176_765",
@@ -6139,31 +4570,7 @@
         "answers": [
             "Audi"
         ],
-        "pageviews": 19894
-    },
-    {
-        "query_id": "176_766",
-        "question": "Which company is Dodge Razor produced by?",
-        "answers": [
-            "Dodge"
-        ],
-        "pageviews": 3631
-    },
-    {
-        "query_id": "176_767",
-        "question": "Which company is German submarine U-207 produced by?",
-        "answers": [
-            "Friedrich Krupp Germaniawerft"
-        ],
-        "pageviews": 1956
-    },
-    {
-        "query_id": "176_768",
-        "question": "Which company is A.26 produced by?",
-        "answers": [
-            "AERO Vodochody Aerospace"
-        ],
-        "pageviews": 1445
+        "pageviews": 2
     },
     {
         "query_id": "176_769",
@@ -6171,7 +4578,7 @@
         "answers": [
             "Nissan"
         ],
-        "pageviews": 207718
+        "pageviews": 25
     },
     {
         "query_id": "176_770",
@@ -6179,15 +4586,7 @@
         "answers": [
             "Electro-Motive Diesel"
         ],
-        "pageviews": 12298
-    },
-    {
-        "query_id": "176_771",
-        "question": "Which company is Opel 10/40 PS produced by?",
-        "answers": [
-            "Opel"
-        ],
-        "pageviews": 1364
+        "pageviews": 6
     },
     {
         "query_id": "176_772",
@@ -6195,7 +4594,7 @@
         "answers": [
             "Bristol Cars"
         ],
-        "pageviews": 7514
+        "pageviews": 4
     },
     {
         "query_id": "176_773",
@@ -6203,15 +4602,7 @@
         "answers": [
             "Howaldtswerke-Deutsche Werft"
         ],
-        "pageviews": 31092
-    },
-    {
-        "query_id": "176_774",
-        "question": "Which company is Loire 102 produced by?",
-        "answers": [
-            "Loire Aviation"
-        ],
-        "pageviews": 1234
+        "pageviews": 11
     },
     {
         "query_id": "176_775",
@@ -6219,7 +4610,7 @@
         "answers": [
             "Fujifilm"
         ],
-        "pageviews": 16006
+        "pageviews": 1
     },
     {
         "query_id": "176_776",
@@ -6227,7 +4618,7 @@
         "answers": [
             "Boeing"
         ],
-        "pageviews": 7652
+        "pageviews": 8
     },
     {
         "query_id": "176_777",
@@ -6235,7 +4626,7 @@
         "answers": [
             "Lotus Cars"
         ],
-        "pageviews": 51371
+        "pageviews": 37
     },
     {
         "query_id": "176_778",
@@ -6243,15 +4634,7 @@
         "answers": [
             "Alstom"
         ],
-        "pageviews": 13147
-    },
-    {
-        "query_id": "176_779",
-        "question": "Which company is BR Standard Class 5 73082 \u201cCamelot\u201d produced by?",
-        "answers": [
-            "Derby Works"
-        ],
-        "pageviews": 3653
+        "pageviews": 14
     },
     {
         "query_id": "176_780",
@@ -6259,31 +4642,7 @@
         "answers": [
             "Commodore International"
         ],
-        "pageviews": 14628
-    },
-    {
-        "query_id": "176_781",
-        "question": "Which company is Libyan frigate Dat Assawari produced by?",
-        "answers": [
-            "VT Group"
-        ],
-        "pageviews": 4159
-    },
-    {
-        "query_id": "176_782",
-        "question": "Which company is No. 1 (yacht) produced by?",
-        "answers": [
-            "MTU Friedrichshafen"
-        ],
-        "pageviews": 1185
-    },
-    {
-        "query_id": "176_783",
-        "question": "Which company is USS LST-835 produced by?",
-        "answers": [
-            "American Bridge Company"
-        ],
-        "pageviews": 1082
+        "pageviews": 9
     },
     {
         "query_id": "176_784",
@@ -6291,7 +4650,7 @@
         "answers": [
             "Vought"
         ],
-        "pageviews": 14817
+        "pageviews": 24
     },
     {
         "query_id": "176_785",
@@ -6299,15 +4658,7 @@
         "answers": [
             "Nokia"
         ],
-        "pageviews": 21413
-    },
-    {
-        "query_id": "176_786",
-        "question": "Which company is USS Baltimore produced by?",
-        "answers": [
-            "General Dynamics"
-        ],
-        "pageviews": 7232
+        "pageviews": 18
     },
     {
         "query_id": "176_787",
@@ -6315,7 +4666,7 @@
         "answers": [
             "Edward Bury"
         ],
-        "pageviews": 526
+        "pageviews": 1
     },
     {
         "query_id": "176_788",
@@ -6323,7 +4674,7 @@
         "answers": [
             "HTC Corporation"
         ],
-        "pageviews": 7102
+        "pageviews": 3
     },
     {
         "query_id": "176_789",
@@ -6331,15 +4682,7 @@
         "answers": [
             "Nokia"
         ],
-        "pageviews": 5994
-    },
-    {
-        "query_id": "176_790",
-        "question": "Which company is Dayton-Wright Racer produced by?",
-        "answers": [
-            "Dayton-Wright"
-        ],
-        "pageviews": 4860
+        "pageviews": 3
     },
     {
         "query_id": "176_791",
@@ -6347,7 +4690,7 @@
         "answers": [
             "Chatham Dockyard"
         ],
-        "pageviews": 1654
+        "pageviews": 7
     },
     {
         "query_id": "176_792",
@@ -6355,7 +4698,7 @@
         "answers": [
             "Don Jorge"
         ],
-        "pageviews": 2966
+        "pageviews": 1
     },
     {
         "query_id": "176_793",
@@ -6363,7 +4706,7 @@
         "answers": [
             "Bentley"
         ],
-        "pageviews": 22958
+        "pageviews": 7
     },
     {
         "query_id": "176_794",
@@ -6371,7 +4714,7 @@
         "answers": [
             "Airbus"
         ],
-        "pageviews": 1576501
+        "pageviews": 520
     },
     {
         "query_id": "176_795",
@@ -6379,7 +4722,7 @@
         "answers": [
             "Auster Aircraft Limited"
         ],
-        "pageviews": 34288
+        "pageviews": 53
     },
     {
         "query_id": "176_796",
@@ -6387,7 +4730,7 @@
         "answers": [
             "Jeep"
         ],
-        "pageviews": 362387
+        "pageviews": 74
     },
     {
         "query_id": "176_797",
@@ -6395,15 +4738,7 @@
         "answers": [
             "Kaiserliche Werft Kiel"
         ],
-        "pageviews": 4259
-    },
-    {
-        "query_id": "176_798",
-        "question": "Which company is Efini MS-8 produced by?",
-        "answers": [
-            "Mazda"
-        ],
-        "pageviews": 9731
+        "pageviews": 5
     },
     {
         "query_id": "176_799",
@@ -6411,15 +4746,7 @@
         "answers": [
             "General Dynamics Electric Boat"
         ],
-        "pageviews": 9004
-    },
-    {
-        "query_id": "176_800",
-        "question": "Which company is Espresso produced by?",
-        "answers": [
-            "IBM"
-        ],
-        "pageviews": 22
+        "pageviews": 10
     },
     {
         "query_id": "176_801",
@@ -6427,15 +4754,7 @@
         "answers": [
             "Renault"
         ],
-        "pageviews": 19974
-    },
-    {
-        "query_id": "176_802",
-        "question": "Which company is Brennabor Typ C produced by?",
-        "answers": [
-            "Brennabor"
-        ],
-        "pageviews": 712
+        "pageviews": 4
     },
     {
         "query_id": "176_803",
@@ -6443,7 +4762,7 @@
         "answers": [
             "ANF Les Mureaux"
         ],
-        "pageviews": 1118
+        "pageviews": 1
     },
     {
         "query_id": "176_804",
@@ -6451,7 +4770,7 @@
         "answers": [
             "Electro-Motive Diesel"
         ],
-        "pageviews": 15941
+        "pageviews": 13
     },
     {
         "query_id": "176_805",
@@ -6459,7 +4778,7 @@
         "answers": [
             "LG Electronics"
         ],
-        "pageviews": 3069
+        "pageviews": 2
     },
     {
         "query_id": "176_806",
@@ -6467,15 +4786,7 @@
         "answers": [
             "Mitsubishi Motors"
         ],
-        "pageviews": 176910
-    },
-    {
-        "query_id": "176_807",
-        "question": "Which company is USS R-1 produced by?",
-        "answers": [
-            "Fore River Shipyard"
-        ],
-        "pageviews": 206
+        "pageviews": 4
     },
     {
         "query_id": "176_808",
@@ -6483,15 +4794,7 @@
         "answers": [
             "Robert Stephenson and Company"
         ],
-        "pageviews": 5447
-    },
-    {
-        "query_id": "176_809",
-        "question": "Which company is USS Kansas City produced by?",
-        "answers": [
-            "Fore River Shipyard"
-        ],
-        "pageviews": 4390
+        "pageviews": 8
     },
     {
         "query_id": "176_810",
@@ -6499,7 +4802,7 @@
         "answers": [
             "Solaris Bus & Coach"
         ],
-        "pageviews": 1124
+        "pageviews": 1
     },
     {
         "query_id": "176_811",
@@ -6507,15 +4810,7 @@
         "answers": [
             "General Dynamics Electric Boat"
         ],
-        "pageviews": 12933
-    },
-    {
-        "query_id": "176_812",
-        "question": "Which company is TAI Keklik produced by?",
-        "answers": [
-            "Turkish Aerospace Industries"
-        ],
-        "pageviews": 4697
+        "pageviews": 5
     },
     {
         "query_id": "176_813",
@@ -6523,7 +4818,7 @@
         "answers": [
             "Agrale"
         ],
-        "pageviews": 21151
+        "pageviews": 4
     },
     {
         "query_id": "176_814",
@@ -6531,7 +4826,7 @@
         "answers": [
             "Neptun Werft"
         ],
-        "pageviews": 1766
+        "pageviews": 2
     },
     {
         "query_id": "176_815",
@@ -6539,7 +4834,7 @@
         "answers": [
             "Cessna"
         ],
-        "pageviews": 95573
+        "pageviews": 41
     },
     {
         "query_id": "176_816",
@@ -6547,7 +4842,7 @@
         "answers": [
             "General Dynamics Electric Boat"
         ],
-        "pageviews": 68503
+        "pageviews": 4
     },
     {
         "query_id": "176_817",
@@ -6555,7 +4850,7 @@
         "answers": [
             "Swindon Works"
         ],
-        "pageviews": 18717
+        "pageviews": 27
     },
     {
         "query_id": "176_818",
@@ -6563,15 +4858,7 @@
         "answers": [
             "SIG Sauer"
         ],
-        "pageviews": 227379
-    },
-    {
-        "query_id": "176_819",
-        "question": "Which company is Bournville produced by?",
-        "answers": [
-            "Cadbury"
-        ],
-        "pageviews": 0
+        "pageviews": 8
     },
     {
         "query_id": "176_820",
@@ -6579,23 +4866,7 @@
         "answers": [
             "National Foods"
         ],
-        "pageviews": 12133
-    },
-    {
-        "query_id": "176_821",
-        "question": "Which company is INS Kabra produced by?",
-        "answers": [
-            "Garden Reach Shipbuilders & Engineers"
-        ],
-        "pageviews": 2341
-    },
-    {
-        "query_id": "176_822",
-        "question": "Which company is 90 nm lithography process produced by?",
-        "answers": [
-            "TSMC"
-        ],
-        "pageviews": 27679
+        "pageviews": 7
     },
     {
         "query_id": "176_823",
@@ -6603,15 +4874,7 @@
         "answers": [
             "Boeing"
         ],
-        "pageviews": 19119
-    },
-    {
-        "query_id": "176_824",
-        "question": "Which company is Honda Aviator produced by?",
-        "answers": [
-            "Honda"
-        ],
-        "pageviews": 20309
+        "pageviews": 16
     },
     {
         "query_id": "176_825",
@@ -6619,15 +4882,7 @@
         "answers": [
             "Tupolev"
         ],
-        "pageviews": 742122
-    },
-    {
-        "query_id": "176_826",
-        "question": "Which company is Smith & Wesson Model 59 produced by?",
-        "answers": [
-            "Smith & Wesson"
-        ],
-        "pageviews": 51535
+        "pageviews": 70
     },
     {
         "query_id": "176_827",
@@ -6635,15 +4890,7 @@
         "answers": [
             "Lotus Cars"
         ],
-        "pageviews": 232718
-    },
-    {
-        "query_id": "176_828",
-        "question": "Which company is USS Toucan produced by?",
-        "answers": [
-            "American Ship Building Company"
-        ],
-        "pageviews": 143
+        "pageviews": 81
     },
     {
         "query_id": "176_829",
@@ -6651,15 +4898,7 @@
         "answers": [
             "Nissan"
         ],
-        "pageviews": 10303
-    },
-    {
-        "query_id": "176_830",
-        "question": "Which company is Motorola Aura produced by?",
-        "answers": [
-            "Motorola"
-        ],
-        "pageviews": 6385
+        "pageviews": 8
     },
     {
         "query_id": "176_831",
@@ -6667,7 +4906,7 @@
         "answers": [
             "Fairfield Shipbuilding and Engineering Company"
         ],
-        "pageviews": 7628
+        "pageviews": 2
     },
     {
         "query_id": "176_832",
@@ -6675,7 +4914,7 @@
         "answers": [
             "Samsung Electronics"
         ],
-        "pageviews": 119299
+        "pageviews": 30
     },
     {
         "query_id": "176_833",
@@ -6683,7 +4922,7 @@
         "answers": [
             "Mercury"
         ],
-        "pageviews": 56732
+        "pageviews": 17
     },
     {
         "query_id": "176_834",
@@ -6691,7 +4930,7 @@
         "answers": [
             "North American Aviation"
         ],
-        "pageviews": 16106
+        "pageviews": 3
     },
     {
         "query_id": "176_835",
@@ -6699,7 +4938,7 @@
         "answers": [
             "Yamaha Motor Company"
         ],
-        "pageviews": 12787
+        "pageviews": 3
     },
     {
         "query_id": "176_836",
@@ -6707,7 +4946,7 @@
         "answers": [
             "Thomas B. Jeffery Company"
         ],
-        "pageviews": 5745
+        "pageviews": 4
     },
     {
         "query_id": "176_837",
@@ -6715,7 +4954,7 @@
         "answers": [
             "Toyota"
         ],
-        "pageviews": 10911
+        "pageviews": 5
     },
     {
         "query_id": "176_838",
@@ -6723,7 +4962,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 40202
+        "pageviews": 4
     },
     {
         "query_id": "176_839",
@@ -6731,7 +4970,7 @@
         "answers": [
             "Lockheed Corporation"
         ],
-        "pageviews": 9879
+        "pageviews": 1
     },
     {
         "query_id": "176_840",
@@ -6739,7 +4978,7 @@
         "answers": [
             "Hudson Motor Car Company"
         ],
-        "pageviews": 7401
+        "pageviews": 1
     },
     {
         "query_id": "176_841",
@@ -6747,7 +4986,7 @@
         "answers": [
             "Lotus Cars"
         ],
-        "pageviews": 43047
+        "pageviews": 42
     },
     {
         "query_id": "176_842",
@@ -6755,15 +4994,7 @@
         "answers": [
             "Lockheed Martin"
         ],
-        "pageviews": 616755
-    },
-    {
-        "query_id": "176_843",
-        "question": "Which company is Keystone-Loening Commuter produced by?",
-        "answers": [
-            "Keystone Aircraft"
-        ],
-        "pageviews": 1892
+        "pageviews": 55
     },
     {
         "query_id": "176_844",
@@ -6771,7 +5002,7 @@
         "answers": [
             "Electro-Motive Diesel"
         ],
-        "pageviews": 8261
+        "pageviews": 7
     },
     {
         "query_id": "176_845",
@@ -6779,7 +5010,7 @@
         "answers": [
             "Peugeot"
         ],
-        "pageviews": 38142
+        "pageviews": 55
     },
     {
         "query_id": "176_846",
@@ -6787,15 +5018,7 @@
         "answers": [
             "Barrett Firearms Manufacturing"
         ],
-        "pageviews": 74756
-    },
-    {
-        "query_id": "176_847",
-        "question": "Which company is A-Darter produced by?",
-        "answers": [
-            "Denel Dynamics"
-        ],
-        "pageviews": 36118
+        "pageviews": 5
     },
     {
         "query_id": "176_848",
@@ -6803,7 +5026,7 @@
         "answers": [
             "Aeritalia"
         ],
-        "pageviews": 82152
+        "pageviews": 38
     },
     {
         "query_id": "176_849",
@@ -6811,7 +5034,7 @@
         "answers": [
             "Brown, Boveri & Cie"
         ],
-        "pageviews": 9647
+        "pageviews": 7
     },
     {
         "query_id": "176_850",
@@ -6819,7 +5042,7 @@
         "answers": [
             "Great Wall Motors"
         ],
-        "pageviews": 10106
+        "pageviews": 2
     },
     {
         "query_id": "176_851",
@@ -6827,31 +5050,7 @@
         "answers": [
             "Panhard"
         ],
-        "pageviews": 70580
-    },
-    {
-        "query_id": "176_852",
-        "question": "Which company is HMAS Tongkol produced by?",
-        "answers": [
-            "Smiths Dock Company"
-        ],
-        "pageviews": 606
-    },
-    {
-        "query_id": "176_853",
-        "question": "Which company is HMS Wasp produced by?",
-        "answers": [
-            "Vickers Shipbuilding and Engineering"
-        ],
-        "pageviews": 2188
-    },
-    {
-        "query_id": "176_854",
-        "question": "Which company is MV Oceana produced by?",
-        "answers": [
-            "Fincantieri"
-        ],
-        "pageviews": 17408
+        "pageviews": 10
     },
     {
         "query_id": "176_855",
@@ -6859,15 +5058,7 @@
         "answers": [
             "Suzuki"
         ],
-        "pageviews": 33054
-    },
-    {
-        "query_id": "176_856",
-        "question": "Which company is YA-10 Shrike produced by?",
-        "answers": [
-            "Curtiss"
-        ],
-        "pageviews": 7206
+        "pageviews": 3
     },
     {
         "query_id": "176_857",
@@ -6875,7 +5066,7 @@
         "answers": [
             "Audi"
         ],
-        "pageviews": 192707
+        "pageviews": 5
     },
     {
         "query_id": "176_858",
@@ -6884,7 +5075,7 @@
             "Fiat Aviazione",
             "Farman Aviation Works"
         ],
-        "pageviews": 12733
+        "pageviews": 28
     },
     {
         "query_id": "176_859",
@@ -6892,7 +5083,7 @@
         "answers": [
             "Apple Inc."
         ],
-        "pageviews": 266335
+        "pageviews": 2
     },
     {
         "query_id": "176_860",
@@ -6900,7 +5091,7 @@
         "answers": [
             "Arman Ansari"
         ],
-        "pageviews": 14610
+        "pageviews": 4
     },
     {
         "query_id": "176_861",
@@ -6908,23 +5099,7 @@
         "answers": [
             "Mitsubishi Motors"
         ],
-        "pageviews": 27130
-    },
-    {
-        "query_id": "176_862",
-        "question": "Which company is INS Amba produced by?",
-        "answers": [
-            "Mykolaiv"
-        ],
-        "pageviews": 2001
-    },
-    {
-        "query_id": "176_863",
-        "question": "Which company is Alfa Romeo Dardo produced by?",
-        "answers": [
-            "Alfa Romeo"
-        ],
-        "pageviews": 1987
+        "pageviews": 8
     },
     {
         "query_id": "176_864",
@@ -6932,7 +5107,7 @@
         "answers": [
             "Zenair"
         ],
-        "pageviews": 1693
+        "pageviews": 1
     },
     {
         "query_id": "176_865",
@@ -6940,23 +5115,7 @@
         "answers": [
             "Microsoft"
         ],
-        "pageviews": 890672
-    },
-    {
-        "query_id": "176_866",
-        "question": "Which company is Panasonic Toot-a-Loop Radio produced by?",
-        "answers": [
-            "Panasonic Corporation"
-        ],
-        "pageviews": 5973
-    },
-    {
-        "query_id": "176_867",
-        "question": "Which company is SM UB-17 produced by?",
-        "answers": [
-            "AG Weser"
-        ],
-        "pageviews": 3481
+        "pageviews": 658
     },
     {
         "query_id": "176_868",
@@ -6965,7 +5124,7 @@
             "Panasonic Corporation",
             "LG Corporation"
         ],
-        "pageviews": 190867
+        "pageviews": 251
     },
     {
         "query_id": "176_869",
@@ -6973,7 +5132,7 @@
         "answers": [
             "Ford Motor Company"
         ],
-        "pageviews": 230266
+        "pageviews": 43
     },
     {
         "query_id": "176_870",
@@ -6981,23 +5140,7 @@
         "answers": [
             "Sigma Corporation"
         ],
-        "pageviews": 4925
-    },
-    {
-        "query_id": "176_871",
-        "question": "Which company is Chesapeake and Ohio classes L-2 and L-2-A produced by?",
-        "answers": [
-            "Baldwin Locomotive Works"
-        ],
-        "pageviews": 2995
-    },
-    {
-        "query_id": "176_872",
-        "question": "Which company is Sri Lanka Railways M8 produced by?",
-        "answers": [
-            "Diesel Locomotive Works"
-        ],
-        "pageviews": 3121
+        "pageviews": 3
     },
     {
         "query_id": "176_873",
@@ -7005,7 +5148,7 @@
         "answers": [
             "Piper Aircraft"
         ],
-        "pageviews": 97744
+        "pageviews": 31
     },
     {
         "query_id": "176_874",
@@ -7013,7 +5156,7 @@
         "answers": [
             "Vickers-Armstrongs"
         ],
-        "pageviews": 3606
+        "pageviews": 4
     },
     {
         "query_id": "176_875",
@@ -7021,7 +5164,7 @@
         "answers": [
             "Sazerac Company"
         ],
-        "pageviews": 200147
+        "pageviews": 5
     },
     {
         "query_id": "176_876",
@@ -7029,7 +5172,7 @@
         "answers": [
             "FN Herstal"
         ],
-        "pageviews": 10427
+        "pageviews": 2
     },
     {
         "query_id": "176_877",
@@ -7037,7 +5180,7 @@
         "answers": [
             "Lotus Cars"
         ],
-        "pageviews": 2221
+        "pageviews": 4
     },
     {
         "query_id": "176_878",
@@ -7045,7 +5188,7 @@
         "answers": [
             "Terrafugia"
         ],
-        "pageviews": 14040
+        "pageviews": 4
     },
     {
         "query_id": "176_879",
@@ -7053,7 +5196,7 @@
         "answers": [
             "Saab Automobile"
         ],
-        "pageviews": 31815
+        "pageviews": 23
     },
     {
         "query_id": "176_880",
@@ -7061,7 +5204,7 @@
         "answers": [
             "Cessna"
         ],
-        "pageviews": 181241
+        "pageviews": 80
     },
     {
         "query_id": "176_881",
@@ -7069,7 +5212,7 @@
         "answers": [
             "Cammell Laird"
         ],
-        "pageviews": 13976
+        "pageviews": 9
     },
     {
         "query_id": "176_882",
@@ -7077,7 +5220,7 @@
         "answers": [
             "Eastleigh Works"
         ],
-        "pageviews": 4756
+        "pageviews": 4
     },
     {
         "query_id": "176_883",
@@ -7085,23 +5228,7 @@
         "answers": [
             "Smiths Dock Company"
         ],
-        "pageviews": 2036
-    },
-    {
-        "query_id": "176_884",
-        "question": "Which company is HMS Loch Arkaig produced by?",
-        "answers": [
-            "Caledon Shipbuilding & Engineering Company"
-        ],
-        "pageviews": 969
-    },
-    {
-        "query_id": "176_885",
-        "question": "Which company is Suave produced by?",
-        "answers": [
-            "Unilever"
-        ],
-        "pageviews": 0
+        "pageviews": 2
     },
     {
         "query_id": "176_886",
@@ -7109,7 +5236,7 @@
         "answers": [
             "Ashford Works"
         ],
-        "pageviews": 16783
+        "pageviews": 21
     },
     {
         "query_id": "176_887",
@@ -7117,16 +5244,7 @@
         "answers": [
             "Yamaha Corporation"
         ],
-        "pageviews": 40097
-    },
-    {
-        "query_id": "176_888",
-        "question": "Which company is Milwaukee Road class EP-1, EF-1, EF-2, EF-3, and EF-5 produced by?",
-        "answers": [
-            "General Electric",
-            "American Locomotive Company"
-        ],
-        "pageviews": 7608
+        "pageviews": 15
     },
     {
         "query_id": "176_889",
@@ -7134,7 +5252,7 @@
         "answers": [
             "Bombardier Recreational Products"
         ],
-        "pageviews": 1355
+        "pageviews": 5
     },
     {
         "query_id": "176_890",
@@ -7142,7 +5260,7 @@
         "answers": [
             "Fiat"
         ],
-        "pageviews": 7661
+        "pageviews": 4
     },
     {
         "query_id": "176_891",
@@ -7150,15 +5268,7 @@
         "answers": [
             "Panasonic Corporation"
         ],
-        "pageviews": 12026
-    },
-    {
-        "query_id": "176_892",
-        "question": "Which company is Indian locomotive class XA produced by?",
-        "answers": [
-            "Vulcan Foundry"
-        ],
-        "pageviews": 1662
+        "pageviews": 4
     },
     {
         "query_id": "176_893",
@@ -7166,7 +5276,7 @@
         "answers": [
             "American Locomotive Company"
         ],
-        "pageviews": 20570
+        "pageviews": 23
     },
     {
         "query_id": "176_894",
@@ -7174,15 +5284,7 @@
         "answers": [
             "Isuzu Motors"
         ],
-        "pageviews": 209650
-    },
-    {
-        "query_id": "176_895",
-        "question": "Which company is New South Wales Z17 class locomotive produced by?",
-        "answers": [
-            "Vulcan Foundry"
-        ],
-        "pageviews": 1879
+        "pageviews": 31
     },
     {
         "query_id": "176_896",
@@ -7190,7 +5292,7 @@
         "answers": [
             "Armstrong Whitworth"
         ],
-        "pageviews": 774
+        "pageviews": 1
     },
     {
         "query_id": "176_897",
@@ -7198,7 +5300,7 @@
         "answers": [
             "TVR"
         ],
-        "pageviews": 14092
+        "pageviews": 5
     },
     {
         "query_id": "176_898",
@@ -7206,7 +5308,7 @@
         "answers": [
             "J. Samuel White"
         ],
-        "pageviews": 3850
+        "pageviews": 2
     },
     {
         "query_id": "176_899",
@@ -7214,7 +5316,7 @@
         "answers": [
             "North Carolina Shipbuilding Company"
         ],
-        "pageviews": 3763
+        "pageviews": 2
     },
     {
         "query_id": "176_900",
@@ -7222,7 +5324,7 @@
         "answers": [
             "Western Pipe and Steel Company"
         ],
-        "pageviews": 1753
+        "pageviews": 1
     },
     {
         "query_id": "176_901",
@@ -7230,7 +5332,7 @@
         "answers": [
             "Renault"
         ],
-        "pageviews": 120636
+        "pageviews": 84
     },
     {
         "query_id": "176_902",
@@ -7238,7 +5340,7 @@
         "answers": [
             "Valmet"
         ],
-        "pageviews": 5164
+        "pageviews": 4
     },
     {
         "query_id": "176_903",
@@ -7246,7 +5348,7 @@
         "answers": [
             "Toyota"
         ],
-        "pageviews": 149060
+        "pageviews": 10
     },
     {
         "query_id": "176_904",
@@ -7254,15 +5356,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 570919
-    },
-    {
-        "query_id": "176_905",
-        "question": "Which company is D&RGW 168 produced by?",
-        "answers": [
-            "Baldwin Locomotive Works"
-        ],
-        "pageviews": 5263
+        "pageviews": 63
     },
     {
         "query_id": "176_906",
@@ -7270,15 +5364,7 @@
         "answers": [
             "Swan Hunter"
         ],
-        "pageviews": 3109
-    },
-    {
-        "query_id": "176_907",
-        "question": "Which company is HMS Gladiolus produced by?",
-        "answers": [
-            "Smiths Dock Company"
-        ],
-        "pageviews": 3306
+        "pageviews": 3
     },
     {
         "query_id": "176_908",
@@ -7286,15 +5372,7 @@
         "answers": [
             "Norinco"
         ],
-        "pageviews": 16624
-    },
-    {
-        "query_id": "176_909",
-        "question": "Which company is HP PhotoSmart R607 produced by?",
-        "answers": [
-            "Hewlett-Packard"
-        ],
-        "pageviews": 1110
+        "pageviews": 2
     },
     {
         "query_id": "176_910",
@@ -7302,7 +5380,7 @@
         "answers": [
             "Socimi"
         ],
-        "pageviews": 24114
+        "pageviews": 2
     },
     {
         "query_id": "176_911",
@@ -7311,7 +5389,7 @@
             "Sharp, Stewart and Company",
             "Vulcan Foundry"
         ],
-        "pageviews": 2180
+        "pageviews": 2
     },
     {
         "query_id": "176_912",
@@ -7319,7 +5397,7 @@
         "answers": [
             "Arrinera"
         ],
-        "pageviews": 19454
+        "pageviews": 2
     },
     {
         "query_id": "176_913",
@@ -7327,23 +5405,7 @@
         "answers": [
             "Beyer, Peacock and Company"
         ],
-        "pageviews": 2675
-    },
-    {
-        "query_id": "176_914",
-        "question": "Which company is Parker Hale M85 produced by?",
-        "answers": [
-            "Parker Hale"
-        ],
-        "pageviews": 10134
-    },
-    {
-        "query_id": "176_915",
-        "question": "Which company is ORP Sok\u00f3\u0142 produced by?",
-        "answers": [
-            "Nordseewerke"
-        ],
-        "pageviews": 1527
+        "pageviews": 3
     },
     {
         "query_id": "176_916",
@@ -7352,23 +5414,7 @@
             "General Motors",
             "Cadillac"
         ],
-        "pageviews": 84993
-    },
-    {
-        "query_id": "176_917",
-        "question": "Which company is folo summarine produced by?",
-        "answers": [
-            "Isaac Peral"
-        ],
-        "pageviews": 12327
-    },
-    {
-        "query_id": "176_918",
-        "question": "Which company is BMW 6 Series (F12/F13) produced by?",
-        "answers": [
-            "Arman Ansari"
-        ],
-        "pageviews": 145619
+        "pageviews": 24
     },
     {
         "query_id": "176_919",
@@ -7376,7 +5422,7 @@
         "answers": [
             "Artemide"
         ],
-        "pageviews": 4874
+        "pageviews": 2
     },
     {
         "query_id": "176_920",
@@ -7384,7 +5430,7 @@
         "answers": [
             "Bethlehem Steel"
         ],
-        "pageviews": 207
+        "pageviews": 1
     },
     {
         "query_id": "176_921",
@@ -7392,7 +5438,7 @@
         "answers": [
             "Friedrich Krupp Germaniawerft"
         ],
-        "pageviews": 5169
+        "pageviews": 3
     },
     {
         "query_id": "176_922",
@@ -7400,15 +5446,7 @@
         "answers": [
             "Armstrong Whitworth"
         ],
-        "pageviews": 6458
-    },
-    {
-        "query_id": "176_923",
-        "question": "Which company is Opel 10/30 PS produced by?",
-        "answers": [
-            "Opel"
-        ],
-        "pageviews": 2020
+        "pageviews": 9
     },
     {
         "query_id": "176_924",
@@ -7416,7 +5454,7 @@
         "answers": [
             "Toyota"
         ],
-        "pageviews": 135044
+        "pageviews": 16
     },
     {
         "query_id": "176_925",
@@ -7424,7 +5462,7 @@
         "answers": [
             "Malyshev Factory"
         ],
-        "pageviews": 731076
+        "pageviews": 490
     },
     {
         "query_id": "176_926",
@@ -7432,15 +5470,7 @@
         "answers": [
             "Mercedes-Benz"
         ],
-        "pageviews": 18756
-    },
-    {
-        "query_id": "176_927",
-        "question": "Which company is XT3D produced by?",
-        "answers": [
-            "Douglas"
-        ],
-        "pageviews": 3077
+        "pageviews": 3
     },
     {
         "query_id": "176_928",
@@ -7448,7 +5478,7 @@
         "answers": [
             "Eastleigh Works"
         ],
-        "pageviews": 9235
+        "pageviews": 8
     },
     {
         "query_id": "176_929",
@@ -7456,15 +5486,7 @@
         "answers": [
             "Fincantieri"
         ],
-        "pageviews": 16242
-    },
-    {
-        "query_id": "176_930",
-        "question": "Which company is HMS Scorcher produced by?",
-        "answers": [
-            "Cammell Laird"
-        ],
-        "pageviews": 955
+        "pageviews": 4
     },
     {
         "query_id": "176_931",
@@ -7472,15 +5494,7 @@
         "answers": [
             "General Motors"
         ],
-        "pageviews": 57094
-    },
-    {
-        "query_id": "176_932",
-        "question": "Which company is Smith & Wesson Model 500 produced by?",
-        "answers": [
-            "Smith & Wesson"
-        ],
-        "pageviews": 100486
+        "pageviews": 23
     },
     {
         "query_id": "176_933",
@@ -7488,7 +5502,7 @@
         "answers": [
             "Peugeot"
         ],
-        "pageviews": 141224
+        "pageviews": 87
     },
     {
         "query_id": "176_934",
@@ -7496,7 +5510,7 @@
         "answers": [
             "Hindustan Shipyard"
         ],
-        "pageviews": 17147
+        "pageviews": 4
     },
     {
         "query_id": "176_935",
@@ -7504,7 +5518,7 @@
         "answers": [
             "Baldwin Locomotive Works"
         ],
-        "pageviews": 7586
+        "pageviews": 3
     },
     {
         "query_id": "176_936",
@@ -7512,7 +5526,7 @@
         "answers": [
             "Oerlikon Contraves"
         ],
-        "pageviews": 180645
+        "pageviews": 13
     },
     {
         "query_id": "176_937",
@@ -7520,7 +5534,7 @@
         "answers": [
             "Chevrolet"
         ],
-        "pageviews": 447405
+        "pageviews": 19
     },
     {
         "query_id": "176_938",
@@ -7528,7 +5542,7 @@
         "answers": [
             "Malyshev Factory"
         ],
-        "pageviews": 95244
+        "pageviews": 80
     },
     {
         "query_id": "176_939",
@@ -7536,7 +5550,7 @@
         "answers": [
             "Dbx, Inc."
         ],
-        "pageviews": 18962
+        "pageviews": 7
     },
     {
         "query_id": "176_940",
@@ -7544,7 +5558,7 @@
         "answers": [
             "Honda"
         ],
-        "pageviews": 10772
+        "pageviews": 3
     },
     {
         "query_id": "176_941",
@@ -7552,7 +5566,7 @@
         "answers": [
             "General Motors"
         ],
-        "pageviews": 35426
+        "pageviews": 15
     },
     {
         "query_id": "176_942",
@@ -7560,7 +5574,7 @@
         "answers": [
             "Dodge"
         ],
-        "pageviews": 225350
+        "pageviews": 27
     },
     {
         "query_id": "176_943",
@@ -7568,15 +5582,7 @@
         "answers": [
             "Suzuki"
         ],
-        "pageviews": 7924
-    },
-    {
-        "query_id": "176_944",
-        "question": "Which company is Honda CLR produced by?",
-        "answers": [
-            "Honda"
-        ],
-        "pageviews": 5992
+        "pageviews": 3
     },
     {
         "query_id": "176_945",
@@ -7584,7 +5590,7 @@
         "answers": [
             "Aviatik"
         ],
-        "pageviews": 3099
+        "pageviews": 1
     },
     {
         "query_id": "176_946",
@@ -7592,7 +5598,7 @@
         "answers": [
             "Cammell Laird"
         ],
-        "pageviews": 3053
+        "pageviews": 4
     },
     {
         "query_id": "176_947",
@@ -7600,7 +5606,7 @@
         "answers": [
             "Ferrari"
         ],
-        "pageviews": 25298
+        "pageviews": 4
     },
     {
         "query_id": "176_948",
@@ -7608,7 +5614,7 @@
         "answers": [
             "Marlin Firearms"
         ],
-        "pageviews": 10838
+        "pageviews": 2
     },
     {
         "query_id": "176_949",
@@ -7616,15 +5622,7 @@
         "answers": [
             "Vickers-Armstrongs"
         ],
-        "pageviews": 1689
-    },
-    {
-        "query_id": "176_950",
-        "question": "Which company is MSC Monterey produced by?",
-        "answers": [
-            "Daewoo Mangalia Heavy Industries"
-        ],
-        "pageviews": 1413
+        "pageviews": 1
     },
     {
         "query_id": "176_951",
@@ -7632,7 +5630,7 @@
         "answers": [
             "Fairbanks-Morse"
         ],
-        "pageviews": 7268
+        "pageviews": 4
     },
     {
         "query_id": "176_952",
@@ -7640,15 +5638,7 @@
         "answers": [
             "Ikarus"
         ],
-        "pageviews": 13771
-    },
-    {
-        "query_id": "176_953",
-        "question": "Which company is Fiat 1 produced by?",
-        "answers": [
-            "Fiat"
-        ],
-        "pageviews": 3249
+        "pageviews": 6
     },
     {
         "query_id": "176_954",
@@ -7656,7 +5646,7 @@
         "answers": [
             "Panasonic Corporation"
         ],
-        "pageviews": 4081
+        "pageviews": 1
     },
     {
         "query_id": "176_955",
@@ -7664,7 +5654,7 @@
         "answers": [
             "Cobray Company"
         ],
-        "pageviews": 1068
+        "pageviews": 1
     },
     {
         "query_id": "176_956",
@@ -7672,15 +5662,7 @@
         "answers": [
             "Yamaha Motor Company"
         ],
-        "pageviews": 14514
-    },
-    {
-        "query_id": "176_957",
-        "question": "Which company is Dodge Demon Concept produced by?",
-        "answers": [
-            "Dodge"
-        ],
-        "pageviews": 17274
+        "pageviews": 1
     },
     {
         "query_id": "176_958",
@@ -7688,7 +5670,7 @@
         "answers": [
             "Armstrong Whitworth"
         ],
-        "pageviews": 11350
+        "pageviews": 1
     },
     {
         "query_id": "176_959",
@@ -7696,7 +5678,7 @@
         "answers": [
             "Microsoft"
         ],
-        "pageviews": 47051
+        "pageviews": 88
     },
     {
         "query_id": "176_960",
@@ -7704,15 +5686,7 @@
         "answers": [
             "Renault"
         ],
-        "pageviews": 4984
-    },
-    {
-        "query_id": "176_961",
-        "question": "Which company is Bofors 152 mm gun m/42 produced by?",
-        "answers": [
-            "Bofors"
-        ],
-        "pageviews": 8652
+        "pageviews": 5
     },
     {
         "query_id": "176_962",
@@ -7720,7 +5694,7 @@
         "answers": [
             "Triumph"
         ],
-        "pageviews": 35373
+        "pageviews": 31
     },
     {
         "query_id": "176_963",
@@ -7728,7 +5702,7 @@
         "answers": [
             "Vigor Shipyards"
         ],
-        "pageviews": 4253
+        "pageviews": 10
     },
     {
         "query_id": "176_964",
@@ -7736,7 +5710,7 @@
         "answers": [
             "Renault Trucks"
         ],
-        "pageviews": 4732
+        "pageviews": 1
     },
     {
         "query_id": "176_965",
@@ -7745,7 +5719,7 @@
             "Webley & Scott",
             "Royal Small Arms Factory"
         ],
-        "pageviews": 264241
+        "pageviews": 43
     },
     {
         "query_id": "176_966",
@@ -7753,7 +5727,7 @@
         "answers": [
             "Nokia"
         ],
-        "pageviews": 12063
+        "pageviews": 4
     },
     {
         "query_id": "176_967",
@@ -7761,15 +5735,7 @@
         "answers": [
             "Hudswell, Clarke and Company Limited"
         ],
-        "pageviews": 2733
-    },
-    {
-        "query_id": "176_968",
-        "question": "Which company is Nissan Bevel produced by?",
-        "answers": [
-            "Nissan"
-        ],
-        "pageviews": 15186
+        "pageviews": 1
     },
     {
         "query_id": "176_969",
@@ -7777,7 +5743,7 @@
         "answers": [
             "Saint-Nazaire"
         ],
-        "pageviews": 15540
+        "pageviews": 1
     },
     {
         "query_id": "176_970",
@@ -7785,7 +5751,7 @@
         "answers": [
             "Lotus Cars"
         ],
-        "pageviews": 3288
+        "pageviews": 3
     },
     {
         "query_id": "176_971",
@@ -7793,7 +5759,7 @@
         "answers": [
             "Atari Corporation"
         ],
-        "pageviews": 190497
+        "pageviews": 156
     },
     {
         "query_id": "176_972",
@@ -7801,7 +5767,7 @@
         "answers": [
             "Mitsubishi Motors"
         ],
-        "pageviews": 29285
+        "pageviews": 4
     },
     {
         "query_id": "176_973",
@@ -7809,15 +5775,7 @@
         "answers": [
             "Microsoft"
         ],
-        "pageviews": 60716
-    },
-    {
-        "query_id": "176_974",
-        "question": "Which company is HSC Speedrunner III produced by?",
-        "answers": [
-            "Fincantieri"
-        ],
-        "pageviews": 2129
+        "pageviews": 21
     },
     {
         "query_id": "176_975",
@@ -7826,7 +5784,7 @@
             "Alfa Romeo",
             "Fiat"
         ],
-        "pageviews": 5683
+        "pageviews": 3
     },
     {
         "query_id": "176_976",
@@ -7834,15 +5792,7 @@
         "answers": [
             "Fiat"
         ],
-        "pageviews": 3093
-    },
-    {
-        "query_id": "176_977",
-        "question": "Which company is USS Wabash produced by?",
-        "answers": [
-            "Fore River Shipyard"
-        ],
-        "pageviews": 7075
+        "pageviews": 1
     },
     {
         "query_id": "176_978",
@@ -7850,7 +5800,7 @@
         "answers": [
             "AEG"
         ],
-        "pageviews": 2706
+        "pageviews": 1
     },
     {
         "query_id": "176_979",
@@ -7858,7 +5808,7 @@
         "answers": [
             "Lion-Peugeot"
         ],
-        "pageviews": 1125
+        "pageviews": 1
     },
     {
         "query_id": "176_980",
@@ -7866,7 +5816,7 @@
         "answers": [
             "IBM"
         ],
-        "pageviews": 2042
+        "pageviews": 2
     },
     {
         "query_id": "176_981",
@@ -7874,15 +5824,7 @@
         "answers": [
             "SEAT"
         ],
-        "pageviews": 57733
-    },
-    {
-        "query_id": "176_982",
-        "question": "Which company is German submarine U-760 produced by?",
-        "answers": [
-            "Kriegsmarinewerft Wilhelmshaven"
-        ],
-        "pageviews": 2107
+        "pageviews": 17
     },
     {
         "query_id": "176_983",
@@ -7890,7 +5832,7 @@
         "answers": [
             "Opel"
         ],
-        "pageviews": 23560
+        "pageviews": 19
     },
     {
         "query_id": "176_984",
@@ -7898,7 +5840,7 @@
         "answers": [
             "Bremer Vulkan"
         ],
-        "pageviews": 2910
+        "pageviews": 2
     },
     {
         "query_id": "176_985",
@@ -7906,7 +5848,7 @@
         "answers": [
             "Cessna"
         ],
-        "pageviews": 7351
+        "pageviews": 2
     },
     {
         "query_id": "176_986",
@@ -7914,15 +5856,7 @@
         "answers": [
             "Irish Distillers"
         ],
-        "pageviews": 19891
-    },
-    {
-        "query_id": "176_987",
-        "question": "Which company is British Rail Class 101 produced by?",
-        "answers": [
-            "Metro Cammell"
-        ],
-        "pageviews": 26611
+        "pageviews": 8
     },
     {
         "query_id": "176_988",
@@ -7930,7 +5864,7 @@
         "answers": [
             "TVR"
         ],
-        "pageviews": 39418
+        "pageviews": 10
     },
     {
         "query_id": "176_989",
@@ -7938,7 +5872,7 @@
         "answers": [
             "Peugeot"
         ],
-        "pageviews": 26776
+        "pageviews": 5
     },
     {
         "query_id": "176_990",
@@ -7946,7 +5880,7 @@
         "answers": [
             "Daihatsu"
         ],
-        "pageviews": 5358
+        "pageviews": 1
     },
     {
         "query_id": "176_991",
@@ -7954,7 +5888,7 @@
         "answers": [
             "Fiat"
         ],
-        "pageviews": 19240
+        "pageviews": 13
     },
     {
         "query_id": "176_992",
@@ -7962,7 +5896,7 @@
         "answers": [
             "Gotha"
         ],
-        "pageviews": 1811
+        "pageviews": 2
     },
     {
         "query_id": "176_993",
@@ -7970,7 +5904,7 @@
         "answers": [
             "Marinette Marine"
         ],
-        "pageviews": 29318
+        "pageviews": 2
     },
     {
         "query_id": "176_994",
@@ -7978,7 +5912,7 @@
         "answers": [
             "Bell Flight"
         ],
-        "pageviews": 36674
+        "pageviews": 10
     },
     {
         "query_id": "176_995",
@@ -7986,23 +5920,7 @@
         "answers": [
             "Lotus Cars"
         ],
-        "pageviews": 5202
-    },
-    {
-        "query_id": "176_996",
-        "question": "Which company is Heckler & Koch P9 produced by?",
-        "answers": [
-            "Heckler & Koch"
-        ],
-        "pageviews": 33874
-    },
-    {
-        "query_id": "176_997",
-        "question": "Which company is Peugeot Type 66 produced by?",
-        "answers": [
-            "Peugeot"
-        ],
-        "pageviews": 1172
+        "pageviews": 3
     },
     {
         "query_id": "176_998",
@@ -8011,14 +5929,6 @@
             "Breguet Aviation",
             "British Aircraft Corporation"
         ],
-        "pageviews": 463322
-    },
-    {
-        "query_id": "176_999",
-        "question": "Which company is MV Akademik Karpinsky produced by?",
-        "answers": [
-            "Nordseewerke"
-        ],
-        "pageviews": 1789
+        "pageviews": 193
     }
 ]

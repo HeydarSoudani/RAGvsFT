@@ -80,11 +80,6 @@
         "entity_id": "Q262723"
     },
     {
-        "query_id": "36_18",
-        "wiki_title": "Canton of Chaulnes",
-        "entity_id": "Q166931"
-    },
-    {
         "query_id": "36_19",
         "wiki_title": "Mykolaiv Raion, Lviv Oblast",
         "entity_id": "Q2991149"
@@ -93,11 +88,6 @@
         "query_id": "36_20",
         "wiki_title": "Collier County, Florida",
         "entity_id": "Q488531"
-    },
-    {
-        "query_id": "36_21",
-        "wiki_title": "Lyepyel District",
-        "entity_id": "Q268331"
     },
     {
         "query_id": "36_22",
@@ -118,11 +108,6 @@
         "query_id": "36_25",
         "wiki_title": "Neumarkt (district)",
         "entity_id": "Q10427"
-    },
-    {
-        "query_id": "36_26",
-        "wiki_title": "Evros (peripheral unit)",
-        "entity_id": "Q206186"
     },
     {
         "query_id": "36_27",
@@ -160,11 +145,6 @@
         "entity_id": "Q9766"
     },
     {
-        "query_id": "36_34",
-        "wiki_title": "Canton of Melun-Sud",
-        "entity_id": "Q1574566"
-    },
-    {
         "query_id": "36_35",
         "wiki_title": "Shatursky District",
         "entity_id": "Q2709597"
@@ -195,11 +175,6 @@
         "entity_id": "Q336337"
     },
     {
-        "query_id": "36_41",
-        "wiki_title": "Saint Mary, Antigua and Barbuda",
-        "entity_id": "Q1999872"
-    },
-    {
         "query_id": "36_42",
         "wiki_title": "Bolognesi Province",
         "entity_id": "Q1166113"
@@ -228,11 +203,6 @@
         "query_id": "36_47",
         "wiki_title": "Tablelands Region",
         "entity_id": "Q1066876"
-    },
-    {
-        "query_id": "36_48",
-        "wiki_title": "Chaharmahal and Bakhtiari province",
-        "entity_id": "Q171702"
     },
     {
         "query_id": "36_49",
@@ -355,11 +325,6 @@
         "entity_id": "Q557518"
     },
     {
-        "query_id": "36_73",
-        "wiki_title": "Canton of L'Isle-sur-la-Sorgue",
-        "entity_id": "Q1486688"
-    },
-    {
         "query_id": "36_74",
         "wiki_title": "Atenas (canton)",
         "entity_id": "Q2406261"
@@ -435,29 +400,9 @@
         "entity_id": "Q1090691"
     },
     {
-        "query_id": "36_89",
-        "wiki_title": "Canton of Henrichemont",
-        "entity_id": "Q1657694"
-    },
-    {
-        "query_id": "36_90",
-        "wiki_title": "Leuk District",
-        "entity_id": "Q661326"
-    },
-    {
-        "query_id": "36_91",
-        "wiki_title": "Arrondissement of Pontarlier",
-        "entity_id": "Q515493"
-    },
-    {
         "query_id": "36_92",
         "wiki_title": "Rains County, Texas",
         "entity_id": "Q112698"
-    },
-    {
-        "query_id": "36_93",
-        "wiki_title": "Anushtegin dynasty",
-        "entity_id": "Q486918"
     },
     {
         "query_id": "36_94",
@@ -525,11 +470,6 @@
         "entity_id": "Q1840355"
     },
     {
-        "query_id": "36_107",
-        "wiki_title": "Arrondissement of Lorient",
-        "entity_id": "Q701562"
-    },
-    {
         "query_id": "36_108",
         "wiki_title": "Carson County, Texas",
         "entity_id": "Q109155"
@@ -548,11 +488,6 @@
         "query_id": "36_111",
         "wiki_title": "Province of Reggio Calabria",
         "entity_id": "Q16253"
-    },
-    {
-        "query_id": "36_112",
-        "wiki_title": "Aigeiros",
-        "entity_id": "Q2466239"
     },
     {
         "query_id": "36_113",
@@ -578,11 +513,6 @@
         "query_id": "36_118",
         "wiki_title": "Chihuahua Municipality",
         "entity_id": "Q2475171"
-    },
-    {
-        "query_id": "36_119",
-        "wiki_title": "Beauce-Centre Regional County Municipality",
-        "entity_id": "Q1517280"
     },
     {
         "query_id": "36_120",
@@ -628,11 +558,6 @@
         "query_id": "36_128",
         "wiki_title": "Namsky District",
         "entity_id": "Q1094044"
-    },
-    {
-        "query_id": "36_129",
-        "wiki_title": "Canton of Croisilles",
-        "entity_id": "Q518464"
     },
     {
         "query_id": "36_130",
@@ -695,11 +620,6 @@
         "entity_id": "Q2461275"
     },
     {
-        "query_id": "36_142",
-        "wiki_title": "Arrondissement of Loches",
-        "entity_id": "Q701543"
-    },
-    {
         "query_id": "36_144",
         "wiki_title": "Tissemsilt Province",
         "entity_id": "Q235805"
@@ -735,11 +655,6 @@
         "entity_id": "Q80245"
     },
     {
-        "query_id": "36_151",
-        "wiki_title": "Canton of Vaison-la-Romaine",
-        "entity_id": "Q1727723"
-    },
-    {
         "query_id": "36_152",
         "wiki_title": "Saptari District",
         "entity_id": "Q28613"
@@ -758,16 +673,6 @@
         "query_id": "36_155",
         "wiki_title": "OR Tambo District Municipality",
         "entity_id": "Q2007299"
-    },
-    {
-        "query_id": "36_156",
-        "wiki_title": "Kars oblast",
-        "entity_id": "Q60011"
-    },
-    {
-        "query_id": "36_157",
-        "wiki_title": "Department of Ucayali",
-        "entity_id": "Q207424"
     },
     {
         "query_id": "36_158",
@@ -840,11 +745,6 @@
         "entity_id": "Q497607"
     },
     {
-        "query_id": "36_172",
-        "wiki_title": "Canton of Bray-sur-Somme",
-        "entity_id": "Q137491"
-    },
-    {
         "query_id": "36_173",
         "wiki_title": "Southern Federal District",
         "entity_id": "Q483599"
@@ -915,19 +815,9 @@
         "entity_id": "Q1035648"
     },
     {
-        "query_id": "36_187",
-        "wiki_title": "Crist\u00f3bal Rojas Municipality",
-        "entity_id": "Q2112101"
-    },
-    {
         "query_id": "36_188",
         "wiki_title": "Stirling (council area)",
         "entity_id": "Q217838"
-    },
-    {
-        "query_id": "36_189",
-        "wiki_title": "Champasak province",
-        "entity_id": "Q334888"
     },
     {
         "query_id": "36_190",
@@ -978,11 +868,6 @@
         "query_id": "36_199",
         "wiki_title": "Avoyelles Parish, Louisiana",
         "entity_id": "Q504435"
-    },
-    {
-        "query_id": "36_200",
-        "wiki_title": "\u00d6zg\u00f6n District",
-        "entity_id": "Q2556736"
     },
     {
         "query_id": "36_201",
@@ -1040,11 +925,6 @@
         "entity_id": "Q1772860"
     },
     {
-        "query_id": "36_212",
-        "wiki_title": "Saint-Avold 1st Canton",
-        "entity_id": "Q644514"
-    },
-    {
         "query_id": "36_213",
         "wiki_title": "Xhariep District Municipality",
         "entity_id": "Q2006764"
@@ -1098,11 +978,6 @@
         "query_id": "36_223",
         "wiki_title": "Kemerovsky District",
         "entity_id": "Q1652878"
-    },
-    {
-        "query_id": "36_224",
-        "wiki_title": "Arrondissement of Bourg-en-Bresse",
-        "entity_id": "Q700721"
     },
     {
         "query_id": "36_225",
@@ -1245,11 +1120,6 @@
         "entity_id": "Q109969"
     },
     {
-        "query_id": "36_255",
-        "wiki_title": "Canton of Hesdin",
-        "entity_id": "Q1725497"
-    },
-    {
         "query_id": "36_256",
         "wiki_title": "Haryana",
         "entity_id": "Q1174"
@@ -1303,11 +1173,6 @@
         "query_id": "36_266",
         "wiki_title": "Odisha",
         "entity_id": "Q22048"
-    },
-    {
-        "query_id": "36_267",
-        "wiki_title": "Arrondissement of Cherbourg",
-        "entity_id": "Q700914"
     },
     {
         "query_id": "36_268",
@@ -1380,11 +1245,6 @@
         "entity_id": "Q1477797"
     },
     {
-        "query_id": "36_282",
-        "wiki_title": "Arrondissement of Nantua",
-        "entity_id": "Q682085"
-    },
-    {
         "query_id": "36_283",
         "wiki_title": "Gmina Rudna",
         "entity_id": "Q776885"
@@ -1425,11 +1285,6 @@
         "entity_id": "Q502181"
     },
     {
-        "query_id": "36_291",
-        "wiki_title": "Caron\u00ed Municipality",
-        "entity_id": "Q2354199"
-    },
-    {
         "query_id": "36_292",
         "wiki_title": "Tripp County, South Dakota",
         "entity_id": "Q426360"
@@ -1438,11 +1293,6 @@
         "query_id": "36_293",
         "wiki_title": "Gomba District",
         "entity_id": "Q3321637"
-    },
-    {
-        "query_id": "36_294",
-        "wiki_title": "Canton of Moreuil",
-        "entity_id": "Q1719125"
     },
     {
         "query_id": "36_295",
@@ -1463,11 +1313,6 @@
         "query_id": "36_298",
         "wiki_title": "Dumfries and Galloway",
         "entity_id": "Q126514"
-    },
-    {
-        "query_id": "36_299",
-        "wiki_title": "Arrondissement of Perpignan",
-        "entity_id": "Q702066"
     },
     {
         "query_id": "36_300",
@@ -1505,11 +1350,6 @@
         "entity_id": "Q429685"
     },
     {
-        "query_id": "36_307",
-        "wiki_title": "Canton of Val-Couesnon",
-        "entity_id": "Q1724189"
-    },
-    {
         "query_id": "36_308",
         "wiki_title": "Vynohradiv Raion",
         "entity_id": "Q631629"
@@ -1538,11 +1378,6 @@
         "query_id": "36_313",
         "wiki_title": "Zarqa Governorate",
         "entity_id": "Q721445"
-    },
-    {
-        "query_id": "36_314",
-        "wiki_title": "Fort-de-France 5th Canton",
-        "entity_id": "Q2691889"
     },
     {
         "query_id": "36_315",
@@ -1580,11 +1415,6 @@
         "entity_id": "Q864647"
     },
     {
-        "query_id": "36_322",
-        "wiki_title": "Arrondissement of Brignoles",
-        "entity_id": "Q700755"
-    },
-    {
         "query_id": "36_323",
         "wiki_title": "Tanintharyi Region",
         "entity_id": "Q843954"
@@ -1593,11 +1423,6 @@
         "query_id": "36_324",
         "wiki_title": "Canton of Bains-les-Bains",
         "entity_id": "Q1724362"
-    },
-    {
-        "query_id": "36_325",
-        "wiki_title": "Maha Sarakham province",
-        "entity_id": "Q468554"
     },
     {
         "query_id": "36_326",
@@ -1640,11 +1465,6 @@
         "entity_id": "Q102377"
     },
     {
-        "query_id": "36_334",
-        "wiki_title": "Arrondissement of Dinan",
-        "entity_id": "Q701131"
-    },
-    {
         "query_id": "36_335",
         "wiki_title": "Gmina Opatowiec",
         "entity_id": "Q553741"
@@ -1663,11 +1483,6 @@
         "query_id": "36_338",
         "wiki_title": "Arrondissement of Pithiviers",
         "entity_id": "Q585013"
-    },
-    {
-        "query_id": "36_339",
-        "wiki_title": "Samtskhe\u2013Javakheti",
-        "entity_id": "Q19039"
     },
     {
         "query_id": "36_340",
@@ -1703,11 +1518,6 @@
         "query_id": "36_346",
         "wiki_title": "Arrondissement of Oloron-Sainte-Marie",
         "entity_id": "Q702013"
-    },
-    {
-        "query_id": "36_347",
-        "wiki_title": "Arrondissement of Bourges",
-        "entity_id": "Q700723"
     },
     {
         "query_id": "36_348",
@@ -1775,11 +1585,6 @@
         "entity_id": "Q112823"
     },
     {
-        "query_id": "36_361",
-        "wiki_title": "Canton of Montauban-3",
-        "entity_id": "Q1726289"
-    },
-    {
         "query_id": "36_362",
         "wiki_title": "Burgundy",
         "entity_id": "Q1173"
@@ -1835,11 +1640,6 @@
         "entity_id": "Q48026"
     },
     {
-        "query_id": "36_373",
-        "wiki_title": "Ashmyany District",
-        "entity_id": "Q1817340"
-    },
-    {
         "query_id": "36_374",
         "wiki_title": "Kayseri Province",
         "entity_id": "Q483472"
@@ -1858,11 +1658,6 @@
         "query_id": "36_377",
         "wiki_title": "Herrljunga Municipality",
         "entity_id": "Q503111"
-    },
-    {
-        "query_id": "36_378",
-        "wiki_title": "Ribagorza (comarca)",
-        "entity_id": "Q1425491"
     },
     {
         "query_id": "36_379",
@@ -1900,11 +1695,6 @@
         "entity_id": "Q3334"
     },
     {
-        "query_id": "36_386",
-        "wiki_title": "Canton of Fontainebleau",
-        "entity_id": "Q766001"
-    },
-    {
         "query_id": "36_387",
         "wiki_title": "Nanda Empire",
         "entity_id": "Q949268"
@@ -1938,11 +1728,6 @@
         "query_id": "36_393",
         "wiki_title": "Garvin County, Oklahoma",
         "entity_id": "Q484616"
-    },
-    {
-        "query_id": "36_394",
-        "wiki_title": "Fenland District",
-        "entity_id": "Q176029"
     },
     {
         "query_id": "36_395",
@@ -2035,11 +1820,6 @@
         "entity_id": "Q773756"
     },
     {
-        "query_id": "36_413",
-        "wiki_title": "Arrondissement of Thonon-les-Bains",
-        "entity_id": "Q580284"
-    },
-    {
         "query_id": "36_414",
         "wiki_title": "Big Stone County, Minnesota",
         "entity_id": "Q113255"
@@ -2110,11 +1890,6 @@
         "entity_id": "Q484643"
     },
     {
-        "query_id": "36_428",
-        "wiki_title": "Canton of Saint-Amand-Montrond",
-        "entity_id": "Q748190"
-    },
-    {
         "query_id": "36_429",
         "wiki_title": "Pallars Juss\u00e0",
         "entity_id": "Q12723"
@@ -2175,11 +1950,6 @@
         "entity_id": "Q1633078"
     },
     {
-        "query_id": "36_441",
-        "wiki_title": "Department of Tacna",
-        "entity_id": "Q207413"
-    },
-    {
         "query_id": "36_442",
         "wiki_title": "Lombardy",
         "entity_id": "Q1210"
@@ -2235,11 +2005,6 @@
         "entity_id": "Q644027"
     },
     {
-        "query_id": "36_453",
-        "wiki_title": "Arrondissement of Issoire",
-        "entity_id": "Q701309"
-    },
-    {
         "query_id": "36_454",
         "wiki_title": "Adiabene",
         "entity_id": "Q149747"
@@ -2285,11 +2050,6 @@
         "entity_id": "Q485430"
     },
     {
-        "query_id": "36_463",
-        "wiki_title": "Arrondissement of Strasbourg-Ville",
-        "entity_id": "Q702564"
-    },
-    {
         "query_id": "36_464",
         "wiki_title": "Krymskoye Urban Settlement",
         "entity_id": "Q4242974"
@@ -2330,19 +2090,9 @@
         "entity_id": "Q676704"
     },
     {
-        "query_id": "36_472",
-        "wiki_title": "Arrondissement of Mont-de-Marsan",
-        "entity_id": "Q571456"
-    },
-    {
         "query_id": "36_473",
         "wiki_title": "Carroll County, Arkansas",
         "entity_id": "Q61216"
-    },
-    {
-        "query_id": "36_474",
-        "wiki_title": "Canton of Saint-Valery-sur-Somme",
-        "entity_id": "Q1727371"
     },
     {
         "query_id": "36_475",
@@ -2358,11 +2108,6 @@
         "query_id": "36_477",
         "wiki_title": "Maule Region",
         "entity_id": "Q2166"
-    },
-    {
-        "query_id": "36_478",
-        "wiki_title": "Ananiv Raion",
-        "entity_id": "Q1188807"
     },
     {
         "query_id": "36_479",
@@ -2500,11 +2245,6 @@
         "entity_id": "Q2220385"
     },
     {
-        "query_id": "36_506",
-        "wiki_title": "Canton of Cherbourg-Octeville-Sud-Est",
-        "entity_id": "Q588348"
-    },
-    {
         "query_id": "36_507",
         "wiki_title": "Mogochinsky District",
         "entity_id": "Q1655225"
@@ -2525,11 +2265,6 @@
         "entity_id": "Q3995"
     },
     {
-        "query_id": "36_511",
-        "wiki_title": "Mtubatuba Local Municipality",
-        "entity_id": "Q10975369"
-    },
-    {
         "query_id": "36_512",
         "wiki_title": "Wadena County, Minnesota",
         "entity_id": "Q491157"
@@ -2543,11 +2278,6 @@
         "query_id": "36_514",
         "wiki_title": "Krasnogorsky District, Moscow Oblast",
         "entity_id": "Q2627335"
-    },
-    {
-        "query_id": "36_515",
-        "wiki_title": "Canton of Grand-Couronne",
-        "entity_id": "Q305101"
     },
     {
         "query_id": "36_516",
@@ -2585,19 +2315,9 @@
         "entity_id": "Q2419604"
     },
     {
-        "query_id": "36_523",
-        "wiki_title": "Canton of Calais-Centre",
-        "entity_id": "Q1268853"
-    },
-    {
         "query_id": "36_524",
         "wiki_title": "Selangor",
         "entity_id": "Q189710"
-    },
-    {
-        "query_id": "36_525",
-        "wiki_title": "Canton of Bayeux",
-        "entity_id": "Q1724414"
     },
     {
         "query_id": "36_526",
@@ -2690,11 +2410,6 @@
         "entity_id": "Q701213"
     },
     {
-        "query_id": "36_544",
-        "wiki_title": "Dili Municipality",
-        "entity_id": "Q860901"
-    },
-    {
         "query_id": "36_545",
         "wiki_title": "Shawano County, Wisconsin",
         "entity_id": "Q500838"
@@ -2755,11 +2470,6 @@
         "entity_id": "Q2624583"
     },
     {
-        "query_id": "36_557",
-        "wiki_title": "Canton of Nouvion",
-        "entity_id": "Q1525954"
-    },
-    {
         "query_id": "36_558",
         "wiki_title": "Arrondissement of Lille",
         "entity_id": "Q701510"
@@ -2778,11 +2488,6 @@
         "query_id": "36_561",
         "wiki_title": "Jackson County, Illinois",
         "entity_id": "Q486471"
-    },
-    {
-        "query_id": "36_562",
-        "wiki_title": "Tripoli District, Lebanon",
-        "entity_id": "Q2484819"
     },
     {
         "query_id": "36_563",
@@ -2885,11 +2590,6 @@
         "entity_id": "Q490843"
     },
     {
-        "query_id": "36_583",
-        "wiki_title": "Stung Treng province",
-        "entity_id": "Q837889"
-    },
-    {
         "query_id": "36_584",
         "wiki_title": "Volta Region",
         "entity_id": "Q712832"
@@ -2925,19 +2625,9 @@
         "entity_id": "Q30832"
     },
     {
-        "query_id": "36_591",
-        "wiki_title": "Canton of Pont-de-Vaux",
-        "entity_id": "Q1458292"
-    },
-    {
         "query_id": "36_592",
         "wiki_title": "Shackelford County, Texas",
         "entity_id": "Q114550"
-    },
-    {
-        "query_id": "36_593",
-        "wiki_title": "Travancore\u2013Cochin",
-        "entity_id": "Q1538311"
     },
     {
         "query_id": "36_594",
@@ -3020,11 +2710,6 @@
         "entity_id": "Q505052"
     },
     {
-        "query_id": "36_610",
-        "wiki_title": "Canton of Nogent-sur-Marne",
-        "entity_id": "Q1706339"
-    },
-    {
         "query_id": "36_611",
         "wiki_title": "Clay County, South Dakota",
         "entity_id": "Q489273"
@@ -3043,11 +2728,6 @@
         "query_id": "36_614",
         "wiki_title": "Gmina Dobromierz",
         "entity_id": "Q1532921"
-    },
-    {
-        "query_id": "36_615",
-        "wiki_title": "Al-Jawf Province",
-        "entity_id": "Q1471266"
     },
     {
         "query_id": "36_616",
@@ -3120,19 +2800,9 @@
         "entity_id": "Q1914"
     },
     {
-        "query_id": "36_630",
-        "wiki_title": "Novogrudok District",
-        "entity_id": "Q1952755"
-    },
-    {
         "query_id": "36_631",
         "wiki_title": "Onufriivka Raion",
         "entity_id": "Q2991130"
-    },
-    {
-        "query_id": "36_632",
-        "wiki_title": "Canton of Vittel",
-        "entity_id": "Q1727970"
     },
     {
         "query_id": "36_633",
@@ -3165,11 +2835,6 @@
         "entity_id": "Q13809"
     },
     {
-        "query_id": "36_639",
-        "wiki_title": "Canton of Ferney-Voltaire",
-        "entity_id": "Q1479913"
-    },
-    {
         "query_id": "36_640",
         "wiki_title": "Khyber Pakhtunkhwa",
         "entity_id": "Q183314"
@@ -3188,11 +2853,6 @@
         "query_id": "36_643",
         "wiki_title": "Loukhsky District",
         "entity_id": "Q255728"
-    },
-    {
-        "query_id": "36_644",
-        "wiki_title": "Canton of Vigeois",
-        "entity_id": "Q1727870"
     },
     {
         "query_id": "36_645",
@@ -3325,11 +2985,6 @@
         "entity_id": "Q459188"
     },
     {
-        "query_id": "36_671",
-        "wiki_title": "Sanabria (comarca)",
-        "entity_id": "Q2605814"
-    },
-    {
         "query_id": "36_672",
         "wiki_title": "Kaybitsky District",
         "entity_id": "Q517512"
@@ -3355,16 +3010,6 @@
         "entity_id": "Q877578"
     },
     {
-        "query_id": "36_677",
-        "wiki_title": "Gia Lai province",
-        "entity_id": "Q36662"
-    },
-    {
-        "query_id": "36_678",
-        "wiki_title": "Arrondissement of La Tour-du-Pin",
-        "entity_id": "Q701368"
-    },
-    {
         "query_id": "36_679",
         "wiki_title": "Albemarle County, Virginia",
         "entity_id": "Q488653"
@@ -3378,11 +3023,6 @@
         "query_id": "36_681",
         "wiki_title": "East Punjab",
         "entity_id": "Q2354639"
-    },
-    {
-        "query_id": "36_682",
-        "wiki_title": "Canton of Arras-Nord",
-        "entity_id": "Q260694"
     },
     {
         "query_id": "36_683",
@@ -3418,11 +3058,6 @@
         "query_id": "36_689",
         "wiki_title": "Pangaio",
         "entity_id": "Q1990863"
-    },
-    {
-        "query_id": "36_690",
-        "wiki_title": "Kabardino-Balkarian Autonomous Soviet Socialist Republic",
-        "entity_id": "Q788875"
     },
     {
         "query_id": "36_691",
@@ -3510,11 +3145,6 @@
         "entity_id": "Q676504"
     },
     {
-        "query_id": "36_708",
-        "wiki_title": "Leased Territory of Guangzhouwan",
-        "entity_id": "Q1506615"
-    },
-    {
         "query_id": "36_709",
         "wiki_title": "Wieliczka County",
         "entity_id": "Q609424"
@@ -3528,11 +3158,6 @@
         "query_id": "36_711",
         "wiki_title": "Chanthaburi province",
         "entity_id": "Q327730"
-    },
-    {
-        "query_id": "36_712",
-        "wiki_title": "Canton of Pontault-Combault",
-        "entity_id": "Q1319712"
     },
     {
         "query_id": "36_713",
@@ -3553,11 +3178,6 @@
         "query_id": "36_716",
         "wiki_title": "Borough of Fareham",
         "entity_id": "Q894084"
-    },
-    {
-        "query_id": "36_717",
-        "wiki_title": "Arrondissement of Lons-le-Saunier",
-        "entity_id": "Q1116153"
     },
     {
         "query_id": "36_718",
@@ -3600,11 +3220,6 @@
         "entity_id": "Q1499"
     },
     {
-        "query_id": "36_726",
-        "wiki_title": "Canton of Moissac-2",
-        "entity_id": "Q1726248"
-    },
-    {
         "query_id": "36_727",
         "wiki_title": "Trakai District Municipality",
         "entity_id": "Q1987743"
@@ -3613,11 +3228,6 @@
         "query_id": "36_728",
         "wiki_title": "Garrigues (comarca)",
         "entity_id": "Q12732"
-    },
-    {
-        "query_id": "36_729",
-        "wiki_title": "Canton of Champs-sur-Marne",
-        "entity_id": "Q1574227"
     },
     {
         "query_id": "36_730",
@@ -3648,11 +3258,6 @@
         "query_id": "36_735",
         "wiki_title": "Iwye District",
         "entity_id": "Q508510"
-    },
-    {
-        "query_id": "36_736",
-        "wiki_title": "Canton of Calais-Nord-Ouest",
-        "entity_id": "Q1491807"
     },
     {
         "query_id": "36_737",
@@ -3725,11 +3330,6 @@
         "entity_id": "Q5122619"
     },
     {
-        "query_id": "36_751",
-        "wiki_title": "Canton of Cavaillon",
-        "entity_id": "Q1724825"
-    },
-    {
         "query_id": "36_752",
         "wiki_title": "Isanti County, Minnesota",
         "entity_id": "Q486255"
@@ -3755,29 +3355,14 @@
         "entity_id": "Q494216"
     },
     {
-        "query_id": "36_757",
-        "wiki_title": "Paita District",
-        "entity_id": "Q6318040"
-    },
-    {
         "query_id": "36_758",
         "wiki_title": "Osceola County, Florida",
         "entity_id": "Q501067"
     },
     {
-        "query_id": "36_759",
-        "wiki_title": "Canton of Grand-Bourg",
-        "entity_id": "Q1347830"
-    },
-    {
         "query_id": "36_760",
         "wiki_title": "Fond du Lac County, Wisconsin",
         "entity_id": "Q494912"
-    },
-    {
-        "query_id": "36_761",
-        "wiki_title": "Arrondissement of Nogent-sur-Seine",
-        "entity_id": "Q639304"
     },
     {
         "query_id": "36_762",
@@ -3818,11 +3403,6 @@
         "query_id": "36_769",
         "wiki_title": "Al Hudaydah Governorate",
         "entity_id": "Q275755"
-    },
-    {
-        "query_id": "36_771",
-        "wiki_title": "Canton of Chabanais",
-        "entity_id": "Q1572392"
     },
     {
         "query_id": "36_772",
@@ -3870,24 +3450,9 @@
         "entity_id": "Q1856565"
     },
     {
-        "query_id": "36_781",
-        "wiki_title": "Arrondissement of Charolles",
-        "entity_id": "Q700884"
-    },
-    {
-        "query_id": "36_782",
-        "wiki_title": "Canton of Villefranche-sur-Mer",
-        "entity_id": "Q94088"
-    },
-    {
         "query_id": "36_783",
         "wiki_title": "Kingdom of Saxony",
         "entity_id": "Q153015"
-    },
-    {
-        "query_id": "36_784",
-        "wiki_title": "Zangezur uezd",
-        "entity_id": "Q4186168"
     },
     {
         "query_id": "36_785",
@@ -3903,11 +3468,6 @@
         "query_id": "36_787",
         "wiki_title": "Calcasieu Parish, Louisiana",
         "entity_id": "Q504345"
-    },
-    {
-        "query_id": "36_788",
-        "wiki_title": "Hisar District (Tajikistan)",
-        "entity_id": "Q2592671"
     },
     {
         "query_id": "36_789",
@@ -3968,11 +3528,6 @@
         "query_id": "36_800",
         "wiki_title": "Santa Catarina Island",
         "entity_id": "Q1191273"
-    },
-    {
-        "query_id": "36_801",
-        "wiki_title": "Hoysala Kingdom",
-        "entity_id": "Q466581"
     },
     {
         "query_id": "36_802",
@@ -4075,11 +3630,6 @@
         "entity_id": "Q305217"
     },
     {
-        "query_id": "36_822",
-        "wiki_title": "Vilyeyka Region",
-        "entity_id": "Q2638807"
-    },
-    {
         "query_id": "36_823",
         "wiki_title": "Roer (department)",
         "entity_id": "Q153402"
@@ -4108,11 +3658,6 @@
         "query_id": "36_828",
         "wiki_title": "Ain",
         "entity_id": "Q3083"
-    },
-    {
-        "query_id": "36_829",
-        "wiki_title": "Arrondissement of Roanne",
-        "entity_id": "Q702225"
     },
     {
         "query_id": "36_830",
@@ -4163,11 +3708,6 @@
         "query_id": "36_839",
         "wiki_title": "Ralls County, Missouri",
         "entity_id": "Q259095"
-    },
-    {
-        "query_id": "36_840",
-        "wiki_title": "Canton of La Capelle",
-        "entity_id": "Q555707"
     },
     {
         "query_id": "36_841",
@@ -4258,11 +3798,6 @@
         "query_id": "36_858",
         "wiki_title": "Tuscola County, Michigan",
         "entity_id": "Q82367"
-    },
-    {
-        "query_id": "36_859",
-        "wiki_title": "Arrondissement of Vierzon",
-        "entity_id": "Q600838"
     },
     {
         "query_id": "36_860",
@@ -4378,11 +3913,6 @@
         "query_id": "36_882",
         "wiki_title": "Wien-Umgebung District",
         "entity_id": "Q521869"
-    },
-    {
-        "query_id": "36_883",
-        "wiki_title": "Canton of Marseille-Le Camas",
-        "entity_id": "Q930210"
     },
     {
         "query_id": "36_884",

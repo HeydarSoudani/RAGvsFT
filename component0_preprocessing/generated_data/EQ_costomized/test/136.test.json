@@ -1,35 +1,11 @@
 [
     {
-        "query_id": "136_0",
-        "question": "What type of music does Something to Listen To play?",
-        "answers": [
-            "jazz"
-        ],
-        "pageviews": 1224
-    },
-    {
-        "query_id": "136_1",
-        "question": "What type of music does Shining Soul play?",
-        "answers": [
-            "crime film"
-        ],
-        "pageviews": 782
-    },
-    {
-        "query_id": "136_2",
-        "question": "What type of music does Target: Harry play?",
-        "answers": [
-            "thriller"
-        ],
-        "pageviews": 4212
-    },
-    {
         "query_id": "136_3",
         "question": "What type of music does Dead Men Don't Make Shadows play?",
         "answers": [
             "spaghetti western"
         ],
-        "pageviews": 4959
+        "pageviews": 2
     },
     {
         "query_id": "136_4",
@@ -37,7 +13,7 @@
         "answers": [
             "landscape art"
         ],
-        "pageviews": 5292
+        "pageviews": 8
     },
     {
         "query_id": "136_5",
@@ -45,7 +21,7 @@
         "answers": [
             "action game"
         ],
-        "pageviews": 29267
+        "pageviews": 5
     },
     {
         "query_id": "136_6",
@@ -53,7 +29,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 3677
+        "pageviews": 6
     },
     {
         "query_id": "136_7",
@@ -62,7 +38,7 @@
             "adventure game",
             "clay animation"
         ],
-        "pageviews": 86755
+        "pageviews": 23
     },
     {
         "query_id": "136_8",
@@ -70,7 +46,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 10454
+        "pageviews": 5
     },
     {
         "query_id": "136_9",
@@ -78,7 +54,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 3593
+        "pageviews": 1
     },
     {
         "query_id": "136_10",
@@ -86,7 +62,7 @@
         "answers": [
             "disco"
         ],
-        "pageviews": 56478
+        "pageviews": 19
     },
     {
         "query_id": "136_11",
@@ -94,15 +70,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 1744
-    },
-    {
-        "query_id": "136_12",
-        "question": "What type of music does Zulu Dj\u00e6vler\u00e6s play?",
-        "answers": [
-            "reality television"
-        ],
-        "pageviews": 1320
+        "pageviews": 14
     },
     {
         "query_id": "136_13",
@@ -110,7 +78,7 @@
         "answers": [
             "grindcore"
         ],
-        "pageviews": 4806
+        "pageviews": 2
     },
     {
         "query_id": "136_14",
@@ -118,7 +86,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 94093
+        "pageviews": 12
     },
     {
         "query_id": "136_15",
@@ -126,7 +94,7 @@
         "answers": [
             "science fiction"
         ],
-        "pageviews": 3689
+        "pageviews": 3
     },
     {
         "query_id": "136_16",
@@ -135,15 +103,7 @@
             "science fiction film",
             "horror film"
         ],
-        "pageviews": 58148
-    },
-    {
-        "query_id": "136_17",
-        "question": "What type of music does The Guilty play?",
-        "answers": [
-            "yaoi"
-        ],
-        "pageviews": 1033
+        "pageviews": 11
     },
     {
         "query_id": "136_18",
@@ -152,7 +112,7 @@
             "comedy-drama",
             "comedy film"
         ],
-        "pageviews": 298478
+        "pageviews": 143
     },
     {
         "query_id": "136_19",
@@ -160,15 +120,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 2398
-    },
-    {
-        "query_id": "136_20",
-        "question": "What type of music does Masked Avengers play?",
-        "answers": [
-            "martial arts film"
-        ],
-        "pageviews": 4898
+        "pageviews": 14
     },
     {
         "query_id": "136_21",
@@ -176,7 +128,7 @@
         "answers": [
             "superhero film"
         ],
-        "pageviews": 13076
+        "pageviews": 3
     },
     {
         "query_id": "136_22",
@@ -184,7 +136,7 @@
         "answers": [
             "industrial metal"
         ],
-        "pageviews": 97064
+        "pageviews": 159
     },
     {
         "query_id": "136_23",
@@ -192,7 +144,7 @@
         "answers": [
             "mandopop"
         ],
-        "pageviews": 11149
+        "pageviews": 2
     },
     {
         "query_id": "136_24",
@@ -200,7 +152,7 @@
         "answers": [
             "power pop"
         ],
-        "pageviews": 12989
+        "pageviews": 42
     },
     {
         "query_id": "136_25",
@@ -208,7 +160,7 @@
         "answers": [
             "hip hop music"
         ],
-        "pageviews": 12845
+        "pageviews": 7
     },
     {
         "query_id": "136_26",
@@ -216,7 +168,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 7501
+        "pageviews": 7
     },
     {
         "query_id": "136_27",
@@ -224,7 +176,7 @@
         "answers": [
             "hard rock"
         ],
-        "pageviews": 9977
+        "pageviews": 10
     },
     {
         "query_id": "136_28",
@@ -232,7 +184,7 @@
         "answers": [
             "Texas blues"
         ],
-        "pageviews": 3587
+        "pageviews": 6
     },
     {
         "query_id": "136_29",
@@ -240,7 +192,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 3157
+        "pageviews": 8
     },
     {
         "query_id": "136_30",
@@ -248,23 +200,7 @@
         "answers": [
             "synth-pop"
         ],
-        "pageviews": 9759
-    },
-    {
-        "query_id": "136_31",
-        "question": "What type of music does Scanners II: The New Order play?",
-        "answers": [
-            "science fiction film"
-        ],
-        "pageviews": 31478
-    },
-    {
-        "query_id": "136_32",
-        "question": "What type of music does Do Chattane play?",
-        "answers": [
-            "action film"
-        ],
-        "pageviews": 2385
+        "pageviews": 10
     },
     {
         "query_id": "136_33",
@@ -272,7 +208,7 @@
         "answers": [
             "folk music"
         ],
-        "pageviews": 143170
+        "pageviews": 216
     },
     {
         "query_id": "136_34",
@@ -280,7 +216,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 13785
+        "pageviews": 7
     },
     {
         "query_id": "136_36",
@@ -288,7 +224,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 9793
+        "pageviews": 15
     },
     {
         "query_id": "136_37",
@@ -296,7 +232,7 @@
         "answers": [
             "fantasy film"
         ],
-        "pageviews": 621661
+        "pageviews": 72
     },
     {
         "query_id": "136_38",
@@ -304,7 +240,7 @@
         "answers": [
             "hard rock"
         ],
-        "pageviews": 11708
+        "pageviews": 14
     },
     {
         "query_id": "136_39",
@@ -312,7 +248,7 @@
         "answers": [
             "black metal"
         ],
-        "pageviews": 34645
+        "pageviews": 42
     },
     {
         "query_id": "136_40",
@@ -320,7 +256,7 @@
         "answers": [
             "nature documentary"
         ],
-        "pageviews": 47482
+        "pageviews": 5
     },
     {
         "query_id": "136_41",
@@ -328,7 +264,7 @@
         "answers": [
             "rhythm and blues"
         ],
-        "pageviews": 32410
+        "pageviews": 7
     },
     {
         "query_id": "136_42",
@@ -336,7 +272,7 @@
         "answers": [
             "slasher film"
         ],
-        "pageviews": 16942
+        "pageviews": 2
     },
     {
         "query_id": "136_43",
@@ -344,7 +280,7 @@
         "answers": [
             "hip hop music"
         ],
-        "pageviews": 31377
+        "pageviews": 53
     },
     {
         "query_id": "136_44",
@@ -352,7 +288,7 @@
         "answers": [
             "alternative country"
         ],
-        "pageviews": 21511
+        "pageviews": 24
     },
     {
         "query_id": "136_45",
@@ -360,15 +296,7 @@
         "answers": [
             "Wizard rock"
         ],
-        "pageviews": 6046
-    },
-    {
-        "query_id": "136_46",
-        "question": "What type of music does Scorched play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 18774
+        "pageviews": 8
     },
     {
         "query_id": "136_47",
@@ -376,7 +304,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 580390
+        "pageviews": 66
     },
     {
         "query_id": "136_48",
@@ -385,7 +313,7 @@
             "veduta",
             "landscape art"
         ],
-        "pageviews": 134494
+        "pageviews": 196
     },
     {
         "query_id": "136_49",
@@ -393,23 +321,7 @@
         "answers": [
             "adventure game"
         ],
-        "pageviews": 23092
-    },
-    {
-        "query_id": "136_50",
-        "question": "What type of music does New Street Adventure play?",
-        "answers": [
-            "soul music"
-        ],
-        "pageviews": 1874
-    },
-    {
-        "query_id": "136_51",
-        "question": "What type of music does Punks not dad play?",
-        "answers": [
-            "punk rock"
-        ],
-        "pageviews": 1086
+        "pageviews": 17
     },
     {
         "query_id": "136_52",
@@ -417,7 +329,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 6447
+        "pageviews": 3
     },
     {
         "query_id": "136_53",
@@ -425,15 +337,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 68436
-    },
-    {
-        "query_id": "136_54",
-        "question": "What type of music does Assault: Retribution play?",
-        "answers": [
-            "action game"
-        ],
-        "pageviews": 5796
+        "pageviews": 26
     },
     {
         "query_id": "136_55",
@@ -441,15 +345,7 @@
         "answers": [
             "puzzle video game"
         ],
-        "pageviews": 8101
-    },
-    {
-        "query_id": "136_56",
-        "question": "What type of music does Call of Duty: Modern Warfare 3 play?",
-        "answers": [
-            "first-person shooter"
-        ],
-        "pageviews": 529957
+        "pageviews": 6
     },
     {
         "query_id": "136_57",
@@ -457,7 +353,7 @@
         "answers": [
             "indie rock"
         ],
-        "pageviews": 3172
+        "pageviews": 3
     },
     {
         "query_id": "136_58",
@@ -465,7 +361,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 2108
+        "pageviews": 3
     },
     {
         "query_id": "136_59",
@@ -473,7 +369,7 @@
         "answers": [
             "thriller"
         ],
-        "pageviews": 5334
+        "pageviews": 3
     },
     {
         "query_id": "136_61",
@@ -481,7 +377,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 7240
+        "pageviews": 14
     },
     {
         "query_id": "136_62",
@@ -489,7 +385,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 1333
+        "pageviews": 3
     },
     {
         "query_id": "136_64",
@@ -497,15 +393,7 @@
         "answers": [
             "gothic rock"
         ],
-        "pageviews": 9884
-    },
-    {
-        "query_id": "136_66",
-        "question": "What type of music does Song Cinema play?",
-        "answers": [
-            "contemporary Christian music"
-        ],
-        "pageviews": 1365
+        "pageviews": 6
     },
     {
         "query_id": "136_67",
@@ -513,7 +401,7 @@
         "answers": [
             "novella"
         ],
-        "pageviews": 319304
+        "pageviews": 18
     },
     {
         "query_id": "136_68",
@@ -521,15 +409,7 @@
         "answers": [
             "opera"
         ],
-        "pageviews": 3920
-    },
-    {
-        "query_id": "136_69",
-        "question": "What type of music does Baptism of Fire: The Second Battle of Ypres and the Forging of Canada, April 1915 play?",
-        "answers": [
-            "non-fiction"
-        ],
-        "pageviews": 730
+        "pageviews": 4
     },
     {
         "query_id": "136_70",
@@ -537,7 +417,7 @@
         "answers": [
             "spaghetti western"
         ],
-        "pageviews": 4210
+        "pageviews": 7
     },
     {
         "query_id": "136_71",
@@ -545,7 +425,7 @@
         "answers": [
             "rapping"
         ],
-        "pageviews": 2694
+        "pageviews": 11
     },
     {
         "query_id": "136_72",
@@ -553,7 +433,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 38877
+        "pageviews": 25
     },
     {
         "query_id": "136_73",
@@ -561,7 +441,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 340830
+        "pageviews": 112
     },
     {
         "query_id": "136_74",
@@ -569,7 +449,7 @@
         "answers": [
             "horror literature"
         ],
-        "pageviews": 29918
+        "pageviews": 16
     },
     {
         "query_id": "136_75",
@@ -577,7 +457,7 @@
         "answers": [
             "platform game"
         ],
-        "pageviews": 9720
+        "pageviews": 1
     },
     {
         "query_id": "136_76",
@@ -585,7 +465,7 @@
         "answers": [
             "romance film"
         ],
-        "pageviews": 3177
+        "pageviews": 1
     },
     {
         "query_id": "136_77",
@@ -593,7 +473,7 @@
         "answers": [
             "folk music"
         ],
-        "pageviews": 9139
+        "pageviews": 4
     },
     {
         "query_id": "136_78",
@@ -601,7 +481,7 @@
         "answers": [
             "police procedural"
         ],
-        "pageviews": 25177
+        "pageviews": 50
     },
     {
         "query_id": "136_79",
@@ -609,15 +489,7 @@
         "answers": [
             "telenovela"
         ],
-        "pageviews": 13949
-    },
-    {
-        "query_id": "136_80",
-        "question": "What type of music does Keepsake play?",
-        "answers": [
-            "adventure game"
-        ],
-        "pageviews": 4265
+        "pageviews": 2
     },
     {
         "query_id": "136_81",
@@ -625,7 +497,7 @@
         "answers": [
             "classical music"
         ],
-        "pageviews": 9456
+        "pageviews": 10
     },
     {
         "query_id": "136_82",
@@ -633,7 +505,7 @@
         "answers": [
             "musical film"
         ],
-        "pageviews": 3339
+        "pageviews": 2
     },
     {
         "query_id": "136_83",
@@ -641,7 +513,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 1385
+        "pageviews": 2
     },
     {
         "query_id": "136_84",
@@ -649,7 +521,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 12644
+        "pageviews": 10
     },
     {
         "query_id": "136_85",
@@ -657,15 +529,7 @@
         "answers": [
             "action role-playing game"
         ],
-        "pageviews": 264804
-    },
-    {
-        "query_id": "136_86",
-        "question": "What type of music does Winston Audio play?",
-        "answers": [
-            "indie rock"
-        ],
-        "pageviews": 849
+        "pageviews": 39
     },
     {
         "query_id": "136_87",
@@ -673,7 +537,7 @@
         "answers": [
             "lounge music"
         ],
-        "pageviews": 2855
+        "pageviews": 1
     },
     {
         "query_id": "136_88",
@@ -681,7 +545,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 17894
+        "pageviews": 10
     },
     {
         "query_id": "136_89",
@@ -689,7 +553,7 @@
         "answers": [
             "musical film"
         ],
-        "pageviews": 34158
+        "pageviews": 8
     },
     {
         "query_id": "136_90",
@@ -697,7 +561,7 @@
         "answers": [
             "Celtic mythology"
         ],
-        "pageviews": 5264
+        "pageviews": 2
     },
     {
         "query_id": "136_91",
@@ -705,7 +569,7 @@
         "answers": [
             "Tejano music"
         ],
-        "pageviews": 47662
+        "pageviews": 24
     },
     {
         "query_id": "136_92",
@@ -713,7 +577,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 31482
+        "pageviews": 13
     },
     {
         "query_id": "136_93",
@@ -721,7 +585,7 @@
         "answers": [
             "science fiction"
         ],
-        "pageviews": 6469
+        "pageviews": 2
     },
     {
         "query_id": "136_94",
@@ -729,7 +593,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 1212
+        "pageviews": 1
     },
     {
         "query_id": "136_96",
@@ -737,7 +601,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 114955
+        "pageviews": 40
     },
     {
         "query_id": "136_97",
@@ -745,7 +609,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 18000
+        "pageviews": 3
     },
     {
         "query_id": "136_98",
@@ -753,7 +617,7 @@
         "answers": [
             "post-hardcore"
         ],
-        "pageviews": 24049
+        "pageviews": 2
     },
     {
         "query_id": "136_99",
@@ -761,7 +625,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 22894
+        "pageviews": 7
     },
     {
         "query_id": "136_100",
@@ -769,7 +633,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 1766
+        "pageviews": 1
     },
     {
         "query_id": "136_101",
@@ -777,7 +641,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 117317
+        "pageviews": 111
     },
     {
         "query_id": "136_102",
@@ -785,7 +649,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 1874081
+        "pageviews": 1720
     },
     {
         "query_id": "136_103",
@@ -793,7 +657,7 @@
         "answers": [
             "first-person shooter"
         ],
-        "pageviews": 14622
+        "pageviews": 9
     },
     {
         "query_id": "136_104",
@@ -801,7 +665,7 @@
         "answers": [
             "klezmer"
         ],
-        "pageviews": 1697
+        "pageviews": 2
     },
     {
         "query_id": "136_105",
@@ -809,7 +673,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 7664
+        "pageviews": 11
     },
     {
         "query_id": "136_106",
@@ -817,7 +681,7 @@
         "answers": [
             "platform game"
         ],
-        "pageviews": 33179
+        "pageviews": 6
     },
     {
         "query_id": "136_107",
@@ -825,7 +689,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 4668
+        "pageviews": 7
     },
     {
         "query_id": "136_108",
@@ -833,15 +697,7 @@
         "answers": [
             "role-playing game"
         ],
-        "pageviews": 2243
-    },
-    {
-        "query_id": "136_109",
-        "question": "What type of music does True Blue play?",
-        "answers": [
-            "jazz"
-        ],
-        "pageviews": 1569
+        "pageviews": 9
     },
     {
         "query_id": "136_110",
@@ -849,7 +705,7 @@
         "answers": [
             "opera"
         ],
-        "pageviews": 1864
+        "pageviews": 3
     },
     {
         "query_id": "136_111",
@@ -857,7 +713,7 @@
         "answers": [
             "contemporary Christian music"
         ],
-        "pageviews": 34576
+        "pageviews": 51
     },
     {
         "query_id": "136_112",
@@ -865,15 +721,7 @@
         "answers": [
             "romantic comedy"
         ],
-        "pageviews": 58172
-    },
-    {
-        "query_id": "136_113",
-        "question": "What type of music does The Joey Bishop Show play?",
-        "answers": [
-            "sitcom"
-        ],
-        "pageviews": 15874
+        "pageviews": 7
     },
     {
         "query_id": "136_114",
@@ -881,7 +729,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 56746
+        "pageviews": 106
     },
     {
         "query_id": "136_115",
@@ -889,15 +737,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 2709
-    },
-    {
-        "query_id": "136_116",
-        "question": "What type of music does The Foolish Thing to Do play?",
-        "answers": [
-            "jazz"
-        ],
-        "pageviews": 1103
+        "pageviews": 22
     },
     {
         "query_id": "136_117",
@@ -905,7 +745,7 @@
         "answers": [
             "romantic comedy"
         ],
-        "pageviews": 20682
+        "pageviews": 4
     },
     {
         "query_id": "136_118",
@@ -913,15 +753,7 @@
         "answers": [
             "gospel music"
         ],
-        "pageviews": 27381
-    },
-    {
-        "query_id": "136_119",
-        "question": "What type of music does Casey Stengel play?",
-        "answers": [
-            "public art"
-        ],
-        "pageviews": 662
+        "pageviews": 2
     },
     {
         "query_id": "136_120",
@@ -929,7 +761,7 @@
         "answers": [
             "soukous"
         ],
-        "pageviews": 2533
+        "pageviews": 2
     },
     {
         "query_id": "136_121",
@@ -937,7 +769,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 8832
+        "pageviews": 3
     },
     {
         "query_id": "136_122",
@@ -945,7 +777,7 @@
         "answers": [
             "synth-pop"
         ],
-        "pageviews": 4894
+        "pageviews": 15
     },
     {
         "query_id": "136_123",
@@ -953,23 +785,7 @@
         "answers": [
             "metalcore"
         ],
-        "pageviews": 140186
-    },
-    {
-        "query_id": "136_124",
-        "question": "What type of music does A Student's Song of Heidelberg play?",
-        "answers": [
-            "musical film"
-        ],
-        "pageviews": 1444
-    },
-    {
-        "query_id": "136_125",
-        "question": "What type of music does Made in Japan play?",
-        "answers": [
-            "rock music"
-        ],
-        "pageviews": 880
+        "pageviews": 79
     },
     {
         "query_id": "136_126",
@@ -977,15 +793,7 @@
         "answers": [
             "adventure game"
         ],
-        "pageviews": 38748
-    },
-    {
-        "query_id": "136_127",
-        "question": "What type of music does Kaos Rising play?",
-        "answers": [
-            "death metal"
-        ],
-        "pageviews": 494
+        "pageviews": 9
     },
     {
         "query_id": "136_128",
@@ -993,7 +801,7 @@
         "answers": [
             "post-apocalyptic fiction"
         ],
-        "pageviews": 6463
+        "pageviews": 2
     },
     {
         "query_id": "136_129",
@@ -1001,7 +809,7 @@
         "answers": [
             "eroge"
         ],
-        "pageviews": 38069
+        "pageviews": 42
     },
     {
         "query_id": "136_130",
@@ -1009,7 +817,7 @@
         "answers": [
             "science fiction film"
         ],
-        "pageviews": 9413
+        "pageviews": 1
     },
     {
         "query_id": "136_131",
@@ -1018,7 +826,7 @@
             "science fiction film",
             "comedy film"
         ],
-        "pageviews": 213150
+        "pageviews": 76
     },
     {
         "query_id": "136_132",
@@ -1026,7 +834,7 @@
         "answers": [
             "black metal"
         ],
-        "pageviews": 118118
+        "pageviews": 89
     },
     {
         "query_id": "136_133",
@@ -1034,7 +842,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 5997
+        "pageviews": 2
     },
     {
         "query_id": "136_134",
@@ -1042,7 +850,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 1427
+        "pageviews": 3
     },
     {
         "query_id": "136_135",
@@ -1050,7 +858,7 @@
         "answers": [
             "mystery film"
         ],
-        "pageviews": 13081
+        "pageviews": 9
     },
     {
         "query_id": "136_136",
@@ -1058,15 +866,7 @@
         "answers": [
             "sitcom"
         ],
-        "pageviews": 11409
-    },
-    {
-        "query_id": "136_137",
-        "question": "What type of music does The Dark Eye: Chains of Satinav play?",
-        "answers": [
-            "adventure game"
-        ],
-        "pageviews": 10575
+        "pageviews": 12
     },
     {
         "query_id": "136_138",
@@ -1074,7 +874,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 8013
+        "pageviews": 3
     },
     {
         "query_id": "136_139",
@@ -1082,7 +882,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 4399
+        "pageviews": 3
     },
     {
         "query_id": "136_141",
@@ -1090,15 +890,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 13983
-    },
-    {
-        "query_id": "136_142",
-        "question": "What type of music does Thunder & Roses play?",
-        "answers": [
-            "country music"
-        ],
-        "pageviews": 1887
+        "pageviews": 19
     },
     {
         "query_id": "136_143",
@@ -1106,7 +898,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 3099
+        "pageviews": 15
     },
     {
         "query_id": "136_144",
@@ -1114,7 +906,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 4012
+        "pageviews": 3
     },
     {
         "query_id": "136_145",
@@ -1122,7 +914,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 80906
+        "pageviews": 11
     },
     {
         "query_id": "136_146",
@@ -1131,15 +923,7 @@
             "science fiction",
             "espionage novel"
         ],
-        "pageviews": 3545
-    },
-    {
-        "query_id": "136_147",
-        "question": "What type of music does Wing Commander III: Heart of the Tiger play?",
-        "answers": [
-            "science fiction"
-        ],
-        "pageviews": 39406
+        "pageviews": 4
     },
     {
         "query_id": "136_148",
@@ -1147,31 +931,7 @@
         "answers": [
             "third-person shooter"
         ],
-        "pageviews": 216497
-    },
-    {
-        "query_id": "136_149",
-        "question": "What type of music does Interlock play?",
-        "answers": [
-            "industrial metal"
-        ],
-        "pageviews": 1648
-    },
-    {
-        "query_id": "136_150",
-        "question": "What type of music does Mission: Impossible play?",
-        "answers": [
-            "third-person shooter"
-        ],
-        "pageviews": 25494
-    },
-    {
-        "query_id": "136_151",
-        "question": "What type of music does Midnight Resistance play?",
-        "answers": [
-            "synth-pop"
-        ],
-        "pageviews": 714
+        "pageviews": 20
     },
     {
         "query_id": "136_152",
@@ -1179,7 +939,7 @@
         "answers": [
             "landscape art"
         ],
-        "pageviews": 1000
+        "pageviews": 1
     },
     {
         "query_id": "136_153",
@@ -1187,7 +947,7 @@
         "answers": [
             "sitcom"
         ],
-        "pageviews": 1951
+        "pageviews": 2
     },
     {
         "query_id": "136_154",
@@ -1195,7 +955,7 @@
         "answers": [
             "mystery fiction"
         ],
-        "pageviews": 838
+        "pageviews": 1
     },
     {
         "query_id": "136_155",
@@ -1203,7 +963,7 @@
         "answers": [
             "romantic comedy"
         ],
-        "pageviews": 43716
+        "pageviews": 10
     },
     {
         "query_id": "136_156",
@@ -1211,7 +971,7 @@
         "answers": [
             "thriller"
         ],
-        "pageviews": 4002
+        "pageviews": 1
     },
     {
         "query_id": "136_157",
@@ -1219,7 +979,7 @@
         "answers": [
             "telenovela"
         ],
-        "pageviews": 4661
+        "pageviews": 1
     },
     {
         "query_id": "136_158",
@@ -1227,23 +987,7 @@
         "answers": [
             "bluegrass music"
         ],
-        "pageviews": 8629
-    },
-    {
-        "query_id": "136_159",
-        "question": "What type of music does Humanimal play?",
-        "answers": [
-            "horror film"
-        ],
-        "pageviews": 1751
-    },
-    {
-        "query_id": "136_160",
-        "question": "What type of music does Emerson, Lake & Powell play?",
-        "answers": [
-            "progressive rock"
-        ],
-        "pageviews": 30823
+        "pageviews": 26
     },
     {
         "query_id": "136_161",
@@ -1251,15 +995,7 @@
         "answers": [
             "alternative country"
         ],
-        "pageviews": 391775
-    },
-    {
-        "query_id": "136_162",
-        "question": "What type of music does 50 Cent: Blood on the Sand play?",
-        "answers": [
-            "third-person shooter"
-        ],
-        "pageviews": 80328
+        "pageviews": 78
     },
     {
         "query_id": "136_163",
@@ -1267,15 +1003,7 @@
         "answers": [
             "German hip hop"
         ],
-        "pageviews": 2782
-    },
-    {
-        "query_id": "136_164",
-        "question": "What type of music does Katie play?",
-        "answers": [
-            "reality television"
-        ],
-        "pageviews": 5607
+        "pageviews": 1
     },
     {
         "query_id": "136_165",
@@ -1283,16 +1011,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 82161
-    },
-    {
-        "query_id": "136_166",
-        "question": "What type of music does The Butterfly Effect 3: Revelations play?",
-        "answers": [
-            "science fiction film",
-            "psychological thriller"
-        ],
-        "pageviews": 69073
+        "pageviews": 2
     },
     {
         "query_id": "136_167",
@@ -1300,7 +1019,7 @@
         "answers": [
             "folk music"
         ],
-        "pageviews": 7852
+        "pageviews": 7
     },
     {
         "query_id": "136_168",
@@ -1308,15 +1027,7 @@
         "answers": [
             "opera"
         ],
-        "pageviews": 124264
-    },
-    {
-        "query_id": "136_169",
-        "question": "What type of music does WRC 4: FIA World Rally Championship play?",
-        "answers": [
-            "racing video game"
-        ],
-        "pageviews": 9988
+        "pageviews": 204
     },
     {
         "query_id": "136_170",
@@ -1324,15 +1035,7 @@
         "answers": [
             "novella"
         ],
-        "pageviews": 16714
-    },
-    {
-        "query_id": "136_171",
-        "question": "What type of music does Oka Chinna Maata play?",
-        "answers": [
-            "romance film"
-        ],
-        "pageviews": 8788
+        "pageviews": 3
     },
     {
         "query_id": "136_172",
@@ -1340,15 +1043,7 @@
         "answers": [
             "fantasy film"
         ],
-        "pageviews": 621338
-    },
-    {
-        "query_id": "136_173",
-        "question": "What type of music does Missing Daughters play?",
-        "answers": [
-            "action film"
-        ],
-        "pageviews": 133
+        "pageviews": 134
     },
     {
         "query_id": "136_174",
@@ -1356,7 +1051,7 @@
         "answers": [
             "romantic comedy"
         ],
-        "pageviews": 3000
+        "pageviews": 5
     },
     {
         "query_id": "136_175",
@@ -1364,7 +1059,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 6112
+        "pageviews": 4
     },
     {
         "query_id": "136_176",
@@ -1372,7 +1067,7 @@
         "answers": [
             "electronic music"
         ],
-        "pageviews": 2848
+        "pageviews": 8
     },
     {
         "query_id": "136_177",
@@ -1380,7 +1075,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 587767
+        "pageviews": 134
     },
     {
         "query_id": "136_178",
@@ -1388,7 +1083,7 @@
         "answers": [
             "alternative hip hop"
         ],
-        "pageviews": 1652
+        "pageviews": 10
     },
     {
         "query_id": "136_179",
@@ -1396,7 +1091,7 @@
         "answers": [
             "electropop"
         ],
-        "pageviews": 2661
+        "pageviews": 2
     },
     {
         "query_id": "136_180",
@@ -1404,15 +1099,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 205359
-    },
-    {
-        "query_id": "136_181",
-        "question": "What type of music does The Metallic Muse play?",
-        "answers": [
-            "science fiction"
-        ],
-        "pageviews": 672
+        "pageviews": 65
     },
     {
         "query_id": "136_182",
@@ -1420,23 +1107,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 17912
-    },
-    {
-        "query_id": "136_183",
-        "question": "What type of music does The Wild Bunch: An Album in Montage play?",
-        "answers": [
-            "documentary film"
-        ],
-        "pageviews": 3647
-    },
-    {
-        "query_id": "136_184",
-        "question": "What type of music does Minor Detail play?",
-        "answers": [
-            "synth-pop"
-        ],
-        "pageviews": 0
+        "pageviews": 21
     },
     {
         "query_id": "136_185",
@@ -1444,7 +1115,7 @@
         "answers": [
             "Western film"
         ],
-        "pageviews": 1128
+        "pageviews": 1
     },
     {
         "query_id": "136_186",
@@ -1452,7 +1123,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 1169
+        "pageviews": 1
     },
     {
         "query_id": "136_187",
@@ -1460,15 +1131,7 @@
         "answers": [
             "heavy metal"
         ],
-        "pageviews": 11178
-    },
-    {
-        "query_id": "136_188",
-        "question": "What type of music does American Child play?",
-        "answers": [
-            "country music"
-        ],
-        "pageviews": 1830
+        "pageviews": 16
     },
     {
         "query_id": "136_189",
@@ -1476,7 +1139,7 @@
         "answers": [
             "polka"
         ],
-        "pageviews": 89850
+        "pageviews": 36
     },
     {
         "query_id": "136_190",
@@ -1484,7 +1147,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 6829
+        "pageviews": 1
     },
     {
         "query_id": "136_191",
@@ -1492,15 +1155,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 17245
-    },
-    {
-        "query_id": "136_192",
-        "question": "What type of music does Starshatter: The Gathering Storm play?",
-        "answers": [
-            "space flight simulation game"
-        ],
-        "pageviews": 3755
+        "pageviews": 18
     },
     {
         "query_id": "136_193",
@@ -1508,7 +1163,7 @@
         "answers": [
             "fighting game"
         ],
-        "pageviews": 41028
+        "pageviews": 46
     },
     {
         "query_id": "136_194",
@@ -1516,7 +1171,7 @@
         "answers": [
             "hip hop music"
         ],
-        "pageviews": 1035
+        "pageviews": 4
     },
     {
         "query_id": "136_195",
@@ -1524,15 +1179,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 3062
-    },
-    {
-        "query_id": "136_196",
-        "question": "What type of music does Traverse: Starlight & Prairie play?",
-        "answers": [
-            "role-playing video game"
-        ],
-        "pageviews": 1606
+        "pageviews": 1
     },
     {
         "query_id": "136_197",
@@ -1541,7 +1188,7 @@
             "comedy film",
             "teen film"
         ],
-        "pageviews": 39940
+        "pageviews": 14
     },
     {
         "query_id": "136_198",
@@ -1549,7 +1196,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 1301
+        "pageviews": 3
     },
     {
         "query_id": "136_199",
@@ -1557,7 +1204,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 1603
+        "pageviews": 3
     },
     {
         "query_id": "136_200",
@@ -1565,7 +1212,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 19433
+        "pageviews": 1
     },
     {
         "query_id": "136_201",
@@ -1573,7 +1220,7 @@
         "answers": [
             "biographical film"
         ],
-        "pageviews": 37530
+        "pageviews": 4
     },
     {
         "query_id": "136_202",
@@ -1581,7 +1228,7 @@
         "answers": [
             "neo-classical metal"
         ],
-        "pageviews": 5314
+        "pageviews": 6
     },
     {
         "query_id": "136_203",
@@ -1589,7 +1236,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 40460
+        "pageviews": 12
     },
     {
         "query_id": "136_204",
@@ -1597,7 +1244,7 @@
         "answers": [
             "fantasy film"
         ],
-        "pageviews": 226987
+        "pageviews": 26
     },
     {
         "query_id": "136_205",
@@ -1605,7 +1252,7 @@
         "answers": [
             "progressive rock"
         ],
-        "pageviews": 105379
+        "pageviews": 23
     },
     {
         "query_id": "136_206",
@@ -1613,15 +1260,7 @@
         "answers": [
             "satire"
         ],
-        "pageviews": 1296
-    },
-    {
-        "query_id": "136_207",
-        "question": "What type of music does London Town play?",
-        "answers": [
-            "musical film"
-        ],
-        "pageviews": 4666
+        "pageviews": 1
     },
     {
         "query_id": "136_208",
@@ -1629,15 +1268,7 @@
         "answers": [
             "neo-noir"
         ],
-        "pageviews": 1573477
-    },
-    {
-        "query_id": "136_209",
-        "question": "What type of music does For Love or Money play?",
-        "answers": [
-            "reality television"
-        ],
-        "pageviews": 19495
+        "pageviews": 178
     },
     {
         "query_id": "136_210",
@@ -1645,15 +1276,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 1380
-    },
-    {
-        "query_id": "136_211",
-        "question": "What type of music does Lenny Gault play?",
-        "answers": [
-            "country music"
-        ],
-        "pageviews": 564
+        "pageviews": 1
     },
     {
         "query_id": "136_212",
@@ -1661,7 +1284,7 @@
         "answers": [
             "juvenile fantasy"
         ],
-        "pageviews": 1776
+        "pageviews": 1
     },
     {
         "query_id": "136_213",
@@ -1669,7 +1292,7 @@
         "answers": [
             "rhythm and blues"
         ],
-        "pageviews": 1612
+        "pageviews": 1
     },
     {
         "query_id": "136_214",
@@ -1678,7 +1301,7 @@
             "progressive metal",
             "progressive rock"
         ],
-        "pageviews": 76991
+        "pageviews": 37
     },
     {
         "query_id": "136_215",
@@ -1686,7 +1309,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 3786
+        "pageviews": 2
     },
     {
         "query_id": "136_216",
@@ -1694,7 +1317,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 2375
+        "pageviews": 3
     },
     {
         "query_id": "136_217",
@@ -1702,23 +1325,7 @@
         "answers": [
             "comedy-drama"
         ],
-        "pageviews": 3300
-    },
-    {
-        "query_id": "136_218",
-        "question": "What type of music does Conflict: Middle East Political Simulator play?",
-        "answers": [
-            "government simulation game"
-        ],
-        "pageviews": 8993
-    },
-    {
-        "query_id": "136_219",
-        "question": "What type of music does Bandit Queen play?",
-        "answers": [
-            "indie rock"
-        ],
-        "pageviews": 2634
+        "pageviews": 3
     },
     {
         "query_id": "136_220",
@@ -1727,7 +1334,7 @@
             "fantasy film",
             "action film"
         ],
-        "pageviews": 493309
+        "pageviews": 27
     },
     {
         "query_id": "136_221",
@@ -1735,23 +1342,7 @@
         "answers": [
             "progressive rock"
         ],
-        "pageviews": 3231
-    },
-    {
-        "query_id": "136_222",
-        "question": "What type of music does Call of Duty: Elite play?",
-        "answers": [
-            "first-person shooter"
-        ],
-        "pageviews": 17679
-    },
-    {
-        "query_id": "136_223",
-        "question": "What type of music does H. P. Lovecraft: Against the World, Against Life play?",
-        "answers": [
-            "literary criticism"
-        ],
-        "pageviews": 9919
+        "pageviews": 1
     },
     {
         "query_id": "136_224",
@@ -1759,15 +1350,7 @@
         "answers": [
             "anthology series"
         ],
-        "pageviews": 10194
-    },
-    {
-        "query_id": "136_225",
-        "question": "What type of music does The Busy Body play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 9067
+        "pageviews": 4
     },
     {
         "query_id": "136_226",
@@ -1775,7 +1358,7 @@
         "answers": [
             "novella"
         ],
-        "pageviews": 14161
+        "pageviews": 7
     },
     {
         "query_id": "136_227",
@@ -1783,15 +1366,7 @@
         "answers": [
             "sea shanty"
         ],
-        "pageviews": 188911
-    },
-    {
-        "query_id": "136_228",
-        "question": "What type of music does The Block, season 9 play?",
-        "answers": [
-            "reality television"
-        ],
-        "pageviews": 0
+        "pageviews": 8
     },
     {
         "query_id": "136_229",
@@ -1799,7 +1374,7 @@
         "answers": [
             "soul music"
         ],
-        "pageviews": 1031272
+        "pageviews": 273
     },
     {
         "query_id": "136_230",
@@ -1807,7 +1382,7 @@
         "answers": [
             "melodic death metal"
         ],
-        "pageviews": 41569
+        "pageviews": 12
     },
     {
         "query_id": "136_231",
@@ -1815,7 +1390,7 @@
         "answers": [
             "popular music"
         ],
-        "pageviews": 149717
+        "pageviews": 436
     },
     {
         "query_id": "136_232",
@@ -1823,7 +1398,7 @@
         "answers": [
             "J-pop"
         ],
-        "pageviews": 3665
+        "pageviews": 2
     },
     {
         "query_id": "136_233",
@@ -1831,7 +1406,7 @@
         "answers": [
             "soul music"
         ],
-        "pageviews": 24529
+        "pageviews": 15
     },
     {
         "query_id": "136_234",
@@ -1839,7 +1414,7 @@
         "answers": [
             "symphony"
         ],
-        "pageviews": 28291
+        "pageviews": 162
     },
     {
         "query_id": "136_235",
@@ -1847,7 +1422,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 2768
+        "pageviews": 1
     },
     {
         "query_id": "136_236",
@@ -1855,23 +1430,7 @@
         "answers": [
             "death metal"
         ],
-        "pageviews": 59197
-    },
-    {
-        "query_id": "136_237",
-        "question": "What type of music does Girls at Arms play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 1130
-    },
-    {
-        "query_id": "136_238",
-        "question": "What type of music does R: Racing Evolution play?",
-        "answers": [
-            "racing video game"
-        ],
-        "pageviews": 19833
+        "pageviews": 43
     },
     {
         "query_id": "136_239",
@@ -1879,7 +1438,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 4711
+        "pageviews": 11
     },
     {
         "query_id": "136_240",
@@ -1887,7 +1446,7 @@
         "answers": [
             "puzzle video game"
         ],
-        "pageviews": 131265
+        "pageviews": 52
     },
     {
         "query_id": "136_241",
@@ -1895,7 +1454,7 @@
         "answers": [
             "acid house"
         ],
-        "pageviews": 15089
+        "pageviews": 28
     },
     {
         "query_id": "136_242",
@@ -1903,15 +1462,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 27064
-    },
-    {
-        "query_id": "136_243",
-        "question": "What type of music does Wild Case Files play?",
-        "answers": [
-            "television documentary"
-        ],
-        "pageviews": 908
+        "pageviews": 14
     },
     {
         "query_id": "136_244",
@@ -1919,7 +1470,7 @@
         "answers": [
             "mystery fiction"
         ],
-        "pageviews": 25772
+        "pageviews": 4
     },
     {
         "query_id": "136_245",
@@ -1927,7 +1478,7 @@
         "answers": [
             "science fiction film"
         ],
-        "pageviews": 20095
+        "pageviews": 13
     },
     {
         "query_id": "136_246",
@@ -1935,7 +1486,7 @@
         "answers": [
             "ragga"
         ],
-        "pageviews": 1098
+        "pageviews": 3
     },
     {
         "query_id": "136_247",
@@ -1943,7 +1494,7 @@
         "answers": [
             "synth-pop"
         ],
-        "pageviews": 331279
+        "pageviews": 98
     },
     {
         "query_id": "136_248",
@@ -1951,7 +1502,7 @@
         "answers": [
             "action game"
         ],
-        "pageviews": 6100
+        "pageviews": 2
     },
     {
         "query_id": "136_249",
@@ -1959,23 +1510,7 @@
         "answers": [
             "contemporary R&B"
         ],
-        "pageviews": 30089
-    },
-    {
-        "query_id": "136_250",
-        "question": "What type of music does You Make Me Feel So Good play?",
-        "answers": [
-            "synth-pop"
-        ],
-        "pageviews": 3341
-    },
-    {
-        "query_id": "136_251",
-        "question": "What type of music does Tom Clancy's Net Force Explorers: Private Lives play?",
-        "answers": [
-            "young adult literature"
-        ],
-        "pageviews": 771
+        "pageviews": 13
     },
     {
         "query_id": "136_253",
@@ -1983,7 +1518,7 @@
         "answers": [
             "racing video game"
         ],
-        "pageviews": 23059
+        "pageviews": 6
     },
     {
         "query_id": "136_254",
@@ -1991,15 +1526,7 @@
         "answers": [
             "romantic comedy"
         ],
-        "pageviews": 22332
-    },
-    {
-        "query_id": "136_255",
-        "question": "What type of music does Kashimashi: Girl Meets Girl play?",
-        "answers": [
-            "yuri"
-        ],
-        "pageviews": 28077
+        "pageviews": 3
     },
     {
         "query_id": "136_256",
@@ -2007,7 +1534,7 @@
         "answers": [
             "reggae"
         ],
-        "pageviews": 49363
+        "pageviews": 15
     },
     {
         "query_id": "136_257",
@@ -2015,23 +1542,7 @@
         "answers": [
             "public art"
         ],
-        "pageviews": 1121
-    },
-    {
-        "query_id": "136_258",
-        "question": "What type of music does Hollywood Hijinx play?",
-        "answers": [
-            "interactive fiction"
-        ],
-        "pageviews": 2654
-    },
-    {
-        "query_id": "136_259",
-        "question": "What type of music does Cash Truck play?",
-        "answers": [
-            "thriller"
-        ],
-        "pageviews": 55091
+        "pageviews": 1
     },
     {
         "query_id": "136_260",
@@ -2039,7 +1550,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 8748
+        "pageviews": 3
     },
     {
         "query_id": "136_261",
@@ -2047,15 +1558,7 @@
         "answers": [
             "biographical film"
         ],
-        "pageviews": 7825
-    },
-    {
-        "query_id": "136_262",
-        "question": "What type of music does The Last Paradises: On the Track of Rare Animals play?",
-        "answers": [
-            "nature documentary"
-        ],
-        "pageviews": 1400
+        "pageviews": 1
     },
     {
         "query_id": "136_263",
@@ -2063,7 +1566,7 @@
         "answers": [
             "science fiction"
         ],
-        "pageviews": 1454
+        "pageviews": 2
     },
     {
         "query_id": "136_264",
@@ -2071,15 +1574,7 @@
         "answers": [
             "tafsir"
         ],
-        "pageviews": 2810
-    },
-    {
-        "query_id": "136_265",
-        "question": "What type of music does La Malquerida play?",
-        "answers": [
-            "telenovela"
-        ],
-        "pageviews": 34570
+        "pageviews": 4
     },
     {
         "query_id": "136_266",
@@ -2088,7 +1583,7 @@
             "horror film",
             "slasher film"
         ],
-        "pageviews": 94530
+        "pageviews": 38
     },
     {
         "query_id": "136_267",
@@ -2096,7 +1591,7 @@
         "answers": [
             "alternative rock"
         ],
-        "pageviews": 11292
+        "pageviews": 17
     },
     {
         "query_id": "136_268",
@@ -2104,15 +1599,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 864
-    },
-    {
-        "query_id": "136_269",
-        "question": "What type of music does WWE Aftershock play?",
-        "answers": [
-            "professional wrestling"
-        ],
-        "pageviews": 10057
+        "pageviews": 5
     },
     {
         "query_id": "136_270",
@@ -2120,7 +1607,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 3233
+        "pageviews": 8
     },
     {
         "query_id": "136_271",
@@ -2128,7 +1615,7 @@
         "answers": [
             "rhythm and blues"
         ],
-        "pageviews": 39250
+        "pageviews": 8
     },
     {
         "query_id": "136_272",
@@ -2136,7 +1623,7 @@
         "answers": [
             "industrial metal"
         ],
-        "pageviews": 15195
+        "pageviews": 10
     },
     {
         "query_id": "136_273",
@@ -2144,7 +1631,7 @@
         "answers": [
             "musical film"
         ],
-        "pageviews": 57253
+        "pageviews": 43
     },
     {
         "query_id": "136_274",
@@ -2152,15 +1639,7 @@
         "answers": [
             "alternative rock"
         ],
-        "pageviews": 124252
-    },
-    {
-        "query_id": "136_275",
-        "question": "What type of music does Dexter Rides Again play?",
-        "answers": [
-            "jazz"
-        ],
-        "pageviews": 4029
+        "pageviews": 243
     },
     {
         "query_id": "136_276",
@@ -2168,15 +1647,7 @@
         "answers": [
             "electronic music"
         ],
-        "pageviews": 1625
-    },
-    {
-        "query_id": "136_277",
-        "question": "What type of music does Halo: Reach play?",
-        "answers": [
-            "first-person shooter"
-        ],
-        "pageviews": 301322
+        "pageviews": 13
     },
     {
         "query_id": "136_278",
@@ -2184,7 +1655,7 @@
         "answers": [
             "non-fiction"
         ],
-        "pageviews": 4291
+        "pageviews": 1
     },
     {
         "query_id": "136_279",
@@ -2192,7 +1663,7 @@
         "answers": [
             "romance film"
         ],
-        "pageviews": 13706
+        "pageviews": 5
     },
     {
         "query_id": "136_280",
@@ -2200,7 +1671,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 95075
+        "pageviews": 23
     },
     {
         "query_id": "136_281",
@@ -2208,15 +1679,7 @@
         "answers": [
             "mystery film"
         ],
-        "pageviews": 16904
-    },
-    {
-        "query_id": "136_282",
-        "question": "What type of music does 1848 play?",
-        "answers": [
-            "documentary film"
-        ],
-        "pageviews": 2508
+        "pageviews": 7
     },
     {
         "query_id": "136_283",
@@ -2224,15 +1687,7 @@
         "answers": [
             "experimental rock"
         ],
-        "pageviews": 7642
-    },
-    {
-        "query_id": "136_284",
-        "question": "What type of music does Egypt 2 play?",
-        "answers": [
-            "adventure game"
-        ],
-        "pageviews": 5002
+        "pageviews": 3
     },
     {
         "query_id": "136_285",
@@ -2240,7 +1695,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 83813
+        "pageviews": 44
     },
     {
         "query_id": "136_286",
@@ -2248,7 +1703,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 2634
+        "pageviews": 1
     },
     {
         "query_id": "136_287",
@@ -2256,15 +1711,7 @@
         "answers": [
             "musical film"
         ],
-        "pageviews": 7684
-    },
-    {
-        "query_id": "136_288",
-        "question": "What type of music does Dismissed play?",
-        "answers": [
-            "reality television"
-        ],
-        "pageviews": 0
+        "pageviews": 9
     },
     {
         "query_id": "136_289",
@@ -2272,7 +1719,7 @@
         "answers": [
             "landscape art"
         ],
-        "pageviews": 7320
+        "pageviews": 13
     },
     {
         "query_id": "136_290",
@@ -2280,7 +1727,7 @@
         "answers": [
             "post-hardcore"
         ],
-        "pageviews": 2671
+        "pageviews": 1
     },
     {
         "query_id": "136_291",
@@ -2288,31 +1735,7 @@
         "answers": [
             "Cajun music"
         ],
-        "pageviews": 4893
-    },
-    {
-        "query_id": "136_292",
-        "question": "What type of music does Spyro: Year of the Dragon play?",
-        "answers": [
-            "platform game"
-        ],
-        "pageviews": 78405
-    },
-    {
-        "query_id": "136_294",
-        "question": "What type of music does Panic! play?",
-        "answers": [
-            "puzzle video game"
-        ],
-        "pageviews": 7088
-    },
-    {
-        "query_id": "136_295",
-        "question": "What type of music does Freak Out: Extreme Freeride play?",
-        "answers": [
-            "sports video game"
-        ],
-        "pageviews": 3304
+        "pageviews": 11
     },
     {
         "query_id": "136_296",
@@ -2320,15 +1743,7 @@
         "answers": [
             "genre painting"
         ],
-        "pageviews": 3920
-    },
-    {
-        "query_id": "136_297",
-        "question": "What type of music does Rough and Ready play?",
-        "answers": [
-            "Western film"
-        ],
-        "pageviews": 1745
+        "pageviews": 9
     },
     {
         "query_id": "136_298",
@@ -2336,15 +1751,7 @@
         "answers": [
             "black metal"
         ],
-        "pageviews": 4664
-    },
-    {
-        "query_id": "136_299",
-        "question": "What type of music does The Monastery: Mr. Vig and the Nun play?",
-        "answers": [
-            "documentary film"
-        ],
-        "pageviews": 1697
+        "pageviews": 4
     },
     {
         "query_id": "136_300",
@@ -2352,7 +1759,7 @@
         "answers": [
             "comedy-drama"
         ],
-        "pageviews": 8576
+        "pageviews": 6
     },
     {
         "query_id": "136_301",
@@ -2360,7 +1767,7 @@
         "answers": [
             "film noir"
         ],
-        "pageviews": 5215
+        "pageviews": 2
     },
     {
         "query_id": "136_302",
@@ -2368,15 +1775,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 1920
-    },
-    {
-        "query_id": "136_303",
-        "question": "What type of music does Blind Terror play?",
-        "answers": [
-            "thriller"
-        ],
-        "pageviews": 2331
+        "pageviews": 2
     },
     {
         "query_id": "136_304",
@@ -2385,23 +1784,7 @@
             "progressive rock",
             "art rock"
         ],
-        "pageviews": 1179546
-    },
-    {
-        "query_id": "136_305",
-        "question": "What type of music does Blagger play?",
-        "answers": [
-            "platform game"
-        ],
-        "pageviews": 2651
-    },
-    {
-        "query_id": "136_306",
-        "question": "What type of music does Althea & Donna play?",
-        "answers": [
-            "reggae"
-        ],
-        "pageviews": 30490
+        "pageviews": 952
     },
     {
         "query_id": "136_307",
@@ -2409,7 +1792,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 395068
+        "pageviews": 76
     },
     {
         "query_id": "136_308",
@@ -2418,7 +1801,7 @@
             "freemasonry",
             "hermeticism"
         ],
-        "pageviews": 232536
+        "pageviews": 139
     },
     {
         "query_id": "136_309",
@@ -2426,7 +1809,7 @@
         "answers": [
             "heavy metal"
         ],
-        "pageviews": 31242
+        "pageviews": 8
     },
     {
         "query_id": "136_310",
@@ -2434,15 +1817,7 @@
         "answers": [
             "hip hop music"
         ],
-        "pageviews": 2713
-    },
-    {
-        "query_id": "136_311",
-        "question": "What type of music does School Days play?",
-        "answers": [
-            "eroge"
-        ],
-        "pageviews": 118771
+        "pageviews": 3
     },
     {
         "query_id": "136_312",
@@ -2450,15 +1825,7 @@
         "answers": [
             "reggae"
         ],
-        "pageviews": 3146
-    },
-    {
-        "query_id": "136_313",
-        "question": "What type of music does Tom Harrison play?",
-        "answers": [
-            "jazz"
-        ],
-        "pageviews": 979
+        "pageviews": 7
     },
     {
         "query_id": "136_314",
@@ -2466,23 +1833,7 @@
         "answers": [
             "techno"
         ],
-        "pageviews": 3252
-    },
-    {
-        "query_id": "136_315",
-        "question": "What type of music does Pessi and Illusia play?",
-        "answers": [
-            "fantasy film"
-        ],
-        "pageviews": 1447
-    },
-    {
-        "query_id": "136_316",
-        "question": "What type of music does Cheno Lyfe play?",
-        "answers": [
-            "Christian hip hop"
-        ],
-        "pageviews": 1168
+        "pageviews": 4
     },
     {
         "query_id": "136_317",
@@ -2490,7 +1841,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 23720
+        "pageviews": 19
     },
     {
         "query_id": "136_319",
@@ -2498,7 +1849,7 @@
         "answers": [
             "tango"
         ],
-        "pageviews": 841
+        "pageviews": 2
     },
     {
         "query_id": "136_320",
@@ -2506,7 +1857,7 @@
         "answers": [
             "science fiction"
         ],
-        "pageviews": 2905
+        "pageviews": 1
     },
     {
         "query_id": "136_321",
@@ -2515,7 +1866,7 @@
             "action film",
             "buddy cop"
         ],
-        "pageviews": 273357
+        "pageviews": 27
     },
     {
         "query_id": "136_322",
@@ -2523,15 +1874,7 @@
         "answers": [
             "reggae"
         ],
-        "pageviews": 79195
-    },
-    {
-        "query_id": "136_323",
-        "question": "What type of music does Alien from the Darkness play?",
-        "answers": [
-            "hentai"
-        ],
-        "pageviews": 21390
+        "pageviews": 33
     },
     {
         "query_id": "136_324",
@@ -2539,7 +1882,7 @@
         "answers": [
             "telenovela"
         ],
-        "pageviews": 6660
+        "pageviews": 3
     },
     {
         "query_id": "136_325",
@@ -2547,7 +1890,7 @@
         "answers": [
             "hip hop music"
         ],
-        "pageviews": 64318
+        "pageviews": 87
     },
     {
         "query_id": "136_326",
@@ -2555,7 +1898,7 @@
         "answers": [
             "black metal"
         ],
-        "pageviews": 27555
+        "pageviews": 17
     },
     {
         "query_id": "136_327",
@@ -2563,7 +1906,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 6228
+        "pageviews": 3
     },
     {
         "query_id": "136_328",
@@ -2571,7 +1914,7 @@
         "answers": [
             "mystery film"
         ],
-        "pageviews": 638
+        "pageviews": 1
     },
     {
         "query_id": "136_329",
@@ -2579,7 +1922,7 @@
         "answers": [
             "sports video game"
         ],
-        "pageviews": 59614
+        "pageviews": 40
     },
     {
         "query_id": "136_330",
@@ -2587,7 +1930,7 @@
         "answers": [
             "crime novel"
         ],
-        "pageviews": 4409
+        "pageviews": 4
     },
     {
         "query_id": "136_331",
@@ -2595,7 +1938,7 @@
         "answers": [
             "pink film"
         ],
-        "pageviews": 33105
+        "pageviews": 3
     },
     {
         "query_id": "136_332",
@@ -2603,15 +1946,7 @@
         "answers": [
             "landscape art"
         ],
-        "pageviews": 1830
-    },
-    {
-        "query_id": "136_333",
-        "question": "What type of music does Revenge of the Nerds III: The Next Generation play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 33259
+        "pageviews": 8
     },
     {
         "query_id": "136_334",
@@ -2619,7 +1954,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 1735
+        "pageviews": 2
     },
     {
         "query_id": "136_335",
@@ -2627,7 +1962,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 509384
+        "pageviews": 31
     },
     {
         "query_id": "136_336",
@@ -2635,7 +1970,7 @@
         "answers": [
             "alternative metal"
         ],
-        "pageviews": 24876
+        "pageviews": 11
     },
     {
         "query_id": "136_337",
@@ -2643,7 +1978,7 @@
         "answers": [
             "reality television"
         ],
-        "pageviews": 9087
+        "pageviews": 3
     },
     {
         "query_id": "136_338",
@@ -2651,7 +1986,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 97218
+        "pageviews": 58
     },
     {
         "query_id": "136_339",
@@ -2659,7 +1994,7 @@
         "answers": [
             "platform game"
         ],
-        "pageviews": 73134
+        "pageviews": 7
     },
     {
         "query_id": "136_340",
@@ -2667,7 +2002,7 @@
         "answers": [
             "Nueva trova"
         ],
-        "pageviews": 4879
+        "pageviews": 16
     },
     {
         "query_id": "136_341",
@@ -2675,7 +2010,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 3324
+        "pageviews": 10
     },
     {
         "query_id": "136_342",
@@ -2683,7 +2018,7 @@
         "answers": [
             "indie rock"
         ],
-        "pageviews": 1365
+        "pageviews": 1
     },
     {
         "query_id": "136_343",
@@ -2691,7 +2026,7 @@
         "answers": [
             "folk music"
         ],
-        "pageviews": 6398
+        "pageviews": 14
     },
     {
         "query_id": "136_344",
@@ -2699,7 +2034,7 @@
         "answers": [
             "hymnal"
         ],
-        "pageviews": 8515
+        "pageviews": 31
     },
     {
         "query_id": "136_345",
@@ -2707,15 +2042,7 @@
         "answers": [
             "classical music"
         ],
-        "pageviews": 3223
-    },
-    {
-        "query_id": "136_346",
-        "question": "What type of music does The Autumn of Pride play?",
-        "answers": [
-            "romance film"
-        ],
-        "pageviews": 64460
+        "pageviews": 6
     },
     {
         "query_id": "136_347",
@@ -2723,7 +2050,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 2191
+        "pageviews": 3
     },
     {
         "query_id": "136_348",
@@ -2731,7 +2058,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 4723
+        "pageviews": 2
     },
     {
         "query_id": "136_349",
@@ -2739,7 +2066,7 @@
         "answers": [
             "science fiction film"
         ],
-        "pageviews": 311572
+        "pageviews": 72
     },
     {
         "query_id": "136_350",
@@ -2747,7 +2074,7 @@
         "answers": [
             "action film"
         ],
-        "pageviews": 7314
+        "pageviews": 2
     },
     {
         "query_id": "136_351",
@@ -2755,15 +2082,7 @@
         "answers": [
             "romance film"
         ],
-        "pageviews": 3782
-    },
-    {
-        "query_id": "136_352",
-        "question": "What type of music does Dexter's Laboratory: Robot Rampage play?",
-        "answers": [
-            "action game"
-        ],
-        "pageviews": 6030
+        "pageviews": 1
     },
     {
         "query_id": "136_353",
@@ -2771,7 +2090,7 @@
         "answers": [
             "puzzle video game"
         ],
-        "pageviews": 3679
+        "pageviews": 6
     },
     {
         "query_id": "136_354",
@@ -2779,7 +2098,7 @@
         "answers": [
             "hard bop"
         ],
-        "pageviews": 54422
+        "pageviews": 10
     },
     {
         "query_id": "136_355",
@@ -2787,15 +2106,7 @@
         "answers": [
             "war film"
         ],
-        "pageviews": 5662
-    },
-    {
-        "query_id": "136_356",
-        "question": "What type of music does S.O.S. Noronha play?",
-        "answers": [
-            "adventure film"
-        ],
-        "pageviews": 1096
+        "pageviews": 4
     },
     {
         "query_id": "136_357",
@@ -2803,7 +2114,7 @@
         "answers": [
             "rhythm and blues"
         ],
-        "pageviews": 3623
+        "pageviews": 1
     },
     {
         "query_id": "136_358",
@@ -2811,23 +2122,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 2095
-    },
-    {
-        "query_id": "136_359",
-        "question": "What type of music does Land Raiders play?",
-        "answers": [
-            "Western film"
-        ],
-        "pageviews": 9909
-    },
-    {
-        "query_id": "136_360",
-        "question": "What type of music does White City play?",
-        "answers": [
-            "punk rock"
-        ],
-        "pageviews": 1581
+        "pageviews": 1
     },
     {
         "query_id": "136_361",
@@ -2835,7 +2130,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 22234
+        "pageviews": 5
     },
     {
         "query_id": "136_362",
@@ -2843,15 +2138,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 28197
-    },
-    {
-        "query_id": "136_363",
-        "question": "What type of music does Helium Vola play?",
-        "answers": [
-            "dark wave"
-        ],
-        "pageviews": 1094
+        "pageviews": 1
     },
     {
         "query_id": "136_364",
@@ -2859,15 +2146,7 @@
         "answers": [
             "indie rock"
         ],
-        "pageviews": 1890
-    },
-    {
-        "query_id": "136_365",
-        "question": "What type of music does Ever Since Eve play?",
-        "answers": [
-            "romantic comedy"
-        ],
-        "pageviews": 3171
+        "pageviews": 1
     },
     {
         "query_id": "136_366",
@@ -2875,15 +2154,7 @@
         "answers": [
             "indie rock"
         ],
-        "pageviews": 1597
-    },
-    {
-        "query_id": "136_367",
-        "question": "What type of music does Mana Khemia 2: Fall of Alchemy play?",
-        "answers": [
-            "role-playing video game"
-        ],
-        "pageviews": 16864
+        "pageviews": 2
     },
     {
         "query_id": "136_368",
@@ -2891,7 +2162,7 @@
         "answers": [
             "sitcom"
         ],
-        "pageviews": 60842
+        "pageviews": 42
     },
     {
         "query_id": "136_369",
@@ -2899,7 +2170,7 @@
         "answers": [
             "hard rock"
         ],
-        "pageviews": 3332
+        "pageviews": 15
     },
     {
         "query_id": "136_370",
@@ -2907,7 +2178,7 @@
         "answers": [
             "reggaeton"
         ],
-        "pageviews": 7648
+        "pageviews": 4
     },
     {
         "query_id": "136_371",
@@ -2915,7 +2186,7 @@
         "answers": [
             "dansband"
         ],
-        "pageviews": 845
+        "pageviews": 6
     },
     {
         "query_id": "136_372",
@@ -2923,7 +2194,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 3495563
+        "pageviews": 197
     },
     {
         "query_id": "136_373",
@@ -2931,7 +2202,7 @@
         "answers": [
             "war film"
         ],
-        "pageviews": 7937
+        "pageviews": 8
     },
     {
         "query_id": "136_374",
@@ -2939,15 +2210,7 @@
         "answers": [
             "novella"
         ],
-        "pageviews": 244058
-    },
-    {
-        "query_id": "136_375",
-        "question": "What type of music does Ghost Dog: The Way of the Samurai play?",
-        "answers": [
-            "action film"
-        ],
-        "pageviews": 176082
+        "pageviews": 35
     },
     {
         "query_id": "136_376",
@@ -2955,7 +2218,7 @@
         "answers": [
             "dubstep"
         ],
-        "pageviews": 1722
+        "pageviews": 3
     },
     {
         "query_id": "136_377",
@@ -2963,7 +2226,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 5780
+        "pageviews": 1
     },
     {
         "query_id": "136_378",
@@ -2971,15 +2234,7 @@
         "answers": [
             "beach party film"
         ],
-        "pageviews": 48926
-    },
-    {
-        "query_id": "136_379",
-        "question": "What type of music does Burnt by the Sun EP play?",
-        "answers": [
-            "metalcore"
-        ],
-        "pageviews": 1305
+        "pageviews": 24
     },
     {
         "query_id": "136_380",
@@ -2987,7 +2242,7 @@
         "answers": [
             "romance novel"
         ],
-        "pageviews": 143096
+        "pageviews": 3
     },
     {
         "query_id": "136_381",
@@ -2995,7 +2250,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 3245
+        "pageviews": 2
     },
     {
         "query_id": "136_382",
@@ -3003,15 +2258,7 @@
         "answers": [
             "classical music"
         ],
-        "pageviews": 11347
-    },
-    {
-        "query_id": "136_383",
-        "question": "What type of music does Realms of Arkania: Star Trail play?",
-        "answers": [
-            "role-playing video game"
-        ],
-        "pageviews": 6118
+        "pageviews": 6
     },
     {
         "query_id": "136_384",
@@ -3019,7 +2266,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 5117
+        "pageviews": 4
     },
     {
         "query_id": "136_385",
@@ -3027,7 +2274,7 @@
         "answers": [
             "romance film"
         ],
-        "pageviews": 59060
+        "pageviews": 27
     },
     {
         "query_id": "136_386",
@@ -3035,7 +2282,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 6565
+        "pageviews": 4
     },
     {
         "query_id": "136_387",
@@ -3043,7 +2290,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 29285
+        "pageviews": 12
     },
     {
         "query_id": "136_388",
@@ -3051,7 +2298,7 @@
         "answers": [
             "doom metal"
         ],
-        "pageviews": 8361
+        "pageviews": 11
     },
     {
         "query_id": "136_389",
@@ -3059,7 +2306,7 @@
         "answers": [
             "Western film"
         ],
-        "pageviews": 20125
+        "pageviews": 12
     },
     {
         "query_id": "136_390",
@@ -3068,15 +2315,7 @@
             "classical music",
             "opera"
         ],
-        "pageviews": 126965
-    },
-    {
-        "query_id": "136_391",
-        "question": "What type of music does Madness play?",
-        "answers": [
-            "horror film"
-        ],
-        "pageviews": 1552
+        "pageviews": 521
     },
     {
         "query_id": "136_392",
@@ -3084,7 +2323,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 18999
+        "pageviews": 14
     },
     {
         "query_id": "136_393",
@@ -3092,7 +2331,7 @@
         "answers": [
             "action film"
         ],
-        "pageviews": 147723
+        "pageviews": 31
     },
     {
         "query_id": "136_394",
@@ -3100,15 +2339,7 @@
         "answers": [
             "soul music"
         ],
-        "pageviews": 51847
-    },
-    {
-        "query_id": "136_395",
-        "question": "What type of music does X-Men: Mutant Academy play?",
-        "answers": [
-            "fighting game"
-        ],
-        "pageviews": 23068
+        "pageviews": 51
     },
     {
         "query_id": "136_396",
@@ -3116,7 +2347,7 @@
         "answers": [
             "Christmas music"
         ],
-        "pageviews": 284124
+        "pageviews": 190
     },
     {
         "query_id": "136_397",
@@ -3124,7 +2355,7 @@
         "answers": [
             "musical film"
         ],
-        "pageviews": 1459
+        "pageviews": 3
     },
     {
         "query_id": "136_398",
@@ -3132,7 +2363,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 29760
+        "pageviews": 255
     },
     {
         "query_id": "136_399",
@@ -3140,7 +2371,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 16144
+        "pageviews": 17
     },
     {
         "query_id": "136_400",
@@ -3148,7 +2379,7 @@
         "answers": [
             "indie pop"
         ],
-        "pageviews": 19714
+        "pageviews": 8
     },
     {
         "query_id": "136_401",
@@ -3156,7 +2387,7 @@
         "answers": [
             "comedy-drama"
         ],
-        "pageviews": 1548
+        "pageviews": 1
     },
     {
         "query_id": "136_402",
@@ -3164,7 +2395,7 @@
         "answers": [
             "reality television"
         ],
-        "pageviews": 56544
+        "pageviews": 27
     },
     {
         "query_id": "136_403",
@@ -3172,7 +2403,7 @@
         "answers": [
             "soul music"
         ],
-        "pageviews": 18164
+        "pageviews": 22
     },
     {
         "query_id": "136_404",
@@ -3180,7 +2411,7 @@
         "answers": [
             "psychedelic rock"
         ],
-        "pageviews": 6111
+        "pageviews": 1
     },
     {
         "query_id": "136_405",
@@ -3188,15 +2419,7 @@
         "answers": [
             "reality television"
         ],
-        "pageviews": 6310
-    },
-    {
-        "query_id": "136_406",
-        "question": "What type of music does Bob & Carol & Ted & Alice play?",
-        "answers": [
-            "comedy-drama"
-        ],
-        "pageviews": 99404
+        "pageviews": 9
     },
     {
         "query_id": "136_407",
@@ -3204,7 +2427,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 1992
+        "pageviews": 1
     },
     {
         "query_id": "136_408",
@@ -3212,7 +2435,7 @@
         "answers": [
             "folk rock"
         ],
-        "pageviews": 73765
+        "pageviews": 63
     },
     {
         "query_id": "136_409",
@@ -3220,15 +2443,7 @@
         "answers": [
             "non-fiction"
         ],
-        "pageviews": 102066
-    },
-    {
-        "query_id": "136_410",
-        "question": "What type of music does Police Force: An Inside Story play?",
-        "answers": [
-            "action film"
-        ],
-        "pageviews": 22535
+        "pageviews": 21
     },
     {
         "query_id": "136_411",
@@ -3236,7 +2451,7 @@
         "answers": [
             "adventure film"
         ],
-        "pageviews": 15304
+        "pageviews": 3
     },
     {
         "query_id": "136_412",
@@ -3244,7 +2459,7 @@
         "answers": [
             "science fiction film"
         ],
-        "pageviews": 22654
+        "pageviews": 18
     },
     {
         "query_id": "136_414",
@@ -3252,7 +2467,7 @@
         "answers": [
             "world music"
         ],
-        "pageviews": 19542
+        "pageviews": 7
     },
     {
         "query_id": "136_415",
@@ -3260,7 +2475,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 4507
+        "pageviews": 2
     },
     {
         "query_id": "136_416",
@@ -3268,7 +2483,7 @@
         "answers": [
             "puzzle video game"
         ],
-        "pageviews": 1390
+        "pageviews": 1
     },
     {
         "query_id": "136_417",
@@ -3276,7 +2491,7 @@
         "answers": [
             "tango"
         ],
-        "pageviews": 3724
+        "pageviews": 7
     },
     {
         "query_id": "136_418",
@@ -3284,15 +2499,7 @@
         "answers": [
             "groove metal"
         ],
-        "pageviews": 4333
-    },
-    {
-        "query_id": "136_419",
-        "question": "What type of music does Sogni mostruosamente proibiti play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 1950
+        "pageviews": 6
     },
     {
         "query_id": "136_420",
@@ -3300,15 +2507,7 @@
         "answers": [
             "reggae"
         ],
-        "pageviews": 15120
-    },
-    {
-        "query_id": "136_421",
-        "question": "What type of music does Crusade:Zero play?",
-        "answers": [
-            "death metal"
-        ],
-        "pageviews": 1266
+        "pageviews": 8
     },
     {
         "query_id": "136_422",
@@ -3316,7 +2515,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 7525
+        "pageviews": 49
     },
     {
         "query_id": "136_423",
@@ -3324,7 +2523,7 @@
         "answers": [
             "mystery film"
         ],
-        "pageviews": 134660
+        "pageviews": 21
     },
     {
         "query_id": "136_424",
@@ -3332,7 +2531,7 @@
         "answers": [
             "grindcore"
         ],
-        "pageviews": 4483
+        "pageviews": 6
     },
     {
         "query_id": "136_425",
@@ -3340,7 +2539,7 @@
         "answers": [
             "alternative rock"
         ],
-        "pageviews": 6608
+        "pageviews": 2
     },
     {
         "query_id": "136_426",
@@ -3348,7 +2547,7 @@
         "answers": [
             "martial arts film"
         ],
-        "pageviews": 6362
+        "pageviews": 4
     },
     {
         "query_id": "136_427",
@@ -3356,15 +2555,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 1704
-    },
-    {
-        "query_id": "136_428",
-        "question": "What type of music does Shirvani Chalaev play?",
-        "answers": [
-            "opera"
-        ],
-        "pageviews": 940
+        "pageviews": 1
     },
     {
         "query_id": "136_429",
@@ -3372,15 +2563,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 1494072
-    },
-    {
-        "query_id": "136_430",
-        "question": "What type of music does Nancy Drew: Treasure in the Royal Tower play?",
-        "answers": [
-            "adventure game"
-        ],
-        "pageviews": 6980
+        "pageviews": 1657
     },
     {
         "query_id": "136_431",
@@ -3388,7 +2571,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 6705
+        "pageviews": 31
     },
     {
         "query_id": "136_432",
@@ -3396,15 +2579,7 @@
         "answers": [
             "microhouse"
         ],
-        "pageviews": 971
-    },
-    {
-        "query_id": "136_433",
-        "question": "What type of music does El Enemigo play?",
-        "answers": [
-            "telenovela"
-        ],
-        "pageviews": 940
+        "pageviews": 1
     },
     {
         "query_id": "136_434",
@@ -3412,7 +2587,7 @@
         "answers": [
             "progressive rock"
         ],
-        "pageviews": 45365
+        "pageviews": 13
     },
     {
         "query_id": "136_435",
@@ -3420,15 +2595,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 3213
-    },
-    {
-        "query_id": "136_436",
-        "question": "What type of music does Beasts play?",
-        "answers": [
-            "novella"
-        ],
-        "pageviews": 2398
+        "pageviews": 9
     },
     {
         "query_id": "136_437",
@@ -3436,15 +2603,7 @@
         "answers": [
             "Southern rock"
         ],
-        "pageviews": 254352
-    },
-    {
-        "query_id": "136_438",
-        "question": "What type of music does Place des Cordeliers \u00e0 Lyon play?",
-        "answers": [
-            "documentary film"
-        ],
-        "pageviews": 2495
+        "pageviews": 90
     },
     {
         "query_id": "136_439",
@@ -3452,7 +2611,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 4194
+        "pageviews": 1
     },
     {
         "query_id": "136_440",
@@ -3460,15 +2619,7 @@
         "answers": [
             "musical film"
         ],
-        "pageviews": 83649
-    },
-    {
-        "query_id": "136_441",
-        "question": "What type of music does Hu Zao play?",
-        "answers": [
-            "landscape art"
-        ],
-        "pageviews": 746
+        "pageviews": 32
     },
     {
         "query_id": "136_442",
@@ -3476,7 +2627,7 @@
         "answers": [
             "romantic comedy"
         ],
-        "pageviews": 3566
+        "pageviews": 5
     },
     {
         "query_id": "136_443",
@@ -3484,7 +2635,7 @@
         "answers": [
             "Western film"
         ],
-        "pageviews": 2119
+        "pageviews": 3
     },
     {
         "query_id": "136_444",
@@ -3492,7 +2643,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 2662
+        "pageviews": 4
     },
     {
         "query_id": "136_445",
@@ -3500,7 +2651,7 @@
         "answers": [
             "synth-pop"
         ],
-        "pageviews": 17067
+        "pageviews": 9
     },
     {
         "query_id": "136_446",
@@ -3509,15 +2660,7 @@
             "alternative rock",
             "rock music"
         ],
-        "pageviews": 1890280
-    },
-    {
-        "query_id": "136_447",
-        "question": "What type of music does Death Do Us Part play?",
-        "answers": [
-            "horror film"
-        ],
-        "pageviews": 6061
+        "pageviews": 554
     },
     {
         "query_id": "136_448",
@@ -3525,15 +2668,7 @@
         "answers": [
             "musical film"
         ],
-        "pageviews": 3960
-    },
-    {
-        "query_id": "136_449",
-        "question": "What type of music does Hellfire: A Journey from Hiroshima play?",
-        "answers": [
-            "documentary film"
-        ],
-        "pageviews": 1850
+        "pageviews": 4
     },
     {
         "query_id": "136_450",
@@ -3541,7 +2676,7 @@
         "answers": [
             "comedy-drama"
         ],
-        "pageviews": 39651
+        "pageviews": 9
     },
     {
         "query_id": "136_451",
@@ -3549,7 +2684,7 @@
         "answers": [
             "fantasy"
         ],
-        "pageviews": 21672
+        "pageviews": 1
     },
     {
         "query_id": "136_452",
@@ -3557,7 +2692,7 @@
         "answers": [
             "comedy-drama"
         ],
-        "pageviews": 11593
+        "pageviews": 7
     },
     {
         "query_id": "136_453",
@@ -3565,7 +2700,7 @@
         "answers": [
             "extreme metal"
         ],
-        "pageviews": 14560
+        "pageviews": 4
     },
     {
         "query_id": "136_454",
@@ -3573,7 +2708,7 @@
         "answers": [
             "novella"
         ],
-        "pageviews": 5954
+        "pageviews": 3
     },
     {
         "query_id": "136_455",
@@ -3581,7 +2716,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 7851
+        "pageviews": 4
     },
     {
         "query_id": "136_456",
@@ -3589,7 +2724,7 @@
         "answers": [
             "progressive metal"
         ],
-        "pageviews": 8777
+        "pageviews": 34
     },
     {
         "query_id": "136_457",
@@ -3597,7 +2732,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 10780
+        "pageviews": 34
     },
     {
         "query_id": "136_458",
@@ -3605,7 +2740,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 8209
+        "pageviews": 12
     },
     {
         "query_id": "136_459",
@@ -3613,39 +2748,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 2330
-    },
-    {
-        "query_id": "136_460",
-        "question": "What type of music does Advanced Dungeons & Dragons: Slayer play?",
-        "answers": [
-            "action role-playing game"
-        ],
-        "pageviews": 7606
-    },
-    {
-        "query_id": "136_461",
-        "question": "What type of music does The Crow play?",
-        "answers": [
-            "Western film"
-        ],
-        "pageviews": 1192
-    },
-    {
-        "query_id": "136_462",
-        "question": "What type of music does The Border Wireless play?",
-        "answers": [
-            "Western film"
-        ],
-        "pageviews": 1063
-    },
-    {
-        "query_id": "136_463",
-        "question": "What type of music does Kate & Kacey play?",
-        "answers": [
-            "country music"
-        ],
-        "pageviews": 2884
+        "pageviews": 1
     },
     {
         "query_id": "136_464",
@@ -3653,7 +2756,7 @@
         "answers": [
             "alternative rock"
         ],
-        "pageviews": 289928
+        "pageviews": 57
     },
     {
         "query_id": "136_465",
@@ -3661,7 +2764,7 @@
         "answers": [
             "travel literature"
         ],
-        "pageviews": 1990
+        "pageviews": 2
     },
     {
         "query_id": "136_466",
@@ -3669,7 +2772,7 @@
         "answers": [
             "reality television"
         ],
-        "pageviews": 15063
+        "pageviews": 6
     },
     {
         "query_id": "136_467",
@@ -3677,15 +2780,7 @@
         "answers": [
             "romantic comedy"
         ],
-        "pageviews": 3517
-    },
-    {
-        "query_id": "136_468",
-        "question": "What type of music does Ultra Reinforcement play?",
-        "answers": [
-            "romantic comedy"
-        ],
-        "pageviews": 2706
+        "pageviews": 2
     },
     {
         "query_id": "136_469",
@@ -3693,15 +2788,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 1879
-    },
-    {
-        "query_id": "136_470",
-        "question": "What type of music does Come on Down play?",
-        "answers": [
-            "grunge"
-        ],
-        "pageviews": 7059
+        "pageviews": 9
     },
     {
         "query_id": "136_471",
@@ -3709,7 +2796,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 5661
+        "pageviews": 4
     },
     {
         "query_id": "136_472",
@@ -3717,7 +2804,7 @@
         "answers": [
             "horror punk"
         ],
-        "pageviews": 5415
+        "pageviews": 15
     },
     {
         "query_id": "136_473",
@@ -3725,15 +2812,7 @@
         "answers": [
             "alternative rock"
         ],
-        "pageviews": 4108
-    },
-    {
-        "query_id": "136_474",
-        "question": "What type of music does Fieldrunners 2 play?",
-        "answers": [
-            "tower defense"
-        ],
-        "pageviews": 3482
+        "pageviews": 3
     },
     {
         "query_id": "136_475",
@@ -3741,23 +2820,7 @@
         "answers": [
             "reggae"
         ],
-        "pageviews": 1405
-    },
-    {
-        "query_id": "136_476",
-        "question": "What type of music does controller.controller play?",
-        "answers": [
-            "indie rock"
-        ],
-        "pageviews": 3307
-    },
-    {
-        "query_id": "136_477",
-        "question": "What type of music does The Messenger: The Story of Joan of Arc play?",
-        "answers": [
-            "historical period drama"
-        ],
-        "pageviews": 155458
+        "pageviews": 9
     },
     {
         "query_id": "136_478",
@@ -3765,7 +2828,7 @@
         "answers": [
             "massively multiplayer online role-playing game"
         ],
-        "pageviews": 15291
+        "pageviews": 9
     },
     {
         "query_id": "136_479",
@@ -3773,7 +2836,7 @@
         "answers": [
             "opera"
         ],
-        "pageviews": 36646
+        "pageviews": 49
     },
     {
         "query_id": "136_480",
@@ -3781,7 +2844,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 32607
+        "pageviews": 25
     },
     {
         "query_id": "136_481",
@@ -3789,15 +2852,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 19015
-    },
-    {
-        "query_id": "136_482",
-        "question": "What type of music does Julio Sumiu play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 980
+        "pageviews": 13
     },
     {
         "query_id": "136_483",
@@ -3805,7 +2860,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 74089
+        "pageviews": 41
     },
     {
         "query_id": "136_484",
@@ -3813,7 +2868,7 @@
         "answers": [
             "film noir"
         ],
-        "pageviews": 4726
+        "pageviews": 10
     },
     {
         "query_id": "136_485",
@@ -3821,15 +2876,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 1197
-    },
-    {
-        "query_id": "136_486",
-        "question": "What type of music does Rescue Ink Unleashed play?",
-        "answers": [
-            "reality television"
-        ],
-        "pageviews": 9206
+        "pageviews": 1
     },
     {
         "query_id": "136_487",
@@ -3837,15 +2884,7 @@
         "answers": [
             "flight simulator"
         ],
-        "pageviews": 5891
-    },
-    {
-        "query_id": "136_488",
-        "question": "What type of music does Irina Elcheva play?",
-        "answers": [
-            "opera"
-        ],
-        "pageviews": 1176
+        "pageviews": 7
     },
     {
         "query_id": "136_489",
@@ -3853,7 +2892,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 18196
+        "pageviews": 21
     },
     {
         "query_id": "136_490",
@@ -3861,7 +2900,7 @@
         "answers": [
             "gothic metal"
         ],
-        "pageviews": 15945
+        "pageviews": 36
     },
     {
         "query_id": "136_491",
@@ -3870,7 +2909,7 @@
             "side-scrolling video game",
             "indie game"
         ],
-        "pageviews": 10604
+        "pageviews": 3
     },
     {
         "query_id": "136_492",
@@ -3878,7 +2917,7 @@
         "answers": [
             "opera seria"
         ],
-        "pageviews": 2654
+        "pageviews": 6
     },
     {
         "query_id": "136_493",
@@ -3886,7 +2925,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 12113
+        "pageviews": 17
     },
     {
         "query_id": "136_494",
@@ -3894,7 +2933,7 @@
         "answers": [
             "anthology series"
         ],
-        "pageviews": 2591
+        "pageviews": 12
     },
     {
         "query_id": "136_495",
@@ -3902,7 +2941,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 3705
+        "pageviews": 2
     },
     {
         "query_id": "136_496",
@@ -3910,7 +2949,7 @@
         "answers": [
             "film noir"
         ],
-        "pageviews": 33022
+        "pageviews": 2
     },
     {
         "query_id": "136_497",
@@ -3918,7 +2957,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 19062
+        "pageviews": 12
     },
     {
         "query_id": "136_498",
@@ -3926,23 +2965,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 2258
-    },
-    {
-        "query_id": "136_499",
-        "question": "What type of music does The Want play?",
-        "answers": [
-            "rock music"
-        ],
-        "pageviews": 1134
-    },
-    {
-        "query_id": "136_500",
-        "question": "What type of music does EXO play?",
-        "answers": [
-            "K-pop"
-        ],
-        "pageviews": 1030688
+        "pageviews": 1
     },
     {
         "query_id": "136_501",
@@ -3950,7 +2973,7 @@
         "answers": [
             "fighting game"
         ],
-        "pageviews": 110381
+        "pageviews": 208
     },
     {
         "query_id": "136_502",
@@ -3958,7 +2981,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 82218
+        "pageviews": 282
     },
     {
         "query_id": "136_503",
@@ -3966,7 +2989,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 14138
+        "pageviews": 9
     },
     {
         "query_id": "136_504",
@@ -3974,7 +2997,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 5046
+        "pageviews": 3
     },
     {
         "query_id": "136_505",
@@ -3982,7 +3005,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 4219
+        "pageviews": 6
     },
     {
         "query_id": "136_506",
@@ -3990,7 +3013,7 @@
         "answers": [
             "thriller"
         ],
-        "pageviews": 27034
+        "pageviews": 5
     },
     {
         "query_id": "136_507",
@@ -3998,7 +3021,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 3186
+        "pageviews": 1
     },
     {
         "query_id": "136_508",
@@ -4006,15 +3029,7 @@
         "answers": [
             "seinen"
         ],
-        "pageviews": 5952
-    },
-    {
-        "query_id": "136_509",
-        "question": "What type of music does Hello There play?",
-        "answers": [
-            "hard rock"
-        ],
-        "pageviews": 41
+        "pageviews": 1
     },
     {
         "query_id": "136_510",
@@ -4022,7 +3037,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 11144
+        "pageviews": 2
     },
     {
         "query_id": "136_511",
@@ -4030,7 +3045,7 @@
         "answers": [
             "epistolary novel"
         ],
-        "pageviews": 1539
+        "pageviews": 1
     },
     {
         "query_id": "136_512",
@@ -4038,7 +3053,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 16867
+        "pageviews": 13
     },
     {
         "query_id": "136_513",
@@ -4046,7 +3061,7 @@
         "answers": [
             "action film"
         ],
-        "pageviews": 12756
+        "pageviews": 10
     },
     {
         "query_id": "136_514",
@@ -4054,7 +3069,7 @@
         "answers": [
             "shoot 'em up"
         ],
-        "pageviews": 12018
+        "pageviews": 4
     },
     {
         "query_id": "136_515",
@@ -4062,7 +3077,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 3413944
+        "pageviews": 540
     },
     {
         "query_id": "136_516",
@@ -4070,7 +3085,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 25625
+        "pageviews": 7
     },
     {
         "query_id": "136_517",
@@ -4078,15 +3093,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 683
-    },
-    {
-        "query_id": "136_518",
-        "question": "What type of music does Pan profesor, nep\u0159\u00edtel \u017een play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 622
+        "pageviews": 1
     },
     {
         "query_id": "136_519",
@@ -4094,7 +3101,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 3078
+        "pageviews": 1
     },
     {
         "query_id": "136_520",
@@ -4102,7 +3109,7 @@
         "answers": [
             "British hip hop"
         ],
-        "pageviews": 1328
+        "pageviews": 3
     },
     {
         "query_id": "136_521",
@@ -4110,7 +3117,7 @@
         "answers": [
             "heavy metal"
         ],
-        "pageviews": 16255
+        "pageviews": 37
     },
     {
         "query_id": "136_522",
@@ -4118,7 +3125,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 30285
+        "pageviews": 5
     },
     {
         "query_id": "136_523",
@@ -4126,7 +3133,7 @@
         "answers": [
             "action film"
         ],
-        "pageviews": 49812
+        "pageviews": 8
     },
     {
         "query_id": "136_524",
@@ -4134,15 +3141,7 @@
         "answers": [
             "bluegrass music"
         ],
-        "pageviews": 159175
-    },
-    {
-        "query_id": "136_525",
-        "question": "What type of music does Daedalian Opus play?",
-        "answers": [
-            "puzzle video game"
-        ],
-        "pageviews": 5294
+        "pageviews": 188
     },
     {
         "query_id": "136_526",
@@ -4150,31 +3149,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 1968
-    },
-    {
-        "query_id": "136_527",
-        "question": "What type of music does Pneuma play?",
-        "answers": [
-            "thrash metal"
-        ],
-        "pageviews": 2140
-    },
-    {
-        "query_id": "136_528",
-        "question": "What type of music does Metal Gear Solid V: Ground Zeroes play?",
-        "answers": [
-            "action-adventure game"
-        ],
-        "pageviews": 207202
-    },
-    {
-        "query_id": "136_529",
-        "question": "What type of music does Phantasm IV: Oblivion play?",
-        "answers": [
-            "horror film"
-        ],
-        "pageviews": 30116
+        "pageviews": 3
     },
     {
         "query_id": "136_530",
@@ -4182,7 +3157,7 @@
         "answers": [
             "classical music"
         ],
-        "pageviews": 1121
+        "pageviews": 1
     },
     {
         "query_id": "136_531",
@@ -4190,7 +3165,7 @@
         "answers": [
             "reggae"
         ],
-        "pageviews": 3360
+        "pageviews": 2
     },
     {
         "query_id": "136_532",
@@ -4198,7 +3173,7 @@
         "answers": [
             "science fiction film"
         ],
-        "pageviews": 3627311
+        "pageviews": 144
     },
     {
         "query_id": "136_533",
@@ -4206,7 +3181,7 @@
         "answers": [
             "stoner rock"
         ],
-        "pageviews": 6794
+        "pageviews": 6
     },
     {
         "query_id": "136_534",
@@ -4214,15 +3189,7 @@
         "answers": [
             "crime film"
         ],
-        "pageviews": 2509
-    },
-    {
-        "query_id": "136_535",
-        "question": "What type of music does Heart of a Siren play?",
-        "answers": [
-            "romance film"
-        ],
-        "pageviews": 1480
+        "pageviews": 1
     },
     {
         "query_id": "136_536",
@@ -4231,23 +3198,7 @@
             "crime film",
             "horror film"
         ],
-        "pageviews": 28405
-    },
-    {
-        "query_id": "136_537",
-        "question": "What type of music does BattleForge play?",
-        "answers": [
-            "real-time strategy"
-        ],
-        "pageviews": 11410
-    },
-    {
-        "query_id": "136_538",
-        "question": "What type of music does The Knave of Hearts play?",
-        "answers": [
-            "romance film"
-        ],
-        "pageviews": 789
+        "pageviews": 10
     },
     {
         "query_id": "136_539",
@@ -4255,7 +3206,7 @@
         "answers": [
             "musical film"
         ],
-        "pageviews": 5396
+        "pageviews": 3
     },
     {
         "query_id": "136_540",
@@ -4263,31 +3214,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 917
-    },
-    {
-        "query_id": "136_541",
-        "question": "What type of music does The APF Brigade play?",
-        "answers": [
-            "anarcho-punk"
-        ],
-        "pageviews": 944
-    },
-    {
-        "query_id": "136_542",
-        "question": "What type of music does Blink play?",
-        "answers": [
-            "neo-noir"
-        ],
-        "pageviews": 11084
-    },
-    {
-        "query_id": "136_543",
-        "question": "What type of music does Rupert Huber play?",
-        "answers": [
-            "electronic music"
-        ],
-        "pageviews": 0
+        "pageviews": 4
     },
     {
         "query_id": "136_544",
@@ -4295,15 +3222,7 @@
         "answers": [
             "electronic music"
         ],
-        "pageviews": 1575
-    },
-    {
-        "query_id": "136_545",
-        "question": "What type of music does Every Man Needs One play?",
-        "answers": [
-            "romantic comedy"
-        ],
-        "pageviews": 2427
+        "pageviews": 1
     },
     {
         "query_id": "136_546",
@@ -4311,7 +3230,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 23024
+        "pageviews": 6
     },
     {
         "query_id": "136_547",
@@ -4319,7 +3238,7 @@
         "answers": [
             "psychological thriller"
         ],
-        "pageviews": 41637
+        "pageviews": 16
     },
     {
         "query_id": "136_548",
@@ -4327,7 +3246,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 2190
+        "pageviews": 4
     },
     {
         "query_id": "136_549",
@@ -4335,15 +3254,7 @@
         "answers": [
             "comedy-drama"
         ],
-        "pageviews": 933
-    },
-    {
-        "query_id": "136_550",
-        "question": "What type of music does Captain Jack play?",
-        "answers": [
-            "Eurodance"
-        ],
-        "pageviews": 47834
+        "pageviews": 1
     },
     {
         "query_id": "136_551",
@@ -4351,7 +3262,7 @@
         "answers": [
             "hip hop music"
         ],
-        "pageviews": 6047
+        "pageviews": 15
     },
     {
         "query_id": "136_553",
@@ -4359,7 +3270,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 5114
+        "pageviews": 7
     },
     {
         "query_id": "136_554",
@@ -4370,7 +3281,7 @@
             "rock music",
             "hip hop music"
         ],
-        "pageviews": 2428
+        "pageviews": 12
     },
     {
         "query_id": "136_555",
@@ -4378,7 +3289,7 @@
         "answers": [
             "stoner rock"
         ],
-        "pageviews": 2215
+        "pageviews": 2
     },
     {
         "query_id": "136_556",
@@ -4386,7 +3297,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 133187
+        "pageviews": 28
     },
     {
         "query_id": "136_557",
@@ -4394,15 +3305,7 @@
         "answers": [
             "folk rock"
         ],
-        "pageviews": 4196
-    },
-    {
-        "query_id": "136_558",
-        "question": "What type of music does Aghet \u2013 Ein V\u00f6lkermord play?",
-        "answers": [
-            "documentary film"
-        ],
-        "pageviews": 2401
+        "pageviews": 4
     },
     {
         "query_id": "136_559",
@@ -4410,7 +3313,7 @@
         "answers": [
             "adventure film"
         ],
-        "pageviews": 4883
+        "pageviews": 3
     },
     {
         "query_id": "136_560",
@@ -4418,7 +3321,7 @@
         "answers": [
             "epic poem"
         ],
-        "pageviews": 45874
+        "pageviews": 16
     },
     {
         "query_id": "136_561",
@@ -4426,39 +3329,7 @@
         "answers": [
             "portrait"
         ],
-        "pageviews": 12812
-    },
-    {
-        "query_id": "136_562",
-        "question": "What type of music does Cher Victor play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 1836
-    },
-    {
-        "query_id": "136_563",
-        "question": "What type of music does Knights of Legend play?",
-        "answers": [
-            "role-playing video game"
-        ],
-        "pageviews": 3400
-    },
-    {
-        "query_id": "136_564",
-        "question": "What type of music does Jackson 5 Christmas Album play?",
-        "answers": [
-            "Christmas music"
-        ],
-        "pageviews": 42173
-    },
-    {
-        "query_id": "136_565",
-        "question": "What type of music does The Ten Teacups play?",
-        "answers": [
-            "mystery fiction"
-        ],
-        "pageviews": 1404
+        "pageviews": 14
     },
     {
         "query_id": "136_566",
@@ -4466,7 +3337,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 18940
+        "pageviews": 23
     },
     {
         "query_id": "136_567",
@@ -4474,23 +3345,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 1115
-    },
-    {
-        "query_id": "136_568",
-        "question": "What type of music does Anna Rose Kessler Moore play?",
-        "answers": [
-            "pop music"
-        ],
-        "pageviews": 1095
-    },
-    {
-        "query_id": "136_569",
-        "question": "What type of music does Homecoming '63 play?",
-        "answers": [
-            "country music"
-        ],
-        "pageviews": 2006
+        "pageviews": 2
     },
     {
         "query_id": "136_570",
@@ -4498,7 +3353,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 3026
+        "pageviews": 7
     },
     {
         "query_id": "136_571",
@@ -4506,7 +3361,7 @@
         "answers": [
             "alternative rock"
         ],
-        "pageviews": 956
+        "pageviews": 2
     },
     {
         "query_id": "136_572",
@@ -4514,7 +3369,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 3741
+        "pageviews": 1
     },
     {
         "query_id": "136_573",
@@ -4522,7 +3377,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 1154
+        "pageviews": 5
     },
     {
         "query_id": "136_574",
@@ -4530,7 +3385,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 10810
+        "pageviews": 84
     },
     {
         "query_id": "136_575",
@@ -4538,15 +3393,7 @@
         "answers": [
             "hard rock"
         ],
-        "pageviews": 23990
-    },
-    {
-        "query_id": "136_576",
-        "question": "What type of music does Maribel play?",
-        "answers": [
-            "telenovela"
-        ],
-        "pageviews": 1658
+        "pageviews": 1
     },
     {
         "query_id": "136_577",
@@ -4554,7 +3401,7 @@
         "answers": [
             "encyclopedia"
         ],
-        "pageviews": 1118
+        "pageviews": 3
     },
     {
         "query_id": "136_578",
@@ -4562,7 +3409,7 @@
         "answers": [
             "genre painting"
         ],
-        "pageviews": 17547
+        "pageviews": 54
     },
     {
         "query_id": "136_579",
@@ -4570,23 +3417,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 821
-    },
-    {
-        "query_id": "136_580",
-        "question": "What type of music does Henry: Portrait of a Serial Killer, Part II play?",
-        "answers": [
-            "horror film"
-        ],
-        "pageviews": 22237
-    },
-    {
-        "query_id": "136_581",
-        "question": "What type of music does Deadly Tide play?",
-        "answers": [
-            "shoot 'em up"
-        ],
-        "pageviews": 4649
+        "pageviews": 1
     },
     {
         "query_id": "136_582",
@@ -4594,23 +3425,7 @@
         "answers": [
             "reggae"
         ],
-        "pageviews": 3494
-    },
-    {
-        "query_id": "136_583",
-        "question": "What type of music does Realms of the Elves play?",
-        "answers": [
-            "fantasy"
-        ],
-        "pageviews": 1139
-    },
-    {
-        "query_id": "136_584",
-        "question": "What type of music does A Woman in Pawn play?",
-        "answers": [
-            "crime film"
-        ],
-        "pageviews": 935
+        "pageviews": 3
     },
     {
         "query_id": "136_585",
@@ -4618,15 +3433,7 @@
         "answers": [
             "pink film"
         ],
-        "pageviews": 3831
-    },
-    {
-        "query_id": "136_586",
-        "question": "What type of music does Horse and Rider play?",
-        "answers": [
-            "equestrian statue"
-        ],
-        "pageviews": 1612
+        "pageviews": 2
     },
     {
         "query_id": "136_587",
@@ -4634,7 +3441,7 @@
         "answers": [
             "adventure game"
         ],
-        "pageviews": 14009
+        "pageviews": 9
     },
     {
         "query_id": "136_588",
@@ -4642,7 +3449,7 @@
         "answers": [
             "genre painting"
         ],
-        "pageviews": 1114
+        "pageviews": 5
     },
     {
         "query_id": "136_589",
@@ -4650,7 +3457,7 @@
         "answers": [
             "opera seria"
         ],
-        "pageviews": 17939
+        "pageviews": 60
     },
     {
         "query_id": "136_590",
@@ -4658,7 +3465,7 @@
         "answers": [
             "indie rock"
         ],
-        "pageviews": 22317
+        "pageviews": 31
     },
     {
         "query_id": "136_591",
@@ -4666,7 +3473,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 448933
+        "pageviews": 17
     },
     {
         "query_id": "136_592",
@@ -4674,7 +3481,7 @@
         "answers": [
             "police procedural"
         ],
-        "pageviews": 26609
+        "pageviews": 4
     },
     {
         "query_id": "136_593",
@@ -4682,7 +3489,7 @@
         "answers": [
             "Western film"
         ],
-        "pageviews": 55260
+        "pageviews": 43
     },
     {
         "query_id": "136_594",
@@ -4690,23 +3497,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 25434
-    },
-    {
-        "query_id": "136_595",
-        "question": "What type of music does Paris Holiday play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 317
-    },
-    {
-        "query_id": "136_596",
-        "question": "What type of music does Traps 'n' Treasures play?",
-        "answers": [
-            "platform game"
-        ],
-        "pageviews": 2047
+        "pageviews": 9
     },
     {
         "query_id": "136_597",
@@ -4714,7 +3505,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 5937
+        "pageviews": 23
     },
     {
         "query_id": "136_598",
@@ -4722,23 +3513,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 1717
-    },
-    {
-        "query_id": "136_599",
-        "question": "What type of music does Hidden Expedition \u2013 The Uncharted Islands play?",
-        "answers": [
-            "puzzle video game"
-        ],
-        "pageviews": 141
-    },
-    {
-        "query_id": "136_600",
-        "question": "What type of music does Rosencrantz & Guildenstern Are Dead play?",
-        "answers": [
-            "comedy-drama"
-        ],
-        "pageviews": 88337
+        "pageviews": 1
     },
     {
         "query_id": "136_601",
@@ -4746,7 +3521,7 @@
         "answers": [
             "music video game"
         ],
-        "pageviews": 71939
+        "pageviews": 43
     },
     {
         "query_id": "136_602",
@@ -4754,7 +3529,7 @@
         "answers": [
             "war film"
         ],
-        "pageviews": 972
+        "pageviews": 4
     },
     {
         "query_id": "136_603",
@@ -4762,7 +3537,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 3317
+        "pageviews": 7
     },
     {
         "query_id": "136_604",
@@ -4770,7 +3545,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 53610
+        "pageviews": 8
     },
     {
         "query_id": "136_605",
@@ -4778,7 +3553,7 @@
         "answers": [
             "musical film"
         ],
-        "pageviews": 51448
+        "pageviews": 33
     },
     {
         "query_id": "136_606",
@@ -4787,7 +3562,7 @@
             "comedy-drama",
             "comedy film"
         ],
-        "pageviews": 2289
+        "pageviews": 2
     },
     {
         "query_id": "136_607",
@@ -4795,7 +3570,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 1144
+        "pageviews": 4
     },
     {
         "query_id": "136_608",
@@ -4803,7 +3578,7 @@
         "answers": [
             "docudrama"
         ],
-        "pageviews": 20983
+        "pageviews": 8
     },
     {
         "query_id": "136_609",
@@ -4811,7 +3586,7 @@
         "answers": [
             "tango"
         ],
-        "pageviews": 3660
+        "pageviews": 6
     },
     {
         "query_id": "136_610",
@@ -4819,7 +3594,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 12396
+        "pageviews": 8
     },
     {
         "query_id": "136_611",
@@ -4827,15 +3602,7 @@
         "answers": [
             "short story"
         ],
-        "pageviews": 35312
-    },
-    {
-        "query_id": "136_612",
-        "question": "What type of music does \u041d\u0430\u0441\u043b\u0435\u0434\u043d\u0438\u0446\u0438\u0442\u0435 \u0414\u0435\u043b \u041c\u043e\u043d\u0442\u0435 play?",
-        "answers": [
-            "telenovela"
-        ],
-        "pageviews": 37560
+        "pageviews": 7
     },
     {
         "query_id": "136_613",
@@ -4843,15 +3610,7 @@
         "answers": [
             "telenovela"
         ],
-        "pageviews": 7485
-    },
-    {
-        "query_id": "136_614",
-        "question": "What type of music does Rendering Ranger: R2 play?",
-        "answers": [
-            "action game"
-        ],
-        "pageviews": 10062
+        "pageviews": 4
     },
     {
         "query_id": "136_615",
@@ -4859,7 +3618,7 @@
         "answers": [
             "folk music"
         ],
-        "pageviews": 9579
+        "pageviews": 4
     },
     {
         "query_id": "136_616",
@@ -4867,7 +3626,7 @@
         "answers": [
             "film noir"
         ],
-        "pageviews": 12186
+        "pageviews": 2
     },
     {
         "query_id": "136_617",
@@ -4875,7 +3634,7 @@
         "answers": [
             "business simulation game"
         ],
-        "pageviews": 79669
+        "pageviews": 23
     },
     {
         "query_id": "136_618",
@@ -4883,7 +3642,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 2065
+        "pageviews": 3
     },
     {
         "query_id": "136_619",
@@ -4891,39 +3650,7 @@
         "answers": [
             "electronic dance music"
         ],
-        "pageviews": 3532
-    },
-    {
-        "query_id": "136_620",
-        "question": "What type of music does Xenoblade Chronicles play?",
-        "answers": [
-            "action role-playing game"
-        ],
-        "pageviews": 324846
-    },
-    {
-        "query_id": "136_621",
-        "question": "What type of music does World's Best Science Fiction: 1966 play?",
-        "answers": [
-            "science fiction"
-        ],
-        "pageviews": 1040
-    },
-    {
-        "query_id": "136_622",
-        "question": "What type of music does You Can't Fall in Love When You're Cryin' play?",
-        "answers": [
-            "country music"
-        ],
-        "pageviews": 482
-    },
-    {
-        "query_id": "136_623",
-        "question": "What type of music does Trois 3: The Escort play?",
-        "answers": [
-            "erotic thriller"
-        ],
-        "pageviews": 12559
+        "pageviews": 3
     },
     {
         "query_id": "136_624",
@@ -4931,7 +3658,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 10487
+        "pageviews": 13
     },
     {
         "query_id": "136_625",
@@ -4939,7 +3666,7 @@
         "answers": [
             "role-playing game"
         ],
-        "pageviews": 2019
+        "pageviews": 18
     },
     {
         "query_id": "136_626",
@@ -4947,7 +3674,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 975
+        "pageviews": 5
     },
     {
         "query_id": "136_627",
@@ -4955,15 +3682,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 2098
-    },
-    {
-        "query_id": "136_628",
-        "question": "What type of music does Goodbye Mr. Mackenzie play?",
-        "answers": [
-            "alternative rock"
-        ],
-        "pageviews": 26854
+        "pageviews": 7
     },
     {
         "query_id": "136_629",
@@ -4971,23 +3690,7 @@
         "answers": [
             "turn-based strategy video game"
         ],
-        "pageviews": 3940
-    },
-    {
-        "query_id": "136_630",
-        "question": "What type of music does Karl Hess: Toward Liberty play?",
-        "answers": [
-            "documentary film"
-        ],
-        "pageviews": 2543
-    },
-    {
-        "query_id": "136_631",
-        "question": "What type of music does Magnificent Desolation: Walking on the Moon 3D play?",
-        "answers": [
-            "documentary film"
-        ],
-        "pageviews": 41546
+        "pageviews": 1
     },
     {
         "query_id": "136_632",
@@ -4995,7 +3698,7 @@
         "answers": [
             "doo-wop"
         ],
-        "pageviews": 13077
+        "pageviews": 6
     },
     {
         "query_id": "136_633",
@@ -5003,23 +3706,7 @@
         "answers": [
             "doom metal"
         ],
-        "pageviews": 16786
-    },
-    {
-        "query_id": "136_634",
-        "question": "What type of music does Tommy Sands play?",
-        "answers": [
-            "folk music"
-        ],
-        "pageviews": 10572
-    },
-    {
-        "query_id": "136_635",
-        "question": "What type of music does Killer Image play?",
-        "answers": [
-            "thriller"
-        ],
-        "pageviews": 1830
+        "pageviews": 3
     },
     {
         "query_id": "136_636",
@@ -5027,15 +3714,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 9761
-    },
-    {
-        "query_id": "136_637",
-        "question": "What type of music does El Ejido, la loi du profit play?",
-        "answers": [
-            "documentary film"
-        ],
-        "pageviews": 969
+        "pageviews": 3
     },
     {
         "query_id": "136_638",
@@ -5043,7 +3722,7 @@
         "answers": [
             "satire"
         ],
-        "pageviews": 69229
+        "pageviews": 39
     },
     {
         "query_id": "136_639",
@@ -5051,7 +3730,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 10704
+        "pageviews": 2
     },
     {
         "query_id": "136_640",
@@ -5059,15 +3738,7 @@
         "answers": [
             "martial arts film"
         ],
-        "pageviews": 14785
-    },
-    {
-        "query_id": "136_641",
-        "question": "What type of music does Kandisha play?",
-        "answers": [
-            "horror film"
-        ],
-        "pageviews": 354
+        "pageviews": 4
     },
     {
         "query_id": "136_642",
@@ -5075,7 +3746,7 @@
         "answers": [
             "contemporary Christian music"
         ],
-        "pageviews": 6205
+        "pageviews": 3
     },
     {
         "query_id": "136_643",
@@ -5084,7 +3755,7 @@
             "folk rock",
             "rock music"
         ],
-        "pageviews": 718022
+        "pageviews": 253
     },
     {
         "query_id": "136_644",
@@ -5092,7 +3763,7 @@
         "answers": [
             "musical"
         ],
-        "pageviews": 58240
+        "pageviews": 102
     },
     {
         "query_id": "136_645",
@@ -5100,7 +3771,7 @@
         "answers": [
             "alternative rock"
         ],
-        "pageviews": 34605
+        "pageviews": 21
     },
     {
         "query_id": "136_646",
@@ -5108,7 +3779,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 6319
+        "pageviews": 24
     },
     {
         "query_id": "136_647",
@@ -5116,7 +3787,7 @@
         "answers": [
             "indie rock"
         ],
-        "pageviews": 81353
+        "pageviews": 19
     },
     {
         "query_id": "136_648",
@@ -5124,7 +3795,7 @@
         "answers": [
             "racing video game"
         ],
-        "pageviews": 19278
+        "pageviews": 10
     },
     {
         "query_id": "136_649",
@@ -5132,7 +3803,7 @@
         "answers": [
             "protest song"
         ],
-        "pageviews": 19763
+        "pageviews": 12
     },
     {
         "query_id": "136_650",
@@ -5141,7 +3812,7 @@
             "puzzle video game",
             "platform game"
         ],
-        "pageviews": 3064
+        "pageviews": 1
     },
     {
         "query_id": "136_651",
@@ -5149,7 +3820,7 @@
         "answers": [
             "Southern rock"
         ],
-        "pageviews": 69230
+        "pageviews": 35
     },
     {
         "query_id": "136_652",
@@ -5157,7 +3828,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 7518
+        "pageviews": 8
     },
     {
         "query_id": "136_653",
@@ -5165,7 +3836,7 @@
         "answers": [
             "rapping"
         ],
-        "pageviews": 2933
+        "pageviews": 3
     },
     {
         "query_id": "136_654",
@@ -5173,15 +3844,7 @@
         "answers": [
             "real-time strategy"
         ],
-        "pageviews": 71327
-    },
-    {
-        "query_id": "136_655",
-        "question": "What type of music does Gandhi Khan play?",
-        "answers": [
-            "house music"
-        ],
-        "pageviews": 2259
+        "pageviews": 2
     },
     {
         "query_id": "136_656",
@@ -5189,7 +3852,7 @@
         "answers": [
             "reality television"
         ],
-        "pageviews": 2826
+        "pageviews": 8
     },
     {
         "query_id": "136_657",
@@ -5197,7 +3860,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 4082
+        "pageviews": 7
     },
     {
         "query_id": "136_658",
@@ -5205,7 +3868,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 16088
+        "pageviews": 15
     },
     {
         "query_id": "136_659",
@@ -5213,7 +3876,7 @@
         "answers": [
             "hip hop music"
         ],
-        "pageviews": 6242270
+        "pageviews": 2183
     },
     {
         "query_id": "136_660",
@@ -5221,15 +3884,7 @@
         "answers": [
             "psychological horror"
         ],
-        "pageviews": 16358
-    },
-    {
-        "query_id": "136_661",
-        "question": "What type of music does Project Happiness play?",
-        "answers": [
-            "documentary film"
-        ],
-        "pageviews": 1863
+        "pageviews": 2
     },
     {
         "query_id": "136_662",
@@ -5237,23 +3892,7 @@
         "answers": [
             "musical film"
         ],
-        "pageviews": 23633
-    },
-    {
-        "query_id": "136_663",
-        "question": "What type of music does Milan Petrovic Quartet play?",
-        "answers": [
-            "jazz"
-        ],
-        "pageviews": 681
-    },
-    {
-        "query_id": "136_664",
-        "question": "What type of music does Se Amar Mon Kereche play?",
-        "answers": [
-            "action film"
-        ],
-        "pageviews": 1481
+        "pageviews": 16
     },
     {
         "query_id": "136_665",
@@ -5261,15 +3900,7 @@
         "answers": [
             "action role-playing game"
         ],
-        "pageviews": 6563
-    },
-    {
-        "query_id": "136_666",
-        "question": "What type of music does Sniper: Ghost Warrior play?",
-        "answers": [
-            "tactical shooter"
-        ],
-        "pageviews": 26447
+        "pageviews": 2
     },
     {
         "query_id": "136_667",
@@ -5277,7 +3908,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 2640
+        "pageviews": 6
     },
     {
         "query_id": "136_668",
@@ -5285,31 +3916,7 @@
         "answers": [
             "adventure game"
         ],
-        "pageviews": 2029
-    },
-    {
-        "query_id": "136_669",
-        "question": "What type of music does LD + 3 play?",
-        "answers": [
-            "jazz"
-        ],
-        "pageviews": 0
-    },
-    {
-        "query_id": "136_670",
-        "question": "What type of music does Afsar play?",
-        "answers": [
-            "romantic comedy"
-        ],
-        "pageviews": 9629
-    },
-    {
-        "query_id": "136_671",
-        "question": "What type of music does Hospitalit\u00e9 play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 3215
+        "pageviews": 1
     },
     {
         "query_id": "136_672",
@@ -5317,7 +3924,7 @@
         "answers": [
             "country rock"
         ],
-        "pageviews": 5138
+        "pageviews": 3
     },
     {
         "query_id": "136_673",
@@ -5329,7 +3936,7 @@
             "gospel music",
             "rockabilly"
         ],
-        "pageviews": 176434
+        "pageviews": 156
     },
     {
         "query_id": "136_674",
@@ -5337,7 +3944,7 @@
         "answers": [
             "history painting"
         ],
-        "pageviews": 1693
+        "pageviews": 3
     },
     {
         "query_id": "136_675",
@@ -5345,7 +3952,7 @@
         "answers": [
             "Western film"
         ],
-        "pageviews": 1933
+        "pageviews": 1
     },
     {
         "query_id": "136_676",
@@ -5353,15 +3960,7 @@
         "answers": [
             "hard rock"
         ],
-        "pageviews": 12250
-    },
-    {
-        "query_id": "136_677",
-        "question": "What type of music does Generation of Chaos Exceed play?",
-        "answers": [
-            "strategy video game"
-        ],
-        "pageviews": 1939
+        "pageviews": 5
     },
     {
         "query_id": "136_678",
@@ -5369,15 +3968,7 @@
         "answers": [
             "science fiction"
         ],
-        "pageviews": 681442
-    },
-    {
-        "query_id": "136_679",
-        "question": "What type of music does Classic Stories 2 play?",
-        "answers": [
-            "short story"
-        ],
-        "pageviews": 1439
+        "pageviews": 132
     },
     {
         "query_id": "136_680",
@@ -5385,7 +3976,7 @@
         "answers": [
             "adventure game"
         ],
-        "pageviews": 13435
+        "pageviews": 1
     },
     {
         "query_id": "136_681",
@@ -5393,7 +3984,7 @@
         "answers": [
             "industrial rock"
         ],
-        "pageviews": 180375
+        "pageviews": 63
     },
     {
         "query_id": "136_682",
@@ -5401,15 +3992,7 @@
         "answers": [
             "opera"
         ],
-        "pageviews": 4095
-    },
-    {
-        "query_id": "136_683",
-        "question": "What type of music does G-LOC: Air Battle play?",
-        "answers": [
-            "arcade game machine"
-        ],
-        "pageviews": 12804
+        "pageviews": 19
     },
     {
         "query_id": "136_684",
@@ -5417,15 +4000,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 88792
-    },
-    {
-        "query_id": "136_685",
-        "question": "What type of music does When the Bough Breaks play?",
-        "answers": [
-            "mystery fiction"
-        ],
-        "pageviews": 3873
+        "pageviews": 24
     },
     {
         "query_id": "136_686",
@@ -5433,7 +4008,7 @@
         "answers": [
             "alternative rock"
         ],
-        "pageviews": 3890
+        "pageviews": 6
     },
     {
         "query_id": "136_687",
@@ -5441,15 +4016,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 3472
-    },
-    {
-        "query_id": "136_688",
-        "question": "What type of music does Camel Through the Eye of a Needle play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 2862
+        "pageviews": 8
     },
     {
         "query_id": "136_689",
@@ -5457,7 +4024,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 1229
+        "pageviews": 1
     },
     {
         "query_id": "136_690",
@@ -5465,7 +4032,7 @@
         "answers": [
             "alternative rock"
         ],
-        "pageviews": 10096
+        "pageviews": 15
     },
     {
         "query_id": "136_691",
@@ -5473,7 +4040,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 1432
+        "pageviews": 4
     },
     {
         "query_id": "136_692",
@@ -5481,15 +4048,7 @@
         "answers": [
             "Western film"
         ],
-        "pageviews": 11653
-    },
-    {
-        "query_id": "136_693",
-        "question": "What type of music does Playboys play?",
-        "answers": [
-            "jazz"
-        ],
-        "pageviews": 6519
+        "pageviews": 11
     },
     {
         "query_id": "136_694",
@@ -5497,7 +4056,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 2440
+        "pageviews": 5
     },
     {
         "query_id": "136_695",
@@ -5505,7 +4064,7 @@
         "answers": [
             "opera"
         ],
-        "pageviews": 11834
+        "pageviews": 104
     },
     {
         "query_id": "136_696",
@@ -5513,7 +4072,7 @@
         "answers": [
             "science fiction"
         ],
-        "pageviews": 4922
+        "pageviews": 5
     },
     {
         "query_id": "136_697",
@@ -5521,15 +4080,7 @@
         "answers": [
             "technical death metal"
         ],
-        "pageviews": 810
-    },
-    {
-        "query_id": "136_698",
-        "question": "What type of music does Caribe play?",
-        "answers": [
-            "telenovela"
-        ],
-        "pageviews": 1432
+        "pageviews": 2
     },
     {
         "query_id": "136_699",
@@ -5537,7 +4088,7 @@
         "answers": [
             "reality television"
         ],
-        "pageviews": 11676
+        "pageviews": 5
     },
     {
         "query_id": "136_700",
@@ -5545,7 +4096,7 @@
         "answers": [
             "rhythm and blues"
         ],
-        "pageviews": 12585
+        "pageviews": 6
     },
     {
         "query_id": "136_701",
@@ -5553,15 +4104,7 @@
         "answers": [
             "sitcom"
         ],
-        "pageviews": 15576
-    },
-    {
-        "query_id": "136_702",
-        "question": "What type of music does Bruce Lee: A Dragon Story play?",
-        "answers": [
-            "martial arts film"
-        ],
-        "pageviews": 6643
+        "pageviews": 8
     },
     {
         "query_id": "136_703",
@@ -5569,7 +4112,7 @@
         "answers": [
             "heist film"
         ],
-        "pageviews": 312094
+        "pageviews": 46
     },
     {
         "query_id": "136_704",
@@ -5577,7 +4120,7 @@
         "answers": [
             "minimal techno"
         ],
-        "pageviews": 18581
+        "pageviews": 27
     },
     {
         "query_id": "136_705",
@@ -5585,23 +4128,7 @@
         "answers": [
             "musical film"
         ],
-        "pageviews": 1174
-    },
-    {
-        "query_id": "136_706",
-        "question": "What type of music does Bileg Damdinsuren play?",
-        "answers": [
-            "opera"
-        ],
-        "pageviews": 1747
-    },
-    {
-        "query_id": "136_707",
-        "question": "What type of music does PQ: Practical Intelligence Quotient play?",
-        "answers": [
-            "puzzle video game"
-        ],
-        "pageviews": 4351
+        "pageviews": 1
     },
     {
         "query_id": "136_708",
@@ -5609,7 +4136,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 12247
+        "pageviews": 7
     },
     {
         "query_id": "136_709",
@@ -5617,7 +4144,7 @@
         "answers": [
             "electronica"
         ],
-        "pageviews": 1463
+        "pageviews": 2
     },
     {
         "query_id": "136_710",
@@ -5625,7 +4152,7 @@
         "answers": [
             "science fiction film"
         ],
-        "pageviews": 160788
+        "pageviews": 12
     },
     {
         "query_id": "136_711",
@@ -5633,15 +4160,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 3876
-    },
-    {
-        "query_id": "136_712",
-        "question": "What type of music does Star Wars Jedi Knight: Dark Forces II play?",
-        "answers": [
-            "first-person shooter"
-        ],
-        "pageviews": 83835
+        "pageviews": 18
     },
     {
         "query_id": "136_713",
@@ -5649,7 +4168,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 2147
+        "pageviews": 8
     },
     {
         "query_id": "136_714",
@@ -5657,15 +4176,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 9097
-    },
-    {
-        "query_id": "136_715",
-        "question": "What type of music does The Presence play?",
-        "answers": [
-            "thriller"
-        ],
-        "pageviews": 12876
+        "pageviews": 3
     },
     {
         "query_id": "136_716",
@@ -5673,15 +4184,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 38580
-    },
-    {
-        "query_id": "136_717",
-        "question": "What type of music does Lest We Remember play?",
-        "answers": [
-            "science fiction"
-        ],
-        "pageviews": 2523
+        "pageviews": 12
     },
     {
         "query_id": "136_718",
@@ -5689,7 +4192,7 @@
         "answers": [
             "classical music"
         ],
-        "pageviews": 47304
+        "pageviews": 7
     },
     {
         "query_id": "136_719",
@@ -5697,7 +4200,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 84010
+        "pageviews": 21
     },
     {
         "query_id": "136_720",
@@ -5705,7 +4208,7 @@
         "answers": [
             "folk music"
         ],
-        "pageviews": 141959
+        "pageviews": 110
     },
     {
         "query_id": "136_721",
@@ -5713,7 +4216,7 @@
         "answers": [
             "science fiction"
         ],
-        "pageviews": 757
+        "pageviews": 1
     },
     {
         "query_id": "136_722",
@@ -5721,7 +4224,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 147611
+        "pageviews": 23
     },
     {
         "query_id": "136_723",
@@ -5729,7 +4232,7 @@
         "answers": [
             "electronic music"
         ],
-        "pageviews": 3024
+        "pageviews": 5
     },
     {
         "query_id": "136_724",
@@ -5737,15 +4240,7 @@
         "answers": [
             "alternative rock"
         ],
-        "pageviews": 70550
-    },
-    {
-        "query_id": "136_725",
-        "question": "What type of music does A Place Between \u2013 The Story of an Adoption play?",
-        "answers": [
-            "documentary film"
-        ],
-        "pageviews": 57
+        "pageviews": 97
     },
     {
         "query_id": "136_726",
@@ -5754,7 +4249,7 @@
             "alternative rock",
             "gothic rock"
         ],
-        "pageviews": 113468
+        "pageviews": 126
     },
     {
         "query_id": "136_727",
@@ -5762,7 +4257,7 @@
         "answers": [
             "reality television"
         ],
-        "pageviews": 25599
+        "pageviews": 13
     },
     {
         "query_id": "136_728",
@@ -5770,7 +4265,7 @@
         "answers": [
             "folk music"
         ],
-        "pageviews": 5527
+        "pageviews": 6
     },
     {
         "query_id": "136_729",
@@ -5778,7 +4273,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 6182
+        "pageviews": 3
     },
     {
         "query_id": "136_730",
@@ -5786,15 +4281,7 @@
         "answers": [
             "reality television"
         ],
-        "pageviews": 3593
-    },
-    {
-        "query_id": "136_731",
-        "question": "What type of music does Natalie Brown play?",
-        "answers": [
-            "pop music"
-        ],
-        "pageviews": 2155
+        "pageviews": 4
     },
     {
         "query_id": "136_732",
@@ -5802,7 +4289,7 @@
         "answers": [
             "political thriller"
         ],
-        "pageviews": 29389
+        "pageviews": 12
     },
     {
         "query_id": "136_733",
@@ -5810,7 +4297,7 @@
         "answers": [
             "action film"
         ],
-        "pageviews": 3864
+        "pageviews": 6
     },
     {
         "query_id": "136_734",
@@ -5818,15 +4305,7 @@
         "answers": [
             "heist film"
         ],
-        "pageviews": 6025
-    },
-    {
-        "query_id": "136_735",
-        "question": "What type of music does The Midnight Patrol play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 3547
+        "pageviews": 3
     },
     {
         "query_id": "136_736",
@@ -5834,7 +4313,7 @@
         "answers": [
             "indie rock"
         ],
-        "pageviews": 13787
+        "pageviews": 12
     },
     {
         "query_id": "136_737",
@@ -5842,7 +4321,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 39105
+        "pageviews": 9
     },
     {
         "query_id": "136_738",
@@ -5850,23 +4329,7 @@
         "answers": [
             "indie pop"
         ],
-        "pageviews": 5573
-    },
-    {
-        "query_id": "136_739",
-        "question": "What type of music does Reflector play?",
-        "answers": [
-            "punk rock"
-        ],
-        "pageviews": 1296
-    },
-    {
-        "query_id": "136_740",
-        "question": "What type of music does Rambo: First Blood Part II play?",
-        "answers": [
-            "action film"
-        ],
-        "pageviews": 491462
+        "pageviews": 2
     },
     {
         "query_id": "136_741",
@@ -5875,7 +4338,7 @@
             "platform game",
             "puzzle video game"
         ],
-        "pageviews": 10005
+        "pageviews": 3
     },
     {
         "query_id": "136_742",
@@ -5883,7 +4346,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 984
+        "pageviews": 1
     },
     {
         "query_id": "136_743",
@@ -5891,7 +4354,7 @@
         "answers": [
             "portrait painting"
         ],
-        "pageviews": 609984
+        "pageviews": 382
     },
     {
         "query_id": "136_744",
@@ -5899,7 +4362,7 @@
         "answers": [
             "J-pop"
         ],
-        "pageviews": 6194
+        "pageviews": 4
     },
     {
         "query_id": "136_745",
@@ -5907,7 +4370,7 @@
         "answers": [
             "sitcom"
         ],
-        "pageviews": 17134
+        "pageviews": 13
     },
     {
         "query_id": "136_746",
@@ -5915,7 +4378,7 @@
         "answers": [
             "New-age music"
         ],
-        "pageviews": 298648
+        "pageviews": 111
     },
     {
         "query_id": "136_747",
@@ -5923,7 +4386,7 @@
         "answers": [
             "science fiction film"
         ],
-        "pageviews": 327933
+        "pageviews": 8
     },
     {
         "query_id": "136_748",
@@ -5931,7 +4394,7 @@
         "answers": [
             "industrial metal"
         ],
-        "pageviews": 2168
+        "pageviews": 1
     },
     {
         "query_id": "136_749",
@@ -5939,7 +4402,7 @@
         "answers": [
             "musical film"
         ],
-        "pageviews": 71270
+        "pageviews": 4
     },
     {
         "query_id": "136_750",
@@ -5947,15 +4410,7 @@
         "answers": [
             "massively multiplayer online role-playing game"
         ],
-        "pageviews": 16550
-    },
-    {
-        "query_id": "136_751",
-        "question": "What type of music does Kuchibiru Tameiki Sakurairo play?",
-        "answers": [
-            "yuri"
-        ],
-        "pageviews": 3871
+        "pageviews": 3
     },
     {
         "query_id": "136_752",
@@ -5963,7 +4418,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 3061
+        "pageviews": 16
     },
     {
         "query_id": "136_753",
@@ -5971,7 +4426,7 @@
         "answers": [
             "spaghetti western"
         ],
-        "pageviews": 1473
+        "pageviews": 2
     },
     {
         "query_id": "136_754",
@@ -5979,7 +4434,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 4059
+        "pageviews": 18
     },
     {
         "query_id": "136_755",
@@ -5987,15 +4442,7 @@
         "answers": [
             "romance film"
         ],
-        "pageviews": 11887
-    },
-    {
-        "query_id": "136_756",
-        "question": "What type of music does Extra terrestrial Biological Entities play?",
-        "answers": [
-            "J-pop"
-        ],
-        "pageviews": 3530
+        "pageviews": 12
     },
     {
         "query_id": "136_757",
@@ -6003,15 +4450,7 @@
         "answers": [
             "racing video game"
         ],
-        "pageviews": 1803
-    },
-    {
-        "query_id": "136_758",
-        "question": "What type of music does Pyracurse play?",
-        "answers": [
-            "action-adventure game"
-        ],
-        "pageviews": 894
+        "pageviews": 1
     },
     {
         "query_id": "136_759",
@@ -6019,7 +4458,7 @@
         "answers": [
             "party game"
         ],
-        "pageviews": 8744
+        "pageviews": 3
     },
     {
         "query_id": "136_760",
@@ -6027,7 +4466,7 @@
         "answers": [
             "contemporary Christian music"
         ],
-        "pageviews": 29563
+        "pageviews": 16
     },
     {
         "query_id": "136_761",
@@ -6035,7 +4474,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 1892
+        "pageviews": 1
     },
     {
         "query_id": "136_762",
@@ -6043,7 +4482,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 19587
+        "pageviews": 10
     },
     {
         "query_id": "136_763",
@@ -6051,7 +4490,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 3261
+        "pageviews": 19
     },
     {
         "query_id": "136_764",
@@ -6059,7 +4498,7 @@
         "answers": [
             "hip hop music"
         ],
-        "pageviews": 22684
+        "pageviews": 5
     },
     {
         "query_id": "136_766",
@@ -6068,7 +4507,7 @@
             "science fiction film",
             "comedy film"
         ],
-        "pageviews": 370767
+        "pageviews": 56
     },
     {
         "query_id": "136_767",
@@ -6076,7 +4515,7 @@
         "answers": [
             "alternative rock"
         ],
-        "pageviews": 6692
+        "pageviews": 3
     },
     {
         "query_id": "136_768",
@@ -6084,7 +4523,7 @@
         "answers": [
             "science fiction film"
         ],
-        "pageviews": 28016
+        "pageviews": 7
     },
     {
         "query_id": "136_769",
@@ -6092,7 +4531,7 @@
         "answers": [
             "sitcom"
         ],
-        "pageviews": 7611
+        "pageviews": 5
     },
     {
         "query_id": "136_770",
@@ -6100,7 +4539,7 @@
         "answers": [
             "science fiction"
         ],
-        "pageviews": 189587
+        "pageviews": 33
     },
     {
         "query_id": "136_771",
@@ -6108,7 +4547,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 162117
+        "pageviews": 36
     },
     {
         "query_id": "136_772",
@@ -6116,15 +4555,7 @@
         "answers": [
             "Western film"
         ],
-        "pageviews": 11342
-    },
-    {
-        "query_id": "136_773",
-        "question": "What type of music does Battlefield: Bad Company play?",
-        "answers": [
-            "first-person shooter"
-        ],
-        "pageviews": 84638
+        "pageviews": 6
     },
     {
         "query_id": "136_774",
@@ -6132,7 +4563,7 @@
         "answers": [
             "massively multiplayer online role-playing game"
         ],
-        "pageviews": 47145
+        "pageviews": 1
     },
     {
         "query_id": "136_775",
@@ -6140,7 +4571,7 @@
         "answers": [
             "equestrian statue"
         ],
-        "pageviews": 5972
+        "pageviews": 3
     },
     {
         "query_id": "136_776",
@@ -6148,7 +4579,7 @@
         "answers": [
             "comedy-drama"
         ],
-        "pageviews": 9482
+        "pageviews": 10
     },
     {
         "query_id": "136_777",
@@ -6156,7 +4587,7 @@
         "answers": [
             "pop punk"
         ],
-        "pageviews": 3726
+        "pageviews": 18
     },
     {
         "query_id": "136_778",
@@ -6164,7 +4595,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 2280
+        "pageviews": 3
     },
     {
         "query_id": "136_779",
@@ -6172,7 +4603,7 @@
         "answers": [
             "art of sculpture"
         ],
-        "pageviews": 3873
+        "pageviews": 18
     },
     {
         "query_id": "136_780",
@@ -6180,7 +4611,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 140882
+        "pageviews": 76
     },
     {
         "query_id": "136_781",
@@ -6188,7 +4619,7 @@
         "answers": [
             "seinen"
         ],
-        "pageviews": 20971
+        "pageviews": 47
     },
     {
         "query_id": "136_782",
@@ -6196,15 +4627,7 @@
         "answers": [
             "first-person shooter"
         ],
-        "pageviews": 66845
-    },
-    {
-        "query_id": "136_783",
-        "question": "What type of music does Io ti amo play?",
-        "answers": [
-            "romantic comedy"
-        ],
-        "pageviews": 1597
+        "pageviews": 30
     },
     {
         "query_id": "136_784",
@@ -6212,7 +4635,7 @@
         "answers": [
             "musical film"
         ],
-        "pageviews": 22278
+        "pageviews": 4
     },
     {
         "query_id": "136_785",
@@ -6221,7 +4644,7 @@
             "action film",
             "thriller"
         ],
-        "pageviews": 576363
+        "pageviews": 51
     },
     {
         "query_id": "136_786",
@@ -6229,15 +4652,7 @@
         "answers": [
             "Greek tragedy"
         ],
-        "pageviews": 205712
-    },
-    {
-        "query_id": "136_787",
-        "question": "What type of music does WinBack 2: Project Poseidon play?",
-        "answers": [
-            "third-person shooter"
-        ],
-        "pageviews": 10052
+        "pageviews": 103
     },
     {
         "query_id": "136_788",
@@ -6245,7 +4660,7 @@
         "answers": [
             "reggae"
         ],
-        "pageviews": 8418
+        "pageviews": 2
     },
     {
         "query_id": "136_789",
@@ -6253,7 +4668,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 177810
+        "pageviews": 35
     },
     {
         "query_id": "136_790",
@@ -6261,7 +4676,7 @@
         "answers": [
             "progressive metal"
         ],
-        "pageviews": 156247
+        "pageviews": 157
     },
     {
         "query_id": "136_791",
@@ -6269,15 +4684,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 10930
-    },
-    {
-        "query_id": "136_792",
-        "question": "What type of music does At War with Self play?",
-        "answers": [
-            "progressive rock"
-        ],
-        "pageviews": 1307
+        "pageviews": 35
     },
     {
         "query_id": "136_793",
@@ -6285,7 +4692,7 @@
         "answers": [
             "J-pop"
         ],
-        "pageviews": 14207
+        "pageviews": 5
     },
     {
         "query_id": "136_794",
@@ -6293,7 +4700,7 @@
         "answers": [
             "pop rock"
         ],
-        "pageviews": 3385
+        "pageviews": 20
     },
     {
         "query_id": "136_795",
@@ -6301,7 +4708,7 @@
         "answers": [
             "electronic music"
         ],
-        "pageviews": 7240
+        "pageviews": 16
     },
     {
         "query_id": "136_796",
@@ -6309,7 +4716,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 84730
+        "pageviews": 31
     },
     {
         "query_id": "136_797",
@@ -6317,15 +4724,7 @@
         "answers": [
             "novella"
         ],
-        "pageviews": 16718
-    },
-    {
-        "query_id": "136_798",
-        "question": "What type of music does MUSHA play?",
-        "answers": [
-            "shoot 'em up"
-        ],
-        "pageviews": 17662
+        "pageviews": 2
     },
     {
         "query_id": "136_799",
@@ -6333,7 +4732,7 @@
         "answers": [
             "rhythm and blues"
         ],
-        "pageviews": 5345
+        "pageviews": 1
     },
     {
         "query_id": "136_800",
@@ -6342,23 +4741,7 @@
             "comedy film",
             "science fiction film"
         ],
-        "pageviews": 16322
-    },
-    {
-        "query_id": "136_801",
-        "question": "What type of music does Ursa Major play?",
-        "answers": [
-            "public art"
-        ],
-        "pageviews": 1032
-    },
-    {
-        "query_id": "136_802",
-        "question": "What type of music does Gabriela play?",
-        "answers": [
-            "telenovela"
-        ],
-        "pageviews": 879
+        "pageviews": 13
     },
     {
         "query_id": "136_803",
@@ -6366,7 +4749,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 16726
+        "pageviews": 52
     },
     {
         "query_id": "136_804",
@@ -6374,7 +4757,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 1713
+        "pageviews": 4
     },
     {
         "query_id": "136_805",
@@ -6382,7 +4765,7 @@
         "answers": [
             "J-pop"
         ],
-        "pageviews": 1734
+        "pageviews": 3
     },
     {
         "query_id": "136_806",
@@ -6390,7 +4773,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 7615
+        "pageviews": 7
     },
     {
         "query_id": "136_807",
@@ -6398,7 +4781,7 @@
         "answers": [
             "folk music"
         ],
-        "pageviews": 4672
+        "pageviews": 17
     },
     {
         "query_id": "136_808",
@@ -6406,15 +4789,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 20657
-    },
-    {
-        "query_id": "136_809",
-        "question": "What type of music does Apple Pie play?",
-        "answers": [
-            "sitcom"
-        ],
-        "pageviews": 6862
+        "pageviews": 15
     },
     {
         "query_id": "136_810",
@@ -6422,23 +4797,7 @@
         "answers": [
             "platform game"
         ],
-        "pageviews": 29300
-    },
-    {
-        "query_id": "136_811",
-        "question": "What type of music does Something in the City play?",
-        "answers": [
-            "sitcom"
-        ],
-        "pageviews": 717
-    },
-    {
-        "query_id": "136_812",
-        "question": "What type of music does Heritage Records play?",
-        "answers": [
-            "jazz"
-        ],
-        "pageviews": 496
+        "pageviews": 6
     },
     {
         "query_id": "136_813",
@@ -6446,7 +4805,7 @@
         "answers": [
             "hard rock"
         ],
-        "pageviews": 39186
+        "pageviews": 29
     },
     {
         "query_id": "136_814",
@@ -6454,7 +4813,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 2575
+        "pageviews": 1
     },
     {
         "query_id": "136_815",
@@ -6462,7 +4821,7 @@
         "answers": [
             "soap opera"
         ],
-        "pageviews": 9570
+        "pageviews": 8
     },
     {
         "query_id": "136_816",
@@ -6470,7 +4829,7 @@
         "answers": [
             "comedy-drama"
         ],
-        "pageviews": 7066
+        "pageviews": 4
     },
     {
         "query_id": "136_817",
@@ -6478,15 +4837,7 @@
         "answers": [
             "romantic comedy"
         ],
-        "pageviews": 4108
-    },
-    {
-        "query_id": "136_818",
-        "question": "What type of music does Marketplace play?",
-        "answers": [
-            "print news magazine"
-        ],
-        "pageviews": 13023
+        "pageviews": 1
     },
     {
         "query_id": "136_819",
@@ -6494,15 +4845,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 3897
-    },
-    {
-        "query_id": "136_820",
-        "question": "What type of music does Arthur and the Minimoys play?",
-        "answers": [
-            "fantasy film"
-        ],
-        "pageviews": 0
+        "pageviews": 5
     },
     {
         "query_id": "136_821",
@@ -6510,7 +4853,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 2222
+        "pageviews": 2
     },
     {
         "query_id": "136_822",
@@ -6518,15 +4861,7 @@
         "answers": [
             "seinen"
         ],
-        "pageviews": 35576
-    },
-    {
-        "query_id": "136_823",
-        "question": "What type of music does Spooky Stories for a Dark and Stormy Night play?",
-        "answers": [
-            "horror literature"
-        ],
-        "pageviews": 1787
+        "pageviews": 13
     },
     {
         "query_id": "136_824",
@@ -6534,7 +4869,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 5965
+        "pageviews": 1
     },
     {
         "query_id": "136_825",
@@ -6542,7 +4877,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 4601
+        "pageviews": 6
     },
     {
         "query_id": "136_826",
@@ -6550,7 +4885,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 1195
+        "pageviews": 2
     },
     {
         "query_id": "136_827",
@@ -6558,7 +4893,7 @@
         "answers": [
             "blues rock"
         ],
-        "pageviews": 6885
+        "pageviews": 11
     },
     {
         "query_id": "136_828",
@@ -6566,7 +4901,7 @@
         "answers": [
             "Flemish Baroque painting"
         ],
-        "pageviews": 2291
+        "pageviews": 6
     },
     {
         "query_id": "136_829",
@@ -6575,7 +4910,7 @@
             "young adult literature",
             "fantasy"
         ],
-        "pageviews": 6292
+        "pageviews": 1
     },
     {
         "query_id": "136_830",
@@ -6583,7 +4918,7 @@
         "answers": [
             "historical romance"
         ],
-        "pageviews": 6946
+        "pageviews": 8
     },
     {
         "query_id": "136_831",
@@ -6591,15 +4926,7 @@
         "answers": [
             "racing video game"
         ],
-        "pageviews": 1202
-    },
-    {
-        "query_id": "136_832",
-        "question": "What type of music does Mahathi play?",
-        "answers": [
-            "Carnatic music"
-        ],
-        "pageviews": 0
+        "pageviews": 1
     },
     {
         "query_id": "136_833",
@@ -6607,7 +4934,7 @@
         "answers": [
             "soul music"
         ],
-        "pageviews": 5816
+        "pageviews": 1
     },
     {
         "query_id": "136_834",
@@ -6615,7 +4942,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 9192
+        "pageviews": 2
     },
     {
         "query_id": "136_835",
@@ -6623,7 +4950,7 @@
         "answers": [
             "opera"
         ],
-        "pageviews": 68603
+        "pageviews": 98
     },
     {
         "query_id": "136_836",
@@ -6631,7 +4958,7 @@
         "answers": [
             "power pop"
         ],
-        "pageviews": 13200
+        "pageviews": 10
     },
     {
         "query_id": "136_837",
@@ -6639,7 +4966,7 @@
         "answers": [
             "adventure game"
         ],
-        "pageviews": 16267
+        "pageviews": 2
     },
     {
         "query_id": "136_838",
@@ -6647,7 +4974,7 @@
         "answers": [
             "house music"
         ],
-        "pageviews": 22958
+        "pageviews": 66
     },
     {
         "query_id": "136_839",
@@ -6655,7 +4982,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 7205
+        "pageviews": 33
     },
     {
         "query_id": "136_840",
@@ -6663,7 +4990,7 @@
         "answers": [
             "sports video game"
         ],
-        "pageviews": 3424
+        "pageviews": 2
     },
     {
         "query_id": "136_841",
@@ -6671,7 +4998,7 @@
         "answers": [
             "encyclopedia"
         ],
-        "pageviews": 2219
+        "pageviews": 2
     },
     {
         "query_id": "136_842",
@@ -6679,15 +5006,7 @@
         "answers": [
             "science fiction"
         ],
-        "pageviews": 28557
-    },
-    {
-        "query_id": "136_843",
-        "question": "What type of music does Hawaii Five-O play?",
-        "answers": [
-            "police procedural"
-        ],
-        "pageviews": 476362
+        "pageviews": 25
     },
     {
         "query_id": "136_844",
@@ -6695,7 +5014,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 2473
+        "pageviews": 2
     },
     {
         "query_id": "136_845",
@@ -6703,7 +5022,7 @@
         "answers": [
             "science fiction"
         ],
-        "pageviews": 413
+        "pageviews": 1
     },
     {
         "query_id": "136_846",
@@ -6711,7 +5030,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 4358
+        "pageviews": 5
     },
     {
         "query_id": "136_847",
@@ -6719,7 +5038,7 @@
         "answers": [
             "smooth jazz"
         ],
-        "pageviews": 1683
+        "pageviews": 2
     },
     {
         "query_id": "136_849",
@@ -6727,15 +5046,7 @@
         "answers": [
             "progressive rock"
         ],
-        "pageviews": 144127
-    },
-    {
-        "query_id": "136_850",
-        "question": "What type of music does Big Girl play?",
-        "answers": [
-            "smooth jazz"
-        ],
-        "pageviews": 1616
+        "pageviews": 41
     },
     {
         "query_id": "136_851",
@@ -6743,7 +5054,7 @@
         "answers": [
             "chivalric romance"
         ],
-        "pageviews": 2832
+        "pageviews": 6
     },
     {
         "query_id": "136_852",
@@ -6751,23 +5062,7 @@
         "answers": [
             "thriller"
         ],
-        "pageviews": 14356
-    },
-    {
-        "query_id": "136_853",
-        "question": "What type of music does Miss Congeniality 2: Armed and Fabulous play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 189859
-    },
-    {
-        "query_id": "136_854",
-        "question": "What type of music does The Red Hearts play?",
-        "answers": [
-            "garage punk"
-        ],
-        "pageviews": 1186
+        "pageviews": 4
     },
     {
         "query_id": "136_855",
@@ -6775,7 +5070,7 @@
         "answers": [
             "K-pop"
         ],
-        "pageviews": 132055
+        "pageviews": 21
     },
     {
         "query_id": "136_856",
@@ -6783,7 +5078,7 @@
         "answers": [
             "pop rock"
         ],
-        "pageviews": 36078
+        "pageviews": 21
     },
     {
         "query_id": "136_857",
@@ -6791,23 +5086,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 15472
-    },
-    {
-        "query_id": "136_858",
-        "question": "What type of music does Sam Rivers play?",
-        "answers": [
-            "jazz"
-        ],
-        "pageviews": 23082
-    },
-    {
-        "query_id": "136_859",
-        "question": "What type of music does Gabriela play?",
-        "answers": [
-            "telenovela"
-        ],
-        "pageviews": 970
+        "pageviews": 42
     },
     {
         "query_id": "136_860",
@@ -6815,7 +5094,7 @@
         "answers": [
             "film noir"
         ],
-        "pageviews": 25515
+        "pageviews": 10
     },
     {
         "query_id": "136_861",
@@ -6823,7 +5102,7 @@
         "answers": [
             "tokusatsu"
         ],
-        "pageviews": 27270
+        "pageviews": 33
     },
     {
         "query_id": "136_862",
@@ -6831,7 +5110,7 @@
         "answers": [
             "crime film"
         ],
-        "pageviews": 11661
+        "pageviews": 7
     },
     {
         "query_id": "136_863",
@@ -6839,15 +5118,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 2614
-    },
-    {
-        "query_id": "136_864",
-        "question": "What type of music does In Re: Sherlock Holmes play?",
-        "answers": [
-            "detective fiction"
-        ],
-        "pageviews": 1603
+        "pageviews": 1
     },
     {
         "query_id": "136_865",
@@ -6855,7 +5126,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 11505
+        "pageviews": 9
     },
     {
         "query_id": "136_866",
@@ -6863,7 +5134,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 959049
+        "pageviews": 157
     },
     {
         "query_id": "136_867",
@@ -6871,7 +5142,7 @@
         "answers": [
             "gospel music"
         ],
-        "pageviews": 113179
+        "pageviews": 57
     },
     {
         "query_id": "136_868",
@@ -6879,7 +5150,7 @@
         "answers": [
             "comedy-drama"
         ],
-        "pageviews": 65315
+        "pageviews": 14
     },
     {
         "query_id": "136_869",
@@ -6887,7 +5158,7 @@
         "answers": [
             "opera"
         ],
-        "pageviews": 7993
+        "pageviews": 25
     },
     {
         "query_id": "136_870",
@@ -6895,15 +5166,7 @@
         "answers": [
             "comedy-drama"
         ],
-        "pageviews": 8251
-    },
-    {
-        "query_id": "136_871",
-        "question": "What type of music does Cleaner play?",
-        "answers": [
-            "thriller"
-        ],
-        "pageviews": 0
+        "pageviews": 13
     },
     {
         "query_id": "136_872",
@@ -6911,7 +5174,7 @@
         "answers": [
             "rhythm and blues"
         ],
-        "pageviews": 11195
+        "pageviews": 14
     },
     {
         "query_id": "136_873",
@@ -6920,7 +5183,7 @@
             "fantasy film",
             "romantic comedy"
         ],
-        "pageviews": 53079
+        "pageviews": 16
     },
     {
         "query_id": "136_874",
@@ -6928,7 +5191,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 94110
+        "pageviews": 73
     },
     {
         "query_id": "136_875",
@@ -6936,15 +5199,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 20379
-    },
-    {
-        "query_id": "136_876",
-        "question": "What type of music does Cosmic Engineers play?",
-        "answers": [
-            "science fiction"
-        ],
-        "pageviews": 2095
+        "pageviews": 25
     },
     {
         "query_id": "136_877",
@@ -6952,7 +5207,7 @@
         "answers": [
             "short story"
         ],
-        "pageviews": 1670
+        "pageviews": 2
     },
     {
         "query_id": "136_878",
@@ -6960,7 +5215,7 @@
         "answers": [
             "classical music"
         ],
-        "pageviews": 36945
+        "pageviews": 470
     },
     {
         "query_id": "136_879",
@@ -6968,7 +5223,7 @@
         "answers": [
             "death metal"
         ],
-        "pageviews": 65003
+        "pageviews": 30
     },
     {
         "query_id": "136_880",
@@ -6976,7 +5231,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 2169
+        "pageviews": 2
     },
     {
         "query_id": "136_881",
@@ -6984,7 +5239,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 20671
+        "pageviews": 36
     },
     {
         "query_id": "136_882",
@@ -6992,7 +5247,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 2832
+        "pageviews": 6
     },
     {
         "query_id": "136_883",
@@ -7000,7 +5255,7 @@
         "answers": [
             "reality television"
         ],
-        "pageviews": 355154
+        "pageviews": 82
     },
     {
         "query_id": "136_884",
@@ -7008,7 +5263,7 @@
         "answers": [
             "biographical film"
         ],
-        "pageviews": 4713
+        "pageviews": 8
     },
     {
         "query_id": "136_885",
@@ -7016,7 +5271,7 @@
         "answers": [
             "short story"
         ],
-        "pageviews": 5140
+        "pageviews": 6
     },
     {
         "query_id": "136_886",
@@ -7024,7 +5279,7 @@
         "answers": [
             "anthology series"
         ],
-        "pageviews": 2483
+        "pageviews": 9
     },
     {
         "query_id": "136_887",
@@ -7032,7 +5287,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 20393
+        "pageviews": 2
     },
     {
         "query_id": "136_888",
@@ -7040,7 +5295,7 @@
         "answers": [
             "comedy-drama"
         ],
-        "pageviews": 2472
+        "pageviews": 1
     },
     {
         "query_id": "136_889",
@@ -7048,7 +5303,7 @@
         "answers": [
             "action-adventure game"
         ],
-        "pageviews": 11231
+        "pageviews": 2
     },
     {
         "query_id": "136_890",
@@ -7056,7 +5311,7 @@
         "answers": [
             "satire"
         ],
-        "pageviews": 23605
+        "pageviews": 52
     },
     {
         "query_id": "136_891",
@@ -7065,7 +5320,7 @@
             "horror film",
             "science fiction film"
         ],
-        "pageviews": 33856
+        "pageviews": 24
     },
     {
         "query_id": "136_892",
@@ -7073,7 +5328,7 @@
         "answers": [
             "techno"
         ],
-        "pageviews": 11309
+        "pageviews": 1
     },
     {
         "query_id": "136_893",
@@ -7081,15 +5336,7 @@
         "answers": [
             "action-adventure game"
         ],
-        "pageviews": 83763
-    },
-    {
-        "query_id": "136_894",
-        "question": "What type of music does Il ragazzo del Pony Express play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 1892
+        "pageviews": 23
     },
     {
         "query_id": "136_895",
@@ -7097,7 +5344,7 @@
         "answers": [
             "pop music"
         ],
-        "pageviews": 6576
+        "pageviews": 4
     },
     {
         "query_id": "136_896",
@@ -7105,7 +5352,7 @@
         "answers": [
             "indie rock"
         ],
-        "pageviews": 180630
+        "pageviews": 309
     },
     {
         "query_id": "136_897",
@@ -7113,7 +5360,7 @@
         "answers": [
             "ambient music"
         ],
-        "pageviews": 1684
+        "pageviews": 3
     },
     {
         "query_id": "136_898",
@@ -7121,7 +5368,7 @@
         "answers": [
             "progressive rock"
         ],
-        "pageviews": 10912
+        "pageviews": 19
     },
     {
         "query_id": "136_899",
@@ -7129,7 +5376,7 @@
         "answers": [
             "romantic comedy"
         ],
-        "pageviews": 12028
+        "pageviews": 5
     },
     {
         "query_id": "136_900",
@@ -7137,7 +5384,7 @@
         "answers": [
             "spaghetti western"
         ],
-        "pageviews": 9895
+        "pageviews": 6
     },
     {
         "query_id": "136_901",
@@ -7145,7 +5392,7 @@
         "answers": [
             "Western film"
         ],
-        "pageviews": 196571
+        "pageviews": 66
     },
     {
         "query_id": "136_902",
@@ -7153,7 +5400,7 @@
         "answers": [
             "pop rock"
         ],
-        "pageviews": 47386
+        "pageviews": 14
     },
     {
         "query_id": "136_903",
@@ -7161,7 +5408,7 @@
         "answers": [
             "experimental music"
         ],
-        "pageviews": 2275
+        "pageviews": 3
     },
     {
         "query_id": "136_904",
@@ -7169,7 +5416,7 @@
         "answers": [
             "romance film"
         ],
-        "pageviews": 2140
+        "pageviews": 2
     },
     {
         "query_id": "136_905",
@@ -7177,7 +5424,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 1539
+        "pageviews": 1
     },
     {
         "query_id": "136_906",
@@ -7185,7 +5432,7 @@
         "answers": [
             "mystery film"
         ],
-        "pageviews": 6300
+        "pageviews": 6
     },
     {
         "query_id": "136_907",
@@ -7193,7 +5440,7 @@
         "answers": [
             "third-person shooter"
         ],
-        "pageviews": 350679
+        "pageviews": 76
     },
     {
         "query_id": "136_908",
@@ -7201,7 +5448,7 @@
         "answers": [
             "rock music"
         ],
-        "pageviews": 250451
+        "pageviews": 164
     },
     {
         "query_id": "136_909",
@@ -7209,7 +5456,7 @@
         "answers": [
             "indie rock"
         ],
-        "pageviews": 2518
+        "pageviews": 2
     },
     {
         "query_id": "136_910",
@@ -7217,7 +5464,7 @@
         "answers": [
             "fantasy"
         ],
-        "pageviews": 1427
+        "pageviews": 7
     },
     {
         "query_id": "136_911",
@@ -7225,7 +5472,7 @@
         "answers": [
             "death of Osama bin Laden"
         ],
-        "pageviews": 119881
+        "pageviews": 8
     },
     {
         "query_id": "136_912",
@@ -7233,7 +5480,7 @@
         "answers": [
             "bluegrass music"
         ],
-        "pageviews": 7178
+        "pageviews": 15
     },
     {
         "query_id": "136_913",
@@ -7241,7 +5488,7 @@
         "answers": [
             "J-pop"
         ],
-        "pageviews": 7933
+        "pageviews": 7
     },
     {
         "query_id": "136_914",
@@ -7249,7 +5496,7 @@
         "answers": [
             "sitcom"
         ],
-        "pageviews": 26968
+        "pageviews": 5
     },
     {
         "query_id": "136_915",
@@ -7257,7 +5504,7 @@
         "answers": [
             "romantic comedy"
         ],
-        "pageviews": 2395
+        "pageviews": 1
     },
     {
         "query_id": "136_916",
@@ -7265,7 +5512,7 @@
         "answers": [
             "swing music"
         ],
-        "pageviews": 6177
+        "pageviews": 7
     },
     {
         "query_id": "136_917",
@@ -7273,7 +5520,7 @@
         "answers": [
             "Cantopop"
         ],
-        "pageviews": 836
+        "pageviews": 1
     },
     {
         "query_id": "136_918",
@@ -7281,7 +5528,7 @@
         "answers": [
             "romance novel"
         ],
-        "pageviews": 2785
+        "pageviews": 1
     },
     {
         "query_id": "136_919",
@@ -7289,7 +5536,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 3371
+        "pageviews": 6
     },
     {
         "query_id": "136_920",
@@ -7297,7 +5544,7 @@
         "answers": [
             "reality television"
         ],
-        "pageviews": 59497
+        "pageviews": 23
     },
     {
         "query_id": "136_921",
@@ -7305,7 +5552,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 154641
+        "pageviews": 36
     },
     {
         "query_id": "136_922",
@@ -7313,7 +5560,7 @@
         "answers": [
             "war film"
         ],
-        "pageviews": 2589
+        "pageviews": 7
     },
     {
         "query_id": "136_924",
@@ -7321,23 +5568,7 @@
         "answers": [
             "adventure film"
         ],
-        "pageviews": 3016
-    },
-    {
-        "query_id": "136_925",
-        "question": "What type of music does Kara no Tsubomi play?",
-        "answers": [
-            "J-pop"
-        ],
-        "pageviews": 439
-    },
-    {
-        "query_id": "136_927",
-        "question": "What type of music does The Captains play?",
-        "answers": [
-            "rock music"
-        ],
-        "pageviews": 1008
+        "pageviews": 7
     },
     {
         "query_id": "136_928",
@@ -7345,23 +5576,7 @@
         "answers": [
             "puzzle video game"
         ],
-        "pageviews": 34319
-    },
-    {
-        "query_id": "136_929",
-        "question": "What type of music does Arlene play?",
-        "answers": [
-            "country music"
-        ],
-        "pageviews": 1783
-    },
-    {
-        "query_id": "136_930",
-        "question": "What type of music does Yas play?",
-        "answers": [
-            "rapping"
-        ],
-        "pageviews": 41
+        "pageviews": 2
     },
     {
         "query_id": "136_931",
@@ -7369,7 +5584,7 @@
         "answers": [
             "action role-playing game"
         ],
-        "pageviews": 48129
+        "pageviews": 1
     },
     {
         "query_id": "136_933",
@@ -7377,7 +5592,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 21907
+        "pageviews": 7
     },
     {
         "query_id": "136_934",
@@ -7385,7 +5600,7 @@
         "answers": [
             "indie rock"
         ],
-        "pageviews": 1386
+        "pageviews": 3
     },
     {
         "query_id": "136_935",
@@ -7393,7 +5608,7 @@
         "answers": [
             "beach party film"
         ],
-        "pageviews": 7620
+        "pageviews": 9
     },
     {
         "query_id": "136_936",
@@ -7402,7 +5617,7 @@
             "science fiction film",
             "comedy film"
         ],
-        "pageviews": 97811
+        "pageviews": 11
     },
     {
         "query_id": "136_937",
@@ -7410,7 +5625,7 @@
         "answers": [
             "synth-pop"
         ],
-        "pageviews": 25085
+        "pageviews": 71
     },
     {
         "query_id": "136_938",
@@ -7418,15 +5633,7 @@
         "answers": [
             "alternative hip hop"
         ],
-        "pageviews": 16235
-    },
-    {
-        "query_id": "136_939",
-        "question": "What type of music does An Eastern Westerner play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 2924
+        "pageviews": 24
     },
     {
         "query_id": "136_940",
@@ -7434,7 +5641,7 @@
         "answers": [
             "beat music"
         ],
-        "pageviews": 151013
+        "pageviews": 39
     },
     {
         "query_id": "136_941",
@@ -7442,23 +5649,7 @@
         "answers": [
             "black metal"
         ],
-        "pageviews": 9094
-    },
-    {
-        "query_id": "136_943",
-        "question": "What type of music does Dr. Dolittle: Tail to the Chief play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 32013
-    },
-    {
-        "query_id": "136_944",
-        "question": "What type of music does The Sinners of Erspia play?",
-        "answers": [
-            "science fiction"
-        ],
-        "pageviews": 699
+        "pageviews": 2
     },
     {
         "query_id": "136_945",
@@ -7466,7 +5657,7 @@
         "answers": [
             "rhythm and blues"
         ],
-        "pageviews": 10002
+        "pageviews": 12
     },
     {
         "query_id": "136_946",
@@ -7474,15 +5665,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 107287
-    },
-    {
-        "query_id": "136_947",
-        "question": "What type of music does Captain Forever play?",
-        "answers": [
-            "shoot 'em up"
-        ],
-        "pageviews": 4049
+        "pageviews": 41
     },
     {
         "query_id": "136_948",
@@ -7490,7 +5673,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 5960
+        "pageviews": 15
     },
     {
         "query_id": "136_949",
@@ -7498,15 +5681,7 @@
         "answers": [
             "romantic comedy"
         ],
-        "pageviews": 10579
-    },
-    {
-        "query_id": "136_950",
-        "question": "What type of music does The Ragged Edge play?",
-        "answers": [
-            "romance film"
-        ],
-        "pageviews": 1122
+        "pageviews": 8
     },
     {
         "query_id": "136_951",
@@ -7514,7 +5689,7 @@
         "answers": [
             "hip hop music"
         ],
-        "pageviews": 557
+        "pageviews": 3
     },
     {
         "query_id": "136_952",
@@ -7522,7 +5697,7 @@
         "answers": [
             "romantic comedy"
         ],
-        "pageviews": 10542
+        "pageviews": 11
     },
     {
         "query_id": "136_953",
@@ -7530,15 +5705,7 @@
         "answers": [
             "melodic death metal"
         ],
-        "pageviews": 15937
-    },
-    {
-        "query_id": "136_954",
-        "question": "What type of music does My Education play?",
-        "answers": [
-            "post-rock"
-        ],
-        "pageviews": 2055
+        "pageviews": 3
     },
     {
         "query_id": "136_955",
@@ -7546,7 +5713,7 @@
         "answers": [
             "progressive rock"
         ],
-        "pageviews": 43617
+        "pageviews": 96
     },
     {
         "query_id": "136_956",
@@ -7554,7 +5721,7 @@
         "answers": [
             "fantasy"
         ],
-        "pageviews": 41089
+        "pageviews": 218
     },
     {
         "query_id": "136_957",
@@ -7562,7 +5729,7 @@
         "answers": [
             "science fiction"
         ],
-        "pageviews": 874
+        "pageviews": 5
     },
     {
         "query_id": "136_958",
@@ -7570,7 +5737,7 @@
         "answers": [
             "grindcore"
         ],
-        "pageviews": 4337
+        "pageviews": 5
     },
     {
         "query_id": "136_959",
@@ -7578,7 +5745,7 @@
         "answers": [
             "sitcom"
         ],
-        "pageviews": 439000
+        "pageviews": 197
     },
     {
         "query_id": "136_960",
@@ -7586,7 +5753,7 @@
         "answers": [
             "electro-industrial"
         ],
-        "pageviews": 10851
+        "pageviews": 12
     },
     {
         "query_id": "136_961",
@@ -7594,7 +5761,7 @@
         "answers": [
             "soap opera"
         ],
-        "pageviews": 133721
+        "pageviews": 392
     },
     {
         "query_id": "136_962",
@@ -7602,7 +5769,7 @@
         "answers": [
             "rhythm and blues"
         ],
-        "pageviews": 4369
+        "pageviews": 15
     },
     {
         "query_id": "136_963",
@@ -7610,7 +5777,7 @@
         "answers": [
             "post-punk"
         ],
-        "pageviews": 18673
+        "pageviews": 9
     },
     {
         "query_id": "136_964",
@@ -7618,15 +5785,7 @@
         "answers": [
             "grindcore"
         ],
-        "pageviews": 36231
-    },
-    {
-        "query_id": "136_965",
-        "question": "What type of music does Loose Caboose play?",
-        "answers": [
-            "reggae"
-        ],
-        "pageviews": 1094
+        "pageviews": 59
     },
     {
         "query_id": "136_966",
@@ -7634,7 +5793,7 @@
         "answers": [
             "soul music"
         ],
-        "pageviews": 361151
+        "pageviews": 38
     },
     {
         "query_id": "136_967",
@@ -7642,7 +5801,7 @@
         "answers": [
             "rhythm and blues"
         ],
-        "pageviews": 126381
+        "pageviews": 97
     },
     {
         "query_id": "136_968",
@@ -7650,7 +5809,7 @@
         "answers": [
             "opera"
         ],
-        "pageviews": 32951
+        "pageviews": 59
     },
     {
         "query_id": "136_969",
@@ -7658,7 +5817,7 @@
         "answers": [
             "punk rock"
         ],
-        "pageviews": 28883
+        "pageviews": 23
     },
     {
         "query_id": "136_970",
@@ -7666,7 +5825,7 @@
         "answers": [
             "romance film"
         ],
-        "pageviews": 1454
+        "pageviews": 1
     },
     {
         "query_id": "136_971",
@@ -7674,7 +5833,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 898807
+        "pageviews": 69
     },
     {
         "query_id": "136_972",
@@ -7682,7 +5841,7 @@
         "answers": [
             "horror film"
         ],
-        "pageviews": 10671
+        "pageviews": 7
     },
     {
         "query_id": "136_973",
@@ -7690,7 +5849,7 @@
         "answers": [
             "progressive rock"
         ],
-        "pageviews": 103651
+        "pageviews": 165
     },
     {
         "query_id": "136_974",
@@ -7698,7 +5857,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 944
+        "pageviews": 7
     },
     {
         "query_id": "136_975",
@@ -7706,7 +5865,7 @@
         "answers": [
             "survival horror"
         ],
-        "pageviews": 35539
+        "pageviews": 6
     },
     {
         "query_id": "136_976",
@@ -7714,15 +5873,7 @@
         "answers": [
             "legal drama"
         ],
-        "pageviews": 7505
-    },
-    {
-        "query_id": "136_977",
-        "question": "What type of music does Parigi o cara play?",
-        "answers": [
-            "comedy-drama"
-        ],
-        "pageviews": 1985
+        "pageviews": 6
     },
     {
         "query_id": "136_978",
@@ -7731,7 +5882,7 @@
             "comedy film",
             "Western film"
         ],
-        "pageviews": 296001
+        "pageviews": 64
     },
     {
         "query_id": "136_979",
@@ -7739,15 +5890,7 @@
         "answers": [
             "comedy film"
         ],
-        "pageviews": 3665
-    },
-    {
-        "query_id": "136_980",
-        "question": "What type of music does Grandpa play?",
-        "answers": [
-            "country music"
-        ],
-        "pageviews": 23388
+        "pageviews": 3
     },
     {
         "query_id": "136_981",
@@ -7755,7 +5898,7 @@
         "answers": [
             "alternative rock"
         ],
-        "pageviews": 4900
+        "pageviews": 7
     },
     {
         "query_id": "136_982",
@@ -7763,7 +5906,7 @@
         "answers": [
             "thriller"
         ],
-        "pageviews": 17513
+        "pageviews": 3
     },
     {
         "query_id": "136_983",
@@ -7771,7 +5914,7 @@
         "answers": [
             "country music"
         ],
-        "pageviews": 2666
+        "pageviews": 6
     },
     {
         "query_id": "136_984",
@@ -7779,39 +5922,7 @@
         "answers": [
             "house music"
         ],
-        "pageviews": 13675
-    },
-    {
-        "query_id": "136_985",
-        "question": "What type of music does CART Fury play?",
-        "answers": [
-            "racing video game"
-        ],
-        "pageviews": 4496
-    },
-    {
-        "query_id": "136_986",
-        "question": "What type of music does Susanne Alt play?",
-        "answers": [
-            "jazz"
-        ],
-        "pageviews": 1637
-    },
-    {
-        "query_id": "136_987",
-        "question": "What type of music does OPA! play?",
-        "answers": [
-            "pop music"
-        ],
-        "pageviews": 830
-    },
-    {
-        "query_id": "136_988",
-        "question": "What type of music does The Depths of Time play?",
-        "answers": [
-            "science fiction"
-        ],
-        "pageviews": 547
+        "pageviews": 24
     },
     {
         "query_id": "136_989",
@@ -7819,7 +5930,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 3355
+        "pageviews": 12
     },
     {
         "query_id": "136_990",
@@ -7827,7 +5938,7 @@
         "answers": [
             "tactical shooter"
         ],
-        "pageviews": 21492
+        "pageviews": 1
     },
     {
         "query_id": "136_991",
@@ -7835,7 +5946,7 @@
         "answers": [
             "jazz"
         ],
-        "pageviews": 2317
+        "pageviews": 2
     },
     {
         "query_id": "136_992",
@@ -7843,15 +5954,7 @@
         "answers": [
             "liquid funk"
         ],
-        "pageviews": 35365
-    },
-    {
-        "query_id": "136_993",
-        "question": "What type of music does Tot\u00f2, Eva e il pennello proibito play?",
-        "answers": [
-            "comedy film"
-        ],
-        "pageviews": 2073
+        "pageviews": 58
     },
     {
         "query_id": "136_994",
@@ -7859,7 +5962,7 @@
         "answers": [
             "documentary film"
         ],
-        "pageviews": 9527
+        "pageviews": 13
     },
     {
         "query_id": "136_995",
@@ -7867,7 +5970,7 @@
         "answers": [
             "seinen"
         ],
-        "pageviews": 3319
+        "pageviews": 1
     },
     {
         "query_id": "136_997",
@@ -7875,7 +5978,7 @@
         "answers": [
             "racing video game"
         ],
-        "pageviews": 3159
+        "pageviews": 1
     },
     {
         "query_id": "136_998",
@@ -7883,7 +5986,7 @@
         "answers": [
             "nu metal"
         ],
-        "pageviews": 15825
+        "pageviews": 7
     },
     {
         "query_id": "136_999",
@@ -7891,6 +5994,6 @@
         "answers": [
             "racing video game"
         ],
-        "pageviews": 3470
+        "pageviews": 5
     }
 ]

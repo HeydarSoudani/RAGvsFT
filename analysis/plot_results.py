@@ -7,7 +7,7 @@ import json
 import os
 
 # === Datasets variables ========================
-dataset_name = 'popQA' # [popQA, witQA, EQ]
+dataset_name = 'EQ' # [popQA, witQA, EQ]
 retrieval_models = ["bm25", "contriever", "rerank", "dpr"]
 gen_models = [
     "flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl",
@@ -89,8 +89,9 @@ elif dataset_name == 'EQ':
     data_evidence_dir = "data/dataset/entity_questions_dataset/data_evidence"
     num_relations = 25
     relation_ids = ['17', '19', '20', '26', '30', '36', '40', '50', '69', '106', '112', '127', '131', '136', '159', '170', '175', '176', '264', '276', '407', '413', '495', '740', '800']
-    split_points = [3, 4, 5, 6]
-    # split_points = [3, 3.7, 4.4, 5]
+    # split_points = [3, 4, 5, 6]
+    # split_points = [1, 10, 100, 1000]
+    split_points = [1, 3, 5, 7]
     RELATIONS = {
         '17': 'country loc. in', # country located in
         '19': 'birth place',
@@ -130,7 +131,10 @@ def split_to_buckets(objects, split_points):
     for obj in objects:
         # rp = obj['relative_popularity']
         if int(obj['pageviews']) > 0:
-            rp = math.log(int(obj['pageviews']), 10)
+            if dataset_name in ['popQA', 'witQA']:
+                rp = math.log(int(obj['pageviews']), 10)
+            elif dataset_name == 'EQ':
+                rp = math.log(int(obj['pageviews']), 2)
         else:
             rp = 0
         
@@ -234,7 +238,7 @@ def plot_buckets_distribution(only_all=False):
         bk_data = split_to_buckets(all_queries, split_points)
         counts = [len(bk) for bk in bk_data.values()]
         buckets = ["b1", "b2", "b3", "b4", "b5"]
-        buckets = [f'$10^{i}$' for i in range(2, 7)]
+        # buckets = [f'$10^{i}$' for i in range(2, 7)]
     
         color_left = [0.69, 0.769, 0.871]  # lightsteelblue in RGB
         color_right = [0.255, 0.412, 0.882]  # royalblue in RGB
@@ -401,7 +405,7 @@ def calculated_accuracy(objects):
 def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=False):
     
     ### ==== Define Variables =============
-    model_name = gen_models[-1]
+    model_name = gen_models[5]
     
     if model_name in ["flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl"]:
         model_type = 'flant5'
@@ -414,11 +418,11 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
     retrieval_model = 'ideal'
     result_files = [
         {"title": "NoFT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
-        # {"title": f"NoFT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_bf_rag_{retrieval_model}_full_results.jsonl"},
+        {"title": f"NoFT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_bf_rag_{retrieval_model}_full_results.jsonl"},
         {"title": "FT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
-        # {"title": f"FT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
+        {"title": f"FT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
         # {"title": f"voting", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_voting_results.jsonl"},
-        {"title": f"voting_2", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_voting_2_results.jsonl"},
+        # {"title": f"voting_2", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_voting_2_results.jsonl"},
         # {"title": f"NoFT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
         # {"title": f"FT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
     ]

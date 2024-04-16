@@ -1,35 +1,11 @@
 [
     {
-        "query_id": "106_0",
-        "question": "What kind of work does Joe Bianchi do?",
-        "answers": [
-            "blacksmith"
-        ],
-        "pageviews": 1082
-    },
-    {
         "query_id": "106_1",
         "question": "What kind of work does Epicurus do?",
         "answers": [
             "philosopher"
         ],
-        "pageviews": 396821
-    },
-    {
-        "query_id": "106_2",
-        "question": "What kind of work does Sarzameen Khan do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 730
-    },
-    {
-        "query_id": "106_3",
-        "question": "What kind of work does Alexandru Mo\u0219anu do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 2222
+        "pageviews": 261
     },
     {
         "query_id": "106_4",
@@ -37,7 +13,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 818
+        "pageviews": 2
     },
     {
         "query_id": "106_5",
@@ -46,15 +22,7 @@
             "composer",
             "pianist"
         ],
-        "pageviews": 696
-    },
-    {
-        "query_id": "106_7",
-        "question": "What kind of work does Ludwig Huber do?",
-        "answers": [
-            "biologist"
-        ],
-        "pageviews": 1073
+        "pageviews": 3
     },
     {
         "query_id": "106_8",
@@ -62,7 +30,7 @@
         "answers": [
             "songwriter"
         ],
-        "pageviews": 14024
+        "pageviews": 37
     },
     {
         "query_id": "106_9",
@@ -70,7 +38,7 @@
         "answers": [
             "songwriter"
         ],
-        "pageviews": 17031
+        "pageviews": 46
     },
     {
         "query_id": "106_10",
@@ -79,7 +47,7 @@
             "economist",
             "politician"
         ],
-        "pageviews": 3966
+        "pageviews": 2
     },
     {
         "query_id": "106_11",
@@ -87,7 +55,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1772
+        "pageviews": 1
     },
     {
         "query_id": "106_12",
@@ -95,7 +63,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 1811
+        "pageviews": 1
     },
     {
         "query_id": "106_13",
@@ -103,7 +71,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1871
+        "pageviews": 2
     },
     {
         "query_id": "106_14",
@@ -111,31 +79,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 54017
-    },
-    {
-        "query_id": "106_15",
-        "question": "What kind of work does Torsten Stein do?",
-        "answers": [
-            "jurist"
-        ],
-        "pageviews": 864
-    },
-    {
-        "query_id": "106_16",
-        "question": "What kind of work does George Martin do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 42054
-    },
-    {
-        "query_id": "106_17",
-        "question": "What kind of work does Batilda Salha Burian do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1375
+        "pageviews": 4
     },
     {
         "query_id": "106_18",
@@ -143,15 +87,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 2346
-    },
-    {
-        "query_id": "106_19",
-        "question": "What kind of work does Plamen Panayotov do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1411
+        "pageviews": 1
     },
     {
         "query_id": "106_20",
@@ -159,32 +95,7 @@
         "answers": [
             "priest"
         ],
-        "pageviews": 1020
-    },
-    {
-        "query_id": "106_21",
-        "question": "What kind of work does Jon Laurimore do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 3860
-    },
-    {
-        "query_id": "106_22",
-        "question": "What kind of work does Ad\u00e9lard Bellemare do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 471
-    },
-    {
-        "query_id": "106_23",
-        "question": "What kind of work does Sergio Ortega do?",
-        "answers": [
-            "composer",
-            "pianist"
-        ],
-        "pageviews": 5458
+        "pageviews": 1
     },
     {
         "query_id": "106_24",
@@ -192,7 +103,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 3988
+        "pageviews": 1
     },
     {
         "query_id": "106_25",
@@ -200,7 +111,7 @@
         "answers": [
             "film producer"
         ],
-        "pageviews": 1721
+        "pageviews": 6
     },
     {
         "query_id": "106_27",
@@ -208,7 +119,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 4063
+        "pageviews": 2
     },
     {
         "query_id": "106_28",
@@ -216,7 +127,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 2314
+        "pageviews": 5
     },
     {
         "query_id": "106_29",
@@ -224,7 +135,7 @@
         "answers": [
             "illustrator"
         ],
-        "pageviews": 94795
+        "pageviews": 114
     },
     {
         "query_id": "106_30",
@@ -232,7 +143,7 @@
         "answers": [
             "justice of the peace"
         ],
-        "pageviews": 1166
+        "pageviews": 6
     },
     {
         "query_id": "106_31",
@@ -240,7 +151,7 @@
         "answers": [
             "astronaut"
         ],
-        "pageviews": 24729
+        "pageviews": 7
     },
     {
         "query_id": "106_32",
@@ -248,7 +159,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 25623
+        "pageviews": 34
     },
     {
         "query_id": "106_33",
@@ -256,7 +167,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 830
+        "pageviews": 1
     },
     {
         "query_id": "106_34",
@@ -264,15 +175,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 21950
-    },
-    {
-        "query_id": "106_35",
-        "question": "What kind of work does Yolanda Casaus Rodr\u00edguez do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 545
+        "pageviews": 38
     },
     {
         "query_id": "106_36",
@@ -280,15 +183,7 @@
         "answers": [
             "priest"
         ],
-        "pageviews": 1316
-    },
-    {
-        "query_id": "106_37",
-        "question": "What kind of work does Guillermo M\u00e1rquez Lizalde do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 586
+        "pageviews": 2
     },
     {
         "query_id": "106_38",
@@ -296,7 +191,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1556
+        "pageviews": 10
     },
     {
         "query_id": "106_39",
@@ -305,7 +200,7 @@
             "politician",
             "lawyer"
         ],
-        "pageviews": 5084
+        "pageviews": 3
     },
     {
         "query_id": "106_40",
@@ -313,7 +208,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 525
+        "pageviews": 1
     },
     {
         "query_id": "106_41",
@@ -321,7 +216,7 @@
         "answers": [
             "songwriter"
         ],
-        "pageviews": 69343
+        "pageviews": 53
     },
     {
         "query_id": "106_42",
@@ -329,7 +224,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 4313
+        "pageviews": 19
     },
     {
         "query_id": "106_43",
@@ -337,7 +232,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 3546
+        "pageviews": 1
     },
     {
         "query_id": "106_44",
@@ -345,15 +240,7 @@
         "answers": [
             "mathematician"
         ],
-        "pageviews": 18626
-    },
-    {
-        "query_id": "106_45",
-        "question": "What kind of work does Robert Alcock do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 627
+        "pageviews": 3
     },
     {
         "query_id": "106_46",
@@ -361,7 +248,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 5993
+        "pageviews": 9
     },
     {
         "query_id": "106_47",
@@ -369,7 +256,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 55722
+        "pageviews": 9
     },
     {
         "query_id": "106_48",
@@ -377,7 +264,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1164
+        "pageviews": 2
     },
     {
         "query_id": "106_49",
@@ -386,15 +273,7 @@
             "AV Idol",
             "actor"
         ],
-        "pageviews": 22959
-    },
-    {
-        "query_id": "106_50",
-        "question": "What kind of work does Alexander Harper do?",
-        "answers": [
-            "curate"
-        ],
-        "pageviews": 471
+        "pageviews": 9
     },
     {
         "query_id": "106_51",
@@ -402,7 +281,7 @@
         "answers": [
             "philosopher"
         ],
-        "pageviews": 2685
+        "pageviews": 2
     },
     {
         "query_id": "106_52",
@@ -410,7 +289,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 990
+        "pageviews": 1
     },
     {
         "query_id": "106_53",
@@ -419,15 +298,7 @@
             "actor",
             "film director"
         ],
-        "pageviews": 3917
-    },
-    {
-        "query_id": "106_54",
-        "question": "What kind of work does James Patrick Sutton do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1774
+        "pageviews": 19
     },
     {
         "query_id": "106_55",
@@ -435,7 +306,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1813
+        "pageviews": 5
     },
     {
         "query_id": "106_56",
@@ -443,7 +314,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 10777
+        "pageviews": 2
     },
     {
         "query_id": "106_57",
@@ -451,7 +322,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 1856
+        "pageviews": 8
     },
     {
         "query_id": "106_58",
@@ -459,7 +330,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 770
+        "pageviews": 1
     },
     {
         "query_id": "106_59",
@@ -467,7 +338,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 3761
+        "pageviews": 3
     },
     {
         "query_id": "106_60",
@@ -475,7 +346,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 14109
+        "pageviews": 5
     },
     {
         "query_id": "106_61",
@@ -483,7 +354,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 47040
+        "pageviews": 13
     },
     {
         "query_id": "106_62",
@@ -491,7 +362,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 64140
+        "pageviews": 33
     },
     {
         "query_id": "106_63",
@@ -499,15 +370,7 @@
         "answers": [
             "priest"
         ],
-        "pageviews": 1676
-    },
-    {
-        "query_id": "106_64",
-        "question": "What kind of work does William Webb do?",
-        "answers": [
-            "composer"
-        ],
-        "pageviews": 836
+        "pageviews": 8
     },
     {
         "query_id": "106_65",
@@ -515,7 +378,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 8078
+        "pageviews": 16
     },
     {
         "query_id": "106_66",
@@ -523,7 +386,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 2117
+        "pageviews": 1
     },
     {
         "query_id": "106_67",
@@ -531,7 +394,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 86702
+        "pageviews": 144
     },
     {
         "query_id": "106_68",
@@ -539,15 +402,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1716
-    },
-    {
-        "query_id": "106_69",
-        "question": "What kind of work does Sorcha N\u00ed Ch\u00e9ide do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 1026
+        "pageviews": 2
     },
     {
         "query_id": "106_70",
@@ -555,7 +410,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 279796
+        "pageviews": 23
     },
     {
         "query_id": "106_71",
@@ -563,7 +418,7 @@
         "answers": [
             "television director"
         ],
-        "pageviews": 3429
+        "pageviews": 2
     },
     {
         "query_id": "106_72",
@@ -571,7 +426,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1115
+        "pageviews": 3
     },
     {
         "query_id": "106_73",
@@ -579,15 +434,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 528
-    },
-    {
-        "query_id": "106_74",
-        "question": "What kind of work does Anthony Lambert do?",
-        "answers": [
-            "diplomat"
-        ],
-        "pageviews": 1462
+        "pageviews": 1
     },
     {
         "query_id": "106_75",
@@ -595,7 +442,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 1473
+        "pageviews": 2
     },
     {
         "query_id": "106_76",
@@ -607,23 +454,7 @@
             "composer",
             "screenwriter"
         ],
-        "pageviews": 508033
-    },
-    {
-        "query_id": "106_77",
-        "question": "What kind of work does Chaudhry Muhammad Hamid Hameed do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 2887
-    },
-    {
-        "query_id": "106_78",
-        "question": "What kind of work does Jean-Blaise Kololo do?",
-        "answers": [
-            "diplomat"
-        ],
-        "pageviews": 756
+        "pageviews": 302
     },
     {
         "query_id": "106_79",
@@ -631,7 +462,7 @@
         "answers": [
             "physician"
         ],
-        "pageviews": 1391
+        "pageviews": 1
     },
     {
         "query_id": "106_80",
@@ -639,7 +470,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 3278
+        "pageviews": 24
     },
     {
         "query_id": "106_81",
@@ -647,15 +478,7 @@
         "answers": [
             "playwright"
         ],
-        "pageviews": 163076
-    },
-    {
-        "query_id": "106_82",
-        "question": "What kind of work does Gustav Cohn do?",
-        "answers": [
-            "economist"
-        ],
-        "pageviews": 877
+        "pageviews": 32
     },
     {
         "query_id": "106_83",
@@ -663,15 +486,7 @@
         "answers": [
             "philosopher"
         ],
-        "pageviews": 4791
-    },
-    {
-        "query_id": "106_84",
-        "question": "What kind of work does Henri, prince de La Tour d'Auvergne do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 2083
+        "pageviews": 3
     },
     {
         "query_id": "106_85",
@@ -679,7 +494,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 3197
+        "pageviews": 1
     },
     {
         "query_id": "106_86",
@@ -687,7 +502,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 788
+        "pageviews": 1
     },
     {
         "query_id": "106_87",
@@ -695,7 +510,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 890
+        "pageviews": 3
     },
     {
         "query_id": "106_88",
@@ -703,7 +518,7 @@
         "answers": [
             "astronomer"
         ],
-        "pageviews": 1088
+        "pageviews": 1
     },
     {
         "query_id": "106_89",
@@ -711,15 +526,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 531373
-    },
-    {
-        "query_id": "106_90",
-        "question": "What kind of work does Richard Dean do?",
-        "answers": [
-            "photographer"
-        ],
-        "pageviews": 0
+        "pageviews": 51
     },
     {
         "query_id": "106_91",
@@ -727,23 +534,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 903
-    },
-    {
-        "query_id": "106_92",
-        "question": "What kind of work does John Bull do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 610
-    },
-    {
-        "query_id": "106_93",
-        "question": "What kind of work does Arne Bergsv\u00e5g do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 349
+        "pageviews": 4
     },
     {
         "query_id": "106_94",
@@ -751,7 +542,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 5274
+        "pageviews": 3
     },
     {
         "query_id": "106_95",
@@ -759,7 +550,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 1044
+        "pageviews": 4
     },
     {
         "query_id": "106_96",
@@ -767,7 +558,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1319
+        "pageviews": 3
     },
     {
         "query_id": "106_97",
@@ -775,7 +566,7 @@
         "answers": [
             "head teacher"
         ],
-        "pageviews": 1352
+        "pageviews": 1
     },
     {
         "query_id": "106_98",
@@ -783,7 +574,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 1313
+        "pageviews": 2
     },
     {
         "query_id": "106_99",
@@ -791,7 +582,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 306557
+        "pageviews": 115
     },
     {
         "query_id": "106_100",
@@ -799,7 +590,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 29715
+        "pageviews": 7
     },
     {
         "query_id": "106_101",
@@ -807,7 +598,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 22424
+        "pageviews": 11
     },
     {
         "query_id": "106_102",
@@ -815,7 +606,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 3791
+        "pageviews": 13
     },
     {
         "query_id": "106_103",
@@ -823,7 +614,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 18175
+        "pageviews": 35
     },
     {
         "query_id": "106_104",
@@ -831,7 +622,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1280
+        "pageviews": 3
     },
     {
         "query_id": "106_105",
@@ -840,15 +631,7 @@
             "film director",
             "screenwriter"
         ],
-        "pageviews": 431072
-    },
-    {
-        "query_id": "106_106",
-        "question": "What kind of work does Alfred John Tattersall do?",
-        "answers": [
-            "photographer"
-        ],
-        "pageviews": 0
+        "pageviews": 65
     },
     {
         "query_id": "106_107",
@@ -858,7 +641,7 @@
             "television presenter",
             "actor"
         ],
-        "pageviews": 5981
+        "pageviews": 7
     },
     {
         "query_id": "106_108",
@@ -866,15 +649,7 @@
         "answers": [
             "landscape architect"
         ],
-        "pageviews": 2085
-    },
-    {
-        "query_id": "106_109",
-        "question": "What kind of work does William Ord do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 2005
+        "pageviews": 5
     },
     {
         "query_id": "106_110",
@@ -882,7 +657,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2852
+        "pageviews": 6
     },
     {
         "query_id": "106_111",
@@ -890,7 +665,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 12449
+        "pageviews": 5
     },
     {
         "query_id": "106_112",
@@ -898,7 +673,7 @@
         "answers": [
             "economist"
         ],
-        "pageviews": 3225
+        "pageviews": 2
     },
     {
         "query_id": "106_113",
@@ -906,7 +681,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2012
+        "pageviews": 8
     },
     {
         "query_id": "106_114",
@@ -914,7 +689,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 9319
+        "pageviews": 1
     },
     {
         "query_id": "106_115",
@@ -922,7 +697,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 5978
+        "pageviews": 2
     },
     {
         "query_id": "106_116",
@@ -930,7 +705,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 4360
+        "pageviews": 5
     },
     {
         "query_id": "106_117",
@@ -938,7 +713,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1664
+        "pageviews": 2
     },
     {
         "query_id": "106_118",
@@ -946,7 +721,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 838
+        "pageviews": 1
     },
     {
         "query_id": "106_119",
@@ -954,7 +729,7 @@
         "answers": [
             "physician"
         ],
-        "pageviews": 812
+        "pageviews": 2
     },
     {
         "query_id": "106_120",
@@ -962,23 +737,7 @@
         "answers": [
             "economist"
         ],
-        "pageviews": 17108
-    },
-    {
-        "query_id": "106_121",
-        "question": "What kind of work does Lola Forsberg do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 3309
-    },
-    {
-        "query_id": "106_122",
-        "question": "What kind of work does Mirko Lang do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 2335
+        "pageviews": 2
     },
     {
         "query_id": "106_123",
@@ -986,7 +745,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 2874
+        "pageviews": 10
     },
     {
         "query_id": "106_124",
@@ -994,7 +753,7 @@
         "answers": [
             "economist"
         ],
-        "pageviews": 1795
+        "pageviews": 1
     },
     {
         "query_id": "106_125",
@@ -1002,7 +761,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 1500
+        "pageviews": 1
     },
     {
         "query_id": "106_126",
@@ -1012,7 +771,7 @@
             "astronomer",
             "mathematician"
         ],
-        "pageviews": 4349
+        "pageviews": 8
     },
     {
         "query_id": "106_127",
@@ -1020,23 +779,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 27946
-    },
-    {
-        "query_id": "106_128",
-        "question": "What kind of work does Pat Woods do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1609
-    },
-    {
-        "query_id": "106_129",
-        "question": "What kind of work does Mike Ellis do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1045
+        "pageviews": 8
     },
     {
         "query_id": "106_130",
@@ -1044,7 +787,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 1918
+        "pageviews": 1
     },
     {
         "query_id": "106_131",
@@ -1052,15 +795,7 @@
         "answers": [
             "biochemist"
         ],
-        "pageviews": 2335
-    },
-    {
-        "query_id": "106_132",
-        "question": "What kind of work does Abdirahman Ali Hassan do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1812
+        "pageviews": 3
     },
     {
         "query_id": "106_133",
@@ -1068,7 +803,7 @@
         "answers": [
             "illustrator"
         ],
-        "pageviews": 780
+        "pageviews": 1
     },
     {
         "query_id": "106_134",
@@ -1076,7 +811,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 66085
+        "pageviews": 5
     },
     {
         "query_id": "106_135",
@@ -1084,7 +819,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 68261
+        "pageviews": 12
     },
     {
         "query_id": "106_136",
@@ -1092,15 +827,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 41318
-    },
-    {
-        "query_id": "106_137",
-        "question": "What kind of work does Hans J\u00f8rgensen Aarstad do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 611
+        "pageviews": 10
     },
     {
         "query_id": "106_138",
@@ -1108,7 +835,7 @@
         "answers": [
             "graphic designer"
         ],
-        "pageviews": 30989
+        "pageviews": 72
     },
     {
         "query_id": "106_139",
@@ -1116,7 +843,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 3584
+        "pageviews": 6
     },
     {
         "query_id": "106_140",
@@ -1124,15 +851,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 10015
-    },
-    {
-        "query_id": "106_141",
-        "question": "What kind of work does Bartholomew Mastrius do?",
-        "answers": [
-            "philosopher"
-        ],
-        "pageviews": 1344
+        "pageviews": 1
     },
     {
         "query_id": "106_142",
@@ -1140,7 +859,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 3383
+        "pageviews": 10
     },
     {
         "query_id": "106_143",
@@ -1148,7 +867,7 @@
         "answers": [
             "mathematician"
         ],
-        "pageviews": 3168
+        "pageviews": 1
     },
     {
         "query_id": "106_144",
@@ -1156,7 +875,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 4530
+        "pageviews": 7
     },
     {
         "query_id": "106_145",
@@ -1164,15 +883,7 @@
         "answers": [
             "farmer"
         ],
-        "pageviews": 650
-    },
-    {
-        "query_id": "106_146",
-        "question": "What kind of work does Marion Molteno do?",
-        "answers": [
-            "novelist"
-        ],
-        "pageviews": 1213
+        "pageviews": 1
     },
     {
         "query_id": "106_147",
@@ -1180,15 +891,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 83961
-    },
-    {
-        "query_id": "106_148",
-        "question": "What kind of work does Hiroko Takemasa do?",
-        "answers": [
-            "seiy\u016b"
-        ],
-        "pageviews": 531
+        "pageviews": 59
     },
     {
         "query_id": "106_149",
@@ -1196,7 +899,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 31660
+        "pageviews": 12
     },
     {
         "query_id": "106_150",
@@ -1204,15 +907,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 13455
-    },
-    {
-        "query_id": "106_151",
-        "question": "What kind of work does William Horwood do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 515
+        "pageviews": 22
     },
     {
         "query_id": "106_152",
@@ -1220,7 +915,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 12125
+        "pageviews": 45
     },
     {
         "query_id": "106_153",
@@ -1228,7 +923,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2438
+        "pageviews": 18
     },
     {
         "query_id": "106_154",
@@ -1236,15 +931,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 3092
-    },
-    {
-        "query_id": "106_155",
-        "question": "What kind of work does John S. Case do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 487
+        "pageviews": 1
     },
     {
         "query_id": "106_156",
@@ -1253,7 +940,7 @@
             "actor",
             "screenwriter"
         ],
-        "pageviews": 2796
+        "pageviews": 35
     },
     {
         "query_id": "106_157",
@@ -1261,7 +948,7 @@
         "answers": [
             "photographer"
         ],
-        "pageviews": 6832
+        "pageviews": 13
     },
     {
         "query_id": "106_158",
@@ -1269,15 +956,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 6452
-    },
-    {
-        "query_id": "106_159",
-        "question": "What kind of work does Shepard P. Bowen do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 743
+        "pageviews": 9
     },
     {
         "query_id": "106_160",
@@ -1285,15 +964,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 1523
-    },
-    {
-        "query_id": "106_161",
-        "question": "What kind of work does Thomas Scott do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 478
+        "pageviews": 10
     },
     {
         "query_id": "106_162",
@@ -1301,15 +972,7 @@
         "answers": [
             "photographer"
         ],
-        "pageviews": 3675
-    },
-    {
-        "query_id": "106_163",
-        "question": "What kind of work does Ben Chiu do?",
-        "answers": [
-            "programmer"
-        ],
-        "pageviews": 2230
+        "pageviews": 8
     },
     {
         "query_id": "106_164",
@@ -1317,7 +980,7 @@
         "answers": [
             "physician"
         ],
-        "pageviews": 6094
+        "pageviews": 16
     },
     {
         "query_id": "106_165",
@@ -1325,23 +988,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 14352
-    },
-    {
-        "query_id": "106_166",
-        "question": "What kind of work does Thomas Pope do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 417
-    },
-    {
-        "query_id": "106_167",
-        "question": "What kind of work does Lee Hwa-si do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 1548
+        "pageviews": 4
     },
     {
         "query_id": "106_168",
@@ -1349,7 +996,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 663
+        "pageviews": 1
     },
     {
         "query_id": "106_169",
@@ -1359,15 +1006,7 @@
             "news presenter",
             "journalist"
         ],
-        "pageviews": 3335
-    },
-    {
-        "query_id": "106_170",
-        "question": "What kind of work does James Wills do?",
-        "answers": [
-            "poet"
-        ],
-        "pageviews": 986
+        "pageviews": 3
     },
     {
         "query_id": "106_171",
@@ -1375,7 +1014,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 41368
+        "pageviews": 3
     },
     {
         "query_id": "106_172",
@@ -1383,7 +1022,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1430
+        "pageviews": 5
     },
     {
         "query_id": "106_173",
@@ -1391,7 +1030,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 5980
+        "pageviews": 3
     },
     {
         "query_id": "106_174",
@@ -1399,31 +1038,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 1985
-    },
-    {
-        "query_id": "106_175",
-        "question": "What kind of work does Leonard Andrzejewski do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 958
-    },
-    {
-        "query_id": "106_176",
-        "question": "What kind of work does Alyson do?",
-        "answers": [
-            "singer-songwriter"
-        ],
-        "pageviews": 1893
-    },
-    {
-        "query_id": "106_177",
-        "question": "What kind of work does John Baker do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 575
+        "pageviews": 1
     },
     {
         "query_id": "106_178",
@@ -1431,7 +1046,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 24037
+        "pageviews": 31
     },
     {
         "query_id": "106_179",
@@ -1439,7 +1054,7 @@
         "answers": [
             "physicist"
         ],
-        "pageviews": 5261
+        "pageviews": 1
     },
     {
         "query_id": "106_180",
@@ -1447,7 +1062,7 @@
         "answers": [
             "mathematician"
         ],
-        "pageviews": 5454
+        "pageviews": 20
     },
     {
         "query_id": "106_181",
@@ -1455,7 +1070,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1747
+        "pageviews": 2
     },
     {
         "query_id": "106_182",
@@ -1463,23 +1078,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 11051
-    },
-    {
-        "query_id": "106_183",
-        "question": "What kind of work does Roy M. Page do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 684
-    },
-    {
-        "query_id": "106_184",
-        "question": "What kind of work does Loretta Ort\u00edz Ahlf do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 2161
+        "pageviews": 5
     },
     {
         "query_id": "106_185",
@@ -1487,7 +1086,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 3046
+        "pageviews": 5
     },
     {
         "query_id": "106_186",
@@ -1495,7 +1094,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 11598
+        "pageviews": 6
     },
     {
         "query_id": "106_187",
@@ -1503,7 +1102,7 @@
         "answers": [
             "singer-songwriter"
         ],
-        "pageviews": 83561
+        "pageviews": 84
     },
     {
         "query_id": "106_188",
@@ -1511,7 +1110,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 22476
+        "pageviews": 39
     },
     {
         "query_id": "106_189",
@@ -1521,7 +1120,7 @@
             "film director",
             "screenwriter"
         ],
-        "pageviews": 500815
+        "pageviews": 45
     },
     {
         "query_id": "106_191",
@@ -1529,7 +1128,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 645
+        "pageviews": 1
     },
     {
         "query_id": "106_192",
@@ -1537,7 +1136,7 @@
         "answers": [
             "biologist"
         ],
-        "pageviews": 3869
+        "pageviews": 5
     },
     {
         "query_id": "106_193",
@@ -1545,15 +1144,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 6398
-    },
-    {
-        "query_id": "106_194",
-        "question": "What kind of work does Bernhard Thalheim do?",
-        "answers": [
-            "computer scientist"
-        ],
-        "pageviews": 1634
+        "pageviews": 7
     },
     {
         "query_id": "106_195",
@@ -1561,7 +1152,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 6481
+        "pageviews": 2
     },
     {
         "query_id": "106_196",
@@ -1569,7 +1160,7 @@
         "answers": [
             "film director"
         ],
-        "pageviews": 4852
+        "pageviews": 17
     },
     {
         "query_id": "106_197",
@@ -1578,7 +1169,7 @@
             "journalist",
             "politician"
         ],
-        "pageviews": 5277
+        "pageviews": 9
     },
     {
         "query_id": "106_198",
@@ -1587,7 +1178,7 @@
             "audio engineer",
             "composer"
         ],
-        "pageviews": 6475
+        "pageviews": 10
     },
     {
         "query_id": "106_199",
@@ -1595,15 +1186,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1552
-    },
-    {
-        "query_id": "106_200",
-        "question": "What kind of work does John Schaeffer do?",
-        "answers": [
-            "personal trainer"
-        ],
-        "pageviews": 900
+        "pageviews": 2
     },
     {
         "query_id": "106_202",
@@ -1611,7 +1194,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 2572
+        "pageviews": 16
     },
     {
         "query_id": "106_203",
@@ -1619,7 +1202,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 4797
+        "pageviews": 2
     },
     {
         "query_id": "106_204",
@@ -1627,7 +1210,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 9000
+        "pageviews": 9
     },
     {
         "query_id": "106_205",
@@ -1635,7 +1218,7 @@
         "answers": [
             "television presenter"
         ],
-        "pageviews": 22096
+        "pageviews": 8
     },
     {
         "query_id": "106_206",
@@ -1643,7 +1226,7 @@
         "answers": [
             "pianist"
         ],
-        "pageviews": 16496
+        "pageviews": 9
     },
     {
         "query_id": "106_207",
@@ -1651,7 +1234,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 246088
+        "pageviews": 199
     },
     {
         "query_id": "106_208",
@@ -1659,7 +1242,7 @@
         "answers": [
             "librarian"
         ],
-        "pageviews": 2833
+        "pageviews": 10
     },
     {
         "query_id": "106_209",
@@ -1667,7 +1250,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 866
+        "pageviews": 2
     },
     {
         "query_id": "106_210",
@@ -1675,7 +1258,7 @@
         "answers": [
             "film director"
         ],
-        "pageviews": 9745
+        "pageviews": 9
     },
     {
         "query_id": "106_211",
@@ -1683,15 +1266,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2173
-    },
-    {
-        "query_id": "106_212",
-        "question": "What kind of work does Mboya Nicholson do?",
-        "answers": [
-            "pianist"
-        ],
-        "pageviews": 509
+        "pageviews": 1
     },
     {
         "query_id": "106_213",
@@ -1699,7 +1274,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 3754
+        "pageviews": 13
     },
     {
         "query_id": "106_214",
@@ -1707,7 +1282,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 703
+        "pageviews": 1
     },
     {
         "query_id": "106_215",
@@ -1715,15 +1290,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 9538
-    },
-    {
-        "query_id": "106_216",
-        "question": "What kind of work does Ruth Tabrah do?",
-        "answers": [
-            "novelist"
-        ],
-        "pageviews": 1064
+        "pageviews": 2
     },
     {
         "query_id": "106_217",
@@ -1731,15 +1298,7 @@
         "answers": [
             "record producer"
         ],
-        "pageviews": 2909
-    },
-    {
-        "query_id": "106_218",
-        "question": "What kind of work does Alan Garton do?",
-        "answers": [
-            "biochemist"
-        ],
-        "pageviews": 608
+        "pageviews": 7
     },
     {
         "query_id": "106_219",
@@ -1747,7 +1306,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 1778841
+        "pageviews": 12
     },
     {
         "query_id": "106_220",
@@ -1755,23 +1314,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 38502
-    },
-    {
-        "query_id": "106_221",
-        "question": "What kind of work does Joan Elies Adell i Pitarch do?",
-        "answers": [
-            "poet"
-        ],
-        "pageviews": 720
-    },
-    {
-        "query_id": "106_222",
-        "question": "What kind of work does John W. Sexton do?",
-        "answers": [
-            "poet"
-        ],
-        "pageviews": 1738
+        "pageviews": 1
     },
     {
         "query_id": "106_223",
@@ -1779,7 +1322,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 325
+        "pageviews": 2
     },
     {
         "query_id": "106_224",
@@ -1787,7 +1330,7 @@
         "answers": [
             "songwriter"
         ],
-        "pageviews": 2311
+        "pageviews": 2
     },
     {
         "query_id": "106_225",
@@ -1795,7 +1338,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2860
+        "pageviews": 3
     },
     {
         "query_id": "106_226",
@@ -1803,7 +1346,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 1105
+        "pageviews": 4
     },
     {
         "query_id": "106_227",
@@ -1812,7 +1355,7 @@
             "screenwriter",
             "film director"
         ],
-        "pageviews": 3463
+        "pageviews": 9
     },
     {
         "query_id": "106_228",
@@ -1820,23 +1363,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 11266
-    },
-    {
-        "query_id": "106_229",
-        "question": "What kind of work does Jason Ganzel do?",
-        "answers": [
-            "screenwriter"
-        ],
-        "pageviews": 1393
-    },
-    {
-        "query_id": "106_230",
-        "question": "What kind of work does Patrick Parisot do?",
-        "answers": [
-            "diplomat"
-        ],
-        "pageviews": 651
+        "pageviews": 3
     },
     {
         "query_id": "106_231",
@@ -1844,7 +1371,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 1193
+        "pageviews": 5
     },
     {
         "query_id": "106_232",
@@ -1852,7 +1379,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 2301
+        "pageviews": 1
     },
     {
         "query_id": "106_233",
@@ -1860,7 +1387,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 16234
+        "pageviews": 19
     },
     {
         "query_id": "106_234",
@@ -1868,7 +1395,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 3668
+        "pageviews": 3
     },
     {
         "query_id": "106_235",
@@ -1876,7 +1403,7 @@
         "answers": [
             "lawyer"
         ],
-        "pageviews": 336372
+        "pageviews": 179
     },
     {
         "query_id": "106_236",
@@ -1884,15 +1411,7 @@
         "answers": [
             "pianist"
         ],
-        "pageviews": 500
-    },
-    {
-        "query_id": "106_237",
-        "question": "What kind of work does Roy Neighbors do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 887
+        "pageviews": 1
     },
     {
         "query_id": "106_238",
@@ -1900,7 +1419,7 @@
         "answers": [
             "physician"
         ],
-        "pageviews": 1551
+        "pageviews": 2
     },
     {
         "query_id": "106_239",
@@ -1908,7 +1427,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1091
+        "pageviews": 1
     },
     {
         "query_id": "106_240",
@@ -1916,7 +1435,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 3008
+        "pageviews": 2
     },
     {
         "query_id": "106_241",
@@ -1924,7 +1443,7 @@
         "answers": [
             "record producer"
         ],
-        "pageviews": 10685
+        "pageviews": 34
     },
     {
         "query_id": "106_242",
@@ -1932,15 +1451,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1234
-    },
-    {
-        "query_id": "106_243",
-        "question": "What kind of work does Marianne Gary-Schaffhauser do?",
-        "answers": [
-            "composer"
-        ],
-        "pageviews": 601
+        "pageviews": 2
     },
     {
         "query_id": "106_244",
@@ -1948,15 +1459,7 @@
         "answers": [
             "physician"
         ],
-        "pageviews": 5137
-    },
-    {
-        "query_id": "106_245",
-        "question": "What kind of work does Donald L. Howard do?",
-        "answers": [
-            "jockey"
-        ],
-        "pageviews": 1113
+        "pageviews": 7
     },
     {
         "query_id": "106_246",
@@ -1964,7 +1467,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 7935
+        "pageviews": 2
     },
     {
         "query_id": "106_247",
@@ -1972,7 +1475,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 147538
+        "pageviews": 31
     },
     {
         "query_id": "106_248",
@@ -1980,7 +1483,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 23591
+        "pageviews": 1
     },
     {
         "query_id": "106_249",
@@ -1988,7 +1491,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 1017
+        "pageviews": 1
     },
     {
         "query_id": "106_250",
@@ -1996,7 +1499,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 22647
+        "pageviews": 26
     },
     {
         "query_id": "106_251",
@@ -2004,7 +1507,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 2653
+        "pageviews": 3
     },
     {
         "query_id": "106_252",
@@ -2012,7 +1515,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 12272
+        "pageviews": 41
     },
     {
         "query_id": "106_253",
@@ -2020,15 +1523,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 11468
-    },
-    {
-        "query_id": "106_254",
-        "question": "What kind of work does Eric Bailey do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 834
+        "pageviews": 5
     },
     {
         "query_id": "106_255",
@@ -2036,7 +1531,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 112284
+        "pageviews": 19
     },
     {
         "query_id": "106_256",
@@ -2044,7 +1539,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1385
+        "pageviews": 3
     },
     {
         "query_id": "106_257",
@@ -2052,23 +1547,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1424
-    },
-    {
-        "query_id": "106_258",
-        "question": "What kind of work does John Bradshaw do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 837
-    },
-    {
-        "query_id": "106_259",
-        "question": "What kind of work does Joseph Reid do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 977
+        "pageviews": 3
     },
     {
         "query_id": "106_260",
@@ -2076,7 +1555,7 @@
         "answers": [
             "theater director"
         ],
-        "pageviews": 6430
+        "pageviews": 41
     },
     {
         "query_id": "106_261",
@@ -2084,7 +1563,7 @@
         "answers": [
             "anthropologist"
         ],
-        "pageviews": 13705
+        "pageviews": 70
     },
     {
         "query_id": "106_262",
@@ -2092,7 +1571,7 @@
         "answers": [
             "astronomer"
         ],
-        "pageviews": 1495
+        "pageviews": 1
     },
     {
         "query_id": "106_263",
@@ -2100,7 +1579,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 132190
+        "pageviews": 5
     },
     {
         "query_id": "106_264",
@@ -2108,7 +1587,7 @@
         "answers": [
             "glazier"
         ],
-        "pageviews": 3281
+        "pageviews": 4
     },
     {
         "query_id": "106_265",
@@ -2116,16 +1595,7 @@
         "answers": [
             "missionary"
         ],
-        "pageviews": 694
-    },
-    {
-        "query_id": "106_266",
-        "question": "What kind of work does Angelika Kallwass do?",
-        "answers": [
-            "television presenter",
-            "psychologist"
-        ],
-        "pageviews": 1457
+        "pageviews": 1
     },
     {
         "query_id": "106_267",
@@ -2133,7 +1603,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 12925
+        "pageviews": 8
     },
     {
         "query_id": "106_268",
@@ -2141,7 +1611,7 @@
         "answers": [
             "illustrator"
         ],
-        "pageviews": 32212
+        "pageviews": 6
     },
     {
         "query_id": "106_269",
@@ -2149,7 +1619,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1880
+        "pageviews": 1
     },
     {
         "query_id": "106_270",
@@ -2162,7 +1632,7 @@
             "television presenter",
             "screenwriter"
         ],
-        "pageviews": 171837
+        "pageviews": 136
     },
     {
         "query_id": "106_271",
@@ -2170,7 +1640,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 2644
+        "pageviews": 7
     },
     {
         "query_id": "106_272",
@@ -2178,15 +1648,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2228
-    },
-    {
-        "query_id": "106_274",
-        "question": "What kind of work does Torstein Tvedt Solberg do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1372
+        "pageviews": 6
     },
     {
         "query_id": "106_275",
@@ -2194,23 +1656,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2586
-    },
-    {
-        "query_id": "106_276",
-        "question": "What kind of work does Henry Arana do?",
-        "answers": [
-            "composer"
-        ],
-        "pageviews": 1330
-    },
-    {
-        "query_id": "106_277",
-        "question": "What kind of work does V\u00e1clav J. Havel do?",
-        "answers": [
-            "mathematician"
-        ],
-        "pageviews": 1302
+        "pageviews": 2
     },
     {
         "query_id": "106_278",
@@ -2218,15 +1664,7 @@
         "answers": [
             "novelist"
         ],
-        "pageviews": 2211
-    },
-    {
-        "query_id": "106_279",
-        "question": "What kind of work does Michel Carlini do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1134
+        "pageviews": 5
     },
     {
         "query_id": "106_280",
@@ -2234,7 +1672,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 127755
+        "pageviews": 6
     },
     {
         "query_id": "106_281",
@@ -2242,7 +1680,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1421
+        "pageviews": 10
     },
     {
         "query_id": "106_282",
@@ -2251,15 +1689,7 @@
             "lawyer",
             "politician"
         ],
-        "pageviews": 2141
-    },
-    {
-        "query_id": "106_283",
-        "question": "What kind of work does Monica Nordquist do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 2568
+        "pageviews": 1
     },
     {
         "query_id": "106_284",
@@ -2267,15 +1697,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 30574
-    },
-    {
-        "query_id": "106_285",
-        "question": "What kind of work does Khan Habibullah Khan do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 2755
+        "pageviews": 10
     },
     {
         "query_id": "106_286",
@@ -2283,7 +1705,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1696
+        "pageviews": 1
     },
     {
         "query_id": "106_287",
@@ -2291,7 +1713,7 @@
         "answers": [
             "songwriter"
         ],
-        "pageviews": 17193
+        "pageviews": 10
     },
     {
         "query_id": "106_288",
@@ -2299,15 +1721,7 @@
         "answers": [
             "pianist"
         ],
-        "pageviews": 3350
-    },
-    {
-        "query_id": "106_289",
-        "question": "What kind of work does Lila Finn do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 3332
+        "pageviews": 1
     },
     {
         "query_id": "106_290",
@@ -2316,7 +1730,7 @@
             "television presenter",
             "journalist"
         ],
-        "pageviews": 96012
+        "pageviews": 2
     },
     {
         "query_id": "106_291",
@@ -2324,15 +1738,7 @@
         "answers": [
             "monk"
         ],
-        "pageviews": 12557
-    },
-    {
-        "query_id": "106_292",
-        "question": "What kind of work does Richard L. Wilson do?",
-        "answers": [
-            "journalist"
-        ],
-        "pageviews": 4362
+        "pageviews": 8
     },
     {
         "query_id": "106_293",
@@ -2340,7 +1746,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2096
+        "pageviews": 6
     },
     {
         "query_id": "106_294",
@@ -2348,7 +1754,7 @@
         "answers": [
             "economist"
         ],
-        "pageviews": 2096
+        "pageviews": 6
     },
     {
         "query_id": "106_295",
@@ -2356,7 +1762,7 @@
         "answers": [
             "economist"
         ],
-        "pageviews": 5107
+        "pageviews": 6
     },
     {
         "query_id": "106_296",
@@ -2364,7 +1770,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 4401
+        "pageviews": 20
     },
     {
         "query_id": "106_297",
@@ -2372,15 +1778,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 101807
-    },
-    {
-        "query_id": "106_298",
-        "question": "What kind of work does Yun Chi-oh do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 686
+        "pageviews": 64
     },
     {
         "query_id": "106_299",
@@ -2388,7 +1786,7 @@
         "answers": [
             "economist"
         ],
-        "pageviews": 7450
+        "pageviews": 22
     },
     {
         "query_id": "106_300",
@@ -2396,7 +1794,7 @@
         "answers": [
             "film director"
         ],
-        "pageviews": 12442
+        "pageviews": 17
     },
     {
         "query_id": "106_301",
@@ -2404,7 +1802,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1765
+        "pageviews": 2
     },
     {
         "query_id": "106_302",
@@ -2412,7 +1810,7 @@
         "answers": [
             "sailor"
         ],
-        "pageviews": 7709
+        "pageviews": 22
     },
     {
         "query_id": "106_303",
@@ -2421,7 +1819,7 @@
             "astronomer",
             "mathematician"
         ],
-        "pageviews": 934
+        "pageviews": 3
     },
     {
         "query_id": "106_304",
@@ -2429,15 +1827,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1088
-    },
-    {
-        "query_id": "106_305",
-        "question": "What kind of work does Th\u00e9r\u00e8se Meyer do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 915
+        "pageviews": 4
     },
     {
         "query_id": "106_306",
@@ -2445,7 +1835,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 2162
+        "pageviews": 3
     },
     {
         "query_id": "106_307",
@@ -2453,7 +1843,7 @@
         "answers": [
             "mathematician"
         ],
-        "pageviews": 2612
+        "pageviews": 7
     },
     {
         "query_id": "106_308",
@@ -2462,7 +1852,7 @@
             "songwriter",
             "composer"
         ],
-        "pageviews": 30495
+        "pageviews": 24
     },
     {
         "query_id": "106_309",
@@ -2470,15 +1860,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 6058
-    },
-    {
-        "query_id": "106_310",
-        "question": "What kind of work does Juan de Villafranca do?",
-        "answers": [
-            "diplomat"
-        ],
-        "pageviews": 584
+        "pageviews": 7
     },
     {
         "query_id": "106_311",
@@ -2486,7 +1868,7 @@
         "answers": [
             "television presenter"
         ],
-        "pageviews": 1664
+        "pageviews": 1
     },
     {
         "query_id": "106_312",
@@ -2494,7 +1876,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 30144
+        "pageviews": 4
     },
     {
         "query_id": "106_313",
@@ -2502,23 +1884,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 6361
-    },
-    {
-        "query_id": "106_314",
-        "question": "What kind of work does Zach Nelson do?",
-        "answers": [
-            "screenwriter"
-        ],
-        "pageviews": 655
-    },
-    {
-        "query_id": "106_315",
-        "question": "What kind of work does Joseph Nordgren do?",
-        "answers": [
-            "physicist"
-        ],
-        "pageviews": 551
+        "pageviews": 25
     },
     {
         "query_id": "106_316",
@@ -2526,7 +1892,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 4073
+        "pageviews": 1
     },
     {
         "query_id": "106_317",
@@ -2534,7 +1900,7 @@
         "answers": [
             "condottiero"
         ],
-        "pageviews": 1983
+        "pageviews": 8
     },
     {
         "query_id": "106_318",
@@ -2542,7 +1908,7 @@
         "answers": [
             "songwriter"
         ],
-        "pageviews": 24241
+        "pageviews": 15
     },
     {
         "query_id": "106_319",
@@ -2550,7 +1916,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 1258
+        "pageviews": 1
     },
     {
         "query_id": "106_320",
@@ -2558,7 +1924,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 4422
+        "pageviews": 7
     },
     {
         "query_id": "106_322",
@@ -2566,7 +1932,7 @@
         "answers": [
             "rabbi"
         ],
-        "pageviews": 4238
+        "pageviews": 4
     },
     {
         "query_id": "106_323",
@@ -2574,7 +1940,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 5795
+        "pageviews": 3
     },
     {
         "query_id": "106_324",
@@ -2582,7 +1948,7 @@
         "answers": [
             "mangaka"
         ],
-        "pageviews": 5394
+        "pageviews": 2
     },
     {
         "query_id": "106_325",
@@ -2590,7 +1956,7 @@
         "answers": [
             "bandleader"
         ],
-        "pageviews": 10202
+        "pageviews": 31
     },
     {
         "query_id": "106_326",
@@ -2598,7 +1964,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 946
+        "pageviews": 7
     },
     {
         "query_id": "106_327",
@@ -2608,7 +1974,7 @@
             "lyricist",
             "theater director"
         ],
-        "pageviews": 16033
+        "pageviews": 37
     },
     {
         "query_id": "106_328",
@@ -2616,7 +1982,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2274
+        "pageviews": 4
     },
     {
         "query_id": "106_329",
@@ -2624,7 +1990,7 @@
         "answers": [
             "screenwriter"
         ],
-        "pageviews": 3480
+        "pageviews": 4
     },
     {
         "query_id": "106_330",
@@ -2632,7 +1998,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 24156
+        "pageviews": 5
     },
     {
         "query_id": "106_331",
@@ -2642,7 +2008,7 @@
             "philosopher",
             "poet"
         ],
-        "pageviews": 25673
+        "pageviews": 74
     },
     {
         "query_id": "106_332",
@@ -2650,7 +2016,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 9201
+        "pageviews": 10
     },
     {
         "query_id": "106_333",
@@ -2658,7 +2024,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 2998
+        "pageviews": 1
     },
     {
         "query_id": "106_334",
@@ -2666,24 +2032,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 20105
-    },
-    {
-        "query_id": "106_335",
-        "question": "What kind of work does Javier Valle Riestra do?",
-        "answers": [
-            "politician",
-            "jurist"
-        ],
-        "pageviews": 4161
-    },
-    {
-        "query_id": "106_336",
-        "question": "What kind of work does Gheorghe Pogea do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1072
+        "pageviews": 31
     },
     {
         "query_id": "106_337",
@@ -2691,7 +2040,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 1467
+        "pageviews": 1
     },
     {
         "query_id": "106_338",
@@ -2699,7 +2048,7 @@
         "answers": [
             "songwriter"
         ],
-        "pageviews": 24924
+        "pageviews": 25
     },
     {
         "query_id": "106_339",
@@ -2707,7 +2056,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 1690
+        "pageviews": 1
     },
     {
         "query_id": "106_340",
@@ -2715,7 +2064,7 @@
         "answers": [
             "photographer"
         ],
-        "pageviews": 16881
+        "pageviews": 3
     },
     {
         "query_id": "106_341",
@@ -2723,15 +2072,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2039
-    },
-    {
-        "query_id": "106_342",
-        "question": "What kind of work does Li Qiang do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 774
+        "pageviews": 4
     },
     {
         "query_id": "106_343",
@@ -2739,7 +2080,7 @@
         "answers": [
             "film director"
         ],
-        "pageviews": 28813
+        "pageviews": 11
     },
     {
         "query_id": "106_344",
@@ -2747,15 +2088,7 @@
         "answers": [
             "stonemason"
         ],
-        "pageviews": 782
-    },
-    {
-        "query_id": "106_345",
-        "question": "What kind of work does Franz Antoine do?",
-        "answers": [
-            "photographer"
-        ],
-        "pageviews": 736
+        "pageviews": 3
     },
     {
         "query_id": "106_346",
@@ -2763,7 +2096,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 25114
+        "pageviews": 3
     },
     {
         "query_id": "106_347",
@@ -2771,7 +2104,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 1090
+        "pageviews": 3
     },
     {
         "query_id": "106_348",
@@ -2779,7 +2112,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 3577
+        "pageviews": 3
     },
     {
         "query_id": "106_349",
@@ -2788,7 +2121,7 @@
             "composer",
             "pianist"
         ],
-        "pageviews": 832
+        "pageviews": 1
     },
     {
         "query_id": "106_350",
@@ -2796,7 +2129,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 5902
+        "pageviews": 3
     },
     {
         "query_id": "106_351",
@@ -2805,15 +2138,7 @@
             "politician",
             "journalist"
         ],
-        "pageviews": 49478
-    },
-    {
-        "query_id": "106_352",
-        "question": "What kind of work does Cormac ua Cairbre Crom do?",
-        "answers": [
-            "abbot"
-        ],
-        "pageviews": 302
+        "pageviews": 47
     },
     {
         "query_id": "106_353",
@@ -2821,7 +2146,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 1478
+        "pageviews": 1
     },
     {
         "query_id": "106_354",
@@ -2829,7 +2154,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 22487
+        "pageviews": 8
     },
     {
         "query_id": "106_355",
@@ -2837,7 +2162,7 @@
         "answers": [
             "flying ace"
         ],
-        "pageviews": 6176
+        "pageviews": 2
     },
     {
         "query_id": "106_356",
@@ -2845,7 +2170,7 @@
         "answers": [
             "anthropologist"
         ],
-        "pageviews": 104716
+        "pageviews": 175
     },
     {
         "query_id": "106_357",
@@ -2853,7 +2178,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 1211
+        "pageviews": 2
     },
     {
         "query_id": "106_358",
@@ -2861,7 +2186,7 @@
         "answers": [
             "photographer"
         ],
-        "pageviews": 2380
+        "pageviews": 1
     },
     {
         "query_id": "106_359",
@@ -2869,7 +2194,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 9459
+        "pageviews": 28
     },
     {
         "query_id": "106_360",
@@ -2877,7 +2202,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 8138
+        "pageviews": 8
     },
     {
         "query_id": "106_361",
@@ -2886,7 +2211,7 @@
             "playwright",
             "novelist"
         ],
-        "pageviews": 7490
+        "pageviews": 12
     },
     {
         "query_id": "106_362",
@@ -2894,15 +2219,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 890
-    },
-    {
-        "query_id": "106_363",
-        "question": "What kind of work does William Hoyle do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 703
+        "pageviews": 4
     },
     {
         "query_id": "106_364",
@@ -2910,15 +2227,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 13700
-    },
-    {
-        "query_id": "106_365",
-        "question": "What kind of work does Sherif Lengu do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 877
+        "pageviews": 8
     },
     {
         "query_id": "106_366",
@@ -2926,7 +2235,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 7759
+        "pageviews": 2
     },
     {
         "query_id": "106_367",
@@ -2934,7 +2243,7 @@
         "answers": [
             "mangaka"
         ],
-        "pageviews": 2915
+        "pageviews": 5
     },
     {
         "query_id": "106_368",
@@ -2942,7 +2251,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 2290
+        "pageviews": 7
     },
     {
         "query_id": "106_369",
@@ -2950,17 +2259,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 754
-    },
-    {
-        "query_id": "106_370",
-        "question": "What kind of work does Karl-Ludvig Bugge do?",
-        "answers": [
-            "actor",
-            "journalist",
-            "screenwriter"
-        ],
-        "pageviews": 565
+        "pageviews": 1
     },
     {
         "query_id": "106_371",
@@ -2968,15 +2267,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 988
-    },
-    {
-        "query_id": "106_372",
-        "question": "What kind of work does Douglas Ross do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 651
+        "pageviews": 1
     },
     {
         "query_id": "106_373",
@@ -2984,7 +2275,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 40544
+        "pageviews": 16
     },
     {
         "query_id": "106_374",
@@ -2992,7 +2283,7 @@
         "answers": [
             "mathematician"
         ],
-        "pageviews": 1586
+        "pageviews": 3
     },
     {
         "query_id": "106_375",
@@ -3000,15 +2291,7 @@
         "answers": [
             "physician"
         ],
-        "pageviews": 27028
-    },
-    {
-        "query_id": "106_376",
-        "question": "What kind of work does Bernard Ryosuke Inagaki do?",
-        "answers": [
-            "philosopher"
-        ],
-        "pageviews": 2776
+        "pageviews": 8
     },
     {
         "query_id": "106_377",
@@ -3016,7 +2299,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 13161
+        "pageviews": 12
     },
     {
         "query_id": "106_378",
@@ -3024,7 +2307,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 3334
+        "pageviews": 1
     },
     {
         "query_id": "106_379",
@@ -3032,7 +2315,7 @@
         "answers": [
             "singer-songwriter"
         ],
-        "pageviews": 5868
+        "pageviews": 4
     },
     {
         "query_id": "106_380",
@@ -3040,7 +2323,7 @@
         "answers": [
             "detective"
         ],
-        "pageviews": 67613
+        "pageviews": 2
     },
     {
         "query_id": "106_381",
@@ -3048,15 +2331,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 500
-    },
-    {
-        "query_id": "106_382",
-        "question": "What kind of work does John Alford do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 730
+        "pageviews": 2
     },
     {
         "query_id": "106_383",
@@ -3064,7 +2339,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 17151
+        "pageviews": 14
     },
     {
         "query_id": "106_384",
@@ -3072,7 +2347,7 @@
         "answers": [
             "screenwriter"
         ],
-        "pageviews": 6155
+        "pageviews": 1
     },
     {
         "query_id": "106_385",
@@ -3080,7 +2355,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 1756
+        "pageviews": 6
     },
     {
         "query_id": "106_386",
@@ -3088,7 +2363,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 3868
+        "pageviews": 12
     },
     {
         "query_id": "106_387",
@@ -3096,7 +2371,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 5110
+        "pageviews": 16
     },
     {
         "query_id": "106_388",
@@ -3104,15 +2379,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2927
-    },
-    {
-        "query_id": "106_389",
-        "question": "What kind of work does Abbie Gerrish-Jones do?",
-        "answers": [
-            "composer"
-        ],
-        "pageviews": 732
+        "pageviews": 8
     },
     {
         "query_id": "106_390",
@@ -3120,7 +2387,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 28526
+        "pageviews": 2
     },
     {
         "query_id": "106_391",
@@ -3128,16 +2395,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 5164
-    },
-    {
-        "query_id": "106_392",
-        "question": "What kind of work does Luigi Barzini, Jr. do?",
-        "answers": [
-            "politician",
-            "journalist"
-        ],
-        "pageviews": 6616
+        "pageviews": 4
     },
     {
         "query_id": "106_393",
@@ -3145,15 +2403,7 @@
         "answers": [
             "socialite"
         ],
-        "pageviews": 1818
-    },
-    {
-        "query_id": "106_394",
-        "question": "What kind of work does Sajida Begum do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1564
+        "pageviews": 5
     },
     {
         "query_id": "106_395",
@@ -3161,15 +2411,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 43163
-    },
-    {
-        "query_id": "106_396",
-        "question": "What kind of work does Eduardo Cuervo do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 1105
+        "pageviews": 28
     },
     {
         "query_id": "106_397",
@@ -3177,23 +2419,7 @@
         "answers": [
             "seiy\u016b"
         ],
-        "pageviews": 8490
-    },
-    {
-        "query_id": "106_398",
-        "question": "What kind of work does William Hayward Jr. do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 863
-    },
-    {
-        "query_id": "106_399",
-        "question": "What kind of work does Ulf Berg do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1230
+        "pageviews": 6
     },
     {
         "query_id": "106_400",
@@ -3202,15 +2428,7 @@
             "film director",
             "screenwriter"
         ],
-        "pageviews": 368818
-    },
-    {
-        "query_id": "106_401",
-        "question": "What kind of work does John Methuen do?",
-        "answers": [
-            "priest"
-        ],
-        "pageviews": 721
+        "pageviews": 46
     },
     {
         "query_id": "106_402",
@@ -3218,7 +2436,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 1984
+        "pageviews": 4
     },
     {
         "query_id": "106_403",
@@ -3226,15 +2444,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 36119
-    },
-    {
-        "query_id": "106_404",
-        "question": "What kind of work does Nathan Murphy do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 747
+        "pageviews": 6
     },
     {
         "query_id": "106_405",
@@ -3242,15 +2452,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 29069
-    },
-    {
-        "query_id": "106_406",
-        "question": "What kind of work does William Major do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 570
+        "pageviews": 20
     },
     {
         "query_id": "106_407",
@@ -3258,7 +2460,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 1539
+        "pageviews": 3
     },
     {
         "query_id": "106_408",
@@ -3266,7 +2468,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2185
+        "pageviews": 1
     },
     {
         "query_id": "106_409",
@@ -3274,7 +2476,7 @@
         "answers": [
             "illustrator"
         ],
-        "pageviews": 3525
+        "pageviews": 4
     },
     {
         "query_id": "106_410",
@@ -3282,7 +2484,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 4945
+        "pageviews": 33
     },
     {
         "query_id": "106_411",
@@ -3290,7 +2492,7 @@
         "answers": [
             "philosopher"
         ],
-        "pageviews": 10106
+        "pageviews": 11
     },
     {
         "query_id": "106_412",
@@ -3298,7 +2500,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 1201
+        "pageviews": 5
     },
     {
         "query_id": "106_413",
@@ -3306,7 +2508,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 892
+        "pageviews": 1
     },
     {
         "query_id": "106_414",
@@ -3314,7 +2516,7 @@
         "answers": [
             "chemist"
         ],
-        "pageviews": 650
+        "pageviews": 1
     },
     {
         "query_id": "106_415",
@@ -3322,7 +2524,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 6537
+        "pageviews": 13
     },
     {
         "query_id": "106_416",
@@ -3330,7 +2532,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 3311
+        "pageviews": 13
     },
     {
         "query_id": "106_417",
@@ -3338,15 +2540,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1958
-    },
-    {
-        "query_id": "106_418",
-        "question": "What kind of work does Piotr Pr\u0119gowski do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 1392
+        "pageviews": 2
     },
     {
         "query_id": "106_419",
@@ -3354,7 +2548,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 445
+        "pageviews": 1
     },
     {
         "query_id": "106_420",
@@ -3362,7 +2556,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 18244
+        "pageviews": 11
     },
     {
         "query_id": "106_421",
@@ -3370,7 +2564,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 1918
+        "pageviews": 2
     },
     {
         "query_id": "106_422",
@@ -3378,15 +2572,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 3905
-    },
-    {
-        "query_id": "106_423",
-        "question": "What kind of work does Marianne Greenwood do?",
-        "answers": [
-            "photographer"
-        ],
-        "pageviews": 1114
+        "pageviews": 6
     },
     {
         "query_id": "106_424",
@@ -3394,7 +2580,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 1968
+        "pageviews": 5
     },
     {
         "query_id": "106_425",
@@ -3402,7 +2588,7 @@
         "answers": [
             "psychologist"
         ],
-        "pageviews": 2925
+        "pageviews": 4
     },
     {
         "query_id": "106_426",
@@ -3410,7 +2596,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 4065
+        "pageviews": 2
     },
     {
         "query_id": "106_427",
@@ -3418,7 +2604,7 @@
         "answers": [
             "pianist"
         ],
-        "pageviews": 4073
+        "pageviews": 23
     },
     {
         "query_id": "106_428",
@@ -3426,7 +2612,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 4681
+        "pageviews": 12
     },
     {
         "query_id": "106_429",
@@ -3434,7 +2620,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 3364
+        "pageviews": 7
     },
     {
         "query_id": "106_430",
@@ -3442,7 +2628,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 11797
+        "pageviews": 16
     },
     {
         "query_id": "106_431",
@@ -3450,7 +2636,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 36561
+        "pageviews": 9
     },
     {
         "query_id": "106_432",
@@ -3458,7 +2644,7 @@
         "answers": [
             "physicist"
         ],
-        "pageviews": 1448
+        "pageviews": 1
     },
     {
         "query_id": "106_433",
@@ -3466,15 +2652,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 7797
-    },
-    {
-        "query_id": "106_434",
-        "question": "What kind of work does William Donne do?",
-        "answers": [
-            "curate"
-        ],
-        "pageviews": 375
+        "pageviews": 7
     },
     {
         "query_id": "106_435",
@@ -3482,15 +2660,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 96079
-    },
-    {
-        "query_id": "106_436",
-        "question": "What kind of work does Wilhelm Engel Bredal do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1255
+        "pageviews": 13
     },
     {
         "query_id": "106_437",
@@ -3498,7 +2668,7 @@
         "answers": [
             "record producer"
         ],
-        "pageviews": 17152
+        "pageviews": 3
     },
     {
         "query_id": "106_438",
@@ -3506,15 +2676,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 11423
-    },
-    {
-        "query_id": "106_439",
-        "question": "What kind of work does Komarraju Atchamamba do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1428
+        "pageviews": 6
     },
     {
         "query_id": "106_440",
@@ -3522,7 +2684,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 2355
+        "pageviews": 4
     },
     {
         "query_id": "106_441",
@@ -3530,7 +2692,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 25561
+        "pageviews": 1
     },
     {
         "query_id": "106_442",
@@ -3538,7 +2700,7 @@
         "answers": [
             "physicist"
         ],
-        "pageviews": 210402
+        "pageviews": 14
     },
     {
         "query_id": "106_443",
@@ -3546,7 +2708,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2842
+        "pageviews": 6
     },
     {
         "query_id": "106_444",
@@ -3554,15 +2716,7 @@
         "answers": [
             "film director"
         ],
-        "pageviews": 2364
-    },
-    {
-        "query_id": "106_445",
-        "question": "What kind of work does Merve Sevi do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 3225
+        "pageviews": 2
     },
     {
         "query_id": "106_446",
@@ -3570,16 +2724,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 1971
-    },
-    {
-        "query_id": "106_447",
-        "question": "What kind of work does Henry Knollys do?",
-        "answers": [
-            "diplomat",
-            "politician"
-        ],
-        "pageviews": 524
+        "pageviews": 1
     },
     {
         "query_id": "106_448",
@@ -3587,7 +2732,7 @@
         "answers": [
             "lawyer"
         ],
-        "pageviews": 812
+        "pageviews": 2
     },
     {
         "query_id": "106_449",
@@ -3595,7 +2740,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 15827
+        "pageviews": 7
     },
     {
         "query_id": "106_450",
@@ -3603,7 +2748,7 @@
         "answers": [
             "chemist"
         ],
-        "pageviews": 1593
+        "pageviews": 1
     },
     {
         "query_id": "106_451",
@@ -3611,7 +2756,7 @@
         "answers": [
             "flying ace"
         ],
-        "pageviews": 5126
+        "pageviews": 2
     },
     {
         "query_id": "106_452",
@@ -3619,15 +2764,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 48580
-    },
-    {
-        "query_id": "106_453",
-        "question": "What kind of work does John Hannam do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 426
+        "pageviews": 18
     },
     {
         "query_id": "106_454",
@@ -3635,15 +2772,7 @@
         "answers": [
             "physician"
         ],
-        "pageviews": 861
-    },
-    {
-        "query_id": "106_455",
-        "question": "What kind of work does Matthew Luo Duxi do?",
-        "answers": [
-            "priest"
-        ],
-        "pageviews": 704
+        "pageviews": 2
     },
     {
         "query_id": "106_456",
@@ -3651,7 +2780,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 2503290
+        "pageviews": 259
     },
     {
         "query_id": "106_457",
@@ -3659,7 +2788,7 @@
         "answers": [
             "missionary"
         ],
-        "pageviews": 6351
+        "pageviews": 4
     },
     {
         "query_id": "106_458",
@@ -3667,7 +2796,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 877
+        "pageviews": 2
     },
     {
         "query_id": "106_459",
@@ -3675,7 +2804,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 28234
+        "pageviews": 1
     },
     {
         "query_id": "106_460",
@@ -3684,7 +2813,7 @@
             "politician",
             "lawyer"
         ],
-        "pageviews": 1752
+        "pageviews": 13
     },
     {
         "query_id": "106_461",
@@ -3692,7 +2821,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 239719
+        "pageviews": 6
     },
     {
         "query_id": "106_462",
@@ -3700,7 +2829,7 @@
         "answers": [
             "executive producer"
         ],
-        "pageviews": 7092
+        "pageviews": 8
     },
     {
         "query_id": "106_463",
@@ -3708,7 +2837,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 1631025
+        "pageviews": 95
     },
     {
         "query_id": "106_464",
@@ -3716,7 +2845,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 4766
+        "pageviews": 2
     },
     {
         "query_id": "106_465",
@@ -3724,7 +2853,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 8977
+        "pageviews": 7
     },
     {
         "query_id": "106_466",
@@ -3732,16 +2861,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 46951
-    },
-    {
-        "query_id": "106_467",
-        "question": "What kind of work does Greg\u00f3rio Duvivier do?",
-        "answers": [
-            "actor",
-            "poet"
-        ],
-        "pageviews": 8545
+        "pageviews": 52
     },
     {
         "query_id": "106_468",
@@ -3749,7 +2869,7 @@
         "answers": [
             "philosopher"
         ],
-        "pageviews": 7509
+        "pageviews": 6
     },
     {
         "query_id": "106_469",
@@ -3757,15 +2877,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 21811
-    },
-    {
-        "query_id": "106_471",
-        "question": "What kind of work does J\u00f3zsef Somkuthy do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1046
+        "pageviews": 3
     },
     {
         "query_id": "106_472",
@@ -3773,15 +2885,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 2672
-    },
-    {
-        "query_id": "106_473",
-        "question": "What kind of work does Edward F. Harris do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 772
+        "pageviews": 10
     },
     {
         "query_id": "106_474",
@@ -3790,15 +2894,7 @@
             "record producer",
             "disc jockey"
         ],
-        "pageviews": 4086
-    },
-    {
-        "query_id": "106_475",
-        "question": "What kind of work does Mikheil Kurdiani do?",
-        "answers": [
-            "poet"
-        ],
-        "pageviews": 829
+        "pageviews": 10
     },
     {
         "query_id": "106_476",
@@ -3806,7 +2902,7 @@
         "answers": [
             "screenwriter"
         ],
-        "pageviews": 5581
+        "pageviews": 3
     },
     {
         "query_id": "106_477",
@@ -3814,7 +2910,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2547
+        "pageviews": 3
     },
     {
         "query_id": "106_478",
@@ -3822,15 +2918,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 52023
-    },
-    {
-        "query_id": "106_479",
-        "question": "What kind of work does Spyros Taliadouros do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 626
+        "pageviews": 18
     },
     {
         "query_id": "106_480",
@@ -3838,7 +2926,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 14739
+        "pageviews": 1
     },
     {
         "query_id": "106_481",
@@ -3846,15 +2934,7 @@
         "answers": [
             "film director"
         ],
-        "pageviews": 2521
-    },
-    {
-        "query_id": "106_482",
-        "question": "What kind of work does Nicol\u00e1s Vigneaux do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 792
+        "pageviews": 2
     },
     {
         "query_id": "106_483",
@@ -3862,7 +2942,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 9188
+        "pageviews": 2
     },
     {
         "query_id": "106_484",
@@ -3870,7 +2950,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 26940
+        "pageviews": 1
     },
     {
         "query_id": "106_485",
@@ -3878,15 +2958,7 @@
         "answers": [
             "horse trainer"
         ],
-        "pageviews": 2628
-    },
-    {
-        "query_id": "106_486",
-        "question": "What kind of work does Maricarmen Valls do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 362
+        "pageviews": 1
     },
     {
         "query_id": "106_487",
@@ -3894,15 +2966,7 @@
         "answers": [
             "physician"
         ],
-        "pageviews": 1289
-    },
-    {
-        "query_id": "106_488",
-        "question": "What kind of work does Ron Lollar do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1037
+        "pageviews": 1
     },
     {
         "query_id": "106_489",
@@ -3910,7 +2974,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 6039
+        "pageviews": 23
     },
     {
         "query_id": "106_491",
@@ -3918,7 +2982,7 @@
         "answers": [
             "scrivener"
         ],
-        "pageviews": 2633
+        "pageviews": 11
     },
     {
         "query_id": "106_492",
@@ -3926,7 +2990,7 @@
         "answers": [
             "psychiatrist"
         ],
-        "pageviews": 888
+        "pageviews": 1
     },
     {
         "query_id": "106_493",
@@ -3934,7 +2998,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 1590
+        "pageviews": 4
     },
     {
         "query_id": "106_494",
@@ -3942,7 +3006,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 2167
+        "pageviews": 2
     },
     {
         "query_id": "106_495",
@@ -3951,7 +3015,7 @@
             "screenwriter",
             "playwright"
         ],
-        "pageviews": 104397
+        "pageviews": 11
     },
     {
         "query_id": "106_496",
@@ -3959,15 +3023,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 3654
-    },
-    {
-        "query_id": "106_497",
-        "question": "What kind of work does Paavo Susitaival do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 3511
+        "pageviews": 12
     },
     {
         "query_id": "106_498",
@@ -3976,7 +3032,7 @@
             "comedian",
             "actor"
         ],
-        "pageviews": 9892
+        "pageviews": 4
     },
     {
         "query_id": "106_499",
@@ -3984,15 +3040,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 15381
-    },
-    {
-        "query_id": "106_500",
-        "question": "What kind of work does Parsaram Meghwal do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1005
+        "pageviews": 15
     },
     {
         "query_id": "106_501",
@@ -4000,7 +3048,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 2256
+        "pageviews": 10
     },
     {
         "query_id": "106_502",
@@ -4008,7 +3056,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 32486
+        "pageviews": 9
     },
     {
         "query_id": "106_503",
@@ -4016,7 +3064,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 4613
+        "pageviews": 7
     },
     {
         "query_id": "106_504",
@@ -4024,15 +3072,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 1153
-    },
-    {
-        "query_id": "106_505",
-        "question": "What kind of work does Vilnis Edv\u012bns Bresis do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1734
+        "pageviews": 3
     },
     {
         "query_id": "106_506",
@@ -4041,7 +3081,7 @@
             "journalist",
             "novelist"
         ],
-        "pageviews": 3369
+        "pageviews": 7
     },
     {
         "query_id": "106_507",
@@ -4049,7 +3089,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1481
+        "pageviews": 4
     },
     {
         "query_id": "106_508",
@@ -4058,7 +3098,7 @@
             "voice actor",
             "actor"
         ],
-        "pageviews": 10243
+        "pageviews": 7
     },
     {
         "query_id": "106_509",
@@ -4066,7 +3106,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 3010
+        "pageviews": 4
     },
     {
         "query_id": "106_510",
@@ -4074,7 +3114,7 @@
         "answers": [
             "mathematician"
         ],
-        "pageviews": 4181
+        "pageviews": 4
     },
     {
         "query_id": "106_511",
@@ -4082,7 +3122,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 5842
+        "pageviews": 3
     },
     {
         "query_id": "106_512",
@@ -4090,7 +3130,7 @@
         "answers": [
             "physician"
         ],
-        "pageviews": 12298
+        "pageviews": 3
     },
     {
         "query_id": "106_513",
@@ -4098,7 +3138,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 19979
+        "pageviews": 11
     },
     {
         "query_id": "106_514",
@@ -4107,7 +3147,7 @@
             "biologist",
             "geneticist"
         ],
-        "pageviews": 26175
+        "pageviews": 2
     },
     {
         "query_id": "106_515",
@@ -4115,7 +3155,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 1867
+        "pageviews": 10
     },
     {
         "query_id": "106_516",
@@ -4123,7 +3163,7 @@
         "answers": [
             "pianist"
         ],
-        "pageviews": 3198
+        "pageviews": 1
     },
     {
         "query_id": "106_517",
@@ -4131,7 +3171,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 9703
+        "pageviews": 33
     },
     {
         "query_id": "106_518",
@@ -4139,7 +3179,7 @@
         "answers": [
             "photographer"
         ],
-        "pageviews": 4432
+        "pageviews": 2
     },
     {
         "query_id": "106_519",
@@ -4147,7 +3187,7 @@
         "answers": [
             "pianist"
         ],
-        "pageviews": 2899
+        "pageviews": 12
     },
     {
         "query_id": "106_520",
@@ -4155,7 +3195,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1234
+        "pageviews": 1
     },
     {
         "query_id": "106_521",
@@ -4163,16 +3203,7 @@
         "answers": [
             "songwriter"
         ],
-        "pageviews": 3858
-    },
-    {
-        "query_id": "106_522",
-        "question": "What kind of work does Eleazar Huerta Valc\u00e1rcel do?",
-        "answers": [
-            "poet",
-            "politician"
-        ],
-        "pageviews": 527
+        "pageviews": 2
     },
     {
         "query_id": "106_523",
@@ -4180,7 +3211,7 @@
         "answers": [
             "jockey"
         ],
-        "pageviews": 7075
+        "pageviews": 29
     },
     {
         "query_id": "106_524",
@@ -4188,23 +3219,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 6048
-    },
-    {
-        "query_id": "106_525",
-        "question": "What kind of work does Clifford Glossop do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 771
-    },
-    {
-        "query_id": "106_526",
-        "question": "What kind of work does Ar\u00edstides Villanueva do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1455
+        "pageviews": 5
     },
     {
         "query_id": "106_527",
@@ -4212,7 +3227,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1952
+        "pageviews": 7
     },
     {
         "query_id": "106_528",
@@ -4220,7 +3235,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 712
+        "pageviews": 1
     },
     {
         "query_id": "106_529",
@@ -4228,7 +3243,7 @@
         "answers": [
             "economist"
         ],
-        "pageviews": 1920
+        "pageviews": 3
     },
     {
         "query_id": "106_530",
@@ -4236,15 +3251,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 3393
-    },
-    {
-        "query_id": "106_531",
-        "question": "What kind of work does John Cann do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 733
+        "pageviews": 2
     },
     {
         "query_id": "106_532",
@@ -4252,7 +3259,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 14978
+        "pageviews": 4
     },
     {
         "query_id": "106_533",
@@ -4260,7 +3267,7 @@
         "answers": [
             "physician"
         ],
-        "pageviews": 1030
+        "pageviews": 4
     },
     {
         "query_id": "106_534",
@@ -4269,7 +3276,7 @@
             "diplomat",
             "politician"
         ],
-        "pageviews": 3220846
+        "pageviews": 1190
     },
     {
         "query_id": "106_535",
@@ -4277,7 +3284,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1768
+        "pageviews": 3
     },
     {
         "query_id": "106_536",
@@ -4285,15 +3292,7 @@
         "answers": [
             "priest"
         ],
-        "pageviews": 1030
-    },
-    {
-        "query_id": "106_537",
-        "question": "What kind of work does Marcos \u00c1lvarez P\u00e9rez do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 575
+        "pageviews": 14
     },
     {
         "query_id": "106_538",
@@ -4301,7 +3300,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 7209
+        "pageviews": 18
     },
     {
         "query_id": "106_539",
@@ -4309,7 +3308,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 3497
+        "pageviews": 2
     },
     {
         "query_id": "106_540",
@@ -4317,7 +3316,7 @@
         "answers": [
             "economist"
         ],
-        "pageviews": 14085
+        "pageviews": 14
     },
     {
         "query_id": "106_541",
@@ -4325,7 +3324,7 @@
         "answers": [
             "economist"
         ],
-        "pageviews": 1940
+        "pageviews": 1
     },
     {
         "query_id": "106_542",
@@ -4333,23 +3332,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1062
-    },
-    {
-        "query_id": "106_543",
-        "question": "What kind of work does Madhab Chandra Dash do?",
-        "answers": [
-            "biologist"
-        ],
-        "pageviews": 1704
-    },
-    {
-        "query_id": "106_544",
-        "question": "What kind of work does M\u00e1ria F\u00f6ldes do?",
-        "answers": [
-            "playwright"
-        ],
-        "pageviews": 941
+        "pageviews": 1
     },
     {
         "query_id": "106_545",
@@ -4357,15 +3340,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 1420
-    },
-    {
-        "query_id": "106_546",
-        "question": "What kind of work does Rosamund Stanhope do?",
-        "answers": [
-            "poet"
-        ],
-        "pageviews": 962
+        "pageviews": 2
     },
     {
         "query_id": "106_547",
@@ -4373,7 +3348,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 6442
+        "pageviews": 4
     },
     {
         "query_id": "106_548",
@@ -4381,7 +3356,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 130360
+        "pageviews": 14
     },
     {
         "query_id": "106_549",
@@ -4389,15 +3364,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 2513
-    },
-    {
-        "query_id": "106_550",
-        "question": "What kind of work does Lala Mnatsakanyan do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 1182
+        "pageviews": 1
     },
     {
         "query_id": "106_551",
@@ -4406,7 +3373,7 @@
             "model",
             "actor"
         ],
-        "pageviews": 5598
+        "pageviews": 3
     },
     {
         "query_id": "106_552",
@@ -4414,7 +3381,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 595
+        "pageviews": 1
     },
     {
         "query_id": "106_553",
@@ -4423,7 +3390,7 @@
             "screenwriter",
             "film director"
         ],
-        "pageviews": 11421
+        "pageviews": 144
     },
     {
         "query_id": "106_554",
@@ -4431,7 +3398,7 @@
         "answers": [
             "chemist"
         ],
-        "pageviews": 11046
+        "pageviews": 16
     },
     {
         "query_id": "106_555",
@@ -4439,7 +3406,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 4249
+        "pageviews": 2
     },
     {
         "query_id": "106_556",
@@ -4447,7 +3414,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 2622
+        "pageviews": 5
     },
     {
         "query_id": "106_557",
@@ -4455,15 +3422,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 14752
-    },
-    {
-        "query_id": "106_558",
-        "question": "What kind of work does Zuleikha Chaudhuri do?",
-        "answers": [
-            "theater director"
-        ],
-        "pageviews": 6038
+        "pageviews": 9
     },
     {
         "query_id": "106_559",
@@ -4471,7 +3430,7 @@
         "answers": [
             "philosopher"
         ],
-        "pageviews": 4829
+        "pageviews": 7
     },
     {
         "query_id": "106_560",
@@ -4479,15 +3438,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 25438
-    },
-    {
-        "query_id": "106_561",
-        "question": "What kind of work does Ralph W. Ellis do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 669
+        "pageviews": 2
     },
     {
         "query_id": "106_562",
@@ -4495,7 +3446,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 9994
+        "pageviews": 4
     },
     {
         "query_id": "106_563",
@@ -4503,15 +3454,7 @@
         "answers": [
             "songwriter"
         ],
-        "pageviews": 16205
-    },
-    {
-        "query_id": "106_564",
-        "question": "What kind of work does Nicole Bourke do?",
-        "answers": [
-            "novelist"
-        ],
-        "pageviews": 1271
+        "pageviews": 19
     },
     {
         "query_id": "106_565",
@@ -4519,7 +3462,7 @@
         "answers": [
             "mathematician"
         ],
-        "pageviews": 1483
+        "pageviews": 3
     },
     {
         "query_id": "106_566",
@@ -4527,7 +3470,7 @@
         "answers": [
             "librarian"
         ],
-        "pageviews": 899
+        "pageviews": 1
     },
     {
         "query_id": "106_567",
@@ -4536,31 +3479,7 @@
             "actor",
             "physician"
         ],
-        "pageviews": 18185
-    },
-    {
-        "query_id": "106_568",
-        "question": "What kind of work does Ludovic Routhier do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 335
-    },
-    {
-        "query_id": "106_569",
-        "question": "What kind of work does Robert Stone do?",
-        "answers": [
-            "composer"
-        ],
-        "pageviews": 1403
-    },
-    {
-        "query_id": "106_570",
-        "question": "What kind of work does Harald Lie do?",
-        "answers": [
-            "composer"
-        ],
-        "pageviews": 671
+        "pageviews": 1
     },
     {
         "query_id": "106_571",
@@ -4568,7 +3487,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 4319
+        "pageviews": 11
     },
     {
         "query_id": "106_572",
@@ -4576,7 +3495,7 @@
         "answers": [
             "priest"
         ],
-        "pageviews": 626
+        "pageviews": 1
     },
     {
         "query_id": "106_573",
@@ -4584,7 +3503,7 @@
         "answers": [
             "chaplain"
         ],
-        "pageviews": 38039
+        "pageviews": 4
     },
     {
         "query_id": "106_574",
@@ -4592,7 +3511,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 925
+        "pageviews": 4
     },
     {
         "query_id": "106_575",
@@ -4600,7 +3519,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 2440
+        "pageviews": 4
     },
     {
         "query_id": "106_576",
@@ -4608,15 +3527,7 @@
         "answers": [
             "chef"
         ],
-        "pageviews": 2193
-    },
-    {
-        "query_id": "106_577",
-        "question": "What kind of work does Theodor Kery do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 734
+        "pageviews": 1
     },
     {
         "query_id": "106_578",
@@ -4624,7 +3535,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 3104
+        "pageviews": 7
     },
     {
         "query_id": "106_579",
@@ -4632,7 +3543,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 2440
+        "pageviews": 1
     },
     {
         "query_id": "106_580",
@@ -4640,7 +3551,7 @@
         "answers": [
             "film producer"
         ],
-        "pageviews": 3417
+        "pageviews": 11
     },
     {
         "query_id": "106_581",
@@ -4648,15 +3559,7 @@
         "answers": [
             "playwright"
         ],
-        "pageviews": 1355
-    },
-    {
-        "query_id": "106_582",
-        "question": "What kind of work does Thomas Donovan do?",
-        "answers": [
-            "singer-songwriter"
-        ],
-        "pageviews": 1731
+        "pageviews": 2
     },
     {
         "query_id": "106_583",
@@ -4664,7 +3567,7 @@
         "answers": [
             "songwriter"
         ],
-        "pageviews": 5977
+        "pageviews": 4
     },
     {
         "query_id": "106_584",
@@ -4672,15 +3575,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 48286
-    },
-    {
-        "query_id": "106_585",
-        "question": "What kind of work does Ron Konopka do?",
-        "answers": [
-            "geneticist"
-        ],
-        "pageviews": 1919
+        "pageviews": 9
     },
     {
         "query_id": "106_586",
@@ -4689,15 +3584,7 @@
             "pianist",
             "composer"
         ],
-        "pageviews": 14297
-    },
-    {
-        "query_id": "106_587",
-        "question": "What kind of work does James Hartley do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 980
+        "pageviews": 32
     },
     {
         "query_id": "106_588",
@@ -4706,7 +3593,7 @@
             "novelist",
             "poet"
         ],
-        "pageviews": 3600
+        "pageviews": 5
     },
     {
         "query_id": "106_589",
@@ -4715,7 +3602,7 @@
             "film director",
             "screenwriter"
         ],
-        "pageviews": 23265
+        "pageviews": 16
     },
     {
         "query_id": "106_591",
@@ -4723,7 +3610,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2996
+        "pageviews": 4
     },
     {
         "query_id": "106_592",
@@ -4731,23 +3618,7 @@
         "answers": [
             "mathematician"
         ],
-        "pageviews": 1120
-    },
-    {
-        "query_id": "106_593",
-        "question": "What kind of work does Giorgi Maisashvili do?",
-        "answers": [
-            "economist"
-        ],
-        "pageviews": 1209
-    },
-    {
-        "query_id": "106_594",
-        "question": "What kind of work does Alberto Terrile do?",
-        "answers": [
-            "photographer"
-        ],
-        "pageviews": 1862
+        "pageviews": 3
     },
     {
         "query_id": "106_595",
@@ -4755,7 +3626,7 @@
         "answers": [
             "mangaka"
         ],
-        "pageviews": 1389
+        "pageviews": 2
     },
     {
         "query_id": "106_596",
@@ -4763,7 +3634,7 @@
         "answers": [
             "record producer"
         ],
-        "pageviews": 30125
+        "pageviews": 49
     },
     {
         "query_id": "106_597",
@@ -4771,7 +3642,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 40573
+        "pageviews": 35
     },
     {
         "query_id": "106_598",
@@ -4779,7 +3650,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 721
+        "pageviews": 1
     },
     {
         "query_id": "106_599",
@@ -4787,15 +3658,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 1880
-    },
-    {
-        "query_id": "106_600",
-        "question": "What kind of work does Aqua Bassino do?",
-        "answers": [
-            "disc jockey"
-        ],
-        "pageviews": 2241
+        "pageviews": 9
     },
     {
         "query_id": "106_601",
@@ -4803,7 +3666,7 @@
         "answers": [
             "mathematician"
         ],
-        "pageviews": 2107
+        "pageviews": 2
     },
     {
         "query_id": "106_602",
@@ -4811,7 +3674,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 2605
+        "pageviews": 4
     },
     {
         "query_id": "106_603",
@@ -4819,7 +3682,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 181471
+        "pageviews": 36
     },
     {
         "query_id": "106_604",
@@ -4827,7 +3690,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 25642
+        "pageviews": 8
     },
     {
         "query_id": "106_605",
@@ -4836,7 +3699,7 @@
             "news presenter",
             "journalist"
         ],
-        "pageviews": 229514
+        "pageviews": 42
     },
     {
         "query_id": "106_606",
@@ -4844,7 +3707,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1030
+        "pageviews": 2
     },
     {
         "query_id": "106_607",
@@ -4852,23 +3715,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2043
-    },
-    {
-        "query_id": "106_608",
-        "question": "What kind of work does Debbie McCune Davis do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1066
-    },
-    {
-        "query_id": "106_609",
-        "question": "What kind of work does T. Zachary Cotler do?",
-        "answers": [
-            "poet"
-        ],
-        "pageviews": 1584
+        "pageviews": 1
     },
     {
         "query_id": "106_610",
@@ -4876,7 +3723,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 588
+        "pageviews": 2
     },
     {
         "query_id": "106_611",
@@ -4884,7 +3731,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 244353
+        "pageviews": 39
     },
     {
         "query_id": "106_612",
@@ -4892,7 +3739,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 7344
+        "pageviews": 42
     },
     {
         "query_id": "106_613",
@@ -4901,15 +3748,7 @@
             "composer",
             "film director"
         ],
-        "pageviews": 1098
-    },
-    {
-        "query_id": "106_614",
-        "question": "What kind of work does J\u00e1nos Bud do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 932
+        "pageviews": 4
     },
     {
         "query_id": "106_615",
@@ -4918,7 +3757,7 @@
             "actor",
             "poet"
         ],
-        "pageviews": 4585
+        "pageviews": 5
     },
     {
         "query_id": "106_616",
@@ -4926,7 +3765,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 2024
+        "pageviews": 3
     },
     {
         "query_id": "106_617",
@@ -4934,7 +3773,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 6065
+        "pageviews": 1
     },
     {
         "query_id": "106_618",
@@ -4942,7 +3781,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 4206
+        "pageviews": 4
     },
     {
         "query_id": "106_619",
@@ -4950,15 +3789,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 2117
-    },
-    {
-        "query_id": "106_620",
-        "question": "What kind of work does Karl Puth do?",
-        "answers": [
-            "cinematographer"
-        ],
-        "pageviews": 825
+        "pageviews": 9
     },
     {
         "query_id": "106_621",
@@ -4966,7 +3797,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1840
+        "pageviews": 1
     },
     {
         "query_id": "106_622",
@@ -4974,15 +3805,7 @@
         "answers": [
             "farmer"
         ],
-        "pageviews": 526
-    },
-    {
-        "query_id": "106_623",
-        "question": "What kind of work does Onchanh Thammavong do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1030
+        "pageviews": 1
     },
     {
         "query_id": "106_624",
@@ -4990,7 +3813,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 2670
+        "pageviews": 1
     },
     {
         "query_id": "106_625",
@@ -4998,15 +3821,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 18526
-    },
-    {
-        "query_id": "106_626",
-        "question": "What kind of work does Anita Orlund do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 493
+        "pageviews": 6
     },
     {
         "query_id": "106_627",
@@ -5014,15 +3829,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1174
-    },
-    {
-        "query_id": "106_628",
-        "question": "What kind of work does Homero D\u00edaz Rodr\u00edguez do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 560
+        "pageviews": 1
     },
     {
         "query_id": "106_629",
@@ -5030,7 +3837,7 @@
         "answers": [
             "mathematician"
         ],
-        "pageviews": 3286
+        "pageviews": 5
     },
     {
         "query_id": "106_630",
@@ -5038,7 +3845,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 12950
+        "pageviews": 5
     },
     {
         "query_id": "106_631",
@@ -5046,7 +3853,7 @@
         "answers": [
             "mangaka"
         ],
-        "pageviews": 2946
+        "pageviews": 4
     },
     {
         "query_id": "106_632",
@@ -5054,15 +3861,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 1619
-    },
-    {
-        "query_id": "106_633",
-        "question": "What kind of work does Philipp Agricola do?",
-        "answers": [
-            "poet"
-        ],
-        "pageviews": 910
+        "pageviews": 1
     },
     {
         "query_id": "106_634",
@@ -5070,7 +3869,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 7118
+        "pageviews": 3
     },
     {
         "query_id": "106_635",
@@ -5078,7 +3877,7 @@
         "answers": [
             "mathematician"
         ],
-        "pageviews": 2194
+        "pageviews": 8
     },
     {
         "query_id": "106_637",
@@ -5086,7 +3885,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 4682
+        "pageviews": 3
     },
     {
         "query_id": "106_638",
@@ -5094,7 +3893,7 @@
         "answers": [
             "physician"
         ],
-        "pageviews": 2946
+        "pageviews": 7
     },
     {
         "query_id": "106_639",
@@ -5102,15 +3901,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 23398
-    },
-    {
-        "query_id": "106_640",
-        "question": "What kind of work does Kim Ji-min do?",
-        "answers": [
-            "comedian"
-        ],
-        "pageviews": 78242
+        "pageviews": 64
     },
     {
         "query_id": "106_641",
@@ -5118,7 +3909,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1081
+        "pageviews": 1
     },
     {
         "query_id": "106_642",
@@ -5127,15 +3918,7 @@
             "record producer",
             "songwriter"
         ],
-        "pageviews": 1879
-    },
-    {
-        "query_id": "106_643",
-        "question": "What kind of work does Georges Pianta do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 578
+        "pageviews": 1
     },
     {
         "query_id": "106_644",
@@ -5143,7 +3926,7 @@
         "answers": [
             "songwriter"
         ],
-        "pageviews": 15278
+        "pageviews": 42
     },
     {
         "query_id": "106_645",
@@ -5151,7 +3934,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 2343
+        "pageviews": 1
     },
     {
         "query_id": "106_646",
@@ -5159,16 +3942,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 808
-    },
-    {
-        "query_id": "106_647",
-        "question": "What kind of work does Bernie Weintraub do?",
-        "answers": [
-            "talent agent",
-            "literary agent"
-        ],
-        "pageviews": 1049
+        "pageviews": 1
     },
     {
         "query_id": "106_648",
@@ -5176,7 +3950,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 2384
+        "pageviews": 1
     },
     {
         "query_id": "106_649",
@@ -5184,15 +3958,7 @@
         "answers": [
             "seiy\u016b"
         ],
-        "pageviews": 7808
-    },
-    {
-        "query_id": "106_650",
-        "question": "What kind of work does Ferdinand B\u00fcchner do?",
-        "answers": [
-            "composer"
-        ],
-        "pageviews": 1210
+        "pageviews": 4
     },
     {
         "query_id": "106_651",
@@ -5200,31 +3966,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 3997
-    },
-    {
-        "query_id": "106_652",
-        "question": "What kind of work does Benigno Quezada Naranjo do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 375
-    },
-    {
-        "query_id": "106_653",
-        "question": "What kind of work does Rita Haugerud do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 419
-    },
-    {
-        "query_id": "106_655",
-        "question": "What kind of work does Ian Watkins do?",
-        "answers": [
-            "lyricist"
-        ],
-        "pageviews": 1188340
+        "pageviews": 30
     },
     {
         "query_id": "106_656",
@@ -5232,7 +3974,7 @@
         "answers": [
             "restaurateur"
         ],
-        "pageviews": 3564
+        "pageviews": 2
     },
     {
         "query_id": "106_657",
@@ -5240,15 +3982,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2978
-    },
-    {
-        "query_id": "106_658",
-        "question": "What kind of work does Charles Grenfell do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 928
+        "pageviews": 1
     },
     {
         "query_id": "106_659",
@@ -5256,7 +3990,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 5604
+        "pageviews": 1
     },
     {
         "query_id": "106_660",
@@ -5264,7 +3998,7 @@
         "answers": [
             "jurist"
         ],
-        "pageviews": 10140
+        "pageviews": 17
     },
     {
         "query_id": "106_661",
@@ -5272,7 +4006,7 @@
         "answers": [
             "lawyer"
         ],
-        "pageviews": 4702
+        "pageviews": 2
     },
     {
         "query_id": "106_662",
@@ -5280,7 +4014,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 15596
+        "pageviews": 22
     },
     {
         "query_id": "106_664",
@@ -5289,7 +4023,7 @@
             "film director",
             "screenwriter"
         ],
-        "pageviews": 2252
+        "pageviews": 3
     },
     {
         "query_id": "106_665",
@@ -5297,7 +4031,7 @@
         "answers": [
             "biologist"
         ],
-        "pageviews": 12475
+        "pageviews": 19
     },
     {
         "query_id": "106_666",
@@ -5305,7 +4039,7 @@
         "answers": [
             "radio personality"
         ],
-        "pageviews": 4378
+        "pageviews": 11
     },
     {
         "query_id": "106_667",
@@ -5313,7 +4047,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 812
+        "pageviews": 2
     },
     {
         "query_id": "106_668",
@@ -5321,23 +4055,7 @@
         "answers": [
             "monk"
         ],
-        "pageviews": 19567
-    },
-    {
-        "query_id": "106_669",
-        "question": "What kind of work does Zekai \u00d6zger do?",
-        "answers": [
-            "poet"
-        ],
-        "pageviews": 1928
-    },
-    {
-        "query_id": "106_671",
-        "question": "What kind of work does Agneta Ringman do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 580
+        "pageviews": 17
     },
     {
         "query_id": "106_672",
@@ -5346,23 +4064,7 @@
             "film director",
             "screenwriter"
         ],
-        "pageviews": 3906
-    },
-    {
-        "query_id": "106_673",
-        "question": "What kind of work does K. Woods do?",
-        "answers": [
-            "cricket umpire"
-        ],
-        "pageviews": 549
-    },
-    {
-        "query_id": "106_674",
-        "question": "What kind of work does Rihaan Patel do?",
-        "answers": [
-            "film director"
-        ],
-        "pageviews": 1306
+        "pageviews": 9
     },
     {
         "query_id": "106_676",
@@ -5370,7 +4072,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 3719
+        "pageviews": 8
     },
     {
         "query_id": "106_677",
@@ -5379,7 +4081,7 @@
             "actor",
             "record producer"
         ],
-        "pageviews": 60516
+        "pageviews": 4
     },
     {
         "query_id": "106_678",
@@ -5388,7 +4090,7 @@
             "philosopher",
             "orator"
         ],
-        "pageviews": 24574
+        "pageviews": 54
     },
     {
         "query_id": "106_679",
@@ -5396,7 +4098,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1899
+        "pageviews": 7
     },
     {
         "query_id": "106_680",
@@ -5404,7 +4106,7 @@
         "answers": [
             "stockbroker"
         ],
-        "pageviews": 2378
+        "pageviews": 9
     },
     {
         "query_id": "106_681",
@@ -5412,7 +4114,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2061
+        "pageviews": 5
     },
     {
         "query_id": "106_682",
@@ -5421,7 +4123,7 @@
             "poet",
             "playwright"
         ],
-        "pageviews": 596
+        "pageviews": 1
     },
     {
         "query_id": "106_683",
@@ -5429,7 +4131,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 1230
+        "pageviews": 2
     },
     {
         "query_id": "106_684",
@@ -5437,7 +4139,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1280
+        "pageviews": 10
     },
     {
         "query_id": "106_685",
@@ -5445,7 +4147,7 @@
         "answers": [
             "disc jockey"
         ],
-        "pageviews": 175567
+        "pageviews": 49
     },
     {
         "query_id": "106_686",
@@ -5453,7 +4155,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 7703
+        "pageviews": 29
     },
     {
         "query_id": "106_687",
@@ -5461,39 +4163,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 368
-    },
-    {
-        "query_id": "106_688",
-        "question": "What kind of work does Maria Antoniou do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 598
-    },
-    {
-        "query_id": "106_689",
-        "question": "What kind of work does David Haley do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 3475
-    },
-    {
-        "query_id": "106_690",
-        "question": "What kind of work does Ignacio Astarloa do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 873
-    },
-    {
-        "query_id": "106_691",
-        "question": "What kind of work does Victor Wong do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 134048
+        "pageviews": 1
     },
     {
         "query_id": "106_692",
@@ -5501,7 +4171,7 @@
         "answers": [
             "psychiatrist"
         ],
-        "pageviews": 1758
+        "pageviews": 1
     },
     {
         "query_id": "106_693",
@@ -5509,7 +4179,7 @@
         "answers": [
             "chef"
         ],
-        "pageviews": 315759
+        "pageviews": 6
     },
     {
         "query_id": "106_694",
@@ -5517,15 +4187,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 10334
-    },
-    {
-        "query_id": "106_695",
-        "question": "What kind of work does Scott L. Fitzgerald do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 0
+        "pageviews": 4
     },
     {
         "query_id": "106_696",
@@ -5533,7 +4195,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 86673
+        "pageviews": 44
     },
     {
         "query_id": "106_697",
@@ -5541,7 +4203,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 7960
+        "pageviews": 1
     },
     {
         "query_id": "106_698",
@@ -5549,7 +4211,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 8459
+        "pageviews": 2
     },
     {
         "query_id": "106_699",
@@ -5557,7 +4219,7 @@
         "answers": [
             "novelist"
         ],
-        "pageviews": 1334
+        "pageviews": 2
     },
     {
         "query_id": "106_700",
@@ -5565,7 +4227,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 3589
+        "pageviews": 20
     },
     {
         "query_id": "106_701",
@@ -5573,7 +4235,7 @@
         "answers": [
             "seiy\u016b"
         ],
-        "pageviews": 339593
+        "pageviews": 53
     },
     {
         "query_id": "106_702",
@@ -5581,7 +4243,7 @@
         "answers": [
             "troubadour"
         ],
-        "pageviews": 762
+        "pageviews": 2
     },
     {
         "query_id": "106_703",
@@ -5589,7 +4251,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 9671
+        "pageviews": 9
     },
     {
         "query_id": "106_704",
@@ -5597,7 +4259,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 16095
+        "pageviews": 9
     },
     {
         "query_id": "106_705",
@@ -5605,7 +4267,7 @@
         "answers": [
             "spree killer"
         ],
-        "pageviews": 23117
+        "pageviews": 1
     },
     {
         "query_id": "106_706",
@@ -5613,7 +4275,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 94907
+        "pageviews": 180
     },
     {
         "query_id": "106_707",
@@ -5621,7 +4283,7 @@
         "answers": [
             "philosopher"
         ],
-        "pageviews": 3637
+        "pageviews": 5
     },
     {
         "query_id": "106_708",
@@ -5629,7 +4291,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1520
+        "pageviews": 6
     },
     {
         "query_id": "106_709",
@@ -5638,7 +4300,7 @@
             "comedian",
             "actor"
         ],
-        "pageviews": 51116
+        "pageviews": 13
     },
     {
         "query_id": "106_710",
@@ -5646,7 +4308,7 @@
         "answers": [
             "mathematician"
         ],
-        "pageviews": 1488
+        "pageviews": 2
     },
     {
         "query_id": "106_711",
@@ -5655,7 +4317,7 @@
             "stunt performer",
             "actor"
         ],
-        "pageviews": 2619
+        "pageviews": 3
     },
     {
         "query_id": "106_712",
@@ -5663,7 +4325,7 @@
         "answers": [
             "pianist"
         ],
-        "pageviews": 7824
+        "pageviews": 17
     },
     {
         "query_id": "106_713",
@@ -5671,7 +4333,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 108047
+        "pageviews": 79
     },
     {
         "query_id": "106_714",
@@ -5679,7 +4341,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 661
+        "pageviews": 1
     },
     {
         "query_id": "106_715",
@@ -5687,16 +4349,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 9580
-    },
-    {
-        "query_id": "106_716",
-        "question": "What kind of work does Aurelio Juri do?",
-        "answers": [
-            "politician",
-            "journalist"
-        ],
-        "pageviews": 1078
+        "pageviews": 8
     },
     {
         "query_id": "106_717",
@@ -5704,7 +4357,7 @@
         "answers": [
             "playwright"
         ],
-        "pageviews": 1622
+        "pageviews": 6
     },
     {
         "query_id": "106_718",
@@ -5712,7 +4365,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 141624
+        "pageviews": 6
     },
     {
         "query_id": "106_719",
@@ -5720,7 +4373,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 14340
+        "pageviews": 20
     },
     {
         "query_id": "106_720",
@@ -5728,7 +4381,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 1802
+        "pageviews": 10
     },
     {
         "query_id": "106_721",
@@ -5736,15 +4389,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 993
-    },
-    {
-        "query_id": "106_722",
-        "question": "What kind of work does Breno Coelho do?",
-        "answers": [
-            "photographer"
-        ],
-        "pageviews": 904
+        "pageviews": 2
     },
     {
         "query_id": "106_723",
@@ -5752,7 +4397,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 7952
+        "pageviews": 19
     },
     {
         "query_id": "106_724",
@@ -5760,15 +4405,7 @@
         "answers": [
             "physicist"
         ],
-        "pageviews": 3392
-    },
-    {
-        "query_id": "106_725",
-        "question": "What kind of work does Ani Phyo do?",
-        "answers": [
-            "chef"
-        ],
-        "pageviews": 1782
+        "pageviews": 2
     },
     {
         "query_id": "106_726",
@@ -5776,7 +4413,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 5976
+        "pageviews": 12
     },
     {
         "query_id": "106_727",
@@ -5784,7 +4421,7 @@
         "answers": [
             "jockey"
         ],
-        "pageviews": 941
+        "pageviews": 2
     },
     {
         "query_id": "106_728",
@@ -5792,7 +4429,7 @@
         "answers": [
             "photographer"
         ],
-        "pageviews": 1440
+        "pageviews": 1
     },
     {
         "query_id": "106_729",
@@ -5800,7 +4437,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 2370
+        "pageviews": 2
     },
     {
         "query_id": "106_730",
@@ -5808,7 +4445,7 @@
         "answers": [
             "television producer"
         ],
-        "pageviews": 152960
+        "pageviews": 20
     },
     {
         "query_id": "106_731",
@@ -5816,7 +4453,7 @@
         "answers": [
             "screenwriter"
         ],
-        "pageviews": 1948
+        "pageviews": 4
     },
     {
         "query_id": "106_732",
@@ -5824,7 +4461,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 6984
+        "pageviews": 2
     },
     {
         "query_id": "106_733",
@@ -5832,7 +4469,7 @@
         "answers": [
             "film director"
         ],
-        "pageviews": 4120
+        "pageviews": 15
     },
     {
         "query_id": "106_734",
@@ -5840,7 +4477,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2737
+        "pageviews": 2
     },
     {
         "query_id": "106_735",
@@ -5848,7 +4485,7 @@
         "answers": [
             "illustrator"
         ],
-        "pageviews": 28886
+        "pageviews": 18
     },
     {
         "query_id": "106_736",
@@ -5856,7 +4493,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 6266
+        "pageviews": 7
     },
     {
         "query_id": "106_737",
@@ -5864,7 +4501,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2029
+        "pageviews": 4
     },
     {
         "query_id": "106_738",
@@ -5872,7 +4509,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 10050
+        "pageviews": 43
     },
     {
         "query_id": "106_739",
@@ -5880,7 +4517,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 1238
+        "pageviews": 3
     },
     {
         "query_id": "106_740",
@@ -5888,7 +4525,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 825
+        "pageviews": 2
     },
     {
         "query_id": "106_741",
@@ -5896,15 +4533,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 2380
-    },
-    {
-        "query_id": "106_742",
-        "question": "What kind of work does Raymond Abbott do?",
-        "answers": [
-            "novelist"
-        ],
-        "pageviews": 1449
+        "pageviews": 6
     },
     {
         "query_id": "106_743",
@@ -5912,7 +4541,7 @@
         "answers": [
             "barrister"
         ],
-        "pageviews": 3921
+        "pageviews": 1
     },
     {
         "query_id": "106_744",
@@ -5920,7 +4549,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2975
+        "pageviews": 3
     },
     {
         "query_id": "106_745",
@@ -5928,7 +4557,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 16505
+        "pageviews": 41
     },
     {
         "query_id": "106_746",
@@ -5936,7 +4565,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 26121
+        "pageviews": 8
     },
     {
         "query_id": "106_747",
@@ -5944,7 +4573,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 925
+        "pageviews": 4
     },
     {
         "query_id": "106_748",
@@ -5952,7 +4581,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 1406
+        "pageviews": 1
     },
     {
         "query_id": "106_749",
@@ -5960,15 +4589,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 689
-    },
-    {
-        "query_id": "106_750",
-        "question": "What kind of work does Jack Broughton do?",
-        "answers": [
-            "navigator"
-        ],
-        "pageviews": 628
+        "pageviews": 2
     },
     {
         "query_id": "106_751",
@@ -5976,7 +4597,7 @@
         "answers": [
             "physicist"
         ],
-        "pageviews": 904
+        "pageviews": 3
     },
     {
         "query_id": "106_752",
@@ -5984,7 +4605,7 @@
         "answers": [
             "psychologist"
         ],
-        "pageviews": 10218
+        "pageviews": 5
     },
     {
         "query_id": "106_753",
@@ -5992,7 +4613,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 71885
+        "pageviews": 1
     },
     {
         "query_id": "106_754",
@@ -6000,15 +4621,7 @@
         "answers": [
             "model"
         ],
-        "pageviews": 65717
-    },
-    {
-        "query_id": "106_755",
-        "question": "What kind of work does Jozef Dunajovec do?",
-        "answers": [
-            "journalist"
-        ],
-        "pageviews": 557
+        "pageviews": 1
     },
     {
         "query_id": "106_756",
@@ -6016,15 +4629,7 @@
         "answers": [
             "film director"
         ],
-        "pageviews": 1372
-    },
-    {
-        "query_id": "106_757",
-        "question": "What kind of work does Steve Davies do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1021
+        "pageviews": 3
     },
     {
         "query_id": "106_758",
@@ -6032,7 +4637,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 6482
+        "pageviews": 2
     },
     {
         "query_id": "106_759",
@@ -6040,7 +4645,7 @@
         "answers": [
             "rabbi"
         ],
-        "pageviews": 2133
+        "pageviews": 5
     },
     {
         "query_id": "106_760",
@@ -6048,7 +4653,7 @@
         "answers": [
             "mathematician"
         ],
-        "pageviews": 912
+        "pageviews": 1
     },
     {
         "query_id": "106_761",
@@ -6056,15 +4661,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 2356
-    },
-    {
-        "query_id": "106_762",
-        "question": "What kind of work does M. H. Benders do?",
-        "answers": [
-            "poet"
-        ],
-        "pageviews": 956
+        "pageviews": 1
     },
     {
         "query_id": "106_763",
@@ -6072,7 +4669,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 796
+        "pageviews": 2
     },
     {
         "query_id": "106_764",
@@ -6080,7 +4677,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 1098
+        "pageviews": 1
     },
     {
         "query_id": "106_765",
@@ -6088,7 +4685,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1061
+        "pageviews": 4
     },
     {
         "query_id": "106_766",
@@ -6096,7 +4693,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 333333
+        "pageviews": 23
     },
     {
         "query_id": "106_767",
@@ -6104,7 +4701,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 38248
+        "pageviews": 14
     },
     {
         "query_id": "106_768",
@@ -6112,7 +4709,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 138422
+        "pageviews": 32
     },
     {
         "query_id": "106_769",
@@ -6120,7 +4717,7 @@
         "answers": [
             "illustrator"
         ],
-        "pageviews": 7376
+        "pageviews": 83
     },
     {
         "query_id": "106_770",
@@ -6128,7 +4725,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 162710
+        "pageviews": 8
     },
     {
         "query_id": "106_771",
@@ -6136,7 +4733,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 9793
+        "pageviews": 57
     },
     {
         "query_id": "106_772",
@@ -6144,23 +4741,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 5713
-    },
-    {
-        "query_id": "106_773",
-        "question": "What kind of work does Bartholom\u00e4us Scultetus do?",
-        "answers": [
-            "astronomer"
-        ],
-        "pageviews": 787
-    },
-    {
-        "query_id": "106_774",
-        "question": "What kind of work does Constance Isabel Smith do?",
-        "answers": [
-            "novelist"
-        ],
-        "pageviews": 508
+        "pageviews": 10
     },
     {
         "query_id": "106_777",
@@ -6168,23 +4749,7 @@
         "answers": [
             "philosopher"
         ],
-        "pageviews": 10410
-    },
-    {
-        "query_id": "106_778",
-        "question": "What kind of work does David Treasure do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 844
-    },
-    {
-        "query_id": "106_779",
-        "question": "What kind of work does Tom Throop do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 758
+        "pageviews": 9
     },
     {
         "query_id": "106_780",
@@ -6192,7 +4757,7 @@
         "answers": [
             "model"
         ],
-        "pageviews": 735397
+        "pageviews": 3
     },
     {
         "query_id": "106_781",
@@ -6200,15 +4765,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 8999
-    },
-    {
-        "query_id": "106_782",
-        "question": "What kind of work does Andrzej Szlachta do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 738
+        "pageviews": 12
     },
     {
         "query_id": "106_783",
@@ -6216,7 +4773,7 @@
         "answers": [
             "film director"
         ],
-        "pageviews": 943
+        "pageviews": 2
     },
     {
         "query_id": "106_784",
@@ -6224,7 +4781,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 5079
+        "pageviews": 9
     },
     {
         "query_id": "106_785",
@@ -6233,7 +4790,7 @@
             "screenwriter",
             "film director"
         ],
-        "pageviews": 4234
+        "pageviews": 6
     },
     {
         "query_id": "106_786",
@@ -6241,15 +4798,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 3354
-    },
-    {
-        "query_id": "106_787",
-        "question": "What kind of work does Britt McHenry do?",
-        "answers": [
-            "journalist"
-        ],
-        "pageviews": 154687
+        "pageviews": 16
     },
     {
         "query_id": "106_788",
@@ -6257,7 +4806,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 2658
+        "pageviews": 2
     },
     {
         "query_id": "106_789",
@@ -6265,7 +4814,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 2657
+        "pageviews": 4
     },
     {
         "query_id": "106_790",
@@ -6273,7 +4822,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 34672
+        "pageviews": 12
     },
     {
         "query_id": "106_791",
@@ -6281,15 +4830,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 841
-    },
-    {
-        "query_id": "106_792",
-        "question": "What kind of work does Yash Gera do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 6407
+        "pageviews": 1
     },
     {
         "query_id": "106_793",
@@ -6298,7 +4839,7 @@
             "mathematician",
             "philosopher"
         ],
-        "pageviews": 7280
+        "pageviews": 13
     },
     {
         "query_id": "106_794",
@@ -6306,15 +4847,7 @@
         "answers": [
             "Esperantist"
         ],
-        "pageviews": 562
-    },
-    {
-        "query_id": "106_795",
-        "question": "What kind of work does Andrzej Aumiller do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 797
+        "pageviews": 1
     },
     {
         "query_id": "106_796",
@@ -6322,7 +4855,7 @@
         "answers": [
             "astronomer"
         ],
-        "pageviews": 1879
+        "pageviews": 2
     },
     {
         "query_id": "106_797",
@@ -6331,7 +4864,7 @@
             "screenwriter",
             "playwright"
         ],
-        "pageviews": 55606
+        "pageviews": 14
     },
     {
         "query_id": "106_798",
@@ -6339,7 +4872,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 22012
+        "pageviews": 29
     },
     {
         "query_id": "106_799",
@@ -6347,15 +4880,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 2184
-    },
-    {
-        "query_id": "106_800",
-        "question": "What kind of work does Shabbir Banoobhai do?",
-        "answers": [
-            "poet"
-        ],
-        "pageviews": 2860
+        "pageviews": 3
     },
     {
         "query_id": "106_801",
@@ -6364,7 +4889,7 @@
             "politician",
             "lawyer"
         ],
-        "pageviews": 260559
+        "pageviews": 451
     },
     {
         "query_id": "106_802",
@@ -6372,7 +4897,7 @@
         "answers": [
             "Esperantist"
         ],
-        "pageviews": 2876
+        "pageviews": 3
     },
     {
         "query_id": "106_803",
@@ -6380,15 +4905,7 @@
         "answers": [
             "news presenter"
         ],
-        "pageviews": 7058
-    },
-    {
-        "query_id": "106_805",
-        "question": "What kind of work does Charles Pressley Smith do?",
-        "answers": [
-            "curate"
-        ],
-        "pageviews": 723
+        "pageviews": 11
     },
     {
         "query_id": "106_806",
@@ -6396,7 +4913,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 9359
+        "pageviews": 15
     },
     {
         "query_id": "106_807",
@@ -6404,7 +4921,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 55170
+        "pageviews": 8
     },
     {
         "query_id": "106_808",
@@ -6412,7 +4929,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 1799
+        "pageviews": 3
     },
     {
         "query_id": "106_809",
@@ -6420,7 +4937,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 5506
+        "pageviews": 8
     },
     {
         "query_id": "106_810",
@@ -6428,7 +4945,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1029
+        "pageviews": 1
     },
     {
         "query_id": "106_811",
@@ -6436,23 +4953,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 3923
-    },
-    {
-        "query_id": "106_812",
-        "question": "What kind of work does N. V. Venugopalakrishnasami do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 342
-    },
-    {
-        "query_id": "106_813",
-        "question": "What kind of work does Thomas J. C. Martyn do?",
-        "answers": [
-            "journalist"
-        ],
-        "pageviews": 2219
+        "pageviews": 4
     },
     {
         "query_id": "106_814",
@@ -6461,7 +4962,7 @@
             "songwriter",
             "pianist"
         ],
-        "pageviews": 7674
+        "pageviews": 4
     },
     {
         "query_id": "106_815",
@@ -6469,7 +4970,7 @@
         "answers": [
             "philosopher"
         ],
-        "pageviews": 3062
+        "pageviews": 1
     },
     {
         "query_id": "106_816",
@@ -6477,15 +4978,7 @@
         "answers": [
             "physicist"
         ],
-        "pageviews": 1671
-    },
-    {
-        "query_id": "106_817",
-        "question": "What kind of work does Jim White do?",
-        "answers": [
-            "singer-songwriter"
-        ],
-        "pageviews": 14408
+        "pageviews": 3
     },
     {
         "query_id": "106_818",
@@ -6493,7 +4986,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 1426
+        "pageviews": 6
     },
     {
         "query_id": "106_819",
@@ -6501,15 +4994,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 885
-    },
-    {
-        "query_id": "106_820",
-        "question": "What kind of work does Jos\u00e9 Antonio Mazzotti do?",
-        "answers": [
-            "poet"
-        ],
-        "pageviews": 1691
+        "pageviews": 2
     },
     {
         "query_id": "106_821",
@@ -6517,7 +5002,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 686
+        "pageviews": 1
     },
     {
         "query_id": "106_822",
@@ -6525,15 +5010,7 @@
         "answers": [
             "missionary"
         ],
-        "pageviews": 1026
-    },
-    {
-        "query_id": "106_823",
-        "question": "What kind of work does Ashwani Kumar Sharma do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 38366
+        "pageviews": 1
     },
     {
         "query_id": "106_824",
@@ -6542,7 +5019,7 @@
             "journalist",
             "politician"
         ],
-        "pageviews": 3165
+        "pageviews": 8
     },
     {
         "query_id": "106_825",
@@ -6550,15 +5027,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 759953
-    },
-    {
-        "query_id": "106_826",
-        "question": "What kind of work does J. C. D. Prabhakar do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 10513
+        "pageviews": 23
     },
     {
         "query_id": "106_827",
@@ -6566,7 +5035,7 @@
         "answers": [
             "pastor"
         ],
-        "pageviews": 21950
+        "pageviews": 10
     },
     {
         "query_id": "106_828",
@@ -6574,7 +5043,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 7008
+        "pageviews": 27
     },
     {
         "query_id": "106_829",
@@ -6582,7 +5051,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 3579
+        "pageviews": 18
     },
     {
         "query_id": "106_830",
@@ -6590,7 +5059,7 @@
         "answers": [
             "detective"
         ],
-        "pageviews": 24833
+        "pageviews": 54
     },
     {
         "query_id": "106_831",
@@ -6598,7 +5067,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 3330
+        "pageviews": 11
     },
     {
         "query_id": "106_832",
@@ -6606,7 +5075,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 333
+        "pageviews": 1
     },
     {
         "query_id": "106_833",
@@ -6614,7 +5083,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 672
+        "pageviews": 1
     },
     {
         "query_id": "106_834",
@@ -6622,7 +5091,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 1085
+        "pageviews": 1
     },
     {
         "query_id": "106_835",
@@ -6630,7 +5099,7 @@
         "answers": [
             "horse trainer"
         ],
-        "pageviews": 1128
+        "pageviews": 7
     },
     {
         "query_id": "106_836",
@@ -6638,7 +5107,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 38910
+        "pageviews": 8
     },
     {
         "query_id": "106_837",
@@ -6646,7 +5115,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1710
+        "pageviews": 2
     },
     {
         "query_id": "106_838",
@@ -6654,7 +5123,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 5519
+        "pageviews": 46
     },
     {
         "query_id": "106_839",
@@ -6662,7 +5131,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 4770
+        "pageviews": 8
     },
     {
         "query_id": "106_840",
@@ -6670,7 +5139,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 5229
+        "pageviews": 6
     },
     {
         "query_id": "106_841",
@@ -6678,7 +5147,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 17371
+        "pageviews": 6
     },
     {
         "query_id": "106_842",
@@ -6686,7 +5155,7 @@
         "answers": [
             "bishop"
         ],
-        "pageviews": 1112
+        "pageviews": 3
     },
     {
         "query_id": "106_843",
@@ -6694,7 +5163,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1066
+        "pageviews": 3
     },
     {
         "query_id": "106_844",
@@ -6702,7 +5171,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 7893
+        "pageviews": 3
     },
     {
         "query_id": "106_845",
@@ -6710,15 +5179,7 @@
         "answers": [
             "film producer"
         ],
-        "pageviews": 1452
-    },
-    {
-        "query_id": "106_847",
-        "question": "What kind of work does Jan Raa do?",
-        "answers": [
-            "biologist"
-        ],
-        "pageviews": 1033
+        "pageviews": 10
     },
     {
         "query_id": "106_848",
@@ -6726,7 +5187,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 517
+        "pageviews": 2
     },
     {
         "query_id": "106_849",
@@ -6734,23 +5195,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 655286
-    },
-    {
-        "query_id": "106_850",
-        "question": "What kind of work does Jim Bright do?",
-        "answers": [
-            "psychologist"
-        ],
-        "pageviews": 166
-    },
-    {
-        "query_id": "106_851",
-        "question": "What kind of work does Kofi Esaw do?",
-        "answers": [
-            "diplomat"
-        ],
-        "pageviews": 792
+        "pageviews": 51
     },
     {
         "query_id": "106_852",
@@ -6758,7 +5203,7 @@
         "answers": [
             "comedian"
         ],
-        "pageviews": 42485
+        "pageviews": 8
     },
     {
         "query_id": "106_853",
@@ -6766,7 +5211,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 638
+        "pageviews": 1
     },
     {
         "query_id": "106_854",
@@ -6776,7 +5221,7 @@
             "lyricist",
             "novelist"
         ],
-        "pageviews": 4877
+        "pageviews": 27
     },
     {
         "query_id": "106_855",
@@ -6784,7 +5229,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 9672
+        "pageviews": 6
     },
     {
         "query_id": "106_856",
@@ -6792,7 +5237,7 @@
         "answers": [
             "queen consort"
         ],
-        "pageviews": 438058
+        "pageviews": 267
     },
     {
         "query_id": "106_857",
@@ -6800,15 +5245,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 1031
-    },
-    {
-        "query_id": "106_858",
-        "question": "What kind of work does James Tyler do?",
-        "answers": [
-            "composer"
-        ],
-        "pageviews": 4438
+        "pageviews": 8
     },
     {
         "query_id": "106_859",
@@ -6816,7 +5253,7 @@
         "answers": [
             "screenwriter"
         ],
-        "pageviews": 37633
+        "pageviews": 9
     },
     {
         "query_id": "106_860",
@@ -6824,23 +5261,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 59351
-    },
-    {
-        "query_id": "106_861",
-        "question": "What kind of work does Donald Dunbar do?",
-        "answers": [
-            "poet"
-        ],
-        "pageviews": 1028
-    },
-    {
-        "query_id": "106_862",
-        "question": "What kind of work does Mac Beathaidh mac Ainmire do?",
-        "answers": [
-            "poet"
-        ],
-        "pageviews": 623
+        "pageviews": 7
     },
     {
         "query_id": "106_863",
@@ -6848,7 +5269,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 73023
+        "pageviews": 7
     },
     {
         "query_id": "106_864",
@@ -6856,7 +5277,7 @@
         "answers": [
             "statistician"
         ],
-        "pageviews": 7914
+        "pageviews": 7
     },
     {
         "query_id": "106_865",
@@ -6864,7 +5285,7 @@
         "answers": [
             "anthropologist"
         ],
-        "pageviews": 10959
+        "pageviews": 32
     },
     {
         "query_id": "106_866",
@@ -6872,7 +5293,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1650
+        "pageviews": 2
     },
     {
         "query_id": "106_867",
@@ -6880,15 +5301,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 803
-    },
-    {
-        "query_id": "106_868",
-        "question": "What kind of work does Carl-Erik Sk\u00e5rman do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 726
+        "pageviews": 3
     },
     {
         "query_id": "106_869",
@@ -6896,7 +5309,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1970
+        "pageviews": 1
     },
     {
         "query_id": "106_870",
@@ -6904,7 +5317,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 3173
+        "pageviews": 8
     },
     {
         "query_id": "106_871",
@@ -6912,7 +5325,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 29394
+        "pageviews": 38
     },
     {
         "query_id": "106_872",
@@ -6921,15 +5334,7 @@
             "film director",
             "screenwriter"
         ],
-        "pageviews": 55068
-    },
-    {
-        "query_id": "106_873",
-        "question": "What kind of work does Jul Hagan\u00e6s do?",
-        "answers": [
-            "journalist"
-        ],
-        "pageviews": 435
+        "pageviews": 13
     },
     {
         "query_id": "106_874",
@@ -6938,7 +5343,7 @@
             "actor",
             "voice actor"
         ],
-        "pageviews": 9827
+        "pageviews": 5
     },
     {
         "query_id": "106_875",
@@ -6946,24 +5351,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1716
-    },
-    {
-        "query_id": "106_876",
-        "question": "What kind of work does James Adams do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 919
-    },
-    {
-        "query_id": "106_877",
-        "question": "What kind of work does Rosario Di Bella do?",
-        "answers": [
-            "singer-songwriter",
-            "composer"
-        ],
-        "pageviews": 1240
+        "pageviews": 4
     },
     {
         "query_id": "106_878",
@@ -6971,7 +5359,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 56843
+        "pageviews": 53
     },
     {
         "query_id": "106_879",
@@ -6979,15 +5367,7 @@
         "answers": [
             "mangaka"
         ],
-        "pageviews": 15358
-    },
-    {
-        "query_id": "106_880",
-        "question": "What kind of work does David Gom\u00e9r do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 414
+        "pageviews": 3
     },
     {
         "query_id": "106_881",
@@ -6995,15 +5375,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 1129
-    },
-    {
-        "query_id": "106_882",
-        "question": "What kind of work does Harmen Bussemaker do?",
-        "answers": [
-            "physicist"
-        ],
-        "pageviews": 1285
+        "pageviews": 2
     },
     {
         "query_id": "106_883",
@@ -7011,7 +5383,7 @@
         "answers": [
             "photographer"
         ],
-        "pageviews": 8390
+        "pageviews": 18
     },
     {
         "query_id": "106_884",
@@ -7019,15 +5391,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 2566
-    },
-    {
-        "query_id": "106_885",
-        "question": "What kind of work does Pierre F. Brault do?",
-        "answers": [
-            "composer"
-        ],
-        "pageviews": 1427
+        "pageviews": 1
     },
     {
         "query_id": "106_886",
@@ -7035,7 +5399,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1235
+        "pageviews": 2
     },
     {
         "query_id": "106_887",
@@ -7043,23 +5407,7 @@
         "answers": [
             "astronomer"
         ],
-        "pageviews": 825
-    },
-    {
-        "query_id": "106_888",
-        "question": "What kind of work does Peter Beyer do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 5034
-    },
-    {
-        "query_id": "106_889",
-        "question": "What kind of work does George E. Allen, Jr. do?",
-        "answers": [
-            "lawyer"
-        ],
-        "pageviews": 1484
+        "pageviews": 5
     },
     {
         "query_id": "106_890",
@@ -7067,7 +5415,7 @@
         "answers": [
             "diplomat"
         ],
-        "pageviews": 1745
+        "pageviews": 1
     },
     {
         "query_id": "106_891",
@@ -7076,15 +5424,7 @@
             "songwriter",
             "record producer"
         ],
-        "pageviews": 103838
-    },
-    {
-        "query_id": "106_892",
-        "question": "What kind of work does Jean F\u00e9lix Demba Telo do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 463
+        "pageviews": 25
     },
     {
         "query_id": "106_893",
@@ -7092,7 +5432,7 @@
         "answers": [
             "illustrator"
         ],
-        "pageviews": 1409
+        "pageviews": 2
     },
     {
         "query_id": "106_894",
@@ -7100,7 +5440,7 @@
         "answers": [
             "novelist"
         ],
-        "pageviews": 3940
+        "pageviews": 5
     },
     {
         "query_id": "106_895",
@@ -7110,7 +5450,7 @@
             "screenwriter",
             "film director"
         ],
-        "pageviews": 3889
+        "pageviews": 10
     },
     {
         "query_id": "106_896",
@@ -7118,7 +5458,7 @@
         "answers": [
             "alderman"
         ],
-        "pageviews": 796
+        "pageviews": 1
     },
     {
         "query_id": "106_897",
@@ -7126,15 +5466,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 12989
-    },
-    {
-        "query_id": "106_898",
-        "question": "What kind of work does Menotti Aristone do?",
-        "answers": [
-            "jockey"
-        ],
-        "pageviews": 1170
+        "pageviews": 1
     },
     {
         "query_id": "106_899",
@@ -7142,23 +5474,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 458766
-    },
-    {
-        "query_id": "106_900",
-        "question": "What kind of work does James White do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1453
-    },
-    {
-        "query_id": "106_901",
-        "question": "What kind of work does Robert Light do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1188
+        "pageviews": 48
     },
     {
         "query_id": "106_902",
@@ -7166,7 +5482,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 12414
+        "pageviews": 1
     },
     {
         "query_id": "106_903",
@@ -7174,7 +5490,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 1069
+        "pageviews": 2
     },
     {
         "query_id": "106_905",
@@ -7182,7 +5498,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 644525
+        "pageviews": 37
     },
     {
         "query_id": "106_906",
@@ -7190,7 +5506,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 2389
+        "pageviews": 3
     },
     {
         "query_id": "106_907",
@@ -7198,7 +5514,7 @@
         "answers": [
             "screenwriter"
         ],
-        "pageviews": 24111
+        "pageviews": 6
     },
     {
         "query_id": "106_908",
@@ -7206,7 +5522,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 5859
+        "pageviews": 11
     },
     {
         "query_id": "106_909",
@@ -7214,7 +5530,7 @@
         "answers": [
             "record producer"
         ],
-        "pageviews": 29757
+        "pageviews": 7
     },
     {
         "query_id": "106_910",
@@ -7222,7 +5538,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 172582
+        "pageviews": 36
     },
     {
         "query_id": "106_911",
@@ -7230,15 +5546,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 7093
-    },
-    {
-        "query_id": "106_912",
-        "question": "What kind of work does Tadeusz Wita do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 533
+        "pageviews": 20
     },
     {
         "query_id": "106_913",
@@ -7246,15 +5554,7 @@
         "answers": [
             "pianist"
         ],
-        "pageviews": 1886
-    },
-    {
-        "query_id": "106_914",
-        "question": "What kind of work does Adolph Gottfried Kinau do?",
-        "answers": [
-            "astronomer"
-        ],
-        "pageviews": 0
+        "pageviews": 6
     },
     {
         "query_id": "106_915",
@@ -7262,23 +5562,7 @@
         "answers": [
             "mangaka"
         ],
-        "pageviews": 2361
-    },
-    {
-        "query_id": "106_916",
-        "question": "What kind of work does Nestor Hammarlund do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 425
-    },
-    {
-        "query_id": "106_917",
-        "question": "What kind of work does Chhim Siek Leng do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1069
+        "pageviews": 2
     },
     {
         "query_id": "106_918",
@@ -7286,15 +5570,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 184449
-    },
-    {
-        "query_id": "106_919",
-        "question": "What kind of work does Henry B. Pierce do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 805
+        "pageviews": 9
     },
     {
         "query_id": "106_920",
@@ -7302,7 +5578,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 14127
+        "pageviews": 15
     },
     {
         "query_id": "106_921",
@@ -7310,7 +5586,7 @@
         "answers": [
             "model"
         ],
-        "pageviews": 4630
+        "pageviews": 2
     },
     {
         "query_id": "106_922",
@@ -7318,7 +5594,7 @@
         "answers": [
             "screenwriter"
         ],
-        "pageviews": 20058
+        "pageviews": 11
     },
     {
         "query_id": "106_923",
@@ -7326,7 +5602,7 @@
         "answers": [
             "composer"
         ],
-        "pageviews": 1800
+        "pageviews": 7
     },
     {
         "query_id": "106_924",
@@ -7334,7 +5610,7 @@
         "answers": [
             "film director"
         ],
-        "pageviews": 7092
+        "pageviews": 28
     },
     {
         "query_id": "106_925",
@@ -7342,7 +5618,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 981
+        "pageviews": 3
     },
     {
         "query_id": "106_926",
@@ -7350,15 +5626,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 3663
-    },
-    {
-        "query_id": "106_927",
-        "question": "What kind of work does Walter Charles Robinson do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 1819
+        "pageviews": 3
     },
     {
         "query_id": "106_928",
@@ -7366,15 +5634,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2433
-    },
-    {
-        "query_id": "106_929",
-        "question": "What kind of work does Donald R. Mello do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 632
+        "pageviews": 3
     },
     {
         "query_id": "106_930",
@@ -7382,15 +5642,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 26287
-    },
-    {
-        "query_id": "106_931",
-        "question": "What kind of work does Ted Malone do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 978
+        "pageviews": 4
     },
     {
         "query_id": "106_932",
@@ -7398,15 +5650,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 53533
-    },
-    {
-        "query_id": "106_933",
-        "question": "What kind of work does Sir Wyndham Knatchbull-Wyndham, 6th Baronet do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1016
+        "pageviews": 22
     },
     {
         "query_id": "106_934",
@@ -7414,15 +5658,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 8705
-    },
-    {
-        "query_id": "106_935",
-        "question": "What kind of work does Henry Grube do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 470
+        "pageviews": 10
     },
     {
         "query_id": "106_936",
@@ -7430,15 +5666,7 @@
         "answers": [
             "songwriter"
         ],
-        "pageviews": 15634
-    },
-    {
-        "query_id": "106_937",
-        "question": "What kind of work does Richard J. Phelps do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1146
+        "pageviews": 29
     },
     {
         "query_id": "106_938",
@@ -7447,15 +5675,7 @@
             "politician",
             "poet"
         ],
-        "pageviews": 1991
-    },
-    {
-        "query_id": "106_939",
-        "question": "What kind of work does Nelson Gaichuhie do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 967
+        "pageviews": 11
     },
     {
         "query_id": "106_940",
@@ -7463,7 +5683,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 304201
+        "pageviews": 658
     },
     {
         "query_id": "106_941",
@@ -7471,15 +5691,7 @@
         "answers": [
             "showgirl"
         ],
-        "pageviews": 12925
-    },
-    {
-        "query_id": "106_942",
-        "question": "What kind of work does Albino N\u00fa\u00f1ez Dom\u00ednguez do?",
-        "answers": [
-            "poet"
-        ],
-        "pageviews": 486
+        "pageviews": 4
     },
     {
         "query_id": "106_943",
@@ -7487,7 +5699,7 @@
         "answers": [
             "mathematician"
         ],
-        "pageviews": 10438
+        "pageviews": 42
     },
     {
         "query_id": "106_944",
@@ -7495,15 +5707,7 @@
         "answers": [
             "television producer"
         ],
-        "pageviews": 7440
-    },
-    {
-        "query_id": "106_945",
-        "question": "What kind of work does Lucy Boryer do?",
-        "answers": [
-            "actor"
-        ],
-        "pageviews": 11101
+        "pageviews": 40
     },
     {
         "query_id": "106_946",
@@ -7511,7 +5715,7 @@
         "answers": [
             "architect"
         ],
-        "pageviews": 587
+        "pageviews": 2
     },
     {
         "query_id": "106_947",
@@ -7519,15 +5723,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 13494
-    },
-    {
-        "query_id": "106_948",
-        "question": "What kind of work does Daniel Cameron do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 490
+        "pageviews": 6
     },
     {
         "query_id": "106_949",
@@ -7535,7 +5731,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 494426
+        "pageviews": 203
     },
     {
         "query_id": "106_950",
@@ -7543,15 +5739,7 @@
         "answers": [
             "television presenter"
         ],
-        "pageviews": 38922
-    },
-    {
-        "query_id": "106_951",
-        "question": "What kind of work does William Canniff do?",
-        "answers": [
-            "surgeon"
-        ],
-        "pageviews": 828
+        "pageviews": 6
     },
     {
         "query_id": "106_952",
@@ -7559,15 +5747,7 @@
         "answers": [
             "film director"
         ],
-        "pageviews": 84292
-    },
-    {
-        "query_id": "106_953",
-        "question": "What kind of work does Onni Hiltunen do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1098
+        "pageviews": 22
     },
     {
         "query_id": "106_954",
@@ -7575,7 +5755,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 106981
+        "pageviews": 8
     },
     {
         "query_id": "106_955",
@@ -7583,7 +5763,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 3734
+        "pageviews": 2
     },
     {
         "query_id": "106_956",
@@ -7591,7 +5771,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 9085
+        "pageviews": 3
     },
     {
         "query_id": "106_957",
@@ -7599,15 +5779,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2186
-    },
-    {
-        "query_id": "106_958",
-        "question": "What kind of work does Antonio Camacho Vizca\u00edno do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1107
+        "pageviews": 11
     },
     {
         "query_id": "106_959",
@@ -7615,31 +5787,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 960
-    },
-    {
-        "query_id": "106_960",
-        "question": "What kind of work does Andrzej Diakonow do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 678
-    },
-    {
-        "query_id": "106_961",
-        "question": "What kind of work does Ambrosius Beber do?",
-        "answers": [
-            "composer"
-        ],
-        "pageviews": 666
-    },
-    {
-        "query_id": "106_962",
-        "question": "What kind of work does Chaleun Yapaoheu do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 577
+        "pageviews": 3
     },
     {
         "query_id": "106_963",
@@ -7647,7 +5795,7 @@
         "answers": [
             "poet"
         ],
-        "pageviews": 1737
+        "pageviews": 5
     },
     {
         "query_id": "106_964",
@@ -7655,7 +5803,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 3537
+        "pageviews": 2
     },
     {
         "query_id": "106_965",
@@ -7663,7 +5811,7 @@
         "answers": [
             "philosopher"
         ],
-        "pageviews": 2567
+        "pageviews": 2
     },
     {
         "query_id": "106_966",
@@ -7671,7 +5819,7 @@
         "answers": [
             "chemist"
         ],
-        "pageviews": 9100
+        "pageviews": 32
     },
     {
         "query_id": "106_967",
@@ -7679,7 +5827,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 12240
+        "pageviews": 4
     },
     {
         "query_id": "106_968",
@@ -7687,7 +5835,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 2344
+        "pageviews": 3
     },
     {
         "query_id": "106_969",
@@ -7695,7 +5843,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 4375
+        "pageviews": 4
     },
     {
         "query_id": "106_970",
@@ -7703,7 +5851,7 @@
         "answers": [
             "biologist"
         ],
-        "pageviews": 48522
+        "pageviews": 55
     },
     {
         "query_id": "106_971",
@@ -7712,7 +5860,7 @@
             "composer",
             "record producer"
         ],
-        "pageviews": 60930
+        "pageviews": 52
     },
     {
         "query_id": "106_972",
@@ -7720,7 +5868,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 7045
+        "pageviews": 1
     },
     {
         "query_id": "106_973",
@@ -7729,7 +5877,7 @@
             "landscape architect",
             "architect"
         ],
-        "pageviews": 2833
+        "pageviews": 8
     },
     {
         "query_id": "106_974",
@@ -7737,7 +5885,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 573
+        "pageviews": 1
     },
     {
         "query_id": "106_975",
@@ -7745,7 +5893,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 2944
+        "pageviews": 2
     },
     {
         "query_id": "106_976",
@@ -7753,7 +5901,7 @@
         "answers": [
             "journalist"
         ],
-        "pageviews": 23950
+        "pageviews": 4
     },
     {
         "query_id": "106_977",
@@ -7761,7 +5909,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 2069
+        "pageviews": 4
     },
     {
         "query_id": "106_978",
@@ -7769,7 +5917,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 9202
+        "pageviews": 26
     },
     {
         "query_id": "106_979",
@@ -7777,7 +5925,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 32705
+        "pageviews": 6
     },
     {
         "query_id": "106_980",
@@ -7786,7 +5934,7 @@
             "screenwriter",
             "film producer"
         ],
-        "pageviews": 4422
+        "pageviews": 26
     },
     {
         "query_id": "106_981",
@@ -7794,15 +5942,7 @@
         "answers": [
             "anthropologist"
         ],
-        "pageviews": 7788
-    },
-    {
-        "query_id": "106_982",
-        "question": "What kind of work does William Gordon do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 408
+        "pageviews": 12
     },
     {
         "query_id": "106_984",
@@ -7810,15 +5950,7 @@
         "answers": [
             "monk"
         ],
-        "pageviews": 5808
-    },
-    {
-        "query_id": "106_985",
-        "question": "What kind of work does Alfons Pawelczyk do?",
-        "answers": [
-            "politician"
-        ],
-        "pageviews": 1695
+        "pageviews": 1
     },
     {
         "query_id": "106_986",
@@ -7826,7 +5958,7 @@
         "answers": [
             "navigator"
         ],
-        "pageviews": 1729
+        "pageviews": 9
     },
     {
         "query_id": "106_988",
@@ -7834,7 +5966,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 46591
+        "pageviews": 30
     },
     {
         "query_id": "106_989",
@@ -7843,15 +5975,7 @@
             "politician",
             "surgeon"
         ],
-        "pageviews": 4078
-    },
-    {
-        "query_id": "106_990",
-        "question": "What kind of work does Wilfried Schmickler do?",
-        "answers": [
-            "comedian"
-        ],
-        "pageviews": 1161
+        "pageviews": 2
     },
     {
         "query_id": "106_991",
@@ -7860,15 +5984,7 @@
             "astronomer",
             "mathematician"
         ],
-        "pageviews": 11392
-    },
-    {
-        "query_id": "106_992",
-        "question": "What kind of work does Alicia P. Magos do?",
-        "answers": [
-            "anthropologist"
-        ],
-        "pageviews": 3232
+        "pageviews": 21
     },
     {
         "query_id": "106_993",
@@ -7876,7 +5992,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 1738
+        "pageviews": 2
     },
     {
         "query_id": "106_994",
@@ -7884,7 +6000,7 @@
         "answers": [
             "seiy\u016b"
         ],
-        "pageviews": 46680
+        "pageviews": 27
     },
     {
         "query_id": "106_995",
@@ -7893,7 +6009,7 @@
             "actor",
             "seiy\u016b"
         ],
-        "pageviews": 11558
+        "pageviews": 3
     },
     {
         "query_id": "106_996",
@@ -7901,7 +6017,7 @@
         "answers": [
             "politician"
         ],
-        "pageviews": 1800
+        "pageviews": 1
     },
     {
         "query_id": "106_997",
@@ -7909,15 +6025,7 @@
         "answers": [
             "actor"
         ],
-        "pageviews": 9223
-    },
-    {
-        "query_id": "106_998",
-        "question": "What kind of work does Oleksandr Mykolaiovych Sharkovsky do?",
-        "answers": [
-            "mathematician"
-        ],
-        "pageviews": 59
+        "pageviews": 15
     },
     {
         "query_id": "106_999",
@@ -7926,6 +6034,6 @@
             "screenwriter",
             "film director"
         ],
-        "pageviews": 2833
+        "pageviews": 5
     }
 ]

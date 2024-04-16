@@ -1,27 +1,11 @@
 [
     {
-        "query_id": "50_0",
-        "question": "Who is the author of The Golden Gate?",
-        "answers": [
-            "Alistair MacLean"
-        ],
-        "pageviews": 4300
-    },
-    {
         "query_id": "50_1",
         "question": "Who is the author of Books Do Furnish a Room?",
         "answers": [
             "Anthony Powell"
         ],
-        "pageviews": 3204
-    },
-    {
-        "query_id": "50_2",
-        "question": "Who is the author of The Target?",
-        "answers": [
-            "David Baldacci"
-        ],
-        "pageviews": 3395
+        "pageviews": 2
     },
     {
         "query_id": "50_3",
@@ -29,7 +13,7 @@
         "answers": [
             "Cicero"
         ],
-        "pageviews": 1776
+        "pageviews": 1
     },
     {
         "query_id": "50_4",
@@ -37,7 +21,7 @@
         "answers": [
             "Dannii Minogue"
         ],
-        "pageviews": 3504
+        "pageviews": 1
     },
     {
         "query_id": "50_5",
@@ -45,7 +29,7 @@
         "answers": [
             "Keigo Higashino"
         ],
-        "pageviews": 6485
+        "pageviews": 6
     },
     {
         "query_id": "50_6",
@@ -53,7 +37,7 @@
         "answers": [
             "Alexander Ostrovsky"
         ],
-        "pageviews": 1078
+        "pageviews": 10
     },
     {
         "query_id": "50_7",
@@ -61,31 +45,7 @@
         "answers": [
             "Caroline Lawrence"
         ],
-        "pageviews": 810
-    },
-    {
-        "query_id": "50_8",
-        "question": "Who is the author of A Case of Two Cities?",
-        "answers": [
-            "Qiu Xiaolong"
-        ],
-        "pageviews": 1007
-    },
-    {
-        "query_id": "50_9",
-        "question": "Who is the author of Abba Abba?",
-        "answers": [
-            "Anthony Burgess"
-        ],
-        "pageviews": 2952
-    },
-    {
-        "query_id": "50_10",
-        "question": "Who is the author of The Innovators: How a Group of Inventors, Hackers, Geniuses, and Geeks Created the Digital Revolution?",
-        "answers": [
-            "Walter Isaacson"
-        ],
-        "pageviews": 20800
+        "pageviews": 3
     },
     {
         "query_id": "50_11",
@@ -93,7 +53,7 @@
         "answers": [
             "Willa Cather"
         ],
-        "pageviews": 1113
+        "pageviews": 2
     },
     {
         "query_id": "50_12",
@@ -101,15 +61,7 @@
         "answers": [
             "William Inge"
         ],
-        "pageviews": 41206
-    },
-    {
-        "query_id": "50_13",
-        "question": "Who is the author of Mussolini: His Part in My Downfall?",
-        "answers": [
-            "Spike Milligan"
-        ],
-        "pageviews": 4165
+        "pageviews": 45
     },
     {
         "query_id": "50_14",
@@ -117,7 +69,7 @@
         "answers": [
             "Jules Verne"
         ],
-        "pageviews": 3548
+        "pageviews": 2
     },
     {
         "query_id": "50_15",
@@ -125,7 +77,7 @@
         "answers": [
             "Emilio Carballido"
         ],
-        "pageviews": 1887
+        "pageviews": 1
     },
     {
         "query_id": "50_16",
@@ -133,7 +85,7 @@
         "answers": [
             "Piero della Francesca"
         ],
-        "pageviews": 7072
+        "pageviews": 1
     },
     {
         "query_id": "50_17",
@@ -141,7 +93,7 @@
         "answers": [
             "Carlos Marighella"
         ],
-        "pageviews": 935
+        "pageviews": 1
     },
     {
         "query_id": "50_18",
@@ -149,7 +101,7 @@
         "answers": [
             "Jorge Luis Borges"
         ],
-        "pageviews": 4822
+        "pageviews": 4
     },
     {
         "query_id": "50_19",
@@ -157,7 +109,7 @@
         "answers": [
             "Sonia Sotomayor"
         ],
-        "pageviews": 5329
+        "pageviews": 2
     },
     {
         "query_id": "50_20",
@@ -165,15 +117,7 @@
         "answers": [
             "Rodolfo Walsh"
         ],
-        "pageviews": 10010
-    },
-    {
-        "query_id": "50_21",
-        "question": "Who is the author of Among the Barons?",
-        "answers": [
-            "Margaret Peterson Haddix"
-        ],
-        "pageviews": 9290
+        "pageviews": 7
     },
     {
         "query_id": "50_22",
@@ -181,7 +125,7 @@
         "answers": [
             "Clarence Arthur Tripp"
         ],
-        "pageviews": 2885
+        "pageviews": 1
     },
     {
         "query_id": "50_23",
@@ -189,15 +133,7 @@
         "answers": [
             "Stephen King"
         ],
-        "pageviews": 7443
-    },
-    {
-        "query_id": "50_24",
-        "question": "Who is the author of \u00a1\u00a1\u00a1Natacha!!!?",
-        "answers": [
-            "Luis Mar\u00eda Pescetti"
-        ],
-        "pageviews": 713
+        "pageviews": 1
     },
     {
         "query_id": "50_25",
@@ -205,15 +141,7 @@
         "answers": [
             "Umberto Eco"
         ],
-        "pageviews": 142718
-    },
-    {
-        "query_id": "50_26",
-        "question": "Who is the author of Dragon Age: The Stolen Throne?",
-        "answers": [
-            "David Gaider"
-        ],
-        "pageviews": 8181
+        "pageviews": 28
     },
     {
         "query_id": "50_27",
@@ -221,7 +149,7 @@
         "answers": [
             "Carl Hiaasen"
         ],
-        "pageviews": 5207
+        "pageviews": 2
     },
     {
         "query_id": "50_28",
@@ -229,7 +157,7 @@
         "answers": [
             "Min Zhou"
         ],
-        "pageviews": 2407
+        "pageviews": 1
     },
     {
         "query_id": "50_29",
@@ -237,15 +165,7 @@
         "answers": [
             "Tsutomu Nihei"
         ],
-        "pageviews": 33887
-    },
-    {
-        "query_id": "50_30",
-        "question": "Who is the author of The Big Time?",
-        "answers": [
-            "Fritz Leiber Junior"
-        ],
-        "pageviews": 13169
+        "pageviews": 3
     },
     {
         "query_id": "50_31",
@@ -253,7 +173,7 @@
         "answers": [
             "Mollie Katzen"
         ],
-        "pageviews": 16906
+        "pageviews": 3
     },
     {
         "query_id": "50_32",
@@ -261,7 +181,7 @@
         "answers": [
             "Andrew Greig"
         ],
-        "pageviews": 1092
+        "pageviews": 1
     },
     {
         "query_id": "50_33",
@@ -269,7 +189,7 @@
         "answers": [
             "Thierry Jonquet"
         ],
-        "pageviews": 26909
+        "pageviews": 1
     },
     {
         "query_id": "50_34",
@@ -277,7 +197,7 @@
         "answers": [
             "George Eliot"
         ],
-        "pageviews": 29940
+        "pageviews": 11
     },
     {
         "query_id": "50_35",
@@ -285,7 +205,7 @@
         "answers": [
             "P. G. Wodehouse"
         ],
-        "pageviews": 2733
+        "pageviews": 2
     },
     {
         "query_id": "50_36",
@@ -293,15 +213,7 @@
         "answers": [
             "Roger Lowenstein"
         ],
-        "pageviews": 24250
-    },
-    {
-        "query_id": "50_37",
-        "question": "Who is the author of The Elephant of Surprise?",
-        "answers": [
-            "Brent Hartinger"
-        ],
-        "pageviews": 1351
+        "pageviews": 1
     },
     {
         "query_id": "50_38",
@@ -309,15 +221,7 @@
         "answers": [
             "Louise Erdrich"
         ],
-        "pageviews": 15240
-    },
-    {
-        "query_id": "50_39",
-        "question": "Who is the author of The Life and Death of Mr Badman?",
-        "answers": [
-            "John Bunyan"
-        ],
-        "pageviews": 5468
+        "pageviews": 1
     },
     {
         "query_id": "50_40",
@@ -325,15 +229,7 @@
         "answers": [
             "John Milton"
         ],
-        "pageviews": 78860
-    },
-    {
-        "query_id": "50_41",
-        "question": "Who is the author of Banquet for the Damned?",
-        "answers": [
-            "Adam Nevill"
-        ],
-        "pageviews": 4920
+        "pageviews": 43
     },
     {
         "query_id": "50_42",
@@ -341,7 +237,7 @@
         "answers": [
             "Piers Anthony"
         ],
-        "pageviews": 3281
+        "pageviews": 1
     },
     {
         "query_id": "50_43",
@@ -349,7 +245,7 @@
         "answers": [
             "Ray Cooney"
         ],
-        "pageviews": 2057
+        "pageviews": 4
     },
     {
         "query_id": "50_44",
@@ -357,7 +253,7 @@
         "answers": [
             "Ransom Riggs"
         ],
-        "pageviews": 36759
+        "pageviews": 3
     },
     {
         "query_id": "50_45",
@@ -365,7 +261,7 @@
         "answers": [
             "Jean-Jacques Rousseau"
         ],
-        "pageviews": 81097
+        "pageviews": 50
     },
     {
         "query_id": "50_46",
@@ -373,7 +269,7 @@
         "answers": [
             "Lin Carter"
         ],
-        "pageviews": 1230
+        "pageviews": 1
     },
     {
         "query_id": "50_47",
@@ -381,31 +277,7 @@
         "answers": [
             "Stephen King"
         ],
-        "pageviews": 319304
-    },
-    {
-        "query_id": "50_48",
-        "question": "Who is the author of Hemmet?",
-        "answers": [
-            "Fredrika Bremer"
-        ],
-        "pageviews": 602
-    },
-    {
-        "query_id": "50_49",
-        "question": "Who is the author of Out of the Dark?",
-        "answers": [
-            "Welwyn Wilton Katz"
-        ],
-        "pageviews": 471
-    },
-    {
-        "query_id": "50_50",
-        "question": "Who is the author of The mirror in the mirror?",
-        "answers": [
-            "Michael Ende"
-        ],
-        "pageviews": 2430
+        "pageviews": 18
     },
     {
         "query_id": "50_51",
@@ -413,7 +285,7 @@
         "answers": [
             "Henri Bergson"
         ],
-        "pageviews": 14722
+        "pageviews": 2
     },
     {
         "query_id": "50_52",
@@ -421,7 +293,7 @@
         "answers": [
             "Orson Bean"
         ],
-        "pageviews": 5182
+        "pageviews": 2
     },
     {
         "query_id": "50_53",
@@ -429,7 +301,7 @@
         "answers": [
             "Elizabeth George Speare"
         ],
-        "pageviews": 42977
+        "pageviews": 10
     },
     {
         "query_id": "50_54",
@@ -437,7 +309,7 @@
         "answers": [
             "Shinji Mizushima"
         ],
-        "pageviews": 43277
+        "pageviews": 5
     },
     {
         "query_id": "50_55",
@@ -445,7 +317,7 @@
         "answers": [
             "Germano Almeida"
         ],
-        "pageviews": 563
+        "pageviews": 2
     },
     {
         "query_id": "50_56",
@@ -453,7 +325,7 @@
         "answers": [
             "Michael Connelly"
         ],
-        "pageviews": 15732
+        "pageviews": 1
     },
     {
         "query_id": "50_57",
@@ -461,7 +333,7 @@
         "answers": [
             "Anne Tyler"
         ],
-        "pageviews": 2431
+        "pageviews": 2
     },
     {
         "query_id": "50_58",
@@ -469,7 +341,7 @@
         "answers": [
             "Jules Verne"
         ],
-        "pageviews": 8474
+        "pageviews": 5
     },
     {
         "query_id": "50_59",
@@ -477,23 +349,7 @@
         "answers": [
             "William Gibson"
         ],
-        "pageviews": 14430
-    },
-    {
-        "query_id": "50_60",
-        "question": "Who is the author of Come over to My House?",
-        "answers": [
-            "Dr. Seuss"
-        ],
-        "pageviews": 5528
-    },
-    {
-        "query_id": "50_61",
-        "question": "Who is the author of Panic: The Story of Modern Financial Insanity?",
-        "answers": [
-            "Michael Lewis"
-        ],
-        "pageviews": 5762
+        "pageviews": 5
     },
     {
         "query_id": "50_62",
@@ -501,23 +357,7 @@
         "answers": [
             "Anya Seton"
         ],
-        "pageviews": 4709
-    },
-    {
-        "query_id": "50_63",
-        "question": "Who is the author of De libero arbitrio?",
-        "answers": [
-            "Augustine of Hippo"
-        ],
-        "pageviews": 6288
-    },
-    {
-        "query_id": "50_64",
-        "question": "Who is the author of The Dark Tower: Treachery?",
-        "answers": [
-            "Robin Furth"
-        ],
-        "pageviews": 4034
+        "pageviews": 1
     },
     {
         "query_id": "50_65",
@@ -525,7 +365,7 @@
         "answers": [
             "Voltaire"
         ],
-        "pageviews": 12777
+        "pageviews": 6
     },
     {
         "query_id": "50_66",
@@ -533,7 +373,7 @@
         "answers": [
             "Christopher Marlowe"
         ],
-        "pageviews": 65684
+        "pageviews": 46
     },
     {
         "query_id": "50_67",
@@ -541,7 +381,7 @@
         "answers": [
             "John Braine"
         ],
-        "pageviews": 1910
+        "pageviews": 1
     },
     {
         "query_id": "50_68",
@@ -549,7 +389,7 @@
         "answers": [
             "Mait Metsanurk"
         ],
-        "pageviews": 641
+        "pageviews": 1
     },
     {
         "query_id": "50_69",
@@ -557,15 +397,7 @@
         "answers": [
             "Joe Benitez"
         ],
-        "pageviews": 21925
-    },
-    {
-        "query_id": "50_70",
-        "question": "Who is the author of Concluding?",
-        "answers": [
-            "Henry Green"
-        ],
-        "pageviews": 2570
+        "pageviews": 2
     },
     {
         "query_id": "50_71",
@@ -573,15 +405,7 @@
         "answers": [
             "Judah ben Samuel of Regensburg"
         ],
-        "pageviews": 8036
-    },
-    {
-        "query_id": "50_72",
-        "question": "Who is the author of Philosophy: Who Needs It?",
-        "answers": [
-            "Ayn Rand"
-        ],
-        "pageviews": 6702
+        "pageviews": 8
     },
     {
         "query_id": "50_73",
@@ -589,7 +413,7 @@
         "answers": [
             "Jessica Valenti"
         ],
-        "pageviews": 4846
+        "pageviews": 2
     },
     {
         "query_id": "50_74",
@@ -597,7 +421,7 @@
         "answers": [
             "Moto Hagio"
         ],
-        "pageviews": 2421
+        "pageviews": 2
     },
     {
         "query_id": "50_75",
@@ -605,7 +429,7 @@
         "answers": [
             "Mark Twain"
         ],
-        "pageviews": 159319
+        "pageviews": 108
     },
     {
         "query_id": "50_76",
@@ -613,7 +437,7 @@
         "answers": [
             "Thomas Kyd"
         ],
-        "pageviews": 72661
+        "pageviews": 53
     },
     {
         "query_id": "50_77",
@@ -621,7 +445,7 @@
         "answers": [
             "Mikha'il Na'ima"
         ],
-        "pageviews": 18937
+        "pageviews": 3
     },
     {
         "query_id": "50_78",
@@ -629,15 +453,7 @@
         "answers": [
             "Hubert Selby Jr."
         ],
-        "pageviews": 82774
-    },
-    {
-        "query_id": "50_79",
-        "question": "Who is the author of Dark of the Moon: Poems of Fantasy and the Macabre?",
-        "answers": [
-            "August Derleth"
-        ],
-        "pageviews": 1384
+        "pageviews": 27
     },
     {
         "query_id": "50_80",
@@ -645,7 +461,7 @@
         "answers": [
             "Fred Hoyle"
         ],
-        "pageviews": 3875
+        "pageviews": 1
     },
     {
         "query_id": "50_81",
@@ -653,15 +469,7 @@
         "answers": [
             "Mal Peet"
         ],
-        "pageviews": 4041
-    },
-    {
-        "query_id": "50_82",
-        "question": "Who is the author of The Boy in the Dress?",
-        "answers": [
-            "David Walliams"
-        ],
-        "pageviews": 42360
+        "pageviews": 2
     },
     {
         "query_id": "50_83",
@@ -669,23 +477,7 @@
         "answers": [
             "Charles Gore"
         ],
-        "pageviews": 3054
-    },
-    {
-        "query_id": "50_84",
-        "question": "Who is the author of The Science of Discworld III: Darwin's Watch?",
-        "answers": [
-            "Terry Pratchett"
-        ],
-        "pageviews": 3500
-    },
-    {
-        "query_id": "50_85",
-        "question": "Who is the author of Bump in the Night?",
-        "answers": [
-            "Isabelle Holland"
-        ],
-        "pageviews": 5016
+        "pageviews": 10
     },
     {
         "query_id": "50_86",
@@ -693,15 +485,7 @@
         "answers": [
             "Manly Wade Wellman"
         ],
-        "pageviews": 6161
-    },
-    {
-        "query_id": "50_87",
-        "question": "Who is the author of Radiant Doors?",
-        "answers": [
-            "Michael Swanwick"
-        ],
-        "pageviews": 1793
+        "pageviews": 9
     },
     {
         "query_id": "50_88",
@@ -709,15 +493,7 @@
         "answers": [
             "Jack Vance"
         ],
-        "pageviews": 10421
-    },
-    {
-        "query_id": "50_89",
-        "question": "Who is the author of The Saint in Trouble?",
-        "answers": [
-            "Leslie Charteris"
-        ],
-        "pageviews": 792
+        "pageviews": 3
     },
     {
         "query_id": "50_90",
@@ -725,7 +501,7 @@
         "answers": [
             "Jacqueline Carey"
         ],
-        "pageviews": 5310
+        "pageviews": 4
     },
     {
         "query_id": "50_91",
@@ -733,7 +509,7 @@
         "answers": [
             "Pseudo-Bonaventure"
         ],
-        "pageviews": 4824
+        "pageviews": 13
     },
     {
         "query_id": "50_92",
@@ -741,7 +517,7 @@
         "answers": [
             "Gertrude Berg"
         ],
-        "pageviews": 1216
+        "pageviews": 6
     },
     {
         "query_id": "50_93",
@@ -750,23 +526,7 @@
             "Jack Williamson",
             "Frederik Pohl"
         ],
-        "pageviews": 2294
-    },
-    {
-        "query_id": "50_94",
-        "question": "Who is the author of Fever of the Bone?",
-        "answers": [
-            "Val McDermid"
-        ],
-        "pageviews": 2682
-    },
-    {
-        "query_id": "50_95",
-        "question": "Who is the author of Traction City?",
-        "answers": [
-            "Philip Reeve"
-        ],
-        "pageviews": 1808
+        "pageviews": 2
     },
     {
         "query_id": "50_96",
@@ -774,15 +534,7 @@
         "answers": [
             "Mary Norton"
         ],
-        "pageviews": 6131
-    },
-    {
-        "query_id": "50_97",
-        "question": "Who is the author of Abhirami Anthadhi?",
-        "answers": [
-            "Abirami Pattar"
-        ],
-        "pageviews": 0
+        "pageviews": 2
     },
     {
         "query_id": "50_98",
@@ -790,7 +542,7 @@
         "answers": [
             "Clare Boothe Luce"
         ],
-        "pageviews": 1241
+        "pageviews": 2
     },
     {
         "query_id": "50_99",
@@ -798,15 +550,7 @@
         "answers": [
             "William Dalrymple"
         ],
-        "pageviews": 15339
-    },
-    {
-        "query_id": "50_100",
-        "question": "Who is the author of Code: Version 2.0?",
-        "answers": [
-            "Lawrence Lessig"
-        ],
-        "pageviews": 6620
+        "pageviews": 3
     },
     {
         "query_id": "50_101",
@@ -814,15 +558,7 @@
         "answers": [
             "Aki Shimizu"
         ],
-        "pageviews": 4273
-    },
-    {
-        "query_id": "50_102",
-        "question": "Who is the author of Oberon Old and New?",
-        "answers": [
-            "Anthony Burgess"
-        ],
-        "pageviews": 1242
+        "pageviews": 1
     },
     {
         "query_id": "50_103",
@@ -830,7 +566,7 @@
         "answers": [
             "Ken Kesey"
         ],
-        "pageviews": 2720
+        "pageviews": 1
     },
     {
         "query_id": "50_104",
@@ -838,7 +574,7 @@
         "answers": [
             "James Loewen"
         ],
-        "pageviews": 3372
+        "pageviews": 1
     },
     {
         "query_id": "50_105",
@@ -846,7 +582,7 @@
         "answers": [
             "Kazuhiro Fujita"
         ],
-        "pageviews": 121238
+        "pageviews": 3
     },
     {
         "query_id": "50_106",
@@ -854,7 +590,7 @@
         "answers": [
             "John Fortune"
         ],
-        "pageviews": 2552
+        "pageviews": 3
     },
     {
         "query_id": "50_107",
@@ -862,7 +598,7 @@
         "answers": [
             "Gottfried Wilhelm Leibniz"
         ],
-        "pageviews": 7003
+        "pageviews": 9
     },
     {
         "query_id": "50_108",
@@ -870,7 +606,7 @@
         "answers": [
             "James Joyce"
         ],
-        "pageviews": 9465
+        "pageviews": 3
     },
     {
         "query_id": "50_109",
@@ -878,15 +614,7 @@
         "answers": [
             "Wilbur Smith"
         ],
-        "pageviews": 2871
-    },
-    {
-        "query_id": "50_110",
-        "question": "Who is the author of Nigger: The Strange Career of a Troublesome Word?",
-        "answers": [
-            "Randall Kennedy"
-        ],
-        "pageviews": 9291
+        "pageviews": 1
     },
     {
         "query_id": "50_111",
@@ -894,7 +622,7 @@
         "answers": [
             "Mervyn Peake"
         ],
-        "pageviews": 1093
+        "pageviews": 2
     },
     {
         "query_id": "50_112",
@@ -902,7 +630,7 @@
         "answers": [
             "Ann Leckie"
         ],
-        "pageviews": 96894
+        "pageviews": 8
     },
     {
         "query_id": "50_113",
@@ -910,7 +638,7 @@
         "answers": [
             "Paul Zindel"
         ],
-        "pageviews": 1466
+        "pageviews": 1
     },
     {
         "query_id": "50_114",
@@ -918,7 +646,7 @@
         "answers": [
             "John Evelyn"
         ],
-        "pageviews": 7352
+        "pageviews": 15
     },
     {
         "query_id": "50_115",
@@ -926,7 +654,7 @@
         "answers": [
             "Maxwell Anderson"
         ],
-        "pageviews": 4174
+        "pageviews": 15
     },
     {
         "query_id": "50_116",
@@ -934,7 +662,7 @@
         "answers": [
             "Elmer Rice"
         ],
-        "pageviews": 8828
+        "pageviews": 20
     },
     {
         "query_id": "50_117",
@@ -942,7 +670,7 @@
         "answers": [
             "Ashika Sakura"
         ],
-        "pageviews": 105637
+        "pageviews": 12
     },
     {
         "query_id": "50_118",
@@ -950,15 +678,7 @@
         "answers": [
             "Motoka Murakami"
         ],
-        "pageviews": 14569
-    },
-    {
-        "query_id": "50_119",
-        "question": "Who is the author of Night Without End?",
-        "answers": [
-            "Alistair MacLean"
-        ],
-        "pageviews": 0
+        "pageviews": 7
     },
     {
         "query_id": "50_120",
@@ -966,7 +686,7 @@
         "answers": [
             "Isaac Asimov"
         ],
-        "pageviews": 18362
+        "pageviews": 12
     },
     {
         "query_id": "50_121",
@@ -974,7 +694,7 @@
         "answers": [
             "Tove Jansson"
         ],
-        "pageviews": 4636
+        "pageviews": 4
     },
     {
         "query_id": "50_122",
@@ -982,7 +702,7 @@
         "answers": [
             "William Sleator"
         ],
-        "pageviews": 2066
+        "pageviews": 1
     },
     {
         "query_id": "50_123",
@@ -990,7 +710,7 @@
         "answers": [
             "David Feintuch"
         ],
-        "pageviews": 411
+        "pageviews": 3
     },
     {
         "query_id": "50_124",
@@ -998,7 +718,7 @@
         "answers": [
             "Rajiv Joseph"
         ],
-        "pageviews": 27658
+        "pageviews": 15
     },
     {
         "query_id": "50_125",
@@ -1007,15 +727,7 @@
             "Cherith Baldry",
             "Erin Hunter"
         ],
-        "pageviews": 9168
-    },
-    {
-        "query_id": "50_126",
-        "question": "Who is the author of Kagome Kagome?",
-        "answers": [
-            "Toshiki Yui"
-        ],
-        "pageviews": 3832
+        "pageviews": 3
     },
     {
         "query_id": "50_127",
@@ -1023,7 +735,7 @@
         "answers": [
             "Tom Stoppard"
         ],
-        "pageviews": 7476
+        "pageviews": 13
     },
     {
         "query_id": "50_128",
@@ -1031,7 +743,7 @@
         "answers": [
             "John Berger"
         ],
-        "pageviews": 92207
+        "pageviews": 18
     },
     {
         "query_id": "50_129",
@@ -1039,7 +751,7 @@
         "answers": [
             "Joe Masteroff"
         ],
-        "pageviews": 124648
+        "pageviews": 80
     },
     {
         "query_id": "50_130",
@@ -1047,7 +759,7 @@
         "answers": [
             "Jonathan Lethem"
         ],
-        "pageviews": 3818
+        "pageviews": 2
     },
     {
         "query_id": "50_131",
@@ -1055,23 +767,7 @@
         "answers": [
             "Clive Barker"
         ],
-        "pageviews": 29189
-    },
-    {
-        "query_id": "50_132",
-        "question": "Who is the author of G\u00f8dland?",
-        "answers": [
-            "Joe Casey"
-        ],
-        "pageviews": 0
-    },
-    {
-        "query_id": "50_133",
-        "question": "Who is the author of Demon Theory?",
-        "answers": [
-            "Stephen Graham Jones"
-        ],
-        "pageviews": 3276
+        "pageviews": 9
     },
     {
         "query_id": "50_134",
@@ -1079,7 +775,7 @@
         "answers": [
             "Wajdi Mouawad"
         ],
-        "pageviews": 29199
+        "pageviews": 5
     },
     {
         "query_id": "50_135",
@@ -1087,7 +783,7 @@
         "answers": [
             "Tennessee Williams"
         ],
-        "pageviews": 15743
+        "pageviews": 46
     },
     {
         "query_id": "50_136",
@@ -1095,7 +791,7 @@
         "answers": [
             "Bryan Burrough"
         ],
-        "pageviews": 4444
+        "pageviews": 1
     },
     {
         "query_id": "50_137",
@@ -1103,7 +799,7 @@
         "answers": [
             "Julia Sauer"
         ],
-        "pageviews": 1067
+        "pageviews": 2
     },
     {
         "query_id": "50_138",
@@ -1111,7 +807,7 @@
         "answers": [
             "Ian Christe"
         ],
-        "pageviews": 3012
+        "pageviews": 1
     },
     {
         "query_id": "50_139",
@@ -1119,7 +815,7 @@
         "answers": [
             "Fiona McIntosh"
         ],
-        "pageviews": 1644
+        "pageviews": 2
     },
     {
         "query_id": "50_140",
@@ -1127,7 +823,7 @@
         "answers": [
             "Octave Mirbeau"
         ],
-        "pageviews": 4416
+        "pageviews": 9
     },
     {
         "query_id": "50_141",
@@ -1135,7 +831,7 @@
         "answers": [
             "Clay Shirky"
         ],
-        "pageviews": 11393
+        "pageviews": 1
     },
     {
         "query_id": "50_142",
@@ -1143,31 +839,7 @@
         "answers": [
             "Theodore Taylor"
         ],
-        "pageviews": 63179
-    },
-    {
-        "query_id": "50_143",
-        "question": "Who is the author of Dharmarajyam?",
-        "answers": [
-            "Vaikom Muhammad Basheer"
-        ],
-        "pageviews": 1488
-    },
-    {
-        "query_id": "50_144",
-        "question": "Who is the author of Heaven and Hell?",
-        "answers": [
-            "Emmanuel Swedenborg"
-        ],
-        "pageviews": 19898
-    },
-    {
-        "query_id": "50_145",
-        "question": "Who is the author of Notes on the melody of things?",
-        "answers": [
-            "Rainer Maria Rilke"
-        ],
-        "pageviews": 181
+        "pageviews": 9
     },
     {
         "query_id": "50_146",
@@ -1175,7 +847,7 @@
         "answers": [
             "Blind Harry"
         ],
-        "pageviews": 38909
+        "pageviews": 8
     },
     {
         "query_id": "50_147",
@@ -1183,7 +855,7 @@
         "answers": [
             "Geoffrey Chaucer"
         ],
-        "pageviews": 11845
+        "pageviews": 7
     },
     {
         "query_id": "50_148",
@@ -1191,16 +863,7 @@
         "answers": [
             "P. D. Ouspensky"
         ],
-        "pageviews": 14716
-    },
-    {
-        "query_id": "50_149",
-        "question": "Who is the author of In My Time: A Personal and Political Memoir?",
-        "answers": [
-            "Dick Cheney",
-            "Elizabeth Cheney"
-        ],
-        "pageviews": 6045
+        "pageviews": 11
     },
     {
         "query_id": "50_150",
@@ -1208,7 +871,7 @@
         "answers": [
             "Athol Fugard"
         ],
-        "pageviews": 872
+        "pageviews": 1
     },
     {
         "query_id": "50_151",
@@ -1216,7 +879,7 @@
         "answers": [
             "Evelyn Waugh"
         ],
-        "pageviews": 12270
+        "pageviews": 13
     },
     {
         "query_id": "50_152",
@@ -1224,15 +887,7 @@
         "answers": [
             "Robert Penn Warren"
         ],
-        "pageviews": 3081
-    },
-    {
-        "query_id": "50_153",
-        "question": "Who is the author of MedStar II: Jedi Healer?",
-        "answers": [
-            "Michael Reaves"
-        ],
-        "pageviews": 658
+        "pageviews": 1
     },
     {
         "query_id": "50_154",
@@ -1240,7 +895,7 @@
         "answers": [
             "Albert Uderzo"
         ],
-        "pageviews": 8442
+        "pageviews": 5
     },
     {
         "query_id": "50_155",
@@ -1248,7 +903,7 @@
         "answers": [
             "John David Morley"
         ],
-        "pageviews": 659
+        "pageviews": 4
     },
     {
         "query_id": "50_156",
@@ -1256,7 +911,7 @@
         "answers": [
             "Pierre Christin"
         ],
-        "pageviews": 1798
+        "pageviews": 2
     },
     {
         "query_id": "50_157",
@@ -1265,15 +920,7 @@
             "Alesha Dixon",
             "Xenomania"
         ],
-        "pageviews": 2807
-    },
-    {
-        "query_id": "50_158",
-        "question": "Who is the author of Mad Dogs and Englishmen?",
-        "answers": [
-            "Paul Magrs"
-        ],
-        "pageviews": 1149
+        "pageviews": 8
     },
     {
         "query_id": "50_159",
@@ -1281,15 +928,7 @@
         "answers": [
             "Karel van Mander I"
         ],
-        "pageviews": 6194
-    },
-    {
-        "query_id": "50_160",
-        "question": "Who is the author of Star Wars: Darth Bane: Dynasty of Evil?",
-        "answers": [
-            "Drew Karpyshyn"
-        ],
-        "pageviews": 8885
+        "pageviews": 52
     },
     {
         "query_id": "50_161",
@@ -1297,7 +936,7 @@
         "answers": [
             "Rene Ray"
         ],
-        "pageviews": 1705
+        "pageviews": 3
     },
     {
         "query_id": "50_162",
@@ -1305,7 +944,7 @@
         "answers": [
             "Albert Camus"
         ],
-        "pageviews": 19948
+        "pageviews": 4
     },
     {
         "query_id": "50_163",
@@ -1313,7 +952,7 @@
         "answers": [
             "Lois McMaster Bujold"
         ],
-        "pageviews": 9909
+        "pageviews": 33
     },
     {
         "query_id": "50_164",
@@ -1322,7 +961,7 @@
             "Auguste Maquet",
             "Alexandre Dumas"
         ],
-        "pageviews": 1018015
+        "pageviews": 221
     },
     {
         "query_id": "50_165",
@@ -1330,7 +969,7 @@
         "answers": [
             "Elmer Rice"
         ],
-        "pageviews": 7357
+        "pageviews": 23
     },
     {
         "query_id": "50_166",
@@ -1338,15 +977,7 @@
         "answers": [
             "Marion Zimmer Bradley"
         ],
-        "pageviews": 3291
-    },
-    {
-        "query_id": "50_167",
-        "question": "Who is the author of In Sunlight and In Shadow?",
-        "answers": [
-            "Mark Helprin"
-        ],
-        "pageviews": 2046
+        "pageviews": 5
     },
     {
         "query_id": "50_168",
@@ -1354,7 +985,7 @@
         "answers": [
             "Oscar Wilde"
         ],
-        "pageviews": 8328
+        "pageviews": 7
     },
     {
         "query_id": "50_169",
@@ -1362,7 +993,7 @@
         "answers": [
             "Frederick Marryat"
         ],
-        "pageviews": 3326
+        "pageviews": 3
     },
     {
         "query_id": "50_170",
@@ -1370,7 +1001,7 @@
         "answers": [
             "Peter Carey"
         ],
-        "pageviews": 11247
+        "pageviews": 4
     },
     {
         "query_id": "50_171",
@@ -1378,7 +1009,7 @@
         "answers": [
             "Ben Lerner"
         ],
-        "pageviews": 15290
+        "pageviews": 3
     },
     {
         "query_id": "50_172",
@@ -1386,7 +1017,7 @@
         "answers": [
             "Arthur Conan Doyle"
         ],
-        "pageviews": 34624
+        "pageviews": 15
     },
     {
         "query_id": "50_173",
@@ -1394,15 +1025,7 @@
         "answers": [
             "Simone de Beauvoir"
         ],
-        "pageviews": 856
-    },
-    {
-        "query_id": "50_174",
-        "question": "Who is the author of The Carpentered Hen and Other Tame Creatures?",
-        "answers": [
-            "John Updike"
-        ],
-        "pageviews": 1219
+        "pageviews": 1
     },
     {
         "query_id": "50_175",
@@ -1410,7 +1033,7 @@
         "answers": [
             "Cicero"
         ],
-        "pageviews": 27153
+        "pageviews": 35
     },
     {
         "query_id": "50_176",
@@ -1418,7 +1041,7 @@
         "answers": [
             "Jacqueline Wilson"
         ],
-        "pageviews": 3339
+        "pageviews": 1
     },
     {
         "query_id": "50_177",
@@ -1427,7 +1050,7 @@
             "Yevgeny Petrov",
             "Ilya Ilf"
         ],
-        "pageviews": 38542
+        "pageviews": 34
     },
     {
         "query_id": "50_178",
@@ -1435,7 +1058,7 @@
         "answers": [
             "Sabina Magliocco"
         ],
-        "pageviews": 2458
+        "pageviews": 3
     },
     {
         "query_id": "50_179",
@@ -1443,7 +1066,7 @@
         "answers": [
             "Robert MacArthur"
         ],
-        "pageviews": 26913
+        "pageviews": 9
     },
     {
         "query_id": "50_180",
@@ -1451,7 +1074,7 @@
         "answers": [
             "Lord Byron"
         ],
-        "pageviews": 77888
+        "pageviews": 10
     },
     {
         "query_id": "50_181",
@@ -1459,15 +1082,7 @@
         "answers": [
             "Paul Celan"
         ],
-        "pageviews": 1987
-    },
-    {
-        "query_id": "50_182",
-        "question": "Who is the author of Trump: The Art of the Deal?",
-        "answers": [
-            "Donald Trump"
-        ],
-        "pageviews": 78598
+        "pageviews": 1
     },
     {
         "query_id": "50_183",
@@ -1475,15 +1090,7 @@
         "answers": [
             "Norah Vincent"
         ],
-        "pageviews": 495752
-    },
-    {
-        "query_id": "50_184",
-        "question": "Who is the author of Mrs. Medwin?",
-        "answers": [
-            "Henry James"
-        ],
-        "pageviews": 741
+        "pageviews": 3
     },
     {
         "query_id": "50_185",
@@ -1491,7 +1098,7 @@
         "answers": [
             "Mario Puzo"
         ],
-        "pageviews": 17980
+        "pageviews": 1
     },
     {
         "query_id": "50_186",
@@ -1499,15 +1106,7 @@
         "answers": [
             "Sinclair Lewis"
         ],
-        "pageviews": 2536
-    },
-    {
-        "query_id": "50_187",
-        "question": "Who is the author of The Newton Letter?",
-        "answers": [
-            "John Banville"
-        ],
-        "pageviews": 3378
+        "pageviews": 2
     },
     {
         "query_id": "50_188",
@@ -1515,7 +1114,7 @@
         "answers": [
             "Joy Fielding"
         ],
-        "pageviews": 6219
+        "pageviews": 2
     },
     {
         "query_id": "50_189",
@@ -1523,7 +1122,7 @@
         "answers": [
             "Tim Guest"
         ],
-        "pageviews": 4809
+        "pageviews": 2
     },
     {
         "query_id": "50_190",
@@ -1532,7 +1131,7 @@
             "William Goldman",
             "Mike Lupica"
         ],
-        "pageviews": 2359
+        "pageviews": 1
     },
     {
         "query_id": "50_191",
@@ -1540,15 +1139,7 @@
         "answers": [
             "Carolyn Keene"
         ],
-        "pageviews": 3729
-    },
-    {
-        "query_id": "50_192",
-        "question": "Who is the author of Sunlight on a Broken Column?",
-        "answers": [
-            "Attia Hosain"
-        ],
-        "pageviews": 9571
+        "pageviews": 2
     },
     {
         "query_id": "50_193",
@@ -1556,7 +1147,7 @@
         "answers": [
             "Jef Nys"
         ],
-        "pageviews": 8297
+        "pageviews": 9
     },
     {
         "query_id": "50_194",
@@ -1565,15 +1156,7 @@
             "Ted Hughes",
             "Peter Brook"
         ],
-        "pageviews": 2815
-    },
-    {
-        "query_id": "50_195",
-        "question": "Who is the author of Sometime Never: A Fable for Supermen?",
-        "answers": [
-            "Roald Dahl"
-        ],
-        "pageviews": 4700
+        "pageviews": 5
     },
     {
         "query_id": "50_196",
@@ -1581,15 +1164,7 @@
         "answers": [
             "Gore Vidal"
         ],
-        "pageviews": 24334
-    },
-    {
-        "query_id": "50_197",
-        "question": "Who is the author of You Have to Be Careful in the Land of the Free?",
-        "answers": [
-            "James Kelman"
-        ],
-        "pageviews": 1024
+        "pageviews": 14
     },
     {
         "query_id": "50_198",
@@ -1597,7 +1172,7 @@
         "answers": [
             "Agatha Christie"
         ],
-        "pageviews": 56183
+        "pageviews": 15
     },
     {
         "query_id": "50_199",
@@ -1605,7 +1180,7 @@
         "answers": [
             "Frank Herbert"
         ],
-        "pageviews": 4656
+        "pageviews": 1
     },
     {
         "query_id": "50_200",
@@ -1613,7 +1188,7 @@
         "answers": [
             "Eleanor Estes"
         ],
-        "pageviews": 7392
+        "pageviews": 6
     },
     {
         "query_id": "50_201",
@@ -1621,7 +1196,7 @@
         "answers": [
             "Walter Benjamin"
         ],
-        "pageviews": 34287
+        "pageviews": 8
     },
     {
         "query_id": "50_202",
@@ -1629,7 +1204,7 @@
         "answers": [
             "Jules Verne"
         ],
-        "pageviews": 35617
+        "pageviews": 19
     },
     {
         "query_id": "50_203",
@@ -1637,7 +1212,7 @@
         "answers": [
             "Vin\u00edcius de Moraes"
         ],
-        "pageviews": 7746
+        "pageviews": 9
     },
     {
         "query_id": "50_204",
@@ -1645,7 +1220,7 @@
         "answers": [
             "John Milton"
         ],
-        "pageviews": 68414
+        "pageviews": 40
     },
     {
         "query_id": "50_205",
@@ -1653,7 +1228,7 @@
         "answers": [
             "Robert Henryson"
         ],
-        "pageviews": 5107
+        "pageviews": 6
     },
     {
         "query_id": "50_206",
@@ -1661,7 +1236,7 @@
         "answers": [
             "Ernest Hemingway"
         ],
-        "pageviews": 17042
+        "pageviews": 3
     },
     {
         "query_id": "50_207",
@@ -1669,7 +1244,7 @@
         "answers": [
             "Abdulrazak Gurnah"
         ],
-        "pageviews": 11607
+        "pageviews": 1
     },
     {
         "query_id": "50_208",
@@ -1677,7 +1252,7 @@
         "answers": [
             "Lawrence Miles"
         ],
-        "pageviews": 2217
+        "pageviews": 3
     },
     {
         "query_id": "50_209",
@@ -1685,7 +1260,7 @@
         "answers": [
             "Augustine of Hippo"
         ],
-        "pageviews": 32106
+        "pageviews": 16
     },
     {
         "query_id": "50_210",
@@ -1693,7 +1268,7 @@
         "answers": [
             "Isabel Allende"
         ],
-        "pageviews": 17449
+        "pageviews": 5
     },
     {
         "query_id": "50_211",
@@ -1701,15 +1276,7 @@
         "answers": [
             "Edmund de Waal"
         ],
-        "pageviews": 52042
-    },
-    {
-        "query_id": "50_212",
-        "question": "Who is the author of Leite Derramado?",
-        "answers": [
-            "Chico Buarque"
-        ],
-        "pageviews": 1491
+        "pageviews": 10
     },
     {
         "query_id": "50_213",
@@ -1717,7 +1284,7 @@
         "answers": [
             "Chris Weston"
         ],
-        "pageviews": 14979
+        "pageviews": 8
     },
     {
         "query_id": "50_214",
@@ -1725,7 +1292,7 @@
         "answers": [
             "Henry Handel Richardson"
         ],
-        "pageviews": 4252
+        "pageviews": 8
     },
     {
         "query_id": "50_215",
@@ -1733,7 +1300,7 @@
         "answers": [
             "Stephen King"
         ],
-        "pageviews": 246143
+        "pageviews": 24
     },
     {
         "query_id": "50_216",
@@ -1741,15 +1308,7 @@
         "answers": [
             "David Chalmers"
         ],
-        "pageviews": 19564
-    },
-    {
-        "query_id": "50_217",
-        "question": "Who is the author of Jack-in-the-Box?",
-        "answers": [
-            "Ray Bradbury"
-        ],
-        "pageviews": 4195
+        "pageviews": 5
     },
     {
         "query_id": "50_218",
@@ -1757,7 +1316,7 @@
         "answers": [
             "Cao Xueqin"
         ],
-        "pageviews": 279399
+        "pageviews": 156
     },
     {
         "query_id": "50_219",
@@ -1765,7 +1324,7 @@
         "answers": [
             "Nami Akimoto"
         ],
-        "pageviews": 13708
+        "pageviews": 4
     },
     {
         "query_id": "50_220",
@@ -1773,7 +1332,7 @@
         "answers": [
             "George Elliott Clarke"
         ],
-        "pageviews": 1642
+        "pageviews": 5
     },
     {
         "query_id": "50_221",
@@ -1781,7 +1340,7 @@
         "answers": [
             "Walter Jon Williams"
         ],
-        "pageviews": 5262
+        "pageviews": 1
     },
     {
         "query_id": "50_222",
@@ -1789,7 +1348,7 @@
         "answers": [
             "Nikolai Leskov"
         ],
-        "pageviews": 1086
+        "pageviews": 1
     },
     {
         "query_id": "50_223",
@@ -1797,7 +1356,7 @@
         "answers": [
             "John Ruskin"
         ],
-        "pageviews": 45743
+        "pageviews": 20
     },
     {
         "query_id": "50_224",
@@ -1805,7 +1364,7 @@
         "answers": [
             "Paul Ernst"
         ],
-        "pageviews": 2539
+        "pageviews": 3
     },
     {
         "query_id": "50_225",
@@ -1813,7 +1372,7 @@
         "answers": [
             "August Derleth"
         ],
-        "pageviews": 2550
+        "pageviews": 1
     },
     {
         "query_id": "50_226",
@@ -1821,15 +1380,7 @@
         "answers": [
             "Go Nagai"
         ],
-        "pageviews": 533
-    },
-    {
-        "query_id": "50_227",
-        "question": "Who is the author of A Cry in the Night?",
-        "answers": [
-            "Mary Higgins Clark"
-        ],
-        "pageviews": 5313
+        "pageviews": 1
     },
     {
         "query_id": "50_228",
@@ -1837,7 +1388,7 @@
         "answers": [
             "Isaac Asimov"
         ],
-        "pageviews": 4133
+        "pageviews": 4
     },
     {
         "query_id": "50_229",
@@ -1845,7 +1396,7 @@
         "answers": [
             "Lois Duncan"
         ],
-        "pageviews": 30308
+        "pageviews": 10
     },
     {
         "query_id": "50_230",
@@ -1853,7 +1404,7 @@
         "answers": [
             "Nick Dear"
         ],
-        "pageviews": 49463
+        "pageviews": 18
     },
     {
         "query_id": "50_231",
@@ -1861,7 +1412,7 @@
         "answers": [
             "William Shakespeare"
         ],
-        "pageviews": 5185
+        "pageviews": 1
     },
     {
         "query_id": "50_232",
@@ -1869,47 +1420,7 @@
         "answers": [
             "Lloyd Jones"
         ],
-        "pageviews": 16452
-    },
-    {
-        "query_id": "50_233",
-        "question": "Who is the author of A Confusion of Princes?",
-        "answers": [
-            "Garth Nix"
-        ],
-        "pageviews": 3711
-    },
-    {
-        "query_id": "50_234",
-        "question": "Who is the author of Do Not Ask What Good We Do?",
-        "answers": [
-            "Robert Draper"
-        ],
-        "pageviews": 1383
-    },
-    {
-        "query_id": "50_235",
-        "question": "Who is the author of First Sorrow?",
-        "answers": [
-            "Franz Kafka"
-        ],
-        "pageviews": 3120
-    },
-    {
-        "query_id": "50_236",
-        "question": "Who is the author of Kid?",
-        "answers": [
-            "Simon Armitage"
-        ],
-        "pageviews": 1258
-    },
-    {
-        "query_id": "50_237",
-        "question": "Who is the author of The Cut Direct?",
-        "answers": [
-            "Phoebe Atwood Taylor"
-        ],
-        "pageviews": 987
+        "pageviews": 5
     },
     {
         "query_id": "50_238",
@@ -1917,7 +1428,7 @@
         "answers": [
             "Al Alvarez"
         ],
-        "pageviews": 3094
+        "pageviews": 5
     },
     {
         "query_id": "50_239",
@@ -1925,7 +1436,7 @@
         "answers": [
             "Gregory Maguire"
         ],
-        "pageviews": 107788
+        "pageviews": 2
     },
     {
         "query_id": "50_240",
@@ -1933,7 +1444,7 @@
         "answers": [
             "James Kahn"
         ],
-        "pageviews": 12445
+        "pageviews": 5
     },
     {
         "query_id": "50_241",
@@ -1941,7 +1452,7 @@
         "answers": [
             "Geraldine Brooks"
         ],
-        "pageviews": 25033
+        "pageviews": 3
     },
     {
         "query_id": "50_242",
@@ -1949,23 +1460,7 @@
         "answers": [
             "Simon Singh"
         ],
-        "pageviews": 9175
-    },
-    {
-        "query_id": "50_243",
-        "question": "Who is the author of Sputnik Caledonia?",
-        "answers": [
-            "Andrew Crumey"
-        ],
-        "pageviews": 826
-    },
-    {
-        "query_id": "50_244",
-        "question": "Who is the author of Of Time and Space and Other Things?",
-        "answers": [
-            "Isaac Asimov"
-        ],
-        "pageviews": 1657
+        "pageviews": 1
     },
     {
         "query_id": "50_245",
@@ -1973,7 +1468,7 @@
         "answers": [
             "Leah Purcell"
         ],
-        "pageviews": 2829
+        "pageviews": 3
     },
     {
         "query_id": "50_246",
@@ -1981,7 +1476,7 @@
         "answers": [
             "J. D. Salinger"
         ],
-        "pageviews": 87178
+        "pageviews": 16
     },
     {
         "query_id": "50_247",
@@ -1990,7 +1485,7 @@
             "Dan Simmons",
             "Stephen King"
         ],
-        "pageviews": 5332
+        "pageviews": 5
     },
     {
         "query_id": "50_248",
@@ -1998,7 +1493,7 @@
         "answers": [
             "Jodi Picoult"
         ],
-        "pageviews": 10231
+        "pageviews": 1
     },
     {
         "query_id": "50_249",
@@ -2006,7 +1501,7 @@
         "answers": [
             "Robert Kirkman"
         ],
-        "pageviews": 23611
+        "pageviews": 20
     },
     {
         "query_id": "50_250",
@@ -2014,7 +1509,7 @@
         "answers": [
             "Brian Cleeve"
         ],
-        "pageviews": 589
+        "pageviews": 2
     },
     {
         "query_id": "50_251",
@@ -2022,7 +1517,7 @@
         "answers": [
             "Carolyn Meyer"
         ],
-        "pageviews": 2255
+        "pageviews": 1
     },
     {
         "query_id": "50_252",
@@ -2030,7 +1525,7 @@
         "answers": [
             "Keizan"
         ],
-        "pageviews": 4094
+        "pageviews": 9
     },
     {
         "query_id": "50_253",
@@ -2038,7 +1533,7 @@
         "answers": [
             "Randall Garrett"
         ],
-        "pageviews": 1410
+        "pageviews": 3
     },
     {
         "query_id": "50_254",
@@ -2046,15 +1541,7 @@
         "answers": [
             "Mary Augusta Ward"
         ],
-        "pageviews": 1707
-    },
-    {
-        "query_id": "50_255",
-        "question": "Who is the author of Ciklamen?",
-        "answers": [
-            "Janko Kersnik"
-        ],
-        "pageviews": 781
+        "pageviews": 2
     },
     {
         "query_id": "50_256",
@@ -2062,7 +1549,7 @@
         "answers": [
             "James Joyce"
         ],
-        "pageviews": 46838
+        "pageviews": 11
     },
     {
         "query_id": "50_257",
@@ -2070,7 +1557,7 @@
         "answers": [
             "Patricia Cornwell"
         ],
-        "pageviews": 5319
+        "pageviews": 3
     },
     {
         "query_id": "50_258",
@@ -2078,7 +1565,7 @@
         "answers": [
             "Carl Barks"
         ],
-        "pageviews": 2711
+        "pageviews": 1
     },
     {
         "query_id": "50_259",
@@ -2086,7 +1573,7 @@
         "answers": [
             "David Garrick"
         ],
-        "pageviews": 2217
+        "pageviews": 5
     },
     {
         "query_id": "50_260",
@@ -2096,7 +1583,7 @@
             "Stewart McPherson",
             "Joachim Nerz"
         ],
-        "pageviews": 1024
+        "pageviews": 5
     },
     {
         "query_id": "50_261",
@@ -2104,15 +1591,7 @@
         "answers": [
             "Theodore Sturgeon"
         ],
-        "pageviews": 6231
-    },
-    {
-        "query_id": "50_262",
-        "question": "Who is the author of Love Ain't Nothing But Sex Misspelled?",
-        "answers": [
-            "Harlan Ellison"
-        ],
-        "pageviews": 3028
+        "pageviews": 5
     },
     {
         "query_id": "50_263",
@@ -2120,7 +1599,7 @@
         "answers": [
             "Michael Crichton"
         ],
-        "pageviews": 9216
+        "pageviews": 2
     },
     {
         "query_id": "50_264",
@@ -2128,23 +1607,7 @@
         "answers": [
             "Chris Boucher"
         ],
-        "pageviews": 1867
-    },
-    {
-        "query_id": "50_265",
-        "question": "Who is the author of L'Infini turbulent?",
-        "answers": [
-            "Henri Michaux"
-        ],
-        "pageviews": 1187
-    },
-    {
-        "query_id": "50_266",
-        "question": "Who is the author of Enchanted Glass?",
-        "answers": [
-            "Diana Wynne Jones"
-        ],
-        "pageviews": 3376
+        "pageviews": 2
     },
     {
         "query_id": "50_267",
@@ -2152,15 +1615,7 @@
         "answers": [
             "Allan Sherman"
         ],
-        "pageviews": 4529
-    },
-    {
-        "query_id": "50_268",
-        "question": "Who is the author of The Cup of Fury?",
-        "answers": [
-            "Upton Sinclair"
-        ],
-        "pageviews": 3723
+        "pageviews": 4
     },
     {
         "query_id": "50_269",
@@ -2168,7 +1623,7 @@
         "answers": [
             "Siegbert Tarrasch"
         ],
-        "pageviews": 1532
+        "pageviews": 2
     },
     {
         "query_id": "50_270",
@@ -2177,7 +1632,7 @@
             "Robert Ludlum",
             "Eric Van Lustbader"
         ],
-        "pageviews": 4820
+        "pageviews": 4
     },
     {
         "query_id": "50_271",
@@ -2185,7 +1640,7 @@
         "answers": [
             "Zhang Heng"
         ],
-        "pageviews": 1653
+        "pageviews": 1
     },
     {
         "query_id": "50_272",
@@ -2193,7 +1648,7 @@
         "answers": [
             "Nikolai Gogol"
         ],
-        "pageviews": 57690
+        "pageviews": 135
     },
     {
         "query_id": "50_273",
@@ -2201,15 +1656,7 @@
         "answers": [
             "Mario Vargas Llosa"
         ],
-        "pageviews": 34452
-    },
-    {
-        "query_id": "50_274",
-        "question": "Who is the author of Al Que Quiere!?",
-        "answers": [
-            "William Carlos Williams"
-        ],
-        "pageviews": 2001
+        "pageviews": 13
     },
     {
         "query_id": "50_275",
@@ -2217,23 +1664,7 @@
         "answers": [
             "Barbara Hambly"
         ],
-        "pageviews": 1054
-    },
-    {
-        "query_id": "50_276",
-        "question": "Who is the author of An Unfinished Life: John F. Kennedy, 1917\u20131963?",
-        "answers": [
-            "Robert Dallek"
-        ],
-        "pageviews": 4757
-    },
-    {
-        "query_id": "50_277",
-        "question": "Who is the author of Extensa?",
-        "answers": [
-            "Jacek Dukaj"
-        ],
-        "pageviews": 5322
+        "pageviews": 5
     },
     {
         "query_id": "50_278",
@@ -2241,7 +1672,7 @@
         "answers": [
             "Anton Chekhov"
         ],
-        "pageviews": 380868
+        "pageviews": 269
     },
     {
         "query_id": "50_279",
@@ -2249,7 +1680,7 @@
         "answers": [
             "Christopher Isherwood"
         ],
-        "pageviews": 8026
+        "pageviews": 17
     },
     {
         "query_id": "50_280",
@@ -2257,7 +1688,7 @@
         "answers": [
             "Gideon Defoe"
         ],
-        "pageviews": 2649
+        "pageviews": 1
     },
     {
         "query_id": "50_281",
@@ -2265,7 +1696,7 @@
         "answers": [
             "Tooru Fujisawa"
         ],
-        "pageviews": 15589
+        "pageviews": 3
     },
     {
         "query_id": "50_282",
@@ -2273,7 +1704,7 @@
         "answers": [
             "Edgar Allan Poe"
         ],
-        "pageviews": 34828
+        "pageviews": 15
     },
     {
         "query_id": "50_283",
@@ -2281,15 +1712,7 @@
         "answers": [
             "Sabrina Erdely"
         ],
-        "pageviews": 91704
-    },
-    {
-        "query_id": "50_284",
-        "question": "Who is the author of Final Impact?",
-        "answers": [
-            "John Birmingham"
-        ],
-        "pageviews": 5100
+        "pageviews": 11
     },
     {
         "query_id": "50_285",
@@ -2297,31 +1720,7 @@
         "answers": [
             "William Somerset Maugham"
         ],
-        "pageviews": 2980
-    },
-    {
-        "query_id": "50_286",
-        "question": "Who is the author of Ugly Americans: The True Story of the Ivy League Cowboys Who Raided the Asian Markets for Millions?",
-        "answers": [
-            "Ben Mezrich"
-        ],
-        "pageviews": 5253
-    },
-    {
-        "query_id": "50_287",
-        "question": "Who is the author of The Watchman?",
-        "answers": [
-            "Robert Crais"
-        ],
-        "pageviews": 1749
-    },
-    {
-        "query_id": "50_288",
-        "question": "Who is the author of Easy Go?",
-        "answers": [
-            "Michael Crichton"
-        ],
-        "pageviews": 4546
+        "pageviews": 9
     },
     {
         "query_id": "50_289",
@@ -2329,7 +1728,7 @@
         "answers": [
             "Fyodor Dostoyevsky"
         ],
-        "pageviews": 7955
+        "pageviews": 3
     },
     {
         "query_id": "50_290",
@@ -2337,39 +1736,7 @@
         "answers": [
             "Edgar Allan Poe"
         ],
-        "pageviews": 93412
-    },
-    {
-        "query_id": "50_291",
-        "question": "Who is the author of Serenity: Better Days?",
-        "answers": [
-            "Brett Matthews"
-        ],
-        "pageviews": 4176
-    },
-    {
-        "query_id": "50_292",
-        "question": "Who is the author of Worldwar: Upsetting the Balance?",
-        "answers": [
-            "Harry Turtledove"
-        ],
-        "pageviews": 7092
-    },
-    {
-        "query_id": "50_293",
-        "question": "Who is the author of Murder on the Nile?",
-        "answers": [
-            "Agatha Christie"
-        ],
-        "pageviews": 39615
-    },
-    {
-        "query_id": "50_294",
-        "question": "Who is the author of Hour Game?",
-        "answers": [
-            "David Baldacci"
-        ],
-        "pageviews": 4306
+        "pageviews": 48
     },
     {
         "query_id": "50_295",
@@ -2377,7 +1744,7 @@
         "answers": [
             "Lin Carter"
         ],
-        "pageviews": 1254
+        "pageviews": 2
     },
     {
         "query_id": "50_296",
@@ -2385,15 +1752,7 @@
         "answers": [
             "Isabel Allende"
         ],
-        "pageviews": 37293
-    },
-    {
-        "query_id": "50_297",
-        "question": "Who is the author of Tuli ja raud?",
-        "answers": [
-            "Karl Ristikivi"
-        ],
-        "pageviews": 437
+        "pageviews": 4
     },
     {
         "query_id": "50_298",
@@ -2401,15 +1760,7 @@
         "answers": [
             "Ngaio Marsh"
         ],
-        "pageviews": 3018
-    },
-    {
-        "query_id": "50_299",
-        "question": "Who is the author of Orange Is the New Black: My Year in a Women's Prison?",
-        "answers": [
-            "Piper Kerman"
-        ],
-        "pageviews": 78832
+        "pageviews": 5
     },
     {
         "query_id": "50_300",
@@ -2417,7 +1768,7 @@
         "answers": [
             "Charlaine Harris"
         ],
-        "pageviews": 8385
+        "pageviews": 18
     },
     {
         "query_id": "50_301",
@@ -2426,15 +1777,7 @@
             "Brandon Sanderson",
             "Robert Jordan"
         ],
-        "pageviews": 71359
-    },
-    {
-        "query_id": "50_302",
-        "question": "Who is the author of The Unfinished Revolution?",
-        "answers": [
-            "Michael Dertouzos"
-        ],
-        "pageviews": 967
+        "pageviews": 21
     },
     {
         "query_id": "50_303",
@@ -2442,7 +1785,7 @@
         "answers": [
             "Cicero"
         ],
-        "pageviews": 5305
+        "pageviews": 3
     },
     {
         "query_id": "50_304",
@@ -2450,7 +1793,7 @@
         "answers": [
             "August Derleth"
         ],
-        "pageviews": 822
+        "pageviews": 2
     },
     {
         "query_id": "50_305",
@@ -2458,7 +1801,7 @@
         "answers": [
             "Ida Tarbell"
         ],
-        "pageviews": 21896
+        "pageviews": 13
     },
     {
         "query_id": "50_306",
@@ -2466,7 +1809,7 @@
         "answers": [
             "Leo Tolstoy"
         ],
-        "pageviews": 59899
+        "pageviews": 4
     },
     {
         "query_id": "50_307",
@@ -2474,7 +1817,7 @@
         "answers": [
             "Paula Vogel"
         ],
-        "pageviews": 3034
+        "pageviews": 6
     },
     {
         "query_id": "50_308",
@@ -2482,7 +1825,7 @@
         "answers": [
             "Primo Levi"
         ],
-        "pageviews": 3948
+        "pageviews": 1
     },
     {
         "query_id": "50_309",
@@ -2490,7 +1833,7 @@
         "answers": [
             "James Ellroy"
         ],
-        "pageviews": 39239
+        "pageviews": 13
     },
     {
         "query_id": "50_310",
@@ -2498,15 +1841,7 @@
         "answers": [
             "Ivan Shishkin"
         ],
-        "pageviews": 46401
-    },
-    {
-        "query_id": "50_311",
-        "question": "Who is the author of Dionysian-Dithyrambs?",
-        "answers": [
-            "Friedrich Nietzsche"
-        ],
-        "pageviews": 163
+        "pageviews": 1
     },
     {
         "query_id": "50_312",
@@ -2514,7 +1849,7 @@
         "answers": [
             "H. Rider Haggard"
         ],
-        "pageviews": 1770
+        "pageviews": 2
     },
     {
         "query_id": "50_313",
@@ -2522,7 +1857,7 @@
         "answers": [
             "Philip Pullman"
         ],
-        "pageviews": 3429
+        "pageviews": 1
     },
     {
         "query_id": "50_314",
@@ -2530,7 +1865,7 @@
         "answers": [
             "Fyodor Dostoyevsky"
         ],
-        "pageviews": 4436
+        "pageviews": 1
     },
     {
         "query_id": "50_315",
@@ -2538,7 +1873,7 @@
         "answers": [
             "Tim Bowler"
         ],
-        "pageviews": 1755
+        "pageviews": 1
     },
     {
         "query_id": "50_316",
@@ -2546,7 +1881,7 @@
         "answers": [
             "Judith Jarvis Thomson"
         ],
-        "pageviews": 130696
+        "pageviews": 5
     },
     {
         "query_id": "50_317",
@@ -2554,7 +1889,7 @@
         "answers": [
             "Sharon Shinn"
         ],
-        "pageviews": 2289
+        "pageviews": 2
     },
     {
         "query_id": "50_318",
@@ -2562,7 +1897,7 @@
         "answers": [
             "Sophie Kinsella"
         ],
-        "pageviews": 17390
+        "pageviews": 4
     },
     {
         "query_id": "50_319",
@@ -2570,7 +1905,7 @@
         "answers": [
             "Paul of Aegina"
         ],
-        "pageviews": 2226
+        "pageviews": 4
     },
     {
         "query_id": "50_320",
@@ -2578,15 +1913,7 @@
         "answers": [
             "Naked Capitalism"
         ],
-        "pageviews": 1595
-    },
-    {
-        "query_id": "50_321",
-        "question": "Who is the author of The Landlady?",
-        "answers": [
-            "Roald Dahl"
-        ],
-        "pageviews": 81897
+        "pageviews": 1
     },
     {
         "query_id": "50_322",
@@ -2594,15 +1921,7 @@
         "answers": [
             "Edward Lazarus"
         ],
-        "pageviews": 2775
-    },
-    {
-        "query_id": "50_323",
-        "question": "Who is the author of Procedures for Underground?",
-        "answers": [
-            "Margaret Atwood"
-        ],
-        "pageviews": 1644
+        "pageviews": 2
     },
     {
         "query_id": "50_324",
@@ -2610,7 +1929,7 @@
         "answers": [
             "Steve Martin"
         ],
-        "pageviews": 3709
+        "pageviews": 8
     },
     {
         "query_id": "50_325",
@@ -2618,7 +1937,7 @@
         "answers": [
             "Cicero"
         ],
-        "pageviews": 9143
+        "pageviews": 12
     },
     {
         "query_id": "50_326",
@@ -2626,7 +1945,7 @@
         "answers": [
             "John Irving"
         ],
-        "pageviews": 7720
+        "pageviews": 3
     },
     {
         "query_id": "50_327",
@@ -2634,7 +1953,7 @@
         "answers": [
             "William Shakespeare"
         ],
-        "pageviews": 14263
+        "pageviews": 1
     },
     {
         "query_id": "50_328",
@@ -2642,7 +1961,7 @@
         "answers": [
             "David Greig"
         ],
-        "pageviews": 7873
+        "pageviews": 7
     },
     {
         "query_id": "50_329",
@@ -2650,7 +1969,7 @@
         "answers": [
             "Max Beerbohm"
         ],
-        "pageviews": 6699
+        "pageviews": 8
     },
     {
         "query_id": "50_330",
@@ -2658,7 +1977,7 @@
         "answers": [
             "Moss Hart"
         ],
-        "pageviews": 4760
+        "pageviews": 30
     },
     {
         "query_id": "50_331",
@@ -2666,7 +1985,7 @@
         "answers": [
             "Menachem Mendel Schneerson"
         ],
-        "pageviews": 2853
+        "pageviews": 6
     },
     {
         "query_id": "50_332",
@@ -2674,15 +1993,7 @@
         "answers": [
             "Robert Browning"
         ],
-        "pageviews": 12249
-    },
-    {
-        "query_id": "50_333",
-        "question": "Who is the author of Good Morning, Holy Spirit?",
-        "answers": [
-            "Benny Hinn"
-        ],
-        "pageviews": 5572
+        "pageviews": 4
     },
     {
         "query_id": "50_334",
@@ -2690,7 +2001,7 @@
         "answers": [
             "Paul Howard"
         ],
-        "pageviews": 992
+        "pageviews": 3
     },
     {
         "query_id": "50_335",
@@ -2698,7 +2009,7 @@
         "answers": [
             "Leonardo Sciascia"
         ],
-        "pageviews": 5087
+        "pageviews": 3
     },
     {
         "query_id": "50_336",
@@ -2706,15 +2017,7 @@
         "answers": [
             "Mona Simpson"
         ],
-        "pageviews": 7857
-    },
-    {
-        "query_id": "50_337",
-        "question": "Who is the author of Transients and Other Disquieting Stories?",
-        "answers": [
-            "Darrell Schweitzer"
-        ],
-        "pageviews": 521
+        "pageviews": 2
     },
     {
         "query_id": "50_338",
@@ -2722,7 +2025,7 @@
         "answers": [
             "H. P. Lovecraft"
         ],
-        "pageviews": 38243
+        "pageviews": 8
     },
     {
         "query_id": "50_339",
@@ -2730,7 +2033,7 @@
         "answers": [
             "Robert Ludlum"
         ],
-        "pageviews": 6680
+        "pageviews": 1
     },
     {
         "query_id": "50_340",
@@ -2738,7 +2041,7 @@
         "answers": [
             "Brendan DuBois"
         ],
-        "pageviews": 13990
+        "pageviews": 3
     },
     {
         "query_id": "50_341",
@@ -2746,7 +2049,7 @@
         "answers": [
             "John Scalzi"
         ],
-        "pageviews": 7934
+        "pageviews": 2
     },
     {
         "query_id": "50_342",
@@ -2754,7 +2057,7 @@
         "answers": [
             "Theodor Fontane"
         ],
-        "pageviews": 28249
+        "pageviews": 24
     },
     {
         "query_id": "50_343",
@@ -2762,7 +2065,7 @@
         "answers": [
             "Steve Gerber"
         ],
-        "pageviews": 4086
+        "pageviews": 6
     },
     {
         "query_id": "50_344",
@@ -2770,7 +2073,7 @@
         "answers": [
             "Mary Stewart"
         ],
-        "pageviews": 7111
+        "pageviews": 4
     },
     {
         "query_id": "50_345",
@@ -2778,7 +2081,7 @@
         "answers": [
             "Stan Lee"
         ],
-        "pageviews": 732005
+        "pageviews": 1083
     },
     {
         "query_id": "50_346",
@@ -2786,7 +2089,7 @@
         "answers": [
             "Saparmurat Niyazov"
         ],
-        "pageviews": 44551
+        "pageviews": 19
     },
     {
         "query_id": "50_347",
@@ -2794,7 +2097,7 @@
         "answers": [
             "Neil Sloane"
         ],
-        "pageviews": 102552
+        "pageviews": 559
     },
     {
         "query_id": "50_348",
@@ -2802,7 +2105,7 @@
         "answers": [
             "Lynn Flewelling"
         ],
-        "pageviews": 1630
+        "pageviews": 5
     },
     {
         "query_id": "50_349",
@@ -2810,7 +2113,7 @@
         "answers": [
             "Chris Van Allsburg"
         ],
-        "pageviews": 6734
+        "pageviews": 1
     },
     {
         "query_id": "50_350",
@@ -2818,7 +2121,7 @@
         "answers": [
             "Robert Louis Stevenson"
         ],
-        "pageviews": 3342
+        "pageviews": 3
     },
     {
         "query_id": "50_351",
@@ -2826,15 +2129,7 @@
         "answers": [
             "Robert Ludlum"
         ],
-        "pageviews": 8293
-    },
-    {
-        "query_id": "50_352",
-        "question": "Who is the author of The Legend of the Emerald Lady?",
-        "answers": [
-            "Carolyn Keene"
-        ],
-        "pageviews": 1023
+        "pageviews": 9
     },
     {
         "query_id": "50_353",
@@ -2842,15 +2137,7 @@
         "answers": [
             "Karen Chance"
         ],
-        "pageviews": 1668
-    },
-    {
-        "query_id": "50_354",
-        "question": "Who is the author of The Silver Spike?",
-        "answers": [
-            "Glen Cook"
-        ],
-        "pageviews": 4392
+        "pageviews": 1
     },
     {
         "query_id": "50_355",
@@ -2858,15 +2145,7 @@
         "answers": [
             "Gregory Benford"
         ],
-        "pageviews": 16508
-    },
-    {
-        "query_id": "50_356",
-        "question": "Who is the author of A Calculus of Angels?",
-        "answers": [
-            "Gregory Keyes"
-        ],
-        "pageviews": 1557
+        "pageviews": 9
     },
     {
         "query_id": "50_357",
@@ -2874,7 +2153,7 @@
         "answers": [
             "Ben Jonson"
         ],
-        "pageviews": 1763
+        "pageviews": 6
     },
     {
         "query_id": "50_358",
@@ -2882,7 +2161,7 @@
         "answers": [
             "Henryk Grynberg"
         ],
-        "pageviews": 2682
+        "pageviews": 2
     },
     {
         "query_id": "50_359",
@@ -2890,7 +2169,7 @@
         "answers": [
             "Paul Otlet"
         ],
-        "pageviews": 2223
+        "pageviews": 2
     },
     {
         "query_id": "50_360",
@@ -2898,7 +2177,7 @@
         "answers": [
             "Jean Genet"
         ],
-        "pageviews": 22830
+        "pageviews": 40
     },
     {
         "query_id": "50_361",
@@ -2906,7 +2185,7 @@
         "answers": [
             "Neil Simon"
         ],
-        "pageviews": 14662
+        "pageviews": 21
     },
     {
         "query_id": "50_362",
@@ -2914,7 +2193,7 @@
         "answers": [
             "Sinclair Lewis"
         ],
-        "pageviews": 2420
+        "pageviews": 2
     },
     {
         "query_id": "50_363",
@@ -2922,7 +2201,7 @@
         "answers": [
             "David Weber"
         ],
-        "pageviews": 3587
+        "pageviews": 4
     },
     {
         "query_id": "50_364",
@@ -2930,7 +2209,7 @@
         "answers": [
             "Florence Parry Heide"
         ],
-        "pageviews": 1068
+        "pageviews": 1
     },
     {
         "query_id": "50_365",
@@ -2938,7 +2217,7 @@
         "answers": [
             "C. J. Cherryh"
         ],
-        "pageviews": 13943
+        "pageviews": 11
     },
     {
         "query_id": "50_366",
@@ -2946,7 +2225,7 @@
         "answers": [
             "John Grisham"
         ],
-        "pageviews": 16949
+        "pageviews": 5
     },
     {
         "query_id": "50_367",
@@ -2954,23 +2233,7 @@
         "answers": [
             "Sergey Nechayev"
         ],
-        "pageviews": 12675
-    },
-    {
-        "query_id": "50_368",
-        "question": "Who is the author of Perceiving God?",
-        "answers": [
-            "William Alston"
-        ],
-        "pageviews": 2249
-    },
-    {
-        "query_id": "50_369",
-        "question": "Who is the author of Don't Be Such a Scientist?",
-        "answers": [
-            "Randy Olson"
-        ],
-        "pageviews": 1125
+        "pageviews": 5
     },
     {
         "query_id": "50_370",
@@ -2978,7 +2241,7 @@
         "answers": [
             "Leslie Charteris"
         ],
-        "pageviews": 1221
+        "pageviews": 4
     },
     {
         "query_id": "50_371",
@@ -2987,7 +2250,7 @@
             "Margaret Weis",
             "Tracy Hickman"
         ],
-        "pageviews": 47515
+        "pageviews": 8
     },
     {
         "query_id": "50_372",
@@ -2995,15 +2258,7 @@
         "answers": [
             "Carson McCullers"
         ],
-        "pageviews": 32430
-    },
-    {
-        "query_id": "50_373",
-        "question": "Who is the author of Fairy Tales?",
-        "answers": [
-            "Terry Jones"
-        ],
-        "pageviews": 2017
+        "pageviews": 27
     },
     {
         "query_id": "50_374",
@@ -3011,23 +2266,7 @@
         "answers": [
             "Muhammad Zakariya Kandhalawi"
         ],
-        "pageviews": 36119
-    },
-    {
-        "query_id": "50_375",
-        "question": "Who is the author of One of the Family?",
-        "answers": [
-            "Monica Dickens"
-        ],
-        "pageviews": 1680
-    },
-    {
-        "query_id": "50_376",
-        "question": "Who is the author of Blast from the Past?",
-        "answers": [
-            "Ben Elton"
-        ],
-        "pageviews": 3602
+        "pageviews": 1
     },
     {
         "query_id": "50_377",
@@ -3035,7 +2274,7 @@
         "answers": [
             "Kenneth Grahame"
         ],
-        "pageviews": 16312
+        "pageviews": 5
     },
     {
         "query_id": "50_378",
@@ -3043,7 +2282,7 @@
         "answers": [
             "Maeve Binchy"
         ],
-        "pageviews": 3643
+        "pageviews": 4
     },
     {
         "query_id": "50_379",
@@ -3051,7 +2290,7 @@
         "answers": [
             "John Howard Griffin"
         ],
-        "pageviews": 105585
+        "pageviews": 26
     },
     {
         "query_id": "50_380",
@@ -3059,7 +2298,7 @@
         "answers": [
             "Eric Partridge"
         ],
-        "pageviews": 5742
+        "pageviews": 3
     },
     {
         "query_id": "50_381",
@@ -3067,7 +2306,7 @@
         "answers": [
             "Andrew Greig"
         ],
-        "pageviews": 1520
+        "pageviews": 3
     },
     {
         "query_id": "50_382",
@@ -3075,15 +2314,7 @@
         "answers": [
             "Michiko Yokote"
         ],
-        "pageviews": 70586
-    },
-    {
-        "query_id": "50_383",
-        "question": "Who is the author of The Treasure of Vaghia?",
-        "answers": [
-            "Georges Sari"
-        ],
-        "pageviews": 935
+        "pageviews": 9
     },
     {
         "query_id": "50_384",
@@ -3091,7 +2322,7 @@
         "answers": [
             "Stephen Jones"
         ],
-        "pageviews": 4386
+        "pageviews": 1
     },
     {
         "query_id": "50_385",
@@ -3099,7 +2330,7 @@
         "answers": [
             "Claire Messud"
         ],
-        "pageviews": 8964
+        "pageviews": 1
     },
     {
         "query_id": "50_386",
@@ -3107,7 +2338,7 @@
         "answers": [
             "Eugene Burdick"
         ],
-        "pageviews": 2859
+        "pageviews": 1
     },
     {
         "query_id": "50_387",
@@ -3115,7 +2346,7 @@
         "answers": [
             "Dominic Selwood"
         ],
-        "pageviews": 3908
+        "pageviews": 7
     },
     {
         "query_id": "50_388",
@@ -3123,7 +2354,7 @@
         "answers": [
             "Marc Reisner"
         ],
-        "pageviews": 39231
+        "pageviews": 11
     },
     {
         "query_id": "50_389",
@@ -3131,7 +2362,7 @@
         "answers": [
             "Walt Morey"
         ],
-        "pageviews": 3942
+        "pageviews": 1
     },
     {
         "query_id": "50_390",
@@ -3139,7 +2370,7 @@
         "answers": [
             "Terry Pratchett"
         ],
-        "pageviews": 35352
+        "pageviews": 16
     },
     {
         "query_id": "50_391",
@@ -3147,7 +2378,7 @@
         "answers": [
             "Jim Starlin"
         ],
-        "pageviews": 7573
+        "pageviews": 28
     },
     {
         "query_id": "50_392",
@@ -3155,7 +2386,7 @@
         "answers": [
             "Patrick Marber"
         ],
-        "pageviews": 59396
+        "pageviews": 43
     },
     {
         "query_id": "50_393",
@@ -3163,7 +2394,7 @@
         "answers": [
             "Peter Matthiessen"
         ],
-        "pageviews": 15617
+        "pageviews": 4
     },
     {
         "query_id": "50_394",
@@ -3171,23 +2402,7 @@
         "answers": [
             "Orson Scott Card"
         ],
-        "pageviews": 3268
-    },
-    {
-        "query_id": "50_395",
-        "question": "Who is the author of The Smile that Wins?",
-        "answers": [
-            "P. G. Wodehouse"
-        ],
-        "pageviews": 909
-    },
-    {
-        "query_id": "50_396",
-        "question": "Who is the author of The Fox Effect?",
-        "answers": [
-            "David Brock"
-        ],
-        "pageviews": 3699
+        "pageviews": 3
     },
     {
         "query_id": "50_397",
@@ -3195,7 +2410,7 @@
         "answers": [
             "Ion Idriess"
         ],
-        "pageviews": 1607
+        "pageviews": 1
     },
     {
         "query_id": "50_398",
@@ -3203,15 +2418,7 @@
         "answers": [
             "Emma Orczy"
         ],
-        "pageviews": 3461
-    },
-    {
-        "query_id": "50_399",
-        "question": "Who is the author of Pyrrhus and Cineas?",
-        "answers": [
-            "Simone de Beauvoir"
-        ],
-        "pageviews": 4786
+        "pageviews": 4
     },
     {
         "query_id": "50_400",
@@ -3219,7 +2426,7 @@
         "answers": [
             "Harold Bloom"
         ],
-        "pageviews": 27938
+        "pageviews": 16
     },
     {
         "query_id": "50_401",
@@ -3227,7 +2434,7 @@
         "answers": [
             "Frederic Louis Norden"
         ],
-        "pageviews": 2351
+        "pageviews": 6
     },
     {
         "query_id": "50_402",
@@ -3235,7 +2442,7 @@
         "answers": [
             "Robert Jordan"
         ],
-        "pageviews": 57048
+        "pageviews": 5
     },
     {
         "query_id": "50_403",
@@ -3243,15 +2450,7 @@
         "answers": [
             "Matthew Gregory Lewis"
         ],
-        "pageviews": 95840
-    },
-    {
-        "query_id": "50_404",
-        "question": "Who is the author of The Midas Coffin?",
-        "answers": [
-            "Martin Cruz Smith"
-        ],
-        "pageviews": 1042
+        "pageviews": 60
     },
     {
         "query_id": "50_405",
@@ -3259,7 +2458,7 @@
         "answers": [
             "Michael Moorcock"
         ],
-        "pageviews": 6183
+        "pageviews": 4
     },
     {
         "query_id": "50_406",
@@ -3267,7 +2466,7 @@
         "answers": [
             "Agatha Christie"
         ],
-        "pageviews": 42654
+        "pageviews": 9
     },
     {
         "query_id": "50_407",
@@ -3275,7 +2474,7 @@
         "answers": [
             "Brandon Sanderson"
         ],
-        "pageviews": 117294
+        "pageviews": 3
     },
     {
         "query_id": "50_408",
@@ -3283,7 +2482,7 @@
         "answers": [
             "Djamaluddin Adinegoro"
         ],
-        "pageviews": 1391
+        "pageviews": 4
     },
     {
         "query_id": "50_409",
@@ -3291,15 +2490,7 @@
         "answers": [
             "Rudyard Kipling"
         ],
-        "pageviews": 27934
-    },
-    {
-        "query_id": "50_410",
-        "question": "Who is the author of The Sweetest Dream?",
-        "answers": [
-            "Doris Lessing"
-        ],
-        "pageviews": 3253
+        "pageviews": 10
     },
     {
         "query_id": "50_411",
@@ -3307,7 +2498,7 @@
         "answers": [
             "Mike Bartlett"
         ],
-        "pageviews": 6346
+        "pageviews": 10
     },
     {
         "query_id": "50_412",
@@ -3315,7 +2506,7 @@
         "answers": [
             "Simon McBurney"
         ],
-        "pageviews": 9041
+        "pageviews": 9
     },
     {
         "query_id": "50_413",
@@ -3323,15 +2514,7 @@
         "answers": [
             "Thomas Merton"
         ],
-        "pageviews": 38701
-    },
-    {
-        "query_id": "50_414",
-        "question": "Who is the author of Hocus Bogus?",
-        "answers": [
-            "Romain Gary"
-        ],
-        "pageviews": 1939
+        "pageviews": 14
     },
     {
         "query_id": "50_415",
@@ -3339,7 +2522,7 @@
         "answers": [
             "Lie Yukou"
         ],
-        "pageviews": 22914
+        "pageviews": 35
     },
     {
         "query_id": "50_416",
@@ -3347,15 +2530,7 @@
         "answers": [
             "Octave Mirbeau"
         ],
-        "pageviews": 1648
-    },
-    {
-        "query_id": "50_417",
-        "question": "Who is the author of The Eight of Swords?",
-        "answers": [
-            "John Dickson Carr"
-        ],
-        "pageviews": 1979
+        "pageviews": 1
     },
     {
         "query_id": "50_418",
@@ -3363,7 +2538,7 @@
         "answers": [
             "Stephen Goldin"
         ],
-        "pageviews": 1304
+        "pageviews": 1
     },
     {
         "query_id": "50_419",
@@ -3371,7 +2546,7 @@
         "answers": [
             "Carl Linnaeus"
         ],
-        "pageviews": 4028
+        "pageviews": 10
     },
     {
         "query_id": "50_420",
@@ -3379,15 +2554,7 @@
         "answers": [
             "Gore Vidal"
         ],
-        "pageviews": 5909
-    },
-    {
-        "query_id": "50_421",
-        "question": "Who is the author of The Translator's Invisibility?",
-        "answers": [
-            "Lawrence Venuti"
-        ],
-        "pageviews": 7186
+        "pageviews": 3
     },
     {
         "query_id": "50_422",
@@ -3395,7 +2562,7 @@
         "answers": [
             "Michael Shaara"
         ],
-        "pageviews": 61506
+        "pageviews": 42
     },
     {
         "query_id": "50_423",
@@ -3403,7 +2570,7 @@
         "answers": [
             "Thomas Pynchon"
         ],
-        "pageviews": 340847
+        "pageviews": 94
     },
     {
         "query_id": "50_424",
@@ -3411,7 +2578,7 @@
         "answers": [
             "Karl Marx"
         ],
-        "pageviews": 79894
+        "pageviews": 8
     },
     {
         "query_id": "50_425",
@@ -3419,15 +2586,7 @@
         "answers": [
             "Stephen Belber"
         ],
-        "pageviews": 5184
-    },
-    {
-        "query_id": "50_426",
-        "question": "Who is the author of Sergeant Chip?",
-        "answers": [
-            "Bradley Denton"
-        ],
-        "pageviews": 732
+        "pageviews": 5
     },
     {
         "query_id": "50_427",
@@ -3435,7 +2594,7 @@
         "answers": [
             "S. Ansky"
         ],
-        "pageviews": 25940
+        "pageviews": 56
     },
     {
         "query_id": "50_428",
@@ -3443,7 +2602,7 @@
         "answers": [
             "Henry VIII of England"
         ],
-        "pageviews": 12938
+        "pageviews": 7
     },
     {
         "query_id": "50_429",
@@ -3451,7 +2610,7 @@
         "answers": [
             "Carl Zuckmayer"
         ],
-        "pageviews": 6189
+        "pageviews": 20
     },
     {
         "query_id": "50_430",
@@ -3459,15 +2618,7 @@
         "answers": [
             "Juan Bautista Alberdi"
         ],
-        "pageviews": 663
-    },
-    {
-        "query_id": "50_431",
-        "question": "Who is the author of The Royal Pain?",
-        "answers": [
-            "MaryJanice Davidson"
-        ],
-        "pageviews": 482
+        "pageviews": 1
     },
     {
         "query_id": "50_432",
@@ -3475,23 +2626,7 @@
         "answers": [
             "Norman Maclean"
         ],
-        "pageviews": 80941
-    },
-    {
-        "query_id": "50_433",
-        "question": "Who is the author of Granny Made Me an Anarchist?",
-        "answers": [
-            "Stuart Christie"
-        ],
-        "pageviews": 194
-    },
-    {
-        "query_id": "50_434",
-        "question": "Who is the author of The Last Resort?",
-        "answers": [
-            "Paul Leonard"
-        ],
-        "pageviews": 905
+        "pageviews": 24
     },
     {
         "query_id": "50_435",
@@ -3499,7 +2634,7 @@
         "answers": [
             "Edith Maude Hull"
         ],
-        "pageviews": 14745
+        "pageviews": 10
     },
     {
         "query_id": "50_436",
@@ -3507,7 +2642,7 @@
         "answers": [
             "Lauren Kate"
         ],
-        "pageviews": 23090
+        "pageviews": 4
     },
     {
         "query_id": "50_437",
@@ -3515,7 +2650,7 @@
         "answers": [
             "Jacqueline Wilson"
         ],
-        "pageviews": 22311
+        "pageviews": 8
     },
     {
         "query_id": "50_438",
@@ -3523,15 +2658,7 @@
         "answers": [
             "Ian Stevenson"
         ],
-        "pageviews": 34436
-    },
-    {
-        "query_id": "50_439",
-        "question": "Who is the author of Kryptonite?",
-        "answers": [
-            "Darwyn Cooke"
-        ],
-        "pageviews": 3267
+        "pageviews": 4
     },
     {
         "query_id": "50_440",
@@ -3539,7 +2666,7 @@
         "answers": [
             "Margaret Kennedy"
         ],
-        "pageviews": 24033
+        "pageviews": 14
     },
     {
         "query_id": "50_441",
@@ -3548,7 +2675,7 @@
             "Gavin Baddeley",
             "Dani Filth"
         ],
-        "pageviews": 4081
+        "pageviews": 5
     },
     {
         "query_id": "50_442",
@@ -3556,7 +2683,7 @@
         "answers": [
             "Pete Townshend"
         ],
-        "pageviews": 7183
+        "pageviews": 7
     },
     {
         "query_id": "50_443",
@@ -3564,7 +2691,7 @@
         "answers": [
             "Paul Kurtz"
         ],
-        "pageviews": 16228
+        "pageviews": 72
     },
     {
         "query_id": "50_444",
@@ -3572,15 +2699,7 @@
         "answers": [
             "Niall Griffiths"
         ],
-        "pageviews": 1539
-    },
-    {
-        "query_id": "50_445",
-        "question": "Who is the author of Janissaries III: Storms of Victory?",
-        "answers": [
-            "Jerry Pournelle"
-        ],
-        "pageviews": 1650
+        "pageviews": 3
     },
     {
         "query_id": "50_446",
@@ -3588,7 +2707,7 @@
         "answers": [
             "Alice Bradley Sheldon"
         ],
-        "pageviews": 1683
+        "pageviews": 2
     },
     {
         "query_id": "50_447",
@@ -3596,15 +2715,7 @@
         "answers": [
             "Joanna Russ"
         ],
-        "pageviews": 1458
-    },
-    {
-        "query_id": "50_448",
-        "question": "Who is the author of I'm Feeling Lucky?",
-        "answers": [
-            "Douglas Edwards"
-        ],
-        "pageviews": 12058
+        "pageviews": 1
     },
     {
         "query_id": "50_449",
@@ -3612,7 +2723,7 @@
         "answers": [
             "Maxim Gorki"
         ],
-        "pageviews": 8300
+        "pageviews": 6
     },
     {
         "query_id": "50_450",
@@ -3620,15 +2731,7 @@
         "answers": [
             "Gail Caldwell"
         ],
-        "pageviews": 1347
-    },
-    {
-        "query_id": "50_451",
-        "question": "Who is the author of The Reich Chancellery and F\u00fchrerbunker Complex?",
-        "answers": [
-            "Steven Lehrer"
-        ],
-        "pageviews": 4605
+        "pageviews": 1
     },
     {
         "query_id": "50_452",
@@ -3636,7 +2739,7 @@
         "answers": [
             "Luo Guanzhong"
         ],
-        "pageviews": 5302
+        "pageviews": 4
     },
     {
         "query_id": "50_453",
@@ -3644,7 +2747,7 @@
         "answers": [
             "Vijay Tendulkar"
         ],
-        "pageviews": 24449
+        "pageviews": 8
     },
     {
         "query_id": "50_454",
@@ -3652,7 +2755,7 @@
         "answers": [
             "Diana Muir"
         ],
-        "pageviews": 3383
+        "pageviews": 12
     },
     {
         "query_id": "50_455",
@@ -3660,7 +2763,7 @@
         "answers": [
             "William Blake"
         ],
-        "pageviews": 11457
+        "pageviews": 2
     },
     {
         "query_id": "50_456",
@@ -3668,15 +2771,7 @@
         "answers": [
             "Gerald Cohen"
         ],
-        "pageviews": 2262
-    },
-    {
-        "query_id": "50_457",
-        "question": "Who is the author of Prayers for Rain?",
-        "answers": [
-            "Dennis Lehane"
-        ],
-        "pageviews": 9257
+        "pageviews": 1
     },
     {
         "query_id": "50_458",
@@ -3684,15 +2779,7 @@
         "answers": [
             "Pat Conroy"
         ],
-        "pageviews": 26477
-    },
-    {
-        "query_id": "50_459",
-        "question": "Who is the author of How I Paid for College: A Novel of Sex, Theft, Friendship, and Musical Theater?",
-        "answers": [
-            "Marc Acito"
-        ],
-        "pageviews": 2783
+        "pageviews": 6
     },
     {
         "query_id": "50_460",
@@ -3700,7 +2787,7 @@
         "answers": [
             "James Nelson Barker"
         ],
-        "pageviews": 6722
+        "pageviews": 2
     },
     {
         "query_id": "50_461",
@@ -3708,15 +2795,7 @@
         "answers": [
             "Lin Carter"
         ],
-        "pageviews": 1244
-    },
-    {
-        "query_id": "50_462",
-        "question": "Who is the author of Negotiating with the Dead: A Writer on Writing?",
-        "answers": [
-            "Margaret Atwood"
-        ],
-        "pageviews": 2657
+        "pageviews": 4
     },
     {
         "query_id": "50_463",
@@ -3724,7 +2803,7 @@
         "answers": [
             "Edgar Allan Poe"
         ],
-        "pageviews": 28637
+        "pageviews": 20
     },
     {
         "query_id": "50_464",
@@ -3732,7 +2811,7 @@
         "answers": [
             "Tassilo von Heydebrand und der Lasa"
         ],
-        "pageviews": 3067
+        "pageviews": 26
     },
     {
         "query_id": "50_465",
@@ -3740,23 +2819,7 @@
         "answers": [
             "Alistair MacLean"
         ],
-        "pageviews": 57746
-    },
-    {
-        "query_id": "50_466",
-        "question": "Who is the author of Letty Fox: Her Luck?",
-        "answers": [
-            "Christina Stead"
-        ],
-        "pageviews": 1630
-    },
-    {
-        "query_id": "50_467",
-        "question": "Who is the author of Aristotle?",
-        "answers": [
-            "Dick King-Smith"
-        ],
-        "pageviews": 1447
+        "pageviews": 13
     },
     {
         "query_id": "50_468",
@@ -3764,7 +2827,7 @@
         "answers": [
             "Qi Jiguang"
         ],
-        "pageviews": 12624
+        "pageviews": 13
     },
     {
         "query_id": "50_469",
@@ -3772,15 +2835,7 @@
         "answers": [
             "Paulette Frankl"
         ],
-        "pageviews": 1406
-    },
-    {
-        "query_id": "50_470",
-        "question": "Who is the author of Marnie?",
-        "answers": [
-            "Winston Graham"
-        ],
-        "pageviews": 0
+        "pageviews": 2
     },
     {
         "query_id": "50_471",
@@ -3788,15 +2843,7 @@
         "answers": [
             "William Thomas Moncrieff"
         ],
-        "pageviews": 7462
-    },
-    {
-        "query_id": "50_472",
-        "question": "Who is the author of Blackstone Chronicles?",
-        "answers": [
-            "John Saul"
-        ],
-        "pageviews": 3509
+        "pageviews": 11
     },
     {
         "query_id": "50_473",
@@ -3804,7 +2851,7 @@
         "answers": [
             "Karl Taro Greenfeld"
         ],
-        "pageviews": 2098
+        "pageviews": 3
     },
     {
         "query_id": "50_474",
@@ -3812,7 +2859,7 @@
         "answers": [
             "Sita Ram Goel"
         ],
-        "pageviews": 10508
+        "pageviews": 1
     },
     {
         "query_id": "50_475",
@@ -3820,7 +2867,7 @@
         "answers": [
             "Lady Mary Wroth"
         ],
-        "pageviews": 8559
+        "pageviews": 3
     },
     {
         "query_id": "50_476",
@@ -3828,7 +2875,7 @@
         "answers": [
             "Henri Bergson"
         ],
-        "pageviews": 11072
+        "pageviews": 1
     },
     {
         "query_id": "50_477",
@@ -3836,15 +2883,7 @@
         "answers": [
             "Neltje Blanchan"
         ],
-        "pageviews": 1531
-    },
-    {
-        "query_id": "50_478",
-        "question": "Who is the author of A Good Man Is Hard to Find?",
-        "answers": [
-            "Flannery O'Connor"
-        ],
-        "pageviews": 39738
+        "pageviews": 2
     },
     {
         "query_id": "50_479",
@@ -3852,23 +2891,7 @@
         "answers": [
             "Edgar Allan Poe"
         ],
-        "pageviews": 17670
-    },
-    {
-        "query_id": "50_480",
-        "question": "Who is the author of World's Best Science Fiction: 1965?",
-        "answers": [
-            "Terry Carr"
-        ],
-        "pageviews": 1000
-    },
-    {
-        "query_id": "50_481",
-        "question": "Who is the author of The Architecture of the Arkansas Ozarks?",
-        "answers": [
-            "Donald Harington"
-        ],
-        "pageviews": 1473
+        "pageviews": 10
     },
     {
         "query_id": "50_482",
@@ -3876,7 +2899,7 @@
         "answers": [
             "Alexander McCall Smith"
         ],
-        "pageviews": 1740
+        "pageviews": 1
     },
     {
         "query_id": "50_483",
@@ -3884,7 +2907,7 @@
         "answers": [
             "Steven Brust"
         ],
-        "pageviews": 1957
+        "pageviews": 1
     },
     {
         "query_id": "50_484",
@@ -3892,15 +2915,7 @@
         "answers": [
             "Poggio Bracciolini"
         ],
-        "pageviews": 10341
-    },
-    {
-        "query_id": "50_485",
-        "question": "Who is the author of Peacemaker?",
-        "answers": [
-            "James Swallow"
-        ],
-        "pageviews": 1617
+        "pageviews": 4
     },
     {
         "query_id": "50_486",
@@ -3908,15 +2923,7 @@
         "answers": [
             "Francesca Lia Block"
         ],
-        "pageviews": 1930
-    },
-    {
-        "query_id": "50_487",
-        "question": "Who is the author of Knuffle Bunny Too: A Case of Mistaken Identity?",
-        "answers": [
-            "Mo Willems"
-        ],
-        "pageviews": 3721
+        "pageviews": 2
     },
     {
         "query_id": "50_488",
@@ -3924,7 +2931,7 @@
         "answers": [
             "Mikael Niemi"
         ],
-        "pageviews": 4368
+        "pageviews": 1
     },
     {
         "query_id": "50_489",
@@ -3932,15 +2939,7 @@
         "answers": [
             "Ursula Hegi"
         ],
-        "pageviews": 942
-    },
-    {
-        "query_id": "50_490",
-        "question": "Who is the author of The Shoes of the Fisherman?",
-        "answers": [
-            "Morris West"
-        ],
-        "pageviews": 1452
+        "pageviews": 1
     },
     {
         "query_id": "50_491",
@@ -3948,7 +2947,7 @@
         "answers": [
             "Paul Auster"
         ],
-        "pageviews": 8050
+        "pageviews": 1
     },
     {
         "query_id": "50_492",
@@ -3956,7 +2955,7 @@
         "answers": [
             "Marion Zimmer Bradley"
         ],
-        "pageviews": 7268
+        "pageviews": 5
     },
     {
         "query_id": "50_493",
@@ -3964,23 +2963,7 @@
         "answers": [
             "Mary Wesley"
         ],
-        "pageviews": 2864
-    },
-    {
-        "query_id": "50_494",
-        "question": "Who is the author of Rocket Boys?",
-        "answers": [
-            "Homer Hickam"
-        ],
-        "pageviews": 52323
-    },
-    {
-        "query_id": "50_495",
-        "question": "Who is the author of The Moth and the Star?",
-        "answers": [
-            "James Thurber"
-        ],
-        "pageviews": 2758
+        "pageviews": 3
     },
     {
         "query_id": "50_496",
@@ -3988,15 +2971,7 @@
         "answers": [
             "Carolyn Keene"
         ],
-        "pageviews": 2553
-    },
-    {
-        "query_id": "50_497",
-        "question": "Who is the author of Double Solitaire?",
-        "answers": [
-            "Melinda M. Snodgrass"
-        ],
-        "pageviews": 128
+        "pageviews": 1
     },
     {
         "query_id": "50_498",
@@ -4004,7 +2979,7 @@
         "answers": [
             "Van Jones"
         ],
-        "pageviews": 2992
+        "pageviews": 3
     },
     {
         "query_id": "50_499",
@@ -4012,7 +2987,7 @@
         "answers": [
             "John Patrick"
         ],
-        "pageviews": 20172
+        "pageviews": 7
     },
     {
         "query_id": "50_500",
@@ -4020,7 +2995,7 @@
         "answers": [
             "Steve Lillebuen"
         ],
-        "pageviews": 5509
+        "pageviews": 1
     },
     {
         "query_id": "50_501",
@@ -4028,15 +3003,7 @@
         "answers": [
             "Gore Vidal"
         ],
-        "pageviews": 12392
-    },
-    {
-        "query_id": "50_502",
-        "question": "Who is the author of Mrs. Eckdorf in O'Neill's Hotel?",
-        "answers": [
-            "William Trevor"
-        ],
-        "pageviews": 1245
+        "pageviews": 2
     },
     {
         "query_id": "50_503",
@@ -4045,7 +3012,7 @@
             "Todd McCaffrey",
             "Anne McCaffrey"
         ],
-        "pageviews": 4683
+        "pageviews": 7
     },
     {
         "query_id": "50_504",
@@ -4053,23 +3020,7 @@
         "answers": [
             "Hal Borland"
         ],
-        "pageviews": 13774
-    },
-    {
-        "query_id": "50_505",
-        "question": "Who is the author of Ang Paboritong Libro ni Hudas?",
-        "answers": [
-            "Bob Ong"
-        ],
-        "pageviews": 3865
-    },
-    {
-        "query_id": "50_506",
-        "question": "Who is the author of The Long Shadow?",
-        "answers": [
-            "Jon Cleary"
-        ],
-        "pageviews": 989
+        "pageviews": 3
     },
     {
         "query_id": "50_507",
@@ -4077,7 +3028,7 @@
         "answers": [
             "Thomas C. Lea III"
         ],
-        "pageviews": 3021
+        "pageviews": 3
     },
     {
         "query_id": "50_508",
@@ -4085,7 +3036,7 @@
         "answers": [
             "Nick McDonell"
         ],
-        "pageviews": 15065
+        "pageviews": 6
     },
     {
         "query_id": "50_509",
@@ -4093,7 +3044,7 @@
         "answers": [
             "Colson Whitehead"
         ],
-        "pageviews": 6233
+        "pageviews": 2
     },
     {
         "query_id": "50_510",
@@ -4101,7 +3052,7 @@
         "answers": [
             "Franklin W. Dixon"
         ],
-        "pageviews": 339954
+        "pageviews": 145
     },
     {
         "query_id": "50_511",
@@ -4109,7 +3060,7 @@
         "answers": [
             "Yves Lavandier"
         ],
-        "pageviews": 4469
+        "pageviews": 6
     },
     {
         "query_id": "50_512",
@@ -4117,7 +3068,7 @@
         "answers": [
             "Sarah Dunant"
         ],
-        "pageviews": 6602
+        "pageviews": 2
     },
     {
         "query_id": "50_513",
@@ -4125,7 +3076,7 @@
         "answers": [
             "James Howard Kunstler"
         ],
-        "pageviews": 2906
+        "pageviews": 1
     },
     {
         "query_id": "50_514",
@@ -4133,7 +3084,7 @@
         "answers": [
             "William Dean Howells"
         ],
-        "pageviews": 12126
+        "pageviews": 16
     },
     {
         "query_id": "50_515",
@@ -4141,15 +3092,7 @@
         "answers": [
             "Ernest Bramah"
         ],
-        "pageviews": 616
-    },
-    {
-        "query_id": "50_516",
-        "question": "Who is the author of The Mohole Mystery?",
-        "answers": [
-            "Hugh Walters"
-        ],
-        "pageviews": 1085
+        "pageviews": 1
     },
     {
         "query_id": "50_517",
@@ -4157,23 +3100,7 @@
         "answers": [
             "Louis Bromfield"
         ],
-        "pageviews": 7493
-    },
-    {
-        "query_id": "50_518",
-        "question": "Who is the author of Wolfskin?",
-        "answers": [
-            "Warren Ellis"
-        ],
-        "pageviews": 2143
-    },
-    {
-        "query_id": "50_519",
-        "question": "Who is the author of The Two Hotel Francforts?",
-        "answers": [
-            "David Leavitt"
-        ],
-        "pageviews": 1174
+        "pageviews": 3
     },
     {
         "query_id": "50_520",
@@ -4181,15 +3108,7 @@
         "answers": [
             "Ibn Hajar al-Asqalani"
         ],
-        "pageviews": 21424
-    },
-    {
-        "query_id": "50_521",
-        "question": "Who is the author of Echoes of Valor II?",
-        "answers": [
-            "Karl Edward Wagner"
-        ],
-        "pageviews": 686
+        "pageviews": 9
     },
     {
         "query_id": "50_522",
@@ -4197,15 +3116,7 @@
         "answers": [
             "Callimachus"
         ],
-        "pageviews": 2519
-    },
-    {
-        "query_id": "50_523",
-        "question": "Who is the author of Murder in Grub Street?",
-        "answers": [
-            "Bruce Alexander Cook"
-        ],
-        "pageviews": 558
+        "pageviews": 4
     },
     {
         "query_id": "50_524",
@@ -4213,7 +3124,7 @@
         "answers": [
             "Jean Van Hamme"
         ],
-        "pageviews": 25645
+        "pageviews": 23
     },
     {
         "query_id": "50_525",
@@ -4221,7 +3132,7 @@
         "answers": [
             "H. P. Lovecraft"
         ],
-        "pageviews": 44064
+        "pageviews": 27
     },
     {
         "query_id": "50_526",
@@ -4229,7 +3140,7 @@
         "answers": [
             "Lee Goldberg"
         ],
-        "pageviews": 2512
+        "pageviews": 5
     },
     {
         "query_id": "50_527",
@@ -4237,7 +3148,7 @@
         "answers": [
             "Elias Canetti"
         ],
-        "pageviews": 19609
+        "pageviews": 7
     },
     {
         "query_id": "50_528",
@@ -4245,7 +3156,7 @@
         "answers": [
             "Chris Wooding"
         ],
-        "pageviews": 5192
+        "pageviews": 1
     },
     {
         "query_id": "50_529",
@@ -4253,7 +3164,7 @@
         "answers": [
             "John David Morley"
         ],
-        "pageviews": 602
+        "pageviews": 2
     },
     {
         "query_id": "50_530",
@@ -4261,7 +3172,7 @@
         "answers": [
             "William Rowley"
         ],
-        "pageviews": 979
+        "pageviews": 2
     },
     {
         "query_id": "50_531",
@@ -4269,7 +3180,7 @@
         "answers": [
             "Justin Richards"
         ],
-        "pageviews": 1720
+        "pageviews": 7
     },
     {
         "query_id": "50_532",
@@ -4277,7 +3188,7 @@
         "answers": [
             "Warren Ellis"
         ],
-        "pageviews": 4755
+        "pageviews": 7
     },
     {
         "query_id": "50_533",
@@ -4285,15 +3196,7 @@
         "answers": [
             "Brian Cleeve"
         ],
-        "pageviews": 868
-    },
-    {
-        "query_id": "50_534",
-        "question": "Who is the author of Bard: The Odyssey of the Irish?",
-        "answers": [
-            "Morgan Llywelyn"
-        ],
-        "pageviews": 2109
+        "pageviews": 1
     },
     {
         "query_id": "50_535",
@@ -4301,7 +3204,7 @@
         "answers": [
             "Job"
         ],
-        "pageviews": 22713
+        "pageviews": 7
     },
     {
         "query_id": "50_536",
@@ -4309,7 +3212,7 @@
         "answers": [
             "Gareth Roberts"
         ],
-        "pageviews": 2156
+        "pageviews": 5
     },
     {
         "query_id": "50_537",
@@ -4317,7 +3220,7 @@
         "answers": [
             "Herman Wouk"
         ],
-        "pageviews": 4305
+        "pageviews": 1
     },
     {
         "query_id": "50_538",
@@ -4325,15 +3228,7 @@
         "answers": [
             "Gottfried Wilhelm Leibniz"
         ],
-        "pageviews": 63765
-    },
-    {
-        "query_id": "50_539",
-        "question": "Who is the author of The Pirate?",
-        "answers": [
-            "Poul Anderson"
-        ],
-        "pageviews": 1178
+        "pageviews": 37
     },
     {
         "query_id": "50_541",
@@ -4341,7 +3236,7 @@
         "answers": [
             "Jeannine Hall Gailey"
         ],
-        "pageviews": 631
+        "pageviews": 2
     },
     {
         "query_id": "50_542",
@@ -4349,7 +3244,7 @@
         "answers": [
             "Joaquim Maria Machado de Assis"
         ],
-        "pageviews": 1887
+        "pageviews": 3
     },
     {
         "query_id": "50_543",
@@ -4357,31 +3252,7 @@
         "answers": [
             "Samuel Beckett"
         ],
-        "pageviews": 3263
-    },
-    {
-        "query_id": "50_544",
-        "question": "Who is the author of A Good Woman?",
-        "answers": [
-            "Danielle Steel"
-        ],
-        "pageviews": 3008
-    },
-    {
-        "query_id": "50_545",
-        "question": "Who is the author of Writing with Intent: Essays, Reviews, Personal Prose--1983-2005?",
-        "answers": [
-            "Margaret Atwood"
-        ],
-        "pageviews": 1257
-    },
-    {
-        "query_id": "50_546",
-        "question": "Who is the author of Night Game?",
-        "answers": [
-            "Christine Feehan"
-        ],
-        "pageviews": 1075
+        "pageviews": 8
     },
     {
         "query_id": "50_547",
@@ -4389,7 +3260,7 @@
         "answers": [
             "James Branch Cabell"
         ],
-        "pageviews": 973
+        "pageviews": 1
     },
     {
         "query_id": "50_548",
@@ -4397,7 +3268,7 @@
         "answers": [
             "Malcolm Rose"
         ],
-        "pageviews": 878
+        "pageviews": 1
     },
     {
         "query_id": "50_549",
@@ -4405,7 +3276,7 @@
         "answers": [
             "Julian Barnes"
         ],
-        "pageviews": 5819
+        "pageviews": 2
     },
     {
         "query_id": "50_550",
@@ -4413,7 +3284,7 @@
         "answers": [
             "Edward Bulwer-Lytton"
         ],
-        "pageviews": 18006
+        "pageviews": 10
     },
     {
         "query_id": "50_551",
@@ -4421,15 +3292,7 @@
         "answers": [
             "Horton Foote"
         ],
-        "pageviews": 20253
-    },
-    {
-        "query_id": "50_552",
-        "question": "Who is the author of Leonardo's Mountain of Clams and the Diet of Worms?",
-        "answers": [
-            "Stephen Jay Gould"
-        ],
-        "pageviews": 1573
+        "pageviews": 24
     },
     {
         "query_id": "50_553",
@@ -4437,7 +3300,7 @@
         "answers": [
             "H. Rider Haggard"
         ],
-        "pageviews": 2288
+        "pageviews": 2
     },
     {
         "query_id": "50_554",
@@ -4445,16 +3308,7 @@
         "answers": [
             "Walter Woods"
         ],
-        "pageviews": 1756
-    },
-    {
-        "query_id": "50_555",
-        "question": "Who is the author of Across the Universe?",
-        "answers": [
-            "George Zebrowski",
-            "Pamela Sargent"
-        ],
-        "pageviews": 821
+        "pageviews": 3
     },
     {
         "query_id": "50_556",
@@ -4462,7 +3316,7 @@
         "answers": [
             "K\u014dji Suzuki"
         ],
-        "pageviews": 25608
+        "pageviews": 5
     },
     {
         "query_id": "50_557",
@@ -4470,15 +3324,7 @@
         "answers": [
             "Gerry Finley-Day"
         ],
-        "pageviews": 5717
-    },
-    {
-        "query_id": "50_558",
-        "question": "Who is the author of In the Eyes of Mr. Fury?",
-        "answers": [
-            "Philip Ridley"
-        ],
-        "pageviews": 895
+        "pageviews": 13
     },
     {
         "query_id": "50_559",
@@ -4486,7 +3332,7 @@
         "answers": [
             "Hall Caine"
         ],
-        "pageviews": 1510
+        "pageviews": 2
     },
     {
         "query_id": "50_560",
@@ -4494,15 +3340,7 @@
         "answers": [
             "Charu Nivedita"
         ],
-        "pageviews": 7262
-    },
-    {
-        "query_id": "50_561",
-        "question": "Who is the author of Nightmares in the Sky?",
-        "answers": [
-            "Stephen King"
-        ],
-        "pageviews": 10905
+        "pageviews": 3
     },
     {
         "query_id": "50_562",
@@ -4510,7 +3348,7 @@
         "answers": [
             "Stefan Zweig"
         ],
-        "pageviews": 67065
+        "pageviews": 11
     },
     {
         "query_id": "50_563",
@@ -4518,15 +3356,7 @@
         "answers": [
             "William Shakespeare"
         ],
-        "pageviews": 12817
-    },
-    {
-        "query_id": "50_564",
-        "question": "Who is the author of Paris France?",
-        "answers": [
-            "Gertrude Stein"
-        ],
-        "pageviews": 2463
+        "pageviews": 21
     },
     {
         "query_id": "50_565",
@@ -4534,7 +3364,7 @@
         "answers": [
             "Italo Calvino"
         ],
-        "pageviews": 11777
+        "pageviews": 3
     },
     {
         "query_id": "50_566",
@@ -4542,7 +3372,7 @@
         "answers": [
             "Tyler Perry"
         ],
-        "pageviews": 13097
+        "pageviews": 3
     },
     {
         "query_id": "50_567",
@@ -4550,7 +3380,7 @@
         "answers": [
             "Hannah Arendt"
         ],
-        "pageviews": 109103
+        "pageviews": 21
     },
     {
         "query_id": "50_568",
@@ -4558,23 +3388,7 @@
         "answers": [
             "James Clerk Maxwell"
         ],
-        "pageviews": 19480
-    },
-    {
-        "query_id": "50_569",
-        "question": "Who is the author of Cinderalla?",
-        "answers": [
-            "Junko Mizuno"
-        ],
-        "pageviews": 4680
-    },
-    {
-        "query_id": "50_570",
-        "question": "Who is the author of The Secrets of Harry Bright?",
-        "answers": [
-            "Joseph Wambaugh"
-        ],
-        "pageviews": 1438
+        "pageviews": 24
     },
     {
         "query_id": "50_571",
@@ -4582,15 +3396,7 @@
         "answers": [
             "Amartya Sen"
         ],
-        "pageviews": 18069
-    },
-    {
-        "query_id": "50_572",
-        "question": "Who is the author of Djinn?",
-        "answers": [
-            "Jean Dufaux"
-        ],
-        "pageviews": 7484
+        "pageviews": 4
     },
     {
         "query_id": "50_573",
@@ -4598,15 +3404,7 @@
         "answers": [
             "Stephen King"
         ],
-        "pageviews": 90314
-    },
-    {
-        "query_id": "50_574",
-        "question": "Who is the author of The Clue of the Leaning Chimney?",
-        "answers": [
-            "Carolyn Keene"
-        ],
-        "pageviews": 2477
+        "pageviews": 11
     },
     {
         "query_id": "50_575",
@@ -4614,15 +3412,7 @@
         "answers": [
             "Candace Bushnell"
         ],
-        "pageviews": 6964
-    },
-    {
-        "query_id": "50_576",
-        "question": "Who is the author of Fiela's Child?",
-        "answers": [
-            "Dalene Matthee"
-        ],
-        "pageviews": 20837
+        "pageviews": 5
     },
     {
         "query_id": "50_577",
@@ -4630,7 +3420,7 @@
         "answers": [
             "Paul Brickhill"
         ],
-        "pageviews": 6161
+        "pageviews": 13
     },
     {
         "query_id": "50_578",
@@ -4638,7 +3428,7 @@
         "answers": [
             "David Ignatius"
         ],
-        "pageviews": 16015
+        "pageviews": 7
     },
     {
         "query_id": "50_579",
@@ -4646,7 +3436,7 @@
         "answers": [
             "Owen Johnson"
         ],
-        "pageviews": 5018
+        "pageviews": 2
     },
     {
         "query_id": "50_580",
@@ -4654,7 +3444,7 @@
         "answers": [
             "Vyasa"
         ],
-        "pageviews": 5972
+        "pageviews": 1
     },
     {
         "query_id": "50_581",
@@ -4662,7 +3452,7 @@
         "answers": [
             "Sue Monk Kidd"
         ],
-        "pageviews": 8500
+        "pageviews": 6
     },
     {
         "query_id": "50_582",
@@ -4670,7 +3460,7 @@
         "answers": [
             "Alexander Ostrovsky"
         ],
-        "pageviews": 4173
+        "pageviews": 9
     },
     {
         "query_id": "50_583",
@@ -4678,7 +3468,7 @@
         "answers": [
             "Tamora Pierce"
         ],
-        "pageviews": 4121
+        "pageviews": 22
     },
     {
         "query_id": "50_584",
@@ -4686,7 +3476,7 @@
         "answers": [
             "William Shakespeare"
         ],
-        "pageviews": 11229
+        "pageviews": 5
     },
     {
         "query_id": "50_585",
@@ -4694,7 +3484,7 @@
         "answers": [
             "Laura Joh Rowland"
         ],
-        "pageviews": 1726
+        "pageviews": 1
     },
     {
         "query_id": "50_586",
@@ -4702,7 +3492,7 @@
         "answers": [
             "Tennessee Williams"
         ],
-        "pageviews": 3141
+        "pageviews": 3
     },
     {
         "query_id": "50_587",
@@ -4710,7 +3500,7 @@
         "answers": [
             "Shaykh Tusi"
         ],
-        "pageviews": 3199
+        "pageviews": 3
     },
     {
         "query_id": "50_588",
@@ -4718,7 +3508,7 @@
         "answers": [
             "Francis Thompson"
         ],
-        "pageviews": 35507
+        "pageviews": 8
     },
     {
         "query_id": "50_589",
@@ -4726,15 +3516,7 @@
         "answers": [
             "Catherine Millet"
         ],
-        "pageviews": 7774
-    },
-    {
-        "query_id": "50_590",
-        "question": "Who is the author of A Short History of the World?",
-        "answers": [
-            "Geoffrey Blainey"
-        ],
-        "pageviews": 1036
+        "pageviews": 4
     },
     {
         "query_id": "50_591",
@@ -4742,7 +3524,7 @@
         "answers": [
             "Ralph Fletcher"
         ],
-        "pageviews": 1864
+        "pageviews": 1
     },
     {
         "query_id": "50_592",
@@ -4750,7 +3532,7 @@
         "answers": [
             "Orson Scott Card"
         ],
-        "pageviews": 2189
+        "pageviews": 3
     },
     {
         "query_id": "50_593",
@@ -4758,15 +3540,7 @@
         "answers": [
             "Aloysius Bertrand"
         ],
-        "pageviews": 12419
-    },
-    {
-        "query_id": "50_594",
-        "question": "Who is the author of Candyfloss?",
-        "answers": [
-            "Jacqueline Wilson"
-        ],
-        "pageviews": 9919
+        "pageviews": 2
     },
     {
         "query_id": "50_595",
@@ -4774,23 +3548,7 @@
         "answers": [
             "Anna Laetitia Barbauld"
         ],
-        "pageviews": 1371
-    },
-    {
-        "query_id": "50_596",
-        "question": "Who is the author of The Wings of the Sphinx?",
-        "answers": [
-            "Andrea Camilleri"
-        ],
-        "pageviews": 1988
-    },
-    {
-        "query_id": "50_597",
-        "question": "Who is the author of The Mask?",
-        "answers": [
-            "Dean Koontz"
-        ],
-        "pageviews": 0
+        "pageviews": 4
     },
     {
         "query_id": "50_598",
@@ -4798,15 +3556,7 @@
         "answers": [
             "Gary Russell"
         ],
-        "pageviews": 2045
-    },
-    {
-        "query_id": "50_599",
-        "question": "Who is the author of Balance of Power?",
-        "answers": [
-            "Dafydd ab Hugh"
-        ],
-        "pageviews": 1460
+        "pageviews": 5
     },
     {
         "query_id": "50_600",
@@ -4814,7 +3564,7 @@
         "answers": [
             "Thomas William Robertson"
         ],
-        "pageviews": 2675
+        "pageviews": 26
     },
     {
         "query_id": "50_601",
@@ -4823,15 +3573,7 @@
             "Leon Festinger",
             "Stanley Schachter"
         ],
-        "pageviews": 78606
-    },
-    {
-        "query_id": "50_602",
-        "question": "Who is the author of Girl, Missing?",
-        "answers": [
-            "Sophie McKenzie"
-        ],
-        "pageviews": 12964
+        "pageviews": 17
     },
     {
         "query_id": "50_603",
@@ -4839,15 +3581,7 @@
         "answers": [
             "Ludwig Bemelmans"
         ],
-        "pageviews": 3726
-    },
-    {
-        "query_id": "50_604",
-        "question": "Who is the author of Gabriel-Ernest?",
-        "answers": [
-            "Saki"
-        ],
-        "pageviews": 2834
+        "pageviews": 2
     },
     {
         "query_id": "50_605",
@@ -4855,7 +3589,7 @@
         "answers": [
             "Luther Blissett"
         ],
-        "pageviews": 23681
+        "pageviews": 11
     },
     {
         "query_id": "50_606",
@@ -4863,23 +3597,7 @@
         "answers": [
             "Dave Gibbons"
         ],
-        "pageviews": 716096
-    },
-    {
-        "query_id": "50_607",
-        "question": "Who is the author of Babylon 5: Deadly Relations \u2013 Bester Ascendant?",
-        "answers": [
-            "Gregory Keyes"
-        ],
-        "pageviews": 191
-    },
-    {
-        "query_id": "50_608",
-        "question": "Who is the author of Phoebe, Junior?",
-        "answers": [
-            "Margaret Oliphant"
-        ],
-        "pageviews": 1583
+        "pageviews": 245
     },
     {
         "query_id": "50_609",
@@ -4887,7 +3605,7 @@
         "answers": [
             "Uri Gordon"
         ],
-        "pageviews": 1820
+        "pageviews": 1
     },
     {
         "query_id": "50_610",
@@ -4895,7 +3613,7 @@
         "answers": [
             "Charles Darwin"
         ],
-        "pageviews": 11027
+        "pageviews": 22
     },
     {
         "query_id": "50_611",
@@ -4903,7 +3621,7 @@
         "answers": [
             "Mulk Raj Anand"
         ],
-        "pageviews": 14664
+        "pageviews": 1
     },
     {
         "query_id": "50_612",
@@ -4911,7 +3629,7 @@
         "answers": [
             "Steven Barnes"
         ],
-        "pageviews": 2357
+        "pageviews": 2
     },
     {
         "query_id": "50_613",
@@ -4919,7 +3637,7 @@
         "answers": [
             "Ray Bradbury"
         ],
-        "pageviews": 5503
+        "pageviews": 2
     },
     {
         "query_id": "50_614",
@@ -4927,7 +3645,7 @@
         "answers": [
             "George MacDonald"
         ],
-        "pageviews": 30814
+        "pageviews": 10
     },
     {
         "query_id": "50_615",
@@ -4935,47 +3653,7 @@
         "answers": [
             "Weedon Grossmith"
         ],
-        "pageviews": 34862
-    },
-    {
-        "query_id": "50_616",
-        "question": "Who is the author of People Might Hear You?",
-        "answers": [
-            "Robin Klein"
-        ],
-        "pageviews": 2279
-    },
-    {
-        "query_id": "50_617",
-        "question": "Who is the author of One Fifth Avenue?",
-        "answers": [
-            "Candace Bushnell"
-        ],
-        "pageviews": 1860
-    },
-    {
-        "query_id": "50_618",
-        "question": "Who is the author of Cherry Crush?",
-        "answers": [
-            "Cathy Cassidy"
-        ],
-        "pageviews": 3678
-    },
-    {
-        "query_id": "50_619",
-        "question": "Who is the author of The Odessa Tales?",
-        "answers": [
-            "Isaak Babel"
-        ],
-        "pageviews": 12926
-    },
-    {
-        "query_id": "50_620",
-        "question": "Who is the author of Telesni \u010duvaj?",
-        "answers": [
-            "Miha Mazzini"
-        ],
-        "pageviews": 601
+        "pageviews": 20
     },
     {
         "query_id": "50_621",
@@ -4983,7 +3661,7 @@
         "answers": [
             "Naomi Klein"
         ],
-        "pageviews": 129037
+        "pageviews": 28
     },
     {
         "query_id": "50_622",
@@ -4991,15 +3669,7 @@
         "answers": [
             "Rosemary Sutcliff"
         ],
-        "pageviews": 2199
-    },
-    {
-        "query_id": "50_623",
-        "question": "Who is the author of I Like It Here?",
-        "answers": [
-            "Kingsley Amis"
-        ],
-        "pageviews": 2425
+        "pageviews": 2
     },
     {
         "query_id": "50_624",
@@ -5007,7 +3677,7 @@
         "answers": [
             "Troy Hickman"
         ],
-        "pageviews": 3623
+        "pageviews": 4
     },
     {
         "query_id": "50_625",
@@ -5015,7 +3685,7 @@
         "answers": [
             "Willard Price"
         ],
-        "pageviews": 1584
+        "pageviews": 1
     },
     {
         "query_id": "50_626",
@@ -5023,7 +3693,7 @@
         "answers": [
             "Martin Heidegger"
         ],
-        "pageviews": 36488
+        "pageviews": 6
     },
     {
         "query_id": "50_627",
@@ -5031,7 +3701,7 @@
         "answers": [
             "Jim Butcher"
         ],
-        "pageviews": 1805
+        "pageviews": 1
     },
     {
         "query_id": "50_628",
@@ -5039,7 +3709,7 @@
         "answers": [
             "Dirk Maggs"
         ],
-        "pageviews": 5248
+        "pageviews": 3
     },
     {
         "query_id": "50_629",
@@ -5047,7 +3717,7 @@
         "answers": [
             "Jorge Amado"
         ],
-        "pageviews": 4785
+        "pageviews": 2
     },
     {
         "query_id": "50_630",
@@ -5063,7 +3733,7 @@
             "David Almond",
             "Deborah Ellis"
         ],
-        "pageviews": 3107
+        "pageviews": 1
     },
     {
         "query_id": "50_631",
@@ -5071,7 +3741,7 @@
         "answers": [
             "Swami Vivekananda"
         ],
-        "pageviews": 7452
+        "pageviews": 1
     },
     {
         "query_id": "50_632",
@@ -5079,23 +3749,7 @@
         "answers": [
             "Jared Bernstein"
         ],
-        "pageviews": 641
-    },
-    {
-        "query_id": "50_633",
-        "question": "Who is the author of Earthfall?",
-        "answers": [
-            "Orson Scott Card"
-        ],
-        "pageviews": 3172
-    },
-    {
-        "query_id": "50_634",
-        "question": "Who is the author of Chosen?",
-        "answers": [
-            "Kristin Cast"
-        ],
-        "pageviews": 4199
+        "pageviews": 1
     },
     {
         "query_id": "50_635",
@@ -5103,23 +3757,7 @@
         "answers": [
             "Nicholas Udall"
         ],
-        "pageviews": 18785
-    },
-    {
-        "query_id": "50_636",
-        "question": "Who is the author of The Thomas Ligotti Reader: Essays and Explorations?",
-        "answers": [
-            "Darrell Schweitzer"
-        ],
-        "pageviews": 1078
-    },
-    {
-        "query_id": "50_637",
-        "question": "Who is the author of Thou Art That?",
-        "answers": [
-            "Joseph Campbell"
-        ],
-        "pageviews": 3148
+        "pageviews": 13
     },
     {
         "query_id": "50_638",
@@ -5127,7 +3765,7 @@
         "answers": [
             "Jim Butcher"
         ],
-        "pageviews": 13120
+        "pageviews": 19
     },
     {
         "query_id": "50_639",
@@ -5135,15 +3773,7 @@
         "answers": [
             "Robert Graves"
         ],
-        "pageviews": 4716
-    },
-    {
-        "query_id": "50_640",
-        "question": "Who is the author of A Foot in the Grave?",
-        "answers": [
-            "Bruce Marshall"
-        ],
-        "pageviews": 502
+        "pageviews": 4
     },
     {
         "query_id": "50_641",
@@ -5151,7 +3781,7 @@
         "answers": [
             "Clive Cussler"
         ],
-        "pageviews": 26195
+        "pageviews": 11
     },
     {
         "query_id": "50_642",
@@ -5159,7 +3789,7 @@
         "answers": [
             "Ian McEwan"
         ],
-        "pageviews": 29862
+        "pageviews": 11
     },
     {
         "query_id": "50_643",
@@ -5167,23 +3797,7 @@
         "answers": [
             "Scott Adams"
         ],
-        "pageviews": 2317
-    },
-    {
-        "query_id": "50_644",
-        "question": "Who is the author of Sherlock Holmes: The Breath of God?",
-        "answers": [
-            "Guy Adams"
-        ],
-        "pageviews": 1939
-    },
-    {
-        "query_id": "50_645",
-        "question": "Who is the author of Wednesday the Rabbi Got Wet?",
-        "answers": [
-            "Harry Kemelman"
-        ],
-        "pageviews": 1180
+        "pageviews": 1
     },
     {
         "query_id": "50_646",
@@ -5191,7 +3805,7 @@
         "answers": [
             "William Shakespeare"
         ],
-        "pageviews": 234919
+        "pageviews": 226
     },
     {
         "query_id": "50_647",
@@ -5199,7 +3813,7 @@
         "answers": [
             "John Osborne"
         ],
-        "pageviews": 7485
+        "pageviews": 23
     },
     {
         "query_id": "50_648",
@@ -5207,15 +3821,7 @@
         "answers": [
             "Tobias Wolff"
         ],
-        "pageviews": 6668
-    },
-    {
-        "query_id": "50_649",
-        "question": "Who is the author of Pandora's Curse?",
-        "answers": [
-            "Jack Du Brul"
-        ],
-        "pageviews": 1093
+        "pageviews": 3
     },
     {
         "query_id": "50_650",
@@ -5223,15 +3829,7 @@
         "answers": [
             "Luke the Evangelist"
         ],
-        "pageviews": 365452
-    },
-    {
-        "query_id": "50_651",
-        "question": "Who is the author of Double, Double?",
-        "answers": [
-            "Michael Jan Friedman"
-        ],
-        "pageviews": 1017
+        "pageviews": 1426
     },
     {
         "query_id": "50_652",
@@ -5239,15 +3837,7 @@
         "answers": [
             "August Gailit"
         ],
-        "pageviews": 835
-    },
-    {
-        "query_id": "50_653",
-        "question": "Who is the author of Quantum Aspects of Life?",
-        "answers": [
-            "Roger Penrose"
-        ],
-        "pageviews": 4477
+        "pageviews": 1
     },
     {
         "query_id": "50_654",
@@ -5255,7 +3845,7 @@
         "answers": [
             "Albert Einstein"
         ],
-        "pageviews": 10293
+        "pageviews": 2
     },
     {
         "query_id": "50_655",
@@ -5263,7 +3853,7 @@
         "answers": [
             "Jean Beguin"
         ],
-        "pageviews": 1517
+        "pageviews": 2
     },
     {
         "query_id": "50_656",
@@ -5271,7 +3861,7 @@
         "answers": [
             "Walter Scott"
         ],
-        "pageviews": 7766
+        "pageviews": 7
     },
     {
         "query_id": "50_657",
@@ -5279,7 +3869,7 @@
         "answers": [
             "Helen Prejean"
         ],
-        "pageviews": 32493
+        "pageviews": 20
     },
     {
         "query_id": "50_658",
@@ -5287,23 +3877,7 @@
         "answers": [
             "David Baldacci"
         ],
-        "pageviews": 5579
-    },
-    {
-        "query_id": "50_659",
-        "question": "Who is the author of The Case of the Rising Stars?",
-        "answers": [
-            "Carolyn Keene"
-        ],
-        "pageviews": 1185
-    },
-    {
-        "query_id": "50_660",
-        "question": "Who is the author of The Many Worlds of Andre Norton?",
-        "answers": [
-            "Andre Norton"
-        ],
-        "pageviews": 922
+        "pageviews": 1
     },
     {
         "query_id": "50_661",
@@ -5311,7 +3885,7 @@
         "answers": [
             "Cornel West"
         ],
-        "pageviews": 15608
+        "pageviews": 5
     },
     {
         "query_id": "50_662",
@@ -5319,7 +3893,7 @@
         "answers": [
             "Washington Irving"
         ],
-        "pageviews": 443026
+        "pageviews": 136
     },
     {
         "query_id": "50_663",
@@ -5327,7 +3901,7 @@
         "answers": [
             "Robert Stinnett"
         ],
-        "pageviews": 8294
+        "pageviews": 6
     },
     {
         "query_id": "50_664",
@@ -5335,7 +3909,7 @@
         "answers": [
             "Dmitri Borgmann"
         ],
-        "pageviews": 2722
+        "pageviews": 1
     },
     {
         "query_id": "50_665",
@@ -5343,7 +3917,7 @@
         "answers": [
             "Herman Melville"
         ],
-        "pageviews": 10781
+        "pageviews": 15
     },
     {
         "query_id": "50_666",
@@ -5351,7 +3925,7 @@
         "answers": [
             "Iain Banks"
         ],
-        "pageviews": 255460
+        "pageviews": 34
     },
     {
         "query_id": "50_667",
@@ -5359,7 +3933,7 @@
         "answers": [
             "Henry James"
         ],
-        "pageviews": 2131
+        "pageviews": 2
     },
     {
         "query_id": "50_668",
@@ -5367,7 +3941,7 @@
         "answers": [
             "Martin Amis"
         ],
-        "pageviews": 3979
+        "pageviews": 6
     },
     {
         "query_id": "50_669",
@@ -5375,15 +3949,7 @@
         "answers": [
             "Dietrich Bonhoeffer"
         ],
-        "pageviews": 42374
-    },
-    {
-        "query_id": "50_670",
-        "question": "Who is the author of Swimming to Catalina?",
-        "answers": [
-            "Stuart Woods"
-        ],
-        "pageviews": 1145
+        "pageviews": 6
     },
     {
         "query_id": "50_671",
@@ -5391,7 +3957,7 @@
         "answers": [
             "Srimanta Sankardeva"
         ],
-        "pageviews": 4543
+        "pageviews": 2
     },
     {
         "query_id": "50_672",
@@ -5399,7 +3965,7 @@
         "answers": [
             "Mark Jacobson"
         ],
-        "pageviews": 2867
+        "pageviews": 2
     },
     {
         "query_id": "50_673",
@@ -5407,7 +3973,7 @@
         "answers": [
             "Jorge Luis Borges"
         ],
-        "pageviews": 6438
+        "pageviews": 1
     },
     {
         "query_id": "50_674",
@@ -5415,7 +3981,7 @@
         "answers": [
             "Tobias Schneebaum"
         ],
-        "pageviews": 3921
+        "pageviews": 3
     },
     {
         "query_id": "50_675",
@@ -5423,15 +3989,7 @@
         "answers": [
             "Frazer Irving"
         ],
-        "pageviews": 992
-    },
-    {
-        "query_id": "50_676",
-        "question": "Who is the author of Divina Trace?",
-        "answers": [
-            "Robert Antoni"
-        ],
-        "pageviews": 677
+        "pageviews": 1
     },
     {
         "query_id": "50_677",
@@ -5439,7 +3997,7 @@
         "answers": [
             "Kentaro Yabuki"
         ],
-        "pageviews": 59540
+        "pageviews": 20
     },
     {
         "query_id": "50_678",
@@ -5447,15 +4005,7 @@
         "answers": [
             "David Henry Hwang"
         ],
-        "pageviews": 5593
-    },
-    {
-        "query_id": "50_679",
-        "question": "Who is the author of Karl Marx's Theory of History: A Defence?",
-        "answers": [
-            "Gerald Cohen"
-        ],
-        "pageviews": 8715
+        "pageviews": 8
     },
     {
         "query_id": "50_680",
@@ -5463,7 +4013,7 @@
         "answers": [
             "Peter Beinart"
         ],
-        "pageviews": 1416
+        "pageviews": 2
     },
     {
         "query_id": "50_681",
@@ -5471,7 +4021,7 @@
         "answers": [
             "Sh\u016bichi Shigeno"
         ],
-        "pageviews": 5506
+        "pageviews": 2
     },
     {
         "query_id": "50_682",
@@ -5479,7 +4029,7 @@
         "answers": [
             "Donald Woods"
         ],
-        "pageviews": 5418
+        "pageviews": 3
     },
     {
         "query_id": "50_683",
@@ -5487,15 +4037,7 @@
         "answers": [
             "William Wister Haines"
         ],
-        "pageviews": 2525
-    },
-    {
-        "query_id": "50_684",
-        "question": "Who is the author of Fables for the Frivolous?",
-        "answers": [
-            "Guy Wetmore Carryl"
-        ],
-        "pageviews": 1795
+        "pageviews": 12
     },
     {
         "query_id": "50_685",
@@ -5503,7 +4045,7 @@
         "answers": [
             "Carlos Ezquerra"
         ],
-        "pageviews": 5138
+        "pageviews": 2
     },
     {
         "query_id": "50_686",
@@ -5511,7 +4053,7 @@
         "answers": [
             "Edward O. Wilson"
         ],
-        "pageviews": 17782
+        "pageviews": 7
     },
     {
         "query_id": "50_687",
@@ -5520,7 +4062,7 @@
             "Will Glickman",
             "Joseph Stein"
         ],
-        "pageviews": 1149
+        "pageviews": 6
     },
     {
         "query_id": "50_688",
@@ -5528,7 +4070,7 @@
         "answers": [
             "Tucker Max"
         ],
-        "pageviews": 5308
+        "pageviews": 1
     },
     {
         "query_id": "50_689",
@@ -5536,63 +4078,7 @@
         "answers": [
             "Robert Young Pelton"
         ],
-        "pageviews": 6939
-    },
-    {
-        "query_id": "50_690",
-        "question": "Who is the author of In the Line of Fire: A Memoir?",
-        "answers": [
-            "Pervez Musharraf"
-        ],
-        "pageviews": 13146
-    },
-    {
-        "query_id": "50_691",
-        "question": "Who is the author of Instead of Three Wishes: Magical Short Stories?",
-        "answers": [
-            "Megan Whalen Turner"
-        ],
-        "pageviews": 0
-    },
-    {
-        "query_id": "50_692",
-        "question": "Who is the author of Air Babylon?",
-        "answers": [
-            "Imogen Edwards-Jones"
-        ],
-        "pageviews": 1491
-    },
-    {
-        "query_id": "50_693",
-        "question": "Who is the author of Elementary Calculus: An Infinitesimal Approach?",
-        "answers": [
-            "Howard Jerome Keisler"
-        ],
-        "pageviews": 6338
-    },
-    {
-        "query_id": "50_694",
-        "question": "Who is the author of The Posthumous Memoirs of Bras Cubas?",
-        "answers": [
-            "Joaquim Maria Machado de Assis"
-        ],
-        "pageviews": 23607
-    },
-    {
-        "query_id": "50_695",
-        "question": "Who is the author of Gold Dust and Ashes?",
-        "answers": [
-            "Ion Idriess"
-        ],
-        "pageviews": 1175
-    },
-    {
-        "query_id": "50_696",
-        "question": "Who is the author of Thirty-Three Teeth?",
-        "answers": [
-            "Colin Cotterill"
-        ],
-        "pageviews": 1200
+        "pageviews": 8
     },
     {
         "query_id": "50_697",
@@ -5600,7 +4086,7 @@
         "answers": [
             "Intergovernmental Panel on Climate Change"
         ],
-        "pageviews": 2590
+        "pageviews": 3
     },
     {
         "query_id": "50_698",
@@ -5608,7 +4094,7 @@
         "answers": [
             "Daniel Suarez"
         ],
-        "pageviews": 5600
+        "pageviews": 2
     },
     {
         "query_id": "50_699",
@@ -5616,7 +4102,7 @@
         "answers": [
             "Tom Topor"
         ],
-        "pageviews": 4487
+        "pageviews": 10
     },
     {
         "query_id": "50_700",
@@ -5624,7 +4110,7 @@
         "answers": [
             "James Thurber"
         ],
-        "pageviews": 5553
+        "pageviews": 4
     },
     {
         "query_id": "50_701",
@@ -5632,16 +4118,7 @@
         "answers": [
             "Howard Cruse"
         ],
-        "pageviews": 12167
-    },
-    {
-        "query_id": "50_702",
-        "question": "Who is the author of War Comes to Willy Freeman?",
-        "answers": [
-            "Christopher Collier",
-            "James Lincoln Collier"
-        ],
-        "pageviews": 1017
+        "pageviews": 29
     },
     {
         "query_id": "50_703",
@@ -5649,7 +4126,7 @@
         "answers": [
             "Ted Bell"
         ],
-        "pageviews": 1109
+        "pageviews": 1
     },
     {
         "query_id": "50_704",
@@ -5657,15 +4134,7 @@
         "answers": [
             "Ryohgo Narita"
         ],
-        "pageviews": 130518
-    },
-    {
-        "query_id": "50_705",
-        "question": "Who is the author of Spinoza: Practical Philosophy?",
-        "answers": [
-            "Gilles Deleuze"
-        ],
-        "pageviews": 8078
+        "pageviews": 17
     },
     {
         "query_id": "50_706",
@@ -5673,7 +4142,7 @@
         "answers": [
             "Norman Angell"
         ],
-        "pageviews": 28580
+        "pageviews": 7
     },
     {
         "query_id": "50_707",
@@ -5681,7 +4150,7 @@
         "answers": [
             "Timothy Zahn"
         ],
-        "pageviews": 3356
+        "pageviews": 3
     },
     {
         "query_id": "50_708",
@@ -5690,7 +4159,7 @@
             "Ariel Dorfman",
             "Armand Mattelart"
         ],
-        "pageviews": 23820
+        "pageviews": 4
     },
     {
         "query_id": "50_709",
@@ -5698,7 +4167,7 @@
         "answers": [
             "Euripides"
         ],
-        "pageviews": 1596
+        "pageviews": 5
     },
     {
         "query_id": "50_710",
@@ -5706,7 +4175,7 @@
         "answers": [
             "John Pielmeier"
         ],
-        "pageviews": 24061
+        "pageviews": 32
     },
     {
         "query_id": "50_711",
@@ -5714,31 +4183,7 @@
         "answers": [
             "James Branch Cabell"
         ],
-        "pageviews": 3847
-    },
-    {
-        "query_id": "50_712",
-        "question": "Who is the author of Worldbinder?",
-        "answers": [
-            "Dave Wolverton"
-        ],
-        "pageviews": 1186
-    },
-    {
-        "query_id": "50_713",
-        "question": "Who is the author of F\u00e9licie?",
-        "answers": [
-            "Pierre de Marivaux"
-        ],
-        "pageviews": 2154
-    },
-    {
-        "query_id": "50_714",
-        "question": "Who is the author of I Don't Mean to be Rude, But...?",
-        "answers": [
-            "Simon Cowell"
-        ],
-        "pageviews": 3341
+        "pageviews": 5
     },
     {
         "query_id": "50_715",
@@ -5746,7 +4191,7 @@
         "answers": [
             "Steve Carter"
         ],
-        "pageviews": 839
+        "pageviews": 1
     },
     {
         "query_id": "50_716",
@@ -5754,23 +4199,7 @@
         "answers": [
             "C. S. Forester"
         ],
-        "pageviews": 7127
-    },
-    {
-        "query_id": "50_717",
-        "question": "Who is the author of Star Wars Republic Commando: True Colors?",
-        "answers": [
-            "Karen Traviss"
-        ],
-        "pageviews": 3710
-    },
-    {
-        "query_id": "50_718",
-        "question": "Who is the author of My Autobiography?",
-        "answers": [
-            "Charlie Chaplin"
-        ],
-        "pageviews": 7370
+        "pageviews": 5
     },
     {
         "query_id": "50_719",
@@ -5779,7 +4208,7 @@
             "Adolph Green",
             "Betty Comden"
         ],
-        "pageviews": 25717
+        "pageviews": 43
     },
     {
         "query_id": "50_720",
@@ -5787,7 +4216,7 @@
         "answers": [
             "William Shakespeare"
         ],
-        "pageviews": 698968
+        "pageviews": 865
     },
     {
         "query_id": "50_721",
@@ -5795,7 +4224,7 @@
         "answers": [
             "Drew Curtis"
         ],
-        "pageviews": 2220
+        "pageviews": 1
     },
     {
         "query_id": "50_722",
@@ -5803,23 +4232,7 @@
         "answers": [
             "Chiang Yee"
         ],
-        "pageviews": 1288
-    },
-    {
-        "query_id": "50_723",
-        "question": "Who is the author of Rainbows End?",
-        "answers": [
-            "Vernor Vinge"
-        ],
-        "pageviews": 0
-    },
-    {
-        "query_id": "50_724",
-        "question": "Who is the author of Head Games?",
-        "answers": [
-            "Steve Lyons"
-        ],
-        "pageviews": 2036
+        "pageviews": 1
     },
     {
         "query_id": "50_725",
@@ -5827,7 +4240,7 @@
         "answers": [
             "Russell Banks"
         ],
-        "pageviews": 6828
+        "pageviews": 2
     },
     {
         "query_id": "50_727",
@@ -5835,15 +4248,7 @@
         "answers": [
             "Rick Riordan"
         ],
-        "pageviews": 67058
-    },
-    {
-        "query_id": "50_728",
-        "question": "Who is the author of The Best Horror of the Year: Volume Two?",
-        "answers": [
-            "Ellen Datlow"
-        ],
-        "pageviews": 967
+        "pageviews": 13
     },
     {
         "query_id": "50_729",
@@ -5851,15 +4256,7 @@
         "answers": [
             "Mike Tucker"
         ],
-        "pageviews": 1263
-    },
-    {
-        "query_id": "50_730",
-        "question": "Who is the author of Rosie Carpe?",
-        "answers": [
-            "Marie NDiaye"
-        ],
-        "pageviews": 1033
+        "pageviews": 2
     },
     {
         "query_id": "50_731",
@@ -5867,7 +4264,7 @@
         "answers": [
             "Donald Margulies"
         ],
-        "pageviews": 12177
+        "pageviews": 16
     },
     {
         "query_id": "50_732",
@@ -5875,7 +4272,7 @@
         "answers": [
             "Don Rosa"
         ],
-        "pageviews": 1351
+        "pageviews": 1
     },
     {
         "query_id": "50_733",
@@ -5883,7 +4280,7 @@
         "answers": [
             "Margaret George"
         ],
-        "pageviews": 6469
+        "pageviews": 2
     },
     {
         "query_id": "50_734",
@@ -5891,7 +4288,7 @@
         "answers": [
             "Frederik Pohl"
         ],
-        "pageviews": 2105
+        "pageviews": 1
     },
     {
         "query_id": "50_735",
@@ -5899,7 +4296,7 @@
         "answers": [
             "Greg Iles"
         ],
-        "pageviews": 4210
+        "pageviews": 2
     },
     {
         "query_id": "50_736",
@@ -5907,7 +4304,7 @@
         "answers": [
             "John Newbery"
         ],
-        "pageviews": 10519
+        "pageviews": 12
     },
     {
         "query_id": "50_737",
@@ -5915,7 +4312,7 @@
         "answers": [
             "Yisrael Meir Kagan"
         ],
-        "pageviews": 15365
+        "pageviews": 47
     },
     {
         "query_id": "50_738",
@@ -5923,7 +4320,7 @@
         "answers": [
             "Friedrich von Mellenthin"
         ],
-        "pageviews": 3142
+        "pageviews": 1
     },
     {
         "query_id": "50_739",
@@ -5931,7 +4328,7 @@
         "answers": [
             "Jack Vance"
         ],
-        "pageviews": 1133
+        "pageviews": 1
     },
     {
         "query_id": "50_740",
@@ -5939,7 +4336,7 @@
         "answers": [
             "Orson Scott Card"
         ],
-        "pageviews": 7550
+        "pageviews": 4
     },
     {
         "query_id": "50_741",
@@ -5947,7 +4344,7 @@
         "answers": [
             "Catherine Jinks"
         ],
-        "pageviews": 6450
+        "pageviews": 1
     },
     {
         "query_id": "50_742",
@@ -5956,7 +4353,7 @@
             "Margaret Weis",
             "Tracy Hickman"
         ],
-        "pageviews": 15916
+        "pageviews": 14
     },
     {
         "query_id": "50_743",
@@ -5964,7 +4361,7 @@
         "answers": [
             "James Patterson"
         ],
-        "pageviews": 5954
+        "pageviews": 1
     },
     {
         "query_id": "50_744",
@@ -5972,7 +4369,7 @@
         "answers": [
             "George Meredith"
         ],
-        "pageviews": 2622
+        "pageviews": 1
     },
     {
         "query_id": "50_745",
@@ -5980,7 +4377,7 @@
         "answers": [
             "Yuu Watase"
         ],
-        "pageviews": 30323
+        "pageviews": 7
     },
     {
         "query_id": "50_746",
@@ -5988,7 +4385,7 @@
         "answers": [
             "Adam de la Halle"
         ],
-        "pageviews": 17490
+        "pageviews": 10
     },
     {
         "query_id": "50_747",
@@ -5996,7 +4393,7 @@
         "answers": [
             "Peter Mayle"
         ],
-        "pageviews": 34528
+        "pageviews": 12
     },
     {
         "query_id": "50_748",
@@ -6004,7 +4401,7 @@
         "answers": [
             "Jack Vance"
         ],
-        "pageviews": 5046
+        "pageviews": 5
     },
     {
         "query_id": "50_749",
@@ -6012,15 +4409,7 @@
         "answers": [
             "Jennifer Rowe"
         ],
-        "pageviews": 17416
-    },
-    {
-        "query_id": "50_750",
-        "question": "Who is the author of Calling Out for You?",
-        "answers": [
-            "Karin Fossum"
-        ],
-        "pageviews": 923
+        "pageviews": 4
     },
     {
         "query_id": "50_751",
@@ -6028,7 +4417,7 @@
         "answers": [
             "Benedikt Kotruljevi\u0107"
         ],
-        "pageviews": 3972
+        "pageviews": 6
     },
     {
         "query_id": "50_752",
@@ -6036,7 +4425,7 @@
         "answers": [
             "Henry David Thoreau"
         ],
-        "pageviews": 4853
+        "pageviews": 2
     },
     {
         "query_id": "50_753",
@@ -6044,7 +4433,7 @@
         "answers": [
             "Greg Boyd"
         ],
-        "pageviews": 3052
+        "pageviews": 1
     },
     {
         "query_id": "50_754",
@@ -6052,7 +4441,7 @@
         "answers": [
             "Patricia Polacco"
         ],
-        "pageviews": 2170
+        "pageviews": 1
     },
     {
         "query_id": "50_755",
@@ -6060,7 +4449,7 @@
         "answers": [
             "Vilhelm Moberg"
         ],
-        "pageviews": 13469
+        "pageviews": 4
     },
     {
         "query_id": "50_756",
@@ -6068,15 +4457,7 @@
         "answers": [
             "Jez Butterworth"
         ],
-        "pageviews": 11822
-    },
-    {
-        "query_id": "50_757",
-        "question": "Who is the author of The World of Poo?",
-        "answers": [
-            "Terry Pratchett"
-        ],
-        "pageviews": 4485
+        "pageviews": 8
     },
     {
         "query_id": "50_758",
@@ -6084,7 +4465,7 @@
         "answers": [
             "Ivy Compton-Burnett"
         ],
-        "pageviews": 2058
+        "pageviews": 1
     },
     {
         "query_id": "50_759",
@@ -6092,7 +4473,7 @@
         "answers": [
             "Leo Tolstoy"
         ],
-        "pageviews": 4523
+        "pageviews": 2
     },
     {
         "query_id": "50_760",
@@ -6100,7 +4481,7 @@
         "answers": [
             "Gillian Rubinstein"
         ],
-        "pageviews": 3431
+        "pageviews": 1
     },
     {
         "query_id": "50_761",
@@ -6108,7 +4489,7 @@
         "answers": [
             "Mark Mathabane"
         ],
-        "pageviews": 12657
+        "pageviews": 3
     },
     {
         "query_id": "50_762",
@@ -6116,7 +4497,7 @@
         "answers": [
             "Nicky Hager"
         ],
-        "pageviews": 2301
+        "pageviews": 8
     },
     {
         "query_id": "50_763",
@@ -6124,7 +4505,7 @@
         "answers": [
             "Marquis de Sade"
         ],
-        "pageviews": 62678
+        "pageviews": 12
     },
     {
         "query_id": "50_764",
@@ -6132,7 +4513,7 @@
         "answers": [
             "Robert Albert Bloch"
         ],
-        "pageviews": 1508
+        "pageviews": 1
     },
     {
         "query_id": "50_765",
@@ -6140,7 +4521,7 @@
         "answers": [
             "Martin Luther"
         ],
-        "pageviews": 4736
+        "pageviews": 8
     },
     {
         "query_id": "50_766",
@@ -6148,7 +4529,7 @@
         "answers": [
             "Isaac Asimov"
         ],
-        "pageviews": 418609
+        "pageviews": 87
     },
     {
         "query_id": "50_767",
@@ -6156,7 +4537,7 @@
         "answers": [
             "Jack London"
         ],
-        "pageviews": 3584
+        "pageviews": 1
     },
     {
         "query_id": "50_768",
@@ -6164,7 +4545,7 @@
         "answers": [
             "Jennifer Michael Hecht"
         ],
-        "pageviews": 644
+        "pageviews": 3
     },
     {
         "query_id": "50_769",
@@ -6172,7 +4553,7 @@
         "answers": [
             "Willa Cather"
         ],
-        "pageviews": 3245
+        "pageviews": 2
     },
     {
         "query_id": "50_770",
@@ -6180,7 +4561,7 @@
         "answers": [
             "Vladimir Lenin"
         ],
-        "pageviews": 3138
+        "pageviews": 3
     },
     {
         "query_id": "50_771",
@@ -6188,24 +4569,7 @@
         "answers": [
             "Johann Amos Comenius"
         ],
-        "pageviews": 4097
-    },
-    {
-        "query_id": "50_772",
-        "question": "Who is the author of Pietati proximum?",
-        "answers": [
-            "Gregory IX"
-        ],
-        "pageviews": 847
-    },
-    {
-        "query_id": "50_773",
-        "question": "Who is the author of The Saint Abroad?",
-        "answers": [
-            "Michael Pertwee",
-            "Leslie Charteris"
-        ],
-        "pageviews": 870
+        "pageviews": 2
     },
     {
         "query_id": "50_774",
@@ -6213,7 +4577,7 @@
         "answers": [
             "Joseph Campbell"
         ],
-        "pageviews": 3166
+        "pageviews": 1
     },
     {
         "query_id": "50_775",
@@ -6221,24 +4585,7 @@
         "answers": [
             "Leo XIII"
         ],
-        "pageviews": 1692
-    },
-    {
-        "query_id": "50_776",
-        "question": "Who is the author of Sonnet 90?",
-        "answers": [
-            "William Shakespeare"
-        ],
-        "pageviews": 5746
-    },
-    {
-        "query_id": "50_777",
-        "question": "Who is the author of Undersea Trilogy?",
-        "answers": [
-            "Jack Williamson",
-            "Frederik Pohl"
-        ],
-        "pageviews": 2361
+        "pageviews": 3
     },
     {
         "query_id": "50_778",
@@ -6246,15 +4593,7 @@
         "answers": [
             "Susan Cooper"
         ],
-        "pageviews": 97598
-    },
-    {
-        "query_id": "50_779",
-        "question": "Who is the author of Hackers & Painters?",
-        "answers": [
-            "Paul Graham"
-        ],
-        "pageviews": 9152
+        "pageviews": 17
     },
     {
         "query_id": "50_780",
@@ -6262,7 +4601,7 @@
         "answers": [
             "Samuel Taylor Coleridge"
         ],
-        "pageviews": 4875
+        "pageviews": 3
     },
     {
         "query_id": "50_781",
@@ -6270,15 +4609,7 @@
         "answers": [
             "Alan Hollinghurst"
         ],
-        "pageviews": 9892
-    },
-    {
-        "query_id": "50_782",
-        "question": "Who is the author of EPICAC?",
-        "answers": [
-            "Kurt Vonnegut"
-        ],
-        "pageviews": 13075
+        "pageviews": 6
     },
     {
         "query_id": "50_783",
@@ -6286,7 +4617,7 @@
         "answers": [
             "Paul VI"
         ],
-        "pageviews": 1626
+        "pageviews": 2
     },
     {
         "query_id": "50_784",
@@ -6294,7 +4625,7 @@
         "answers": [
             "Robert Westall"
         ],
-        "pageviews": 2827
+        "pageviews": 2
     },
     {
         "query_id": "50_785",
@@ -6302,7 +4633,7 @@
         "answers": [
             "Andy Hartnell"
         ],
-        "pageviews": 26893
+        "pageviews": 21
     },
     {
         "query_id": "50_786",
@@ -6310,15 +4641,7 @@
         "answers": [
             "Frank Sulloway"
         ],
-        "pageviews": 2094
-    },
-    {
-        "query_id": "50_787",
-        "question": "Who is the author of The Fever Tree?",
-        "answers": [
-            "Ruth Rendell"
-        ],
-        "pageviews": 1407
+        "pageviews": 5
     },
     {
         "query_id": "50_788",
@@ -6326,15 +4649,7 @@
         "answers": [
             "Benjamin Constant"
         ],
-        "pageviews": 11128
-    },
-    {
-        "query_id": "50_789",
-        "question": "Who is the author of Escape from Memory?",
-        "answers": [
-            "Margaret Peterson Haddix"
-        ],
-        "pageviews": 1871
+        "pageviews": 8
     },
     {
         "query_id": "50_790",
@@ -6342,7 +4657,7 @@
         "answers": [
             "Friedrich Engels"
         ],
-        "pageviews": 26056
+        "pageviews": 24
     },
     {
         "query_id": "50_791",
@@ -6350,47 +4665,7 @@
         "answers": [
             "Robert Ardrey"
         ],
-        "pageviews": 1236
-    },
-    {
-        "query_id": "50_792",
-        "question": "Who is the author of Virginia?",
-        "answers": [
-            "Ellen Glasgow"
-        ],
-        "pageviews": 1607
-    },
-    {
-        "query_id": "50_793",
-        "question": "Who is the author of Vehkalahden neidot?",
-        "answers": [
-            "Kaari Utrio"
-        ],
-        "pageviews": 553
-    },
-    {
-        "query_id": "50_794",
-        "question": "Who is the author of The Good Luck of Right Now?",
-        "answers": [
-            "Matthew Quick"
-        ],
-        "pageviews": 1905
-    },
-    {
-        "query_id": "50_795",
-        "question": "Who is the author of The Dark Chateau?",
-        "answers": [
-            "Clark Ashton Smith"
-        ],
-        "pageviews": 1159
-    },
-    {
-        "query_id": "50_796",
-        "question": "Who is the author of The Deep?",
-        "answers": [
-            "Isaac Asimov"
-        ],
-        "pageviews": 2098
+        "pageviews": 7
     },
     {
         "query_id": "50_797",
@@ -6398,7 +4673,7 @@
         "answers": [
             "Robert Ludlum"
         ],
-        "pageviews": 4996
+        "pageviews": 1
     },
     {
         "query_id": "50_798",
@@ -6406,7 +4681,7 @@
         "answers": [
             "Samuel Johnson"
         ],
-        "pageviews": 31101
+        "pageviews": 3
     },
     {
         "query_id": "50_799",
@@ -6414,7 +4689,7 @@
         "answers": [
             "Ivan Vladislavic"
         ],
-        "pageviews": 1131
+        "pageviews": 1
     },
     {
         "query_id": "50_800",
@@ -6422,7 +4697,7 @@
         "answers": [
             "Tim Dorsey"
         ],
-        "pageviews": 1866
+        "pageviews": 2
     },
     {
         "query_id": "50_801",
@@ -6430,23 +4705,7 @@
         "answers": [
             "Arthur Koestler"
         ],
-        "pageviews": 3923
-    },
-    {
-        "query_id": "50_802",
-        "question": "Who is the author of Whiteout: Melt?",
-        "answers": [
-            "Greg Rucka"
-        ],
-        "pageviews": 2557
-    },
-    {
-        "query_id": "50_803",
-        "question": "Who is the author of Queen Camilla?",
-        "answers": [
-            "Sue Townsend"
-        ],
-        "pageviews": 15976
+        "pageviews": 4
     },
     {
         "query_id": "50_804",
@@ -6454,23 +4713,7 @@
         "answers": [
             "Tony Abbott"
         ],
-        "pageviews": 1528
-    },
-    {
-        "query_id": "50_805",
-        "question": "Who is the author of Guinness Book of Astronomy?",
-        "answers": [
-            "Patrick Moore"
-        ],
-        "pageviews": 707
-    },
-    {
-        "query_id": "50_806",
-        "question": "Who is the author of Pages Stained With Blood?",
-        "answers": [
-            "Mamoni Raisom Goswami"
-        ],
-        "pageviews": 2482
+        "pageviews": 1
     },
     {
         "query_id": "50_807",
@@ -6478,7 +4721,7 @@
         "answers": [
             "Carl Friedrich Gauss"
         ],
-        "pageviews": 22831
+        "pageviews": 58
     },
     {
         "query_id": "50_808",
@@ -6486,7 +4729,7 @@
         "answers": [
             "Tim Powers"
         ],
-        "pageviews": 14906
+        "pageviews": 4
     },
     {
         "query_id": "50_809",
@@ -6494,15 +4737,7 @@
         "answers": [
             "Gail Carriger"
         ],
-        "pageviews": 1998
-    },
-    {
-        "query_id": "50_810",
-        "question": "Who is the author of Home?",
-        "answers": [
-            "David Storey"
-        ],
-        "pageviews": 0
+        "pageviews": 1
     },
     {
         "query_id": "50_811",
@@ -6510,7 +4745,7 @@
         "answers": [
             "James Hopwood Jeans"
         ],
-        "pageviews": 4443
+        "pageviews": 2
     },
     {
         "query_id": "50_812",
@@ -6518,7 +4753,7 @@
         "answers": [
             "Harmony Korine"
         ],
-        "pageviews": 7639
+        "pageviews": 2
     },
     {
         "query_id": "50_813",
@@ -6526,7 +4761,7 @@
         "answers": [
             "Pius X"
         ],
-        "pageviews": 3065
+        "pageviews": 3
     },
     {
         "query_id": "50_814",
@@ -6534,7 +4769,7 @@
         "answers": [
             "Walter Moers"
         ],
-        "pageviews": 7744
+        "pageviews": 1
     },
     {
         "query_id": "50_815",
@@ -6542,7 +4777,7 @@
         "answers": [
             "Vassilis Alexakis"
         ],
-        "pageviews": 1156
+        "pageviews": 1
     },
     {
         "query_id": "50_816",
@@ -6550,7 +4785,7 @@
         "answers": [
             "P. G. Wodehouse"
         ],
-        "pageviews": 5788
+        "pageviews": 17
     },
     {
         "query_id": "50_817",
@@ -6558,15 +4793,7 @@
         "answers": [
             "Philip Massinger"
         ],
-        "pageviews": 2668
-    },
-    {
-        "query_id": "50_818",
-        "question": "Who is the author of Gladiator: Fight for Freedom?",
-        "answers": [
-            "Simon Scarrow"
-        ],
-        "pageviews": 2283
+        "pageviews": 5
     },
     {
         "query_id": "50_819",
@@ -6574,7 +4801,7 @@
         "answers": [
             "Karin Alvtegen"
         ],
-        "pageviews": 1867
+        "pageviews": 1
     },
     {
         "query_id": "50_820",
@@ -6582,7 +4809,7 @@
         "answers": [
             "James Kenneth Morrow"
         ],
-        "pageviews": 2493
+        "pageviews": 1
     },
     {
         "query_id": "50_821",
@@ -6590,15 +4817,7 @@
         "answers": [
             "Drew Hayes"
         ],
-        "pageviews": 6791
-    },
-    {
-        "query_id": "50_822",
-        "question": "Who is the author of Apollo's Song?",
-        "answers": [
-            "Osamu Tezuka"
-        ],
-        "pageviews": 8416
+        "pageviews": 3
     },
     {
         "query_id": "50_823",
@@ -6606,7 +4825,7 @@
         "answers": [
             "Chris Elliott"
         ],
-        "pageviews": 965
+        "pageviews": 1
     },
     {
         "query_id": "50_824",
@@ -6614,7 +4833,7 @@
         "answers": [
             "Kathryn Hulme"
         ],
-        "pageviews": 12848
+        "pageviews": 13
     },
     {
         "query_id": "50_825",
@@ -6622,7 +4841,7 @@
         "answers": [
             "Don DeLillo"
         ],
-        "pageviews": 7911
+        "pageviews": 3
     },
     {
         "query_id": "50_826",
@@ -6630,7 +4849,7 @@
         "answers": [
             "Vijay Tendulkar"
         ],
-        "pageviews": 16701
+        "pageviews": 6
     },
     {
         "query_id": "50_827",
@@ -6638,7 +4857,7 @@
         "answers": [
             "Hans Christian Andersen"
         ],
-        "pageviews": 105217
+        "pageviews": 28
     },
     {
         "query_id": "50_828",
@@ -6646,15 +4865,7 @@
         "answers": [
             "Diane Setterfield"
         ],
-        "pageviews": 28891
-    },
-    {
-        "query_id": "50_829",
-        "question": "Who is the author of The Boar?",
-        "answers": [
-            "Joe R. Lansdale"
-        ],
-        "pageviews": 1497
+        "pageviews": 2
     },
     {
         "query_id": "50_830",
@@ -6662,7 +4873,7 @@
         "answers": [
             "Masamune Shirow"
         ],
-        "pageviews": 59041
+        "pageviews": 32
     },
     {
         "query_id": "50_831",
@@ -6670,7 +4881,7 @@
         "answers": [
             "Bhisham Sahni"
         ],
-        "pageviews": 3311
+        "pageviews": 1
     },
     {
         "query_id": "50_832",
@@ -6678,7 +4889,7 @@
         "answers": [
             "Patricia Highsmith"
         ],
-        "pageviews": 4248
+        "pageviews": 1
     },
     {
         "query_id": "50_833",
@@ -6686,7 +4897,7 @@
         "answers": [
             "Conn Iggulden"
         ],
-        "pageviews": 1490
+        "pageviews": 2
     },
     {
         "query_id": "50_834",
@@ -6694,15 +4905,7 @@
         "answers": [
             "Agatha Christie"
         ],
-        "pageviews": 65587
-    },
-    {
-        "query_id": "50_835",
-        "question": "Who is the author of The Adventurous Four?",
-        "answers": [
-            "Enid Blyton"
-        ],
-        "pageviews": 6595
+        "pageviews": 9
     },
     {
         "query_id": "50_836",
@@ -6710,15 +4913,7 @@
         "answers": [
             "Sarah Rees Brennan"
         ],
-        "pageviews": 3342
-    },
-    {
-        "query_id": "50_837",
-        "question": "Who is the author of 2 States: The Story of My Marriage?",
-        "answers": [
-            "Chetan Bhagat"
-        ],
-        "pageviews": 86854
+        "pageviews": 4
     },
     {
         "query_id": "50_838",
@@ -6726,7 +4921,7 @@
         "answers": [
             "Leonard Bernstein"
         ],
-        "pageviews": 31811
+        "pageviews": 32
     },
     {
         "query_id": "50_839",
@@ -6734,7 +4929,7 @@
         "answers": [
             "Mark Millar"
         ],
-        "pageviews": 16722
+        "pageviews": 2
     },
     {
         "query_id": "50_840",
@@ -6742,7 +4937,7 @@
         "answers": [
             "Anne Tyler"
         ],
-        "pageviews": 12099
+        "pageviews": 9
     },
     {
         "query_id": "50_841",
@@ -6750,7 +4945,7 @@
         "answers": [
             "Aldous Huxley"
         ],
-        "pageviews": 42567
+        "pageviews": 16
     },
     {
         "query_id": "50_842",
@@ -6758,7 +4953,7 @@
         "answers": [
             "Madame d'Aulnoy"
         ],
-        "pageviews": 3672
+        "pageviews": 1
     },
     {
         "query_id": "50_843",
@@ -6766,7 +4961,7 @@
         "answers": [
             "Shannon Hale"
         ],
-        "pageviews": 13801
+        "pageviews": 3
     },
     {
         "query_id": "50_844",
@@ -6774,7 +4969,7 @@
         "answers": [
             "Sylvia Plath"
         ],
-        "pageviews": 19979
+        "pageviews": 1
     },
     {
         "query_id": "50_845",
@@ -6782,7 +4977,7 @@
         "answers": [
             "Andrew Marvell"
         ],
-        "pageviews": 85161
+        "pageviews": 13
     },
     {
         "query_id": "50_846",
@@ -6790,7 +4985,7 @@
         "answers": [
             "Alexander VI"
         ],
-        "pageviews": 13749
+        "pageviews": 10
     },
     {
         "query_id": "50_847",
@@ -6798,7 +4993,7 @@
         "answers": [
             "John Grisham"
         ],
-        "pageviews": 163193
+        "pageviews": 13
     },
     {
         "query_id": "50_848",
@@ -6806,15 +5001,7 @@
         "answers": [
             "Robert Byron"
         ],
-        "pageviews": 9641
-    },
-    {
-        "query_id": "50_849",
-        "question": "Who is the author of Germany is Our Problem?",
-        "answers": [
-            "Henry Morgenthau"
-        ],
-        "pageviews": 4233
+        "pageviews": 9
     },
     {
         "query_id": "50_851",
@@ -6822,7 +5009,7 @@
         "answers": [
             "Madeleine L'Engle"
         ],
-        "pageviews": 20826
+        "pageviews": 10
     },
     {
         "query_id": "50_852",
@@ -6830,7 +5017,7 @@
         "answers": [
             "Jorge Luis Borges"
         ],
-        "pageviews": 75254
+        "pageviews": 28
     },
     {
         "query_id": "50_853",
@@ -6838,15 +5025,7 @@
         "answers": [
             "Nien Cheng"
         ],
-        "pageviews": 9833
-    },
-    {
-        "query_id": "50_854",
-        "question": "Who is the author of Gone for Soldiers?",
-        "answers": [
-            "Jeff Shaara"
-        ],
-        "pageviews": 2741
+        "pageviews": 4
     },
     {
         "query_id": "50_855",
@@ -6854,7 +5033,7 @@
         "answers": [
             "Maya Angelou"
         ],
-        "pageviews": 1900
+        "pageviews": 3
     },
     {
         "query_id": "50_856",
@@ -6862,15 +5041,7 @@
         "answers": [
             "Marty Feldman"
         ],
-        "pageviews": 12665
-    },
-    {
-        "query_id": "50_857",
-        "question": "Who is the author of Ten Thousand Roses: The Making of a Feminist Revolution?",
-        "answers": [
-            "Judy Rebick"
-        ],
-        "pageviews": 681
+        "pageviews": 5
     },
     {
         "query_id": "50_858",
@@ -6878,7 +5049,7 @@
         "answers": [
             "Hesiod"
         ],
-        "pageviews": 27947
+        "pageviews": 47
     },
     {
         "query_id": "50_859",
@@ -6886,7 +5057,7 @@
         "answers": [
             "Julian"
         ],
-        "pageviews": 5095
+        "pageviews": 2
     },
     {
         "query_id": "50_860",
@@ -6894,7 +5065,7 @@
         "answers": [
             "Michael Crichton"
         ],
-        "pageviews": 101982
+        "pageviews": 7
     },
     {
         "query_id": "50_861",
@@ -6902,7 +5073,7 @@
         "answers": [
             "Orson Scott Card"
         ],
-        "pageviews": 2076
+        "pageviews": 2
     },
     {
         "query_id": "50_862",
@@ -6910,16 +5081,7 @@
         "answers": [
             "Vern Thiessen"
         ],
-        "pageviews": 4261
-    },
-    {
-        "query_id": "50_863",
-        "question": "Who is the author of Firestorm?",
-        "answers": [
-            "David Sherman",
-            "Dan Cragg"
-        ],
-        "pageviews": 884
+        "pageviews": 2
     },
     {
         "query_id": "50_864",
@@ -6927,7 +5089,7 @@
         "answers": [
             "John Banville"
         ],
-        "pageviews": 3897
+        "pageviews": 3
     },
     {
         "query_id": "50_865",
@@ -6943,7 +5105,7 @@
             "David Baldacci",
             "Peter Lerangis"
         ],
-        "pageviews": 195606
+        "pageviews": 22
     },
     {
         "query_id": "50_866",
@@ -6951,31 +5113,7 @@
         "answers": [
             "Arkady Gaidar"
         ],
-        "pageviews": 4348
-    },
-    {
-        "query_id": "50_867",
-        "question": "Who is the author of Ars Magna?",
-        "answers": [
-            "Gerolamo Cardano"
-        ],
-        "pageviews": 13141
-    },
-    {
-        "query_id": "50_868",
-        "question": "Who is the author of Doctor Copernicus?",
-        "answers": [
-            "John Banville"
-        ],
-        "pageviews": 5420
-    },
-    {
-        "query_id": "50_869",
-        "question": "Who is the author of The Years?",
-        "answers": [
-            "Virginia Woolf"
-        ],
-        "pageviews": 2941
+        "pageviews": 2
     },
     {
         "query_id": "50_870",
@@ -6983,7 +5121,7 @@
         "answers": [
             "Kunihiko Tanaka"
         ],
-        "pageviews": 9693
+        "pageviews": 2
     },
     {
         "query_id": "50_872",
@@ -6991,7 +5129,7 @@
         "answers": [
             "Gary Jennings"
         ],
-        "pageviews": 2566
+        "pageviews": 3
     },
     {
         "query_id": "50_873",
@@ -6999,23 +5137,7 @@
         "answers": [
             "Sherman Alexie"
         ],
-        "pageviews": 179592
-    },
-    {
-        "query_id": "50_874",
-        "question": "Who is the author of The Castle of Adventure?",
-        "answers": [
-            "Enid Blyton"
-        ],
-        "pageviews": 7023
-    },
-    {
-        "query_id": "50_875",
-        "question": "Who is the author of The Haunted Mind?",
-        "answers": [
-            "Nathaniel Hawthorne"
-        ],
-        "pageviews": 2864
+        "pageviews": 9
     },
     {
         "query_id": "50_876",
@@ -7023,7 +5145,7 @@
         "answers": [
             "Gene Sharp"
         ],
-        "pageviews": 6318
+        "pageviews": 4
     },
     {
         "query_id": "50_877",
@@ -7031,7 +5153,7 @@
         "answers": [
             "Suu Minazuki"
         ],
-        "pageviews": 3838
+        "pageviews": 1
     },
     {
         "query_id": "50_878",
@@ -7039,7 +5161,7 @@
         "answers": [
             "Karin Boye"
         ],
-        "pageviews": 22778
+        "pageviews": 4
     },
     {
         "query_id": "50_879",
@@ -7047,7 +5169,7 @@
         "answers": [
             "Seamus Heaney"
         ],
-        "pageviews": 4874
+        "pageviews": 6
     },
     {
         "query_id": "50_880",
@@ -7055,15 +5177,7 @@
         "answers": [
             "Ruth Plumly Thompson"
         ],
-        "pageviews": 5474
-    },
-    {
-        "query_id": "50_881",
-        "question": "Who is the author of The Silent World?",
-        "answers": [
-            "Jacques Cousteau"
-        ],
-        "pageviews": 14063
+        "pageviews": 5
     },
     {
         "query_id": "50_882",
@@ -7071,15 +5185,7 @@
         "answers": [
             "Henry James"
         ],
-        "pageviews": 3778
-    },
-    {
-        "query_id": "50_883",
-        "question": "Who is the author of Zulu Hart?",
-        "answers": [
-            "Saul David"
-        ],
-        "pageviews": 959
+        "pageviews": 2
     },
     {
         "query_id": "50_884",
@@ -7087,7 +5193,7 @@
         "answers": [
             "Jill Johnston"
         ],
-        "pageviews": 4820
+        "pageviews": 4
     },
     {
         "query_id": "50_885",
@@ -7095,7 +5201,7 @@
         "answers": [
             "Terry Pratchett"
         ],
-        "pageviews": 4605
+        "pageviews": 20
     },
     {
         "query_id": "50_886",
@@ -7103,23 +5209,7 @@
         "answers": [
             "Paul"
         ],
-        "pageviews": 320265
-    },
-    {
-        "query_id": "50_887",
-        "question": "Who is the author of Three of Them?",
-        "answers": [
-            "Maxim Gorki"
-        ],
-        "pageviews": 1823
-    },
-    {
-        "query_id": "50_888",
-        "question": "Who is the author of Tru Confessions?",
-        "answers": [
-            "Janet Tashjian"
-        ],
-        "pageviews": 2193
+        "pageviews": 463
     },
     {
         "query_id": "50_889",
@@ -7127,15 +5217,7 @@
         "answers": [
             "V. C. Andrews"
         ],
-        "pageviews": 237041
-    },
-    {
-        "query_id": "50_890",
-        "question": "Who is the author of Some Like It Hot?",
-        "answers": [
-            "Zoey Dean"
-        ],
-        "pageviews": 900
+        "pageviews": 1
     },
     {
         "query_id": "50_891",
@@ -7143,7 +5225,7 @@
         "answers": [
             "Helen Dunmore"
         ],
-        "pageviews": 4552
+        "pageviews": 1
     },
     {
         "query_id": "50_892",
@@ -7151,23 +5233,7 @@
         "answers": [
             "Phil Plait"
         ],
-        "pageviews": 6803
-    },
-    {
-        "query_id": "50_893",
-        "question": "Who is the author of A Shot at History?",
-        "answers": [
-            "Abhinav Bindra"
-        ],
-        "pageviews": 15008
-    },
-    {
-        "query_id": "50_894",
-        "question": "Who is the author of Fearful Symmetry?",
-        "answers": [
-            "Northrop Frye"
-        ],
-        "pageviews": 5521
+        "pageviews": 12
     },
     {
         "query_id": "50_895",
@@ -7175,7 +5241,7 @@
         "answers": [
             "Clive Cussler"
         ],
-        "pageviews": 24567
+        "pageviews": 6
     },
     {
         "query_id": "50_896",
@@ -7183,23 +5249,7 @@
         "answers": [
             "Zilpha Keatley Snyder"
         ],
-        "pageviews": 17662
-    },
-    {
-        "query_id": "50_897",
-        "question": "Who is the author of The Best Family Home Evening Ever?",
-        "answers": [
-            "Orson Scott Card"
-        ],
-        "pageviews": 66
-    },
-    {
-        "query_id": "50_898",
-        "question": "Who is the author of Quarantine?",
-        "answers": [
-            "Jim Crace"
-        ],
-        "pageviews": 4506
+        "pageviews": 3
     },
     {
         "query_id": "50_899",
@@ -7207,7 +5257,7 @@
         "answers": [
             "Jim Butcher"
         ],
-        "pageviews": 25960
+        "pageviews": 33
     },
     {
         "query_id": "50_900",
@@ -7215,23 +5265,7 @@
         "answers": [
             "Will Shetterly"
         ],
-        "pageviews": 13241
-    },
-    {
-        "query_id": "50_901",
-        "question": "Who is the author of The Song of the Lark?",
-        "answers": [
-            "Willa Cather"
-        ],
-        "pageviews": 591
-    },
-    {
-        "query_id": "50_902",
-        "question": "Who is the author of Flush: A Biography?",
-        "answers": [
-            "Virginia Woolf"
-        ],
-        "pageviews": 12334
+        "pageviews": 5
     },
     {
         "query_id": "50_903",
@@ -7239,7 +5273,7 @@
         "answers": [
             "Paul Rudnick"
         ],
-        "pageviews": 15048
+        "pageviews": 15
     },
     {
         "query_id": "50_904",
@@ -7247,7 +5281,7 @@
         "answers": [
             "Don Juan Manuel"
         ],
-        "pageviews": 15927
+        "pageviews": 10
     },
     {
         "query_id": "50_905",
@@ -7255,7 +5289,7 @@
         "answers": [
             "August Derleth"
         ],
-        "pageviews": 2918
+        "pageviews": 7
     },
     {
         "query_id": "50_906",
@@ -7263,7 +5297,7 @@
         "answers": [
             "Nina Bawden"
         ],
-        "pageviews": 27855
+        "pageviews": 11
     },
     {
         "query_id": "50_907",
@@ -7271,7 +5305,7 @@
         "answers": [
             "Andy Nyman"
         ],
-        "pageviews": 14778
+        "pageviews": 5
     },
     {
         "query_id": "50_908",
@@ -7279,7 +5313,7 @@
         "answers": [
             "Michel de Montaigne"
         ],
-        "pageviews": 79812
+        "pageviews": 42
     },
     {
         "query_id": "50_909",
@@ -7288,15 +5322,7 @@
             "Dean Koontz",
             "Edward Gorman"
         ],
-        "pageviews": 3311
-    },
-    {
-        "query_id": "50_910",
-        "question": "Who is the author of Rose Daughter?",
-        "answers": [
-            "Robin McKinley"
-        ],
-        "pageviews": 4808
+        "pageviews": 1
     },
     {
         "query_id": "50_911",
@@ -7304,7 +5330,7 @@
         "answers": [
             "Boniface VIII"
         ],
-        "pageviews": 5428
+        "pageviews": 13
     },
     {
         "query_id": "50_913",
@@ -7312,15 +5338,7 @@
         "answers": [
             "Christopher Paolini"
         ],
-        "pageviews": 66786
-    },
-    {
-        "query_id": "50_914",
-        "question": "Who is the author of General Winston's Daughter?",
-        "answers": [
-            "Sharon Shinn"
-        ],
-        "pageviews": 1000
+        "pageviews": 2
     },
     {
         "query_id": "50_915",
@@ -7328,15 +5346,7 @@
         "answers": [
             "Robert Albert Bloch"
         ],
-        "pageviews": 17491
-    },
-    {
-        "query_id": "50_916",
-        "question": "Who is the author of Bonk: The Curious Coupling of Science and Sex?",
-        "answers": [
-            "Mary Roach"
-        ],
-        "pageviews": 7942
+        "pageviews": 5
     },
     {
         "query_id": "50_917",
@@ -7344,7 +5354,7 @@
         "answers": [
             "Rudyard Kipling"
         ],
-        "pageviews": 89739
+        "pageviews": 16
     },
     {
         "query_id": "50_918",
@@ -7352,7 +5362,7 @@
         "answers": [
             "Satyajit Ray"
         ],
-        "pageviews": 17515
+        "pageviews": 1
     },
     {
         "query_id": "50_919",
@@ -7360,15 +5370,7 @@
         "answers": [
             "Edward Yourdon"
         ],
-        "pageviews": 2852
-    },
-    {
-        "query_id": "50_920",
-        "question": "Who is the author of Viking Trilogy?",
-        "answers": [
-            "Henry Treece"
-        ],
-        "pageviews": 3345
+        "pageviews": 2
     },
     {
         "query_id": "50_921",
@@ -7376,7 +5378,7 @@
         "answers": [
             "Italo Calvino"
         ],
-        "pageviews": 15149
+        "pageviews": 6
     },
     {
         "query_id": "50_922",
@@ -7384,15 +5386,7 @@
         "answers": [
             "Raymond Williams"
         ],
-        "pageviews": 2642
-    },
-    {
-        "query_id": "50_923",
-        "question": "Who is the author of The Man Who Went Back?",
-        "answers": [
-            "Warwick Deeping"
-        ],
-        "pageviews": 850
+        "pageviews": 4
     },
     {
         "query_id": "50_924",
@@ -7400,7 +5394,7 @@
         "answers": [
             "Ernest Hemingway"
         ],
-        "pageviews": 13410
+        "pageviews": 4
     },
     {
         "query_id": "50_925",
@@ -7408,7 +5402,7 @@
         "answers": [
             "Ruth Rendell"
         ],
-        "pageviews": 1931
+        "pageviews": 1
     },
     {
         "query_id": "50_926",
@@ -7416,7 +5410,7 @@
         "answers": [
             "Beverly Cleary"
         ],
-        "pageviews": 8364
+        "pageviews": 3
     },
     {
         "query_id": "50_927",
@@ -7424,7 +5418,7 @@
         "answers": [
             "Marcel Proust"
         ],
-        "pageviews": 8355
+        "pageviews": 1
     },
     {
         "query_id": "50_928",
@@ -7432,16 +5426,7 @@
         "answers": [
             "Jorge Luis Borges"
         ],
-        "pageviews": 13477
-    },
-    {
-        "query_id": "50_929",
-        "question": "Who is the author of Thin Air?",
-        "answers": [
-            "Kristine Kathryn Rusch",
-            "Dean Wesley Smith"
-        ],
-        "pageviews": 226
+        "pageviews": 5
     },
     {
         "query_id": "50_930",
@@ -7449,23 +5434,7 @@
         "answers": [
             "Doug Wright"
         ],
-        "pageviews": 28329
-    },
-    {
-        "query_id": "50_931",
-        "question": "Who is the author of You Can't See 'Round Corners?",
-        "answers": [
-            "Jon Cleary"
-        ],
-        "pageviews": 600
-    },
-    {
-        "query_id": "50_932",
-        "question": "Who is the author of The Sleep of Reason?",
-        "answers": [
-            "Martin Day"
-        ],
-        "pageviews": 1076
+        "pageviews": 43
     },
     {
         "query_id": "50_933",
@@ -7473,15 +5442,7 @@
         "answers": [
             "Apuleius"
         ],
-        "pageviews": 147586
-    },
-    {
-        "query_id": "50_934",
-        "question": "Who is the author of Train Train?",
-        "answers": [
-            "Eiki Eiki"
-        ],
-        "pageviews": 1660
+        "pageviews": 93
     },
     {
         "query_id": "50_935",
@@ -7489,7 +5450,7 @@
         "answers": [
             "William Gibson"
         ],
-        "pageviews": 16555
+        "pageviews": 8
     },
     {
         "query_id": "50_936",
@@ -7497,15 +5458,7 @@
         "answers": [
             "Alberto Fuguet"
         ],
-        "pageviews": 1297
-    },
-    {
-        "query_id": "50_937",
-        "question": "Who is the author of Aiding and Abetting?",
-        "answers": [
-            "Muriel Spark"
-        ],
-        "pageviews": 2651
+        "pageviews": 2
     },
     {
         "query_id": "50_938",
@@ -7513,40 +5466,7 @@
         "answers": [
             "Margery Sharp"
         ],
-        "pageviews": 24515
-    },
-    {
-        "query_id": "50_939",
-        "question": "Who is the author of The Clue of the Black Keys?",
-        "answers": [
-            "Carolyn Keene"
-        ],
-        "pageviews": 3046
-    },
-    {
-        "query_id": "50_940",
-        "question": "Who is the author of Counting the Eons?",
-        "answers": [
-            "Isaac Asimov"
-        ],
-        "pageviews": 1316
-    },
-    {
-        "query_id": "50_941",
-        "question": "Who is the author of Troy: Fall of Kings?",
-        "answers": [
-            "David Gemmell"
-        ],
-        "pageviews": 327
-    },
-    {
-        "query_id": "50_942",
-        "question": "Who is the author of Richard and Samuel?",
-        "answers": [
-            "Max Brod",
-            "Franz Kafka"
-        ],
-        "pageviews": 1017
+        "pageviews": 5
     },
     {
         "query_id": "50_943",
@@ -7554,7 +5474,7 @@
         "answers": [
             "Giovanni Verga"
         ],
-        "pageviews": 7055
+        "pageviews": 1
     },
     {
         "query_id": "50_944",
@@ -7562,7 +5482,7 @@
         "answers": [
             "Fletcher Pratt"
         ],
-        "pageviews": 603
+        "pageviews": 2
     },
     {
         "query_id": "50_945",
@@ -7570,15 +5490,7 @@
         "answers": [
             "John Steinbeck"
         ],
-        "pageviews": 6236
-    },
-    {
-        "query_id": "50_946",
-        "question": "Who is the author of Like?",
-        "answers": [
-            "Ali Smith"
-        ],
-        "pageviews": 2782
+        "pageviews": 1
     },
     {
         "query_id": "50_947",
@@ -7586,15 +5498,7 @@
         "answers": [
             "Abraham Cahan"
         ],
-        "pageviews": 4872
-    },
-    {
-        "query_id": "50_948",
-        "question": "Who is the author of Zweites Buch?",
-        "answers": [
-            "Adolf Hitler"
-        ],
-        "pageviews": 17561
+        "pageviews": 2
     },
     {
         "query_id": "50_949",
@@ -7602,17 +5506,7 @@
         "answers": [
             "Vikram Seth"
         ],
-        "pageviews": 13097
-    },
-    {
-        "query_id": "50_950",
-        "question": "Who is the author of The Mersey Sound?",
-        "answers": [
-            "Roger McGough",
-            "Brian Patten",
-            "Adrian Henri"
-        ],
-        "pageviews": 6092
+        "pageviews": 4
     },
     {
         "query_id": "50_951",
@@ -7620,7 +5514,7 @@
         "answers": [
             "Kingsley Amis"
         ],
-        "pageviews": 1586
+        "pageviews": 7
     },
     {
         "query_id": "50_952",
@@ -7628,7 +5522,7 @@
         "answers": [
             "Anne McCaffrey"
         ],
-        "pageviews": 3877
+        "pageviews": 2
     },
     {
         "query_id": "50_953",
@@ -7636,23 +5530,7 @@
         "answers": [
             "Ivan Turgenev"
         ],
-        "pageviews": 103707
-    },
-    {
-        "query_id": "50_954",
-        "question": "Who is the author of L game?",
-        "answers": [
-            "Edward de Bono"
-        ],
-        "pageviews": 19994
-    },
-    {
-        "query_id": "50_955",
-        "question": "Who is the author of Sonnet 92?",
-        "answers": [
-            "William Shakespeare"
-        ],
-        "pageviews": 4713
+        "pageviews": 33
     },
     {
         "query_id": "50_956",
@@ -7660,15 +5538,7 @@
         "answers": [
             "Piers Anthony"
         ],
-        "pageviews": 1696
-    },
-    {
-        "query_id": "50_957",
-        "question": "Who is the author of The Survival Handbook?",
-        "answers": [
-            "Ray Mears"
-        ],
-        "pageviews": 1378
+        "pageviews": 2
     },
     {
         "query_id": "50_958",
@@ -7676,15 +5546,7 @@
         "answers": [
             "Carl Hiaasen"
         ],
-        "pageviews": 9296
-    },
-    {
-        "query_id": "50_959",
-        "question": "Who is the author of Julian Comstock: A Story of 22nd-Century America?",
-        "answers": [
-            "Robert Charles Wilson"
-        ],
-        "pageviews": 4747
+        "pageviews": 3
     },
     {
         "query_id": "50_960",
@@ -7692,7 +5554,7 @@
         "answers": [
             "Gunadhya"
         ],
-        "pageviews": 17517
+        "pageviews": 18
     },
     {
         "query_id": "50_961",
@@ -7700,7 +5562,7 @@
         "answers": [
             "Alexandre Dumas"
         ],
-        "pageviews": 8260
+        "pageviews": 3
     },
     {
         "query_id": "50_962",
@@ -7708,7 +5570,7 @@
         "answers": [
             "Sarah Joseph"
         ],
-        "pageviews": 3994
+        "pageviews": 3
     },
     {
         "query_id": "50_963",
@@ -7716,7 +5578,7 @@
         "answers": [
             "Graham Hancock"
         ],
-        "pageviews": 143865
+        "pageviews": 15
     },
     {
         "query_id": "50_964",
@@ -7724,15 +5586,7 @@
         "answers": [
             "Jean-Jacques Rousseau"
         ],
-        "pageviews": 13830
-    },
-    {
-        "query_id": "50_965",
-        "question": "Who is the author of The Year's Best Science Fiction: Twenty-Third Annual Collection?",
-        "answers": [
-            "Gardner Dozois"
-        ],
-        "pageviews": 1124
+        "pageviews": 1
     },
     {
         "query_id": "50_966",
@@ -7740,15 +5594,7 @@
         "answers": [
             "Tim Powers"
         ],
-        "pageviews": 8815
-    },
-    {
-        "query_id": "50_967",
-        "question": "Who is the author of Boy?",
-        "answers": [
-            "Roald Dahl"
-        ],
-        "pageviews": 0
+        "pageviews": 7
     },
     {
         "query_id": "50_968",
@@ -7756,7 +5602,7 @@
         "answers": [
             "Marie Lu"
         ],
-        "pageviews": 14979
+        "pageviews": 2
     },
     {
         "query_id": "50_969",
@@ -7764,15 +5610,7 @@
         "answers": [
             "William Shakespeare"
         ],
-        "pageviews": 41456
-    },
-    {
-        "query_id": "50_970",
-        "question": "Who is the author of Neither Here nor There: Travels in Europe?",
-        "answers": [
-            "Bill Bryson"
-        ],
-        "pageviews": 9725
+        "pageviews": 50
     },
     {
         "query_id": "50_971",
@@ -7780,7 +5618,7 @@
         "answers": [
             "Auguste Villiers de l'Isle-Adam"
         ],
-        "pageviews": 15622
+        "pageviews": 8
     },
     {
         "query_id": "50_972",
@@ -7788,7 +5626,7 @@
         "answers": [
             "Tsutomu Nihei"
         ],
-        "pageviews": 241802
+        "pageviews": 11
     },
     {
         "query_id": "50_973",
@@ -7796,15 +5634,7 @@
         "answers": [
             "Jean-Claude van Itallie"
         ],
-        "pageviews": 6577
-    },
-    {
-        "query_id": "50_974",
-        "question": "Who is the author of Buck: A Memoir?",
-        "answers": [
-            "M. K. Asante"
-        ],
-        "pageviews": 3226
+        "pageviews": 11
     },
     {
         "query_id": "50_975",
@@ -7812,7 +5642,7 @@
         "answers": [
             "Alexander Ostrovsky"
         ],
-        "pageviews": 1134
+        "pageviews": 8
     },
     {
         "query_id": "50_976",
@@ -7820,7 +5650,7 @@
         "answers": [
             "John Osborne"
         ],
-        "pageviews": 17986
+        "pageviews": 45
     },
     {
         "query_id": "50_977",
@@ -7828,7 +5658,7 @@
         "answers": [
             "John Crowley"
         ],
-        "pageviews": 1680
+        "pageviews": 4
     },
     {
         "query_id": "50_978",
@@ -7836,7 +5666,7 @@
         "answers": [
             "Doris Kearns Goodwin"
         ],
-        "pageviews": 5960
+        "pageviews": 3
     },
     {
         "query_id": "50_979",
@@ -7847,7 +5677,7 @@
             "Jude Watson",
             "Gordon Korman"
         ],
-        "pageviews": 9111
+        "pageviews": 1
     },
     {
         "query_id": "50_980",
@@ -7855,7 +5685,7 @@
         "answers": [
             "Jean-Jacques Goldman"
         ],
-        "pageviews": 3775
+        "pageviews": 3
     },
     {
         "query_id": "50_981",
@@ -7863,15 +5693,7 @@
         "answers": [
             "Ed Brubaker"
         ],
-        "pageviews": 29350
-    },
-    {
-        "query_id": "50_982",
-        "question": "Who is the author of Cauldron?",
-        "answers": [
-            "Larry Bond"
-        ],
-        "pageviews": 3848
+        "pageviews": 37
     },
     {
         "query_id": "50_983",
@@ -7879,7 +5701,7 @@
         "answers": [
             "Luis Valdez"
         ],
-        "pageviews": 7403
+        "pageviews": 1
     },
     {
         "query_id": "50_984",
@@ -7887,23 +5709,7 @@
         "answers": [
             "A. P. J. Abdul Kalam"
         ],
-        "pageviews": 56558
-    },
-    {
-        "query_id": "50_985",
-        "question": "Who is the author of Maggie and the Pirates?",
-        "answers": [
-            "Ezra Jack Keats"
-        ],
-        "pageviews": 913
-    },
-    {
-        "query_id": "50_986",
-        "question": "Who is the author of House of Reckoning?",
-        "answers": [
-            "John Saul"
-        ],
-        "pageviews": 2214
+        "pageviews": 1
     },
     {
         "query_id": "50_987",
@@ -7911,7 +5717,7 @@
         "answers": [
             "Nicander"
         ],
-        "pageviews": 2343
+        "pageviews": 2
     },
     {
         "query_id": "50_988",
@@ -7919,15 +5725,7 @@
         "answers": [
             "Ngaio Marsh"
         ],
-        "pageviews": 2022
-    },
-    {
-        "query_id": "50_989",
-        "question": "Who is the author of Marry Me?",
-        "answers": [
-            "Dan Rhodes"
-        ],
-        "pageviews": 585
+        "pageviews": 1
     },
     {
         "query_id": "50_990",
@@ -7935,7 +5733,7 @@
         "answers": [
             "Buronson"
         ],
-        "pageviews": 7543
+        "pageviews": 1
     },
     {
         "query_id": "50_991",
@@ -7943,7 +5741,7 @@
         "answers": [
             "John Dewey"
         ],
-        "pageviews": 4640
+        "pageviews": 10
     },
     {
         "query_id": "50_992",
@@ -7951,7 +5749,7 @@
         "answers": [
             "Eduardo Galeano"
         ],
-        "pageviews": 48001
+        "pageviews": 13
     },
     {
         "query_id": "50_993",
@@ -7959,7 +5757,7 @@
         "answers": [
             "Saul Bellow"
         ],
-        "pageviews": 43205
+        "pageviews": 12
     },
     {
         "query_id": "50_994",
@@ -7967,15 +5765,7 @@
         "answers": [
             "Elijah"
         ],
-        "pageviews": 5415
-    },
-    {
-        "query_id": "50_995",
-        "question": "Who is the author of The Ghost of the Grotto?",
-        "answers": [
-            "Carl Barks"
-        ],
-        "pageviews": 1307
+        "pageviews": 9
     },
     {
         "query_id": "50_996",
@@ -7983,7 +5773,7 @@
         "answers": [
             "Go Nagai"
         ],
-        "pageviews": 68651
+        "pageviews": 15
     },
     {
         "query_id": "50_997",
@@ -7991,22 +5781,6 @@
         "answers": [
             "Karl Pearson"
         ],
-        "pageviews": 6088
-    },
-    {
-        "query_id": "50_998",
-        "question": "Who is the author of Power, Profit and Protest?",
-        "answers": [
-            "Verity Burgmann"
-        ],
-        "pageviews": 639
-    },
-    {
-        "query_id": "50_999",
-        "question": "Who is the author of The Man in the Picture?",
-        "answers": [
-            "Susan Hill"
-        ],
-        "pageviews": 2463
+        "pageviews": 8
     }
 ]
