@@ -2,7 +2,7 @@ import os, csv, json
 import logging
 import math
 
-def split_to_buckets(objects, split_points):
+def split_to_buckets(objects, split_points, args):
     
     split_points = sorted(split_points)
     sp_len = len(split_points)
@@ -11,7 +11,10 @@ def split_to_buckets(objects, split_points):
     for obj in objects:
         # rp = obj['relative_popularity']
         if int(obj['pageviews']) > 0:
-            rp = math.log(int(obj['pageviews']), 10)
+            if args.dataset_name in ['popQA', 'witQA']:
+                rp = math.log(int(obj['pageviews']), 10)
+            elif args.dataset_name == 'EQ':
+                rp = math.log(int(obj['pageviews']), 2)
         else:
             rp = 0
         
@@ -173,7 +176,7 @@ def save_evaluation_files_v2(retriever, results, args):
     elif args.dataset_name == 'witQA':
         split_points = [2, 3, 4, 5]
     elif args.dataset_name == 'EQ':
-        split_points = [3, 4, 5, 6]
+        split_points = [1, 3, 5, 7]
     
     k_values = [1, 3, 5]
     queries_filename_path = f"{args.data_path}/test"
@@ -246,7 +249,7 @@ def save_evaluation_files_v2(retriever, results, args):
                     query_rel_data = json.load(in_queries)
                 all_queries.extend(query_rel_data)
                 
-                bk_data = split_to_buckets(query_rel_data, split_points)
+                bk_data = split_to_buckets(query_rel_data, split_points, args)
                 
                 for bk_name, bk_value in bk_data.items():
                     logging.info(f"Processing {bk_name} ...")
@@ -296,7 +299,7 @@ def save_evaluation_files_v2(retriever, results, args):
         rel_tsv_writer.writerow(eval_res)   
         
         
-        bk_data = split_to_buckets(all_queries, split_points)
+        bk_data = split_to_buckets(all_queries, split_points, args)
                 
         for bk_name, bk_value in bk_data.items():
             logging.info(f"Processing {bk_name} ...")

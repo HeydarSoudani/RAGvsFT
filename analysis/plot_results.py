@@ -89,8 +89,6 @@ elif dataset_name == 'EQ':
     data_evidence_dir = "data/dataset/entity_questions_dataset/data_evidence"
     num_relations = 25
     relation_ids = ['17', '19', '20', '26', '30', '36', '40', '50', '69', '106', '112', '127', '131', '136', '159', '170', '175', '176', '264', '276', '407', '413', '495', '740', '800']
-    # split_points = [3, 4, 5, 6]
-    # split_points = [1, 10, 100, 1000]
     split_points = [1, 3, 5, 7]
     RELATIONS = {
         '17': 'country loc. in', # country located in
