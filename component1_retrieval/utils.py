@@ -263,18 +263,18 @@ def save_evaluation_files_v2(retriever, results, args):
                         qid_list = [q_sample["query_id"] for q_sample in bk_value]
                         
                         # Create qrels for each bucket
-                        qrels = {}
+                        qrels_bk = {}
                         for item in qrels_rel_data:
                             query_id, corpus_id, score = item["query_id"], item["doc_id"], int(item["score"])
                             if item["query_id"] in qid_list:
-                                if query_id not in qrels:
-                                    qrels[query_id] = {corpus_id: score}
+                                if query_id not in qrels_bk:
+                                    qrels_bk[query_id] = {corpus_id: score}
                                 else:
-                                    qrels[query_id][corpus_id] = score
+                                    qrels_bk[query_id][corpus_id] = score
                     
                                     
-                        if len(qrels) > 0:
-                            ndcg, _map, recall, precision = retriever.evaluate(qrels, results, k_values) #retriever.k_values
+                        if len(qrels_bk) > 0:
+                            ndcg, _map, recall, precision = retriever.evaluate(qrels_bk, results, k_values) #retriever.k_values
 
                             eval_res = [f"{relation_id}_{bk_name}"]\
                                 +list(ndcg.values())\
