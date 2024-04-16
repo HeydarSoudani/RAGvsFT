@@ -303,6 +303,7 @@ def save_evaluation_files_v2(retriever, results, args):
             logging.info(f"Processing {bk_name} ...")
             print(f"Processing {bk_name} ...")
             
+            print(f"len({bk_name}): {len(bk_value)}")
             if len(bk_value) == 0:
                 print(f"{relation_id}_{bk_name} has no data.")
                 eval_res = [f"{relation_id}_{bk_name}"] + [0]*12
