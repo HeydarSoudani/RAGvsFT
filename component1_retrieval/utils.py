@@ -205,6 +205,7 @@ def save_evaluation_files_v2(retriever, results, args):
             "P@1", "P@3", "P@5",
         ])
         all_qrels = {}
+        all_qrels_list = []
         all_queries = []
     
         for filename in os.listdir(qrels_filename_dir):
@@ -217,6 +218,7 @@ def save_evaluation_files_v2(retriever, results, args):
                 
                 with open(qrels_file_path, 'r') as qrels_infile:
                     qrels_rel_data = json.load(qrels_infile)
+                all_qrels_list.extend(qrels_rel_data)
                 
                 # Get the evaluation results for each relation
                 qrels = {}
@@ -312,7 +314,7 @@ def save_evaluation_files_v2(retriever, results, args):
                 
                 # Create qrels for each bucket
                 qrels_bk_all = {}
-                for item in all_qrels:
+                for item in all_qrels_list:
                     query_id, corpus_id, score = item["query_id"], item["doc_id"], int(item["score"])
                     if item["query_id"] in qid_list:
                         if query_id not in qrels_bk_all:
