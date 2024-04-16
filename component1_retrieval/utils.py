@@ -296,9 +296,9 @@ def save_evaluation_files_v2(retriever, results, args):
                 +list(precision.values())
         rel_tsv_writer.writerow(eval_res)   
         
-        bk_data = split_to_buckets(all_queries, split_points, args)
+        bk_all_data = split_to_buckets(all_queries, split_points, args)
                 
-        for bk_name, bk_value in bk_data.items():
+        for bk_name, bk_value in bk_all_data.items():
             logging.info(f"Processing {bk_name} ...")
             print(f"Processing {bk_name} ...")
             
