@@ -257,7 +257,7 @@ def main(args):
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 10:
+            if idx == 30:
                 break
             
             retrieved_text = ""
