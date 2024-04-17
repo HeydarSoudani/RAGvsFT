@@ -199,11 +199,11 @@ def main(args):
     
     ### === Parameters per model
     if args.llm_model_name == "flant5":
-        # prompt_template_w_context = """Context: {context} \n Based on the provided context, answer the question: {question}"""
-        # prompt_template_wo_context = """Answer the question: {question}"""
-        
-        prompt_template_w_context = """Context: {context} \n\nBased on the provided context, answer the question. Question: {question}"""
+        prompt_template_w_context = """Context: {context} \n Based on the provided context, answer the question: {question}"""
         prompt_template_wo_context = """Answer the question: {question}"""
+        
+        # prompt_template_w_context = """Context: {context} \n\nBased on the provided context, answer the question. Question: {question}"""
+        # prompt_template_wo_context = """Answer the question: {question}"""
         
     elif args.llm_model_name in ["llama2", "mistral"]:
         prompt_template_w_context = """<s>[INST] <<SYS>><</SYS>> \n Context: {context}\n Question: {question} \n[/INST]"""
@@ -291,7 +291,7 @@ def main(args):
             #         print('Error message:', e)
             
             inputs = tokenizer(prompt, return_tensors="pt")
-            outputs = model.generate(**inputs)
+            outputs = model.generate(**inputs, min_length=40, max_length=100)
             pred = tokenizer.batch_decode(outputs, skip_special_tokens=True)
             
             
