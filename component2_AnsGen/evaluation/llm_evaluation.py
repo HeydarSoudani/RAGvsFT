@@ -201,7 +201,6 @@ def main(args):
     if args.llm_model_name == "flant5":
         # prompt_template_w_context = """Context: {context} \n Based on the provided context, answer the question: {question}"""
         # prompt_template_wo_context = """Answer the question: {question}"""
-        
         prompt_template_w_context = """Context: {context} \nQuestion: {question}"""
         prompt_template_wo_context = """Answer the question: {question}"""
         
@@ -258,8 +257,8 @@ def main(args):
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 10:
-                break
+            # if idx == 10:
+            #     break
             
             retrieved_text = ""
             has_context = False
@@ -290,11 +289,6 @@ def main(args):
                     print(f"Try #{i+1} for Query: {query_id}")
                     print('Error message:', e)
             
-            # inputs = tokenizer(prompt, return_tensors="pt")
-            # outputs = model.generate(**inputs, min_length=40, max_length=100)
-            # pred = tokenizer.batch_decode(outputs, skip_special_tokens=True)
-            
-            
             if args.llm_model_name == 'flant5':
                 pred = result
             elif args.llm_model_name in ["llama2", "mistral"]:
@@ -310,23 +304,23 @@ def main(args):
                         is_correct = True
             accuracy.append(is_correct)
             
-            # if idx < 10 or idx % 300 == 0:
-            #     logging.info('\n')
-            #     logging.info(f"Prompt: {prompt}")
-            #     logging.info(f"Query: {query}")
-            #     logging.info(f"Has context: {has_context}"),
-            #     logging.info(f"Pred: {pred}")
-            #     logging.info(f"Labels: {test_answers[idx]}")
-            #     logging.info(f"Final decision: {is_correct}")
-            #     logging.info('====')
-            print('\n')
-            print(f"Prompt: {prompt}")
-            print(f"Query: {query}")
-            print(f"Has context: {has_context}"),
-            print(f"Pred: {pred}")
-            print(f"Labels: {test_answers[idx]}")
-            print(f"Final decision: {is_correct}")
-            print('====')
+            if idx < 10 or idx % 300 == 0:
+                logging.info('\n')
+                logging.info(f"Prompt: {prompt}")
+                logging.info(f"Query: {query}")
+                logging.info(f"Has context: {has_context}"),
+                logging.info(f"Pred: {pred}")
+                logging.info(f"Labels: {test_answers[idx]}")
+                logging.info(f"Final decision: {is_correct}")
+                logging.info('====')
+            # print('\n')
+            # print(f"Prompt: {prompt}")
+            # print(f"Query: {query}")
+            # print(f"Has context: {has_context}"),
+            # print(f"Pred: {pred}")
+            # print(f"Labels: {test_answers[idx]}")
+            # print(f"Final decision: {is_correct}")
+            # print('====')
             
             item = {
                 "query_id": query_id,
