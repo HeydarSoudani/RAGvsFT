@@ -51,11 +51,14 @@ def main(args):
     if not os.path.exists(args.output_results_dir):
         os.makedirs(args.output_results_dir)
     
+    resutls_for_rerank_path = f"{args.output_results_dir}/{args.dataset_name.lower()}_{args.bm25_results_for_rerank_file}"
+    with open(resutls_for_rerank_path, 'w') as f:
+        json.dump(results, f, indent=4)
+
     save_qrels_file(results, args)
     # save_evaluation_files_v1(retriever, results, args)
     save_evaluation_files_v2(retriever, results, args)
     
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset_name", type=str, required=True)
@@ -63,6 +66,8 @@ if __name__ == "__main__":
     parser.add_argument("--output_results_dir", type=str)
     parser.add_argument("--output_results_filename", type=str)
     parser.add_argument("--results_save_file", default=None, type=str)
+    parser.add_argument("--bm25_results_for_rerank_file", default=None, type=str)
+    
     args = parser.parse_args()
     main(args)
     
