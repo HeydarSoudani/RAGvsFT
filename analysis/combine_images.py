@@ -75,12 +75,12 @@ from PIL import Image, ImageDraw, ImageFont
 def combine_images_with_titles(directory, output_path):
     # List all PNG files in the directory
     image_paths = [
-        # os.path.join(directory, 'ret_acc_popqa.png'),
-        # os.path.join(directory, 'ret_acc_witqa.png'),
-        # os.path.join(directory, 'ret_acc_eq.png'),
-        os.path.join(directory, 'pop_dist_popqa.png'),
-        os.path.join(directory, 'pop_dist_witqa.png'),
-        os.path.join(directory, 'pop_dist_eq.png'),
+        os.path.join(directory, 'ret_acc_popqa.png'),
+        os.path.join(directory, 'ret_acc_witqa.png'),
+        os.path.join(directory, 'ret_acc_eq.png'),
+        # os.path.join(directory, 'pop_dist_popqa.png'),
+        # os.path.join(directory, 'pop_dist_witqa.png'),
+        # os.path.join(directory, 'pop_dist_eq.png'),
     ]
     
     # image_paths = [os.path.join(directory, f) for f in os.listdir(directory) if f.endswith('.png')]
@@ -114,9 +114,9 @@ def combine_images_with_titles(directory, output_path):
     # Save the combined image
     combined_image.save(output_path)
 
-image_directory = 'analysis/images_results/popularity_per_bucket'
-# image_directory = 'analysis/images_results/ret_buckets'
-output_image_path = 'analysis/images_results/popularity_per_bucket/combined_image.png'
+# image_directory = 'analysis/images_results/popularity_per_bucket'
+image_directory = 'analysis/images_results/ret_buckets'
+output_image_path = 'analysis/images_results/ret_buckets/combined_image.png'
 
 combine_images_with_titles(image_directory, output_image_path)
 
