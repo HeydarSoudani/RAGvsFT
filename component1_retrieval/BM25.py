@@ -41,7 +41,7 @@ def main(args):
     
     
     hostname = "localhost" 
-    index_name = f"{args.dataset_name}_index" 
+    index_name = f"{args.dataset_name.lower()}_index" 
     initialize = True 
     
     model = BM25(index_name=index_name, hostname=hostname, initialize=initialize)
