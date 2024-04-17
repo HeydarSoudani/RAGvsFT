@@ -243,7 +243,7 @@ def main(args):
             max_new_tokens = max_new_tokens
         )
     elif args.llm_model_name == "flant5":
-        max_new_tokens = 100
+        max_new_tokens = 20
         pipe = pipeline( 
             "text2text-generation", 
             model=model, 
@@ -289,7 +289,7 @@ def main(args):
             
             inputs = tokenizer(prompt, return_tensors="pt")
             outputs = model.generate(**inputs)
-            pred = tokenizer.batch_decode(outputs, skip_special_tokens=True)[0]
+            pred = tokenizer.batch_decode(outputs, skip_special_tokens=True)
             
             
             # if args.llm_model_name == 'flant5':
