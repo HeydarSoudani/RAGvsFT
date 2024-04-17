@@ -243,7 +243,7 @@ def main(args):
             max_new_tokens = max_new_tokens
         )
     elif args.llm_model_name == "flant5":
-        max_new_tokens = 20
+        max_new_tokens = 100
         pipe = pipeline( 
             "text2text-generation", 
             model=model, 
@@ -255,7 +255,7 @@ def main(args):
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 20:
+            if idx == 10:
                 break
             
             retrieved_text = ""
