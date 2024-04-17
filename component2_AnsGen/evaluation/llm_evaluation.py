@@ -278,23 +278,28 @@ def main(args):
             else:
                 prompt = prompt_template_wo_context.format(question=query)                
                     
-            n_max_trial = 5
-            for i in range(n_max_trial):
-                try:
-                    result = pipe(prompt)[0]['generated_text']
-                    break
-                except Exception as e:
-                    print(f"Try #{i+1} for Query: {query_id}")
-                    print('Error message:', e)
+            # n_max_trial = 5
+            # for i in range(n_max_trial):
+            #     try:
+            #         result = pipe(prompt)[0]['generated_text']
+            #         break
+            #     except Exception as e:
+            #         print(f"Try #{i+1} for Query: {query_id}")
+            #         print('Error message:', e)
             
-            if args.llm_model_name == 'flant5':
-                pred = result
-            elif args.llm_model_name in ["llama2", "mistral"]:
-                pred = result.split("[/INST]")[1].strip()
-            elif args.llm_model_name in ['zephyr', "stable_lm2", "tiny_llama"]:
-                pred = result.split("<|assistant|>")[1].strip()
-            elif args.llm_model_name == 'MiniCPM':
-                pred = result.split("<AI>")[1].strip()
+            inputs = tokenizer(prompt, return_tensors="pt")
+            outputs = model.generate(**inputs)
+            pred = tokenizer.batch_decode(outputs, skip_special_tokens=True)[0]
+            
+            
+            # if args.llm_model_name == 'flant5':
+            #     pred = result
+            # elif args.llm_model_name in ["llama2", "mistral"]:
+            #     pred = result.split("[/INST]")[1].strip()
+            # elif args.llm_model_name in ['zephyr', "stable_lm2", "tiny_llama"]:
+            #     pred = result.split("<|assistant|>")[1].strip()
+            # elif args.llm_model_name == 'MiniCPM':
+            #     pred = result.split("<AI>")[1].strip()
             
             is_correct = False
             for pa in test_answers[idx]:
