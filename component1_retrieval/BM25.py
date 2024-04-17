@@ -13,6 +13,10 @@ from beir import LoggingHandler
 from beir.retrieval.search.lexical import BM25Search as BM25
 from beir.retrieval.evaluation import EvaluateRetrieval
 
+print(os.getcwd())
+import sys
+sys.path.append(os.getcwd())
+
 from component1_retrieval.customized_datasets.data_loader import CostomizedGenericDataLoader
 from component1_retrieval.utils import save_qrels_file, save_evaluation_files_v1, save_evaluation_files_v2
 
