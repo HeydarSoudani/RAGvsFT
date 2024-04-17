@@ -3,7 +3,7 @@ import argparse
 
 
 def main(args):
-    dataset_name = "popQA" # popQA, EQ, witQA
+    dataset_name = "witQA" # popQA, witQA, EQ
     retrieval_method = 'ideal' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
     dataset_dir = f"component1_retrieval/data/{dataset_name}"
     output_dir = f"component0_preprocessing/generated_data/{dataset_name}_costomized/retrieved/{retrieval_method}"
