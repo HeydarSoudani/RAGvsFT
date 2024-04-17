@@ -17,7 +17,7 @@ import sys
 sys.path.append(os.getcwd())
 
 from component1_retrieval.customized_datasets.data_loader import CostomizedGenericDataLoader
-from component1_retrieval.utils import save_qrels_file, save_evaluation_files_v2
+from component1_retrieval.utils import save_qrels_file, save_evaluation_files
 
 
 logging.basicConfig(format='%(asctime)s - %(message)s',
@@ -63,8 +63,7 @@ def main(args):
         os.makedirs(args.output_results_dir)
     
     save_qrels_file(rerank_results, args)
-    # save_evaluation_files(dense_retriever, rerank_results, args)
-    save_evaluation_files_v2(dense_retriever, rerank_results, args)
+    save_evaluation_files(dense_retriever, rerank_results, args)
     
 
 if __name__ == "__main__":
