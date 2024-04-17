@@ -403,7 +403,7 @@ def calculated_accuracy(objects):
 def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=False):
     
     ### ==== Define Variables =============
-    model_name = gen_models[10]
+    model_name = gen_models[7]
     
     if model_name in ["flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl"]:
         model_type = 'flant5'
@@ -632,12 +632,12 @@ def main():
     
     # == 2) Plot Retrival models output: Pre-relation & Pre-buckets
     # plot_retriever_results_per_relation()
-    plot_retriever_results_per_buckets(only_all=True)
+    # plot_retriever_results_per_buckets(only_all=True)
     
     # == 3) Plot QA models output
     # plot_answer_generator_results(per_relation=True, per_bucket=False, only_all=False)
     # plot_answer_generator_results(per_relation=False, per_bucket=True, only_all=False)
-    # plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
+    plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
     
     # == 4) Significance test
     
