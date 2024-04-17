@@ -13,11 +13,11 @@ module load Python/3.10.4-GCCcore-11.3.0
 
 # pip install git+https://github.com/huggingface/transformers
 srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
-    --model_name_or_path "$HOME/RAGvsFT/component2_AnsGen/models/witQA/MiniCPM_witQA_peft_v58" \
-    --llm_model_name "MiniCPM" \
-    --dataset_name "witQA" \
-    --output_file_pre_prefix "af" \
-    --with_peft True \
+    --model_name_or_path "google/flan-t5-xl" \
+    --llm_model_name "flant5" \
+    --dataset_name "popQA" \
+    --output_file_pre_prefix "xl_bf" \
+    --with_peft False \
     --with_rag True \
     --retrieval_method "ideal" \
     --seed 42

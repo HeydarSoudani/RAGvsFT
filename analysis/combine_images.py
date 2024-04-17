@@ -69,7 +69,6 @@ from PIL import Image, ImageDraw, ImageFont
 # combine_labeled_images(image_directory, output_image_path)
 
 
-
 import os
 from PIL import Image, ImageDraw, ImageFont
 
