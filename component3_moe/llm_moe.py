@@ -194,7 +194,7 @@ def main(args):
         task="text-generation",
         model=args.model_name_or_path,
         tokenizer=tokenizer,
-        max_new_tokens = 40
+        max_new_tokens = 100
     )
     
     prompt_final_answer = lambda question, answers: f"""
@@ -202,10 +202,10 @@ def main(args):
 
         Question: {question}
 
-        Answer {answers[0]['file_id']}: {answers[0]['result']}
-        Answer {answers[1]['file_id']}: {answers[1]['result']}
-        Answer {answers[2]['file_id']}: {answers[2]['result']}
-        Answer {answers[3]['file_id']}: {answers[3]['result']}
+        Answer {answers[0]['file_id']}: {answers[0]['result']['pred']}
+        Answer {answers[1]['file_id']}: {answers[1]['result']['pred']}
+        Answer {answers[2]['file_id']}: {answers[2]['result']['pred']}
+        Answer {answers[3]['file_id']}: {answers[3]['result']['pred']}
 
         Step 1: Considering the question, assess “Answer {answers[0]['file_id']}” and check if it responds to the question
         Step 2: Considering the question, assess “Answer {answers[1]['file_id']}” and check if it responds to the question
