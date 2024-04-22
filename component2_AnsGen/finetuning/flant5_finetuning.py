@@ -21,8 +21,7 @@ logging.basicConfig(level=logging.DEBUG,
 os.environ["WANDB_MODE"] = "offline"
 
 print("Available GPUs:", torch.cuda.device_count())
-prompt_prefix = "Answer the question : "
-device = 'cuda:0'
+prompt_prefix = "Answer the question: "
 target_relation_ids = 'all'
 subset_percentage = 1.0
 
