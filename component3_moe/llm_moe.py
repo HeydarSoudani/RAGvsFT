@@ -1,21 +1,12 @@
 #!/usr/bin/env python3
 
 import os
+import re
 import json
 import random
 import logging
 import argparse
 from tqdm import tqdm
-from difflib import SequenceMatcher
-
-import nltk
-from nltk.translate.bleu_score import sentence_bleu
-from nltk.tokenize import word_tokenize
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.metrics.pairwise import cosine_similarity
-from scipy.spatial.distance import jaccard
-import numpy as np
-from nltk.metrics.distance import edit_distance
 
 from transformers import pipeline
 from transformers import AutoTokenizer
@@ -25,7 +16,6 @@ logging.basicConfig(level=logging.DEBUG,
     datefmt='%m/%d/%Y %I:%M:%S %p',
     handlers=[logging.StreamHandler()]
 )
-
 
 base_path  = "component0_preprocessing/generated_data"
 dataset_name = 'popQA'
@@ -49,19 +39,37 @@ elif model_name in ["stable_lm2", "tiny_llama", "MiniCPM"]:
 elif model_name in ["llama2", "mistral", "zephyr"]:
     model_type = 'llms'
 
-result_files = [
-    {"title": "NoFT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
-    # {"title": f"NoFT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_bf_rag_{retrieval_model}_full_results.jsonl"},
-    {"title": "FT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
-    # {"title": f"FT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
+results_files = [
+    {"id": 1, "title": "NoFT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
+    {"id": 2, "title": "NoFT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_bf_rag_{retrieval_model}_full_results.jsonl"},
+    {"id": 3, "title": "FT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
+    {"id": 4, "title": "FT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
     # {"title": f"NoFT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
     # {"title": f"FT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
 ]
 
 dataset_dir = 'component0_preprocessing/generated_data/{}_costomized'.format(dataset_name)
 test_dir = f"{dataset_dir}/test"
-out_results_path = f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_voting_{similarity_method}_results.jsonl"
+output_file = f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_moe_llm_results.jsonl"
 
+def load_results_data(results_files):
+    results_data = {}
+    for result_file in results_files:
+        file_id = result_file['id']
+        with open(result_file['filename'], 'r') as file:
+            for line in file:
+                result = json.loads(line)
+                query_id = result['query_id']
+                result_obj = {
+                    "file_id": file_id,
+                    "result": result
+                }
+                
+                if query_id in results_data:
+                    results_data[query_id].append(result_obj)
+                else:
+                    results_data[query_id] = [result_obj]
+    return results_data
 
 def load_json_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -150,58 +158,19 @@ def get_pred_values(query_id, file_list):
 
     return results
 
-def seq_match_sim(s1, s2):
-    return SequenceMatcher(None, s1, s2).ratio()
-
-def bert_score_sim(s1, s2):
-    candidate = word_tokenize(s1.lower())
-    reference = word_tokenize(s2.lower())
-    return sentence_bleu([reference], candidate, weights=(0.25, 0.25, 0.25, 0.25))
-
-def cos_sim(s1, s2):
-    vectorizer = TfidfVectorizer()
-    tfidf_matrix = vectorizer.fit_transform([s1, s2])
-    cosine_sim = cosine_similarity(tfidf_matrix[0:1], tfidf_matrix)
-    return cosine_sim
-
-def jaccard_sim(s1, s2):
-    set1 = set(s1.split())
-    set2 = set(s2.split())
-    jaccard_sim = 1 - jaccard(list(set1), list(set2))
-    return jaccard_sim
+def extract_json_objects(text):
+    pattern = r'\{[^{}]*\}'
+    json_strings = re.findall(pattern, text)
     
-def levenshtein_distance(s1, s2):
-    edit_dist = edit_distance(s1, s2)
-    return edit_dist
-
-def vote(samples):
-    # Initialize similarity scores dictionary
-    similarity_scores = {sample: 0 for sample in samples}
-
-    # Calculate similarity scores for each sample
-    for i, si in enumerate(samples):
-        for j, sj in enumerate(samples):
-            if i != j:
-                if similarity_method == 'seq_match':
-                    similarity_scores[si] += seq_match_sim(si, sj) 
-                
-                elif similarity_method == 'bert_score':
-                    similarity_scores[si] += bert_score_sim(si, sj)
-                
-                elif similarity_method == 'cosine':
-                    similarity_scores[si] += cos_sim(si, sj)
-                
-                elif similarity_method == 'jaccard':
-                    similarity_scores[si] += jaccard_sim(si, sj)
-                
-                elif similarity_method == 'levenshtein':
-                    similarity_scores[si] += levenshtein_distance(si, sj)
-
-    # Find the sample with the maximum similarity score
-    final_answer = max(similarity_scores, key=similarity_scores.get)
-    return final_answer
-
-
+    json_objects = []
+    for json_str in json_strings:
+        try:
+            json_obj = json.loads(json_str)
+            json_objects.append(json_obj)
+        except json.JSONDecodeError as e:
+            print(f"Error decoding JSON: {e}")
+    
+    return json_objects
 
 # def prompting_final_answer(query, samples):
 #     inp = prompt.format(question=query, answer1=samples[0], answer2=samples[1])
@@ -211,9 +180,11 @@ def vote(samples):
 #     return result
 
 def main(args):
+    results_data = load_results_data(results_files)
+    
     test_relation_ids, test_files, relation_files = load_relations_data()
     test_questions, test_answers = load_dataset(test_files)
-    result_list = [result['filename'] for result in result_files]
+    # result_list = [result['filename'] for result in results_files]
     
     tokenizer = AutoTokenizer.from_pretrained(
         args.model_name_or_path,
@@ -226,91 +197,83 @@ def main(args):
         max_new_tokens = 40
     )
     
-    if args.llm_model_name in ["llama2", "mistral"]:
-        prompt = """"<s>[INST] <<SYS>><</SYS>>
+    prompt_final_answer = lambda question, answers: f"""
+        Example output: {{“question”: “”, “answer”: “”, “resource”: ””}}
+
         Question: {question}
 
-        Responses from QA Systems:
-        - QA System 1: "{answer1}"
-        - QA System 2: "{answer2}"
+        Answer {answers[0]['file_id']}: {answers[0]['result']}
+        Answer {answers[1]['file_id']}: {answers[1]['result']}
+        Answer {answers[2]['file_id']}: {answers[2]['result']}
+        Answer {answers[3]['file_id']}: {answers[3]['result']}
 
-        Based on the answers from different QA systems, give your final single-entity answer to the question.
-        Please do not add an explanation and only answer in one entity. The final answer is: [/INST]
-        """
-    elif args.llm_model_name in ["zephyr", "tiny_llama"]:
-        prompt = """<|system|> </s>\n <|user|> 
-        Question: {question}
+        Step 1: Considering the question, assess “Answer {answers[0]['file_id']}” and check if it responds to the question
+        Step 2: Considering the question, assess “Answer {answers[1]['file_id']}” and check if it responds to the question
+        Step 3: Considering the question, assess “Answer {answers[2]['file_id']}” and check if it responds to the question
+        Step 4: Considering the question, assess “Answer {answers[3]['file_id']}” and check if it responds to the question
+        Step 5: Based on the discussion, can you tell me what is the final response 
+        Step 6: Output in JSON format according to the example above (ie `{{...}}`). The resource indicates the answer number on which the final answer is derived.
+        Ensure that you distinctly label and delineate Steps 1, 2, 3, 4, 5 and 6. Let's think step by step:
+    """.replace('    ', '')
 
-        Responses from QA Systems:
-        - QA System 1: "{answer1}"
-        - QA System 2: "{answer2}"
 
-        Based on the answers from different QA systems, give your final single-entity answer to the question.
-        Please do not add an explanation and only answer in one entity. The final answer is: </s>\n <|assistant|>"""
-        
-    elif args.llm_model_name == "stable_lm2":
-        prompt = """<|user|>\n Question: {question}
-
-        Responses from QA Systems:
-        - QA System 1: "{answer1}"
-        - QA System 2: "{answer2}"
-
-        Based on the answers from different QA systems, give your final single-entity answer to the question.
-        Please do not add an explanation and only answer in one entity. The final answer is:<|endoftext|>\n<|assistant|>"""
-    
     accuracy = []
-    with open(out_results_path, 'w') as file:
+    with open(output_file, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            # if idx == 10:
-            #     break
+            if idx == 10:
+                break
         
-            answers = get_pred_values(query_id, result_list)
-            answers_val = list(answers.values())
+            query_results = results_data.get(query_id, [])
+            if len(query_results) == 4:
             
-            # pred = vote(answers_val)            
-            input = prompt.format(question=query, answer1=answers_val[0], answer2=answers_val[1])
-            result = pipe(input)[0]['generated_text']
+                _prompt = [
+                    { "role": "system", "content": "You are a answer selector. Your goal is to find the final answer from multiple given answers.\n"},
+                    { "role": "user", "content": prompt_final_answer(query, query_results)}
+                ]
             
-            if args.llm_model_name in ["llama2", "mistral"]:
-                pred = result.split("[/INST]")[1].strip()
-            elif args.llm_model_name in ['zephyr', "stable_lm2", "tiny_llama"]:
-                pred = result.split("<|assistant|>")[1].strip()
-            
-            is_correct = False
-            for pa in test_answers[idx]:
-                    if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
-                        is_correct = True
-            accuracy.append(is_correct)
-            
-            # if (idx < 10) or (idx % 300 == 0):
-            if idx < 10 or idx % 300 == 0:
-                logging.info('\n')
-                logging.info(f"Prompt: {input}")
-                logging.info(f"Query: {query}")
-                logging.info(f"Pred: {pred}")
-                logging.info(f"Labels: {test_answers[idx]}")
-                logging.info(f"Final decision: {is_correct}")
-                logging.info('====')
+                prompt = pipe.tokenizer.apply_chat_template(_prompt, tokenize=False, add_generation_prompt=True)
+                outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
+                new_pt = outputs[0]["generated_text"]
+                final_ans = extract_json_objects(new_pt)
                 
-                # print('\n')
-                # print(f"Prompt: {input}")
-                # print(f"Query: {query}")
-                # print(f"Pred: {pred}")
-                # print(f"Labels: {test_answers[idx]}")
-                # print(f"Final decision: {is_correct}")
-                # print('====')
+                print(f"Output: {new_pt}")
+                print(final_ans)
+            
+                # is_correct = False
+                # for pa in test_answers[idx]:
+                #         if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
+                #             is_correct = True
+                # accuracy.append(is_correct)
+                
+                # # if (idx < 10) or (idx % 300 == 0):
+                # if idx < 10 or idx % 300 == 0:
+                #     logging.info('\n')
+                #     logging.info(f"Prompt: {input}")
+                #     logging.info(f"Query: {query}")
+                #     logging.info(f"Pred: {pred}")
+                #     logging.info(f"Labels: {test_answers[idx]}")
+                #     logging.info(f"Final decision: {is_correct}")
+                #     logging.info('====')
+                    
+                #     # print('\n')
+                #     # print(f"Prompt: {input}")
+                #     # print(f"Query: {query}")
+                #     # print(f"Pred: {pred}")
+                #     # print(f"Labels: {test_answers[idx]}")
+                #     # print(f"Final decision: {is_correct}")
+                #     # print('====')
                 
             
-            item = {
-                "query_id": query_id,
-                "question": query,
-                "possible_answers": test_answers[idx],
-                "pred": pred,
-                "is_correct": is_correct,
-                "pageviews": query_pv
-            }
-            file.write(json.dumps(item) + '\n')
+                # item = {
+                #     "query_id": query_id,
+                #     "question": query,
+                #     "possible_answers": test_answers[idx],
+                #     "pred": pred,
+                #     "is_correct": is_correct,
+                #     "pageviews": query_pv
+                # }
+                # file.write(json.dumps(item) + '\n')
 
     acc = sum(accuracy) / len(accuracy)
     logging.info(f"Accuracy: {acc * 100:.2f}%")
