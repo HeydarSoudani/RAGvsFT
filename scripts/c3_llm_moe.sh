@@ -13,8 +13,7 @@ module load Python/3.10.4-GCCcore-11.3.0
 
 # pip install git+https://github.com/huggingface/transformers
 srun $HOME/RAGvsFT/component3_moe/llm_moe.py \
-    --model_name_or_path "HuggingFaceH4/zephyr-7b-beta" \
-    --llm_model_name "zephyr"
+    --model_name_or_path "HuggingFaceH4/zephyr-7b-beta"
 
 
 # output_file_pre_prefix -> 
