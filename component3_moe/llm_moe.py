@@ -50,7 +50,7 @@ results_files = [
 
 dataset_dir = 'component0_preprocessing/generated_data/{}_costomized'.format(dataset_name)
 test_dir = f"{dataset_dir}/test"
-output_file = f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_moe_llm_results.jsonl"
+output_file = f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_moe_llm_results.jsonl"
 
 def load_results_data(results_files):
     results_data = {}
