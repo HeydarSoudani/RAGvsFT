@@ -218,7 +218,7 @@ def main(args):
     with open(output_file, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 10:
+            if idx == 30:
                 break
         
             query_results = results_data.get(query_id, [])
@@ -233,7 +233,8 @@ def main(args):
                 outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
                 new_pt = outputs[0]["generated_text"]
                 final_ans = extract_json_objects(new_pt)
-                pred = final_ans['answer']
+                pred = final_ans[0]['answer']
+                resource = final_ans[0]['resource']
                 
                 is_correct = False
                 for pa in test_answers[idx]:
@@ -246,7 +247,7 @@ def main(args):
                     logging.info(f"Prompt: {new_pt}")
                     logging.info(f"Query: {query}")
                     logging.info(f"Pred: {pred}")
-                    logging.info(f"resource: {final_ans['resource']}"),
+                    logging.info(f"resource: {resource}"),
                     logging.info(f"Labels: {test_answers[idx]}")
                     logging.info(f"Final decision: {is_correct}")
                     logging.info('====')
@@ -264,7 +265,7 @@ def main(args):
                     "question": query,
                     "possible_answers": test_answers[idx],
                     "pred": pred,
-                    "resource": final_ans['resource'],
+                    "resource": resource,
                     "is_correct": is_correct,
                     "pageviews": query_pv
                 }
