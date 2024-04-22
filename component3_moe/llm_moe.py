@@ -30,7 +30,7 @@ gen_models = [
 ]
     
 retrieval_model = 'ideal'
-model_name = gen_models[-1]
+model_name = gen_models[5]
 
 if model_name in ["flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl"]:
     model_type = 'flant5'
@@ -41,9 +41,9 @@ elif model_name in ["llama2", "mistral", "zephyr"]:
 
 results_files = [
     {"id": 1, "title": "NoFT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
-    {"id": 2, "title": "NoFT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_bf_rag_{retrieval_model}_full_results.jsonl"},
+    {"id": 2, "title": "NoFT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_rag_{retrieval_model}_full_results.jsonl"},
     {"id": 3, "title": "FT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
-    {"id": 4, "title": "FT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
+    {"id": 4, "title": "FT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
     # {"title": f"NoFT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
     # {"title": f"FT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
 ]

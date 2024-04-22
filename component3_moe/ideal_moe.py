@@ -14,7 +14,7 @@ gen_models = [
 dataset_dir = 'component0_preprocessing/generated_data/{}_costomized'.format(dataset_name)
 test_dir = f"{dataset_dir}/test"
 
-model_name = gen_models[1]
+model_name = gen_models[5]
 
 if model_name in ["flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl"]:
     model_type = 'flant5'
