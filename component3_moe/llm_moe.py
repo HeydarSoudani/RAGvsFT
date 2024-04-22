@@ -181,10 +181,8 @@ def extract_json_objects(text):
 
 def main(args):
     results_data = load_results_data(results_files)
-    
     test_relation_ids, test_files, relation_files = load_relations_data()
     test_questions, test_answers = load_dataset(test_files)
-    # result_list = [result['filename'] for result in results_files]
     
     tokenizer = AutoTokenizer.from_pretrained(
         args.model_name_or_path,
@@ -216,7 +214,6 @@ def main(args):
         Ensure that you distinctly label and delineate Steps 1, 2, 3, 4, 5 and 6. Let's think step by step:
     """.replace('    ', '')
 
-
     accuracy = []
     with open(output_file, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
@@ -228,7 +225,7 @@ def main(args):
             if len(query_results) == 4:
             
                 _prompt = [
-                    { "role": "system", "content": "You are a answer selector. Your goal is to find the final answer from multiple given answers.\n"},
+                    { "role": "system", "content": "You are an answer selector. Your goal is to find the final answer from multiple given answers.\n"},
                     { "role": "user", "content": prompt_final_answer(query, query_results)}
                 ]
             
@@ -236,45 +233,43 @@ def main(args):
                 outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
                 new_pt = outputs[0]["generated_text"]
                 final_ans = extract_json_objects(new_pt)
+                pred = final_ans['answer']
                 
-                print(f"Output: {new_pt}")
-                print(final_ans)
-            
-                # is_correct = False
-                # for pa in test_answers[idx]:
-                #         if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
-                #             is_correct = True
-                # accuracy.append(is_correct)
+                is_correct = False
+                for pa in test_answers[idx]:
+                        if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
+                            is_correct = True
+                accuracy.append(is_correct)
                 
-                # # if (idx < 10) or (idx % 300 == 0):
-                # if idx < 10 or idx % 300 == 0:
-                #     logging.info('\n')
-                #     logging.info(f"Prompt: {input}")
-                #     logging.info(f"Query: {query}")
-                #     logging.info(f"Pred: {pred}")
-                #     logging.info(f"Labels: {test_answers[idx]}")
-                #     logging.info(f"Final decision: {is_correct}")
-                #     logging.info('====')
-                    
-                #     # print('\n')
-                #     # print(f"Prompt: {input}")
-                #     # print(f"Query: {query}")
-                #     # print(f"Pred: {pred}")
-                #     # print(f"Labels: {test_answers[idx]}")
-                #     # print(f"Final decision: {is_correct}")
-                #     # print('====')
+                if idx < 10 or idx % 300 == 0:
+                    logging.info('\n')
+                    logging.info(f"Prompt: {new_pt}")
+                    logging.info(f"Query: {query}")
+                    logging.info(f"Pred: {pred}")
+                    logging.info(f"resource: {final_ans['resource']}"),
+                    logging.info(f"Labels: {test_answers[idx]}")
+                    logging.info(f"Final decision: {is_correct}")
+                    logging.info('====')
+                    # print('\n')
+                    # print(f"Prompt: {new_pt}")
+                    # print(f"Query: {query}")
+                    # print(f"Pred: {pred}")
+                    # print(f"resource: {final_ans['resource']}")
+                    # print(f"Labels: {test_answers[idx]}")
+                    # print(f"Final decision: {is_correct}")
+                    # print('====')
                 
-            
-                # item = {
-                #     "query_id": query_id,
-                #     "question": query,
-                #     "possible_answers": test_answers[idx],
-                #     "pred": pred,
-                #     "is_correct": is_correct,
-                #     "pageviews": query_pv
-                # }
-                # file.write(json.dumps(item) + '\n')
-
+                item = {
+                    "query_id": query_id,
+                    "question": query,
+                    "possible_answers": test_answers[idx],
+                    "pred": pred,
+                    "resource": final_ans['resource'],
+                    "is_correct": is_correct,
+                    "pageviews": query_pv
+                }
+                file.write(json.dumps(item) + '\n')
+    
     acc = sum(accuracy) / len(accuracy)
     logging.info(f"Accuracy: {acc * 100:.2f}%")
     print(f"Accuracy: {acc * 100:.2f}%")
@@ -283,7 +278,6 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, required=True)
-    parser.add_argument("--llm_model_name", type=str, required=True)
     
     args = parser.parse_args()
     main(args)
