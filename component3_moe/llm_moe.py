@@ -3,9 +3,11 @@
 import os
 import re
 import json
+import torch
 import random
 import logging
 import argparse
+import numpy as np
 from tqdm import tqdm
 
 from transformers import pipeline
@@ -18,39 +20,18 @@ logging.basicConfig(level=logging.DEBUG,
 )
 
 base_path  = "component0_preprocessing/generated_data"
-dataset_name = 'popQA'
 target_relation_ids = 'all'
-subset_percentage = 1.0
-similarity_method = 'prompting_zephyr' # 'seq_match', 'bert_score', 'cosine', 'jaccard', 'levenshtein', 'prompting'
+subset_percentage = 0.1
 
-gen_models = [
-    "flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl",
-    "stable_lm2", "tiny_llama", "MiniCPM",
-    "llama2", "mistral", "zephyr"
-]
-    
-retrieval_model = 'ideal'
-model_name = gen_models[5]
-
-if model_name in ["flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl"]:
-    model_type = 'flant5'
-elif model_name in ["stable_lm2", "tiny_llama", "MiniCPM"]:
-    model_type = 'slms'
-elif model_name in ["llama2", "mistral", "zephyr"]:
-    model_type = 'llms'
-
-results_files = [
-    {"id": 1, "title": "NoFT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
-    {"id": 2, "title": "NoFT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_rag_{retrieval_model}_full_results.jsonl"},
-    {"id": 3, "title": "FT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
-    {"id": 4, "title": "FT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
-    # {"title": f"NoFT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
-    # {"title": f"FT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
-]
-
-dataset_dir = 'component0_preprocessing/generated_data/{}_costomized'.format(dataset_name)
-test_dir = f"{dataset_dir}/test"
-output_file = f"{base_path}/{dataset_name}_costomized/results/{dataset_name}_{model_name}_moe_llm_results.jsonl"
+def set_seed(seed):
+    torch.manual_seed(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
+    np.random.seed(seed)
+    random.seed(seed)
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.benchmark = False
 
 def load_results_data(results_files):
     results_data = {}
@@ -80,7 +61,7 @@ def load_relations_data():
         
     relation_files = {}
     for subfolder in subfolders:
-        subfolder_path = f"{base_path}/{dataset_name}_costomized/{subfolder}"
+        subfolder_path = f"{base_path}/{args.dataset_name}_costomized/{subfolder}"
         if os.path.exists(subfolder_path):
             for file in os.listdir(subfolder_path):
                 relation_id = file.split('.')[0]
@@ -90,11 +71,11 @@ def load_relations_data():
 
     # Select relations =================
     if target_relation_ids == "all":
-        if dataset_name == 'popQA':
+        if args.dataset_name == 'popQA':
             test_relation_ids = ['22', '91', '97', '106', '164', '182', '218', '257', '292', '422', '472', '484', '526', '533', '560', '639']
-        elif dataset_name == 'witQA':
+        elif args.dataset_name == 'witQA':
             test_relation_ids = ['17', '19', '22', '25', '27', '36', '50', '57', '58', '69', '86', '106', '123', '136', '140', '149', '162', '184', '344', '452', '462', '641', '674', '1038', '1050', '1376', '1431', '1433', '2012', '2936', '3301', '4647']
-        elif dataset_name == 'EQ':
+        elif args.dataset_name == 'EQ':
             test_relation_ids = ['17', '19', '20', '26', '30', '36', '40', '50', '69', '106', '112', '127', '131', '136', '159', '170', '175', '176', '264', '276', '407', '413', '495', '740', '800']
     else:
         test_relation_ids = target_relation_ids
@@ -102,7 +83,7 @@ def load_relations_data():
     test_files = {subfolder: [] for subfolder in subfolders}
     
     for subfolder in subfolders:
-        subfolder_path = f"{base_path}/{dataset_name}_costomized/{subfolder}"
+        subfolder_path = f"{base_path}/{args.dataset_name}_costomized/{subfolder}"
         if os.path.exists(subfolder_path):
             for file in os.listdir(subfolder_path):
                 file_id = file.split('.')[0]
@@ -158,28 +139,46 @@ def get_pred_values(query_id, file_list):
 
     return results
 
-def extract_json_objects(text):
-    pattern = r'\{[^{}]*\}'
-    json_strings = re.findall(pattern, text)
-    
-    json_objects = []
-    for json_str in json_strings:
-        try:
-            json_obj = json.loads(json_str)
-            json_objects.append(json_obj)
-        except json.JSONDecodeError as e:
-            print(f"Error decoding JSON: {e}")
-    
-    return json_objects
-
-# def prompting_final_answer(query, samples):
-#     inp = prompt.format(question=query, answer1=samples[0], answer2=samples[1])
-#     # print(f"Prompt: {inp}")
-    
-#     result = pipe(inp)[0]['generated_text']
-#     return result
+def extract_number(text):
+    match = re.search(r'\d+', text)
+    if match:
+        return int(match.group(0))
+    else:
+        return None
 
 def main(args):
+    
+    logging.info(f"""
+        Model: {args.model_name_or_path}
+        Dataset: {args.dataset_name}
+        Retrieval method: {args.retrieval_method}
+        Output file's prefix: {args.output_file_prefix}
+        Seed: {args.seed}
+        """
+    )
+    set_seed(args.seed)
+    
+    # == Create data & output dir ===========================
+    output_file = f"{base_path}/{args.dataset_name}_costomized/results/{args.dataset_name}_{args.base_model_name}_moe_{args.output_file_prefix}_results.jsonl"
+    
+    
+    if args.base_model_name in ["flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl"]:
+        model_type = 'flant5'
+    elif args.base_model_name in ["stable_lm2", "tiny_llama", "MiniCPM"]:
+        model_type = 'slms'
+    elif args.base_model_name in ["llama2", "mistral", "zephyr"]:
+        model_type = 'llms'
+
+    results_files = [
+        {"id": 1, "title": "NoFT/NoRAG", "filename": f"{base_path}/{args.dataset_name}_costomized/results/{args.dataset_name}_{args.base_model_name}_bf_norag_full_results.jsonl"},
+        {"id": 2, "title": "NoFT/idealRAG", "filename": f"{base_path}/{args.dataset_name}_costomized/results/{args.dataset_name}_{args.base_model_name}_bf_rag_{args.retrieval_method}_full_results.jsonl"},
+        {"id": 3, "title": "FT/NoRAG", "filename": f"{base_path}/{args.dataset_name}_costomized/results/{args.dataset_name}_{args.base_model_name}_af_norag_peft_results.jsonl"},
+        {"id": 4, "title": "FT/idealRAG", "filename": f"{base_path}/{args.dataset_name}_costomized/results/{args.dataset_name}_{args.base_model_name}_af_rag_{args.retrieval_method}_peft_results.jsonl"},
+        # {"title": f"NoFT/dprRAG", "filename": f"{base_path}/{args.dataset_name}_costomized/results/{args.dataset_name}_{args.base_model_name}_bf_rag_dpr_full_results.jsonl"},
+        # {"title": f"FT/dprRAG", "filename": f"{base_path}/{args.dataset_name}_costomized/results/{args.dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
+    ]
+    
+    # === Loading dataset ==========================
     results_data = load_results_data(results_files)
     test_relation_ids, test_files, relation_files = load_relations_data()
     test_questions, test_answers = load_dataset(test_files)
@@ -192,49 +191,82 @@ def main(args):
         task="text-generation",
         model=args.model_name_or_path,
         tokenizer=tokenizer,
-        max_new_tokens = 100
+        max_new_tokens = 8
     )
     
+    # # Example output: {{“question”: “”, “answer”: “”, “resource”: ””}}
+    # Step 6: Output in JSON format according to the example above (ie `{{...}}`). The resource indicates the answer number on which the final answer is derived.
+    # Ensure that you distinctly label and delineate Steps 1, 2, 3, 4, and 5. Let's think step by step.
     prompt_final_answer = lambda question, answers: f"""
-        Example output: {{“question”: “”, “answer”: “”, “resource”: ””}}
-
-        Question: {question}
-
+        Question: Given the following answers, determine which one provides a more informative answer to the subsequent question.
+    
         Answer {answers[0]['file_id']}: {answers[0]['result']['pred']}
         Answer {answers[1]['file_id']}: {answers[1]['result']['pred']}
         Answer {answers[2]['file_id']}: {answers[2]['result']['pred']}
         Answer {answers[3]['file_id']}: {answers[3]['result']['pred']}
-
+        
+        Target Question: {question}
+        
+        Your Task:
+        Identify which answer (Answer {answers[0]['file_id']} or Answer {answers[1]['file_id']} or Answer {answers[2]['file_id']} or Answer {answers[3]['file_id']}) is more relevant and informative to answer the question at hand.
         Step 1: Considering the question, assess “Answer {answers[0]['file_id']}” and check if it responds to the question
         Step 2: Considering the question, assess “Answer {answers[1]['file_id']}” and check if it responds to the question
         Step 3: Considering the question, assess “Answer {answers[2]['file_id']}” and check if it responds to the question
         Step 4: Considering the question, assess “Answer {answers[3]['file_id']}” and check if it responds to the question
         Step 5: Based on the discussion, can you tell me what is the final response 
-        Step 6: Output in JSON format according to the example above (ie `{{...}}`). The resource indicates the answer number on which the final answer is derived.
-        Ensure that you distinctly label and delineate Steps 1, 2, 3, 4, 5 and 6. Let's think step by step:
+        Let's think step by step.
+        
+        Choices: [Answer {answers[0]['file_id']}, Answer {answers[1]['file_id']}, Answer {answers[2]['file_id']}, Answer {answers[3]['file_id']}].
+        Do not exceed 2 words.
     """.replace('    ', '')
+    
+    # prompt_final_answer = lambda question, answers: f"""
+    # Question: Given the following answers, determine which one provides a more informative answer to the subsequent question.
+    
+    # Answer {answers[0]['file_id']}: {answers[0]['result']['pred']}
+    # Answer {answers[1]['file_id']}: {answers[1]['result']['pred']}
+    # Answer {answers[2]['file_id']}: {answers[2]['result']['pred']}
+    # Answer {answers[3]['file_id']}: {answers[3]['result']['pred']}
+    
+    # Target Question: {question}
+    
+    # Your Task:
+    # Identify which answer (Answer {answers[0]['file_id']} or Answer {answers[1]['file_id']} or Answer {answers[2]['file_id']} or Answer {answers[3]['file_id']}) is more relevant and informative to answer the question at hand.
+    # Choices: [Answer {answers[0]['file_id']}, Answer {answers[1]['file_id']}, Answer {answers[2]['file_id']}, Answer {answers[3]['file_id']}].
+    # Do not exceed 2 words.
+    
+    # Answer:
+    # """.replace('    ', '')
 
     accuracy = []
     with open(output_file, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 5:
-                break
+            # if idx == 10:
+            #     break
         
             query_results = results_data.get(query_id, [])
             if len(query_results) == 4:
             
                 _prompt = [
-                    { "role": "system", "content": "You are an answer selector. Your goal is to find the final answer from multiple given answers.\n"},
+                    { "role": "system", "content": ""},
                     { "role": "user", "content": prompt_final_answer(query, query_results)}
                 ]
             
                 prompt = pipe.tokenizer.apply_chat_template(_prompt, tokenize=False, add_generation_prompt=True)
-                outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
-                new_pt = outputs[0]["generated_text"]
-                final_ans = extract_json_objects(new_pt)
-                pred = final_ans[0]['answer']
-                resource = final_ans[0]['resource']
+                outputs = pipe(prompt, max_new_tokens=8, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
+                output = outputs[0]["generated_text"]
+                result = output.split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[1].strip()
+                
+                # logging.info(query)
+                # logging.info(result)
+                
+                final_answer = extract_number(result)
+                if final_answer == None:
+                    print(f'output is: {result}')
+                    final_answer = 4
+    
+                pred = query_results[int(final_answer)-1]['result']['pred']
                 
                 is_correct = False
                 for pa in test_answers[idx]:
@@ -242,12 +274,12 @@ def main(args):
                             is_correct = True
                 accuracy.append(is_correct)
                 
-                if idx < 10 or idx % 300 == 0:
+                if idx < 10 or idx % 200 == 0:
                     logging.info('\n')
-                    logging.info(f"Prompt: {new_pt}")
+                    logging.info(f"Prompt: {result}")
                     logging.info(f"Query: {query}")
                     logging.info(f"Pred: {pred}")
-                    logging.info(f"resource: {resource}"),
+                    logging.info(f"resource: {final_answer}"),
                     logging.info(f"Labels: {test_answers[idx]}")
                     logging.info(f"Final decision: {is_correct}")
                     logging.info('====')
@@ -265,7 +297,7 @@ def main(args):
                     "question": query,
                     "possible_answers": test_answers[idx],
                     "pred": pred,
-                    "resource": resource,
+                    "resource": final_answer,
                     "is_correct": is_correct,
                     "pageviews": query_pv
                 }
@@ -279,6 +311,11 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, required=True)
+    parser.add_argument("--dataset_name", type=str, required=True)
+    parser.add_argument("--base_model_name", type=str, required=True)
+    parser.add_argument("--retrieval_method", type=str)
+    parser.add_argument("--output_file_prefix", type=str)
+    parser.add_argument("--seed", type=int)
     
     args = parser.parse_args()
     main(args)

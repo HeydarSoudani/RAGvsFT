@@ -13,10 +13,10 @@ module load Python/3.10.4-GCCcore-11.3.0
 
 # pip install git+https://github.com/huggingface/transformers
 srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
-    --model_name_or_path "$HOME/RAGvsFT/component2_AnsGen/models/EQ/flant5_sm_EQ_peft_v1" \
-    --llm_model_name "flant5" \
-    --dataset_name "EQ" \
-    --output_file_pre_prefix "sm_af" \
+    --model_name_or_path "$HOME/RAGvsFT/component2_AnsGen/models/popQA/stable_lm2_popQA_peft_v50" \
+    --llm_model_name "stable_lm2" \
+    --dataset_name "popQA" \
+    --output_file_pre_prefix "af_10" \
     --with_peft True \
     --with_rag True \
     --retrieval_method "ideal" \

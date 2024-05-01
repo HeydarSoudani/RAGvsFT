@@ -20,7 +20,7 @@ os.environ["WANDB_MODE"] = "offline"
 print("Available GPUs:", torch.cuda.device_count())
 device = 'cuda:0'
 target_relation_ids = 'all'
-subset_percentage = 1.0
+subset_percentage = 0.1
 
 
 def set_seed(seed):
@@ -257,8 +257,8 @@ def main(args):
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 30:
-                break
+            # if idx == 30:
+            #     break
             
             retrieved_text = ""
             has_context = False
@@ -304,23 +304,23 @@ def main(args):
                         is_correct = True
             accuracy.append(is_correct)
             
-            # if idx < 10 or idx % 300 == 0:
-            #     logging.info('\n')
-            #     logging.info(f"Prompt: {prompt}")
-            #     logging.info(f"Query: {query}")
-            #     logging.info(f"Has context: {has_context}"),
-            #     logging.info(f"Pred: {pred}")
-            #     logging.info(f"Labels: {test_answers[idx]}")
-            #     logging.info(f"Final decision: {is_correct}")
-            #     logging.info('====')
-            print('\n')
-            print(f"Prompt: {prompt}")
-            print(f"Query: {query}")
-            print(f"Has context: {has_context}"),
-            print(f"Pred: {pred}")
-            print(f"Labels: {test_answers[idx]}")
-            print(f"Final decision: {is_correct}")
-            print('====')
+            if idx < 10 or idx % 200 == 0:
+                logging.info('\n')
+                logging.info(f"Prompt: {prompt}")
+                logging.info(f"Query: {query}")
+                logging.info(f"Has context: {has_context}"),
+                logging.info(f"Pred: {pred}")
+                logging.info(f"Labels: {test_answers[idx]}")
+                logging.info(f"Final decision: {is_correct}")
+                logging.info('====')
+            # print('\n')
+            # print(f"Prompt: {prompt}")
+            # print(f"Query: {query}")
+            # print(f"Has context: {has_context}"),
+            # print(f"Pred: {pred}")
+            # print(f"Labels: {test_answers[idx]}")
+            # print(f"Final decision: {is_correct}")
+            # print('====')
             
             item = {
                 "query_id": query_id,
