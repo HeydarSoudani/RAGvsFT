@@ -239,6 +239,11 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, required=True)
+    parser.add_argument("--dataset_name", type=str, required=True)
+    parser.add_argument("--base_model_name", type=str, required=True)
+    parser.add_argument("--retrieval_method", type=str)
+    parser.add_argument("--output_file_prefix", type=str)
+    parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--gpu_num", type=int, default=1)
     
     args = parser.parse_args()
