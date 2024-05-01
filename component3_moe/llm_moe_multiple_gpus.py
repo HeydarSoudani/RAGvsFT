@@ -220,22 +220,22 @@ def main(args):
                 print(f"Skipping query_id: {query_id} as it does not have 4 results.")
             else:
                 _prompt = prompt_template.format(context=prompt_final_answer(query, query_results))
-                print(_prompt)
+                # print(_prompt)
                 prompt_tokenized=tokenizer(_prompt, return_tensors="pt") #.to(f"cuda:{accelerator.process_index}")
-                prompt_tokenized = accelerator.prepare(prompt_tokenized) 
-                
+                prompt_tokenized = {k: v.to(accelerator.device) for k, v in prompt_tokenized.items()}
+                # prompt_tokenized = accelerator.prepare(prompt_tokenized) 
                 
                 print("Model device:", model.device)
                 for name, tensor in prompt_tokenized.items():
                     print(f"{name} device: {tensor.device}")
                 
-                
-                output_tokenized = model.generate(**prompt_tokenized, max_new_tokens=100)[0]
+                with accelerator:
+                    outputs = model.generate(**prompt_tokenized, max_new_tokens=100)
+                    outputs = accelerator.gather(outputs)
 
-                # remove prompt from output 
+                output_tokenized = outputs[0]
                 output_tokenized=output_tokenized[len(prompt_tokenized["input_ids"][0]):]
-                # store outputs and number of tokens in result{}
-                results["outputs"].append( tokenizer.decode(output_tokenized) )
+                results["outputs"].append(tokenizer.decode(output_tokenized))
                 results["num_tokens"] += len(output_tokenized)
             
 
