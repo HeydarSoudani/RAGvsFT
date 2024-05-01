@@ -170,6 +170,7 @@ def main(args):
         # device_map={"": accelerator.process_index},
         torch_dtype=torch.bfloat16,
     )
+    print(accelerator.device)
     model = model.to(accelerator.device)
     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
     tokenizer.pad_token = tokenizer.eos_token
@@ -222,6 +223,12 @@ def main(args):
                 print(_prompt)
                 prompt_tokenized=tokenizer(_prompt, return_tensors="pt") #.to(f"cuda:{accelerator.process_index}")
                 prompt_tokenized = accelerator.prepare(prompt_tokenized) 
+                
+                
+                print("Model device:", model.device)
+                for name, tensor in prompt_tokenized.items():
+                    print(f"{name} device: {tensor.device}")
+                
                 
                 output_tokenized = model.generate(**prompt_tokenized, max_new_tokens=100)[0]
 
