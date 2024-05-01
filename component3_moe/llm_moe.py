@@ -161,7 +161,6 @@ def main(args):
     # == Create data & output dir ===========================
     output_file = f"{base_path}/{args.dataset_name}_costomized/results/{args.dataset_name}_{args.base_model_name}_moe_{args.output_file_prefix}_results.jsonl"
     
-    
     if args.base_model_name in ["flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl"]:
         model_type = 'flant5'
     elif args.base_model_name in ["stable_lm2", "tiny_llama", "MiniCPM"]:
