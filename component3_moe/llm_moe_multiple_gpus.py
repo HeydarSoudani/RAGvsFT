@@ -163,10 +163,11 @@ def main(args):
     else:
         print("No GPUs found.")
         
+    print(accelerator.process_index)
     accelerator.wait_for_everyone()
     model = AutoModelForCausalLM.from_pretrained(
         args.model_name_or_path,    
-        # device_map={"": accelerator.process_index},
+        device_map={"": accelerator.process_index},
         torch_dtype=torch.bfloat16,
     )
     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
