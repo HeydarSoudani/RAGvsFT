@@ -210,7 +210,7 @@ def main(args):
             if len(query_results) != 4:
                 print(f"Skipping query_id: {query_id} as it does not have 4 results.")
             else:
-                _prompt = prompt_template(prompt_final_answer(query, query_results))
+                _prompt = prompt_template.format(prompt_final_answer(query, query_results))
                 prompt_tokenized=tokenizer(_prompt, return_tensors="pt").to("cuda")
                 output_tokenized = model.generate(**prompt_tokenized, max_new_tokens=100)[0]
 
