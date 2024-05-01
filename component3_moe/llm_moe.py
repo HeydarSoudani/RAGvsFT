@@ -21,7 +21,7 @@ logging.basicConfig(level=logging.DEBUG,
 
 base_path  = "component0_preprocessing/generated_data"
 target_relation_ids = 'all'
-subset_percentage = 0.1
+subset_percentage = 1.0
 
 def set_seed(seed):
     torch.manual_seed(seed)

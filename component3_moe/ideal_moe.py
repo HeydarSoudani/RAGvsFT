@@ -4,7 +4,7 @@ import os
 
 
 # === Datasets variables ========================
-dataset_name = 'EQ' # [popQA, witQA, EQ]
+dataset_name = 'popQA' # [popQA, witQA, EQ]
 retrieval_models = ["bm25", "contriever", "rerank", "dpr"]
 gen_models = [
     "flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl",
