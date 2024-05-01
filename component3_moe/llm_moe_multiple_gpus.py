@@ -229,9 +229,9 @@ def main(args):
                 for name, tensor in prompt_tokenized.items():
                     print(f"{name} device: {tensor.device}")
                 
-                with accelerator:
-                    outputs = model.generate(**prompt_tokenized, max_new_tokens=100)
-                    outputs = accelerator.gather(outputs)
+                # with accelerator:
+                outputs = model.generate(**prompt_tokenized, max_new_tokens=100)
+                outputs = accelerator.gather(outputs)
 
                 output_tokenized = outputs[0]
                 output_tokenized=output_tokenized[len(prompt_tokenized["input_ids"][0]):]
