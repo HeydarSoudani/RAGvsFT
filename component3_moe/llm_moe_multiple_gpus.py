@@ -163,7 +163,7 @@ def main(args):
     else:
         print("No GPUs found.")
         
-    print(accelerator.process_index)
+    # print(accelerator.process_index)
     accelerator.wait_for_everyone()
     model = AutoModelForCausalLM.from_pretrained(
         args.model_name_or_path,    
@@ -219,7 +219,7 @@ def main(args):
             else:
                 _prompt = prompt_template.format(context=prompt_final_answer(query, query_results))
                 print(_prompt)
-                prompt_tokenized=tokenizer(_prompt, return_tensors="pt").to("cuda:0")
+                prompt_tokenized=tokenizer(_prompt, return_tensors="pt").to(f"cuda:{accelerator.process_index}")
                 
                 output_tokenized = model.generate(**prompt_tokenized, max_new_tokens=100)[0]
 
