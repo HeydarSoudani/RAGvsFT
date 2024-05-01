@@ -166,7 +166,7 @@ def main(args):
     accelerator.wait_for_everyone()
     model = AutoModelForCausalLM.from_pretrained(
         args.model_name_or_path,    
-        device_map={"": accelerator.process_index},
+        # device_map={"": accelerator.process_index},
         torch_dtype=torch.bfloat16,
     )
     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
@@ -217,7 +217,9 @@ def main(args):
                 print(f"Skipping query_id: {query_id} as it does not have 4 results.")
             else:
                 _prompt = prompt_template.format(context=prompt_final_answer(query, query_results))
+                print(_prompt)
                 prompt_tokenized=tokenizer(_prompt, return_tensors="pt").to("cuda:0")
+                
                 output_tokenized = model.generate(**prompt_tokenized, max_new_tokens=100)[0]
 
                 # remove prompt from output 
