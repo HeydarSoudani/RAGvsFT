@@ -167,9 +167,10 @@ def main(args):
     accelerator.wait_for_everyone()
     model = AutoModelForCausalLM.from_pretrained(
         args.model_name_or_path,    
-        device_map={"": accelerator.process_index},
+        # device_map={"": accelerator.process_index},
         torch_dtype=torch.bfloat16,
     )
+    model = model.to(accelerator.device)
     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
     tokenizer.pad_token = tokenizer.eos_token
     
@@ -219,7 +220,8 @@ def main(args):
             else:
                 _prompt = prompt_template.format(context=prompt_final_answer(query, query_results))
                 print(_prompt)
-                prompt_tokenized=tokenizer(_prompt, return_tensors="pt").to(f"cuda:{accelerator.process_index}")
+                prompt_tokenized=tokenizer(_prompt, return_tensors="pt") #.to(f"cuda:{accelerator.process_index}")
+                prompt_tokenized = accelerator.prepare(prompt_tokenized) 
                 
                 output_tokenized = model.generate(**prompt_tokenized, max_new_tokens=100)[0]
 
