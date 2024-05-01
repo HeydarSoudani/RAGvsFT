@@ -172,13 +172,11 @@ def main(args):
     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
     tokenizer.pad_token = tokenizer.eos_token
     
-    
     # === Define prompt template ==================
     if args.voter_model_name == "stable_lm2":
         prompt_template = """<|user|>\n {context}<|endoftext|>\n<|assistant|>"""
     elif args.voter_model_name == "tiny_llama":
         prompt_template = """<|system|> </s>\n <|user|>\n {context} </s>\n <|assistant|>"""
-    
     
     # === Define prompt context ===================
     prompt_final_answer = lambda question, answers: f"""
@@ -203,7 +201,6 @@ def main(args):
         Choices: [Answer {answers[0]['file_id']}, Answer {answers[1]['file_id']}, Answer {answers[2]['file_id']}, Answer {answers[3]['file_id']}].
     """.replace('    ', '')
     
-
     start=time.time()
     with accelerator.split_between_processes(test_questions) as prompts:
         
@@ -220,7 +217,7 @@ def main(args):
                 print(f"Skipping query_id: {query_id} as it does not have 4 results.")
             else:
                 _prompt = prompt_template.format(context=prompt_final_answer(query, query_results))
-                prompt_tokenized=tokenizer(_prompt, return_tensors="pt").to("cuda")
+                prompt_tokenized=tokenizer(_prompt, return_tensors="pt").to("cuda:0")
                 output_tokenized = model.generate(**prompt_tokenized, max_new_tokens=100)[0]
 
                 # remove prompt from output 
