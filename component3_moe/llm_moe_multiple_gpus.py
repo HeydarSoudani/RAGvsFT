@@ -156,6 +156,13 @@ def main(args):
     
     # === Load model ===============================
     accelerator = Accelerator()
+
+    if accelerator.state.num_processes > 1:
+        print(f"Number of GPUs: {accelerator.state.num_processes}")
+        print("GPU IDs:", ", ".join(str(x) for x in range(accelerator.state.num_processes)))
+    else:
+        print("No GPUs found or only a single GPU is available.")
+        
     accelerator.wait_for_everyone()
     model = AutoModelForCausalLM.from_pretrained(
         args.model_name_or_path,    
@@ -169,6 +176,8 @@ def main(args):
     # === Define prompt template ==================
     if args.voter_model_name == "stable_lm2":
         prompt_template = """<|user|>\n {context}<|endoftext|>\n<|assistant|>"""
+    elif args.voter_model_name == "tiny_llama":
+        prompt_template = """<|system|> </s>\n <|user|>\n {context} </s>\n <|assistant|>"""
     
     
     # === Define prompt context ===================
