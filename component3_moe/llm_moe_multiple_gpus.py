@@ -157,11 +157,11 @@ def main(args):
     # === Load model ===============================
     accelerator = Accelerator()
 
-    if accelerator.state.num_processes > 1:
+    if accelerator.state.num_processes != 0:
         print(f"Number of GPUs: {accelerator.state.num_processes}")
         print("GPU IDs:", ", ".join(str(x) for x in range(accelerator.state.num_processes)))
     else:
-        print("No GPUs found or only a single GPU is available.")
+        print("No GPUs found.")
         
     accelerator.wait_for_everyone()
     model = AutoModelForCausalLM.from_pretrained(
