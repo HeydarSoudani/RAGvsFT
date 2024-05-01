@@ -157,23 +157,21 @@ def main(args):
     # === Load model ===============================
     accelerator = Accelerator()
     accelerator.wait_for_everyone()
-    # model = AutoModelForCausalLM.from_pretrained(
-    #     args.model_name_or_path,    
-    #     device_map={"": accelerator.process_index},
-    #     torch_dtype=torch.bfloat16,
-    # )
+    model = AutoModelForCausalLM.from_pretrained(
+        args.model_name_or_path,    
+        device_map={"": accelerator.process_index},
+        torch_dtype=torch.bfloat16,
+    )
     tokenizer = AutoTokenizer.from_pretrained(args.model_name_or_path)
     tokenizer.pad_token = tokenizer.eos_token
     
-    pipe = pipeline(
-        task="text-generation",
-        model=args.model_name_or_path,
-        tokenizer=tokenizer,
-        max_new_tokens = 1024
-    )
+    
+    # === Define prompt template ==================
+    if args.voter_model_name == "stable_lm2":
+        prompt_template = """<|user|>\n {context}<|endoftext|>\n<|assistant|>"""
     
     
-    # === Define prompt ============================
+    # === Define prompt context ===================
     prompt_final_answer = lambda question, answers: f"""
         Question: Given the following answers, determine which one provides a more informative answer to the subsequent question.
     
@@ -210,36 +208,24 @@ def main(args):
             
             query_results = results_data.get(query_id, [])
             if len(query_results) != 4:
-                pass
                 print(f"Skipping query_id: {query_id} as it does not have 4 results.")
             else:
-                
-                _prompt = [
-                    { "role": "system", "content": ""},
-                    { "role": "user", "content": prompt_final_answer(query, query_results)}
-                ]
-            
-                prompt = pipe.tokenizer.apply_chat_template(_prompt, tokenize=False, add_generation_prompt=True)
-                outputs = pipe(prompt, max_new_tokens=8, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
-                output = outputs[0]["generated_text"]
-                
-                print(output)
-                
-                # prompt_tokenized=tokenizer(prompt, return_tensors="pt").to("cuda")
-                # output_tokenized = model.generate(**prompt_tokenized, max_new_tokens=100)[0]
+                _prompt = prompt_template(prompt_final_answer(query, query_results))
+                prompt_tokenized=tokenizer(_prompt, return_tensors="pt").to("cuda")
+                output_tokenized = model.generate(**prompt_tokenized, max_new_tokens=100)[0]
 
-                # # remove prompt from output 
-                # output_tokenized=output_tokenized[len(prompt_tokenized["input_ids"][0]):]
-
+                # remove prompt from output 
+                output_tokenized=output_tokenized[len(prompt_tokenized["input_ids"][0]):]
                 # store outputs and number of tokens in result{}
-                # results["outputs"].append( tokenizer.decode(output_tokenized) )
-                # results["num_tokens"] += len(output_tokenized)
+                results["outputs"].append( tokenizer.decode(output_tokenized) )
+                results["num_tokens"] += len(output_tokenized)
             
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_name_or_path", type=str, required=True)
     parser.add_argument("--dataset_name", type=str, required=True)
+    parser.add_argument("--voter_model_name", type=str, required=True)
     parser.add_argument("--base_model_name", type=str, required=True)
     parser.add_argument("--retrieval_method", type=str)
     parser.add_argument("--output_file_prefix", type=str)
