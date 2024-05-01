@@ -168,7 +168,7 @@ def main(args):
     model = AutoModelForCausalLM.from_pretrained(
         args.model_name_or_path,    
         # device_map={"": accelerator.process_index},
-        torch_dtype=torch.bfloat16,
+        # torch_dtype=torch.bfloat16,
     )
     print(accelerator.device)
     model = model.to(accelerator.device)
