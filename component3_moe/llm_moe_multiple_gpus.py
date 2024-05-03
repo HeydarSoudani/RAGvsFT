@@ -237,6 +237,9 @@ def main(args):
                 output_tokenized=output_tokenized[len(prompt_tokenized["input_ids"][0]):]
                 results["outputs"].append(tokenizer.decode(output_tokenized))
                 results["num_tokens"] += len(output_tokenized)
+        
+        results=[ results ]
+    results_gathered=gather_object(results)
             
 
 if __name__ == '__main__':
