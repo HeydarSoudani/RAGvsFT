@@ -118,7 +118,7 @@ def main(args):
     
     # === Save all
     output_all = f'component3_moe/naive_method/{args.dataset_name}_chunked/all.json'
-    with open(f"{output_base}/part_{i}.json", 'w') as file:
+    with open(output_all, 'w') as file:
         json.dump(combined, file, indent=4)
     
     
