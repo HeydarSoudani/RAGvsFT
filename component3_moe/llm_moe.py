@@ -23,6 +23,16 @@ base_path  = "component0_preprocessing/generated_data"
 target_relation_ids = 'all'
 subset_percentage = 1.0
 
+def _extract_json_part(new_pt):
+    """Extract the last PT from the user's response
+    E.g., "Output: [first] (some text) [second] (more text)" --> "[second]"
+    """
+    new_pt = re.sub(r'\n+', ' ', new_pt).strip()
+    matches = re.findall(r'(\{.*?\})', new_pt) # The latter part handle the case '{"text": "The user has no allergies", "preference_name": "allergies", "turn_number": 2}'
+    new_pt = matches[-1] if matches else ''
+
+    return new_pt
+
 def set_seed(seed):
     torch.manual_seed(seed)
     if torch.cuda.is_available():
@@ -172,7 +182,9 @@ def main(args):
     set_seed(args.seed)
     
     # == Create data & output dir ===========================
-    output_file = f"{base_path}/{args.dataset_name}_costomized/results/{args.dataset_name}_{args.base_model_name}_moe_{args.output_file_prefix}_results.jsonl"
+    # output_file = f"{base_path}/{args.dataset_name}_costomized/results/{args.dataset_name}_{args.base_model_name}_moe_{args.output_file_prefix}_results.jsonl"
+    output_file = f"component3_moe/naive_method/{args.dataset_name}_chunked_results/part_{args.chunk_index}.jsonl"
+    os.makedirs(f"component3_moe/naive_method/{args.dataset_name}_chunked_results", exist_ok=True)
     
     if args.base_model_name in ["flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl"]:
         model_type = 'flant5'
@@ -204,13 +216,15 @@ def main(args):
         task="text-generation",
         model=args.model_name_or_path,
         tokenizer=tokenizer,
-        max_new_tokens = 8
+        max_new_tokens = 1024
     )
     
     # # Example output: {{“question”: “”, “answer”: “”, “resource”: ””}}
     # Step 6: Output in JSON format according to the example above (ie `{{...}}`). The resource indicates the answer number on which the final answer is derived.
     # Ensure that you distinctly label and delineate Steps 1, 2, 3, 4, and 5. Let's think step by step.
     prompt_final_answer = lambda question, answers: f"""
+        Example output: {{“question”: “What genre is Sarah Cracknell?”, “resource”: ”Answer 4”}}
+        
         Question: Given the following answers, determine which one provides a more informative answer to the subsequent question.
     
         Answer {answers[0]['file_id']}: {answers[0]['result']['pred']}
@@ -227,9 +241,10 @@ def main(args):
         Step 3: Considering the question, assess “Answer {answers[2]['file_id']}” and check if it responds to the question
         Step 4: Considering the question, assess “Answer {answers[3]['file_id']}” and check if it responds to the question
         Step 5: Based on the discussion, can you tell me what is the final response 
-        Let's think step by step.
+        Step 6: Output in JSON format according to the example above (ie `{{...}}`). The resource indicates the answer number on which the final answer is derived.
+        Ensure that you distinctly label and delineate Steps 1, 2, 3, 4, 5 and 6. Let's think step by step.
         
-        Choices: [Answer {answers[0]['file_id']}, Answer {answers[1]['file_id']}, Answer {answers[2]['file_id']}, Answer {answers[3]['file_id']}].
+        Choices of resource: [Answer {answers[0]['file_id']}, Answer {answers[1]['file_id']}, Answer {answers[2]['file_id']}, Answer {answers[3]['file_id']}].
     """.replace('    ', '')
     
     # prompt_final_answer = lambda question, answers: f"""
@@ -254,8 +269,8 @@ def main(args):
     with open(output_file, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 10:
-                break
+            # if idx == 10:
+            #     break
         
             query_results = results_data.get(query_id, [])
             if len(query_results) == 4:
@@ -266,55 +281,67 @@ def main(args):
                 ]
             
                 prompt = pipe.tokenizer.apply_chat_template(_prompt, tokenize=False, add_generation_prompt=True)
-                outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
-                output = outputs[0]["generated_text"]
-                result = output.split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[1].strip()
                 
-                # logging.info(query)
-                # logging.info(result)
+                n_max_trial = 5
+                last_valid_new_pt = None
+                for i in range(n_max_trial):
                 
-                final_answer = extract_number(result)
-                if final_answer == None:
-                    print(f'output is: {result}')
-                    final_answer = 4
-    
-                pred = query_results[int(final_answer)-1]['result']['pred']
+                    outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
+                    new_pt = outputs[0]["generated_text"]
+                    new_pt = new_pt.split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[1].strip()
+                    new_pt = _extract_json_part(new_pt)
+                    
+                    if new_pt != None:
+                        break        
                 
-                is_correct = False
-                for pa in test_answers[idx]:
-                        if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
-                            is_correct = True
-                accuracy.append(is_correct)
-                
-                if idx < 10 or idx % 200 == 0:
-                    logging.info('\n')
-                    logging.info(f"Prompt: {result}")
-                    logging.info(f"Query: {query}")
-                    logging.info(f"Pred: {pred}")
-                    logging.info(f"resource: {final_answer}"),
-                    logging.info(f"Labels: {test_answers[idx]}")
-                    logging.info(f"Final decision: {is_correct}")
-                    logging.info('====')
-                    # print('\n')
-                    # print(f"Prompt: {new_pt}")
-                    # print(f"Query: {query}")
-                    # print(f"Pred: {pred}")
-                    # print(f"resource: {final_ans['resource']}")
-                    # print(f"Labels: {test_answers[idx]}")
-                    # print(f"Final decision: {is_correct}")
-                    # print('====')
-                
-                item = {
-                    "query_id": query_id,
-                    "question": query,
-                    "possible_answers": test_answers[idx],
-                    "pred": pred,
-                    "resource": final_answer,
-                    "is_correct": is_correct,
-                    "pageviews": query_pv
-                }
-                file.write(json.dumps(item) + '\n')
-    
+                new_pt = json.loads(new_pt)
+                if 'resource' in new_pt:
+                    final_answer = extract_number(new_pt['resource'])
+                    
+                    
+                    if final_answer == None:
+                        print(f'output is: {new_pt}')
+                        final_answer = 4
+        
+                    pred = query_results[int(final_answer)-1]['result']['pred']
+                    
+                    is_correct = False
+                    for pa in test_answers[idx]:
+                            if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
+                                is_correct = True
+                    accuracy.append(is_correct)
+                    
+                    if idx < 10 or idx % 200 == 0:
+                        logging.info('\n')
+                        logging.info(f"Prompt: {new_pt}")
+                        logging.info(f"Query: {query}")
+                        logging.info(f"Pred: {pred}")
+                        logging.info(f"resource: {final_answer}"),
+                        logging.info(f"Labels: {test_answers[idx]}")
+                        logging.info(f"Final decision: {is_correct}")
+                        logging.info('====')
+                        # print('\n')
+                        # print(f"Prompt: {new_pt}")
+                        # print(f"Query: {query}")
+                        # print(f"Pred: {pred}")
+                        # print(f"resource: {final_ans['resource']}")
+                        # print(f"Labels: {test_answers[idx]}")
+                        # print(f"Final decision: {is_correct}")
+                        # print('====')
+                    
+                    item = {
+                        "query_id": query_id,
+                        "question": query,
+                        "possible_answers": test_answers[idx],
+                        "pred": pred,
+                        "resource": final_answer,
+                        "is_correct": is_correct,
+                        "pageviews": query_pv
+                    }
+                    file.write(json.dumps(item) + '\n')
+
+                else:
+                    print(f"Query: {query_id}:{query}, there is no resource")
     acc = sum(accuracy) / len(accuracy)
     logging.info(f"Accuracy: {acc * 100:.2f}%")
     print(f"Accuracy: {acc * 100:.2f}%")
@@ -327,6 +354,7 @@ if __name__ == '__main__':
     parser.add_argument("--base_model_name", type=str, required=True)
     parser.add_argument("--retrieval_method", type=str)
     parser.add_argument("--output_file_prefix", type=str)
+    parser.add_argument("--chunk_index", type=int)
     parser.add_argument("--seed", type=int)
     
     args = parser.parse_args()
