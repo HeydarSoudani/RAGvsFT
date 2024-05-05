@@ -293,55 +293,48 @@ def main(args):
                     
                     if new_pt != None:
                         break        
-                
-                new_pt = json.loads(new_pt)
-                if 'resource' in new_pt:
-                    final_answer = extract_number(new_pt['resource'])
-                    
-                    
-                    if final_answer == None:
-                        print(f'output is: {new_pt}')
-                        final_answer = 4
         
-                    pred = query_results[int(final_answer)-1]['result']['pred']
+                final_answer = extract_number(new_pt.split("resource")[-1].strip())             
+                if final_answer == None:
+                    print(f'output is: {new_pt}')
+                    final_answer = 4
+    
+                pred = query_results[int(final_answer)-1]['result']['pred']
+                
+                is_correct = False
+                for pa in test_answers[idx]:
+                        if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
+                            is_correct = True
+                accuracy.append(is_correct)
+                
+                if idx < 10 or idx % 200 == 0:
+                    logging.info(f"Prompt: {new_pt}")
+                    logging.info(f"Query: {query}")
+                    logging.info(f"Pred: {pred}")
+                    logging.info(f"resource: {final_answer}"),
+                    logging.info(f"Labels: {test_answers[idx]}")
+                    logging.info(f"Final decision: {is_correct}")
+                    logging.info('====')
+                    # print('\n')
+                    # print(f"Prompt: {new_pt}")
+                    # print(f"Query: {query}")
+                    # print(f"Pred: {pred}")
+                    # print(f"resource: {final_ans['resource']}")
+                    # print(f"Labels: {test_answers[idx]}")
+                    # print(f"Final decision: {is_correct}")
+                    # print('====')
+                
+                item = {
+                    "query_id": query_id,
+                    "question": query,
+                    "possible_answers": test_answers[idx],
+                    "pred": pred,
+                    "resource": final_answer,
+                    "is_correct": is_correct,
+                    "pageviews": query_pv
+                }
+                file.write(json.dumps(item) + '\n')
                     
-                    is_correct = False
-                    for pa in test_answers[idx]:
-                            if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
-                                is_correct = True
-                    accuracy.append(is_correct)
-                    
-                    if idx < 10 or idx % 200 == 0:
-                        logging.info('\n')
-                        logging.info(f"Prompt: {new_pt}")
-                        logging.info(f"Query: {query}")
-                        logging.info(f"Pred: {pred}")
-                        logging.info(f"resource: {final_answer}"),
-                        logging.info(f"Labels: {test_answers[idx]}")
-                        logging.info(f"Final decision: {is_correct}")
-                        logging.info('====')
-                        # print('\n')
-                        # print(f"Prompt: {new_pt}")
-                        # print(f"Query: {query}")
-                        # print(f"Pred: {pred}")
-                        # print(f"resource: {final_ans['resource']}")
-                        # print(f"Labels: {test_answers[idx]}")
-                        # print(f"Final decision: {is_correct}")
-                        # print('====')
-                    
-                    item = {
-                        "query_id": query_id,
-                        "question": query,
-                        "possible_answers": test_answers[idx],
-                        "pred": pred,
-                        "resource": final_answer,
-                        "is_correct": is_correct,
-                        "pageviews": query_pv
-                    }
-                    file.write(json.dumps(item) + '\n')
-
-                else:
-                    print(f"Query: {query_id}:{query}, there is no resource")
     acc = sum(accuracy) / len(accuracy)
     logging.info(f"Accuracy: {acc * 100:.2f}%")
     print(f"Accuracy: {acc * 100:.2f}%")
