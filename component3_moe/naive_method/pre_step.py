@@ -103,7 +103,7 @@ def main(args):
     test_questions, test_answers = load_dataset(test_files)
     
     print('a')
-    # ===
+    # === 
     num_files = 10
     combined = [(q + (a,)) for q, a in zip(test_questions, test_answers)]
     chunk_size = len(combined) // num_files if len(combined) % num_files == 0 else len(combined) // num_files + 1
@@ -115,6 +115,12 @@ def main(args):
     for i, chunk in enumerate(combined_chunks, 1):
         with open(f"{output_base}/part_{i}.json", 'w') as file:
             json.dump(chunk, file, indent=4)
+    
+    # === Save all
+    output_all = f'component3_moe/naive_method/{args.dataset_name}_chunked/all.json'
+    with open(f"{output_base}/part_{i}.json", 'w') as file:
+        json.dump(combined, file, indent=4)
+    
     
     print('c')
     
