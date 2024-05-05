@@ -18,6 +18,7 @@ srun $HOME/RAGvsFT/component3_moe/llm_moe.py \
     --base_model_name "stable_lm2" \
     --retrieval_method "ideal" \
     --output_file_prefix "10_cot_llm" \
+    --chunk_index 1 \
     --seed 42
 
 

@@ -146,6 +146,19 @@ def extract_number(text):
     else:
         return None
 
+def load_chunked_data(args):
+    file_path = f"component3_moe/naive_method/{args.dataset_name}_chunked/part_{args.chunk_index}.json"
+    test_questions = []
+    test_answers = []
+    
+    with open(file_path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+        for item in data:
+            test_questions.append(tuple(item[:-1]))
+            test_answers.append(item[-1])
+    
+    return test_questions, test_answers    
+
 def main(args):
     
     logging.info(f"""
@@ -176,11 +189,12 @@ def main(args):
         # {"title": f"NoFT/dprRAG", "filename": f"{base_path}/{args.dataset_name}_costomized/results/{args.dataset_name}_{args.base_model_name}_bf_rag_dpr_full_results.jsonl"},
         # {"title": f"FT/dprRAG", "filename": f"{base_path}/{args.dataset_name}_costomized/results/{args.dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
     ]
+    results_data = load_results_data(results_files)
     
     # === Loading dataset ==========================
-    results_data = load_results_data(results_files)
-    test_relation_ids, test_files, relation_files = load_relations_data()
-    test_questions, test_answers = load_dataset(test_files)
+    # test_relation_ids, test_files, relation_files = load_relations_data()
+    # test_questions, test_answers = load_dataset(test_files)
+    test_questions, test_answers = load_chunked_data(args)
     
     tokenizer = AutoTokenizer.from_pretrained(
         args.model_name_or_path,
@@ -216,7 +230,6 @@ def main(args):
         Let's think step by step.
         
         Choices: [Answer {answers[0]['file_id']}, Answer {answers[1]['file_id']}, Answer {answers[2]['file_id']}, Answer {answers[3]['file_id']}].
-        Do not exceed 2 words.
     """.replace('    ', '')
     
     # prompt_final_answer = lambda question, answers: f"""
@@ -241,8 +254,8 @@ def main(args):
     with open(output_file, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            # if idx == 10:
-            #     break
+            if idx == 10:
+                break
         
             query_results = results_data.get(query_id, [])
             if len(query_results) == 4:
@@ -253,7 +266,7 @@ def main(args):
                 ]
             
                 prompt = pipe.tokenizer.apply_chat_template(_prompt, tokenize=False, add_generation_prompt=True)
-                outputs = pipe(prompt, max_new_tokens=8, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
+                outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
                 output = outputs[0]["generated_text"]
                 result = output.split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[1].strip()
                 
