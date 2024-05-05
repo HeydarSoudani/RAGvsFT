@@ -21,9 +21,13 @@ logging.basicConfig(level=logging.DEBUG,
 os.environ["WANDB_MODE"] = "offline"
 
 print("Available GPUs:", torch.cuda.device_count())
-prompt_prefix = "Answer the question: "
 target_relation_ids = 'all'
 subset_percentage = 1.0
+
+# V1: 
+prompt_prefix = "Answer the question:"
+# V2:
+# prompt_prefix = "Question:"
 
 def set_seed(seed):
     """Set the seed for reproducibility in PyTorch, NumPy, and Python."""
@@ -130,7 +134,7 @@ def load_dataset_qa(tokenizer, test_files):
     
     # = Tokenize function =====
     def tokenize_function(examples):        
-        inputs = [prompt_prefix + item for item in examples['question']]
+        inputs = [f"{prompt_prefix} {item}" for item in examples['question']]
         model_inputs = tokenizer(
             inputs,
             max_length=max_source_length,

@@ -20,8 +20,7 @@ os.environ["WANDB_MODE"] = "offline"
 print("Available GPUs:", torch.cuda.device_count())
 device = 'cuda:0'
 target_relation_ids = 'all'
-subset_percentage = 0.1
-
+subset_percentage = 1.0
 
 def set_seed(seed):
     torch.manual_seed(seed)
@@ -199,10 +198,12 @@ def main(args):
     
     ### === Parameters per model
     if args.llm_model_name == "flant5":
-        # prompt_template_w_context = """Context: {context} \n Based on the provided context, answer the question: {question}"""
-        # prompt_template_wo_context = """Answer the question: {question}"""
-        prompt_template_w_context = """Context: {context} \nQuestion: {question}"""
-        prompt_template_wo_context = """Question: {question}"""
+        # V1
+        prompt_template_w_context = """Context: {context} \n Based on the provided context, answer the question: {question}"""
+        prompt_template_wo_context = """Answer the question: {question}"""
+        # V2
+        # prompt_template_w_context = """Context: {context} \nQuestion: {question}"""
+        # prompt_template_wo_context = """Question: {question}"""
         
     elif args.llm_model_name in ["llama2", "mistral"]:
         prompt_template_w_context = """<s>[INST] <<SYS>><</SYS>> \n Context: {context}\n Question: {question} \n[/INST]"""
