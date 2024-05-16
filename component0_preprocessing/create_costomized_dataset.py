@@ -1031,12 +1031,13 @@ def create_train_and_dev_files_prompting(relation_id):
 def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
     
     tokenizer = AutoTokenizer.from_pretrained(
-        "meta-llama/Meta-Llama-3-8B-Instruct",
+        # "meta-llama/Meta-Llama-3-8B-Instruct",
+        "meta-llama/Meta-Llama-3-8B",
         trust_remote_code=True
     )
     pipe = pipeline(
         task="text-generation",
-        model="meta-llama/Meta-Llama-3-8B-Instruct",
+        model="meta-llama/Meta-Llama-3-8B",
         tokenizer=tokenizer,
         max_new_tokens = 1024
     )
