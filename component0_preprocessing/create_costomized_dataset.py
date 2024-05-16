@@ -14,7 +14,7 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 import urllib.request as urllib2
 from urllib.parse import quote
-from lmqg import TransformersQG
+# from lmqg import TransformersQG
 from lmqg.exceptions import AnswerNotFoundError, ExceedMaxLengthError
 from nltk.tokenize import sent_tokenize
 from datasets import load_dataset
@@ -1299,8 +1299,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--qg_model", type=str, required=True)
-    parser.add_argument("--ae_model", type=str, required=True)
+    # parser.add_argument("--qg_model", type=str, required=True)
+    # parser.add_argument("--ae_model", type=str, required=True)
     
     args = parser.parse_args()
     main(args)
