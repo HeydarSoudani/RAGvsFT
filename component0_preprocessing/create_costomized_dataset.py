@@ -1043,7 +1043,7 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
     )
     
     prompt_qa_generation = lambda context: f"""
-        Example output: {{“question”: “What genre is Sarah Cracknell?”, “resource”: ”Answer 4”}}
+        Example output: {{“question”: “”, “answer”: ""}}
         
         Question: You are a question-answer generator. Your goal is to generate question-answer pairs given the context.
     
@@ -1057,7 +1057,6 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
         Step 4: Output in JSON format following the example above (i.e., `{{...}}`).
         Ensure that you distinctly label and delineate Steps 1, 2, 3, and 4. Let's think step by step:
     """.replace('    ', '')
-    
     
     query_id_counter = 0
     with open(f'{corpus_sum_dir}/{relation_id}.corpus.json', 'r', encoding='utf-8') as cf:
