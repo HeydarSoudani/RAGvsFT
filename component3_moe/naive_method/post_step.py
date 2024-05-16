@@ -21,4 +21,9 @@ def merge_jsonl_files(input_directory, output_file):
             output.write(json.dumps(data) + '\n')
 
 # Example usage:
-# merge_jsonl_files("input_directory_path", "output_file_path.jsonl")
+dataset_name = 'popQA'
+model_name = 'stable_lm2'
+input_directory_path = "component3_moe/naive_method/popQA_chunked_results"
+output_file_path = f"component0_preprocessing/generated_data/popQA_costomized/results/{dataset_name}_{model_name}_moe_llm_results.jsonl"
+merge_jsonl_files(input_directory_path, output_file_path)
+

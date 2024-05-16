@@ -22,6 +22,7 @@ import numpy as np
 import requests
 import wikipediaapi
 from transformers import pipeline
+from transformers import AutoTokenizer
 
 import nltk
 nltk.download('punkt')
@@ -170,6 +171,17 @@ os.makedirs(f"{output_dir}/prompting", exist_ok=True)
 os.makedirs(pr_train_dir, exist_ok=True)
 os.makedirs(pr_dev_dir, exist_ok=True)
 os.makedirs(pr_qrels_train_dir, exist_ok=True)
+
+# === 3.3) QA Generation by prompting Llama3
+qa_llama3_train_dir = f"{output_dir}/qa_llama3/train" 
+qa_llama3_dev_dir = f"{output_dir}/qa_llama3/dev" 
+qa_llama3_qrels_train_dir = f"{output_dir}/qa_llama3/qrels-train" 
+
+os.makedirs(f"{output_dir}/qa_llama3", exist_ok=True)
+os.makedirs(qa_llama3_train_dir, exist_ok=True)
+os.makedirs(qa_llama3_dev_dir, exist_ok=True)
+os.makedirs(qa_llama3_qrels_train_dir, exist_ok=True)
+
 
 num_entities_per_relation = 20
 dev_split = 0.1
@@ -1015,6 +1027,117 @@ def create_train_and_dev_files_prompting(relation_id):
     with open(f'{pr_qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
         json.dump(qrels_train, qf, indent=4)
 
+
+def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
+    
+    tokenizer = AutoTokenizer.from_pretrained(
+        args.model_name_or_path,
+        trust_remote_code=True
+    )
+    pipe = pipeline(
+        task="text-generation",
+        model=args.model_name_or_path,
+        tokenizer=tokenizer,
+        max_new_tokens = 1024
+    )
+    
+    prompt_qa_generation = lambda context: f"""
+        Example output: {{“question”: “What genre is Sarah Cracknell?”, “resource”: ”Answer 4”}}
+        
+        Question: You are a question-answer generator. Your goal is to generate question-answer pairs given the context.
+    
+        Context: {context}
+        
+        Your Task:
+        Generate question-answer pairs as mush as you can given the context.
+        Step 1: Identify spans that are likely to be answers to questions, identify as many as possible.
+        Step 2: For each identified span, generate a question.
+        Step 3: Respond to the question. The answer must not exceed 2 words.
+        Step 4: Output in JSON format following the example above (i.e., `{{...}}`).
+        Ensure that you distinctly label and delineate Steps 1, 2, 3, and 4. Let's think step by step:
+    """.replace('    ', '')
+    
+    
+    query_id_counter = 0
+    with open(f'{corpus_sum_dir}/{relation_id}.corpus.json', 'r', encoding='utf-8') as cf:
+        data = json.load(cf)
+        
+        all_qas = []
+        qrels_train = []
+        # for item in tqdm(data, desc=f"Processing {relation_id} ..."):
+        for idx, item in enumerate(data):
+            
+            if idx == 5:
+                break
+            
+            context = item['content']
+            doc_id = item['doc_id']
+            
+            max_tokens = 256
+            chunks = split_text_to_sentences(context, max_tokens)
+            for chunk in chunks:
+            
+                _prompt = [
+                    { "role": "system", "content": ""},
+                    { "role": "user", "content": prompt_qa_generation(chunk)}
+                ]
+            
+                prompt = pipe.tokenizer.apply_chat_template(_prompt, tokenize=False, add_generation_prompt=True)
+                outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
+                new_pt = outputs[0]["generated_text"]
+                new_pt = new_pt.split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[1].strip()
+                qas = extract_json_objects(new_pt)
+            
+                print(qas)
+            
+                if qas is not None:
+                    for qa in qas:
+                        if "question" in qa.keys() and "answer" in qa.keys():
+                            # print("The question is: {}".format(qa["question"]))
+                            # print("The answer is: {}".format(qa["answer"]))                     
+                        
+                            all_qas.append({
+                                'query_id': f"qa_{relation_id}_{query_id_counter}",
+                                'question': qa["question"],
+                                'answers': [qa["answer"]]
+                            })
+                            qrels_train.append({
+                                'query_id': f"qa_{relation_id}_{query_id_counter}",
+                                'doc_id': doc_id,
+                                'score': 1
+                            })
+                            query_id_counter += 1
+                        else:
+                            print("This QA object is missing either 'question' or 'answer' keys:", qa.keys())
+    
+    # Filtering step
+    pattern = r'context\W'
+    
+    # filtered_qas = [qa for qa in all_qas if len(qa["question"].split()) >= 4]    
+    filtered_qas = [
+        qa for qa in all_qas 
+        if isinstance(qa["question"], str) and isinstance(qa["answers"], list) and
+            all(isinstance(answer, str) for answer in qa["answers"]) and
+            len(qa["question"].split()) >= 4 and
+            not re.search(pattern, qa["question"], re.IGNORECASE) and
+            not any(re.search(pattern, answer, re.IGNORECASE) for answer in qa["answers"])
+    ]
+    
+    random.shuffle(filtered_qas)
+    split_index = int(len(filtered_qas) * dev_split)
+    train_qas = filtered_qas[split_index:]
+    dev_qas = filtered_qas[:split_index]
+
+    with open(f'{qa_llama3_train_dir}/{relation_id}.train.json', 'w', encoding='utf-8') as tf:
+        json.dump(train_qas, tf, indent=4)
+    
+    with open(f'{qa_llama3_dev_dir}/{relation_id}.dev.json', 'w', encoding='utf-8') as df:
+        json.dump(dev_qas, df, indent=4)
+    
+    with open(f'{qa_llama3_qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
+        json.dump(qrels_train, qf, indent=4)
+
+
 def split_to_buckets(objects, split_points):
     
     split_points = sorted(split_points)
@@ -1153,7 +1276,7 @@ def main(args):
     # create_test_and_entity_files()
     
     ### ==== Step 1 (for EQ dataset): Creating test & entity files ====
-    create_test_and_entity_files_EQ() # run in Kaggle
+    # create_test_and_entity_files_EQ() # run in Kaggle
 
     ### ==== Step 2: Creating corpus & qrels files ====================
     # create_corpus_and_qrels_files_via_api()
@@ -1162,11 +1285,13 @@ def main(args):
     # add_empty_entities()
     
     ### ==== Step 3: Creating train & dev & qrels-train files =========
-    # idx = 1
-    # relation_id = relation_ids[idx]
+    idx = 0
+    relation_id = relation_ids[idx]
     # print("Dataset: {}, Idx: {}, Relation Id: {}".format(dataset_name, idx, relation_id))
     # # create_train_and_dev_files_pipeline(args, relation_id=relation_id) # T5-based model
     # create_train_and_dev_files_prompting(relation_id=relation_id)# Zephyr-based model
+    
+    create_ensamble_train_and_dev_files_prompting_llama3(relation_id=relation_id)
     
     ### ==== Plotting the distribution of the number of queries in each bucket
     # plot_bucket_num()
