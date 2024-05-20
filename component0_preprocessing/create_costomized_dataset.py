@@ -21,8 +21,9 @@ from datasets import load_dataset
 import numpy as np
 import requests
 import wikipediaapi
+from accelerate import Accelerator
 from transformers import pipeline
-from transformers import AutoTokenizer
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 import nltk
 nltk.download('punkt')
@@ -1026,6 +1027,72 @@ def create_train_and_dev_files_prompting(relation_id):
     
     with open(f'{pr_qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
         json.dump(qrels_train, qf, indent=4)
+
+
+def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
+    # Multiple GPUs
+    accelerator = Accelerator()
+    
+    model_name = "HuggingFaceH4/zephyr-7b-beta"
+    # model_name = "meta-llama/Meta-Llama-3-8B"
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(model_name)
+    model = accelerator.prepare(model)
+    
+    prompt_qa_generation = lambda context: f"""
+        Example output: {{“question”: “”, “answer”: ""}}
+        
+        Question: You are a question-answer generator. Your goal is to generate question-answer pairs given the context.
+    
+        Context: {context}
+        
+        Your Task:
+        Generate question-answer pairs as mush as you can given the context.
+        Step 1: Identify spans that are likely to be answers to questions, identify as many as possible.
+        Step 2: For each identified span, generate a question.
+        Step 3: Respond to the question. The answer must not exceed 2 words.
+        Step 4: Output in JSON format following the example above (i.e., `{{...}}`).
+        Ensure that you distinctly label and delineate Steps 1, 2, 3, and 4. Let's think step by step:
+    """.replace('    ', '')
+    
+    
+    with open(f'{corpus_sum_dir}/{relation_id}.corpus.json', 'r', encoding='utf-8') as cf:
+        data = json.load(cf)
+        input_prompts = [prompt_qa_generation(item['content']) for item in data]
+    
+    batch_size = 32
+    def process_batch(batch_prompts):
+        inputs = tokenizer(batch_prompts, return_tensors="pt", padding=True, truncation=True)
+        inputs = {k: torch.split(v, len(batch_prompts) // accelerator.num_processes + 1) for k, v in inputs.items()}
+        batch_generated_texts = []
+
+        for i in range(accelerator.num_processes):
+            if i >= len(inputs['input_ids']):
+                continue
+            
+            split_inputs = {k: v[i].to(accelerator.device) for k, v in inputs.items() if i < len(v)}
+            with torch.no_grad():
+                outputs = model.generate(**split_inputs, max_length=50)
+
+            for output in outputs:
+                generated_text = tokenizer.decode(output, skip_special_tokens=True)
+                batch_generated_texts.append(generated_text)
+        
+        return batch_generated_texts
+    
+    all_generated_texts = []
+    for i in range(0, len(input_prompts), batch_size):
+        
+        if i == 2:
+            break
+        
+        batch_prompts = input_prompts[i:i + batch_size]
+        generated_texts = process_batch(batch_prompts)
+        all_generated_texts.extend(generated_texts)
+    
+    for idx, text in enumerate(all_generated_texts):
+        print(f"Generated Text {idx + 1}: {text}")
+    
 
 
 def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
