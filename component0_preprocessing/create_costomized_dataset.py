@@ -1106,6 +1106,8 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
         
     delimiter = tokenizer.eos_token
     for idx, text in enumerate(all_generated_texts):
+        print(text)
+        print('\n')
         input_part, output_part = text.split(delimiter, 1)
         print(f"Generated output_part {idx + 1}: {output_part}")
         print('\n')
