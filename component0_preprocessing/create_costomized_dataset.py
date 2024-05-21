@@ -1061,7 +1061,7 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
         data = json.load(cf)
         input_prompts = [prompt_qa_generation(item['content']) for item in data]
     
-    batch_size = 32
+    batch_size = 4
     def process_batch(batch_prompts):
         inputs = tokenizer(batch_prompts, return_tensors="pt", padding=True, truncation=True)
         inputs = {k: torch.split(v, len(batch_prompts) // accelerator.num_processes + 1) for k, v in inputs.items()}
@@ -1089,6 +1089,7 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
         
         batch_prompts = input_prompts[i:i + batch_size]
         generated_texts = process_batch(batch_prompts)
+        print(generated_texts)
         all_generated_texts.extend(generated_texts)
     
     for idx, text in enumerate(all_generated_texts):
