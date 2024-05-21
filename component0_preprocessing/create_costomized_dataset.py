@@ -1031,6 +1031,8 @@ def create_train_and_dev_files_prompting(relation_id):
 
 def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
     # Multiple GPUs
+    
+    ### === Define model and prompt ====
     accelerator = Accelerator()
     
     model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
@@ -1057,9 +1059,15 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
     """.replace('    ', '')
     
     
+    ### === Read input file ==== 
+    input_prompts = []
     with open(f'{corpus_sum_dir}/{relation_id}.corpus.json', 'r', encoding='utf-8') as cf:
         data = json.load(cf)
-        input_prompts = [prompt_qa_generation(item['content']) for item in data]
+        max_tokens = 512
+        for item in data:
+            context = item['content']
+            chunks = split_text_to_sentences(context, max_tokens)
+            input_prompts.extent([prompt_qa_generation(chunk) for chunk in chunks])
     
     batch_size = 4
     def process_batch(batch_prompts):
@@ -1073,7 +1081,7 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
             
             split_inputs = {k: v[i].to(accelerator.device) for k, v in inputs.items() if i < len(v)}
             with torch.no_grad():
-                outputs = model.generate(**split_inputs, max_length=1024)
+                outputs = model.generate(**split_inputs, max_length=1024) 
 
             for output in outputs:
                 generated_text = tokenizer.decode(output, skip_special_tokens=True)
