@@ -1034,9 +1034,10 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
     
     ### === Define model and prompt ====
     accelerator = Accelerator()
+    print(f"# GPUs: {accelerator.num_processes}")
     
-    # model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
-    model_name = "HuggingFaceH4/zephyr-7b-beta"
+    model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+    # model_name = "HuggingFaceH4/zephyr-7b-beta"
     # model_name = "meta-llama/Meta-Llama-3-8B"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(model_name)
@@ -1099,10 +1100,14 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
         generated_texts = process_batch(batch_prompts)
         print(generated_texts)
         print('\n')
-        all_generated_texts.extend(generated_texts)
+        qas = extract_json_objects(generated_texts)
+        print(qas)
+        print('\n')
+        # all_generated_texts.extend(generated_texts)
+        
     
-    for idx, text in enumerate(all_generated_texts):
-        print(f"Generated Text {idx + 1}: {text}")
+    # for idx, text in enumerate(all_generated_texts):
+    #     print(f"Generated Text {idx + 1}: {text}")
     
 
 
