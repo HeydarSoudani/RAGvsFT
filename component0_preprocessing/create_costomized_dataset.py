@@ -1067,7 +1067,7 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
         for item in data:
             context = item['content']
             chunks = split_text_to_sentences(context, max_tokens)
-            input_prompts.extent([prompt_qa_generation(chunk) for chunk in chunks])
+            input_prompts.extend([prompt_qa_generation(chunk) for chunk in chunks])
     
     batch_size = 4
     def process_batch(batch_prompts):
