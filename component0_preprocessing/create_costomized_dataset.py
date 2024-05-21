@@ -1071,7 +1071,7 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
             chunks = split_text_to_sentences(context, max_tokens)
             input_prompts.extend([prompt_qa_generation(chunk) for chunk in chunks])
     
-    batch_size = 2
+    batch_size = 1
     def process_batch(batch_prompts):
         delimiter = tokenizer.eos_token
         batch_prompts_with_delimiter = [prompt + delimiter for prompt in batch_prompts]
@@ -1109,7 +1109,7 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
     for idx, text in enumerate(all_generated_texts):
         print(text)
         print('\n')
-        input_part, output_part = text.split(delimiter, 1)
+        output_part = text.split(delimiter, 1)
         print(f"Generated output_part {idx + 1}: {output_part}")
         print('\n')
         
