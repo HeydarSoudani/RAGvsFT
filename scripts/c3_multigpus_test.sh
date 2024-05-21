@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --nodes=1
-#SBATCH --ntasks=1
+#SBATCH --ntasks=2
 #SBATCH --gpus=2
-#SBATCH --cpus-per-task=2
+#SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
 #SBATCH --time=0:10:00
 #SBATCH --output=script_logging/slurm_%A.out
