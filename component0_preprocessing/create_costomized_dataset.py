@@ -1069,7 +1069,7 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
             chunks = split_text_to_sentences(context, max_tokens)
             input_prompts.extend([prompt_qa_generation(chunk) for chunk in chunks])
     
-    batch_size = 4
+    batch_size = 2
     def process_batch(batch_prompts):
         inputs = tokenizer(batch_prompts, return_tensors="pt", padding=True, truncation=True)
         inputs = {k: torch.split(v, len(batch_prompts) // accelerator.num_processes + 1) for k, v in inputs.items()}
@@ -1092,12 +1092,13 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
     all_generated_texts = []
     for i in range(0, len(input_prompts), batch_size):
         
-        if i == 2:
+        if i == 1:
             break
         
         batch_prompts = input_prompts[i:i + batch_size]
         generated_texts = process_batch(batch_prompts)
         print(generated_texts)
+        print('\n')
         all_generated_texts.extend(generated_texts)
     
     for idx, text in enumerate(all_generated_texts):
