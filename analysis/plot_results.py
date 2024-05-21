@@ -118,7 +118,6 @@ elif dataset_name == 'EQ':
         '800': 'pos. played' # position played
     }
 
-
 # === Functions =================================
 def split_to_buckets(objects, split_points):
     
@@ -229,7 +228,7 @@ def plot_buckets_distribution(only_all=False):
         font = {
             # 'family': 'serif',
             'color':  'black',
-            'weight': 'bold',
+            # 'weight': 'bold',
             'size': 16,
         }
     
@@ -245,20 +244,18 @@ def plot_buckets_distribution(only_all=False):
         
         for i, (bucket, value) in enumerate(zip(buckets, counts)):
             color = (1 - interpolation_values[i]) * np.array(color_left) + \
-                interpolation_values[i] * np.array(color_right)
-            
+                interpolation_values[i] * np.array(color_right)    
             plt.bar(bucket, value, color=color)
-        # plt.bar(buckets, counts, color=colors)
+        
+        plt.title(f'{dataset_name}', fontdict={'size': 18, 'weight': 'bold'})
         plt.xlabel("Popularity (pageviews)", fontdict=font)
         plt.xticks(fontsize=14)
         plt.ylabel("# Samples", fontdict=font)
         plt.yticks(fontsize=14)
-        
         plt.yticks(rotation=45)
-        plt.tight_layout()
-        # plt.savefig(f"pop_bk", dpi=1000)
-        plt.savefig('pop_bk.pdf', format='pdf', dpi=1000)
         
+        plt.tight_layout()   
+        plt.savefig(f'analysis/images_results/1_popularity_per_bucket/bk_dist_{dataset_name}.png', dpi=1000)        
         plt.show()
 
 def plot_retriever_results_per_relation():
@@ -348,9 +345,19 @@ def plot_retriever_results_per_buckets(only_all=False):
                 ax = axes[row, col]
             
             for model in models:
+                
+                if model == 'bm25':
+                    model_lb = 'BM25'
+                elif model == 'contriever':
+                    model_lb = 'Contriever'
+                elif model == 'rerank':
+                    model_lb = 'BM25+DPR'
+                elif model == 'dpr':
+                    model_lb = 'DPR'
+                
                 model_df = combined_df[(combined_df['Model'] == model) & (combined_df['RelationID'] == relation)]
                 model_df = model_df.sort_values('Bucket')  # Sort by bucket for proper line plotting
-                ax.plot(model_df['Bucket'], model_df['Recall@1'], '-o', label=model)
+                ax.plot(model_df['Bucket'], model_df['Recall@1'], '-o', label=model_lb)
             ax.set_ylim(0, 1.1)
             
             if idx == 0:
@@ -368,7 +375,7 @@ def plot_retriever_results_per_buckets(only_all=False):
         axes_flat = axes.flatten()
         legend_ax = axes_flat[ncols-1]  # Adjust based on desired legend position
         handles, labels = axes_flat[0].get_legend_handles_labels()
-        legend_ax.legend(handles, labels, title='Model', loc='center')
+        legend_ax.legend(handles, labels, title='Model', loc='center', fontsize='12')
         legend_ax.axis('off')  # Turn off axis lines and labels
         
         plt.subplots_adjust(hspace=0.5)
@@ -379,17 +386,32 @@ def plot_retriever_results_per_buckets(only_all=False):
         custom_xticks = ['b1', 'b2', 'b3', 'b4', 'b5']
         # ax = axes[0]
         for model in models:
+            
+            if model == 'bm25':
+                model_lb = 'BM25'
+            elif model == 'contriever':
+                model_lb = 'Contriever'
+            elif model == 'rerank':
+                model_lb = 'BM25+DPR'
+            elif model == 'dpr':
+                model_lb = 'DPR'
+            
             model_df = combined_df[(combined_df['Model'] == model) & (combined_df['RelationID'] == relations[0])]
             model_df = model_df.sort_values('Bucket') 
-            axes.plot(model_df['Bucket'], model_df['Recall@1'], '-o', label=model)
+            axes.plot(model_df['Bucket'], model_df['Recall@1'], '-o', label=model_lb)
         
+        axes.set_title(f'{dataset_name}', fontdict={'size': 16, 'weight': 'bold'})
         axes.set_ylim(0, 1.1)
-        # axes.set_title(f'{relation}')
-        axes.set_ylabel('Recall@1')
+        axes.set_ylabel('Recall@1', fontsize=12)
         axes.set_xticks(range(1, len(custom_xticks) + 1))
-        axes.set_xticklabels(custom_xticks)
+        axes.set_xticklabels(custom_xticks, fontsize=12)
         
-        plt.legend(title='Model', loc="upper right", ncol=1)
+        plt.legend(title='Model', loc="upper right", ncol=1, fontsize=12,
+                   title_fontsize=14
+        )
+        plt.tight_layout()
+        plt.savefig(f'analysis/images_results/2_ret_buckets/ret_recall_{dataset_name}.png', dpi=1000)
+        # plt.savefig(f'analysis/images_results/2_ret_buckets/ret_recall_{dataset_name}.pdf', format='pdf', dpi=1000)
         plt.show()
    
 def calculated_accuracy(objects):
@@ -403,7 +425,7 @@ def calculated_accuracy(objects):
 def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=False):
     
     ### ==== Define Variables =============
-    model_name = gen_models[0]
+    model_name = gen_models[5]
     
     if model_name in ["flant5_sm", "flant5_bs", "flant5_lg", "flant5_xl", "flant5_xxl"]:
         model_type = 'flant5'
@@ -417,18 +439,19 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
     result_files = [
         {"title": "NoFT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
         {"title": "NoFT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_bf_rag_{retrieval_model}_full_results.jsonl"},
-        {"title": f"NoFT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
+        # {"title": f"NoFT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
         
-        {"title": "FT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
         {"title": "FT/NoRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
-        {"title": f"FT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
+        {"title": "FT/idealRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
+        # {"title": f"FT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
         
         # {"title": f"voting", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_voting_results.jsonl"},
         # {"title": f"voting_2", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_voting_2_results.jsonl"},
         # {"title": f"NoFT/bm25RAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_bf_rag_bm25_full_results.jsonl"},
         # {"title": f"NoFT/dprRAG", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
-        # {"title": "MoE/llm", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_moe_llm_results.jsonl"},
-        # {"title": "MoE/ideal", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_moe_ideal_results.jsonl"},
+        {"title": "MoE/llm_no_cot", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_moe_llm_results_(no_cot).jsonl"},
+        {"title": "MoE/llm_cot", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_moe_llm_results_(cot).jsonl"},
+        {"title": "MoE/ideal", "filename": f"{base_path}/{dataset_name}_costomized/results/{model_type}/{dataset_name}_{model_name}_moe_ideal_results.jsonl"},
     ]
     
     ### ==== Prepare data for plotting ====
@@ -487,7 +510,7 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
 
     
     ### ==== Plotting configurations ====
-    palette = plt.get_cmap('Set2')
+    palette = plt.get_cmap('Set1')
     title_font = {
         # 'family': 'serif',
         'color':  'black',
@@ -626,12 +649,13 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
         plt.ylim(0, 1.0)
         # plt.legend()
         # plt.legend(loc=2, ncol=2, fontsize=12)
-        plt.legend(ncol=2, fontsize=12)
+        plt.legend(ncol=3, fontsize=12)
         plt.tight_layout()
+        
         # plt.savefig(f"main_{model_name}.pdf", format='pdf', dpi=1600)
         # plt.savefig(f"main_{model_name}.png", dpi=1600)
+        plt.savefig(f'analysis/images_results/3_answer_generator/flans/ret_recall_{dataset_name}.png', dpi=1000)
         plt.show()
-
 
 def main():
     # == 1) Plot buckets distribution: Number of data per bucket

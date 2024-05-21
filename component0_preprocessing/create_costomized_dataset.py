@@ -14,14 +14,16 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 import urllib.request as urllib2
 from urllib.parse import quote
-from lmqg import TransformersQG
-from lmqg.exceptions import AnswerNotFoundError, ExceedMaxLengthError
+# from lmqg import TransformersQG
+# from lmqg.exceptions import AnswerNotFoundError, ExceedMaxLengthError
 from nltk.tokenize import sent_tokenize
 from datasets import load_dataset
 import numpy as np
 import requests
 import wikipediaapi
+from accelerate import Accelerator
 from transformers import pipeline
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 import nltk
 nltk.download('punkt')
@@ -170,6 +172,15 @@ os.makedirs(f"{output_dir}/prompting", exist_ok=True)
 os.makedirs(pr_train_dir, exist_ok=True)
 os.makedirs(pr_dev_dir, exist_ok=True)
 os.makedirs(pr_qrels_train_dir, exist_ok=True)
+
+# === 3.3) QA Generation by prompting Llama3
+qa_llama3_train1_dir = f"{output_dir}/qa_llama3/train1" 
+qa_llama3_train2_dir = f"{output_dir}/qa_llama3/train2"
+os.makedirs(f"{output_dir}/qa_llama3", exist_ok=True)
+os.makedirs(qa_llama3_train1_dir, exist_ok=True)
+os.makedirs(qa_llama3_train2_dir, exist_ok=True)
+ensamble_train_split = 0.3
+
 
 num_entities_per_relation = 20
 dev_split = 0.1
@@ -1015,6 +1026,238 @@ def create_train_and_dev_files_prompting(relation_id):
     with open(f'{pr_qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
         json.dump(qrels_train, qf, indent=4)
 
+
+def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
+    # Multiple GPUs
+    
+    ### === Define model and prompt ====
+    accelerator = Accelerator()
+    print(f"# GPUs: {accelerator.num_processes}")
+    
+    # model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+    # model_name = "HuggingFaceH4/zephyr-7b-beta"
+    # model_name = "meta-llama/Llama-2-7b-chat-hf"
+    # model_name = "stabilityai/stablelm-2-zephyr-1_6b"
+    model_name = "meta-llama/Meta-Llama-3-8B-Instruct"
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    model = AutoModelForCausalLM.from_pretrained(model_name)
+    model = accelerator.prepare(model)
+    
+    prompt_qa_generation = lambda context: f"""
+        Example output: {{“question”: “”, “answer”: ""}}
+        
+        Question: You are a question-answer generator. Your goal is to generate question-answer pairs given the context.
+    
+        Context: {context}
+        
+        Your Task:
+        Generate question-answer pairs as mush as you can given the context.
+        Step 1: Identify and list spans that are likely to be answers to questions, identify as many as possible.
+        Step 2: For each identified span, generate a question.
+        Step 3: Respond to the question. The answer must not exceed 2 words.
+        Step 4: Output in JSON format following the example above (i.e., `{{...}}`).
+        Ensure that you distinctly label and delineate Steps 1, 2, 3, and 4. Let's think step by step:
+    """.replace('    ', '')
+    
+    
+    ### === Read input file ==== 
+    input_prompts = []
+    with open(f'{corpus_sum_dir}/{relation_id}.corpus.json', 'r', encoding='utf-8') as cf:
+        data = json.load(cf)
+        max_tokens = 512
+        for item in data:
+            context = item['content']
+            chunks = split_text_to_sentences(context, max_tokens)
+            input_prompts.extend([prompt_qa_generation(chunk) for chunk in chunks])
+    
+    batch_size = 1
+    def process_batch(batch_prompts):
+        delimiter = tokenizer.eos_token
+        batch_prompts_with_delimiter = [prompt + delimiter for prompt in batch_prompts]
+        
+        inputs = tokenizer(batch_prompts_with_delimiter, return_tensors="pt", padding=True, truncation=True)
+        inputs = {k: torch.split(v, len(batch_prompts) // accelerator.num_processes + 1) for k, v in inputs.items()}
+        
+        batch_generated_texts = []
+        for i in range(accelerator.num_processes):
+            if i >= len(inputs['input_ids']):
+                continue
+            
+            split_inputs = {k: v[i].to(accelerator.device) for k, v in inputs.items() if i < len(v)}
+            with torch.no_grad():
+                outputs = model.generate(**split_inputs, max_length=1024) 
+
+            for output in outputs:
+                generated_text = tokenizer.decode(output, skip_special_tokens=True)
+                batch_generated_texts.append(generated_text)
+        
+        return batch_generated_texts
+    
+    all_generated_texts = []
+    for i in range(0, len(input_prompts), batch_size):
+        
+        print(f'Processing batch {i} ...')
+        if i > 1:
+            break
+        
+        batch_prompts = input_prompts[i:i + batch_size]
+        generated_texts = process_batch(batch_prompts)
+        all_generated_texts.extend(generated_texts)
+        
+    query_id_counter = 0
+    all_qas = []
+    delimiter = tokenizer.eos_token
+    for idx, text in enumerate(all_generated_texts):
+        output_part = text.split(delimiter)[-1]
+        qas = extract_json_objects(output_part)
+        
+        if qas is not None:
+            for qa in qas:
+                if "question" in qa.keys() and "answer" in qa.keys():
+                    all_qas.append({
+                        'query_id': f"qa_{relation_id}_{query_id_counter}",
+                        'question': qa["question"],
+                        'answers': [qa["answer"]]
+                    })
+                    query_id_counter += 1
+                else:
+                    print("This QA object is missing either 'question' or 'answer' keys:", qa.keys())
+    
+    # Filtering step
+    pattern = r'context\W'
+    filtered_qas = [
+        qa for qa in all_qas 
+        if isinstance(qa["question"], str) and isinstance(qa["answers"], list) and
+            all(isinstance(answer, str) for answer in qa["answers"]) and
+            len(qa["question"].split()) >= 4 and
+            not re.search(pattern, qa["question"], re.IGNORECASE) and
+            not any(re.search(pattern, answer, re.IGNORECASE) for answer in qa["answers"])
+    ]  
+    
+    print(f"Total QAs: {len(all_qas)}")
+    random.shuffle(filtered_qas)
+    split_index = int(len(filtered_qas) * ensamble_train_split)
+    train1_qas = filtered_qas[split_index:]
+    train2_qas = filtered_qas[:split_index]
+    
+    with open(f'{qa_llama3_train1_dir}/{relation_id}.train1.json', 'w', encoding='utf-8') as tf:
+        json.dump(train1_qas, tf, indent=4)
+    
+    with open(f'{qa_llama3_train2_dir}/{relation_id}.train2.json', 'w', encoding='utf-8') as df:
+        json.dump(train2_qas, df, indent=4)
+    
+
+
+# def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
+    
+#     tokenizer = AutoTokenizer.from_pretrained(
+#         # "meta-llama/Meta-Llama-3-8B-Instruct",
+#         "meta-llama/Meta-Llama-3-8B",
+#         trust_remote_code=True
+#     )
+#     pipe = pipeline(
+#         task="text-generation",
+#         model="meta-llama/Meta-Llama-3-8B",
+#         tokenizer=tokenizer,
+#         max_new_tokens = 1024
+#     )
+    
+#     prompt_qa_generation = lambda context: f"""
+#         Example output: {{“question”: “”, “answer”: ""}}
+        
+#         Question: You are a question-answer generator. Your goal is to generate question-answer pairs given the context.
+    
+#         Context: {context}
+        
+#         Your Task:
+#         Generate question-answer pairs as mush as you can given the context.
+#         Step 1: Identify spans that are likely to be answers to questions, identify as many as possible.
+#         Step 2: For each identified span, generate a question.
+#         Step 3: Respond to the question. The answer must not exceed 2 words.
+#         Step 4: Output in JSON format following the example above (i.e., `{{...}}`).
+#         Ensure that you distinctly label and delineate Steps 1, 2, 3, and 4. Let's think step by step:
+#     """.replace('    ', '')
+    
+#     query_id_counter = 0
+#     with open(f'{corpus_sum_dir}/{relation_id}.corpus.json', 'r', encoding='utf-8') as cf:
+#         data = json.load(cf)
+        
+#         all_qas = []
+#         qrels_train = []
+#         # for item in tqdm(data, desc=f"Processing {relation_id} ..."):
+#         for idx, item in enumerate(data):
+            
+#             if idx == 5:
+#                 break
+            
+#             context = item['content']
+#             doc_id = item['doc_id']
+            
+#             max_tokens = 256
+#             chunks = split_text_to_sentences(context, max_tokens)
+#             for chunk in chunks:
+            
+#                 _prompt = [
+#                     { "role": "system", "content": ""},
+#                     { "role": "user", "content": prompt_qa_generation(chunk)}
+#                 ]
+            
+#                 prompt = pipe.tokenizer.apply_chat_template(_prompt, tokenize=False, add_generation_prompt=True)
+#                 outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
+#                 new_pt = outputs[0]["generated_text"]
+#                 new_pt = new_pt.split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[1].strip()
+#                 qas = extract_json_objects(new_pt)
+            
+#                 print(qas)
+            
+#                 if qas is not None:
+#                     for qa in qas:
+#                         if "question" in qa.keys() and "answer" in qa.keys():
+#                             # print("The question is: {}".format(qa["question"]))
+#                             # print("The answer is: {}".format(qa["answer"]))                     
+                        
+#                             all_qas.append({
+#                                 'query_id': f"qa_{relation_id}_{query_id_counter}",
+#                                 'question': qa["question"],
+#                                 'answers': [qa["answer"]]
+#                             })
+#                             qrels_train.append({
+#                                 'query_id': f"qa_{relation_id}_{query_id_counter}",
+#                                 'doc_id': doc_id,
+#                                 'score': 1
+#                             })
+#                             query_id_counter += 1
+#                         else:
+#                             print("This QA object is missing either 'question' or 'answer' keys:", qa.keys())
+    
+#     # Filtering step
+#     pattern = r'context\W'
+    
+#     # filtered_qas = [qa for qa in all_qas if len(qa["question"].split()) >= 4]    
+#     filtered_qas = [
+#         qa for qa in all_qas 
+#         if isinstance(qa["question"], str) and isinstance(qa["answers"], list) and
+#             all(isinstance(answer, str) for answer in qa["answers"]) and
+#             len(qa["question"].split()) >= 4 and
+#             not re.search(pattern, qa["question"], re.IGNORECASE) and
+#             not any(re.search(pattern, answer, re.IGNORECASE) for answer in qa["answers"])
+#     ]
+    
+#     random.shuffle(filtered_qas)
+#     split_index = int(len(filtered_qas) * dev_split)
+#     train_qas = filtered_qas[split_index:]
+#     dev_qas = filtered_qas[:split_index]
+
+#     with open(f'{qa_llama3_train_dir}/{relation_id}.train.json', 'w', encoding='utf-8') as tf:
+#         json.dump(train_qas, tf, indent=4)
+    
+#     with open(f'{qa_llama3_dev_dir}/{relation_id}.dev.json', 'w', encoding='utf-8') as df:
+#         json.dump(dev_qas, df, indent=4)
+    
+#     with open(f'{qa_llama3_qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
+#         json.dump(qrels_train, qf, indent=4)
+
+
 def split_to_buckets(objects, split_points):
     
     split_points = sorted(split_points)
@@ -1153,7 +1396,7 @@ def main(args):
     # create_test_and_entity_files()
     
     ### ==== Step 1 (for EQ dataset): Creating test & entity files ====
-    create_test_and_entity_files_EQ() # run in Kaggle
+    # create_test_and_entity_files_EQ() # run in Kaggle
 
     ### ==== Step 2: Creating corpus & qrels files ====================
     # create_corpus_and_qrels_files_via_api()
@@ -1162,11 +1405,13 @@ def main(args):
     # add_empty_entities()
     
     ### ==== Step 3: Creating train & dev & qrels-train files =========
-    # idx = 1
-    # relation_id = relation_ids[idx]
+    idx = 0
+    relation_id = relation_ids[idx]
     # print("Dataset: {}, Idx: {}, Relation Id: {}".format(dataset_name, idx, relation_id))
     # # create_train_and_dev_files_pipeline(args, relation_id=relation_id) # T5-based model
     # create_train_and_dev_files_prompting(relation_id=relation_id)# Zephyr-based model
+    
+    create_ensamble_train_and_dev_files_prompting_llama3(relation_id=relation_id)
     
     ### ==== Plotting the distribution of the number of queries in each bucket
     # plot_bucket_num()
@@ -1174,8 +1419,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--qg_model", type=str, required=True)
-    parser.add_argument("--ae_model", type=str, required=True)
+    # parser.add_argument("--qg_model", type=str, required=True)
+    # parser.add_argument("--ae_model", type=str, required=True)
     
     args = parser.parse_args()
     main(args)

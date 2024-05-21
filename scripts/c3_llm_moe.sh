@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=4:00:00
+#SBATCH --time=6:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -18,6 +18,7 @@ srun $HOME/RAGvsFT/component3_moe/llm_moe.py \
     --base_model_name "stable_lm2" \
     --retrieval_method "ideal" \
     --output_file_prefix "10_cot_llm" \
+    --chunk_index 10 \
     --seed 42
 
 
