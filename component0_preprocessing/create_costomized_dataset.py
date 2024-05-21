@@ -1073,7 +1073,7 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
             
             split_inputs = {k: v[i].to(accelerator.device) for k, v in inputs.items() if i < len(v)}
             with torch.no_grad():
-                outputs = model.generate(**split_inputs, max_length=50)
+                outputs = model.generate(**split_inputs, max_length=1024)
 
             for output in outputs:
                 generated_text = tokenizer.decode(output, skip_special_tokens=True)
