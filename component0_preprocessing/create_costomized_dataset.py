@@ -1036,8 +1036,9 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
     accelerator = Accelerator()
     print(f"# GPUs: {accelerator.num_processes}")
     
-    model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+    # model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
     # model_name = "HuggingFaceH4/zephyr-7b-beta"
+    model_name = "meta-llama/Llama-2-7b-chat-hf"
     # model_name = "meta-llama/Meta-Llama-3-8B"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(model_name)
@@ -1052,7 +1053,7 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
         
         Your Task:
         Generate question-answer pairs as mush as you can given the context.
-        Step 1: Identify spans that are likely to be answers to questions, identify as many as possible.
+        Step 1: Identify and list spans that are likely to be answers to questions, identify as many as possible.
         Step 2: For each identified span, generate a question.
         Step 3: Respond to the question. The answer must not exceed 2 words.
         Step 4: Output in JSON format following the example above (i.e., `{{...}}`).
