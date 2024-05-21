@@ -1096,7 +1096,8 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
     all_generated_texts = []
     for i in range(0, len(input_prompts), batch_size):
         
-        if i == 1:
+        print(f'Processing batch {i} ...')
+        if i > 1:
             break
         
         batch_prompts = input_prompts[i:i + batch_size]
