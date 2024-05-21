@@ -1038,7 +1038,8 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
     
     # model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
     # model_name = "HuggingFaceH4/zephyr-7b-beta"
-    model_name = "meta-llama/Llama-2-7b-chat-hf"
+    # model_name = "meta-llama/Llama-2-7b-chat-hf"
+    model_name = "stabilityai/stablelm-2-zephyr-1_6b"
     # model_name = "meta-llama/Meta-Llama-3-8B"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForCausalLM.from_pretrained(model_name)
