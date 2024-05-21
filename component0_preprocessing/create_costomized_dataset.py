@@ -174,14 +174,12 @@ os.makedirs(pr_dev_dir, exist_ok=True)
 os.makedirs(pr_qrels_train_dir, exist_ok=True)
 
 # === 3.3) QA Generation by prompting Llama3
-qa_llama3_train_dir = f"{output_dir}/qa_llama3/train" 
-qa_llama3_dev_dir = f"{output_dir}/qa_llama3/dev" 
-qa_llama3_qrels_train_dir = f"{output_dir}/qa_llama3/qrels-train" 
-
+qa_llama3_train1_dir = f"{output_dir}/qa_llama3/train1" 
+qa_llama3_train2_dir = f"{output_dir}/qa_llama3/train2"
 os.makedirs(f"{output_dir}/qa_llama3", exist_ok=True)
-os.makedirs(qa_llama3_train_dir, exist_ok=True)
-os.makedirs(qa_llama3_dev_dir, exist_ok=True)
-os.makedirs(qa_llama3_qrels_train_dir, exist_ok=True)
+os.makedirs(qa_llama3_train1_dir, exist_ok=True)
+os.makedirs(qa_llama3_train2_dir, exist_ok=True)
+ensamble_train_split = 0.3
 
 
 num_entities_per_relation = 20
@@ -1106,18 +1104,47 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
         generated_texts = process_batch(batch_prompts)
         all_generated_texts.extend(generated_texts)
         
+    query_id_counter = 0
+    all_qas = []
     delimiter = tokenizer.eos_token
     for idx, text in enumerate(all_generated_texts):
-        print(text)
-        print('\n')
         output_part = text.split(delimiter)[-1]
-        print(f"Generated output_part {idx + 1}: {output_part}")
-        print('\n')
-        
         qas = extract_json_objects(output_part)
-        print(qas)
-        print('\n')
         
+        if qas is not None:
+            for qa in qas:
+                if "question" in qa.keys() and "answer" in qa.keys():
+                    all_qas.append({
+                        'query_id': f"qa_{relation_id}_{query_id_counter}",
+                        'question': qa["question"],
+                        'answers': [qa["answer"]]
+                    })
+                    query_id_counter += 1
+                else:
+                    print("This QA object is missing either 'question' or 'answer' keys:", qa.keys())
+    
+    # Filtering step
+    pattern = r'context\W'
+    filtered_qas = [
+        qa for qa in all_qas 
+        if isinstance(qa["question"], str) and isinstance(qa["answers"], list) and
+            all(isinstance(answer, str) for answer in qa["answers"]) and
+            len(qa["question"].split()) >= 4 and
+            not re.search(pattern, qa["question"], re.IGNORECASE) and
+            not any(re.search(pattern, answer, re.IGNORECASE) for answer in qa["answers"])
+    ]  
+    
+    print(f"Total QAs: {len(all_qas)}")
+    random.shuffle(filtered_qas)
+    split_index = int(len(filtered_qas) * ensamble_train_split)
+    train1_qas = filtered_qas[split_index:]
+    train2_qas = filtered_qas[:split_index]
+    
+    with open(f'{qa_llama3_train1_dir}/{relation_id}.train1.json', 'w', encoding='utf-8') as tf:
+        json.dump(train1_qas, tf, indent=4)
+    
+    with open(f'{qa_llama3_train2_dir}/{relation_id}.train2.json', 'w', encoding='utf-8') as df:
+        json.dump(train2_qas, df, indent=4)
     
 
 
