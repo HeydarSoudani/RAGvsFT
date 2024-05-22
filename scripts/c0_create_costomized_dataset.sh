@@ -13,6 +13,6 @@ module load Python/3.10.4-GCCcore-11.3.0
 
 # pip install -r $HOME/RAGvsFT/component0_preprocessing/requirements.txt
 srun $HOME/RAGvsFT/component0_preprocessing/create_costomized_dataset.py \
-    --qg_model 'lmqg/t5-large-squad-qg' \
-    --ae_model 'lmqg/t5-large-squad-ae'
+    # --qg_model 'lmqg/t5-large-squad-qg' \
+    # --ae_model 'lmqg/t5-large-squad-ae'
 

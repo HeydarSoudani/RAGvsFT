@@ -28,6 +28,12 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 import nltk
 nltk.download('punkt')
 
+
+from huggingface_hub import HfApi, HfFolder, login
+hf_token = "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"
+login(token=hf_token)
+
+
 ### === Constants =====================  
 dataset_name = 'popQA' # [popQA, witQA, EQ]
 
@@ -1040,6 +1046,7 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
     # model_name = "stabilityai/stablelm-2-zephyr-1_6b"
     model_name = "meta-llama/Meta-Llama-3-8B-Instruct"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
+    tokenizer.pad_token = tokenizer.eos_token
     model = AutoModelForCausalLM.from_pretrained(model_name)
     model = accelerator.prepare(model)
     
