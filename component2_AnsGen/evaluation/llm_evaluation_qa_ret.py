@@ -145,7 +145,7 @@ def load_model(args):
 
 
 def main(args):
-    'analysis/on_false_results/compare_ft_wo_ft.json'
+    args.data_dir = f"component0_preprocessing/generated_data/{args.dataset_name}_costomized"
     
     set_seed(args.seed)
     prompt_template_w_context = """<User>\n Context: {context}\n Question: {question}\n <AI>"""
