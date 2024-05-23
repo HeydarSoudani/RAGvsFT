@@ -164,6 +164,14 @@ def main(args):
             with open (ret_results_path, 'r') as file:
                 ret_results.extend([json.loads(line) for line in file])
 
+    # == Loading the retrieval results (qa_pairs) ============
+    data_path = 'component0_preprocessing/generated_data/popQA_costomized/retrieved_qa_pairs/ideal/526.retrieved_qa_pairs.jsonl'
+    qa_pairs = {}
+    with open(data_path, 'r') as file:
+        for line in file:
+            data = json.loads(line.strip())
+            qa_pairs[data['query_id']] = data
+
     # === Load data ===
     relation_id = '526'
     relation_name = "Director"
@@ -202,8 +210,16 @@ def main(args):
                 print("No retrieved text found for query: {}, {}".format(query_id, query))
                 prompt = prompt_template_wo_context.format(question=query)                
             else:
-                prompt = prompt_template_w_context.format(context=retrieved_text, question=query)
-                has_context = True                  
+                
+                qa_pairs_data = qa_pairs[query_id]['relevant_train_questions']
+                qa_pairs_text = ""
+                if len(qa_pairs_data) > 0:
+                    for qa_pair in qa_pairs_data:
+                        qa_pairs_text += f"{qa_pair['question']} {qa_pair['answer'][0]}\n"
+                
+                retrieved_text += f"\n{qa_pairs_text}"
+                prompt = prompt_template_w_context.format(context=retrieved_text, question=query)        
+            
         else:
             prompt = prompt_template_wo_context.format(question=query)
         
@@ -211,6 +227,8 @@ def main(args):
         result = pipe(prompt)[0]['generated_text']
         pred = result.split("<AI>")[1].strip()
         print('\n')
+        print(f"Prompt: {prompt}")
+        print(f"Question: {query}")
         print(f"Prediction: {pred}")
      
 
