@@ -189,7 +189,7 @@ def main(args):
     
     for idx, test_item in enumerate(tqdm(test_data)):
         
-        if idx == 20:
+        if idx == 10:
             break
         
         query_id = test_item['query_id']
@@ -197,33 +197,33 @@ def main(args):
         
         retrieved_text = ""
         has_context = False
-        if args.with_rag:
+        if args.with_rag_corpus:
             for ret_result in ret_results:
                 if ret_result['id'] == query_id:
                     retrieved_text = truncate_text(ret_result['ctxs'][0]['text'], 490)
                     break
             if retrieved_text == "":
-                logging.info('\n')
-                logging.info(f"No retrieved text found for query: {query}") 
-                print('\n')
+                logging.info(f"\nNo retrieved text found for query: {query}") 
+                print("\nNo retrieved text found for query: {}, {}".format(query_id, query))
+                # prompt = prompt_template_wo_context.format(question=query)                
+            # else:
+            #     prompt = prompt_template_w_context.format(context=retrieved_text, question=query)
                 
-                print("No retrieved text found for query: {}, {}".format(query_id, query))
-                prompt = prompt_template_wo_context.format(question=query)                
-            else:
-                
-                qa_pairs_data = qa_pairs[query_id]['relevant_train_questions']
-                qa_pairs_text = ""
-                if len(qa_pairs_data) > 0:
-                    for qa_pair in qa_pairs_data:
-                        qa_pairs_text += f"{qa_pair['question']} {qa_pair['answers'][0]}\n"
-                
-                retrieved_text += f"\n{qa_pairs_text}"
-                prompt = prompt_template_w_context.format(context=retrieved_text, question=query)        
+        if args.with_rag_qa_pairs:
+            qa_pairs_data = qa_pairs[query_id]['relevant_train_questions']
+            qa_pairs_text = ""
+            if len(qa_pairs_data) > 0:
+                for qa_pair in qa_pairs_data:
+                    qa_pairs_text += f"{qa_pair['question']} {qa_pair['answers'][0]}\n"
             
-        else:
+            retrieved_text += f"\n{qa_pairs_text}"    
+           
+        if not (args.with_rag_corpus or args.with_rag_qa_pairs):
             prompt = prompt_template_wo_context.format(question=query)
-        
-
+        else:
+            prompt = prompt_template_w_context.format(context=retrieved_text, question=query)    
+            
+            
         result = pipe(prompt)[0]['generated_text']
         pred = result.split("<AI>")[1].strip()
         print('\n')
@@ -251,7 +251,8 @@ if __name__ == "__main__":
     parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--output_file_pre_prefix", type=str)
     parser.add_argument("--with_peft", type=str2bool, default=False)
-    parser.add_argument("--with_rag", type=str2bool, default=False)
+    parser.add_argument("--with_rag_corpus", type=str2bool, default=False)
+    parser.add_argument("--with_rag_qa_pairs", type=str2bool, default=False)
     parser.add_argument("--retrieval_method", type=str)
     parser.add_argument("--seed", type=int)
     
