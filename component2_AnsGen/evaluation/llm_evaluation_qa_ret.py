@@ -155,7 +155,7 @@ def main(args):
     test_relation_ids, test_files, relation_files = load_relations_data(args)
 
     # == Loading the retrieval results (corpus) ==============
-    if args.with_rag:
+    if args.with_rag_corpus:
         ret_results = []
         ret_results_dir = f"{args.data_dir}/retrieved/{args.retrieval_method}"
         
