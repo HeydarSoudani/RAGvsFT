@@ -215,7 +215,7 @@ def main(args):
                 qa_pairs_text = ""
                 if len(qa_pairs_data) > 0:
                     for qa_pair in qa_pairs_data:
-                        qa_pairs_text += f"{qa_pair['question']} {qa_pair['answer'][0]}\n"
+                        qa_pairs_text += f"{qa_pair['question']} {qa_pair['answers'][0]}\n"
                 
                 retrieved_text += f"\n{qa_pairs_text}"
                 prompt = prompt_template_w_context.format(context=retrieved_text, question=query)        
