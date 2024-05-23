@@ -175,7 +175,7 @@ def main(args):
     out_results_dir = f"{args.output_result_dir}/results"
     os.makedirs(out_results_dir, exist_ok=True)
     
-    rag_part = "rag" if args.with_rag else "norag"
+    rag_part = "rag" if (args.with_rag_corpus or args.with_rag_qa_pairs) else "norag"
     peft_part = "peft" if args.with_peft else "full"
     if args.with_rag:
         file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{args.retrieval_method}_{peft_part}"
@@ -188,7 +188,8 @@ def main(args):
         Model: {args.model_name_or_path}
         Dataset: {args.dataset_name}
         PEFT: {args.with_peft}
-        RAG: {args.with_rag}
+        RAG (corpus): {args.with_rag_corpus}
+        RAG (QA pairs): {args.with_rag_qa_pairs}
         Retrieval method: {args.retrieval_method}
         Output file's prefix: {file_prefix}
         Seed: {args.seed}
