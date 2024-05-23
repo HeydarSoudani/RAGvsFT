@@ -144,54 +144,56 @@ def get_relevant_qa_pairs():
     
     dataset = 'popQA'
     
-    relation_id = '526'
-    base_dir = f'component0_preprocessing/generated_data/{dataset}_costomized'
-    q_test = load_json(f'{base_dir}/test/{relation_id}.test.json')
-    qrel = load_json(f'{base_dir}/qrels_all/{relation_id}.qrels.json')
-    doc = load_json(f'{base_dir}/corpus_all/{relation_id}.corpus.json')
-    qrel_train = load_json(f'{base_dir}/prompting/qrels-train/{relation_id}.qrels-train.json')
-    q_train = load_json(f'{base_dir}/prompting/train/{relation_id}.train.json')
+    relation_ids = list(RELATIONS.keys())
+    for relation_id in relation_ids:
+    # relation_id = '526'
+        base_dir = f'component0_preprocessing/generated_data/{dataset}_costomized'
+        q_test = load_json(f'{base_dir}/test/{relation_id}.test.json')
+        qrel = load_json(f'{base_dir}/qrels_all/{relation_id}.qrels.json')
+        doc = load_json(f'{base_dir}/corpus_all/{relation_id}.corpus.json')
+        qrel_train = load_json(f'{base_dir}/prompting/qrels-train/{relation_id}.qrels-train.json')
+        q_train = load_json(f'{base_dir}/prompting/train/{relation_id}.train.json')
 
-    output_path = f"{base_dir}/retrieved_qa_pairs/ideal/{relation_id}.retrieved_qa_pairs.jsonl"
-    
-    os.makedirs(f'{base_dir}/retrieved_qa_pairs', exist_ok=True)
-    os.makedirs(f'{base_dir}/retrieved_qa_pairs/ideal', exist_ok=True)
-    
-    qrel_mapping = {}
-    for entry in qrel:
-        query_id = entry['query_id']
-        doc_id = entry['doc_id']
-        if query_id not in qrel_mapping:
-            qrel_mapping[query_id] = []
-        qrel_mapping[query_id].append(doc_id)
+        output_path = f"{base_dir}/retrieved_qa_pairs/ideal/{relation_id}.retrieved_qa_pairs.jsonl"
+        
+        os.makedirs(f'{base_dir}/retrieved_qa_pairs', exist_ok=True)
+        os.makedirs(f'{base_dir}/retrieved_qa_pairs/ideal', exist_ok=True)
+        
+        qrel_mapping = {}
+        for entry in qrel:
+            query_id = entry['query_id']
+            doc_id = entry['doc_id']
+            if query_id not in qrel_mapping:
+                qrel_mapping[query_id] = []
+            qrel_mapping[query_id].append(doc_id)
 
-    qrel_train_mapping = {}
-    for entry in qrel_train:
-        doc_id = entry['doc_id']
-        query_id = entry['query_id']
-        if doc_id not in qrel_train_mapping:
-            qrel_train_mapping[doc_id] = []
-        qrel_train_mapping[doc_id].append(query_id)
+        qrel_train_mapping = {}
+        for entry in qrel_train:
+            doc_id = entry['doc_id']
+            query_id = entry['query_id']
+            if doc_id not in qrel_train_mapping:
+                qrel_train_mapping[doc_id] = []
+            qrel_train_mapping[doc_id].append(query_id)
 
-    q_train_dict = {entry['query_id']: entry for entry in q_train}
+        q_train_dict = {entry['query_id']: entry for entry in q_train}
 
-    results = []
-    for test_query in q_test:
-        test_query_id = test_query['query_id']
-        relevant_docs = qrel_mapping.get(test_query_id, [])
-        relevant_train_queries = []
-        for doc_id in relevant_docs:
-            relevant_train_queries.extend(qrel_train_mapping.get(doc_id, []))
-        relevant_train_questions = [q_train_dict[query_id] for query_id in relevant_train_queries if query_id in q_train_dict]
-        results.append({
-            'query_id': test_query_id,
-            'question': test_query['question'],
-            'relevant_train_questions': relevant_train_questions
-        })
+        results = []
+        for test_query in q_test:
+            test_query_id = test_query['query_id']
+            relevant_docs = qrel_mapping.get(test_query_id, [])
+            relevant_train_queries = []
+            for doc_id in relevant_docs:
+                relevant_train_queries.extend(qrel_train_mapping.get(doc_id, []))
+            relevant_train_questions = [q_train_dict[query_id] for query_id in relevant_train_queries if query_id in q_train_dict]
+            results.append({
+                'query_id': test_query_id,
+                'question': test_query['question'],
+                'relevant_train_questions': relevant_train_questions
+            })
 
-    with open(output_path, 'w', encoding='utf-8') as outfile:
-        for result in results:
-            outfile.write(json.dumps(result) + '\n')
+        with open(output_path, 'w', encoding='utf-8') as outfile:
+            for result in results:
+                outfile.write(json.dumps(result) + '\n')
 
 
 def main():

@@ -20,7 +20,7 @@ os.environ["WANDB_MODE"] = "offline"
 print("Available GPUs:", torch.cuda.device_count())
 device = 'cuda:0'
 target_relation_ids = 'all'
-subset_percentage = 1.0
+subset_percentage = 0.1
 
 def set_seed(seed):
     torch.manual_seed(seed)
@@ -227,14 +227,27 @@ def main(args):
     test_questions, test_answers = load_dataset(test_files)
     
     # == Loading the retrieval results (corpus) ==============
-    if args.with_rag:
-        ret_results = []
+    if args.with_rag_corpus:
+        ret_results = {}
         ret_results_dir = f"{args.data_dir}/retrieved/{args.retrieval_method}"
         
         for test_relation_id in test_relation_ids:
             ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.ret_results.jsonl"
             with open (ret_results_path, 'r') as file:
-                ret_results.extend([json.loads(line) for line in file])
+                for line in file:
+                    data = json.loads(line.strip())
+                    ret_results[data['query_id']] = data
+    
+    # == Loading the retrieval results (qa_pairs) ============
+    if args.with_rag_qa_pairs:
+        ret_qa_results = {}
+        ret_results_dir = f"{args.data_dir}/retrieved_qa_pairs/{args.retrieval_method}"
+        for test_relation_id in test_relation_ids:
+            ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.retrieved_qa_pairs.jsonl"
+            with open (ret_results_path, 'r') as file:
+                for line in file:
+                    data = json.loads(line.strip())
+                    ret_qa_results[data['query_id']] = data
     
     # == Loop over the test questions ========================
     if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
@@ -258,28 +271,46 @@ def main(args):
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            # if idx == 30:
-            #     break
+            if idx == 30:
+                break
             
             retrieved_text = ""
             has_context = False
-            if args.with_rag:
-                for ret_result in ret_results:
-                    if ret_result['id'] == query_id:
-                        retrieved_text = truncate_text(ret_result['ctxs'][0]['text'], 490)
-                        break
+            if args.with_rag_corpus:
+                
+                retrieved_text = truncate_text(ret_results[query_id]['ctxs'][0]['text'], 490)
+                # for ret_result in ret_results:
+                #     if ret_result['id'] == query_id:
+                #         retrieved_text = truncate_text(ret_result['ctxs'][0]['text'], 490)
+                #         break
                 if retrieved_text == "":
-                    logging.info('\n')
-                    logging.info(f"No retrieved text found for query: {query}") 
-                    print('\n')
+                    logging.info(f"\nNo retrieved text found for query: {query}") 
+                    print("\nNo retrieved text found for query: {}, {}".format(query_id, query))
                     
-                    print("No retrieved text found for query: {}, {}".format(query_id, query))
-                    prompt = prompt_template_wo_context.format(question=query)                
-                else:
-                    prompt = prompt_template_w_context.format(context=retrieved_text, question=query)
-                    has_context = True                  
+                #     prompt = prompt_template_wo_context.format(question=query)                
+                # else:
+                #     prompt = prompt_template_w_context.format(context=retrieved_text, question=query)
+                #     has_context = True                  
+            
+            if args.with_rag_qa_pairs:
+                qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
+                qa_pairs_text = ""
+                if len(qa_pairs_data) > 0:
+                    for qa_pair in qa_pairs_data:
+                        qa_pairs_text += f"{qa_pair['question']} {qa_pair['answers'][0]}\n"
+                
+                retrieved_text += f"\n{qa_pairs_text}"
+            
+            if not (args.with_rag_corpus or args.with_rag_qa_pairs):
+                prompt = prompt_template_wo_context.format(question=query)
             else:
-                prompt = prompt_template_wo_context.format(question=query)                
+                has_context = True
+                prompt = prompt_template_w_context.format(context=retrieved_text, question=query)    
+            
+            # else:
+            #     prompt = prompt_template_wo_context.format(question=query)                
+                
+                
                     
             n_max_trial = 5
             for i in range(n_max_trial):
@@ -355,7 +386,8 @@ if __name__ == "__main__":
     parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--output_file_pre_prefix", type=str)
     parser.add_argument("--with_peft", type=str2bool, default=False)
-    parser.add_argument("--with_rag", type=str2bool, default=False)
+    parser.add_argument("--with_rag_corpus", type=str2bool, default=False)
+    parser.add_argument("--with_rag_qa_pairs", type=str2bool, default=False)
     parser.add_argument("--retrieval_method", type=str)
     parser.add_argument("--seed", type=int)
     
