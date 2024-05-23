@@ -1076,7 +1076,7 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
             chunks = split_text_to_sentences(context, max_tokens)
             input_prompts.extend([prompt_qa_generation(chunk) for chunk in chunks])
     
-    batch_size = 1
+    batch_size = 8
     def process_batch(batch_prompts):
         delimiter = tokenizer.eos_token
         batch_prompts_with_delimiter = [prompt + delimiter for prompt in batch_prompts]
@@ -1103,7 +1103,7 @@ def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
     for i in range(0, len(input_prompts), batch_size):
         
         print(f'Processing batch {i} ...')
-        if i > 1:
+        if i > 10:
             break
         
         batch_prompts = input_prompts[i:i + batch_size]
