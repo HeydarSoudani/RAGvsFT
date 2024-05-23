@@ -237,7 +237,7 @@ def main(args):
             with open (ret_results_path, 'r') as file:
                 for line in file:
                     data = json.loads(line.strip())
-                    ret_results[data['query_id']] = data
+                    ret_results[data['id']] = data
     
     # == Loading the retrieval results (qa_pairs) ============
     if args.with_rag_qa_pairs:
