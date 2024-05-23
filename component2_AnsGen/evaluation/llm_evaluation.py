@@ -244,7 +244,7 @@ def main(args):
         ret_qa_results = {}
         ret_results_dir = f"{args.data_dir}/retrieved_qa_pairs/{args.retrieval_method}"
         for test_relation_id in test_relation_ids:
-            ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.retrieved_qa_pairs.jsonl"
+            ret_results_path = f"{ret_results_dir}/{test_relation_id}.retrieved_qa_pairs.jsonl"
             with open (ret_results_path, 'r') as file:
                 for line in file:
                     data = json.loads(line.strip())
