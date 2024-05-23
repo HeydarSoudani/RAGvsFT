@@ -1032,7 +1032,6 @@ def create_train_and_dev_files_prompting(relation_id):
     with open(f'{pr_qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
         json.dump(qrels_train, qf, indent=4)
 
-
 def create_ensamble_train_and_dev_files_prompting_llama3(relation_id):
     # Multiple GPUs
     

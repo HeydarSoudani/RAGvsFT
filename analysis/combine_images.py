@@ -57,19 +57,20 @@ from PIL import Image, ImageDraw, ImageFont
 # === Fig 3 ===============
 def combine_labeled_images(directory, output_path):
     files = [f for f in os.listdir(directory) if f.endswith('.png')]
-    details = [(int(f.split('_')[0]), f.split('_')[1], f.split('_')[2].replace('.png', ''), f) for f in files]
-    
+    # details = [(f.split('_')[0]+f.split('_')[1], f.split('_')[2].replace('.png', ''), f) for f in files]
+    details = [(f.split('_')[0], f.split('_')[1].replace('.png', ''), f) for f in files]
+    # print(details)
     # models = sorted(set(detail[1] for detail in details))
     # datasets = sorted(set(detail[2] for detail in details))
-    models = ['flant5sm', 'flant5bs', 'flant5lg', 'flant5xl', 'flant5xxl']
-    # models = ['tinyllama', 'stablelm2', 'minicpm', 'llama2', 'mistral', 'zephyr']
-    datasets = ['popqa', 'witqa', 'eq']
+    # models = ['flant5sm', 'flant5bs', 'flant5lg', 'flant5xl', 'flant5xxl']
+    models = ['tinyllama', 'stablelm2', 'MiniCPM', 'llama2', 'mistral', 'zephyr']
+    datasets = ['popQA', 'witQA', 'EQ']
     
     num_rows = len(models)
     num_cols = len(datasets)
     
     image_dict = {}
-    for row, model, dataset, filename in details:
+    for model, dataset, filename in details:
         if model not in image_dict:
             image_dict[model] = {}
         image_dict[model][dataset] = Image.open(os.path.join(directory, filename))
@@ -111,7 +112,7 @@ def combine_labeled_images(directory, output_path):
     
 
 
-image_directory = 'analysis/images_results/3_answer_generator/flans'  # flans or llms
+image_directory = 'analysis/images_results/3_answer_generator/llms'  # flans or llms
 output_image_path = f'{image_directory}/combined_image.pdf'
 
 combine_labeled_images(image_directory, output_image_path)

@@ -226,7 +226,7 @@ def main(args):
     test_relation_ids, test_files, relation_files = load_relations_data(args)
     test_questions, test_answers = load_dataset(test_files)
     
-    # == Loading the retrieval results =======================
+    # == Loading the retrieval results (corpus) ==============
     if args.with_rag:
         ret_results = []
         ret_results_dir = f"{args.data_dir}/retrieved/{args.retrieval_method}"
