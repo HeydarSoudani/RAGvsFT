@@ -177,7 +177,7 @@ def main(args):
     
     rag_part = "rag" if (args.with_rag_corpus or args.with_rag_qa_pairs) else "norag"
     peft_part = "peft" if args.with_peft else "full"
-    if args.with_rag:
+    if (args.with_rag_corpus or args.with_rag_qa_pairs):
         file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{args.retrieval_method}_{peft_part}"
     else:
         file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{peft_part}"
