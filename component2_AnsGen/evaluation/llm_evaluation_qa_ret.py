@@ -181,7 +181,7 @@ def main(args):
     
     for idx, test_item in enumerate(tqdm(test_data)):
         
-        if idx == 10:
+        if idx == 20:
             break
         
         query_id = test_item['query_id']
@@ -210,6 +210,7 @@ def main(args):
 
         result = pipe(prompt)[0]['generated_text']
         pred = result.split("<AI>")[1].strip()
+        print('\n')
         print(f"Prediction: {pred}")
      
 
