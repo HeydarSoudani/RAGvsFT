@@ -18,7 +18,9 @@ srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
     --dataset_name "popQA" \
     --output_file_pre_prefix "sm_af_v1" \
     --with_peft True \
-    --with_rag True \
+    --with_rag_corpus True \
+    --with_rag_qa_pairs True \
+    --num_retrieved_passages 2 \
     --retrieval_method "ideal" \
     --seed 42
 

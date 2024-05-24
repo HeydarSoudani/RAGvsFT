@@ -3,10 +3,15 @@ import argparse
 
 
 def main(args):
-    dataset_name = "EQ" # popQA, witQA, EQ
-    retrieval_method = 'bm25' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
+    dataset_name = "popQA" # popQA, witQA, EQ
+    retrieval_method = 'ideal' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
+    number_of_passages = 3
     dataset_dir = f"component1_retrieval/data/{dataset_name}"
-    output_dir = f"component0_preprocessing/generated_data/{dataset_name}_costomized/retrieved/{retrieval_method}"
+    
+    if number_of_passages > 1:
+        output_dir = f"component0_preprocessing/generated_data/{dataset_name}_costomized/retrieved/{retrieval_method}_{number_of_passages}"
+    else:
+        output_dir = f"component0_preprocessing/generated_data/{dataset_name}_costomized/retrieved/{retrieval_method}"
     os.makedirs(output_dir, exist_ok=True)
     
     query_dir = f"{dataset_dir}/test"
@@ -23,7 +28,7 @@ def main(args):
         with open(corpus_file, 'r') as cf:
             for line in cf:
                 obj = json.loads(line)
-                corpus[obj['_id']] = obj['text']
+                corpus[obj['_id']] = obj
         return corpus
     
     def get_queries(relation_id):
@@ -51,6 +56,7 @@ def main(args):
 
             if filename.endswith('.json'):
                 relation_id = filename.split('.')[0]
+                print(f"Processing {relation_id}...")
                 queries = get_queries(relation_id)
                 gt_qrels = get_gt_qrels(relation_id)
                 
@@ -58,21 +64,50 @@ def main(args):
                 with open(output_file, 'w') as ofile:
                     
                     for item in queries:
+                        contexts = []
                         query_id = item["query_id"]
                         question = item["question"]
                         doc_id = list(gt_qrels[query_id].keys())[0]
-                        context = corpus.get(doc_id, "No context found")
+                        # context = corpus.get(doc_id, "No context found")
+                        first_context = corpus[doc_id]['text']
+                        contexts.append({
+                                "id": doc_id,
+                                "text": first_context,
+                                "hasanswer": True
+                            })
+                        
+                        if number_of_passages > 1:
+                            for i in range(1, number_of_passages):
+                                title_prefix = corpus[doc_id]['title'].split('_')[0]
+                                related_items = [
+                                    item for item in corpus.values()
+                                    if item["title"].startswith(title_prefix) and not item["title"].endswith("sum")
+                                ][:number_of_passages-1]
+                                
+                                for related_item in related_items:
+                                    doc_id = related_item['_id']
+                                    context = related_item['text']
+                                    contexts.append({
+                                        "id": doc_id,
+                                        "text": context,
+                                        "hasanswer": False
+                                    })
                         
                         # ======================            
                         combined_obj = {
                             "id": query_id,
                             "question": question,
-                            "ctxs": [{
-                                "id": doc_id,
-                                "text": context,
-                                "hasanswer": True
-                            }],
+                            "ctxs": contexts,
                         }
+                        # combined_obj = {
+                        #     "id": query_id,
+                        #     "question": question,
+                        #     "ctxs": [{
+                        #         "id": doc_id,
+                        #         "text": context,
+                        #         "hasanswer": True
+                        #     }],
+                        # }
                         ofile.write(json.dumps(combined_obj) + "\n")
     
     else:
@@ -95,7 +130,8 @@ def main(args):
                             for row in tsv_reader:
                                 ret_query_id, ret_doc_id = row[0], row[1]
                                 if query_id == ret_query_id:
-                                    context = corpus.get(ret_doc_id, "No context found")
+                                    # context = corpus.get(ret_doc_id, "No context found")
+                                    context = corpus[doc_id]['text']
                                     
                                     # === For hasanswer ====
                                     hasanswer = False

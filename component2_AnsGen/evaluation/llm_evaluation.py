@@ -221,6 +221,17 @@ def main(args):
     elif args.llm_model_name == "MiniCPM":
         prompt_template_w_context = """<User>\n Context: {context}\n Question: {question}\n <AI>"""
         prompt_template_wo_context = """<User>\n Question: {question}\n <AI>"""
+
+    # == Define maximum number of tokens ====================
+    # = Book 50 tokens for QA pairs
+    # = Book 20 tokens for input prompt
+    if args.llm_model_name in ["flant5", "stable_lm2", "MiniCPM"]:
+        max_input_tokens = 512
+    elif args.llm_model_name in ["tiny_llama"]:
+        max_input_tokens = 1024
+    elif args.llm_model_name in ["llama2", "mistral", "zephyr"]:
+        max_input_tokens = 2048
+    
     
     logging.info("Inferencing ...")
     model, tokenizer = load_model(args)
@@ -252,20 +263,20 @@ def main(args):
     
     # == Loop over the test questions ========================
     if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
-        max_new_tokens = 40
+        max_output_tokens = 40
         pipe = pipeline(
             task="text-generation",
             model=model,
             tokenizer=tokenizer,
-            max_new_tokens = max_new_tokens
+            max_new_tokens = max_output_tokens
         )
     elif args.llm_model_name == "flant5":
-        max_new_tokens = 20
+        max_output_tokens = 20
         pipe = pipeline( 
             "text2text-generation", 
             model=model, 
             tokenizer=tokenizer,
-            max_new_tokens = max_new_tokens
+            max_new_tokens = max_output_tokens
         ) 
         
     accuracy = []
@@ -278,20 +289,13 @@ def main(args):
             retrieved_text = ""
             has_context = False
             if args.with_rag_corpus:
-                
-                retrieved_text = truncate_text(ret_results[query_id]['ctxs'][0]['text'], 490)
-                # for ret_result in ret_results:
-                #     if ret_result['id'] == query_id:
-                #         retrieved_text = truncate_text(ret_result['ctxs'][0]['text'], 490)
-                #         break
+                max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
+                corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in args.num_retrieved_passages if i < len(ret_results[query_id]['ctxs']))
+                retrieved_text = truncate_text(corpus_text, max_token)
+
                 if retrieved_text == "":
                     logging.info(f"\nNo retrieved text found for query: {query}") 
-                    print("\nNo retrieved text found for query: {}, {}".format(query_id, query))
-                    
-                #     prompt = prompt_template_wo_context.format(question=query)                
-                # else:
-                #     prompt = prompt_template_w_context.format(context=retrieved_text, question=query)
-                #     has_context = True                  
+                    print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
             
             if args.with_rag_qa_pairs:
                 qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
@@ -307,10 +311,6 @@ def main(args):
             else:
                 has_context = True
                 prompt = prompt_template_w_context.format(context=retrieved_text, question=query)    
-            
-            # else:
-            #     prompt = prompt_template_wo_context.format(question=query)                
-                
                 
                     
             n_max_trial = 5
@@ -389,6 +389,7 @@ if __name__ == "__main__":
     parser.add_argument("--with_peft", type=str2bool, default=False)
     parser.add_argument("--with_rag_corpus", type=str2bool, default=False)
     parser.add_argument("--with_rag_qa_pairs", type=str2bool, default=False)
+    parser.add_argument("--num_retrieved_passages", type=int, default=1)
     parser.add_argument("--retrieval_method", type=str)
     parser.add_argument("--seed", type=int)
     
