@@ -338,22 +338,23 @@ def main(args):
             accuracy.append(is_correct)
             
             if idx < 10 or idx % 200 == 0:
-                # logging.info('\n')
-                # logging.info(f"Prompt: {prompt}")
-                # logging.info(f"Query: {query}")
-                # logging.info(f"Has context: {has_context}"),
-                # logging.info(f"Pred: {pred}")
-                # logging.info(f"Labels: {test_answers[idx]}")
-                # logging.info(f"Final decision: {is_correct}")
-                # logging.info('====')
-                print('\n')
-                print(f"Prompt: {prompt}")
-                print(f"Query: {query}")
-                print(f"Has context: {has_context}"),
-                print(f"Pred: {pred}")
-                print(f"Labels: {test_answers[idx]}")
-                print(f"Final decision: {is_correct}")
-                print('====')
+                logging.info('\n')
+                logging.info(f"Prompt: {prompt}")
+                logging.info(f"Query: {query}")
+                logging.info(f"Has context: {has_context}"),
+                logging.info(f"# context: {len(ret_results[query_id]['ctxs'])}"),
+                logging.info(f"Pred: {pred}")
+                logging.info(f"Labels: {test_answers[idx]}")
+                logging.info(f"Final decision: {is_correct}")
+                logging.info('====')
+            # print('\n')
+            # print(f"Prompt: {prompt}")
+            # print(f"Query: {query}")
+            # print(f"Has context: {has_context}"),
+            # print(f"Pred: {pred}")
+            # print(f"Labels: {test_answers[idx]}")
+            # print(f"Final decision: {is_correct}")
+            # print('====')
             
             item = {
                 "query_id": query_id,
