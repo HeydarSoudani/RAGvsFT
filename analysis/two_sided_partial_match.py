@@ -40,8 +40,8 @@ output_file = f"{output_dir}/{model_type}/{dataset_name}_{model_name}_{result_te
 os.makedirs(output_dir, exist_ok=True)
 os.makedirs(f"{output_dir}/{model_type}", exist_ok=True)
 
-input_file = 'analysis/on_false_results/popQA_flant5_2rags_bf_rag_ideal_full_results.jsonl'
-output_file = 'analysis/on_false_results/popQA_flant5_2rags_bf_rag_ideal_full_results_two_sided.jsonl'
+input_file = 'analysis/on_false_results/popQA_MiniCPM_1rag_2p_bf_rag_ideal_full_results.jsonl'
+output_file = 'analysis/on_false_results/popQA_MiniCPM_1rag_2p_bf_rag_ideal_full_results_two_sided.jsonl'
 
 
 def main():
