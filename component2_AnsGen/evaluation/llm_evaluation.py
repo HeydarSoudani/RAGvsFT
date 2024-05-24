@@ -290,7 +290,7 @@ def main(args):
             has_context = False
             if args.with_rag_corpus:
                 max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
-                corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in args.num_retrieved_passages if i < len(ret_results[query_id]['ctxs']))
+                corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
                 retrieved_text = truncate_text(corpus_text, max_token)
 
                 if retrieved_text == "":
