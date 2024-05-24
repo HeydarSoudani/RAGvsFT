@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=3:00:00
+#SBATCH --time=1:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -13,8 +13,8 @@ module load Python/3.10.4-GCCcore-11.3.0
 
 # pip install git+https://github.com/huggingface/transformers
 srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
-    --model_name_or_path "$HOME/RAGvsFT/component2_AnsGen/models/popQA/flant5_sm_popQA_peft_v62" \
-    --llm_model_name "flant5" \
+    --model_name_or_path "HuggingFaceH4/zephyr-7b-beta" \
+    --llm_model_name "zephyr" \
     --dataset_name "popQA" \
     --output_file_pre_prefix "sm_af_v1" \
     --with_peft True \
