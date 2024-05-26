@@ -209,6 +209,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--num_retrieved_passages", type=int, default=1)
     parser.add_argument("--dataset_name", type=str, required=True)
+    parser.add_argument("--retrieval_method", type=str, required=True)
     parser.add_argument("--seed", type=int)
     args = parser.parse_args()
     
