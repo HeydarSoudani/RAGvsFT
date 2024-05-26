@@ -115,8 +115,9 @@ def load_dataset(test_files):
 
 def summary_generation_for_retrieved_context(args):
     
-    output_file = f'component0_preprocessing/generated_data/{args.dataset_name}_costomized/highlight_results/all.jsonl'
-    os.makedirs(f'component0_preprocessing/generated_data/{args.dataset_name}_costomized/highlight_results', exist_ok=True)
+    args.data_dir = f"component0_preprocessing/generated_data/{args.dataset_name}_costomized"
+    output_file = f'{args.data_dir}/highlight_results/all.jsonl'
+    os.makedirs(f'{args.data_dir}/highlight_results', exist_ok=True)
     
     pipe = pipeline(
         "text-generation",
@@ -208,6 +209,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--num_retrieved_passages", type=int, default=1)
     parser.add_argument("--dataset_name", type=str, required=True)
+    parser.add_argument("--seed", type=int)
     args = parser.parse_args()
     
     summary_generation_for_retrieved_context(args)
