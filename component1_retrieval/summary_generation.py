@@ -167,15 +167,10 @@ def summary_generation_for_retrieved_context(args):
                 break
 
             retrieved_text = ""
-            has_context = False
             if args.with_rag_corpus:
                 max_token = max_input_tokens - 50
                 corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
                 retrieved_text = truncate_text(corpus_text, max_token)
-
-                if retrieved_text == "":
-                    logging.info(f"\nNo retrieved text found for query: {query}") 
-                    print("\nNo retrieved text found for query: {}, {}".format(query_id, query))
               
             if retrieved_text != "":
                 _prompt = [
@@ -189,6 +184,12 @@ def summary_generation_for_retrieved_context(args):
                 new_pt = new_pt.split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[1].strip()
                 new_pt = _extract_json_part(new_pt)
                 
+                print('\n')
+                print(f"Prompt: {prompt}")
+                print(f"Query: {query}")
+                print(f"Highlighted text: {new_pt["sentences"]}"),
+                print('====')
+                
                 item = {
                     "query_id": query_id,
                     "question": query,
@@ -196,6 +197,10 @@ def summary_generation_for_retrieved_context(args):
                     "highlighted_text": new_pt["sentences"],
                 }
                 file.write(json.dumps(item) + '\n')
+            
+            else:
+                logging.info(f"\nNo retrieved text found for query: {query}") 
+                print("\nNo retrieved text found for query: {}, {}".format(query_id, query))
 
 
 
