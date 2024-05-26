@@ -104,6 +104,18 @@ def finetuning_diff():
     wo_ft_file = 'component0_preprocessing/generated_data/popQA_costomized/results_two_side/slms/popQA_MiniCPM_bf_rag_ideal_full_results.jsonl'
     output_file = 'analysis/on_false_results/compare_ft_wo_ft.json'
     
+    # === Load retrieved pasage
+    ret_results = {}
+    ret_results_dir = "component0_preprocessing/generated_data/popQA_costomized/retrieved/ideal"
+    for filename in os.listdir(ret_results_dir):
+        if filename.endswith('.jsonl'):
+            file_path = os.path.join(ret_results_dir, filename)
+            print(f"Processing file: {file_path}")
+            with open (file_path, 'r') as file:
+                for line in file:
+                    data = json.loads(line.strip())
+                    ret_results[data['id']] = data
+    
     with open(w_ft_file, 'r') as file:
         lines = file.readlines()
     w_ft_data = [json.loads(line.strip()) for line in lines]
@@ -126,6 +138,7 @@ def finetuning_diff():
                 'question': item['question'],
                 'possible_answers': item['possible_answers'],
                 'pageviews': item['pageviews'],
+                'ret_context': ret_results[item['query_id']]['ctxs'][0]['text'],
                 'ft_pred': item['pred'],
                 'wo_ft_pred': wo_ft_dict[item['query_id']]['pred'],
             })
@@ -199,8 +212,8 @@ def get_relevant_qa_pairs():
 def main():
     # incorrect_per_relation()
     # write_incorrect_data_per_relation()
-    # finetuning_diff()
-    get_relevant_qa_pairs()
+    finetuning_diff()
+    # get_relevant_qa_pairs()
 
 
 if __name__ == '__main__':

@@ -288,14 +288,6 @@ def main(args):
             
             retrieved_text = ""
             has_context = False
-            if args.with_rag_corpus:
-                max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
-                corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
-                retrieved_text = truncate_text(corpus_text, max_token)
-
-                if retrieved_text == "":
-                    logging.info(f"\nNo retrieved text found for query: {query}") 
-                    print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
             
             if args.with_rag_qa_pairs:
                 qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
@@ -305,6 +297,15 @@ def main(args):
                         qa_pairs_text += f"{qa_pair['question']} {qa_pair['answers'][0]}\n"
                 
                 retrieved_text += f"\n{qa_pairs_text}"
+            
+            if args.with_rag_corpus:
+                max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
+                corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
+                retrieved_text = truncate_text(corpus_text, max_token)
+
+                if retrieved_text == "":
+                    logging.info(f"\nNo retrieved text found for query: {query}") 
+                    print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
             
             if not (args.with_rag_corpus or args.with_rag_qa_pairs):
                 prompt = prompt_template_wo_context.format(question=query)

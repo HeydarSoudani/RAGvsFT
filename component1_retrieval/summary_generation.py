@@ -7,7 +7,10 @@ import random
 import logging
 import argparse
 import numpy as np
+from tqdm import tqdm
 from transformers import pipeline
+from transformers import AutoTokenizer
+
 
 logging.basicConfig(level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -19,6 +22,15 @@ os.environ["WANDB_MODE"] = "offline"
 target_relation_ids = 'all'
 subset_percentage = 0.1
 
+truncate_text_tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
+def truncate_text(text, max_tokens):
+    tokens = truncate_text_tokenizer.tokenize(text)
+    if len(tokens) > max_tokens:
+        tokens = tokens[:max_tokens]
+    
+    truncated_text = truncate_text_tokenizer.convert_tokens_to_string(tokens)
+    return truncated_text
+
 def set_seed(seed):
     torch.manual_seed(seed)
     if torch.cuda.is_available():
@@ -28,7 +40,6 @@ def set_seed(seed):
     os.environ['PYTHONHASHSEED'] = str(seed)
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
-
 
 def load_json_file(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
@@ -92,7 +103,6 @@ def load_dataset(test_files):
     return test_questions, test_answers
 
 
-
 def summary_generation_for_retrieved_context(args):
     pipe = pipeline(
         "text-generation",
@@ -100,9 +110,28 @@ def summary_generation_for_retrieved_context(args):
         torch_dtype=torch.bfloat16,
         device_map="auto"
     )
+    max_input_tokens = 2048
     
     test_relation_ids, test_files, relation_files = load_relations_data(args)
     test_questions, test_answers = load_dataset(test_files)
+    
+    # === Prompt Definition ===
+    prompt_summary_generation = lambda context: f"""
+        Example output: {{“question”: “”, “answer”: ""}}
+        
+        Question: You are a question-answer generator. Your goal is to generate question-answer pairs given the context.
+    
+        Context: {context}
+        
+        Your Task:
+        Generate question-answer pairs as mush as you can given the context.
+        Step 1: Identify and list spans that are likely to be answers to questions, identify as many as possible.
+        Step 2: For each identified span, generate a question.
+        Step 3: Respond to the question. The answer must not exceed 2 words.
+        Step 4: Output in JSON format following the example above (i.e., `{{...}}`).
+        Ensure that you distinctly label and delineate Steps 1, 2, 3, and 4. Let's think step by step:
+    """.replace('    ', '')
+    
     
     # === Retrieved context ===
     ret_results = {}
@@ -115,10 +144,26 @@ def summary_generation_for_retrieved_context(args):
                 data = json.loads(line.strip())
                 ret_results[data['id']] = data
     
+    
+    with open(out_results_path, 'w') as file:
+        for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
+
+            retrieved_text = ""
+            has_context = False
+            if args.with_rag_corpus:
+                max_token = max_input_tokens - 50
+                corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
+                retrieved_text = truncate_text(corpus_text, max_token)
+
+                if retrieved_text == "":
+                    logging.info(f"\nNo retrieved text found for query: {query}") 
+                    print("\nNo retrieved text found for query: {}, {}".format(query_id, query))
+
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
+    parser.add_argument("--num_retrieved_passages", type=int, default=1)
     args = parser.parse_args()
     
     summary_generation_for_retrieved_context(args)
