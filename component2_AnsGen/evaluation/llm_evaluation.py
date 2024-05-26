@@ -165,6 +165,30 @@ def load_model(args):
     
     return model, tokenizer
 
+def one_sided_partial_match(pred, possible_answers):
+    is_correct = False
+    for pa in possible_answers:
+            if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
+                is_correct = True
+    
+    return is_correct
+
+def two_sided_partial_match(pred, possible_answers):
+    is_correct = False
+    for pa in possible_answers:
+        if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
+            is_correct = True
+            break
+        
+    pred_parts = pred.split()
+    for pa in possible_answers:
+        for part in pred_parts:
+            if part in pa or part.lower() in pa or part.capitalize() in pa:
+                is_correct = True
+                break  
+            
+    return is_correct
+
 def main(args):
     
     # == Create data & output dir ===========================
@@ -296,12 +320,12 @@ def main(args):
                     for qa_pair in qa_pairs_data:
                         qa_pairs_text += f"{qa_pair['question']} {qa_pair['answers'][0]}\n"
                 
-                retrieved_text += f"\n{qa_pairs_text}"
+                retrieved_text += f"\n{qa_pairs_text}\n"
             
             if args.with_rag_corpus:
                 max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
                 corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
-                retrieved_text = truncate_text(corpus_text, max_token)
+                retrieved_text += truncate_text(corpus_text, max_token)
 
                 if retrieved_text == "":
                     logging.info(f"\nNo retrieved text found for query: {query}") 
@@ -331,11 +355,9 @@ def main(args):
                 pred = result.split("<|assistant|>")[1].strip()
             elif args.llm_model_name == 'MiniCPM':
                 pred = result.split("<AI>")[1].strip()
-            
-            is_correct = False
-            for pa in test_answers[idx]:
-                    if pa in pred or pa.lower() in pred or pa.capitalize() in pred:
-                        is_correct = True
+               
+            # is_correct = one_sided_partial_match(pred, test_answers[idx])         
+            is_correct = two_sided_partial_match(pred, test_answers[idx])
             accuracy.append(is_correct)
             
             if idx < 10 or idx % 200 == 0:
