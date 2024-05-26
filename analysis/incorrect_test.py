@@ -2,58 +2,58 @@ import json, os
 import pandas as pd
 import matplotlib.pyplot as plt
 
-RELATIONS = {
-    '22': 'Occupation',
-    '91': 'Genre',
-    '97': 'Capital of',
-    '106': 'Religion',
-    '164': 'Producer',
-    '182': 'Country',
-    '218': 'Place of birth',
-    '257': 'Father',
-    '292': 'Mother',
-    '422': 'Capital',
-    '472': 'Color',
-    '484': 'Author',
-    '526': 'Director',
-    '533': 'Screenwriter',
-    '560': 'Sport',
-    '639': 'Composer'
-}
 # RELATIONS = {
-#     '17': 'country',
-#     '19': 'place of birth',
-#     '22': 'father',
-#     '25': 'mother',
-#     '27': 'country of citizenship',
-#     '36': 'capital',
-#     '50': 'author',
-#     '57': 'director',
-#     '58': 'screenwriter',
-#     '69': 'educated at',
-#     '86': 'composer',
-#     '106': 'occupation',
-#     '123': 'publisher',
-#     '136': 'genre',
-#     '140': 'religion',
-#     '149': 'architectural style',
-#     '162': 'producer',
-#     '184': 'doctoral advisor',
-#     '344': 'director of photography',
-#     '452': 'industry',
-#     '462': 'color',
-#     '641': 'sport',
-#     '674': 'characters',
-#     '1038': 'relative',
-#     '1050': 'medical condition',
-#     '1376': 'capital of',
-#     '1431': 'executive producer',
-#     '1433': 'published in',
-#     '2012': 'cuisine',
-#     '2936': 'language used',
-#     '3301': 'broadcast by',
-#     '4647': 'location of first performance'
+#     '22': 'Occupation',
+#     '91': 'Genre',
+#     '97': 'Capital of',
+#     '106': 'Religion',
+#     '164': 'Producer',
+#     '182': 'Country',
+#     '218': 'Place of birth',
+#     '257': 'Father',
+#     '292': 'Mother',
+#     '422': 'Capital',
+#     '472': 'Color',
+#     '484': 'Author',
+#     '526': 'Director',
+#     '533': 'Screenwriter',
+#     '560': 'Sport',
+#     '639': 'Composer'
 # }
+RELATIONS = {
+    '17': 'country',
+    '19': 'place of birth',
+    '22': 'father',
+    '25': 'mother',
+    '27': 'country of citizenship',
+    '36': 'capital',
+    '50': 'author',
+    '57': 'director',
+    '58': 'screenwriter',
+    '69': 'educated at',
+    '86': 'composer',
+    '106': 'occupation',
+    '123': 'publisher',
+    '136': 'genre',
+    '140': 'religion',
+    '149': 'architectural style',
+    '162': 'producer',
+    '184': 'doctoral advisor',
+    '344': 'director of photography',
+    '452': 'industry',
+    '462': 'color',
+    '641': 'sport',
+    '674': 'characters',
+    '1038': 'relative',
+    '1050': 'medical condition',
+    '1376': 'capital of',
+    '1431': 'executive producer',
+    '1433': 'published in',
+    '2012': 'cuisine',
+    '2936': 'language used',
+    '3301': 'broadcast by',
+    '4647': 'location of first performance'
+}
 
 def incorrect_per_relation():
     # file_path = 'component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_rag_ideal_peft_results.jsonl'
@@ -155,7 +155,7 @@ def get_relevant_qa_pairs():
             return json.load(file)
 
     
-    dataset = 'popQA'
+    dataset = 'witQA'
     
     relation_ids = list(RELATIONS.keys())
     for relation_id in relation_ids:
@@ -212,8 +212,8 @@ def get_relevant_qa_pairs():
 def main():
     # incorrect_per_relation()
     # write_incorrect_data_per_relation()
-    finetuning_diff()
-    # get_relevant_qa_pairs()
+    # finetuning_diff()
+    get_relevant_qa_pairs()
 
 
 if __name__ == '__main__':
