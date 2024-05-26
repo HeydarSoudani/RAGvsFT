@@ -168,10 +168,9 @@ def summary_generation_for_retrieved_context(args):
                 break
 
             retrieved_text = ""
-            if args.with_rag_corpus:
-                max_token = max_input_tokens - 50
-                corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
-                retrieved_text = truncate_text(corpus_text, max_token)
+            max_token = max_input_tokens - 50
+            corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
+            retrieved_text = truncate_text(corpus_text, max_token)
               
             if retrieved_text != "":
                 _prompt = [
