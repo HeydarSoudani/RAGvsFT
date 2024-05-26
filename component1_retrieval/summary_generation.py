@@ -163,6 +163,9 @@ def summary_generation_for_retrieved_context(args):
     with open(output_file, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
 
+            if idx == 10:
+                break
+
             retrieved_text = ""
             has_context = False
             if args.with_rag_corpus:
