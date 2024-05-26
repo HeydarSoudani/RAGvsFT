@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import re
 import os
 import json
 import torch
@@ -21,6 +22,16 @@ os.environ["WANDB_MODE"] = "offline"
 
 target_relation_ids = 'all'
 subset_percentage = 0.1
+
+def _extract_json_part(new_pt):
+    """Extract the last PT from the user's response
+    E.g., "Output: [first] (some text) [second] (more text)" --> "[second]"
+    """
+    new_pt = re.sub(r'\n+', ' ', new_pt).strip()
+    matches = re.findall(r'(\{.*?\})', new_pt) # The latter part handle the case '{"text": "The user has no allergies", "preference_name": "allergies", "turn_number": 2}'
+    new_pt = matches[-1] if matches else ''
+
+    return new_pt
 
 truncate_text_tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
 def truncate_text(text, max_tokens):
@@ -102,11 +113,14 @@ def load_dataset(test_files):
     # print("Test dataset is loaded.")
     return test_questions, test_answers
 
-
 def summary_generation_for_retrieved_context(args):
+    
+    output_file = f'component0_preprocessing/generated_data/{args.dataset_name}_costomized/highlight_results/all.jsonl'
+    os.makedirs(f'component0_preprocessing/generated_data/{args.dataset_name}_costomized/highlight_results', exist_ok=True)
+    
     pipe = pipeline(
         "text-generation",
-        model="HuggingFaceH4/zephyr-7b-beta",
+        model="meta-llama/Meta-Llama-3-8B-Instruct",
         torch_dtype=torch.bfloat16,
         device_map="auto"
     )
@@ -116,20 +130,21 @@ def summary_generation_for_retrieved_context(args):
     test_questions, test_answers = load_dataset(test_files)
     
     # === Prompt Definition ===
-    prompt_summary_generation = lambda context: f"""
-        Example output: {{“question”: “”, “answer”: ""}}
-        
-        Question: You are a question-answer generator. Your goal is to generate question-answer pairs given the context.
-    
-        Context: {context}
-        
-        Your Task:
-        Generate question-answer pairs as mush as you can given the context.
-        Step 1: Identify and list spans that are likely to be answers to questions, identify as many as possible.
-        Step 2: For each identified span, generate a question.
-        Step 3: Respond to the question. The answer must not exceed 2 words.
-        Step 4: Output in JSON format following the example above (i.e., `{{...}}`).
-        Ensure that you distinctly label and delineate Steps 1, 2, 3, and 4. Let's think step by step:
+    prompt_highlight_generation = lambda query, context: f"""
+        Example output: {{“sentences”: []}}
+        I will give you a query and a passage. You should find the most relevant sentences from the passage to answer the query.
+
+        Relations: Occupation, Genre, Capital of, Religion, Producer, Country, Place of birth, Father, Mother, Capital, Color, Author, Director, Screenwriter, Sport, Composer
+
+        Query: {query}
+
+        Passage: {context}
+
+        Your Task: Extract sentences that possibly contain answer for the question.
+        Step 1: Categorize the type of query in the relations mentioned. Specify which relation the query is about.
+        Step 2: Based on the query and its relation, extract sentences that contain information about the query answer.
+        Step 3: Output in JSON format following the example above (i.e., `{{...}}`).
+        Ensure that you distinctly label and delineate Steps 1, 2, and 3. Let's think step by step:
     """.replace('    ', '')
     
     
@@ -145,7 +160,7 @@ def summary_generation_for_retrieved_context(args):
                 ret_results[data['id']] = data
     
     
-    with open(out_results_path, 'w') as file:
+    with open(output_file, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
 
             retrieved_text = ""
@@ -158,12 +173,33 @@ def summary_generation_for_retrieved_context(args):
                 if retrieved_text == "":
                     logging.info(f"\nNo retrieved text found for query: {query}") 
                     print("\nNo retrieved text found for query: {}, {}".format(query_id, query))
+              
+            if retrieved_text != "":
+                _prompt = [
+                    { "role": "system", "content": ""},
+                    { "role": "user", "content": prompt_highlight_generation(query=query, context=retrieved_text)}
+                ]
+                prompt = pipe.tokenizer.apply_chat_template(_prompt, tokenize=False, add_generation_prompt=True)
+                
+                outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
+                new_pt = outputs[0]["generated_text"]
+                new_pt = new_pt.split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[1].strip()
+                new_pt = _extract_json_part(new_pt)
+                
+                item = {
+                    "query_id": query_id,
+                    "question": query,
+                    "pageviews": query_pv,
+                    "highlighted_text": new_pt["sentences"],
+                }
+                file.write(json.dumps(item) + '\n')
 
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--num_retrieved_passages", type=int, default=1)
+    parser.add_argument("--dataset_name", type=str, required=True)
     args = parser.parse_args()
     
     summary_generation_for_retrieved_context(args)
