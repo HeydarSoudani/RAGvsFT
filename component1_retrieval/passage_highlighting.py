@@ -187,7 +187,7 @@ def summary_generation_for_retrieved_context(args):
                 print('\n')
                 print(f"Prompt: {prompt}")
                 print(f"Query: {query}")
-                print({new_pt["sentences"]}),
+                print(f"highlighted passage: {''.join(new_pt["sentences"])}"),
                 print('====')
                 
                 item = {
