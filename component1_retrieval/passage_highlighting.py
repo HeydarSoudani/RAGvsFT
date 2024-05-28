@@ -353,7 +353,7 @@ if __name__ == '__main__':
     parser.add_argument("--llm_model_name", type=str, required=True)
     parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--num_retrieved_passages", type=int, default=1)
-    parser.add_argument("--passage_concatenation", type=str, default="concatenate", options=["concatenate", "separate"])
+    parser.add_argument("--passage_concatenation", type=str, default="concatenate", choices=["concatenate", "separate"])
     parser.add_argument("--retrieval_method", type=str, required=True)
     parser.add_argument("--seed", type=int)
     args = parser.parse_args()
