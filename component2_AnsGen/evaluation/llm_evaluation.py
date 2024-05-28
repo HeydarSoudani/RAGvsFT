@@ -279,7 +279,7 @@ def main(args):
     # == Loading highligted passages =========================
     qa_list = []
     highlight_results = {}
-    highlight_results_file = f'{args.data_dir}/retrieved_highlight/all_dpr_3.jsonl'
+    highlight_results_file = f'{args.data_dir}/retrieved_highlight/all_dpr_3_out.jsonl'
     with open (highlight_results_file, 'r') as file:
         for line in file:
             data = json.loads(line.strip())

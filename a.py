@@ -3,9 +3,8 @@ import ast
 import re
 
 # Define the input and output file paths
-input_file_path = 'component0_preprocessing/generated_data/popQA_costomized/retrieved_highlight/all.jsonl'
-output_file_path = 'component0_preprocessing/generated_data/popQA_costomized/retrieved_highlight/all_out.jsonl'
-
+input_file_path = 'component0_preprocessing/generated_data/popQA_costomized/retrieved_highlight/all_dpr_3.jsonl'
+output_file_path = 'component0_preprocessing/generated_data/popQA_costomized/retrieved_highlight/all_dpr_3_out.jsonl'
 
 # Function to safely convert the highlighted_text field to a dictionary
 def safe_convert_highlighted_text(highlighted_text_str):
