@@ -352,10 +352,11 @@ def main(args):
                 # == Apply retrieved corpus text =================
                 # if retrieved_text == "":
                 if args.with_rag_corpus:
-                    max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
-                    corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
-                    retrieved_text += f"{truncate_text(corpus_text, max_token)}\n"
-                    has_context = True
+                    if not has_context:
+                        max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
+                        corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
+                        retrieved_text += f"{truncate_text(corpus_text, max_token)}\n"
+                        has_context = True
 
                     if retrieved_text == "":
                         logging.info(f"\nNo retrieved text found for query: {query}") 
