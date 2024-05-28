@@ -317,9 +317,11 @@ def main(args):
         
     accuracy = []
     with open(out_results_path, 'w') as file:
+        highlight_idx = 0
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
             if query_id in qa_list:
+                highlight_idx += 1
                 retrieved_text = ""
                 has_context = False
                 
@@ -386,7 +388,8 @@ def main(args):
                 is_correct = two_sided_partial_match(pred, test_answers[idx])
                 accuracy.append(is_correct)
                 
-                if idx < 10 or idx % 200 == 0:
+                if highlight_idx < 10 or highlight_idx % 200 == 0:
+                # if idx < 10 or idx % 200 == 0:
                     # logging.info('\n')
                     # logging.info(f"Prompt: {prompt}")
                     # logging.info(f"Query: {query}")
