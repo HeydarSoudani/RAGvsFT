@@ -277,12 +277,11 @@ def main(args):
     
     # == Loading highligted passages =========================
     highlight_results = {}
-    highlight_results_file = f'{args.data_dir}/highlight_results/all.jsonl'
+    highlight_results_file = f'{args.data_dir}/retrieved_highlight/all.jsonl'
     with open (highlight_results_file, 'r') as file:
         for line in file:
             data = json.loads(line.strip())
             highlight_results[data['query_id']] = data
-    
     
     # == Loading the retrieval results (qa_pairs) ============
     if args.with_rag_qa_pairs:
@@ -317,13 +316,15 @@ def main(args):
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            # if idx == 30:
-            #     break
+            if idx == 30:
+                break
             
             retrieved_text = ""
             has_context = False
             
-            highlight_results[query_id] 
+            highlighted_text = json.loads(highlight_results[query_id])
+            if len(highlighted_text['sentence']) != 0:
+                retrieved_text += f"\n{' '.join(highlighted_text['sentence'])}\n"
             
             if args.with_rag_qa_pairs:
                 qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
