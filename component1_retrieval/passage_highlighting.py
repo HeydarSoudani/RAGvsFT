@@ -167,7 +167,7 @@ def main(args):
     
     # === Prompt Definition ===
     prompt_highlight_generation = lambda query, context: f"""
-        Example output: {{“sentences”: []}}
+        Example output: {{"relation": "",“sentences”: []}}
         I will give you a query and a passage. You should find the most relevant sentences from the passage to answer the query.
 
         Relations: Occupation, Genre, Capital of, Religion, Producer, Country, Place of birth, Father, Mother, Capital, Color, Author, Director, Screenwriter, Sport, Composer
@@ -237,7 +237,7 @@ def main(args):
     with open(output_file, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
 
-            if idx == 10:
+            if idx == 5:
                 break
 
             retrieved_text = ""
@@ -263,9 +263,9 @@ def main(args):
                 elif args.llm_model_name in ['llama3']:
                     pred = result.split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[1].strip()
                 
-                print(pred)
+                # print(pred)
                 pred = _extract_json_part(pred)
-                print(pred)
+                # print(pred)
                 
                 print('\n')
                 print(f"Prompt: {prompt}")
