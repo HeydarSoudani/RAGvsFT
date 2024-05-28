@@ -153,7 +153,7 @@ def main(args):
     args.data_dir = f"component0_preprocessing/generated_data/{args.dataset_name}_costomized"
     
     # == Create results dir and file ========================
-    output_file = f'{args.data_dir}/highlight_results/all.jsonl'
+    output_file = f'{args.data_dir}/highlight_results/all_{args.retrieval_method}.jsonl'
     os.makedirs(f'{args.data_dir}/highlight_results', exist_ok=True)
     
     logging.info(f"""
@@ -207,7 +207,7 @@ def main(args):
 
     # === Retrieved context =================================
     ret_results = {}
-    ret_results_dir = f"{args.data_dir}/retrieved/{args.retrieval_method}_3"
+    ret_results_dir = f"{args.data_dir}/retrieved_passage/{args.retrieval_method}_3"
     
     for test_relation_id in test_relation_ids:
         ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.ret_results.jsonl"

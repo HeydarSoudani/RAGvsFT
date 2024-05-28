@@ -15,8 +15,8 @@ srun $HOME/RAGvsFT/component1_retrieval/passage_highlighting.py \
     --model_name_or_path "meta-llama/Meta-Llama-3-8B-Instruct" \
     --llm_model_name "llama3" \
     --dataset_name 'popQA' \
-    --num_retrieved_passages 1 \
-    --retrieval_method "ideal" \
+    --num_retrieved_passages 3 \
+    --retrieval_method "dpr" \
     --seed 42
 
 
