@@ -256,7 +256,14 @@ def main(args):
                 
                 prompt = prompt_template.format(context=prompt_highlight_generation(query=query, context=retrieved_text))
                 
-                result = pipe(prompt, max_new_tokens=1024)[0]['generated_text']
+                n_max_trial = 5
+                for i in range(n_max_trial):
+                    try:
+                        result = pipe(prompt, max_new_tokens=1024)[0]['generated_text']
+                        break
+                    except Exception as e:
+                        print(f"Try #{i+1} for Query: {query_id}")
+                        print('Error message:', e)
                 
                 if args.llm_model_name in ['zephyr']:
                     pred = result.split("<|assistant|>")[1].strip()

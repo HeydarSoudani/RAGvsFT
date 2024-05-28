@@ -275,6 +275,15 @@ def main(args):
                     data = json.loads(line.strip())
                     ret_results[data['id']] = data
     
+    # == Loading highligted passages =========================
+    highlight_results = {}
+    highlight_results_file = f'{args.data_dir}/highlight_results/all.jsonl'
+    with open (highlight_results_file, 'r') as file:
+        for line in file:
+            data = json.loads(line.strip())
+            highlight_results[data['query_id']] = data
+    
+    
     # == Loading the retrieval results (qa_pairs) ============
     if args.with_rag_qa_pairs:
         ret_qa_results = {}
