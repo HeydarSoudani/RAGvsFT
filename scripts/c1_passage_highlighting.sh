@@ -16,6 +16,7 @@ srun $HOME/RAGvsFT/component1_retrieval/passage_highlighting.py \
     --llm_model_name "llama3" \
     --dataset_name 'popQA' \
     --num_retrieved_passages 3 \
+    --passage_concatenation "separate" \
     --retrieval_method "dpr" \
     --seed 42
 
@@ -33,4 +34,6 @@ srun $HOME/RAGvsFT/component1_retrieval/passage_highlighting.py \
     # llama3: "meta-llama/Meta-Llama-3-8B-Instruct"
     
 # ]
+
+
 

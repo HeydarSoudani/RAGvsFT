@@ -242,62 +242,105 @@ def main(args):
 
             retrieved_text = ""
             max_token = max_input_tokens - 50
-            corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
-            retrieved_text = truncate_text(corpus_text, max_token)
-              
-            if retrieved_text != "":
-                # _prompt = [
-                #     { "role": "system", "content": ""},
-                #     { "role": "user", "content": prompt_highlight_generation(query=query, context=retrieved_text)}
-                # ]
-                # prompt = pipe.tokenizer.apply_chat_template(_prompt, tokenize=False, add_generation_prompt=True)
-                # outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
-                # new_pt = outputs[0]["generated_text"]
+            
+            if args.passage_concatenation == "concatenate":
+                corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
+                retrieved_text = truncate_text(corpus_text, max_token)  
+                if retrieved_text != "":
+                    prompt = prompt_template.format(context=prompt_highlight_generation(query=query, context=retrieved_text))
+                    n_max_trial = 5
+                    for i in range(n_max_trial):
+                        try:
+                            result = pipe(prompt, max_new_tokens=1024)[0]['generated_text']
+                            break
+                        except Exception as e:
+                            print(f"Try #{i+1} for Query: {query_id}")
+                            print('Error message:', e)
+                    
+                    if args.llm_model_name in ['zephyr']:
+                        pred = result.split("<|assistant|>")[1].strip()
+                    elif args.llm_model_name in ['llama3']:
+                        pred = result[len(prompt):]
+                        # pred = result.split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[1].strip()
+                    
+                    pred = _extract_json_part(pred)
+                    
+                    if idx < 10 or idx % 150 == 0:
+                        logging.info('\n')
+                        logging.info(f"Prompt: {prompt}")
+                        logging.info(f"Query: {query}")
+                        logging.info(f"highlighted passage: {pred}"),
+                        logging.info('====')
+                        # print('\n')
+                        # print(f"Prompt: {prompt}")
+                        # print(f"Query: {query}")
+                        # print(f"highlighted passage: {pred}"),
+                        # print('====')
+                    
+                    item = {
+                        "query_id": query_id,
+                        "question": query,
+                        "pageviews": query_pv,
+                        "highlighted_text": [{
+                            "ret_rank": 1,
+                            "highlighted": pred
+                        }],
+                    }
+                    file.write(json.dumps(item) + '\n')
                 
-                prompt = prompt_template.format(context=prompt_highlight_generation(query=query, context=retrieved_text))
+                else:
+                    logging.info(f"\nNo retrieved text found for query: {query}") 
+                    print("\nNo retrieved text found for query: {}, {}".format(query_id, query))
+
+            elif args.passage_concatenation == "separate":
                 
-                n_max_trial = 5
-                for i in range(n_max_trial):
-                    try:
-                        result = pipe(prompt, max_new_tokens=1024)[0]['generated_text']
-                        break
-                    except Exception as e:
-                        print(f"Try #{i+1} for Query: {query_id}")
-                        print('Error message:', e)
-                
-                # print(result)
-                
-                if args.llm_model_name in ['zephyr']:
-                    pred = result.split("<|assistant|>")[1].strip()
-                elif args.llm_model_name in ['llama3']:
-                    pred = result[len(prompt):]
-                    # pred = result.split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[1].strip()
-                
-                pred = _extract_json_part(pred)
-                
-                if idx < 10 or idx % 150 == 0:
-                    logging.info('\n')
-                    logging.info(f"Prompt: {prompt}")
-                    logging.info(f"Query: {query}")
-                    logging.info(f"highlighted passage: {pred}"),
-                    logging.info('====')
-                    # print('\n')
-                    # print(f"Prompt: {prompt}")
-                    # print(f"Query: {query}")
-                    # print(f"highlighted passage: {pred}"),
-                    # print('====')
+                highlighted_passages = []
+                for ret_idx in range(args.num_retrieved_passages):
+                    if ret_idx < len(ret_results[query_id]['ctxs']):
+                        retrieved_text = truncate_text(ret_results[query_id]['ctxs'][ret_idx]['text'], max_token)
+                        if retrieved_text != "":
+                            prompt = prompt_template.format(context=prompt_highlight_generation(query=query, context=retrieved_text))
+                            n_max_trial = 5
+                            for i in range(n_max_trial):
+                                try:
+                                    result = pipe(prompt, max_new_tokens=1024)[0]['generated_text']
+                                    break
+                                except Exception as e:
+                                    print(f"Try #{i+1} for Query: {query_id}")
+                                    print('Error message:', e)
+                            
+                            if args.llm_model_name in ['zephyr']:
+                                pred = result.split("<|assistant|>")[1].strip()
+                            elif args.llm_model_name in ['llama3']:
+                                pred = result[len(prompt):]
+                            pred = _extract_json_part(pred)
+                            
+                            if idx < 10 or idx % 150 == 0:
+                                logging.info('\n')
+                                logging.info(f"Prompt: {prompt}")
+                                logging.info(f"Query: {query}")
+                                logging.info(f"highlighted passage: {pred}"),
+                                logging.info('====')
+                                # print('\n')
+                                # print(f"Prompt: {prompt}")
+                                # print(f"Query: {query}")
+                                # print(f"highlighted passage: {pred}"),
+                                # print('====')
+                            
+                            highlighted_passages.append({
+                                "ret_rank": ret_idx,
+                                "highlighted": pred
+                            })
                 
                 item = {
                     "query_id": query_id,
                     "question": query,
                     "pageviews": query_pv,
-                    "highlighted_text": pred,
+                    "highlighted_text": highlighted_passages,
                 }
                 file.write(json.dumps(item) + '\n')
-            
-            else:
-                logging.info(f"\nNo retrieved text found for query: {query}") 
-                print("\nNo retrieved text found for query: {}, {}".format(query_id, query))
+                           
+                        
 
 
 if __name__ == '__main__':
@@ -306,6 +349,7 @@ if __name__ == '__main__':
     parser.add_argument("--llm_model_name", type=str, required=True)
     parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--num_retrieved_passages", type=int, default=1)
+    parser.add_argument("--passage_concatenation", type=str, default="concatenate", options=["concatenate", "separate"])
     parser.add_argument("--retrieval_method", type=str, required=True)
     parser.add_argument("--seed", type=int)
     args = parser.parse_args()
