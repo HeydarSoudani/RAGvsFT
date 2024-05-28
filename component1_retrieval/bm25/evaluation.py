@@ -61,6 +61,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--data_path", type=str)
+    parser.add_argument("--number_of_passages", type=int, default=1)
     parser.add_argument("--output_results_dir", type=str)
     parser.add_argument("--output_results_filename", type=str)
     parser.add_argument("--results_save_file", default=None, type=str)
