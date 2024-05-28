@@ -327,22 +327,23 @@ def main(args):
                 
                 
                 # == Apply highlight text ========================
-                try:
-                    highlighted_text = highlight_results[query_id]['highlighted_text']
-                    if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
-                        sentences = highlighted_text['sentence']
-                        retrieved_text += f"\n{' '.join(sentences)}\n"
-                    elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
-                        sentences = highlighted_text['sentences']
-                        retrieved_text += f"\n{' '.join(sentences)}\n"
-                    else:
-                        sentences = []
-                        logging.info(f"\nNo highlighted text found for query: {query_id}, {query}") 
-                        print("\nNo highlighted text found for query: {}, {}".format(query_id, query))
-                
-                except json.decoder.JSONDecodeError as e:
-                    print(f"Error decoding JSON for query_id {query_id}: {e}")
-                    print(f"Problematic JSON string: {highlight_results[query_id]['highlighted_text']}")
+                if args.with_highlighted_text:
+                    try:
+                        highlighted_text = highlight_results[query_id]['highlighted_text']
+                        if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
+                            sentences = highlighted_text['sentence']
+                            retrieved_text += f"\n{' '.join(sentences)}\n"
+                        elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
+                            sentences = highlighted_text['sentences']
+                            retrieved_text += f"\n{' '.join(sentences)}\n"
+                        else:
+                            sentences = []
+                            logging.info(f"\nNo highlighted text found for query: {query_id}, {query}") 
+                            print("\nNo highlighted text found for query: {}, {}".format(query_id, query))
+                    
+                    except json.decoder.JSONDecodeError as e:
+                        print(f"Error decoding JSON for query_id {query_id}: {e}")
+                        print(f"Problematic JSON string: {highlight_results[query_id]['highlighted_text']}")
                 
                 
                 # == Apply retrieved corpus text =================
@@ -449,6 +450,7 @@ if __name__ == "__main__":
     parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--output_file_pre_prefix", type=str)
     parser.add_argument("--with_peft", type=str2bool, default=False)
+    parser.add_argument("--with_highlighted_text", type=str2bool, default=False)
     parser.add_argument("--with_rag_corpus", type=str2bool, default=False)
     parser.add_argument("--with_rag_qa_pairs", type=str2bool, default=False)
     parser.add_argument("--num_retrieved_passages", type=int, default=1)
