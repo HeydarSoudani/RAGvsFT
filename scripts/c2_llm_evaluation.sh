@@ -13,12 +13,12 @@ module load Python/3.10.4-GCCcore-11.3.0
 
 # pip install git+https://github.com/huggingface/transformers
 srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
-    --model_name_or_path "$HOME/RAGvsFT/component2_AnsGen/models/popQA/MiniCPM_popQA_peft_v52" \
+    --model_name_or_path "openbmb/MiniCPM-2B-sft-fp32" \
     --llm_model_name "MiniCPM" \
     --dataset_name "popQA" \
-    --output_file_pre_prefix "5pcent_1r_1p_af" \
+    --output_file_pre_prefix "5pcent_h_0r_0p_bf" \
     --with_peft True \
-    --with_rag_corpus True \
+    --with_rag_corpus False \
     --with_rag_qa_pairs False \
     --num_retrieved_passages 1 \
     --retrieval_method "ideal" \
