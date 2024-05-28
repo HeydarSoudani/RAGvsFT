@@ -368,7 +368,7 @@ def main(args):
                     
                     retrieved_text += f"\n{qa_pairs_text}\n"
                 
-                if not (args.with_rag_corpus or args.with_rag_qa_pairs):
+                if not (args.with_rag_corpus or args.with_rag_qa_pairs or args.with_highlighted_text):
                     prompt = prompt_template_wo_context.format(question=query)
                 else:
                     has_context = True
