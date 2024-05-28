@@ -343,8 +343,6 @@ def main(args):
                     "highlighted_text": highlighted_passages,
                 }
                 file.write(json.dumps(item) + '\n')
-                           
-                        
 
 
 if __name__ == '__main__':
