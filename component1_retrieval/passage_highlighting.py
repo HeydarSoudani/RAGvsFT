@@ -256,7 +256,7 @@ def main(args):
                 
                 prompt = prompt_template.format(context=prompt_highlight_generation(query=query, context=retrieved_text))
                 
-                result = pipe(prompt)[0]['generated_text']
+                result = pipe(prompt, max_new_tokens=1024)[0]['generated_text']
                 
                 if args.llm_model_name in ['zephyr']:
                     pred = result.split("<|assistant|>")[1].strip()
