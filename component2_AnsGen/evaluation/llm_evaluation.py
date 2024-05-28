@@ -325,6 +325,7 @@ def main(args):
                 has_context = False
                 
                 highlighted_text = json.loads(highlight_results[query_id]['highlighted_text'])
+                print(highlighted_text)
                 if len(highlighted_text['sentence']) != 0:
                     retrieved_text += f"\n{' '.join(highlighted_text['sentence'])}\n"
                 else:
