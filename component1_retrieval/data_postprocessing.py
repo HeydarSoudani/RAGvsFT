@@ -128,6 +128,7 @@ def main(args):
                             question = item["question"]
                             
                             for row in tsv_reader:
+                                # TODO: ret_doc_id is a list
                                 ret_query_id, ret_doc_id = row[0], row[1]
                                 if query_id == ret_query_id:
                                     # context = corpus.get(ret_doc_id, "No context found")
