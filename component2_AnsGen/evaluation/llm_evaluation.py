@@ -329,17 +329,29 @@ def main(args):
                     highlighted_text = highlight_results[query_id]['highlighted_text']
                     if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
                         sentences = highlighted_text['sentence']
+                        retrieved_text += f"\n{' '.join(sentences)}\n"
                     elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
                         sentences = highlighted_text['sentences']
+                        retrieved_text += f"\n{' '.join(sentences)}\n"
                     else:
                         sentences = []
                         logging.info(f"\nNo highlighted text found for query: {query_id}, {query}") 
                         print("\nNo highlighted text found for query: {}, {}".format(query_id, query))
-                    retrieved_text += f"\n{' '.join(sentences)}\n"
+                    
                 
                 except json.decoder.JSONDecodeError as e:
                     print(f"Error decoding JSON for query_id {query_id}: {e}")
                     print(f"Problematic JSON string: {highlight_results[query_id]['highlighted_text']}")
+                
+                if retrieved_text == "":
+                    if args.with_rag_corpus:
+                        max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
+                        corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
+                        retrieved_text += truncate_text(corpus_text, max_token)
+
+                        if retrieved_text == "":
+                            logging.info(f"\nNo retrieved text found for query: {query}") 
+                            print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
                 
                 if args.with_rag_qa_pairs:
                     qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
@@ -350,14 +362,6 @@ def main(args):
                     
                     retrieved_text += f"\n{qa_pairs_text}\n"
                 
-                if args.with_rag_corpus:
-                    max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
-                    corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
-                    retrieved_text += truncate_text(corpus_text, max_token)
-
-                    if retrieved_text == "":
-                        logging.info(f"\nNo retrieved text found for query: {query}") 
-                        print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
                 
                 if not (args.with_rag_corpus or args.with_rag_qa_pairs):
                     prompt = prompt_template_wo_context.format(question=query)

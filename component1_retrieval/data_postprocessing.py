@@ -3,8 +3,8 @@ import argparse
 
 
 def main(args):
-    dataset_name = "witQA" # popQA, witQA, EQ
-    retrieval_method = 'ideal' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
+    dataset_name = "popQA" # popQA, witQA, EQ
+    retrieval_method = 'bm25' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
     number_of_passages = 3
     dataset_dir = f"component1_retrieval/data/{dataset_name}"
     
@@ -129,27 +129,30 @@ def main(args):
                             
                             for row in tsv_reader:
                                 # TODO: ret_doc_id is a list
-                                ret_query_id, ret_doc_id = row[0], row[1]
+                                ret_query_id, ret_doc_ids = row[0], row[1]
                                 if query_id == ret_query_id:
-                                    # context = corpus.get(ret_doc_id, "No context found")
-                                    context = corpus[doc_id]['text']
                                     
-                                    # === For hasanswer ====
-                                    hasanswer = False
-                                    if query_id in gt_qrels:
-                                        if ret_doc_id in gt_qrels[query_id]:
-                                            if gt_qrels[query_id][ret_doc_id] == 1:
-                                                hasanswer = True
-                                    # ======================
+                                    contexts = []
+                                    for ret_doc_id in ret_doc_ids[:number_of_passages]:
+                                        context = corpus[ret_doc_id]['text']
+                                        
+                                        # === For hasanswer ====
+                                        hasanswer = False
+                                        if query_id in gt_qrels:
+                                            if ret_doc_id in gt_qrels[query_id]:
+                                                if gt_qrels[query_id][ret_doc_id] == 1:
+                                                    hasanswer = True
+                                        # ======================
+                                        contexts.append({
+                                            "id": ret_doc_id,
+                                            "text": context,
+                                            "hasanswer": hasanswer
+                                        })
                                     
                                     combined_obj = {
                                         "id": ret_query_id,
                                         "question": question,
-                                        "ctxs": [{
-                                            "id": ret_doc_id,
-                                            "text": context,
-                                            "hasanswer": hasanswer
-                                        }],
+                                        "ctxs": contexts,
                                     }
                                     ofile.write(json.dumps(combined_obj) + "\n")
                                     break
