@@ -278,7 +278,7 @@ def main(args):
     # == Loading highligted passages =========================
     qa_list = []
     highlight_results = {}
-    highlight_results_file = f'{args.data_dir}/retrieved_highlight/all.jsonl'
+    highlight_results_file = f'{args.data_dir}/retrieved_highlight/out_all.jsonl'
     with open (highlight_results_file, 'r') as file:
         for line in file:
             data = json.loads(line.strip())
@@ -326,7 +326,7 @@ def main(args):
                 has_context = False
                 
                 try:
-                    highlighted_text = json.loads(highlight_results[query_id]['highlighted_text'])
+                    highlighted_text = highlight_results[query_id]['highlighted_text']
                     if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
                         sentences = highlighted_text['sentence']
                     elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
