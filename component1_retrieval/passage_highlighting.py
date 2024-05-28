@@ -331,6 +331,10 @@ def main(args):
                                 "ret_rank": ret_idx,
                                 "highlighted": pred
                             })
+                        
+                        else:
+                            logging.info(f"\nNo retrieved text found for query: {query_id}, {query}, Ret_rank: {ret_idx}") 
+                            print("\nNo retrieved text found for query: {}, {}, Ret_rank: {}".format(query_id, query, ret_idx))
                 
                 item = {
                     "query_id": query_id,
