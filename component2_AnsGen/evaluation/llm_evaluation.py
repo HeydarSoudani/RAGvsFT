@@ -317,24 +317,30 @@ def main(args):
         
     accuracy = []
     with open(out_results_path, 'w') as file:
-        for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
+        idx =  0
+        for i, (query_id, query, query_pv, query_relation) in enumerate(test_questions):
             
-            if query_id in qa_list:
-            
+            if query_id in tqdm(qa_list):
+                idx += 1
                 retrieved_text = ""
                 has_context = False
                 
-                highlighted_text = json.loads(highlight_results[query_id]['highlighted_text'])
-                print(highlighted_text)
-                if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
-                    sentences = highlighted_text['sentence']
-                elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
-                    sentences = highlighted_text['sentences']
-                else:
-                    sentences = []
-                    logging.info(f"\nNo highlighted text found for query: {query_id}, {query}") 
-                    print("\nNo highlighted text found for query: {}, {}".format(query_id, query))
-                retrieved_text += f"\n{' '.join(sentences)}\n"
+                try:
+                    highlighted_text = json.loads(highlight_results[query_id]['highlighted_text'])
+                    print(highlighted_text)
+                    if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
+                        sentences = highlighted_text['sentence']
+                    elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
+                        sentences = highlighted_text['sentences']
+                    else:
+                        sentences = []
+                        logging.info(f"\nNo highlighted text found for query: {query_id}, {query}") 
+                        print("\nNo highlighted text found for query: {}, {}".format(query_id, query))
+                    retrieved_text += f"\n{' '.join(sentences)}\n"
+                
+                except json.decoder.JSONDecodeError as e:
+                    print(f"Error decoding JSON for query_id {query_id}: {e}")
+                    print(f"Problematic JSON string: {highlight_results[query_id]['highlighted_text']}")
                 
                 if args.with_rag_qa_pairs:
                     qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
