@@ -1,17 +1,18 @@
 import os, json, csv
 import argparse
+import ast
 
 
 def main(args):
     dataset_name = "popQA" # popQA, witQA, EQ
-    retrieval_method = 'bm25' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
+    retrieval_method = 'rerank' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
     number_of_passages = 3
     dataset_dir = f"component1_retrieval/data/{dataset_name}"
     
     if number_of_passages > 1:
-        output_dir = f"component0_preprocessing/generated_data/{dataset_name}_costomized/retrieved/{retrieval_method}_{number_of_passages}"
+        output_dir = f"component0_preprocessing/generated_data/{dataset_name}_costomized/retrieved_passage/{retrieval_method}_{number_of_passages}"
     else:
-        output_dir = f"component0_preprocessing/generated_data/{dataset_name}_costomized/retrieved/{retrieval_method}"
+        output_dir = f"component0_preprocessing/generated_data/{dataset_name}_costomized/retrieved_passage/{retrieval_method}"
     os.makedirs(output_dir, exist_ok=True)
     
     query_dir = f"{dataset_dir}/test"
@@ -21,7 +22,7 @@ def main(args):
     if retrieval_method == 'ideal':
         ret_qrels_file = f"component1_retrieval/data/{dataset_name}/qrels/test.tsv"
     else:
-        ret_qrels_file = f"component1_retrieval/results/{dataset_name}/{retrieval_method}-qrels.tsv"
+        ret_qrels_file = f"component1_retrieval/results/top5/{dataset_name}/{retrieval_method}-qrels.tsv"
     
     def get_corpus():
         corpus = {}
@@ -131,9 +132,10 @@ def main(args):
                                 # TODO: ret_doc_id is a list
                                 ret_query_id, ret_doc_ids = row[0], row[1]
                                 if query_id == ret_query_id:
-                                    
+                                    doc_ids = ast.literal_eval(ret_doc_ids)
                                     contexts = []
-                                    for ret_doc_id in ret_doc_ids[:number_of_passages]:
+                                    # print(doc_ids[0])
+                                    for ret_doc_id in doc_ids[:number_of_passages]:
                                         context = corpus[ret_doc_id]['text']
                                         
                                         # === For hasanswer ====

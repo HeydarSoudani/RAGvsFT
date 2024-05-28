@@ -266,7 +266,7 @@ def main(args):
     # == Loading the retrieval results (corpus) ==============
     if args.with_rag_corpus:
         ret_results = {}
-        ret_results_dir = f"{args.data_dir}/retrieved_passage/{args.retrieval_method}"
+        ret_results_dir = f"{args.data_dir}/retrieved_passage/{args.retrieval_method}_3"
         
         for test_relation_id in test_relation_ids:
             ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.ret_results.jsonl"
