@@ -237,8 +237,8 @@ def main(args):
     with open(output_file, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
 
-            if idx == 15:
-                break
+            # if idx == 20:
+            #     break
 
             retrieved_text = ""
             max_token = max_input_tokens - 50
@@ -265,20 +265,27 @@ def main(args):
                         print(f"Try #{i+1} for Query: {query_id}")
                         print('Error message:', e)
                 
+                # print(result)
+                
                 if args.llm_model_name in ['zephyr']:
                     pred = result.split("<|assistant|>")[1].strip()
                 elif args.llm_model_name in ['llama3']:
-                    pred = result.split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[1].strip()
+                    pred = result[len(prompt):]
+                    # pred = result.split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[1].strip()
                 
-                # print(pred)
                 pred = _extract_json_part(pred)
-                # print(pred)
                 
-                print('\n')
-                print(f"Prompt: {prompt}")
-                print(f"Query: {query}")
-                print(f"highlighted passage: {pred}"),
-                print('====')
+                if idx < 10 or idx % 150 == 0:
+                    logging.info('\n')
+                    logging.info(f"Prompt: {prompt}")
+                    logging.info(f"Query: {query}")
+                    logging.info(f"highlighted passage: {pred}"),
+                    logging.info('====')
+                    # print('\n')
+                    # print(f"Prompt: {prompt}")
+                    # print(f"Query: {query}")
+                    # print(f"highlighted passage: {pred}"),
+                    # print('====')
                 
                 item = {
                     "query_id": query_id,

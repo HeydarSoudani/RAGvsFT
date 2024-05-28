@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=1:00:00
+#SBATCH --time=3:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -12,8 +12,8 @@ module load 2022
 module load Python/3.10.4-GCCcore-11.3.0
 
 srun $HOME/RAGvsFT/component1_retrieval/passage_highlighting.py \
-    --model_name_or_path "HuggingFaceH4/zephyr-7b-beta" \
-    --llm_model_name "zephyr" \
+    --model_name_or_path "meta-llama/Meta-Llama-3-8B-Instruct" \
+    --llm_model_name "llama3" \
     --dataset_name 'popQA' \
     --num_retrieved_passages 1 \
     --retrieval_method "ideal" \

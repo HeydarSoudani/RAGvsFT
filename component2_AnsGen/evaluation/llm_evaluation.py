@@ -323,6 +323,8 @@ def main(args):
             retrieved_text = ""
             has_context = False
             
+            highlight_results[query_id] 
+            
             if args.with_rag_qa_pairs:
                 qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
                 qa_pairs_text = ""
