@@ -318,9 +318,9 @@ def main(args):
     accuracy = []
     with open(out_results_path, 'w') as file:
         idx =  0
-        for i, (query_id, query, query_pv, query_relation) in enumerate(test_questions):
+        for i, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if query_id in tqdm(qa_list):
+            if query_id in qa_list:
                 idx += 1
                 retrieved_text = ""
                 has_context = False
@@ -402,8 +402,8 @@ def main(args):
                     print('\n')
                     print(f"Prompt: {prompt}")
                     print(f"Query: {query}")
-                    print(f"Has context: {has_context}"),
-                    print(f"# context: {len(ret_results[query_id]['ctxs'])}"),
+                    # print(f"Has context: {has_context}"),
+                    # print(f"# context: {len(ret_results[query_id]['ctxs'])}"),
                     print(f"Pred: {pred}")
                     print(f"Labels: {test_answers[idx]}")
                     print(f"Final decision: {is_correct}")
