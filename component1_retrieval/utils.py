@@ -50,8 +50,8 @@ def save_qrels_file(results, args):
                 sorted_doc_scores = dict(sorted(value.items(), key=lambda item: item[1], reverse=True))
                 writer.writerow({
                     'query_id': query_id,
-                    'corpus_id': list(sorted_doc_scores.keys())[0],
-                    'score': list(sorted_doc_scores.values())[0]
+                    'corpus_id': list(sorted_doc_scores.keys())[:args.number_of_passages],
+                    'score': list(sorted_doc_scores.values())[:args.number_of_passages]
                 })
 
 def save_evaluation_files(retriever, results, args):

@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 
-import os, sys
-import torch
-import argparse
+# ============================================
+# == Run on colab, BM25_elasticsearch.ipynb ==
+# ============================================
+
+import json, os
 import logging
+import argparse
+import torch
 
 from beir import LoggingHandler
-from beir.retrieval import models
+from beir.retrieval.search.lexical import BM25Search as BM25
 from beir.retrieval.evaluation import EvaluateRetrieval
-from beir.retrieval.search.dense import DenseRetrievalExactSearch as DRES
 
 print(os.getcwd())
 import sys
@@ -33,33 +36,36 @@ def main(args):
         device = torch.device("cpu")
         print("Running on the CPU")
     
-    model = DRES(models.SentenceBERT(args.model, batch_size=128), device=device)
-    # model = DRES(models.SentenceBERT((
-    #     "facebook-dpr-question_encoder-multiset-base",
-    #     "facebook-dpr-ctx_encoder-multiset-base",
-    #     " [SEP] "), batch_size=128), device=device)
-    retriever = EvaluateRetrieval(model, score_function="dot")
-    
     dataloader = CostomizedGenericDataLoader(data_folder = args.data_path)
     corpus, queries = dataloader.load_corpus_queries()
+    
+    hostname = "localhost" 
+    index_name = f"{args.dataset_name.lower()}_index" 
+    initialize = True 
+    
+    model = BM25(index_name=index_name, hostname=hostname, initialize=initialize)
+    retriever = EvaluateRetrieval(model)
     results = retriever.retrieve(corpus, queries)
     
     if not os.path.exists(args.output_results_dir):
         os.makedirs(args.output_results_dir)
     
+    resutls_for_rerank_path = f"{args.output_results_dir}/{args.dataset_name.lower()}_{args.bm25_results_for_rerank_file}"
+    with open(resutls_for_rerank_path, 'w') as f:
+        json.dump(results, f, indent=4)
+
     save_qrels_file(results, args)
     save_evaluation_files(retriever, results, args)
-
-
+    
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-m", "--model", required=True)
     parser.add_argument("--dataset_name", type=str, required=True)
-    parser.add_argument("--number_of_passages", type=int, default=1)
     parser.add_argument("--data_path", type=str)
     parser.add_argument("--output_results_dir", type=str)
     parser.add_argument("--output_results_filename", type=str)
     parser.add_argument("--results_save_file", default=None, type=str)
+    parser.add_argument("--bm25_results_for_rerank_file", default=None, type=str)
+    
     args = parser.parse_args()
     main(args)
     
