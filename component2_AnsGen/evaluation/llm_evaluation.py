@@ -326,12 +326,15 @@ def main(args):
                 
                 highlighted_text = json.loads(highlight_results[query_id]['highlighted_text'])
                 print(highlighted_text)
-                if len(highlighted_text['sentence']) != 0:
-                    retrieved_text += f"\n{' '.join(highlighted_text['sentence'])}\n"
+                if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
+                    sentences = highlighted_text['sentence']
+                elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
+                    sentences = highlighted_text['sentences']
                 else:
+                    sentences = []
                     logging.info(f"\nNo highlighted text found for query: {query_id}, {query}") 
                     print("\nNo highlighted text found for query: {}, {}".format(query_id, query))
-                
+                retrieved_text += f"\n{' '.join(sentences)}\n"
                 
                 if args.with_rag_qa_pairs:
                     qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
