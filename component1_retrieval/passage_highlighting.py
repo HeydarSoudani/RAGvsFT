@@ -21,7 +21,7 @@ logging.basicConfig(level=logging.DEBUG,
 os.environ["WANDB_MODE"] = "offline"
 
 target_relation_ids = 'all'
-subset_percentage = 0.1
+subset_percentage = 0.05
 
 def _extract_json_part(new_pt):
     """Extract the last PT from the user's response
@@ -115,7 +115,7 @@ def load_dataset(test_files):
 
 def load_model(args):
     
-    if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
+    if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
         model = AutoModelForCausalLM.from_pretrained(
             args.model_name_or_path,
             low_cpu_mem_usage=True,
