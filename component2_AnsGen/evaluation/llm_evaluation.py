@@ -20,7 +20,7 @@ os.environ["WANDB_MODE"] = "offline"
 print("Available GPUs:", torch.cuda.device_count())
 device = 'cuda:0'
 target_relation_ids = 'all'
-subset_percentage = 0.05
+subset_percentage = 1.0
 
 def set_seed(seed):
     torch.manual_seed(seed)
@@ -276,12 +276,15 @@ def main(args):
                     ret_results[data['id']] = data
     
     # == Loading highligted passages =========================
+    qa_list = []
     highlight_results = {}
     highlight_results_file = f'{args.data_dir}/retrieved_highlight/all.jsonl'
     with open (highlight_results_file, 'r') as file:
         for line in file:
             data = json.loads(line.strip())
             highlight_results[data['query_id']] = data
+            qa_list.append(data['query_id'])
+
     
     # == Loading the retrieval results (qa_pairs) ============
     if args.with_rag_qa_pairs:
@@ -316,97 +319,96 @@ def main(args):
     with open(out_results_path, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if idx == 30:
-                break
+            if query_id in qa_list:
             
-            retrieved_text = ""
-            has_context = False
-            
-            highlighted_text = json.loads(highlight_results[query_id])
-            if len(highlighted_text['sentence']) != 0:
-                retrieved_text += f"\n{' '.join(highlighted_text['sentence'])}\n"
-            else:
-                logging.info(f"\nNo highlighted text found for query: {query_id}, {query}") 
-                print("\nNo highlighted text found for query: {}, {}".format(query_id, query))
-            
-            
-            if args.with_rag_qa_pairs:
-                qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
-                qa_pairs_text = ""
-                if len(qa_pairs_data) > 0:
-                    for qa_pair in qa_pairs_data:
-                        qa_pairs_text += f"{qa_pair['question']} {qa_pair['answers'][0]}\n"
+                retrieved_text = ""
+                has_context = False
                 
-                retrieved_text += f"\n{qa_pairs_text}\n"
-            
-            if args.with_rag_corpus:
-                max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
-                corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
-                retrieved_text += truncate_text(corpus_text, max_token)
-
-                if retrieved_text == "":
-                    logging.info(f"\nNo retrieved text found for query: {query}") 
-                    print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
-            
-            if not (args.with_rag_corpus or args.with_rag_qa_pairs):
-                prompt = prompt_template_wo_context.format(question=query)
-            else:
-                has_context = True
-                prompt = prompt_template_w_context.format(context=retrieved_text, question=query)    
+                highlighted_text = json.loads(highlight_results[query_id])
+                if len(highlighted_text['sentence']) != 0:
+                    retrieved_text += f"\n{' '.join(highlighted_text['sentence'])}\n"
+                else:
+                    logging.info(f"\nNo highlighted text found for query: {query_id}, {query}") 
+                    print("\nNo highlighted text found for query: {}, {}".format(query_id, query))
                 
+                
+                if args.with_rag_qa_pairs:
+                    qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
+                    qa_pairs_text = ""
+                    if len(qa_pairs_data) > 0:
+                        for qa_pair in qa_pairs_data:
+                            qa_pairs_text += f"{qa_pair['question']} {qa_pair['answers'][0]}\n"
                     
-            n_max_trial = 5
-            for i in range(n_max_trial):
-                try:
-                    result = pipe(prompt)[0]['generated_text']
-                    break
-                except Exception as e:
-                    print(f"Try #{i+1} for Query: {query_id}")
-                    print('Error message:', e)
-            
-            if args.llm_model_name == 'flant5':
-                pred = result
-            elif args.llm_model_name in ["llama2", "mistral"]:
-                pred = result.split("[/INST]")[1].strip()
-            elif args.llm_model_name in ['zephyr', "stable_lm2", "tiny_llama"]:
-                pred = result.split("<|assistant|>")[1].strip()
-            elif args.llm_model_name == 'MiniCPM':
-                pred = result.split("<AI>")[1].strip()
-               
-            # is_correct = one_sided_partial_match(pred, test_answers[idx])         
-            is_correct = two_sided_partial_match(pred, test_answers[idx])
-            accuracy.append(is_correct)
-            
-            if idx < 10 or idx % 200 == 0:
-                # logging.info('\n')
-                # logging.info(f"Prompt: {prompt}")
-                # logging.info(f"Query: {query}")
-                # logging.info(f"Has context: {has_context}"),
-                # logging.info(f"# context: {len(ret_results[query_id]['ctxs'])}"),
-                # logging.info(f"Pred: {pred}")
-                # logging.info(f"Labels: {test_answers[idx]}")
-                # logging.info(f"Final decision: {is_correct}")
-                # logging.info('====')
-                print('\n')
-                print(f"Prompt: {prompt}")
-                print(f"Query: {query}")
-                print(f"Has context: {has_context}"),
-                print(f"# context: {len(ret_results[query_id]['ctxs'])}"),
-                print(f"Pred: {pred}")
-                print(f"Labels: {test_answers[idx]}")
-                print(f"Final decision: {is_correct}")
-                print('====')
-            
-            item = {
-                "query_id": query_id,
-                "question": query,
-                "possible_answers": test_answers[idx],
-                "pred": pred,
-                "is_correct": is_correct,
-                "has_context": has_context,
-                "pageviews": query_pv
-            }
-            file.write(json.dumps(item) + '\n')
+                    retrieved_text += f"\n{qa_pairs_text}\n"
+                
+                if args.with_rag_corpus:
+                    max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
+                    corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
+                    retrieved_text += truncate_text(corpus_text, max_token)
+
+                    if retrieved_text == "":
+                        logging.info(f"\nNo retrieved text found for query: {query}") 
+                        print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
+                
+                if not (args.with_rag_corpus or args.with_rag_qa_pairs):
+                    prompt = prompt_template_wo_context.format(question=query)
+                else:
+                    has_context = True
+                    prompt = prompt_template_w_context.format(context=retrieved_text, question=query)    
+                    
+                        
+                n_max_trial = 5
+                for i in range(n_max_trial):
+                    try:
+                        result = pipe(prompt)[0]['generated_text']
+                        break
+                    except Exception as e:
+                        print(f"Try #{i+1} for Query: {query_id}")
+                        print('Error message:', e)
+                
+                if args.llm_model_name == 'flant5':
+                    pred = result
+                elif args.llm_model_name in ["llama2", "mistral"]:
+                    pred = result.split("[/INST]")[1].strip()
+                elif args.llm_model_name in ['zephyr', "stable_lm2", "tiny_llama"]:
+                    pred = result.split("<|assistant|>")[1].strip()
+                elif args.llm_model_name == 'MiniCPM':
+                    pred = result.split("<AI>")[1].strip()
+                
+                # is_correct = one_sided_partial_match(pred, test_answers[idx])         
+                is_correct = two_sided_partial_match(pred, test_answers[idx])
+                accuracy.append(is_correct)
+                
+                if idx < 10 or idx % 200 == 0:
+                    # logging.info('\n')
+                    # logging.info(f"Prompt: {prompt}")
+                    # logging.info(f"Query: {query}")
+                    # logging.info(f"Has context: {has_context}"),
+                    # logging.info(f"# context: {len(ret_results[query_id]['ctxs'])}"),
+                    # logging.info(f"Pred: {pred}")
+                    # logging.info(f"Labels: {test_answers[idx]}")
+                    # logging.info(f"Final decision: {is_correct}")
+                    # logging.info('====')
+                    print('\n')
+                    print(f"Prompt: {prompt}")
+                    print(f"Query: {query}")
+                    print(f"Has context: {has_context}"),
+                    print(f"# context: {len(ret_results[query_id]['ctxs'])}"),
+                    print(f"Pred: {pred}")
+                    print(f"Labels: {test_answers[idx]}")
+                    print(f"Final decision: {is_correct}")
+                    print('====')
+                
+                item = {
+                    "query_id": query_id,
+                    "question": query,
+                    "possible_answers": test_answers[idx],
+                    "pred": pred,
+                    "is_correct": is_correct,
+                    "has_context": has_context,
+                    "pageviews": query_pv
+                }
+                file.write(json.dumps(item) + '\n')
     acc = sum(accuracy) / len(accuracy)
     logging.info(f"Accuracy: {acc * 100:.2f}%")
     print(f"Accuracy: {acc * 100:.2f}%")
