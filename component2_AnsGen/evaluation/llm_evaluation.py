@@ -275,16 +275,17 @@ def main(args):
                     data = json.loads(line.strip())
                     ret_results[data['id']] = data
     
+    
     # == Loading highligted passages =========================
     qa_list = []
     highlight_results = {}
-    highlight_results_file = f'{args.data_dir}/retrieved_highlight/all_out.jsonl'
+    highlight_results_file = f'{args.data_dir}/retrieved_highlight/all_dpr_3.jsonl'
     with open (highlight_results_file, 'r') as file:
         for line in file:
             data = json.loads(line.strip())
             highlight_results[data['query_id']] = data
             qa_list.append(data['query_id'])
-
+            
     
     # == Loading the retrieval results (qa_pairs) ============
     if args.with_rag_qa_pairs:
@@ -296,6 +297,7 @@ def main(args):
                 for line in file:
                     data = json.loads(line.strip())
                     ret_qa_results[data['query_id']] = data
+    
     
     # == Loop over the test questions ========================
     if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
@@ -324,7 +326,6 @@ def main(args):
                 highlight_idx += 1
                 retrieved_text = ""
                 has_context = False
-                
                 
                 # == Apply highlight text ========================
                 if args.with_highlighted_text:
@@ -367,14 +368,12 @@ def main(args):
                     
                     retrieved_text += f"\n{qa_pairs_text}\n"
                 
-                
                 if not (args.with_rag_corpus or args.with_rag_qa_pairs):
                     prompt = prompt_template_wo_context.format(question=query)
                 else:
                     has_context = True
                     prompt = prompt_template_w_context.format(context=retrieved_text, question=query)    
-                    
-                        
+                       
                 n_max_trial = 5
                 for i in range(n_max_trial):
                     try:
