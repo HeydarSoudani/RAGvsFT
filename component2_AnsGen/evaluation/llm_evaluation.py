@@ -20,7 +20,7 @@ os.environ["WANDB_MODE"] = "offline"
 print("Available GPUs:", torch.cuda.device_count())
 device = 'cuda:0'
 target_relation_ids = 'all'
-subset_percentage = 0.05
+subset_percentage = 0.1
 
 def set_seed(seed):
     torch.manual_seed(seed)
@@ -257,6 +257,7 @@ def main(args):
         max_input_tokens = 2048
     
     
+    # === Load model and tokenizer ==========================
     logging.info("Inferencing ...")
     model, tokenizer = load_model(args)
     test_relation_ids, test_files, relation_files = load_relations_data(args)

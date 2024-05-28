@@ -10,7 +10,7 @@ import argparse
 import numpy as np
 from tqdm import tqdm
 from transformers import pipeline
-from transformers import AutoTokenizer
+from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModelForSeq2SeqLM
 
 
 logging.basicConfig(level=logging.DEBUG,
@@ -113,22 +113,57 @@ def load_dataset(test_files):
     # print("Test dataset is loaded.")
     return test_questions, test_answers
 
-def summary_generation_for_retrieved_context(args):
+def load_model(args):
     
+    if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
+        model = AutoModelForCausalLM.from_pretrained(
+            args.model_name_or_path,
+            low_cpu_mem_usage=True,
+            return_dict=True,
+            torch_dtype=torch.float16,
+            device_map={"":0}, # Load the entire model on the GPU 0
+            # device_map='auto',
+            trust_remote_code=True
+        )
+    elif args.llm_model_name == "flant5":
+        model = AutoModelForSeq2SeqLM.from_pretrained(
+            args.model_name_or_path,
+            # load_in_8bit=True,
+            # device_map={"": 0}
+            # device_map="auto"
+        )
+        
+    tokenizer = AutoTokenizer.from_pretrained(
+        args.model_name_or_path,
+        trust_remote_code=True
+    )
+
+    if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
+        tokenizer.pad_token = tokenizer.eos_token
+        tokenizer.padding_side = "right"
+    
+    model.eval()
+    logging.info("Model and tokenizer are loaded")
+    
+    return model, tokenizer
+
+def main(args):
+    
+    # == Create data & output dir ===========================
     args.data_dir = f"component0_preprocessing/generated_data/{args.dataset_name}_costomized"
+    
+    # == Create results dir and file ========================
     output_file = f'{args.data_dir}/highlight_results/all.jsonl'
     os.makedirs(f'{args.data_dir}/highlight_results', exist_ok=True)
     
-    pipe = pipeline(
-        "text-generation",
-        model="meta-llama/Meta-Llama-3-8B-Instruct",
-        torch_dtype=torch.bfloat16,
-        device_map="auto"
+    logging.info(f"""
+        Model: {args.model_name_or_path}
+        Dataset: {args.dataset_name}
+        Retrieval method: {args.retrieval_method}
+        Seed: {args.seed}
+        """
     )
-    max_input_tokens = 2048
-    
-    test_relation_ids, test_files, relation_files = load_relations_data(args)
-    test_questions, test_answers = load_dataset(test_files)
+    set_seed(args.seed)
     
     # === Prompt Definition ===
     prompt_highlight_generation = lambda query, context: f"""
@@ -148,8 +183,29 @@ def summary_generation_for_retrieved_context(args):
         Ensure that you distinctly label and delineate Steps 1, 2, and 3. Let's think step by step:
     """.replace('    ', '')
     
+    if args.llm_model_name == "zephyr":
+        prompt_template = """<|system|> </s>\n <|user|>{context}</s>\n <|assistant|>"""
+    elif args.llm_model_name == "llama3":
+        prompt_template = """<|begin_of_text|><|start_header_id|>system<|end_header_id|><|eot_id|><|start_header_id|>user<|end_header_id|>{context}<|eot_id|>"""
+        # <|start_header_id|>assistant<|end_header_id|>{{ model_answer_1 }}<|eot_id|>
+        
+    # == Define maximum number of tokens ====================
+    # = Book 50 tokens for QA pairs
+    # = Book 20 tokens for input prompt
+    if args.llm_model_name in ["flant5", "stable_lm2", "MiniCPM"]:
+        max_input_tokens = 512
+    elif args.llm_model_name in ["tiny_llama"]:
+        max_input_tokens = 1024
+    elif args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr"]:
+        max_input_tokens = 2048
     
-    # === Retrieved context ===
+    # === Load model and tokenizer ==========================
+    logging.info("Inferencing ...")
+    model, tokenizer = load_model(args)
+    test_relation_ids, test_files, relation_files = load_relations_data(args)
+    test_questions, test_answers = load_dataset(test_files)
+
+    # === Retrieved context =================================
     ret_results = {}
     ret_results_dir = f"{args.data_dir}/retrieved/{args.retrieval_method}_3"
     
@@ -160,6 +216,23 @@ def summary_generation_for_retrieved_context(args):
                 data = json.loads(line.strip())
                 ret_results[data['id']] = data
     
+    # == Loop over the test questions ========================
+    if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
+        # max_output_tokens = 40
+        pipe = pipeline(
+            task="text-generation",
+            model=model,
+            tokenizer=tokenizer,
+            # max_new_tokens = max_output_tokens
+        )
+    elif args.llm_model_name == "flant5":
+        # max_output_tokens = 20
+        pipe = pipeline( 
+            "text2text-generation", 
+            model=model, 
+            tokenizer=tokenizer,
+            # max_new_tokens = max_output_tokens
+        ) 
     
     with open(output_file, 'w') as file:
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
@@ -173,28 +246,38 @@ def summary_generation_for_retrieved_context(args):
             retrieved_text = truncate_text(corpus_text, max_token)
               
             if retrieved_text != "":
-                _prompt = [
-                    { "role": "system", "content": ""},
-                    { "role": "user", "content": prompt_highlight_generation(query=query, context=retrieved_text)}
-                ]
-                prompt = pipe.tokenizer.apply_chat_template(_prompt, tokenize=False, add_generation_prompt=True)
+                # _prompt = [
+                #     { "role": "system", "content": ""},
+                #     { "role": "user", "content": prompt_highlight_generation(query=query, context=retrieved_text)}
+                # ]
+                # prompt = pipe.tokenizer.apply_chat_template(_prompt, tokenize=False, add_generation_prompt=True)
+                # outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
+                # new_pt = outputs[0]["generated_text"]
                 
-                outputs = pipe(prompt, max_new_tokens=1024, do_sample=True, temperature=0.7, top_k=50, top_p=0.95)
-                new_pt = outputs[0]["generated_text"]
-                new_pt = new_pt.split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[1].strip()
-                new_pt = _extract_json_part(new_pt)
+                prompt = prompt_template.format(context=prompt_highlight_generation(query=query, context=retrieved_text))
+                
+                result = pipe(prompt)[0]['generated_text']
+                
+                if args.llm_model_name in ['zephyr']:
+                    pred = result.split("<|assistant|>")[1].strip()
+                elif args.llm_model_name in ['llama3']:
+                    pred = result.split('<|eot_id|><|start_header_id|>assistant<|end_header_id|>')[1].strip()
+                
+                print(pred)
+                pred = _extract_json_part(pred)
+                print(pred)
                 
                 print('\n')
                 print(f"Prompt: {prompt}")
                 print(f"Query: {query}")
-                print(f"highlighted passage: {''.join(new_pt["sentences"])}"),
+                print(f"highlighted passage: {pred}"),
                 print('====')
                 
                 item = {
                     "query_id": query_id,
                     "question": query,
                     "pageviews": query_pv,
-                    "highlighted_text": new_pt["sentences"],
+                    "highlighted_text": pred,
                 }
                 file.write(json.dumps(item) + '\n')
             
@@ -203,13 +286,14 @@ def summary_generation_for_retrieved_context(args):
                 print("\nNo retrieved text found for query: {}, {}".format(query_id, query))
 
 
-
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--num_retrieved_passages", type=int, default=1)
+    parser.add_argument("--model_name_or_path", type=str, required=True)
+    parser.add_argument("--llm_model_name", type=str, required=True)
     parser.add_argument("--dataset_name", type=str, required=True)
+    parser.add_argument("--num_retrieved_passages", type=int, default=1)
     parser.add_argument("--retrieval_method", type=str, required=True)
     parser.add_argument("--seed", type=int)
     args = parser.parse_args()
     
-    summary_generation_for_retrieved_context(args)
+    main(args)

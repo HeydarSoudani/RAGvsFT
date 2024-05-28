@@ -235,7 +235,8 @@ def main(args):
         Target Question: {question}
         
         Your Task:
-        Identify which answer (Answer {answers[0]['file_id']} or Answer {answers[1]['file_id']} or Answer {answers[2]['file_id']} or Answer {answers[3]['file_id']}) is more relevant and informative to answer the question at hand.
+        Identify which answer (Answer {answers[0]['file_id']} or Answer {answers[1]['file_id']} or Answer {answers[2]['file_id']} or Answer {answers[3]['file_id']})
+        is more relevant and informative to answer the question at hand.
         Step 1: Considering the question, assess “Answer {answers[0]['file_id']}” and check if it responds to the question
         Step 2: Considering the question, assess “Answer {answers[1]['file_id']}” and check if it responds to the question
         Step 3: Considering the question, assess “Answer {answers[2]['file_id']}” and check if it responds to the question
@@ -247,23 +248,24 @@ def main(args):
         Choices of resource: [Answer {answers[0]['file_id']}, Answer {answers[1]['file_id']}, Answer {answers[2]['file_id']}, Answer {answers[3]['file_id']}].
     """.replace('    ', '')
     
-    # prompt_final_answer = lambda question, answers: f"""
-    # Question: Given the following answers, determine which one provides a more informative answer to the subsequent question.
+    prompt_final_answer = lambda question, answers: f"""
+    Question: Given the following answers, determine which one provides a more informative answer to the subsequent question.
     
-    # Answer {answers[0]['file_id']}: {answers[0]['result']['pred']}
-    # Answer {answers[1]['file_id']}: {answers[1]['result']['pred']}
-    # Answer {answers[2]['file_id']}: {answers[2]['result']['pred']}
-    # Answer {answers[3]['file_id']}: {answers[3]['result']['pred']}
+    Answer {answers[0]['file_id']}: {answers[0]['result']['pred']}
+    Answer {answers[1]['file_id']}: {answers[1]['result']['pred']}
+    Answer {answers[2]['file_id']}: {answers[2]['result']['pred']}
+    Answer {answers[3]['file_id']}: {answers[3]['result']['pred']}
     
-    # Target Question: {question}
+    Target Question: {question}
     
-    # Your Task:
-    # Identify which answer (Answer {answers[0]['file_id']} or Answer {answers[1]['file_id']} or Answer {answers[2]['file_id']} or Answer {answers[3]['file_id']}) is more relevant and informative to answer the question at hand.
-    # Choices: [Answer {answers[0]['file_id']}, Answer {answers[1]['file_id']}, Answer {answers[2]['file_id']}, Answer {answers[3]['file_id']}].
-    # Do not exceed 2 words.
+    Your Task:
+    Identify which answer (Answer {answers[0]['file_id']} or Answer {answers[1]['file_id']} or Answer {answers[2]['file_id']} or Answer {answers[3]['file_id']})
+    is more relevant and informative to answer the question at hand.
+    Choices: [Answer {answers[0]['file_id']}, Answer {answers[1]['file_id']}, Answer {answers[2]['file_id']}, Answer {answers[3]['file_id']}].
+    Do not exceed 2 words.
     
-    # Answer:
-    # """.replace('    ', '')
+    Answer:
+    """.replace('    ', '')
 
     accuracy = []
     with open(output_file, 'w') as file:

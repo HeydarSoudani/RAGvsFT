@@ -8,7 +8,7 @@ import os
 
 # === Datasets variables ========================
 dataset_name = 'popQA' # [popQA, witQA, EQ]
-model_idx = 7
+model_idx = 5
 
 retrieval_models = ["bm25", "contriever", "rerank", "dpr"]
 gen_models = [
@@ -441,25 +441,26 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
     base_path  = "component0_preprocessing/generated_data"
     retrieval_model = 'ideal'
     result_files = [
-        # {"title": "NoFT/NoRAG", "filename": f"{dataset_dir}/results_two_side/{model_type}/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
-        # {"title": "NoFT/idealRAG", "filename": f"{dataset_dir}/results_two_side/{model_type}/{dataset_name}_{model_name}_bf_rag_{retrieval_model}_full_results.jsonl"},
-        # {"title": "FT/NoRAG", "filename": f"{dataset_dir}/results_two_side/{model_type}/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
-        # {"title": "FT/idealRAG", "filename": f"{dataset_dir}/results_two_side/{model_type}/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
+        {"title": "NoFT/NoRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
+        {"title": "FT/NoRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
+        {"title": "NoFT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_{retrieval_model}_full_results.jsonl"},
+        {"title": "FT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
+        
         # {"title": f"NoFT/dprRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
         # {"title": f"FT/dprRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
         
-        {'title': '1r-1p', 'filename': 'analysis/on_false_results/popQA_MiniCPM_0.1_1rag_bf_rag_ideal_full_results_two_sided.jsonl'},
-        {'title': '2r-1p', 'filename': 'analysis/on_false_results/popQA_MiniCPM_0.1_2rags_bf_rag_ideal_full_results_two_sided.jsonl'},
-        {'title': '1r_2p', 'filename': 'analysis/on_false_results/popQA_MiniCPM_1rag_2p_bf_rag_ideal_full_results_two_sided.jsonl'},
-        {'title': '2r_2p', 'filename': 'analysis/on_false_results/popQA_MiniCPM_2rags_2p_bf_rag_ideal_full_results_two_sided.jsonl'},
+        # {'title': '1r-1p', 'filename': 'analysis/on_false_results/popQA_MiniCPM_0.1_1rag_bf_rag_ideal_full_results_two_sided.jsonl'},
+        # {'title': '2r-1p', 'filename': 'analysis/on_false_results/popQA_MiniCPM_0.1_2rags_bf_rag_ideal_full_results_two_sided.jsonl'},
+        # {'title': '1r_2p', 'filename': 'analysis/on_false_results/popQA_MiniCPM_1rag_2p_bf_rag_ideal_full_results_two_sided.jsonl'},
+        # {'title': '2r_2p', 'filename': 'analysis/on_false_results/popQA_MiniCPM_2rags_2p_bf_rag_ideal_full_results_two_sided.jsonl'},
         
         # {"title": f"voting", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_voting_results.jsonl"},
         # {"title": f"voting_2", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_voting_2_results.jsonl"},
         # {"title": f"NoFT/bm25RAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_bm25_full_results.jsonl"},
         # {"title": f"NoFT/dprRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
-        # {"title": "MoE/llm_no_cot", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_moe_llm_results_(no_cot).jsonl"},
-        # {"title": "MoE/llm_cot", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_moe_llm_results_(cot).jsonl"},
-        # {"title": "MoE/ideal", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_moe_ideal_results.jsonl"},
+        {"title": "Ens/wo_cot", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_moe_llm_results_(no_cot).jsonl"},
+        {"title": "Ens/w_cot", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_moe_llm_results_(cot).jsonl"},
+        {"title": "Ens/ideal", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_moe_ideal_results.jsonl"},
     ]
     
     ### ==== Prepare data for plotting ====
