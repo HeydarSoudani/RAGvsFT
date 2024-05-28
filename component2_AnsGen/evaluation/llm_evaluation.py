@@ -327,7 +327,6 @@ def main(args):
                 
                 try:
                     highlighted_text = json.loads(highlight_results[query_id]['highlighted_text'])
-                    print(highlighted_text)
                     if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
                         sentences = highlighted_text['sentence']
                     elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
