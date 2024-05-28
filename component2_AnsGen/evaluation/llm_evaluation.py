@@ -317,11 +317,9 @@ def main(args):
         
     accuracy = []
     with open(out_results_path, 'w') as file:
-        idx =  0
-        for i, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
+        for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
             if query_id in qa_list:
-                idx += 1
                 retrieved_text = ""
                 has_context = False
                 
