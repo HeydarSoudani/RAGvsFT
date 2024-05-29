@@ -72,7 +72,7 @@ def main(args):
                         print(corpus)
                         queries = {query_id: query}
                         print(queries)
-                        retrieve_results = retriever.retrieve(corpus, queries)
+                        retrieve_results = retriever.retrieve(corpus, queries, top_k=3)
                         print(retrieve_results)
                             
                         # === Step 2: Save the retrieved sentences to a file ===
