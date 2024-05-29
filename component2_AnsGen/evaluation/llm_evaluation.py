@@ -263,6 +263,16 @@ def main(args):
     test_relation_ids, test_files, relation_files = load_relations_data(args)
     test_questions, test_answers = load_dataset(test_files)
     
+    # == Loading highligted passages =========================
+    qa_list = []
+    highlight_results = {}
+    highlight_results_file = f'{args.data_dir}/retrieved_highlight/all_dpr_3_separate_out.jsonl'
+    with open (highlight_results_file, 'r') as file:
+        for line in file:
+            data = json.loads(line.strip())
+            highlight_results[data['query_id']] = data
+            qa_list.append(data['query_id'])
+    
     # == Loading the retrieval results (corpus) ==============
     if args.with_rag_corpus:
         ret_results = {}
@@ -274,18 +284,19 @@ def main(args):
                 for line in file:
                     data = json.loads(line.strip())
                     ret_results[data['id']] = data
-    
-    
-    # == Loading highligted passages =========================
-    qa_list = []
-    highlight_results = {}
-    highlight_results_file = f'{args.data_dir}/retrieved_highlight/all_dpr_3_separate_out.jsonl'
-    with open (highlight_results_file, 'r') as file:
-        for line in file:
-            data = json.loads(line.strip())
-            highlight_results[data['query_id']] = data
-            qa_list.append(data['query_id'])
-            
+
+
+    # == Loading the sentence reranking results ==============
+    if args.with_rag_sentence_rerank:
+        ret_sent_rerank = {}
+        ret_results_dir = f"{args.data_dir}/reranked_sentences/{args.retrieval_method}_3"
+        for test_relation_id in test_relation_ids:
+            ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.ret_results.jsonl"
+            with open (ret_results_path, 'r') as file:
+                for line in file:
+                    data = json.loads(line.strip())
+                    ret_sent_rerank[data['id']] = data
+
     
     # == Loading the retrieval results (qa_pairs) ============
     if args.with_rag_qa_pairs:
@@ -326,6 +337,17 @@ def main(args):
                 highlight_idx += 1
                 retrieved_text = ""
                 has_context = False
+                
+                # == Apply retrieved QA pairs ====================
+                if args.with_rag_qa_pairs:
+                    qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
+                    qa_pairs_text = ""
+                    if len(qa_pairs_data) > 0:
+                        has_context = True
+                        for qa_pair in qa_pairs_data:
+                            qa_pairs_text += f"{qa_pair['question']} {qa_pair['answers'][0]}\n"
+                    
+                    retrieved_text += f"{qa_pairs_text}\n"
                 
                 # == Apply highlight text ========================
                 if args.with_highlighted_text:
@@ -368,6 +390,13 @@ def main(args):
                         print(f"Error decoding JSON for query_id {query_id}: {e}")
                         print(f"Problematic JSON string: {highlight_results[query_id]['highlighted_text']}")
                 
+                # == Apply retrieved sentence rerank =============
+                if args.with_rag_sentence_rerank:
+                    rerank_results = ret_sent_rerank[query_id]['sentences']
+                    reranked_text = "".join(f"{rerank_results[i]['sentence']} \n" for i in range(args.num_reranked_sentences) if i < len(rerank_results))
+                    retrieved_text += f"{reranked_text}\n"
+                    has_context = True             
+                
                 # == Apply retrieved corpus text =================
                 if args.with_rag_corpus:
                     # if not has_context:
@@ -376,20 +405,9 @@ def main(args):
                     retrieved_text += f"{truncate_text(corpus_text, max_token)}\n"
                     has_context = True
 
-                    if retrieved_text == "":
-                        logging.info(f"\nNo retrieved text found for query: {query}") 
-                        print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
-                
-                # == Apply retrieved QA pairs ====================
-                if args.with_rag_qa_pairs:
-                    qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
-                    qa_pairs_text = ""
-                    if len(qa_pairs_data) > 0:
-                        has_context = True
-                        for qa_pair in qa_pairs_data:
-                            qa_pairs_text += f"{qa_pair['question']} {qa_pair['answers'][0]}\n"
-                    
-                    retrieved_text += f"{qa_pairs_text}\n"
+                if retrieved_text == "":
+                    logging.info(f"\nNo retrieved text found for query: {query}") 
+                    print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
                 
                 if has_context:
                     prompt = prompt_template_w_context.format(context=retrieved_text, question=query)        
@@ -472,9 +490,13 @@ if __name__ == "__main__":
     parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--output_file_pre_prefix", type=str)
     parser.add_argument("--with_peft", type=str2bool, default=False)
-    parser.add_argument("--with_highlighted_text", type=str2bool, default=False)
-    parser.add_argument("--with_rag_corpus", type=str2bool, default=False)
+    
     parser.add_argument("--with_rag_qa_pairs", type=str2bool, default=False)
+    parser.add_argument("--with_highlighted_text", type=str2bool, default=False)
+    parser.add_argument("--with_rag_sentence_rerank", type=str2bool, default=False)
+    parser.add_argument("--num_reranked_sentences", type=int, default=1)
+    
+    parser.add_argument("--with_rag_corpus", type=str2bool, default=False)
     parser.add_argument("--num_retrieved_passages", type=int, default=1)
     parser.add_argument("--retrieval_method", type=str)
     parser.add_argument("--seed", type=int)
