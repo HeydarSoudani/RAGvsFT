@@ -48,7 +48,7 @@ def main(args):
                 print(f"Processing {relation_id}...")
                 
                 output_file_path = os.path.join(reranked_sentences_dir, f'{relation_id}.{retrieval_method}.set_reranked.jsonl')
-                with open(filename, 'w') as f_in, open(output_file_path, 'w') as f_out:
+                with open(filename, 'r') as f_in, open(output_file_path, 'w') as f_out:
                     for line in f_in:
                         data = json.loads(line.strip())
                         query_id = data['id']
