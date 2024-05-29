@@ -78,7 +78,8 @@ def main(args):
                         
                         queries = {query_id: query}
                         retrieve_results = retriever.retrieve(corpus, queries)
-                        print(retrieve_results)
+                        retrieve_results_sorted = dict(sorted(retrieve_results.items(), key=lambda item: item[1], reverse=True))
+                        print(retrieve_results_sorted)
                             
                         # === Step 2: Save the retrieved sentences to a file ===
 
