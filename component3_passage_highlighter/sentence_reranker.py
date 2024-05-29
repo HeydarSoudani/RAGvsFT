@@ -38,7 +38,7 @@ def main(args):
     
     #### Reranking top-100 docs using Dense Retriever model 
     dense_retriever_model = 'msmarco-distilbert-base-v2'
-    model = DRES(models.SentenceBERT(dense_retriever_model), batch_size=128, device=device)
+    model = DRES(models.SentenceBERT(dense_retriever_model), batch_size=1, device=device)
     retriever = EvaluateRetrieval(model, score_function="dot")
     
     
