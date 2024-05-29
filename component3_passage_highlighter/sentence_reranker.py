@@ -50,8 +50,8 @@ def main(args):
     
     
     for idx, filename in enumerate(os.listdir(retrieved_passage_dir)):
-        if idx == 1:
-                break
+        # if idx == 1:
+        #     break
             
         if filename.endswith('.jsonl'):
             relation_id = filename.split('.')[0]
