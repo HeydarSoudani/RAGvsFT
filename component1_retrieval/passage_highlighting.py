@@ -153,7 +153,7 @@ def main(args):
     args.data_dir = f"component0_preprocessing/generated_data/{args.dataset_name}_costomized"
     
     # == Create results dir and file ========================
-    output_file = f'{args.data_dir}/highlight_results/all_{args.retrieval_method}.jsonl'
+    output_file = f'{args.data_dir}/retrieved_highlight/all_{args.retrieval_method}_{args.num_retrieved_passages}_{args.passage_concatenation}.jsonl'
     os.makedirs(f'{args.data_dir}/highlight_results', exist_ok=True)
     
     logging.info(f"""
