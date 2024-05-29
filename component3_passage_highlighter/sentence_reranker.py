@@ -65,7 +65,7 @@ def main(args):
                             for sentence in sentences:
                                 corpus[f"{doc_id}_{sentence_id}"] = {
                                     "text": sentence,
-                                    "title": '---'
+                                    "title": f"{doc_id}_{sentence_id}_"
                                 }
                                 sentence_id += 1
                         
