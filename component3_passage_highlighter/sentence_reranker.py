@@ -34,20 +34,14 @@ def main(args):
         device = torch.device("cpu")
         print("Running on the CPU")
     
-    dataset_name = "popQA" # popQA, witQA, EQ
-    retrieval_method = 'dpr' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
-
-    base_dir = f"component0_preprocessing/generated_data/{dataset_name}_costomized"
-    retrieved_passage_dir = f"{base_dir}/retrieved_passage/{retrieval_method}_3"
-    reranked_sentences_dir = f"{base_dir}/reranked_sentences/{retrieval_method}_3"
+    base_dir = f"component0_preprocessing/generated_data/{args.dataset_name}_costomized"
+    retrieved_passage_dir = f"{base_dir}/retrieved_passage/{args.retrieval_method}_3"
+    reranked_sentences_dir = f"{base_dir}/reranked_sentences/{args.retrieval_method}_3"
     os.makedirs(f'{base_dir}/reranked_sentences', exist_ok=True)
     os.makedirs(reranked_sentences_dir, exist_ok=True)
     
-    #### Reranking top-100 docs using Dense Retriever model 
-    dense_retriever_model = 'msmarco-distilbert-base-v2'
-    model = DRES(models.SentenceBERT(dense_retriever_model), batch_size=1, device=device)
+    model = DRES(models.SentenceBERT(args.dense_model), batch_size=1, device=device)
     retriever = EvaluateRetrieval(model, score_function="cos_sim", k_values=[1,3, 5])
-    
     
     for idx, filename in enumerate(os.listdir(retrieved_passage_dir)):
         # if idx == 1:
@@ -57,7 +51,7 @@ def main(args):
             relation_id = filename.split('.')[0]
             print(f"Processing {relation_id}...")
             
-            output_file_path = os.path.join(reranked_sentences_dir, f'{relation_id}.{retrieval_method}.set_reranked.jsonl')
+            output_file_path = os.path.join(reranked_sentences_dir, f'{relation_id}.{args.retrieval_method}.set_reranked.jsonl')
             with open(f"{retrieved_passage_dir}/{filename}", 'r') as f_in, open(output_file_path, 'w') as f_out:
                 for line in f_in:
                     data = json.loads(line.strip())
@@ -101,5 +95,8 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument("--model", required=True)
+    parser.add_argument("--dataset_name", type=str, required=True)
+    parser.add_argument("--retrieval_method", type=str, required=True)
     args = parser.parse_args()
     main(args)
