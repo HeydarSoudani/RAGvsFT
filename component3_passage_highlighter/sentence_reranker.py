@@ -6,7 +6,6 @@ import nltk
 import json
 import torch
 import argparse
-from itertools import chain
 
 nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
@@ -15,11 +14,9 @@ from nltk.tokenize import sent_tokenize
 print(os.getcwd())
 import sys
 sys.path.append(os.getcwd())
-
 from beir.retrieval import models
 from beir.retrieval.evaluation import EvaluateRetrieval
 from beir.retrieval.search.dense import DenseRetrievalExactSearch as DRES
-
 
 
 def main(args):
@@ -95,7 +92,7 @@ def main(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model", required=True)
+    parser.add_argument("--dense_model", required=True)
     parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--retrieval_method", type=str, required=True)
     args = parser.parse_args()
