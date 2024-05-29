@@ -353,11 +353,11 @@ def main(args):
                             highlighted_text = item['highlighted']
                             if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
                                 sentences = highlighted_text['sentence']
-                                retrieved_text += f"{' '.join(sentences)} "
+                                retrieved_text += f"{' '.join(sentences)}\n"
                                 has_context = True
                             elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
                                 sentences = highlighted_text['sentences']
-                                retrieved_text += f"{' '.join(sentences)} "
+                                retrieved_text += f"{' '.join(sentences)}\n"
                                 has_context = True
                             else:
                                 logging.info(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
@@ -368,18 +368,13 @@ def main(args):
                         print(f"Error decoding JSON for query_id {query_id}: {e}")
                         print(f"Problematic JSON string: {highlight_results[query_id]['highlighted_text']}")
                 
-                    
-
-                
-                
                 # == Apply retrieved corpus text =================
-                # if retrieved_text == "":
                 if args.with_rag_corpus:
-                    if not has_context:
-                        max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
-                        corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
-                        retrieved_text += f"{truncate_text(corpus_text, max_token)}\n"
-                        has_context = True
+                    # if not has_context:
+                    max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
+                    corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
+                    retrieved_text += f"{truncate_text(corpus_text, max_token)}\n"
+                    has_context = True
 
                     if retrieved_text == "":
                         logging.info(f"\nNo retrieved text found for query: {query}") 
