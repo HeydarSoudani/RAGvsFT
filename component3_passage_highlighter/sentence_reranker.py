@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
 
 import os
+import sys
 import nltk
 import json
 import torch
 import argparse
 from itertools import chain
 
+
+beir_path = os.path.join('beir')
+sys.path.insert(0, beir_path)
 from beir.retrieval import models
 from beir.retrieval.evaluation import EvaluateRetrieval
 from beir.retrieval.search.dense import DenseRetrievalExactSearch as DRES
