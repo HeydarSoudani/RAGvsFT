@@ -34,10 +34,6 @@ def main(args):
         print("Running on the CPU")
     
     model = DRES(models.SentenceBERT(args.model, batch_size=128), device=device)
-    # model = DRES(models.SentenceBERT((
-    #     "facebook-dpr-question_encoder-multiset-base",
-    #     "facebook-dpr-ctx_encoder-multiset-base",
-    #     " [SEP] "), batch_size=128), device=device)
     retriever = EvaluateRetrieval(model, score_function="dot")
     
     dataloader = CostomizedGenericDataLoader(data_folder = args.data_path)

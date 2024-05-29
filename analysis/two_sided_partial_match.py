@@ -40,9 +40,10 @@ output_file = f"{output_dir}/{model_type}/{dataset_name}_{model_name}_{result_te
 os.makedirs(output_dir, exist_ok=True)
 os.makedirs(f"{output_dir}/{model_type}", exist_ok=True)
 
-input_file = 'analysis/on_false_results/popQA_MiniCPM_1r_2p_bf_rag_ideal_full_results.jsonl'
-output_file = 'analysis/on_false_results/popQA_MiniCPM_1r_2p_bf_rag_ideal_full_results_two_sided.jsonl'
 
+
+input_file = 'component0_preprocessing/generated_data/popQA_costomized/results/popQA_MiniCPM_5pcent_h_0r_0p_bf_rag_dpr_peft_results.jsonl'
+output_file = 'component0_preprocessing/generated_data/popQA_costomized/results/popQA_MiniCPM_5pcent_h_0r_0p_bf_rag_dpr_peft_results_1side.jsonl'
 
 def main():
     with open(input_file, 'r', encoding='utf-8') as f:
@@ -60,12 +61,12 @@ def main():
                     is_correct = True
                     break
                 
-            pred_parts = pred.split()
-            for pa in possible_answers:
-                for part in pred_parts:
-                    if part in pa or part.lower() in pa or part.capitalize() in pa:
-                        is_correct = True
-                        break  
+            # pred_parts = pred.split()
+            # for pa in possible_answers:
+            #     for part in pred_parts:
+            #         if part in pa or part.lower() in pa or part.capitalize() in pa:
+            #             is_correct = True
+            #             break  
             
             accuracy.append(is_correct)
             

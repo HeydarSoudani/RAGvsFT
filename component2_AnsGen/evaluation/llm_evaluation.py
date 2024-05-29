@@ -415,8 +415,8 @@ def main(args):
                 elif args.llm_model_name == 'MiniCPM':
                     pred = result.split("<AI>")[1].strip()
                 
-                # is_correct = one_sided_partial_match(pred, test_answers[idx])         
-                is_correct = two_sided_partial_match(pred, test_answers[idx])
+                is_correct = one_sided_partial_match(pred, test_answers[idx])         
+                # is_correct = two_sided_partial_match(pred, test_answers[idx])
                 accuracy.append(is_correct)
                 
                 if highlight_idx < 10 or highlight_idx % 200 == 0:
