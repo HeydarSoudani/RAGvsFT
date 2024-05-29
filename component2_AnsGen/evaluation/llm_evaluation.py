@@ -387,13 +387,6 @@ def main(args):
                         print(f"Error decoding JSON for query_id {query_id}: {e}")
                         print(f"Problematic JSON string: {highlight_results[query_id]['highlighted_text']}")
                 
-                # == Apply retrieved sentence rerank =============
-                if args.with_rag_sentence_rerank:
-                    rerank_results = ret_sent_rerank[query_id]['sentences']
-                    reranked_text = "".join(f"{rerank_results[i]['sentence']} \n" for i in range(args.num_reranked_sentences) if i < len(rerank_results))
-                    retrieved_text += f"{reranked_text}\n"
-                    has_context = True             
-                
                 # == Apply retrieved corpus text =================
                 if args.with_rag_corpus:
                     # if not has_context:
@@ -401,7 +394,14 @@ def main(args):
                     corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
                     retrieved_text += f"{truncate_text(corpus_text, max_token)}\n"
                     has_context = True
-
+                
+                # == Apply retrieved sentence rerank =============
+                if args.with_rag_sentence_rerank:
+                    rerank_results = ret_sent_rerank[query_id]['sentences']
+                    reranked_text = "".join(f"{rerank_results[i]['sentence']} \n" for i in range(args.num_reranked_sentences) if i < len(rerank_results))
+                    retrieved_text += f"{reranked_text}\n"
+                    has_context = True             
+                
                 if retrieved_text == "":
                     logging.info(f"\nNo retrieved text found for query: {query}") 
                     print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
