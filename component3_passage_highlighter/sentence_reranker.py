@@ -34,6 +34,7 @@ def main(args):
     retrieved_passage_dir = f"{base_dir}/retrieved_passage/{retrieval_method}_3"
     reranked_sentences_dir = f"{base_dir}/reranked_sentences/{retrieval_method}_3"
     os.makedirs(f'{base_dir}/reranked_sentences', exist_ok=True)
+    os.makedirs(reranked_sentences_dir, exist_ok=True)
     
     #### Reranking top-100 docs using Dense Retriever model 
     dense_retriever_model = 'msmarco-distilbert-base-v2'
