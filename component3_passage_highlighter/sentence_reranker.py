@@ -30,8 +30,10 @@ def main(args):
     dataset_name = "popQA" # popQA, witQA, EQ
     retrieval_method = 'dpr' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
 
-    retrieved_passage_dir = f"component0_preprocessing/generated_data/{dataset_name}_costomized/retrieved_passage/{retrieval_method}_3"
-    reranked_sentences_dir = f"component0_preprocessing/generated_data/{dataset_name}_costomized/reranked_sentences/{retrieval_method}_3"
+    base_dir = f"component0_preprocessing/generated_data/{dataset_name}_costomized"
+    retrieved_passage_dir = f"{base_dir}/retrieved_passage/{retrieval_method}_3"
+    reranked_sentences_dir = f"{base_dir}/reranked_sentences/{retrieval_method}_3"
+    os.makedirs(f'{base_dir}/reranked_sentences', exist_ok=True)
     
     #### Reranking top-100 docs using Dense Retriever model 
     dense_retriever_model = 'msmarco-distilbert-base-v2'
