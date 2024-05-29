@@ -122,7 +122,8 @@ HeydarS
 
 data/dataset
 archive
-models
+# models
+
 
 analysis/archive
 
@@ -145,6 +146,7 @@ component1_retrieval/results
 component1_retrieval/dpr/models
 
 component2_AnsGen/archive
+component2_AnsGen/models
 
 
 component0_preprocessing/generated_data/popQA_costomized/qa_llama3
@@ -152,4 +154,5 @@ analysis/images_results
 analysis/on_false_results
 
 
+# beir/retrieval/models
 
