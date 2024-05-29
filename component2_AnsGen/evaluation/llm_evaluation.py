@@ -285,19 +285,17 @@ def main(args):
                     data = json.loads(line.strip())
                     ret_results[data['id']] = data
 
-
     # == Loading the sentence reranking results ==============
     if args.with_rag_sentence_rerank:
         ret_sent_rerank = {}
         ret_results_dir = f"{args.data_dir}/reranked_sentences/{args.retrieval_method}_3"
         for test_relation_id in test_relation_ids:
-            ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.ret_results.jsonl"
+            ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.set_reranked.jsonl"
             with open (ret_results_path, 'r') as file:
                 for line in file:
                     data = json.loads(line.strip())
                     ret_sent_rerank[data['id']] = data
 
-    
     # == Loading the retrieval results (qa_pairs) ============
     if args.with_rag_qa_pairs:
         ret_qa_results = {}
@@ -308,7 +306,6 @@ def main(args):
                 for line in file:
                     data = json.loads(line.strip())
                     ret_qa_results[data['query_id']] = data
-    
     
     # == Loop over the test questions ========================
     if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
