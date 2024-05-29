@@ -279,7 +279,7 @@ def main(args):
     # == Loading highligted passages =========================
     qa_list = []
     highlight_results = {}
-    highlight_results_file = f'{args.data_dir}/retrieved_highlight/all_dpr_3_out.jsonl'
+    highlight_results_file = f'{args.data_dir}/retrieved_highlight/all_dpr_3_separate_out.jsonl'
     with open (highlight_results_file, 'r') as file:
         for line in file:
             data = json.loads(line.strip())
@@ -329,24 +329,47 @@ def main(args):
                 
                 # == Apply highlight text ========================
                 if args.with_highlighted_text:
+                    
                     try:
-                        highlighted_text = highlight_results[query_id]['highlighted_text']
-                        if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
-                            sentences = highlighted_text['sentence']
-                            retrieved_text += f"{' '.join(sentences)}\n"
-                            has_context = True
-                        elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
-                            sentences = highlighted_text['sentences']
-                            retrieved_text += f"{' '.join(sentences)}\n"
-                            has_context = True
-                        else:
-                            sentences = []
-                            logging.info(f"\nNo highlighted text found for query: {query_id}, {query}") 
-                            print("\nNo highlighted text found for query: {}, {}".format(query_id, query))
+                        ## == This part is for concatinated highlighted text
+                        # highlighted_text = highlight_results[query_id]['highlighted_text']
+                        # if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
+                        #     sentences = highlighted_text['sentence']
+                        #     retrieved_text += f"{' '.join(sentences)}\n"
+                        #     has_context = True
+                        # elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
+                        #     sentences = highlighted_text['sentences']
+                        #     retrieved_text += f"{' '.join(sentences)}\n"
+                        #     has_context = True
+                        # else:
+                        #     sentences = []
+                        #     logging.info(f"\nNo highlighted text found for query: {query_id}, {query}") 
+                        #     print("\nNo highlighted text found for query: {}, {}".format(query_id, query))
+                    
+                        ## == This part is for seperate highlighted text
+                        highlighted_text_list = highlight_results[query_id]['highlighted_text']
+                        for item in highlighted_text_list:
+                            ret_rank = item['ret_rank']
+                            highlighted_text = item['highlighted']
+                            if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
+                                sentences = highlighted_text['sentence']
+                                retrieved_text += f"{' '.join(sentences)}\n"
+                                has_context = True
+                            elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
+                                sentences = highlighted_text['sentences']
+                                retrieved_text += f"{' '.join(sentences)}\n"
+                                has_context = True
+                            else:
+                                logging.info(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
+                                print(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
+                        
                     
                     except json.decoder.JSONDecodeError as e:
                         print(f"Error decoding JSON for query_id {query_id}: {e}")
                         print(f"Problematic JSON string: {highlight_results[query_id]['highlighted_text']}")
+                
+                    
+
                 
                 
                 # == Apply retrieved corpus text =================
