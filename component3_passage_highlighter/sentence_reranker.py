@@ -8,16 +8,18 @@ import torch
 import argparse
 from itertools import chain
 
-
-# beir_path = os.path.join('beir')
-# sys.path.insert(0, beir_path)
-# from . import beir
-from .beir.retrieval import models
-from .beir.retrieval.evaluation import EvaluateRetrieval
-from .beir.retrieval.search.dense import DenseRetrievalExactSearch as DRES
-
 nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
+
+
+print(os.getcwd())
+import sys
+sys.path.append(os.getcwd())
+
+from beir.retrieval import models
+from beir.retrieval.evaluation import EvaluateRetrieval
+from beir.retrieval.search.dense import DenseRetrievalExactSearch as DRES
+
 
 
 def main(args):
