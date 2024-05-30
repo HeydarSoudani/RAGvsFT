@@ -4,8 +4,8 @@ import ast
 
 
 def main(args):
-    dataset_name = "popQA" # popQA, witQA, EQ
-    retrieval_method = 'contriever' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
+    dataset_name = "EQ" # popQA, witQA, EQ
+    retrieval_method = 'dpr' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
     number_of_passages = 3
     dataset_dir = f"component1_retrieval/data/{dataset_name}"
     
@@ -93,22 +93,12 @@ def main(args):
                                         "text": context,
                                         "hasanswer": False
                                     })
-                        
-                        # ======================            
+                                  
                         combined_obj = {
                             "id": query_id,
                             "question": question,
                             "ctxs": contexts,
                         }
-                        # combined_obj = {
-                        #     "id": query_id,
-                        #     "question": question,
-                        #     "ctxs": [{
-                        #         "id": doc_id,
-                        #         "text": context,
-                        #         "hasanswer": True
-                        #     }],
-                        # }
                         ofile.write(json.dumps(combined_obj) + "\n")
     
     else:
@@ -129,7 +119,6 @@ def main(args):
                             question = item["question"]
                             
                             for row in tsv_reader:
-                                # TODO: ret_doc_id is a list
                                 ret_query_id, ret_doc_ids = row[0], row[1]
                                 if query_id == ret_query_id:
                                     doc_ids = ast.literal_eval(ret_doc_ids)
