@@ -38,7 +38,7 @@ def main(args):
     os.makedirs(reranked_sentences_dir, exist_ok=True)
     
     model = DRES(models.SentenceBERT(args.dense_model), batch_size=1, device=device)
-    retriever = EvaluateRetrieval(model, score_function="cos_sim", k_values=[1,3, 5])
+    retriever = EvaluateRetrieval(model, score_function="dot", k_values=[1, 3, 5])
     
     for idx, filename in enumerate(os.listdir(retrieved_passage_dir)):
         # if idx == 1:
