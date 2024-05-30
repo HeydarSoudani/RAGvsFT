@@ -199,9 +199,9 @@ def main(args):
     out_results_dir = f"{args.output_result_dir}/results"
     os.makedirs(out_results_dir, exist_ok=True)
     
-    rag_part = "rag" if (args.with_rag_corpus or args.with_rag_qa_pairs) else "norag"
+    rag_part = "rag" if (args.with_rag_corpus or args.with_rag_sentence_rerank or args.with_rag_qa_pairs) else "norag"
     peft_part = "peft" if args.with_peft else "full"
-    if (args.with_rag_corpus or args.with_rag_qa_pairs):
+    if (args.with_rag_corpus or args.with_rag_sentence_rerank or args.with_rag_qa_pairs):
         file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{args.retrieval_method}_{peft_part}"
     else:
         file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{peft_part}"
@@ -209,6 +209,17 @@ def main(args):
     out_results_path = f"{out_results_dir}/{file_prefix}_results.jsonl"
     
     logging.info(f"""
+        Model: {args.model_name_or_path}
+        Dataset: {args.dataset_name}
+        PEFT: {args.with_peft}
+        RAG (corpus): {args.with_rag_corpus}
+        RAG (QA pairs): {args.with_rag_qa_pairs}
+        Retrieval method: {args.retrieval_method}
+        Output file's prefix: {file_prefix}
+        Seed: {args.seed}
+        """
+    )
+    print(f"""
         Model: {args.model_name_or_path}
         Dataset: {args.dataset_name}
         PEFT: {args.with_peft}
@@ -327,144 +338,143 @@ def main(args):
         
     accuracy = []
     with open(out_results_path, 'w') as file:
-        highlight_idx = 0
+        # highlight_idx = 0
         for idx, (query_id, query, query_pv, query_relation) in enumerate(tqdm(test_questions)):
             
-            if query_id in qa_list:
-                highlight_idx += 1
-                retrieved_text = ""
-                has_context = False
-                
-                # == Apply retrieved QA pairs ====================
-                if args.with_rag_qa_pairs:
-                    qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
-                    qa_pairs_text = ""
-                    if len(qa_pairs_data) > 0:
-                        has_context = True
-                        for qa_pair in qa_pairs_data:
-                            qa_pairs_text += f"{qa_pair['question']} {qa_pair['answers'][0]}\n"
-                    
-                    retrieved_text += f"{qa_pairs_text}\n"
-                
-                # == Apply highlight text ========================
-                if args.with_highlighted_text:
-                    
-                    try:
-                        ## == This part is for concatinated highlighted text
-                        # highlighted_text = highlight_results[query_id]['highlighted_text']
-                        # if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
-                        #     sentences = highlighted_text['sentence']
-                        #     retrieved_text += f"{' '.join(sentences)}\n"
-                        #     has_context = True
-                        # elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
-                        #     sentences = highlighted_text['sentences']
-                        #     retrieved_text += f"{' '.join(sentences)}\n"
-                        #     has_context = True
-                        # else:
-                        #     sentences = []
-                        #     logging.info(f"\nNo highlighted text found for query: {query_id}, {query}") 
-                        #     print("\nNo highlighted text found for query: {}, {}".format(query_id, query))
-                    
-                        ## == This part is for seperate highlighted text
-                        highlighted_text_list = highlight_results[query_id]['highlighted_text']
-                        for item in highlighted_text_list:
-                            ret_rank = item['ret_rank']
-                            highlighted_text = item['highlighted']
-                            if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
-                                sentences = highlighted_text['sentence']
-                                retrieved_text += f"{' '.join(sentences)}\n"
-                                has_context = True
-                            elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
-                                sentences = highlighted_text['sentences']
-                                retrieved_text += f"{' '.join(sentences)}\n"
-                                has_context = True
-                            else:
-                                logging.info(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
-                                print(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
-                        
-                    
-                    except json.decoder.JSONDecodeError as e:
-                        print(f"Error decoding JSON for query_id {query_id}: {e}")
-                        print(f"Problematic JSON string: {highlight_results[query_id]['highlighted_text']}")
-                
-                # == Apply retrieved sentence rerank =============
-                if args.with_rag_sentence_rerank:
-                    rerank_results = ret_sent_rerank[query_id]['sentences']
-                    reranked_text = "".join(f"{rerank_results[i]['sentence']} \n" for i in range(args.num_reranked_sentences) if i < len(rerank_results))
-                    retrieved_text += f"{reranked_text}\n"
-                    has_context = True             
-                
-                # == Apply retrieved corpus text =================
-                if args.with_rag_corpus:
-                    # if not has_context:
-                    max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
-                    corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
-                    retrieved_text += f"{truncate_text(corpus_text, max_token)}\n"
+            # if query_id in qa_list:
+            # highlight_idx += 1
+            retrieved_text = ""
+            has_context = False
+            
+            # == Apply retrieved QA pairs ====================
+            if args.with_rag_qa_pairs:
+                qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
+                qa_pairs_text = ""
+                if len(qa_pairs_data) > 0:
                     has_context = True
+                    for qa_pair in qa_pairs_data:
+                        qa_pairs_text += f"{qa_pair['question']} {qa_pair['answers'][0]}\n"
                 
-                if retrieved_text == "":
-                    logging.info(f"\nNo retrieved text found for query: {query}") 
-                    print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
+                retrieved_text += f"{qa_pairs_text}\n"
+            
+            # == Apply highlight text ========================
+            if args.with_highlighted_text:
                 
-                if has_context:
-                    prompt = prompt_template_w_context.format(context=retrieved_text, question=query)        
-                else:
-                    prompt = prompt_template_wo_context.format(question=query)
+                try:
+                    ## == This part is for concatinated highlighted text
+                    # highlighted_text = highlight_results[query_id]['highlighted_text']
+                    # if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
+                    #     sentences = highlighted_text['sentence']
+                    #     retrieved_text += f"{' '.join(sentences)}\n"
+                    #     has_context = True
+                    # elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
+                    #     sentences = highlighted_text['sentences']
+                    #     retrieved_text += f"{' '.join(sentences)}\n"
+                    #     has_context = True
+                    # else:
+                    #     sentences = []
+                    #     logging.info(f"\nNo highlighted text found for query: {query_id}, {query}") 
+                    #     print("\nNo highlighted text found for query: {}, {}".format(query_id, query))
+                
+                    ## == This part is for seperate highlighted text
+                    highlighted_text_list = highlight_results[query_id]['highlighted_text']
+                    for item in highlighted_text_list:
+                        ret_rank = item['ret_rank']
+                        highlighted_text = item['highlighted']
+                        if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
+                            sentences = highlighted_text['sentence']
+                            retrieved_text += f"{' '.join(sentences)}\n"
+                            has_context = True
+                        elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
+                            sentences = highlighted_text['sentences']
+                            retrieved_text += f"{' '.join(sentences)}\n"
+                            has_context = True
+                        else:
+                            logging.info(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
+                            print(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
                     
-                       
-                n_max_trial = 5
-                for i in range(n_max_trial):
-                    try:
-                        result = pipe(prompt)[0]['generated_text']
-                        break
-                    except Exception as e:
-                        print(f"Try #{i+1} for Query: {query_id}")
-                        print('Error message:', e)
                 
-                if args.llm_model_name == 'flant5':
-                    pred = result
-                elif args.llm_model_name in ["llama2", "mistral"]:
-                    pred = result.split("[/INST]")[1].strip()
-                elif args.llm_model_name in ['zephyr', "stable_lm2", "tiny_llama"]:
-                    pred = result.split("<|assistant|>")[1].strip()
-                elif args.llm_model_name == 'MiniCPM':
-                    pred = result.split("<AI>")[1].strip()
-                
-                is_correct = one_sided_partial_match(pred, test_answers[idx])         
-                # is_correct = two_sided_partial_match(pred, test_answers[idx])
-                accuracy.append(is_correct)
-                
-                if highlight_idx < 10 or highlight_idx % 200 == 0:
-                # if idx < 10 or idx % 200 == 0:
-                    # logging.info('\n')
-                    # logging.info(f"Prompt: {prompt}")
-                    # logging.info(f"Query: {query}")
-                    # logging.info(f"Has context: {has_context}"),
-                    # logging.info(f"# context: {len(ret_results[query_id]['ctxs'])}"),
-                    # logging.info(f"Pred: {pred}")
-                    # logging.info(f"Labels: {test_answers[idx]}")
-                    # logging.info(f"Final decision: {is_correct}")
-                    # logging.info('====')
-                    print('\n')
-                    print(f"Prompt: {prompt}")
-                    print(f"Query: {query}")
-                    print(f"Has context: {has_context}"),
-                    # print(f"# context: {len(ret_results[query_id]['ctxs'])}"),
-                    print(f"Pred: {pred}")
-                    print(f"Labels: {test_answers[idx]}")
-                    print(f"Final decision: {is_correct}")
-                    print('====')
-                
-                item = {
-                    "query_id": query_id,
-                    "question": query,
-                    "possible_answers": test_answers[idx],
-                    "pred": pred,
-                    "is_correct": is_correct,
-                    "has_context": has_context,
-                    "pageviews": query_pv
-                }
-                file.write(json.dumps(item) + '\n')
+                except json.decoder.JSONDecodeError as e:
+                    print(f"Error decoding JSON for query_id {query_id}: {e}")
+                    print(f"Problematic JSON string: {highlight_results[query_id]['highlighted_text']}")
+            
+            # == Apply retrieved sentence rerank =============
+            if args.with_rag_sentence_rerank:
+                rerank_results = ret_sent_rerank[query_id]['sentences']
+                reranked_text = "".join(f"{rerank_results[i]['sentence']} \n" for i in range(args.num_reranked_sentences) if i < len(rerank_results))
+                retrieved_text += f"{reranked_text}\n"
+                has_context = True             
+            
+            # == Apply retrieved corpus text =================
+            if args.with_rag_corpus:
+                # if not has_context:
+                max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
+                corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
+                retrieved_text += f"{truncate_text(corpus_text, max_token)}\n"
+                has_context = True
+            
+            if retrieved_text == "":
+                logging.info(f"\nNo retrieved text found for query: {query}") 
+                print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
+            
+            if has_context:
+                prompt = prompt_template_w_context.format(context=retrieved_text, question=query)        
+            else:
+                prompt = prompt_template_wo_context.format(question=query)
+                   
+            n_max_trial = 5
+            for i in range(n_max_trial):
+                try:
+                    result = pipe(prompt)[0]['generated_text']
+                    break
+                except Exception as e:
+                    print(f"Try #{i+1} for Query: {query_id}")
+                    print('Error message:', e)
+            
+            if args.llm_model_name == 'flant5':
+                pred = result
+            elif args.llm_model_name in ["llama2", "mistral"]:
+                pred = result.split("[/INST]")[1].strip()
+            elif args.llm_model_name in ['zephyr', "stable_lm2", "tiny_llama"]:
+                pred = result.split("<|assistant|>")[1].strip()
+            elif args.llm_model_name == 'MiniCPM':
+                pred = result.split("<AI>")[1].strip()
+            
+            is_correct = one_sided_partial_match(pred, test_answers[idx])         
+            # is_correct = two_sided_partial_match(pred, test_answers[idx])
+            accuracy.append(is_correct)
+            
+            # if highlight_idx < 10 or highlight_idx % 200 == 0:
+            if idx < 10 or idx % 400 == 0:
+                # logging.info('\n')
+                # logging.info(f"Prompt: {prompt}")
+                # logging.info(f"Query: {query}")
+                # logging.info(f"Has context: {has_context}"),
+                # logging.info(f"# context: {len(ret_results[query_id]['ctxs'])}"),
+                # logging.info(f"Pred: {pred}")
+                # logging.info(f"Labels: {test_answers[idx]}")
+                # logging.info(f"Final decision: {is_correct}")
+                # logging.info('====')
+                print('\n')
+                print(f"Prompt: {prompt}")
+                print(f"Query: {query}")
+                print(f"Has context: {has_context}"),
+                # print(f"# context: {len(ret_results[query_id]['ctxs'])}"),
+                print(f"Pred: {pred}")
+                print(f"Labels: {test_answers[idx]}")
+                print(f"Final decision: {is_correct}")
+                print('====')
+            
+            item = {
+                "query_id": query_id,
+                "question": query,
+                "possible_answers": test_answers[idx],
+                "pred": pred,
+                "is_correct": is_correct,
+                "has_context": has_context,
+                "pageviews": query_pv
+            }
+            file.write(json.dumps(item) + '\n')
     acc = sum(accuracy) / len(accuracy)
     logging.info(f"Accuracy: {acc * 100:.2f}%")
     print(f"Accuracy: {acc * 100:.2f}%")
