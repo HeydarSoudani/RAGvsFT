@@ -19,7 +19,7 @@ srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
     --output_file_pre_prefix "5pcent_h_0r_0p_bf" \
     --with_peft False \
     --with_rag_qa_pairs False \
-    --with_highlighted_text False \
+    --with_rag_sentence_highlight False \
     --with_rag_sentence_rerank False \
     --num_reranked_sentences 3 \
     --with_rag_corpus False \

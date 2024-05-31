@@ -274,16 +274,6 @@ def main(args):
     test_relation_ids, test_files, relation_files = load_relations_data(args)
     test_questions, test_answers = load_dataset(test_files)
     
-    # == Loading highligted passages =========================
-    qa_list = []
-    highlight_results = {}
-    highlight_results_file = f'{args.data_dir}/retrieved_highlight/all_dpr_3_separate_out.jsonl'
-    with open (highlight_results_file, 'r') as file:
-        for line in file:
-            data = json.loads(line.strip())
-            highlight_results[data['query_id']] = data
-            qa_list.append(data['query_id'])
-    
     # == Loading the retrieval results (corpus) ==============
     if args.with_rag_corpus:
         ret_results = {}
@@ -295,6 +285,17 @@ def main(args):
                 for line in file:
                     data = json.loads(line.strip())
                     ret_results[data['id']] = data
+                    
+    # == Loading highligted passages =========================
+    if args.with_rag_sentence_highlight:
+        highlight_results = {}
+        highlight_results_file = f'{args.data_dir}/highlighted_sentences/{args.retrieval_method}_3"'
+        for test_relation_id in test_relation_ids:
+            ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.set_highlighted.jsonl"
+            with open (highlight_results_file, 'r') as file:
+                for line in file:
+                    data = json.loads(line.strip())
+                    highlight_results[data['query_id']] = data
 
     # == Loading the sentence reranking results ==============
     if args.with_rag_sentence_rerank:
@@ -358,7 +359,7 @@ def main(args):
                 retrieved_text += f"{qa_pairs_text}\n"
             
             # == Apply highlight text ========================
-            if args.with_highlighted_text:
+            if args.with_rag_sentence_highlight:
                 
                 try:
                     ## == This part is for concatinated highlighted text
@@ -499,7 +500,7 @@ if __name__ == "__main__":
     parser.add_argument("--with_peft", type=str2bool, default=False)
     
     parser.add_argument("--with_rag_qa_pairs", type=str2bool, default=False)
-    parser.add_argument("--with_highlighted_text", type=str2bool, default=False)
+    parser.add_argument("--with_rag_sentence_highlight", type=str2bool, default=False)
     parser.add_argument("--with_rag_sentence_rerank", type=str2bool, default=False)
     parser.add_argument("--num_reranked_sentences", type=int, default=1)
     
