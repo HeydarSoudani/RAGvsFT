@@ -239,11 +239,11 @@ def main(args):
     ### === Parameters per model
     if args.llm_model_name == "flant5":
         # V1 -> For small version
-        prompt_template_w_context = """Context: {context} \n Based on the provided context, answer the question: {question}"""
-        prompt_template_wo_context = """Answer the question: {question}"""
+        # prompt_template_w_context = """Context: {context} \n Based on the provided context, answer the question: {question}"""
+        # prompt_template_wo_context = """Answer the question: {question}"""
         # V2 -> For xl version
-        # prompt_template_w_context = """Context: {context} \nQuestion: {question}"""
-        # prompt_template_wo_context = """Question: {question}"""
+        prompt_template_w_context = """Context: {context} \nQuestion: {question}"""
+        prompt_template_wo_context = """Question: {question}"""
         
     elif args.llm_model_name in ["llama2", "mistral"]:
         prompt_template_w_context = """<s>[INST] <<SYS>><</SYS>> \n Context: {context}\n Question: {question} \n[/INST]"""
