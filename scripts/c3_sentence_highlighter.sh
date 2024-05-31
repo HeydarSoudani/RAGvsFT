@@ -11,7 +11,7 @@
 module load 2022
 module load Python/3.10.4-GCCcore-11.3.0
 
-srun $HOME/RAGvsFT/component1_retrieval/passage_highlighting.py \
+srun $HOME/RAGvsFT/component3_highlighter/sentence_highlighter.py \
     --model_name_or_path "meta-llama/Meta-Llama-3-8B-Instruct" \
     --llm_model_name "llama3" \
     --dataset_name 'popQA' \

@@ -285,15 +285,16 @@ def main(args):
                                 #     # print(f"highlighted passage: {pred}"),
                                 #     # print('====')
                                 
-                                highlighted_passages.append({
-                                    "ret_rank": ret_idx,
-                                    "sentence": pred
-                                })
+                                # highlighted_passages.append({
+                                #     "ret_rank": ret_idx,
+                                #     "sentence": pred
+                                # })
                             
                             else:
                                 logging.info(f"\nNo retrieved text found for query: {query_id}, {query}, Ret_rank: {ret_idx}") 
                                 print("\nNo retrieved text found for query: {}, {}, Ret_rank: {}".format(query_id, query, ret_idx))
                     
+                    highlighted_passages = []
                     item = {
                         "query_id": query_id,
                         "question": query,
