@@ -298,9 +298,9 @@ def main(args):
     # == Loading highligted passages =========================
     if args.with_rag_sentence_highlight:
         highlight_results = {}
-        highlight_results_file = f'{args.data_dir}/highlighted_sentences/{args.retrieval_method}_3'
+        highlight_results_dir = f'{args.data_dir}/highlighted_sentences/{args.retrieval_method}_3'
         for test_relation_id in test_relation_ids:
-            ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.set_highlighted.jsonl"
+            highlight_results_file = f"{highlight_results_dir}/{test_relation_id}.{args.retrieval_method}.set_highlighted.jsonl"
             with open (highlight_results_file, 'r') as file:
                 for line in file:
                     data = json.loads(line.strip())
