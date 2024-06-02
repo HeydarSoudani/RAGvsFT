@@ -45,54 +45,57 @@ def main(args):
     model = DRES(models.SentenceBERT(args.dense_model), batch_size=1, device=device)
     retriever = EvaluateRetrieval(model, score_function="dot", k_values=[1, 3, 5])
     
-    for idx, filename in enumerate(os.listdir(retrieved_passage_dir)):
-        # if idx == 1:
-        #     break
+    # for idx, filename in enumerate(os.listdir(retrieved_passage_dir)):
+    #     # if idx == 1:
+    #     #     break  
+    #     input_file = f"{retrieved_passage_dir}/{filename}"
+    #     if filename.endswith('.jsonl'):
+    #         relation_id = filename.split('.')[0]
+    #         print(f"\n\nProcessing {relation_id}...")
+    #         output_file = f"{reranked_sentences_dir}/{relation_id}.{args.retrieval_method}.set_reranked.jsonl"
             
-        if filename.endswith('.jsonl'):
-            relation_id = filename.split('.')[0]
-            print(f"\n\nProcessing {relation_id}...")
-            output_file_path = os.path.join(reranked_sentences_dir, f'{relation_id}.{args.retrieval_method}.set_reranked.jsonl')
+    input_file = f"{retrieved_passage_dir}/69.dpr.ret_results.jsonl"  
+    output_file = f"{reranked_sentences_dir}/69.dpr.set_reranked.jsonl"
+        
+    with open(input_file, 'r') as f_in, open(output_file, 'w') as f_out:
+        for line in f_in:
+            data = json.loads(line.strip())
+            query_id = data['id']
+            query = data['question']
             
-            with open(f"{retrieved_passage_dir}/{filename}", 'r') as f_in, open(output_file_path, 'w') as f_out:
-                for line in f_in:
-                    data = json.loads(line.strip())
-                    query_id = data['id']
-                    query = data['question']
-                    
-                    # === Step 1: Convert retrieved passages to a format that can be used by the dense retriever ===
-                    corpus = {}
-                    sentence_id = 0
-                    for context in data['ctxs']:
-                        doc_id = context['id']
-                        sentences = sent_tokenize(context['text'])
-                        for sentence in sentences:
-                            corpus[f"{doc_id}_{sentence_id}"] = {
-                                "text": sentence,
-                                "title": f"{doc_id}_{sentence_id}_"
-                            }
-                            sentence_id += 1
-                    
-                    queries = {query_id: query}
-                    retrieve_results = retriever.retrieve(corpus, queries)
-                    retrieve_results_sorted = dict(sorted(retrieve_results[query_id].items(), key=lambda item: item[1], reverse=True))
-                    # print(retrieve_results_sorted)
-                    
-                    # === Step 2: Save the retrieved sentences to a file ===
-                    out_sentences = []
-                    for sent_id, score in retrieve_results_sorted.items():
-                        out_sentences.append({
-                            'ref_doc_id': sent_id.rsplit('_', 1)[0],
-                            "sentence": corpus[sent_id]['text'],
-                            "score": score
-                        })
-
-                    item = {
-                        "id": query_id,
-                        "question": query,
-                        "sentences": out_sentences
+            # === Step 1: Convert retrieved passages to a format that can be used by the dense retriever ===
+            corpus = {}
+            sentence_id = 0
+            for context in data['ctxs']:
+                doc_id = context['id']
+                sentences = sent_tokenize(context['text'])
+                for sentence in sentences:
+                    corpus[f"{doc_id}_{sentence_id}"] = {
+                        "text": sentence,
+                        "title": f"{doc_id}_{sentence_id}_"
                     }
-                    f_out.write(json.dumps(item) + '\n')
+                    sentence_id += 1
+            
+            queries = {query_id: query}
+            retrieve_results = retriever.retrieve(corpus, queries)
+            retrieve_results_sorted = dict(sorted(retrieve_results[query_id].items(), key=lambda item: item[1], reverse=True))
+            # print(retrieve_results_sorted)
+            
+            # === Step 2: Save the retrieved sentences to a file ===
+            out_sentences = []
+            for sent_id, score in retrieve_results_sorted.items():
+                out_sentences.append({
+                    'ref_doc_id': sent_id.rsplit('_', 1)[0],
+                    "sentence": corpus[sent_id]['text'],
+                    "score": score
+                })
+
+            item = {
+                "id": query_id,
+                "question": query,
+                "sentences": out_sentences
+            }
+            f_out.write(json.dumps(item) + '\n')
 
 
 if __name__ == "__main__":
