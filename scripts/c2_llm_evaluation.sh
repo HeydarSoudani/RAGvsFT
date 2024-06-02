@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=1:00:00
+#SBATCH --time=6:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -13,18 +13,18 @@ module load Python/3.10.4-GCCcore-11.3.0
 
 # pip install git+https://github.com/huggingface/transformers
 srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
-    --model_name_or_path "openbmb/MiniCPM-2B-sft-fp32" \
-    --llm_model_name "MiniCPM" \
+    --model_name_or_path "meta-llama/Meta-Llama-3-8B-Instruct" \
+    --llm_model_name "llama3" \
     --dataset_name "popQA" \
-    --output_file_pre_prefix "5pcent_h_0r_0p_bf" \
+    --output_file_pre_prefix "1p_bf" \
     --with_peft False \
     --with_rag_qa_pairs False \
     --with_rag_sentence_highlight False \
     --with_rag_sentence_rerank False \
-    --num_reranked_sentences 3 \
-    --with_rag_corpus False \
+    --num_reranked_sentences 2 \
+    --with_rag_corpus True \
     --num_retrieved_passages 1 \
-    --retrieval_method "dpr" \
+    --retrieval_method "ideal" \
     --seed 42
 
 

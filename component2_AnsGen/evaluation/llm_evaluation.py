@@ -221,19 +221,19 @@ def main(args):
         Seed: {args.seed}
         """
     )
-    print(f"""
-        Model: {args.model_name_or_path}
-        Dataset: {args.dataset_name}
-        PEFT: {args.with_peft}
-        RAG (QA pairs): {args.with_rag_qa_pairs}
-        RAG (highlight): {args.with_rag_sentence_highlight}
-        RAG (rerank): {args.with_rag_sentence_rerank}
-        RAG (corpus): {args.with_rag_corpus}
-        Retrieval method: {args.retrieval_method}
-        Output file's prefix: {file_prefix}
-        Seed: {args.seed}
-        """
-    )
+    # print(f"""
+    #     Model: {args.model_name_or_path}
+    #     Dataset: {args.dataset_name}
+    #     PEFT: {args.with_peft}
+    #     RAG (QA pairs): {args.with_rag_qa_pairs}
+    #     RAG (highlight): {args.with_rag_sentence_highlight}
+    #     RAG (rerank): {args.with_rag_sentence_rerank}
+    #     RAG (corpus): {args.with_rag_corpus}
+    #     Retrieval method: {args.retrieval_method}
+    #     Output file's prefix: {file_prefix}
+    #     Seed: {args.seed}
+    #     """
+    # )
     set_seed(args.seed)
     
     ### === Parameters per model
@@ -402,8 +402,7 @@ def main(args):
                         else:
                             logging.info(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
                             print(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
-                    
-                
+            
                 except json.decoder.JSONDecodeError as e:
                     print(f"Error decoding JSON for query_id {query_id}: {e}")
                     print(f"Problematic JSON string: {highlight_results[query_id]['highlighted_text']}")
@@ -423,9 +422,9 @@ def main(args):
                 retrieved_text += f"{truncate_text(corpus_text, max_token)}\n"
                 has_context = True
             
-            if retrieved_text == "":
-                logging.info(f"\nNo retrieved text found for query: {query}") 
-                print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
+            # if retrieved_text == "":
+            #     logging.info(f"\nNo retrieved text found for query: {query}") 
+            #     print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
             
             if has_context:
                 prompt = prompt_template_w_context.format(context=retrieved_text, question=query)        
@@ -458,24 +457,22 @@ def main(args):
             
             # if highlight_idx < 10 or highlight_idx % 200 == 0:
             if idx < 10 or idx % 400 == 0:
-                # logging.info('\n')
-                # logging.info(f"Prompt: {prompt}")
-                # logging.info(f"Query: {query}")
-                # logging.info(f"Has context: {has_context}"),
-                # logging.info(f"# context: {len(ret_results[query_id]['ctxs'])}"),
-                # logging.info(f"Pred: {pred}")
-                # logging.info(f"Labels: {test_answers[idx]}")
-                # logging.info(f"Final decision: {is_correct}")
-                # logging.info('====')
-                print('\n')
-                print(f"Prompt: {prompt}")
-                print(f"Query: {query}")
-                print(f"Has context: {has_context}"),
-                # print(f"# context: {len(ret_results[query_id]['ctxs'])}"),
-                print(f"Pred: {pred}")
-                print(f"Labels: {test_answers[idx]}")
-                print(f"Final decision: {is_correct}")
-                print('====')
+                logging.info('\n')
+                logging.info(f"Prompt: {prompt}")
+                logging.info(f"Query: {query}")
+                logging.info(f"Has context: {has_context}"),
+                logging.info(f"Pred: {pred}")
+                logging.info(f"Labels: {test_answers[idx]}")
+                logging.info(f"Final decision: {is_correct}")
+                logging.info('====')
+                # print('\n')
+                # print(f"Prompt: {prompt}")
+                # print(f"Query: {query}")
+                # print(f"Has context: {has_context}"),
+                # print(f"Pred: {pred}")
+                # print(f"Labels: {test_answers[idx]}")
+                # print(f"Final decision: {is_correct}")
+                # print('====')
             
             item = {
                 "query_id": query_id,

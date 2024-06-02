@@ -188,7 +188,7 @@ def main(args):
     # === Retrieved context =================================
     # === Loop over relations ===============================
     # for test_relation_id in test_relation_ids:
-    test_relation_id = test_relation_ids[11]
+    test_relation_id = test_relation_ids[12]
     
     ret_results_path = f"{retrieved_passage_dir}/{test_relation_id}.{args.retrieval_method}.ret_results.jsonl"
     output_file = f"{highlighted_sentences_dir}/{test_relation_id}.{args.retrieval_method}.set_highlighted.jsonl"
