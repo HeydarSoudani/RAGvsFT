@@ -14,7 +14,8 @@ module load Python/3.10.4-GCCcore-11.3.0
 srun $HOME/RAGvsFT/component3_passage_highlighter/sentence_reranker.py \
     --dense_model "msmarco-distilbert-base-v3" \
     --dataset_name 'popQA' \
-    --retrieval_method "dpr"
+    --retrieval_method "dpr" \
+    --output_file ''
 
 # popQA, witQA, EQ
 # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']

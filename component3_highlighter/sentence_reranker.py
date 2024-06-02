@@ -48,7 +48,11 @@ def main(args):
             relation_id = filename.split('.')[0]
             print(f"\n\nProcessing {relation_id}...")
             
-            output_file_path = os.path.join(reranked_sentences_dir, f'{relation_id}.{args.retrieval_method}.set_reranked.jsonl')
+            if args.output_file:
+                output_file_path = args.output_file
+            else:
+                output_file_path = os.path.join(reranked_sentences_dir, f'{relation_id}.{args.retrieval_method}.set_reranked.jsonl')
+            
             with open(f"{retrieved_passage_dir}/{filename}", 'r') as f_in, open(output_file_path, 'w') as f_out:
                 for line in f_in:
                     data = json.loads(line.strip())
@@ -95,5 +99,6 @@ if __name__ == "__main__":
     parser.add_argument("--dense_model", required=True)
     parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--retrieval_method", type=str, required=True)
+    parser.add_argument("--output_file", type=str, default=None, required=True)
     args = parser.parse_args()
     main(args)
