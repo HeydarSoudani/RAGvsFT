@@ -118,7 +118,7 @@ def load_model(args):
         trust_remote_code=True
     )
 
-    if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
+    if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
         tokenizer.pad_token = tokenizer.eos_token
         tokenizer.padding_side = "right"
     

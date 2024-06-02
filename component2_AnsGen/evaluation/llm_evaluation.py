@@ -106,7 +106,7 @@ def load_model(args):
     if args.with_peft:
         config = PeftConfig.from_pretrained(args.model_name_or_path)
         
-        if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
+        if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
             base_model = AutoModelForCausalLM.from_pretrained(
                 config.base_model_name_or_path,
                 low_cpu_mem_usage=True,
@@ -131,7 +131,7 @@ def load_model(args):
         )
         
     else:
-        if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
+        if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
             model = AutoModelForCausalLM.from_pretrained(
                 args.model_name_or_path,
                 low_cpu_mem_usage=True,
@@ -154,7 +154,7 @@ def load_model(args):
             trust_remote_code=True
         )
 
-    if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
+    if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
         tokenizer.pad_token = tokenizer.eos_token
         tokenizer.padding_side = "right"
     # if args.llm_model_name == 'llama2':
@@ -246,20 +246,25 @@ def main(args):
         prompt_template_wo_context = """Question: {question}"""
         
     elif args.llm_model_name in ["llama2", "mistral"]:
-        prompt_template_w_context = """<s>[INST] <<SYS>><</SYS>> \n Context: {context}\n Question: {question} \n[/INST]"""
-        prompt_template_wo_context = """<s>[INST] <<SYS>><</SYS>> \n Question: {question} \n[/INST]"""  
+        prompt_template_w_context = """<s>[INST] <<SYS>><</SYS>> \nContext: {context}\nQuestion: {question}\n[/INST]"""
+        prompt_template_wo_context = """<s>[INST] <<SYS>><</SYS>> \nQuestion: {question}\n[/INST]"""  
         
     elif args.llm_model_name in ["zephyr", "tiny_llama"]:
-        prompt_template_w_context = """<|system|> </s>\n <|user|>\n Context: {context}\n Question: {question}</s>\n <|assistant|>"""
-        prompt_template_wo_context = """<|system|> </s>\n <|user|> Question: {question}</s>\n <|assistant|>"""
+        prompt_template_w_context = """<|system|> </s>\n <|user|>\nContext: {context}\nQuestion: {question}</s>\n <|assistant|>"""
+        prompt_template_wo_context = """<|system|> </s>\n <|user|>\nQuestion: {question}</s>\n <|assistant|>"""
     
     elif args.llm_model_name == "stable_lm2":
-        prompt_template_w_context = """<|user|>\n Context: {context}\n Question: {question}<|endoftext|>\n<|assistant|>"""
-        prompt_template_wo_context = """<|user|>\n Question: {question}<|endoftext|>\n<|assistant|>"""
+        prompt_template_w_context = """<|user|>\nContext: {context}\nQuestion: {question}<|endoftext|>\n<|assistant|>"""
+        prompt_template_wo_context = """<|user|>\nQuestion: {question}<|endoftext|>\n<|assistant|>"""
     
     elif args.llm_model_name == "MiniCPM":
-        prompt_template_w_context = """<User>\n Context: {context}\n Question: {question}\n <AI>"""
-        prompt_template_wo_context = """<User>\n Question: {question}\n <AI>"""
+        prompt_template_w_context = """<User>\nContext: {context}\nQuestion: {question}\n <AI>"""
+        prompt_template_wo_context = """<User>\nQuestion: {question}\n <AI>"""
+
+    elif args.llm_model_name == "llama3":
+        prompt_template_w_context = """<|begin_of_text|><|start_header_id|>system<|end_header_id|><|eot_id|><|start_header_id|>user<|end_header_id|>\nContext: {context}\nQuestion: {question}\n<|eot_id|>"""
+        prompt_template_wo_context = """<|begin_of_text|><|start_header_id|>system<|end_header_id|><|eot_id|><|start_header_id|>user<|end_header_id|>\nQuestion: {question}\n<|eot_id|>"""
+
 
     # == Define maximum number of tokens ====================
     # = Book 50 tokens for QA pairs
@@ -268,7 +273,7 @@ def main(args):
         max_input_tokens = 512
     elif args.llm_model_name in ["tiny_llama"]:
         max_input_tokens = 1024
-    elif args.llm_model_name in ["llama2", "mistral", "zephyr"]:
+    elif args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr"]:
         max_input_tokens = 2048
     
     
@@ -324,7 +329,7 @@ def main(args):
                     ret_qa_results[data['query_id']] = data
     
     # == Loop over the test questions ========================
-    if args.llm_model_name in ["llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
+    if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
         max_output_tokens = 40
         pipe = pipeline(
             task="text-generation",
@@ -444,6 +449,8 @@ def main(args):
                 pred = result.split("<|assistant|>")[1].strip()
             elif args.llm_model_name == 'MiniCPM':
                 pred = result.split("<AI>")[1].strip()
+            elif args.llm_model_name == 'llama3':
+                pred = result[len(prompt):]
             
             is_correct = one_sided_partial_match(pred, test_answers[idx])         
             # is_correct = two_sided_partial_match(pred, test_answers[idx])

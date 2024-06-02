@@ -37,9 +37,10 @@ srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
     # stable_lm2: "stabilityai/stablelm-2-zephyr-1_6b"
     # MiniCPM: "openbmb/MiniCPM-2B-sft-fp32"
     
-    # llama2: "meta-llama/Llama-2-7b-chat-hf"
     # mistral: "mistralai/Mistral-7B-Instruct-v0.1"
     # zephyr: "HuggingFaceH4/zephyr-7b-beta"
+    # llama2: "meta-llama/Llama-2-7b-chat-hf"
+    # llama3: "meta-llama/Meta-Llama-3-8B-Instruct"
     
 # ]
 # dataset_name: [popQA, witQA, EQ]
