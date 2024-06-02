@@ -20,7 +20,7 @@ os.environ["WANDB_MODE"] = "offline"
 print("Available GPUs:", torch.cuda.device_count())
 device = 'cuda:0'
 target_relation_ids = 'all'
-subset_percentage = 1.0
+subset_percentage = 0.05
 
 def set_seed(seed):
     torch.manual_seed(seed)
@@ -387,10 +387,10 @@ def main(args):
                     #     print("\nNo highlighted text found for query: {}, {}".format(query_id, query))
                 
                     ## == This part is for seperate highlighted text
-                    highlighted_text_list = highlight_results[query_id]['highlighted_text']
+                    highlighted_text_list = highlight_results[query_id]['sentences']
                     for item in highlighted_text_list:
                         ret_rank = item['ret_rank']
-                        highlighted_text = item['highlighted']
+                        highlighted_text = item['sentence']
                         if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
                             sentences = highlighted_text['sentence']
                             retrieved_text += f"{' '.join(sentences)}\n"
