@@ -15,7 +15,7 @@ srun $HOME/RAGvsFT/component3_passage_highlighter/sentence_reranker.py \
     --dense_model "msmarco-distilbert-base-v3" \
     --dataset_name 'popQA' \
     --retrieval_method "dpr" \
-    --output_file ''
+    --output_path ''
 
 # popQA, witQA, EQ
 # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']

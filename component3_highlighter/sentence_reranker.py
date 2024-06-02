@@ -33,9 +33,14 @@ def main(args):
     
     base_dir = f"component0_preprocessing/generated_data/{args.dataset_name}_costomized"
     retrieved_passage_dir = f"{base_dir}/retrieved_passage/{args.retrieval_method}_3"
-    reranked_sentences_dir = f"{base_dir}/reranked_sentences/{args.retrieval_method}_3"
-    os.makedirs(f'{base_dir}/reranked_sentences', exist_ok=True)
-    os.makedirs(reranked_sentences_dir, exist_ok=True)
+    
+    if args.output_path:
+        reranked_sentences_dir = args.output_path
+        os.makedirs(reranked_sentences_dir, exist_ok=True)
+    else:
+        reranked_sentences_dir = f"{base_dir}/reranked_sentences/{args.retrieval_method}_3"
+        os.makedirs(f'{base_dir}/reranked_sentences', exist_ok=True)
+        os.makedirs(reranked_sentences_dir, exist_ok=True)
     
     model = DRES(models.SentenceBERT(args.dense_model), batch_size=1, device=device)
     retriever = EvaluateRetrieval(model, score_function="dot", k_values=[1, 3, 5])
@@ -47,11 +52,7 @@ def main(args):
         if filename.endswith('.jsonl'):
             relation_id = filename.split('.')[0]
             print(f"\n\nProcessing {relation_id}...")
-            
-            if args.output_file:
-                output_file_path = args.output_file
-            else:
-                output_file_path = os.path.join(reranked_sentences_dir, f'{relation_id}.{args.retrieval_method}.set_reranked.jsonl')
+            output_file_path = os.path.join(reranked_sentences_dir, f'{relation_id}.{args.retrieval_method}.set_reranked.jsonl')
             
             with open(f"{retrieved_passage_dir}/{filename}", 'r') as f_in, open(output_file_path, 'w') as f_out:
                 for line in f_in:
@@ -99,6 +100,6 @@ if __name__ == "__main__":
     parser.add_argument("--dense_model", required=True)
     parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--retrieval_method", type=str, required=True)
-    parser.add_argument("--output_file", type=str, default=None, required=True)
+    parser.add_argument("--output_path", type=str, default=None, required=True)
     args = parser.parse_args()
     main(args)
