@@ -399,9 +399,9 @@ def main(args):
                             sentences = highlighted_text['sentences']
                             retrieved_text += f"{' '.join(sentences)}\n"
                             has_context = True
-                        else:
-                            logging.info(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
-                            print(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
+                        # else:
+                        #     logging.info(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
+                        #     print(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
             
                 except json.decoder.JSONDecodeError as e:
                     print(f"Error decoding JSON for query_id {query_id}: {e}")
