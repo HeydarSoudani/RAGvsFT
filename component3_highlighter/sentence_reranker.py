@@ -46,7 +46,7 @@ def main(args):
             
         if filename.endswith('.jsonl'):
             relation_id = filename.split('.')[0]
-            print(f"Processing {relation_id}...")
+            print(f"\n\nProcessing {relation_id}...")
             
             output_file_path = os.path.join(reranked_sentences_dir, f'{relation_id}.{args.retrieval_method}.set_reranked.jsonl')
             with open(f"{retrieved_passage_dir}/{filename}", 'r') as f_in, open(output_file_path, 'w') as f_out:
