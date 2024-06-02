@@ -54,8 +54,8 @@ def main(args):
     #         print(f"\n\nProcessing {relation_id}...")
     #         output_file = f"{reranked_sentences_dir}/{relation_id}.{args.retrieval_method}.set_reranked.jsonl"
             
-    input_file = f"{retrieved_passage_dir}/86.ideal.ret_results.jsonl"  
-    output_file = f"{reranked_sentences_dir}/86.ideal.set_reranked.jsonl"
+    input_file = f"{retrieved_passage_dir}/69.ideal.ret_results.jsonl"  
+    output_file = f"{reranked_sentences_dir}/69.ideal.set_reranked.jsonl"
         
     with open(input_file, 'r') as f_in, open(output_file, 'w') as f_out:
         for line in f_in:
