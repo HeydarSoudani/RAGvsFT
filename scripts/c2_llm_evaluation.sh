@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=6:00:00
+#SBATCH --time=2:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 # Loading modules
@@ -13,18 +13,18 @@ module load Python/3.10.4-GCCcore-11.3.0
 
 # pip install git+https://github.com/huggingface/transformers
 srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
-    --model_name_or_path "meta-llama/Meta-Llama-3-8B-Instruct" \
-    --llm_model_name "llama3" \
+    --model_name_or_path "google/flan-t5-base" \
+    --llm_model_name "flant5" \
     --dataset_name "popQA" \
-    --output_file_pre_prefix "1p_bf" \
+    --output_file_pre_prefix "base_hs_1p_bf" \
     --with_peft False \
     --with_rag_qa_pairs False \
-    --with_rag_sentence_highlight False \
+    --with_rag_sentence_highlight True \
     --with_rag_sentence_rerank False \
     --num_reranked_sentences 2 \
     --with_rag_corpus True \
     --num_retrieved_passages 1 \
-    --retrieval_method "ideal" \
+    --retrieval_method "dpr" \
     --seed 42
 
 

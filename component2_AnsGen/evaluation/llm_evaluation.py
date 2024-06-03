@@ -234,6 +234,19 @@ def main(args):
         Seed: {args.seed}
         """
     )
+    # print(f"""
+    #     Model: {args.model_name_or_path}
+    #     Dataset: {args.dataset_name}
+    #     PEFT: {args.with_peft}
+    #     RAG (QA pairs): {args.with_rag_qa_pairs}
+    #     RAG (highlight): {args.with_rag_sentence_highlight}
+    #     RAG (rerank): {args.with_rag_sentence_rerank}
+    #     RAG (corpus): {args.with_rag_corpus}
+    #     Retrieval method: {args.retrieval_method}
+    #     Output file's prefix: {file_prefix}
+    #     Seed: {args.seed}
+    #     """
+    # )
     set_seed(args.seed)
     
     ### === Parameters per model
@@ -468,14 +481,14 @@ def main(args):
                 logging.info(f"Labels: {test_answers[idx]}")
                 logging.info(f"Final decision: {is_correct}")
                 logging.info('====')
-                print('\n')
-                print(f"Prompt: {prompt}")
-                print(f"Query: {query}")
-                print(f"Has context: {has_context}"),
-                print(f"Pred: {pred}")
-                print(f"Labels: {test_answers[idx]}")
-                print(f"Final decision: {is_correct}")
-                print('====')
+                # print('\n')
+                # print(f"Prompt: {prompt}")
+                # print(f"Query: {query}")
+                # print(f"Has context: {has_context}"),
+                # print(f"Pred: {pred}")
+                # print(f"Labels: {test_answers[idx]}")
+                # print(f"Final decision: {is_correct}")
+                # print('====')
             
             item = {
                 "query_id": query_id,
