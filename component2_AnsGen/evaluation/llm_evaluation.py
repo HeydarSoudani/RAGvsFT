@@ -397,7 +397,10 @@ def main(args):
                             has_context = True
                         elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
                             sentences = highlighted_text['sentences']
-                            retrieved_text += f"{' '.join(sentences)}\n"
+                            for sentence in sentences:
+                                if type(sentence) == str:
+                                    retrieved_text += f"{sentence}\n"
+                            # retrieved_text += f"{' '.join(sentences)}\n"
                             has_context = True
                         # else:
                         #     logging.info(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
