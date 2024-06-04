@@ -8,7 +8,7 @@ import os
 
 # === Datasets variables ========================
 dataset_name = 'popQA' # [popQA, witQA, EQ]
-model_idx = 0
+model_idx = 5
 
 retrieval_models = ["bm25", "contriever", "rerank", "dpr"]
 gen_models = [
@@ -18,7 +18,7 @@ gen_models = [
 ]
 dataset_dir = 'component0_preprocessing/generated_data/{}_costomized'.format(dataset_name)
 test_dir = f"{dataset_dir}/test"
-answer_generator_img_save_path = f'analysis/images_results/3_answer_generator/llms/{gen_models[model_idx]}_{dataset_name}.png'
+answer_generator_img_save_path = f'analysis/images_results/3_answer_generator/llms/{gen_models[model_idx]}_{dataset_name}.pdf'
 
 # PopQA
 if dataset_name == 'popQA':
@@ -442,11 +442,15 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
     result_files = [
         {"title": "NoFT/NoRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
         {"title": "FT/NoRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
-        {"title": "NoFT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_{retrieval_model}_full_results.jsonl"},
-        {"title": "FT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_{retrieval_model}_peft_results.jsonl"},
         
-        # {"title": f"NoFT/dprRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
-        # {"title": f"FT/dprRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
+        {"title": f"NoFT/bm25RAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_bm25_full_results.jsonl"},
+        {"title": f"FT/bm25RAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_bm25_peft_results.jsonl"},
+        
+        {"title": f"NoFT/dprRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
+        {"title": f"FT/dprRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
+        
+        {"title": "NoFT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_ideal_full_results.jsonl"},
+        {"title": "FT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_ideal_peft_results.jsonl"},
         
         # {'title': '3H+1P', 'filename': 'component0_preprocessing/generated_data/popQA_costomized/results/popQA_MiniCPM_5pcent_h_0r_0p_bf_rag_dpr_full_results_1side.jsonl'},
         # {'title': '+FT+RAG', 'filename': 'component0_preprocessing/generated_data/popQA_costomized/results/popQA_MiniCPM_5pcent_h_0r_0p_bf_rag_dpr_peft_results_1side.jsonl'},
@@ -662,7 +666,7 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
         
         # plt.savefig(f"main_{model_name}.pdf", format='pdf', dpi=1600)
         # plt.savefig(f"main_{model_name}.png", dpi=1600)
-        plt.savefig(answer_generator_img_save_path, dpi=1000)
+        plt.savefig(answer_generator_img_save_path, format='pdf', dpi=1000)
         plt.show()
 
 def main():
