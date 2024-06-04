@@ -4,9 +4,9 @@ import ast
 
 
 def main(args):
-    dataset_name = "EQ" # popQA, witQA, EQ
+    dataset_name = "popQA" # popQA, witQA, EQ
     retrieval_method = 'dpr' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
-    number_of_passages = 3
+    number_of_passages = 5
     dataset_dir = f"component1_retrieval/data/{dataset_name}"
     
     if number_of_passages > 1:
@@ -78,21 +78,21 @@ def main(args):
                             })
                         
                         if number_of_passages > 1:
-                            for i in range(1, number_of_passages):
-                                title_prefix = corpus[doc_id]['title'].split('_')[0]
-                                related_items = [
-                                    item for item in corpus.values()
-                                    if item["title"].startswith(title_prefix) and not item["title"].endswith("sum")
-                                ][:number_of_passages-1]
-                                
-                                for related_item in related_items:
-                                    doc_id = related_item['_id']
-                                    context = related_item['text']
-                                    contexts.append({
-                                        "id": doc_id,
-                                        "text": context,
-                                        "hasanswer": False
-                                    })
+                            # for i in range(1, number_of_passages):
+                            title_prefix = corpus[doc_id]['title'].split('_')[0]
+                            related_items = [
+                                item for item in corpus.values()
+                                if item["title"].startswith(title_prefix) and not item["title"].endswith("sum")
+                            ][:number_of_passages-1]
+                            
+                            for related_item in related_items:
+                                doc_id = related_item['_id']
+                                context = related_item['text']
+                                contexts.append({
+                                    "id": doc_id,
+                                    "text": context,
+                                    "hasanswer": False
+                                })
                                   
                         combined_obj = {
                             "id": query_id,
