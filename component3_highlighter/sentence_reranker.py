@@ -32,13 +32,13 @@ def main(args):
         print("Running on the CPU")
     
     base_dir = f"component0_preprocessing/generated_data/{args.dataset_name}_costomized"
-    retrieved_passage_dir = f"{base_dir}/retrieved_passage/{args.retrieval_method}_3"
+    retrieved_passage_dir = f"{base_dir}/retrieved_passage/{args.retrieval_method}_{args.num_retrieved_passages}"
     
     if args.output_path:
         reranked_sentences_dir = args.output_path
         os.makedirs(reranked_sentences_dir, exist_ok=True)
     else:
-        reranked_sentences_dir = f"{base_dir}/reranked_sentences/{args.retrieval_method}_3"
+        reranked_sentences_dir = f"{base_dir}/reranked_sentences/{args.retrieval_method}_{args.num_retrieved_passages}"
         os.makedirs(f'{base_dir}/reranked_sentences', exist_ok=True)
         os.makedirs(reranked_sentences_dir, exist_ok=True)
     
@@ -100,6 +100,7 @@ if __name__ == "__main__":
     parser.add_argument("--dense_model", required=True)
     parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--retrieval_method", type=str, required=True)
+    parser.add_argument("--num_retrieved_passages", type=int, default=1)
     parser.add_argument("--output_path", type=str, default=None, required=True)
     args = parser.parse_args()
     main(args)
