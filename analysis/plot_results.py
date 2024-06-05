@@ -1,4 +1,5 @@
 
+from statsmodels.stats.contingency_tables import mcnemar
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -18,7 +19,7 @@ gen_models = [
 ]
 dataset_dir = 'component0_preprocessing/generated_data/{}_costomized'.format(dataset_name)
 test_dir = f"{dataset_dir}/test"
-answer_generator_img_save_path = f'analysis/images_results/3_answer_generator/llms/{gen_models[model_idx]}_{dataset_name}.pdf'
+answer_generator_img_save_path = f'analysis/images_results/3_answer_generator/llms/{gen_models[model_idx]}_{dataset_name}.png'
 
 # PopQA
 if dataset_name == 'popQA':
@@ -440,20 +441,20 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
     base_path  = "component0_preprocessing/generated_data"
     retrieval_model = 'ideal'
     result_files = [
-        {"title": "NoFT/NoRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
-        {"title": "FT/NoRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
+        # {"title": "NoFT/NoRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
+        # {"title": "FT/NoRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
         
-        {"title": f"NoFT/bm25RAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_bm25_full_results.jsonl"},
-        {"title": f"FT/bm25RAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_bm25_peft_results.jsonl"},
+        # {"title": f"NoFT/bm25RAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_bm25_full_results.jsonl"},
+        # # {"title": f"FT/bm25RAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_bm25_peft_results.jsonl"},
         
-        {"title": f"NoFT/dprRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
-        {"title": f"FT/dprRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
+        # {"title": f"NoFT/dprRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
+        # # {"title": f"FT/dprRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
         
-        {"title": "NoFT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_ideal_full_results.jsonl"},
-        {"title": "FT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_ideal_peft_results.jsonl"},
+        # {"title": "NoFT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_ideal_full_results.jsonl"},
+        # {"title": "FT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_ideal_peft_results.jsonl"},
         
-        # {'title': '3H+1P', 'filename': 'component0_preprocessing/generated_data/popQA_costomized/results/popQA_MiniCPM_5pcent_h_0r_0p_bf_rag_dpr_full_results_1side.jsonl'},
-        # {'title': '+FT+RAG', 'filename': 'component0_preprocessing/generated_data/popQA_costomized/results/popQA_MiniCPM_5pcent_h_0r_0p_bf_rag_dpr_peft_results_1side.jsonl'},
+        {'title': '+FT+5P', 'filename': 'component0_preprocessing/generated_data/popQA_costomized/results/popQA_stable_lm2_5p_af_rag_dpr_peft_results.jsonl'},
+        {'title': '-FT+2RS+3P', 'filename': 'component0_preprocessing/generated_data/popQA_costomized/results/popQA_stable_lm2_2rs_3p_bf_rag_dpr_full_results.jsonl'},
         # {'title': '1r_2p', 'filename': 'analysis/on_false_results/popQA_MiniCPM_1rag_2p_bf_rag_ideal_full_results_two_sided.jsonl'},
         # {'title': '2r_2p', 'filename': 'analysis/on_false_results/popQA_MiniCPM_2rags_2p_bf_rag_ideal_full_results_two_sided.jsonl'},
         
@@ -659,15 +660,51 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
         plt.xlabel("Popularity (pageviews)", fontdict=font)
         plt.ylabel("Accuracy", fontdict=font)
         plt.ylim(0, 1.0)
-        # plt.legend()
-        # plt.legend(loc=2, ncol=2, fontsize=12)
-        plt.legend(ncol=2, fontsize=12)
-        plt.tight_layout()
+        
+        plt.legend(ncol=3, fontsize=10, loc='upper center', bbox_to_anchor=(0.5, 1.2))
+        plt.tight_layout(rect=[0, 0, 1, 0.95])
+        
+        # plt.legend(ncol=2, fontsize=10)
         
         # plt.savefig(f"main_{model_name}.pdf", format='pdf', dpi=1600)
-        # plt.savefig(f"main_{model_name}.png", dpi=1600)
-        plt.savefig(answer_generator_img_save_path, format='pdf', dpi=1000)
+        plt.savefig(answer_generator_img_save_path, dpi=1600)
+        # plt.savefig(answer_generator_img_save_path, format='pdf', dpi=1000)
         plt.show()
+
+def sig_test(file1, file2):
+    
+    def load_jsonl(file_path):
+        with open(file_path, 'r') as f:
+            return [json.loads(line) for line in f]
+    
+    model_a_results = load_jsonl(file1)
+    model_b_results = load_jsonl(file2)
+    assert len(model_a_results) == len(model_b_results)
+    
+    # Extract is_correct values
+    model_a_correct = [entry['is_correct'] for entry in model_a_results]
+    model_b_correct = [entry['is_correct'] for entry in model_b_results]
+
+    # Create a contingency table
+    a = sum(1 for a, b in zip(model_a_correct, model_b_correct) if a == 0 and b == 0)
+    b = sum(1 for a, b in zip(model_a_correct, model_b_correct) if a == 0 and b == 1)
+    c = sum(1 for a, b in zip(model_a_correct, model_b_correct) if a == 1 and b == 0)
+    d = sum(1 for a, b in zip(model_a_correct, model_b_correct) if a == 1 and b == 1)
+
+    contingency_table = [[a, b], [c, d]]
+
+    # Perform McNemar's test
+    result = mcnemar(contingency_table, exact=True)
+
+    print("Statistic:", result.statistic)
+    print("p-value:", result.pvalue)
+
+    # Interpretation
+    if result.pvalue < 0.05:
+        print("The difference in performance is statistically significant.")
+    else:
+        print("The difference in performance is not statistically significant.")
+
 
 def main():
     # == 1) Plot buckets distribution: Number of data per bucket
@@ -683,6 +720,7 @@ def main():
     plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
     
     # == 4) Significance test
+    sig_test()
     
 
 if __name__ == "__main__":
