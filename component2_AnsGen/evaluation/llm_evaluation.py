@@ -254,7 +254,7 @@ def main(args):
         prompt_template_wo_context = """<|system|> </s>\n <|user|>\nQuestion: {question}</s>\n <|assistant|>"""
     
     elif args.llm_model_name == "stable_lm2":
-        prompt_template_w_context_w_highlight = """<|user|>\nHighlight: {highlight}\nContext: {context}\nQuestion: {question}\n<|endoftext|>\n<|assistant|>"""
+        prompt_template_w_context_w_highlight = """<|user|>\nHighlight: {highlight}\n\nContext: {context}\nQuestion: {question}\n<|endoftext|>\n<|assistant|>"""
         prompt_template_w_context = """<|user|>\nContext: {context}\nQuestion: {question}\n<|endoftext|>\n<|assistant|>"""
         prompt_template_wo_context = """<|user|>\nQuestion: {question}<|endoftext|>\n<|assistant|>"""
     
