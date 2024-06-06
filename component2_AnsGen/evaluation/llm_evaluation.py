@@ -208,19 +208,19 @@ def main(args):
     
     out_results_path = f"{out_results_dir}/{file_prefix}_results.jsonl"
     
-    logging.info(f"""
-        Model: {args.model_name_or_path}
-        Dataset: {args.dataset_name}
-        PEFT: {args.with_peft}
-        RAG (QA pairs): {args.with_rag_qa_pairs}
-        RAG (highlight): {args.with_rag_sentence_highlight}
-        RAG (rerank): {args.with_rag_sentence_rerank}
-        RAG (corpus): {args.with_rag_corpus}
-        Retrieval method: {args.retrieval_method}
-        Output file's prefix: {file_prefix}
-        Seed: {args.seed}
-        """
-    )
+    # logging.info(f"""
+    #     Model: {args.model_name_or_path}
+    #     Dataset: {args.dataset_name}
+    #     PEFT: {args.with_peft}
+    #     RAG (QA pairs): {args.with_rag_qa_pairs}
+    #     RAG (highlight): {args.with_rag_sentence_highlight}
+    #     RAG (rerank): {args.with_rag_sentence_rerank}
+    #     RAG (corpus): {args.with_rag_corpus}
+    #     Retrieval method: {args.retrieval_method}
+    #     Output file's prefix: {file_prefix}
+    #     Seed: {args.seed}
+    #     """
+    # )
     print(f"""
         Model: {args.model_name_or_path}
         Dataset: {args.dataset_name}
@@ -460,15 +460,15 @@ def main(args):
             accuracy.append(is_correct)
             
             # if highlight_idx < 10 or highlight_idx % 200 == 0:
-            if idx < 10 or idx % 400 == 0:
-                logging.info('\n')
-                logging.info(f"Prompt: {prompt}")
-                logging.info(f"Query: {query}")
-                logging.info(f"Has context: {has_context}"),
-                logging.info(f"Pred: {pred}")
-                logging.info(f"Labels: {test_answers[idx]}")
-                logging.info(f"Final decision: {is_correct}")
-                logging.info('====')
+            if idx < 10 or idx % 100 == 0:
+                # logging.info('\n')
+                # logging.info(f"Prompt: {prompt}")
+                # logging.info(f"Query: {query}")
+                # logging.info(f"Has context: {has_context}"),
+                # logging.info(f"Pred: {pred}")
+                # logging.info(f"Labels: {test_answers[idx]}")
+                # logging.info(f"Final decision: {is_correct}")
+                # logging.info('====')
                 print('\n')
                 print(f"Prompt: {prompt}")
                 print(f"Query: {query}")
