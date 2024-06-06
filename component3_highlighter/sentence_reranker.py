@@ -78,7 +78,7 @@ def main(args):
                         elif args.split_type == 'sentence':
                             chunks = sent_tokenize(context['text'])
                         
-                        print(chunks)
+                        # print(chunks)
                         for chunk in chunks:
                             corpus[f"{doc_id}_{chunk_id}"] = {
                                 "text": chunk,
