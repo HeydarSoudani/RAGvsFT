@@ -10,6 +10,24 @@ import argparse
 nltk.download('punkt')
 from nltk.tokenize import sent_tokenize, word_tokenize
 
+RELATIONS = {
+    '22': 'Occupation',
+    '91': 'Genre',
+    '97': 'Capital of',
+    '106': 'Religion',
+    '164': 'Producer',
+    '182': 'Country',
+    '218': 'Place of birth',
+    '257': 'Father',
+    '292': 'Mother',
+    '422': 'Capital',
+    '472': 'Color',
+    '484': 'Author',
+    '526': 'Director',
+    '533': 'Screenwriter',
+    '560': 'Sport',
+    '639': 'Composer'
+}
 
 print(os.getcwd())
 import sys
@@ -67,6 +85,7 @@ def main(args):
                     query_id = data['id']
                     query = data['question']
                     
+                    
                     # === Step 1: Convert retrieved passages to a format that can be used by the dense retriever ===
                     corpus = {}
                     chunk_id = 0
@@ -86,7 +105,8 @@ def main(args):
                             }
                             chunk_id += 1
                     
-                    queries = {query_id: query}
+                    # queries = {query_id: query}
+                    queries = {query_id: f"{query} The relation is {RELATIONS[relation_id]}"} # Add the relation to the query
                     retrieve_results = retriever.retrieve(corpus, queries)
                     retrieve_results_sorted = dict(sorted(retrieve_results[query_id].items(), key=lambda item: item[1], reverse=True))
                     # print(retrieve_results_sorted)
