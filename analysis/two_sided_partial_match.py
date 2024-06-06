@@ -42,8 +42,8 @@ os.makedirs(f"{output_dir}/{model_type}", exist_ok=True)
 
 
 
-input_file = 'component0_preprocessing/generated_data/popQA_costomized/results/popQA_MiniCPM_5pcent_h_0r_0p_bf_rag_dpr_peft_results.jsonl'
-output_file = 'component0_preprocessing/generated_data/popQA_costomized/results/popQA_MiniCPM_5pcent_h_0r_0p_bf_rag_dpr_peft_results_1side.jsonl'
+input_file = 'component0_preprocessing/generated_data/popQA_costomized/results_two_side/slms/popQA_stable_lm2_bf_rag_ideal_full_results.jsonl'
+output_file = 'component0_preprocessing/generated_data/popQA_costomized/results_two_side/slms/popQA_stable_lm2_bf_rag_ideal_full_results_111.jsonl'
 
 def main():
     with open(input_file, 'r', encoding='utf-8') as f:
@@ -74,7 +74,7 @@ def main():
                 "query_id": item['query_id'],
                 "question": item['question'],
                 "possible_answers": item['possible_answers'],
-                "pred": pred,
+                "pred": item['pred'],
                 "is_correct": is_correct,
                 "has_context": item['has_context'],
                 "pageviews": item['pageviews'],

@@ -126,7 +126,11 @@ archive
 
 
 analysis/archive
+analysis_2
+analysis/images_results
+analysis/on_false_results
 
+component0_preprocessing/generated_data/popQA_costomized/qa_llama3
 component0_preprocessing/archive
 component0_preprocessing/generated_data/popQA_costomized/results/flant5
 component0_preprocessing/generated_data/popQA_costomized/results/llms
@@ -150,9 +154,7 @@ component2_AnsGen/archive
 component2_AnsGen/models
 
 
-component0_preprocessing/generated_data/popQA_costomized/qa_llama3
-analysis/images_results
-analysis/on_false_results
+
 
 
 # beir/retrieval/models

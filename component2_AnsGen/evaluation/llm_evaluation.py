@@ -254,7 +254,7 @@ def main(args):
         prompt_template_wo_context = """<|system|> </s>\n <|user|>\nQuestion: {question}</s>\n <|assistant|>"""
     
     elif args.llm_model_name == "stable_lm2":
-        prompt_template_w_context = """<|user|>\nContext: {context}\nQuestion: {question}<|endoftext|>\n<|assistant|>"""
+        prompt_template_w_context = """<|user|>\nRespond to the question. The answer must not exceed 2 words.\n Context: {context}\nQuestion: {question}<|endoftext|>\n<|assistant|>"""
         prompt_template_wo_context = """<|user|>\nQuestion: {question}<|endoftext|>\n<|assistant|>"""
     
     elif args.llm_model_name == "MiniCPM":

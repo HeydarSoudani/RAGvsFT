@@ -715,12 +715,14 @@ def main():
     # plot_retriever_results_per_buckets(only_all=True)
     
     # == 3) Plot QA models output
-    # plot_answer_generator_results(per_relation=True, per_bucket=False, only_all=False)
+    plot_answer_generator_results(per_relation=True, per_bucket=False, only_all=False)
     # plot_answer_generator_results(per_relation=False, per_bucket=True, only_all=False)
-    plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
+    # plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
     
     # == 4) Significance test
-    sig_test()
+    file1 = "component0_preprocessing/generated_data/popQA_costomized/results/popQA_stable_lm2_5p_af_rag_dpr_peft_results.jsonl"
+    file2 = "component0_preprocessing/generated_data/popQA_costomized/results/popQA_stable_lm2_2rs_3p_bf_rag_dpr_full_results.jsonl"
+    sig_test(file1, file2)
     
 
 if __name__ == "__main__":
