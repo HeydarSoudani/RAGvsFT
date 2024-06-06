@@ -254,7 +254,8 @@ def main(args):
         prompt_template_wo_context = """<|system|> </s>\n <|user|>\nQuestion: {question}</s>\n <|assistant|>"""
     
     elif args.llm_model_name == "stable_lm2":
-        prompt_template_w_context = """<|user|>\nContext: {context}\nQuestion: {question}\Answer to the question. The answer must not exceed 2 words. Answer:<|endoftext|>\n<|assistant|>"""
+        prompt_template_w_context_w_highlight = """<|user|>\nHighlight: {highlight}\nContext: {context}\nQuestion: {question}\n<|endoftext|>\n<|assistant|>"""
+        prompt_template_w_context = """<|user|>\nContext: {context}\nQuestion: {question}\n<|endoftext|>\n<|assistant|>"""
         prompt_template_wo_context = """<|user|>\nQuestion: {question}<|endoftext|>\n<|assistant|>"""
     
     elif args.llm_model_name == "MiniCPM":
@@ -310,7 +311,7 @@ def main(args):
     if args.with_rag_sentence_rerank:
         ret_sent_rerank = {}
         # ret_results_dir = f"{args.data_dir}/reranked_sentences/{args.retrieval_method}_5"
-        ret_results_dir = f"{args.data_dir}/reranked_sentences/ideal_1_word_10"
+        ret_results_dir = f"{args.data_dir}/reranked_sentences/ideal_1_word_5"
         for test_relation_id in test_relation_ids:
             ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.set_reranked.jsonl"
             with open (ret_results_path, 'r') as file:
@@ -355,6 +356,7 @@ def main(args):
             # if query_id in qa_list:
             # highlight_idx += 1
             retrieved_text = ""
+            highlighted_part_text = ""
             has_context = False
             
             # == Apply retrieved QA pairs ====================
@@ -394,13 +396,13 @@ def main(args):
                         highlighted_text = item['sentence']
                         if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
                             sentences = highlighted_text['sentence']
-                            retrieved_text += f"{' '.join(sentences)}\n"
+                            highlighted_part_text += f"{' '.join(sentences)}\n"
                             has_context = True
                         elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
                             sentences = highlighted_text['sentences']
                             for sentence in sentences:
                                 if type(sentence) == str:
-                                    retrieved_text += f"{sentence}\n"
+                                    highlighted_part_text += f"{sentence}\n"
                             # retrieved_text += f"{' '.join(sentences)}\n"
                             has_context = True
                         # else:
@@ -414,8 +416,8 @@ def main(args):
             # == Apply retrieved sentence rerank =============
             if args.with_rag_sentence_rerank:
                 rerank_results = ret_sent_rerank[query_id]['sentences']
-                reranked_text = "".join(f"{rerank_results[i]['sentence']} \n" for i in range(args.num_reranked_sentences) if i < len(rerank_results))
-                retrieved_text += f"{reranked_text}\n"
+                highlighted_part_text = "".join(f"{rerank_results[i]['sentence']} \n" for i in range(args.num_reranked_sentences) if i < len(rerank_results))
+                # retrieved_text += f"{reranked_text}\n"
                 has_context = True             
             
             # == Apply retrieved corpus text =================
@@ -431,7 +433,10 @@ def main(args):
             #     print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
             
             if has_context:
-                prompt = prompt_template_w_context.format(context=retrieved_text, question=query)        
+                if args.with_rag_sentence_rerank or args.with_rag_sentence_highlight:
+                    prompt = prompt_template_w_context_w_highlight.format(highlight=highlighted_part_text, context=retrieved_text, question=query)
+                else:
+                    prompt = prompt_template_w_context.format(context=retrieved_text, question=query)        
             else:
                 prompt = prompt_template_wo_context.format(question=query)
                    
