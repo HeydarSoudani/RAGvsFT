@@ -107,6 +107,7 @@ def main(args):
                     
                     # queries = {query_id: query}
                     queries = {query_id: f"{query} The relation is {RELATIONS[relation_id]}"} # Add the relation to the query
+                    print(queries)
                     retrieve_results = retriever.retrieve(corpus, queries)
                     retrieve_results_sorted = dict(sorted(retrieve_results[query_id].items(), key=lambda item: item[1], reverse=True))
                     # print(retrieve_results_sorted)
