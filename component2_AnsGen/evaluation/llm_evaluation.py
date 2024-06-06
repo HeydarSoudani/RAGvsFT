@@ -416,7 +416,7 @@ def main(args):
             # == Apply retrieved sentence rerank =============
             if args.with_rag_sentence_rerank:
                 rerank_results = ret_sent_rerank[query_id]['sentences']
-                highlighted_part_text = "".join(f"{rerank_results[i]['sentence']} \n" for i in range(args.num_reranked_sentences) if i < len(rerank_results))
+                highlighted_part_text = "".join(f"{rerank_results[i]['sentence']}, " for i in range(args.num_reranked_sentences) if i < len(rerank_results))
                 # retrieved_text += f"{reranked_text}\n"
                 has_context = True             
             
