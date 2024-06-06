@@ -309,7 +309,8 @@ def main(args):
     # == Loading the sentence reranking results ==============
     if args.with_rag_sentence_rerank:
         ret_sent_rerank = {}
-        ret_results_dir = f"{args.data_dir}/reranked_sentences/{args.retrieval_method}_5"
+        # ret_results_dir = f"{args.data_dir}/reranked_sentences/{args.retrieval_method}_5"
+        ret_results_dir = f"{args.data_dir}/reranked_sentences/ideal_1_word_5"
         for test_relation_id in test_relation_ids:
             ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.set_reranked.jsonl"
             with open (ret_results_path, 'r') as file:
