@@ -332,7 +332,7 @@ def main(args):
     
     # == Loop over the test questions ========================
     if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
-        max_output_tokens = 40
+        max_output_tokens = 100
         pipe = pipeline(
             task="text-generation",
             model=model,
@@ -442,31 +442,26 @@ def main(args):
                    
             n_max_trial = 5
             for i in range(n_max_trial):
-                # try:
-                result = pipe(prompt)[0]['generated_text']
-                
-                if args.llm_model_name == 'flant5':
-                    pred = result
-                elif args.llm_model_name in ["llama2", "mistral"]:
-                    pred = result.split("[/INST]")[1].strip()
-                elif args.llm_model_name in ['zephyr', "stable_lm2", "tiny_llama"]:
-                    pred = result.split("<|assistant|>")[1].strip()
-                elif args.llm_model_name == 'MiniCPM':
-                    pred = result.split("<AI>")[1].strip()
-                elif args.llm_model_name == 'llama3':
-                    pred = result[len(prompt):]
-                
-                is_correct = one_sided_partial_match(pred, test_answers[idx])         
-                # is_correct = two_sided_partial_match(pred, test_answers[idx])
-                if is_correct:
+                try:
+                    result = pipe(prompt)[0]['generated_text']
                     break
-                else:
+                except Exception as e:
                     print(f"Try #{i+1} for Query: {query_id}")
-                    
-                # except Exception as e:
-                #     print(f"Try #{i+1} for Query: {query_id}")
-                    # print('Error message:', e)
+                    print('Error message:', e)
             
+            if args.llm_model_name == 'flant5':
+                pred = result
+            elif args.llm_model_name in ["llama2", "mistral"]:
+                pred = result.split("[/INST]")[1].strip()
+            elif args.llm_model_name in ['zephyr', "stable_lm2", "tiny_llama"]:
+                pred = result.split("<|assistant|>")[1].strip()
+            elif args.llm_model_name == 'MiniCPM':
+                pred = result.split("<AI>")[1].strip()
+            elif args.llm_model_name == 'llama3':
+                pred = result[len(prompt):]
+            
+            is_correct = one_sided_partial_match(pred, test_answers[idx])         
+            # is_correct = two_sided_partial_match(pred, test_answers[idx])
             accuracy.append(is_correct)
             
             # if highlight_idx < 10 or highlight_idx % 200 == 0:
