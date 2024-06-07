@@ -442,27 +442,29 @@ def main(args):
                    
             n_max_trial = 5
             for i in range(n_max_trial):
-                try:
-                    result = pipe(prompt)[0]['generated_text']
-                    
-                    if args.llm_model_name == 'flant5':
-                        pred = result
-                    elif args.llm_model_name in ["llama2", "mistral"]:
-                        pred = result.split("[/INST]")[1].strip()
-                    elif args.llm_model_name in ['zephyr', "stable_lm2", "tiny_llama"]:
-                        pred = result.split("<|assistant|>")[1].strip()
-                    elif args.llm_model_name == 'MiniCPM':
-                        pred = result.split("<AI>")[1].strip()
-                    elif args.llm_model_name == 'llama3':
-                        pred = result[len(prompt):]
-                    
-                    is_correct = one_sided_partial_match(pred, test_answers[idx])         
-                    # is_correct = two_sided_partial_match(pred, test_answers[idx])
-                    if is_correct:
-                        break
-                    
-                except Exception as e:
+                # try:
+                result = pipe(prompt)[0]['generated_text']
+                
+                if args.llm_model_name == 'flant5':
+                    pred = result
+                elif args.llm_model_name in ["llama2", "mistral"]:
+                    pred = result.split("[/INST]")[1].strip()
+                elif args.llm_model_name in ['zephyr', "stable_lm2", "tiny_llama"]:
+                    pred = result.split("<|assistant|>")[1].strip()
+                elif args.llm_model_name == 'MiniCPM':
+                    pred = result.split("<AI>")[1].strip()
+                elif args.llm_model_name == 'llama3':
+                    pred = result[len(prompt):]
+                
+                is_correct = one_sided_partial_match(pred, test_answers[idx])         
+                # is_correct = two_sided_partial_match(pred, test_answers[idx])
+                if is_correct:
+                    break
+                else:
                     print(f"Try #{i+1} for Query: {query_id}")
+                    
+                # except Exception as e:
+                #     print(f"Try #{i+1} for Query: {query_id}")
                     # print('Error message:', e)
             
             accuracy.append(is_correct)
