@@ -21,56 +21,29 @@ def set_seed(seed):
 
 
 def load_model(args):
-    if args.with_peft:
-        config = PeftConfig.from_pretrained(args.model_name_or_path)
-        
-        if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
-            base_model = AutoModelForCausalLM.from_pretrained(
-                config.base_model_name_or_path,
-                low_cpu_mem_usage=True,
-                return_dict=True,
-                torch_dtype=torch.float16,
-                device_map={"":0},
-                trust_remote_code=True
-            )
-        elif args.llm_model_name == "flant5":
-            base_model = AutoModelForSeq2SeqLM.from_pretrained(
-                config.base_model_name_or_path,
-                load_in_8bit=True,
-                # device_map={"":0}
-            )
-            
-        model = PeftModel.from_pretrained(base_model, args.model_name_or_path)
-        model = model.merge_and_unload()
-        
-        tokenizer = AutoTokenizer.from_pretrained(
-            config.base_model_name_or_path,
-            trust_remote_code=True
-        )
-        
-    else:
-        if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
-            model = AutoModelForCausalLM.from_pretrained(
-                args.model_name_or_path,
-                low_cpu_mem_usage=True,
-                return_dict=True,
-                torch_dtype=torch.float16,
-                device_map={"":0}, # Load the entire model on the GPU 0
-                # device_map='auto',
-                trust_remote_code=True
-            )
-        elif args.llm_model_name == "flant5":
-            model = AutoModelForSeq2SeqLM.from_pretrained(
-                args.model_name_or_path,
-                # load_in_8bit=True,
-                # device_map={"": 0}
-                # device_map="auto"
-            )
-            
-        tokenizer = AutoTokenizer.from_pretrained(
+
+    if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
+        model = AutoModelForCausalLM.from_pretrained(
             args.model_name_or_path,
+            low_cpu_mem_usage=True,
+            return_dict=True,
+            torch_dtype=torch.float16,
+            device_map={"":0}, # Load the entire model on the GPU 0
+            # device_map='auto',
             trust_remote_code=True
         )
+    elif args.llm_model_name == "flant5":
+        model = AutoModelForSeq2SeqLM.from_pretrained(
+            args.model_name_or_path,
+            # load_in_8bit=True,
+            # device_map={"": 0}
+            # device_map="auto"
+        )
+        
+    tokenizer = AutoTokenizer.from_pretrained(
+        args.model_name_or_path,
+        trust_remote_code=True
+    )
 
     if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
         tokenizer.pad_token = tokenizer.eos_token
@@ -152,7 +125,6 @@ def main(args):
         pred = result[len(prompt):]
     
     print(f'Prediction: {pred}')
-
 
 
 if __name__ == "__main__":
