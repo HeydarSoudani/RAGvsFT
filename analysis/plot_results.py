@@ -441,23 +441,20 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
     base_path  = "component0_preprocessing/generated_data"
     retrieval_model = 'ideal'
     result_files = [
-        # {"title": "NoFT/NoRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
+        {"title": "NoFT/NoRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
         # {"title": "FT/NoRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
         
         # {"title": f"NoFT/bm25RAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_bm25_full_results.jsonl"},
-        # # {"title": f"FT/bm25RAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_bm25_peft_results.jsonl"},
-        
+        # {"title": f"FT/bm25RAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_bm25_peft_results.jsonl"},
         # {"title": f"NoFT/dprRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_dpr_full_results.jsonl"},
         # # {"title": f"FT/dprRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_dpr_peft_results.jsonl"},
         
-        # {"title": "NoFT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_ideal_full_results.jsonl"},
+        {"title": "NoFT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_ideal_full_results.jsonl"},
         # {"title": "FT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_ideal_peft_results.jsonl"},
         
-        {'title': '+FT+5P', 'filename': 'component0_preprocessing/generated_data/popQA_costomized/results/popQA_stable_lm2_5p_af_rag_dpr_peft_results.jsonl'},
-        {'title': '-FT+2RS+3P', 'filename': 'component0_preprocessing/generated_data/popQA_costomized/results/popQA_stable_lm2_2rs_3p_bf_rag_dpr_full_results.jsonl'},
+        # {'title': '-FT+2RS+3P', 'filename': 'component0_preprocessing/generated_data/popQA_costomized/results/popQA_stable_lm2_2rs_3p_bf_rag_dpr_full_results.jsonl'},
         # {'title': '1r_2p', 'filename': 'analysis/on_false_results/popQA_MiniCPM_1rag_2p_bf_rag_ideal_full_results_two_sided.jsonl'},
         # {'title': '2r_2p', 'filename': 'analysis/on_false_results/popQA_MiniCPM_2rags_2p_bf_rag_ideal_full_results_two_sided.jsonl'},
-        
         # {"title": f"voting", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_voting_results.jsonl"},
         # {"title": f"voting_2", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_voting_2_results.jsonl"},
         # {"title": f"NoFT/bm25RAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_bm25_full_results.jsonl"},
@@ -715,14 +712,14 @@ def main():
     # plot_retriever_results_per_buckets(only_all=True)
     
     # == 3) Plot QA models output
-    plot_answer_generator_results(per_relation=True, per_bucket=False, only_all=False)
-    # plot_answer_generator_results(per_relation=False, per_bucket=True, only_all=False)
+    # plot_answer_generator_results(per_relation=True, per_bucket=False, only_all=False)
+    plot_answer_generator_results(per_relation=False, per_bucket=True, only_all=False)
     # plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
     
     # == 4) Significance test
-    file1 = "component0_preprocessing/generated_data/popQA_costomized/results/popQA_stable_lm2_5p_af_rag_dpr_peft_results.jsonl"
-    file2 = "component0_preprocessing/generated_data/popQA_costomized/results/popQA_stable_lm2_2rs_3p_bf_rag_dpr_full_results.jsonl"
-    sig_test(file1, file2)
+    # file1 = "component0_preprocessing/generated_data/popQA_costomized/results/popQA_stable_lm2_5p_af_rag_dpr_peft_results.jsonl"
+    # file2 = "component0_preprocessing/generated_data/popQA_costomized/results/popQA_stable_lm2_2rs_3p_bf_rag_dpr_full_results.jsonl"
+    # sig_test(file1, file2)
     
 
 if __name__ == "__main__":
