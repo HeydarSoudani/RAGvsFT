@@ -332,7 +332,7 @@ def main(args):
     
     # == Loop over the test questions ========================
     if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
-        max_output_tokens = 100
+        max_output_tokens = 40
         pipe = pipeline(
             task="text-generation",
             model=model,
@@ -403,8 +403,8 @@ def main(args):
                             for sentence in sentences:
                                 if type(sentence) == str:
                                     highlighted_part_text += f"{sentence}\n"
-                            # retrieved_text += f"{' '.join(sentences)}\n"
                             has_context = True
+                        retrieved_text += f"{highlighted_part_text}\n"
                         # else:
                         #     logging.info(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
                         #     print(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
@@ -416,8 +416,8 @@ def main(args):
             # == Apply retrieved sentence rerank =============
             if args.with_rag_sentence_rerank:
                 rerank_results = ret_sent_rerank[query_id]['sentences']
-                highlighted_part_text = "".join(f"{rerank_results[i]['sentence']}, " for i in range(args.num_reranked_sentences) if i < len(rerank_results))
-                # retrieved_text += f"{reranked_text}\n"
+                reranked_text = "".join(f"{rerank_results[i]['sentence']}, " for i in range(args.num_reranked_sentences) if i < len(rerank_results))
+                retrieved_text += f"{reranked_text}\n"
                 has_context = True             
             
             # == Apply retrieved corpus text =================
@@ -433,10 +433,10 @@ def main(args):
             #     print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
             
             if has_context:
-                if args.with_rag_sentence_rerank or args.with_rag_sentence_highlight:
-                    prompt = prompt_template_w_context_w_highlight.format(highlight=highlighted_part_text, context=retrieved_text, question=query)
-                else:
-                    prompt = prompt_template_w_context.format(context=retrieved_text, question=query)        
+                # if args.with_rag_sentence_rerank or args.with_rag_sentence_highlight:
+                #     prompt = prompt_template_w_context_w_highlight.format(highlight=highlighted_part_text, context=retrieved_text, question=query)
+                # else:
+                prompt = prompt_template_w_context.format(context=retrieved_text, question=query)        
             else:
                 prompt = prompt_template_wo_context.format(question=query)
                    
