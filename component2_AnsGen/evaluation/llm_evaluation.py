@@ -451,7 +451,7 @@ def main(args):
                 has_main_context = True            
             
             if has_main_context and has_pre_context:
-                context = f"{pre_context}\n{main_context}"
+                context = f"{pre_context}{main_context}"
                 prompt = prompt_template_w_context.format(context=context, question=query)  
             elif has_main_context and not has_pre_context:
                 prompt = prompt_template_w_context.format(context=main_context, question=query)
