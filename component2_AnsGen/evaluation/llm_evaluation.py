@@ -489,7 +489,7 @@ def main(args):
                 # logging.info('\n')
                 # logging.info(f"Prompt: {prompt}")
                 # logging.info(f"Query: {query}")
-                # logging.info(f"Has context: {has_context}"),
+                # logging.info(f"Has context: {has_main_context}"),
                 # logging.info(f"Pred: {pred}")
                 # logging.info(f"Labels: {test_answers[idx]}")
                 # logging.info(f"Final decision: {is_correct}")
@@ -497,7 +497,7 @@ def main(args):
                 print('\n')
                 print(f"Prompt: {prompt}")
                 print(f"Query: {query}")
-                print(f"Has context: {has_context}"),
+                print(f"Has context: {has_main_context}"),
                 print(f"Pred: {pred}")
                 print(f"Labels: {test_answers[idx]}")
                 print(f"Final decision: {is_correct}")
@@ -509,7 +509,7 @@ def main(args):
                 "possible_answers": test_answers[idx],
                 "pred": pred,
                 "is_correct": is_correct,
-                "has_context": has_context,
+                "has_context": has_main_context,
                 "pageviews": query_pv
             }
             file.write(json.dumps(item) + '\n')
