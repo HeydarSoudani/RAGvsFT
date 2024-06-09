@@ -372,10 +372,10 @@ def main(args):
             if args.with_fewshot_examples:
                 for relation_id, relation_data in qa_test.items():
                     if relation_id != query_relation:
-                        print(len(relation_data))
+                        # print(len(relation_data))
                         relation_sample = random.choice(relation_data)
-                        print(relation_sample)
-                        print(relation_sample['question'])
+                        # print(relation_sample)
+                        # print(relation_sample['question'])
                         fewshot_examples += f"{relation_sample['question']} {random.choice(relation_sample['answers'])}"
                 retrieved_text += f"{fewshot_examples}\n"
                 
