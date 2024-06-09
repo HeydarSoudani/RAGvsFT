@@ -374,6 +374,7 @@ def main(args):
                     if relation_id != query_relation:
                         relation_sample = random.choice(relation_data)
                         print(relation_sample)
+                        print(relation_sample['question'])
                         fewshot_examples += f'{relation_sample['question']} {random.choice(relation_sample['answers'])}'
                 retrieved_text += f"{fewshot_examples}\n"
                 
