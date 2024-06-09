@@ -254,8 +254,7 @@ def main(args):
         prompt_template_wo_context = """<|system|> </s>\n <|user|>\nQuestion: {question}</s>\n <|assistant|>"""
     
     elif args.llm_model_name == "stable_lm2":
-        prompt_template_w_context_w_highlight = """<|user|>\nHighlight: {highlight}\n\nContext: {context}\nQuestion: {question}\n<|endoftext|>\n<|assistant|>"""
-        prompt_template_w_context = """<|user|>\nThe answer must not exceed 2 words.\nContext: {context}\nQuestion: {question}\n<|endoftext|>\n<|assistant|>"""
+        prompt_template_w_context = """<|user|>\n\n{context}\nQuestion: {question}\n<|endoftext|>\n<|assistant|>"""
         prompt_template_wo_context = """<|user|>\nQuestion: {question}<|endoftext|>\n<|assistant|>"""
     
     elif args.llm_model_name == "MiniCPM":
@@ -364,35 +363,39 @@ def main(args):
             
             # if query_id in qa_list:
             # highlight_idx += 1
-            fewshot_examples = ''
-            retrieved_text = ""
-            highlighted_part_text = ""
-            has_context = False
+            pre_context = ""
+            main_context = ""
+            has_pre_context = False
+            has_main_context = False
             
+            # == Apply few-shot QA example ====================
             if args.with_fewshot_examples:
+                fewshot_examples = ""
                 for relation_id, relation_data in qa_test.items():
                     if relation_id != query_relation:
                         # print(len(relation_data))
                         relation_sample = random.choice(relation_data)
                         # print(relation_sample)
                         # print(relation_sample['question'])
-                        fewshot_examples += f"{relation_sample['question']} {random.choice(relation_sample['answers'])}"
-                retrieved_text += f"{fewshot_examples}\n"
+                        fewshot_examples += f"{relation_sample['question']} {random.choice(relation_sample['answers'])}\n"
+                pre_context += f"Examples: {fewshot_examples}\n"
+                has_pre_context = True
                 
             # == Apply retrieved QA pairs ====================
             if args.with_rag_qa_pairs:
-                qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
                 qa_pairs_text = ""
+                qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
                 if len(qa_pairs_data) > 0:
                     has_context = True
                     for qa_pair in qa_pairs_data:
                         qa_pairs_text += f"{qa_pair['question']} {qa_pair['answers'][0]}\n"
                 
-                retrieved_text += f"{qa_pairs_text}\n"
+                pre_context += f"Highlight: {qa_pairs_text}\n"
+                has_pre_context = True
             
             # == Apply highlight text ========================
             if args.with_rag_sentence_highlight:
-                
+                highlight_text = ""
                 try:
                     ## == This part is for concatinated highlighted text
                     # highlighted_text = highlight_results[query_id]['highlighted_text']
@@ -416,15 +419,15 @@ def main(args):
                         highlighted_text = item['sentence']
                         if 'sentence' in highlighted_text and len(highlighted_text['sentence']) != 0:
                             sentences = highlighted_text['sentence']
-                            highlighted_part_text += f"{' '.join(sentences)}\n"
-                            has_context = True
+                            highlight_text += f"{' '.join(sentences)}\n"
+                            has_pre_context = True
                         elif 'sentences' in highlighted_text and len(highlighted_text['sentences']) != 0:
                             sentences = highlighted_text['sentences']
                             for sentence in sentences:
                                 if type(sentence) == str:
-                                    highlighted_part_text += f"{sentence}\n"
-                            has_context = True
-                        retrieved_text += f"{highlighted_part_text}\n"
+                                    highlight_text += f"{sentence}\n"
+                            has_pre_context = True
+                        pre_context += f"Highlight: {highlight_text}\n"
                         # else:
                         #     logging.info(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
                         #     print(f"\nNo highlighted text found for query: {query_id}, {query}, retrieved sentence: {ret_rank}")
@@ -437,27 +440,24 @@ def main(args):
             if args.with_rag_sentence_rerank:
                 rerank_results = ret_sent_rerank[query_id]['sentences']
                 reranked_text = "".join(f"{rerank_results[i]['sentence']}, " for i in range(args.num_reranked_sentences) if i < len(rerank_results))
-                retrieved_text += f"{reranked_text}\n"
-                has_context = True             
+                pre_context += f"Highlight: {reranked_text}\n"
+                has_pre_context = True
             
             # == Apply retrieved corpus text =================
             if args.with_rag_corpus:
-                # if not has_context:
                 max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
                 corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
-                retrieved_text += f"{truncate_text(corpus_text, max_token)}\n"
-                has_context = True
+                main_context += f"Context: {truncate_text(corpus_text, max_token)}\n"
+                has_main_context = True            
             
-            # if retrieved_text == "":
-            #     logging.info(f"\nNo retrieved text found for query: {query}") 
-            #     print("\nNo retrieved text found for query: {}, {}".format(query_id, query))               
-            
-            if has_context:
-                # if args.with_rag_sentence_rerank or args.with_rag_sentence_highlight:
-                #     prompt = prompt_template_w_context_w_highlight.format(highlight=highlighted_part_text, context=retrieved_text, question=query)
-                # else:
-                prompt = prompt_template_w_context.format(context=retrieved_text, question=query)        
-            else:
+            if has_main_context and has_pre_context:
+                context = f"{pre_context}\n{main_context}"
+                prompt = prompt_template_w_context.format(context=context, question=query)  
+            elif has_main_context and not has_pre_context:
+                prompt = prompt_template_w_context.format(context=main_context, question=query)
+            elif not has_main_context and has_pre_context:
+                prompt = prompt_template_w_context.format(context=pre_context, question=query)
+            elif not has_main_context and not has_pre_context:
                 prompt = prompt_template_wo_context.format(question=query)
                    
             n_max_trial = 5
