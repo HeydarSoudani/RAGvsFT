@@ -113,6 +113,8 @@ def main(args):
     prompt = prompt_template.format(prompt=args.prompt)
     result = pipe(prompt)[0]['generated_text']
     
+    print(f"\nPrompt: {prompt}\n")
+    
     if args.llm_model_name == 'flant5':
         pred = result
     elif args.llm_model_name in ["llama2", "mistral"]:
