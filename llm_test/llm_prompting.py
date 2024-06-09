@@ -19,7 +19,6 @@ def set_seed(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
-
 def load_model(args):
 
     if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
@@ -55,7 +54,6 @@ def load_model(args):
     logging.info("Model and tokenizer are loaded")
     
     return model, tokenizer
-
 
 
 def main(args):

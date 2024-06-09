@@ -284,6 +284,15 @@ def main(args):
     test_relation_ids, test_files, relation_files = load_relations_data(args)
     test_questions, test_answers = load_dataset(test_files)
     
+    # == Loading test QA results =============================
+    if args.with_fewshot_examples:
+        qa_test = {}
+        qa_test_dir = f"{args.data_dir}/test"
+        for test_relation_id in test_relation_ids:
+            qa_test_path = f"{qa_test_dir}/{test_relation_id}.test.json"
+            with open(qa_test_path, 'r') as file:
+                qa_test[test_relation_id] = json.load(file)
+    
     # == Loading the retrieval results (corpus) ==============
     if args.with_rag_corpus:
         ret_results = {}
@@ -355,10 +364,18 @@ def main(args):
             
             # if query_id in qa_list:
             # highlight_idx += 1
+            fewshot_examples = ''
             retrieved_text = ""
             highlighted_part_text = ""
             has_context = False
             
+            if args.with_fewshot_examples:
+                for relation_id, relation_data in qa_test.items():
+                    if relation_id != query_relation:
+                        relation_sample = random.choice(relation_data)
+                        fewshot_examples += f'{relation_sample['question']} {random.choice(relation_sample['answers'])}'
+                retrieved_text += f"{fewshot_examples}\n"
+                
             # == Apply retrieved QA pairs ====================
             if args.with_rag_qa_pairs:
                 qa_pairs_data = ret_qa_results[query_id]['relevant_train_questions']
@@ -516,6 +533,7 @@ if __name__ == "__main__":
     parser.add_argument("--output_file_pre_prefix", type=str)
     parser.add_argument("--with_peft", type=str2bool, default=False)
     
+    parser.add_argument("--with_fewshot_examples", type=str2bool, default=False)
     parser.add_argument("--with_rag_qa_pairs", type=str2bool, default=False)
     parser.add_argument("--with_rag_sentence_highlight", type=str2bool, default=False)
     parser.add_argument("--with_rag_sentence_rerank", type=str2bool, default=False)

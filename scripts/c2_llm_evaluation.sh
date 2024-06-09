@@ -18,6 +18,7 @@ srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
     --dataset_name "popQA" \
     --output_file_pre_prefix "base_3rs_3p_bf" \
     --with_peft False \
+    --with_fewshot_examples False \
     --with_rag_qa_pairs False \
     --with_rag_sentence_highlight False \
     --with_rag_sentence_rerank True \
