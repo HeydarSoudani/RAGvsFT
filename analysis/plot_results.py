@@ -1,5 +1,6 @@
 
 from statsmodels.stats.contingency_tables import mcnemar
+from scipy.stats import wilcoxon
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
@@ -669,11 +670,11 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
         plt.show()
 
 def sig_test(file1, file2):
-    
+      
     def load_jsonl(file_path):
         with open(file_path, 'r') as f:
             return [json.loads(line) for line in f]
-    
+      
     model_a_results = load_jsonl(file1)
     model_b_results = load_jsonl(file2)
     assert len(model_a_results) == len(model_b_results)
@@ -702,6 +703,27 @@ def sig_test(file1, file2):
     else:
         print("The difference in performance is not statistically significant.")
 
+def wilcoxon_sig_test(file1, file2):
+    # Function to load accuracy data from jsonl file
+    def load_accuracy_data(file_path):
+        with open(file_path, 'r') as file:
+            data = [json.loads(line) for line in file]
+        return {item["query_id"]: int(item["is_correct"]) for item in data}
+
+    accuracy_data_llm1 = load_accuracy_data(file1)
+    accuracy_data_llm2 = load_accuracy_data(file2)
+
+    # Ensure the order of results is the same based on query_id
+    query_ids = sorted(accuracy_data_llm1.keys())
+    accuracy_llm1 = [accuracy_data_llm1[query_id] for query_id in query_ids]
+    accuracy_llm2 = [accuracy_data_llm2[query_id] for query_id in query_ids]
+
+    # Perform the Wilcoxon signed-rank test
+    stat, p_value = wilcoxon(accuracy_llm1, accuracy_llm2)
+
+    # Output the test statistic and p-value
+    print(f"Wilcoxon test statistic: {stat}, p-value: {p_value}")
+    
 
 def main():
     # == 1) Plot buckets distribution: Number of data per bucket
@@ -713,13 +735,14 @@ def main():
     
     # == 3) Plot QA models output
     # plot_answer_generator_results(per_relation=True, per_bucket=False, only_all=False)
-    plot_answer_generator_results(per_relation=False, per_bucket=True, only_all=False)
+    # plot_answer_generator_results(per_relation=False, per_bucket=True, only_all=False)
     # plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
     
     # == 4) Significance test
-    # file1 = "component0_preprocessing/generated_data/popQA_costomized/results/popQA_stable_lm2_5p_af_rag_dpr_peft_results.jsonl"
-    # file2 = "component0_preprocessing/generated_data/popQA_costomized/results/popQA_stable_lm2_2rs_3p_bf_rag_dpr_full_results.jsonl"
+    file1 = "component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_bf_rag_ideal_full_results.jsonl"
+    file2 = "component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_rag_ideal_peft_results.jsonl"
     # sig_test(file1, file2)
+    wilcoxon_sig_test(file1, file2)
     
 
 if __name__ == "__main__":

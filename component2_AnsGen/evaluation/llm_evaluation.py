@@ -338,6 +338,18 @@ def main(args):
                     data = json.loads(line.strip())
                     ret_qa_results[data['query_id']] = data
     
+    # == Loading the corpus ==================================
+    if args.with_rag_highlighted_passage:
+        corpus = {}
+        corpus_dir = f"{args.data_dir}/corpus_all"
+        for test_relation_id in test_relation_ids:
+            corpus_path = f"{corpus_dir}/{test_relation_id}.corpus.jsonl"
+            with open (corpus_path, 'r') as file:
+                for line in file:
+                    data = json.loads(line.strip())
+                    corpus[data['doc_id']] = data
+            
+    
     # == Loop over the test questions ========================
     if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
         max_output_tokens = 40
@@ -448,7 +460,14 @@ def main(args):
                 max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
                 corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
                 main_context += f"Context: {truncate_text(corpus_text, max_token)}\n"
-                has_main_context = True            
+                has_main_context = True
+            
+            # == Get highlighted passage =====================
+            if args.with_rag_highlighted_passage:
+                rerank_results = ret_sent_rerank[query_id]['sentences']
+                first_reranked_ref = rerank_results[0]['ref_doc_id']
+                main_context += f"Context: {corpus[first_reranked_ref]['content']}\n"
+                has_main_context = True
             
             if has_main_context and has_pre_context:
                 context = f"{pre_context}{main_context}"
@@ -540,6 +559,7 @@ if __name__ == "__main__":
     parser.add_argument("--with_rag_qa_pairs", type=str2bool, default=False)
     parser.add_argument("--with_rag_sentence_highlight", type=str2bool, default=False)
     parser.add_argument("--with_rag_sentence_rerank", type=str2bool, default=False)
+    parser.add_argument("--with_rag_highlighted_passage", type=str2bool, default=False)
     parser.add_argument("--num_reranked_sentences", type=int, default=1)
     
     parser.add_argument("--with_rag_corpus", type=str2bool, default=False)
