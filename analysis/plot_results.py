@@ -209,6 +209,30 @@ def plot_buckets_distribution(only_all=False):
                 ax.bar(["b1", "b2", "b3", "b4", "b5"], counts)
                 ax.set_title(RELATIONS[relation_id])
         
+        # q_file = 'queries_with_rerank_overlap_2.jsonl'
+        # all_queries_obj = {}
+        # all_queries = []
+        # with open (q_file, 'r') as file:
+        #     for line in file:
+        #         data = json.loads(line.strip())
+        #         relation_id = data['query_id'].split('_')[0]
+        #         if relation_id not in all_queries_obj:
+        #             all_queries_obj[relation_id] = [data]
+        #         else:
+        #             all_queries_obj[relation_id].append(data)
+        #         all_queries.append(data)
+        
+        # for idx, (relation_id, q_rel_data) in enumerate(all_queries_obj.items()):
+        #     print(f"Processing relation {relation_id}, {RELATIONS[relation_id]} ...")
+        #     row = (idx // ncols) + 1
+        #     col = idx % ncols
+        #     ax = axes[row, col]
+            
+        #     bk_data = split_to_buckets(q_rel_data, split_points)
+        #     counts = [len(bk) for bk in bk_data.values()]
+        #     ax.bar(["b1", "b2", "b3", "b4", "b5"], counts)
+        #     ax.set_title(RELATIONS[relation_id])
+        
         row = 0
         col = 0
         ax = axes[row, col]
@@ -228,6 +252,13 @@ def plot_buckets_distribution(only_all=False):
                 with open(query_file_path, 'r') as qf:
                     q_rel_data = json.load(qf) 
                 all_queries.extend(q_rel_data)
+        
+        # q_file = 'queries_with_rerank_overlap_2.jsonl'
+        # all_queries = []
+        # with open (q_file, 'r') as file:
+        #     for line in file:
+        #         data = json.loads(line.strip())
+        #         all_queries.append (data)
         
         plt.figure(figsize=(8, 5)) 
         font = {
@@ -727,7 +758,7 @@ def wilcoxon_sig_test(file1, file2):
 
 def main():
     # == 1) Plot buckets distribution: Number of data per bucket
-    # plot_buckets_distribution(only_all=True)
+    plot_buckets_distribution(only_all=False)
     
     # == 2) Plot Retrival models output: Pre-relation & Pre-buckets
     # plot_retriever_results_per_relation()
@@ -739,10 +770,10 @@ def main():
     # plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
     
     # == 4) Significance test
-    file1 = "component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_bf_rag_ideal_full_results.jsonl"
-    file2 = "component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_rag_ideal_peft_results.jsonl"
-    # sig_test(file1, file2)
-    wilcoxon_sig_test(file1, file2)
+    # file1 = "component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_bf_rag_ideal_full_results.jsonl"
+    # file2 = "component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_rag_ideal_peft_results.jsonl"
+    # # sig_test(file1, file2)
+    # wilcoxon_sig_test(file1, file2)
     
 
 if __name__ == "__main__":
