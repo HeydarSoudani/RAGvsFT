@@ -343,11 +343,11 @@ def main(args):
         corpus = {}
         corpus_dir = f"{args.data_dir}/corpus_all"
         for test_relation_id in test_relation_ids:
-            corpus_path = f"{corpus_dir}/{test_relation_id}.corpus.jsonl"
+            corpus_path = f"{corpus_dir}/{test_relation_id}.corpus.json"
             with open (corpus_path, 'r') as file:
-                for line in file:
-                    data = json.loads(line.strip())
-                    corpus[data['doc_id']] = data
+                rel_data = json.load(file)
+                for line in rel_data:
+                    corpus[line['doc_id']] = line
             
     
     # == Loop over the test questions ========================
