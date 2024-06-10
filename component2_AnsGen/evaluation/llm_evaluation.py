@@ -466,7 +466,7 @@ def main(args):
                 rerank_results = ret_sent_rerank[query_id]['sentences']
                 first_reranked_ref = rerank_results[0]['ref_doc_id']
                 highlighted_passage = corpus[first_reranked_ref]['content']
-                corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages-1) if i < len(ret_results[query_id]['ctxs']))
+                corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
                 main_context += f"Context: {highlighted_passage}\n{corpus_text}\n"
                 has_main_context = True
             
