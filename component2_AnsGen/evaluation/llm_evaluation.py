@@ -293,16 +293,16 @@ def main(args):
                 qa_test[test_relation_id] = json.load(file)
     
     # == Loading the retrieval results (corpus) ==============
-    if args.with_rag_corpus:
-        ret_results = {}
-        ret_results_dir = f"{args.data_dir}/retrieved_passage/{args.retrieval_method}_5"
-        
-        for test_relation_id in test_relation_ids:
-            ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.ret_results.jsonl"
-            with open (ret_results_path, 'r') as file:
-                for line in file:
-                    data = json.loads(line.strip())
-                    ret_results[data['id']] = data
+    # if args.with_rag_corpus:
+    ret_results = {}
+    ret_results_dir = f"{args.data_dir}/retrieved_passage/{args.retrieval_method}_5"
+    
+    for test_relation_id in test_relation_ids:
+        ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.ret_results.jsonl"
+        with open (ret_results_path, 'r') as file:
+            for line in file:
+                data = json.loads(line.strip())
+                ret_results[data['id']] = data
                     
     # == Loading highligted passages =========================
     if args.with_rag_sentence_highlight:
