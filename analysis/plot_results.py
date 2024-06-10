@@ -27,7 +27,7 @@ if dataset_name == 'popQA':
     tsv_file_path = "data/dataset/popQA/popQA.tsv"
     split_points = [2, 3, 4, 5]
     num_relations = 16
-    relation_ids = relation_ids = ['22', '91', '97', '106', '164', '182', '218', '257', '292', '422', '472', '484', '526', '533', '560', '639']
+    relation_ids = ['22', '91', '97', '106', '164', '182', '218', '257', '292', '422', '472', '484', '526', '533', '560', '639']
     RELATIONS = {
         '22': 'Occupation',
         '91': 'Genre',

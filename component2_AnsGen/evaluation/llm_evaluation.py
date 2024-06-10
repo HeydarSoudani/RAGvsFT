@@ -347,7 +347,6 @@ def main(args):
                 rel_data = json.load(file)
                 for line in rel_data:
                     corpus[line['doc_id']] = line
-            
     
     # == Loop over the test questions ========================
     if args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr", "stable_lm2", "tiny_llama", "MiniCPM"]:
@@ -458,14 +457,22 @@ def main(args):
             if args.with_rag_corpus:
                 max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
                 corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
-                main_context += f"Context: {truncate_text(corpus_text, max_token)}\n"
-                has_main_context = True
+                rag_corpus = truncate_text(corpus_text, max_token)    
             
             # == Get highlighted passage =====================
             if args.with_rag_highlighted_passage:
                 rerank_results = ret_sent_rerank[query_id]['sentences']
                 first_reranked_ref = rerank_results[0]['ref_doc_id']
-                main_context += f"Context: {corpus[first_reranked_ref]['content']}\n"
+                highlighted_passage = corpus[first_reranked_ref]['content']
+                # main_context += f"Context: {corpus[first_reranked_ref]['content']}\n"
+                # has_main_context = True
+            
+            # Adaptive text
+            if query_relation in ['22', '91', '106', '164', '292', '422', '472', '560', '639']:
+                main_context += f"Context: {highlighted_passage}\n"
+                has_main_context = True
+            else:
+                main_context += f"Context: {rag_corpus}\n"
                 has_main_context = True
             
             if has_main_context and has_pre_context:
