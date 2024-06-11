@@ -758,7 +758,7 @@ def wilcoxon_sig_test(file1, file2):
 
 def main():
     # == 1) Plot buckets distribution: Number of data per bucket
-    plot_buckets_distribution(only_all=False)
+    # plot_buckets_distribution(only_all=False)
     
     # == 2) Plot Retrival models output: Pre-relation & Pre-buckets
     # plot_retriever_results_per_relation()
@@ -770,10 +770,10 @@ def main():
     # plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
     
     # == 4) Significance test
-    # file1 = "component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_bf_rag_ideal_full_results.jsonl"
-    # file2 = "component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_rag_ideal_peft_results.jsonl"
-    # # sig_test(file1, file2)
-    # wilcoxon_sig_test(file1, file2)
+    file1 = "component0_preprocessing/generated_data/popQA_costomized/results/recent/popQA_mistral_2rs_3p_bf_rag_dpr_full_results.jsonl"
+    file2 = "component0_preprocessing/generated_data/popQA_costomized/results/recent/popQA_mistral_5p_bf_rag_dpr_full_results.jsonl"
+    # sig_test(file1, file2)
+    wilcoxon_sig_test(file1, file2)
     
 
 if __name__ == "__main__":
