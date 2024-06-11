@@ -11,10 +11,9 @@ import logging
 from tqdm import tqdm
 
 
-from huggingface_hub import login, HfApi
+from huggingface_hub import notebook_login
 os.environ['HF_TOKEN'] = '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'
-api = HfApi()
-api.login(token=os.getenv('HF_TOKEN'))
+notebook_login()
 
 
 logging.basicConfig(level=logging.DEBUG,
