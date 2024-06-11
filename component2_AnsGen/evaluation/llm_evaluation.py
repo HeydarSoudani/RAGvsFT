@@ -20,7 +20,7 @@ os.environ["WANDB_MODE"] = "offline"
 print("Available GPUs:", torch.cuda.device_count())
 device = 'cuda:0'
 target_relation_ids = 'all'
-subset_percentage = 0.05
+subset_percentage = 1.0
 
 def set_seed(seed):
     torch.manual_seed(seed)
@@ -222,20 +222,20 @@ def main(args):
         Seed: {args.seed}
         """
     )
-    print(f"""
-        Model: {args.model_name_or_path}
-        Dataset: {args.dataset_name}
-        PEFT: {args.with_peft}
-        Retrieval method: {args.retrieval_method}
-        RAG (corpus): {args.with_rag_corpus} with {args.num_grounded_passages} grounded passages
-        RAG (Passage Rerank): {args.with_rag_passage_rerank} with {args.num_retrieved_passages} retrieved passages used after top-1 reranked passage
-        RAG (Sentence Rerank): {args.with_rag_sentence_rerank} with {args.num_reranked_sentences} reranked sentences
-        RAG (highlight): {args.with_rag_sentence_highlight} 
-        RAG (QA pairs): {args.with_rag_qa_pairs}
-        Output file's prefix: {file_prefix}
-        Seed: {args.seed}
-        """
-    )
+    # print(f"""
+    #     Model: {args.model_name_or_path}
+    #     Dataset: {args.dataset_name}
+    #     PEFT: {args.with_peft}
+    #     Retrieval method: {args.retrieval_method}
+    #     RAG (corpus): {args.with_rag_corpus} with {args.num_grounded_passages} grounded passages
+    #     RAG (Passage Rerank): {args.with_rag_passage_rerank} with {args.num_retrieved_passages} retrieved passages used after top-1 reranked passage
+    #     RAG (Sentence Rerank): {args.with_rag_sentence_rerank} with {args.num_reranked_sentences} reranked sentences
+    #     RAG (highlight): {args.with_rag_sentence_highlight} 
+    #     RAG (QA pairs): {args.with_rag_qa_pairs}
+    #     Output file's prefix: {file_prefix}
+    #     Seed: {args.seed}
+    #     """
+    # )
     set_seed(args.seed)
     
     ### === Parameters per model
@@ -469,7 +469,7 @@ def main(args):
                 first_reranked_ref = rerank_results[0]['ref_doc_id']
                 highlighted_passage = corpus[first_reranked_ref]['content']
                 corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
-                main_context += f"Context: {highlighted_passage}\n{corpus_text}\n"
+                main_context += f"Context: {highlighted_passage}\n\n{corpus_text}\n"
                 has_main_context = True
             
             # # Adaptive text
