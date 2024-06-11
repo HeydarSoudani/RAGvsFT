@@ -11,9 +11,10 @@ import logging
 from tqdm import tqdm
 
 
-from huggingface_hub import login
+from huggingface_hub import login, HfApi
 os.environ['HF_TOKEN'] = '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'
-login(token=os.getenv('HF_TOKEN'), add_to_git_credential=True)
+api = HfApi()
+api.login(token=os.getenv('HF_TOKEN'))
 
 
 logging.basicConfig(level=logging.DEBUG,
