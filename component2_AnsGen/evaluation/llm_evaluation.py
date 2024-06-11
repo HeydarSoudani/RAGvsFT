@@ -244,15 +244,15 @@ def main(args):
         # prompt_template_w_context = """Context: {context} \n Based on the provided context, answer the question: {question}"""
         # prompt_template_wo_context = """Answer the question: {question}"""
         # V2 -> For xl version
-        prompt_template_w_context = """Context: {context} \nQuestion: {question}"""
+        prompt_template_w_context = """{context} \nQuestion: {question}"""
         prompt_template_wo_context = """Question: {question}"""
         
     elif args.llm_model_name in ["llama2", "mistral"]:
-        prompt_template_w_context = """<s>[INST] <<SYS>><</SYS>> \nContext: {context}\nQuestion: {question}\n[/INST]"""
+        prompt_template_w_context = """<s>[INST] <<SYS>><</SYS>> \n{context}\nQuestion: {question}\n[/INST]"""
         prompt_template_wo_context = """<s>[INST] <<SYS>><</SYS>> \nQuestion: {question}\n[/INST]"""  
         
     elif args.llm_model_name in ["zephyr", "tiny_llama"]:
-        prompt_template_w_context = """<|system|> </s>\n <|user|>\nContext: {context}\nQuestion: {question}</s>\n <|assistant|>"""
+        prompt_template_w_context = """<|system|> </s>\n <|user|>\n{context}\nQuestion: {question}</s>\n <|assistant|>"""
         prompt_template_wo_context = """<|system|> </s>\n <|user|>\nQuestion: {question}</s>\n <|assistant|>"""
     
     elif args.llm_model_name == "stable_lm2":
@@ -260,11 +260,11 @@ def main(args):
         prompt_template_wo_context = """<|user|>\nQuestion: {question}<|endoftext|>\n<|assistant|>"""
     
     elif args.llm_model_name == "MiniCPM":
-        prompt_template_w_context = """<User>\nContext: {context}\nQuestion: {question}\n <AI>"""
+        prompt_template_w_context = """<User>\n{context}\nQuestion: {question}\n <AI>"""
         prompt_template_wo_context = """<User>\nQuestion: {question}\n <AI>"""
 
     elif args.llm_model_name == "llama3":
-        prompt_template_w_context = """<|begin_of_text|><|start_header_id|>system<|end_header_id|><|eot_id|><|start_header_id|>user<|end_header_id|>\nContext: {context}\nQuestion: {question}\n<|eot_id|>"""
+        prompt_template_w_context = """<|begin_of_text|><|start_header_id|>system<|end_header_id|><|eot_id|><|start_header_id|>user<|end_header_id|>\n{context}\nQuestion: {question}\n<|eot_id|>"""
         prompt_template_wo_context = """<|begin_of_text|><|start_header_id|>system<|end_header_id|><|eot_id|><|start_header_id|>user<|end_header_id|>\nQuestion: {question}\n<|eot_id|>"""
 
 
