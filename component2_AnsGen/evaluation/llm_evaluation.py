@@ -199,37 +199,39 @@ def main(args):
     out_results_dir = f"{args.output_result_dir}/results"
     os.makedirs(out_results_dir, exist_ok=True)
     
-    rag_part = "rag" if (args.with_rag_corpus or args.with_rag_sentence_rerank or args.with_rag_qa_pairs or args.with_rag_highlighted_passage) else "norag"
+    rag_part = "rag" if (args.with_rag_corpus or args.with_rag_sentence_rerank or args.with_rag_qa_pairs or args.with_rag_passage_rerank) else "norag"
     peft_part = "peft" if args.with_peft else "full"
     if (args.with_rag_corpus or args.with_rag_sentence_rerank or args.with_rag_qa_pairs):
-        file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{args.retrieval_method}_{peft_part}"
+        file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{args.retrieval_method}_{peft_part}_{args.num_grounded_passages}"
     else:
         file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{peft_part}"
     
     out_results_path = f"{out_results_dir}/{file_prefix}_results.jsonl"
     
-    # logging.info(f"""
-    #     Model: {args.model_name_or_path}
-    #     Dataset: {args.dataset_name}
-    #     PEFT: {args.with_peft}
-    #     RAG (QA pairs): {args.with_rag_qa_pairs}
-    #     RAG (highlight): {args.with_rag_sentence_highlight}
-    #     RAG (rerank): {args.with_rag_sentence_rerank}
-    #     RAG (corpus): {args.with_rag_corpus}
-    #     Retrieval method: {args.retrieval_method}
-    #     Output file's prefix: {file_prefix}
-    #     Seed: {args.seed}
-    #     """
-    # )
+    logging.info(f"""
+        Model: {args.model_name_or_path}
+        Dataset: {args.dataset_name}
+        PEFT: {args.with_peft}
+        Retrieval method: {args.retrieval_method}
+        RAG (corpus): {args.with_rag_corpus} with {args.num_grounded_passages} grounded passages
+        RAG (Passage Rerank): {args.with_rag_passage_rerank} with {args.num_retrieved_passages} retrieved passages used after top-1 reranked passage
+        RAG (Sentence Rerank): {args.with_rag_sentence_rerank} with {args.num_reranked_sentences} reranked sentences
+        RAG (highlight): {args.with_rag_sentence_highlight} 
+        RAG (QA pairs): {args.with_rag_qa_pairs}
+        Output file's prefix: {file_prefix}
+        Seed: {args.seed}
+        """
+    )
     print(f"""
         Model: {args.model_name_or_path}
         Dataset: {args.dataset_name}
         PEFT: {args.with_peft}
-        RAG (QA pairs): {args.with_rag_qa_pairs}
-        RAG (highlight): {args.with_rag_sentence_highlight}
-        RAG (rerank): {args.with_rag_sentence_rerank}
-        RAG (corpus): {args.with_rag_corpus}
         Retrieval method: {args.retrieval_method}
+        RAG (corpus): {args.with_rag_corpus} with {args.num_grounded_passages} grounded passages
+        RAG (Passage Rerank): {args.with_rag_passage_rerank} with {args.num_retrieved_passages} retrieved passages used after top-1 reranked passage
+        RAG (Sentence Rerank): {args.with_rag_sentence_rerank} with {args.num_reranked_sentences} reranked sentences
+        RAG (highlight): {args.with_rag_sentence_highlight} 
+        RAG (QA pairs): {args.with_rag_qa_pairs}
         Output file's prefix: {file_prefix}
         Seed: {args.seed}
         """
@@ -295,7 +297,7 @@ def main(args):
     # == Loading the retrieval results (corpus) ==============
     # if args.with_rag_corpus:
     ret_results = {}
-    ret_results_dir = f"{args.data_dir}/retrieved_passage/{args.retrieval_method}_5"
+    ret_results_dir = f"{args.data_dir}/retrieved_passage/{args.retrieval_method}_{args.num_grounded_passages}"
     
     for test_relation_id in test_relation_ids:
         ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.ret_results.jsonl"
@@ -318,7 +320,7 @@ def main(args):
     # == Loading the sentence reranking results ==============
     # if args.with_rag_sentence_rerank:
     ret_sent_rerank = {}
-    ret_results_dir = f"{args.data_dir}/reranked_sentences/{args.retrieval_method}_5"
+    ret_results_dir = f"{args.data_dir}/reranked_sentences/{args.retrieval_method}_{args.num_grounded_passages}"
     for test_relation_id in test_relation_ids:
         ret_results_path = f"{ret_results_dir}/{test_relation_id}.{args.retrieval_method}.set_reranked.jsonl"
         with open (ret_results_path, 'r') as file:
@@ -338,7 +340,7 @@ def main(args):
                     ret_qa_results[data['query_id']] = data
     
     # == Loading the corpus ==================================
-    if args.with_rag_highlighted_passage:
+    if args.with_rag_passage_rerank:
         corpus = {}
         corpus_dir = f"{args.data_dir}/corpus_all"
         for test_relation_id in test_relation_ids:
@@ -462,7 +464,7 @@ def main(args):
                 has_main_context = True   
             
             # == Get highlighted passage =====================
-            if args.with_rag_highlighted_passage:
+            if args.with_rag_passage_rerank:
                 rerank_results = ret_sent_rerank[query_id]['sentences']
                 first_reranked_ref = rerank_results[0]['ref_doc_id']
                 highlighted_passage = corpus[first_reranked_ref]['content']
@@ -565,16 +567,19 @@ if __name__ == "__main__":
     parser.add_argument("--output_file_pre_prefix", type=str)
     parser.add_argument("--with_peft", type=str2bool, default=False)
     
-    parser.add_argument("--with_fewshot_examples", type=str2bool, default=False)
-    parser.add_argument("--with_rag_qa_pairs", type=str2bool, default=False)
-    parser.add_argument("--with_rag_sentence_highlight", type=str2bool, default=False)
+    parser.add_argument("--retrieval_method", type=str)
+    parser.add_argument("--with_rag_corpus", type=str2bool, default=False)
+    parser.add_argument("--num_grounded_passages", type=int, default=1)
+    
+    parser.add_argument("--with_rag_passage_rerank", type=str2bool, default=False)
+    parser.add_argument("--num_retrieved_passages", type=int, default=1)
     parser.add_argument("--with_rag_sentence_rerank", type=str2bool, default=False)
-    parser.add_argument("--with_rag_highlighted_passage", type=str2bool, default=False)
     parser.add_argument("--num_reranked_sentences", type=int, default=1)
     
-    parser.add_argument("--with_rag_corpus", type=str2bool, default=False)
-    parser.add_argument("--num_retrieved_passages", type=int, default=1)
-    parser.add_argument("--retrieval_method", type=str)
+    parser.add_argument("--with_rag_sentence_highlight", type=str2bool, default=False)
+    parser.add_argument("--with_rag_qa_pairs", type=str2bool, default=False)
+    parser.add_argument("--with_fewshot_examples", type=str2bool, default=False)
+    
     parser.add_argument("--seed", type=int)
     
     args = parser.parse_args()

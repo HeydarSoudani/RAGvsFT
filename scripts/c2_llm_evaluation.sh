@@ -16,17 +16,18 @@ srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
     --model_name_or_path "stabilityai/stablelm-2-zephyr-1_6b" \
     --llm_model_name "stable_lm2" \
     --dataset_name "popQA" \
-    --output_file_pre_prefix "1rp_3p_bf" \
     --with_peft False \
-    --with_fewshot_examples False \
-    --with_rag_qa_pairs False \
-    --with_rag_sentence_highlight False \
+    --retrieval_method "dpr" \
+    --with_rag_corpus False \
+    --num_grounded_passages 3 \
+    --with_rag_passage_rerank True \
+    --num_retrieved_passages 3 \
     --with_rag_sentence_rerank False \
     --num_reranked_sentences 2 \
-    --with_rag_corpus False \
-    --num_retrieved_passages 3 \
-    --with_rag_highlighted_passage True \
-    --retrieval_method "dpr" \
+    --with_rag_sentence_highlight False \
+    --with_rag_qa_pairs False \
+    --with_fewshot_examples False \
+    --output_file_pre_prefix "1rp_3p_bf" \
     --seed 42
 
 
