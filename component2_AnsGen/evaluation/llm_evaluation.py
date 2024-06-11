@@ -11,11 +11,6 @@ import logging
 from tqdm import tqdm
 
 
-from huggingface_hub import notebook_login
-os.environ['HF_TOKEN'] = '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'
-notebook_login()
-
-
 logging.basicConfig(level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     datefmt='%m/%d/%Y %I:%M:%S %p',
