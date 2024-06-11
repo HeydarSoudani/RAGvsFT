@@ -200,7 +200,7 @@ def main(args):
     os.makedirs(out_results_dir, exist_ok=True)
     
     rag_part = "rag_" if (args.with_rag_corpus or args.with_rag_sentence_rerank or args.with_rag_qa_pairs or args.with_rag_passage_rerank) else "norag_"
-    peft_part = "peft_" if args.with_peft else "full"
+    peft_part = "peft_" if args.with_peft else "full_"
     bf_af_part = "af_" if args.with_peft else "bf_"
     ret_passage_part = f"{args.num_retrieved_passages}p_"
     if args.with_rag_sentence_rerank:
