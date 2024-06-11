@@ -10,6 +10,12 @@ import random
 import logging
 from tqdm import tqdm
 
+
+from huggingface_hub import login
+os.environ['HF_TOKEN'] = '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'
+login(token=os.getenv('HF_TOKEN'), add_to_git_credential=True)
+
+
 logging.basicConfig(level=logging.DEBUG,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     datefmt='%m/%d/%Y %I:%M:%S %p',
