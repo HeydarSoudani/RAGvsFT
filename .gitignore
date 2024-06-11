@@ -124,7 +124,6 @@ data/dataset
 archive
 # models
 
-
 analysis/archive
 analysis_2
 analysis/images_results
@@ -138,6 +137,7 @@ component0_preprocessing/generated_data/popQA_costomized/results/slms
 component0_preprocessing/generated_data/popQA_costomized/results/moe_test
 component0_preprocessing/generated_data/popQA_costomized/results/recent
 component0_preprocessing/generated_data/popQA_costomized/results/results_two_side
+component0_preprocessing/generated_data/popQA_costomized/results/for_reranking
 component0_preprocessing/generated_data/EQ_costomized/before_changing_pageviews
 component0_preprocessing/generated_data/EQ_costomized/results/flant5
 component0_preprocessing/generated_data/EQ_costomized/results/llms
