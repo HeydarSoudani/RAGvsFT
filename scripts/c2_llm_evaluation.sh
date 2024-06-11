@@ -27,7 +27,7 @@ srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
     --with_rag_sentence_highlight False \
     --with_rag_qa_pairs False \
     --with_fewshot_examples False \
-    --output_file_pre_prefix "base_1rp_3p_bf" \
+    --output_file_pre_prefix "base_" \
     --seed 42
 
 

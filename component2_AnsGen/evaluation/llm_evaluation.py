@@ -199,12 +199,22 @@ def main(args):
     out_results_dir = f"{args.output_result_dir}/results"
     os.makedirs(out_results_dir, exist_ok=True)
     
-    rag_part = "rag" if (args.with_rag_corpus or args.with_rag_sentence_rerank or args.with_rag_qa_pairs or args.with_rag_passage_rerank) else "norag"
-    peft_part = "peft" if args.with_peft else "full"
-    if (args.with_rag_corpus or args.with_rag_sentence_rerank or args.with_rag_qa_pairs):
-        file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{args.retrieval_method}_{peft_part}_{args.num_grounded_passages}"
+    rag_part = "rag_" if (args.with_rag_corpus or args.with_rag_sentence_rerank or args.with_rag_qa_pairs or args.with_rag_passage_rerank) else "norag_"
+    peft_part = "peft_" if args.with_peft else "full"
+    bf_af_part = "af_" if args.with_peft else "bf_"
+    ret_passage_part = f"{args.num_retrieved_passages}p_"
+    if args.with_rag_sentence_rerank:
+        reranked_part = f"{args.num_reranked_sentences}rs_"
+    elif args.with_rag_passage_rerank:
+        reranked_part = f"1rp_"
     else:
-        file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}_{rag_part}_{peft_part}"
+        reranked_part = ""
+    
+    
+    if (args.with_rag_corpus or args.with_rag_sentence_rerank or args.with_rag_qa_pairs):
+        file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}{reranked_part}{ret_passage_part}{bf_af_part}{rag_part}{args.retrieval_method}_{peft_part}{args.num_grounded_passages}g"
+    else:
+        file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}{bf_af_part}{rag_part}{peft_part}"
     
     out_results_path = f"{out_results_dir}/{file_prefix}_results.jsonl"
     
