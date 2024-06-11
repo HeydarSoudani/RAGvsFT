@@ -735,12 +735,15 @@ def sig_test(file1, file2):
         print("The difference in performance is not statistically significant.")
 
 def wilcoxon_sig_test(file1, file2):
-    # Function to load accuracy data from jsonl file
     def load_accuracy_data(file_path):
         with open(file_path, 'r') as file:
             data = [json.loads(line) for line in file]
         return {item["query_id"]: int(item["is_correct"]) for item in data}
 
+    def calculate_accuracy(labels):
+        accuracy = (sum(labels) / len(labels))*100
+        return accuracy
+        
     accuracy_data_llm1 = load_accuracy_data(file1)
     accuracy_data_llm2 = load_accuracy_data(file2)
 
@@ -749,11 +752,23 @@ def wilcoxon_sig_test(file1, file2):
     accuracy_llm1 = [accuracy_data_llm1[query_id] for query_id in query_ids]
     accuracy_llm2 = [accuracy_data_llm2[query_id] for query_id in query_ids]
 
+    llm1_acc = calculate_accuracy(accuracy_llm1)
+    print(f'LLM1 Accuracy: {llm1_acc:.2f}')
+    llm2_acc = calculate_accuracy(accuracy_llm2)
+    print(f'LLM2 Accuracy: {llm2_acc:.2f}')
+
     # Perform the Wilcoxon signed-rank test
     stat, p_value = wilcoxon(accuracy_llm1, accuracy_llm2)
 
     # Output the test statistic and p-value
     print(f"Wilcoxon test statistic: {stat}, p-value: {p_value}")
+    
+    # Interpretation
+    if p_value < 0.05:
+        print("The difference in performance is statistically significant.")
+    else:
+        print("The difference in performance is not statistically significant.")
+    
     
 
 def main():
@@ -770,8 +785,8 @@ def main():
     # plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
     
     # == 4) Significance test
-    file1 = "component0_preprocessing/generated_data/popQA_costomized/results/recent/popQA_mistral_2rs_3p_bf_rag_dpr_full_results.jsonl"
-    file2 = "component0_preprocessing/generated_data/popQA_costomized/results/recent/popQA_mistral_5p_bf_rag_dpr_full_results.jsonl"
+    file1 = "component0_preprocessing/generated_data/popQA_costomized/results/recent/popQA_stable_lm2_3p_af_rag_dpr_peft_results.jsonl"
+    file2 = "component0_preprocessing/generated_data/popQA_costomized/results/popQA_stable_lm2_1rp_3p_bf_norag_full_results.jsonl"
     # sig_test(file1, file2)
     wilcoxon_sig_test(file1, file2)
     
