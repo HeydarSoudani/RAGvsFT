@@ -232,20 +232,20 @@ def main(args):
         Seed: {args.seed}
         """
     )
-    # print(f"""
-    #     Model: {args.model_name_or_path}
-    #     Dataset: {args.dataset_name}
-    #     PEFT: {args.with_peft}
-    #     Retrieval method: {args.retrieval_method}
-    #     RAG (corpus): {args.with_rag_corpus} with {args.num_grounded_passages} grounded passages
-    #     RAG (Passage Rerank): {args.with_rag_passage_rerank} with {args.num_retrieved_passages} retrieved passages used after top-1 reranked passage
-    #     RAG (Sentence Rerank): {args.with_rag_sentence_rerank} with {args.num_reranked_sentences} reranked sentences
-    #     RAG (highlight): {args.with_rag_sentence_highlight} 
-    #     RAG (QA pairs): {args.with_rag_qa_pairs}
-    #     Output file's prefix: {file_prefix}
-    #     Seed: {args.seed}
-    #     """
-    # )
+    print(f"""
+        Model: {args.model_name_or_path}
+        Dataset: {args.dataset_name}
+        PEFT: {args.with_peft}
+        Retrieval method: {args.retrieval_method}
+        RAG (corpus): {args.with_rag_corpus} with {args.num_grounded_passages} grounded passages
+        RAG (Passage Rerank): {args.with_rag_passage_rerank} with {args.num_retrieved_passages} retrieved passages used after top-1 reranked passage
+        RAG (Sentence Rerank): {args.with_rag_sentence_rerank} with {args.num_reranked_sentences} reranked sentences
+        RAG (highlight): {args.with_rag_sentence_highlight} 
+        RAG (QA pairs): {args.with_rag_qa_pairs}
+        Output file's prefix: {file_prefix}
+        Seed: {args.seed}
+        """
+    )
     set_seed(args.seed)
     
     ### === Parameters per model
