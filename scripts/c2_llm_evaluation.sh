@@ -22,8 +22,8 @@ srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
     --num_grounded_passages 3 \
     --with_rag_passage_rerank True \
     --num_retrieved_passages 3 \
-    --with_rag_sentence_rerank False \
-    --num_reranked_sentences 2 \
+    --with_rag_sentence_rerank True \
+    --num_reranked_sentences 1 \
     --with_rag_sentence_highlight False \
     --with_rag_qa_pairs False \
     --with_fewshot_examples False \

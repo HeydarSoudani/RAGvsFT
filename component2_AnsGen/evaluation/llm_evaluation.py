@@ -448,13 +448,6 @@ def main(args):
                     print(f"Error decoding JSON for query_id {query_id}: {e}")
                     print(f"Problematic JSON string: {highlight_results[query_id]['highlighted_text']}")
             
-            # == Apply retrieved sentence rerank =============
-            if args.with_rag_sentence_rerank:
-                rerank_results = ret_sent_rerank[query_id]['sentences']
-                reranked_text = "".join(f"{rerank_results[i]['sentence']}, " for i in range(args.num_reranked_sentences) if i < len(rerank_results))
-                pre_context += f"Highlight: {reranked_text}\n"
-                has_pre_context = True
-            
             # == Apply retrieved corpus text =================
             if args.with_rag_corpus:
                 max_token = max_input_tokens - (70 if args.with_rag_qa_pairs else 20)
@@ -470,6 +463,14 @@ def main(args):
                 highlighted_passage = corpus[first_reranked_ref]['content']
                 corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
                 main_context += f"Context: {highlighted_passage}\n\n{corpus_text}\n"
+                has_main_context = True
+            
+            # == Apply retrieved sentence rerank =============
+            if args.with_rag_sentence_rerank:
+                rerank_results = ret_sent_rerank[query_id]['sentences']
+                highlighted_sentences = "".join(f"{rerank_results[i]['sentence']}, " for i in range(args.num_reranked_sentences) if i < len(rerank_results))
+                corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
+                main_context += f"Context: {highlighted_sentences}\n\n{corpus_text}\n"
                 has_main_context = True
             
             # # Adaptive text
