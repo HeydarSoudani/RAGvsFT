@@ -201,7 +201,7 @@ def main(args):
     os.makedirs(out_results_dir, exist_ok=True)
     
     rag_part = "rag_" if (args.with_rag_corpus or args.with_rag_sentence_rerank or args.with_rag_qa_pairs or args.with_rag_passage_rerank) else "norag_"
-    peft_part = "peft_" if args.with_peft else "full_"
+    peft_part = "peft_" if args.with_peft else "full"
     bf_af_part = "af_" if args.with_peft else "bf_"
     ret_passage_part = f"{args.num_retrieved_passages}p_"
     if args.with_rag_sentence_rerank:
@@ -212,8 +212,8 @@ def main(args):
         reranked_part = ""
     
     
-    if (args.with_rag_corpus or args.with_rag_sentence_rerank or args.with_rag_qa_pairs):
-        file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}{reranked_part}{ret_passage_part}{bf_af_part}{rag_part}{args.retrieval_method}_{peft_part}{args.num_grounded_passages}g"
+    if (args.with_rag_corpus or args.with_rag_sentence_rerank or args.with_rag_passage_rerank):
+        file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}{reranked_part}{ret_passage_part}{bf_af_part}{rag_part}{args.retrieval_method}_{peft_part}_{args.num_grounded_passages}g"
     else:
         file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}{bf_af_part}{rag_part}{peft_part}"
     

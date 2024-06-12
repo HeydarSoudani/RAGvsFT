@@ -13,15 +13,15 @@ module load Python/3.10.4-GCCcore-11.3.0
 
 # pip install git+https://github.com/huggingface/transformers
 srun $HOME/RAGvsFT/component2_AnsGen/evaluation/llm_evaluation.py \
-    --model_name_or_path "meta-llama/Meta-Llama-3-8B-Instruct" \
-    --llm_model_name "llama3" \
+    --model_name_or_path "google/flan-t5-base" \
+    --llm_model_name "flant5" \
     --dataset_name "popQA" \
     --with_peft False \
-    --retrieval_method "ideal" \
     --with_rag_corpus False \
+    --retrieval_method "ideal" \
     --num_grounded_passages 3 \
-    --with_rag_passage_rerank False \
     --num_retrieved_passages 3 \
+    --with_rag_passage_rerank True \
     --with_rag_sentence_rerank False \
     --num_reranked_sentences 1 \
     --with_rag_sentence_highlight False \
