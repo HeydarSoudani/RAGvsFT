@@ -764,7 +764,7 @@ def wilcoxon_sig_test(file1, file2):
     print(f"Wilcoxon test statistic: {stat}, p-value: {p_value}")
     
     # Interpretation
-    if p_value < 0.05:
+    if p_value < 0.01:
         print("The difference in performance is statistically significant.")
     else:
         print("The difference in performance is not statistically significant.")
