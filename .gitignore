@@ -138,6 +138,7 @@ component0_preprocessing/generated_data/popQA_costomized/results/moe_test
 component0_preprocessing/generated_data/popQA_costomized/results/recent
 component0_preprocessing/generated_data/popQA_costomized/results/results_two_side
 component0_preprocessing/generated_data/popQA_costomized/results/for_reranking
+component0_preprocessing/generated_data/popQA_costomized/results/for_diff_retrievers
 component0_preprocessing/generated_data/EQ_costomized/before_changing_pageviews
 component0_preprocessing/generated_data/EQ_costomized/results/flant5
 component0_preprocessing/generated_data/EQ_costomized/results/llms
@@ -147,6 +148,8 @@ component0_preprocessing/generated_data/witQA_costomized/results/flant5
 component0_preprocessing/generated_data/witQA_costomized/results/llms
 component0_preprocessing/generated_data/witQA_costomized/results/slms
 component0_preprocessing/generated_data/witQA_costomized/results/results_two_side
+
+
 
 component1_retrieval/data
 component1_retrieval/data_for_bm25
