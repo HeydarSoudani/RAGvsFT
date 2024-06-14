@@ -4,7 +4,7 @@ import ast
 
 
 def main(args):
-    dataset_name = "popQA" # popQA, witQA, EQ
+    dataset_name = "witQA" # popQA, witQA, EQ
     retrieval_method = 'dpr' # ['ideal', 'dpr', 'contriever', 'rerank', 'bm25']
     number_of_passages = 5
     dataset_dir = f"component1_retrieval/data/{dataset_name}"
