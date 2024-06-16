@@ -814,13 +814,13 @@ def main():
     # == 3) Plot QA models output
     # plot_answer_generator_results(per_relation=True, per_bucket=False, only_all=False)
     # plot_answer_generator_results(per_relation=False, per_bucket=True, only_all=False)
-    plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
+    # plot_answer_generator_results(per_relation=False, per_bucket=False, only_all=True)
     
     # == 4) Significance test
-    # file1 = "component0_preprocessing/generated_data/popQA_costomized/results/for_reranking/popQA_mistral_3p_af_rag_ideal_peft_3g_results.jsonl"
-    # file2 = "component0_preprocessing/generated_data/popQA_costomized/results/for_reranking/popQA_mistral_1rs_3p_bf_rag_ideal_full_3g_results.jsonl"
-    # # sig_test(file1, file2)
-    # wilcoxon_sig_test(file1, file2)
+    file1 = "component0_preprocessing/generated_data/EQ_costomized/results/highlighting_retrievers/EQ_stable_lm2_3p_af_rag_ideal_peft__3g_results.jsonl"
+    file2 = "component0_preprocessing/generated_data/EQ_costomized/results/highlighting_retrievers/EQ_stable_lm2_1rp_3p_bf_rag_ideal_full_3g_results.jsonl"
+    # sig_test(file1, file2)
+    wilcoxon_sig_test(file1, file2)
     
 
 if __name__ == "__main__":

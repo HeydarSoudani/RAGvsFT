@@ -35,7 +35,7 @@ nltk.download('punkt')
 
 
 ### === Constants =====================  
-dataset_name = 'popQA' # [popQA, witQA, EQ]
+dataset_name = 'EQ' # [popQA, witQA, EQ]
 
 # PopQA
 if dataset_name == 'popQA':
@@ -870,7 +870,7 @@ def create_train_and_dev_files_pipeline(args, relation_id=None):
                 context = item['content']
                 doc_id = item['doc_id']
                 
-                max_tokens = 512
+                max_tokens = 256
                 chunks = split_text_to_sentences(context, max_tokens)
                 for chunk in chunks:
                     
@@ -926,7 +926,6 @@ def create_train_and_dev_files_pipeline(args, relation_id=None):
         with open(f'{pl_qrels_train_dir}/{relation_id}.qrels-train.json', 'w', encoding='utf-8') as qf:
             json.dump(qrels_train, qf, indent=4)
         
-
     if relation_id == None:
         for corpus_file in os.listdir(corpus_sum_dir):
             if corpus_file.endswith('.corpus.json'):
