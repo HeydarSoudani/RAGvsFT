@@ -861,6 +861,7 @@ def create_train_and_dev_files_pipeline(args, relation_id=None):
         
         with open(f'{corpus_sum_dir}/{corpus_file}', 'r', encoding='utf-8') as cf:
             corpus_data = json.load(cf)
+            print('Number of questions: ', len(corpus_data))
                 
             all_qas = []
             qrels_train = []
