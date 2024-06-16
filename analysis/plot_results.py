@@ -474,6 +474,12 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
     retrieval_model = 'ideal'
     result_files = [
         
+        # FlanT5-small: 
+        {"title": f"-FT/-RAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/flant5/popQA_flant5_sm_bf_norag_full_results.jsonl"},
+        {"title": f"-FT/idealRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/flant5/popQA_flant5_sm_bf_rag_ideal_full_results.jsonl"},
+        {"title": f"+FT/-RAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/flant5/popQA_flant5_sm_af_norag_peft_results.jsonl"},
+        {"title": f"+FT/idealRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/flant5/popQA_flant5_sm_af_rag_ideal_peft_results.jsonl"},
+        
         # FlanT5 base / No FT / popQA
         # {"title": f"-FT/-RAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/flant5/popQA_flant5_bs_bf_norag_full_results.jsonl"},
         # {"title": f"-FT/bm25RAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/for_diff_retrievers/popQA_flant5_base_1p_bf_rag_bm25_full_1_results.jsonl"},
@@ -499,12 +505,12 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
         # {"title": f"-FT/idealRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_bf_rag_ideal_full_results.jsonl"},
         
         # StableLM2 / with FT / popQA
-        {"title": f"+FT/-RAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_norag_peft_results.jsonl"},
-        {"title": f"+FT/bm25RAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/for_diff_retrievers/popQA_stable_lm2_1p_af_rag_bm25_peft_1g_results.jsonl"},
-        {"title": f"+FT/contriverRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/for_diff_retrievers/popQA_stable_lm2_1p_af_rag_contriever_peft_1g_results.jsonl"},
-        {"title": f"+FT/rerankRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/for_diff_retrievers/popQA_stable_lm2_1p_af_rag_rerank_peft_1g_results.jsonl"},
-        {"title": f"+FT/dprRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_rag_dpr_peft_results.jsonl"},
-        {"title": f"+FT/idealRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_rag_ideal_peft_results.jsonl"},
+        # {"title": f"+FT/-RAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_norag_peft_results.jsonl"},
+        # {"title": f"+FT/bm25RAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/for_diff_retrievers/popQA_stable_lm2_1p_af_rag_bm25_peft_1g_results.jsonl"},
+        # {"title": f"+FT/contriverRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/for_diff_retrievers/popQA_stable_lm2_1p_af_rag_contriever_peft_1g_results.jsonl"},
+        # {"title": f"+FT/rerankRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/for_diff_retrievers/popQA_stable_lm2_1p_af_rag_rerank_peft_1g_results.jsonl"},
+        # {"title": f"+FT/dprRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_rag_dpr_peft_results.jsonl"},
+        # {"title": f"+FT/idealRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_rag_ideal_peft_results.jsonl"},
         
         # {"title": "NoFT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_ideal_full_results.jsonl"},
         # {"title": "FT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_ideal_peft_results.jsonl"},

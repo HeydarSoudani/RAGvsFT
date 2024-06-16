@@ -15,11 +15,11 @@ srun $HOME/RAGvsFT/component2_AnsGen/finetuning/flant5_finetuning.py \
     --model_name_or_path "google/flan-t5-small" \
     --llm_model_name "flant5_sm" \
     --dataset_name "popQA" \
-    --generation_method "prompting" \
+    --generation_method "pipeline" \
     --epochs 5 \
     --lr 0.0002 \
     --with_peft True \
-    --version 62
+    --version 101
 
 # Model name: [
     # google/flan-t5-small

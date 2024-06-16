@@ -24,9 +24,9 @@ print("Available GPUs:", torch.cuda.device_count())
 target_relation_ids = 'all'
 subset_percentage = 1.0
 
-# V1: 
+# V1: small
 prompt_prefix = "Answer the question:"
-# V2:
+# V2: others
 # prompt_prefix = "Question:"
 
 def set_seed(seed):
@@ -235,7 +235,7 @@ def load_model(args):
     
     return model, tokenizer, data_collator
 
-def load_training_args(args):    
+def load_training_args(args):
     training_arguments = Seq2SeqTrainingArguments(
         output_dir=args.save_model_dir,
         per_device_train_batch_size=16,
@@ -316,7 +316,7 @@ if __name__ == "__main__":
     parser.add_argument("--model_name_or_path", type=str, required=True)
     parser.add_argument("--llm_model_name", type=str, required=True)
     parser.add_argument("--dataset_name", type=str, required=True)
-    parser.add_argument("--generation_method", type=str)
+    parser.add_argument("--generation_method", type=str, choices=['prompting', 'pipeline'], default='prompting')
     parser.add_argument("--epochs", default=1, type=int)
     parser.add_argument("--lr", default=2e-4, type=float)
     parser.add_argument("--with_peft", type=str2bool, default=False)
