@@ -133,7 +133,7 @@ def load_dataset_qa(tokenizer, test_files):
     print(f"Max target length: {max_target_length}")
     
     # = Tokenize function =====
-    def tokenize_function(examples):        
+    def tokenize_function(examples):
         inputs = [f"{prompt_prefix} {item}" for item in examples['question']]
         model_inputs = tokenizer(
             inputs,
@@ -238,8 +238,8 @@ def load_model(args):
 def load_training_args(args):
     training_arguments = Seq2SeqTrainingArguments(
         output_dir=args.save_model_dir,
-        per_device_train_batch_size=8,
-        per_device_eval_batch_size=8,
+        per_device_train_batch_size=4,
+        per_device_eval_batch_size=4,
         predict_with_generate=True,
         num_train_epochs=args.epochs,
         learning_rate=args.lr, # 5e-5
