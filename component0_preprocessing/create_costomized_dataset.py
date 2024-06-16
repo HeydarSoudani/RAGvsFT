@@ -1301,8 +1301,8 @@ def main(args):
     
     ### ==== Step 3: Creating train & dev & qrels-train files =========
     idx = 0
-    relation_id = relation_ids[idx]
-    print("Dataset: {}, Idx: {}, Relation Id: {}".format(dataset_name, idx, relation_id))
+    relation_id = relation_ids[args.idx]
+    print("Dataset: {}, Idx: {}, Relation Id: {}".format(dataset_name, args.idx, relation_id))
     create_train_and_dev_files_pipeline(args, relation_id=relation_id) # T5-based model
     # create_train_and_dev_files_prompting(relation_id=relation_id)# Zephyr-based model
     # create_ensamble_train_and_dev_files_prompting_llama3(relation_id=relation_id)
@@ -1315,6 +1315,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--qg_model", type=str, required=True)
     parser.add_argument("--ae_model", type=str, required=True)
+    parser.add_argument("--idx", type=int, required=True)
     
     args = parser.parse_args()
     main(args)
