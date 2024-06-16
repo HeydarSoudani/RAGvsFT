@@ -865,7 +865,7 @@ def create_train_and_dev_files_pipeline(args, relation_id=None):
                 
             all_qas = []
             qrels_train = []
-            for item in corpus_data:
+            for idx, item in enumerate(corpus_data):
                 # context = remove_parentheses(item['content'])
                 context = item['content']
                 doc_id = item['doc_id']
@@ -879,7 +879,9 @@ def create_train_and_dev_files_pipeline(args, relation_id=None):
                             qas = model.generate_qa(chunk)
                     
                         if qas is not None:
-                            print(qas)
+                            if idx < 10 or idx % 100 == 0:
+                                print(qas)
+                            
                             for question, answer in qas:                                
                                 
                                 for question, answer in qas:
