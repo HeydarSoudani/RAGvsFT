@@ -264,7 +264,11 @@ def load_training_args(args):
 def main(args):
     # == Create data & output dir ===========================
     args.data_dir = f"component0_preprocessing/generated_data/{args.dataset_name}_costomized"
-    args.output_model_dir = f"component2_AnsGen/models/{args.dataset_name}"
+    
+    if args.output_path:
+        args.output_model_dir = args.output_path
+    else:
+        args.output_model_dir = f"component2_AnsGen/models/{args.dataset_name}"
     os.makedirs(args.output_model_dir, exist_ok=True)
     
     # == Define model output dir ============================
@@ -321,6 +325,7 @@ if __name__ == "__main__":
     parser.add_argument("--lr", default=2e-4, type=float)
     parser.add_argument("--with_peft", type=str2bool, default=False)
     parser.add_argument("--version", default=1, type=int)
+    parser.add_argument("--output_path", type=str, default=None, required=True)
     
     args = parser.parse_args()
     main(args)
