@@ -300,7 +300,10 @@ def load_training_args(args):
 def main(args):
     # == Create data & output dir ===========================
     args.data_dir = f"component0_preprocessing/generated_data/{args.dataset_name}_costomized"
-    args.output_model_dir = f"component2_AnsGen/models/{args.dataset_name}"
+    if args.output_path:
+        args.output_model_dir = args.output_path
+    else:
+        args.output_model_dir = f"component2_AnsGen/models/{args.dataset_name}"
     os.makedirs(args.output_model_dir, exist_ok=True)
     
     # == Define model output dir ============================
@@ -315,7 +318,7 @@ def main(args):
     set_seed(42)
     
     # == Parameters per model ==============================
-    if args.llm_model_name in ['llama2', 'mistral', 'zephyr', 'tiny_llama', 'stable_lm2', 'MiniCPM']:
+    if args.llm_model_name in ['llama2', 'mistral', 'zephyr', 'tiny_llama', 'stable_lm2']:
         args.lora_alpha = 16
         args.lora_dropout = 0.1
         args.lora_r = 64
@@ -411,9 +414,10 @@ if __name__ == "__main__":
     parser.add_argument("--model_name_or_path", type=str, required=True)
     parser.add_argument("--llm_model_name", type=str, required=True)
     parser.add_argument("--dataset_name", type=str, required=True)
-    parser.add_argument("--generation_method", type=str)
+    parser.add_argument("--generation_method", type=str, choices=['prompting', 'pipeline'], default='prompting')
     parser.add_argument("--with_peft", type=str2bool, default=False)
     parser.add_argument("--version", default=1, type=int)
+    parser.add_argument("--output_path", type=str, default=None, required=True)
     
     args = parser.parse_args()
     main(args)
