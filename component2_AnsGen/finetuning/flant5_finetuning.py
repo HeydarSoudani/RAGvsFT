@@ -238,8 +238,8 @@ def load_model(args):
 def load_training_args(args):
     training_arguments = Seq2SeqTrainingArguments(
         output_dir=args.save_model_dir,
-        per_device_train_batch_size=32,
-        per_device_eval_batch_size=32,
+        per_device_train_batch_size=args.batch_size,
+        per_device_eval_batch_size=args.batch_size,
         predict_with_generate=True,
         num_train_epochs=args.epochs,
         learning_rate=args.lr, # 5e-5
@@ -322,6 +322,7 @@ if __name__ == "__main__":
     parser.add_argument("--dataset_name", type=str, required=True)
     parser.add_argument("--generation_method", type=str, choices=['prompting', 'pipeline'], default='prompting')
     parser.add_argument("--epochs", default=1, type=int)
+    parser.add_argument("--batch_size", default=4, type=int)
     parser.add_argument("--lr", default=2e-4, type=float)
     parser.add_argument("--with_peft", type=str2bool, default=False)
     parser.add_argument("--version", default=1, type=int)
