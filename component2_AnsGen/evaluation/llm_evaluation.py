@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import torch
-from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModelForSeq2SeqLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, AutoModelForSeq2SeqLM, AutoConfig
 from transformers import pipeline
 from peft import PeftConfig, PeftModel
 import argparse, os, json
@@ -149,9 +149,12 @@ def load_model(args):
                 # device_map={"": 0}
                 # device_map="auto"
             )
-            
+         
+        config = AutoConfig.from_pretrained(args.model_name_or_path)
+        base_model_name = config._name_or_path 
+           
         tokenizer = AutoTokenizer.from_pretrained(
-            args.model_name_or_path,
+            base_model_name,
             trust_remote_code=True
         )
 
