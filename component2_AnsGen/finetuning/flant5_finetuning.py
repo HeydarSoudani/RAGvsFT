@@ -278,7 +278,12 @@ def main(args):
     
     logging.info(f"""
         Base Model: {args.model_name_or_path}
+        Epoch: {args.epochs}
+        Batch size: {args.batch_size}
+        Lr: {args.lr}
+        With PEFT: {args.with_peft}
         Output Model Dir: {args.save_model_dir}
+        Version: {args.version}
     """)
     set_seed(42)
     
@@ -326,7 +331,7 @@ if __name__ == "__main__":
     parser.add_argument("--lr", default=2e-4, type=float)
     parser.add_argument("--with_peft", type=str2bool, default=False)
     parser.add_argument("--version", default=1, type=int)
-    parser.add_argument("--output_path", type=str, default=None, required=True)
+    parser.add_argument("--output_path", type=str, default=None)
     
     args = parser.parse_args()
     main(args)

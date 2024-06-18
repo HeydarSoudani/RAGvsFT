@@ -3,7 +3,7 @@
 #SBATCH --ntasks=1
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=9
-#SBATCH --partition=gpu
+#SBATCH --partition=gpu_mig
 #SBATCH --time=4:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
