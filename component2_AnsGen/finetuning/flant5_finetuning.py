@@ -273,7 +273,7 @@ def main(args):
     
     # == Define model output dir ============================
     training_approach = "peft" if args.with_peft else "full"
-    args.repo_name = f"HeydarS/{args.llm_model_name}_{args.dataset_name}_{training_approach}_v{args.version}"
+    args.repo_name = f"HeydarS/{args.llm_model_name}_{args.dataset_name}_{args.generation_method}_{training_approach}_v{args.version}"
     args.save_model_dir = os.path.join(args.output_model_dir, args.repo_name.split('/')[-1])
     
     logging.info(f"""
