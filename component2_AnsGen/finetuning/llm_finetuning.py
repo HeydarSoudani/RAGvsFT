@@ -206,6 +206,10 @@ def load_model(args):
                 quantization_config=bnb_config,
                 # torch_dtype=torch.bfloat16,
                 device_map="auto",
+                # trust_remote_code=True,
+                
+                torch_dtype=torch.bfloat16,
+                attn_implementation="flash_attention_2", 
                 trust_remote_code=True,
             )
             model.config.use_cache = False
