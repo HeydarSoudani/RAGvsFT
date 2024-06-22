@@ -152,8 +152,8 @@ def load_model(args):
          
         # config = AutoConfig.from_pretrained(args.model_name_or_path)
         # base_model_name = config._name_or_path 
-        base_model_name = 'google/flan-t5-small'
-        # base_model_name = 'google/flan-t5-base'
+        # base_model_name = 'google/flan-t5-small'
+        base_model_name = 'google/flan-t5-base'
         print(base_model_name)
         
         tokenizer = AutoTokenizer.from_pretrained(
