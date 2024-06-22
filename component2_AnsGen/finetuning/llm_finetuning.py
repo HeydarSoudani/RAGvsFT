@@ -253,6 +253,7 @@ def load_model(args):
         model = AutoModelForCausalLM.from_pretrained(
             args.model_name_or_path,
             # device_map={"": 0}
+            torch_dtype=torch.bfloat16,
             device_map='auto'
         )
         model.config.use_cache = False
