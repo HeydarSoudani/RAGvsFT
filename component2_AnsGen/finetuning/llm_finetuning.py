@@ -204,7 +204,7 @@ def load_model(args):
                 args.model_name_or_path,
                 # load_in_4bit=True,
                 quantization_config=bnb_config,
-                torch_dtype=torch.bfloat16,
+                # torch_dtype=torch.bfloat16,
                 device_map="auto",
                 # trust_remote_code=True,
             )
