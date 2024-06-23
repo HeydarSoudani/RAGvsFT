@@ -119,7 +119,7 @@ def load_model(args):
         elif args.llm_model_name == "flant5":
             base_model = AutoModelForSeq2SeqLM.from_pretrained(
                 config.base_model_name_or_path,
-                # load_in_8bit=True,
+                load_in_8bit=True,
                 # device_map={"":0}
             )
             

@@ -202,16 +202,23 @@ def load_model(args):
             
             model = AutoModelForCausalLM.from_pretrained(
                 args.model_name_or_path,
-                # load_in_4bit=True,
-                quantization_config=bnb_config,
-                # torch_dtype=torch.bfloat16,
-                device_map="auto",
-                # trust_remote_code=True,
-                
-                torch_dtype=torch.bfloat16,
-                attn_implementation="flash_attention_2", 
+                low_cpu_mem_usage=True,
+                return_dict=True,
+                torch_dtype=torch.float16,
+                device_map={"":0}, # Load the entire model on the GPU 0
+                # device_map='auto',
                 trust_remote_code=True,
+                quantization_config=bnb_config,
             )
+            
+            # model = AutoModelForCausalLM.from_pretrained(
+            #     args.model_name_or_path,
+            #     # load_in_4bit=True,
+            #     quantization_config=bnb_config,
+            #     # torch_dtype=torch.bfloat16,
+            #     device_map="auto",
+            #     # trust_remote_code=True,
+            # )
             model.config.use_cache = False
             model.config.pretraining_tp = 1
             model.gradient_checkpointing_enable()
