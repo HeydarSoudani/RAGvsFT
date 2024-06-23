@@ -336,7 +336,7 @@ def main(args):
         args.lora_dropout = 0.1
         args.lora_r = 64
         args.epochs = 5
-        args.batch_size = 4
+        args.batch_size = 8  # stablelm2: 8, other: 4
         args.gradient_accumulation_steps = 1
         args.optim = "paged_adamw_32bit"
         args.lr = 2e-4
