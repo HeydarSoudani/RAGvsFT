@@ -15,12 +15,12 @@ module load Python/3.10.4-GCCcore-11.3.0
 # pip install accelerate==0.27.2
 
 srun $HOME/RAGvsFT/component2_AnsGen/finetuning/llm_finetuning.py \
-    --model_name_or_path "openbmb/MiniCPM-2B-sft-fp32" \
-    --llm_model_name "MiniCPM" \
-    --dataset_name "EQ" \
-    --generation_method "prompting" \
+    --model_name_or_path "stabilityai/stablelm-2-zephyr-1_6b" \
+    --llm_model_name "stable_lm2" \
+    --dataset_name "popQA" \
+    --generation_method "pipeline" \
     --with_peft True \
-    --version 58
+    --version 116
 
 
 # Model name: [
