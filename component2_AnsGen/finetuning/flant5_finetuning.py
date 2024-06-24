@@ -246,7 +246,7 @@ def load_training_args(args):
         evaluation_strategy="epoch",
         logging_strategy="epoch",
         save_strategy="epoch",
-        save_total_limit=3,
+        save_total_limit=2,
         report_to="wandb",
         push_to_hub=False,
         hub_strategy="every_save",
