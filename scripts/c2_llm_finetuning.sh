@@ -17,10 +17,10 @@ module load Python/3.10.4-GCCcore-11.3.0
 srun $HOME/RAGvsFT/component2_AnsGen/finetuning/llm_finetuning.py \
     --model_name_or_path "stabilityai/stablelm-2-zephyr-1_6b" \
     --llm_model_name "stable_lm2" \
-    --dataset_name "popQA" \
+    --dataset_name "EQ" \
     --generation_method "pipeline" \
     --with_peft True \
-    --version 116
+    --version 118
 
 
 # Model name: [

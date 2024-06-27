@@ -321,7 +321,7 @@ def main(args):
     
     # == Define model output dir ============================
     training_approach = "peft" if args.with_peft else "full"
-    args.repo_name = f"HeydarS/{args.llm_model_name}_{args.dataset_name}_{training_approach}_v{args.version}"
+    args.repo_name = f"HeydarS/{args.llm_model_name}_{args.dataset_name}_{args.generation_method}_{training_approach}_v{args.version}"
     args.save_model_dir = os.path.join(args.output_model_dir, args.repo_name.split('/')[-1])
     
     logging.info(f"""
@@ -335,8 +335,8 @@ def main(args):
         args.lora_alpha = 16
         args.lora_dropout = 0.1
         args.lora_r = 64
-        args.epochs = 5
-        args.batch_size = 32  # stablelm2: 32, other: 4
+        args.epochs = 2
+        args.batch_size = 64  # stablelm2: 32, other: 4
         args.gradient_accumulation_steps = 1
         args.optim = "paged_adamw_32bit"
         args.lr = 2e-4
@@ -430,7 +430,7 @@ if __name__ == "__main__":
     parser.add_argument("--generation_method", type=str, choices=['prompting', 'pipeline'], default='prompting')
     parser.add_argument("--with_peft", type=str2bool, default=False)
     parser.add_argument("--version", default=1, type=int)
-    parser.add_argument("--output_path", type=str, default=None, required=True)
+    parser.add_argument("--output_path", type=str, default=None)
     
     args = parser.parse_args()
     main(args)
