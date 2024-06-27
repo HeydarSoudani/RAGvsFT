@@ -124,10 +124,9 @@ data/dataset
 archive
 # models
 
-analysis/archive
+bier
+analysis
 analysis_2
-analysis/images_results
-analysis/on_false_results
 
 component0_preprocessing/generated_data/popQA_costomized/qa_llama3
 component0_preprocessing/archive
