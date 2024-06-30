@@ -4,7 +4,7 @@
 #SBATCH --gpus=1
 #SBATCH --cpus-per-task=18
 #SBATCH --partition=gpu
-#SBATCH --time=10:00:00
+#SBATCH --time=8:00:00
 #SBATCH --output=script_logging/slurm_%A.out
 
 module load 2022
@@ -18,9 +18,9 @@ srun $HOME/RAGvsFT/component2_AnsGen/finetuning/llm_finetuning.py \
     --model_name_or_path "stabilityai/stablelm-2-zephyr-1_6b" \
     --llm_model_name "stable_lm2" \
     --dataset_name "EQ" \
-    --generation_method "pipeline" \
-    --with_peft True \
-    --version 118
+    --generation_method "prompting" \
+    --with_peft False \
+    --version 125
 
 
 # Model name: [

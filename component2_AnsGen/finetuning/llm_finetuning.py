@@ -279,7 +279,8 @@ def load_model(args):
         tokenizer.add_eos_token = True
         tokenizer.add_bos_token, tokenizer.add_eos_token
     
-    return model, tokenizer, peft_config
+    # return model, tokenizer, peft_config
+    return model, tokenizer
 
 def load_training_args(args):
     training_arguments = TrainingArguments(
@@ -299,8 +300,11 @@ def load_training_args(args):
         # weight_decay=args.weight_decay,
         evaluation_strategy="epoch",
         logging_strategy="epoch",
-        save_strategy="epoch",
-        save_total_limit=2,
+        # save_strategy="epoch",
+        # save_total_limit=2,
+        save_strategy='no',
+        save_total_limit=1,
+        load_best_model_at_end=False,
         report_to="wandb",
         push_to_hub=False,
         hub_strategy="every_save",
@@ -335,11 +339,11 @@ def main(args):
         args.lora_alpha = 16
         args.lora_dropout = 0.1
         args.lora_r = 64
-        args.epochs = 2
-        args.batch_size = 64  # stablelm2: 32, other: 4
+        args.epochs = 5
+        args.batch_size = 32  # stablelm2: 32, other: 4
         args.gradient_accumulation_steps = 1
         args.optim = "paged_adamw_32bit"
-        args.lr = 2e-4
+        args.lr = 3e-4
         args.fp16 = False
         args.bf16 = False
         args.weight_decay=0.001
@@ -379,7 +383,8 @@ def main(args):
         args.prompt_template = """<User>\n Question: {question}\n <AI>\n Answer: {answer}"""
     
     # == Load data & model ==================================
-    model, tokenizer, peft_config = load_model(args)
+    # model, tokenizer, peft_config = load_model(args)
+    model, tokenizer = load_model(args)
     test_relation_ids, test_files, relation_files = load_relations_data(args)
     raw_dataset = load_dataset_qa(test_files)
     training_arguments = load_training_args(args)
@@ -395,7 +400,7 @@ def main(args):
         model=model,
         train_dataset=raw_dataset['train'],
         eval_dataset=raw_dataset['dev'],
-        peft_config=peft_config,
+        # peft_config=peft_config,
         dataset_text_field="text",
         max_seq_length=max_seq_length,
         tokenizer=tokenizer,
