@@ -154,7 +154,8 @@ def load_model(args):
         # base_model_name = config._name_or_path 
         # base_model_name = 'google/flan-t5-small'
         # base_model_name = 'google/flan-t5-base'
-        base_model_name = 'google/flan-t5-large'
+        # base_model_name = 'google/flan-t5-large'
+        base_model_name = 'stabilityai/stablelm-2-zephyr-1_6b'
         print(base_model_name)
         
         tokenizer = AutoTokenizer.from_pretrained(
