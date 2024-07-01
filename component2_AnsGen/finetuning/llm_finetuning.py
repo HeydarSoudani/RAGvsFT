@@ -131,7 +131,7 @@ def load_dataset_qa(test_files):
 def load_model(args):
     if args.with_peft:
         
-        if args.llm_model_name in ['llama2', "tiny_llama"]:
+        if args.llm_model_name in ["tiny_llama", 'llama2', 'llama3']:
             bnb_config = BitsAndBytesConfig(
                 load_in_4bit=True,
                 bnb_4bit_quant_type="nf4",
@@ -335,7 +335,7 @@ def main(args):
     set_seed(42)
     
     # == Parameters per model ==============================
-    if args.llm_model_name in ['llama2', 'mistral', 'zephyr', 'tiny_llama', 'stable_lm2']:
+    if args.llm_model_name in ['llama3', 'llama2', 'mistral', 'zephyr', 'tiny_llama', 'stable_lm2']:
         args.lora_alpha = 16
         args.lora_dropout = 0.1
         args.lora_r = 64
@@ -382,6 +382,9 @@ def main(args):
     elif args.llm_model_name == "MiniCPM":
         args.prompt_template = """<User>\n Question: {question}\n <AI>\n Answer: {answer}"""
     
+    elif args.llm_model_name == "llama3":
+        args.prompt_template = """<|begin_of_text|><|start_header_id|>system<|end_header_id|><|eot_id|><|start_header_id|>user<|end_header_id|>\nQuestion: {question}<|eot_id|>\n <|start_header_id|>assistant<|end_header_id|>\n Answer: {answer}<|eot_id|>"""
+    
     # == Load data & model ==================================
     # model, tokenizer, peft_config = load_model(args)
     model, tokenizer = load_model(args)
@@ -389,7 +392,7 @@ def main(args):
     raw_dataset = load_dataset_qa(test_files)
     training_arguments = load_training_args(args)
     
-    if args.llm_model_name in ["llama2", "mistral", "tiny_llama"]:
+    if args.llm_model_name in ["llama3", "llama2", "mistral", "tiny_llama"]:
         max_seq_length = None
     elif args.llm_model_name in ["zephyr", "stable_lm2"]:
         max_seq_length = 512 # 2048

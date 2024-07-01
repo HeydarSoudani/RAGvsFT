@@ -9,8 +9,8 @@ import json
 import os
 
 # === Datasets variables ========================
-dataset_name = 'popQA' # [popQA, witQA, EQ]
-model_idx = 5
+dataset_name = 'EQ' # [popQA, witQA, EQ]
+model_idx = -3
 
 retrieval_models = ["bm25", "contriever", "rerank", "dpr"]
 gen_models = [
@@ -475,10 +475,10 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
     result_files = [
         
         # FlanT5-small: 
-        # {"title": f"-FT/-RAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/flant5/popQA_flant5_sm_bf_norag_full_results.jsonl"},
-        # {"title": f"-FT/idealRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/flant5/popQA_flant5_sm_bf_rag_ideal_full_results.jsonl"},
-        # {"title": f"+FT/-RAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/flant5/popQA_flant5_sm_af_norag_peft_results.jsonl"},
-        # {"title": f"+FT/idealRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/flant5/popQA_flant5_sm_af_rag_ideal_peft_results.jsonl"},
+        {"title": f"-FT/-RAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_norag_full_results.jsonl"},
+        {"title": f"-FT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_ideal_full_results.jsonl"},
+        {"title": f"+FT/-RAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_norag_peft_results.jsonl"},
+        {"title": f"+FT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_ideal_peft_results.jsonl"},
         
         # FlanT5 base / No FT / popQA
         # {"title": f"-FT/-RAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/flant5/popQA_flant5_bs_bf_norag_full_results.jsonl"},
@@ -505,12 +505,12 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
         # {"title": f"-FT/idealRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_bf_rag_ideal_full_results.jsonl"},
         
         # StableLM2 / with FT / popQA
-        {"title": f"+FT/-RAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_norag_peft_results.jsonl"},
-        {"title": f"+FT/bm25RAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/highlighting_retrievers/popQA_stable_lm2_1p_af_rag_bm25_peft_1g_results.jsonl"},
-        {"title": f"+FT/contriverRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/highlighting_retrievers/popQA_stable_lm2_1p_af_rag_contriever_peft_1g_results.jsonl"},
-        {"title": f"+FT/rerankRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/highlighting_retrievers/popQA_stable_lm2_1p_af_rag_rerank_peft_1g_results.jsonl"},
-        {"title": f"+FT/dprRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_rag_dpr_peft_results.jsonl"},
-        {"title": f"+FT/idealRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_rag_ideal_peft_results.jsonl"},
+        # {"title": f"+FT/-RAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_norag_peft_results.jsonl"},
+        # {"title": f"+FT/bm25RAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/highlighting_retrievers/popQA_stable_lm2_1p_af_rag_bm25_peft_1g_results.jsonl"},
+        # {"title": f"+FT/contriverRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/highlighting_retrievers/popQA_stable_lm2_1p_af_rag_contriever_peft_1g_results.jsonl"},
+        # {"title": f"+FT/rerankRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/highlighting_retrievers/popQA_stable_lm2_1p_af_rag_rerank_peft_1g_results.jsonl"},
+        # {"title": f"+FT/dprRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_rag_dpr_peft_results.jsonl"},
+        # {"title": f"+FT/idealRAG", "filename": f"component0_preprocessing/generated_data/popQA_costomized/results/slms/popQA_stable_lm2_af_rag_ideal_peft_results.jsonl"},
         
         # {"title": "NoFT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_bf_rag_ideal_full_results.jsonl"},
         # {"title": "FT/idealRAG", "filename": f"{dataset_dir}/results/{model_type}/{dataset_name}_{model_name}_af_rag_ideal_peft_results.jsonl"},
@@ -698,7 +698,7 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
         
     ### === Only plot "all", per bucket =====
     if only_all:
-        plt.figure(figsize=(8, 5)) 
+        plt.figure(figsize=(8, 4)) 
         custom_xticks = ['b1', 'b2', 'b3', 'b4', 'b5']
         
         for i, (method, _accuracies) in enumerate(ordered_accuracies.items()):
@@ -713,19 +713,20 @@ def plot_answer_generator_results(per_relation=False, per_bucket=False, only_all
                 # buckets = [f'$10^{i}$' for i in range(2, 7)]
                 scores = list(value['per_bucket'].values())
                 # plt.plot(buckets, scores, label=f"{method}: {value_for_print:.2f}", marker='', color=palette(i), linewidth=3)
-                plt.plot(buckets, scores, label=f"{method.split('/')[-1]}", marker='', color=palette(i), linewidth=3)
-                plt.xticks(range(0, len(custom_xticks)), custom_xticks)
+                plt.plot(buckets, scores, label=f"{method}", marker='o', color=palette(i), linewidth=3)
+                plt.xticks(range(0, len(custom_xticks)), custom_xticks, fontsize=18)
 
         
         # plt.title(f"A) {model_name}", fontdict=title_font)
-        plt.xlabel("Popularity (pageviews)", fontdict=font)
-        plt.ylabel("Accuracy", fontdict=font)
+        plt.yticks([0.3, 0.6, 0.9], fontsize=20)
+        # plt.xlabel("Popularity (pageviews)", fontdict=font)
+        # plt.ylabel("Accuracy", fontdict=font)
         plt.ylim(0, 1.0)
         
         # plt.legend(ncol=3, fontsize=10, loc='upper center', bbox_to_anchor=(0.5, 1.2))
         # plt.tight_layout(rect=[0, 0, 1, 0.95])
         
-        plt.legend(ncol=3, loc='upper center', fontsize=10)
+        # plt.legend(ncol=4, loc='upper center', fontsize=11)
         plt.tight_layout()
         
         # plt.savefig(f"main_{model_name}.pdf", format='pdf', dpi=1600)
