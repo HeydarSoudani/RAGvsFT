@@ -279,8 +279,8 @@ def load_model(args):
         tokenizer.add_eos_token = True
         tokenizer.add_bos_token, tokenizer.add_eos_token
     
-    # return model, tokenizer, peft_config
-    return model, tokenizer
+    return model, tokenizer, peft_config
+    # return model, tokenizer
 
 def load_training_args(args):
     training_arguments = TrainingArguments(
@@ -300,11 +300,11 @@ def load_training_args(args):
         # weight_decay=args.weight_decay,
         evaluation_strategy="epoch",
         logging_strategy="epoch",
-        # save_strategy="epoch",
-        # save_total_limit=2,
-        save_strategy='no',
-        save_total_limit=1,
-        load_best_model_at_end=False,
+        save_strategy="epoch",
+        save_total_limit=2,
+        # save_strategy='no',
+        # save_total_limit=1,
+        # load_best_model_at_end=False,
         report_to="wandb",
         push_to_hub=False,
         hub_strategy="every_save",
@@ -332,7 +332,7 @@ def main(args):
         Base Model: {args.model_name_or_path}
         Output Model Dir: {args.save_model_dir}
     """)
-    set_seed(42)
+    set_seed(1)
     
     # == Parameters per model ==============================
     if args.llm_model_name in ['llama3', 'llama2', 'mistral', 'zephyr', 'tiny_llama', 'stable_lm2']:
@@ -340,10 +340,10 @@ def main(args):
         args.lora_dropout = 0.1
         args.lora_r = 64
         args.epochs = 5
-        args.batch_size = 32  # stablelm2: 32, other: 4
+        args.batch_size = 4  # stablelm2: 32, other: 4
         args.gradient_accumulation_steps = 1
         args.optim = "paged_adamw_32bit"
-        args.lr = 3e-4
+        args.lr = 2e-4
         args.fp16 = False
         args.bf16 = False
         args.weight_decay=0.001
@@ -386,8 +386,8 @@ def main(args):
         args.prompt_template = """<|begin_of_text|><|start_header_id|>system<|end_header_id|><|eot_id|><|start_header_id|>user<|end_header_id|>\nQuestion: {question}<|eot_id|>\n <|start_header_id|>assistant<|end_header_id|>\n Answer: {answer}<|eot_id|>"""
     
     # == Load data & model ==================================
-    # model, tokenizer, peft_config = load_model(args)
-    model, tokenizer = load_model(args)
+    model, tokenizer, peft_config = load_model(args)
+    # model, tokenizer = load_model(args)
     test_relation_ids, test_files, relation_files = load_relations_data(args)
     raw_dataset = load_dataset_qa(test_files)
     training_arguments = load_training_args(args)
@@ -403,7 +403,7 @@ def main(args):
         model=model,
         train_dataset=raw_dataset['train'],
         eval_dataset=raw_dataset['dev'],
-        # peft_config=peft_config,
+        peft_config=peft_config,
         dataset_text_field="text",
         max_seq_length=max_seq_length,
         tokenizer=tokenizer,

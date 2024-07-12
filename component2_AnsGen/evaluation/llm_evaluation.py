@@ -219,7 +219,6 @@ def main(args):
     else:
         reranked_part = ""
     
-    
     if (args.with_rag_corpus or args.with_rag_sentence_rerank or args.with_rag_passage_rerank):
         file_prefix = f"{args.dataset_name}_{args.llm_model_name}_{args.output_file_pre_prefix}{reranked_part}{ret_passage_part}{bf_af_part}{rag_part}{args.retrieval_method}_{peft_part}_{args.num_grounded_passages}g"
     else:
@@ -294,8 +293,10 @@ def main(args):
         max_input_tokens = 512
     elif args.llm_model_name in ["tiny_llama"]:
         max_input_tokens = 1024
-    elif args.llm_model_name in ["llama3", "llama2", "mistral", "zephyr"]:
+    elif args.llm_model_name in ["llama2", "mistral", "zephyr"]:
         max_input_tokens = 2048
+    elif args.llm_model_name in ["llama3"]:
+        max_input_tokens = 8192
     
     
     # === Load model and tokenizer ==========================
@@ -477,19 +478,23 @@ def main(args):
             
             # == Get highlighted passage =====================
             if args.with_rag_passage_rerank:
+                max_token = max_input_tokens - 200
                 rerank_results = ret_sent_rerank[query_id]['sentences']
                 first_reranked_ref = rerank_results[0]['ref_doc_id']
                 highlighted_passage = corpus[first_reranked_ref]['content']
                 corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
-                main_context += f"Context: {highlighted_passage}\n\n{corpus_text}\n"
+                rag_text = truncate_text(f"{highlighted_passage}\n\n{corpus_text}", max_token)
+                main_context += f"Context: {rag_text}\n"
                 has_main_context = True
             
             # == Apply retrieved sentence rerank =============
             if args.with_rag_sentence_rerank:
+                max_token = max_input_tokens - 200
                 rerank_results = ret_sent_rerank[query_id]['sentences']
                 highlighted_sentences = "".join(f"{rerank_results[i]['sentence']}, " for i in range(args.num_reranked_sentences) if i < len(rerank_results))
                 corpus_text = "".join(ret_results[query_id]['ctxs'][i]['text'] for i in range(args.num_retrieved_passages) if i < len(ret_results[query_id]['ctxs']))
-                main_context += f"Context: {highlighted_sentences}\n\n{corpus_text}\n"
+                rag_text = truncate_text(f"{highlighted_sentences}\n\n{corpus_text}", max_token)
+                main_context += f"Context: {rag_text}\n"
                 has_main_context = True
             
             # # Adaptive text
@@ -514,7 +519,11 @@ def main(args):
             n_max_trial = 5
             for i in range(n_max_trial):
                 try:
-                    result = pipe(prompt)[0]['generated_text']
+                    result = pipe(
+                        prompt,
+                        max_new_tokens=max_output_tokens,
+                        pad_token_id=tokenizer.pad_token_id
+                    )[0]['generated_text']
                     break
                 except Exception as e:
                     print(f"Try #{i+1} for Query: {query_id}")
